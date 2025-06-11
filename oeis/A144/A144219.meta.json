@@ -1,5 +1,5 @@
 {
-  "description": "Eigentriangle, row sums = number of ordered partitions of n into powers of 2",
+  "description": "Eigentriangle, row sums = number of ordered partitions of n into powers of 2.",
   "id": "A144219",
   "mentions": [
     "A023359",

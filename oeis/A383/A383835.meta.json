@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] whose compositional square is the identity permutation or its reverse.",
+  "id": "A383835",
+  "mentions": [
+    "A000085",
+    "A000142",
+    "A037224"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

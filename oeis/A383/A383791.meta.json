@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of the sequence whose Dirichlet convolution with itself yields fourth powers (A000583).",
+  "id": "A383791",
+  "mentions": [
+    "A000583",
+    "A001620",
+    "A299149",
+    "A299150",
+    "A318512",
+    "A318649",
+    "A383768",
+    "A383769",
+    "A383792"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

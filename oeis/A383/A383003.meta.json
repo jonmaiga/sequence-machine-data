@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n} (-n)^(d-1).",
+  "id": "A383003",
+  "mentions": [
+    "A101561",
+    "A101562",
+    "A101563",
+    "A262843",
+    "A308814",
+    "A382998",
+    "A383010",
+    "A383012"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

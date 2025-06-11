@@ -1,13 +1,18 @@
 {
   "description": "Primes in either the numerator or denominator of continued fraction convergents to Pi.",
   "id": "A224936",
-  "mentions": [],
+  "mentions": [
+    "A002485",
+    "A002486",
+    "A086785",
+    "A086788"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

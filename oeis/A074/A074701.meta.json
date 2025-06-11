@@ -2,7 +2,8 @@
   "description": "Numbers k such that k = Sum_{d|phi(k)} mu(phi(d))*phi(k)/d.",
   "id": "A074701",
   "mentions": [
-    "A000351"
+    "A000351",
+    "A163167"
   ],
   "tags": [
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Table with T(n,n) = n, T(n,k) = xor(T(n-1,k-1), T(n-1,k))",
+  "description": "Table with T(n,n) = n, T(n,k) = xor(T(n-1,k-1), T(n-1,k)).",
   "id": "A195916",
   "mentions": [
     "A003987",

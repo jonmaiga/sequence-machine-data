@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..n} 4^k*F(k) where F(k) is the k-th Fibonacci number.",
   "id": "A082988",
   "mentions": [
+    "A000045",
     "A014334",
     "A082987",
     "A119282"

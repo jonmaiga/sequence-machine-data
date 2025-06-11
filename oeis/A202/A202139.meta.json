@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. log(1/(1-arctanh(x))).",
+  "description": "Expansion of e.g.f. log(1/(1-artanh(x))).",
   "id": "A202139",
   "mentions": [
     "A003704",

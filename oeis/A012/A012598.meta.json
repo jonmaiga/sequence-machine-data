@@ -1,5 +1,5 @@
 {
-  "description": "Eexpansion of e.g.f. exp(arcsinh(x)*arcsin(x)).",
+  "description": "Expansion of e.g.f. exp(arcsinh(x)*arcsin(x)).",
   "id": "A012598",
   "mentions": [],
   "tags": [

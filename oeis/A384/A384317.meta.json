@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n with more than one possible way to choose disjoint strict partitions of each part.",
+  "id": "A384317",
+  "mentions": [
+    "A098859",
+    "A179009",
+    "A239455",
+    "A299200",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A357982",
+    "A381432",
+    "A381433",
+    "A381454",
+    "A382525",
+    "A382912",
+    "A382913",
+    "A383533",
+    "A383706",
+    "A383707",
+    "A383708",
+    "A383710",
+    "A383711",
+    "A384318",
+    "A384319",
+    "A384320",
+    "A384321",
+    "A384322",
+    "A384323",
+    "A384347"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

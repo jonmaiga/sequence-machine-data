@@ -1,13 +1,16 @@
 {
-  "description": "a(n)=(-1)^(n+1)*6*(36^n-1)*B(2n) where B(k) denotes the k-th Bernoulli number.",
+  "description": "a(n) = (-1)^(n+1)*6*(36^n-1)*B(2n) where B(k) denotes the k-th Bernoulli number.",
   "id": "A090646",
-  "mentions": [],
+  "mentions": [
+    "A027641",
+    "A027642"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

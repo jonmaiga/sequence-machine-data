@@ -2,6 +2,7 @@
   "description": "Product of elements in the simple continued fraction for (1+1/n)^n.",
   "id": "A071599",
   "mentions": [
+    "A002210",
     "A069887"
   ],
   "tags": [

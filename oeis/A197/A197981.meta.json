@@ -1,5 +1,5 @@
 {
-  "description": "Round((8*n+1/n)^n)",
+  "description": "Round((8*n+1/n)^n).",
   "id": "A197981",
   "mentions": [
     "A014056",

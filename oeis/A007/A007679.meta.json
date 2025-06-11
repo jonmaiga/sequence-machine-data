@@ -1,10 +1,7 @@
 {
   "description": "If n mod 4 = 0 then 2^(n-1)+1 elif n mod 4 = 2 then 2^(n-1)-1 else 2^(n-1).",
   "id": "A007679",
-  "mentions": [
-    "A007909",
-    "A007910"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",

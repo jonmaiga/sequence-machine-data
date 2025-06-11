@@ -1,9 +1,10 @@
 {
-  "description": "Numbers k such that reverse(k+6) = 2.",
+  "description": "Numbers k such that R(k+6) = 2.",
   "id": "A086946",
   "mentions": [
     "A004086",
-    "A086949"
+    "A086949",
+    "A173833"
   ],
   "tags": [
     "base",

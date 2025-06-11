@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: row n contains the sequence n, p(n), s(p(n)), p(s(p(n))), p(p(s(p(n)))), s(p(p(s(p(n))))), ..., repeatedy applying (p,s,p) to n, where p = phi (A000010), s = sigma = (A000203), stopping after the first 1 is reached. If 1 is never reached, row n contains n, -1.",
+  "description": "Irregular triangle read by rows: row n contains the sequence n, p(n), s(p(n)), p(s(p(n))), p(p(s(p(n)))), s(p(p(s(p(n))))), ..., repeatedly applying (p,s,p) to n, where p = phi (A000010), s = sigma = (A000203), stopping after the first 1 is reached. If 1 is never reached, row n contains n, -1.",
   "id": "A334523",
   "mentions": [
     "A000010",

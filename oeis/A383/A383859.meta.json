@@ -1,0 +1,25 @@
+{
+  "description": "Central angle of the solution of the Tammes problem for 7 points on the sphere (in radians).",
+  "id": "A383859",
+  "mentions": [
+    "A019669",
+    "A019819",
+    "A105199",
+    "A137914",
+    "A217695",
+    "A340918",
+    "A381756",
+    "A383860",
+    "A383861"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

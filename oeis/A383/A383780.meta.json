@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of n-digit terms in A383779.",
+  "id": "A383780",
+  "mentions": [
+    "A383779"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..7 arrays with every 2X2 subblock having the sum of the absolute values of the edge differences equal to 14",
+  "description": "Number of (n+1)X(2+1) 0..7 arrays with every 2X2 subblock having the sum of the absolute values of the edge differences equal to 14.",
   "id": "A234339",
   "mentions": [
     "A234343"

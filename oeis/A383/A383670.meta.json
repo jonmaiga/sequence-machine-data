@@ -1,0 +1,20 @@
+{
+  "description": "Limiting word, as a sequence, obtained by prefixing with 0 the limiting sequence of s(n) defined by s(0) = 0, s(1) = 12, s(n) = the concatenation of s(n - 1) and s(n - 2).",
+  "id": "A383670",
+  "mentions": [
+    "A000045",
+    "A001950",
+    "A003849",
+    "A026352",
+    "A276885",
+    "A383671"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

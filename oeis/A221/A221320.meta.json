@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n summing to n without equal adjacent values modulo 7",
+  "description": "Number of nonnegative integer arrays of length n summing to n without equal adjacent values modulo 7.",
   "id": "A221320",
   "mentions": [
     "A221321"

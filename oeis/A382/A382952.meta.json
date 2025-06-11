@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of intercalates in an extended self-orthogonal diagonal Latin square of order n.",
+  "id": "A382952",
+  "mentions": [
+    "A092237",
+    "A307164",
+    "A309210",
+    "A309598",
+    "A309599",
+    "A360223",
+    "A382957"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

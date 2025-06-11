@@ -1,5 +1,5 @@
 {
-  "description": "\"Upper positive integers\": n is in the sequence iff in the representation n=A000695(k)+2*A000695(l) satisfies inequality A000695(k) < A000695(l)",
+  "description": "\"Upper positive integers\": n is in the sequence iff in the representation n=A000695(k)+2*A000695(l) satisfies inequality A000695(k) < A000695(l).",
   "id": "A152754",
   "mentions": [
     "A000695",

@@ -1,0 +1,14 @@
+{
+  "description": "Number of independent vertex sets and vertex covers in the n-Sierpinski carpet graph.",
+  "id": "A292707",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

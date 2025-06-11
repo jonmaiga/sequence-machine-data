@@ -1,5 +1,5 @@
 {
-  "description": "An involution of nonnegative integers: signature permutation of Catalan automorphism which is obtained with recursion schema RIBS from automorphism *A085161",
+  "description": "An involution of nonnegative integers: signature permutation of Catalan automorphism which is obtained with recursion schema RIBS from automorphism *A085161.",
   "id": "A123719",
   "mentions": [
     "A001405",

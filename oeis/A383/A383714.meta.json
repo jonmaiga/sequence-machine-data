@@ -1,0 +1,21 @@
+{
+  "description": "Integers k such that there exists an integer 0",
+  "id": "A383714",
+  "mentions": [
+    "A002046",
+    "A063990",
+    "A259180",
+    "A383239",
+    "A383483",
+    "A383484"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

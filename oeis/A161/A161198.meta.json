@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of polynomial coefficients related to the series expansions of (1-x)^((-1-2*n)/2)",
+  "description": "Triangle of polynomial coefficients related to the series expansions of (1-x)^((-1-2*n)/2).",
   "id": "A161198",
   "mentions": [
     "A000012",

@@ -1,0 +1,19 @@
+{
+  "description": "Index of record gaps between totient numbers.",
+  "id": "A383890",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A083533",
+    "A383889"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

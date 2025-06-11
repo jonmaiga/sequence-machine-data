@@ -2,10 +2,12 @@
   "description": "Zigzag modulo 7.",
   "id": "A074068",
   "mentions": [
+    "A002162",
     "A074066",
     "A074067"
   ],
   "tags": [
+    "easy",
     "formulas",
     "look",
     "nonn"

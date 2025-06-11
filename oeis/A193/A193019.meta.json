@@ -1,5 +1,5 @@
 {
-  "description": "-log(log(2)) / log(2)",
+  "description": "-log(log(2)) / log(2).",
   "id": "A193019",
   "mentions": [
     "A002162",

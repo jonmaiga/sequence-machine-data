@@ -1,5 +1,5 @@
 {
-  "description": "A007318 + A065941 - A168561.",
+  "description": "Triangle read by rows: T(n,k) = A007318(n,k) + A065941(n,k) - A168561(n,k).",
   "id": "A131376",
   "mentions": [
     "A007318",
@@ -11,14 +11,13 @@
     "A309213"
   ],
   "tags": [
-    "formulas",
-    "more",
+    "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 78,
     "source": "joeis"
   }
 }

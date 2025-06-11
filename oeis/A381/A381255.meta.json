@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers not of the form round(2^(k+2)/5). Complement of A007910.",
+  "id": "A381255",
+  "mentions": [
+    "A007910"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

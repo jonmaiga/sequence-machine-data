@@ -1,0 +1,24 @@
+{
+  "description": "Nonsquarefree numbers that are squarefree numbers raised to an even power.",
+  "id": "A384517",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A062770",
+    "A072774",
+    "A072777",
+    "A231273",
+    "A231327",
+    "A340674",
+    "A384518"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

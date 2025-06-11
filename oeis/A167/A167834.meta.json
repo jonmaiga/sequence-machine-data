@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with distinct digits appearing in partition of decimal expansion of square root of 2. (A002193)",
+  "description": "Numbers with distinct digits appearing in partition of decimal expansion of square root of 2. (A002193).",
   "id": "A167834",
   "mentions": [
     "A002193",

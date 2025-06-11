@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of successive merge positions when Fibonacci-sorting an infinite list.",
+  "id": "A383977",
+  "mentions": [
+    "A000045",
+    "A194030"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

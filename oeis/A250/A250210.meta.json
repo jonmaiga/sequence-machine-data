@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows in which row n lists the prime factors of the duodecimal repunit ((12^n-1)/11). (Written in base 10)",
+  "description": "Irregular triangle read by rows in which row n lists the prime factors of the duodecimal repunit ((12^n-1)/11). (Written in base 10).",
   "id": "A250210",
   "mentions": [
     "A004064",

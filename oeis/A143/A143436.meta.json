@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x*A(x))^4.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x*A(x))^4.",
   "id": "A143436",
   "mentions": [
     "A143426",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "joeis"
   }
 }

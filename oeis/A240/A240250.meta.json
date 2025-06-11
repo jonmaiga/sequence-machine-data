@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal to the sum of elements to its left or the sum of the elements above it or the sum of the elements diagonally to its northwest or the sum of the elements antidiagonally to its northeast, modulo 4",
+  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal to the sum of elements to its left or the sum of the elements above it or the sum of the elements diagonally to its northwest or the sum of the elements antidiagonally to its northeast, modulo 4.",
   "id": "A240250",
   "mentions": [
     "A238768"

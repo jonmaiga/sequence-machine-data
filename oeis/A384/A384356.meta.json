@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k*(k+1)/2 * x)^((1/18) * (2/3)^k).",
+  "id": "A384356",
+  "mentions": [
+    "A384362"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

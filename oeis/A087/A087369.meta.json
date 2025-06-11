@@ -1,15 +1,17 @@
 {
   "description": "Smallest palindromic square multiple of the n-th palindrome.",
   "id": "A087369",
-  "mentions": [],
+  "mentions": [
+    "A002778",
+    "A002779"
+  ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

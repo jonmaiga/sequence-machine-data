@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)^3*(1-11x))",
+  "description": "Expansion of 1/((1-x)^3*(1-11x)).",
   "id": "A229611",
   "mentions": [
     "A002662",

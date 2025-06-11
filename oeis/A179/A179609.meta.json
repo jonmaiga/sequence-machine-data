@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(5-(-1)^n-6*n)*2^(n-2)",
+  "description": "a(n)=(5-(-1)^n-6*n)*2^(n-2).",
   "id": "A179609",
   "mentions": [
     "A179597"

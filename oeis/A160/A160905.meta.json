@@ -1,5 +1,5 @@
 {
-  "description": "Right hand side of Pascal rhombus A059317",
+  "description": "Right hand side of Pascal rhombus A059317.",
   "id": "A160905",
   "mentions": [
     "A000108",
@@ -7,6 +7,7 @@
     "A037027",
     "A049310",
     "A059317",
+    "A059345",
     "A094531",
     "A108044"
   ],

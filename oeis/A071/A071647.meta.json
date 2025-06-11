@@ -2,7 +2,8 @@
   "description": "a(n) is the maximum number of elements among the continued fractions for n/1, n/2, n/3, n/4, ..., n/n.",
   "id": "A071647",
   "mentions": [
-    "A034883"
+    "A034883",
+    "A071677"
   ],
   "tags": [
     "easy",

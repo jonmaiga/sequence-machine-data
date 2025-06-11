@@ -2,9 +2,13 @@
   "description": "a(n) = k where R(k+4) = 2.",
   "id": "A086940",
   "mentions": [
-    "A086945"
+    "A004086",
+    "A086942",
+    "A086945",
+    "A198971"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"

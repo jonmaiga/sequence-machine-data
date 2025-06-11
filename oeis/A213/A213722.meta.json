@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of terms in A213717 whose magnitude is in range [(2^n)-1,(2^(n+1))-2] (or equally, in range [(2^n),(2^(n+1))-1])",
+  "description": "a(n) = number of terms in A213717 whose magnitude is in range [(2^n)-1,(2^(n+1))-2] (or equally, in range [(2^n),(2^(n+1))-1]).",
   "id": "A213722",
   "mentions": [
     "A011782",

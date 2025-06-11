@@ -1,5 +1,5 @@
 {
-  "description": "(n)! + (n + 1)!!/(n + 1) - 2",
+  "description": "(n)! + (n + 1)!!/(n + 1) - 2.",
   "id": "A275541",
   "mentions": [
     "A006882",

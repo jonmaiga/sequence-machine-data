@@ -1,13 +1,18 @@
 {
-  "description": "n!^2 * sum{k=1 to n} mu(k)/k^2, where mu(k) is the Moebius function.",
+  "description": "a(n) = n!^2 * Sum_{k=1..n} mu(k)/k^2, where mu(k) is the Moebius function.",
   "id": "A068338",
-  "mentions": [],
+  "mentions": [
+    "A008683",
+    "A068101",
+    "A068107",
+    "A068340"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "joeis"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

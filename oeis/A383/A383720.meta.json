@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=3, a(1)=5, a(2)=35; a(n) = 5*a(n-1) + 5*a(n-2) - a(n-3) for n > 2.",
+  "id": "A383720",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A047946",
+    "A084158"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes congruent to 35 mod 73",
+  "description": "Primes congruent to 35 mod 73.",
   "id": "A154628",
   "mentions": [
     "A000040",

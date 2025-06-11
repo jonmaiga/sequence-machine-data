@@ -2,7 +2,8 @@
   "description": "Roman factorial of n.",
   "id": "A159333",
   "mentions": [
-    "A000142"
+    "A000142",
+    "A104150"
   ],
   "tags": [
     "easy",

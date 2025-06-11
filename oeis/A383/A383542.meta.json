@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = round(Shi(n)) where Shi(x) is the sinh integral function.",
+  "id": "A383542",
+  "mentions": [
+    "A383692"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

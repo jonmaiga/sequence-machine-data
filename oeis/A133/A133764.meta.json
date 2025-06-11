@@ -1,7 +1,9 @@
 {
   "description": "Composite numbers such that any two terms, plus 1, yields a composite number:.",
   "id": "A133764",
-  "mentions": [],
+  "mentions": [
+    "A002808"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

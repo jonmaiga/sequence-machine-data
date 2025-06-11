@@ -2,6 +2,7 @@
   "description": "Square nearest to n.",
   "id": "A053187",
   "mentions": [
+    "A000194",
     "A000290",
     "A002483",
     "A048760",

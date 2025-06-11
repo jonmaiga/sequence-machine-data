@@ -1,5 +1,5 @@
 {
-  "description": "Integers k for which 2n + 1 is prime if 2n^2 + n divides 2^(kn) - 1",
+  "description": "Integers k for which 2n + 1 is prime if 2n^2 + n divides 2^(kn) - 1.",
   "id": "A162716",
   "mentions": [
     "A000225"

@@ -1,0 +1,19 @@
+{
+  "description": "Primes made up of 0's and seven 1's only.",
+  "id": "A383919",
+  "mentions": [
+    "A020449",
+    "A038447",
+    "A062337",
+    "A157711"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

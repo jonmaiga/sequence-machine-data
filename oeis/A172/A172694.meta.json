@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5*n X 2*n 0..2 arrays with row sums 4 and column sums 10",
+  "description": "Number of 5*n X 2*n 0..2 arrays with row sums 4 and column sums 10.",
   "id": "A172694",
   "mentions": [],
   "tags": [

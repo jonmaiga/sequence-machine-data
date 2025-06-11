@@ -1,0 +1,30 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) is the n-th q-factorial number for q=-k.",
+  "id": "A384454",
+  "mentions": [
+    "A015013",
+    "A015015",
+    "A015017",
+    "A015018",
+    "A015019",
+    "A015020",
+    "A015022",
+    "A015023",
+    "A015025",
+    "A015026",
+    "A015027",
+    "A015028",
+    "A069777",
+    "A384453"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

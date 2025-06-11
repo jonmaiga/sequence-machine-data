@@ -1,8 +1,12 @@
 {
-  "description": "Primes of form 2n! + 1.",
+  "description": "Primes of form 2*k! + 1.",
   "id": "A062698",
-  "mentions": [],
+  "mentions": [
+    "A051915",
+    "A052898"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

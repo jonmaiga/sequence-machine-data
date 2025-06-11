@@ -2,7 +2,11 @@
   "description": "Numbers k such that phi(sigma(k)) divides sigma(phi(k)).",
   "id": "A066930",
   "mentions": [
-    "A033632"
+    "A000010",
+    "A000203",
+    "A033632",
+    "A062401",
+    "A062402"
   ],
   "tags": [
     "nonn"
@@ -10,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

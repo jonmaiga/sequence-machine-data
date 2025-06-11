@@ -1,5 +1,5 @@
 {
-  "description": "Integers for which the decimal expansion of the reciprocal contains the repeating digits 1,4,2,8,5,7 (corresponding to the decimal expansion of 1/7)",
+  "description": "Integers for which the decimal expansion of the reciprocal contains the repeating digits 1,4,2,8,5,7 (corresponding to the decimal expansion of 1/7).",
   "id": "A178335",
   "mentions": [
     "A003592",

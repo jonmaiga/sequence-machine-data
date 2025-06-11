@@ -1,0 +1,18 @@
+{
+  "description": "Number of crystallographic orbits in n dimensions, counting enantiomorphic pairs as distinct.",
+  "id": "A383108",
+  "mentions": [
+    "A006227"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

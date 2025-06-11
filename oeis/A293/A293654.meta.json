@@ -2,7 +2,9 @@
   "description": "Integers not represented by cyclotomic binary forms.",
   "id": "A293654",
   "mentions": [
-    "A296095"
+    "A055039",
+    "A296095",
+    "A383785"
   ],
   "tags": [
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "(prime(n)-3)(prime(n)-5)(prime(n)-7)/48.",
+  "description": "a(n) = (prime(n)-3)*(prime(n)-5)*(prime(n)-7)/48.",
   "id": "A030003",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=1..n} sigma(n*k),",
+  "description": "a(n) = Sum_{k=1..n} sigma(n*k).",
   "id": "A372710",
   "mentions": [
     "A000203",

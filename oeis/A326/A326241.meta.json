@@ -1,5 +1,5 @@
 {
-  "description": "Number of degree-n even permutations of order dividing 12",
+  "description": "Number of degree-n even permutations of order dividing 12.",
   "id": "A326241",
   "mentions": [
     "A000704",

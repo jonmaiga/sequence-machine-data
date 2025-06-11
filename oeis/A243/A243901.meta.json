@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that p_{n+i} is a quadratic residue modulo p_{n+j} for any distinct i and j among 0, 1, ..., 6",
+  "description": "Positive integers n such that p_{n+i} is a quadratic residue modulo p_{n+j} for any distinct i and j among 0, 1, ..., 6.",
   "id": "A243901",
   "mentions": [
     "A000040",

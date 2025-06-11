@@ -1,5 +1,5 @@
 {
-  "description": "Primes p starting a sequence of 4 consecutive primes whose final digits are 1,3,7,9 (in any order)",
+  "description": "Primes p starting a sequence of 4 consecutive primes whose final digits are 1,3,7,9 (in any order).",
   "id": "A354589",
   "mentions": [
     "A007652",

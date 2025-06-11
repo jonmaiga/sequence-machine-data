@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(2) = 1, a(n) = n * LeastPrimeFactor(n-1) / LeastPrimeFactor(n)",
+  "description": "a(1) = 1, a(2) = 1, a(n) = n * LeastPrimeFactor(n-1) / LeastPrimeFactor(n).",
   "id": "A126287",
   "mentions": [
     "A020639",

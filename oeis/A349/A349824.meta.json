@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0; for n >= 1, a(n) = (number of primes, counted with repetition) * (sum of primes, counted with repetition).",
+  "description": "a(0) = 0; for n >= 1, a(n) = (number of prime factors, counted with repetition) * (sum of prime factors, counted with repetition).",
   "id": "A349824",
   "mentions": [
     "A001222",

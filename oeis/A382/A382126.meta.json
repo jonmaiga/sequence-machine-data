@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies A(x) = A(x^2)*A(x^3) / (1-x).",
+  "id": "A382126",
+  "mentions": [
+    "A003586",
+    "A007814",
+    "A007949"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

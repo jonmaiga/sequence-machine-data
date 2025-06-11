@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected subsets of faces (or polyforms) of the n-th Johnson solid, up to symmetries of that solid.",
+  "id": "A384381",
+  "mentions": [
+    "A384377",
+    "A384379",
+    "A384380"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

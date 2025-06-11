@@ -1,17 +1,15 @@
 {
-  "description": "Least number k such that the polynomial x^n - x^(n-1) -...- 1 (mod k) has more than n distinct zeros.",
+  "description": "Least number k such that the polynomial x^n - x^(n-1) - ... - 1 (mod k) has more than n distinct zeros.",
   "id": "A211672",
   "mentions": [
     "A211671"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 11,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that floor(sqrt(n*k/d(n*k))) = floor(sqrt(d(n*k))), where d(k) is the largest divisor of k which is <= sqrt(k).",
+  "id": "A382286",
+  "mentions": [
+    "A000196",
+    "A000720",
+    "A010051",
+    "A033676",
+    "A033677",
+    "A048760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

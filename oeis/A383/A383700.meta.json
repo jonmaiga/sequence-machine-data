@@ -1,0 +1,17 @@
+{
+  "description": "Coefficient of x^2 in expansion of (x+1) * (x+5) * ... * (x+4*n-3).",
+  "id": "A383700",
+  "mentions": [
+    "A001620",
+    "A290319"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

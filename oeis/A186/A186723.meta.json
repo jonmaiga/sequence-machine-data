@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^n! (mod 10)",
+  "description": "a(n) = n^n! (mod 10).",
   "id": "A186723",
   "mentions": [],
   "tags": [

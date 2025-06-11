@@ -1,7 +1,8 @@
 {
-  "description": "Partial sums of (-1)^n*F(n-1).",
+  "description": "Partial sums of (-1)^n*Fibonacci(n-1).",
   "id": "A112469",
   "mentions": [
+    "A000045",
     "A078024",
     "A112468"
   ],

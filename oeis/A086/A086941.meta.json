@@ -2,16 +2,19 @@
   "description": "a(n) = k where R(k+6) = 3.",
   "id": "A086941",
   "mentions": [
-    "A086944"
+    "A004086",
+    "A086944",
+    "A099150"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

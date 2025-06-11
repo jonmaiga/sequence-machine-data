@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of steps needed to reach a reachable directed graph by n agents using the LNS protocol (see A307085).",
+  "id": "A383387",
+  "mentions": [
+    "A307085",
+    "A318154",
+    "A383385",
+    "A383386"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

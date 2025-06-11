@@ -1,0 +1,21 @@
+{
+  "description": "LCM-transform of A064664 (the inverse of the EKG-sequence).",
+  "id": "A383258",
+  "mentions": [
+    "A014963",
+    "A064413",
+    "A064664",
+    "A064954",
+    "A265576",
+    "A368900"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

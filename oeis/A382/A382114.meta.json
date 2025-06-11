@@ -1,0 +1,19 @@
+{
+  "description": "Semiperimeter of the unique primitive Pythagorean triple whose inradius is A000108(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "id": "A382114",
+  "mentions": [
+    "A000108",
+    "A381483",
+    "A383251"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

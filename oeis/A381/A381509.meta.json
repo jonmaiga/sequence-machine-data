@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose nonzero digits are in nondecreasing order and any zeros appear at the end.",
+  "id": "A381509",
+  "mentions": [
+    "A179239"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

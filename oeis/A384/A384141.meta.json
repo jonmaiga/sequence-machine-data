@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the surface area of an elongated pentagonal bipyramid with unit edge.",
+  "id": "A384141",
+  "mentions": [
+    "A002163",
+    "A002194",
+    "A120011",
+    "A384140"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

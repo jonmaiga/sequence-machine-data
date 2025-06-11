@@ -1,0 +1,18 @@
+{
+  "description": "Squares of plane partition numbers.",
+  "id": "A383354",
+  "mentions": [
+    "A000219",
+    "A001255",
+    "A304990"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

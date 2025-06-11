@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-digit biquanimous strings using digits {0,1,...,4};",
+  "description": "Number of n-digit biquanimous strings using digits {0,1,...,4}.",
   "id": "A288688",
   "mentions": [
     "A288638"

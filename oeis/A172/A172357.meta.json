@@ -1,5 +1,5 @@
 {
-  "description": "n such that the Liouville function lambda(n) take successively, from n, the values 1,-1,1,-1,1,-1",
+  "description": "n such that the Liouville function lambda(n) take successively, from n, the values 1,-1,1,-1,1,-1.",
   "id": "A172357",
   "mentions": [
     "A002819",

@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers that contain the digit 9, or an odd digit d immediately followed by a digit <= d.",
+  "id": "A383247",
+  "mentions": [
+    "A342044",
+    "A347298",
+    "A382464",
+    "A382623",
+    "A382937",
+    "A383061",
+    "A383245",
+    "A383248",
+    "A383249"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

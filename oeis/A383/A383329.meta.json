@@ -1,0 +1,21 @@
+{
+  "description": "Number of multiplications required to compute x^n by Knuth's power tree method.",
+  "id": "A383329",
+  "mentions": [
+    "A003313",
+    "A113945",
+    "A114622",
+    "A114623",
+    "A115617",
+    "A122352"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

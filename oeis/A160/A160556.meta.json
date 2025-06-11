@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers b for which the Diophantine equation f = (b^(2n) - b^n + 8n^2 - 2) / (2n * (2n + 1)) has at least ten solutions for n <= 10000",
+  "description": "Positive integers b for which the Diophantine equation f = (b^(2n) - b^n + 8n^2 - 2) / (2n * (2n + 1)) has at least ten solutions for n <= 10000.",
   "id": "A160556",
   "mentions": [
     "A158034",

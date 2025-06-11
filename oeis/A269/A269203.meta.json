@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..3 arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling three no more than once.",
+  "description": "Number of 3 X n 0..3 arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling three no more than once.",
   "id": "A269203",
   "mentions": [
     "A269201"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

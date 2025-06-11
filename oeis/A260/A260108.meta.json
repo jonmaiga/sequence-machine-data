@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form sigma(n) + product of divisors of n.",
+  "description": "Primes of the form sigma(k) + product of divisors of k.",
   "id": "A260108",
   "mentions": [
     "A000203",

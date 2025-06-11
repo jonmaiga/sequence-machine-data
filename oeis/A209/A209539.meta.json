@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 array permutations with every element making zero or one right-handed knight moves (out 2, right 1)",
+  "description": "Number of nX4 array permutations with every element making zero or one right-handed knight moves (out 2, right 1).",
   "id": "A209539",
   "mentions": [
     "A209543"

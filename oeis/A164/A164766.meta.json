@@ -1,16 +1,17 @@
 {
-  "description": "Smallest number m such that exactly n odd numbers can be seen as proper substrings of m in decimal representation.",
+  "description": "Smallest number m such that exactly n odd numbers can be seen as proper subsequences of m in decimal representation.",
   "id": "A164766",
   "mentions": [
     "A045888"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "A 2-regular sequence associated with the number of divisors of n^2 + 1 (A193432).",
+  "id": "A383066",
+  "mentions": [
+    "A193432"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A q-form product triangle based on:q=2;a(n, q)= (Sum[(1 + (-1)^n)*(1 + Sqrt[q])^m, {m, 1, n}] + Sum[(1 + (-1)^n)*(1 - Sqrt[q])^m, {m, 1, n}])/4",
+  "description": "A q-form product triangle based on:q=2;a(n, q)= (Sum[(1 + (-1)^n)*(1 + Sqrt[q])^m, {m, 1, n}] + Sum[(1 + (-1)^n)*(1 - Sqrt[q])^m, {m, 1, n}])/4.",
   "id": "A173584",
   "mentions": [],
   "tags": [

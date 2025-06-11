@@ -1,0 +1,16 @@
+{
+  "description": "Indices of record high-water marks of the sequence abs((cos p)^p) where p is the numerator of the n-th convergent to Pi (A002485), starting from n = 1.",
+  "id": "A383117",
+  "mentions": [
+    "A002485",
+    "A382564"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

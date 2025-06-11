@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that have the same set of digits as the sum of the squares of their digits.",
+  "id": "A383328",
+  "mentions": [
+    "A003132",
+    "A029793",
+    "A249515"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

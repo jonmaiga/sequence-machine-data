@@ -1,5 +1,5 @@
 {
-  "description": "Zumkeller numbers using anti-divisors (or anti-Zumkeller numbers)",
+  "description": "Zumkeller numbers using anti-divisors (or anti-Zumkeller numbers).",
   "id": "A192273",
   "mentions": [
     "A066272",

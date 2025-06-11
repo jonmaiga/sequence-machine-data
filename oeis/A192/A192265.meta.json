@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum{k=1..infinity}{1/k^sigma(k)}",
+  "description": "Decimal expansion of Sum{k=1..infinity}{1/k^sigma(k)}.",
   "id": "A192265",
   "mentions": [
     "A192266"

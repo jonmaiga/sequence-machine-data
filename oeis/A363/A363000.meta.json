@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numerator(R(n, n, 1)), where R are the rational poynomials R(n, k, x) = Sum_{u=0..k} ( Sum_{j=0..u} x^j * binomial(u, j) * (j + 1)^n ) / (u + 1).",
+  "description": "a(n) = numerator(R(n, n, 1)), where R are the rational polynomials R(n, k, x) = Sum_{u=0..k} ( Sum_{j=0..u} x^j * binomial(u, j) * (j + 1)^n ) / (u + 1).",
   "id": "A363000",
   "mentions": [
     "A027611",

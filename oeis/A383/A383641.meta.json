@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the difference between the sum of even composites and the sum of the odd composites in the first n positive integers.",
+  "id": "A383641",
+  "mentions": [
+    "A000720",
+    "A002808",
+    "A004526",
+    "A010701",
+    "A028552",
+    "A034387",
+    "A066247",
+    "A071904",
+    "A101256",
+    "A193356",
+    "A262044",
+    "A383259"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

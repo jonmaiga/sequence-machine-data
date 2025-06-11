@@ -1,5 +1,5 @@
 {
-  "description": "Number of third differences of arrays of length n+3 of numbers in 0..5",
+  "description": "Number of third differences of arrays of length n+3 of numbers in 0..5.",
   "id": "A228257",
   "mentions": [
     "A228260"

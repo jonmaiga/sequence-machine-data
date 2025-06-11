@@ -1,0 +1,13 @@
+{
+  "description": "G.f. satisfies A(x) = Sum_{n>=1} A(x^3)^n / A(x^(2*n)), with A(0) = 0 and A'(0) = 1.",
+  "id": "A383376",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

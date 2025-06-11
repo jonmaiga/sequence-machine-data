@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered pairs in the Bruhat order on B_n.",
+  "id": "A384090",
+  "mentions": [
+    "A005900",
+    "A378072"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

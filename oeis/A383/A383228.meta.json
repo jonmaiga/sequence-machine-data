@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of cases where both j and k (1 <= j < k <= n), are divisors of Sum_{i=j..k} i^i.",
+  "id": "A383228",
+  "mentions": [
+    "A000312",
+    "A001923",
+    "A128981"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

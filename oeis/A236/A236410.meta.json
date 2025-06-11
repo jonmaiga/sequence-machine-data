@@ -1,14 +1,13 @@
 {
-  "description": "Size of semiconstant tree aperiodic semigroup with n states.",
+  "description": "The size of the largest semiconstant tree aperiodic semigroups on n points (with identity). Currently the largest known transition semigroups of minimal n-state automata recognizing star-free languages, thus a lower bound on the syntactic complexity of star-free languages.",
   "id": "A236410",
   "mentions": [],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} C(n,k)*C(3*n+k,k)",
+  "description": "a(n) = Sum_{k=0..n} C(n,k)*C(3*n+k,k).",
   "id": "A156886",
   "mentions": [
     "A001850",

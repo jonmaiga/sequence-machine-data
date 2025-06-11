@@ -2,15 +2,17 @@
   "description": "Number of sets of integer-sided rectangular pieces that can tile a 3 X n rectangle.",
   "id": "A360632",
   "mentions": [
-    "A360629"
+    "A000041",
+    "A360629",
+    "A360631"
   ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 16,
+    "offset": 0,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

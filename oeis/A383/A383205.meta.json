@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. f(x)^3 * exp(f(x)) / 6, where f(x) = (exp(2*x) - 1)/2.",
+  "id": "A383205",
+  "mentions": [
+    "A154602"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

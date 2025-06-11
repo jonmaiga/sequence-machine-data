@@ -2,7 +2,12 @@
   "description": "a(n) = Sum_{d|n} (-1)^d*2^omega(n/d) where omega(x) is the number of distinct prime factors in the factorization of x.",
   "id": "A068074",
   "mentions": [
-    "A048691"
+    "A000005",
+    "A001221",
+    "A001620",
+    "A013661",
+    "A048691",
+    "A306016"
   ],
   "tags": [
     "easy",

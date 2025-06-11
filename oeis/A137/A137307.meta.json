@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence of coefficients of even plus odd Chebyshev polynomials, A053120: q(x,n)=T(x,2*n-1]+T(x,2*n).",
+  "description": "A triangular sequence of coefficients of even plus odd Chebyshev polynomials, A053120: q(x,n) = T(x,2*n-1)+T(x,2*n).",
   "id": "A137307",
   "mentions": [
     "A053120"
@@ -7,12 +7,12 @@
   "tags": [
     "formulas",
     "sign",
-    "tabl",
+    "tabf",
     "uned"
   ],
   "terms": {
     "offset": 1,
-    "size": 63,
+    "size": 65,
     "source": "oeis-entry"
   }
 }

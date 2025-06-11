@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle:t(n,m)=2 - (1 + m)^m + (1 + n)^n - (1 - m + n)^(n - m)",
+  "description": "A symmetrical triangle:t(n,m)=2 - (1 + m)^m + (1 + n)^n - (1 - m + n)^(n - m).",
   "id": "A176392",
   "mentions": [
     "A000169"

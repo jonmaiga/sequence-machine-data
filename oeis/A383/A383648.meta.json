@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/((1-x) * (1+3*x) * (1-5*x) * (1+7*x) * (1-9*x)).",
+  "id": "A383648",
+  "mentions": [
+    "A381853"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

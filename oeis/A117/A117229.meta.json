@@ -1,5 +1,5 @@
 {
-  "description": "Number of decimal digits of n in {0,1,4,8,9}",
+  "description": "Number of decimal digits of n in {0,1,4,8,9}.",
   "id": "A117229",
   "mentions": [
     "A001597"

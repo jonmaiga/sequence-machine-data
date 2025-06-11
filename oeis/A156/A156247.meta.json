@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=sum(k=1,n,A000002(2*k))",
+  "description": "a(n)=sum(k=1,n,A000002(2*k)).",
   "id": "A156247",
   "mentions": [
     "A000002"

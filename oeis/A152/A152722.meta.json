@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,0) = prime(n+2), T(n,1) = 1 - T(n,0), T(n,k) = T(n-1,k-1), T(1,0) = 1 T(n,n) = -1,",
+  "description": "Triangle read by rows: T(n,0) = prime(n+2), T(n,1) = 1 - T(n,0), T(n,k) = T(n-1,k-1), T(1,0) = 1 T(n,n) = -1.",
   "id": "A152722",
   "mentions": [
     "A027293",

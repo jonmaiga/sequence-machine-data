@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..2 arrays with every element neighboring horizontally or vertically both a 0 and a 1",
+  "description": "Number of n X 5 0..2 arrays with every element neighboring horizontally or vertically both a 0 and a 1.",
   "id": "A203539",
   "mentions": [
     "A203542"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

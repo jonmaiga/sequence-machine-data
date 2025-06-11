@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + pi(n) is a prime.",
+  "description": "Numbers k such that k + pi(k) is a prime.",
   "id": "A077510",
   "mentions": [
     "A000040",

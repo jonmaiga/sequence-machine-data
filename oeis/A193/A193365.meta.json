@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A220371(n)/(4*A220371(n-1))",
+  "description": "a(n) = A220371(n)/(4*A220371(n-1)).",
   "id": "A193365",
   "mentions": [
     "A220002",

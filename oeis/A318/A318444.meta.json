@@ -2,6 +2,7 @@
   "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A057660(n) = Sum_{k=1..n} n/gcd(n,k).",
   "id": "A318444",
   "mentions": [
+    "A001620",
     "A046644",
     "A057660",
     "A317937",

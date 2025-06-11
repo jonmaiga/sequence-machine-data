@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = gcd(A336563(n), A336564(n)) = gcd(A057723(n)-n, n-A308135(n));",
+  "description": "a(n) = gcd(A336563(n), A336564(n)) = gcd(A057723(n)-n, n-A308135(n)).",
   "id": "A336566",
   "mentions": [
     "A007947",

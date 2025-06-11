@@ -2,7 +2,8 @@
   "description": "a(n) is the number of pseudo-Latin stable matchings in a particular matrix of size n (see Comments for detail).",
   "id": "A371810",
   "mentions": [
-    "A069124"
+    "A069124",
+    "A069194"
   ],
   "tags": [
     "more",

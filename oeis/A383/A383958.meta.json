@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the legs of the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 = A000108(n) and its long leg and hypotenuse are consecutive natural numbers.",
+  "id": "A383958",
+  "mentions": [
+    "A000108",
+    "A001246",
+    "A131428",
+    "A381846",
+    "A383615",
+    "A383616",
+    "A383832"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

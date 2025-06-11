@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5-colored labeled graphs on n nodes(divided by 1024).",
+  "description": "Number of 5-colored labeled graphs on n nodes (divided by 1024).",
   "id": "A052263",
   "mentions": [
     "A000683",

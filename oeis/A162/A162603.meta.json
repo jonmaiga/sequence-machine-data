@@ -1,7 +1,9 @@
 {
-  "description": "Primes of the form n^n - n! + 1.",
+  "description": "Primes of the form k^k - k! + 1.",
   "id": "A162603",
-  "mentions": [],
+  "mentions": [
+    "A036679"
+  ],
   "tags": [
     "nonn"
   ],

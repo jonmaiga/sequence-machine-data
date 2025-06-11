@@ -1,5 +1,5 @@
 {
-  "description": "Number of triangular nXnXn arrays colored with integers 0 upwards introduced in row major order, with no element equal to any neighbor, and containing the value n(n+1)/2-4",
+  "description": "Number of triangular nXnXn arrays colored with integers 0 upwards introduced in row major order, with no element equal to any neighbor, and containing the value n(n+1)/2-4.",
   "id": "A211901",
   "mentions": [
     "A211904"

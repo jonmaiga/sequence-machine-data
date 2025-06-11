@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n minus (product of run lengths in binary representation of n)",
+  "description": "a(n) = n minus (product of run lengths in binary representation of n).",
   "id": "A227190",
   "mentions": [
     "A000975",
@@ -8,6 +8,7 @@
     "A227191"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],

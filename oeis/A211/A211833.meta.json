@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n+6 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value 6",
+  "description": "Number of nonnegative integer arrays of length n+6 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value 6.",
   "id": "A211833",
   "mentions": [
     "A211836"

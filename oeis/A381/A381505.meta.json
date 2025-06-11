@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(2*x/3) / (1-3*x)^(1/9).",
+  "id": "A381505",
+  "mentions": [
+    "A002801",
+    "A381506"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

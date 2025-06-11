@@ -1,15 +1,20 @@
 {
-  "description": "sigma(2*n^2) modulo 4.",
+  "description": "a(n) = sigma(2*n^2) modulo 4.",
   "id": "A081334",
   "mentions": [
-    "A065765"
+    "A000203",
+    "A010873",
+    "A065765",
+    "A081325"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

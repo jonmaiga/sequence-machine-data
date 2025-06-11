@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum(abs(stirling1(n+1,k+1))*k!^2,k=0..n)",
+  "description": "a(n) = sum(abs(stirling1(n+1,k+1))*k!^2,k=0..n).",
   "id": "A192551",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Number of -7..7 arrays x(0..n-1) of n elements with zero sum, and adjacent elements not equal modulo three (with -1 modulo 3 = 2)",
+  "description": "Number of -7..7 arrays x(0..n-1) of n elements with zero sum, and adjacent elements not equal modulo three (with -1 modulo 3 = 2).",
   "id": "A199908",
   "mentions": [
     "A199909"

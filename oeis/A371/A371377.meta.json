@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table read by rows: place n equally space points around the circumference of a circle and then, for each pair of points, draw two distinct circles, whose radii are the same as the first circle, such that both points lie on their circumferences. T(n,k), k>=2, gives the number of vertices formed by the crossing of k arcs.",
+  "description": "Irregular table read by rows: place n equally spaced points around the circumference of a circle and then, for each pair of points, draw two distinct circles, whose radii are the same as the first circle, such that both points lie on their circumferences. T(n,k), k>=2, gives the number of vertices formed by the crossing of k arcs.",
   "id": "A371377",
   "mentions": [
     "A007569",

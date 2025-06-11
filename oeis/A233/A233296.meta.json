@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{0 < k < n: k*prime(n-k) + 1 is prime}|",
+  "description": "a(n) = |{0 < k < n: k*prime(n-k) + 1 is prime}|.",
   "id": "A233296",
   "mentions": [
     "A000040",

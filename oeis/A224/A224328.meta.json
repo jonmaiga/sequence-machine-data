@@ -1,5 +1,5 @@
 {
-  "description": "Number of idempotent n X n 0..3 matrices of rank n-1",
+  "description": "Number of idempotent n X n 0..3 matrices of rank n-1.",
   "id": "A224328",
   "mentions": [
     "A224333"

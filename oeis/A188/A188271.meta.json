@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing strings of numbers x(i=1..n) in -3..3 with sum x(i)^3 equal to 0",
+  "description": "Number of nondecreasing strings of numbers x(i=1..n) in -3..3 with sum x(i)^3 equal to 0.",
   "id": "A188271",
   "mentions": [
     "A188277"

@@ -1,14 +1,19 @@
 {
-  "description": "In canonical prime factorization: power of smallest prime factor is greater than power of greatest prime factor.",
+  "description": "Numbers k in whose canonical factorization the power of the smallest prime factor is greater than the power of the greatest prime factor.",
   "id": "A085231",
   "mentions": [
     "A006530",
     "A020639",
     "A028233",
     "A053585",
-    "A085232"
+    "A085232",
+    "A085233",
+    "A102749",
+    "A363122"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

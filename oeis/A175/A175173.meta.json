@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 2^p+5 is also prime.",
+  "description": "Primes p such that 2^p + 5 is also prime.",
   "id": "A175173",
   "mentions": [
     "A000040",

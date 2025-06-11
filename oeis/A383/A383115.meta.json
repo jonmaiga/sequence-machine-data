@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of values m that satisfy floor(sqrt(m)) = n and A381054(m) = 1.",
+  "id": "A383115",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A381054",
+    "A382286",
+    "A382306"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

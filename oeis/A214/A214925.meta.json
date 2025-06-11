@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes <= A214757(n)",
+  "description": "Number of primes <= A214757(n).",
   "id": "A214925",
   "mentions": [
     "A000101",

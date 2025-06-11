@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that 30*n^2 + 6 is a square.",
+  "description": "Numbers k such that 30*k^2 + 6 is a square.",
   "id": "A133283",
   "mentions": [
-    "A077421"
+    "A077421",
+    "A157014",
+    "A221874"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

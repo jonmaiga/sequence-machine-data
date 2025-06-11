@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 24n+13.",
+  "description": "Primes of the form 24*k + 13.",
   "id": "A139530",
   "mentions": [
     "A068228",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

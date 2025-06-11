@@ -2,7 +2,8 @@
   "description": "Minimum number of clues needed to uniquely solve an n^2 X n^2 sudoku.",
   "id": "A198297",
   "mentions": [
-    "A107739"
+    "A107739",
+    "A372224"
   ],
   "tags": [
     "bref",

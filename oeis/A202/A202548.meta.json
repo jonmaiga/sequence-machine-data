@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 nonnegative integer arrays each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it)",
+  "description": "Number of nX7 nonnegative integer arrays each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it).",
   "id": "A202548",
   "mentions": [
     "A202549"

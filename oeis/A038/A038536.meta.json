@@ -1,5 +1,5 @@
 {
-  "description": "Odd values of n > 1 for which there are n-hyperperfect numbers.",
+  "description": "Odd values of k > 1 for which there are k-hyperperfect numbers.",
   "id": "A038536",
   "mentions": [
     "A007592"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

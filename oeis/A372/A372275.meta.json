@@ -2,8 +2,10 @@
   "description": "Decimal expansion of the middle positive zero of the Legendre polynomial of degree 7.",
   "id": "A372275",
   "mentions": [
+    "A000007",
     "A008316",
     "A010513",
+    "A010716",
     "A020760",
     "A100258",
     "A372267",
@@ -14,7 +16,17 @@
     "A372272",
     "A372273",
     "A372274",
-    "A372276"
+    "A372276",
+    "A382103",
+    "A382104",
+    "A382105",
+    "A382106",
+    "A382107",
+    "A382686",
+    "A382687",
+    "A382688",
+    "A382689",
+    "A382690"
   ],
   "tags": [
     "cons",

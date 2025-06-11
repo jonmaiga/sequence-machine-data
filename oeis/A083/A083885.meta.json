@@ -1,5 +1,5 @@
 {
-  "description": "(4^n+2^n+0^n+(-2)^n)/4",
+  "description": "(4^n+2^n+0^n+(-2)^n)/4.",
   "id": "A083885",
   "mentions": [
     "A007814",

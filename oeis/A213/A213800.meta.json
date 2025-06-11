@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n X n 0..k symmetric arrays with every row summing to floor(n*k/2)",
+  "description": "T(n,k)=Number of n X n 0..k symmetric arrays with every row summing to floor(n*k/2).",
   "id": "A213800",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a[n]=1+1/Log[Gamma[2-a[n-1]]]:",
+  "description": "a(n) = 1 + 1/log(gamma(2-a(n-1))).",
   "id": "A098081",
   "mentions": [],
   "tags": [

@@ -1,16 +1,19 @@
 {
-  "description": "a(n) = Sum_{i=1..F(n)} F(i), n >= 1, where F(k) is A000045, Fibonacci numbers.",
+  "description": "a(n) = Sum_{i=1..F(n)} F(i), where F = A000045, Fibonacci numbers.",
   "id": "A158569",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A000071",
+    "A157725"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 13,
-    "source": "joeis"
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

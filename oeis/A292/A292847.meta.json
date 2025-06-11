@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest odd prime of the form ((1 + sqrt(2n))^k - (1 - sqrt(2n))^k)/(2*sqrt(2n)).",
+  "description": "a(n) is the smallest odd prime of the form ((1 + sqrt(2*n))^k - (1 - sqrt(2*n))^k)/(2*sqrt(2*n)).",
   "id": "A292847",
   "mentions": [
     "A000129",

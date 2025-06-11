@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the middle interior angle (in degrees) in Albrecht Dürer's approximate construction of the regular pentagon.",
+  "id": "A384473",
+  "mentions": [
+    "A002194",
+    "A019824",
+    "A072097",
+    "A177870",
+    "A228719",
+    "A384474",
+    "A384475",
+    "A384476",
+    "A384477",
+    "A384478"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

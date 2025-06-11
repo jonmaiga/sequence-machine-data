@@ -1,5 +1,5 @@
 {
-  "description": "Number of iterations (...f_4(f_3(f_2(n))))...) such that the result is < 1, where f_j(x):=log_j(x).",
+  "description": "Number of iterations (...(log_4(log_3(log_2(n))))...) such that the result is < 1.",
   "id": "A211664",
   "mentions": [
     "A001069",

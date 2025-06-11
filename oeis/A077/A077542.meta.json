@@ -1,5 +1,5 @@
 {
-  "description": "Least number of terms required in the product (k+1)(k+2)... to make it a multiple of the product of next n number, where k = n(n+1)/2.",
+  "description": "Least number of terms required in the product (k+1)*(k+2)*... to make it a multiple of the product of next n numbers, where k = n*(n+1)/2.",
   "id": "A077542",
   "mentions": [
     "A077540",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 69,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "joeis"
   }
 }

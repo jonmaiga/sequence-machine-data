@@ -2,6 +2,7 @@
   "description": "Greatest prime divisor of prime(n) + 1.",
   "id": "A023509",
   "mentions": [
+    "A005382",
     "A006530",
     "A008864"
   ],

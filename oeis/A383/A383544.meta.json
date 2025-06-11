@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A383543(k) > A383543(m) for all m < k.",
+  "id": "A383544",
+  "mentions": [
+    "A071808",
+    "A383543",
+    "A383545",
+    "A383547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

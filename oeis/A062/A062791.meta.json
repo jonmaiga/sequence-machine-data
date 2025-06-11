@@ -1,8 +1,10 @@
 {
-  "description": "Moebius transform of central binomial coefficients.",
+  "description": "Moebius transform of A001405 (binomial(n, floor(n/2))).",
   "id": "A062791",
   "mentions": [
-    "A001405"
+    "A001405",
+    "A007727",
+    "A062798"
   ],
   "tags": [
     "formulas",

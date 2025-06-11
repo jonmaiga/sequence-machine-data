@@ -1,5 +1,5 @@
 {
-  "description": "The number of congruencies k^(n-k) + (n-k)^k == 0 (mod n) with 0 < k < n.",
+  "description": "The number of congruences k^(n-k) + (n-k)^k == 0 (mod n) with 0 < k < n.",
   "id": "A346744",
   "mentions": [
     "A114977",

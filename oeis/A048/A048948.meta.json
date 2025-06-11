@@ -1,5 +1,5 @@
 {
-  "description": "Values of y in solutions to sigma(x^3)=y^2, where x are given by A008849",
+  "description": "Values of y in solutions to sigma(x^3)=y^2, where x are given by A008849.",
   "id": "A048948",
   "mentions": [
     "A008849"

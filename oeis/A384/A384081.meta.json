@@ -1,0 +1,19 @@
+{
+  "description": "Consecutive internal states of a linear congruential pseudo-random number generator for the Hewlett-Packard HP-20S when started at 1.",
+  "id": "A384081",
+  "mentions": [
+    "A096550",
+    "A096561",
+    "A384568"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

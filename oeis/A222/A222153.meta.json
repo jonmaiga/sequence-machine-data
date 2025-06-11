@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of binary arrays indicating the locations of trailing edge maxima of a random length-n 0..k array extended with zeros and convolved with 1,-2,1",
+  "description": "T(n,k)=Number of binary arrays indicating the locations of trailing edge maxima of a random length-n 0..k array extended with zeros and convolved with 1,-2,1.",
   "id": "A222153",
   "mentions": [
     "A222036"

@@ -1,7 +1,9 @@
 {
   "description": "Number of multisets of n permutations of [n] with the symmetric group acting on the permutation elements.",
   "id": "A263921",
-  "mentions": [],
+  "mentions": [
+    "A123234"
+  ],
   "tags": [
     "nonn"
   ],

@@ -2,6 +2,7 @@
   "description": "Erroneous version of: Primes from merging of 10 successive digits in decimal expansion of exp(2).",
   "id": "A105006",
   "mentions": [
+    "A072334",
     "A225141"
   ],
   "tags": [

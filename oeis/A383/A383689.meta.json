@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest integer k such that the Diophantine equation x^3 + y^3 + z^3 = k^n, where 0 < x < y < z has exactly n integer solutions.",
+  "id": "A383689",
+  "mentions": [
+    "A383879"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

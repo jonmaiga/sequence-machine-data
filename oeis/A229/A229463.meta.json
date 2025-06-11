@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)^2*(1-26*x)).",
+  "description": "Expansion of g.f. 1/((1-x)^2*(1-26*x)).",
   "id": "A229463",
   "mentions": [
     "A000295",
@@ -9,12 +9,13 @@
     "A014936"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 18,
     "source": "joeis"
   }
 }

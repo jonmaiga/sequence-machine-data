@@ -2,10 +2,12 @@
   "description": "a(n+1) = a(n) + max(1, count0s), where count0s is number of 0's in binary representation of a(n).",
   "id": "A214913",
   "mentions": [
-    "A010062"
+    "A010062",
+    "A023416"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

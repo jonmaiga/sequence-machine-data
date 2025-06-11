@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n * C(2*n,n-1).",
+  "description": "a(n) = n * binomial(2*n, n-1).",
   "id": "A110609",
   "mentions": [
     "A000108",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

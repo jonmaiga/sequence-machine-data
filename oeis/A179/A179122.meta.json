@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 8, a(n) = concatenation of the prime divisors, ordered descending by their size, of a(n - 1)",
+  "description": "a(1) = 8, a(n) = concatenation of the prime divisors, ordered descending by their size, of a(n - 1).",
   "id": "A179122",
   "mentions": [
     "A037274"

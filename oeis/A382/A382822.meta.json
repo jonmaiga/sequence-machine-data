@@ -1,0 +1,15 @@
+{
+  "description": "If a(n-1) is odd, then a(n) is the smallest even integer not yet in the sequence; if a(n-1) is even, then a(n) = a(n-1)/2 if this number is not in the sequence, otherwise a(n) = 3*a(n-1)/2; a(1)=1.",
+  "id": "A382822",
+  "mentions": [
+    "A350877"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

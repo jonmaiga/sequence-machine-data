@@ -1,5 +1,5 @@
 {
-  "description": "(n! + 1) == 0 ( mod prime(n) ).",
+  "description": "Numbers k such that (k! + 1) == 0 ( mod prime(k) ).",
   "id": "A068000",
   "mentions": [
     "A066953",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

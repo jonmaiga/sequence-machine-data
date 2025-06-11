@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors of form cn+1 for numbers 7^n-1",
+  "description": "Number of prime factors of form c*n+1 for numbers 7^n-1, counted with multiplicity.",
   "id": "A182594",
   "mentions": [
     "A182590"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 79,
+    "size": 99,
     "source": "oeis-entry"
   }
 }

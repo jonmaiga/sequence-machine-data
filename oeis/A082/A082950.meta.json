@@ -1,5 +1,5 @@
 {
-  "description": "Power base and exponent of n-th prime-power exchanged.",
+  "description": "Power base and exponent of n-th prime power exchanged.",
   "id": "A082950",
   "mentions": [
     "A000961",

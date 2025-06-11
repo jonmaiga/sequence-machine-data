@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = permanent of the n-th principal submatrix of the rectangular array whose odd-numbered rows are (2,1,2,1,2,1,2,1,...) and even-numbered rows are (1,2,1,2,1,2,1,2,...).",
+  "id": "A383212",
+  "mentions": [
+    "A204252"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

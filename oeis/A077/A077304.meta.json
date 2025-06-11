@@ -2,6 +2,7 @@
   "description": "Partition the concatenation 235711131719232931...of prime numbers into successive strings such that the n-th string is a multiple of prime(n) and > prime(n).",
   "id": "A077304",
   "mentions": [
+    "A033308",
     "A077293",
     "A077294",
     "A077295",
@@ -21,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

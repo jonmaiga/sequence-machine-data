@@ -2,8 +2,11 @@
   "description": "Square of the Stirling2 matrix A048993.",
   "id": "A130191",
   "mentions": [
+    "A000007",
     "A000110",
     "A000258",
+    "A000558",
+    "A000559",
     "A002720",
     "A039810",
     "A048993",

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=number of nXk binary matrices with rows and columns each in strictly increasing order as binary numbers and every 0 adjacent to a 1 and every 1 adjacent to a 0",
+  "description": "T(n,k)=number of nXk binary matrices with rows and columns each in strictly increasing order as binary numbers and every 0 adjacent to a 1 and every 1 adjacent to a 0.",
   "id": "A181011",
   "mentions": [],
   "tags": [

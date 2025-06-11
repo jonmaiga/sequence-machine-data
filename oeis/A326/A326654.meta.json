@@ -1,5 +1,5 @@
 {
-  "description": "Number of colored integer partitions of n using all colors of an initial interval of the color palette such that each block of part i with multiplicity j has a pattern of i*j colors in (weakly) increasing order;",
+  "description": "Number of colored integer partitions of n using all colors of an initial interval of the color palette such that each block of part i with multiplicity j has a pattern of i*j colors in (weakly) increasing order.",
   "id": "A326654",
   "mentions": [
     "A326500"

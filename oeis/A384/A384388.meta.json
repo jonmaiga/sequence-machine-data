@@ -1,0 +1,17 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator (5^11*s+293183133) mod 2^30 when started at s=1.",
+  "id": "A384388",
+  "mentions": [
+    "A381318"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

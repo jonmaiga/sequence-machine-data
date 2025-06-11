@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with displacements restricted to {-7,-6,-5,-4,-3,-1,0,2}",
+  "description": "Number of permutations of 1..n with displacements restricted to {-7,-6,-5,-4,-3,-1,0,2}.",
   "id": "A189601",
   "mentions": [],
   "tags": [

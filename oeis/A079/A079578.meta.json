@@ -1,12 +1,14 @@
 {
-  "description": "Least coprime to n, greater than n+1.",
+  "description": "Least number coprime to n and greater than n+1.",
   "id": "A079578",
   "mentions": [
     "A053669",
     "A116933",
-    "A116934"
+    "A116934",
+    "A249270"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

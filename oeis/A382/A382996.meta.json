@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number k such that both k and k + s have n prime divisors, counted with multiplicity, where s is the sum of the decimal digits of k.",
+  "id": "A382996",
+  "mentions": [
+    "A001222",
+    "A007953",
+    "A062028",
+    "A381851",
+    "A383665"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

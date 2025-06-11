@@ -2,7 +2,8 @@
   "description": "Number of non-isomorphic directed graphs reachable by n agents using the LNS protocol.",
   "id": "A307085",
   "mentions": [
-    "A318154"
+    "A318154",
+    "A383385"
   ],
   "tags": [
     "hard",

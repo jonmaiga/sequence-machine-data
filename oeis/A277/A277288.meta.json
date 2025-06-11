@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that n | (3^n + 5).",
+  "description": "Positive integers k such that k divides 3^k + 5.",
   "id": "A277288",
   "mentions": [
     "A015949",

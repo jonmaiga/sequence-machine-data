@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=n+2-sum{k=0..n, -mu(k-mod(k^7,7k))}",
+  "description": "a(n)=n+2-sum{k=0..n, -mu(k-mod(k^7,7k))}.",
   "id": "A105592",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (1+2x-2x^2)/(1-x)^2.",
+  "description": "Expansion of e.g.f.: (1+2*x-2*x^2)/(1-x)^2.",
   "id": "A052572",
   "mentions": [
     "A000142",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

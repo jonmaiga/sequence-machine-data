@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that have an i-th smallest divisor d_i(k) for which i*d_i(k) = k.",
+  "id": "A383360",
+  "mentions": [
+    "A027750",
+    "A383361",
+    "A383362"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

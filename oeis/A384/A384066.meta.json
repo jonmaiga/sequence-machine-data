@@ -1,0 +1,21 @@
+{
+  "description": "Limiting values for Cauchy-complete category table A384134.",
+  "id": "A384066",
+  "mentions": [
+    "A125697",
+    "A125701",
+    "A165814",
+    "A384134"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

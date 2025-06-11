@@ -1,5 +1,5 @@
 {
-  "description": "Number of simple connected graphs on n nodes with diameter 3",
+  "description": "Number of simple connected graphs on n nodes with diameter 3.",
   "id": "A241707",
   "mentions": [
     "A000055",

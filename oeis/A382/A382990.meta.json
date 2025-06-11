@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the total number of interior points of over all (>=,>=)-polyominoes of length n.",
+  "id": "A382990",
+  "mentions": [
+    "A002426",
+    "A382987",
+    "A382988",
+    "A382989"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

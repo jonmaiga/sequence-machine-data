@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the circumradius of a regular pentagonal prism of edge length 1.",
+  "id": "A384059",
+  "mentions": [
+    "A102771",
+    "A300074",
+    "A384036"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

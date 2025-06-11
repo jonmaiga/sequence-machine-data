@@ -1,5 +1,5 @@
 {
-  "description": "Number of irreducible factors in the factorization of the polynomial x^n + x + 1 over the integers mod 2",
+  "description": "Number of irreducible factors in the factorization of the polynomial x^n + x + 1 over the integers mod 2.",
   "id": "A175190",
   "mentions": [
     "A000374"

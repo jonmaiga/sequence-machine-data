@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = sum_k {n/2<=k<=n} k * (-1)^(n-k) * C(k,n-k).",
+  "description": "a(n) = Sum_{k=n/2..n} k * (-1)^(n-k) * C(k,n-k).",
   "id": "A076118",
   "mentions": [
+    "A003881",
     "A038608",
     "A078028",
     "A099254",

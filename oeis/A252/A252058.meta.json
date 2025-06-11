@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(1+2) 0..2 arrays with every 3X3 subblock row, column, diagonal and antidiagonal sum not equal to 1 2 or 4",
+  "description": "Number of (n+2)X(1+2) 0..2 arrays with every 3X3 subblock row, column, diagonal and antidiagonal sum not equal to 1 2 or 4.",
   "id": "A252058",
   "mentions": [
     "A252065"

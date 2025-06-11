@@ -5,12 +5,11 @@
     "A329656"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

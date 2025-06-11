@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree numbers whose distinct prime factors can be partitioned into two sets with equal sums.",
+  "id": "A384498",
+  "mentions": [
+    "A005117",
+    "A071141",
+    "A071142",
+    "A071312",
+    "A221054"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

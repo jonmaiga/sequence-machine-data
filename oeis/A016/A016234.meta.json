@@ -1,9 +1,14 @@
 {
-  "description": "Expansion of 1/((1-x)(1-5x)(1-9x)).",
+  "description": "Expansion of 1/((1-x) * (1-5*x) * (1-9*x)).",
   "id": "A016234",
   "mentions": [
     "A000012",
-    "A003463"
+    "A003463",
+    "A016209",
+    "A016223",
+    "A016247",
+    "A016307",
+    "A018054"
   ],
   "tags": [
     "easy",
@@ -12,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

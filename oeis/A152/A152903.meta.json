@@ -1,5 +1,5 @@
 {
-  "description": "Convolution triangle: A152901 * (A152902 * 0^(n-k))",
+  "description": "Convolution triangle: A152901 * (A152902 * 0^(n-k)).",
   "id": "A152903",
   "mentions": [
     "A000027",

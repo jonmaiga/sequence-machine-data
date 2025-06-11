@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a factor with a(n-1), a(n-2), and a(n-1)+a(n-2),",
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a factor with a(n-1), a(n-2), and a(n-1)+a(n-2).",
   "id": "A352867",
   "mentions": [
     "A007947",

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x/2) / (1-4*x)^(1/8).",
+  "id": "A383316",
+  "mentions": [
+    "A002801",
+    "A383317"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,8 +1,11 @@
 {
-  "description": "Numbers n such that (n-1)! + n is prime.",
+  "description": "Numbers k such that (k-1)! + k is prime.",
   "id": "A092791",
-  "mentions": [],
+  "mentions": [
+    "A073308"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

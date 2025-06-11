@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..3 arrays of length 2*n+3 with sum no more than 3*n in any length 2n subsequence (=50% duty cycle)",
+  "description": "Number of 0..3 arrays of length 2*n+3 with sum no more than 3*n in any length 2n subsequence (=50% duty cycle).",
   "id": "A212475",
   "mentions": [
     "A212471"

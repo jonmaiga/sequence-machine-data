@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled 3-nilpotent semigroups of order n",
+  "id": "A383871",
+  "mentions": [
+    "A023814",
+    "A023815",
+    "A383885",
+    "A383886"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

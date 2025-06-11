@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-nilpotent semigroups, considered to be equivalent when they are isomorphic or anti-isomorphic (by reversal of the operator).",
+  "id": "A383886",
+  "mentions": [
+    "A001423",
+    "A023814",
+    "A383871",
+    "A383885"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

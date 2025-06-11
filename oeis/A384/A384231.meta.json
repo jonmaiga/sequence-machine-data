@@ -1,0 +1,22 @@
+{
+  "description": "Index of the largest odd noncomposite divisor in the list of divisors of n.",
+  "id": "A384231",
+  "mentions": [
+    "A000079",
+    "A006005",
+    "A027750",
+    "A383401",
+    "A384232",
+    "A384233",
+    "A384234"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

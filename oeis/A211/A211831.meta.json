@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n+4 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value 4",
+  "description": "Number of nonnegative integer arrays of length n+4 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value 4.",
   "id": "A211831",
   "mentions": [
     "A211836"

@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of Sum_{i=1..n} 1/A348626(i)^2.",
+  "id": "A382719",
+  "mentions": [
+    "A348626",
+    "A348640",
+    "A348641"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

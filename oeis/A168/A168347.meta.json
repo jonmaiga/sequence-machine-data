@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of the expansion of:p(x,t)=(1 - x)/((1 - x*Exp[t*(1 - x)])*(1 - x*Exp[t*(1 + x)]))",
+  "description": "Coefficients of the expansion of:p(x,t)=(1 - x)/((1 - x*Exp[t*(1 - x)])*(1 - x*Exp[t*(1 + x)])).",
   "id": "A168347",
   "mentions": [],
   "tags": [

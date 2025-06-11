@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor, with no occupancy greater than 2",
+  "description": "Number of nX7 arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor, with no occupancy greater than 2.",
   "id": "A221327",
   "mentions": [
     "A221328"

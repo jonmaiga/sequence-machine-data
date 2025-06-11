@@ -5,12 +5,11 @@
     "A108375"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 19,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n summing to n without equal adjacent values modulo 6",
+  "description": "Number of nonnegative integer arrays of length n summing to n without equal adjacent values modulo 6.",
   "id": "A221319",
   "mentions": [
     "A221321"

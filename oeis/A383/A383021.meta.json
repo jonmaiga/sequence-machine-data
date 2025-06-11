@@ -1,0 +1,19 @@
+{
+  "description": "Self-summable Fibonacci numbers: integers k such that Fibonacci(k) divides the sum of the first Fibonacci(k) nonzero Fibonacci numbers.",
+  "id": "A383021",
+  "mentions": [
+    "A000045",
+    "A124456",
+    "A158569",
+    "A331976",
+    "A381053"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

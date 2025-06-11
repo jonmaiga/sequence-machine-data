@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = x + Sum_{n>=1} A(x^n)^2.",
+  "id": "A382315",
+  "mentions": [
+    "A382321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

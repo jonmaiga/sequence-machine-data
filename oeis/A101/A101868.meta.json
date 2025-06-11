@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + 2*ceiling(phi n), where phi = (1 + sqrt(5))/2. Row 1 of A101866.",
+  "description": "a(n) = n + 2*ceiling(phi*n), where phi = (1 + sqrt(5))/2. Row 1 of A101866.",
   "id": "A101868",
   "mentions": [
     "A001622",

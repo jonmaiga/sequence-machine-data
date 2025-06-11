@@ -1,5 +1,5 @@
 {
-  "description": "Number of integers y > 0 such that y < (n/2+x)*sqrt(3) and y < (n/2-x)*sqrt(3),",
+  "description": "Number of integers y > 0 such that y < (n/2+x)*sqrt(3) and y < (n/2-x)*sqrt(3).",
   "id": "A375996",
   "mentions": [
     "A362873"

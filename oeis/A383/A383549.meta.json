@@ -1,0 +1,24 @@
+{
+  "description": "Number of rises in all compositions of n with parts in {1,2,3} and adjacent differences in {-1,1}.",
+  "id": "A383549",
+  "mentions": [
+    "A011782",
+    "A076118",
+    "A124760",
+    "A151842",
+    "A173258",
+    "A214247",
+    "A220062",
+    "A238343"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular nonnegative integer arrays, symmetric under 120 degree rotation, with all sums of an element and its neighbors <= 15",
+  "description": "Number of nXnXn triangular nonnegative integer arrays, symmetric under 120 degree rotation, with all sums of an element and its neighbors <= 15.",
   "id": "A166210",
   "mentions": [],
   "tags": [

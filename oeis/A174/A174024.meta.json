@@ -1,5 +1,5 @@
 {
-  "description": "List of primes of the form x^2+y^2 such that tau(x^2+y^2) = bigomega(x*y)",
+  "description": "List of primes of the form x^2+y^2 such that tau(x^2+y^2) = bigomega(x*y).",
   "id": "A174024",
   "mentions": [
     "A001221",

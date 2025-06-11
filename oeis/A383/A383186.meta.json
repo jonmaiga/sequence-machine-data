@@ -1,0 +1,15 @@
+{
+  "description": "Inverse permutation to A383185 (square spiral numbers of king filling the two-dimensional grid always crossing the spiral's wall).",
+  "id": "A383186",
+  "mentions": [
+    "A383185"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

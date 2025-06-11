@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1)^6 * Stirling1(n,k).",
+  "id": "A383050",
+  "mentions": [
+    "A383049"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

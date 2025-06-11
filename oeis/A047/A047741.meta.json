@@ -1,7 +1,9 @@
 {
-  "description": "A discrete analog of Li(n): Round ( Sum_{k=2..n} 1/log_e (k) ).",
+  "description": "A discrete analog of Li(n): a(n) = round(Sum_{k=2..n} 1/log(k)).",
   "id": "A047741",
-  "mentions": [],
+  "mentions": [
+    "A047742"
+  ],
   "tags": [
     "nonn"
   ],

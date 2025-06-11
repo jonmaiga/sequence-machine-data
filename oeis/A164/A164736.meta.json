@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-digit cycles of length 5 under the Kaprekar map A151949",
+  "description": "Number of n-digit cycles of length 5 under the Kaprekar map A151949.",
   "id": "A164736",
   "mentions": [
     "A151949",

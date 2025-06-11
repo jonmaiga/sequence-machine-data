@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle sequence:q=3:t(n,m,q)=(1 - q^n)*Eulerian[n + 1, m] - (1 - q^n) + 1",
+  "description": "A symmetrical triangle sequence:q=3:t(n,m,q)=(1 - q^n)*Eulerian[n + 1, m] - (1 - q^n) + 1.",
   "id": "A174729",
   "mentions": [],
   "tags": [

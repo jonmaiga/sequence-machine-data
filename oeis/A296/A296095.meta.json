@@ -2,7 +2,9 @@
   "description": "Integers represented by cyclotomic binary forms.",
   "id": "A296095",
   "mentions": [
-    "A293654"
+    "A000401",
+    "A293654",
+    "A383784"
   ],
   "tags": [
     "nonn"

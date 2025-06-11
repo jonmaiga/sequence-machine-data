@@ -1,10 +1,11 @@
 {
-  "description": "Odd primitive abundant numbers with only one prime factor 3 and only primes factors == 1 mod 6.",
+  "description": "Odd primitive abundant numbers with only one prime factor 3 and all other prime factors == 1 mod 6.",
   "id": "A136607",
   "mentions": [
     "A118466"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

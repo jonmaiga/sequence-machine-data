@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{k>=0} Product_{i=1..k} 1/(prime(i)-1)",
+  "description": "Decimal expansion of Sum_{k>=0} Product_{i=1..k} 1/(prime(i)-1).",
   "id": "A345974",
   "mentions": [
     "A345965"

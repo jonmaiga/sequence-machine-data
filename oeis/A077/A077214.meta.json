@@ -2,6 +2,7 @@
   "description": "a(1) = 1. a(n+1) is the smallest number which is greater than a(n), coprime to it and has a different prime signature.",
   "id": "A077214",
   "mentions": [
+    "A025487",
     "A118914",
     "A124010"
   ],

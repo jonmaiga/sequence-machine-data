@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 5/(7 - 2*exp(5*x)).",
+  "id": "A384521",
+  "mentions": [
+    "A094419",
+    "A384514",
+    "A384522",
+    "A384523",
+    "A384524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

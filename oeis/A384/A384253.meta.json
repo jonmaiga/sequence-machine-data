@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 1 + ((1+(-1)^(n-1))*(n-1)!)/(n+1).",
+  "id": "A384253",
+  "mentions": [
+    "A060593"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

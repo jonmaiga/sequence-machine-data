@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as a sum of a square and half of a term of the sequence A008407",
+  "description": "Number of ways to write n as a sum of a square and half of a term of the sequence A008407.",
   "id": "A227156",
   "mentions": [
     "A000290",

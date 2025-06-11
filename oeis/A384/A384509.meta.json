@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of iterations of z -> z^2 + c(n) with c(n) = ((5/n+1) + (5/n-1)*i)/(n*sqrt(2)) + 1/4 + (1/2)*i to reach |z| > 2, starting with z = 0.",
+  "id": "A384509",
+  "mentions": [
+    "A093954",
+    "A097486",
+    "A383750",
+    "A384513"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

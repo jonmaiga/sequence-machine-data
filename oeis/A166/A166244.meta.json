@@ -1,5 +1,5 @@
 {
-  "description": "Villegas-Zagier polynomials (listing coefficients from highest to lowest degree)",
+  "description": "Villegas-Zagier polynomials (listing coefficients from highest to lowest degree).",
   "id": "A166244",
   "mentions": [
     "A159843",

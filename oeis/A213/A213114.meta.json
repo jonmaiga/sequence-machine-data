@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary arrays of length n+7 with fewer than 4 ones in any length 8 subsequence (=less than 50% duty cycle)",
+  "description": "Number of binary arrays of length n+7 with fewer than 4 ones in any length 8 subsequence (=less than 50% duty cycle).",
   "id": "A213114",
   "mentions": [
     "A213118"

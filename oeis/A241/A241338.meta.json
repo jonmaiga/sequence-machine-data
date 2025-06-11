@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions p of n including round(mean(p)) as a part. (This is \"Mathematica round\")",
+  "description": "Number of partitions p of n including round(mean(p)) as a part. (This is \"Mathematica round\").",
   "id": "A241338",
   "mentions": [
     "A000041",

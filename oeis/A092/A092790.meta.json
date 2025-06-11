@@ -2,10 +2,13 @@
   "description": "a(n) = (n+1)*phi(n-1)/2.",
   "id": "A092790",
   "mentions": [
+    "A000010",
+    "A078401",
     "A082470",
     "A378068"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

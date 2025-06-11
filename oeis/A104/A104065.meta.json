@@ -1,13 +1,16 @@
 {
   "description": "Primes of the form 7^k + 4.",
   "id": "A104065",
-  "mentions": [],
+  "mentions": [
+    "A096305"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of numbers k (0 <= k < n) such that there exist solutions of x^3 + x == y^2 + 1 == k (mod n).",
+  "id": "A383766",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

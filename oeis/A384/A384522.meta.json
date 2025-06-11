@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 4/(7 - 3*exp(4*x)).",
+  "id": "A384522",
+  "mentions": [
+    "A094419",
+    "A384514",
+    "A384521",
+    "A384523",
+    "A384524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

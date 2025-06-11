@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n that can be partitioned into sets with a common sum.",
+  "id": "A383308",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001055",
+    "A045778",
+    "A050320",
+    "A089259",
+    "A116540",
+    "A270995",
+    "A279788",
+    "A293511",
+    "A296119",
+    "A302478",
+    "A318360",
+    "A321455",
+    "A326518",
+    "A326534",
+    "A358914",
+    "A381633",
+    "A381717",
+    "A381719",
+    "A381992",
+    "A381993",
+    "A381994",
+    "A382077",
+    "A382080",
+    "A382429",
+    "A383014",
+    "A383093"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

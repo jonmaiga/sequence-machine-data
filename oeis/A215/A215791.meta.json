@@ -1,10 +1,11 @@
 {
-  "description": "Number of permutations of 0..floor((5*n-1)/2) on even squares of an 5*n array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing",
+  "description": "Number of permutations of 0..floor((5*n-1)/2) on even squares of an 5*n array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing.",
   "id": "A215791",
   "mentions": [
     "A215788"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

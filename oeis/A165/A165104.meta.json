@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-digit numbers in a cycle (including fixed points) under the base-8 Kaprekar map A165090",
+  "description": "Number of n-digit numbers in a cycle (including fixed points) under the base-8 Kaprekar map A165090.",
   "id": "A165104",
   "mentions": [
     "A004526",

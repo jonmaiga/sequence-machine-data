@@ -1,8 +1,10 @@
 {
-  "description": "Differences of A072633.",
+  "description": "First differences of A072633.",
   "id": "A078614",
   "mentions": [
-    "A072633"
+    "A022934",
+    "A072633",
+    "A081129"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

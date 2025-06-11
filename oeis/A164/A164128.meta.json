@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number m such that m divided by the number of letters in m (in Spanish) is n. If there is no such number then a(n) = 0",
+  "description": "a(n) = smallest number m such that m divided by the number of letters in m (in Spanish) is n. If there is no such number then a(n) = 0.",
   "id": "A164128",
   "mentions": [
     "A164127"

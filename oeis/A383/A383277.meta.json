@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors d of n for which A034444(d)*d is equal to n.",
+  "id": "A383277",
+  "mentions": [
+    "A005087",
+    "A007814",
+    "A034444",
+    "A327166",
+    "A383276",
+    "A383278",
+    "A383279"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

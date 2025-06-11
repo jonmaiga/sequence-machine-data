@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of connected subsets of k edges (or polysticks) of the n-th Johnson solid, up to symmetries of that solid; 1 <= n <= 92, 1 <= k <= A242732(n).",
+  "id": "A384378",
+  "mentions": [
+    "A242732",
+    "A384376",
+    "A384379",
+    "A384380"
+  ],
+  "tags": [
+    "fini",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

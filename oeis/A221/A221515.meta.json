@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays of length n with each element differing from at least one neighbor by 2 or more, starting with 0",
+  "description": "T(n,k)=Number of 0..k arrays of length n with each element differing from at least one neighbor by 2 or more, starting with 0.",
   "id": "A221515",
   "mentions": [
     "A000027",

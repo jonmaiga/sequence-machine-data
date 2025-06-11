@@ -3,7 +3,8 @@
   "id": "A108046",
   "mentions": [
     "A000045",
-    "A007435"
+    "A007435",
+    "A245282"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

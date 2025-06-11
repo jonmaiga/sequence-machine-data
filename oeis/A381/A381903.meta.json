@@ -1,0 +1,16 @@
+{
+  "description": "Primes prime(k) such that (prime(k) - k)^k == k (mod prime(k)).",
+  "id": "A381903",
+  "mentions": [
+    "A014689"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

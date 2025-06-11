@@ -1,0 +1,22 @@
+{
+  "description": "Number of intercalates in pine Latin squares of order 2n.",
+  "id": "A383368",
+  "mentions": [
+    "A002860",
+    "A016755",
+    "A089207",
+    "A092237",
+    "A099721",
+    "A338522"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

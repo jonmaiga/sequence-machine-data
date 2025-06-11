@@ -2,6 +2,7 @@
   "description": "Triangle read by rows, Pascal's triangle columns interleaved with 1's.",
   "id": "A167269",
   "mentions": [
+    "A007318",
     "A167270"
   ],
   "tags": [

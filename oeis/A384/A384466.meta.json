@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the weight factor for Laguerre-Gauss quadrature corresponding to abscissa A384280.",
+  "id": "A384466",
+  "mentions": [
+    "A014176",
+    "A100954",
+    "A101465",
+    "A201488",
+    "A384277",
+    "A384278",
+    "A384279",
+    "A384280",
+    "A384281",
+    "A384463",
+    "A384464",
+    "A384465",
+    "A384467"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

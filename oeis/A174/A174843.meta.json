@@ -2,7 +2,8 @@
   "description": "Irregular triangle in which row n lists the divisors of prime(n)-1.",
   "id": "A174843",
   "mentions": [
-    "A008328"
+    "A008328",
+    "A008332"
   ],
   "tags": [
     "nonn",

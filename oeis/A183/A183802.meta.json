@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=1/4 the number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock having sum 6",
+  "description": "T(n,k)=1/4 the number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock having sum 6.",
   "id": "A183802",
   "mentions": [],
   "tags": [

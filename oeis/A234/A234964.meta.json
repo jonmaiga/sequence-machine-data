@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 123...n - (n+1)",
+  "description": "Numbers of the form 123...n - (n+1).",
   "id": "A234964",
   "mentions": [
     "A007908"

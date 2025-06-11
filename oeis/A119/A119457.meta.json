@@ -1,7 +1,8 @@
 {
-  "description": "Triangle read by rows: T(n,1)=n, T(n,2)=(n-1)*2 for n>1 and T(n,k)=T(n-1,k-1)+T(n-2,k-2) for 2",
+  "description": "Triangle read by rows: T(n, 1) = n, T(n, 2) = 2*(n-1) for n>1 and T(n, k) = T(n-1, k-1) + T(n-2, k-2) for 2 < k <= n.",
   "id": "A119457",
   "mentions": [
+    "A000027",
     "A000045",
     "A001891",
     "A005843",
@@ -16,7 +17,10 @@
     "A022088",
     "A022089",
     "A022090",
-    "A023607"
+    "A023607",
+    "A023652",
+    "A112469",
+    "A355020"
   ],
   "tags": [
     "formulas",
@@ -26,6 +30,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "The third row of the ED3 array A167572.",
+  "description": "a(n) = 20*n^2 + 3.",
   "id": "A167573",
   "mentions": [
     "A167572"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 42,
     "source": "joeis"
   }
 }

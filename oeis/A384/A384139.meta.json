@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of an elongated triangular bipyramid with unit edge.",
+  "id": "A384139",
+  "mentions": [
+    "A010466",
+    "A010482",
+    "A165663",
+    "A383852",
+    "A384138",
+    "A384140"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

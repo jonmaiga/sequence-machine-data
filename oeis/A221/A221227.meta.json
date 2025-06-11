@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays of occupancy after each element moves to some king-move neighbor, with no occupancy greater than 2",
+  "description": "Number of nX3 arrays of occupancy after each element moves to some king-move neighbor, with no occupancy greater than 2.",
   "id": "A221227",
   "mentions": [
     "A221229"

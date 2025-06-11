@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n,k) * binomial(n-k,k)^2.",
+  "id": "A383524",
+  "mentions": [
+    "A000172",
+    "A181545",
+    "A275027"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

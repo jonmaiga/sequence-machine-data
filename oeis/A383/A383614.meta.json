@@ -1,0 +1,18 @@
+{
+  "description": "The unique sequence such that Sum_{d|n} d*a(d)^(n/d) = sigma(n)^2 for every n.",
+  "id": "A383614",
+  "mentions": [
+    "A000203",
+    "A072861"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

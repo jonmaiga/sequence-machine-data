@@ -1,8 +1,7 @@
 {
-  "description": "Smallest primes p which give a prime iterated by f(p,k) := 2 * p + prime(k+1) for at least two steps (k = 1, 2, ...).",
+  "description": "The smallest prime q which stays prime through at least two iterations of q -> := 2 * q + prime(n+1).",
   "id": "A176379",
   "mentions": [
-    "A000040",
     "A005602",
     "A059761",
     "A059762",
@@ -10,12 +9,12 @@
   ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 80,
     "source": "oeis-entry"
   }
 }

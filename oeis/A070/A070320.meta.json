@@ -1,5 +1,5 @@
 {
-  "description": "Max( phi(k) : k=1,2,3,...,n ).",
+  "description": "a(n) = Max( phi(k) : k=1..n ).",
   "id": "A070320",
   "mentions": [
     "A007917"

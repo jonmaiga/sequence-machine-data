@@ -1,0 +1,18 @@
+{
+  "description": "Echo primes: primes p such that the greatest prime factor of p-1 is a suffix of p.",
+  "id": "A383907",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A383896"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that have the same set of digits as the sum of the cubes of their digits.",
+  "id": "A383347",
+  "mentions": [
+    "A046197",
+    "A055012",
+    "A249515"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

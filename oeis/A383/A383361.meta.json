@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the i-th smallest divisor d_i of A383360(n) for which i*d_i = A383360(n).",
+  "id": "A383361",
+  "mentions": [
+    "A027750",
+    "A383360",
+    "A383362"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

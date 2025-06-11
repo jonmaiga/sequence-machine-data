@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) = (2*n+k)!/k! * [x^(2*n+k)] sinh(x)^k.",
+  "id": "A381512",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000302",
+    "A002451",
+    "A002452",
+    "A002453",
+    "A136630",
+    "A160562",
+    "A166984",
+    "A286899",
+    "A381513",
+    "A383837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

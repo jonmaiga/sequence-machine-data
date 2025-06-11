@@ -1,0 +1,17 @@
+{
+  "description": "Symmetric triangle read by rows refining A109113.",
+  "id": "A382880",
+  "mentions": [
+    "A109113"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

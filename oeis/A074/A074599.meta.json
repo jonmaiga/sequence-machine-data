@@ -1,12 +1,14 @@
 {
-  "description": "Numerator of 2 * H(n,2,1), a generalized harmonic number. See A075135. Also 2 * A025550.",
+  "description": "Numerator of 2 * H(n,2,1), a generalized harmonic number. See A075135. Also 2 * A350669.",
   "id": "A074599",
   "mentions": [
     "A025547",
     "A025549",
     "A025550",
     "A075135",
-    "A161198"
+    "A161198",
+    "A350669",
+    "A350670"
   ],
   "tags": [
     "easy",

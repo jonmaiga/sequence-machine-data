@@ -1,0 +1,17 @@
+{
+  "description": "The least number of times that b(k) = 2*k - 1 for the first n terms of a \"mean-central\" sequence, as is defined in A383192.",
+  "id": "A383194",
+  "mentions": [
+    "A383192",
+    "A383193"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

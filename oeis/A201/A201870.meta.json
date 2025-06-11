@@ -1,5 +1,5 @@
 {
-  "description": "Number of zero-sum -5..5 arrays of n elements with first and second differences also in -5..5",
+  "description": "Number of zero-sum -5..5 arrays of n elements with first and second differences also in -5..5.",
   "id": "A201870",
   "mentions": [
     "A201873"

@@ -2,6 +2,7 @@
   "description": "Lexicographically earliest infinite sequence of distinct positive numbers with the property that when written as a triangle, the product of each row is a factorial.",
   "id": "A077168",
   "mentions": [
+    "A076031",
     "A077169",
     "A077170",
     "A077171"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

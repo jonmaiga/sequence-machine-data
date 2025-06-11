@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows where T(m,n)=2mn+m+n-7",
+  "description": "Triangle read by rows where T(m,n)=2mn+m+n-7.",
   "id": "A144670",
   "mentions": [
     "A057197",

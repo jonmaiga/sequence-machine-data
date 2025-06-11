@@ -1,0 +1,27 @@
+{
+  "description": "Series expansion of the exponential generating function -tridend(-(1-exp(x))) where tridend(x) = (1 - 3*x - sqrt(1+6*x+x^2)) / (4*x) (A001003).",
+  "id": "A383987",
+  "mentions": [
+    "A001003",
+    "A002050",
+    "A006531",
+    "A084099",
+    "A101851",
+    "A114285",
+    "A225883",
+    "A383985",
+    "A383986",
+    "A383988",
+    "A383989",
+    "A383991"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

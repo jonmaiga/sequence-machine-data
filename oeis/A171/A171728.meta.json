@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which establish records for floor(log(log(log(2^n)))).",
+  "description": "Numbers k which establish records for floor(log(log(log(2^k)))).",
   "id": "A171728",
   "mentions": [
     "A000079",

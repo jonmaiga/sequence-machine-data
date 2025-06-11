@@ -1,8 +1,7 @@
 {
-  "description": "Number of permutations p() of 1..n+7 with centered difference p(i+1)-p(i-1) < 0 exactly 6 times",
+  "description": "Number of permutations p() of 1..n+7 with centered difference p(i+1)-p(i-1) < 0 exactly 6 times.",
   "id": "A180884",
   "mentions": [
-    "A000892",
     "A180887"
   ],
   "tags": [

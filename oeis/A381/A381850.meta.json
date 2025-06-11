@@ -1,0 +1,19 @@
+{
+  "description": "Primes p preceded and followed by primes whose difference is less than 2*log(p).",
+  "id": "A381850",
+  "mentions": [
+    "A000040",
+    "A031131",
+    "A288907",
+    "A383652"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

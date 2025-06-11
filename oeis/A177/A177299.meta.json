@@ -1,13 +1,17 @@
 {
   "description": "Number of permutations of 4 copies of 1..n with all adjacent differences <= 2 in absolute value.",
   "id": "A177299",
-  "mentions": [],
+  "mentions": [
+    "A014608"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 8,
+    "offset": 0,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

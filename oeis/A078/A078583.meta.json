@@ -2,7 +2,8 @@
   "description": "Numbers k such that 2^k - prime(k) is prime.",
   "id": "A078583",
   "mentions": [
-    "A077375"
+    "A077375",
+    "A078686"
   ],
   "tags": [
     "more",

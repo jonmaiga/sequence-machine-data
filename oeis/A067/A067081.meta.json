@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that sigma(k+1) = 2*sigma(k).",
   "id": "A067081",
-  "mentions": [],
+  "mentions": [
+    "A000203"
+  ],
   "tags": [
     "nonn"
   ],

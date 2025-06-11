@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k*x)^((3/4)^k).",
+  "id": "A384325",
+  "mentions": [
+    "A032033",
+    "A084785",
+    "A090353",
+    "A384305",
+    "A384324",
+    "A384326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

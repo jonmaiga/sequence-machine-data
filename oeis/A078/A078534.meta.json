@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of power series that satisfies A(x)^5 - 25x*A(x)^6 = 1, A(0)=1.",
+  "description": "Coefficients of power series that satisfies A(x)^5 - 25*x*A(x)^6 = 1, A(0)=1.",
   "id": "A078534",
   "mentions": [
     "A000108",

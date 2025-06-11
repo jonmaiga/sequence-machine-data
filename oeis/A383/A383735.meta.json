@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals, where each row is the cluster series for percolation on the cells of a certain type of polyominoids.",
+  "id": "A383735",
+  "mentions": [
+    "A000007",
+    "A003198",
+    "A003201",
+    "A003203",
+    "A003207",
+    "A003209",
+    "A003210",
+    "A003211",
+    "A036396",
+    "A036402",
+    "A040000",
+    "A366766",
+    "A366767",
+    "A366768",
+    "A383736",
+    "A383737"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

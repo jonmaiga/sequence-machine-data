@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-digit base-10 numbers whose digit sum is equal to ceiling(9*n/2).",
+  "id": "A382531",
+  "mentions": [
+    "A007953",
+    "A025015",
+    "A071817",
+    "A071976",
+    "A130877",
+    "A210736"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

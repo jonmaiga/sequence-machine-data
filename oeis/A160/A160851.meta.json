@@ -2,7 +2,8 @@
   "description": "Numbers which are a difference of two of their own anagrams.",
   "id": "A160851",
   "mentions": [
-    "A023086"
+    "A055098",
+    "A384433"
   ],
   "tags": [
     "base",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

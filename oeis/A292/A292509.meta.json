@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^2 + 23*n + 23.",
+  "description": "Primes of the form k^2 + 23*k + 23.",
   "id": "A292509",
   "mentions": [
     "A005846",

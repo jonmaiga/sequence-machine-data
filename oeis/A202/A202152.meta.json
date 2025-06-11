@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f.: exp(x*(1+x)^x)",
+  "description": "Expansion of e.g.f.: exp(x*(1+x)^x).",
   "id": "A202152",
   "mentions": [],
   "tags": [

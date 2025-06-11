@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = -Sum_{d|n} (-n)^d.",
+  "id": "A383010",
+  "mentions": [
+    "A066108",
+    "A383003"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

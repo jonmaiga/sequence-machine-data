@@ -2,6 +2,7 @@
   "description": "Sequence generated from the first nontrivial zero of the Riemann zeta function.",
   "id": "A123504",
   "mentions": [
+    "A058303",
     "A100060",
     "A102522",
     "A102523",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 68,
+    "size": 87,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: numbers n and prime numbered columns p such that T(n, p) is n mod p.",
+  "description": "Irregular triangle read by rows: T(n, k) = n mod prime(k), n >= 2, 1 <= k <= PrimePi(n), where PrimePi(n) = A000720(n).",
   "id": "A147693",
   "mentions": [
     "A000040",

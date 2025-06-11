@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that replacing each term k with prime(k) does not change the succession of digits.",
+  "id": "A383318",
+  "mentions": [
+    "A067928",
+    "A302656",
+    "A383319",
+    "A383320",
+    "A383322"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

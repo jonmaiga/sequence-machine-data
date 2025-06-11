@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers in order of occurrence as substrings in the concatenation of natural numbers 123456789101112....",
+  "id": "A383790",
+  "mentions": [
+    "A033307",
+    "A073175",
+    "A176942"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

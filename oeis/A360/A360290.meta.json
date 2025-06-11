@@ -7,7 +7,8 @@
     "A360185",
     "A360291",
     "A360292",
-    "A360293"
+    "A360293",
+    "A383573"
   ],
   "tags": [
     "formulas",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

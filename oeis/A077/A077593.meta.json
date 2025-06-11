@@ -1,5 +1,5 @@
 {
-  "description": "Table by antidiagonals where T(n,k)=sum_i T(floor[n/i],k-1) starting with T(n,0)=1 if n>0 and T(0,0)=0.",
+  "description": "Table by antidiagonals where T(n,k) = Sum_{i=1..n} T(floor(n/i),k-1) starting with T(n,0)=1 if n>0 and T(0,0)=0.",
   "id": "A077593",
   "mentions": [
     "A000004",
@@ -25,6 +25,6 @@
   "terms": {
     "offset": 0,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

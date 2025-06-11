@@ -1,17 +1,22 @@
 {
-  "description": "Starting the iteration of the function Phi[(Sigma[]-Phi[])] at these initial values leads to the fixed point 4.",
+  "description": "Numbers k such that iterating phi(sigma(k)-phi(k)) starting from k leads to the fixed point 4.",
   "id": "A077094",
   "mentions": [
+    "A000010",
+    "A000203",
     "A077090",
-    "A077100"
+    "A077091",
+    "A077092",
+    "A077093",
+    "A077095",
+    "A077096"
   ],
   "tags": [
-    "fini",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

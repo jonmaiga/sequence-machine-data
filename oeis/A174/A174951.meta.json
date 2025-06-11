@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=Floor((FoF .. n times .. FoF)(n)), where F(x)=Log(Abs(x));",
+  "description": "a(n) = floor((FoF .. n times .. FoF)(n)), where F(x) = log(abs(x)).",
   "id": "A174951",
   "mentions": [],
   "tags": [

@@ -1,16 +1,17 @@
 {
-  "description": "Partial sums of floor(n^2/10) (A056865)",
+  "description": "Partial sums of floor(n^2/10) (A056865).",
   "id": "A173653",
   "mentions": [
     "A056865"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 49,
+    "size": 53,
     "source": "joeis"
   }
 }

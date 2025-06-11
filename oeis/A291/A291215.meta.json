@@ -2,12 +2,16 @@
   "description": "Numbers m with the property that shifting the rightmost digit of m to the left end multiplies the number by 7.",
   "id": "A291215",
   "mentions": [
+    "A034089",
     "A092697",
     "A097717",
     "A146088",
     "A146561",
     "A146569",
-    "A146754"
+    "A146754",
+    "A291321",
+    "A291353",
+    "A291354"
   ],
   "tags": [
     "base",

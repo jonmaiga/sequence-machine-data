@@ -1,7 +1,8 @@
 {
-  "description": "Pseudo-Latin stable matchings.",
+  "description": "Number of stable matchings in a certain form of Pseudo-Latin squares of order n based on Latin subsquares.",
   "id": "A069124",
   "mentions": [
+    "A005154",
     "A371810"
   ],
   "tags": [

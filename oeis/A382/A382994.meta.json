@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals downwards, where A(n,k) = -Sum_{d|n} phi(n/d) * (-k)^d.",
+  "id": "A382994",
+  "mentions": [
+    "A000010",
+    "A185651",
+    "A382993",
+    "A382995",
+    "A382997"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

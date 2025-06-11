@@ -2,10 +2,12 @@
   "description": "Definition: A kara B = C, where C is the least nonnegative integer such that C * B >= A and C * (B-1) < A. a(n) is the smallest k such that n kara k is undefined.",
   "id": "A053405",
   "mentions": [
-    "A053087"
+    "A053087",
+    "A257213"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

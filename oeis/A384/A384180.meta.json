@@ -1,0 +1,38 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the Heinz numbers of all uniform (equal multiplicities) and normal (covering an initial interval) multisets of length n.",
+  "id": "A384180",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A001694",
+    "A002110",
+    "A047966",
+    "A048767",
+    "A048768",
+    "A056239",
+    "A098859",
+    "A100778",
+    "A106529",
+    "A112798",
+    "A116540",
+    "A122111",
+    "A130091",
+    "A217605",
+    "A258280",
+    "A322792",
+    "A324939",
+    "A325326",
+    "A325337",
+    "A381431",
+    "A383512"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

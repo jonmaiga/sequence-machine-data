@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. log(1 + (exp(2*x) - 1)/2)^2 / 2.",
+  "id": "A383165",
+  "mentions": [
+    "A009392",
+    "A209849",
+    "A383163"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of integers with a shortest addition-multiplication chain of length n.",
+  "id": "A383002",
+  "mentions": [
+    "A003065",
+    "A230697",
+    "A383001"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

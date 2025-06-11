@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..2 arrays with new values 0..2 introduced in row major order and no element equal to any knight-move neighbor (colorings ignoring permutations of colors)",
+  "description": "Number of nX5 0..2 arrays with new values 0..2 introduced in row major order and no element equal to any knight-move neighbor (colorings ignoring permutations of colors).",
   "id": "A208431",
   "mentions": [
     "A208434"

@@ -2,8 +2,9 @@
   "description": "a(n) = Sum_{p|n, p prime} p^p.",
   "id": "A351366",
   "mentions": [
-    "A001221",
+    "A000312",
     "A010051",
+    "A051674",
     "A351365"
   ],
   "tags": [

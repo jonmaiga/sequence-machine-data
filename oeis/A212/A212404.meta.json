@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary arrays of length 2*n+2 with no more than n ones in any length 2n subsequence (=50% duty cycle)",
+  "description": "Number of binary arrays of length 2*n+2 with no more than n ones in any length 2n subsequence (=50% duty cycle).",
   "id": "A212404",
   "mentions": [
     "A212402"

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that omega(k) = 4 and p^omega(k) < k^(1/4) < lpf(k)^(omega(k)+1) for all primes p | k such that p > lpf(k), where lpf = A020639(k).",
+  "id": "A383178",
+  "mentions": [
+    "A010846",
+    "A020639",
+    "A162306",
+    "A383177"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

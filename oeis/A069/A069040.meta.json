@@ -2,6 +2,7 @@
   "description": "Numbers k that divide the numerator of B(2k) (the Bernoulli numbers).",
   "id": "A069040",
   "mentions": [
+    "A027641",
     "A070191",
     "A070192",
     "A070193"

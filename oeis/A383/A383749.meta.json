@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers k whose decimal expansion does not contain the decimal expansion of any proper divisor of k.",
+  "id": "A383749",
+  "mentions": [
+    "A011531",
+    "A027751",
+    "A038603",
+    "A038772",
+    "A121042",
+    "A173041",
+    "A383592"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

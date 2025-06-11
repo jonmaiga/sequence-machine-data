@@ -1,0 +1,18 @@
+{
+  "description": "Number of arborescent partitions with exactly n parts.",
+  "id": "A383894",
+  "mentions": [
+    "A000081",
+    "A382440",
+    "A383895"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where column k is the expansion of g.f. x/(1 - A002203(k)*x + (-1)^k*x^2).",
+  "id": "A383742",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000129",
+    "A001109",
+    "A001477",
+    "A002203",
+    "A028412",
+    "A041085",
+    "A091761",
+    "A097731",
+    "A292423",
+    "A380083",
+    "A383720",
+    "A383740",
+    "A383741"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "Numbers n such that (n+1)*phi(n) is a perfect square.",
+  "description": "Numbers k such that (k+1)*phi(k) is a perfect square.",
   "id": "A069952",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000290"
+  ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {

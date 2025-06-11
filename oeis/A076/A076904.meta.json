@@ -7,13 +7,14 @@
     "A076903"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

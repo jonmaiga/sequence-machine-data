@@ -1,5 +1,5 @@
 {
-  "description": "Parity array of a matrix of Hankel transforms related to C(n,floor(n/2))",
+  "description": "Parity array of a matrix of Hankel transforms related to C(n,floor(n/2)).",
   "id": "A144093",
   "mentions": [
     "A061338",

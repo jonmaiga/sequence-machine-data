@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A265576(i) = A265576(j), for all i, j >= 1, where A265576 is the LCM-transform of EKG-sequence.",
+  "id": "A383284",
+  "mentions": [
+    "A000720",
+    "A064413",
+    "A064423",
+    "A265576",
+    "A383285"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

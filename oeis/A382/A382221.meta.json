@@ -1,0 +1,19 @@
+{
+  "description": "Products of primitive roots when n is 2, 4, p^k, or 2p^k (with p an odd prime), for all other n the value is defined to be 1.",
+  "id": "A382221",
+  "mentions": [
+    "A033948",
+    "A121380",
+    "A123475",
+    "A180634"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

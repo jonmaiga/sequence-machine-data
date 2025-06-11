@@ -2,7 +2,8 @@
   "description": "Smallest sum of addition chain for n.",
   "id": "A376449",
   "mentions": [
-    "A003313"
+    "A003313",
+    "A008057"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Demi-tribonacci numbers (rounding up): a(0)=a(1)=0, a(2)=2; a(n) = ceiling( (a(n-1)+a(n-2)+a(n-3))/2 )",
+  "description": "Demi-tribonacci numbers (rounding up): a(0)=a(1)=0, a(2)=2; a(n) = ceiling( (a(n-1)+a(n-2)+a(n-3))/2 ).",
   "id": "A180235",
   "mentions": [
     "A000213",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of even Ulam numbers <= 10^n.",
+  "id": "A382861",
+  "mentions": [
+    "A002858",
+    "A307331",
+    "A382798",
+    "A382860"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

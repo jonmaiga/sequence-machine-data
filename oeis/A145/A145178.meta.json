@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of coefficients of series expansion of 1/(Bernoulli trial entropy), scaled to denominators A091137",
+  "description": "Numerators of coefficients of series expansion of 1/(Bernoulli trial entropy), scaled to denominators A091137.",
   "id": "A145178",
   "mentions": [
     "A091137",

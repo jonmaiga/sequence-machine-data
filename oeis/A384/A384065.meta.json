@@ -1,0 +1,16 @@
+{
+  "description": "Cardinality of the lattice of order ideals for every order ideal in the lattice of normal subgroups of the dihedral group D_{2*n}.",
+  "id": "A384065",
+  "mentions": [
+    "A037852"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

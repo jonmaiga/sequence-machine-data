@@ -2,7 +2,6 @@
   "description": "Recurrence from values at floor of a third and two-thirds.",
   "id": "A123535",
   "mentions": [
-    "A000040",
     "A000337",
     "A001768",
     "A001855",

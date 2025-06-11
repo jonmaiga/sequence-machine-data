@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of the partial sums of the reciprocals of the number of unitary divisors function (A034444).",
+  "id": "A383056",
+  "mentions": [
+    "A034444",
+    "A064608",
+    "A104529",
+    "A370898",
+    "A379514",
+    "A383055"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Primes p such that sigma(p-6) > p.",
   "id": "A067832",
   "mentions": [
+    "A000203",
     "A067831"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

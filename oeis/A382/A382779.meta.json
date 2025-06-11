@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{0<=i<=k<=n} 2^(4*(n-k)) * binomial(2*i,i)^2 * binomial(2*n-2*i,n-i) * binomial(2*k-2*i,k-i) * binomial(2*k,k)^2 * binomial(2*n-2*k,n-k).",
+  "id": "A382779",
+  "mentions": [
+    "A000984",
+    "A001025",
+    "A002894",
+    "A106187"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

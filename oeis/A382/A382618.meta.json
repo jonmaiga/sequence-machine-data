@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 3^(n-2)*(binomial(n,2) + 3*n + 9).",
+  "id": "A382618",
+  "mentions": [
+    "A006234"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

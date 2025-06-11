@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..2 arrays with every element neighboring horizontally or vertically both a 0 and a 1",
+  "description": "Number of nX2 0..2 arrays with every element neighboring horizontally or vertically both a 0 and a 1.",
   "id": "A203536",
   "mentions": [
     "A135491",

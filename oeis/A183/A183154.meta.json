@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) is the number of order-preserving partial isometries (of an n-chain) of fixed k (fix of alpha is the number of fixed points of alpha)",
+  "description": "T(n,k) is the number of order-preserving partial isometries (of an n-chain) of fixed k (fix of alpha is the number of fixed points of alpha).",
   "id": "A183154",
   "mentions": [
     "A007318",

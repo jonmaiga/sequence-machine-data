@@ -1,0 +1,17 @@
+{
+  "description": "Complement of A384191.",
+  "id": "A384192",
+  "mentions": [
+    "A137709",
+    "A383192",
+    "A384191"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

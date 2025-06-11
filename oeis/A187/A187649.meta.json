@@ -2,7 +2,8 @@
   "description": "Alternated cumulative sums of the central Stirling numbers of the second kind.",
   "id": "A187649",
   "mentions": [
-    "A008277"
+    "A008277",
+    "A226775"
   ],
   "tags": [
     "easy",

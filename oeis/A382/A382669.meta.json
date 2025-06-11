@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers m such that both p = m^2 + 1 and q = (p^2 + 1)/2 are primes.",
+  "id": "A382669",
+  "mentions": [
+    "A002522",
+    "A005574",
+    "A048161"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

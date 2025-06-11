@@ -1,5 +1,5 @@
 {
-  "description": "Generating function = sum over all subsets S of the integers {0,1,2...} of 1/sum(1/x^n for n in S)",
+  "description": "Generating function = sum over all subsets S of the integers {0,1,2...} of 1/sum(1/x^n for n in S).",
   "id": "A121268",
   "mentions": [],
   "tags": [

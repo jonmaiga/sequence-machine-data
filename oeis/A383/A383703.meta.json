@@ -1,0 +1,16 @@
+{
+  "description": "Coefficient of x^3 in expansion of (x+3) * (x+7) * ... * (x+4*n-1).",
+  "id": "A383703",
+  "mentions": [
+    "A225471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

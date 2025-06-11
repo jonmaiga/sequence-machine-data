@@ -1,5 +1,5 @@
 {
-  "description": "Number of k's 1<=k<=n dividing the numerator of 2n-th Bernoulli number.",
+  "description": "Number of k's 1 <= k <= n dividing the numerator of 2n-th Bernoulli number.",
   "id": "A084217",
   "mentions": [
     "A000367"

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k*(k+1)*(k+2)/6 * x)^((1/54) * (2/3)^k).",
+  "id": "A384357",
+  "mentions": [
+    "A384362"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

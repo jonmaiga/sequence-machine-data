@@ -1,7 +1,8 @@
 {
-  "description": "Primes of the form k! / 10 - 1.",
+  "description": "Primes of the form k!/10 - 1.",
   "id": "A290123",
   "mentions": [
+    "A139185",
     "A139205",
     "A290116",
     "A290117",
@@ -12,6 +13,7 @@
     "A290122"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

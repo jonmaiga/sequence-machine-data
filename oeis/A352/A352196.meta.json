@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = number of steps for the mod-n Ackermann function to stabilize to a set consisting of only one value, or -1 if it does not stabilize.",
+  "description": "a(n) = number of steps for the standard mod-n Ackermann function to stabilize to a set consisting of only one value, or -1 if it does not stabilize.",
   "id": "A352196",
-  "mentions": [],
+  "mentions": [
+    "A085119"
+  ],
   "tags": [
     "nonn"
   ],

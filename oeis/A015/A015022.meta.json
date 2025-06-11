@@ -1,15 +1,17 @@
 {
   "description": "q-factorial numbers for q=-8.",
   "id": "A015022",
-  "mentions": [],
+  "mentions": [
+    "A015007"
+  ],
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 12,
     "source": "oeis-bfile"
   }
 }

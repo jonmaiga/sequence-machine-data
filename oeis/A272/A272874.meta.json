@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the infinite nested radical sqrt(-1 + sqrt(1 + sqrt(-1 + sqrt(1 + ...))).",
+  "description": "Decimal expansion of the infinite nested radical sqrt(-1 + sqrt(1 + sqrt(-1 + sqrt(1 + ...)))).",
   "id": "A272874",
   "mentions": [
     "A137421"

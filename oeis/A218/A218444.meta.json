@@ -2,11 +2,14 @@
   "description": "a(n) = Sum_{k>=0} floor(n/(5*k + 1)).",
   "id": "A218444",
   "mentions": [
+    "A001620",
     "A001876",
     "A218445",
-    "A218446"
+    "A218446",
+    "A256779"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

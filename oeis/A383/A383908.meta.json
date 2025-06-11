@@ -1,0 +1,30 @@
+{
+  "description": "Number of generalized polyforms with n cells on the snub trihexagonal tiling.",
+  "id": "A383908",
+  "mentions": [
+    "A000105",
+    "A000228",
+    "A000577",
+    "A197156",
+    "A197159",
+    "A197459",
+    "A197462",
+    "A197465",
+    "A309159",
+    "A343398",
+    "A343406",
+    "A343577",
+    "A344211",
+    "A344213"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k*x)^((4/5)^k).",
+  "id": "A384326",
+  "mentions": [
+    "A084785",
+    "A090356",
+    "A094417",
+    "A384305",
+    "A384324",
+    "A384325"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

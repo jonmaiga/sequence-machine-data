@@ -1,5 +1,5 @@
 {
-  "description": "Number of letters in n-th prime (in Spanish)",
+  "description": "Number of letters in n-th prime (in Spanish).",
   "id": "A161386",
   "mentions": [
     "A049528"

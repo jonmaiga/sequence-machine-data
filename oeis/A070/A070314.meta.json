@@ -1,14 +1,18 @@
 {
-  "description": "P(n!+1)-P(2^n+1) where P(x) is the largest prime factor in x.",
+  "description": "a(n) = P(n!+1)-P(2^n+1) where P(x) is the largest prime factor in x.",
   "id": "A070314",
-  "mentions": [],
+  "mentions": [
+    "A002583",
+    "A002587",
+    "A006530"
+  ],
   "tags": [
-    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 25,
-    "source": "joeis"
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

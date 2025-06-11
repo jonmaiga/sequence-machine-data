@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number whose largest odd divisor is its n-th divisor.",
+  "id": "A383402",
+  "mentions": [
+    "A000005",
+    "A000265",
+    "A001227",
+    "A005117",
+    "A027750",
+    "A038547",
+    "A064989",
+    "A182469",
+    "A221647",
+    "A355200",
+    "A383401",
+    "A383961"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

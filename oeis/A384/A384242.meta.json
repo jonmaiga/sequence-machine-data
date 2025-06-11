@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k=0..n-1} (4*n-5*k).",
+  "id": "A384242",
+  "mentions": [
+    "A061924",
+    "A343446",
+    "A383997"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

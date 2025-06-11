@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A382883(k).",
+  "id": "A382942",
+  "mentions": [
+    "A002321",
+    "A382883"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

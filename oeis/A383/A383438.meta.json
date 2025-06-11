@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=1..n} Product_{p|k, p prime} k/p.",
+  "id": "A383438",
+  "mentions": [
+    "A205959"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,8 @@
   "description": "Primes congruent to {0, 1, 2, 3} mod 5.",
   "id": "A042986",
   "mentions": [
+    "A000040",
+    "A030433",
     "A143390"
   ],
   "tags": [

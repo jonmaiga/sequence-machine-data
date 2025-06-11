@@ -1,20 +1,23 @@
 {
-  "description": "Numbers k such that Reverse(k+9) = 3.",
+  "description": "Numbers k such that R(k+9) = 3.",
   "id": "A086947",
   "mentions": [
+    "A004086",
     "A085331",
     "A086948",
     "A101700",
-    "A101703"
+    "A101703",
+    "A173833"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

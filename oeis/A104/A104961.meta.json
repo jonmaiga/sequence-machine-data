@@ -1,7 +1,9 @@
 {
   "description": "Primes from merging of 5 successive digits in decimal expansion of cos(1).",
   "id": "A104961",
-  "mentions": [],
+  "mentions": [
+    "A049470"
+  ],
   "tags": [
     "base",
     "nonn"

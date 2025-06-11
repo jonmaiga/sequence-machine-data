@@ -2,6 +2,7 @@
   "description": "Numbers of the form (3^i)*(5^j)*(7^k), with i, j, k >= 0.",
   "id": "A108347",
   "mentions": [
+    "A002473",
     "A003586",
     "A003591",
     "A003595",

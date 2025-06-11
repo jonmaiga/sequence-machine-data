@@ -1,5 +1,5 @@
 {
-  "description": "2^2^2^ ... 2^w (with n 2's), where w = 1.92878.....",
+  "description": "2^2^2^ ... 2^w (with n 2's), where w = 1.92878... = A086238.",
   "id": "A016104",
   "mentions": [
     "A086238"

@@ -1,7 +1,9 @@
 {
   "description": "Primes from merging of 3 successive digits in decimal expansion of exp(2).",
   "id": "A104999",
-  "mentions": [],
+  "mentions": [
+    "A072334"
+  ],
   "tags": [
     "base",
     "nonn"

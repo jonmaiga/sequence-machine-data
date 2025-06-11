@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cosh(x)^n.",
+  "id": "A381459",
+  "mentions": [
+    "A242446",
+    "A326476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

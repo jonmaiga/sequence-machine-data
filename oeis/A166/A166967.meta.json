@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, (Sierpinski's gasket, A047999) * A166966 (diagonalized as a lower triangular matrix)",
+  "description": "Triangle read by rows, (Sierpinski's gasket, A047999) * A166966 (diagonalized as a lower triangular matrix).",
   "id": "A166967",
   "mentions": [
     "A047999",

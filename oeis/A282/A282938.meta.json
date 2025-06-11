@@ -1,5 +1,5 @@
 {
-  "description": "Recursive 2-parameter sequence allowing calculation of the Möbius function (not the same as A266378)",
+  "description": "Recursive 2-parameter sequence allowing calculation of the Möbius function (not the same as A266378).",
   "id": "A282938",
   "mentions": [
     "A000124",

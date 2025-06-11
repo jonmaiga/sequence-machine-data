@@ -1,5 +1,5 @@
 {
-  "description": "Number of triangular regions in an equilateral triangular \"frame\" of size n (see Comments in A328526 for definition),",
+  "description": "Number of triangular regions in an equilateral triangular \"frame\" of size n (see Comments in A328526 for definition).",
   "id": "A333032",
   "mentions": [
     "A274586",

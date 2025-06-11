@@ -1,5 +1,5 @@
 {
-  "description": "Number of full curvilinear flups with n curves.",
+  "description": "Number of pseudoline arrangements with n curves.",
   "id": "A090339",
   "mentions": [
     "A090338"

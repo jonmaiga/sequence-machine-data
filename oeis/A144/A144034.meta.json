@@ -1,5 +1,5 @@
 {
-  "description": "Eigentriangle read by rows, T(n,k) = A123932(n-k+1)*A046717(k)",
+  "description": "Eigentriangle read by rows, T(n,k) = A123932(n-k+1)*A046717(k).",
   "id": "A144034",
   "mentions": [
     "A046717",

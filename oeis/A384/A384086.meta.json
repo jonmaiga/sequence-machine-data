@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} ((1 + k*x)/(1 - k*x))^2.",
+  "id": "A384086",
+  "mentions": [
+    "A129256",
+    "A350366",
+    "A350376",
+    "A351764",
+    "A384087",
+    "A384088"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

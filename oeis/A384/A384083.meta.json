@@ -1,0 +1,20 @@
+{
+  "description": "Number of paths with length A383980(n) touching all cells in an n X n grid.",
+  "id": "A384083",
+  "mentions": [
+    "A383980",
+    "A384037"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

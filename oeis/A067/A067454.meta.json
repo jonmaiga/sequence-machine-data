@@ -1,9 +1,12 @@
 {
   "description": "Binomial(a,b) where a = n! and b = sum of first n natural numbers.",
   "id": "A067454",
-  "mentions": [],
+  "mentions": [
+    "A086687"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

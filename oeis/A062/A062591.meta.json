@@ -1,8 +1,12 @@
 {
-  "description": "Primes of form 6n!+1.",
+  "description": "Primes of the form 6*k! + 1.",
   "id": "A062591",
-  "mentions": [],
+  "mentions": [
+    "A076682",
+    "A173314"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "The determinant of the matrix representing a totally anti-symmetric quasigroup of order 2*n+1.",
+  "id": "A383036",
+  "mentions": [
+    "A005408",
+    "A081131",
+    "A375584"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

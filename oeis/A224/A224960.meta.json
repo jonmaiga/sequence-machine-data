@@ -1,5 +1,5 @@
 {
-  "description": "Number of compositions [p(1), p(2), ..., p(k)] of n such that p(j) >= p(1) - 1",
+  "description": "Number of compositions [p(1), p(2), ..., p(k)] of n such that p(j) >= p(1) - 1.",
   "id": "A224960",
   "mentions": [
     "A007059",

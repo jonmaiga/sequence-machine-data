@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into distinct parts from [ 1, 18 ].",
+  "description": "Number of partitions of n into distinct parts from [1, 18].",
   "id": "A034148",
   "mentions": [],
   "tags": [

@@ -2,7 +2,8 @@
   "description": "Primes p such that digits of p do not appear in p^6.",
   "id": "A253575",
   "mentions": [
-    "A253574"
+    "A253574",
+    "A281148"
   ],
   "tags": [
     "base",

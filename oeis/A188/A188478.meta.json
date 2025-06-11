@@ -1,5 +1,5 @@
 {
-  "description": "Binomial variation of the Catalan numbers",
+  "description": "Binomial variation of the Catalan numbers: a(n) = sum( binomial(n-1-i, i)*a(i)*a(n-1-i), i=0..(n-1) ) with a(0)=1.",
   "id": "A188478",
   "mentions": [
     "A000108",
@@ -8,7 +8,6 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

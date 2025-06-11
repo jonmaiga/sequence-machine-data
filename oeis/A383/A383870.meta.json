@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n such that none of the smallest parts are adjacent.",
+  "id": "A383870",
+  "mentions": [
+    "A003242",
+    "A007318",
+    "A011782",
+    "A074909",
+    "A105039",
+    "A238342"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

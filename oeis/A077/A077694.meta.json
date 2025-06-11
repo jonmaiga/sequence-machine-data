@@ -1,17 +1,20 @@
 {
-  "description": "a(n) = triangular number pertaining to the number f(n) obtained by concatenating first n natural numbers.",
+  "description": "a(n) = triangular number whose index is the concatenation of the first n natural numbers.",
   "id": "A077694",
   "mentions": [
+    "A000217",
+    "A007908",
     "A077692",
     "A077693"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

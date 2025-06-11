@@ -1,7 +1,10 @@
 {
   "description": "Primes p such that p == -1 (mod phi(p-1)).",
   "id": "A067933",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A008330"
+  ],
   "tags": [
     "more",
     "nonn"

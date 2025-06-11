@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k! - prime(k-1) yields a prime.",
+  "description": "Numbers k such that k! - prime(k-1) is prime.",
   "id": "A143713",
   "mentions": [
     "A064401"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Double q-form product triangle:q=3;c(n,q)=Product[(1 - q^i)*(1 - q^(i - 1)), {i, 2, n}];t(n,m,q)=c(n,q)/(c(m,q)*c(n-m,q))",
+  "description": "Double q-form product triangle:q=3;c(n,q)=Product[(1 - q^i)*(1 - q^(i - 1)), {i, 2, n}];t(n,m,q)=c(n,q)/(c(m,q)*c(n-m,q)).",
   "id": "A173885",
   "mentions": [],
   "tags": [

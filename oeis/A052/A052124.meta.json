@@ -2,8 +2,12 @@
   "description": "Expansion of e.g.f. exp(-2*x)/(1-x)^3.",
   "id": "A052124",
   "mentions": [
+    "A000023",
+    "A000153",
     "A052127",
-    "A082031"
+    "A082031",
+    "A087981",
+    "A137775"
   ],
   "tags": [
     "formulas",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

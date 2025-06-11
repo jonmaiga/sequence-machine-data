@@ -1,5 +1,5 @@
 {
-  "description": "Numbers divisible by their abundance sigma(n) - 2n.",
+  "description": "Numbers k divisible by their abundance sigma(k) - 2*k.",
   "id": "A097498",
   "mentions": [
     "A000079",

@@ -2,7 +2,9 @@
   "description": "Expansion of g.f. 1/((1-4*x)*(1-6*x)*(1-8*x)).",
   "id": "A019333",
   "mentions": [
-    "A016269"
+    "A016269",
+    "A017389",
+    "A019943"
   ],
   "tags": [
     "easy",

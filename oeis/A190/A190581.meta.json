@@ -1,5 +1,5 @@
 {
-  "description": "Value of z in the Diophantine equation x^3 + y^3 = n*z^3 (with x>0 and minimal and x >= y and y != 0)",
+  "description": "Value of z in the Diophantine equation x^3 + y^3 = n*z^3 (with x>0 and minimal and x >= y and y != 0).",
   "id": "A190581",
   "mentions": [
     "A020898",

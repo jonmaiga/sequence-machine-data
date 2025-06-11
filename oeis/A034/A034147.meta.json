@@ -1,14 +1,15 @@
 {
-  "description": "Number of partitions of n into distinct parts from [ 1, 17 ].",
+  "description": "Number of partitions of n into distinct parts from [1, 17].",
   "id": "A034147",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 57,
     "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k with exactly n proper divisors, where all of them have binary weights that are different from the binary weight of k.",
+  "id": "A383364",
+  "mentions": [
+    "A000120",
+    "A032741",
+    "A380844",
+    "A383363",
+    "A383365"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

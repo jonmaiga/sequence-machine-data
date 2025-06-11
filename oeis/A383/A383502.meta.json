@@ -1,0 +1,20 @@
+{
+  "description": "Position of the first instance of prime(n), in base 3, in the ternary representation of Pi after the ternary point.",
+  "id": "A383502",
+  "mentions": [
+    "A000040",
+    "A004601",
+    "A004602",
+    "A007089",
+    "A178707"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

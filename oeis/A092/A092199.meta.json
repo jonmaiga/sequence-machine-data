@@ -1,5 +1,5 @@
 {
-  "description": "Number of Ore graphs on n nodes using Skiena's nonstandard definition > n (instead of the usual >= n)",
+  "description": "Number of Ore graphs on n nodes using Skiena's nonstandard definition > n (instead of the usual >= n).",
   "id": "A092199",
   "mentions": [
     "A264683"

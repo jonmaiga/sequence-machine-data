@@ -1,0 +1,48 @@
+{
+  "description": "Heinz numbers of integer partitions with distinct multiplicities (Wilf) and distinct nonzero 0-appended differences (conjugate Wilf).",
+  "id": "A383532",
+  "mentions": [
+    "A001222",
+    "A001223",
+    "A047966",
+    "A048767",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A098859",
+    "A112798",
+    "A122111",
+    "A130091",
+    "A130092",
+    "A181819",
+    "A238745",
+    "A320348",
+    "A325324",
+    "A325325",
+    "A325349",
+    "A325366",
+    "A325367",
+    "A325368",
+    "A325388",
+    "A336866",
+    "A351294",
+    "A351295",
+    "A383506",
+    "A383507",
+    "A383512",
+    "A383513",
+    "A383530",
+    "A383531",
+    "A383709",
+    "A383712"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

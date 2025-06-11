@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A381798(n) - A361373(n) - 1.",
+  "id": "A380870",
+  "mentions": [
+    "A000961",
+    "A024619",
+    "A361373",
+    "A377485",
+    "A381750",
+    "A381798",
+    "A381799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

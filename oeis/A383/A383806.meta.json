@@ -1,0 +1,27 @@
+{
+  "description": "Number of polyforms with n cells on the faces of a disdyakis dodecahedron up to rotation and reflection.",
+  "id": "A383806",
+  "mentions": [
+    "A030135",
+    "A030136",
+    "A333333",
+    "A340635",
+    "A383490",
+    "A383492",
+    "A383494",
+    "A383496",
+    "A383800",
+    "A383802",
+    "A383804",
+    "A383807"
+  ],
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

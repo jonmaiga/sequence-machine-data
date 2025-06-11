@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 2 + val(k!, 2) < p + val(k!, p), where p is the largest prime <= k and val(r, m) is the valuation of r at m.",
+  "id": "A383612",
+  "mentions": [
+    "A000142",
+    "A007814",
+    "A007917"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

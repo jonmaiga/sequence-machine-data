@@ -2,10 +2,12 @@
   "description": "Decimal expansion of Fisher's percolation exponent in two dimensions, 187/91.",
   "id": "A251420",
   "mentions": [
-    "A021186"
+    "A021186",
+    "A377420"
   ],
   "tags": [
     "cons",
+    "easy",
     "nonn"
   ],
   "terms": {

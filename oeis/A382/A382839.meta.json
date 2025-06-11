@@ -1,0 +1,16 @@
+{
+  "description": "Number of dense binary relations on {1,...,n}.",
+  "id": "A382839",
+  "mentions": [
+    "A382693"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

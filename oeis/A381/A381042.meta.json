@@ -1,0 +1,23 @@
+{
+  "description": "Alternating sum of floor(n^(1/k)), with k >= 2.",
+  "id": "A381042",
+  "mentions": [
+    "A000196",
+    "A048766",
+    "A089361",
+    "A178487",
+    "A178489",
+    "A255270",
+    "A382691",
+    "A382692"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

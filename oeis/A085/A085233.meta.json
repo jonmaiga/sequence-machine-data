@@ -1,10 +1,14 @@
 {
-  "description": "(Greatest power of smallest prime factor of n) > square root(n).",
+  "description": "Numbers k such that k is divisible by a power of its smallest prime factor that exceeds its square root.",
   "id": "A085233",
   "mentions": [
-    "A028233"
+    "A028233",
+    "A085231",
+    "A116882"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

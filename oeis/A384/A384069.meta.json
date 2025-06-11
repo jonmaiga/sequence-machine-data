@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected components of n faces of the truncated octahedron up to the 48 rotations and reflections of the truncated octahedron.",
+  "id": "A384069",
+  "mentions": [
+    "A383802",
+    "A384067",
+    "A384068",
+    "A384070",
+    "A384071",
+    "A384072"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

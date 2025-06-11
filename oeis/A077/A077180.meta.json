@@ -2,6 +2,7 @@
   "description": "Smallest concatenation of integers starting from 1 that is a multiple of the n-th prime.",
   "id": "A077180",
   "mentions": [
+    "A007908",
     "A077181",
     "A077182"
   ],

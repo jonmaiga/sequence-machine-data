@@ -1,5 +1,5 @@
 {
-  "description": "Busy Beaver for lambda calculus BBλ: the maximum normal form size of any closed lambda term of size n, or 0 if no closed term of size n exists.",
+  "description": "Busy Beaver for lambda calculus BBλ: the maximum beta normal form size of any closed lambda term of size n, or 0 if no closed term of size n exists.",
   "id": "A333479",
   "mentions": [
     "A028444",

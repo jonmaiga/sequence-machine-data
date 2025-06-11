@@ -2,7 +2,9 @@
   "description": "a(n) = 3*2^n - Fibonacci(n+3) - 1.",
   "id": "A221719",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A083329",
+    "A104004"
   ],
   "tags": [
     "easy",

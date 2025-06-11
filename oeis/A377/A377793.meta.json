@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of squarefree composite k with lpf(k) = prime(n) such that m <= Omega(k), where lpf = A020639, m = floor(log k / log lpf(k)), and Omega = A001222",
+  "description": "a(n) is the number of squarefree composite k with lpf(k) = prime(n) such that m <= Omega(k), where lpf = A020639, m = floor(log k / log lpf(k)), and Omega = A001222.",
   "id": "A377793",
   "mentions": [
     "A001222",

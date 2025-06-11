@@ -1,5 +1,5 @@
 {
-  "description": "Primes which are the sum of a smaller n and its composite(n) subscript. A002808 + a(n) (= prime)",
+  "description": "Primes which are the sum of a smaller n and its composite(n) subscript. A002808 + a(n) (= prime).",
   "id": "A161540",
   "mentions": [
     "A002808"

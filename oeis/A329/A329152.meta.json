@@ -1,8 +1,13 @@
 {
   "description": "a(n) = Sum_{i=1..n-1} Sum_{j=1..i-1} [1 == i*j (mod n)], where [] is the Iverson bracket.",
   "id": "A329152",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A060594",
+    "A343292"
+  ],
   "tags": [
+    "formulas",
     "look",
     "nonn"
   ],

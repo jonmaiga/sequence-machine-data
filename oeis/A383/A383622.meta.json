@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A383621.",
+  "id": "A383622",
+  "mentions": [
+    "A001047",
+    "A007310",
+    "A027649",
+    "A383621"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

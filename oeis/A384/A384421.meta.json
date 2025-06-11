@@ -1,0 +1,23 @@
+{
+  "description": "The number of exponentially squarefree prime powers (not including 1) that unitarily divide n.",
+  "id": "A384421",
+  "mentions": [
+    "A008966",
+    "A077761",
+    "A085548",
+    "A125029",
+    "A383959",
+    "A384419",
+    "A384420"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

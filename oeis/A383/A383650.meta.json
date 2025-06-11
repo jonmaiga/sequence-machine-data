@@ -1,0 +1,20 @@
+{
+  "description": "Averages k of a twin prime pair such that 3*k*2^d is also the average of a twin prime pair for some divisor d of 3*k.",
+  "id": "A383650",
+  "mentions": [
+    "A000040",
+    "A005101",
+    "A014574",
+    "A173490",
+    "A383475"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = smallest (n+k) such that n divides the sum {(n+1)+ (n+2) + ... (n+k)} or n divides kn + k(k+1)/2.",
+  "description": "a(n) = smallest (n+k) such that n divides the sum (n+1)+ (n+2) + ... (n+k) = k*n + k*(k+1)/2.",
   "id": "A081467",
   "mentions": [
+    "A000217",
+    "A011772",
     "A081468",
     "A081469",
     "A081470",
@@ -9,11 +11,12 @@
     "A081472"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
+    "size": 73,
     "source": "oeis-entry"
   }
 }

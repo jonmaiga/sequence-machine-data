@@ -1,0 +1,13 @@
+{
+  "description": "a(n) is the number of ways that n can be written as b+c*d, where b, c and d are positive integers and b < c < d.",
+  "id": "A382630",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

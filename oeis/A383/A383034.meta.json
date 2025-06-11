@@ -1,0 +1,19 @@
+{
+  "description": "Inverse Weigh transform of 2^(n-1).",
+  "id": "A383034",
+  "mentions": [
+    "A000079",
+    "A209229",
+    "A306156",
+    "A383033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

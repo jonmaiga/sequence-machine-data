@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 2^(3/2) / (sqrt(Pi)*Gamma(3/4)^2).",
   "id": "A278146",
   "mentions": [
+    "A242439",
     "A278141",
     "A278142"
   ],

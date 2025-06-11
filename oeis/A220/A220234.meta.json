@@ -2,7 +2,8 @@
   "description": "Triangular array read by rows. T(n,k) is the number of functions f:{1,2,...,n}->{1,2,...,n} that have exactly k recurrent elements whose preimage contains only one element, n>=0, 0<=k<=n.",
   "id": "A220234",
   "mentions": [
-    "A000169"
+    "A000169",
+    "A000312"
   ],
   "tags": [
     "formulas",

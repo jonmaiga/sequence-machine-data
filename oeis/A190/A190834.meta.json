@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 5 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 2",
+  "description": "Number of permutations of 5 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 2.",
   "id": "A190834",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with property that the number of prime factors is a multiple of 3.",
+  "description": "Numbers with property that their number of prime factors counted with multiplicity is a multiple of 3.",
   "id": "A145784",
   "mentions": [
     "A000578",

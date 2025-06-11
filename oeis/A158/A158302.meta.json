@@ -1,5 +1,5 @@
 {
-  "description": "\"1\" followed by repeats of 2^k deleting all 4^k, k>0",
+  "description": "\"1\" followed by repeats of 2^k deleting all 4^k, k>0.",
   "id": "A158302",
   "mentions": [
     "A122983",

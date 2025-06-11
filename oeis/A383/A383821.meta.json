@@ -1,0 +1,20 @@
+{
+  "description": "3-automorphic numbers: positive integers k such that 3k^2 ends with k.",
+  "id": "A383821",
+  "mentions": [
+    "A003226",
+    "A030985",
+    "A030986",
+    "A033428",
+    "A067275"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

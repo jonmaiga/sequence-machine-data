@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..2 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11",
+  "description": "Number of (n+1)X(6+1) 0..2 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11.",
   "id": "A233881",
   "mentions": [
     "A233883"

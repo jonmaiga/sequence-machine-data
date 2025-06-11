@@ -10,12 +10,13 @@
     "A258318"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
+    "size": 78,
     "source": "oeis-bfile"
   }
 }

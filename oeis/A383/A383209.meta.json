@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the odd divisors m of n such that there is a divisor d of n with d < m < 2*d, or 0 if such odd divisors do not exist.",
+  "id": "A383209",
+  "mentions": [
+    "A027750",
+    "A237593",
+    "A239657",
+    "A379288",
+    "A379374",
+    "A379461",
+    "A383147"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

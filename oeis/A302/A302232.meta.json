@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) of the numbers of k-matchings in the n-Moebius ladder (0 <= k <= n, n > 2)",
+  "description": "Triangle T(n,k) of the numbers of k-matchings in the n-Moebius ladder (0 <= k <= n, n > 2).",
   "id": "A302232",
   "mentions": [
     "A020877",

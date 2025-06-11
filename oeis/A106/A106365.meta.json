@@ -1,5 +1,5 @@
 {
-  "description": "Necklaces with n beads of 3 colors, no 2 adjacent beads the same color.",
+  "description": "Number of necklaces with n beads of 3 colors, no 2 adjacent beads the same color.",
   "id": "A106365",
   "mentions": [
     "A000031",

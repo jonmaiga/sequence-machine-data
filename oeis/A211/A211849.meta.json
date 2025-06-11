@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nonnegative integer arrays of length n+2k+1 with new values 0 upwards introduced in order, no three adjacent elements all unequal, and containing the value k+1",
+  "description": "T(n,k)=Number of nonnegative integer arrays of length n+2k+1 with new values 0 upwards introduced in order, no three adjacent elements all unequal, and containing the value k+1.",
   "id": "A211849",
   "mentions": [
     "A192136"

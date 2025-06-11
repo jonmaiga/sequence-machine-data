@@ -6,13 +6,11 @@
     "A008683"
   ],
   "tags": [
-    "formulas",
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k = sigma(m)-m where m = sigma(3*k)-3*k.",
+  "id": "A383483",
+  "mentions": [
+    "A063990",
+    "A259180",
+    "A383239"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of the positive integers: a(n) = A258746(A117120(n)) = A117120(A258746(n))",
+  "description": "Permutation of the positive integers: a(n) = A258746(A117120(n)) = A117120(A258746(n)).",
   "id": "A284120",
   "mentions": [
     "A000027",

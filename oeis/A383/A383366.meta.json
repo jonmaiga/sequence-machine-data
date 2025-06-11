@@ -1,0 +1,19 @@
+{
+  "description": "Smallest of a sociable triple i < j < k such that j = s(i), k = s(j), and i = s(k), where s(k) = A380845(k) - k is the sum of aliquot divisors of k that have the same binary weight as k.",
+  "id": "A383366",
+  "mentions": [
+    "A380845",
+    "A380846",
+    "A380849",
+    "A380850"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with every element neighboring horizontally or vertically both a 0 and a 1",
+  "description": "T(n,k)=Number of nXk 0..3 arrays with every element neighboring horizontally or vertically both a 0 and a 1.",
   "id": "A204084",
   "mentions": [],
   "tags": [

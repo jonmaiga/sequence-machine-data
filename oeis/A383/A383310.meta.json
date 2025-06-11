@@ -1,0 +1,43 @@
+{
+  "description": "Number of ways to choose a strict multiset partition of a factorization of n into factors > 1.",
+  "id": "A383310",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A001970",
+    "A005117",
+    "A008578",
+    "A045778",
+    "A045782",
+    "A050320",
+    "A050326",
+    "A050336",
+    "A050342",
+    "A050345",
+    "A255906",
+    "A261049",
+    "A279785",
+    "A281113",
+    "A293243",
+    "A293511",
+    "A296118",
+    "A296119",
+    "A296120",
+    "A296121",
+    "A296122",
+    "A302494",
+    "A316439",
+    "A317776",
+    "A358914",
+    "A381992",
+    "A382201"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

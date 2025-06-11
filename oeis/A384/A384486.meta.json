@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: number of connected components of polyhedra in the quarter cubic honeycomb consisting of k tetrahedra and n-k truncated tetrahedra, up to translation, rotation, and reflection of the honeycomb, 0<=k<=n.",
+  "id": "A384486",
+  "mentions": [
+    "A038169",
+    "A365970",
+    "A384274"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

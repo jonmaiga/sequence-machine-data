@@ -1,0 +1,14 @@
+{
+  "description": "Coefficients of the first Mock Eisenstein series associated to partition ranks.",
+  "id": "A381038",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

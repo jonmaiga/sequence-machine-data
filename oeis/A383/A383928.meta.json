@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. cosh(9*arctanh(4*sqrt(x))).",
+  "id": "A383928",
+  "mentions": [
+    "A285043",
+    "A285044",
+    "A285045",
+    "A285046"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

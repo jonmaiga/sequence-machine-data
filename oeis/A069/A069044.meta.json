@@ -1,14 +1,16 @@
 {
-  "description": "N(B(2*p))/p for p prime>=5 and where N(B(2n)) are the numerators of Bernoulli numbers.",
+  "description": "N(B(2*p))/p for p prime >= 5 and where N(B(2n)) are the numerators of Bernoulli numbers.",
   "id": "A069044",
-  "mentions": [],
+  "mentions": [
+    "A027641"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "joeis"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

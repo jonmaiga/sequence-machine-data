@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = exp( Sum_{k>=1} (-1)^(k+1) * A(x^k)^3 * x^k / k )",
+  "description": "G.f. A(x) satisfies: A(x) = exp( Sum_{k>=1} (-1)^(k+1) * A(x^k)^3 * x^k / k ).",
   "id": "A052755",
   "mentions": [
     "A005754",

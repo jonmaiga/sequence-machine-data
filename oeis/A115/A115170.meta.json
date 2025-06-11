@@ -1,5 +1,5 @@
 {
-  "description": "Non-cubefree numbers n such that 2n+1 is also non-cubefree (A046099).",
+  "description": "Non-cubefree numbers k such that 2k+1 is also non-cubefree (A046099).",
   "id": "A115170",
   "mentions": [
     "A005384",

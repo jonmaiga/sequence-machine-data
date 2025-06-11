@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n of the form n = abs(a - b + c - d) such that n^4 equals the concatenation of a//b//c//d and numbers n,b,c,d have the same number of digits.",
+  "description": "Numbers k of the form abs(a - b + c - d) such that k^4 equals the concatenation of a//b//c//d and numbers k,b,c,d have the same number of digits.",
   "id": "A260193",
   "mentions": [
     "A056733",

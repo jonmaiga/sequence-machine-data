@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that the square of each digit of n is a substring of n^3",
+  "description": "Numbers n with property that the square of each digit of n is a substring of n^3.",
   "id": "A173901",
   "mentions": [],
   "tags": [

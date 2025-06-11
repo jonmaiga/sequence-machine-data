@@ -1,5 +1,5 @@
 {
-  "description": "A four product triangle sequence based on :a=1;f(n,a)=f(n - 1, a) + a*f(n - 2, a)",
+  "description": "A four product triangle sequence based on :a=1;f(n,a)=f(n - 1, a) + a*f(n - 2, a).",
   "id": "A174186",
   "mentions": [],
   "tags": [

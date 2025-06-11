@@ -1,5 +1,5 @@
 {
-  "description": "Table of gcd(n,m) read by antidiagonals, n >= 0, m >= 0.",
+  "description": "Table of gcd(n, m) read by antidiagonals, n >= 0, m >= 0.",
   "id": "A109004",
   "mentions": [
     "A003989",

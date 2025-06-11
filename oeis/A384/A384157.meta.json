@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of connected induced k-vertex subgraphs of the hyperoctahedral graph of dimension n >= 1 up to automorphisms of the hyperoctahedral graph; 0 <= k <= 2*n.",
+  "id": "A384157",
+  "mentions": [
+    "A008967",
+    "A369605",
+    "A383973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

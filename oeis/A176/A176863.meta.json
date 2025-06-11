@@ -1,5 +1,5 @@
 {
-  "description": "A triangle sequence from coefficients of an infinite sum polynomial: p(x,n)=Sum[(n - k - 1)^n*Binomial[x, k], {k, 0, Infinity}]/2^(x - n)",
+  "description": "A triangle sequence from coefficients of an infinite sum polynomial: p(x,n)=Sum[(n - k - 1)^n*Binomial[x, k], {k, 0, Infinity}]/2^(x - n).",
   "id": "A176863",
   "mentions": [],
   "tags": [

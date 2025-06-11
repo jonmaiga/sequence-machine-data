@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: row n is the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 = A000045(n) and its long leg and hypotenuse are consecutive natural numbers.",
+  "id": "A382843",
+  "mentions": [
+    "A000045",
+    "A001595",
+    "A095122",
+    "A382844",
+    "A382845"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

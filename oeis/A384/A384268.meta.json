@@ -1,0 +1,14 @@
+{
+  "description": "E.g.f. A(x) satisfies 1 = Sum_{n>=0} (A(x) - x^n)^n / n!.",
+  "id": "A384268",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of binary relations on a set of n objects, k of which are picked out, 0 <= k <= n.",
+  "id": "A383617",
+  "mentions": [
+    "A000595",
+    "A329874",
+    "A353996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Sequence of positive integers with no repetitions and, when put in a spiral, all lines (straight or diagonal) are pairwise coprime.",
+  "id": "A382951",
+  "mentions": [
+    "A336349"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

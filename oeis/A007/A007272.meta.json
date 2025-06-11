@@ -1,5 +1,5 @@
 {
-  "description": "Super ballot numbers: 60(2n)!/(n!(n+3)!).",
+  "description": "Super ballot numbers: 60*(2n)!/(n!*(n+3)!).",
   "id": "A007272",
   "mentions": [
     "A000108",

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{i,j = 0..n} C(n, i)^2*C(n, j)^2*C(i+j, i)*2^(i+j).",
+  "id": "A383274",
+  "mentions": [
+    "A005259"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Hamiltonian paths from NW to SW corners in an n X n grid reduced for symmetry, i.e., where reflection about the x-axis is not counted as distinct.",
+  "id": "A384173",
+  "mentions": [
+    "A000532",
+    "A209077",
+    "A265914"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

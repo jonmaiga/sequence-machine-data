@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = [x^(3*n)] Product_{k=0..n} 1/(1 - k*x)^3.",
+  "id": "A384207",
+  "mentions": [
+    "A007820",
+    "A226775",
+    "A383862",
+    "A384022",
+    "A384206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

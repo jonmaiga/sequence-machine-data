@@ -1,5 +1,5 @@
 {
-  "description": "Number of rectangles dissectable into a minimum of n squares.",
+  "description": "Number of rectangles dissectible into a minimum of n squares.",
   "id": "A221839",
   "mentions": [
     "A210517",

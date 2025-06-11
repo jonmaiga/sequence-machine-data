@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Selberg-Delange constant Product_{prime p > 2} (1 + 1/(p(p-2)))",
+  "description": "Decimal expansion of Selberg-Delange constant Product_{prime p > 2} (1 + 1/(p(p-2))).",
   "id": "A167864",
   "mentions": [
     "A001222",

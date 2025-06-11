@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-isomorphic AG-groupoids of order n.",
+  "id": "A384190",
+  "mentions": [
+    "A001329",
+    "A001426",
+    "A124506",
+    "A350874",
+    "A350875"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

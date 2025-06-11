@@ -1,0 +1,17 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) (for n>1 and k>0) is the smallest k-digit prime p such that prevprime(p) appears as a substring in p^n; or -1 if no such prime exists.",
+  "id": "A383613",
+  "mentions": [
+    "A381969"
+  ],
+  "tags": [
+    "base",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,17 @@
 {
   "description": "Prime sum of squared build up triangular array.",
   "id": "A120725",
-  "mentions": [],
+  "mentions": [
+    "A120726"
+  ],
   "tags": [
     "formulas",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 62,
     "source": "oeis-entry"
   }
 }

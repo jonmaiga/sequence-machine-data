@@ -1,5 +1,5 @@
 {
-  "description": "2*a(n)/n! is the average number of key comparisons required to sort n records with distinct keys using heapsort (Algorithm H in Don Knuth's TAOCP Vol. 3)",
+  "description": "2*a(n)/n! is the average number of key comparisons required to sort n records with distinct keys using heapsort (Algorithm H in Don Knuth's TAOCP Vol. 3).",
   "id": "A350428",
   "mentions": [
     "A350426",

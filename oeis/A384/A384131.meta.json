@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive number divisible by n that has n letters in US English, or 0 if none exists.",
+  "id": "A384131",
+  "mentions": [
+    "A005589",
+    "A134629"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

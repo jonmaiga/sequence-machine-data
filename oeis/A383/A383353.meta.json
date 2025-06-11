@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where n 2-colored objects are distributed into k containers of two kinds. Containers may be left empty.",
+  "id": "A383353",
+  "mentions": [
+    "A026820",
+    "A161870",
+    "A278710",
+    "A381891",
+    "A382345",
+    "A383351",
+    "A383352"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

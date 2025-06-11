@@ -1,5 +1,5 @@
 {
-  "description": "Class numbers of indefinite quadratic forms over the integers in two variables with discriminant D = D(n) = A079896(n), n>=0.",
+  "description": "Class numbers of indefinite quadratic forms over the integers in two variables with discriminant D = D(n) = A079896(n), n>=1.",
   "id": "A087048",
   "mentions": [
     "A000924",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

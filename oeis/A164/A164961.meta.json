@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T[n,m] = quadruple factorials A001813(n) * binomials A007318(n,m)",
+  "description": "Triangle read by rows: T[n,m] = quadruple factorials A001813(n) * binomials A007318(n,m).",
   "id": "A164961",
   "mentions": [
     "A001813",

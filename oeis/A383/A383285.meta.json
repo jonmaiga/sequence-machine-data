@@ -1,0 +1,19 @@
+{
+  "description": "Positions of terms > 1 in A265576, where A265576 is the LCM-transform of EKG-sequence.",
+  "id": "A383285",
+  "mentions": [
+    "A064413",
+    "A064423",
+    "A265576",
+    "A383284",
+    "A383295"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

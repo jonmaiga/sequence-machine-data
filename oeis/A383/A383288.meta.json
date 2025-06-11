@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which A276075(k) is a multiple of 4, where A276075 is fully additive with a(p) = PrimePi(p)!.",
+  "id": "A383288",
+  "mentions": [
+    "A276075",
+    "A339746",
+    "A369002",
+    "A383287"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

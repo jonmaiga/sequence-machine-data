@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(n * log(4/3) / log(3/2))",
+  "description": "a(n) = floor(n * log(4/3) / log(3/2)).",
   "id": "A368131",
   "mentions": [
     "A054414",

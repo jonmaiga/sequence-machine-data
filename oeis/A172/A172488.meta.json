@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 2^i * 3^j + 1 with i + j = 13",
+  "description": "Primes of the form 2^i * 3^j + 1 with i + j = 13.",
   "id": "A172488",
   "mentions": [
     "A005105",

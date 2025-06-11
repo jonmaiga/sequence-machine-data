@@ -6,14 +6,18 @@
     "A005245",
     "A128998",
     "A173419",
-    "A354914"
+    "A349044",
+    "A354914",
+    "A383001",
+    "A383002"
   ],
   "tags": [
+    "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 130,
-    "source": "oeis-entry"
+    "size": 88,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "The number of unitary divisors of n that are exponentially squarefree numbers.",
+  "id": "A383762",
+  "mentions": [
+    "A005117",
+    "A034444",
+    "A077610",
+    "A209061",
+    "A365499",
+    "A365680",
+    "A383763",
+    "A383764"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

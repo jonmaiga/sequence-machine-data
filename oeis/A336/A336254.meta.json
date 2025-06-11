@@ -2,22 +2,24 @@
   "description": "Exponential barely abundant numbers: exponential abundant numbers whose exponential abundancy is closer to 2 than that of any smaller exponential abundant number.",
   "id": "A336254",
   "mentions": [
+    "A001694",
     "A051377",
+    "A057521",
     "A071927",
     "A129575",
     "A188263",
     "A302570",
     "A302571",
+    "A328136",
     "A335054",
     "A336253"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

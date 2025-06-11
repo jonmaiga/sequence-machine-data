@@ -1,10 +1,12 @@
 {
-  "description": "a(n)=[e*(n+3)! ]-(n+3)(n+2)(n+1)(n)*[e*(n-1)! ].",
+  "description": "a(n) = floor(e*(n+3)!) - (n+3)*(n+2)*(n+1)*n*floor(e*(n-1)!).",
   "id": "A080770",
   "mentions": [
-    "A000522"
+    "A000522",
+    "A001113"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

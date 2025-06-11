@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Xpower(n,3);",
+  "description": "a(n) = Xpower(n,3).",
   "id": "A048732",
   "mentions": [
     "A048723"

@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the index of the k-th odd divisor in the list of divisors of n, with n >= 1, k >= 1.",
+  "id": "A383962",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000027",
+    "A000079",
+    "A001227",
+    "A027750",
+    "A065091",
+    "A174090",
+    "A182469",
+    "A383401"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "joeis"
+  }
+}

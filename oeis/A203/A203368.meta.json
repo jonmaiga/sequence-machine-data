@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..2 arrays with every 1 immediately preceded by 0 to the left or above, and every 2 immediately preceded by both a 1 and a 0",
+  "description": "Number of nX5 0..2 arrays with every 1 immediately preceded by 0 to the left or above, and every 2 immediately preceded by both a 1 and a 0.",
   "id": "A203368",
   "mentions": [
     "A203371"

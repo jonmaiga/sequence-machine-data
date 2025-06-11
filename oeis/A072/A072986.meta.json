@@ -2,8 +2,11 @@
   "description": "Least k such that Product_{i=1..k} (prime(i) + 1) >= n*Product_{i=1..k} prime(i).",
   "id": "A072986",
   "mentions": [
+    "A000720",
+    "A001113",
     "A002110",
-    "A054640"
+    "A054640",
+    "A072997"
   ],
   "tags": [
     "formulas",
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

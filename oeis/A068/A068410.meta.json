@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that (n+1) is composite and (n+1) divides 3^n-2^n.",
+  "description": "Numbers k such that k+1 is composite and divides 3^k-2^k.",
   "id": "A068410",
-  "mentions": [],
+  "mentions": [
+    "A001047"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Consider volume of unit sphere as a function of the dimension d; maximize this as a function of d (considered as a continuous variable); sequence gives decimal expansion of the best d.",
+  "description": "Consider the volume of unit sphere as a function of the dimension d; maximize this as a function of d (considered as a continuous variable); sequence gives decimal expansion of the best d.",
   "id": "A074455",
   "mentions": [
     "A072345",

@@ -2,14 +2,16 @@
   "description": "a(n) = ceiling(n*phi^8), where phi is the golden ratio, A001622.",
   "id": "A004963",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A249601"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
-    "source": "joeis"
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

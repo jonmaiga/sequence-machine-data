@@ -1,5 +1,5 @@
 {
-  "description": "Number of projective order types; number of simple arrangements of n lines.",
+  "description": "Number of projective order types.",
   "id": "A018242",
   "mentions": [
     "A006247",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],

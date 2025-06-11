@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..4 arrays with each element equal to the number its horizontal and vertical neighbors equal to 2",
+  "description": "Number of nX3 0..4 arrays with each element equal to the number its horizontal and vertical neighbors equal to 2.",
   "id": "A197056",
   "mentions": [
     "A197061"

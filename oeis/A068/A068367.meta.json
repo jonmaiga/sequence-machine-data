@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that phi(n)^2+sigma(n)^2 is prime.",
+  "description": "Numbers k such that phi(k)^2+sigma(k)^2 is prime.",
   "id": "A068367",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

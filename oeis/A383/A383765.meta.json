@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n such that between any pair of equal adjacent parts there can be a pair of brackets enclosing a new nonempty composition with the same rules.",
+  "id": "A383765",
+  "mentions": [
+    "A000217",
+    "A001006",
+    "A003242",
+    "A011782",
+    "A106356"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

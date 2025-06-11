@@ -1,5 +1,5 @@
 {
-  "description": "Integers n for which Omega(6n-1)>2 and Omega(6n+1)>2",
+  "description": "Integers n for which Omega(6n-1)>2 and Omega(6n+1)>2.",
   "id": "A145192",
   "mentions": [
     "A001222"

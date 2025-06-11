@@ -1,5 +1,5 @@
 {
-  "description": "Number of -n..n circular arrays x(0..7) of 8 elements with zero sums of x(i) and x(i)*x((i+1) mod 8)",
+  "description": "Number of -n..n circular arrays x(0..7) of 8 elements with zero sums of x(i) and x(i)*x((i+1) mod 8).",
   "id": "A202010",
   "mentions": [
     "A202006"

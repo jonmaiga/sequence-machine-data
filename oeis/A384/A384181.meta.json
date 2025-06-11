@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that k! + p or |k! - p| is composite for all k >= 0.",
+  "id": "A384181",
+  "mentions": [
+    "A082470",
+    "A352912"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

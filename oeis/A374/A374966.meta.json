@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 0 if n has appeared in the sequence before, otherwise a(n) = a(n-1) + n. Start with a(0) = 0.",
   "id": "A374966",
-  "mentions": [],
+  "mentions": [
+    "A375060",
+    "A375065"
+  ],
   "tags": [
     "easy",
     "nice",

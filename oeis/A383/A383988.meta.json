@@ -1,0 +1,27 @@
+{
+  "description": "Series expansion of the exponential generating function -postLie(1-exp(x)) where postLie(x) = -log((1 + sqrt(1-4*x)) / 2) (given by A006963).",
+  "id": "A383988",
+  "mentions": [
+    "A002050",
+    "A006531",
+    "A006963",
+    "A084099",
+    "A097388",
+    "A101851",
+    "A114285",
+    "A225883",
+    "A383985",
+    "A383986",
+    "A383987",
+    "A383989"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

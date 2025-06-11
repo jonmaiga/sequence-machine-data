@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = -n/2 if n is even, 3n + 1 if n is odd.",
+  "id": "A381055",
+  "mentions": [
+    "A006370",
+    "A383131"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(a(n)) shares a factor with a(a(n-1)).",
+  "id": "A383069",
+  "mentions": [
+    "A064413",
+    "A378030",
+    "A378098",
+    "A378116"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Place n equally space points around the circumference of a circle and then, for each pair of points, draw two distinct circles, whose radii are the same as the first circle, such that both points lie on their circumferences. The sequence gives the total number of regions formed.",
+  "description": "Place n equally spaced points around the circumference of a circle and then, for each pair of points, draw two distinct circles, whose radii are the same as the first circle, such that both points lie on their circumferences. The sequence gives the total number of regions formed.",
   "id": "A371374",
   "mentions": [
     "A006533",

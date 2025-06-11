@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X7 0..2 arrays with no 2X2 subblock summing to less than 4",
+  "description": "Number of (n+1)X7 0..2 arrays with no 2X2 subblock summing to less than 4.",
   "id": "A184561",
   "mentions": [
     "A184564"

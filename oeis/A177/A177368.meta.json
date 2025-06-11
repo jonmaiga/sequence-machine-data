@@ -1,5 +1,5 @@
 {
-  "description": "Count the digits of the previous terms and describe nonzero counts, digits in ascending order, concatenating the count and the digit. Initial term is 9",
+  "description": "Count the digits of the previous terms and describe nonzero counts, digits in ascending order, concatenating the count and the digit. Initial term is 9.",
   "id": "A177368",
   "mentions": [
     "A060857",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1+n^phi(n) is prime.",
+  "description": "Numbers k such that 1 + k^phi(k) is prime.",
   "id": "A066719",
   "mentions": [
     "A000010",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

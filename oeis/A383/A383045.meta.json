@@ -1,0 +1,21 @@
+{
+  "description": "Integers k for which the sum of digits of Fibonacci(k) is a Fibonacci number.",
+  "id": "A383045",
+  "mentions": [
+    "A000045",
+    "A004090",
+    "A020995",
+    "A067515",
+    "A382053"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

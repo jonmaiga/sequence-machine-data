@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet g.f.: zeta(s) * Product_{p prime} (1 - 1/p^(2*s) - 1/p^(3*s)).",
+  "id": "A381481",
+  "mentions": [
+    "A013661",
+    "A065470",
+    "A299406",
+    "A365498",
+    "A380922",
+    "A383292"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

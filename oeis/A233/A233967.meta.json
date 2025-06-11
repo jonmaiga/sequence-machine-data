@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 10 (10 maximizes T(1,1))",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 10 (10 maximizes T(1,1)).",
   "id": "A233967",
   "mentions": [],
   "tags": [

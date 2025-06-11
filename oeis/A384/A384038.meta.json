@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2n X 2n matrices M over GF(2) such that the column space of M is equal to the null space of M.",
+  "id": "A384038",
+  "mentions": [
+    "A002884",
+    "A006098",
+    "A053763",
+    "A346214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

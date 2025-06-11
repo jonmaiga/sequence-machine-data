@@ -1,10 +1,12 @@
 {
-  "description": "Squarefree composite numbers whose sum of divisors is also squarefree.",
+  "description": "Squarefree nonprime numbers whose sum of divisors is also squarefree.",
   "id": "A065302",
   "mentions": [
     "A000203",
     "A008683",
     "A065299",
+    "A065300",
+    "A065301",
     "A065303",
     "A128607",
     "A128608"

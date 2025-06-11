@@ -2,11 +2,13 @@
   "description": "Larger of two consecutive primes which both equal 1 (mod 3).",
   "id": "A217659",
   "mentions": [
+    "A002476",
     "A151800",
     "A185934",
     "A219244"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

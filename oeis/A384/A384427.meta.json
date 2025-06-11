@@ -1,0 +1,19 @@
+{
+  "description": "Evil numbers that are not a multiple of any other evil number.",
+  "id": "A384427",
+  "mentions": [
+    "A001969",
+    "A027699",
+    "A129771",
+    "A217790"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

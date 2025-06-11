@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..7 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 26",
+  "description": "Number of (n+1)X(4+1) 0..7 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 26.",
   "id": "A233721",
   "mentions": [
     "A233724"

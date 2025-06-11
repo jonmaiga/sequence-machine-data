@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x*(-1+5*x-6*x^2+x^3) / ( (2*x-1)*(x^3-3*x^2+1) )",
+  "description": "Expansion of x*(-1+5*x-6*x^2+x^3) / ( (2*x-1)*(x^3-3*x^2+1) ).",
   "id": "A122167",
   "mentions": [],
   "tags": [

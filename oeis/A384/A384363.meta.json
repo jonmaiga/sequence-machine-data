@@ -1,0 +1,15 @@
+{
+  "description": "Slice of elementary triangular automaton rule 58, starting from a lone 1 cell.",
+  "id": "A384363",
+  "mentions": [
+    "A384355"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

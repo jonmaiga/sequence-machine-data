@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-4=A214783(n)",
+  "description": "Numbers n such that n-4=A214783(n).",
   "id": "A214784",
   "mentions": [
     "A214783"

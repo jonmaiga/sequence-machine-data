@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[A062273(n)/n].",
+  "description": "a(n) = floor(A062273(n)/n).",
   "id": "A077577",
   "mentions": [
     "A062273",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

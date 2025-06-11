@@ -1,5 +1,5 @@
 {
-  "description": "Products of 3 distinct primes numbers (or sphenics) that are deficient.",
+  "description": "Products of 3 distinct prime numbers (or sphenics) that are deficient.",
   "id": "A378480",
   "mentions": [
     "A005100",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

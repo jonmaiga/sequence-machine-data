@@ -1,5 +1,5 @@
 {
-  "description": "The first n-fold (at least) intrinsically 2-palindromic number (in base ten)",
+  "description": "The first n-fold (at least) intrinsically 2-palindromic number (in base ten).",
   "id": "A171701",
   "mentions": [
     "A171702",

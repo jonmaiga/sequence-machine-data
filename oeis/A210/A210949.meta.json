@@ -2,6 +2,7 @@
   "description": "E.g.f. A(x) satisfies: A'(x) = 1/(1 - A(A(x))).",
   "id": "A210949",
   "mentions": [
+    "A014622",
     "A067146",
     "A277410",
     "A279843",

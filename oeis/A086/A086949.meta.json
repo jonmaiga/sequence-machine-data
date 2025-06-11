@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that reverse(k+9) = 5.",
+  "description": "Numbers k such that R(k+9) = 5.",
   "id": "A086949",
   "mentions": [
     "A004086",

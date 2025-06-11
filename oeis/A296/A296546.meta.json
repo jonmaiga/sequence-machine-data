@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows T(n,k): number of undirected cycles of length k in the complete tripartite graph K_{n,n,n} (n = 1...; k = 3..3n)",
+  "description": "Triangle read by rows T(n,k): number of undirected cycles of length k in the complete tripartite graph K_{n,n,n} (n = 1...; k = 3..3n).",
   "id": "A296546",
   "mentions": [
     "A144151",

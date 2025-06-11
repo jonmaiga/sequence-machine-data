@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=Sum((A008292(n - j, j) - C(n - j - 1, j))/2, j=0, [(n - 1)/2])",
+  "description": "a(n)=Sum((A008292(n - j, j) - C(n - j - 1, j))/2, j=0, [(n - 1)/2]).",
   "id": "A174958",
   "mentions": [
     "A000045",

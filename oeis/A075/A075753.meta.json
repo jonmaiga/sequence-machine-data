@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factor of n-th odd triangular number.",
+  "description": "Smallest prime factor of n-th odd triangular number; a(1) = 1.",
   "id": "A075753",
   "mentions": [
     "A014493",
@@ -8,11 +8,13 @@
     "A069901"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 99,
-    "source": "joeis"
+    "size": 100,
+    "source": "oeis-bfile"
   }
 }

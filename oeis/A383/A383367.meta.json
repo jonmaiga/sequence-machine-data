@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least integer k such that A383359(n)^4 can be expressed as a sum of squares of k consecutive integers.",
+  "id": "A383367",
+  "mentions": [
+    "A001032",
+    "A189173",
+    "A383359",
+    "A383654"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

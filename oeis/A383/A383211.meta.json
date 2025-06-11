@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form p^e where p is prime and e > 1 is squarefree.",
+  "id": "A383211",
+  "mentions": [
+    "A005117",
+    "A053810",
+    "A144338",
+    "A383266"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

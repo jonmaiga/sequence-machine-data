@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [(x*y)^n] Product_{k>=1} (1 - x^k - y^k)^k.",
+  "id": "A381011",
+  "mentions": [
+    "A073592",
+    "A322213",
+    "A322214"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

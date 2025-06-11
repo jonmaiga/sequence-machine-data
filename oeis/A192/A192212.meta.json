@@ -1,5 +1,5 @@
 {
-  "description": "Number of zero trace primitive elements in Galois field GF(3^n)",
+  "description": "Number of zero trace primitive elements in Galois field GF(3^n).",
   "id": "A192212",
   "mentions": [
     "A192211",

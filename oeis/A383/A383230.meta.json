@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k whose decimal representation can be split in three parts which can be used as seeds for a tribonacci-like sequence containing k itself.",
+  "id": "A383230",
+  "mentions": [
+    "A000073",
+    "A000213",
+    "A001590",
+    "A007629",
+    "A130792"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

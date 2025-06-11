@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of Pi/2 - 4/Pi.",
   "id": "A180310",
-  "mentions": [],
+  "mentions": [
+    "A019669",
+    "A088538"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

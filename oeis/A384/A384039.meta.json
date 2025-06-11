@@ -1,0 +1,36 @@
+{
+  "description": "The number of integers k from 1 to n such that gcd(n,k) is a powerful number.",
+  "id": "A384039",
+  "mentions": [
+    "A000010",
+    "A001694",
+    "A005117",
+    "A026741",
+    "A050873",
+    "A055231",
+    "A062570",
+    "A063658",
+    "A063659",
+    "A078429",
+    "A116512",
+    "A117494",
+    "A126246",
+    "A206369",
+    "A254926",
+    "A372671",
+    "A384040",
+    "A384041",
+    "A384042"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

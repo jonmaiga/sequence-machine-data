@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that 2^tau(n)<=n",
+  "description": "Numbers k such that 2^tau(k) <= k < 2*2^tau(k).",
   "id": "A068332",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A338506"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

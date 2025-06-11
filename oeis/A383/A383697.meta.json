@@ -1,0 +1,22 @@
+{
+  "description": "Exponential squarefree exponential abundant numbers: numbers k such that A361174(k) > 2*k.",
+  "id": "A383697",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A129575",
+    "A209061",
+    "A361174",
+    "A383693",
+    "A383698"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

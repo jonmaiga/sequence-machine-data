@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k)=binomial(n+k,floor((n-k)/2))",
+  "description": "Triangle read by rows: T(n,k)=binomial(n+k,floor((n-k)/2)).",
   "id": "A089940",
   "mentions": [
     "A001405",

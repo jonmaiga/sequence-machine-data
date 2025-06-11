@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that the GCD of the x's that satisfy sigma(x)=sigma(n) is not equal to 1 while the number of such x's is not 1 either.",
+  "description": "Numbers such that the GCD of the x's that satisfy sigma(x) = sigma(n) is not equal to 1 while the number of such x's is not 1 either.",
   "id": "A241481",
   "mentions": [
     "A000203",

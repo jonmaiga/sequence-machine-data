@@ -1,5 +1,5 @@
 {
-  "description": "The first n digits of Reverse(A002275(n)^A002275(n))",
+  "description": "The first n digits of Reverse(A002275(n)^A002275(n)).",
   "id": "A173616",
   "mentions": [
     "A002275"

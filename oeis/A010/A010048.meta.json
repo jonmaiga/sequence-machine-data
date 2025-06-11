@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of Fibonomial coefficients.",
+  "description": "Triangle of Fibonomial coefficients, read by rows.",
   "id": "A010048",
   "mentions": [
     "A000045",
@@ -17,6 +17,7 @@
     "A056566",
     "A056567",
     "A056569",
+    "A099927",
     "A144712",
     "A181926",
     "A181927"

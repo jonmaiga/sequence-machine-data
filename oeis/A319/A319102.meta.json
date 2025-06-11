@@ -2,7 +2,8 @@
   "description": "Triangle read by rows: The k-th column has alternating blocks of k 1's followed by k 0's (see example).",
   "id": "A319102",
   "mentions": [
-    "A010766"
+    "A010766",
+    "A059851"
   ],
   "tags": [
     "formulas",

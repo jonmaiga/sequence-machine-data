@@ -1,0 +1,19 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator 5*s mod 2^35 when started at s=1.",
+  "id": "A384565",
+  "mentions": [
+    "A000351",
+    "A384160",
+    "A384316"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

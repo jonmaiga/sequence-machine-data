@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=sum_{k=1..n} r(k) where r(k)=A000002(k) if A000002(k+1)=1 and r(k)=0 if A000002(k+1)=2",
+  "description": "a(n)=sum_{k=1..n} r(k) where r(k)=A000002(k) if A000002(k+1)=1 and r(k)=0 if A000002(k+1)=2.",
   "id": "A156350",
   "mentions": [
     "A000002"

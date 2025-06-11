@@ -5,9 +5,12 @@
     "A000931",
     "A005251",
     "A180177",
-    "A275443"
+    "A275433",
+    "A275443",
+    "A275446"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabf"
@@ -15,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

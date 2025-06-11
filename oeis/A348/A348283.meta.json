@@ -1,16 +1,20 @@
 {
-  "description": "Numbers k such that k' | k.",
+  "description": "Numbers that are multiples of their arithmetic derivative, A003415.",
   "id": "A348283",
   "mentions": [
+    "A000040",
     "A003415",
-    "A211781"
+    "A051674",
+    "A211781",
+    "A369049",
+    "A383300"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "oeis-bfile"
   }
 }

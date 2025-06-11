@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors of form cn+1 for numbers 5^n-1",
+  "description": "Number of prime factors of form cn+1 for numbers 5^n-1.",
   "id": "A182592",
   "mentions": [
     "A182590"

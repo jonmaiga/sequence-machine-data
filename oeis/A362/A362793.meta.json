@@ -5,14 +5,13 @@
     "A362807"
   ],
   "tags": [
-    "bref",
+    "easy",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 5,
-    "size": 3,
+    "offset": 1,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

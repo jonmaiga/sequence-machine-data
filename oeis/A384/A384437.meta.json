@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) is the n-th q-Catalan number for q=k.",
+  "id": "A384437",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A015030",
+    "A015033",
+    "A015034",
+    "A015035",
+    "A015037",
+    "A015038",
+    "A015039",
+    "A015040",
+    "A015041",
+    "A015042",
+    "A015055",
+    "A129175",
+    "A384282"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

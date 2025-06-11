@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of binary trees with n edges and path length k; 0<=k<=n(n+1)/2.",
+  "description": "Triangle read by rows: T(n,k) is the number of binary trees with n edges and path length k; 0<=k<=n*(n+1)/2.",
   "id": "A138157",
   "mentions": [
     "A000108",

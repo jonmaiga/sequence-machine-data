@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [n] such that precisely one rising or falling succession occurs, but without either n(n-1) or (n-1)n.",
+  "id": "A383857",
+  "mentions": [
+    "A000130",
+    "A001100",
+    "A002464",
+    "A086852",
+    "A086856"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

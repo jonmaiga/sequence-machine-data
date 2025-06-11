@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: number of compositions of n into relatively prime summands.",
   "id": "A039911",
   "mentions": [
+    "A000740",
     "A101391"
   ],
   "tags": [
@@ -10,8 +11,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 2,
-    "size": 74,
-    "source": "joeis"
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
   }
 }

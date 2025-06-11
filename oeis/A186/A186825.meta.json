@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of (n+2)X(k+2) binary arrays with each 3X3 subblock having sum 4 or 5",
+  "description": "T(n,k)=Half the number of (n+2)X(k+2) binary arrays with each 3X3 subblock having sum 4 or 5.",
   "id": "A186825",
   "mentions": [],
   "tags": [

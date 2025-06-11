@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of Hankel transforms of sequence array of C(n,floor(n/2))",
+  "description": "Triangle of Hankel transforms of sequence array of C(n,floor(n/2)).",
   "id": "A144092",
   "mentions": [
     "A061338",

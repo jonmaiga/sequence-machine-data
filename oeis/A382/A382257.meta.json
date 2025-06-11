@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the numerator of tanh(Sum_{k=1..n-1} artanh(k/n)), where artanh is the inverse hyperbolic tangent function.",
+  "id": "A382257",
+  "mentions": [
+    "A001700",
+    "A010763",
+    "A034602",
+    "A383431"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

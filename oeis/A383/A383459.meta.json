@@ -1,0 +1,19 @@
+{
+  "description": "Minimum number of cycles in any permutation in S_n of the highest order (A000793(n)).",
+  "id": "A383459",
+  "mentions": [
+    "A000793",
+    "A074059",
+    "A074064",
+    "A383458"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

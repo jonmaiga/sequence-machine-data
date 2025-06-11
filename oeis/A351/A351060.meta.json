@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number larger than a(n-1) that has only three digits in common with a(n-1).",
+  "description": "a(n) is the smallest number k > a(n-1) such that there are exactly 3 ordered pairs (i,j) where the i-th digit of k and the j-th digit of a(n-1) are equal.",
   "id": "A351060",
   "mentions": [
     "A350444",
@@ -10,11 +10,12 @@
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

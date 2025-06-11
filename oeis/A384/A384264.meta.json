@@ -1,0 +1,14 @@
+{
+  "description": "G.f. A(x) satisfies a(n) = [x^n] ( A(x)^(n-1) - 2*A(x)^n + A(x)^(n+1) ) for n > 1, with a(0) = a(1) = 1.",
+  "id": "A384264",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

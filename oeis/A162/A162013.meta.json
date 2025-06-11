@@ -1,5 +1,5 @@
 {
-  "description": "The sequence of the absolute values of the a(n-3) coefficients of A162011",
+  "description": "The sequence of the absolute values of the a(n-3) coefficients of A162011.",
   "id": "A162013",
   "mentions": [
     "A006324",

@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive internal states of a linear congruential pseudo-random number generator for Microsoft C and C++ when started at 1.",
+  "id": "A384331",
+  "mentions": [
+    "A096557",
+    "A384289"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (-1)^k*P(k)/(k+1) - M/2 (negated), where P(s) is the prime zeta function and M is Mertens's constant.",
+  "id": "A384455",
+  "mentions": [
+    "A000720",
+    "A001620",
+    "A077761",
+    "A110544",
+    "A229495"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

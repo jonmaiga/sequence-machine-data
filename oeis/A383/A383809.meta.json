@@ -1,0 +1,19 @@
+{
+  "description": "Consecutive states of a linear congruential pseudo-random number generator for Lisp 1985 when started at 1.",
+  "id": "A383809",
+  "mentions": [
+    "A001026",
+    "A096550",
+    "A096561"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

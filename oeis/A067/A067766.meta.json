@@ -1,7 +1,12 @@
 {
-  "description": "Numbers n such that sigma(n)^2>4*sigma_2(n) where sigma_2(n) is the sum of squares over the divisors of n.",
+  "description": "Numbers k such that sigma(k)^2 > 4*sigma_2(k) where sigma_2(k) is the sum of squares over the divisors of k.",
   "id": "A067766",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A005101",
+    "A068403"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "The sum of divisors d of n having the property that for every prime p dividing n the p-adic valuation of d is either 0 or a squarefree divisor of the p-adic valuation of n.",
+  "id": "A383867",
+  "mentions": [
+    "A051377",
+    "A051378",
+    "A209061",
+    "A322791",
+    "A361174",
+    "A383761",
+    "A383863"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n matrices of nonnegative entries with all columns summing to n and no horizontally adjacent zeros.",
+  "id": "A383256",
+  "mentions": [
+    "A008300",
+    "A120733",
+    "A145839",
+    "A261780",
+    "A382923"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

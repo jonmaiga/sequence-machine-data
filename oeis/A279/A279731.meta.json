@@ -1,9 +1,10 @@
 {
-  "description": "Composite numbers k such that the sum of the proper divisors of k is a power of 2.",
+  "description": "Composite numbers whose sum of proper divisors is a power of 2.",
   "id": "A279731",
   "mentions": [
     "A001065",
-    "A046528"
+    "A046528",
+    "A383872"
   ],
   "tags": [
     "nonn"

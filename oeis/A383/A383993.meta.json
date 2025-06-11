@@ -1,0 +1,28 @@
+{
+  "description": "Series expansion of the exponential generating function exp(tridup^!(x)) - 1 where tridup^!(x) = x / ((1+x) * (1+2*x)).",
+  "id": "A383993",
+  "mentions": [
+    "A001003",
+    "A002050",
+    "A003725",
+    "A097388",
+    "A111884",
+    "A112242",
+    "A177885",
+    "A318215",
+    "A383990",
+    "A383991",
+    "A383992",
+    "A383994",
+    "A383995"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

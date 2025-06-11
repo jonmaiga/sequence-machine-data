@@ -1,5 +1,5 @@
 {
-  "description": "Smallest composite number which is 1 more than the product of n distinct primes numbers.",
+  "description": "Smallest composite number which is 1 more than the product of n distinct primes.",
   "id": "A081548",
   "mentions": [
     "A002110",

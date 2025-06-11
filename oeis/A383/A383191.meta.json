@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number on the n-th position on the square spiral on the plane tiled with dominoes always placed nearest to the origin and so that no two dominos share a long side. Inverse permutation of A383190.",
+  "id": "A383191",
+  "mentions": [
+    "A174344",
+    "A316328",
+    "A316667",
+    "A383190"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

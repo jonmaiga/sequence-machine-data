@@ -1,10 +1,13 @@
 {
-  "description": "Fib(n)(2Fib(n)-1).",
+  "description": "a(n) = Fibonacci(n)*(2*Fibonacci(n)-1).",
   "id": "A095122",
   "mentions": [
     "A000032",
     "A000045",
-    "A011655"
+    "A011655",
+    "A382843",
+    "A382844",
+    "A382845"
   ],
   "tags": [
     "easy",
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 31,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p + 2, p + 4 and p + 6 are products of 3, 5 and 7 primes respectively (counted with multiplicity)",
+  "description": "Primes p such that p + 2, p + 4 and p + 6 are products of 3, 5 and 7 primes respectively (counted with multiplicity).",
   "id": "A376503",
   "mentions": [
     "A001222",

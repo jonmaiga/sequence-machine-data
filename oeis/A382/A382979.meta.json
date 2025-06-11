@@ -2,15 +2,17 @@
   "description": "a(n) = [(x*y)^n] Product_{k>=1} 1/(1 - x^k + y^k).",
   "id": "A382979",
   "mentions": [
+    "A100221",
     "A322211",
     "A382974"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet g.f.: zeta(2*s-2) * zeta(s)^2.",
+  "id": "A383795",
+  "mentions": [
+    "A001620",
+    "A035316",
+    "A057521"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

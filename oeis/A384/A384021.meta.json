@@ -1,0 +1,20 @@
+{
+  "description": "Powers of 2 along with numbers one power of 2 less than binary repunits, but the power of two subtracted does not flip the leading bit.",
+  "id": "A384021",
+  "mentions": [
+    "A000079",
+    "A030130",
+    "A164874",
+    "A383666"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

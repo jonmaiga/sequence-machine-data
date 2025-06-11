@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/55.",
   "id": "A021059",
-  "mentions": [],
+  "mentions": [
+    "A010689"
+  ],
   "tags": [
     "cons",
     "mult",

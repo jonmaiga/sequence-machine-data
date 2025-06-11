@@ -1,5 +1,5 @@
 {
-  "description": "Minimal common difference of maximal arithmetic progression starting at n such that each term k has tau(k)=tau(n)",
+  "description": "Minimal common difference of maximal arithmetic progression starting at n such that each term k has tau(k)=tau(n).",
   "id": "A165501",
   "mentions": [
     "A088430",

@@ -1,7 +1,10 @@
 {
-  "description": "Expansion of 1/((1-2x)(1-5x)(1-8x)).",
+  "description": "Expansion of 1/((1-2*x) * (1-5*x) * (1-8*x)).",
   "id": "A016297",
-  "mentions": [],
+  "mentions": [
+    "A016127",
+    "A025999"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "joeis"
   }
 }

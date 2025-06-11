@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary matrices with zero diagonal and no directed 3-loops (3-loop: x(i,j)*x(j,k)*x(k,i)=1, and i,j,k all different)",
+  "description": "Number of n X n binary matrices with zero diagonal and no directed 3-loops (3-loop: x(i,j)*x(j,k)*x(k,i)=1, and i,j,k all different).",
   "id": "A212130",
   "mentions": [],
   "tags": [

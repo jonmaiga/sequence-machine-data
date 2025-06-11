@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} (1 + x^k)^binomial(n,k).",
+  "id": "A383073",
+  "mentions": [
+    "A026007",
+    "A102866",
+    "A344130",
+    "A360660",
+    "A369578"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

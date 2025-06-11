@@ -1,5 +1,5 @@
 {
-  "description": "Number of -3..3 circular arrays x(0..n+1) of n+2 elements with zero sums of x(i) and x(i)*x((i+1) mod (n+2))",
+  "description": "Number of -3..3 circular arrays x(0..n+1) of n+2 elements with zero sums of x(i) and x(i)*x((i+1) mod (n+2)).",
   "id": "A202001",
   "mentions": [
     "A202006"

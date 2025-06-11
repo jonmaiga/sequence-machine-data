@@ -1,0 +1,16 @@
+{
+  "description": "Smallest initial value for shortcut form of the Collatz function (3x+1)/2 sequence that begins with exactly n-1 increases and decreases once before the last increment.",
+  "id": "A383046",
+  "mentions": [
+    "A381707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n with k pairs of equal adjacent parts and all parts in standard order.",
+  "id": "A380822",
+  "mentions": [
+    "A000110",
+    "A003242",
+    "A047998",
+    "A106356",
+    "A107429",
+    "A126347",
+    "A278984",
+    "A383253"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

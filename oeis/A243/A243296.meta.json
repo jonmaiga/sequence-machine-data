@@ -1,5 +1,5 @@
 {
-  "description": "Exponent of 2 in (A002110(n)/2)^2-1",
+  "description": "Exponent of 2 in (A002110(n)/2)^2-1.",
   "id": "A243296",
   "mentions": [
     "A000040",

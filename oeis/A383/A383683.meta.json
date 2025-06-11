@@ -1,0 +1,16 @@
+{
+  "description": "The number of possible values that can be obtained for the Shannon diversity index across all partitions of n.",
+  "id": "A383683",
+  "mentions": [
+    "A000041",
+    "A000607"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k|n} mu(k+1), where mu() is the Moebius function.",
+  "description": "a(n) = Sum_{d|n} mu(d+1), where mu() is the Moebius function.",
   "id": "A098035",
   "mentions": [
     "A008683",

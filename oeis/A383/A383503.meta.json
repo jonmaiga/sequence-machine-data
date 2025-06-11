@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/sqrt( (1-x) * (1-x-4*x^3)^3 ).",
+  "id": "A383503",
+  "mentions": [
+    "A217615",
+    "A377213",
+    "A383254",
+    "A383499"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Expansion of 1/((1+x)*(1-x)^12).",
   "id": "A001808",
-  "mentions": [],
+  "mentions": [
+    "A112465"
+  ],
   "tags": [
     "easy",
     "nonn"

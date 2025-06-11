@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=a(n-1)^3-a(n-2) with a(1)=1, a(2)=2",
+  "description": "a(n)=a(n-1)^3-a(n-2) with a(1)=1, a(2)=2.",
   "id": "A176748",
   "mentions": [],
   "tags": [

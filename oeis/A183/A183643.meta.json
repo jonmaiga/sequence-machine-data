@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..4 arrays with every 2X2 subblock summing to 8",
+  "description": "Number of (n+1)X(n+1) 0..4 arrays with every 2X2 subblock summing to 8.",
   "id": "A183643",
   "mentions": [
     "A183652"

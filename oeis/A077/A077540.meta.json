@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest multiple of the product of next n natural numbers which is a product of consecutive numbers starting with (k+1) where k = n(n+1)/2 = the n-th triangular number.",
+  "description": "a(n) = smallest multiple of the product of next n natural numbers which is a product of consecutive numbers starting with k+1 where k = n(n+1)/2 = the n-th triangular number.",
   "id": "A077540",
   "mentions": [
     "A077541",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 9,
+    "source": "joeis"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Numbers k such that sigma(k+2) = 2*sigma(k-2).",
   "id": "A067135",
   "mentions": [
+    "A000203",
     "A067134"
   ],
   "tags": [

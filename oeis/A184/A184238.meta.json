@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of numbers x(i=1..n) in 0..7 with sum i^2*x(i)^2 equal to n^2*49",
+  "description": "Number of strings of numbers x(i=1..n) in 0..7 with sum i^2*x(i)^2 equal to n^2*49.",
   "id": "A184238",
   "mentions": [
     "A184240"

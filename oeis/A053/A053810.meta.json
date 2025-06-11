@@ -1,5 +1,5 @@
 {
-  "description": "Prime powers of prime numbers.",
+  "description": "Numbers of the form p^e where both p and e are prime numbers.",
   "id": "A053810",
   "mentions": [
     "A000040",

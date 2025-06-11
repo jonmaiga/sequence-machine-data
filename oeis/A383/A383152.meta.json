@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^5 * (-1)^k * 3^(n-k) * binomial(n,k).",
+  "id": "A383152",
+  "mentions": [
+    "A001787",
+    "A178987",
+    "A383150",
+    "A383151",
+    "A383155"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

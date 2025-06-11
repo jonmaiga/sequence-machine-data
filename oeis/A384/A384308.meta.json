@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 3; for n > 1, a(n) is the smallest number that has not appeared before and has the same set of prime divisors as a(n-1) + 1.",
+  "id": "A384308",
+  "mentions": [
+    "A064413",
+    "A257218"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

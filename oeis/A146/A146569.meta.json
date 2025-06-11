@@ -2,9 +2,16 @@
   "description": "Numbers m with the property that shifting the rightmost digit of m to the left end multiplies the number by 4.",
   "id": "A146569",
   "mentions": [
+    "A034089",
+    "A092697",
+    "A097717",
     "A146088",
     "A146561",
-    "A146754"
+    "A146754",
+    "A291215",
+    "A291321",
+    "A291353",
+    "A291354"
   ],
   "tags": [
     "base",
@@ -12,8 +19,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 16,
+    "offset": 0,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci triple product triangle:c(n)=If[n == 0, 1, Product[Fibonacci[(i - 1)]*Fibonacci[i]*Fibonacci[i + 1], {i, 2, n}];t(n,m)=c(n)/(c(m)*c(n-m))",
+  "description": "Fibonacci triple product triangle:c(n)=If[n == 0, 1, Product[Fibonacci[(i - 1)]*Fibonacci[i]*Fibonacci[i + 1], {i, 2, n}];t(n,m)=c(n)/(c(m)*c(n-m)).",
   "id": "A173887",
   "mentions": [],
   "tags": [

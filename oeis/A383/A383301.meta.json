@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose primorial base expansion has the primorial base expansion of k' as its nontrivial proper suffix, where k' stands for the arithmetic derivative of k (A003415).",
+  "id": "A383301",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A048103",
+    "A049345",
+    "A235224",
+    "A383300"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

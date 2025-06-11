@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that concatenation of first n primes, separated by zeros, is prime.",
+  "description": "Numbers k such that concatenation of first k primes, separated by zeros, is prime.",
   "id": "A082549",
   "mentions": [],
   "tags": [

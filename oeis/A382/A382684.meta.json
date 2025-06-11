@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator for BCPL when started at 1.",
+  "id": "A382684",
+  "mentions": [
+    "A096550",
+    "A096561"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

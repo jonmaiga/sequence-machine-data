@@ -1,0 +1,18 @@
+{
+  "description": "Norms of vectors in any regular planar tiling (square or A2 lattice).",
+  "id": "A383784",
+  "mentions": [
+    "A000401",
+    "A001481",
+    "A003136",
+    "A383785"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

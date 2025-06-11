@@ -1,5 +1,5 @@
 {
-  "description": "The number of terms of A050791 bracketed by successive terms of A141326",
+  "description": "The number of terms of A050791 bracketed by successive terms of A141326.",
   "id": "A145384",
   "mentions": [
     "A050791",

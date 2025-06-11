@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that there exist two numbers a and b where n=a.b=phi(a)*sigma(b)(\".\" means concatenation).",
+  "description": "Numbers m such that m = s|t = phi(s)*sigma(t) for some numbers s and t, where \"|\" denotes concatenation.",
   "id": "A159000",
   "mentions": [
     "A159001",
     "A253824",
+    "A253825",
     "A260144"
   ],
   "tags": [

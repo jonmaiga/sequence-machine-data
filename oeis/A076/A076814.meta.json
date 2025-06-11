@@ -1,5 +1,5 @@
 {
-  "description": "Integer averages of five successive primes squared, (prime(n)^2+prime(n+1)^2+prime(n+2)^2+prime(n+3)^2+prime(n+4)^2)/5, for some n (see A076814).",
+  "description": "Integer averages of five successive primes squared, (prime(n)^2+prime(n+1)^2+prime(n+2)^2+prime(n+3)^2+prime(n+4)^2)/5, for some n.",
   "id": "A076814",
   "mentions": [
     "A076815"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

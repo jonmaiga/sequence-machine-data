@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=1..n} stirling2(n,k)*((k+1)!)^3/8.",
+  "description": "a(n) = Sum_{k=1..n} Stirling2(n,k)*((k+1)!)^3/8.",
   "id": "A263026",
   "mentions": [
     "A261833",

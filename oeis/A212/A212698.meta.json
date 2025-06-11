@@ -2,9 +2,11 @@
   "description": "Main transitions in systems of n particles with spin 3/2.",
   "id": "A212698",
   "mentions": [
+    "A000302",
     "A001787",
     "A002697",
     "A002699",
+    "A008585",
     "A133224",
     "A212697",
     "A212699",

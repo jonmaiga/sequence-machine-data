@@ -1,0 +1,23 @@
+{
+  "description": "Number of king permutations on n elements avoiding the mesh pattern (12, {(0,0),(0,1),(1,0),(1,2),(2,1),(2,2)}).",
+  "id": "A383406",
+  "mentions": [
+    "A002464",
+    "A382644",
+    "A382645",
+    "A382651",
+    "A383040",
+    "A383107",
+    "A383312"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

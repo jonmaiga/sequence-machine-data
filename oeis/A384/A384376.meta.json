@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of connected induced k-vertex subgraphs of the 1-skeleton of the n-th Johnson solid, up to symmetries of that solid; 1 <= n <= 92, 1 <= k <= A242733(n).",
+  "id": "A384376",
+  "mentions": [
+    "A242733",
+    "A384377",
+    "A384378",
+    "A384380"
+  ],
+  "tags": [
+    "fini",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

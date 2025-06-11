@@ -1,8 +1,9 @@
 {
-  "description": "Primes of form 3n^2-3n+23.",
+  "description": "Primes of form 3*k^2 - 3*k + 23.",
   "id": "A007637",
   "mentions": [
-    "A005849"
+    "A005849",
+    "A007638"
   ],
   "tags": [
     "easy",

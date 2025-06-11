@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number whose reversed n-digit square is the largest among all reversals of n-digit squares.",
+  "id": "A383027",
+  "mentions": [
+    "A002942"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

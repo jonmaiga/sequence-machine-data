@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n 1..(7+1) arrays with every leading partial sum divisible by 2, 3, 5, 7 or 11",
+  "description": "Number of length n 1..(7+1) arrays with every leading partial sum divisible by 2, 3, 5, 7 or 11.",
   "id": "A254946",
   "mentions": [
     "A254947"

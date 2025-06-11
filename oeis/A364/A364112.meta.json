@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. 3*x/(exp(-3*x)+exp(-x)+exp(x))",
+  "description": "Expansion of e.g.f. 3*x/(exp(-3*x)+exp(-x)+exp(x)).",
   "id": "A364112",
   "mentions": [
     "A002111",

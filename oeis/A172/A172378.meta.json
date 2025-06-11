@@ -1,5 +1,5 @@
 {
-  "description": "Second beta integer combination triangle of a Narayana type: a=3:f(n, a) = a*f(n - 1, a) + f(n - 2, a);c(n,a)=If[n == 0, 1, Product[f(i, a), {i, 1, n}]];w(n,m,q)=c(n - 1, q)*c(n, q)/(c(m - 1, q)*c(n - m, q)*c(m - 1, q)*c(n - m + 1, q)*f(m, q))",
+  "description": "Second beta integer combination triangle of a Narayana type: a=3:f(n, a) = a*f(n - 1, a) + f(n - 2, a);c(n,a)=If[n == 0, 1, Product[f(i, a), {i, 1, n}]];w(n,m,q)=c(n - 1, q)*c(n, q)/(c(m - 1, q)*c(n - m, q)*c(m - 1, q)*c(n - m + 1, q)*f(m, q)).",
   "id": "A172378",
   "mentions": [],
   "tags": [

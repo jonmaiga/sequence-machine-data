@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of non-isomorphic directed graphs reachable in k steps (and no fewer) by n agents using the LNS protocol (see A307085); n >= 1, 0 <= k <= A383387(n).",
+  "id": "A383385",
+  "mentions": [
+    "A307085",
+    "A383386",
+    "A383387",
+    "A383388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

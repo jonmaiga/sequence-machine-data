@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = index where prime(n) appears in A353730",
+  "description": "a(n) = index where prime(n) appears in A353730.",
   "id": "A354140",
   "mentions": [
     "A353730",

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows in which row n lists the divisors e of n such that d < e < 2*d and d divides n, or 0 if such divisors do not exist.",
+  "description": "Irregular triangle read by rows in which row n lists the divisors m of n such that there is a divisor d of n with d < m < 2*d, or 0 if such divisors do not exist.",
   "id": "A379461",
   "mentions": [
     "A005279",
@@ -11,7 +11,8 @@
     "A379288",
     "A379374",
     "A379379",
-    "A379384"
+    "A379384",
+    "A383209"
   ],
   "tags": [
     "nonn",

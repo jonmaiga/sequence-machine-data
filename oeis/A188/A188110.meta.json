@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m), [x*A(x)]^m=sum(n>=m T(n,m)*x^n), where A(x) satisfies x*A(x)^3= -(2*x*A(x)^2+sqrt(1-4*x*A(x)^2)-1)/(4*x*A(x)^2+sqrt(1-4*x*A(x)^2)-1)",
+  "description": "Triangle T(n,m), [x*A(x)]^m=sum(n>=m T(n,m)*x^n), where A(x) satisfies x*A(x)^3= -(2*x*A(x)^2+sqrt(1-4*x*A(x)^2)-1)/(4*x*A(x)^2+sqrt(1-4*x*A(x)^2)-1).",
   "id": "A188110",
   "mentions": [
     "A035324"

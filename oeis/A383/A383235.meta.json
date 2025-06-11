@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2*floor(k/2)*T(n-1,k) + T(n-1,k-1), 0 <= k <= n.",
+  "id": "A383235",
+  "mentions": [
+    "A000079",
+    "A001787",
+    "A007472",
+    "A007590",
+    "A048993",
+    "A100575",
+    "A158681"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

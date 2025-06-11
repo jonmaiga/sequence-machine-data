@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of expansion of:p(t,y)=-Exp[t/4]/(-2 + y*Exp[t/4] + y*Exp[3*t/4])",
+  "description": "Coefficients of expansion of:p(t,y)=-Exp[t/4]/(-2 + y*Exp[t/4] + y*Exp[3*t/4]).",
   "id": "A171770",
   "mentions": [],
   "tags": [

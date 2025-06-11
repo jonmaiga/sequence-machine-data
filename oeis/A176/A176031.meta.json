@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^rad(n)",
+  "description": "a(n) = n^rad(n).",
   "id": "A176031",
   "mentions": [
     "A007947"

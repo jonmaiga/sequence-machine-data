@@ -1,0 +1,28 @@
+{
+  "description": "The number of integers from 1 to n whose largest divisor that is an infinitary divisor of n is 1.",
+  "id": "A384247",
+  "mentions": [
+    "A000010",
+    "A001146",
+    "A006519",
+    "A047994",
+    "A064380",
+    "A091732",
+    "A116550",
+    "A138302",
+    "A268335",
+    "A384246",
+    "A384248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

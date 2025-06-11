@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k>0 such that 2*k*3^n-1 and 3^n-2*k are both prime and n>1",
+  "description": "Smallest k>0 such that 2*k*3^n-1 and 3^n-2*k are both prime and n>1.",
   "id": "A215055",
   "mentions": [],
   "tags": [

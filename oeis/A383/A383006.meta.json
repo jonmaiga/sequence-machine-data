@@ -1,0 +1,21 @@
+{
+  "description": "Exponent of the highest power of 2 dividing the n-th powerful number.",
+  "id": "A383006",
+  "mentions": [
+    "A001694",
+    "A007814",
+    "A363189",
+    "A373549",
+    "A383007"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

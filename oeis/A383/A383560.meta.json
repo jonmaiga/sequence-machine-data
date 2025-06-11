@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(-x*A(x)) * A( x*exp(-x*A(x)) )^2.",
+  "id": "A383560",
+  "mentions": [
+    "A383561",
+    "A383562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

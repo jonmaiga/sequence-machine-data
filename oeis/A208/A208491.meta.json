@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1) X 8 0..3 arrays with the number of clockwise edge increases in every 2 X 2 subblock equal to the number of counterclockwise edge increases:",
+  "description": "Number of (n+1) X 8 0..3 arrays with the number of clockwise edge increases in every 2 X 2 subblock equal to the number of counterclockwise edge increases.",
   "id": "A208491",
   "mentions": [
     "A208492"

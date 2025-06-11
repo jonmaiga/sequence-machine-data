@@ -1,10 +1,11 @@
 {
-  "description": "A triangular sequence of coefficients of a PolyLog functional polynomials: p(x.n)=16*x^(n + 1)*PolyLog[ -n, (1 - x)/(1 + x)]/((1 + x)*(1 - x)).",
+  "description": "A triangular sequence of coefficients of a PolyLog functional polynomials: p(x,n) = 16*x^(n + 1)*PolyLog(-n, (1 - x)/(1 + x))/((1 + x)*(1 - x)).",
   "id": "A142154",
   "mentions": [],
   "tags": [
     "formulas",
     "sign",
+    "tabf",
     "uned"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "Binary words beginning with 1 in which no binary digit occurs only once.",
+  "id": "A383667",
+  "mentions": [
+    "A158581",
+    "A383666"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

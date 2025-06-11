@@ -1,12 +1,11 @@
 {
-  "description": "Numbers n such that tau(n) - tau(n+1) = 1.",
+  "description": "Numbers k such that tau(k) - tau(k+1) = 1.",
   "id": "A068208",
   "mentions": [
     "A000005"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..2 arrays with no 2X2 subblock having x11-x00 less than x10-x01",
+  "description": "Number of (n+1)X(5+1) 0..2 arrays with no 2X2 subblock having x11-x00 less than x10-x01.",
   "id": "A251062",
   "mentions": [
     "A251065"

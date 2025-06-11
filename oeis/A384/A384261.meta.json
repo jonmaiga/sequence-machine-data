@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=0..n-1} (2*n+k-1).",
+  "id": "A384261",
+  "mentions": [
+    "A064352",
+    "A090816",
+    "A117671",
+    "A352601"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

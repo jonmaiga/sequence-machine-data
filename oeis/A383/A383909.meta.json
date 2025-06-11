@@ -1,0 +1,18 @@
+{
+  "description": "In the base 4 expansion of n, map: 0 -> 20, 1 -> 21, 2 -> 30, 3 -> 31.",
+  "id": "A383909",
+  "mentions": [
+    "A014577"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

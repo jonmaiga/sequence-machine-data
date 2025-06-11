@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. sec(log(1+tanh(x)))",
+  "description": "E.g.f. sec(log(1+tanh(x))).",
   "id": "A168468",
   "mentions": [],
   "tags": [

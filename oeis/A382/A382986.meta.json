@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of iterations that n requires to reach 0 under the map k -> b(k) where b(k) = k+1 if k is even, and b(k) = k-gpf(k) if k is odd, where gpf(k) is the greatest prime dividing k.",
+  "id": "A382986",
+  "mentions": [
+    "A006530",
+    "A076563"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

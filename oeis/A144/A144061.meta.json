@@ -1,5 +1,5 @@
 {
-  "description": "Eigentriangle generated from A109128, row sums = expansion of {2(exp(x)-1)}",
+  "description": "Eigentriangle generated from A109128, row sums = expansion of {2(exp(x)-1)}.",
   "id": "A144061",
   "mentions": [
     "A001861",

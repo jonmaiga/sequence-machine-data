@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the multinomial coefficient (length of n in binary) choose (the lengths of runs in n's binary expansion).",
+  "id": "A383718",
+  "mentions": [
+    "A000111",
+    "A000975",
+    "A023758",
+    "A101211",
+    "A368070"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

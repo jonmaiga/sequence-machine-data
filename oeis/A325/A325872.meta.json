@@ -2,11 +2,16 @@
   "description": "T(n, k) = [x^k] Sum_{k=0..n} Stirling1(n, k)*FallingFactorial(x, k), triangle read by rows, for n >= 0 and 0 <= k <= n.",
   "id": "A325872",
   "mentions": [
+    "A000007",
+    "A003713",
     "A039814",
     "A129062",
-    "A325873"
+    "A325873",
+    "A341587",
+    "A341588"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],

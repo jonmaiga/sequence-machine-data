@@ -1,5 +1,5 @@
 {
-  "description": "Multi-bifurcating recursion of a factorial type based on the MacMahon numbers A060187 as a triangle sequence: t(n,k)=A060187[n,m] from polynomials; f(n, m) = If[m <= Floor[n/2], f(m, 1)*f(n - m, 1)*t(n + 1, m)];",
+  "description": "Multi-bifurcating recursion of a factorial type based on the MacMahon numbers A060187 as a triangle sequence: t(n,k) = A060187(n,m) from polynomials; f(n, m) = If[m <= Floor[n/2], f(m, 1)*f(n - m, 1)*t(n + 1, m)].",
   "id": "A155558",
   "mentions": [
     "A008292",

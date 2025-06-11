@@ -1,5 +1,5 @@
 {
-  "description": "Infinite set of Petoukhov 2^n x 2^n Petoukhov matrices by antidiagonals, generated from w = (-.5 + sqrt(-3)/2)",
+  "description": "Infinite set of Petoukhov 2^n x 2^n Petoukhov matrices by antidiagonals, generated from w = (-.5 + sqrt(-3)/2).",
   "id": "A164516",
   "mentions": [
     "A119633",

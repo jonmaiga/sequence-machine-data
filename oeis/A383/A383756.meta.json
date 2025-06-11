@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/Product_{k=0..2} (1 - 3^k * 4^(2-k) * x).",
+  "id": "A383756",
+  "mentions": [
+    "A383755"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

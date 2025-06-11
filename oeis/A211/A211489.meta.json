@@ -1,9 +1,13 @@
 {
-  "description": "Fibonacci(n^3) - Fibonacci(n).",
+  "description": "a(n) = Fibonacci(n^3) - Fibonacci(n).",
   "id": "A211489",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A182149"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

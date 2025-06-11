@@ -1,13 +1,17 @@
 {
-  "description": "Starting iteration of Phi[]*(Sigma[]-Phi[]) function at these initial values leads to the fixed point 24.",
+  "description": "Numbers k such that iterating phi(sigma(k)-phi(k)) starting from k leads to the fixed point 24.",
   "id": "A077095",
   "mentions": [
+    "A000010",
+    "A000203",
     "A077090",
-    "A077100"
+    "A077091",
+    "A077092",
+    "A077093",
+    "A077094",
+    "A077096"
   ],
   "tags": [
-    "fini",
-    "full",
     "nonn"
   ],
   "terms": {

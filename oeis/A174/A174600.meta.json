@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = 1 if the sum of +-k..+-n with arbitrary signs never equals zero, = 0 otherwise (lower triangle)",
+  "description": "T(n,k) = 1 if the sum of +-k..+-n with arbitrary signs never equals zero, = 0 otherwise (lower triangle).",
   "id": "A174600",
   "mentions": [
     "A063865"

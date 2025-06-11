@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ruler-and-compass constructions consisting of n-k lines and k circles with 0 <= k <= n.",
+  "id": "A383273",
+  "mentions": [
+    "A333944",
+    "A383082",
+    "A383083"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

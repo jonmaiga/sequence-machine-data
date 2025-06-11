@@ -1,0 +1,13 @@
+{
+  "description": "Least prime p that has a decomposition into n distinct positive parts p(1) +...+ p(n) = p so that p + 6*p(k) is prime for each k.",
+  "id": "A382254",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

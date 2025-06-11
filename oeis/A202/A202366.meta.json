@@ -1,5 +1,5 @@
 {
-  "description": "Approximate series expansion of arccosh(exp(3*x) - sin(3*x))",
+  "description": "Approximate series expansion of arccosh(exp(3*x) - sin(3*x)).",
   "id": "A202366",
   "mentions": [],
   "tags": [

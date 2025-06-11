@@ -2,10 +2,12 @@
   "description": "Primes p such that sigma(p-4) < p.",
   "id": "A067830",
   "mentions": [
+    "A000203",
     "A025584",
     "A031505",
     "A046022",
-    "A046132"
+    "A046132",
+    "A067833"
   ],
   "tags": [
     "easy",
@@ -14,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

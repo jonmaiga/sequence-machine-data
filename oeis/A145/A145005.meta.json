@@ -5,12 +5,12 @@
     "A004083"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 16,
+    "offset": 1,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

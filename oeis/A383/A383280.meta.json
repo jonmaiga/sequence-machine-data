@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (3/2)^n * Sum_{k=0..n} (1/6)^k * (2*k)! * (n-k)! * binomial(n,k)^2.",
+  "id": "A383280",
+  "mentions": [
+    "A000681",
+    "A001499"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

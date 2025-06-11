@@ -1,0 +1,23 @@
+{
+  "description": "Triangle in which the n-th row gives the numbers from 1 to n whose largest divisor that is a unitary divisor of n is 1.",
+  "id": "A384046",
+  "mentions": [
+    "A038566",
+    "A047994",
+    "A077610",
+    "A225174",
+    "A333576",
+    "A384047"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

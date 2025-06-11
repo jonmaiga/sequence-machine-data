@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A075930(n)^A178307(n)",
+  "description": "a(n) = A075930(n)^A178307(n).",
   "id": "A178374",
   "mentions": [
     "A001969",

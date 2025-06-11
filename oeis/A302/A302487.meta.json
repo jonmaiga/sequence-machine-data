@@ -1,14 +1,18 @@
 {
   "description": "Total domination number of the n-Apollonian network.",
   "id": "A302487",
-  "mentions": [],
+  "mentions": [
+    "A291773",
+    "A347479"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

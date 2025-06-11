@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (-1)^k*(k+1)*(n+1-k)!, n >= 0, k = 0..n.",
+  "id": "A384494",
+  "mentions": [
+    "A000142",
+    "A052560",
+    "A052578",
+    "A052648",
+    "A052849",
+    "A062098",
+    "A086852",
+    "A104698",
+    "A159038",
+    "A298881"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

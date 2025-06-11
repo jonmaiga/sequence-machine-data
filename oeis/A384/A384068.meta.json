@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected components of n faces of the truncated cube up to the 48 rotations and reflections of the truncated cube.",
+  "id": "A384068",
+  "mentions": [
+    "A383800",
+    "A384067",
+    "A384069",
+    "A384070",
+    "A384071",
+    "A384072"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

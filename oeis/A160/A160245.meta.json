@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = index of the n-th prime in A051301 (least prime factor of m!+1)",
+  "description": "a(n) = index of the n-th prime in A051301 (least prime factor of m!+1).",
   "id": "A160245",
   "mentions": [
     "A051301",

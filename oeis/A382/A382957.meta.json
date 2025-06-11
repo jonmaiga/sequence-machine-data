@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of distinct numbers of intercalates extended self-orthogonal diagonal Latin squares of order n.",
+  "id": "A382957",
+  "mentions": [
+    "A309210",
+    "A309598",
+    "A309599",
+    "A329685",
+    "A345760",
+    "A382952"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Numbers n with the property that shifting the rightmost digit of n to the left end doubles the number.",
   "id": "A146088",
   "mentions": [
+    "A034089",
     "A092697",
     "A146561",
     "A146569",

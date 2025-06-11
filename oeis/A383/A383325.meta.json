@@ -1,0 +1,16 @@
+{
+  "description": "Numbers not of the form round(3^k/5). Complement of A383324.",
+  "id": "A383325",
+  "mentions": [
+    "A383324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

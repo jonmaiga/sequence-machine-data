@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..2 arrays with no element equal to one plus the sum of elements to its left or one plus the sum of elements above it or one plus the sum of the elements diagonally to its northwest, modulo 3",
+  "description": "Number of nX7 0..2 arrays with no element equal to one plus the sum of elements to its left or one plus the sum of elements above it or one plus the sum of the elements diagonally to its northwest, modulo 3.",
   "id": "A239360",
   "mentions": [
     "A239361"

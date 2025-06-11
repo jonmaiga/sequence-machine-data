@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that product of factorials of digits of n equals sigma(n).",
+  "description": "Numbers m such that product of factorials of digits of m equals sigma(m).",
   "id": "A137603",
   "mentions": [
-    "A066457"
+    "A000203",
+    "A066457",
+    "A066459"
   ],
   "tags": [
     "base",

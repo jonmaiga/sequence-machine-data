@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that (k*2^d + 1)*(d*2^k + 1) is semiprime for some divisor d of k.",
+  "id": "A382887",
+  "mentions": [
+    "A001358",
+    "A002064",
+    "A005849",
+    "A382646"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

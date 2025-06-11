@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = numerator of (n+k)/(1+n*k), 0 <= k <= n >= 0, read by rows.",
+  "id": "A382252",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A022998",
+    "A228564",
+    "A382253",
+    "A382257"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

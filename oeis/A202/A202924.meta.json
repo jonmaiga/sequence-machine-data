@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk nonnegative integer arrays with each row and column increasing from zero by 0, 1, 2 or 3",
+  "description": "T(n,k)=Number of nXk nonnegative integer arrays with each row and column increasing from zero by 0, 1, 2 or 3.",
   "id": "A202924",
   "mentions": [
     "A000292"

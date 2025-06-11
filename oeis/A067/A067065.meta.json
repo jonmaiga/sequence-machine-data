@@ -1,7 +1,10 @@
 {
   "description": "Numbers k such that sigma(sigma(sigma(k))) == 6*sigma(k).",
   "id": "A067065",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A066971"
+  ],
   "tags": [
     "nonn"
   ],

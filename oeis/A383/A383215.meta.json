@@ -1,0 +1,18 @@
+{
+  "description": "Primes p preceded and followed by gaps whose difference (absolute value) is greater than log(p).",
+  "id": "A383215",
+  "mentions": [
+    "A036263",
+    "A068985",
+    "A383216"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

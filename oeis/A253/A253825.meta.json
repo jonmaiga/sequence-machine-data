@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n = concat(s,t) such that n = (sigma(s)-s) * (sigma(t)-t), where sigma(x)-x is the sum of the aliquot parts of x.",
+  "description": "Numbers m = concat(s,t) such that m = (sigma(s)-s) * (sigma(t)-t), where sigma(x)-x is the sum of the aliquot parts of x.",
   "id": "A253825",
   "mentions": [
     "A000203",

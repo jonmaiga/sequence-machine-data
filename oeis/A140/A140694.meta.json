@@ -1,5 +1,5 @@
 {
-  "description": "A014963(n) * A063659(n).",
+  "description": "a(n) = A014963(n) * A063659(n).",
   "id": "A140694",
   "mentions": [
     "A008683",
@@ -8,12 +8,13 @@
     "A140579"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 61,
     "source": "joeis"
   }
 }

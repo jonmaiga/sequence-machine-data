@@ -2,9 +2,11 @@
   "description": "Number of triples (a,b,c) with 0 < a < b < c < p and a + b + c == 0 mod p, where p = prime(n).",
   "id": "A242089",
   "mentions": [
+    "A069905",
     "A242090"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

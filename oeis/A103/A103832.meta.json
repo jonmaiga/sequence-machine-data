@@ -1,5 +1,5 @@
 {
-  "description": "For even n, a(n)=2n+1, for odd n, a(n)=n(n+1)",
+  "description": "For even n, a(n)=2n+1, for odd n, a(n)=n(n+1).",
   "id": "A103832",
   "mentions": [
     "A103831"

@@ -1,5 +1,5 @@
 {
-  "description": "(Smallest prime-factor of n)^2.",
+  "description": "a(n) = (smallest prime factor of n)^2; a(1) = 1.",
   "id": "A088377",
   "mentions": [
     "A000290",
@@ -10,6 +10,8 @@
     "A247180"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

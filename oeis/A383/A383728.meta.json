@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that omega(k) = 4 and the largest prime factor of k equals the sum of its remaining distinct prime factors, where omega(k) = A001221(k).",
+  "id": "A383728",
+  "mentions": [
+    "A001221",
+    "A365795",
+    "A382469",
+    "A383725",
+    "A383726",
+    "A383729"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = Sum_{i=n..n+3}Sum_{j=i+1..n+4}prime(i)*prime(j).",
+  "description": "a(n) = Sum_{i=n..n+3} Sum_{j=i+1..n+4} prime(i)*prime(j).",
   "id": "A127350",
   "mentions": [
+    "A000040",
     "A006094",
     "A070934",
     "A127345",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

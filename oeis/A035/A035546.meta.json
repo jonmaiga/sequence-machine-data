@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n with equal nonzero number of parts congruent to each of 0 and 1 (mod 4)",
+  "description": "Number of partitions of n with equal nonzero number of parts congruent to each of 0 and 1 (mod 4).",
   "id": "A035546",
   "mentions": [],
   "tags": [

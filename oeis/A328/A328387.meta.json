@@ -2,9 +2,14 @@
   "description": "Numbers k such that A276086(k) is a multiple of k.",
   "id": "A328387",
   "mentions": [
+    "A048103",
     "A276086",
     "A324198",
-    "A328386"
+    "A328386",
+    "A351250",
+    "A358226",
+    "A358231",
+    "A370114"
   ],
   "tags": [
     "nonn"

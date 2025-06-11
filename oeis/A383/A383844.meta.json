@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of occurences of n in A024934.",
+  "id": "A383844",
+  "mentions": [
+    "A024934",
+    "A049802",
+    "A383327"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

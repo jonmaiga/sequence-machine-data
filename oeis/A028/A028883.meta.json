@@ -1,11 +1,13 @@
 {
-  "description": "Primes of form n^2 - 7.",
+  "description": "Primes of the form k^2 - 7.",
   "id": "A028883",
   "mentions": [
-    "A028881"
+    "A028881",
+    "A028882"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

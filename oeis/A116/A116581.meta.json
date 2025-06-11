@@ -1,10 +1,13 @@
 {
-  "description": "Primes of the form k^3-k-1.",
+  "description": "Primes of the form k^3 - k - 1.",
   "id": "A116581",
   "mentions": [
-    "A002327"
+    "A002327",
+    "A126420",
+    "A126421"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

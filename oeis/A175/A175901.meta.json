@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there exists a smaller number k such that k^2-1 has exactly the same set of distinct prime divisors as n^2-1",
+  "description": "Numbers n such that there exists a smaller number k such that k^2-1 has exactly the same set of distinct prime divisors as n^2-1.",
   "id": "A175901",
   "mentions": [
     "A175902"

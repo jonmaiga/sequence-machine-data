@@ -1,8 +1,9 @@
 {
-  "description": "(3^(n-1))*(n!)^2.",
+  "description": "a(n) = (3^(n-1))*(n!)^2.",
   "id": "A080141",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of idempotent n X n -k..k matrices of rank n-1",
+  "description": "T(n,k)=Number of idempotent n X n -k..k matrices of rank n-1.",
   "id": "A223450",
   "mentions": [],
   "tags": [

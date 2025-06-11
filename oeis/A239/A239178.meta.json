@@ -1,7 +1,12 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with no element greater than all horizontal neighbors or equal to all vertical neighbors",
+  "description": "T(n,k) = number of (n+1) X (k+1) 0..2 arrays with no element greater than all horizontal neighbors or equal to all vertical neighbors.",
   "id": "A239178",
-  "mentions": [],
+  "mentions": [
+    "A239171",
+    "A239177",
+    "A239179",
+    "A239185"
+  ],
   "tags": [
     "formulas",
     "nonn",

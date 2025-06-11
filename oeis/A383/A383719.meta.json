@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Pell(n) * Pell(n-1) * Pell(n-2) * Pell(n-3) * Pell(n-4) / 3480.",
+  "id": "A383719",
+  "mentions": [
+    "A000129",
+    "A099927"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 16,
+    "source": "joeis"
+  }
+}

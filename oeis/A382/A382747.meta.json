@@ -1,0 +1,19 @@
+{
+  "description": "Greedy partition of the positive integers into arithmetic progressions of length at most 4.",
+  "id": "A382747",
+  "mentions": [
+    "A036552",
+    "A382748",
+    "A382749"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

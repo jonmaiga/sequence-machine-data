@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose powerful part (A057521) is greater than 1 and is equal to a squarefree number raised to an odd power (A384518).",
+  "id": "A384520",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A057521",
+    "A268335",
+    "A295661",
+    "A301517",
+    "A374459",
+    "A375142",
+    "A376142",
+    "A381312",
+    "A384518",
+    "A384519"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

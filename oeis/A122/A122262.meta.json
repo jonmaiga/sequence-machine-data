@@ -2,6 +2,7 @@
   "description": "Number of numbers having only factors that are Pierpont primes.",
   "id": "A122262",
   "mentions": [
+    "A005109",
     "A122261"
   ],
   "tags": [

@@ -1,0 +1,26 @@
+{
+  "description": "The sum of the exponential unitary (or e-unitary) divisors of n that are exponentially odd numbers (A268335).",
+  "id": "A384559",
+  "mentions": [
+    "A005117",
+    "A051377",
+    "A072587",
+    "A268335",
+    "A331737",
+    "A368979",
+    "A374459",
+    "A384557",
+    "A384558"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

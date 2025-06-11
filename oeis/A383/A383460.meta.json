@@ -1,0 +1,16 @@
+{
+  "description": "13 X oo array read by antidiagonals, giving the values of the standard mod 13 Ackermann function.",
+  "id": "A383460",
+  "mentions": [
+    "A085119"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of polyforms with n cells on the faces of a rhombic triacontahedron up to rotation and reflection.",
+  "id": "A383490",
+  "mentions": [
+    "A030135",
+    "A030136",
+    "A340635",
+    "A383491",
+    "A383492",
+    "A383494",
+    "A383496",
+    "A383974"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

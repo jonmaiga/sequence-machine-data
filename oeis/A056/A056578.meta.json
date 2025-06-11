@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1 + 2n + 3n^2 + 4n^3.",
+  "description": "a(n) = 1 + 2*n + 3*n^2 + 4*n^3.",
   "id": "A056578",
   "mentions": [
     "A000012",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 40,
     "source": "joeis"
   }
 }

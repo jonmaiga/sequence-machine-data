@@ -1,7 +1,9 @@
 {
-  "description": "Primes of the form n^3 + 5.",
+  "description": "Primes of the form k^3 + 5.",
   "id": "A201260",
-  "mentions": [],
+  "mentions": [
+    "A084381"
+  ],
   "tags": [
     "easy",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = a(n-1) + 2 a(n-2) - a(n-4) ; a(0)=1, a(n)=0 for 0 < n < 5;",
+  "description": "a(n+1) = a(n-1) + 2 a(n-2) - a(n-4) ; a(0)=1, a(n)=0 for 0 < n < 5.",
   "id": "A181560",
   "mentions": [],
   "tags": [

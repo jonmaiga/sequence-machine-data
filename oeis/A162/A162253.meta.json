@@ -1,11 +1,12 @@
 {
-  "description": "Smallest value of the n-fold nesting prime(prime(...(k)...) with a prime digital sum.",
+  "description": "Smallest value of the n-fold nesting prime(prime(...(k)...)) with a prime digital sum.",
   "id": "A162253",
   "mentions": [
     "A000040",
     "A006450",
     "A028834",
     "A038580",
+    "A049090",
     "A049202",
     "A049203"
   ],

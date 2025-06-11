@@ -2,6 +2,8 @@
   "description": "a(n) = Sum_{k=1..n} 2^(n mod k).",
   "id": "A198383",
   "mentions": [
+    "A000079",
+    "A130887",
     "A198259"
   ],
   "tags": [

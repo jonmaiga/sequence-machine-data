@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/((1-x) * (1-4*x) * (1-9*x) * (1-16*x) * (1-25*x)).",
+  "id": "A383840",
+  "mentions": [
+    "A269945",
+    "A383838"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

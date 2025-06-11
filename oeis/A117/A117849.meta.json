@@ -1,5 +1,5 @@
 {
-  "description": "a(n) =(A001359[n]^2-1)/2",
+  "description": "a(n) =(A001359[n]^2-1)/2.",
   "id": "A117849",
   "mentions": [
     "A001359"

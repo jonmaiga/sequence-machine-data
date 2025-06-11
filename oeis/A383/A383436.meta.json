@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; a(n) = 2 + n * Sum_{k=1..n-1} a(k).",
+  "id": "A383436",
+  "mentions": [
+    "A001339",
+    "A007808",
+    "A074143",
+    "A082425",
+    "A082427",
+    "A082428",
+    "A082430",
+    "A383437"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

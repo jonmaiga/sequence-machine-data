@@ -1,5 +1,5 @@
 {
-  "description": "54n^3 - 1.",
+  "description": "a(n) = 54n^3 - 1.",
   "id": "A181968",
   "mentions": [
     "A000578",

@@ -2,17 +2,20 @@
   "description": "Number of permutations of length n and order at most 3 whose powers all avoid the pattern 132.",
   "id": "A326763",
   "mentions": [
+    "A001405",
+    "A014495",
     "A326760",
     "A326761",
-    "A326762"
+    "A326762",
+    "A370686"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 36,
+    "source": "joeis"
   }
 }

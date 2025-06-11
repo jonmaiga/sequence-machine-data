@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k all of whose proper divisors have binary weights that are not equal to the binary weight of k.",
+  "id": "A383363",
+  "mentions": [
+    "A000120",
+    "A325571",
+    "A380844",
+    "A383364",
+    "A383365"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

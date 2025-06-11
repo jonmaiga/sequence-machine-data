@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays with every element neighboring horizontally or vertically both a 0 and a 1",
+  "description": "Number of n X n binary arrays with every element neighboring horizontally or vertically both a 0 and a 1.",
   "id": "A203279",
   "mentions": [
     "A203285"

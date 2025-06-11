@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime numbers whose sum of proper divisors is a power of 4.",
+  "id": "A383872",
+  "mentions": [
+    "A001065",
+    "A048699",
+    "A135535",
+    "A279731"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

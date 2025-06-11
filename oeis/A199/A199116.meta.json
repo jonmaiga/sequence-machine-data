@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 6*4^n+1.",
+  "description": "a(n) = 6*4^n + 1.",
   "id": "A199116",
   "mentions": [
+    "A140529",
     "A181565",
     "A201630",
     "A221130"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

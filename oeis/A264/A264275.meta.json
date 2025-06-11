@@ -1,5 +1,5 @@
 {
-  "description": "Number of (4+1)X(n+1) arrays of permutations of 0..n*5+4 with each element having index change +-(.,.) 0,0 1,0 or 1,2.",
+  "description": "Number of (4+1) X (n+1) arrays of permutations of 0..n*5+4 with each element having index change +-(.,.) 0,0 1,0 or 1,2.",
   "id": "A264275",
   "mentions": [
     "A264272"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

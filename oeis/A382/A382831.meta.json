@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the n-th n-almost-prime that is a partial sum of the sequence of n-almost-primes.",
+  "id": "A382831",
+  "mentions": [
+    "A007504",
+    "A062198",
+    "A086046",
+    "A086047",
+    "A086052",
+    "A086059",
+    "A086061",
+    "A086062"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

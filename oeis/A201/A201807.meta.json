@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of n integers in -4..4 with sum zero and equal numbers of elements greater than zero and less than zero",
+  "description": "Number of arrays of n integers in -4..4 with sum zero and equal numbers of elements greater than zero and less than zero.",
   "id": "A201807",
   "mentions": [
     "A201811"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of exp(x*Bernoulli(x)) = 1+sum(n>0, a(n)/(n!)^2*x^n)",
+  "description": "Expansion of exp(x*Bernoulli(x)) = 1+sum(n>0, a(n)/(n!)^2*x^n).",
   "id": "A191564",
   "mentions": [],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Primitive terms in A066192: number k such that k is a term of A066192 and k/2 is not.",
+  "id": "A383428",
+  "mentions": [
+    "A000396",
+    "A066191",
+    "A066192",
+    "A069519",
+    "A091570"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,14 +1,18 @@
 {
-  "description": "Numbers n such that sigma(n)=phi(n*omega(n)-1).",
+  "description": "Numbers k such that sigma(k) = phi(k*omega(k)-1).",
   "id": "A067878",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001221",
+    "A328260"
+  ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

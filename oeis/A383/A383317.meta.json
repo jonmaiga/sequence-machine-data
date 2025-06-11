@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x/2) / (1-6*x)^(1/12).",
+  "id": "A383317",
+  "mentions": [
+    "A002801",
+    "A383316"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "G.f. A(x) satisfies 1 = Sum{n=-oo..+oo} (2*x*A(x)^(n-2) - x^n)^n.",
+  "id": "A383565",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

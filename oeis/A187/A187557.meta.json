@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows of products of Stirling numbers of the second kind (A008277): a(n,k) = S(n,k) S(n+1,k+1)",
+  "description": "Triangle read by rows of products of Stirling numbers of the second kind (A008277): a(n,k) = S(n,k) S(n+1,k+1).",
   "id": "A187557",
   "mentions": [
     "A008277"

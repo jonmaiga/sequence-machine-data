@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the size of the largest subset of {1,...,n} such that no two elements differ by 5 or 8.",
+  "id": "A383430",
+  "mentions": [
+    "A369149"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

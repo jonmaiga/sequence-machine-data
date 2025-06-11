@@ -2,6 +2,7 @@
   "description": "Primes p such that 2p-3 and 2p+3 are both prime (A092110), with last decimal being 3.",
   "id": "A136191",
   "mentions": [
+    "A017305",
     "A092110",
     "A136192"
   ],

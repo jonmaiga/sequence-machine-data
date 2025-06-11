@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 4; for n>0, a(n) = a(n-1)^2 - 2^(1+2^(n-1))",
+  "description": "a(0) = 4; for n>0, a(n) = a(n-1)^2 - 2^(1+2^(n-1)).",
   "id": "A152121",
   "mentions": [
     "A001601",

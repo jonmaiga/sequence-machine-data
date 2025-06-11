@@ -1,7 +1,9 @@
 {
   "description": "Sum of first n 5-almost primes.",
   "id": "A086047",
-  "mentions": [],
+  "mentions": [
+    "A014614"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

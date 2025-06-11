@@ -9,12 +9,13 @@
     "A371883"
   ],
   "tags": [
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 2,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

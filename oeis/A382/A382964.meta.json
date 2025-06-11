@@ -1,0 +1,23 @@
+{
+  "description": "Number of k <= n such that rad(k) divides n and g * k > n where g is the largest prime factor of n and rad = A007947.",
+  "id": "A382964",
+  "mentions": [
+    "A001221",
+    "A007947",
+    "A010846",
+    "A024619",
+    "A162306",
+    "A246655",
+    "A369609",
+    "A382926"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

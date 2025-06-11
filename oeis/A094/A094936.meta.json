@@ -2,6 +2,9 @@
   "description": "Decimal expansion of 2/(Pi*e).",
   "id": "A094936",
   "mentions": [
+    "A000796",
+    "A001113",
+    "A019609",
     "A019610"
   ],
   "tags": [

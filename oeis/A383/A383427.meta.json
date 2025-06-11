@@ -1,0 +1,21 @@
+{
+  "description": "Indices k such that A003849(k) = A383422(k).",
+  "id": "A383427",
+  "mentions": [
+    "A003849",
+    "A383422",
+    "A383423",
+    "A383424",
+    "A383425",
+    "A383426"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

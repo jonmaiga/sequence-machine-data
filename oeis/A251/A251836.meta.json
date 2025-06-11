@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 3 4 5 or 6",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 3 4 5 or 6.",
   "id": "A251836",
   "mentions": [],
   "tags": [

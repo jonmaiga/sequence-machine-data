@@ -1,5 +1,5 @@
 {
-  "description": "The number of primes factors of the square root of the largest square dividing n, counted with multiplicity.",
+  "description": "The number of prime factors of the square root of the largest square dividing n, counted with multiplicity.",
   "id": "A362412",
   "mentions": [
     "A000188",
@@ -9,7 +9,9 @@
     "A005117",
     "A008833",
     "A154945",
-    "A349326"
+    "A162642",
+    "A349326",
+    "A366073"
   ],
   "tags": [
     "easy",

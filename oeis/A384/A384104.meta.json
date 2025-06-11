@@ -1,0 +1,23 @@
+{
+  "description": "Number of edge-connected components of n faces of the truncated tetrahedron up to the 24 rotations and reflections of the truncated tetrahedron.",
+  "id": "A384104",
+  "mentions": [
+    "A383825",
+    "A384067",
+    "A384068",
+    "A384069",
+    "A384070",
+    "A384071",
+    "A384072"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci integral quotients associated with the dividends in A159950 and the divisors in A003481",
+  "description": "Fibonacci integral quotients associated with the dividends in A159950 and the divisors in A003481.",
   "id": "A159951",
   "mentions": [
     "A000045",

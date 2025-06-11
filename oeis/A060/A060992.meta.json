@@ -2,6 +2,8 @@
   "description": "a(n) = Sum_{gcd(i,j) | 0 < i <= j < n and i+j = n}.",
   "id": "A060992",
   "mentions": [
+    "A018804",
+    "A109043",
     "A234307"
   ],
   "tags": [

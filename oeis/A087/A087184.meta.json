@@ -8,14 +8,16 @@
     "A068907",
     "A087181",
     "A087183",
-    "A087185"
+    "A087185",
+    "A237276"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

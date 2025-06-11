@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^(n+1) mod n+2.",
+  "description": "a(n) = n^(n+1) mod (n+2).",
   "id": "A110146",
   "mentions": [
     "A000918",

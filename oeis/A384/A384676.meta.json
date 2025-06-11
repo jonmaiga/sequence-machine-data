@@ -1,0 +1,17 @@
+{
+  "description": "Binomial transform of A111107.",
+  "id": "A384676",
+  "mentions": [
+    "A000040",
+    "A111107"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

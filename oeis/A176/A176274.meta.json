@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 3k-1 with greatest prime divisor of the form 3m+1",
+  "description": "Numbers of the form 3k-1 with greatest prime divisor of the form 3m+1.",
   "id": "A176274",
   "mentions": [
     "A002145",

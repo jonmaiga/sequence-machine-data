@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: Partial row sums of A181853(n,k)",
+  "description": "Triangle read by rows: Partial row sums of A181853(n,k).",
   "id": "A181854",
   "mentions": [
     "A096179",

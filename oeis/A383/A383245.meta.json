@@ -1,0 +1,26 @@
+{
+  "description": "Nonnegative integers that contain the digit 0, or an even digit d immediately followed by a digit >= d.",
+  "id": "A383245",
+  "mentions": [
+    "A342043",
+    "A347298",
+    "A382464",
+    "A382623",
+    "A382937",
+    "A383061",
+    "A383246",
+    "A383247",
+    "A383249",
+    "A383500"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

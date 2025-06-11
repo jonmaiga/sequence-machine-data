@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock having x11-x00 less than x10-x01",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock having x11-x00 less than x10-x01.",
   "id": "A251801",
   "mentions": [
     "A184665",

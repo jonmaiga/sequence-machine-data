@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrays of n 1..n integers with the sum of their 2nd powers equal to sum(i^2,i=1..n)",
+  "description": "Number of nondecreasing arrays of n 1..n integers with the sum of their 2nd powers equal to sum(i^2,i=1..n).",
   "id": "A216640",
   "mentions": [
     "A216645"

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the minimum sum of a nonnegative integer 6-tuple that takes n moves to reach a 0 component, where a move picks two components, subtracts the smaller from the larger, and doubles the smaller.",
+  "id": "A383588",
+  "mentions": [
+    "A256001",
+    "A383586",
+    "A383587"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

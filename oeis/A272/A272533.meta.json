@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A072499(n)!=A072504(n)",
+  "description": "Numbers n such that A072499(n)!=A072504(n).",
   "id": "A272533",
   "mentions": [
     "A072499",

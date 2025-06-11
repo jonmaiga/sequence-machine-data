@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X8 0..3 arrays with every 2X2 subblock diagonal sum differing from its antidiagonal sum by more than 3",
+  "description": "Half the number of (n+1)X8 0..3 arrays with every 2X2 subblock diagonal sum differing from its antidiagonal sum by more than 3.",
   "id": "A184229",
   "mentions": [
     "A184231"

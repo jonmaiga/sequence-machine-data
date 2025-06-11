@@ -2,7 +2,7 @@
   "description": "Nearest-neighbors of odd isolated primes, divided by 2.",
   "id": "A134926",
   "mentions": [
-    "A134925"
+    "A134924"
   ],
   "tags": [
     "easy",

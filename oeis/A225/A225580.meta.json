@@ -2,6 +2,7 @@
   "description": "The sum of all substrings of n (including n).",
   "id": "A225580",
   "mentions": [
+    "A055642",
     "A071980",
     "A138953",
     "A154770"

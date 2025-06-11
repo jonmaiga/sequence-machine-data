@@ -1,0 +1,17 @@
+{
+  "description": "2nd diagonal (from right) in A104978.",
+  "id": "A383450",
+  "mentions": [
+    "A104978",
+    "A104987"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

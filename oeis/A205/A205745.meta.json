@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = card { d | d*p = n, d odd, p prime }",
+  "description": "a(n) = card { d | d*p = n, d odd, p prime }.",
   "id": "A205745",
   "mentions": [
     "A000005",

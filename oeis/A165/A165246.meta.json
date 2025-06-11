@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (10^n + 53)/9",
+  "description": "a(n) = (10^n + 53)/9.",
   "id": "A165246",
   "mentions": [],
   "tags": [

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n*4^n - 1, with a(0) = 1.",
   "id": "A060416",
-  "mentions": [],
+  "mentions": [
+    "A003261",
+    "A018215"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals: A(n,k) = n! * [x^n] (1 + k*x)^(n/k).",
+  "id": "A384216",
+  "mentions": [
+    "A282627",
+    "A303489",
+    "A383996",
+    "A383997"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

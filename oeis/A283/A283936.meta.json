@@ -3,12 +3,11 @@
   "id": "A283936",
   "mentions": [],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

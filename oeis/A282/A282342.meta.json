@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest prime number, with sum of digits equals n and a(n) is greater than previous nonzero terms, except if this is not possible in which case a(n)=0",
+  "description": "a(n) is the smallest prime number, with sum of digits equals n and a(n) is greater than previous nonzero terms, except if this is not possible in which case a(n)=0.",
   "id": "A282342",
   "mentions": [
     "A067180"

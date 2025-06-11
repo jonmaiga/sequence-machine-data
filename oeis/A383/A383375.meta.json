@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies [x^n] 1/A(x)^(n+1) = [x^n] 1/A(x)^(2*n+2) for n > 1, with A'(0) = 1.",
+  "id": "A383375",
+  "mentions": [
+    "A383373",
+    "A383374"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

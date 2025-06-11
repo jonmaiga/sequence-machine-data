@@ -1,5 +1,5 @@
 {
-  "description": "Determinant of n X n matrix whose (i,j)-th element is (i+j)^(n-1)",
+  "description": "Determinant of n X n matrix whose (i,j)-th element is (i+j)^(n-1).",
   "id": "A176113",
   "mentions": [
     "A057077",

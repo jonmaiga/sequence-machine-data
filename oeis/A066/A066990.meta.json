@@ -3,9 +3,11 @@
   "id": "A066990",
   "mentions": [
     "A004709",
-    "A046099"
+    "A046099",
+    "A322791"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nice",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 66,
+    "size": 69,
     "source": "oeis-bfile"
   }
 }

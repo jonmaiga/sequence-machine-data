@@ -5,17 +5,15 @@
     "A000225",
     "A000265",
     "A001122",
-    "A006519",
     "A292270",
     "A292939"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

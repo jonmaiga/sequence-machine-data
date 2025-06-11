@@ -1,0 +1,16 @@
+{
+  "description": "The largest nonnegative integer value of j for which each integer n, n+2, ..., j-4, j-2, j can be written as the sum of the squares of the elements of a partition of n.",
+  "id": "A383682",
+  "mentions": [
+    "A381811"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

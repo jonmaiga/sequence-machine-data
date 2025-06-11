@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n with property that n is a peak value in 3x+1 trajectory such that both n+1 and n-1 are prime numbers.",
+  "description": "Numbers k with property that k is a peak value in 3x+1 trajectory such that both k+1 and k-1 are prime numbers.",
   "id": "A095385",
   "mentions": [
+    "A014574",
     "A025586"
   ],
   "tags": [

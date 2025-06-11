@@ -25,11 +25,12 @@
     "A179891"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 56,
     "source": "oeis-entry"
   }
 }

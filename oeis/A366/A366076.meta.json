@@ -1,5 +1,5 @@
 {
-  "description": "The number of primes factors of the largest divisor of n that is a cubefull number (A036966), counted with multiplicity.",
+  "description": "The number of prime factors of the largest divisor of n that is a cubefull number (A036966), counted with multiplicity.",
   "id": "A366076",
   "mentions": [
     "A001222",

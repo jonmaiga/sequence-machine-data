@@ -2,7 +2,9 @@
   "description": "Number of closed chains of identical regular polygons with connecting inner vertices lying n vertices apart.",
   "id": "A366872",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A383168",
+    "A383169"
   ],
   "tags": [
     "formulas",

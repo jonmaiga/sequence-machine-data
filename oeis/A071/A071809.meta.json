@@ -1,14 +1,19 @@
 {
-  "description": "Smallest s such that sk-1 is squarefree for 1 <= k <= n.",
+  "description": "Smallest number s such that s*k-1 is squarefree for 1 <= k <= n.",
   "id": "A071809",
-  "mentions": [],
+  "mentions": [
+    "A005117",
+    "A383546",
+    "A383547",
+    "A383548"
+  ],
   "tags": [
-    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

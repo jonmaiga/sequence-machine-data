@@ -1,13 +1,15 @@
 {
-  "description": "Decimal expansion of s = sum_{i=1..infinity} (1/c(i))^i, where c(i) is the i-th composite number.",
+  "description": "Decimal expansion of s = Sum_{i=1..infinity} (1/c(i))^i, where c(i) is the i-th composite number.",
   "id": "A120483",
-  "mentions": [],
+  "mentions": [
+    "A002808"
+  ],
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 100,
     "source": "oeis-entry"
   }

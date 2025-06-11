@@ -1,5 +1,5 @@
 {
-  "description": "Number of self-complementary Boolean functions of n variables: see Comments for precise definition.",
+  "description": "Number of self-complementary Boolean functions of n variables, up to equivalence under the group (C_2)^n of all 2^n complementations of variables.",
   "id": "A001320",
   "mentions": [
     "A000079",

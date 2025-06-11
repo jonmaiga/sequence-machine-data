@@ -2,7 +2,9 @@
   "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A007947, the squarefree kernel of n.",
   "id": "A318653",
   "mentions": [
+    "A001620",
     "A007947",
+    "A065464",
     "A299150",
     "A317935",
     "A318511",

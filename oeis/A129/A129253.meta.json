@@ -2,9 +2,12 @@
   "description": "Number of numbers not greater than n having at least one divisor p^e with p<=e, p prime.",
   "id": "A129253",
   "mentions": [
-    "A129251"
+    "A129251",
+    "A342023"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

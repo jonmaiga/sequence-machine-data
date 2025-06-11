@@ -1,5 +1,5 @@
 {
-  "description": "Eigentriangle by rows, n terms of (10 * A002535) followed by A002535(n)",
+  "description": "Eigentriangle by rows, n terms of (10 * A002535) followed by A002535(n).",
   "id": "A143970",
   "mentions": [
     "A002535"

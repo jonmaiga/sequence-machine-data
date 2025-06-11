@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: For n, k >= 2 T(n, k) is defined as the exponent of the highest power e of k such that k^e <= n. Otherwise T(n, 0) = n^2 and T(n, 1) = n.",
+  "id": "A383266",
+  "mentions": [
+    "A000196",
+    "A383265"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

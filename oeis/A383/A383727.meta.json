@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of A383726.",
+  "id": "A383727",
+  "mentions": [
+    "A383726"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

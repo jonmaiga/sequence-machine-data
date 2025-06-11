@@ -2,6 +2,7 @@
   "description": "Denominators of continued fraction convergents to zeta(3).",
   "id": "A078985",
   "mentions": [
+    "A002117",
     "A013631",
     "A078984"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 30,
     "source": "joeis"
   }
 }

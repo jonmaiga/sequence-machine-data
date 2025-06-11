@@ -1,5 +1,5 @@
 {
-  "description": "Numbers appearing more then once in A381431 (section-sum partition of prime indices).",
+  "description": "Numbers appearing more than once in A381431 (section-sum partition of prime indices).",
   "id": "A381435",
   "mentions": [
     "A000005",

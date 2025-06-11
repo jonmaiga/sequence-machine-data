@@ -2,15 +2,17 @@
   "description": "Reverse digits of number of partitions of n.",
   "id": "A004089",
   "mentions": [
-    "A000041"
+    "A000041",
+    "A004086"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 50,
     "source": "joeis"
   }
 }

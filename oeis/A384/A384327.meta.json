@@ -1,0 +1,15 @@
+{
+  "description": "Minimal Trips Around The Collatz Galaxy: a(n) is the minimal cycle length containing n. Each step in the cycle must be either to the next larger integer or follow a Collatz trajectory: k -> 3k+1 if k is odd or k -> k/2 if k is even.",
+  "id": "A384327",
+  "mentions": [
+    "A006370"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = pos(M(n)), where M(n) is the n X n left circulant matrix with (row 1) = (1, 2, ... , n), and pos(M(n)) is the positive part of the determinant of M(n); see A380661.",
+  "id": "A383775",
+  "mentions": [
+    "A052182",
+    "A085719",
+    "A380661",
+    "A383772",
+    "A383773",
+    "A383774"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

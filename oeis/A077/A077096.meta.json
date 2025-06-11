@@ -1,16 +1,21 @@
 {
-  "description": "Starting iteration of Phi[]*(Sigma[]-Phi[]) function at these initial values leads to the fixed point 8064.",
+  "description": "Numbers k such that iterating phi(sigma(k)-phi(k)) starting from k leads to the fixed point 8064.",
   "id": "A077096",
   "mentions": [
     "A077090",
-    "A077100"
+    "A077091",
+    "A077092",
+    "A077093",
+    "A077094",
+    "A077095"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

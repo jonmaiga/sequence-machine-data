@@ -1,5 +1,5 @@
 {
-  "description": "Number of edges in the planar Farey Ring graph FR(n) defined in A359116, including the regions bewteen the convex hull and the bounding circle.",
+  "description": "Number of edges in the planar Farey Ring graph FR(n) defined in A359116, including the regions between the convex hull and the bounding circle.",
   "id": "A359118",
   "mentions": [
     "A005728",

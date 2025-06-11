@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the first n decimal digits of Pi contain equal numbers of even and odd decimal digits.",
+  "description": "Numbers m such that the first m decimal digits of Pi contain equal numbers of even and odd decimal digits.",
   "id": "A175813",
   "mentions": [
     "A175792"

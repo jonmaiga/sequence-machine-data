@@ -1,0 +1,18 @@
+{
+  "description": "Square array read by antidiagonals: A(m,n) is the number of 2m-by-2n fers-wazir tours.",
+  "id": "A383153",
+  "mentions": [
+    "A339190",
+    "A383154"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

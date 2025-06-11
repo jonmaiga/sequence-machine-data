@@ -1,7 +1,13 @@
 {
   "description": "Composite numbers k such that the sum of the odd aliquot parts of k divides k.",
   "id": "A066192",
-  "mentions": [],
+  "mentions": [
+    "A000396",
+    "A002808",
+    "A066191",
+    "A091570",
+    "A383428"
+  ],
   "tags": [
     "nonn"
   ],

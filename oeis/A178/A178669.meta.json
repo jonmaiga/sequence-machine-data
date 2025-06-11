@@ -1,5 +1,5 @@
 {
-  "description": "The number of permutations of [n] with 2 cycles of length 2",
+  "description": "The number of permutations of [n] with 2 cycles of length 2.",
   "id": "A178669",
   "mentions": [
     "A000266",

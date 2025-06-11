@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that 7^(7^n) - k is prime.",
+  "id": "A382666",
+  "mentions": [
+    "A058220",
+    "A140331",
+    "A364452",
+    "A364453",
+    "A364454"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

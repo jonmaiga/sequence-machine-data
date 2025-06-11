@@ -1,10 +1,11 @@
 {
-  "description": "a(0)=0, a(1)=2, a(n)=2n+1 for n >= 2.",
+  "description": "a(0) = 0, a(1) = 2, a(n) = 2*n + 1 for n >= 2.",
   "id": "A130773",
   "mentions": [
     "A140139"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

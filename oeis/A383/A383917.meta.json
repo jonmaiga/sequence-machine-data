@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n, k) * (n-k)^(5*n).",
+  "id": "A383917",
+  "mentions": [
+    "A032443",
+    "A209289",
+    "A345876",
+    "A383853",
+    "A383916"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

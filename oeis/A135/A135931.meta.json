@@ -1,13 +1,17 @@
 {
   "description": "Primes whose integer square root is not a prime.",
   "id": "A135931",
-  "mentions": [],
+  "mentions": [
+    "A000196",
+    "A135930"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(n/d) * (-3)^(d-1).",
+  "id": "A383000",
+  "mentions": [
+    "A000010",
+    "A034754",
+    "A343465",
+    "A382995"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

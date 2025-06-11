@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,2,2,0,2 for x=0,1,2,3,4",
+  "description": "Number of nX7 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,2,2,0,2 for x=0,1,2,3,4.",
   "id": "A197647",
   "mentions": [
     "A197648"

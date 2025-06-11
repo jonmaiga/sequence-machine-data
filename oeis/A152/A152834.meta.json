@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of form 6k+1 that use only digits 2 and 3.",
+  "description": "Numbers of the form 6*k+1 that use only digits 2 and 3.",
   "id": "A152834",
   "mentions": [
     "A152824"

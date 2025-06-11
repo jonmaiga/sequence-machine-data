@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of k for which C(n,k) is divisible by n.",
+  "description": "a(n) is the number of k for which binomial(n,k) is divisible by n.",
   "id": "A020475",
   "mentions": [
     "A007012",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 77,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

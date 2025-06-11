@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..4*n} 1/(1 - k*x).",
+  "id": "A383882",
+  "mentions": [
+    "A007820",
+    "A187646",
+    "A217913",
+    "A348084",
+    "A383881",
+    "A384129",
+    "A384130"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

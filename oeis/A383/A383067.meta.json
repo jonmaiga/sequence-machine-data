@@ -1,0 +1,17 @@
+{
+  "description": "The set of positive integers k which can be expressed as a sum of two units in some cyclic cubic field.",
+  "id": "A383067",
+  "mentions": [
+    "A383068"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

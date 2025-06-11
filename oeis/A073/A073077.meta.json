@@ -2,6 +2,8 @@
   "description": "Numbers k that divide C(2k,k) and C(4k,2k).",
   "id": "A073077",
   "mentions": [
+    "A000984",
+    "A001448",
     "A014847"
   ],
   "tags": [
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular nonnegative integer arrays with all sums of an element and its neighbors <= 2",
+  "description": "Number of nXnXn triangular nonnegative integer arrays with all sums of an element and its neighbors <= 2.",
   "id": "A166174",
   "mentions": [],
   "tags": [

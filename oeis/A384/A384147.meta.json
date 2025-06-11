@@ -1,0 +1,21 @@
+{
+  "description": "Array A(n,k) = n*(A(n-1,k)+A(n-2,k)+...+A(n-k,k)), where A(n,k) = n if n <= k, read by antidiagonals with n >= 1 and k >= 1.",
+  "id": "A384147",
+  "mentions": [
+    "A000012",
+    "A000578",
+    "A002024",
+    "A002260",
+    "A080040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

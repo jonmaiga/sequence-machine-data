@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that n^n * (n!/n#) + 1 is prime, where n# = primorial numbers (A034386).",
+  "description": "Numbers k such that k^k * (k!/k#) + 1 is prime, where k# = primorial numbers (A034386).",
   "id": "A108180",
   "mentions": [
     "A034386"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

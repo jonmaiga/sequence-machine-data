@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that d*2^k + 1 is prime for some divisor of k.",
+  "id": "A383473",
+  "mentions": [
+    "A002064",
+    "A005849",
+    "A027750",
+    "A382811"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (8+6*x)/(1-x)^5",
+  "description": "Expansion of (8+6*x)/(1-x)^5.",
   "id": "A190048",
   "mentions": [
     "A000332",

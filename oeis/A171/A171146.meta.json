@@ -1,5 +1,5 @@
 {
-  "description": "The sequence of coefficients of a polynomial recursion: p(x,n)=If[Mod[n, 2] == 0, (x + 1)*p(x, n - 1), (x^2 + (2*n - 1)*x + 1)^Floor[n/2]] ( correction)",
+  "description": "The sequence of coefficients of a polynomial recursion: p(x,n)=If[Mod[n, 2] == 0, (x + 1)*p(x, n - 1), (x^2 + (2*n - 1)*x + 1)^Floor[n/2]] ( correction).",
   "id": "A171146",
   "mentions": [
     "A007318",

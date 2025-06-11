@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct rank vectors of distributive lattices of height n.",
+  "id": "A382829",
+  "mentions": [
+    "A000112",
+    "A006982"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

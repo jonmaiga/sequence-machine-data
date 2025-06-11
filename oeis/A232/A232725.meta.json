@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the concatenation 123456789n is prime.",
+  "description": "Numbers k such that the concatenation 123456789k is prime.",
   "id": "A232725",
   "mentions": [
     "A104914",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock summing to 5 6 or 7",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock summing to 5 6 or 7.",
   "id": "A251381",
   "mentions": [],
   "tags": [

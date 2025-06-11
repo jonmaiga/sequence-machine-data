@@ -2,9 +2,11 @@
   "description": "Number of closed Knight's tours on a 7 X 2n board.",
   "id": "A193054",
   "mentions": [
-    "A175881"
+    "A175881",
+    "A383663"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

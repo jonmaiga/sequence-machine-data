@@ -1,5 +1,5 @@
 {
-  "description": "Tan(x)^2 = sum(n>=0, a(n)*x^(2*n)/(2*n)! ).",
+  "description": "Expansion of e.g.f. tan(x)^2 (even powers only).",
   "id": "A009764",
   "mentions": [
     "A000182",

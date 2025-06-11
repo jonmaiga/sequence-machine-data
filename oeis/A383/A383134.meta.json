@@ -1,0 +1,24 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) is the length of the arithmetic progression of only primes having difference n and first term prime(k).",
+  "id": "A383134",
+  "mentions": [
+    "A000012",
+    "A006512",
+    "A040976",
+    "A054977",
+    "A088430",
+    "A175191",
+    "A206045",
+    "A237453"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

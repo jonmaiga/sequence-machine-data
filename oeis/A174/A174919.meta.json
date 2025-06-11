@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle sequence:q=3;c(n,q)=Product[(1 - q^i), {i, 1, n}]:t(n,m)=1 + Binomial[n, m]^2 + (c(n, q)/(c(m, q)*c(n - m, q)))^2 - 2*Binomial[n, m]*c(n, q)/(c(m, q)*c(n - m, q))",
+  "description": "A symmetrical triangle sequence:q=3;c(n,q)=Product[(1 - q^i), {i, 1, n}]:t(n,m)=1 + Binomial[n, m]^2 + (c(n, q)/(c(m, q)*c(n - m, q)))^2 - 2*Binomial[n, m]*c(n, q)/(c(m, q)*c(n - m, q)).",
   "id": "A174919",
   "mentions": [],
   "tags": [

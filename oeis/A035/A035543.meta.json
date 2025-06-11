@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n with equal number of parts congruent to each of 1 and 2 (mod 4)",
+  "description": "Number of partitions of n with equal number of parts congruent to each of 1 and 2 (mod 4).",
   "id": "A035543",
   "mentions": [],
   "tags": [

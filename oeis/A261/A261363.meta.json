@@ -9,12 +9,13 @@
     "A261366"
   ],
   "tags": [
+    "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 86,
+    "size": 91,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle sequence:q=4;c(n,q)=Product[1 - q^i, {i, 1, n}];t(n,m,q)=-Eulerian[n + 1, m] + 2*c(n, q)/(c(m, q)*c(n - m, q))",
+  "description": "A symmetrical triangle sequence:q=4;c(n,q)=Product[1 - q^i, {i, 1, n}];t(n,m,q)=-Eulerian[n + 1, m] + 2*c(n, q)/(c(m, q)*c(n - m, q)).",
   "id": "A176429",
   "mentions": [],
   "tags": [

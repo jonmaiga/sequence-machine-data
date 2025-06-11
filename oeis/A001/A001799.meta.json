@@ -1,13 +1,16 @@
 {
   "description": "Coefficients of Legendre polynomials.",
   "id": "A001799",
-  "mentions": [],
+  "mentions": [
+    "A001796"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

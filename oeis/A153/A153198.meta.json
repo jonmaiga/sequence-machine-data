@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,k) = A006789(k) if (n=k) otherwise zero. = (A006789 * 0^(n-k))",
+  "description": "Triangle read by rows, T(n,k) = A006789(k) if (n=k) otherwise zero. = (A006789 * 0^(n-k)).",
   "id": "A153198",
   "mentions": [
     "A006789",

@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1+x^2+x^3)/(1-x-x^2-x^4-x^5)",
+  "description": "G.f.: (1+x^2+x^3)/(1-x-x^2-x^4-x^5).",
   "id": "A188223",
   "mentions": [],
   "tags": [

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: For closed chains of j identical regular polygons with connecting inner vertices lying n vertices apart, the n-th row lists the possible j in descending order; n>=0, 1<=k<=d(8+4n).",
+  "id": "A383169",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A366872",
+    "A383168"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,16 @@
   "description": "Binomial transform of Moebius sequence.",
   "id": "A104688",
   "mentions": [
-    "A008683"
+    "A008683",
+    "A124839"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the total sum of the last symbol in all Catalan words of length n avoiding the pattern (>=,>=).",
+  "id": "A382987",
+  "mentions": [
+    "A382988",
+    "A382989",
+    "A382990"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

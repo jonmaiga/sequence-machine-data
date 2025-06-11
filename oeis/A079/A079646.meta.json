@@ -1,15 +1,15 @@
 {
-  "description": "A congruence property: a(p)=(A002893(p)-5)/(4p) where p runs through the primes.",
+  "description": "A congruence property: a(n) = (A248586(p)-5)/(4*p) where p is the n-th prime.",
   "id": "A079646",
   "mentions": [
-    "A002893"
+    "A248586"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

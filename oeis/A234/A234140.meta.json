@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 9",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 9.",
   "id": "A234140",
   "mentions": [],
   "tags": [

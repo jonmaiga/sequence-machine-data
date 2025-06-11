@@ -1,18 +1,20 @@
 {
-  "description": "Numbers n such that the n-th Euler number == 1 (mod n).",
+  "description": "Numbers k such that the k-th Euler number == 1 (mod k).",
   "id": "A081730",
   "mentions": [
+    "A000079",
     "A000364",
     "A035163",
-    "A069042"
+    "A065091",
+    "A069042",
+    "A174090"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

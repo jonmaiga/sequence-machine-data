@@ -2,6 +2,8 @@
   "description": "Decimal expansion of circumference of x^2 + 9 y^2 = 9.",
   "id": "A334848",
   "mentions": [
+    "A093728",
+    "A249491",
     "A333202",
     "A334849"
   ],
@@ -12,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 86,
     "source": "oeis-entry"
   }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that antisigma(n) = antisigma(n+1) + 12; where antisigma(n) = A024816(n).",
+  "description": "Numbers k such that antisigma(k) = antisigma(k+1) + 12; where antisigma(k) = A024816(k).",
   "id": "A227757",
   "mentions": [
     "A024816",

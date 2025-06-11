@@ -1,5 +1,5 @@
 {
-  "description": "Beta polynomials (coefficients in descending order, triangle read by rows)",
+  "description": "Beta polynomials (coefficients in descending order, triangle read by rows).",
   "id": "A177762",
   "mentions": [
     "A000111"

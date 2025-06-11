@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n having no permutation with all equal run-lengths.",
+  "id": "A382915",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A003242",
+    "A047966",
+    "A056239",
+    "A112798",
+    "A238279",
+    "A239455",
+    "A304442",
+    "A329738",
+    "A329739",
+    "A351201",
+    "A351290",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A351596",
+    "A353744",
+    "A353833",
+    "A382773",
+    "A382857",
+    "A382879",
+    "A382914",
+    "A383013"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

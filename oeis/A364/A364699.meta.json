@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 1 + 2^k + 3^k is divisible by 2*k-1",
+  "description": "Numbers k such that 1 + 2^k + 3^k is divisible by 2*k-1.",
   "id": "A364699",
   "mentions": [
     "A001550",

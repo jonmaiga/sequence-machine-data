@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Catalan triangle, based on C(2,2; n) := A064340(n).",
+  "description": "Generalized Catalan triangle, based on C(2,2; n) = A064340(n).",
   "id": "A067298",
   "mentions": [
     "A000108",
@@ -9,17 +9,17 @@
     "A067299",
     "A067300",
     "A067301",
-    "A067302"
+    "A067302",
+    "A067304"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 45,
     "source": "joeis"
   }
 }

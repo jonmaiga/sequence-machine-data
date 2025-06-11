@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular binary arrays with every 1 adjacent to at most 1 other 1",
+  "description": "Number of nXnXn triangular binary arrays with every 1 adjacent to at most 1 other 1.",
   "id": "A192410",
   "mentions": [],
   "tags": [

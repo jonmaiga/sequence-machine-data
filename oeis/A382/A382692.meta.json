@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor of alternating sum of k-th roots of n, with k >= 2.",
+  "id": "A382692",
+  "mentions": [
+    "A000196",
+    "A048766",
+    "A178487",
+    "A178489",
+    "A255270",
+    "A381042",
+    "A382691"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

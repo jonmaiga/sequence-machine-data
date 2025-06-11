@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the area of the biggest little decagon.",
+  "id": "A383173",
+  "mentions": [
+    "A111969",
+    "A381252"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

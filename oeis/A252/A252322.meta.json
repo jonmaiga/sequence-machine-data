@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(1+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 3 or 6",
+  "description": "Number of (n+2)X(1+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 3 or 6.",
   "id": "A252322",
   "mentions": [
     "A252325"

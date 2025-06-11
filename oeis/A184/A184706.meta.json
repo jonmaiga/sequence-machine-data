@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of numbers x(i=1..6) in 0..n with sum i*x(i) equal to n*6",
+  "description": "Number of strings of numbers x(i=1..6) in 0..n with sum i*x(i) equal to n*6.",
   "id": "A184706",
   "mentions": [
     "A184703"

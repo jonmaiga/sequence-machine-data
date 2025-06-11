@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 black square subarrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value 2-x(i,j)",
+  "description": "Number of n X n 0..2 black square subarrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value 2-x(i,j).",
   "id": "A230657",
   "mentions": [
     "A230661"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + 1 with two exceptions: if a(n-1) is prime, a(n) = a(n-2) + a(n-1), or if a(n-1) is a power, a(n) = a(n-1) / (root factor), with initial three terms are 0, 1, 2.",
+  "id": "A379757",
+  "mentions": [
+    "A000045",
+    "A001597",
+    "A089580"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 0..(n-1) with the sum of the maximum of each adjacent pair = n*(n-1)/2 + floor((n-1)^2/8)",
+  "description": "Number of permutations of 0..(n-1) with the sum of the maximum of each adjacent pair = n*(n-1)/2 + floor((n-1)^2/8).",
   "id": "A180154",
   "mentions": [],
   "tags": [

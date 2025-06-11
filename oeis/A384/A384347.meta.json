@@ -1,0 +1,46 @@
+{
+  "description": "Heinz numbers of integer partitions with exactly two possible ways to choose disjoint strict partitions of each part.",
+  "id": "A384347",
+  "mentions": [
+    "A048767",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A179009",
+    "A239455",
+    "A299200",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A357982",
+    "A381432",
+    "A381433",
+    "A382525",
+    "A382771",
+    "A382857",
+    "A382912",
+    "A383533",
+    "A383706",
+    "A383707",
+    "A383708",
+    "A383710",
+    "A383711",
+    "A384317",
+    "A384318",
+    "A384319",
+    "A384320",
+    "A384321",
+    "A384322",
+    "A384323"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of admissable 2-dimensional lattice patterns of type Sigma(2,3,5).",
+  "description": "Number of admissible 2-dimensional lattice patterns of type Sigma(2,3,5).",
   "id": "A220843",
   "mentions": [
     "A220842"

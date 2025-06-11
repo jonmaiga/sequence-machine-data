@@ -1,0 +1,47 @@
+{
+  "description": "Heinz numbers of integer partitions such that it is possible to choose a family of disjoint strict partitions, one of each conjugate part.",
+  "id": "A384010",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A048767",
+    "A048768",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A098859",
+    "A112798",
+    "A122111",
+    "A130091",
+    "A217605",
+    "A239455",
+    "A279375",
+    "A279790",
+    "A299200",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A357982",
+    "A381432",
+    "A381433",
+    "A382525",
+    "A382912",
+    "A383533",
+    "A383706",
+    "A383707",
+    "A383708",
+    "A383710",
+    "A383711",
+    "A384005",
+    "A384011"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

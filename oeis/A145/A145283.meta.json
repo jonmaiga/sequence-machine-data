@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of monomials in n-th power of polynomial x^3-x-1",
+  "description": "a(n) = number of monomials in n-th power of polynomial x^3-x-1.",
   "id": "A145283",
   "mentions": [],
   "tags": [

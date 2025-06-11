@@ -1,7 +1,10 @@
 {
   "description": "Number of non-isomorphic directed graphs reachable by n agents using the ANY protocol.",
   "id": "A318154",
-  "mentions": [],
+  "mentions": [
+    "A307085",
+    "A383386"
+  ],
   "tags": [
     "hard",
     "more",

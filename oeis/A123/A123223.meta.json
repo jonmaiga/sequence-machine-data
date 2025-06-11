@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of ternary Lyndon words of length n with exactly k 1's",
+  "description": "Triangle read by rows: T(n,k) = number of ternary Lyndon words of length n with exactly k 1's.",
   "id": "A123223",
   "mentions": [
     "A001037",

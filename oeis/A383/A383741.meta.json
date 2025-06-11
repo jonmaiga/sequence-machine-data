@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 5; a(n) = Pell(5*n)/Pell(n) for n > 0.",
+  "id": "A383741",
+  "mentions": [
+    "A000129",
+    "A099931",
+    "A383742"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

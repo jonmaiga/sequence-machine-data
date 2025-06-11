@@ -1,5 +1,5 @@
 {
-  "description": "n in base whose place values are a modifed ternary sequence; see Comments.",
+  "description": "n in base whose place values are a modified ternary sequence; see Comments.",
   "id": "A376454",
   "mentions": [
     "A000244",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=0..2*n-1} (3*n+k-2).",
+  "id": "A384300",
+  "mentions": [
+    "A384262",
+    "A384301",
+    "A384302",
+    "A384303"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

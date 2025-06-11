@@ -1,0 +1,27 @@
+{
+  "description": "Numbers of the form A034444(k) * k.",
+  "id": "A383276",
+  "mentions": [
+    "A005087",
+    "A007814",
+    "A034444",
+    "A036438",
+    "A100484",
+    "A138929",
+    "A151821",
+    "A298473",
+    "A383277",
+    "A383278",
+    "A383279"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

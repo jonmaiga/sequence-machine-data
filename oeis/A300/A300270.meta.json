@@ -1,7 +1,10 @@
 {
   "description": "a(n) = Sum_{1 <= i <= j <= n} mu(i*j)*floor((n/i)/j).",
   "id": "A300270",
-  "mentions": [],
+  "mentions": [
+    "A008683",
+    "A174863"
+  ],
   "tags": [
     "formulas",
     "nonn"

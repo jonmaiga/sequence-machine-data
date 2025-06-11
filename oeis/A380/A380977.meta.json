@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,m) (1<=m<=n.) = number of surjections f:[n]->[m] with f(n)!=f(j), j",
+  "description": "Triangle read by rows: T(n,m) (1<=m<=n) = number of surjections f:[n]->[m] with f(n) != f(j), j",
   "id": "A380977",
   "mentions": [
     "A005649",

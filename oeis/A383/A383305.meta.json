@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is number of n-digit nonnegative integers whose difference between the largest and smallest digits is equal to the arithmetic mean of its digits.",
+  "id": "A383305",
+  "mentions": [
+    "A037904",
+    "A054054",
+    "A054055",
+    "A371383",
+    "A371384",
+    "A383304"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

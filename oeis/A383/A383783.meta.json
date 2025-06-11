@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..2^n} mu(k) * (floor(2^n/k)^4 - floor((2^n-1)/k)^4).",
+  "id": "A383783",
+  "mentions": [
+    "A082540",
+    "A344597"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

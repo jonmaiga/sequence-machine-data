@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A114419(n+1)/A114419(n)",
+  "description": "a(n) = A114419(n+1)/A114419(n).",
   "id": "A267095",
   "mentions": [
     "A114419"

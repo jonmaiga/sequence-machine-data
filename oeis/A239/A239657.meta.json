@@ -1,5 +1,5 @@
 {
-  "description": "Number of odd divisors m of n such that d < m < 2*d and d divides n.",
+  "description": "Number of odd divisors m of n such that there is a divisor d of n with d < m < 2*d.",
   "id": "A239657",
   "mentions": [
     "A000203",
@@ -21,7 +21,8 @@
     "A286000",
     "A286001",
     "A296508",
-    "A347186"
+    "A347186",
+    "A383147"
   ],
   "tags": [
     "formulas",

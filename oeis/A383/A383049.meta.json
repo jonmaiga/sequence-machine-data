@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) is the n-th term of the inverse Stirling transform of j-> (j+1)^k.",
+  "id": "A383049",
+  "mentions": [
+    "A019590",
+    "A222627",
+    "A222636",
+    "A222748",
+    "A223023",
+    "A302190",
+    "A362924",
+    "A362925",
+    "A383050",
+    "A383051"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

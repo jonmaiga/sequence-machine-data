@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p + 6, p + 10 and p + 16 are also primes.",
+  "id": "A382810",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A023200",
+    "A031924",
+    "A033451",
+    "A078852",
+    "A078856",
+    "A078858"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

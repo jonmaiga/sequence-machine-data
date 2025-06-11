@@ -1,10 +1,11 @@
 {
-  "description": "Non-palindromic solutions to sigma(Rev(n)) = sigma(n).",
+  "description": "Non-palindromic solutions to sigma(R(n)) = sigma(n), where R = A004086 is digit-reversal.",
   "id": "A085329",
   "mentions": [
     "A000203",
+    "A002113",
     "A004086",
-    "A062895"
+    "A350867"
   ],
   "tags": [
     "base",

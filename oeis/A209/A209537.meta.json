@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n array permutations with every element making zero or one right-handed knight moves (out 2, right 1)",
+  "description": "Number of n X n array permutations with every element making zero or one right-handed knight moves (out 2, right 1).",
   "id": "A209537",
   "mentions": [
     "A209543"

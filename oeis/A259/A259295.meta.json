@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..1 arrays with each 2X2 subblock having clockwise pattern 0001 0101 or 0111",
+  "description": "Number of (n+1)X(6+1) 0..1 arrays with each 2X2 subblock having clockwise pattern 0001 0101 or 0111.",
   "id": "A259295",
   "mentions": [
     "A259297"

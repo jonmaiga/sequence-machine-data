@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-digit fixed points under the Kaprekar map A151949",
+  "description": "Number of n-digit fixed points under the Kaprekar map A151949.",
   "id": "A164733",
   "mentions": [
     "A004526",

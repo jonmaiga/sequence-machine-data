@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k > P(n) - prime(n+1)^2 which is coprime to P(n), where P(n)= A002110(n) are the primorials.",
+  "id": "A382834",
+  "mentions": [
+    "A002110",
+    "A034386",
+    "A054270",
+    "A064819"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

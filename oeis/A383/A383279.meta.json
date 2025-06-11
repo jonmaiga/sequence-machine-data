@@ -1,0 +1,23 @@
+{
+  "description": "The unique solution to x * A034444(x) = A383276(n).",
+  "id": "A383279",
+  "mentions": [
+    "A000265",
+    "A005087",
+    "A007814",
+    "A034444",
+    "A383276",
+    "A383277",
+    "A383278"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

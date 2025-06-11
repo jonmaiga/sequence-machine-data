@@ -1,0 +1,29 @@
+{
+  "description": "Number of polyforms with n cells on the faces of a triakis tetrahedron up to rotation and reflection.",
+  "id": "A383825",
+  "mentions": [
+    "A030135",
+    "A030136",
+    "A333333",
+    "A340635",
+    "A383490",
+    "A383492",
+    "A383494",
+    "A383496",
+    "A383800",
+    "A383802",
+    "A383804",
+    "A383806",
+    "A383826"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

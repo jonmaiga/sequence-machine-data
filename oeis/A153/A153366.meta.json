@@ -1,5 +1,5 @@
 {
-  "description": "Number of zig-zag paths from top to bottom of a rectangle of width 9 with 2n-1 rows whose color is that of the top right corner.",
+  "description": "Number of zig-zag paths from top to bottom of a rectangle of width 9 with 2*n-1 rows whose color is that of the top right corner.",
   "id": "A153366",
   "mentions": [
     "A153362",

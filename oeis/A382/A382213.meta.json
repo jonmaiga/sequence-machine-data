@@ -1,0 +1,21 @@
+{
+  "description": "Largest squarefree number dividing the numerator of harmonic number H(n).",
+  "id": "A382213",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007913",
+    "A007947",
+    "A333196",
+    "A382329"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

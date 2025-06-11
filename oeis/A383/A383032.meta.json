@@ -1,0 +1,25 @@
+{
+  "description": "Exponent of the highest power of 2 dividing the n-th number that is either a square or twice a square.",
+  "id": "A383032",
+  "mentions": [
+    "A001521",
+    "A001954",
+    "A003151",
+    "A003152",
+    "A007814",
+    "A014176",
+    "A028982",
+    "A215247",
+    "A342280"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

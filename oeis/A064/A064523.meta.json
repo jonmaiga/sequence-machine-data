@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that pi(n^2) is a square.",
+  "description": "Numbers m such that pi(m^2) is a square.",
   "id": "A064523",
   "mentions": [
     "A000720",
     "A115835"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

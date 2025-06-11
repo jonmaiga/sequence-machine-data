@@ -1,5 +1,5 @@
 {
-  "description": "Smallest pseudoprimes in ascending bases b of the form pq, where p = (b^k - 1) / (b - 1) and q = (b^k + 1) / (b + 1), both prime, with k a prime less than 100",
+  "description": "Smallest pseudoprimes in ascending bases b of the form pq, where p = (b^k - 1) / (b - 1) and q = (b^k + 1) / (b + 1), both prime, with k a prime less than 100.",
   "id": "A163582",
   "mentions": [
     "A000040",

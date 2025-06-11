@@ -1,5 +1,5 @@
 {
-  "description": "5^p - 3^p - 2^p, where p = prime(n).",
+  "description": "a(n) = 5^p - 3^p - 2^p, where p = prime(n).",
   "id": "A135173",
   "mentions": [
     "A000040",

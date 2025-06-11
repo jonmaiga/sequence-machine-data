@@ -1,0 +1,19 @@
+{
+  "description": "Primes with at least two identical trailing digits and at least two identical leading digits.",
+  "id": "A384015",
+  "mentions": [
+    "A050758",
+    "A383978",
+    "A384013",
+    "A384016"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

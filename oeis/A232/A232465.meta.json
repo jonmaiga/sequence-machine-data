@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{0 < k <= n/2: prime(k) + prime(n-k) - 1 is prime}|",
+  "description": "a(n) = |{0 < k <= n/2: prime(k) + prime(n-k) - 1 is prime}|.",
   "id": "A232465",
   "mentions": [
     "A000040",

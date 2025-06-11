@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum and no two consecutive declines, no adjacent equal elements, and no element more than one greater than the previous (random base sawtooth pattern)",
+  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum and no two consecutive declines, no adjacent equal elements, and no element more than one greater than the previous (random base sawtooth pattern).",
   "id": "A200181",
   "mentions": [
     "A063196"

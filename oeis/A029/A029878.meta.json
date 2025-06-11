@@ -1,5 +1,5 @@
 {
-  "description": "Inverse Euler transform of {A001285(0), A001285(1), ...} where A001285(n) is Thue-Morse sequence,",
+  "description": "Inverse Euler transform of {A001285(0), A001285(1), ...} where A001285(n) is Thue-Morse sequence.",
   "id": "A029878",
   "mentions": [
     "A001285",

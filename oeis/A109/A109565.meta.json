@@ -1,15 +1,20 @@
 {
-  "description": "a(n) = If[Floor[2*Mod[(Prime[n + 1] - Prime[n])*PrimePi[n]/n, 8]] == 11, Prime[n]]",
+  "description": "prime(k) for those k where floor((2*(prime(k+1)-prime(k))*PrimePi(k) mod (8*k))/k) = m with m = 11.",
   "id": "A109565",
   "mentions": [
-    "A001359"
+    "A000040",
+    "A000720",
+    "A001359",
+    "A109556",
+    "A109569"
   ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 13,
+    "offset": 1,
+    "size": 37,
     "source": "joeis"
   }
 }

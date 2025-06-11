@@ -1,5 +1,5 @@
 {
-  "description": "Number of 1..n integer arrays v[1..10] of length 10 with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..9",
+  "description": "Number of 1..n integer arrays v[1..10] of length 10 with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..9.",
   "id": "A171347",
   "mentions": [
     "A171275"

@@ -1,0 +1,15 @@
+{
+  "description": "Third center column of elementary triangular automaton rule 2, starting from a lone 1 cell.",
+  "id": "A383418",
+  "mentions": [
+    "A383417"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

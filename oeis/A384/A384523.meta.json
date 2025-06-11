@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 3/(7 - 4*exp(3*x)).",
+  "id": "A384523",
+  "mentions": [
+    "A094419",
+    "A384514",
+    "A384521",
+    "A384522",
+    "A384524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

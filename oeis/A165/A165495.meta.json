@@ -1,5 +1,5 @@
 {
-  "description": "First result not divisible by 4 when iterating k -> k+tau(k) from 2(2n-1)^2",
+  "description": "First result not divisible by 4 when iterating k -> k+tau(k) from 2(2n-1)^2.",
   "id": "A165495",
   "mentions": [
     "A064491",

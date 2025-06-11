@@ -1,15 +1,17 @@
 {
-  "description": "Number of reduced binary quadratic forms of discriminant -n.",
+  "description": "Number of positive definite reduced binary quadratic forms of discriminant -A014601(n).",
   "id": "A006371",
   "mentions": [
-    "A006374"
+    "A006374",
+    "A014601"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
+    "offset": 1,
     "size": 82,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

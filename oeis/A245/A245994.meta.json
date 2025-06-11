@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+2 0..7 arrays with no pair in any consecutive three terms totalling exactly 7",
+  "description": "Number of length n+2 0..7 arrays with no pair in any consecutive three terms totalling exactly 7.",
   "id": "A245994",
   "mentions": [
     "A245995"

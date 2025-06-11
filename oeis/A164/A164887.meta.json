@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number that leads to a new fixed point under the base-2 Kaprekar map of A164884",
+  "description": "a(n) = smallest number that leads to a new fixed point under the base-2 Kaprekar map of A164884.",
   "id": "A164887",
   "mentions": [
     "A151964",

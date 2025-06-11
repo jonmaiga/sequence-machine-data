@@ -1,7 +1,11 @@
 {
   "description": "Minimum sum of a nonnegative integer triple that takes n moves to reach a 0 component, where a move picks two components, subtracts the smaller from the larger, and doubles the smaller.",
   "id": "A256001",
-  "mentions": [],
+  "mentions": [
+    "A383586",
+    "A383587",
+    "A383588"
+  ],
   "tags": [
     "more",
     "nonn"

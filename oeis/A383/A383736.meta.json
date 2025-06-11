@@ -1,0 +1,21 @@
+{
+  "description": "Cluster series for percolation on polyominoid cells.",
+  "id": "A383736",
+  "mentions": [
+    "A005914",
+    "A075678",
+    "A075679",
+    "A366768",
+    "A383735",
+    "A383737"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

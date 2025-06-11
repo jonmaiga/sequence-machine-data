@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having the sum of distinct prime factors not greater than the sum of exponents in prime factorization, A008472(n)<=A001222(n).",
+  "description": "Numbers having the sum of distinct prime factors not greater than the sum of exponents in prime factorization, A008472(k) <= A001222(k).",
   "id": "A068936",
   "mentions": [
     "A001222",
@@ -7,7 +7,9 @@
     "A054411",
     "A068935",
     "A068937",
-    "A068938"
+    "A068938",
+    "A100716",
+    "A257278"
   ],
   "tags": [
     "nonn"
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

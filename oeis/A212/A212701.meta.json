@@ -2,7 +2,10 @@
   "description": "Main transitions in systems of n particles with spin 3.",
   "id": "A212701",
   "mentions": [
+    "A000420",
     "A001787",
+    "A008588",
+    "A027473",
     "A212697",
     "A212698",
     "A212699",
@@ -18,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "joeis"
   }
 }

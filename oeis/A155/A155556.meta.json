@@ -1,5 +1,5 @@
 {
-  "description": "Multi-bifurcating recursion of a factorial type based on the Eulerian numbers A008292 as a triangle sequence: t(n,k)=Sum[(-1)^j Binomial[n + 1, j](k + 1 - j)^n, {j, 0, k + 1}]; f(n, m) = If[m <= Floor[n/2], f(m, 1)*f(n - m, 1)*t(n + 1, m)];",
+  "description": "Multi-bifurcating recursion of a factorial type based on the Eulerian numbers A008292 as a triangle sequence: t(n,k) = Sum_{j=0..k+1} (-1)^j * binomial(n + 1, j)*(k + 1 - j)^n; f(n, m) = If[m <= floor(n/2), f(m, 1)*f(n - m, 1)*t(n + 1, m)].",
   "id": "A155556",
   "mentions": [
     "A008292"

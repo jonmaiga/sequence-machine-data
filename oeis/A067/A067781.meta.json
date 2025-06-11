@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that phi(n) and sigma(n) are simultaneously perfect squares.",
+  "description": "Numbers k such that phi(k) and sigma(k) are both perfect squares.",
   "id": "A067781",
   "mentions": [
+    "A000010",
+    "A000203",
     "A006532",
     "A011257",
     "A039770"
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

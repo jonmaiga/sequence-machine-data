@@ -1,5 +1,5 @@
 {
-  "description": "Number of bicolored graphs on 2n unlabled nodes without isolated nodes and which are invariant when the two color classes are interchanged.",
+  "description": "Number of bicolored graphs on 2n unlabeled nodes without isolated nodes and which are invariant when the two color classes are interchanged.",
   "id": "A319155",
   "mentions": [
     "A007140",

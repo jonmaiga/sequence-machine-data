@@ -1,0 +1,36 @@
+{
+  "description": "The number of integers k from 1 to n such that the greatest divisor of k that is a unitary divisor of n is a powerful number.",
+  "id": "A384050",
+  "mentions": [
+    "A000010",
+    "A001694",
+    "A047994",
+    "A055231",
+    "A057521",
+    "A330596",
+    "A384039",
+    "A384046",
+    "A384047",
+    "A384048",
+    "A384049",
+    "A384051",
+    "A384052",
+    "A384053",
+    "A384054",
+    "A384055",
+    "A384056",
+    "A384057",
+    "A384058"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

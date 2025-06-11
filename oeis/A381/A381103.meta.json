@@ -1,0 +1,20 @@
+{
+  "description": "Number of permissible general positions in three-dimensional space groups obeying the crystallographic restriction theorem.",
+  "id": "A381103",
+  "mentions": [
+    "A004028",
+    "A004029",
+    "A006227",
+    "A323383"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

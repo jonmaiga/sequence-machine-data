@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (35*10^n-71)/9",
+  "description": "Primes of the form (35*10^n-71)/9.",
   "id": "A177465",
   "mentions": [
     "A102978"

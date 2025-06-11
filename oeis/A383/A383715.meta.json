@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) = (-1)^floor((k+1)/2) * A099927(n,k).",
+  "id": "A383715",
+  "mentions": [
+    "A055870",
+    "A099927"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,17 @@
 {
-  "description": "Array read by antidiagonals: T(n,k)=number of permutations p() of 1..n+k with centered difference p(i+1)-p(i-1) < 0 exactly k-1 times",
+  "description": "Array read by antidiagonals: T(n,k)=number of permutations p() of 1..n+k with centered difference p(i+1)-p(i-1) < 0 exactly k-1 times.",
   "id": "A180887",
   "mentions": [
-    "A000892"
+    "A000892",
+    "A001405",
+    "A180879",
+    "A180880",
+    "A180881",
+    "A180882",
+    "A180883",
+    "A180884",
+    "A180885",
+    "A180886"
   ],
   "tags": [
     "nonn",

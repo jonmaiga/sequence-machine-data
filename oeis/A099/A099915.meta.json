@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+4x)/((1-x)(1-10x)).",
+  "description": "Expansion of g.f. (1+4*x)/((1-x)*(1-10*x)).",
   "id": "A099915",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

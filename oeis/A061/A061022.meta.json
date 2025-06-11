@@ -2,6 +2,7 @@
   "description": "Primes of the form abbbbb... where a and b are digits.",
   "id": "A061022",
   "mentions": [
+    "A034845",
     "A062353"
   ],
   "tags": [

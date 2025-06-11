@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..3 arrays of length n+13 with sum less than 21 in any length 14 subsequence (=less than 50% duty cycle)",
+  "description": "Number of 0..3 arrays of length n+13 with sum less than 21 in any length 14 subsequence (=less than 50% duty cycle).",
   "id": "A213463",
   "mentions": [
     "A213464"

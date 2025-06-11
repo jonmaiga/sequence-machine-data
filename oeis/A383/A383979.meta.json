@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n-digit terms in A383978.",
+  "id": "A383979",
+  "mentions": [
+    "A383978",
+    "A384014",
+    "A384016"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number that takes n steps to reach 1 under iteration of sum-of-cubes-of-digits map.",
+  "id": "A383646",
+  "mentions": [
+    "A001273",
+    "A007770",
+    "A035504"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

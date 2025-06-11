@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 2*binomial(n+4, 4) + n + 4.",
   "id": "A177206",
-  "mentions": [],
+  "mentions": [
+    "A290447"
+  ],
   "tags": [
     "easy",
     "formulas",

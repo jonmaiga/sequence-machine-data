@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the multiple prime zeta value p[2, 1].",
+  "id": "A382636",
+  "mentions": [
+    "A085541",
+    "A085548",
+    "A085965",
+    "A382234",
+    "A382235",
+    "A382236",
+    "A382634",
+    "A382635",
+    "A382637"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

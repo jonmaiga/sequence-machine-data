@@ -1,0 +1,17 @@
+{
+  "description": "Number of uniform step magic squares of order 2*n+1.",
+  "id": "A384560",
+  "mentions": [
+    "A126709",
+    "A217568"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

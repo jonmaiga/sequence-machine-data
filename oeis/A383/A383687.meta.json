@@ -1,0 +1,22 @@
+{
+  "description": "Disjunctive union of A383685 and A383686.",
+  "id": "A383687",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A010888",
+    "A383681",
+    "A383685",
+    "A383686"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

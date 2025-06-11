@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x)*(exp(x) - 1)*(exp(x) - x - 1)^2.",
+  "id": "A384374",
+  "mentions": [
+    "A000478"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

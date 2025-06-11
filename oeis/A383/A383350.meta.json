@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest integer k such that there are k+i groups of order a(n)+i, for i=1,...,n.",
+  "id": "A383350",
+  "mentions": [
+    "A000001",
+    "A373648",
+    "A373649",
+    "A373650",
+    "A381335"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/998001.",
+  "id": "A384627",
+  "mentions": [
+    "A021085",
+    "A034948"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

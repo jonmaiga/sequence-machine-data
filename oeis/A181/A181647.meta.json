@@ -18,11 +18,12 @@
     "A015883"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

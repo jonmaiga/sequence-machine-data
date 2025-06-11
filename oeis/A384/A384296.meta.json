@@ -1,0 +1,19 @@
+{
+  "description": "Square numbers whose iterative sums of digits are squares.",
+  "id": "A384296",
+  "mentions": [
+    "A004159",
+    "A053057",
+    "A070027",
+    "A117676"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

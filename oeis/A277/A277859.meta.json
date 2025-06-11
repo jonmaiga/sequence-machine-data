@@ -1,5 +1,5 @@
 {
-  "description": "Least k > 1 such that 1^(k-1) + 2^(k-1) + 3^(k-1) + … + (k-1)^(k-1) - n == 0 (mod k)",
+  "description": "Least k > 1 such that 1^(k-1) + 2^(k-1) + 3^(k-1) + … + (k-1)^(k-1) - n == 0 (mod k).",
   "id": "A277859",
   "mentions": [
     "A045326",

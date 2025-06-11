@@ -1,5 +1,5 @@
 {
-  "description": "Eighth diagonal a(n) = s(n,n-7) of the unsigned Stirling numbers of the first kind with n>7",
+  "description": "Eighth diagonal a(n) = s(n,n-7) of the unsigned Stirling numbers of the first kind with n>7.",
   "id": "A191685",
   "mentions": [
     "A000012",

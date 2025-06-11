@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n such that it is possible to choose a family of pairwise disjoint strict integer partitions, one of each part.",
+  "id": "A383708",
+  "mentions": [
+    "A044813",
+    "A047966",
+    "A048767",
+    "A048768",
+    "A089259",
+    "A091602",
+    "A098859",
+    "A116540",
+    "A130091",
+    "A217605",
+    "A239455",
+    "A242882",
+    "A317141",
+    "A351013",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A381432",
+    "A381433",
+    "A381441",
+    "A382771",
+    "A382912",
+    "A382913",
+    "A383013",
+    "A383533",
+    "A383706",
+    "A383710",
+    "A383711"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

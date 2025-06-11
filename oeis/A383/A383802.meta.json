@@ -1,0 +1,29 @@
+{
+  "description": "Number of polyforms with n cells on the faces of a tetrakis hexahedron up to rotation and reflection.",
+  "id": "A383802",
+  "mentions": [
+    "A030135",
+    "A030136",
+    "A197465",
+    "A333333",
+    "A340635",
+    "A383490",
+    "A383492",
+    "A383494",
+    "A383496",
+    "A383800",
+    "A383803",
+    "A383804",
+    "A383806"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

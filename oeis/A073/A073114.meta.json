@@ -1,14 +1,16 @@
 {
-  "description": "Number of permutations p from (1,2,3,...,n) to (1,2,3,...,n) such that 1*p(1) + 2*p(2) + 3*p(3) + ... + n*p(n) is prime.",
+  "description": "Number of permutations p of [n] such that 1*p(1) + 2*p(2) + 3*p(3) + ... + n*p(n) is prime.",
   "id": "A073114",
-  "mentions": [],
+  "mentions": [
+    "A073111"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
+    "offset": 0,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

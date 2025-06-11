@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients of shifted Chebyshev's S(n,x-2)= U(n,x/2-1) polynomials (exponents of x in decreasing order).",
+  "description": "Triangle of coefficients of shifted Chebyshev's S(n,x-2) = U(n,x/2-1) polynomials (exponents of x in decreasing order).",
   "id": "A053123",
   "mentions": [
     "A000012",

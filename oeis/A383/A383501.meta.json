@@ -1,0 +1,26 @@
+{
+  "description": "Nonnegative integers without the digit 9 such that every odd digit except the leftmost is immediately preceded by a larger digit.",
+  "id": "A383501",
+  "mentions": [
+    "A377912",
+    "A382465",
+    "A382624",
+    "A382935",
+    "A382938",
+    "A383062",
+    "A383246",
+    "A383248",
+    "A383250",
+    "A383500"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-exp(x))/(1+x^2-exp(x))=sum(n>=0, a(n)*x^n/n!^2)",
+  "description": "Expansion of (1-exp(x))/(1+x^2-exp(x))=sum(n>=0, a(n)*x^n/n!^2).",
   "id": "A191594",
   "mentions": [],
   "tags": [

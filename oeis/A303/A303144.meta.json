@@ -2,16 +2,18 @@
   "description": "Number of minimum total dominating sets in the n X n white bishop graph.",
   "id": "A303144",
   "mentions": [
+    "A004523",
     "A303141",
-    "A303229"
+    "A303147",
+    "A303229",
+    "A321673"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

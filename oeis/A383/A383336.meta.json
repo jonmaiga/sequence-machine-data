@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number with shortest addition-multiplication-exponentiation chain of length n.",
+  "id": "A383336",
+  "mentions": [
+    "A003064",
+    "A173566",
+    "A383001",
+    "A383142",
+    "A383335",
+    "A383337"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

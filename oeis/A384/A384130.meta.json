@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of 4*n objects with exactly 3*n cycles.",
+  "id": "A384130",
+  "mentions": [
+    "A132393",
+    "A187646",
+    "A242676",
+    "A383881",
+    "A383882",
+    "A384129"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

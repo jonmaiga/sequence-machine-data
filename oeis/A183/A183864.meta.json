@@ -1,5 +1,5 @@
 {
-  "description": "n+floor(sqrt(5*n/3)); complement of A183865.",
+  "description": "a(n) = n + floor(sqrt(5*n/3)); complement of A183865.",
   "id": "A183864",
   "mentions": [
     "A183865"

@@ -2,7 +2,8 @@
   "description": "Possible differences between adjacent palindromes.",
   "id": "A104459",
   "mentions": [
-    "A002113"
+    "A002113",
+    "A109868"
   ],
   "tags": [
     "base",

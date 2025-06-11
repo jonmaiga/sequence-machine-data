@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-node Stanley graphs containing exactly k isolated points, n>=0, 0<=k<=n.",
+  "id": "A383655",
+  "mentions": [
+    "A135922",
+    "A323841",
+    "A323842"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Pisano period of Hexanacci numbers (A001592) mod n.",
+  "id": "A381508",
+  "mentions": [
+    "A001175",
+    "A001592"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

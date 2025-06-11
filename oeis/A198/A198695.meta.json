@@ -1,11 +1,12 @@
 {
-  "description": "11*4^n-1",
+  "description": "a(n) = 11*4^n - 1.",
   "id": "A198695",
   "mentions": [
     "A024056",
     "A097743",
     "A114569",
-    "A156760"
+    "A156760",
+    "A199211"
   ],
   "tags": [
     "easy",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

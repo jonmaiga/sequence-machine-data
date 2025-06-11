@@ -2,9 +2,14 @@
   "description": "Least k such that n+1 is the n-th divisor of k.",
   "id": "A256605",
   "mentions": [
+    "A003418",
+    "A007917",
+    "A221647",
     "A225562"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

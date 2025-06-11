@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] Product_{k=0..n-1} (1 + k*x)^n.",
+  "id": "A384089",
+  "mentions": [
+    "A342111",
+    "A351507",
+    "A384018",
+    "A384029"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

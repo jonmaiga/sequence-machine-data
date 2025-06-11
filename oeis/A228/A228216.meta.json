@@ -1,5 +1,5 @@
 {
-  "description": "Number of second differences of arrays of length n+2 of numbers in 0..6",
+  "description": "Number of second differences of arrays of length n+2 of numbers in 0..6.",
   "id": "A228216",
   "mentions": [
     "A228218"

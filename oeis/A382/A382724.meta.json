@@ -1,0 +1,19 @@
+{
+  "description": "Number of entries in the n-th row of Pascal's triangle not divisible by 6.",
+  "id": "A382724",
+  "mentions": [
+    "A001316",
+    "A006047",
+    "A194459",
+    "A382720",
+    "A382725"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A(x/A(x)) = sqrt( A(x)/(1-x) ).",
+  "id": "A383373",
+  "mentions": [
+    "A383374",
+    "A383375"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

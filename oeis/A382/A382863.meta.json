@@ -1,0 +1,14 @@
+{
+  "description": "a(2*k-1) and a(2*k) are a pair of prime numbers where 9*a(2*k-1) and 8*a(2*k) are neighboring integers.",
+  "id": "A382863",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

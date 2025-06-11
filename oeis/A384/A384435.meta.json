@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 2/(5 - 3*exp(2*x)).",
+  "id": "A384435",
+  "mentions": [
+    "A032033",
+    "A094417",
+    "A201366",
+    "A326324",
+    "A328182",
+    "A382753",
+    "A384522"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

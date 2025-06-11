@@ -1,0 +1,19 @@
+{
+  "description": "Primes prime(k) followed by a gap, prime(k+1)-prime(k), smaller than the local geometric average gap between consecutive primes: log(prime(k))/e^(gamma).",
+  "id": "A381044",
+  "mentions": [
+    "A001223",
+    "A001359",
+    "A001620",
+    "A046869"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

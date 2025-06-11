@@ -1,5 +1,5 @@
 {
-  "description": "Sum of gcd(k,n) from k = 1 to n over \"regular\" integers only (an integer k is regular if there is an x such that k^2 x == k (mod n))",
+  "description": "Sum of gcd(k,n) from k = 1 to n over \"regular\" integers only (an integer k is regular if there is an x such that k^2 x == k (mod n)).",
   "id": "A176345",
   "mentions": [
     "A000027",

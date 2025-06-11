@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. log(1 + x)/(1 - 3*x).",
+  "id": "A384199",
+  "mentions": [
+    "A024167",
+    "A069015",
+    "A383897"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

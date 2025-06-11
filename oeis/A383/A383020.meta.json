@@ -1,0 +1,16 @@
+{
+  "description": "G(n) is a graph constructed with nodes labelled with integers n through n+a(n). Edges are drawn between consecutive integers and between integers sharing the same largest prime factor. a(n) is the smallest integer for which G(n) is not planar.",
+  "id": "A383020",
+  "mentions": [
+    "A006530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of Grassmannian permutations on [n] of order dividing 3.",
+  "id": "A382819",
+  "mentions": [
+    "A000325",
+    "A001470"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

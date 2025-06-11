@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 23*n^2 + 1 is prime.",
+  "description": "Numbers k such that 23*k^2 + 1 is prime.",
   "id": "A110959",
   "mentions": [],
   "tags": [

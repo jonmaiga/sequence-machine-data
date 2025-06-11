@@ -1,5 +1,5 @@
 {
-  "description": "Lucky numbers (A000959) which are congruent to 3 mod 4",
+  "description": "Lucky numbers (A000959) which are congruent to 3 mod 4.",
   "id": "A137170",
   "mentions": [
     "A000959",

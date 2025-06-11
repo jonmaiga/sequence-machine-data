@@ -1,13 +1,17 @@
 {
   "description": "Number of permutations of 2 copies of 1..n with all adjacent differences <= 8 in absolute value.",
   "id": "A177289",
-  "mentions": [],
+  "mentions": [
+    "A000680"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 11,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

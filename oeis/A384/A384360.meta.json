@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k*(k+1)*(k+2)/6 * x)^((1/192) * (3/4)^k).",
+  "id": "A384360",
+  "mentions": [
+    "A384364"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

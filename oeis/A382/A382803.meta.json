@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers m such that phi(m) and phi(m+1) are both powers of 2.",
+  "id": "A382803",
+  "mentions": [
+    "A000010",
+    "A000215",
+    "A003401",
+    "A019434",
+    "A051179",
+    "A382519"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

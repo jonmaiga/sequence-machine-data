@@ -1,5 +1,5 @@
 {
-  "description": "Least prime factor of (2n+1)^(2n+1)+2",
+  "description": "Least prime factor of (2n+1)^(2n+1)+2.",
   "id": "A228613",
   "mentions": [
     "A160360",

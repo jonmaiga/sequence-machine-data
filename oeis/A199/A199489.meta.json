@@ -1,7 +1,11 @@
 {
-  "description": "(11*7^n+1)/6.",
+  "description": "a(n) = (11*7^n + 1)/6.",
   "id": "A199489",
-  "mentions": [],
+  "mentions": [
+    "A199490",
+    "A199491",
+    "A199492"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Smallest squarefree order m > 0 for which there are n nonisomorphic finite groups of order m, or 0 if no such order exists.",
+  "id": "A384146",
+  "mentions": [
+    "A046057"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

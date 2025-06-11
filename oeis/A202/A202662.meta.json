@@ -1,5 +1,5 @@
 {
-  "description": "Number of -6..6 arrays of n elements with first through fourth differences also in -6..6",
+  "description": "Number of -6..6 arrays of n elements with first through fourth differences also in -6..6.",
   "id": "A202662",
   "mentions": [
     "A202664"

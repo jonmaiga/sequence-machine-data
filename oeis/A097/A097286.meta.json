@@ -1,8 +1,9 @@
 {
-  "description": "Rectangular array T by antidiagonals: T(n,k) = rank of k-th n in A097285.",
+  "description": "Rectangular array T by descending antidiagonals: T(n,k) = rank of k-th n in A097285.",
   "id": "A097286",
   "mentions": [
     "A002061",
+    "A014206",
     "A097285"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 71,
+    "size": 78,
     "source": "oeis-entry"
   }
 }

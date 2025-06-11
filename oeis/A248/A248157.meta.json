@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1 - 2*x^2)/(1 + x)^2. First column of Riordan triangle A248156.",
+  "description": "Expansion of (1 - 2*x^2)/(1 + x)^2.",
   "id": "A248157",
   "mentions": [
     "A038608",

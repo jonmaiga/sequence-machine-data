@@ -1,9 +1,11 @@
 {
-  "description": "Primes p_i such that p_i + 2^i is also prime.",
+  "description": "Primes prime(k) such that 2^k + prime(k) is also prime.",
   "id": "A242944",
   "mentions": [
     "A008578",
     "A056206",
+    "A077375",
+    "A078583",
     "A078686",
     "A243428"
   ],
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-bfile"
+    "size": 28,
+    "source": "oeis-entry"
   }
 }

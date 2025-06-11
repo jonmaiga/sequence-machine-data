@@ -1,8 +1,9 @@
 {
-  "description": "Additional unit squares completely encircled in the first quadrant of a Cartesian grid by a circle centered at the origin as the radius squared increases from one sum of two square integers to the next larger sum of two square integers.",
+  "description": "Number of additional unit squares completely encircled in the first quadrant of a Cartesian grid by a circle centered at the origin as the radius squared increases from one sum of two square integers to the next larger sum of two square integers.",
   "id": "A229904",
   "mentions": [
     "A000404",
+    "A014465",
     "A024517",
     "A232499"
   ],

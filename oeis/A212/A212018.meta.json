@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n^3 is the sum of two or more consecutive integer squares.",
+  "description": "Integers m such that m^3 is the sum of two or more consecutive integer squares.",
   "id": "A212018",
   "mentions": [
     "A062861",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

@@ -10,8 +10,8 @@
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

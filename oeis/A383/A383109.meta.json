@@ -1,0 +1,13 @@
+{
+  "description": "Consider the isosceles triangle whose vertices are the Gaussian integers z1=0, z2 = x+i*y, z3=x-i*y. The sequence lists the pairs of positive integer foci (f_i, f_j), f_i < f_j of Steiner inellipse for some z2, z3.",
+  "id": "A383109",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k circular arrays x(0..n+1) of n+2 elements with zero sums of x(i) and x(i)*x((i+1) mod (n+2))",
+  "description": "T(n,k)=Number of -k..k circular arrays x(0..n+1) of n+2 elements with zero sums of x(i) and x(i)*x((i+1) mod (n+2)).",
   "id": "A202006",
   "mentions": [],
   "tags": [

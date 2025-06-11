@@ -1,14 +1,18 @@
 {
-  "description": "Primes of the form n^3 - n + 1.",
+  "description": "Primes of the form k^3 - k + 1.",
   "id": "A100698",
-  "mentions": [],
+  "mentions": [
+    "A061600",
+    "A236477"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 37,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*tau(n)>4*prime(n).",
+  "description": "Numbers k such that k*tau(k)>4*prime(k).",
   "id": "A068546",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

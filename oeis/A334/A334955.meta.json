@@ -1,5 +1,5 @@
 {
-  "description": "Number of 1's in n-th string when A000002 is expressed as 1,2,2,11,21,221,22112,11221211,21221121121,2212211212212112,",
+  "description": "Number of 1's in n-th string when A000002 is expressed as 1, 2, 2, 11, 21, 221, 22112, 11221211, 21221121121, 2212211212212112, ....",
   "id": "A334955",
   "mentions": [
     "A000002"

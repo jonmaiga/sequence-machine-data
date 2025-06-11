@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form (m^(p^2) - 1)/(m^p - 1) with prime p and integer m >= 2.",
+  "id": "A383925",
+  "mentions": [
+    "A383923",
+    "A383924",
+    "A383926"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

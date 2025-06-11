@@ -1,7 +1,8 @@
 {
-  "description": "Values of n such that 2*n+1 and 5*n+1 are both triangular numbers.",
+  "description": "Values of k such that 2*k+1 and 5*k+1 are both triangular numbers.",
   "id": "A274579",
   "mentions": [
+    "A000217",
     "A074377",
     "A085787",
     "A124174"

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of exp(8*G/Pi)*((1 - exp(-Pi/2))/(1 + exp(-Pi/2)))^2, where G is Catalan's constant (A006752).",
+  "id": "A383851",
+  "mentions": [
+    "A006752",
+    "A049006",
+    "A377753"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of times the smallest prime factor of n is a factor in all numbers <=n; a(1)=1.",
+  "description": "Number of times the smallest prime factor of n is a factor in all numbers <= n; a(1) = 1.",
   "id": "A078896",
   "mentions": [
     "A000961",
@@ -8,6 +8,7 @@
     "A078898"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

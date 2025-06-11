@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with every 3X3 subblock row and column sum equal to 0 1 3 6 or 7 and every 3X3 diagonal and antidiagonal sum not equal to 0 1 3 6 or 7",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with every 3X3 subblock row and column sum equal to 0 1 3 6 or 7 and every 3X3 diagonal and antidiagonal sum not equal to 0 1 3 6 or 7.",
   "id": "A252192",
   "mentions": [],
   "tags": [

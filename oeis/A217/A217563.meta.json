@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangular array read by rows. T(n,k) is the number of weakly connected relations on n labeled nodes with k arcs. (n>=0, 0<=k<=n^2)",
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of weakly connected relations on n labeled nodes with k arcs. (n>=0, 0<=k<=n^2).",
   "id": "A217563",
   "mentions": [
     "A062735",

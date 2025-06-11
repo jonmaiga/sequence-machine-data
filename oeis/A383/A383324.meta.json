@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = round(3^n/5).",
+  "id": "A383324",
+  "mentions": [
+    "A178543"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

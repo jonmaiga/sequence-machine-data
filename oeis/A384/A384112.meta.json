@@ -1,0 +1,28 @@
+{
+  "description": "Number of connected components of n faces of the snub dodecahedron up to the 60 rotations of the snub dodecahedron.",
+  "id": "A384112",
+  "mentions": [
+    "A384067",
+    "A384068",
+    "A384069",
+    "A384070",
+    "A384071",
+    "A384072",
+    "A384104",
+    "A384107",
+    "A384108",
+    "A384109",
+    "A384110",
+    "A384111"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Number of lakes in Conway's Game of Life with 8*n cells.",
   "id": "A156228",
   "mentions": [
-    "A019473"
+    "A019473",
+    "A266549",
+    "A337550"
   ],
   "tags": [
     "hard",

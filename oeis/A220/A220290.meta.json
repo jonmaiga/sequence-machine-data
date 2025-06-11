@@ -1,0 +1,23 @@
+{
+  "description": "4-hyperperfect numbers: n = 4*(sigma(n)-n-1) + 1.",
+  "id": "A220290",
+  "mentions": [
+    "A000396",
+    "A007593",
+    "A028499",
+    "A028502",
+    "A034916",
+    "A059613"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

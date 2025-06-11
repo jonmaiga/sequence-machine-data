@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A071324(n) - A000010(n).",
+  "id": "A382545",
+  "mentions": [
+    "A000010",
+    "A071324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

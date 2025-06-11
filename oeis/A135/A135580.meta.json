@@ -1,9 +1,14 @@
 {
   "description": "Largest prime visible as a substring of 10n+3.",
   "id": "A135580",
-  "mentions": [],
+  "mentions": [
+    "A017305",
+    "A030431",
+    "A047814"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

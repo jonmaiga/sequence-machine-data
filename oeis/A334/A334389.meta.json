@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of [a(n) reversed] and [a(n+1) reversed] is a palindrome in base 10 (terms ending in zero permitted)",
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of [a(n) reversed] and [a(n+1) reversed] is a palindrome in base 10 (terms ending in zero permitted).",
   "id": "A334389",
   "mentions": [
     "A228730"

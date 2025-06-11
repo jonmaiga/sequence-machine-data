@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any horizontal or antidiagonal neighbor (colorings ignoring permutations of colors)",
+  "description": "Number of nX3 nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any horizontal or antidiagonal neighbor (colorings ignoring permutations of colors).",
   "id": "A208297",
   "mentions": [
     "A208301"

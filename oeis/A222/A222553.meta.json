@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+6)X1 arrays of occupancy after each element moves up to +-6 places but not 0",
+  "description": "Number of (n+6)X1 arrays of occupancy after each element moves up to +-6 places but not 0.",
   "id": "A222553",
   "mentions": [
     "A222555"

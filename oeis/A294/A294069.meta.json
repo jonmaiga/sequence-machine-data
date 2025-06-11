@@ -1,5 +1,5 @@
 {
-  "description": "The smallest digit of a(n+1) is strictly smaller than the largest digit of a(n)",
+  "description": "The smallest digit of a(n+1) is strictly smaller than the largest digit of a(n).",
   "id": "A294069",
   "mentions": [
     "A002283",

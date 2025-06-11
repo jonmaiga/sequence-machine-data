@@ -1,5 +1,5 @@
 {
-  "description": "A variation on 10^n mod 19",
+  "description": "A variation on 10^n mod 19.",
   "id": "A155754",
   "mentions": [
     "A033940",

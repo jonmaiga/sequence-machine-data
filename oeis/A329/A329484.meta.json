@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of the Louiville function with itself.",
+  "description": "Dirichlet convolution of the Liouville function with itself.",
   "id": "A329484",
   "mentions": [
     "A000005",

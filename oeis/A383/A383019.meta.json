@@ -1,0 +1,17 @@
+{
+  "description": "Triangle T(n,k) read by rows (n >= 0, k >= 0) with g.f. 1/(1 - f(0)*x - x*y/(1 - f(1)*x - x*y/(1 - f(2)*x - x*y/(1 - f(3)*x - x*y/(1 - f(4)*x - x*y/(1 - ...)))))) where f(n) = n + 1 for n >= 0.",
+  "id": "A383019",
+  "mentions": [
+    "A302285"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

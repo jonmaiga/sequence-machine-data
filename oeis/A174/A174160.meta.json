@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangular sequence:t(n,m)=2*Eulerian[n, m - 1] - (Binomial[n - 1, m - 1]*Binomial[n, m - 1]/m)^2",
+  "description": "A symmetrical triangular sequence:t(n,m)=2*Eulerian[n, m - 1] - (Binomial[n - 1, m - 1]*Binomial[n, m - 1]/m)^2.",
   "id": "A174160",
   "mentions": [
     "A001263",

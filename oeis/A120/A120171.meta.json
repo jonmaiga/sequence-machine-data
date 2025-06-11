@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2 + floor((1 + Sum_{j=1..n-1} a(j))/5)",
+  "description": "a(n) = 2 + floor((1 + Sum_{j=1..n-1} a(j))/5).",
   "id": "A120171",
   "mentions": [
     "A072493",

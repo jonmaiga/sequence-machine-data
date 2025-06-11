@@ -1,5 +1,5 @@
 {
-  "description": "Number of zero-sum -3..3 arrays of n elements with adjacent element differences also in -3..3",
+  "description": "Number of zero-sum -3..3 arrays of n elements with adjacent element differences also in -3..3.",
   "id": "A202247",
   "mentions": [
     "A202252"

@@ -7,12 +7,12 @@
   "tags": [
     "formulas",
     "sign",
-    "tabl",
+    "tabf",
     "uned"
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
+    "size": 64,
     "source": "oeis-entry"
   }
 }

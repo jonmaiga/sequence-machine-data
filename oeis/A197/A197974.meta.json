@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling((n+1/5)^n)",
+  "description": "Ceiling((n+1/5)^n).",
   "id": "A197974",
   "mentions": [
     "A014058",

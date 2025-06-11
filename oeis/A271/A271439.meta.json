@@ -1,5 +1,5 @@
 {
-  "description": "If n is a triangular number, a(n) = 0, otherwise a(n) = n - A002024(n) + 1",
+  "description": "If n is a triangular number, a(n) = 0, otherwise a(n) = n - A002024(n) + 1.",
   "id": "A271439",
   "mentions": [
     "A000217",

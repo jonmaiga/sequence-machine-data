@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*n^n - (n-1)(n-1)^n.",
+  "description": "a(n) = n*n^n - (n-1)*(n-1)^n.",
   "id": "A085283",
   "mentions": [
     "A007778",

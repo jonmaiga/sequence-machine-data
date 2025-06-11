@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows T(n,k): number of undirected cycles of length k in the n-antiprism graph (n = 3...; k = 3..2n)",
+  "description": "Triangle read by rows T(n,k): number of undirected cycles of length k in the n-antiprism graph (n = 3...; k = 3..2n).",
   "id": "A296542",
   "mentions": [],
   "tags": [

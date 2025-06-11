@@ -1,0 +1,19 @@
+{
+  "description": "Number of weak compositions of n such that the set of adjacent differences is a subset of {-1,1}.",
+  "id": "A383620",
+  "mentions": [
+    "A007318",
+    "A173258",
+    "A214247",
+    "A214249",
+    "A227310"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

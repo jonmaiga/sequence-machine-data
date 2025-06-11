@@ -1,0 +1,15 @@
+{
+  "description": "Number of rich ternary words of length n.",
+  "id": "A384371",
+  "mentions": [
+    "A216264"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of compositions [p(1), p(2), ..., p(k)] of n such that p(j) != p(j-2)",
+  "description": "Number of compositions [p(1), p(2), ..., p(k)] of n such that p(j) != p(j-2).",
   "id": "A224958",
   "mentions": [
     "A000726",

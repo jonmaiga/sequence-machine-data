@@ -1,14 +1,17 @@
 {
   "description": "Number of minimal total dominating sets in the n X n rook graph.",
   "id": "A347921",
-  "mentions": [],
+  "mentions": [
+    "A303208",
+    "A303211",
+    "A384118"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

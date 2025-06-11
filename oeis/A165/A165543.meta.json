@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of length n which avoid the patterns 3241 and 4321.",
+  "description": "Number of permutations of length n which avoid both the patterns 3241 and 4321. Or, equivalently, avoids both 1234 and 1342.",
   "id": "A165543",
   "mentions": [
     "A000108",

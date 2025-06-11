@@ -1,5 +1,5 @@
 {
-  "description": "Number of steps until the RADD sequence T(k+1) = n + R(T(k)), T(0) = 1, enters a cycle; -1 if no cycle is ever reached. (R=A004086: reverse digits)",
+  "description": "Number of steps until the RADD sequence T(k+1) = n + R(T(k)), T(0) = 1, enters a cycle; -1 if no cycle is ever reached. (R=A004086: reverse digits).",
   "id": "A117816",
   "mentions": [
     "A004086",

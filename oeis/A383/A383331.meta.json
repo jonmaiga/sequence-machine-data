@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs of nonnegative integers, not both equal to 0, with a shortest vectorial addition chain of length n.",
+  "id": "A383331",
+  "mentions": [
+    "A003065",
+    "A383330",
+    "A383332",
+    "A383333"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

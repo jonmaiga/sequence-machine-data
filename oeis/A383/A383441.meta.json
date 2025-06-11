@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the total of iterations needed in the binary GCD algorithm to compute gcd(n, k) for k = 0..n. The corresponding row of gcds is row n of A109004.",
+  "id": "A383441",
+  "mentions": [
+    "A000265",
+    "A109004"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X6 0..2 arrays with no 2X2 subblock having sum 4",
+  "description": "Half the number of (n+1)X6 0..2 arrays with no 2X2 subblock having sum 4.",
   "id": "A183788",
   "mentions": [
     "A183792"

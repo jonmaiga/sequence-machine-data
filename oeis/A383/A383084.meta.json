@@ -1,0 +1,19 @@
+{
+  "description": "The number of points in the Euclidean plane that can be determined via a straightedge-and-compass construction using n or fewer lines and circles.",
+  "id": "A383084",
+  "mentions": [
+    "A333944",
+    "A383082",
+    "A383085"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

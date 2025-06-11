@@ -1,17 +1,17 @@
 {
-  "description": "Numbers n such that the number of perfect partitions of n is > cototient(n).",
+  "description": "Numbers k such that the number of ordered factorizations of k is > cototient(k).",
   "id": "A078347",
   "mentions": [
     "A002033",
-    "A051953"
+    "A051953",
+    "A074206"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

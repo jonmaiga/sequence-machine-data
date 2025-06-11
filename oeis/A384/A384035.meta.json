@@ -1,0 +1,22 @@
+{
+  "description": "Number of vector differences between two permutations of order n, up to multiplication by positive rational numbers and permutations of the components.",
+  "id": "A384035",
+  "mentions": [
+    "A019589",
+    "A175176",
+    "A362968",
+    "A381243",
+    "A381244",
+    "A381339"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array pos(i,j,1,2)) read by descending antidiagonals: pos( ) and neg() denote the positive part and negative part of a determinant; see Comments.",
+  "description": "Rectangular array pos(i,j,1,2) read by descending antidiagonals: pos( ) and neg() denote the positive part and negative part of a determinant; see Comments.",
   "id": "A380660",
   "mentions": [
     "A000027",

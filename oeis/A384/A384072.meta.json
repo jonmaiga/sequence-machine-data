@@ -1,0 +1,24 @@
+{
+  "description": "Number of connected components of n faces of the snub cube up to the 24 rotations of the snub cube.",
+  "id": "A384072",
+  "mentions": [
+    "A309159",
+    "A383808",
+    "A383908",
+    "A384067",
+    "A384068",
+    "A384069",
+    "A384070",
+    "A384071"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

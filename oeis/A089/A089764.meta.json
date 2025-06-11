@@ -2,7 +2,8 @@
   "description": "Primes of the form k! followed by a 1.",
   "id": "A089764",
   "mentions": [
-    "A089765"
+    "A089765",
+    "A126896"
   ],
   "tags": [
     "base",

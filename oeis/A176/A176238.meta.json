@@ -1,5 +1,5 @@
 {
-  "description": "Natural numbers n such that d(d(n)+1) > 2",
+  "description": "Natural numbers n such that d(d(n)+1) > 2.",
   "id": "A176238",
   "mentions": [
     "A000005",

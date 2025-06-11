@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing -n..n vectors of length 5 whose dot product with some other -n..n vector equals 5",
+  "description": "Number of nondecreasing -n..n vectors of length 5 whose dot product with some other -n..n vector equals 5.",
   "id": "A226344",
   "mentions": [
     "A226340"

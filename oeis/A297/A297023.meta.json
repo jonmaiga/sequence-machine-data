@@ -1,5 +1,5 @@
 {
-  "description": "The number of distinct solutions of the maximum size in A072842 (i.e. size = A072842(n))",
+  "description": "The number of distinct solutions of the maximum size in A072842 (i.e. size = A072842(n)).",
   "id": "A297023",
   "mentions": [
     "A072842"

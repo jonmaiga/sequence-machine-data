@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: Sprague-Grundy values for the game NimHof with 4 rules [1,0], [1,1], [1,2], [0,1],",
+  "description": "Array read by antidiagonals: Sprague-Grundy values for the game NimHof with 4 rules [1,0], [1,1], [1,2], [0,1].",
   "id": "A307299",
   "mentions": [
     "A003987",

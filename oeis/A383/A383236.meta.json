@@ -1,0 +1,18 @@
+{
+  "description": "The least number of applications of Ackermann-Péter functions to reach n, starting from 0.",
+  "id": "A383236",
+  "mentions": [
+    "A143796",
+    "A368423"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

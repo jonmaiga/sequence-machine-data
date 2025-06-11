@@ -1,7 +1,9 @@
 {
   "description": "G.f. satisfies: A(x - x*A(x) - x*A(x)^2) = x.",
   "id": "A195440",
-  "mentions": [],
+  "mentions": [
+    "A000108"
+  ],
   "tags": [
     "nonn"
   ],

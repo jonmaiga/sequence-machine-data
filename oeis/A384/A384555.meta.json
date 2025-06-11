@@ -1,0 +1,23 @@
+{
+  "description": "The largest infinitary divisor of n that is cubefree.",
+  "id": "A384555",
+  "mentions": [
+    "A004709",
+    "A007948",
+    "A013666",
+    "A077609",
+    "A368883",
+    "A384554"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

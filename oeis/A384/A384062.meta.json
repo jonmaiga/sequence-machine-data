@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal antichains in the Bruhat order of type A_n.",
+  "id": "A384062",
+  "mentions": [
+    "A000142",
+    "A005130",
+    "A384061"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n*k,k) * n^k.",
+  "id": "A383132",
+  "mentions": [
+    "A084771",
+    "A187021",
+    "A331656",
+    "A340971",
+    "A383120",
+    "A383133"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

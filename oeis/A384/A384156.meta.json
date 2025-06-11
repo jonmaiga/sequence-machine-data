@@ -1,0 +1,20 @@
+{
+  "description": "Number of group Schur rings of the cyclic group Z_n.",
+  "id": "A384156",
+  "mentions": [
+    "A112951",
+    "A270785",
+    "A270786",
+    "A270787",
+    "A270789"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

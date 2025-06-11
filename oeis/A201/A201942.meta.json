@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the number x satisfying log(x)=e^(-x)",
+  "description": "Decimal expansion of the number x satisfying log(x)=e^(-x).",
   "id": "A201942",
   "mentions": [
     "A076903"

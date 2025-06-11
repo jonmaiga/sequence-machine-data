@@ -1,0 +1,24 @@
+{
+  "description": "Number of polyforms with n cells on the faces of a disdyakis triacontahedron up to rotation and reflection.",
+  "id": "A383496",
+  "mentions": [
+    "A030135",
+    "A030136",
+    "A197462",
+    "A340635",
+    "A383490",
+    "A383492",
+    "A383494",
+    "A383497"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

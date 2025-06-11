@@ -1,5 +1,5 @@
 {
-  "description": "a(n)= Number of 5 X 5 permutation matrices with trace n and determinant -1",
+  "description": "a(n)= Number of 5 X 5 permutation matrices with trace n and determinant -1.",
   "id": "A171908",
   "mentions": [
     "A171806",

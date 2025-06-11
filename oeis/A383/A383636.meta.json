@@ -1,0 +1,17 @@
+{
+  "description": "Integers k such that there is no prime of the form x*y+1 with x+y=k.",
+  "id": "A383636",
+  "mentions": [
+    "A026728",
+    "A109905"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of factors L(i) > 1 of A274281(n), where L = A000032 (Lucas numbers, 2,1,3,4,..., with 1 excluded)",
+  "description": "Number of factors L(i) > 1 of A274281(n), where L = A000032 (Lucas numbers, 2,1,3,4,..., with 1 excluded).",
   "id": "A274354",
   "mentions": [
     "A000032",

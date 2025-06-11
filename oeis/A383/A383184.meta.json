@@ -1,0 +1,19 @@
+{
+  "description": "Diamond spiral numbers of the grid points visited by a king always moving to the unvisited point labeled with the smallest possible prime or else composite number.",
+  "id": "A383184",
+  "mentions": [
+    "A305258",
+    "A383183"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

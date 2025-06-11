@@ -9,12 +9,13 @@
     "A272662"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

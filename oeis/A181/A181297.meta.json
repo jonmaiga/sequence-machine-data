@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of 2-compositions of n having k even entries (0<=k<=n) A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "description": "Triangle read by rows: T(n,k) is the number of 2-compositions of n having k even entries (0<=k<=n).",
   "id": "A181297",
   "mentions": [
     "A000045",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest possible value of m corresponding to A177763(n)",
+  "description": "a(n) = smallest possible value of m corresponding to A177763(n).",
   "id": "A177764",
   "mentions": [
     "A152412",

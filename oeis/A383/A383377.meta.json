@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = Sum_{n>=0} x^n * abs(1/A(x)^n), where abs(F(x)) equals the series expansion formed by the unsigned coefficients in F(x).",
+  "id": "A383377",
+  "mentions": [
+    "A000108",
+    "A382122"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

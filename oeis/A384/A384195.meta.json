@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = tau(n+1) - tau(n-1), where tau(n) = A000005(n), the number of divisors of n.",
+  "id": "A384195",
+  "mentions": [
+    "A000005",
+    "A051950",
+    "A051951",
+    "A067888"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

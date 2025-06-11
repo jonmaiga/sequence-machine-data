@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of abs(n-8)/(2*n), n >= 1",
+  "description": "Denominators of abs(n-8)/(2*n), n >= 1.",
   "id": "A232625",
   "mentions": [
     "A055034",

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/( Product_{k=0..3} (1 + (-1)^k * (2*k+1) * x) ).",
+  "id": "A381853",
+  "mentions": [
+    "A383624"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

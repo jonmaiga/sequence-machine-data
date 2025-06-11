@@ -2,7 +2,9 @@
   "description": "Triangle T(n,k) read by rows whose n-th row is the lexicographically first n-tuple of ordered positive integers with sum A380887(n) and product A380887(n) * 100^(n-1).",
   "id": "A381187",
   "mentions": [
-    "A380887"
+    "A380887",
+    "A382547",
+    "A383026"
   ],
   "tags": [
     "nonn",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-bfile"
+    "source": "oeis-entry"
   }
 }

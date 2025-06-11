@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator 131075*s mod 2^27 when started at s=1.",
+  "id": "A384373",
+  "mentions": [
+    "A096550",
+    "A096561"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

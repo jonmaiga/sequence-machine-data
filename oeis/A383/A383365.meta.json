@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with a record number of proper divisors, where all of them have binary weights that are different from the binary weight of k.",
+  "id": "A383365",
+  "mentions": [
+    "A000120",
+    "A032741",
+    "A380844",
+    "A383363",
+    "A383364"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

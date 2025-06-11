@@ -2,7 +2,9 @@
   "description": "Sum of primes between successive cubes of primes.",
   "id": "A175662",
   "mentions": [
-    "A175037"
+    "A030078",
+    "A175037",
+    "A365767"
   ],
   "tags": [
     "formulas",

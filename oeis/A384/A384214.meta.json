@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a gyroelongated square cupola with unit edge.",
+  "id": "A384214",
+  "mentions": [
+    "A002193",
+    "A010466",
+    "A179587",
+    "A179638",
+    "A384142",
+    "A384215"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

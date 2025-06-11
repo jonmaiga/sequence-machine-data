@@ -1,5 +1,5 @@
 {
-  "description": "The number of numerical sets S with atom monoid A(S) equal to {0,n+1,n+2,n+3,n+4,...}",
+  "description": "The number of numerical sets S with atom monoid A(S) equal to {0,n+1,n+2,n+3,n+4,...}.",
   "id": "A158291",
   "mentions": [
     "A066062"

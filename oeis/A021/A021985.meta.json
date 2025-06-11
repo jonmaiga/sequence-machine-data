@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 1/981.",
   "id": "A021985",
-  "mentions": [],
+  "mentions": [
+    "A021085"
+  ],
   "tags": [
     "cons",
+    "easy",
     "nonn"
   ],
   "terms": {

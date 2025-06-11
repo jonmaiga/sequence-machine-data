@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k for which A276086(A006530(k-1)) divides A276086(k), where A006530 gives the largest prime factor of k, and A276086 is the primorial base exp-function.",
+  "id": "A383297",
+  "mentions": [
+    "A006530",
+    "A276086",
+    "A383296"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

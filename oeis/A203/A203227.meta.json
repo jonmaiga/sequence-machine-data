@@ -1,5 +1,5 @@
 {
-  "description": "(n-1)-st elementary symmetric function of (0!,...,(n-1)!)",
+  "description": "(n-1)-st elementary symmetric function of (0!,...,(n-1)!).",
   "id": "A203227",
   "mentions": [
     "A000142",

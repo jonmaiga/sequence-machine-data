@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals, where the n-th row is the coordination sequence of a certain tiling with an n-dimensional analog of the X pentomino (or Greek cross), n >= 1.",
+  "id": "A383338",
+  "mentions": [
+    "A005897",
+    "A007980",
+    "A008574",
+    "A040000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4*5^n+1.",
+  "description": "a(n) = 4*5^n + 1.",
   "id": "A199215",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

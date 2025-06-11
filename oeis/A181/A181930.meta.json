@@ -1,9 +1,11 @@
 {
-  "description": "Table T(d,n), where T(d,n)/lcm(1..d) gives the probability that d is the n-th divisor of an integer.",
+  "description": "Triangle T(d,k), where T(d,k)/lcm(1..d) gives the probability that d is the k-th divisor of an integer.",
   "id": "A181930",
   "mentions": [
     "A000005",
-    "A003418"
+    "A003418",
+    "A027750",
+    "A281890"
   ],
   "tags": [
     "formulas",

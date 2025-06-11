@@ -1,14 +1,17 @@
 {
   "description": "a(n) = 3*(25*n + 1).",
   "id": "A097802",
-  "mentions": [],
+  "mentions": [
+    "A158060"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 48,
     "source": "joeis"
   }
 }

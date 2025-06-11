@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that tau(n)^2 > phi(n).",
+  "description": "Numbers k such that tau(k)^2 > phi(k).",
   "id": "A068577",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A000010"
+  ],
   "tags": [
     "easy",
     "fini",

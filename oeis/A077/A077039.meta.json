@@ -1,5 +1,5 @@
 {
-  "description": "Sums of first n signatured primes (A073579).",
+  "description": "Partial sums of A073579.",
   "id": "A077039",
   "mentions": [
     "A000040",

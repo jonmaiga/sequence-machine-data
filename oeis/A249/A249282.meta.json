@@ -2,6 +2,8 @@
   "description": "Decimal expansion of K(1/4), where K is the complete elliptic integral of the first kind.",
   "id": "A249282",
   "mentions": [
+    "A000796",
+    "A084895",
     "A093341",
     "A249283"
   ],

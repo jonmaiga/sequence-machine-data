@@ -1,7 +1,9 @@
 {
   "description": "Special values of Hermite polynomials.",
   "id": "A197355",
-  "mentions": [],
+  "mentions": [
+    "A079949"
+  ],
   "tags": [
     "formulas",
     "nonn"

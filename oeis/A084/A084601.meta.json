@@ -1,9 +1,10 @@
 {
-  "description": "Coefficients of 1/(1-2x-7x^2)^(1/2); also, a(n) is the central coefficient of (1+x+2x^2)^n.",
+  "description": "Coefficients of 1/(1-2*x-7*x^2)^(1/2); also, a(n) is the central coefficient of (1+x+2*x^2)^n.",
   "id": "A084601",
   "mentions": [
     "A001906",
     "A002426",
+    "A007318",
     "A027907",
     "A036442",
     "A084600",

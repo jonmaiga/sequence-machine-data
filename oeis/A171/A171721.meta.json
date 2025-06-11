@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient expansion of: f(t,y)=((1 + y)/y - Exp[t/2])/(-1 + y*Exp[t])",
+  "description": "Coefficient expansion of: f(t,y)=((1 + y)/y - Exp[t/2])/(-1 + y*Exp[t]).",
   "id": "A171721",
   "mentions": [],
   "tags": [

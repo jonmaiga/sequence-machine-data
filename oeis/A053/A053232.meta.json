@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which values not equal to 2 occur in the expansion of A053230.",
+  "description": "Numbers for which values not equal to 2 occur in the expansion of A053230.",
   "id": "A053232",
   "mentions": [
     "A000203",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^3 * 2^(n-k) * binomial(n,k).",
+  "id": "A383137",
+  "mentions": [
+    "A027471",
+    "A383136",
+    "A383138",
+    "A383139"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

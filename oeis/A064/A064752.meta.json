@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n*6^n - 1.",
   "id": "A064752",
-  "mentions": [],
+  "mentions": [
+    "A003261",
+    "A036292"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

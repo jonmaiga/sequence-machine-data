@@ -1,9 +1,7 @@
 {
-  "description": "A triangle of structure called \"Polynomial on residue classes\" (PORC) in 1960 by Higman from Britt Witty's Ph.D. thesis.",
+  "description": "A triangle of structure called \"Polynomial on residue classes\" (PORC).",
   "id": "A158106",
-  "mentions": [
-    "A158079"
-  ],
+  "mentions": [],
   "tags": [
     "nonn",
     "tabl",

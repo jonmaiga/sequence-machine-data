@@ -1,5 +1,5 @@
 {
-  "description": "Sequence A154696 adjusted to leading one:t(n,m)=A154696(n,m)-A154696(n,0)+1",
+  "description": "Sequence A154696 adjusted to leading one:t(n,m)=A154696(n,m)-A154696(n,0)+1.",
   "id": "A174675",
   "mentions": [
     "A154690",

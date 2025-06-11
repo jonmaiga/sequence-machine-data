@@ -1,0 +1,19 @@
+{
+  "description": "Record values in A383543.",
+  "id": "A383545",
+  "mentions": [
+    "A071808",
+    "A383543",
+    "A383544",
+    "A383548"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

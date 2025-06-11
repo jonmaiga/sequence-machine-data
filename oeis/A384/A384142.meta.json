@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of a gyroelongated square bipyramid with unit edge.",
+  "id": "A384142",
+  "mentions": [
+    "A002193",
+    "A010474",
+    "A010502",
+    "A179638"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

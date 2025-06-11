@@ -1,14 +1,18 @@
 {
-  "description": "Primes of the form n^3+6.",
+  "description": "Primes of the form k^3 + 6.",
   "id": "A201308",
-  "mentions": [],
+  "mentions": [
+    "A073574",
+    "A084382"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 30,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals: row m (m >= 1) satisfies b(0) = b(1) = 1; b(n) = m*b(n-1) + b(n-2):",
+  "description": "Square array read by antidiagonals: row m (m >= 1) satisfies b(0) = b(1) = 1; b(n) = m*b(n-1) + b(n-2).",
   "id": "A135597",
   "mentions": [
     "A000045",

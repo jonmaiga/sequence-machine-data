@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(-3*x) / (1-x)^5.",
+  "id": "A383382",
+  "mentions": [
+    "A001909",
+    "A010843",
+    "A137775",
+    "A383378",
+    "A383381",
+    "A383383",
+    "A383384"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

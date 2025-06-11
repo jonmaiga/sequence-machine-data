@@ -1,7 +1,9 @@
 {
   "description": "Unsigned sum of a triple diagonal product of Stirling numbers of the first kind.",
   "id": "A192569",
-  "mentions": [],
+  "mentions": [
+    "A192568"
+  ],
   "tags": [
     "formulas",
     "nonn"

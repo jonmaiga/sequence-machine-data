@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers k such that 2^(k+2) - 1 is divisible by k.",
+  "id": "A381010",
+  "mentions": [
+    "A000225",
+    "A055685",
+    "A069927",
+    "A187787"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

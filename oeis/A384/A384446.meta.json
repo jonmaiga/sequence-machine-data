@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = |gcd(n, k) - k|.",
+  "id": "A384446",
+  "mentions": [
+    "A002262",
+    "A109004",
+    "A372727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

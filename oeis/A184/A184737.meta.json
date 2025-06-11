@@ -1,5 +1,5 @@
 {
-  "description": "floor(n*s+h-h*s), where s=-1+2^(3/2), h=-1/2; complement of A184736.",
+  "description": "a(n) = floor(n*s+h-h*s), where s=-1+2^(3/2), h=-1/2; complement of A184736.",
   "id": "A184737",
   "mentions": [
     "A184736"

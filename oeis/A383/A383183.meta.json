@@ -1,0 +1,22 @@
+{
+  "description": "Square spiral numbers of the n-th grid point visited by a king always moving to the unvisited point labeled with the smallest possible prime or else composite number.",
+  "id": "A383183",
+  "mentions": [
+    "A010051",
+    "A316328",
+    "A335856",
+    "A383184",
+    "A383185"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "description": "Where MU-numbers (cf. A007335) occur in A003589 (3-smooth numbers).",
+  "description": "Where MU-numbers (cf. A007335) occur in A003586 (3-smooth numbers).",
   "id": "A261255",
   "mentions": [
     "A003586",
-    "A003589",
     "A007335"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

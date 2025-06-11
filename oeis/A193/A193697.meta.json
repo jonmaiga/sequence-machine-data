@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of -3..3 integers x(1..n) with every x(i) in a subsequence of length 1, 2 or 3 with sum zero",
+  "description": "Number of arrays of -3..3 integers x(1..n) with every x(i) in a subsequence of length 1, 2 or 3 with sum zero.",
   "id": "A193697",
   "mentions": [
     "A193702"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

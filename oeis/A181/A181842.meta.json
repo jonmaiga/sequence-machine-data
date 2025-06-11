@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = Sum_{c in partition(n,n-k+1)} lcm(c)",
+  "description": "Triangle read by rows: T(n,k) = Sum_{c in partition(n,n-k+1)} lcm(c).",
   "id": "A181842",
   "mentions": [
     "A007318",

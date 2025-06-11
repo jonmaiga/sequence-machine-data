@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least positive integer y such that y^2 = x^3 + x + n^2 for some positive integer x, or 0 if no such y exists.",
+  "id": "A384101",
+  "mentions": [
+    "A384100"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

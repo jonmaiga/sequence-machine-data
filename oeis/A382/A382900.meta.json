@@ -1,0 +1,18 @@
+{
+  "description": "Composites whose prime factors are not all Mersenne primes.",
+  "id": "A382900",
+  "mentions": [
+    "A000668",
+    "A002808",
+    "A056652",
+    "A348839"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

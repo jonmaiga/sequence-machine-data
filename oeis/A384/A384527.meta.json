@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p + 6, p + 12, p + 14, p + 20 and p + 26 are also primes.",
+  "id": "A384527",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A023241",
+    "A140565"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

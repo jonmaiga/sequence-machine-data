@@ -2,7 +2,10 @@
   "description": "Numbers k such that tau(k) = tau(2k+1).",
   "id": "A074821",
   "mentions": [
-    "A001542"
+    "A000005",
+    "A001542",
+    "A005384",
+    "A099774"
   ],
   "tags": [
     "nonn"

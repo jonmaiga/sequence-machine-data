@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of iterations that n requires to reach 1 under the x -> A380891(x) map, or -1 if it never does.",
+  "id": "A383135",
+  "mentions": [
+    "A006577",
+    "A380891",
+    "A381246"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

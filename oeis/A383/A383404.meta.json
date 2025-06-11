@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes formed from the reflected decimal expansion of the golden ratio phi.",
+  "id": "A383404",
+  "mentions": [
+    "A001622",
+    "A002113",
+    "A002385",
+    "A039954",
+    "A135699",
+    "A135700"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,8 @@
 {
-  "description": "Numbers of the form p*(p+(2n-1))/2 created with smallest primes of form p=2^x-(2n-1)=A096522(n). Here the exponent equals x=A096502[n], the least exponent providing this kind of primes. Peculiarity of the present terms is as follows: Mod[sigma[a(n)],a[n]]=2*n.",
+  "description": "a(n) = p*(p+(2n-1))/2, where p = A096822(n) is the smallest primes of form 2^x-(2n-1).",
   "id": "A096823",
   "mentions": [
     "A096502",
-    "A096522",
     "A096821",
     "A096822"
   ],

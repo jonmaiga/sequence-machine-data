@@ -2,17 +2,19 @@
   "description": "The term in A377091 that immediately precedes n, or 0 if n does not appear in A377091.",
   "id": "A382715",
   "mentions": [
-    "A377019",
     "A377091",
     "A379059",
-    "A382716"
+    "A379789",
+    "A382716",
+    "A382717",
+    "A382718"
   ],
   "tags": [
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 83,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

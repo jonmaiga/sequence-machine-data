@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 5*(1-6*x+x^2)/(1-10*x+5*x^2)",
+  "description": "Expansion of 5*(1-6*x+x^2)/(1-10*x+5*x^2).",
   "id": "A189317",
   "mentions": [
     "A189315",

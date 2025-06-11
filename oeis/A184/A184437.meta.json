@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of numbers x(i=1..n) in 0..5 with sum i*x(i)^2 equal to n*25",
+  "description": "Number of strings of numbers x(i=1..n) in 0..5 with sum i*x(i)^2 equal to n*25.",
   "id": "A184437",
   "mentions": [
     "A184441"

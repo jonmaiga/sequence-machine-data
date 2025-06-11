@@ -6,10 +6,11 @@
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 44,
     "source": "oeis-bfile"
   }

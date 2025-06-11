@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. -log(1 + log(1 - 2*x)/2)^3 / 6.",
+  "id": "A383172",
+  "mentions": [
+    "A341588",
+    "A383164",
+    "A383170",
+    "A383171"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

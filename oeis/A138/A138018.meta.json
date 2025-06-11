@@ -2,6 +2,7 @@
   "description": "Sum of consecutives primes p and q where p == 3 mod (10) and q == 7 mod (10).",
   "id": "A138018",
   "mentions": [
+    "A001043",
     "A135557"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 46,
     "source": "oeis-entry"
   }
 }

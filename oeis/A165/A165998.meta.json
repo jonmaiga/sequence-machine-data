@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of Taylor series expansion of 1/(3*x)*log((1+x)/(1-x)^2)",
+  "description": "Denominators of Taylor series expansion of 1/(3*x)*log((1+x)/(1-x)^2).",
   "id": "A165998",
   "mentions": [
     "A005408",

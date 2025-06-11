@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} A382883(d)*(n/d).",
+  "id": "A383124",
+  "mentions": [
+    "A000010",
+    "A047994",
+    "A152958",
+    "A382883",
+    "A383104"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

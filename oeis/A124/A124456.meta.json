@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which divide the sum of the Fibonacci numbers F(1) through F(n) and such that n is not a multiple of 24.",
+  "description": "Numbers k which divide the sum of the Fibonacci numbers F(1) through F(k) and such that k is not a multiple of 24.",
   "id": "A124456",
   "mentions": [
     "A000045",

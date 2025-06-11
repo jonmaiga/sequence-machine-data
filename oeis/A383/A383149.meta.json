@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) = (-1)^k * [m^k] (1/2^(m-n)) * Sum_{k=0..m} k^n * (-1)^m * 3^(m-k) * binomial(m,k).",
+  "id": "A383149",
+  "mentions": [
+    "A000007",
+    "A001787",
+    "A122704",
+    "A123227",
+    "A129062",
+    "A178987",
+    "A209849",
+    "A383140",
+    "A383150",
+    "A383151",
+    "A383152",
+    "A383155",
+    "A383163",
+    "A383164"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

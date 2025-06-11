@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of ways to write prime(n) as a sum of distinct composites.",
+  "id": "A381251",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A053872",
+    "A071904",
+    "A204389",
+    "A383037"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

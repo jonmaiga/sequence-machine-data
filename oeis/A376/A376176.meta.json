@@ -1,7 +1,8 @@
 {
-  "description": "G.f. satisfies: x = A( x - A(x)^4/x^2 ).",
+  "description": "G.f. A(x) satisfies x = A( x - A(x)^4/x^2 ).",
   "id": "A376176",
   "mentions": [
+    "A213591",
     "A213639"
   ],
   "tags": [

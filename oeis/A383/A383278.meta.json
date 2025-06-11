@@ -1,0 +1,23 @@
+{
+  "description": "The number of integers k such that A034444(k) * k <= n.",
+  "id": "A383278",
+  "mentions": [
+    "A034444",
+    "A087197",
+    "A345288",
+    "A356005",
+    "A383276",
+    "A383277",
+    "A383279"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

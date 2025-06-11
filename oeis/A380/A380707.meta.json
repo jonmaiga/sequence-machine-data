@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [x^n] Product_{k=0..n} (1 + (n^2+k)*x).",
+  "id": "A380707",
+  "mentions": [
+    "A165675",
+    "A382347"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

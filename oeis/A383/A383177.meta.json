@@ -1,0 +1,23 @@
+{
+  "description": "Sphenic numbers k such that floor(log(k)/log(lpf(k))) = 1+floor(log(k)/log(p)) for all primes p | k such that p > lpf(k), where lpf = A020639(k).",
+  "id": "A383177",
+  "mentions": [
+    "A005117",
+    "A007304",
+    "A010846",
+    "A020639",
+    "A162306",
+    "A275280",
+    "A381250",
+    "A382022"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

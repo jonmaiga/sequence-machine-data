@@ -2,6 +2,7 @@
   "description": "Number of permutations of length n with exactly 3 occurrences of the pattern 2-13.",
   "id": "A094219",
   "mentions": [
+    "A001622",
     "A094218",
     "A263776"
   ],

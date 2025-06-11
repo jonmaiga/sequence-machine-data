@@ -1,9 +1,12 @@
 {
-  "description": "Primes p_i such that 2^(i+1) - p_i is also prime.",
+  "description": "Primes prime(k) such that 2^(k+1) - prime(k) is also prime.",
   "id": "A227126",
   "mentions": [
     "A078686",
-    "A244913"
+    "A228021",
+    "A242944",
+    "A244913",
+    "A244916"
   ],
   "tags": [
     "more",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

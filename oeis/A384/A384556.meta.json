@@ -1,0 +1,25 @@
+{
+  "description": "The sum of the exponential divisors of n that are cubefree.",
+  "id": "A384556",
+  "mentions": [
+    "A004709",
+    "A013662",
+    "A051377",
+    "A056624",
+    "A066990",
+    "A073185",
+    "A322791",
+    "A384554"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

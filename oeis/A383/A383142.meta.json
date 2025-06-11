@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer with shortest addition-subtraction chain of length n.",
+  "id": "A383142",
+  "mentions": [
+    "A003064",
+    "A128998",
+    "A383001",
+    "A383143"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

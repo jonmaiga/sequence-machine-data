@@ -1,5 +1,5 @@
 {
-  "description": "First part \"a\" of A159000(n).",
+  "description": "First part \"s\" of A159000(n).",
   "id": "A159001",
   "mentions": [
     "A000010",
@@ -8,12 +8,12 @@
   ],
   "tags": [
     "base",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 51,
     "source": "oeis-entry"
   }
 }

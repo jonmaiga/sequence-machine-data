@@ -1,0 +1,18 @@
+{
+  "description": "The set of all integers k >= -1 with the property that there exist integers X and Y such that X*Y*(X+Y) is nonzero and X^3 - k*X^2*Y - (k+3)*X*Y^2 - Y^3 is a divisor of k^2 + 3*k + 9.",
+  "id": "A383068",
+  "mentions": [
+    "A379019",
+    "A383067"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

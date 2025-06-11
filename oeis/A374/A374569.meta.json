@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of g.f. A(x) satisfing A(x) = x + A(x/(1-x)) * A(x/(1+x)).",
+  "description": "Expansion of g.f. A(x) satisfying A(x) = x + A(x/(1-x)) * A(x/(1+x)).",
   "id": "A374569",
   "mentions": [],
   "tags": [

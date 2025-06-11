@@ -1,11 +1,14 @@
 {
-  "description": "Square array read by antidiagonals: T(n,k) = sum of unimodal products of length n and bound k.",
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals upwards, where A(n,k) = sum of unimodal products of length n and bound k.",
   "id": "A287532",
   "mentions": [
     "A000290",
     "A000295",
     "A222993",
-    "A223069"
+    "A223069",
+    "A383883",
+    "A383892",
+    "A383893"
   ],
   "tags": [
     "formulas",

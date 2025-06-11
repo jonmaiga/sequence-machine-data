@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that binomial(2k,k) + k is prime.",
+  "id": "A383476",
+  "mentions": [
+    "A134758",
+    "A309289"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

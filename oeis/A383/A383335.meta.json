@@ -1,0 +1,19 @@
+{
+  "description": "Length of shortest addition-multiplication-exponentiation chain for n.",
+  "id": "A383335",
+  "mentions": [
+    "A003313",
+    "A128998",
+    "A230697",
+    "A383336",
+    "A383337"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

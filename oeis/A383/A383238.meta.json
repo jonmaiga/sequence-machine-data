@@ -1,0 +1,18 @@
+{
+  "description": "A sequence constructed by greedily sampling the Poisson distribution for parameter value 1, 1/(e*(i-1)!) to minimize discrepancy.",
+  "id": "A383238",
+  "mentions": [
+    "A381617",
+    "A382093",
+    "A382095",
+    "A382961"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

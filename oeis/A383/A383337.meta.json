@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers with a shortest addition-multiplication-exponentiation chain of length n.",
+  "id": "A383337",
+  "mentions": [
+    "A003065",
+    "A383002",
+    "A383143",
+    "A383335",
+    "A383336"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

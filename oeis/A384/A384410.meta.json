@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k^5 * x)^((1/2)^(k+1)).",
+  "id": "A384410",
+  "mentions": [
+    "A000670",
+    "A084784",
+    "A384408"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

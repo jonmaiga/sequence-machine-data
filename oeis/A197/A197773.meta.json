@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling((n+1/n)^3)",
+  "description": "Ceiling((n+1/n)^3).",
   "id": "A197773",
   "mentions": [
     "A005491",

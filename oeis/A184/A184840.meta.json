@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of numbers x(i=1..n) in 0..n with sum i*x(i)^4 equal to n^5",
+  "description": "Number of strings of numbers x(i=1..n) in 0..n with sum i*x(i)^4 equal to n^5.",
   "id": "A184840",
   "mentions": [
     "A184848"

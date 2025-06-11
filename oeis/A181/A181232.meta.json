@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX(n+2) binary matrices with all rows unique and all columns unique",
+  "description": "Number of n X (n+2) binary matrices with all rows unique and all columns unique.",
   "id": "A181232",
   "mentions": [
     "A088310",

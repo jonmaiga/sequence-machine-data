@@ -1,5 +1,5 @@
 {
-  "description": "Number of 9*n X 2*n 0..2 arrays with row sums 2 and column sums 9",
+  "description": "Number of 9*n X 2*n 0..2 arrays with row sums 2 and column sums 9.",
   "id": "A172720",
   "mentions": [],
   "tags": [

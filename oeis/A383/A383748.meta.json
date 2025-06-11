@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = q is the smallest integer, such that the numbers -1/q, i/q, -i/q with i = sqrt(-1), are three zeros of the polynomial P(A783747(n),z) = Sum_{k=1..r} d(k)*z^(k-1) where d(1) < d(2), ..., < d(r) are the r divisors of A383747(n).",
+  "id": "A383748",
+  "mentions": [
+    "A027750",
+    "A291127",
+    "A383747",
+    "A783747"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

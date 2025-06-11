@@ -1,0 +1,19 @@
+{
+  "description": "Record high points in A083533.",
+  "id": "A383889",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A083533",
+    "A383890"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

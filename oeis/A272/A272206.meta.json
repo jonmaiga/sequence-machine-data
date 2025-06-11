@@ -1,5 +1,5 @@
 {
-  "description": "Rounded barycenter of first n primes defined as a(n) = round(sum_{i=1..n}(i*prime(i)) / sum_{i=1..n}prime(i))",
+  "description": "Rounded barycenter of first n primes defined as a(n) = round(sum_{i=1..n}(i*prime(i)) / sum_{i=1..n}prime(i)).",
   "id": "A272206",
   "mentions": [
     "A007504",

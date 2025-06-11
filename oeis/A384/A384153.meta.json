@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of binary strings of length n whose shortest run of 1s is of length 1.",
+  "id": "A384153",
+  "mentions": [
+    "A000071",
+    "A384154"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

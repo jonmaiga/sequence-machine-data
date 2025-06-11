@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/( Product_{k=0..10} (1 - (11*k+1) * x) )^(1/11).",
+  "id": "A383633",
+  "mentions": [
+    "A383627",
+    "A383628",
+    "A383629",
+    "A383630",
+    "A383631",
+    "A383632"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

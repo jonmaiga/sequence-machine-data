@@ -1,0 +1,35 @@
+{
+  "description": "Square array read by upward antidiagonals: T(n,k) is the n-th number whose largest odd divisor is its k-th divisor, n >= 1, k >= 1.",
+  "id": "A383961",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000265",
+    "A001227",
+    "A001248",
+    "A001749",
+    "A027750",
+    "A030078",
+    "A038547",
+    "A046388",
+    "A065091",
+    "A070875",
+    "A091629",
+    "A100484",
+    "A174090",
+    "A182469",
+    "A290110",
+    "A383401",
+    "A383402"
+  ],
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

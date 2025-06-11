@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/sqrt( (1-x) * (1-x-4*x^2)^3 ).",
+  "id": "A383499",
+  "mentions": [
+    "A026569",
+    "A377204",
+    "A383254",
+    "A383503"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions of n such that any part 1 can be k different colors where k is the current record having appeared in the composition.",
+  "id": "A383275",
+  "mentions": [
+    "A000108",
+    "A011782",
+    "A088305",
+    "A382312",
+    "A382991",
+    "A383101",
+    "A383175"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

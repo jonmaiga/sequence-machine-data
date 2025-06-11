@@ -2,7 +2,9 @@
   "description": "Numbers k such that phi(k) = Sum_{d|k} core(d) where core(x) is the squarefree part of x (A007913).",
   "id": "A074786",
   "mentions": [
-    "A007913"
+    "A000010",
+    "A007913",
+    "A069088"
   ],
   "tags": [
     "nonn"

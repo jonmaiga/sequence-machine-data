@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..3 arrays x(i,j) with every row sum{j*x(i,j), j=1..1+1} equal, and every column sum{i*x(i,j), i=1..n+1} equal, with top left element <= 1",
+  "description": "Number of (n+1)X(1+1) 0..3 arrays x(i,j) with every row sum{j*x(i,j), j=1..1+1} equal, and every column sum{i*x(i,j), i=1..n+1} equal, with top left element <= 1.",
   "id": "A232523",
   "mentions": [
     "A232526"

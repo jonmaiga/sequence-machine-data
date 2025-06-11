@@ -1,5 +1,5 @@
 {
-  "description": "Primes p>=5 with the property: if Prime(k)=Prime(k)+ Prime(k+1)",
+  "description": "Primes p>=5 with the property: if Prime(k)=Prime(k)+ Prime(k+1).",
   "id": "A166575",
   "mentions": [
     "A080359",

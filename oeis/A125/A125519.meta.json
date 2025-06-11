@@ -1,5 +1,5 @@
 {
-  "description": "A 4 x 4 permutation-free magic square.",
+  "description": "A 4 X 4 permutation-free magic square with magic sum 1998.",
   "id": "A125519",
   "mentions": [
     "A080992"

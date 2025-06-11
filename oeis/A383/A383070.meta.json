@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit positive integers where all pairs of consecutive digits have a difference of at least 2.",
+  "id": "A383070",
+  "mentions": [
+    "A052268",
+    "A100062",
+    "A383071",
+    "A383072"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

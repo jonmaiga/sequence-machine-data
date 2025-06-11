@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator (314159269*s+1) mod (2^31-1) when started at s=1.",
+  "id": "A384573",
+  "mentions": [
+    "A384569",
+    "A384570",
+    "A384571",
+    "A384572"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

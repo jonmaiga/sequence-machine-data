@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 15/(2*Pi^4).",
+  "id": "A383647",
+  "mentions": [
+    "A030059",
+    "A082020",
+    "A088245",
+    "A088246",
+    "A092425",
+    "A151927"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

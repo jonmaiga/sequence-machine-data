@@ -1,5 +1,5 @@
 {
-  "description": "Greedy powers of (2/3): sum_{n=1..inf} (2/3)^a(n) = 1.",
+  "description": "Greedy powers of (2/3): Sum_{n>=1} (2/3)^a(n) = 1.",
   "id": "A077468",
   "mentions": [
     "A073536",

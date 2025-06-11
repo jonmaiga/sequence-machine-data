@@ -1,5 +1,5 @@
 {
-  "description": "Number of ON states after n generations of cellular automaton based on square grid with each cell adjacent to its eight neighbors.",
+  "description": "Number of ON states after n generations of cellular automaton rule described by the rulestring B1/S012345678.",
   "id": "A151725",
   "mentions": [
     "A000695",

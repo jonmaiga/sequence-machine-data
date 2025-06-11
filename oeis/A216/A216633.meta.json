@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrays of n 0..n-1 integers with the sum of their 5th powers equal to sum(i^5,i=0..n-1)",
+  "description": "Number of nondecreasing arrays of n 0..n-1 integers with the sum of their 5th powers equal to sum(i^5,i=0..n-1).",
   "id": "A216633",
   "mentions": [
     "A216635"

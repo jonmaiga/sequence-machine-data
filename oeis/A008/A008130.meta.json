@@ -2,7 +2,8 @@
   "description": "a(n) = floor(n/3)*ceiling(n/3).",
   "id": "A008130",
   "mentions": [
-    "A002264"
+    "A002264",
+    "A072691"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 52,
+    "size": 61,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of prime divisors (counted by multiplicity) of A024675(n)",
+  "description": "a(n) is the number of prime divisors (counted by multiplicity) of A024675(n).",
   "id": "A024676",
   "mentions": [
     "A001222",

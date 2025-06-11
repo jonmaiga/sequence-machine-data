@@ -1,5 +1,5 @@
 {
-  "description": "A051731^2 * A000012.",
+  "description": "Triangle read by rows: A051731^2 * A000012.",
   "id": "A134699",
   "mentions": [
     "A000012",
@@ -11,13 +11,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Index of the largest odd divisor in the list of divisors of n.",
+  "id": "A383401",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000265",
+    "A001227",
+    "A027750",
+    "A065091",
+    "A174090"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

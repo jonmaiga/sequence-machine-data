@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient triangle of the numerators of the (n-th convergents to) the continued fraction w/(1 + w/(2 + w/3 + w/...",
+  "description": "Coefficient triangle of the numerators of the (n-th convergents to) the continued fraction w/(1 + w/(2 + w/(3 + w/(...)))).",
   "id": "A180047",
   "mentions": [
     "A008297",

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n*10^n + 1.",
   "id": "A064748",
-  "mentions": [],
+  "mentions": [
+    "A002064",
+    "A126431"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

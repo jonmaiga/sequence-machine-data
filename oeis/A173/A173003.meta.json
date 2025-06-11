@@ -1,5 +1,5 @@
 {
-  "description": "Antidiagonal triangle sequence based on recursion: f(n,a)=a*n*f(n-1,a)+f(n-2,a)",
+  "description": "Antidiagonal triangle sequence based on recursion: f(n,a)=a*n*f(n-1,a)+f(n-2,a).",
   "id": "A173003",
   "mentions": [],
   "tags": [

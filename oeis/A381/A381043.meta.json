@@ -1,0 +1,19 @@
+{
+  "description": "Centered pentagonal numbers which are squarefree semiprimes.",
+  "id": "A381043",
+  "mentions": [
+    "A005891",
+    "A006881",
+    "A145838",
+    "A364610",
+    "A382132"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

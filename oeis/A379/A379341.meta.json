@@ -1,21 +1,13 @@
 {
-  "description": "a(n) is the number of pairs of similar but not congruent integer-sided triangles whose perimeters sum up to n.",
+  "description": "Population of elementary triangular automaton rule 50 at generation n, starting from a lone 1 cell at generation 0.",
   "id": "A379341",
-  "mentions": [
-    "A010814",
-    "A069905",
-    "A070088",
-    "A366398",
-    "A370599",
-    "A379340"
-  ],
+  "mentions": [],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 77,
+    "size": 53,
     "source": "oeis-bfile"
   }
 }

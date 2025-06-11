@@ -1,16 +1,15 @@
 {
-  "description": "Numbers n such that sigma(n)/n is equal to sigma(k)/k for some k being superabundant (A004394).",
+  "description": "Numbers m such that sigma(m)/m is equal to sigma(k)/k for some k being superabundant (A004394).",
   "id": "A073349",
   "mentions": [
     "A004394"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

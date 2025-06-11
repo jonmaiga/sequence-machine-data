@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. f(x) * exp(f(x)), where f(x) = (exp(2*x) - 1)/2.",
+  "id": "A383203",
+  "mentions": [
+    "A154602"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

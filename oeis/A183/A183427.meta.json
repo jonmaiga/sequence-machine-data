@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX4 0..2 arrays with no element equal its row sum plus its column sum mod 3",
+  "description": "Half the number of nX4 0..2 arrays with no element equal its row sum plus its column sum mod 3.",
   "id": "A183427",
   "mentions": [
     "A183429"

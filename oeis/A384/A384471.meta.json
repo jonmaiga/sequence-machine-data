@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^2 * Stirling2(2*k,k) * Stirling2(2*n-2*k,n-k).",
+  "id": "A384471",
+  "mentions": [
+    "A187655",
+    "A187657",
+    "A226775",
+    "A384470",
+    "A384472"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

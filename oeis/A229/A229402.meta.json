@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with top left element 0, horizontal differences mod 3 never 1, vertical differences mod 3 never -1, and antidiagonal differences never 0",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with top left element 0, horizontal differences mod 3 never 1, vertical differences mod 3 never -1, and antidiagonal differences never 0.",
   "id": "A229402",
   "mentions": [
     "A000079",

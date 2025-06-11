@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of powers, T(n,k) = n^k, 0<=k<=n, read by rows.",
+  "description": "Triangle of powers, T(n,k) = n^k, 0 <= k <= n, read by rows.",
   "id": "A079901",
   "mentions": [
     "A000169",
@@ -14,6 +14,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

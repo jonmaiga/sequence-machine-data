@@ -1,0 +1,18 @@
+{
+  "description": "Primes whose sum of digits in both base 8 and base 10 are recursively prime down to 2, 3, 5, or 7.",
+  "id": "A384306",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A070027"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

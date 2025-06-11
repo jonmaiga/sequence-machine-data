@@ -1,15 +1,19 @@
 {
   "description": "Number of free tree-like convex polyominoes with n cells.",
   "id": "A204804",
-  "mentions": [],
+  "mentions": [
+    "A131482",
+    "A359661"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

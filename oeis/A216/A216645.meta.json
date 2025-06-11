@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing arrays of n 1..n integers with the sum of their k powers equal to sum(i^k,i=1..n)",
+  "description": "T(n,k)=Number of nondecreasing arrays of n 1..n integers with the sum of their k powers equal to sum(i^k,i=1..n).",
   "id": "A216645",
   "mentions": [
     "A002838",

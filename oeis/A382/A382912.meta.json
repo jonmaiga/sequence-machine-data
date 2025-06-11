@@ -1,0 +1,50 @@
+{
+  "description": "Numbers k such that row k of A305936 (a multiset whose multiplicities are the prime indices of k) has no permutation with all distinct run-lengths.",
+  "id": "A382912",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001222",
+    "A048767",
+    "A056239",
+    "A112798",
+    "A181821",
+    "A239455",
+    "A305936",
+    "A329739",
+    "A335125",
+    "A351202",
+    "A351291",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A351596",
+    "A381431",
+    "A381432",
+    "A381433",
+    "A381436",
+    "A381440",
+    "A381636",
+    "A381717",
+    "A381871",
+    "A382525",
+    "A382771",
+    "A382773",
+    "A382775",
+    "A382857",
+    "A382858",
+    "A382876",
+    "A382879",
+    "A382913",
+    "A382914",
+    "A382915"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

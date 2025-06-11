@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n arrays of squares of integers with every 3X3 subblock summing to 11",
+  "description": "Number of n X n arrays of squares of integers with every 3 X 3 subblock summing to 11.",
   "id": "A159211",
   "mentions": [],
   "tags": [

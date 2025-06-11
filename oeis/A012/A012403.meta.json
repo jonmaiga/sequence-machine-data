@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. tanh(arctan(x)*log(x+1))",
+  "description": "E.g.f. tanh(arctan(x)*log(x+1)).",
   "id": "A012403",
   "mentions": [],
   "tags": [

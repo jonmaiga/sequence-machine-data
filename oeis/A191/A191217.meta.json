@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) is congruent to 2 modulo 4",
+  "description": "Numbers n such that sigma(n) is congruent to 2 modulo 4.",
   "id": "A191217",
   "mentions": [
     "A132777",

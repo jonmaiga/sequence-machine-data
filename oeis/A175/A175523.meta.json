@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=a(n-1)+ p, where p is the least prime whose first digit equals the first digit of a(n-1) and p>=a(n-1)",
+  "description": "a(n)=a(n-1)+ p, where p is the least prime whose first digit equals the first digit of a(n-1) and p>=a(n-1).",
   "id": "A175523",
   "mentions": [
     "A000030",

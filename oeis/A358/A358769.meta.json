@@ -2,8 +2,11 @@
   "description": "a(n) = 1 if n is of the form p * m^2, where p is a prime and m is a natural number >= 1, otherwise 0.",
   "id": "A358769",
   "mentions": [
+    "A001221",
     "A007913",
+    "A008836",
     "A010051",
+    "A062799",
     "A229125",
     "A358770"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Least numbers k for each base b >= 2 such that N = b^(2^n) + k is prime for 7 consecutive values from n = 0 to n = 6",
+  "description": "Least numbers k for each base b >= 2 such that N = b^(2^n) + k is prime for 7 consecutive values from n = 0 to n = 6.",
   "id": "A225560",
   "mentions": [
     "A070694",

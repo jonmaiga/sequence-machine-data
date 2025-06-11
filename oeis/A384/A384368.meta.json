@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of [2n] with n inversions.",
+  "id": "A384368",
+  "mentions": [
+    "A008302",
+    "A128566"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

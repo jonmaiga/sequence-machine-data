@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1)^4 * Stirling2(n,k).",
+  "id": "A383053",
+  "mentions": [
+    "A000110",
+    "A222748",
+    "A362925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

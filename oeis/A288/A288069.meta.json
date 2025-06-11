@@ -2,6 +2,7 @@
   "description": "Quotients obtained when the Zuckerman numbers are divided by the product of their digits.",
   "id": "A288069",
   "mentions": [
+    "A002275",
     "A007602",
     "A056770",
     "A067251",

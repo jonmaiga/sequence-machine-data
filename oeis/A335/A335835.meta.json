@@ -1,5 +1,5 @@
 {
-  "description": "Sort the run lengths in binary expansion of n in desccending order (with multiplicities).",
+  "description": "Sort the run lengths in binary expansion of n in descending order (with multiplicities).",
   "id": "A335835",
   "mentions": [
     "A005811",

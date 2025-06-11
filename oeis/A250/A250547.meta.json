@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 6^x + y^6 with x, y >= 0",
+  "description": "Numbers of the form 6^x + y^6 with x, y >= 0.",
   "id": "A250547",
   "mentions": [
     "A250482"

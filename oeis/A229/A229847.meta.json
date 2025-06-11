@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays x(i,j) with each element horizontally or vertically next to at least one element with value 2-x(i,j)",
+  "description": "T(n,k)=Number of nXk 0..2 arrays x(i,j) with each element horizontally or vertically next to at least one element with value 2-x(i,j).",
   "id": "A229847",
   "mentions": [
     "A062510"

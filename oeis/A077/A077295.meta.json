@@ -1,5 +1,5 @@
 {
-  "description": "Partition the concatenation 1234567...of natural numbers into successive strings which are even, all different and > 2. (0's never taken as the most significant digit.)",
+  "description": "Partition the concatenation 1234567...of natural numbers into successive strings which are even, all different and > 2. (0 never taken as the most significant digit.)",
   "id": "A077295",
   "mentions": [
     "A077293",
@@ -17,8 +17,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

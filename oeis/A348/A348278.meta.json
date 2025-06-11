@@ -2,7 +2,8 @@
   "description": "a(n) = Sum_{d|n} d^(d').",
   "id": "A348278",
   "mentions": [
-    "A003415"
+    "A003415",
+    "A353959"
   ],
   "tags": [
     "formulas",

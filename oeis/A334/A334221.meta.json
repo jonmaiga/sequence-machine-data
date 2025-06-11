@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the Y-coordinate of the point at n steps forward from the origine along the space filling curve U defined in A334188; sequence A334220 gives X-coordinates.",
+  "description": "a(n) is the Y-coordinate of the point at n steps forward from the origin along the space filling curve U defined in A334188; sequence A334220 gives X-coordinates.",
   "id": "A334221",
   "mentions": [
     "A334188",

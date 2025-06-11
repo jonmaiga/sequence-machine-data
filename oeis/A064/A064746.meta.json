@@ -2,7 +2,8 @@
   "description": "a(n) = n*8^n + 1.",
   "id": "A064746",
   "mentions": [
-    "A002064"
+    "A002064",
+    "A036294"
   ],
   "tags": [
     "easy",

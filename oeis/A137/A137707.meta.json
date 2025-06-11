@@ -1,5 +1,5 @@
 {
-  "description": "Secondary Wythoff Array read by antidiagonals.",
+  "description": "Secondary Wythoff Array read by descending antidiagonals.",
   "id": "A137707",
   "mentions": [
     "A035513",

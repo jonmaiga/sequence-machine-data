@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected subsets of n edges of the icosahedron up to the 120 rotations and reflections of the icosahedron.",
+  "id": "A383974",
+  "mentions": [
+    "A333333",
+    "A383490",
+    "A383973",
+    "A383975"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

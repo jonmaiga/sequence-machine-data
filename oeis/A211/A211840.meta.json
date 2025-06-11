@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n+7 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value n+1",
+  "description": "Number of nonnegative integer arrays of length n+7 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value n+1.",
   "id": "A211840",
   "mentions": [
     "A211836"

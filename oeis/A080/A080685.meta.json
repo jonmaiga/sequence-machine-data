@@ -2,8 +2,14 @@
   "description": "Number of 17-smooth numbers <= n.",
   "id": "A080685",
   "mentions": [
-    "A051038",
-    "A071520"
+    "A070939",
+    "A071520",
+    "A071521",
+    "A071523",
+    "A071604",
+    "A080681",
+    "A080684",
+    "A080686"
   ],
   "tags": [
     "easy",
@@ -12,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

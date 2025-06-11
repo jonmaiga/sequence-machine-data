@@ -1,0 +1,17 @@
+{
+  "description": "The product of the first n terms of A383217.",
+  "id": "A383218",
+  "mentions": [
+    "A033180",
+    "A383217"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

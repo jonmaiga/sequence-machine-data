@@ -1,5 +1,5 @@
 {
-  "description": "Iterations of k -> k+tau(k) from 2(2n-1)^2 until result not divisible by 4",
+  "description": "Iterations of k -> k+tau(k) from 2(2n-1)^2 until result not divisible by 4.",
   "id": "A165494",
   "mentions": [
     "A064491",

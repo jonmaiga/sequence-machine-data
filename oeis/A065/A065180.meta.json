@@ -2,11 +2,13 @@
   "description": "Number of site swap patterns with 4 balls and exact period n.",
   "id": "A065180",
   "mentions": [
+    "A008683",
     "A065177",
     "A065178",
     "A065179"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

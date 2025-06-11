@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of the divisors of the coefficients of triangles A138771 and A165675",
+  "description": "Triangle of the divisors of the coefficients of triangles A138771 and A165675.",
   "id": "A165680",
   "mentions": [
     "A000012",

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k)=(n+1)*(3*(n+1)-1)/2-k*(3*k-1)/2",
+  "description": "Triangle read by rows: T(n,k)=(n+1)*(3*(n+1)-1)/2-k*(3*k-1)/2.",
   "id": "A095871",
   "mentions": [
     "A000012",

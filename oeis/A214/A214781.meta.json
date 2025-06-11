@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest k>=2 such that n divides Fibonacci(k-1)+2",
+  "description": "a(n) = smallest k>=2 such that n divides Fibonacci(k-1)+2.",
   "id": "A214781",
   "mentions": [
     "A001177",

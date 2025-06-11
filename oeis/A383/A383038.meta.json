@@ -1,0 +1,15 @@
+{
+  "description": "Positive integers which can be expressed in the form b^r - b^s where b, r, and s are positive integers.",
+  "id": "A383038",
+  "mentions": [
+    "A043569"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

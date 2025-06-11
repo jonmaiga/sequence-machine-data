@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table where row n lists numbers k in row n of A162306 for which there exists a prime p | n such that k*p > n.",
+  "id": "A382926",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A007947",
+    "A024619",
+    "A162306",
+    "A275280",
+    "A369609",
+    "A382964"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,17 @@
 {
-  "description": "Natural numbers with number of perfect partitions equal to a perfect power.",
+  "description": "Numbers whose number of ordered factorizations is a perfect power.",
   "id": "A166982",
   "mentions": [
     "A001597",
-    "A002033"
+    "A002033",
+    "A074206"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
-    "source": "oeis-entry"
+    "size": 64,
+    "source": "oeis-bfile"
   }
 }

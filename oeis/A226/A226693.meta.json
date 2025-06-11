@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree parts of A079896(n), n>= 0.",
+  "description": "Squarefree parts of A079896(n), n>= 1.",
   "id": "A226693",
   "mentions": [
     "A000037",
@@ -14,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 68,
     "source": "oeis-bfile"
   }

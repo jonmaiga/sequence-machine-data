@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is smallest nonnegative integer which is consistent with sequence being monotonically increasing and satisfying a(a(n)) = 4n.",
+  "description": "a(n) is the smallest nonnegative integer which is consistent with sequence being monotonically increasing and satisfying a(a(n)) = 4n.",
   "id": "A080588",
   "mentions": [
     "A079000",

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that {k, k+2, k+6, k+8, k+90, k+92, k+96, k+98} are all prime.",
+  "id": "A382970",
+  "mentions": [
+    "A007530",
+    "A059925",
+    "A128467"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

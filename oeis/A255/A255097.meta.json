@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) 0..1 arrays with no 3x3 subblock diagonal sum 1 and no antidiagonal sum 1 and no row sum 1 and no column sum 1",
+  "description": "Number of (n+2)X(4+2) 0..1 arrays with no 3x3 subblock diagonal sum 1 and no antidiagonal sum 1 and no row sum 1 and no column sum 1.",
   "id": "A255097",
   "mentions": [
     "A255101"

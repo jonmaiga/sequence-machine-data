@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the sign of r(n), where r(n) is the integer in [ -2n,2n] which is congruent to (2n)! modulo 4n+1",
+  "description": "a(n) = the sign of r(n), where r(n) is the integer in [ -2n,2n] which is congruent to (2n)! modulo 4n+1.",
   "id": "A080908",
   "mentions": [],
   "tags": [

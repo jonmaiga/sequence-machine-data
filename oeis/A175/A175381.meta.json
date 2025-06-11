@@ -1,5 +1,5 @@
 {
-  "description": "A positive integer of n is included if all positive integers that, when written in binary, occur as substrings in binary n divide n.",
+  "description": "A positive integer k is included if all positive integers that, when written in binary, occur as substrings in binary k divide k.",
   "id": "A175381",
   "mentions": [
     "A175382"

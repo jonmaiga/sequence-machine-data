@@ -2,9 +2,12 @@
   "description": "Number of steps needed for juggler sequence (A094683) started at 10^n to reach 1.",
   "id": "A094819",
   "mentions": [
+    "A007320",
+    "A011557",
     "A094683"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{k=0..n-1} (n-5*k).",
+  "id": "A383997",
+  "mentions": [
+    "A303488",
+    "A384216"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Those positive integers n where (the number of integers k, 0 <= k <= n, where the binomial coefficient C(n,k) is divisible by n) > (the number of positive integers <= n and coprime to n).",
+  "description": "Those positive integers m where (the number of integers k, 0 <= k <= m, where the binomial coefficient C(m,k) is divisible by m) > (the number of positive integers <= m and coprime to m).",
   "id": "A158871",
   "mentions": [
     "A000010",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

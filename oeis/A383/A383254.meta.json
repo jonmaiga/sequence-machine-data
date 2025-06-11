@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/sqrt( (1-x) * (1-5*x)^3 ).",
+  "id": "A383254",
+  "mentions": [
+    "A026375",
+    "A383499",
+    "A383503"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

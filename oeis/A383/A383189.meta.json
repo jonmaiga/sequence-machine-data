@@ -1,0 +1,15 @@
+{
+  "description": "Inverse permutation to A383187 (diamond spiral numbers of a king moving on the infinite two-dimensional grid, not to the point numbered a(n)+-1).",
+  "id": "A383189",
+  "mentions": [
+    "A383187"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

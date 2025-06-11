@@ -2,6 +2,7 @@
   "description": "Expansion of (-3-164*x-x^2)/(1-99*x+99*x^2-x^3).",
   "id": "A261004",
   "mentions": [
+    "A010701",
     "A051028",
     "A051029",
     "A051030",
@@ -22,6 +23,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

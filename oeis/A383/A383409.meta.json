@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (exp(x)-1)*(exp(x)-x)*(exp(x)-x^2/2)*(exp(x)-x^3/6).",
+  "id": "A383409",
+  "mentions": [
+    "A383323"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

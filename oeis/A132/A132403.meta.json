@@ -1,22 +1,22 @@
 {
-  "description": "Analog of Pascal's triangle, but with \"next prime\" applied to each sum.",
+  "description": "Triangle read by rows: T(n,k) = nextprime( T(n-1,k) + T(n-1,k-1) ), where nextprime = A151800.",
   "id": "A132403",
   "mentions": [
-    "A000040",
-    "A000984",
-    "A007308",
-    "A007918",
-    "A064337"
+    "A007318",
+    "A008578",
+    "A064337",
+    "A151800",
+    "A199333",
+    "A362034"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

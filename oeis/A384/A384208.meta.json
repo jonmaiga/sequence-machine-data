@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of ways to partition a square n X n into five rectangles of different dimensions, without any straight cut spanning the entire square.",
+  "id": "A384208",
+  "mentions": [
+    "A381847"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

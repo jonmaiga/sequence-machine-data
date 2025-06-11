@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+5 0..6 arrays with no consecutive six elements summing to more than 3*6",
+  "description": "Number of length n+5 0..6 arrays with no consecutive six elements summing to more than 3*6.",
   "id": "A242142",
   "mentions": [
     "A242144"

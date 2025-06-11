@@ -1,7 +1,8 @@
 {
-  "description": "(1/p)*(F(4p^2+1)-5) where F(k) denotes the k-th Fibonacci number and p runs through the primes (except p=5).",
+  "description": "(1/p)*(F(4p^2+1)-5) where F(k) denotes the k-th Fibonacci number and p runs through the primes (except p = 5).",
   "id": "A086393",
   "mentions": [
+    "A000045",
     "A086367"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 4,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

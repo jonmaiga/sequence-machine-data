@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n+1)=n+phi(n).",
+  "description": "Numbers n such that sigma(n+1) = n + phi(n).",
   "id": "A068402",
   "mentions": [],
   "tags": [

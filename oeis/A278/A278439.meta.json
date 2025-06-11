@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n | A047842(n).",
+  "description": "Numbers k such that k | A047842(k).",
   "id": "A278439",
   "mentions": [
     "A047842",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

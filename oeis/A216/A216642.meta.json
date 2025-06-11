@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrays of n 1..n integers with the sum of their 4th powers equal to sum(i^4,i=1..n)",
+  "description": "Number of nondecreasing arrays of n 1..n integers with the sum of their 4th powers equal to sum(i^4,i=1..n).",
   "id": "A216642",
   "mentions": [
     "A216645"

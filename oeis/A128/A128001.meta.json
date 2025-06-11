@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that (n-1)*2^n+1 is prime.",
+  "description": "Numbers k such that (k-1)*2^k + 1 is prime.",
   "id": "A128001",
   "mentions": [
     "A002064",
-    "A029544"
+    "A029544",
+    "A196303"
   ],
   "tags": [
     "more",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

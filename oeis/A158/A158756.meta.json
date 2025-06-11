@@ -1,5 +1,5 @@
 {
-  "description": "Removed primes according to algorithm of A156284",
+  "description": "Removed primes according to algorithm of A156284.",
   "id": "A158756",
   "mentions": [
     "A156284"

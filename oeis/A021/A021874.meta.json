@@ -1,10 +1,11 @@
 {
-  "description": "Expansion of 1/((1-x)(1-4x)(1-7x)(1-10x)).",
+  "description": "Expansion of 1/((1-x) * (1-4*x) * (1-7*x) * (1-10*x)).",
   "id": "A021874",
   "mentions": [
     "A000012",
     "A002450",
     "A016223",
+    "A111577",
     "A282629"
   ],
   "tags": [
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

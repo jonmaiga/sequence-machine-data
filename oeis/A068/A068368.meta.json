@@ -1,16 +1,17 @@
 {
-  "description": "Composite n such that sigma(2n+1)-sigma(n)=n+1.",
+  "description": "Composite numbers k such that sigma(2*k+1)-sigma(k) = k+1.",
   "id": "A068368",
   "mentions": [
-    "A005384"
+    "A000203",
+    "A005384",
+    "A008438"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

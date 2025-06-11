@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers ending with the digit 1, or containing an odd digit d immediately followed by a digit >= d.",
+  "id": "A383249",
+  "mentions": [
+    "A342045",
+    "A347298",
+    "A382464",
+    "A382623",
+    "A382937",
+    "A383061",
+    "A383245",
+    "A383247",
+    "A383250"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

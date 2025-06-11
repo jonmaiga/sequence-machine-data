@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of lower triangles of a 7X7 0..n array with no element equal to the average of its horizontal and vertical neighbors",
+  "description": "Half the number of lower triangles of a 7X7 0..n array with no element equal to the average of its horizontal and vertical neighbors.",
   "id": "A194620",
   "mentions": [
     "A194615"

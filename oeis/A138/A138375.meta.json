@@ -1,13 +1,18 @@
 {
   "description": "Primes of the form k^2 + 13.",
   "id": "A138375",
-  "mentions": [],
+  "mentions": [
+    "A113536",
+    "A241749"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 42,
     "source": "joeis"
   }
 }

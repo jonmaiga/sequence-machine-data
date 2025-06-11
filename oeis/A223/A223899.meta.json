@@ -2,7 +2,11 @@
   "description": "Poly-Cauchy numbers of the second kind hat c_n^(-2).",
   "id": "A223899",
   "mentions": [
-    "A222627"
+    "A081046",
+    "A222627",
+    "A223901",
+    "A223902",
+    "A223904"
   ],
   "tags": [
     "formulas",

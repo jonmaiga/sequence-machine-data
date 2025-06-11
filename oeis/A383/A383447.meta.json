@@ -1,0 +1,17 @@
+{
+  "description": "Number of \"peerless\" trees on n nodes.",
+  "id": "A383447",
+  "mentions": [
+    "A000055",
+    "A383448"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

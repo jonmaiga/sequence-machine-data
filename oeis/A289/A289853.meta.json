@@ -1,11 +1,12 @@
 {
-  "description": "Primes of the form k!2-32, where k!2 is the double factorial number (A006852).",
+  "description": "Primes of the form k!2 - 32, where k!2 is the double factorial number (A006882).",
   "id": "A289853",
   "mentions": [
-    "A006852",
+    "A006882",
     "A262772"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

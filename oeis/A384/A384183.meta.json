@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = minimum number of steps required to move n stones from a hole to the next one in an infinite row of holes, where at one step we can move any k stones at once from a hole to the hole at distance k to the left or to the right, and there are n stones overall.",
+  "id": "A384183",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

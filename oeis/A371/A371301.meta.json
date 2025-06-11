@@ -5,11 +5,12 @@
     "A371300"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

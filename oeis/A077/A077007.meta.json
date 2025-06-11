@@ -1,12 +1,12 @@
 {
-  "description": "Primes (k) such that prime(k)*prime(k+1) + 1 or prime(k)*prime(k+1)- 1 is divisible by prime(k+2).",
+  "description": "Primes p such that p*q+1 or p*q-1 is divisible by r where q = nextprime(p) and r=nextprime(q).",
   "id": "A077007",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 6,
     "source": "oeis-entry"
   }

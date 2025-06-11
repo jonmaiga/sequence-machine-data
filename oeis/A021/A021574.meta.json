@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/570.",
   "id": "A021574",
-  "mentions": [],
+  "mentions": [
+    "A021061"
+  ],
   "tags": [
     "cons",
     "nonn"

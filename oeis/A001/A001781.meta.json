@@ -2,7 +2,8 @@
   "description": "Expansion of 1/((1+x)*(1-x)^10).",
   "id": "A001781",
   "mentions": [
-    "A000582"
+    "A000582",
+    "A112465"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

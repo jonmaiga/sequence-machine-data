@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of the sum of the divisors of the numbers of the form 6*k + 3, k >= 0.",
+  "id": "A383403",
+  "mentions": [
+    "A000203",
+    "A016945",
+    "A237593",
+    "A239660",
+    "A274536",
+    "A363161",
+    "A365442",
+    "A365444",
+    "A365446",
+    "A383405"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

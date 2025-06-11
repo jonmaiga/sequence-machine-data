@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with i-8<=p(i)<=i+7",
+  "description": "Number of permutations of 1..n with i-8<=p(i)<=i+7.",
   "id": "A179354",
   "mentions": [],
   "tags": [

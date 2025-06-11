@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1; a(1)=1; for n >= 2, a(n) = a(n-A000120(n)) + a(n-1-A023416(n))",
+  "description": "a(0)=1; a(1)=1; for n >= 2, a(n) = a(n-A000120(n)) + a(n-1-A023416(n)).",
   "id": "A297216",
   "mentions": [
     "A000120",

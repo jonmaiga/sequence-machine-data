@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle sequence: t(n,m)=n!*Binomial[n, m]*Eulerian[n + 1, m] - n! + 1",
+  "description": "A symmetrical triangle sequence: t(n,m)=n!*Binomial[n, m]*Eulerian[n + 1, m] - n! + 1.",
   "id": "A174693",
   "mentions": [],
   "tags": [

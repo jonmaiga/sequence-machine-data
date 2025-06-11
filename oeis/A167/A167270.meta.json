@@ -2,9 +2,12 @@
   "description": "a(n) = Fibonacci(n + 2) + floor(n/2).",
   "id": "A167270",
   "mentions": [
+    "A000045",
+    "A001622",
     "A167269"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

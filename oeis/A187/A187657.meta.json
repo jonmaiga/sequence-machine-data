@@ -1,7 +1,10 @@
 {
   "description": "Binomial convolution of the central Stirling numbers of the second kind.",
   "id": "A187657",
-  "mentions": [],
+  "mentions": [
+    "A384471",
+    "A384472"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, and for n>1, a(n) = a(n-1) concatenated with the length of the decimal representation of a(n-1).",
+  "id": "A383429",
+  "mentions": [
+    "A007908",
+    "A055642",
+    "A117804"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

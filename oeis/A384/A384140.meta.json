@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of an elongated pentagonal bipyramid with unit edge.",
+  "id": "A384140",
+  "mentions": [
+    "A002163",
+    "A383852",
+    "A384138",
+    "A384139",
+    "A384141"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

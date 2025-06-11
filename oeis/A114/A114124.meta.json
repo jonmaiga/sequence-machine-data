@@ -2,6 +2,7 @@
   "description": "Decimal expansion of logarithm of A112302.",
   "id": "A114124",
   "mentions": [
+    "A000984",
     "A014963",
     "A112302",
     "A334074",

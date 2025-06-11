@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of numbers x(i=1..7) in 0..n with sum i*x(i)^4 equal to 7*n^4",
+  "description": "Number of strings of numbers x(i=1..7) in 0..n with sum i*x(i)^4 equal to 7*n^4.",
   "id": "A184851",
   "mentions": [
     "A184848"

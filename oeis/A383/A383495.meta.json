@@ -1,0 +1,23 @@
+{
+  "description": "Number of polyforms with n cells on the faces of a pentakis dodecahedron up to rotation.",
+  "id": "A383495",
+  "mentions": [
+    "A030137",
+    "A030138",
+    "A383491",
+    "A383493",
+    "A383494",
+    "A383497",
+    "A383498"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

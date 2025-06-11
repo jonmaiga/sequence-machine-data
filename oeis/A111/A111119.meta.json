@@ -1,5 +1,5 @@
 {
-  "description": "Product{1<=k<=n,GCD(k,n)=1} F(k), where F(k) is the k-th Fibonacci number.",
+  "description": "a(n) = Product_{1<=k<=n, GCD(k,n)=1} F(k), where F(k) is the k-th Fibonacci number.",
   "id": "A111119",
   "mentions": [
     "A000045",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

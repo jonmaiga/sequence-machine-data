@@ -1,5 +1,5 @@
 {
-  "description": "Number of factors in expansion of infinitary perfect numbers (A007357) over distinct terms of A050376",
+  "description": "Number of factors in expansion of infinitary perfect numbers (A007357) over distinct terms of A050376.",
   "id": "A187043",
   "mentions": [
     "A007357",

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A382883(k) = -1.",
+  "id": "A383017",
+  "mentions": [
+    "A000040",
+    "A325264",
+    "A382883",
+    "A382943",
+    "A383016"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

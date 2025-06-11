@@ -1,0 +1,26 @@
+{
+  "description": "Series expansion of the exponential generating function ff6^!(exp(x)-1) where ff6^!(x) = x * (1-3*x-x^2+x^3) / (1+3*x+x^2-x^3).",
+  "id": "A383989",
+  "mentions": [
+    "A002050",
+    "A006531",
+    "A084099",
+    "A101851",
+    "A114285",
+    "A225883",
+    "A383985",
+    "A383986",
+    "A383987",
+    "A383988",
+    "A383995"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

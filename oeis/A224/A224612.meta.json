@@ -1,5 +1,5 @@
 {
-  "description": "Let p = prime(n). Smallest j such that j*2*p^3-1, j*p*2*q^2-1, j*p*2*r^2-1, and j*p*2*s^2-1 are prime numbers.",
+  "description": "Let p = prime(n). Smallest j such that q = j*2*p^3-1, r = j*p*2*q^2-1, s = j*p*2*r^2-1, and j*p*2*s^2-1 are prime numbers.",
   "id": "A224612",
   "mentions": [
     "A224492",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

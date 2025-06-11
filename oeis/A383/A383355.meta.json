@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/sqrt( (1-x) * (1-x-4*x^4) ).",
+  "id": "A383355",
+  "mentions": [
+    "A026569",
+    "A217615",
+    "A360310"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

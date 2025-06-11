@@ -1,0 +1,16 @@
+{
+  "description": "Indices of record low-water marks of the sequence abs((cos n)^n).",
+  "id": "A383283",
+  "mentions": [
+    "A382564",
+    "A383229"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

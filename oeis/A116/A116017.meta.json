@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that n + sigma(n) is a repdigit.",
+  "description": "Numbers m such that m + sigma(m) is a repdigit.",
   "id": "A116017",
   "mentions": [
     "A096841",
-    "A116018"
+    "A116018",
+    "A244444"
   ],
   "tags": [
     "base",

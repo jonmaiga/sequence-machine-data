@@ -1,5 +1,5 @@
 {
-  "description": "Golden rectangle numbers: F(n)*F(n+1), where F(n) = A000045(n) (Fibonacci numbers).",
+  "description": "Golden rectangle numbers: F(n) * F(n+1), where F(n) = A000045(n) (Fibonacci numbers).",
   "id": "A001654",
   "mentions": [
     "A000032",

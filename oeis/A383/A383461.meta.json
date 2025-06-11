@@ -1,0 +1,19 @@
+{
+  "description": "Number of vertices in graph G_n formed by taking a regular n-gon with all its chords extended to infinity (the n-th graph in A344857) and inverting it in its circumscribing circle.",
+  "id": "A383461",
+  "mentions": [
+    "A146212",
+    "A344857",
+    "A345025",
+    "A383462"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

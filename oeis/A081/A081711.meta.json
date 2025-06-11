@@ -1,7 +1,8 @@
 {
-  "description": "Numbers k such that k! + k# - 1 is prime, where k# is the primorial function.",
+  "description": "Numbers k such that k! + k# - 1 is prime, where k# is the primorial function A034386(k).",
   "id": "A081711",
   "mentions": [
+    "A034386",
     "A081710",
     "A081712",
     "A081713"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n with k parts all in standard order.",
+  "id": "A383713",
+  "mentions": [
+    "A000110",
+    "A047998",
+    "A107429",
+    "A126347",
+    "A278984",
+    "A383253"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "The number of integers k from 1 to n such that gcd(n,k) is a 5-rough number (A007310).",
+  "id": "A384042",
+  "mentions": [
+    "A000010",
+    "A003586",
+    "A007310",
+    "A026741",
+    "A062570",
+    "A063659",
+    "A065330",
+    "A065331",
+    "A078429",
+    "A116512",
+    "A117494",
+    "A126246",
+    "A206369",
+    "A254926",
+    "A372671",
+    "A384039",
+    "A384040",
+    "A384041"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

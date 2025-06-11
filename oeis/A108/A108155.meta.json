@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the forms 2^n-2, 2^n-1, 2^n, 2^n+1 and 2^n+2",
+  "description": "Numbers of the forms 2^n-2, 2^n-1, 2^n, 2^n+1 and 2^n+2.",
   "id": "A108155",
   "mentions": [
     "A000051",

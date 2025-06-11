@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, in which row n gives coefficients in expansion of ((x^n - 1)/(x - 1))^6",
+  "description": "Triangle read by rows, in which row n gives coefficients in expansion of ((x^n - 1)/(x - 1))^6.",
   "id": "A277951",
   "mentions": [
     "A000332",

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 4*n^3 + 5*n - 1.",
+  "id": "A383854",
+  "mentions": [
+    "A005893",
+    "A014106"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

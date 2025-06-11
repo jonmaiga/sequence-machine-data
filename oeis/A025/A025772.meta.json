@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of 1/((1-x)(1-x^4)(1-x^5)).",
+  "description": "Expansion of 1/((1-x)*(1-x^4)*(1-x^5)).",
   "id": "A025772",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

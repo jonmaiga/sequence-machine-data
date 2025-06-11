@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^n * n! * binomial(3*n/2,n) * Sum_{k=1..n} 1/(n+2*k).",
+  "id": "A384167",
+  "mentions": [
+    "A098118",
+    "A113551",
+    "A384168",
+    "A384169"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

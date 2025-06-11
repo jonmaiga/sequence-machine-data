@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A( x*(1 - x*A(x)) )^2 = A(x) / (1 - x*A(x)).",
+  "id": "A383553",
+  "mentions": [
+    "A383554",
+    "A383555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

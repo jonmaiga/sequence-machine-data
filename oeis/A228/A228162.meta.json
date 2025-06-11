@@ -1,5 +1,5 @@
 {
-  "description": "Number of bangbangs (!!) in shell substitution when starting with : '!!' and : \"!!\" '!!'",
+  "description": "Number of bangbangs (!!) in shell substitution when starting with : '!!' and : \"!!\" '!!'.",
   "id": "A228162",
   "mentions": [],
   "tags": [

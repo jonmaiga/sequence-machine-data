@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest number whose Spanish name contains n distinct letters of the alphabet. 2<=n<=22",
+  "description": "a(n) = the smallest number whose Spanish name contains n distinct letters of the alphabet. 2<=n<=22.",
   "id": "A168387",
   "mentions": [
     "A168137"

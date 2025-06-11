@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..5 arrays with every 2X2 subblock having the sum of the absolute values of the edge differences equal to 10",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..5 arrays with every 2X2 subblock having the sum of the absolute values of the edge differences equal to 10.",
   "id": "A233755",
   "mentions": [],
   "tags": [

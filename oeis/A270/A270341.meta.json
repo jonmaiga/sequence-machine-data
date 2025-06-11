@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that equal the sum of the squares of the digits of their own square in base 43",
+  "description": "Numbers that equal the sum of the squares of the digits of their own square in base 43.",
   "id": "A270341",
   "mentions": [
     "A270295",

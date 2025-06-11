@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4*12^n-1.",
+  "description": "a(n) = 4*12^n - 1.",
   "id": "A199106",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

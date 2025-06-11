@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} 1/(1 + x/(1 + x/(1 + x/...))) dx.",
+  "id": "A384238",
+  "mentions": [
+    "A002163",
+    "A002390"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

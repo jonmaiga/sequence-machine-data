@@ -1,0 +1,23 @@
+{
+  "description": "Alternating sum of the characteristic functions of k-th powers, with k >= 2: characteristic function of squares - c.f. of cubes + c.f. of 4th powers - ... .",
+  "id": "A382691",
+  "mentions": [
+    "A001597",
+    "A010052",
+    "A010057",
+    "A089723",
+    "A259362",
+    "A374016",
+    "A381042",
+    "A382692"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

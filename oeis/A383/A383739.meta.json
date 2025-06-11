@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number that, when displayed on a 7-segment display using A006942, leaves exactly n segments unused.",
+  "id": "A383739",
+  "mentions": [
+    "A006942",
+    "A216261"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

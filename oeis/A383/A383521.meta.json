@@ -1,0 +1,18 @@
+{
+  "description": "Integers m such that phi(m) = (2/3)*(m+1).",
+  "id": "A383521",
+  "mentions": [
+    "A000010"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

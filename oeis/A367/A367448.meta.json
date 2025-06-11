@@ -1,5 +1,5 @@
 {
-  "description": "Number of chordal graphs on n vertices with a fixed perfect elimination ordering (e.g., 1,2,3,...,n)",
+  "description": "Number of chordal graphs on n vertices with a fixed perfect elimination ordering (e.g., 1,2,3,...,n).",
   "id": "A367448",
   "mentions": [
     "A048192"

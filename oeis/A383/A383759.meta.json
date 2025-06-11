@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of infinite nested radical sqrt(8-sqrt(8-sqrt(8+sqrt(8-...)))).",
+  "id": "A383759",
+  "mentions": [
+    "A019889"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

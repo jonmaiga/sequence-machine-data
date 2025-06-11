@@ -2,7 +2,15 @@
   "description": "Number of 5-smooth numbers (A051037) <= n.",
   "id": "A071520",
   "mentions": [
+    "A008683",
     "A051037",
+    "A070939",
+    "A071521",
+    "A071523",
+    "A071604",
+    "A080684",
+    "A080685",
+    "A080686",
     "A106598",
     "A112751"
   ],
@@ -14,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Number of matchings in the n-Sierpinski carpet graph.",
+  "id": "A292967",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

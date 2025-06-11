@@ -1,5 +1,5 @@
 {
-  "description": "The greatest integer M for which there are no primes between M^(1+1/n) and (M+1)^(1+1/n)",
+  "description": "The greatest integer M for which there are no primes between M^(1+1/n) and (M+1)^(1+1/n).",
   "id": "A191858",
   "mentions": [
     "A000101",

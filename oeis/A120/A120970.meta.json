@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x/A(x)^2) = 1 + x ; thus A(x) = 1 + Series_Reversion(x/A(x)^2).",
+  "description": "G.f. A(x) satisfies A(x/A(x)^2) = 1 + x ; thus A(x) = 1 + Series_Reversion(x/A(x)^2).",
   "id": "A120970",
   "mentions": [
     "A030266",
@@ -13,7 +13,8 @@
     "A145348",
     "A145349",
     "A145350",
-    "A147664"
+    "A147664",
+    "A381602"
   ],
   "tags": [
     "formulas",
@@ -21,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

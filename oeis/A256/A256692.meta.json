@@ -2,6 +2,7 @@
   "description": "From fifth root of Riemann zeta function: form Dirichlet series Sum b(n)/n^x whose fifth power is zeta function; sequence gives numerator of b(n).",
   "id": "A256692",
   "mentions": [
+    "A001620",
     "A046643",
     "A046644",
     "A256688",

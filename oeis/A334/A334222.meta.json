@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the X-coordinate of the point at n steps backward from the origine along the space filling curve U defined in A334188; sequence A334223 gives Y-coordinates.",
+  "description": "a(n) is the X-coordinate of the point at n steps backward from the origin along the space filling curve U defined in A334188; sequence A334223 gives Y-coordinates.",
   "id": "A334222",
   "mentions": [
     "A334188",

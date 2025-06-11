@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator for SIMSCRIPT II when started at 1.",
+  "id": "A383798",
+  "mentions": [
+    "A096550",
+    "A384406"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

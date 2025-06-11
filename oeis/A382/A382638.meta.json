@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which the repeating part with leading 0's of 1/k in decimal is a palindrome and longer than one digit.",
+  "id": "A382638",
+  "mentions": [
+    "A060283",
+    "A060284",
+    "A382176"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

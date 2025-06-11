@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that d*2^k - 1 is prime for some proper divisor d of k.",
+  "id": "A383043",
+  "mentions": [
+    "A000043",
+    "A002234",
+    "A032741",
+    "A382811"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

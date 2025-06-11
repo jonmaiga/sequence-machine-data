@@ -2,17 +2,21 @@
   "description": "a(n) = k where R(k+8) = 2.",
   "id": "A086948",
   "mentions": [
+    "A004086",
     "A085331",
-    "A086947"
+    "A086947",
+    "A246057",
+    "A323639"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

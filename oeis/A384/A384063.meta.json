@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A172471.",
+  "id": "A384063",
+  "mentions": [
+    "A000217",
+    "A172471",
+    "A173196"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

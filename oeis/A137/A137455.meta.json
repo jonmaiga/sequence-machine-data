@@ -1,16 +1,16 @@
 {
-  "description": "A triangular sequence of coefficients from a three level exponential expansion function: f(x,t)=Log(1 + t)*(1 - t)*Exp(x*(t - t^2)).",
+  "description": "A triangular sequence of coefficients from a three level exponential expansion function: f(x,t) = log(1 + t)*(1 - t)*exp(x*(t - t^2)).",
   "id": "A137455",
   "mentions": [],
   "tags": [
     "formulas",
     "sign",
-    "tabl",
+    "tabf",
     "uned"
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
+    "size": 56,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of lexicographically ordered pairs of permutations of 0..2n-2 such that their sum mod 2n-1 is also a permutation of 0..2n-2",
+  "description": "Number of lexicographically ordered pairs of permutations of 0..2n-2 such that their sum mod 2n-1 is also a permutation of 0..2n-2.",
   "id": "A180237",
   "mentions": [],
   "tags": [

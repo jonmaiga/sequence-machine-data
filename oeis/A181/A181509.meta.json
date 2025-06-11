@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 2, a(n) = (n-th-even n^3) - (sum of previous terms)",
+  "description": "a(1) = 2, a(n) = (n-th-even n^3) - (sum of previous terms).",
   "id": "A181509",
   "mentions": [
     "A000578",

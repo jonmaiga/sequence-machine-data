@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number k such that A383653(n)^4 is the sum of squares of k consecutive integers.",
+  "id": "A383654",
+  "mentions": [
+    "A000330",
+    "A097812",
+    "A189173",
+    "A383359",
+    "A383367",
+    "A383653"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

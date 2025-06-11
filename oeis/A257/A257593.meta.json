@@ -1,16 +1,17 @@
 {
-  "description": "Number of zeros of the polynomial Sum_{j=0..n-1} z^(2^j-1)outside the unit circle.",
+  "description": "Number of zeros of the polynomial Sum_{j=0..n-1} z^(2^j-1) outside the unit circle.",
   "id": "A257593",
   "mentions": [
     "A257592"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 14,
+    "offset": 1,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

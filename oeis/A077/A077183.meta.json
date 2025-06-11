@@ -2,6 +2,7 @@
   "description": "Smallest number k such that the reverse concatenation of natural numbers from k to 1 is divisible by prime(n), or 0 if no such number exists.",
   "id": "A077183",
   "mentions": [
+    "A000422",
     "A077180",
     "A077181",
     "A077182",

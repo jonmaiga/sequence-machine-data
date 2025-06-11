@@ -1,5 +1,5 @@
 {
-  "description": "Number of iterations (...f_4(f_3(f_2(n))))...) such that the result is < 2, where f_j(x):=x^(1/j).",
+  "description": "Number of iterations (...(f_4(f_3(f_2(n))))...) such that the result is < 2, where f_j(x) := x^(1/j).",
   "id": "A211670",
   "mentions": [
     "A001069",

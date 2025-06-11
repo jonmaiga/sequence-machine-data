@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/( Product_{k=0..3} (1 - (4*k+1) * x) ).",
+  "id": "A383634",
+  "mentions": [
+    "A383628"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

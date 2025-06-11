@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number whose sum with any previous term is abundant.",
+  "id": "A383398",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A005100",
+    "A005101",
+    "A005231",
+    "A173490",
+    "A383399"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes with n consecutive digits ascending beginning with the digit nine.",
+  "description": "a(n) consecutive digits ascending beginning with the digit 9 give a prime.",
   "id": "A120827",
   "mentions": [
     "A006055",
@@ -16,6 +16,7 @@
     "base",
     "bref",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

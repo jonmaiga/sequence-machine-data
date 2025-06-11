@@ -1,0 +1,25 @@
+{
+  "description": "Exponential unitary abundant numbers: numbers k such that A322857(k) > 2*k.",
+  "id": "A383693",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A129575",
+    "A209061",
+    "A322857",
+    "A322858",
+    "A361255",
+    "A383694",
+    "A383697",
+    "A383698"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

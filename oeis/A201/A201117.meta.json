@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 3n^3+8.",
+  "description": "Primes of the form 3*k^3 + 8.",
   "id": "A201117",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 32,
     "source": "joeis"
   }
 }

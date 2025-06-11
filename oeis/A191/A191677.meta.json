@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1^(n-1)+2^(n-1)+...+n^(n-1) == 0 (mod n)",
+  "description": "Numbers n such that 1^(n-1)+2^(n-1)+...+n^(n-1) == 0 (mod n).",
   "id": "A191677",
   "mentions": [
     "A121707"

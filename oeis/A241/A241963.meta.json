@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+3 0..7 arrays with no consecutive four elements summing to more than 2*7",
+  "description": "Number of length n+3 0..7 arrays with no consecutive four elements summing to more than 2*7.",
   "id": "A241963",
   "mentions": [
     "A241964"

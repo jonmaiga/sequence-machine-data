@@ -1,5 +1,5 @@
 {
-  "description": "Number of Egyptian fractions with squared denominators: number of solutions of 1 = 1/x_1^2 + ... + 1/x_n^2 where 0 < x_1 <= ... <= x_n.",
+  "description": "Number of Egyptian fractions with squared denominators: number of solutions to the equation 1 = 1/x_1^2 + ... + 1/x_n^2 with 0 < x_1 <= ... <= x_n.",
   "id": "A348625",
   "mentions": [
     "A002966",

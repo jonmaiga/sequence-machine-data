@@ -1,0 +1,13 @@
+{
+  "description": "Number of permutations of length n which avoid the patterns 123 and 4321.",
+  "id": "A383449",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

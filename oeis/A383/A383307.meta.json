@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is number of n-digit nonnegative integers whose difference between the largest and smallest digits is equal to the mode of its digits.",
+  "id": "A383307",
+  "mentions": [
+    "A037904",
+    "A054054",
+    "A054055",
+    "A115353",
+    "A383306"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

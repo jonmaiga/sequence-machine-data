@@ -1,14 +1,18 @@
 {
   "description": "Number of maximum irredundant sets in the n-web graph.",
   "id": "A308350",
-  "mentions": [],
+  "mentions": [
+    "A290591",
+    "A291105"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

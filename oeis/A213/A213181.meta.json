@@ -2,9 +2,14 @@
   "description": "Number of chains of even numbers of length 2 or more in the Collatz (3x+1) trajectory of n.",
   "id": "A213181",
   "mentions": [
-    "A070165"
+    "A014682",
+    "A070165",
+    "A133872",
+    "A139391",
+    "A363270"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

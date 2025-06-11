@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n whose reversal divides the reversal of n+1.",
+  "description": "Numbers k whose reversal divides the reversal of k+1.",
   "id": "A250602",
   "mentions": [
     "A004086",
+    "A055642",
     "A160946",
     "A247201",
     "A250603"
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

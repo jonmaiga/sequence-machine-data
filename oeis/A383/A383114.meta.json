@@ -1,0 +1,17 @@
+{
+  "description": "Triprimes that are concatenations of three consecutive primes.",
+  "id": "A383114",
+  "mentions": [
+    "A014612",
+    "A132903"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

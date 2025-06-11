@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that d(k)^d(k) = d(k) (mod k), where d = A000005.",
+  "id": "A384073",
+  "mentions": [
+    "A000005"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

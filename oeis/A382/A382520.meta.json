@@ -1,0 +1,19 @@
+{
+  "description": "Primes prime(k) such that k^k = k (mod prime(k)).",
+  "id": "A382520",
+  "mentions": [
+    "A000040",
+    "A177005",
+    "A381903"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

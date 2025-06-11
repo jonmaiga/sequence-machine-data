@@ -2,11 +2,13 @@
   "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A057521, the powerful part of n.",
   "id": "A318650",
   "mentions": [
+    "A001620",
     "A046644",
     "A057521",
     "A317935",
     "A318511",
-    "A318649"
+    "A318649",
+    "A328013"
   ],
   "tags": [
     "formulas",

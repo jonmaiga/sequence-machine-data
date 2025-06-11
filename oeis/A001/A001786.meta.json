@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of 1/((1+x)(1-x)^11).",
+  "description": "Expansion of 1/((1+x)*(1-x)^11).",
   "id": "A001786",
   "mentions": [
     "A001780",
     "A046521",
+    "A112465",
     "A158454"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 33,
     "source": "joeis"
   }
 }

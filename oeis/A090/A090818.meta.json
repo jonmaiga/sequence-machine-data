@@ -1,13 +1,16 @@
 {
-  "description": "Nonprimes n such that 3*(3^n-1)*B(2n) is an integer, where B(k) denotes the k-th Bernoulli number.",
+  "description": "Nonprime numbers k such that 3*(3^k-1)*B(2*k) is an integer, where B(k) denotes the k-th Bernoulli number.",
   "id": "A090818",
-  "mentions": [],
+  "mentions": [
+    "A027641",
+    "A027642"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

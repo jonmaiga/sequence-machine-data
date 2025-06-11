@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..5 symmetric arrays with every row summing to floor(n*5/2)",
+  "description": "Number of n X n 0..5 symmetric arrays with every row summing to floor(n*5/2).",
   "id": "A213797",
   "mentions": [
     "A213800"

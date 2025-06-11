@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number m such that m*(m + 1)*(2*m + 1)/6 is divisible by n.",
+  "id": "A383075",
+  "mentions": [
+    "A000330",
+    "A007520",
+    "A011772"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

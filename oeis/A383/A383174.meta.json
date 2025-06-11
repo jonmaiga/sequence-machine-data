@@ -1,0 +1,18 @@
+{
+  "description": "Permutation of the natural numbers formed by ordering by max(gpfi,bigomega), then bigomega, then numerically, where gpfi(k) = A061395(k) and bigomega(k) = A001222(k).",
+  "id": "A383174",
+  "mentions": [
+    "A001222",
+    "A061395",
+    "A263297",
+    "A344844"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

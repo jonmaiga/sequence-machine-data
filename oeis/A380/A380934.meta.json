@@ -1,0 +1,16 @@
+{
+  "description": "Elias delta encoding of n converted from base 2 to integer.",
+  "id": "A380934",
+  "mentions": [
+    "A281150"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of values m that satisfy floor(sqrt(m))=n and A382286(m)=1.",
+  "id": "A382306",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A382286"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

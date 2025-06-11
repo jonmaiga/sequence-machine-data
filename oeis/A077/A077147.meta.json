@@ -1,14 +1,17 @@
 {
-  "description": "Floor[{concatenation 123 ... up to n}/n].",
+  "description": "a(n) = floor({concatenation 123 ... up to n}/n).",
   "id": "A077147",
-  "mentions": [],
+  "mentions": [
+    "A007908"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

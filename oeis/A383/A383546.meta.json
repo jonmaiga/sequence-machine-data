@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest number k such that i*n - 1 is squarefree for all 1 <= i <= k, or 0 if no such number exists.",
+  "id": "A383546",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A071809",
+    "A383543",
+    "A383547",
+    "A383548"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

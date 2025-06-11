@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of possible choices for the first n terms of a \"mean-central\" sequence, where a monotonically increasing sequence of positive integers {b(n)} is called \"mean-central\" if for each positive integer k, the arithmetic mean of the first b(k) terms is exactly b(k).",
+  "id": "A383192",
+  "mentions": [
+    "A383193",
+    "A383194"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

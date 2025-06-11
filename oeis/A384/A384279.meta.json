@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the largest zero of the Laguerre polynomial of degree 3.",
+  "id": "A384279",
+  "mentions": [
+    "A014176",
+    "A100954",
+    "A101465",
+    "A201488",
+    "A384277",
+    "A384278",
+    "A384280",
+    "A384281"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

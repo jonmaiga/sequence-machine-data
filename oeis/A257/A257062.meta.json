@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n 1..(k+1) arrays with every leading partial sum divisible by 2 or 3",
+  "description": "T(n,k)=Number of length n 1..(k+1) arrays with every leading partial sum divisible by 2 or 3.",
   "id": "A257062",
   "mentions": [
     "A000244",

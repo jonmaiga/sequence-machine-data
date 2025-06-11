@@ -1,0 +1,19 @@
+{
+  "description": "The composite numbers ordered by decreasing reciprocal-distance from the primes (reciprocal distance defined in comments).",
+  "id": "A382529",
+  "mentions": [
+    "A000040",
+    "A002386",
+    "A002808",
+    "A005250",
+    "A354604"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

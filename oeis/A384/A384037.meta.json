@@ -1,0 +1,19 @@
+{
+  "description": "Number of paths with length A383980(n) touching all cells in an n X n grid, where rotations, reflections, and translations are not counted as distinct.",
+  "id": "A384037",
+  "mentions": [
+    "A383980"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

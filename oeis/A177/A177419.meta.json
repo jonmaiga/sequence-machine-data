@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (7*10^n+17)/3",
+  "description": "Primes of the form (7*10^n+17)/3.",
   "id": "A177419",
   "mentions": [
     "A102951"

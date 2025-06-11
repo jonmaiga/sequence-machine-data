@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numerator of Sum_{k = 1..n} (1/k^3) * binomial(n,k)^2 * binomial(n+k,k)^2 for n >= 1 with a(0) = 0",
+  "description": "a(n) = numerator of Sum_{k = 1..n} (1/k^3) * binomial(n,k)^2 * binomial(n+k,k)^2 for n >= 1 with a(0) = 0.",
   "id": "A357513",
   "mentions": [
     "A005259",

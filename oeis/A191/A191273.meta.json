@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric binary matrices with each 1 adjacent to exactly 1 diagonally or antidiagonally neighboring 1",
+  "description": "Number of n X n symmetric binary matrices with each 1 adjacent to exactly 1 diagonally or antidiagonally neighboring 1.",
   "id": "A191273",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of Narayana numbers mod 2, T(n,k) = A001263(n,k) mod 2.",
+  "description": "Triangle of Narayana numbers mod 2, T(n,k) = A001263(n,k) mod 2, read by rows.",
   "id": "A166360",
   "mentions": [
     "A001263",

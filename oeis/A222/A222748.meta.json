@@ -2,7 +2,8 @@
   "description": "Poly-Cauchy numbers c_n^(-4).",
   "id": "A222748",
   "mentions": [
-    "A222627"
+    "A222627",
+    "A383049"
   ],
   "tags": [
     "formulas",

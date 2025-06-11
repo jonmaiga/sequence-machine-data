@@ -1,8 +1,10 @@
 {
-  "description": "a(n)=6*c(n,1) where n runs through the 3-smooth numbers (see comment).",
+  "description": "a(n) = 6*c(m,1) where m = A003586(n) is the n-th 3-smooth number, c(m,k) = {(m^(2*k)-1)*B(2*k)}, {x} denotes the fractional part of x and B(k) is the k-th Bernoulli number.",
   "id": "A098229",
   "mentions": [
-    "A003586"
+    "A003586",
+    "A027641",
+    "A027642"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

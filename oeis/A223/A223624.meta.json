@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX6 0..1 arrays with row sums nondecreasing and column sums unimodal",
+  "description": "Number of n X 6 0..1 arrays with row sums nondecreasing and column sums unimodal.",
   "id": "A223624",
   "mentions": [
     "A223625"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "The smallest starting prime for which the sum of 2*n consecutive primes is 0 modulo 10, or -1 if no such prime exists.",
+  "description": "Smallest starting prime for which the sum of 2*n consecutive primes is 0 modulo 10, or -1 if no such prime exists.",
   "id": "A381869",
   "mentions": [
     "A007652",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

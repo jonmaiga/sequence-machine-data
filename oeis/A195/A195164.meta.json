@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = column number of Stolarsky array that contains n with column count beginning at 1",
+  "description": "a(n) = column number of Stolarsky array that contains n with column count beginning at 1.",
   "id": "A195164",
   "mentions": [
     "A098862"

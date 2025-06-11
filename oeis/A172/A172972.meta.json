@@ -1,5 +1,5 @@
 {
-  "description": "Subtraction triangle based on A029826: c(n)=Product[A029826(i),{i,0,n)];t(n,m)=c(n)-c(m)-c(n-m)",
+  "description": "Subtraction triangle based on A029826: c(n)=Product[A029826(i),{i,0,n)];t(n,m)=c(n)-c(m)-c(n-m).",
   "id": "A172972",
   "mentions": [
     "A029826"

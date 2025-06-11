@@ -2,6 +2,7 @@
   "description": "a(n) = n*(n+1)/2 mod 2048.",
   "id": "A105340",
   "mentions": [
+    "A000217",
     "A105198"
   ],
   "tags": [

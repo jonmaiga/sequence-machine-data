@@ -1,13 +1,17 @@
 {
   "description": "Sum[k^(n-k)], where sum is over positive integers, k, where k <= n and gcd(k,n) = 1.",
   "id": "A057791",
-  "mentions": [],
+  "mentions": [
+    "A057789",
+    "A066840",
+    "A124440"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "joeis"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

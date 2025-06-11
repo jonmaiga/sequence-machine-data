@@ -1,5 +1,5 @@
 {
-  "description": "Square array by antidiagonals of number of straight lines with n points in a k-dimensional hypercube of with n points on each edge.",
+  "description": "Square array by antidiagonals of number of straight lines with n points in a k-dimensional hypercube with n points on each edge.",
   "id": "A105373",
   "mentions": [
     "A000012",

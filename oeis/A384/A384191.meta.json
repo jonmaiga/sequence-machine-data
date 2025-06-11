@@ -1,0 +1,18 @@
+{
+  "description": "Unique increasing sequence (a(n)) whose complement, (b(n)), satisfies b(n) = a(a(n))+3.",
+  "id": "A384191",
+  "mentions": [
+    "A000201",
+    "A137708",
+    "A383192",
+    "A384192"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Bell polynomial B(n,k){3,6,6,0,...,0}",
+  "description": "Bell polynomial B(n,k){3,6,6,0,...,0}.",
   "id": "A187082",
   "mentions": [
     "A264428"

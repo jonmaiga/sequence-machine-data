@@ -2,6 +2,7 @@
   "description": "Convolve natural numbers with characteristic function of triangular numbers.",
   "id": "A006463",
   "mentions": [
+    "A000041",
     "A000122",
     "A000700",
     "A003056",

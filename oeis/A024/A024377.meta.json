@@ -1,7 +1,8 @@
 {
-  "description": "s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = A023532, t = (primes).",
+  "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = A023532, t = (primes).",
   "id": "A024377",
   "mentions": [
+    "A000040",
     "A023532"
   ],
   "tags": [
@@ -9,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
+    "size": 53,
     "source": "joeis"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Fibonacci sequence beginning 0, 10.",
   "id": "A022093",
   "mentions": [
+    "A000032",
     "A000045"
   ],
   "tags": [

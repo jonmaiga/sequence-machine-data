@@ -1,0 +1,19 @@
+{
+  "description": "Primorial base echo numbers: primorial base expansion of k has the largest prime factor of k-1 as its suffix.",
+  "id": "A383296",
+  "mentions": [
+    "A006530",
+    "A049345",
+    "A383297",
+    "A383896"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

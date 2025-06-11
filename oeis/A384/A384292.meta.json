@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator (214013*s+13523655) mod 2^24 when started at s=1.",
+  "id": "A384292",
+  "mentions": [
+    "A384289",
+    "A384290",
+    "A384291",
+    "A384293"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

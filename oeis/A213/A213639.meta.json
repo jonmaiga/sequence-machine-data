@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: x = A( x - A(x)^3/x ).",
+  "description": "G.f. A(x) satisfies x = A( x - A(x)^3/x ).",
   "id": "A213639",
   "mentions": [
     "A213591"

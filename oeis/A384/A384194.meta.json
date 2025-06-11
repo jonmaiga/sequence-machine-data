@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator 259*s mod 2^15 when started at s=1.",
+  "id": "A384194",
+  "mentions": [
+    "A096555",
+    "A384158"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

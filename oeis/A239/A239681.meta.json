@@ -1,5 +1,5 @@
 {
-  "description": "Primality of Mersenne number 2^prime(n)-1",
+  "description": "Primality of Mersenne number 2^prime(n)-1.",
   "id": "A239681",
   "mentions": [
     "A001348",

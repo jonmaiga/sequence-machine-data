@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient of x^n in the expansion of 1 / (1-x-x^4)^n.",
+  "id": "A383481",
+  "mentions": [
+    "A003269",
+    "A063021",
+    "A370624"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

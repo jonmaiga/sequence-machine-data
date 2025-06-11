@@ -2,7 +2,8 @@
   "description": "Consecutive values produced by the C++ minstd_rand random number generator with the default seed (1).",
   "id": "A221556",
   "mentions": [
-    "A096550"
+    "A096550",
+    "A384405"
   ],
   "tags": [
     "easy",

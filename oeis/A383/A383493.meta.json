@@ -1,0 +1,24 @@
+{
+  "description": "Number of polyforms with n cells on the faces of a triakis icosahedron up to rotation.",
+  "id": "A383493",
+  "mentions": [
+    "A030137",
+    "A030138",
+    "A151531",
+    "A383491",
+    "A383492",
+    "A383495",
+    "A383497",
+    "A383498"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

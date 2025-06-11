@@ -2,6 +2,7 @@
   "description": "Primes of the form p*q - p - q, where p and q are primes.",
   "id": "A091305",
   "mentions": [
+    "A001359",
     "A066938",
     "A091301"
   ],

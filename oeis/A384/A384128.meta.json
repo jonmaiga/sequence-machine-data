@@ -1,0 +1,16 @@
+{
+  "description": "Number of iterations for the circular absolute first-difference on decimal digits to reach a repdigit.",
+  "id": "A384128",
+  "mentions": [
+    "A010785"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

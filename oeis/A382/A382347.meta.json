@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) = [x^n] Product_{j=0..n} (1 + (k*n+j)*x).",
+  "id": "A382347",
+  "mentions": [
+    "A000142",
+    "A165675",
+    "A380707",
+    "A382349",
+    "A383678",
+    "A384024"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

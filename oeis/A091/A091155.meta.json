@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n - 2^k is squarefree for all 1 <= 2^k < n.",
+  "description": "Numbers m such that m - 2^k is squarefree for all 1 <= 2^k < m.",
   "id": "A091155",
   "mentions": [
     "A039669"

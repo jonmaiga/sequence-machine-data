@@ -1,0 +1,18 @@
+{
+  "description": "Primes that can be expressed using exactly one of each of the prime digits 2, 3, 5, 7, using concatenation and the arithmetic operations +,-,*,/,^.",
+  "id": "A382765",
+  "mentions": [
+    "A382901"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

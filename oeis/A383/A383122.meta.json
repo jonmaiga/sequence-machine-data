@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number that can be expressed as the sum of the smallest number of powers with different exponents greater than one in n different ways (for unitary bases, the smallest possible exponents are considered).",
+  "id": "A383122",
+  "mentions": [
+    "A351062",
+    "A351063",
+    "A351064",
+    "A351065",
+    "A351066"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

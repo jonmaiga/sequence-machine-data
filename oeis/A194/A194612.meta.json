@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of lower triangles of an (n+1)X(n+1) 0..5 array with no element equal to the average of its horizontal and vertical neighbors",
+  "description": "Half the number of lower triangles of an (n+1) X (n+1) 0..5 array with no element equal to the average of its horizontal and vertical neighbors.",
   "id": "A194612",
   "mentions": [
     "A194615"

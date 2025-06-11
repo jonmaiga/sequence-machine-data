@@ -1,0 +1,26 @@
+{
+  "description": "Conjectured list of least elements of nontrivial arithmetic derivative orbits.",
+  "id": "A383619",
+  "mentions": [
+    "A003415",
+    "A068346",
+    "A099306",
+    "A258644",
+    "A258645",
+    "A258646",
+    "A258647",
+    "A258648",
+    "A258649",
+    "A258650"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

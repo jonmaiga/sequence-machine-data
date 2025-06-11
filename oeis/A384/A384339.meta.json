@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator for Berkeley Pascal 3.1 when started at 1.",
+  "id": "A384339",
+  "mentions": [
+    "A383940",
+    "A384150",
+    "A384194",
+    "A384236"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

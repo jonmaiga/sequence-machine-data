@@ -2,7 +2,9 @@
   "description": "a(n) = (n!)^2 * [(x*y)^n] Product_{k>=1} (1 + (x^k + y^k)/k!).",
   "id": "A382959",
   "mentions": [
-    "A007837"
+    "A007837",
+    "A108796",
+    "A365662"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

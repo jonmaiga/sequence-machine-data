@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least prime prime(k), k > n, such that A036689(k) or A036690(k) is s(n) + s(n+1) + ... + s(j), j < k, where each s(i) is either A036689(i) or A036690(i)",
+  "description": "a(n) is the least prime prime(k), k > n, such that A036689(k) or A036690(k) is s(n) + s(n+1) + ... + s(j), j < k, where each s(i) is either A036689(i) or A036690(i).",
   "id": "A351318",
   "mentions": [
     "A036689",

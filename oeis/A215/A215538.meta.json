@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that 101^n - 100^n is prime.",
+  "description": "Numbers k such that 101^k - 100^k is prime.",
   "id": "A215538",
   "mentions": [],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

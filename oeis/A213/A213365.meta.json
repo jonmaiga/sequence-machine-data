@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3n is a partition number.",
+  "description": "Numbers k such that 3*k is a partition number.",
   "id": "A213365",
   "mentions": [
     "A000041",
@@ -21,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

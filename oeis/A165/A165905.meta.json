@@ -1,5 +1,5 @@
 {
-  "description": "Somos-4 recurrence with a(0)=1, a(1)=2, a(2)=4, a(3)=16",
+  "description": "Somos-4 recurrence with a(0)=1, a(1)=2, a(2)=4, a(3)=16.",
   "id": "A165905",
   "mentions": [
     "A006720",

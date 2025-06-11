@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of polynomials g_b(x) that arise in the generating function for rooted maps (A053979)",
+  "description": "Coefficients of polynomials g_b(x) that arise in the generating function for rooted maps (A053979).",
   "id": "A305873",
   "mentions": [
     "A001147",

@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n>=1, k>=0) is the number of trees with n nodes in which there are k edges whose end-vertices have the same degree.",
+  "id": "A383448",
+  "mentions": [
+    "A000055",
+    "A383447"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

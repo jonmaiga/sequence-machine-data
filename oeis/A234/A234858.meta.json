@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with each 3X3 subblock having the sum of its 72 absolute element differences equal to 46",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with each 3X3 subblock having the sum of its 72 absolute element differences equal to 46.",
   "id": "A234858",
   "mentions": [],
   "tags": [

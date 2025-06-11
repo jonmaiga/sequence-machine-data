@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{0 < k < n: prime(k)^2 + 4*prime(n-k)^2 is prime}|",
+  "description": "a(n) = |{0 < k < n: prime(k)^2 + 4*prime(n-k)^2 is prime}|.",
   "id": "A233439",
   "mentions": [
     "A000009",

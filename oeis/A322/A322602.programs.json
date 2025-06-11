@@ -20,6 +20,34 @@
       "tags": [
         "proven"
       ]
+    },
+    {
+      "d": "2025-06-07",
+      "ix": "ceil(log(cosh(contfrac[cosh(γ)])))",
+      "mt": 50,
+      "px": [
+        "γ",
+        "cosh",
+        "contfrac",
+        "cosh",
+        "log",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2025-06-07",
+      "ix": "contfrac[cosh(γ)]%(n+2)!",
+      "mt": 50,
+      "px": [
+        "γ",
+        "cosh",
+        "contfrac",
+        "n",
+        "2",
+        "+",
+        "!",
+        "%"
+      ]
     }
   ]
 }

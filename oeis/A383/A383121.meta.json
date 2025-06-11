@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) * binomial(n,k) * binomial(n*k,k).",
+  "id": "A383121",
+  "mentions": [
+    "A002426",
+    "A349471",
+    "A378409",
+    "A383118",
+    "A383119",
+    "A383120"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

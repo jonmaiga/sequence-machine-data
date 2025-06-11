@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular binary arrays with all 1s connected, no 1 having more than 3 1s adjacent, and all vertexes 1",
+  "description": "Number of nXnXn triangular binary arrays with all 1s connected, no 1 having more than 3 1s adjacent, and all vertexes 1.",
   "id": "A163883",
   "mentions": [],
   "tags": [

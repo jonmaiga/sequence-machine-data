@@ -2,6 +2,8 @@
   "description": "G.f.: Sum_{n>=1} Fibonacci(n+1) * x^n / (1 - x^n).",
   "id": "A245282",
   "mentions": [
+    "A000045",
+    "A007435",
     "A034729"
   ],
   "tags": [

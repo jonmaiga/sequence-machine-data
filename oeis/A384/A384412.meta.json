@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k^2 * x)^((1/30) * (2/3)^k).",
+  "id": "A384412",
+  "mentions": [
+    "A004123",
+    "A050351",
+    "A247082",
+    "A384414"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

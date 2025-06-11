@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k that have at least one divisor d_i(k) for which a divisor d_j(k) exists such that d_i(k) < d_j(k) < sigma(d_i(k)).",
+  "id": "A383488",
+  "mentions": [
+    "A000203",
+    "A002808",
+    "A008594",
+    "A008600",
+    "A008602",
+    "A008606",
+    "A027750",
+    "A044102",
+    "A109042",
+    "A135628",
+    "A383360",
+    "A383489"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

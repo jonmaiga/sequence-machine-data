@@ -1,5 +1,5 @@
 {
-  "description": "Numbers given by a(n) = 1 + floor(c^(n^1.5)) where c=2.2679962677... is the constant defined at A338837",
+  "description": "Numbers given by a(n) = 1 + floor(c^(n^1.5)) where c=2.2679962677... is the constant defined at A338837.",
   "id": "A338613",
   "mentions": [
     "A051021",

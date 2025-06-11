@@ -1,0 +1,18 @@
+{
+  "description": "Integers k that are equal to the sum of at least two of their anagrams, which must have the same number of digits as k.",
+  "id": "A384433",
+  "mentions": [
+    "A055098",
+    "A160851",
+    "A319274"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = tau(phi(sigma(n)))",
+  "description": "a(n) = tau(phi(sigma(n))).",
   "id": "A163371",
   "mentions": [
     "A000005",

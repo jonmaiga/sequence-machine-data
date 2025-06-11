@@ -2,6 +2,7 @@
   "description": "Erroneous version of: Primes from merging of 10 successive digits in decimal expansion of cos(1).",
   "id": "A104966",
   "mentions": [
+    "A049470",
     "A225140"
   ],
   "tags": [

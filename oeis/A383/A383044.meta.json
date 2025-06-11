@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that phi(m) + phi(m+phi(m)) = m where phi is the Euler totient function.",
+  "id": "A383044",
+  "mentions": [
+    "A000010",
+    "A003586",
+    "A033845",
+    "A121048"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

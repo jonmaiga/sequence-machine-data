@@ -1,5 +1,5 @@
 {
-  "description": "Distance of primes to next odd multiple of 5 (where n mod 10 = 5),",
+  "description": "Distance of primes to next odd multiple of 5 (where n mod 10 = 5).",
   "id": "A048199",
   "mentions": [
     "A007652",

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; thereafter a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference between a(n-1) and a(n) is a triangular number; in case of a tie, preference is given to the positive value.",
+  "id": "A383442",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000290",
+    "A001477",
+    "A377091",
+    "A383443",
+    "A383688"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

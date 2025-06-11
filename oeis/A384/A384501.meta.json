@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} abs(Stirling1(n,k)) * Stirling2(n,n-k).",
+  "id": "A384501",
+  "mentions": [
+    "A047793",
+    "A187655",
+    "A187656"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

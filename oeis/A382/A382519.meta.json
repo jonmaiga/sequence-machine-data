@@ -1,0 +1,23 @@
+{
+  "description": "Odd positive integers m such that phi(m) and phi(m+1) are both powers of 2.",
+  "id": "A382519",
+  "mentions": [
+    "A000215",
+    "A003401",
+    "A019434",
+    "A051179",
+    "A250405",
+    "A382803"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

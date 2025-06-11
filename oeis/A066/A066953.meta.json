@@ -1,10 +1,12 @@
 {
-  "description": "Integers of the form (n!+1)/prime(n).",
+  "description": "Integers of the form (k!+1)/prime(k).",
   "id": "A066953",
   "mentions": [
     "A068000"
   ],
   "tags": [
+    "formulas",
+    "hard",
     "nonn"
   ],
   "terms": {

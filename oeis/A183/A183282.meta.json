@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular binary arrays with no element having four consecutive neighbors taken clockwise with value 1",
+  "description": "Number of nXnXn triangular binary arrays with no element having four consecutive neighbors taken clockwise with value 1.",
   "id": "A183282",
   "mentions": [],
   "tags": [

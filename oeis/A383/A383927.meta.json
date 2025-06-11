@@ -1,0 +1,18 @@
+{
+  "description": "Binary echo numbers: positive integers k such that the gpf(k-1) is a suffix of k when gpf(k-1) and k are written in binary.",
+  "id": "A383927",
+  "mentions": [
+    "A006530",
+    "A383296",
+    "A383896"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

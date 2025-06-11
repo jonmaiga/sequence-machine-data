@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = S(n,3) where S(n,m) = Sum_{k=0..n} binomial(n,k)*fibonacci(m*k).",
+  "description": "a(n) = S(n,3) where S(n,m) = Sum_{k=0..n} binomial(n,k)*Fibonacci(m*k).",
   "id": "A087635",
   "mentions": [
+    "A000045",
     "A001906",
     "A030191",
     "A084326"

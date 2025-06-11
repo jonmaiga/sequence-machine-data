@@ -1,9 +1,10 @@
 {
-  "description": "Numbers k where records occurred in expression Log[A147299(k)]/Log[k] k=2,3,4,...",
+  "description": "Numbers k where records occur in expression Log[A147298(k)]/Log[k] k=2,3,4,...",
   "id": "A147303",
   "mentions": [
     "A147298",
-    "A147299",
+    "A147301",
+    "A147302",
     "A147304",
     "A147307"
   ],

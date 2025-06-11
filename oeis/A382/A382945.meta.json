@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer k having a divisor d such that k/d is not a power of n and the base n expansions of k and d, possibly with leading zeros, have, up to order, the same digits.",
+  "id": "A382945",
+  "mentions": [
+    "A096092",
+    "A382946"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

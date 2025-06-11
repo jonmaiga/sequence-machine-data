@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients of polynomials in Sum_{k=0..n} binomial(n,k)*k^r.",
+  "description": "Triangle of coefficients of polynomials in Sum_{k=0..n} binomial(n,k) * k^r.",
   "id": "A102573",
   "mentions": [
     "A209849"

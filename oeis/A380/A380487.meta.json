@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that the sum of prime factors without repetition divides the product of primes factors without repetition and each division yields a greater quotient.",
+  "description": "Numbers such that the sum of prime factors without repetition divides the product of prime factors without repetition and each division yields a greater quotient.",
   "id": "A380487",
   "mentions": [
     "A007947",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

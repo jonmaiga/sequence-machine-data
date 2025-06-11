@@ -1,5 +1,5 @@
 {
-  "description": "Length of cycle corresponding to n-th term of A165107",
+  "description": "Length of cycle corresponding to n-th term of A165107.",
   "id": "A165109",
   "mentions": [
     "A000012",

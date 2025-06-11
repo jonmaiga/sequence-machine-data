@@ -1,7 +1,11 @@
 {
-  "description": "Nonzero denominators in the expansion of sin(x)+exp(x)-1-2x.",
+  "description": "Denominators of nonzero terms in the expansion of sin(x)+exp(x)-1-2*x.",
   "id": "A068878",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A049469",
+    "A348374"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

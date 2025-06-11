@@ -1,5 +1,5 @@
 {
-  "description": "n-1+ceiling(3(n+2)/5); complement of A183864.",
+  "description": "a(n) = n - 1 + ceiling(3*(n+2)/5); complement of A183864.",
   "id": "A183865",
   "mentions": [
     "A183864"

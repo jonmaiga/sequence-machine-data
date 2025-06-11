@@ -1,13 +1,15 @@
 {
   "description": "a(n) = (n^2)!/(n!)^(n+1)/(2n-1).",
   "id": "A076181",
-  "mentions": [],
+  "mentions": [
+    "A088020"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

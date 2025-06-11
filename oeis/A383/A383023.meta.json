@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals downwards, where A(n,k) is the n-th term of the inverse Weigh transform of j-> k^j.",
+  "id": "A383023",
+  "mentions": [
+    "A074650",
+    "A209229",
+    "A306156",
+    "A306157",
+    "A306158",
+    "A306159"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

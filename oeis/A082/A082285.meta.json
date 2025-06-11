@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 16n + 13.",
+  "description": "a(n) = 16*n + 13.",
   "id": "A082285",
   "mentions": [
+    "A004770",
     "A008594",
     "A008598",
     "A016813",

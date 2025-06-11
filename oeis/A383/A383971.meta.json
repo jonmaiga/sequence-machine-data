@@ -1,0 +1,22 @@
+{
+  "description": "Triprimes with sum of digits 3.",
+  "id": "A383971",
+  "mentions": [
+    "A001222",
+    "A007953",
+    "A014612",
+    "A050689",
+    "A052217",
+    "A076850",
+    "A083207"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

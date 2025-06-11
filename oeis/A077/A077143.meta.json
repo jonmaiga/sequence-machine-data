@@ -1,5 +1,5 @@
 {
-  "description": "Floor[ product of next n primes /sum of next n primes].",
+  "description": "a(n) = floor(product of next n primes / sum of next n primes).",
   "id": "A077143",
   "mentions": [
     "A077144",

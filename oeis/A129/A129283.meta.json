@@ -1,14 +1,16 @@
 {
-  "description": "(Arithmetic derivative of n) + n.",
+  "description": "a(n) = (arithmetic derivative of n) + n.",
   "id": "A129283",
   "mentions": [
     "A003415",
     "A051674",
     "A129284",
     "A129285",
-    "A129286"
+    "A129286",
+    "A136141"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

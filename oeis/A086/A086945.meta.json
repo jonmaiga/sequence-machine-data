@@ -2,10 +2,13 @@
   "description": "a(n) = 7*10^n - 9.",
   "id": "A086945",
   "mentions": [
+    "A004086",
     "A086940"
   ],
   "tags": [
+    "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

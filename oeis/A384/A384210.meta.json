@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers <= n of the form p * m^2, where p is a prime and m is an integer >= 1.",
+  "id": "A384210",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A008836",
+    "A055038",
+    "A229125",
+    "A358769"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

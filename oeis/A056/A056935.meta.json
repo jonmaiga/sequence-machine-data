@@ -1,5 +1,5 @@
 {
-  "description": "Antichains (or order ideals) in the poset 2*3*3*n or size of the distributive lattice J(2*3*3*n)",
+  "description": "Antichains (or order ideals) in the poset 2*3*3*n or size of the distributive lattice J(2*3*3*n).",
   "id": "A056935",
   "mentions": [
     "A000372",

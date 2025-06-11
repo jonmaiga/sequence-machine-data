@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of Product_{j=1..n, k=1..n} (1 + x^(k^j)).",
+  "description": "a(n) = [x^n] Product_{j=1..n, k=1..n} (1 + x^(k^j)).",
   "id": "A369578",
   "mentions": [
     "A000009",

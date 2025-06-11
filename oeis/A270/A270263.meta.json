@@ -1,5 +1,5 @@
 {
-  "description": "Integers divisible by the last row of their \"upside-down\" triangle (see comments)",
+  "description": "Integers divisible by the last row of their \"upside-down\" triangle (see comments).",
   "id": "A270263",
   "mentions": [
     "A048378"

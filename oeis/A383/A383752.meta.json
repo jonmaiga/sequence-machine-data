@@ -1,0 +1,20 @@
+{
+  "description": "Product of nonzero remainders n mod p, over all primes p < n.",
+  "id": "A383752",
+  "mentions": [
+    "A000040",
+    "A013939",
+    "A024934",
+    "A102647",
+    "A309912"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

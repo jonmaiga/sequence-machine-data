@@ -1,5 +1,5 @@
 {
-  "description": "The number of order-decreasing partial isometries (of an n-chain)",
+  "description": "The number of order-decreasing partial isometries (of an n-chain).",
   "id": "A184052",
   "mentions": [
     "A184051"

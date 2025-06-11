@@ -1,19 +1,19 @@
 {
-  "description": "Decimal expansion of -x, where x is the real root of f(x) = 1 + (twin_prime(n))x^n.",
+  "description": "Decimal expansion of -x, where x is the real root of f(x) = 1 + Sum_{n} (twin_prime(n))*x^n.",
   "id": "A104225",
   "mentions": [
     "A072508",
     "A074269",
+    "A077800",
     "A088751"
   ],
   "tags": [
     "cons",
-    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 100,
     "source": "oeis-entry"
   }

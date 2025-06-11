@@ -1,5 +1,5 @@
 {
-  "description": "Fixed point of morphism 0->0PPMM00, P->0PPMM0P, M=0PPMM0M (where P=+1, M=-1)",
+  "description": "Fixed point of morphism 0->0PPMM00, P->0PPMM0P, M=0PPMM0M (where P=+1, M=-1).",
   "id": "A176416",
   "mentions": [
     "A014577",

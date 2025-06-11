@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Fibonacci(A383320(n)).",
+  "id": "A383321",
+  "mentions": [
+    "A038546",
+    "A302656",
+    "A383318",
+    "A383320",
+    "A383322"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

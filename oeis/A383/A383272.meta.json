@@ -1,0 +1,18 @@
+{
+  "description": "Positions of records in A383271.",
+  "id": "A383272",
+  "mentions": [
+    "A276694",
+    "A322743",
+    "A383271"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

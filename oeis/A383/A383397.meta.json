@@ -1,0 +1,17 @@
+{
+  "description": "Numbers in whose canonical prime factorization the powers of the primes form a strictly increasing sequence.",
+  "id": "A383397",
+  "mentions": [
+    "A005117",
+    "A140831"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

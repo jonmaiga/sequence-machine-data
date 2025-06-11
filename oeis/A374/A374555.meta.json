@@ -1,14 +1,17 @@
 {
   "description": "Number of maximal independent vertex sets in the n-flower graph.",
   "id": "A374555",
-  "mentions": [],
+  "mentions": [
+    "A366516"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 5,
-    "size": 16,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

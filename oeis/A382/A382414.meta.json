@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that gcd(ord_p(2), ord_p(5)) = 1.",
+  "id": "A382414",
+  "mentions": [
+    "A014664",
+    "A211241",
+    "A344202",
+    "A383411"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

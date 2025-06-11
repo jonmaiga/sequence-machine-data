@@ -1,5 +1,5 @@
 {
-  "description": "Product of lowest and highest prime factors of 2^n-1",
+  "description": "Product of lowest and highest prime factors of 2^n-1.",
   "id": "A249780",
   "mentions": [
     "A005420",

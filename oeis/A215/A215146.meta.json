@@ -2,6 +2,8 @@
   "description": "a(n) = 21*n + 1.",
   "id": "A215146",
   "mentions": [
+    "A016777",
+    "A016993",
     "A124198",
     "A161709"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 48,
+    "size": 52,
     "source": "joeis"
   }
 }

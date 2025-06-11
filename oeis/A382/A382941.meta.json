@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = exp(Sum_{d|n} A382883(d)*log(n/d)).",
+  "id": "A382941",
+  "mentions": [
+    "A000469",
+    "A014963",
+    "A205959",
+    "A382883",
+    "A383263"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

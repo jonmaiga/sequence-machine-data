@@ -1,5 +1,5 @@
 {
-  "description": "Floor((2*n+1/n)^n)",
+  "description": "a(n) = floor((2*n+1/n)^n).",
   "id": "A197322",
   "mentions": [
     "A014052"

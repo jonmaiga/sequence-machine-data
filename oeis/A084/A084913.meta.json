@@ -1,5 +1,5 @@
 {
-  "description": "Number of monomial ideals in two variables that are artinian, integrally closed and of colength n.",
+  "description": "Number of monomial ideals in two variables that are Artinian, integrally closed and of colength n.",
   "id": "A084913",
   "mentions": [
     "A086161",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

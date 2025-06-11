@@ -2,6 +2,8 @@
   "description": "First differences of A051870: 16*n + 1.",
   "id": "A158057",
   "mentions": [
+    "A016813",
+    "A017077",
     "A051870",
     "A158056",
     "A249356"

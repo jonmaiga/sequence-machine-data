@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f.: exp(log(1+x)-log(1+x)^2)",
+  "description": "Expansion of e.g.f.: exp(log(1+x)-log(1+x)^2).",
   "id": "A189425",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that the p-th evil numbers is prime; 2 together with evil primes p such that 2p - 1 is prime.",
+  "description": "Primes p such that the p-th evil number is prime; 2 together with evil primes p such that 2p - 1 is prime.",
   "id": "A234999",
   "mentions": [
     "A001969",

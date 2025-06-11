@@ -1,0 +1,24 @@
+{
+  "description": "Number of connected subsets of n edges of the icosidodecahedron up to the 120 rotations and reflections of the icosidodecahedron.",
+  "id": "A383984",
+  "mentions": [
+    "A019988",
+    "A333333",
+    "A383490",
+    "A383973",
+    "A383974",
+    "A383981",
+    "A383982",
+    "A383983"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

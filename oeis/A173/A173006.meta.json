@@ -1,5 +1,5 @@
 {
-  "description": "A product triangle sequence based on recursion:a=5; f(n,a)=(2*a+1)*f(n-1,a)+f(n-2,a)",
+  "description": "A product triangle sequence based on recursion:a=5; f(n,a)=(2*a+1)*f(n-1,a)+f(n-2,a).",
   "id": "A173006",
   "mentions": [
     "A034801",

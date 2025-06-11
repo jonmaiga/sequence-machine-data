@@ -1,10 +1,13 @@
 {
-  "description": "Satisfies A^5 = BINOMIAL(A)^4; also equals A090356^4.",
+  "description": "G.f. satisfies A^5 = BINOMIAL(A)^4; also equals A090356^4.",
   "id": "A090357",
   "mentions": [
     "A019538",
     "A050353",
+    "A090352",
+    "A090355",
     "A090356",
+    "A090362",
     "A094417",
     "A201365"
   ],
@@ -16,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

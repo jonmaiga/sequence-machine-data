@@ -1,0 +1,24 @@
+{
+  "description": "Number of connected subsets of n edges of the rhombic dodecahedron up to the 48 rotations and reflections of the rhombic dodecahedron.",
+  "id": "A383981",
+  "mentions": [
+    "A019988",
+    "A333333",
+    "A383490",
+    "A383973",
+    "A383974",
+    "A383982",
+    "A383983",
+    "A383984"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

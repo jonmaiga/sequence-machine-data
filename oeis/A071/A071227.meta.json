@@ -2,6 +2,7 @@
   "description": "Number of solutions 1<=x<=m to gcd(m,x) = tau(m) where m = A033950(n).",
   "id": "A071227",
   "mentions": [
+    "A000005",
     "A033950"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 77,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

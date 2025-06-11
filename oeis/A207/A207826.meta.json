@@ -1,5 +1,5 @@
 {
-  "description": "Upper right triangle: Fill columns with the smallest possible positive integers not occurring earlier and such that T[n+1,k] = |T[n,k-1]-T[n,k]| or T[n,k-1]+T[n,k]. Second version (see comment).",
+  "description": "Upper right triangle: Fill columns with the smallest possible positive integers not occurring earlier and such that T(n+1,k) = |T(n,k-1)-T(n,k)| or T(n,k-1)+T(n,k). Second version (see comment).",
   "id": "A207826",
   "mentions": [
     "A207827",

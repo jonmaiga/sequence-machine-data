@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (1+x)*(exp(x)-1)*(exp(x)-x)*(exp(x)-x^2/2).",
+  "id": "A383323",
+  "mentions": [
+    "A358341"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

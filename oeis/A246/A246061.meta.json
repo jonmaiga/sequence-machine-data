@@ -2,7 +2,8 @@
   "description": "Decimal expansion of lim_{n->infinity} ((1/log(n)^2)*Product_{2 < p < n, p prime} p/(p-2)).",
   "id": "A246061",
   "mentions": [
-    "A005597"
+    "A005597",
+    "A091724"
   ],
   "tags": [
     "cons",

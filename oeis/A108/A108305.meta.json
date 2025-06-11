@@ -1,15 +1,20 @@
 {
   "description": "Number of set partitions of {1, ..., n} that avoid 4-crossings.",
   "id": "A108305",
-  "mentions": [],
+  "mentions": [
+    "A108304",
+    "A192126",
+    "A192127",
+    "A192128",
+    "A192855"
+  ],
   "tags": [
-    "easy",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

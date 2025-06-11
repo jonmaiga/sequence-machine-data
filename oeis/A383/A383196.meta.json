@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1/(1 - 3*x)^(1/3) - 1)^3 / 6.",
+  "id": "A383196",
+  "mentions": [
+    "A001754",
+    "A035119",
+    "A143169",
+    "A371080"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

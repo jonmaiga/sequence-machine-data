@@ -1,0 +1,17 @@
+{
+  "description": "For n>1, a(n) is the smallest number greater than a(n-1), whose sum with any previous term is deficient, with a(1) = 1.",
+  "id": "A383399",
+  "mentions": [
+    "A005100",
+    "A005101",
+    "A383398"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

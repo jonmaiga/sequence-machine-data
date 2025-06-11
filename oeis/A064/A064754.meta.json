@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n*8^n - 1.",
   "id": "A064754",
-  "mentions": [],
+  "mentions": [
+    "A003261",
+    "A036294"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

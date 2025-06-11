@@ -1,9 +1,12 @@
 {
-  "description": "Expansion of 1/((1-x)(1-4x)(1-7x)).",
+  "description": "Expansion of 1/((1-x) * (1-4*x) * (1-7*x)).",
   "id": "A016223",
   "mentions": [
     "A002450",
-    "A282629"
+    "A021874",
+    "A111577",
+    "A282629",
+    "A383627"
   ],
   "tags": [
     "easy",

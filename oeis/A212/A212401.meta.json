@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary arrays of length n+13 with no more than 7 ones in any length 14 subsequence (=50% duty cycle)",
+  "description": "Number of binary arrays of length n+13 with no more than 7 ones in any length 14 subsequence (=50% duty cycle).",
   "id": "A212401",
   "mentions": [
     "A212402"

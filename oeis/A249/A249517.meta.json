@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the digital sum A007953(n) and the digital product A007954(n) both contain the same distinct digits as the number n.",
+  "description": "Numbers k for which the digital sum A007953(k) and the digital product A007954(k) both contain the same distinct digits as the number k.",
   "id": "A249517",
   "mentions": [
     "A007953",

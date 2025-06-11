@@ -2,6 +2,7 @@
   "description": "Primes which when concatenated with their reverse and incremented by 2 yield a new prime.",
   "id": "A088883",
   "mentions": [
+    "A002476",
     "A067087",
     "A088884"
   ],

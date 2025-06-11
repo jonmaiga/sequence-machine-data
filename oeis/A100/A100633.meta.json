@@ -2,7 +2,8 @@
   "description": "Primes that are the decimal concatenation of three separate primes.",
   "id": "A100633",
   "mentions": [
-    "A100607"
+    "A100607",
+    "A383195"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

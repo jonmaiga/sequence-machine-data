@@ -1,5 +1,5 @@
 {
-  "description": "Smallest nonnegative integer whose English name has no letters in common with the English name of the previous term (starting with 8)",
+  "description": "Smallest nonnegative integer whose English name has no letters in common with the English name of the previous term (starting with 8).",
   "id": "A178727",
   "mentions": [
     "A178726"

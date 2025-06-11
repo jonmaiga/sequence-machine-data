@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 binary arrays with each sum of a(1..i,1..j) no greater than i*j/2",
+  "description": "Number of nX4 binary arrays with each sum of a(1..i,1..j) no greater than i*j/2.",
   "id": "A183405",
   "mentions": [
     "A183407"

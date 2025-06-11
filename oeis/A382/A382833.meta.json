@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) is the number of distinct sum-of-powers vectors (Sum_{x in X} x^m, 0 <= m <= k) for subsets X of {0, ..., n-1}; n, k >= 0.",
+  "id": "A382833",
+  "mentions": [
+    "A000027",
+    "A000125",
+    "A382383",
+    "A382832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,16 +1,17 @@
 {
-  "description": "Table of A(n,k) read by antidiagonals, where A(n,1)=n-1; A(n,k) is the number of occurrences of A(n,k-1) in the row up to k-1.",
+  "description": "Square array A(n,k) (n, k >= 1) read by antidiagonals, where A(n,1) = n-1; A(n,k) is the number of occurrences of A(n,k-1) in the row up to k-1.",
   "id": "A327891",
   "mentions": [
     "A158416"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 85,
+    "size": 90,
     "source": "oeis-entry"
   }
 }

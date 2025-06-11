@@ -1,0 +1,20 @@
+{
+  "description": "The number of prime powers (not including 1) p^e that divide n such that e is coprime to the p-adic valuation of n.",
+  "id": "A384422",
+  "mentions": [
+    "A000010",
+    "A072911",
+    "A077761",
+    "A085548"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

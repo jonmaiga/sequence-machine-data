@@ -1,5 +1,5 @@
 {
-  "description": "Least numbers k for each base b >= 2 such that N = b^(2^n) + k is prime for 6 consecutive values from n = 0 to n = 5",
+  "description": "Least numbers k for each base b >= 2 such that N = b^(2^n) + k is prime for 6 consecutive values from n = 0 to n = 5.",
   "id": "A225492",
   "mentions": [],
   "tags": [

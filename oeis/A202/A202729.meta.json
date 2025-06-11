@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n nonnegative integer arrays with each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it) and the lower right element equal to n-1",
+  "description": "Number of n X n nonnegative integer arrays with each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it) and the lower right element equal to n-1.",
   "id": "A202729",
   "mentions": [
     "A202735"

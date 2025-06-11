@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/( (1-x) * (1-x-9*x^2)^2 )^(1/3).",
+  "id": "A383605",
+  "mentions": [
+    "A383601",
+    "A383606"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

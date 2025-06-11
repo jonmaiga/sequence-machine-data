@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n+6 with new values 0 upwards introduced in order, and containing the value n-1",
+  "description": "Number of nonnegative integer arrays of length n+6 with new values 0 upwards introduced in order, and containing the value n-1.",
   "id": "A211566",
   "mentions": [
     "A211561"

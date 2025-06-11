@@ -1,5 +1,5 @@
 {
-  "description": "The z^2 coefficients of the polynomials in the GF4 denominators of A156933",
+  "description": "The z^2 coefficients of the polynomials in the GF4 denominators of A156933.",
   "id": "A157708",
   "mentions": [
     "A156933",

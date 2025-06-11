@@ -2,17 +2,18 @@
   "description": "Number of minimum total dominating sets in the n X n black bishop graph.",
   "id": "A303141",
   "mentions": [
+    "A004523",
     "A303144",
     "A303145",
-    "A303230"
+    "A303230",
+    "A321673"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

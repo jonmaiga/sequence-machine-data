@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors of form cn+1 for numbers 6^n+1",
+  "description": "Number of prime factors of form cn+1 for numbers 6^n+1.",
   "id": "A182598",
   "mentions": [
     "A182590"

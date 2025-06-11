@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A031971(6*n) <> n (mod 6*n)",
+  "description": "Numbers n such that A031971(6*n) <> n (mod 6*n).",
   "id": "A229306",
   "mentions": [
     "A014117",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of set partitions of [n] having exactly six pairs (m,m+1) such that m+1 is in some block b and m is in block b+1",
+  "description": "Number of set partitions of [n] having exactly six pairs (m,m+1) such that m+1 is in some block b and m is in block b+1.",
   "id": "A270960",
   "mentions": [
     "A270953"

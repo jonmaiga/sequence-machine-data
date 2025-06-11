@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of strictly increasing arrangements of n numbers in -(n+k-2)..(n+k-2) with sum zero",
+  "description": "T(n,k) is the number of strictly increasing arrangements of n numbers in -(n+k-2)..(n+k-2) with sum zero.",
   "id": "A188181",
   "mentions": [
     "A000982",
@@ -7,6 +7,7 @@
     "A076822"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/504.",
   "id": "A021508",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
     "formulas",

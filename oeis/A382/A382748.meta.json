@@ -1,0 +1,17 @@
+{
+  "description": "Primitive exponents for the greedy convolution of length 4.",
+  "id": "A382748",
+  "mentions": [
+    "A121537",
+    "A382747"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

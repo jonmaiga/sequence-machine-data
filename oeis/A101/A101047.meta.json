@@ -1,16 +1,15 @@
 {
-  "description": "a(n) is the least k such that k*(prime(n)#)^prime(n)-1 is prime, where prime(n)# is the n-th primorial.",
+  "description": "a(n) is the least k such that k*(prime(n)#)^prime(n) - 1 is prime, where prime(n)# is the n-th primorial.",
   "id": "A101047",
   "mentions": [
     "A002110"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 52,
     "source": "oeis-entry"
   }
 }

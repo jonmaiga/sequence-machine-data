@@ -1,7 +1,9 @@
 {
   "description": "a(n) = round(n*(5*n - 14)/12) + 1.",
   "id": "A059293",
-  "mentions": [],
+  "mentions": [
+    "A002578"
+  ],
   "tags": [
     "easy",
     "formulas",

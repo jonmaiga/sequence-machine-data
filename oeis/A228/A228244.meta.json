@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^2+17.",
+  "description": "Primes of the form k^2 + 17.",
   "id": "A228244",
   "mentions": [
     "A049423",
@@ -7,15 +7,18 @@
     "A056905",
     "A079138",
     "A138362",
-    "A138375"
+    "A138375",
+    "A241847",
+    "A264790"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 36,
     "source": "joeis"
   }
 }

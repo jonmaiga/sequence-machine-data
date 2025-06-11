@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p + 4, p + 12 and p + 16 are also primes.",
+  "id": "A384298",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A052378",
+    "A136162",
+    "A382810"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

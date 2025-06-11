@@ -1,0 +1,16 @@
+{
+  "description": "Representation of n in rational base 3/2.",
+  "id": "A383346",
+  "mentions": [
+    "A024629"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

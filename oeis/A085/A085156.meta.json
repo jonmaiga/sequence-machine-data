@@ -1,5 +1,5 @@
 {
-  "description": "Powers of primes or of semiprimes.",
+  "description": "Powers of primes or powers of semiprimes.",
   "id": "A085156",
   "mentions": [
     "A000961",

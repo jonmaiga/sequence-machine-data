@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that replacing each term k with k! does not change the succession of digits.",
+  "id": "A383322",
+  "mentions": [
+    "A033147",
+    "A302656",
+    "A383318",
+    "A383320"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

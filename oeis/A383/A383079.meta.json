@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-digit positive integers where all pairs of consecutive digits have a difference of at least 7.",
+  "id": "A383079",
+  "mentions": [
+    "A052268",
+    "A100062",
+    "A383070",
+    "A383071",
+    "A383072",
+    "A383077",
+    "A383078"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

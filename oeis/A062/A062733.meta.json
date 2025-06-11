@@ -1,10 +1,13 @@
 {
-  "description": "Maximal degree of an irreducible representation the group SL(n,2) (the group of nonsingular n X n matrices over GF(2) ).",
+  "description": "Maximal degree of an irreducible representation of the group SL(n,2) (the group of nonsingular n X n matrices over GF(2) ).",
   "id": "A062733",
   "mentions": [
-    "A002884"
+    "A002884",
+    "A135950"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

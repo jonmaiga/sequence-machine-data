@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the solution to x^(x/(x+1)) + x - 1 = 0.",
+  "id": "A382611",
+  "mentions": [
+    "A100086",
+    "A144211",
+    "A345656"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 111,
+    "source": "joeis"
+  }
+}

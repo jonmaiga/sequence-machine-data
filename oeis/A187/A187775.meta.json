@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n summing to n without adjacent values differing by exactly 1",
+  "description": "Number of nonnegative integer arrays of length n summing to n without adjacent values differing by exactly 1.",
   "id": "A187775",
   "mentions": [],
   "tags": [

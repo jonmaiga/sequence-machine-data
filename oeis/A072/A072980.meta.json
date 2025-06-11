@@ -1,11 +1,15 @@
 {
-  "description": "Numerator of b(n)=sum (k'<=n,1/k') where k' denotes the squarefree numbers.",
+  "description": "Numerator of b(n) = Sum_{k'<=n} 1/k', where k' denotes the squarefree numbers.",
   "id": "A072980",
   "mentions": [
-    "A072983"
+    "A005117",
+    "A013928",
+    "A072983",
+    "A354417"
   ],
   "tags": [
     "easy",
+    "formulas",
     "frac",
     "nonn"
   ],

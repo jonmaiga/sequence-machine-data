@@ -1,0 +1,16 @@
+{
+  "description": "First differences of A383059.",
+  "id": "A383060",
+  "mentions": [
+    "A383059"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

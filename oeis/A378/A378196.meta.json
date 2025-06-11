@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2-colorings of length n without an arithmetic progression of length 4",
+  "description": "Number of 2-colorings of length n without an arithmetic progression of length 4.",
   "id": "A378196",
   "mentions": [
     "A005346",

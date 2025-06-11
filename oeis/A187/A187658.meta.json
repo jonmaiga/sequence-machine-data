@@ -2,7 +2,9 @@
   "description": "Binomial convolution of the (signless) central Stirling numbers of the first kind (A187646).",
   "id": "A187658",
   "mentions": [
-    "A187646"
+    "A187646",
+    "A384495",
+    "A384496"
   ],
   "tags": [
     "easy",

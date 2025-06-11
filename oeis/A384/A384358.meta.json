@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k*(k+1)*(k+2)*(k+3)/24 * x)^((1/162) * (2/3)^k).",
+  "id": "A384358",
+  "mentions": [
+    "A384362"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

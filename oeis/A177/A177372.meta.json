@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci numbers whose decimal expansion does not contain any digit 7",
+  "description": "Fibonacci numbers whose decimal expansion does not contain any digit 7.",
   "id": "A177372",
   "mentions": [
     "A000045",

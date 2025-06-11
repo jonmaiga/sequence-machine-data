@@ -1,5 +1,5 @@
 {
-  "description": "Continued cotangent recurrence a(n+1)=a(n)^3+3*a(n) and a(1)=10",
+  "description": "Continued cotangent recurrence a(n+1)=a(n)^3+3*a(n) and a(1)=10.",
   "id": "A145184",
   "mentions": [
     "A006266",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k+1 and sigma(kn) are both primes.",
+  "description": "Numbers k such that k+1 and sigma(k) are both primes.",
   "id": "A249760",
   "mentions": [
     "A000203",

@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that sigma(n-3) + sigma(n+3) = sigma(2n).",
+  "description": "Numbers k such that sigma(k-3) + sigma(k+3) = sigma(2*k).",
   "id": "A067129",
   "mentions": [
+    "A000203",
+    "A067172",
     "A067730"
   ],
   "tags": [
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

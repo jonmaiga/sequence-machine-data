@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of iterations of z -> z^2 + c(n) with c(n) = 1/n + (2/(n^2))*i - 1/8 + (3*sqrt(3)/8)*i to reach |z| > 2, starting with z = 0.",
+  "id": "A383750",
+  "mentions": [
+    "A093602",
+    "A097486",
+    "A384509",
+    "A384513"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of -(3*x^2-5*x+1)/(x^3-3*x^2+5*x-1).",
+  "description": "Expansion of g.f. -(3*x^2-5*x+1)/(x^3-3*x^2+5*x-1).",
   "id": "A200676",
   "mentions": [
     "A200739"

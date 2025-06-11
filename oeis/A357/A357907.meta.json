@@ -1,5 +1,5 @@
 {
-  "description": "The output of a Sinclair ZX81 random number generator.",
+  "description": "The internal state of the Sinclair ZX81 and Spectrum random number generator.",
   "id": "A357907",
   "mentions": [
     "A061364",

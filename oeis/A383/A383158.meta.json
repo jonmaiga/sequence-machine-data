@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the denominator of the mean of the maximum exponents in the prime factorizations of the divisors of n.",
+  "id": "A383158",
+  "mentions": [
+    "A000005",
+    "A051903",
+    "A056798",
+    "A118914",
+    "A383156",
+    "A383157"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

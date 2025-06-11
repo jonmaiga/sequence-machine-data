@@ -1,0 +1,27 @@
+{
+  "description": "Series expansion of the exponential generating function exp(wnp^!(x)) - 1 where wnp^!(x) = log(1+x) - x^2/(1+x).",
+  "id": "A383994",
+  "mentions": [
+    "A003725",
+    "A048172",
+    "A084099",
+    "A097388",
+    "A111884",
+    "A112242",
+    "A177885",
+    "A318215",
+    "A383990",
+    "A383991",
+    "A383992",
+    "A383993",
+    "A383995"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

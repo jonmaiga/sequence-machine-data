@@ -1,0 +1,17 @@
+{
+  "description": "Integers s = (p1+p2)/4 such that p1 and p2 are consecutive primes and s can be written in the form p*2^k with k>=0 and p>2 prime.",
+  "id": "A382509",
+  "mentions": [
+    "A001043",
+    "A118134"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

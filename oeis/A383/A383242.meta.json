@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = p(n)*p(n+1)*(p(n+1) - p(n)) + 1, where p(n) = prime(n).",
+  "id": "A383242",
+  "mentions": [
+    "A000042",
+    "A383241",
+    "A383243",
+    "A383244"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

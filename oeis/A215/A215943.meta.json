@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place k non-attacking bishops on an n x n toroidal chessboard, summed over all k >= 0",
+  "description": "Number of ways to place k non-attacking bishops on an n x n toroidal chessboard, summed over all k >= 0.",
   "id": "A215943",
   "mentions": [
     "A002720",

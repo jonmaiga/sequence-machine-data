@@ -1,5 +1,5 @@
 {
-  "description": "Number of decompositions of 2n into a sum of two primes p2 >= p1 such that the number of runs in binary expansion of p2-p1 is less than or equal to 4",
+  "description": "Number of decompositions of 2n into a sum of two primes p2 >= p1 such that the number of runs in binary expansion of p2-p1 is less than or equal to 4.",
   "id": "A230443",
   "mentions": [
     "A002372",

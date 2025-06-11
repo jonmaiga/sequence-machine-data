@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, A000012^(-1) * A152431",
+  "description": "Triangle read by rows, A000012^(-1) * A152431.",
   "id": "A152433",
   "mentions": [
     "A000012",

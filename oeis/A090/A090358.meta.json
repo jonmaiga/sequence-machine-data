@@ -1,5 +1,5 @@
 {
-  "description": "Satisfies A^6 = BINOMIAL(A^5).",
+  "description": "G.f. satisfies A^6 = BINOMIAL(A^5).",
   "id": "A090358",
   "mentions": [
     "A084784",

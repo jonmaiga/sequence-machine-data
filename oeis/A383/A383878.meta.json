@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations of [n] with distinct cycle lengths whose GCD is 1.",
+  "id": "A383878",
+  "mentions": [
+    "A079128",
+    "A382781"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric binary matrices with each 1 adjacent to no more than 1 E, SE or S neighboring 1",
+  "description": "Number of n X n symmetric binary matrices with each 1 adjacent to no more than 1 E, SE or S neighboring 1.",
   "id": "A191691",
   "mentions": [],
   "tags": [

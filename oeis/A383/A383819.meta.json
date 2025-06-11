@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of -Sum_{k>=1} mu(3*k)/(27^k + 1), where mu is the Möbius function.",
+  "id": "A383819",
+  "mentions": [
+    "A008683",
+    "A383817",
+    "A383820"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 111,
+    "source": "joeis"
+  }
+}

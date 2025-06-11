@@ -2,6 +2,7 @@
   "description": "a(n) = gcd(rad(n), n/rad(n)), where rad(n) = A007947(n) is the squarefree kernel of n.",
   "id": "A071773",
   "mentions": [
+    "A001620",
     "A003415",
     "A003557",
     "A005117",
@@ -11,6 +12,7 @@
     "A020639",
     "A028234",
     "A057521",
+    "A065464",
     "A166486",
     "A359433"
   ],

@@ -4,7 +4,10 @@
   "mentions": [
     "A000142",
     "A129256",
-    "A351508"
+    "A351508",
+    "A384012",
+    "A384017",
+    "A384031"
   ],
   "tags": [
     "formulas",
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

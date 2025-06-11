@@ -1,17 +1,21 @@
 {
-  "description": "Numbers in A363063 arranged in lexicographic order according to multiplicities of prime power factors p^k, written in order of p.",
+  "description": "Numbers in A363063 arranged in lexicographic order according to ordered prime signature (i.e., multiplicities of prime power factors p^k, written in order of p).",
   "id": "A363250",
   "mentions": [
     "A000079",
     "A025487",
     "A055932",
     "A067255",
+    "A087980",
+    "A124010",
     "A347284",
+    "A362227",
     "A363063"
   ],
   "tags": [
     "formulas",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

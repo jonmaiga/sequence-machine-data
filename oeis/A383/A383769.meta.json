@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the sequence whose Dirichlet convolution with itself yields cubes (A000578).",
+  "id": "A383769",
+  "mentions": [
+    "A000578",
+    "A299149",
+    "A299150",
+    "A318512",
+    "A318649",
+    "A383768"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

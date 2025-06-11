@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X5 binary arrays with no 2X2 subblock containing exactly one 1",
+  "description": "Half the number of (n+1)X5 binary arrays with no 2X2 subblock containing exactly one 1.",
   "id": "A184192",
   "mentions": [
     "A184197"

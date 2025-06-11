@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1 / AGM(1-33*x, sqrt((1-9*x)*(1-121*x))).",
+  "description": "Expansion of g.f.: 1 / AGM(1-33*x, sqrt((1-9*x)*(1-121*x))).",
   "id": "A248167",
   "mentions": [
     "A084771",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

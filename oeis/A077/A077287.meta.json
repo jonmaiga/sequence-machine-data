@@ -1,13 +1,13 @@
 {
-  "description": "Unique encountered factors from ( (prime(n)*prime(n+1))^2 + 1 )/2.",
+  "description": "If the least prime factor of ((prime(k)*prime(k+1))^2 + 1)/2 for k >= 2 is not yet in the sequence, then add it to the sequence.",
   "id": "A077287",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of sticky polyhexes of with 2*n cells.",
+  "description": "a(n) is the number of sticky polyhexes with 2*n cells.",
   "id": "A342963",
   "mentions": [
     "A000228"

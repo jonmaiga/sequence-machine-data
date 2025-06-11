@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*(n+1)-1 and n*(n+1)+1 are twin primes and n*(n+3)-1 and n*(n+3)+1 are also twin primes.",
+  "description": "Numbers k such that k*(k+1)-1 and k*(k+1)+1 are twin primes and k*(k+3)-1 and k*(k+3)+1 are also twin primes.",
   "id": "A138303",
   "mentions": [
     "A088485"

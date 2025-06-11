@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary arrays indicating the locations of trailing edge maxima of a random length-n 0..2 array extended with zeros and convolved with 1,1,1",
+  "description": "Number of binary arrays indicating the locations of trailing edge maxima of a random length-n 0..2 array extended with zeros and convolved with 1,1,1.",
   "id": "A222432",
   "mentions": [
     "A222438"

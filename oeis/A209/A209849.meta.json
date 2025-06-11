@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: coefficients of polynomials in Sum_{k = 0..t} k^n*binomial(t,k).",
+  "description": "Triangle read by rows: coefficients of polynomials in Sum_{k = 0..t} k^n * binomial(t,k).",
   "id": "A209849",
   "mentions": [
     "A008275",
@@ -10,11 +10,15 @@
     "A079641",
     "A102573",
     "A119468",
+    "A129062",
     "A154602",
     "A155585",
     "A176668",
     "A195204",
-    "A264428"
+    "A264428",
+    "A383140",
+    "A383165",
+    "A383166"
   ],
   "tags": [
     "easy",
@@ -25,6 +29,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

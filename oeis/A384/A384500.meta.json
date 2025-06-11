@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the parity of k and omega(k) are not equal.",
+  "id": "A384500",
+  "mentions": [
+    "A000035",
+    "A001221",
+    "A098904",
+    "A098905"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

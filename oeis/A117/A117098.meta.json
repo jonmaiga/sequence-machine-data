@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that nextprime(5*n)",
+  "description": "Numbers k such that nextprime(5*k)",
   "id": "A117098",
   "mentions": [],
   "tags": [

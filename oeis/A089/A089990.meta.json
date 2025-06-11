@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n step nested walk based on (A004001[n]+ (-1)^lastsum)",
+  "description": "a(n) = n step nested walk based on (A004001[n]+ (-1)^lastsum).",
   "id": "A089990",
   "mentions": [
     "A004001",

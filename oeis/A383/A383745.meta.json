@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k of the form x*(x+1) whose sum of digits is of the form y*(y+1).",
+  "id": "A383745",
+  "mentions": [
+    "A002378",
+    "A007953",
+    "A028839",
+    "A128203"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

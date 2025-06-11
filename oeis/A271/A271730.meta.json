@@ -1,5 +1,5 @@
 {
-  "description": "Each number is the sum of the cubes of its 3 sections (not necessarily having the same length and without leading zeros)",
+  "description": "Each number is the sum of the cubes of its 3 sections (not necessarily having the same length and without leading zeros).",
   "id": "A271730",
   "mentions": [
     "A056733"

@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers without the digit 0 such that every even digit except the rightmost is immediately followed by a smaller digit.",
+  "id": "A383246",
+  "mentions": [
+    "A342043",
+    "A377912",
+    "A382465",
+    "A382624",
+    "A382938",
+    "A383062",
+    "A383245",
+    "A383248",
+    "A383250",
+    "A383501"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

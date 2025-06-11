@@ -1,5 +1,5 @@
 {
-  "description": "(mu(n)+2)*n^2, where mu is the Moebius function (A008683).",
+  "description": "a(n) = (mu(n)+2)*n^2, where mu is the Moebius function (A008683).",
   "id": "A080849",
   "mentions": [
     "A000290",
@@ -8,6 +8,7 @@
     "A080848"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

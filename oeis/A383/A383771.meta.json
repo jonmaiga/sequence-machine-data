@@ -1,0 +1,16 @@
+{
+  "description": "Number of noncrossing permutations of [n] avoiding 213 (and by symmetry 132, 213, or 312).",
+  "id": "A383771",
+  "mentions": [
+    "A383770"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

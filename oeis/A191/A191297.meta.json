@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of exp(x^2*cos(x))=1+sum(n>0, a(n)*x^(2*n)/(2*n-2)!)",
+  "description": "Expansion of exp(x^2*cos(x))=1+sum(n>0, a(n)*x^(2*n)/(2*n-2)!).",
   "id": "A191297",
   "mentions": [],
   "tags": [

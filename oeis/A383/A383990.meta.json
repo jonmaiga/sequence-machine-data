@@ -1,0 +1,27 @@
+{
+  "description": "Series expansion of the exponential generating function exp(-dend(-x))-1 where dend(x) = (1 - sqrt(1+4*x)) / (2*x) + 1 (given by A000108).",
+  "id": "A383990",
+  "mentions": [
+    "A000108",
+    "A003725",
+    "A006531",
+    "A097388",
+    "A111884",
+    "A112242",
+    "A177885",
+    "A318215",
+    "A383991",
+    "A383992",
+    "A383993",
+    "A383994",
+    "A383995"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

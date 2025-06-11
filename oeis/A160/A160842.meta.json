@@ -2,6 +2,7 @@
   "description": "Number of lines through at least 2 points of a 2 X n grid of points.",
   "id": "A160842",
   "mentions": [
+    "A010000",
     "A018808",
     "A059100",
     "A107348",

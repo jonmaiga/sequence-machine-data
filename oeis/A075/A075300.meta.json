@@ -1,5 +1,5 @@
 {
-  "description": "Array A read by antidiagonals upwards: A(n, k) = array A054582(n,k) - 1 = 2^n*(2*k+1) - 1 with n,k >= 0,",
+  "description": "Array A read by antidiagonals upwards: A(n, k) = array A054582(n,k) - 1 = 2^n*(2*k+1) - 1 with n,k >= 0.",
   "id": "A075300",
   "mentions": [
     "A000225",

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 10+k and 10*k are perfect squares.",
+  "id": "A382209",
+  "mentions": [
+    "A005667",
+    "A008843",
+    "A075796",
+    "A081071",
+    "A097315",
+    "A158490",
+    "A173127",
+    "A245226",
+    "A383734"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

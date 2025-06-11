@@ -1,0 +1,15 @@
+{
+  "description": "Population of elementary triangular automaton rule 58 at generation n, starting from a lone 1 cell at generation 0.",
+  "id": "A384355",
+  "mentions": [
+    "A384363"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

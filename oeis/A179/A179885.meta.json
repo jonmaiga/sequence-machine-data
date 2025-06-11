@@ -1,5 +1,5 @@
 {
-  "description": "Subsequence of A179883 and A179872. Antiharmonic mean B(h) of numbers k such that gcd(k, h) = 1 for numbers h >= 1 and k < h = A053818(n) / A023896(n) = A175505(h) / A175506(h).",
+  "description": "Antiharmonic mean B(h) of numbers k such that gcd(k, h) = 1 for numbers h >= 1 and k < h = A053818(n) / A023896(n) = A175505(h) / A175506(h).",
   "id": "A179885",
   "mentions": [
     "A023896",
@@ -25,11 +25,12 @@
     "A179891"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

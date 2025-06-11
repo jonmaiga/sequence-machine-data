@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) = coefficient of x^n (x^2*cosech(x))^m=sum(n>=m, T(n,m)x^n*m!^2/n!^2)",
+  "description": "Triangle T(n,m) = coefficient of x^n (x^2*cosech(x))^m=sum(n>=m, T(n,m)x^n*m!^2/n!^2).",
   "id": "A199568",
   "mentions": [],
   "tags": [

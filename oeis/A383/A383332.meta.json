@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive weight of a pair of nonnegative integers with a shortest vectorial addition chain of length n.",
+  "id": "A383332",
+  "mentions": [
+    "A003064",
+    "A383330",
+    "A383331",
+    "A383334"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

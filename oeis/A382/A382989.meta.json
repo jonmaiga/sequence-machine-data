@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the total sum of area over all (>=,>=)-polyominoes of length n.",
+  "id": "A382989",
+  "mentions": [
+    "A002426",
+    "A382987",
+    "A382988",
+    "A382990"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

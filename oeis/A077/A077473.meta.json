@@ -1,5 +1,5 @@
 {
-  "description": "Greedy powers of (5/9): sum_{n=1..inf} (5/9)^a(n) = 1.",
+  "description": "Greedy powers of (5/9): Sum_{n>=1} (5/9)^a(n) = 1.",
   "id": "A077473",
   "mentions": [
     "A077468",

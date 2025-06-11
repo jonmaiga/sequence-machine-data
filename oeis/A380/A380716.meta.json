@@ -1,5 +1,5 @@
 {
-  "description": "Primitive solutions k to the exponential Diophantine equation k^7 = Sum_{i=1..8} y_i^7 with y_i > 0.",
+  "description": "Primitive solutions k to the Diophantine equation k^7 = Sum_{i=1..8} y_i^7 with y_i > 0.",
   "id": "A380716",
   "mentions": [
     "A381026"

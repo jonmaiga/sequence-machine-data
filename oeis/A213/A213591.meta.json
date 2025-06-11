@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A( x - A(x)^2 ) = x.",
+  "description": "G.f. A(x) satisfies A( x - A(x)^2 ) = x.",
   "id": "A213591",
   "mentions": [
     "A087949",

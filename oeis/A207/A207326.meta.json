@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. satisfies 2*A(x)-exp(A(x))+1=sin(x)",
+  "description": "E.g.f. satisfies 2*A(x)-exp(A(x))+1=sin(x).",
   "id": "A207326",
   "mentions": [
     "A000311"

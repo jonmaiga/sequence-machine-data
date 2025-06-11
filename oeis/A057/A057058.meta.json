@@ -1,5 +1,5 @@
 {
-  "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; each k is an R(i(k),j(k)) and a(n)=i(A057027(n))",
+  "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; each k is an R(i(k),j(k)) and a(n)=i(A057027(n)).",
   "id": "A057058",
   "mentions": [
     "A002260",

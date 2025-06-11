@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the surface area of a regular pentagonal prism of edge length 1.",
+  "id": "A384036",
+  "mentions": [
+    "A102771",
+    "A178809",
+    "A300074",
+    "A384059"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

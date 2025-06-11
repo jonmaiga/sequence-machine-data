@@ -1,10 +1,11 @@
 {
-  "description": "Polynomials made from cycloidal standing waves: p(x,n)=(4*n + 2)*x + x^n.",
+  "description": "Polynomials made from cycloidal standing waves: p(x,n) = (4*n + 2)*x + x^n.",
   "id": "A142709",
   "mentions": [],
   "tags": [
     "formulas",
     "nonn",
+    "tabf",
     "uned"
   ],
   "terms": {

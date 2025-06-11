@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f. sinh(7*arctanh(14*sqrt(x)))/(98*sqrt(x)).",
+  "id": "A384542",
+  "mentions": [
+    "A285043",
+    "A285044",
+    "A285045",
+    "A285046",
+    "A383928",
+    "A384335",
+    "A384417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

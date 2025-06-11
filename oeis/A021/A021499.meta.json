@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/495.",
   "id": "A021499",
   "mentions": [
+    "A010673",
     "A033999",
     "A062157"
   ],

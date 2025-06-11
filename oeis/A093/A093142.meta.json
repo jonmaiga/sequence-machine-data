@@ -1,8 +1,10 @@
 {
-  "description": "Expansion of (1-5x)/((1-x)(1-10x)).",
+  "description": "Expansion of g.f. (1-5*x)/((1-x)*(1-10*x)).",
   "id": "A093142",
   "mentions": [
     "A001045",
+    "A002275",
+    "A062397",
     "A093143"
   ],
   "tags": [

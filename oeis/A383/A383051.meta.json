@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the n-th term of the inverse Stirling transform of j-> (j+1)^n.",
+  "id": "A383051",
+  "mentions": [
+    "A320082",
+    "A367820",
+    "A383049"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

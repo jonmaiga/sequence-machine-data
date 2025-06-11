@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies A(A(x)-2*A(x)^2)=x/(1-2*x)",
+  "description": "G.f. A(x) satisfies A(A(x)-2*A(x)^2)=x/(1-2*x).",
   "id": "A209625",
   "mentions": [],
   "tags": [

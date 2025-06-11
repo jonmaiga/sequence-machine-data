@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = number of empty places to fill on an infinite square grid, at the n-th step, in order to completely surround the last square filled at the previous step n-1, starting with the origin at step 0.",
+  "id": "A382259",
+  "mentions": [
+    "A382258"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

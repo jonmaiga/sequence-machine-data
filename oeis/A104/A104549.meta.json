@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k horizontal segments (a horizontal segment is a maximal string of horizontal steps)",
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k horizontal segments (a horizontal segment is a maximal string of horizontal steps).",
   "id": "A104549",
   "mentions": [
     "A000108",

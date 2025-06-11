@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers of the form x^2+y^2, gcd(x,y) = 1",
+  "description": "Composite numbers of the form x^2+y^2, gcd(x,y) = 1.",
   "id": "A174051",
   "mentions": [
     "A002313",

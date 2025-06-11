@@ -1,0 +1,17 @@
+{
+  "description": "Number of cyclic edge cuts in the n-web graph.",
+  "id": "A383125",
+  "mentions": [
+    "A378311"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

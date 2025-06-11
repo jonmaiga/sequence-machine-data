@@ -2,7 +2,10 @@
   "description": "Odd numbers which when cubed give number composed just of the digits 0, 1, 2, 3.",
   "id": "A031997",
   "mentions": [
-    "A030175"
+    "A030175",
+    "A043681",
+    "A278936",
+    "A278937"
   ],
   "tags": [
     "base",

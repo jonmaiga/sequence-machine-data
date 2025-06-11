@@ -1,0 +1,26 @@
+{
+  "description": "The sum of divisors d of n having the property that for every prime p dividing n the p-adic valuation of d is either 0 or an infinitary divisor of the p-adic valuation of n.",
+  "id": "A383866",
+  "mentions": [
+    "A036537",
+    "A051377",
+    "A051378",
+    "A077609",
+    "A322791",
+    "A361175",
+    "A383760",
+    "A383864",
+    "A383865"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

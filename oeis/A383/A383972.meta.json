@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number m such that (m*(m + 1)/2)^2 is divisible by n.",
+  "id": "A383972",
+  "mentions": [
+    "A000537",
+    "A002145",
+    "A007520",
+    "A011772",
+    "A383075"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

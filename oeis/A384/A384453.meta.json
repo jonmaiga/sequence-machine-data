@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the n-th q-factorial number for q=-n.",
+  "id": "A384453",
+  "mentions": [
+    "A347611",
+    "A384454"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

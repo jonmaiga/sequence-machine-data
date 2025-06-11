@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of (n/tau(n) + sigma(n)/n)",
+  "description": "Denominator of (n/tau(n) + sigma(n)/n).",
   "id": "A245785",
   "mentions": [
     "A000005",

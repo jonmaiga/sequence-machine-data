@@ -1,0 +1,18 @@
+{
+  "description": "Centered hexagonal numbers that are sphenic numbers.",
+  "id": "A382628",
+  "mentions": [
+    "A003215",
+    "A007304",
+    "A113530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

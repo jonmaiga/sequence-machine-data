@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the sum of squared adjacent differences < n*(n-1)/2",
+  "description": "Number of permutations of 1..n with the sum of squared adjacent differences < n*(n-1)/2.",
   "id": "A180069",
   "mentions": [
     "A180068"

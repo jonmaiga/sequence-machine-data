@@ -1,5 +1,5 @@
 {
-  "description": "Partition the concatenation 1234567...of natural numbers into successive strings which are multiples of 4, all different and > 4. ( 0's never taken as the most significant digit.)",
+  "description": "Partition the concatenation 1234567...of natural numbers into successive strings which are multiples of 4, all different and > 4. (0 never taken as the most significant digit.)",
   "id": "A077297",
   "mentions": [
     "A077293",
@@ -17,8 +17,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

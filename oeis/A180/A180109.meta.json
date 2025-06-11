@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1 , thereafter, a(n) is the smallest integer k not yet in the sequence, such that k^2 contains in consecutive digits the decimal representation of a(n-1)",
+  "description": "a(1)=1 , thereafter, a(n) is the smallest integer k not yet in the sequence, such that k^2 contains in consecutive digits the decimal representation of a(n-1).",
   "id": "A180109",
   "mentions": [],
   "tags": [

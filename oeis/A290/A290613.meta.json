@@ -1,5 +1,5 @@
 {
-  "description": "Number of maximal independent vertex sets (and minimal edge covers) in the n X n white bishop graph.",
+  "description": "Number of maximal independent vertex sets (and minimal vertex covers) in the n X n white bishop graph.",
   "id": "A290613",
   "mentions": [
     "A146304",

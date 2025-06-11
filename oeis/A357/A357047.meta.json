@@ -1,5 +1,5 @@
 {
-  "description": "Lexigographically earliest sequence of distinct nonnegative integers such that a(2n)*a(2n+1) has n as substring, for all n >= 0.",
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that a(2n)*a(2n+1) has n as substring, for all n >= 0.",
   "id": "A357047",
   "mentions": [],
   "tags": [

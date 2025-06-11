@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that A010060(n) = A010060(n+9)",
+  "description": "Numbers such that A010060(n) = A010060(n+9).",
   "id": "A161890",
   "mentions": [
     "A000069",

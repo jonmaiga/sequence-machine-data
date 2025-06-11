@@ -47,6 +47,32 @@
       ]
     },
     {
+      "d": "2025-06-07",
+      "ix": "ceil(log(cosh(contfrac[sqrt(ϕ)])))",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "sqrt",
+        "contfrac",
+        "cosh",
+        "log",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2025-06-07",
+      "ix": "ceil(log(sinh(contfrac[sqrt(ϕ)])))",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "sqrt",
+        "contfrac",
+        "sinh",
+        "log",
+        "ceil"
+      ]
+    },
+    {
       "d": "2022-04-05",
       "ix": "root(contfrac[root(ϕ, 2)], 2)²",
       "mt": 50,
@@ -115,32 +141,6 @@
         "3",
         "^",
         "3",
-        "root"
-      ]
-    },
-    {
-      "d": "2023-06-06",
-      "ix": "contfrac[C139339]^contfrac[ϕ²]",
-      "mt": 50,
-      "px": [
-        "C139339",
-        "contfrac",
-        "ϕ",
-        "²",
-        "contfrac",
-        "^"
-      ]
-    },
-    {
-      "d": "2023-08-10",
-      "ix": "root(contfrac[C139339], contfrac[ϕ²])",
-      "mt": 50,
-      "px": [
-        "C139339",
-        "contfrac",
-        "ϕ",
-        "²",
-        "contfrac",
         "root"
       ]
     }

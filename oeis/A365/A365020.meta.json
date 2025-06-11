@@ -1,5 +1,5 @@
 {
-  "description": "Solutions k to the exponential Diophantine equation k^5 = Sum_{i=1..7} y_i^5 with positive y_i.",
+  "description": "Solutions k to the Diophantine equation k^5 = Sum_{i=1..7} y_i^5 with positive y_i.",
   "id": "A365020",
   "mentions": [],
   "tags": [

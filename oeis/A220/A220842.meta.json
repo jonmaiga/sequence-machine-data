@@ -1,5 +1,5 @@
 {
-  "description": "Number of admissable 2-dimensional lattice patterns of type B(2,3).",
+  "description": "Number of admissible 2-dimensional lattice patterns of type B(2,3).",
   "id": "A220842",
   "mentions": [
     "A220843"

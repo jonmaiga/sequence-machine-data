@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=A159619(2n)-A159615(2n)",
+  "description": "a(n)=A159619(2n)-A159615(2n).",
   "id": "A159624",
   "mentions": [
     "A159615",

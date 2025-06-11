@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which sigma(k - x) + sigma(k + x) = 4*k has at least one nonnegative solution.",
+  "id": "A383268",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A186103",
+    "A383269"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

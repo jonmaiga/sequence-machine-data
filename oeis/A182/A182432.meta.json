@@ -1,5 +1,5 @@
 {
-  "description": "Recurrence a(n)*a(n-2) = a(n-1)*(a(n-1)+3) with a(0) = 1, a(1) = 4.",
+  "description": "Recurrence a(n)*a(n-2) = a(n-1)*(a(n-1) + 3) with a(0) = 1, a(1) = 4.",
   "id": "A182432",
   "mentions": [
     "A005448",

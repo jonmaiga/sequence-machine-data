@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative integers whose difference between the largest and smallest digits is equal to the mode of its digits.",
+  "id": "A383306",
+  "mentions": [
+    "A037904",
+    "A054054",
+    "A054055",
+    "A115353",
+    "A383307"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

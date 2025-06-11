@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-x^2) / (1-2*x-5*x^2+2*x^3).",
+  "id": "A384671",
+  "mentions": [
+    "A384646",
+    "A384672",
+    "A384673"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

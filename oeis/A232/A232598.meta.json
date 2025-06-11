@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = Stirling2(n,k) * OrderedBell(k)",
+  "description": "T(n,k) = Stirling2(n,k) * OrderedBell(k).",
   "id": "A232598",
   "mentions": [
     "A000670",

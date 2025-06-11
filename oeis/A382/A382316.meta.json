@@ -1,0 +1,14 @@
+{
+  "description": "G.f. satisfies A(x) = A(x^2) + A(x^2)^2*A(x^3)/A(x^6), with A(0) = 0 and A'(0) = 1.",
+  "id": "A382316",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

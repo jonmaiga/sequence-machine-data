@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of A178381(4*n+1)/A178381(4*n)",
+  "description": "Denominators of A178381(4*n+1)/A178381(4*n).",
   "id": "A179132",
   "mentions": [
     "A069705",

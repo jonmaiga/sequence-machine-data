@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of 1, 2,..., n with exactly one rising or falling successon, namely (n-1)n or n(n-1).",
+  "id": "A384186",
+  "mentions": [
+    "A002464",
+    "A086652",
+    "A086852",
+    "A383857"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

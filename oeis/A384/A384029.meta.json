@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = [x^n] Product_{k=0..n-1} (1 + k*x)^4.",
+  "id": "A384029",
+  "mentions": [
+    "A342111",
+    "A384018",
+    "A384027",
+    "A384030",
+    "A384031"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

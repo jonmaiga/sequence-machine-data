@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + k*x)^((4/5)^k).",
+  "id": "A384334",
+  "mentions": [
+    "A094417",
+    "A116603",
+    "A384326",
+    "A384332",
+    "A384333",
+    "A384345"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

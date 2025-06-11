@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1; a(n)=n!-a(n-1)!.",
+  "description": "a(0) = 0; a(n) = n! - a(n-1)!.",
   "id": "A152839",
   "mentions": [
     "A084964",
@@ -11,6 +11,9 @@
     "A152838"
   ],
   "tags": [
+    "fini",
+    "full",
+    "less",
     "sign"
   ],
   "terms": {

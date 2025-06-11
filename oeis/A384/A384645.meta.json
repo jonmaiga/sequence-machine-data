@@ -1,0 +1,17 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator HSRPUN when started at 1.",
+  "id": "A384645",
+  "mentions": [
+    "A384643"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Apart from initial term, composite numbers with property that concatenation of prime factors is a palindrome.",
+  "description": "Apart from initial term, composite numbers with the property that the concatenation of their prime factors is a palindrome.",
   "id": "A046447",
   "mentions": [
     "A002113",

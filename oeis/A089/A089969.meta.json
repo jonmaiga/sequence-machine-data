@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that for increasing b the numbers of zeros in base b representation of n are monotonically decreasing, 1",
+  "description": "Numbers m such that for increasing b the numbers of zeros in base b representation of m are monotonically decreasing, 1",
   "id": "A089969",
   "mentions": [
     "A089970"

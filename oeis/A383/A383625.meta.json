@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/( Product_{k=0..7} (1 + (-1)^k * (2*k+1) * x) )^(1/8).",
+  "id": "A383625",
+  "mentions": [
+    "A002426",
+    "A383624",
+    "A383626"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

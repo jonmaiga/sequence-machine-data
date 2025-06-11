@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = 8*3^n+1.",
+  "description": "a(n) = 8*3^n + 1.",
   "id": "A199111",
   "mentions": [
     "A000244",
     "A005051",
-    "A160173"
+    "A160173",
+    "A198644"
   ],
   "tags": [
     "easy",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

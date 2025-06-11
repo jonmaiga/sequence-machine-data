@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6Xn 0..2 arrays with no element having a strict majority of its horizontal and antidiagonal neighbors equal to itself plus one mod 3, with upper left element zero (rock paper and scissors drawn positions)",
+  "description": "Number of 6Xn 0..2 arrays with no element having a strict majority of its horizontal and antidiagonal neighbors equal to itself plus one mod 3, with upper left element zero (rock paper and scissors drawn positions).",
   "id": "A231860",
   "mentions": [
     "A231855"

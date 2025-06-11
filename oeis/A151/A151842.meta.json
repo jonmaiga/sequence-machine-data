@@ -1,8 +1,9 @@
 {
-  "description": "a(3n)=n, a(3n+1)=2n+1, a(3n+2)=n+1.",
+  "description": "a(3n) = n, a(3n+1) = 2n+1, a(3n+2) = n+1.",
   "id": "A151842",
   "mentions": [
     "A002264",
+    "A003881",
     "A008133",
     "A076118"
   ],
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

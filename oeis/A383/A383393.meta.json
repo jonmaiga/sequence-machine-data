@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + 2, p + 8, p + 12, p + 18 and p + 20 are also primes.",
+  "id": "A383393",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A022008",
+    "A382810"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

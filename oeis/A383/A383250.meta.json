@@ -1,0 +1,25 @@
+{
+  "description": "Nonnegative integers not ending with the digit 1 and such that every odd digit except the rightmost is immediately followed by a smaller digit.",
+  "id": "A383250",
+  "mentions": [
+    "A342045",
+    "A377912",
+    "A382465",
+    "A382624",
+    "A382938",
+    "A383062",
+    "A383246",
+    "A383248",
+    "A383249"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

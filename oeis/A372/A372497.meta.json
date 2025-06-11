@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers of the form k^2 - 1 that are the product of two other positive integers of the form k^2 - 1.",
+  "description": "Positive integers of the form k^2 - 1 that are the product of two other distinct positive integers of the form k^2 - 1.",
   "id": "A372497",
   "mentions": [
     "A005563",

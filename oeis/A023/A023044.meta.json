@@ -1,13 +1,24 @@
 {
   "description": "7th differences of factorial numbers.",
   "id": "A023044",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A001563",
+    "A001564",
+    "A001565",
+    "A001688",
+    "A001689",
+    "A023043",
+    "A023045",
+    "A023046",
+    "A023047"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

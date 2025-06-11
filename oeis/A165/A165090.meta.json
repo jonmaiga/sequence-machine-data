@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the image of n under the base-8 Kaprekar map n -> (n with digits sorted into descending order) - (n with digits sorted into ascending order)",
+  "description": "a(n) is the image of n under the base-8 Kaprekar map n -> (n with digits sorted into descending order) - (n with digits sorted into ascending order).",
   "id": "A165090",
   "mentions": [
     "A151949",

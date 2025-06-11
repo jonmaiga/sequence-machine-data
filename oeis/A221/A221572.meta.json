@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..7 arrays of length n with each element differing from at least one neighbor by something other than 1",
+  "description": "Number of 0..7 arrays of length n with each element differing from at least one neighbor by something other than 1.",
   "id": "A221572",
   "mentions": [
     "A221573"

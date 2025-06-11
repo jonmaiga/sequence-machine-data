@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n - (sum of primes factors of n (with repetition)).",
+  "description": "a(n) = n - (sum of prime factors of n (with repetition)).",
   "id": "A075255",
   "mentions": [
     "A001414",

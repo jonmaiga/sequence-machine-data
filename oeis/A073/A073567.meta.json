@@ -1,13 +1,13 @@
 {
-  "description": "Numbers n such that sigma(n) = phi(n)*omega(n).",
+  "description": "Numbers k such that sigma(k) = phi(k)*omega(k).",
   "id": "A073567",
   "mentions": [
     "A000010",
     "A000203",
-    "A001221"
+    "A001221",
+    "A020492"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {

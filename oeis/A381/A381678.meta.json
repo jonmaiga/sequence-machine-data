@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least exponent k such that there are exactly n 1's in the decimal expansion of 11^k, or -1 if no such k exists.",
+  "id": "A381678",
+  "mentions": [
+    "A001020",
+    "A007377",
+    "A195946"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

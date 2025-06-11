@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 14 n^2-1",
+  "description": "Primes of the form 14 n^2-1.",
   "id": "A143832",
   "mentions": [
     "A066049",

@@ -1,5 +1,5 @@
 {
-  "description": "Array of coefficients of powers of x^2 for (S(2*n+1,x)/x)^3, with Chebyshev's S polynomials A049310",
+  "description": "Array of coefficients of powers of x^2 for (S(2*n+1,x)/x)^3, with Chebyshev's S polynomials A049310.",
   "id": "A220665",
   "mentions": [
     "A016777",

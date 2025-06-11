@@ -1,5 +1,5 @@
 {
-  "description": "Sum of odd numbers starting with 1, alternating signs (beginning with plus)",
+  "description": "Sum of odd numbers starting with 1, alternating signs (beginning with plus).",
   "id": "A227832",
   "mentions": [
     "A038608",

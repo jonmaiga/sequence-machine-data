@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: arctanh(x*exp(x)).",
+  "description": "E.g.f.: artanh(x*exp(x)).",
   "id": "A216401",
   "mentions": [],
   "tags": [

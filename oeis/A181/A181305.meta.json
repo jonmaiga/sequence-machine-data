@@ -1,11 +1,12 @@
 {
-  "description": "Number of increasing columns in all 2-compositions of n. A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "description": "Number of increasing columns in all 2-compositions of n.",
   "id": "A181305",
   "mentions": [
     "A181304",
     "A181337"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

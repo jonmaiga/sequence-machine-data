@@ -2,7 +2,9 @@
   "description": "Irregular triangle read by rows: row n lists divisors of n^2 in decreasing order.",
   "id": "A304254",
   "mentions": [
-    "A056538"
+    "A048691",
+    "A056538",
+    "A065764"
   ],
   "tags": [
     "nonn",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 74,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

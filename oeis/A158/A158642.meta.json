@@ -1,5 +1,5 @@
 {
-  "description": "Palindromic numbers which are the product of a number n and its reversal (n written backwards)",
+  "description": "Palindromic numbers which are the product of a number n and its reversal (n written backwards).",
   "id": "A158642",
   "mentions": [
     "A002113"

@@ -2,7 +2,8 @@
   "description": "Decimal expansion of 1/560.",
   "id": "A021564",
   "mentions": [
-    "A020806"
+    "A020806",
+    "A021060"
   ],
   "tags": [
     "cons",

@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X(n+1) symmetric 0..7 arrays with no 2X2 subblock summing to 14",
+  "description": "Half the number of (n+1)X(n+1) symmetric 0..7 arrays with no 2X2 subblock summing to 14.",
   "id": "A213696",
   "mentions": [
     "A213697"

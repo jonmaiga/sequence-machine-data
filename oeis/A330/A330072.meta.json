@@ -2,7 +2,10 @@
   "description": "a(n) is the sum of all integers whose binary representation is contained in the binary representation of n (with multiplicity).",
   "id": "A330072",
   "mentions": [
+    "A005187",
     "A007088",
+    "A049802",
+    "A070939",
     "A078823",
     "A225580"
   ],

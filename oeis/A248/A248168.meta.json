@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1/sqrt((1-3*x)*(1-11*x)).",
+  "description": "Expansion of g.f.: 1/sqrt((1-3*x)*(1-11*x)).",
   "id": "A248168",
   "mentions": [
     "A026375",

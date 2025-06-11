@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the first differences of the 0-prepended prime indices of the n-th squarefree number.",
+  "id": "A384008",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001223",
+    "A005117",
+    "A048767",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A072047",
+    "A112798",
+    "A243290",
+    "A320348",
+    "A325324",
+    "A325325",
+    "A325367",
+    "A325388",
+    "A351294",
+    "A351295",
+    "A355536",
+    "A358137",
+    "A383534",
+    "A383535",
+    "A384009"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

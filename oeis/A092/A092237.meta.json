@@ -2,8 +2,10 @@
   "description": "Maximum number of intercalates in a Latin square of order n.",
   "id": "A092237",
   "mentions": [
+    "A006096",
     "A090741",
-    "A091323"
+    "A091323",
+    "A383368"
   ],
   "tags": [
     "formulas",

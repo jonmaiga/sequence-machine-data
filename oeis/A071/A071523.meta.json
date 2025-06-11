@@ -2,7 +2,14 @@
   "description": "Number of 11-smooth numbers <= n.",
   "id": "A071523",
   "mentions": [
-    "A051038"
+    "A051038",
+    "A070939",
+    "A071520",
+    "A071521",
+    "A071604",
+    "A080684",
+    "A080685",
+    "A080686"
   ],
   "tags": [
     "easy",
@@ -12,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

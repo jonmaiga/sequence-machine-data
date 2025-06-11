@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 2+k and 2*k are squares.",
+  "id": "A383734",
+  "mentions": [
+    "A002315",
+    "A008843",
+    "A008844",
+    "A031396",
+    "A075870",
+    "A088165",
+    "A156164",
+    "A245226",
+    "A382209"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

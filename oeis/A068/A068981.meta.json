@@ -7,12 +7,13 @@
     "A033286"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
-    "source": "joeis"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

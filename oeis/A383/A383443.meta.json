@@ -1,0 +1,16 @@
+{
+  "description": "First differences of A383442.",
+  "id": "A383443",
+  "mentions": [
+    "A383442",
+    "A383688"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

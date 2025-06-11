@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the total number of humps with height k in all Motzkin paths of order n, n >= 2 and 1 <= k <= n/2,",
+  "description": "Triangle read by rows: T(n,k) is the total number of humps with height k in all Motzkin paths of order n, n >= 2 and 1 <= k <= n/2.",
   "id": "A379838",
   "mentions": [
     "A001006",

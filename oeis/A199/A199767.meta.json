@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sum_{i=1..k} (1+1/p_i) + product_{i=1..k} (1+1/p_i) is an integer, where p_i are the k prime factors of n (with multiplicity).",
+  "description": "Numbers m for which Sum_{i=1..k} (1+1/p_i) + Product_{i=1..k} (1+1/p_i) is an integer, where p_i are the k prime factors of m (with multiplicity).",
   "id": "A199767",
   "mentions": [
     "A003415",

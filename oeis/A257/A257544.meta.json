@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1/(1 - x/(1 - (x^2/2!)/(1 - (x^3/3!)/(1 - (x^4/4!)/(1 - (x^5/5!)/(1 -... (x^n/n!)/(1 -...))))))), a continued fraction.",
+  "description": "Expansion of e.g.f. 1/(1 - x/(1 - (x^2/2!)/(1 - (x^3/3!)/(1 - (x^4/4!)/(1 - (x^5/5!)/(1 -... (x^n/n!)/(1 -...))))))), a continued fraction.",
   "id": "A257544",
   "mentions": [],
   "tags": [

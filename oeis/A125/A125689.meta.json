@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number having exactly n partitions into three distinct primes.",
+  "description": "a(n) is the smallest number having exactly n partitions into three distinct primes.",
   "id": "A125689",
   "mentions": [
     "A125688"

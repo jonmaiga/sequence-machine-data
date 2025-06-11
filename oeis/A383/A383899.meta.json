@@ -1,0 +1,16 @@
+{
+  "description": "A sequence constructed by greedily sampling the Yule-Simon distribution for parameter value 1, 1/(i*(i+1)) to minimize discrepancy.",
+  "id": "A383899",
+  "mentions": [
+    "A245254",
+    "A383855"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

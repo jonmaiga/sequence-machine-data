@@ -1,5 +1,5 @@
 {
-  "description": "Number of rectangles dissectable into n squares, unique up to aspect ratio.",
+  "description": "Number of rectangles dissectible into n squares, unique up to aspect ratio.",
   "id": "A210517",
   "mentions": [
     "A160911",

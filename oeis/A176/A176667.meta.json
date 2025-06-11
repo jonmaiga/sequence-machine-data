@@ -1,5 +1,5 @@
 {
-  "description": "A triangle of polynomial coefficients:p(x,n)=Sum[(k + 1)^n*Binomial[x, k], {k, 0, Infinity}]/2^(x - n)",
+  "description": "A triangle of polynomial coefficients:p(x,n)=Sum[(k + 1)^n*Binomial[x, k], {k, 0, Infinity}]/2^(x - n).",
   "id": "A176667",
   "mentions": [
     "A007582"

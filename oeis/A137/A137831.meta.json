@@ -1,5 +1,5 @@
 {
-  "description": "(Prime(n)^2 minus its last digit)/20.",
+  "description": "a(n) = (prime(n)^2 minus its last digit)/20.",
   "id": "A137831",
   "mentions": [
     "A001248",

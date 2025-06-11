@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with every 1 having exactly one king-move neighbor equal to 1",
+  "description": "T(n,k)=Number of nXk binary arrays with every 1 having exactly one king-move neighbor equal to 1.",
   "id": "A183442",
   "mentions": [
     "A000930"

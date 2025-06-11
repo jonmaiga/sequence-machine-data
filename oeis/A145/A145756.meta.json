@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ((2^prime(n+2)-2)/prime(n+2))/3, where n >= 1",
+  "description": "a(n) = ((2^prime(n+2)-2)/prime(n+2))/3, where n >= 1.",
   "id": "A145756",
   "mentions": [
     "A064535"

@@ -1,13 +1,18 @@
 {
   "description": "Numbers k such that 2^k + prime(k) is prime.",
   "id": "A077375",
-  "mentions": [],
+  "mentions": [
+    "A078583",
+    "A078686",
+    "A242944"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

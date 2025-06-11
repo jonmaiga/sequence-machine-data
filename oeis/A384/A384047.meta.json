@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) for 1 <= k <= n is the largest divisor of k that is a unitary divisor of n.",
+  "id": "A384047",
+  "mentions": [
+    "A005117",
+    "A050873",
+    "A077610",
+    "A145388",
+    "A165430",
+    "A225174",
+    "A322482",
+    "A384046"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

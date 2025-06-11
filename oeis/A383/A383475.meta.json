@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k*2^d is the average of a twin prime pair for some divisor d of k.",
+  "id": "A383475",
+  "mentions": [
+    "A002822",
+    "A014574",
+    "A027750",
+    "A060212",
+    "A382811",
+    "A383473"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

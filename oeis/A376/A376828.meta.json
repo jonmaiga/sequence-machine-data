@@ -1,5 +1,5 @@
 {
-  "description": "Smallest nonnegative integer k such that there exist n partitions of k which all yield the same multinomial coefficient and with no part appearing in more than one of the partitions.",
+  "description": "a(n) = smallest integer k >= 0 such that there exist n disjoint partitions of k that yield the same multinomial coefficient.",
   "id": "A376828",
   "mentions": [
     "A376661",

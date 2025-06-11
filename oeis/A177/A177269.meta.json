@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1 + sum{k=1 to n} A177268(k)",
+  "description": "a(n) = 1 + sum{k=1 to n} A177268(k).",
   "id": "A177269",
   "mentions": [
     "A175350",

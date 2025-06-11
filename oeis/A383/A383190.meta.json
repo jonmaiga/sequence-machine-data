@@ -1,0 +1,17 @@
+{
+  "description": "a(2n) and a(2n+1) are the square spiral numbers of the position on which the (n+1)th domino is placed, when tiling the plane by placing the dominos always as near as possible to the origin and so that no two dominos share a long side. Inverse permutation of A383191.",
+  "id": "A383190",
+  "mentions": [
+    "A174344",
+    "A316328",
+    "A383191"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

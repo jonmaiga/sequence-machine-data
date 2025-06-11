@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of zeros in the left half-plane of the Maclaurin polynomial of degree n for exp(z).",
+  "id": "A383644",
+  "mentions": [
+    "A330187",
+    "A332324",
+    "A332420"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,13 @@
 {
-  "description": "Primes of the form 7*2^k-1.",
+  "description": "Primes of the form 7*2^k - 1.",
   "id": "A050523",
   "mentions": [
     "A001771",
+    "A086224",
     "A158795"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

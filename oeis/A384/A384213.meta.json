@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of an elongated pentagonal rotunda with unit edge.",
+  "id": "A384213",
+  "mentions": [
+    "A002163",
+    "A010476",
+    "A179637",
+    "A384138",
+    "A384140",
+    "A384144"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

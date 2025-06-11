@@ -1,0 +1,17 @@
+{
+  "description": "G.f. B(x) satisfies B(x)^2 = B(x*B(x)) / (1 - x*B(x)).",
+  "id": "A383554",
+  "mentions": [
+    "A383553",
+    "A383555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..4 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11",
+  "description": "Number of (n+1)X(4+1) 0..4 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11.",
   "id": "A234213",
   "mentions": [
     "A234217"

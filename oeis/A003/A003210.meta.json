@@ -1,7 +1,9 @@
 {
   "description": "Cluster series for b.c.c. lattice.",
   "id": "A003210",
-  "mentions": [],
+  "mentions": [
+    "A383735"
+  ],
   "tags": [
     "more",
     "nonn"

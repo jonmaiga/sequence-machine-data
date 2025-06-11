@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n v[1..n] with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..n-1",
+  "description": "Number of permutations of 1..n v[1..n] with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..n-1.",
   "id": "A171339",
   "mentions": [],
   "tags": [

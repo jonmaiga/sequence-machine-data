@@ -1,0 +1,18 @@
+{
+  "description": "k-facile numbers: Numbers m such that the sum of the divisors of m is equal to 2*m+s where s is a product of distinct divisors of m.",
+  "id": "A383148",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005101",
+    "A181595"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

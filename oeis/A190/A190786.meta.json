@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(2*n-1) = 3*n, where sigma(k) is the sum of the positive divisors of k.",
+  "description": "Numbers m such that sigma(2*m-1) = 3*m, where sigma(k) is the sum of the positive divisors of k.",
   "id": "A190786",
   "mentions": [
     "A000203",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

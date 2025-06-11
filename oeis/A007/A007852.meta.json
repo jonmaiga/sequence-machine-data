@@ -1,5 +1,5 @@
 {
-  "description": "Antichains in rooted plane trees on n nodes.",
+  "description": "Number of antichains in rooted plane trees on n nodes.",
   "id": "A007852",
   "mentions": [
     "A000108",

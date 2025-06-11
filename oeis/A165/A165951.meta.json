@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (Sum of the quadratic non-residues of prime(n) - Sum of the quadratic residues of prime(n)) / prime(n)",
+  "description": "a(n) = (Sum of the quadratic non-residues of prime(n) - Sum of the quadratic residues of prime(n)) / prime(n).",
   "id": "A165951",
   "mentions": [
     "A002143",

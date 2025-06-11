@@ -2,7 +2,9 @@
   "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A064549, n * Product_{primes p|n} p.",
   "id": "A318511",
   "mentions": [
+    "A001620",
     "A064549",
+    "A065464",
     "A317935",
     "A318512"
   ],

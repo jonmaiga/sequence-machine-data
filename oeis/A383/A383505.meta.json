@@ -1,0 +1,18 @@
+{
+  "description": "Least integer k >= 0 such that binomial(k*n,k+1) = -1 mod n, or -1 if no such integer exists.",
+  "id": "A383505",
+  "mentions": [
+    "A000430",
+    "A059288",
+    "A099905"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

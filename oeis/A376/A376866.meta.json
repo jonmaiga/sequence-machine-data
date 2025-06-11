@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer k >= 2 such that there exist n partitions whose corresponding multinomial coefficients are all equal to k, with no part appearing in more than one of the partitions.",
+  "description": "a(n) = smallest integer k >= 2 such that there exist n disjoint multisets of positive integers, whose corresponding multinomial coefficients equal k.",
   "id": "A376866",
   "mentions": [
     "A180058",

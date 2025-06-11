@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct rectangles with integer area that can be inscribed in a cube with edge length 4*n, as shown in the linked figure \"Cube with inscribed rectangle\".",
+  "id": "A383721",
+  "mentions": [
+    "A361795",
+    "A373710",
+    "A375473"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

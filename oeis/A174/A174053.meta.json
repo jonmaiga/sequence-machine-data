@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers of the form x^2+y^2 such that Moebius(x)* Moebius(y) = -1",
+  "description": "Prime numbers of the form x^2+y^2 such that Moebius(x)* Moebius(y) = -1.",
   "id": "A174053",
   "mentions": [
     "A002313",

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit positive integers where all pairs of consecutive digits have a difference of at least 3.",
+  "id": "A383071",
+  "mentions": [
+    "A052268",
+    "A100062",
+    "A383070",
+    "A383072"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

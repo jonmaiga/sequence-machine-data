@@ -8,11 +8,12 @@
     "A280391"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 44,
-    "source": "oeis-bfile"
+    "source": "oeis-entry"
   }
 }

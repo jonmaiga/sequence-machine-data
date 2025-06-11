@@ -1,0 +1,19 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator for Smalltalk-80 when started at 1.",
+  "id": "A384220",
+  "mentions": [
+    "A096550",
+    "A096561",
+    "A383940"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

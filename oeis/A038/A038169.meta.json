@@ -1,13 +1,18 @@
 {
-  "description": "Number of \"connected animals\" formed from n tricapped truncated tetrahedra in the diamond lattice, allowing translation and rotations of the lattice and reflections.",
+  "description": "Number of \"connected animals\" formed from n triakis truncated tetrahedra connected along hexagonal faces in the triakis truncated tetrahedral honeycomb, allowing translations, rotations, and reflections of the honeycomb.",
   "id": "A038169",
   "mentions": [
     "A000162",
     "A038119",
     "A038168",
+    "A038170",
+    "A038171",
+    "A038172",
+    "A038173",
     "A038174"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

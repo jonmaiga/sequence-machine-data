@@ -1,5 +1,5 @@
 {
-  "description": "Least k(n)>=floor(n/2) such that 3*2^k(n)*(2^n-1)-1 or 3*2^k(n)*(2^n-1)+1 is prime (or both primes)",
+  "description": "Least k(n)>=floor(n/2) such that 3*2^k(n)*(2^n-1)-1 or 3*2^k(n)*(2^n-1)+1 is prime (or both primes).",
   "id": "A152162",
   "mentions": [],
   "tags": [

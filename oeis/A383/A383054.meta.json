@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1)^5 * Stirling2(n,k).",
+  "id": "A383054",
+  "mentions": [
+    "A000110",
+    "A223023",
+    "A362925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

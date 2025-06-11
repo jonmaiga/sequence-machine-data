@@ -1,5 +1,5 @@
 {
-  "description": "Exponential Riordan array (e^x,A005043(x))",
+  "description": "Exponential Riordan array (e^x,A005043(x)).",
   "id": "A185814",
   "mentions": [
     "A005043"

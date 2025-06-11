@@ -1,0 +1,20 @@
+{
+  "description": "Square numbers with distinct digits from 1-9 that have an initial string of two or more digits forming a square number.",
+  "id": "A383691",
+  "mentions": [
+    "A036744",
+    "A036745",
+    "A352329"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

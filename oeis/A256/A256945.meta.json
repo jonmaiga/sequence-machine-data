@@ -7,12 +7,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 62,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
   }
 }

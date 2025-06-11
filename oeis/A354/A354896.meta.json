@@ -1,5 +1,5 @@
 {
-  "description": "A fixed point of the two-block substitution 00->001, 01->010, 10->101, 11->110",
+  "description": "A fixed point of the two-block substitution 00->001, 01->010, 10->101, 11->110.",
   "id": "A354896",
   "mentions": [
     "A000002",

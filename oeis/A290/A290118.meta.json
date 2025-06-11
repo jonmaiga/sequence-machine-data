@@ -1,11 +1,12 @@
 {
-  "description": "Primes of the form k! / 5 - 1.",
+  "description": "Primes of the form k!/5 - 1.",
   "id": "A290118",
   "mentions": [
     "A139175",
     "A139200"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

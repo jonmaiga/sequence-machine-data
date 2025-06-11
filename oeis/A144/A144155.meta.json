@@ -1,5 +1,5 @@
 {
-  "description": "Bell convolution triangle, T(n,k) = A000110(n-k)*A000110(k)",
+  "description": "Bell convolution triangle, T(n,k) = A000110(n-k)*A000110(k).",
   "id": "A144155",
   "mentions": [
     "A000110",

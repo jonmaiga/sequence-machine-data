@@ -1,8 +1,14 @@
 {
   "description": "Sum of n mod k for k in {1...n} with gcd(k,n) > 1.",
   "id": "A072514",
-  "mentions": [],
+  "mentions": [
+    "A004125",
+    "A008683",
+    "A067439",
+    "A111490"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with no zeros such that the product of the digits of its cube is also a cube.",
+  "description": "Numbers with no zeros in their cubes such that the products of the digits of their cubes are also cubes.",
   "id": "A067071",
   "mentions": [],
   "tags": [

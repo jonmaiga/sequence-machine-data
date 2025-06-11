@@ -1,5 +1,5 @@
 {
-  "description": "Number partition numbers <= P(n) of the form 3*k (P=A000041).",
+  "description": "Number partition numbers <= P(n) of the form 3*k (P = A000041).",
   "id": "A087180",
   "mentions": [
     "A000041",
@@ -11,11 +11,12 @@
     "A087183"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

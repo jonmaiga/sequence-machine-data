@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n of the form a - b + c, such that n^3 equals the decimal concatenation a//b//c and numbers n, b, and c have the same number of digits.",
+  "description": "Numbers k of the form a - b + c, such that k^3 equals the decimal concatenation a//b//c and numbers k, b, and c have the same number of digits.",
   "id": "A259379",
   "mentions": [
     "A056733",

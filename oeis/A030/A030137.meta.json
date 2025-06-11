@@ -2,7 +2,13 @@
   "description": "Number of one-sided pentagonal n-ominoes (or pentominoes) on the dodecahedron.",
   "id": "A030137",
   "mentions": [
-    "A030138"
+    "A030135",
+    "A030138",
+    "A197463",
+    "A383491",
+    "A383493",
+    "A383495",
+    "A383498"
   ],
   "tags": [
     "fini",

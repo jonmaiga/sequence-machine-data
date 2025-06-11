@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1; a(n)=n^(n+a(n-1))-a(n-1)^(n+a(n-1)).",
+  "description": "a(0) = -1; a(n) = n^(n+a(n-1)) - a(n-1)^(n+a(n-1)).",
   "id": "A152840",
   "mentions": [
     "A084964",

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose vSPD is not squarefree, where vSPD(n) is the valuation of the smallest prime divisor for n >= 2.",
+  "id": "A383264",
+  "mentions": [
+    "A008683",
+    "A013929",
+    "A067029"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

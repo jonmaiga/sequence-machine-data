@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with row sums 16 and column sums 16",
+  "description": "Number of n X n 0..2 arrays with row sums 16 and column sums 16.",
   "id": "A172631",
   "mentions": [],
   "tags": [

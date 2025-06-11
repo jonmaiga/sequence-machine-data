@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet convolution of A276086 (primorial base exp-function) with A055615 (Dirichlet inverse of n).",
+  "id": "A383286",
+  "mentions": [
+    "A055615",
+    "A276086",
+    "A349394",
+    "A369010"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

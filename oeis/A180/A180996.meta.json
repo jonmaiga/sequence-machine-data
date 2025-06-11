@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary matrices with rows and columns each in strictly increasing order as binary numbers and no 1 neighboring another 1",
+  "description": "Number of n X n binary matrices with rows and columns each in strictly increasing order as binary numbers and no 1 neighboring another 1.",
   "id": "A180996",
   "mentions": [
     "A180997"

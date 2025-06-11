@@ -1,10 +1,11 @@
 {
-  "description": "Number of squares between powers of 2, floor(sqrt(2^(n+1))) - floor(sqrt(2^n))",
+  "description": "Number of squares between powers of 2, floor(sqrt(2^(n+1))) - floor(sqrt(2^n)).",
   "id": "A190568",
   "mentions": [
     "A000079",
     "A000290",
-    "A002193"
+    "A002193",
+    "A017910"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write 2n = p+2q+3r with p,q,r terms of A210479",
+  "description": "Number of ways to write 2n = p+2q+3r with p,q,r terms of A210479.",
   "id": "A211190",
   "mentions": [
     "A005153",

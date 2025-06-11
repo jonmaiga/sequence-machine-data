@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} binomial(n,k) * binomial(n-3*k,k).",
+  "id": "A383523",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A383522"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

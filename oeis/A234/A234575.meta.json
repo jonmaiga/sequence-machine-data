@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: T(n,k) = floor(n/k) + n mod k, with 1<=k<=n.",
+  "description": "Triangle T(n, k) read by rows: T(n, k) = floor(n/k) + n mod k.",
   "id": "A234575",
   "mentions": [
     "A002024",

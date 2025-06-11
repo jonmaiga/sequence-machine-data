@@ -2,7 +2,8 @@
   "description": "Decimal expansion of sum of reciprocals of maximal prime gap primes: Sum_{n>=1} 1/A000101(n).",
   "id": "A350582",
   "mentions": [
-    "A000101"
+    "A000101",
+    "A350581"
   ],
   "tags": [
     "cons",

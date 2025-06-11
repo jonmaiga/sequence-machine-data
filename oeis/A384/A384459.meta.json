@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^k*(3*k+1)*H(k)^3/2^k, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A384459",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A016578",
+    "A152648",
+    "A152649",
+    "A152651",
+    "A218505",
+    "A233090",
+    "A238168",
+    "A238181",
+    "A238182",
+    "A241753",
+    "A244667",
+    "A253191",
+    "A256988",
+    "A345203"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

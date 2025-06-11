@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least prime following A002282[n] repdigits.",
+  "description": "a(n) is the least prime following A002282(n) repdigits.",
   "id": "A099662",
   "mentions": [
     "A002275",

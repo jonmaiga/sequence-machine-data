@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: matrix inverse of the central factorial numbers T(2n, 2k) (A036969).",
+  "description": "Triangle read by rows: matrix inverse of the central factorial numbers T(2*n, 2*k) (A036969).",
   "id": "A204579",
   "mentions": [
     "A001044",

@@ -1,5 +1,5 @@
 {
-  "description": "Prime terms multiplied by Fibonacci terms (omitting first two terms of Fibonacci sequence)",
+  "description": "Prime terms multiplied by Fibonacci terms (omitting first two terms of Fibonacci sequence).",
   "id": "A160190",
   "mentions": [
     "A004399",

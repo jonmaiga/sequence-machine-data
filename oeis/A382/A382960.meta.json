@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that k < A053669(k)^2 * A380539(k)^2, i.e., k < A382767(k).",
+  "id": "A382960",
+  "mentions": [
+    "A001221",
+    "A033845",
+    "A033846",
+    "A033847",
+    "A033848",
+    "A048597",
+    "A051250",
+    "A053669",
+    "A286708",
+    "A380539",
+    "A382659",
+    "A382767"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

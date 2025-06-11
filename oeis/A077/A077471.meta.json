@@ -1,5 +1,5 @@
 {
-  "description": "Greedy powers of (4/7): sum_{n=1..inf} (4/7)^a(n) = 1.",
+  "description": "Greedy powers of (4/7): Sum_{n>=1} (4/7)^a(n) = 1.",
   "id": "A077471",
   "mentions": [
     "A077468",

@@ -1,15 +1,20 @@
 {
   "description": "Number of cyclic edge cuts in the n-barbell graph.",
   "id": "A378431",
-  "mentions": [],
+  "mentions": [
+    "A000272",
+    "A001187",
+    "A001858",
+    "A006125",
+    "A378324"
+  ],
   "tags": [
-    "bref",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

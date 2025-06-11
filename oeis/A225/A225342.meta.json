@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 -1,1 arrays such that the sum over i=1..n,j=1..6 of i*x(i,j) is zero, the sum of x(i,j) is zero, and rows are nondecreasing (number of ways to distribute 6-across galley oarsmen left-right at n fore-aft positions so that there are no turning moments on the ship)",
+  "description": "Number of nX6 -1,1 arrays such that the sum over i=1..n,j=1..6 of i*x(i,j) is zero, the sum of x(i,j) is zero, and rows are nondecreasing (number of ways to distribute 6-across galley oarsmen left-right at n fore-aft positions so that there are no turning moments on the ship).",
   "id": "A225342",
   "mentions": [
     "A225345"

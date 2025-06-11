@@ -1,0 +1,25 @@
+{
+  "description": "The number of prime powers p^e having the property that e is a unitary divisor of the p-adic valuation of n.",
+  "id": "A383959",
+  "mentions": [
+    "A001221",
+    "A034444",
+    "A077761",
+    "A085548",
+    "A238949",
+    "A278908",
+    "A361255",
+    "A383863",
+    "A383960"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

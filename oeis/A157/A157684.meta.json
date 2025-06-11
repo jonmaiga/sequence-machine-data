@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=#{1<=k<=n : [K(k),K(k+1)]=[1,2]} where K=A000002",
+  "description": "a(n)=#{1<=k<=n : [K(k),K(k+1)]=[1,2]} where K=A000002.",
   "id": "A157684",
   "mentions": [
     "A000002",

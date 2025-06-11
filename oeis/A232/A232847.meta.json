@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of divisors of n is a square and a triangular number (A000217). That is, numbers n such that A000203(n) is in A001110.",
+  "description": "Numbers k such that sum of divisors of k is a square and a triangular number (A000217). That is, numbers k such that A000203(k) is in A001110.",
   "id": "A232847",
   "mentions": [
     "A000203",

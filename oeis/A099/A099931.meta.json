@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Pell(n)*Pell(n-1)*Pell(n-2)*Pell(n-3) / 120.",
+  "description": "a(n) = Pell(n) * Pell(n-1) * Pell(n-2) * Pell(n-3) / 120.",
   "id": "A099931",
   "mentions": [
     "A000129",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 4,
-    "size": 15,
+    "size": 17,
     "source": "joeis"
   }
 }

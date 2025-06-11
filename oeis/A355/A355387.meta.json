@@ -18,6 +18,7 @@
     "A304961",
     "A307068",
     "A323583",
+    "A331330",
     "A336127",
     "A336128",
     "A336130",
@@ -29,12 +30,12 @@
     "A355388"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that there is at least two smaller numbers k < m with the same harmonic mean of divisors as m.",
+  "description": "Numbers m such that there are at least two smaller numbers k < m with the same harmonic mean of divisors as m.",
   "id": "A348697",
   "mentions": [
     "A099377",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

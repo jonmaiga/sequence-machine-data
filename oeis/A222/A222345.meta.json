@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length (n+k)X1 arrays of occupancy after each element moves up to +-k places including 0",
+  "description": "T(n,k)=Number of length (n+k)X1 arrays of occupancy after each element moves up to +-k places including 0.",
   "id": "A222345",
   "mentions": [
     "A001700",

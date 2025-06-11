@@ -5,15 +5,16 @@
     "A289170",
     "A303144",
     "A303145",
-    "A303229"
+    "A303229",
+    "A304553",
+    "A304555"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

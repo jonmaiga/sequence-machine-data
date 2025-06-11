@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of -Sum_{k>=1} mu(3*k)/(3^k - 1), where mu is the Möbius function A008683.",
+  "id": "A383817",
+  "mentions": [
+    "A007404",
+    "A008683",
+    "A055777",
+    "A383818",
+    "A383819",
+    "A383820"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Independence number of De Bruijn graph of order n on two symbols.",
+  "description": "Independence number of de Bruijn graph of order n on two symbols.",
   "id": "A006946",
   "mentions": [
     "A000031",

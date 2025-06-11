@@ -1,0 +1,17 @@
+{
+  "description": "Square table read by descending antidiagonals where T(n,k) = binomial(k+2^n-2,k).",
+  "id": "A383905",
+  "mentions": [
+    "A137153",
+    "A383902"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

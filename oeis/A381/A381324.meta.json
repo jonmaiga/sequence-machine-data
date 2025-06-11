@@ -1,0 +1,18 @@
+{
+  "description": "Number of true implications over all possible pairs of unique logical sentences of n quantified variables in prenex normal form with a fixed proposition.",
+  "id": "A381324",
+  "mentions": [
+    "A000629",
+    "A381325"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

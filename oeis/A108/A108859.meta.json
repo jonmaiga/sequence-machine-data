@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that k divides the sum of the digits of k^(2k).",
   "id": "A108859",
-  "mentions": [],
+  "mentions": [
+    "A062206"
+  ],
   "tags": [
     "base",
     "hard",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

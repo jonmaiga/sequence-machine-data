@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows: where T(n,k) is the number of the k-th eliminated person in the variation of the Josephus elimination process for n people, where the elimination pattern is eliminate-eliminate-skip.",
+  "id": "A383845",
+  "mentions": [
+    "A001651",
+    "A006257",
+    "A383846",
+    "A383847"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

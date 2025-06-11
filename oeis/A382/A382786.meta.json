@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 5^k + k is prime.",
+  "id": "A382786",
+  "mentions": [
+    "A052007",
+    "A057900",
+    "A057909",
+    "A058046",
+    "A104745"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

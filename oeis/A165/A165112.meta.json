@@ -1,5 +1,5 @@
 {
-  "description": "Length of preperiodic part of trajectory of n under iteration of the base-9 Kaprekar map in A165110",
+  "description": "Length of preperiodic part of trajectory of n under iteration of the base-9 Kaprekar map in A165110.",
   "id": "A165112",
   "mentions": [
     "A151962",

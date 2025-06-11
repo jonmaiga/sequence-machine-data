@@ -1,5 +1,5 @@
 {
-  "description": "Successive positions of odd digits in decimal expansion of Pi (position 0 means 3 before comma or decimal point)",
+  "description": "Successive positions of odd digits in decimal expansion of Pi (position 0 means 3 before comma or decimal point).",
   "id": "A173999",
   "mentions": [
     "A000796",

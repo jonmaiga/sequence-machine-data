@@ -1,5 +1,5 @@
 {
-  "description": "(2,k)-perfect numbers (A019278) such that the next (2,k)-perfect number has the same value of k (in A098223)",
+  "description": "(2,k)-perfect numbers (A019278) such that the next (2,k)-perfect number has the same value of k (in A098223).",
   "id": "A205643",
   "mentions": [
     "A019278",

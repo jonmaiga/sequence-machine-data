@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=a(floor(n/3)+a(n-1)*floor(n/4)) XOR a(floor(n/2))",
+  "description": "a(n)=a(floor(n/3)+a(n-1)*floor(n/4)) XOR a(floor(n/2)).",
   "id": "A186447",
   "mentions": [],
   "tags": [

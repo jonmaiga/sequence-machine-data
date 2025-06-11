@@ -1,5 +1,5 @@
 {
-  "description": "Minimum number of different addends occurring in any shortest addition chain of Brauer type for a given n.",
+  "description": "Minimum number of different addends occurring in any shortest addition chain of Brauer type for a given n, or 0 if n has no shortest addition chain of Brauer type.",
   "id": "A086833",
   "mentions": [
     "A003064",
@@ -10,9 +10,11 @@
     "A008928",
     "A008933",
     "A079300",
-    "A079301"
+    "A079301",
+    "A349044"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

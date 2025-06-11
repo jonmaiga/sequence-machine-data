@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 4; for n > 3, a(n) is the smallest unused positive number that shares a factor with a(n-1) and at least one other previous term.",
+  "id": "A384275",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A336957",
+    "A373390"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms with coefficient 1 in the Stern polynomial B(2n+1,x): a(n) = A056169(A277324(n))",
+  "description": "Number of terms with coefficient 1 in the Stern polynomial B(2n+1,x): a(n) = A056169(A277324(n)).",
   "id": "A284267",
   "mentions": [
     "A003961",

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that primorial base expansion of A276086(k) has the primorial base expansion of A003415(k) as its suffix, where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A383933",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A276086",
+    "A276087",
+    "A383300",
+    "A383303"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

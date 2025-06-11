@@ -1,0 +1,17 @@
+{
+  "description": "The number of Hamiltonian cycles in the concentric ring graph of order n.",
+  "id": "A384294",
+  "mentions": [
+    "A000032"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 41,
+    "source": "joeis"
+  }
+}

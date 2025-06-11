@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest starting prime of a sequence of exactly n consecutive primes that are alternately of the form 6k+1 and 6k-1 or vice versa.",
+  "description": "a(n) is the smallest starting prime of a sequence of exactly n consecutive primes that are alternately of the form 6*k+1 and 6*k-1 or vice versa.",
   "id": "A382249",
   "mentions": [
     "A057620",

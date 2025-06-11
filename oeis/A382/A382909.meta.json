@@ -1,0 +1,13 @@
+{
+  "description": "Number of possible (area, dinv) interchanging bijections of Dyck paths of length 2n.",
+  "id": "A382909",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

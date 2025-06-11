@@ -1,0 +1,19 @@
+{
+  "description": "Indices of records of the sequence abs((cos n)^n) starting from n = 1.",
+  "id": "A382564",
+  "mentions": [
+    "A002485",
+    "A382815",
+    "A383283",
+    "A383541"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

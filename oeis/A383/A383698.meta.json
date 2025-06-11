@@ -1,0 +1,19 @@
+{
+  "description": "Primitive exponential squarefree exponential abundant numbers: the powerful terms of A383697.",
+  "id": "A383698",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A361174",
+    "A383694",
+    "A383697"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

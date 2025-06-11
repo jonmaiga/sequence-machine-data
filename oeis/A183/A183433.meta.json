@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=One third the number of nXk 0..3 arrays with no element equal to its row sum plus its column sum mod 4",
+  "description": "T(n,k)=One third the number of nXk 0..3 arrays with no element equal to its row sum plus its column sum mod 4.",
   "id": "A183433",
   "mentions": [],
   "tags": [

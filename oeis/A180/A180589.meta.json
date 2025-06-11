@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=floor(n!*h(n)/n), where h(n)=sum(1/k,k=1..10)",
+  "description": "a(n) = floor(n!*h(n)/n), where h(n) = Sum_{k=1..n} 1/k.",
   "id": "A180589",
   "mentions": [
     "A000254",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

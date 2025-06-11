@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted ordered trees with n non-root nodes such that all leaf nodes can be k different colors where k is the degree of their parent node.",
+  "id": "A384613",
+  "mentions": [
+    "A000108",
+    "A002212",
+    "A007318",
+    "A102407",
+    "A258173"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock sum greater than 6",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock sum greater than 6.",
   "id": "A184217",
   "mentions": [],
   "tags": [

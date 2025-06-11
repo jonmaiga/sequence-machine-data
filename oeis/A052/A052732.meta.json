@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: (1-2x-sqrt(1-4*x))*x^2/2",
+  "description": "E.g.f.: (1-2x-sqrt(1-4*x))*x^2/2.",
   "id": "A052732",
   "mentions": [
     "A000108",

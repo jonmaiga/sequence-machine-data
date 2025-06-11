@@ -2,7 +2,8 @@
   "description": "Numerators a(n) of fractions slowly converging to sqrt(2): let a(1) = 0, b(n) = n - a(n); if (a(n) + 1) / b(n) < sqrt(2), then a(n+1) = a(n) + 1, else a(n+1)= a(n).",
   "id": "A074840",
   "mentions": [
-    "A001601"
+    "A001601",
+    "A144611"
   ],
   "tags": [
     "easy",

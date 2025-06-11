@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected components of n faces of the rhombicuboctahedron up to the 48 rotations and reflections of the rhombicuboctahedron.",
+  "id": "A384070",
+  "mentions": [
+    "A383804",
+    "A384067",
+    "A384068",
+    "A384069",
+    "A384071",
+    "A384072"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

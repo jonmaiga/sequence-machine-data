@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of bases >= 2 in which the alternating sum of digits of n is equal to 0.",
+  "id": "A384212",
+  "mentions": [
+    "A055240",
+    "A061845",
+    "A135499",
+    "A135551",
+    "A225693",
+    "A384211"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

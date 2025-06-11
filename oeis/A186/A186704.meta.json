@@ -1,8 +1,11 @@
 {
   "description": "The minimum number of distinct distances determined by n points in the Euclidean plane.",
   "id": "A186704",
-  "mentions": [],
+  "mentions": [
+    "A131628"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nice",

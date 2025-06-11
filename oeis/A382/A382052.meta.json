@@ -1,0 +1,19 @@
+{
+  "description": "Primes prime(k) such that k*log(k)/prime(k) > (k-1)*log(k-1)/prime(k-1).",
+  "id": "A382052",
+  "mentions": [
+    "A060770",
+    "A068996",
+    "A185393",
+    "A382051"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

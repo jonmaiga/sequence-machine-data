@@ -10,17 +10,17 @@
     "A121785",
     "A121789",
     "A145157",
-    "A271507"
+    "A271507",
+    "A384173"
   ],
   "tags": [
     "hard",
-    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

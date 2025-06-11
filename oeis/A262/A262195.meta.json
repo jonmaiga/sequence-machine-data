@@ -1,12 +1,12 @@
 {
-  "description": "Primes that are the concatenation 1, k! and 1, for some integer k.",
+  "description": "Primes that are the concatenation of 1, k! and 1, for some integer k.",
   "id": "A262195",
   "mentions": [
-    "A089764"
+    "A089764",
+    "A381040"
   ],
   "tags": [
     "base",
-    "hard",
     "nonn"
   ],
   "terms": {

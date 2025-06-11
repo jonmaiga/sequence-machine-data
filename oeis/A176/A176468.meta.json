@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle:q=3;c(n,q)=Product[1 - q^i, {i, 1, n}];t(n,m,q)=A060187(n,m)-c(n,q)/(c(m,q)*c(n-m,q))+1",
+  "description": "A symmetrical triangle:q=3;c(n,q)=Product[1 - q^i, {i, 1, n}];t(n,m,q)=A060187(n,m)-c(n,q)/(c(m,q)*c(n-m,q))+1.",
   "id": "A176468",
   "mentions": [
     "A060187"

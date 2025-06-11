@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[(alpha^n-beta^n)(alpha-beta)], with alpha = (1 + Sqrt(a0))/2; beta = (1 - Sqrt(a0))/2; a0 = real minimal Pisot root of x^3-x-1=0(1.324717957244746)",
+  "description": "a(n) = Floor[(alpha^n-beta^n)(alpha-beta)], with alpha = (1 + Sqrt(a0))/2; beta = (1 - Sqrt(a0))/2; a0 = real minimal Pisot root of x^3-x-1=0(1.324717957244746).",
   "id": "A174631",
   "mentions": [
     "A000931",

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p preceded and followed by gaps whose product is less than (log(p))^2.",
+  "id": "A383652",
+  "mentions": [
+    "A083550",
+    "A288907",
+    "A381850"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

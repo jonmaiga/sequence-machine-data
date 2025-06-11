@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = squarefree part of A145609(n)",
+  "description": "a(n) = squarefree part of A145609(n).",
   "id": "A145738",
   "mentions": [
     "A128059",

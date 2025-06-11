@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(n,k), n >= 1, k >= 0, read by descending antidiagonals, where A(n,k) is Sum_{d|n} k^(d-1).",
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by antidiagonals downwards, where A(n,k) is Sum_{d|n} k^(d-1).",
   "id": "A308813",
   "mentions": [
     "A000005",

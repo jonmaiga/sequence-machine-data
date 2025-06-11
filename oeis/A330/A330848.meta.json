@@ -1,5 +1,5 @@
 {
-  "description": "Table read by rows: T(n,k) = number of k-sided polygons in a cross with width 3 and height n (see Comments in A331455 for definition) for k = 3,4,5",
+  "description": "Table read by rows: T(n,k) = number of k-sided polygons in a cross with width 3 and height n (see Comments in A331455 for definition) for k = 3,4,5.",
   "id": "A330848",
   "mentions": [
     "A330850",

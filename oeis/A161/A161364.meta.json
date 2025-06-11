@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, modified version of A161363; row sums = A000041",
+  "description": "Triangle read by rows, modified version of A161363; row sums = A000041.",
   "id": "A161364",
   "mentions": [
     "A000041",

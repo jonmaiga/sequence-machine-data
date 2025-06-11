@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest prime k such that (prime(n), k, u, v) are the vertices of a square in Ulam's spiral, where k < u < v are all primes; or -1 if there is no such k.",
+  "id": "A383595",
+  "mentions": [
+    "A000040",
+    "A063826"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

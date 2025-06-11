@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. -log(1 - 2*x)/(2 * (1 + x)).",
+  "id": "A384201",
+  "mentions": [
+    "A384202"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

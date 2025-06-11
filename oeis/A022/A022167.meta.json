@@ -2,6 +2,7 @@
   "description": "Triangle of Gaussian binomial coefficients [ n,k ] for q = 3.",
   "id": "A022167",
   "mentions": [
+    "A000012",
     "A003462",
     "A006095",
     "A006100",

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle: T(n,k) gives the number of connected subsets of k edges of the n-simplex up to isometries of the n-simplex, with 0 <= k <= A000217(n).",
+  "id": "A383975",
+  "mentions": [
+    "A000217",
+    "A002905",
+    "A292300",
+    "A333333",
+    "A383490",
+    "A383973",
+    "A383974"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

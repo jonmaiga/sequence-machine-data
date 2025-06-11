@@ -4,16 +4,18 @@
   "mentions": [
     "A000370",
     "A001320",
-    "A001531"
+    "A001531",
+    "A317794"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 9,
+    "offset": 0,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

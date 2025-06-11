@@ -1,0 +1,27 @@
+{
+  "description": "The sum of the infinitary divisors of n that are cubefree.",
+  "id": "A384554",
+  "mentions": [
+    "A000203",
+    "A004709",
+    "A005117",
+    "A013666",
+    "A049417",
+    "A073185",
+    "A077609",
+    "A367991",
+    "A368883",
+    "A384555"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = round((H(n)+e^H(n)*log(H(n))+sigma(n))/2).",
+  "description": "a(n) = round((H(n) + e^H(n)*log(H(n)) + sigma(n))/2).",
   "id": "A377570",
   "mentions": [
     "A000203",

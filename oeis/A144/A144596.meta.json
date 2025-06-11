@@ -2,9 +2,12 @@
   "description": "Christoffel word of slope 2/7.",
   "id": "A144596",
   "mentions": [
+    "A008591",
     "A144595"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

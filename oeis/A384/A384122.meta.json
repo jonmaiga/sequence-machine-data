@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) is the number of minimum dominating sets in the n X m rook complement graph.",
+  "id": "A384122",
+  "mentions": [
+    "A090197",
+    "A272871",
+    "A292074",
+    "A384121",
+    "A384123"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

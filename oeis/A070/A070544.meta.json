@@ -2,7 +2,10 @@
   "description": "Number of squarefree numbers s such that n < s < 2n.",
   "id": "A070544",
   "mentions": [
+    "A008683",
     "A008966",
+    "A013928",
+    "A059956",
     "A128076"
   ],
   "tags": [
@@ -13,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,10 @@
 {
-  "description": "a(n) = number at which the Ackermann function mod n stabilizes.",
+  "description": "a(n) = number at which the standard Ackermann function mod n stabilizes, or -1 if it does not stabilize.",
   "id": "A085119",
-  "mentions": [],
+  "mentions": [
+    "A352196",
+    "A383460"
+  ],
   "tags": [
     "nonn"
   ],

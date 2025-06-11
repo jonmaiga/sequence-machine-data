@@ -1,5 +1,5 @@
 {
-  "description": "A general recursion sequence:m=8:Half tent function: f(n,m)== Min[1 + Floor[m/2], 1 + Floor[(n - m)/2]]; Recursion: A(n,k,m)=(m*(n - k) + 1)*A(n - 1, k - 1, m) + (m*k + 1)*A(n - 1, k, m) + m*f(n, k)*A(n - 2, k - 1, m)",
+  "description": "A general recursion sequence:m=8:Half tent function: f(n,m)== Min[1 + Floor[m/2], 1 + Floor[(n - m)/2]]; Recursion: A(n,k,m)=(m*(n - k) + 1)*A(n - 1, k - 1, m) + (m*k + 1)*A(n - 1, k, m) + m*f(n, k)*A(n - 2, k - 1, m).",
   "id": "A157453",
   "mentions": [],
   "tags": [

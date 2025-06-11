@@ -1,0 +1,20 @@
+{
+  "description": "Primitive exponential infinitary abundant numbers that are not primitive exponential unitary abundant: the powerful terms of A383695.",
+  "id": "A383696",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A077609",
+    "A322857",
+    "A361175",
+    "A383695"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

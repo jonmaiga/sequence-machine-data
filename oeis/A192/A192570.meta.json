@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(sqrt(Bell(n)))",
+  "description": "a(n) = floor(sqrt(Bell(n))).",
   "id": "A192570",
   "mentions": [
     "A000110"

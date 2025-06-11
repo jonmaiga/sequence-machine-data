@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..2 white square subarrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value 2-x(i,j)",
+  "description": "Number of nX6 0..2 white square subarrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value 2-x(i,j).",
   "id": "A230650",
   "mentions": [
     "A230652"

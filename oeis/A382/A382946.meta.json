@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer k having a proper divisor d such that the base n expansions of k and d, without leading zeros, have, up to order, the same digits, or a(n) = -1 if no such k exists.",
+  "id": "A382946",
+  "mentions": [
+    "A023094",
+    "A090056",
+    "A382945"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

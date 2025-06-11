@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (a(n-1) + a(n-2)) * a(n-1) * a(n-2) with a(0)=1 and a(1)=1",
+  "description": "a(n) = (a(n-1) + a(n-2)) * a(n-1) * a(n-2) with a(0)=1 and a(1)=1.",
   "id": "A100704",
   "mentions": [
     "A063896",

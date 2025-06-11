@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows whose n-th row is the lexicographically first n-tuple of ordered distinct positive integers with sum A382547(n) and product A382547(n) * 100^(n-1), or an n-tuple of zeros when A382547(n) = 0.",
+  "id": "A383026",
+  "mentions": [
+    "A380887",
+    "A381187",
+    "A382547"
+  ],
+  "tags": [
+    "fini",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

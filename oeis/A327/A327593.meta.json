@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where an integer b that is a power of two > 2 with 1 < b < n exists such that n is a base-b repdigit.",
+  "description": "Numbers m where an integer b that is a power of two > 2 with 1 < b < m exists such that m is a base-b repdigit.",
   "id": "A327593",
   "mentions": [
     "A000051",

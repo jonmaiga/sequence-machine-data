@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..7 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 21",
+  "description": "Number of (n+1)X(1+1) 0..7 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 21.",
   "id": "A233869",
   "mentions": [
     "A233875"

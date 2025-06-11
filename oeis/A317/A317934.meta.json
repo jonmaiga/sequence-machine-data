@@ -2,12 +2,15 @@
   "description": "Multiplicative with a(p^n) = 2^A011371(n); denominators for certain \"Dirichlet Square Roots\" sequences.",
   "id": "A317934",
   "mentions": [
+    "A001620",
     "A004198",
     "A005187",
     "A011371",
     "A034444",
     "A037445",
+    "A046643",
     "A046644",
+    "A167864",
     "A299150",
     "A299152",
     "A317832",
@@ -16,7 +19,8 @@
     "A317933",
     "A317940",
     "A317941",
-    "A317946"
+    "A317946",
+    "A347195"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Integers k such that A378414(k) == k (mod A066417(k))",
+  "description": "Integers k such that A378414(k) == k (mod A066417(k)).",
   "id": "A378481",
   "mentions": [
     "A000217",

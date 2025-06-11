@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(-x/4) / (1-4*x)^(1/16).",
+  "id": "A381504",
+  "mentions": [
+    "A000166",
+    "A381484",
+    "A383313"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

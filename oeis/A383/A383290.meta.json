@@ -1,0 +1,19 @@
+{
+  "description": "Number of happy primes <= 10^n.",
+  "id": "A383290",
+  "mentions": [
+    "A007770",
+    "A035497",
+    "A068571"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

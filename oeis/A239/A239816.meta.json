@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..3 arrays with no element equal to zero plus the sum of elements to its left or one plus the sum of elements above it, modulo 4",
+  "description": "Number of nX5 0..3 arrays with no element equal to zero plus the sum of elements to its left or one plus the sum of elements above it, modulo 4.",
   "id": "A239816",
   "mentions": [
     "A239819"

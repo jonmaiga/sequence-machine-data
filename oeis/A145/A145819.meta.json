@@ -1,5 +1,5 @@
 {
-  "description": "Union of A145812 and A145818 with double repetition of 1, so that a(1)=1, a(2)=1",
+  "description": "Union of A145812 and A145818 with double repetition of 1, so that a(1)=1, a(2)=1.",
   "id": "A145819",
   "mentions": [
     "A145812",

@@ -1,9 +1,12 @@
 {
-  "description": "Primes of the form 7^n+2^n.",
+  "description": "Primes of the form 7^k+2^k.",
   "id": "A176946",
-  "mentions": [],
+  "mentions": [
+    "A074602"
+  ],
   "tags": [
     "bref",
+    "more",
     "nonn"
   ],
   "terms": {

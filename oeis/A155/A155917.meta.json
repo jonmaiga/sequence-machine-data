@@ -1,5 +1,5 @@
 {
-  "description": "A difference triangle of Pascal-Sierpinski 5th level and the Pascal second derivative: a(n,k)= (4*n - 4*k + 1)a(n - 1, k - 1) + (4*k - 3)a(n - 1, k); p(x,n)=(Sum[10*n*(n - 1)*a(n, k)*x^(k - 1) - D[(x + 1)^(n + 2), {x, 2}]/(x + 1), {k, n}])/2",
+  "description": "A difference triangle of Pascal-Sierpinski 5th level and the Pascal second derivative: a(n,k)= (4*n - 4*k + 1)a(n - 1, k - 1) + (4*k - 3)a(n - 1, k); p(x,n)=(Sum[10*n*(n - 1)*a(n, k)*x^(k - 1) - D[(x + 1)^(n + 2), {x, 2}]/(x + 1), {k, n}])/2.",
   "id": "A155917",
   "mentions": [
     "A142459"

@@ -1,5 +1,5 @@
 {
-  "description": "(Smallest prime-factor of n)^4.",
+  "description": "a(n) = (smallest prime factor of n)^4; a(1) = 1.",
   "id": "A088379",
   "mentions": [
     "A000583",
@@ -8,6 +8,8 @@
     "A088378"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

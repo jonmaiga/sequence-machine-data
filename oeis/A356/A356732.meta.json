@@ -1,5 +1,5 @@
 {
-  "description": "Let u defined by u(1) = p and for 1 < i, u(i) = u(i-1) + primorial(i), such that all u(i) are primes for 1 <= i <= k, and u(k+1) is not prime. Let m the length of the longest run of primes obtained when u is repeatedly applied to an n-digit p. Triangle read by rows: for 1 <= n, 1 <= k <= m, T(n,k) is the least n-digit prime p begining a run of only k primes when applied u, or -1 if no such prime p exists.",
+  "description": "Let u defined by u(1) = p and for 1 < i, u(i) = u(i-1) + primorial(i), such that all u(i) are primes for 1 <= i <= k, and u(k+1) is not prime. Let m the length of the longest run of primes obtained when u is repeatedly applied to an n-digit p. Triangle read by rows: for 1 <= n, 1 <= k <= m, T(n,k) is the least n-digit prime p beginning a run of only k primes when applied u, or -1 if no such prime p exists.",
   "id": "A356732",
   "mentions": [
     "A002110"

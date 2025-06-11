@@ -1,13 +1,15 @@
 {
   "description": "Powers of fourth root of 6 rounded up.",
   "id": "A018062",
-  "mentions": [],
+  "mentions": [
+    "A011004"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "joeis"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

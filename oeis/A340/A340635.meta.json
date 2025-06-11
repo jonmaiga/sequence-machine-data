@@ -1,7 +1,9 @@
 {
-  "description": "Number of one-sided deltoidal hexecontahedron polykites with n faces.",
+  "description": "Number of free deltoidal hexecontahedron polykites with n faces.",
   "id": "A340635",
   "mentions": [
+    "A030137",
+    "A030138",
     "A057786"
   ],
   "tags": [

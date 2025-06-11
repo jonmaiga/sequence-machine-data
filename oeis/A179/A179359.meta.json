@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with i-9<=p(i)<=i+6",
+  "description": "Number of permutations of 1..n with i-9<=p(i)<=i+6.",
   "id": "A179359",
   "mentions": [],
   "tags": [

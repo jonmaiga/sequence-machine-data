@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..6 arrays with every 2X2 subblock having the absolute values of all six edge and diagonal differences no larger than 1",
+  "description": "Number of (n+1)X(n+1) 0..6 arrays with every 2X2 subblock having the absolute values of all six edge and diagonal differences no larger than 1.",
   "id": "A234123",
   "mentions": [
     "A234131"

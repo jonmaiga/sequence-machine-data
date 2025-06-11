@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sopf(k) does not divide evenly sopfr(k).",
+  "id": "A383080",
+  "mentions": [
+    "A001414",
+    "A008472",
+    "A008683",
+    "A059404",
+    "A323055"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of coefficient of (-x^2)^n in F(x)*F(-x) where F(x)=sum(k>=0,x^k/(k!)^3).",
+  "description": "Denominator of coefficient of (-x^2)^n in F(x)*F(-x) where F(x) = Sum_{k>=0} x^k/(k!)^3.",
   "id": "A068112",
   "mentions": [
     "A068113"
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "joeis"
   }
 }

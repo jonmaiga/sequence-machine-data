@@ -1,0 +1,17 @@
+{
+  "description": "Internal digits of k^3 include digits of k as substring, k does not end in 0.",
+  "id": "A383640",
+  "mentions": [
+    "A046837",
+    "A052210"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

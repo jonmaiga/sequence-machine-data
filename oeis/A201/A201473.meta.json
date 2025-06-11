@@ -1,16 +1,18 @@
 {
-  "description": "Primes of the form 2n^2 + 3.",
+  "description": "Primes of the form 2*k^2 + 3.",
   "id": "A201473",
   "mentions": [
-    "A093328"
+    "A093328",
+    "A216968"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 42,
     "source": "joeis"
   }
 }

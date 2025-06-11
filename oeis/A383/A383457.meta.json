@@ -1,0 +1,16 @@
+{
+  "description": "Column 2 of the array in A383453.",
+  "id": "A383457",
+  "mentions": [
+    "A383453"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

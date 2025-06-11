@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*q(n)-1 where q(n) is the sequence of records positions of A179686",
+  "description": "a(n) = 2*q(n)-1 where q(n) is the sequence of records positions of A179686.",
   "id": "A179687",
   "mentions": [
     "A179382",

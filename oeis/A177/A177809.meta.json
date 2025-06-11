@@ -1,5 +1,5 @@
 {
-  "description": "Symmetrical sequence:Binomial(n,5*m)",
+  "description": "Symmetrical sequence:Binomial(n,5*m).",
   "id": "A177809",
   "mentions": [
     "A034839",

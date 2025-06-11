@@ -1,0 +1,17 @@
+{
+  "description": "The number of divisors d of n such that d^d = d (mod n).",
+  "id": "A384237",
+  "mentions": [
+    "A000005",
+    "A027750"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

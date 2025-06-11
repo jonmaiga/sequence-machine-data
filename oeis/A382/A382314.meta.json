@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1/(1-x) + 2*x*A(x^2) + 3*x^2*A(x^3).",
+  "id": "A382314",
+  "mentions": [
+    "A003586",
+    "A007814",
+    "A007949",
+    "A072079",
+    "A382126"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "joeis"
+  }
+}

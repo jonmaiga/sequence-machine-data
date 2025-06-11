@@ -1,5 +1,5 @@
 {
-  "description": "Number of idempotent 2X2 -n..n matrices of rank 1",
+  "description": "Number of idempotent 2X2 -n..n matrices of rank 1.",
   "id": "A223451",
   "mentions": [
     "A223450"

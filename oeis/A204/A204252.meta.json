@@ -2,7 +2,8 @@
   "description": "Permanent of the n-th principal submatrix of A201208 (in square format).",
   "id": "A204252",
   "mentions": [
-    "A201208"
+    "A201208",
+    "A383212"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that the cube of each digit of n is a substring of n^2",
+  "description": "Numbers n with property that the cube of each digit of n is a substring of n^2.",
   "id": "A173900",
   "mentions": [],
   "tags": [

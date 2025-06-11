@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n arrays of occupancy after each element stays put or moves to some horizontal or vertical neighbor, with no occupancy greater than 2",
+  "description": "Number of n X n arrays of occupancy after each element stays put or moves to some horizontal or vertical neighbor, with no occupancy greater than 2.",
   "id": "A221296",
   "mentions": [
     "A221303"

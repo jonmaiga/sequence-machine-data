@@ -1,5 +1,5 @@
 {
-  "description": "Place n equally space points around the circumference of a circle and then, for each pair of points, draw two distinct circles, whose radii are the same as the first circle, such that both points lie on their circumferences. The sequence gives the total number of (curved) edges formed.",
+  "description": "Place n equally spaced points around the circumference of a circle and then, for each pair of points, draw two distinct circles, whose radii are the same as the first circle, such that both points lie on their circumferences. The sequence gives the total number of (curved) edges formed.",
   "id": "A371375",
   "mentions": [
     "A135565",

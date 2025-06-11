@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct terms > 0 such that the n-th digit of the sequence is present in the cumulative sum a(1) + a(2) + ... + a(n)",
+  "description": "Lexicographically earliest sequence of distinct terms > 0 such that the n-th digit of the sequence is present in the cumulative sum a(1) + a(2) + ... + a(n).",
   "id": "A341821",
   "mentions": [
     "A341818",

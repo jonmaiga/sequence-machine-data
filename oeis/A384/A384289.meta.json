@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator for GWBASIC 3.23 when started at 1.",
+  "id": "A384289",
+  "mentions": [
+    "A096550",
+    "A096561",
+    "A384290",
+    "A384291"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

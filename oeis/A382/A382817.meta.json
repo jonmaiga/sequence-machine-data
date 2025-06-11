@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of primes among the partial sums of row n of Pascal's triangle (A007318).",
+  "id": "A382817",
+  "mentions": [
+    "A007318",
+    "A008949",
+    "A037955",
+    "A258483",
+    "A382816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

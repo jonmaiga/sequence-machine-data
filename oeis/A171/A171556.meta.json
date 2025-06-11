@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=3*C(n)-2, where C(n)=A000108(n).",
+  "description": "a(n) = 3*C(n)-2, where C(n) = A000108(n).",
   "id": "A171556",
   "mentions": [
     "A000108",

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the orders of all permutations of [n] with distinct cycle lengths.",
+  "id": "A382780",
+  "mentions": [
+    "A000142",
+    "A000793",
+    "A007838",
+    "A060014",
+    "A382781"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

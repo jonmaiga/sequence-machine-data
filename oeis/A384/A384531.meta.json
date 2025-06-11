@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative sequence a(n) with a(p^e) = ((2*e+1) * p - 2*e) * p^(e-1) for prime p and e >= 0.",
+  "id": "A384531",
+  "mentions": [
+    "A001620",
+    "A018804",
+    "A065473",
+    "A082633",
+    "A173557"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

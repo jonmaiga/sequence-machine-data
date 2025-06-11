@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(log(log(n^n^n))) (or 0 if not finite).",
+  "description": "a(n) = floor(log(log(n^n^n))).",
   "id": "A076829",
   "mentions": [
     "A000312",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 60,
-    "source": "oeis-entry"
+    "offset": 2,
+    "size": 59,
+    "source": "joeis"
   }
 }

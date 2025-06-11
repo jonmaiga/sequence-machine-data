@@ -1,5 +1,5 @@
 {
-  "description": "8*binomial(11*n+8,n)/(11*n+8).",
+  "description": "a(n) = 8*binomial(11*n+8,n)/(11*n+8).",
   "id": "A235338",
   "mentions": [
     "A230388",

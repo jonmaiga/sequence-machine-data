@@ -2,6 +2,7 @@
   "description": "Smallest squarefree number beginning with n.",
   "id": "A077336",
   "mentions": [
+    "A005117",
     "A077677",
     "A077678",
     "A077679",
@@ -21,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

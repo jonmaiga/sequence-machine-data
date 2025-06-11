@@ -1,0 +1,18 @@
+{
+  "description": "Numbers not occurring as norms of vectors in any regular planar lattice.",
+  "id": "A383785",
+  "mentions": [
+    "A022544",
+    "A034020",
+    "A055039",
+    "A383784"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

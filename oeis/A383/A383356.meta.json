@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = index of the smallest nonagonal number having the same digital sum as the n-th triangular number.",
+  "id": "A383356",
+  "mentions": [
+    "A000217",
+    "A001106",
+    "A004157",
+    "A007953"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,14 @@
   "description": "Number of similar sublattices of index n^2 in root lattice D_4.",
   "id": "A045771",
   "mentions": [
-    "A035292"
+    "A001620",
+    "A013662",
+    "A035292",
+    "A261506",
+    "A306016"
   ],
   "tags": [
+    "formulas",
     "mult",
     "nonn"
   ],

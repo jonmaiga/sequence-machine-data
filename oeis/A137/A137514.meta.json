@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence from umbral calculus expansion of _Simon Plouffe_'s rational polynomial for A002890: p(x,t)= = Exp[x*t]*(1 - 6*t + 9*t^2 - 4*t^3 + t^4)/(4*t - 1)/(2*t - 1).",
+  "description": "A triangular sequence from umbral calculus expansion of _Simon Plouffe_'s rational polynomial for A002890: p(x,t) = exp(x*t)*(1 - 6*t + 9*t^2 - 4*t^3 + t^4)/(4*t - 1)/(2*t - 1).",
   "id": "A137514",
   "mentions": [
     "A002890",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

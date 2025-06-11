@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers Phi(k,m) with integer k > 2, |m| > 1, and k != 2^j (j > 1)",
+  "description": "Prime numbers Phi(k,m) with integer k > 2, |m| > 1, and k != 2^j (j > 1).",
   "id": "A206945",
   "mentions": [
     "A059055",

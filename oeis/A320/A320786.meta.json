@@ -1,5 +1,5 @@
 {
-  "description": "Inverse Euler transform of {1,0,1,0,0,0,...}",
+  "description": "Inverse Euler transform of {1,0,1,0,0,0,...}.",
   "id": "A320786",
   "mentions": [
     "A000005",

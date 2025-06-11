@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs in the Bruhat order of type A_n.",
+  "id": "A383875",
+  "mentions": [
+    "A000142",
+    "A002538",
+    "A005130",
+    "A384061",
+    "A384062"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

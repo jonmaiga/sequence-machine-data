@@ -1,0 +1,16 @@
+{
+  "description": "Indices of record low-water marks of the sequence abs((sin n)^n).",
+  "id": "A383229",
+  "mentions": [
+    "A382815",
+    "A383283"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

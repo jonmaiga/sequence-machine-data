@@ -1,10 +1,16 @@
 {
   "description": "Number of contiguous digits i in the counting numbers, for i=0.",
   "id": "A103754",
-  "mentions": [],
+  "mentions": [
+    "A031299",
+    "A033307",
+    "A103755",
+    "A103756"
+  ],
   "tags": [
     "base",
     "easy",
+    "less",
     "nonn"
   ],
   "terms": {

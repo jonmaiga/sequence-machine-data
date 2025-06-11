@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number greater than the previous term such that the highest common factor of successive pairs follows the pattern 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, ... ( n repeated n times)given by A002024.",
+  "description": "Smallest number greater than the previous term such that the highest common factor of successive pairs follows the pattern 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, ... (n repeated n times, A002024).",
   "id": "A076922",
   "mentions": [
     "A002024"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

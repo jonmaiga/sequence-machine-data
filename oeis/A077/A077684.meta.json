@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree numbers with 8 as their initial (leftmost) digit.",
+  "description": "Squarefree numbers beginning with 8.",
   "id": "A077684",
   "mentions": [
     "A005117",

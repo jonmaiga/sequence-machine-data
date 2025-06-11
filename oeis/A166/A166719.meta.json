@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with at most 5 prime factors (counted with multiplicity)",
+  "description": "Numbers with at most 5 prime factors (counted with multiplicity).",
   "id": "A166719",
   "mentions": [
     "A000040",

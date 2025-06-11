@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 9",
+  "description": "Number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 9.",
   "id": "A234132",
   "mentions": [
     "A234140"

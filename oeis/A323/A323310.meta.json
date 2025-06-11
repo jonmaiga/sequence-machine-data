@@ -2,6 +2,8 @@
   "description": "List of e-unitary perfect numbers that are not e-semiproper perfect numbers.",
   "id": "A323310",
   "mentions": [
+    "A001694",
+    "A005117",
     "A322857",
     "A322858",
     "A323308",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

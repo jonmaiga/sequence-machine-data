@@ -2,9 +2,11 @@
   "description": "Domination and lower independence number of the n-Goldberg graph.",
   "id": "A364668",
   "mentions": [
-    "A195167"
+    "A195167",
+    "A382431"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

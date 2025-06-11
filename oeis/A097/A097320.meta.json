@@ -1,15 +1,19 @@
 {
-  "description": "Numbers with more than one prime factor and, in the ordered factorization, the exponent always decreases when read from left to right.",
+  "description": "Numbers with more than one distinct prime factor and, in the ordered (canonical) factorization, the exponent always decreases when read from left to right.",
   "id": "A097320",
   "mentions": [
+    "A057715",
     "A096156",
     "A097318",
     "A097319",
     "A112769",
     "A126706",
-    "A230766"
+    "A230766",
+    "A304686"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

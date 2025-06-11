@@ -1,5 +1,5 @@
 {
-  "description": "a(n) arises in the normal ordering of n-th power of the operator (d/dx)(x(d/dx))^4",
+  "description": "a(n) arises in the normal ordering of n-th power of the operator (d/dx)(x(d/dx))^4.",
   "id": "A157280",
   "mentions": [
     "A000110",

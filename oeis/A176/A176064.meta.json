@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle of polynomial coefficients based on the Hermite polynomials with leading coefficient adjusted to one: p(x,n)=HermiteH[n,x]-HermiteH[0,x]+x^n*(HermiteH[n,1/x]-HermiteH[0,1/x])",
+  "description": "A symmetrical triangle of polynomial coefficients based on the Hermite polynomials with leading coefficient adjusted to one: p(x,n)=HermiteH[n,x]-HermiteH[0,x]+x^n*(HermiteH[n,1/x]-HermiteH[0,1/x]).",
   "id": "A176064",
   "mentions": [],
   "tags": [

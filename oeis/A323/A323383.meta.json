@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers k such that tau(k) >= k/2, where tau(k) = A000005(k).",
+  "description": "Proper divisors of 24.",
   "id": "A323383",
   "mentions": [
     "A000005",

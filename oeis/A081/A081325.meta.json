@@ -1,13 +1,22 @@
 {
-  "description": "sigma(n^2) modulo 4.",
+  "description": "a(n) = sigma(n^2) modulo 4.",
   "id": "A081325",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A010873",
+    "A065764",
+    "A081334",
+    "A081339",
+    "A081354"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

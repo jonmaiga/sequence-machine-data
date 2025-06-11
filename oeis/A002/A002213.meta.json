@@ -1,7 +1,12 @@
 {
-  "description": "Number of polyhexes rooted at a hexagon and containing n hexagons.",
+  "description": "Number of tree-like polyhexes rooted at a hexagon and containing n hexagons.",
   "id": "A002213",
-  "mentions": [],
+  "mentions": [
+    "A002212",
+    "A002214",
+    "A002215",
+    "A002216"
+  ],
   "tags": [
     "easy",
     "formulas",

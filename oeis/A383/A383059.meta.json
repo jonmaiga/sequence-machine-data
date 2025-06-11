@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that if a digit d in the digit stream (ignoring commas) is odd, the previous digit is < d.",
+  "id": "A383059",
+  "mentions": [
+    "A342042",
+    "A342043",
+    "A342044",
+    "A342045",
+    "A382462",
+    "A382621",
+    "A382935",
+    "A383060",
+    "A383061",
+    "A383062",
+    "A383063"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

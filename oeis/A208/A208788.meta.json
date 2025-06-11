@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any antidiagonal neighbor (colorings ignoring permutations of colors)",
+  "description": "T(n,k)=Number of nXk nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any antidiagonal neighbor (colorings ignoring permutations of colors).",
   "id": "A208788",
   "mentions": [
     "A000110"

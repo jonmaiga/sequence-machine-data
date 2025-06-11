@@ -2,8 +2,11 @@
   "description": "a(n) = floor(n/floor(sqrt(n))).",
   "id": "A079643",
   "mentions": [
+    "A000122",
+    "A000194",
     "A000196",
     "A005563",
+    "A010052",
     "A064801"
   ],
   "tags": [

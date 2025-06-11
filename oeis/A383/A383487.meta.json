@@ -1,0 +1,13 @@
+{
+  "description": "Prime powers p^r such that p (mod 4) = 3 and r is even.",
+  "id": "A383487",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

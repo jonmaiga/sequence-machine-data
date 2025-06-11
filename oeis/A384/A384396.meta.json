@@ -1,0 +1,45 @@
+{
+  "description": "Position of first appearance of n in A384389 (proper choices of disjoint strict partitions of each prime index).",
+  "id": "A384396",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A048767",
+    "A048768",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A179009",
+    "A217605",
+    "A239455",
+    "A279790",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A357982",
+    "A381454",
+    "A382525",
+    "A382912",
+    "A382913",
+    "A383706",
+    "A383708",
+    "A383710",
+    "A384321",
+    "A384322",
+    "A384347",
+    "A384349",
+    "A384389",
+    "A384390",
+    "A384393"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "Primes of the form 10^n-9^n",
+  "description": "Primes of the form 10^k-9^k.",
   "id": "A199819",
   "mentions": [
     "A016189",
     "A062576"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

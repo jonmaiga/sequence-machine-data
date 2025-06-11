@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n*(sqrt(7)+sqrt(5))).",
+  "description": "a(n) = floor(n*(sqrt(7)+sqrt(5))).",
   "id": "A172324",
   "mentions": [
     "A110117",

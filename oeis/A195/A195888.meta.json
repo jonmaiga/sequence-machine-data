@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n integer array with all row and column sums zero and all row and column sums of squares <=32",
+  "description": "Number of lower triangles of an n X n integer array with all row and column sums zero and all row and column sums of squares <=32.",
   "id": "A195888",
   "mentions": [
     "A195892"

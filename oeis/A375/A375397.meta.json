@@ -1,5 +1,5 @@
 {
-  "description": "Numbers divisible by the square of some prime factor except (possibly) the least. Non-hooklike numbers.",
+  "description": "Numbers divisible by the square of some prime factor other than the least. Non-hooklike numbers.",
   "id": "A375397",
   "mentions": [
     "A000005",

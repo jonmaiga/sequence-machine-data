@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: For closed chains of identical regular m-gons with connecting inner vertices lying n vertices apart, the n-th row lists the possible m in ascending order; n>=0, 1<=k<=d(8+4n).",
+  "id": "A383168",
+  "mentions": [
+    "A027750",
+    "A047244",
+    "A366872",
+    "A383169"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

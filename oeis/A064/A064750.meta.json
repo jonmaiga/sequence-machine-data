@@ -2,9 +2,11 @@
   "description": "a(n) = n*12^n + 1.",
   "id": "A064750",
   "mentions": [
+    "A002064",
     "A064758"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

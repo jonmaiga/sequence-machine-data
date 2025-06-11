@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = minimal k for which A219665(k) >= n; a(n) = one more than the factorial base width (A084558) of the (n-1)th term in the infinite trunk of factorial beanstalk (A219666)",
+  "description": "a(n) = minimal k for which A219665(k) >= n; a(n) = one more than the factorial base width (A084558) of the (n-1)th term in the infinite trunk of factorial beanstalk (A219666).",
   "id": "A230411",
   "mentions": [
     "A084558",

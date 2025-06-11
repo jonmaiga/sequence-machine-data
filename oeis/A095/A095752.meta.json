@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (1/9)*(-1+10^n)*(4*n+3)",
+  "description": "a(n) = (1/9)*(-1+10^n)*(4*n+3).",
   "id": "A095752",
   "mentions": [],
   "tags": [

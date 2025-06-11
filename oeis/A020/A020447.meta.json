@@ -1,7 +1,12 @@
 {
-  "description": "Expansion of 1/((1-5x)(1-8x)(1-11x)).",
+  "description": "Expansion of 1/((1-5*x) * (1-8*x) * (1-11*x)).",
   "id": "A020447",
-  "mentions": [],
+  "mentions": [
+    "A016223",
+    "A016297",
+    "A017933",
+    "A019618"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

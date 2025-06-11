@@ -1,5 +1,5 @@
 {
-  "description": "Number of 1324-avoiding permutations of length n with a non-intersecting boundary of type (t, 2), for some integer t >= 1,",
+  "description": "Number of 1324-avoiding permutations of length n with a non-intersecting boundary of type (t, 2), for some integer t >= 1.",
   "id": "A278026",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Least number which can be represented by the difference between two successive prime powers of prime numbers (A076707) in just n ways.",
+  "description": "Least number which can be represented by the difference between two successive prime powers of prime numbers (A076707) in exactly n ways.",
   "id": "A077258",
   "mentions": [
     "A053810",

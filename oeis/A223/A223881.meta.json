@@ -2,10 +2,14 @@
   "description": "Denominators in the expression m!/(prime(m-1)+1) for m > 1 such that this expression is not an integer.",
   "id": "A223881",
   "mentions": [
+    "A000040",
     "A002476",
+    "A005382",
     "A007528",
     "A024898",
-    "A091178"
+    "A091178",
+    "A158015",
+    "A158016"
   ],
   "tags": [
     "nonn"

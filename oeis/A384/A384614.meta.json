@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1+x+x^2) / (1-x-3*x^2).",
+  "id": "A384614",
+  "mentions": [
+    "A105476",
+    "A382683"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

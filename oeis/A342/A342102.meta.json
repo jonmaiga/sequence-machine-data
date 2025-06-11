@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically latest sequence of distinct nonnegative integers such that for any n >= 0, {A000120(n), A080791(n)} = {A000120(a(n)), A080791(a(n))}",
+  "description": "Lexicographically latest sequence of distinct nonnegative integers such that for any n >= 0, {A000120(n), A080791(n)} = {A000120(a(n)), A080791(a(n))}.",
   "id": "A342102",
   "mentions": [
     "A000120",

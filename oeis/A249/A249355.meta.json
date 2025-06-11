@@ -1,5 +1,5 @@
 {
-  "description": "Remainder of n!+2 divided by n+2",
+  "description": "Remainder of n!+2 divided by n+2.",
   "id": "A249355",
   "mentions": [
     "A055976",

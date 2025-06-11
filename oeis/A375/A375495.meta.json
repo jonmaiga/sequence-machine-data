@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of different ways of selecting the minimum number of operations chosen from f(x) = 3x+1 and g(x) = floor(x/2) needed to reach n when starting from 1",
+  "description": "a(n) = number of different ways of selecting the minimum number of operations chosen from f(x) = 3x+1 and g(x) = floor(x/2) needed to reach n when starting from 1.",
   "id": "A375495",
   "mentions": [
     "A375494",

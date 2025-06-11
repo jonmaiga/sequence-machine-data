@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with spf(n) < gpf(n) < 2*spf(n), where spf=A020639, gpf=A006530.",
+  "description": "Numbers k with lpf(k) < gpf(k) < 2*lpf(k), where lpf = A020639, gpf = A006530.",
   "id": "A089341",
   "mentions": [
     "A005279",
@@ -10,6 +10,7 @@
     "A081306"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

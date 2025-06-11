@@ -1,5 +1,5 @@
 {
-  "description": "Number of set partitions of {1, ..., n} that avoid enhanced 7-crossings (or enhanced 7-nestings)",
+  "description": "Number of set partitions of {1, ..., n} that avoid enhanced 7-crossings (or enhanced 7-nestings).",
   "id": "A192867",
   "mentions": [
     "A000110",

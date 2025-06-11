@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the largest number t such that there exist numbers i,j,k such that, for all m <= t, there exist integers x,y,z with x*i + y*j + z*k = m and |x|+|y|+|z| <= n.",
+  "id": "A383579",
+  "mentions": [
+    "A002378"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

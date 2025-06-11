@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Beta(1/4,1/4).",
+  "id": "A384563",
+  "mentions": [
+    "A000796",
+    "A002161",
+    "A068466",
+    "A175576",
+    "A197374",
+    "A377731"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

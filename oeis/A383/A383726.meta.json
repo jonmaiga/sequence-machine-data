@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by ascending antidiagonals, where row n lists numbers m such that omega(m) = n and the largest prime factor of m equals the sum of its remaining distinct prime factors, where omega(m) = A001221(m).",
+  "id": "A383726",
+  "mentions": [
+    "A001221",
+    "A365795",
+    "A382469",
+    "A383725",
+    "A383727",
+    "A383728",
+    "A383729"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

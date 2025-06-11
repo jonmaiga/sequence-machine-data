@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of different values of the minimal factors s for primes of the form 4k+1 not exceeding 10^n (see A145215)",
+  "description": "Numbers of different values of the minimal factors s for primes of the form 4k+1 not exceeding 10^n (see A145215).",
   "id": "A145230",
   "mentions": [
     "A145016",

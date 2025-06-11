@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct ways of representing n in any integer base >= 2 using only prime digits.",
+  "id": "A384211",
+  "mentions": [
+    "A055240",
+    "A355034"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

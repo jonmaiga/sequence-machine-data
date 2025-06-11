@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/( Product_{k=0..15} (1 + (-1)^k * (2*k+1) * x) )^(1/16).",
+  "id": "A383626",
+  "mentions": [
+    "A002426",
+    "A383624",
+    "A383625"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

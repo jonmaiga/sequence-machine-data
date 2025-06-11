@@ -1,5 +1,5 @@
 {
-  "description": "Number of intersection points of all lines through the vertices of a regular n-gon.",
+  "description": "Number of intersection points of all lines through pairs of vertices of a regular n-gon.",
   "id": "A146212",
   "mentions": [
     "A006561",

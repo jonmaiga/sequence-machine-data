@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence:t(n,m)=A033306(n,m)-A033306(n,0)+1",
+  "description": "A triangular sequence:t(n,m)=A033306(n,m)-A033306(n,0)+1.",
   "id": "A174640",
   "mentions": [
     "A033306"

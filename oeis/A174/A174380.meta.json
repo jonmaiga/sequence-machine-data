@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factors of numbers of the form (n-1)^n - n^(n-1) A007925",
+  "description": "Smallest prime factors of numbers of the form (n-1)^n - n^(n-1) A007925.",
   "id": "A174380",
   "mentions": [
     "A007925",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A007304(n)^2.",
+  "description": "Numbers that are the squares of the product of three distinct primes.",
   "id": "A162143",
   "mentions": [
     "A006881",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 38,
     "source": "joeis"
   }
 }

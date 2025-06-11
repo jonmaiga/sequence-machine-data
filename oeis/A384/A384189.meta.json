@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose number of zeros in their binary representation is not equal to 1.",
+  "id": "A384189",
+  "mentions": [
+    "A023416",
+    "A030130",
+    "A164874"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

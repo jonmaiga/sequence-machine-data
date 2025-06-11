@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p + 6, p + 12, p + 16, p + 22 and p + 28 are also primes.",
+  "id": "A384528",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A023241",
+    "A382810"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

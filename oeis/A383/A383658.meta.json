@@ -1,0 +1,32 @@
+{
+  "description": "Denominator of Dirichlet g.f.: Sum_{n>=1} a(n)/n^s = zeta(s)^(3/2).",
+  "id": "A383658",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A007425",
+    "A007426",
+    "A034695",
+    "A046643",
+    "A046644",
+    "A061200",
+    "A256688",
+    "A256689",
+    "A256690",
+    "A256691",
+    "A256692",
+    "A256693",
+    "A383657"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

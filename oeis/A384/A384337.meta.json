@@ -1,0 +1,13 @@
+{
+  "description": "Numbers k such that there exists m > k with k | m^3 + 1 and m | k^3 + 1.",
+  "id": "A384337",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

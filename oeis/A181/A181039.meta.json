@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary matrices with no initial bit string in any row or column divisible by 6",
+  "description": "T(n,k)=Number of nXk binary matrices with no initial bit string in any row or column divisible by 6.",
   "id": "A181039",
   "mentions": [],
   "tags": [

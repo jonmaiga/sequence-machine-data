@@ -1,5 +1,5 @@
 {
-  "description": "Variant of Sylvester's sequence: a(n + 1) = a(n)^2 - a(n) + 1, with a(1) = 17",
+  "description": "Variant of Sylvester's sequence: a(n + 1) = a(n)^2 - a(n) + 1, with a(1) = 17.",
   "id": "A179093",
   "mentions": [
     "A144779",

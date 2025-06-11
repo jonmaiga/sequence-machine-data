@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=k such that kLog(k)",
+  "description": "a(n) = k such that (k-1)*log(k-1) < n < k*log(k).",
   "id": "A070984",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

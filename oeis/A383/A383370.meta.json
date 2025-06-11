@@ -1,0 +1,18 @@
+{
+  "description": "Number of partial orders on {1,2,...,n} that are contained in the usual linear order, whose dual is given by the relabelling k -> n+1-k.",
+  "id": "A383370",
+  "mentions": [
+    "A006455",
+    "A037223"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

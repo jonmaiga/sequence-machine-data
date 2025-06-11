@@ -1,14 +1,17 @@
 {
   "description": "a(n) = (4*n)!/n!.",
   "id": "A166338",
-  "mentions": [],
+  "mentions": [
+    "A009120",
+    "A061924"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "oeis-bfile"
   }
 }

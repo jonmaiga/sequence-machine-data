@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4^n * n! * binomial(5*n/4,n) * Sum_{k=1..n} 1/(n+4*k).",
+  "id": "A384169",
+  "mentions": [
+    "A098118",
+    "A303487",
+    "A384167",
+    "A384168"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

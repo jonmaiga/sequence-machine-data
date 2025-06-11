@@ -1,0 +1,18 @@
+{
+  "description": "Inverse Weigh transform of 3^(n-1).",
+  "id": "A383035",
+  "mentions": [
+    "A306156",
+    "A306157",
+    "A383033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

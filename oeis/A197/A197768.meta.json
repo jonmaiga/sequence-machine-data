@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling((8*n+1/n)^n)",
+  "description": "Ceiling((8*n+1/n)^n).",
   "id": "A197768",
   "mentions": [
     "A014058",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} binomial(n,k)*binomial(n+k,k)^2.",
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n+k,k)^2.",
   "id": "A112019",
   "mentions": [
     "A014178",
@@ -7,7 +7,10 @@
     "A111968",
     "A218689",
     "A218692",
-    "A218693"
+    "A218693",
+    "A383536",
+    "A383537",
+    "A383538"
   ],
   "tags": [
     "formulas",

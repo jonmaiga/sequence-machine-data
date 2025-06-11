@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing arrays of n 0..n-1 integers with the sum of their k'th powers equal to sum(i^k,i=0..n-1)",
+  "description": "T(n,k)=Number of nondecreasing arrays of n 0..n-1 integers with the sum of their k'th powers equal to sum(i^k,i=0..n-1).",
   "id": "A216635",
   "mentions": [
     "A002838",

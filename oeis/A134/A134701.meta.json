@@ -1,5 +1,5 @@
 {
-  "description": "Initial prime, greater than 3, of a prime chain of length n under the iteration x->2x-3.",
+  "description": "Smallest initial prime, greater than 3, of a prime chain of length n under the iteration x->2x-3.",
   "id": "A134701",
   "mentions": [
     "A084954"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

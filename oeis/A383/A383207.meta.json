@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. (exp(f(x)) - 1)^2 / 2, where f(x) = (exp(2*x) - 1)/2.",
+  "id": "A383207",
+  "mentions": [
+    "A000558",
+    "A383206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

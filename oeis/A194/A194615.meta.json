@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of lower triangles of an (n+1)X(n+1) 0..k array with no element equal to the average of its horizontal and vertical neighbors",
+  "description": "T(n,k) = Half the number of lower triangles of an (n+1) X (n+1) 0..k array with no element equal to the average of its horizontal and vertical neighbors.",
   "id": "A194615",
   "mentions": [
     "A055232",

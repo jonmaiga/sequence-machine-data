@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (in x^2) is arctan(sinh(x)+sin(x))",
+  "description": "E.g.f. (in x^2) is arctan(sinh(x)+sin(x)).",
   "id": "A013029",
   "mentions": [],
   "tags": [

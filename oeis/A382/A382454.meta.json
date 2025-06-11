@@ -1,0 +1,17 @@
+{
+  "description": "Number of solutions winning the Tchoukaillon game with n seeds and 2n pits.",
+  "id": "A382454",
+  "mentions": [
+    "A000707",
+    "A008302"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

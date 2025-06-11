@@ -12,11 +12,12 @@
   "tags": [
     "fini",
     "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 86,
+    "size": 92,
     "source": "oeis-entry"
   }
 }

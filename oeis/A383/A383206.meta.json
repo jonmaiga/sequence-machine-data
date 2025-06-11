@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) = Sum_{j=k..n} 2^(n-j) * Stirling2(n,j) * Stirling2(j,k).",
+  "id": "A383206",
+  "mentions": [
+    "A000007",
+    "A004211",
+    "A130191",
+    "A380228",
+    "A383207",
+    "A383208"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (1/32)*(2 - gamma)*Pi, where gamma is the Euler-Mascheroni constant.",
+  "id": "A384541",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A014963",
+    "A191898"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

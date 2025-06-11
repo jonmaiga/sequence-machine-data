@@ -2,11 +2,13 @@
   "description": "Number of squares (of nonnegative integers) that require n binary (base-2) digits.",
   "id": "A126726",
   "mentions": [
-    "A062940"
+    "A062940",
+    "A190568"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

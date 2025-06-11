@@ -1,16 +1,14 @@
 {
-  "description": "A polynomial coefficient sequence:p(x,n,m)=(1 + Binomial[n, m]*x)^n",
+  "description": "Triangle T(n,m) = (1 + binomial(n, m))^n, n>=0, 0<=m<=n.",
   "id": "A176159",
   "mentions": [],
   "tags": [
-    "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

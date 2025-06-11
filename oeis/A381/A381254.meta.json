@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the obliquity (in radians) of a planet at which the annual instellations received by the poles and the equator are identical.",
+  "id": "A381254",
+  "mentions": [
+    "A383141"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

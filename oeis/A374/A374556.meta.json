@@ -1,14 +1,17 @@
 {
   "description": "Number of maximal independent vertex sets in the n-Goldberg graph.",
   "id": "A374556",
-  "mentions": [],
+  "mentions": [
+    "A366515"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 11,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

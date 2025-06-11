@@ -2,11 +2,13 @@
   "description": "Lesser of two consecutive primes which both equal 1 (mod 3).",
   "id": "A185934",
   "mentions": [
+    "A002476",
     "A151800",
     "A217659",
     "A219244"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

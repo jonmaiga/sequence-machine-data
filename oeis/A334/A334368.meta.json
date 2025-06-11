@@ -1,5 +1,5 @@
 {
-  "description": "Number of proper divisors of n such that d, n/d and n-d are all squarefree.",
+  "description": "Number of proper divisors d of n such that d, n/d and n-d are all squarefree.",
   "id": "A334368",
   "mentions": [
     "A000005",

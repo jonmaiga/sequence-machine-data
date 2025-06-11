@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both n and (n-1)*2^n+1 are primes.",
+  "description": "Primes p such that (p-1)*2^p+1 is also prime.",
   "id": "A196303",
   "mentions": [
     "A029544",

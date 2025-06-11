@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..5 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 15",
+  "description": "Number of (n+1)X(4+1) 0..5 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 15.",
   "id": "A234204",
   "mentions": [
     "A234208"

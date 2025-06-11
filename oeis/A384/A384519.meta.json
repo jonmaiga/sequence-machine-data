@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose powerful part (A057521) is greater than 1 and is equal to a squarefree number raised to an even power (A384517).",
+  "id": "A384519",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A013929",
+    "A057521",
+    "A067259",
+    "A240112",
+    "A335275",
+    "A368714",
+    "A375142",
+    "A384517",
+    "A384520"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

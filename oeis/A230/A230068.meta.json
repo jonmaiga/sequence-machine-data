@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value 2-x(i,j)",
+  "description": "T(n,k)=Number of nXk 0..2 arrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value 2-x(i,j).",
   "id": "A230068",
   "mentions": [
     "A208556"

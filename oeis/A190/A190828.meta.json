@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 3 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 3",
+  "description": "Number of permutations of 3 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 3.",
   "id": "A190828",
   "mentions": [],
   "tags": [

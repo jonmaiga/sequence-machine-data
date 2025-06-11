@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/( Product_{k=0..4} (1 - (5*k+1) * x) )^(1/5).",
+  "id": "A383629",
+  "mentions": [
+    "A383627",
+    "A383628",
+    "A383630",
+    "A383631",
+    "A383632",
+    "A383633",
+    "A383635"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

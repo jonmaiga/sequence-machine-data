@@ -1,0 +1,18 @@
+{
+  "description": "Echo numbers: positive integers k such that the largest prime factor of k-1 is a suffix of k.",
+  "id": "A383896",
+  "mentions": [
+    "A006530",
+    "A383296",
+    "A383927"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

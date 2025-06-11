@@ -2,12 +2,13 @@
   "description": "The single-digit number obtained by iterated mapping of r (starting with n) to a power-tower of its digits, or -1 if such a single-digit number is never reached.",
   "id": "A175419",
   "mentions": [
-    "A001477",
     "A055642",
     "A175420",
     "A175421",
     "A175422",
     "A175423",
+    "A175424",
+    "A175425",
     "A175426",
     "A175427"
   ],

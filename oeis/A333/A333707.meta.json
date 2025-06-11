@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as the sum of two distinct positive integers that have the same number of divisors.",
+  "description": "Number of ways to write n as the sum of two distinct positive integers with the same number of divisors.",
   "id": "A333707",
   "mentions": [
     "A000005",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

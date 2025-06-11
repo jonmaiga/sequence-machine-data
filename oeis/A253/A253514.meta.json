@@ -2,8 +2,11 @@
   "description": "Centered heptagonal numbers (A069099) which are also centered octagonal numbers (A016754).",
   "id": "A253514",
   "mentions": [
+    "A001110",
     "A016754",
     "A069099",
+    "A157877",
+    "A157879",
     "A253446",
     "A253447"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (4n)!/(2n)!.",
+  "description": "a(n) = (4*n)!/(2*n)!.",
   "id": "A009120",
   "mentions": [
     "A001813",

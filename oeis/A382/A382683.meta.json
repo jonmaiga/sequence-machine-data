@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1-x^2) / (1-x-3*x^2+x^3).",
+  "id": "A382683",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A026581",
+    "A052973",
+    "A087640",
+    "A108411"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

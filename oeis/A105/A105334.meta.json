@@ -2,9 +2,11 @@
   "description": "a(n) = n*(n+1)/2 mod 32.",
   "id": "A105334",
   "mentions": [
+    "A000217",
     "A105198"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

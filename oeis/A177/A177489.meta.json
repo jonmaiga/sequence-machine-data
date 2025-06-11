@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (13*10^n+17)/3",
+  "description": "Primes of the form (13*10^n+17)/3.",
   "id": "A177489",
   "mentions": [
     "A102990"

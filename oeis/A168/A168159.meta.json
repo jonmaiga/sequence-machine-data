@@ -1,5 +1,5 @@
 {
-  "description": "Distance of the least reversible n-digit prime from 10^(n-1)",
+  "description": "Distance of the least reversible n-digit prime from 10^(n-1).",
   "id": "A168159",
   "mentions": [
     "A006567",

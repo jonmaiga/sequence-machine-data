@@ -1,7 +1,11 @@
 {
-  "description": "A triangle sequence of the form:t(n,m]=Binomial[n, m] + Floor[Eulerian[n + 1, m]/2]",
+  "description": "A triangle sequence of the form: T(n,m) = binomial(n, m) + floor(Eulerian(n + 1, m)/2).",
   "id": "A174035",
-  "mentions": [],
+  "mentions": [
+    "A007318",
+    "A008292",
+    "A174098"
+  ],
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 58,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

@@ -2,9 +2,11 @@
   "description": "a(n) = n*(n+1)/2 mod 16.",
   "id": "A105333",
   "mentions": [
+    "A000217",
     "A105198"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

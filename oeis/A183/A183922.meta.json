@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of n numbers in -4..4 with sum zero and sum of squares not greater than n*20/3",
+  "description": "Number of nondecreasing arrangements of n numbers in -4..4 with sum zero and sum of squares not greater than n*20/3.",
   "id": "A183922",
   "mentions": [
     "A183927"

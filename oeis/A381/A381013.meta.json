@@ -1,0 +1,18 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product partition(p_j^k_j).",
+  "id": "A381013",
+  "mentions": [
+    "A000041",
+    "A000688"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

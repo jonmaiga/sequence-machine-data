@@ -1,0 +1,18 @@
+{
+  "description": "Primes where successively deleting the most significant digit yields a sequence that alternates between a prime and a nonprime at every step until a single-digit number remains.",
+  "id": "A383781",
+  "mentions": [
+    "A024785",
+    "A383780",
+    "A383782"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

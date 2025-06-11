@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of numbers x(i=1..n) in 0..3 with sum i^3*x(i)^2 equal to n^3*9",
+  "description": "Number of strings of numbers x(i=1..n) in 0..3 with sum i^3*x(i)^2 equal to n^3*9.",
   "id": "A184297",
   "mentions": [
     "A184303"

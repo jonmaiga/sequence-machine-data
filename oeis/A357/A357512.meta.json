@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k = 0..n} k^5 * binomial(n,k)^2 * binomial(n+k,k)^2",
+  "description": "a(n) = Sum_{k = 0..n} k^5 * binomial(n,k)^2 * binomial(n+k,k)^2.",
   "id": "A357512",
   "mentions": [
     "A005259",

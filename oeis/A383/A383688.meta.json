@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A383442.",
+  "id": "A383688",
+  "mentions": [
+    "A383442",
+    "A383443"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

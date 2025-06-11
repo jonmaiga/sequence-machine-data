@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n-1) is a prime.",
+  "description": "Numbers m such that sigma(m-1) is a prime.",
   "id": "A270413",
   "mentions": [
     "A000203",

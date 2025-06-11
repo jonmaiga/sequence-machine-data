@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = floor(1/(1-s(n))) where s(n) = Sum_{k=1..n} phi(k)/k * log(2^k/(2^k-1)). phi(k) is the Euler totient function A000010(k).",
+  "id": "A383024",
+  "mentions": [
+    "A000010"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

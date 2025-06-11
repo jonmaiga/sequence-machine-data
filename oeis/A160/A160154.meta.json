@@ -1,5 +1,5 @@
 {
-  "description": "10^n-9n for n>=1",
+  "description": "10^n-9n for n>=1.",
   "id": "A160154",
   "mentions": [
     "A008591",

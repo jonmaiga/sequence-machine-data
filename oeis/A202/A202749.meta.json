@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of numerators of coefficients of the polynomial Q^(4)_m(n) defined by the recursion Q^(4)_0(n)=1; for m>=1,Q^(4)_m(n)=sum{i=1,...,n}i^4*Q^(4)_(m-1)(i). For m>=0, the denominator for all 5*m+1 terms of the m-th row is A202369(m+1)",
+  "description": "Triangle of numerators of coefficients of the polynomial Q^(4)_m(n) defined by the recursion Q^(4)_0(n)=1; for m>=1,Q^(4)_m(n)=sum{i=1,...,n}i^4*Q^(4)_(m-1)(i). For m>=0, the denominator for all 5*m+1 terms of the m-th row is A202369(m+1).",
   "id": "A202749",
   "mentions": [
     "A053657",

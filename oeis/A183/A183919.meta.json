@@ -1,5 +1,5 @@
 {
-  "description": "Characteristic sequence for sin(2Pi/n) being rational.",
+  "description": "Characteristic sequence for sin(2*Pi/n) being rational.",
   "id": "A183919",
   "mentions": [
     "A089011",

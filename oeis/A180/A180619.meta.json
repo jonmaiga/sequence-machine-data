@@ -1,5 +1,5 @@
 {
-  "description": "Consider the function f(n)=1/(Abs(n-r)), where r is the Dottie number, A003957. Let g(n) be defined by the recursion g(n)=Cos(g(n-1)),g(0)=1. Now, a(n)=floor(f(g(n)))",
+  "description": "Consider the function f(n)=1/(Abs(n-r)), where r is the Dottie number, A003957. Let g(n) be defined by the recursion g(n)=Cos(g(n-1)),g(0)=1. Now, a(n)=floor(f(g(n))).",
   "id": "A180619",
   "mentions": [
     "A003957"

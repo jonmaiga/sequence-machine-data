@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k divides the sum of the digits of k^(3k).",
+  "id": "A383746",
+  "mentions": [
+    "A083282",
+    "A108859"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

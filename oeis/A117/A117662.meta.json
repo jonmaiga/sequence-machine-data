@@ -1,5 +1,5 @@
 {
-  "description": "n*(n-1)*(n-2)*(n+3)/12.",
+  "description": "a(n) = n*(n-1)*(n-2)*(n+3)/12.",
   "id": "A117662",
   "mentions": [
     "A000332",

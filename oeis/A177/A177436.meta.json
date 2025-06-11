@@ -1,5 +1,5 @@
 {
-  "description": "The number of positive integers m for which the exponents of 2 and p_n in the prime power factorization of m! are both powers of 2.",
+  "description": "The number of positive integers m for which the exponents of 2 and prime(n) in the prime power factorization of m! are both powers of 2.",
   "id": "A177436",
   "mentions": [
     "A000142",

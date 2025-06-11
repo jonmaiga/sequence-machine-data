@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=0. If there are terms prior to and different from a(n) which have occurred the same number of times as a(n), then a(n+1) = n - m, where a(m) is the most recent occurrence of such a term. If there are no prior terms with the same number of occurrences as a(n), then a(n+1) = n - m, where a(m) is the most recent occurrence of a(n). If a(n) is a first occurrence and no prior term has occurred once only, then a(n+1) = 0",
+  "description": "a(1)=0. If there are terms prior to and different from a(n) which have occurred the same number of times as a(n), then a(n+1) = n - m, where a(m) is the most recent occurrence of such a term. If there are no prior terms with the same number of occurrences as a(n), then a(n+1) = n - m, where a(m) is the most recent occurrence of a(n). If a(n) is a first occurrence and no prior term has occurred once only, then a(n+1) = 0.",
   "id": "A357437",
   "mentions": [
     "A181391"

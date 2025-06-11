@@ -1,0 +1,20 @@
+{
+  "description": "Indices of the even terms in the sequence of cubefree numbers.",
+  "id": "A383009",
+  "mentions": [
+    "A004709",
+    "A381822",
+    "A383004",
+    "A383008"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

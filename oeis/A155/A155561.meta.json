@@ -1,5 +1,5 @@
 {
-  "description": "Intersection of A000404 and A154777: N = a^2 + b^2 = c^2 + 2d^2 with a,b,c,d>0",
+  "description": "Intersection of A000404 and A154777: N = a^2 + b^2 = c^2 + 2d^2 with a,b,c,d>0.",
   "id": "A155561",
   "mentions": [
     "A000404",

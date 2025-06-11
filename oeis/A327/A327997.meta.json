@@ -2,9 +2,13 @@
   "description": "Triangle read by rows: coefficients of the polynomials given by KummerU(-n, 1 - n - x, 3).",
   "id": "A327997",
   "mentions": [
+    "A000244",
     "A053486",
     "A094816",
-    "A137346"
+    "A137346",
+    "A346395",
+    "A381052",
+    "A382701"
   ],
   "tags": [
     "formulas",

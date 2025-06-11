@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = 8*10^n+1.",
+  "description": "a(n) = 8*10^n + 1.",
   "id": "A199689",
   "mentions": [
-    "A059482"
+    "A059482",
+    "A199688"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of r-fusc A288003(n-1) + 1;",
+  "description": "Partial sums of r-fusc A288003(n-1) + 1.",
   "id": "A289342",
   "mentions": [
     "A288003"

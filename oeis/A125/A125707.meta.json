@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A024528(n) is prime.",
+  "description": "Numbers k such that A024528(k) is prime.",
   "id": "A125707",
   "mentions": [
     "A024528",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

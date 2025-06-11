@@ -1,9 +1,12 @@
 {
   "description": "a(n) cubed is congruent to a(n) (mod 13).",
   "id": "A112655",
-  "mentions": [],
+  "mentions": [
+    "A070475"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n!^3 * Sum_{k=0..n} Stirling2(2*k,k) * Stirling2(2*n-2*k,n-k) / binomial(n,k)^3.",
+  "id": "A384492",
+  "mentions": [
+    "A187655",
+    "A187657",
+    "A226775",
+    "A384470",
+    "A384471",
+    "A384472",
+    "A384491"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

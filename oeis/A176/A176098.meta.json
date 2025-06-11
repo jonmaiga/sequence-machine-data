@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = prime(n)*(nonnegative noncomposite(n)).",
+  "description": "a(n) = prime(n) times the n-th nonnegative noncomposite.",
   "id": "A176098",
   "mentions": [
     "A000040",
@@ -8,8 +8,8 @@
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,

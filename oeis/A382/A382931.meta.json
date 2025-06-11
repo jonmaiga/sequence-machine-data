@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which the Pythagorean triangle (A046083(k), A046084(k), A009000(k)) has an integer altitude.",
+  "id": "A382931",
+  "mentions": [
+    "A009000",
+    "A046083",
+    "A046084",
+    "A382932"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

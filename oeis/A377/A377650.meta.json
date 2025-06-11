@@ -1,15 +1,16 @@
 {
-  "description": "Number of edge cuts in the complete tripartite graph K_n,n,n.",
+  "description": "Number of edge cuts in the complete tripartite graph K_{n,n,n}.",
   "id": "A377650",
-  "mentions": [],
+  "mentions": [
+    "A377649"
+  ],
   "tags": [
-    "bref",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

@@ -1,12 +1,19 @@
 {
-  "description": "Triangle where g.f. satisfies: A(x,y) = 1 + x*A(x,y)^2 + x*y*A(x,y)^3, read by rows.",
+  "description": "Triangle read by rows, where the g.f. satisfies A(x, y) = 1 + x*A(x, y)^2 + x*y*A(x, y)^3.",
   "id": "A104978",
   "mentions": [
     "A000108",
     "A001002",
     "A001764",
+    "A002054",
+    "A025174",
     "A027307",
-    "A104979"
+    "A074922",
+    "A104979",
+    "A383439",
+    "A383450",
+    "A383451",
+    "A383452"
   ],
   "tags": [
     "formulas",

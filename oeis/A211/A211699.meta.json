@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n+2*7-2 with new values introduced in order 0 upwards and every value appearing only in runs of at least 7",
+  "description": "Number of nonnegative integer arrays of length n+2*7-2 with new values introduced in order 0 upwards and every value appearing only in runs of at least 7.",
   "id": "A211699",
   "mentions": [
     "A211700"

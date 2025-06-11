@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-isomorphic directed graphs reachable in n steps (and no fewer) by at least 2*n agents using the ANY protocol (see A318154).",
+  "id": "A383389",
+  "mentions": [
+    "A318154",
+    "A383386",
+    "A383388"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

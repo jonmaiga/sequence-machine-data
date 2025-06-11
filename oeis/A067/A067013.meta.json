@@ -2,7 +2,8 @@
   "description": "Numbers with property that every permutation of digits (dropping any leading zeros) is 1 or a composite number.",
   "id": "A067013",
   "mentions": [
-    "A067012"
+    "A067012",
+    "A248010"
   ],
   "tags": [
     "base",

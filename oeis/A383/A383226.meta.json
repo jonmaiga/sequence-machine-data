@@ -1,0 +1,16 @@
+{
+  "description": "Number of winning positions for the next player (a, b, c) where 1 <= a, b, c <= n in \"Divisor Nim\" (see comments).",
+  "id": "A383226",
+  "mentions": [
+    "A007814"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/sqrt((1-x^7)^2 - 4*x^2).",
+  "id": "A383569",
+  "mentions": [
+    "A002426",
+    "A053442",
+    "A383568"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

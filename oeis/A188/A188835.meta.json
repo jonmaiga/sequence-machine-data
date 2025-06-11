@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of limit sqrt(1*sqrt(3*sqrt(5*sqrt(7*sqrt(9*...sqrt((2*n-1)...))))))",
+  "description": "Decimal expansion of limit sqrt(1*sqrt(3*sqrt(5*sqrt(7*sqrt(9*...sqrt((2*n-1)...)))))).",
   "id": "A188835",
   "mentions": [
     "A112302",

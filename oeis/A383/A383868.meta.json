@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^(n-3)*(3*binomial(n,4) + 4*binomial(n,2) + 8).",
+  "id": "A383868",
+  "mentions": [
+    "A383778"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

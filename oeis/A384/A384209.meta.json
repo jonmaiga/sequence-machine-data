@@ -1,0 +1,16 @@
+{
+  "description": "Maximum period for Game of Life on a simple graph with n vertices.",
+  "id": "A384209",
+  "mentions": [
+    "A357951"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n = concat(s,t) such that n = sigma(s) * sigma(t), where sigma(x) is the sum of the divisors of x.",
+  "description": "Numbers m = concat(s,t) such that m = sigma(s) * sigma(t), where sigma(x) is the sum of the divisors of x.",
   "id": "A253824",
   "mentions": [
     "A000203",
@@ -9,12 +9,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

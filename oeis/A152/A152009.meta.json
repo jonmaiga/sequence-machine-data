@@ -1,5 +1,5 @@
 {
-  "description": "(L)-sieve transform of {1,4,7,10,...,3n-2,...} (A016777)",
+  "description": "(L)-sieve transform of {1,4,7,10,...,3n-2,...} (A016777).",
   "id": "A152009",
   "mentions": [
     "A016777",

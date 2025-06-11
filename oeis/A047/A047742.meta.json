@@ -1,7 +1,9 @@
 {
-  "description": "A discrete analog of Li(n): ceiling(Sum_{k=2..n} 1/log(k)).",
+  "description": "A discrete analog of Li(n): a(n) = ceiling(Sum_{k=2..n} 1/log(k)).",
   "id": "A047742",
-  "mentions": [],
+  "mentions": [
+    "A047741"
+  ],
   "tags": [
     "nonn"
   ],

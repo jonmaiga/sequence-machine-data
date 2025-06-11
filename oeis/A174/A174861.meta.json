@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangular sequence:t(n,m)=n!*(StirlingS1[n, m] + StirlingS1[n, n - m] - (StirlingS1[n, 0] + StirlingS1[n, n]) + 1) - n! + 1",
+  "description": "A symmetrical triangular sequence:t(n,m)=n!*(StirlingS1[n, m] + StirlingS1[n, n - m] - (StirlingS1[n, 0] + StirlingS1[n, n]) + 1) - n! + 1.",
   "id": "A174861",
   "mentions": [],
   "tags": [

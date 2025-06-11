@@ -1,0 +1,20 @@
+{
+  "description": "Family of 2-colorings of {1..7824} with no monochromatic Pythagorean triples.",
+  "id": "A383181",
+  "mentions": [
+    "A009003",
+    "A156685",
+    "A224921",
+    "A272709"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

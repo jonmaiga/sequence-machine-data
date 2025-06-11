@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. = exp( Sum_{n>=1} A066802(n)*x^n/n ).",
+  "id": "A381422",
+  "mentions": [
+    "A066802",
+    "A155200",
+    "A156216",
+    "A229451",
+    "A229452",
+    "A255881"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

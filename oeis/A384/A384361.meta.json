@@ -1,0 +1,24 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator of the HP 48 series calculators when started at 999500333083533.",
+  "id": "A384361",
+  "mentions": [
+    "A096550",
+    "A096561",
+    "A381318",
+    "A382535",
+    "A383809",
+    "A384081",
+    "A384221",
+    "A384416"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

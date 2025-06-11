@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(2*n, k) * (n-k)^(3*n).",
+  "id": "A383929",
+  "mentions": [
+    "A002674",
+    "A298851",
+    "A383916",
+    "A383930"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

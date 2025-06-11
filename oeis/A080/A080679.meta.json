@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest de Bruijn cycle of length 16 (repeated indefinitely)",
+  "description": "Lexicographically earliest de Bruijn cycle of length 16 (repeated indefinitely).",
   "id": "A080679",
   "mentions": [
     "A169671",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of quadrilateral regions in an equilateral triangular \"frame\" of size n (see Comments in A328526 for definition),",
+  "description": "Number of quadrilateral regions in an equilateral triangular \"frame\" of size n (see Comments in A328526 for definition).",
   "id": "A333033",
   "mentions": [
     "A274586",

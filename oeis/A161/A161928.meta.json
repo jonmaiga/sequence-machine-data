@@ -1,5 +1,5 @@
 {
-  "description": "Primes numbers that are not the absolute difference between a cube and a square.",
+  "description": "Prime numbers that are not the absolute difference between a cube and a square.",
   "id": "A161928",
   "mentions": [
     "A110223",

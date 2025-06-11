@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^(n-6)*n*(n^3 - 6*n^2 + 19*n - 14).",
+  "id": "A384243",
+  "mentions": [
+    "A060354",
+    "A327319",
+    "A383778"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Table read by rows: T(n, k) = valuation(n, k) for k >= 2, 1 for k = 1 and 0^n for k = 0.",
+  "id": "A382944",
+  "mentions": [
+    "A057427",
+    "A113704",
+    "A169594",
+    "A382881",
+    "A382883"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

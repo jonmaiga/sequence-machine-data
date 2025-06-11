@@ -1,7 +1,8 @@
 {
-  "description": "a(n) is number of earlier terms equal to number of prime divisors of n.",
+  "description": "a(1)=1; for n > 1, a(n) is number of earlier terms equal to number of prime divisors of n.",
   "id": "A135592",
   "mentions": [
+    "A001221",
     "A125087",
     "A135591"
   ],

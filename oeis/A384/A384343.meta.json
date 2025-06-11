@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + k*x)^((1/2)^(k+1)).",
+  "id": "A384343",
+  "mentions": [
+    "A000670",
+    "A084784",
+    "A381890",
+    "A384344",
+    "A384345"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

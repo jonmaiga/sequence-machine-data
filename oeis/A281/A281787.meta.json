@@ -1,7 +1,9 @@
 {
   "description": "a(n) = sum of all numbers between 1 and 10^n that are divisible by 3 or 5.",
   "id": "A281787",
-  "mentions": [],
+  "mentions": [
+    "A281746"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = 4^n*(8*k + 7).",
+  "id": "A383414",
+  "mentions": [
+    "A000302",
+    "A002042",
+    "A004215",
+    "A004771",
+    "A383415"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

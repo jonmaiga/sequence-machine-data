@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,m) = Prime[m]^n*(Prime[m] - 1)/2",
+  "description": "Triangle read by rows: T(n,m) = Prime[m]^n*(Prime[m] - 1)/2.",
   "id": "A121057",
   "mentions": [
     "A008837"

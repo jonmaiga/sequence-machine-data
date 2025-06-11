@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=((2^n+1)^n-(2^n-1)^n)/2",
+  "description": "a(n)=((2^n+1)^n-(2^n-1)^n)/2.",
   "id": "A172340",
   "mentions": [],
   "tags": [

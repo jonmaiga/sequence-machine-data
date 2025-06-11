@@ -1,0 +1,19 @@
+{
+  "description": "Integers m such that R(Sum_{k=1..m} (10^k+k)) is prime, where R is the digit reversal function A004086.",
+  "id": "A383357",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A073805"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

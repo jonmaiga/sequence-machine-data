@@ -1,0 +1,18 @@
+{
+  "description": "A sequence constructed by greedily sampling the logarithmic distribution for parameter value 1/2, 1/(log(2)*(2^i)*i) to minimize discrepancy.",
+  "id": "A382961",
+  "mentions": [
+    "A381617",
+    "A381898",
+    "A381900",
+    "A383238"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

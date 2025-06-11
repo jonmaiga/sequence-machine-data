@@ -1,5 +1,5 @@
 {
-  "description": "Floor((5n+1/n)^n)",
+  "description": "Floor((5n+1/n)^n).",
   "id": "A197325",
   "mentions": [
     "A014052"

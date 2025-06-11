@@ -1,5 +1,5 @@
 {
-  "description": "(2^((2*n-1)^2)+1)/(2^(2*n-1)+1).",
+  "description": "a(n) = (2^((2*n-1)^2)+1)/(2^(2*n-1)+1).",
   "id": "A069255",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "joeis"
+    "size": 9,
+    "source": "oeis-bfile"
   }
 }

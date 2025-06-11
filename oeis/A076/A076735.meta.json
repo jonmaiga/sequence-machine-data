@@ -1,13 +1,13 @@
 {
-  "description": "Least k >=2 such that k^n divides sum(i=1,k,i!*(k-i)!).",
+  "description": "Least k >= 2 such that k^n divides Sum_{i=1..k} i! * (k-i)!.",
   "id": "A076735",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

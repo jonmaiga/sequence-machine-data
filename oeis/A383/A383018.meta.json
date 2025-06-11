@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A008683(k) = 0 and A382883(k) = -1.",
+  "id": "A383018",
+  "mentions": [
+    "A008683",
+    "A303606",
+    "A382883",
+    "A383105"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,8 @@
   "description": "Smallest composite k such that phi(k) > k*(1-1/n^2).",
   "id": "A069639",
   "mentions": [
+    "A000010",
+    "A007491",
     "A007918",
     "A069549"
   ],

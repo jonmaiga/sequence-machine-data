@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (a(n-1) + a(n-4))/gcd(a(n-1), a(n-4)) with a(1) = a(2) = a(3) = a(4) = 1",
+  "description": "a(n) = (a(n-1) + a(n-4))/gcd(a(n-1), a(n-4)) with a(1) = a(2) = a(3) = a(4) = 1.",
   "id": "A214652",
   "mentions": [
     "A003269",

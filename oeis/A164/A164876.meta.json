@@ -1,5 +1,5 @@
 {
-  "description": "Record differences for n^2 - phi(n)*sigma(n)",
+  "description": "Record differences for n^2 - phi(n)*sigma(n).",
   "id": "A164876",
   "mentions": [
     "A000010",

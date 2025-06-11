@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x/A(x)^5) = 1 + x ; thus A(x) = 1 + series_reversion(x/A(x)^5).",
+  "description": "G.f. A(x) satisfies A(x/A(x)^5) = 1 + x ; thus A(x) = 1 + series_reversion(x/A(x)^5).",
   "id": "A120976",
   "mentions": [
     "A030266",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

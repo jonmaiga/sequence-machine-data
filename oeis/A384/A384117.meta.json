@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) is the number of minimum total dominating sets in the n X m rook graph K_n X K_m.",
+  "id": "A384117",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A303211",
+    "A384116",
+    "A384118",
+    "A384119"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

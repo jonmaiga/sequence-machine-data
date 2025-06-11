@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected induced subgraphs of the 1-skeleton of the n-th Johnson solid, up to symmetries of that solid.",
+  "id": "A384377",
+  "mentions": [
+    "A384376",
+    "A384379",
+    "A384381"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

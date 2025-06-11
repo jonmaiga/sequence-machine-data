@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1; a(n) = n^(n-1)(3n-1)/2 (n>0)",
+  "description": "a(0) = 1; a(n) = n^(n-1)(3n-1)/2 (n>0).",
   "id": "A081918",
   "mentions": [
     "A000124",

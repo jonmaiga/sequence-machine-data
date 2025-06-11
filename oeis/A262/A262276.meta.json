@@ -1,7 +1,8 @@
 {
-  "description": "Decimal expansion of Toth's constant (or digits of the density of the exponentially squarefree numbers).",
+  "description": "Decimal expansion of Toth's constant (the density of the exponentially squarefree numbers).",
   "id": "A262276",
   "mentions": [
+    "A008683",
     "A209061"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "( A077059(n)^2 + A077060(n)^2 )^(1/3).",
+  "description": "a(n) = ( A077059(n)^2 + A077060(n)^2 )^(1/3).",
   "id": "A077061",
   "mentions": [
     "A076600",
@@ -8,12 +8,11 @@
     "A077062"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 57,
+    "size": 58,
     "source": "oeis-entry"
   }
 }

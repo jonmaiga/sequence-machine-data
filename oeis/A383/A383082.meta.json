@@ -1,0 +1,18 @@
+{
+  "description": "The number of distinct straightedge-and-compass constructions that can be made with a total of n lines and circles.",
+  "id": "A383082",
+  "mentions": [
+    "A333944",
+    "A383083"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

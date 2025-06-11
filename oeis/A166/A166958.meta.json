@@ -1,8 +1,9 @@
 {
-  "description": "n <= the number of perfect partitions of n.",
+  "description": "Numbers k such that k <= the number of perfect partitions of k.",
   "id": "A166958",
   "mentions": [
-    "A002033"
+    "A002033",
+    "A074206"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

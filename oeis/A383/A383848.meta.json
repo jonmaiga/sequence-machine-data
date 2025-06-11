@@ -1,0 +1,20 @@
+{
+  "description": "In the binary representation of n, rotate left by the number of ones.",
+  "id": "A383848",
+  "mentions": [
+    "A006257",
+    "A007088",
+    "A383849",
+    "A383850"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = mu(n) + sqf(n) where mu(n) is Moebius function, sqf(n)=1 if n is squarefree and sqf(n)=-1 otherwise.",
+  "description": "a(n) = mu(n) + sqf(n) where mu(n) is Moebius function, sqf(n) = 1 if n is squarefree and sqf(n) = -1 otherwise.",
   "id": "A076544",
   "mentions": [
+    "A005117",
     "A007423",
     "A008683"
   ],

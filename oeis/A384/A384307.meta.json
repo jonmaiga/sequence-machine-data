@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sqrt(6/Pi)*Gamma(2/3)/3^(1/3).",
+  "id": "A384307",
+  "mentions": [
+    "A002581",
+    "A073006",
+    "A132696"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

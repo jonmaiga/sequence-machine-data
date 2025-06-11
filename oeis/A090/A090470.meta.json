@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1/((1-4*x)*sqrt(1-2*x)).",
+  "description": "Expansion of e.g.f.: 1/((1-4*x)*sqrt(1-2*x)).",
   "id": "A090470",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

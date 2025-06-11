@@ -1,5 +1,5 @@
 {
-  "description": "Inverse binomial transform of A048775 (assuming offset zero in both sequences)",
+  "description": "Inverse binomial transform of A048775 (assuming offset zero in both sequences).",
   "id": "A163765",
   "mentions": [
     "A007318",

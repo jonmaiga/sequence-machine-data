@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n+1) = 10*a(n)+2*n-1",
+  "description": "a(1)=1, a(n+1) = 10*a(n)+2*n-1.",
   "id": "A179619",
   "mentions": [
     "A164851"

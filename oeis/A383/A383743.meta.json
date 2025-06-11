@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime not yet in the sequence that satisfies the following: for some pair of different digits i and j in a(n-1), i preceding j (from left to right), j precedes i in a(n). Leading 0s are not allowed; a(1)=13. See Comments for details.",
+  "id": "A383743",
+  "mentions": [
+    "A107801",
+    "A381130"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

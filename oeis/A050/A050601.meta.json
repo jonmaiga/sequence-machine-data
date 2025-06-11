@@ -1,5 +1,5 @@
 {
-  "description": "Recursion counts for summation table A003056 with formula a(0,x) = x, a(y,0) = y, a(y,x) = a((y XOR x),2*(y AND x))",
+  "description": "Recursion counts for summation table A003056 with formula a(0,x) = x, a(y,0) = y, a(y,x) = a((y XOR x),2*(y AND x)).",
   "id": "A050601",
   "mentions": [
     "A003056",

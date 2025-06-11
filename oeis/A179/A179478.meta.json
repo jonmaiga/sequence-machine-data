@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sqrt(A073609(n+1)-A073609(n))",
+  "description": "a(n) = sqrt(A073609(n+1)-A073609(n)).",
   "id": "A179478",
   "mentions": [
     "A073609"

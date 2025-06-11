@@ -1,5 +1,5 @@
 {
-  "description": "Fundamental positive solution y = y2(n) of the second class of the Pell equation x^2 - 2*y^2 = -A001132(n), n>=1 (primes congruent to {1,7} mod 8)",
+  "description": "Fundamental positive solution y = y2(n) of the second class of the Pell equation x^2 - 2*y^2 = -A001132(n), n>=1 (primes congruent to {1,7} mod 8).",
   "id": "A255248",
   "mentions": [
     "A001132",

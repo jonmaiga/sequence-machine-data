@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=number of distinct solutions of sum{i=1..k}(x(2i-1)*x(2i)) = 1 (mod n), with x() only in 1..n-1",
+  "description": "T(n,k)=number of distinct solutions of sum{i=1..k}(x(2i-1)*x(2i)) = 1 (mod n), with x() only in 1..n-1.",
   "id": "A180793",
   "mentions": [],
   "tags": [

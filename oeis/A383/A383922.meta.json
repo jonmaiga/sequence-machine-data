@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A002104(n) + A002104(n+1) - 1.",
+  "id": "A383922",
+  "mentions": [
+    "A002104",
+    "A188545"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

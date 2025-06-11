@@ -1,18 +1,20 @@
 {
-  "description": "Number of perfect partitions of the nonprimes A018252.",
+  "description": "Number of ordered factorizations of the nonprimes (A018252).",
   "id": "A166281",
   "mentions": [
     "A002033",
     "A018252",
-    "A035004"
+    "A035004",
+    "A074206"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 72,
-    "source": "oeis-entry"
+    "size": 79,
+    "source": "oeis-bfile"
   }
 }

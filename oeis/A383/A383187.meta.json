@@ -1,0 +1,18 @@
+{
+  "description": "Diamond spiral number of the n-th point visited by the king moving on the two-dimensional grid always to the earliest unvisited point on the spiral, not immediately preceding or following on the spiral.",
+  "id": "A383187",
+  "mentions": [
+    "A305258",
+    "A383185",
+    "A383189"
+  ],
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

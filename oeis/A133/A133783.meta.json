@@ -1,5 +1,5 @@
 {
-  "description": "Primes containing only digits from set (1,2,3,4,5,6).",
+  "description": "Primes containing only digits from set {1,2,3,4,5,6}.",
   "id": "A133783",
   "mentions": [
     "A000040",
@@ -10,12 +10,11 @@
   "tags": [
     "base",
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

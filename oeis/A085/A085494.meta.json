@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n having exactly one partition into distinct divisors of n+1.",
+  "description": "Numbers k having exactly one partition into distinct divisors of k+1.",
   "id": "A085494",
   "mentions": [
     "A085491",
@@ -7,11 +7,12 @@
     "A085499"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

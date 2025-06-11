@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x * A(x*A(x)^5).",
+  "id": "A384575",
+  "mentions": [
+    "A087949",
+    "A143500",
+    "A143501",
+    "A384574",
+    "A384579",
+    "A384583"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

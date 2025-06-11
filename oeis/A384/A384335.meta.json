@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f.: cosh(7*arctanh(6*sqrt(x))).",
+  "id": "A384335",
+  "mentions": [
+    "A383928"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

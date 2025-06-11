@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..2 arrays of length n+2*k-1 with sum less than 2*k in any length 2k subsequence (=less than 50% duty cycle)",
+  "description": "T(n,k)=Number of 0..2 arrays of length n+2*k-1 with sum less than 2*k in any length 2k subsequence (=less than 50% duty cycle).",
   "id": "A212729",
   "mentions": [
     "A000045"

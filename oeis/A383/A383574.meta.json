@@ -1,0 +1,18 @@
+{
+  "description": "Fourth column of A353077.",
+  "id": "A383574",
+  "mentions": [
+    "A000961",
+    "A333852",
+    "A353077",
+    "A373514"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

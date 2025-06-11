@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of n copies of 1..8 introduced in order 1..8 with no element equal to another within a distance of 6",
+  "description": "Number of permutations of n copies of 1..8 introduced in order 1..8 with no element equal to another within a distance of 6.",
   "id": "A190937",
   "mentions": [],
   "tags": [

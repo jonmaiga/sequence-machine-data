@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6^n+5^(n-1) is prime.",
+  "description": "Numbers k such that 6^k+5^(k-1) is prime.",
   "id": "A093765",
   "mentions": [
     "A082103",
@@ -12,6 +12,8 @@
     "A096186"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

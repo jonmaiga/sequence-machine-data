@@ -2,9 +2,11 @@
   "description": "Integers k such that there are i groups of order k+i up to isomorphism, for i=1,2.",
   "id": "A373648",
   "mentions": [
+    "A003277",
     "A296023",
     "A373649",
-    "A373650"
+    "A373650",
+    "A381335"
   ],
   "tags": [
     "nonn"

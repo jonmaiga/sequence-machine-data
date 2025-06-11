@@ -1,0 +1,19 @@
+{
+  "description": "Number of odd Ulam numbers <= 10^n.",
+  "id": "A382860",
+  "mentions": [
+    "A002858",
+    "A307331",
+    "A382797",
+    "A382861"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = floor( n*(n-1)*(n-2)/9 ).",
+  "description": "a(n) = floor(n*(n-1)*(n-2)/9).",
   "id": "A011891",
   "mentions": [
     "A011886"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

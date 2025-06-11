@@ -1,13 +1,14 @@
 {
-  "description": "4^n*n!^2*Sum_{k=0..n} 1/k!.",
+  "description": "a(n) = 4^n * n!^2 * Sum_{k=0..n} 1/k!.",
   "id": "A052140",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

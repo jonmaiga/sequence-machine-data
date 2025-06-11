@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors in the expansion of the infinitary perfect number A007357(n) over distinct terms of A050376",
+  "description": "Number of prime factors in the expansion of the infinitary perfect number A007357(n) over distinct terms of A050376.",
   "id": "A186963",
   "mentions": [
     "A000040",

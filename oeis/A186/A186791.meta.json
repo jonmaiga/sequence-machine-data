@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+2)X6 binary arrays with each 3X3 subblock having a sum in 2..7",
+  "description": "Half the number of (n+2)X6 binary arrays with each 3X3 subblock having a sum in 2..7.",
   "id": "A186791",
   "mentions": [
     "A186796"

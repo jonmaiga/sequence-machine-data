@@ -1,0 +1,15 @@
+{
+  "description": "Length of shortest path (in Chebyshev distance) that touches all cells in an n X n grid.",
+  "id": "A383980",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

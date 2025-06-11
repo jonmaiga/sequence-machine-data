@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of an elongated pentagonal cupola with unit edge.",
+  "id": "A384144",
+  "mentions": [
+    "A010476",
+    "A010532",
+    "A179591",
+    "A384138",
+    "A384140",
+    "A384213"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

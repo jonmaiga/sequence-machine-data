@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any antidiagonal neighbor (colorings ignoring permutations of colors)",
+  "description": "Number of nX2 nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any antidiagonal neighbor (colorings ignoring permutations of colors).",
   "id": "A208782",
   "mentions": [
     "A208788"

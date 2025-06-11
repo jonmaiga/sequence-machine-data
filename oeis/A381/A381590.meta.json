@@ -2,7 +2,10 @@
   "description": "Primes with primitive root -100.",
   "id": "A381590",
   "mentions": [
+    "A001913",
     "A006883",
+    "A007348",
+    "A007349",
     "A097443"
   ],
   "tags": [

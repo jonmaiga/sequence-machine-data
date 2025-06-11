@@ -1,7 +1,10 @@
 {
-  "description": "10^n - 3.",
+  "description": "a(n) = 10^n - 3.",
   "id": "A173833",
-  "mentions": [],
+  "mentions": [
+    "A011557",
+    "A086947"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

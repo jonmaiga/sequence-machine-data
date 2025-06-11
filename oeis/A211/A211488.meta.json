@@ -1,9 +1,13 @@
 {
-  "description": "Fibonacci(n^2) - Fibonacci(n).",
+  "description": "a(n) = Fibonacci(n^2) - Fibonacci(n).",
   "id": "A211488",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A054783"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

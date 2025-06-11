@@ -1,14 +1,19 @@
 {
   "description": "Floor of entry (2,1) of [0,1; 1,phi]^n.",
   "id": "A139333",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A112576",
+    "A136319",
+    "A192232"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

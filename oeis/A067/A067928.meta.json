@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the digits of the n-th prime begin with n.",
+  "description": "Numbers k such that the digits of the k-th prime begin with k.",
   "id": "A067928",
   "mentions": [],
   "tags": [

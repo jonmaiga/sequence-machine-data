@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the leading n digits of n^n in decimal form a prime or a probable prime.",
+  "description": "Numbers k such that the leading k digits of k^k in decimal form a prime or a probable prime.",
   "id": "A211404",
   "mentions": [
     "A220453",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

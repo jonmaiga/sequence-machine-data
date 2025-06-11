@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where column k is the expansion of 1/Product_{j=0..k} (1 - j*x)^2.",
+  "id": "A383843",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A045618",
+    "A106800",
+    "A287532",
+    "A350376",
+    "A383841",
+    "A383842",
+    "A383880"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

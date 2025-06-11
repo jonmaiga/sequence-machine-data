@@ -2,6 +2,7 @@
   "description": "Integers k such that k = Sum k/(p_i + j), where p_i are the prime factors of k (with multiplicity). Case j = -1.",
   "id": "A380888",
   "mentions": [
+    "A036878",
     "A380889",
     "A380900",
     "A380901",
@@ -9,12 +10,11 @@
     "A380928"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer s that can be partitioned into n distinct positive integers whose product is s * 100^(n-1), or 0 if no such s exists.",
+  "id": "A382547",
+  "mentions": [
+    "A380887",
+    "A381187",
+    "A383026"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

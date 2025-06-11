@@ -1,7 +1,9 @@
 {
   "description": "Moments of generalized Motzkin paths.",
   "id": "A053442",
-  "mentions": [],
+  "mentions": [
+    "A002426"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 0,
     "size": 35,
     "source": "oeis-bfile"
   }

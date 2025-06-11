@@ -1,0 +1,15 @@
+{
+  "description": "Numbers that cannot be written in the form (j+2k)^2-(j+k)^2-j^2 with j,k>0.",
+  "id": "A383252",
+  "mentions": [
+    "A364168"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

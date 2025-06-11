@@ -1,19 +1,22 @@
 {
-  "description": "Numbers n such that Sum_{d|n} d*mu(d) divides n.",
+  "description": "Numbers k such that Sum_{d|k} d*mu(d) divides k.",
   "id": "A068997",
   "mentions": [
+    "A000010",
+    "A003586",
+    "A007694",
+    "A008683",
     "A023900",
     "A173557",
     "A293928"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

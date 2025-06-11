@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0, a(1) = 1. Let n be greatest index such that a(0),...a(n) are already known. If a(n) is not a record term, a(n+1) = number of k < n such that a(k) = a(n). If a(n) is a record term a(n+1) = a(r) where r is the greatest record < a(n).",
+  "id": "A383876",
+  "mentions": [
+    "A001477",
+    "A025480",
+    "A181391",
+    "A346175"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

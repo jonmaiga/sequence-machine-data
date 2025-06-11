@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least multiple of the n-th primorial such that both a(n)-1 and a(n)+1 are prime and the prime factors of a(n) do not exceed prime(n).",
+  "id": "A382785",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A060255",
+    "A060256",
+    "A088256",
+    "A088257"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Product of remainders of prime(n) mod k, for k = 2,3,4,...,prime(n)-1",
+  "description": "Product of remainders of prime(n) mod k, for k = 2,3,4,...,prime(n)-1.",
   "id": "A180492",
   "mentions": [
     "A000040",

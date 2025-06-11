@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Pell(n^2)/Pell(n).",
+  "id": "A380083",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A051294",
+    "A204327",
+    "A383742"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

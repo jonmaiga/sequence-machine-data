@@ -1,5 +1,5 @@
 {
-  "description": "Triangle formed by grouping the natural numbers so that the n-th row contains n numbers whose product has exactly n prime divisors.",
+  "description": "Triangle formed by grouping the natural numbers so that the n-th row contains n numbers whose product has exactly n distinct prime divisors.",
   "id": "A077172",
   "mentions": [
     "A077173",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

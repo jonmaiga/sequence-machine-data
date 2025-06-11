@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 6 * (4*n)! / ((n+1)! * (3*n+1)!).",
+  "id": "A384585",
+  "mentions": [
+    "A000260",
+    "A002293"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

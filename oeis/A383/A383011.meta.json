@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals downwards, where A(n,k) = -(1/n) * Sum_{d|n} mu(n/d) * (-k)^d.",
+  "id": "A383011",
+  "mentions": [
+    "A008683",
+    "A038063",
+    "A038064",
+    "A038065",
+    "A038066",
+    "A074650",
+    "A154955",
+    "A383012"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

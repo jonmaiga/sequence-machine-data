@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes p with (2m)^2-(2m-1) <= p < (2m)^2",
+  "description": "Number of primes p with (2m)^2-(2m-1) <= p < (2m)^2.",
   "id": "A159805",
   "mentions": [
     "A014085",

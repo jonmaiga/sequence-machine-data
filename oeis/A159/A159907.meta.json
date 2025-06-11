@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with half-integral abundancy index, sigma(n)/n = k+1/2 with integer k.",
+  "description": "Numbers m with half-integral abundancy index, sigma(m)/m = k+1/2 with integer k.",
   "id": "A159907",
   "mentions": [
     "A000203",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

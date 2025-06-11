@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions of n such that any fixed point k can be k different colors.",
+  "id": "A383175",
+  "mentions": [
+    "A011782",
+    "A088305",
+    "A238349",
+    "A238350",
+    "A238351",
+    "A335713",
+    "A352512"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

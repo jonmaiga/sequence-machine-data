@@ -1,5 +1,5 @@
 {
-  "description": "6!(2n-7)!/n!(n-1)! is an integer.",
+  "description": "Numbers k such that 6!*(2*k-7)!/(k!*(k-1)!) is an integer.",
   "id": "A004786",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

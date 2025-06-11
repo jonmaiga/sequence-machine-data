@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-2) * (n! + floor(n/2)!)",
+  "description": "a(n) = 2^(n-2) * (n! + floor(n/2)!).",
   "id": "A271213",
   "mentions": [
     "A000165",

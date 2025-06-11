@@ -1,0 +1,17 @@
+{
+  "description": "Inverse Möbius transform of A382883.",
+  "id": "A383104",
+  "mentions": [
+    "A366988",
+    "A382883"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

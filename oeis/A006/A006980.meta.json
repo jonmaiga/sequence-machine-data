@@ -2,6 +2,10 @@
   "description": "Compositions: 6th column of A048004.",
   "id": "A006980",
   "mentions": [
+    "A000071",
+    "A000100",
+    "A000102",
+    "A006979",
     "A048004"
   ],
   "tags": [

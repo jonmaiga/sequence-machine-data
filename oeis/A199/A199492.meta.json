@@ -1,7 +1,11 @@
 {
-  "description": "11*7^n+1.",
+  "description": "a(n) = 11*7^n + 1.",
   "id": "A199492",
-  "mentions": [],
+  "mentions": [
+    "A199489",
+    "A199490",
+    "A199491"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

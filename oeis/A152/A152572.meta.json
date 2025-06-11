@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: T(n,n) = -1, T(n,0) = 5^(n - 1), T(n,k) = -5^(n - k - 1), 1 <= k <= n - 1",
+  "description": "Triangle T(n,k) read by rows: T(n,n) = -1, T(n,0) = 5^(n - 1), T(n,k) = -5^(n - k - 1), 1 <= k <= n - 1.",
   "id": "A152572",
   "mentions": [
     "A057728",

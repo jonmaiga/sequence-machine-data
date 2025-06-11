@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (x^2)/((1-x)*(1-2*x-x^2+x^3)^2)",
+  "description": "Expansion of (x^2)/((1-x)*(1-2*x-x^2+x^3)^2).",
   "id": "A189427",
   "mentions": [
     "A006054",

@@ -1,5 +1,5 @@
 {
-  "description": "Probability P(n) of the occurrence of a 2D self-trapping walk of length n: Numerator.",
+  "description": "Numerator of the probability P(n) of the occurrence of a 2D self-trapping walk of length n.",
   "id": "A077483",
   "mentions": [
     "A001411",

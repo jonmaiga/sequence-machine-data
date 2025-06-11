@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (16^n-3^n)/13",
+  "description": "a(n) = (16^n-3^n)/13.",
   "id": "A180845",
   "mentions": [
     "A016140",

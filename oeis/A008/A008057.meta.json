@@ -5,16 +5,18 @@
     "A003065",
     "A003313",
     "A005766",
-    "A079300"
+    "A079300",
+    "A376449"
   ],
   "tags": [
+    "formulas",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

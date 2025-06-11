@@ -1,0 +1,16 @@
+{
+  "description": "Number of hexagonal n-element polyominoes whose graph is a nonextensible path.",
+  "id": "A383731",
+  "mentions": [
+    "A003104"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 13,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

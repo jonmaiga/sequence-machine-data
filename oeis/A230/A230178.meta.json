@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays x(i,j) with each element horizontally or antidiagonally next to at least one element with value 2-x(i,j)",
+  "description": "Number of n X n 0..2 arrays x(i,j) with each element horizontally or antidiagonally next to at least one element with value 2-x(i,j).",
   "id": "A230178",
   "mentions": [
     "A230184"

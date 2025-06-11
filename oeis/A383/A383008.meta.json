@@ -1,0 +1,21 @@
+{
+  "description": "Indices of the even terms in the sequence of squarefree numbers.",
+  "id": "A383008",
+  "mentions": [
+    "A005117",
+    "A039956",
+    "A071403",
+    "A373550",
+    "A383009"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

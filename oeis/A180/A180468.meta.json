@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n/k is an integer. n=(x_1 x_2 ... x_r) where x_i are digits of n, k = x_1^r + x_2^(r-1) + ... + x_r^1",
+  "description": "Numbers n such that n/k is an integer. n=(x_1 x_2 ... x_r) where x_i are digits of n, k = x_1^r + x_2^(r-1) + ... + x_r^1.",
   "id": "A180468",
   "mentions": [
     "A049445"

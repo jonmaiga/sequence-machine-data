@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected components of n polyhedra in the rectified cubic honeycomb up to translation, rotation, and reflection of the honeycomb.",
+  "id": "A384254",
+  "mentions": [
+    "A000162",
+    "A038119",
+    "A038181",
+    "A343577",
+    "A343909",
+    "A384274"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there exists a k>=2 such that n equals the average of digitsum(n^p) for p from 1 to k.",
+  "description": "Numbers m for which there exists a k>=2 such that m equals the average of digitsum(m^p) for p from 1 to k.",
   "id": "A259313",
   "mentions": [
     "A007953",

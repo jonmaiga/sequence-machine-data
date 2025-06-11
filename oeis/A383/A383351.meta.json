@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of a 2-colored set of n objects into k parts where 0 <= k <= n, and each part is one of 2 kinds.",
+  "id": "A383351",
+  "mentions": [
+    "A000292",
+    "A008284",
+    "A382339",
+    "A382342",
+    "A383352"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "The number of primes p <= n such that p^p = p (mod n).",
+  "id": "A384239",
+  "mentions": [
+    "A000720",
+    "A010051"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

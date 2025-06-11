@@ -1,5 +1,5 @@
 {
-  "description": "Number of vertices in a polygon whose boundary consists of n+2 equally space points around a semicircle and n+2 equally spaced points along the diameter (a total of 2n+2 points). See Comments for precise definition.",
+  "description": "Number of vertices in a polygon whose boundary consists of n+2 equally spaced points around a semicircle and n+2 equally spaced points along the diameter (a total of 2n+2 points). See Comments for precise definition.",
   "id": "A334458",
   "mentions": [
     "A333519",

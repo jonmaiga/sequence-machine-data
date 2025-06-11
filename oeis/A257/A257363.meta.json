@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3-Motzkin paths with no level steps at height 1",
+  "description": "Number of 3-Motzkin paths with no level steps at height 1.",
   "id": "A257363",
   "mentions": [
     "A059231",

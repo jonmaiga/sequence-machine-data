@@ -1,5 +1,5 @@
 {
-  "description": "Number of -3..3 arrays x(0..n-1) of n elements with zero sum and no two consecutive declines, no adjacent equal elements, and no element more than one greater than the previous (random base sawtooth pattern)",
+  "description": "Number of -3..3 arrays x(0..n-1) of n elements with zero sum and no two consecutive declines, no adjacent equal elements, and no element more than one greater than the previous (random base sawtooth pattern).",
   "id": "A200176",
   "mentions": [
     "A200181"

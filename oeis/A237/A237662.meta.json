@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 2^(k+l+m+1) - 2^(l+m+1) + 2^(m+1) + l - 2",
+  "description": "Primes of the form 2^(k+l+m+1) - 2^(l+m+1) + 2^(m+1) + l - 2.",
   "id": "A237662",
   "mentions": [
     "A007931",

@@ -1,5 +1,5 @@
 {
-  "description": "Primorial(n) mod n!",
+  "description": "a(n) = primorial(n) mod n!.",
   "id": "A182254",
   "mentions": [
     "A000040",

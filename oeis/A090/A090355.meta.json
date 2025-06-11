@@ -1,12 +1,15 @@
 {
-  "description": "Satisfies A^4 = BINOMIAL(A)^3.",
+  "description": "G.f. satisfies A^4 = BINOMIAL(A)^3.",
   "id": "A090355",
   "mentions": [
     "A019538",
     "A032033",
     "A050352",
+    "A090352",
     "A090353",
     "A090354",
+    "A090357",
+    "A090362",
     "A201354"
   ],
   "tags": [
@@ -17,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

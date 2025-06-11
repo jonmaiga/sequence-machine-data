@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of partitions of 10^n mod 10",
+  "description": "a(n) = number of partitions of 10^n mod 10.",
   "id": "A185041",
   "mentions": [
     "A000041",

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+x-x^2+x^3) / (1-x-5*x^2+x^3+2*x^4).",
+  "id": "A384642",
+  "mentions": [
+    "A005824",
+    "A026597",
+    "A384640",
+    "A384641"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = gcd(n, k) if n > 0 otherwise 0.",
+  "id": "A384447",
+  "mentions": [
+    "A027750",
+    "A109004"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

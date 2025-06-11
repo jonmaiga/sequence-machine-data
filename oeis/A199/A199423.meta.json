@@ -1,5 +1,5 @@
 {
-  "description": "Greatest prime factor of n and 2*n+1",
+  "description": "Greatest prime factor of n and 2*n+1.",
   "id": "A199423",
   "mentions": [
     "A006530",

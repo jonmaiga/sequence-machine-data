@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary sequences of length n having exactly one conjugate at Hamming distance 2",
+  "description": "Number of binary sequences of length n having exactly one conjugate at Hamming distance 2.",
   "id": "A179677",
   "mentions": [],
   "tags": [

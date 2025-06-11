@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Cauchy-complete categories with n morphisms and k objects.",
+  "id": "A384134",
+  "mentions": [
+    "A000001",
+    "A125697",
+    "A384066",
+    "A384135"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

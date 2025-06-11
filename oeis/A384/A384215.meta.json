@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the surface area of a gyroelongated square cupola with unit edge.",
+  "id": "A384215",
+  "mentions": [
+    "A002194",
+    "A010466",
+    "A384214"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

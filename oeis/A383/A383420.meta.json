@@ -1,0 +1,22 @@
+{
+  "description": "Maximum (equal) number of red and blue tiles on an n X n matrix, where opposite colors cannot be adjacent diagonally or edgewise, and where a cluster of the same color can be no greater than n.",
+  "id": "A383420",
+  "mentions": [
+    "A000290",
+    "A001105",
+    "A002378",
+    "A023365",
+    "A033587"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

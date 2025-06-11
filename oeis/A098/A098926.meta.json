@@ -1,14 +1,16 @@
 {
   "description": "Permanent of the (0,1)-matrix with ij-th entry equal to zero iff (i=1,j=1),(i=1,j=2),(i=1,j=3),(i=2,j=3),(i=3,j=3),... In other words, the ij-th entry of the matrix is zero iff it is on the path which start from the entry (i=1,j=1) and moves in the matrix alternating 3 steps to the right to 3 steps down.",
   "id": "A098926",
-  "mentions": [],
+  "mentions": [
+    "A002464"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 22,
+    "offset": 0,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

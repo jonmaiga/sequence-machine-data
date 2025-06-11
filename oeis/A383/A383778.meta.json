@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*(n^2 - 3*n + 10)*2^(n-4).",
+  "id": "A383778",
+  "mentions": [
+    "A060354"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -5,11 +5,12 @@
     "A006784"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

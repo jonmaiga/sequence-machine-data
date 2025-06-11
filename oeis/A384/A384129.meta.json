@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 3*n objects with exactly 2*n cycles.",
+  "id": "A384129",
+  "mentions": [
+    "A132393",
+    "A187646",
+    "A348084"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

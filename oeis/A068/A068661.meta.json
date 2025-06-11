@@ -1,7 +1,9 @@
 {
   "description": "Let N = 123456789101112131415... the concatenation of natural numbers; partition this number into minimal strings of noncomposite numbers, i.e., a(1) = 1 and a(2) onwards are primes.",
   "id": "A068661",
-  "mentions": [],
+  "mentions": [
+    "A033307"
+  ],
   "tags": [
     "base",
     "nonn"

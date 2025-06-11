@@ -1,0 +1,20 @@
+{
+  "description": "Indices of the even terms in the sequence of exponentially odd numbers.",
+  "id": "A383030",
+  "mentions": [
+    "A268335",
+    "A376218",
+    "A383029",
+    "A383031"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

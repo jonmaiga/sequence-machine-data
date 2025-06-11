@@ -4,12 +4,11 @@
   "mentions": [],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 46,
+    "size": 60,
     "source": "oeis-entry"
   }
 }

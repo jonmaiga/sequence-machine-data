@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1, a(2) = 2. For n > 2, a(n) = number of a(k), k = 1..n-2 such that a(k) divides a(n-1).",
+  "id": "A384336",
+  "mentions": [
+    "A000005"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

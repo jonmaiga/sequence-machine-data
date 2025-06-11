@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of exp(2x)/(1-x)^2.",
+  "description": "Expansion of e.g.f.: exp(2x)/(1-x)^2.",
   "id": "A081923",
   "mentions": [
     "A000522",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Number of length n words over an n-ary alphabet such that a single letter in every run of letters is marked.",
+  "id": "A384162",
+  "mentions": [
+    "A000312",
+    "A011782",
+    "A342168",
+    "A351016",
+    "A351638"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

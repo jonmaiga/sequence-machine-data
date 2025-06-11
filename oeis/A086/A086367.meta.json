@@ -1,13 +1,15 @@
 {
-  "description": "(1/p)*(F(p^2+1)-1) where p runs through the primes (except p=5) and F(k) is the k-th Fibonacci number.",
+  "description": "(1/p)*(F(p^2+1)-1) where p runs through the primes (except p = 5) and F(k) is the k-th Fibonacci number.",
   "id": "A086367",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 7,
+    "source": "oeis-bfile"
   }
 }

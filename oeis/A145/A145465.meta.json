@@ -1,5 +1,5 @@
 {
-  "description": "a[0] = 2; a[1] = 2; for n > 1 : a[n] = a[n - 1] + a[(a[n - 1] - 1) mod n];",
+  "description": "a(0) = 2, a(1) = 2, and for n > 1, a(n) = a(n-1) + a((a(n-1) - 1) mod n).",
   "id": "A145465",
   "mentions": [],
   "tags": [

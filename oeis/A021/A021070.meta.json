@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/66.",
   "id": "A021070",
-  "mentions": [],
+  "mentions": [
+    "A010686"
+  ],
   "tags": [
     "cons",
     "mult",

@@ -1,7 +1,13 @@
 {
-  "description": "Numbers n such that n*tau(n)>5*prime(n).",
+  "description": "Numbers m such that m*tau(m)>5*prime(m).",
   "id": "A068547",
-  "mentions": [],
+  "mentions": [
+    "A001750",
+    "A038040",
+    "A068544",
+    "A068545",
+    "A068546"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

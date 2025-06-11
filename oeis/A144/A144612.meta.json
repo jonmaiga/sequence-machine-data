@@ -2,6 +2,7 @@
   "description": "Sturmian word of slope (3-sqrt(3))/2.",
   "id": "A144612",
   "mentions": [
+    "A074065",
     "A188082",
     "A245222"
   ],

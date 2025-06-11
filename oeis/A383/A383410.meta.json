@@ -1,0 +1,17 @@
+{
+  "description": "Array read by downward antidiagonals: A(n,k) = Sum_{i=0..n-1} Sum_{j=0..k+1} binomial(n-1,i)*binomial(k+1,j)*A(i,j) with A(0,k) = 1, n >= 0, k >= 0.",
+  "id": "A383410",
+  "mentions": [
+    "A005649"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

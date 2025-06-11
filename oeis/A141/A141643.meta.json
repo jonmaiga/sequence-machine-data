@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n)/n = 5/2.",
+  "description": "Numbers k such that sigma(k)/k = 5/2.",
   "id": "A141643",
   "mentions": [
     "A055153",

@@ -1,5 +1,5 @@
 {
-  "description": "Square table by antidiagonals where T(n,k) = binomial(n+2^k-1,n).",
+  "description": "Square table read by downward antidiagonals where T(n,k) = binomial(n+2^k-1,n).",
   "id": "A092056",
   "mentions": [
     "A000012",

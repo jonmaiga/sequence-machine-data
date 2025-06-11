@@ -1,0 +1,19 @@
+{
+  "description": "In the binary expansion of n, expand bits 1 -> 11 and 0 -> 10.",
+  "id": "A383976",
+  "mentions": [
+    "A000523",
+    "A374625"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Partition array giving in row n, for n >= 1, the coefficients of the Witt symmetric function w_n, multiplied by n!, in terms of the power sum symmetric functions (using partitions in the Abramowitz-Stegun order)",
+  "description": "Partition array giving in row n, for n >= 1, the coefficients of the Witt symmetric function w_n, multiplied by n!, in terms of the power sum symmetric functions (using partitions in the Abramowitz-Stegun order).",
   "id": "A324253",
   "mentions": [
     "A000041",

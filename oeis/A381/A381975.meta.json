@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways for n competitors to rank in a competition in which each match has 4 possible outcomes in which each competitor gains 0, 1, 2 or 3 points.",
+  "id": "A381975",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A000670",
+    "A001470"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

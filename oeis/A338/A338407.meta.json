@@ -1,13 +1,15 @@
 {
   "description": "Values m that allow maximum period in the Blum-Blum-Shub x^2 mod m pseudorandom number generator.",
   "id": "A338407",
-  "mentions": [],
+  "mentions": [
+    "A016105"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of lower triangles of a 5X5 0..n array with no element equal to the average of its horizontal and vertical neighbors",
+  "description": "Half the number of lower triangles of a 5 X 5 0..n array with no element equal to the average of its horizontal and vertical neighbors.",
   "id": "A194618",
   "mentions": [
     "A194615"

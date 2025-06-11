@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrays of n 0..n-1 integers with the sum of their 3rd powers equal to sum(i^3,i=0..n-1)",
+  "description": "Number of nondecreasing arrays of n 0..n-1 integers with the sum of their 3rd powers equal to sum(i^3,i=0..n-1).",
   "id": "A216631",
   "mentions": [
     "A216635"

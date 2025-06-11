@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator for Borland C and C++ when started at 1.",
+  "id": "A384432",
+  "mentions": [
+    "A096556",
+    "A384331"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

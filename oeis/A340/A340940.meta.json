@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular table of coefficients T(k,n) in row functions R(k,x) = sum_{n>=0} T(k,n)*x^n that satisfy the condition: Sum_{n>=0} x^n/(1 - x*R(k,x)^(n+k)) = Sum_{n>=0} x^n*R(k,x)^n/(1 - x*R(k,x)^(k*n+k-1)), for k >= 0, read here by antidiagonals.",
+  "description": "Rectangular table of coefficients T(k,n) in row functions R(k,x) = Sum_{n>=0} T(k,n)*x^n that satisfy the condition: Sum_{n>=0} x^n/(1 - x*R(k,x)^(n+k)) = Sum_{n>=0} x^n*R(k,x)^n/(1 - x*R(k,x)^(k*n+k-1)), for k >= 0, read here by antidiagonals.",
   "id": "A340940",
   "mentions": [
     "A340894",

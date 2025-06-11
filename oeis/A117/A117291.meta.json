@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = phi(n)^(n-phi(n))",
+  "description": "a(n) = phi(n)^(n-phi(n)).",
   "id": "A117291",
   "mentions": [],
   "tags": [

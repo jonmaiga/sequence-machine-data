@@ -1,5 +1,5 @@
 {
-  "description": "Multiplicative encoding of Losanitsch's triangle (A034851)",
+  "description": "Multiplicative encoding of Losanitsch's triangle (A034851).",
   "id": "A153046",
   "mentions": [
     "A000040",

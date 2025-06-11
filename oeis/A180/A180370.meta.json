@@ -1,5 +1,5 @@
 {
-  "description": "Number of triangular nXnXn arrays with each row k a permutation of 0..k-1 and no element having neighbors with sum mod 3 = 2",
+  "description": "Number of triangular nXnXn arrays with each row k a permutation of 0..k-1 and no element having neighbors with sum mod 3 = 2.",
   "id": "A180370",
   "mentions": [],
   "tags": [

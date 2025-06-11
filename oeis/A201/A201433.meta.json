@@ -1,5 +1,5 @@
 {
-  "description": "Number of zero-sum -2..2 arrays of n elements with first through fourth differences also in -2..2",
+  "description": "Number of zero-sum -2..2 arrays of n elements with first through fourth differences also in -2..2.",
   "id": "A201433",
   "mentions": [
     "A201439"

@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest injective sequence such that a(n) divides a(a(n))",
+  "description": "Lexicographically earliest injective sequence such that a(n) divides a(a(n)).",
   "id": "A257794",
   "mentions": [],
   "tags": [

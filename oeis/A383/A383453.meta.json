@@ -1,0 +1,21 @@
+{
+  "description": "The Geode Bi-Tri infinite rectangular array, read by upward antidiagonals.",
+  "id": "A383453",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A243660",
+    "A383454",
+    "A383457"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

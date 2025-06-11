@@ -1,5 +1,5 @@
 {
-  "description": "In balanced ternary notation, if prepending same numbers of zeros, reverse digits of a(n) equals to -a(n)",
+  "description": "In balanced ternary notation, if prepending same numbers of zeros, reverse digits of a(n) equals to -a(n).",
   "id": "A233572",
   "mentions": [
     "A002113",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-dimensional additively indecomposable positive definite integral lattices (or quadratic forms).",
+  "id": "A383643",
+  "mentions": [
+    "A380746"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

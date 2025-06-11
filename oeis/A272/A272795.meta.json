@@ -2,7 +2,8 @@
   "description": "Decimal expansion of 2*sin(1/2).",
   "id": "A272795",
   "mentions": [
-    "A201504"
+    "A201504",
+    "A371935"
   ],
   "tags": [
     "cons",

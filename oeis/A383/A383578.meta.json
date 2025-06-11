@@ -1,0 +1,18 @@
+{
+  "description": "Let p = prime(n), then a(n) is the p-smooth part of (p-1)!+1.",
+  "id": "A383578",
+  "mentions": [
+    "A007540",
+    "A060371",
+    "A383257"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

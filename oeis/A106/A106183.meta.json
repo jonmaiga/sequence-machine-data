@@ -1,7 +1,8 @@
 {
-  "description": "Expansion of 1/sqrt(1-4x-4x^2+16x^3).",
+  "description": "Expansion of 1/sqrt(1-4*x-4*x^2+16*x^3).",
   "id": "A106183",
   "mentions": [
+    "A026569",
     "A067804"
   ],
   "tags": [

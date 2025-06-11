@@ -1,5 +1,5 @@
 {
-  "description": "Robbins triangle read by rows: T(n,k) = number of alternating sign n X n matrices with a 1 at top of column k (n >= 1, 1<=k<=n)",
+  "description": "Robbins triangle read by rows: T(n,k) = number of alternating sign n X n matrices with a 1 at top of column k (n >= 1, 1<=k<=n).",
   "id": "A048601",
   "mentions": [
     "A005130",

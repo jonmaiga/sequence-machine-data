@@ -1,0 +1,16 @@
+{
+  "description": "The Dirichlet inverse of A382883.",
+  "id": "A383210",
+  "mentions": [
+    "A382883"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Series expansion of the exponential generating function LambertW(1-exp(x)), see A000169.",
+  "id": "A383985",
+  "mentions": [
+    "A000169",
+    "A002050",
+    "A006531",
+    "A084099",
+    "A101851",
+    "A114285",
+    "A177885",
+    "A225883",
+    "A383986",
+    "A383987",
+    "A383988",
+    "A383989"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

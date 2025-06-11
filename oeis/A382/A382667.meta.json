@@ -1,0 +1,22 @@
+{
+  "description": "Position of the first instance of prime(n), in base 2, in the binary representation of Pi after the binary point.",
+  "id": "A382667",
+  "mentions": [
+    "A000040",
+    "A004601",
+    "A178707",
+    "A233836",
+    "A378472",
+    "A382307"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

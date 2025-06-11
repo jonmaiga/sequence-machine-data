@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x*A(x))^5.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x*A(x))^5.",
   "id": "A143437",
   "mentions": [
     "A143426",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

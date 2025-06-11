@@ -1,8 +1,12 @@
 {
   "description": "Expansion of 1/((1-5*x)*(1-7*x)*(1-9*x)).",
   "id": "A019943",
-  "mentions": [],
+  "mentions": [
+    "A017389",
+    "A019333"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

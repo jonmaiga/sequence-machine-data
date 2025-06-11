@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1 & a(1) = 0; for n > 0, a(2n) = a(n) + a(n-1); if a(n) is even then a(2n+1) = a(n)/2, but if a(n) is odd then a(2n+1) = (3a(n)-1)/2",
+  "description": "a(0) = 1 & a(1) = 0; for n > 0, a(2n) = a(n) + a(n-1); if a(n) is even then a(2n+1) = a(n)/2, but if a(n) is odd then a(2n+1) = (3a(n)-1)/2.",
   "id": "A322305",
   "mentions": [],
   "tags": [

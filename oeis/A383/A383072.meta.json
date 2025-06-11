@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit positive integers where all pairs of consecutive digits have a difference of at least 4.",
+  "id": "A383072",
+  "mentions": [
+    "A052268",
+    "A100062",
+    "A383070",
+    "A383071"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

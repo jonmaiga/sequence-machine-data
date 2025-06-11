@@ -1,7 +1,12 @@
 {
-  "description": "Composite numbers m = Product p_i^{e_i} such that p_j^{e_j} > p_k^{e_k} for all p_j < p_k.",
+  "description": "Numbers m = Product p_i^{e_i}, not a power of a prime, such that p_j^{e_j} > p_k^{e_k} for all p_j < p_k.",
   "id": "A057715",
-  "mentions": [],
+  "mentions": [
+    "A085231",
+    "A097320",
+    "A126706",
+    "A363063"
+  ],
   "tags": [
     "easy",
     "nonn"

@@ -1,0 +1,28 @@
+{
+  "description": "Number of connected components of n faces of the icosidodecahedron up to the 120 rotations and reflections of the icosidodecahedron.",
+  "id": "A384107",
+  "mentions": [
+    "A384067",
+    "A384068",
+    "A384069",
+    "A384070",
+    "A384071",
+    "A384072",
+    "A384104",
+    "A384108",
+    "A384109",
+    "A384110",
+    "A384111",
+    "A384112"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

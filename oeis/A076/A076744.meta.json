@@ -1,15 +1,14 @@
 {
-  "description": "This sequence with the appropriate denominator (product of (2*3^k-3) k=0..n) produces the expected length of shortest nonintersecting path through n points on a Sierpiński Gasket from corner to corner.",
+  "description": "Related to the expected length of the shortest nonintersecting path through n points on a Sierpiński Gasket from corner to corner.",
   "id": "A076744",
   "mentions": [],
   "tags": [
-    "frac",
-    "nonn",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 10,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of evil integers (A001969) not exceeding n and respectively prime to n.",
+  "description": "a(n) is the number of evil integers (A001969) not exceeding n and prime to n.",
   "id": "A230120",
   "mentions": [
     "A000010",
@@ -10,12 +10,13 @@
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

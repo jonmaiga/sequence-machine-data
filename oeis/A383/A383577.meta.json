@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(n-k,k) * binomial(n-2*k,k)^2.",
+  "id": "A383577",
+  "mentions": [
+    "A383539"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

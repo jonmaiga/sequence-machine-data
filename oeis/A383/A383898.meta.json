@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k such that n + k and n*k are squares, or -1 if there is no such number.",
+  "id": "A383898",
+  "mentions": [
+    "A245226",
+    "A382209",
+    "A383734"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

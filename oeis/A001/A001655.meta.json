@@ -1,5 +1,5 @@
 {
-  "description": "Fibonomial coefficients: a(n) = F(n+1)*F(n+2)*F(n+3)/2, where F() = Fibonacci numbers A000045.",
+  "description": "Fibonomial coefficients: a(n) = F(n+1) * F(n+2) * F(n+3)/2, where F() = Fibonacci numbers A000045.",
   "id": "A001655",
   "mentions": [
     "A000032",

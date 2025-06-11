@@ -1,0 +1,43 @@
+{
+  "description": "Heinz numbers of integer partitions with no proper way to choose disjoint strict partitions of each part.",
+  "id": "A384349",
+  "mentions": [
+    "A048767",
+    "A048768",
+    "A056239",
+    "A112798",
+    "A122111",
+    "A130091",
+    "A179009",
+    "A279375",
+    "A279790",
+    "A317142",
+    "A326080",
+    "A351294",
+    "A357982",
+    "A381454",
+    "A382525",
+    "A382912",
+    "A382913",
+    "A383706",
+    "A383707",
+    "A383708",
+    "A383710",
+    "A384317",
+    "A384319",
+    "A384320",
+    "A384321",
+    "A384322",
+    "A384348",
+    "A384389",
+    "A384390"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

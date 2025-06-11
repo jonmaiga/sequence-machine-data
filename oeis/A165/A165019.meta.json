@@ -1,5 +1,5 @@
 {
-  "description": "Consider the base-4 Kaprekar map n->K(n) defined in A165012. Sequence gives numbers belonging to cycles of length greater than 1",
+  "description": "Consider the base-4 Kaprekar map n->K(n) defined in A165012. Sequence gives numbers belonging to cycles of length greater than 1.",
   "id": "A165019",
   "mentions": [
     "A099010",

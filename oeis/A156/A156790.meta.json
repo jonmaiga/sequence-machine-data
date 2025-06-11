@@ -1,5 +1,5 @@
 {
-  "description": "Number of first quadrant lattice squares inside the circle x^2+y^2=(2^n)^2",
+  "description": "Number of first quadrant lattice squares inside the circle x^2+y^2=(2^n)^2.",
   "id": "A156790",
   "mentions": [
     "A057655",

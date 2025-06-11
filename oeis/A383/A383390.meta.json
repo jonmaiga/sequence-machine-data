@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 and (k+1)^2 are both abundant numbers.",
+  "id": "A383390",
+  "mentions": [
+    "A005101",
+    "A063734",
+    "A096399",
+    "A381738",
+    "A383391"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

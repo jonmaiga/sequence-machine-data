@@ -2,7 +2,17 @@
   "description": "Numbers that are proper divisors of the number you get by rotating digits right once.",
   "id": "A034089",
   "mentions": [
-    "A245680"
+    "A092697",
+    "A097717",
+    "A146088",
+    "A146561",
+    "A146569",
+    "A146754",
+    "A245680",
+    "A291215",
+    "A291321",
+    "A291353",
+    "A291354"
   ],
   "tags": [
     "base",

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp(x*(1+log(1+x))/(1-log(1+x)))",
+  "description": "E.g.f. exp(x*(1+log(1+x))/(1-log(1+x))).",
   "id": "A199480",
   "mentions": [],
   "tags": [

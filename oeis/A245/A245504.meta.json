@@ -1,5 +1,5 @@
 {
-  "description": "Number of endofunctions f on [n] such that f^8(i) = f(i) for all i in [n];",
+  "description": "Number of endofunctions f on [n] such that f^8(i) = f(i) for all i in [n].",
   "id": "A245504",
   "mentions": [
     "A245501"

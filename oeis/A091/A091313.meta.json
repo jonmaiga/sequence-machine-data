@@ -1,13 +1,15 @@
 {
-  "description": "Smallest prime x > n such that x (mod n) = x (mod p[n]), where p[n] is n-th prime.",
+  "description": "Smallest prime x > n such that x (mod n) = x (mod prime(n)).",
   "id": "A091313",
-  "mentions": [],
+  "mentions": [
+    "A000040"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

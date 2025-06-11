@@ -1,18 +1,20 @@
 {
-  "description": "Least number k which is (1) a multiple of the n-th prime and (2) of minimal Hamming weight.",
+  "description": "a(n) = least multiple of the n-th prime that has the minimum Hamming weight (=A278966(n)).",
   "id": "A278967",
   "mentions": [
+    "A014664",
     "A086342",
+    "A143027",
     "A278966",
     "A278968"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

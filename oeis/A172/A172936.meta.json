@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3*n X n 0..7 arrays with row sums 7 and column sums 21",
+  "description": "Number of 3*n X n 0..7 arrays with row sums 7 and column sums 21.",
   "id": "A172936",
   "mentions": [],
   "tags": [

@@ -2,6 +2,7 @@
   "description": "From square root of the inverse of Riemann zeta function: form Dirichlet series Sum b(n)/n^x whose square is 1/zeta; sequence gives numerator of b(n).",
   "id": "A257098",
   "mentions": [
+    "A001620",
     "A046643",
     "A046644",
     "A256688",
@@ -16,6 +17,7 @@
   ],
   "tags": [
     "formulas",
+    "frac",
     "mult",
     "sign"
   ],

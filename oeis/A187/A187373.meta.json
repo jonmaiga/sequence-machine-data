@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+2)X3 0..3 arrays with each 3X3 subblock having sum 13 or 14",
+  "description": "Half the number of (n+2)X3 0..3 arrays with each 3X3 subblock having sum 13 or 14.",
   "id": "A187373",
   "mentions": [
     "A187376"

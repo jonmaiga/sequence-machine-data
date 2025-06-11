@@ -1,5 +1,5 @@
 {
-  "description": "Number of simple connected graphs g on n nodes with |Aut(g)| = 12",
+  "description": "Number of simple connected graphs g on n nodes with |Aut(g)| = 12.",
   "id": "A241459",
   "mentions": [
     "A124059",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^3 * abs(Stirling1(2*k,k)) * abs(Stirling1(2*n-2*k,n-k)).",
+  "id": "A384496",
+  "mentions": [
+    "A187656",
+    "A187658",
+    "A384472",
+    "A384495"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "((-1)^n - 1 + 2*(n^floor((n + 1)/2)))/4",
+  "description": "((-1)^n - 1 + 2*(n^floor((n + 1)/2)))/4.",
   "id": "A275574",
   "mentions": [
     "A275550"

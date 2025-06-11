@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of n X n Latin squares obeying a certain self-referential property defined in the comments.",
+  "id": "A383673",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

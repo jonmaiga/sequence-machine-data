@@ -1,0 +1,16 @@
+{
+  "description": "The number of polyforms on the snub square tiling where the adjacent triangles are combined into rhombi.",
+  "id": "A384115",
+  "mentions": [
+    "A309159"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "d(n)_n where d() = A000005.",
+  "description": "a(n) = d(n)_n where d() = A000005.",
   "id": "A122668",
   "mentions": [
     "A000005",

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle: T(n,k) gives the number of k-polysticks on edges of the n-cube up to rotational symmetries of the n-cube, with 0 <= k <= A001787(n).",
+  "id": "A383799",
+  "mentions": [
+    "A001787",
+    "A222186",
+    "A333333"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

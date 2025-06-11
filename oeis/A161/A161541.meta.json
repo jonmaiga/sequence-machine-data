@@ -1,5 +1,5 @@
 {
-  "description": "Composite which are the sum of a smaller n and its composite(n) subscript A002808 + a(n) (= composite)",
+  "description": "Composite which are the sum of a smaller n and its composite(n) subscript A002808 + a(n) (= composite).",
   "id": "A161541",
   "mentions": [
     "A002808"

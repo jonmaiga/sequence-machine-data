@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 3^(n-3)*(binomial(n,3) + 3*binomial(n,2) + 9*n + 27).",
+  "id": "A384198",
+  "mentions": [
+    "A382618"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

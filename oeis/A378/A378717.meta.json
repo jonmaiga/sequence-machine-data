@@ -1,5 +1,5 @@
 {
-  "description": "Products of 4 distinct primes numbers (or tetraprimes) that are deficient.",
+  "description": "Products of 4 distinct prime numbers (or tetraprimes) that are deficient.",
   "id": "A378717",
   "mentions": [
     "A005100",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

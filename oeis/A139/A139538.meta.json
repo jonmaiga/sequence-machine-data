@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers of the form x^2+5y^2 not divisible by 5, with both x and y >== 1",
+  "description": "Odd numbers of the form x^2+5y^2 not divisible by 5, with both x and y >== 1.",
   "id": "A139538",
   "mentions": [
     "A139513"

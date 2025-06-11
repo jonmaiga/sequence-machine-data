@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers k such that k^2+1 is not squarefree.",
+  "id": "A383672",
+  "mentions": [
+    "A005117",
+    "A049532",
+    "A080666",
+    "A141932",
+    "A141941",
+    "A224718"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

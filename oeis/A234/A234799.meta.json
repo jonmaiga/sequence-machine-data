@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that abs(p-s) and abs(p-c) are primes, where s is the square nearest to p, and c is the nearest to p cube, c!=s.",
+  "description": "Primes p such that abs(p-s) and abs(p-c) are primes, where s is the square nearest to p, and c is the cube nearest to p, c!=s.",
   "id": "A234799",
   "mentions": [
     "A000040"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

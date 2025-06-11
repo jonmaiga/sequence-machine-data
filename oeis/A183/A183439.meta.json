@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 binary arrays with every 1 having exactly one king-move neighbor equal to 1",
+  "description": "Number of nX6 binary arrays with every 1 having exactly one king-move neighbor equal to 1.",
   "id": "A183439",
   "mentions": [
     "A183442"

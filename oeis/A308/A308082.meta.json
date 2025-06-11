@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that floor(prime(k)/k) < floor(prime(k+1)/(k+1))",
+  "description": "Numbers k such that floor(prime(k)/k) < floor(prime(k+1)/(k+1)).",
   "id": "A308082",
   "mentions": [
     "A000040",

@@ -1,0 +1,38 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the positive first differences of the prime indices of n.",
+  "id": "A384009",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001223",
+    "A039956",
+    "A048767",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A124010",
+    "A130091",
+    "A243055",
+    "A287352",
+    "A320348",
+    "A325325",
+    "A325349",
+    "A325368",
+    "A325992",
+    "A355536",
+    "A358137",
+    "A381431",
+    "A383534"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

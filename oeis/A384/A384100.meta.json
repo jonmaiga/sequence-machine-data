@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least positive x such that x^3 + x + n^2 is a perfect square, or 0 if no such x exists.",
+  "id": "A384100",
+  "mentions": [
+    "A384101"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

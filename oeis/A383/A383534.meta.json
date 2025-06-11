@@ -1,0 +1,49 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the positive first differences of the 0-prepended prime indices of n.",
+  "id": "A383534",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001223",
+    "A005117",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A098859",
+    "A112798",
+    "A122111",
+    "A124010",
+    "A130091",
+    "A241919",
+    "A287352",
+    "A320348",
+    "A325324",
+    "A325325",
+    "A325349",
+    "A325366",
+    "A325367",
+    "A325368",
+    "A325388",
+    "A336866",
+    "A355536",
+    "A358137",
+    "A381431",
+    "A383506",
+    "A383512",
+    "A383513",
+    "A383535",
+    "A384008",
+    "A384009"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

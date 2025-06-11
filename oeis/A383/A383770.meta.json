@@ -1,0 +1,16 @@
+{
+  "description": "Number of non-nesting permutations of [n] avoiding 231 (and by symmetry 132, 213, or 312).",
+  "id": "A383770",
+  "mentions": [
+    "A383771"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

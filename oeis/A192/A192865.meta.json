@@ -1,5 +1,5 @@
 {
-  "description": "Number of set partitions of {1,...,n} that avoid enhanced 5-crossings (or 5-nestings)",
+  "description": "Number of set partitions of {1,...,n} that avoid enhanced 5-crossings (or 5-nestings).",
   "id": "A192865",
   "mentions": [
     "A000110",

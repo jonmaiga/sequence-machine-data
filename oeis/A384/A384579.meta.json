@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + x * A(x*A(x))^(1/5) )^5.",
+  "id": "A384579",
+  "mentions": [
+    "A384575",
+    "A384583"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

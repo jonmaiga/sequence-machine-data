@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/((1-x) * (1+4*x) * (1-6*x)).",
+  "id": "A383651",
+  "mentions": [
+    "A051958",
+    "A083578"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

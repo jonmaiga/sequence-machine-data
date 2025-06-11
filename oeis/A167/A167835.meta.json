@@ -1,5 +1,5 @@
 {
-  "description": "Length of sections with distinct digits in decimal expansion of square root of 2. (A002193)",
+  "description": "Length of sections with distinct digits in decimal expansion of square root of 2. (A002193).",
   "id": "A167835",
   "mentions": [
     "A002193",

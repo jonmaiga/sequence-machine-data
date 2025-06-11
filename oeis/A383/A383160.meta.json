@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the numerator of the mean of the maximum exponents in the prime factorizations of the unitary divisors of n.",
+  "id": "A383160",
+  "mentions": [
+    "A000961",
+    "A001248",
+    "A005117",
+    "A034444",
+    "A051903",
+    "A077610",
+    "A118914",
+    "A126706",
+    "A296082",
+    "A345288",
+    "A383057",
+    "A383058",
+    "A383157",
+    "A383158",
+    "A383159",
+    "A383161"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

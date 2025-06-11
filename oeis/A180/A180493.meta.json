@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n)! is divisible by A180491(prime(n))",
+  "description": "Numbers n such that prime(n)! is divisible by A180491(prime(n)).",
   "id": "A180493",
   "mentions": [
     "A000142",

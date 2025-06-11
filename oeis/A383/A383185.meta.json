@@ -1,0 +1,22 @@
+{
+  "description": "Number of the square visited by a king moving on a spirally numbered board always to the lowest available unvisited square, when a wall delimiting the spiral must be crossed on each move.",
+  "id": "A383185",
+  "mentions": [
+    "A033638",
+    "A316328",
+    "A316667",
+    "A335856",
+    "A336038",
+    "A375925",
+    "A383186"
+  ],
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

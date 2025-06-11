@@ -2,6 +2,8 @@
   "description": "Row 2 of the square array in A267181.",
   "id": "A267182",
   "mentions": [
+    "A084964",
+    "A097065",
     "A267181"
   ],
   "tags": [

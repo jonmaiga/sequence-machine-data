@@ -1,0 +1,17 @@
+{
+  "description": "Semiprimes k such that A001358(k) + k and A001358(k) - k are also semiprimes.",
+  "id": "A383469",
+  "mentions": [
+    "A001358",
+    "A383468"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

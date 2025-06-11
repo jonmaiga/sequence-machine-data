@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (5*n)!/((n!)^2*(3*n + 1)!).",
+  "id": "A383439",
+  "mentions": [
+    "A104978",
+    "A383440"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

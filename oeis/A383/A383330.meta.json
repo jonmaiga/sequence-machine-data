@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the length of a shortest vectorial addition chain for (n,k), 0 <= k <= n.",
+  "id": "A383330",
+  "mentions": [
+    "A003313",
+    "A265690",
+    "A383331",
+    "A383332"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,20 @@
 {
   "description": "Number of integers in {1, 2, ..., prime(n)} that are coprime to n.",
   "id": "A074818",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A004648",
+    "A008683",
+    "A057828",
+    "A074882",
+    "A074919",
+    "A074933",
+    "A074934",
+    "A129139"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

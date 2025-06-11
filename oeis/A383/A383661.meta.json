@@ -1,0 +1,21 @@
+{
+  "description": "Number of closed knight's tours in the first 2n cells of a 5 X ceiling(2n/5) board.",
+  "id": "A383661",
+  "mentions": [
+    "A175855",
+    "A383660",
+    "A383662",
+    "A383663",
+    "A383664",
+    "A383665"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,14 +1,13 @@
 {
-  "description": "Nonprime numbers n such that (n+1)*Sum_{d|n} 1/(d+1) is an integer.",
+  "description": "Nonprime numbers k such that (k+1)*Sum_{d|k} 1/(d+1) is an integer.",
   "id": "A069155",
   "mentions": [],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

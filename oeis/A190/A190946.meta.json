@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of the n*(n+1)/2 numbers (i copies of i | i=1..n), with no element equal to another within a distance of 2",
+  "description": "Number of permutations of the n*(n+1)/2 numbers (i copies of i | i=1..n), with no element equal to another within a distance of 2.",
   "id": "A190946",
   "mentions": [],
   "tags": [

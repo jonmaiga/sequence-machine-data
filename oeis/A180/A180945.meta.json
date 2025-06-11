@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form p(i)*p(i+1)+p(i+2)+1.",
+  "description": "Primes of the form prime(i)*prime(i+1) + prime(i+2) + 1.",
   "id": "A180945",
   "mentions": [
     "A000040",

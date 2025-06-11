@@ -1,5 +1,5 @@
 {
-  "description": "The number of distinct values of x+y+z+w (mod n) when x*y*z*w = 1 (mod n)",
+  "description": "The number of distinct values of x+y+z+w (mod n) when x*y*z*w = 1 (mod n).",
   "id": "A376427",
   "mentions": [
     "A180783",

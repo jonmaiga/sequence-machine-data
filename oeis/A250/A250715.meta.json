@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 7^x + y^7 with x, y >= 0",
+  "description": "Numbers of the form 7^x + y^7 with x, y >= 0.",
   "id": "A250715",
   "mentions": [
     "A250482"

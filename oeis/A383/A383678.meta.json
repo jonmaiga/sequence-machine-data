@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] Product_{k=0..n} (1 + (2*n+k)*x).",
+  "id": "A383678",
+  "mentions": [
+    "A000142",
+    "A165675",
+    "A382347",
+    "A384024"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

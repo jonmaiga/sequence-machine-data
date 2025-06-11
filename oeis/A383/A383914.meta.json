@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 12*2^p + 1 is also prime.",
+  "id": "A383914",
+  "mentions": [
+    "A002253",
+    "A175172",
+    "A322301",
+    "A322302"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

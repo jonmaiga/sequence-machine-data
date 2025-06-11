@@ -1,0 +1,18 @@
+{
+  "description": "Primes p which are preceded and followed by gaps whose difference is greater than 2*log(p).",
+  "id": "A383216",
+  "mentions": [
+    "A036263",
+    "A092553",
+    "A383215"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that concatenation (2*n+1)//n is a square.",
+  "description": "Numbers n with property that concatenation (2*n+1)//n of the decimals is a square.",
   "id": "A176185",
   "mentions": [
     "A174370",
@@ -9,8 +9,7 @@
   ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

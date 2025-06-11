@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(n) = (a(n-1) XOR n) + n.",
+  "description": "a(0) = 1, a(n) = (a(n-1) XOR n) + n.",
   "id": "A182388",
   "mentions": [
     "A182243",

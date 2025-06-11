@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. x/cos(x)*exp(x/cos(x))",
+  "description": "E.g.f. x/cos(x)*exp(x/cos(x)).",
   "id": "A189238",
   "mentions": [
     "A009843"

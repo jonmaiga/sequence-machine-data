@@ -2,6 +2,8 @@
   "description": "Decimal expansion of (3/2)*log(3/2).",
   "id": "A083680",
   "mentions": [
+    "A001008",
+    "A002805",
     "A016627"
   ],
   "tags": [

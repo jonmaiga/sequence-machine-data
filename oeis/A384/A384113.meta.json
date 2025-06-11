@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive states of a linear congruential pseudo-random number generator for MacModula-2 when started at 1.",
+  "id": "A384113",
+  "mentions": [
+    "A001022",
+    "A096550",
+    "A096561",
+    "A383809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

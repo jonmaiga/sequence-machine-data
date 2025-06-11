@@ -1,9 +1,11 @@
 {
-  "description": "Nonprime n such that phi(n) > n/2.",
+  "description": "Nonprime numbers k such that phi(k) > k/2.",
   "id": "A067800",
   "mentions": [
+    "A000010",
     "A014076",
     "A036798",
+    "A051953",
     "A083254",
     "A118700"
   ],
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

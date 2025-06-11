@@ -1,5 +1,5 @@
 {
-  "description": "Pentagonal numbers P = (p+q+r+s)/3 which are the arithmetic mean of four consecutive primes such that p < P < q < r < s.",
+  "description": "Pentagonal numbers P = (p+q+r+s)/4 which are the arithmetic mean of four consecutive primes such that p < P < q < r < s.",
   "id": "A234539",
   "mentions": [
     "A000326",

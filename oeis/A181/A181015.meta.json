@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX(n+4) binary matrices with rows and columns each in strictly increasing order as binary numbers and every 0 adjacent to a 1 and every 1 adjacent to a 0",
+  "description": "Number of nX(n+4) binary matrices with rows and columns each in strictly increasing order as binary numbers and every 0 adjacent to a 1 and every 1 adjacent to a 0.",
   "id": "A181015",
   "mentions": [
     "A181011"

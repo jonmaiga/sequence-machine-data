@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle sequence: t(n,m)=n!*Eulerian[n + 1, m]^2 - n! + 1",
+  "description": "A symmetrical triangle sequence: t(n,m)=n!*Eulerian[n + 1, m]^2 - n! + 1.",
   "id": "A174692",
   "mentions": [],
   "tags": [

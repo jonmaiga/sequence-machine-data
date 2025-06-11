@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct solutions of sum{i=1..5}(x(2i-1)*x(2i)) = 1 (mod n), with x() only in 2..n-2",
+  "description": "Number of distinct solutions of sum{i=1..5}(x(2i-1)*x(2i)) = 1 (mod n), with x() only in 2..n-2.",
   "id": "A180828",
   "mentions": [
     "A180834"

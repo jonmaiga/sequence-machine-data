@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table T(n,k) = A010846(A019565(2^n + k)).",
+  "id": "A383180",
+  "mentions": [
+    "A005117",
+    "A010846",
+    "A019565",
+    "A363061",
+    "A369609"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..6 arrays with every row and column running average nondecreasing rightwards and downwards",
+  "description": "T(n,k) is the number of n X k 0..6 arrays with every row and column running average nondecreasing rightwards and downwards.",
   "id": "A200974",
   "mentions": [
     "A200762"

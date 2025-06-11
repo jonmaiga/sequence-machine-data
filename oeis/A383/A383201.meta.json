@@ -1,0 +1,23 @@
+{
+  "description": "Number of positive integers with n digits in which adjacent digits differ by at most 6.",
+  "id": "A383201",
+  "mentions": [
+    "A235163",
+    "A383197",
+    "A383198",
+    "A383199",
+    "A383200",
+    "A383202"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

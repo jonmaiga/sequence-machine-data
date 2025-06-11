@@ -1,7 +1,18 @@
 {
   "description": "Expansion of (-5*x^2 + 138*x + 3)/(x^3 - 99*x^2 + 99*x - 1).",
   "id": "A269553",
-  "mentions": [],
+  "mentions": [
+    "A010701",
+    "A261004",
+    "A269548",
+    "A269549",
+    "A269550",
+    "A269551",
+    "A269552",
+    "A269554",
+    "A269555",
+    "A269556"
+  ],
   "tags": [
     "easy",
     "sign"
@@ -9,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

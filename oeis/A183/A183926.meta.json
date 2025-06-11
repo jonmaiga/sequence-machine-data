@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of n numbers in -8..8 with sum zero and sum of squares not greater than n*72/3",
+  "description": "Number of nondecreasing arrangements of n numbers in -8..8 with sum zero and sum of squares not greater than n*72/3.",
   "id": "A183926",
   "mentions": [
     "A183927"

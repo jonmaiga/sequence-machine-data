@@ -1,0 +1,22 @@
+{
+  "description": "Sequence obtained by replacing 3-term subwords of A010060 by 0,1,2,3,4,5 as described in Comments.",
+  "id": "A381848",
+  "mentions": [
+    "A010060",
+    "A157970",
+    "A157971",
+    "A248057",
+    "A248104",
+    "A248105",
+    "A248956",
+    "A383999"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

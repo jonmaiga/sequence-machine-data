@@ -1,11 +1,12 @@
 {
-  "description": "Numbers k such that k*(k-1)^k-(k-1)*k^(k-1)-1 is prime.",
+  "description": "Numbers k such that k*(k-1)^k - (k-1)*k^(k-1) - 1 is prime.",
   "id": "A191699",
   "mentions": [
     "A191409"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

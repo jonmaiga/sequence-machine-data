@@ -1,0 +1,17 @@
+{
+  "description": "Happy cubes: cubes whose trajectory under iteration of sum of squares of digits map includes 1.",
+  "id": "A381045",
+  "mentions": [
+    "A000578",
+    "A007770"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

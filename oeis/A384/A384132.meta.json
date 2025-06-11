@@ -1,0 +1,17 @@
+{
+  "description": "Integers k such that the Diophantine equation x^3 + y^3 + z^3 + w^3 = k^3, where 0 < x < y < z < w has no integer solutions.",
+  "id": "A384132",
+  "mentions": [
+    "A003327",
+    "A383877"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

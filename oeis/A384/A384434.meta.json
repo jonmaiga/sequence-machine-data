@@ -1,0 +1,17 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator for CUPL when started at 1.",
+  "id": "A384434",
+  "mentions": [
+    "A096555"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

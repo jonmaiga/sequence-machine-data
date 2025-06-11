@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of occurrences of n in A049802.",
+  "id": "A383327",
+  "mentions": [
+    "A000041",
+    "A049802"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquarefree numbers that are squarefree numbers raised to an odd power.",
+  "id": "A384518",
+  "mentions": [
+    "A005117",
+    "A072777",
+    "A097054",
+    "A268335",
+    "A384517"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

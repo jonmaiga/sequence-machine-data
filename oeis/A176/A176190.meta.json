@@ -1,12 +1,13 @@
 {
-  "description": "A sequence of polynomial coefficients:p(x,n,m)=(1 + (Binomial[n, m]*Binomial[n + 1, m]/(m + 1))*x)^n",
+  "description": "Triangle T(n,m) read by rows: (1 + binomial(n, m)*binomial(n + 1, m)/(m + 1) )^n, 0<=m<=n.",
   "id": "A176190",
-  "mentions": [],
+  "mentions": [
+    "A001263"
+  ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,

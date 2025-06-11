@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, self-convolution of A161361, row sums = A000521",
+  "description": "Triangle read by rows, self-convolution of A161361, row sums = A000521.",
   "id": "A161362",
   "mentions": [
     "A000521",

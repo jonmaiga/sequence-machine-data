@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k) in which row n gives the 2-densely-aggregated composition of sigma(n).",
+  "id": "A384149",
+  "mentions": [
+    "A000203",
+    "A027750",
+    "A174973",
+    "A237270",
+    "A237271"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

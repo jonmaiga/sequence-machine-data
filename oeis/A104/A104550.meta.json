@@ -2,6 +2,7 @@
   "description": "Number of horizontal segments in all Schroeder paths of length 2n (a horizontal segment is a maximal string of horizontal steps).",
   "id": "A104550",
   "mentions": [
+    "A002002",
     "A006318",
     "A035028",
     "A104549"

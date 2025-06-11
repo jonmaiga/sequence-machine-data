@@ -2,7 +2,8 @@
   "description": "Maximal number of right triangles in n turns of Pythagoras's snail.",
   "id": "A137515",
   "mentions": [
-    "A072895"
+    "A072895",
+    "A352741"
   ],
   "tags": [
     "easy",

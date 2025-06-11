@@ -1,5 +1,5 @@
 {
-  "description": "Strong primes p: adding 2 to any one digit of p produces a prime number (no digits 8 & 9 in p)",
+  "description": "Strong primes p: adding 2 to any one digit of p produces a prime number (no digits 8 & 9 in p).",
   "id": "A158641",
   "mentions": [
     "A050249",

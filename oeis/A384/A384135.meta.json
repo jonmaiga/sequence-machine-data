@@ -1,0 +1,17 @@
+{
+  "description": "Number of Cauchy-complete categories with n morphisms.",
+  "id": "A384135",
+  "mentions": [
+    "A125697"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

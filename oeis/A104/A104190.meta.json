@@ -1,14 +1,17 @@
 {
   "description": "Sums of primes between successive powers of two.",
   "id": "A104190",
-  "mentions": [],
+  "mentions": [
+    "A033844",
+    "A099825"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

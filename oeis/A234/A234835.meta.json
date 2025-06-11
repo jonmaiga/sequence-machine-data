@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(2+2) 0..2 arrays with each 3X3 subblock having the sum of its 72 absolute element differences equal to 34",
+  "description": "Number of (n+2)X(2+2) 0..2 arrays with each 3X3 subblock having the sum of its 72 absolute element differences equal to 34.",
   "id": "A234835",
   "mentions": [
     "A234838"

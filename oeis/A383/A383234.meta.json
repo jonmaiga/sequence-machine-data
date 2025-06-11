@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. f(x)^4 * log(f(x)), where f(x) = 1/(1 - 5*x)^(1/5).",
+  "id": "A383234",
+  "mentions": [
+    "A383231",
+    "A383232",
+    "A383233"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Complementing any single bit in the binary representation of these primes produces a composite number.",
+  "description": "Complementing any single bit in the binary representation of these primes does not produce a prime number.",
   "id": "A137985",
   "mentions": [
     "A050249",

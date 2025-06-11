@@ -1,5 +1,5 @@
 {
-  "description": "Values of n such that f(n) is a prime, where f(1) = 1, f(n) = prime(n)*f(n-1) + 2.",
+  "description": "Values of k such that f(k) is a prime, where f(1) = 1, f(i) = prime(i)*f(i-1) + 2.",
   "id": "A086125",
   "mentions": [
     "A000668",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

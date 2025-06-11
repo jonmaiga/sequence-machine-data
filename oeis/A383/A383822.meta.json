@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 16*log(2)/(8*log(2) - 5).",
+  "id": "A383822",
+  "mentions": [
+    "A002162",
+    "A013663",
+    "A257872",
+    "A382497",
+    "A382778",
+    "A383824"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 100,
+    "source": "joeis"
+  }
+}

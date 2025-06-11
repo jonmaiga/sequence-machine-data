@@ -1,5 +1,5 @@
 {
-  "description": "Let W(n) = Product_{k=1..n} (1 - 1/4k^2), the partial Wallis product (lim_{n->infinity} W(n) = 2/Pi); then a(n) = numerator(W(n)).",
+  "description": "Let W(n) = Product_{k=1..n} (1 - 1/4k^2), the partial Wallis product (lim_{n->oo} W(n) = 2/Pi); then a(n) = numerator(W(n)).",
   "id": "A069955",
   "mentions": [
     "A001790",

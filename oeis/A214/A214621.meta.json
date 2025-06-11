@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that at least one other integer m exists with the same smallest and same largest prime factors, and same multisets of decimal and binary digits as n.",
+  "description": "Numbers k such that at least one other integer m exists with the same smallest and same largest prime factors, and same multisets of decimal and binary digits as k.",
   "id": "A214621",
   "mentions": [
     "A214619",

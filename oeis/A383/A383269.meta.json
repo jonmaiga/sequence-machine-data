@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nonnegative solution to sigma(A383268(n) - x) + sigma(A383268(n) + x) = 4*A383268(n).",
+  "id": "A383269",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A186103",
+    "A383268"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

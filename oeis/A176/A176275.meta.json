@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 6k+1 with the least prime divisor of the form 6m-1",
+  "description": "Numbers of the form 6k+1 with the least prime divisor of the form 6m-1.",
   "id": "A176275",
   "mentions": [
     "A007528",

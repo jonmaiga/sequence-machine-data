@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct positive numbers such that, for n > 2, a(n) shares a factor with a(n-1), a(n + a(n)) and, if a(n) < n, with a(n - a(n));",
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that, for n > 2, a(n) shares a factor with a(n-1), a(n + a(n)) and, if a(n) < n, with a(n - a(n)).",
   "id": "A365453",
   "mentions": [
     "A027748",

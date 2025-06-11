@@ -1,0 +1,42 @@
+{
+  "description": "Number of section-sum partitions of n that have all distinct multiplicities (Wilf).",
+  "id": "A383519",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A047966",
+    "A098859",
+    "A130091",
+    "A130092",
+    "A239455",
+    "A320348",
+    "A325324",
+    "A325325",
+    "A336866",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A351592",
+    "A353837",
+    "A381431",
+    "A381432",
+    "A381433",
+    "A383506",
+    "A383512",
+    "A383513",
+    "A383514",
+    "A383520",
+    "A383530",
+    "A383709",
+    "A384006"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary strings of length n with no substrings equal to 0001 0010 or 0100",
+  "description": "Number of binary strings of length n with no substrings equal to 0001 0010 or 0100.",
   "id": "A164445",
   "mentions": [],
   "tags": [

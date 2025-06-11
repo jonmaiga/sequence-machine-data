@@ -1,5 +1,5 @@
 {
-  "description": "Let u(1)=1, u(n) = n - abs(u(ceiling(n/2)) - u(floor(n/2))); then a(n) = u(n) - n.",
+  "description": "Let u(1)=1, u(n) = n + abs(u(ceiling(n/2)) - u(floor(n/2))); then a(n) = u(n) - n.",
   "id": "A076849",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

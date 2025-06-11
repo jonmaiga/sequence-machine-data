@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..4 arrays with each element equal to the number of its horizontal and vertical neighbors equal to 2",
+  "description": "Number of n X n 0..4 arrays with each element equal to the number of its horizontal and vertical neighbors equal to 2.",
   "id": "A197055",
   "mentions": [
     "A197061"

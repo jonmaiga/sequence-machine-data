@@ -1,18 +1,23 @@
 {
-  "description": "Triangle by rows, number of leading 1's in Fibonacci Maximal notation.",
+  "description": "Triangle by rows, number of leading 1's in the maximal Fibonacci representation (A104326).",
   "id": "A181631",
   "mentions": [
+    "A000045",
     "A001911",
-    "A181630"
+    "A003754",
+    "A014417",
+    "A090996",
+    "A104326",
+    "A112310"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

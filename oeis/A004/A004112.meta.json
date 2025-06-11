@@ -1,11 +1,12 @@
 {
-  "description": "Numbers k where |cos(k)| (or |cosec(k)| or |cot(k)|) decreases monotonically to 0; also |tan(k)|, |sec(k)|, |sin(k)| increases.",
+  "description": "Numbers k where |cos(k)| (or |cosec(k)| or |cot(k)|) decreases monotonically to 0; also numbers k where |tan(k)| (or |sec(k)|, or |sin(k)|) increases.",
   "id": "A004112",
   "mentions": [
     "A002485",
     "A024814",
     "A046947",
-    "A046956"
+    "A046956",
+    "A382815"
   ],
   "tags": [
     "nice",

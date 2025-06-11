@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k^4 * x)^((1/30) * (2/3)^k).",
+  "id": "A384414",
+  "mentions": [
+    "A004123",
+    "A384412"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

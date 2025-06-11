@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/719.",
   "id": "A021723",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
     "nonn"

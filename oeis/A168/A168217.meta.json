@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence based on the first level sum of polynomial coefficients: p(x,n,m)=(1 - x)^(n + m + 1)*Sum[k^(n - 1)*(1 - k)^(m - 1)*x^k, {k, 0, Infinity}]/4",
+  "description": "A triangular sequence based on the first level sum of polynomial coefficients: p(x,n,m)=(1 - x)^(n + m + 1)*Sum[k^(n - 1)*(1 - k)^(m - 1)*x^k, {k, 0, Infinity}]/4.",
   "id": "A168217",
   "mentions": [],
   "tags": [

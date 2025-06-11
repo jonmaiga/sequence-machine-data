@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} mu(n/d) * (-n)^(d-1).",
+  "id": "A383012",
+  "mentions": [
+    "A008683",
+    "A075147",
+    "A382998",
+    "A383003",
+    "A383011"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n > d(n)^2/2 where d = A000005",
+  "description": "Numbers n such that n > d(n)^2/2 where d = A000005.",
   "id": "A215138",
   "mentions": [
     "A000005",

@@ -1,0 +1,21 @@
+{
+  "description": "The number of exponentially squarefree prime powers (not including 1) that divide n.",
+  "id": "A384420",
+  "mentions": [
+    "A070321",
+    "A077761",
+    "A378085",
+    "A384419",
+    "A384421"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

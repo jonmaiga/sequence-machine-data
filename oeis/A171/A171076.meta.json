@@ -1,5 +1,5 @@
 {
-  "description": "Total number of balls in room in variant of the tennis ball problem (cf. A171074);",
+  "description": "Total number of balls in room in variant of the tennis ball problem (cf. A171074).",
   "id": "A171076",
   "mentions": [
     "A005893",

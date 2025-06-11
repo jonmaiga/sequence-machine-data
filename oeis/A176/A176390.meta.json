@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle:t(n,m)=1 - (1 + n)^(n + 1)* (1 - 1/(n + 1))^(n + 1) + (n + 1)^(n + 2)*Binomial[n, m]((m + 1)/(n + 1))^(m + 1)*(1 - ( m + 1)/(n + 1))^(n - m + 1)",
+  "description": "A symmetrical triangle:t(n,m)=1 - (1 + n)^(n + 1)* (1 - 1/(n + 1))^(n + 1) + (n + 1)^(n + 2)*Binomial[n, m]((m + 1)/(n + 1))^(m + 1)*(1 - ( m + 1)/(n + 1))^(n - m + 1).",
   "id": "A176390",
   "mentions": [],
   "tags": [

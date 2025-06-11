@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = number of integral positive unordered pairs (x,y) such that x^2+n*y=z^2 and n*x+y^2=w^2.",
+  "description": "a(n) is the number of integral positive unordered pairs (x,y) such that x^2+n*y=z^2 and n*x+y^2=w^2.",
   "id": "A163123",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

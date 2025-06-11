@@ -2,6 +2,8 @@
   "description": "Not the sum of three positive squares or cubes.",
   "id": "A135693",
   "mentions": [
+    "A004214",
+    "A057904",
     "A113505",
     "A135367"
   ],

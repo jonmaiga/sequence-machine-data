@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of (n+1)X3 0..3 arrays with no 2X2 subblock having sum 6",
+  "description": "1/4 the number of (n+1)X3 0..3 arrays with no 2X2 subblock having sum 6.",
   "id": "A183795",
   "mentions": [
     "A183802"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+1 0..2*7 arrays with the sum of the absolute values of adjacent differences equal to n*7",
+  "description": "Number of length n+1 0..2*7 arrays with the sum of the absolute values of adjacent differences equal to n*7.",
   "id": "A249981",
   "mentions": [
     "A249982"

@@ -1,5 +1,5 @@
 {
-  "description": "Total number of balls on lawn in variant of the tennis ball problem (cf. A171074);",
+  "description": "Total number of balls on lawn in variant of the tennis ball problem (cf. A171074).",
   "id": "A171075",
   "mentions": [
     "A005893",

@@ -2,10 +2,12 @@
   "description": "a(n) = card{ (x,y,z) | x <= y <= z and lcm(x,y,z) = n }.",
   "id": "A086222",
   "mentions": [
+    "A008683",
     "A018892",
     "A048691",
     "A070919",
-    "A086165"
+    "A086165",
+    "A377304"
   ],
   "tags": [
     "easy",

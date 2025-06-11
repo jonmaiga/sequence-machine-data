@@ -1,0 +1,23 @@
+{
+  "description": "Bitwise XOR of all integers between n and 2n (endpoints included).",
+  "id": "A382865",
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A010873",
+    "A038712",
+    "A047615",
+    "A048724",
+    "A065621",
+    "A114389"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

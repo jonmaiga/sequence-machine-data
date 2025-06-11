@@ -1,5 +1,5 @@
 {
-  "description": "a(n), a(n+1), a(n+2), for n=5,8,11,... are respectively the numbers of representations of the integers 2^k-2, 2^k, 2^k+2, where k=(n+4)/3, by unordered sums of two odd primes not belonging to A158846",
+  "description": "a(n), a(n+1), a(n+2), for n=5,8,11,... are respectively the numbers of representations of the integers 2^k-2, 2^k, 2^k+2, where k=(n+4)/3, by unordered sums of two odd primes not belonging to A158846.",
   "id": "A158853",
   "mentions": [
     "A156537",

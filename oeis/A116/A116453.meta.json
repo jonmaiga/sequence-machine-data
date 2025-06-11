@@ -11,11 +11,12 @@
     "A116454"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Linear recurrence, with both signature and original terms = 1,0,1,0,1",
+  "description": "Linear recurrence, with both signature and original terms = 1,0,1,0,1.",
   "id": "A271970",
   "mentions": [
     "A060961"

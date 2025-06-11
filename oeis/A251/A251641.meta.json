@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with some row, column, diagonal or antidiagonal in every 3X3 subblock summing to 3",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with some row, column, diagonal or antidiagonal in every 3X3 subblock summing to 3.",
   "id": "A251641",
   "mentions": [],
   "tags": [

@@ -1,7 +1,8 @@
 {
-  "description": "Number of perfect matchings in graph C_3 x C_{2n}",
+  "description": "Number of perfect matchings in graph C_3 x C_{2n}.",
   "id": "A231087",
   "mentions": [
+    "A054493",
     "A220864"
   ],
   "tags": [

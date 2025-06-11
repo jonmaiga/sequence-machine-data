@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} ((1 + k*x)/(1 - k*x))^4.",
+  "id": "A384088",
+  "mentions": [
+    "A350366",
+    "A351764",
+    "A384031",
+    "A384060",
+    "A384086",
+    "A384087"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

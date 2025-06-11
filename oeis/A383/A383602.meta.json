@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/( (1-x) * (1-9*x)^3 )^(1/4).",
+  "id": "A383602",
+  "mentions": [
+    "A004982",
+    "A084771",
+    "A383600"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

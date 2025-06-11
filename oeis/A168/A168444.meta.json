@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of the set {1,2,...,n} such that no block is a sequence of consecutive integers (including 1-element blocks)",
+  "description": "Number of partitions of the set {1,2,...,n} such that no block is a sequence of consecutive integers (including 1-element blocks).",
   "id": "A168444",
   "mentions": [
     "A177254"

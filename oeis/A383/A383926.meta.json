@@ -1,0 +1,18 @@
+{
+  "description": "Powers m^p with prime p, producing primes (m^(p^2) - 1)/(m^p - 1) in A383925.",
+  "id": "A383926",
+  "mentions": [
+    "A383923",
+    "A383924",
+    "A383925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

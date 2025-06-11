@@ -1,5 +1,5 @@
 {
-  "description": "Sum{floor(sqrt(3)*k/2) : 1<=k<=n}",
+  "description": "Sum{floor(sqrt(3)*k/2) : 1<=k<=n}.",
   "id": "A194082",
   "mentions": [
     "A010527",

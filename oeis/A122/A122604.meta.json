@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x*(x^3+3*x^2-1)*(5*x^4-5*x^2+1) / ( -1+x+8*x^2-7*x^3-21*x^4+15*x^5+20*x^6-10*x^7-5*x^8+x^9 )",
+  "description": "Expansion of x*(x^3+3*x^2-1)*(5*x^4-5*x^2+1) / ( -1+x+8*x^2-7*x^3-21*x^4+15*x^5+20*x^6-10*x^7-5*x^8+x^9 ).",
   "id": "A122604",
   "mentions": [],
   "tags": [

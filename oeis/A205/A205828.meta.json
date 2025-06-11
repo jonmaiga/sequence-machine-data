@@ -1,10 +1,11 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with the number of clockwise edge increases in every 2X2 subblock equal to two",
+  "description": "Number of (n+1) X (n+1) 0..2 arrays with the number of clockwise edge increases in every 2 X 2 subblock equal to two.",
   "id": "A205828",
   "mentions": [
     "A205836"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

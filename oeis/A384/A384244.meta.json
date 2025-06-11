@@ -1,0 +1,25 @@
+{
+  "description": "Triangle in which the n-th row gives the numbers k from 1 to n such that the greatest common unitary divisor of k and n is 1.",
+  "id": "A384244",
+  "mentions": [
+    "A038566",
+    "A064379",
+    "A077610",
+    "A089912",
+    "A116550",
+    "A165430",
+    "A200723",
+    "A225174",
+    "A384046"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

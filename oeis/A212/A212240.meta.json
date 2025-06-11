@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2 X 2 matrices M of with all terms in {1,...,n} and permanent(M) >= n.",
+  "description": "Number of 2 X 2 matrices M with all terms in {1,...,n} and permanent(M) >= n.",
   "id": "A212240",
   "mentions": [
     "A211795",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of 2n with exactly n kinds of 1's which are intoduced in ascending order.",
+  "description": "Number of partitions of 2n with exactly n kinds of 1's which are introduced in ascending order.",
   "id": "A292747",
   "mentions": [
     "A226775",

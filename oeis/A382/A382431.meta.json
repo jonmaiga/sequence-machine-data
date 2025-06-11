@@ -1,15 +1,19 @@
 {
   "description": "Number of minimum dominating sets in the n-Goldberg graph.",
   "id": "A382431",
-  "mentions": [],
+  "mentions": [
+    "A364668",
+    "A382384",
+    "A382657"
+  ],
   "tags": [
+    "easy",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

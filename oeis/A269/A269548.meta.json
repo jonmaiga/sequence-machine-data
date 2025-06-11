@@ -2,6 +2,7 @@
   "description": "Expansion of (-7*x^2 + 134*x + 1)/(x^3 - 99*x^2 + 99*x - 1).",
   "id": "A269548",
   "mentions": [
+    "A010701",
     "A261004",
     "A269549",
     "A269550",
@@ -20,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

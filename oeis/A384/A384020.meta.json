@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k > 0 such that sigma(A018804(k)) = k*tau(A018804(k)) where sigma denotes the sum of divisors (A000203) and tau denotes the number of divisors (A000005).",
+  "id": "A384020",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A018804",
+    "A382872"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

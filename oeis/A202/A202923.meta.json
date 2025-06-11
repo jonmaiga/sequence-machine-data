@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 nonnegative integer arrays with each row and column increasing from zero by 0, 1, 2 or 3",
+  "description": "Number of nX7 nonnegative integer arrays with each row and column increasing from zero by 0, 1, 2 or 3.",
   "id": "A202923",
   "mentions": [
     "A202924"

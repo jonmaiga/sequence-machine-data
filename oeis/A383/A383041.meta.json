@@ -1,0 +1,14 @@
+{
+  "description": "Primes p such that for some y > 0, 2^y == 3^y == 2 (mod p).",
+  "id": "A383041",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

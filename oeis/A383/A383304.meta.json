@@ -1,0 +1,24 @@
+{
+  "description": "Nonnegative integers whose difference between the largest and smallest digits is equal to the arithmetic mean of its digits.",
+  "id": "A383304",
+  "mentions": [
+    "A037904",
+    "A054054",
+    "A054055",
+    "A061383",
+    "A179239",
+    "A371383",
+    "A371384",
+    "A383305"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

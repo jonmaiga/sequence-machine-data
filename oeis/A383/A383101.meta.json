@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions of n such that any part 1 can be m different colors where m is the largest part of the composition.",
+  "id": "A383101",
+  "mentions": [
+    "A011782",
+    "A088305",
+    "A105422",
+    "A171632",
+    "A363262",
+    "A382991",
+    "A382992"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

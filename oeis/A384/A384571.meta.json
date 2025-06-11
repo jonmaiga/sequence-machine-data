@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator (4160984121*s+1) mod 10^10 when started at s=1.",
+  "id": "A384571",
+  "mentions": [
+    "A384569",
+    "A384570",
+    "A384572",
+    "A384573"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

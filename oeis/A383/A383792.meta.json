@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of the sequence whose Dirichlet convolution with itself yields fourth powers (A000583).",
+  "id": "A383792",
+  "mentions": [
+    "A000583",
+    "A299149",
+    "A299150",
+    "A318512",
+    "A318649",
+    "A318658",
+    "A383768",
+    "A383769",
+    "A383791"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

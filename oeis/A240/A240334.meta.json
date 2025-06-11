@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with no element equal to two plus the sum of elements to its left or two plus the sum of elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4",
+  "description": "Number of nX3 0..3 arrays with no element equal to two plus the sum of elements to its left or two plus the sum of elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4.",
   "id": "A240334",
   "mentions": [
     "A240338"

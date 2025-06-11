@@ -1,0 +1,19 @@
+{
+  "description": "The number of distinct distances between points in the Euclidean plane where the points are constructed via a straightedge-and-compass construction using n circles and no lines.",
+  "id": "A383086",
+  "mentions": [
+    "A383083",
+    "A383085",
+    "A383087"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "M={{0,1,0},{0,0,1},{1,1,0}} M0=M-IdentityMatrix[3] Det[M0] A[n_]:=M0.A[n-1]; A[0]:={{0,1,1},{1,1,1},{1,1,2}};",
+  "description": "M={{0,1,0},{0,0,1},{1,1,0}} M0=M-IdentityMatrix[3] Det[M0] A[n_]:=M0.A[n-1]; A[0]:={{0,1,1},{1,1,1},{1,1,2}}.",
   "id": "A098082",
   "mentions": [],
   "tags": [
-    "nonn"
+    "nonn",
+    "uned"
   ],
   "terms": {
     "offset": 0,

@@ -1,0 +1,21 @@
+{
+  "description": "The number of distinct straightedge-and-compass constructions that can be made with a total of n lines and circles up to rigid motion.",
+  "id": "A383744",
+  "mentions": [
+    "A241600",
+    "A250001",
+    "A383082",
+    "A383083",
+    "A383273"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

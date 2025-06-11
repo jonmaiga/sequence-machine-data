@@ -1,0 +1,44 @@
+{
+  "description": "Number of subsets of {1..n} containing n and some element that is a sum of distinct non-elements.",
+  "id": "A384391",
+  "mentions": [
+    "A048767",
+    "A048768",
+    "A179009",
+    "A179822",
+    "A217605",
+    "A239455",
+    "A279375",
+    "A279790",
+    "A299200",
+    "A317141",
+    "A317142",
+    "A326080",
+    "A326083",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A357982",
+    "A381432",
+    "A381433",
+    "A383706",
+    "A383707",
+    "A383708",
+    "A383710",
+    "A384317",
+    "A384318",
+    "A384319",
+    "A384320",
+    "A384321",
+    "A384350"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

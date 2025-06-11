@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - k^3 * x)^((1/6) * (2/3)^k).",
+  "id": "A384413",
+  "mentions": [
+    "A004123",
+    "A090351"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

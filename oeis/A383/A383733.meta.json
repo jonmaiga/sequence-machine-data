@@ -1,0 +1,21 @@
+{
+  "description": "Number of proper 3-colorings of the generalized chorded cycle graph C_n^{(3)}.",
+  "id": "A383733",
+  "mentions": [
+    "A000670",
+    "A001047",
+    "A003049",
+    "A129912"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

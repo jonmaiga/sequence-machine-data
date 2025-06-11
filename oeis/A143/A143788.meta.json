@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers p such that p + q = 117810 with q prime and p*q=58905^2-x^2",
+  "description": "Prime numbers p such that p + q = 117810 with q prime and p*q=58905^2-x^2.",
   "id": "A143788",
   "mentions": [
     "A061357"

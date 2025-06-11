@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n arrays of squares of integers summing to 13",
+  "description": "Number of n X n arrays of squares of integers summing to 13.",
   "id": "A159389",
   "mentions": [
     "A159359"

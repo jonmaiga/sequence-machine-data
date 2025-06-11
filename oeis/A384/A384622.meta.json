@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/( 1 - x*A(x) * A(x*A(x))^5 ).",
+  "id": "A384622",
+  "mentions": [
+    "A088714",
+    "A213591",
+    "A213639",
+    "A376176",
+    "A384623"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

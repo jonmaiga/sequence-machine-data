@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that k, 2*m +- 3 and 3*m +- 2 are all semiprimes.",
+  "id": "A382933",
+  "mentions": [
+    "A001358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

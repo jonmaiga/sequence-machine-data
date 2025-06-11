@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that primorial base expansion of k has the primorial base expansion of k' as its suffix, where k' stands for the arithmetic derivative of k (A003415).",
+  "id": "A383300",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A006005",
+    "A049345",
+    "A051674",
+    "A235224",
+    "A348283",
+    "A383299",
+    "A383301",
+    "A383933"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

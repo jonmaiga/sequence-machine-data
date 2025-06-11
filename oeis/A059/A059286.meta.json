@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) (0 <= k <= n) with e.g.f. exp(x*y/(1-y))",
+  "description": "Triangle T(n,k) (0 <= k <= n) with e.g.f. exp(x*y/(1-y)).",
   "id": "A059286",
   "mentions": [],
   "tags": [

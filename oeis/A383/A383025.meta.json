@@ -1,0 +1,20 @@
+{
+  "description": "Centered pentagonal numbers that are deficient.",
+  "id": "A383025",
+  "mentions": [
+    "A005100",
+    "A005891",
+    "A145838",
+    "A381488",
+    "A382696"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

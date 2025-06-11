@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator 410092949*s mod 2^32 when started at s=1.",
+  "id": "A384516",
+  "mentions": [
+    "A096550",
+    "A096561"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

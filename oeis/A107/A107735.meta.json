@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: A(n,k) = Verlinde numbers for quasiparabolic bundles (n >= 3, k >= 0)",
+  "description": "Array read by antidiagonals: A(n,k) = Verlinde numbers for quasiparabolic bundles (n >= 3, k >= 0).",
   "id": "A107735",
   "mentions": [
     "A001844",

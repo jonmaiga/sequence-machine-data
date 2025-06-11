@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 10",
+  "description": "Number of (n+1)X(5+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 10.",
   "id": "A233964",
   "mentions": [
     "A233967"

@@ -1,10 +1,12 @@
 {
-  "description": "a(n) = k after every k^2 occurrences of 1.",
+  "description": "Sequence where k is appended after every k^2 occurrences of 1, with multiple values following a 1 listed in order.",
   "id": "A381522",
   "mentions": [
     "A000188",
     "A084580",
-    "A381456"
+    "A381456",
+    "A381900",
+    "A382093"
   ],
   "tags": [
     "nonn"
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 108,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

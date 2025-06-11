@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n has even digit sum.",
+  "description": "Numbers k such that 2^k has even digit sum.",
   "id": "A118730",
   "mentions": [
     "A118733",

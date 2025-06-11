@@ -2,9 +2,13 @@
   "description": "Number of isolated even numbers in Collatz (3x+1) trajectory of n.",
   "id": "A213209",
   "mentions": [
-    "A213181"
+    "A133872",
+    "A139391",
+    "A213181",
+    "A286380"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,18 +1,18 @@
 {
-  "description": "a(n) is the smallest positive integer s such that n positive integers exist whose sum is s and whose product is s * 100^(n-1).",
+  "description": "a(n) is the smallest positive integer s that can be partitioned into n positive integers whose product is s * 100^(n-1).",
   "id": "A380887",
   "mentions": [
     "A381187",
     "A381619",
-    "A381621"
+    "A381621",
+    "A382547"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

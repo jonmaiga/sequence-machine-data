@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX(n+1) binary matrices with no initial bit string in any row or column divisible by 6",
+  "description": "Number of nX(n+1) binary matrices with no initial bit string in any row or column divisible by 6.",
   "id": "A181040",
   "mentions": [
     "A181039"

@@ -1,7 +1,9 @@
 {
-  "description": "Primes p such that there is at least one k dividing (p-1)!-1 (p<=k<=2p).",
+  "description": "Primes p such that there is at least one k dividing (p-1)!-1 (p <= k <= 2p).",
   "id": "A085460",
-  "mentions": [],
+  "mentions": [
+    "A177771"
+  ],
   "tags": [
     "nonn"
   ],

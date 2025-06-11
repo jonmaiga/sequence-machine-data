@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the area of the biggest little octagon.",
+  "id": "A381252",
+  "mentions": [
+    "A111969",
+    "A383173"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

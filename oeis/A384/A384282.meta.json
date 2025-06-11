@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the n-th q-Catalan number for q=n.",
+  "id": "A384282",
+  "mentions": [
+    "A384437"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

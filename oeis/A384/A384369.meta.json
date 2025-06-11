@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that Omega(k)^Omega(k) = Omega(k) (mod k) where Omega = A001222.",
+  "id": "A384369",
+  "mentions": [
+    "A000040",
+    "A001222"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

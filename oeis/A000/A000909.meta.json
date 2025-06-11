@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = (2n)!(2n+1)! / n!^2.",
+  "description": "a(n) = (2*n)!*(2*n+1)! / n!^2.",
   "id": "A000909",
   "mentions": [
     "A079484"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that there is only one m-digit number where the remainder after dividing by sum of digits is A348730(m)",
+  "description": "Numbers m such that there is only one m-digit number where the remainder after dividing by sum of digits is A348730(m).",
   "id": "A348900",
   "mentions": [
     "A348730",

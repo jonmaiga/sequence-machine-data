@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n' - n''*2, where n' is the arithmetic derivative of n, A003415(n) and n'' is the second arithmetic defivative, A068346(n).",
+  "description": "a(n) = n' - n''*2, where n' is the arithmetic derivative of n, A003415(n) and n'' is the second arithmetic derivative, A068346(n).",
   "id": "A368922",
   "mentions": [
     "A003415",

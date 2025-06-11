@@ -1,0 +1,17 @@
+{
+  "description": "Antidiagonal sums of A383414.",
+  "id": "A383415",
+  "mentions": [
+    "A383414"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

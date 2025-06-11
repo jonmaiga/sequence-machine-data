@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A077540(n)/Pr(n), where Pr(n)= product of next n numbers. E.g. Pr(3) = 4*5*6.",
+  "description": "a(n) = A077540(n) / Pr(n), where Pr(n) = product of next n numbers; e.g., Pr(3) = 4*5*6.",
   "id": "A077541",
   "mentions": [
     "A077540",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 10,
+    "source": "joeis"
   }
 }

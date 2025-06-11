@@ -1,5 +1,5 @@
 {
-  "description": "Remove powers of 2 from A000069. Let b(n) be n-th term of the remaining sequence. Then a(n) is the least number m such that (b(n))^m is in A001969",
+  "description": "Remove powers of 2 from A000069. Let b(n) be n-th term of the remaining sequence. Then a(n) is the least number m such that (b(n))^m is in A001969.",
   "id": "A178307",
   "mentions": [
     "A000069",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(5+2) 0..3 arrays with every 3X3 subblock row and column sum not equal to 2 3 4 6 or 7 and every 3X3 diagonal and antidiagonal sum equal to 2 3 4 6 or 7",
+  "description": "Number of (n+2)X(5+2) 0..3 arrays with every 3X3 subblock row and column sum not equal to 2 3 4 6 or 7 and every 3X3 diagonal and antidiagonal sum equal to 2 3 4 6 or 7.",
   "id": "A252275",
   "mentions": [
     "A252278"

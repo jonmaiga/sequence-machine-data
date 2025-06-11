@@ -2,15 +2,16 @@
   "description": "Number of sets of integer-sided rectangular pieces that can tile a 2 X n rectangle.",
   "id": "A360631",
   "mentions": [
-    "A360629"
+    "A000041",
+    "A360629",
+    "A360632"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

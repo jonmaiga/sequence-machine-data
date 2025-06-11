@@ -2,7 +2,9 @@
   "description": "Pentagonal numbers not divisible by 10 whose reverse is a square.",
   "id": "A066741",
   "mentions": [
-    "A000326"
+    "A000290",
+    "A000326",
+    "A067251"
   ],
   "tags": [
     "base",

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + k*x)^((1/6) * (2/3)^k).",
+  "id": "A384344",
+  "mentions": [
+    "A050351",
+    "A090351",
+    "A381890",
+    "A384343",
+    "A384345"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

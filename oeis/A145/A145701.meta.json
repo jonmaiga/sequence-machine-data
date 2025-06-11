@@ -1,5 +1,5 @@
 {
-  "description": "Lesser p of twin primes (p,q) such that there exists an integer between sqrt(2p) and sqrt(2q)",
+  "description": "Lesser p of twin primes (p,q) such that there exists an integer between sqrt(2p) and sqrt(2q).",
   "id": "A145701",
   "mentions": [
     "A001359",

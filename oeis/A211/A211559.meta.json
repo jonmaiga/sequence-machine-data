@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer arrays of length n+5 with new values 0 upwards introduced in order, and containing the value 5",
+  "description": "Number of nonnegative integer arrays of length n+5 with new values 0 upwards introduced in order, and containing the value 5.",
   "id": "A211559",
   "mentions": [
     "A211561"

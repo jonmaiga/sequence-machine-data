@@ -1,5 +1,5 @@
 {
-  "description": "Sum of successive absolute differences of the binomial coefficients = 2*A014495(n)",
+  "description": "Sum of successive absolute differences of the binomial coefficients = 2*A014495(n).",
   "id": "A218008",
   "mentions": [
     "A014495",

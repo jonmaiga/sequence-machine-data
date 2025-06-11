@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (x^n-1/x^n)/(x-1/x) is prime, where x = sqrt(3) + sqrt(2)",
+  "description": "Numbers n such that (x^n-1/x^n)/(x-1/x) is prime, where x = sqrt(3) + sqrt(2).",
   "id": "A158878",
   "mentions": [],
   "tags": [

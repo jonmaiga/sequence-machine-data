@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = triangular number pertaining to the number f(n) obtained by concatenating n n times.",
+  "description": "a(n) = triangular number whose index is n concatenated n times.",
   "id": "A077695",
   "mentions": [
+    "A000217",
     "A000461",
     "A077692",
     "A077693",
@@ -9,6 +10,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

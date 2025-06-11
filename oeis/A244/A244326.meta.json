@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that floor(antisigma(n)/n) < floor(antisigma(n - 1)/(n - 1)).",
+  "description": "Numbers k such that floor(antisigma(k)/k) < floor(antisigma(k - 1)/(k - 1)).",
   "id": "A244326",
   "mentions": [
     "A024816",

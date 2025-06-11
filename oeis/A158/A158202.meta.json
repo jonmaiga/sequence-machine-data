@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of polynomials from matrix characteristic polynomials: m(n,m,d)=If[ m <= n, Mod[Binomial[n, m], 2], 0]; M(n)=m(n,m,d).Transpose[m(n,m,d)].Transpose[m(n,m,d)].m(n,m,d)",
+  "description": "Coefficients of polynomials from matrix characteristic polynomials: m(n,m,d)=If[ m <= n, Mod[Binomial[n, m], 2], 0]; M(n)=m(n,m,d).Transpose[m(n,m,d)].Transpose[m(n,m,d)].m(n,m,d).",
   "id": "A158202",
   "mentions": [],
   "tags": [

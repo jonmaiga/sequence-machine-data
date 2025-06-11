@@ -1,5 +1,5 @@
 {
-  "description": "sigma(n) - phi(n+2), where sigma = sum of divisors (A000203) and phi = Euler totient function (A000010).",
+  "description": "a(n) = sigma(n) - phi(n+2), where sigma = sum of divisors (A000203) and phi = Euler totient function (A000010).",
   "id": "A078119",
   "mentions": [
     "A000010",
@@ -8,6 +8,7 @@
     "A006512"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

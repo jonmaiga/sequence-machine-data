@@ -1,0 +1,18 @@
+{
+  "description": "Number of polyforms with n cells on the faces of a tetrakis hexahedron up to tetrahedral symmetry.",
+  "id": "A383827",
+  "mentions": [
+    "A383802",
+    "A383803"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

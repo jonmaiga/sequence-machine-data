@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A383848 and A383849.",
+  "id": "A383850",
+  "mentions": [
+    "A000225",
+    "A383848",
+    "A383849"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

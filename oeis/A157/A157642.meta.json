@@ -1,5 +1,5 @@
 {
-  "description": "a(n) arises in the normal ordering of n-th power of the operator (d/dx)^3(x(d/dx))^3",
+  "description": "a(n) arises in the normal ordering of n-th power of the operator (d/dx)^3(x(d/dx))^3.",
   "id": "A157642",
   "mentions": [],
   "tags": [

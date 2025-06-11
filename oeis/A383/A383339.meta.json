@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1; thereafter if a(n-1) is a first occurrence, then a(n) is the number of first occurrences in the sequence thus far. Otherwise; a(n) is the number of terms that are the same distance away from their previous last occurrence as a(n-1).",
+  "id": "A383339",
+  "mentions": [
+    "A383340",
+    "A383421"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

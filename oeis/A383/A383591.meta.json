@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p where the absolute difference of the gaps to the adjacent primes exceeds n*log(p).",
+  "id": "A383591",
+  "mentions": [
+    "A036263",
+    "A383215",
+    "A383216"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

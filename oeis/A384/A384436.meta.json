@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of distinct ways to represent n in any integer base >= 2 using only square digits.",
+  "id": "A384436",
+  "mentions": [
+    "A046030",
+    "A055240",
+    "A061845",
+    "A077268",
+    "A126071",
+    "A135551",
+    "A384211",
+    "A384212"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

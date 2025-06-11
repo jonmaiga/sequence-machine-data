@@ -1,0 +1,18 @@
+{
+  "description": "Positions of digits in the decimal expansion of Pi where the cumulative sum of even digits equals the cumulative sum of odd digits (positions 1, 2, 3, ... refer to the digits 3, 1, 4, ...).",
+  "id": "A383690",
+  "mentions": [
+    "A000796",
+    "A175813"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

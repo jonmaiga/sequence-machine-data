@@ -1,0 +1,17 @@
+{
+  "description": "Integers in Ulam's spiral for which the numbers around them form a square whose four corners are all prime numbers.",
+  "id": "A383596",
+  "mentions": [
+    "A063826",
+    "A136626",
+    "A383595"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

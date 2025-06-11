@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] 1/((1 - n*x) * Product_{k=0..n-1} (1 - k*x)^2).",
+  "id": "A383883",
+  "mentions": [
+    "A187235",
+    "A287532",
+    "A350376",
+    "A383880"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that A382506(k) + sigma(k) = A000396(n).",
+  "id": "A382930",
+  "mentions": [
+    "A000396",
+    "A002093",
+    "A002182",
+    "A382483",
+    "A382506"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of natural numbers induced by the Catalan Automorphism *A074683 acting on parenthesizations as encoded and ordered by A014486/A063171",
+  "description": "Permutation of natural numbers induced by the Catalan Automorphism *A074683 acting on parenthesizations as encoded and ordered by A014486/A063171.",
   "id": "A074683",
   "mentions": [
     "A014137",

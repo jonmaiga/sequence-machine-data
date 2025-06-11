@@ -2,6 +2,7 @@
   "description": "Irregular table T(n, k) read by rows: n-th row gives number of subsets of the divisors of n which sum to k for 1 <= k <= sigma(n).",
   "id": "A307223",
   "mentions": [
+    "A000203",
     "A005153",
     "A027750",
     "A030057",
@@ -9,6 +10,7 @@
     "A119348",
     "A225561",
     "A237287",
+    "A307224",
     "A322860"
   ],
   "tags": [
@@ -19,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

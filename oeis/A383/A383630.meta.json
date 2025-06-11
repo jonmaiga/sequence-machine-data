@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/( Product_{k=0..6} (1 - (7*k+1) * x) )^(1/7).",
+  "id": "A383630",
+  "mentions": [
+    "A383627",
+    "A383628",
+    "A383629",
+    "A383631",
+    "A383632",
+    "A383633"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

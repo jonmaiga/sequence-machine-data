@@ -1,0 +1,22 @@
+{
+  "description": "Binary XOR of n and the prime factors of n.",
+  "id": "A384441",
+  "mentions": [
+    "A000040",
+    "A052548",
+    "A178910",
+    "A293212"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

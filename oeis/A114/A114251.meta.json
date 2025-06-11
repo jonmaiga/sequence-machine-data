@@ -1,5 +1,5 @@
 {
-  "description": "C(3+2*n,3+n)*C(8+2*n,0+n)",
+  "description": "C(3+2*n,3+n)*C(8+2*n,0+n).",
   "id": "A114251",
   "mentions": [
     "A062190"

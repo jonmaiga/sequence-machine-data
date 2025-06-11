@@ -1,0 +1,19 @@
+{
+  "description": "Numbers missing from A382717.",
+  "id": "A382718",
+  "mentions": [
+    "A377091",
+    "A379789",
+    "A382715",
+    "A382716",
+    "A382717"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

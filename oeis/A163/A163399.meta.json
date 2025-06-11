@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(the binary order of n)^sigma(n)",
+  "description": "a(n)=(the binary order of n)^sigma(n).",
   "id": "A163399",
   "mentions": [
     "A000005",

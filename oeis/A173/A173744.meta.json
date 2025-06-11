@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(phi(n))= phi(rad(n))",
+  "description": "Numbers n such that tau(phi(n))= phi(rad(n)).",
   "id": "A173744",
   "mentions": [
     "A000005",

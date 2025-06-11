@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = Abs(StirlingS1(3*n,n)).",
+  "description": "a(n) = |Stirling1(3*n,n)|.",
   "id": "A237993",
   "mentions": [
+    "A132393",
     "A187646",
     "A217913",
     "A242676"

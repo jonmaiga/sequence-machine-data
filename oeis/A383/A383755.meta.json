@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) = 3^(n-k) * T(n-1,k-1) + 4^k * T(n-1,k) with T(n,k) = n^k if n*k=0.",
+  "id": "A383755",
+  "mentions": [
+    "A000012",
+    "A005061",
+    "A022168",
+    "A383756",
+    "A383757"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

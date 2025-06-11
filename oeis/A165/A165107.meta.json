@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number that leads to a new cycle under the base-8 Kaprekar map of A165090",
+  "description": "a(n) = smallest number that leads to a new cycle under the base-8 Kaprekar map of A165090.",
   "id": "A165107",
   "mentions": [
     "A151964",

@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci(n)^3 + Fibonacci(n+2)^3",
+  "description": "Fibonacci(n)^3 + Fibonacci(n+2)^3.",
   "id": "A226976",
   "mentions": [
     "A000045",

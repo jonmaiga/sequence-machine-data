@@ -1,0 +1,17 @@
+{
+  "description": "Positive numbers k such that (sin k)^k sets a new record.",
+  "id": "A383540",
+  "mentions": [
+    "A382815",
+    "A383541"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

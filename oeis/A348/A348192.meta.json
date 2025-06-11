@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0; for n >= 1, a(n) = 1 + a(n - GCD(n, digital sum(n)))",
+  "description": "a(0) = 0; for n >= 1, a(n) = 1 + a(n - GCD(n, digital sum(n))).",
   "id": "A348192",
   "mentions": [
     "A007953",

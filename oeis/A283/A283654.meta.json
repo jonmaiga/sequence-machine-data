@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of n X m binary matrices with no rows or columns in which all entries are the same (n >= 1, 1 <= m <= n).",
+  "description": "Triangle T(n,m) read by rows: number of n X m binary matrices with no rows or columns in which all entries are the same (n >= 1, 1 <= m <= n).",
   "id": "A283654",
   "mentions": [
     "A183109",

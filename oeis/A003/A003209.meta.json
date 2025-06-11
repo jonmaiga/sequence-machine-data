@@ -1,7 +1,9 @@
 {
   "description": "Cluster series for f.c.c. lattice.",
   "id": "A003209",
-  "mentions": [],
+  "mentions": [
+    "A383735"
+  ],
   "tags": [
     "more",
     "nonn"

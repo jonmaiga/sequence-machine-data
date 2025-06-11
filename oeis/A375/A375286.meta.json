@@ -2,6 +2,7 @@
   "description": "a(n) = f(1) + f(2) + ... + f(n), where f(n) = (-2)^Omega(n) = A165872(n).",
   "id": "A375286",
   "mentions": [
+    "A001222",
     "A002321",
     "A061142",
     "A069205",
@@ -10,11 +11,12 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

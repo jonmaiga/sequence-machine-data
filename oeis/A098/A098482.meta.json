@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/sqrt((1-x)^2-4*x^4).",
+  "description": "Expansion of 1/sqrt((1-x)^2 - 4*x^4).",
   "id": "A098482",
   "mentions": [
     "A092566",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 37,
     "source": "joeis"
   }
 }

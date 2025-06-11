@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = [x^n] Product_{k=0..2*n-1} (x - (-1)^k * (2*k+1)).",
+  "id": "A383704",
+  "mentions": [
+    "A293318"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

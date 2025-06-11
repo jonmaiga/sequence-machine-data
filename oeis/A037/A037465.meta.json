@@ -1,5 +1,5 @@
 {
-  "description": "Sum{d(i)*6^i: i=0,1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.",
+  "description": "a(n) = Sum_{i=0..m} d(i)*6^i, where Sum_{i=0..m} d(i)*5^i is the base 5 representation of n.",
   "id": "A037465",
   "mentions": [
     "A005836",

@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X n {0,1,2,3} matrices having no 1's to the right of any 0's and no 3's above any 2's.",
+  "id": "A383255",
+  "mentions": [
+    "A002416",
+    "A006506",
+    "A014235",
+    "A060757",
+    "A181213",
+    "A213977",
+    "A381857"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

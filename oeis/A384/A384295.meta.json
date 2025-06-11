@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of integer sextuples (a,b,c,d,e,f) satisfying a system of linear inequalities and congruences specified in the comments.",
+  "id": "A384295",
+  "mentions": [
+    "A370349",
+    "A384127"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

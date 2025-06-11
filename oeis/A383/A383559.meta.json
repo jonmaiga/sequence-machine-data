@@ -1,0 +1,18 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n*(2*n+1)*x ) / A(x) = 0 for n > 0.",
+  "id": "A383559",
+  "mentions": [
+    "A226775",
+    "A304319",
+    "A337458"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,11 @@
   "description": "Number of isomorphism classes of racks of order n.",
   "id": "A181770",
   "mentions": [
-    "A181769"
+    "A181769",
+    "A383144",
+    "A383146",
+    "A383828",
+    "A383831"
   ],
   "tags": [
     "hard",

@@ -2,9 +2,12 @@
   "description": "Primes p whose distance from the next prime and from the previous prime is less than log(p).",
   "id": "A288907",
   "mentions": [
+    "A068996",
     "A151799",
     "A151800",
-    "A288908"
+    "A288908",
+    "A381850",
+    "A383652"
   ],
   "tags": [
     "formulas",
@@ -13,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

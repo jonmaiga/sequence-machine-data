@@ -1,5 +1,5 @@
 {
-  "description": "A determinant sequence of a matrix recursion: x(n)=x(n-1).(2*I-A.x(n-1))",
+  "description": "A determinant sequence of a matrix recursion: x(n)=x(n-1).(2*I-A.x(n-1)).",
   "id": "A174320",
   "mentions": [],
   "tags": [

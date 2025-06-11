@@ -2,7 +2,9 @@
   "description": "a(n) is the sum of the terms of the symmetric square array defined by M(i,j) = prime(i)+i-j for i >= j and M(i,j) = M(j,i) if i < j.",
   "id": "A308731",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A007290",
+    "A316322"
   ],
   "tags": [
     "formulas",

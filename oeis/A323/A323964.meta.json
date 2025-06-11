@@ -1,5 +1,5 @@
 {
-  "description": "Number of defective (binary) heaps on n elements with exactly eight defects;",
+  "description": "Number of defective (binary) heaps on n elements with exactly eight defects.",
   "id": "A323964",
   "mentions": [
     "A056971",

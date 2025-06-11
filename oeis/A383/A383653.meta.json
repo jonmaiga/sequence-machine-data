@@ -1,0 +1,21 @@
+{
+  "description": "Integers m such that m^4 is the sum of squares of two or more consecutive integers, positive or negative.",
+  "id": "A383653",
+  "mentions": [
+    "A000330",
+    "A097812",
+    "A189173",
+    "A383359",
+    "A383367",
+    "A383654"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

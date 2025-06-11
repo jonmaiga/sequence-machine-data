@@ -1,5 +1,5 @@
 {
-  "description": "Floor[ product of next n composite numbers / sum of next n composite numbers ].",
+  "description": "a(n) = floor(product of next n composite numbers / sum of next n composite numbers).",
   "id": "A077144",
   "mentions": [
     "A077143",

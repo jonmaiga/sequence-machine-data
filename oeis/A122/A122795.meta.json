@@ -1,5 +1,5 @@
 {
-  "description": "Connell (5,3)-sum sequence (partial sums of the (5,3)-Connell sequence)",
+  "description": "Connell (5,3)-sum sequence (partial sums of the (5,3)-Connell sequence).",
   "id": "A122795",
   "mentions": [
     "A001614",

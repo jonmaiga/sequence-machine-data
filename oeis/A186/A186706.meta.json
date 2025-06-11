@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the Integral of Dedekind Eta(x*I) from x = 0..infinity.",
+  "description": "Decimal expansion of the Integral of Dedekind Eta(x*I) from x = 0..oo.",
   "id": "A186706",
   "mentions": [
     "A073005",

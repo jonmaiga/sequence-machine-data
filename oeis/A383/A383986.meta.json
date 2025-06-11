@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of the exponential generating function sqrt(4*exp(x) - exp(2*x) - 2) - 1.",
+  "id": "A383986",
+  "mentions": [
+    "A002050",
+    "A006531",
+    "A084099",
+    "A101851",
+    "A114285",
+    "A182037",
+    "A225883",
+    "A383985",
+    "A383987",
+    "A383988",
+    "A383989"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

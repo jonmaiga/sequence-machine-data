@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = a(n-1) + a(n-2)*a(n-3) + a(n-4)*a(n-5)^a(n-6)",
+  "description": "a(n) = a(n-1) + a(n-2)*a(n-3) + a(n-4)*a(n-5)^a(n-6); initial terms are 0, 0, 0, 1, 1, 1.",
   "id": "A171880",
-  "mentions": [],
+  "mentions": [
+    "A171879"
+  ],
   "tags": [
     "nonn"
   ],

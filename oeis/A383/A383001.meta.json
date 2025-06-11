@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number with shortest addition-multiplication chain of length n.",
+  "id": "A383001",
+  "mentions": [
+    "A003064",
+    "A230697",
+    "A383002"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

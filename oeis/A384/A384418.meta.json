@@ -1,0 +1,21 @@
+{
+  "description": "Powerful exponentially squarefree numbers.",
+  "id": "A384418",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A209061",
+    "A246547",
+    "A383211"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

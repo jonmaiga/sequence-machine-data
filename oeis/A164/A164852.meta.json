@@ -1,5 +1,5 @@
 {
-  "description": "Diagonal sum of generalized Lucas-Pascal triangle;(11*10^n,1)",
+  "description": "Diagonal sum of generalized Lucas-Pascal triangle;(11*10^n,1).",
   "id": "A164852",
   "mentions": [
     "A000032",

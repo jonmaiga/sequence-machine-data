@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(-x/2) / (1-2*x)^(1/4).",
+  "id": "A383313",
+  "mentions": [
+    "A002801",
+    "A383314",
+    "A383315"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

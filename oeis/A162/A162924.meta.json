@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of fractions converging to square root 3 satisfying: a(n)=1/a(n-1)+1/a(n-2)+ 1/a(n-3) or numerators of reciprocal satisfying: a(n)=1/(a(n-1)+ a(n-2)+ a(n-3)) with a(1,2,3)= 1",
+  "description": "Denominators of fractions converging to square root 3 satisfying: a(n)=1/a(n-1)+1/a(n-2)+ 1/a(n-3) or numerators of reciprocal satisfying: a(n)=1/(a(n-1)+ a(n-2)+ a(n-3)) with a(1,2,3)= 1.",
   "id": "A162924",
   "mentions": [
     "A057677",

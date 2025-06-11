@@ -2,7 +2,8 @@
   "description": "a(n) = Sum_{d|n} d * sopf(d).",
   "id": "A344578",
   "mentions": [
-    "A008472"
+    "A008472",
+    "A343274"
   ],
   "tags": [
     "nonn"

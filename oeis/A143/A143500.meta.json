@@ -1,7 +1,8 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x*A(x)^2).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x*A(x)^2).",
   "id": "A143500",
   "mentions": [
+    "A087949",
     "A143501"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

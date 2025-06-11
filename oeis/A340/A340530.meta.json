@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows T(n,k) in which row n has length is A000070(n-1) and every column k is A006218, (n >= 1, k >= 1),",
+  "description": "Irregular triangle read by rows T(n,k) in which row n has length is A000070(n-1) and every column k is A006218, (n >= 1, k >= 1).",
   "id": "A340530",
   "mentions": [
     "A000070",

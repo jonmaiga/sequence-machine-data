@@ -1,5 +1,5 @@
 {
-  "description": "Smallest member of cycle corresponding to n-th term of A165127",
+  "description": "Smallest member of cycle corresponding to n-th term of A165127.",
   "id": "A165128",
   "mentions": [
     "A151965",

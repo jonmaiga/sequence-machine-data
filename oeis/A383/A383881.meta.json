@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..3*n} 1/(1 - k*x).",
+  "id": "A383881",
+  "mentions": [
+    "A007820",
+    "A217913",
+    "A348084",
+    "A383882"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

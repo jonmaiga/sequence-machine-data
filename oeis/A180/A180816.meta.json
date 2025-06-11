@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct solutions of sum{i=1..4}(x(2i-1)*x(2i)) = 0 (mod n), with x() only in 2..n-2",
+  "description": "Number of distinct solutions of sum{i=1..4}(x(2i-1)*x(2i)) = 0 (mod n), with x() only in 2..n-2.",
   "id": "A180816",
   "mentions": [
     "A180823"

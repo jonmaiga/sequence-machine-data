@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..5 matrices with row and column i=1..n having sum <= i*5",
+  "description": "Number of n X n 0..5 matrices with row and column i=1..n having sum <= i*5.",
   "id": "A213959",
   "mentions": [
     "A213962"

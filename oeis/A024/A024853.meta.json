@@ -1,8 +1,11 @@
 {
   "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (natural numbers), t = (natural numbers >= 2).",
   "id": "A024853",
-  "mentions": [],
+  "mentions": [
+    "A023857"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

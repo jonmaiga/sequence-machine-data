@@ -1,0 +1,19 @@
+{
+  "description": "Third center column of elementary triangular automaton rule 146, starting from a lone 1 cell.",
+  "id": "A383028",
+  "mentions": [
+    "A380173",
+    "A380668",
+    "A381735",
+    "A382971",
+    "A382972"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

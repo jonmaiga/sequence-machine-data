@@ -1,15 +1,16 @@
 {
-  "description": "a(1) =1, a(2) = 2, a(n+1) = least strictly positive number of the form k*(a(n-1)) - a(n), not included earlier.",
+  "description": "a(1) = 1, a(2) = 2, a(n+1) = least strictly positive number of the form k*a(n-1) - a(n), not included earlier.",
   "id": "A114744",
   "mentions": [
     "A114743"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "joeis"
   }
 }

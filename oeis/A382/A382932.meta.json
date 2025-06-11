@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the altitude of the Pythagorean triangle (A046083(A382931(n)), A046084(A382931(n)), A009000(A382931(n))).",
+  "id": "A382932",
+  "mentions": [
+    "A008594",
+    "A009000",
+    "A046083",
+    "A046084",
+    "A382931"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A recursive triangle sequence: A(n,k)=k^2*(A(n - 1, k - 1) + A(n - 1, k))",
+  "description": "A recursive triangle sequence: A(n,k)=k^2*(A(n - 1, k - 1) + A(n - 1, k)).",
   "id": "A156137",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Terms in A003325 which are sum of two subsequents terms in A003325.",
+  "description": "Terms in A003325 which are sum of two subsequent terms in A003325.",
   "id": "A145732",
   "mentions": [
     "A003325"

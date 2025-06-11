@@ -1,15 +1,17 @@
 {
   "description": "q-factorial numbers for q=-3.",
   "id": "A015015",
-  "mentions": [],
+  "mentions": [
+    "A015001"
+  ],
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 13,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

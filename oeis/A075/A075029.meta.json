@@ -1,7 +1,8 @@
 {
-  "description": "Smallest initial number k of n consecutive numbers satisfying numdiv(k) > numdiv(k+1) > ... > numdiv(k+n-1).",
+  "description": "a(n) is the smallest number k such that the number of divisors of the n numbers from k through k+n-1 are decreasing.",
   "id": "A075029",
   "mentions": [
+    "A000005",
     "A075028",
     "A075031"
   ],

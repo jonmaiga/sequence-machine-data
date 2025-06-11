@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: expansion of (1 - x)/(exp(t)*(1 - x*exp(t*(1 - x))))",
+  "description": "Triangle read by rows: expansion of (1 - x)/(exp(t)*(1 - x*exp(t*(1 - x)))).",
   "id": "A168423",
   "mentions": [
     "A000166",

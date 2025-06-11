@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of the surface area of a unit Reuleaux triangle.",
   "id": "A202473",
-  "mentions": [],
+  "mentions": [
+    "A137914",
+    "A228824"
+  ],
   "tags": [
     "cons",
     "formulas",
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

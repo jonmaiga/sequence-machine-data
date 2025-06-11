@@ -1,5 +1,5 @@
 {
-  "description": "Prime factor addition sequence: For the term n, add all the prime factors of n to n. If n is a prime then add n to it. Start with n = 3",
+  "description": "Prime factor addition sequence: For the term n, add all the prime factors of n to n. If n is a prime then add n to it. Start with n = 3.",
   "id": "A192896",
   "mentions": [
     "A001414",

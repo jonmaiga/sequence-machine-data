@@ -1,0 +1,16 @@
+{
+  "description": "Number of dense symmetric binary relations on {1,...,n}.",
+  "id": "A382693",
+  "mentions": [
+    "A382839"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

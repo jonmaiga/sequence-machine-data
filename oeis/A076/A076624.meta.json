@@ -1,13 +1,11 @@
 {
-  "description": "Sum of the non-divisors of n between 1 and n is a perfect square.",
+  "description": "Numbers k such that the sum of the non-divisors of k between 1 and k is a perfect square.",
   "id": "A076624",
   "mentions": [
-    "A000203",
-    "A000217",
     "A024816"
   ],
   "tags": [
-    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

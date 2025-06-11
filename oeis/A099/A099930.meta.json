@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Pell(n)*Pell(n-1)*Pell(n-2) / 10.",
+  "description": "a(n) = Pell(n) * Pell(n-1) * Pell(n-2) / 10.",
   "id": "A099930",
   "mentions": [
     "A000129",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

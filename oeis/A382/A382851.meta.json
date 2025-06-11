@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = least number in row n of Pascal's triangle that exceeds every number in row n-1.",
+  "id": "A382851",
+  "mentions": [
+    "A007318",
+    "A382850"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

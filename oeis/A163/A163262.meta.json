@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of fractions in the approximation of the square root of 2 by means of: f(n) = 3*f(n-1)/(f(n-1)^2+1); with f(1)= 1",
+  "description": "Denominators of fractions in the approximation of the square root of 2 by means of: f(n) = 3*f(n-1)/(f(n-1)^2+1); with f(1)= 1.",
   "id": "A163262",
   "mentions": [
     "A001601",

@@ -1,0 +1,19 @@
+{
+  "description": "Least integer k for which sigma(k - x) + sigma(k + x) >= n*k has at least one solution.",
+  "id": "A383921",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A383758",
+    "A383920"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

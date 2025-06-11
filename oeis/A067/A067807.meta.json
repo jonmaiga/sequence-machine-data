@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that sigma(n)^2 > 2*sigma(n^2).",
+  "description": "Numbers k such that sigma(k)^2 > 2*sigma(k^2).",
   "id": "A067807",
   "mentions": [
+    "A000203",
+    "A005101",
     "A065764",
     "A195735"
   ],

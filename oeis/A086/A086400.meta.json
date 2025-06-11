@@ -1,5 +1,5 @@
 {
-  "description": "(1/p)*(M(p)-1) where p runs through the odd primes and M(p)=A001006(p) is the p-th Motzkin number.",
+  "description": "(1/p)*(M(p)-1) where p runs through the odd primes and M(p) = A001006(p) is the p-th Motzkin number.",
   "id": "A086400",
   "mentions": [
     "A001006"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. B(x) satisfies B(x)^2 = exp(x*B(x)) * B(x*B(x)).",
+  "id": "A383561",
+  "mentions": [
+    "A383560",
+    "A383562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

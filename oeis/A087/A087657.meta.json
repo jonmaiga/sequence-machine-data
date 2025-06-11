@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = abs(prime(n)-a(n-1)) + abs(prime(n)-a(n-2)) + abs(prime(n)-a(n-3))",
+  "description": "a(n) = abs(prime(n)-a(n-1)) + abs(prime(n)-a(n-2)) + abs(prime(n)-a(n-3)).",
   "id": "A087657",
   "mentions": [
     "A004001"

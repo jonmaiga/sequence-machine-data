@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 nonnegative integer arrays each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it) and the lower right element equal to min(n,5)-1",
+  "description": "Number of nX5 nonnegative integer arrays each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it) and the lower right element equal to min(n,5)-1.",
   "id": "A202732",
   "mentions": [
     "A202735"

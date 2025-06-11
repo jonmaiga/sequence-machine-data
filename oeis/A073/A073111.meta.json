@@ -1,14 +1,17 @@
 {
-  "description": "Number of permutations p of (1,2,3,...,n) such that 1^p(1)+2^p(2)+3^p(3)+...+n^p(n) is prime.",
+  "description": "Number of permutations p of [n] such that 1^p(1) + 2^p(2) + 3^p(3) + ... + n^p(n) is prime.",
   "id": "A073111",
-  "mentions": [],
+  "mentions": [
+    "A073114"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 13,
+    "offset": 0,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

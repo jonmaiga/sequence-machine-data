@@ -1,11 +1,12 @@
 {
-  "description": "Primes of the form k! / 7 - 1.",
+  "description": "Primes of the form k!/7 - 1.",
   "id": "A290120",
   "mentions": [
     "A139177",
     "A139202"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 11*2^n - 1.",
   "id": "A086225",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A005015"
+  ],
   "tags": [
     "easy",
     "formulas",

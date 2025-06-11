@@ -1,9 +1,10 @@
 {
-  "description": "Let M={{0,1},{1,1}}, M0=MatrixPower[(M-IdentityMatrix[2]),2], Det[M0]; a[n_]:=M0.a[n-1]; a[0]:={{0,1},{1,1}};",
+  "description": "Let M={{0,1},{1,1}}, M0=MatrixPower[(M-IdentityMatrix[2]),2], Det[M0]; a[n_]:=M0.a[n-1]; a[0]:={{0,1},{1,1}}.",
   "id": "A098054",
   "mentions": [],
   "tags": [
-    "nonn"
+    "nonn",
+    "uned"
   ],
   "terms": {
     "offset": 0,

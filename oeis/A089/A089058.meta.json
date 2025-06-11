@@ -1,5 +1,5 @@
 {
-  "description": "Numbers x such that xy/(x+y) is an integer for integers y=x,x+1,..n.",
+  "description": "Each positive number x is repeated m times, where there are m numbers y >= x such that x*y/(x+y) is an integer.",
   "id": "A089058",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

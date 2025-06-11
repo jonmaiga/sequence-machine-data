@@ -1,5 +1,5 @@
 {
-  "description": "Integers m, with k digits, such that m = Sum_{i=1..k} A003415(m without its i-th digit)",
+  "description": "Integers m, with k digits, such that m = Sum_{i=1..k} A003415(m without its i-th digit).",
   "id": "A374368",
   "mentions": [
     "A003415",

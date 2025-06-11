@@ -1,5 +1,5 @@
 {
-  "description": "Twenty-seven smaller strong pseudoprimes to bases 2,3,5,7 arranged in order given by a function f:N->{1..27}",
+  "description": "Twenty-seven smaller strong pseudoprimes to bases 2,3,5,7 arranged in order given by a function f:N->{1..27}.",
   "id": "A210588",
   "mentions": [
     "A074773",

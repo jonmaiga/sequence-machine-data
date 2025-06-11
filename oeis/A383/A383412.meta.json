@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of integers >= 2 such that whenever a(k_1) = ... = a(k_m) with k_1 < ... < k_m, the sum k_1 + ... + k_m can be computed without carries in base a(k_1).",
+  "id": "A383412",
+  "mentions": [
+    "A131577",
+    "A279125",
+    "A336206",
+    "A375776"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

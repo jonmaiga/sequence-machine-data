@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least number k such that omega(k) = n and the largest prime factor of k equals the sum of its remaining prime factors, where omega(k) = A001221(k).",
+  "id": "A383725",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A068873",
+    "A102330",
+    "A365795",
+    "A382469",
+    "A383726",
+    "A383728",
+    "A383729"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

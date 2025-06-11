@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of monomials in n-th power of polynomial x^5-x^4-x^3-x^2-x-1",
+  "description": "a(n) = number of monomials in n-th power of polynomial x^5-x^4-x^3-x^2-x-1.",
   "id": "A145286",
   "mentions": [],
   "tags": [

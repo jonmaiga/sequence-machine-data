@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the X-coordinate of the point at n steps backward from the origine along the H-order curve defined in A334232; sequence A334236 gives Y-coordinates.",
+  "description": "a(n) is the X-coordinate of the point at n steps backward from the origin along the H-order curve defined in A334232; sequence A334236 gives Y-coordinates.",
   "id": "A334235",
   "mentions": [
     "A334232",

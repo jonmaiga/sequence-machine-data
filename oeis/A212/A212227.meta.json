@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..2 arrays of length n+5 with sum no more than 6 in any length 6 subsequence (=50% duty cycle)",
+  "description": "Number of 0..2 arrays of length n+5 with sum no more than 6 in any length 6 subsequence (=50% duty cycle).",
   "id": "A212227",
   "mentions": [
     "A212232"

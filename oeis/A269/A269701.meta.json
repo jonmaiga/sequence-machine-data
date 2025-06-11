@@ -1,5 +1,5 @@
 {
-  "description": "Cyclic Fibonacci sequence, restricted to maximum=6",
+  "description": "Cyclic Fibonacci sequence, restricted to maximum=6.",
   "id": "A269701",
   "mentions": [
     "A000045",

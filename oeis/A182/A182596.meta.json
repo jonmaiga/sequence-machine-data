@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors of form cn+1 for numbers 3^n+1",
+  "description": "Number of prime factors of form cn+1 for numbers 3^n+1.",
   "id": "A182596",
   "mentions": [
     "A182590"

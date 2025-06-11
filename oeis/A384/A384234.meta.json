@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the index of the k-th odd noncomposite divisor in the list of divisors of n, with n >=1, k >= 1.",
+  "id": "A384234",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A006005",
+    "A027750",
+    "A383962",
+    "A384231",
+    "A384232",
+    "A384233"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

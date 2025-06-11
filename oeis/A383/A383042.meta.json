@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals downwards, where A(n,k) is the n-th term of the inverse Euler transform of j-> k^(j-1).",
+  "id": "A383042",
+  "mentions": [
+    "A000007",
+    "A008683",
+    "A059966",
+    "A065177",
+    "A065178",
+    "A065179",
+    "A065180",
+    "A074650",
+    "A306173",
+    "A383033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

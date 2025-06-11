@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that the number of composite divisors is a multiple of the number of prime divisors; a(1)=1.",
+  "description": "Numbers such that the number of composite divisors is a multiple of the number of prime divisors.",
   "id": "A137944",
   "mentions": [
     "A000961",

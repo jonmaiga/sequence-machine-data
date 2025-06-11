@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that shares a factor with a(n-1) and both the sum a(n) + a(n-1) is distinct from all previous sums, a(i) + a(i-1), i=2..n-1, and the product a(n) * a(n-1) is distinct from all previous products, a(i) * a(i-1), i=2..n-1",
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that shares a factor with a(n-1) and both the sum a(n) + a(n-1) is distinct from all previous sums, a(i) + a(i-1), i=2..n-1, and the product a(n) * a(n-1) is distinct from all previous products, a(i) * a(i-1), i=2..n-1.",
   "id": "A354858",
   "mentions": [
     "A064413",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*91^k is palindromic for k=0,...,4",
+  "description": "Numbers n such that n*91^k is palindromic for k=0,...,4.",
   "id": "A231118",
   "mentions": [
     "A002113"

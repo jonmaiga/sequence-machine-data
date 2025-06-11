@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that 3^k*k^3 + 2 is a prime.",
+  "description": "Numbers k such that 3^k*k^3 + 2 is a prime.",
   "id": "A366997",
   "mentions": [
     "A366956"

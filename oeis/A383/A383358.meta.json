@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k >= 2 such that (S(k) - I(k)) / (k - 1) is an integer, where S(k) = Sum_{i=2..k} A007918(i) and I(k) = Sum_{i=2..k} A007917(i).",
+  "id": "A383358",
+  "mentions": [
+    "A007917",
+    "A007918"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

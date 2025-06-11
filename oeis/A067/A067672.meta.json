@@ -1,5 +1,5 @@
 {
-  "description": "Floor((3/2)^(n+2))/floor((3/2)^n)=(3/2)^2.",
+  "description": "Numbers k such that floor((3/2)^(k+2))/floor((3/2)^k) = (3/2)^2.",
   "id": "A067672",
   "mentions": [
     "A002379",

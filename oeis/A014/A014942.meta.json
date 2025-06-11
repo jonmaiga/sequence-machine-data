@@ -1,5 +1,5 @@
 {
-  "description": "( 1+24^n*(23*n-1) ) / 529.",
+  "description": "a(n) = (1 + 24^n*(23*n - 1))/529.",
   "id": "A014942",
   "mentions": [
     "A014960"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "joeis"
   }
 }

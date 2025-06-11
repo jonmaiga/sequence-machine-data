@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A213725(A218548(n))",
+  "description": "a(n) = A213725(A218548(n)).",
   "id": "A218550",
   "mentions": [
     "A213725",
@@ -7,6 +7,7 @@
     "A218549"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

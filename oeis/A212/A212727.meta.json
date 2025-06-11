@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..2 arrays of length n+11 with sum less than 12 in any length 12 subsequence (=less than 50% duty cycle)",
+  "description": "Number of 0..2 arrays of length n+11 with sum less than 12 in any length 12 subsequence (=less than 50% duty cycle).",
   "id": "A212727",
   "mentions": [
     "A212729"

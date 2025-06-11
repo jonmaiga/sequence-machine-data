@@ -1,11 +1,12 @@
 {
-  "description": "Concatenation of the first a(n) nonsquares gives a prime.",
+  "description": "Numbers k such that the concatenation of the first k nonsquares gives a prime.",
   "id": "A283561",
   "mentions": [
     "A000037",
     "A019518",
     "A046035",
-    "A283560"
+    "A283560",
+    "A283802"
   ],
   "tags": [
     "base",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

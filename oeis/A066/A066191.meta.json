@@ -1,7 +1,11 @@
 {
-  "description": "Numbers n such that the sum of the odd aliquot parts of n divides n.",
+  "description": "Numbers k such that the sum of the odd aliquot parts of k divides k.",
   "id": "A066191",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A066192",
+    "A091570"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

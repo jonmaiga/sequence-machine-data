@@ -1,10 +1,12 @@
 {
-  "description": "a(n) is the number of integer triples (x,y,z) satisfying: n + x + y + z >= 0, 49*n + 13*x - 11*y - 23*z >= 0, 49*n - 11*x - 23*y + 13*z >= 0, 49*n - 23*x + 13*y - 11*z >= 0, n + x + y + z == 0 (mod 12), 49*n + 13*x - 11*y - 23*z == 0 (mod 7).",
+  "description": "a(n) is the number of integer triples (x,y,z) satisfying a system of linear inequalities and congruences specified in the comments.",
   "id": "A370349",
   "mentions": [
     "A002620",
     "A102283",
-    "A141530"
+    "A141530",
+    "A384127",
+    "A384295"
   ],
   "tags": [
     "easy",

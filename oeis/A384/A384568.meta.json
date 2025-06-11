@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator for the Hewlett Packard HP-11C when started at 1.",
+  "id": "A384568",
+  "mentions": [
+    "A384081",
+    "A384221",
+    "A384361",
+    "A384416"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

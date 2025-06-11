@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place k non-attacking semi-knights on an n x n chessboard, sum over all k>=0",
+  "description": "Number of ways to place k non-attacking semi-knights on an n x n chessboard, sum over all k>=0.",
   "id": "A182562",
   "mentions": [
     "A000045",

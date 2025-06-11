@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals in ascending order where T(n,k), n>1 and k>=1, is the least prime p, writtten in base n, starting a run of exactly k consecutive primes with non increasing sum of digits.",
+  "description": "Square array read by antidiagonals in ascending order where T(n,k), n>1 and k>=1, is the least prime p, written in base n, starting a run of exactly k consecutive primes with non increasing sum of digits.",
   "id": "A376893",
   "mentions": [
     "A007953"

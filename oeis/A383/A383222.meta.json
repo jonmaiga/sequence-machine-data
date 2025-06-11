@@ -1,0 +1,17 @@
+{
+  "description": "Coefficient of x^4 in expansion of (x+2) * (x+5) * ... * (x+3*n-1).",
+  "id": "A383222",
+  "mentions": [
+    "A225470"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

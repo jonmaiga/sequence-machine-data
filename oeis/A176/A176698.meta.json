@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical sum triangle sequence:a(n)=vector(a(n-1)).Reverse(vector(a(n-1));a(0)=1;a(1)=2;t(n,m)=2+a(n)-a(m)-a(n-m)",
+  "description": "A symmetrical sum triangle sequence:a(n)=vector(a(n-1)).Reverse(vector(a(n-1));a(0)=1;a(1)=2;t(n,m)=2+a(n)-a(m)-a(n-m).",
   "id": "A176698",
   "mentions": [
     "A025227"

@@ -1,8 +1,11 @@
 {
-  "description": "Satisfies A^6 = BINOMIAL(A)^5 and also equals A090358^5.",
+  "description": "G.f. satisfies A^6 = BINOMIAL(A)^5 and also equals A090358^5.",
   "id": "A090362",
   "mentions": [
     "A019538",
+    "A090352",
+    "A090355",
+    "A090357",
     "A090358",
     "A094418"
   ],

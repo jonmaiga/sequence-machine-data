@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that sigma(k)/k - 1 is a rational square.",
+  "id": "A383482",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A046060",
+    "A069070",
+    "A218404",
+    "A381321"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

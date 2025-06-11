@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose trajectory under iteration of sum of cubes of digits eventually turns out to be 370",
+  "description": "Numbers whose trajectory under iteration of sum of cubes of digits eventually turns out to be 370.",
   "id": "A154878",
   "mentions": [],
   "tags": [

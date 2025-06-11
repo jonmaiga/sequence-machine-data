@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = least k such that binomial(n, k) > binomial(n - 1, h) for 0 <= h <= n - 1.",
+  "id": "A382850",
+  "mentions": [
+    "A001405",
+    "A004280",
+    "A007318",
+    "A382851"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

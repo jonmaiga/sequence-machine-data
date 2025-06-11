@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct subsets S of [n] such that for all 1 <= k <= n, there exist elements x,y in S (not necessarily distinct) such that x*y = 2k.",
+  "id": "A384330",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A383968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

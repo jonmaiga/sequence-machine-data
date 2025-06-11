@@ -1,5 +1,5 @@
 {
-  "description": "Number of antichains (or order ideals) in the poset 3*3*3*n or size of the distributive lattice J(3*3*3*n)",
+  "description": "Number of antichains (or order ideals) in the poset 3*3*3*n or size of the distributive lattice J(3*3*3*n).",
   "id": "A056937",
   "mentions": [
     "A000372",

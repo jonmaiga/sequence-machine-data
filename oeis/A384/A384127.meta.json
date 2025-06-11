@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of integer quintuples (a,b,c,d,e) satisfying a system of linear inequalities and congruences specified in the comments.",
+  "id": "A384127",
+  "mentions": [
+    "A370349",
+    "A384295"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Zigzag modulo 5.",
   "id": "A074067",
   "mentions": [
+    "A002162",
     "A074066",
     "A074068"
   ],

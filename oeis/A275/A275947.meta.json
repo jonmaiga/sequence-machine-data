@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct slopes with multiple nonzero digits in factorial base representation of n: a(n) = A056170(A275734(n)). (See comments for more exact definition)",
+  "description": "Number of distinct slopes with multiple nonzero digits in factorial base representation of n: a(n) = A056170(A275734(n)). (See comments for more exact definition).",
   "id": "A275947",
   "mentions": [
     "A056170",

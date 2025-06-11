@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 12*log(2)/(6*log(2) - 3).",
+  "id": "A383824",
+  "mentions": [
+    "A002162",
+    "A016687",
+    "A382497",
+    "A382778",
+    "A383822"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

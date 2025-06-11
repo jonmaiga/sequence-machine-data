@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are divisible by every prefix of n.",
+  "description": "Numbers k that are divisible by every prefix of k.",
   "id": "A178157",
   "mentions": [
     "A034837"

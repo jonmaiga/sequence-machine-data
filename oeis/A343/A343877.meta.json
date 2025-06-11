@@ -2,6 +2,7 @@
   "description": "Number of pairs (d1, d2) of divisors of n such that d1",
   "id": "A343877",
   "mentions": [
+    "A000005",
     "A343824"
   ],
   "tags": [

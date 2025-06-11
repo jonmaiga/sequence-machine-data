@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{k=0..n-1} (2*n+3*k).",
+  "id": "A384163",
+  "mentions": [
+    "A352601"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

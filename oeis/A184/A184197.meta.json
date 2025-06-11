@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of (n+1)X(k+1) binary arrays with no 2X2 subblock containing exactly one 1",
+  "description": "T(n,k)=Half the number of (n+1)X(k+1) binary arrays with no 2X2 subblock containing exactly one 1.",
   "id": "A184197",
   "mentions": [],
   "tags": [

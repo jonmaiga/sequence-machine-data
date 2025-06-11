@@ -1,0 +1,22 @@
+{
+  "description": "Beginning with 13, least prime such that concatenation of first n terms and its digit reversal both are primes.",
+  "id": "A382898",
+  "mentions": [
+    "A111382",
+    "A111383",
+    "A113584",
+    "A379354",
+    "A379355",
+    "A379761",
+    "A380227"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

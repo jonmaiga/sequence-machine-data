@@ -1,0 +1,26 @@
+{
+  "description": "Nonnegative integers such that every odd digit except the leftmost is immediately preceded by a smaller digit.",
+  "id": "A383062",
+  "mentions": [
+    "A377912",
+    "A382465",
+    "A382624",
+    "A382938",
+    "A383059",
+    "A383061",
+    "A383246",
+    "A383248",
+    "A383250",
+    "A383501"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

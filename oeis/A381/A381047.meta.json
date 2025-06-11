@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that Fibonacci(k) is a happy number.",
+  "id": "A381047",
+  "mentions": [
+    "A000045",
+    "A007770"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

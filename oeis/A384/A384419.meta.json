@@ -1,0 +1,21 @@
+{
+  "description": "Exponentially squarefree prime powers.",
+  "id": "A384419",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A005117",
+    "A209061",
+    "A283262",
+    "A383211"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

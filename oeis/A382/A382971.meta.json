@@ -1,0 +1,20 @@
+{
+  "description": "Population of elementary triangular automaton rule 146 at generation n, starting from a lone 1 cell at generation 0.",
+  "id": "A382971",
+  "mentions": [
+    "A372581",
+    "A380012",
+    "A380670",
+    "A381734",
+    "A382972",
+    "A383028"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

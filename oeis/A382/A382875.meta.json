@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are a multiple of 2^k - 1 for some k > 1.",
+  "id": "A382875",
+  "mentions": [
+    "A000225",
+    "A001477",
+    "A161788",
+    "A161789",
+    "A161790"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

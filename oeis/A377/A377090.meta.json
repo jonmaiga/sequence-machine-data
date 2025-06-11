@@ -1,11 +1,14 @@
 {
-  "description": "a(0) = 0, and for any n > 0, a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference of a(n-1) and a(n) is a prime number; in case of a tie, preference is given to the positive value.",
+  "description": "a(0) = 0; thereafter, for n > 0, a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference between a(n-1) and a(n) is a prime number; in case of a tie, preference is given to the positive value.",
   "id": "A377090",
   "mentions": [
     "A277618",
     "A377091",
     "A377092",
-    "A380311"
+    "A380311",
+    "A383444",
+    "A383445",
+    "A383446"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Polynomial triangle sequence of coefficients: p(x,n)=-((x - 1)^(2*n + 1)/x^n)*Sum[(k + 1)^n*Binomial[k, n]*x^k, {k, 0, Infinity}]. q(x,n)=(p(x,n)+x^n*p(1/x,n))/2",
+  "description": "Polynomial triangle sequence of coefficients: p(x,n)=-((x - 1)^(2*n + 1)/x^n)*Sum[(k + 1)^n*Binomial[k, n]*x^k, {k, 0, Infinity}]. q(x,n)=(p(x,n)+x^n*p(1/x,n))/2.",
   "id": "A155164",
   "mentions": [
     "A001813"

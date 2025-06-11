@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. C(x) satisfies C(x) = exp(-x/C(x)) * C(x/C(x))^2.",
+  "id": "A383562",
+  "mentions": [
+    "A383560",
+    "A383561"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

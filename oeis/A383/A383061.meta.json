@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers that contain an odd digit d immediately preceded by a digit >= d.",
+  "id": "A383061",
+  "mentions": [
+    "A347298",
+    "A382464",
+    "A382623",
+    "A382937",
+    "A383059",
+    "A383062",
+    "A383245",
+    "A383247",
+    "A383249",
+    "A383500"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

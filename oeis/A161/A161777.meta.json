@@ -1,5 +1,5 @@
 {
-  "description": "n-th nonprime*(n-th nonprime-1)/2",
+  "description": "n-th nonprime*(n-th nonprime-1)/2.",
   "id": "A161777",
   "mentions": [
     "A000217",

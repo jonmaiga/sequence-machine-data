@@ -1,8 +1,11 @@
 {
   "description": "a(n) = floor(e^n) modulo 3.",
   "id": "A120728",
-  "mentions": [],
+  "mentions": [
+    "A000149"
+  ],
   "tags": [
+    "formulas",
     "less",
     "nonn"
   ],

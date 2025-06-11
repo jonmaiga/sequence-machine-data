@@ -1,0 +1,26 @@
+{
+  "description": "Number of Carlitz compositions of n with parts in standard order.",
+  "id": "A383751",
+  "mentions": [
+    "A000110",
+    "A003242",
+    "A011782",
+    "A047998",
+    "A107429",
+    "A126347",
+    "A278984",
+    "A380822",
+    "A383253",
+    "A383713"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

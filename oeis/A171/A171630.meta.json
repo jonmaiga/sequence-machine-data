@@ -1,5 +1,5 @@
 {
-  "description": "10^n*(5+3*10^n)+3",
+  "description": "10^n*(5+3*10^n)+3.",
   "id": "A171630",
   "mentions": [],
   "tags": [

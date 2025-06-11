@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (11*n + 3 + 6/(n+2)) * Catalan(n).",
+  "id": "A383776",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A007054",
+    "A051960"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

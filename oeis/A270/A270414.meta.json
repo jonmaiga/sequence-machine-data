@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n-1) and sigma(phi(n)) are both primes.",
+  "description": "Numbers m such that sigma(m-1) and sigma(phi(m)) are both primes.",
   "id": "A270414",
   "mentions": [
     "A000010",

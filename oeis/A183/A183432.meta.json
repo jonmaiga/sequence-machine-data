@@ -1,5 +1,5 @@
 {
-  "description": "One third the number of nX4 0..3 arrays with no element equal to its row sum plus its column sum mod 4",
+  "description": "One third the number of nX4 0..3 arrays with no element equal to its row sum plus its column sum mod 4.",
   "id": "A183432",
   "mentions": [
     "A183433"

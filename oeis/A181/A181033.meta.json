@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX(n+2) binary matrices with no initial bit string in any row or column divisible by 4",
+  "description": "Number of nX(n+2) binary matrices with no initial bit string in any row or column divisible by 4.",
   "id": "A181033",
   "mentions": [
     "A181031"

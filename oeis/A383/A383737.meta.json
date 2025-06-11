@@ -1,0 +1,20 @@
+{
+  "description": "Cluster series for percolation on polyominoid cells, with connections only between orthogonal cells (\"hard\" polyominoids).",
+  "id": "A383737",
+  "mentions": [
+    "A299279",
+    "A365654",
+    "A365655",
+    "A383735",
+    "A383736"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

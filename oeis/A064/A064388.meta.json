@@ -1,5 +1,5 @@
 {
-  "description": "Variation (3) on Recamán's sequence (A005132): set s (the step size) initially equal to 2; to get a(n), we first try to subtract s from a(n-1): a(n) = a(n-1)-s if positive and not already in the sequence, in which case we change s to s+1; if not, a(n) = a(n-1)+s+i, where i >= 0 is the smallest number such that a(n-1)+s+i has not already appeared and now we change s to s+i+1",
+  "description": "Variation (3) on Recamán's sequence (A005132): set s (the step size) initially equal to 2; to get a(n), we first try to subtract s from a(n-1): a(n) = a(n-1)-s if positive and not already in the sequence, in which case we change s to s+1; if not, a(n) = a(n-1)+s+i, where i >= 0 is the smallest number such that a(n-1)+s+i has not already appeared and now we change s to s+i+1.",
   "id": "A064388",
   "mentions": [
     "A005132",

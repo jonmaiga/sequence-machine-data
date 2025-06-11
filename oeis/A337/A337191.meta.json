@@ -1,9 +1,14 @@
 {
-  "description": "If cards numbered 1 through n are \"Down Two Table\" shuffled (top two put on bottom one at a time, third from top card dealt to table) until all of the cards are placed on the table, a(n) is the number of the last card dealt.",
+  "description": "A version of the Josephus problem: a(n) is the surviving integer under the skip-eliminate-eliminate version of the elimination process.",
   "id": "A337191",
   "mentions": [
     "A006257",
-    "A054995"
+    "A225381",
+    "A321298",
+    "A378635",
+    "A381048",
+    "A381049",
+    "A382528"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,31 @@
+{
+  "description": "The sum of the maximum exponents in the prime factorizations of the unitary divisors of n.",
+  "id": "A383159",
+  "mentions": [
+    "A001620",
+    "A005117",
+    "A032741",
+    "A034444",
+    "A051903",
+    "A056671",
+    "A077610",
+    "A118914",
+    "A305611",
+    "A325770",
+    "A365498",
+    "A365499",
+    "A383156",
+    "A383160",
+    "A383161"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

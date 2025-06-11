@@ -1,0 +1,18 @@
+{
+  "description": "Left-truncatable happy numbers: every suffix is a happy number and no digits are zero.",
+  "id": "A383639",
+  "mentions": [
+    "A007770"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

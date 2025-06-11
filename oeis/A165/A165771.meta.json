@@ -1,5 +1,5 @@
 {
-  "description": "Smallest positive integer such that a(1)+...a(n) divides 123...n (=A007908(n))",
+  "description": "Smallest positive integer such that a(1)+...a(n) divides 123...n (=A007908(n)).",
   "id": "A165771",
   "mentions": [
     "A007908",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are divisible by each of their digits but that are not divisible by the sum of their digits or by the product of their digits.",
+  "description": "Numbers that are divisible by each of their digits but that are either not divisible by the sum of their digits or are not divisible by the product of their digits or both.",
   "id": "A285271",
   "mentions": [
     "A005349",

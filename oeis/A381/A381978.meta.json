@@ -1,0 +1,13 @@
+{
+  "description": "a(n) is the smallest number k such that b+c+d = n, where b, c and d are three distinct positive divisors of k.",
+  "id": "A381978",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 94,
+    "source": "joeis"
+  }
+}

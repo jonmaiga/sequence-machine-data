@@ -1,5 +1,5 @@
 {
-  "description": "Record holders for n^2 - phi(n)*sigma(n)",
+  "description": "Record holders for n^2 - phi(n)*sigma(n).",
   "id": "A164875",
   "mentions": [
     "A000010",

@@ -1,7 +1,9 @@
 {
-  "description": "Squares visited by a chess king moving on a square-spiral numbered board where the king moves to the adjacent unvisited square containing the lowest prime number. In no adjacent prime numbered squares are present it chooses the lowest spiral number.",
+  "description": "Squares visited by a chess king on a spirally numbered infinite board where the king moves to the adjacent unvisited square containing the lowest prime number. If no such square is available it chooses the lowest-numbered adjacent unvisited square.",
   "id": "A335856",
   "mentions": [
+    "A000040",
+    "A010051",
     "A174344",
     "A272763",
     "A274923",
@@ -12,7 +14,8 @@
     "A333714",
     "A335816",
     "A336038",
-    "A336092"
+    "A336092",
+    "A383183"
   ],
   "tags": [
     "fini",
@@ -22,7 +25,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 63,
-    "source": "oeis-entry"
+    "size": 68,
+    "source": "oeis-bfile"
   }
 }

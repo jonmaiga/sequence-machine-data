@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{k=0..n-1} (n+3*k+2).",
+  "id": "A384257",
+  "mentions": [
+    "A303486",
+    "A384256"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

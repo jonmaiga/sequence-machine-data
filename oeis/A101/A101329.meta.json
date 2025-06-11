@@ -1,5 +1,5 @@
 {
-  "description": "2^(2^(2^x)+1)-1 = M(F(x)) == Mersenne(Fermat(x))",
+  "description": "2^(2^(2^x)+1)-1 = M(F(x)) == Mersenne(Fermat(x)).",
   "id": "A101329",
   "mentions": [
     "A070969"

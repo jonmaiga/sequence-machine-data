@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n-th sum{p-1|p is prime and divisor of n} plus n-th product{p-1|p is prime and divisor of n}",
+  "description": "a(n) = n-th sum{p-1|p is prime and divisor of n} plus n-th product{p-1|p is prime and divisor of n}.",
   "id": "A174147",
   "mentions": [
     "A055631",

@@ -2,7 +2,9 @@
   "description": "Sturmian word of slope Pi.",
   "id": "A144609",
   "mentions": [
+    "A063438",
     "A070127",
+    "A076539",
     "A144595",
     "A274170"
   ],

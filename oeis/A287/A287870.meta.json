@@ -2,11 +2,21 @@
   "description": "The extended Wythoff array (the Wythoff array with two extra columns) read by antidiagonals downwards.",
   "id": "A287870",
   "mentions": [
+    "A000045",
     "A000201",
+    "A003622",
+    "A014417",
+    "A022341",
     "A035513",
-    "A287869"
+    "A054582",
+    "A130128",
+    "A287869",
+    "A356874",
+    "A356875",
+    "A357316"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

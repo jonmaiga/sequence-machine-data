@@ -1,7 +1,9 @@
 {
   "description": "Expansion of g.f. 1/((1 - 2*x)*(1 - 7*x)*(1 - 12*x)).",
   "id": "A016315",
-  "mentions": [],
+  "mentions": [
+    "A016307"
+  ],
   "tags": [
     "easy",
     "formulas",

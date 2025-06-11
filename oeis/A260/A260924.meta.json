@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(5+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00010101 00101011 or 01010101",
+  "description": "Number of (n+2)X(5+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00010101 00101011 or 01010101.",
   "id": "A260924",
   "mentions": [
     "A260927"

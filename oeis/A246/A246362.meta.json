@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that if 2n-1 = product_{k >= 1} (p_k)^(c_k), then n < product_{k >= 1} (p_{k-1})^(c_k), where p_k indicates the k-th prime, A000040(k).",
+  "description": "Numbers n such that if 2n-1 = Product_{k >= 1} (p_k)^(c_k), then n < Product_{k >= 1} (p_{k-1})^(c_k), where p_k indicates the k-th prime, A000040(k).",
   "id": "A246362",
   "mentions": [
     "A000040",

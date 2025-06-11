@@ -1,0 +1,17 @@
+{
+  "description": "Smallest beginning of a sequence of exactly n consecutive palindromic primes, all ending with the same digit.",
+  "id": "A382927",
+  "mentions": [
+    "A002385",
+    "A054681"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

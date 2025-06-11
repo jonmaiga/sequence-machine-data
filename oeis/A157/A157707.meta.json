@@ -1,5 +1,5 @@
 {
-  "description": "The z^2 coefficients of the polynomials in the GF3 denominators of A156927 divided by 2",
+  "description": "The z^2 coefficients of the polynomials in the GF3 denominators of A156927 divided by 2.",
   "id": "A157707",
   "mentions": [
     "A156927",

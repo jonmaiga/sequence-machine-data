@@ -1,5 +1,5 @@
 {
-  "description": "Lengths of runs of the initial digits of semiprimes in decimal representation, cf. A239634",
+  "description": "Lengths of runs of the initial digits of semiprimes in decimal representation, cf. A239634.",
   "id": "A239639",
   "mentions": [
     "A001358",

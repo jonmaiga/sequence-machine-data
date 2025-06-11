@@ -1,17 +1,16 @@
 {
-  "description": "Numbers k such that the sum of the odd aliquot parts of k divides k.",
+  "description": "Numbers k such that 1/(Sum_{d|k} (-1)^d/d) is an integer.",
   "id": "A069519",
   "mentions": [
     "A066192"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^2+15n+13",
+  "description": "Primes of the form n^2+15n+13.",
   "id": "A153422",
   "mentions": [
     "A126719"

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the concatenation of 1, k! and 1 is prime.",
+  "id": "A381040",
+  "mentions": [
+    "A000142",
+    "A034886",
+    "A262195"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

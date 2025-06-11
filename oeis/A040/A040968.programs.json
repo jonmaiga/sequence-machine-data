@@ -9,6 +9,9 @@
         "1000",
         "sqrt",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

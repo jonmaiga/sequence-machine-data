@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum{k=0..floor(n/2), C(2*n-3*k, n)*C(n-k, k)}",
+  "description": "a(n) = sum{k=0..floor(n/2), C(2*n-3*k, n)*C(n-k, k)}.",
   "id": "A105871",
   "mentions": [],
   "tags": [

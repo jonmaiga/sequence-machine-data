@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*a(n-1)-a(n-2)+2*(Prime[n+1]-Prime[n]).",
+  "description": "a(n) = 2*a(n-1) - a(n-2) + 2*(prime(n+1)-prime(n)); a(1) = 2, a(2) = 3.",
   "id": "A122263",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 49,
     "source": "joeis"
   }
 }

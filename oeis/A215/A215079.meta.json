@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = k^n * sum(binomial(n,n-k-j),j=0..n-k)",
+  "description": "Triangle T(n,k) = k^n * sum(binomial(n,n-k-j),j=0..n-k).",
   "id": "A215079",
   "mentions": [
     "A000225",

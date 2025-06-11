@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1 - x) / (1 - x - x^3) in powers of x.",
+  "description": "a(n) = a(n-1) + a(n-3) for n >= 3, with a(0) = 1, a(1) = a(2) = 0. This recurrence can also be used to define a(n) for n < 0.",
   "id": "A078012",
   "mentions": [
     "A000930",

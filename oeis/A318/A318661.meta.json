@@ -2,12 +2,15 @@
   "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A055653, sum of phi(d) over all unitary divisors d of n.",
   "id": "A318661",
   "mentions": [
+    "A001620",
     "A055653",
     "A318662",
-    "A318663"
+    "A318663",
+    "A330523"
   ],
   "tags": [
     "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {

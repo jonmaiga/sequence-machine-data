@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (sigma(k) + sigma(k + sigma(k))) / k is an integer where sigma(k) = A000203(k) is the sum of the divisors of k.",
+  "id": "A383392",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A246456"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

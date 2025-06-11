@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the index k of k-th prime p(k) in the smallest sum s(k)=2+3+...+p(k)=t*p(n) of first k primes where t is a true divisor and first occurrence of factor p(n) (n=1,2,3,...)",
+  "description": "a(n) is the index k of k-th prime prime(k) in the smallest sum s(k)=2+3+...+prime(k)=t*prime(n) of first k primes where t is a true divisor and first occurrence of factor prime(n) (n=1,2,3,...)",
   "id": "A167790",
   "mentions": [
     "A007504",

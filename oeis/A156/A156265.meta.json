@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=3*n-A078649(n)",
+  "description": "a(n)=3*n-A078649(n).",
   "id": "A156265",
   "mentions": [
     "A078649"

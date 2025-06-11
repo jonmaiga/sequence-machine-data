@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Integral_{0..1} 1 / ((1+x^4) * sqrt(1-x^4)) dx.",
+  "id": "A383674",
+  "mentions": [
+    "A019675",
+    "A383676"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

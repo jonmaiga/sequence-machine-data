@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n/((log n) log log n))",
+  "description": "Floor(n/((log n) log log n)).",
   "id": "A181942",
   "mentions": [
     "A181922",

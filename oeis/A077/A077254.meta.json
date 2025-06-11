@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n)^n mod n.",
+  "description": "a(n) = prime(n)^n mod n.",
   "id": "A077254",
   "mentions": [
     "A000027",

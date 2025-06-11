@@ -1,0 +1,22 @@
+{
+  "description": "Triangle in which the n-th row gives the numbers from 1 to n whose largest divisor that is an infinitary divisor of n is 1.",
+  "id": "A384246",
+  "mentions": [
+    "A064379",
+    "A077609",
+    "A384046",
+    "A384245",
+    "A384247",
+    "A384248"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

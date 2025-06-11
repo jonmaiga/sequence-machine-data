@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if A276075(n) is a multiple of 4, otherwise 0, where A276075 is fully additive with a(p) = PrimePi(p)!.",
+  "id": "A383287",
+  "mentions": [
+    "A121262",
+    "A276075",
+    "A369001",
+    "A372573",
+    "A383288"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

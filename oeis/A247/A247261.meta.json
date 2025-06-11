@@ -1,5 +1,5 @@
 {
-  "description": "Positive squares not ending in 00 that remain squares when prefixed with 10",
+  "description": "Positive squares not ending in 00 that remain squares when prefixed with 10.",
   "id": "A247261",
   "mentions": [
     "A242268",

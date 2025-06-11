@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of zeta(3)/(8*Pi^2).",
+  "id": "A381809",
+  "mentions": [
+    "A002117",
+    "A002388",
+    "A276712"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

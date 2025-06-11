@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of an elongated triangular cupola with unit edge.",
+  "id": "A384143",
+  "mentions": [
+    "A002193",
+    "A002194",
+    "A344078",
+    "A383852",
+    "A384139",
+    "A384141"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A double product sequence based on a=3;f(n,a)=f(n-1,a)+a*f(n-2,a)",
+  "description": "A double product sequence based on a=3;f(n,a)=f(n-1,a)+a*f(n-2,a).",
   "id": "A173918",
   "mentions": [],
   "tags": [

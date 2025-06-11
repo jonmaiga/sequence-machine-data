@@ -1,5 +1,5 @@
 {
-  "description": "O.g.f. A(x) satisfies: 0 = [x^n] exp( n^2 * Integral 1/A(x)^2 dx ) / A(x), for n > 0",
+  "description": "O.g.f. A(x) satisfies: 0 = [x^n] exp( n^2 * Integral 1/A(x)^2 dx ) / A(x), for n > 0.",
   "id": "A305147",
   "mentions": [
     "A000108",

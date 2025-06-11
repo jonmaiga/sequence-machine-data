@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 2-sqrt(1-4*x-4*x^2-4*x^3)",
+  "description": "Expansion of 2-sqrt(1-4*x-4*x^2-4*x^3).",
   "id": "A191501",
   "mentions": [],
   "tags": [

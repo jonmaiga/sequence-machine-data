@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct solutions of sum{i=1..8}(x(2i-1)*x(2i)) = 1 (mod n), with x() in 0..n-1",
+  "description": "Number of distinct solutions of sum{i=1..8}(x(2i-1)*x(2i)) = 1 (mod n), with x() in 0..n-1.",
   "id": "A180810",
   "mentions": [
     "A180813"

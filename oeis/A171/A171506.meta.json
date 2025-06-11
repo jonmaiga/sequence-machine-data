@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of expansion polynomials related to fish weight allometric equation: p(x,t)=-Exp[t*x]*(1 - Exp[t/3])^3",
+  "description": "Coefficients of expansion polynomials related to fish weight allometric equation: p(x,t)=-Exp[t*x]*(1 - Exp[t/3])^3.",
   "id": "A171506",
   "mentions": [
     "A096084",

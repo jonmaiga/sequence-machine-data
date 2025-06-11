@@ -1,5 +1,5 @@
 {
-  "description": "Least element of each cycle of length 3 under the Kaprekar map A151949",
+  "description": "Least element of each cycle of length 3 under the Kaprekar map A151949.",
   "id": "A164726",
   "mentions": [
     "A099009",

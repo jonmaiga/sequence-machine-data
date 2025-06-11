@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of a rational g.f., see formula.",
+  "description": "Expansion of 1/p(1/x) where p(x) = (-17 - 98*x^9 + x^10) * (-1 - 2*x^9 + x^10)^3 * (-1 - x^9 + x^10)^6.",
   "id": "A135645",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 100,
     "size": 16,
     "source": "joeis"
   }

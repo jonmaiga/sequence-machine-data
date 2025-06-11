@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are either an odd squarefree number squared or twice such a number.",
+  "description": "Numbers that are either (an odd squarefree number squared) or twice such a number.",
   "id": "A359580",
   "mentions": [
     "A046692",

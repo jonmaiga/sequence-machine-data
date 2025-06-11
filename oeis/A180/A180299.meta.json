@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrangements of n indistinguishable balls in n boxes with the maximum number of balls in any box equal to n-9",
+  "description": "Number of arrangements of n indistinguishable balls in n boxes with the maximum number of balls in any box equal to n-9.",
   "id": "A180299",
   "mentions": [
     "A180281"

@@ -1,5 +1,5 @@
 {
-  "description": "Floor( n*(n-1)/22 ).",
+  "description": "a(n) = floor(n*(n-1)/22).",
   "id": "A011875",
   "mentions": [],
   "tags": [

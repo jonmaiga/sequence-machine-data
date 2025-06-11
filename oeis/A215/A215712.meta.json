@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of sum(i=1..n, 3*i/4^i )",
+  "description": "Numerator of sum(i=1..n, 3*i/4^i ).",
   "id": "A215712",
   "mentions": [
     "A036295",

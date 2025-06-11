@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions of n with parts in standard order.",
+  "id": "A383253",
+  "mentions": [
+    "A000110",
+    "A011782",
+    "A047998",
+    "A107429",
+    "A126347",
+    "A278984",
+    "A383713"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

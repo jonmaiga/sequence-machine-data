@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangular sequence:t(n,m)=(StirlingS1[n, m] + StirlingS1[n, n - m])*Binomial[n, m] - (StirlingS1[n, 0] + StirlingS1[n, n - 0])* Binomial[n, 0] + 1",
+  "description": "A symmetrical triangular sequence:t(n,m)=(StirlingS1[n, m] + StirlingS1[n, n - m])*Binomial[n, m] - (StirlingS1[n, 0] + StirlingS1[n, n - 0])* Binomial[n, 0] + 1.",
   "id": "A174834",
   "mentions": [
     "A154843"

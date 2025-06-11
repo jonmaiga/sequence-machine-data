@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array read by rows: T(n,m)=prime(m+1)^n*prime(m)^(n*(n-1)/2)",
+  "description": "Triangular array read by rows: T(n,m)=prime(m+1)^n*prime(m)^(n*(n-1)/2).",
   "id": "A133397",
   "mentions": [
     "A133396"

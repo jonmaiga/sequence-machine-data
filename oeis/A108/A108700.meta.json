@@ -2,8 +2,10 @@
   "description": "Number of compositions of n into odd and relatively prime parts.",
   "id": "A108700",
   "mentions": [
+    "A000045",
     "A000740",
-    "A007436"
+    "A007436",
+    "A008683"
   ],
   "tags": [
     "easy",

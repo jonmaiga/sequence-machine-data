@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of A056671(k)/A034444(k), the ratio between the number of squarefree unitary divisors and the number of unitary divisors over the positive integers.",
+  "id": "A383057",
+  "mentions": [
+    "A034444",
+    "A056671",
+    "A082020",
+    "A308043",
+    "A383058"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

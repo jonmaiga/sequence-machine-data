@@ -3,17 +3,17 @@
   "id": "A333333",
   "mentions": [
     "A001787",
-    "A222192"
+    "A222192",
+    "A369605"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 53,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) is number of earlier terms equal to number of proper divisors of n.",
+  "description": "a(1)=1; for n > 1, a(n) is number of earlier terms equal to number of proper divisors of n.",
   "id": "A135591",
   "mentions": [
+    "A032741",
     "A125087"
   ],
   "tags": [

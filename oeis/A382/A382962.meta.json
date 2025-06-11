@@ -1,5 +1,5 @@
 {
-  "description": "Number of symmetric ternary maps f : S X S X S -> S on a set S of n elements which can be represented as a superposition of binary maps * : S X S -> S",
+  "description": "Number of symmetric ternary maps f : S X S X S -> S on a set S of n elements which can be represented as a superposition of binary maps * : S X S -> S.",
   "id": "A382962",
   "mentions": [
     "A283840",

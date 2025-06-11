@@ -1,0 +1,25 @@
+{
+  "description": "Least number which satisfies the requirements of A380943 in exactly n ways.",
+  "id": "A383814",
+  "mentions": [
+    "A000040",
+    "A173935",
+    "A380943",
+    "A383810",
+    "A383811",
+    "A383812",
+    "A383813",
+    "A383815",
+    "A383816"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Least k >= 2 such that tau(n) divides tau(n^k), where tau(n) is the number of divisors of n, A000005.",
   "id": "A077603",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A118914"
   ],
   "tags": [
     "nonn"

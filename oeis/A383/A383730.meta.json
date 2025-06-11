@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 0, a(n) = a(n-1) + A002260(n) * (-1)^(n-1) if not already in the sequence, otherwise a(n) = a(n-1) - A002260(n) * (-1)^(n-1).",
+  "id": "A383730",
+  "mentions": [
+    "A002260",
+    "A005132",
+    "A063733",
+    "A064288",
+    "A064289",
+    "A064387",
+    "A064388",
+    "A064389",
+    "A079053",
+    "A228474"
+  ],
+  "tags": [
+    "hear",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of distinct straightedge-and-compass constructions that can be made with no lines and n circles.",
+  "id": "A383083",
+  "mentions": [
+    "A250001",
+    "A333944",
+    "A339266",
+    "A383082"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

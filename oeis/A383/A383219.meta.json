@@ -1,0 +1,17 @@
+{
+  "description": "Number of nilpotent semigroups by order, up to isomorphism and anti-isomorphism.",
+  "id": "A383219",
+  "mentions": [
+    "A001423"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

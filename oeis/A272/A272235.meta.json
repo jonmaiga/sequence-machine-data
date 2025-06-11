@@ -1,5 +1,5 @@
 {
-  "description": "In base 2, number of steps before n1(i) = n2(i) when n1(i) = n1(i-1) + digsum(n2(i-1)), n2(i) = n2(i-1) + digsum(n1(i-1)) and n1(1) = 2^(n-1), n2(1) = 0",
+  "description": "In base 2, number of steps before n1(i) = n2(i) when n1(i) = n1(i-1) + digsum(n2(i-1)), n2(i) = n2(i-1) + digsum(n1(i-1)) and n1(1) = 2^(n-1), n2(1) = 0.",
   "id": "A272235",
   "mentions": [
     "A004207",

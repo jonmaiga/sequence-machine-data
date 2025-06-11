@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-isomorphic directed graphs reachable in n steps (and no fewer) by at least 2*n agents using the LNS protocol (see A307085).",
+  "id": "A383388",
+  "mentions": [
+    "A307085",
+    "A383385",
+    "A383389"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

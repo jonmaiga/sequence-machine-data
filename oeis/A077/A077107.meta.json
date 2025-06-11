@@ -4,17 +4,21 @@
   "mentions": [
     "A000290",
     "A000578",
+    "A048763",
     "A070923",
     "A077106",
     "A077110",
-    "A077115"
+    "A077115",
+    "A121536"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 48,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

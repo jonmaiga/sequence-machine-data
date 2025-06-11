@@ -1,17 +1,20 @@
 {
-  "description": "Merge digits of Pi and Phi (golden section) starting with 3.",
+  "description": "Interleave digits of Pi and phi-1 (golden section) starting with 3.",
   "id": "A076790",
   "mentions": [
+    "A000796",
+    "A001622",
     "A058382"
   ],
   "tags": [
     "base",
     "cons",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 104,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

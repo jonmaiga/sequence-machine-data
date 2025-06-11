@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = round(Chi(n)) where Chi(x) is the cosh integral function.",
+  "id": "A383692",
+  "mentions": [
+    "A383542"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

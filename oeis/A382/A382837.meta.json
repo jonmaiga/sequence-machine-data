@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k - A071324(k) > A000010(k).",
+  "id": "A382837",
+  "mentions": [
+    "A000010",
+    "A071324"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

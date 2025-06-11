@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion Sum_{p primes} log(p)^2*p^2/(p^2-1)^2.",
+  "id": "A383224",
+  "mentions": [
+    "A013661",
+    "A073002",
+    "A074962",
+    "A201994",
+    "A345364"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

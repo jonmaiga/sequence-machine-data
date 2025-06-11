@@ -1,5 +1,5 @@
 {
-  "description": "Primes numbers that are the sum of three distinct prime numbers.",
+  "description": "Prime numbers that are the sum of three distinct prime numbers.",
   "id": "A224534",
   "mentions": [
     "A002372",

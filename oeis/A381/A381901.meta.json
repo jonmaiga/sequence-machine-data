@@ -1,0 +1,19 @@
+{
+  "description": "Partition the natural numbers by letting a(1)=1 (denoting the set {1}) and for n>1 define a(n) to be the least integer such that the product of the set of integers {a(n-1)+1,...,a(n)} is an integer multiple of the previous partition's product.",
+  "id": "A381901",
+  "mentions": [
+    "A006992",
+    "A090905",
+    "A113117",
+    "A113118"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The greater of two consecutive primes whose gap equals the difference between their digital roots.",
+  "id": "A383686",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A010888",
+    "A383680",
+    "A383685",
+    "A383687"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

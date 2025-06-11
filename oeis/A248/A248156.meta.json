@@ -2,7 +2,13 @@
   "description": "Inverse Riordan triangle of A106513: Riordan ((1 - 2*x^2 )/(1 + x), x/(1+x)).",
   "id": "A248156",
   "mentions": [
+    "A000012",
+    "A000297",
+    "A001611",
     "A006232",
+    "A014309",
+    "A022958",
+    "A034856",
     "A083318",
     "A106513",
     "A248157",
@@ -20,6 +26,6 @@
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

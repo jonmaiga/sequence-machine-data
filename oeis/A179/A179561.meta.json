@@ -1,5 +1,5 @@
 {
-  "description": "Number whose continued fraction is a run-length encoding of its own binary representation (as the continued fraction)",
+  "description": "Number whose continued fraction is a run-length encoding of its own binary representation (as the continued fraction).",
   "id": "A179561",
   "mentions": [
     "A179559",

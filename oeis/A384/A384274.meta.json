@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected components of polyhedra in the quarter cubic honeycomb up to translation, rotation, and reflection of the honeycomb.",
+  "id": "A384274",
+  "mentions": [
+    "A038119",
+    "A038181",
+    "A343909",
+    "A384254",
+    "A384486"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

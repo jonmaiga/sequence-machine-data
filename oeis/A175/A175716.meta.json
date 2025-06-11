@@ -1,5 +1,5 @@
 {
-  "description": "The total number of elements(ordered pairs) in all equivalence relations on {1,2,...,n}",
+  "description": "The total number of elements(ordered pairs) in all equivalence relations on {1,2,...,n}.",
   "id": "A175716",
   "mentions": [
     "A000595",
