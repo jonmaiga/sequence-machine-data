@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X5 binary array having a sum of zero, with rows and columns of the latter in lexicographically nondecreasing order",
+  "description": "Number of nX4 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X5 binary array having a sum of zero, with rows and columns of the latter in lexicographically nondecreasing order.",
   "id": "A227123",
   "mentions": [
     "A227125"

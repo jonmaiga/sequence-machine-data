@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer k such that the Diophantine equation x^3 + y^3 + z^3 = k^n, where 0 < x < y < z has an integer solution, or -1 if no such integer exists.",
+  "id": "A385714",
+  "mentions": [
+    "A384430",
+    "A385354",
+    "A385565",
+    "A385566"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

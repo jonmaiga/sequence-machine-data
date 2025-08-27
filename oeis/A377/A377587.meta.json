@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest odd integer m with m-2^k not squarefree for all 1<=k<=n",
+  "description": "a(n) is the smallest odd integer m with m-2^k not squarefree for all 1<=k<=n.",
   "id": "A377587",
   "mentions": [
     "A005117",

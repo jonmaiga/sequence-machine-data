@@ -1,7 +1,9 @@
 {
   "description": "Number of n-colorings of the Truncated Icosahedral Graph (Buckminsterfullerene Graph).",
   "id": "A173710",
-  "mentions": [],
+  "mentions": [
+    "A173705"
+  ],
   "tags": [
     "easy",
     "formulas",

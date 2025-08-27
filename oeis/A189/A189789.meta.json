@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place 8 nonattacking bishops on an n x n toroidal board",
+  "description": "Number of ways to place 8 nonattacking bishops on an n x n toroidal board.",
   "id": "A189789",
   "mentions": [
     "A177755",

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=One quarter the number of nXk toroidal 0..3 arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors",
+  "description": "T(n,k)=One quarter the number of nXk toroidal 0..3 arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors.",
   "id": "A184101",
   "mentions": [],
   "tags": [

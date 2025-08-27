@@ -1,7 +1,9 @@
 {
-  "description": "(11*10^n+1)/3.",
+  "description": "a(n) = (11*10^n + 1)/3.",
   "id": "A199690",
-  "mentions": [],
+  "mentions": [
+    "A199691"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

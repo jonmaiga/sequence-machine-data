@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of pairs (p, t) such that p is a pyramidal number, t is a triangular number, p + t <= n and t <= p.",
+  "id": "A385584",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001399",
+    "A001477",
+    "A027568"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

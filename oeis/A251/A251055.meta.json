@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements greater than the absolute difference of its antidiagonal elements",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements greater than the absolute difference of its antidiagonal elements.",
   "id": "A251055",
   "mentions": [],
   "tags": [

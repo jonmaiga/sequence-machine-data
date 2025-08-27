@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=x+y (x>0, y>0) with 3x-2, 3x+2 and 2xy+1 all prime",
+  "description": "Number of ways to write n=x+y (x>0, y>0) with 3x-2, 3x+2 and 2xy+1 all prime.",
   "id": "A220455",
   "mentions": [
     "A023200",

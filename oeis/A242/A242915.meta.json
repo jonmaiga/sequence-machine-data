@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n!-k!)/(n-k) is prime for some k.",
+  "description": "Numbers m such that (m!-k!)/(m-k) is prime for some k.",
   "id": "A242915",
   "mentions": [],
   "tags": [

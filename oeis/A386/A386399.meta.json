@@ -1,0 +1,25 @@
+{
+  "description": "Number of forests with at most n unlabeled nodes.",
+  "id": "A386399",
+  "mentions": [
+    "A000055",
+    "A000272",
+    "A002807",
+    "A005195",
+    "A006897",
+    "A054548",
+    "A137917",
+    "A367863",
+    "A372176"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

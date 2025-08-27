@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without 2-loops",
+  "description": "Number of nX6 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without 2-loops.",
   "id": "A221112",
   "mentions": [
     "A221114"

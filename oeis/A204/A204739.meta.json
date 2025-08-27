@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X8 0..1 arrays with rows and columns of permanents of all 2X2 subblocks lexicographically nondecreasing, and all 2X2 permanents nonzero",
+  "description": "Number of (n+1)X8 0..1 arrays with rows and columns of permanents of all 2X2 subblocks lexicographically nondecreasing, and all 2X2 permanents nonzero.",
   "id": "A204739",
   "mentions": [
     "A204740"

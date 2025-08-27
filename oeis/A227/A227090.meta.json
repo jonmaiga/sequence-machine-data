@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2+1 with its digits reversed is prime (ignoring leading zeros).",
+  "description": "Numbers k such that k^2+1 with its digits reversed is prime (ignoring leading zeros).",
   "id": "A227090",
   "mentions": [
     "A002522",

@@ -1,5 +1,5 @@
 {
-  "description": "29282n^2 - 484n + 1.",
+  "description": "a(n) = 29282*n^2 - 484*n + 1.",
   "id": "A157610",
   "mentions": [
     "A157040",

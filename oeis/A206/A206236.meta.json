@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X7 0..3 arrays with every 2X3 or 3X2 subblock having exactly two equal edges, and new values 0..3 introduced in row major order",
+  "description": "Number of (n+1)X7 0..3 arrays with every 2X3 or 3X2 subblock having exactly two equal edges, and new values 0..3 introduced in row major order.",
   "id": "A206236",
   "mentions": [
     "A206238"

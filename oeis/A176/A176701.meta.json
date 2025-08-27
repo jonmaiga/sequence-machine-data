@@ -1,5 +1,5 @@
 {
-  "description": "A polynomial coefficient triangle sequence:a(n)=vector(a(n-1)).Reverse(vector(a(n-1));a(0)=1;a(1)=1;a[2]=3;p(x,n)=Sum[a(m)*m!*Binomial[x, m], {m, 0, n}]",
+  "description": "A polynomial coefficient triangle sequence:a(n)=vector(a(n-1)).Reverse(vector(a(n-1));a(0)=1;a(1)=1;a[2]=3;p(x,n)=Sum[a(m)*m!*Binomial[x, m], {m, 0, n}].",
   "id": "A176701",
   "mentions": [
     "A176697"

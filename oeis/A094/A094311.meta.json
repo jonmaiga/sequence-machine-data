@@ -1,14 +1,18 @@
 {
-  "description": "n(1+n^2)((2+n^2)^2-n^2)/16.",
+  "description": "a(n) = n*(1+n^2)*((2+n^2)^2-n^2)/16.",
   "id": "A094311",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A064322"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 29,
     "source": "joeis"
   }
 }

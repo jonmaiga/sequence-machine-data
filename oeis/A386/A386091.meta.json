@@ -1,0 +1,22 @@
+{
+  "description": "Primes having only {1, 2, 4, 5} as digits.",
+  "id": "A386091",
+  "mentions": [
+    "A000040",
+    "A030430",
+    "A260267",
+    "A260268",
+    "A385773",
+    "A385776"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

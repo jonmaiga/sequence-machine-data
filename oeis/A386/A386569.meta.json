@@ -1,0 +1,21 @@
+{
+  "description": "The number of binary self numbers not exceeding 2^n.",
+  "id": "A386569",
+  "mentions": [
+    "A010061",
+    "A242403",
+    "A337078",
+    "A382452",
+    "A386568"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

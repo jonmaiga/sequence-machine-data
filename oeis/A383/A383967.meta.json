@@ -1,0 +1,18 @@
+{
+  "description": "Inventory sequence recording number of terms with 1,2,3,... decimal digits. Count until occurrence of a term = 0, whereupon reset the count; continue.",
+  "id": "A383967",
+  "mentions": [
+    "A342585",
+    "A345730",
+    "A347738"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

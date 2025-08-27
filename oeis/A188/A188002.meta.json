@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing arrangements of n numbers x(i) in -(n+k-2)..(n+k-2) with the sum of sign(x(i))*x(i)^2 zero",
+  "description": "T(n,k)=Number of nondecreasing arrangements of n numbers x(i) in -(n+k-2)..(n+k-2) with the sum of sign(x(i))*x(i)^2 zero.",
   "id": "A188002",
   "mentions": [
     "A187993",

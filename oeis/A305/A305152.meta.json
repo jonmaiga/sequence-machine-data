@@ -2,10 +2,13 @@
   "description": "Expansion of Sum_{k>0} x^(k^2) / (1 + x^k).",
   "id": "A305152",
   "mentions": [
+    "A010052",
     "A038548",
     "A048272",
     "A193773",
-    "A348608"
+    "A228441",
+    "A348608",
+    "A348952"
   ],
   "tags": [
     "formulas",

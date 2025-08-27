@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..1 arrays avoiding 0 0 1 and 0 1 1 horizontally and 0 0 1 and 1 0 0 vertically",
+  "description": "Number of 7Xn 0..1 arrays avoiding 0 0 1 and 0 1 1 horizontally and 0 0 1 and 1 0 0 vertically.",
   "id": "A207756",
   "mentions": [
     "A207752"

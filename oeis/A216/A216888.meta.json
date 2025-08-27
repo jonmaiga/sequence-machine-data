@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that 6*3^n + 1 is prime.",
+  "description": "Numbers k such that 6*3^k + 1 is prime.",
   "id": "A216888",
   "mentions": [
     "A003306",
     "A005537",
+    "A005538",
     "A005539",
     "A056800",
     "A056805",
@@ -17,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 47,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Product of digits of n is a nonzero cube.",
+  "description": "Integers whose product of digits is a nonzero cube.",
   "id": "A237767",
   "mentions": [
     "A004086",

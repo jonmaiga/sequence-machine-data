@@ -1,5 +1,5 @@
 {
-  "description": "Nim value of complete graph K_n",
+  "description": "Nim value of complete graph K_n.",
   "id": "A283310",
   "mentions": [
     "A007066"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..2 arrays with successive rows and columns fitting to straight lines with nondecreasing slope, with a single point array taken as having zero slope",
+  "description": "Number of nX4 0..2 arrays with successive rows and columns fitting to straight lines with nondecreasing slope, with a single point array taken as having zero slope.",
   "id": "A222995",
   "mentions": [
     "A222996"

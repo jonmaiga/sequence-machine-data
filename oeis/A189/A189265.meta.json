@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn binary arrays without the pattern 0 0 1 diagonally, antidiagonally or horizontally",
+  "description": "Number of 3Xn binary arrays without the pattern 0 0 1 diagonally, antidiagonally or horizontally.",
   "id": "A189265",
   "mentions": [
     "A189264"

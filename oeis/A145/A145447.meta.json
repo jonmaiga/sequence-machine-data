@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest square (and/or cube) > n-th prime",
+  "description": "a(n) = the smallest square (and/or cube) > n-th prime.",
   "id": "A145447",
   "mentions": [
     "A104103",

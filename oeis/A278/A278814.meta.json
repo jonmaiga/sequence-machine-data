@@ -2,6 +2,7 @@
   "description": "a(n) = ceiling(sqrt(3n+1)).",
   "id": "A278814",
   "mentions": [
+    "A002162",
     "A007494",
     "A007559",
     "A016777",

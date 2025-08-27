@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers k >= 10 for which for every pair of nonempty substrings that concatenate to give k one substring divides the other.",
+  "id": "A384538",
+  "mentions": [
+    "A102766",
+    "A228103",
+    "A384539"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

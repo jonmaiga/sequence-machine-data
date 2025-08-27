@@ -1,5 +1,5 @@
 {
-  "description": "Floor( exp(14/17)*n! ).",
+  "description": "a(n) = floor( exp(14/17)*n! ).",
   "id": "A030886",
   "mentions": [],
   "tags": [

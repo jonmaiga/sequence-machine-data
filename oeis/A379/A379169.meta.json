@@ -1,5 +1,5 @@
 {
-  "description": "Let m the concatenation, in ascending order, of the divisors of k written in base 2 and then converted to base 10. Sequence lists k which divide m.",
+  "description": "Let m be the concatenation, in ascending order, of the divisors of k written in base 2 and then converted to base 10. Sequence lists k which divide m.",
   "id": "A379169",
   "mentions": [
     "A000079",

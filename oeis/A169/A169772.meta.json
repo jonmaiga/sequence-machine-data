@@ -1,5 +1,5 @@
 {
-  "description": "Number of open knight's tour diagrams of a 3 X n chessboard that have \"type B\": the endpoints occur in different columns and disagree in color with the cells in the nearest corner",
+  "description": "Number of open knight's tour diagrams of a 3 X n chessboard that have \"type B\": the endpoints occur in different columns and disagree in color with the cells in the nearest corner.",
   "id": "A169772",
   "mentions": [
     "A070030",

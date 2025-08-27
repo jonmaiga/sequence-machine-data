@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with all rows and columns having a strictly positive second derivative in a quadratic least squares fit",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with all rows and columns having a strictly positive second derivative in a quadratic least squares fit.",
   "id": "A223159",
   "mentions": [],
   "tags": [

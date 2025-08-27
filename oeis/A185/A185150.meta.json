@@ -1,5 +1,5 @@
 {
-  "description": "Number of odd primes p between n^2 and (n+1)^2 with (n/p) = 1, where (-) is the Legendre symbol",
+  "description": "Number of odd primes p between n^2 and (n+1)^2 with (n/p) = 1, where (-) is the Legendre symbol.",
   "id": "A185150",
   "mentions": [
     "A014085",

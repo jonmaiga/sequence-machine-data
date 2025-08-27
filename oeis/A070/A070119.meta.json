@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that [A070080(n), A070081(n), A070082(n)] is an acute integer triangle with relatively prime side lengths.",
+  "description": "Numbers k such that [A070080(k), A070081(k), A070082(k)] is an acute integer triangle with relatively prime side lengths.",
   "id": "A070119",
   "mentions": [
     "A070080",

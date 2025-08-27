@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4+1 is an odd semiprime.",
+  "description": "Numbers k such that k^4+1 is an odd semiprime.",
   "id": "A096171",
   "mentions": [
     "A000068",

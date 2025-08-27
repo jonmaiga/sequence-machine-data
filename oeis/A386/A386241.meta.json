@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(5)*sin(Pi/8).",
+  "id": "A386241",
+  "mentions": [
+    "A002163",
+    "A144981",
+    "A182168",
+    "A307110",
+    "A307731",
+    "A367150"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

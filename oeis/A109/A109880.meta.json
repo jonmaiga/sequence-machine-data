@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and its digit reversal both are difference of successive cubes.",
+  "description": "Numbers k such that k and its digit reversal both are difference of successive cubes.",
   "id": "A109880",
   "mentions": [
     "A109879"

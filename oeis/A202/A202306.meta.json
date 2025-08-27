@@ -1,5 +1,5 @@
 {
-  "description": "Floor(sqrt(7*n)).",
+  "description": "a(n) = floor(sqrt(7*n)).",
   "id": "A202306",
   "mentions": [
     "A000196",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
+    "size": 69,
     "source": "oeis-bfile"
   }
 }

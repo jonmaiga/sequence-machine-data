@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the digits of k divides k and the sum of the digits of k^2 divides k^2.",
+  "id": "A385640",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A385656"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

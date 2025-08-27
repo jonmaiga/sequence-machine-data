@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest value such that a(n)*[a(n)+n]*[a(n)+n+n]=y^2 is a perfect square",
+  "description": "a(n) is the smallest value such that a(n)*[a(n)+n]*[a(n)+n+n]=y^2 is a perfect square.",
   "id": "A181643",
   "mentions": [
     "A115878",

@@ -1,0 +1,20 @@
+{
+  "description": "Prime(n) is the a(n)-th prime having its distinct digits.",
+  "id": "A385957",
+  "mentions": [
+    "A086066",
+    "A254524",
+    "A385776"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

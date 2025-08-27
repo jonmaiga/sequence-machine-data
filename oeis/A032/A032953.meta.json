@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-3 representation Sum_{i=0..m} d(i)*3^(m-i) has even d(i) for all odd i.",
   "id": "A032953",
-  "mentions": [],
+  "mentions": [
+    "A033054"
+  ],
   "tags": [
     "base",
     "nonn"

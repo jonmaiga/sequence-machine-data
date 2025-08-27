@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (x*exp(x)-1)/(1-x).",
+  "description": "Expansion of e.g.f. (exp(x)-x)*x/(1-x).",
   "id": "A296964",
   "mentions": [
     "A002627",

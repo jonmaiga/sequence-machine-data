@@ -2,12 +2,14 @@
   "description": "Dirichlet inverse of A019590; Fully multiplicative with a(2^e) = (-1)^e, a(p^e) = 0 for odd primes p.",
   "id": "A154269",
   "mentions": [
+    "A008836",
     "A019590",
     "A035263",
     "A036987",
     "A154271",
     "A154282",
-    "A209229"
+    "A209229",
+    "A323239"
   ],
   "tags": [
     "formulas",

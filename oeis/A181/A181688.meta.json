@@ -1,5 +1,5 @@
 {
-  "description": "Number of maximal self-avoiding walks from NW to SW corners of a 4-by-n grid",
+  "description": "Number of maximal self-avoiding walks from NW to SW corners of a 4-by-n grid.",
   "id": "A181688",
   "mentions": [
     "A000532",

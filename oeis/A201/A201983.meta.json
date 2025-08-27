@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n zero-sum -3..3 arrays with rows and columns lexicographically nondecreasing",
+  "description": "Number of n X n zero-sum -3..3 arrays with rows and columns lexicographically nondecreasing.",
   "id": "A201983",
   "mentions": [
     "A201989"

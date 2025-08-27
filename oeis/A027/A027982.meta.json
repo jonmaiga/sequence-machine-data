@@ -1,5 +1,5 @@
 {
-  "description": "Sum{(k+1)*T(n,2n-k)}, 0<=k<=2n, T given by A027960.",
+  "description": "a(n) = Sum_{k=0..2*n} (k+1)*T(n, 2*n-k), T given by A027960.",
   "id": "A027982",
   "mentions": [
     "A027960"

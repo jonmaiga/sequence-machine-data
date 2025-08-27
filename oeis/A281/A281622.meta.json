@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n-1) is a Mersenne prime (A000668).",
+  "description": "Numbers k such that sigma(k-1) is a Mersenne prime (A000668).",
   "id": "A281622",
   "mentions": [
     "A000203",

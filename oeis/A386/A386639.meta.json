@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows, where row n is a permutation of the numbers 1 through n, such that if a deck of n cards is prepared in this order, and the AP dealing is used, then the resulting cards will be dealt in increasing order.",
+  "id": "A386639",
+  "mentions": [
+    "A000096",
+    "A291317",
+    "A378635",
+    "A386641",
+    "A386643"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

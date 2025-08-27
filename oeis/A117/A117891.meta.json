@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both the number of non-leading 0's in the binary representation of n and the number of 1's in the binary representation of n divide n.",
+  "description": "Numbers k such that both the number of non-leading 0's in the binary representation of k and the number of 1's in the binary representation of k divide k.",
   "id": "A117891",
   "mentions": [
     "A001146",

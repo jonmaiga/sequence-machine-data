@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock having one, three or four distinct clockwise edge differences",
+  "description": "Number of (n+1) X (n+1) 0..2 arrays with every 2 X 2 subblock having one, three or four distinct clockwise edge differences.",
   "id": "A209952",
   "mentions": [
     "A209960"

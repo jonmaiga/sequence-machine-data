@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrangements of 9 numbers x(i) in -n..n with the sum of x(i)*x(i+1) equal to zero",
+  "description": "Number of arrangements of 9 numbers x(i) in -n..n with the sum of x(i)*x(i+1) equal to zero.",
   "id": "A188364",
   "mentions": [
     "A188358"

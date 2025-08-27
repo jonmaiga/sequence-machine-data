@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..1 arrays with no 1 equal to more than two of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly two elements.",
+  "description": "Number of n X 5 0..1 arrays with no 1 equal to more than two of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly two elements.",
   "id": "A283781",
   "mentions": [
     "A283784"

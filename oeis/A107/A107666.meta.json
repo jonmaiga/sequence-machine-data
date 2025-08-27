@@ -1,5 +1,5 @@
 {
-  "description": "Primes with semiprime digits (digits 4, 6, 9 only).",
+  "description": "Primes having only {4, 6, 9} as digits.",
   "id": "A107666",
   "mentions": [
     "A000040",
@@ -12,7 +12,9 @@
     "A107665",
     "A111494",
     "A111496",
-    "A111697"
+    "A111697",
+    "A385768",
+    "A385800"
   ],
   "tags": [
     "base",
@@ -21,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

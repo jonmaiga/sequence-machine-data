@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal of the rational function 1/(1 - (v^3 + w^3 + x^3 + y^3 + z^3 + v*w*x*y*z)).",
+  "id": "A385606",
+  "mentions": [
+    "A082489",
+    "A361636",
+    "A361703",
+    "A385607"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

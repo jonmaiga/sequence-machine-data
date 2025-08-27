@@ -1,0 +1,26 @@
+{
+  "description": "Squarefree 3-abundant numbers: squarefree numbers k such that A000203(k) > 3*k.",
+  "id": "A387153",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A002110",
+    "A005117",
+    "A013929",
+    "A048250",
+    "A067885",
+    "A068403",
+    "A087248",
+    "A088860",
+    "A285615"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

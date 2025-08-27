@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with no more than floor(nX3/2) elements unequal to at least one king-move neighbor, with new values introduced in row major 0..3 order",
+  "description": "Number of nX3 0..3 arrays with no more than floor(nX3/2) elements unequal to at least one king-move neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222474",
   "mentions": [
     "A222479"

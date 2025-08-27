@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1+2*x) / (1-2*x-6*x^2).",
+  "id": "A384712",
+  "mentions": [
+    "A133592",
+    "A384711"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

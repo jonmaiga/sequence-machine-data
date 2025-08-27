@@ -1,5 +1,5 @@
 {
-  "description": "rad(n(n+1)(n+2)(n+3)).",
+  "description": "a(n) = rad(n*(n+1)*(n+2)*(n+3)).",
   "id": "A078638",
   "mentions": [
     "A007947"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

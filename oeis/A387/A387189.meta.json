@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the smallest dihedral angle, in radians, in a pentagonal bipyramid (Johnson solid J_13).",
+  "id": "A387189",
+  "mentions": [
+    "A010532",
+    "A105199",
+    "A120011",
+    "A179641",
+    "A236367",
+    "A377995",
+    "A377996",
+    "A384624",
+    "A384625",
+    "A386852"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

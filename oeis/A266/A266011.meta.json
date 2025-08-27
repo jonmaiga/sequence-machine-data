@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 integer arrays with each element equal to the number of horizontal and antidiagonal neighbors equal to itself.",
+  "description": "Number of n X 7 integer arrays with each element equal to the number of horizontal and antidiagonal neighbors equal to itself.",
   "id": "A266011",
   "mentions": [
     "A266012"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

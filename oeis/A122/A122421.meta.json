@@ -1,0 +1,17 @@
+{
+  "description": "Soldner primes: primes formed from concatenation of decimal digits of Soldner's constant.",
+  "id": "A122421",
+  "mentions": [
+    "A070769",
+    "A122422"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

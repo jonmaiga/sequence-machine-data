@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X3 binary arrays with no 3X3 subblock commuting with any horizontal or vertical neighbor 3X3 subblock",
+  "description": "Number of (n+2)X3 binary arrays with no 3X3 subblock commuting with any horizontal or vertical neighbor 3X3 subblock.",
   "id": "A186798",
   "mentions": [
     "A186806"

@@ -1,5 +1,5 @@
 {
-  "description": "n.phi(n)^2",
+  "description": "Numbers k such that k * phi(k)^2 < sigma(k)^2.",
   "id": "A078769",
   "mentions": [
     "A064375"

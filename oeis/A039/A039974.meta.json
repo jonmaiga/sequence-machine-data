@@ -2,7 +2,8 @@
   "description": "An example of a d-perfect sequence.",
   "id": "A039974",
   "mentions": [
-    "A006318"
+    "A006318",
+    "A039973"
   ],
   "tags": [
     "formulas",

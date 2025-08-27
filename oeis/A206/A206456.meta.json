@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..n arrays of length n+2 avoiding the consecutive pattern 0..n",
+  "description": "Number of 0..n arrays of length n+2 avoiding the consecutive pattern 0..n.",
   "id": "A206456",
   "mentions": [
     "A206455"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

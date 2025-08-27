@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. satisfies A(A(x)*exp(-2*A(x)))=x",
+  "description": "E.g.f. satisfies A(A(x)*exp(-2*A(x)))=x.",
   "id": "A209627",
   "mentions": [],
   "tags": [

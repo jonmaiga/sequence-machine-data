@@ -1,5 +1,5 @@
 {
-  "description": "Numbers for which A000695(p_n) are primes, where p_n is the n-th prime",
+  "description": "Numbers for which A000695(p_n) are primes, where p_n is the n-th prime.",
   "id": "A152863",
   "mentions": [
     "A000695",

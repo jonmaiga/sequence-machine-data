@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n+1) - sigma(n) = n + 1.",
+  "description": "Numbers k such that sigma(k+1) - sigma(k) = k + 1.",
   "id": "A067816",
   "mentions": [
     "A024816"

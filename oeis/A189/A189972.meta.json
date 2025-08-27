@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3:4:5 proportioned triangles on a (n+1)X(n+1) grid",
+  "description": "Number of 3:4:5 proportioned triangles on a (n+1)X(n+1) grid.",
   "id": "A189972",
   "mentions": [
     "A189973"

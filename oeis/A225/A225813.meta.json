@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (10^n)^2 + 7(10^n) + 1.",
+  "description": "a(n) = (10^n)^2 + 7*(10^n) + 1.",
   "id": "A225813",
   "mentions": [
     "A033934",

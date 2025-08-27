@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^(mu(n)^2), where mu is the Möbius function (A008683).",
+  "id": "A385212",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A013661",
+    "A055615",
+    "A107078",
+    "A344465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

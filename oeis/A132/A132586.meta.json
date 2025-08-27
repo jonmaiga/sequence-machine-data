@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n+1)-n-2 divides sigma(n)-n-1, where sigma(n) is sum of positive divisors of n and the ratio is greater than zero.",
+  "description": "Numbers k such that sigma(k+1)-k-2 divides sigma(k)-k-1, where sigma(k) is sum of positive divisors of k and the ratio is greater than zero.",
   "id": "A132586",
   "mentions": [
     "A002961",

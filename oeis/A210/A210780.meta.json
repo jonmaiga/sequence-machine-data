@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 1..4 arrays with no element with value z exactly a city block distance of z from another element with value z",
+  "description": "Number of n X n 1..4 arrays with no element with value z exactly a city block distance of z from another element with value z.",
   "id": "A210780",
   "mentions": [
     "A210788"

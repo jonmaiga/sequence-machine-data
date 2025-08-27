@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions p of n into distinct parts, including round(mean(p)).",
+  "description": "Number of partitions p of n into distinct parts, not including round(mean(p)).",
   "id": "A241317",
   "mentions": [
     "A000009",

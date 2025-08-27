@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p < 2n*(n+1) such that the polynomial Sum_{k=1..n} tau(k)*x^(n-k) is irreducible modulo p, or 1 if such p does not exist, where tau is Ramanujan's tau function given by A000594.",
+  "id": "A385658",
+  "mentions": [
+    "A000040",
+    "A000594",
+    "A385676",
+    "A385678"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

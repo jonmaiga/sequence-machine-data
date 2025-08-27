@@ -1,0 +1,17 @@
+{
+  "description": "Start with the list of positive integers L_1 = (1, 2, ...); for n = 1, 2, ..., let m be the least integer > n such that L_n(n) divides L_n(m); L_{n+1}(k) = L_n(k) for any k <> m, L_{n+1}(m) = L_n(m)/L_n(n); a(n) = L_n(n).",
+  "id": "A387025",
+  "mentions": [
+    "A006882",
+    "A060546"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

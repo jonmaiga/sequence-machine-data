@@ -1,14 +1,16 @@
 {
   "description": "a(n) = 2^(n-1)*(2^n - 1)*Product_{j=1..n-1} (2^j + 1).",
   "id": "A005477",
-  "mentions": [],
+  "mentions": [
+    "A081845"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

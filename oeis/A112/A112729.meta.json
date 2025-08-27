@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 2^(n+2)*3*(7*2^n-1) where 7*2^n-1 is prime.",
+  "description": "Numbers of the form 2^(k+2)*3*(7*2^k-1) where 7*2^k-1 is prime.",
   "id": "A112729",
   "mentions": [
     "A001771",

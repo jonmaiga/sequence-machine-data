@@ -1,18 +1,18 @@
 {
-  "description": "a(n) is the smallest m such that p = n-th popular prime = A124661(n) is first popular on the interval [2,m].",
+  "description": "a(n) is the smallest m such that p = n-th popular prime = A385503(n) is popular on the interval [2,m].",
   "id": "A289661",
   "mentions": [
     "A006530",
-    "A124661",
     "A289662",
-    "A289665"
+    "A289665",
+    "A385503"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

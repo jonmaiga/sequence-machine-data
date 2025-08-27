@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose digits all belong to the same residue class mod 6.",
+  "id": "A385295",
+  "mentions": [
+    "A059708",
+    "A385292",
+    "A385293",
+    "A385294",
+    "A385296",
+    "A385297",
+    "A385298"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

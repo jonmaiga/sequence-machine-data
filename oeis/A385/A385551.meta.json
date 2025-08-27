@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = Sum_{k>=0} x^k * A(-k*x).",
+  "id": "A385551",
+  "mentions": [
+    "A125282",
+    "A195067",
+    "A385550"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

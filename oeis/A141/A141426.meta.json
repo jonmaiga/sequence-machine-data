@@ -1,11 +1,12 @@
 {
-  "description": "Count of numbers smaller than and coprime to the prime A140555(n).",
+  "description": "a(n) = A140555(n) - 1.",
   "id": "A141426",
   "mentions": [
     "A140555"
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

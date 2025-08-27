@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 > P(n)!, where P(n) is the greatest prime factor of n.",
+  "description": "Numbers k such that k^2 > P(k)!, where P(k) is the greatest prime factor of k.",
   "id": "A122380",
   "mentions": [
     "A000290",

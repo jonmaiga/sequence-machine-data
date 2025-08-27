@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p such that p-/+2n are semiprimes.",
+  "description": "Smallest prime p such that p+-2n are semiprimes.",
   "id": "A115396",
   "mentions": [
     "A063643",

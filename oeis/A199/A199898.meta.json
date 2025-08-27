@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum, and adjacent elements not both strictly positive and not both strictly negative",
+  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum, and adjacent elements not both strictly positive and not both strictly negative.",
   "id": "A199898",
   "mentions": [
     "A082111",

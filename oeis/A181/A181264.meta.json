@@ -1,8 +1,9 @@
 {
-  "description": "Number of n X n binary matrices M with rows in strictly increasing order such that M^2 (mod 2) also has rows in strictly increasing order",
+  "description": "Number of n X n binary matrices M with rows in strictly increasing order such that M^2 (mod 2) also has rows in strictly increasing order.",
   "id": "A181264",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

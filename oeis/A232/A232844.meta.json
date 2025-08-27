@@ -1,5 +1,5 @@
 {
-  "description": "Number of (5+1)X(n+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally, diagonally or antidiagonally",
+  "description": "Number of (5+1)X(n+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally, diagonally or antidiagonally.",
   "id": "A232844",
   "mentions": [
     "A232839"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..2 arrays with the upper median plus the lower median minus the minimum of every 2X2 subblock equal",
+  "description": "Number of (n+1)X(6+1) 0..2 arrays with the upper median plus the lower median minus the minimum of every 2X2 subblock equal.",
   "id": "A236787",
   "mentions": [
     "A236789"

@@ -1,0 +1,20 @@
+{
+  "description": "If n = Product prime(i)^e(i) then a(n) = Sum prime(e(i)).",
+  "id": "A384812",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A008472",
+    "A066328",
+    "A181819",
+    "A366988"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

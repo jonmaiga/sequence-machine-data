@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose binary expansion is of the form 11+0*",
+  "description": "Numbers whose binary expansion is of the form 11+0*.",
   "id": "A175332",
   "mentions": [
     "A007088",

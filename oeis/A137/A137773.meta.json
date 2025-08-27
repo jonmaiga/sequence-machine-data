@@ -1,5 +1,5 @@
 {
-  "description": "Triangular sequence: The Fibonacci sequence on the diagonal, 1's at all other places",
+  "description": "Triangular sequence: The Fibonacci sequence on the diagonal, 1's at all other places.",
   "id": "A137773",
   "mentions": [
     "A002062",

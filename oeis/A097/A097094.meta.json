@@ -9,12 +9,12 @@
   ],
   "tags": [
     "formulas",
-    "nonn",
+    "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 77,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

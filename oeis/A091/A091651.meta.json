@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of (5 - Pi)/4.",
   "id": "A091651",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A385647"
+  ],
   "tags": [
     "cons",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

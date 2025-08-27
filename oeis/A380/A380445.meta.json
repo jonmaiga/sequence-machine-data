@@ -1,18 +1,17 @@
 {
-  "description": "a(n) = 1 if A339792(n) is 0, otherwise 0, where A339792(n) is the third coefficient of the lindep transform of sigma.",
+  "description": "a(n) = 10*binomial(n,5) + 6*binomial(n,4) + binomial(n,3) + binomial(n,2).",
   "id": "A380445",
   "mentions": [
-    "A000203",
-    "A339792",
-    "A380446"
+    "A383797"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 120,
+    "offset": 0,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,10 @@
 {
-  "description": "\"If n appears then n-th prime doesn't\", with a(1)=1.",
+  "description": "\"If k appears then the k-th prime doesn't\", with a(1)=1.",
   "id": "A121543",
-  "mentions": [],
+  "mentions": [
+    "A078442",
+    "A262275"
+  ],
   "tags": [
     "nonn"
   ],

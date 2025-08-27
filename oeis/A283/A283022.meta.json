@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of primes of the form n - x is not equal to the number of primes of the form n + y where x, y are divisors of n.",
+  "description": "Numbers k such that the number of primes of the form k - x is not equal to the number of primes of the form k + y where x, y are divisors of k.",
   "id": "A283022",
   "mentions": [
     "A005382",

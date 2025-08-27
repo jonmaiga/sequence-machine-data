@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary matrices M with rows in strictly increasing order and rows of M*Mtranspose (mod 2) in strictly increasing order",
+  "description": "T(n,k)=Number of nXk binary matrices M with rows in strictly increasing order and rows of M*Mtranspose (mod 2) in strictly increasing order.",
   "id": "A181266",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals: T(n,k) is the number of strings of numbers x(i=1..n) in 0..k with sum i^4*x(i) equal to n^4*k",
+  "description": "Table read by antidiagonals: T(n,k) is the number of strings of numbers x(i=1..n) in 0..k with sum i^4*x(i) equal to n^4*k.",
   "id": "A184348",
   "mentions": [
     "A184339",

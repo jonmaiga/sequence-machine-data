@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Product_{k>=1} (1 + x^(2*k^2)) / (1 - x^k).",
+  "id": "A385009",
+  "mentions": [
+    "A000041",
+    "A033461",
+    "A385010"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

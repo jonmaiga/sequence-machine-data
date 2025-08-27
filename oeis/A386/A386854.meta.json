@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in an elongated triangular pyramid (Johnson solid J_7).",
+  "id": "A386854",
+  "mentions": [
+    "A010466",
+    "A131594"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

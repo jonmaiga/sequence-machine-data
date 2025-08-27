@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..2 arrays with no element equal to all horizontal neighbors or unequal to all vertical neighbors, and new values 0..2 introduced in row major order",
+  "description": "Number of (n+1)X(6+1) 0..2 arrays with no element equal to all horizontal neighbors or unequal to all vertical neighbors, and new values 0..2 introduced in row major order.",
   "id": "A239535",
   "mentions": [
     "A239537"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k>1 such that bigomega(k^n-1) = bigomega(k^n+1) with bigomega=A001222.",
+  "id": "A387145",
+  "mentions": [
+    "A001222",
+    "A385315",
+    "A387144"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

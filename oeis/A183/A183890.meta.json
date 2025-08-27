@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrangements of n+3 numbers in 0..7 with each number being the sum mod 8 of three others",
+  "description": "Number of arrangements of n+3 numbers in 0..7 with each number being the sum mod 8 of three others.",
   "id": "A183890",
   "mentions": [
     "A183892"

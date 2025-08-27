@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 divides 8^n-1.",
+  "description": "Numbers k such that k^2 divides 8^k-1.",
   "id": "A127102",
   "mentions": [
     "A003530",

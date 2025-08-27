@@ -1,7 +1,9 @@
 {
-  "description": "Primes of the form 4n^3+5.",
+  "description": "Primes of the form 4k^3+5.",
   "id": "A201119",
-  "mentions": [],
+  "mentions": [
+    "A243762"
+  ],
   "tags": [
     "easy",
     "nonn"

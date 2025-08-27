@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of sqrt((1-2*x) / (1-6*x)^3).",
+  "id": "A387211",
+  "mentions": [
+    "A163869",
+    "A360317",
+    "A387212"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

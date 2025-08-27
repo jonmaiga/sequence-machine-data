@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) = (3*sqrt(1 - 8*x) - (1 - 4*x)) / (2*(1 - 8*x - 2*x^2)).",
+  "id": "A384266",
+  "mentions": [
+    "A000108",
+    "A179587"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

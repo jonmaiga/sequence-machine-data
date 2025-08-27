@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 binary arrays with all 1s connected and a path of 1s from top row to bottom row",
+  "description": "Number of nX4 binary arrays with all 1s connected and a path of 1s from top row to bottom row.",
   "id": "A163030",
   "mentions": [
     "A163029",

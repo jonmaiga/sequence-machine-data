@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th difference between 2 successive primes equals the squarefree part of n.",
+  "description": "Numbers k such that the k-th difference between 2 successive primes equals the squarefree part of k.",
   "id": "A078691",
   "mentions": [
     "A001223",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

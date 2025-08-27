@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the starting position of the second occurrence of a string of the initial n hexadecimal digits of Pi in the hexadecimal expansion of Pi.",
+  "id": "A385936",
+  "mentions": [
+    "A062964",
+    "A081876",
+    "A385937"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

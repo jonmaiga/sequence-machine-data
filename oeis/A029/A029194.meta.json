@@ -1,8 +1,12 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^5)(1-x^6)(1-x^8)).",
+  "description": "Expansion of 1/((1-x^2)*(1-x^5)*(1-x^6)*(1-x^8)).",
   "id": "A029194",
-  "mentions": [],
+  "mentions": [
+    "A029032"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

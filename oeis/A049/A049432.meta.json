@@ -1,16 +1,18 @@
 {
-  "description": "Numbers n such that n!-(n-1)!+1 is prime.",
+  "description": "Numbers k such that k! - (k-1)! + 1 is prime.",
   "id": "A049432",
   "mentions": [
     "A049433",
-    "A049984"
+    "A049984",
+    "A090703"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of permutations of an nXk array with each element moving exactly one horizontally or vertically and without 2-loops",
+  "description": "T(n,k)=Number of permutations of an nXk array with each element moving exactly one horizontally or vertically and without 2-loops.",
   "id": "A216800",
   "mentions": [
     "A014113",

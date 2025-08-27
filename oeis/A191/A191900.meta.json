@@ -1,5 +1,5 @@
 {
-  "description": "Number of compositions of odd natural numbers into 7 parts <=n",
+  "description": "Number of compositions of odd natural numbers into 7 parts <=n.",
   "id": "A191900",
   "mentions": [
     "A191494"

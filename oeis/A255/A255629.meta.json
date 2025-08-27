@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+7 0..2 arrays with at most two downsteps in every n consecutive neighbor pairs",
+  "description": "Number of length n+7 0..2 arrays with at most two downsteps in every n consecutive neighbor pairs.",
   "id": "A255629",
   "mentions": [
     "A255622"

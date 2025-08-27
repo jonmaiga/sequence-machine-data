@@ -1,0 +1,37 @@
+{
+  "description": "The number of unitary divisors of n that are 5-rough numbers (A007310).",
+  "id": "A385044",
+  "mentions": [
+    "A000034",
+    "A001620",
+    "A007310",
+    "A013661",
+    "A034444",
+    "A035218",
+    "A055076",
+    "A056624",
+    "A056671",
+    "A065330",
+    "A068068",
+    "A306016",
+    "A323308",
+    "A365498",
+    "A365499",
+    "A368248",
+    "A380395",
+    "A382488",
+    "A385042",
+    "A385045"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n 0..5 arrays with new values introduced in order from both ends, and least squares fitting to a straight line with slope zero, with a single point taken as having zero slope",
+  "description": "Number of length n 0..5 arrays with new values introduced in order from both ends, and least squares fitting to a straight line with slope zero, with a single point taken as having zero slope.",
   "id": "A245848",
   "mentions": [
     "A245851"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of digits in 7^(n!).",
+  "id": "A385949",
+  "mentions": [
+    "A055642",
+    "A220079",
+    "A317873"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

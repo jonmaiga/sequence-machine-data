@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2nX6 0..3 arrays with values 0..3 introduced in row major order and each element equal to exactly two horizontal and vertical neighbors",
+  "description": "Number of 2nX6 0..3 arrays with values 0..3 introduced in row major order and each element equal to exactly two horizontal and vertical neighbors.",
   "id": "A198599",
   "mentions": [
     "A198604"

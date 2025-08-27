@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numerator(Bernoulli(n, 1) + 1/(n+1)).",
+  "description": "a(n) = Numerator of Bernoulli(n, 1) + 1/(n+1).",
   "id": "A174341",
   "mentions": [
     "A000045",

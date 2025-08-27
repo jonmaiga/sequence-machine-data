@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 42n - 5 and 42n + 5 are prime.",
+  "description": "Numbers k such that 42*k - 5 and 42*k + 5 are prime.",
   "id": "A172147",
   "mentions": [],
   "tags": [

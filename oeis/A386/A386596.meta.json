@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} d * pi(n/d).",
+  "id": "A386596",
+  "mentions": [
+    "A000720",
+    "A333699"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

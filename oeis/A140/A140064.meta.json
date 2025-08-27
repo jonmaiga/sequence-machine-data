@@ -1,10 +1,13 @@
 {
-  "description": "a(n) = (9*n^2 - 23*n + 16)/2.",
+  "description": "a(n) = (9*n^2 - 5*n + 2)/2.",
   "id": "A140064",
   "mentions": [
     "A000217",
     "A007318",
-    "A064226"
+    "A064226",
+    "A117625",
+    "A130883",
+    "A386478"
   ],
   "tags": [
     "easy",
@@ -12,8 +15,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 40,
+    "offset": 0,
+    "size": 57,
     "source": "joeis"
   }
 }

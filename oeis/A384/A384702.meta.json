@@ -1,0 +1,23 @@
+{
+  "description": "On a 2 X n grid of vertices, draw a circle through every unordered triple of non-collinear vertices: a(n) is the number of distinct (finite) regions created.",
+  "id": "A384702",
+  "mentions": [
+    "A359570",
+    "A372978",
+    "A374337",
+    "A374826",
+    "A384700",
+    "A384701",
+    "A384703"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

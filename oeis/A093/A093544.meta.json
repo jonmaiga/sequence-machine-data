@@ -1,11 +1,12 @@
 {
-  "description": "Numerator of (4n-3)/A000265(n). Numerator of pairwise quotients of A004130.",
+  "description": "Numerator of (4*n-3)/A000265(n). Numerator of pairwise quotients of A004130.",
   "id": "A093544",
   "mentions": [
     "A000265",
     "A004130"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

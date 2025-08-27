@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n | sigma(n) + 2.",
+  "description": "Numbers k such that k | sigma(k) + 2.",
   "id": "A056006",
   "mentions": [
     "A000079",

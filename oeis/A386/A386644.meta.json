@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = Sum_{n>=0} (A(x)^n + x)^n * x^n / n!.",
+  "id": "A386644",
+  "mentions": [
+    "A136516",
+    "A386645"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

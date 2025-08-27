@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle T(r,k) read by rows in which row r lists the partitions into distinct primes of the r-th number having such partitions, r >= 1, k >= 1.",
+  "id": "A385707",
+  "mentions": [
+    "A000586",
+    "A080577"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

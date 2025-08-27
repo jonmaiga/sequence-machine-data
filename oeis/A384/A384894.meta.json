@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x/A(-x*A(x))^2.",
+  "id": "A384894",
+  "mentions": [
+    "A000108",
+    "A213091",
+    "A213094",
+    "A213095",
+    "A384895",
+    "A384899"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

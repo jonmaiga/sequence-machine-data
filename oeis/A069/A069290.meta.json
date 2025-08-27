@@ -1,7 +1,8 @@
 {
-  "description": "Sum of square roots of square divisors of n.",
+  "description": "Sum of the square roots of the square divisors of n.",
   "id": "A069290",
   "mentions": [
+    "A000005",
     "A000188",
     "A000203",
     "A001620",

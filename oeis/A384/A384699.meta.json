@@ -1,0 +1,18 @@
+{
+  "description": "Triples of distinct primes whose sum is a perfect square ordered by increasing sum and then lexicographically.",
+  "id": "A384699",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A183168"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

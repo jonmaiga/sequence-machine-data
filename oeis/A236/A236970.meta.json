@@ -1,5 +1,5 @@
 {
-  "description": "The number of partitions of n into at least 3 parts from which we can form every partition of n into 3 parts by summing elements",
+  "description": "The number of partitions of n into at least 3 parts from which we can form every partition of n into 3 parts by summing elements.",
   "id": "A236970",
   "mentions": [
     "A000041",

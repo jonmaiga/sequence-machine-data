@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the least positive integer k such that k^2 + k + N is prime, where N is the n-th positive odd integer.",
+  "description": "a(n) = the least positive integer k such that k^2 + k + 2*n - 1 is prime.",
   "id": "A078770",
   "mentions": [],
   "tags": [

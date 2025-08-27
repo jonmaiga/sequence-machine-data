@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that for all m>n there are more than k primes between m and 2m (inclusive).",
+  "description": "Numbers k such that for all m>k there are more than n primes between m and 2m (inclusive).",
   "id": "A078754",
   "mentions": [
     "A035250"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

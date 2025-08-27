@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that q^2 < p, where p=nextprime(n), q=nextprime(square root of n).",
+  "description": "Numbers k such that q^2 < p, where p=nextprime(k), q=nextprime(square root of k).",
   "id": "A037208",
   "mentions": [
     "A151800"

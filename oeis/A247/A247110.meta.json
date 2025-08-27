@@ -1,5 +1,5 @@
 {
-  "description": "n + reversal of digits of n, when n is not palindromic",
+  "description": "n + reversal of digits of n, when n is not palindromic.",
   "id": "A247110",
   "mentions": [
     "A056964"

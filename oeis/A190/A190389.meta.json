@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 0..(n-1) with equal numbers of bit changes for every bit in the binary representation of the permutation",
+  "description": "Number of permutations of 0..(n-1) with equal numbers of bit changes for every bit in the binary representation of the permutation.",
   "id": "A190389",
   "mentions": [],
   "tags": [

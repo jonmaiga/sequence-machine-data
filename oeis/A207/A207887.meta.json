@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5Xn 0..1 arrays avoiding 0 0 0 and 1 0 1 horizontally and 0 1 1 and 1 1 0 vertically",
+  "description": "Number of 5Xn 0..1 arrays avoiding 0 0 0 and 1 0 1 horizontally and 0 1 1 and 1 1 0 vertically.",
   "id": "A207887",
   "mentions": [
     "A207885"

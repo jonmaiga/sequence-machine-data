@@ -1,7 +1,9 @@
 {
-  "description": "Numbers whose base-9 representation Sum_{i=0..m} d(i)*9^i has odd d(i) for all odd i.",
+  "description": "Numbers whose base-9 representation Sum_{i=0..m} d(i)*9^i has odd d(m-i) for all odd i.",
   "id": "A033060",
-  "mentions": [],
+  "mentions": [
+    "A032959"
+  ],
   "tags": [
     "base",
     "nonn"

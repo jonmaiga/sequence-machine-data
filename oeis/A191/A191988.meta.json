@@ -1,8 +1,8 @@
 {
-  "description": "Ordered sums 2f+5g, where f and g are Lucas numbers (A000032 beginning at 1).",
+  "description": "Ordered sums 2*f+5*g, where f and g are Lucas numbers beginning at 1 (A000204).",
   "id": "A191988",
   "mentions": [
-    "A000032",
+    "A000204",
     "A191989",
     "A191990",
     "A191991"

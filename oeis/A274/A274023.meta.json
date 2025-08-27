@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 2^(2^n) + 13.",
+  "description": "Primes of the form 2^(2^k) + 13.",
   "id": "A274023",
   "mentions": [
     "A019434",

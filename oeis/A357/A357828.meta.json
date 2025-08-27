@@ -2,9 +2,13 @@
   "description": "a(n) = Sum_{k=0..floor(n/3)} |Stirling1(n,3*k)|.",
   "id": "A357828",
   "mentions": [
+    "A000142",
+    "A001710",
     "A003703",
     "A357829",
-    "A357830"
+    "A357830",
+    "A384836",
+    "A384837"
   ],
   "tags": [
     "formulas",

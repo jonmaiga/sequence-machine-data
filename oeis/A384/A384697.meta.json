@@ -1,0 +1,16 @@
+{
+  "description": "Primes of the form floor(2^k / 5).",
+  "id": "A384697",
+  "mentions": [
+    "A383966"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

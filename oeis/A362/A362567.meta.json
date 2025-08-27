@@ -2,6 +2,7 @@
   "description": "Number of rational solutions to the S-unit equation x + y = 1, where S = {prime(i): 1 <= i <= n}.",
   "id": "A362567",
   "mentions": [
+    "A002071",
     "A361661",
     "A362593"
   ],

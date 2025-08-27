@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of zero-sum -k..k arrays of n elements with first and second differences also in -k..k",
+  "description": "T(n,k)=Number of zero-sum -k..k arrays of n elements with first and second differences also in -k..k.",
   "id": "A201873",
   "mentions": [],
   "tags": [

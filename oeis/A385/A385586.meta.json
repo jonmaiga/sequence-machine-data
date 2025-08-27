@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that there exists prime q < p such that sigma(p+1) = sigma(q+1) = p + q.",
+  "id": "A385586",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A008333",
+    "A063990",
+    "A259180",
+    "A385705",
+    "A385718"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

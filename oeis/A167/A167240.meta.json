@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to partition a 3*n X 2 grid into 6 connected equal-area regions",
+  "description": "Number of ways to partition a 3*n X 2 grid into 6 connected equal-area regions.",
   "id": "A167240",
   "mentions": [],
   "tags": [

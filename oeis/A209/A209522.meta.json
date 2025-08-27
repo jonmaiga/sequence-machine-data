@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..7 arrays with every 2X2 subblock containing exactly one value repeat, and new values 0..7 introduced in row major order",
+  "description": "Number of nX3 0..7 arrays with every 2X2 subblock containing exactly one value repeat, and new values 0..7 introduced in row major order.",
   "id": "A209522",
   "mentions": [
     "A209527"

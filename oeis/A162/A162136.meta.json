@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..4 arrays with rows and columns, considered as 5-ary numbers, in strictly increasing order",
+  "description": "Number of n X n 0..4 arrays with rows and columns, considered as 5-ary numbers, in strictly increasing order.",
   "id": "A162136",
   "mentions": [],
   "tags": [

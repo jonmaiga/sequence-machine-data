@@ -1,0 +1,35 @@
+{
+  "description": "The sum of the unitary divisors of n that are powers of 2.",
+  "id": "A385047",
+  "mentions": [
+    "A001620",
+    "A006519",
+    "A034448",
+    "A038712",
+    "A059841",
+    "A092261",
+    "A192066",
+    "A358346",
+    "A358347",
+    "A360720",
+    "A371242",
+    "A380396",
+    "A383763",
+    "A385043",
+    "A385045",
+    "A385046",
+    "A385048",
+    "A385049"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that multiplicative order of -4 modulo p is odd.",
+  "id": "A385224",
+  "mentions": [
+    "A002144",
+    "A007521",
+    "A014663",
+    "A133204",
+    "A163183",
+    "A385192",
+    "A385220",
+    "A385221",
+    "A385223",
+    "A385225",
+    "A385230"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

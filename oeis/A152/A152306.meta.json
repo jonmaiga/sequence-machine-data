@@ -1,7 +1,9 @@
 {
   "description": "a(n) = floor(log(2)*((1 + sqrt(3))/2)^n) mod 10.",
   "id": "A152306",
-  "mentions": [],
+  "mentions": [
+    "A125895"
+  ],
   "tags": [
     "base",
     "easy",

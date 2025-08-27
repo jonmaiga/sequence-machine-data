@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X6 0..2 arrays with 2X2 subblock determinants differing from horizontal neighbors and permanents differing from vertical neighbors",
+  "description": "Number of (n+1)X6 0..2 arrays with 2X2 subblock determinants differing from horizontal neighbors and permanents differing from vertical neighbors.",
   "id": "A205891",
   "mentions": [
     "A205894"

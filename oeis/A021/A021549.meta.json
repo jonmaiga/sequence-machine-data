@@ -1,14 +1,18 @@
 {
   "description": "Decimal expansion of 1/545.",
   "id": "A021549",
-  "mentions": [],
+  "mentions": [
+    "A021113"
+  ],
   "tags": [
     "cons",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 99,
+    "size": 110,
     "source": "joeis"
   }
 }

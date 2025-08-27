@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..2 arrays with each element equal to either the sum mod 3 of its horizontal and vertical neighbors or the sum mod 3 of its diagonal and antidiagonal neighbors",
+  "description": "Number of nX2 0..2 arrays with each element equal to either the sum mod 3 of its horizontal and vertical neighbors or the sum mod 3 of its diagonal and antidiagonal neighbors.",
   "id": "A183519",
   "mentions": [
     "A183526"

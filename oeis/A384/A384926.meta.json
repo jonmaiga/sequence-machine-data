@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n with six designated summands.",
+  "id": "A384926",
+  "mentions": [
+    "A000007",
+    "A000203",
+    "A000716",
+    "A002127",
+    "A002128",
+    "A365664",
+    "A365665",
+    "A385001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 21,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

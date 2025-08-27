@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by descending antidiagonals: A(n,k) is the number of fixed n-dimensional (n,2)-polyominoids, n >= 2, of size k >= 1.",
+  "id": "A385715",
+  "mentions": [
+    "A000217",
+    "A001168",
+    "A075678",
+    "A213820",
+    "A366335",
+    "A385291",
+    "A385581"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

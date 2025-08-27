@@ -2,7 +2,8 @@
   "description": "Conjectured lower bound for the number of spheres of radius 1 that can be packed in a sphere of radius n.",
   "id": "A121346",
   "mentions": [
-    "A084828"
+    "A084828",
+    "A093825"
   ],
   "tags": [
     "formulas",

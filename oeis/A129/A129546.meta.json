@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that T(n)+10 is the next prime after T(n), where T(n) = A000217(n).",
+  "description": "Numbers k such that T(k)+10 is the next prime after T(k), where T(k) = A000217(k).",
   "id": "A129546",
   "mentions": [
     "A000217",

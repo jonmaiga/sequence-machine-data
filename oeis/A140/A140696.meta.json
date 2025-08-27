@@ -2,9 +2,11 @@
   "description": "a(n) = the number of positive divisors of A140695(n).",
   "id": "A140696",
   "mentions": [
+    "A000005",
     "A140695"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

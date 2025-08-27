@@ -1,0 +1,17 @@
+{
+  "description": "Values of u in the quartets (2,u,v,w); i.e., values of u for solutions to 2*(2+u) = v*(v+w), in positive integers, with and v>m, sorted by nondecreasing values of u; see Comments.",
+  "id": "A385592",
+  "mentions": [
+    "A385182",
+    "A385593",
+    "A385594"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

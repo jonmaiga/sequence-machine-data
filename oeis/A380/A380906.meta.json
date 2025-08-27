@@ -1,5 +1,5 @@
 {
-  "description": "Primes avoiding the digits 3 and 5.",
+  "description": "Primes without {3, 5} as digits.",
   "id": "A380906",
   "mentions": [
     "A000040",

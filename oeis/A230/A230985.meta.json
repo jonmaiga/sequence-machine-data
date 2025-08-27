@@ -1,5 +1,5 @@
 {
-  "description": "Number of white square subarrays of (n+1)X(4+1) binary arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors, with upper left element zero",
+  "description": "Number of white square subarrays of (n+1)X(4+1) binary arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors, with upper left element zero.",
   "id": "A230985",
   "mentions": [
     "A230989"

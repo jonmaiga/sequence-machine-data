@@ -2,8 +2,14 @@
   "description": "Average order of an element in a cyclic group of order n rounded down.",
   "id": "A060367",
   "mentions": [
+    "A000010",
+    "A000203",
+    "A001157",
     "A018804",
-    "A057660"
+    "A057660",
+    "A065764",
+    "A065827",
+    "A253905"
   ],
   "tags": [
     "easy",
@@ -12,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 69,
     "source": "oeis-bfile"
   }
 }

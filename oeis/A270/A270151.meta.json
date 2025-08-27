@@ -1,5 +1,5 @@
 {
-  "description": "Discriminator of the Fibonacci numbers; least positive integer r such that F(2), F(3), ..., F(n+1) are all incongruent modulo r",
+  "description": "Discriminator of the Fibonacci numbers; least positive integer r such that F(2), F(3), ..., F(n+1) are all incongruent modulo r.",
   "id": "A270151",
   "mentions": [
     "A016726"

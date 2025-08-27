@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the absolute value of the coefficient [x^2] Gamma(x).",
+  "id": "A385960",
+  "mentions": [
+    "A001620",
+    "A002117",
+    "A013661",
+    "A090998",
+    "A385961",
+    "A385962"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

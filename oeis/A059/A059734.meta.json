@@ -2,6 +2,7 @@
   "description": "Carryless 11^n base 10; a(n) is carryless sum of 10*a(n-1) and a(n-1).",
   "id": "A059734",
   "mentions": [
+    "A002113",
     "A004520",
     "A006940",
     "A008975",

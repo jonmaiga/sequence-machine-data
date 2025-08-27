@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 4*n^3 - 6*n^2 + 6*n - 2 + (-1)^n.",
+  "id": "A382973",
+  "mentions": [
+    "A000578",
+    "A011934"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

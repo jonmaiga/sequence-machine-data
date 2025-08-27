@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of fractions with denominators A000215(n) approximating the Thue-Morse constant",
+  "description": "Numerators of fractions with denominators A000215(n) approximating the Thue-Morse constant.",
   "id": "A162634",
   "mentions": [
     "A000215",

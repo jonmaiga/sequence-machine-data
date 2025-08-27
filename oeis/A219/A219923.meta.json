@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=x+y (x>0, y>0) with x-1, x+1 and 2*x*y+1 all prime",
+  "description": "Number of ways to write n=x+y (x>0, y>0) with x-1, x+1 and 2*x*y+1 all prime.",
   "id": "A219923",
   "mentions": [
     "A219842",

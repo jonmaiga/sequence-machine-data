@@ -1,5 +1,5 @@
 {
-  "description": "Number of (unordered) ways of making change for n US Dollars using the current US denominations of 1$, 2$, 5$, 10$, 20$, 50$ and 100$ bills.",
+  "description": "Number of (unordered) ways of making change for n US Dollars using the current US denominations of $1, $2, $5, $10, $20, $50 and $100 bills.",
   "id": "A339094",
   "mentions": [
     "A000008",

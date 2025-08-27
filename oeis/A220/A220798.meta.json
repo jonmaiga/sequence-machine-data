@@ -1,5 +1,5 @@
 {
-  "description": "Agreement numbers: number of nX3 arrays of the count of horizontal and vertical neighbors equal to the corresponding element in a random 0..2 nX3 array",
+  "description": "Agreement numbers: number of nX3 arrays of the count of horizontal and vertical neighbors equal to the corresponding element in a random 0..2 nX3 array.",
   "id": "A220798",
   "mentions": [
     "A220800"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is the average of four consecutive primes n-7, n-1, n+1 and n+7.",
+  "description": "Numbers k such that k is the average of four consecutive primes k-7, k-1, k+1 and k+7.",
   "id": "A258879",
   "mentions": [
     "A014574",

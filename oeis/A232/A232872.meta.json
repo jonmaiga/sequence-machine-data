@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..1 arrays x(i,j) with row sums sum{j^2*x(i,j), j=1..2+1} nondecreasing, and column sums sum{i^2*x(i,j), i=1..n+1} nondecreasing",
+  "description": "Number of (n+1)X(2+1) 0..1 arrays x(i,j) with row sums sum{j^2*x(i,j), j=1..2+1} nondecreasing, and column sums sum{i^2*x(i,j), i=1..n+1} nondecreasing.",
   "id": "A232872",
   "mentions": [
     "A232877"

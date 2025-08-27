@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is a square and remains a square when its leading digit is increased by one.",
+  "description": "Numbers k such that k is a square and remains a square when its leading digit is increased by one.",
   "id": "A067225",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 28,
     "source": "joeis"
   }
 }

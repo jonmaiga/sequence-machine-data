@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+3)X(4+3) 0..1 arrays with no 4x4 subblock diagonal sum less than the antidiagonal sum",
+  "description": "Number of (n+3)X(4+3) 0..1 arrays with no 4x4 subblock diagonal sum less than the antidiagonal sum.",
   "id": "A258688",
   "mentions": [
     "A258689"

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} |Stirling1(n,k)| * (n!/k!)^2.",
+  "id": "A385751",
+  "mentions": [
+    "A001620",
+    "A119390",
+    "A320502",
+    "A385750",
+    "A385752"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

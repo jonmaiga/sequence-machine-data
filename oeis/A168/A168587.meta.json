@@ -1,5 +1,5 @@
 {
-  "description": "Smallest digit sum of an n-digit prime with only digits 0 add 1 (or 0, if no such prime exists).",
+  "description": "Smallest digit sum of an n-digit prime with only digits 0 and 1 (or 0, if no such prime exists).",
   "id": "A168587",
   "mentions": [
     "A062339",

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest 2*n + 1 digit prime consisting of a string of 2*n - 1 identical digits d sandwiched between two same digits different from d, or -1 if no such prime exists.",
+  "id": "A385144",
+  "mentions": [
+    "A384979"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

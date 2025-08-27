@@ -1,5 +1,5 @@
 {
-  "description": "{a(n)} = sequence of smallest positive integers such that sqrt(1 + sum_{n=1..inf} a(n)*p_n*x^n) = A079160(x), a power series also having positive integer coefficients, where p_n is the n-th prime.",
+  "description": "{a(n)} = sequence of smallest positive integers such that sqrt(1 + Sum_{n>=1} a(n)*p_n*x^n) = A079160(x), a power series also having positive integer coefficients, where p_n is the n-th prime.",
   "id": "A079159",
   "mentions": [
     "A079160",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 60,
     "source": "oeis-entry"
   }
 }

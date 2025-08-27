@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest integer k such that A385392(k) = n.",
+  "id": "A385499",
+  "mentions": [
+    "A384237",
+    "A384781",
+    "A384854",
+    "A385100",
+    "A385391",
+    "A385392"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

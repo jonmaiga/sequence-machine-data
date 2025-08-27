@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with exactly one even decimal digit in prime(n).",
+  "description": "Numbers k with exactly one even decimal digit in prime(k).",
   "id": "A154766",
   "mentions": [
     "A154758"
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes whose decimal digits are integer powers of 2.",
+  "description": "Primes having only {1, 2, 4, 8} as digits.",
   "id": "A383371",
   "mentions": [
     "A000040",

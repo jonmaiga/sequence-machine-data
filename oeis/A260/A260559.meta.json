@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n^31+1)/(n+1) is prime.",
+  "description": "Numbers k such that (k^31+1)/(k+1) is prime.",
   "id": "A260559",
   "mentions": [
     "A055494",

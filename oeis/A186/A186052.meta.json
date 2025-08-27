@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays with each 3X3 subblock singular",
+  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays with each 3X3 subblock singular.",
   "id": "A186052",
   "mentions": [],
   "tags": [

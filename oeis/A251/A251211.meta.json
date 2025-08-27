@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..1 arrays with no 2X2 subblock having zero or two 1s",
+  "description": "Number of (n+1)X(n+1) 0..1 arrays with no 2X2 subblock having zero or two 1s.",
   "id": "A251211",
   "mentions": [
     "A251219"

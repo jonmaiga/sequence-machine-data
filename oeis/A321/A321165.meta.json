@@ -1,5 +1,5 @@
 {
-  "description": "Sum of distinct products i*j with 1 <= i, j <= n",
+  "description": "Sum of distinct products i*j with 1 <= i, j <= n.",
   "id": "A321165",
   "mentions": [
     "A027424",

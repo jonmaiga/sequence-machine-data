@@ -1,7 +1,9 @@
 {
-  "description": "Number of unlabeled graphs on n vertices with no induced subgraphs isomorphic to a P5 or complement of a P5 (P5 = path on 5 vertices.).",
+  "description": "Number of unlabeled connected simple graphs on n vertices with no induced subgraphs isomorphic to a P5 or complement of a P5 (P5 = path on 5 vertices.).",
   "id": "A079564",
-  "mentions": [],
+  "mentions": [
+    "A385697"
+  ],
   "tags": [
     "more",
     "nonn"

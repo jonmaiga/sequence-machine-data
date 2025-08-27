@@ -2,6 +2,7 @@
   "description": "Sum of even indices of distinct prime factors of n divided by 2.",
   "id": "A366784",
   "mentions": [
+    "A000720",
     "A066208",
     "A066328",
     "A324967",
@@ -17,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

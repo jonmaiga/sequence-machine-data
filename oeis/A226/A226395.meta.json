@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing -4..4 vectors of length n whose dot product with some nonincreasing -4..4 vector equals n",
+  "description": "Number of nondecreasing -4..4 vectors of length n whose dot product with some nonincreasing -4..4 vector equals n.",
   "id": "A226395",
   "mentions": [
     "A226398"

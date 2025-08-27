@@ -1,18 +1,21 @@
 {
-  "description": "Numbers n such that n!/n#-1 and n!/n#+1 is a twin prime pair.",
+  "description": "Numbers k such that k!/k#-1 and k!/k#+1 are a twin prime pair.",
   "id": "A140315",
   "mentions": [
+    "A001097",
     "A034386",
+    "A049614",
     "A140293",
     "A140294"
   ],
   "tags": [
     "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 4,
+    "offset": 1,
     "size": 6,
     "source": "oeis-entry"
   }

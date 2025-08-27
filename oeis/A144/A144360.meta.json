@@ -13,14 +13,17 @@
     "A144245",
     "A144246",
     "A144247",
-    "A144313"
+    "A144313",
+    "A217381",
+    "A253211"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Two-loop graph coloring a rectangular array: number of nX5 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph",
+  "description": "Two-loop graph coloring a rectangular array: number of nX5 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.",
   "id": "A223252",
   "mentions": [
     "A223255"

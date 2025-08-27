@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(7+2) 0..2 arrays with no 3x3 subblock diagonal sum less than the antidiagonal sum or central row sum less than the central column sum",
+  "description": "Number of (n+2)X(7+2) 0..2 arrays with no 3x3 subblock diagonal sum less than the antidiagonal sum or central row sum less than the central column sum.",
   "id": "A258611",
   "mentions": [
     "A258612"

@@ -1,5 +1,5 @@
 {
-  "description": "Majority value maps: number of nX6 binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal and antidiagonal neighbors in a random 0..3 nX6 array",
+  "description": "Majority value maps: number of nX6 binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal and antidiagonal neighbors in a random 0..3 nX6 array.",
   "id": "A221497",
   "mentions": [
     "A221499"

@@ -2,9 +2,12 @@
   "description": "Sum of the coordinates of all pairs of divisors of n, (d1,d2), such that d1 < d2.",
   "id": "A337297",
   "mentions": [
+    "A000005",
+    "A000203",
     "A066446",
     "A184389",
-    "A337246"
+    "A337246",
+    "A337360"
   ],
   "tags": [
     "easy",

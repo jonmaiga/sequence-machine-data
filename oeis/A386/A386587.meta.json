@@ -1,0 +1,52 @@
+{
+  "description": "Number of ways to choose a pairwise disjoint family of strict integer partitions, one of each exponent in the prime factorization of n.",
+  "id": "A386587",
+  "mentions": [
+    "A000110",
+    "A000670",
+    "A001221",
+    "A001222",
+    "A003242",
+    "A008480",
+    "A025065",
+    "A051903",
+    "A051904",
+    "A056239",
+    "A130091",
+    "A239455",
+    "A279790",
+    "A325534",
+    "A325535",
+    "A333489",
+    "A335433",
+    "A335448",
+    "A335452",
+    "A336106",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A373957",
+    "A381432",
+    "A381433",
+    "A382525",
+    "A382775",
+    "A386575",
+    "A386580",
+    "A386582",
+    "A386583",
+    "A386584",
+    "A386632",
+    "A386633",
+    "A386634",
+    "A386635",
+    "A386636"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

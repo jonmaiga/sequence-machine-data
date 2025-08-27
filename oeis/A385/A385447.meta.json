@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(8 + 9*phi), with the golden section A001622.",
+  "id": "A385447",
+  "mentions": [
+    "A001622",
+    "A182007",
+    "A385445",
+    "A385446"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

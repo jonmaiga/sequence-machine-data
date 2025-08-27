@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array T read by rows: T(n, 0) = T(n, n) = 1, T(n, k) = 0 for 0 <= k <= n.",
+  "description": "Triangular array T read by rows: T(n, 0) = T(n, n) = 1, T(n, k) = 0 for 0 < k < n.",
   "id": "A103451",
   "mentions": [
     "A007318",

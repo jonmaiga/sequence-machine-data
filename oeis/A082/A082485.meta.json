@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1/(2-s(n)) is an integer where s(k)=sum(i=1,k,1/3^floor(sqrt(i))).",
+  "description": "Numbers k such that 1/(2-s(k)) is an integer where s(k) = Sum_{i=1..k} 1/3^floor(sqrt(i)).",
   "id": "A082485",
   "mentions": [],
   "tags": [

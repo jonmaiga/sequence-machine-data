@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( arctanh(x * A(x)) / A(x) ).",
+  "id": "A385502",
+  "mentions": [
+    "A111594",
+    "A385428",
+    "A385500",
+    "A385501"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

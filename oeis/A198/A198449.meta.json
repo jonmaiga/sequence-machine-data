@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2nX6 0..2 arrays with values 0..2 introduced in row major order and each element unequal to exactly two horizontal and vertical neighbors",
+  "description": "Number of 2nX6 0..2 arrays with values 0..2 introduced in row major order and each element unequal to exactly two horizontal and vertical neighbors.",
   "id": "A198449",
   "mentions": [
     "A198452"

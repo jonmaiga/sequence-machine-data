@@ -2,6 +2,7 @@
   "description": "2*3*5*6*...*a(n) -+ 1 are primes, with a(n+1) > a(n).",
   "id": "A087900",
   "mentions": [
+    "A036014",
     "A087901"
   ],
   "tags": [
@@ -9,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
-    "source": "oeis-entry"
+    "size": 48,
+    "source": "oeis-bfile"
   }
 }

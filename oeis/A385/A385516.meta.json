@@ -1,0 +1,23 @@
+{
+  "description": "Perfect powers whose digits are in strictly decreasing order.",
+  "id": "A385516",
+  "mentions": [
+    "A001597",
+    "A009995",
+    "A355060",
+    "A355062",
+    "A355063",
+    "A385517"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

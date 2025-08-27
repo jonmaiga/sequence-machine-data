@@ -1,0 +1,21 @@
+{
+  "description": "Number of functions f(x) = b*x+c with nonnegative integer coefficients and a shortest addition-composition chain of length n, starting with 1 and x.",
+  "id": "A384482",
+  "mentions": [
+    "A383331",
+    "A384382",
+    "A384383",
+    "A384480",
+    "A384481",
+    "A384485"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

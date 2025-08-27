@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..n arrays x(0..4) of 5 elements with nondecreasing average value",
+  "description": "Number of 0..n arrays x(0..4) of 5 elements with nondecreasing average value.",
   "id": "A200765",
   "mentions": [
     "A200763"

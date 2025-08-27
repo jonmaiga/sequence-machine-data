@@ -1,19 +1,17 @@
 {
-  "description": "a(n) = 1 if A339792(n) is -1, otherwise 0, where A339792(n) is the third coefficient of the lindep transform of sigma.",
+  "description": "Maximum number of prime polyomino factors of an n-polyomino.",
   "id": "A380455",
   "mentions": [
-    "A000203",
-    "A010051",
-    "A339792",
-    "A380456"
+    "A342430"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 127,
-    "source": "oeis-bfile"
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
   }
 }

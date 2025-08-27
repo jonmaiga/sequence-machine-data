@@ -1,5 +1,5 @@
 {
-  "description": "Equals one maps: number of nX3 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal and vertical neighbors in a random 0..1 nX3 array",
+  "description": "Equals one maps: number of nX3 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal and vertical neighbors in a random 0..1 nX3 array.",
   "id": "A220284",
   "mentions": [
     "A220287"

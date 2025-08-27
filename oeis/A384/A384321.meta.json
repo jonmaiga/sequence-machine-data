@@ -1,5 +1,5 @@
 {
-  "description": "Heinz numbers of integer partitions with at least one proper way to choose disjoint strict partitions of each part.",
+  "description": "Numbers whose distinct prime indices are not maximally refined.",
   "id": "A384321",
   "mentions": [
     "A048767",
@@ -27,13 +27,8 @@
     "A381433",
     "A381454",
     "A382525",
-    "A382912",
-    "A382913",
-    "A383533",
     "A383706",
     "A383707",
-    "A383708",
-    "A383710",
     "A384005",
     "A384317",
     "A384318",

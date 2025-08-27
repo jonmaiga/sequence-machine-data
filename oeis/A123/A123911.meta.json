@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that if you multiply the primes that are indexed by the digits of n and add the sum of digits of n you get n.",
+  "description": "Numbers k such that if you multiply the primes that are indexed by the digits of k and add the sum of digits of k you get k.",
   "id": "A123911",
   "mentions": [],
   "tags": [

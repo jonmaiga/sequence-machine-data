@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = H(n)*n!/(floor(n/2))!, where H(n) = sum{k=1 to n} 1/k, the n-th harmonic number.",
+  "description": "a(n) = H(n)*n!/(floor(n/2))!, where H(n) = Sum_{k=1..n} 1/k, the n-th harmonic number.",
   "id": "A124078",
   "mentions": [
     "A123989",

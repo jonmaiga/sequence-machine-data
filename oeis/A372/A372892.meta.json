@@ -2,8 +2,12 @@
   "description": "Total number of unlabeled simple maps on the sphere with n vertices.",
   "id": "A372892",
   "mentions": [
+    "A006395",
     "A372853",
-    "A372854"
+    "A372854",
+    "A384850",
+    "A384963",
+    "A384965"
   ],
   "tags": [
     "more",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

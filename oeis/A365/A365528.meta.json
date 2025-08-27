@@ -2,6 +2,9 @@
   "description": "a(n) = Sum_{k=0..floor(n/5)} Stirling2(n,5*k).",
   "id": "A365528",
   "mentions": [
+    "A024430",
+    "A143815",
+    "A365525",
     "A365529",
     "A365530",
     "A365531",

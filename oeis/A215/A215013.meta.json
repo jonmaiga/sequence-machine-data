@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that theta(p)/p < theta(q)/q for all primes q > p, where theta(x) = log(x#)/x is Chebyshev's theta function and x# is the product of primes <= x, A034386(x).",
+  "description": "Primes p such that theta(p)/p < theta(q)/q for all primes q > p, where theta(x) = log(x#) is Chebyshev's theta function and x# is the product of primes <= x, A034386(x).",
   "id": "A215013",
   "mentions": [
     "A034386",

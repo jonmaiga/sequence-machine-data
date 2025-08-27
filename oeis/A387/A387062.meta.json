@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = number of wiggly permutations |W_n|.",
+  "id": "A387062",
+  "mentions": [
+    "A344654"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the k-th prime, such that abs(prime(k) - Sum_{j=k-2..k+2} prime(j)) sets a new record. A337438 are the corresponding values of k.",
+  "description": "a(n) is the k-th prime, such that abs(prime(k) - Sum_{j=k-2..k+2} prime(j)/5) sets a new record.",
   "id": "A337439",
   "mentions": [
     "A034964",

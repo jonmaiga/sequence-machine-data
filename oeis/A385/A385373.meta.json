@@ -1,0 +1,21 @@
+{
+  "description": "Number of solid partitions with multiplicities (1, ..., n).",
+  "id": "A385373",
+  "mentions": [
+    "A000217",
+    "A000219",
+    "A000293",
+    "A164894",
+    "A379277"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

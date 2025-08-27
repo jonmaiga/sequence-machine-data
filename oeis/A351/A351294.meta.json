@@ -1,5 +1,5 @@
 {
-  "description": "Heinz numbers of Look-and-Say partitions. Numbers whose multiset of prime factors has at least one permutation with all distinct run-lengths.",
+  "description": "Numbers whose multiset of prime factors has at least one permutation with all distinct run-lengths.",
   "id": "A351294",
   "mentions": [
     "A000569",

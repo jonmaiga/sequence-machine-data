@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of f(x^9, x^15) / f(-x^2, -x^4) in powers of x where f(, ) is the Ramanujan general theta function",
+  "description": "Expansion of f(x^9, x^15) / f(-x^2, -x^4) in powers of x where f(, ) is the Ramanujan general theta function.",
   "id": "A262064",
   "mentions": [
     "A000122",

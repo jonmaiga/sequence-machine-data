@@ -7,7 +7,8 @@
     "A155205",
     "A155206",
     "A155208",
-    "A155812"
+    "A155812",
+    "A202989"
   ],
   "tags": [
     "formulas",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

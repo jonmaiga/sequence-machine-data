@@ -1,5 +1,5 @@
 {
-  "description": "1/3 the number of n X n 0..2 arrays with no element equal both to the element above and to the element to its left",
+  "description": "1/3 the number of n X n 0..2 arrays with no element equal both to the element above and to the element to its left.",
   "id": "A184687",
   "mentions": [
     "A184694"

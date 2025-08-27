@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = -(A(x^3) + A(x^4)) / A(-x^2).",
+  "id": "A385915",
+  "mentions": [
+    "A385908"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

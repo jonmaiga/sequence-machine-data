@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays of length n with each element unequal to at least one neighbor, with new values introduced in 0..k order",
+  "description": "T(n,k)=Number of 0..k arrays of length n with each element unequal to at least one neighbor, with new values introduced in 0..k order.",
   "id": "A221459",
   "mentions": [
     "A000045",

@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 2*11^k-1.",
+  "id": "A120377",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A002957",
+    "A002959",
+    "A003307",
+    "A055558",
+    "A057472",
+    "A079363",
+    "A120378"
+  ],
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

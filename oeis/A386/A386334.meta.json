@@ -1,0 +1,22 @@
+{
+  "description": "Primes without {1, 8} as digits.",
+  "id": "A386334",
+  "mentions": [
+    "A000040",
+    "A020456",
+    "A038603",
+    "A038616",
+    "A154761",
+    "A385776"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

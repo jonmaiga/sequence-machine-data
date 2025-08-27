@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the n-th number which can be represented as the sum of n distinct n-almost primes in exactly n ways, or -1 if fewer than n such numbers exist.",
+  "id": "A384842",
+  "mentions": [
+    "A091538",
+    "A365494"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A positive integer n is included if the binary representation of the number of divisors of n occurs in the binary representation of n at least once.",
+  "description": "A positive integer k is included if the binary representation of the number of divisors of k occurs in the binary representation of k at least once.",
   "id": "A143263",
   "mentions": [
     "A143262",

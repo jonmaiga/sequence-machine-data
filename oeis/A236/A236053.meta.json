@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..2 arrays colored with the difference of the maximum and minimum in each 2X2 subblock",
+  "description": "Number of (n+1)X(6+1) 0..2 arrays colored with the difference of the maximum and minimum in each 2X2 subblock.",
   "id": "A236053",
   "mentions": [
     "A236055"

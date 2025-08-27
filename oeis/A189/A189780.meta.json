@@ -1,14 +1,18 @@
 {
-  "description": "E.g.f.: 1/(1-arcsin(x)).",
+  "description": "Expansion of e.g.f. 1/(1 - arcsin(x)).",
   "id": "A189780",
-  "mentions": [],
+  "mentions": [
+    "A385343",
+    "A385346",
+    "A385347"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 23,
     "source": "joeis"
   }
 }

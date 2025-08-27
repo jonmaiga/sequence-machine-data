@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[Exp[(Composite[n]-Sqrt[Composite[n]*CompositePi[n]])/(-CompositePi[n]+ Sqrt[Composite[n]*CompositePi[n]])]]",
+  "description": "a(n) = Floor[Exp[(Composite[n]-Sqrt[Composite[n]*CompositePi[n]])/(-CompositePi[n]+ Sqrt[Composite[n]*CompositePi[n]])]].",
   "id": "A089997",
   "mentions": [],
   "tags": [

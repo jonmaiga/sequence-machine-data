@@ -1,11 +1,13 @@
 {
-  "description": "E.g.f. satisfies: A(x) = exp( x*A(2x)^2 ).",
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x*A(2*x)^2 ).",
   "id": "A168600",
   "mentions": [
     "A096538",
-    "A168601"
+    "A168601",
+    "A360987"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

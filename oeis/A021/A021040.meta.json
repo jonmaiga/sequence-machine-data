@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/36.",
   "id": "A021040",
-  "mentions": [],
+  "mentions": [
+    "A010727"
+  ],
   "tags": [
     "cons",
     "easy",

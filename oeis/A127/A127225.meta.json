@@ -3,16 +3,14 @@
   "id": "A127225",
   "mentions": [
     "A127223",
-    "A127224",
-    "A127226"
+    "A127224"
   ],
   "tags": [
-    "bref",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 4,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

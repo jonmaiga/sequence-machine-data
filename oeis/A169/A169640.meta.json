@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of digits of the n-th prime = the sum of digits of the n-th semiprime.",
+  "description": "Numbers k such that sum of digits of the k-th prime = the sum of digits of the k-th semiprime.",
   "id": "A169640",
   "mentions": [
     "A000040",

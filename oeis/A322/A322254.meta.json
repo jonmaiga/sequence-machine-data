@@ -1,7 +1,9 @@
 {
-  "description": "Larger number of dihedral amicable pairs: numbers (m, n) such that t(m) = t(n) = m + n, where t(n) = sigma(n) + d(n).",
+  "description": "Greater members of dihedral amicable pairs: numbers (m, k) such that t(m) = t(k) = m + k, where t(k) = sigma(k) + d(k).",
   "id": "A322254",
   "mentions": [
+    "A000005",
+    "A000203",
     "A007503",
     "A083874",
     "A222857",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

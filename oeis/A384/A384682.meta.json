@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (5/6)*phi = 5*(1 + sqrt(5))/12, where phi is the golden ratio.",
+  "id": "A384682",
+  "mentions": [
+    "A001622",
+    "A021016",
+    "A134944",
+    "A134946",
+    "A384238"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric 0..3 arrays with rows, considered as 4-ary numbers, in nondecreasing order",
+  "description": "Number of n X n symmetric 0..3 arrays with rows, considered as 4-ary numbers, in nondecreasing order.",
   "id": "A162079",
   "mentions": [],
   "tags": [

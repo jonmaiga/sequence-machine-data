@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = [A047999(n, k) = 1 or A385456(n, k) = 1], where [.] is the Iverson bracket.",
+  "id": "A385395",
+  "mentions": [
+    "A047999",
+    "A385456"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows of coefficients in expansions of (-2 + 3x)^n, where n is nonnegative integer.",
+  "description": "Triangle read by rows of coefficients in expansions of (-2 + 3*x)^n, where n is nonnegative integer.",
   "id": "A317498",
   "mentions": [
     "A000012",

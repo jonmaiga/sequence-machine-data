@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into central binomial coefficients A001405 where every part appears at least 5 times",
+  "description": "Number of partitions of n into central binomial coefficients A001405 where every part appears at least 5 times.",
   "id": "A161244",
   "mentions": [
     "A001405"

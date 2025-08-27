@@ -1,5 +1,5 @@
 {
-  "description": "C(6n+1,n).",
+  "description": "a(n) = C(6*n+1,n).",
   "id": "A079590",
   "mentions": [
     "A052203"

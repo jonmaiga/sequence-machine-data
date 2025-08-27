@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(n, k) mod 5).",
+  "id": "A385825",
+  "mentions": [
+    "A001316",
+    "A051638",
+    "A095140",
+    "A384715",
+    "A385285",
+    "A385741"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

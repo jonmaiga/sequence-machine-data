@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (log(2*Pi)-1)/2 + gamma.",
+  "id": "A386518",
+  "mentions": [
+    "A001620",
+    "A122914"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n*(2*n+5)*(2*n+7).",
   "id": "A035329",
-  "mentions": [],
+  "mentions": [
+    "A020742",
+    "A033537"
+  ],
   "tags": [
     "easy",
     "formulas",

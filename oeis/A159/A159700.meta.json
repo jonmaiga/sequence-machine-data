@@ -1,5 +1,5 @@
 {
-  "description": "Number of different pairs of primes p,q such that : p<(q-2), p is a twin prime of p-2 or p+2 and q is a twin prime of q-2 or q+2, 2*n=p+q",
+  "description": "Number of different pairs of primes p,q such that : p<(q-2), p is a twin prime of p-2 or p+2 and q is a twin prime of q-2 or q+2, 2*n=p+q.",
   "id": "A159700",
   "mentions": [
     "A164292"

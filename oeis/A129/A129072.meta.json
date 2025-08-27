@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n-13)/12 is prime.",
+  "description": "Numbers k such that (k-13)/12 is prime.",
   "id": "A129072",
   "mentions": [
     "A000040"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n = p+q with p, 6q-1 and 6q+1 all prime",
+  "description": "Number of ways to write n = p+q with p, 6q-1 and 6q+1 all prime.",
   "id": "A199800",
   "mentions": [
     "A001359",

@@ -2,15 +2,17 @@
   "description": "Positions of nonpositive numbers in the ordering of the rational numbers at A226247.",
   "id": "A226249",
   "mentions": [
+    "A005374",
     "A226247"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

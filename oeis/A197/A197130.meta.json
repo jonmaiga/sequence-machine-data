@@ -1,5 +1,5 @@
 {
-  "description": "Sum of reflection (or absolute) lengths of all elements in the Coxeter group of type B_n",
+  "description": "Sum of reflection (or absolute) lengths of all elements in the Coxeter group of type B_n.",
   "id": "A197130",
   "mentions": [
     "A067318",

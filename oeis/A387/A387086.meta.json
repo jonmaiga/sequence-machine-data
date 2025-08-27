@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of B(x)/sqrt(1 + 2*(B(x)-1)), where B(x) is the g.f. of A000984.",
+  "id": "A387086",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A183161",
+    "A208977",
+    "A387084",
+    "A387085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

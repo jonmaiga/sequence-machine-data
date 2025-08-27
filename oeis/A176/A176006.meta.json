@@ -2,6 +2,7 @@
   "description": "The number of branching configurations of RNA (see Sankoff, 1985) with n or fewer hairpins.",
   "id": "A176006",
   "mentions": [
+    "A006318",
     "A155069",
     "A196265"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Ratio of (2n-1)! to number of zeros in lower part of Sylvester matrix for polynomial of degree n with all nonzero coefficients.",
+  "description": "Ratio of (2*n-1)! to number of zeros in lower part of Sylvester matrix for polynomial of degree n with all nonzero coefficients.",
   "id": "A138898",
   "mentions": [
     "A002378",
@@ -8,6 +8,7 @@
     "A138896"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

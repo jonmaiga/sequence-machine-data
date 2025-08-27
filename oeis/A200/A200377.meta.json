@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: A(x) = exp( Sum_{n>=1} [Sum_{k=0..2*n} A027907(n,k)^2 * x^k / A(x)^k]* x^n/n ).",
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} (Sum_{k=0..2*n} A027907(n,k)^2 * x^k / A(x)^k) * x^n/n ).",
   "id": "A200377",
   "mentions": [
     "A027907",

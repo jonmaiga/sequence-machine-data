@@ -1,0 +1,23 @@
+{
+  "description": "Place a point on the integer coordinates, up to |n|, along all four axial directions on a Cartesian plane, and then join a circle through every unordered triple of non-collinear points: a(n) is the number of distinct circles created.",
+  "id": "A385159",
+  "mentions": [
+    "A361622",
+    "A365669",
+    "A372735",
+    "A373110",
+    "A384700",
+    "A385160",
+    "A385161",
+    "A385162"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

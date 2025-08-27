@@ -2,9 +2,12 @@
   "description": "Results of strip bijection as described in A307110 with additional application of local repairs to reduce the maximum wobbling distance S from S1=cos(Pi/8) to S2=sqrt(5)*sin(Pi/8).",
   "id": "A307731",
   "mentions": [
+    "A144981",
     "A305575",
     "A305576",
-    "A307110"
+    "A307110",
+    "A367150",
+    "A386241"
   ],
   "tags": [
     "nonn"

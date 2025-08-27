@@ -1,5 +1,5 @@
 {
-  "description": "Positive integer values of n such that 6n^2-5 is a square.",
+  "description": "Positive integer values of n such that 6*n^2-5 is a square.",
   "id": "A080806",
   "mentions": [
     "A001079",

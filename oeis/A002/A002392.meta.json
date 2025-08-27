@@ -2,10 +2,13 @@
   "description": "Decimal expansion of natural logarithm of 10.",
   "id": "A002392",
   "mentions": [
+    "A002162",
+    "A016628",
     "A016738"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX1 0..7 arrays with every element value z a city block distance of exactly z from another element value z",
+  "description": "Number of nX1 0..7 arrays with every element value z a city block distance of exactly z from another element value z.",
   "id": "A209216",
   "mentions": [
     "A209218"

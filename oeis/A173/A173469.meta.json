@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of length n that can be sorted in 2^(n-1)-1 steps of Elizalde and Winkler's homing algorithm",
+  "description": "Number of permutations of length n that can be sorted in 2^(n-1)-1 steps of Elizalde and Winkler's homing algorithm.",
   "id": "A173469",
   "mentions": [],
   "tags": [

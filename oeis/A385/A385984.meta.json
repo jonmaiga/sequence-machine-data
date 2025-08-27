@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (-2)^k * binomial(n-1,k) * a(k) * a(n-1-k).",
+  "id": "A385984",
+  "mentions": [
+    "A000142",
+    "A126444",
+    "A155585",
+    "A385983"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -2,10 +2,14 @@
   "description": "Values of k such that 4^x + 4^y + 4^z = k^2 with arbitrary integers x <= y <= z.",
   "id": "A173195",
   "mentions": [
+    "A000267",
     "A018900",
-    "A263132"
+    "A138099",
+    "A263132",
+    "A384688"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

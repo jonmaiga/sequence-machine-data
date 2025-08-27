@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing sequences of n 1..k integers with every element dividing the sequence sum",
+  "description": "T(n,k)=Number of nondecreasing sequences of n 1..k integers with every element dividing the sequence sum.",
   "id": "A212536",
   "mentions": [
     "A000212",

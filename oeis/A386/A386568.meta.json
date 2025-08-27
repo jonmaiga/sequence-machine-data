@@ -1,0 +1,21 @@
+{
+  "description": "The number of binary self numbers not exceeding 10^n.",
+  "id": "A386568",
+  "mentions": [
+    "A010061",
+    "A242403",
+    "A382452",
+    "A386569"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

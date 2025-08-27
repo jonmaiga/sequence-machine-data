@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that numerator of Bernoulli(n)/n is (apart from sign) prime.",
+  "description": "Numbers k such that the numerator of Bernoulli(k)/k is (apart from sign) prime.",
   "id": "A112548",
   "mentions": [
     "A001067",

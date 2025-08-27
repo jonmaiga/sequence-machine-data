@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)(1-x^7)(1-x^8)).",
+  "description": "Expansion of 1/((1-x)*(1-x^7)*(1-x^8)).",
   "id": "A025784",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 62,
+    "size": 72,
     "source": "joeis"
   }
 }

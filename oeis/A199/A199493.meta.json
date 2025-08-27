@@ -1,5 +1,5 @@
 {
-  "description": "2*8^n+1.",
+  "description": "a(n) = 2*8^n+1.",
   "id": "A199493",
   "mentions": [
     "A087289",

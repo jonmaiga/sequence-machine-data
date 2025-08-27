@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 10 * n^2 + 7.",
+  "description": "Primes of the form 10 * k^2 + 7.",
   "id": "A195905",
   "mentions": [
     "A000040",

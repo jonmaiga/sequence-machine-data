@@ -1,9 +1,10 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = 1 + 9x*A(x)^(1/3).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + 9*x*A(x)^(1/3).",
   "id": "A135864",
   "mentions": [
     "A135863",
-    "A135866"
+    "A135866",
+    "A214668"
   ],
   "tags": [
     "formulas",

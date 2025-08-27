@@ -2,6 +2,11 @@
   "description": "17th powers: a(n) = n^17.",
   "id": "A010805",
   "mentions": [
+    "A000290",
+    "A000578",
+    "A000583",
+    "A001016",
+    "A008456",
     "A013675"
   ],
   "tags": [
@@ -12,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 18,
     "source": "joeis"
   }
 }

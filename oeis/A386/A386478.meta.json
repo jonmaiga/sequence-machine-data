@@ -1,0 +1,22 @@
+{
+  "description": "Array read by upward antidiagonals: T(k,n) = 1 (k = 0, n >= 0), T(k,n) = k^2*n^2/2 - (3*k-4)*n/2 + 1 (k >= 1, n >= 0).",
+  "id": "A386478",
+  "mentions": [
+    "A000124",
+    "A080856",
+    "A130883",
+    "A140064",
+    "A152948",
+    "A383465",
+    "A386479"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

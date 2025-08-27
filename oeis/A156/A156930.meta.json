@@ -1,5 +1,5 @@
 {
-  "description": "G.f. of the z^3 coefficients of the FP1 in the fourth column of the A156921 matrix",
+  "description": "G.f. of the z^3 coefficients of the FP1 in the fourth column of the A156921 matrix.",
   "id": "A156930",
   "mentions": [
     "A156921",

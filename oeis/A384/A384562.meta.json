@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer partitions of n with origin-to-boundary graph-distance equal to 4.",
+  "id": "A384562",
+  "mentions": [
+    "A130130",
+    "A325168",
+    "A325188",
+    "A382682"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Equals two maps: number of nX5 binary arrays indicating the locations of corresponding elements equal to exactly two of their king-move neighbors in a random 0..1 nX5 array",
+  "description": "Equals two maps: number of nX5 binary arrays indicating the locations of corresponding elements equal to exactly two of their king-move neighbors in a random 0..1 nX5 array.",
   "id": "A220246",
   "mentions": [
     "A220247"

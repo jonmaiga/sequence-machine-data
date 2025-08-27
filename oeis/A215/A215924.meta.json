@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of diagonal and antidiagonal neighbor colorings of the odd squares of an nXk array with new integer colors introduced in row major order",
+  "description": "T(n,k)=Number of diagonal and antidiagonal neighbor colorings of the odd squares of an nXk array with new integer colors introduced in row major order.",
   "id": "A215924",
   "mentions": [
     "A000110",

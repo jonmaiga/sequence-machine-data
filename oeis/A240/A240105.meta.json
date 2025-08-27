@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 2n^k + 1, for k = 2..7, are prime.",
+  "description": "Integers m such that 2*m^k + 1, for k = 2..7, are prime.",
   "id": "A240105",
   "mentions": [
     "A089001",
@@ -9,12 +9,11 @@
     "A240099"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

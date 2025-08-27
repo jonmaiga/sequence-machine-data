@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..1 arrays x(i,j) with row sums sum{j^3*x(i,j), j=1..5+1} nondecreasing, and column sums sum{i^3*x(i,j), i=1..n+1} nondecreasing",
+  "description": "Number of (n+1)X(5+1) 0..1 arrays x(i,j) with row sums sum{j^3*x(i,j), j=1..5+1} nondecreasing, and column sums sum{i^3*x(i,j), i=1..n+1} nondecreasing.",
   "id": "A232858",
   "mentions": [
     "A232860"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (Sum_{k=0..n} (binomial(n, k) mod 4)) / 2^bitcount(n).",
+  "id": "A385393",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A384715",
+    "A385394"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

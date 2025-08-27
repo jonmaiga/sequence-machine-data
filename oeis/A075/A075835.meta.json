@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 13*n^2 + 4 is a square.",
+  "description": "Numbers k such that 13*k^2 + 4 is a square.",
   "id": "A075835",
   "mentions": [
     "A006190"

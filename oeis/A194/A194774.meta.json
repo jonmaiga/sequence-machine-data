@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an (n+6)X(n+6) 0..4 array with new values introduced in row major order 0..4 and no element unequal to more than one horizontal or vertical neighbor",
+  "description": "Number of lower triangles of an (n+6)X(n+6) 0..4 array with new values introduced in row major order 0..4 and no element unequal to more than one horizontal or vertical neighbor.",
   "id": "A194774",
   "mentions": [
     "A194778"

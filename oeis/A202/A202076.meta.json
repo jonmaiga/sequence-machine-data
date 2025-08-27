@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of arrays of n+2 integers in -k..k with sum zero and the sum of every adjacent pair being odd",
+  "description": "T(n,k)=Number of arrays of n+2 integers in -k..k with sum zero and the sum of every adjacent pair being odd.",
   "id": "A202076",
   "mentions": [
     "A002492",

@@ -1,13 +1,15 @@
 {
-  "description": "Trajectory of 1 under map n->21n+1 if n odd, n->n/2 if n even",
+  "description": "Trajectory of 1 under map n->21n+1 if n odd, n->n/2 if n even.",
   "id": "A033967",
-  "mentions": [],
+  "mentions": [
+    "A037108"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 37,
     "source": "joeis"
   }
 }

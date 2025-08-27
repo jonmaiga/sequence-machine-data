@@ -1,0 +1,22 @@
+{
+  "description": "Integers with the same arithmetic mean for divisors and anti-divisors.",
+  "id": "A386935",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A066272",
+    "A066417",
+    "A192284"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

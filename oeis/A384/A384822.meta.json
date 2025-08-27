@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies 1/x^5 = Sum_{n=-oo..+oo} A(x)^n * x^n * (1 - x^n)^(n+4).",
+  "id": "A384822",
+  "mentions": [
+    "A366731",
+    "A384821",
+    "A384823",
+    "A384824",
+    "A384825",
+    "A384826",
+    "A384827",
+    "A384828"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "a(n) is the largest k such that the sum of the first k divisors of n is at most n.",
   "id": "A377247",
   "mentions": [
-    "A081512"
+    "A081512",
+    "A117552"
   ],
   "tags": [
     "nonn"

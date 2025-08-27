@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ways to partition n X n X n cube into 5 noncongruent cuboids.",
+  "id": "A384479",
+  "mentions": [
+    "A381847",
+    "A384208",
+    "A384311",
+    "A384511",
+    "A385247",
+    "A386296"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

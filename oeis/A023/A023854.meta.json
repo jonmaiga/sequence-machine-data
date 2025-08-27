@@ -2,15 +2,19 @@
   "description": "Sum of exponents in prime-power factorization of binomial(6n, 3n).",
   "id": "A023854",
   "mentions": [
+    "A001222",
+    "A022559",
     "A023852",
-    "A023853"
+    "A023853",
+    "A066802"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 80,
+    "offset": 0,
+    "size": 81,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 3^n + n.",
+  "description": "Primes of the form 3^k + k.",
   "id": "A273942",
   "mentions": [
     "A057900",
@@ -8,13 +8,13 @@
     "A129963"
   ],
   "tags": [
-    "bref",
-    "more",
+    "formulas",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

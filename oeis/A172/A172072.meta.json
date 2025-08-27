@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that either prime(n)-5/2-+7/2 is prime.",
+  "description": "Numbers k such that either prime(k) - 5/2 +- 7/2 is prime.",
   "id": "A172072",
   "mentions": [
     "A000040",

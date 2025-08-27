@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct values of the sum of i^2 over 8 realizations of i in 0..n",
+  "description": "Number of distinct values of the sum of i^2 over 8 realizations of i in 0..n.",
   "id": "A225275",
   "mentions": [
     "A225273"

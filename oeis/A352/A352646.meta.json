@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. 1/(1 - 2 * x * cos(x)).",
   "id": "A352646",
   "mentions": [
+    "A185951",
     "A196603",
     "A352252",
     "A352642",

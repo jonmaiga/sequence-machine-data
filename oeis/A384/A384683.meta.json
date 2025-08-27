@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{i >= 1} 1/(3*i-1) - 1/(3*i).",
+  "id": "A384683",
+  "mentions": [
+    "A002162",
+    "A007494",
+    "A152743",
+    "A156057",
+    "A294514",
+    "A381671"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

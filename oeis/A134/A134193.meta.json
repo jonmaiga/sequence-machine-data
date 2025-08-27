@@ -2,9 +2,13 @@
   "description": "a(1) = 1; for n>1, a(n) = the smallest positive integer not occurring among the exponents in the prime-factorization of n.",
   "id": "A134193",
   "mentions": [
+    "A001694",
+    "A006939",
     "A136567",
     "A181819",
-    "A257993"
+    "A257993",
+    "A330596",
+    "A337050"
   ],
   "tags": [
     "formulas",

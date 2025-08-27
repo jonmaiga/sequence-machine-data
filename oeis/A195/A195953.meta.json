@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n 0..8 array with each element equal to the number of its diagonal, antidiagonal, horizontal and vertical neighbors unequal to itself",
+  "description": "Number of lower triangles of an n X n 0..8 array with each element equal to the number of its diagonal, antidiagonal, horizontal and vertical neighbors unequal to itself.",
   "id": "A195953",
   "mentions": [],
   "tags": [

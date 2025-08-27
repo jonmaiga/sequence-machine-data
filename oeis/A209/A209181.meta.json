@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 1..6 arrays with no element with value z exactly a city block distance of z from another element with value z",
+  "description": "Number of nX3 1..6 arrays with no element with value z exactly a city block distance of z from another element with value z.",
   "id": "A209181",
   "mentions": [
     "A209182"

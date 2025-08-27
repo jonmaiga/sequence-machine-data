@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays of nonnegative integers with rows and columns in lexicographically increasing order and some row sum or column sum equalling each of the values 1..n+k",
+  "description": "T(n,k)=Number of nXk arrays of nonnegative integers with rows and columns in lexicographically increasing order and some row sum or column sum equalling each of the values 1..n+k.",
   "id": "A178990",
   "mentions": [],
   "tags": [

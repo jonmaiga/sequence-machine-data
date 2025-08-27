@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..4 arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors",
+  "description": "Number of nXnXn triangular 0..4 arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors.",
   "id": "A214348",
   "mentions": [
     "A214352"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element making zero or one king moves",
+  "description": "T(n,k)=Number of nXk array permutations with each element making zero or one king moves.",
   "id": "A189254",
   "mentions": [
     "A000045"

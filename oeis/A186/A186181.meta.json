@@ -2,7 +2,8 @@
   "description": "Period 4 sequence [ 2, 2, 3, 2, ...] except a(0) = 1.",
   "id": "A186181",
   "mentions": [
-    "A000007"
+    "A000007",
+    "A185049"
   ],
   "tags": [
     "easy",

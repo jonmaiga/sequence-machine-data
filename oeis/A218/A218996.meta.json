@@ -1,5 +1,5 @@
 {
-  "description": "Unmatched value maps: number of n X n binary arrays indicating the locations of corresponding elements not equal to any horizontal, diagonal or antidiagonal neighbor in a random 0..2 n X n array",
+  "description": "Unmatched value maps: number of n X n binary arrays indicating the locations of corresponding elements not equal to any horizontal, diagonal or antidiagonal neighbor in a random 0..2 n X n array.",
   "id": "A218996",
   "mentions": [
     "A219002"

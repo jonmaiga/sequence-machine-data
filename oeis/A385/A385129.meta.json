@@ -1,0 +1,24 @@
+{
+  "description": "The number of divisors of n whose maximum exponent in their prime factorization is odd.",
+  "id": "A385129",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001620",
+    "A051903",
+    "A368714",
+    "A383156",
+    "A385128",
+    "A385131"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

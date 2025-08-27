@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of a square orthobicupola with unit edge.",
+  "id": "A384287",
+  "mentions": [
+    "A002193",
+    "A010469",
+    "A010487",
+    "A384624"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

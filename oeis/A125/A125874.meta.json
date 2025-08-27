@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p=22n+1 is prime and cos(2pi/p) is an algebraic number of an 11-smooth degree, but not 7-smooth.",
+  "description": "Numbers k such that p=22*k+1 is prime and cos(2*Pi/p) is an algebraic number of an 11-smooth degree, but not 7-smooth.",
   "id": "A125874",
   "mentions": [
     "A125866",

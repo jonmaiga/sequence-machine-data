@@ -1,5 +1,5 @@
 {
-  "description": "Least nonnegative m such that T(n) + T(m) is prime, where T(n) = n(n+1)/2.",
+  "description": "Least nonnegative m such that T(n) + T(m) is prime, where T(n) = n*(n+1)/2.",
   "id": "A129634",
   "mentions": [
     "A000040",

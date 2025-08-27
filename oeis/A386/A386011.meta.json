@@ -1,0 +1,21 @@
+{
+  "description": "Total number of inversions in all parking functions of length n.",
+  "id": "A386011",
+  "mentions": [
+    "A000272",
+    "A001809",
+    "A055865",
+    "A152290",
+    "A240796"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

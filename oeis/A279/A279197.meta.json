@@ -9,15 +9,16 @@
     "A202705",
     "A279198",
     "A279199",
-    "A282615"
+    "A282615",
+    "A282616"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

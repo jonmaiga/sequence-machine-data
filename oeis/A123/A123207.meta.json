@@ -2,15 +2,15 @@
   "description": "Primes of the form x^y + y^z + z^x, for x,y,z > 1.",
   "id": "A123207",
   "mentions": [
-    "A094133"
+    "A094133",
+    "A386892"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,15 @@
 {
-  "description": "Gaussian binomial coefficients [n,7] for q = 2.",
+  "description": "Gaussian binomial coefficients [n, 7] for q = 2.",
   "id": "A022190",
-  "mentions": [],
+  "mentions": [
+    "A000225",
+    "A006095",
+    "A006096",
+    "A006097",
+    "A006110",
+    "A022189",
+    "A022195"
+  ],
   "tags": [
     "easy",
     "formulas",

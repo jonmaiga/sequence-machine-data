@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X6 0..2 arrays with every 2X2 subblock having one or two distinct values, and new values 0..2 introduced in row major order",
+  "description": "Number of (n+1)X6 0..2 arrays with every 2X2 subblock having one or two distinct values, and new values 0..2 introduced in row major order.",
   "id": "A209826",
   "mentions": [
     "A209829"

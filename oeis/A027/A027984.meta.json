@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = Sum{T(n,k)*T(n,n+k)}, 0<=k<=n, T given by A027960.",
+  "description": "a(n) = Sum_{k=0..n} T(n, k)*T(n, n+k), T given by A027960.",
   "id": "A027984",
   "mentions": [
+    "A000032",
+    "A000045",
     "A027960"
   ],
   "tags": [
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 27,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

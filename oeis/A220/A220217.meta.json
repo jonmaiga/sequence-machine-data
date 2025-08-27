@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Majority value maps: number of nXk binary arrays indicating the locations of corresponding elements equal to at least half of their king-move neighbors in a random 0..1 nXk array",
+  "description": "T(n,k)=Majority value maps: number of nXk binary arrays indicating the locations of corresponding elements equal to at least half of their king-move neighbors in a random 0..1 nXk array.",
   "id": "A220217",
   "mentions": [
     "A005251"

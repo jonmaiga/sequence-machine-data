@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4X4 nonnegative integer matrices with row and column i=1..4 having sum <= i*n",
+  "description": "Number of 4X4 nonnegative integer matrices with row and column i=1..4 having sum <= i*n.",
   "id": "A214013",
   "mentions": [
     "A214011"

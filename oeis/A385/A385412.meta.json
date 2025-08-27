@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that are not perfect powers and whose trailing digits form a power of b, where 1 < b < k.",
+  "id": "A385412",
+  "mentions": [
+    "A007916",
+    "A384714",
+    "A385410",
+    "A385411"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

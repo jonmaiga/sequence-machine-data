@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that first digit of 4*n = last digit of n.",
+  "description": "Numbers k with property that first digit of 4*k = last digit of k.",
   "id": "A167997",
   "mentions": [
     "A167994",

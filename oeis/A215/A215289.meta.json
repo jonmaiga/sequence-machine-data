@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 0..floor((n*5-1)/2) on even squares of an nX5 array such that each row and column of even squares is increasing",
+  "description": "Number of permutations of 0..floor((n*5-1)/2) on even squares of an nX5 array such that each row and column of even squares is increasing.",
   "id": "A215289",
   "mentions": [
     "A060854",

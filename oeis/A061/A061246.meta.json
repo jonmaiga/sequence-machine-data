@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers with every digit a perfect square, i.e., consisting of only digits 0, 1, 4, 9.",
+  "description": "Prime having only {0, 1, 4, 9} as digits.",
   "id": "A061246",
   "mentions": [
     "A066591"

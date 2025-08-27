@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+2 0..k arrays with every three consecutive terms having the sum of some two elements equal to twice the third",
+  "description": "T(n,k)=Number of length n+2 0..k arrays with every three consecutive terms having the sum of some two elements equal to twice the third.",
   "id": "A248433",
   "mentions": [],
   "tags": [

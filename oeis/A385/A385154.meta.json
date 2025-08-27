@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least possible difference between the largest and smallest volumes of distinct five-cuboid combinations filling an n X n X n cube.",
+  "id": "A385154",
+  "mentions": [
+    "A276523",
+    "A384479"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

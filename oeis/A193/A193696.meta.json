@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of -2..2 integers x(1..n) with every x(i) in a subsequence of length 1, 2 or 3 with sum zero",
+  "description": "Number of arrays of -2..2 integers x(1..n) with every x(i) in a subsequence of length 1, 2 or 3 with sum zero.",
   "id": "A193696",
   "mentions": [
     "A193702"

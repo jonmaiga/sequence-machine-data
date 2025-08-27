@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that previous_prime(n)=n-sd and next_prime(n)=n+sd where sd is sum of the distinct prime factors of n.",
+  "description": "Numbers k such that previous_prime(k)=k-sd and next_prime(k)=k+sd where sd is sum of the distinct prime factors of k.",
   "id": "A125841",
   "mentions": [
+    "A008472",
     "A125840"
   ],
   "tags": [

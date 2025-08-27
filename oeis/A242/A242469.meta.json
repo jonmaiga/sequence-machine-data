@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+2 0..6 arrays with no three equal elements in a row and new values 0..6 introduced in 0..6 order",
+  "description": "Number of length n+2 0..6 arrays with no three equal elements in a row and new values 0..6 introduced in 0..6 order.",
   "id": "A242469",
   "mentions": [
     "A242472"

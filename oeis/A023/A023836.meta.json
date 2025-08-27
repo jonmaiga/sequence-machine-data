@@ -1,8 +1,21 @@
 {
   "description": "Sum of exponents in prime-power factorization of C(4n,2n-2).",
   "id": "A023836",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A023817",
+    "A023826",
+    "A023827",
+    "A023828",
+    "A023829",
+    "A023830",
+    "A023831",
+    "A023832",
+    "A023834",
+    "A023835"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

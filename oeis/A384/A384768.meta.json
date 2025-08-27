@@ -1,0 +1,19 @@
+{
+  "description": "Inverse binomial transform of A384674.",
+  "id": "A384768",
+  "mentions": [
+    "A000040",
+    "A111107",
+    "A384674",
+    "A384676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

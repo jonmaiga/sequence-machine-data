@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..4 arrays with no three equal values in a row horizontally or vertically, and new values 0..4 introduced in row major order",
+  "description": "Number of nX3 0..4 arrays with no three equal values in a row horizontally or vertically, and new values 0..4 introduced in row major order.",
   "id": "A222921",
   "mentions": [
     "A222924"

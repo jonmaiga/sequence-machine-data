@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of n such that the odd parts are weakly increasing.",
+  "id": "A385604",
+  "mentions": [
+    "A000009",
+    "A011782",
+    "A032021",
+    "A098123",
+    "A289249"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

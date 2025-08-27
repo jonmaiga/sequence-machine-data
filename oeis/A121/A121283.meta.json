@@ -2,6 +2,7 @@
   "description": "a(n) = floor(n*Pi*e).",
   "id": "A121283",
   "mentions": [
+    "A019609",
     "A032739",
     "A062541"
   ],

@@ -2,15 +2,15 @@
   "description": "Number of longest paths in the n-Apollonian network.",
   "id": "A307549",
   "mentions": [
+    "A292002",
     "A307457"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
-    "source": "oeis-entry"
+    "size": 7,
+    "source": "oeis-bfile"
   }
 }

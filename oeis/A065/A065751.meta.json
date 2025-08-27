@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose decimal representation consist of nested and /or concatenated ordered pairs 0-9, 1-8, 2-7, 3-6 and 4-5.",
+  "description": "Numbers whose decimal representations consist of nested and /or concatenated ordered pairs 0-9, 1-8, 2-7, 3-6 and 4-5.",
   "id": "A065751",
   "mentions": [
     "A010888",

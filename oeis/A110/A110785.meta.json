@@ -2,6 +2,7 @@
   "description": "Palindromes in which the digits are in nonincreasing order halfway through.",
   "id": "A110785",
   "mentions": [
+    "A002113",
     "A110784"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

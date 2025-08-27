@@ -2,7 +2,10 @@
   "description": "Powers of 22.",
   "id": "A009966",
   "mentions": [
-    "A008776"
+    "A000079",
+    "A001020",
+    "A008776",
+    "A009988"
   ],
   "tags": [
     "easy",

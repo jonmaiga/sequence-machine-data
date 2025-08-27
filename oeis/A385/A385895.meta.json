@@ -1,0 +1,18 @@
+{
+  "description": "Table read by rows: T(n, k) = T(n, k-1) + m * T(n-1, n-k) for k > 1, T(n, 1) = T(n-1, n-1), and T(n, 0) = 0^n, for m = 2.",
+  "id": "A385895",
+  "mentions": [
+    "A001586",
+    "A008281",
+    "A123110"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

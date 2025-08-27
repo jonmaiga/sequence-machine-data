@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number k such that n! - k is a square",
+  "description": "Smallest number k such that n! - k is a square.",
   "id": "A066857",
   "mentions": [
     "A048760",

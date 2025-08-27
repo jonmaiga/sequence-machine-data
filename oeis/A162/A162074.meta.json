@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric binary arrays with rows, considered as graycode numbers, in nondecreasing order, and an even number of ones in each row",
+  "description": "Number of n X n symmetric binary arrays with rows, considered as graycode numbers, in nondecreasing order, and an even number of ones in each row.",
   "id": "A162074",
   "mentions": [],
   "tags": [

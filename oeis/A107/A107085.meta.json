@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that in decimal representation the largest digit is equal to the digital root.",
+  "description": "Numbers whose largest digit in its decimal representation is equal to its digital root.",
   "id": "A107085",
   "mentions": [
     "A010888",

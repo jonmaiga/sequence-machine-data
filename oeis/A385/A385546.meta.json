@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = Sum_{k>=0} x^k/k! * A(2*k*x).",
+  "id": "A385546",
+  "mentions": [
+    "A125281",
+    "A195067",
+    "A385550"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

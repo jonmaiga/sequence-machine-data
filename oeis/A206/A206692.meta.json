@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal to another within two positions in the same row or column, and new values 0..3 introduced in row major order",
+  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal to another within two positions in the same row or column, and new values 0..3 introduced in row major order.",
   "id": "A206692",
   "mentions": [
     "A002089"

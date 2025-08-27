@@ -2,6 +2,7 @@
   "description": "Largest n-digit prime with minimum digit sum.",
   "id": "A069664",
   "mentions": [
+    "A007953",
     "A069661",
     "A069662",
     "A069663"

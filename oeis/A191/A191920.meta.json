@@ -1,5 +1,5 @@
 {
-  "description": "Ordered sums f+3g, where f and g are Lucas numbers (A000032 beginning at 1).",
+  "description": "Ordered sums f+3*g, where f and g are Lucas numbers (A000032 beginning at 1).",
   "id": "A191920",
   "mentions": [
     "A000032",

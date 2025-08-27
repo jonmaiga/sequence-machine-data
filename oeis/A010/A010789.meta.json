@@ -1,5 +1,5 @@
 {
-  "description": "arcsin(log(cos(x))) = -(1/2!)*x^2 - (2/4!)*x^4 - (31/6!)*x^6 - (692/8!)*x^8 + ...",
+  "description": "Expansion of -arcsin(log(cos(x))) = (1/2!)*x^2 + (2/4!)*x^4 + (31/6!)*x^6 + (692/8!)*x^8 + ...",
   "id": "A010789",
   "mentions": [],
   "tags": [

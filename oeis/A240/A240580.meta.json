@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that DigitSum(5^n) > DigitSum(5^(n+1)).",
+  "description": "Numbers k such that DigitSum(5^k) > DigitSum(5^(k+1)).",
   "id": "A240580",
   "mentions": [
     "A186775",

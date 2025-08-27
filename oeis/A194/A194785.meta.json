@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of a (2n+5)X(2n+5) 0..n array with new values introduced in row major order 0..n and no element unequal to more than one horizontal or vertical neighbor",
+  "description": "Number of lower triangles of a (2n+5)X(2n+5) 0..n array with new values introduced in row major order 0..n and no element unequal to more than one horizontal or vertical neighbor.",
   "id": "A194785",
   "mentions": [
     "A194778"

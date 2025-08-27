@@ -1,12 +1,13 @@
 {
-  "description": "Primes that contain only the digits (2, 7, 9).",
+  "description": "Primes having only {2, 7, 9} as digits.",
   "id": "A261182",
   "mentions": [
     "A000040",
     "A020459",
     "A020460",
     "A020471",
-    "A261181"
+    "A261181",
+    "A385776"
   ],
   "tags": [
     "base",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

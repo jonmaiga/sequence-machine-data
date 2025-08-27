@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^sigma(n) - 1 is a prime.",
+  "description": "Numbers k such that 2^sigma(k) - 1 is a prime.",
   "id": "A253849",
   "mentions": [
     "A000043",

@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of arrangements of n+1 nonzero numbers x(i) in -7..7 with the sum of sign(x(i))*(|x(i)| mod x(i+1)) equal to zero",
+  "description": "1/4 the number of arrangements of n+1 nonzero numbers x(i) in -7..7 with the sum of sign(x(i))*(|x(i)| mod x(i+1)) equal to zero.",
   "id": "A189949",
   "mentions": [
     "A189951"

@@ -1,13 +1,28 @@
 {
   "description": "25-factorial numbers.",
   "id": "A028694",
-  "mentions": [],
+  "mentions": [
+    "A005329",
+    "A027637",
+    "A027871",
+    "A027872",
+    "A027873",
+    "A027875",
+    "A027876",
+    "A027877",
+    "A027878",
+    "A027879",
+    "A027880",
+    "A028692",
+    "A028693"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-bfile"
   }
 }

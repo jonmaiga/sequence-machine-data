@@ -1,7 +1,10 @@
 {
   "description": "p, p+8 and p+12 are primes.",
   "id": "A046141",
-  "mentions": [],
+  "mentions": [
+    "A023202",
+    "A046133"
+  ],
   "tags": [
     "nonn"
   ],

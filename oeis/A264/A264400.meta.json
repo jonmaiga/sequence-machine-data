@@ -2,7 +2,8 @@
   "description": "Number of parts of even multiplicities in all the partitions of n.",
   "id": "A264400",
   "mentions": [
-    "A264399"
+    "A264399",
+    "A325939"
   ],
   "tags": [
     "formulas",

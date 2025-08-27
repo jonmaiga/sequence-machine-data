@@ -1,0 +1,17 @@
+{
+  "description": "Smallest final number reachable from n by successively replacing a substring of digits with its square root.",
+  "id": "A386395",
+  "mentions": [
+    "A000290",
+    "A048385"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

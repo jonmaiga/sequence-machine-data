@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with every one adjacent to another one horizontally, diagonally, antidiagonally or vertically",
+  "description": "T(n,k)=Number of nXk binary arrays with every one adjacent to another one horizontally, diagonally, antidiagonally or vertically.",
   "id": "A202795",
   "mentions": [
     "A005251"

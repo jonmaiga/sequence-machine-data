@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays of occupancy after each element stays put or moves to some horizontal or vertical neighbor",
+  "description": "Number of nX3 arrays of occupancy after each element stays put or moves to some horizontal or vertical neighbor.",
   "id": "A220998",
   "mentions": [
     "A221001"

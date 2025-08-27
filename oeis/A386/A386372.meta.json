@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers of the form k^m that have m binary digits 1.",
+  "id": "A386372",
+  "mentions": [
+    "A000120",
+    "A001597",
+    "A075109",
+    "A161792"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

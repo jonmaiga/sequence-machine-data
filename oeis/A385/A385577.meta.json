@@ -1,0 +1,28 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,m) = n*Pochhammer(n+1,m+1)/(m+2).",
+  "id": "A385577",
+  "mentions": [
+    "A000004",
+    "A000142",
+    "A000217",
+    "A001048",
+    "A002740",
+    "A006231",
+    "A007290",
+    "A033487",
+    "A068424",
+    "A158874",
+    "A238474"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

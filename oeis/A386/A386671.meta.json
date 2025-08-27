@@ -1,0 +1,18 @@
+{
+  "description": "All integers k that can produce a closed walk in a square lattice via noncongruent primitive k-length hypotenuses, in ascending order.",
+  "id": "A386671",
+  "mentions": [
+    "A002144",
+    "A020882",
+    "A385525",
+    "A387031"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

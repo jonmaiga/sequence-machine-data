@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=3X3 square grid graph coloring a rectangular array: number of nXk 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph",
+  "description": "T(n,k)=3X3 square grid graph coloring a rectangular array: number of nXk 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.",
   "id": "A223379",
   "mentions": [],
   "tags": [

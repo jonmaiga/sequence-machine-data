@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which have exactly 14 representations as a product of two palindromes.",
+  "description": "Numbers k which have exactly 14 representations as a product of two palindromes.",
   "id": "A125832",
   "mentions": [
     "A116993",

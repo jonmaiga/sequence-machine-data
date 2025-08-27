@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..3 arrays with the row and column sums nondecreasing",
+  "description": "Number of nX2 0..3 arrays with the row and column sums nondecreasing.",
   "id": "A202576",
   "mentions": [
     "A202581"

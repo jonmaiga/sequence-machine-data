@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..4 colorings of a 3X(n+1) array circular in the n+1 direction with new values 0..4 introduced in row major order",
+  "description": "Number of 0..4 colorings of a 3X(n+1) array circular in the n+1 direction with new values 0..4 introduced in row major order.",
   "id": "A214144",
   "mentions": [
     "A214141"

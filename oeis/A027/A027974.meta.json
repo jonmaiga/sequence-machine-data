@@ -1,10 +1,12 @@
 {
-  "description": "a(n) = Sum_{i=0..n} Sum_{j=0..i} T(i,j), T given by A027960.",
+  "description": "a(n) = Sum_{k=1..n+1} A027960(n+1, n+1+k).",
   "id": "A027974",
   "mentions": [
     "A000032",
     "A000045",
+    "A023537",
     "A027960",
+    "A027983",
     "A101220"
   ],
   "tags": [
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of an nX6 array with each element moving exactly one horizontally or vertically and without 2-loops",
+  "description": "Number of permutations of an nX6 array with each element moving exactly one horizontally or vertically and without 2-loops.",
   "id": "A216798",
   "mentions": [
     "A216800"

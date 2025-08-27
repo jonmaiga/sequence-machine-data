@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with every 1 immediately preceded by 0 to the left or above",
+  "description": "T(n,k)=Number of nXk binary arrays with every 1 immediately preceded by 0 to the left or above.",
   "id": "A203362",
   "mentions": [
     "A000045",

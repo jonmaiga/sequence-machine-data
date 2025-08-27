@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 10, and no two adjacent values equal",
+  "description": "Number of (n+1)X(2+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 10, and no two adjacent values equal.",
   "id": "A233952",
   "mentions": [
     "A233958"

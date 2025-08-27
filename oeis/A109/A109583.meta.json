@@ -1,5 +1,5 @@
 {
-  "description": "Let x^3/(-1-x+x^3)=Sum[b[n]*x^n/n1,{n,0,Infinity}]; a(n) = Abs[b[n]]",
+  "description": "Let x^3/(-1-x+x^3)=Sum[b[n]*x^n/n1,{n,0,Infinity}]; a(n) = Abs[b[n]].",
   "id": "A109583",
   "mentions": [],
   "tags": [

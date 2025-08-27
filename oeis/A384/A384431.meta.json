@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator (430*s + 2531) mod 11979 when started at s=1.",
+  "id": "A384431",
+  "mentions": [
+    "A384971",
+    "A385002",
+    "A385003"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

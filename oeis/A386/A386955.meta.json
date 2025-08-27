@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1) * 2^k * binomial(2*n+1,n-k).",
+  "id": "A386955",
+  "mentions": [
+    "A088218",
+    "A258431",
+    "A384365",
+    "A386956"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

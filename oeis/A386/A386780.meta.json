@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n^3*sigma_6(n).",
+  "id": "A386780",
+  "mentions": [
+    "A013954",
+    "A282211",
+    "A282213",
+    "A282781",
+    "A386746",
+    "A386748",
+    "A386750",
+    "A386777",
+    "A386781",
+    "A386782"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

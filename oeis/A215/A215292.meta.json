@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of permutations of 0..floor((n*k-1)/2) on even squares of an nXk array such that each row and column of even squares is increasing",
+  "description": "T(n,k)=Number of permutations of 0..floor((n*k-1)/2) on even squares of an nXk array such that each row and column of even squares is increasing.",
   "id": "A215292",
   "mentions": [
     "A001405",

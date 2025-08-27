@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place 3 nonattacking nightriders on an n X n cylindrical board",
+  "description": "Number of ways to place 3 nonattacking nightriders on an n X n cylindrical board.",
   "id": "A196811",
   "mentions": [
     "A173429",

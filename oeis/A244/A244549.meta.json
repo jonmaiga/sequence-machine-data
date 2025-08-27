@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that for every integer k>0, n*6^k+1 has a divisor in the set { 7, 13, 31, 37, 97 }.",
+  "description": "Integers m such that for every integer k>0, m*6^k+1 has a divisor in the set { 7, 13, 31, 37, 97 }.",
   "id": "A244549",
   "mentions": [
     "A076337",

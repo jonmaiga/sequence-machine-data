@@ -2,7 +2,9 @@
   "description": "Order of simple Chevalley group B_n (9).",
   "id": "A003930",
   "mentions": [
-    "A003927"
+    "A003927",
+    "A003928",
+    "A003929"
   ],
   "tags": [
     "formulas",

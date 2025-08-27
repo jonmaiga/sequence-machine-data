@@ -1,5 +1,5 @@
 {
-  "description": "Number of vertices for which there is an alien in-magic directed star",
+  "description": "Number of vertices for which there is an alien in-magic directed star.",
   "id": "A227299",
   "mentions": [
     "A024619"

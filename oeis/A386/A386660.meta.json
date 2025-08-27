@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n, k) (mod 2^k).",
+  "id": "A386660",
+  "mentions": [
+    "A076541",
+    "A386661",
+    "A386662",
+    "A386663"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

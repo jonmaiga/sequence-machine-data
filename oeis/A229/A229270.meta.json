@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which n’-n is prime, n' being the arithmetic derivative of n.",
+  "description": "Numbers k for which k' - k is prime, k' being the arithmetic derivative of k.",
   "id": "A229270",
   "mentions": [
     "A003415",

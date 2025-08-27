@@ -2,17 +2,19 @@
   "description": "Ultracompositorial: Compositorials raised to the power of themselves.",
   "id": "A195529",
   "mentions": [
+    "A000312",
     "A036691",
     "A046882",
+    "A114993",
     "A165812"
   ],
   "tags": [
-    "bref",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

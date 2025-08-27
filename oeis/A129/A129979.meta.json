@@ -1,13 +1,18 @@
 {
-  "description": "Left border of triangle A131088.",
+  "description": "a(n) = 2-mu(n), where mu=A008683 is the Moebius function.",
   "id": "A129979",
   "mentions": [
+    "A001358",
+    "A001414",
     "A007427",
+    "A008472",
+    "A008683",
     "A051731",
     "A054525",
     "A131088"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

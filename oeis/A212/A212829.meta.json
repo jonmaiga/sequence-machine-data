@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays of length n with no adjacent pair equal to its immediately preceding adjacent pair, and new values introduced in 0..k order",
+  "description": "T(n,k)=Number of 0..k arrays of length n with no adjacent pair equal to its immediately preceding adjacent pair, and new values introduced in 0..k order.",
   "id": "A212829",
   "mentions": [
     "A128588"

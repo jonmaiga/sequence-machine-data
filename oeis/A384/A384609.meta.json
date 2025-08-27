@@ -1,0 +1,16 @@
+{
+  "description": "Possible values for the number of nilpotent groups of a finite order, ordered by size.",
+  "id": "A384609",
+  "mentions": [
+    "A066060",
+    "A384607"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

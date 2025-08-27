@@ -2,7 +2,9 @@
   "description": "MacMahon's generalized sum of divisors function.",
   "id": "A002128",
   "mentions": [
-    "A060043"
+    "A002127",
+    "A060043",
+    "A385001"
   ],
   "tags": [
     "easy",

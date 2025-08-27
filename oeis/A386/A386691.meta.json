@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the volume of a parabidiminished rhombicosidodecahedron with unit edges.",
+  "id": "A386691",
+  "mentions": [
+    "A001622",
+    "A002163",
+    "A134946",
+    "A179590",
+    "A185093",
+    "A386689",
+    "A386692",
+    "A386693"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Differences between odd powers of 3 and the next smaller square",
+  "description": "Differences between odd powers of 3 and the next smaller square.",
   "id": "A201124",
   "mentions": [
     "A051214"

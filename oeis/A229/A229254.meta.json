@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+2 have the same number (A000005) and sum of divisors (A000203).",
+  "description": "Numbers k such that k and k+2 have the same number (A000005) and sum of divisors (A000203).",
   "id": "A229254",
   "mentions": [
     "A000005",

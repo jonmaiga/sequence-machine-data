@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the smaller solution (i.e., the solution other than x = 5) to 5^x = x^5.",
   "id": "A341328",
   "mentions": [
+    "A073084",
     "A166928"
   ],
   "tags": [

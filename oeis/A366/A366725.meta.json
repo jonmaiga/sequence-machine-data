@@ -2,6 +2,7 @@
   "description": "Sum of odd indices of distinct prime factors of n.",
   "id": "A366725",
   "mentions": [
+    "A000720",
     "A066207",
     "A066328",
     "A324966",
@@ -17,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

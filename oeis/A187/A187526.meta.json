@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with each 2X2 subblock determinant nonzero and the array of 2X2 subblock determinants symmetric under 90 degree rotation",
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with each 2X2 subblock determinant nonzero and the array of 2X2 subblock determinants symmetric under 90 degree rotation.",
   "id": "A187526",
   "mentions": [
     "A187528"

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest exponent k > 1 that sum of digits of k-th power of the n-th prime is a prime (n=1,2,...) or 0 if no such k exists",
+  "description": "Smallest exponent k > 1 that sum of digits of k-th power of the n-th prime is a prime (n=1,2,...) or 0 if no such k exists.",
   "id": "A172035",
   "mentions": [
     "A007605",

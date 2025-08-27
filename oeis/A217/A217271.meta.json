@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 arrays of occupancy after each element moves to some horizontal or vertical neighbor",
+  "description": "Number of nX6 arrays of occupancy after each element moves to some horizontal or vertical neighbor.",
   "id": "A217271",
   "mentions": [
     "A217273"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of digits in 5^(n!).",
+  "id": "A385951",
+  "mentions": [
+    "A055642",
+    "A210435",
+    "A220078"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

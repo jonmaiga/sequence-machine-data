@@ -1,0 +1,27 @@
+{
+  "description": "Concatenate powers of 10.",
+  "id": "A386552",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A010054",
+    "A011557",
+    "A045507",
+    "A051639",
+    "A101305",
+    "A133082",
+    "A164894",
+    "A242646"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

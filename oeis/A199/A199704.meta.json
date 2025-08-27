@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum and no two neighbors equal",
+  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum and no two neighbors equal.",
   "id": "A199704",
   "mentions": [],
   "tags": [

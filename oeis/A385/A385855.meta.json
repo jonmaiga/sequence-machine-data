@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of log_10(1 + 1/7).",
+  "id": "A385855",
+  "mentions": [
+    "A007524",
+    "A104140",
+    "A154203",
+    "A154580",
+    "A385659",
+    "A385853",
+    "A385854"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

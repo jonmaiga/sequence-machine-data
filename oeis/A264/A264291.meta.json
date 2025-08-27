@@ -1,5 +1,5 @@
 {
-  "description": "Number of (7+1)X(n+1) arrays of permutations of 0..n*8+7 with each element having directed index change 0,0 0,1 1,0 or -1,-2.",
+  "description": "Number of (7+1) X (n+1) arrays of permutations of 0..n*8+7 with each element having directed index change 0,0 0,1 1,0 or -1,-2.",
   "id": "A264291",
   "mentions": [
     "A264285"

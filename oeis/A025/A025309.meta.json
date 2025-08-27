@@ -1,7 +1,9 @@
 {
   "description": "Numbers that are the sum of 2 distinct nonzero squares in exactly 8 ways.",
   "id": "A025309",
-  "mentions": [],
+  "mentions": [
+    "A025291"
+  ],
   "tags": [
     "nonn"
   ],

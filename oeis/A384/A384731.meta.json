@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1+2*x-x^2) / (1-x-6*x^2+2*x^3).",
+  "id": "A384731",
+  "mentions": [
+    "A384730",
+    "A384732"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

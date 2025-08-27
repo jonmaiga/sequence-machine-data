@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the cardinality of the union of the sets of divisors of sigma(k) for 1 <= k <= n.",
+  "id": "A385479",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A027750",
+    "A062068",
+    "A385467",
+    "A385478"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

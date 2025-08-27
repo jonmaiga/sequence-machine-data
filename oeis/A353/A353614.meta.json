@@ -1,5 +1,5 @@
 {
-  "description": "Integers m such that the decimal expansion of 1/m contains only odd digits.",
+  "description": "Integers m such that the decimal expansion of 1/m contains only odd digits other than leading or trailing zeros.",
   "id": "A353614",
   "mentions": [
     "A353613"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

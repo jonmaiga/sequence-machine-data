@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary matrices with zero diagonal and x(i,j), x(j,k) and x(k,i) not all equal for i,j,k all different",
+  "description": "Number of n X n binary matrices with zero diagonal and x(i,j), x(j,k) and x(k,i) not all equal for i,j,k all different.",
   "id": "A213596",
   "mentions": [],
   "tags": [

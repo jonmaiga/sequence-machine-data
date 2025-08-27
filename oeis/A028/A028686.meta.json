@@ -1,14 +1,27 @@
 {
   "description": "Pseudo Galois numbers for d=24.",
   "id": "A028686",
-  "mentions": [],
+  "mentions": [
+    "A028668",
+    "A028670",
+    "A028671",
+    "A028672",
+    "A028674",
+    "A028676",
+    "A028677",
+    "A028678",
+    "A028680",
+    "A028682",
+    "A028683",
+    "A028684"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 8,
     "source": "oeis-bfile"
   }
 }

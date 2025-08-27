@@ -1,7 +1,10 @@
 {
   "description": "Right-truncatable squares: every prefix is square.",
   "id": "A164840",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A164839"
+  ],
   "tags": [
     "base",
     "fini",

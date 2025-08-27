@@ -1,7 +1,9 @@
 {
-  "description": "{n concatenate R(n)}*{ R(n) concatenate n}, where R(n) = digit reversal of n.",
+  "description": "a(n) = {n concatenate R(n)}*{ R(n) concatenate n}, where R(n) = digit reversal of n.",
   "id": "A110722",
-  "mentions": [],
+  "mentions": [
+    "A004086"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 32,
     "source": "joeis"
   }
 }

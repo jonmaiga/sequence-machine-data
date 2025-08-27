@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of partition Hermite-MacMahon polynomials: p(x,n)= If[n == 0, 1, HermiteH[n, x]*Sum[MacMahon[n-1, k-1]*x^(k - 1), {k, 1, n}]/2^Floor[n/2]]",
+  "description": "Coefficients of partition Hermite-MacMahon polynomials: p(x,n)= If[n == 0, 1, HermiteH[n, x]*Sum[MacMahon[n-1, k-1]*x^(k - 1), {k, 1, n}]/2^Floor[n/2]].",
   "id": "A171533",
   "mentions": [
     "A171229"

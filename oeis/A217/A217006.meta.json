@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n-6) = phi(n) = phi(n+6).",
+  "description": "Numbers k such that phi(k-6) = phi(k) = phi(k+6).",
   "id": "A217006",
   "mentions": [
     "A000010",

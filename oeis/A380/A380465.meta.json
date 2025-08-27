@@ -1,21 +1,22 @@
 {
-  "description": "Second coefficient of the lindep transform of A007947, squarefree kernel of n.",
+  "description": "G.f. A(x) satisfies A(x) = 1/( 1 - 25*x*A(x)^2 )^(1/5).",
   "id": "A380465",
   "mentions": [
-    "A007947",
-    "A059172",
-    "A339791",
-    "A380439",
-    "A380464",
+    "A034688",
+    "A078534",
     "A380466",
-    "A380545"
+    "A380471",
+    "A385203",
+    "A385204",
+    "A385205"
   ],
   "tags": [
-    "sign"
+    "formulas",
+    "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 81,
-    "source": "oeis-bfile"
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
   }
 }

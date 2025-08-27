@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that F(n) mod n divides F(F(n) mod n) where F(k) denotes the k-th Fibonacci number.",
+  "description": "Numbers k such that F(k) mod k divides F(F(k) mod k) where F(k) denotes the k-th Fibonacci number.",
   "id": "A078345",
   "mentions": [
     "A000045",

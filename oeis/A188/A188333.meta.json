@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing arrangements of n nonzero numbers in -(n+k-2)..(n+k-2) with sum zero",
+  "description": "T(n,k)=Number of nondecreasing arrangements of n nonzero numbers in -(n+k-2)..(n+k-2) with sum zero.",
   "id": "A188333",
   "mentions": [
     "A007590"

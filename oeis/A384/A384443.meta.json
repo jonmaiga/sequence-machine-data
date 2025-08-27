@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the product of the prime digits of n; or 1 if n contains no prime digits.",
+  "id": "A384443",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A007954",
+    "A384444",
+    "A384445",
+    "A384505"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

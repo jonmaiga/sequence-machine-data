@@ -9,12 +9,11 @@
     "A383484"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

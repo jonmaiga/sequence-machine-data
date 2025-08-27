@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the \"inventory\" A063850 of n is a perfect square.",
+  "description": "Numbers k such that the \"inventory\" A063850 of k is a perfect square.",
   "id": "A079465",
   "mentions": [
     "A063850"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

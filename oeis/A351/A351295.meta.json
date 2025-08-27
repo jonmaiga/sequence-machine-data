@@ -1,5 +1,5 @@
 {
-  "description": "Heinz numbers of non-Look-and-Say partitions. Numbers whose multiset of prime factors has no permutation with all distinct run-lengths.",
+  "description": "Numbers whose multiset of prime factors has no permutation with all distinct run-lengths.",
   "id": "A351295",
   "mentions": [
     "A000569",

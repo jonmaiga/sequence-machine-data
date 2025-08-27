@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the partial sums of 1/d(prime(k)+1), where d is the number of divisors function.",
+  "id": "A386922",
+  "mentions": [
+    "A000005",
+    "A008329",
+    "A008864",
+    "A104529",
+    "A386921"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

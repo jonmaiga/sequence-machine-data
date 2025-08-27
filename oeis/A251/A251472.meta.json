@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..5 arrays with every 2X2 subblock summing to a prime",
+  "description": "Number of (n+1)X(5+1) 0..5 arrays with every 2X2 subblock summing to a prime.",
   "id": "A251472",
   "mentions": [
     "A251474"

@@ -1,0 +1,27 @@
+{
+  "description": "Exponent of the highest power of 2 dividing the n-th number that is cubefree but not squarefree.",
+  "id": "A386536",
+  "mentions": [
+    "A002117",
+    "A007814",
+    "A013661",
+    "A067259",
+    "A383004",
+    "A383005",
+    "A383006",
+    "A383007",
+    "A383029",
+    "A383032",
+    "A386537"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

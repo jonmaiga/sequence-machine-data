@@ -2,6 +2,8 @@
   "description": "Binary representation of the n-th iteration of the \"Rule 21\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A266379",
   "mentions": [
+    "A266217",
+    "A266323",
     "A266377",
     "A266380"
   ],

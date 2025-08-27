@@ -1,19 +1,33 @@
 {
-  "description": "Third coefficient of the lindep transform of A129283 (n + arithmetic derivative of n).",
+  "description": "a(n) is the multiplicative order of -6 modulo prime(n); a(1) = a(2) = 0 for completion.",
   "id": "A380533",
   "mentions": [
-    "A129283",
-    "A339792",
+    "A002371",
+    "A014664",
+    "A062117",
+    "A082654",
+    "A105878",
+    "A211241",
+    "A211242",
+    "A211243",
+    "A211244",
+    "A211245",
+    "A337878",
+    "A380482",
     "A380531",
-    "A380532"
+    "A380532",
+    "A380540",
+    "A380541",
+    "A380542",
+    "A385222"
   ],
   "tags": [
-    "formulas",
-    "sign"
+    "easy",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 91,
+    "size": 60,
     "source": "oeis-bfile"
   }
 }

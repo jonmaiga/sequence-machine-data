@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=(d_1*d_2*...*d_k)*phi(d_1+d_2+...+d_k) where d_1 d_2... d_k is the decimal expansion of n.",
+  "description": "Numbers m such that m=(d_1*d_2*...*d_k)*phi(d_1+d_2+...+d_k) where d_1 d_2... d_k is the decimal expansion of m.",
   "id": "A120123",
   "mentions": [
     "A120121",

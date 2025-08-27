@@ -1,7 +1,8 @@
 {
-  "description": "The left budding sequence: # of i such that 0",
+  "description": "The left budding sequence: number of i such that 0 < i <= n and 0 < {phi*i} <= {phi*n}, where {} denotes the fractional part and phi = A001622.",
   "id": "A019587",
   "mentions": [
+    "A001622",
     "A019588",
     "A193738",
     "A194733"

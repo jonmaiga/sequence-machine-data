@@ -1,5 +1,5 @@
 {
-  "description": "11-gonal (or hendecagonal) pyramidal numbers: n*(n+1)*(3*n-2)/2.",
+  "description": "11-gonal (or hendecagonal) pyramidal numbers: a(n) = n*(n+1)*(3*n-2)/2.",
   "id": "A007586",
   "mentions": [
     "A051682",

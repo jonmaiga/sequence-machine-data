@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Agreement numbers: number of nXk arrays of the count of horizontal and vertical neighbors equal to the corresponding element in a random 0..2 nXk array",
+  "description": "T(n,k)=Agreement numbers: number of nXk arrays of the count of horizontal and vertical neighbors equal to the corresponding element in a random 0..2 nXk array.",
   "id": "A220800",
   "mentions": [
     "A220783"

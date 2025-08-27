@@ -1,14 +1,25 @@
 {
   "description": "Palindromic and divisible by 7.",
   "id": "A045642",
-  "mentions": [],
+  "mentions": [
+    "A002113",
+    "A008589",
+    "A029951",
+    "A043040",
+    "A045638",
+    "A045639",
+    "A045641",
+    "A045643",
+    "A045644",
+    "A083852"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
-    "source": "joeis"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

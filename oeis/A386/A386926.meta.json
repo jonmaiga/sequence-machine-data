@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = denominator(Sum_{k=1..n} d(k+1)/d(k)), where d is the number of divisors function.",
+  "id": "A386926",
+  "mentions": [
+    "A000005",
+    "A386925"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

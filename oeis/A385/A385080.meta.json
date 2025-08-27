@@ -1,0 +1,17 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator 237*s mod (2^16+1) when started at s=1.",
+  "id": "A385080",
+  "mentions": [
+    "A385079"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

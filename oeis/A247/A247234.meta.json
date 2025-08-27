@@ -1,5 +1,5 @@
 {
-  "description": "First occurrence of 2n in A035096.",
+  "description": "First occurrence of 2*n in A035096.",
   "id": "A247234",
   "mentions": [
     "A035096"

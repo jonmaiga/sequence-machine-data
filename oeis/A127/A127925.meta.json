@@ -2,7 +2,10 @@
   "description": "Primes p such that 2p < prime(k-i) + prime(k+i) for i=1..k-1, where p=prime(k).",
   "id": "A127925",
   "mentions": [
-    "A028388"
+    "A028388",
+    "A124661",
+    "A178954",
+    "A246033"
   ],
   "tags": [
     "nonn"

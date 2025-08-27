@@ -1,5 +1,5 @@
 {
-  "description": "Primes p for which s=2 is the least positive integer such that sp-t(sp) is a triangular number, where t(n) is the maximal triangular number not exceeding n",
+  "description": "Primes p for which s=2 is the least positive integer such that sp-t(sp) is a triangular number, where t(n) is the maximal triangular number not exceeding n.",
   "id": "A145043",
   "mentions": [
     "A000217",

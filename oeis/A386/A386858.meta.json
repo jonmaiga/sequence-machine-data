@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(5*n^2/8).",
+  "id": "A386858",
+  "mentions": [
+    "A028895",
+    "A032526"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

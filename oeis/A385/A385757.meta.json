@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number having n smaller numbers with the same number of prime factors (counted with multiplicity).",
+  "id": "A385757",
+  "mentions": [
+    "A001222",
+    "A081376",
+    "A335097",
+    "A338483"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

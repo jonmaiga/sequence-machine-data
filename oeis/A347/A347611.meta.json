@@ -2,7 +2,8 @@
   "description": "a(n) is the n-th n-factorial number: a(n) = n!_n.",
   "id": "A347611",
   "mentions": [
-    "A069777"
+    "A069777",
+    "A366355"
   ],
   "tags": [
     "formulas",

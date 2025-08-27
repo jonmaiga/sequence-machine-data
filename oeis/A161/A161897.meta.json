@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers p for which k = (3^p - 3 * 3^((p + 1) / 2) - 6p + 6) / (3p^2 - 3p) is an integer",
+  "description": "Prime numbers p for which k = (3^p - 3 * 3^((p + 1) / 2) - 6p + 6) / (3p^2 - 3p) is an integer.",
   "id": "A161897",
   "mentions": [
     "A000040",

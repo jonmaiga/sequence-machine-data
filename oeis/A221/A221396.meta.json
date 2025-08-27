@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays of occupancy after each element stays put or moves to some horizontal, vertical or antidiagonal neighbor, with every occupancy equal to zero or two",
+  "description": "T(n,k)=Number of nXk arrays of occupancy after each element stays put or moves to some horizontal, vertical or antidiagonal neighbor, with every occupancy equal to zero or two.",
   "id": "A221396",
   "mentions": [
     "A008776"

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that both k + sopfr(k) and k^2 + sopfr(k)^2 are prime, where sopfr = A001414.",
+  "id": "A387049",
+  "mentions": [
+    "A001414",
+    "A050703",
+    "A387048"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

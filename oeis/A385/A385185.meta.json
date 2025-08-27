@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of 0..n-1 which are binary Gray codes.",
+  "id": "A385185",
+  "mentions": [
+    "A091299",
+    "A350784"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

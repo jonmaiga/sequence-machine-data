@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n | Sum_{k=1..n} k!.",
+  "description": "Numbers m such that m | Sum_{k=1..m} k!.",
   "id": "A057245",
   "mentions": [
     "A007489",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+6 0..3 arrays with at most one downstep in every 6 consecutive neighbor pairs",
+  "description": "Number of length n+6 0..3 arrays with at most one downstep in every 6 consecutive neighbor pairs.",
   "id": "A258728",
   "mentions": [
     "A258730"

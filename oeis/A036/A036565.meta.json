@@ -2,7 +2,10 @@
   "description": "Triangle of numbers in which i-th row is {2^(i-j)*7^j, 0<=j<=i}; i >= 0.",
   "id": "A036565",
   "mentions": [
-    "A003591"
+    "A000079",
+    "A000420",
+    "A003591",
+    "A016130"
   ],
   "tags": [
     "easy",
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 45,
     "source": "joeis"
   }
 }

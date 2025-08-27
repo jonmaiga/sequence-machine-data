@@ -2,7 +2,8 @@
   "description": "Primes not containing exactly two odd digits.",
   "id": "A156756",
   "mentions": [
-    "A000040"
+    "A104638",
+    "A119450"
   ],
   "tags": [
     "base",

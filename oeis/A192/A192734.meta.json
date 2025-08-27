@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number having binary weight of 3 and n distinct prime factors",
+  "description": "Smallest number having binary weight of 3 and n distinct prime factors.",
   "id": "A192734",
   "mentions": [
     "A001221",

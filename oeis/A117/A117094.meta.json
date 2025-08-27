@@ -1,14 +1,18 @@
 {
-  "description": "Numbers n such that nextprime(5*n)>5*nextprime(n) (if p is prime then nextprime(p)=p).",
+  "description": "Numbers k such that nextprime(5*k) > 5*nextprime(k) (if p is prime then nextprime(p) = p).",
   "id": "A117094",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A007918",
+    "A117101"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 46,
-    "source": "oeis-entry"
+    "size": 67,
+    "source": "oeis-bfile"
   }
 }

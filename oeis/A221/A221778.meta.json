@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays of occupancy after each element stays put or moves to some horizontal, diagonal or antidiagonal neighbor, without move-in move-out left turns",
+  "description": "Number of nX3 arrays of occupancy after each element stays put or moves to some horizontal, diagonal or antidiagonal neighbor, without move-in move-out left turns.",
   "id": "A221778",
   "mentions": [
     "A221780"

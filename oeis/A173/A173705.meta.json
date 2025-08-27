@@ -1,7 +1,9 @@
 {
   "description": "Number of n-colorings of the 26-Fullerene Graph.",
   "id": "A173705",
-  "mentions": [],
+  "mentions": [
+    "A173710"
+  ],
   "tags": [
     "easy",
     "formulas",

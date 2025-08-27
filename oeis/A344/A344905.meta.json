@@ -2,7 +2,8 @@
   "description": "Decimal expansion of the solution to x^x = sqrt(2).",
   "id": "A344905",
   "mentions": [
-    "A030798"
+    "A030798",
+    "A073084"
   ],
   "tags": [
     "cons",

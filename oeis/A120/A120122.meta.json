@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=phi(d_1*d_2*...*d_k)*(d_1+d_2+...+d_k) where d_1 d_2... d_k is the decimal expansion of n.",
+  "description": "Numbers m such that m=phi(d_1*d_2*...*d_k)*(d_1+d_2+...+d_k) where d_1 d_2... d_k is the decimal expansion of m.",
   "id": "A120122",
   "mentions": [
     "A120121",
@@ -8,6 +8,7 @@
   "tags": [
     "base",
     "fini",
+    "more",
     "nonn"
   ],
   "terms": {

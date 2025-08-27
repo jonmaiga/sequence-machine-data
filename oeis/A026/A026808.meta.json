@@ -1,9 +1,7 @@
 {
   "description": "a(n) is the number of products P of distinct positive integers satisfying P <= n.",
   "id": "A026808",
-  "mentions": [
-    "A254578"
-  ],
+  "mentions": [],
   "tags": [
     "nonn"
   ],

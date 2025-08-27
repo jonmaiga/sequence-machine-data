@@ -1,5 +1,5 @@
 {
-  "description": "Triangle interpolating between (-1)^n (A033999) and the swinging factorial function (A056040) restricted to odd indices (2n+1)$ (A002457).",
+  "description": "Triangle interpolating between (-1)^n (A033999) and the swinging factorial function (A056040) restricted to odd indices (2n+1)$ (A002457), read by rows.",
   "id": "A163945",
   "mentions": [
     "A002457",

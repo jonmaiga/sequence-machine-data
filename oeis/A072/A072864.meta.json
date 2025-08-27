@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the smallest k dividing sigma(k*n^2) is equal to 3.",
+  "description": "Numbers m such that the smallest k dividing sigma(k*m^2) is equal to 3.",
   "id": "A072864",
   "mentions": [
     "A002476",

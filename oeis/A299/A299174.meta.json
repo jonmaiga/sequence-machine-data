@@ -1,5 +1,5 @@
 {
-  "description": "The even positive integers.",
+  "description": "The positive even integers.",
   "id": "A299174",
   "mentions": [
     "A000027",

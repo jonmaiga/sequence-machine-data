@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that neither composite(n)-+1 is composite.",
+  "description": "Numbers k such that neither composite(k)+-1 is composite.",
   "id": "A169643",
   "mentions": [
     "A002808",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 arrays of occupancy after each element moves to some horizontal or vertical neighbor, without move-in move-out straight through or left turns",
+  "description": "Number of nX6 arrays of occupancy after each element moves to some horizontal or vertical neighbor, without move-in move-out straight through or left turns.",
   "id": "A221799",
   "mentions": [
     "A221800"

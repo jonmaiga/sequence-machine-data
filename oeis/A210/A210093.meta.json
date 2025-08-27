@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X7 0..2 arrays containing all values 0..2 with every 2X2 subblock having one or two distinct values, and new values 0..2 introduced in row major order",
+  "description": "Number of (n+1)X7 0..2 arrays containing all values 0..2 with every 2X2 subblock having one or two distinct values, and new values 0..2 introduced in row major order.",
   "id": "A210093",
   "mentions": [
     "A210095"

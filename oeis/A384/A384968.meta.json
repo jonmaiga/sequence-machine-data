@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of proper vertex colorings of the n-complete bipartite graph using exactly k interchangeable colors, 2 <= k <= 2*n.",
+  "id": "A384968",
+  "mentions": [
+    "A000012",
+    "A000918",
+    "A001247",
+    "A008277",
+    "A212084",
+    "A274310",
+    "A384980",
+    "A384981"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

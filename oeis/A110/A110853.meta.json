@@ -1,9 +1,11 @@
 {
-  "description": "Squares of the form prime(n)*(n+1)^2 + 1.",
+  "description": "Squares of the form prime(k)*(k+1)^2 + 1.",
   "id": "A110853",
   "mentions": [],
   "tags": [
     "bref",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Cubes using at most three distinct digits, not ending in 0.",
+  "id": "A385175",
+  "mentions": [
+    "A000578",
+    "A018884",
+    "A030292",
+    "A030294",
+    "A155146",
+    "A202940"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

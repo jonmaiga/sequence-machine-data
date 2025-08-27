@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations of k elements from [1..n] in a circle where adjacent values cannot be consecutive modulo n, rotations are distinct",
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of k elements from [1..n] in a circle where adjacent values cannot be consecutive modulo n, rotations are distinct.",
   "id": "A338849",
   "mentions": [
     "A000166",

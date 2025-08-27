@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+2)X9 binary arrays with no 3X3 subblock having a sum equal to any horizontal or vertical neighbor 3X3 subblock sum",
+  "description": "Half the number of (n+2)X9 binary arrays with no 3X3 subblock having a sum equal to any horizontal or vertical neighbor 3X3 subblock sum.",
   "id": "A187962",
   "mentions": [
     "A187964"

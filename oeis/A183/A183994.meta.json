@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with all 2X2 subblock sums the same",
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with all 2X2 subblock sums the same.",
   "id": "A183994",
   "mentions": [
     "A184003"

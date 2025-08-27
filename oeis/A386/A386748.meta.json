@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^3*sigma_4(n).",
+  "id": "A386748",
+  "mentions": [
+    "A000578",
+    "A001159",
+    "A386747",
+    "A386749"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

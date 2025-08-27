@@ -1,11 +1,13 @@
 {
-  "description": "[1/s]+[2/s]+...+[n/s], where s=(golden ratio)^2 and []=floor.",
+  "description": "a(n) = [1/s] + [2/s] + ... + [n/s], where s = (golden ratio)^2 = (3+sqrt(5))/2 and [] = floor.",
   "id": "A183137",
   "mentions": [
     "A000217",
+    "A001622",
     "A005206",
     "A060143",
     "A060144",
+    "A104457",
     "A183136"
   ],
   "tags": [

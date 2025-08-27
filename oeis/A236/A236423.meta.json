@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that m^2 + n^2/m^2 is prime for every m|n.",
+  "description": "Numbers k such that m^2 + k^2/m^2 is prime for every m|k.",
   "id": "A236423",
   "mentions": [
     "A005574",

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers j such that the product of odd proper divisors of j is j.",
+  "id": "A385350",
+  "mentions": [
+    "A007422",
+    "A030513",
+    "A073582",
+    "A385349"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

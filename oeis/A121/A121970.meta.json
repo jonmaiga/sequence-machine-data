@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that if you subtract n from its reversal you get a positive number with the same digits as n.",
+  "description": "Numbers k such that if you subtract k from its reversal you get a positive number with the same digits as k.",
   "id": "A121970",
   "mentions": [
     "A055161",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Minimal m for packing the first n primes in a prime(n) X m rectangle",
+  "description": "Minimal m for packing the first n primes in a prime(n) X m rectangle.",
   "id": "A165907",
   "mentions": [
     "A007504",

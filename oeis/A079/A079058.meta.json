@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that A025591(k)>p(n) (p(n)=the n-th partition number).",
+  "description": "Least k > 0 such that A025591(k) >= p(n) (p(n)=the n-th partition number).",
   "id": "A079058",
   "mentions": [
     "A000041",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

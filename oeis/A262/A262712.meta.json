@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of digits on n^2 is 9.",
+  "description": "Numbers k such that sum of digits of k^2 is 9.",
   "id": "A262712",
   "mentions": [
     "A004159",

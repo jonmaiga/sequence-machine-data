@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6*n X 12 0..2 arrays with row sums 2 and column sums n",
+  "description": "Number of 6*n X 12 0..2 arrays with row sums 2 and column sums n.",
   "id": "A172705",
   "mentions": [],
   "tags": [

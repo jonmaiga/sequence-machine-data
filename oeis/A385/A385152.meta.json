@@ -1,0 +1,17 @@
+{
+  "description": "Pentagonal numbers that are one-fifth of another pentagonal number.",
+  "id": "A385152",
+  "mentions": [
+    "A000326",
+    "A385146"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

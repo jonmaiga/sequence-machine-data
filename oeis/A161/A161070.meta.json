@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into powers of two minus one where every part appears at least 8 times",
+  "description": "Number of partitions of n into powers of two minus one where every part appears at least 8 times.",
   "id": "A161070",
   "mentions": [],
   "tags": [

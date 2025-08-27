@@ -2,9 +2,12 @@
   "description": "Coefficients in q-expansion of E_2^2, where E_2 is the Eisenstein series shown in A006352.",
   "id": "A281374",
   "mentions": [
+    "A000203",
+    "A001158",
     "A006352"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

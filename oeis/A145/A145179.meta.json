@@ -1,5 +1,5 @@
 {
-  "description": "Number of finite noncyclic simple groups whose maximal order prime divisor is the n-th prime",
+  "description": "Number of finite noncyclic simple groups whose maximal order prime divisor is the n-th prime.",
   "id": "A145179",
   "mentions": [
     "A001034"

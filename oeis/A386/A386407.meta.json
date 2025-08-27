@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = -floor(log(Integral_{x=2n^3+2n+2...oo} n^(-x^3) dx)/log(n)).",
+  "id": "A386407",
+  "mentions": [
+    "A071568"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

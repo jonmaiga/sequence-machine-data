@@ -1,15 +1,16 @@
 {
-  "description": "Mersenne-like sequence factors of complex real square type 2*Prime[m]^2-n^2-1.",
+  "description": "Numbers k such that 2^k-1 is divisible by abs(p^2-k^2-1) for some prime p.",
   "id": "A095737",
-  "mentions": [],
+  "mentions": [
+    "A000225",
+    "A095735"
+  ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

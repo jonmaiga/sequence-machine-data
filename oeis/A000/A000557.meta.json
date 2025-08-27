@@ -1,10 +1,13 @@
 {
-  "description": "Expansion of e.g.f.: 1/(1-2*sinh(x)).",
+  "description": "Expansion of e.g.f. 1/(1 - 2*sinh(x)).",
   "id": "A000557",
   "mentions": [
     "A000045",
     "A000556",
     "A005923",
+    "A006154",
+    "A107403",
+    "A136630",
     "A320352",
     "A358031",
     "A358032"

@@ -1,5 +1,5 @@
 {
-  "description": "Period of continued fraction for sqrt(n) contains exactly 93 ones.",
+  "description": "Numbers k such that the period of the continued fraction for sqrt(k) contains exactly 93 ones.",
   "id": "A031861",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

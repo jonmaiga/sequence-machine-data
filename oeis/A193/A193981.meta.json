@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to arrange 3 nonattacking triangular rooks on an nXnXn triangular grid",
+  "description": "Number of ways to arrange 3 nonattacking triangular rooks on an nXnXn triangular grid.",
   "id": "A193981",
   "mentions": [
     "A193986"

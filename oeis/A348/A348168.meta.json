@@ -1,25 +1,15 @@
 {
-  "description": "The list of all prime numbers is split into sublists with the 1st sublist L_1 = {2} and n-th sublist L_n = {p_1, p_2, ..., p_m}. a(n) is the largest m such that p_1 - p_0 > p_2 - p_1 = g, where p_0 = prevprime(p_1) and g is the maximum prime gap in L_n.",
+  "description": "Segment the list of prime numbers into sublists L_1, L_2, ... with L_1 = {2} and L_n = {p_1, p_2, ..., p_a(n)}, where a(n) is the largest m such that for 0 < i < m, p_1 - prevprime(p_1) > p_2 - p_1 >= p_{i+1} - p_i.",
   "id": "A348168",
   "mentions": [
     "A001359",
-    "A006512",
     "A023200",
-    "A023201",
-    "A035789",
-    "A035790",
-    "A035791",
-    "A035792",
-    "A035793",
-    "A035794",
-    "A035795",
-    "A046117",
-    "A046132",
     "A087641",
     "A226657",
-    "A229030"
+    "A362017"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

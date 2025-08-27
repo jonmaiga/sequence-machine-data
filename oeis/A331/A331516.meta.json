@@ -2,8 +2,10 @@
   "description": "Expansion of 1/(1 - 10*x + 9*x^2)^(3/2).",
   "id": "A331516",
   "mentions": [
+    "A059231",
     "A084771",
-    "A331514"
+    "A331514",
+    "A383946"
   ],
   "tags": [
     "formulas",

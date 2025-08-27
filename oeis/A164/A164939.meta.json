@@ -1,5 +1,5 @@
 {
-  "description": "These are prime numbers p such that p^3 + p^2 + p + 2 is also prime",
+  "description": "These are prime numbers p such that p^3 + p^2 + p + 2 is also prime.",
   "id": "A164939",
   "mentions": [
     "A027444",

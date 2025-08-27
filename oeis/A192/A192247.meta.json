@@ -2,7 +2,6 @@
   "description": "1-sequence of reduction of tetrahedral number sequence by x^2 -> x+1.",
   "id": "A192247",
   "mentions": [
-    "A000292",
     "A192232",
     "A192246"
   ],

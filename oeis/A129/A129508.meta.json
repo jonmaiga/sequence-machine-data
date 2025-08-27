@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3 and 5 do not divide binomial(2n,n).",
+  "description": "Numbers k such that 3 and 5 do not divide binomial(2*k, k).",
   "id": "A129508",
   "mentions": [
     "A005836",

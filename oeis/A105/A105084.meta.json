@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: a[n, m] = a[n - 1, m] + binomial[n, m]; n <=m",
+  "description": "Triangle read by rows: a[n, m] = a[n - 1, m] + binomial[n, m]; n <=m.",
   "id": "A105084",
   "mentions": [],
   "tags": [

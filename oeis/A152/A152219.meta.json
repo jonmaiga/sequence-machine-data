@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that n! - 1 is divisible by a square greater than one.",
+  "description": "Numbers k such that k! - 1 is divisible by a square greater than one.",
   "id": "A152219",
   "mentions": [
     "A064237",
     "A152220"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

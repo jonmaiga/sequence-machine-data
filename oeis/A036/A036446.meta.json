@@ -1,7 +1,9 @@
 {
-  "description": "Not of form sigma(k)-phi(k).",
+  "description": "Not of form sigma(k) - phi(k).",
   "id": "A036446",
   "mentions": [
+    "A000010",
+    "A000203",
     "A051612",
     "A112730"
   ],
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction for 1/6 + Soldner's constant",
+  "description": "Continued fraction for 1/6 + Soldner's constant.",
   "id": "A160923",
   "mentions": [
     "A000012",

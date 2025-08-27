@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers whose anti-divisors are all prime numbers",
+  "description": "Prime numbers whose anti-divisors are all prime numbers.",
   "id": "A192281",
   "mentions": [
     "A066272"

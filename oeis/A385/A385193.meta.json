@@ -1,0 +1,24 @@
+{
+  "description": "Odd multiplicative orders of 5 modulo primes.",
+  "id": "A385193",
+  "mentions": [
+    "A139686",
+    "A211241",
+    "A385192",
+    "A385226",
+    "A385227",
+    "A385228",
+    "A385229",
+    "A385230",
+    "A385231"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

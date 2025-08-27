@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} sigma(d) * phi(d) * mu(n/d).",
+  "id": "A386624",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062354",
+    "A330523"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

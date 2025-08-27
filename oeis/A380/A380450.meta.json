@@ -1,22 +1,19 @@
 {
-  "description": "Odd numbers k such that A339792(k^2) = 0, where A339792 is the third coefficient of the lindep transform of sigma.",
+  "description": "Number of integers k such that prime(n) - primorial(k) is prime.",
   "id": "A380450",
   "mentions": [
-    "A000196",
-    "A322154",
-    "A339790",
-    "A339791",
-    "A339792",
-    "A380445",
-    "A380449"
+    "A000040",
+    "A002110",
+    "A115785",
+    "A175974",
+    "A385210"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 90,
     "source": "oeis-bfile"
   }
 }

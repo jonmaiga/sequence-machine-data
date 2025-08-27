@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that smallest digit of all divisors of n is 1.",
+  "description": "Numbers k such that smallest digit of all divisors of k is 1.",
   "id": "A209931",
   "mentions": [
     "A037278",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

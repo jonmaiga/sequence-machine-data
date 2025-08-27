@@ -1,8 +1,9 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x*A(2x)^7.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(2*x)^7.",
   "id": "A171208",
   "mentions": [
     "A135867",
+    "A171196",
     "A171200",
     "A171207",
     "A171209",
@@ -11,6 +12,7 @@
     "A343439"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

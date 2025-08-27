@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that the cube of each digit of n is a substring of n^2.",
+  "description": "Positive numbers k such that the cube of each digit of k is a substring of k^2.",
   "id": "A173900",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

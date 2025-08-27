@@ -1,0 +1,18 @@
+{
+  "description": "Popular primes.",
+  "id": "A385503",
+  "mentions": [
+    "A006530",
+    "A124661",
+    "A246033"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

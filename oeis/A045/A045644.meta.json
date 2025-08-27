@@ -1,14 +1,25 @@
 {
   "description": "Palindromic and divisible by 9.",
   "id": "A045644",
-  "mentions": [],
+  "mentions": [
+    "A002113",
+    "A008591",
+    "A029951",
+    "A043040",
+    "A043041",
+    "A045638",
+    "A045639",
+    "A045642",
+    "A045643",
+    "A083852"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

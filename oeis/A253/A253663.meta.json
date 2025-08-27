@@ -2,7 +2,9 @@
   "description": "Number of positive solutions to x^2+y^2+z^2 <= n^2.",
   "id": "A253663",
   "mentions": [
+    "A000122",
     "A000604",
+    "A005875",
     "A211639"
   ],
   "tags": [

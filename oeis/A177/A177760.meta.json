@@ -1,5 +1,5 @@
 {
-  "description": "Bases m in solutions of the Thue equation s^2 = m^5+z, sorted along increasing z.",
+  "description": "Values m in solutions of the Thue equation s^2 = m^5+z, sorted along increasing z.",
   "id": "A177760",
   "mentions": [
     "A152412",

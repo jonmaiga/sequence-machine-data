@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX1 0..5 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor",
+  "description": "Number of nX1 0..5 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor.",
   "id": "A203050",
   "mentions": [
     "A203057"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into powers of two where every part appears at least 5 times",
+  "description": "Number of partitions of n into powers of two where every part appears at least 5 times.",
   "id": "A161054",
   "mentions": [],
   "tags": [

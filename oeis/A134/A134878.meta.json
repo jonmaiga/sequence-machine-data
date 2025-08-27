@@ -2,12 +2,14 @@
   "description": "Decimal expansion of Sum_{k>=1} 1/(k^2)^(k^2).",
   "id": "A134878",
   "mentions": [
+    "A008972",
     "A073009",
     "A100085",
     "A134877"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

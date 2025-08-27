@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that n reduced mod (sum of all the other digits) is d, for each digit d.",
+  "description": "Numbers k with property that k reduced mod (sum of all the other digits) is d, for each digit d.",
   "id": "A172189",
   "mentions": [
     "A007953"

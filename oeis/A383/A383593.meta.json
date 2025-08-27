@@ -1,0 +1,21 @@
+{
+  "description": "In the binary expansion of n, change the most significant 0 bit to 1, if there is any 0 bit.",
+  "id": "A383593",
+  "mentions": [
+    "A000225",
+    "A004760",
+    "A063250"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

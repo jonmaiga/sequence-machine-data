@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into odd numbers where every part appears at least 14 times",
+  "description": "Number of partitions of n into odd numbers where every part appears at least 14 times.",
   "id": "A161050",
   "mentions": [],
   "tags": [

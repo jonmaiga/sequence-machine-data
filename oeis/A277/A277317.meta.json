@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A277333(n) is a prime.",
+  "description": "Numbers k such that A277333(k) is a prime.",
   "id": "A277317",
   "mentions": [
     "A000040",

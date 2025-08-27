@@ -1,0 +1,20 @@
+{
+  "description": "Number of unsensed simple planar maps with n vertices and 2 faces.",
+  "id": "A384967",
+  "mentions": [
+    "A001429",
+    "A006081",
+    "A379430",
+    "A380239",
+    "A384963",
+    "A384966"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

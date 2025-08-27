@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that have exactly one exponent in their prime factorization that is equal to 5.",
+  "id": "A386808",
+  "mentions": [
+    "A119251",
+    "A362841",
+    "A386796",
+    "A386800",
+    "A386804",
+    "A386807",
+    "A386809",
+    "A386810"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

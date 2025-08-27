@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=least odd number k such that 3*k*2^n-1 is a prime number",
+  "description": "a(n)=least odd number k such that 3*k*2^n-1 is a prime number.",
   "id": "A210651",
   "mentions": [
     "A126717"

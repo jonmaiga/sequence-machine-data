@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..3 arrays with each element equal to either the sum mod 4 of its horizontal and vertical neighbors or the sum mod 4 of its diagonal and antidiagonal neighbors",
+  "description": "Number of n X n 0..3 arrays with each element equal to either the sum mod 4 of its horizontal and vertical neighbors or the sum mod 4 of its diagonal and antidiagonal neighbors.",
   "id": "A183535",
   "mentions": [
     "A183541"

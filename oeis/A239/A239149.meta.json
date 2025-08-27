@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..3 arrays with no element equal to all horizontal neighbors or unequal to all vertical neighbors, and new values 0..3 introduced in row major order",
+  "description": "Number of (n+1)X(n+1) 0..3 arrays with no element equal to all horizontal neighbors or unequal to all vertical neighbors, and new values 0..3 introduced in row major order.",
   "id": "A239149",
   "mentions": [
     "A239155"

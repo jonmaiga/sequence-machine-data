@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = pos(M(n)), where M(n) is the n X n circulant matrix with (row 1) = (F(1), F(2), ..., F(n)), where F = A000045 (Fibonacci numbers), and neg(M(n)) is the negative part of the determinant of M(n); see A380661.",
+  "id": "A384593",
+  "mentions": [
+    "A000045",
+    "A123745",
+    "A380661",
+    "A384591",
+    "A384592"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "The numbers of people in the \"SpellUnder-Down\" variant of the Josephus problem such that the last person is freed.",
+  "id": "A385513",
+  "mentions": [
+    "A002387",
+    "A005589",
+    "A006257",
+    "A182459",
+    "A225381",
+    "A321298",
+    "A378635",
+    "A380201",
+    "A380202",
+    "A380204",
+    "A380246",
+    "A380247",
+    "A380248",
+    "A385328"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

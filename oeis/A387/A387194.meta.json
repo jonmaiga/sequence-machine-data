@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of J_0(Pi/2), Bessel Function of the first kind of index 0 at A019669.",
+  "id": "A387194",
+  "mentions": [
+    "A019669",
+    "A387193",
+    "A387195"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "oeis-bfile"
+  }
+}

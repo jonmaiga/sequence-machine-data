@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of faces of polyhedra made entirely of regular polygons that are not prisms or antiprisms",
+  "description": "Numbers of faces of polyhedra made entirely of regular polygons that are not prisms or antiprisms.",
   "id": "A181708",
   "mentions": [
     "A180916"

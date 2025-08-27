@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that multiplicative order of -3 modulo p is odd.",
+  "id": "A385223",
+  "mentions": [
+    "A002476",
+    "A014663",
+    "A068229",
+    "A163183",
+    "A385192",
+    "A385220",
+    "A385221",
+    "A385224",
+    "A385225",
+    "A385229"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

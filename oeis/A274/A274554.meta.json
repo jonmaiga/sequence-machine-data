@@ -1,15 +1,17 @@
 {
-  "description": "Numbers n such that sigma(n) == 0 (mod n-4).",
+  "description": "Numbers k such that sigma(k) == 0 (mod k-4).",
   "id": "A274554",
   "mentions": [
     "A067702",
     "A125247",
     "A223609",
     "A274551",
+    "A274552",
     "A274553",
     "A274566"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

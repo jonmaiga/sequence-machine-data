@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have exactly two exponents in their prime factorization that are equal to 4.",
+  "id": "A386805",
+  "mentions": [
+    "A386797",
+    "A386801",
+    "A386803",
+    "A386804",
+    "A386806",
+    "A386809"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

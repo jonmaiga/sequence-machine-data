@@ -2,6 +2,7 @@
   "description": "a(1) = 1. Thereafter a(n) is the cardinality of the set of terms whose leading decimal digit is the same as that of a(n-1).",
   "id": "A384309",
   "mentions": [
+    "A000030",
     "A248034"
   ],
   "tags": [

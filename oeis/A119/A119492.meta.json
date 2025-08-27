@@ -1,5 +1,5 @@
 {
-  "description": "Composites n not dividing binomial(n,k) for any k to which n is not prime.",
+  "description": "Composites c not dividing binomial(c,k) for any k to which c is not coprime.",
   "id": "A119492",
   "mentions": [
     "A246547"

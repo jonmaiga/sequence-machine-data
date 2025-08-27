@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the volume of a parabiaugmented truncated dodecahedron with unit edges.",
+  "id": "A386466",
+  "mentions": [
+    "A002163",
+    "A179590",
+    "A377695",
+    "A385578",
+    "A385802",
+    "A386464",
+    "A386543",
+    "A386544"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

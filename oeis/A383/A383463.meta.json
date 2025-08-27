@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(16*k+1)^3.",
+  "id": "A383463",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

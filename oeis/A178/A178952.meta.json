@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Log base 2 of the number of nXk binary arrays with no element equal to the modulo 2 sum of its king-move neighbors",
+  "description": "T(n,k)=Log base 2 of the number of nXk binary arrays with no element equal to the modulo 2 sum of its king-move neighbors.",
   "id": "A178952",
   "mentions": [],
   "tags": [

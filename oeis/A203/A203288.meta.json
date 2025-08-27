@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of 2n nondecreasing integers in -5..5 with sum zero and equal numbers greater than zero and less than zero",
+  "description": "Number of arrays of 2n nondecreasing integers in -5..5 with sum zero and equal numbers greater than zero and less than zero.",
   "id": "A203288",
   "mentions": [
     "A203291"

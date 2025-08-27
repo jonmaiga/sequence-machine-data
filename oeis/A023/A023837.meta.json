@@ -1,13 +1,31 @@
 {
   "description": "Sum of exponents in prime-power factorization of C(5n,n).",
   "id": "A023837",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A001449",
+    "A023838",
+    "A023839",
+    "A023840",
+    "A023841",
+    "A023842",
+    "A023843",
+    "A023844",
+    "A023845",
+    "A023846",
+    "A023847",
+    "A023848",
+    "A023849",
+    "A023850",
+    "A023851"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 78,
+    "offset": 0,
+    "size": 79,
     "source": "oeis-bfile"
   }
 }

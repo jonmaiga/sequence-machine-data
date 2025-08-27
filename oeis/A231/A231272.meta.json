@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with unique solution to n = +-1^2+-2^2+-3^2+-4^2+-...+-k^2 with minimal k giving at least one solution.",
+  "description": "Numbers m with unique solution to m = +-1^2+-2^2+-3^2+-4^2+-...+-k^2 with minimal k giving at least one solution.",
   "id": "A231272",
   "mentions": [
     "A000330",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 65,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

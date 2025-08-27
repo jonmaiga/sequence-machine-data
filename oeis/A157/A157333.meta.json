@@ -1,5 +1,5 @@
 {
-  "description": "Least j such that 6*p(j)*M(n)-1 is prime with p(j)=j-th prime and M(n) = Mersenne prime",
+  "description": "Least j such that 6*p(j)*M(n)-1 is prime with p(j)=j-th prime and M(n) = Mersenne prime.",
   "id": "A157333",
   "mentions": [],
   "tags": [

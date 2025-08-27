@@ -2,15 +2,18 @@
   "description": "Product of the forward and reverse concatenations of 1 to n.",
   "id": "A078263",
   "mentions": [
+    "A000422",
+    "A007908",
     "A078264"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 14,
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes equal to a multiple of its reversal +/- a prime smaller than itself in exactly 8 ways",
+  "description": "Primes equal to a multiple of its reversal +/- a prime smaller than itself in exactly 8 ways.",
   "id": "A182239",
   "mentions": [
     "A202286",

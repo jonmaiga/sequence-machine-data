@@ -1,13 +1,16 @@
 {
-  "description": "Expansion of e.g.f. (sin 2x + cos x) / cos 3x.",
+  "description": "Expansion of e.g.f. (sin(2*x) + cos(x)) / cos(3*x).",
   "id": "A007289",
   "mentions": [
+    "A000111",
     "A000191",
     "A000436",
     "A006873",
     "A007286",
+    "A136630",
     "A225109",
-    "A349271"
+    "A349271",
+    "A352638"
   ],
   "tags": [
     "formulas",

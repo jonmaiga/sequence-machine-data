@@ -1,0 +1,30 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals: A(n,k) = binomial((k+1)*n+k-1,n)/(n+1).",
+  "id": "A386558",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A006013",
+    "A006632",
+    "A118971",
+    "A130564",
+    "A130565",
+    "A162382",
+    "A177784",
+    "A234466",
+    "A234513",
+    "A234573",
+    "A235340"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

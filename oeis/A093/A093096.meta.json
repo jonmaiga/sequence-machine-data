@@ -2,9 +2,12 @@
   "description": "Start with a(1) = a(2) = 3; then apply the rule of A093094.",
   "id": "A093096",
   "mentions": [
+    "A045777",
     "A060310",
     "A093094",
-    "A093095"
+    "A093095",
+    "A093097",
+    "A096381"
   ],
   "tags": [
     "base",

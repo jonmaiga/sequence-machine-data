@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n 0..7 array with new values introduced in row major order 0..7 and no two horizontal or vertical neighbors of any element equal",
+  "description": "Number of lower triangles of an n X n 0..7 array with new values introduced in row major order 0..7 and no two horizontal or vertical neighbors of any element equal.",
   "id": "A194892",
   "mentions": [
     "A194893"

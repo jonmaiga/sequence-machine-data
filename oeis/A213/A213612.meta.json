@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the duration of the Julian year in SI seconds",
+  "description": "Decimal expansion of the duration of the Julian year in SI seconds.",
   "id": "A213612",
   "mentions": [
     "A003678",

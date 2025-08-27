@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+2 0..3 arrays with the sum of second differences squared multiplied by some arrangement of +-1 equal to zero",
+  "description": "Number of length n+2 0..3 arrays with the sum of second differences squared multiplied by some arrangement of +-1 equal to zero.",
   "id": "A250315",
   "mentions": [
     "A250320"

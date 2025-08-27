@@ -1,23 +1,17 @@
 {
-  "description": "Squares k for which A339792(k), the third coefficient of the lindep transform of sigma, is 0.",
+  "description": "Least primes which can be represented as the sum of distinct positive cubes in exactly n ways, or 0 if no such prime exists.",
   "id": "A380448",
   "mentions": [
-    "A000290",
-    "A339790",
-    "A339791",
-    "A339792",
-    "A380444",
-    "A380445",
-    "A380446",
-    "A380449"
+    "A003997",
+    "A275154",
+    "A385094"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 47,
     "source": "oeis-bfile"
   }
 }

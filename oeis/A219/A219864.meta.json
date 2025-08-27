@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as p+q with p and 2pq+1 both prime",
+  "description": "Number of ways to write n as p+q with p and 2pq+1 both prime.",
   "id": "A219864",
   "mentions": [
     "A002372",

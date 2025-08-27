@@ -1,0 +1,33 @@
+{
+  "description": "The sum of the cubefull divisors of n.",
+  "id": "A385005",
+  "mentions": [
+    "A000593",
+    "A033634",
+    "A035316",
+    "A036966",
+    "A038712",
+    "A048250",
+    "A072079",
+    "A073185",
+    "A113061",
+    "A162296",
+    "A183097",
+    "A186099",
+    "A190867",
+    "A353900",
+    "A360540",
+    "A385006"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

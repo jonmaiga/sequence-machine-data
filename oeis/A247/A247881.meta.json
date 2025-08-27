@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form x^2 + 13y^2.",
+  "description": "Numbers of the form x^2 + 13*y^2.",
   "id": "A247881",
   "mentions": [
     "A033210"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

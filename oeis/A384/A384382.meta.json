@@ -1,0 +1,20 @@
+{
+  "description": "Number of polynomials with a shortest addition-multiplication chain of length n, starting with 1 and x.",
+  "id": "A384382",
+  "mentions": [
+    "A382928",
+    "A383002",
+    "A383331",
+    "A384383",
+    "A384482"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

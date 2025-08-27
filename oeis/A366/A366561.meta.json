@@ -2,8 +2,10 @@
   "description": "Triangle read by rows: T(n,k) = Sum_{y=1..n} Sum_{x=1..n} [GCD(f(x,y), n) = k], where f(x,y) = x^2 - y^2.",
   "id": "A366561",
   "mentions": [
+    "A000010",
     "A000290",
     "A023900",
+    "A054523",
     "A062803",
     "A082953",
     "A127649",

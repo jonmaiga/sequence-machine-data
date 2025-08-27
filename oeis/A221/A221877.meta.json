@@ -1,5 +1,5 @@
 {
-  "description": "Number of order-preserving or order-reversing full contraction mappings (of an n-chain) with height exactly k.",
+  "description": "Triangle read by rows: T(n,k) = number of order-preserving or order-reversing full contraction mappings (of an n-chain) with height exactly k.",
   "id": "A221877",
   "mentions": [
     "A221876",
@@ -11,11 +11,12 @@
   ],
   "tags": [
     "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

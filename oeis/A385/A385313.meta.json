@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = c(n) + Sum_{d|n} d * phi(n/d) * (1 - c(d)), where c = A010051.",
+  "id": "A385313",
+  "mentions": [
+    "A000010",
+    "A010051",
+    "A018804",
+    "A380447"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

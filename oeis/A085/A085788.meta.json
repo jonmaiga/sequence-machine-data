@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of n 3-spaced triangular numbers beginning with t(3), e.g., a(2)=t(3)+t(6)=6+21=27.",
+  "description": "Partial sums of n 3-spaced triangular numbers beginning with t(3), e.g., a(2) = t(3)+t(6) = 6+21 = 27.",
   "id": "A085788",
   "mentions": [
     "A001283",

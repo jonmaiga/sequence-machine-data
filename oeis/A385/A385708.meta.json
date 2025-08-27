@@ -1,0 +1,20 @@
+{
+  "description": "Periodic part of the binary expansion of A385706(n) / A386237(n).",
+  "id": "A385708",
+  "mentions": [
+    "A010060",
+    "A385706",
+    "A386237"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

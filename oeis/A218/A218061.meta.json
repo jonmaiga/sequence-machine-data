@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..1 nX5 array",
+  "description": "Number of nX5 arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..1 nX5 array.",
   "id": "A218061",
   "mentions": [
     "A218064"

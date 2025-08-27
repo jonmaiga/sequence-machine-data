@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers m that form Gaussian integers m + i such that every Gaussian integer g with |g| <= |m + i| is a linear combination of the distinct Gaussian divisors of m + i (where i is the imaginary unit).",
+  "id": "A385916",
+  "mentions": [
+    "A005153",
+    "A005574",
+    "A363227",
+    "A385489"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that A078649(k)>=n",
+  "description": "Least k such that A078649(k)>=n.",
   "id": "A156251",
   "mentions": [
     "A078649"

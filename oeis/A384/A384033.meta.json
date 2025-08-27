@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of solutions to n = sopfr(k*sopfr(n)) where sopfr(m) is sum of prime factors of m counted with multiplicity.",
+  "id": "A384033",
+  "mentions": [
+    "A000607",
+    "A001414"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

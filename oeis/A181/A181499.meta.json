@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of solutions of n queens problem for given n and given number of conflicts",
+  "description": "Triangle read by rows: number of solutions of n queens problem for given n and given number of conflicts.",
   "id": "A181499",
   "mentions": [
     "A000170",

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form x^x + y^y, 1 < x < y.",
+  "id": "A385614",
+  "mentions": [
+    "A000312",
+    "A131818",
+    "A133196",
+    "A173054",
+    "A385232"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

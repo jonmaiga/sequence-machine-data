@@ -1,0 +1,18 @@
+{
+  "description": "Sum over all ordered partitions of [n] of 6^j for an ordered partition with j inversions.",
+  "id": "A385408",
+  "mentions": [
+    "A000670",
+    "A381299",
+    "A381426"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

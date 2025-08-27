@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the Hamming weight of A256590(n).",
+  "id": "A386289",
+  "mentions": [
+    "A000120",
+    "A256590",
+    "A386249"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

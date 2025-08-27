@@ -1,13 +1,17 @@
 {
   "description": "Primes p such that there is an integer k satisfying p = floor(k*H(k)) where H(k) denotes the k-th harmonic number (i.e., H(k) = 1 + 1/2 + 1/3 + ... + 1/k).",
   "id": "A079447",
-  "mentions": [],
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A052488"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
-    "source": "oeis-entry"
+    "size": 51,
+    "source": "joeis"
   }
 }

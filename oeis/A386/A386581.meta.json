@@ -1,0 +1,42 @@
+{
+  "description": "Number of normal multisets of size n with no permutation having all distinct run lengths.",
+  "id": "A386581",
+  "mentions": [
+    "A000009",
+    "A025065",
+    "A032020",
+    "A047966",
+    "A048767",
+    "A048768",
+    "A072233",
+    "A098859",
+    "A116540",
+    "A130091",
+    "A217605",
+    "A239455",
+    "A242882",
+    "A320347",
+    "A326083",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A381432",
+    "A381433",
+    "A382771",
+    "A382912",
+    "A382913",
+    "A383706",
+    "A383708",
+    "A383710",
+    "A386580"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

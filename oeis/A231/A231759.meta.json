@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(3+1) 0..1 arrays with no element having a strict majority of its horizontal, diagonal and antidiagonal neighbors equal to one",
+  "description": "Number of (n+1)X(3+1) 0..1 arrays with no element having a strict majority of its horizontal, diagonal and antidiagonal neighbors equal to one.",
   "id": "A231759",
   "mentions": [
     "A231764"

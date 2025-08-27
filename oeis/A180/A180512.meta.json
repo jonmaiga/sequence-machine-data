@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of the number of alternating sign matrices according to the number of -1's",
+  "description": "Triangle of the number of alternating sign matrices according to the number of -1's.",
   "id": "A180512",
   "mentions": [
     "A000142",

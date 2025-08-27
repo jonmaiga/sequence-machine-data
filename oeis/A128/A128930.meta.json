@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n) * pi(n).",
+  "description": "a(n) = prime(n) * pi(n).",
   "id": "A128930",
   "mentions": [
     "A000040",

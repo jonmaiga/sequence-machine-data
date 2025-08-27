@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1) X 4 binary arrays with every 2 X 2 subblock singular",
+  "description": "Number of (n+1) X 4 binary arrays with every 2 X 2 subblock singular.",
   "id": "A184680",
   "mentions": [
     "A184686"

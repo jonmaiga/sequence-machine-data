@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form f(n) = 9*n^6 - 804*n^5 + 29836*n^4 - 588615*n^3 + 6509950*n^2 - 38263500*n + 93363947 for values of n >= 0.",
+  "description": "Primes of the form f(k) = 9*k^6 - 804*k^5 + 29836*k^4 - 588615*k^3 + 6509950*k^2 - 38263500*k + 93363947 for values of k >= 0.",
   "id": "A117624",
   "mentions": [
     "A005846"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

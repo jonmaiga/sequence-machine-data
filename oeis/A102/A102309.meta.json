@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = Sum_{d divides n} moebius(d) * C(n/d,2).",
+  "description": "a(n) = Sum_{d divides n} moebius(d) * binomial(n/d,2).",
   "id": "A102309",
   "mentions": [
     "A000217",
+    "A002117",
     "A008683",
     "A020921",
     "A100448",

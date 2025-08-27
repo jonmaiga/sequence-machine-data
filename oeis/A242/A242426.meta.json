@@ -1,5 +1,5 @@
 {
-  "description": "floor(n! / n^3).",
+  "description": "a(n) = floor(n! / n^3).",
   "id": "A242426",
   "mentions": [
     "A000142",

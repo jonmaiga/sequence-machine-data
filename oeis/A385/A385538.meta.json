@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A184859.",
+  "id": "A385538",
+  "mentions": [
+    "A001622",
+    "A007067",
+    "A184859"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

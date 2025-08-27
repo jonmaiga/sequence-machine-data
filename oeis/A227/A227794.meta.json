@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form floor(Pi*n^2).",
+  "description": "Primes of the form floor(Pi*k^2).",
   "id": "A227794",
   "mentions": [
     "A066643",

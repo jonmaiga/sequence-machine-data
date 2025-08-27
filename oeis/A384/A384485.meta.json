@@ -1,0 +1,22 @@
+{
+  "description": "Number of integers with a shortest addition-composition chain of length n, starting with 1 and x, i.e., number of integers k with A384483(k) = n.",
+  "id": "A384485",
+  "mentions": [
+    "A003065",
+    "A383002",
+    "A384386",
+    "A384480",
+    "A384482",
+    "A384483",
+    "A384484"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

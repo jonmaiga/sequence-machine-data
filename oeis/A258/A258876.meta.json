@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that both n and prime(n) have the same digital root.",
+  "description": "Integers k such that both k and prime(k) have the same digital root.",
   "id": "A258876",
   "mentions": [
     "A010888",

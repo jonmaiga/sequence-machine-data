@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that in Z/nZ the equation x^y + 1 = 0 has only the trivial solutions with x == -1 (mod n).",
+  "description": "Numbers k such that in Z/kZ the equation x^y + 1 = 0 has only the trivial solutions with x == -1 (mod k).",
   "id": "A178751",
   "mentions": [
     "A038192",

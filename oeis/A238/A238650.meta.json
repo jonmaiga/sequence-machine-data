@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) 0..1 arrays with no element equal to all horizontal neighbors or equal to all vertical neighbors, and new values 0..1 introduced in row major order",
+  "description": "Number of (n+2)X(4+2) 0..1 arrays with no element equal to all horizontal neighbors or equal to all vertical neighbors, and new values 0..1 introduced in row major order.",
   "id": "A238650",
   "mentions": [
     "A238654"

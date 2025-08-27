@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays avoiding the pattern z z+1 z horizontally and z z-1 z vertically",
+  "description": "T(n,k)=Number of nXk 0..3 arrays avoiding the pattern z z+1 z horizontally and z z-1 z vertically.",
   "id": "A209092",
   "mentions": [
     "A206790",

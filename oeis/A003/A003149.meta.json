@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} k!(n-k)!.",
+  "description": "a(n) = Sum_{k=0..n} k!*(n - k)!.",
   "id": "A003149",
   "mentions": [
     "A000142",

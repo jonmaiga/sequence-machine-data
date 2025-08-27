@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of (n+1)X4 0..3 arrays with every 2X2 subblock having distinct edge sums",
+  "description": "1/4 the number of (n+1)X4 0..3 arrays with every 2X2 subblock having distinct edge sums.",
   "id": "A209731",
   "mentions": [
     "A209736"

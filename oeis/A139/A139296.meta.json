@@ -1,5 +1,5 @@
 {
-  "description": "2^(2p - 1)/2, where p is a Mersenne prime A000668(n).",
+  "description": "a(n) = 2^(2p - 1)/2, where p is the n-th Mersenne prime A000668(n).",
   "id": "A139296",
   "mentions": [
     "A000668",

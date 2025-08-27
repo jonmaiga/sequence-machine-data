@@ -1,0 +1,15 @@
+{
+  "description": "Dimension in which a random vector of length n has the highest probability to fall into a single hypercube with side length of 10.",
+  "id": "A383856",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

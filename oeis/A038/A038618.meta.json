@@ -1,5 +1,5 @@
 {
-  "description": "Primes not containing the decimal digit 0, a.k.a. zeroless or zerofree primes.",
+  "description": "Primes not containing the digit '0'.",
   "id": "A038618",
   "mentions": [
     "A000040",
@@ -16,7 +16,9 @@
     "A052382",
     "A056709",
     "A168046",
-    "A195943"
+    "A195943",
+    "A384793",
+    "A384794"
   ],
   "tags": [
     "base",

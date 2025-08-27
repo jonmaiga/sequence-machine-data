@@ -2,7 +2,9 @@
   "description": "Coefficients A_n for the s=4 tennis ball problem.",
   "id": "A078999",
   "mentions": [
-    "A049235"
+    "A002293",
+    "A049235",
+    "A078995"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

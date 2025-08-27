@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of B(x)/sqrt(1 + 4*(B(x)-1)/5), where B(x) is the g.f. of A001449.",
+  "id": "A387084",
+  "mentions": [
+    "A001449",
+    "A002294",
+    "A079589",
+    "A183161",
+    "A208977",
+    "A387086"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

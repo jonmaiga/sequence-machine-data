@@ -1,0 +1,40 @@
+{
+  "description": "Numbers whose binary indices have all distinct lengths of maximal anti-runs (increasing by more than 1).",
+  "id": "A384879",
+  "mentions": [
+    "A000120",
+    "A023758",
+    "A044813",
+    "A048793",
+    "A069010",
+    "A098859",
+    "A164707",
+    "A242882",
+    "A243815",
+    "A245562",
+    "A245563",
+    "A246029",
+    "A325325",
+    "A328592",
+    "A336866",
+    "A356606",
+    "A356607",
+    "A384175",
+    "A384176",
+    "A384177",
+    "A384877",
+    "A384878",
+    "A384884",
+    "A384886",
+    "A384890",
+    "A384893"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

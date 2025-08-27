@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there is exactly one solution to x - d(x) = n, where d(n) is the number of divisors of n (A000005). Positions of ones in A060990.",
+  "description": "Numbers k for which there is exactly one solution to x - d(x) = k, where d(k) is the number of divisors of k (A000005). Positions of ones in A060990.",
   "id": "A262511",
   "mentions": [
     "A000005",

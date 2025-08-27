@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX3 binary arrays with no element equal to a strict majority of its knight-move neighbors",
+  "description": "Half the number of nX3 binary arrays with no element equal to a strict majority of its knight-move neighbors.",
   "id": "A183394",
   "mentions": [
     "A183397"

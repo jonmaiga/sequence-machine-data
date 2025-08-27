@@ -1,16 +1,16 @@
 {
-  "description": "Primes of the form (17^n - 3^n)/14.",
+  "description": "Primes of the form (17^k - 3^k)/14.",
   "id": "A138944",
   "mentions": [
     "A128031"
   ],
   "tags": [
-    "bref",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

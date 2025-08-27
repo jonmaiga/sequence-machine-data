@@ -1,0 +1,17 @@
+{
+  "description": "Least integer k such that the sum of its anti-divisors is equal to k + n.",
+  "id": "A385451",
+  "mentions": [
+    "A066417",
+    "A385490"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1/3645.",
+  "id": "A384917",
+  "mentions": [
+    "A002378",
+    "A021733"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

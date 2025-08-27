@@ -1,9 +1,8 @@
 {
-  "description": "Ordered sequence of nonnegative differences 4f-5g, where f and g are Lucas numbers (A000032 beginning at 1).",
+  "description": "Ordered sequence of nonnegative differences 4*f-5*g, where f and g are Lucas numbers (A000032 beginning at 1).",
   "id": "A192050",
   "mentions": [
     "A000032",
-    "A192048",
     "A192049"
   ],
   "tags": [

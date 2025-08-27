@@ -1,5 +1,5 @@
 {
-  "description": "Least positive k such that both prime(n)+k and prime(n)+2k are prime, or 0 if no such k exists.",
+  "description": "Least positive k such that both prime(n)+k and prime(n)+2*k are prime, or 0 if no such k exists.",
   "id": "A120627",
   "mentions": [
     "A000040"

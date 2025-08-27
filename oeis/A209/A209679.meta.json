@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..4 arrays with every element equal to a diagonal or antidiagonal reflection, and new values 0 upwards introduced in row major order",
+  "description": "Number of n X n 0..4 arrays with every element equal to a diagonal or antidiagonal reflection, and new values 0 upwards introduced in row major order.",
   "id": "A209679",
   "mentions": [
     "A209684"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=number of nXk binary matrices with rows and columns each in strictly increasing order as binary numbers and the number of 1s in rows being even and in columns being odd",
+  "description": "T(n,k)=number of nXk binary matrices with rows and columns each in strictly increasing order as binary numbers and the number of 1s in rows being even and in columns being odd.",
   "id": "A181009",
   "mentions": [],
   "tags": [

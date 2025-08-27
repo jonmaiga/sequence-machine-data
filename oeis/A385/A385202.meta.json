@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: let S be an ordered set of nondivisors of n such that a and b belong to S if a + b = n. T(n,k) is the k-th member of S. If S is empty, T(n,k) = 0.",
+  "id": "A385202",
+  "mentions": [
+    "A086369"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

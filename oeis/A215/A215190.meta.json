@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of arrays of n 0..k integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements",
+  "description": "T(n,k)=Number of arrays of n 0..k integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements.",
   "id": "A215190",
   "mentions": [
     "A002378",

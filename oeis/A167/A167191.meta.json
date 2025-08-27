@@ -1,5 +1,5 @@
 {
-  "description": "4*n*(1+45*n+620*n^2).",
+  "description": "a(n) = 4*n*(1 + 45*n + 620*n^2).",
   "id": "A167191",
   "mentions": [
     "A167190"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 29,
     "source": "joeis"
   }
 }

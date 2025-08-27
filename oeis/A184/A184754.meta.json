@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of n X n binary arrays with no 1 having an adjacent 1 both above and to its left",
+  "description": "Half the number of n X n binary arrays with no 1 having an adjacent 1 both above and to its left.",
   "id": "A184754",
   "mentions": [
     "A184761"

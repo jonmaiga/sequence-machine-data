@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..1 arrays with each element equal to at least two neighbors, containing at least one 1 and with new values 0..1 introduced in row major order",
+  "description": "Number of nXnXn triangular 0..1 arrays with each element equal to at least two neighbors, containing at least one 1 and with new values 0..1 introduced in row major order.",
   "id": "A192887",
   "mentions": [],
   "tags": [

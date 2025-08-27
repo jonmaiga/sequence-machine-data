@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that no cube can end in n (in the sense of the respective decimal expansions).",
+  "description": "Numbers k such that no cube can end in k (in the sense of the respective decimal expansions).",
   "id": "A246449",
   "mentions": [
     "A246422"

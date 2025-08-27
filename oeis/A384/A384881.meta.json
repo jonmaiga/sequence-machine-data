@@ -1,0 +1,42 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with k maximal runs of consecutive parts decreasing by 1.",
+  "id": "A384881",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000217",
+    "A001227",
+    "A007690",
+    "A008284",
+    "A034296",
+    "A047966",
+    "A047993",
+    "A066205",
+    "A066311",
+    "A073491",
+    "A098859",
+    "A116608",
+    "A116674",
+    "A183558",
+    "A268193",
+    "A287170",
+    "A325325",
+    "A356229",
+    "A375136",
+    "A384882",
+    "A384884",
+    "A384887",
+    "A385213"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

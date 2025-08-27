@@ -1,19 +1,19 @@
 {
-  "description": "a(n) is the smallest m such that p = n-th popular prime = A124661(n) is uniquely popular on the interval [2,m].",
+  "description": "a(n) is the smallest m such that p = n-th popular prime = A385503(n) is uniquely popular on the interval [2,m] or -1 if p is never uniquely popular.",
   "id": "A289662",
   "mentions": [
     "A006530",
-    "A124661",
     "A125624",
     "A289661",
-    "A289665"
+    "A289665",
+    "A385503"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Cycle of length 130 in the dynamical system A385938 starting from 26.",
+  "id": "A385893",
+  "mentions": [
+    "A385938"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

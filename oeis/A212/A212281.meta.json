@@ -1,13 +1,15 @@
 {
-  "description": "Minimal m>=1 such that n!/m+1 is prime.",
+  "description": "Minimal m >= 1 such that n!/m+1 is prime.",
   "id": "A212281",
-  "mentions": [],
+  "mentions": [
+    "A212282"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

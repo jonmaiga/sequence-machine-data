@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) symmetric binary matrices without the pattern 1 1 antidiagonally",
+  "description": "Number of (n+1)X(n+1) symmetric binary matrices without the pattern 1 1 antidiagonally.",
   "id": "A190340",
   "mentions": [],
   "tags": [

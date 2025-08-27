@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that k^2+1 contains exactly n distinct prime factors of the form m^2+1 or 0 if no such k exists.",
+  "id": "A386516",
+  "mentions": [
+    "A001912",
+    "A002496",
+    "A002522",
+    "A005574",
+    "A008784",
+    "A216784"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

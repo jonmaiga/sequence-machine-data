@@ -1,0 +1,24 @@
+{
+  "description": "The sum of divisors of n whose maximum exponent in their prime factorization is odd.",
+  "id": "A385131",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A013661",
+    "A051903",
+    "A368714",
+    "A383156",
+    "A385129",
+    "A385130"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

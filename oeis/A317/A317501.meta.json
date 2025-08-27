@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(0,0) = 1; T(n,k) = 2 T(n-1,k) + T(n-4,k-1) for k = 0..floor(n/4); T(n,k)=0 for n or k < 0.",
+  "description": "Triangle read by rows: T(0,0) = 1; T(n,k) = 2*T(n-1,k) + T(n-4,k-1) for k = 0..floor(n/4); T(n,k)=0 for n or k < 0.",
   "id": "A317501",
   "mentions": [
     "A008999",

@@ -1,19 +1,21 @@
 {
-  "description": "First coefficient of the lindep transform of A007947, squarefree kernel of n.",
+  "description": "Integers k such that A005245(m*k) < A005245(k) for some m.",
   "id": "A380464",
   "mentions": [
-    "A007947",
-    "A339790",
-    "A380465",
-    "A380466",
-    "A380544"
+    "A005245",
+    "A195101",
+    "A350723",
+    "A351467"
   ],
   "tags": [
-    "nonn"
+    "formulas",
+    "more",
+    "nonn",
+    "unsolved"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
-    "source": "oeis-bfile"
+    "size": 16,
+    "source": "oeis-entry"
   }
 }

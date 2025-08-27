@@ -2,6 +2,7 @@
   "description": "Index of 5^n within sequence of numbers of form 4^i*5^j.",
   "id": "A025706",
   "mentions": [
+    "A025646",
     "A025730"
   ],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of divisors of sigma(n) that have not yet been counted in the sequence.",
+  "id": "A385467",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A027750",
+    "A062068",
+    "A385478",
+    "A385479"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the period length P(n) of the Fibonacci sequence modulo n is a perfect square.",
+  "description": "Numbers m such that the period length P(m) of the Fibonacci sequence modulo m is a perfect square.",
   "id": "A104480",
   "mentions": [
     "A001175"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

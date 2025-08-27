@@ -1,5 +1,5 @@
 {
-  "description": "Product of number of involutions on n letters and number of partitions of n",
+  "description": "Product of number of involutions on n letters and number of partitions of n.",
   "id": "A104708",
   "mentions": [
     "A000041",

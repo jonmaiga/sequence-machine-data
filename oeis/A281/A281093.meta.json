@@ -1,5 +1,5 @@
 {
-  "description": "Primes that only use digits that survived in the movie 9: {3, 4, 7, 9}.",
+  "description": "Primes having only {3, 4, 7, 9} as digits.",
   "id": "A281093",
   "mentions": [
     "A091633"

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k > 1 such that n^2 == k (mod sopfr(k)) and k^2 == n (mod sopfr(n)), or -1 if there is no such k, where sopfr = A001414.",
+  "id": "A385681",
+  "mentions": [
+    "A001414",
+    "A385664",
+    "A385679"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

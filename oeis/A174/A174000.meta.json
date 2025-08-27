@@ -1,5 +1,5 @@
 {
-  "description": "Successive positions of even digits after comma in decimal expansion of Pi",
+  "description": "Successive positions of even digits after comma in decimal expansion of Pi.",
   "id": "A174000",
   "mentions": [
     "A000796",

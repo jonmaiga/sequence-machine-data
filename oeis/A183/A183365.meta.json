@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 binary arrays with no element equal to the sum mod 3 of its horizontal and vertical neighbors",
+  "description": "Number of nX3 binary arrays with no element equal to the sum mod 3 of its horizontal and vertical neighbors.",
   "id": "A183365",
   "mentions": [
     "A183368"

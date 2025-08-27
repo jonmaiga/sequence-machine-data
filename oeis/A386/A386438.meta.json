@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(n) + omega(n) - n * Sum_{p|n, p prime} 1 / p.",
+  "id": "A386438",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001221",
+    "A005171",
+    "A007503",
+    "A010051",
+    "A069359",
+    "A348219"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

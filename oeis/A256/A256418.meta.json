@@ -1,5 +1,5 @@
 {
-  "description": "Congrua (possible solutions to the congruum problem): numbers n such that there are integers x, y and z with n = x^2-y^2 = z^2-x^2.",
+  "description": "Congrua (possible solutions to the congruum problem): numbers k such that there are integers x, y and z with k = x^2-y^2 = z^2-x^2.",
   "id": "A256418",
   "mentions": [
     "A004431",

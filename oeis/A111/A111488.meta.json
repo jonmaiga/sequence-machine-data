@@ -1,5 +1,5 @@
 {
-  "description": "Primes all of whose digits are triangular.",
+  "description": "Primes having only {0, 1, 3, 6} as digits.",
   "id": "A111488",
   "mentions": [
     "A000040",

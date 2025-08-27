@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = Lucas(2n+3) - (6n+4).",
+  "description": "a(n) = Lucas(2*n+3) - (6*n+4).",
   "id": "A027000",
   "mentions": [
+    "A000032",
     "A000045",
     "A026998"
   ],

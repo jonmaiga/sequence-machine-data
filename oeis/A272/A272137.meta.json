@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^16 + 1.",
+  "description": "Primes of the form k^16 + 1.",
   "id": "A272137",
   "mentions": [
     "A000068",

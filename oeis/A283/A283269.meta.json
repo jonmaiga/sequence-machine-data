@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as x^2 + y^2 + z^2 with x,y,z integers such that x + 3*y + 5*z is a square",
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 with x,y,z integers such that x + 3*y + 5*z is a square.",
   "id": "A283269",
   "mentions": [
     "A000290",

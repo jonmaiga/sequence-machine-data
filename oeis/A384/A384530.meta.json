@@ -1,0 +1,17 @@
+{
+  "description": "Intersection of A055932 and A014574.",
+  "id": "A384530",
+  "mentions": [
+    "A014574",
+    "A027856",
+    "A055932"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

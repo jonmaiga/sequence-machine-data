@@ -1,5 +1,5 @@
 {
-  "description": "Number of fixed strictly disconnected n-ominoes bounded (not necessarily tightly) by an n*n square",
+  "description": "Number of fixed strictly disconnected n-ominoes bounded (not necessarily tightly) by an n*n square.",
   "id": "A162678",
   "mentions": [
     "A001168",

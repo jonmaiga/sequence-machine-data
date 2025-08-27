@@ -1,0 +1,20 @@
+{
+  "description": "Number of ternary strings of length 2*n that have more 0's than the combined number of 1's and 2's.",
+  "id": "A386670",
+  "mentions": [
+    "A054554",
+    "A059304",
+    "A128417",
+    "A128418",
+    "A243019"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

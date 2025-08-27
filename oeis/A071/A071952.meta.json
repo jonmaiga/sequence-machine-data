@@ -1,5 +1,5 @@
 {
-  "description": "Diagonal T(n,3) of triangle in A071951.",
+  "description": "Diagonal T(n, 4) of triangle in A071951.",
   "id": "A071952",
   "mentions": [
     "A000079",
@@ -11,6 +11,7 @@
     "A129467"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

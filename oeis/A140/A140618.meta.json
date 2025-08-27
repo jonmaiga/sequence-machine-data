@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 20x^2+4xy+23y^2.",
+  "description": "Primes of the form 20*x^2+4*x*y+23*y^2.",
   "id": "A140618",
   "mentions": [
     "A106856",

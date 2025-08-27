@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are not cycle counts of inseparable cubic multigraphs.",
+  "id": "A385524",
+  "mentions": [
+    "A385523"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

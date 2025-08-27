@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the volume of a triaugmented dodecahedron with unit edge.",
+  "id": "A385804",
+  "mentions": [
+    "A010499",
+    "A102769",
+    "A179552",
+    "A377697",
+    "A385695",
+    "A385802",
+    "A385805"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

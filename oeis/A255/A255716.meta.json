@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n 1..(k+2) arrays with no leading partial sum equal to a prime and no consecutive values equal",
+  "description": "T(n,k)=Number of length n 1..(k+2) arrays with no leading partial sum equal to a prime and no consecutive values equal.",
   "id": "A255716",
   "mentions": [
     "A062298"

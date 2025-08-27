@@ -1,5 +1,5 @@
 {
-  "description": "Number of idempotent 5X5 0..n matrices",
+  "description": "Number of idempotent 5X5 0..n matrices.",
   "id": "A222824",
   "mentions": [
     "A222821"

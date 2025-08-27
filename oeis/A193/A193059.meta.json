@@ -1,5 +1,5 @@
 {
-  "description": "Number of size n nonnegative integer arrays with new values introduced in increasing order from 0, and no 4 consecutive elements totalling n or more",
+  "description": "Number of size n nonnegative integer arrays with new values introduced in increasing order from 0, and no 4 consecutive elements totalling n or more.",
   "id": "A193059",
   "mentions": [],
   "tags": [

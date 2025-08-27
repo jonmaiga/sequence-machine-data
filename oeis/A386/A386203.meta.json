@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/4)} binomial(n-1,4*k) * a(4*k) * a(n-1-4*k).",
+  "id": "A386203",
+  "mentions": [
+    "A000111",
+    "A000142",
+    "A118968",
+    "A385725",
+    "A386202"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

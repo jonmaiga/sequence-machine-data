@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of 5 X 5 permutation matrices with trace n",
+  "description": "a(n) = number of 5 X 5 permutation matrices with trace n.",
   "id": "A171906",
   "mentions": [
     "A171806",

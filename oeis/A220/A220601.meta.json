@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to reciprocally link elements of an nX7 array either to themselves or to exactly two horizontal, vertical and antidiagonal neighbors, without 3-loops",
+  "description": "Number of ways to reciprocally link elements of an nX7 array either to themselves or to exactly two horizontal, vertical and antidiagonal neighbors, without 3-loops.",
   "id": "A220601",
   "mentions": [
     "A220602"

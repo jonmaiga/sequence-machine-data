@@ -1,5 +1,5 @@
 {
-  "description": "Natural numbers that when squared can be expressed as sums of a positive square number and a positive triangular number",
+  "description": "Natural numbers that when squared can be expressed as sums of a positive square number and a positive triangular number.",
   "id": "A215069",
   "mentions": [
     "A000217",

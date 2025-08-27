@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A001065(A346878(n)).",
+  "id": "A385148",
+  "mentions": [
+    "A001065",
+    "A346878",
+    "A377766",
+    "A384411"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

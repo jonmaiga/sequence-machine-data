@@ -1,0 +1,17 @@
+{
+  "description": "Positions of records in A384797.",
+  "id": "A384799",
+  "mentions": [
+    "A047800",
+    "A384797",
+    "A384798"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

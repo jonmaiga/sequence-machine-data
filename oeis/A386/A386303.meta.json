@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers k such that the set {d+k/d : d|k} contains four consecutive integers.",
+  "id": "A386303",
+  "mentions": [
+    "A002496",
+    "A027862",
+    "A072389",
+    "A335572",
+    "A386302"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Unchanging value maps: number of nX4 binary arrays indicating the locations of corresponding elements unequal to no king-move neighbor in a random 0..1 nX4 array",
+  "description": "Unchanging value maps: number of nX4 binary arrays indicating the locations of corresponding elements unequal to no king-move neighbor in a random 0..1 nX4 array.",
   "id": "A219399",
   "mentions": [
     "A219403"

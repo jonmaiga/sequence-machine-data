@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with a record number of ways in which they can be expressed as b^3 * c^4 * d^5, with b, c and d >= 1.",
+  "id": "A384791",
+  "mentions": [
+    "A008680",
+    "A025487",
+    "A036966",
+    "A046055",
+    "A181800",
+    "A384789",
+    "A384790"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

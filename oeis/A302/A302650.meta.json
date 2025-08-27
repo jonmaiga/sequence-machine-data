@@ -1,7 +1,9 @@
 {
   "description": "Number of minimal total dominating sets in the n-barbell graph.",
   "id": "A302650",
-  "mentions": [],
+  "mentions": [
+    "A302761"
+  ],
   "tags": [
     "easy",
     "formulas",

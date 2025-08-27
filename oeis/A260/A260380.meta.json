@@ -1,5 +1,5 @@
 {
-  "description": "Primes that contain only the digits (3, 6, 7).",
+  "description": "Primes having only {3, 6, 7} as digits.",
   "id": "A260380",
   "mentions": [
     "A020463",

@@ -1,7 +1,11 @@
 {
   "description": "Number of minimal total dominating sets in the n-triangular grid graph.",
   "id": "A303228",
-  "mentions": [],
+  "mentions": [
+    "A302486",
+    "A303049",
+    "A304562"
+  ],
   "tags": [
     "more",
     "nonn"

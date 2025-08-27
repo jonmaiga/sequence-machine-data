@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = x + Product_{n>=2} A(x^n) with A(0) = 1.",
+  "id": "A385635",
+  "mentions": [
+    "A129374",
+    "A129375"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

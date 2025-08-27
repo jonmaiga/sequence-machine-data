@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..1 matrices with each 2X2 permanent equal",
+  "description": "Number of (n+1)X(n+1) 0..1 matrices with each 2X2 permanent equal.",
   "id": "A224737",
   "mentions": [
     "A224745"

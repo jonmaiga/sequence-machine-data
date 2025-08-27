@@ -1,0 +1,58 @@
+{
+  "oi": 384806,
+  "ps": [
+    {
+      "d": "2025-08-23",
+      "ix": "contfrac[atan(1/2)/π]",
+      "mt": 50,
+      "px": [
+        "1",
+        "2",
+        "/",
+        "atan",
+        "π",
+        "/",
+        "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
+      ]
+    },
+    {
+      "d": "2025-08-23",
+      "ix": "contfrac[acot(2)/π]",
+      "mt": 50,
+      "px": [
+        "2",
+        "acot",
+        "π",
+        "/",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2025-08-23",
+      "ix": "contfrac[log(root(exp(acot(2)), π))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "acot",
+        "exp",
+        "π",
+        "root",
+        "log",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2025-08-24",
+      "ix": "contfrac[C086203]",
+      "mt": 50,
+      "px": [
+        "C086203",
+        "contfrac"
+      ]
+    }
+  ]
+}

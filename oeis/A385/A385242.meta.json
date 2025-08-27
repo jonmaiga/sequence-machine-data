@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 3 X n strip with dominos and U-shaped pentominos.",
+  "id": "A385242",
+  "mentions": [
+    "A001835"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

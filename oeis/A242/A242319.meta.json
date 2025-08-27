@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+4+2 0..4 arrays with every value 0..4 appearing at least once in every consecutive 4+3 elements, and new values 0..4 introduced in order",
+  "description": "Number of length n+4+2 0..4 arrays with every value 0..4 appearing at least once in every consecutive 4+3 elements, and new values 0..4 introduced in order.",
   "id": "A242319",
   "mentions": [
     "A242322"

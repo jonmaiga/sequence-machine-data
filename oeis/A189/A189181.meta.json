@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 array permutations with each element making a single king move",
+  "description": "Number of nX4 array permutations with each element making a single king move.",
   "id": "A189181",
   "mentions": [
     "A189186"

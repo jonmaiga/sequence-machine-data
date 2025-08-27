@@ -1,0 +1,21 @@
+{
+  "description": "Numbers x such that there exist four integers 00, t>0 and w>0 such that sigma(x)^4 = sigma(y)^4 = x^4 + y^4 + z^4 + t^4 + w^4.",
+  "id": "A386225",
+  "mentions": [
+    "A000203",
+    "A003339",
+    "A297305",
+    "A385397"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

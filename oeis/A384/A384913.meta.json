@@ -1,0 +1,33 @@
+{
+  "description": "The number of unordered factorizations of n into exponentially Fibonacci powers of primes (A115975).",
+  "id": "A384913",
+  "mentions": [
+    "A000045",
+    "A000688",
+    "A003107",
+    "A046951",
+    "A050361",
+    "A050377",
+    "A115063",
+    "A115975",
+    "A188581",
+    "A188585",
+    "A322885",
+    "A370256",
+    "A384912",
+    "A384914",
+    "A384915",
+    "A384916"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

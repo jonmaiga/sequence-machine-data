@@ -1,0 +1,20 @@
+{
+  "description": "Triangle a(n,k) read by antidiagonals: a(n,k) is the number of dots in the k-augmented centered triangle of order n, k>=0, n>=1.",
+  "id": "A385108",
+  "mentions": [
+    "A005448",
+    "A085473",
+    "A381424"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

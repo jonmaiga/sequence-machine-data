@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)= sigma(n) mod k, where sigma(.) is the sum of divisors.",
+  "description": "Triangle read by rows: R(n,k) = sigma(n) mod k, where sigma(.) is the sum of divisors.",
   "id": "A174428",
   "mentions": [
     "A000203",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (Sum_{k=0..n} (binomial(n, k) mod 8)) / 2^bitcount(n).",
+  "id": "A385394",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A385285",
+    "A385393"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

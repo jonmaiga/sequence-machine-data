@@ -1,12 +1,14 @@
 {
-  "description": "Triangle read by rows, A007318 * (A001006 * 0^(n-k)).",
+  "description": "Triangle read by rows: binomial(n-1,k-1)*A001006(k).",
   "id": "A154558",
   "mentions": [
     "A000245",
     "A001006",
-    "A007318"
+    "A005843",
+    "A046092"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"

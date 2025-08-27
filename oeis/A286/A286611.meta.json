@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which A019565(n) <= A087207(n).",
+  "description": "Numbers k for which A019565(k) <= A087207(k).",
   "id": "A286611",
   "mentions": [
     "A007947",

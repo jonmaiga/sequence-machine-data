@@ -9,12 +9,13 @@
     "A080413"
   ],
   "tags": [
-    "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 73,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

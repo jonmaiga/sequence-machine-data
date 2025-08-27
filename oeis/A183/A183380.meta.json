@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with no element equal to the mod 3 sum of its king-move neighbors",
+  "description": "T(n,k)=Number of nXk binary arrays with no element equal to the mod 3 sum of its king-move neighbors.",
   "id": "A183380",
   "mentions": [
     "A000931"

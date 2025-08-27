@@ -2,6 +2,7 @@
   "description": "Nonsquarefree positive integers k such that the largest prime power dividing k is prime.",
   "id": "A139703",
   "mentions": [
+    "A013929",
     "A122144"
   ],
   "tags": [

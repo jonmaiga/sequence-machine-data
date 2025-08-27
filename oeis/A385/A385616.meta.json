@@ -1,0 +1,16 @@
+{
+  "description": "Indices of pentagonal numbers that are one-fifth of another one.",
+  "id": "A385616",
+  "mentions": [
+    "A385152"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

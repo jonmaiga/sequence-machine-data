@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n^4*sigma_2(n).",
+  "id": "A386783",
+  "mentions": [
+    "A001157",
+    "A280022",
+    "A280025",
+    "A328259",
+    "A386745",
+    "A386746",
+    "A386784",
+    "A386785",
+    "A386786",
+    "A386787",
+    "A386788"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

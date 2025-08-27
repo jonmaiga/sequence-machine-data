@@ -1,5 +1,5 @@
 {
-  "description": "1/6 the number of (n+2)X5 0..2 arrays with each 3X3 subblock containing two of one value, three of another, and four of the last",
+  "description": "1/6 the number of (n+2)X5 0..2 arrays with each 3X3 subblock containing two of one value, three of another, and four of the last.",
   "id": "A184406",
   "mentions": [
     "A184407"

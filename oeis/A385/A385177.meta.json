@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} ceiling(k/phi), where phi is the golden ratio (A001622).",
+  "id": "A385177",
+  "mentions": [
+    "A001622",
+    "A019446",
+    "A183136"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

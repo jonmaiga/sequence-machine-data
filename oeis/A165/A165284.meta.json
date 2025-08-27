@@ -1,5 +1,5 @@
 {
-  "description": "Primes p in A068209 whose squares never divide (x+1)^p-x^p-1 and x^x+(x+1)^(x+1) for the same x",
+  "description": "Primes p in A068209 whose squares never divide (x+1)^p-x^p-1 and x^x+(x+1)^(x+1) for the same x.",
   "id": "A165284",
   "mentions": [
     "A068209"

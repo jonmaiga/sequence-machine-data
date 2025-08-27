@@ -2,8 +2,10 @@
   "description": "Expansion of e.g.f. 1/(1 - arctanh(x)).",
   "id": "A296676",
   "mentions": [
+    "A000246",
     "A000828",
     "A010050",
+    "A111594",
     "A191700",
     "A296675"
   ],

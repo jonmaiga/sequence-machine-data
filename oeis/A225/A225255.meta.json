@@ -1,5 +1,5 @@
 {
-  "description": "a(k) such that A225252 column k of T(n,k) = n*k^2 - a(k) for large n",
+  "description": "a(k) such that A225252 column k of T(n,k) = n*k^2 - a(k) for large n.",
   "id": "A225255",
   "mentions": [
     "A225252"

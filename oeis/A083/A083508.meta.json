@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct products i*j*k with 1 <= i < j <= k <= n.",
+  "description": "Number of distinct products i*j*k with 1 <= i < j <= k <= n and j < n.",
   "id": "A083508",
   "mentions": [
     "A027430",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

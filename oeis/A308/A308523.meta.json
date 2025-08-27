@@ -2,11 +2,16 @@
   "description": "Number of essentially simple rooted toroidal triangulations with n vertices.",
   "id": "A308523",
   "mentions": [
+    "A000302",
     "A002293",
     "A006422",
+    "A036829",
     "A289208",
     "A308524",
-    "A308526"
+    "A308526",
+    "A386565",
+    "A386611",
+    "A386612"
   ],
   "tags": [
     "formulas",

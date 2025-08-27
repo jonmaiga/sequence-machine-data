@@ -1,5 +1,5 @@
 {
-  "description": "Palindromes divisible by each of their digits",
+  "description": "Palindromes divisible by each of their digits.",
   "id": "A082937",
   "mentions": [
     "A002113",

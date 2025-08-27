@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays with no 3X3 subblock commuting with any horizontal or vertical neighbor 3X3 subblock",
+  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays with no 3X3 subblock commuting with any horizontal or vertical neighbor 3X3 subblock.",
   "id": "A186806",
   "mentions": [],
   "tags": [

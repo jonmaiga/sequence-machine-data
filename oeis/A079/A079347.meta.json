@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci{p-(p/5)} is the first Fibonacci number that p divides and this is p-(p/5).",
+  "description": "Fibonacci(p-(p/5)) is the first Fibonacci number that p divides and this is p-(p/5).",
   "id": "A079347",
   "mentions": [
     "A079346",

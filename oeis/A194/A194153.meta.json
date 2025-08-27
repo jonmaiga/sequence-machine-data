@@ -1,5 +1,5 @@
 {
-  "description": "Sum{floor(j*(sqrt(5))/2) : 1<=j<=n}; n-th partial sum of Beatty sequence for (sqrt(5))/2.",
+  "description": "a(n) = Sum_{j=1..n} floor(j*(sqrt(5))/2); n-th partial sum of Beatty sequence for (sqrt(5))/2.",
   "id": "A194153",
   "mentions": [
     "A194151"

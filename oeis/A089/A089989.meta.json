@@ -1,5 +1,5 @@
 {
-  "description": "5^(n^2+2n+1)*Product_{j=1..n} (25^j-1).",
+  "description": "a(n) = 5^(n^2+2n+1)*Product_{j=1..n} (25^j-1).",
   "id": "A089989",
   "mentions": [
     "A001309",
@@ -12,6 +12,7 @@
     "A092301"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,35 @@
+{
+  "description": "The sum of the biquadratefree divisors of n.",
+  "id": "A385006",
+  "mentions": [
+    "A000593",
+    "A033634",
+    "A035316",
+    "A038712",
+    "A046100",
+    "A048250",
+    "A058035",
+    "A072079",
+    "A073185",
+    "A113061",
+    "A162296",
+    "A183097",
+    "A186099",
+    "A252505",
+    "A353900",
+    "A365682",
+    "A366992",
+    "A385005"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

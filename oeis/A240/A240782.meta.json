@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..1 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..1 introduced in row major order",
+  "description": "Number of nX7 0..1 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..1 introduced in row major order.",
   "id": "A240782",
   "mentions": [
     "A240783"

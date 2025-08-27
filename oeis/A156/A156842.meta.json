@@ -1,5 +1,5 @@
 {
-  "description": "529n^2 - 746n + 263.",
+  "description": "a(n) = 529*n^2 - 746*n + 263.",
   "id": "A156842",
   "mentions": [
     "A156844",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,9 @@
   "description": "Partial products of A055067.",
   "id": "A280714",
   "mentions": [
+    "A000178",
     "A055067",
+    "A092143",
     "A280713"
   ],
   "tags": [

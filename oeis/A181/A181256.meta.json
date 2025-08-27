@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X4 binary matrices with every 3X3 block having exactly four 1's",
+  "description": "Number of (n+2)X4 binary matrices with every 3X3 block having exactly four 1's.",
   "id": "A181256",
   "mentions": [
     "A181262"

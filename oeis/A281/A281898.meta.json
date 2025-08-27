@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n - floor(sqrt(n))^2 and 2n - floor(sqrt(2n))^2 are both squares.",
+  "description": "Numbers k such that k - floor(sqrt(k))^2 and 2k - floor(sqrt(2k))^2 are both squares.",
   "id": "A281898",
   "mentions": [
     "A000129",

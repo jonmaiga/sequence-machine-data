@@ -2,9 +2,12 @@
   "description": "a(n) = Fibonacci(n!).",
   "id": "A063374",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A000142",
+    "A101293"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

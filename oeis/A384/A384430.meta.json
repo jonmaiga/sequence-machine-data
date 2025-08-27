@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer k such that the Diophantine equation x^3 + y^3 + z^3 + w^3 = k^5, where 0 < x < y < z < w has exactly n integer solutions.",
+  "id": "A384430",
+  "mentions": [
+    "A383877",
+    "A384182"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Primes of the form 100*n+7.",
+  "description": "Primes of the form 100*k+7.",
   "id": "A166547",
-  "mentions": [],
+  "mentions": [
+    "A104044"
+  ],
   "tags": [
     "easy",
     "nonn"

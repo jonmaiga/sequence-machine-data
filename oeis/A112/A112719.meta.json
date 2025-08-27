@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that pi(n)=d_1^1+d_2^2+...+d_k^k where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "description": "Numbers m such that pi(m) = d_1^1 + d_2^2 + ... + d_k^k where d_1 d_2 ... d_k is the decimal expansion of m.",
   "id": "A112719",
   "mentions": [
+    "A000720",
     "A032799",
     "A112718",
     "A112720"

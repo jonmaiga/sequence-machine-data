@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of n numbers in -7..7 with sum zero",
+  "description": "Number of nondecreasing arrangements of n numbers in -7..7 with sum zero.",
   "id": "A183915",
   "mentions": [
     "A183917"

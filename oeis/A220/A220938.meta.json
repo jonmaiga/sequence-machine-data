@@ -1,5 +1,5 @@
 {
-  "description": "Equals two maps: number of 4Xn binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..2 4Xn array",
+  "description": "Equals two maps: number of 4Xn binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..2 4Xn array.",
   "id": "A220938",
   "mentions": [
     "A220935"

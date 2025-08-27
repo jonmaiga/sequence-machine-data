@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic primes which satisfy the requirements of A380943 in at least two ways.",
+  "id": "A383816",
+  "mentions": [
+    "A000040",
+    "A002385",
+    "A105184",
+    "A380943",
+    "A383810"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

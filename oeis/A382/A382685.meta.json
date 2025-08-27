@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least integer k requiring any combination of at least n 1's or 2's to build using + and *.",
+  "id": "A382685",
+  "mentions": [
+    "A005245",
+    "A005520"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

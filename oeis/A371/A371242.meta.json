@@ -2,7 +2,7 @@
   "description": "The sum of the unitary divisors of n that are cubefree numbers (A004709).",
   "id": "A371242",
   "mentions": [
-    "A000005",
+    "A000203",
     "A004709",
     "A005117",
     "A034448",

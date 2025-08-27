@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number with shortest addition-multiplication-composition chain of length n, starting with 1 and x, i.e., smallest k such that A384384(k) = n.",
+  "id": "A384385",
+  "mentions": [
+    "A383001",
+    "A384383",
+    "A384384",
+    "A384386",
+    "A384484"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

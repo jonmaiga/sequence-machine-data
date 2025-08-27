@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into Catalan numbers A000108 where every part appears at least 10 times",
+  "description": "Number of partitions of n into Catalan numbers A000108 where every part appears at least 10 times.",
   "id": "A161235",
   "mentions": [
     "A000108"

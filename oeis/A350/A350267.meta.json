@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*hypergeom([1, 1 - n, -n], [2], 1) if n >= 1, a(0) = 1.",
+  "description": "a(n) = n*hypergeom([1, 1 - n, -n], [2], 1).",
   "id": "A350267",
   "mentions": [
     "A247499",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-entry"
   }
 }

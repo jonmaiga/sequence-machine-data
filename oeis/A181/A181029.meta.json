@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary matrices that are completed draws in min(n,k)-in-a-row tic-tac-toe, with 0 going first",
+  "description": "T(n,k)=Number of nXk binary matrices that are completed draws in min(n,k)-in-a-row tic-tac-toe, with 0 going first.",
   "id": "A181029",
   "mentions": [],
   "tags": [

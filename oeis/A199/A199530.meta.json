@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum and no two consecutive zero elements",
+  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum and no two consecutive zero elements.",
   "id": "A199530",
   "mentions": [
     "A028896",

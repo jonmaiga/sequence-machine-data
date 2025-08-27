@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=0. For each digit d in the sequence, let a(n) equal the smallest unused integer which has at least d divisors.",
+  "id": "A384632",
+  "mentions": [
+    "A000005",
+    "A362371",
+    "A362551"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

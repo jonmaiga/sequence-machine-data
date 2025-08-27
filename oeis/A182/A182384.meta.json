@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^5 + n^4 + n^3 + n^2 + n - 1.",
+  "description": "Primes of the form k^5 + k^4 + k^3 + k^2 + k - 1.",
   "id": "A182384",
   "mentions": [
     "A088548",

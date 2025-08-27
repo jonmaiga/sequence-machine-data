@@ -2,11 +2,13 @@
   "description": "Decimal expansion of constant in the Rayleigh criterion: first zero of J_1, divided by Pi.",
   "id": "A245461",
   "mentions": [
+    "A000796",
     "A115369",
     "A221210"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of black square subarrays of (n+1)X(k+1) binary arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors, with upper left element zero",
+  "description": "T(n,k)=Number of black square subarrays of (n+1)X(k+1) binary arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors, with upper left element zero.",
   "id": "A231070",
   "mentions": [
     "A000045",

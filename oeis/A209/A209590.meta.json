@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..5 arrays with every element equal to a diagonal or antidiagonal reflection",
+  "description": "Number of n X n 0..5 arrays with every element equal to a diagonal or antidiagonal reflection.",
   "id": "A209590",
   "mentions": [
     "A209593"

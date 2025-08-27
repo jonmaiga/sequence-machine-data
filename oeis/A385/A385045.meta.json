@@ -1,0 +1,36 @@
+{
+  "description": "The sum of the unitary divisors of n that are 5-rough numbers (A007310).",
+  "id": "A385045",
+  "mentions": [
+    "A002117",
+    "A007310",
+    "A034448",
+    "A065330",
+    "A092261",
+    "A186099",
+    "A192066",
+    "A358346",
+    "A358347",
+    "A360720",
+    "A371242",
+    "A380396",
+    "A383763",
+    "A385043",
+    "A385044",
+    "A385046",
+    "A385047",
+    "A385048",
+    "A385049"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

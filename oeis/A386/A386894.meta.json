@@ -1,0 +1,21 @@
+{
+  "description": "Markoff numbers that are powers of one odd prime or twice powers of one odd prime.",
+  "id": "A386894",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A002559",
+    "A061345",
+    "A256395"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

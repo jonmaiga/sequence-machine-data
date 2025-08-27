@@ -1,5 +1,5 @@
 {
-  "description": "1/5 the number of nX3 0..4 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors",
+  "description": "1/5 the number of nX3 0..4 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors.",
   "id": "A185819",
   "mentions": [
     "A185825"

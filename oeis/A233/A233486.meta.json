@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) 0..3 arrays with no increasing sequence of length 3 horizontally, diagonally downwards or vertically",
+  "description": "Number of (n+2)X(4+2) 0..3 arrays with no increasing sequence of length 3 horizontally, diagonally downwards or vertically.",
   "id": "A233486",
   "mentions": [
     "A233488"

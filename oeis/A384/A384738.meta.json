@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 3*log(2)/4 - Pi/8.",
+  "id": "A384738",
+  "mentions": [
+    "A002162",
+    "A100046",
+    "A384683"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

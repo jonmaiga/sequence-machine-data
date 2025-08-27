@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn arrays with each row a permutation of 1..n having at least as many downsteps as the preceding row",
+  "description": "Number of 7Xn arrays with each row a permutation of 1..n having at least as many downsteps as the preceding row.",
   "id": "A221629",
   "mentions": [
     "A221623"

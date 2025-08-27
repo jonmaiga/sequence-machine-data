@@ -1,9 +1,8 @@
 {
-  "description": "a(n) = v(n+1)/v(n), where v=A203418.",
+  "description": "a(n) = v(n+1)/v(n), where v=A203430.",
   "id": "A203431",
   "mentions": [
     "A032766",
-    "A203418",
     "A203430",
     "A203432"
   ],

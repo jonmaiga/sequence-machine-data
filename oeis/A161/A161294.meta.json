@@ -1,7 +1,9 @@
 {
   "description": "Number of partitions of n into numbers not divisible by 4 where every part appears at least 3 times.",
   "id": "A161294",
-  "mentions": [],
+  "mentions": [
+    "A100405"
+  ],
   "tags": [
     "formulas",
     "nonn"

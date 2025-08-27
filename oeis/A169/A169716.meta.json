@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that 2^n-127 is prime.",
+  "description": "Numbers k such that 2^k - 127 is prime.",
   "id": "A169716",
   "mentions": [
     "A175347",
     "A176303"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

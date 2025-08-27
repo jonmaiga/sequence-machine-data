@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with the counts of all possible adjacent horizontal and vertical pair sum values being within one of each other",
+  "description": "T(n,k)=Number of nXk 0..1 arrays with the counts of all possible adjacent horizontal and vertical pair sum values being within one of each other.",
   "id": "A203638",
   "mentions": [],
   "tags": [

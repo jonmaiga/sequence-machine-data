@@ -1,15 +1,18 @@
 {
-  "description": "Pair rational approximations of Zeta zeros as an integer sequence.",
+  "description": "a(n) = round(2*Im(z(n))/Pi), where z(n) is the n-th zero of the Riemann zeta function on the critical line (with a positive imaginary part).",
   "id": "A106636",
-  "mentions": [],
+  "mentions": [
+    "A002410",
+    "A013629",
+    "A092783",
+    "A106635"
+  ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 64,
     "source": "oeis-entry"
   }
 }

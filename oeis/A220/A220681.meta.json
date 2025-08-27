@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of ways to reciprocally link elements of an nXk array either to themselves or to exactly two horizontal, vertical and antidiagonal neighbors, without consecutive collinear links",
+  "description": "T(n,k)=Number of ways to reciprocally link elements of an nXk array either to themselves or to exactly two horizontal, vertical and antidiagonal neighbors, without consecutive collinear links.",
   "id": "A220681",
   "mentions": [
     "A007598"

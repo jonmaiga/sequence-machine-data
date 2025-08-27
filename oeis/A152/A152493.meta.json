@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the decimal expansion of 2^n+5^n contains no 0's (probably 58 is last term).",
+  "description": "Numbers k such that the decimal expansion of 2^k+5^k contains no 0's (probably 58 is last term).",
   "id": "A152493",
   "mentions": [
     "A007496",

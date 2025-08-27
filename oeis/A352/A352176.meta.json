@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(X) satisfies: 1 - x = Product_{n>=1} (1 + x^(2*n)*A(x)^2) / (1 + x^n*A(x)).",
+  "description": "G.f. A(x) satisfies: 1 - x = Product_{n>=1} (1 + x^(2*n)*A(x)^2) / (1 + x^n*A(x)).",
   "id": "A352176",
   "mentions": [],
   "tags": [

@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: T(n, k) = binomial(n, k) * fibonomial(n, k).",
+  "id": "A385626",
+  "mentions": [
+    "A003266",
+    "A007318",
+    "A010048",
+    "A385630"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

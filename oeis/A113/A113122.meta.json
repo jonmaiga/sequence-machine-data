@@ -1,8 +1,9 @@
 {
-  "description": "Sum of the first n Fibonacci numbers, in ascending order, as bases, with the same, in descending order, as exponents.",
+  "description": "a(n) = Sum_{i=1..n} F(i)^F(n-i+1).",
   "id": "A113122",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A001622"
   ],
   "tags": [
     "easy",

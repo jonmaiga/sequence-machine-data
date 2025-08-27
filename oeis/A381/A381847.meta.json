@@ -1,11 +1,14 @@
 {
-  "description": "a(n) is the number of ways to partition an n X n X n cube into 3 cuboids of different dimensions.",
+  "description": "a(n) is the number of ways to partition an n X n X n cube into 3 noncongruent cuboids.",
   "id": "A381847",
   "mentions": [
-    "A381848",
-    "A381849"
+    "A384311",
+    "A384479",
+    "A385247"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

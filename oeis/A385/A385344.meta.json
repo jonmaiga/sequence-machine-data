@@ -1,0 +1,19 @@
+{
+  "description": "Numbers where all the digits of all the prime factors are smaller than 3.",
+  "id": "A385344",
+  "mentions": [
+    "A036953",
+    "A385345"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

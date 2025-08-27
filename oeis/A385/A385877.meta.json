@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 + Sum_{k=0..n-1} binomial(k+4,5) * a(k) * a(n-1-k).",
+  "id": "A385877",
+  "mentions": [
+    "A143917",
+    "A385843",
+    "A385874",
+    "A385875",
+    "A385876"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

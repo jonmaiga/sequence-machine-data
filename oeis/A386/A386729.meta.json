@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] G(x)^n, where G(x) = Product_{k >= 1} (1 + x^k)^(k^3) is the g.f. of A248882.",
+  "id": "A386729",
+  "mentions": [
+    "A248882",
+    "A270913",
+    "A270922",
+    "A284900",
+    "A380291",
+    "A386720"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

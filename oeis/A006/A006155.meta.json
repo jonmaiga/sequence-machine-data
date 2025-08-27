@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f.: 1/(2-x-exp(x)).",
   "id": "A006155",
   "mentions": [
+    "A006152",
     "A032112",
     "A226571"
   ],

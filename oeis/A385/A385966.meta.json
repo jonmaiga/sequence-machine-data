@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the value of the coefficient [x^5] 1/Gamma(x).",
+  "id": "A385966",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A002117",
+    "A070860",
+    "A385965"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

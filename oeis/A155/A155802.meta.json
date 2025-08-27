@@ -1,15 +1,16 @@
 {
-  "description": "Numbers n with property that (5^n + 2^n - 1)/12 is prime.",
+  "description": "Numbers k such that (5^k + 2^k - 1)/12 is prime.",
   "id": "A155802",
   "mentions": [
     "A155588"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

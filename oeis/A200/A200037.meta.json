@@ -1,5 +1,5 @@
 {
-  "description": "Number of -7..7 arrays x(0..n-1) of n elements with sum zero and with zeroth through n-1st differences all nonzero",
+  "description": "Number of -7..7 arrays x(0..n-1) of n elements with sum zero and with zeroth through n-1st differences all nonzero.",
   "id": "A200037",
   "mentions": [
     "A200038"

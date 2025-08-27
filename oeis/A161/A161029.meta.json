@@ -1,7 +1,9 @@
 {
-  "description": "Number of partitions of n into Fibonacci numbers where every part appears at least 5 times",
+  "description": "Number of partitions of n into positive Fibonacci numbers where every part appears at least 5 times.",
   "id": "A161029",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "nonn"
   ],

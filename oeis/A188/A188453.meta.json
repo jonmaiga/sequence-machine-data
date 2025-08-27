@@ -1,5 +1,5 @@
 {
-  "description": "Number of (5*n)Xn binary arrays with nonzero rows in decreasing order, no more than 3 ones in any row and exactly 5 ones in every column",
+  "description": "Number of (5*n)Xn binary arrays with nonzero rows in decreasing order, no more than 3 ones in any row and exactly 5 ones in every column.",
   "id": "A188453",
   "mentions": [
     "A188449"

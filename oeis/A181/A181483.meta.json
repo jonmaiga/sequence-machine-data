@@ -1,5 +1,5 @@
 {
-  "description": "Number of powers of 2 which can be subtracted from 3^n to form primes",
+  "description": "Number of powers of 2 which can be subtracted from 3^n to form primes.",
   "id": "A181483",
   "mentions": [
     "A013604",

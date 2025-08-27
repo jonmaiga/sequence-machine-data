@@ -5,6 +5,7 @@
     "A010060",
     "A091785",
     "A091855",
+    "A157971",
     "A248056"
   ],
   "tags": [
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

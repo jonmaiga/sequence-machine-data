@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers that can be partitioned into runs of pairwise coprime integers, the n-th such run having a(n) terms.",
+  "id": "A385661",
+  "mentions": [
+    "A076034",
+    "A385735",
+    "A386932"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

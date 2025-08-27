@@ -1,5 +1,5 @@
 {
-  "description": "1/256 the number of (n+1)X7 0..3 arrays with no 2X2 subblock being a reflection across the shared element pair of any horizontal or vertical neighbor",
+  "description": "1/256 the number of (n+1)X7 0..3 arrays with no 2X2 subblock being a reflection across the shared element pair of any horizontal or vertical neighbor.",
   "id": "A183825",
   "mentions": [
     "A183827"

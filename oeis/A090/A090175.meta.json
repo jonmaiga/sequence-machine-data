@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Mod[n,10+Sum[Mod[Floor[n/10^m],10],{m,1,10}]]",
+  "description": "a(n) = Mod[n,10+Sum[Mod[Floor[n/10^m],10],{m,1,10}]].",
   "id": "A090175",
   "mentions": [],
   "tags": [

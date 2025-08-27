@@ -2,6 +2,8 @@
   "description": "Octagonal pentagonal numbers.",
   "id": "A046189",
   "mentions": [
+    "A000326",
+    "A000567",
     "A046187",
     "A046188"
   ],
@@ -11,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

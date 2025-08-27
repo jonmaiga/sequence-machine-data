@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose cube is the sum of four distinct nonnegative cubes.",
+  "id": "A385364",
+  "mentions": [
+    "A000578",
+    "A003072",
+    "A023042",
+    "A274334"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "1(01)^(2n+1).",
+  "description": "a(n) = 1(01)^(2*n+1).",
   "id": "A031982",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 11,
     "source": "joeis"
   }
 }

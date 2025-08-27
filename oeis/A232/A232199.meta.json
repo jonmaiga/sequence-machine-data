@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(3+1) 0..2 arrays with every element both >= and <= some horizontal, vertical or antidiagonal neighbor",
+  "description": "Number of (n+1)X(3+1) 0..2 arrays with every element both >= and <= some horizontal, vertical or antidiagonal neighbor.",
   "id": "A232199",
   "mentions": [
     "A232204"

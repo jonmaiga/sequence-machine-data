@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of phi(x) * chi(-x) * psi(x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions",
+  "description": "Expansion of phi(x) * chi(-x) * psi(x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions.",
   "id": "A246650",
   "mentions": [
     "A000122",

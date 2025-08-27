@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form sigma(n) + tau(n) + phi(n), where sigma(n) = A000203(n), tau(n) = A000005(n) and phi(n) = A000010(n).",
+  "description": "Primes of the form sigma(k) + tau(k) + phi(k), where sigma(k) = A000203(k), tau(k) = A000005(k) and phi(k) = A000010(k).",
   "id": "A229266",
   "mentions": [
     "A000005",

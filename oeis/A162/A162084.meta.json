@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric 0..8 arrays with rows, considered as 9-ary numbers, in nondecreasing order",
+  "description": "Number of n X n symmetric 0..8 arrays with rows, considered as 9-ary numbers, in nondecreasing order.",
   "id": "A162084",
   "mentions": [],
   "tags": [

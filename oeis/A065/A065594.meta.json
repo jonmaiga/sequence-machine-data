@@ -1,16 +1,17 @@
 {
-  "description": "A036981(n)/(2n)!.",
+  "description": "a(n) = A036981(n)/(2n)!.",
   "id": "A065594",
   "mentions": [
     "A036981"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

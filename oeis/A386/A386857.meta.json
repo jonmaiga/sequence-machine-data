@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that both 9*2^k - 1 and 9*2^k + 1 are prime.",
+  "id": "A386857",
+  "mentions": [
+    "A002236",
+    "A002256",
+    "A014574",
+    "A027856",
+    "A181490",
+    "A384530",
+    "A385433"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

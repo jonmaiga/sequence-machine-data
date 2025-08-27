@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. cosh(x)*(x + x^2/2).",
+  "id": "A385083",
+  "mentions": [
+    "A000384",
+    "A005408"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

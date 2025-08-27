@@ -1,14 +1,15 @@
 {
   "description": "Number of (undirected) paths in the n-sun graph.",
   "id": "A288706",
-  "mentions": [],
+  "mentions": [
+    "A234627"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

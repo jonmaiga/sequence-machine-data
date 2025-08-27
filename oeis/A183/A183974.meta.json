@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X4 0..3 arrays with no 2X2 subblock sum differing from a horizontal or vertical neighbor subblock sum by more than one",
+  "description": "Half the number of (n+1)X4 0..3 arrays with no 2X2 subblock sum differing from a horizontal or vertical neighbor subblock sum by more than one.",
   "id": "A183974",
   "mentions": [
     "A183976"

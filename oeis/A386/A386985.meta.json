@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k > 0 such that the base-n number formed by concatenating k, k - 1, ..., 2, 1 (each written in base n) is prime, or -1 if no such k exists for the given n.",
+  "id": "A386985",
+  "mentions": [
+    "A000422",
+    "A007088",
+    "A048436",
+    "A281571"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

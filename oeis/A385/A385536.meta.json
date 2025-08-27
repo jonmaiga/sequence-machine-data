@@ -1,0 +1,19 @@
+{
+  "description": "Integers k formed by the concatenation of 3 consecutive prime numbers such that k is divisible by at least one of those 3 primes.",
+  "id": "A385536",
+  "mentions": [
+    "A132903",
+    "A255669",
+    "A258182"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest prime p such that 2n + p^2 is another prime, or 0 if no such prime exists.",
+  "description": "a(n) = smallest prime p such that 2*n + p^2 is another prime, or 0 if no such prime exists.",
   "id": "A138479",
   "mentions": [
     "A002373",

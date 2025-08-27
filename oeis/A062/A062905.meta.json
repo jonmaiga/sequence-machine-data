@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and its reversal are both multiples of 15.",
+  "description": "Numbers k such that k and its reversal are both multiples of 15.",
   "id": "A062905",
   "mentions": [],
   "tags": [

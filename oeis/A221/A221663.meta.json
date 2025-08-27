@@ -1,5 +1,5 @@
 {
-  "description": "Sum of neighbor maps: number of nX2 binary arrays indicating the locations of corresponding elements equal to the sum mod 3 of their horizontal, diagonal and antidiagonal neighbors in a random 0..2 nX2 array",
+  "description": "Sum of neighbor maps: number of nX2 binary arrays indicating the locations of corresponding elements equal to the sum mod 3 of their horizontal, diagonal and antidiagonal neighbors in a random 0..2 nX2 array.",
   "id": "A221663",
   "mentions": [
     "A221666"

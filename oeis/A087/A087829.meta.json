@@ -1,5 +1,5 @@
 {
-  "description": "a[n] =a[a[Abs[n - a[n-1]]]] + a[Abs[n - a[n-4]]]",
+  "description": "a[n] =a[a[Abs[n - a[n-1]]]] + a[Abs[n - a[n-4]]].",
   "id": "A087829",
   "mentions": [
     "A005185"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write 2n = p+q (q>0) with p, 2p+1 and (p-1)^2+q^2 all prime",
+  "description": "Number of ways to write 2n = p+q (q>0) with p, 2p+1 and (p-1)^2+q^2 all prime.",
   "id": "A220554",
   "mentions": [
     "A005384",

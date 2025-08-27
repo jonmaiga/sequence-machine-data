@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4X4 0..n arrays with each 2X2 subblock determinant nonzero and the array of 2X2 subblock determinants symmetric under horizontal and vertical reflection",
+  "description": "Number of 4X4 0..n arrays with each 2X2 subblock determinant nonzero and the array of 2X2 subblock determinants symmetric under horizontal and vertical reflection.",
   "id": "A187700",
   "mentions": [
     "A187699"

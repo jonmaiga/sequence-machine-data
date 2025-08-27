@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first digit to the left of the decimal point in (3/2)^n.",
+  "id": "A384922",
+  "mentions": [
+    "A002379"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

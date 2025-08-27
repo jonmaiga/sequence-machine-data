@@ -1,5 +1,5 @@
 {
-  "description": "Number of matrices with elements 1..n in which every pair of adjacent elements are relatively prime",
+  "description": "Number of matrices with elements 1..n in which every pair of adjacent elements are relatively prime.",
   "id": "A168078",
   "mentions": [
     "A000005",

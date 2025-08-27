@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that numerator(Bernoulli(2*n)/(2*n)) is different from numerator(Bernoulli(2*n)/(2*n*(2*n-1))).",
+  "description": "Numbers k such that numerator(Bernoulli(2*k)/(2*k)) is different from numerator(Bernoulli(2*k)/(2*k*(2*k-1))).",
   "id": "A090495",
   "mentions": [
     "A000367",

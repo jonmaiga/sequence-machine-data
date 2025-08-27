@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 6k+5 is prime and 12k+5 is also prime",
+  "description": "Numbers k such that 6k+5 is prime and 12k+5 is also prime.",
   "id": "A145487",
   "mentions": [
     "A063908",

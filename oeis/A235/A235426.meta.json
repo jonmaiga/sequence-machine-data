@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..3 arrays with the difference between each 2X2 subblock maximum and minimum lexicographically nondecreasing rowwise and columnwise",
+  "description": "Number of (n+1)X(1+1) 0..3 arrays with the difference between each 2X2 subblock maximum and minimum lexicographically nondecreasing rowwise and columnwise.",
   "id": "A235426",
   "mentions": [
     "A235430"

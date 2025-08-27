@@ -2,7 +2,10 @@
   "description": "Powers of 33.",
   "id": "A009977",
   "mentions": [
-    "A008776"
+    "A000244",
+    "A001020",
+    "A008776",
+    "A327926"
   ],
   "tags": [
     "easy",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,10 @@
   "description": "Number of solutions to x^2 == y^2 (mod n).",
   "id": "A062803",
   "mentions": [
-    "A086933"
+    "A086933",
+    "A327767",
+    "A332794",
+    "A344372"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Count of consecutive coprime iterations of sum-of-divisors function",
+  "description": "Count of consecutive coprime iterations of sum-of-divisors function.",
   "id": "A173431",
   "mentions": [
     "A000203",

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the smallest dihedral angle, in radians, in a gyroelongated square pyramid (Johnson solid J_10).",
+  "id": "A387150",
+  "mentions": [
+    "A010466",
+    "A156546",
+    "A179638",
+    "A374948",
+    "A387148",
+    "A387149"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

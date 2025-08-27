@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of 7 integers in -n..n with sum zero and the sum of every adjacent pair being odd",
+  "description": "Number of arrays of 7 integers in -n..n with sum zero and the sum of every adjacent pair being odd.",
   "id": "A202078",
   "mentions": [
     "A202076"

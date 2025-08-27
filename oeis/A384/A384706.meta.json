@@ -1,0 +1,21 @@
+{
+  "description": "Integers y such that there exists an integer 0 < x < y such that y/sigma(x) + x/sigma(y) = 1.",
+  "id": "A384706",
+  "mentions": [
+    "A000043",
+    "A000203",
+    "A000396",
+    "A002025",
+    "A002046",
+    "A253534",
+    "A253535"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

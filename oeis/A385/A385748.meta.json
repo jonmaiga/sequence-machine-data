@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A384247(k) divides k.",
+  "id": "A385748",
+  "mentions": [
+    "A007694",
+    "A019434",
+    "A092506",
+    "A298759",
+    "A319481",
+    "A335327",
+    "A373057",
+    "A384247"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

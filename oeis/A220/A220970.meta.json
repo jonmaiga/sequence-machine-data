@@ -1,5 +1,5 @@
 {
-  "description": "Equals one maps: number of n X n binary arrays indicating the locations of corresponding elements equal to exactly one of their king-move neighbors in a random 0..1 n X n array",
+  "description": "Equals one maps: number of n X n binary arrays indicating the locations of corresponding elements equal to exactly one of their king-move neighbors in a random 0..1 n X n array.",
   "id": "A220970",
   "mentions": [
     "A220977"

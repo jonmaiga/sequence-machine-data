@@ -1,0 +1,18 @@
+{
+  "description": "Orders of characteristically simple groups.",
+  "id": "A385030",
+  "mentions": [
+    "A001034",
+    "A005180",
+    "A246655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

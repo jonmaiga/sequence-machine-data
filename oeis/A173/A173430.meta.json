@@ -1,5 +1,5 @@
 {
-  "description": "Last of consecutive coprime iterations of sum-of-divisors function",
+  "description": "Last of consecutive coprime iterations of sum-of-divisors function.",
   "id": "A173430",
   "mentions": [
     "A000203",

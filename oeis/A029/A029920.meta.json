@@ -1,8 +1,12 @@
 {
   "description": "Convert n from centimeters (cm) to inches (\").",
   "id": "A029920",
-  "mentions": [],
+  "mentions": [
+    "A029919",
+    "A085269"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

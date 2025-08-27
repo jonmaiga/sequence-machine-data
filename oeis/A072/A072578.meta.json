@@ -1,5 +1,5 @@
 {
-  "description": "In binary representation: n has the same number of 0's as the n-th prime has 1's.",
+  "description": "In binary representation: k has the same number of 0's as the k-th prime has 1's.",
   "id": "A072578",
   "mentions": [
     "A000040",
@@ -13,11 +13,14 @@
     "A072581"
   ],
   "tags": [
+    "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

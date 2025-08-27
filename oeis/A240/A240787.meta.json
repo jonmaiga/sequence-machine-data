@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6Xn 0..1 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..1 introduced in row major order",
+  "description": "Number of 6Xn 0..1 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..1 introduced in row major order.",
   "id": "A240787",
   "mentions": [
     "A240783"

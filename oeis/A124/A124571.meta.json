@@ -1,13 +1,16 @@
 {
-  "description": "Expansion of limit b(n)/x^n where b(n)=b(n-1)^2+b(n-1)*x, b(1)=x^2.",
+  "description": "Expansion of limit b(n)/x^n where b(n) = b(n-1)^2 + b(n-1)*x, b(1) = x^2.",
   "id": "A124571",
-  "mentions": [],
+  "mentions": [
+    "A001622"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

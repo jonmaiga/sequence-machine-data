@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(7+1) 0..1 arrays with no element greater than all horizontal neighbors or less than all vertical neighbors",
+  "description": "Number of (n+1)X(7+1) 0..1 arrays with no element greater than all horizontal neighbors or less than all vertical neighbors.",
   "id": "A237858",
   "mentions": [
     "A237859"

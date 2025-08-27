@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/(1 - x - x^4*A'''(x)).",
+  "id": "A386449",
+  "mentions": [
+    "A075834",
+    "A385763",
+    "A386448",
+    "A386450",
+    "A386451"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..3 colorings of an nx(k+1) array circular in the k+1 direction with new values 0..3 introduced in row major order",
+  "description": "T(n,k)=Number of 0..3 colorings of an nx(k+1) array circular in the k+1 direction with new values 0..3 introduced in row major order.",
   "id": "A214112",
   "mentions": [
     "A001020",

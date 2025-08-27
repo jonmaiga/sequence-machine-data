@@ -1,5 +1,5 @@
 {
-  "description": "n appears once in c_{m,k} for integers m >= k >= 1 where c_{m,k} = ((n+k)!(n-k+1))/((k)!(n+1)!).",
+  "description": "Integers that appear uniquely in the Catalan triangle, A009766.",
   "id": "A275481",
   "mentions": [
     "A000096",

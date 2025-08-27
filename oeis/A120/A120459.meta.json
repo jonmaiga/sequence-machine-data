@@ -2,14 +2,16 @@
   "description": "Row sums of A120458.",
   "id": "A120459",
   "mentions": [
-    "A120458"
+    "A120458",
+    "A291140"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 18,
     "source": "joeis"
   }
 }

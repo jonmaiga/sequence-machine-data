@@ -1,5 +1,5 @@
 {
-  "description": "Smallest Fibonacci number that has 7 in the n-th position of the decimal representation",
+  "description": "Smallest Fibonacci number that has 7 in the n-th position of the decimal representation.",
   "id": "A105717",
   "mentions": [
     "A000045",

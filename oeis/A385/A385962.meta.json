@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the absolute value of the coefficient [x^4] Gamma(x).",
+  "id": "A385962",
+  "mentions": [
+    "A001620",
+    "A002117",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A090998",
+    "A385960",
+    "A385961"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 112,
+    "source": "joeis"
+  }
+}

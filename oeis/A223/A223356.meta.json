@@ -1,5 +1,5 @@
 {
-  "description": "Rolling cube footprints: number of nX7 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal or antidiagonal neighbor moves across a corresponding cube edge",
+  "description": "Rolling cube footprints: number of nX7 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal or antidiagonal neighbor moves across a corresponding cube edge.",
   "id": "A223356",
   "mentions": [
     "A223357"

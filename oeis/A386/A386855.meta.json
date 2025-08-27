@@ -1,0 +1,16 @@
+{
+  "description": "Positive nonsquare integers of the form (r^2+s^2) / (1+r*s) for rational numbers r and s.",
+  "id": "A386855",
+  "mentions": [
+    "A000037",
+    "A000404"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

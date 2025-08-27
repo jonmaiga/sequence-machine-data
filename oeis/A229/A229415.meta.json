@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 zero-diagonal arrays with corresponding row and column sums equal",
+  "description": "Number of n X n 0..2 zero-diagonal arrays with corresponding row and column sums equal.",
   "id": "A229415",
   "mentions": [
     "A229417"

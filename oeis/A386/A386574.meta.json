@@ -1,0 +1,19 @@
+{
+  "description": "Number of squarefree balanced divisors of n.",
+  "id": "A386574",
+  "mentions": [
+    "A005117",
+    "A020492",
+    "A351114",
+    "A386573"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

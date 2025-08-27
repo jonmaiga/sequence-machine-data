@@ -1,5 +1,5 @@
 {
-  "description": "2n-step 3-dimensional closed paths on cubic lattice.",
+  "description": "Number of 2n-step self-avoiding closed paths (or cycles) on the 3-dimensional cubic lattice.",
   "id": "A010567",
   "mentions": [
     "A001412",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(7+1) 0..2 arrays with the maximum minus the minimum of every 2X2 subblock equal",
+  "description": "Number of (n+1)X(7+1) 0..2 arrays with the maximum minus the minimum of every 2X2 subblock equal.",
   "id": "A237944",
   "mentions": [
     "A237945"

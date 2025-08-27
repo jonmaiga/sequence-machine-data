@@ -1,8 +1,9 @@
 {
-  "description": "Primes of form n! - (n-1)! - 1.",
+  "description": "Primes of form k! - (k-1)! - 1.",
   "id": "A049985",
   "mentions": [
-    "A049433"
+    "A049433",
+    "A090704"
   ],
   "tags": [
     "nonn"

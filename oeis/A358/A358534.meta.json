@@ -3,14 +3,16 @@
   "id": "A358534",
   "mentions": [
     "A003586",
-    "A007947"
+    "A007947",
+    "A358093"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

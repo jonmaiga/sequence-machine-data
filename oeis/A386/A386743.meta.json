@@ -1,0 +1,16 @@
+{
+  "description": "For n >= 0, a(n) is the least Fibonacci number F(i) such that F(i) = (2*n + 1)*(n + k) for some k >= 0.",
+  "id": "A386743",
+  "mentions": [
+    "A000045",
+    "A001177"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

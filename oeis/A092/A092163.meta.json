@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = Prime(2n) + prime(2n+1).",
+  "description": "a(n) = prime(2n) + prime(2n+1).",
   "id": "A092163",
   "mentions": [
+    "A000040",
     "A001043",
+    "A058296",
     "A100479"
   ],
   "tags": [

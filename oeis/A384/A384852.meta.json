@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2*binomial(n,2) + 3*binomial(n,3) + 4*binomial(n,4).",
+  "id": "A384852",
+  "mentions": [
+    "A004006"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

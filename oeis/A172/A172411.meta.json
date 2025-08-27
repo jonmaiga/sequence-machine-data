@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n+9 and 2^n+27 are prime.",
+  "description": "Numbers k such that 2^k+9 and 2^k+27 are prime.",
   "id": "A172411",
   "mentions": [
     "A057196",
@@ -8,6 +8,7 @@
   "tags": [
     "formulas",
     "less",
+    "more",
     "nonn"
   ],
   "terms": {

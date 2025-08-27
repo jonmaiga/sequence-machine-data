@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (10^n-1)^2 + 2.",
+  "description": "a(n) = (10^n - 1)^2 + 2.",
   "id": "A169601",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 16,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n toroidal 0..2 arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors",
+  "description": "Number of n X n toroidal 0..2 arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors.",
   "id": "A184098",
   "mentions": [
     "A184099"

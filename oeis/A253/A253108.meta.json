@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (sum of n^2 through (n+2)^2) + (n+1)^2 is prime.",
+  "description": "Numbers k such that (sum of k^2 through (k+2)^2) + (k+1)^2 is prime.",
   "id": "A253108",
   "mentions": [],
   "tags": [

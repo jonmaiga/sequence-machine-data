@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 arrays with each row a permutation of 1..7 having at least as many downsteps as the preceding row",
+  "description": "Number of nX7 arrays with each row a permutation of 1..7 having at least as many downsteps as the preceding row.",
   "id": "A221622",
   "mentions": [
     "A221623"

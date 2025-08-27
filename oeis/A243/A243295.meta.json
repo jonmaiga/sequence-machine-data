@@ -1,5 +1,5 @@
 {
-  "description": "Least number k > 0 such that 3^k contains an n-digit long substring of the infinite string \"0123456789012345678901234567890123456...\"",
+  "description": "Least number k > 0 such that 3^k contains an n-digit long substring of the infinite string \"0123456789012345678901234567890123456...\".",
   "id": "A243295",
   "mentions": [
     "A238507"

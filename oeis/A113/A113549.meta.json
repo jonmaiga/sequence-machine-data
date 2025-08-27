@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = product of n successive numbers up to n, if n is even a(n) = n*(n-1)*.. = n!,if n is odd a(n) = n(n+1)(n+2)... 'n' terms.",
+  "description": "a(n) = product of n successive numbers up to n, if n is even a(n) = n*(n-1)*.. = n!, if n is odd a(n) = n(n+1)(n+2)... 'n' terms.",
   "id": "A113549",
   "mentions": [
     "A113550"

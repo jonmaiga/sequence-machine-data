@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(Fibonacci(n)) is a square.",
+  "description": "Numbers k such that phi(Fibonacci(k)) is a square.",
   "id": "A272776",
   "mentions": [
     "A000010",

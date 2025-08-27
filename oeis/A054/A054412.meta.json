@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that, in the prime factorization of n, the product of exponents equals the product of prime factors.",
+  "description": "Numbers k such that, in the prime factorization of k, the product of exponents equals the product of prime factors.",
   "id": "A054412",
   "mentions": [
     "A051674",

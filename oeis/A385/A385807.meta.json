@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer lattice points (x, y) strictly inside a triangle of base 2n - 1 and height n - 1, such that 1 <= x <= 2n - 1, 1 <= y < min(x, 2n - x), and y | x.",
+  "id": "A385807",
+  "mentions": [
+    "A000005",
+    "A032741",
+    "A339217"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

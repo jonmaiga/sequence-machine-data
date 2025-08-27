@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 393; for n > 1, a(n) = a(n-1) + 1 + sum of distinct prime factors of a(n-1) that are < a(n-1). edit",
+  "description": "a(1) = 393; for n > 1, a(n) = a(n-1) + 1 + sum of distinct prime factors of a(n-1) that are < a(n-1). edit.",
   "id": "A105210",
   "mentions": [
     "A003508",

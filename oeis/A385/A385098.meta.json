@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Moebius(espf(k)) > 0, where espf(k) is the exponent of the smallest prime factor of k, with espf(1) = 1.",
+  "id": "A385098",
+  "mentions": [
+    "A008683",
+    "A067029",
+    "A383264",
+    "A385097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

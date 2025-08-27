@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) = 2^(floor(n/3)-k) * nextprime(2^(n-2*(floor(n/3)-k))), with k = 0..floor(n/3)-1.",
+  "id": "A384875",
+  "mentions": [
+    "A006881",
+    "A010846",
+    "A100484",
+    "A162306",
+    "A275280"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

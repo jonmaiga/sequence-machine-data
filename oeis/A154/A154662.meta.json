@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!-+367 are primes.",
+  "description": "Numbers k such that k! +- 367 are primes.",
   "id": "A154662",
   "mentions": [
     "A144046",
@@ -7,6 +7,8 @@
     "A154661"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

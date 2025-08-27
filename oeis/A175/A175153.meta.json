@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 13*n-1, 13*n+1 are twin primes.",
+  "description": "Numbers k such that 13*k-1, 13*k+1 are twin primes.",
   "id": "A175153",
   "mentions": [
     "A175152"

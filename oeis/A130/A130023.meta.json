@@ -2,15 +2,15 @@
   "description": "Primes in A128823.",
   "id": "A130023",
   "mentions": [
+    "A000040",
     "A128823"
   ],
   "tags": [
-    "bref",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 4,
+    "source": "oeis-bfile"
   }
 }

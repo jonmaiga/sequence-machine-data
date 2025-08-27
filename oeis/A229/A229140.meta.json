@@ -2,9 +2,14 @@
   "description": "Smallest k such that k^2 + l^2 = n-th number expressible as sum of two squares (A001481).",
   "id": "A229140",
   "mentions": [
-    "A001481"
+    "A001481",
+    "A283303",
+    "A283304",
+    "A385236",
+    "A385237"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

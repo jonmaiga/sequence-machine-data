@@ -1,5 +1,5 @@
 {
-  "description": "A positive integer n is included if neither n-1 nor n+1 have any of the same prime-factorization exponents as n has.",
+  "description": "A positive integer k is included if neither k-1 nor k+1 have any of the same prime-factorization exponents as k has.",
   "id": "A140104",
   "mentions": [],
   "tags": [

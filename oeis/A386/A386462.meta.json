@@ -1,0 +1,17 @@
+{
+  "description": "Box which a player should open at step n to catch as fast as possible a cat performing a random walk through 8 boxes.",
+  "id": "A386462",
+  "mentions": [
+    "A300576",
+    "A386463"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

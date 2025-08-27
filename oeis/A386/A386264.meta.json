@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/( (1-x)^3 * (1 - x*A(x) - 2*x^2*A'(x)) ).",
+  "id": "A386264",
+  "mentions": [
+    "A376125",
+    "A386210",
+    "A386230",
+    "A386263"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

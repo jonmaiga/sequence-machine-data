@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Unchanging value maps: number of nXk binary arrays indicating the locations of corresponding elements unequal to no king-move neighbor in a random 0..1 nXk array",
+  "description": "T(n,k)=Unchanging value maps: number of nXk binary arrays indicating the locations of corresponding elements unequal to no king-move neighbor in a random 0..1 nXk array.",
   "id": "A219403",
   "mentions": [
     "A005251"

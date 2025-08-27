@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements greater than the maximum of its antidiagonal elements",
+  "description": "Number of (n+1)X(5+1) 0..3 arrays with no 2X2 subblock having the sum of its diagonal elements greater than the maximum of its antidiagonal elements.",
   "id": "A251025",
   "mentions": [
     "A251028"

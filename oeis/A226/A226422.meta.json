@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing -k..k vectors of length n whose dot product with some lexicographically greater or equal nondecreasing -k..k vector equals n",
+  "description": "T(n,k)=Number of nondecreasing -k..k vectors of length n whose dot product with some lexicographically greater or equal nondecreasing -k..k vector equals n.",
   "id": "A226422",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) + phi(n) is a repdigit.",
+  "description": "Numbers k such that sigma(k) + phi(k) is a repdigit.",
   "id": "A116019",
   "mentions": [
     "A116017",

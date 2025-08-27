@@ -1,5 +1,5 @@
 {
-  "description": "Sum of neighbor maps: number of 4Xn binary arrays indicating the locations of corresponding elements equal to the sum mod 3 of their horizontal and antidiagonal neighbors in a random 0..2 4Xn array",
+  "description": "Sum of neighbor maps: number of 4Xn binary arrays indicating the locations of corresponding elements equal to the sum mod 3 of their horizontal and antidiagonal neighbors in a random 0..2 4Xn array.",
   "id": "A222389",
   "mentions": [
     "A222386"

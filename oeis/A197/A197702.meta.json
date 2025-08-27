@@ -1,5 +1,5 @@
 {
-  "description": "Smallest positive integer k such that n = +-1 +-3 +-... +-(2k-1) for some choice of +'s and -'s",
+  "description": "Smallest positive integer k such that n = +-1 +-3 +-... +-(2k-1) for some choice of +'s and -'s.",
   "id": "A197702",
   "mentions": [
     "A140358"

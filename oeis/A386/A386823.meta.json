@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = numerator((n^2 - k^2)/(n^2 + k^2)), where 0 <= k < n.",
+  "id": "A386823",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A005408",
+    "A005804",
+    "A066830",
+    "A069011",
+    "A094728",
+    "A386824"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

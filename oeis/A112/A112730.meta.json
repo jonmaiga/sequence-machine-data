@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the equation sigma(x)-phi(x)=n has at least one solution.",
+  "description": "Numbers k such that the equation sigma(x)-phi(x)=k has at least one solution.",
   "id": "A112730",
   "mentions": [
     "A036446",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

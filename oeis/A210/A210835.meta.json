@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..3 symmetric matrices with every 2X2 subblock having three or four distinct values, and new values 0..3 introduced in lower triangle row major order",
+  "description": "Number of (n+1)X(n+1) 0..3 symmetric matrices with every 2X2 subblock having three or four distinct values, and new values 0..3 introduced in lower triangle row major order.",
   "id": "A210835",
   "mentions": [],
   "tags": [

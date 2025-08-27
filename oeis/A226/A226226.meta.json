@@ -1,5 +1,5 @@
 {
-  "description": "Number of alignments of n points with no singleton cycles",
+  "description": "Number of alignments of n points with no singleton cycles.",
   "id": "A226226",
   "mentions": [
     "A007840"

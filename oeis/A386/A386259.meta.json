@@ -1,0 +1,21 @@
+{
+  "description": "Exponent of the highest power of 2 dividing the maximum exponent in the prime factorization of n; a(1) = 0.",
+  "id": "A386259",
+  "mentions": [
+    "A001146",
+    "A001511",
+    "A007814",
+    "A051903",
+    "A386258"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

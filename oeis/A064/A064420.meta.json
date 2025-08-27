@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A064413(n+1) = n. Probably complete.",
+  "description": "Numbers k such that A064413(k+1) = k. Probably complete.",
   "id": "A064420",
   "mentions": [
     "A064413"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..2 arrays with no element less than a strict majority of its horizontal and vertical neighbors",
+  "description": "Number of nX4 0..2 arrays with no element less than a strict majority of its horizontal and vertical neighbors.",
   "id": "A231647",
   "mentions": [
     "A231651"

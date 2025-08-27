@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers k such that k/(1+A347381(k)) obtains record values, where A347381 gives the distance from n to the nearest common ancestor of n and sigma(n) in the Doudna-tree.",
+  "id": "A386423",
+  "mentions": [
+    "A000203",
+    "A005940",
+    "A119239",
+    "A171929",
+    "A228059",
+    "A336702",
+    "A347381",
+    "A347391"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(3+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally or vertically",
+  "description": "Number of (n+1)X(3+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally or vertically.",
   "id": "A232427",
   "mentions": [
     "A232431"

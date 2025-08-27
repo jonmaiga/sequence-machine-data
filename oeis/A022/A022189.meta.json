@@ -1,7 +1,15 @@
 {
-  "description": "Gaussian binomial coefficients [ n,6 ] for q = 2.",
+  "description": "Gaussian binomial coefficients [n, 6] for q = 2.",
   "id": "A022189",
-  "mentions": [],
+  "mentions": [
+    "A000225",
+    "A006095",
+    "A006096",
+    "A006097",
+    "A006110",
+    "A022190",
+    "A022195"
+  ],
   "tags": [
     "formulas",
     "nonn"

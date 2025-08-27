@@ -1,5 +1,5 @@
 {
-  "description": "Totally Goldbach numbers: Positive integers n such that for all primes p < n-1 with p not dividing n, n-p is prime.",
+  "description": "Totally Goldbach numbers: Positive integers k such that for all primes p < k-1 with p not dividing k, k-p is prime.",
   "id": "A141341",
   "mentions": [
     "A020490",

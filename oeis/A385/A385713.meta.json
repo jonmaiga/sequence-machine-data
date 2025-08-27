@@ -1,0 +1,16 @@
+{
+  "description": "Numbers w + x + y + z where (w,x,y,z) are nonnegative solutions to the Diophantine equation w^2 + x^2 + y^2 + z^2 = w*x*y*z.",
+  "id": "A385713",
+  "mentions": [
+    "A061292",
+    "A380462"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

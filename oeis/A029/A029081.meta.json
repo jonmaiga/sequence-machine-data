@@ -1,13 +1,15 @@
 {
-  "description": "Expansion of 1/((1-x)(1-x^4)(1-x^9)(1-x^11)).",
+  "description": "Expansion of g.f. 1/((1-x)*(1-x^4)*(1-x^9)*(1-x^11)).",
   "id": "A029081",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 58,
+    "size": 65,
     "source": "joeis"
   }
 }

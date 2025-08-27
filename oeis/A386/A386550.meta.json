@@ -1,0 +1,20 @@
+{
+  "description": "Indices of hexagonal numbers that are six times another hexagonal number.",
+  "id": "A386550",
+  "mentions": [
+    "A000384",
+    "A269551",
+    "A385917",
+    "A386549"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

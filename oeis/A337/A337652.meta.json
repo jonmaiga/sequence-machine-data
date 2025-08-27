@@ -1,5 +1,5 @@
 {
-  "description": "Volume of the dual positive Birkhoff polytope C_{+}(n).",
+  "description": "Volume of the positive dual signed Birkhoff polytope C_{+}(n).",
   "id": "A337652",
   "mentions": [
     "A337650",

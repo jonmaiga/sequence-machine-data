@@ -1,7 +1,15 @@
 {
-  "description": "Numerators in expansion of a certain Dirichlet series.",
+  "description": "Numerators in the expansion of the Dirichlet series zeta(s) * Product((1+p^-s) / (1-p^(1-s))), p > 2.",
   "id": "A035109",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A000593",
+    "A001615",
+    "A008683",
+    "A060648",
+    "A309324"
+  ],
   "tags": [
     "easy",
     "formulas",

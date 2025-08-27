@@ -2,7 +2,8 @@
   "description": "Numbers whose base-2 and base-10 expansions have no digits in common.",
   "id": "A037344",
   "mentions": [
-    "A062998"
+    "A062998",
+    "A387032"
   ],
   "tags": [
     "base",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 63,
+    "size": 73,
     "source": "joeis"
   }
 }

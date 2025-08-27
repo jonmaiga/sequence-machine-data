@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..3 arrays with rows and columns lexicographically nondecreasing and the instance counts of every value within one of each other",
+  "description": "Number of nX7 0..3 arrays with rows and columns lexicographically nondecreasing and the instance counts of every value within one of each other.",
   "id": "A201392",
   "mentions": [
     "A201393"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of collinear point 4-tuples in an n X n .. X n 9-dimensional cubical grid",
+  "description": "Number of collinear point 4-tuples in an n X n .. X n 9-dimensional cubical grid.",
   "id": "A178293",
   "mentions": [
     "A000938",

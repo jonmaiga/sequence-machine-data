@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that there exists an integer 0",
+  "id": "A384814",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A002025",
+    "A002046",
+    "A383964"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

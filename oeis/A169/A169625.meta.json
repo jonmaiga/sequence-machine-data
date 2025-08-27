@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of infinite sum polynomials; p(x,n)=If[Mod[n, 2] == 1, (1 - x)^(n + 1)*Sum[(k + 1)*(1 + k + k^2)^Floor[(n - 1)/2]* x^k, {k, 0, Infinity}], (1 - x)^(n + 1)*Sum[(1 + k + k^2)^Floor[n/2]*x^ k, {k, 0, Infinity}]]",
+  "description": "Coefficients of infinite sum polynomials; p(x,n)=If[Mod[n, 2] == 1, (1 - x)^(n + 1)*Sum[(k + 1)*(1 + k + k^2)^Floor[(n - 1)/2]* x^k, {k, 0, Infinity}], (1 - x)^(n + 1)*Sum[(1 + k + k^2)^Floor[n/2]*x^ k, {k, 0, Infinity}]].",
   "id": "A169625",
   "mentions": [],
   "tags": [

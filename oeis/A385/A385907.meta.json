@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. A(x) satisfies: 1 = Sum_{n>=0} (1/(1-x)^n - A(x))^n / n!.",
+  "id": "A385907",
+  "mentions": [
+    "A326097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

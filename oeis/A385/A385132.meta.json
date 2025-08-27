@@ -1,0 +1,21 @@
+{
+  "description": "The number of integers k from 1 to n such that gcd(n, k) has an even maximum exponent in its prime factorization.",
+  "id": "A385132",
+  "mentions": [
+    "A001221",
+    "A051903",
+    "A368714",
+    "A384655",
+    "A385133"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

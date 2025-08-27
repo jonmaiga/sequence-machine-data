@@ -1,8 +1,11 @@
 {
-  "description": "9^n-th prime.",
+  "description": "(9^n)-th prime.",
   "id": "A119774",
-  "mentions": [],
+  "mentions": [
+    "A038833"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "nonn"
   ],

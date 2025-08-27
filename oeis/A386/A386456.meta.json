@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by ascending antidiagonals, where row n lists the parity of the n-th differences of the partition numbers (A000041).",
+  "id": "A386456",
+  "mentions": [
+    "A000041",
+    "A040051",
+    "A175804",
+    "A196251",
+    "A379378",
+    "A386457",
+    "A386458"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

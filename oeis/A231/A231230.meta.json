@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that, in the prime factorization of n, the sum of the primes equals the squared sum of exponents.",
+  "description": "Numbers k such that, in the prime factorization of k, the sum of the primes equals the squared sum of exponents.",
   "id": "A231230",
   "mentions": [
     "A000040",
+    "A001222",
+    "A008472",
     "A054411",
     "A054412",
     "A060205",
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

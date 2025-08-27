@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with exactly 3 palindromic prime factors (counted with multiplicity).",
+  "description": "Numbers with exactly 3 prime factors (counted with multiplicity), all of which are palindromes.",
   "id": "A046369",
   "mentions": [
     "A014612",

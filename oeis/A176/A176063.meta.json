@@ -1,5 +1,5 @@
 {
-  "description": "Asymmetrical triangle sequence:t(n,m)=(-1)^m* Binomial[n, m] Pochhammer[ -n, m] - (-1)^n Pochhammer[ -n, n] + (-1)^( n - m)* Binomial[n, -m + n] Pochhammer[ -n, -m + n]",
+  "description": "Asymmetrical triangle sequence:t(n,m)=(-1)^m* Binomial[n, m] Pochhammer[ -n, m] - (-1)^n Pochhammer[ -n, n] + (-1)^( n - m)* Binomial[n, -m + n] Pochhammer[ -n, -m + n].",
   "id": "A176063",
   "mentions": [
     "A021010"

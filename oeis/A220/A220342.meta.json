@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Equals two maps: number of nXk binary arrays indicating the locations of corresponding elements equal to exactly two of their king-move neighbors in a random 0..3 nXk array",
+  "description": "T(n,k)=Equals two maps: number of nXk binary arrays indicating the locations of corresponding elements equal to exactly two of their king-move neighbors in a random 0..3 nXk array.",
   "id": "A220342",
   "mentions": [
     "A005251"

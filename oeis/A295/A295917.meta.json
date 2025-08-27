@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..1 arrays with each 1 adjacent to 0 or 3 king-move neighboring 1s.",
+  "description": "Number of n X 7 0..1 arrays with each 1 adjacent to 0 or 3 king-move neighboring 1s.",
   "id": "A295917",
   "mentions": [
     "A295918"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

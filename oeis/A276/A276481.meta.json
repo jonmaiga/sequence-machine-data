@@ -1,17 +1,19 @@
 {
-  "description": "Numbers n such that b(n) is a prime, where b(1) = prime(1) = 2, b(n) = 10*b(n-1) + (prime(n) mod 10).",
+  "description": "Numbers k such that b(k) is prime, where b(1) = prime(1) = 2, b(n) = 10*b(n-1) + (prime(n) mod 10).",
   "id": "A276481",
   "mentions": [
     "A007652",
-    "A069151"
+    "A069151",
+    "A386964"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

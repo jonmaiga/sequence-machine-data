@@ -2,8 +2,10 @@
   "description": "Prime numbers whose binary representations are split into exactly five runs.",
   "id": "A100722",
   "mentions": [
-    "A000040",
-    "A100714"
+    "A000668",
+    "A082554",
+    "A100714",
+    "A100723"
   ],
   "tags": [
     "base",

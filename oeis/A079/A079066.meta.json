@@ -1,9 +1,10 @@
 {
-  "description": "\"Memory\" of prime(n): the number of (previous) primes contained as substrings in prime(n).",
+  "description": "\"Memory\" of prime(n): the number of distinct (previous) primes contained as substrings in prime(n).",
   "id": "A079066",
   "mentions": [
     "A033274",
     "A035232",
+    "A039996",
     "A039997",
     "A079075",
     "A179909",

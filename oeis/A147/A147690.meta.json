@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1; thereafter a(n+1)=F(n+3)*a(n)+F(n+3) where F_n is Fibonacci's sequence 0,1,1,2,3,5,8, etc",
+  "description": "a(0)=1; thereafter a(n+1)=F(n+3)*a(n)+F(n+3) where F_n is Fibonacci's sequence 0,1,1,2,3,5,8, etc.",
   "id": "A147690",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that the concatenation of pi(p) and p is prime, where pi is the prime counting function.",
+  "description": "Primes p such that both pi(p) and the concatenation of pi(p) and p are prime, where pi is the prime counting function.",
   "id": "A155032",
   "mentions": [
     "A154963"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

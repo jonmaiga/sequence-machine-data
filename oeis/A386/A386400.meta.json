@@ -1,0 +1,17 @@
+{
+  "description": "Minimum volume of n polycubes such that each polycube is adjacent to every other polycube.",
+  "id": "A386400",
+  "mentions": [
+    "A193416"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

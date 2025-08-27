@@ -1,5 +1,5 @@
 {
-  "description": "1/9 the number of triangular nXnXn arrays of integers in 1..9 with no element or any of its neighbors having the same value",
+  "description": "1/9 the number of triangular nXnXn arrays of integers in 1..9 with no element or any of its neighbors having the same value.",
   "id": "A180372",
   "mentions": [],
   "tags": [

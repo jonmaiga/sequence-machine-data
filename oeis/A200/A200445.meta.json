@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..n arrays x(0..8) of 9 elements with zero 4th differences",
+  "description": "Number of 0..n arrays x(0..8) of 9 elements with zero 4th differences.",
   "id": "A200445",
   "mentions": [
     "A200443"

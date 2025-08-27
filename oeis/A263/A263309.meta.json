@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p=6n+1 and q=6p+1 are primes.",
+  "description": "Numbers k such that p=6k+1 and q=6k+1 are primes.",
   "id": "A263309",
   "mentions": [
     "A023256",

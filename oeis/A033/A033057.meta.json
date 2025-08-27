@@ -1,7 +1,9 @@
 {
-  "description": "Numbers whose base-6 representation Sum_{i=0..m} d(i)*6^i has odd d(i) for all odd i.",
+  "description": "Numbers whose base-6 representation Sum_{i=0..m} d(i)*6^i has odd d(m-i) for all odd i.",
   "id": "A033057",
-  "mentions": [],
+  "mentions": [
+    "A032956"
+  ],
   "tags": [
     "base",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..2 arrays with no element less than a strict majority of its horizontal and antidiagonal neighbors",
+  "description": "Number of 7Xn 0..2 arrays with no element less than a strict majority of its horizontal and antidiagonal neighbors.",
   "id": "A232029",
   "mentions": [
     "A232023"

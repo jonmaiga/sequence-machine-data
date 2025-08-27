@@ -1,5 +1,5 @@
 {
-  "description": "Number of non-Look-and-Say partitions of n. Integer partitions with no permutation having all distinct run-lengths.",
+  "description": "Number of non-Look-and-Say partitions of n. Number of integer partitions of n such that there is no way to choose a disjoint strict integer partition of each multiplicity.",
   "id": "A351293",
   "mentions": [
     "A000041",

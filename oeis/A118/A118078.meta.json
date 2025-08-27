@@ -2,11 +2,11 @@
   "description": "Starting positions of strings of 8 1's in the decimal expansion of Pi.",
   "id": "A118078",
   "mentions": [
+    "A000796",
     "A083605"
   ],
   "tags": [
     "base",
-    "bref",
     "nonn"
   ],
   "terms": {

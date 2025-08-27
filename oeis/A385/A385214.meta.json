@@ -1,0 +1,44 @@
+{
+  "description": "Number of subsets of {1..n} without all equal lengths of maximal runs of consecutive elements increasing by 1.",
+  "id": "A385214",
+  "mentions": [
+    "A010027",
+    "A034839",
+    "A044813",
+    "A049988",
+    "A116674",
+    "A164707",
+    "A164708",
+    "A164710",
+    "A243815",
+    "A268193",
+    "A325325",
+    "A329738",
+    "A329739",
+    "A383013",
+    "A384175",
+    "A384176",
+    "A384177",
+    "A384879",
+    "A384884",
+    "A384885",
+    "A384886",
+    "A384887",
+    "A384888",
+    "A384889",
+    "A384891",
+    "A384892",
+    "A384893",
+    "A384904",
+    "A384905"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

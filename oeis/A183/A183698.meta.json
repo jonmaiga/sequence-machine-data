@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock nonsingular",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock nonsingular.",
   "id": "A183698",
   "mentions": [],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,d) is the number of fixed, properly d-dimensional (d,2)-polyominoids of size n, 2 <= d <= n+1.",
+  "id": "A387002",
+  "mentions": [
+    "A001168",
+    "A195739",
+    "A385582",
+    "A385715",
+    "A387004"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

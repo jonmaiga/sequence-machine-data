@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = round(Product_{k=1..n} 1 + 2^2^(-k)).",
+  "id": "A383472",
+  "mentions": [
+    "A014571",
+    "A215016"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

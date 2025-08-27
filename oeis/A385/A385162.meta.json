@@ -1,0 +1,23 @@
+{
+  "description": "Place a point on the integer coordinates, up to |n|, along all four axial directions on a Cartesian plane, and then join a circle through every unordered triple of non-collinear points: a(n) is the number of distinct (curved) edges formed from the intersections of the circles.",
+  "id": "A385162",
+  "mentions": [
+    "A359571",
+    "A373108",
+    "A374827",
+    "A384703",
+    "A385159",
+    "A385160",
+    "A385161"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

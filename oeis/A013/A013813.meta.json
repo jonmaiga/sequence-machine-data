@@ -1,9 +1,15 @@
 {
-  "description": "a(n) = 20^(4*n+3).",
+  "description": "a(n) = 20^(4*n + 3).",
   "id": "A013813",
-  "mentions": [],
+  "mentions": [
+    "A004767",
+    "A009964",
+    "A013777",
+    "A013793"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

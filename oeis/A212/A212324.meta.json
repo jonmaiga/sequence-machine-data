@@ -1,5 +1,5 @@
 {
-  "description": "(1/p)*Sum_{k=0..n}binomial(n,k)^4 where p is a prime in the interval ]n, 4n/3]",
+  "description": "(1/p)*Sum_{k=0..n}binomial(n,k)^4 where p is a prime in the interval ]n, 4n/3].",
   "id": "A212324",
   "mentions": [],
   "tags": [

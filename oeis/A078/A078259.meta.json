@@ -1,7 +1,10 @@
 {
-  "description": "a(n) = denominator(N), where N = 0.135..up to (2n-1)(concatenation 1 to 2n-1 of first n odd numbers after decimal point).",
+  "description": "a(n) = denominator(N), where N = 0.135..(2n-1) is the concatenation of the first n odd numbers after decimal point.",
   "id": "A078259",
-  "mentions": [],
+  "mentions": [
+    "A019519",
+    "A031312"
+  ],
   "tags": [
     "base",
     "frac",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of probability that the height of a rooted random binary tree is n",
+  "description": "Numerator of probability that the height of a rooted random binary tree is n.",
   "id": "A187131",
   "mentions": [
     "A058891",

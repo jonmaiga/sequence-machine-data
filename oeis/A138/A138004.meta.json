@@ -1,19 +1,19 @@
 {
-  "description": "Numbers n for which all nontrivial cycles of the Ducci map have the same length.",
+  "description": "Odd numbers k for which all nontrivial cycles of the Ducci map on k-tuples modulo 2 have the same length.",
   "id": "A138004",
   "mentions": [
     "A001122",
     "A038553",
+    "A111944",
     "A138005",
     "A138006"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

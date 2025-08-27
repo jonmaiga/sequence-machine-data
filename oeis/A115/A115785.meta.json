@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime number p such that p - p(1)#, p - p(2)#, ..., p - p(n)# are all prime, where p(i)# is the primorial of the i-th prime (A002110(i)).",
+  "description": "Smallest prime number p such that p - prime(1)#, p - prime(2)#, ..., p - prime(n)# are all prime, where prime(i)# is the primorial of the i-th prime (A002110(i)).",
   "id": "A115785",
   "mentions": [
     "A002110",

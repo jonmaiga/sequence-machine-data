@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrangements of n+1 nonzero numbers x(i) in -8..8 with the sum of trunc(x(i)/x(i+1)) equal to zero",
+  "description": "Number of arrangements of n+1 nonzero numbers x(i) in -8..8 with the sum of trunc(x(i)/x(i+1)) equal to zero.",
   "id": "A189544",
   "mentions": [
     "A189545"

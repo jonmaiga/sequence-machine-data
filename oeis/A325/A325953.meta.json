@@ -8,11 +8,12 @@
     "A325955"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 69,
-    "source": "oeis-entry"
+    "size": 72,
+    "source": "oeis-bfile"
   }
 }

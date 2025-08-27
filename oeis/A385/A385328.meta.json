@@ -1,0 +1,25 @@
+{
+  "description": "The number of people in a variation of the Josephus problem when the first person is freed and the elimination process is to skip the number of people equaling the number of letters in consecutive numbers, then eliminate the next person.",
+  "id": "A385328",
+  "mentions": [
+    "A000079",
+    "A002387",
+    "A005589",
+    "A380201",
+    "A380202",
+    "A380204",
+    "A380246",
+    "A380247"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

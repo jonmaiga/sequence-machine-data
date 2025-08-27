@@ -1,5 +1,5 @@
 {
-  "description": "Equals two maps: number of 5Xn binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..1 5Xn array",
+  "description": "Equals two maps: number of 5Xn binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..1 5Xn array.",
   "id": "A220332",
   "mentions": [
     "A220328"

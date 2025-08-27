@@ -1,5 +1,5 @@
 {
-  "description": "Limiting sequence of the possible number of inversions in stable configurations of 3^n-1 chips in a chip firing-game directed 3-ary tree resulting from a permutation-based strategy of firing chips",
+  "description": "Limiting sequence of the possible number of inversions in stable configurations of 3^n-1 chips in a chip firing-game directed 3-ary tree resulting from a permutation-based strategy of firing chips.",
   "id": "A381462",
   "mentions": [
     "A376116",

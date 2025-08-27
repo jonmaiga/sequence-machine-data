@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn array permutations with each element moving zero or one space horizontally, diagonally or antidiagonally",
+  "description": "Number of 7Xn array permutations with each element moving zero or one space horizontally, diagonally or antidiagonally.",
   "id": "A189655",
   "mentions": [
     "A189650"

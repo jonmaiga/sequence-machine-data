@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2Xn 0..1 arrays with exactly floor(2Xn/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..1 order",
+  "description": "Number of 2Xn 0..1 arrays with exactly floor(2Xn/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..1 order.",
   "id": "A222770",
   "mentions": [
     "A222769"

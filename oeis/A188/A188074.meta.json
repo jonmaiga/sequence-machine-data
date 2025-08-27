@@ -1,5 +1,5 @@
 {
-  "description": "Positions of 1 in the zero-one sequence [nr]-[3r]-[nr-3r], where r=sqrt(3), n>=1.",
+  "description": "Positions of 1 in the zero-one sequence [n*r]-[3*r]-[n*r-3*r], where r=sqrt(3), n>=1.",
   "id": "A188074",
   "mentions": [
     "A188014",

@@ -2,15 +2,17 @@
   "description": "Pronic numbers A002378 (AA) that can be divided into two equal strings (A).",
   "id": "A161356",
   "mentions": [
-    "A002378"
+    "A002378",
+    "A116285"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "joeis"
   }
 }

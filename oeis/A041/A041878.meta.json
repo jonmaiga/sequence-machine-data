@@ -2,6 +2,7 @@
   "description": "Numerators of continued fraction convergents to sqrt(461).",
   "id": "A041878",
   "mentions": [
+    "A040439",
     "A041879"
   ],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n - 1, k - 1)*binomial(n + k, k).",
+  "id": "A386789",
+  "mentions": [
+    "A000917",
+    "A000984",
+    "A176479",
+    "A181983",
+    "A357367",
+    "A386876"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

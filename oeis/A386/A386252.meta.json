@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m of the form 2^i * 3^j * 5^k such that i, j, k > 0 and m+1 and m-1 are both prime numbers.",
+  "id": "A386252",
+  "mentions": [
+    "A027856",
+    "A080185",
+    "A143207",
+    "A384530"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

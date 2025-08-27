@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric 0..5 arrays with no element equal to any horizontal or vertical neighbor and with new values 0..5 introduced in lower triangular row major order",
+  "description": "Number of n X n symmetric 0..5 arrays with no element equal to any horizontal or vertical neighbor and with new values 0..5 introduced in lower triangular row major order.",
   "id": "A193271",
   "mentions": [],
   "tags": [

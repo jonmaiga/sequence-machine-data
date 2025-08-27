@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of exp(sin(sinh(x))).",
+  "description": "Expansion of e.g.f.: exp(sin(sinh(x))).",
   "id": "A009202",
   "mentions": [],
   "tags": [

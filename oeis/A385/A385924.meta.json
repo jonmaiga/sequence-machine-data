@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that 2^k-1 has 0 as its second-most significant digit in base k.",
+  "id": "A385924",
+  "mentions": [
+    "A000225",
+    "A001220"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

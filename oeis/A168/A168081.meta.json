@@ -1,21 +1,25 @@
 {
-  "description": "Lucas sequence U_n(x,1) over the field GF(2).",
+  "description": "Lucas sequence U_n(x,1) over the field GF(2)[x].",
   "id": "A168081",
   "mentions": [
+    "A000120",
     "A000129",
+    "A002487",
     "A006921",
+    "A049310",
     "A206296",
     "A248663",
     "A257971",
     "A260022"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

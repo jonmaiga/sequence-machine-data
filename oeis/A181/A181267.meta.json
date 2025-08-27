@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX(n+1) binary matrices M with rows in strictly increasing order and rows of M*Mtranspose (mod 2) in strictly increasing order",
+  "description": "Number of nX(n+1) binary matrices M with rows in strictly increasing order and rows of M*Mtranspose (mod 2) in strictly increasing order.",
   "id": "A181267",
   "mentions": [
     "A181266"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

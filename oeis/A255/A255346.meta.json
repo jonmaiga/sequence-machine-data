@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+1 both have at least two distinct prime factors.",
+  "description": "Numbers k such that k and k+1 both have at least two distinct prime factors.",
   "id": "A255346",
   "mentions": [
     "A074851"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

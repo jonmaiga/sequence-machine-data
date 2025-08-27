@@ -1,7 +1,9 @@
 {
-  "description": "Smallest k such that floor(k*e) begins with n (e = 2.718281828...)",
+  "description": "Smallest k such that floor(k*e) begins with n (e = 2.718281828...).",
   "id": "A078219",
-  "mentions": [],
+  "mentions": [
+    "A001113"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

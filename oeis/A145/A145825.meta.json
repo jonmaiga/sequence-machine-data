@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is in A145818 such that (4n-1-a(n))/2 is in A145818 as well",
+  "description": "a(n) is in A145818 such that (4n-1-a(n))/2 is in A145818 as well.",
   "id": "A145825",
   "mentions": [
     "A145812",

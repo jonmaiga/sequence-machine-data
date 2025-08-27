@@ -1,17 +1,21 @@
 {
-  "description": "Barlow packings with group R3m that repeat after 3n layers.",
+  "description": "Number of close-packings with layer-number 3n and space group R3m.",
   "id": "A011956",
   "mentions": [
-    "A011768"
+    "A011768",
+    "A011954",
+    "A011955",
+    "A050186",
+    "A371992"
   ],
   "tags": [
     "easy",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 7,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "joeis"
   }
 }

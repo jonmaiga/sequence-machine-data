@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without consecutive moves in the same direction",
+  "description": "Number of n X n arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without consecutive moves in the same direction.",
   "id": "A221477",
   "mentions": [
     "A221483"

@@ -1,14 +1,24 @@
 {
   "description": "Galois numbers for p=7; order of group AGL(n,7).",
   "id": "A028669",
-  "mentions": [],
+  "mentions": [
+    "A028365",
+    "A028665",
+    "A028667",
+    "A028673",
+    "A028675",
+    "A028679",
+    "A028681",
+    "A028685",
+    "A132035"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 9,
     "source": "oeis-bfile"
   }
 }

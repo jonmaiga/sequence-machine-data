@@ -1,5 +1,5 @@
 {
-  "description": "Number of independent vertex sets and vertex covers in the n-Sierpinski sieve graph.",
+  "description": "Number of independent vertex sets and vertex covers in the n-Sierpinski gasket graph.",
   "id": "A292708",
   "mentions": [],
   "tags": [

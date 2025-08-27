@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with no 3x3 subblock diagonal sum equal to the antidiagonal sum",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with no 3x3 subblock diagonal sum equal to the antidiagonal sum.",
   "id": "A257017",
   "mentions": [],
   "tags": [

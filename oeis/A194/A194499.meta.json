@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n 0..2 array with each element unequal to the sum mod 3 of its horizontal and vertical neighbors",
+  "description": "Number of lower triangles of an n X n 0..2 array with each element unequal to the sum mod 3 of its horizontal and vertical neighbors.",
   "id": "A194499",
   "mentions": [
     "A194505"

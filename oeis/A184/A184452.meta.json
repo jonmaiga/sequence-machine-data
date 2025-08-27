@@ -1,5 +1,5 @@
 {
-  "description": "1/36 the number of (n+2)X6 0..2 arrays with each 3X3 subblock containing two of one value, two of another, and five of the last",
+  "description": "1/36 the number of (n+2)X6 0..2 arrays with each 3X3 subblock containing two of one value, two of another, and five of the last.",
   "id": "A184452",
   "mentions": [
     "A184457"

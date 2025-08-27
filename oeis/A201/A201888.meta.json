@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of zero-sum nXk -2..2 arrays with every element equal to at least one horizontal or vertical neighbor",
+  "description": "T(n,k)=Number of zero-sum nXk -2..2 arrays with every element equal to at least one horizontal or vertical neighbor.",
   "id": "A201888",
   "mentions": [],
   "tags": [

@@ -1,0 +1,15 @@
+{
+  "description": "Run lengths of A386482(n) mod 2 == n mod 2.",
+  "id": "A387078",
+  "mentions": [
+    "A386482"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers k for which the sum of their digits equals the product of their prime digits.",
+  "id": "A384444",
+  "mentions": [
+    "A002110",
+    "A006753",
+    "A007947",
+    "A007953",
+    "A007954",
+    "A066306",
+    "A067077",
+    "A384443",
+    "A384445",
+    "A384505"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

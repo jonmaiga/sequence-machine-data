@@ -1,5 +1,5 @@
 {
-  "description": "Positions of 1 in the zero-one sequence [nr]-[5r]-[nr-5r], where r=sqrt(5), n>=1.",
+  "description": "Positions of 1 in the zero-one sequence [n*r]-[5*r]-[n*r-5*r], where r=sqrt(5), n>=1.",
   "id": "A188220",
   "mentions": [
     "A188014"

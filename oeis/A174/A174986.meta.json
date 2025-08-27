@@ -1,5 +1,5 @@
 {
-  "description": "Numerator coefficients of an infinite sum polynomial:p(x,n)=Sum[(((1 + Sqrt[5])^k - (1 - Sqrt[5])^k)/(2^k* Sqrt[5]))^n*x^k, {k, 0, Infinity}]",
+  "description": "Numerator coefficients of an infinite sum polynomial:p(x,n)=Sum[(((1 + Sqrt[5])^k - (1 - Sqrt[5])^k)/(2^k* Sqrt[5]))^n*x^k, {k, 0, Infinity}].",
   "id": "A174986",
   "mentions": [],
   "tags": [

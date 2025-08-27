@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct sums of distinct prime powers dividing n.",
+  "id": "A385645",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A119347",
+    "A385646"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

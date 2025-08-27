@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to reciprocally link elements of an n X n array either to themselves or to exactly one horizontal, vertical or antidiagonal neighbor",
+  "description": "Number of ways to reciprocally link elements of an n X n array either to themselves or to exactly one horizontal, vertical or antidiagonal neighbor.",
   "id": "A220546",
   "mentions": [
     "A220553"

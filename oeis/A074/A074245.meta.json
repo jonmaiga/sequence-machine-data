@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) is a harmonic number.",
+  "description": "Numbers k such that sigma(k) is a harmonic number.",
   "id": "A074245",
   "mentions": [
     "A001599"

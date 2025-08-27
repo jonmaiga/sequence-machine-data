@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+4 0..9 arrays with no five consecutive elements with pattern ababa or abbba (possibly a=b) and new values 0..9 introduced in 0..9 order",
+  "description": "Number of length n+4 0..9 arrays with no five consecutive elements with pattern ababa or abbba (possibly a=b) and new values 0..9 introduced in 0..9 order.",
   "id": "A244184",
   "mentions": [
     "A244185"

@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets of {1,2,...,n} such that no two elements differ by 1 or 6.",
+  "id": "A385870",
+  "mentions": [
+    "A376033"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

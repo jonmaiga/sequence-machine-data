@@ -1,5 +1,5 @@
 {
-  "description": "Primes such that the square of the sum of itself and next prime, when added to 5, is a prime",
+  "description": "Primes such that the square of the sum of itself and next prime, when added to 5, is a prime.",
   "id": "A181423",
   "mentions": [
     "A000045",

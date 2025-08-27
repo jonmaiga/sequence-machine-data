@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number > 1 whose base n digits yield the original number when added and multiplied left to right; or 0 if no such number exists",
+  "description": "a(n) is the smallest number > 1 whose base n digits yield the original number when added and multiplied left to right; or 0 if no such number exists.",
   "id": "A334916",
   "mentions": [
     "A000290",

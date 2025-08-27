@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of imprimitive (periodic) 2n-bead balanced binary necklaces.",
+  "id": "A386946",
+  "mentions": [
+    "A000013",
+    "A000048",
+    "A003239",
+    "A022553",
+    "A115118",
+    "A383904",
+    "A386388",
+    "A387130"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

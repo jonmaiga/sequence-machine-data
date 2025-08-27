@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2-adic valuation of A003266(n).",
+  "id": "A385608",
+  "mentions": [
+    "A000120",
+    "A003266",
+    "A007814",
+    "A337923",
+    "A385458",
+    "A385609"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

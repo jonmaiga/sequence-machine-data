@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = 1/(1 - 9*x*A(x))^(2/3).",
+  "description": "G.f. A(x) satisfies A(x) = 1/(1 - 9*x*A(x))^(2/3).",
   "id": "A377267",
   "mentions": [
     "A078532",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

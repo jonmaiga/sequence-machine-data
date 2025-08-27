@@ -2,8 +2,7 @@
   "description": "Numbers that are the product of two odd prime powers with Euler phi-functions having solely a single 2 as a common prime factor.",
   "id": "A329229",
   "mentions": [
-    "A037074",
-    "A062373"
+    "A037074"
   ],
   "tags": [
     "nonn"

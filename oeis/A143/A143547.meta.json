@@ -1,9 +1,13 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^4*A(-x)^3.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^4*A(-x)^3.",
   "id": "A143547",
   "mentions": [
     "A002296",
+    "A143046",
     "A143546",
+    "A143549",
+    "A143550",
+    "A143553",
     "A369929",
     "A370062"
   ],

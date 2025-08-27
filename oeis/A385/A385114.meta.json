@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least k with k > a(n-1) such that A000120(k) = A002487(n), with a(0) = 0.",
+  "id": "A385114",
+  "mentions": [
+    "A000120",
+    "A002487",
+    "A101624",
+    "A168081",
+    "A212288",
+    "A212289",
+    "A277020"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

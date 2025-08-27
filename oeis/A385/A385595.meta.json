@@ -1,0 +1,18 @@
+{
+  "description": "The u sequence in quartets (3,u,v,w); i.e., values of u for solutions to 3*(3+u) = v*(v+w), in positive integers, with u,v>=3 and u>=m, sorted by nondecreasing values of u; see Comments.",
+  "id": "A385595",
+  "mentions": [
+    "A385182",
+    "A385592",
+    "A385596",
+    "A385597"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

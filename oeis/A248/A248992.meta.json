@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 5+4 0..n arrays with every five consecutive terms having two times the sum of some three elements equal to three times the sum of the remaining two",
+  "description": "Number of length 5+4 0..n arrays with every five consecutive terms having two times the sum of some three elements equal to three times the sum of the remaining two.",
   "id": "A248992",
   "mentions": [
     "A248987"

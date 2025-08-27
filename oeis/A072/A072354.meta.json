@@ -2,6 +2,7 @@
   "description": "a(n)-th Fibonacci number is the smallest Fibonacci number containing n digits.",
   "id": "A072354",
   "mentions": [
+    "A001622",
     "A072353",
     "A105700",
     "A105702",

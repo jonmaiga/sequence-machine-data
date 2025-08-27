@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..1 arrays with no element equal to exactly three horizontal or vertical neighbors, with new values 0..1 introduced in row major order",
+  "description": "Number of n X n 0..1 arrays with no element equal to exactly three horizontal or vertical neighbors, with new values 0..1 introduced in row major order.",
   "id": "A240630",
   "mentions": [
     "A240636"

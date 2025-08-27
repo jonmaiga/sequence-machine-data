@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = bin_prime_sum(fibonacci(A001651[n])), where fibonacci(A001651[n]) is A014437[n]",
+  "description": "a(n) = bin_prime_sum(fibonacci(A001651[n])), where fibonacci(A001651[n]) is A014437[n].",
   "id": "A059878",
   "mentions": [
     "A001651",

@@ -2,8 +2,8 @@
   "description": "Numbers that are congruent to {1, 5} mod 20.",
   "id": "A228141",
   "mentions": [
+    "A122870",
     "A216815",
-    "A216816",
     "A228142"
   ],
   "tags": [

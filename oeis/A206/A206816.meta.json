@@ -1,8 +1,10 @@
 {
-  "description": "Sum_{0",
+  "description": "a(n) = Sum_{0",
   "id": "A206816",
   "mentions": [
     "A000142",
+    "A001563",
+    "A007489",
     "A206817"
   ],
   "tags": [

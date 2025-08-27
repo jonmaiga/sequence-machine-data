@@ -1,0 +1,18 @@
+{
+  "description": "Triprimes that are the concatenation of three consecutive primes in reverse order.",
+  "id": "A384636",
+  "mentions": [
+    "A014612",
+    "A383114",
+    "A384638"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

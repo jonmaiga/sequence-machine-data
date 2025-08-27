@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) binary arrays with every 2X2 subblock sum equal to exactly one or two horizontal and vertical neighbor 2X2 subblock sums",
+  "description": "T(n,k)=Number of (n+1)X(k+1) binary arrays with every 2X2 subblock sum equal to exactly one or two horizontal and vertical neighbor 2X2 subblock sums.",
   "id": "A188311",
   "mentions": [
     "A185489"

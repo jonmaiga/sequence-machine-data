@@ -1,0 +1,18 @@
+{
+  "description": "Numbers y such that there exists an integer 0 < x < y such that sigma(x)^x * sigma(y)^y = (x+y)^(x+y).",
+  "id": "A385186",
+  "mentions": [
+    "A000203",
+    "A002046",
+    "A383932"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

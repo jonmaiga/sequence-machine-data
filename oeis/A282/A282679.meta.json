@@ -2,12 +2,14 @@
   "description": "Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 499\", based on the 5-celled von Neumann neighborhood.",
   "id": "A282679",
   "mentions": [
+    "A282675",
     "A282678",
     "A282680",
     "A282681"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

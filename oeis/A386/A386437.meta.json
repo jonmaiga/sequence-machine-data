@@ -1,0 +1,19 @@
+{
+  "description": "Alternating sum of the numbers in the trajectory of n for the 3x+1 problem.",
+  "id": "A386437",
+  "mentions": [
+    "A006577",
+    "A033493",
+    "A070165"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

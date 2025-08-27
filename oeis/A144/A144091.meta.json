@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) is the number of partial bijections (or subpermutations) of an n-element set of height k (height(alpha) = |Im(alpha)|) and with exactly 2 fixed points",
+  "description": "T(n,k) is the number of partial bijections (or subpermutations) of an n-element set of height k (height(alpha) = |Im(alpha)|) and with exactly 2 fixed points.",
   "id": "A144091",
   "mentions": [
     "A144087"

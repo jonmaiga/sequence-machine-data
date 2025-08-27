@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) 0..2 arrays with nondecreasing sum of every three consecutive values in every row and column",
+  "description": "Number of (n+2)X(4+2) 0..2 arrays with nondecreasing sum of every three consecutive values in every row and column.",
   "id": "A250597",
   "mentions": [
     "A250601"

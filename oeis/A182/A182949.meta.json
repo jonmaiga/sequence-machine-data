@@ -1,5 +1,5 @@
 {
-  "description": "Joint-rank array of the numbers (3*i+1)*3^j, where i>=0, j>=0, by antidiagonals",
+  "description": "Joint-rank array of the numbers (3*i+1)*3^j, where i>=0, j>=0, by antidiagonals.",
   "id": "A182949",
   "mentions": [
     "A007051",

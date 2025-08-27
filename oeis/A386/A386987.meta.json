@@ -1,0 +1,22 @@
+{
+  "description": "For n >= 2, a(n) is the least r >= 1 such that T(n - r) + ... + T(n - 1) = T(n + 1) + ... + T(n + r) where T(i) is A010060(i).",
+  "id": "A386987",
+  "mentions": [
+    "A010060",
+    "A056196",
+    "A079523",
+    "A081706",
+    "A131323",
+    "A225822",
+    "A249034"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

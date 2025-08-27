@@ -1,5 +1,5 @@
 {
-  "description": "The number of divisors d of n such that d^d = d (mod n).",
+  "description": "The number of divisors d of n such that d^d == d (mod n).",
   "id": "A384237",
   "mentions": [
     "A000005",

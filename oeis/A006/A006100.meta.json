@@ -1,5 +1,5 @@
 {
-  "description": "Gaussian binomial coefficient [ n,2 ] for q=3.",
+  "description": "Gaussian binomial coefficient [n, 2] for q = 3.",
   "id": "A006100",
   "mentions": [
     "A000051",

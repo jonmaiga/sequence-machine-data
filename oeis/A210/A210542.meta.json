@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of n nonnegative integers with value i>0 appearing only after i-1 has appeared at least 5 times",
+  "description": "Number of arrays of n nonnegative integers with value i>0 appearing only after i-1 has appeared at least 5 times.",
   "id": "A210542",
   "mentions": [
     "A210545"

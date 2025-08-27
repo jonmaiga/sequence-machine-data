@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1) + Sum_{k=0..n-1} (1 + k) * k^6 * binomial(n-1,k) * a(k) * a(n-1-k).",
+  "id": "A386509",
+  "mentions": [
+    "A143925",
+    "A385943",
+    "A386447",
+    "A386505",
+    "A386506",
+    "A386507",
+    "A386508"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX6 binary arrays with no element equal to a strict majority of its king-move neighbors",
+  "description": "Half the number of nX6 binary arrays with no element equal to a strict majority of its king-move neighbors.",
   "id": "A183385",
   "mentions": [
     "A183386"

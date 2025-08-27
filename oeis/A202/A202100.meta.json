@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays avoiding patterns 001 and 011 in rows and columns",
+  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays avoiding patterns 001 and 011 in rows and columns.",
   "id": "A202100",
   "mentions": [],
   "tags": [

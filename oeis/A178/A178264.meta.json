@@ -1,5 +1,5 @@
 {
-  "description": "Number of collinear point 6-tuples in an n X n X n cubical grid",
+  "description": "Number of collinear point 6-tuples in an n X n X n cubical grid.",
   "id": "A178264",
   "mentions": [
     "A000938",

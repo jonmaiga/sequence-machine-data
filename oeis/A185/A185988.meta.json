@@ -1,5 +1,5 @@
 {
-  "description": "1/128 the number of (n+2)X6 binary arrays with each 3X3 subblock trace equal to some horizontal or vertical neighbor 3X3 subblock trace",
+  "description": "1/128 the number of (n+2)X6 binary arrays with each 3X3 subblock trace equal to some horizontal or vertical neighbor 3X3 subblock trace.",
   "id": "A185988",
   "mentions": [
     "A185993"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+k 0..3 arrays with at most one downstep in every k consecutive neighbor pairs",
+  "description": "T(n,k)=Number of length n+k 0..3 arrays with at most one downstep in every k consecutive neighbor pairs.",
   "id": "A258730",
   "mentions": [
     "A000302",

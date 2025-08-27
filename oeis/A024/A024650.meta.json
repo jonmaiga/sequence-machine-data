@@ -1,15 +1,17 @@
 {
   "description": "n written in fractional base 9/2.",
   "id": "A024650",
-  "mentions": [],
+  "mentions": [
+    "A245345"
+  ],
   "tags": [
     "base",
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 67,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. 1/(1 - 2 * x * cosh(x)).",
   "id": "A352648",
   "mentions": [
+    "A185951",
     "A205571",
     "A352649"
   ],

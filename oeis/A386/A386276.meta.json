@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the sequence defined by f(1) = k and f(x+1) = the sum of the three largest proper divisors of f(x), consists entirely of numbers having at least three proper divisors.",
+  "id": "A386276",
+  "mentions": [
+    "A080257"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

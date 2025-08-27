@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..3 arrays with row and column sums nondecreasing, and no adjacent elements equal",
+  "description": "Number of (n+1)X(1+1) 0..3 arrays with row and column sums nondecreasing, and no adjacent elements equal.",
   "id": "A233028",
   "mentions": [
     "A233031"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays of the minimum or maximum value of corresponding elements and their horizontal and vertical neighbors in a random 0..2 nX3 array",
+  "description": "Number of nX3 arrays of the minimum or maximum value of corresponding elements and their horizontal and vertical neighbors in a random 0..2 nX3 array.",
   "id": "A217996",
   "mentions": [
     "A217999"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*n-7 is composite.",
+  "description": "Numbers k such that 2*k-7 is composite.",
   "id": "A153039",
   "mentions": [
     "A089192",

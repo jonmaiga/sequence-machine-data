@@ -1,8 +1,14 @@
 {
-  "description": "G.f. satisfies: A(x) = A(x)^4 - 9*x.",
+  "description": "G.f. A(x) satisfies A(x) = A(x)^4 - 9*x.",
   "id": "A247029",
   "mentions": [
-    "A224884"
+    "A004987",
+    "A008931",
+    "A078532",
+    "A224884",
+    "A245114",
+    "A376282",
+    "A376636"
   ],
   "tags": [
     "formulas",

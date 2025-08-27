@@ -2,14 +2,18 @@
   "description": "Exponent of 4 (value of i) in n-th number of form 4^i*6^j.",
   "id": "A025647",
   "mentions": [
-    "A025653"
+    "A025618",
+    "A025653",
+    "A025658",
+    "A235127"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

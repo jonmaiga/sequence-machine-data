@@ -1,12 +1,11 @@
 {
-  "description": "Numbers n such that phi(n)=reversal(n)-n.",
+  "description": "Numbers k such that phi(k) = reversal(k)-k.",
   "id": "A115926",
   "mentions": [
     "A072393"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {

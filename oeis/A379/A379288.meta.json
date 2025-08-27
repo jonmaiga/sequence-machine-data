@@ -1,11 +1,13 @@
 {
-  "description": "Irregular triangle read by rows in which row n lists the odd divisors of n except the \"e\" odd divisors described in A005279.",
+  "description": "Irregular triangle read by rows in which row n lists the odd divisors of n excluding odd divisors e for which there exists another divisor j with j < e < 2*j.",
   "id": "A379288",
   "mentions": [
     "A000203",
     "A001227",
     "A003056",
+    "A005153",
     "A005279",
+    "A174973",
     "A182469",
     "A237270",
     "A237271",
@@ -16,7 +18,12 @@
     "A379379",
     "A379384",
     "A379461",
-    "A379634"
+    "A379634",
+    "A384149",
+    "A384222",
+    "A384225",
+    "A384226",
+    "A385000"
   ],
   "tags": [
     "nonn",

@@ -1,0 +1,18 @@
+{
+  "description": "Consider triangles ABC satisfying (sin A)^2 + (sin B)^2 = sin C. Sequence gives A_0 (in degrees), the maximum A such that more than one triple (A,B,C) is possible.",
+  "id": "A384807",
+  "mentions": [
+    "A384805"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

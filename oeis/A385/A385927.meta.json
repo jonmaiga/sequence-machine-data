@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = numerator m of the fraction m/n that is most closely approximated by a prime-fraction p/q, under conditions stated in A385925.",
+  "id": "A385927",
+  "mentions": [
+    "A000040",
+    "A385925",
+    "A385926"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

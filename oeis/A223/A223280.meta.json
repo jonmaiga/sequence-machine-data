@@ -1,5 +1,5 @@
 {
-  "description": "Rolling icosahedron face footprints: number of nX6 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge",
+  "description": "Rolling icosahedron face footprints: number of nX6 0..19 arrays starting with 0 where 0..19 label faces of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves across an icosahedral edge.",
   "id": "A223280",
   "mentions": [
     "A223282"

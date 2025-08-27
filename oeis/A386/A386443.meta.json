@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1) + Sum_{k=0..n-1} k^2 * a(k) * a(n-1-k).",
+  "id": "A386443",
+  "mentions": [
+    "A075834",
+    "A385830",
+    "A386444",
+    "A386445",
+    "A386446",
+    "A386447",
+    "A386448",
+    "A386452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

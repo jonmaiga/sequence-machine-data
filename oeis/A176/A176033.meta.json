@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^(2n-1) == 2 (mod 2n) and such that 2^(n-1) != 1 (mod n).",
+  "description": "Numbers k such that 2^(2k-1) == 2 (mod 2k) and such that 2^(k-1) != 1 (mod k).",
   "id": "A176033",
   "mentions": [
     "A001567",

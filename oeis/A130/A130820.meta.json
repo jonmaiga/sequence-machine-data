@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of number whose Engel expansion is given by the sequence: 1,1,2,2,3,3,4,4,...Ceiling[n/2],...",
+  "description": "Decimal expansion of number whose Engel expansion is given by the sequence: 1,1,2,2,3,3,4,4,...ceiling(n/2),...",
   "id": "A130820",
   "mentions": [
     "A001405",

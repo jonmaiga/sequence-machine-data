@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows: T(n, k) = (binomial(n, k) * fibonomial(n, k)) mod 2.",
+  "id": "A385627",
+  "mentions": [
+    "A007318",
+    "A010048",
+    "A047999",
+    "A385395",
+    "A385456",
+    "A385626",
+    "A385630"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

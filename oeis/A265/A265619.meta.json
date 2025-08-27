@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..n*k-1 arrays with upper left zero and lower right n*k-1 and each element differing from its horizontal and diagonal neighbors by a power of two.",
+  "description": "T(n,k) is the number of n X k 0..n*k-1 arrays with upper left zero and lower right n*k-1 and each element differing from its horizontal and diagonal neighbors by a power of two.",
   "id": "A265619",
   "mentions": [
     "A000272",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

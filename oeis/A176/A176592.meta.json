@@ -1,8 +1,9 @@
 {
-  "description": "List of pairs n,11*n",
+  "description": "List of pairs n, 11*n.",
   "id": "A176592",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabf"

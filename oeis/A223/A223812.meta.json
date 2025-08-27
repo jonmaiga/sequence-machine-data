@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..2 arrays with row sums nondecreasing and column sums unimodal",
+  "description": "Number of nX3 0..2 arrays with row sums nondecreasing and column sums unimodal.",
   "id": "A223812",
   "mentions": [
     "A223815"

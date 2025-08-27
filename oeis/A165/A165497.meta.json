@@ -1,5 +1,5 @@
 {
-  "description": "a(n) starts arithmetic progression of n terms separated by tau(a(n)), each term having the same number of divisors",
+  "description": "a(n) starts arithmetic progression of n terms separated by tau(a(n)), each term having the same number of divisors.",
   "id": "A165497",
   "mentions": [
     "A064491",

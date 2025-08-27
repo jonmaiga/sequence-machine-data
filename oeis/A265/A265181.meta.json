@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers resulting from the concatenation of at least two copies of a cubic number followed by a trailing \"1.\"",
+  "description": "Prime numbers resulting from the concatenation of at least two copies of a cubic number followed by a trailing \"1.\".",
   "id": "A265181",
   "mentions": [
     "A000578",

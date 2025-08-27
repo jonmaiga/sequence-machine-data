@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n >= 0 such that 5n^2+4n+1 is prime.",
+  "description": "Numbers k >= 0 such that 5k^2+4k+1 is prime.",
   "id": "A155133",
   "mentions": [],
   "tags": [

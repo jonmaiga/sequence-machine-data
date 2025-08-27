@@ -1,14 +1,16 @@
 {
   "description": "Number of minimum total dominating set in the n-Sierpinski gasket graph.",
   "id": "A383022",
-  "mentions": [],
+  "mentions": [
+    "A306189",
+    "A347484"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
-    "source": "oeis-entry"
+    "size": 7,
+    "source": "oeis-bfile"
   }
 }

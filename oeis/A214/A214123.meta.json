@@ -1,5 +1,5 @@
 {
-  "description": "Smallest positive k such that n+k(n-1) is prime",
+  "description": "Smallest positive k such that n+k(n-1) is prime.",
   "id": "A214123",
   "mentions": [
     "A214124",

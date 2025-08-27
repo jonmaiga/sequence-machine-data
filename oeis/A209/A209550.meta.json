@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of (n+1)X6 0..3 arrays with every 2X2 subblock having exactly two distinct clockwise edge differences",
+  "description": "1/4 the number of (n+1)X6 0..3 arrays with every 2X2 subblock having exactly two distinct clockwise edge differences.",
   "id": "A209550",
   "mentions": [
     "A209553"

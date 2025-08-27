@@ -1,9 +1,11 @@
 {
-  "description": "phi(a(n)) is equal to the product of (the sum of prime factors and the sum of exponents) of (a(n)).",
+  "description": "Numbers k such that phi(k) is equal to the product of (the sum of prime factors and the sum of exponents) of k.",
   "id": "A039788",
   "mentions": [
     "A000010",
-    "A039697"
+    "A039697",
+    "A039774",
+    "A039789"
   ],
   "tags": [
     "more",

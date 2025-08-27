@@ -1,5 +1,5 @@
 {
-  "description": "Nonsquares which in at least two ways are the product of two numbers with the same digits (leading zeros are forbidden).",
+  "description": "Numbers which in at least two ways are the product of two distinct numbers with the same digits (leading zeros are forbidden).",
   "id": "A077760",
   "mentions": [
     "A000037",

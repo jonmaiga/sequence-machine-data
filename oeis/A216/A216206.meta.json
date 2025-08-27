@@ -1,12 +1,13 @@
 {
-  "description": "a(n) = product_{i=1..n} ((-2)^i-1).",
+  "description": "a(n) = Product_{i=1..n} ((-2)^i-1).",
   "id": "A216206",
   "mentions": [
     "A005329",
     "A015013",
     "A015109",
     "A027871",
-    "A062510"
+    "A062510",
+    "A330862"
   ],
   "tags": [
     "easy",

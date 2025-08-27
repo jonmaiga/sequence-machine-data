@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + a(n-3), with a(1) = 4, a(2) = 13, a(3) = 42.",
+  "id": "A385717",
+  "mentions": [
+    "A100683",
+    "A354080"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Leading digit of the decimal expansion of the prime zeta function at n.",
+  "id": "A385431",
+  "mentions": [
+    "A000040",
+    "A085541",
+    "A085548",
+    "A085964",
+    "A085969",
+    "A111395",
+    "A221712"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

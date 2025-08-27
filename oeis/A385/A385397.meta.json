@@ -1,0 +1,19 @@
+{
+  "description": "Numbers x such that there exist three integers 00 and w>0 such that sigma(x)^3 = sigma(y)^3 = x^3 + y^3 + z^3 + w^3.",
+  "id": "A385397",
+  "mentions": [
+    "A000203",
+    "A003325",
+    "A385325",
+    "A385356"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

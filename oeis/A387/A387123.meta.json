@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that Sum_{i=1..r} (k-i) and Sum_{i=1..r} (k+i) are both triangular for some r with 1 <= r <= k.",
+  "id": "A387123",
+  "mentions": [
+    "A000217",
+    "A006002",
+    "A101265",
+    "A101879"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,d) is the number of fixed, properly d-dimensional polysticks of size n.",
+  "id": "A385582",
+  "mentions": [
+    "A127670",
+    "A195739",
+    "A365566",
+    "A385581"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

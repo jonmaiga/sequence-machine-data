@@ -1,0 +1,20 @@
+{
+  "description": "Primes p == 3 (mod 4), p > 3 such that 2+-i are 24th powers modulo p.",
+  "id": "A385191",
+  "mentions": [
+    "A002145",
+    "A122869",
+    "A385165",
+    "A385188",
+    "A385190"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into Lucas numbers A000032 where every part appears at least 4 times",
+  "description": "Number of partitions of n into Lucas numbers A000032 where every part appears at least 4 times.",
   "id": "A161270",
   "mentions": [
     "A000032"

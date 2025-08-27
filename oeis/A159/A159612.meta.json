@@ -2,7 +2,10 @@
   "description": "INVERT transform of (1, 3, 1, 3, 1, ...).",
   "id": "A159612",
   "mentions": [
-    "A119473"
+    "A006131",
+    "A026597",
+    "A119473",
+    "A384604"
   ],
   "tags": [
     "easy",

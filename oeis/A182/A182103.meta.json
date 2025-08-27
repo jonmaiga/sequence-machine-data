@@ -1,5 +1,5 @@
 {
-  "description": "Integral of exp(-x)*Phi_n(x) from 0 to infinity, Phi_n the n-th cyclotomic polynomial",
+  "description": "Integral of exp(-x)*Phi_n(x) from 0 to infinity, Phi_n the n-th cyclotomic polynomial.",
   "id": "A182103",
   "mentions": [
     "A003422"

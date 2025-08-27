@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays of the minimum value of corresponding elements and their horizontal, vertical or diagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 nXk array",
+  "description": "T(n,k)=Number of nXk arrays of the minimum value of corresponding elements and their horizontal, vertical or diagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 nXk array.",
   "id": "A219816",
   "mentions": [
     "A000217",

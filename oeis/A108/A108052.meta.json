@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 10^n+19 is a prime number.",
+  "description": "Integers k such that 10^k+19 is a prime number.",
   "id": "A108052",
   "mentions": [
     "A049054",
@@ -8,6 +8,7 @@
     "A095688"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X6 0..3 arrays with every 2X2 subblock in a row having an equal number of equal diagonal or equal antidiagonal elements, adjacent rows differing in this number, and new values 0..3 introduced in row major order",
+  "description": "Number of (n+1)X6 0..3 arrays with every 2X2 subblock in a row having an equal number of equal diagonal or equal antidiagonal elements, adjacent rows differing in this number, and new values 0..3 introduced in row major order.",
   "id": "A206166",
   "mentions": [
     "A206169"

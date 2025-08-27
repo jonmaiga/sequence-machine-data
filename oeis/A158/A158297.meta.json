@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 12*p^3-+1 are twin primes.",
+  "description": "Primes p such that 12*p^3+-1 are twin primes.",
   "id": "A158297",
   "mentions": [
     "A088483",

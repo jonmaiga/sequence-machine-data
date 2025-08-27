@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest k > 1 such that n and kn have the same digit sum",
+  "description": "a(n) = smallest k > 1 such that n and kn have the same digit sum.",
   "id": "A180011",
   "mentions": [],
   "tags": [

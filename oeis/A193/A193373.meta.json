@@ -2,7 +2,10 @@
   "description": "Decimal expansion of Pi/(2 + sqrt(2)).",
   "id": "A193373",
   "mentions": [
-    "A193355"
+    "A000796",
+    "A193355",
+    "A247719",
+    "A268682"
   ],
   "tags": [
     "cons",

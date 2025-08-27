@@ -1,0 +1,20 @@
+{
+  "description": "Possible values for the number of groups of order equal to a prime power, in order of first appearance.",
+  "id": "A384606",
+  "mentions": [
+    "A000001",
+    "A000961",
+    "A098885",
+    "A384607"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

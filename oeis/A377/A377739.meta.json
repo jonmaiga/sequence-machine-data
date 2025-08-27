@@ -1,5 +1,5 @@
 {
-  "description": "Array of positive integer triples (x,y,z) where the sum of their cubes equals another cubic number",
+  "description": "Array of positive integer triples (x,y,z) where the sum of their cubes equals another cubic number.",
   "id": "A377739",
   "mentions": [
     "A023042",

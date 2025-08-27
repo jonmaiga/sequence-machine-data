@@ -1,5 +1,5 @@
 {
-  "description": "Total number of transpositions in all permutations of n letters.",
+  "description": "Sum of the reflection lengths of all permutations of n letters.",
   "id": "A067318",
   "mentions": [
     "A000254",

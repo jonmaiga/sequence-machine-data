@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4*a(n-1) - 2*a(n-2) (n >= 3).",
+  "description": "a(0) = 1, a(1) = 2, for n > 1, a(n) = 4*a(n-1) - 2*a(n-2).",
   "id": "A003480",
   "mentions": [
     "A000051",

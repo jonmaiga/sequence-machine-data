@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 arrays of occupancy after each element moves to some horizontal or vertical neighbor, without 2-loops or left turns",
+  "description": "Number of nX5 arrays of occupancy after each element moves to some horizontal or vertical neighbor, without 2-loops or left turns.",
   "id": "A221766",
   "mentions": [
     "A221768"

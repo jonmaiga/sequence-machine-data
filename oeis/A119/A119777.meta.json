@@ -1,14 +1,21 @@
 {
-  "description": "16^n-th prime.",
+  "description": "(16^n)-th prime.",
   "id": "A119777",
-  "mentions": [],
+  "mentions": [
+    "A033844",
+    "A119772",
+    "A119773",
+    "A119778",
+    "A119779"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

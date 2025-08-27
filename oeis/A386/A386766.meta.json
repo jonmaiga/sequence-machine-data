@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 5^k * 2^(n-k) * binomial(n+k-1,k).",
+  "id": "A386766",
+  "mentions": [
+    "A386767",
+    "A386768",
+    "A386772"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

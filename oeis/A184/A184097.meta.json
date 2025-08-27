@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of nXk toroidal binary arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors",
+  "description": "T(n,k)=Half the number of nXk toroidal binary arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors.",
   "id": "A184097",
   "mentions": [],
   "tags": [

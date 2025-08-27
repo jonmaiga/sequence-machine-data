@@ -1,15 +1,17 @@
 {
-  "description": "A131766/18.",
+  "description": "a(n) = A131766(n) / 18.",
   "id": "A131871",
   "mentions": [
+    "A002266",
     "A131766"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p minus sum of integer of square root of its digits is a prime",
+  "description": "Primes p such that p minus sum of integer of square root of its digits is a prime.",
   "id": "A179633",
   "mentions": [
     "A179632"

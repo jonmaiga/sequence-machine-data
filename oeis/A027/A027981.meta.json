@@ -1,5 +1,5 @@
 {
-  "description": "Sum{(k+1)*T(n,k)}, 0<=k<=2n, T given by A027960.",
+  "description": "a(n) = Sum_{k=0..2*n} (k+1)*T(n,k), T given by A027960.",
   "id": "A027981",
   "mentions": [
     "A027960"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
-    "source": "joeis"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

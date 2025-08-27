@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX5 0..3 arrays with no element equal to the average of its horizontal and vertical neighbors",
+  "description": "Half the number of nX5 0..3 arrays with no element equal to the average of its horizontal and vertical neighbors.",
   "id": "A197106",
   "mentions": [
     "A197109"

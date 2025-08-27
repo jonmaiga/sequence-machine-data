@@ -1,9 +1,10 @@
 {
-  "description": "Decimal expansion of Integral_{x=0..1} 1/(1 + x/(1 + x/(1 + x/...))) dx.",
+  "description": "Decimal expansion of sqrt(5) - log(phi) - 1, where phi is the golden ratio.",
   "id": "A384238",
   "mentions": [
     "A002163",
-    "A002390"
+    "A002390",
+    "A384682"
   ],
   "tags": [
     "cons",

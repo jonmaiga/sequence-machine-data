@@ -1,8 +1,9 @@
 {
-  "description": "2nd Euler polynomial evaluated at x=n!.",
+  "description": "2nd Euler polynomial x^2 - x evaluated at x=n!.",
   "id": "A020547",
   "mentions": [
-    "A000142"
+    "A000142",
+    "A055555"
   ],
   "tags": [
     "easy",

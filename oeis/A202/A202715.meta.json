@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3X3 0..n arrays with row sums equal and no column sum equal to the previous",
+  "description": "Number of 3X3 0..n arrays with row sums equal and no column sum equal to the previous.",
   "id": "A202715",
   "mentions": [
     "A202714"

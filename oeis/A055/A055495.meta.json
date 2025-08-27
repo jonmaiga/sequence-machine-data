@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that there exists a pair of mutually orthogonal Latin squares of order n.",
+  "description": "Numbers k such that there exists a pair of mutually orthogonal Latin squares of order k.",
   "id": "A055495",
-  "mentions": [],
+  "mentions": [
+    "A000027"
+  ],
   "tags": [
     "easy",
     "formulas",

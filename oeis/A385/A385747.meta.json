@@ -1,0 +1,22 @@
+{
+  "description": "Least number that reaches 1 after exactly n iterations of the infinitary analog of the totient function A384247.",
+  "id": "A385747",
+  "mentions": [
+    "A003271",
+    "A005424",
+    "A007755",
+    "A333610",
+    "A384247",
+    "A385744",
+    "A385745",
+    "A385746"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

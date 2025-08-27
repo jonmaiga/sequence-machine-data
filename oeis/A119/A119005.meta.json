@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n real symmetric (+1,-1)-matrices having maximal determinant (A119003).",
+  "description": "Number of n X n real symmetric (+1,-1)-matrices having maximal determinant (=A119003(n)).",
   "id": "A119005",
   "mentions": [
     "A119003",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

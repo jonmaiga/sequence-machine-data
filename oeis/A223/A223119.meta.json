@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..2 arrays with no more than floor(n X n/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order",
+  "description": "Number of n X n 0..2 arrays with no more than floor(n X n/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order.",
   "id": "A223119",
   "mentions": [
     "A223126"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "A shifted symmetrical triangular sequence:t(n,m)=If[Mod[n, 2] == 0, Binomial[n, m], Binomial[n - 1, m - 1] + If[(n - 3)*(m - 2) >= 1, Binomial[n - 3, m - 2], 0]]",
+  "description": "A shifted symmetrical triangular sequence:t(n,m)=If[Mod[n, 2] == 0, Binomial[n, m], Binomial[n - 1, m - 1] + If[(n - 3)*(m - 2) >= 1, Binomial[n - 3, m - 2], 0]].",
   "id": "A173389",
   "mentions": [],
   "tags": [

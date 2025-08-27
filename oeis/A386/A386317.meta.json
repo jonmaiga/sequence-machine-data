@@ -1,0 +1,17 @@
+{
+  "description": "Integers t which satisfy 3/2 <= abundancy(t) < 2 but which are not k-deficient-perfect numbers A331627.",
+  "id": "A386317",
+  "mentions": [
+    "A000203",
+    "A271816",
+    "A331627"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Positive integers n such that {the number of (non-leading) 0's in the binary representation of n} is coprime to n.",
   "id": "A161152",
   "mentions": [
+    "A023416",
     "A094387",
     "A161153",
     "A161154",

@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that every group of order n embeds into a group of order k*n.",
+  "id": "A385999",
+  "mentions": [
+    "A340514"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

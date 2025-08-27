@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Sum of neighbor maps: log base 2 of the number of nXk binary arrays indicating the locations of corresponding elements equal to the sum mod 2 of their horizontal and antidiagonal neighbors in a random 0..1 nXk array",
+  "description": "T(n,k)=Sum of neighbor maps: log base 2 of the number of nXk binary arrays indicating the locations of corresponding elements equal to the sum mod 2 of their horizontal and antidiagonal neighbors in a random 0..1 nXk array.",
   "id": "A221108",
   "mentions": [],
   "tags": [

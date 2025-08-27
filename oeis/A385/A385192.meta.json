@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that multiplicative order of 5 modulo p is odd.",
+  "id": "A385192",
+  "mentions": [
+    "A014663",
+    "A040105",
+    "A045468",
+    "A122869",
+    "A163183",
+    "A385193",
+    "A385220",
+    "A385221",
+    "A385223",
+    "A385224",
+    "A385225"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,12 @@
   "description": "Total domination number of the n X n grid graph.",
   "id": "A302488",
   "mentions": [
+    "A000466",
+    "A002378",
+    "A002939",
+    "A002943",
+    "A016754",
+    "A085046",
     "A300358",
     "A303142"
   ],
@@ -10,8 +16,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 60,
-    "source": "joeis"
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 2 * arcsinh(x)).",
+  "id": "A385367",
+  "mentions": [
+    "A007289",
+    "A296675",
+    "A385343",
+    "A385346",
+    "A385368",
+    "A385371"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

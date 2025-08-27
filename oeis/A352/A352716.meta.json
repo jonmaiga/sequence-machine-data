@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1; thereafter a(n) = smallest positive integer not among the earlier terms of the sequence such that a(n) and a(n-1) have an even number of common 1-bits in their binary representations",
+  "description": "a(1)=1; thereafter a(n) = smallest positive integer not among the earlier terms of the sequence such that a(n) and a(n-1) have an even number of common 1-bits in their binary representations.",
   "id": "A352716",
   "mentions": [
     "A109812",

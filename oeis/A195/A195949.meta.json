@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n 0..2 array with no element greater than the number its nonzero horizontal and vertical neighbors",
+  "description": "Number of lower triangles of an n X n 0..2 array with no element greater than the number its nonzero horizontal and vertical neighbors.",
   "id": "A195949",
   "mentions": [],
   "tags": [

@@ -1,7 +1,9 @@
 {
   "description": "Exponent of 6 (value of j) in n-th number of form 5^i*6^j.",
   "id": "A025659",
-  "mentions": [],
+  "mentions": [
+    "A025622"
+  ],
   "tags": [
     "nonn"
   ],

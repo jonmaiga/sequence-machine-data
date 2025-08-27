@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)/A(-x*A(x))^4.",
+  "id": "A385016",
+  "mentions": [
+    "A002294",
+    "A213233",
+    "A384941",
+    "A384951",
+    "A385014",
+    "A385015",
+    "A385020"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of inequivalent ways to cut an n X n square into squares with integer sides, such that the dissection has 90-degree rotational symmetry and no reflective symmetry",
+  "description": "Number of inequivalent ways to cut an n X n square into squares with integer sides, such that the dissection has 90-degree rotational symmetry and no reflective symmetry.",
   "id": "A240122",
   "mentions": [
     "A045846",

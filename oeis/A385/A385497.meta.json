@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(6*n+1,k).",
+  "id": "A385497",
+  "mentions": [
+    "A000302",
+    "A002295",
+    "A004355",
+    "A079590",
+    "A079679",
+    "A160906",
+    "A226705",
+    "A385719",
+    "A386811",
+    "A386812"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

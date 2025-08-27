@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X5 0..3 arrays with every 2X3 or 3X2 subblock having exactly one clockwise edge increases",
+  "description": "Number of (n+1)X5 0..3 arrays with every 2X3 or 3X2 subblock having exactly one clockwise edge increases.",
   "id": "A206202",
   "mentions": [
     "A206206"

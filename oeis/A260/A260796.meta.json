@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that digit sum of prime(n) plus digit sum of prime(n+1) is prime.",
+  "description": "Numbers k such that digit sum of prime(k) plus digit sum of prime(k+1) is prime.",
   "id": "A260796",
   "mentions": [
     "A000040",

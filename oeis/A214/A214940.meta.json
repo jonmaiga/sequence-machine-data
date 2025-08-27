@@ -1,5 +1,5 @@
 {
-  "description": "Number of squarefree words of length n in a 6-ary alphabet",
+  "description": "Number of squarefree words of length n in a 6-ary alphabet.",
   "id": "A214940",
   "mentions": [
     "A214943"

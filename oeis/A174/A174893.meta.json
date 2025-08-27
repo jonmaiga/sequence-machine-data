@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of expansion polynomial:p(x,t)=Exp[ -t^2* x](1 - t)^(-x)/x",
+  "description": "Coefficients of expansion polynomial:p(x,t)=Exp[ -t^2* x](1 - t)^(-x)/x.",
   "id": "A174893",
   "mentions": [],
   "tags": [

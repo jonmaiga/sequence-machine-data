@@ -1,5 +1,5 @@
 {
-  "description": "Number of defective 3-colorings of an n X n 0..2 array connected horizontally and vertically with exactly one mistake and colors introduced in row-major 0..2 order",
+  "description": "Number of defective 3-colorings of an n X n 0..2 array connected horizontally and vertically with exactly one mistake and colors introduced in row-major 0..2 order.",
   "id": "A229453",
   "mentions": [
     "A229460"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n is of the form m + sum of digits of m.",
+  "description": "Numbers k such that 10^k is of the form m + sum of digits of m.",
   "id": "A232490",
   "mentions": [
     "A062028",

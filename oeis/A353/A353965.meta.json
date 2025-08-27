@@ -2,6 +2,7 @@
   "description": "Number of tilings of a 3 X n rectangle using 2 X 2 and 1 X 1 tiles and right trominoes.",
   "id": "A353965",
   "mentions": [
+    "A200739",
     "A351322",
     "A352589",
     "A353963",

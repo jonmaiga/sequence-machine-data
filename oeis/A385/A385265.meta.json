@@ -1,0 +1,32 @@
+{
+  "description": "Number of edge-connected components of polygonal cells in the pinwheel tiling up to rotation of the tiling.",
+  "id": "A385265",
+  "mentions": [
+    "A000105",
+    "A000228",
+    "A000577",
+    "A197156",
+    "A197159",
+    "A197459",
+    "A197462",
+    "A197465",
+    "A309159",
+    "A343398",
+    "A343406",
+    "A343577",
+    "A344211",
+    "A344213",
+    "A383908",
+    "A385266"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

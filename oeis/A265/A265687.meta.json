@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the concave polygon formed by the trajectory of n in the \"3n+1\" problem and the straight line between the coordinate points (0,n) and (r,1) where r is the number of iterations needed to reach 1 is not a self-intersecting polygon.",
+  "description": "Numbers k such that the concave polygon formed by the trajectory of k in the \"3x+1\" problem and the straight line between the coordinate points (0,k) and (r,1) where r is the number of iterations needed to reach 1 is not a self-intersecting polygon.",
   "id": "A265687",
   "mentions": [
     "A006577",

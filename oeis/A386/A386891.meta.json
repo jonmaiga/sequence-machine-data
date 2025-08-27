@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of compositions of n such that the maximal cardinality of C is k, where C is a subset of the set of parts such that all elements in C appear in weakly increasing order within the composition.",
+  "id": "A386891",
+  "mentions": [
+    "A002024",
+    "A011782",
+    "A218796",
+    "A333213",
+    "A374629",
+    "A385604"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

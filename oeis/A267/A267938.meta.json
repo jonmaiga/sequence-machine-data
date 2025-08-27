@@ -2,6 +2,9 @@
   "description": "Decimal representation of the n-th iteration of the \"Rule 251\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A267938",
   "mentions": [
+    "A083420",
+    "A267888",
+    "A267890",
     "A267936"
   ],
   "tags": [

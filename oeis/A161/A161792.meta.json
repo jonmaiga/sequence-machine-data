@@ -1,7 +1,8 @@
 {
-  "description": "If b(n) is the number of 1's in the binary representation of n, then the positive integer n is included if n = k^b(n), for some k = integer.",
+  "description": "If b(m) is the number of 1's in the binary representation of m, then the positive integer m is included if m = k^b(m), for some integer k.",
   "id": "A161792",
   "mentions": [
+    "A000120",
     "A161793"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

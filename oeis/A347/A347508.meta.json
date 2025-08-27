@@ -1,10 +1,11 @@
 {
-  "description": "Number of dominating sets in the n-Sierpinski sieve graph.",
+  "description": "Number of dominating sets in the n-Sierpinski gasket graph.",
   "id": "A347508",
   "mentions": [
     "A306189",
     "A347484",
-    "A347515"
+    "A347515",
+    "A373442"
   ],
   "tags": [
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^5*A(-x).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^5*A(-x).",
   "id": "A143551",
   "mentions": [
     "A143550",

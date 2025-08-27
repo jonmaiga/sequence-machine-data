@@ -1,7 +1,9 @@
 {
   "description": "Index of 10^n within sequence of numbers of form 7^i*10^j.",
   "id": "A025745",
-  "mentions": [],
+  "mentions": [
+    "A025671"
+  ],
   "tags": [
     "nonn"
   ],

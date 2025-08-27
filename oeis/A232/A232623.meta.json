@@ -1,7 +1,8 @@
 {
-  "description": "Number of partitions of 2n into parts with multiplicity <= n.",
+  "description": "Number of partitions of 2*n into parts with multiplicity <= n.",
   "id": "A232623",
   "mentions": [
+    "A000041",
     "A061199",
     "A232605",
     "A232697"

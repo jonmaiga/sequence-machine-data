@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct values appearing an odd number of times among A002487(0), ..., A002487(n).",
+  "id": "A385993",
+  "mentions": [
+    "A002487",
+    "A004171",
+    "A091948",
+    "A385991"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (n^4 + 1)/2.",
+  "description": "Primes of the form (k^4 + 1)/2.",
   "id": "A096170",
   "mentions": [
     "A000068",

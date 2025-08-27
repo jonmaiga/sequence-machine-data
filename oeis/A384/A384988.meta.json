@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Stirling2(n,2)^2 + Stirling2(n,3).",
+  "id": "A384988",
+  "mentions": [
+    "A000392",
+    "A000453",
+    "A060867",
+    "A385432"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

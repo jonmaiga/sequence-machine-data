@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k and 3*k are anagrams in base 4 (written in base 4).",
+  "description": "Positive numbers k such that k and 3*k are anagrams in base 4 (written in base 4).",
   "id": "A023060",
   "mentions": [
     "A007090"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

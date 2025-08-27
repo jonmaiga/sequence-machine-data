@@ -1,14 +1,15 @@
 {
   "description": "Related to shifted Genocchi medians.",
   "id": "A362111",
-  "mentions": [],
+  "mentions": [
+    "A005439"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

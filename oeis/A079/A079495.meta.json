@@ -1,5 +1,5 @@
 {
-  "description": "Let b=3. Sum of squares of digits in base b gives 0 (mod b).",
+  "description": "Numbers k such that the sum of the squares of the digits of k in base 3 is 0 (mod 3).",
   "id": "A079495",
   "mentions": [
     "A001969",
@@ -12,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 62,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
   }
 }

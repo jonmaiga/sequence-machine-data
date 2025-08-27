@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of phi(q) / phi(-q^6) in powers of q where phi() is a Ramanujan theta function",
+  "description": "Expansion of phi(q) / phi(-q^6) in powers of q where phi() is a Ramanujan theta function.",
   "id": "A143068",
   "mentions": [
     "A000122",

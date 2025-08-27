@@ -1,7 +1,9 @@
 {
-  "description": "k and 2k are anagrams in base 8 (written in base 8).",
+  "description": "Positive numbers k such that k and 2*k are anagrams in base 8 (written in base 8).",
   "id": "A023073",
-  "mentions": [],
+  "mentions": [
+    "A007094"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

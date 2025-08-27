@@ -1,5 +1,5 @@
 {
-  "description": "Cupolar numbers: a(n) = (n+1)*(5*n^2+7*n+3)/3.",
+  "description": "Cupolar numbers: a(n) = (n+1)*(5*n^2 + 7*n + 3)/3.",
   "id": "A096000",
   "mentions": [
     "A000447",

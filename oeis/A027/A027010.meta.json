@@ -2,7 +2,8 @@
   "description": "a(n) = Sum_{k=floor((n+1)/2)..n} T(k,n-k); i.e., a(n) is the n-th diagonal sum of left-justified array T given by A026998.",
   "id": "A027010",
   "mentions": [
-    "A026998"
+    "A026998",
+    "A122514"
   ],
   "tags": [
     "formulas",

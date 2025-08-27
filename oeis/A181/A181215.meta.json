@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 binary matrices with no three 1's adjacent in a line diagonally or antidiagonally",
+  "description": "Number of nX4 binary matrices with no three 1's adjacent in a line diagonally or antidiagonally.",
   "id": "A181215",
   "mentions": [
     "A181217"

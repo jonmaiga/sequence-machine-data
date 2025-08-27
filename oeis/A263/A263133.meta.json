@@ -2,11 +2,15 @@
   "description": "Numbers m such that binomial(4*m + 3, m) is odd.",
   "id": "A263133",
   "mentions": [
+    "A000267",
     "A000975",
     "A002450",
+    "A003714",
     "A020988",
     "A080674",
-    "A263132"
+    "A118113",
+    "A263132",
+    "A384688"
   ],
   "tags": [
     "easy",

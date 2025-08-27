@@ -1,5 +1,5 @@
 {
-  "description": "Number of (row,column)-paratopism classes of SOLSSOMs of order n",
+  "description": "Number of (row,column)-paratopism classes of SOLSSOMs of order n.",
   "id": "A166487",
   "mentions": [
     "A166488",

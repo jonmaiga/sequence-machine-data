@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (k*n)Xn binary matrices with all row sums equal and all column sums equal",
+  "description": "T(n,k)=Number of (k*n)Xn binary matrices with all row sums equal and all column sums equal.",
   "id": "A181236",
   "mentions": [
     "A067209",

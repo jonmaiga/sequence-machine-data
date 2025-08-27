@@ -1,5 +1,5 @@
 {
-  "description": "Numbers X such that (X+19)^3-X^3 is a square",
+  "description": "Numbers X such that (X+19)^3-X^3 is a square.",
   "id": "A145122",
   "mentions": [
     "A145124"

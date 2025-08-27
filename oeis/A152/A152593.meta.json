@@ -1,5 +1,5 @@
 {
-  "description": "Least k(n) such that 6*k(n)*2^p(n)*(2^p(n)-1)-1 or 6*k(n)*2^p(n)*(2^p(n)-1)+1 (or both) is prime, where p(i)=i-th prime",
+  "description": "Least k(n) such that 6*k(n)*2^p(n)*(2^p(n)-1)-1 or 6*k(n)*2^p(n)*(2^p(n)-1)+1 (or both) is prime, where p(i)=i-th prime.",
   "id": "A152593",
   "mentions": [],
   "tags": [

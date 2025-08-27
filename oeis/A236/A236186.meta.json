@@ -2,6 +2,7 @@
   "description": "Differences between terms of compacting Eratosthenes sieve for prime(5) = 11.",
   "id": "A236186",
   "mentions": [
+    "A049296",
     "A236175",
     "A236180",
     "A236185",

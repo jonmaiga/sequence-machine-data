@@ -1,5 +1,5 @@
 {
-  "description": "Equals one maps: number of nX6 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal, vertical and antidiagonal neighbors in a random 0..1 nX6 array",
+  "description": "Equals one maps: number of nX6 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal, vertical and antidiagonal neighbors in a random 0..1 nX6 array.",
   "id": "A220460",
   "mentions": [
     "A220461"

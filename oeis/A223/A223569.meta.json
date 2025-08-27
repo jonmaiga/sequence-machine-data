@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with antidiagonals unimodal",
+  "description": "T(n,k)=Number of nXk 0..1 arrays with antidiagonals unimodal.",
   "id": "A223569",
   "mentions": [
     "A000079",

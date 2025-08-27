@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by row: T(n,k) is the number of the k-th eliminated person in a variant of the Josephus problem in which one person is skipped, then one is eliminated, then two people are skipped, then the next person is eliminated and so on.",
+  "id": "A386641",
+  "mentions": [
+    "A000096",
+    "A291317",
+    "A321298",
+    "A386639",
+    "A386643"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

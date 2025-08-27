@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients in polynomials for partial sums of powers, scaled to produce integers: sum_i{1<=i<=m}i^(n-1) = sum_k{1<=k<=n}T(n,k)*m^k/A064538(n-1).",
+  "description": "Triangle of coefficients in polynomials for partial sums of powers, scaled to produce integers: Sum_{i=1..m} i^(n-1) = Sum_{k=1..n} T(n,k)*m^k/A064538(n-1).",
   "id": "A079618",
   "mentions": [
     "A000217",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

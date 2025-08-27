@@ -1,0 +1,30 @@
+{
+  "description": "Nonsquarefree weak numbers k that are not products of primorials, whose squarefree kernel is a primorial.",
+  "id": "A386224",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A005117",
+    "A007947",
+    "A025487",
+    "A052485",
+    "A055932",
+    "A056808",
+    "A126706",
+    "A286708",
+    "A332785",
+    "A369420",
+    "A380543",
+    "A386223"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

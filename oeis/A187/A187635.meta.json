@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5X5 0..n arrays with the array of 2X2 subblock determinants antisymmetric under horizontal and vertical reflection and each non-centerline 2X2 subblock nonsingular",
+  "description": "Number of 5X5 0..n arrays with the array of 2X2 subblock determinants antisymmetric under horizontal and vertical reflection and each non-centerline 2X2 subblock nonsingular.",
   "id": "A187635",
   "mentions": [
     "A187633"

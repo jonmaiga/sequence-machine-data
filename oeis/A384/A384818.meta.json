@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of the sum of the reciprocals of all square divisors of all positive integers <= n.",
+  "id": "A384818",
+  "mentions": [
+    "A007407",
+    "A017668",
+    "A284650",
+    "A309125",
+    "A373440",
+    "A384817"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

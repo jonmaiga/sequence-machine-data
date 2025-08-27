@@ -1,5 +1,5 @@
 {
-  "description": "Next smallest n such that digit sum of n >= previous term",
+  "description": "Next smallest n such that digit sum of n >= previous term.",
   "id": "A180084",
   "mentions": [
     "A180083"

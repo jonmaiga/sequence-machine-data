@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+2 0..7 arrays with no three elements in a row with pattern aba (with a!=b) and new values 0..7 introduced in 0..7 order",
+  "description": "Number of length n+2 0..7 arrays with no three elements in a row with pattern aba (with a!=b) and new values 0..7 introduced in 0..7 order.",
   "id": "A243604",
   "mentions": [
     "A243607"

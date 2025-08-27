@@ -2,6 +2,7 @@
   "description": "Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 467\", based on the 5-celled von Neumann neighborhood.",
   "id": "A282411",
   "mentions": [
+    "A279118",
     "A282412",
     "A282413",
     "A282414"

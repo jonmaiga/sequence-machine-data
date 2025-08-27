@@ -1,5 +1,5 @@
 {
-  "description": "An absolute difference sequence based on A087655: a(n)=If[Mod[A087655(n), 3] == 1, a(n - 1) - (-1)^n*n, a(n - 1) + (-1)^n*n]",
+  "description": "An absolute difference sequence based on A087655: a(n)=If[Mod[A087655(n), 3] == 1, a(n - 1) - (-1)^n*n, a(n - 1) + (-1)^n*n].",
   "id": "A174218",
   "mentions": [
     "A087655"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is the sum of two consecutive primes (i.e., in A001043) but is not the sum of two sums of two consecutive primes.",
+  "description": "Numbers that are the sum of two consecutive primes (i.e., in A001043) but are not the sum of two sums of two consecutive primes.",
   "id": "A134650",
   "mentions": [
     "A001043",

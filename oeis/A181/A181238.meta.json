@@ -1,5 +1,5 @@
 {
-  "description": "Number of (4*n)X4 binary matrices with all row sums equal and all column sums equal",
+  "description": "Number of (4*n)X4 binary matrices with all row sums equal and all column sums equal.",
   "id": "A181238",
   "mentions": [
     "A181236"

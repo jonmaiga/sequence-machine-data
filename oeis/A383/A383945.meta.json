@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/sqrt((1-7*x)^5 * (1+x)).",
+  "id": "A383945",
+  "mentions": [
+    "A322242",
+    "A383944"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

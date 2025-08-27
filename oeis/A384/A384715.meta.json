@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(n, k) mod 4).",
+  "id": "A384715",
+  "mentions": [
+    "A001316",
+    "A014081",
+    "A033264",
+    "A034931",
+    "A051638",
+    "A085357"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

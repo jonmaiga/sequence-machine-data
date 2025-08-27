@@ -1,0 +1,26 @@
+{
+  "description": "The maximum possible number of distinct composite prime powers (A246547) in the factorization of n into prime powers.",
+  "id": "A385379",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A052146",
+    "A077761",
+    "A118914",
+    "A246547",
+    "A246655",
+    "A376679",
+    "A385378",
+    "A385380"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

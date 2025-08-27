@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X9 binary arrays with no more than two of any consecutive three bits set in any row or column",
+  "description": "Number of (n+2)X9 binary arrays with no more than two of any consecutive three bits set in any row or column.",
   "id": "A202470",
   "mentions": [
     "A202471"

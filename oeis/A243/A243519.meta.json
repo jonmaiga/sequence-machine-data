@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+2 0..k arrays with no three elements in a row with pattern aba or abb (with a!=b) and new values 0..k introduced in 0..k order",
+  "description": "T(n,k)=Number of length n+2 0..k arrays with no three elements in a row with pattern aba or abb (with a!=b) and new values 0..k introduced in 0..k order.",
   "id": "A243519",
   "mentions": [
     "A000051",

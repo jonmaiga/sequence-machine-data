@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ceiling(sqrt(4*P_n)), where P_n is product of first n primes",
+  "description": "a(n) = ceiling(sqrt(4*P_n)), where P_n is product of first n primes.",
   "id": "A173631",
   "mentions": [
     "A000040",

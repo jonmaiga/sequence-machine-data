@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that it is not possible to choose disjoint strict integer partitions of each conjugate prime index of n.",
+  "description": "Numbers k such that it is not possible to choose disjoint strict integer partitions of each conjugate prime index of k.",
   "id": "A384011",
   "mentions": [
     "A000009",

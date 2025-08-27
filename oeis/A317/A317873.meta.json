@@ -2,6 +2,7 @@
   "description": "Number of digits in 2^(n!).",
   "id": "A317873",
   "mentions": [
+    "A000142",
     "A034887",
     "A050923",
     "A055642",
@@ -13,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 22,
+    "offset": 0,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

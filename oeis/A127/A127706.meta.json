@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n real {0,1}-matrices n X n which are not robust (cf. A125587) nor in A127186.",
+  "description": "Number of nonsingular n X n real {0,1}-matrices n X n which are not robust (cf. A125587) nor in A127186.",
   "id": "A127706",
   "mentions": [
     "A055165",
@@ -9,6 +9,8 @@
   ],
   "tags": [
     "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

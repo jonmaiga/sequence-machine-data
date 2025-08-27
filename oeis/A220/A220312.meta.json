@@ -1,5 +1,5 @@
 {
-  "description": "Majority value maps: number of nX5 binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, vertical and antidiagonal neighbors in a random 0..3 nX5 array",
+  "description": "Majority value maps: number of nX5 binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, vertical and antidiagonal neighbors in a random 0..3 nX5 array.",
   "id": "A220312",
   "mentions": [
     "A220313"

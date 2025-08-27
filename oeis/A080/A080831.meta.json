@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of the exponential series Exp[ Tan[ Exp[x]-1 ] ].",
+  "description": "Expansion of e.g.f. exp(tan(exp(x)-1)).",
   "id": "A080831",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "joeis"
   }
 }

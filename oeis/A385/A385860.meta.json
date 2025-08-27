@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct multisets of sides of quadrilaterals with perimeter n, where all four sides are squares.",
+  "id": "A385860",
+  "mentions": [
+    "A000290",
+    "A000414",
+    "A000534",
+    "A025428",
+    "A062890",
+    "A385736"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

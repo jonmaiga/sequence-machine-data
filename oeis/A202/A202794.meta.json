@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 binary arrays with every one adjacent to another one horizontally, diagonally, antidiagonally or vertically",
+  "description": "Number of nX7 binary arrays with every one adjacent to another one horizontally, diagonally, antidiagonally or vertically.",
   "id": "A202794",
   "mentions": [
     "A202795"

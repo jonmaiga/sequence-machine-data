@@ -1,5 +1,5 @@
 {
-  "description": "4*3^(n^2+2n+1)*Product_{j=1..n} (9^j-1).",
+  "description": "a(n) = 4*3^(n^2+2n+1)*Product_{j=1..n} (9^j-1).",
   "id": "A092299",
   "mentions": [
     "A001309",
@@ -9,9 +9,11 @@
     "A090769",
     "A090770",
     "A092300",
-    "A092301"
+    "A092301",
+    "A132037"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

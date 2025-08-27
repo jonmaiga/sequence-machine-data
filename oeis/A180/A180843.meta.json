@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=number of nXk arrays containing k indistinguishable copies of 1..n with lexicographical ordering of rows strictly increasing and columns strictly decreasing",
+  "description": "T(n,k)=number of nXk arrays containing k indistinguishable copies of 1..n with lexicographical ordering of rows strictly increasing and columns strictly decreasing.",
   "id": "A180843",
   "mentions": [],
   "tags": [

@@ -2,16 +2,20 @@
   "description": "Prefix overlap of dictionary consisting of binary expansions of 0 through n.",
   "id": "A239091",
   "mentions": [
+    "A000523",
+    "A011371",
+    "A061168",
     "A238845",
     "A239092"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

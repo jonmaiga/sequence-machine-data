@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Product_{k>=0} (1 + 1/k!^2).",
+  "id": "A384510",
+  "mentions": [
+    "A001044",
+    "A238695"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

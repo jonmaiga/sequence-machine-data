@@ -1,5 +1,5 @@
 {
-  "description": "Number of -2..2 arrays x(0..n+1) of n+2 elements with zero sum and nonzero second differences",
+  "description": "Number of -2..2 arrays x(0..n+1) of n+2 elements with zero sum and nonzero second differences.",
   "id": "A200547",
   "mentions": [
     "A200553"

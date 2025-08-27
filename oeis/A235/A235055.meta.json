@@ -1,5 +1,5 @@
 {
-  "description": "The greedy sequence of real numbers at least 1 that do not contain any 4-term geometric progressions with integer ratio",
+  "description": "The greedy sequence of real numbers at least 1 that do not contain any 4-term geometric progressions with integer ratio.",
   "id": "A235055",
   "mentions": [
     "A235054",

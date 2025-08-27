@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 3 * sin(x))^(1/3).",
+  "id": "A385307",
+  "mentions": [
+    "A000111",
+    "A007559",
+    "A007788",
+    "A136630",
+    "A380017",
+    "A385305",
+    "A385306",
+    "A385309",
+    "A385311"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

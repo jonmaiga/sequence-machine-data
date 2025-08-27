@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k for which the 3-adic valuation A007949(k) == 0 (mod 3).",
+  "id": "A382751",
+  "mentions": [
+    "A007417",
+    "A007949"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

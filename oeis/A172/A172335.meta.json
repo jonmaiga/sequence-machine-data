@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+17 have same sum of divisors.",
+  "description": "Numbers k such that k and k+17 have same sum of divisors.",
   "id": "A172335",
   "mentions": [
     "A000203"

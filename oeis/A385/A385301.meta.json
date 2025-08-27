@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..p-1} 1/k! mod p where p is prime(n) and 1/k! is the inverse of k! modulo p.",
+  "id": "A385301",
+  "mentions": [
+    "A064384",
+    "A153229"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+1, n+3, n^2+1, n^2+3, n^4+1, n^4+3 are six primes.",
+  "description": "Numbers k such that k+1, k+3, k^2+1, k^2+3, k^4+1, k^4+3 are six primes.",
   "id": "A237191",
   "mentions": [
     "A067662",

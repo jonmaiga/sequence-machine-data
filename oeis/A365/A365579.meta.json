@@ -1,14 +1,18 @@
 {
   "description": "Number of dominating sets in the n-Pell graph.",
   "id": "A365579",
-  "mentions": [],
+  "mentions": [
+    "A365571",
+    "A381557",
+    "A381789"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

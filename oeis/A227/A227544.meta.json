@@ -1,9 +1,11 @@
 {
-  "description": "E.g.f. 1/(1 - sin(6*x))^(1/6).",
+  "description": "Expansion of e.g.f. 1/(1 - sin(6*x))^(1/6).",
   "id": "A227544",
   "mentions": [
     "A001586",
     "A007788",
+    "A008542",
+    "A136630",
     "A144015",
     "A230114",
     "A230134",

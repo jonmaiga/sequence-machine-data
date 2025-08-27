@@ -1,5 +1,5 @@
 {
-  "description": "Primes whose logarithms are known to possess ternary BBP formulas",
+  "description": "Primes whose logarithms are known to possess ternary BBP formulas.",
   "id": "A165132",
   "mentions": [
     "A104885"

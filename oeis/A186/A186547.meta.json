@@ -1,5 +1,5 @@
 {
-  "description": "1/8192 the number of (n+2)X3 0..3 arrays with each 3X3 subblock trace equal to some horizontal or vertical neighbor 3X3 subblock trace",
+  "description": "1/8192 the number of (n+2)X3 0..3 arrays with each 3X3 subblock trace equal to some horizontal or vertical neighbor 3X3 subblock trace.",
   "id": "A186547",
   "mentions": [
     "A186553"

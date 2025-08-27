@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 6*Sum_{k>=0} (-1)^k/(k! (k + 3)! 2^k).",
+  "id": "A385453",
+  "mentions": [
+    "A334383"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

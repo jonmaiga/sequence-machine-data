@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (1 + k^2) * a(k) * a(n-1-k).",
+  "id": "A385830",
+  "mentions": [
+    "A088716",
+    "A385762",
+    "A385831",
+    "A385832",
+    "A385833",
+    "A385834",
+    "A385835"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of the Dirichlet series for zeta(5s)/zeta(s).",
+  "description": "Coefficients of the Dirichlet series for zeta(5*s)/zeta(s).",
   "id": "A253206",
   "mentions": [
     "A008836",

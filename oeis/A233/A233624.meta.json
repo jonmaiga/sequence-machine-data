@@ -1,5 +1,5 @@
 {
-  "description": "Number of (6+2)X(n+2) 0..2 arrays with no increasing sequence of length 3 horizontally or diagonally downwards",
+  "description": "Number of (6+2)X(n+2) 0..2 arrays with no increasing sequence of length 3 horizontally or diagonally downwards.",
   "id": "A233624",
   "mentions": [
     "A233618"

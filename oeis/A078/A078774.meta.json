@@ -1,5 +1,5 @@
 {
-  "description": "n*phi(n*phi(n)).",
+  "description": "a(n) = n*phi(n*phi(n)).",
   "id": "A078774",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

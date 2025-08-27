@@ -1,0 +1,18 @@
+{
+  "description": "Simple continued fraction expansion of arctan(1/2)/Pi.",
+  "id": "A384806",
+  "mentions": [
+    "A000796",
+    "A073000",
+    "A086203"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

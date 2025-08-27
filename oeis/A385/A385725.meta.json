@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x*(A(x) + A(i*x) + A(-x) + A(-i*x))/4 ), where i is the imaginary unit.",
+  "id": "A385725",
+  "mentions": [
+    "A000272",
+    "A058014",
+    "A118968",
+    "A385691"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Triangle read by rows: T(n,k) = ((n+k)/2)!/k! if n,k have same parity, otherwise 0.",
   "id": "A242653",
-  "mentions": [],
+  "mentions": [
+    "A122851"
+  ],
   "tags": [
     "easy",
     "nonn",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[1/2((1-2/Sqrt[3])^n+(1-2/Sqrt[3])^n)]",
+  "description": "a(n) = Floor[1/2((1-2/Sqrt[3])^n+(1-2/Sqrt[3])^n)].",
   "id": "A116953",
   "mentions": [],
   "tags": [

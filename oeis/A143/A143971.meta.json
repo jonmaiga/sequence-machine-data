@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, (3n-2) subsequences decrescendo",
+  "description": "Triangle read by rows, (3n-2) subsequences decrescendo.",
   "id": "A143971",
   "mentions": [
     "A000326",

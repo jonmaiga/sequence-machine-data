@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into nonzero triangular numbers where every part appears at least 6 times",
+  "description": "Number of partitions of n into nonzero triangular numbers where every part appears at least 6 times.",
   "id": "A161107",
   "mentions": [],
   "tags": [

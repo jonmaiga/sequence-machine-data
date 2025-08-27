@@ -1,0 +1,17 @@
+{
+  "description": "The v sequence in quartets (2,u,v,w); see A385592.",
+  "id": "A385593",
+  "mentions": [
+    "A385182",
+    "A385592",
+    "A385594"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

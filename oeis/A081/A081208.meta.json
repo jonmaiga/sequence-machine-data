@@ -1,0 +1,15 @@
+{
+  "description": "Smallest prime which begins with all the n-digit primes.",
+  "id": "A081208",
+  "mentions": [],
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

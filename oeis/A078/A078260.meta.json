@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = denominator(N), where N = 0.246...up to 2n (concatenation 2 to 2n of first n even numbers after decimal point).",
+  "description": "a(n) = denominator(N), where N = 0.246...(2n) is the concatenation of the first n even numbers after decimal point.",
   "id": "A078260",
   "mentions": [
     "A078257",

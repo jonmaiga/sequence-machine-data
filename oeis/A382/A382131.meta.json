@@ -1,0 +1,16 @@
+{
+  "description": "Complement of A381767.",
+  "id": "A382131",
+  "mentions": [
+    "A381767"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of paths from the top to bottom of a 3-dimensional triangular bipyramidal graph of height 2n, with no repeated vertices, and no upward moves.",
+  "id": "A384499",
+  "mentions": [
+    "A002454"
+  ],
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

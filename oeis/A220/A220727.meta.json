@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to reciprocally link elements of an 3Xn array either to themselves or to exactly two horizontal, diagonal or antidiagonal neighbors",
+  "description": "Number of ways to reciprocally link elements of an 3Xn array either to themselves or to exactly two horizontal, diagonal or antidiagonal neighbors.",
   "id": "A220727",
   "mentions": [
     "A220725"

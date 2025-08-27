@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of 7 numbers in 0..n with the last equal to n and each after the second equal to the sum of one or two of the preceding four",
+  "description": "Number of nondecreasing arrangements of 7 numbers in 0..n with the last equal to n and each after the second equal to the sum of one or two of the preceding four.",
   "id": "A189330",
   "mentions": [
     "A189326"

@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (k+1) * binomial(k+2,2) * binomial(n-1,k) * a(k) * a(n-1-k).",
+  "id": "A385979",
+  "mentions": [
+    "A000272",
+    "A156326",
+    "A385980",
+    "A385981",
+    "A385982"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

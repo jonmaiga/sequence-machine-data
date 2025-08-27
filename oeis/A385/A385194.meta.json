@@ -1,0 +1,17 @@
+{
+  "description": "Minimum number of steps to reach n by repeated doubling and/or digit reversal starting from 1, or -1 if n cannot be reached.",
+  "id": "A385194",
+  "mentions": [
+    "A004086"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

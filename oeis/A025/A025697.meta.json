@@ -1,7 +1,9 @@
 {
   "description": "Index of 3^n within sequence of numbers of form 3^i*6^j.",
   "id": "A025697",
-  "mentions": [],
+  "mentions": [
+    "A025657"
+  ],
   "tags": [
     "nonn"
   ],

@@ -2,6 +2,7 @@
   "description": "Minimal most likely sum for a roll of n 4-sided dice.",
   "id": "A256680",
   "mentions": [
+    "A010693",
     "A030123",
     "A047215"
   ],

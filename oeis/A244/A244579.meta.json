@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that the number of parts in the symmetric representation of sigma(n) equals the number of divisors of n.",
+  "description": "Numbers k with the property that the number of parts in the symmetric representation of sigma(k) equals the number of divisors of k.",
   "id": "A244579",
   "mentions": [
     "A000005",

@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n such that in a rotated-square spiral with positive integers (A215468) among n's eight nearest neighbors five or more are primes.",
+  "description": "Numbers k such that in a rotated-square spiral with positive integers (A215468) among k's eight nearest neighbors five or more are primes.",
   "id": "A215471",
   "mentions": [
+    "A010751",
     "A039625",
     "A215468",
-    "A215470"
+    "A215470",
+    "A305258"
   ],
   "tags": [
     "nonn"
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Sum of p in all pairs (p,q), 0<=p",
+  "description": "Sum of r in all pairs (r,s), 0<=r",
   "id": "A079249",
   "mentions": [
     "A008805"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

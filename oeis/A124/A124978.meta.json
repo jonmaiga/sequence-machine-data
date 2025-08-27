@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number which has exactly n different partitions as a sum of 4 squares x^2+y^2+z^2+t^2.",
+  "description": "Smallest positive number which has exactly n different partitions as a sum of 4 squares x^2+y^2+z^2+t^2.",
   "id": "A124978",
   "mentions": [
     "A000378",

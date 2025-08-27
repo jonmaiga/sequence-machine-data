@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of f(-x, -x^11) in powers of x where f() is a Ramanujan theta function",
+  "description": "Expansion of f(-x, -x^11) in powers of x where f() is a Ramanujan theta function.",
   "id": "A247133",
   "mentions": [
     "A010815",

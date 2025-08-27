@@ -1,7 +1,16 @@
 {
   "description": "a(1)=0, a(n)=a(n-1)+3 if n is already in the sequence, a(n)=a(n-1)+2 otherwise.",
   "id": "A081841",
-  "mentions": [],
+  "mentions": [
+    "A080353",
+    "A080580",
+    "A080590",
+    "A080600",
+    "A080652",
+    "A080754",
+    "A081834",
+    "A081840"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

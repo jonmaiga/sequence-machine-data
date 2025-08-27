@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of 5 numbers x(i) in -(n+3)..(n+3) with the sum of sign(x(i))*x(i)^2 zero",
+  "description": "Number of nondecreasing arrangements of 5 numbers x(i) in -(n+3)..(n+3) with the sum of sign(x(i))*x(i)^2 zero.",
   "id": "A188005",
   "mentions": [
     "A188002"

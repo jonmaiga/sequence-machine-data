@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 binary arrays with each element equal to either the sum mod 2 of its horizontal and vertical neighbors or the sum mod 2 of its diagonal and antidiagonal neighbors",
+  "description": "Number of nX7 binary arrays with each element equal to either the sum mod 2 of its horizontal and vertical neighbors or the sum mod 2 of its diagonal and antidiagonal neighbors.",
   "id": "A183515",
   "mentions": [
     "A183517"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with no element equal to the sum modulo 4 of elements to its left or elements above it",
+  "description": "Number of nX3 0..3 arrays with no element equal to the sum modulo 4 of elements to its left or elements above it.",
   "id": "A238770",
   "mentions": [
     "A238775"

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 25*n^2/2 - 11*n/2 + 1.",
+  "id": "A383465",
+  "mentions": [
+    "A386478"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

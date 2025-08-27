@@ -6,11 +6,12 @@
     "A163842"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element making zero or one knight moves",
+  "description": "T(n,k)=Number of nXk array permutations with each element making zero or one knight moves.",
   "id": "A189150",
   "mentions": [],
   "tags": [

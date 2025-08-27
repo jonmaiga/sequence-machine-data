@@ -1,0 +1,21 @@
+{
+  "description": "Primes p == 3 (mod 4) such that (p+1) * ord(5,p) / ord(2+-i,p) is even. Here ord(a,m) is the multiplicative order of a modulo m.",
+  "id": "A385167",
+  "mentions": [
+    "A002145",
+    "A122869",
+    "A385165",
+    "A385166",
+    "A385168",
+    "A385180"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

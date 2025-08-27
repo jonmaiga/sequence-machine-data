@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(k+3,3) * a(k) * a(n-1-k).",
+  "id": "A385952",
+  "mentions": [
+    "A088716",
+    "A351798",
+    "A385945",
+    "A385953",
+    "A385954",
+    "A385955"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of arrays of -k..k integers x(1..n) with every x(i) being in a subsequence of length 1, 2, 3 or 4 with sum zero",
+  "description": "T(n,k)=Number of arrays of -k..k integers x(1..n) with every x(i) being in a subsequence of length 1, 2, 3 or 4 with sum zero.",
   "id": "A193710",
   "mentions": [],
   "tags": [

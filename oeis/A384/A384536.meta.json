@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 4^n - 2^(n-6)*15*binomial(n,6).",
+  "id": "A384536",
+  "mentions": [
+    "A384506"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X5 binary arrays with each 3X3 subblock having a positive determinant",
+  "description": "Number of (n+2)X5 binary arrays with each 3X3 subblock having a positive determinant.",
   "id": "A186057",
   "mentions": [
     "A186063"

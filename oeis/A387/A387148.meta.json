@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in a gyroelongated square pyramid (Johnson solid J_10).",
+  "id": "A387148",
+  "mentions": [
+    "A002193",
+    "A011027",
+    "A156546",
+    "A179638",
+    "A374948",
+    "A387149",
+    "A387150"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A007947(n) = A007947(m+1) and A007947(m) = A007947(n+1), where n > m.",
+  "description": "Numbers k such that A007947(k) = A007947(m+1) and A007947(m) = A007947(k+1), where k > m.",
   "id": "A088966",
   "mentions": [
     "A007947",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

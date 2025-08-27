@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays avoiding the pattern z-1 z-1 z in any row, column or nw-to-se diagonal",
+  "description": "Number of n X n 0..2 arrays avoiding the pattern z-1 z-1 z in any row, column or nw-to-se diagonal.",
   "id": "A206726",
   "mentions": [
     "A206734"

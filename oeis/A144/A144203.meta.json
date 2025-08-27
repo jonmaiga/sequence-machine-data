@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs p,q with p < q such that 30*r(n)=p+q+6 and p p+6, q q+6 consecutive primes, r(i)=i-th prime",
+  "description": "Number of pairs p,q with p < q such that 30*r(n)=p+q+6 and p p+6, q q+6 consecutive primes, r(i)=i-th prime.",
   "id": "A144203",
   "mentions": [
     "A144160",

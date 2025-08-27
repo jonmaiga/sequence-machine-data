@@ -2,7 +2,8 @@
   "description": "Numbers k such that prime(k) - pi(k) is a prime.",
   "id": "A065046",
   "mentions": [
-    "A065042"
+    "A065042",
+    "A111181"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "\"Forest Fire\" sequence with the additional condition that no progression of the form ABA is allowed for any terms A and B",
+  "description": "\"Forest Fire\" sequence with the additional condition that no progression of the form ABA is allowed for any terms A and B.",
   "id": "A357256",
   "mentions": [
     "A229037"

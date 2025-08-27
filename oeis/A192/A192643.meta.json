@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric 0..6 arrays with each element equal to at least one horizontal or vertical neighbor and any new values 0..6 introduced in lower triangular row major order",
+  "description": "Number of n X n symmetric 0..6 arrays with each element equal to at least one horizontal or vertical neighbor and any new values 0..6 introduced in lower triangular row major order.",
   "id": "A192643",
   "mentions": [],
   "tags": [

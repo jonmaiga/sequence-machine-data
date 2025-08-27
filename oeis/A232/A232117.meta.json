@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..2 arrays with every element both >= and <= some horizontal or vertical neighbor",
+  "description": "Number of (n+1)X(1+1) 0..2 arrays with every element both >= and <= some horizontal or vertical neighbor.",
   "id": "A232117",
   "mentions": [
     "A232124"

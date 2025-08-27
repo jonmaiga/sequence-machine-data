@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X5 0..2 arrays with every 2X2 subblock sum equal to some horizontal or vertical neighbor 2X2 subblock sum",
+  "description": "Number of (n+1)X5 0..2 arrays with every 2X2 subblock sum equal to some horizontal or vertical neighbor 2X2 subblock sum.",
   "id": "A185613",
   "mentions": [
     "A185614"

@@ -1,5 +1,5 @@
 {
-  "description": "a={1,3,7,9} p[n]=Prime[n]*10+a[[1+Mod[n,4]]] a(m) = if p[n] is prime, then p[n]",
+  "description": "a={1,3,7,9} p[n]=Prime[n]*10+a[[1+Mod[n,4]]] a(m) = if p[n] is prime, then p[n].",
   "id": "A089685",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form sigma(n) - tau(n), where sigma(n) = A000203(n) and tau(n) = A000005(n).",
+  "description": "Primes of the form sigma(k) - tau(k), where sigma(k) = A000203(k) and tau(k) = A000005(k).",
   "id": "A229268",
   "mentions": [
     "A000005",

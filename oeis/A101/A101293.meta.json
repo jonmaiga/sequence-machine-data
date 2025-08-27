@@ -1,15 +1,19 @@
 {
-  "description": "Lucas(n!).",
+  "description": "a(n) = Lucas(n!).",
   "id": "A101293",
   "mentions": [
-    "A000032"
+    "A000032",
+    "A000142",
+    "A063374"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 6,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

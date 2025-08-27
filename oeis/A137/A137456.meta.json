@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence of coefficients of a partition two types polynomials; of Chebyshev of the first kind polynomials ( A053120 ) and Hermite polynomials ( A060821): p(x,n)=T(x,n)*H(x,n).",
+  "description": "A triangular sequence of coefficients of a partition two types polynomials; of Chebyshev of the first kind polynomials (A053120) and Hermite polynomials (A060821): p(x,n) = T(x,n)*H(x,n).",
   "id": "A137456",
   "mentions": [
     "A053120",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 70,
+    "size": 64,
     "source": "oeis-entry"
   }
 }

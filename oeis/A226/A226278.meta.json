@@ -2,7 +2,9 @@
   "description": "Decimal expansion of the number x > 1 defined by 2*log(x) = x - 1.",
   "id": "A226278",
   "mentions": [
-    "A201890"
+    "A101314",
+    "A201890",
+    "A202343"
   ],
   "tags": [
     "cons",

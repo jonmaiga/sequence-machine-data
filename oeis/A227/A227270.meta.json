@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_{i= 1..k} 1/d(i) + Product_{i= 1..k} 1/d(i) = 1, where d(i) are the k prime distinct divisors of n.",
+  "description": "Numbers m such that Sum_{i= 1..k} 1/d(i) + Product_{i= 1..k} 1/d(i) = 1, where d(i) are the k prime distinct divisors of m.",
   "id": "A227270",
   "mentions": [
     "A069819"

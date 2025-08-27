@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that if the base-8 representation of n is read backwards, the result is an integral multiple of n.",
+  "description": "Numbers k with the property that if the base-8 representation of k is read backwards, the result is an integral multiple of k.",
   "id": "A223090",
   "mentions": [
     "A214927",

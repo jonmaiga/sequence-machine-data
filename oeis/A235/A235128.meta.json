@@ -1,9 +1,11 @@
 {
-  "description": "E.g.f. 1/(1 - sin(7*x))^(1/7).",
+  "description": "Expansion of e.g.f. 1/(1 - sin(7*x))^(1/7).",
   "id": "A235128",
   "mentions": [
     "A001586",
     "A007788",
+    "A045754",
+    "A136630",
     "A144015",
     "A227544",
     "A230114",

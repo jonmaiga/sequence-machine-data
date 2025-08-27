@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1) * 3^k * binomial(2*n+1,n-k).",
+  "id": "A384365",
+  "mentions": [
+    "A088218",
+    "A100193",
+    "A258431",
+    "A386940",
+    "A386941",
+    "A386955",
+    "A386956"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Integers whose binary digits \"1\" define, if sorted into a quadrant shape whose right angle lies in a Go board corner, same colored Go stones that surely live all, but not if any stone is omitted",
+  "description": "Integers whose binary digits \"1\" define, if sorted into a quadrant shape whose right angle lies in a Go board corner, same colored Go stones that surely live all, but not if any stone is omitted.",
   "id": "A166537",
   "mentions": [
     "A165197"

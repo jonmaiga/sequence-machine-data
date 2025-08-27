@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no element equal to all horizontal neighbors or equal to all vertical neighbors, and new values 0..3 introduced in row major order",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no element equal to all horizontal neighbors or equal to all vertical neighbors, and new values 0..3 introduced in row major order.",
   "id": "A238515",
   "mentions": [],
   "tags": [

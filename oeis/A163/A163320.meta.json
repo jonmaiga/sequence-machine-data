@@ -1,17 +1,16 @@
 {
-  "description": "Primes of the form 2^n+n^3.",
+  "description": "Primes of the form 2^k + k^3.",
   "id": "A163320",
   "mentions": [
     "A058015"
   ],
   "tags": [
-    "bref",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

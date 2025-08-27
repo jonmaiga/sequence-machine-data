@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX8 binary arrays with each element equal to at least two neighbors",
+  "description": "Half the number of nX8 binary arrays with each element equal to at least two neighbors.",
   "id": "A180757",
   "mentions": [
     "A180760"

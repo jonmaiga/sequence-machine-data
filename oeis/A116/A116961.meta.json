@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 2^(2^n-1)-1, 2^(2^n-1), 2^(2^n)-1, 2^(2^n).",
+  "description": "Numbers of the form 2^(2^k-1)-1, 2^(2^k-1), 2^(2^k)-1, 2^(2^k).",
   "id": "A116961",
   "mentions": [
     "A001146",

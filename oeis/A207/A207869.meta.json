@@ -1,5 +1,5 @@
 {
-  "description": "Z(n,-1), where Z(n,x) is the n-th Zeckendorf polynomial.",
+  "description": "a(n) = Z(n,-1), where Z(n,x) is the n-th Zeckendorf polynomial.",
   "id": "A207869",
   "mentions": [
     "A003714",

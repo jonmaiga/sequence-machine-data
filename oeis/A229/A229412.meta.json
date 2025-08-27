@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays avoiding 11 horizontally, 22 vertically, 33 antidiagonally and 00 diagonally",
+  "description": "T(n,k)=Number of nXk 0..3 arrays avoiding 11 horizontally, 22 vertically, 33 antidiagonally and 00 diagonally.",
   "id": "A229412",
   "mentions": [
     "A125145"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..3 arrays with rows and columns, considered as 4-ary numbers, in nondecreasing order",
+  "description": "Number of n X n 0..3 arrays with rows and columns, considered as 4-ary numbers, in nondecreasing order.",
   "id": "A162086",
   "mentions": [],
   "tags": [

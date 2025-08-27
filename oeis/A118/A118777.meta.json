@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1; n > 0: a(n) = a(n-1) + d, d = -/+1 if n is prime/nonprime.",
+  "description": "a(0) = 1; n > 0: a(n) = a(n-1) + d, d = +-1 if n is prime/nonprime.",
   "id": "A118777",
   "mentions": [
     "A000720",

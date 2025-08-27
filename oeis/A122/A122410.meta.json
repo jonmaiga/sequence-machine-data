@@ -1,10 +1,15 @@
 {
-  "description": "a(n) = sum of j's for those k's, 1 <= k <= n, where gcd(k,n) = p^j, p = prime.",
+  "description": "a(n) is the sum of j's for those k's, 1 <= k <= n, where gcd(k,n) = p^j, p = prime.",
   "id": "A122410",
   "mentions": [
+    "A000010",
+    "A013661",
+    "A100995",
+    "A116512",
     "A122411"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

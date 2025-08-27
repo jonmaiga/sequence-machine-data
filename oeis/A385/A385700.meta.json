@@ -1,0 +1,25 @@
+{
+  "description": "Numbers such that when the leftmost digit is moved to the unit's place the result is divisible by 4.",
+  "id": "A385700",
+  "mentions": [
+    "A001477",
+    "A008585",
+    "A008591",
+    "A217398",
+    "A273892",
+    "A385701",
+    "A385702",
+    "A385703"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

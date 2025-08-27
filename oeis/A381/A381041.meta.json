@@ -2,16 +2,19 @@
   "description": "Smallest prime p such that 3^n + p + 1 is prime.",
   "id": "A381041",
   "mentions": [
+    "A007051",
+    "A020483",
     "A056206",
     "A056208",
     "A057673"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

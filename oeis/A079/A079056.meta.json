@@ -1,13 +1,17 @@
 {
   "description": "Numbers of prime triples (p,q,r), p<=q<=r, such that (p+q+r) divides n.",
   "id": "A079056",
-  "mentions": [],
+  "mentions": [
+    "A068307",
+    "A079055"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

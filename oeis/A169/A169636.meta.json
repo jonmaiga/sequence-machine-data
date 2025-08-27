@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of A004001 sequence vectors:a(n)=Length[Permutations[Table[A004001[i], {i, 0, m}]]]",
+  "description": "Number of permutations of A004001 sequence vectors:a(n)=Length[Permutations[Table[A004001[i], {i, 0, m}]]].",
   "id": "A169636",
   "mentions": [
     "A004001"

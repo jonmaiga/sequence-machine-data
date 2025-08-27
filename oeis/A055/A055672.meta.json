@@ -2,9 +2,12 @@
   "description": "Number of right-inequivalent prime Hurwitz quaternions of norm n.",
   "id": "A055672",
   "mentions": [
+    "A000593",
+    "A010051",
     "A055669",
     "A055670",
-    "A055671"
+    "A055671",
+    "A385603"
   ],
   "tags": [
     "easy",

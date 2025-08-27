@@ -1,0 +1,17 @@
+{
+  "description": "The first prime number reached by iterating the map, x -> 2*x + 1 if x is even; x - lpf(x) otherwise where lpf(x) is the least prime factor of x, on n >= 2; or -1 if a prime is never reached.",
+  "id": "A384698",
+  "mentions": [
+    "A020639",
+    "A383777"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 61,
+    "source": "joeis"
+  }
+}

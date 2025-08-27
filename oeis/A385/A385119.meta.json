@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + 9*x*A(x)^(5/3).",
+  "id": "A385119",
+  "mentions": [
+    "A135864",
+    "A214668",
+    "A245114",
+    "A385117"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

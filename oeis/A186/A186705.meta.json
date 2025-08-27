@@ -1,5 +1,5 @@
 {
-  "description": "The maximum number of occurrences of the same distance among n points in the plane.",
+  "description": "The Erdős unit distance problem: the maximum number of occurrences of the same distance among n points in the plane.",
   "id": "A186705",
   "mentions": [
     "A047932",
@@ -7,7 +7,8 @@
     "A063545",
     "A129011",
     "A186926",
-    "A293956"
+    "A293956",
+    "A385657"
   ],
   "tags": [
     "hard",
@@ -17,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

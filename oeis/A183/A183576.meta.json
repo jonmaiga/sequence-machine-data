@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of n X n 0..3 arrays with each element equal to either the maximum or the minimum of its horizontal and vertical neighbors",
+  "description": "Half the number of n X n 0..3 arrays with each element equal to either the maximum or the minimum of its horizontal and vertical neighbors.",
   "id": "A183576",
   "mentions": [
     "A183584"

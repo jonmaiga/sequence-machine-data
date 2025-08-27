@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A120301(n) differs from A058313(n).",
+  "description": "Numbers k such that A120301(k) differs from A058313(k).",
   "id": "A123944",
   "mentions": [
     "A058313",

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=number of nXk binary matrices with rows and then columns in strictly increasing order as binary numbers",
+  "description": "T(n,k)=number of nXk binary matrices with rows and then columns in strictly increasing order as binary numbers.",
   "id": "A180989",
   "mentions": [],
   "tags": [

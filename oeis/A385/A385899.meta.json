@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k, m) = binomial(n, k) * k^n * m^k * (-1)^(n - k) for m = 2.",
+  "id": "A385899",
+  "mentions": [
+    "A000007",
+    "A062971",
+    "A258773",
+    "A375540",
+    "A375541"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

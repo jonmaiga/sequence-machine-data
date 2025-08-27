@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = a(2) = 1, and for n > 2, a(n) is the unique k such that A256590(n) = A000120(A256590(n))^k.",
+  "id": "A386290",
+  "mentions": [
+    "A000120",
+    "A256590",
+    "A386248",
+    "A386289"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

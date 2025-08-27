@@ -1,0 +1,19 @@
+{
+  "description": "Consecutive states of the linear congruential pseudo-random number generator (1255*s + 6173) mod 29282 when started at s=1.",
+  "id": "A385339",
+  "mentions": [
+    "A385036",
+    "A385078",
+    "A385279"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

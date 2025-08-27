@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary arrangements of total n 1's, without adjacent 1's on n X n array connected n-s",
+  "description": "Number of binary arrangements of total n 1's, without adjacent 1's on n X n array connected n-s.",
   "id": "A197989",
   "mentions": [
     "A067966",

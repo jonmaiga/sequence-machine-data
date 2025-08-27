@@ -1,5 +1,5 @@
 {
-  "description": "The number of solutions x<=y<=z in Z/(n) of the equation x+y+z = x*y*z",
+  "description": "The number of solutions x<=y<=z in Z/(n) of the equation x+y+z = x*y*z.",
   "id": "A376183",
   "mentions": [],
   "tags": [

@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), 2 <= n , 3 <= k <= largest k such that A067175(k) <= n , is the smallest n-digit number m such that omega(m) = A001221(m) = k, and its largest prime factor equals the sum of its remaining prime factors. or -1 if no such number exists.",
+  "id": "A383677",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A067175",
+    "A365795",
+    "A382469",
+    "A383725",
+    "A383726",
+    "A383728",
+    "A383729"
+  ],
+  "tags": [
+    "base",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

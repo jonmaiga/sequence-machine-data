@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1) + Sum_{k=0..n-1} (1 + k) * k^3 * binomial(n-1,k) * a(k) * a(n-1-k).",
+  "id": "A386506",
+  "mentions": [
+    "A143925",
+    "A385940",
+    "A386444",
+    "A386505",
+    "A386507",
+    "A386508",
+    "A386509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "k and 4k are anagrams in base 6 (written in base 6).",
+  "description": "Positive numbers k such that k and 4*k are anagrams in base 6 (written in base 6).",
   "id": "A023066",
-  "mentions": [],
+  "mentions": [
+    "A007092"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 29,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

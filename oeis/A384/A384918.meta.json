@@ -1,0 +1,15 @@
+{
+  "description": "If k is in the sequence, so is k*2^m + 3, for all m > 0, a(1) = 2, ordered.",
+  "id": "A384918",
+  "mentions": [
+    "A007310"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

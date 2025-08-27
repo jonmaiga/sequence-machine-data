@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of nXk binary arrays with no element equal to a strict majority of its king-move neighbors",
+  "description": "T(n,k)=Half the number of nXk binary arrays with no element equal to a strict majority of its king-move neighbors.",
   "id": "A183386",
   "mentions": [],
   "tags": [

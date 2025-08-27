@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of minimal radius of a circle that contains 14 non-overlapping unit disks.",
+  "id": "A384851",
+  "mentions": [
+    "A084618",
+    "A121570",
+    "A121598",
+    "A121601",
+    "A121602",
+    "A281115",
+    "A282279"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

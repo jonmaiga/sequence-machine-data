@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place n non-attacking semi-knights on an n x n chessboard",
+  "description": "Number of ways to place n non-attacking semi-knights on an n x n chessboard.",
   "id": "A182563",
   "mentions": [
     "A002465",

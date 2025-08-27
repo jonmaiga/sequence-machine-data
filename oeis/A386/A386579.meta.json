@@ -1,0 +1,52 @@
+{
+  "description": "Number of permutations of row n of A305936 (a multiset whose multiplicities are the prime indices of n) with k adjacent unequal parts.",
+  "id": "A386579",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003242",
+    "A003963",
+    "A005649",
+    "A010051",
+    "A025065",
+    "A051903",
+    "A051904",
+    "A056239",
+    "A106351",
+    "A112798",
+    "A124762",
+    "A238130",
+    "A305936",
+    "A318762",
+    "A325534",
+    "A325535",
+    "A333382",
+    "A333489",
+    "A335125",
+    "A335126",
+    "A335127",
+    "A335433",
+    "A335448",
+    "A335452",
+    "A336102",
+    "A336106",
+    "A373957",
+    "A374252",
+    "A386577",
+    "A386578",
+    "A386581",
+    "A386583",
+    "A386584",
+    "A386585",
+    "A386586"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock diagonal minus antidiagonal sum nondecreasing horizontally and vertically",
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock diagonal minus antidiagonal sum nondecreasing horizontally and vertically.",
   "id": "A253448",
   "mentions": [
     "A253456"

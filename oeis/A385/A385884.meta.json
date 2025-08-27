@@ -1,0 +1,18 @@
+{
+  "description": "Values of u in the quartets (2, u, v, w) of type 2; i.e., values of u for solutions to 2*(2 + u) = v*(v - w), in positive integers, with v > 1, sorted by nondecreasing values of u; see Comments.",
+  "id": "A385884",
+  "mentions": [
+    "A385182",
+    "A386216",
+    "A386630",
+    "A386982"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

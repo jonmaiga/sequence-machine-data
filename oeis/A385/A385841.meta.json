@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 + Sum_{k=0..n-1} k^3 * a(k) * a(n-1-k).",
+  "id": "A385841",
+  "mentions": [
+    "A143917",
+    "A385840",
+    "A385842",
+    "A385843"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

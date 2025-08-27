@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of second differences of arrays of length n+2 of numbers in 0..k",
+  "description": "T(n,k)=Number of second differences of arrays of length n+2 of numbers in 0..k.",
   "id": "A228218",
   "mentions": [
     "A004766",

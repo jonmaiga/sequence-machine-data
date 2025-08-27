@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( arcsin(x * A(x)) / A(x) ).",
+  "id": "A385427",
+  "mentions": [
+    "A381148",
+    "A385343",
+    "A385424",
+    "A385426"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of B(x)/sqrt(1 + 2*(B(x)-1)/3), where B(x) is the g.f. of A004355.",
+  "id": "A385719",
+  "mentions": [
+    "A002295",
+    "A004355",
+    "A183161",
+    "A208977",
+    "A385497",
+    "A387084",
+    "A387086"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

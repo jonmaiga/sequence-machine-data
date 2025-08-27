@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the k-th prime gap contains an integer whose least prime factor is greater than or equal to the length of the prime gap.",
+  "id": "A386978",
+  "mentions": [
+    "A001223"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

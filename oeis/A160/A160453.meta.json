@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which have a prime divisor p such that 1 is the only positive integer which divides n/p^m and is congruent to 1 modulo p, where p^(m+1) does not divide n.",
+  "description": "Numbers k which have a prime divisor p such that 1 is the only positive integer which divides k/p^m and is congruent to 1 modulo p, where p^(m+1) does not divide k.",
   "id": "A160453",
   "mentions": [
     "A023805",

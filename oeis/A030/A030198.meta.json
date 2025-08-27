@@ -5,12 +5,11 @@
     "A103562"
   ],
   "tags": [
-    "bref",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

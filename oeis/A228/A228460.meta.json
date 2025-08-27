@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of maxima of three adjacent elements of some length n+2 0..7 array",
+  "description": "Number of arrays of maxima of three adjacent elements of some length n+2 0..7 array.",
   "id": "A228460",
   "mentions": [
     "A228461"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 arrays of the minimum value of corresponding elements and their horizontal and vertical neighbors in a random 0..1 nX7 array",
+  "description": "Number of nX7 arrays of the minimum value of corresponding elements and their horizontal and vertical neighbors in a random 0..1 nX7 array.",
   "id": "A217636",
   "mentions": [
     "A217637"

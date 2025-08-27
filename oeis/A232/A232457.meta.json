@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally, vertically, diagonally or antidiagonally",
+  "description": "Number of nX6 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally, vertically, diagonally or antidiagonally.",
   "id": "A232457",
   "mentions": [
     "A232459"

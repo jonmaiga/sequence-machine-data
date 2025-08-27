@@ -1,0 +1,21 @@
+{
+  "description": "Primes containing the digit string \"007\" in their decimal representation.",
+  "id": "A386240",
+  "mentions": [
+    "A166580",
+    "A167282",
+    "A193552",
+    "A386247"
+  ],
+  "tags": [
+    "base",
+    "dumb",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

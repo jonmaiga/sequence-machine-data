@@ -1,14 +1,15 @@
 {
   "description": "Number of (undirected) paths in the n-Dorogovtsev-Goltsev-Mendes graph.",
   "id": "A368851",
-  "mentions": [],
+  "mentions": [
+    "A368190"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 8,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion zeta''''(0) (negated).",
+  "id": "A385612",
+  "mentions": [
+    "A001620",
+    "A061444",
+    "A075700",
+    "A082633",
+    "A086279",
+    "A086280",
+    "A257549",
+    "A261508"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

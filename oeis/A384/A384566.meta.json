@@ -1,0 +1,21 @@
+{
+  "description": "Area of the unique primitive Pythagorean triple whose inradius is A002378(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "id": "A384566",
+  "mentions": [
+    "A002378",
+    "A008514",
+    "A237516",
+    "A383833",
+    "A384288"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

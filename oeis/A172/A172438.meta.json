@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(n^2+1) - tau(n^2) = 1 where the function tau(n) is the number of positive divisors of n.",
+  "description": "Numbers k such that tau(k^2+1) - tau(k^2) = 1 where the function tau(k) is the number of positive divisors of k.",
   "id": "A172438",
   "mentions": [
     "A000005",

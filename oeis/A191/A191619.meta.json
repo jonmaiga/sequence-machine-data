@@ -1,5 +1,5 @@
 {
-  "description": "Least a such that (2^n-a)*2^n + 1 is a prime number",
+  "description": "Least a such that (2^n-a)*2^n + 1 is a prime number.",
   "id": "A191619",
   "mentions": [
     "A191617",

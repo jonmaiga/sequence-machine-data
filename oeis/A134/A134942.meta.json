@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that there exists no number k with k-P(k) = n, where P(k) is the product of digits of k written in base 10.",
+  "description": "Numbers m such that there exists no number k with k-P(k) = m, where P(k) is the product of digits of k written in base 10.",
   "id": "A134942",
-  "mentions": [],
+  "mentions": [
+    "A070565"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

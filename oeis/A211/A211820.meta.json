@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) -10..10 symmetric matrices with every 2X2 subblock having sum zero and two, three or four distinct values",
+  "description": "Number of (n+1)X(n+1) -10..10 symmetric matrices with every 2X2 subblock having sum zero and two, three or four distinct values.",
   "id": "A211820",
   "mentions": [],
   "tags": [

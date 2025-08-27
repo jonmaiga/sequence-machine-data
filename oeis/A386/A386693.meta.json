@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a tridiminished rhombicosidodecahedron with unit edges.",
+  "id": "A386693",
+  "mentions": [
+    "A002163",
+    "A179590",
+    "A185093",
+    "A386689",
+    "A386691",
+    "A386694"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

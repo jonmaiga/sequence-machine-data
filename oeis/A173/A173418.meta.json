@@ -1,0 +1,18 @@
+{
+  "description": "Primes formed by the initial digits of the decimal expansion of 1/(Golden Ratio).",
+  "id": "A173418",
+  "mentions": [
+    "A065868",
+    "A094214"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the first k divisors of n is equal to n for some k.",
+  "description": "Numbers m such that the sum of the first k divisors of m is equal to m for some k.",
   "id": "A064510",
   "mentions": [
     "A000396",

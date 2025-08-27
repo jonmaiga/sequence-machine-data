@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(n+2) 0..2 arrays with every row, column, diagonal or antidiagonal in each 3X3 subblock summing to a prime",
+  "description": "Number of (n+2)X(n+2) 0..2 arrays with every row, column, diagonal or antidiagonal in each 3X3 subblock summing to a prime.",
   "id": "A251811",
   "mentions": [
     "A251819"

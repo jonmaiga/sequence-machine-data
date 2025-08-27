@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of a 7X7 0..n array with no element differing from any of its horizontal or vertical neighbors by more than one",
+  "description": "Number of lower triangles of a 7X7 0..n array with no element differing from any of its horizontal or vertical neighbors by more than one.",
   "id": "A194936",
   "mentions": [
     "A194931"

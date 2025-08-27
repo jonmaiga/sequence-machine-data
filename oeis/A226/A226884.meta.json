@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-length words w over a 5-ary alphabet {a1,a2,...,a5} such that #(w,a1) >= #(w,a2) >= ... >= #(w,a5) >= 1, where #(w,x) counts the letters x in word w",
+  "description": "Number of n-length words w over a 5-ary alphabet {a1,a2,...,a5} such that #(w,a1) >= #(w,a2) >= ... >= #(w,a5) >= 1, where #(w,x) counts the letters x in word w.",
   "id": "A226884",
   "mentions": [
     "A226874"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 512n+257 is prime.",
+  "description": "Numbers k such that 512*k+257 is prime.",
   "id": "A105139",
   "mentions": [
     "A002145",

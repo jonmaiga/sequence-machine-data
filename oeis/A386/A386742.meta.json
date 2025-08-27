@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the surface area of a hebesphenomegacorona with unit edges.",
+  "id": "A386742",
+  "mentions": [
+    "A002194",
+    "A386741"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "3X3 square grid graph coloring a rectangular array: number of nX6 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph",
+  "description": "3X3 square grid graph coloring a rectangular array: number of nX6 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.",
   "id": "A223377",
   "mentions": [
     "A223379"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing -k..k vectors of length n whose dot product with some other -k..k vector equals n",
+  "description": "T(n,k)=Number of nondecreasing -k..k vectors of length n whose dot product with some other -k..k vector equals n.",
   "id": "A226340",
   "mentions": [],
   "tags": [

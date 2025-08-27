@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with the array of 2X2 subblock determinants antisymmetric under horizontal and vertical reflection and each non-centerline 2X2 subblock nonsingular",
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with the array of 2X2 subblock determinants antisymmetric under horizontal and vertical reflection and each non-centerline 2X2 subblock nonsingular.",
   "id": "A187630",
   "mentions": [
     "A187633"

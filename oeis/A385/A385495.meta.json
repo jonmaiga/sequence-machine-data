@@ -1,0 +1,24 @@
+{
+  "description": "Most significant nonzero decimal digit of zeta(n)-1, where zeta(n) = Sum_{j >= 1} 1/j^n is the Riemann zeta function.",
+  "id": "A385495",
+  "mentions": [
+    "A000027",
+    "A013662",
+    "A085541",
+    "A085548",
+    "A085964",
+    "A085969",
+    "A111395",
+    "A385431"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

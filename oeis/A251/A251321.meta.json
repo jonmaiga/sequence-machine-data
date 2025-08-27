@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(3+1) 0..1 arrays with every 2X2 subblock having one or two 1s",
+  "description": "Number of (n+1)X(3+1) 0..1 arrays with every 2X2 subblock having one or two 1s.",
   "id": "A251321",
   "mentions": [
     "A251326"

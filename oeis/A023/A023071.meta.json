@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k and 5*k are anagrams in base 7 (written in base 7).",
+  "description": "Positive numbers k such that k and 5*k are anagrams in base 7 (written in base 7).",
   "id": "A023071",
   "mentions": [
     "A007093"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

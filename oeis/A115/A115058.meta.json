@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 3p+2 is not prime.",
+  "description": "Primes p such that 3*p+2 is not prime.",
   "id": "A115058",
   "mentions": [
     "A000040",

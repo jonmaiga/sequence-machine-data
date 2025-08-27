@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Hilltop maps: number of nXk binary arrays indicating the locations of corresponding elements not exceeded by any king-move neighbor in a random 0..2 nXk array",
+  "description": "T(n,k)=Hilltop maps: number of nXk binary arrays indicating the locations of corresponding elements not exceeded by any king-move neighbor in a random 0..2 nXk array.",
   "id": "A218319",
   "mentions": [
     "A218199"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with no element equal to the sum mod 3 of its horizontal and vertical neighbors",
+  "description": "T(n,k)=Number of nXk binary arrays with no element equal to the sum mod 3 of its horizontal and vertical neighbors.",
   "id": "A183368",
   "mentions": [
     "A000931"

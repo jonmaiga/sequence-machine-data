@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)/(6k-5)^7 + (-1)^(k-1)/(6k-1)^7.",
+  "id": "A384425",
+  "mentions": [
+    "A013665",
+    "A092735",
+    "A143298"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

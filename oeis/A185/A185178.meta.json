@@ -1,20 +1,20 @@
 {
-  "description": "Number of different values of the permanent of an n X n (0,1)-matrix with exactly three 1's in each row and each column.",
+  "description": "Number of distinct values of the permanent of an n X n (0,1)-matrix with exactly three 1's in each row and each column.",
   "id": "A185178",
   "mentions": [
+    "A001501",
     "A176211",
     "A176212",
-    "A185177"
+    "A185179"
   ],
   "tags": [
-    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "description": "In the sequence of run lengths of binary indices of each positive integer (A245563), remove all duplicate rows after the first and take the last term of each remaining row.",
+  "id": "A385892",
+  "mentions": [
+    "A000071",
+    "A000120",
+    "A001629",
+    "A037800",
+    "A044813",
+    "A048793",
+    "A069010",
+    "A083368",
+    "A090996",
+    "A164707",
+    "A200648",
+    "A200649",
+    "A200650",
+    "A245562",
+    "A245563",
+    "A246029",
+    "A328592",
+    "A384877",
+    "A384878",
+    "A384890",
+    "A385816",
+    "A385817",
+    "A385818",
+    "A385886",
+    "A385889"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

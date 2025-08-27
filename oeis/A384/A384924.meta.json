@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the position of the first occurrence of the digit 0 among the leading significant decimal digits of the square root of the n-th nonsquare.",
+  "id": "A384924",
+  "mentions": [
+    "A000037",
+    "A000196",
+    "A003285",
+    "A113507",
+    "A384923"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

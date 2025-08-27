@@ -1,5 +1,5 @@
 {
-  "description": "Numerators in expansion of 1/sqrt(1-2x-3x^2)^(1/4).",
+  "description": "Numerators in expansion of (1 - 2*x - 3*x^2)^(-1/4).",
   "id": "A110114",
   "mentions": [
     "A046161"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

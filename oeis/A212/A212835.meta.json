@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays of length n+1 with 0 never adjacent to k",
+  "description": "T(n,k)=Number of 0..k arrays of length n+1 with 0 never adjacent to k.",
   "id": "A212835",
   "mentions": [
     "A001333",

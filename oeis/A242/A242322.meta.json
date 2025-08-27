@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+k+2 0..k arrays with every value 0..k appearing at least once in every consecutive k+3 elements, and new values 0..k introduced in order",
+  "description": "T(n,k)=Number of length n+k+2 0..k arrays with every value 0..k appearing at least once in every consecutive k+3 elements, and new values 0..k introduced in order.",
   "id": "A242322",
   "mentions": [
     "A000073",

@@ -1,5 +1,5 @@
 {
-  "description": "Hilltop maps: number of 7Xn binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, diagonal or antidiagonal neighbor in a random 0..3 7Xn array",
+  "description": "Hilltop maps: number of 7Xn binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, diagonal or antidiagonal neighbor in a random 0..3 7Xn array.",
   "id": "A218642",
   "mentions": [
     "A218638"

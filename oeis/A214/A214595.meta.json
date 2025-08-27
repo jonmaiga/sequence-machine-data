@@ -1,8 +1,17 @@
 {
-  "description": "T(n,k)=Number of nXnXn triangular 0..k arrays with every horizontal row having the same average value",
+  "description": "T(n,k) = number of n X n X n triangular 0..k arrays with every horizontal row having the same average value.",
   "id": "A214595",
   "mentions": [
-    "A000982"
+    "A000982",
+    "A214589",
+    "A214590",
+    "A214591",
+    "A214592",
+    "A214593",
+    "A214594",
+    "A214596",
+    "A214597",
+    "A214598"
   ],
   "tags": [
     "formulas",

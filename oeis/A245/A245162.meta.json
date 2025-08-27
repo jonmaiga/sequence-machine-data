@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n 0..7 arrays with new values introduced in order from both ends",
+  "description": "Number of length n 0..7 arrays with new values introduced in order from both ends.",
   "id": "A245162",
   "mentions": [
     "A245163"

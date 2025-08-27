@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. x + sqrt(x^2 + 1).",
+  "id": "A385369",
+  "mentions": [
+    "A006228",
+    "A177698",
+    "A385343"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

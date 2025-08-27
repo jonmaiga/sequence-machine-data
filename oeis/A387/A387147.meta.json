@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between triangular and square faces in an elongated pentagonal pyramid (Johnson solid J_9).",
+  "id": "A387147",
+  "mentions": [
+    "A010476",
+    "A019669",
+    "A228719",
+    "A236367",
+    "A384138"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

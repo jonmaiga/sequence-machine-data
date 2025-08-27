@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be represented using their digits in the order of appearance, the operations +, -, *, /, ^, and any parentheses.",
+  "id": "A386936",
+  "mentions": [
+    "A046469",
+    "A080035",
+    "A156954",
+    "A362769"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p == 3 (mod 4) such that 5 is a primitive root of integers modulo p, but 2+-i are not primitive roots of Gaussian integers modulo p.",
+  "id": "A384948",
+  "mentions": [
+    "A002145",
+    "A019335",
+    "A122870",
+    "A385165",
+    "A385168"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

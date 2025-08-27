@@ -1,5 +1,5 @@
 {
-  "description": "Number of equally-spaced triples (x,y,z) of preceding terms with x+y=z",
+  "description": "Number of equally-spaced triples (x,y,z) of preceding terms with x+y=z.",
   "id": "A179510",
   "mentions": [
     "A178976"

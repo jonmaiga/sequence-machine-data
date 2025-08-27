@@ -2,7 +2,9 @@
   "description": "Order of (usually) simple Chevalley group D_n (7).",
   "id": "A003839",
   "mentions": [
-    "A003837"
+    "A003837",
+    "A003838",
+    "A003840"
   ],
   "tags": [
     "easy",

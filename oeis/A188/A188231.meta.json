@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of n numbers in -(n+2)..(n+2) with sum zero and not more than two numbers equal",
+  "description": "Number of nondecreasing arrangements of n numbers in -(n+2)..(n+2) with sum zero and not more than two numbers equal.",
   "id": "A188231",
   "mentions": [
     "A188236"

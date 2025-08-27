@@ -1,5 +1,5 @@
 {
-  "description": "11-digit integers whose 10 absolute differences between two successive digits are different",
+  "description": "11-digit integers whose 10 absolute differences between two successive digits are different.",
   "id": "A296158",
   "mentions": [],
   "tags": [

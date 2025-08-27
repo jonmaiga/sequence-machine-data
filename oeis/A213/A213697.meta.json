@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of (n+1)X(n+1) symmetric 0..k arrays with no 2X2 subblock summing to 2k",
+  "description": "T(n,k)=Half the number of (n+1)X(n+1) symmetric 0..k arrays with no 2X2 subblock summing to 2k.",
   "id": "A213697",
   "mentions": [
     "A182260"

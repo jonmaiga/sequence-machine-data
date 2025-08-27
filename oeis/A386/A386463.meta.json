@@ -1,0 +1,17 @@
+{
+  "description": "Box which a player should open at step n to catch a cat performing a random walk through 8 boxes to minimize the escape rate of the cat.",
+  "id": "A386463",
+  "mentions": [
+    "A300576",
+    "A386462"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/((1 - x) * (1 - x*A(x) - x^6*A'''''(x))).",
+  "id": "A385761",
+  "mentions": [
+    "A321087",
+    "A385758",
+    "A385759",
+    "A385760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

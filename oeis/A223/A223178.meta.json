@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X6 0..1 arrays with all rows and columns having a strictly positive second derivative in a quadratic least squares fit",
+  "description": "Number of (n+2)X6 0..1 arrays with all rows and columns having a strictly positive second derivative in a quadratic least squares fit.",
   "id": "A223178",
   "mentions": [
     "A223179"

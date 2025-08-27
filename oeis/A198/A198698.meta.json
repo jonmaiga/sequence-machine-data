@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3*10^n-1.",
+  "description": "a(n) = 3*10^n - 1.",
   "id": "A198698",
   "mentions": [
     "A002283",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

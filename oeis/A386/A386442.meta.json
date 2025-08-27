@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} H(k) * (zeta(k) - 1), where H(k) is the k-th harmonic number.",
+  "id": "A386442",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A131688"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Values of n which are incrementally the largest values of the function: Smallest number m such that n divides (10's complement factorial of m).",
+  "description": "Indices of records in A109631.",
   "id": "A109640",
   "mentions": [
     "A002034",
@@ -9,12 +9,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

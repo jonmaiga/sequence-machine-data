@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: row n consists of the coefficients in the expansion of the polynomial (1/(2*w)) * (x^2 + x) * ((((v + w)/2)^(n - 1)) * (x^2 + 2*x + 4 + w) - (((v - w)/2)^(n - 1)) * (x^2 + 2*x + 4 - w)), where v = x^2 + 4*x + 4 and w = sqrt(x^4 + 4*x^3 + 12*x^2 + 20*x + 12).",
+  "id": "A386874",
+  "mentions": [
+    "A001353",
+    "A013730",
+    "A299989",
+    "A300192",
+    "A300453",
+    "A300454",
+    "A316659",
+    "A316989"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

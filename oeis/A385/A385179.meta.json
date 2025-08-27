@@ -1,0 +1,22 @@
+{
+  "description": "Primes p == 3 (mod 4) such that the multiplicative order of 2+-i modulo p in Gaussian integers (A385165) is congruent to 2 modulo 4.",
+  "id": "A385179",
+  "mentions": [
+    "A122869",
+    "A385165",
+    "A385167",
+    "A385168",
+    "A385169",
+    "A385188",
+    "A385218"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

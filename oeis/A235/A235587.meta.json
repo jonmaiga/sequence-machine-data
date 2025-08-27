@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..2 arrays with the difference of the upper median and minimum value of each 2X2 subblock in lexicographically nondecreasing order rowwise and columnwise",
+  "description": "Number of (n+1)X(4+1) 0..2 arrays with the difference of the upper median and minimum value of each 2X2 subblock in lexicographically nondecreasing order rowwise and columnwise.",
   "id": "A235587",
   "mentions": [
     "A235588"

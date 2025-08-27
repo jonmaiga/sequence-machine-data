@@ -1,0 +1,20 @@
+{
+  "description": "The number of unordered factorizations of the n-th cubefull number into 1 and prime powers p^e where p is prime and e >= 3 (A246549).",
+  "id": "A384785",
+  "mentions": [
+    "A008483",
+    "A036966",
+    "A246549",
+    "A384783",
+    "A384786"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,23 +1,18 @@
 {
-  "description": "Three-column table read by rows: row n is the unique primitive Pythagorean triple whose inradius is A000217(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "description": "a(n) = Sum_{k=0..n} (k+1) * 3^k * binomial(2*n+2,n-k).",
   "id": "A383832",
   "mentions": [
-    "A000217",
-    "A002061",
-    "A058919",
-    "A336535",
-    "A383833",
-    "A383834"
+    "A293490",
+    "A377011",
+    "A386942"
   ],
   "tags": [
-    "easy",
     "formulas",
-    "nonn",
-    "tabf"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 69,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "joeis"
   }
 }

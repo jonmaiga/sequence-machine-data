@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n-2} T(n,k) * T(n,k+2), with T given by A026703.",
+  "description": "a(n) = Sum_{k=1..n-2} T(n,k) * T(n,k+2), with T given by A026703.",
   "id": "A027254",
   "mentions": [
     "A026703"
@@ -8,7 +8,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 3,
     "size": 24,
     "source": "joeis"
   }

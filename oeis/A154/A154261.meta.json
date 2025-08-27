@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 9n^2-10n+3.",
+  "description": "Primes of the form 9*k^2-10*k+3.",
   "id": "A154261",
   "mentions": [
     "A154262",

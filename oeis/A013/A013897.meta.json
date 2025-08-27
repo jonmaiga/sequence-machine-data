@@ -2,9 +2,13 @@
   "description": "a(n) = 20^(5*n + 4).",
   "id": "A013897",
   "mentions": [
-    "A009964"
+    "A009964",
+    "A013825",
+    "A013857",
+    "A016897"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

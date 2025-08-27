@@ -1,0 +1,16 @@
+{
+  "description": "Indices of ascending runs in a random sequence in order of decreasing expected length.",
+  "id": "A386674",
+  "mentions": [
+    "A386673"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of subsets of {1..n} with k maximal anti-runs (increasing by more than 1).",
+  "id": "A384893",
+  "mentions": [
+    "A000071",
+    "A000079",
+    "A001629",
+    "A010027",
+    "A034839",
+    "A053538",
+    "A116674",
+    "A268193",
+    "A384175",
+    "A384176",
+    "A384177",
+    "A384877",
+    "A384878",
+    "A384879",
+    "A384889",
+    "A384890",
+    "A384905"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

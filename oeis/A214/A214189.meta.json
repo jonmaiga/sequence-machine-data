@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..6 colorings of a 2X(n+1) array circular in the n+1 direction with new values 0..6 introduced in row major order",
+  "description": "Number of 0..6 colorings of a 2X(n+1) array circular in the n+1 direction with new values 0..6 introduced in row major order.",
   "id": "A214189",
   "mentions": [
     "A214187"

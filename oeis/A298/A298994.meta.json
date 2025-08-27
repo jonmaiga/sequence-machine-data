@@ -2,6 +2,8 @@
   "description": "Expansion of Product_{n>=1} (1 + (4*x)^n)^(1/2).",
   "id": "A298994",
   "mentions": [
+    "A000009",
+    "A271235",
     "A298411",
     "A298993",
     "A303074",

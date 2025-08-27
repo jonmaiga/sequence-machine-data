@@ -2,7 +2,8 @@
   "description": "Coefficients associated with power series solution of g'(x) = g(x/2) e^x at x=0.",
   "id": "A305562",
   "mentions": [
-    "A006125"
+    "A006125",
+    "A386393"
   ],
   "tags": [
     "formulas",

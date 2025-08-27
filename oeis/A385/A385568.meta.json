@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Pi^(3/4).",
+  "id": "A385568",
+  "mentions": [
+    "A092040",
+    "A175476",
+    "A196535"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 110,
+    "source": "joeis"
+  }
+}

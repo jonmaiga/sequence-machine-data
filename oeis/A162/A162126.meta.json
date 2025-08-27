@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays with rows and columns, considered as graycode numbers, in strictly increasing order, and no more than 9 ones in any row or column",
+  "description": "Number of n X n binary arrays with rows and columns, considered as graycode numbers, in strictly increasing order, and no more than 9 ones in any row or column.",
   "id": "A162126",
   "mentions": [],
   "tags": [

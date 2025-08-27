@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Majority value maps: number of nXk binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, vertical and antidiagonal neighbors in a random 0..3 nXk array",
+  "description": "T(n,k)=Majority value maps: number of nXk binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, vertical and antidiagonal neighbors in a random 0..3 nXk array.",
   "id": "A220313",
   "mentions": [
     "A005251"

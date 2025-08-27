@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5-connected polyhedra (or 5-connected simple planar graphs) with n nodes",
+  "description": "Number of 5-connected polyhedra (or 5-connected simple planar graphs) with n nodes.",
   "id": "A361578",
   "mentions": [
     "A000944",

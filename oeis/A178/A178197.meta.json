@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that 36^k mod k = n",
+  "description": "Smallest k such that 36^k mod k = n.",
   "id": "A178197",
   "mentions": [
     "A036236",

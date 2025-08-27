@@ -1,5 +1,5 @@
 {
-  "description": "Sum of neighbor maps: number of nX5 binary arrays indicating the locations of corresponding elements equal to the sum mod 4 of their horizontal and antidiagonal neighbors in a random 0..3 nX5 array",
+  "description": "Sum of neighbor maps: number of nX5 binary arrays indicating the locations of corresponding elements equal to the sum mod 4 of their horizontal and antidiagonal neighbors in a random 0..3 nX5 array.",
   "id": "A222933",
   "mentions": [
     "A222935"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=p+q+(n mod 2)q with p>q and p, q, 6q-1, 6q+1 all prime",
+  "description": "Number of ways to write n=p+q+(n mod 2)q with p>q and p, q, 6q-1, 6q+1 all prime.",
   "id": "A220091",
   "mentions": [
     "A001359",

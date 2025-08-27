@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X6 0..2 arrays with the permanents of all 2X2 subblocks equal and nonzero",
+  "description": "Number of (n+1)X6 0..2 arrays with the permanents of all 2X2 subblocks equal and nonzero.",
   "id": "A204837",
   "mentions": [
     "A204840"

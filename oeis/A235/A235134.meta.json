@@ -1,10 +1,14 @@
 {
-  "description": "E.g.f. 1/(1 - sinh(2*x))^(1/2).",
+  "description": "Expansion of e.g.f. 1/(1 - sinh(2*x))^(1/2).",
   "id": "A235134",
   "mentions": [
+    "A001147",
     "A001586",
+    "A006154",
+    "A136630",
     "A235131",
-    "A235135"
+    "A235135",
+    "A380155"
   ],
   "tags": [
     "easy",

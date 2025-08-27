@@ -1,7 +1,9 @@
 {
-  "description": "DirichletBeta'[1].",
+  "description": "Decimal expansion of DirichletBeta'(1).",
   "id": "A078127",
   "mentions": [
+    "A000796",
+    "A001620",
     "A068465",
     "A068466"
   ],
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 101,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

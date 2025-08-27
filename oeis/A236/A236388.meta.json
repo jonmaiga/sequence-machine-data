@@ -1,5 +1,5 @@
 {
-  "description": "Primes in order of first appearance among the prime factors of p+1 where p is a prime",
+  "description": "Primes in order of first appearance among the prime factors of p+1 where p is a prime.",
   "id": "A236388",
   "mentions": [
     "A112037"

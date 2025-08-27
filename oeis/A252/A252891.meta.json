@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) is a partition number.",
+  "description": "Numbers m such that sigma(m) is a partition number.",
   "id": "A252891",
   "mentions": [
     "A000041",

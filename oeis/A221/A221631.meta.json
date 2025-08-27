@@ -1,5 +1,5 @@
 {
-  "description": "Equals one maps: number of nX4 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal, diagonal and antidiagonal neighbors in a random 0..3 nX4 array",
+  "description": "Equals one maps: number of nX4 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal, diagonal and antidiagonal neighbors in a random 0..3 nX4 array.",
   "id": "A221631",
   "mentions": [
     "A221632"

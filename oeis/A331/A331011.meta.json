@@ -2,7 +2,10 @@
   "description": "16 * squared area of triangles with integer sides i <= j <= k, such that more than one ordered triple of sides produces the same area.",
   "id": "A331011",
   "mentions": [
-    "A317182"
+    "A135622",
+    "A316853",
+    "A317182",
+    "A331012"
   ],
   "tags": [
     "nonn"

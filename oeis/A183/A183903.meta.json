@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of n+3 numbers in 0..8 with each number being the sum mod 9 of three others",
+  "description": "Number of nondecreasing arrangements of n+3 numbers in 0..8 with each number being the sum mod 9 of three others.",
   "id": "A183903",
   "mentions": [
     "A183904"

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(n, k) mod 7).",
+  "id": "A385826",
+  "mentions": [
+    "A001316",
+    "A051638",
+    "A095142",
+    "A384715",
+    "A385285",
+    "A385741",
+    "A385825"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

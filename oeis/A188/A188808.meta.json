@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element remaining in its original row or its original column",
+  "description": "T(n,k)=Number of nXk array permutations with each element remaining in its original row or its original column.",
   "id": "A188808",
   "mentions": [
     "A000142",

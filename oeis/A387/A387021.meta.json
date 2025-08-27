@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations (p(1),p(2),...,p(n)) of (1,2,...,n) such that p(i)-i is in {-2,0,7} for all i=1,...,n.",
+  "id": "A387021",
+  "mentions": [
+    "A000930",
+    "A006498",
+    "A080000",
+    "A224808",
+    "A224809",
+    "A224811",
+    "A387020"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

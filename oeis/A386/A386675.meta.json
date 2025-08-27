@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of numerators for rational convergents to Taylor series of 1/Gamma(x+1).",
+  "id": "A386675",
+  "mentions": [
+    "A386676"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

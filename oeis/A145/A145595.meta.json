@@ -1,16 +1,19 @@
 {
-  "description": "a(n)= 10^n!",
+  "description": "a(n) = 10^n!.",
   "id": "A145595",
   "mentions": [
-    "A000142"
+    "A000142",
+    "A011557",
+    "A012245"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 5,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

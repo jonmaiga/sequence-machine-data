@@ -1,0 +1,23 @@
+{
+  "description": "Place a point on the integer coordinates, up to |n|, along all four axial directions on a Cartesian plane, and then join an infinite straight line between every pair of points: a(n) is the number of finite edges created in the resulting graph.",
+  "id": "A386561",
+  "mentions": [
+    "A344896",
+    "A344899",
+    "A345650",
+    "A347751",
+    "A386559",
+    "A386560",
+    "A386562"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

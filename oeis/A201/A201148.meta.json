@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with every diagonal, row and column running average nondecreasing rightwards and downwards and diagonally",
+  "description": "Number of n X n 0..2 arrays with every diagonal, row and column running average nondecreasing rightwards and downwards and diagonally.",
   "id": "A201148",
   "mentions": [
     "A201155"

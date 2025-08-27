@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of anti-divisors of n is palindromic.",
+  "description": "Numbers k such that sum of anti-divisors of k is palindromic.",
   "id": "A274049",
   "mentions": [
     "A066417",

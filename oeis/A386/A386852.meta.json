@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between the pentagonal face and a triangular face in a pentagonal pyramid with equal edges (Johnson solid J_2).",
+  "id": "A386852",
+  "mentions": [
+    "A002163",
+    "A010476",
+    "A179552",
+    "A179553",
+    "A179590",
+    "A179591"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

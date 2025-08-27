@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest k>0 such that concatenation of n^k and 1 is prime, or 0 if no such number exists.",
+  "description": "a(n) is the smallest k>0 such that concatenation of n^k and 1 is prime, or 0 if no such number exists.",
   "id": "A088782",
   "mentions": [
     "A088622",

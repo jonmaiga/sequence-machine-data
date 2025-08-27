@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary matrices with no three 1's adjacent in a line diagonally or antidiagonally",
+  "description": "T(n,k)=Number of nXk binary matrices with no three 1's adjacent in a line diagonally or antidiagonally.",
   "id": "A181217",
   "mentions": [],
   "tags": [

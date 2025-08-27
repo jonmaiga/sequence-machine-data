@@ -1,0 +1,23 @@
+{
+  "description": "Number of trailing zeros in (10*n)^(10*n).",
+  "id": "A385978",
+  "mentions": [
+    "A007814",
+    "A011557",
+    "A027868",
+    "A112765",
+    "A122840",
+    "A356946"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

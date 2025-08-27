@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of non-blank symbols that an n-instruction Turing machine (allowing any number of states and symbols) can leave on an initially blank tape before eventually halting.",
+  "id": "A384766",
+  "mentions": [
+    "A028444",
+    "A384629"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,25 @@
 {
   "description": "Numbers that are palindromic and divisible by 5.",
   "id": "A043040",
-  "mentions": [],
+  "mentions": [
+    "A002113",
+    "A008587",
+    "A029951",
+    "A045638",
+    "A045639",
+    "A045641",
+    "A045642",
+    "A045643",
+    "A045644",
+    "A083852"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
-    "source": "joeis"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

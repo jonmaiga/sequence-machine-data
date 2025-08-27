@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of n numbers x(i) in -4..4 with sums of x(i) and of x(i)*x(i+1) both zero",
+  "description": "Number of strings of n numbers x(i) in -4..4 with sums of x(i) and of x(i)*x(i+1) both zero.",
   "id": "A183939",
   "mentions": [
     "A183944"

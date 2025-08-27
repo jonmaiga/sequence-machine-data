@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of log_10(1 + 1/4).",
+  "id": "A385853",
+  "mentions": [
+    "A007524",
+    "A104140",
+    "A153790",
+    "A154203",
+    "A154580",
+    "A385659",
+    "A385854",
+    "A385855"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X8 0..3 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements, and new values 0..3 introduced in row major order",
+  "description": "Number of (n+1) X 8 0..3 arrays with every 2 X 2 subblock having equal diagonal elements or equal antidiagonal elements, and new values 0..3 introduced in row major order.",
   "id": "A204571",
   "mentions": [
     "A204572"

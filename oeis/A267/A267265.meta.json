@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn arrays containing n copies of 0..4-1 with every element equal to or 1 greater than any north, northeast or northwest neighbors modulo 4 and the upper left element equal to 0.",
+  "description": "Number of 4 X n arrays containing n copies of 0..4-1 with every element equal to or 1 greater than any north, northeast or northwest neighbors modulo 4 and the upper left element equal to 0.",
   "id": "A267265",
   "mentions": [
     "A267264"

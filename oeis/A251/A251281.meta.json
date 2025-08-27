@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..3 arrays with no 2X2 subblock having its maximum diagonal element less than its minimum antidiagonal element",
+  "description": "Number of (n+1)X(6+1) 0..3 arrays with no 2X2 subblock having its maximum diagonal element less than its minimum antidiagonal element.",
   "id": "A251281",
   "mentions": [
     "A251283"

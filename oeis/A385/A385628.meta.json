@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors d of n with an even number of primes not exceeding d.",
+  "id": "A385628",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A131377",
+    "A345220",
+    "A385625"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

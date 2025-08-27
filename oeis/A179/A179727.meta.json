@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the sequence of sums of 5 adjacent elements having exactly 4 maxima",
+  "description": "Number of permutations of 1..n with the sequence of sums of 5 adjacent elements having exactly 4 maxima.",
   "id": "A179727",
   "mentions": [],
   "tags": [

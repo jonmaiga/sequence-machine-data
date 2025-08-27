@@ -1,14 +1,17 @@
 {
   "description": "Floor of sum of the first 10^n square roots.",
   "id": "A137262",
-  "mentions": [],
+  "mentions": [
+    "A025224",
+    "A195284"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

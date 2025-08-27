@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX7 binary arrays with every element equal to exactly one or two of its horizontal and vertical neighbors",
+  "description": "Half the number of nX7 binary arrays with every element equal to exactly one or two of its horizontal and vertical neighbors.",
   "id": "A185833",
   "mentions": [
     "A185835"

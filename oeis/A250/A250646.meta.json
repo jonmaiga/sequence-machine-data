@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+1 0..k arrays with the sum of the maximum of each adjacent pair multiplied by some arrangement of +-1 equal to zero",
+  "description": "T(n,k)=Number of length n+1 0..k arrays with the sum of the maximum of each adjacent pair multiplied by some arrangement of +-1 equal to zero.",
   "id": "A250646",
   "mentions": [
     "A084990",

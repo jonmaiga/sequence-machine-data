@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the absolute value of zeta(1/4).",
+  "id": "A386590",
+  "mentions": [
+    "A011006",
+    "A251734",
+    "A385423"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

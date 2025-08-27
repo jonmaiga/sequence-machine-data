@@ -1,0 +1,17 @@
+{
+  "description": "Period 8: repeat [1, 3, 7, 2, 6, 5, 4, 8].",
+  "id": "A385634",
+  "mentions": [
+    "A385491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

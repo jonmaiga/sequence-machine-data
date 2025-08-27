@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(reversal(n)) = reversal(prime(n)). Ignore leading 0's.",
+  "description": "Numbers k such that prime(reversal(k)) = reversal(prime(k)). Ignore leading 0's.",
   "id": "A069469",
   "mentions": [
     "A000040",

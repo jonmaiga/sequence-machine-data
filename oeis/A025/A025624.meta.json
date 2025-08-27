@@ -2,7 +2,9 @@
   "description": "Numbers of form 5^i*9^j, with i, j >= 0.",
   "id": "A025624",
   "mentions": [
-    "A003593"
+    "A003593",
+    "A025654",
+    "A025679"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n*10^x+n+1, where 0 < n < 9, x=0,1,2..",
+  "description": "Primes of the form k*10^x + k + 1, where 0 < k < 9, x=0,1,2..",
   "id": "A108816",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

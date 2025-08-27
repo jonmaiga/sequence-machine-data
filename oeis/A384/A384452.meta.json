@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of squares of the unitary divisors of n!.",
+  "id": "A384452",
+  "mentions": [
+    "A000142",
+    "A034676",
+    "A064028",
+    "A077610"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

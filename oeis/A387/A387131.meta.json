@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the real part of the complex solutions to log(z) = -1/z on the principal branch of log(z).",
+  "id": "A387131",
+  "mentions": [
+    "A030797",
+    "A059526",
+    "A059527",
+    "A387132"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

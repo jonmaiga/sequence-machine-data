@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nXnXn triangular binary arrays with every element having a neighboring 1-count differing from its neighboring 0-count by two or less",
+  "description": "Half the number of nXnXn triangular binary arrays with every element having a neighboring 1-count differing from its neighboring 0-count by two or less.",
   "id": "A183274",
   "mentions": [],
   "tags": [

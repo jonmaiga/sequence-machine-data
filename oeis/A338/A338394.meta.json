@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 8 consecutive primes starting with p are congruent mod 13 to {1,2,3,4,5,6,7,8} respectively",
+  "description": "Primes p such that 8 consecutive primes starting with p are congruent mod 13 to {1,2,3,4,5,6,7,8} respectively.",
   "id": "A338394",
   "mentions": [
     "A206333"

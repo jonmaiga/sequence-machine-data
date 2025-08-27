@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that (-1)^Omega(k)*Moebius(espf(k)) < 0, where Moebius = A008683 and Omega = A001221, and espf(k) is the exponent of the smallest prime factor of k, with espf(1) = 1.",
+  "id": "A385096",
+  "mentions": [
+    "A001221",
+    "A008683",
+    "A067029",
+    "A383264",
+    "A384709",
+    "A385055",
+    "A385095"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest composite c such that n^(c-1) =/= 1 (mod c^2), i.e., smallest composite c that is not a \"Wieferich pseudoprime\" to base n.",
+  "description": "Smallest composite c such that n^(c-1) != 1 (mod c^2), i.e., smallest composite c that is not a \"Wieferich pseudoprime\" to base n.",
   "id": "A273339",
   "mentions": [
     "A240719",

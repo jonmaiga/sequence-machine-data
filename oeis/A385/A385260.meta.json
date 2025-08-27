@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of a gyroelongated pentagonal bicupola with unit edge.",
+  "id": "A385260",
+  "mentions": [
+    "A002163",
+    "A384283",
+    "A385256",
+    "A385258",
+    "A385261"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

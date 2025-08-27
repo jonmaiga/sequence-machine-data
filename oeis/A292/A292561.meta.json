@@ -10,11 +10,12 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 76,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

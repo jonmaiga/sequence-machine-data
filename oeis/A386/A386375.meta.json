@@ -1,0 +1,21 @@
+{
+  "description": "Number of words of length n over an infinite alphabet such that the letters cover an initial interval and the letter 1 occurs more frequently than any other letter.",
+  "id": "A386375",
+  "mentions": [
+    "A000262",
+    "A000670",
+    "A006153",
+    "A308876",
+    "A386374"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

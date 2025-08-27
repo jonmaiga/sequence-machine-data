@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the denominator of A(n,k), such that A(n,k) satisfies the identity for sums of odd powers: Sum_{k=1..p} k^(2n-1) = 1/(2*n) * Sum_{k=0..n-1} A(n,k) * (p^2+p)^(n-k), for all integers p >= 1.",
+  "id": "A386728",
+  "mentions": [
+    "A093556",
+    "A093557",
+    "A093558",
+    "A093559",
+    "A303675",
+    "A304330",
+    "A304334",
+    "A304336",
+    "A335951",
+    "A335952",
+    "A385567"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

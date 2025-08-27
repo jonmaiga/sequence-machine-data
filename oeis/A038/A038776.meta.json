@@ -2,6 +2,7 @@
   "description": "The sequence a[1] to a[ cat[n] ] is the permutation that converts forest[n] of depth-first planar planted binary trees into breadth-first representation.",
   "id": "A038776",
   "mentions": [
+    "A014486",
     "A038774",
     "A038775",
     "A057117",

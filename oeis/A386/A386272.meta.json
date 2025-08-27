@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1 - 49*x)^(3/7).",
+  "id": "A386272",
+  "mentions": [
+    "A034835",
+    "A049381",
+    "A216702",
+    "A216703",
+    "A386271",
+    "A386273",
+    "A386274"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

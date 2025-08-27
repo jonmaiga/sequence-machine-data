@@ -2,7 +2,8 @@
   "description": "Nonsquares mod 62.",
   "id": "A028775",
   "mentions": [
-    "A010423"
+    "A010423",
+    "A028744"
   ],
   "tags": [
     "easy",

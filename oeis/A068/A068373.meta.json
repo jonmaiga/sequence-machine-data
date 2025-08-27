@@ -1,8 +1,10 @@
 {
-  "description": "Squares n such that positive values of n-A002110(k) are all primes (k>0).",
+  "description": "Squares m such that the positive values of m - A002110(k) are all primes (k > 0).",
   "id": "A068373",
   "mentions": [
-    "A002110"
+    "A000290",
+    "A002110",
+    "A068372"
   ],
   "tags": [
     "more",

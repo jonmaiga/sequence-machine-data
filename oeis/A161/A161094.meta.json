@@ -1,8 +1,9 @@
 {
-  "description": "Number of partitions of n into squares where every part appears at least 6 times",
+  "description": "Number of partitions of n into squares where every part appears at least 6 times.",
   "id": "A161094",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

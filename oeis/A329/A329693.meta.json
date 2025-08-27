@@ -1,5 +1,5 @@
 {
-  "description": "Number of excursions of length n with Motzkin-steps avoiding the consecutive steps UH, HH, HD and DU",
+  "description": "Number of excursions of length n with Motzkin-steps avoiding the consecutive steps UH, HH, HD and DU.",
   "id": "A329693",
   "mentions": [
     "A329691",

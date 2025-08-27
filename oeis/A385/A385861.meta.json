@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n yesnograms that can be solved uniquely.",
+  "id": "A385861",
+  "mentions": [
+    "A242876",
+    "A383345",
+    "A384764",
+    "A385862"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

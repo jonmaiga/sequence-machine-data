@@ -1,5 +1,5 @@
 {
-  "description": "Number of (6+2)X(n+2) 0..1 arrays with every 3X3 subblock sum of the two medians of the central row and column minus the sum of the minimums of the diagonal and antidiagonal nondecreasing horizontally, vertically and ne-to-sw antidiagonally",
+  "description": "Number of (6+2)X(n+2) 0..1 arrays with every 3X3 subblock sum of the two medians of the central row and column minus the sum of the minimums of the diagonal and antidiagonal nondecreasing horizontally, vertically and ne-to-sw antidiagonally.",
   "id": "A257159",
   "mentions": [
     "A257154"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..n arrays x(0..6) of 7 elements with zero 5th differences",
+  "description": "Number of 0..n arrays x(0..6) of 7 elements with zero 5th differences.",
   "id": "A200085",
   "mentions": [
     "A200082"

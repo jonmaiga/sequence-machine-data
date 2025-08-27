@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that lambda(sum of divisors of n that are congruent to 0 mod 3) = lambda(sum of divisors of n that are congruent to 1 mod 3) = lambda(sum of divisors of n that are congruent to 2 mod 3) where lambda is the Carmichael function (A002322).",
+  "description": "Numbers k such that lambda(sum of divisors of k that are congruent to 0 mod 3) = lambda(sum of divisors of k that are congruent to 1 mod 3) = lambda(sum of divisors of k that are congruent to 2 mod 3) where lambda is the Carmichael function (A002322).",
   "id": "A257484",
   "mentions": [
     "A002322",

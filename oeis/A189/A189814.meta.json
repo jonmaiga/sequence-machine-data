@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of right triangles on a (n+1)X(k+1) grid",
+  "description": "T(n,k)=Number of right triangles on a (n+1)X(k+1) grid.",
   "id": "A189814",
   "mentions": [
     "A077435",

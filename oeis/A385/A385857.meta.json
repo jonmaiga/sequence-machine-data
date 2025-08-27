@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a metabidiminished icosahedron with unit edge.",
+  "id": "A385857",
+  "mentions": [
+    "A010476",
+    "A102208",
+    "A179552",
+    "A384625",
+    "A386000",
+    "A386002"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

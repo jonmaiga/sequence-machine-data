@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both (n!)^2 + n! + 1 and (n!)^2 + 1 are prime.",
+  "description": "Numbers k such that both (k!)^2 + k! + 1 and (k!)^2 + 1 are prime.",
   "id": "A142959",
   "mentions": [
     "A046029",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

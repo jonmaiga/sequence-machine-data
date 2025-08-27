@@ -1,14 +1,16 @@
 {
-  "description": "Triangle read by rows, T(n,k) = Sum_{j=0..n} C(-j-1,-n-1)*L(j,k), L the unsigned Lah numbers A271703, for n>=0 and 0<=k<=n.",
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=0..n} C(-j-1, -n-1)*L(j, k), L the unsigned Lah numbers A271703, for n >= 0 and 0 <= k <= n.",
   "id": "A271706",
   "mentions": [
     "A000240",
     "A000274",
     "A052845",
     "A067998",
-    "A271703"
+    "A271703",
+    "A271705"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],

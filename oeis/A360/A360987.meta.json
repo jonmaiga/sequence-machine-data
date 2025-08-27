@@ -1,8 +1,10 @@
 {
-  "description": "E.g.f. satisfies A(x) = exp(x * A(-x)^2).",
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x * A(-x)^2).",
   "id": "A360987",
   "mentions": [
+    "A052750",
     "A141369",
+    "A168600",
     "A196198",
     "A360988",
     "A360989",

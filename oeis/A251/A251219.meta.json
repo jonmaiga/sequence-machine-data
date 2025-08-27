@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with no 2X2 subblock having zero or two 1s",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with no 2X2 subblock having zero or two 1s.",
   "id": "A251219",
   "mentions": [],
   "tags": [

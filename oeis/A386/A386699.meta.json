@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^(n-k) * binomial(5*n,k).",
+  "id": "A386699",
+  "mentions": [
+    "A000244",
+    "A002294",
+    "A100192",
+    "A163455",
+    "A371739",
+    "A385004",
+    "A385498",
+    "A386702"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

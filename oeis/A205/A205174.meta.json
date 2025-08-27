@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X2 0..3 arrays with the permanents of 2X2 subblocks nondecreasing rightwards and downwards",
+  "description": "Number of (n+1)X2 0..3 arrays with the permanents of 2X2 subblocks nondecreasing rightwards and downwards.",
   "id": "A205174",
   "mentions": [
     "A205181"

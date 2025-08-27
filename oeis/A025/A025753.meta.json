@@ -2,7 +2,8 @@
   "description": "8th-order Patalan numbers (generalization of Catalan numbers).",
   "id": "A025753",
   "mentions": [
-    "A034975"
+    "A034975",
+    "A203146"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

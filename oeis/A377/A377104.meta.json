@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. A(x) satisfies [x^n] A(x)^A003057(n) = 0 for n >= 2, where A003057 is \"n appears n-1 times.\"",
+  "description": "E.g.f. A(x) satisfies [x^n] A(x)^A003057(n) = 0 for n >= 2, where A003057 is \"n appears n-1 times.\".",
   "id": "A377104",
   "mentions": [
     "A003057"

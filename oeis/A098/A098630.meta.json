@@ -1,5 +1,5 @@
 {
-  "description": "Consider the family of directed multigraphs enriched by the species of parts. Sequence gives number of those multigraphs with n labeled loops and arcs",
+  "description": "Consider the family of directed multigraphs enriched by the species of parts. Sequence gives number of those multigraphs with n labeled loops and arcs.",
   "id": "A098630",
   "mentions": [
     "A000079",

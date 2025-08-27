@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 2p - 1, 3p - 2, (p + 1)/2, and (p + 2)/3 are also prime.",
+  "id": "A386540",
+  "mentions": [
+    "A036570",
+    "A174734"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers without an exponent 5 in their prime factorization.",
+  "id": "A386807",
+  "mentions": [
+    "A001694",
+    "A166718",
+    "A337050",
+    "A373868",
+    "A386799",
+    "A386803",
+    "A386808",
+    "A386809",
+    "A386810"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

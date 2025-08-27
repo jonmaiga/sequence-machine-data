@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the volume of a sphenocorona with unit edges.",
+  "id": "A386739",
+  "mentions": [
+    "A010482",
+    "A010507",
+    "A020775",
+    "A115754",
+    "A178809",
+    "A386740",
+    "A386741"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

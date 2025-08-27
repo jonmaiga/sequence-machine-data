@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that i^(k-i) has digit sum k for at least one i, 1 <= i <= k.",
+  "id": "A385353",
+  "mentions": [
+    "A007953"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

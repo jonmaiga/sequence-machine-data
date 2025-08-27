@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n+2)*(a(n-1) - a(n-2)).",
+  "description": "a(n) = (n+2)*(a(n-1) - a(n-2)), starting with a(-1)=0 and a(0)=1.",
   "id": "A051403",
   "mentions": [
     "A003422"

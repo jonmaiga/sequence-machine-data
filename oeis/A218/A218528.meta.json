@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..3 7Xn array",
+  "description": "Number of 7Xn arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..3 7Xn array.",
   "id": "A218528",
   "mentions": [
     "A218522"

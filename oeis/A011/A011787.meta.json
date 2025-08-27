@@ -2,6 +2,7 @@
   "description": "Number of n X n matrices over Z_4 whose determinant is 1.",
   "id": "A011787",
   "mentions": [
+    "A048651",
     "A065128"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "joeis"
   }
 }

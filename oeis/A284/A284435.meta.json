@@ -1,16 +1,19 @@
 {
-  "description": "The number of positive integer sequences of length n with no duplicate substrings (forward or backward) and a minimal product (i.e., the product of the sequence is A282193(n)).",
+  "description": "The number of positive integer sequences of length n with no duplicate substrings (forward or backward) of length greater than 1 and a minimal product (= A282193(n)).",
   "id": "A284435",
   "mentions": [
-    "A282193"
+    "A282193",
+    "A283557",
+    "A284432",
+    "A284434",
+    "A284436"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

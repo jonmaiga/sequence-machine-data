@@ -1,0 +1,20 @@
+{
+  "description": "The total number of big descents in all parking functions of length n.",
+  "id": "A386860",
+  "mentions": [
+    "A000272",
+    "A333829",
+    "A386015",
+    "A386861"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

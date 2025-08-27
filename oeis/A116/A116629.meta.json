@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that 13^n == 3 (mod n).",
+  "description": "Positive integers k such that 13^k == 3 (mod k).",
   "id": "A116629",
   "mentions": [
     "A001022",
@@ -23,6 +23,7 @@
     "A295532"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

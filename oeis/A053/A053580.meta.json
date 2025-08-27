@@ -1,5 +1,5 @@
 {
-  "description": "Primes whose digits contain circles.",
+  "description": "Primes having only {0, 6, 8, 9} as digits.",
   "id": "A053580",
   "mentions": [
     "A000040",
@@ -7,7 +7,6 @@
   ],
   "tags": [
     "base",
-    "less",
     "nonn"
   ],
   "terms": {

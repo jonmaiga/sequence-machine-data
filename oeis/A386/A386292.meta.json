@@ -1,0 +1,18 @@
+{
+  "description": "The maximum possible number of 9-cycles in an outerplanar graph on n vertices.",
+  "id": "A386292",
+  "mentions": [
+    "A385869",
+    "A386226"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 53,
+    "source": "joeis"
+  }
+}

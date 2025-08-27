@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (largest digit of n)^(smallest digit of n) + n is a square.",
+  "description": "Numbers k such that (largest digit of k)^(smallest digit of k) + k is a square.",
   "id": "A096913",
   "mentions": [
     "A054054",

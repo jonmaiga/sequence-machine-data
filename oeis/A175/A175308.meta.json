@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (Sum_{i=0..n} F(i)^2) / (n+1) is an integer, where F(i) i-th Fibonacci number.",
+  "description": "Numbers k such that (Sum_{i=0..k} F(i)^2) / (k+1) is an integer, where F(i) is the i-th Fibonacci number.",
   "id": "A175308",
   "mentions": [
     "A000045",

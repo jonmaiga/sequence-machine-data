@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of n-step walks on the square lattice having algebraic area k; n >= 0, 0 <= k <= floor(n^2/4).",
+  "id": "A385672",
+  "mentions": [
+    "A002620",
+    "A029552",
+    "A033638",
+    "A098613",
+    "A352838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

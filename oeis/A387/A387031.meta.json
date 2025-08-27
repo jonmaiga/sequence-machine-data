@@ -1,0 +1,16 @@
+{
+  "description": "All integers k that can produce a closed walk in an equilateral triangular lattice via noncongruent primitive k-length diagonals, in ascending order.",
+  "id": "A387031",
+  "mentions": [
+    "A002476",
+    "A386671"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

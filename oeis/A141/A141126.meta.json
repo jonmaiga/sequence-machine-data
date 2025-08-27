@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1)=a(n)-n^2 if positive and new, else a(n+1)=a(n)+n^2; a(0)=1.",
+  "description": "a(n+1) = a(n)-n^2 if positive and new, else a(n+1) = a(n)+n^2; a(0)=1.",
   "id": "A141126",
   "mentions": [
     "A063733"

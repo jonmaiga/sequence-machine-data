@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with a record number of unordered factorizations into 1 and prime powers p^e where p is prime and e >= 2 (A025475).",
+  "id": "A384784",
+  "mentions": [
+    "A001694",
+    "A025475",
+    "A025487",
+    "A046055",
+    "A181800",
+    "A188585",
+    "A384783",
+    "A384786"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

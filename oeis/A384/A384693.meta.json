@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of lattice points (r,s) such that 0",
+  "id": "A384693",
+  "mentions": [
+    "A033996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

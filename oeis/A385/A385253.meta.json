@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the function AiryAi(x) at x=1.",
+  "id": "A385253",
+  "mentions": [
+    "A014402",
+    "A176730",
+    "A269893",
+    "A284867",
+    "A284868"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

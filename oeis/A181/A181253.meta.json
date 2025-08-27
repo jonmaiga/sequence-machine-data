@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary matrices with no 2X2 block having four 1's",
+  "description": "T(n,k)=Number of nXk binary matrices with no 2X2 block having four 1's.",
   "id": "A181253",
   "mentions": [
     "A125145",

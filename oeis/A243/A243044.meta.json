@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+3 0..k arrays with no four elements in a row with pattern abab (with a!=b) and new values 0..k introduced in 0..k order",
+  "description": "T(n,k)=Number of length n+3 0..k arrays with no four elements in a row with pattern abab (with a!=b) and new values 0..k introduced in 0..k order.",
   "id": "A243044",
   "mentions": [
     "A000073"

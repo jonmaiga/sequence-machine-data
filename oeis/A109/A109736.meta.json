@@ -2,6 +2,7 @@
   "description": "Where n appears in A109890.",
   "id": "A109736",
   "mentions": [
+    "A094339",
     "A094341",
     "A095259",
     "A109890"

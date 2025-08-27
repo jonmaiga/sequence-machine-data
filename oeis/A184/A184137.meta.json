@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with rows and columns in nondecreasing order",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with rows and columns in nondecreasing order.",
   "id": "A184137",
   "mentions": [
     "A000217",

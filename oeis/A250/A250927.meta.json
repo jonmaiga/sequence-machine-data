@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with no 2X2 subblock having its minimum diagonal element less than its minimum antidiagonal element",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with no 2X2 subblock having its minimum diagonal element less than its minimum antidiagonal element.",
   "id": "A250927",
   "mentions": [],
   "tags": [

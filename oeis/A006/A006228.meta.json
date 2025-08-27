@@ -1,12 +1,13 @@
 {
-  "description": "Expansion of exp(arcsin(x)).",
+  "description": "Expansion of e.g.f. exp(arcsin(x)).",
   "id": "A006228",
   "mentions": [
     "A002019",
     "A101927",
     "A101928",
     "A166741",
-    "A166748"
+    "A166748",
+    "A385343"
   ],
   "tags": [
     "formulas",

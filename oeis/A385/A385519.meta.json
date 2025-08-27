@@ -1,0 +1,17 @@
+{
+  "description": "Primes p that divide both 2^k + 3 and 3^k + 2 for some k.",
+  "id": "A385519",
+  "mentions": [
+    "A196627"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

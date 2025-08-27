@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX3 binary arrays with the number of 1-1 horizontal, vertical, diagonal and antidiagonal adjacencies equal to the number of 0-0 adjacencies",
+  "description": "Half the number of nX3 binary arrays with the number of 1-1 horizontal, vertical, diagonal and antidiagonal adjacencies equal to the number of 0-0 adjacencies.",
   "id": "A183284",
   "mentions": [
     "A183289"

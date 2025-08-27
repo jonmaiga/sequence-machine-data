@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n sequences p(i=0..n-1) with 0<=p(i)<=i and having exactly 4 maxima",
+  "description": "Number of length n sequences p(i=0..n-1) with 0<=p(i)<=i and having exactly 4 maxima.",
   "id": "A181228",
   "mentions": [
     "A181229"

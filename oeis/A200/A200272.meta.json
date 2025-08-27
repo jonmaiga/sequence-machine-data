@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) is the number of 0..k arrays x(0..n+1) of n+2 elements with zero n-1st differences",
+  "description": "T(n,k) is the number of 0..k arrays x(0..n+1) of n+2 elements with zero n-1st differences.",
   "id": "A200272",
   "mentions": [
     "A008811"

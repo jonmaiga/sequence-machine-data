@@ -1,5 +1,5 @@
 {
-  "description": "Number of zero-sum nX2 -1..1 arrays with every element unequal to at most two horizontal and vertical neighbors",
+  "description": "Number of zero-sum nX2 -1..1 arrays with every element unequal to at most two horizontal and vertical neighbors.",
   "id": "A202041",
   "mentions": [
     "A202047"

@@ -1,0 +1,22 @@
+{
+  "description": "Number of words of length n over an infinite alphabet such that for any letter k appearing within a word the letter k appears at least k times.",
+  "id": "A386254",
+  "mentions": [
+    "A002999",
+    "A005183",
+    "A007837",
+    "A032299",
+    "A347006",
+    "A386255"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

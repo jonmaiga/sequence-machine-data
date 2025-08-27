@@ -2,7 +2,9 @@
   "description": "Numbers of form 7^i*8^j with i, j >= 0, sorted.",
   "id": "A036566",
   "mentions": [
-    "A003591"
+    "A003591",
+    "A025669",
+    "A025675"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of regions in regular n-gon which are pentagons.",
+  "description": "Number of pentagonal regions in regular n-gon with all diagonals drawn.",
   "id": "A067152",
   "mentions": [
     "A007678",

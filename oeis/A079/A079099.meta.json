@@ -2,15 +2,17 @@
   "description": "Number of 0's in n primorial or 0's in A002110(n).",
   "id": "A079099",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A067175"
   ],
   "tags": [
+    "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 86,
-    "source": "joeis"
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

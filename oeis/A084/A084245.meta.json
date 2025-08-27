@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Mod[n+(Mod[Prime[n],7]-3),10]",
+  "description": "a(n) = (n + (prime(n) mod 7) - 3) mod 10.",
   "id": "A084245",
   "mentions": [],
   "tags": [

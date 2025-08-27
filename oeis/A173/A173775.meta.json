@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place 5 nonattacking queens on an n X n toroidal board",
+  "description": "Number of ways to place 5 nonattacking queens on an n X n toroidal board.",
   "id": "A173775",
   "mentions": [
     "A007705",

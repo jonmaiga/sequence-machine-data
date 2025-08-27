@@ -1,16 +1,16 @@
 {
-  "description": "Numbers n such that positive values of n-A002110(k) are all primes (k>0).",
+  "description": "Numbers m such that the positive values of m - A002110(k) are all primes (k > 0).",
   "id": "A068372",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A068373"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
-    "source": "joeis"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

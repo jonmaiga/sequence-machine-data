@@ -1,7 +1,10 @@
 {
   "description": "Number of partitions of n into squares where every part appears at least 2 times.",
   "id": "A161090",
-  "mentions": [],
+  "mentions": [
+    "A001156",
+    "A103265"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

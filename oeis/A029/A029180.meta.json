@@ -1,9 +1,12 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^4)(1-x^6)(1-x^11)).",
+  "description": "Expansion of 1/((1-x^2)*(1-x^4)*(1-x^6)*(1-x^11)).",
   "id": "A029180",
-  "mentions": [],
+  "mentions": [
+    "A029005"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

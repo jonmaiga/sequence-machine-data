@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 binary arrays with an element zero only if there are an even number of ones to its left and an even number of ones above it",
+  "description": "Number of n X 7 binary arrays with an element zero only if there are an even number of ones to its left and an even number of ones above it.",
   "id": "A183319",
   "mentions": [
     "A183322"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

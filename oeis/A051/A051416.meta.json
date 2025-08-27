@@ -1,5 +1,5 @@
 {
-  "description": "Primes whose digits are composite.",
+  "description": "Primes whose digits are composite; primes having only {4, 6, 8, 9} as digits.",
   "id": "A051416",
   "mentions": [
     "A019546",
@@ -12,7 +12,6 @@
   "tags": [
     "base",
     "easy",
-    "less",
     "nonn"
   ],
   "terms": {

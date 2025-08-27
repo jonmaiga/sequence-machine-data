@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) = pi(n) + 2.",
+  "description": "Numbers k such that phi(k) = pi(k) + 2.",
   "id": "A073457",
   "mentions": [
     "A000010",
@@ -11,7 +11,6 @@
   ],
   "tags": [
     "fini",
-    "formulas",
     "full",
     "nonn"
   ],

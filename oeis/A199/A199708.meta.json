@@ -1,5 +1,5 @@
 {
-  "description": "Number of -n..n arrays x(0..5) of 6 elements with zero sum and no two neighbors equal",
+  "description": "Number of -n..n arrays x(0..5) of 6 elements with zero sum and no two neighbors equal.",
   "id": "A199708",
   "mentions": [
     "A199704"

@@ -2,16 +2,22 @@
   "description": "Number of real n X n symmetric (+1,-1) matrices with negative permanent.",
   "id": "A118999",
   "mentions": [
+    "A118988",
+    "A118993",
+    "A118994",
     "A118995",
-    "A118997"
+    "A118997",
+    "A119001",
+    "A119010"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Number of partitions (p, q, r) of n into positive integers such that p + 11*q + 13*r is a perfect square.",
+  "id": "A386235",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

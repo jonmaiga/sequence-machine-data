@@ -1,11 +1,10 @@
 {
-  "description": "An asymptotic prime formula derived from a vibrational Hilbert space model for the zeta zeros.",
+  "description": "Primes of the form abs(floor(k*log(k)-sqrt(k*(k+2*Pi)/Pi))).",
   "id": "A093999",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,

@@ -2,7 +2,8 @@
   "description": "Decimal expansion of 1/896.",
   "id": "A021900",
   "mentions": [
-    "A020806"
+    "A020806",
+    "A021200"
   ],
   "tags": [
     "cons",

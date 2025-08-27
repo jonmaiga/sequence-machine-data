@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that (1/m) * Sum_{k=1..m} phi(k)/k is closer to 6/Pi^2 than it is for any number smaller than m, where phi is the Euler totient function (A000010).",
+  "id": "A385561",
+  "mentions": [
+    "A000010",
+    "A059956",
+    "A071708",
+    "A072155",
+    "A330899",
+    "A385562"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

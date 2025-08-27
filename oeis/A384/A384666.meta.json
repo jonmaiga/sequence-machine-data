@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct values of the quadratic discriminant D=b^2-4*a*c, for a,b,c in the range [-n,n].",
+  "id": "A384666",
+  "mentions": [
+    "A000217",
+    "A027384"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 arrays with each row a permutation of 1..5 having at least as many downsteps as the preceding row, with rows in lexicographically nonincreasing order",
+  "description": "Number of nX5 arrays with each row a permutation of 1..5 having at least as many downsteps as the preceding row, with rows in lexicographically nonincreasing order.",
   "id": "A222003",
   "mentions": [
     "A222005"

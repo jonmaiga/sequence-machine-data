@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1; for n>1, a(n) = least integer > a(n-1) such that a(n)^2-a(n-1)^2 = semiprime",
+  "description": "a(1)=1; for n>1, a(n) = least integer > a(n-1) such that a(n)^2-a(n-1)^2 = semiprime.",
   "id": "A144062",
   "mentions": [
     "A001358"

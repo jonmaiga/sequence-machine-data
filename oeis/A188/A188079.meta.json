@@ -1,5 +1,5 @@
 {
-  "description": "[nr]-[kr]-[nr-kr], where r=sqrt(3), k=6, [ ]=floor.",
+  "description": "a(n) = [n*r]-[k*r]-[n*r-k*r], where r=sqrt(3), k=6, [ ]=floor.",
   "id": "A188079",
   "mentions": [
     "A188014",

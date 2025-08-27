@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays x(0..n-1) of n elements with nondecreasing average value",
+  "description": "T(n,k)=Number of 0..k arrays x(0..n-1) of n elements with nondecreasing average value.",
   "id": "A200763",
   "mentions": [
     "A000217",

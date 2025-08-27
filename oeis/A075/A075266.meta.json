@@ -8,12 +8,13 @@
     "A262235"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
+    "offset": 0,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

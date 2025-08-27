@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (zeta(k)-1)/(k+2).",
+  "id": "A386712",
+  "mentions": [
+    "A001620",
+    "A061444",
+    "A074962",
+    "A153810",
+    "A225746",
+    "A386711"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

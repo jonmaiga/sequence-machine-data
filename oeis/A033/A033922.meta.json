@@ -2,12 +2,17 @@
   "description": "Base-2 digital convolution sequence.",
   "id": "A033922",
   "mentions": [
+    "A000120",
     "A014221",
     "A033639",
-    "A206774"
+    "A048793",
+    "A133457",
+    "A206774",
+    "A348296"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

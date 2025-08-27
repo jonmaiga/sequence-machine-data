@@ -1,0 +1,17 @@
+{
+  "description": "Apery primes: primes formed from the concatenation of the initial decimal digits of Apery's constant zeta(3).",
+  "id": "A119333",
+  "mentions": [
+    "A002117",
+    "A119334"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

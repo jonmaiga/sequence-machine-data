@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..2 arrays with the upper median equal to the lower median in every 2X2 subblock",
+  "description": "Number of (n+1)X(2+1) 0..2 arrays with the upper median equal to the lower median in every 2X2 subblock.",
   "id": "A235975",
   "mentions": [
     "A235981"

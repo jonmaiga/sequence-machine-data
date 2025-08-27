@@ -1,5 +1,5 @@
 {
-  "description": "A leading coefficient adjusted symmetrical triangle of polynomial coefficients based on:p(x,n)=Sum[k!*Binomial[x, k], {k, 0, n}]",
+  "description": "A leading coefficient adjusted symmetrical triangle of polynomial coefficients based on:p(x,n)=Sum[k!*Binomial[x, k], {k, 0, n}].",
   "id": "A176664",
   "mentions": [],
   "tags": [

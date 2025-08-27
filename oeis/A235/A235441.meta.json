@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with 2X2 subblock sums lexicographically nondecreasing rowwise and nonincreasing columnwise",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with 2X2 subblock sums lexicographically nondecreasing rowwise and nonincreasing columnwise.",
   "id": "A235441",
   "mentions": [
     "A204223"

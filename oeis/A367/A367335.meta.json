@@ -1,5 +1,5 @@
 {
-  "description": "Table read by rows: row n is the only primitive Pythagorean triple whose inradius is the n-th odd prime and whose short leg is an even number.",
+  "description": "Long leg of the only primitive Pythagorean triple whose inradius is the n-th odd prime and whose short leg is an even number.",
   "id": "A367335",
   "mentions": [
     "A065091",
@@ -8,12 +8,11 @@
   "tags": [
     "easy",
     "formulas",
-    "nonn",
-    "tabf"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "joeis"
   }
 }

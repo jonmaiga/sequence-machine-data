@@ -2,6 +2,7 @@
   "description": "Intersection of A089633 and A188531.",
   "id": "A188533",
   "mentions": [
+    "A001511",
     "A089633",
     "A188341",
     "A188499",
@@ -11,12 +12,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(n, k) mod 8).",
+  "id": "A385285",
+  "mentions": [
+    "A001316",
+    "A034930",
+    "A384715"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

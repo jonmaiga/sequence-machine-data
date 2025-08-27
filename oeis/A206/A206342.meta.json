@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X8 0..3 arrays with every 2X2 subblock having nonzero determinant and commuting with every horizontal or vertical neighbor",
+  "description": "Number of (n+1)X8 0..3 arrays with every 2X2 subblock having nonzero determinant and commuting with every horizontal or vertical neighbor.",
   "id": "A206342",
   "mentions": [
     "A206343"

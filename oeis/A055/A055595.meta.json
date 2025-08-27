@@ -1,10 +1,15 @@
 {
-  "description": "Area of congruent triangles with integer sides and positive integer area, ordered by longest side, then second longest side and finally shortest side.",
+  "description": "Area of triangles with integer sides and positive integer area, ordered by longest side, then second longest side and finally shortest side.",
   "id": "A055595",
   "mentions": [
+    "A046131",
     "A055592",
     "A055593",
-    "A055594"
+    "A055594",
+    "A070786",
+    "A188158",
+    "A316841",
+    "A316853"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4X4X4 triangular 0..n arrays with every horizontal row nondecreasing and having the same average value",
+  "description": "Number of 4X4X4 triangular 0..n arrays with every horizontal row nondecreasing and having the same average value.",
   "id": "A214908",
   "mentions": [
     "A214906"

@@ -1,0 +1,22 @@
+{
+  "description": "Pairs (k, m) such that k = sigma(m) - m and m = sigma(2*k) - 2*k.",
+  "id": "A384411",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A063990",
+    "A259180",
+    "A346878",
+    "A383483"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

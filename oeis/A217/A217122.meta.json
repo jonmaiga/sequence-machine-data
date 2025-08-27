@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (number of 1's in binary expansion of n)th positive number not among the previous terms",
+  "description": "a(n) = (number of 1's in binary expansion of n)th positive number not among the previous terms.",
   "id": "A217122",
   "mentions": [
     "A000120",

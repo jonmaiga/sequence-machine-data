@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to reciprocally link elements of an n X n array either to themselves or to exactly two king-move neighbors, without 3-loops",
+  "description": "Number of ways to reciprocally link elements of an n X n array either to themselves or to exactly two king-move neighbors, without 3-loops.",
   "id": "A220646",
   "mentions": [
     "A220652"

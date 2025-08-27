@@ -1,5 +1,5 @@
 {
-  "description": "Number of horizontal, vertical and diagonal neighbor colorings of the odd squares of an nX7 array with new integer colors introduced in row major order",
+  "description": "Number of horizontal, vertical and diagonal neighbor colorings of the odd squares of an nX7 array with new integer colors introduced in row major order.",
   "id": "A216030",
   "mentions": [
     "A216031"

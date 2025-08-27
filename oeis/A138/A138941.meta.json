@@ -1,16 +1,15 @@
 {
-  "description": "Primes of the form (13^n - 3^n)/10.",
+  "description": "Primes of the form (13^k - 3^k)/10.",
   "id": "A138941",
   "mentions": [
     "A128028"
   ],
   "tags": [
-    "bref",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

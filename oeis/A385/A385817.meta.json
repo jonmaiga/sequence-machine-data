@@ -1,0 +1,47 @@
+{
+  "description": "Irregular triangle read by rows listing the lengths of maximal runs (sequences of consecutive elements increasing by 1) of binary indices, duplicate rows removed.",
+  "id": "A385817",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A000120",
+    "A001629",
+    "A001906",
+    "A023758",
+    "A037800",
+    "A044813",
+    "A048793",
+    "A052499",
+    "A055588",
+    "A069010",
+    "A083368",
+    "A164707",
+    "A200648",
+    "A200649",
+    "A200650",
+    "A242882",
+    "A243815",
+    "A245562",
+    "A245563",
+    "A246029",
+    "A328592",
+    "A348366",
+    "A384175",
+    "A384877",
+    "A384878",
+    "A384890",
+    "A385816",
+    "A385818",
+    "A385886",
+    "A385889"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

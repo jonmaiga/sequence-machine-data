@@ -1,7 +1,9 @@
 {
-  "description": "k and 4k are anagrams in base 8 (written in base 8).",
+  "description": "Positive numbers k such that k and 4*k are anagrams in base 8 (written in base 8).",
   "id": "A023075",
-  "mentions": [],
+  "mentions": [
+    "A007094"
+  ],
   "tags": [
     "base",
     "nonn"

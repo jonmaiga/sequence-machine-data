@@ -1,22 +1,18 @@
 {
-  "description": "Number of strict integer partitions of n with more than one possible way to choose disjoint strict partitions of each part.",
+  "description": "Number of strict integer partitions of n that are not maximally refined.",
   "id": "A384318",
   "mentions": [
     "A000009",
+    "A048767",
     "A098859",
     "A179009",
+    "A179822",
     "A239455",
     "A279375",
-    "A299200",
     "A317142",
     "A326080",
     "A351293",
-    "A351294",
-    "A351295",
     "A357982",
-    "A381432",
-    "A381433",
-    "A381454",
     "A382525",
     "A383533",
     "A383706",
@@ -30,7 +26,9 @@
     "A384321",
     "A384322",
     "A384323",
-    "A384347"
+    "A384350",
+    "A384391",
+    "A384392"
   ],
   "tags": [
     "formulas",

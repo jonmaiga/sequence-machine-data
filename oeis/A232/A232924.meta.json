@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5Xn 0..2 arrays with no element x(i,j) adjacent to value 2-x(i,j) horizontally, diagonally or antidiagonally",
+  "description": "Number of 5Xn 0..2 arrays with no element x(i,j) adjacent to value 2-x(i,j) horizontally, diagonally or antidiagonally.",
   "id": "A232924",
   "mentions": [
     "A232920"

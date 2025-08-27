@@ -1,0 +1,20 @@
+{
+  "description": "Least prime n < p < 2*n*(n-1) such that the polynomial Sum_{k=1..n} x^(n-k)/k is irreducible modulo p, or 1 if such a prime p does not exist.",
+  "id": "A386827",
+  "mentions": [
+    "A000040",
+    "A385658",
+    "A385676",
+    "A385678",
+    "A386828",
+    "A386850"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

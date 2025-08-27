@@ -1,7 +1,20 @@
 {
   "description": "Sum of the squared parts of the partitions of n into exactly two parts.",
   "id": "A226141",
-  "mentions": [],
+  "mentions": [
+    "A000330",
+    "A052928",
+    "A093353",
+    "A294270",
+    "A294271",
+    "A294272",
+    "A294273",
+    "A294274",
+    "A294275",
+    "A294276",
+    "A294279",
+    "A308422"
+  ],
   "tags": [
     "easy",
     "formulas",

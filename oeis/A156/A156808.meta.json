@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic connected circle graphs of order n",
+  "description": "Number of nonisomorphic connected circle graphs of order n.",
   "id": "A156808",
   "mentions": [
     "A156809"

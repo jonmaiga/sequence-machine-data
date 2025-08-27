@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4-step S, E, and NW-moving king's tours on an n X n board summed over all starting positions",
+  "description": "Number of 4-step S, E, and NW-moving king's tours on an n X n board summed over all starting positions.",
   "id": "A187509",
   "mentions": [
     "A187507"

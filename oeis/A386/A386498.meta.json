@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the 2-adic valuation of A386252(n).",
+  "id": "A386498",
+  "mentions": [
+    "A007814",
+    "A027856",
+    "A080185",
+    "A384530",
+    "A386252",
+    "A386499",
+    "A386500"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

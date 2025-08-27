@@ -1,9 +1,10 @@
 {
-  "description": "7*10^n-1.",
+  "description": "a(n) = 7*10^n - 1.",
   "id": "A198699",
   "mentions": [
     "A002283",
-    "A109002"
+    "A109002",
+    "A198972"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

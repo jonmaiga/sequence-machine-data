@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of (n+1)X5 0..3 arrays with every 2X2 subblock having one or four distinct clockwise edge differences",
+  "description": "1/4 the number of (n+1)X5 0..3 arrays with every 2X2 subblock having one or four distinct clockwise edge differences.",
   "id": "A209854",
   "mentions": [
     "A209858"

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of an augmented truncated tetrahedron with unit edge.",
+  "id": "A386411",
+  "mentions": [
+    "A010466",
+    "A020829",
+    "A377275",
+    "A386412"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

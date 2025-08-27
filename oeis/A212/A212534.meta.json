@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing sequences of n 1..6 integers with every element dividing the sequence sum",
+  "description": "Number of nondecreasing sequences of n 1..6 integers with every element dividing the sequence sum.",
   "id": "A212534",
   "mentions": [
     "A212536"

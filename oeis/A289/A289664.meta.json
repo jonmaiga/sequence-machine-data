@@ -1,18 +1,19 @@
 {
-  "description": "Number of times that p = n-th popular prime = A124661(n) is popular on the interval [2,m] where m = A289661(n).",
+  "description": "Number of integers in the interval [2,A289661(n)] whose greatest prime factor is equal to the n-th popular prime A385503(n).",
   "id": "A289664",
   "mentions": [
     "A006530",
-    "A124661",
     "A289661",
-    "A289665"
+    "A289665",
+    "A385503"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (prime(2*n)-prime(n))/2*2, where prime(n) is the n-th prime.",
+  "description": "Primes of the form (prime(2*k)-prime(k))/2*2, where prime(k) is the k-th prime.",
   "id": "A141861",
   "mentions": [
     "A000040"

@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers that are equal to the concatenation of the primes and exponents in their prime factorizations in some bases.",
+  "id": "A384537",
+  "mentions": [
+    "A080670",
+    "A195264",
+    "A230625",
+    "A327399",
+    "A384540"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

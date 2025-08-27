@@ -1,5 +1,5 @@
 {
-  "description": "Number of e's in each iteration of Wolfram's e[x_][y_] -> x[x[y]] symbolic rewriting system, starting from the initial state e[e[e][e]][e][e]",
+  "description": "Number of e's in each iteration of Wolfram's e[x_][y_] -> x[x[y]] symbolic rewriting system, starting from the initial state e[e[e][e]][e][e].",
   "id": "A154476",
   "mentions": [
     "A072643",

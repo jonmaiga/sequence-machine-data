@@ -1,5 +1,5 @@
 {
-  "description": "Number of 8-turn bishop's tours on an n X n board summed over all starting positions",
+  "description": "Number of 8-turn bishop's tours on an n X n board summed over all starting positions.",
   "id": "A188783",
   "mentions": [
     "A188777"

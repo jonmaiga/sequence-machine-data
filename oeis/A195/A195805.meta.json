@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of triangular nXnXn 0..k arrays with all rows and diagonals having the same length having the same sum, with corners zero",
+  "description": "T(n,k)=Number of triangular nXnXn 0..k arrays with all rows and diagonals having the same length having the same sum, with corners zero.",
   "id": "A195805",
   "mentions": [],
   "tags": [

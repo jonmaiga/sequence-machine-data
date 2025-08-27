@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps that n requires to reach 0 under the map: x-> x^2 - 1 if x is an odd prime, floor(x/3) if x is even, otherwise x - 1. a(n) = -1 if 0 is never reached.",
+  "id": "A385613",
+  "mentions": [
+    "A339991",
+    "A340801",
+    "A384713"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

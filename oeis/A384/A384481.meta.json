@@ -1,0 +1,19 @@
+{
+  "description": "Smallest value of f(1) for a function f(x) = b*x+c with nonnegative integer coefficients and a shortest addition-composition chain of length n, starting with 1 and x.",
+  "id": "A384481",
+  "mentions": [
+    "A383332",
+    "A384480",
+    "A384482",
+    "A384484"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

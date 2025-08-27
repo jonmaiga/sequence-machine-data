@@ -5,7 +5,8 @@
     "A155200",
     "A155201",
     "A155202",
-    "A202517"
+    "A202517",
+    "A326555"
   ],
   "tags": [
     "nonn"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

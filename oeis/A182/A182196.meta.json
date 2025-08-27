@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the larger root of x^sqrt(x+1) = sqrt(x+1)^x",
+  "description": "Decimal expansion of the larger root of x^sqrt(x+1) = sqrt(x+1)^x.",
   "id": "A182196",
   "mentions": [
     "A001622"

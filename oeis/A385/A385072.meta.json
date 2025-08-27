@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of tetrahedral numbers <= n-th triangular number.",
+  "id": "A385072",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A385071"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

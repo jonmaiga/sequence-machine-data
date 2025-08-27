@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = 4*n*(4*n^2+1).",
+  "description": "a(n) = 4*n*(4*n^2 + 1).",
   "id": "A144965",
   "mentions": [
-    "A053755"
+    "A008586",
+    "A053755",
+    "A317297"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "joeis"
   }
 }

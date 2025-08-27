@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Maximum 1's in an nXk binary array with no element equal to a strict majority of its horizontal and vertical neighbors",
+  "description": "T(n,k)=Maximum 1's in an nXk binary array with no element equal to a strict majority of its horizontal and vertical neighbors.",
   "id": "A179004",
   "mentions": [],
   "tags": [

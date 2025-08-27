@@ -1,5 +1,5 @@
 {
-  "description": "Smallest b>1 such that n contains no zeros in its base b representation.",
+  "description": "Smallest b > 1 such that n contains no zeros in its base b representation.",
   "id": "A106370",
   "mentions": [
     "A000225",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

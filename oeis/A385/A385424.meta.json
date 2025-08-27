@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp( -LambertW(-arcsin(x)) ).",
+  "id": "A385424",
+  "mentions": [
+    "A277502",
+    "A381142",
+    "A385343",
+    "A385425",
+    "A385426",
+    "A385427"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

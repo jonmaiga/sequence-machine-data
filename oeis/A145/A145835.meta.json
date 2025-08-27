@@ -1,5 +1,5 @@
 {
-  "description": "Number of compositions of the n X n grid graph",
+  "description": "Number of compositions of the n X n grid graph.",
   "id": "A145835",
   "mentions": [
     "A110476"

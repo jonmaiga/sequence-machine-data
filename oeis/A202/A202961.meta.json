@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of n+2 integers in -7..7 with sum zero and adjacent elements differing in absolute value",
+  "description": "Number of arrays of n+2 integers in -7..7 with sum zero and adjacent elements differing in absolute value.",
   "id": "A202961",
   "mentions": [
     "A202962"

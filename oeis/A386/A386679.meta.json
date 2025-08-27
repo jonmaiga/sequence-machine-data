@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of denominators for rational convergents to Taylor series of Gamma(x+1).",
+  "id": "A386679",
+  "mentions": [
+    "A386675",
+    "A386676",
+    "A386677",
+    "A386678"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

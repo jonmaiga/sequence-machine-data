@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k arrays of length n with the sum ahead of each element differing from the sum following that element by k or less",
+  "description": "T(n,k)=Number of -k..k arrays of length n with the sum ahead of each element differing from the sum following that element by k or less.",
   "id": "A221967",
   "mentions": [
     "A005917",

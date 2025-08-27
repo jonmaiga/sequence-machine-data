@@ -1,0 +1,27 @@
+{
+  "description": "Odd numbers k that are closer to being perfect than previous terms and also satisfy the condition that A324644(k)/A324198(k) = 2.",
+  "id": "A386422",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A171929",
+    "A228058",
+    "A228059",
+    "A276086",
+    "A324198",
+    "A324644",
+    "A364286",
+    "A386419",
+    "A386420",
+    "A386421"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

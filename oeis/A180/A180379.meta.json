@@ -1,5 +1,5 @@
 {
-  "description": "Number of increasing sequences of n integers x(1),...,x(n) with values in 1..2*n such that x(j) divides x(k) iff j divides k",
+  "description": "Number of increasing sequences of n integers x(1),...,x(n) with values in 1..2*n such that x(j) divides x(k) iff j divides k.",
   "id": "A180379",
   "mentions": [
     "A180378"

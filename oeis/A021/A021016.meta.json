@@ -2,7 +2,8 @@
   "description": "Decimal expansion of 1/12.",
   "id": "A021016",
   "mentions": [
-    "A005408"
+    "A005408",
+    "A010701"
   ],
   "tags": [
     "cons",

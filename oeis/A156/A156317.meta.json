@@ -1,5 +1,5 @@
 {
-  "description": "Numbers which are perfect squares and either form equal or larger perfect squares when reversed",
+  "description": "Numbers which are perfect squares and either form equal or larger perfect squares when reversed.",
   "id": "A156317",
   "mentions": [
     "A061457"

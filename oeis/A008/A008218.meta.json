@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n/4)*floor((n+1)/4)*floor((n+2)/4).",
+  "description": "a(n) = floor(n/4)*floor((n+1)/4)*floor((n+2)/4).",
   "id": "A008218",
   "mentions": [],
   "tags": [

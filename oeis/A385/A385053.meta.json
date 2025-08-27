@@ -1,0 +1,15 @@
+{
+  "description": "Number of non-isomorphic simple games with n players and one minimal winning vector.",
+  "id": "A385053",
+  "mentions": [
+    "A052847"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

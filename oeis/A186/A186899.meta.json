@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X7 binary arrays with every 2X2 subblock determinant equal to exactly one or two horizontal and vertical neighbor 2X2 subblock determinants",
+  "description": "Number of (n+1)X7 binary arrays with every 2X2 subblock determinant equal to exactly one or two horizontal and vertical neighbor 2X2 subblock determinants.",
   "id": "A186899",
   "mentions": [
     "A186902"

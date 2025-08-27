@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..3 arrays with the difference of the upper and lower median value of each 2X2 subblock in lexicographically nondecreasing order rowwise and columnwise",
+  "description": "Number of (n+1)X(2+1) 0..3 arrays with the difference of the upper and lower median value of each 2X2 subblock in lexicographically nondecreasing order rowwise and columnwise.",
   "id": "A235575",
   "mentions": [
     "A235577"

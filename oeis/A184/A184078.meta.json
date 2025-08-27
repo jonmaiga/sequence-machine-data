@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X7 0..2 arrays with rows and columns in nondecreasing order and with no 2X2 subblock sum differing from a horizontal or vertical neighbor subblock sum by more than one",
+  "description": "Number of (n+1)X7 0..2 arrays with rows and columns in nondecreasing order and with no 2X2 subblock sum differing from a horizontal or vertical neighbor subblock sum by more than one.",
   "id": "A184078",
   "mentions": [
     "A184081"

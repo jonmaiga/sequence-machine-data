@@ -1,14 +1,16 @@
 {
-  "description": "Numbers whose base-15 representation Sum_{i=0..m} d(i)*15^i has odd d(i) for all odd i.",
+  "description": "Numbers whose base-15 representation Sum_{i=0..m} d(i)*15^i has odd d(m-i) for all odd i.",
   "id": "A033066",
-  "mentions": [],
+  "mentions": [
+    "A032965"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 61,
+    "size": 65,
     "source": "joeis"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = x + A(x^2)*A(x^3) with A(0) = 1.",
+  "id": "A384833",
+  "mentions": [
+    "A382126"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

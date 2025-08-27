@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..1 arrays with each 1 horizontally, vertically or antidiagonally adjacent to 1, 2 or 3 neighboring 1s.",
+  "description": "Number of n X 6 0..1 arrays with each 1 horizontally, vertically or antidiagonally adjacent to 1, 2 or 3 neighboring 1's.",
   "id": "A296597",
   "mentions": [
     "A296599"

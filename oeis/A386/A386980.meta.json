@@ -1,0 +1,17 @@
+{
+  "description": "Number of acute Heronian triangles with integer inradius n.",
+  "id": "A386980",
+  "mentions": [
+    "A078644",
+    "A120062",
+    "A386981"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Product of first n quadrinomial coefficients (A005725) for n > 0 with a(0) = 1.",
+  "id": "A386650",
+  "mentions": [
+    "A003046",
+    "A005725",
+    "A214590",
+    "A342177",
+    "A386649"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

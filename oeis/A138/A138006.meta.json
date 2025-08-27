@@ -1,16 +1,18 @@
 {
-  "description": "Length of all the nontrivial cycles of the Ducci map for n in A138004.",
+  "description": "Length of all the nontrivial cycles of the Ducci map modulo 2 for the dimensions in A138004.",
   "id": "A138006",
   "mentions": [
+    "A038553",
     "A135546",
     "A138004"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

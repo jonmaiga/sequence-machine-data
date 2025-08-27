@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+4)X9 binary arrays with every 1 having exactly three king-move neighbors equal to 1 but with no 2X2 blocks of 1s",
+  "description": "Number of (n+4) X 9 binary arrays with every 1 having exactly three king-move neighbors equal to 1 but with no 2 X 2 blocks of 1's.",
   "id": "A183462",
   "mentions": [
     "A183465"

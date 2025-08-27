@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=1/128 the number of (n+2)X(k+2) binary arrays with no 3X3 subblock trace equal to any horizontal or vertical neighbor 3X3 subblock trace",
+  "description": "T(n,k)=1/128 the number of (n+2)X(k+2) binary arrays with no 3X3 subblock trace equal to any horizontal or vertical neighbor 3X3 subblock trace.",
   "id": "A185866",
   "mentions": [],
   "tags": [

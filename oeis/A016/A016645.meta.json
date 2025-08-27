@@ -2,10 +2,13 @@
   "description": "Decimal expansion of log(22).",
   "id": "A016645",
   "mentions": [
-    "A016450"
+    "A002162",
+    "A016450",
+    "A016634"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

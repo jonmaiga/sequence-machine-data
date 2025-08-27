@@ -2,7 +2,13 @@
   "description": "Order of universal Chevalley group A_n (3).",
   "id": "A003787",
   "mentions": [
-    "A053290"
+    "A003788",
+    "A003789",
+    "A003790",
+    "A003791",
+    "A003792",
+    "A053290",
+    "A100220"
   ],
   "tags": [
     "easy",

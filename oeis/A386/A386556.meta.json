@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2-colorings of an 6 X 6 X 6 grid / cube, up to rotational symmetry, by the number of black cells.",
+  "id": "A386556",
+  "mentions": [
+    "A334616",
+    "A386553",
+    "A386554",
+    "A386555"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

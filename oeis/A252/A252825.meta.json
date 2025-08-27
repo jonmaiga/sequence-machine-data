@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 nonnegative integer arrays with upper left 0 and every value within 3 of its city block distance from the upper left and every value increasing by 0 or 1 with every step right or down",
+  "description": "Number of nX5 nonnegative integer arrays with upper left 0 and every value within 3 of its city block distance from the upper left and every value increasing by 0 or 1 with every step right or down.",
   "id": "A252825",
   "mentions": [
     "A252828"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of strictly increasing arrangements of 4 numbers in -(n+2)..(n+2) with sum zero",
+  "description": "Number of strictly increasing arrangements of 4 numbers in -(n+2)..(n+2) with sum zero.",
   "id": "A188182",
   "mentions": [
     "A049347",

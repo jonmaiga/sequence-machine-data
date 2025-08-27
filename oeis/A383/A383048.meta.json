@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree d such that x^3+y^3=z^3 has non-trivial solution in Q(sqrt(-d)).",
+  "description": "Squarefree d such that x^3+y^3=z^3 has nontrivial solution in Q(sqrt(-d)).",
   "id": "A383048",
   "mentions": [
     "A383047"

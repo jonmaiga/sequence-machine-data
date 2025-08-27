@@ -2,16 +2,16 @@
   "description": "Remainder when (n!)^2 is divided by n^n.",
   "id": "A064546",
   "mentions": [
-    "A063709"
+    "A063709",
+    "A215460"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

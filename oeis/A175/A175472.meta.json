@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the absolute value of the abscissa of the local maximum of the Gamma function in the interval [ -1,0]",
+  "description": "Decimal expansion of the absolute value of the abscissa of the local maximum of the Gamma function in the interval [ -1,0].",
   "id": "A175472",
   "mentions": [
     "A030169",

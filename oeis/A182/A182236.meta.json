@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n X n 0..n+k-2 arrays with new values 0 upwards introduced in row major order and every value unique in its row and column",
+  "description": "T(n,k)=Number of n X n 0..n+k-2 arrays with new values 0 upwards introduced in row major order and every value unique in its row and column.",
   "id": "A182236",
   "mentions": [],
   "tags": [

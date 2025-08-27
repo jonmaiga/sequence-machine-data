@@ -2,14 +2,18 @@
   "description": "Exponent of 8 (value of j) in n-th number of form 6^i*8^j.",
   "id": "A025674",
   "mentions": [
-    "A025650"
+    "A025627",
+    "A025650",
+    "A025661",
+    "A244413"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 104,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

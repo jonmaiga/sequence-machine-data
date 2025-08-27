@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the index where A387090(n) appears in A386482.",
+  "id": "A386484",
+  "mentions": [
+    "A386482",
+    "A386483",
+    "A387072",
+    "A387090"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

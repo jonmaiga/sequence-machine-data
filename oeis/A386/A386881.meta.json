@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of occurrences of n in A386838.",
+  "id": "A386881",
+  "mentions": [
+    "A001481",
+    "A386838"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

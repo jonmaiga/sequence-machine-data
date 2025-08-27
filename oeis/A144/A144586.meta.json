@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = odd and nonprime sum of prime factors of composite(k) = A002808(k).",
+  "description": "a(n) = odd and nonprime sum (with multiplicity) of prime factors of composite(k) = A002808(k).",
   "id": "A144586",
   "mentions": [
     "A002808",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

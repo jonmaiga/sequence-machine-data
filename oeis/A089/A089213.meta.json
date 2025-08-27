@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that either 3^p-2 or 3^p+2 is prime.",
+  "description": "Primes p such that either 3^p-2 or 3^p+2 is prime or both are.",
   "id": "A089213",
   "mentions": [
     "A014224",

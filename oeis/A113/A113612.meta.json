@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 3. For n > 1, a(n) = smallest prime not already seen forming a palindrome when a(n) and all previous terms are concatenated",
+  "description": "a(1) = 3. For n > 1, a(n) = smallest prime not already seen forming a palindrome when a(n) and all previous terms are concatenated.",
   "id": "A113612",
   "mentions": [
     "A113613"

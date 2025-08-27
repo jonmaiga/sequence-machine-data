@@ -1,0 +1,18 @@
+{
+  "description": "Number of parking functions of size n with a descent in the first position.",
+  "id": "A386015",
+  "mentions": [
+    "A000272",
+    "A085389"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

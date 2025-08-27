@@ -1,0 +1,20 @@
+{
+  "description": "Nonprimes k such that sopf(k)^k == sopf(k) (mod k) where sopf = A008472.",
+  "id": "A384684",
+  "mentions": [
+    "A000396",
+    "A005835",
+    "A008472",
+    "A107290",
+    "A239546",
+    "A302333"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..3 arrays with no element equal to the product mod 4 of any two neighbors",
+  "description": "Number of nXnXn triangular 0..3 arrays with no element equal to the product mod 4 of any two neighbors.",
   "id": "A193368",
   "mentions": [],
   "tags": [

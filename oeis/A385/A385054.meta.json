@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that (2*k-1)*2^valuation(k, 2) != denominator(2*Euler(2*k-1, 1)/(2*k-1)).",
+  "id": "A385054",
+  "mentions": [
+    "A219931"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

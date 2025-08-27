@@ -2,6 +2,7 @@
   "description": "Exponent of 6 (value of j) in n-th number of form 3^i*6^j.",
   "id": "A025657",
   "mentions": [
+    "A025614",
     "A025641",
     "A025686"
   ],

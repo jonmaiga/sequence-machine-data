@@ -2,9 +2,11 @@
   "description": "Replace each prime power in the prime-factorization of n with the next higher prime-power.",
   "id": "A120635",
   "mentions": [
+    "A000015",
     "A120636"
   ],
   "tags": [
+    "formulas",
     "mult",
     "nonn"
   ],

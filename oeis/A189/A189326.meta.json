@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing arrangements of n+2 numbers in 0..k with the last equal to k and each after the second equal to the sum of one or two of the preceding four",
+  "description": "T(n,k)=Number of nondecreasing arrangements of n+2 numbers in 0..k with the last equal to k and each after the second equal to the sum of one or two of the preceding four.",
   "id": "A189326",
   "mentions": [
     "A001651"

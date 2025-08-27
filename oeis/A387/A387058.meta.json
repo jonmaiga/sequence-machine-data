@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that each term is a square number or belongs to a run of two consecutive terms summing to a square number.",
+  "id": "A387058",
+  "mentions": [
+    "A034175",
+    "A387059"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

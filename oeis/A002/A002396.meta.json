@@ -1,7 +1,10 @@
 {
   "description": "Inverse of reduced totient function.",
   "id": "A002396",
-  "mentions": [],
+  "mentions": [
+    "A002202",
+    "A002322"
+  ],
   "tags": [
     "easy",
     "nice",

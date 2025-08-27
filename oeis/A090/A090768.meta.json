@@ -1,5 +1,5 @@
 {
-  "description": "4*7^(n^2+2n+1)*Product_{j=1..n} (49^j-1).",
+  "description": "a(n) = 4*7^(n^2+2n+1)*Product_{j=1..n} (49^j-1).",
   "id": "A090768",
   "mentions": [
     "A001309",
@@ -12,6 +12,7 @@
     "A092301"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

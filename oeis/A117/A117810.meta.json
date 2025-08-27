@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is k*(the sum of decimal digits squared of n), k=153 case.",
+  "description": "Numbers m such that m is k*(the sum of decimal digits squared of m), k=153 case.",
   "id": "A117810",
   "mentions": [
     "A117565"

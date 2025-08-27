@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the surface area of a gyroelongated pentagonal cupolarotunda with unit edge.",
+  "id": "A385263",
+  "mentions": [
+    "A002163",
+    "A002194",
+    "A384284",
+    "A385257",
+    "A385259",
+    "A385261",
+    "A385262"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

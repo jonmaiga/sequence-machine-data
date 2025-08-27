@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X4 0..2 arrays with the number of equal 2X2 subblock diagonal pairs and equal antidiagonal pairs differing from each horizontal or vertical neighbor, and new values 0..2 introduced in row major order",
+  "description": "Number of (n+1)X4 0..2 arrays with the number of equal 2X2 subblock diagonal pairs and equal antidiagonal pairs differing from each horizontal or vertical neighbor, and new values 0..2 introduced in row major order.",
   "id": "A205330",
   "mentions": [
     "A205335"

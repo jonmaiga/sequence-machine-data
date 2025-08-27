@@ -1,0 +1,23 @@
+{
+  "description": "Number of digits in the decimal expansion of Fibonacci(2^n).",
+  "id": "A385248",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A001622",
+    "A055642",
+    "A058635",
+    "A060384",
+    "A068070"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Numbers k such that the leading k digits of k^k in decimal form a prime or a probable prime.",
   "id": "A211404",
   "mentions": [
+    "A000312",
     "A220453",
     "A220454"
   ],

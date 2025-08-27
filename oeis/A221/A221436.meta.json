@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 1..(max n,6) arrays with each row and column having unrepeated values",
+  "description": "Number of nX6 1..(max n,6) arrays with each row and column having unrepeated values.",
   "id": "A221436",
   "mentions": [
     "A221438"

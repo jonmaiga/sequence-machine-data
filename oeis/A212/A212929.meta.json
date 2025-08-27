@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..6 arrays with no column j greater than column j-1 in all rows",
+  "description": "Number of n X 7 0..6 arrays with no column j greater than column j-1 in all rows.",
   "id": "A212929",
   "mentions": [
     "A212930"

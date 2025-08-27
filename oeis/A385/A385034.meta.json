@@ -1,0 +1,18 @@
+{
+  "description": "Absolute value squared of the maximal determinant of a matrix of order n with entries in the third roots of unity.",
+  "id": "A385034",
+  "mentions": [
+    "A000312",
+    "A003433"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

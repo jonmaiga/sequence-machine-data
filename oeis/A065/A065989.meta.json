@@ -1,11 +1,12 @@
 {
-  "description": "The first n ternary digits of Pi expressed in decimal forms a prime.",
+  "description": "Numbers k such that the first k ternary digits of Pi expressed in decimal forms a prime.",
   "id": "A065989",
   "mentions": [
     "A004602"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

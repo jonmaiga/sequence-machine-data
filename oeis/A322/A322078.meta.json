@@ -1,10 +1,12 @@
 {
-  "description": "a(n) = n^2 * Sum_{p|n} 1/p^2, where p are primes dividing n.",
+  "description": "a(n) = n^2 * Sum_{p|n, p prime} 1/p^2.",
   "id": "A322078",
   "mentions": [
     "A000040",
     "A000330",
     "A001221",
+    "A007434",
+    "A010051",
     "A069359",
     "A085541",
     "A351242",

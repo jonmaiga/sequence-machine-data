@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,j,k), j = 1..A024718(n), k = 1..n, where row 1 = {(0), (1)}, and row n = union of n-tuples whose sum s < n, and the n-tuples formed by appending s to the (n-1)-tuples in row n-1.",
+  "id": "A384001",
+  "mentions": [
+    "A001700",
+    "A024718",
+    "A162306",
+    "A384000",
+    "A384002"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

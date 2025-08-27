@@ -1,5 +1,5 @@
 {
-  "description": "Number of n element 1..n arrays with each element the minimum of 4 adjacent elements of a permutation of 1..n+3 of n+3 elements",
+  "description": "Number of n element 1..n arrays with each element the minimum of 4 adjacent elements of a permutation of 1..n+3 of n+3 elements.",
   "id": "A217887",
   "mentions": [
     "A217891"

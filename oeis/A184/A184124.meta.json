@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..3 arrays with rows and columns in nondecreasing order",
+  "description": "Number of nX4 0..3 arrays with rows and columns in nondecreasing order.",
   "id": "A184124",
   "mentions": [
     "A184129"

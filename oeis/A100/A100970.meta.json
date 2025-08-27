@@ -1,5 +1,5 @@
 {
-  "description": "Integers n that are Rhonda numbers to base 8.",
+  "description": "Integers that are Rhonda numbers to base 8.",
   "id": "A100970",
   "mentions": [
     "A001414",

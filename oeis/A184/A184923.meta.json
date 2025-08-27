@@ -1,5 +1,5 @@
 {
-  "description": "n+[rn/u]+[sn/u]+[tn/u], where []=floor and r=2^(1/2), s=r+1, t=r+2, u=r+3.",
+  "description": "a(n) = n+[r*n/u]+[s*n/u]+[t*n/u], where []=floor and r=2^(1/2), s=r+1, t=r+2, u=r+3.",
   "id": "A184923",
   "mentions": [
     "A184912",

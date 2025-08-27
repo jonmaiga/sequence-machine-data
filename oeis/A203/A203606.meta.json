@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0,1 arrays with adjacent row and column sums unequal",
+  "description": "Number of nX4 0,1 arrays with adjacent row and column sums unequal.",
   "id": "A203606",
   "mentions": [
     "A203610"

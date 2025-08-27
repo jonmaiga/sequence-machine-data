@@ -2,12 +2,14 @@
   "description": "Expansion of Product_{k>=1} (1 - Sum_{j>=1} j * x^(k*j)).",
   "id": "A329157",
   "mentions": [
+    "A003056",
     "A032198",
     "A077285",
     "A088305",
     "A104575",
     "A319668",
-    "A329156"
+    "A329156",
+    "A385001"
   ],
   "tags": [
     "formulas",
@@ -16,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

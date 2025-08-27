@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(n+1) 0..k arrays with all the 2X2 subblocks nonsingular and the array of 2X2 subblock determinants symmetric",
+  "description": "T(n,k)=Number of (n+1)X(n+1) 0..k arrays with all the 2X2 subblocks nonsingular and the array of 2X2 subblock determinants symmetric.",
   "id": "A187462",
   "mentions": [
     "A062801"

@@ -1,7 +1,9 @@
 {
   "description": "Number of rational plane curves of degree d passing through 3d-1 general points.",
   "id": "A013587",
-  "mentions": [],
+  "mentions": [
+    "A319851"
+  ],
   "tags": [
     "easy",
     "formulas",

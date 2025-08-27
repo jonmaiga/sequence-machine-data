@@ -1,16 +1,16 @@
 {
-  "description": "Primes of the form ceiling(Pi^n).",
+  "description": "Primes of the form ceiling(Pi^k).",
   "id": "A118843",
   "mentions": [
+    "A001673",
     "A111937"
   ],
   "tags": [
-    "bref",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

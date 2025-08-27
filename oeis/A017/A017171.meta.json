@@ -2,7 +2,8 @@
   "description": "a(n) = (9*n)^11.",
   "id": "A017171",
   "mentions": [
-    "A008455"
+    "A008455",
+    "A008591"
   ],
   "tags": [
     "easy",

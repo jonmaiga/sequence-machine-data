@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1; a(n)=percentage of sum of previous terms represented by n",
+  "description": "a(1)=1; a(n)=percentage of sum of previous terms represented by n.",
   "id": "A180102",
   "mentions": [],
   "tags": [

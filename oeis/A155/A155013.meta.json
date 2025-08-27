@@ -1,5 +1,5 @@
 {
-  "description": "Integer part of square root of A000584.",
+  "description": "Integer part of square root of n^5 = A000584(n).",
   "id": "A155013",
   "mentions": [
     "A000093",

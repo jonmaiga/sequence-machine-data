@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular binary arrays with every 1 adjacent to an even number other 1s",
+  "description": "Number of nXnXn triangular binary arrays with every 1 adjacent to an even number other 1s.",
   "id": "A192445",
   "mentions": [],
   "tags": [

@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of e.g.f. 1/(1-3*sinh(x)).",
+  "description": "Expansion of e.g.f. 1/(1 - 3*sinh(x)).",
   "id": "A107403",
   "mentions": [
     "A000557",
-    "A006154"
+    "A006154",
+    "A136630"
   ],
   "tags": [
     "formulas",

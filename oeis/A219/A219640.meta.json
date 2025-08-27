@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there exists k such that n = k - (number of 1's in Zeckendorf expansion of k); distinct values in A219641.",
+  "description": "Numbers m for which there exists k such that m = k - (number of 1's in Zeckendorf expansion of k); distinct values in A219641.",
   "id": "A219640",
   "mentions": [
     "A005187",

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+5)X(k+5) binary arrays with every 6X6 subblock commuting with each horizontal and vertical neighbor 6X6 subblock",
+  "description": "T(n,k)=Number of (n+5)X(k+5) binary arrays with every 6X6 subblock commuting with each horizontal and vertical neighbor 6X6 subblock.",
   "id": "A186619",
   "mentions": [],
   "tags": [

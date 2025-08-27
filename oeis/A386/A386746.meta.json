@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^3*sigma_2(n).",
+  "id": "A386746",
+  "mentions": [
+    "A001157",
+    "A328259",
+    "A386745"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

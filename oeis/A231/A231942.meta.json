@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..3 arrays with no element less than a strict majority of its horizontal, diagonal and antidiagonal neighbors",
+  "description": "Number of 3Xn 0..3 arrays with no element less than a strict majority of its horizontal, diagonal and antidiagonal neighbors.",
   "id": "A231942",
   "mentions": [
     "A231940"

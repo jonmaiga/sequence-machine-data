@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..7 arrays with no element equal to the product mod 8 of any two neighbors",
+  "description": "Number of nXnXn triangular 0..7 arrays with no element equal to the product mod 8 of any two neighbors.",
   "id": "A193372",
   "mentions": [],
   "tags": [

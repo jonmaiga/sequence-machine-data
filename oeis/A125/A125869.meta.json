@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p=10n+1 is prime and cos(2pi/p) is an algebraic number of a 5-smooth degree, but not 3-smooth.",
+  "description": "Numbers k such that p=10*k+1 is prime and cos(2*Pi/p) is an algebraic number of a 5-smooth degree, but not 3-smooth.",
   "id": "A125869",
   "mentions": [
     "A024912",

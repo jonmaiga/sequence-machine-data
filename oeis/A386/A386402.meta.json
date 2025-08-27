@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator(sigma(n)*phi(n)/n^2).",
+  "id": "A386402",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000290",
+    "A386401"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of 3-dimensional permutation arrays of size n X n X n.",
+  "id": "A385321",
+  "mentions": [
+    "A330490"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

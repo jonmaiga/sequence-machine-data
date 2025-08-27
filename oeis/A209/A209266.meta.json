@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of 3-prime arithmetic progression prime chains surrounding the n-th prime number with 5-smooth intervals",
+  "description": "a(n) is the number of 3-prime arithmetic progression prime chains surrounding the n-th prime number with 5-smooth intervals.",
   "id": "A209266",
   "mentions": [
     "A001031",

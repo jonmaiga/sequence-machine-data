@@ -1,0 +1,31 @@
+{
+  "description": "Triangle, read by rows, formed by reading Pascal's triangle (A007318) mod 27.",
+  "id": "A386441",
+  "mentions": [
+    "A007318",
+    "A008975",
+    "A034930",
+    "A034931",
+    "A034932",
+    "A047999",
+    "A083093",
+    "A095140",
+    "A095141",
+    "A095142",
+    "A095143",
+    "A095144",
+    "A095145",
+    "A275198"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

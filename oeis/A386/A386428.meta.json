@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers of the form p^(1+4k) * r^2, where p is prime of the form 1+4m, k > 0, r > 1, and gcd(p,r) = 1.",
+  "id": "A386428",
+  "mentions": [
+    "A001694",
+    "A028375",
+    "A228058",
+    "A320966"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

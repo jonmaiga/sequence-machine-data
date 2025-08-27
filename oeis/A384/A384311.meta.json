@@ -1,15 +1,18 @@
 {
-  "description": "a(n) is the number of ways to partition an n X n X n cube into 4 cuboids of different dimensions.",
+  "description": "a(n) is the number of ways to partition an n X n X n cube into 4 noncongruent cuboids.",
   "id": "A384311",
   "mentions": [
-    "A381847"
+    "A381847",
+    "A384479",
+    "A385247"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

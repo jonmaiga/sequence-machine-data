@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X4 0..3 arrays with no 2X2 subblock having the same number of equal edges as its horizontal or vertical neighbors, and new values 0..3 introduced in row major order",
+  "description": "Number of (n+1)X4 0..3 arrays with no 2X2 subblock having the same number of equal edges as its horizontal or vertical neighbors, and new values 0..3 introduced in row major order.",
   "id": "A205349",
   "mentions": [
     "A205352"

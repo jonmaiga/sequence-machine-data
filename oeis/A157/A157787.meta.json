@@ -1,5 +1,5 @@
 {
-  "description": "8984250n - 2515920.",
+  "description": "a(n) = 8984250*n - 2515920.",
   "id": "A157787",
   "mentions": [
     "A157786",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "description": "Nonsquarefree weak numbers k such that A053669(k) < A006530(k).",
+  "id": "A386294",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A006530",
+    "A006939",
+    "A007947",
+    "A013929",
+    "A052485",
+    "A053669",
+    "A055932",
+    "A080259",
+    "A126706",
+    "A286708",
+    "A332785",
+    "A380543"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

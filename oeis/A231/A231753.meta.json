@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with no element less than a strict majority of its horizontal, vertical, diagonal and antidiagonal neighbors",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with no element less than a strict majority of its horizontal, vertical, diagonal and antidiagonal neighbors.",
   "id": "A231753",
   "mentions": [
     "A202882"

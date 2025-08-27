@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of n with k designated summands, n >= 0, 0 <= k <= A003056(n).",
+  "id": "A385001",
+  "mentions": [
+    "A000007",
+    "A000096",
+    "A000203",
+    "A000217",
+    "A000716",
+    "A002024",
+    "A002127",
+    "A002128",
+    "A003056",
+    "A060043",
+    "A077285",
+    "A116608",
+    "A196020",
+    "A252117",
+    "A293421",
+    "A329157",
+    "A365434",
+    "A365664",
+    "A365665",
+    "A384926",
+    "A384998",
+    "A384999"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

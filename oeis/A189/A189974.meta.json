@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that d(n-1) = d(n+1) = 4, where d(k) is the number of divisors of k (A000005).",
+  "description": "Numbers m such that d(m-1) = d(m+1) = 4, where d(k) is the number of divisors of k (A000005).",
   "id": "A189974",
   "mentions": [
     "A000005",

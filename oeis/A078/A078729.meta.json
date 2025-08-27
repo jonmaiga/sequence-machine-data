@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the least positive integer k such that (k+1)(k+2)...(k+n) + 1 is prime, if such k exists; otherwise, = 0.",
+  "description": "a(n) = the least positive integer k such that (k+1)*(k+2)*...*(k+n) + 1 is prime, if such k exists; otherwise, = 0.",
   "id": "A078729",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

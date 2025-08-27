@@ -1,0 +1,16 @@
+{
+  "description": "The base-2 logarithm of this sequence equals the Q statistic value of the greedy-from-the-bottom tree with n leaves, which is the minimal Q statistic value for n.",
+  "id": "A386912",
+  "mentions": [
+    "A132862"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

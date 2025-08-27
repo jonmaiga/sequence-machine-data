@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that the sum of digits of p and digits of the next prime q is equal to the sum of digits of p*q",
+  "description": "Primes p such that the sum of digits of p and digits of the next prime q is equal to the sum of digits of p*q.",
   "id": "A346493",
   "mentions": [
     "A007605"

@@ -1,11 +1,13 @@
 {
-  "description": "Numbers k such that (10's complement factorial of k) + 1 is prime.",
+  "description": "Numbers k > 0 such that (10's complement factorial of k) + 1 is prime.",
   "id": "A109616",
   "mentions": [
+    "A109617",
     "A110396"
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],

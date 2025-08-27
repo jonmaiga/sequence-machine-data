@@ -1,5 +1,5 @@
 {
-  "description": "p[n_, k_]=Product[(E/(2-E))^i, {i, 1, n}]/Product[(E/(2-E))^i, {i, Floor[n/2^k], n}], a(n) = Sum[Floor[p[n, k]/(8*p[n-1, k])], {k, 1, 8}]",
+  "description": "p[n_, k_]=Product[(E/(2-E))^i, {i, 1, n}]/Product[(E/(2-E))^i, {i, Floor[n/2^k], n}], a(n) = Sum[Floor[p[n, k]/(8*p[n-1, k])], {k, 1, 8}].",
   "id": "A088663",
   "mentions": [],
   "tags": [

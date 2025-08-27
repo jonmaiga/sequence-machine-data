@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..3 arrays with no element equal to the sum mod 4 of its horizontal and vertical neighbors",
+  "description": "Number of n X n 0..3 arrays with no element equal to the sum mod 4 of its horizontal and vertical neighbors.",
   "id": "A183502",
   "mentions": [
     "A183508"

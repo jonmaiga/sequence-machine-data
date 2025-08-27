@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every 2X2 subblock having a single 1 or two 1s on the same edge or main diagonally",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every 2X2 subblock having a single 1 or two 1s on the same edge or main diagonally.",
   "id": "A251292",
   "mentions": [],
   "tags": [

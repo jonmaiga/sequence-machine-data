@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock determinant equal to any horizontal or vertical neighbor 2X2 subblock determinant",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock determinant equal to any horizontal or vertical neighbor 2X2 subblock determinant.",
   "id": "A185923",
   "mentions": [],
   "tags": [

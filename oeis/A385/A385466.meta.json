@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are at the end of the local maxima in the sequence of consecutive prime gaps.",
+  "id": "A385466",
+  "mentions": [
+    "A001223",
+    "A198696"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

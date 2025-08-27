@@ -1,5 +1,5 @@
 {
-  "description": "Number of admissible sequences of order j; related to 5x+1 problem",
+  "description": "Number of admissible sequences of order j; related to 5x+1 problem.",
   "id": "A174795",
   "mentions": [
     "A100982"

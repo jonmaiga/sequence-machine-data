@@ -1,5 +1,5 @@
 {
-  "description": "1/12 the number of (n+2)X5 0..2 arrays with each 3X3 subblock containing three of each value",
+  "description": "1/12 the number of (n+2)X5 0..2 arrays with each 3X3 subblock containing three of each value.",
   "id": "A184380",
   "mentions": [
     "A184386"

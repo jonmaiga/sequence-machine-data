@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Integral_{x>=2} 1/(x^12-1) dx.",
+  "id": "A386732",
+  "mentions": [
+    "A016644",
+    "A105199",
+    "A123868",
+    "A304656"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

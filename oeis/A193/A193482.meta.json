@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric 0..3 arrays with each element equal to the product mod 4 of two of its horizontal and vertical neighbors",
+  "description": "Number of n X n symmetric 0..3 arrays with each element equal to the product mod 4 of two of its horizontal and vertical neighbors.",
   "id": "A193482",
   "mentions": [],
   "tags": [

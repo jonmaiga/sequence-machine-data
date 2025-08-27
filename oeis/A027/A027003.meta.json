@@ -1,15 +1,17 @@
 {
-  "description": "a(n) = A026998(2n, n+4).",
+  "description": "a(n) = A026998(2*n, n+4).",
   "id": "A027003",
   "mentions": [
+    "A000032",
     "A026998"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 4,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p of the form sigma(2n-1) for a number n.",
+  "description": "Primes p of the form sigma(2k-1) for a number k.",
   "id": "A247837",
   "mentions": [
     "A000203",

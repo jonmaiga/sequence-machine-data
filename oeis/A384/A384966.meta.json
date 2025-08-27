@@ -1,0 +1,21 @@
+{
+  "description": "Number of sensed simple planar maps with n vertices and 2 faces.",
+  "id": "A384966",
+  "mentions": [
+    "A001429",
+    "A006078",
+    "A007595",
+    "A380237",
+    "A384964",
+    "A384967"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

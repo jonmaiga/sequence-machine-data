@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X8 0..2 arrays with every 2X2 subblock determinant equal to some horizontal or vertical neighbor 2X2 subblock determinant",
+  "description": "Number of (n+1)X8 0..2 arrays with every 2X2 subblock determinant equal to some horizontal or vertical neighbor 2X2 subblock determinant.",
   "id": "A186217",
   "mentions": [
     "A186218"

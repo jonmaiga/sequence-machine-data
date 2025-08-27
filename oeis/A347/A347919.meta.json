@@ -1,7 +1,11 @@
 {
   "description": "Number of minimal total dominating sets in the n X n queen graph.",
   "id": "A347919",
-  "mentions": [],
+  "mentions": [
+    "A002566",
+    "A303003",
+    "A303207"
+  ],
   "tags": [
     "more",
     "nonn"

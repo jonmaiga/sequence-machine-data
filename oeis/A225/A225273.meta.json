@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of distinct values of the sum of i^2 over n realizations of i in 0..k",
+  "description": "T(n,k)=Number of distinct values of the sum of i^2 over n realizations of i in 0..k.",
   "id": "A225273",
   "mentions": [
     "A000027",

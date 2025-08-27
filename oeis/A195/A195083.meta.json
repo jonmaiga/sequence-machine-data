@@ -1,5 +1,5 @@
 {
-  "description": "Interspersion fractally induced by (1+[2n/3]), where [ ] = floor; a rectangular array, by antidiagonals.",
+  "description": "Interspersion fractally induced by (1+[2*n/3]), where [ ] = floor; a rectangular array, by antidiagonals.",
   "id": "A195083",
   "mentions": [
     "A004396",

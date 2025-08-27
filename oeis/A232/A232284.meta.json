@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn 0..2 arrays with no element less than a strict majority of its horizontal, diagonal and antidiagonal neighbors",
+  "description": "Number of 4Xn 0..2 arrays with no element less than a strict majority of its horizontal, diagonal and antidiagonal neighbors.",
   "id": "A232284",
   "mentions": [
     "A232281"

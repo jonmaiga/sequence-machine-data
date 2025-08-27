@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2 * (5*n+2)^(n-1).",
+  "id": "A385086",
+  "mentions": [
+    "A007334",
+    "A052782",
+    "A385085"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

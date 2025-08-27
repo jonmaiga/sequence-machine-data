@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + 9*x*A(x)^4)^(2/3).",
+  "id": "A386415",
+  "mentions": [
+    "A004989",
+    "A078532",
+    "A377269",
+    "A386413",
+    "A386414",
+    "A386416"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} Fibonacci(k)/binomial(2*k, k).",
+  "id": "A385450",
+  "mentions": [
+    "A000045",
+    "A000984",
+    "A385508"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

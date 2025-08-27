@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..3 arrays with the maximum minus the lower median of every 2X2 subblock equal",
+  "description": "Number of (n+1)X(6+1) 0..3 arrays with the maximum minus the lower median of every 2X2 subblock equal.",
   "id": "A237174",
   "mentions": [
     "A237175"

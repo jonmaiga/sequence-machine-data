@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X8 0..3 arrays with every 2X2 subblock having nonzero determinant and having the same number of clockwise edge increases as its horizontal and vertical neighbors",
+  "description": "Number of (n+1)X8 0..3 arrays with every 2X2 subblock having nonzero determinant and having the same number of clockwise edge increases as its horizontal and vertical neighbors.",
   "id": "A205767",
   "mentions": [
     "A205768"

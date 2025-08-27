@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of digits of binomial(n+1,n-1) is a prime.",
+  "description": "Numbers k such that sum of digits of binomial(k+1, k-1) is a prime.",
   "id": "A129631",
   "mentions": [],
   "tags": [

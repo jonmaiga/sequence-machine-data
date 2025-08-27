@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 15*a(n-1) - 15*a(n-2) + a(n-3).",
+  "description": "a(n) = 15*a(n-1) - 15*a(n-2) + a(n-3) with a(0)=1, a(1)=3, and a(2)=33.",
   "id": "A011922",
   "mentions": [
     "A001075",

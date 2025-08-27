@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with the sums of 2X2 subblocks nondecreasing rightwards and downwards",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with the sums of 2X2 subblocks nondecreasing rightwards and downwards.",
   "id": "A204039",
   "mentions": [],
   "tags": [

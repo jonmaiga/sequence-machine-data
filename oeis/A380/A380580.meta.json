@@ -1,0 +1,23 @@
+{
+  "description": "Irregular tetrahedron T(s,r,k) read by rows in which the slice s is an irregular triangle, itself read by rows, in which row r lists the r-th row of A237593 sandwiched between two A380579(s+1,r+1), with s >= 0; 0 <= r <= s; k >= 0. Assume that row 0 of A237593 is empty.",
+  "id": "A380580",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A048050",
+    "A067742",
+    "A221529",
+    "A224613",
+    "A237593",
+    "A380579"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

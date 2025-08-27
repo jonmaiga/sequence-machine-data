@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n does not contain the digit 9 (probably finite).",
+  "description": "Numbers k such that 2^k does not contain the digit 9 (probably finite).",
   "id": "A035064",
   "mentions": [
     "A007377",
@@ -10,7 +10,8 @@
     "A035060",
     "A035061",
     "A035062",
-    "A035063"
+    "A035063",
+    "A065744"
   ],
   "tags": [
     "base",

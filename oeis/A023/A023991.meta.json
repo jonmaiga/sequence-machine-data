@@ -1,13 +1,32 @@
 {
   "description": "Sum of exponents of primes in multinomial coefficient M(3n; n+1,n,n-1).",
   "id": "A023991",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A022559",
+    "A023978",
+    "A023979",
+    "A023980",
+    "A023981",
+    "A023982",
+    "A023983",
+    "A023984",
+    "A023985",
+    "A023986",
+    "A023987",
+    "A023990",
+    "A023992",
+    "A023993",
+    "A076191",
+    "A248707"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

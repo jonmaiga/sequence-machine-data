@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+3)X(k+3) binary arrays with no more than three of any consecutive four bits set in any row or column",
+  "description": "T(n,k)=Number of (n+3)X(k+3) binary arrays with no more than three of any consecutive four bits set in any row or column.",
   "id": "A202726",
   "mentions": [],
   "tags": [

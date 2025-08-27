@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to arrange 6 nonattacking knights on the lower triangle of an n X n board",
+  "description": "Number of ways to arrange 6 nonattacking knights on the lower triangle of an n X n board.",
   "id": "A194490",
   "mentions": [
     "A194492"

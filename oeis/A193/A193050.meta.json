@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: 1 = Sum_{n>=0} x^n*A(-x)^A003059(n+1), where A003059 is defined by \"n appears 2n-1 times.\"",
+  "description": "G.f. A(x) satisfies: 1 = Sum_{n>=0} x^n*A(-x)^A003059(n+1), where A003059 is defined by \"n appears 2n-1 times.\".",
   "id": "A193050",
   "mentions": [
     "A003059",

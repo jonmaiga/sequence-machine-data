@@ -1,0 +1,23 @@
+{
+  "description": "Place a point on the integer coordinates, up to |n|, along all four axial directions on a Cartesian plane, and then join a circle through every unordered triple of non-collinear points: a(n) is the number of distinct (finite) regions created.",
+  "id": "A385161",
+  "mentions": [
+    "A359570",
+    "A372977",
+    "A374826",
+    "A384702",
+    "A385159",
+    "A385160",
+    "A385162"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

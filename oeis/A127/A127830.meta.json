@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=sum{k=0..n, mod(C(floor(k/2),n-k),2)}.",
+  "description": "a(n) = Sum_{k=0..n} (binomial(floor(k/2),n-k) mod 2).",
   "id": "A127830",
   "mentions": [
     "A000045",

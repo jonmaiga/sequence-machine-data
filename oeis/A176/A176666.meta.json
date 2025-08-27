@@ -1,5 +1,5 @@
 {
-  "description": "A triangle of polynomial coefficients:p(x,n)=Sum[(2*k + 1)^n*k!*Binomial[x, k], {k, 0, n}]",
+  "description": "A triangle of polynomial coefficients:p(x,n)=Sum[(2*k + 1)^n*k!*Binomial[x, k], {k, 0, n}].",
   "id": "A176666",
   "mentions": [
     "A103457"

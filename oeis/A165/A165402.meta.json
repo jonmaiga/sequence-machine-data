@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (10^n*2 - 11)/9.",
+  "description": "a(n) = (2*10^n - 11)/9.",
   "id": "A165402",
   "mentions": [
     "A084832"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

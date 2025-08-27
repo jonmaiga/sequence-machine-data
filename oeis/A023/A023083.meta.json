@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k and 6*k are anagrams in base 9 (written in base 9).",
+  "description": "Positive numbers k such that k and 6*k are anagrams in base 9 (written in base 9).",
   "id": "A023083",
   "mentions": [
     "A007095"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 29,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,10 @@
   "description": "a(n) = 3^((6+5*n+n^3)/6).",
   "id": "A218149",
   "mentions": [
-    "A006125"
+    "A006125",
+    "A218148",
+    "A218150",
+    "A218151"
   ],
   "tags": [
     "easy",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": -1,
     "size": 11,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

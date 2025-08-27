@@ -1,5 +1,5 @@
 {
-  "description": "n+floor(nr/t)+floor(ns/t), where r=log(2), s=log(3), t=log(5).",
+  "description": "a(n) = n + floor(nr/t) + floor(ns/t), where r=log(2), s=log(3), t=log(5).",
   "id": "A184873",
   "mentions": [
     "A184812",

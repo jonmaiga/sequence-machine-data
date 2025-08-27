@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k arrays of n elements with adjacent element differences also in -k..k",
+  "description": "T(n,k)=Number of -k..k arrays of n elements with adjacent element differences also in -k..k.",
   "id": "A201042",
   "mentions": [
     "A001333",

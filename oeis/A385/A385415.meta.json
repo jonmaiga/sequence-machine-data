@@ -1,0 +1,20 @@
+{
+  "description": "Products of three consecutive integers whose prime divisors are consecutive primes starting at 2.",
+  "id": "A385415",
+  "mentions": [
+    "A007531",
+    "A055932",
+    "A083207",
+    "A385189"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

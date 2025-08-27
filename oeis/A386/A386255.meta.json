@@ -1,0 +1,22 @@
+{
+  "description": "Number of words of length n over an infinite alphabet such that for any letter k appearing within a word the letter k appears at least k times and exactly one of each kind of letter is marked.",
+  "id": "A386255",
+  "mentions": [
+    "A002999",
+    "A005183",
+    "A007837",
+    "A032299",
+    "A347006",
+    "A386254"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,8 +2,15 @@
   "description": "Number of partitions of n into two parts such that one is squarefree and the other is nonsquarefree.",
   "id": "A294101",
   "mentions": [
+    "A008683",
     "A008966",
-    "A294100"
+    "A071068",
+    "A262868",
+    "A262869",
+    "A262991",
+    "A294100",
+    "A294232",
+    "A294233"
   ],
   "tags": [
     "easy",

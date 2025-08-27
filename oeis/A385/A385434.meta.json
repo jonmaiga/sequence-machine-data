@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of Gaussian binomial coefficients (or q-binomial coefficients) [n,k] for q = 2, reduced mod 3.",
+  "id": "A385434",
+  "mentions": [
+    "A007318",
+    "A022166",
+    "A385435"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

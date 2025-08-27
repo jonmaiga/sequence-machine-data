@@ -1,0 +1,21 @@
+{
+  "description": "Perfect powers whose digits are in nonincreasing order.",
+  "id": "A385517",
+  "mentions": [
+    "A001597",
+    "A009995",
+    "A355060",
+    "A355062",
+    "A355063",
+    "A385516"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

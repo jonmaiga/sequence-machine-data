@@ -1,14 +1,17 @@
 {
-  "description": "Numbers n such that nextprime(7*n)>7*nextprime(n) (if p is prime then nextprime(p)=p).",
+  "description": "Numbers k such that nextprime(7*k) > 7*nextprime(k) (if p is prime then nextprime(p) = p).",
   "id": "A117095",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A007918"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A386005(n) - n*A373387(n).",
+  "id": "A386008",
+  "mentions": [
+    "A317905",
+    "A349425",
+    "A356946",
+    "A372490",
+    "A373387",
+    "A386005"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

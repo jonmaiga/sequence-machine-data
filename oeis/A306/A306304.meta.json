@@ -1,5 +1,5 @@
 {
-  "description": "Least number m such that A323835(m) = n",
+  "description": "Least number m such that A323835(m) = n.",
   "id": "A306304",
   "mentions": [
     "A320485",

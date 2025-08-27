@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 2^p+11 is a prime",
+  "description": "Primes p such that 2^p+11 is a prime.",
   "id": "A155780",
   "mentions": [
     "A000040",

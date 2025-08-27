@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that arithmetic mean of squares of the first n nonzero Fibonacci numbers is an integer.",
+  "description": "Numbers k such that arithmetic mean of squares of the first k nonzero Fibonacci numbers is an integer.",
   "id": "A140971",
   "mentions": [
     "A000045",
     "A001654",
-    "A101907"
+    "A101907",
+    "A140972"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*prime(n)+(n+1)*prime(n+1)+(n+2)*prime(n+2) is prime.",
+  "description": "Numbers k such that k*prime(k)+(k+1)*prime(k+1)+(k+2)*prime(k+2) is prime.",
   "id": "A105455",
   "mentions": [
     "A033286",

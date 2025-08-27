@@ -1,14 +1,18 @@
 {
-  "description": "Numbers n such that n! stripped of trailing zeros ends in n.",
+  "description": "Numbers k such that k! stripped of trailing zeros ends in k.",
   "id": "A045647",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A004154"
+  ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

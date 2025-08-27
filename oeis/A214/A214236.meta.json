@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..7 colorings of an nX7 array circular in the 7 direction with new values 0..7 introduced in row major order",
+  "description": "Number of 0..7 colorings of an nX7 array circular in the 7 direction with new values 0..7 introduced in row major order.",
   "id": "A214236",
   "mentions": [
     "A214238"

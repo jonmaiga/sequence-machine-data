@@ -1,0 +1,16 @@
+{
+  "description": "Number of cuboids (rectangular prisms) that can be formed from the points of Z^3 (a cubical grid of n X n X n points).",
+  "id": "A385023",
+  "mentions": [
+    "A098928"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

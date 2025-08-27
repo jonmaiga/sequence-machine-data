@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = Sum_{k>=0} x^k/k! * A(k^2*x).",
+  "id": "A385547",
+  "mentions": [
+    "A125281",
+    "A385543"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

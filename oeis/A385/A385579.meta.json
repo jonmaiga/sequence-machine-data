@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime factor that the repunit(n) = (10^n-1)/9 shares with at least one other binary vector of the same length in base 10, or 1 if they are coprime.",
+  "id": "A385579",
+  "mentions": [
+    "A003020",
+    "A067063",
+    "A378761",
+    "A385537",
+    "A385539"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

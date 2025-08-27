@@ -1,5 +1,5 @@
 {
-  "description": "Number of line segments connecting exactly 3 points in an n X n grid of points",
+  "description": "Number of line segments connecting exactly 3 points in an n X n grid of points.",
   "id": "A177719",
   "mentions": [
     "A114043",

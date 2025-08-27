@@ -1,5 +1,5 @@
 {
-  "description": "The total number of distinct Pythagorean triples with an area numerically equal to n times their perimeters",
+  "description": "The total number of distinct Pythagorean triples with an area numerically equal to n times their perimeters.",
   "id": "A156688",
   "mentions": [
     "A000005",

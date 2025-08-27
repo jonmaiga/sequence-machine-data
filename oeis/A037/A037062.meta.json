@@ -2,17 +2,28 @@
   "description": "a(n)-th prime is the smallest prime containing exactly n 5's.",
   "id": "A037062",
   "mentions": [
+    "A000720",
     "A034388",
-    "A037063"
+    "A037052",
+    "A037054",
+    "A037056",
+    "A037058",
+    "A037060",
+    "A037063",
+    "A037064",
+    "A037066",
+    "A037068",
+    "A037070"
   ],
   "tags": [
     "base",
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n-1,n,n+1 have few distinct primes: n=p^r, p odd prime, and (n^2-1)/8 divisible by at most two distinct prime factors.",
+  "description": "Integers k such that k-1,k,k+1 have few distinct primes: k=p^r, p odd prime, and (k^2-1)/8 divisible by at most two distinct prime factors.",
   "id": "A172095",
   "mentions": [
     "A005105",

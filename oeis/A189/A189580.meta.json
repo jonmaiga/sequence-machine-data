@@ -1,5 +1,5 @@
 {
-  "description": "Least prime q such that q(n) is the first of ten primes in arithmetic progression of ratio Prime(n)# or 0 if no solution",
+  "description": "Least prime q such that q(n) is the first of ten primes in arithmetic progression of ratio Prime(n)# or 0 if no solution.",
   "id": "A189580",
   "mentions": [
     "A188366"

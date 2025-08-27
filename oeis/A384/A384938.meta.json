@@ -1,0 +1,22 @@
+{
+  "description": "Number for rooted ordered trees with edge weights summing to n, where edge weights are all greater than zero, and the sequences of edge weights in all downward paths are strictly increasing.",
+  "id": "A384938",
+  "mentions": [
+    "A000108",
+    "A000169",
+    "A000957",
+    "A001764",
+    "A036765",
+    "A384747",
+    "A384748"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

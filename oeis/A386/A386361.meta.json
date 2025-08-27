@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that the least part occurs exactly (1/4)*(number of parts) times.",
+  "id": "A386361",
+  "mentions": [
+    "A000005",
+    "A237826",
+    "A239497",
+    "A386360"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

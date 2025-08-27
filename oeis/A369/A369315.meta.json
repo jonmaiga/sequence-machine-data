@@ -2,10 +2,12 @@
   "description": "Number of chiral pairs of polyominoes composed of n square cells of the hyperbolic regular tiling with Schläfli symbol {4,oo}.",
   "id": "A369315",
   "mentions": [
+    "A001764",
     "A005034",
     "A005036",
     "A047749",
-    "A369314"
+    "A369314",
+    "A385149"
   ],
   "tags": [
     "easy",

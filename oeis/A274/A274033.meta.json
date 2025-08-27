@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n = a^2 + b^4 and n^2 = c^3 + d^5 for some positive integers a, b, c, d.",
+  "description": "Numbers k such that k = a^2 + b^4 and n^2 = c^3 + d^5 for some positive integers a, b, c, d.",
   "id": "A274033",
   "mentions": [
     "A100293",

@@ -1,14 +1,25 @@
 {
   "description": "Palindromic and divisible by 8.",
   "id": "A045643",
-  "mentions": [],
+  "mentions": [
+    "A002113",
+    "A008590",
+    "A029951",
+    "A043040",
+    "A043041",
+    "A045638",
+    "A045639",
+    "A045642",
+    "A045644",
+    "A083852"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

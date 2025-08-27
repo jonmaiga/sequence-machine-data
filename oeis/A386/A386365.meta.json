@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (Sum_{k>=0} binomial(3*k,k) * x^k)^(1/3).",
+  "id": "A386365",
+  "mentions": [
+    "A000142",
+    "A005809",
+    "A007696",
+    "A378483",
+    "A386366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

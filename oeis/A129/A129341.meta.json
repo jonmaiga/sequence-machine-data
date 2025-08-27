@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th and (n+1)th triangular numbers have no common digit.",
+  "description": "Numbers k such that k-th and (k+1)-th triangular numbers have no common digit.",
   "id": "A129341",
   "mentions": [
     "A000217"

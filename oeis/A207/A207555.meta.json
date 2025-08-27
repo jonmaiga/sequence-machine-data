@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..2 arrays avoiding the pattern z-2 z-1 z in any row, column, nw-to-se diagonal or ne-to-sw antidiagonal",
+  "description": "Number of 7Xn 0..2 arrays avoiding the pattern z-2 z-1 z in any row, column, nw-to-se diagonal or ne-to-sw antidiagonal.",
   "id": "A207555",
   "mentions": [
     "A207550"

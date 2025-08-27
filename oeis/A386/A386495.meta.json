@@ -1,0 +1,17 @@
+{
+  "description": "Least prime starting a sequence of exactly n consecutive primes with identical counts of even digits.",
+  "id": "A386495",
+  "mentions": [
+    "A196563",
+    "A386475"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

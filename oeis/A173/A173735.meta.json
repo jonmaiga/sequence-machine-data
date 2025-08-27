@@ -2,7 +2,8 @@
   "description": "a(n) = (10^n + 26)/9.",
   "id": "A173735",
   "mentions": [
-    "A002279"
+    "A002279",
+    "A178769"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

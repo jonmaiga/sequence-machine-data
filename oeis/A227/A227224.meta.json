@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*(sum of digits of n) is a perfect square.",
+  "description": "Numbers k such that k*(sum of digits of k) is a perfect square.",
   "id": "A227224",
   "mentions": [
     "A007953"

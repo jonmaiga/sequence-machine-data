@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..3 arrays of the sum of the corresponding element, the element to the east and the element to the south in a larger (n+1)X8 0..1 array",
+  "description": "Number of nX7 0..3 arrays of the sum of the corresponding element, the element to the east and the element to the south in a larger (n+1)X8 0..1 array.",
   "id": "A229391",
   "mentions": [
     "A229392"

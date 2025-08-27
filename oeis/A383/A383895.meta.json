@@ -1,0 +1,16 @@
+{
+  "description": "Number of spiny partitions with exactly n parts.",
+  "id": "A383895",
+  "mentions": [
+    "A382440",
+    "A383894"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

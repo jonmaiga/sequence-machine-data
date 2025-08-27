@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the reflection (absolute) lengths of all elements in the Coxeter group of type D_n",
+  "description": "Sum of the reflection (absolute) lengths of all elements in the Coxeter group of type D_n.",
   "id": "A197131",
   "mentions": [
     "A067318",

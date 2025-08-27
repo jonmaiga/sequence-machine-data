@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of embeddings on the sphere of connected simple planar graphs with n nodes and k faces, n >= 1, k=1..max(1,2*n-4).",
+  "id": "A384963",
+  "mentions": [
+    "A006082",
+    "A006395",
+    "A212438",
+    "A277741",
+    "A342060",
+    "A372892",
+    "A384850",
+    "A384964",
+    "A384967"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest divisor of sigma(n) that is not element of the union of the sets of divisors of sigma(k) for 1 <= k < n; or 0 if no such divisor exists.",
+  "id": "A385478",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A027750",
+    "A062068",
+    "A385467",
+    "A385479"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

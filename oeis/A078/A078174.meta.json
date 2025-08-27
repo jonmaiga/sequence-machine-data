@@ -2,7 +2,6 @@
   "description": "Numbers with an integer arithmetic mean of distinct prime factors.",
   "id": "A078174",
   "mentions": [
-    "A000961",
     "A001221",
     "A001414",
     "A008472",
@@ -12,6 +11,7 @@
     "A112798",
     "A123528",
     "A123529",
+    "A246655",
     "A316413",
     "A316428",
     "A323171",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of three coprime positive cubes",
+  "description": "Numbers that are the sum of three coprime positive cubes.",
   "id": "A334964",
   "mentions": [
     "A202679"

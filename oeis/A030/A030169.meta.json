@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of real number x such that y = Gamma(x) is a minimum.",
+  "description": "Decimal expansion of the real positive number x such that Gamma(x) is a minimum.",
   "id": "A030169",
   "mentions": [
     "A030171"

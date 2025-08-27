@@ -1,7 +1,9 @@
 {
-  "description": "11*10^n+1.",
+  "description": "a(n) = 11*10^n + 1.",
   "id": "A199691",
-  "mentions": [],
+  "mentions": [
+    "A199690"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

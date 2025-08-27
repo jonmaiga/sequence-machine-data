@@ -1,18 +1,19 @@
 {
-  "description": "Expansion of (1+3*x) / (1-x-4*x^2).",
+  "description": "A(m,n) is the maximum sum of absolute differences of the labels of adjacent vertices of the grid graph P_m X P_n where the m*n labels are exactly 1, 2, ..., m*n.",
   "id": "A384616",
   "mentions": [
-    "A026597",
-    "A384604"
+    "A047838",
+    "A067725"
   ],
   "tags": [
-    "easy",
+    "formulas",
+    "more",
     "nonn",
-    "walk"
+    "tabl"
   ],
   "terms": {
-    "offset": 0,
-    "size": 30,
-    "source": "joeis"
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
   }
 }

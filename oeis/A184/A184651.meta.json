@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X4 0..3 arrays with each 3X3 subblock nonsingular",
+  "description": "Number of (n+2)X4 0..3 arrays with each 3X3 subblock nonsingular.",
   "id": "A184651",
   "mentions": [
     "A184652"

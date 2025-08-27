@@ -1,7 +1,10 @@
 {
   "description": "Smallest number that is not the sum of squares of distinct earlier terms.",
   "id": "A008321",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A004431"
+  ],
   "tags": [
     "nonn"
   ],

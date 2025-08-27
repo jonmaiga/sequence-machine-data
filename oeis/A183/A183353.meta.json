@@ -1,5 +1,5 @@
 {
-  "description": "One quarter the number of n X n 1..4 arrays with no two neighbors of any element equal to each other",
+  "description": "One quarter the number of n X n 1..4 arrays with no two neighbors of any element equal to each other.",
   "id": "A183353",
   "mentions": [
     "A183362"

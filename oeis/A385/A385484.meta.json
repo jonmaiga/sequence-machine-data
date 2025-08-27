@@ -1,0 +1,22 @@
+{
+  "description": "Records in A385482.",
+  "id": "A385484",
+  "mentions": [
+    "A049445",
+    "A144363",
+    "A385482",
+    "A385483",
+    "A385487"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

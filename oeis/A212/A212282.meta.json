@@ -1,5 +1,5 @@
 {
-  "description": "Minimal m>=1 such that n!/m-1 is prime.",
+  "description": "Minimal m >= 1 such that n!/m-1 is prime.",
   "id": "A212282",
   "mentions": [
     "A212281"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 3,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

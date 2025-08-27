@@ -1,5 +1,5 @@
 {
-  "description": "Smallest Rhonda number to base b = n-th composite number, cf. A002808.",
+  "description": "Smallest Rhonda number to base b = n-th composite number, A002808(n).",
   "id": "A255872",
   "mentions": [
     "A002808",

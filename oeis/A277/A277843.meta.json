@@ -1,5 +1,5 @@
 {
-  "description": "Number of finite automata with n states, n input symbols and five output symbols",
+  "description": "Number of finite automata with n states, n input symbols and five output symbols.",
   "id": "A277843",
   "mentions": [
     "A277839",

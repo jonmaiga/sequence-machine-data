@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+6 0..k arrays with every seven consecutive terms having five times the sum of some two elements equal to two times the sum of the remaining five",
+  "description": "T(n,k)=Number of length n+6 0..k arrays with every seven consecutive terms having five times the sum of some two elements equal to two times the sum of the remaining five.",
   "id": "A249255",
   "mentions": [],
   "tags": [

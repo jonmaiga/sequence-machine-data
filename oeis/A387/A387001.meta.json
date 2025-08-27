@@ -1,0 +1,22 @@
+{
+  "description": "Number of vertices in the diagram called \"symmetric representation of sigma(n)\" where its \"parts\" or polygons are dissected into unit squares (see the example).",
+  "id": "A387001",
+  "mentions": [
+    "A000203",
+    "A005408",
+    "A155085",
+    "A224880",
+    "A237270",
+    "A237271",
+    "A237593"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

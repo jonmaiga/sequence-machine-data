@@ -1,5 +1,5 @@
 {
-  "description": "Number of {2,3}-regular graphs, i.e., labeled simple graphs (no multi-edges or loops) on n vertices, each of degree 2 or 3.",
+  "description": "Number of {2,3}-regular graphs; i.e., labeled simple graphs (no multi-edges or loops) on n vertices, each of degree 2 or 3.",
   "id": "A110040",
   "mentions": [
     "A000085",

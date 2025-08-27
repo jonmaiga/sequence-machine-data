@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7X7X7 triangular nonnegative integer arrays with all sums of an element and its neighbors <= n",
+  "description": "Number of 7X7X7 triangular nonnegative integer arrays with all sums of an element and its neighbors <= n.",
   "id": "A166193",
   "mentions": [],
   "tags": [

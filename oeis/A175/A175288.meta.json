@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the constant x satisfying (cos(x))^2 = sin(x).",
+  "description": "Decimal expansion of the minimal positive constant x satisfying (cos(x))^2 = sin(x).",
   "id": "A175288",
   "mentions": [
     "A001622",

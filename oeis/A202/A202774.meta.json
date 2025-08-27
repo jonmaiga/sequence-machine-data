@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X7 binary arrays avoiding patterns 000 and 011 in rows, columns and nw-to-se diagonals",
+  "description": "Number of (n+2)X7 binary arrays avoiding patterns 000 and 011 in rows, columns and nw-to-se diagonals.",
   "id": "A202774",
   "mentions": [
     "A202777"

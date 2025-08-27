@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element moved but remaining in its original row or its original column",
+  "description": "T(n,k)=Number of nXk array permutations with each element moved but remaining in its original row or its original column.",
   "id": "A188813",
   "mentions": [
     "A000166"

@@ -1,0 +1,21 @@
+{
+  "description": "Ratio of the period and the reduced period of the Fibonacci 3-step sequence A000073 mod n.",
+  "id": "A386236",
+  "mentions": [
+    "A000073",
+    "A001176",
+    "A046737",
+    "A046738",
+    "A060839",
+    "A154754"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

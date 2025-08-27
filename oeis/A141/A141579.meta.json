@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the arithmetic mean of the first n tribonacci numbers A000073 is an integer.",
+  "description": "Numbers k such that the arithmetic mean of the first k tribonacci numbers A000073 is an integer.",
   "id": "A141579",
   "mentions": [
     "A000073",

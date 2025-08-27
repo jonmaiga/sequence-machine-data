@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X4 0..3 arrays with each element of every 2X2 subblock being the sum mod 4 of two others",
+  "description": "Number of (n+1)X4 0..3 arrays with each element of every 2X2 subblock being the sum mod 4 of two others.",
   "id": "A183848",
   "mentions": [
     "A183854"

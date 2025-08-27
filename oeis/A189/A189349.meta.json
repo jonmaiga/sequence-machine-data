@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 array permutations with each element moving one space diagonally, horizontally or vertically",
+  "description": "Number of nX3 array permutations with each element moving one space diagonally, horizontally or vertically.",
   "id": "A189349",
   "mentions": [
     "A189355"

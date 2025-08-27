@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-3x)(1-6x)(1-11x)).",
+  "description": "Expansion of 1/((1-3x)*(1-6x)*(1-11x)).",
   "id": "A017953",
   "mentions": [],
   "tags": [

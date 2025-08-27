@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nXnXn triangular binary arrays with every element equal to at most 3 neighbors",
+  "description": "Half the number of nXnXn triangular binary arrays with every element equal to at most 3 neighbors.",
   "id": "A192485",
   "mentions": [],
   "tags": [

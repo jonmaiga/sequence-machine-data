@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the Product {n>=2, Omega(n)=2} 1/(1 - 1/n^2).",
+  "id": "A386744",
+  "mentions": [
+    "A001222",
+    "A001358"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

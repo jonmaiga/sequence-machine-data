@@ -1,0 +1,21 @@
+{
+  "description": "The number of positive k <= 2*n + 1 such that 2*n + 1 divides (2^k + 2*n + 1)^2 - 1.",
+  "id": "A385326",
+  "mentions": [
+    "A003462",
+    "A005384",
+    "A005408",
+    "A076481",
+    "A081858",
+    "A102781",
+    "A224486"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

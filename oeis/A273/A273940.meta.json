@@ -1,7 +1,8 @@
 {
-  "description": "Primes of the form 5^n - n.",
+  "description": "Primes of the form 5^m - m.",
   "id": "A273940",
   "mentions": [
+    "A024050",
     "A058046",
     "A081296",
     "A224420",
@@ -11,12 +12,13 @@
     "A273941"
   ],
   "tags": [
-    "bref",
+    "formulas",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Count from 1, repeating 2n five times.",
+  "description": "Count from 1, repeating 2*n five times.",
   "id": "A099480",
   "mentions": [
     "A099479",

@@ -1,0 +1,24 @@
+{
+  "description": "Period of {binomial(N,7) mod n: N in Z}.",
+  "id": "A385558",
+  "mentions": [
+    "A022998",
+    "A349593",
+    "A385555",
+    "A385556",
+    "A385557",
+    "A385559",
+    "A385560"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

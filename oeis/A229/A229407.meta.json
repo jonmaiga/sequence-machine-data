@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays avoiding 11 horizontally, 22 vertically, 33 antidiagonally and 00 diagonally",
+  "description": "Number of nX3 0..3 arrays avoiding 11 horizontally, 22 vertically, 33 antidiagonally and 00 diagonally.",
   "id": "A229407",
   "mentions": [
     "A229412"

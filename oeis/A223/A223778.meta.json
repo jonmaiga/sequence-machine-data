@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..1 arrays with row sums unimodal and column sums inverted unimodal",
+  "description": "Number of nX3 0..1 arrays with row sums unimodal and column sums inverted unimodal.",
   "id": "A223778",
   "mentions": [
     "A223782"

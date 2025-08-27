@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs (a, b) of positive integers with a <= b such that both a^2 - nb and b^2 - na are squares",
+  "description": "Number of pairs (a, b) of positive integers with a <= b such that both a^2 - nb and b^2 - na are squares.",
   "id": "A176836",
   "mentions": [
     "A176835",

@@ -2,6 +2,7 @@
   "description": "Number of chains of length n in the lattice of set partitions of [2n] ordered by refinement.",
   "id": "A332244",
   "mentions": [
+    "A226775",
     "A331955"
   ],
   "tags": [

@@ -1,14 +1,24 @@
 {
   "description": "Galois numbers for p=5; order of group AGL(n,5).",
   "id": "A028667",
-  "mentions": [],
+  "mentions": [
+    "A028365",
+    "A028665",
+    "A028669",
+    "A028673",
+    "A028675",
+    "A028679",
+    "A028681",
+    "A028685",
+    "A100222"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 10,
     "source": "oeis-bfile"
   }
 }

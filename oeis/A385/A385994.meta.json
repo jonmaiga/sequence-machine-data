@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically greatest increasing expansion Pi = Sum_{n>=0} a(n)/10^n, where a(n+1) >= a(n).",
+  "id": "A385994",
+  "mentions": [
+    "A000796",
+    "A229939"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

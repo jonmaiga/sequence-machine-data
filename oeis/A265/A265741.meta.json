@@ -1,5 +1,5 @@
 {
-  "description": "Integers in the interval [e*k - 1/k, e*k + 1/k] for some k >0 , where e = 2.71828... is Euler's number.",
+  "description": "Integers in the interval [e*k - 1/k, e*k + 1/k] for some k > 0 , where e = 2.71828... is Euler's number.",
   "id": "A265741",
   "mentions": [
     "A001113",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

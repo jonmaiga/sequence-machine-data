@@ -1,0 +1,24 @@
+{
+  "description": "The number of iterations of the infinitary analog of the totient function A384247 that are required to reach from n to 1.",
+  "id": "A385744",
+  "mentions": [
+    "A003434",
+    "A049865",
+    "A225320",
+    "A333609",
+    "A384247",
+    "A385745",
+    "A385746",
+    "A385747"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

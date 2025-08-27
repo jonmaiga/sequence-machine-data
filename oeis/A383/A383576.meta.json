@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of numbers of the form k = m^e, where m is squarefree and (-1)^omega(k) = -mu(e).",
+  "id": "A383576",
+  "mentions": [
+    "A001221",
+    "A005117",
+    "A008683",
+    "A382883",
+    "A383017",
+    "A383575",
+    "A384667",
+    "A384709"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

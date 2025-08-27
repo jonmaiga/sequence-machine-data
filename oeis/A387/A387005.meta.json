@@ -1,0 +1,22 @@
+{
+  "description": "Number of free (d,2)-polyominoids of size n in arbitrary dimension d.",
+  "id": "A387005",
+  "mentions": [
+    "A000105",
+    "A005519",
+    "A075679",
+    "A365565",
+    "A366334",
+    "A387003",
+    "A387004"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

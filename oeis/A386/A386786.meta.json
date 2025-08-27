@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n^4*sigma_6(n).",
+  "id": "A386786",
+  "mentions": [
+    "A013954",
+    "A280022",
+    "A280025",
+    "A386750",
+    "A386777",
+    "A386780",
+    "A386783",
+    "A386784",
+    "A386785",
+    "A386787",
+    "A386788"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

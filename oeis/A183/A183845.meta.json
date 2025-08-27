@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) binary arrays with each element of every 2X2 subblock being the sum mod 2 of two others",
+  "description": "T(n,k)=Number of (n+1)X(k+1) binary arrays with each element of every 2X2 subblock being the sum mod 2 of two others.",
   "id": "A183845",
   "mentions": [],
   "tags": [

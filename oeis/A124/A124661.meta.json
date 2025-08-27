@@ -1,9 +1,10 @@
 {
-  "description": "Popular primes: primes prime(n) such that prime(n-k)+prime(n+k) >= 2*prime(n) for all k = 1,2,...n-2.",
+  "description": "Primes prime(n) such that prime(n-k)+prime(n+k) >= 2*prime(n) for k = 1..n-2.",
   "id": "A124661",
   "mentions": [
     "A006530",
-    "A051635"
+    "A051635",
+    "A385503"
   ],
   "tags": [
     "easy",

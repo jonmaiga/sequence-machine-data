@@ -1,5 +1,5 @@
 {
-  "description": "A subset of vampire numbers: n has a nontrivial factorization using n's digits in reverse order",
+  "description": "A subset of vampire numbers: n has a nontrivial factorization using n's digits in reverse order.",
   "id": "A179482",
   "mentions": [
     "A009944",

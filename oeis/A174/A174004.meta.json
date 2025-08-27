@@ -1,5 +1,5 @@
 {
-  "description": "A triangle based on:a(n,q)=a(n-1,q)+q*a(n-2,q);t(n,q)=If[n == 0, 1, Sum[Binomial[n, k]*a(k, q), {k, 1, n, 2}]]",
+  "description": "A triangle based on:a(n,q)=a(n-1,q)+q*a(n-2,q);t(n,q)=If[n == 0, 1, Sum[Binomial[n, k]*a(k, q), {k, 1, n, 2}]].",
   "id": "A174004",
   "mentions": [],
   "tags": [

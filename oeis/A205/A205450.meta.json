@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that n divides s(k)-s(j) for some j",
+  "description": "Least k such that n divides s(k) - s(j) for some j",
   "id": "A205450",
   "mentions": [
     "A001906",

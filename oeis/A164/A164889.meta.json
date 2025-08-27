@@ -1,5 +1,5 @@
 {
-  "description": "Smallest positive integer for each n such that the sequences a(n), a(n)+n, a(n)+2n, and a(n)+3n have no repeated terms",
+  "description": "Smallest positive integer for each n such that the sequences a(n), a(n)+n, a(n)+2n, and a(n)+3n have no repeated terms.",
   "id": "A164889",
   "mentions": [
     "A164888"

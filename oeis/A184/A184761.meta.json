@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of nXk binary arrays with no 1 having an adjacent 1 both above and to its left",
+  "description": "T(n,k)=Half the number of nXk binary arrays with no 1 having an adjacent 1 both above and to its left.",
   "id": "A184761",
   "mentions": [
     "A007484",

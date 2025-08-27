@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are unitarily divisible by their number of divisors.",
+  "id": "A387055",
+  "mentions": [
+    "A000005",
+    "A023534",
+    "A033950",
+    "A048166",
+    "A077610"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

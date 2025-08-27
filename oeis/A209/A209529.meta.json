@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock having exactly two distinct clockwise edge differences",
+  "description": "Half the number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock having exactly two distinct clockwise edge differences.",
   "id": "A209529",
   "mentions": [
     "A209534"

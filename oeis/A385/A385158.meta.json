@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the digits of k is a number that appears as a substring of k, and every nonzero digit of k appears in that sum.",
+  "id": "A385158",
+  "mentions": [
+    "A007953",
+    "A031286",
+    "A052018",
+    "A061209",
+    "A070939"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

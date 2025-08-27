@@ -1,0 +1,20 @@
+{
+  "description": "Perimeters of nondegenerate triangles with integer areas, whose side lengths are triangular numbers.",
+  "id": "A385737",
+  "mentions": [
+    "A000217",
+    "A051516",
+    "A070083",
+    "A380875",
+    "A385736",
+    "A385872"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

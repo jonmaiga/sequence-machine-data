@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n, k) * Product_{k=1..n} radical(k), where radical(n) is the product of distinct prime factors of n, cf. A007947.",
+  "id": "A387138",
+  "mentions": [
+    "A007318",
+    "A007947",
+    "A048803",
+    "A387126",
+    "A387139"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

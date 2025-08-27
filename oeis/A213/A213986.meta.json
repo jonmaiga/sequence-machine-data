@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..4 matrices whose square is also a 0..4 matrix",
+  "description": "Number of n X n 0..4 matrices whose square is also a 0..4 matrix.",
   "id": "A213986",
   "mentions": [
     "A213990"

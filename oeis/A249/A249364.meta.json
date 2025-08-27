@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 5+6 0..n arrays with every seven consecutive terms having six times some element equal to the sum of the remaining six",
+  "description": "Number of length 5+6 0..n arrays with every seven consecutive terms having six times some element equal to the sum of the remaining six.",
   "id": "A249364",
   "mentions": [
     "A249359"

@@ -2,8 +2,8 @@
   "description": "Number of bits in binary expansion of n-th prime.",
   "id": "A035100",
   "mentions": [
-    "A000040",
     "A000523",
+    "A004676",
     "A029837",
     "A070939",
     "A162145"

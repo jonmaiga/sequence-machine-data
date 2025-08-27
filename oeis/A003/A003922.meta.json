@@ -2,7 +2,11 @@
   "description": "Order of universal Chevalley group B_n (5).",
   "id": "A003922",
   "mentions": [
-    "A003920"
+    "A003920",
+    "A003921",
+    "A003924",
+    "A003925",
+    "A003926"
   ],
   "tags": [
     "easy",

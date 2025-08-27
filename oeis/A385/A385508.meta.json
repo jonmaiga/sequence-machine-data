@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} Fibonacci(k)/Catalan(k).",
+  "id": "A385508",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A385450"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

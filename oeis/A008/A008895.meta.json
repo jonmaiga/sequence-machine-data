@@ -1,7 +1,9 @@
 {
-  "description": "x->x/2 if x even, x->3x-1 if x odd.",
+  "description": "The 3x-1 map: a(n) = n/2 if n is even, 3n-1 if n is odd.",
   "id": "A008895",
-  "mentions": [],
+  "mentions": [
+    "A006370"
+  ],
   "tags": [
     "nonn"
   ],

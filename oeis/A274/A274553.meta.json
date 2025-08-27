@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) == 0 (mod n+4).",
+  "description": "Numbers k such that sigma(k) == 0 (mod k+4).",
   "id": "A274553",
   "mentions": [
     "A045770",

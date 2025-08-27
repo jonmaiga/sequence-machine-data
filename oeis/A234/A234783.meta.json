@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..3 arrays with no adjacent elements equal and with each 2X2 subblock having the number of clockwise edge increases equal to the number of counterclockwise edge increases",
+  "description": "Number of (n+1)X(5+1) 0..3 arrays with no adjacent elements equal and with each 2X2 subblock having the number of clockwise edge increases equal to the number of counterclockwise edge increases.",
   "id": "A234783",
   "mentions": [
     "A234786"

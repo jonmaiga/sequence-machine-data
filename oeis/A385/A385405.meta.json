@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/(2*cosh(1)^2).",
+  "id": "A385405",
+  "mentions": [
+    "A000045",
+    "A073743"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the volume of a triaugmented truncated dodecahedron with unit edges.",
+  "id": "A386544",
+  "mentions": [
+    "A002163",
+    "A179590",
+    "A377695",
+    "A385506",
+    "A385804",
+    "A386464",
+    "A386466",
+    "A386545"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Fractalization of (1+[2n/3]), where [ ] = floor.",
+  "description": "Fractalization of (1+[2*n/3]), where [ ] = floor.",
   "id": "A195082",
   "mentions": [
     "A004396",

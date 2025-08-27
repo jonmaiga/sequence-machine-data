@@ -2,16 +2,19 @@
   "description": "Arises from enumeration of a certain class of zig-zag knight's paths on the square grid.",
   "id": "A368376",
   "mentions": [
-    "A144336",
+    "A004148",
+    "A093128",
+    "A144366",
+    "A166297",
     "A368377"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

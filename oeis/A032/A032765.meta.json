@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = floor(n*(n+1)*(n+2) / (n + n+1 + n+2)), which equals floor(n*(n+2)/3).",
+  "description": "a(n) = floor(n*(n+1)*(n+2) / (n + n+1 + n+2)) = floor(n*(n+2)/3).",
   "id": "A032765",
   "mentions": [
+    "A000217",
     "A001082",
+    "A001399",
     "A006066",
     "A032766"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n = concat(s,t) such that n = (Fibonacci(s) mod n) * (Fibonacci(t) mod n).",
+  "description": "Numbers k = concat(s,t) such that k = (Fibonacci(s) mod k) * (Fibonacci(t) mod k).",
   "id": "A272770",
   "mentions": [
     "A000045",

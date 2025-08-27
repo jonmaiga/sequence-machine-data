@@ -2,15 +2,21 @@
   "description": "Minimal permanent of real n X n symmetric (+1,-1) matrices.",
   "id": "A119001",
   "mentions": [
-    "A119000"
+    "A118988",
+    "A118993",
+    "A118995",
+    "A118999",
+    "A119000",
+    "A119010"
   ],
   "tags": [
+    "formulas",
     "more",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

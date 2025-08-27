@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that the sum of the first k primes has exactly n prime factors, counting multiplicity.",
+  "id": "A385997",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A007504",
+    "A102862"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

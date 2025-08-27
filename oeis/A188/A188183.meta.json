@@ -1,5 +1,5 @@
 {
-  "description": "Number of strictly increasing arrangements of 5 numbers in -(n+3)..(n+3) with sum zero",
+  "description": "Number of strictly increasing arrangements of 5 numbers in -(n+3)..(n+3) with sum zero.",
   "id": "A188183",
   "mentions": [
     "A057077",

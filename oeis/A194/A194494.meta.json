@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to arrange 4 nonattacking queens on the lower triangle of an n X n board",
+  "description": "Number of ways to arrange 4 nonattacking queens on the lower triangle of an n X n board.",
   "id": "A194494",
   "mentions": [
     "A194498"

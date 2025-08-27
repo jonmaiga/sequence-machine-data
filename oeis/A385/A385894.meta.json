@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n^5/5 + n^3/3 + 7*n/15.",
+  "id": "A385894",
+  "mentions": [
+    "A058031"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

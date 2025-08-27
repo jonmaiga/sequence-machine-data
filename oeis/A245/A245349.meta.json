@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of n in fractional base 7/4.",
+  "description": "Sum of digits of n written in fractional base 7/4.",
   "id": "A245349",
   "mentions": [
     "A007953",
@@ -9,11 +9,13 @@
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

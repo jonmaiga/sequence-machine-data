@@ -1,5 +1,5 @@
 {
-  "description": "(6n)^4.",
+  "description": "a(n) = (6*n)^4.",
   "id": "A016912",
   "mentions": [],
   "tags": [

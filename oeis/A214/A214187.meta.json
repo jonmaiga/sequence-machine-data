@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..6 colorings of an nx(k+1) array circular in the k+1 direction with new values 0..6 introduced in row major order",
+  "description": "T(n,k)=Number of 0..6 colorings of an nx(k+1) array circular in the k+1 direction with new values 0..6 introduced in row major order.",
   "id": "A214187",
   "mentions": [
     "A198717"

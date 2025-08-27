@@ -1,10 +1,12 @@
 {
-  "description": "This sequence needs a meaningful name.",
+  "description": "a(n) = b(n) mod 10, where b(n) = b(n-1) + b(n-2) + floor(b(n-2)/10), b(0) = b(1) = 1.",
   "id": "A152303",
-  "mentions": [],
+  "mentions": [
+    "A152302",
+    "A152305"
+  ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

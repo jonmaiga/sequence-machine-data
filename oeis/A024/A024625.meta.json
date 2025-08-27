@@ -1,15 +1,18 @@
 {
-  "description": "a(n) = position of cube of the n-th prime among the powers of primes (A000961).",
+  "description": "a(n) is the position of cube of the n-th prime among the powers of primes (A000961).",
   "id": "A024625",
   "mentions": [
-    "A000961"
+    "A000961",
+    "A024624",
+    "A030078"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

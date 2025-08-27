@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=2. For a(n)+1, differences must be strictly increasing and consecutive terms are relatively prime",
+  "description": "a(1)=2. For a(n)+1, differences must be strictly increasing and consecutive terms are relatively prime.",
   "id": "A178741",
   "mentions": [],
   "tags": [

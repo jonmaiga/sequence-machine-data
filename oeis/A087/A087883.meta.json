@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = PrimePi[n-PrimePi[n-1]] + Prime[Abs[n - Prime[n-2]]]",
+  "description": "a(n) = PrimePi[n-PrimePi[n-1]] + Prime[Abs[n - Prime[n-2]]].",
   "id": "A087883",
   "mentions": [
     "A005185"

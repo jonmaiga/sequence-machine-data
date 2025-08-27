@@ -1,5 +1,5 @@
 {
-  "description": "Subfactorial primes: primes of the form !n + 1 or !n - 1. Subfactorial or rencontres numbers or derangements !n = A000166.",
+  "description": "Subfactorial primes: primes of the form !k + 1 or !k - 1. Subfactorial or rencontres numbers or derangements !k = A000166(k).",
   "id": "A100015",
   "mentions": [
     "A000166"

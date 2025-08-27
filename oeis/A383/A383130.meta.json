@@ -1,0 +1,15 @@
+{
+  "description": "Coefficients of the linear terms in the continued fraction representation of the product logarithm.",
+  "id": "A383130",
+  "mentions": [
+    "A213236"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

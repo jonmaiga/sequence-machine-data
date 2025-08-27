@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+5 0..k arrays with every six consecutive terms having five times some element equal to the sum of the remaining five",
+  "description": "T(n,k)=Number of length n+5 0..k arrays with every six consecutive terms having five times some element equal to the sum of the remaining five.",
   "id": "A249497",
   "mentions": [],
   "tags": [

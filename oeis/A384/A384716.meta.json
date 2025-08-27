@@ -1,0 +1,20 @@
+{
+  "description": "The totient of the product of unitary divisors of n.",
+  "id": "A384716",
+  "mentions": [
+    "A000010",
+    "A000225",
+    "A006093",
+    "A061537",
+    "A384763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

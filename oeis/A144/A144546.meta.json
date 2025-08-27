@@ -2,14 +2,17 @@
   "description": "A bisection of A028666.",
   "id": "A144546",
   "mentions": [
-    "A028666"
+    "A028666",
+    "A100221",
+    "A144547"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

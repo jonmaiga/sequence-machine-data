@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the first n digits of the decimal expansion of Pi form a prime.",
+  "description": "Numbers k such that the first k digits of the decimal expansion of Pi form a prime.",
   "id": "A060421",
   "mentions": [
     "A000796",
@@ -9,6 +9,11 @@
     "A064118",
     "A064119",
     "A065815",
+    "A065987",
+    "A065989",
+    "A065990",
+    "A065991",
+    "A065993",
     "A115377",
     "A118327",
     "A118328",
@@ -23,6 +28,7 @@
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = the number of divisors of n that are each one more than a power of a prime.",
+  "description": "a(n) is the number of divisors of n that are each one more than a power of a prime.",
   "id": "A141198",
   "mentions": [
+    "A000961",
     "A141197"
   ],
   "tags": [

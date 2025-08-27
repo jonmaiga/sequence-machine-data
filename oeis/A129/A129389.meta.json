@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the mean of 5 consecutive squares starting with n^2 is prime.",
+  "description": "Numbers k such that the mean of 5 consecutive squares starting with k^2 is prime.",
   "id": "A129389",
   "mentions": [
     "A000217",

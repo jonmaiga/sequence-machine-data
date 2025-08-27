@@ -1,5 +1,5 @@
 {
-  "description": "Number of strictly increasing arrangements of n numbers in -(n+6)..(n+6) with sum zero",
+  "description": "Number of strictly increasing arrangements of n numbers in -(n+6)..(n+6) with sum zero.",
   "id": "A188180",
   "mentions": [
     "A188181"

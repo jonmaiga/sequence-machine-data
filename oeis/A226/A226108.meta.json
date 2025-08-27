@@ -1,5 +1,5 @@
 {
-  "description": "Primes remaining prime if all but two digits are deleted",
+  "description": "Primes remaining prime if all but two digits are deleted.",
   "id": "A226108",
   "mentions": [
     "A019546",

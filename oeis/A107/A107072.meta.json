@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1021*n + 1019 is prime.",
+  "description": "Numbers k such that 1021*k + 1019 is prime.",
   "id": "A107072",
   "mentions": [],
   "tags": [

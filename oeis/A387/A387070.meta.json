@@ -1,0 +1,19 @@
+{
+  "description": "Remove every digit that appears in n from the decimal representation of n^2. If no digits remain, set a(n) = 0.",
+  "id": "A387070",
+  "mentions": [
+    "A029783",
+    "A029793",
+    "A258682"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

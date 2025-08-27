@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n remains prime after five iteration of function f[j]=14f[j]+1, at f[1]=prime.",
+  "description": "Numbers k such that k remains prime after five iteration of function f(j) = 14*f(j)+1, starting at f(1) = prime.",
   "id": "A086127",
   "mentions": [
     "A000668",
@@ -12,7 +12,6 @@
     "A086362"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

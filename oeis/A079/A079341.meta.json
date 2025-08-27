@@ -6,12 +6,14 @@
     "A079342"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

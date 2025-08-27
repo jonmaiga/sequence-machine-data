@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 6+6 0..n arrays with no seven consecutive terms having five times the sum of any two elements equal to two times the sum of the remaining five",
+  "description": "Number of length 6+6 0..n arrays with no seven consecutive terms having five times the sum of any two elements equal to two times the sum of the remaining five.",
   "id": "A249218",
   "mentions": [
     "A249212"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + 3 and n^2 + 9 are primes.",
+  "description": "Numbers k such that k + 3 and k^2 + 9 are both prime.",
   "id": "A193266",
   "mentions": [
     "A070689",

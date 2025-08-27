@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of polyominoes of size k, i.e., connected subsets of k square cells (or vertices), of the n X n flat torus, up to cyclic shifts and reflections of rows and columns; 1 <= k <= n^2.",
+  "id": "A385383",
+  "mentions": [
+    "A056780",
+    "A385381",
+    "A385382",
+    "A385385",
+    "A385388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

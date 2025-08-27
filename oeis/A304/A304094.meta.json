@@ -1,5 +1,5 @@
 {
-  "description": "Number of Lucas numbers (A000204: 1, 3, 4, 7, 11, ... excluding 2) that divide n",
+  "description": "Number of Lucas numbers (A000204: 1, 3, 4, 7, 11, ... excluding 2) that divide n.",
   "id": "A304094",
   "mentions": [
     "A000204",

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a parabiaugmented dodecahedron with unit edge.",
+  "id": "A385803",
+  "mentions": [
+    "A002194",
+    "A010476",
+    "A385696",
+    "A385802",
+    "A385805"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

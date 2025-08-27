@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers k such that the digits of k include the digits of the digital sum of k as a (not necessarily contiguous) subsequence.",
+  "id": "A384508",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A046829",
+    "A052018"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of arrangements of n+1 nonzero numbers x(i) in -k..k with the sum of floor(x(i)/x(i+1)) equal to zero",
+  "description": "T(n,k)=Number of arrangements of n+1 nonzero numbers x(i) in -k..k with the sum of floor(x(i)/x(i+1)) equal to zero.",
   "id": "A189498",
   "mentions": [
     "A002378",

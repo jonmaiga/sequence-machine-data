@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k for which A384834(k) = n.",
+  "id": "A386557",
+  "mentions": [
+    "A384834",
+    "A386409"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

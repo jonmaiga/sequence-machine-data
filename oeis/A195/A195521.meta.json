@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n -7..7 array with all row and column sums zero",
+  "description": "Number of lower triangles of an n X n -7..7 array with all row and column sums zero.",
   "id": "A195521",
   "mentions": [
     "A195522"

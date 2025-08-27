@@ -2,6 +2,8 @@
   "description": "Powers of 35.",
   "id": "A009979",
   "mentions": [
+    "A000351",
+    "A000420",
     "A008776"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

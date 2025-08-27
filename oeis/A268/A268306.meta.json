@@ -1,5 +1,5 @@
 {
-  "description": "The number of even permutations p of 1,2,...,n such that -1<=p(i)-i<=2 for i=1,2,...,n",
+  "description": "The number of even permutations p of 1,2,...,n such that -1<=p(i)-i<=2 for i=1,2,...,n.",
   "id": "A268306",
   "mentions": [
     "A000073",

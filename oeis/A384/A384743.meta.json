@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct five-cuboid combinations filling n X n X n cube without allowing a cut spanning through the full cube in any of filling positions.",
+  "id": "A384743",
+  "mentions": [
+    "A381847",
+    "A384208",
+    "A384311",
+    "A384479",
+    "A384737"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

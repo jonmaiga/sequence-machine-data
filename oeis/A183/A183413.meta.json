@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with each sum of a(1..i,1..j) no greater than i*j/2 and rows and columns in nondecreasing order",
+  "description": "T(n,k)=Number of nXk binary arrays with each sum of a(1..i,1..j) no greater than i*j/2 and rows and columns in nondecreasing order.",
   "id": "A183413",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Sequence M_n arising in enumeration of arrays of directed blocks (see 2007 Quaintance reference for precise definition). [The next term is not an integer.]",
+  "description": "Sequence M_n arising in enumeration of arrays of directed blocks (see 2007 Quaintance reference for precise definition). [The next term is not an integer.].",
   "id": "A129872",
   "mentions": [
     "A006013",

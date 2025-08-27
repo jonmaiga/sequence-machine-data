@@ -1,7 +1,20 @@
 {
-  "description": "Decimal expansion of the double zeta(2,8).",
+  "description": "Decimal expansion of the multiple zeta value zetamult(8,2).",
   "id": "A381394",
-  "mentions": [],
+  "mentions": [
+    "A072691",
+    "A258947",
+    "A258982",
+    "A258983",
+    "A258984",
+    "A258985",
+    "A258987",
+    "A258988",
+    "A258989",
+    "A258990",
+    "A258991",
+    "A381651"
+  ],
   "tags": [
     "cons",
     "formulas",

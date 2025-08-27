@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+3 0..7 arrays with some disjoint pairs in every consecutive four terms having the same sum",
+  "description": "Number of length n+3 0..7 arrays with some disjoint pairs in every consecutive four terms having the same sum.",
   "id": "A247532",
   "mentions": [
     "A247533"

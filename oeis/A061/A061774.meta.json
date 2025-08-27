@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n-1)!, as n runs through the prime powers >= 1.",
+  "description": "(m-1)!, as m runs through the prime powers >= 1.",
   "id": "A061774",
   "mentions": [
     "A000961"

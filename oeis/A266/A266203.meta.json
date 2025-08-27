@@ -2,6 +2,7 @@
   "description": "Number of steps k to make g_k(n) converge to zero.",
   "id": "A266203",
   "mentions": [
+    "A056041",
     "A266202"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n array permutations with each element moved no more than a city block distance of two",
+  "description": "Number of n X n array permutations with each element moved no more than a city block distance of two.",
   "id": "A188952",
   "mentions": [
     "A188958"

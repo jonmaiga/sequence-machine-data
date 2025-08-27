@@ -1,5 +1,5 @@
 {
-  "description": "Integer part of the subinterval variance in the partition of [0,n] by the divisors of n.",
+  "description": "Integer part of the subinterval sample variance in the partition of [0,n] by the divisors of n.",
   "id": "A078710",
   "mentions": [
     "A078709"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 2,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

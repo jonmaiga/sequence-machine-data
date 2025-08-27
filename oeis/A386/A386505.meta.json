@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1) + Sum_{k=0..n-1} (1 + k) * k^2 * binomial(n-1,k) * a(k) * a(n-1-k).",
+  "id": "A386505",
+  "mentions": [
+    "A143925",
+    "A385939",
+    "A386443",
+    "A386506",
+    "A386507",
+    "A386508",
+    "A386509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

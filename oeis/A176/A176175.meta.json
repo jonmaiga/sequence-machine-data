@@ -3,7 +3,8 @@
   "id": "A176175",
   "mentions": [
     "A001222",
-    "A062173"
+    "A062173",
+    "A085118"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 84,
     "source": "oeis-entry"
   }
 }

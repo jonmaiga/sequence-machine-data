@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/( (1+x) * (1 - x^2*A'(x)) ).",
+  "id": "A386239",
+  "mentions": [
+    "A143917",
+    "A386238"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

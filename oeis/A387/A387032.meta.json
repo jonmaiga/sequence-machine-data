@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with digits different from 0 and 1.",
+  "id": "A387032",
+  "mentions": [
+    "A037344",
+    "A052382",
+    "A052383",
+    "A062998",
+    "A172424"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

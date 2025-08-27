@@ -1,9 +1,13 @@
 {
-  "description": "Number of reduced indefinite binary forms of determinant -n.",
+  "description": "Number of equivalence classes of cycles (or periods) of reduced indefinite binary quadratic forms of determinant -n (see comments).",
   "id": "A006375",
   "mentions": [
     "A006371",
-    "A006374"
+    "A006374",
+    "A082175",
+    "A087048",
+    "A256945",
+    "A307359"
   ],
   "tags": [
     "hard",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 70,
+    "size": 96,
     "source": "oeis-entry"
   }
 }

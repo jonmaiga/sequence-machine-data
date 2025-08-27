@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X7 0..2 arrays with no 2X2 subblock commuting with any of its horizontal and vertical 2X2 subblock neighbors",
+  "description": "Number of (n+1)X7 0..2 arrays with no 2X2 subblock commuting with any of its horizontal and vertical 2X2 subblock neighbors.",
   "id": "A187438",
   "mentions": [
     "A187441"

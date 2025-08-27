@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that x^n + x^5 + 2 is irreducible over GF(3).",
+  "description": "Numbers k such that x^k + x^5 + 2 is irreducible over GF(3).",
   "id": "A058238",
   "mentions": [],
   "tags": [

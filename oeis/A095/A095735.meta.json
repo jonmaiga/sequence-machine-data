@@ -1,15 +1,16 @@
 {
-  "description": "Mersenne-like sequence factors of complex imaginary square type 2*Prime[m]*n-1.",
+  "description": "Numbers k such that 2^k-1 is divisible by 2*p*k-1 for some prime p.",
   "id": "A095735",
-  "mentions": [],
+  "mentions": [
+    "A000225",
+    "A095737"
+  ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nXnXn triangular binary arrays with every element unequal to at most 4 neighbors",
+  "description": "Half the number of nXnXn triangular binary arrays with every element unequal to at most 4 neighbors.",
   "id": "A192500",
   "mentions": [],
   "tags": [

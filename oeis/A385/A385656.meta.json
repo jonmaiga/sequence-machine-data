@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the sum of the decimal digits of k^2 divides k^2.",
+  "id": "A385656",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A034706",
+    "A118547",
+    "A385640"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

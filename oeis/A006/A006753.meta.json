@@ -1,5 +1,5 @@
 {
-  "description": "Smith (or joke) numbers: composite numbers n such that sum of digits of n = sum of digits of prime factors of n (counted with multiplicity).",
+  "description": "Smith (or joke) numbers: composite numbers k such that sum of digits of k = sum of digits of prime factors of k (counted with multiplicity).",
   "id": "A006753",
   "mentions": [
     "A001222",

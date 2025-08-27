@@ -1,7 +1,9 @@
 {
-  "description": "Number of irredundant sets in the n-Sierpinski sieve graph.",
+  "description": "Number of irredundant sets in the n-Sierpinski gasket graph.",
   "id": "A347721",
-  "mentions": [],
+  "mentions": [
+    "A347515"
+  ],
   "tags": [
     "nonn"
   ],

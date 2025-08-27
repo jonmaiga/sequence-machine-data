@@ -1,14 +1,15 @@
 {
-  "description": "T(n,0) + T(n,1) + ... + T(n,n), T given by A026703.",
+  "description": "T(n,1) + T(n,2) + ... + T(n,n), T given by A026703.",
   "id": "A026710",
   "mentions": [
     "A026703"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 29,
     "source": "joeis"
   }

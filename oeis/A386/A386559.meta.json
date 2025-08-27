@@ -1,0 +1,23 @@
+{
+  "description": "Place a point on the integer coordinates, up to |n|, along all four axial directions on a Cartesian plane, and then join an infinite straight line between every pair of points: a(n) is the number of points where lines intersect in the resulting graph.",
+  "id": "A386559",
+  "mentions": [
+    "A146212",
+    "A344657",
+    "A345649",
+    "A347750",
+    "A386560",
+    "A386561",
+    "A386562"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

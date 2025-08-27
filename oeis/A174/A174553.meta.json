@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows:t(n,m)=Sum[StirlingS2[n, k]*Eulerian[n - k + 1, m]*(-1)^(n - k - m)*k!, {k, 0, n}]",
+  "description": "Triangle read by rows:t(n,m)=Sum[StirlingS2[n, k]*Eulerian[n - k + 1, m]*(-1)^(n - k - m)*k!, {k, 0, n}].",
   "id": "A174553",
   "mentions": [],
   "tags": [

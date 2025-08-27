@@ -1,5 +1,5 @@
 {
-  "description": "The row sums of the ED2 array A167560 read by antidiagonals",
+  "description": "The row sums of the ED2 array A167560 read by antidiagonals.",
   "id": "A167564",
   "mentions": [
     "A167560"

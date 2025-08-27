@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that arctan(1/n) = arctan(1/x) - arctan(1/y) for some integers 0",
+  "description": "Numbers k such that arctan(1/k) = arctan(1/x) - arctan(1/y) for some integers 0",
   "id": "A252496",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that number of perfect partitions of n-1 divides n.",
+  "description": "Numbers k such that number of perfect partitions of k-1 divides k.",
   "id": "A167211",
   "mentions": [
     "A002033",

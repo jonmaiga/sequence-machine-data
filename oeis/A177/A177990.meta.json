@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, variant of A070909, a cellular automaton",
+  "description": "Triangle read by rows, variant of A070909, a cellular automaton.",
   "id": "A177990",
   "mentions": [
     "A007318",

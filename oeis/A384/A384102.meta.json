@@ -1,0 +1,21 @@
+{
+  "description": "Least x in absolute value, such that there exists y, |x| >= |y| > 0, such that n = |6xy + x + y|, or 0 if no such x exists. Choose x > 0 if x and -x are both possible.",
+  "id": "A384102",
+  "mentions": [
+    "A002822",
+    "A060461",
+    "A067611",
+    "A077800",
+    "A171696",
+    "A384103"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Next prime containing prime(n) in decimal notation",
+  "description": "Next prime containing prime(n) in decimal notation.",
   "id": "A064735",
   "mentions": [
     "A000040",

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose square has digit sum 9 and no trailing zero.",
+  "id": "A384094",
+  "mentions": [
+    "A004159",
+    "A052216",
+    "A058414",
+    "A133472",
+    "A199685",
+    "A215614",
+    "A237424",
+    "A384095"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

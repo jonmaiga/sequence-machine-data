@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1 / ((1-x)^3 * (1-x^7)).",
+  "id": "A384328",
+  "mentions": [
+    "A000292",
+    "A002623",
+    "A014125",
+    "A122046",
+    "A122047",
+    "A175724"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

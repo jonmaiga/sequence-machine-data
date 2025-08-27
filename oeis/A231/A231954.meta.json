@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..1 arrays with every element equal to some horizontal, vertical, diagonal or antidiagonal neighbor, with top left element zero",
+  "description": "Number of (n+1)X(5+1) 0..1 arrays with every element equal to some horizontal, vertical, diagonal or antidiagonal neighbor, with top left element zero.",
   "id": "A231954",
   "mentions": [
     "A231957"

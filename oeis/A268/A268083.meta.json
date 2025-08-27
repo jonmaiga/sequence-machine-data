@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are not prime powers and such that gcd(binomial(2*n-1,n), n) = 1.",
+  "description": "Numbers k that are not prime powers and such that gcd(binomial(2*k-1,k), k) = 1.",
   "id": "A268083",
   "mentions": [
     "A000961",

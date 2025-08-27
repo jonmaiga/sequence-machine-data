@@ -1,17 +1,16 @@
 {
-  "description": "Primes of form n*2^n+(n+1).",
+  "description": "Primes of the form k*2^k+(k+1).",
   "id": "A046844",
   "mentions": [
     "A046845"
   ],
   "tags": [
-    "bref",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Number of chiral pairs of asymmetric polyominoes with n cells of the regular tiling with Schläfli symbol {4,oo}.",
+  "id": "A385149",
+  "mentions": [
+    "A001764",
+    "A005034",
+    "A005036",
+    "A047749",
+    "A369315"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

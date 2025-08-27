@@ -1,9 +1,14 @@
 {
-  "description": "Gaussian binomial coefficient [ n,4 ] for q=2.",
+  "description": "Gaussian binomial coefficient [n, 4] for q = 2.",
   "id": "A006097",
   "mentions": [
     "A000051",
-    "A006095"
+    "A000225",
+    "A006095",
+    "A006096",
+    "A006110",
+    "A022189",
+    "A022195"
   ],
   "tags": [
     "easy",
@@ -13,7 +18,7 @@
   ],
   "terms": {
     "offset": 4,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

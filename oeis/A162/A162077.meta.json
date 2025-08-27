@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays with rows and columns, considered as graycode numbers, in nondecreasing order, and an odd number of ones in each row or column",
+  "description": "Number of n X n binary arrays with rows and columns, considered as graycode numbers, in nondecreasing order, and an odd number of ones in each row or column.",
   "id": "A162077",
   "mentions": [],
   "tags": [

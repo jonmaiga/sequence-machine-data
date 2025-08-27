@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to partition an n X 6 grid into 2 connected equal-area regions",
+  "description": "Number of ways to partition an n X 6 grid into 2 connected equal-area regions.",
   "id": "A167252",
   "mentions": [],
   "tags": [

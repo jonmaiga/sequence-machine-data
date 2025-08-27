@@ -1,0 +1,16 @@
+{
+  "description": "Smallest x such that x^3+y^3 = A004999(n), x and y are nonnegative integers.",
+  "id": "A385237",
+  "mentions": [
+    "A004999",
+    "A229140"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

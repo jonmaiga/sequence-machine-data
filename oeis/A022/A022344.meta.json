@@ -2,9 +2,11 @@
   "description": "Allan Wechsler's \"J determinant\" sequence.",
   "id": "A022344",
   "mentions": [
+    "A031363",
     "A035513",
     "A127561",
-    "A275068"
+    "A275068",
+    "A357097"
   ],
   "tags": [
     "formulas",

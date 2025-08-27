@@ -2,7 +2,9 @@
   "description": "a(n) = 0 if n is divisible by 3, otherwise a(n) = n.",
   "id": "A091684",
   "mentions": [
+    "A000027",
     "A008585",
+    "A011655",
     "A100050"
   ],
   "tags": [

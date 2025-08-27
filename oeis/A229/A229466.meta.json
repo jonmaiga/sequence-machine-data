@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the period of Fibonacci numbers mod n is 3*(n+10).",
+  "description": "Numbers k such that the period of Fibonacci numbers mod k is 3*(k+10).",
   "id": "A229466",
   "mentions": [
     "A000045",

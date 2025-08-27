@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6Xn binary arrays without the pattern 1 1 1 diagonally, vertically or antidiagonally",
+  "description": "Number of 6Xn binary arrays without the pattern 1 1 1 diagonally, vertically or antidiagonally.",
   "id": "A188751",
   "mentions": [
     "A188747"

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = prime(1) = 2, a(n) = 10*a(n-1) + (prime(n) mod 10).",
+  "id": "A386964",
+  "mentions": [
+    "A007652",
+    "A276481"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

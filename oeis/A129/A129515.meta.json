@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that binomial(2n,n) has the same prime factors as binomial(2k,k) for some k>n.",
+  "description": "Numbers m such that binomial(2*m, m) has the same prime factors as binomial(2*k, k) for some k > m.",
   "id": "A129515",
   "mentions": [
     "A067434"

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the minimal area of a polyomino without holes having a product of edge lengths equal to n, or 0 if no solution is possible.",
+  "id": "A384428",
+  "mentions": [
+    "A000104",
+    "A027709"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

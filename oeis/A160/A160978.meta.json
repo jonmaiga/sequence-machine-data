@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n where every part appears at least 8 times",
+  "description": "Number of partitions of n where every part appears at least 8 times.",
   "id": "A160978",
   "mentions": [],
   "tags": [

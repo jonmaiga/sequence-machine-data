@@ -2,6 +2,8 @@
   "description": "Coordination sequence for (9^3, 3.9^2) net with respect to a vertex of type 9^3.",
   "id": "A066393",
   "mentions": [
+    "A109044",
+    "A186101",
     "A319980"
   ],
   "tags": [

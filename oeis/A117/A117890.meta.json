@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that number of non-leading 0's in binary representation of n divides n.",
+  "description": "Numbers k such that number of non-leading 0's in binary representation of k divides k.",
   "id": "A117890",
   "mentions": [
     "A023416",

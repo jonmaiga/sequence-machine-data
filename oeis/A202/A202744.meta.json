@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..1 arrays with row sums equal and column sums unequal to adjacent columns",
+  "description": "Number of 3Xn 0..1 arrays with row sums equal and column sums unequal to adjacent columns.",
   "id": "A202744",
   "mentions": [
     "A202742"

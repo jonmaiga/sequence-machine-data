@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which are centers of prime galaxies. For each n, n plus any one of {-23,-19,-17,-13,-11,-1,+1,+11,+13,+17,+19,+23} is prime.",
+  "description": "Numbers k which are centers of prime galaxies. For each k, k plus any one of {-23,-19,-17,-13,-11,-1,+1,+11,+13,+17,+19,+23} is prime.",
   "id": "A132389",
   "mentions": [],
   "tags": [

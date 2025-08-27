@@ -1,5 +1,5 @@
 {
-  "description": "Number of (7*n)Xn binary arrays with rows in nonincreasing order, 7 ones in every column and no more than 3 ones in any row",
+  "description": "Number of (7*n)Xn binary arrays with rows in nonincreasing order, 7 ones in every column and no more than 3 ones in any row.",
   "id": "A188422",
   "mentions": [
     "A188416"

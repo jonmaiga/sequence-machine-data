@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..3 arrays with antidiagonals unimodal and rows and diagonals nondecreasing",
+  "description": "Number of nX4 0..3 arrays with antidiagonals unimodal and rows and diagonals nondecreasing.",
   "id": "A223957",
   "mentions": [
     "A223961"

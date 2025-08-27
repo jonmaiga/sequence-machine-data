@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..3 arrays with the maximum plus the upper median of every 2X2 subblock equal",
+  "description": "Number of (n+1)X(5+1) 0..3 arrays with the maximum plus the upper median of every 2X2 subblock equal.",
   "id": "A237139",
   "mentions": [
     "A237142"

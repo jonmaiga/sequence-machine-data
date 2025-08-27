@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are equal to the sum of their iterated infinitary analog of the totient function A384247.",
+  "id": "A385746",
+  "mentions": [
+    "A082897",
+    "A286067",
+    "A330273",
+    "A384247",
+    "A385744",
+    "A385745",
+    "A385747"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

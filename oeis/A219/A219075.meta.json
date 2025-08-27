@@ -1,5 +1,5 @@
 {
-  "description": "Hilltop maps: number of nX5 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, diagonal or antidiagonal neighbor in a random 0..1 nX5 array",
+  "description": "Hilltop maps: number of nX5 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, diagonal or antidiagonal neighbor in a random 0..1 nX5 array.",
   "id": "A219075",
   "mentions": [
     "A219078"

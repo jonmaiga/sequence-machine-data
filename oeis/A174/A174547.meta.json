@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of minimal polynomials with roots a(n)=(1 + Prime[n+1]^(1/n))/2: p(x,n)=If[n == 0, 1, MinimalPolynomial[(1 + Prime[n+1]^(1/n))/2, x]]",
+  "description": "Coefficients of minimal polynomials with roots a(n)=(1 + Prime[n+1]^(1/n))/2: p(x,n)=If[n == 0, 1, MinimalPolynomial[(1 + Prime[n+1]^(1/n))/2, x]].",
   "id": "A174547",
   "mentions": [],
   "tags": [

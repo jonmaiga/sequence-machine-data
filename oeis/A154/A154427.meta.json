@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p^2+(p+1)/2 is also prime.",
+  "description": "Primes p such that p^2 + (p+1)/2 is also prime.",
   "id": "A154427",
   "mentions": [
     "A164580"

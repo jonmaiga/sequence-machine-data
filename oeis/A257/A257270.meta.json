@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with no 3x3 subblock diagonal sum less than the antidiagonal sum or central row sum equal to the central column sum",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with no 3x3 subblock diagonal sum less than the antidiagonal sum or central row sum equal to the central column sum.",
   "id": "A257270",
   "mentions": [],
   "tags": [

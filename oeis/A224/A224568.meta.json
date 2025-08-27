@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+3)X(k+3) 0..1 matrices with each 4X4 subblock idempotent",
+  "description": "T(n,k)=Number of (n+3)X(k+3) 0..1 matrices with each 4X4 subblock idempotent.",
   "id": "A224568",
   "mentions": [],
   "tags": [

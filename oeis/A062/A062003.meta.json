@@ -2,7 +2,8 @@
   "description": "Product of the k numbers formed by cyclically permuting digits of n (where k = number of digits of n).",
   "id": "A062003",
   "mentions": [
-    "A061147"
+    "A061147",
+    "A061378"
   ],
   "tags": [
     "base",

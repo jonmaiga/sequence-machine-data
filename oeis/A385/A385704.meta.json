@@ -1,0 +1,17 @@
+{
+  "description": "Complement of A184535.",
+  "id": "A385704",
+  "mentions": [
+    "A184535"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

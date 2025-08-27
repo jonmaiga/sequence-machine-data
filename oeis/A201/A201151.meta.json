@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..2 arrays with every diagonal, row and column running average nondecreasing rightwards and downwards and diagonally",
+  "description": "Number of nX4 0..2 arrays with every diagonal, row and column running average nondecreasing rightwards and downwards and diagonally.",
   "id": "A201151",
   "mentions": [
     "A201155"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element moving zero or one space horizontally or diagonally",
+  "description": "T(n,k)=Number of nXk array permutations with each element moving zero or one space horizontally or diagonally.",
   "id": "A189449",
   "mentions": [
     "A000045",

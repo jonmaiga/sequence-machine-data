@@ -1,0 +1,18 @@
+{
+  "description": "Combined output of the Wichmann-Hill pseudo-random number generator multiplied by the product of its 3 internal moduli, 27817185604309.",
+  "id": "A384796",
+  "mentions": [
+    "A385031",
+    "A385032",
+    "A385033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

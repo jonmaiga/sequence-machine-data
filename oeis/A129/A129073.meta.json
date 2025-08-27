@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n-8)/7 is prime.",
+  "description": "Numbers k such that (k-8)/7 is prime.",
   "id": "A129073",
   "mentions": [
     "A000040"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+4 0..k arrays with no disjoint pairs in any consecutive five terms having the same sum",
+  "description": "T(n,k)=Number of length n+4 0..k arrays with no disjoint pairs in any consecutive five terms having the same sum.",
   "id": "A247404",
   "mentions": [],
   "tags": [

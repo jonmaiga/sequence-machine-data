@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k divisible by A004719(k), excluding trivial cases.",
+  "id": "A386501",
+  "mentions": [
+    "A004719",
+    "A052382",
+    "A090053",
+    "A090055",
+    "A096093"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

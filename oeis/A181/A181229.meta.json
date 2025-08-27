@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n sequences p(i=0..n-1) with 0<=p(i)<=i and having exactly k maxima",
+  "description": "T(n,k)=Number of length n sequences p(i=0..n-1) with 0<=p(i)<=i and having exactly k maxima.",
   "id": "A181229",
   "mentions": [
     "A033321"

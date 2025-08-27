@@ -1,5 +1,5 @@
 {
-  "description": "Number of \"hexagonal partitions\" of n",
+  "description": "Number of \"hexagonal partitions\" of n.",
   "id": "A321441",
   "mentions": [
     "A116513",

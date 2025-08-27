@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the real number whose continued fraction is Golomb's sequence (A001462).",
+  "id": "A385303",
+  "mentions": [
+    "A001462",
+    "A052119",
+    "A060997"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (prime(n) + (-1)^n*3)/2.",
+  "description": "Primes of the form (prime(k) + (-1)^k*3)/2.",
   "id": "A144427",
   "mentions": [
     "A000040"

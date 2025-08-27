@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 2 * x * cosh(x))^(1/2).",
+  "id": "A385308",
+  "mentions": [
+    "A001147",
+    "A185951",
+    "A205571",
+    "A352648",
+    "A380015",
+    "A385281",
+    "A385304",
+    "A385306",
+    "A385309",
+    "A385310"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

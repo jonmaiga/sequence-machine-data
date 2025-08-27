@@ -1,5 +1,5 @@
 {
-  "description": "Least power of 2 to have at least n consecutive digits 'n' in its decimal expansion",
+  "description": "Least power of 2 to have at least n consecutive digits 'n' in its decimal expansion.",
   "id": "A171252",
   "mentions": [
     "A131535",

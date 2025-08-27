@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the 3-adic valuation of A027856(n).",
+  "id": "A386730",
+  "mentions": [
+    "A027856",
+    "A385433",
+    "A386731"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

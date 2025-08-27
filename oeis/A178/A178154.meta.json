@@ -1,10 +1,12 @@
 {
-  "description": "A178153 for primes p=3 (mod 4).",
+  "description": "Sum_{a=1..(p-1)/2} LegendreSymbol(a, p) for primes p == 3 (mod 4).",
   "id": "A178154",
   "mentions": [
+    "A002145",
     "A178153"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "Length of shortest addition-multiplication-composition chain for n, starting with 1 and x.",
+  "id": "A384384",
+  "mentions": [
+    "A230697",
+    "A384383",
+    "A384385",
+    "A384386",
+    "A384483"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

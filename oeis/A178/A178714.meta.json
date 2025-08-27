@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number whose Roman numeral representation shares no letters with the previous number in the sequence",
+  "description": "Smallest number whose Roman numeral representation shares no letters with the previous number in the sequence.",
   "id": "A178714",
   "mentions": [],
   "tags": [

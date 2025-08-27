@@ -2,6 +2,7 @@
   "description": "Number of partitions of n such that the largest part is twice the smallest part.",
   "id": "A118096",
   "mentions": [
+    "A001622",
     "A008483",
     "A117086",
     "A237825",

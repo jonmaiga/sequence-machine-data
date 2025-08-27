@@ -1,7 +1,9 @@
 {
   "description": "Two-prime decades.",
   "id": "A078499",
-  "mentions": [],
+  "mentions": [
+    "A078493"
+  ],
   "tags": [
     "base",
     "easy",

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the value of the coefficient [x^3] Gamma(x).",
+  "id": "A385961",
+  "mentions": [
+    "A001620",
+    "A002117",
+    "A013661",
+    "A013662",
+    "A090998",
+    "A385960",
+    "A385962"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 114,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "First term of four consecutive primes whose average is a prime",
+  "description": "First term of four consecutive primes whose average is a prime.",
   "id": "A180441",
   "mentions": [
     "A000040",

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k >= 1 such that w(k-r) + ... + w(k-1) = w(k+1) + ... + w(k+r) for some r >= 1 where w(i) is the binary weight of i (A000120).",
+  "id": "A386971",
+  "mentions": [
+    "A000120",
+    "A047457",
+    "A097586"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

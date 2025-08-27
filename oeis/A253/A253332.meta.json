@@ -1,5 +1,5 @@
 {
-  "description": "Number of (7+1)X(n+1) 0..1 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw",
+  "description": "Number of (7+1)X(n+1) 0..1 arrays with every 2X2 subblock sum nondecreasing horizontally, vertically and antidiagonally ne-to-sw.",
   "id": "A253332",
   "mentions": [
     "A253326"

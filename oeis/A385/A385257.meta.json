@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a gyroelongated triangular bicupola with unit edge.",
+  "id": "A385257",
+  "mentions": [
+    "A002194",
+    "A010527",
+    "A332133",
+    "A375193",
+    "A385256"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

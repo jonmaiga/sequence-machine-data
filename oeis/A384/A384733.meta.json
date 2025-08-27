@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 5*binomial(n,6) + 2*binomial(n,4).",
+  "id": "A384733",
+  "mentions": [
+    "A384686"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

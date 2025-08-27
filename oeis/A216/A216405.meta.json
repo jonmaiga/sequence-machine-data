@@ -1,5 +1,5 @@
 {
-  "description": "Numbers which start a run of nine consecutive zero-digit-free decimal integers, each of which is divisible by the sum of its digits",
+  "description": "Numbers which start a run of nine consecutive zero-digit-free decimal integers, each of which is divisible by the sum of its digits.",
   "id": "A216405",
   "mentions": [
     "A017281",

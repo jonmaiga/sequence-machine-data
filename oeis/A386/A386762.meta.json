@@ -1,0 +1,23 @@
+{
+  "description": "Perfect powers of nonsquarefree numbers k that are not squareful.",
+  "id": "A386762",
+  "mentions": [
+    "A001597",
+    "A126706",
+    "A131605",
+    "A246547",
+    "A286708",
+    "A303606",
+    "A368508",
+    "A383394"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

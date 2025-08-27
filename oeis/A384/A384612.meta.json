@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest integer k such that k^n is an abelian square; or -1 if no such k exists.",
+  "id": "A384612",
+  "mentions": [
+    "A001597",
+    "A001700",
+    "A075786",
+    "A272655",
+    "A342942"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

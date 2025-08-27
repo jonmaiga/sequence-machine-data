@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays of the minimum value of corresponding elements and their horizontal or vertical neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..3 nX3 array",
+  "description": "Number of nX3 arrays of the minimum value of corresponding elements and their horizontal or vertical neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..3 nX3 array.",
   "id": "A219368",
   "mentions": [
     "A219373"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+5 0..6 arrays with no six consecutive terms having five times any element equal to the sum of the remaining five",
+  "description": "Number of length n+5 0..6 arrays with no six consecutive terms having five times any element equal to the sum of the remaining five.",
   "id": "A249528",
   "mentions": [
     "A249530"

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a pentagonal orthobicupola with unit edge.",
+  "id": "A384625",
+  "mentions": [
+    "A002163",
+    "A384284",
+    "A384286",
+    "A384624",
+    "A384872"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

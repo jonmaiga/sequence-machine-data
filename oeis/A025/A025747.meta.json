@@ -2,7 +2,9 @@
   "description": "Index of 10^n within sequence of numbers of form 9^i*10^j.",
   "id": "A025747",
   "mentions": [
-    "A022330"
+    "A022330",
+    "A025635",
+    "A025683"
   ],
   "tags": [
     "easy",

@@ -1,7 +1,9 @@
 {
   "description": "Exponent of 9 (value of j) in n-th number of form 6^i*9^j.",
   "id": "A025680",
-  "mentions": [],
+  "mentions": [
+    "A025628"
+  ],
   "tags": [
     "nonn"
   ],

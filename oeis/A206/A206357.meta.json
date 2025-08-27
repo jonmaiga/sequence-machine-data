@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..4 arrays with no element equal to another within two positions in the same row or column, and new values 0..4 introduced in row major order",
+  "description": "Number of nX6 0..4 arrays with no element equal to another within two positions in the same row or column, and new values 0..4 introduced in row major order.",
   "id": "A206357",
   "mentions": [
     "A206359"

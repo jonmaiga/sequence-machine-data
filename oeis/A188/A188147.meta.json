@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n-step self-avoiding walks on a kXk square summed over all starting positions",
+  "description": "T(n,k)=Number of n-step self-avoiding walks on a kXk square summed over all starting positions.",
   "id": "A188147",
   "mentions": [
     "A033996"

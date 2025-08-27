@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing -7..7 vectors of length n whose dot product with some lexicographically greater or equal nondecreasing -7..7 vector equals n",
+  "description": "Number of nondecreasing -7..7 vectors of length n whose dot product with some lexicographically greater or equal nondecreasing -7..7 vector equals n.",
   "id": "A226421",
   "mentions": [
     "A226422"

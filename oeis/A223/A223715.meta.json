@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..1 arrays with row sums and column sums unimodal",
+  "description": "Number of nX6 0..1 arrays with row sums and column sums unimodal.",
   "id": "A223715",
   "mentions": [
     "A223716"

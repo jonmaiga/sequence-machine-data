@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of n numbers x(i) in -(n+4)..(n+4) with the sum of sign(x(i))*2^|x(i)| zero",
+  "description": "Number of nondecreasing arrangements of n numbers x(i) in -(n+4)..(n+4) with the sum of sign(x(i))*2^|x(i)| zero.",
   "id": "A187985",
   "mentions": [
     "A187988"

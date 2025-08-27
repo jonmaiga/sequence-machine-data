@@ -1,9 +1,10 @@
 {
-  "description": "Primes of the form 8k^2 + 6k - 1 for positive k.",
+  "description": "Primes of the form 8*k^2 + 6*k - 1 for positive k.",
   "id": "A187677",
   "mentions": [
     "A073337",
     "A091823",
+    "A162761",
     "A168026"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 42,
     "source": "joeis"
   }
 }

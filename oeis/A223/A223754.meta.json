@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3X(n+1) 0..3 arrays with every row least squares fitting to a positive slope straight line and every column least squares fitting to a zero or positive slope straight line, with a single point array taken as having zero slope",
+  "description": "Number of 3X(n+1) 0..3 arrays with every row least squares fitting to a positive slope straight line and every column least squares fitting to a zero or positive slope straight line, with a single point array taken as having zero slope.",
   "id": "A223754",
   "mentions": [
     "A223751"

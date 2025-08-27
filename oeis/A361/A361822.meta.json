@@ -1,13 +1,18 @@
 {
-  "description": "Primes that have digits consisting only of line segments {1, 4, 7} or curved digits {0, 3, 6, 8, 9}.",
+  "description": "Primes without {2, 5} as digits.",
   "id": "A361822",
   "mentions": [
     "A000040",
     "A034470",
     "A079651",
     "A079652",
+    "A106116",
+    "A154761",
     "A247052",
-    "A361780"
+    "A361780",
+    "A385776",
+    "A386320",
+    "A386358"
   ],
   "tags": [
     "base",
@@ -16,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

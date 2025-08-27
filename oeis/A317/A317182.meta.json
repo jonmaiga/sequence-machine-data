@@ -1,7 +1,8 @@
 {
-  "description": "Consider integer triangles as listed in rows of table A316841. Sequence gives sorted and uniqued values of 16*area^2 for these triangles.",
+  "description": "Numbers k such that k = 16*area(T)^2 for an integer triangle, T.",
   "id": "A317182",
   "mentions": [
+    "A135622",
     "A316841",
     "A316853"
   ],

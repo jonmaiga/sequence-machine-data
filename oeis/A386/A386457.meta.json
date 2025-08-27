@@ -1,0 +1,19 @@
+{
+  "description": "Main diagonal of A386456.",
+  "id": "A386457",
+  "mentions": [
+    "A175804",
+    "A379378",
+    "A386456",
+    "A386458"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

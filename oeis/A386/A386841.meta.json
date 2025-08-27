@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of fundamental one-dimensional discrete statistical models with rational maximum likelihood estimator supported on the n-dimensional probability simplex and of degree 2n-k (n>=1, 1<=k<=n).",
+  "id": "A386841",
+  "mentions": [
+    "A143107",
+    "A143108",
+    "A386840",
+    "A387029"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

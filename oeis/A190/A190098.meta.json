@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of rhombuses on a (n+1)X(k+1) grid",
+  "description": "T(n,k)=Number of rhombuses on a (n+1)X(k+1) grid.",
   "id": "A190098",
   "mentions": [
     "A189418"

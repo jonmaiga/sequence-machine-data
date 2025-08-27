@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that both n and n^3-1 are the sum of two positive cubes (see A003325).",
+  "description": "Integers k such that both k and k^3-1 are the sum of two positive cubes (see A003325).",
   "id": "A271717",
   "mentions": [
     "A003072",
@@ -9,12 +9,11 @@
     "A068601"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

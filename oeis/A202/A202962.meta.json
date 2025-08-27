@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of arrays of n+2 integers in -k..k with sum zero and adjacent elements differing in absolute value",
+  "description": "T(n,k)=Number of arrays of n+2 integers in -k..k with sum zero and adjacent elements differing in absolute value.",
   "id": "A202962",
   "mentions": [
     "A202069"

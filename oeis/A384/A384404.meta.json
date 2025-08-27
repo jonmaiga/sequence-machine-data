@@ -2,6 +2,7 @@
   "description": "Consecutive states of the linear congruential pseudo-random number generator for Turbo Pascal when started at 1.",
   "id": "A384404",
   "mentions": [
+    "A152960",
     "A383940",
     "A384126",
     "A384150",

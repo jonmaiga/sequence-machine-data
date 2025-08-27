@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that k iterations of n under the '3x+1' map yield k for some k.",
+  "description": "Numbers m such that k iterations of m under the '3x+1' map yield k for some k.",
   "id": "A258823",
   "mentions": [
     "A006370",

@@ -9,11 +9,12 @@
     "A322007"
   ],
   "tags": [
+    "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 90,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

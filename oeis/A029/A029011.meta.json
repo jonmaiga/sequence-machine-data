@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)(1-x^2)(1-x^5)(1-x^6)).",
+  "description": "Expansion of 1/((1-x)*(1-x^2)*(1-x^5)*(1-x^6)).",
   "id": "A029011",
   "mentions": [
     "A029177"

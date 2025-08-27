@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary matrices with floor(n^2/2) 1's and rows in lexicographically nondecreasing order and columns in strictly increasing order",
+  "description": "Number of n X n binary matrices with floor(n^2/2) 1's and rows in lexicographically nondecreasing order and columns in strictly increasing order.",
   "id": "A180982",
   "mentions": [
     "A180983"

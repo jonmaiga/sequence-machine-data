@@ -1,0 +1,36 @@
+{
+  "description": "The number of unordered factorizations of n into powers of primes of the form p^(2^k-1) where p is prime and k >= 0.",
+  "id": "A385418",
+  "mentions": [
+    "A000688",
+    "A000929",
+    "A036537",
+    "A046951",
+    "A050361",
+    "A050377",
+    "A061704",
+    "A188581",
+    "A188585",
+    "A304327",
+    "A322885",
+    "A362852",
+    "A368248",
+    "A370256",
+    "A384912",
+    "A384913",
+    "A384914",
+    "A384915",
+    "A384916"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

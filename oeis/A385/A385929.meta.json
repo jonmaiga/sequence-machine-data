@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple, undirected, prime graphs G on n unlabeled vertices with no degree-1 vertex in G or its complement, as well as having no induced P5 in G or in its complement.",
+  "id": "A385929",
+  "mentions": [
+    "A079473",
+    "A385693",
+    "A385697"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

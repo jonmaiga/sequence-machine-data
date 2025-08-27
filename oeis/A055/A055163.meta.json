@@ -1,7 +1,10 @@
 {
-  "description": "(n - Phi(n)) | Sigma(n) for composite n.",
+  "description": "Composite numbers k such that (k - phi(k)) | sigma(k).",
   "id": "A055163",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
   "tags": [
     "easy",
     "nonn"

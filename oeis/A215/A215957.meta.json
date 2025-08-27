@@ -1,5 +1,5 @@
 {
-  "description": "Number of horizontal, vertical and diagonal neighbor colorings of the even squares of an nX6 array with new integer colors introduced in row major order",
+  "description": "Number of horizontal, vertical and diagonal neighbor colorings of the even squares of an nX6 array with new integer colors introduced in row major order.",
   "id": "A215957",
   "mentions": [
     "A215959"

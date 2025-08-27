@@ -1,5 +1,5 @@
 {
-  "description": "Number of circular permutations of length n without modular 3-sequences",
+  "description": "Number of circular permutations of length n without modular 3-sequences.",
   "id": "A165962",
   "mentions": [
     "A002628",

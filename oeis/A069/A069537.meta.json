@@ -2,16 +2,21 @@
   "description": "Multiples of 2 whose digit sum is 2.",
   "id": "A069537",
   "mentions": [
+    "A002024",
+    "A002260",
     "A005349",
     "A069521",
     "A069530",
     "A069532",
     "A069534",
     "A069536",
+    "A088404",
     "A245062"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

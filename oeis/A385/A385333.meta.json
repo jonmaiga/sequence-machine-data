@@ -1,0 +1,21 @@
+{
+  "description": "The numbers of people such that, in the variant of the Josephus problem in which three people are skipped and then one is eliminated, the last person is the last to be eliminated.",
+  "id": "A385333",
+  "mentions": [
+    "A000225",
+    "A088333",
+    "A182459",
+    "A384770",
+    "A384772",
+    "A384774",
+    "A385327"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

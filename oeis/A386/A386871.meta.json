@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that A056100(k) = n or -1 if no such k exists.",
+  "id": "A386871",
+  "mentions": [
+    "A015706",
+    "A056100",
+    "A386856"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

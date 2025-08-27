@@ -1,0 +1,17 @@
+{
+  "description": "Sum of next a(n) successive prime squares is prime.",
+  "id": "A383504",
+  "mentions": [
+    "A001248",
+    "A073684",
+    "A384161"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

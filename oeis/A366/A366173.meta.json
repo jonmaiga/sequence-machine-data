@@ -2,16 +2,17 @@
   "description": "Triangle of coefficients of Caylerian polynomials.",
   "id": "A366173",
   "mentions": [
+    "A000670",
+    "A048776",
     "A365449"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 46,
     "source": "oeis-entry"
   }
 }

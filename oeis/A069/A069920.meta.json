@@ -1,9 +1,11 @@
 {
-  "description": "Noninvertible n X n matrices mod 6 (i.e., over the ring Z_6).",
+  "description": "Number of noninvertible n X n matrices mod 6 (i.e., over the ring Z_6).",
   "id": "A069920",
   "mentions": [
+    "A048651",
     "A065498",
-    "A069580"
+    "A069580",
+    "A100220"
   ],
   "tags": [
     "formulas",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "joeis"
   }
 }

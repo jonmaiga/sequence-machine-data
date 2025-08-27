@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3X3 0..n arrays with each 2X2 subblock nonsingular and the array of 2X2 subblock determinants symmetric about the diagonal and antidiagonal",
+  "description": "Number of 3X3 0..n arrays with each 2X2 subblock nonsingular and the array of 2X2 subblock determinants symmetric about the diagonal and antidiagonal.",
   "id": "A187671",
   "mentions": [
     "A187670"

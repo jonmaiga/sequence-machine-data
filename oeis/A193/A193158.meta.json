@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..4 arrays with each element equal to the sum mod 5 of two neighbors",
+  "description": "Number of nXnXn triangular 0..4 arrays with each element equal to the sum mod 5 of two neighbors.",
   "id": "A193158",
   "mentions": [],
   "tags": [

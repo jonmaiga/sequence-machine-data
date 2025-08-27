@@ -2,18 +2,19 @@
   "description": "Sum of digital sums (base 3) of the prime factors of n.",
   "id": "A134599",
   "mentions": [
-    "A007953",
+    "A053735",
     "A080773",
     "A118503"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 104,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

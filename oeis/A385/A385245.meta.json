@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are no longer prime if in their binary representation any single bit is flipped but stay prime if a 1 bit is prepended.",
+  "id": "A385245",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A065092",
+    "A137985"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

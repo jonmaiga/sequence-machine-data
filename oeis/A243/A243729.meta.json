@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+2 0..k arrays with no three unequal elements in a row and no three equal elements in a row and new values 0..k introduced in 0..k order",
+  "description": "T(n,k)=Number of length n+2 0..k arrays with no three unequal elements in a row and no three equal elements in a row and new values 0..k introduced in 0..k order.",
   "id": "A243729",
   "mentions": [
     "A000045",

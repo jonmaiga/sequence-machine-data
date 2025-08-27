@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal to the sum mod 4 of its horizontal and vertical neighbors",
+  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal to the sum mod 4 of its horizontal and vertical neighbors.",
   "id": "A183508",
   "mentions": [],
   "tags": [

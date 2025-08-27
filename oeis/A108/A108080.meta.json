@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{i=0..n} C(2n+i,n-i).",
+  "description": "a(n) = Sum_{i=0..n} binomial(2*n+i,n-i).",
   "id": "A108080",
   "mentions": [
     "A000108",

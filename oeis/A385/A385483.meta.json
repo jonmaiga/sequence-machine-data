@@ -1,0 +1,21 @@
+{
+  "description": "Where records occur in A385482.",
+  "id": "A385483",
+  "mentions": [
+    "A049445",
+    "A144364",
+    "A385482",
+    "A385484",
+    "A385486"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

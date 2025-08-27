@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that A072473(n) = A072473(n+1) = A072473(n+2) = A072473(n+3).",
+  "description": "Integers k such that A072473(k) = A072473(k+1) = A072473(k+2) = A072473(k+3).",
   "id": "A255172",
   "mentions": [
     "A072473",

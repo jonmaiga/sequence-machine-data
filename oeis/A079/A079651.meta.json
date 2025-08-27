@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers using only the straight digits 1, 4 and 7.",
+  "description": "Primes having only {1, 4, 7} as digits.",
   "id": "A079651",
   "mentions": [
     "A028373"

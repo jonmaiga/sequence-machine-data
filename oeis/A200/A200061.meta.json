@@ -1,5 +1,5 @@
 {
-  "description": "Number of -n..n arrays x(0..6) of 7 elements with zero sum and elements alternately strictly increasing and strictly decreasing",
+  "description": "Number of -n..n arrays x(0..6) of 7 elements with zero sum and elements alternately strictly increasing and strictly decreasing.",
   "id": "A200061",
   "mentions": [
     "A200057"

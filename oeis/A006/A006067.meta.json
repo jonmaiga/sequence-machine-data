@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to quarter an n X n chessboard.",
+  "description": "Number of ways to quarter an n X n chessboard, with the central square removed for odd n.",
   "id": "A006067",
   "mentions": [
     "A003213",

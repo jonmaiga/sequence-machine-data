@@ -1,5 +1,5 @@
 {
-  "description": "(Largest digit of n)^(smallest digit of n) + n.",
+  "description": "a(n) = (largest digit of n)^(smallest digit of n) + n.",
   "id": "A097385",
   "mentions": [
     "A054054",
@@ -10,11 +10,13 @@
   "tags": [
     "base",
     "easy",
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 57,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

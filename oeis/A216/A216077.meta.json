@@ -1,5 +1,5 @@
 {
-  "description": "Number of horizontal and antidiagonal neighbor colorings of the odd squares of an n X n array with new integer colors introduced in row major order",
+  "description": "Number of horizontal and antidiagonal neighbor colorings of the odd squares of an n X n array with new integer colors introduced in row major order.",
   "id": "A216077",
   "mentions": [
     "A216084"

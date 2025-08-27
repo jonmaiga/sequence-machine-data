@@ -1,5 +1,5 @@
 {
-  "description": "A sequence constructed by greedily sampling the logarithmic distribution for parameter value 1/2, 1/(log(2)*(2^i)*i) to minimize discrepancy.",
+  "description": "A sequence constructed by greedily sampling the logarithmic distribution for parameter value 1/2 so as to minimize discrepancy.",
   "id": "A382961",
   "mentions": [
     "A381617",

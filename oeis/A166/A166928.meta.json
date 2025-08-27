@@ -2,7 +2,9 @@
   "description": "Decimal expansion of smaller solution to 3^x = x^3.",
   "id": "A166928",
   "mentions": [
-    "A002581"
+    "A002581",
+    "A073084",
+    "A341328"
   ],
   "tags": [
     "cons",

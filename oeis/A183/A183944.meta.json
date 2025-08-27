@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of strings of n numbers x(i) in -k..k with sums of x(i) and of x(i)*x(i+1) both zero",
+  "description": "T(n,k)=Number of strings of n numbers x(i) in -k..k with sums of x(i) and of x(i)*x(i+1) both zero.",
   "id": "A183944",
   "mentions": [],
   "tags": [

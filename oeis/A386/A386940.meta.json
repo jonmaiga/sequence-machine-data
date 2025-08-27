@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*k,k) * binomial(2*n-k-1,n-k).",
+  "id": "A386940",
+  "mentions": [
+    "A000984",
+    "A100193",
+    "A293490",
+    "A384365",
+    "A386941"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

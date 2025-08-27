@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the maximum possible area of a polygon within a circle of radius n, where both the center and the vertices lie on points of a unit square grid.",
+  "id": "A386538",
+  "mentions": [
+    "A000217",
+    "A066643",
+    "A123690",
+    "A125228",
+    "A288247",
+    "A322106",
+    "A322107",
+    "A357577",
+    "A386539"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

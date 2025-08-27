@@ -1,0 +1,23 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator (205*s + 29573) mod 139968 when started at 1.",
+  "id": "A383127",
+  "mentions": [
+    "A383126",
+    "A384431",
+    "A385002",
+    "A385003",
+    "A385037",
+    "A385039",
+    "A385078"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

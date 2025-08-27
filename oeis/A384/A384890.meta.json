@@ -1,0 +1,36 @@
+{
+  "description": "Number of maximal anti-runs (increasing by more than 1) in the binary indices of n.",
+  "id": "A384890",
+  "mentions": [
+    "A000120",
+    "A044813",
+    "A048793",
+    "A052499",
+    "A069010",
+    "A164707",
+    "A243815",
+    "A245562",
+    "A245563",
+    "A272604",
+    "A300820",
+    "A328592",
+    "A356606",
+    "A356607",
+    "A384175",
+    "A384176",
+    "A384177",
+    "A384877",
+    "A384878",
+    "A384879",
+    "A384893",
+    "A384906"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

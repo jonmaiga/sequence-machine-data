@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the sequence of sums of 3 adjacent elements having exactly 2 maxima",
+  "description": "Number of permutations of 1..n with the sequence of sums of 3 adjacent elements having exactly 2 maxima.",
   "id": "A179717",
   "mentions": [],
   "tags": [

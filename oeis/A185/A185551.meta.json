@@ -1,5 +1,5 @@
 {
-  "description": "1/3 the number of n X n 0..2 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors",
+  "description": "1/3 the number of n X n 0..2 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors.",
   "id": "A185551",
   "mentions": [
     "A185559"

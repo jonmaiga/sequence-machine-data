@@ -2,6 +2,7 @@
   "description": "Sums of two or more consecutive nonnegative integers.",
   "id": "A138591",
   "mentions": [
+    "A000079",
     "A000523",
     "A057716",
     "A155559"

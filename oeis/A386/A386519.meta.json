@@ -1,0 +1,21 @@
+{
+  "description": "Index of the smallest prime p such that the number of digits L in the repeating decimal period of 1/p equals the n-th prime.",
+  "id": "A386519",
+  "mentions": [
+    "A002371",
+    "A072859",
+    "A147555",
+    "A249330"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Number of partitions of 2n prime to 3 with all odd parts occurring with even multiplicities. There is no restriction on the even parts.",
+  "description": "Number of partitions of 2*n with no part divisible by 3 and all odd parts occurring with even multiplicities.",
   "id": "A098151",
   "mentions": [
+    "A000041",
     "A000122",
     "A000700",
     "A000726",
@@ -13,7 +14,8 @@
     "A080054",
     "A080995",
     "A103260",
-    "A121373"
+    "A121373",
+    "A215594"
   ],
   "tags": [
     "easy",

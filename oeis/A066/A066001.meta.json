@@ -2,8 +2,10 @@
   "description": "Sum of digits of 5^n.",
   "id": "A066001",
   "mentions": [
+    "A000351",
     "A001370",
     "A004166",
+    "A007953",
     "A065713",
     "A065999",
     "A066002",
@@ -15,11 +17,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 57,
+    "size": 60,
     "source": "joeis"
   }
 }

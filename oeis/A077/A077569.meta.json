@@ -1,11 +1,12 @@
 {
-  "description": "Irregular triangle read by rows: row n lists numbers in the range 1 to 2^(n-1) (inclusive) that have exactly n divisors.",
+  "description": "Irregular triangle read by rows: row n lists smallest numbers in increasing order of all possible prime signatures with n divisors.",
   "id": "A077569",
   "mentions": [
     "A001055",
     "A005179",
     "A077570",
-    "A122819"
+    "A122819",
+    "A162247"
   ],
   "tags": [
     "nonn",

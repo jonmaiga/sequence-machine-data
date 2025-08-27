@@ -1,7 +1,10 @@
 {
   "description": "Primes p such that neither p - 10 nor p + 10 is prime.",
   "id": "A140547",
-  "mentions": [],
+  "mentions": [
+    "A023203",
+    "A092146"
+  ],
   "tags": [
     "easy",
     "nonn"

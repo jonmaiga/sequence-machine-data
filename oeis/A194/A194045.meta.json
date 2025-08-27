@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose binary expansion is a preorder traversal of a binary tree",
+  "description": "Numbers whose binary expansion is a preorder traversal of a binary tree.",
   "id": "A194045",
   "mentions": [
     "A000108",

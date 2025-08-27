@@ -1,14 +1,17 @@
 {
-  "description": "Numbers n such that the set of prime factors of phi(n) is a proper subset of the set of prime factors of n and the set of prime factors of n is a proper subset of the set of prime factors of sigma(n).",
+  "description": "Numbers k such that the set of prime factors of phi(k) is a proper subset of the set of prime factors of k and the set of prime factors of k is a proper subset of the set of prime factors of sigma(k).",
   "id": "A141717",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

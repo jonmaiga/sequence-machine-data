@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n with all distinct lengths of maximal runs of consecutive parts decreasing by 1 but not by 0.",
+  "id": "A384882",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A047966",
+    "A047993",
+    "A089259",
+    "A098859",
+    "A106529",
+    "A239455",
+    "A242882",
+    "A243815",
+    "A325325",
+    "A336866",
+    "A351294",
+    "A381432",
+    "A382857",
+    "A383013",
+    "A383708",
+    "A384175",
+    "A384178",
+    "A384880",
+    "A384884",
+    "A384886",
+    "A384887",
+    "A384904"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

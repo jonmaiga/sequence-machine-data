@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k = i*j = 6*i + j, where i and j are integers",
+  "description": "Numbers k such that k = i*j = 6*i + j, where i and j are integers.",
   "id": "A307179",
   "mentions": [
     "A000005",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (2+2)X(n+2) 0..2 arrays with the (lower) medians of each row unequal to its neighbors and each column equal to its neighbors",
+  "description": "Number of (2+2)X(n+2) 0..2 arrays with the (lower) medians of each row unequal to its neighbors and each column equal to its neighbors.",
   "id": "A237764",
   "mentions": [
     "A237762"

@@ -1,15 +1,17 @@
 {
   "description": "n written in fractional base 10/7.",
   "id": "A024662",
-  "mentions": [],
+  "mentions": [
+    "A245351"
+  ],
   "tags": [
     "base",
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

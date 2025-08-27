@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4^n * sum_{i=1,n} i^4/4^i.",
+  "description": "a(n) = 4^n * Sum_{i=1..n} i^4/4^i.",
   "id": "A067534",
   "mentions": [
     "A047520",

@@ -1,5 +1,5 @@
 {
-  "description": "Number such that t(n) = t(n+1) where t(n) = tau(n) + sigma(n) = A007503(n) is the number of subgroups of the dihedral group of order 2n.",
+  "description": "Numbers k such that t(k) = t(k+1) where t(k) = tau(k) + sigma(k) = A007503(k) is the number of subgroups of the dihedral group of order 2k.",
   "id": "A322256",
   "mentions": [
     "A007503",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

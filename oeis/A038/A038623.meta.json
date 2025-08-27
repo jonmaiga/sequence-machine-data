@@ -2,6 +2,7 @@
   "description": "Smallest prime p such that p/pi(p)>=n.",
   "id": "A038623",
   "mentions": [
+    "A038607",
     "A038624",
     "A038625",
     "A038627",

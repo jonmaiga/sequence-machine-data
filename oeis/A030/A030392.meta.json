@@ -2,6 +2,7 @@
   "description": "Length of n-th run of digit 0 in A030386.",
   "id": "A030392",
   "mentions": [
+    "A030379",
     "A030386"
   ],
   "tags": [

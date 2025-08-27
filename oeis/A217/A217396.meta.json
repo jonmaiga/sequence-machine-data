@@ -1,5 +1,5 @@
 {
-  "description": "The divisors of the primes {2, 3, 5, 7, 13}.",
+  "description": "Prime indices of Euler's lucky numbers.",
   "id": "A217396",
   "mentions": [
     "A000720",

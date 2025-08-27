@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(3+2) 0..4 arrays with every 3X3 subblock row and column sum nonprime and every diagonal and antidiagonal sum prime",
+  "description": "Number of (n+2)X(3+2) 0..4 arrays with every 3X3 subblock row and column sum nonprime and every diagonal and antidiagonal sum prime.",
   "id": "A252035",
   "mentions": [
     "A252039"

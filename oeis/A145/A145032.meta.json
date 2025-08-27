@@ -1,5 +1,5 @@
 {
-  "description": "If t(n) is the maximal triangular number not exceeding n, then a(n) is the n-th prime for which a(n)-t(a(n)) is a triangular number",
+  "description": "If t(n) is the maximal triangular number not exceeding n, then a(n) is the n-th prime for which a(n)-t(a(n)) is a triangular number.",
   "id": "A145032",
   "mentions": [
     "A000217",

@@ -2,9 +2,12 @@
   "description": "a(n) = Sum_{k=0..floor(n/4)} Stirling2(n,4*k).",
   "id": "A365525",
   "mentions": [
+    "A024430",
     "A099948",
+    "A143815",
     "A365526",
-    "A365527"
+    "A365527",
+    "A365528"
   ],
   "tags": [
     "formulas",

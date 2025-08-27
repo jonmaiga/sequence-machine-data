@@ -1,0 +1,16 @@
+{
+  "description": "For any n >= 2, a(n) is the number of positive values k < A386482(n-1) missing from the first n-1 terms of A386482 such that gcd(k, A386482(n-1)) != 1.",
+  "id": "A387103",
+  "mentions": [
+    "A386482"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

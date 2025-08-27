@@ -1,5 +1,5 @@
 {
-  "description": "Smoothly undulating palindromic primes of the general form (ab*10^m-ba)/99 exist for digit lengths a(n).",
+  "description": "Numbers m such that a smoothly undulating palindromic prime of the form (rs*10^m-sr)/99 exists, where r and s are two distinct digits and rs and sr denote concatenations of those digits.",
   "id": "A077799",
   "mentions": [
     "A032758",

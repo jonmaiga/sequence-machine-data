@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n*k)Xk binary arrays with rows in nonincreasing order, n ones in every column and no more than 3 ones in any row",
+  "description": "T(n,k)=Number of (n*k)Xk binary arrays with rows in nonincreasing order, n ones in every column and no more than 3 ones in any row.",
   "id": "A188416",
   "mentions": [
     "A001680",

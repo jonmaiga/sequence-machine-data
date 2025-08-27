@@ -1,0 +1,20 @@
+{
+  "description": "Maximum frequency of gpf(k) for 2 <= k <= n, where gpf(k) = A006530(k) is the greatest prime factor of k.",
+  "id": "A385652",
+  "mentions": [
+    "A006530",
+    "A078899",
+    "A385503",
+    "A385653",
+    "A385654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

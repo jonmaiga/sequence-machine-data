@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 array permutations with each element remaining in its original row or its original column",
+  "description": "Number of nX4 array permutations with each element remaining in its original row or its original column.",
   "id": "A188807",
   "mentions": [
     "A188808"

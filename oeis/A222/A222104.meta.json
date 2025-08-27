@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..5 arrays with entries increasing mod 6 by 0, 1, 2 or 3 rightwards and downwards, starting with upper left zero",
+  "description": "T(n,k)=Number of nXk 0..5 arrays with entries increasing mod 6 by 0, 1, 2 or 3 rightwards and downwards, starting with upper left zero.",
   "id": "A222104",
   "mentions": [
     "A000302"

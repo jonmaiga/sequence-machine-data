@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n + 4 and n + 6 are prime powers.",
+  "description": "Numbers k such that k, k + 4 and k + 6 are prime powers.",
   "id": "A164642",
   "mentions": [
     "A164641"

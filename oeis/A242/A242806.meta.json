@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that each of n, n+1, n+2, n+4, n+5, n+6 is the squarefree product of four primes.",
+  "description": "Integers k such that each of k, k+1, k+2, k+4, k+5, k+6 is the squarefree product of four primes.",
   "id": "A242806",
   "mentions": [
     "A242793",
@@ -8,6 +8,7 @@
     "A242829"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

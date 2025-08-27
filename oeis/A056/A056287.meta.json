@@ -1,5 +1,5 @@
 {
-  "description": "Maximal AND-OR formula complexity (operator count) for n-input Boolean functions",
+  "description": "Maximal AND-OR formula complexity (operator count) for n-input Boolean functions.",
   "id": "A056287",
   "mentions": [
     "A057241",

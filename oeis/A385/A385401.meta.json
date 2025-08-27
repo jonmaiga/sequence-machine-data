@@ -1,0 +1,22 @@
+{
+  "description": "Left-truncatable perfect powers: every suffix is a perfect power.",
+  "id": "A385401",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A164839",
+    "A164840",
+    "A202271"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

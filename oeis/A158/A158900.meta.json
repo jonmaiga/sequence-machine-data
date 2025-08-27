@@ -1,5 +1,5 @@
 {
-  "description": "O.g.f.:G(G(x)-1)where G(x)=Sum_k>=0,k!*x^k",
+  "description": "O.g.f.:G(G(x)-1)where G(x)=Sum_k>=0,k!*x^k.",
   "id": "A158900",
   "mentions": [],
   "tags": [

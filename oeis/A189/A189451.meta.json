@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn array permutations with each element moving zero or one space horizontally or diagonally",
+  "description": "Number of 3Xn array permutations with each element moving zero or one space horizontally or diagonally.",
   "id": "A189451",
   "mentions": [
     "A189449"

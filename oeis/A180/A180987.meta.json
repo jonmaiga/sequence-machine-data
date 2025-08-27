@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=number of nXk binary matrices with rows in lexicographically nonincreasing order and columns in lexicographically strictly increasing order",
+  "description": "T(n,k)=number of nXk binary matrices with rows in lexicographically nonincreasing order and columns in lexicographically strictly increasing order.",
   "id": "A180987",
   "mentions": [
     "A180986"

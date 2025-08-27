@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(n, k) mod 9).",
+  "id": "A385741",
+  "mentions": [
+    "A001316",
+    "A051638",
+    "A095143",
+    "A384715",
+    "A385285"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

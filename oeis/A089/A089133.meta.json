@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = If [ Mod[A001591[n], 1]=1 then A001591[n] else A001591[n]+1 If PrimeQ[a[n]]==True then a[n]",
+  "description": "a(n) = If [ Mod[A001591[n], 1]=1 then A001591[n] else A001591[n]+1 If PrimeQ[a[n]]==True then a[n].",
   "id": "A089133",
   "mentions": [
     "A001591"

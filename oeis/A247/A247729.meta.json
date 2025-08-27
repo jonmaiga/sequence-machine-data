@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 3+3 0..n arrays with no disjoint pairs in any consecutive four terms having the same sum",
+  "description": "Number of length 3+3 0..n arrays with no disjoint pairs in any consecutive four terms having the same sum.",
   "id": "A247729",
   "mentions": [
     "A247726"

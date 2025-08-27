@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A384655(k) > k.",
+  "id": "A384657",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A051953",
+    "A384655",
+    "A384658"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

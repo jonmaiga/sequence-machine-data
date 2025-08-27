@@ -1,5 +1,5 @@
 {
-  "description": "12-gonal (or dodecagonal) pyramidal numbers: n(n+1)(10n-7)/6.",
+  "description": "12-gonal (or dodecagonal) pyramidal numbers: a(n) = n*(n+1)*(10*n-7)/6.",
   "id": "A007587",
   "mentions": [
     "A000566",

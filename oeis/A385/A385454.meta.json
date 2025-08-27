@@ -1,0 +1,16 @@
+{
+  "description": "Difference of the largest and smallest semiperimeters of an integral rectangle with area n.",
+  "id": "A385454",
+  "mentions": [
+    "A063655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

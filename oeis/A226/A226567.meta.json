@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2n+1 is neither a square nor a prime.",
+  "description": "Numbers k such that 2*k+1 is neither a square nor a prime.",
   "id": "A226567",
   "mentions": [
     "A000027",

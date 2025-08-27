@@ -1,5 +1,5 @@
 {
-  "description": "Primes not containing digit '8'.",
+  "description": "Primes not containing the digit '8'.",
   "id": "A038616",
   "mentions": [
     "A000040",

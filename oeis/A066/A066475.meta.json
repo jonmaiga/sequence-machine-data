@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having just nine anti-divisors.",
+  "description": "Numbers having exactly nine anti-divisors.",
   "id": "A066475",
   "mentions": [
     "A066272"

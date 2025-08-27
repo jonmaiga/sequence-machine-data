@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the concatenations of three consecutive primes starting with p, in both forward and backwards orders, are triprimes.",
+  "id": "A384638",
+  "mentions": [
+    "A014612",
+    "A383114",
+    "A384636"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

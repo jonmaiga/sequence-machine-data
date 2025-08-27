@@ -1,5 +1,5 @@
 {
-  "description": "Tetrahedral numbers which are products of five distinct primes.",
+  "description": "Squarefree tetrahedral numbers which are products of five distinct primes.",
   "id": "A354976",
   "mentions": [
     "A000292",

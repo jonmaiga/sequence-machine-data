@@ -1,16 +1,18 @@
 {
-  "description": "Number of 5's in n# (n primorial) = 5's in A002110(n).",
+  "description": "Number of 5's in n# (n primorial).",
   "id": "A079127",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A079099"
   ],
   "tags": [
+    "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 88,
-    "source": "joeis"
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

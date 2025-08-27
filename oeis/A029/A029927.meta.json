@@ -1,7 +1,9 @@
 {
   "description": "Convert n from nautical miles to statute miles.",
   "id": "A029927",
-  "mentions": [],
+  "mentions": [
+    "A029928"
+  ],
   "tags": [
     "easy",
     "nonn"

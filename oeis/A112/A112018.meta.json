@@ -1,5 +1,5 @@
 {
-  "description": "Primes p of the form 4k+3 where sigma(phi(sigma(p)))= phi(sigma(phi(p))).",
+  "description": "Primes p of the form 4*k+3 where sigma(phi(sigma(p))) = phi(sigma(phi(p))).",
   "id": "A112018",
   "mentions": [
     "A112017"

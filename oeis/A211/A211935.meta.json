@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct regular languages over 3-ary alphabet, whose minimum regular expression has alphabetic width n",
+  "description": "Number of distinct regular languages over 3-ary alphabet, whose minimum regular expression has alphabetic width n.",
   "id": "A211935",
   "mentions": [],
   "tags": [

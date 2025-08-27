@@ -2,6 +2,7 @@
   "description": "E.g.f.: 2 - exp(2) + Sum_{n>=1} 2^n * exp(x^n) / n!.",
   "id": "A258899",
   "mentions": [
+    "A121860",
     "A258903"
   ],
   "tags": [

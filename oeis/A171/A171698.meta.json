@@ -1,5 +1,5 @@
 {
-  "description": "Square 'central binomial coefficients'-array read by antidiagonals",
+  "description": "Square 'central binomial coefficients'-array read by antidiagonals.",
   "id": "A171698",
   "mentions": [
     "A000984",

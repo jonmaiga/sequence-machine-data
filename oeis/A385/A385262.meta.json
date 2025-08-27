@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a gyroelongated pentagonal cupolarotunda with unit edge.",
+  "id": "A385262",
+  "mentions": [
+    "A002163",
+    "A384283",
+    "A385256",
+    "A385258",
+    "A385260",
+    "A385263"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

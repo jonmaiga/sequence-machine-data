@@ -1,5 +1,5 @@
 {
-  "description": "k such that L(H(k,1)^2) = 2*L(H(k,1)) where L(x) is the number of terms in the continued fraction of x and H(k,r) = Sum_{u=1..k} 1/u^r",
+  "description": "k such that L(H(k,1)^2) = 2*L(H(k,1)) where L(x) is the number of terms in the continued fraction of x and H(k,r) = Sum_{u=1..k} 1/u^r.",
   "id": "A336089",
   "mentions": [
     "A055573",

@@ -1,5 +1,5 @@
 {
-  "description": "Least a(n) such that p(n)*(p(n)+a(n))-1 and p(n)*(p(n)+a(n))+1 are twin primes with p(i)=i-th prime.",
+  "description": "Least k such that p(n)*(p(n)+k)-1 and p(n)*(p(n)+k)+1 are twin primes with p(i)=i-th prime.",
   "id": "A143294",
   "mentions": [],
   "tags": [

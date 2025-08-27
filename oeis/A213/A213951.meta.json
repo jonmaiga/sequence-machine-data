@@ -1,5 +1,5 @@
 {
-  "description": "Number of free poly-IH16-tiles (holes allowed) with n cells",
+  "description": "Number of free poly-IH16-tiles (holes allowed) with n cells.",
   "id": "A213951",
   "mentions": [
     "A212416"

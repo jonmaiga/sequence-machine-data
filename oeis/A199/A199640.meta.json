@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with values 0..2 introduced in row major order and each element equal to one or two horizontal and vertical neighbors",
+  "description": "Number of n X n 0..2 arrays with values 0..2 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.",
   "id": "A199640",
   "mentions": [
     "A199647"

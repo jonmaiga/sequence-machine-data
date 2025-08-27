@@ -1,0 +1,18 @@
+{
+  "description": "The total number of big inversions in all parking functions of length n.",
+  "id": "A386861",
+  "mentions": [
+    "A000272",
+    "A386860"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

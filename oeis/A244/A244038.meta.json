@@ -1,9 +1,14 @@
 {
-  "description": "a(n) = 4^n*binomial(3*n/2,n).",
+  "description": "a(n) = 4^n * binomial(3*n/2,n).",
   "id": "A244038",
   "mentions": [
+    "A000302",
     "A045741",
-    "A244039"
+    "A098430",
+    "A160906",
+    "A244039",
+    "A383326",
+    "A386897"
   ],
   "tags": [
     "formulas",

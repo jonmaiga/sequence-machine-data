@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+2 0..7 arrays with the sum of the maximum minus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero",
+  "description": "Number of length n+2 0..7 arrays with the sum of the maximum minus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.",
   "id": "A252176",
   "mentions": [
     "A252177"

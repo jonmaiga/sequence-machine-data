@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with every 2X2 and 3X3 subblock diagonal maximum minus antidiagonal minimum nondecreasing horizontally and vertically",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with every 2X2 and 3X3 subblock diagonal maximum minus antidiagonal minimum nondecreasing horizontally and vertically.",
   "id": "A253510",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest positive integer such that 4n+2 can be partitioned into the sum of two primes in the form of 4k+3 in n ways",
+  "description": "a(n) is the smallest positive integer such that 4n+2 can be partitioned into the sum of two primes in the form of 4k+3 in n ways.",
   "id": "A217697",
   "mentions": [
     "A000040",

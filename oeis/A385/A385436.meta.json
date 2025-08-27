@@ -1,0 +1,24 @@
+{
+  "description": "Tribonacci array of the second kind, read by upward antidiagonals.",
+  "id": "A385436",
+  "mentions": [
+    "A027084",
+    "A035513",
+    "A136189",
+    "A351631",
+    "A352103",
+    "A372501",
+    "A385455",
+    "A385532",
+    "A385533"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

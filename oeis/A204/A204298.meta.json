@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..3 arrays with every element neighboring horizontally or vertically both a 0 and a 1, and 2 introduced before 3 in row major order",
+  "description": "Number of nX5 0..3 arrays with every element neighboring horizontally or vertically both a 0 and a 1, and 2 introduced before 3 in row major order.",
   "id": "A204298",
   "mentions": [
     "A204301"

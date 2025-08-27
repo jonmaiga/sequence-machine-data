@@ -1,7 +1,9 @@
 {
-  "description": "k and 2k are anagrams in base 5 (written in base 5).",
+  "description": "Positive numbers k such that k and 2*k are anagrams in base 5 (written in base 5).",
   "id": "A023061",
-  "mentions": [],
+  "mentions": [
+    "A007091"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

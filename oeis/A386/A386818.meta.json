@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients in q-expansion of E_2^2 * E_6^2, where E_2 and E_6 are respectively the Eisenstein series A006352 and A013973.",
+  "id": "A386818",
+  "mentions": [
+    "A006352",
+    "A013973",
+    "A386787"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

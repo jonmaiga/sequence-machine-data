@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with a record number of ways in which they can be expressed as b^2 * c^3, with b and c >= 1.",
+  "id": "A384790",
+  "mentions": [
+    "A001694",
+    "A002182",
+    "A025487",
+    "A046055",
+    "A057523",
+    "A181800",
+    "A370256",
+    "A384791"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

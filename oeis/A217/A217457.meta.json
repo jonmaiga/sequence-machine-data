@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays of the minimum value of corresponding elements and their horizontal and vertical neighbors in a random 0..2 nXk array",
+  "description": "T(n,k)=Number of nXk arrays of the minimum value of corresponding elements and their horizontal and vertical neighbors in a random 0..2 nXk array.",
   "id": "A217457",
   "mentions": [],
   "tags": [

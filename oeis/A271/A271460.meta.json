@@ -2,7 +2,8 @@
   "description": "Triangle read by rows: T(n,m) = (m/(n-m))*Sum_{k=1..n-m}((-1)^k*binomial(m-1,k-1)*binomial(3*(n-m)-k-1,n-m-k)), T(n,n)=1.",
   "id": "A271460",
   "mentions": [
-    "A006013"
+    "A006013",
+    "A271875"
   ],
   "tags": [
     "formulas",

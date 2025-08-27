@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..3 arrays with the sum of each 2X2 subblock two median terms lexicographically nondecreasing columnwise and nonincreasing rowwise",
+  "description": "Number of (n+1)X(1+1) 0..3 arrays with the sum of each 2X2 subblock two median terms lexicographically nondecreasing columnwise and nonincreasing rowwise.",
   "id": "A235749",
   "mentions": [
     "A235752"

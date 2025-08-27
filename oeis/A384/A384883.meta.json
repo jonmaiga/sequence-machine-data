@@ -1,0 +1,39 @@
+{
+  "description": "Number of maximal sparse subsets of the binary indices of n, where a set is sparse iff 1 is not a first difference.",
+  "id": "A384883",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A000931",
+    "A001629",
+    "A010049",
+    "A034839",
+    "A044813",
+    "A048793",
+    "A053538",
+    "A116674",
+    "A119900",
+    "A166469",
+    "A202023",
+    "A202064",
+    "A208342",
+    "A245564",
+    "A268193",
+    "A374356",
+    "A384177",
+    "A384877",
+    "A384878",
+    "A384890",
+    "A384893",
+    "A384905",
+    "A385215"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

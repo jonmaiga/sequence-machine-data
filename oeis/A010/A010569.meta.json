@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2n-step 5-dimensional closed paths on 5-d cubic lattice.",
+  "description": "Number of 2n-step self-avoiding closed paths on the 5-dimensional cubic lattice.",
   "id": "A010569",
   "mentions": [
     "A010568",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

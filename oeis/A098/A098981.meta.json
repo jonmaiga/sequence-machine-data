@@ -1,5 +1,5 @@
 {
-  "description": "Total number of self-intersections of all walks on the square lattice starting at the origin.",
+  "description": "Total number of self-intersections of all n-step walks on the square lattice starting at the origin.",
   "id": "A098981",
   "mentions": [
     "A002894",
@@ -8,12 +8,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

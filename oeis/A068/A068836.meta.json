@@ -1,7 +1,9 @@
 {
-  "description": "Smallest prime containing all the digits of the concatenation of first n natural numbers.",
+  "description": "a(n) is the smallest prime containing all the distinct digits occurring in the first n positive integers.",
   "id": "A068836",
-  "mentions": [],
+  "mentions": [
+    "A007908"
+  ],
   "tags": [
     "base",
     "less",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-entry"
   }
 }

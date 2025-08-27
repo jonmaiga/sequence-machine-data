@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the cubes of the exponents in the prime factorization of n.",
+  "id": "A384815",
+  "mentions": [
+    "A001222",
+    "A001620",
+    "A005064",
+    "A090885",
+    "A360970"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

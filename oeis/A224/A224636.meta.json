@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+5)X(k+5) 0..2 matrices with each 6X6 subblock idempotent",
+  "description": "T(n,k)=Number of (n+5)X(k+5) 0..2 matrices with each 6X6 subblock idempotent.",
   "id": "A224636",
   "mentions": [],
   "tags": [

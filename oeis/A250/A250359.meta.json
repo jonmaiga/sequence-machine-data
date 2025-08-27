@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n arrays x(i), i=1..n with x(i) in i..i+6 and no value appearing more than 3 times",
+  "description": "Number of length n arrays x(i), i=1..n with x(i) in i..i+6 and no value appearing more than 3 times.",
   "id": "A250359",
   "mentions": [
     "A250361"

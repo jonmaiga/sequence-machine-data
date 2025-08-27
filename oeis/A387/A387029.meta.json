@@ -1,0 +1,19 @@
+{
+  "description": "Number of fundamental one-dimensional discrete statistical models with rational maximum likelihood estimator supported on n+1 states and of degree 2n-3.",
+  "id": "A387029",
+  "mentions": [
+    "A143107",
+    "A143108",
+    "A143109",
+    "A386841"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

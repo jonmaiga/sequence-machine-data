@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the index of A384793(n) in A038618.",
+  "id": "A384794",
+  "mentions": [
+    "A038618",
+    "A052382",
+    "A384793"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

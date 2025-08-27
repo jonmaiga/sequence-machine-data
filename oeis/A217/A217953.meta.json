@@ -1,5 +1,5 @@
 {
-  "description": "Number of n element 0..3 arrays with each element the minimum of 7 adjacent elements of a random 0..3 array of n+6 elements",
+  "description": "Number of n element 0..3 arrays with each element the minimum of 7 adjacent elements of a random 0..3 array of n+6 elements.",
   "id": "A217953",
   "mentions": [
     "A217954"

@@ -2,15 +2,17 @@
   "description": "Binomial transform of A033192.",
   "id": "A033193",
   "mentions": [
+    "A001622",
     "A033192"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

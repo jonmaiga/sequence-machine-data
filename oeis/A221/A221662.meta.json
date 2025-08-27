@@ -1,5 +1,5 @@
 {
-  "description": "Equals one maps: number of 4Xn binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal and antidiagonal neighbors in a random 0..2 4Xn array",
+  "description": "Equals one maps: number of 4Xn binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal and antidiagonal neighbors in a random 0..2 4Xn array.",
   "id": "A221662",
   "mentions": [
     "A221660"

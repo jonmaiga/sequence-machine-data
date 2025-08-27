@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with all horizontally or vertically connected equal values in a straight line, and new values 0..2 introduced in row major order",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with all horizontally or vertically connected equal values in a straight line, and new values 0..2 introduced in row major order.",
   "id": "A223387",
   "mentions": [
     "A007051"

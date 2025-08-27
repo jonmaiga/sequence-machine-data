@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of arrangements of n+2 nonzero numbers x(i) in -k..k with the sum of x(i)*x(i+1) equal to zero",
+  "description": "T(n,k)=Number of arrangements of n+2 nonzero numbers x(i) in -k..k with the sum of x(i)*x(i+1) equal to zero.",
   "id": "A188249",
   "mentions": [
     "A138364"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 binary arrays with each 1 adjacent to exactly one 0 vertically and one 0 horizontally",
+  "description": "Number of nX7 binary arrays with each 1 adjacent to exactly one 0 vertically and one 0 horizontally.",
   "id": "A183349",
   "mentions": [
     "A183352"

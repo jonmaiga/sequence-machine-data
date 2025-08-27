@@ -1,0 +1,22 @@
+{
+  "description": "Number of transversals in pine Latin squares of order 4n.",
+  "id": "A383570",
+  "mentions": [
+    "A002860",
+    "A090741",
+    "A091323",
+    "A092237",
+    "A338522",
+    "A383368"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

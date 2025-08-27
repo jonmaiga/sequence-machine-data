@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (binomial(n, k) * 3^k) (mod 4^k).",
+  "id": "A386662",
+  "mentions": [
+    "A386660",
+    "A386661",
+    "A386663"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

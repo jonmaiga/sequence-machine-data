@@ -1,10 +1,11 @@
 {
-  "description": "f-perfect numbers defined by f(n) = n - 1 (where f-perfect numbers are defined in A066218).",
+  "description": "f-perfect numbers, where f(m) = m - 1.",
   "id": "A066230",
   "mentions": [
     "A066218",
     "A066229",
-    "A066511"
+    "A066511",
+    "A301744"
   ],
   "tags": [
     "more",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

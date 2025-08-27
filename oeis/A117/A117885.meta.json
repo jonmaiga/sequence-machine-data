@@ -1,12 +1,11 @@
 {
-  "description": "Numbers n such that a regular (n^3-n)-gon can be constructed by means of a ruler and compass.",
+  "description": "Numbers k such that a regular (k^3-k)-gon can be constructed by means of a ruler and compass.",
   "id": "A117885",
   "mentions": [
     "A003401"
   ],
   "tags": [
     "fini",
-    "formulas",
     "full",
     "nonn"
   ],

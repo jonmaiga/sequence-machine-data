@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 13*n + 8 is not a prime.",
+  "description": "Numbers k such that 13*k + 8 is not a prime.",
   "id": "A155939",
   "mentions": [
     "A092178",

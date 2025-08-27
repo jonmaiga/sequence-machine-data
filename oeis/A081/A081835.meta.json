@@ -2,7 +2,8 @@
   "description": "a(1)=1, a(n) = a(n-1) + 5 if n is already in the sequence, a(n) = a(n-1) + 4 otherwise.",
   "id": "A081835",
   "mentions": [
-    "A064437"
+    "A064437",
+    "A081843"
   ],
   "tags": [
     "formulas",

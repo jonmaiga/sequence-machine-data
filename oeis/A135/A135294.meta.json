@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3*a(n-1)+n if a(n-1) is not divisible by 2, or a(n) = a(n-1)/2 otherwise",
+  "description": "a(n) = 3*a(n-1)+n if a(n-1) is not divisible by 2, or a(n) = a(n-1)/2 otherwise.",
   "id": "A135294",
   "mentions": [
     "A001793",

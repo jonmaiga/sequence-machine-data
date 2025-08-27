@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays of occupancy after each element stays put or moves to some king-move neighbor",
+  "description": "T(n,k)=Number of nXk arrays of occupancy after each element stays put or moves to some king-move neighbor.",
   "id": "A221225",
   "mentions": [
     "A001906"

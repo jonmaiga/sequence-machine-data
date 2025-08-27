@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn binary arrays without the pattern 0 1 0 antidiagonally or horizontally",
+  "description": "Number of 7Xn binary arrays without the pattern 0 1 0 antidiagonally or horizontally.",
   "id": "A189069",
   "mentions": [
     "A189064"

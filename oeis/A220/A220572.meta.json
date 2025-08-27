@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write 2n-1=x+y (x,y>=0) with x^18+3*y^18 prime",
+  "description": "Number of ways to write 2n-1=x+y (x,y>=0) with x^18+3*y^18 prime.",
   "id": "A220572",
   "mentions": [
     "A036468",

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of side-n hexagonal 0..k arrays with values nondecreasing E, SW and SE",
+  "description": "T(n,k)=Number of side-n hexagonal 0..k arrays with values nondecreasing E, SW and SE.",
   "id": "A216937",
   "mentions": [
     "A003583"

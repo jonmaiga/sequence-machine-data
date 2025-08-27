@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 3 1..(n+2) arrays with no leading or trailing partial sum equal to a prime and no consecutive values equal",
+  "description": "Number of length 3 1..(n+2) arrays with no leading or trailing partial sum equal to a prime and no consecutive values equal.",
   "id": "A254220",
   "mentions": [
     "A254218"

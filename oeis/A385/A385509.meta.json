@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the volume of an augmented pentagonal prism with unit edge.",
+  "id": "A385509",
+  "mentions": [
+    "A002163",
+    "A385510"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

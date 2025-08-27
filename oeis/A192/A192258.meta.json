@@ -1,13 +1,14 @@
 {
-  "description": "Number of n X n symmetric binary matrices with each element either the sum mod 2 of its horizontal neighbors or the sum mod 2 of its vertical neighbors",
+  "description": "Number of n X n symmetric binary matrices with each element either the sum mod 2 of its horizontal neighbors or the sum mod 2 of its vertical neighbors.",
   "id": "A192258",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

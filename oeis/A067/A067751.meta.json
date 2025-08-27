@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions in nonnegative integers of xy+xz+yz=n.",
+  "description": "Number of solutions in nonnegative integers of x*y+x*z+y*z = n.",
   "id": "A067751",
   "mentions": [
     "A067752",

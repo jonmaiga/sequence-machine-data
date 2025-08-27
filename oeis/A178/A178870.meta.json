@@ -1,5 +1,5 @@
 {
-  "description": "Signed Delannoy triangle convolved with 10^n",
+  "description": "Signed Delannoy triangle convolved with 10^n.",
   "id": "A178870",
   "mentions": [
     "A008288",

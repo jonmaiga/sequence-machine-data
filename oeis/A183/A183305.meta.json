@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX4 binary arrays with no element equal to a strict majority of its horizontal and vertical neighbors",
+  "description": "Half the number of nX4 binary arrays with no element equal to a strict majority of its horizontal and vertical neighbors.",
   "id": "A183305",
   "mentions": [
     "A183312"

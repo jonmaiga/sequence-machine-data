@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that at least n terms of A063655 starting from index k are strictly decreasing.",
+  "id": "A386525",
+  "mentions": [
+    "A063655"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

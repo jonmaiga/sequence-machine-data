@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 1/194.",
   "id": "A021198",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
+    "easy",
     "nonn"
   ],
   "terms": {

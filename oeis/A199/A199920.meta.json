@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n = p+k with p, p+6, 6k-1 and 6k+1 all prime",
+  "description": "Number of ways to write n = p+k with p, p+6, 6k-1 and 6k+1 all prime.",
   "id": "A199920",
   "mentions": [
     "A001359",

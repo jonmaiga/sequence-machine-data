@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal or vertical neighbor, without 2-loops or left turns",
+  "description": "T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal or vertical neighbor, without 2-loops or left turns.",
   "id": "A221768",
   "mentions": [
     "A001906"

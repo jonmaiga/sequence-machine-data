@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (2*10^n+61)/9.",
+  "description": "a(n) = (2*10^n + 61)/9.",
   "id": "A173262",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn 0..6 triangular arrays with each element equal to the number of its neighbors unequal to itself",
+  "description": "Number of nXnXn 0..6 triangular arrays with each element equal to the number of its neighbors unequal to itself.",
   "id": "A195954",
   "mentions": [],
   "tags": [

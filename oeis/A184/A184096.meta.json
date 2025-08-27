@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of n X n toroidal binary arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors",
+  "description": "Half the number of n X n toroidal binary arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors.",
   "id": "A184096",
   "mentions": [
     "A184097"

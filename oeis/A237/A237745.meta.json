@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with the (lower) medians of each row equal and of each column equal",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with the (lower) medians of each row equal and of each column equal.",
   "id": "A237745",
   "mentions": [],
   "tags": [

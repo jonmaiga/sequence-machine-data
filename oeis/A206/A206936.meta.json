@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays avoiding 0 0 0 horizontally and 0 1 1 vertically",
+  "description": "T(n,k)=Number of nXk 0..1 arrays avoiding 0 0 0 horizontally and 0 1 1 vertically.",
   "id": "A206936",
   "mentions": [
     "A000071",

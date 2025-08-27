@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n-1 have the same prime signature. Numbers not included in A083792.",
+  "description": "Numbers k such that k and k-1 have the same prime signature. Numbers not included in A083792.",
   "id": "A083793",
   "mentions": [
     "A083792"

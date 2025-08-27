@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having exactly one representation as sum of cubes>1.",
+  "description": "Numbers having exactly one representation as sum of cubes > 1.",
   "id": "A078130",
   "mentions": [
     "A000578",
@@ -9,11 +9,13 @@
     "A078136"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 57,
+    "size": 63,
     "source": "oeis-entry"
   }
 }

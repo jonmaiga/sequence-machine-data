@@ -2,6 +2,7 @@
   "description": "Row sums of irregular triangle A292224. a(n) gives the total number of admissible tuples starting with 0 in the interval [0, 1, ..., n-1].",
   "id": "A292225",
   "mentions": [
+    "A023189",
     "A023193",
     "A292224"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 3+6 0..n arrays with no seven consecutive terms having four times the sum of any three elements equal to three times the sum of the remaining four",
+  "description": "Number of length 3+6 0..n arrays with no seven consecutive terms having four times the sum of any three elements equal to three times the sum of the remaining four.",
   "id": "A249200",
   "mentions": [
     "A249197"

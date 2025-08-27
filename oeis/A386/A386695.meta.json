@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the volume of a snub disphenoid with unit edges.",
+  "id": "A386695",
+  "mentions": [
+    "A010482",
+    "A386696"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

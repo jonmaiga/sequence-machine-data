@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nXnXn triangular binary arrays with every element equal to at least half of its neighbors",
+  "description": "Half the number of nXnXn triangular binary arrays with every element equal to at least half of its neighbors.",
   "id": "A192372",
   "mentions": [],
   "tags": [

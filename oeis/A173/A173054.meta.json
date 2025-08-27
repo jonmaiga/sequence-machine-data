@@ -1,15 +1,18 @@
 {
-  "description": "Numbers of the form a^b+b^a, a > 1, b > a.",
+  "description": "Numbers of the form x^y + y^x, 1 < x < y.",
   "id": "A173054",
   "mentions": [
-    "A076980"
+    "A076980",
+    "A385232",
+    "A385614"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that there exist nonnegative integers a and b such that n = concat(a,b) = a^2+b^2.",
+  "description": "Numbers k with the property that there exist nonnegative integers a and b such that k = concat(a,b) = a^2+b^2.",
   "id": "A178530",
   "mentions": [
     "A055616",

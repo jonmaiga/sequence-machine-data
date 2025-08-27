@@ -2,10 +2,15 @@
   "description": "a(n) = floor(1/frac(n*e)).",
   "id": "A024573",
   "mentions": [
+    "A000027",
+    "A000142",
     "A022843",
-    "A024584"
+    "A024584",
+    "A190847",
+    "A190860"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

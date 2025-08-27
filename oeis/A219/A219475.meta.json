@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5Xn arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..3 5Xn array",
+  "description": "Number of 5Xn arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..3 5Xn array.",
   "id": "A219475",
   "mentions": [
     "A219471"

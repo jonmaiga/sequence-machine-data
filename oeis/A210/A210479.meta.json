@@ -1,5 +1,5 @@
 {
-  "description": "Primes p with p-1 and p+1 both practical: \"Sandwich of the first kind\"",
+  "description": "Primes p with p-1 and p+1 both practical: \"Sandwich of the first kind\".",
   "id": "A210479",
   "mentions": [
     "A005153",

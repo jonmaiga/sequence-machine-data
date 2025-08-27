@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) 0..1 arrays with every 3X3 subblock diagonal maximum plus antidiagonal median nondecreasing horizontally and vertically",
+  "description": "Number of (n+2)X(4+2) 0..1 arrays with every 3X3 subblock diagonal maximum plus antidiagonal median nondecreasing horizontally and vertically.",
   "id": "A253797",
   "mentions": [
     "A253801"

@@ -1,0 +1,17 @@
+{
+  "description": "The long legs of the triangles defined in A365577.",
+  "id": "A385972",
+  "mentions": [
+    "A365577",
+    "A385973"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

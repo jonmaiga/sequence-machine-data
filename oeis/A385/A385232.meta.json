@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be written as s^x + t^y, with 1 < s < t and {s,t} = {x,y}; that is, are of the form s^s + t^t or s^t + t^s.",
+  "id": "A385232",
+  "mentions": [
+    "A000312",
+    "A001597",
+    "A173054",
+    "A385233",
+    "A385614"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

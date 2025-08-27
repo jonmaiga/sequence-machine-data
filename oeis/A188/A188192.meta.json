@@ -1,8 +1,10 @@
 {
-  "description": "[nr]-[kr]-[nr-kr], where r=sqrt(5), k=3, [ ]=floor.",
+  "description": "a(n) = [n*r]-[k*r]-[n*r-k*r], where r=sqrt(5), k=3, [ ]=floor.",
   "id": "A188192",
   "mentions": [
-    "A188014"
+    "A188014",
+    "A188217",
+    "A188218"
   ],
   "tags": [
     "formulas",

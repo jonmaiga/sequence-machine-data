@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle based on Stirling numbers of the second kind :q=3;t(n,m,q)=If[m == 0 Or m == n, 1, If[Floor[n/2] greater than or equal to m, StirlingS2[ n, m]*q^m, StirlingS2[n, n - m]*q^(n - m)]]",
+  "description": "A symmetrical triangle based on Stirling numbers of the second kind :q=3;t(n,m,q)=If[m == 0 Or m == n, 1, If[Floor[n/2] greater than or equal to m, StirlingS2[ n, m]*q^m, StirlingS2[n, n - m]*q^(n - m)]].",
   "id": "A174546",
   "mentions": [],
   "tags": [

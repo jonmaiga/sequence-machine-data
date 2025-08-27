@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays whose sum with another nXk binary array containing no more than a single 1 has rows and columns in lexicographically nondecreasing order",
+  "description": "T(n,k)=Number of nXk binary arrays whose sum with another nXk binary array containing no more than a single 1 has rows and columns in lexicographically nondecreasing order.",
   "id": "A225900",
   "mentions": [
     "A000124"

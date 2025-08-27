@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that no Lucas number is a multiple of n.",
+  "description": "Numbers k such that no Lucas number is a multiple of k.",
   "id": "A064362",
   "mentions": [
     "A000032",

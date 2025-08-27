@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = d(phi(n)) - phi(d(n)) where d(n) = A000005(n) is the number of divisors and phi(n) = A000010(n) is the Euler totient function.",
+  "id": "A385122",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A062821",
+    "A078148",
+    "A078150",
+    "A163109"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

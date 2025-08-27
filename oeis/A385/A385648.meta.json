@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/( 1 - x*(A(x) + A(2*x))^2 ).",
+  "id": "A385648",
+  "mentions": [
+    "A171192",
+    "A385617",
+    "A385649",
+    "A385650"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

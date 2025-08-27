@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution square-root of A004381, where A004381(n) = binomial(8*n,n).",
+  "id": "A383965",
+  "mentions": [
+    "A004381",
+    "A007556",
+    "A208977",
+    "A384695"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

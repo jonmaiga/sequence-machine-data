@@ -1,16 +1,18 @@
 {
-  "description": "Determinant of the matrix [L(j+k)+d(j,k)]_{1<=j,k<=n}, where L(n) denotes the Lucas number A000032(n), and d(j,k) is 1 or 0 according as j = k or not.",
+  "description": "Determinant of the matrix [L(j+k) + d(j,k)]_{1<=j, k<=n}, where L(n) denotes the Lucas number A000032(n), and d(j,k) is 1 or 0 according as j = k or not.",
   "id": "A360278",
   "mentions": [
     "A000032",
-    "A000045"
+    "A000045",
+    "A027960"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

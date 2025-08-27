@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..1 arrays with no element less than a strict majority of its horizontal, vertical, diagonal and antidiagonal neighbors",
+  "description": "Number of nX6 0..1 arrays with no element less than a strict majority of its horizontal, vertical, diagonal and antidiagonal neighbors.",
   "id": "A231513",
   "mentions": [
     "A231515"

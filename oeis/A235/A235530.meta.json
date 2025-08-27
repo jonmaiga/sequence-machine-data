@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..2 arrays with the sum of each 2X2 subblock two median terms lexicographically nondecreasing rowwise and columnwise",
+  "description": "Number of (n+1)X(4+1) 0..2 arrays with the sum of each 2X2 subblock two median terms lexicographically nondecreasing rowwise and columnwise.",
   "id": "A235530",
   "mentions": [
     "A235531"

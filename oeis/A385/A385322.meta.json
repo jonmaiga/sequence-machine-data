@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x + x^2/2 * A'(x)).",
+  "id": "A385322",
+  "mentions": [
+    "A143925",
+    "A156325",
+    "A386531",
+    "A386532"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

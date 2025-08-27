@@ -1,5 +1,5 @@
 {
-  "description": "One sixth of gap g between 3 consecutive primes for the smallest k such that 6^n+k, 6^n+k+g, 6^n+k+2*g are consecutive primes in arithmetic progression",
+  "description": "One sixth of gap g between 3 consecutive primes for the smallest k such that 6^n+k, 6^n+k+g, 6^n+k+2*g are consecutive primes in arithmetic progression.",
   "id": "A233742",
   "mentions": [
     "A233546",

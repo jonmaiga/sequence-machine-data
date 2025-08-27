@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with a prime number of prime factors, counted with multiplicity, and whose prime factors are each raised to a prime exponent.",
+  "id": "A385288",
+  "mentions": [
+    "A001248",
+    "A001694",
+    "A030078",
+    "A056166",
+    "A114129"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "5*401*(10^n + 1).",
+  "description": "a(n) = 5*401*(10^n + 1).",
   "id": "A107285",
   "mentions": [
     "A062397",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 18,
     "source": "joeis"
   }
 }

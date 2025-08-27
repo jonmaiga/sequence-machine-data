@@ -1,5 +1,5 @@
 {
-  "description": "196n - 1.",
+  "description": "a(n) = 196*n - 1.",
   "id": "A158225",
   "mentions": [
     "A158224"

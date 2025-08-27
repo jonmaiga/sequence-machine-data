@@ -1,7 +1,8 @@
 {
-  "description": "Chen primes for which the digital root is also a Chen prime.",
+  "description": "Chen primes whose digital root is also a Chen prime.",
   "id": "A118723",
   "mentions": [
+    "A010888",
     "A109611"
   ],
   "tags": [

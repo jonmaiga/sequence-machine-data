@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of 6 nonzero numbers in -(n+4)..(n+4) with sum zero",
+  "description": "Number of nondecreasing arrangements of 6 nonzero numbers in -(n+4)..(n+4) with sum zero.",
   "id": "A188336",
   "mentions": [
     "A188333"

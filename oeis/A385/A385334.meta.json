@@ -1,0 +1,17 @@
+{
+  "description": "Cat number of complete graphs on n vertices.",
+  "id": "A385334",
+  "mentions": [
+    "A002620"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

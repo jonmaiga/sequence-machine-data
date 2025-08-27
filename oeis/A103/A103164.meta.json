@@ -1,7 +1,11 @@
 {
   "description": "Integers but with the primes squared.",
   "id": "A103164",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A010051",
+    "A380444"
+  ],
   "tags": [
     "easy",
     "formulas",

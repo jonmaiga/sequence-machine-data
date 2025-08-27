@@ -1,16 +1,18 @@
 {
-  "description": "Positions of 4 in A038800.",
+  "description": "Positions of 4's in A038800 with offset 1.",
   "id": "A115095",
   "mentions": [
+    "A007811",
     "A038800",
     "A064975"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

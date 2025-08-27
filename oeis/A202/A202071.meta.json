@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of n+2 integers in -3..3 with sum zero and the sum of every adjacent pair being odd",
+  "description": "Number of arrays of n+2 integers in -3..3 with sum zero and the sum of every adjacent pair being odd.",
   "id": "A202071",
   "mentions": [
     "A202076"

@@ -1,5 +1,5 @@
 {
-  "description": "The least positive integer that can be written in exactly n ways as the sum of a square, a pentagonal number and a hexagonal number",
+  "description": "The least positive integer that can be written in exactly n ways as the sum of a square, a pentagonal number and a hexagonal number.",
   "id": "A165141",
   "mentions": [
     "A000290",

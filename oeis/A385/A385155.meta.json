@@ -1,0 +1,19 @@
+{
+  "description": "Numbers z such that there exist two integers 0",
+  "id": "A385155",
+  "mentions": [
+    "A000203",
+    "A125492",
+    "A384487",
+    "A384814"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

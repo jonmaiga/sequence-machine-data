@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients in Expansion of 1/(1 + x - 2*x^5).",
+  "description": "Coefficients in expansion of 1/(1 + x - 2*x^5).",
   "id": "A317509",
   "mentions": [
     "A065109",

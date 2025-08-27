@@ -2,6 +2,7 @@
   "description": "n - product of digits of n.",
   "id": "A070565",
   "mentions": [
+    "A007954",
     "A062329"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrangements of 3 nonzero numbers x(i) in -n..n with the sum of floor(x(i)/x(i+1)) equal to zero",
+  "description": "Number of arrangements of 3 nonzero numbers x(i) in -n..n with the sum of floor(x(i)/x(i+1)) equal to zero.",
   "id": "A189499",
   "mentions": [
     "A189498"

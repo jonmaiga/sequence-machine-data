@@ -1,0 +1,27 @@
+{
+  "description": "Number of good involutions of all nontrivial core quandles of order n.",
+  "id": "A386234",
+  "mentions": [
+    "A000001",
+    "A000040",
+    "A050384",
+    "A100484",
+    "A178432",
+    "A181770",
+    "A221048",
+    "A386231",
+    "A386232",
+    "A386233"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

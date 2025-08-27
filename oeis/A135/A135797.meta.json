@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form x^4 + 6x^2 y^2 + y^4 (where x,y are positive integers).",
+  "description": "Numbers of the form x^4 + 6*x^2*y^2 + y^4 (where x,y are positive integers).",
   "id": "A135797",
   "mentions": [
     "A000404",
@@ -19,11 +19,12 @@
     "A256418"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..3 arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling three no more than once.",
+  "description": "Number of n X 7 0..3 arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling three no more than once.",
   "id": "A269200",
   "mentions": [
     "A269201"

@@ -1,12 +1,9 @@
 {
-  "description": "Anti-primorials, partial products of anti-primes A092680.",
+  "description": "Partial products of A092680.",
   "id": "A131489",
   "mentions": [
-    "A000040",
-    "A002110",
     "A066466",
-    "A092680",
-    "A130874"
+    "A092680"
   ],
   "tags": [
     "formulas",

@@ -1,18 +1,33 @@
 {
-  "description": "First coefficient of the lindep transform of A129283 (n + arithmetic derivative of n).",
+  "description": "a(n) is the multiplicative order of -4 modulo prime(n); a(1) = 0 for completion.",
   "id": "A380531",
   "mentions": [
-    "A129283",
-    "A339790",
+    "A002371",
+    "A014664",
+    "A062117",
+    "A082654",
+    "A105876",
+    "A211241",
+    "A211242",
+    "A211243",
+    "A211244",
+    "A211245",
+    "A337878",
+    "A380482",
     "A380532",
-    "A380533"
+    "A380533",
+    "A380540",
+    "A380541",
+    "A380542",
+    "A385222"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
+    "size": 60,
     "source": "oeis-bfile"
   }
 }

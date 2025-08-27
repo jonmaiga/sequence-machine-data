@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes that are the concatenation of n 1's, 2^n and n 1's",
+  "description": "Semiprimes that are the concatenation of n 1's, 2^n and n 1's.",
   "id": "A261364",
   "mentions": [
     "A001358",

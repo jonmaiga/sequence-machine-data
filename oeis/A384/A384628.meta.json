@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k = 1..n} gcd(n, floor(n / k)).",
+  "id": "A384628",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A005408",
+    "A018804"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p that divide Lucas[(p+1)/2] = A000032[(p+1)/2].",
+  "description": "Primes congruent to 3 or 7 mod 20.",
   "id": "A122870",
   "mentions": [
     "A000032",
@@ -10,6 +10,7 @@
     "A053027",
     "A106865",
     "A122869",
+    "A216815",
     "A216816"
   ],
   "tags": [

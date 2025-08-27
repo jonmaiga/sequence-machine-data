@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X9 binary arrays with every 2X2 subblock nonsingular",
+  "description": "Number of (n+1)X9 binary arrays with every 2X2 subblock nonsingular.",
   "id": "A183687",
   "mentions": [
     "A183688"

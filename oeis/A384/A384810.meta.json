@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x/A(-x*A(x)^3)^2 ).",
+  "id": "A384810",
+  "mentions": [
+    "A052750",
+    "A213110",
+    "A213111",
+    "A384617",
+    "A384809",
+    "A384813"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

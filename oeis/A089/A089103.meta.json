@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Mod[n+Prime[n],10]",
+  "description": "a(n) = Mod[n+Prime[n],10].",
   "id": "A089103",
   "mentions": [],
   "tags": [

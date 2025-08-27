@@ -2,6 +2,7 @@
   "description": "Number of 2 X 2 matrices with entries in {-n,..,0,..,n} with no entries repeated having permanent = trace^n.",
   "id": "A280844",
   "mentions": [
+    "A132345",
     "A278902",
     "A278933",
     "A279018"

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/(1 - x*A(x) - x^3*A''(x)).",
+  "id": "A385762",
+  "mentions": [
+    "A000108",
+    "A088716",
+    "A385763",
+    "A385764",
+    "A385765"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

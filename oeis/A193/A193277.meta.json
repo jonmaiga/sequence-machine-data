@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), n>=1, 0<=k<=(3+3^n)/2, read by rows: row n gives the coefficients of the chromatic polynomial of the Sierpinski graph S_n, highest powers first.",
+  "description": "Triangle T(n,k), n>=1, 0<=k<=(3+3^n)/2, read by rows: row n gives the coefficients of the chromatic polynomial of the Sierpinski gasket graph S_n, highest powers first.",
   "id": "A193277",
   "mentions": [
     "A000244",

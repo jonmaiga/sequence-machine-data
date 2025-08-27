@@ -1,0 +1,27 @@
+{
+  "description": "Odd numbers k that are closer to being perfect than previous terms, and also satisfy the condition that phi(k) = phi(sigma(k)).",
+  "id": "A386419",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000396",
+    "A171929",
+    "A228058",
+    "A228059",
+    "A353679",
+    "A353680",
+    "A354362",
+    "A386420",
+    "A386421",
+    "A386422"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,24 @@
 {
   "description": "Galois numbers for p=11; order of group AGL(n,11).",
   "id": "A028673",
-  "mentions": [],
+  "mentions": [
+    "A028365",
+    "A028665",
+    "A028667",
+    "A028669",
+    "A028675",
+    "A028679",
+    "A028681",
+    "A028685",
+    "A132267"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 9,
     "source": "oeis-bfile"
   }
 }

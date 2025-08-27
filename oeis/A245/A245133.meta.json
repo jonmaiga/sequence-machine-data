@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n 0..7 arrays least squares fitting to a zero slope straight line, with a single point taken as having zero slope",
+  "description": "Number of length n 0..7 arrays least squares fitting to a zero slope straight line, with a single point taken as having zero slope.",
   "id": "A245133",
   "mentions": [
     "A245134"

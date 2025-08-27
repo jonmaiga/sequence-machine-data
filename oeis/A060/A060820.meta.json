@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (2*n-1)^2 + (2*n)^2.",
   "id": "A060820",
-  "mentions": [],
+  "mentions": [
+    "A080856"
+  ],
   "tags": [
     "easy",
     "formulas",

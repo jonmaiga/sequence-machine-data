@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number with a n-character traditional Japanese notation.",
+  "id": "A384792",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

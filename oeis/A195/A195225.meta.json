@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of a 7X7 integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by n or less and triangles differing by a constant counted only once",
+  "description": "Number of lower triangles of a 7X7 integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by n or less and triangles differing by a constant counted only once.",
   "id": "A195225",
   "mentions": [
     "A195220"

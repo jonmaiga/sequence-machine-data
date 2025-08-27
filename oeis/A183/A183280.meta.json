@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nXnXn triangular binary arrays with no element having four consecutive neighbors taken clockwise with equal values",
+  "description": "Half the number of nXnXn triangular binary arrays with no element having four consecutive neighbors taken clockwise with equal values.",
   "id": "A183280",
   "mentions": [],
   "tags": [

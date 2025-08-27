@@ -1,0 +1,15 @@
+{
+  "description": "The maximum possible number of 8-cycles in an outerplanar graph on n vertices.",
+  "id": "A386226",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 8,
+    "size": 55,
+    "source": "joeis"
+  }
+}

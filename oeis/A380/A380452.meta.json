@@ -1,19 +1,30 @@
 {
-  "description": "Second coefficient of the lindep transform of Carmichael lambda, A002322.",
+  "description": "Perfect powers k^m, m > 1, omega(k) > 1, such that A053669(k) > A006530(k) that are not also products of primorials, where omega = A001221.",
   "id": "A380452",
   "mentions": [
-    "A002322",
-    "A339791",
-    "A380442",
-    "A380451",
-    "A380453"
+    "A001221",
+    "A001597",
+    "A002110",
+    "A006530",
+    "A007947",
+    "A025487",
+    "A053669",
+    "A055932",
+    "A056808",
+    "A131605",
+    "A246547",
+    "A304250",
+    "A368682",
+    "A369374",
+    "A380446"
   ],
   "tags": [
-    "sign"
+    "formulas",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 95,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

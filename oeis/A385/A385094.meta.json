@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are the sum of distinct positive cubes.",
+  "id": "A385094",
+  "mentions": [
+    "A003997",
+    "A122723"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

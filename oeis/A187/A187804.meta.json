@@ -1,5 +1,5 @@
 {
-  "description": "Number of circular permutations of length n whose n flattenings are all not derangements",
+  "description": "Number of circular permutations of length n whose n flattenings are all not derangements.",
   "id": "A187804",
   "mentions": [],
   "tags": [

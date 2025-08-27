@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..1 arrays with no element having a strict majority of its horizontal, vertical, diagonal and antidiagonal neighbors equal to one",
+  "description": "Number of (n+1)X(4+1) 0..1 arrays with no element having a strict majority of its horizontal, vertical, diagonal and antidiagonal neighbors equal to one.",
   "id": "A231802",
   "mentions": [
     "A231806"

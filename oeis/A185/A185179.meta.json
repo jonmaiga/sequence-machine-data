@@ -9,13 +9,12 @@
   ],
   "tags": [
     "hard",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 3,
-    "size": 34,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

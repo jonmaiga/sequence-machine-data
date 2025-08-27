@@ -1,5 +1,5 @@
 {
-  "description": "n*(2*n+1)*binomial(n+2,n)/3.",
+  "description": "a(n) = n*(2*n+1)*binomial(n+2,n)/3.",
   "id": "A289643",
   "mentions": [
     "A000332"

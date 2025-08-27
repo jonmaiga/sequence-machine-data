@@ -2,6 +2,7 @@
   "description": "a(n) = -Sum_{d|n, d < sqrt(n)} (-1)^(d + n/d).",
   "id": "A348952",
   "mentions": [
+    "A010052",
     "A048272",
     "A056924",
     "A228441",

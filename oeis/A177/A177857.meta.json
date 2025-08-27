@@ -1,5 +1,5 @@
 {
-  "description": "Possible values k such that hyperelliptic curve s^2+k=m^5 has at least 6 finite points",
+  "description": "Possible values k such that hyperelliptic curve s^2+k=m^5 has at least 6 finite points.",
   "id": "A177857",
   "mentions": [
     "A152412",

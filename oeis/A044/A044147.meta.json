@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that string 1,2 occurs in the base 7 representation of n but not of n-1.",
+  "description": "Numbers k such that string 1,2 occurs in the base 7 representation of k but not of k-1.",
   "id": "A044147",
-  "mentions": [],
+  "mentions": [
+    "A007093"
+  ],
   "tags": [
     "base",
     "nonn"

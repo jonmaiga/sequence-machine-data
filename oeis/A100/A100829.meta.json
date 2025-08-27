@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are a sum of two squares and not divisible by 17.",
+  "description": "Numbers that are a sum of two nonzero squares and not divisible by 17.",
   "id": "A100829",
   "mentions": [
     "A000404",

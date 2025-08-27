@@ -1,5 +1,5 @@
 {
-  "description": "Least positive integer m such that A254574(m) = n",
+  "description": "Least positive integer m such that A254574(m) = n.",
   "id": "A254617",
   "mentions": [
     "A000217",

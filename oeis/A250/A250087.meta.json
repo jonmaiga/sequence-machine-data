@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 6+5 0..n arrays with every six consecutive terms having the maximum of some two terms equal to the minimum of the remaining four terms",
+  "description": "Number of length 6+5 0..n arrays with every six consecutive terms having the maximum of some two terms equal to the minimum of the remaining four terms.",
   "id": "A250087",
   "mentions": [
     "A250081"

@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct states of Conway's Game of Life, starting from an n-th level Hilbert curve on a toroidal 2^(n+1)-1 by 2^(n+1)-1 grid.",
+  "id": "A385414",
+  "mentions": [
+    "A059252",
+    "A059253"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

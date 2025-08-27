@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m in A385402 which are not prime.",
+  "id": "A385858",
+  "mentions": [
+    "A018804",
+    "A384628",
+    "A385398",
+    "A385402"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

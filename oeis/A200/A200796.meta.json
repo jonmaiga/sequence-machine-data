@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with values 0..3 introduced in row major order and each element equal to no more than two horizontal and vertical neighbors",
+  "description": "Number of nX3 0..3 arrays with values 0..3 introduced in row major order and each element equal to no more than two horizontal and vertical neighbors.",
   "id": "A200796",
   "mentions": [
     "A200801"

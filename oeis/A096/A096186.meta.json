@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n+9^(n-1) is prime.",
+  "description": "Numbers k such that 10^k+9^(k-1) is prime.",
   "id": "A096186",
   "mentions": [
     "A082103",

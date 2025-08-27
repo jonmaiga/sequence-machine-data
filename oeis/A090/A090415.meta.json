@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[4*Pi*n/(E)]",
+  "description": "a(n) = Floor[4*Pi*n/(E)].",
   "id": "A090415",
   "mentions": [],
   "tags": [

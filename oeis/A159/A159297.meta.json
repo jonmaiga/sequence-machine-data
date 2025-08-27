@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3D matrices with positive integer entries such that sum of all entries equals n",
+  "description": "Number of 3D matrices with positive integer entries such that sum of all entries equals n.",
   "id": "A159297",
   "mentions": [
     "A101509"

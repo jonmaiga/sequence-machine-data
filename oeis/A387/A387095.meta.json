@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1 for the single prime 3; for n>=2, a(n) is the number of primes between 2^n and 2^(n+1) whose pairs lay symmetrically at each side of the center 3*2^(n-1) of that interval.",
+  "id": "A387095",
+  "mentions": [
+    "A000040",
+    "A007283",
+    "A092570",
+    "A181494"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

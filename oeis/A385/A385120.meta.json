@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed tree-like polyedges on the square lattice with n edges, rooted at a vertex.",
+  "id": "A385120",
+  "mentions": [
+    "A056841",
+    "A066158",
+    "A096267",
+    "A308409"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

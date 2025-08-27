@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are less than the number of their ordered factorizations into squarefree numbers greater than 1.",
+  "id": "A385511",
+  "mentions": [
+    "A005117",
+    "A050328",
+    "A118914",
+    "A147516",
+    "A270308",
+    "A340155"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

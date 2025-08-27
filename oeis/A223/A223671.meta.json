@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn 0..1 arrays with rows, diagonals and antidiagonals unimodal",
+  "description": "Number of 4Xn 0..1 arrays with rows, diagonals and antidiagonals unimodal.",
   "id": "A223671",
   "mentions": [
     "A223669"

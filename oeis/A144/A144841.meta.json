@@ -1,5 +1,5 @@
 {
-  "description": "Conjectured values for maximal number of regions obtained by joining each triple of n points on a 3 dimensional sphere by a plane.",
+  "description": "a(n) = 280*C(n,9)+10*C(n,6)+6*C(n,4)+C(n,3)+1 where C = binomial.",
   "id": "A144841",
   "mentions": [
     "A000127"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 35,
     "source": "joeis"
   }
 }

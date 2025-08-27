@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there are no primes in the range [2^n-n, 2^n+n].",
+  "description": "Numbers k such that there are no primes in the range [2^k-k, 2^k+k].",
   "id": "A195351",
   "mentions": [
     "A000043",

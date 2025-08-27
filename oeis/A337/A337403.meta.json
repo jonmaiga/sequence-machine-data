@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals: T(w,n) is the number of n-step self avoiding walks on a 3D cubic lattice confined inside a tube of cross section w x w where the walk starts at the tube's edge",
+  "description": "Table read by antidiagonals: T(w,n) is the number of n-step self avoiding walks on a 3D cubic lattice confined inside a tube of cross section w x w where the walk starts at the tube's edge.",
   "id": "A337403",
   "mentions": [
     "A001412",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n 1..(1+2) arrays with no leading partial sum equal to a prime",
+  "description": "Number of length n 1..(1+2) arrays with no leading partial sum equal to a prime.",
   "id": "A254532",
   "mentions": [
     "A254539"

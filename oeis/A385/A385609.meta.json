@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A090740.",
+  "id": "A385609",
+  "mentions": [
+    "A000120",
+    "A090740",
+    "A385608"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

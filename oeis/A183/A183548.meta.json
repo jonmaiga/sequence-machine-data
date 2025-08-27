@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..2 arrays with each element equal to either the maximum or the minimum of its horizontal and vertical neighbors",
+  "description": "Number of nX3 0..2 arrays with each element equal to either the maximum or the minimum of its horizontal and vertical neighbors.",
   "id": "A183548",
   "mentions": [
     "A183554"

@@ -1,0 +1,18 @@
+{
+  "description": "Elimination order of the first person in a variation of the Josephus problem in which one person is skipped, then one is eliminated, then two people are skipped and one eliminated, then three people are skipped and so on.",
+  "id": "A386643",
+  "mentions": [
+    "A000096",
+    "A225381",
+    "A386639",
+    "A386641"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

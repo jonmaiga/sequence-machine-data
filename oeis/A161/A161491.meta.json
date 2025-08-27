@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of primes p less than A000040(n) (the n-th prime) such that (p + 1)*(A000040(n) - 1) is a square",
+  "description": "a(n) = number of primes p less than A000040(n) (the n-th prime) such that (p + 1)*(A000040(n) - 1) is a square.",
   "id": "A161491",
   "mentions": [
     "A000040"

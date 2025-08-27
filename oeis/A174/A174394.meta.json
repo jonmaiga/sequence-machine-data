@@ -1,5 +1,5 @@
 {
-  "description": "Fourth root of largest n-digit number with exactly five divisors",
+  "description": "Fourth root of largest n-digit number with exactly five divisors.",
   "id": "A174394",
   "mentions": [
     "A182647"

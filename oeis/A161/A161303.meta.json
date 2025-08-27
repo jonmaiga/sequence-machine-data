@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into numbers not divisible by 4 where every part appears at least 12 times",
+  "description": "Number of partitions of n into numbers not divisible by 4 where every part appears at least 12 times.",
   "id": "A161303",
   "mentions": [],
   "tags": [

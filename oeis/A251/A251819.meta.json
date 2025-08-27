@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with every row, column, diagonal or antidiagonal in each 3X3 subblock summing to a prime",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with every row, column, diagonal or antidiagonal in each 3X3 subblock summing to a prime.",
   "id": "A251819",
   "mentions": [],
   "tags": [

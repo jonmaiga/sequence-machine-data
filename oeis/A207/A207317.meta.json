@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays avoiding the pattern z-2 z-1 z in any row, column or nw-to-se diagonal",
+  "description": "T(n,k)=Number of nXk 0..2 arrays avoiding the pattern z-2 z-1 z in any row, column or nw-to-se diagonal.",
   "id": "A207317",
   "mentions": [
     "A076264",

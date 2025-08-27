@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p <= n^2 - 2*n + 4 such that the polynomial Sum_{k=1..n} phi(k)*x^(n-k) is irreducible modulo p, or 1 if such p does not exist, where phi is Euler's totient function given by A000010.",
+  "id": "A385678",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A385658",
+    "A385676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

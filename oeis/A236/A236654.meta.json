@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..3 arrays colored with the sum of the upper and lower median values of each 2X2 subblock",
+  "description": "Number of (n+1)X(1+1) 0..3 arrays colored with the sum of the upper and lower median values of each 2X2 subblock.",
   "id": "A236654",
   "mentions": [
     "A236657"

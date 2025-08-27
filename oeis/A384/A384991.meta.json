@@ -1,0 +1,19 @@
+{
+  "description": "Order of the permutation of [n] formed by a Josephus elimination variation: take p, skip 1, with p starting at 2 and advancing to the next prime after each skip.",
+  "id": "A384991",
+  "mentions": [
+    "A000040",
+    "A051732",
+    "A384753",
+    "A384989",
+    "A384990"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

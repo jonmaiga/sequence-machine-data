@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+1, 2n+1 and n^2+1 are primes.",
+  "description": "Numbers k such that k+1, 2*k+1 and k^2+1 are primes.",
   "id": "A236692",
   "mentions": [
     "A005382",

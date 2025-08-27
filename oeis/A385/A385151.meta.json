@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least possible difference between the largest and smallest volumes of distinct three-cuboid combination filling an n X n X n cube.",
+  "id": "A385151",
+  "mentions": [
+    "A276523",
+    "A381847"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 49,
+    "source": "joeis"
+  }
+}

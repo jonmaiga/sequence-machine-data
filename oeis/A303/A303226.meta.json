@@ -2,8 +2,10 @@
   "description": "Number of minimal total dominating sets in the n-gear graph.",
   "id": "A303226",
   "mentions": [
+    "A141310",
     "A290378",
-    "A290938"
+    "A290938",
+    "A303834"
   ],
   "tags": [
     "easy",

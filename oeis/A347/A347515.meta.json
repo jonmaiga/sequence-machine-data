@@ -1,5 +1,5 @@
 {
-  "description": "Number of minimal dominating sets in the n-Sierpinski sieve graph.",
+  "description": "Number of minimal dominating sets in the n-Sierpinski gasket graph.",
   "id": "A347515",
   "mentions": [
     "A306189",

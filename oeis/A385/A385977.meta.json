@@ -1,0 +1,18 @@
+{
+  "description": "Length of the long leg of the triangles defined in A377725.",
+  "id": "A385977",
+  "mentions": [
+    "A002315",
+    "A377725"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

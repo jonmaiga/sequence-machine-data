@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/2 - Pi*(sqrt(2)+1)/16.",
   "id": "A382907",
   "mentions": [
+    "A158684",
     "A239120"
   ],
   "tags": [

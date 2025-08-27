@@ -10,13 +10,12 @@
     "A144839"
   ],
   "tags": [
-    "bref",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

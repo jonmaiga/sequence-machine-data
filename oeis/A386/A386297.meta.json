@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals T(n,k) is the minimal defect across all partitions of an n X n X n cube into k noncongruent cuboids, or 0 if there is no such partition.",
+  "id": "A386297",
+  "mentions": [
+    "A081900",
+    "A385151",
+    "A385153",
+    "A385154",
+    "A386296"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

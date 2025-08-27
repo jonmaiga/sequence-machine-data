@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A384247(k) = A384247(k+1).",
+  "id": "A385743",
+  "mentions": [
+    "A001274",
+    "A287055",
+    "A293184",
+    "A301866",
+    "A326403",
+    "A349307",
+    "A384247"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

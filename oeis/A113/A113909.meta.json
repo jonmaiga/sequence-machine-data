@@ -1,15 +1,15 @@
 {
-  "description": "Square table of odd numbers which are neither squares nor one less than squares, read by antidiagonals.",
+  "description": "Odd numbers which are neither squares nor one less than squares.",
   "id": "A113909",
-  "mentions": [],
+  "mentions": [
+    "A088828"
+  ],
   "tags": [
-    "formulas",
-    "nonn",
-    "tabl"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

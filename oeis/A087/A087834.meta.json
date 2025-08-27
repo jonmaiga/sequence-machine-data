@@ -1,5 +1,5 @@
 {
-  "description": "a[n] =a[a[a[n-1]]] + a[n -1- a[n-2]]",
+  "description": "a[n] =a[a[a[n-1]]] + a[n -1- a[n-2]].",
   "id": "A087834",
   "mentions": [
     "A055748"

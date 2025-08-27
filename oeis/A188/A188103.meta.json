@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+3)X10 binary arrays with every 4X4 subblock commuting with each horizontal and vertical neighbor 4X4 subblock",
+  "description": "Number of (n+3)X10 binary arrays with every 4X4 subblock commuting with each horizontal and vertical neighbor 4X4 subblock.",
   "id": "A188103",
   "mentions": [
     "A188105"

@@ -1,13 +1,31 @@
 {
   "description": "Sum of exponents in prime-power factorization of multinomial coefficient M(5n; n,n,n,n,n).",
   "id": "A023981",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A008978",
+    "A022559",
+    "A023978",
+    "A023979",
+    "A023980",
+    "A023982",
+    "A023983",
+    "A023984",
+    "A023985",
+    "A023986",
+    "A023987",
+    "A023990",
+    "A023991",
+    "A023992",
+    "A023993"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 65,
-    "source": "joeis"
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

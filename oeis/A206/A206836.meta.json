@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..3 arrays avoiding the pattern z-2 z-1 z in any row, column, nw-to-se diagonal or ne-to-sw antidiagonal",
+  "description": "Number of nX6 0..3 arrays avoiding the pattern z-2 z-1 z in any row, column, nw-to-se diagonal or ne-to-sw antidiagonal.",
   "id": "A206836",
   "mentions": [
     "A206838"

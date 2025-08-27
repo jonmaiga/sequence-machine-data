@@ -2,15 +2,18 @@
   "description": "a(n) = the largest proper divisor of n that is coprime to d(n), where d(n) = the number of divisors of n.",
   "id": "A152443",
   "mentions": [
+    "A000005",
+    "A032742",
     "A137926",
     "A152444"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 89,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

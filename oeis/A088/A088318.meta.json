@@ -1,17 +1,18 @@
 {
-  "description": "Number of different values of A007947(m_k) when A007947(m_j) = A007947(m_k) and A056239(m_j) = A056239(m_k) = n, where k>1 ( j runs from 1 to k-1 ).",
+  "description": "The number of possible values of the squarefree kernel (A007947) shared by at least two solutions x to A056239(x) = n.",
   "id": "A088318",
   "mentions": [
     "A007947",
-    "A056239"
+    "A056239",
+    "A088314",
+    "A088850"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

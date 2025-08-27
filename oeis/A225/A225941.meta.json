@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that k*6^n-1 is prime",
+  "description": "Smallest k such that k*6^n-1 is prime.",
   "id": "A225941",
   "mentions": [
     "A225911"

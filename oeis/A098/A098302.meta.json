@@ -2,8 +2,10 @@
   "description": "Member r=17 of the family of Chebyshev sequences S_r(n) defined in A092184.",
   "id": "A098302",
   "mentions": [
+    "A078364",
     "A078365",
-    "A092184"
+    "A092184",
+    "A161591"
   ],
   "tags": [
     "easy",

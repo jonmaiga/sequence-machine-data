@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=prime(prime(d_1*d_2*...*d_k)) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "description": "Numbers m such that m=prime(prime(d_1*d_2*...*d_k)) where d_1 d_2 ... d_k is the decimal expansion of m.",
   "id": "A107121",
   "mentions": [
     "A097223",

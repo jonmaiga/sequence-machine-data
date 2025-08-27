@@ -1,5 +1,5 @@
 {
-  "description": "Number of -n..n arrays of 7 elements with first, second and third differences also in -n..n",
+  "description": "Number of -n..n arrays of 7 elements with first, second and third differences also in -n..n.",
   "id": "A202128",
   "mentions": [
     "A202124"

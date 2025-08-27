@@ -1,7 +1,9 @@
 {
-  "description": "Numbers whose base-11 representation Sum_{i=0..m} d(i)*11^i has odd d(i) for all odd i.",
+  "description": "Numbers whose base-11 representation Sum_{i=0..m} d(i)*11^i has odd d(m-i) for all odd i.",
   "id": "A033062",
-  "mentions": [],
+  "mentions": [
+    "A032961"
+  ],
   "tags": [
     "base",
     "nonn"

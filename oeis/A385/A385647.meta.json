@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1 - log(2)/2.",
+  "id": "A385647",
+  "mentions": [
+    "A002162",
+    "A091651",
+    "A382854"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

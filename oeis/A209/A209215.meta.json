@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 1..7 arrays with every element value z a city block distance of exactly z from another element value z",
+  "description": "T(n,k)=Number of nXk 1..7 arrays with every element value z a city block distance of exactly z from another element value z.",
   "id": "A209215",
   "mentions": [],
   "tags": [

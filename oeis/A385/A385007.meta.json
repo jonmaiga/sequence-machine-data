@@ -1,0 +1,36 @@
+{
+  "description": "The largest unitary divisor of n that is a biquadratefree number (A046100).",
+  "id": "A385007",
+  "mentions": [
+    "A000265",
+    "A006519",
+    "A013661",
+    "A036967",
+    "A046100",
+    "A053165",
+    "A055231",
+    "A057521",
+    "A058035",
+    "A065330",
+    "A065331",
+    "A077610",
+    "A350388",
+    "A350389",
+    "A360539",
+    "A360540",
+    "A366126",
+    "A367168",
+    "A383764"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

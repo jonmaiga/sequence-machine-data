@@ -2,6 +2,7 @@
   "description": "Numbers k whose trajectory in the Collatz (or '3x+1') problem includes another multiple of k.",
   "id": "A303698",
   "mentions": [
+    "A005184",
     "A006370",
     "A070165"
   ],

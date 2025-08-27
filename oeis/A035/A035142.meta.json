@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that number of partitions-into-distinct-parts of n is a perfect square.",
+  "description": "Numbers k with property that number of partitions-into-distinct-parts of k is a perfect square.",
   "id": "A035142",
   "mentions": [
     "A000009"

@@ -2,12 +2,12 @@
   "description": "Numerators in a product expansion for sqrt(2).",
   "id": "A219014",
   "mentions": [
+    "A156035",
     "A219010",
     "A219012",
     "A219015"
   ],
   "tags": [
-    "bref",
     "easy",
     "formulas",
     "nonn"
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

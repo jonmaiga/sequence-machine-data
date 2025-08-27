@@ -2,6 +2,7 @@
   "description": "Least sum of 3 distinct positive cubes in exactly n ways.",
   "id": "A025419",
   "mentions": [
+    "A025418",
     "A025469"
   ],
   "tags": [

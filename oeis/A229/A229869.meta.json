@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..5 arrays with corresponding row and column sums equal",
+  "description": "Number of n X n 0..5 arrays with corresponding row and column sums equal.",
   "id": "A229869",
   "mentions": [
     "A229870"

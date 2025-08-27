@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element not moving, or moving one space E, S or NW",
+  "description": "T(n,k)=Number of nXk array permutations with each element not moving, or moving one space E, S or NW.",
   "id": "A189610",
   "mentions": [
     "A002478"

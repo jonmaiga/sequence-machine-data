@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the shortest prime right truncation of n^n (in decimal, where a prime exists) sets a record.",
+  "description": "Numbers k for which the shortest prime right truncation of k^k (in decimal, where a prime exists) sets a record.",
   "id": "A220454",
   "mentions": [
     "A211414",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of spanning trees of the class H_3.",
+  "id": "A386907",
+  "mentions": [
+    "A001906",
+    "A386908"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

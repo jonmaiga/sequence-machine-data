@@ -1,0 +1,17 @@
+{
+  "description": "Hereditarily evil prime powers: numbers of the form p^k where p is prime and p^j is evil for 1 <= j <= k.",
+  "id": "A385126",
+  "mentions": [
+    "A001969",
+    "A027699"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the volume of an augmented tridiminished icosahedron with unit edge.",
+  "id": "A386002",
+  "mentions": [
+    "A002163",
+    "A010466",
+    "A020829",
+    "A102208",
+    "A179552",
+    "A385857",
+    "A386000",
+    "A386003"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

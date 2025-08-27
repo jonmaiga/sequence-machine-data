@@ -1,0 +1,16 @@
+{
+  "description": "A sequence constructed by greedily sampling the Borel distribution for parameter value 1/2 to minimize discrepancy.",
+  "id": "A386904",
+  "mentions": [
+    "A386009",
+    "A386016"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

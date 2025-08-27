@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) + tau(n) = 2n.",
+  "description": "Numbers k such that sigma(k) + tau(k) = 2k.",
   "id": "A083874",
   "mentions": [
     "A007503",

@@ -2,6 +2,9 @@
   "description": "Powers of 1729, the Hardy-Ramanujan number.",
   "id": "A138130",
   "mentions": [
+    "A000420",
+    "A001022",
+    "A001029",
     "A001235",
     "A011541",
     "A133019",

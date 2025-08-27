@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..6 arrays of length n with no adjacent pair equal to its immediately preceding adjacent pair, and new values introduced in 0..6 order",
+  "description": "Number of 0..6 arrays of length n with no adjacent pair equal to its immediately preceding adjacent pair, and new values introduced in 0..6 order.",
   "id": "A212827",
   "mentions": [
     "A212829"

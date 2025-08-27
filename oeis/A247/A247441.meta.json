@@ -1,5 +1,5 @@
 {
-  "description": "Base-n state complexity of partitioned deterministic finite automaton (PDFA) for the periodic sequence (123...19)*",
+  "description": "Base-n state complexity of partitioned deterministic finite automaton (PDFA) for the periodic sequence (123...19)*.",
   "id": "A247441",
   "mentions": [
     "A176059",

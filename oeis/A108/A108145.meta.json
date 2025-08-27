@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime consisting of n successive positive integers in descending order followed by a 9. a(3k) = 0 as no such prime exists.",
+  "description": "Smallest prime consisting of n successive positive integers in descending order followed by a 9. a(3*k) = 0 as no such prime exists.",
   "id": "A108145",
   "mentions": [
     "A112716",

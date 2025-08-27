@@ -2,14 +2,17 @@
   "description": "Bisection of A138543.",
   "id": "A136046",
   "mentions": [
+    "A001405",
+    "A005558",
     "A138543"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

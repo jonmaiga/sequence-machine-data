@@ -1,5 +1,5 @@
 {
-  "description": "Consider the base-6 Kaprekar map x->K(x) described in A165051. Sequence gives the smallest number that belongs to a cycle of length n under repeated iteration of this map, or -1 if there is no cycle of length n",
+  "description": "Consider the base-6 Kaprekar map x->K(x) described in A165051. Sequence gives the smallest number that belongs to a cycle of length n under repeated iteration of this map, or -1 if there is no cycle of length n.",
   "id": "A165067",
   "mentions": [
     "A151959",

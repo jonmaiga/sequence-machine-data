@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of undirected cycles in the n-Sierpinski sieve graph.",
+  "description": "Numbers of undirected cycles in the n-Sierpinski gasket graph.",
   "id": "A234634",
   "mentions": [
     "A246957",

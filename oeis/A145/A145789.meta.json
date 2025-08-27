@@ -1,8 +1,17 @@
 {
   "description": "Number of n X n binary arrays with all ones connected only either four adjacent vertically or four adjacent horizontally.",
   "id": "A145789",
-  "mentions": [],
+  "mentions": [
+    "A145790",
+    "A145791",
+    "A145792",
+    "A145793",
+    "A145794",
+    "A145795",
+    "A145796"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

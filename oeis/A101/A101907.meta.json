@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n-1 such that the arithmetic mean of the first n Fibonacci numbers (beginning with F(0)) is an integer.",
+  "description": "Numbers k such that the arithmetic mean of the first k+1 Fibonacci numbers (beginning with F(0)) is an integer.",
   "id": "A101907",
   "mentions": [
     "A000045",

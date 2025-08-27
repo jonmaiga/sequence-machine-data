@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+3)X1 arrays of occupancy after each element moves up to +-3 places but not 0 and without 2-loops",
+  "description": "Number of (n+3)X1 arrays of occupancy after each element moves up to +-3 places but not 0 and without 2-loops.",
   "id": "A222161",
   "mentions": [
     "A222165"

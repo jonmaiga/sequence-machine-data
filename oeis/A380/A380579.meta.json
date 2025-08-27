@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows in which row n lists n successive integers in descending order starting with the n-th positive integer not divisible by 3, with n >= 1 and 1 <= k <= n.",
+  "id": "A380579",
+  "mentions": [
+    "A001651",
+    "A004736",
+    "A005408",
+    "A007494",
+    "A008619",
+    "A032766",
+    "A237591",
+    "A237593",
+    "A380580"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn 0..1 arrays with exactly floor(4Xn/2) elements unequal to at least one horizontal, diagonal or antidiagonal neighbor, with new values introduced in row major 0..1 order",
+  "description": "Number of 4Xn 0..1 arrays with exactly floor(4Xn/2) elements unequal to at least one horizontal, diagonal or antidiagonal neighbor, with new values introduced in row major 0..1 order.",
   "id": "A222512",
   "mentions": [
     "A222509"

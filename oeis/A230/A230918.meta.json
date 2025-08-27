@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n)^phi(n) == gcd(n, phi(n)) (mod n), where phi is the Euler totient function.",
+  "description": "Numbers k such that phi(k)^phi(k) == gcd(k, phi(k)) (mod k), where phi is the Euler totient function.",
   "id": "A230918",
   "mentions": [
     "A003277",

@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that T(n) + S(n) + 1 is prime, where T(n) and S(n) are the n-th triangular and square numbers.",
+  "description": "Numbers k such that T(k) + S(k) + 1 is prime, where T(k) and S(k) are the k-th triangular and square numbers.",
   "id": "A229469",
   "mentions": [
+    "A000217",
+    "A000290",
     "A228908",
     "A229157"
   ],

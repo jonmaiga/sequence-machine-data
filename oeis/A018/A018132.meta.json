@@ -1,13 +1,15 @@
 {
   "description": "Powers of fifth root of 7 rounded down.",
   "id": "A018132",
-  "mentions": [],
+  "mentions": [
+    "A011092"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "joeis"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

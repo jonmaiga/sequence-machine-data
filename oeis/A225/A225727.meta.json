@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of first n primorials (A143293) is divisible by n.",
+  "description": "Numbers k such that sum of first k primorials (A143293) is divisible by k.",
   "id": "A225727",
   "mentions": [
     "A002110",

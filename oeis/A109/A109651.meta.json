@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that A109631(n) + A109631(n+1) = A109631(n+2).",
+  "description": "Numbers k such that A109631(k) + A109631(k+1) = A109631(k+2).",
   "id": "A109651",
   "mentions": [
-    "A109631"
+    "A109631",
+    "A109715"
   ],
   "tags": [
-    "more",
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

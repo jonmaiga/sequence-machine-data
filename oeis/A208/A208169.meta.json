@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward neighbors",
+  "description": "Number of n X n 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward neighbors.",
   "id": "A208169",
   "mentions": [
     "A208175"

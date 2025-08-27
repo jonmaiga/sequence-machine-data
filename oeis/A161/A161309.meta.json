@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into Somos-4 sequence numbers A006720 where every part appears at least 4 times",
+  "description": "Number of partitions of n into Somos-4 sequence numbers A006720 where every part appears at least 4 times.",
   "id": "A161309",
   "mentions": [
     "A006720"

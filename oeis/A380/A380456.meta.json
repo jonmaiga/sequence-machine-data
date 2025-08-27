@@ -1,19 +1,28 @@
 {
-  "description": "Numbers k for which the third coefficient of the lindep transform of sigma (A339792) is equal to -1.",
+  "description": "Perfect powers k^m, m > 1, omega(k) > 1, such that A053669(k) < A006530(k), where omega = A001221.",
   "id": "A380456",
   "mentions": [
-    "A000040",
-    "A000203",
-    "A339792",
-    "A380455",
-    "A380457"
+    "A001221",
+    "A001597",
+    "A001694",
+    "A002110",
+    "A006530",
+    "A053669",
+    "A055932",
+    "A080259",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A369417",
+    "A380446"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 70,
+    "size": 45,
     "source": "oeis-bfile"
   }
 }

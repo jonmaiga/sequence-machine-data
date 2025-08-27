@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that are divisible by the number of infinitary divisors of k.",
+  "id": "A387056",
+  "mentions": [
+    "A033950",
+    "A037445",
+    "A048166",
+    "A387057"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

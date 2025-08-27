@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n 0..4 array with each element equal to the number of its horizontal and vertical neighbors unequal to itself",
+  "description": "Number of lower triangles of an n X n 0..4 array with each element equal to the number of its horizontal and vertical neighbors unequal to itself.",
   "id": "A195952",
   "mentions": [],
   "tags": [

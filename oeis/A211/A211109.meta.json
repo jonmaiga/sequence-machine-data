@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of (n+1)X(n+1) 0..3 symmetric matrices with every 2X2 subblock having two, three or four distinct values",
+  "description": "1/4 the number of (n+1)X(n+1) 0..3 symmetric matrices with every 2X2 subblock having two, three or four distinct values.",
   "id": "A211109",
   "mentions": [],
   "tags": [

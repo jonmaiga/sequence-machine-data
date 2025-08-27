@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically first sequence of distinct terms such that any set of eight successive digits can be reordered as {d, d+1, d+2, d+3, d+4, d+5, d+6, d+7}, d being the smallest of the eight digits",
+  "description": "Lexicographically first sequence of distinct terms such that any set of eight successive digits can be reordered as {d, d+1, d+2, d+3, d+4, d+5, d+6, d+7}, d being the smallest of the eight digits.",
   "id": "A302503",
   "mentions": [
     "A228326",

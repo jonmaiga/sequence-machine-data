@@ -1,15 +1,18 @@
 {
   "description": "Least power of 2 > 2^n with initial digits matching the digits of 2^n.",
   "id": "A074151",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A074152"
+  ],
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
   }
 }

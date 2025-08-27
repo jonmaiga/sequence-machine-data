@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sqrt(0.121121112...), cf. A042974.",
+  "description": "Decimal expansion of sqrt(0.121121112...).",
   "id": "A042975",
   "mentions": [
     "A042974"

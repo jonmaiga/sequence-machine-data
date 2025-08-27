@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence of polynomial coefficients:p(x,n)=Sum[Eulerian[n + 1, k]*Product[x + i, {i, 0, n - k + 1}]*(-x)^k, {k, 0, n}]/x",
+  "description": "A triangular sequence of polynomial coefficients:p(x,n)=Sum[Eulerian[n + 1, k]*Product[x + i, {i, 0, n - k + 1}]*(-x)^k, {k, 0, n}]/x.",
   "id": "A174833",
   "mentions": [
     "A174789"

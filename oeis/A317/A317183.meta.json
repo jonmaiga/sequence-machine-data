@@ -1,9 +1,10 @@
 {
-  "description": "Consider primitive integer triangles as listed in rows of table A316842. Sequence gives sorted and uniqued values of 16*area^2 for these triangles.",
+  "description": "Numbers k such that k = 16*area(T)^2 for a primitive integer triangle, T.",
   "id": "A317183",
   "mentions": [
     "A316842",
-    "A317181"
+    "A317181",
+    "A317182"
   ],
   "tags": [
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of n+2 numbers in 0..n with the last equal to n and each after the second equal to the sum of one or two of the preceding three",
+  "description": "Number of nondecreasing arrangements of n+2 numbers in 0..n with the last equal to n and each after the second equal to the sum of one or two of the preceding three.",
   "id": "A190034",
   "mentions": [
     "A190041"

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2, a(n+1) is the largest prime p such that b(n+1) = b(n)*(p + a(n))/(p - a(n)) is a positive integer, where b(1) = 1.",
+  "id": "A386311",
+  "mentions": [
+    "A000040",
+    "A352743"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Numbers of form 4^i*6^j, with i, j >= 0.",
   "id": "A025618",
   "mentions": [
-    "A003586"
+    "A003586",
+    "A025647",
+    "A025658"
   ],
   "tags": [
     "easy",

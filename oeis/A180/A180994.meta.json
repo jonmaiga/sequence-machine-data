@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+5)xn binary matrices with rows and then columns in strictly increasing order as binary numbers",
+  "description": "Number of (n+5)xn binary matrices with rows and then columns in strictly increasing order as binary numbers.",
   "id": "A180994",
   "mentions": [
     "A180989"

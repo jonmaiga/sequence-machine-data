@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that phi(sigma(k))/sigma(phi(k)) > phi(sigma(n))/sigma(phi(n)) for all k",
+  "description": "Integers m such that phi(sigma(k))/sigma(phi(k)) > phi(sigma(m))/sigma(phi(m)) for all k",
   "id": "A227011",
   "mentions": [
     "A033632",

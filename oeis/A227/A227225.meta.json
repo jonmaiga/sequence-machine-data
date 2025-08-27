@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (sum of digits of n) + (product of digits of n) is a perfect cube.",
+  "description": "Numbers k such that (sum of digits of k) + (product of digits of k) is a perfect cube.",
   "id": "A227225",
   "mentions": [
     "A161349"

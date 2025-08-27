@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of integral_{0..1} Li_3(x) dx, where Li_3 is the trilogarithm function.",
+  "description": "Decimal expansion of Integral_{x = 0..1} Li_3(x) dx, where Li_3 is the trilogarithm function.",
   "id": "A249649",
   "mentions": [
     "A002117",

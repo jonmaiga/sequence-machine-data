@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..n arrays of length n+1 with no adjacent pair equal to its immediately preceding adjacent pair, and new values introduced in 0..n order",
+  "description": "Number of 0..n arrays of length n+1 with no adjacent pair equal to its immediately preceding adjacent pair, and new values introduced in 0..n order.",
   "id": "A212830",
   "mentions": [
     "A212829"

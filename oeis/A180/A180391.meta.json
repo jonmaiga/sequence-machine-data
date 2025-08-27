@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the permutation and its inverse having the same number of maxima",
+  "description": "Number of permutations of 1..n with the permutation and its inverse having the same number of maxima.",
   "id": "A180391",
   "mentions": [],
   "tags": [

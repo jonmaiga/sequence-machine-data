@@ -1,9 +1,10 @@
 {
-  "description": "Primes of the form 11^n+2^n",
+  "description": "Primes of the form 11^k + 2^k.",
   "id": "A176947",
   "mentions": [],
   "tags": [
     "bref",
+    "hard",
     "nonn"
   ],
   "terms": {

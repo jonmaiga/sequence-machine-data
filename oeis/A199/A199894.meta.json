@@ -1,5 +1,5 @@
 {
-  "description": "Number of -4..4 arrays x(0..n-1) of n elements with zero sum, and adjacent elements not both strictly positive and not both strictly negative",
+  "description": "Number of -4..4 arrays x(0..n-1) of n elements with zero sum, and adjacent elements not both strictly positive and not both strictly negative.",
   "id": "A199894",
   "mentions": [
     "A199898"

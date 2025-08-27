@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the first n primes with the final digit 1 is prime (the number of consecutive prime numbers in A030430 that should be added to obtain A129077(x)).",
+  "description": "Numbers k such that the sum of the first k primes with the final digit 1 is prime (the number of consecutive prime numbers in A030430 that should be added to obtain A129077(x)).",
   "id": "A123928",
   "mentions": [
     "A000040",

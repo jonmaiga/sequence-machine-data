@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers k that are closer to being perfect than previous terms and also satisfy the condition that gcd(k, A003961(k)) is equal to gcd(sigma(k), A003961(k)), where A003961(n) is fully multiplicative with a(prime(k)) = prime(k+1), and sigma is the sum of divisors function.",
+  "id": "A386421",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A003961",
+    "A171929",
+    "A228058",
+    "A228059",
+    "A349174",
+    "A386419",
+    "A386420",
+    "A386422"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

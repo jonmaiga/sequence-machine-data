@@ -1,5 +1,5 @@
 {
-  "description": "Smallest non-Wieferich prime to base n, i.e., smallest prime p such that n^(p-1) =/= 1 (mod p^2).",
+  "description": "Smallest non-Wieferich prime to base n, i.e., smallest prime p such that n^(p-1) != 1 (mod p^2).",
   "id": "A270776",
   "mentions": [
     "A000040",

@@ -1,5 +1,5 @@
 {
-  "description": "Total number of peaks in 2-Fuss-skew paths of semilength n",
+  "description": "Total number of peaks in 2-Fuss-skew paths of semilength n.",
   "id": "A361964",
   "mentions": [
     "A026378",

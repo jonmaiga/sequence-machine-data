@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with exactly floor(nXk/2) elements unequal to at least one horizontal, vertical or antidiagonal neighbor, with new values introduced in row major 0..2 order",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with exactly floor(nXk/2) elements unequal to at least one horizontal, vertical or antidiagonal neighbor, with new values introduced in row major 0..2 order.",
   "id": "A222673",
   "mentions": [
     "A222395"

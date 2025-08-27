@@ -1,0 +1,35 @@
+{
+  "description": "The sum of divisors d of n such that n/d is a 3-smooth number (A003586).",
+  "id": "A385137",
+  "mentions": [
+    "A001615",
+    "A002131",
+    "A003586",
+    "A064987",
+    "A069208",
+    "A072044",
+    "A072045",
+    "A072079",
+    "A076752",
+    "A129527",
+    "A244963",
+    "A254981",
+    "A327626",
+    "A385134",
+    "A385135",
+    "A385136",
+    "A385138",
+    "A385139"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

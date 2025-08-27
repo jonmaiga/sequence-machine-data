@@ -1,0 +1,19 @@
+{
+  "description": "Primes in A386964.",
+  "id": "A385721",
+  "mentions": [
+    "A007652",
+    "A276481",
+    "A386964"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

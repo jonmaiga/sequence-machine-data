@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that (p-k-1)/k is also prime for all k=1..n.",
+  "id": "A386873",
+  "mentions": [
+    "A006512",
+    "A089531"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

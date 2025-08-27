@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n where every part appears at least 13 times",
+  "description": "Number of partitions of n where every part appears at least 13 times.",
   "id": "A160983",
   "mentions": [],
   "tags": [

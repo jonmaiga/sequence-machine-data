@@ -1,5 +1,5 @@
 {
-  "description": "Number of different fixed (possibly) disconnected pentominoes bounded (not necessarily tightly) by an n*n square",
+  "description": "Number of different fixed (possibly) disconnected pentominoes bounded (not necessarily tightly) by an n*n square.",
   "id": "A162675",
   "mentions": [
     "A094172",

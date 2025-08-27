@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k such that A173557(k) = A173557(sigma(k)), where A173557(n) is multiplicative with a(p^e) = p-1 and sigma is the sum of divisors function.",
+  "id": "A387159",
+  "mentions": [
+    "A000203",
+    "A173557",
+    "A351443",
+    "A353679",
+    "A386425",
+    "A387157",
+    "A387158"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

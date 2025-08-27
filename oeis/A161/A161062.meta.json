@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into powers of two where every part appears at least 13 times",
+  "description": "Number of partitions of n into powers of two where every part appears at least 13 times.",
   "id": "A161062",
   "mentions": [],
   "tags": [

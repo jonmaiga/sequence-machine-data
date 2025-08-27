@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest prime number p in a sequence of n consecutive primes, such that the numbers formed by the last n digits of each prime in the sequence create another sequence of n consecutive prime numbers, all strictly less than p.",
+  "id": "A386842",
+  "mentions": [
+    "A000040",
+    "A024785"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

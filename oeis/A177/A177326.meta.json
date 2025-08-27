@@ -1,13 +1,19 @@
 {
   "description": "Number of permutations of n copies of 1..5 with all adjacent differences <= 3 in absolute value.",
   "id": "A177326",
-  "mentions": [],
+  "mentions": [
+    "A006480",
+    "A103881",
+    "A177316",
+    "A177328"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

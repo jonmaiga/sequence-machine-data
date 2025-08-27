@@ -1,5 +1,5 @@
 {
-  "description": "Unchanging value maps: number of 5Xn binary arrays indicating the locations of corresponding elements unequal to no horizontal, diagonal or antidiagonal neighbor in a random 0..2 5Xn array",
+  "description": "Unchanging value maps: number of 5Xn binary arrays indicating the locations of corresponding elements unequal to no horizontal, diagonal or antidiagonal neighbor in a random 0..2 5Xn array.",
   "id": "A219146",
   "mentions": [
     "A219142"

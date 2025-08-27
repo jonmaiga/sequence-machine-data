@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = 1/(1 - x*A(2x)^8).",
+  "description": "G.f. A(x) satisfies A(x) = 1/(1 - x*A(2*x)^8).",
   "id": "A171198",
   "mentions": [
     "A015083",

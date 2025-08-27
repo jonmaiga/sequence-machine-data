@@ -1,7 +1,11 @@
 {
   "description": "a(2+4*n)=1+2*n, otherwise a(n)=2*n.",
   "id": "A188167",
-  "mentions": [],
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A016825"
+  ],
   "tags": [
     "easy",
     "formulas",

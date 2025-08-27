@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..6 arrays with no element equal to another within a city block distance of two, and new values 0..6 introduced in row major order",
+  "description": "Number of nX6 0..6 arrays with no element equal to another within a city block distance of two, and new values 0..6 introduced in row major order.",
   "id": "A206387",
   "mentions": [
     "A206389"

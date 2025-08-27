@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator (321*s + 123) mod 10^5 when started at 1.",
+  "id": "A383128",
+  "mentions": [
+    "A383126",
+    "A383127",
+    "A384341"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

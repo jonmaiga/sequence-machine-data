@@ -1,5 +1,5 @@
 {
-  "description": "Number of triangular nXnXn 0..n arrays with all rows and diagonals having the same length having the same sum, with corners zero",
+  "description": "Number of triangular nXnXn 0..n arrays with all rows and diagonals having the same length having the same sum, with corners zero.",
   "id": "A195797",
   "mentions": [
     "A195805"

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that there exists a partition of the sum of prime factors of k (cf. A001414) into bigomega(k) (cf. A001222) prime parts where the product of parts is more than k.",
+  "id": "A385811",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A385755",
+    "A385756"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

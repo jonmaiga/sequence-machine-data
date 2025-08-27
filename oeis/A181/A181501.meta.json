@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of solutions of n queens problem for given n and given number of connection components of conflict constellation",
+  "description": "Triangle read by rows: number of solutions of n queens problem for given n and given number of connection components of conflict constellation.",
   "id": "A181501",
   "mentions": [
     "A000170",

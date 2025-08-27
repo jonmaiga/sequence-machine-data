@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum(d|n, sigma(d)^2) is a multiple of n.",
+  "description": "Numbers k such that sum(d|k, sigma(d)^2) is a multiple of k.",
   "id": "A226563",
   "mentions": [
     "A068978",

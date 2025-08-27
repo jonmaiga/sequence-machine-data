@@ -1,5 +1,5 @@
 {
-  "description": "(10^n+11)/3.",
+  "description": "a(n) = (10^n+11)/3.",
   "id": "A173766",
   "mentions": [
     "A086574",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

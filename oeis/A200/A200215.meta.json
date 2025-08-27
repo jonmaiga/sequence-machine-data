@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} [Sum_{k=0..n} C(n,k)^3 * x^k*A(x)^k] * x^n*A(x)^n/n ).",
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} (Sum_{k=0..n} C(n,k)^3 * x^k*A(x)^k) * x^n*A(x)^n/n ).",
   "id": "A200215",
   "mentions": [
     "A166896",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n 0..3 array with new values introduced in row major order 0..3 and no element equal to more than one horizontal or vertical neighbor",
+  "description": "Number of lower triangles of an n X n 0..3 array with new values introduced in row major order 0..3 and no element equal to more than one horizontal or vertical neighbor.",
   "id": "A194535",
   "mentions": [
     "A194540"

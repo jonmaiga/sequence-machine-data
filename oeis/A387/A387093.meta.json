@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers that contain only prime digits and whose prime factors contain only prime digits.",
+  "id": "A387093",
+  "mentions": [
+    "A000040",
+    "A019546",
+    "A027746",
+    "A061371"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

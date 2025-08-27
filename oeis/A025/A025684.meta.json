@@ -1,7 +1,9 @@
 {
   "description": "Exponent of 10 (value of j) in n-th number of form 2^i*10^j.",
   "id": "A025684",
-  "mentions": [],
+  "mentions": [
+    "A025612"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4*n X 8 0..2 arrays with row sums 2 and column sums n",
+  "description": "Number of 4*n X 8 0..2 arrays with row sums 2 and column sums n.",
   "id": "A172684",
   "mentions": [],
   "tags": [

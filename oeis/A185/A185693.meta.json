@@ -1,10 +1,7 @@
 {
-  "description": "Partial products of Fajtlowicz q-primes A185956.",
+  "description": "Partial products of A185956.",
   "id": "A185693",
   "mentions": [
-    "A000040",
-    "A002110",
-    "A185955",
     "A185956"
   ],
   "tags": [
@@ -14,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

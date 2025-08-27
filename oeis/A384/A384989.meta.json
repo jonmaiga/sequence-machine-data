@@ -1,0 +1,16 @@
+{
+  "description": "Order of the permutation of [n] formed by a Josephus elimination variation: take 3, skip 1.",
+  "id": "A384989",
+  "mentions": [
+    "A051732",
+    "A384753"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

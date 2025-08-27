@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXnXn triangular 0..k arrays with every horizontal row nondecreasing, first elements of rows nonincreasing, last elements of rows nondecreasing, and every row having the same average value",
+  "description": "T(n,k)=Number of nXnXn triangular 0..k arrays with every horizontal row nondecreasing, first elements of rows nonincreasing, last elements of rows nondecreasing, and every row having the same average value.",
   "id": "A215182",
   "mentions": [
     "A002620"

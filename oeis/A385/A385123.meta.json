@@ -1,0 +1,21 @@
+{
+  "description": "Triangle Read by rows: T(n,k) is the number of rooted ordered trees with n non-root nodes with non-root node labels in {1,..,k} such that all labels appear at least once in all groups of sibling nodes.",
+  "id": "A385123",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A107429",
+    "A384685",
+    "A384747",
+    "A385125"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

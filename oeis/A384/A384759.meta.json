@@ -1,0 +1,16 @@
+{
+  "description": "Number of legal arrangements in pawn-only chess on an n X n board where no pieces have been taken and no piece attacks another piece.",
+  "id": "A384759",
+  "mentions": [
+    "A035290",
+    "A294240"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

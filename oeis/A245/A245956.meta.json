@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 6+3 0..n arrays with some pair in every consecutive four terms totalling exactly n",
+  "description": "Number of length 6+3 0..n arrays with some pair in every consecutive four terms totalling exactly n.",
   "id": "A245956",
   "mentions": [
     "A245950"

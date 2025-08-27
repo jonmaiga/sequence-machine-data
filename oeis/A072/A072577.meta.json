@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and the n-th prime have the same number of 0's in their binary representation.",
+  "description": "Numbers k such that k and the k-th prime have the same number of 0's in their binary representation.",
   "id": "A072577",
   "mentions": [
     "A000040",
@@ -12,11 +12,14 @@
     "A072580"
   ],
   "tags": [
+    "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

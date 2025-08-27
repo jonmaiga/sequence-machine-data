@@ -1,10 +1,11 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = 1+x + x^2*[d/dx A(x)^2].",
+  "description": "G.f. A(x) satisfies A(x) = 1+x + x^2*[d/dx A(x)^2].",
   "id": "A185183",
   "mentions": [
     "A143916",
     "A218223",
-    "A218224"
+    "A218224",
+    "A376125"
   ],
   "tags": [
     "formulas",

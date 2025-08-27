@@ -1,9 +1,11 @@
 {
-  "description": "E.g.f. 1/(1 - sin(8*x))^(1/8).",
+  "description": "Expansion of e.g.f. 1/(1 - sin(8*x))^(1/8).",
   "id": "A230114",
   "mentions": [
     "A001586",
     "A007788",
+    "A045755",
+    "A136630",
     "A144015",
     "A227544",
     "A230134",

@@ -5,11 +5,13 @@
     "A014217"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 30,
     "source": "joeis"
   }
 }

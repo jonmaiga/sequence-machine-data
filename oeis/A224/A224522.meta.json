@@ -1,5 +1,5 @@
 {
-  "description": "Least prime which is followed by a gap of 30n",
+  "description": "Least prime which is followed by a gap of 30n.",
   "id": "A224522",
   "mentions": [
     "A000101",

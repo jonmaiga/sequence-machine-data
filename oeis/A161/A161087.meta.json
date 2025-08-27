@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into primes or 1 where every part appears at least 12 times",
+  "description": "Number of partitions of n into primes or 1 where every part appears at least 12 times.",
   "id": "A161087",
   "mentions": [],
   "tags": [

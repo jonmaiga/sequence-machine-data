@@ -1,0 +1,41 @@
+{
+  "description": "Number of permutations of {1..n} with all distinct lengths of maximal anti-runs (not increasing by 1).",
+  "id": "A384907",
+  "mentions": [
+    "A000255",
+    "A010027",
+    "A034839",
+    "A044813",
+    "A072574",
+    "A098859",
+    "A116674",
+    "A123513",
+    "A242882",
+    "A268193",
+    "A325325",
+    "A328592",
+    "A329739",
+    "A336866",
+    "A351202",
+    "A356606",
+    "A384177",
+    "A384178",
+    "A384880",
+    "A384884",
+    "A384885",
+    "A384886",
+    "A384891",
+    "A384892",
+    "A384893",
+    "A384905"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

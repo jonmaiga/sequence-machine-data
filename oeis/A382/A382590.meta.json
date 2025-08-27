@@ -1,0 +1,13 @@
+{
+  "description": "a(n) = a(n-1)*b(n-2) + a(n-2)*b(n-1) and b(n) = a(n-1)*b(n-2) - a(n-2)*b(n-1) starting with a(0) = b(0) = b(1) = 1 and a(1) = 2.",
+  "id": "A382590",
+  "mentions": [],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

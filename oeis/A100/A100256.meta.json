@@ -1,11 +1,12 @@
 {
-  "description": "Squares of second pentagonal numbers: (1/4) n^2(3n+1)^2.",
+  "description": "Squares of second pentagonal numbers: a(n) = (1/4)*n^2*(3*n+1)^2.",
   "id": "A100256",
   "mentions": [
     "A005449",
     "A100255"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

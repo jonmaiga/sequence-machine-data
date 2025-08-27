@@ -1,5 +1,5 @@
 {
-  "description": "Integers n, divisible by six, for which t = (4^n - 5 * 2^n - 4 * 4^(n^2 - 2n) + 8 * 2^(n^2 - 2n)) / (4 * (n^3 - n)) is an integer",
+  "description": "Integers n, divisible by six, for which t = (4^n - 5 * 2^n - 4 * 4^(n^2 - 2n) + 8 * 2^(n^2 - 2n)) / (4 * (n^3 - n)) is an integer.",
   "id": "A162864",
   "mentions": [
     "A001097",

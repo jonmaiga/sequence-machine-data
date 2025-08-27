@@ -1,0 +1,19 @@
+{
+  "description": "Main diagonal of A386363.",
+  "id": "A386381",
+  "mentions": [
+    "A000010",
+    "A000111",
+    "A060818",
+    "A386363"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

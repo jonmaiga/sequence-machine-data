@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7-step king-knight's tours (piece capable of both kinds of moves) on an n X n board summed over all starting positions",
+  "description": "Number of 7-step king-knight's tours (piece capable of both kinds of moves) on an n X n board summed over all starting positions.",
   "id": "A187855",
   "mentions": [
     "A187850"

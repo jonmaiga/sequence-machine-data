@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form ((2 + sqrt(3))^(2*n+1) + (2 - sqrt(3))^(2*n+1))/4.",
+  "description": "Primes of the form ((2 + sqrt(3))^(2*k+1) + (2 - sqrt(3))^(2*k+1))/4.",
   "id": "A117808",
   "mentions": [
     "A001570",

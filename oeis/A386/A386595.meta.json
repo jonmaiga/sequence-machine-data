@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n} sigma(d)/phi(d) * c(d), where c = A351114.",
+  "id": "A386595",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020492",
+    "A351114"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an (n+1)X(n+1) 0..4 array with new values introduced in row major order 0..4 and no element equal to any horizontal, diagonal, antidiagonal or vertical neighbor",
+  "description": "Number of lower triangles of an (n+1)X(n+1) 0..4 array with new values introduced in row major order 0..4 and no element equal to any horizontal, diagonal, antidiagonal or vertical neighbor.",
   "id": "A194790",
   "mentions": [
     "A194794"

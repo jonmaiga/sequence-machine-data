@@ -1,0 +1,18 @@
+{
+  "description": "Distinct values of A387089.",
+  "id": "A387090",
+  "mentions": [
+    "A386482",
+    "A386484",
+    "A387072",
+    "A387089"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

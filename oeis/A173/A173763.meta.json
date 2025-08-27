@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (eta(q^2)^7 / eta(q^4)^2)^4 + 16 * q * (eta(q)^2 * eta(q^2) * eta(q^4)^2)^4 in powers of q.",
+  "description": "Expansion of (eta(q^2)^7 / eta(q^4)^2)^4 + 16 * (eta(q)^2 * eta(q^2) * eta(q^4)^2)^4 in powers of q.",
   "id": "A173763",
   "mentions": [
     "A000122",

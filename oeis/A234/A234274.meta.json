@@ -1,8 +1,9 @@
 {
-  "description": "G.f.: (1+x)*(1+x+x^2+x^3+x^4)/(1-6*x-6*x^2-6*x^3+x^4).",
+  "description": "Expansion of g.f. (1+x)*(1+x+x^2+x^3+x^4)/(1-6*x-6*x^2-6*x^3+x^4).",
   "id": "A234274",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

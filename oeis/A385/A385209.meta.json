@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that A086369(k) = n.",
+  "id": "A385209",
+  "mentions": [
+    "A086369",
+    "A385202"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

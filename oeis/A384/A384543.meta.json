@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct values from the bitwise operation i XOR j for all integers i and j in the range [1, n].",
+  "id": "A384543",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A070939",
+    "A151821"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

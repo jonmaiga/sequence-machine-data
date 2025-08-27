@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form floor(n^sqrt(2)).",
+  "description": "Primes of the form floor(k^sqrt(2)).",
   "id": "A180448",
   "mentions": [
     "A000040",

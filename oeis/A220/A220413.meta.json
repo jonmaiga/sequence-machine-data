@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=x+y (x>=0, y>=0) with x^3+2*y^3 prime",
+  "description": "Number of ways to write n=x+y (x>=0, y>=0) with x^3+2*y^3 prime.",
   "id": "A220413",
   "mentions": [
     "A219842",

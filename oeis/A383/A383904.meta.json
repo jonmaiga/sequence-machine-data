@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of complement pairs of primitive 2n-bead balanced binary necklaces.",
+  "id": "A383904",
+  "mentions": [
+    "A000013",
+    "A000048",
+    "A003239",
+    "A022553",
+    "A115118",
+    "A386388",
+    "A386946",
+    "A387130"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays with rows and columns, considered as binary numbers, in strictly increasing order",
+  "description": "Number of n X n binary arrays with rows and columns, considered as binary numbers, in strictly increasing order.",
   "id": "A162100",
   "mentions": [
     "A151801"

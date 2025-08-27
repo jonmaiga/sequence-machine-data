@@ -2,7 +2,9 @@
   "description": "The number of n-digit near-repdigit primes (A164937).",
   "id": "A258915",
   "mentions": [
-    "A164937"
+    "A004022",
+    "A164937",
+    "A385280"
   ],
   "tags": [
     "nonn"

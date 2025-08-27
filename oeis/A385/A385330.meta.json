@@ -1,0 +1,16 @@
+{
+  "description": "The point numbers encountered by a rotating marker following the process described in the Comments.",
+  "id": "A385330",
+  "mentions": [
+    "A385615"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

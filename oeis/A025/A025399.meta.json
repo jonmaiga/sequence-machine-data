@@ -2,6 +2,7 @@
   "description": "Numbers that are the sum of 3 distinct positive cubes in exactly 1 way.",
   "id": "A025399",
   "mentions": [
+    "A024973",
     "A024974",
     "A024975",
     "A025395",

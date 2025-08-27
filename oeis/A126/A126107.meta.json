@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 2p+1 and 2p+3 are twin primes.",
+  "description": "Primes p such that 2*p+1 and 2*p+3 are twin primes.",
   "id": "A126107",
   "mentions": [
     "A128436"

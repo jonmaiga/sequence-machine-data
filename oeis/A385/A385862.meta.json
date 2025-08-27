@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X m yesnograms that can be solved uniquely, read by antidiagonals.",
+  "id": "A385862",
+  "mentions": [
+    "A242876",
+    "A383345",
+    "A384764",
+    "A385861"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of coth(2*Pi).",
+  "id": "A384962",
+  "mentions": [
+    "A019692",
+    "A073747",
+    "A175316"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

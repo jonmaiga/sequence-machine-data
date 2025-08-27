@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose digits all belong to the same residue class mod 3.",
+  "id": "A385292",
+  "mentions": [
+    "A059708",
+    "A385293",
+    "A385294",
+    "A385295",
+    "A385296",
+    "A385297",
+    "A385298"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have exactly three exponents in their prime factorization that are equal to 4.",
+  "id": "A386806",
+  "mentions": [
+    "A386798",
+    "A386802",
+    "A386803",
+    "A386804",
+    "A386805",
+    "A386810"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

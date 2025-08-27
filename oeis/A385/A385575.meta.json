@@ -1,0 +1,36 @@
+{
+  "description": "Numbers whose binary indices have the same number of adjacent parts differing by 1 as adjacent parts differing by more than 1.",
+  "id": "A385575",
+  "mentions": [
+    "A000079",
+    "A010027",
+    "A034839",
+    "A048793",
+    "A053538",
+    "A069010",
+    "A116674",
+    "A210034",
+    "A217615",
+    "A268193",
+    "A384175",
+    "A384176",
+    "A384177",
+    "A384877",
+    "A384878",
+    "A384879",
+    "A384881",
+    "A384889",
+    "A384890",
+    "A384893",
+    "A384905",
+    "A385572"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

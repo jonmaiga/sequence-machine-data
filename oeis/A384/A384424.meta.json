@@ -1,0 +1,16 @@
+{
+  "description": "The maximal possible number of 'good' steps in a Hamiltonian cycle on the n X n king's graph, as is specified in the comments.",
+  "id": "A384424",
+  "mentions": [
+    "A308129"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

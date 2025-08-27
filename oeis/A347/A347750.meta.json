@@ -2,6 +2,8 @@
   "description": "Number of intersection points when every pair of vertices of a row of n adjacent congruent rectangles are joined by an infinite line.",
   "id": "A347750",
   "mentions": [
+    "A092275",
+    "A159065",
     "A331755",
     "A344993",
     "A347751"

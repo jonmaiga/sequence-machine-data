@@ -1,5 +1,5 @@
 {
-  "description": "Draw lines through the vertices of a regular n-gon. a(n) is the number of intersection points outside of the n-gon.",
+  "description": "Number of intersection points outside the n-gon of all lines through pairs of vertices of a regular n-gon.",
   "id": "A146213",
   "mentions": [
     "A007569",

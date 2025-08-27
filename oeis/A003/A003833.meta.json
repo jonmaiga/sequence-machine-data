@@ -2,14 +2,16 @@
   "description": "Sectors around outside of dartboard.",
   "id": "A003833",
   "mentions": [
-    "A008575"
+    "A008575",
+    "A104159"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

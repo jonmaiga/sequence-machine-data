@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor( log(A002110(n)) / log(prime(k)) ).",
+  "id": "A384936",
+  "mentions": [
+    "A002110",
+    "A287010",
+    "A361373",
+    "A377485",
+    "A384442"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

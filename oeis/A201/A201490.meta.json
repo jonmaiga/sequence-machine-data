@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 zero-sum -2..2 arrays with rows and columns lexicographically nondecreasing",
+  "description": "Number of nX2 zero-sum -2..2 arrays with rows and columns lexicographically nondecreasing.",
   "id": "A201490",
   "mentions": [
     "A201496"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that all digits have same parity.",
+  "description": "Numbers k such that all digits have same parity.",
   "id": "A059708",
   "mentions": [
     "A014261",

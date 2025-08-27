@@ -1,13 +1,32 @@
 {
-  "description": "Sum of exponents of primes in multinomial coefficient M(4n; 2n,n,n)/M(3n; n,n,n).",
+  "description": "Sum of exponents of primes in multinomial coefficient M(4n; 2n,n,n) - sum of exponents of primes in M(3n; n,n,n).",
   "id": "A023990",
-  "mentions": [],
+  "mentions": [
+    "A000897",
+    "A001222",
+    "A006480",
+    "A022559",
+    "A023978",
+    "A023979",
+    "A023980",
+    "A023981",
+    "A023982",
+    "A023983",
+    "A023984",
+    "A023985",
+    "A023986",
+    "A023987",
+    "A023991",
+    "A023992",
+    "A023993"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 93,
-    "source": "joeis"
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
   }
 }

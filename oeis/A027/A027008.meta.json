@@ -2,14 +2,15 @@
   "description": "a(n) = greatest number in row n of array T given by A026998.",
   "id": "A027008",
   "mentions": [
-    "A026998"
+    "A026998",
+    "A027960"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 32,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

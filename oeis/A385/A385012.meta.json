@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: 1/Product_{k>=1} (1 - x^(3*k^2)) * (1 - x^k).",
+  "id": "A385012",
+  "mentions": [
+    "A000041",
+    "A001156",
+    "A385011"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

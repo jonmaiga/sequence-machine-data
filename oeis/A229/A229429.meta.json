@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to label the cells of an m-by-n grid such that no (orthogonally) adjacent cells have adjacent labels; square array A(m,n) read by antidiagonals",
+  "description": "Number of ways to label the cells of an m-by-n grid such that no (orthogonally) adjacent cells have adjacent labels; square array A(m,n) read by antidiagonals.",
   "id": "A229429",
   "mentions": [
     "A002464",

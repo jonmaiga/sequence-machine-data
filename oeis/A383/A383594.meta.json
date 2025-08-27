@@ -1,0 +1,13 @@
+{
+  "description": "a(0) = 0 and thereafter a(n) = 2 if a(n-1) is an odd prime, otherwise a(n) = a(n-1) + k where k = n - P(n) and P(n) is the number of odd primes among terms a(0),...,a(n-1).",
+  "id": "A383594",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

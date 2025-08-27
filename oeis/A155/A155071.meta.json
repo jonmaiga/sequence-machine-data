@@ -2,7 +2,7 @@
   "description": "Primes with two odd digits.",
   "id": "A155071",
   "mentions": [
-    "A000040"
+    "A104638"
   ],
   "tags": [
     "base",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "G.f. A(x) satisfies: x = Sum_{n>=1} ((1+x)^n - 1)^n / A(x)^n.",
   "id": "A303654",
-  "mentions": [],
+  "mentions": [
+    "A317855"
+  ],
   "tags": [
     "formulas",
     "nonn"

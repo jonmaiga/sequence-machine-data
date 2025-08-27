@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n-step S, NW and NE-moving king's tours on a kXk board summed over all starting positions",
+  "description": "T(n,k)=Number of n-step S, NW and NE-moving king's tours on a kXk board summed over all starting positions.",
   "id": "A187377",
   "mentions": [
     "A016790",

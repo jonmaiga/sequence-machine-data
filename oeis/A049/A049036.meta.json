@@ -1,7 +1,8 @@
 {
-  "description": "Mean gap between successive primes up to n-th prime is an integer.",
+  "description": "Mean gap between successive primes up to k-th prime is an integer.",
   "id": "A049036",
   "mentions": [
+    "A000720",
     "A049038",
     "A049066",
     "A228543"

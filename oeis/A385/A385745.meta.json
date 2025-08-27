@@ -1,0 +1,22 @@
+{
+  "description": "The sum of the iterated infinitary analog of the totient function A384247 when started at n.",
+  "id": "A385745",
+  "mentions": [
+    "A092693",
+    "A329153",
+    "A333611",
+    "A384247",
+    "A385744",
+    "A385746",
+    "A385747"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

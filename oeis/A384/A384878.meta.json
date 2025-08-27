@@ -1,0 +1,30 @@
+{
+  "description": "Position of first appearance of n in the flattened version of the triangle A384877, whose m-th row lists the lengths of maximal anti-runs in the binary indices of m.",
+  "id": "A384878",
+  "mentions": [
+    "A000120",
+    "A001792",
+    "A023758",
+    "A044813",
+    "A048793",
+    "A052499",
+    "A069010",
+    "A245562",
+    "A245563",
+    "A384175",
+    "A384176",
+    "A384877",
+    "A384879",
+    "A384890",
+    "A384893"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

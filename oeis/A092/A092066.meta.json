@@ -1,16 +1,17 @@
 {
-  "description": "Prime numbers in A092065.",
+  "description": "Primes in A092065.",
   "id": "A092066",
   "mentions": [
     "A092065"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

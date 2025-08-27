@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..1 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements",
+  "description": "Number of (n+1)X(n+1) 0..1 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements.",
   "id": "A203372",
   "mentions": [
     "A203378"

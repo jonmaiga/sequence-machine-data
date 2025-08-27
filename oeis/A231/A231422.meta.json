@@ -1,5 +1,5 @@
 {
-  "description": "Number of (3+1)X(n+1) 0..2 arrays with no element equal to a strict majority of its horizontal, diagonal and antidiagonal neighbors, with values 0..2 introduced in row major order",
+  "description": "Number of (3+1)X(n+1) 0..2 arrays with no element equal to a strict majority of its horizontal, diagonal and antidiagonal neighbors, with values 0..2 introduced in row major order.",
   "id": "A231422",
   "mentions": [
     "A231419"

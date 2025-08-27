@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..2 arrays with exactly floor(nX2/2) elements unequal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..2 order",
+  "description": "Number of nX2 0..2 arrays with exactly floor(nX2/2) elements unequal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..2 order.",
   "id": "A222425",
   "mentions": [
     "A222430"

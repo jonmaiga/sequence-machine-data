@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..1 arrays with rows and columns unimodal and antidiagonals nondecreasing",
+  "description": "Number of nX7 0..1 arrays with rows and columns unimodal and antidiagonals nondecreasing.",
   "id": "A223776",
   "mentions": [
     "A223777"

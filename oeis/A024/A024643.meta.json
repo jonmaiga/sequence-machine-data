@@ -2,11 +2,12 @@
   "description": "n written in fractional base 7/6.",
   "id": "A024643",
   "mentions": [
-    "A024629"
+    "A024629",
+    "A245337"
   ],
   "tags": [
     "base",
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {

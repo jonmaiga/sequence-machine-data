@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X9 binary arrays avoiding patterns 010 and 101 in rows, columns and nw-to-se diagonals",
+  "description": "Number of (n+2)X9 binary arrays avoiding patterns 010 and 101 in rows, columns and nw-to-se diagonals.",
   "id": "A203354",
   "mentions": [
     "A203355"

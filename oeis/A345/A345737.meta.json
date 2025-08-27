@@ -2,8 +2,10 @@
   "description": "Decimal expansion of the initial angle in radians above the horizon that maximizes the length of a projectile's trajectory.",
   "id": "A345737",
   "mentions": [
+    "A033259",
     "A085984",
     "A103711",
+    "A240358",
     "A345738",
     "A345739"
   ],
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

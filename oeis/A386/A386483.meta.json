@@ -1,0 +1,18 @@
+{
+  "description": "Index of n-th prime in A386482, or -1 if that prime is missing.",
+  "id": "A386483",
+  "mentions": [
+    "A386482",
+    "A387072",
+    "A387076",
+    "A387077"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

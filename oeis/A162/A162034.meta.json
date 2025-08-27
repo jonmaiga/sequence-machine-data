@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric binary arrays with rows, considered as binary numbers, in nondecreasing order, and all main diagonal and antidiagonal elements zero",
+  "description": "Number of n X n symmetric binary arrays with rows, considered as binary numbers, in nondecreasing order, and all main diagonal and antidiagonal elements zero.",
   "id": "A162034",
   "mentions": [],
   "tags": [

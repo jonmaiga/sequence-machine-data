@@ -1,0 +1,15 @@
+{
+  "description": "Sum of squared coefficients of Product_{i=0..n-1} 1+x^(2^i+1)+x^(2^(i+1)+1).",
+  "id": "A385082",
+  "mentions": [
+    "A052984"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

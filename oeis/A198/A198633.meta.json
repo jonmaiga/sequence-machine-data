@@ -2,8 +2,11 @@
   "description": "Total number of round trips, each of length 2*n on the graph P_3 (o-o-o).",
   "id": "A198633",
   "mentions": [
+    "A000079",
     "A005248",
+    "A020707",
     "A049310",
+    "A077552",
     "A198632",
     "A198635"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the number moved left exceeding the number moved right by 2 or more",
+  "description": "Number of permutations of 1..n with the number moved left exceeding the number moved right by 2 or more.",
   "id": "A179568",
   "mentions": [
     "A062868"

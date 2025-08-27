@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 3, 2 <= k <= n-1) = number of vertices where k lines cross in the planar graph formed when every pair of vertices of a regular n-gon are joined by an infinite line.",
+  "id": "A383462",
+  "mentions": [
+    "A007569",
+    "A146212",
+    "A146213",
+    "A292105",
+    "A344857"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

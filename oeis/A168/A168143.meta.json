@@ -1,5 +1,5 @@
 {
-  "description": "a(17)=37; for n>=17, a(n)=3n-14 if gcd(n,a(n-1))>1 and all prime divisors of n more than 17; a(n)=a(n-1)+1, otherwise",
+  "description": "a(17)=37; for n>=17, a(n)=3n-14 if gcd(n,a(n-1))>1 and all prime divisors of n more than 17; a(n)=a(n-1)+1, otherwise.",
   "id": "A168143",
   "mentions": [
     "A084662",

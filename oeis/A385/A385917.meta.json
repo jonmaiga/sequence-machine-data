@@ -1,0 +1,18 @@
+{
+  "description": "Hexagonal numbers that are one-sixth of another hexagonal number.",
+  "id": "A385917",
+  "mentions": [
+    "A000384",
+    "A016813",
+    "A077289"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

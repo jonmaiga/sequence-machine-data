@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with row sums nondecreasing and column sums unimodal",
+  "description": "T(n,k)=Number of nXk 0..1 arrays with row sums nondecreasing and column sums unimodal.",
   "id": "A223625",
   "mentions": [
     "A000027",

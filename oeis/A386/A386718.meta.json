@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} Integral_{y=0..1} Integral_{z=0..1} {1/(x*y*z)} dx dy dz, where {} denotes fractional part.",
+  "id": "A386718",
+  "mentions": [
+    "A001620",
+    "A082633",
+    "A086279",
+    "A153810",
+    "A242610"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

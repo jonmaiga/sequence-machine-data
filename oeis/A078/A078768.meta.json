@@ -1,13 +1,14 @@
 {
-  "description": "sigma(sigma(..(sigma(n)+1)..)) is prime, or 0 if no prime is reached.",
+  "description": "a(n) is the number of iterations of k -> sigma(k) + 1 needed to reach a prime, or 0 if no prime is reached.",
   "id": "A078768",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 98,
-    "source": "oeis-entry"
+    "size": 100,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that A387070(k) = n. If no such k exists, a(n) = -1.",
+  "id": "A387071",
+  "mentions": [
+    "A387070"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,14 @@
 {
   "description": "Order of universal Chevalley group D_n (3).",
   "id": "A003830",
-  "mentions": [],
+  "mentions": [
+    "A003831",
+    "A003832",
+    "A003834",
+    "A003835",
+    "A003836",
+    "A132037"
+  ],
   "tags": [
     "easy",
     "formulas",

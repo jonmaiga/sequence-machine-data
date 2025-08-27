@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-9 representation Sum_{i=0..m} d(i)*9^i has d(m) <= d(m-1) >= d(m-2) <= ...",
   "id": "A032856",
-  "mentions": [],
+  "mentions": [
+    "A023751"
+  ],
   "tags": [
     "base",
     "nonn"

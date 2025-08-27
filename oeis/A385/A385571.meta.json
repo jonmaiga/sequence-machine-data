@@ -1,0 +1,16 @@
+{
+  "description": "Number of subsets of the first n twin primes (A001097) whose sum is a twin prime.",
+  "id": "A385571",
+  "mentions": [
+    "A001097",
+    "A071810"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies -3*x = Product_{n>=1} (1 - x^n/A(x)) * (1 - x^(n-1)*A(x)) * (1 + x^n).",
+  "id": "A384273",
+  "mentions": [
+    "A356499",
+    "A384271",
+    "A384272"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

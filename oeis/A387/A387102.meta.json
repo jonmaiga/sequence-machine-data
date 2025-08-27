@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the largest real solution to e^x = x^3.",
+  "id": "A387102",
+  "mentions": [
+    "A030178",
+    "A126583",
+    "A126584",
+    "A366565",
+    "A387101"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

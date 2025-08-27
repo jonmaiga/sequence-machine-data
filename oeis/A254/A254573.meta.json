@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n = x*(x+1) + y*(3*y+1)/2 + z*(3*z-1)/2 with x,y,z nonnegative integers",
+  "description": "Number of ways to write n = x*(x+1) + y*(3*y+1)/2 + z*(3*z-1)/2 with x,y,z nonnegative integers.",
   "id": "A254573",
   "mentions": [
     "A000326",

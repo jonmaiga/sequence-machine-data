@@ -1,13 +1,17 @@
 {
   "description": "Expansion of sum ( q^n / product( 1-q^k, k=1..6*n), n=0..inf ).",
   "id": "A035298",
-  "mentions": [],
+  "mentions": [
+    "A363068",
+    "A385070"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
-    "source": "joeis"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

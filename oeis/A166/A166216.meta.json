@@ -1,5 +1,5 @@
 {
-  "description": "Number of 8X8X8 triangular nonnegative integer arrays, symmetric under 120 degree rotation, with all sums of an element and its neighbors <= n",
+  "description": "Number of 8X8X8 triangular nonnegative integer arrays, symmetric under 120 degree rotation, with all sums of an element and its neighbors <= n.",
   "id": "A166216",
   "mentions": [],
   "tags": [

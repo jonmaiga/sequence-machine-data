@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 18n - 5 and 18n + 5 are primes.",
+  "description": "Numbers k such that 18*k - 5 and 18*k + 5 are primes.",
   "id": "A172209",
   "mentions": [
     "A000040",

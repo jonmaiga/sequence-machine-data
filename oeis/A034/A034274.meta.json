@@ -2,14 +2,19 @@
   "description": "a(n)=f(n,n-1) where f is given in A034261.",
   "id": "A034274",
   "mentions": [
-    "A034261"
+    "A000108",
+    "A000984",
+    "A034261",
+    "A180266"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

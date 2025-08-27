@@ -2,6 +2,7 @@
   "description": "Exponential Riordan array (1,sin(x)).",
   "id": "A185690",
   "mentions": [
+    "A000111",
     "A136630",
     "A264428"
   ],

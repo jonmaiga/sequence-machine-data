@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 'c', a constant linked to an estimate of density of zeros of an entire function of exponential type.",
   "id": "A240358",
-  "mentions": [],
+  "mentions": [
+    "A033259"
+  ],
   "tags": [
     "cons",
     "formulas",

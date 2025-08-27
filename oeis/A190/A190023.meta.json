@@ -1,5 +1,5 @@
 {
-  "description": "T(n,m)=Number of (n+1)X3 0..m arrays with every 2X2 subblock commuting with each of its horizontal and vertical 2X2 subblock neighbors",
+  "description": "T(n,m)=Number of (n+1)X3 0..m arrays with every 2X2 subblock commuting with each of its horizontal and vertical 2X2 subblock neighbors.",
   "id": "A190023",
   "mentions": [
     "A072649"

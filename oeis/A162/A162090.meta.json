@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..7 arrays with rows and columns, considered as 8-ary numbers, in nondecreasing order",
+  "description": "Number of n X n 0..7 arrays with rows and columns, considered as 8-ary numbers, in nondecreasing order.",
   "id": "A162090",
   "mentions": [],
   "tags": [

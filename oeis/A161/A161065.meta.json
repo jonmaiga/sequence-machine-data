@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into powers of two minus one where every part appears at least 3 times",
+  "description": "Number of partitions of n into powers of two minus one where every part appears at least 3 times.",
   "id": "A161065",
   "mentions": [],
   "tags": [

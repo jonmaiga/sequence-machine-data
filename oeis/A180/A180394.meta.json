@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with both permutation and its inverse having exactly 4 maxima",
+  "description": "Number of permutations of 1..n with both permutation and its inverse having exactly 4 maxima.",
   "id": "A180394",
   "mentions": [],
   "tags": [

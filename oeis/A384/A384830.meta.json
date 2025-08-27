@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = A(x^3 - 3*x*A(x)^3) / A(x^2 - 2*x*A(x)^2).",
+  "id": "A384830",
+  "mentions": [
+    "A000108",
+    "A038464",
+    "A376226",
+    "A384270"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

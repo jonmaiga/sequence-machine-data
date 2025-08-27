@@ -1,5 +1,5 @@
 {
-  "description": "The smallest prime formed by the concatenation of consecutive n-th powers beginning with \"1,\" plus a trailing \"1.\"",
+  "description": "The smallest prime formed by the concatenation of consecutive n-th powers beginning with \"1,\" plus a trailing \"1.\".",
   "id": "A266368",
   "mentions": [
     "A019521",

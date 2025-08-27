@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = [x^n] 1/(1 - x)^(n*(n+1)/2).",
+  "id": "A386880",
+  "mentions": [
+    "A014068",
+    "A054688",
+    "A116508",
+    "A177234",
+    "A386879"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

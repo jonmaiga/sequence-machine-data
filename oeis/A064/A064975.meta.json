@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that n*10-1, n*10-3, n*10-7 and n*10-9 are all prime.",
+  "description": "Numbers k such that 10*k-1, 10*k-3, 10*k-7 and 10*k-9 are all prime.",
   "id": "A064975",
-  "mentions": [],
+  "mentions": [
+    "A115095"
+  ],
   "tags": [
     "easy",
     "nonn"

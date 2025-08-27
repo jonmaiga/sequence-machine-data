@@ -1,7 +1,9 @@
 {
   "description": "The sum of the largest preimage over all functions f:{1,2,...,n}->{1,2,...,n}.",
   "id": "A208250",
-  "mentions": [],
+  "mentions": [
+    "A265080"
+  ],
   "tags": [
     "formulas",
     "nonn"

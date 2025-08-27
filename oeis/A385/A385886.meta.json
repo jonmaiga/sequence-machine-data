@@ -1,0 +1,42 @@
+{
+  "description": "Irregular triangle read by rows listing the lengths of maximal anti-runs (sequences of distinct consecutive elements increasing by more than 1) of binary indices, duplicate rows removed.",
+  "id": "A385886",
+  "mentions": [
+    "A000120",
+    "A001906",
+    "A001911",
+    "A023758",
+    "A044813",
+    "A048793",
+    "A052499",
+    "A055588",
+    "A069010",
+    "A164707",
+    "A200648",
+    "A200649",
+    "A242882",
+    "A245562",
+    "A245563",
+    "A246029",
+    "A328592",
+    "A348366",
+    "A384175",
+    "A384177",
+    "A384877",
+    "A384878",
+    "A384879",
+    "A384890",
+    "A384893",
+    "A385816",
+    "A385817"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

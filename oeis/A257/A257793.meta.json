@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest injective sequence such that a(n)+a(a(n)) is prime",
+  "description": "Lexicographically earliest injective sequence such that a(n)+a(a(n)) is prime.",
   "id": "A257793",
   "mentions": [],
   "tags": [

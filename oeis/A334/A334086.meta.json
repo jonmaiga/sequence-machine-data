@@ -1,5 +1,5 @@
 {
-  "description": "Positive numbers not of the form 2*x^4 + y*(y+1)/2 + z*(z+1)/2 with x,y,z nonnegative integers",
+  "description": "Positive numbers not of the form 2*x^4 + y*(y+1)/2 + z*(z+1)/2 with x,y,z nonnegative integers.",
   "id": "A334086",
   "mentions": [
     "A000217",

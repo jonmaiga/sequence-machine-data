@@ -1,5 +1,5 @@
 {
-  "description": "4X4 square grid graph coloring a rectangular array: number of n X n 0..15 arrays where 0..15 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph",
+  "description": "4X4 square grid graph coloring a rectangular array: number of n X n 0..15 arrays where 0..15 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.",
   "id": "A223394",
   "mentions": [
     "A223402"

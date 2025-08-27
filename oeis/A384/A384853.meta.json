@@ -1,0 +1,38 @@
+{
+  "description": "Squared length of interior diagonal of n-th (U, V)-crossbox, where U = (1, 0, 1) and V = (0, 1, 0), as in Comments.",
+  "id": "A384853",
+  "mentions": [
+    "A000079",
+    "A000351",
+    "A000533",
+    "A005054",
+    "A008776",
+    "A009992",
+    "A011557",
+    "A013731",
+    "A052548",
+    "A052919",
+    "A067403",
+    "A081341",
+    "A135423",
+    "A167747",
+    "A178676",
+    "A199215",
+    "A199318",
+    "A199552",
+    "A199559",
+    "A199750",
+    "A204061",
+    "A270369",
+    "A334603"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

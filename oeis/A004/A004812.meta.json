@@ -1,7 +1,11 @@
 {
   "description": "Numbers that are the sum of 12 positive 10th powers.",
   "id": "A004812",
-  "mentions": [],
+  "mentions": [
+    "A003335",
+    "A004823",
+    "A008454"
+  ],
   "tags": [
     "easy",
     "nonn"

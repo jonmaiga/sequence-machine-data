@@ -1,7 +1,9 @@
 {
   "description": "Trajectory of 27 under map x->x + (x-with-digits-reversed).",
   "id": "A033659",
-  "mentions": [],
+  "mentions": [
+    "A033651"
+  ],
   "tags": [
     "base",
     "nonn"

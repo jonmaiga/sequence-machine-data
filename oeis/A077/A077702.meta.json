@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 5, a(n)= smallest multiple of a(n-1) that contains all the digits of a(n-1). Or which can be obtained by inserting digits anywhere in a permutation of digits of a(n-1). (prefix,suffix or insertion). a(n) is not equal to 10*a(n-1).",
+  "description": "a(1) = 5; a(n) is the smallest multiple of a(n-1) that contains all the digits of a(n-1) and is not a multiple of 10.",
   "id": "A077702",
   "mentions": [
     "A077703"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "description": "Exponent of the highest power of 2 dividing the n-th number whose prime factorization exponents are all powers of 2 (A138302).",
+  "id": "A386537",
+  "mentions": [
+    "A007404",
+    "A007814",
+    "A138302",
+    "A383004",
+    "A383005",
+    "A383006",
+    "A383007",
+    "A383029",
+    "A383032",
+    "A386536"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

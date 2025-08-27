@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*A(3*x)).",
+  "id": "A385526",
+  "mentions": [
+    "A000272",
+    "A015084",
+    "A096538",
+    "A141369",
+    "A385527",
+    "A385528",
+    "A385529",
+    "A385530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

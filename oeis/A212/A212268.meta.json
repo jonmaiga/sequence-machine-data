@@ -1,5 +1,5 @@
 {
-  "description": "Number of circular permutations of 1..n with no adjacent three summing to a prime, ignoring rotations and reversals",
+  "description": "Number of circular permutations of 1..n with no adjacent three summing to a prime, ignoring rotations and reversals.",
   "id": "A212268",
   "mentions": [],
   "tags": [

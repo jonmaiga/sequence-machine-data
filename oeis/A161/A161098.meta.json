@@ -1,8 +1,9 @@
 {
-  "description": "Number of partitions of n into squares where every part appears at least 10 times",
+  "description": "Number of partitions of n into squares where every part appears at least 10 times.",
   "id": "A161098",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

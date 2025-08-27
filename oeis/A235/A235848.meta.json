@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..3 arrays with the upper median unequal to the lower median in every 2X2 subblock",
+  "description": "Number of (n+1)X(6+1) 0..3 arrays with the upper median unequal to the lower median in every 2X2 subblock.",
   "id": "A235848",
   "mentions": [
     "A235849"

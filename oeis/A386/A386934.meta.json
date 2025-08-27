@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of BesselI(1, 2*sqrt(2))/(sqrt(2)*BesselI(2, 2*sqrt(2))).",
+  "id": "A386934",
+  "mentions": [
+    "A145051",
+    "A363679",
+    "A386710"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

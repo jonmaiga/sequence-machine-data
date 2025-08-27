@@ -2,9 +2,11 @@
   "description": "a(n) = sum of integers between n!+1 and (n+1)!.",
   "id": "A294193",
   "mentions": [
+    "A000142",
     "A000217",
     "A001563",
-    "A049775"
+    "A049775",
+    "A055555"
   ],
   "tags": [
     "easy",

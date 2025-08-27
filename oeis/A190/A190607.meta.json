@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(n+2) symmetric binary matrices without the pattern 1 0 1 diagonally, vertically, antidiagonally or horizontally",
+  "description": "Number of (n+2)X(n+2) symmetric binary matrices without the pattern 1 0 1 diagonally, vertically, antidiagonally or horizontally.",
   "id": "A190607",
   "mentions": [],
   "tags": [

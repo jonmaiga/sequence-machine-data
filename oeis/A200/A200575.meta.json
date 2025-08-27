@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..2 arrays with no average of any element and its horizontal and vertical neighbors equal to one",
+  "description": "Number of nX4 0..2 arrays with no average of any element and its horizontal and vertical neighbors equal to one.",
   "id": "A200575",
   "mentions": [
     "A200579"

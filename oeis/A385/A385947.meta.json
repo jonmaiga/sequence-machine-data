@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(k+5,5) * binomial(n-1,k) * a(k) * a(n-1-k).",
+  "id": "A385947",
+  "mentions": [
+    "A000272",
+    "A156325",
+    "A385945",
+    "A385946",
+    "A385948",
+    "A385954"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

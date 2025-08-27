@@ -1,0 +1,16 @@
+{
+  "description": "Smallest denominator y for which there exists an integer x with round(100*x/y) = n.",
+  "id": "A384670",
+  "mentions": [
+    "A239525"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

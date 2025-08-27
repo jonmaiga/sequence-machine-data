@@ -2,10 +2,13 @@
   "description": "Decimal expansion of square root of 51.",
   "id": "A010504",
   "mentions": [
+    "A002194",
+    "A010473",
     "A040043"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

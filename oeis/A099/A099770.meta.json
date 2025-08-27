@@ -2,7 +2,8 @@
   "description": "Expansion of 1/((1-x)*(1-x^2)*(1-x^4)*(1-x^6)).",
   "id": "A099770",
   "mentions": [
-    "A000601"
+    "A000601",
+    "A004526"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of n X n binary arrays with no element unequal to a strict majority of its king-move neighbors",
+  "description": "Half the number of n X n binary arrays with no element unequal to a strict majority of its king-move neighbors.",
   "id": "A183387",
   "mentions": [
     "A183391"

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest sequence of primes such that no sum of at least two terms is prime",
+  "description": "Smallest sequence of primes such that no sum of at least two terms is prime.",
   "id": "A153136",
   "mentions": [
     "A052349",

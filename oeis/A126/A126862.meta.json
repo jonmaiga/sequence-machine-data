@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that have a component C(1,1) when expanded in the binomial basis of order t=3.",
+  "description": "Numbers k that have a component C(1,1) when expanded in the binomial basis of order t=3.",
   "id": "A126862",
   "mentions": [
     "A000124",

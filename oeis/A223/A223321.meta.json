@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Rolling icosahedron footprints: number of nXk 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or antidiagonal neighbor moves along an icosahedral edge",
+  "description": "T(n,k)=Rolling icosahedron footprints: number of nXk 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or antidiagonal neighbor moves along an icosahedral edge.",
   "id": "A223321",
   "mentions": [
     "A000351",

@@ -1,5 +1,5 @@
 {
-  "description": "y(n) is the corresponding value of a(n) in sequence A181643. For a given n it is the minimum value such that a(n)*[a(n)+n]*[a(n)+n+n]=y*y",
+  "description": "y(n) is the corresponding value of a(n) in sequence A181643. For a given n it is the minimum value such that a(n)*[a(n)+n]*[a(n)+n+n]=y*y.",
   "id": "A181646",
   "mentions": [
     "A115878",

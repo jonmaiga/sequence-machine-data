@@ -1,17 +1,18 @@
 {
-  "description": "Ono prime weight function divided by 6.",
+  "description": "a(n) = (x^3 - x) / 6, where x is the genus of the modular curve X_0(p) for p = prime(n).",
   "id": "A116569",
   "mentions": [
+    "A000040",
+    "A001617",
     "A116563"
   ],
   "tags": [
-    "nonn",
-    "obsc",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

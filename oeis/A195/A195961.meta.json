@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..4 arrays with each element equal to the number its horizontal and vertical neighbors unequal to itself",
+  "description": "Number of nX7 0..4 arrays with each element equal to the number its horizontal and vertical neighbors unequal to itself.",
   "id": "A195961",
   "mentions": [
     "A195962"

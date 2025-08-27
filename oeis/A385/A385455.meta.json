@@ -1,0 +1,16 @@
+{
+  "description": "First prepended column of the tribonacci array of the second kind, A385436.",
+  "id": "A385455",
+  "mentions": [
+    "A278041",
+    "A385436"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

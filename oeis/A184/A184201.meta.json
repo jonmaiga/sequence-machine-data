@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X4 binary arrays with no 2X2 subblock containing fewer than two 1s",
+  "description": "Number of (n+1)X4 binary arrays with no 2X2 subblock containing fewer than two 1s.",
   "id": "A184201",
   "mentions": [
     "A184207"

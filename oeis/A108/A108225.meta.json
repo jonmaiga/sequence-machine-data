@@ -2,7 +2,11 @@
   "description": "a(0) = 0, a(1) = 2; for n >= 2, a(n) = (a(n-1) + a(n-2))*(a(n-1) - a(n-2) + 1)/2.",
   "id": "A108225",
   "mentions": [
+    "A000217",
+    "A002658",
     "A006894",
+    "A007501",
+    "A072638",
     "A103410"
   ],
   "tags": [
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 11,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Maximum number of nonisomorphic root-containing subtrees of a rooted tree of order n",
+  "description": "Maximum number of nonisomorphic root-containing subtrees of a rooted tree of order n.",
   "id": "A281578",
   "mentions": [
     "A281094"

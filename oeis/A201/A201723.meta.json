@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..4 arrays with rows and columns lexicographically nondecreasing and no element equal to the number of horizontal and vertical neighbors equal to itself",
+  "description": "Number of nX2 0..4 arrays with rows and columns lexicographically nondecreasing and no element equal to the number of horizontal and vertical neighbors equal to itself.",
   "id": "A201723",
   "mentions": [
     "A201729"

@@ -1,11 +1,13 @@
 {
-  "description": "Primes of the form 8*10^n - 1.",
+  "description": "Primes of the form 8*10^k - 1.",
   "id": "A093947",
   "mentions": [
     "A002275",
-    "A056721"
+    "A056721",
+    "A198973"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

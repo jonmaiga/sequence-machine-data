@@ -1,0 +1,16 @@
+{
+  "description": "Wiener index of the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A384843",
+  "mentions": [
+    "A384844"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

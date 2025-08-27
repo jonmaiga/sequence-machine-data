@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of 4 nonzero numbers in -(n+2)..(n+2) with sum zero",
+  "description": "Number of nondecreasing arrangements of 4 nonzero numbers in -(n+2)..(n+2) with sum zero.",
   "id": "A188334",
   "mentions": [
     "A049347",

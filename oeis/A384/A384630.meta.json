@@ -1,0 +1,17 @@
+{
+  "description": "Number of self-inverse double cosets in Z_n\\S_n/Z_n.",
+  "id": "A384630",
+  "mentions": [
+    "A000142",
+    "A002619",
+    "A384631"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

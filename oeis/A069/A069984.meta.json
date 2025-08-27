@@ -1,5 +1,5 @@
 {
-  "description": "1123+21460n.",
+  "description": "a(n) = 1123 + 21460*n.",
   "id": "A069984",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 34,
     "source": "joeis"
   }
 }

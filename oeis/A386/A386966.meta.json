@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be written in two different ways as s_1^x_1 + ... + s_t^x_t, with 1 < s_1 < ... < s_t and {s_1,..., s_t} = {x_1,..., x_t} for some t > 0.",
+  "id": "A386966",
+  "mentions": [
+    "A385232",
+    "A385233",
+    "A385969",
+    "A385970",
+    "A386967",
+    "A386968"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

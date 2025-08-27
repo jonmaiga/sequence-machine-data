@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 2*p+3 and 8*p+21 are both prime",
+  "description": "Primes p such that 2*p+3 and 8*p+21 are both prime.",
   "id": "A156010",
   "mentions": [
     "A156004",

@@ -1,5 +1,5 @@
 {
-  "description": "A number n is included if |k -n/k| divides n for at least one divisor k of n.",
+  "description": "A number n is included if |k - n/k| divides n for at least one divisor k of n.",
   "id": "A139718",
   "mentions": [
     "A139719"

@@ -1,8 +1,16 @@
 {
-  "description": "a(n) = C(5n+1,n).",
+  "description": "a(n) = C(5*n+1,n).",
   "id": "A079589",
   "mentions": [
-    "A052203"
+    "A001449",
+    "A002294",
+    "A005810",
+    "A052203",
+    "A079678",
+    "A183160",
+    "A371753",
+    "A385632",
+    "A386812"
   ],
   "tags": [
     "formulas",
@@ -10,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

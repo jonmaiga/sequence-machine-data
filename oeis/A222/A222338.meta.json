@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..6 arrays with no entry increasing mod 7 by 6 rightwards or downwards, starting with upper left zero",
+  "description": "Number of nX5 0..6 arrays with no entry increasing mod 7 by 6 rightwards or downwards, starting with upper left zero.",
   "id": "A222338",
   "mentions": [
     "A222340"

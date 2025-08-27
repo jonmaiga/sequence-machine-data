@@ -1,5 +1,5 @@
 {
-  "description": "Number of side-3 hexagonal 0..n arrays with values nondecreasing E, SW and SE",
+  "description": "Number of side-3 hexagonal 0..n arrays with values nondecreasing E, SW and SE.",
   "id": "A216939",
   "mentions": [
     "A216937"

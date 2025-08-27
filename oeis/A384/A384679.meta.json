@@ -1,0 +1,16 @@
+{
+  "description": "Number of edge-connected components on the faces of a tetrakis square tiling where the degree-8 vertices have been truncated, up to translation, rotation and reflection of the tiling.",
+  "id": "A384679",
+  "mentions": [
+    "A197465"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

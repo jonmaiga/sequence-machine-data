@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nonnegative integer arrays of length n+2k-2 with new values introduced in order 0 upwards and every value appearing only in runs of at least k",
+  "description": "T(n,k)=Number of nonnegative integer arrays of length n+2k-2 with new values introduced in order 0 upwards and every value appearing only in runs of at least k.",
   "id": "A211700",
   "mentions": [
     "A000110",

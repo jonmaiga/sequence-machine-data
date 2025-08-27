@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X9 binary arrays with every 2X2 subblock diagonal sum less antidiagonal sum equal to some horizontal or vertical neighbor 2X2 subblock diagonal sum less antidiagonal sum",
+  "description": "Number of (n+1)X9 binary arrays with every 2X2 subblock diagonal sum less antidiagonal sum equal to some horizontal or vertical neighbor 2X2 subblock diagonal sum less antidiagonal sum.",
   "id": "A186127",
   "mentions": [
     "A186128"

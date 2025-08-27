@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..1 arrays with no element equal to the same number of vertical neighbors as horizontal neighbors, with new values 0..1 introduced in row major order",
+  "description": "Number of nX4 0..1 arrays with no element equal to the same number of vertical neighbors as horizontal neighbors, with new values 0..1 introduced in row major order.",
   "id": "A240645",
   "mentions": [
     "A240649"

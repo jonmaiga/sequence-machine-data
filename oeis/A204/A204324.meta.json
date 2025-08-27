@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A007953(n) >= A007953(n^3), where A007953 = digital sum in base 10.",
+  "description": "Numbers k such that A007953(k) >= A007953(k^3), where A007953 = digital sum in base 10.",
   "id": "A204324",
   "mentions": [
     "A007953",

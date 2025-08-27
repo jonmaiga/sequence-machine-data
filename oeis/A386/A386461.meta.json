@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the surface area of a biaugmented truncated cube with unit edges.",
+  "id": "A386461",
+  "mentions": [
+    "A010469",
+    "A010487",
+    "A010502",
+    "A010524",
+    "A377342",
+    "A385535",
+    "A386460"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

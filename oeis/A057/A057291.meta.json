@@ -1,13 +1,17 @@
 {
-  "description": "Numbers n such that n | 12^n + 11^n + 10^n + 9^n + 8^n + 7^n + 6^n + 5^n + 4^n + 3^n + 2^n + 1^n.",
+  "description": "Numbers k such that k | 12^k + 11^k + 10^k + 9^k + 8^k + 7^k + 6^k + 5^k + 4^k + 3^k + 2^k + 1^k.",
   "id": "A057291",
-  "mentions": [],
+  "mentions": [
+    "A056739",
+    "A057292",
+    "A103438"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,16 +1,16 @@
 {
-  "description": "Primes of the form (6^n + 5^n)/11.",
+  "description": "Primes of the form (6^k + 5^k)/11.",
   "id": "A138958",
   "mentions": [
     "A128336"
   ],
   "tags": [
-    "bref",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

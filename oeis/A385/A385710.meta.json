@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the first zero of Re(P(x)) with x",
+  "id": "A385710",
+  "mentions": [
+    "A358968",
+    "A358969"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

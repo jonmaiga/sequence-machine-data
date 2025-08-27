@@ -1,7 +1,11 @@
 {
-  "description": "Triangle of coefficients in expansion of (4+5x)^n.",
+  "description": "Triangle of coefficients in expansion of (4 + 5*x)^n.",
   "id": "A013628",
-  "mentions": [],
+  "mentions": [
+    "A000302",
+    "A000351",
+    "A001019"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 45,
     "source": "joeis"
   }
 }

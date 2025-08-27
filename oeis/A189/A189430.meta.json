@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 array permutations with each element not moving, or moving one space N, SW or SE",
+  "description": "Number of nX4 array permutations with each element not moving, or moving one space N, SW or SE.",
   "id": "A189430",
   "mentions": [
     "A189435"

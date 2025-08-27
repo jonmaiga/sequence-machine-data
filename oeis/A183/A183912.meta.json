@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing arrangements of n+2 numbers in 0..k with each number being the sum mod (k+1) of two others",
+  "description": "T(n,k)=Number of nondecreasing arrangements of n+2 numbers in 0..k with each number being the sum mod (k+1) of two others.",
   "id": "A183912",
   "mentions": [],
   "tags": [

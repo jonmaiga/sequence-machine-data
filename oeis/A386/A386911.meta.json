@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that A064945(k) = A064945(k+1).",
+  "id": "A386911",
+  "mentions": [
+    "A064945"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers with every digit a perfect cube, i.e., consisting of only digits 0, 1 and 8.",
+  "description": "Primes having only {0, 1, 8} as digits.",
   "id": "A061247",
   "mentions": [
     "A007500",
@@ -12,7 +12,6 @@
   ],
   "tags": [
     "base",
-    "less",
     "nonn"
   ],
   "terms": {

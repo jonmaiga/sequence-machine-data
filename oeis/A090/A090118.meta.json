@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=prevprime[A090116(n)], the largest prime previous to squares given in A090116, being such that distance of a(n) to the following prime equals 2n.",
+  "description": "a(n) = prevprime(A090117(n)), the largest prime previous to squares given in A090117, being such that distance of a(n) to the following prime equals 2*n.",
   "id": "A090118",
   "mentions": [
     "A090116",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..1 arrays with each 2X2 subblock nonsingular and the array of 2X2 subblock determinants symmetric about the diagonal and antidiagonal",
+  "description": "Number of (n+1)X(n+1) 0..1 arrays with each 2X2 subblock nonsingular and the array of 2X2 subblock determinants symmetric about the diagonal and antidiagonal.",
   "id": "A187668",
   "mentions": [
     "A187670"

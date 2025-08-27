@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(n+2) binary arrays with consecutive windows of three bits considered as a binary number nondecreasing in every row and column",
+  "description": "Number of (n+2)X(n+2) binary arrays with consecutive windows of three bits considered as a binary number nondecreasing in every row and column.",
   "id": "A202454",
   "mentions": [
     "A202461"

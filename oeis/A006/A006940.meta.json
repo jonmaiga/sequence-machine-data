@@ -2,7 +2,9 @@
   "description": "Rows of Pascal's triangle mod 3.",
   "id": "A006940",
   "mentions": [
-    "A007318"
+    "A007318",
+    "A083093",
+    "A118594"
   ],
   "tags": [
     "nonn"

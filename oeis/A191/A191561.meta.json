@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n mod 3*n",
+  "description": "a(n) = 2^n mod 3*n.",
   "id": "A191561",
   "mentions": [
     "A083528",

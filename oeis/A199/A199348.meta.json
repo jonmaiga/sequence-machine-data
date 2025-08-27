@@ -1,12 +1,14 @@
 {
-  "description": "Primes having only the (decimal) digits 3, 4 and 8.",
+  "description": "Primes having only {3, 4, 8} as digits.",
   "id": "A199348",
   "mentions": [
     "A004086",
     "A020449",
     "A020472",
     "A199325",
-    "A199329"
+    "A199329",
+    "A385768",
+    "A385800"
   ],
   "tags": [
     "base",

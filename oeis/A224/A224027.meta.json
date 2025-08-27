@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5Xn 0..3 arrays with rows nondecreasing and antidiagonals unimodal",
+  "description": "Number of 5Xn 0..3 arrays with rows nondecreasing and antidiagonals unimodal.",
   "id": "A224027",
   "mentions": [
     "A224024"

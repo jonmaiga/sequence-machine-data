@@ -1,0 +1,19 @@
+{
+  "description": "A diagonal (unsigned) of triangle A385910; a(n) = -A385910(n+2,n) for n >= 1.",
+  "id": "A385912",
+  "mentions": [
+    "A001764",
+    "A003714",
+    "A038464",
+    "A118113",
+    "A385910"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

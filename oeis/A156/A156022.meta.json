@@ -1,5 +1,5 @@
 {
-  "description": "Maximum number of positive numbers represented by substrings of an n-bit number's binary representation",
+  "description": "Maximum number of positive numbers represented by substrings of an n-bit number's binary representation.",
   "id": "A156022",
   "mentions": [
     "A078822",
@@ -13,12 +13,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

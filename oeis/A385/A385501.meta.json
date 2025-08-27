@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x * exp(-arctanh(x)) ).",
+  "id": "A385501",
+  "mentions": [
+    "A001147",
+    "A111594",
+    "A138020",
+    "A227466",
+    "A385426",
+    "A385500",
+    "A385502"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

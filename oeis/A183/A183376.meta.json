@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 binary arrays with no element equal to the mod 3 sum of its king-move neighbors",
+  "description": "Number of nX3 binary arrays with no element equal to the mod 3 sum of its king-move neighbors.",
   "id": "A183376",
   "mentions": [
     "A183380"

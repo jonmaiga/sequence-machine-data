@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n arrays x(i), i=1..n with x(i) in i..i+k and no value appearing more than 2 times",
+  "description": "T(n,k)=Number of length n arrays x(i), i=1..n with x(i) in i..i+k and no value appearing more than 2 times.",
   "id": "A250351",
   "mentions": [
     "A000027",

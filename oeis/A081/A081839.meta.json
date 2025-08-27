@@ -1,7 +1,14 @@
 {
   "description": "a(1)=0, a(n)=a(n-1)+4 if n is already in the sequence, a(n)=a(n-1)+5 otherwise.",
   "id": "A081839",
-  "mentions": [],
+  "mentions": [
+    "A081834",
+    "A081835",
+    "A081840",
+    "A081841",
+    "A081842",
+    "A081843"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

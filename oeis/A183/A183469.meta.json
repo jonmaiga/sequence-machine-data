@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 binary arrays with every element equal to either the sum mod 2 of its vertical neighbors or the sum mod 2 of its horizontal neighbors",
+  "description": "Number of nX4 binary arrays with every element equal to either the sum mod 2 of its vertical neighbors or the sum mod 2 of its horizontal neighbors.",
   "id": "A183469",
   "mentions": [
     "A183474"

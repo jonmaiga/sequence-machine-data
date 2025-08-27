@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not of the form k - omega(k), where omega(k) is the number of distinct primes dividing k.",
+  "id": "A386571",
+  "mentions": [
+    "A001221",
+    "A005278",
+    "A045765",
+    "A378993",
+    "A386572"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

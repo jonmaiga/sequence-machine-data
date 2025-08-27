@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into odd numbers where every part appears at least 5 times",
+  "description": "Number of partitions of n into odd numbers where every part appears at least 5 times.",
   "id": "A161041",
   "mentions": [],
   "tags": [

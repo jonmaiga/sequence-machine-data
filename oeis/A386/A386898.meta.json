@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(5*n+1,k) * binomial(5*n-k,n-k).",
+  "id": "A386898",
+  "mentions": [
+    "A178792",
+    "A383326",
+    "A383716",
+    "A386812",
+    "A386895",
+    "A386896",
+    "A386897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

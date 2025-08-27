@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*A(4*x)).",
+  "id": "A385527",
+  "mentions": [
+    "A000272",
+    "A015085",
+    "A096538",
+    "A141369",
+    "A385526",
+    "A385528",
+    "A385529",
+    "A385530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

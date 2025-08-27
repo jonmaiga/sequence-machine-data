@@ -2,7 +2,9 @@
   "description": "Sum of squares of numbers that cannot be written as t*n + u*(n+1) for nonnegative integers t,u.",
   "id": "A076389",
   "mentions": [
-    "A002417"
+    "A002417",
+    "A076460",
+    "A076465"
   ],
   "tags": [
     "easy",

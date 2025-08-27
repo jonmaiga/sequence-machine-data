@@ -2,6 +2,8 @@
   "description": "Partial sums of A298784.",
   "id": "A298785",
   "mentions": [
+    "A049347",
+    "A061347",
     "A298784"
   ],
   "tags": [

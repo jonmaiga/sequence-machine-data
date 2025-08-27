@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that all three of 6*n+1, 6*(n+1)+1, and 6*(n+2)+1 are semiprimes.",
+  "description": "Numbers k such that all three of 6*k+1, 6*(k+1)+1, and 6*(k+2)+1 are semiprimes.",
   "id": "A283598",
   "mentions": [
     "A001358",

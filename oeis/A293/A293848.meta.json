@@ -2,6 +2,7 @@
   "description": "E.g.f.: exp(Sum_{n>=1} n^n*x^n).",
   "id": "A293848",
   "mentions": [
+    "A000312",
     "A293847",
     "A293849"
   ],

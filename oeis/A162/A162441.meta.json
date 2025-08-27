@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of the column sums of the EG1 matrix coefficients",
+  "description": "Numerators of the column sums of the EG1 matrix coefficients.",
   "id": "A162441",
   "mentions": [
     "A001803",

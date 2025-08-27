@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to reciprocally link elements of an 7Xn array either to themselves or to exactly two horizontal and antidiagonal neighbors, without consecutive collinear links",
+  "description": "Number of ways to reciprocally link elements of an 7Xn array either to themselves or to exactly two horizontal and antidiagonal neighbors, without consecutive collinear links.",
   "id": "A220712",
   "mentions": [
     "A220708"

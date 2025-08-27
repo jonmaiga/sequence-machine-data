@@ -1,12 +1,13 @@
 {
-  "description": "Primes whose decimal representation contains only digits from the set {0,1,2,3}.",
+  "description": "Primes having only {0,1,2,3} as digits.",
   "id": "A107715",
   "mentions": [
     "A007090",
     "A010051",
     "A036953",
     "A036956",
-    "A193890"
+    "A193890",
+    "A385776"
   ],
   "tags": [
     "base",

@@ -1,0 +1,17 @@
+{
+  "description": "Sequence where k is appended after every k! occurrences of 1, with multiple values following a 1 listed in order.",
+  "id": "A385685",
+  "mentions": [
+    "A000142",
+    "A382093",
+    "A385686"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "The ED2 array read by ascending antidiagonals",
+  "description": "The ED2 array read by ascending antidiagonals.",
   "id": "A167560",
   "mentions": [
     "A000012",

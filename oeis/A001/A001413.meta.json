@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2n-step polygons on cubic lattice.",
+  "description": "Number of 2n-step self-avoiding cycles on the cubic lattice.",
   "id": "A001413",
   "mentions": [
     "A001409",

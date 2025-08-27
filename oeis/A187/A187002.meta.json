@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m): column m is the expansion of (x+2*x^2+3*x^3+3*x^4+2*x^5+x^6)^m",
+  "description": "Triangle T(n,m): column m is the expansion of (x+2*x^2+3*x^3+3*x^4+2*x^5+x^6)^m.",
   "id": "A187002",
   "mentions": [],
   "tags": [

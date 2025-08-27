@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of triples that cover {1..n}, such that every 2-coloring of {1..n} results in at least one monochromatic triple.",
+  "id": "A385403",
+  "mentions": [
+    "A111384",
+    "A383181"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

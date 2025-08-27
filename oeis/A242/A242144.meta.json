@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+5 0..k arrays with no consecutive six elements summing to more than 3*k",
+  "description": "T(n,k)=Number of length n+5 0..k arrays with no consecutive six elements summing to more than 3*k.",
   "id": "A242144",
   "mentions": [
     "A133551",

@@ -1,13 +1,18 @@
 {
   "description": "a(n) = floor((sqrt(1+8*n)-3)/2).",
   "id": "A052146",
-  "mentions": [],
+  "mentions": [
+    "A003056",
+    "A003881"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 84,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

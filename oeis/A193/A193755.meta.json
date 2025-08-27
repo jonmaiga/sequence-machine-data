@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..4 arrays with no element equal to the sum mod 5 of all its neighbors",
+  "description": "Number of nXnXn triangular 0..4 arrays with no element equal to the sum mod 5 of all its neighbors.",
   "id": "A193755",
   "mentions": [],
   "tags": [

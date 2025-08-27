@@ -1,9 +1,14 @@
 {
-  "description": "Starting with 1, the sequence a(n) changes from 1 to 0 or back when the next number n is a prime.",
+  "description": "a(n) = (pi(n)+1) mod 2.",
   "id": "A131377",
   "mentions": [
+    "A000035",
+    "A000720",
+    "A008683",
+    "A036234",
     "A071986",
-    "A131378"
+    "A131378",
+    "A345220"
   ],
   "tags": [
     "easy",

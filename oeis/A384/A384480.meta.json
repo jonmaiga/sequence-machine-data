@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) is the length of a shortest addition-composition chain for n*x+k, starting with 1 and x; n, k >= 0.",
+  "id": "A384480",
+  "mentions": [
+    "A383330",
+    "A384481",
+    "A384482",
+    "A384483"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of digits in 3^(n!).",
+  "id": "A385950",
+  "mentions": [
+    "A034888",
+    "A055642",
+    "A100731"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

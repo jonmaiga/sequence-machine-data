@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 5+2 0..n arrays with no three consecutive terms having the sum of any two elements equal to twice the third",
+  "description": "Number of length 5+2 0..n arrays with no three consecutive terms having the sum of any two elements equal to twice the third.",
   "id": "A248466",
   "mentions": [
     "A248461"

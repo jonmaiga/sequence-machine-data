@@ -1,7 +1,9 @@
 {
   "description": "a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i",
   "id": "A026487",
-  "mentions": [],
+  "mentions": [
+    "A026483"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) = d_1*d_1!+d_2*d_2!+...+d_k*d_k! where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "description": "Numbers m such that phi(m) = d_1*d_1!+d_2*d_2!+...+d_k*d_k! where d_1 d_2 ... d_k is the decimal expansion of m.",
   "id": "A101699",
   "mentions": [
     "A101697",
@@ -8,6 +8,7 @@
   "tags": [
     "base",
     "fini",
+    "more",
     "nonn"
   ],
   "terms": {

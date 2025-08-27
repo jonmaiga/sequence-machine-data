@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A384655(k)/k > A384655(m)/m for all m < k.",
+  "id": "A384659",
+  "mentions": [
+    "A013929",
+    "A025487",
+    "A033150",
+    "A384655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

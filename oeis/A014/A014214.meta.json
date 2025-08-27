@@ -1,13 +1,15 @@
 {
-  "description": "[ (Pi/2)^n ].",
+  "description": "a(n) = floor((Pi/2)^n).",
   "id": "A014214",
-  "mentions": [],
+  "mentions": [
+    "A019669"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 42,
     "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of nondegenerate triangles whose sides are distinct divisors of A386417(n).",
+  "id": "A386418",
+  "mentions": [
+    "A027750",
+    "A378820",
+    "A386417"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

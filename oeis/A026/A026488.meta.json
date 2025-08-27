@@ -2,6 +2,7 @@
   "description": "a(n) is the least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1 <= i <= j <= k <= n, where a(1) = 1.",
   "id": "A026488",
   "mentions": [
+    "A016777",
     "A026477"
   ],
   "tags": [

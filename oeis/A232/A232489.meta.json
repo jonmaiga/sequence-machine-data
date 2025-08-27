@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + (sum of digits of n) is a power of 10.",
+  "description": "Numbers k such that k + (sum of digits of k) is a power of 10.",
   "id": "A232489",
   "mentions": [
     "A062028",

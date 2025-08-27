@@ -2,6 +2,8 @@
   "description": "Smallest amicable number of the form 2^n * p * q for which the larger member of the amicable pair has the same form, where p and q are distinct odd primes.",
   "id": "A180330",
   "mentions": [
+    "A002025",
+    "A063990",
     "A180331"
   ],
   "tags": [
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

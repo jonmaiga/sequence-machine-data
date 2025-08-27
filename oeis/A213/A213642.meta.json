@@ -1,5 +1,5 @@
 {
-  "description": "Primes with subscript that equals odd part of n.",
+  "description": "a(n) = prime(odd part of n).",
   "id": "A213642",
   "mentions": [
     "A000040",

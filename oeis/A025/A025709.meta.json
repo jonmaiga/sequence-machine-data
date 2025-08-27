@@ -2,6 +2,8 @@
   "description": "Index of 5^n within sequence of numbers of form 5^i*8^j.",
   "id": "A025709",
   "mentions": [
+    "A025623",
+    "A025673",
     "A025703"
   ],
   "tags": [

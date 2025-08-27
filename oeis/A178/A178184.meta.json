@@ -1,5 +1,5 @@
 {
-  "description": "Sum 2^((k^2+3k)/2) from k=1 to n",
+  "description": "Sum 2^((k^2+3k)/2) from k=1 to n.",
   "id": "A178184",
   "mentions": [
     "A178193"

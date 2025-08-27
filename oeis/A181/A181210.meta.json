@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 binary matrices with no two 1's adjacent diagonally or antidiagonally",
+  "description": "Number of nX6 binary matrices with no two 1's adjacent diagonally or antidiagonally.",
   "id": "A181210",
   "mentions": [
     "A181212"

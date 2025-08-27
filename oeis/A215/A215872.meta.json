@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 0..floor((4*n-2)/2) on odd squares of an 4Xn array such that each row, column, diagonal and (downwards) antidiagonal of odd squares is increasing",
+  "description": "Number of permutations of 0..floor((4*n-2)/2) on odd squares of an 4Xn array such that each row, column, diagonal and (downwards) antidiagonal of odd squares is increasing.",
   "id": "A215872",
   "mentions": [
     "A215870"

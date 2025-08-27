@@ -1,0 +1,23 @@
+{
+  "description": "Perfect powers of Achilles numbers.",
+  "id": "A383394",
+  "mentions": [
+    "A001597",
+    "A052486",
+    "A126708",
+    "A131605",
+    "A286708",
+    "A303606",
+    "A366854",
+    "A386762"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "q-factorial numbers for q=-10.",
   "id": "A015025",
   "mentions": [
-    "A015009"
+    "A015009",
+    "A384454"
   ],
   "tags": [
     "easy",

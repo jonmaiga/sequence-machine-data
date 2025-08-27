@@ -1,0 +1,19 @@
+{
+  "description": "Indices of hexagonal numbers that are one-sixth of another hexagonal number.",
+  "id": "A386549",
+  "mentions": [
+    "A000384",
+    "A385917",
+    "A386550"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

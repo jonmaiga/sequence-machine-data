@@ -2,7 +2,8 @@
   "description": "Final terms of rows of A085612.",
   "id": "A085836",
   "mentions": [
-    "A085612"
+    "A085612",
+    "A085834"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

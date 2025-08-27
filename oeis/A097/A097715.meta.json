@@ -1,14 +1,18 @@
 {
   "description": "Decimal expansion of 7*sqrt(3)/2.",
   "id": "A097715",
-  "mentions": [],
+  "mentions": [
+    "A002194",
+    "A385506"
+  ],
   "tags": [
     "cons",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

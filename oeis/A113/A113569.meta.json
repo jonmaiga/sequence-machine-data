@@ -1,13 +1,16 @@
 {
-  "description": "Least number, k which is a multiple of a primorial, such that p-n*k, p-(n-1)k, p-(n-2)k, ... p-2k, p-k, p, p+k, p+2k, ... p+(n-2)k, p+(n-1)k and p+n*k are all prime with p being the k-th prime.",
+  "description": "Least number k such that k is a multiple of A034386(2*n) and p-(n-1)*k, p-(n-2)*k, ... p-2*k, p-k, p, p+k, p+2*k, ... p+(n-2)*k, and p+(n-1)*k are all prime, with p being the k-th prime.",
   "id": "A113569",
   "mentions": [
-    "A002110",
+    "A034386",
     "A064403",
-    "A112530"
+    "A112530",
+    "A113567",
+    "A113568"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

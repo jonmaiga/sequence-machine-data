@@ -1,0 +1,16 @@
+{
+  "description": "Integers without 0 as a digit, with an odd number of digits, that are not repdigits, and such that the 2 products [d_1 d_2...dk]*[d_k+1 d_k+2...d_2k+1] and [d_1 d_2...d_k+1]*[d_k+2 d_k+2...d_2k+1] are equal.",
+  "id": "A385145",
+  "mentions": [
+    "A052382"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

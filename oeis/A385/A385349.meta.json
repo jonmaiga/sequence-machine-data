@@ -1,0 +1,20 @@
+{
+  "description": "Product of odd proper divisors of n.",
+  "id": "A385349",
+  "mentions": [
+    "A007955",
+    "A007956",
+    "A091570",
+    "A136655",
+    "A385350"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

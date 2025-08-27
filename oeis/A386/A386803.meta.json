@@ -1,0 +1,26 @@
+{
+  "description": "Numbers without an exponent 4 in their prime factorization.",
+  "id": "A386803",
+  "mentions": [
+    "A001694",
+    "A115063",
+    "A209061",
+    "A336595",
+    "A337050",
+    "A369939",
+    "A386799",
+    "A386804",
+    "A386805",
+    "A386806",
+    "A386807"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

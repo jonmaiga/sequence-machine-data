@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(n+1) -k..k symmetric matrices with every 2X2 subblock having sum zero",
+  "description": "T(n,k)=Number of (n+1)X(n+1) -k..k symmetric matrices with every 2X2 subblock having sum zero.",
   "id": "A210694",
   "mentions": [
     "A000051",

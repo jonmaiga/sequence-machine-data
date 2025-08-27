@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form p = prime(n) = (prime(n+3)+prime(n-1))/2.",
+  "description": "Primes of the form p = prime(k) = (prime(k+3)+prime(k-1))/2.",
   "id": "A126238",
   "mentions": [
     "A006562",

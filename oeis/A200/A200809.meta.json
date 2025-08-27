@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with no average of any element and its diagonal, antidiagonal, horizontal and vertical neighbors equal to one",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with no average of any element and its diagonal, antidiagonal, horizontal and vertical neighbors equal to one.",
   "id": "A200809",
   "mentions": [
     "A200572"

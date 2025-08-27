@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of (n+1)X7 0..3 arrays with every 2X2 subblock having one, three or four distinct clockwise edge differences",
+  "description": "1/4 the number of (n+1)X7 0..3 arrays with every 2X2 subblock having one, three or four distinct clockwise edge differences.",
   "id": "A210154",
   "mentions": [
     "A210156"

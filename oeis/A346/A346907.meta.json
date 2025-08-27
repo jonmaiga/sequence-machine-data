@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 2 - 3 * Pi^3 / (2^6 * sqrt(2)).",
   "id": "A346907",
   "mentions": [
+    "A251809",
     "A346849",
     "A346850",
     "A346908"

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that (1/m) * Sum_{k=1..m} k/phi(k) sets a record value, where phi is the Euler totient function (A000010).",
+  "id": "A385562",
+  "mentions": [
+    "A000010",
+    "A068885",
+    "A069947",
+    "A082695",
+    "A330899",
+    "A385561"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

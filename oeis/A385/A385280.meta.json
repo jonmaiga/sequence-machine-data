@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of n-digit primes of which all digits except one are the same.",
+  "id": "A385280",
+  "mentions": [
+    "A004022",
+    "A010785",
+    "A084673",
+    "A241206",
+    "A258915"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = binomial(3n,n)^2/(2n+1).",
+  "description": "a(n) = binomial(3*n,n)^2/(2*n+1).",
   "id": "A188681",
   "mentions": [
     "A001764",

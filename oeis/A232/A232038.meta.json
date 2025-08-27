@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every element equal to some horizontal, vertical or antidiagonal neighbor, with top left element zero",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every element equal to some horizontal, vertical or antidiagonal neighbor, with top left element zero.",
   "id": "A232038",
   "mentions": [],
   "tags": [

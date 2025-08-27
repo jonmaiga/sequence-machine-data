@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX6 0..1 arrays with exactly n+6-1 having value 1 and no three 1s forming an isosceles right triangle.",
+  "description": "Number of n X 6 0..1 arrays with exactly n+6-1 having value 1 and no three 1s forming an isosceles right triangle.",
   "id": "A272963",
   "mentions": [
     "A272965"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

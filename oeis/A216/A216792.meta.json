@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (k+1) colorings of a side-n hexagonal array with colors introduced in row major order",
+  "description": "T(n,k)=Number of (k+1) colorings of a side-n hexagonal array with colors introduced in row major order.",
   "id": "A216792",
   "mentions": [],
   "tags": [

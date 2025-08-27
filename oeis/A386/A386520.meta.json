@@ -1,0 +1,16 @@
+{
+  "description": "Column sums of the triangle in A386755.",
+  "id": "A386520",
+  "mentions": [
+    "A007952",
+    "A386755"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that A361373(k) = n.",
+  "id": "A384442",
+  "mentions": [
+    "A024619",
+    "A361373",
+    "A377485",
+    "A377845"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

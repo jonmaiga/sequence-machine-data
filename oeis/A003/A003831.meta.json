@@ -2,7 +2,11 @@
   "description": "Order of universal Chevalley group D_n (4).",
   "id": "A003831",
   "mentions": [
-    "A003830"
+    "A003830",
+    "A003832",
+    "A003834",
+    "A003835",
+    "A003836"
   ],
   "tags": [
     "easy",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "joeis"
   }
 }

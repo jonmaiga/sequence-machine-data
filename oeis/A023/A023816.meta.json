@@ -1,13 +1,18 @@
 {
   "description": "Sum of exponents in prime-power factorization of C(2n,n).",
   "id": "A023816",
-  "mentions": [],
+  "mentions": [
+    "A000984",
+    "A001222",
+    "A022559"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 79,
+    "offset": 0,
+    "size": 80,
     "source": "oeis-bfile"
   }
 }

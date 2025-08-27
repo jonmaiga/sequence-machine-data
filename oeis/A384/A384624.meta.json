@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the volume of a pentagonal orthobicupola with unit edge.",
+  "id": "A384624",
+  "mentions": [
+    "A010532",
+    "A384287",
+    "A384625"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

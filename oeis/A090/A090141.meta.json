@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Mod[n,4+Sum[Mod[Floor[n/4^m],4],{m,1,10}]]",
+  "description": "a(n) = Mod[n,4+Sum[Mod[Floor[n/4^m],4],{m,1,10}]].",
   "id": "A090141",
   "mentions": [],
   "tags": [

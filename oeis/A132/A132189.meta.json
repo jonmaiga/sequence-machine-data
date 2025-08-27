@@ -1,13 +1,16 @@
 {
   "description": "Number of non-constant 3-term geometric progressions with no term exceeding n.",
   "id": "A132189",
-  "mentions": [],
+  "mentions": [
+    "A132345"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

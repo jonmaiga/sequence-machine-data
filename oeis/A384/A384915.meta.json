@@ -1,0 +1,32 @@
+{
+  "description": "The number of unordered factorizations of n into powers of primes of the form p^e where p is prime and 0 <= e <= p (A074583).",
+  "id": "A384915",
+  "mentions": [
+    "A000688",
+    "A026820",
+    "A046951",
+    "A048103",
+    "A050361",
+    "A050377",
+    "A074583",
+    "A188581",
+    "A188585",
+    "A322885",
+    "A370256",
+    "A384912",
+    "A384913",
+    "A384914",
+    "A384916"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

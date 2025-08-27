@@ -1,8 +1,11 @@
 {
   "description": "If n = Sum_{i} b(i)^2 (i.e., a partition of n into squares), then a(n) is the smallest possible value of the largest multiplicity of the b(i).",
   "id": "A036466",
-  "mentions": [],
+  "mentions": [
+    "A033461"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

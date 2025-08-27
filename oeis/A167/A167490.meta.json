@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Smallest number with binary run length product = n",
+  "description": "a(n) = Smallest number with binary run length product = n.",
   "id": "A167490",
   "mentions": [
     "A167489",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..3 arrays with no element x(i,j) adjacent to value 3-x(i,j) horizontally, diagonally or antidiagonally, and top left element zero",
+  "description": "Number of 7Xn 0..3 arrays with no element x(i,j) adjacent to value 3-x(i,j) horizontally, diagonally or antidiagonally, and top left element zero.",
   "id": "A232961",
   "mentions": [
     "A232955"

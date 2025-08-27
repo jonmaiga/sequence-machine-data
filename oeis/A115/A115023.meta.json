@@ -1,9 +1,7 @@
 {
   "description": "a(n) = numerator of the sum s(n) of the reciprocals of the Bernoulli numbers B(2k), k=0..n.",
   "id": "A115023",
-  "mentions": [
-    "A027642"
-  ],
+  "mentions": [],
   "tags": [
     "frac",
     "sign"

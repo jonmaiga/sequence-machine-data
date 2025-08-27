@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+4)X5 0..1 matrices with each 5X5 subblock idempotent",
+  "description": "Number of (n+4)X5 0..1 matrices with each 5X5 subblock idempotent.",
   "id": "A224683",
   "mentions": [
     "A224690"

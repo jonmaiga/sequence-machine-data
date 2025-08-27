@@ -1,5 +1,5 @@
 {
-  "description": "Nearest integer to the integral of log(x) between 1 and n",
+  "description": "Nearest integer to the integral of log(x) between 1 and n.",
   "id": "A156624",
   "mentions": [
     "A156625"

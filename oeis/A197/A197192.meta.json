@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(n+9, 9)*7^n",
+  "description": "a(n) = binomial(n+9, 9)*7^n.",
   "id": "A197192",
   "mentions": [
     "A139641",

@@ -1,0 +1,13 @@
+{
+  "description": "Numbers not of the form 2^m*k + m + 1, for integers m, k >= 1.",
+  "id": "A385848",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

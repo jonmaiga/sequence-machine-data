@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a diminished rhombicosidodecahedron with unit edges.",
+  "id": "A386690",
+  "mentions": [
+    "A002194",
+    "A010476",
+    "A344149",
+    "A386689",
+    "A386692",
+    "A386694"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

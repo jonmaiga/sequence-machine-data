@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest integer w such that the equation x^2 + y^3 + z^4 = w^5 where GCD(x,y,z)=1 has exactly n positive integer solutions.",
+  "id": "A386373",
+  "mentions": [
+    "A386377",
+    "A386521"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

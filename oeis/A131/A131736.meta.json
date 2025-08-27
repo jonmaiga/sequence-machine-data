@@ -1,7 +1,10 @@
 {
   "description": "Period 6: repeat [0, 0, 1, -1, -1, 1].",
   "id": "A131736",
-  "mentions": [],
+  "mentions": [
+    "A022003",
+    "A131532"
+  ],
   "tags": [
     "easy",
     "formulas",

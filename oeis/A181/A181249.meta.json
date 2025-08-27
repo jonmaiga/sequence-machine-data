@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 binary matrices with no 2X2 block having four 1's",
+  "description": "Number of nX6 binary matrices with no 2X2 block having four 1's.",
   "id": "A181249",
   "mentions": [
     "A181253"

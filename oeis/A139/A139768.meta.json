@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (10^(n+1) mod 9^(n+1))/(10^n mod 9^n)=10, or A139739(n+1)/A139739(n)=10.",
+  "description": "Numbers k such that (10^(k+1) mod 9^(k+1))/(10^k mod 9^k)=10, or A139739(k+1)/A139739(k)=10.",
   "id": "A139768",
   "mentions": [
     "A065566",

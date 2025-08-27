@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k arrays of n elements with first through fourth differences also in -k..k",
+  "description": "T(n,k)=Number of -k..k arrays of n elements with first through fourth differences also in -k..k.",
   "id": "A202664",
   "mentions": [
     "A003215",

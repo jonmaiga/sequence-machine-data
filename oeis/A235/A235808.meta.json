@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 has one or more occurrences of exactly six different digits.",
+  "description": "Numbers k such that k^3 has one or more occurrences of exactly six different digits.",
   "id": "A235808",
   "mentions": [
     "A030292",

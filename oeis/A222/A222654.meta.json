@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with no more than floor(nXk/2) elements equal to at least one king-move neighbor, with new values introduced in row major 0..3 order",
+  "description": "T(n,k)=Number of nXk 0..3 arrays with no more than floor(nXk/2) elements equal to at least one king-move neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222654",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with diagonals and rows unimodal and antidiagonals nondecreasing",
+  "description": "T(n,k)=Number of nXk 0..1 arrays with diagonals and rows unimodal and antidiagonals nondecreasing.",
   "id": "A224158",
   "mentions": [
     "A000079",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 0..floor((n*7-2)/2) on odd squares of an nX7 array such that each row and column of odd squares is increasing",
+  "description": "Number of permutations of 0..floor((n*7-2)/2) on odd squares of an nX7 array such that each row and column of odd squares is increasing.",
   "id": "A215296",
   "mentions": [
     "A060854",

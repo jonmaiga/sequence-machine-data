@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X5 0..1 arrays with the sums of 2X2 subblocks nondecreasing rightwards and downwards",
+  "description": "Number of (n+1)X5 0..1 arrays with the sums of 2X2 subblocks nondecreasing rightwards and downwards.",
   "id": "A204035",
   "mentions": [
     "A204039"

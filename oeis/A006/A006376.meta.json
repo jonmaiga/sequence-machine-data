@@ -6,13 +6,12 @@
     "A071136"
   ],
   "tags": [
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 94,
     "source": "oeis-entry"
   }
 }

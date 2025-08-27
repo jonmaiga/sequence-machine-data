@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 binary arrays without the pattern 0 1 0 diagonally, vertically, antidiagonally or horizontally",
+  "description": "Number of nX6 binary arrays without the pattern 0 1 0 diagonally, vertically, antidiagonally or horizontally.",
   "id": "A188692",
   "mentions": [
     "A188695"

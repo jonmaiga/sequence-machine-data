@@ -1,0 +1,38 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the sum of the terms of the (n-k+1)st sublist of divisors of n whose terms increase by a factor of at most 2, with n >= 1, k >= 1.",
+  "id": "A384930",
+  "mentions": [
+    "A000005",
+    "A000105",
+    "A000203",
+    "A027750",
+    "A174973",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A240062",
+    "A245092",
+    "A262626",
+    "A379288",
+    "A379630",
+    "A384149",
+    "A384222",
+    "A384225",
+    "A384226",
+    "A384227"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

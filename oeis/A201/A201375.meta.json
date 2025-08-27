@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with rows and columns lexicographically nondecreasing read forwards, and nonincreasing read backwards",
+  "description": "T(n,k)=Number of nXk 0..1 arrays with rows and columns lexicographically nondecreasing read forwards, and nonincreasing read backwards.",
   "id": "A201375",
   "mentions": [
     "A003682"

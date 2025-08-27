@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^k * Product_{j=1..6*k} (1 + x^j)/(1 - x^j).",
+  "id": "A385092",
+  "mentions": [
+    "A035298",
+    "A207641",
+    "A385070",
+    "A385088",
+    "A385089",
+    "A385090",
+    "A385091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of sets of lists of [n] such that no list is longer than than the total number of lists.",
+  "id": "A386474",
+  "mentions": [
+    "A000262",
+    "A077229",
+    "A088009",
+    "A088311",
+    "A088312",
+    "A088313",
+    "A113775",
+    "A351884"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -4,12 +4,12 @@
   "mentions": [],
   "tags": [
     "base",
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

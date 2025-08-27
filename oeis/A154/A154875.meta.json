@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 contains every digit exactly 3 times.",
+  "description": "Numbers k such that k^4 contains every digit exactly 3 times.",
   "id": "A154875",
   "mentions": [
     "A054038",
@@ -14,6 +14,7 @@
     "base",
     "easy",
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of -7 + 10*phi, with the golden section phi = A001622.",
+  "id": "A385446",
+  "mentions": [
+    "A001622",
+    "A104457",
+    "A176055",
+    "A182007",
+    "A385445"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

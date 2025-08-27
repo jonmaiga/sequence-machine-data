@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..2 arrays with no occurrence of three equal elements in a row horizontally, vertically, diagonally or antidiagonally, and new values 0..2 introduced in row major order",
+  "description": "Number of nX5 0..2 arrays with no occurrence of three equal elements in a row horizontally, vertically, diagonally or antidiagonally, and new values 0..2 introduced in row major order.",
   "id": "A204975",
   "mentions": [
     "A204978"

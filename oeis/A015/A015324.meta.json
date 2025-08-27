@@ -1,7 +1,17 @@
 {
   "description": "Gaussian binomial coefficient [ n,6 ] for q = -3.",
   "id": "A015324",
-  "mentions": [],
+  "mentions": [
+    "A015251",
+    "A015268",
+    "A015288",
+    "A015306",
+    "A015340",
+    "A015357",
+    "A015375",
+    "A015388",
+    "A015518"
+  ],
   "tags": [
     "easy",
     "formulas",

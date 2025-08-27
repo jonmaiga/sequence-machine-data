@@ -2,7 +2,9 @@
   "description": "Row sums of triangle A116880 (generalized Catalan C(1,2)).",
   "id": "A116881",
   "mentions": [
-    "A116880"
+    "A116880",
+    "A119259",
+    "A178792"
   ],
   "tags": [
     "easy",

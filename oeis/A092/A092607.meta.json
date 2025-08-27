@@ -8,11 +8,13 @@
     "A038374"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 98,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

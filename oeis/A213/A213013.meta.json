@@ -1,5 +1,5 @@
 {
-  "description": "(2^3^4^5^...^n) mod n",
+  "description": "(2^3^4^5^...^n) mod n.",
   "id": "A213013",
   "mentions": [
     "A092188"

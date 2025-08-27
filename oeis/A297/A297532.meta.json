@@ -1,7 +1,9 @@
 {
-  "description": "Number of maximum matchings in the n-Sierpinski sieve graph.",
+  "description": "Number of maximum matchings in the n-Sierpinski gasket graph.",
   "id": "A297532",
-  "mentions": [],
+  "mentions": [
+    "A292968"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with no occurrence of three equal elements in a row horizontally or vertically, and new values 0..3 introduced in row major order",
+  "description": "T(n,k)=Number of nXk 0..3 arrays with no occurrence of three equal elements in a row horizontally or vertically, and new values 0..3 introduced in row major order.",
   "id": "A205310",
   "mentions": [
     "A204678",

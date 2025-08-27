@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n+sigma(n^2) is prime.",
+  "description": "Numbers k such that 10^k+sigma(k^2) is prime.",
   "id": "A193882",
   "mentions": [
     "A110065",
@@ -10,6 +10,8 @@
     "A193881"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

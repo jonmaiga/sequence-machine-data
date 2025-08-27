@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn 0..n-1 arrays with no column j greater than column j-1 in all rows",
+  "description": "Number of 4Xn 0..n-1 arrays with no column j greater than column j-1 in all rows.",
   "id": "A212933",
   "mentions": [
     "A212930"

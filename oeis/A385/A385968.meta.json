@@ -1,0 +1,17 @@
+{
+  "description": "Triprimes that are concatenations of three consecutive primes, and whose prime factors sum to a prime.",
+  "id": "A385968",
+  "mentions": [
+    "A107707",
+    "A383114"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

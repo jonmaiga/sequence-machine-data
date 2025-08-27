@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 array permutations with each element remaining in its original row or its original column",
+  "description": "Number of nX3 array permutations with each element remaining in its original row or its original column.",
   "id": "A188806",
   "mentions": [
     "A188808"

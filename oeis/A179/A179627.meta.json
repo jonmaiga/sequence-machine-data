@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = length of Collatz sequence starting with n-th prime",
+  "description": "a(n) = length of Collatz sequence starting with n-th prime.",
   "id": "A179627",
   "mentions": [
     "A000040",

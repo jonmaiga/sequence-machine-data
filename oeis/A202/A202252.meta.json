@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of zero-sum -k..k arrays of n elements with adjacent element differences also in -k..k",
+  "description": "T(n,k)=Number of zero-sum -k..k arrays of n elements with adjacent element differences also in -k..k.",
   "id": "A202252",
   "mentions": [
     "A136029"

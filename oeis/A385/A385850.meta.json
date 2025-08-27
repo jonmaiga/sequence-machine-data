@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = denominator((Sum_{i=1..k} (n-i+1)^2)/(Sum_{i=1..k} i^2)), with 1 <= k <= n.",
+  "id": "A385850",
+  "mentions": [
+    "A000012",
+    "A385849"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

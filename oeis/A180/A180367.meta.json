@@ -1,5 +1,5 @@
 {
-  "description": "Lucas(prime(n+1)) - prime(Lucas(n)), for Lucas numbers beginning at 2.",
+  "description": "a(n) = Lucas(prime(n+1)) - prime(Lucas(n)), for Lucas numbers beginning at 2.",
   "id": "A180367",
   "mentions": [
     "A000032",
@@ -9,7 +9,6 @@
     "A180363"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn"
   ],

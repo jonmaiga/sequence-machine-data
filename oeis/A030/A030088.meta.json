@@ -2,6 +2,7 @@
   "description": "a(n) = prime^2 and digits of prime do not appear in a(n).",
   "id": "A030088",
   "mentions": [
+    "A001248",
     "A030086"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 12 * (5*n+2)! / ((3*n+1)! * (2*n+2)!).",
+  "id": "A384668",
+  "mentions": [
+    "A000260",
+    "A001450",
+    "A002293",
+    "A384585"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

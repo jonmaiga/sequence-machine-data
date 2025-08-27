@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic maximally dense unit-distance graphs on n vertices.",
+  "id": "A385657",
+  "mentions": [
+    "A186705"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

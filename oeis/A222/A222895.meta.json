@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with successive rows and columns fitting to straight lines with strictly increasing slope, with a single point array taken as having zero slope",
+  "description": "Number of n X n 0..2 arrays with successive rows and columns fitting to straight lines with strictly increasing slope, with a single point array taken as having zero slope.",
   "id": "A222895",
   "mentions": [
     "A222896"

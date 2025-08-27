@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the absolute value of the imaginary part of the complex solutions to log(z) = -1/z on the principal branch of log(z).",
+  "id": "A387132",
+  "mentions": [
+    "A030797",
+    "A059526",
+    "A059527",
+    "A387131"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

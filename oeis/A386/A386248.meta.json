@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the unique integer k such that A161792(n) = k^A000120(A161792(n)).",
+  "id": "A386248",
+  "mentions": [
+    "A000120",
+    "A113315",
+    "A161792",
+    "A386249"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

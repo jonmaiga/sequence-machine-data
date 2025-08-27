@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of partitions of n into tau(n) distinct parts.",
+  "id": "A385374",
+  "mentions": [
+    "A000005",
+    "A060016",
+    "A385375"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

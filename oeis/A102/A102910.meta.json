@@ -1,0 +1,16 @@
+{
+  "description": "Primes of the form 5^k + 8.",
+  "id": "A102910",
+  "mentions": [
+    "A217133"
+  ],
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

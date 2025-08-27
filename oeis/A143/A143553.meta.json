@@ -1,7 +1,10 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^5*A(-x)^3.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^5*A(-x)^3.",
   "id": "A143553",
   "mentions": [
+    "A143046",
+    "A143338",
+    "A143547",
     "A143550",
     "A143551",
     "A143552",

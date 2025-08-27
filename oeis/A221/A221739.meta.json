@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor, without move-in move-out left turns",
+  "description": "Number of 4Xn arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor, without move-in move-out left turns.",
   "id": "A221739",
   "mentions": [
     "A221736"

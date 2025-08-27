@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(X(n,n)), where X(n,n) is the largest zero of the Laguerre polynomial of degree n.",
+  "id": "A384590",
+  "mentions": [
+    "A014176",
+    "A091476",
+    "A384277",
+    "A384279",
+    "A384587"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

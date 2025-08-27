@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of primes less than the square root of the (2^n)-th prime",
+  "description": "a(n) = number of primes less than the square root of the (2^n)-th prime.",
   "id": "A249058",
   "mentions": [
     "A033844",

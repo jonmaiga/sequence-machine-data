@@ -1,7 +1,11 @@
 {
   "description": "Number of minimum total dominating sets in the n-path graph.",
   "id": "A302654",
-  "mentions": [],
+  "mentions": [
+    "A302653",
+    "A302655",
+    "A303293"
+  ],
   "tags": [
     "easy",
     "formulas",

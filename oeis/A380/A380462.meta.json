@@ -1,20 +1,15 @@
 {
-  "description": "Second coefficient of the lindep transform of the sum of squarefree divisors of n, A048250.",
+  "description": "a(n) is the number of positive solutions to the Diophantine equation w^2 + x^2 + y^2 + z^2 = w*x*y*z such that x,y,z,w < e^n.",
   "id": "A380462",
   "mentions": [
-    "A048250",
-    "A339791",
-    "A380461",
-    "A380463",
-    "A380472",
-    "A380482"
+    "A061292"
   ],
   "tags": [
-    "sign"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 87,
+    "size": 63,
     "source": "oeis-bfile"
   }
 }

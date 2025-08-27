@@ -1,5 +1,5 @@
 {
-  "description": "3^n mod 15.",
+  "description": "a(n) = 3^n mod 15.",
   "id": "A168400",
   "mentions": [],
   "tags": [

@@ -1,9 +1,14 @@
 {
-  "description": "Gaussian binomial coefficient [ n,3 ] for q=2.",
+  "description": "Gaussian binomial coefficient [n, 3] for q = 2.",
   "id": "A006096",
   "mentions": [
     "A000051",
+    "A000225",
     "A006095",
+    "A006097",
+    "A006110",
+    "A022189",
+    "A022195",
     "A092237"
   ],
   "tags": [

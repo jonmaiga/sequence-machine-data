@@ -2,8 +2,10 @@
   "description": "Partial products of A001783.",
   "id": "A280821",
   "mentions": [
+    "A000178",
     "A001783",
-    "A280820"
+    "A280820",
+    "A281027"
   ],
   "tags": [
     "formulas",

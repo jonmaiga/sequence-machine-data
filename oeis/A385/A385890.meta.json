@@ -1,0 +1,30 @@
+{
+  "description": "Positions of first appearances in A245563 = run lengths of binary indices.",
+  "id": "A385890",
+  "mentions": [
+    "A000120",
+    "A023758",
+    "A048793",
+    "A069010",
+    "A200649",
+    "A243815",
+    "A245562",
+    "A245563",
+    "A246029",
+    "A328592",
+    "A384175",
+    "A384176",
+    "A384877",
+    "A384890",
+    "A385816",
+    "A385889"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

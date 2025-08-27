@@ -1,0 +1,21 @@
+{
+  "description": "For n >= 1, a(n) = Sum_{k = 1..n} gcd(n, floor((n/k)*10^x)), where x = A121341(k/gcd(n,k)).",
+  "id": "A384869",
+  "mentions": [
+    "A003592",
+    "A018804",
+    "A051626",
+    "A051628",
+    "A085837",
+    "A121341"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

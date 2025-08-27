@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which row n lists the elements of the n-th row of A237591 and then the elements of the same row but in reverse order.",
+  "description": "Triangle read by rows in which row n lists the elements of the n-th row of A237591 followed by the same elements in reverse order.",
   "id": "A237593",
   "mentions": [
     "A000203",

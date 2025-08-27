@@ -1,5 +1,5 @@
 {
-  "description": "Number of zero-sum -n..n arrays of 7 elements with first and second differences also in -n..n",
+  "description": "Number of zero-sum -n..n arrays of 7 elements with first and second differences also in -n..n.",
   "id": "A201878",
   "mentions": [
     "A201873"

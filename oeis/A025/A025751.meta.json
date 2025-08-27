@@ -2,7 +2,8 @@
   "description": "6th-order Patalan numbers (generalization of Catalan numbers).",
   "id": "A025751",
   "mentions": [
-    "A034787"
+    "A034787",
+    "A203145"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

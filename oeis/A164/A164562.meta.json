@@ -1,5 +1,5 @@
 {
-  "description": "Taylor series coefficients of phi(-q^3)*phi(q)/phi(q^2), where phi is Euler's function",
+  "description": "Taylor series coefficients of phi(-q^3)*phi(q)/phi(q^2), where phi is Euler's function.",
   "id": "A164562",
   "mentions": [
     "A113687"

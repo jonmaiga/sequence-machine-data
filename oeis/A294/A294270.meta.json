@@ -1,7 +1,18 @@
 {
   "description": "Sum of the cubes of the parts in the partitions of n into two parts.",
   "id": "A294270",
-  "mentions": [],
+  "mentions": [
+    "A052928",
+    "A093353",
+    "A226141",
+    "A294271",
+    "A294272",
+    "A294273",
+    "A294274",
+    "A294275",
+    "A294276",
+    "A294279"
+  ],
   "tags": [
     "easy",
     "formulas",

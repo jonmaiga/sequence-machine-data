@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes p such that n divided by p leaves a 1 or a composite (nonzero) remainder.",
+  "description": "Number of primes p < n such that n divided by p leaves a 1 or a composite (nonzero) remainder.",
   "id": "A072531",
   "mentions": [
     "A072530"

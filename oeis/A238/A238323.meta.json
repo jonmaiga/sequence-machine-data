@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with no element greater than all horizontal neighbors or less than all vertical neighbors",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with no element greater than all horizontal neighbors or less than all vertical neighbors.",
   "id": "A238323",
   "mentions": [
     "A202882"

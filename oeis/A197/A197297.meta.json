@@ -2,11 +2,13 @@
   "description": "The Riemann primes of the theta type and index 1.",
   "id": "A197297",
   "mentions": [
+    "A028388",
     "A196667",
     "A197185",
     "A197298",
     "A197299",
-    "A197300"
+    "A197300",
+    "A215013"
   ],
   "tags": [
     "nonn"

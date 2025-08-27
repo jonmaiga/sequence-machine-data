@@ -1,8 +1,10 @@
 {
-  "description": "Number of sums i^2 + j^2 that occur more than once for 1 <= i <= j <= n.",
+  "description": "a(n) = A000217(n) - A061786(n).",
   "id": "A061790",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A061786",
+    "A385352"
   ],
   "tags": [
     "nonn"

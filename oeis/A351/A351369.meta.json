@@ -2,7 +2,11 @@
   "description": "a(n) = Sum_{p|n, p prime} p * prime(p).",
   "id": "A351369",
   "mentions": [
-    "A010051"
+    "A000040",
+    "A010051",
+    "A033286",
+    "A061397",
+    "A351368"
   ],
   "tags": [
     "formulas",

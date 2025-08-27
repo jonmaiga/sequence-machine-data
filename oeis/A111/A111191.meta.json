@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that ceiling(Pi^n - e^n) is prime.",
+  "description": "Numbers k such that ceiling(Pi^k - e^k) is prime.",
   "id": "A111191",
   "mentions": [],
   "tags": [

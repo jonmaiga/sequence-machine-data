@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..1 arrays with exactly floor(nX4/2) elements unequal to at least one horizontal, diagonal or antidiagonal neighbor, with new values introduced in row major 0..1 order",
+  "description": "Number of nX4 0..1 arrays with exactly floor(nX4/2) elements unequal to at least one horizontal, diagonal or antidiagonal neighbor, with new values introduced in row major 0..1 order.",
   "id": "A222505",
   "mentions": [
     "A222509"

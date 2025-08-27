@@ -1,22 +1,16 @@
 {
-  "description": "Third coefficient of the lindep transform of A017666, denominator of sigma(n)/n.",
+  "description": "Cumulative sum of the greatest prime in the minimal Goldbach partition for 2*n, n>=2.",
   "id": "A380546",
   "mentions": [
-    "A017666",
-    "A339792",
-    "A380464",
-    "A380540",
-    "A380543",
-    "A380544",
-    "A380545"
+    "A020482"
   ],
   "tags": [
     "formulas",
-    "sign"
+    "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 105,
-    "source": "oeis-bfile"
+    "offset": 2,
+    "size": 51,
+    "source": "joeis"
   }
 }

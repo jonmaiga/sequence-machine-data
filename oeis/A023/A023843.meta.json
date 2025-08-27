@@ -1,8 +1,24 @@
 {
   "description": "Sum of exponents in prime-power factorization of C(5n,n+1).",
   "id": "A023843",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A023837",
+    "A023839",
+    "A023840",
+    "A023841",
+    "A023842",
+    "A023844",
+    "A023845",
+    "A023846",
+    "A023847",
+    "A023848",
+    "A023849",
+    "A023850",
+    "A023851"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -11,11 +11,12 @@
     "A052921"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 46,
+    "source": "joeis"
   }
 }

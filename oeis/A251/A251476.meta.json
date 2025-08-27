@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..3 arrays with every 2X2 subblock summing to a prime and those sums nondecreasing in every row and column",
+  "description": "Number of (n+1)X(2+1) 0..3 arrays with every 2X2 subblock summing to a prime and those sums nondecreasing in every row and column.",
   "id": "A251476",
   "mentions": [
     "A251481"

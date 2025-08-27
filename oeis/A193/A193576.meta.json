@@ -1,7 +1,11 @@
 {
-  "description": "T(n)^3+n^3 where T(n) is a triangular number.",
+  "description": "a(n) = T(n)^3 + n^3 where T(n) is a triangular number.",
   "id": "A193576",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A059827"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,28 @@
+{
+  "description": "The number of n-free abundant numbers below the least number k that is not n-free whose sum of n-free divisors is larger than 2*k.",
+  "id": "A387155",
+  "mentions": [
+    "A004709",
+    "A005117",
+    "A046099",
+    "A046100",
+    "A048250",
+    "A073185",
+    "A087248",
+    "A091194",
+    "A302991",
+    "A357695",
+    "A357700",
+    "A385006",
+    "A387154"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

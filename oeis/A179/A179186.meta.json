@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) = phi(n+4), with Euler's totient function phi=A000010.",
+  "description": "Numbers k such that phi(k) = phi(k+4), with Euler's totient function phi = A000010.",
   "id": "A179186",
   "mentions": [
     "A000010",

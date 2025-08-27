@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of ways to arrange k nonattacking queens on the lower triangle of an n X n board",
+  "description": "T(n,k)=Number of ways to arrange k nonattacking queens on the lower triangle of an n X n board.",
   "id": "A194498",
   "mentions": [
     "A000217",

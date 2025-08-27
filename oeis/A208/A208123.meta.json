@@ -1,5 +1,5 @@
 {
-  "description": "Lengths of sequences of sexy primes in arithmetic progression with a common difference of six",
+  "description": "Lengths of sequences of sexy primes in arithmetic progression with a common difference of six.",
   "id": "A208123",
   "mentions": [
     "A023201",

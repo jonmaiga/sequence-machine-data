@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..3 arrays with every element equal to either the sum mod 4 of its vertical neighbors or the sum mod 4 of its horizontal neighbors",
+  "description": "Number of nX7 0..3 arrays with every element equal to either the sum mod 4 of its vertical neighbors or the sum mod 4 of its horizontal neighbors.",
   "id": "A183490",
   "mentions": [
     "A183492"

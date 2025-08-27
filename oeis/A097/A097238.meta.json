@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are the hypotenuse of exactly 16 distinct integer-sided right triangles, i.e., n^2 can be written as a sum of two squares in 16 ways.",
+  "description": "Numbers j that are the hypotenuse of exactly 16 distinct integer-sided right triangles, i.e., j^2 can be written as a sum of two squares in 16 ways.",
   "id": "A097238",
   "mentions": [
     "A004144",

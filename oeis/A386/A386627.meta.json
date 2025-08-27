@@ -1,0 +1,19 @@
+{
+  "description": "Values of u in the (2,3)-quartals (m,u,v,w) having m=1; i.e., values of v for solutions to 1 + u^3 = v^2 + w^3, in positive integers, with v > 1; see Comments.",
+  "id": "A386627",
+  "mentions": [
+    "A385882",
+    "A386215",
+    "A386217",
+    "A386628",
+    "A386629"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

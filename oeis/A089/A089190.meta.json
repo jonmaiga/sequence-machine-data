@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[(Prime[n]+PrimePi[n])/2]",
+  "description": "a(n) = Floor[(Prime[n]+PrimePi[n])/2].",
   "id": "A089190",
   "mentions": [],
   "tags": [

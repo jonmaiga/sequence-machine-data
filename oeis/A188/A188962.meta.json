@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element moved by a city block distance of no more than three",
+  "description": "T(n,k)=Number of nXk array permutations with each element moved by a city block distance of no more than three.",
   "id": "A188962",
   "mentions": [
     "A002526"

@@ -1,5 +1,5 @@
 {
-  "description": "Nonprime numbers n such that sum of the divisors of n is a power of 2.",
+  "description": "Nonprime numbers k such that sum of the divisors of k is a power of 2.",
   "id": "A254603",
   "mentions": [
     "A000043",

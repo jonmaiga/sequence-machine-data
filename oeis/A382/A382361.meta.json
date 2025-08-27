@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonnesting permutations of the multiset {1,1,2,2,...,n,n} that avoid 123.",
+  "id": "A382361",
+  "mentions": [
+    "A177555",
+    "A383770"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

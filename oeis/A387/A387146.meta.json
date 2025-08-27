@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled biconnected cubic simple graphs with 2n nodes.",
+  "id": "A387146",
+  "mentions": [
+    "A002851",
+    "A005638"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

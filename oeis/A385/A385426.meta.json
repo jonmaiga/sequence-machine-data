@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x * exp(-arcsin(x)) ).",
+  "id": "A385426",
+  "mentions": [
+    "A001147",
+    "A227464",
+    "A381145",
+    "A385343",
+    "A385424",
+    "A385427"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A008893/2.",
+  "description": "a(n) = A008893(n)/2.",
   "id": "A152041",
   "mentions": [
     "A008893"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

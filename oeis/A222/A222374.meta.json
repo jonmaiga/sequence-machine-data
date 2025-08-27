@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with no more than floor(nX3/2) elements unequal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..3 order",
+  "description": "Number of nX3 0..3 arrays with no more than floor(nX3/2) elements unequal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222374",
   "mentions": [
     "A222378"

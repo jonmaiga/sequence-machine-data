@@ -2,6 +2,7 @@
   "description": "a(n) = position of n in A026192.",
   "id": "A026193",
   "mentions": [
+    "A026143",
     "A026192"
   ],
   "tags": [

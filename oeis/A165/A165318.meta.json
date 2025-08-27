@@ -2,7 +2,10 @@
   "description": "Primes p where the number of divisors of p-1 is a power of 2.",
   "id": "A165318",
   "mentions": [
+    "A000005",
     "A000079",
+    "A008328",
+    "A036537",
     "A165319",
     "A165320"
   ],

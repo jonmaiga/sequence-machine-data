@@ -1,0 +1,19 @@
+{
+  "description": "Let p = A002145(n) be the n-th prime == 3 (mod 4); a(n) is the multiplicative order of 2+-i modulo p in Gaussian integers.",
+  "id": "A385165",
+  "mentions": [
+    "A002145",
+    "A211241",
+    "A385163",
+    "A385166"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

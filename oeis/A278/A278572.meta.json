@@ -25,13 +25,12 @@
     "A278573"
   ],
   "tags": [
-    "more",
     "sign",
     "tabf"
   ],
   "terms": {
     "offset": 2,
-    "size": 65,
+    "size": 77,
     "source": "oeis-bfile"
   }
 }

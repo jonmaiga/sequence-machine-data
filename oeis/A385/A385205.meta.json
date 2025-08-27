@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + 25*x*A(x)^4 )^(1/5).",
+  "id": "A385205",
+  "mentions": [
+    "A078534",
+    "A182122",
+    "A299958",
+    "A376636",
+    "A385203",
+    "A385204",
+    "A385207"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

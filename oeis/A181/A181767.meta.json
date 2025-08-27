@@ -1,11 +1,12 @@
 {
-  "description": "This sequence needs a meaningful name.",
+  "description": "a(n) = a(n-7) XOR a(n-5) XOR a(n-4) XOR a(n-3) XOR a(n-2) XOR a(n-1) with initial seven terms 95, 111, 119, 123, 125, 62, and 31.",
   "id": "A181767",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,

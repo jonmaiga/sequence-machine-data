@@ -2,8 +2,10 @@
   "description": "Positive integers such that sigma(n) >= exp(gamma) * n * log(log(n)).",
   "id": "A067698",
   "mentions": [
+    "A000203",
     "A004394",
     "A057641",
+    "A073004",
     "A091901",
     "A189686",
     "A196229"

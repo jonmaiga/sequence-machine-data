@@ -1,8 +1,13 @@
 {
-  "description": "Start with a(1)=2, a(2)=3, then apply the rule of A093094.",
+  "description": "Start with a(1) = 2, a(2) = 3, then apply the rule of A093094.",
   "id": "A093095",
   "mentions": [
-    "A093094"
+    "A045777",
+    "A060310",
+    "A093094",
+    "A093096",
+    "A093097",
+    "A096381"
   ],
   "tags": [
     "base",

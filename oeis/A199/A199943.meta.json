@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zeroth through n-1st differences all nonzero",
+  "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zeroth through n-1st differences all nonzero.",
   "id": "A199943",
   "mentions": [
     "A002939"

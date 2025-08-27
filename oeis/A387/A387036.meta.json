@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n-2,k).",
+  "id": "A387036",
+  "mentions": [
+    "A002293",
+    "A066381",
+    "A262977",
+    "A386811",
+    "A387009",
+    "A387010",
+    "A387011",
+    "A387034",
+    "A387035",
+    "A387037"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies -1/x^11 = Sum_{n=-oo..+oo} A(x)^n * x^n * (1 - x^n)^(n+6).",
+  "id": "A384823",
+  "mentions": [
+    "A366731",
+    "A384821",
+    "A384822",
+    "A384824",
+    "A384825",
+    "A384826",
+    "A384827",
+    "A384828"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..n arrays of length n+1 with 0 never adjacent to n",
+  "description": "Number of 0..n arrays of length n+1 with 0 never adjacent to n.",
   "id": "A212833",
   "mentions": [
     "A212835"

@@ -1,19 +1,33 @@
 {
-  "description": "Second coefficient of the lindep transform of A017665, numerator of sigma(n)/n.",
+  "description": "a(n) is the multiplicative order of -9 modulo prime(n); a(2) = 0 for completion.",
   "id": "A380542",
   "mentions": [
-    "A017665",
-    "A339791",
+    "A002371",
+    "A014664",
+    "A062117",
+    "A082654",
+    "A105881",
+    "A211241",
+    "A211242",
+    "A211243",
+    "A211244",
+    "A211245",
+    "A337878",
+    "A380482",
+    "A380531",
+    "A380532",
+    "A380533",
+    "A380540",
     "A380541",
-    "A380543",
-    "A380545"
+    "A385222"
   ],
   "tags": [
-    "sign"
+    "easy",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 84,
+    "size": 60,
     "source": "oeis-bfile"
   }
 }

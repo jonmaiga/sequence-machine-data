@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that 7^n and 7^(n+1) have the same number of decimal digits.",
+  "description": "Numbers k such that 7^k and 7^(k+1) have the same number of decimal digits.",
   "id": "A135358",
-  "mentions": [],
+  "mentions": [
+    "A000420"
+  ],
   "tags": [
     "base",
     "nonn"

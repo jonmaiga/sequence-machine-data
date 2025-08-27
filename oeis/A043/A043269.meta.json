@@ -2,11 +2,13 @@
   "description": "a(n) is the sum of the digits of n-th base-10 palindrome.",
   "id": "A043269",
   "mentions": [
-    "A002113"
+    "A002113",
+    "A007953"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

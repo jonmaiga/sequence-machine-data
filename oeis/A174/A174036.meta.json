@@ -1,5 +1,5 @@
 {
-  "description": "A triangle sequence of the form:t(n,m]=If[m == 0 || m == n, 1, Binomial[Eulerian[n + 1, m], If[Floor[n/2] < m, n - m, m]]]",
+  "description": "A triangle sequence of the form:t(n,m]=If[m == 0 || m == n, 1, Binomial[Eulerian[n + 1, m], If[Floor[n/2] < m, n - m, m]]].",
   "id": "A174036",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "First member of the Diophantine pair (m, k) that satisfies 8*(m^2 + m) = k^2 + k; a(n) = m",
+  "description": "First member of the Diophantine pair (m, k) that satisfies 8*(m^2 + m) = k^2 + k; a(n) = m.",
   "id": "A336623",
   "mentions": [
     "A000217",

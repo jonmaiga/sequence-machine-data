@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with nondecreasing maximum minus minimum of every three consecutive values in every row and column",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with nondecreasing maximum minus minimum of every three consecutive values in every row and column.",
   "id": "A250826",
   "mentions": [],
   "tags": [

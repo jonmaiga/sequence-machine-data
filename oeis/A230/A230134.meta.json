@@ -1,9 +1,11 @@
 {
-  "description": "E.g.f. 1/(1 - sin(5*x))^(1/5).",
+  "description": "Expansion of e.g.f. 1/(1 - sin(5*x))^(1/5).",
   "id": "A230134",
   "mentions": [
     "A001586",
     "A007788",
+    "A008548",
+    "A136630",
     "A144015",
     "A227544",
     "A230114"

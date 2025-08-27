@@ -1,0 +1,19 @@
+{
+  "description": "Array A(T,k) read down antidiagonals: Number of typed decorated trees of cardinality T on k vertices with D=2 decorations.",
+  "id": "A384867",
+  "mentions": [
+    "A038055",
+    "A136794",
+    "A242249"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

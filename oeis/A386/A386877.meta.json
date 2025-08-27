@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n! / (k! * (n/k)!) if k divides n otherwise 0; T(n, 0) = 0^n.",
+  "id": "A386877",
+  "mentions": [
+    "A113704",
+    "A121860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

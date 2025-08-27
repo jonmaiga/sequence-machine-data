@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose digits are all powers of the same single-digit base.",
+  "id": "A385324",
+  "mentions": [
+    "A028846",
+    "A174813",
+    "A276037",
+    "A276039",
+    "A284293",
+    "A385351"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

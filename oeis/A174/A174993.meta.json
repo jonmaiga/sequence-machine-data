@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = -Floor[n/2]! + Sum[(Eulerian[n - j, j]), {j, 0, Floor[n/2]}]",
+  "description": "a(n) = -Floor[n/2]! + Sum[(Eulerian[n - j, j]), {j, 0, Floor[n/2]}].",
   "id": "A174993",
   "mentions": [
     "A000800"

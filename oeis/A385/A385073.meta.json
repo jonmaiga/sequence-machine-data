@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = b^(n-1) mod n, where b = A053669(n) is the least integer greater than 1 and coprime to n.",
+  "id": "A385073",
+  "mentions": [
+    "A000040",
+    "A001567",
+    "A033553",
+    "A033984",
+    "A053669",
+    "A130433",
+    "A173138",
+    "A173572",
+    "A215610",
+    "A215611",
+    "A215612",
+    "A215613",
+    "A276968",
+    "A276969",
+    "A276970",
+    "A276971",
+    "A385074"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,9 @@
   "description": "Sum of the odd parts in all partitions of n into distinct parts.",
   "id": "A116682",
   "mentions": [
+    "A000009",
+    "A000700",
+    "A066189",
     "A116681",
     "A116683",
     "A116684"
@@ -13,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

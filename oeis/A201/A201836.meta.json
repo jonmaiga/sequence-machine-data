@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with every diagonal, row and column running average nondecreasing rightwards and downwards and diagonally",
+  "description": "T(n,k)=Number of nXk 0..3 arrays with every diagonal, row and column running average nondecreasing rightwards and downwards and diagonally.",
   "id": "A201836",
   "mentions": [
     "A200759"

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 3 * x * cos(x))^(1/3).",
+  "id": "A385311",
+  "mentions": [
+    "A007559",
+    "A185951",
+    "A352252",
+    "A352647",
+    "A380017",
+    "A385284",
+    "A385305",
+    "A385307",
+    "A385309",
+    "A385310"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

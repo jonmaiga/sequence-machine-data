@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (Pi+e)^n is closer to its nearest integer than any value of (Pi+e)^k for 1 <= k < n.",
+  "description": "Numbers m such that (Pi+e)^m is closer to its nearest integer than any value of (Pi+e)^k for 1 <= k < m.",
   "id": "A080286",
   "mentions": [
     "A079490",

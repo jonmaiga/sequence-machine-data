@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(n,k) = the largest power of k-th prime which divides n, read by by falling antidiagonals.",
+  "description": "Square array A(n,k) = the largest power of k-th prime which divides n, read by falling antidiagonals.",
   "id": "A060176",
   "mentions": [
     "A000040",

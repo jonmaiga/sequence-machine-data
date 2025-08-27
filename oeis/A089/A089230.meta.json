@@ -1,5 +1,5 @@
 {
-  "description": "a(n) =[Floor[Sum[Log[Prime[n+1]]/Log[n+1],{i,1,n}]]",
+  "description": "a(n) =[Floor[Sum[Log[Prime[n+1]]/Log[n+1],{i,1,n}]].",
   "id": "A089230",
   "mentions": [],
   "tags": [

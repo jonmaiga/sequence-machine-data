@@ -1,5 +1,5 @@
 {
-  "description": "n*(n-1)*9^n.",
+  "description": "a(n) = n*(n-1)*9^n.",
   "id": "A128803",
   "mentions": [
     "A007758",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+3)X7 binary arrays with no more than two of any consecutive four bits set in any row or column",
+  "description": "Number of (n+3)X7 binary arrays with no more than two of any consecutive four bits set in any row or column.",
   "id": "A202570",
   "mentions": [
     "A202574"

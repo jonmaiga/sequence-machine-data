@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..3 arrays colored with the difference of the upper median and the minimum in each 2X2 subblock",
+  "description": "Number of (n+1)X(2+1) 0..3 arrays colored with the difference of the upper median and the minimum in each 2X2 subblock.",
   "id": "A236084",
   "mentions": [
     "A236087"

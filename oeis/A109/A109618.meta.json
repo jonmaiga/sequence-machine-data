@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nXnXn triangular binary arrays with the sum of each element's NW E SW neighbors unequal to the sum of its NE W SE neighbors",
+  "description": "Half the number of nXnXn triangular binary arrays with the sum of each element's NW E SW neighbors unequal to the sum of its NE W SE neighbors.",
   "id": "A109618",
   "mentions": [
     "A023022"

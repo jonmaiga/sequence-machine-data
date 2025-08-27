@@ -1,18 +1,21 @@
 {
-  "description": "First coefficient of the lindep transform of phi(n).",
+  "description": "Sum of the nonprimes dividing n and the number of distinct primes dividing n.",
   "id": "A380441",
   "mentions": [
-    "A000010",
-    "A339790",
-    "A380442",
-    "A380443"
+    "A000203",
+    "A001221",
+    "A005171",
+    "A005451",
+    "A008472"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
-    "source": "oeis-bfile"
+    "size": 93,
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest palindromic prime by adding at least one digit to both the left and right of n",
+  "description": "Smallest palindromic prime by adding at least one digit to both the left and right of n.",
   "id": "A256048",
   "mentions": [
     "A090287"

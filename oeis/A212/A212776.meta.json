@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of 0..2 arrays of length n+2 with second differences nonzero",
+  "description": "Half the number of 0..2 arrays of length n+2 with second differences nonzero.",
   "id": "A212776",
   "mentions": [
     "A212782"

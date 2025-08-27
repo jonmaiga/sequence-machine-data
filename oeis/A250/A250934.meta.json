@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(7+1) 0..3 arrays with no 2X2 subblock having a diagonal absolute difference less than its antidiagonal absolute difference",
+  "description": "Number of (n+1)X(7+1) 0..3 arrays with no 2X2 subblock having a diagonal absolute difference less than its antidiagonal absolute difference.",
   "id": "A250934",
   "mentions": [
     "A250935"

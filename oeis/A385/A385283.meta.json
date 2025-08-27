@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 2 * x * cos(2*x))^(1/2).",
+  "id": "A385283",
+  "mentions": [
+    "A001147",
+    "A001586",
+    "A185951",
+    "A235134",
+    "A352252",
+    "A380155",
+    "A385281",
+    "A385284"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

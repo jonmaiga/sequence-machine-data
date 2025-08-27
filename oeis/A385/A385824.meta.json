@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + 10, p + 18, p + 24, p + 28 and p + 30 are also primes.",
+  "id": "A385824",
+  "mentions": [
+    "A000040",
+    "A187057",
+    "A187058",
+    "A385035"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

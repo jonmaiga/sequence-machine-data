@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 + Sum_{k=0..n-1} (1 + k^5) * a(k) * a(n-1-k).",
+  "id": "A385838",
+  "mentions": [
+    "A321087",
+    "A385761",
+    "A385835",
+    "A385836",
+    "A385837",
+    "A385839",
+    "A385843"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

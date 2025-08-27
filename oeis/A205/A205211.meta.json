@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X5 0..2 arrays with the determinants of 2X2 subblocks nondecreasing rightwards and downwards",
+  "description": "Number of (n+1)X5 0..2 arrays with the determinants of 2X2 subblocks nondecreasing rightwards and downwards.",
   "id": "A205211",
   "mentions": [
     "A205215"

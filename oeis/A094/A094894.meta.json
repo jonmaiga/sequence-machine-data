@@ -1,5 +1,5 @@
 {
-  "description": "Prime(Lucas(n)), Lucas numbers beginning at 2 (A000032).",
+  "description": "a(n) = prime(Lucas(n)), Lucas numbers beginning at 2 (A000032).",
   "id": "A094894",
   "mentions": [
     "A000032",
@@ -9,13 +9,12 @@
     "A030427"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

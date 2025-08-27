@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X3 0..5 arrays with the permanents of all 2X2 subblocks equal and nonzero",
+  "description": "Number of (n+1)X3 0..5 arrays with the permanents of all 2X2 subblocks equal and nonzero.",
   "id": "A204757",
   "mentions": [
     "A204763"

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 1. For n > 2 if a(n-1) = k is a novel term, a(n) = a(n-1-k). Otherwise if a(n-1) is a repeat term a(n) = number of m; 1 <= m <= n-2 such that a(m) = a(n-1).",
+  "id": "A384773",
+  "mentions": [
+    "A000027",
+    "A026278",
+    "A335999",
+    "A364749"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

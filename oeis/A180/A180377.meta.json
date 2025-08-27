@@ -1,5 +1,5 @@
 {
-  "description": "1/120 the number of nX6 arrays of integers in 1..6 with no element or any of its neighbors having the same value",
+  "description": "1/120 the number of nX6 arrays of integers in 1..6 with no element or any of its neighbors having the same value.",
   "id": "A180377",
   "mentions": [],
   "tags": [

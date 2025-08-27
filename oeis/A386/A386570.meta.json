@@ -1,0 +1,22 @@
+{
+  "description": "The number of solutions x to d(x) = d(x+1) below 10^n, where d(x) is the number of divisors function (A000005).",
+  "id": "A386570",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A074802",
+    "A284783",
+    "A300285",
+    "A317474"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

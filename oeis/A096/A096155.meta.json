@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A095234(n-1) is divisible by n.",
+  "description": "Numbers k such that A095234(k-1) is divisible by k.",
   "id": "A096155",
   "mentions": [
     "A095234"

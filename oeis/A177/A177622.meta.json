@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 3 copies of 1..n avoiding adjacent step pattern up, down, down, up, up, down",
+  "description": "Number of permutations of 3 copies of 1..n avoiding adjacent step pattern up, down, down, up, up, down.",
   "id": "A177622",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest modulus of any integer n X n determinant with top row 1,2,...,n and rows nonzero and pairwise orthogonal",
+  "description": "Smallest modulus of any integer n X n determinant with top row 1,2,...,n and rows nonzero and pairwise orthogonal.",
   "id": "A327269",
   "mentions": [
     "A327267",

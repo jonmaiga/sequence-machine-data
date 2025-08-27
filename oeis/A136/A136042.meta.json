@@ -3,14 +3,16 @@
   "id": "A136042",
   "mentions": [
     "A136043",
-    "A136044"
+    "A136044",
+    "A158379"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X7 0..3 matrices with each 2X2 permanent equal",
+  "description": "Number of (n+1)X7 0..3 matrices with each 2X2 permanent equal.",
   "id": "A224973",
   "mentions": [
     "A224975"

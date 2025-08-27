@@ -1,7 +1,9 @@
 {
-  "description": "Numbers whose base-10 representation Sum_{i=0..m} d(i)*10^i has odd d(i) for all odd i.",
+  "description": "Numbers whose base-10 representation Sum_{i=0..m} d(i)*10^i has odd d(m-i) for all odd i.",
   "id": "A033061",
-  "mentions": [],
+  "mentions": [
+    "A032960"
+  ],
   "tags": [
     "base",
     "nonn"

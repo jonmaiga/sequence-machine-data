@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the volume of a snub square antiprism with unit edges.",
+  "id": "A386696",
+  "mentions": [
+    "A385259",
+    "A386695"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

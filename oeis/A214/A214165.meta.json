@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..5 colorings of an nX8 array circular in the 8 direction with new values 0..5 introduced in row major order",
+  "description": "Number of 0..5 colorings of an nX8 array circular in the 8 direction with new values 0..5 introduced in row major order.",
   "id": "A214165",
   "mentions": [
     "A214166"

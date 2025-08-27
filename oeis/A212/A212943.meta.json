@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..k-1 arrays with no column j greater than or equal to than column j-1 in all rows",
+  "description": "T(n,k)=Number of nXk 0..k-1 arrays with no column j greater than or equal to than column j-1 in all rows.",
   "id": "A212943",
   "mentions": [
     "A005061",

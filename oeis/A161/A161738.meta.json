@@ -1,5 +1,5 @@
 {
-  "description": "Sequence related to the column sums of the BG2 matrix",
+  "description": "Sequence related to the column sums of the BG2 matrix.",
   "id": "A161738",
   "mentions": [
     "A005408",

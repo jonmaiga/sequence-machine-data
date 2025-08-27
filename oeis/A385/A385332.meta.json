@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that the set {k, k^2, ..., k^9} contains at least 8 zeroless numbers.",
+  "id": "A385332",
+  "mentions": [
+    "A124648",
+    "A124649"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

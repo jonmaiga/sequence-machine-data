@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (4*10^n-31)/9.",
+  "description": "a(n) = (4*10^n - 31)/9.",
   "id": "A173768",
   "mentions": [
     "A093174"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

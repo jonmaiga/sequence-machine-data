@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in a triangular bipyramid (Johnson solid J_12).",
+  "id": "A386435",
+  "mentions": [
+    "A020775",
+    "A104956",
+    "A137914"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

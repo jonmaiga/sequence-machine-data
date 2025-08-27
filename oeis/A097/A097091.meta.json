@@ -2,8 +2,10 @@
   "description": "Number of partitions of n such that the least part occurs exactly three times.",
   "id": "A097091",
   "mentions": [
+    "A000041",
     "A002865",
     "A096373",
+    "A097092",
     "A097093"
   ],
   "tags": [
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

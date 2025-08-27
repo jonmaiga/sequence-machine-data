@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place 2 nonattacking nightriders on an n X n toroidal board",
+  "description": "Number of ways to place 2 nonattacking nightriders on an n X n toroidal board.",
   "id": "A196812",
   "mentions": [
     "A172141",

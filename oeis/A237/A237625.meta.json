@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with the (lower) median of each row and column nondecreasing",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with the (lower) median of each row and column nondecreasing.",
   "id": "A237625",
   "mentions": [],
   "tags": [

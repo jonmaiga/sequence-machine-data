@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form \"partial sum of the first k nonprimes divided by the k-th nonprime.\"",
+  "description": "Integers of the form \"partial sum of the first k nonprimes divided by the k-th nonprime.\".",
   "id": "A165239",
   "mentions": [
     "A018252",

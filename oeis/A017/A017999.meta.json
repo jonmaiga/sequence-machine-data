@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-3x)(1-7x)(1-10x)).",
+  "description": "Expansion of 1/((1-3x)*(1-7x)*(1-10x)).",
   "id": "A017999",
   "mentions": [
     "A021604"

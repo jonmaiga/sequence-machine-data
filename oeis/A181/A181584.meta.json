@@ -1,5 +1,5 @@
 {
-  "description": "Number of cycles of length (2n+1)^2-1 on 2n+1 X 2n+1 square grid",
+  "description": "Number of cycles of length (2n+1)^2-1 on 2n+1 X 2n+1 square grid.",
   "id": "A181584",
   "mentions": [
     "A003763"

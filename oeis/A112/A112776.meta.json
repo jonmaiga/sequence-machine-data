@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6n+5 is semiprime.",
+  "description": "Numbers k such that 6k+5 is semiprime.",
   "id": "A112776",
   "mentions": [
     "A108172"

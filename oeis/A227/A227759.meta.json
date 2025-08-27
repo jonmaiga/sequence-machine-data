@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A227758(n) = sigma(sigma(n)) - sigma(n) - n < 0, where sigma(n) = A000203(n) = sum of the divisors of n",
+  "description": "Numbers n such that A227758(n) = sigma(sigma(n)) - sigma(n) - n < 0, where sigma(n) = A000203(n) = sum of the divisors of n.",
   "id": "A227759",
   "mentions": [
     "A000203",

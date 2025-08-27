@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays containing 3 indistinguishable copies of 1..n with rows and columns in lexicographically strictly increasing order",
+  "description": "Number of nX3 arrays containing 3 indistinguishable copies of 1..n with rows and columns in lexicographically strictly increasing order.",
   "id": "A180837",
   "mentions": [
     "A180839"

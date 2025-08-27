@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of the BG1[ -5,n] coefficients of the BG1 matrix",
+  "description": "Numerators of the BG1[ -5,n] coefficients of the BG1 matrix.",
   "id": "A162443",
   "mentions": [
     "A000364",

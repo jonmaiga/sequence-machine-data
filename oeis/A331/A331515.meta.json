@@ -2,8 +2,10 @@
   "description": "Expansion of 1/(1 - 8*x + 4*x^2)^(3/2).",
   "id": "A331515",
   "mentions": [
+    "A007564",
     "A069835",
-    "A331514"
+    "A331514",
+    "A385728"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "n for which 6n+1 | 2^n-1.",
+  "description": "Numbers k for which 6*k+1 divides 2^k-1.",
   "id": "A038844",
   "mentions": [
     "A045762",

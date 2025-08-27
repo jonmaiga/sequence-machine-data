@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Omega(n) = Omega(n - Omega(n)), where Omega = A001222.",
+  "description": "Numbers k such that Omega(k) = Omega(k - Omega(k)), where Omega = A001222.",
   "id": "A200925",
   "mentions": [
     "A001222",

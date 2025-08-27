@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the integer part of the reciprocal of the distance of x_n from its nearest integer, where x_n is the n-th extrema of gamma(x).",
+  "id": "A385170",
+  "mentions": [
+    "A256687",
+    "A374856",
+    "A377506"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = n^2 - n + 2.",
+  "id": "A386480",
+  "mentions": [
+    "A002061",
+    "A003682",
+    "A014206"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

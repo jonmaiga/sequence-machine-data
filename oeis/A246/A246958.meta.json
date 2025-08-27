@@ -1,5 +1,5 @@
 {
-  "description": "Number of directed Hamiltonian paths in the n-Sierpiński sieve graph that starts at the fixed corner.",
+  "description": "Number of directed Hamiltonian paths in the n-Sierpiński gasket graph that starts at the fixed corner.",
   "id": "A246958",
   "mentions": [
     "A234635",

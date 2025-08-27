@@ -2,6 +2,7 @@
   "description": "Binary representation of the n-th iteration of the \"Rule 203\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A267684",
   "mentions": [
+    "A138148",
     "A267683",
     "A267685"
   ],

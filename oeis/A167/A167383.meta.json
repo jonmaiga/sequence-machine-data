@@ -1,5 +1,5 @@
 {
-  "description": "Entropy like stair step sequence based on A008185: a(n)=a(n-1)+Ceiling[ -(A008185[n + 2]/A008185[n + 1])*Log[(A008185[n + 2]/A008185[n + 1])]/Log[2]]",
+  "description": "Entropy like stair step sequence based on A008185: a(n)=a(n-1)+Ceiling[ -(A008185[n + 2]/A008185[n + 1])*Log[(A008185[n + 2]/A008185[n + 1])]/Log[2]].",
   "id": "A167383",
   "mentions": [
     "A008185",

@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of coefficients in the asymptotic expansion of the logarithm of the central binomial coefficient",
+  "description": "Numerators of coefficients in the asymptotic expansion of the logarithm of the central binomial coefficient.",
   "id": "A275994",
   "mentions": [
     "A002425",

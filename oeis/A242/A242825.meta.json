@@ -1,5 +1,5 @@
 {
-  "description": "Minimum positive value of n^3 - x^3 - y^3 for positive integers x,y",
+  "description": "Minimum positive value of n^3 - x^3 - y^3 for positive integers x,y.",
   "id": "A242825",
   "mentions": [],
   "tags": [

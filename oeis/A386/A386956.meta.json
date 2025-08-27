@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1) * 8^k * binomial(2*n+1,n-k).",
+  "id": "A386956",
+  "mentions": [
+    "A088218",
+    "A258431",
+    "A384365",
+    "A386955",
+    "A386957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

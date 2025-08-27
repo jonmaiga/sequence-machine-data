@@ -2,6 +2,7 @@
   "description": "Numerators of an approximation of Riemann to pi(n).",
   "id": "A099319",
   "mentions": [
+    "A000720",
     "A099320"
   ],
   "tags": [

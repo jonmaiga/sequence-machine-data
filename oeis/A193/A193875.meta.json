@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..4 arrays with no element equal to the difference mod 5 of any two of its neighbors",
+  "description": "Number of nXnXn triangular 0..4 arrays with no element equal to the difference mod 5 of any two of its neighbors.",
   "id": "A193875",
   "mentions": [],
   "tags": [

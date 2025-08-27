@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive number k such that n is the greatest m such that k is a quadratic residue mod prime(i) for i=1..m and {k mod prime(i): i=1..m} are all distinct.",
+  "id": "A385050",
+  "mentions": [
+    "A279074",
+    "A377212",
+    "A385051"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

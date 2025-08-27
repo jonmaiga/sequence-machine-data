@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which d(n-1) + d(n+1) is a record, where d(k) is the number of divisors of k.",
+  "description": "Numbers k for which d(k-1) + d(k+1) is a record, where d(k) is the number of divisors of k.",
   "id": "A189828",
   "mentions": [
     "A090481",

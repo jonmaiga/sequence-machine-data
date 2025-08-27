@@ -2,7 +2,13 @@
   "description": "Order of (usually) simple Chevalley group A_n (3).",
   "id": "A003793",
   "mentions": [
-    "A003787"
+    "A003787",
+    "A003794",
+    "A003795",
+    "A003797",
+    "A003798",
+    "A003799",
+    "A100220"
   ],
   "tags": [
     "easy",

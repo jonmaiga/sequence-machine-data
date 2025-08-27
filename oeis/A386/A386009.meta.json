@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Product_{k>=2} k^( ((k/2)^(k-1)) / (exp(k/2)*k!) ).",
+  "id": "A386009",
+  "mentions": [
+    "A386016"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

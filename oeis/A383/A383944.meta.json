@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/sqrt((1-7*x)^3 * (1+x)).",
+  "id": "A383944",
+  "mentions": [
+    "A322242",
+    "A383945"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

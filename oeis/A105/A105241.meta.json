@@ -1,11 +1,12 @@
 {
-  "description": "Vector triangular array of Fibonacci tensor Markov.",
+  "description": "See Mathematica program.",
   "id": "A105241",
   "mentions": [],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
     "obsc",
+    "tabf",
     "uned"
   ],
   "terms": {

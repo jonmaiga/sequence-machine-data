@@ -1,5 +1,5 @@
 {
-  "description": "Primes with smallest digit > 1.",
+  "description": "Primes without {0, 1} as digits.",
   "id": "A106116",
   "mentions": [
     "A000040",

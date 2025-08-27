@@ -2,7 +2,8 @@
   "description": "Number of positive integers, k, where k <= 2n+1 and gcd(k, 2n+1) = gcd(k+1, 2n+1) = 1.",
   "id": "A070554",
   "mentions": [
-    "A058026"
+    "A058026",
+    "A065474"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

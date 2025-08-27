@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet inverse of right-shifted Catalan numbers [as when started from A000108(0): 1, 1, 2, 5, 14, 42, etc.]",
+  "description": "Dirichlet inverse of right-shifted Catalan numbers [as when started from A000108(0): 1, 1, 2, 5, 14, 42, etc.].",
   "id": "A349450",
   "mentions": [
     "A000108",

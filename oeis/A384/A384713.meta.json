@@ -1,0 +1,15 @@
+{
+  "description": "The number of steps that n requires to reach 1 under the map: x-> x^2 - 1 if x is an odd prime, x/2 if x is even, x - lpf(x) otherwise where lpf(x) is the least prime factor of x. a(n) = -1 if 1 is never reached.",
+  "id": "A384713",
+  "mentions": [
+    "A339991"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

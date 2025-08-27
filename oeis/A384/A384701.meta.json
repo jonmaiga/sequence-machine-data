@@ -1,0 +1,23 @@
+{
+  "description": "On a 2 X n grid of vertices, draw a circle through every unordered triple of non-collinear vertices: a(n) is the number of distinct points where circles intersect.",
+  "id": "A384701",
+  "mentions": [
+    "A359569",
+    "A373106",
+    "A374338",
+    "A374825",
+    "A384700",
+    "A384702",
+    "A384703"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

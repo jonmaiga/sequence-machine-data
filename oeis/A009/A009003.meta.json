@@ -2,6 +2,7 @@
   "description": "Hypotenuse numbers (squares are sums of 2 nonzero squares).",
   "id": "A009003",
   "mentions": [
+    "A000404",
     "A002144",
     "A004144",
     "A004431",
@@ -11,7 +12,6 @@
     "A008683",
     "A008846",
     "A009000",
-    "A024507",
     "A072592",
     "A083025",
     "A084645",

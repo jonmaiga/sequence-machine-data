@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X5 0..3 arrays with permanents of 2X2 subblocks differing from horizontal and vertical neighbor permanents",
+  "description": "Number of (n+1)X5 0..3 arrays with permanents of 2X2 subblocks differing from horizontal and vertical neighbor permanents.",
   "id": "A205036",
   "mentions": [
     "A205037"

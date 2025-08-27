@@ -1,5 +1,5 @@
 {
-  "description": "Integers n for which k = (7 * (256^n - 16^n) + n^2) / (n * (8n + 7)) is an integer",
+  "description": "Integers n for which k = (7 * (256^n - 16^n) + n^2) / (n * (8n + 7)) is an integer.",
   "id": "A162586",
   "mentions": [
     "A158034",

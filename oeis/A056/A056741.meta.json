@@ -1,8 +1,11 @@
 {
-  "description": "Numbers n such that n | 5^n + 4^n + 3^n + 2^n + 1^n.",
+  "description": "Numbers k such that k | 5^k + 4^k + 3^k + 2^k + 1^k.",
   "id": "A056741",
   "mentions": [
-    "A001552"
+    "A001552",
+    "A056739",
+    "A057291",
+    "A057292"
   ],
   "tags": [
     "nonn"
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,17 +1,19 @@
 {
-  "description": "[e^n]-th Prime.",
+  "description": "[e^n]-th prime.",
   "id": "A055739",
   "mentions": [
+    "A000149",
     "A006988",
     "A033844"
   ],
   "tags": [
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

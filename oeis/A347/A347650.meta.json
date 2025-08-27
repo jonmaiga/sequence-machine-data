@@ -1,7 +1,11 @@
 {
   "description": "Number of minimum total dominating sets in the n-pan graph (for n > 2).",
   "id": "A347650",
-  "mentions": [],
+  "mentions": [
+    "A004524",
+    "A302506",
+    "A303148"
+  ],
   "tags": [
     "formulas",
     "nonn"

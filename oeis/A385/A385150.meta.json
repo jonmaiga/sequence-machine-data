@@ -1,0 +1,16 @@
+{
+  "description": "Smallest starting x which reaches the Antihydra halting condition for the first time at 3*n+1 terms of the iteration x -> floor(3*x/2).",
+  "id": "A385150",
+  "mentions": [
+    "A001764",
+    "A032766"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

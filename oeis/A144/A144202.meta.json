@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs p,q with p < q such that 30*r(n)=p+q+4 and p & p+4, q & q+4 cousin primes, where r(i)=i-th prime",
+  "description": "Number of pairs p,q with p < q such that 30*r(n)=p+q+4 and p & p+4, q & q+4 cousin primes, where r(i)=i-th prime.",
   "id": "A144202",
   "mentions": [
     "A144160",

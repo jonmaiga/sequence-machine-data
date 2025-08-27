@@ -1,10 +1,11 @@
 {
-  "description": "floor(n*s+h-h*s), where s=1+sqrt(5), h=1/2; complement of A184746.",
+  "description": "a(n) = floor(n*s+h-h*s), where s=1+sqrt(5), h=1/2; complement of A184746.",
   "id": "A184747",
   "mentions": [
     "A184746"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

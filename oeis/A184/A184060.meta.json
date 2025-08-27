@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of n+2 numbers x(i) in -8..8 with the sum of x(i) equal to zero and the sums of x(i)*x(i+1) and x(i)*x(i+2) equal to each other",
+  "description": "Number of strings of n+2 numbers x(i) in -8..8 with the sum of x(i) equal to zero and the sums of x(i)*x(i+1) and x(i)*x(i+2) equal to each other.",
   "id": "A184060",
   "mentions": [
     "A184061"

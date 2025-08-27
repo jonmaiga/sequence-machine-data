@@ -1,5 +1,5 @@
 {
-  "description": "Primes with the property that p + nextprime(p) +/- 1 is not prime",
+  "description": "Primes with the property that p + nextprime(p) +/- 1 is not prime.",
   "id": "A162000",
   "mentions": [],
   "tags": [

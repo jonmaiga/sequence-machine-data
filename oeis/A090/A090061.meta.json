@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n divisible by exactly two nontrivial permutations (rearrangements) of the digits of n, excluding all permutations that result in digit loss.",
+  "description": "Numbers k divisible by exactly two nontrivial permutations (rearrangements) of the digits of k, excluding all permutations that result in digit loss.",
   "id": "A090061",
   "mentions": [
     "A090056",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

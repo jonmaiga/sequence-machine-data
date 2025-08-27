@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n^2*sigma_6(n).",
+  "id": "A386777",
+  "mentions": [
+    "A013954",
+    "A282097",
+    "A282099",
+    "A282751",
+    "A282753",
+    "A386745",
+    "A386747",
+    "A386750",
+    "A386778"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

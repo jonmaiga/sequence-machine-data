@@ -1,5 +1,5 @@
 {
-  "description": "2*n is not the sum of two base-2 palindromes",
+  "description": "2*n is not the sum of two base-2 palindromes.",
   "id": "A241491",
   "mentions": [
     "A006995",

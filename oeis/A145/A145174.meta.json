@@ -1,5 +1,5 @@
 {
-  "description": "Least a(n) such that p(n)#*(p(n)#-a(n))-1 and p(n)#*(p(n)#-a(n))+1 are twin primes with p(i)#=i-th primorial",
+  "description": "Least a(n) such that p(n)#*(p(n)#-a(n))-1 and p(n)#*(p(n)#-a(n))+1 are twin primes with p(i)#=i-th primorial.",
   "id": "A145174",
   "mentions": [
     "A144946",

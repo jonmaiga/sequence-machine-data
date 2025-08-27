@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX8 binary arrays without the pattern 0 0 diagonally or vertically",
+  "description": "Number of nX8 binary arrays without the pattern 0 0 diagonally or vertically.",
   "id": "A188705",
   "mentions": [
     "A188706"

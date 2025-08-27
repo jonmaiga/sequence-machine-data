@@ -1,10 +1,13 @@
 {
-  "description": "Vassiliev invariant of fourth order for the torus knots",
+  "description": "Vassiliev invariant of fourth order for the torus knots.",
   "id": "A180324",
   "mentions": [
     "A000217",
     "A000330",
-    "A213847"
+    "A185096",
+    "A213847",
+    "A322677",
+    "A339483"
   ],
   "tags": [
     "easy",
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 38,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Unchanging value maps: number of nX6 binary arrays indicating the locations of corresponding elements unequal to no horizontal or vertical neighbor in a random 0..2 nX6 array",
+  "description": "Unchanging value maps: number of nX6 binary arrays indicating the locations of corresponding elements unequal to no horizontal or vertical neighbor in a random 0..2 nX6 array.",
   "id": "A219308",
   "mentions": [
     "A219310"

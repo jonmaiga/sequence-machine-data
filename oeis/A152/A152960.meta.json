@@ -1,7 +1,9 @@
 {
-  "description": "Output of linear congruential generator 134775813 for 32-bit values.",
+  "description": "Output of linear congruential pseudo-random generator 134775813 for signed 32-bit values.",
   "id": "A152960",
-  "mentions": [],
+  "mentions": [
+    "A384404"
+  ],
   "tags": [
     "easy",
     "formulas",

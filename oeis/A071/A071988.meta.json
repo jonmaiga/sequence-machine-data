@@ -1,5 +1,5 @@
 {
-  "description": "Triple Peano sequence: a list of triples (x,y,z) starting at (1,1,1); then x'=x+1, y'=y+x, z'=z+y, for x only ranging over the primes",
+  "description": "Triple Peano sequence: a list of triples (x,y,z) starting at (1,1,1); then x'=x+1, y'=y+x, z'=z+y, for x only ranging over the primes.",
   "id": "A071988",
   "mentions": [
     "A000040",

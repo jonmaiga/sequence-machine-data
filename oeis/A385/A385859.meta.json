@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (C(n,k) mod 3)^2.",
+  "id": "A385859",
+  "mentions": [
+    "A008459",
+    "A051638"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

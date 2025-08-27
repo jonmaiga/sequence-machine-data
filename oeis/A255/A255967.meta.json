@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n that are neither of the form p + 2^k nor of the form p - 2^k with 2^k < n, and p prime.",
+  "description": "Odd numbers m that are neither of the form p + 2^k nor of the form p - 2^k with 2^k < m, k >= 1, and p prime.",
   "id": "A255967",
   "mentions": [
     "A006285",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

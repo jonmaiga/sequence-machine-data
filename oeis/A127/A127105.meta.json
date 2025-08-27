@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 divides 5^n-1.",
+  "description": "Numbers k such that k^2 divides 5^k-1.",
   "id": "A127105",
   "mentions": [
     "A067946",

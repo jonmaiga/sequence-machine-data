@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n/k if k divides n else 0 for k > 0, T(n, 0) = 0^n.",
+  "id": "A386790",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000203",
+    "A040000",
+    "A113704",
+    "A126988",
+    "A141671",
+    "A386791"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..2 arrays with exactly floor(3Xn/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order",
+  "description": "Number of 3Xn 0..2 arrays with exactly floor(3Xn/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order.",
   "id": "A222692",
   "mentions": [
     "A222690"

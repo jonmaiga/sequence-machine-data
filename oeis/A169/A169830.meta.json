@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*reverse(n) - n = 1.",
+  "description": "Numbers k such that 2*reverse(k) - k = 1.",
   "id": "A169830",
   "mentions": [
     "A083818",
@@ -9,12 +9,13 @@
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

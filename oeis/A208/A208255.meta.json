@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward neighbors",
+  "description": "Number of nX5 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward neighbors.",
   "id": "A208255",
   "mentions": [
     "A208258"

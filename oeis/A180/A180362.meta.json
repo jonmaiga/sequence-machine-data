@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form k * n^n + 1 with k < n^n.",
+  "description": "Primes of the form k * m^m + 1 with k < m^m.",
   "id": "A180362",
   "mentions": [],
   "tags": [

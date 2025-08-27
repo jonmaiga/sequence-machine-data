@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2 * (3*n+2)^(n-1).",
+  "id": "A385085",
+  "mentions": [
+    "A007334",
+    "A052752",
+    "A385086"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

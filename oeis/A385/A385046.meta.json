@@ -1,0 +1,37 @@
+{
+  "description": "The sum of the unitary divisors of n that are 3-smooth numbers (A003586).",
+  "id": "A385046",
+  "mentions": [
+    "A001620",
+    "A003586",
+    "A034448",
+    "A065331",
+    "A072079",
+    "A082633",
+    "A092261",
+    "A192066",
+    "A358346",
+    "A358347",
+    "A360720",
+    "A371242",
+    "A380396",
+    "A382488",
+    "A383763",
+    "A385043",
+    "A385045",
+    "A385047",
+    "A385048",
+    "A385049"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of a triaugmented hexagonal prism with unit edge.",
+  "id": "A385694",
+  "mentions": [
+    "A010503",
+    "A104956",
+    "A385259",
+    "A385569",
+    "A385578"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

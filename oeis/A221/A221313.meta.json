@@ -1,5 +1,5 @@
 {
-  "description": "Square root of number of nX4 arrays of occupancy after each element moves to some horizontal or vertical neighbor, with every occupancy equal to zero or two",
+  "description": "Square root of number of nX4 arrays of occupancy after each element moves to some horizontal or vertical neighbor, with every occupancy equal to zero or two.",
   "id": "A221313",
   "mentions": [
     "A221314"

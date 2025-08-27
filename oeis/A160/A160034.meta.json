@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 2^(2^n) + 807 .",
+  "description": "Primes of the form 2^(2^k) + 807 .",
   "id": "A160034",
   "mentions": [
     "A019434",

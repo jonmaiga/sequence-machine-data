@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least k such that 3*2^n*(3*2^n-k)-1 is prime",
+  "description": "a(n) = least k such that 3*2^n*(3*2^n-k)-1 is prime.",
   "id": "A145690",
   "mentions": [],
   "tags": [

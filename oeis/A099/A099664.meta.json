@@ -1,5 +1,5 @@
 {
-  "description": "a[n] is the largest prime before A002278[n] repdigits.",
+  "description": "a(n) is the largest prime before A002278(n).",
   "id": "A099664",
   "mentions": [
     "A002275",

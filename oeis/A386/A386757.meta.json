@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of sets of noncongruent five-cuboid combinations that fill an n X n X n cube excluding combinations that contain cube-shaped cuboids.",
+  "id": "A386757",
+  "mentions": [
+    "A384479",
+    "A386779"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

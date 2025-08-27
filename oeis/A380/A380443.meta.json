@@ -1,19 +1,18 @@
 {
-  "description": "Third coefficient of the lindep transform of phi(n).",
+  "description": "a(n) = numerator(b(n)), where b(n) = b(n/2)/2 for n even and 1 - b((n-1)/2)/2 for n odd with b(1) = 1.",
   "id": "A380443",
   "mentions": [
-    "A000010",
-    "A339792",
-    "A380441",
-    "A380442"
+    "A053644"
   ],
   "tags": [
-    "formulas",
-    "sign"
+    "easy",
+    "frac",
+    "look",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
+    "size": 75,
     "source": "oeis-bfile"
   }
 }

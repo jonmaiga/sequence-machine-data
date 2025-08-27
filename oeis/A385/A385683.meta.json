@@ -1,0 +1,17 @@
+{
+  "description": "Complement of A030511.",
+  "id": "A385683",
+  "mentions": [
+    "A030511"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

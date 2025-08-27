@@ -1,0 +1,16 @@
+{
+  "description": "Star numbers corresponding to the point numbers in A385330.",
+  "id": "A385615",
+  "mentions": [
+    "A385330"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

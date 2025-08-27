@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 4*p^2+2*p-1 is also prime",
+  "description": "Primes p such that 4*p^2+2*p-1 is also prime.",
   "id": "A155738",
   "mentions": [
     "A000040",

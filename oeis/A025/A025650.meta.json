@@ -2,14 +2,18 @@
   "description": "Exponent of 5 (value of j) in n-th number of form 4^i*5^j.",
   "id": "A025650",
   "mentions": [
-    "A025674"
+    "A025617",
+    "A025646",
+    "A025674",
+    "A112765"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 104,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

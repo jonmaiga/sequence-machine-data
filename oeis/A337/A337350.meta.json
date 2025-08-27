@@ -2,6 +2,8 @@
   "description": "a(n) is the number of lattice paths from (0,0) to (2n,2n) using only the steps (1,0) and (0,1) and which do not touch any other points of the form (2k,2k).",
   "id": "A337350",
   "mentions": [
+    "A000108",
+    "A001448",
     "A337291",
     "A337292",
     "A337351",

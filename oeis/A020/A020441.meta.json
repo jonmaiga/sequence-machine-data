@@ -1,5 +1,5 @@
 {
-  "description": "Period of continued fraction for sqrt(n) contains exactly five 1's.",
+  "description": "Numbers k such that the period of the continued fraction for sqrt(k) contains exactly five 1's.",
   "id": "A020441",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

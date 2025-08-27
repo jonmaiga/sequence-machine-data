@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n such that the largest power of 2 dividing n equals 2^omega(n).",
+  "description": "Numbers k such that the largest power of 2 dividing k equals 2^omega(k).",
   "id": "A023534",
   "mentions": [
     "A001221",
     "A007814",
-    "A039700"
+    "A034444",
+    "A039700",
+    "A048166"
   ],
   "tags": [
     "nonn"
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

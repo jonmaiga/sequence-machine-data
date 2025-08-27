@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sigma(n) = 2 mod 4 and omega(sigma(n)/2) < omega(n).",
+  "description": "Numbers k for which sigma(k) = 2 mod 4 and omega(sigma(k)/2) < omega(k).",
   "id": "A195900",
   "mentions": [
     "A191217"

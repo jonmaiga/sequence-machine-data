@@ -1,0 +1,15 @@
+{
+  "description": "Minimum number of products of the form P^2-i^2 to be used to obtain the GCD defined in A380472.",
+  "id": "A385348",
+  "mentions": [
+    "A380472"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

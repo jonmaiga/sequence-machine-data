@@ -2,6 +2,7 @@
   "description": "Let P1, P2, P3, P4 be consecutive primes, with P2-P1=P4-P3=2. a(n)=(P1+P2)/12 when P3-P2 sets a new record.",
   "id": "A329164",
   "mentions": [
+    "A000045",
     "A053778",
     "A329158",
     "A329159",

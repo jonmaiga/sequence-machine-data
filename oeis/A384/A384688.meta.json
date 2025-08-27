@@ -1,0 +1,27 @@
+{
+  "description": "Runs of t in the range 0 <= t <= k and the same parity as k, for successive k >= 0.",
+  "id": "A384688",
+  "mentions": [
+    "A000196",
+    "A000267",
+    "A000290",
+    "A002378",
+    "A002620",
+    "A025643",
+    "A053186",
+    "A055086",
+    "A055087",
+    "A079813",
+    "A216607"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

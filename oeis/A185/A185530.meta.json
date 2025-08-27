@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X7 binary arrays with each 3X3 subblock nonsingular",
+  "description": "Number of (n+2)X7 binary arrays with each 3X3 subblock nonsingular.",
   "id": "A185530",
   "mentions": [
     "A185534"

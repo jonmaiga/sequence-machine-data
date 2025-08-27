@@ -1,5 +1,5 @@
 {
-  "description": "Number of horizontal, vertical or knight-move neighbor colorings of an nX2 array with new integer colors introduced in row major order",
+  "description": "Number of horizontal, vertical or knight-move neighbor colorings of an nX2 array with new integer colors introduced in row major order.",
   "id": "A216660",
   "mentions": [
     "A216663"

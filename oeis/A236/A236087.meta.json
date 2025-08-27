@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays colored with the difference of the upper median and the minimum in each 2X2 subblock",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays colored with the difference of the upper median and the minimum in each 2X2 subblock.",
   "id": "A236087",
   "mentions": [],
   "tags": [

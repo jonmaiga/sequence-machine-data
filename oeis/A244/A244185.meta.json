@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+4 0..k arrays with no five consecutive elements with pattern ababa or abbba (possibly a=b) and new values 0..k introduced in 0..k order",
+  "description": "T(n,k)=Number of length n+4 0..k arrays with no five consecutive elements with pattern ababa or abbba (possibly a=b) and new values 0..k introduced in 0..k order.",
   "id": "A244185",
   "mentions": [
     "A164441"

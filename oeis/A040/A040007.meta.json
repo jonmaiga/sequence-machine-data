@@ -2,7 +2,8 @@
   "description": "Continued fraction for sqrt(11).",
   "id": "A040007",
   "mentions": [
-    "A010468"
+    "A010468",
+    "A010704"
   ],
   "tags": [
     "cofr",

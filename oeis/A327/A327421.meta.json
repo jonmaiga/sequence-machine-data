@@ -1,5 +1,5 @@
 {
-  "description": "In a Kolakoski n-chain, point at which term of penultimate sequence seq(n-1) differs from term of final sequence seq(n) in chain, when terms of seq(i) are run-lengths of seq(i+1) and the chain contains n sequences",
+  "description": "In a Kolakoski n-chain, point at which term of penultimate sequence seq(n-1) differs from term of final sequence seq(n) in chain, when terms of seq(i) are run-lengths of seq(i+1) and the chain contains n sequences.",
   "id": "A327421",
   "mentions": [
     "A000002",

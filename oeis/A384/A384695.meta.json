@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution square-root of A169961, where A169961(n) = binomial(12*n,n).",
+  "id": "A384695",
+  "mentions": [
+    "A169961",
+    "A208977",
+    "A383965"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

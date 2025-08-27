@@ -2,6 +2,7 @@
   "description": "Square-sum pairs: Numbers n such that 0,1, ..., 2n-1 can be partitioned into n pairs, where each pair adds up to a perfect square.",
   "id": "A257542",
   "mentions": [
+    "A055495",
     "A252897",
     "A253472"
   ],

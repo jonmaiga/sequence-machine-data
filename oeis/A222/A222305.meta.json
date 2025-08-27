@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 9n is in A045980.",
+  "description": "Numbers k such that 9k is in A045980.",
   "id": "A222305",
   "mentions": [
     "A045980",

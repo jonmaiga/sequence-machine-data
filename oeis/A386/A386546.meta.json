@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k >= 1 such that k = d(k) + d(k+1) + ... + d(k+r) for some r >= 0 where d(i) is the number of divisors of i (A000005).",
+  "id": "A386546",
+  "mentions": [
+    "A000005"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -2,16 +2,19 @@
   "description": "Manhattan distances between n and 2*n in a left-aligned triangle with next M natural numbers in row M: 1, 2 3, 4 5 6, 7 8 9 10, etc.",
   "id": "A236347",
   "mentions": [
+    "A002024",
+    "A002260",
     "A232113",
     "A236345",
     "A236346"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

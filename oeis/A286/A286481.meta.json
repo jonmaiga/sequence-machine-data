@@ -1,5 +1,5 @@
 {
-  "description": "Numbers which require exactly 260 'Reverse and Add' steps to reach a palindrome",
+  "description": "Numbers which require exactly 260 'Reverse and Add' steps to reach a palindrome.",
   "id": "A286481",
   "mentions": [
     "A023109",

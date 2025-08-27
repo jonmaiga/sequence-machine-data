@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the permutation and its inverse having a different number of maxima",
+  "description": "Number of permutations of 1..n with the permutation and its inverse having a different number of maxima.",
   "id": "A180390",
   "mentions": [],
   "tags": [

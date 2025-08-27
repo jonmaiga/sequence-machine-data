@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form floor(n^sqrt(Pi)).",
+  "description": "Primes of the form floor(k^sqrt(Pi)).",
   "id": "A180452",
   "mentions": [
     "A000040",

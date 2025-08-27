@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that A001065(x)*x = n has at least two solutions.",
+  "description": "Numbers k such that A001065(x)*x = k has at least two solutions.",
   "id": "A212327",
   "mentions": [
     "A001065",
+    "A063990",
     "A212373",
     "A212489",
     "A212490"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

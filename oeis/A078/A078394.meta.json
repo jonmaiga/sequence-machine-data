@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that reverse(A004154(n)) + 1 is prime.",
+  "description": "Numbers k such that reverse(A004154(k)) + 1 is prime.",
   "id": "A078394",
   "mentions": [
     "A004154",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

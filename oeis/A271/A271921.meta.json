@@ -2,6 +2,8 @@
   "description": "Numerator of n*Product_{j=1..n-1} ((3*j + 1)/(3*j + 2)).",
   "id": "A271921",
   "mentions": [
+    "A002161",
+    "A203145",
     "A271919",
     "A271920",
     "A271922",
@@ -11,6 +13,7 @@
     "A271926"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

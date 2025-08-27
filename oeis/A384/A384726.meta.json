@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least number that is both the product of n distinct primes and the concatenation of n distinct primes.",
+  "id": "A384726",
+  "mentions": [
+    "A083427",
+    "A374665"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

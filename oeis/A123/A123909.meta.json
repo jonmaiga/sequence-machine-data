@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n!+11.",
+  "description": "Primes of the form k!+11.",
   "id": "A123909",
   "mentions": [
     "A088332"

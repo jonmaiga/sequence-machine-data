@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k for which A385662(k) = n, or -1 if no such k exists.",
+  "id": "A386872",
+  "mentions": [
+    "A385318",
+    "A385662",
+    "A385729",
+    "A385731",
+    "A386410"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are one less than terms of A055932, and also prime.",
+  "id": "A385935",
+  "mentions": [
+    "A055932",
+    "A385934"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

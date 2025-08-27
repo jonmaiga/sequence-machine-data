@@ -2,6 +2,8 @@
   "description": "16 * squared area of triangles with integer sides i <= j <= k, such that more triples of sides produce the same area as for any smaller area.",
   "id": "A331012",
   "mentions": [
+    "A316841",
+    "A316853",
     "A317182",
     "A331011"
   ],

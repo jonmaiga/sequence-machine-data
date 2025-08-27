@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random 0..1 4Xn array",
+  "description": "Number of 4Xn arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random 0..1 4Xn array.",
   "id": "A218900",
   "mentions": [
     "A218897"

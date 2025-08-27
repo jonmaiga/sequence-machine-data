@@ -1,0 +1,18 @@
+{
+  "description": "Primes x that cannot be written as x = p + 2*q where p < q are primes.",
+  "id": "A385077",
+  "mentions": [
+    "A046927",
+    "A337924"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

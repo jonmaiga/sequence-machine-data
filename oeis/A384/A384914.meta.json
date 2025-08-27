@@ -1,0 +1,39 @@
+{
+  "description": "The number of unordered factorizations of n into numbers of the form p^(k^2) where p is prime and k >= 0 (A323520).",
+  "id": "A384914",
+  "mentions": [
+    "A000290",
+    "A000688",
+    "A001156",
+    "A043289",
+    "A046951",
+    "A050361",
+    "A050377",
+    "A053164",
+    "A063775",
+    "A188581",
+    "A188585",
+    "A197680",
+    "A203640",
+    "A295658",
+    "A322885",
+    "A323520",
+    "A365333",
+    "A370256",
+    "A384912",
+    "A384913",
+    "A384915",
+    "A384916"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

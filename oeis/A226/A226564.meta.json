@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum(d|n, sigma(d)^2/d) is an integer, where d are the divisors of n.",
+  "description": "Numbers k such that sum(d|k, sigma(d)^2/d) is an integer, where d are the divisors of k.",
   "id": "A226564",
   "mentions": [
     "A068978",

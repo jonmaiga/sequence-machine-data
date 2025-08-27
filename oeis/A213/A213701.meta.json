@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of 6X6 0..n symmetric arrays with no 2X2 subblock summing to 2n",
+  "description": "Half the number of 6X6 0..n symmetric arrays with no 2X2 subblock summing to 2n.",
   "id": "A213701",
   "mentions": [
     "A213697"

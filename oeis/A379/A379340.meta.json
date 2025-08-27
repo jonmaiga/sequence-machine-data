@@ -1,21 +1,16 @@
 {
-  "description": "a(n) is the number of pairs of similar integer-sided triangles whose perimeters sum up to n.",
+  "description": "Integers m such that m^2 is the sum of two or more squares of consecutive integers in more than one way.",
   "id": "A379340",
   "mentions": [
-    "A010814",
-    "A069905",
-    "A070088",
-    "A366398",
-    "A370599",
-    "A379341"
+    "A062681",
+    "A174069"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 73,
-    "source": "oeis-bfile"
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
   }
 }

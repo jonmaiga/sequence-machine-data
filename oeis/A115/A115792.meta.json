@@ -1,13 +1,14 @@
 {
-  "description": "A dihedial D1 elliptical transform on A000073.",
+  "description": "a(n) = ceiling(g(A000073(n))) with g(k) = (k-1)^2/(4k).",
   "id": "A115792",
   "mentions": [
-    "A000073"
+    "A000073",
+    "A132151"
   ],
   "tags": [
+    "easy",
     "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 2,

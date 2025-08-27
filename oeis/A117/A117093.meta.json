@@ -1,8 +1,10 @@
 {
-  "description": "Numbers k such that nextprime(3*k)>3*nextprime(k) (if p is prime then nextprime(p)=p).",
+  "description": "Numbers k such that nextprime(3*k) > 3*nextprime(k) (if p is prime then nextprime(p) = p).",
   "id": "A117093",
   "mentions": [
-    "A007918"
+    "A000040",
+    "A007918",
+    "A117100"
   ],
   "tags": [
     "easy",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

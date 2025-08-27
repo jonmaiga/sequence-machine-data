@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 binary arrays with an element zero only if there are an even number of ones to its left and an even number of ones above it",
+  "description": "Number of nX6 binary arrays with an element zero only if there are an even number of ones to its left and an even number of ones above it.",
   "id": "A183318",
   "mentions": [
     "A183322"

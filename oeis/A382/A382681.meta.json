@@ -1,0 +1,18 @@
+{
+  "description": "Conjecturally, the numbers k (not multiples of 5) such that for all x >= 0, k*2^x has a '0' in its decimal expansion.",
+  "id": "A382681",
+  "mentions": [
+    "A007377",
+    "A027870",
+    "A130694"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 2nX2k 0..3 arrays with values 0..3 introduced in row major order and each element equal to an even number of horizontal and vertical neighbors",
+  "description": "T(n,k)=Number of 2nX2k 0..3 arrays with values 0..3 introduced in row major order and each element equal to an even number of horizontal and vertical neighbors.",
   "id": "A198485",
   "mentions": [],
   "tags": [

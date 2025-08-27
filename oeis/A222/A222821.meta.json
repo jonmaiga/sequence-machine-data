@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of idempotent n X n 0..k matrices",
+  "description": "T(n,k)=Number of idempotent n X n 0..k matrices.",
   "id": "A222821",
   "mentions": [],
   "tags": [

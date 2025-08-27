@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers whose binary representation does not contain a run of more than three consecutive 0's or 1's",
+  "description": "Positive integers whose binary representation does not contain a run of more than three consecutive 0's or 1's.",
   "id": "A166535",
   "mentions": [
     "A000073",

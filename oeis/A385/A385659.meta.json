@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of log_10(1 + 1/3).",
+  "id": "A385659",
+  "mentions": [
+    "A007524",
+    "A104140",
+    "A114490",
+    "A114493",
+    "A154203",
+    "A154580"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

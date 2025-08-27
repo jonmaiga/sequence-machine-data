@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x*((A(x) + A(-x))/2)^2 ).",
+  "id": "A385687",
+  "mentions": [
+    "A058014",
+    "A143546",
+    "A360987",
+    "A385688",
+    "A385690"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

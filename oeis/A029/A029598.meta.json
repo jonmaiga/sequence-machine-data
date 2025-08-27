@@ -1,7 +1,10 @@
 {
   "description": "Numbers represented by quadratic form with Gram matrix [ 2, 1, 0; 1, 2, 1; 0, 1, 3 ].",
   "id": "A029598",
-  "mentions": [],
+  "mentions": [
+    "A028962",
+    "A028968"
+  ],
   "tags": [
     "nonn"
   ],

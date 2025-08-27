@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 384*n + 1.",
+  "description": "Primes of the form 384*k + 1.",
   "id": "A229854",
   "mentions": [
     "A000215",

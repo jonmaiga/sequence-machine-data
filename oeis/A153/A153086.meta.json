@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4*n+7 is not prime",
+  "description": "Numbers n such that 4*n+7 is not prime.",
   "id": "A153086",
   "mentions": [
     "A089986",

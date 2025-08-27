@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - arctanh(3*x))^(1/3).",
+  "id": "A385473",
+  "mentions": [
+    "A007559",
+    "A111594",
+    "A296676",
+    "A385472"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

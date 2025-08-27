@@ -1,5 +1,5 @@
 {
-  "description": "Record numbers of A171063 nonzero period n solutions of x(i)=(x(i-1)+x(i-2)) mod m, as encountered in (n=1,m=1; n=2,m=1; n=1,m=2) antidiagonal order",
+  "description": "Record numbers of A171063 nonzero period n solutions of x(i)=(x(i-1)+x(i-2)) mod m, as encountered in (n=1,m=1; n=2,m=1; n=1,m=2) antidiagonal order.",
   "id": "A171062",
   "mentions": [
     "A171063"

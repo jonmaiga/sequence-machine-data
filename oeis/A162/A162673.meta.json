@@ -1,5 +1,5 @@
 {
-  "description": "Number of different fixed (possibly) disconnected trominoes bounded (not necessarily tightly) by an n*n square",
+  "description": "Number of different fixed (possibly) disconnected trominoes bounded (not necessarily tightly) by an n*n square.",
   "id": "A162673",
   "mentions": [
     "A094170",

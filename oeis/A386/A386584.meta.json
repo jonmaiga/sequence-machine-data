@@ -1,0 +1,52 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of length k>=0 integer partitions of n having no permutation without any adjacent equal parts (inseparable).",
+  "id": "A386584",
+  "mentions": [
+    "A003242",
+    "A005649",
+    "A008284",
+    "A025065",
+    "A072233",
+    "A106351",
+    "A111133",
+    "A124762",
+    "A238130",
+    "A239455",
+    "A325534",
+    "A325535",
+    "A333382",
+    "A333489",
+    "A335126",
+    "A335127",
+    "A335433",
+    "A335434",
+    "A335448",
+    "A335452",
+    "A336102",
+    "A336103",
+    "A336106",
+    "A351293",
+    "A386575",
+    "A386576",
+    "A386577",
+    "A386580",
+    "A386581",
+    "A386583",
+    "A386585",
+    "A386586",
+    "A386633",
+    "A386634",
+    "A386635",
+    "A386636"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

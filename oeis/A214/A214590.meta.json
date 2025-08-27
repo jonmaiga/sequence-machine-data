@@ -1,8 +1,10 @@
 {
-  "description": "Number of nXnXn triangular 0..3 arrays with every horizontal row having the same average value",
+  "description": "Number of nXnXn triangular 0..3 arrays with every horizontal row having the same average value.",
   "id": "A214590",
   "mentions": [
-    "A214595"
+    "A005725",
+    "A214595",
+    "A386650"
   ],
   "tags": [
     "nonn"

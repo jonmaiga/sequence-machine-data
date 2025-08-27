@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..2 arrays with no average of any element and its diagonal, antidiagonal, horizontal and vertical neighbors equal to one",
+  "description": "Number of nX5 0..2 arrays with no average of any element and its diagonal, antidiagonal, horizontal and vertical neighbors equal to one.",
   "id": "A200806",
   "mentions": [
     "A200809"

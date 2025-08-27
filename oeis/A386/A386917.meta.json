@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k * Product_{p prime <= sqrt(k)} (1 - 1/p) is an integer.",
+  "id": "A386917",
+  "mentions": [
+    "A000720"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

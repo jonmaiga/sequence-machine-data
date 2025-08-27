@@ -2,6 +2,7 @@
   "description": "Number of Nickerson-type partitions of [1,...,3n] into triples satisfying x+y=z.",
   "id": "A202951",
   "mentions": [
+    "A004075",
     "A104429",
     "A108235",
     "A202952"

@@ -2,6 +2,7 @@
   "description": "Number of ways to lace a shoe that has n pairs of eyelets.",
   "id": "A078602",
   "mentions": [
+    "A072503",
     "A078601",
     "A078629",
     "A078675",

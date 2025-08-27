@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n^29-1)/(n-1) is prime.",
+  "description": "Numbers k such that (k^29-1)/(k-1) is prime.",
   "id": "A217074",
   "mentions": [
     "A002384",

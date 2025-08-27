@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays with each sum of a(1..i,1..j) no greater than i*j/2 and rows and columns in nondecreasing order",
+  "description": "Number of n X n binary arrays with each sum of a(1..i,1..j) no greater than i*j/2 and rows and columns in nondecreasing order.",
   "id": "A183408",
   "mentions": [
     "A183413"

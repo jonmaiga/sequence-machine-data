@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-3)^(n-k) * binomial(4*n,k).",
+  "id": "A386701",
+  "mentions": [
+    "A002293",
+    "A066381",
+    "A262977",
+    "A371814",
+    "A385498",
+    "A386700",
+    "A386702"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

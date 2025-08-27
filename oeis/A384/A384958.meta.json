@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first prime p such that the concatenations of n consecutive primes, starting with p, in both forward and backward directions, are prime.",
+  "id": "A384958",
+  "mentions": [
+    "A384953"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

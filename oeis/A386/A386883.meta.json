@@ -1,0 +1,18 @@
+{
+  "description": "Define a sequence of rationals by f(0) = 0, thereafter f(n) = f(n-1) - 1/n if that is >= 0, otherwise f(n) = f(n-1) + 1/n; a(n) corresponds to the number of addition steps minus the number of subtraction steps involved in calculating f(n).",
+  "id": "A386883",
+  "mentions": [
+    "A002162",
+    "A231692",
+    "A231693"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

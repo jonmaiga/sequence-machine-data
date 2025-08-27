@@ -1,5 +1,5 @@
 {
-  "description": "Primes of form n*2^n-(n-1).",
+  "description": "Primes of form k*2^k - (k-1).",
   "id": "A046846",
   "mentions": [
     "A046847"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 10,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

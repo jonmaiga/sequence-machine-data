@@ -1,7 +1,9 @@
 {
-  "description": "This sequence needs a meaningful name.",
+  "description": "Flattened triangle read by rows such that each row has 2n+1 entries, T(n, k) = T(n, k+1) + T(n, k+2) for k < 2n-1, T(n, n) = Fibonacci(n), and T(n, n-1) = Fibonacci(n-1) for n > 0.",
   "id": "A152459",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "less",
     "obsc",

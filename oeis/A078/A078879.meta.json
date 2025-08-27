@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = ceiling(k^2 / n), 0 < k <= n.",
+  "description": "Triangle read by rows: T(n,k) = ceiling(k^2 / n), 0 < k < n and T(n,n) = 0.",
   "id": "A078879",
   "mentions": [
     "A014811"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 103,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

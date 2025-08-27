@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes k such that k is congruent to 7 modulo k's index in the sequence of semiprimes",
+  "description": "Semiprimes k such that k is congruent to 7 modulo k's index in the sequence of semiprimes.",
   "id": "A356357",
   "mentions": [
     "A001358",

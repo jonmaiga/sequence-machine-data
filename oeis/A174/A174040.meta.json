@@ -1,5 +1,5 @@
 {
-  "description": "A triangle sequence of the form:q=3:t(n,m,q)=Sum[q^i*Floor[Eulerian[n + 1, m]/2^i], {i, 0, 10}]",
+  "description": "A triangle sequence of the form:q=3:t(n,m,q)=Sum[q^i*Floor[Eulerian[n + 1, m]/2^i], {i, 0, 10}].",
   "id": "A174040",
   "mentions": [],
   "tags": [

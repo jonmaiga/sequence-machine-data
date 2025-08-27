@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n has at least two distinct prime factors and if a prime p divides n then (p-1) | (n-1) and (p+1) | (n+1).",
+  "description": "Numbers k such that k has at least two distinct prime factors and if a prime p divides k then (p-1) | (k-1) and (p+1) | (k+1).",
   "id": "A079543",
   "mentions": [
+    "A001597",
     "A056729",
     "A080062"
   ],

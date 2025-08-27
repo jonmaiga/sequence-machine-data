@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that are infinitarily divisible by the number of infinitary divisors of k.",
+  "id": "A387057",
+  "mentions": [
+    "A037445",
+    "A077609",
+    "A387056"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

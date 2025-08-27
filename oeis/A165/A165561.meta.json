@@ -1,5 +1,5 @@
 {
-  "description": "Primes that are the sum of an integer n and its arithmetic derivative",
+  "description": "Primes that are the sum of an integer n and its arithmetic derivative.",
   "id": "A165561",
   "mentions": [
     "A000040",

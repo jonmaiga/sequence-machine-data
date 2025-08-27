@@ -1,5 +1,5 @@
 {
-  "description": "Primes where each digit is 0,1,2,4,or 8.",
+  "description": "Primes where each digit is 0, 1, 2, 4, or 8.",
   "id": "A173580",
   "mentions": [
     "A066591",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

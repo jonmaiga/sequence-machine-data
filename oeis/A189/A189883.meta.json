@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the square part of n is one greater than the squarefree part of n.",
+  "description": "Numbers k such that the square part of k is one greater than the squarefree part of k.",
   "id": "A189883",
   "mentions": [
     "A007913",

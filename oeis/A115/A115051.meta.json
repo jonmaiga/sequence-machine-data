@@ -1,17 +1,18 @@
 {
-  "description": "Number of distinct prime factors of F(n + L(n)) where F(n) is the Fibonacci number and L(n) is the Lucas number and n >= 2.",
+  "description": "Number of distinct prime factors of F(n + L(n)) where F(n) is the Fibonacci number and L(n) is the Lucas number.",
   "id": "A115051",
   "mentions": [
     "A000032",
-    "A000045"
+    "A000045",
+    "A022307"
   ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 17,
+    "offset": 0,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

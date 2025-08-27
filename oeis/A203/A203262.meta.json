@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..7 arrays with every nonzero element less than or equal to some NW, E or S neighbor",
+  "description": "T(n,k)=Number of nXk 0..7 arrays with every nonzero element less than or equal to some NW, E or S neighbor.",
   "id": "A203262",
   "mentions": [],
   "tags": [

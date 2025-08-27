@@ -1,5 +1,5 @@
 {
-  "description": "An averaging sum sequence based on:a(n,m)=Floor[(a(n - 1, m - 1) + a(n - 1, m))/2] with limit q",
+  "description": "An averaging sum sequence based on:a(n,m)=Floor[(a(n - 1, m - 1) + a(n - 1, m))/2] with limit q.",
   "id": "A174828",
   "mentions": [],
   "tags": [

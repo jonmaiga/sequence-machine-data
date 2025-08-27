@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: row n is the list of residues mod n that occur among the Markov numbers",
+  "description": "Irregular triangle read by rows: row n is the list of residues mod n that occur among the Markov numbers.",
   "id": "A370852",
   "mentions": [
     "A002559",

@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)/A(-x*A(x))^3.",
+  "id": "A385015",
+  "mentions": [
+    "A213231",
+    "A213232",
+    "A384896",
+    "A384951",
+    "A384975",
+    "A385014",
+    "A385016",
+    "A385019"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

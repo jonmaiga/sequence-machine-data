@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A051903(ugcd(n,k)), where ugcd(n,k) is the greatest divisor of k that is a unitary divisor of n.",
+  "id": "A384656",
+  "mentions": [
+    "A000961",
+    "A002110",
+    "A005117",
+    "A047994",
+    "A051903",
+    "A051953",
+    "A067259",
+    "A088860",
+    "A097250",
+    "A383159",
+    "A384046",
+    "A384048",
+    "A384049",
+    "A384655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

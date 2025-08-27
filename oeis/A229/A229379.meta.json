@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..2 arrays avoiding 11 horizontally, 22 vertically and 00 diagonally or antidiagonally",
+  "description": "Number of nX7 0..2 arrays avoiding 11 horizontally, 22 vertically and 00 diagonally or antidiagonally.",
   "id": "A229379",
   "mentions": [
     "A229380"

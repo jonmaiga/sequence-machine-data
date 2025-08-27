@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} binomial(6*k+1,k) * binomial(6*n-6*k,n-k-1).",
+  "id": "A386616",
+  "mentions": [
+    "A006419",
+    "A079679",
+    "A386368",
+    "A386567",
+    "A386612",
+    "A386614",
+    "A386615",
+    "A386617"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

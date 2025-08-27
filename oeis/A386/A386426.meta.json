@@ -1,0 +1,25 @@
+{
+  "description": "Odd nondeficient numbers k such that sigma(k) has the same powerful part as k, where sigma is the sum of divisors function.",
+  "id": "A386426",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A003557",
+    "A005231",
+    "A007691",
+    "A023196",
+    "A057521",
+    "A386425",
+    "A386427",
+    "A386428"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

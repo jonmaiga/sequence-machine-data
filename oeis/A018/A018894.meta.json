@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n)/phi(n) sets a new record.",
+  "description": "Numbers k such that sigma(k)/phi(k) sets a new record.",
   "id": "A018894",
   "mentions": [
     "A000010",

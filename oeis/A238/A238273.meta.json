@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the sum(n>=1, mu(n)/n^n ) where mu is the Moebius function.",
+  "description": "Decimal expansion of the Sum_{n>=1} mu(n)/n^n where mu is the Moebius function.",
   "id": "A238273",
   "mentions": [
     "A008683",

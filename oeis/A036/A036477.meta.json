@@ -1,13 +1,28 @@
 {
-  "description": "partition(11n+3) mod 11.",
+  "description": "a(n) = partition(11n+3) mod 11.",
   "id": "A036477",
-  "mentions": [],
+  "mentions": [
+    "A000004",
+    "A000041",
+    "A020919",
+    "A036475",
+    "A036476",
+    "A036478",
+    "A036479",
+    "A036480",
+    "A036481",
+    "A036482",
+    "A036483",
+    "A036485"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

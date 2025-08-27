@@ -1,5 +1,5 @@
 {
-  "description": "Fluctuations of the number of cubefree integers not exceeding 2^n",
+  "description": "Fluctuations of the number of cubefree integers not exceeding 2^n.",
   "id": "A160115",
   "mentions": [
     "A004709",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of defective 4-colorings of an nX3 0..3 array connected horizontally, antidiagonally and vertically with exactly two mistakes, and colors introduced in row-major 0..3 order",
+  "description": "Number of defective 4-colorings of an nX3 0..3 array connected horizontally, antidiagonally and vertically with exactly two mistakes, and colors introduced in row-major 0..3 order.",
   "id": "A229667",
   "mentions": [
     "A229672"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(n) is different from tau(n-1), where tau(m) = number of divisors of m.",
+  "description": "Numbers k such that tau(k) is different from tau(k-1), where tau(m) = number of divisors of m.",
   "id": "A083794",
   "mentions": [
     "A083795"

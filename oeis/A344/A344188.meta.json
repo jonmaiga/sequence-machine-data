@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of three fourth powers in exactly one way",
+  "description": "Numbers that are the sum of three fourth powers in exactly one way.",
   "id": "A344188",
   "mentions": [
     "A003337",

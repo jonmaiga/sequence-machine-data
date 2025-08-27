@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} Integral_{y=0..1} {1/(x+y)}^2 dx dy, where {} denotes fractional part.",
+  "id": "A386735",
+  "mentions": [
+    "A001620",
+    "A002162",
+    "A072691",
+    "A386733"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

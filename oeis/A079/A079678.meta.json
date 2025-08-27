@@ -1,10 +1,16 @@
 {
-  "description": "a(n) = a(n,m) = sum(k=0,n,binomial(m*k,k)*binomial(m*(n-k),n-k)) for m=5.",
+  "description": "a(n) = a(n,m) = Sum_{k=0..n} binomial(m*k,k)*binomial(m*(n-k),n-k) for m=5.",
   "id": "A079678",
   "mentions": [
     "A000302",
+    "A002294",
     "A006256",
-    "A078995"
+    "A078995",
+    "A079563",
+    "A079679",
+    "A371753",
+    "A385632",
+    "A386812"
   ],
   "tags": [
     "formulas",
@@ -12,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

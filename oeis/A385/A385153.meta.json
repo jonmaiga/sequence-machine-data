@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least possible difference between the largest and smallest volumes of distinct four-cuboid combinations filling an n X n X n cube.",
+  "id": "A385153",
+  "mentions": [
+    "A276523",
+    "A384311"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers such that when the leftmost digit is moved to the unit's place the result is divisible by 8.",
+  "id": "A385703",
+  "mentions": [
+    "A001477",
+    "A008585",
+    "A008591",
+    "A217398",
+    "A273892",
+    "A385700",
+    "A385701",
+    "A385702"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

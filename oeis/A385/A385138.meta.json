@@ -1,0 +1,36 @@
+{
+  "description": "The sum of divisors d of n such that n/d is a 5-rough number (A007310).",
+  "id": "A385138",
+  "mentions": [
+    "A001615",
+    "A002131",
+    "A007310",
+    "A013661",
+    "A064987",
+    "A069208",
+    "A072044",
+    "A072045",
+    "A076752",
+    "A129527",
+    "A186099",
+    "A244963",
+    "A254981",
+    "A327626",
+    "A385134",
+    "A385135",
+    "A385136",
+    "A385137",
+    "A385139"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[(n-PrimePi[n])/(2-PrimePi[n]+PrimePi[n-1])]",
+  "description": "a(n) = Floor[(n-PrimePi[n])/(2-PrimePi[n]+PrimePi[n-1])].",
   "id": "A090350",
   "mentions": [],
   "tags": [

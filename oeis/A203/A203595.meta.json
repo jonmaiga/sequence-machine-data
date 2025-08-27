@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..2 arrays with the counts of all possible adjacent horizontal and vertical pair sum values being within one of each other",
+  "description": "Number of nX2 0..2 arrays with the counts of all possible adjacent horizontal and vertical pair sum values being within one of each other.",
   "id": "A203595",
   "mentions": [
     "A203600"

@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX5 binary arrays with no 3X3 submatrix formed with any three rows and columns equal to J-I",
+  "description": "Half the number of nX5 binary arrays with no 3X3 submatrix formed with any three rows and columns equal to J-I.",
   "id": "A213415",
   "mentions": [
     "A213418"

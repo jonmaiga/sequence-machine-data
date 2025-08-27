@@ -1,5 +1,5 @@
 {
-  "description": "Number of zero-sum nX2 -3..3 arrays with every element equal to at least one horizontal or vertical neighbor",
+  "description": "Number of zero-sum nX2 -3..3 arrays with every element equal to at least one horizontal or vertical neighbor.",
   "id": "A202131",
   "mentions": [
     "A202134"

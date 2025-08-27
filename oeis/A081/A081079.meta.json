@@ -1,11 +1,12 @@
 {
-  "description": "Lucas(4n+2) - 3, or 5*Fibonacci(2n)*Fibonacci(2n+2).",
+  "description": "a(n) = Lucas(4*n+2) - 3 = 5*Fibonacci(2*n)*Fibonacci(2*n+2).",
   "id": "A081079",
   "mentions": [
     "A000032",
     "A000045",
     "A058038",
-    "A092521"
+    "A092521",
+    "A156088"
   ],
   "tags": [
     "easy",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

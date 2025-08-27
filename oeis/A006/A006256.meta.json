@@ -1,11 +1,20 @@
 {
-  "description": "a(n) = Sum_{k=0..n} binomial(3k,k)*binomial(3n-3k,n-k).",
+  "description": "a(n) = Sum_{k=0..n} binomial(3*k,k)*binomial(3*n-3*k,n-k).",
   "id": "A006256",
   "mentions": [
     "A000302",
     "A005809",
     "A036829",
-    "A078995"
+    "A078995",
+    "A079563",
+    "A079678",
+    "A079679",
+    "A141223",
+    "A160906",
+    "A183160",
+    "A226751",
+    "A385605",
+    "A385632"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,43 @@
+{
+  "description": "Greatest Heinz number of a sparse submultiset of the prime indices of n, where a multiset is sparse iff 1 is not a first difference.",
+  "id": "A385216",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A008284",
+    "A051903",
+    "A051904",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A091602",
+    "A104210",
+    "A112798",
+    "A122111",
+    "A130091",
+    "A166469",
+    "A212166",
+    "A239964",
+    "A240312",
+    "A245564",
+    "A268193",
+    "A316476",
+    "A319630",
+    "A374356",
+    "A381542",
+    "A384883",
+    "A385215"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

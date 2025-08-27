@@ -1,0 +1,15 @@
+{
+  "description": "a(n+1) is the smallest product of two or more primes which sum to a(n), starting from a(1) = 5.",
+  "id": "A386524",
+  "mentions": [
+    "A056240"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

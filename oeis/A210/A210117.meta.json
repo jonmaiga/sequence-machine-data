@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock having two or four distinct values, and new values 0..3 introduced in row major order",
+  "description": "Number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock having two or four distinct values, and new values 0..3 introduced in row major order.",
   "id": "A210117",
   "mentions": [
     "A210125"

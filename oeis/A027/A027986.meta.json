@@ -1,15 +1,17 @@
 {
-  "description": "Sum{T(n,k)*T(n,k+2)}, 0<=k<=2n-2, T given by A027960.",
+  "description": "a(n) = Sum_{k=0..2*n-2} T(n, k)*T(n, k+2), T given by A027960.",
   "id": "A027986",
   "mentions": [
+    "A000032",
     "A027960"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

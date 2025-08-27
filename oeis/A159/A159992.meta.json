@@ -1,12 +1,13 @@
 {
-  "description": "Numerator of Sum_{k=0..n} A159990(k)/A159991(k), denominator=A159993.",
+  "description": "Numerator of Sum_{k=0..n} A159990(k)/A159991(k).",
   "id": "A159992",
   "mentions": [
     "A159990",
     "A159991",
     "A159993",
     "A159994",
-    "A159995"
+    "A159995",
+    "A202300"
   ],
   "tags": [
     "frac",

@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers whose digits are odd prime numbers.",
+  "id": "A385477",
+  "mentions": [
+    "A061371",
+    "A061372",
+    "A087363",
+    "A320062"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

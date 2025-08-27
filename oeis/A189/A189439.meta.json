@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn array permutations with each element not moving, or moving one space N, SW or SE",
+  "description": "Number of 7Xn array permutations with each element not moving, or moving one space N, SW or SE.",
   "id": "A189439",
   "mentions": [
     "A189435"

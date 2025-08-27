@@ -2,6 +2,8 @@
   "description": "Index of 4^n within sequence of numbers of form 4^i*6^j.",
   "id": "A025703",
   "mentions": [
+    "A025618",
+    "A025658",
     "A025709"
   ],
   "tags": [

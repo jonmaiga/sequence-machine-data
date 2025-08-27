@@ -2,6 +2,7 @@
   "description": "Exponent of 10 (value of j) in n-th number of form 4^i*10^j.",
   "id": "A025686",
   "mentions": [
+    "A025621",
     "A025649",
     "A025657"
   ],

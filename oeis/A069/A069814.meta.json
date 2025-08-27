@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of root of the equation x*cosh(x)=1.",
   "id": "A069814",
-  "mentions": [],
+  "mentions": [
+    "A205571",
+    "A385281",
+    "A385282"
+  ],
   "tags": [
     "cons",
     "easy",

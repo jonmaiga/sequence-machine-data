@@ -1,5 +1,5 @@
 {
-  "description": "Total number of 3-Fuss-skew paths of semilength n",
+  "description": "Total number of 3-Fuss-skew paths of semilength n.",
   "id": "A361963",
   "mentions": [
     "A002212",

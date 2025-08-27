@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = Sum_{n>=0} x^n * Product_{k=0..n} (1 + a(1)*x + a(2)*x^2 + a(3)*x^3 + ... + a(k)*x^k).",
+  "id": "A385906",
+  "mentions": [
+    "A000108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers k such that lcm(1, 2, 3, ..., k)-1 is prime.",
+  "id": "A385564",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A051453",
+    "A057824",
+    "A057825",
+    "A154524"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays of occupancy after each element moves to some horizontal, vertical or antidiagonal neighbor, with every occupancy equal to zero or two",
+  "description": "Number of nX3 arrays of occupancy after each element moves to some horizontal, vertical or antidiagonal neighbor, with every occupancy equal to zero or two.",
   "id": "A221305",
   "mentions": [
     "A221308"

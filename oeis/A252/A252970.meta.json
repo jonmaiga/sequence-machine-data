@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 nonnegative integer arrays with upper left 0 and lower right n+2-5 and value increasing by 0 or 1 with every step right or down",
+  "description": "Number of nX2 nonnegative integer arrays with upper left 0 and lower right n+2-5 and value increasing by 0 or 1 with every step right or down.",
   "id": "A252970",
   "mentions": [
     "A252976"

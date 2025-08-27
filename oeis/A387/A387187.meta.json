@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct numbers of transversals an extended self-orthogonal diagonal Latin square of order n.",
+  "id": "A387187",
+  "mentions": [
+    "A309210",
+    "A309598",
+    "A309599",
+    "A344105",
+    "A350585",
+    "A383684",
+    "A387124"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

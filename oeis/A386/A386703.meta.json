@@ -1,0 +1,16 @@
+{
+  "description": "The residue of p(n) modulo q(n) in the interval (-q(n)/2, q(n)/2], where p(n) = A000041(n) and q(n) = A000009(n).",
+  "id": "A386703",
+  "mentions": [
+    "A000009",
+    "A000041"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

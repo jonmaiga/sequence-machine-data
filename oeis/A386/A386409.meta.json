@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonnegative values s < n such that (-s)^s == -s (mod n).",
+  "id": "A386409",
+  "mentions": [
+    "A065295",
+    "A384781",
+    "A385103",
+    "A385540",
+    "A385729"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

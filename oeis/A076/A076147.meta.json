@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th prime + n is a cube.",
+  "description": "Numbers k such that the k-th prime + k is a cube.",
   "id": "A076147",
   "mentions": [
     "A064371"

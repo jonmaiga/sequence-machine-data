@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*n^2 + 25 is prime.",
+  "description": "Numbers m such that 2*m^2 + 25 is prime.",
   "id": "A111041",
   "mentions": [],
   "tags": [

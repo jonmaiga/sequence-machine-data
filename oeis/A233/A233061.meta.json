@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..1 arrays x(i,j) with row sums sum{x(i,j), j=1..4+1} nondecreasing, and column sums sum{i*x(i,j), i=1..n+1} nondecreasing",
+  "description": "Number of (n+1)X(4+1) 0..1 arrays x(i,j) with row sums sum{x(i,j), j=1..4+1} nondecreasing, and column sums sum{i*x(i,j), i=1..n+1} nondecreasing.",
   "id": "A233061",
   "mentions": [
     "A233062"

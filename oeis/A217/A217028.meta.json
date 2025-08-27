@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of city-block distance 1, pressure limit 2 movements in an nXk array with each element moving exactly one horizontally or vertically and no element acquiring more than two neighbors",
+  "description": "T(n,k)=Number of city-block distance 1, pressure limit 2 movements in an nXk array with each element moving exactly one horizontally or vertically and no element acquiring more than two neighbors.",
   "id": "A217028",
   "mentions": [],
   "tags": [

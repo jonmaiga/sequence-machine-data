@@ -2,6 +2,7 @@
   "description": "Consecutive internal states of the linear congruential pseudo-random number generator for BCPL when started at 1.",
   "id": "A382684",
   "mentions": [
+    "A084277",
     "A096550",
     "A096561"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of nodes at distance k in the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A384844",
+  "mentions": [
+    "A000244",
+    "A113070",
+    "A384843"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

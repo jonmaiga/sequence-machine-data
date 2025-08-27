@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{i=1...|b|} i*(-1)^b_i where b is the lexicographically n-th binary string.",
+  "id": "A384868",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A000225",
+    "A007931",
+    "A100575",
+    "A231204",
+    "A365968",
+    "A377170"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 4x^3 + 27y^2, with x positive or negative.",
+  "description": "Primes of the form 4*x^3 + 27*y^2, with x positive or negative.",
   "id": "A153635",
   "mentions": [
     "A153636",

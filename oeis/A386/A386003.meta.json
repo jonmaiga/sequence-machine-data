@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of an augmented tridiminished icosahedron with unit edge.",
+  "id": "A386003",
+  "mentions": [
+    "A002194",
+    "A010476",
+    "A102771",
+    "A120011",
+    "A386001",
+    "A386002"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

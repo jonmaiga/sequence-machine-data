@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of sqrt((1-x) / (1-9*x)^3).",
+  "id": "A387208",
+  "mentions": [
+    "A085363",
+    "A163869",
+    "A163872",
+    "A383946",
+    "A387210"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

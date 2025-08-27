@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n>0 such that 2*n^2+14*n+5 is prime.",
+  "description": "Numbers k>0 such that 2*k^2+14*k+5 is prime.",
   "id": "A176545",
   "mentions": [
     "A144562",

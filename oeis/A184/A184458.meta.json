@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X(n+1) binary arrays with equal numbers of majority one 2X2 subblocks and majority zero 2X2 subblocks",
+  "description": "Half the number of (n+1)X(n+1) binary arrays with equal numbers of majority one 2X2 subblocks and majority zero 2X2 subblocks.",
   "id": "A184458",
   "mentions": [
     "A184467"

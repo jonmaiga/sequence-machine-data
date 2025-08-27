@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) binary arrays with every 2X2 subblock sum equal to exactly one or two horizontal and vertical neighbor 2X2 subblock sums",
+  "description": "Number of (n+1)X(n+1) binary arrays with every 2X2 subblock sum equal to exactly one or two horizontal and vertical neighbor 2X2 subblock sums.",
   "id": "A188303",
   "mentions": [
     "A188311"

@@ -1,0 +1,18 @@
+{
+  "description": "Number of Schröder paths of semilength 2n and having n valleys.",
+  "id": "A385299",
+  "mentions": [
+    "A006318",
+    "A007004",
+    "A101282"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

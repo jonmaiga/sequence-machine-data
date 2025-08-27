@@ -1,5 +1,5 @@
 {
-  "description": "Hilltop maps: number of n X 1 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal or vertical neighbor in a random 0..2 n X 1 array",
+  "description": "Hilltop maps: number of n X 1 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal or vertical neighbor in a random 0..2 n X 1 array.",
   "id": "A218199",
   "mentions": [
     "A102026",

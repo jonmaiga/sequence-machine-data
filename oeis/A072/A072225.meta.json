@@ -1,12 +1,13 @@
 {
-  "description": "Numbers n such that prime(n) + prime(n+1) + prime(n+2) is prime.",
+  "description": "Numbers k such that prime(k) + prime(k+1) + prime(k+2) is prime.",
   "id": "A072225",
   "mentions": [
     "A034962",
     "A073681",
     "A117673",
     "A152469",
-    "A152470"
+    "A152470",
+    "A386275"
   ],
   "tags": [
     "easy",

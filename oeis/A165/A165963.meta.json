@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of length n without increasing or decreasing modular 3-sequences",
+  "description": "Number of permutations of length n without increasing or decreasing modular 3-sequences.",
   "id": "A165963",
   "mentions": [
     "A078628",

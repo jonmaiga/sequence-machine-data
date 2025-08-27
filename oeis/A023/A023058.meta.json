@@ -1,7 +1,9 @@
 {
-  "description": "Numbers k such that k and 2k are anagrams of each other in base 3 (k is written here in base 3).",
+  "description": "Positive numbers k such that k and 2*k are anagrams of each other in base 3 (k is written here in base 3).",
   "id": "A023058",
-  "mentions": [],
+  "mentions": [
+    "A007089"
+  ],
   "tags": [
     "base",
     "nonn"

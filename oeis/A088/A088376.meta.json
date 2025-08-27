@@ -1,14 +1,15 @@
 {
-  "description": "Numbers n such that n divides the concatenation of all divisors of n in ascending order other than 1 and n itself.",
+  "description": "Numbers k such that k divides the concatenation of all divisors of k in ascending order other than 1 and k itself.",
   "id": "A088376",
   "mentions": [],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

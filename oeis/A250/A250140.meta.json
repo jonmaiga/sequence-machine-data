@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+2 0..k arrays with the medians of every three consecutive terms nondecreasing",
+  "description": "T(n,k)=Number of length n+2 0..k arrays with the medians of every three consecutive terms nondecreasing.",
   "id": "A250140",
   "mentions": [
     "A000578",

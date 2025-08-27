@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct sums of distinct prime factors of n.",
+  "id": "A385646",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A119347",
+    "A385645"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

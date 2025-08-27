@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 11 iterations of 'Reverse and Subtract' lead to n, whereas fewer than 11 iterations do not lead to n.",
+  "description": "Numbers k such that 11 iterations of 'Reverse and Subtract' lead to k, whereas fewer than 11 iterations do not lead to k.",
   "id": "A292846",
   "mentions": [
     "A072142",

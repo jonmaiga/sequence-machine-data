@@ -1,0 +1,36 @@
+{
+  "description": "The sum of the unitary divisors of n that are cubefull numbers (A036966).",
+  "id": "A385048",
+  "mentions": [
+    "A034448",
+    "A036966",
+    "A046100",
+    "A092261",
+    "A192066",
+    "A358346",
+    "A358347",
+    "A360540",
+    "A360720",
+    "A368248",
+    "A371242",
+    "A380396",
+    "A383763",
+    "A385005",
+    "A385043",
+    "A385045",
+    "A385046",
+    "A385047",
+    "A385049"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

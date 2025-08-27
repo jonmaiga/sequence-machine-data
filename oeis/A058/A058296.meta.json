@@ -2,6 +2,7 @@
   "description": "Average of consecutive primes.",
   "id": "A058296",
   "mentions": [
+    "A000040",
     "A024675",
     "A079424"
   ],

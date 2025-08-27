@@ -1,0 +1,16 @@
+{
+  "description": "Number of simple graphs on n unlabeled vertices having a unique independence polynomial.",
+  "id": "A385864",
+  "mentions": [
+    "A263855"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

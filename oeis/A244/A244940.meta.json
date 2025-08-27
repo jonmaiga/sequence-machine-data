@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n 0..k arrays with each partial sum starting from the beginning no more than sqrt(3) standard deviations from its mean",
+  "description": "T(n,k)=Number of length n 0..k arrays with each partial sum starting from the beginning no more than sqrt(3) standard deviations from its mean.",
   "id": "A244940",
   "mentions": [
     "A000027"

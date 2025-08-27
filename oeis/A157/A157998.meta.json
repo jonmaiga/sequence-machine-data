@@ -1,5 +1,5 @@
 {
-  "description": "169n^2 - n.",
+  "description": "a(n) = 169*n^2 - n.",
   "id": "A157998",
   "mentions": [
     "A157999"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

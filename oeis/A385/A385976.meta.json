@@ -1,0 +1,17 @@
+{
+  "description": "Least integer k such that there are exactly n primitive Heron triangles having the same area and perimeter k.",
+  "id": "A385976",
+  "mentions": [
+    "A385819"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

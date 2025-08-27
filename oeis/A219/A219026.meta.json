@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes p<=n such that 2n-p and 2n+p-2 are both prime",
+  "description": "Number of primes p<=n such that 2n-p and 2n+p-2 are both prime.",
   "id": "A219026",
   "mentions": [
     "A000040",

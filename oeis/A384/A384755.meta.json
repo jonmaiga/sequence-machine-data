@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of face-connected components of polyhedra with k prisms and n-k truncated cuboctahedra in the omnitruncated cubic honeycomb up to rotation and reflection, 0 <= k <= n.",
+  "id": "A384755",
+  "mentions": [
+    "A038171",
+    "A365970",
+    "A384486",
+    "A384754",
+    "A384756",
+    "A384782"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

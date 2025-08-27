@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that S = Sum_{i = 1..q} 1/d(i) is an integer where d(i) are the divisors of n in increasing order, and q the smallest integer 1 < q <= tau(n) for n > 1.",
+  "description": "Numbers m such that S = Sum_{i = 1..q} 1/d(i) is an integer where d(i) are the divisors of m in increasing order, and q the smallest integer 1 < q <= tau(m) for m > 1; and a(1) = 1.",
   "id": "A225110",
   "mentions": [
     "A000005",

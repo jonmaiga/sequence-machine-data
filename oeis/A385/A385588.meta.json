@@ -1,0 +1,17 @@
+{
+  "description": "Number of non-derangements of length n with 2 excedances.",
+  "id": "A385588",
+  "mentions": [
+    "A046739"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 28,
+    "source": "joeis"
+  }
+}

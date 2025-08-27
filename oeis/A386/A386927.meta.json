@@ -1,0 +1,16 @@
+{
+  "description": "Continued fraction of BesselI(2, 2 * sqrt(2)).",
+  "id": "A386927",
+  "mentions": [
+    "A386710"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of arrays of 2n nondecreasing integers in -k..k with sum zero and equal numbers greater than zero and less than zero",
+  "description": "T(n,k)=Number of arrays of 2n nondecreasing integers in -k..k with sum zero and equal numbers greater than zero and less than zero.",
   "id": "A203291",
   "mentions": [
     "A000217"

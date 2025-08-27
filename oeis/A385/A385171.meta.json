@@ -1,0 +1,21 @@
+{
+  "description": "Perfect powers m^k whose decimal expansion begins with k and ends with m, where m and k are greater than 1.",
+  "id": "A385171",
+  "mentions": [
+    "A001597",
+    "A003226",
+    "A033819",
+    "A051248",
+    "A074250",
+    "A378857"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

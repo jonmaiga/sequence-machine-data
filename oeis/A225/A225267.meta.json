@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of distinct values of the sum of a*b+a*c+b*c over n sets of three a,b,c 0..k integers",
+  "description": "T(n,k)=Number of distinct values of the sum of a*b+a*c+b*c over n sets of three a,b,c 0..k integers.",
   "id": "A225267",
   "mentions": [
     "A225270"

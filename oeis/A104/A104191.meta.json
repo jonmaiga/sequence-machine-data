@@ -2,7 +2,8 @@
   "description": "Sum of Euler totient function between successive powers of two.",
   "id": "A104191",
   "mentions": [
-    "A002088"
+    "A002088",
+    "A018805"
   ],
   "tags": [
     "formulas",

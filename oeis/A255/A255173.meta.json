@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1+prime(n) and 1+prime(n+1) are the product of the same number of primes.",
+  "description": "Numbers k such that 1+prime(k) and 1+prime(k+1) are the product of the same number of primes.",
   "id": "A255173",
   "mentions": [],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Number of uniquely solveable n X 2 nonograms (hanjie).",
+  "id": "A383345",
+  "mentions": [
+    "A242876",
+    "A384764",
+    "A385862"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

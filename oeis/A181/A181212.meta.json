@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary matrices with no two 1's adjacent diagonally or antidiagonally",
+  "description": "T(n,k)=Number of nXk binary matrices with no two 1's adjacent diagonally or antidiagonally.",
   "id": "A181212",
   "mentions": [
     "A067965"

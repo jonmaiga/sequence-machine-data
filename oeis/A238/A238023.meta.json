@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(3+2) 0..1 arrays with the (lower) medians of each row unequal to its neighbors and each column equal to its neighbors",
+  "description": "Number of (n+2)X(3+2) 0..1 arrays with the (lower) medians of each row unequal to its neighbors and each column equal to its neighbors.",
   "id": "A238023",
   "mentions": [
     "A238026"

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the start of the first occurrence of exactly n consecutive zeroless primes (A038618).",
+  "id": "A384793",
+  "mentions": [
+    "A038618",
+    "A052382",
+    "A384794"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

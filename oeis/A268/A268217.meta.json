@@ -1,22 +1,21 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n>=3, k=3..n+1) is the number of topologies t on n points having exactly k open sets such that t contains exactly one open set of size m for each m in {0,2,3,4,...,s,n} where s is the size of the largest proper open set in t.",
+  "description": "Triangle read by rows: T(n,k) (n>=3, k=3..n) is the number of topologies t on n points having exactly k open sets such that t contains exactly one open set of size m for each m in {0,2,3,4,...,s,n} where s is the size of the largest proper open set in t.",
   "id": "A268217",
   "mentions": [
     "A038158",
-    "A268216",
+    "A119741",
     "A268221",
     "A268222",
     "A268223",
     "A282507"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 3,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

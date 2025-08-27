@@ -2,7 +2,9 @@
   "description": "Number of regions in regular n-gon which are quadrilaterals (4-gons) when all its diagonals are drawn.",
   "id": "A067151",
   "mentions": [
+    "A007569",
     "A007678",
+    "A062361",
     "A064869",
     "A067152",
     "A067153",
@@ -12,7 +14,11 @@
     "A067157",
     "A067158",
     "A067159",
-    "A067163"
+    "A067163",
+    "A101363",
+    "A292104",
+    "A292105",
+    "A331450"
   ],
   "tags": [
     "formulas",

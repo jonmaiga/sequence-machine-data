@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose deficiency is 12: 2n - sigma(n) = 12.",
+  "description": "Numbers k whose deficiency is 12: 2k - sigma(k) = 12.",
   "id": "A141549",
   "mentions": [
     "A000203",

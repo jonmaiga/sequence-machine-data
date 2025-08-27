@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k-1 | sigma+(k) where sigma+ is A107758.",
+  "id": "A386390",
+  "mentions": [
+    "A055708",
+    "A107758"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

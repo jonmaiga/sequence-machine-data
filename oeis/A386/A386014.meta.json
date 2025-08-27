@@ -1,0 +1,21 @@
+{
+  "description": "Distinct values occurring in first differences of A030655(n), listed in order of first appearance.",
+  "id": "A386014",
+  "mentions": [
+    "A007376",
+    "A030655",
+    "A057147",
+    "A061084"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

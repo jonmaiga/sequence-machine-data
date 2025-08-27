@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci numbers whose difference between the greatest prime divisor and the smallest prime divisor equals twice a Fibonacci number.",
+  "description": "Fibonacci numbers whose difference between the greatest prime divisor and the smallest prime divisor equals twice a positive Fibonacci number.",
   "id": "A236694",
   "mentions": [
     "A000045",

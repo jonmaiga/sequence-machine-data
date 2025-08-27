@@ -1,0 +1,22 @@
+{
+  "description": "Smallest m such that 5^m begins with n 9's after the first digit.",
+  "id": "A385971",
+  "mentions": [
+    "A000351",
+    "A011557",
+    "A111395",
+    "A152561"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

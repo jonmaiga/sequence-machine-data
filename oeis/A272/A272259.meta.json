@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: Row n>=32 gives the smallest square loop, i.e., lexicographically earliest circular permutation of length n such that any two adjacent numbers sum to a perfect square.",
+  "description": "Irregular triangle read by rows: Row n >= 32 gives the smallest square loop, i.e., lexicographically earliest circular permutation of length n such that any two adjacent numbers sum to a perfect square.",
   "id": "A272259",
   "mentions": [
     "A071984",

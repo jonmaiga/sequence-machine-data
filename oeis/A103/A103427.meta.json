@@ -1,5 +1,5 @@
 {
-  "description": "(1/12)*Number of non-degenerate scalene triangles that can be formed from the points of an (n+1)X(n+1)X(n+1) lattice cube.",
+  "description": "(1/12) * Number of non-degenerate scalene triangles that can be formed from the points of an (n+1) X (n+1) X (n+1) lattice cube.",
   "id": "A103427",
   "mentions": [
     "A103158",

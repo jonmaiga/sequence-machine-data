@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by upward antidiagonals: A(n,k) = 0 except for A(d*(m-1),m*(d-1)) = d, with n >= 0, k >= 0, d >= 1, m >= 1.",
+  "id": "A385000",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000027",
+    "A000203",
+    "A007503",
+    "A027750",
+    "A056538",
+    "A208460"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

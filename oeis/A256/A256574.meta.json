@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of chi(x) * psi(-x^3) * psi(x^48) in powers of x where psi(), chi() are Ramanujan theta functions",
+  "description": "Expansion of chi(x) * psi(-x^3) * psi(x^48) in powers of x where psi(), chi() are Ramanujan theta functions.",
   "id": "A256574",
   "mentions": [
     "A000122",

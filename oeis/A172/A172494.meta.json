@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with (p,p+2) = ((2*n)^3/2 - 1,(2*n)^3/2 + 1) is a twin prime pair.",
+  "description": "Numbers k with (p,p+2) = ((2*k)^3/2 - 1,(2*k)^3/2 + 1) is a twin prime pair.",
   "id": "A172494",
   "mentions": [
     "A001359",

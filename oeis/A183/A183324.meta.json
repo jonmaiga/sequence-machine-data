@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 binary arrays with each 1 adjacent to exactly two other 1s",
+  "description": "Number of nX3 binary arrays with each 1 adjacent to exactly two other 1s.",
   "id": "A183324",
   "mentions": [
     "A033305",

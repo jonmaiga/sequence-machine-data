@@ -1,13 +1,15 @@
 {
-  "description": "Expansion of 1/((1-x)(1-x^10)(1-x^11)).",
+  "description": "Expansion of 1/((1-x)*(1-x^10)*(1-x^11)).",
   "id": "A025793",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 65,
+    "size": 74,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..3 nX7 array",
+  "description": "Number of nX7 arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..3 nX7 array.",
   "id": "A218521",
   "mentions": [
     "A218522"

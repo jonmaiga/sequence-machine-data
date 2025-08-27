@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+5 0..2 arrays with at most two downsteps in every 5 consecutive neighbor pairs",
+  "description": "Number of length n+5 0..2 arrays with at most two downsteps in every 5 consecutive neighbor pairs.",
   "id": "A255619",
   "mentions": [
     "A255622"

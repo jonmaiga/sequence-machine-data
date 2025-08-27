@@ -1,0 +1,34 @@
+{
+  "description": "Number of maximal runs of consecutive parts increasing by 1 in the prime indices of n (with multiplicity).",
+  "id": "A385213",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A034839",
+    "A048767",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A069010",
+    "A112798",
+    "A116674",
+    "A130091",
+    "A300820",
+    "A351202",
+    "A356606",
+    "A382525",
+    "A384877",
+    "A384878",
+    "A384890",
+    "A384893",
+    "A384906"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

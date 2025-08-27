@@ -1,0 +1,21 @@
+{
+  "description": "Products of five consecutive integers whose prime divisors are consecutive primes starting at 2.",
+  "id": "A385631",
+  "mentions": [
+    "A052787",
+    "A055932",
+    "A217056",
+    "A385189",
+    "A385415"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

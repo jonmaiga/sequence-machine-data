@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, a signed variant of A077049 * A128407; as infinite lower triangular matrices",
+  "description": "Triangle read by rows, a signed variant of A077049 * A128407; as infinite lower triangular matrices.",
   "id": "A176918",
   "mentions": [
     "A008683",

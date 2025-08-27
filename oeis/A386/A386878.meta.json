@@ -1,0 +1,19 @@
+{
+  "description": "Number of runs of 1's of length <= 3 over all binary strings of length n.",
+  "id": "A386878",
+  "mentions": [
+    "A001792",
+    "A045623",
+    "A106472"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

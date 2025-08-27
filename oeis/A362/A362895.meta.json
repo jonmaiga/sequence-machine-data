@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the length of the smallest orbit of the n-th natural downset",
+  "description": "a(n) is the length of the smallest orbit of the n-th natural downset.",
   "id": "A362895",
   "mentions": [
     "A000372",

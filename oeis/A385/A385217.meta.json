@@ -1,0 +1,19 @@
+{
+  "description": "Odd multiplicative orders of 2+-i modulo primes p == 3 (mod 4).",
+  "id": "A385217",
+  "mentions": [
+    "A385165",
+    "A385169",
+    "A385218",
+    "A385219"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

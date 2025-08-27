@@ -1,0 +1,21 @@
+{
+  "description": "Array read by upward antidiagonals: T(k,n) = 1 (k = 0, n >= 0), T(k,n) = binomial(n,2)*k^2 + n*(k-1) + 1 (k >= 1, n >= 0).",
+  "id": "A386481",
+  "mentions": [
+    "A000124",
+    "A008865",
+    "A130883",
+    "A140064",
+    "A383464",
+    "A386478"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Nonpalindromic squares k such that reverse(k) - k is a cube.",
+  "description": "Nonpalindromic squares k such that reverse(k) - k is a positive cube.",
   "id": "A079270",
   "mentions": [],
   "tags": [

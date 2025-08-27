@@ -1,9 +1,20 @@
 {
-  "description": "2^(2p - 1)-1, where p is a Mersenne prime A000668(n).",
+  "description": "a(n) = 2^(2p - 1)-1, where p is the n-th Mersenne prime A000668(n).",
   "id": "A139295",
   "mentions": [
     "A000668",
-    "A139294"
+    "A139294",
+    "A139296",
+    "A139297",
+    "A139298",
+    "A139299",
+    "A139300",
+    "A139301",
+    "A139302",
+    "A139303",
+    "A139304",
+    "A139305",
+    "A139306"
   ],
   "tags": [
     "formulas",

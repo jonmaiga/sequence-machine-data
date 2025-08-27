@@ -2,6 +2,7 @@
   "description": "Number of partitions of n such that 2*(least part) < greatest part.",
   "id": "A237820",
   "mentions": [
+    "A000041",
     "A053263",
     "A118096",
     "A237821",
@@ -9,11 +10,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

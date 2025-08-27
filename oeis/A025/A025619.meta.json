@@ -2,7 +2,9 @@
   "description": "Numbers of form 4^i*7^j, with i, j >= 0.",
   "id": "A025619",
   "mentions": [
-    "A003591"
+    "A003591",
+    "A025648",
+    "A025666"
   ],
   "tags": [
     "easy",

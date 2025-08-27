@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number which has in its Spanish name the letter \"o\" in the n-th position",
+  "description": "a(n) = smallest number which has in its Spanish name the letter \"o\" in the n-th position.",
   "id": "A164800",
   "mentions": [],
   "tags": [

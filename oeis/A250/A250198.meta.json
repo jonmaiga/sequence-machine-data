@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the right Aurifeuillian primitive part of 2^n+1 is prime.",
+  "description": "Numbers k such that the right Aurifeuillian primitive part of 2^k+1 is prime.",
   "id": "A250198",
   "mentions": [
     "A019320",

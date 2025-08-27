@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of exp((Sum_{k>=2} log(k)/k!)/(e-1)).",
+  "id": "A385686",
+  "mentions": [
+    "A296301",
+    "A306243",
+    "A382095",
+    "A385685"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

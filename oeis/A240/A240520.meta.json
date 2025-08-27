@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that set a new integer record for the ratio between the product and the sum of their digits",
+  "description": "Numbers that set a new integer record for the ratio between the product and the sum of their digits.",
   "id": "A240520",
   "mentions": [
     "A038367"

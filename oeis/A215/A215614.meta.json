@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n that are not multiples of 10 such that sum of digits of n^2 is 7.",
+  "description": "Numbers k that are not multiples of 10 and such that sum of digits of k^2 is 7.",
   "id": "A215614",
   "mentions": [
     "A004159",
-    "A062397"
+    "A062397",
+    "A262711",
+    "A384094",
+    "A384095"
   ],
   "tags": [
     "base",
-    "fini",
-    "full",
+    "more",
     "nonn"
   ],
   "terms": {

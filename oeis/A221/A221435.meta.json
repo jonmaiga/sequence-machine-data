@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 1..(max n,5) arrays with each row and column having unrepeated values",
+  "description": "Number of nX5 1..(max n,5) arrays with each row and column having unrepeated values.",
   "id": "A221435",
   "mentions": [
     "A221438"

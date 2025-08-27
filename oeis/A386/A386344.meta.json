@@ -1,0 +1,20 @@
+{
+  "description": "Primes without {3, 9} as digits.",
+  "id": "A386344",
+  "mentions": [
+    "A000040",
+    "A038611",
+    "A038617",
+    "A385776"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

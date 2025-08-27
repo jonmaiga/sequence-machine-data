@@ -1,12 +1,16 @@
 {
-  "description": "a(n) = tau(n) - omega(n) + n * Sum_{p|n} 1/p.",
+  "description": "a(n) = tau(n) - omega(n) + n * Sum_{p|n, p prime} 1/p.",
   "id": "A348219",
   "mentions": [
     "A000005",
+    "A000010",
     "A001221",
+    "A005171",
+    "A007503",
     "A010051",
     "A069359",
-    "A348203"
+    "A348203",
+    "A386438"
   ],
   "tags": [
     "formulas",

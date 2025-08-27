@@ -1,5 +1,5 @@
 {
-  "description": "Primes in A124271, or primes of the form Sum_{i=1..n} (prime(i)^n - 1)/(prime(i) - 1).",
+  "description": "Primes in A124271, or primes of the form Sum_{i=1..k} (prime(i)^k - 1)/(prime(i) - 1).",
   "id": "A124272",
   "mentions": [
     "A124271"
@@ -7,7 +7,6 @@
   "tags": [
     "bref",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {

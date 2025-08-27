@@ -1,16 +1,28 @@
 {
-  "description": "Odd numbers whose abundance b satisfies -10 <= b <= 10, where the abundance of a number n is A(n) = sigma(n) - 2n.",
+  "description": "Odd numbers m whose abundance by absolute value is at most 10, that is, -10 <= sigma(m) - 2m <= 10.",
   "id": "A077374",
   "mentions": [
     "A000203",
     "A033879",
     "A033880",
+    "A087167",
     "A088012",
+    "A088831",
+    "A088832",
+    "A088833",
+    "A101223",
+    "A125246",
+    "A125247",
+    "A141548",
     "A171929",
     "A188263",
-    "A188597"
+    "A188597",
+    "A191363",
+    "A223609"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

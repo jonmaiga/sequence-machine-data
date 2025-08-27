@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x + x^5*A''''(x)).",
+  "id": "A386503",
+  "mentions": [
+    "A143925",
+    "A385066",
+    "A385922",
+    "A386450",
+    "A386502",
+    "A386504"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

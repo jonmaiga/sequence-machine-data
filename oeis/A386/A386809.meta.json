@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have exactly two exponents in their prime factorization that are equal to 5.",
+  "id": "A386809",
+  "mentions": [
+    "A386797",
+    "A386801",
+    "A386805",
+    "A386807",
+    "A386808",
+    "A386810"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

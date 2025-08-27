@@ -1,5 +1,5 @@
 {
-  "description": "Number of right triangles on a (n+1)X8 grid",
+  "description": "Number of right triangles on a (n+1)X8 grid.",
   "id": "A189812",
   "mentions": [
     "A189814"

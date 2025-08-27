@@ -2,12 +2,14 @@
   "description": "1-limiting word of the morphism 0->1, 1-> 0111.",
   "id": "A284677",
   "mentions": [
+    "A284674",
     "A284675",
     "A284678",
     "A284679"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

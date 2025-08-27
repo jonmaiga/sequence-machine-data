@@ -1,16 +1,17 @@
 {
-  "description": "Primes of the form (16^n - 3^n)/13.",
+  "description": "Primes of the form (16^k - 3^k)/13.",
   "id": "A138943",
   "mentions": [
-    "A128030"
+    "A128030",
+    "A180845"
   ],
   "tags": [
-    "bref",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

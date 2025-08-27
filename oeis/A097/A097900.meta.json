@@ -1,7 +1,9 @@
 {
   "description": "Number of runs of length 1 in all permutations of [n]. (The permutation 3574162 has two runs of length 1: 357/4/16/2.)",
   "id": "A097900",
-  "mentions": [],
+  "mentions": [
+    "A159920"
+  ],
   "tags": [
     "easy",
     "formulas",

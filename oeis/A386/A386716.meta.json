@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} {1/x}^3 * x^3 dx, where {} denotes fractional part.",
+  "id": "A386716",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013662",
+    "A354238",
+    "A386715"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

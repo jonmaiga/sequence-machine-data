@@ -2,6 +2,9 @@
   "description": "Binary representation of the n-th iteration of the \"Rule 251\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A267937",
   "mentions": [
+    "A100706",
+    "A267887",
+    "A267889",
     "A267936"
   ],
   "tags": [

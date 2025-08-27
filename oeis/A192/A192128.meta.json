@@ -1,5 +1,5 @@
 {
-  "description": "Number of set partitions of {1, ..., n} that avoid 7-nestings",
+  "description": "Number of set partitions of {1, ..., n} that avoid 7-nestings.",
   "id": "A192128",
   "mentions": [
     "A000110"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+3 0..k arrays with no consecutive four elements summing to more than 2*k",
+  "description": "T(n,k)=Number of length n+3 0..k arrays with no consecutive four elements summing to more than 2*k.",
   "id": "A241964",
   "mentions": [
     "A118647",

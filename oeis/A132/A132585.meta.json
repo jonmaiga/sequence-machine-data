@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that sigma(n)-n-1 divides sigma(n+1)-n-2, where sigma(n) is sum of positive divisors of n and the ratio is greater than zero.",
+  "description": "Numbers k such that sigma(k)-k-1 divides sigma(k+1)-k-2, where sigma(k) is sum of positive divisors of k and the ratio is greater than zero.",
   "id": "A132585",
   "mentions": [
+    "A000203",
     "A002961",
     "A058072",
     "A058073",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

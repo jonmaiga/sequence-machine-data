@@ -1,0 +1,16 @@
+{
+  "description": "Antidiagonal sums of the array defined in A385623.",
+  "id": "A385624",
+  "mentions": [
+    "A385623"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

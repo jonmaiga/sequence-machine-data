@@ -2,7 +2,11 @@
   "description": "Primes p where neither the number of divisors of p+1 nor the number of divisors of p-1 is a power of 2.",
   "id": "A165320",
   "mentions": [
+    "A000005",
     "A000079",
+    "A008328",
+    "A008329",
+    "A036537",
     "A165318",
     "A165319"
   ],

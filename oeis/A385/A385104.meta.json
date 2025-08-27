@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of residue classes obtained by solving mod(x^2,n) = k for x over the integers, n >= 1, k >= 0.",
+  "id": "A385104",
+  "mentions": [
+    "A000089",
+    "A000188",
+    "A060594",
+    "A096008"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 arrays of occupancy after each element moves to some king-move neighbor",
+  "description": "Number of nX4 arrays of occupancy after each element moves to some king-move neighbor.",
   "id": "A221191",
   "mentions": [
     "A221192"

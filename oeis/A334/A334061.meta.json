@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of set partitions of {1..4n} into n sets of 4 with k disjoint strings of adjacent sets, each being a contiguous set of elements",
+  "description": "Triangle read by rows: T(n,k) is the number of set partitions of {1..4n} into n sets of 4 with k disjoint strings of adjacent sets, each being a contiguous set of elements.",
   "id": "A334061",
   "mentions": [
     "A025036",

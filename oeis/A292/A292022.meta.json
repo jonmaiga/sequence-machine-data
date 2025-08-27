@@ -1,7 +1,11 @@
 {
-  "description": "a(n) = 4n(n^2+2).",
+  "description": "a(n) = 4*n*(n^2 + 2).",
   "id": "A292022",
-  "mentions": [],
+  "mentions": [
+    "A006527",
+    "A054602",
+    "A217873"
+  ],
   "tags": [
     "easy",
     "formulas",

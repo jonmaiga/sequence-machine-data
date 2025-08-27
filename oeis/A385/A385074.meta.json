@@ -1,0 +1,16 @@
+{
+  "description": "Index of the first occurrence of n in A385073.",
+  "id": "A385074",
+  "mentions": [
+    "A385073"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

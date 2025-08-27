@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k>=0} ( ( binomial(n+k-1, k) * 3^k ) (mod 4^k) ) / 4^k.",
+  "id": "A386653",
+  "mentions": [
+    "A386651",
+    "A386652",
+    "A386654"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

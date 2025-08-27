@@ -1,7 +1,14 @@
 {
   "description": "Expansion of (2/(1+sqrt(1-36*x)))^(1/3).",
   "id": "A008931",
-  "mentions": [],
+  "mentions": [
+    "A004987",
+    "A078532",
+    "A245114",
+    "A247029",
+    "A376282",
+    "A376636"
+  ],
   "tags": [
     "formulas",
     "nonn"

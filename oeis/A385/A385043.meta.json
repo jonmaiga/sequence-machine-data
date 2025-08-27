@@ -1,0 +1,37 @@
+{
+  "description": "The sum of the unitary divisors of n whose exponents in their prime factorizations are all powers of 2 (A138302).",
+  "id": "A385043",
+  "mentions": [
+    "A005117",
+    "A034448",
+    "A092261",
+    "A138302",
+    "A192066",
+    "A209229",
+    "A353900",
+    "A358346",
+    "A358347",
+    "A360720",
+    "A367168",
+    "A371242",
+    "A380396",
+    "A383763",
+    "A385042",
+    "A385045",
+    "A385046",
+    "A385047",
+    "A385048",
+    "A385049"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

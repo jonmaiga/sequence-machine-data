@@ -1,5 +1,5 @@
 {
-  "description": "Greatest k such that sigma(k) = sigma(n).",
+  "description": "a(n) = greatest k such that sigma(k) = sigma(n).",
   "id": "A325651",
   "mentions": [
     "A000203",

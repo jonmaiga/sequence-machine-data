@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers whose Spanish names contain a prime number of letters",
+  "description": "Positive integers whose Spanish names contain a prime number of letters.",
   "id": "A151716",
   "mentions": [
     "A072685"

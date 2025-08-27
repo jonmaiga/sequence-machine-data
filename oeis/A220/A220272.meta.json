@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=x^2+y (x>0, y>0) with 2*x*y-1 prime",
+  "description": "Number of ways to write n=x^2+y (x>0, y>0) with 2*x*y-1 prime.",
   "id": "A220272",
   "mentions": [
     "A219842",

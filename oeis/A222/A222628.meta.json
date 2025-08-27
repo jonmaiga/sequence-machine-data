@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..1 arrays with no more than floor(n X n/2) elements unequal to at least one horizontal, vertical or antidiagonal neighbor, with new values introduced in row major 0..1 order",
+  "description": "Number of n X n 0..1 arrays with no more than floor(n X n/2) elements unequal to at least one horizontal, vertical or antidiagonal neighbor, with new values introduced in row major 0..1 order.",
   "id": "A222628",
   "mentions": [
     "A222635"

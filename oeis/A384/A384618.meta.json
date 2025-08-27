@@ -1,0 +1,16 @@
+{
+  "description": "Primes preceded and followed by gaps whose quotient (value greater or equal to 1) is greater than 2.",
+  "id": "A384618",
+  "mentions": [
+    "A384603"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

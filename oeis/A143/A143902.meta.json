@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array R by antidiagonals: R(m,n) = number of black squares",
+  "description": "Rectangular array R by antidiagonals: R(m,n) = number of black squares.",
   "id": "A143902",
   "mentions": [
     "A000217",

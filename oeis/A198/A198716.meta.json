@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..6 arrays with values 0..6 introduced in row major order and no element equal to any horizontal or vertical neighbor",
+  "description": "Number of n X n 0..6 arrays with values 0..6 introduced in row major order and no element equal to any horizontal or vertical neighbor.",
   "id": "A198716",
   "mentions": [
     "A198723"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 10,
     "source": "oeis-bfile"
   }
 }

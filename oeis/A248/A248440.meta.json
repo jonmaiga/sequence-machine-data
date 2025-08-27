@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 7+2 0..n arrays with every three consecutive terms having the sum of some two elements equal to twice the third",
+  "description": "Number of length 7+2 0..n arrays with every three consecutive terms having the sum of some two elements equal to twice the third.",
   "id": "A248440",
   "mentions": [
     "A248433"

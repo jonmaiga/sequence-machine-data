@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (1 + k) * (1 + k^5) * binomial(n-1,k) * a(k) * a(n-1-k).",
+  "id": "A385942",
+  "mentions": [
+    "A156326",
+    "A385833",
+    "A385939",
+    "A385940",
+    "A385941",
+    "A385943"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+4 0..7 arrays with every five consecutive terms having four times some element equal to the sum of the remaining four",
+  "description": "Number of length n+4 0..7 arrays with every five consecutive terms having four times some element equal to the sum of the remaining four.",
   "id": "A249655",
   "mentions": [
     "A249656"

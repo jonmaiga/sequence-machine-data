@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 3+2*(sum of digits of p) is also a prime",
+  "description": "Primes p such that 3+2*(sum of digits of p) is also a prime.",
   "id": "A165439",
   "mentions": [
     "A007605",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

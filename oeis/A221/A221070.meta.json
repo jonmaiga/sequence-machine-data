@@ -1,5 +1,5 @@
 {
-  "description": "Sum of neighbor maps: number of nX6 binary arrays indicating the locations of corresponding elements equal to the sum mod 4 of their king-move neighbors in a random 0..3 nX6 array",
+  "description": "Sum of neighbor maps: number of n X 6 binary arrays indicating the locations of corresponding elements equal to the sum mod 4 of their king-move neighbors in a random 0..3 n X 6 array.",
   "id": "A221070",
   "mentions": [
     "A221072"

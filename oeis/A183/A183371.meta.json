@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 binary arrays with no element equal to the mod 3 sum of its diagonal and antidiagonal neighbors",
+  "description": "Number of nX4 binary arrays with no element equal to the mod 3 sum of its diagonal and antidiagonal neighbors.",
   "id": "A183371",
   "mentions": [
     "A183374"

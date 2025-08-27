@@ -1,0 +1,22 @@
+{
+  "description": "Primes formed by the initial digits of the decimal expansion of 1/7, starting at the first nonzero digit in the expansion.",
+  "id": "A242824",
+  "mentions": [
+    "A020806",
+    "A093676",
+    "A241217",
+    "A242826",
+    "A242827",
+    "A242828",
+    "A242833"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

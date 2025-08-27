@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+3)X(k+3) 0..2 arrays with every 4X4 subblock commuting with each horizontal and vertical neighbor 4X4 subblock",
+  "description": "T(n,k)=Number of (n+3)X(k+3) 0..2 arrays with every 4X4 subblock commuting with each horizontal and vertical neighbor 4X4 subblock.",
   "id": "A186589",
   "mentions": [],
   "tags": [

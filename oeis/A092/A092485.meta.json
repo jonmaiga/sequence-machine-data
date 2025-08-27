@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of Product_{m=>1} (1+m*(m+1)*q^m).",
+  "description": "Expansion of Product_{m>=1} (1+m*(m+1)*q^m).",
   "id": "A092485",
   "mentions": [
     "A022629",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

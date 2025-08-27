@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 10^n + 31 is prime.",
+  "description": "Integers k such that 10^k + 31 is prime.",
   "id": "A107083",
   "mentions": [
     "A049054",

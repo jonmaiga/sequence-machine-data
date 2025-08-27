@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0; thereafter a(n) = 2*n^2 - 3*n + 5.",
+  "id": "A386479",
+  "mentions": [
+    "A014105",
+    "A014107",
+    "A084849",
+    "A096376",
+    "A236257",
+    "A386478"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

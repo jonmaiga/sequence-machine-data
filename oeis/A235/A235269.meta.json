@@ -1,5 +1,5 @@
 {
-  "description": "floor(s*t/(s+t)), where s(n) are the squares, t(n) the triangular numbers.",
+  "description": "a(n) = floor(s*t/(s+t)), where s(n) are the squares, t(n) the triangular numbers.",
   "id": "A235269",
   "mentions": [
     "A000217",

@@ -6,13 +6,12 @@
     "A047687"
   ],
   "tags": [
-    "easy",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

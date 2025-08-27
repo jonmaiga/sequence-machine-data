@@ -1,15 +1,18 @@
 {
-  "description": "a(n) = position of square of n-th prime among the powers of primes (A000961).",
+  "description": "a(n) is the position of square of n-th prime among the powers of primes (A000961).",
   "id": "A024624",
   "mentions": [
-    "A000961"
+    "A000961",
+    "A001248",
+    "A024625"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

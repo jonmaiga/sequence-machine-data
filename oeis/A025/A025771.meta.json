@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)(1-x^3)(1-x^11)).",
+  "description": "Expansion of 1/((1-x)*(1-x^3)*(1-x^11)).",
   "id": "A025771",
   "mentions": [
     "A099837"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 60,
-    "source": "joeis"
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p and 3*p^2+3*p+1 are both prime",
+  "description": "Primes p such that p and 3*p^2+3*p+1 are both prime.",
   "id": "A167525",
   "mentions": [],
   "tags": [

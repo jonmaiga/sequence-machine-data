@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k * 3^(n-k) * binomial(4*n+1,k) * binomial(4*n-k,n-k).",
+  "id": "A385671",
+  "mentions": [
+    "A016127",
+    "A384366",
+    "A385669",
+    "A385670",
+    "A386768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

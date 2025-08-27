@@ -1,5 +1,5 @@
 {
-  "description": "Number of (non-null) connected induced subgraphs in the n-Sierpinski sieve graph.",
+  "description": "Number of (non-null) connected induced subgraphs in the n-Sierpinski gasket graph.",
   "id": "A292067",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that k iterations of n under the modified Collatz function yield k for some k.",
+  "description": "Numbers m such that k iterations of m under the modified Collatz function yield k for some k.",
   "id": "A258826",
   "mentions": [
     "A014682",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n} phi(n/d) * A003415(d), where A003415 is the arithmetic derivative and phi is Euler totient function",
+  "description": "a(n) = Sum_{d|n} phi(n/d) * A003415(d), where A003415 is the arithmetic derivative and phi is Euler totient function.",
   "id": "A347131",
   "mentions": [
     "A000010",

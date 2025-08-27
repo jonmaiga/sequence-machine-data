@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k + A224787(k) is a square.",
+  "id": "A386640",
+  "mentions": [
+    "A224787",
+    "A385238",
+    "A386246",
+    "A386257",
+    "A386623"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

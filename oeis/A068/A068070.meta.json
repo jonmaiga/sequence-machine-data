@@ -2,8 +2,13 @@
   "description": "Number of digits in 10^n-th Fibonacci number.",
   "id": "A068070",
   "mentions": [
+    "A000032",
     "A000045",
-    "A097348"
+    "A001622",
+    "A055642",
+    "A097348",
+    "A114469",
+    "A250489"
   ],
   "tags": [
     "base",
@@ -12,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

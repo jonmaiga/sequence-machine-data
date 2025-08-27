@@ -1,0 +1,37 @@
+{
+  "description": "The number of unitary divisors of n whose exponents in their prime factorizations are all powers of 2 (A138302).",
+  "id": "A385042",
+  "mentions": [
+    "A000034",
+    "A005117",
+    "A034444",
+    "A055076",
+    "A056624",
+    "A056671",
+    "A068068",
+    "A138302",
+    "A209229",
+    "A323308",
+    "A353898",
+    "A365498",
+    "A365499",
+    "A367168",
+    "A367515",
+    "A368248",
+    "A380395",
+    "A382488",
+    "A385043",
+    "A385044"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

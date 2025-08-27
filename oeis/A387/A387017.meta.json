@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (Product_{k>=1} (1 - x^k)^2/(1 - 5*x^k + x^(2*k)) - 1)/3.",
+  "id": "A387017",
+  "mentions": [
+    "A030221",
+    "A329156",
+    "A386706"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

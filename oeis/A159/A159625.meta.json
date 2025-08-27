@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^x + 3^y is never prime when max(x,y) = n",
+  "description": "Numbers n such that 2^x + 3^y is never prime when max(x,y) = n.",
   "id": "A159625",
   "mentions": [
     "A123359",

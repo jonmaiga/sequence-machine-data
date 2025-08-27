@@ -2,15 +2,20 @@
   "description": "(32^n)-th prime.",
   "id": "A119778",
   "mentions": [
-    "A033844"
+    "A033844",
+    "A119772",
+    "A119773",
+    "A119777",
+    "A119779"
   ],
   "tags": [
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "description": "Triangle read by rows: starting with A138174, replace left border with (1, 1, 1, ...).",
+  "description": "Triangle read by rows: starting with A128174, replace left border with (1, 1, 1, ...).",
   "id": "A135839",
   "mentions": [
-    "A128174",
-    "A138174"
+    "A128174"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Least a(n) such that (a*2^n)*((a*2^n)-1)-1 is a Sophie Germain prime",
+  "description": "Least a(n) such that (a*2^n)*((a*2^n)-1)-1 is a Sophie Germain prime.",
   "id": "A176249",
   "mentions": [],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-3)^(n-k) * binomial(5*n,k).",
+  "id": "A386702",
+  "mentions": [
+    "A002294",
+    "A163455",
+    "A371739",
+    "A386699",
+    "A386700",
+    "A386701"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

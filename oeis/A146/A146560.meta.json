@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree semiprimes n such that n+1 is squarefree and n+2 is prime",
+  "description": "Squarefree semiprimes n such that n+1 is squarefree and n+2 is prime.",
   "id": "A146560",
   "mentions": [
     "A005117",

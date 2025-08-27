@@ -1,0 +1,19 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of ways to partition n X n X n cube into k noncongruent strict cuboids, n>=5, k>=4.",
+  "id": "A386903",
+  "mentions": [
+    "A386296",
+    "A386884",
+    "A386902"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

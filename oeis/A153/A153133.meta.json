@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 2^n+3^(n-1).",
+  "description": "Primes of the form 2^k+3^(k-1).",
   "id": "A153133",
   "mentions": [
     "A082400"

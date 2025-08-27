@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp(sum_{d|M} (exp(d*x)-1)/d), M=6.",
+  "description": "Expansion of e.g.f. exp(Sum_{d|6} (exp(d*x)-1)/d).",
   "id": "A141004",
   "mentions": [
     "A000110",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

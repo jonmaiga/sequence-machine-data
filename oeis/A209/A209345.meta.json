@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4-bead necklaces labeled with numbers -n..n allowing reversal, with sum zero with no three beads in a row equal",
+  "description": "Number of 4-bead necklaces labeled with numbers -n..n allowing reversal, with sum zero with no three beads in a row equal.",
   "id": "A209345",
   "mentions": [
     "A209344"

@@ -1,5 +1,5 @@
 {
-  "description": "Values of x, where x^2 + xy + y^2=p (x",
+  "description": "Values of x, where x^2 + xy + y^2 = p (x",
   "id": "A088242",
   "mentions": [
     "A002476",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

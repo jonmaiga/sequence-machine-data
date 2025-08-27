@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows. The prime numbers corresponding to the distinct prime chains in A385871. Also a permutation of the primes.",
+  "id": "A386364",
+  "mentions": [
+    "A000040",
+    "A385871"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

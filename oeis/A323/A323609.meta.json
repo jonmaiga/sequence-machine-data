@@ -1,7 +1,11 @@
 {
   "description": "Number of minimum total dominating sets in the n-Fibonacci cube graph.",
   "id": "A323609",
-  "mentions": [],
+  "mentions": [
+    "A291294",
+    "A303047",
+    "A303225"
+  ],
   "tags": [
     "more",
     "nonn"

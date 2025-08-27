@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of complement pairs of 2n-bead balanced bicolor necklaces.",
+  "id": "A386388",
+  "mentions": [
+    "A000013",
+    "A003239",
+    "A385665"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

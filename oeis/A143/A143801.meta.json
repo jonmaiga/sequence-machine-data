@@ -1,5 +1,5 @@
 {
-  "description": "Primes with sum of remainders modulo all smaller primes which is smaller than this sum for the preceding prime",
+  "description": "Primes with sum of remainders modulo all smaller primes which is smaller than this sum for the preceding prime.",
   "id": "A143801",
   "mentions": [
     "A033955"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

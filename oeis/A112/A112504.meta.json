@@ -3,6 +3,7 @@
   "id": "A112504",
   "mentions": [
     "A112500",
+    "A112502",
     "A112503"
   ],
   "tags": [
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

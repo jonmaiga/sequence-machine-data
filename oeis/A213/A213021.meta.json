@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that k*30^n+1 is prime",
+  "description": "Least k such that k*30^n+1 is prime.",
   "id": "A213021",
   "mentions": [],
   "tags": [

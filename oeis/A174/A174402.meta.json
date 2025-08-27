@@ -1,5 +1,5 @@
 {
-  "description": "Primes such that applying \"reverse and add\" twice produces two more primes",
+  "description": "Primes such that applying \"reverse and add\" twice produces two more primes.",
   "id": "A174402",
   "mentions": [
     "A061783"

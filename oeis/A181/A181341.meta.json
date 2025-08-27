@@ -1,5 +1,5 @@
 {
-  "description": "Divide the left and right binary concatenations of 1 to n into sections alternating between being composed entirely of consecutive digits identical in both concatenations and consecutive digits different in both concatenations, then count the sections in one of the concatenations",
+  "description": "Divide the left and right binary concatenations of 1 to n into sections alternating between being composed entirely of consecutive digits identical in both concatenations and consecutive digits different in both concatenations, then count the sections in one of the concatenations.",
   "id": "A181341",
   "mentions": [],
   "tags": [

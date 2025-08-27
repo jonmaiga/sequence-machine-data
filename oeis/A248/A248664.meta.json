@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array of coefficients of polynomials p(n,k) defined in Comments",
+  "description": "Triangular array of coefficients of polynomials p(n,k) defined in Comments.",
   "id": "A248664",
   "mentions": [
     "A153229",

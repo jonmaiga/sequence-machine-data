@@ -2,15 +2,18 @@
   "description": "Sum of the forward and reverse concatenations of 1 to n.",
   "id": "A078262",
   "mentions": [
+    "A000422",
+    "A007908",
     "A078263"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

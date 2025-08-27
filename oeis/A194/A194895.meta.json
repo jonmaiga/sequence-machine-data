@@ -1,5 +1,5 @@
 {
-  "description": "Difference between the number of semiprimes less than 10^n and the number of primes less than 10^n",
+  "description": "Difference between the number of semiprimes less than 10^n and the number of primes less than 10^n.",
   "id": "A194895",
   "mentions": [
     "A006880",

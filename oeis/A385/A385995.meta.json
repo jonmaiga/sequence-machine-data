@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first value appearing n times in A002487.",
+  "id": "A385995",
+  "mentions": [
+    "A002487",
+    "A385996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

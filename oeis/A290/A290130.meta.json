@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n > 0 such that either 3n+4, n-2, n+2, n+4 or 3n+5, n-1, n+1, n+5 are all primes.",
+  "description": "Numbers k > 0 such that either 3*k+4, k-2, k+2, n+k or 3*k+5, k-1, k+1, k+5 are all primes.",
   "id": "A290130",
   "mentions": [],
   "tags": [

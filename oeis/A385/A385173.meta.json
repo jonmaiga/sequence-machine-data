@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number of vertices for which n nonisomorphic connected cubic symmetric graphs exist.",
+  "id": "A385173",
+  "mentions": [
+    "A059282"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

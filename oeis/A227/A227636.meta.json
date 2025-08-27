@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X(n+1) binary array having determinant equal to one, with rows and columns of the latter in nondecreasing lexicographic order",
+  "description": "Number of n X n 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X(n+1) binary array having determinant equal to one, with rows and columns of the latter in nondecreasing lexicographic order.",
   "id": "A227636",
   "mentions": [
     "A227641"

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k so that the binary expansion of 3^k starts with the binary expansion of k.",
+  "id": "A385157",
+  "mentions": [
+    "A000244",
+    "A004656"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

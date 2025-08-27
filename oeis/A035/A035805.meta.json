@@ -1,7 +1,9 @@
 {
   "description": "Coordination sequence for lattice D*_40 (with edges defined by l_1 norm = 1).",
   "id": "A035805",
-  "mentions": [],
+  "mentions": [
+    "A035735"
+  ],
   "tags": [
     "formulas",
     "nonn"

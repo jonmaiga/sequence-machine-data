@@ -1,5 +1,5 @@
 {
-  "description": "spf(n) * spf(n+1) * spf(n+2), where spf=A020639 (smallest prime factor).",
+  "description": "a(n) = lpf(n) * lpf(n+1) * lpf(n+2), where lpf(n) = A020639(n) is the least prime factor of n.",
   "id": "A079390",
   "mentions": [
     "A001359",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

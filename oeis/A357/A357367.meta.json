@@ -1,9 +1,10 @@
 {
-  "description": "Triangle read by rows. T(n, k) = Sum_{m=0..k} (-1)^(m + k) * binomial(n + k, n + m) * L(n + m, m), where L denotes the unsigned Lah numbers A271703.",
+  "description": "Triangle read by rows. T(n, k) = binomial(n - 1, k - 1)*(n + k)! / k!.",
   "id": "A357367",
   "mentions": [
     "A032037",
-    "A271703"
+    "A271703",
+    "A386789"
   ],
   "tags": [
     "formulas",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(n+1) 0..k arrays with each 2X2 subblock determinant nonzero and the array of 2X2 subblock determinants symmetric under horizontal and vertical reflection",
+  "description": "T(n,k)=Number of (n+1)X(n+1) 0..k arrays with each 2X2 subblock determinant nonzero and the array of 2X2 subblock determinants symmetric under horizontal and vertical reflection.",
   "id": "A187699",
   "mentions": [
     "A062801",

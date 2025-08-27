@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*[d/dx x/A(x)^2]",
+  "description": "G.f. satisfies: A(x) = 1 + x*[d/dx x/A(x)^2].",
   "id": "A208961",
   "mentions": [
     "A185971"

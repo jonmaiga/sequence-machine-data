@@ -1,5 +1,5 @@
 {
-  "description": "The number of even separable permutations of length n",
+  "description": "The number of even separable permutations of length n.",
   "id": "A165328",
   "mentions": [
     "A001003"

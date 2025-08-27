@@ -1,0 +1,20 @@
+{
+  "description": "The number of ways in which the n-th cubefull number can be expressed as b^3 * c^4 * d^5, with b, c and d >= 1.",
+  "id": "A384789",
+  "mentions": [
+    "A008680",
+    "A036966",
+    "A057523",
+    "A384791"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

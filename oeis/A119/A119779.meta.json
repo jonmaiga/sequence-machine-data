@@ -1,13 +1,21 @@
 {
   "description": "64^n-th prime.",
   "id": "A119779",
-  "mentions": [],
+  "mentions": [
+    "A033844",
+    "A119772",
+    "A119773",
+    "A119777",
+    "A119778"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

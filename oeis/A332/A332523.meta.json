@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of convergents to 2 Pi + Dottie number (A332506).",
+  "description": "Numerators of convergents to 2*Pi + Dottie number (A332506).",
   "id": "A332523",
   "mentions": [
     "A212112",

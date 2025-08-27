@@ -1,5 +1,5 @@
 {
-  "description": "Lemniscate constant.",
+  "description": "Decimal expansion of the Lemniscate constant.",
   "id": "A064853",
   "mentions": [
     "A002193",

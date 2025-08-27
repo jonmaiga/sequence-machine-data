@@ -1,0 +1,16 @@
+{
+  "description": "Number of equivalence classes of Hurwitz quaternions of norm n with equivalence by left and right multiplication with units.",
+  "id": "A385603",
+  "mentions": [
+    "A000593",
+    "A055672"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

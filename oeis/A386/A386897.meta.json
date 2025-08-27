@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 4^n * binomial(5*n/2,n).",
+  "id": "A386897",
+  "mentions": [
+    "A000302",
+    "A098430",
+    "A244038",
+    "A386812",
+    "A386895",
+    "A386896",
+    "A386898"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

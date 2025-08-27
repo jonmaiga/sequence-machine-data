@@ -1,7 +1,9 @@
 {
-  "description": "Number of partitions of n into primes or 1 where every part appears at least 10 times",
+  "description": "Number of partitions of n into primes or 1 where every part appears at least 10 times.",
   "id": "A161085",
-  "mentions": [],
+  "mentions": [
+    "A008578"
+  ],
   "tags": [
     "nonn"
   ],

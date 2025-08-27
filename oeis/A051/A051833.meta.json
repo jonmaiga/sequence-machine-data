@@ -10,16 +10,17 @@
     "A052042",
     "A052043",
     "A052044",
-    "A052045"
+    "A052045",
+    "A052427"
   ],
   "tags": [
-    "bref",
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

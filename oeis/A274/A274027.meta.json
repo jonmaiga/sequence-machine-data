@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 is the average of a positive cube and a positive fifth power.",
+  "description": "Numbers k such that k^4 is the average of a positive cube and a positive fifth power.",
   "id": "A274027",
   "mentions": [
     "A000583",

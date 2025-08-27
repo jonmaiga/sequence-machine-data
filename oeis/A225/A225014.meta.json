@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..1 arrays with rows unimodal and columns nondecreasing",
+  "description": "Number of 7Xn 0..1 arrays with rows unimodal and columns nondecreasing.",
   "id": "A225014",
   "mentions": [
     "A225010"

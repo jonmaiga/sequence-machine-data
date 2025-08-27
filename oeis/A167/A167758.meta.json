@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that d(n)=nonisolated nonprime.",
+  "description": "Numbers k such that d(k) = nonisolated nonprime.",
   "id": "A167758",
   "mentions": [
     "A000005",

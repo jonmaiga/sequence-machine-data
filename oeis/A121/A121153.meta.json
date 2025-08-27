@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that 1/n can be written in base 3 in such a way that the fractional part contains no 1's.",
+  "description": "Numbers k with the property that 1/k can be written in base 3 in such a way that the fractional part contains no 1's.",
   "id": "A121153",
   "mentions": [
     "A005823",

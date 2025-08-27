@@ -2,7 +2,8 @@
   "description": "Concatenation of 3^k, k = 0,..,n.",
   "id": "A051639",
   "mentions": [
-    "A000244"
+    "A000244",
+    "A045507"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 13,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of polynomial coefficients related to the o.g.f.s. of the RBS1 polynomials",
+  "description": "Triangle of polynomial coefficients related to the o.g.f.s. of the RBS1 polynomials.",
   "id": "A160486",
   "mentions": [
     "A000340",

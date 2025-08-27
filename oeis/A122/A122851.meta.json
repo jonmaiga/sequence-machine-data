@@ -2,10 +2,12 @@
   "description": "Number triangle T(n,k) = C(k,n-k)*(n-k)!.",
   "id": "A122851",
   "mentions": [
+    "A000142",
     "A008279",
     "A084938",
     "A094587",
-    "A122852"
+    "A122852",
+    "A242653"
   ],
   "tags": [
     "easy",
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
-    "source": "joeis"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

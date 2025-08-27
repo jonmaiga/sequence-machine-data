@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k >= 0 such that k = digsum(k) + digsum(k+1) + ... + digsum(k+r) for some r >= 0 where digsum(i) is the digital sum of i (A007953).",
+  "id": "A385655",
+  "mentions": [
+    "A007953"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

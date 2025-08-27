@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the surface area of an augmented truncated dodecahedron with unit edges.",
+  "id": "A386465",
+  "mentions": [
+    "A002194",
+    "A010476",
+    "A377694",
+    "A386412",
+    "A386460",
+    "A386464",
+    "A386543",
+    "A386545"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

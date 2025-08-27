@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of four positive cubes in exactly five ways",
+  "description": "Numbers that are the sum of four positive cubes in exactly five ways.",
   "id": "A343986",
   "mentions": [
     "A025361",

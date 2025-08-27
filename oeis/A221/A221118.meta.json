@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6Xn arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without 2-loops",
+  "description": "Number of 6Xn arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without 2-loops.",
   "id": "A221118",
   "mentions": [
     "A221114"

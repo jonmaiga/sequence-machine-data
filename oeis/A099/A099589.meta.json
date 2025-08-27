@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x^3 / (1 - 4x + 6x^2 - 4x^3 + 2x^4).",
+  "description": "Expansion of x^3 / (1 - 4*x + 6*x^2 - 4*x^3 + 2*x^4).",
   "id": "A099589",
   "mentions": [
     "A099586",

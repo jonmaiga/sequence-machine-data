@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that it is possible to write the base 2 expansion of n as concat(a_2,b_2), with a_2>0 and b_2>0 such that, converting a_2 and b_2 to base 10 as a and b, we have sigma(a + b) = sigma(n).",
+  "description": "Numbers k with the property that it is possible to write the base 2 expansion of k as concat(a_2,b_2), with a_2>0 and b_2>0 such that, converting a_2 and b_2 to base 10 as a and b, we have sigma(a + b) = sigma(k).",
   "id": "A258843",
   "mentions": [
     "A232355",

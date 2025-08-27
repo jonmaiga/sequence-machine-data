@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..1 arrays with every 2X2 subblock having a single 1 or two 1s on the same edge",
+  "description": "Number of (n+1)X(5+1) 0..1 arrays with every 2X2 subblock having a single 1 or two 1s on the same edge.",
   "id": "A251255",
   "mentions": [
     "A251258"

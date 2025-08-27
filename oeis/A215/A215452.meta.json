@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n) = (sum of previous terms) mod (a(n-1)+n).",
+  "description": "a(1)=1, a(n) = (sum of previous terms) mod (a(n-1) + n).",
   "id": "A215452",
   "mentions": [
     "A066910",

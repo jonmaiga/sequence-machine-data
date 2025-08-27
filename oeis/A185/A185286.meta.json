@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) is the number of nonnegative walks of n steps with step sizes 1 and 2, starting at 0 and ending at k",
+  "description": "Triangle T(n,k) is the number of nonnegative walks of n steps with step sizes 1 and 2, starting at 0 and ending at k.",
   "id": "A185286",
   "mentions": [
     "A005408",

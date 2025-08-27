@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = A(x^4 + 4*x*A(x)^4) / A(x^3 + 3*x*A(x)^3).",
+  "id": "A384270",
+  "mentions": [
+    "A000108",
+    "A376226"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

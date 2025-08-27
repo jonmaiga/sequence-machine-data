@@ -2,6 +2,7 @@
   "description": "G.f.: A(x) = exp( Sum_{n>=1} 4^(n^2) * x^n/n ), a power series in x with integer coefficients.",
   "id": "A155207",
   "mentions": [
+    "A060757",
     "A155200",
     "A155203",
     "A155208",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

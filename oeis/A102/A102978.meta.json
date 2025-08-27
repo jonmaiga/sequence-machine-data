@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3*10^n + 8*R_n - 7 is a prime, where R_n = 11...1 is the repunit (A002275) of length n.",
+  "description": "Numbers k such that 3*10^k + 8*R_k - 7 is a prime, where R_k = 11...1 is the repunit (A002275) of length k.",
   "id": "A102978",
   "mentions": [
     "A002275",

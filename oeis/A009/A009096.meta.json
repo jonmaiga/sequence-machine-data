@@ -1,8 +1,12 @@
 {
-  "description": "Ordered perimeters of Pythagorean triangles.",
+  "description": "Ordered perimeters of Pythagorean triangles, listed with multiplicity.",
   "id": "A009096",
-  "mentions": [],
+  "mentions": [
+    "A024364",
+    "A103605"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "Least prime starting a run of exactly n consecutive primes with identical counts of odd digits.",
+  "id": "A386475",
+  "mentions": [
+    "A000040",
+    "A196564"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

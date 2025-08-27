@@ -1,0 +1,20 @@
+{
+  "description": "Characteristic function of powers of squarefree numbers (A072774).",
+  "id": "A384667",
+  "mentions": [
+    "A005117",
+    "A059404",
+    "A059956",
+    "A072774",
+    "A382883"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

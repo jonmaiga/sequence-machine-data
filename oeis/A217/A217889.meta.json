@@ -1,5 +1,5 @@
 {
-  "description": "Number of n element 1..n arrays with each element the minimum of 6 adjacent elements of a permutation of 1..n+5 of n+5 elements",
+  "description": "Number of n element 1..n arrays with each element the minimum of 6 adjacent elements of a permutation of 1..n+5 of n+5 elements.",
   "id": "A217889",
   "mentions": [
     "A217891"

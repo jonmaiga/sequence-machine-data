@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..2 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..2 introduced in row major order",
+  "description": "Number of nX6 0..2 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..2 introduced in row major order.",
   "id": "A241368",
   "mentions": [
     "A241370"

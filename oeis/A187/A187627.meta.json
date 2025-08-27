@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5X5 0..n arrays with each 2X2 non-center subblock determinant nonzero and the array of 2X2 subblock determinants antisymmetric under 90 degree rotation",
+  "description": "Number of 5X5 0..n arrays with each 2X2 non-center subblock determinant nonzero and the array of 2X2 subblock determinants antisymmetric under 90 degree rotation.",
   "id": "A187627",
   "mentions": [
     "A187624"

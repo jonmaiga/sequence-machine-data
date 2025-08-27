@@ -1,5 +1,5 @@
 {
-  "description": "If T(n)>=n is the nearest triangular number to n and p_n is the n-th prime, then a(n) is the least prime such that T(a(n)*p_n)-a(n)p_n is a triangular number",
+  "description": "If T(n)>=n is the nearest triangular number to n and p_n is the n-th prime, then a(n) is the least prime such that T(a(n)*p_n)-a(n)p_n is a triangular number.",
   "id": "A145376",
   "mentions": [
     "A000217",

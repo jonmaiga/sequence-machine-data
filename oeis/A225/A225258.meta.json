@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of distinct values of the sum of n products of three 0..k integers",
+  "description": "T(n,k)=Number of distinct values of the sum of n products of three 0..k integers.",
   "id": "A225258",
   "mentions": [
     "A027426",

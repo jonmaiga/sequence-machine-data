@@ -1,5 +1,5 @@
 {
-  "description": "Largest automorphism group size for a binary self-dual code of length 2n",
+  "description": "Largest automorphism group size for a binary self-dual code of length 2n.",
   "id": "A322309",
   "mentions": [
     "A003179",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (17^n + 5^n)/22 is prime.",
+  "description": "Numbers k such that (17^k + 5^k)/22 is prime.",
   "id": "A227046",
   "mentions": [
     "A057183",

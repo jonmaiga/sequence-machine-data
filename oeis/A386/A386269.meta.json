@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = denominator((prime(n) - 2)/(n - 1)).",
+  "id": "A386269",
+  "mentions": [
+    "A000040",
+    "A049036",
+    "A049038",
+    "A228543",
+    "A386268"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(n+2) 0..2 arrays with every 3X3 subblock having three strictly increasing elements in a row horizontally, vertically or nw-to-se diagonally exactly one way",
+  "description": "Number of (n+2)X(n+2) 0..2 arrays with every 3X3 subblock having three strictly increasing elements in a row horizontally, vertically or nw-to-se diagonally exactly one way.",
   "id": "A204599",
   "mentions": [
     "A204607"

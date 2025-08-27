@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..4 arrays with values 0..4 introduced in row major order and no element equal to any horizontal or vertical neighbor",
+  "description": "Number of n X n 0..4 arrays with values 0..4 introduced in row major order and no element equal to any horizontal or vertical neighbor.",
   "id": "A198899",
   "mentions": [
     "A198906"

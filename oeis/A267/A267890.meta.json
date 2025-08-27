@@ -2,7 +2,9 @@
   "description": "Decimal representation of the n-th iteration of the \"Rule 239\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A267890",
   "mentions": [
-    "A267871"
+    "A083420",
+    "A267871",
+    "A267888"
   ],
   "tags": [
     "easy",

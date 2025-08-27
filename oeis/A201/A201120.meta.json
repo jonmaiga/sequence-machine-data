@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 4n^3+7.",
+  "description": "Primes of the form 4k^3+7.",
   "id": "A201120",
   "mentions": [],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/sqrt((1-2*x)^3 * (1-6*x)).",
+  "id": "A383950",
+  "mentions": [
+    "A231482",
+    "A383948",
+    "A383949"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

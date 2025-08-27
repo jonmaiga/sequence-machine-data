@@ -1,0 +1,21 @@
+{
+  "description": "One fourth of the number of permutations of [n] with |p(i+1) - p(i)| >= 2, for i = 1..(n-1) and n appears at position i = 1 or i = n.",
+  "id": "A384561",
+  "mentions": [
+    "A001236",
+    "A001266",
+    "A002464",
+    "A242522",
+    "A382644"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 12x^2+12xy+73y^2.",
+  "description": "Primes of the form 12*x^2+12*x*y+73*y^2.",
   "id": "A139990",
   "mentions": [
     "A106856",

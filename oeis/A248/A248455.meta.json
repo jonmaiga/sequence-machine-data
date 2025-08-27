@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 7+5 0..n arrays with no three disjoint pairs in any consecutive six terms having the same sum",
+  "description": "Number of length 7+5 0..n arrays with no three disjoint pairs in any consecutive six terms having the same sum.",
   "id": "A248455",
   "mentions": [
     "A248448"

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 15*n^2 - 15*n + 17.",
+  "description": "Primes of the form 15*k^2 - 15*k + 17.",
   "id": "A220081",
   "mentions": [
     "A000040",

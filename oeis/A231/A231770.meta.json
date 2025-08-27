@@ -1,5 +1,5 @@
 {
-  "description": "Number of (6+1)X(n+1) 0..1 arrays with no element having a strict majority of its horizontal, diagonal and antidiagonal neighbors equal to one",
+  "description": "Number of (6+1)X(n+1) 0..1 arrays with no element having a strict majority of its horizontal, diagonal and antidiagonal neighbors equal to one.",
   "id": "A231770",
   "mentions": [
     "A231764"

@@ -1,0 +1,25 @@
+{
+  "description": "Total number of entries in rows 0 to n of Pascal's triangle multiple of n.",
+  "id": "A387064",
+  "mentions": [
+    "A001316",
+    "A006046",
+    "A006047",
+    "A006048",
+    "A007318",
+    "A194458",
+    "A194459",
+    "A382720",
+    "A382731",
+    "A386953"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

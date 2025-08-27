@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the following property. Suppose n = d1 d2 ... dk in base 10. Construct the sequence with first term d1 and successive differences d1 d2 ... dk d1 d2 ... dk d1 d2 ...; then this sequence has as its initial k digits d1 d2 ... dk and also contains the number n.",
+  "description": "Numbers m with the following property. Suppose m = d1 d2 ... dk in base 10. Construct the sequence with first term d1 and successive differences d1 d2 ... dk d1 d2 ... dk d1 d2 ...; then this sequence has as its initial k digits d1 d2 ... dk and also contains the number m.",
   "id": "A107070",
   "mentions": [
     "A106039",

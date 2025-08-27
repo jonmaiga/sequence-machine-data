@@ -2,10 +2,18 @@
   "description": "Degree of rational Poncelet porism of n-gon.",
   "id": "A002348",
   "mentions": [
+    "A000265",
+    "A007434",
+    "A007814",
+    "A008683",
+    "A010724",
     "A027748",
-    "A124010"
+    "A124010",
+    "A209229",
+    "A328407"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

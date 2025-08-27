@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock having one, two or three distinct clockwise edge differences",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock having one, two or three distinct clockwise edge differences.",
   "id": "A210390",
   "mentions": [],
   "tags": [

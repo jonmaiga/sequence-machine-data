@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+5 0..3 arrays with no six consecutive terms having the maximum of any three terms equal to the minimum of the remaining three terms",
+  "description": "Number of length n+5 0..3 arrays with no six consecutive terms having the maximum of any three terms equal to the minimum of the remaining three terms.",
   "id": "A250009",
   "mentions": [
     "A250014"

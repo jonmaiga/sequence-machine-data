@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6X6X6 triangular 0..n arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors, and every horizontal row having the same average value",
+  "description": "Number of 6X6X6 triangular 0..n arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors, and every horizontal row having the same average value.",
   "id": "A214544",
   "mentions": [
     "A214540"

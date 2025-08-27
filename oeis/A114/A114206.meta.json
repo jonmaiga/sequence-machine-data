@@ -1,15 +1,21 @@
 {
-  "description": "See A114205.",
+  "description": "Length of the preperiodic part of the decimal expansion of 1/n, and also leading zeros from the period part if the preperiodic digits are all 0s (if any).",
   "id": "A114206",
   "mentions": [
-    "A114205"
+    "A004216",
+    "A051628",
+    "A114205",
+    "A386406"
   ],
   "tags": [
+    "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 99,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

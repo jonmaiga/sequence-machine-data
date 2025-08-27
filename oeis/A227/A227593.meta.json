@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X6 binary array having nonzero determinant",
+  "description": "Number of nX5 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X6 binary array having nonzero determinant.",
   "id": "A227593",
   "mentions": [
     "A227594"

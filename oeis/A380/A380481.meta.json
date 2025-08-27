@@ -1,20 +1,18 @@
 {
-  "description": "First coefficient of the lindep transform of A325973.",
+  "description": "Number of partitions of n into distinct parts less than n and not a multiple of 3.",
   "id": "A380481",
   "mentions": [
-    "A325973",
-    "A339790",
-    "A380461",
-    "A380471",
-    "A380482",
-    "A380483"
+    "A003105",
+    "A011655",
+    "A357457"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 105,
-    "source": "oeis-bfile"
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
   }
 }

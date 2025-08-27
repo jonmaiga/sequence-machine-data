@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 5n^3+9.",
+  "description": "Primes of the form 5k^3+9.",
   "id": "A201178",
   "mentions": [],
   "tags": [

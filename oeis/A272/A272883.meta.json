@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma_k(x) = n has no solution for any k > 0.",
+  "description": "Numbers m such that sigma_k(x) = m has no solution for any k > 0.",
   "id": "A272883",
   "mentions": [
     "A000005",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5Xn 0..3 arrays with no more than floor(5Xn/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..3 order",
+  "description": "Number of 5Xn 0..3 arrays with no more than floor(5Xn/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222910",
   "mentions": [
     "A222906"

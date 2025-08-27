@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays x(0..n+1) of n+2 elements without any interior element greater than both neighbors or less than both neighbors",
+  "description": "T(n,k)=Number of 0..k arrays x(0..n+1) of n+2 elements without any interior element greater than both neighbors or less than both neighbors.",
   "id": "A200871",
   "mentions": [
     "A006355",

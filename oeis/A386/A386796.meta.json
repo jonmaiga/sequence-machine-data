@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that have exactly one exponent in their prime factorization that is equal to 2.",
+  "id": "A386796",
+  "mentions": [
+    "A060687",
+    "A119251",
+    "A286228",
+    "A330596",
+    "A337050",
+    "A369427",
+    "A386797",
+    "A386798",
+    "A386800",
+    "A386804",
+    "A386808"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

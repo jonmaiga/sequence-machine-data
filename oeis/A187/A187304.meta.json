@@ -1,5 +1,5 @@
 {
-  "description": "Number of 9-step one space leftwards or up, two space rightwards or down asymmetric rook's tours on an n X n board summed over all starting positions",
+  "description": "Number of 9-step one space leftwards or up, two space rightwards or down asymmetric rook's tours on an n X n board summed over all starting positions.",
   "id": "A187304",
   "mentions": [
     "A187296"

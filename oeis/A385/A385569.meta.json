@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of an augmented hexagonal prism with unit edge.",
+  "id": "A385569",
+  "mentions": [
+    "A002193",
+    "A002194",
+    "A354129",
+    "A385505",
+    "A385506",
+    "A385509"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

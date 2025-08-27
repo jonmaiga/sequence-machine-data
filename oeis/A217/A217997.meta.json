@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 arrays of the minimum or maximum value of corresponding elements and their horizontal and vertical neighbors in a random 0..2 nX4 array",
+  "description": "Number of nX4 arrays of the minimum or maximum value of corresponding elements and their horizontal and vertical neighbors in a random 0..2 nX4 array.",
   "id": "A217997",
   "mentions": [
     "A217999"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of -n..n arrays x(0..6) of 7 elements with zero sum and no element more than one greater than the previous",
+  "description": "Number of -n..n arrays x(0..6) of 7 elements with zero sum and no element more than one greater than the previous.",
   "id": "A199851",
   "mentions": [
     "A199847"

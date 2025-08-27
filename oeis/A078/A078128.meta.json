@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as sum of cubes>1.",
+  "description": "Number of ways to write n as sum of cubes > 1.",
   "id": "A078128",
   "mentions": [
     "A000578",

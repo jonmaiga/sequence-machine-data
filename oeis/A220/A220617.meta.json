@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to reciprocally link elements of an nX4 array either to themselves or to exactly one horizontal, diagonal and antidiagonal neighbor",
+  "description": "Number of ways to reciprocally link elements of an nX4 array either to themselves or to exactly one horizontal, diagonal and antidiagonal neighbor.",
   "id": "A220617",
   "mentions": [
     "A220621"

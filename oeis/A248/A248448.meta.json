@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+5 0..k arrays with no three disjoint pairs in any consecutive six terms having the same sum",
+  "description": "T(n,k)=Number of length n+5 0..k arrays with no three disjoint pairs in any consecutive six terms having the same sum.",
   "id": "A248448",
   "mentions": [],
   "tags": [

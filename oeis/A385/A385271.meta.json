@@ -1,0 +1,38 @@
+{
+  "description": "Number of face-connected components of square pyramidal cells in the hexakis cubic honeycomb up to translation, rotation, and reflection of the honeycomb.",
+  "id": "A385271",
+  "mentions": [
+    "A038119",
+    "A038173",
+    "A038181",
+    "A343909",
+    "A365654",
+    "A384254",
+    "A384274",
+    "A384754",
+    "A385024",
+    "A385025",
+    "A385026",
+    "A385027",
+    "A385267",
+    "A385268",
+    "A385269",
+    "A385270",
+    "A385272",
+    "A385273",
+    "A385274",
+    "A385275",
+    "A385276",
+    "A385277"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

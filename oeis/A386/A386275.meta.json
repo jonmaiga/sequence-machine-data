@@ -1,0 +1,16 @@
+{
+  "description": "First term of the first occurrence of a run of exactly n consecutive terms in A072225.",
+  "id": "A386275",
+  "mentions": [
+    "A072225"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

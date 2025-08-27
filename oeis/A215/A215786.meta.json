@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 0..floor((n*8-1)/2) on even squares of an nX8 array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing",
+  "description": "Number of permutations of 0..floor((n*8-1)/2) on even squares of an nX8 array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing.",
   "id": "A215786",
   "mentions": [
     "A215788"

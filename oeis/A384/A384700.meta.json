@@ -1,0 +1,23 @@
+{
+  "description": "On a 2 X n grid of vertices, draw a circle through every unordered triple of non-collinear vertices: a(n) is the number of distinct circles created.",
+  "id": "A384700",
+  "mentions": [
+    "A365669",
+    "A372981",
+    "A373110",
+    "A374338",
+    "A384701",
+    "A384702",
+    "A384703"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

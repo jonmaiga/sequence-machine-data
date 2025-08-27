@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^k * Product_{j=1..5*k} (1 + x^j).",
+  "id": "A385069",
+  "mentions": [
+    "A000009",
+    "A035297",
+    "A192433",
+    "A385067",
+    "A385068",
+    "A385070"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

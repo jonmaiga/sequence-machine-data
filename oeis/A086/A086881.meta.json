@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (2*n)!*Sum[Sum[1/(i+j),{i,1,n}],{j,1,n}]",
+  "description": "a(n) = (2*n)!*Sum[Sum[1/(i+j),{i,1,n}],{j,1,n}].",
   "id": "A086881",
   "mentions": [
     "A001008",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

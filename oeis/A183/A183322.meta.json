@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with an element zero only if there are an even number of ones to its left and an even number of ones above it",
+  "description": "T(n,k) is the number of n X k binary arrays with an element zero only if there are an even number of ones to its left and an even number of ones above it.",
   "id": "A183322",
   "mentions": [],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically smallest sequence of distinct primes whose inverse binomial transform consists only of primes.",
+  "id": "A384674",
+  "mentions": [
+    "A000040",
+    "A007442",
+    "A111107"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

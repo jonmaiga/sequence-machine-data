@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..2 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope",
+  "description": "Number of nX2 0..2 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.",
   "id": "A223045",
   "mentions": [
     "A223048"

@@ -2,7 +2,8 @@
   "description": "Continued fraction for sqrt(8).",
   "id": "A040005",
   "mentions": [
-    "A010466"
+    "A010466",
+    "A010685"
   ],
   "tags": [
     "cofr",

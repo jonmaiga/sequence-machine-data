@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 63 * ((10^n - 1)/9)^2.",
+  "description": "a(n) = 63*((10^n - 1)/9)^2.",
   "id": "A178634",
   "mentions": [
     "A002276",

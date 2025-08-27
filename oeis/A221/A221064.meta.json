@@ -1,5 +1,5 @@
 {
-  "description": "Equals one maps: number of 3Xn binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal and antidiagonal neighbors in a random 0..3 3Xn array",
+  "description": "Equals one maps: number of 3Xn binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal and antidiagonal neighbors in a random 0..3 3Xn array.",
   "id": "A221064",
   "mentions": [
     "A221062"

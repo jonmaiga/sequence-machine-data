@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there are least five primitive Heron triangles having the same area and perimeter k.",
+  "id": "A385819",
+  "mentions": [
+    "A051516",
+    "A070138",
+    "A188158"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

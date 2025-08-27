@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonequivalent monoids of order n with more than one invertible element",
+  "description": "Number of nonequivalent monoids of order n with more than one invertible element.",
   "id": "A151823",
   "mentions": [
     "A001423",

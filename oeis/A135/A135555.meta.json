@@ -1,17 +1,19 @@
 {
-  "description": "Prime sums of digits of n^4 associated with A135554.",
+  "description": "Prime sums of digits of the terms in A135554.",
   "id": "A135555",
   "mentions": [
+    "A007953",
     "A135554"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 67,
     "source": "oeis-entry"
   }
 }

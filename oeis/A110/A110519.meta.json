@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1/(1-xc(3x)), xc(3x)/(1-xc(3x))), c(x) the g.f. of A000108.",
+  "description": "Riordan array (1/(1-x*c(3*x)), x*c(3*x)/(1-x*c(3*x))), c(x) the g.f. of A000108.",
   "id": "A110519",
   "mentions": [
     "A000108",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 55,
     "source": "joeis"
   }
 }

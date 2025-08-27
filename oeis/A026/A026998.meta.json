@@ -1,16 +1,19 @@
 {
-  "description": "Triangular array T read by rows: T(n,k)=t(n,2k), t given by A027960, 0<=k<=n, n >= 0.",
+  "description": "Triangular array T read by rows: T(n, k) = t(n, 2k), t given by A027960, 0 <= k <= n, n >= 0.",
   "id": "A026998",
   "mentions": [
-    "A000918",
+    "A000032",
     "A002878",
+    "A027010",
     "A027011",
     "A027960",
     "A027966",
     "A027968",
     "A027970",
     "A027972",
-    "A034856"
+    "A034856",
+    "A090132",
+    "A095121"
   ],
   "tags": [
     "formulas",
@@ -19,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 68,
+    "size": 66,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays with each row a permutation of 1..k having at least as many downsteps as the preceding row",
+  "description": "T(n,k)=Number of nXk arrays with each row a permutation of 1..k having at least as many downsteps as the preceding row.",
   "id": "A221623",
   "mentions": [
     "A000142",

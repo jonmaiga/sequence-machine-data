@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with each sum of a(1..i,1..j) no greater than i*j and rows and columns in nondecreasing lexicographic order",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with each sum of a(1..i,1..j) no greater than i*j and rows and columns in nondecreasing lexicographic order.",
   "id": "A179112",
   "mentions": [
     "A002620"

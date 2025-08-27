@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..4 arrays with every nonzero element less than or equal to at least two horizontal and vertical neighbors",
+  "description": "Number of nX4 0..4 arrays with every nonzero element less than or equal to at least two horizontal and vertical neighbors.",
   "id": "A203342",
   "mentions": [
     "A203346"

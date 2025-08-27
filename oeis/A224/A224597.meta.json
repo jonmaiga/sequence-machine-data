@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+7)X(k+7) 0..1 matrices with each 8X8 subblock idempotent",
+  "description": "T(n,k)=Number of (n+7)X(k+7) 0..1 matrices with each 8X8 subblock idempotent.",
   "id": "A224597",
   "mentions": [],
   "tags": [

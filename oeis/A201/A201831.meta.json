@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with every diagonal, row and column running average nondecreasing rightwards and downwards and diagonally",
+  "description": "Number of nX3 0..3 arrays with every diagonal, row and column running average nondecreasing rightwards and downwards and diagonally.",
   "id": "A201831",
   "mentions": [
     "A201836"

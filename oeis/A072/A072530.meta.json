@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes p such that n divided by p leaves a prime remainder.",
+  "description": "Number of primes p < n such that n divided by p leaves a prime remainder.",
   "id": "A072530",
   "mentions": [
     "A072531"

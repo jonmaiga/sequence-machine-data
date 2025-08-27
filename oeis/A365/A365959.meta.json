@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Sum_{k>=2} zeta(k)/k^2.",
   "id": "A365959",
   "mentions": [
+    "A001620",
     "A231132",
     "A256921"
   ],

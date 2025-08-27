@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4X(n+1) 0..3 arrays with 2X2 subblock determinants differing from horizontal neighbors and permanents differing from vertical neighbors",
+  "description": "Number of 4X(n+1) 0..3 arrays with 2X2 subblock determinants differing from horizontal neighbors and permanents differing from vertical neighbors.",
   "id": "A205283",
   "mentions": [
     "A205281"

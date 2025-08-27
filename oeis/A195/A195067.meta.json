@@ -1,8 +1,9 @@
 {
-  "description": "G.f. satisfies: A(x) = Sum{n>=0} x^n * A(2*n*x).",
+  "description": "G.f. A(x) satisfies A(x) = Sum{n>=0} x^n * A(2*n*x).",
   "id": "A195067",
   "mentions": [
-    "A125282"
+    "A125282",
+    "A385546"
   ],
   "tags": [
     "formulas",

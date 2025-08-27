@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of n-celled one-sided rounded polyominoes",
+  "description": "a(n) is the number of n-celled one-sided rounded polyominoes.",
   "id": "A362224",
   "mentions": [
     "A056840",

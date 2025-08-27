@@ -1,0 +1,15 @@
+{
+  "description": "Permanent of n X n matrix A defined by A[i,j] = (i+j-1)! for 1 <= i,j <= n.",
+  "id": "A385867",
+  "mentions": [
+    "A059332"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

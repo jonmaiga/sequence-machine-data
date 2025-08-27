@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..2 arrays with every 2X2 subblock diagonal maximum minus antidiagonal maximum unequal to its neighbors horizontally, vertically and nw-se diagonally",
+  "description": "Number of (n+1)X(4+1) 0..2 arrays with every 2X2 subblock diagonal maximum minus antidiagonal maximum unequal to its neighbors horizontally, vertically and nw-se diagonally.",
   "id": "A253658",
   "mentions": [
     "A253662"

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of polysticks of size k, i.e., connected subsets of k edges, of the n X n flat torus, up to cyclic shifts and reflections of rows and columns, as well as interchange of rows and columns; 1 <= k <= 2*n^2.",
+  "id": "A385390",
+  "mentions": [
+    "A019988",
+    "A333333",
+    "A385385",
+    "A385388",
+    "A385389"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

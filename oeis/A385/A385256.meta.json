@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of a gyroelongated triangular bicupola with unit edge.",
+  "id": "A385256",
+  "mentions": [
+    "A002193",
+    "A090388",
+    "A384143",
+    "A385257"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

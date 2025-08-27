@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..3 arrays with antidiagonals unimodal",
+  "description": "Number of n X n 0..3 arrays with antidiagonals unimodal.",
   "id": "A223579",
   "mentions": [
     "A223585"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 (0,1,2) arrays of permanents of 2X2 subblocks of some (n+1)X4 binary array with rows and columns of the latter in lexicographically nondecreasing order",
+  "description": "Number of nX3 (0,1,2) arrays of permanents of 2X2 subblocks of some (n+1)X4 binary array with rows and columns of the latter in lexicographically nondecreasing order.",
   "id": "A227022",
   "mentions": [
     "A227025"

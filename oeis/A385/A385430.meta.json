@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that k and k + n! have the same number of divisors.",
+  "id": "A385430",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A006881",
+    "A037153",
+    "A284783"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

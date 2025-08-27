@@ -1,5 +1,5 @@
 {
-  "description": "A(x) satisfies A000290(x)/x^2 = A(x)/A(x^2); A000290 = integer squares",
+  "description": "A(x) satisfies A000290(x)/x^2 = A(x)/A(x^2); A000290 = integer squares.",
   "id": "A173277",
   "mentions": [
     "A000290",

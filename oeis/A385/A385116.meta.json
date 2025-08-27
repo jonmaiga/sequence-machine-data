@@ -1,0 +1,19 @@
+{
+  "description": "Take the natural numbers, erase all occurrences of the digit \"0,\" and shift all remaining digits leftward without changing the position of commas.",
+  "id": "A385116",
+  "mentions": [
+    "A004719",
+    "A032762",
+    "A055642"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

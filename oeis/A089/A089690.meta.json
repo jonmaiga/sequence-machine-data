@@ -1,5 +1,5 @@
 {
-  "description": "a={1,3,7,9} a1={1,3,7,9,0} b[n]=Flatten[Table[10*Sum[10^m*a1[[1+Mod[n,5]]],{m,0,n}]+a,{n,0,digits}]]; a[m]=if b[n] is prime then b[n]",
+  "description": "a={1,3,7,9} a1={1,3,7,9,0} b[n]=Flatten[Table[10*Sum[10^m*a1[[1+Mod[n,5]]],{m,0,n}]+a,{n,0,digits}]]; a[m]=if b[n] is prime then b[n].",
   "id": "A089690",
   "mentions": [],
   "tags": [

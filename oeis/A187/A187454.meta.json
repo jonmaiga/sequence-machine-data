@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with the array of 2X2 subblock determinants symmetric",
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with the array of 2X2 subblock determinants symmetric.",
   "id": "A187454",
   "mentions": [
     "A187457"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n 0..7 array with each element differing from all of its horizontal and vertical neighbors by one",
+  "description": "Number of lower triangles of an n X n 0..7 array with each element differing from all of its horizontal and vertical neighbors by one.",
   "id": "A194997",
   "mentions": [
     "A194998"

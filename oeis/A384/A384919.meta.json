@@ -1,0 +1,19 @@
+{
+  "description": "Tooth numbering sytem (permanent), FDI and ISO 3950.",
+  "id": "A384919",
+  "mentions": [
+    "A119247",
+    "A384920"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X9 0..5 arrays with each 3X3 subblock having rows and columns in lexicographically nondecreasing order",
+  "description": "Number of (n+2)X9 0..5 arrays with each 3X3 subblock having rows and columns in lexicographically nondecreasing order.",
   "id": "A186178",
   "mentions": [
     "A186180"

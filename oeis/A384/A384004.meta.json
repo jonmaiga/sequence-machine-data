@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = smallest k such that A010846(k) = n.",
+  "id": "A384004",
+  "mentions": [
+    "A000079",
+    "A001222",
+    "A001694",
+    "A002110",
+    "A010846",
+    "A024619",
+    "A119288",
+    "A162306",
+    "A244052",
+    "A369609"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

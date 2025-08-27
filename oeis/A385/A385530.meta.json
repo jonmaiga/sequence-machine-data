@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*A(-4*x)).",
+  "id": "A385530",
+  "mentions": [
+    "A000272",
+    "A015099",
+    "A096538",
+    "A141369",
+    "A385526",
+    "A385527",
+    "A385528",
+    "A385529"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

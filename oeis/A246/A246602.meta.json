@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected bicubical graphs on 2n labeled nodes of two colors",
+  "description": "Number of connected bicubical graphs on 2n labeled nodes of two colors.",
   "id": "A246602",
   "mentions": [
     "A001501",

@@ -1,5 +1,5 @@
 {
-  "description": "Powers of 839.",
+  "description": "Powers of 839: a(n) = 839^n.",
   "id": "A135640",
   "mentions": [
     "A009975",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

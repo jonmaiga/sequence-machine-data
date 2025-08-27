@@ -1,5 +1,5 @@
 {
-  "description": "Floor((n+1/n)^4).",
+  "description": "a(n) = floor((n+1/n)^4).",
   "id": "A197603",
   "mentions": [
     "A010000",

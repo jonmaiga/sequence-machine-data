@@ -1,0 +1,18 @@
+{
+  "description": "Number of ternary strings of length 2*n that have fewer 0's than the combined number of 1's and 2's.",
+  "id": "A387012",
+  "mentions": [
+    "A001019",
+    "A128418",
+    "A385252"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

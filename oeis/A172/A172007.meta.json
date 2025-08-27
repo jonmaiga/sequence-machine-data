@@ -1,5 +1,5 @@
 {
-  "description": "Numbers which require a - in their minimal SNUSP representation",
+  "description": "Numbers which require a - in their minimal SNUSP representation.",
   "id": "A172007",
   "mentions": [
     "A172005",

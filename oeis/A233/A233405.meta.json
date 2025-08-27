@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..2 arrays with row and column sums nondecreasing, and no adjacent elements equal",
+  "description": "Number of (n+1)X(4+1) 0..2 arrays with row and column sums nondecreasing, and no adjacent elements equal.",
   "id": "A233405",
   "mentions": [
     "A233408"

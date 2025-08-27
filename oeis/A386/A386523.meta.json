@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 577/408.",
+  "id": "A386523",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A002193",
+    "A375743"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

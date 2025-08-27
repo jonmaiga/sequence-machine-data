@@ -1,7 +1,9 @@
 {
   "description": "a(1) = 2; a(2n) = least common multiple of all previous terms + 1. a(2n+1) = least common multiple of all previous terms - 1.",
   "id": "A109845",
-  "mentions": [],
+  "mentions": [
+    "A109173"
+  ],
   "tags": [
     "easy",
     "formulas",

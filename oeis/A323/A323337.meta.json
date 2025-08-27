@@ -1,7 +1,10 @@
 {
   "description": "Number of minimal total dominating sets in the n-Bruhat graph.",
   "id": "A323337",
-  "mentions": [],
+  "mentions": [
+    "A323336",
+    "A323517"
+  ],
   "tags": [
     "more",
     "nonn"

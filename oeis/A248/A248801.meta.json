@@ -1,5 +1,5 @@
 {
-  "description": "Number of sets of nonzero squares with sum <= n",
+  "description": "Number of sets of nonzero squares with sum <= n.",
   "id": "A248801",
   "mentions": [
     "A033461"

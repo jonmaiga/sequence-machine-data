@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the duration of the Gregorian year in SI seconds",
+  "description": "Decimal expansion of the duration of the Gregorian year in SI seconds.",
   "id": "A213613",
   "mentions": [
     "A003678",

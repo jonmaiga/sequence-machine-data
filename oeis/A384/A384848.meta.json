@@ -1,0 +1,16 @@
+{
+  "description": "Number of spanning trees in the n X n white bishop graph.",
+  "id": "A384848",
+  "mentions": [
+    "A384846",
+    "A384847"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

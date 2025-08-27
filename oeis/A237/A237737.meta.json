@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) 0..1 arrays with the (lower) median of each row and column nondecreasing",
+  "description": "Number of (n+2)X(4+2) 0..1 arrays with the (lower) median of each row and column nondecreasing.",
   "id": "A237737",
   "mentions": [
     "A237738"

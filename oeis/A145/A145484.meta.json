@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 2p - 29 is a positive prime.",
+  "description": "Primes p such that 2*p - 29 is a positive prime.",
   "id": "A145484",
   "mentions": [
     "A063908",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n - 1 divides 10^(10^(10^100)) - 10.",
+  "description": "Numbers k such that 10^k - 1 divides 10^(10^(10^100)) - 10.",
   "id": "A227245",
   "mentions": [
     "A173394",

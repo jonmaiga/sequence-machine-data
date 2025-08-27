@@ -1,0 +1,24 @@
+{
+  "description": "Odd multiplicative orders of -4 modulo primes.",
+  "id": "A385230",
+  "mentions": [
+    "A139686",
+    "A380531",
+    "A385193",
+    "A385224",
+    "A385226",
+    "A385227",
+    "A385228",
+    "A385229",
+    "A385231"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every element next to itself plus and minus one within the range 0..3 horizontally, vertically or antidiagonally, with no adjacent elements equal",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with every element next to itself plus and minus one within the range 0..3 horizontally, vertically or antidiagonally, with no adjacent elements equal.",
   "id": "A232391",
   "mentions": [],
   "tags": [

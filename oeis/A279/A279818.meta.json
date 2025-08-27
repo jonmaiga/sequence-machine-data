@@ -2,7 +2,9 @@
   "description": "a(n+1) = sum of digits of a(n), plus sum of same digits arising in all prior terms; a(1)=1.",
   "id": "A279818",
   "mentions": [
-    "A007953"
+    "A007953",
+    "A378359",
+    "A378360"
   ],
   "tags": [
     "base",

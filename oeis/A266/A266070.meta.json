@@ -2,8 +2,10 @@
   "description": "Middle column of the \"Rule 3\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A266070",
   "mentions": [
+    "A000035",
     "A000247",
     "A000325",
+    "A059841",
     "A263428",
     "A266071"
   ],

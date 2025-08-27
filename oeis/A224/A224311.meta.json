@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..2 arrays with diagonals and rows unimodal and antidiagonals nondecreasing",
+  "description": "Number of 3Xn 0..2 arrays with diagonals and rows unimodal and antidiagonals nondecreasing.",
   "id": "A224311",
   "mentions": [
     "A224310"

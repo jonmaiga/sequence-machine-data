@@ -1,5 +1,5 @@
 {
-  "description": "Triangle E(n,k), 1<=k<=n, giving the cardinality of optimal ternary covering codes of empty spheres of length n and radius k",
+  "description": "Triangle E(n,k), 1<=k<=n, giving the cardinality of optimal ternary covering codes of empty spheres of length n and radius k.",
   "id": "A238305",
   "mentions": [
     "A000983",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 3+4 0..n arrays with no pair in any consecutive five terms totalling exactly n",
+  "description": "Number of length 3+4 0..n arrays with no pair in any consecutive five terms totalling exactly n.",
   "id": "A246740",
   "mentions": [
     "A246737"

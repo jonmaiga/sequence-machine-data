@@ -1,0 +1,20 @@
+{
+  "description": "Minimum base in which the least number with absolute multiplicative persistence n achieves such persistence.",
+  "id": "A385727",
+  "mentions": [
+    "A003001",
+    "A064867",
+    "A064868",
+    "A245760",
+    "A330152"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

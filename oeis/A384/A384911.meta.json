@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of an elongated pentagonal orthocupolarotunda with unit edge.",
+  "id": "A384911",
+  "mentions": [
+    "A002163",
+    "A384284",
+    "A384286",
+    "A384625",
+    "A384872",
+    "A384910"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 has exactly 2 different decimal digits.",
+  "description": "Numbers k such that k^4 has exactly 2 different decimal digits.",
   "id": "A155148",
   "mentions": [
     "A155149",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

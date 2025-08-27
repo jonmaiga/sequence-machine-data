@@ -1,7 +1,8 @@
 {
-  "description": "Near-repdigit primes with at least two 9's as the repeated digit.",
+  "description": "Near-repdigit primes with at least two 9's as the repeated digit, and ending in a distinct digit.",
   "id": "A365598",
   "mentions": [
+    "A105975",
     "A105976",
     "A105978",
     "A105979",

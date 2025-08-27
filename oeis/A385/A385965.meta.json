@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the absolute value of the coefficient [x^4] 1/Gamma(x).",
+  "id": "A385965",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A002117",
+    "A070860",
+    "A385966"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 117,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + Sum_{k=0..n-1} (-1)^k * a(k) * a(n-1-k).",
+  "id": "A386301",
+  "mentions": [
+    "A007317",
+    "A064641",
+    "A348857",
+    "A348858",
+    "A348859",
+    "A386300"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

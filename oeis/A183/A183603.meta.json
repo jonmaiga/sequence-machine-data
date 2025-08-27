@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=1/6 the number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock containing all three values",
+  "description": "T(n,k)=1/6 the number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock containing all three values.",
   "id": "A183603",
   "mentions": [
     "A021001"

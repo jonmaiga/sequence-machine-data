@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (Pi^3)/31.",
+  "id": "A382867",
+  "mentions": [
+    "A000796",
+    "A091925"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

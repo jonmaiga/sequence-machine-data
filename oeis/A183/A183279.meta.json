@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nXnXn triangular binary arrays with no array-nonaligned 2X2X2 subtriangle being all zero or all one",
+  "description": "Half the number of nXnXn triangular binary arrays with no array-nonaligned 2X2X2 subtriangle being all zero or all one.",
   "id": "A183279",
   "mentions": [],
   "tags": [

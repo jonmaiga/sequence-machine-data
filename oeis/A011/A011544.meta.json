@@ -1,14 +1,20 @@
 {
   "description": "Decimal expansion of e rounded to n places.",
   "id": "A011544",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A011546",
+    "A011548",
+    "A011552"
+  ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

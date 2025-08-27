@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..4 arrays with each element equal to the number its horizontal and vertical neighbors within one of itself",
+  "description": "Number of nX5 0..4 arrays with each element equal to the number its horizontal and vertical neighbors within one of itself.",
   "id": "A196014",
   "mentions": [
     "A196017"

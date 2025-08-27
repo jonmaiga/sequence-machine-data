@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a pentagonal orthocupolarotunda with unit edge.",
+  "id": "A384871",
+  "mentions": [
+    "A002163",
+    "A384144",
+    "A384283",
+    "A384285",
+    "A384624",
+    "A384872"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

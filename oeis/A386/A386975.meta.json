@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the permanent of the n X n matrix M_n with M_n(j,k) = j for j <> k, M_n(j,k) = n+j for j = k.",
+  "id": "A386975",
+  "mentions": [
+    "A174962",
+    "A386974"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

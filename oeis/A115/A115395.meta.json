@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p+/-6 are semiprimes.",
+  "description": "Primes p such that p+-6 are semiprimes.",
   "id": "A115395",
   "mentions": [
     "A063643",

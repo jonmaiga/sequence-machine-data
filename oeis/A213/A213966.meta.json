@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6X6 0..n matrices with row and column 1..6 having sum <= i*n",
+  "description": "Number of 6X6 0..n matrices with row and column 1..6 having sum <= i*n.",
   "id": "A213966",
   "mentions": [
     "A213962"

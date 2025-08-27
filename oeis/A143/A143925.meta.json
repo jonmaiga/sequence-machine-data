@@ -1,14 +1,25 @@
 {
-  "description": "E.g.f. A(x) satisfies: A(x) = exp(x + x^2*A'(x)).",
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x + x^2*A'(x)).",
   "id": "A143925",
-  "mentions": [],
+  "mentions": [
+    "A156326",
+    "A386505",
+    "A386506",
+    "A386507",
+    "A386508",
+    "A386509",
+    "A386510",
+    "A386511",
+    "A386512",
+    "A386513"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

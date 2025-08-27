@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(3+1) 0..3 arrays with the maximum minus the lower median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one",
+  "description": "Number of (n+1)X(3+1) 0..3 arrays with the maximum minus the lower median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one.",
   "id": "A238308",
   "mentions": [
     "A238311"

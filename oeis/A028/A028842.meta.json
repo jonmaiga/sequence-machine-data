@@ -1,10 +1,11 @@
 {
-  "description": "Product of digits of n is a prime.",
+  "description": "Numbers whose product of digits is prime.",
   "id": "A028842",
   "mentions": [
     "A007954",
     "A028834",
-    "A028843"
+    "A028843",
+    "A046703"
   ],
   "tags": [
     "base",

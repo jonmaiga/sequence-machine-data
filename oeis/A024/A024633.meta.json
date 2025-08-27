@@ -1,15 +1,17 @@
 {
   "description": "n written in fractional base 5/3.",
   "id": "A024633",
-  "mentions": [],
+  "mentions": [
+    "A245343"
+  ],
   "tags": [
     "base",
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

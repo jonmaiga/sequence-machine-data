@@ -1,0 +1,37 @@
+{
+  "description": "Irregular triangle read by rows where row k lists the lengths of maximal anti-runs (increasing by more than 1) in the binary indices of n.",
+  "id": "A384877",
+  "mentions": [
+    "A000120",
+    "A023758",
+    "A044813",
+    "A048793",
+    "A052499",
+    "A069010",
+    "A164707",
+    "A243815",
+    "A245562",
+    "A245563",
+    "A246029",
+    "A328592",
+    "A355393",
+    "A355394",
+    "A356606",
+    "A356607",
+    "A384175",
+    "A384176",
+    "A384177",
+    "A384879",
+    "A384890",
+    "A384893"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

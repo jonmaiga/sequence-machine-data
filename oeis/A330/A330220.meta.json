@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose representation in base 2^w contains only the digit 2^k for some w and k such that 0 <= k < w",
+  "description": "Numbers whose representation in base 2^w contains only the digit 2^k for some w and k such that 0 <= k < w.",
   "id": "A330220",
   "mentions": [
     "A064896",

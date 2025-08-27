@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of zeta(5)/5.",
+  "id": "A386404",
+  "mentions": [
+    "A013663",
+    "A072691",
+    "A098198",
+    "A259928",
+    "A386403"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,11 @@
 {
   "description": "Complexity (number of maximal spanning trees) in an unoriented simple graph with nodes {1,2,...,n} and edges {i,j} if i + j > n.",
   "id": "A107991",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A073742",
+    "A073743"
+  ],
   "tags": [
     "formulas",
     "nonn"

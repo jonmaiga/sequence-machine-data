@@ -2,6 +2,8 @@
   "description": "Numbers that are the sum of 12 positive 11th powers.",
   "id": "A004823",
   "mentions": [
+    "A003335",
+    "A004812",
     "A008455"
   ],
   "tags": [

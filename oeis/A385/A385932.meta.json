@@ -1,0 +1,24 @@
+{
+  "description": "Composite numbers m such that the sum of digits of m divides the sum of digits of prime factors of m (counted with multiplicity).",
+  "id": "A385932",
+  "mentions": [
+    "A002808",
+    "A006753",
+    "A007953",
+    "A103125",
+    "A103126",
+    "A104390",
+    "A104391",
+    "A118503"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

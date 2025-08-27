@@ -2,7 +2,11 @@
   "description": "Order of universal Chevalley group B_n (7).",
   "id": "A003924",
   "mentions": [
-    "A003920"
+    "A003920",
+    "A003921",
+    "A003922",
+    "A003925",
+    "A003926"
   ],
   "tags": [
     "easy",
@@ -10,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 6,
     "source": "joeis"
   }

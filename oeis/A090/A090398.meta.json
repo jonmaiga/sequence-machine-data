@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[(2*Pi/E)*n^2]",
+  "description": "a(n) = Floor[(2*Pi/E)*n^2].",
   "id": "A090398",
   "mentions": [],
   "tags": [

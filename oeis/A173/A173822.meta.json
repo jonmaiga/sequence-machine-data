@@ -1,5 +1,5 @@
 {
-  "description": "a(n) shows the digit sum of the smallest a(n+1) not yet present in the sequence",
+  "description": "a(n) shows the digit sum of the smallest a(n+1) not yet present in the sequence.",
   "id": "A173822",
   "mentions": [
     "A173821",

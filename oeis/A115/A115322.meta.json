@@ -2,6 +2,8 @@
   "description": "Triangle of coefficients of Pell polynomials.",
   "id": "A115322",
   "mentions": [
+    "A000129",
+    "A049310",
     "A053117"
   ],
   "tags": [

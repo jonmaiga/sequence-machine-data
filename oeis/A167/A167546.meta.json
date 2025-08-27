@@ -1,5 +1,5 @@
 {
-  "description": "The ED1 array read by antidiagonals",
+  "description": "The ED1 array read by antidiagonals.",
   "id": "A167546",
   "mentions": [
     "A000012",

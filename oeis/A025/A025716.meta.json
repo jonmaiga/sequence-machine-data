@@ -1,7 +1,9 @@
 {
   "description": "Index of 6^n within sequence of numbers of form 6^i*7^j.",
   "id": "A025716",
-  "mentions": [],
+  "mentions": [
+    "A025668"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..1 arrays with no more than floor(nX5/2) elements unequal to at least one king-move neighbor, with new values introduced in row major 0..1 order",
+  "description": "Number of nX5 0..1 arrays with no more than floor(nX5/2) elements unequal to at least one king-move neighbor, with new values introduced in row major 0..1 order.",
   "id": "A222357",
   "mentions": [
     "A222360"

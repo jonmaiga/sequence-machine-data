@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k>=0} ( ( binomial(n+k-1, k) * 2^k ) (mod 3^k) ) / 3^k.",
+  "id": "A386652",
+  "mentions": [
+    "A386651",
+    "A386653",
+    "A386654"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

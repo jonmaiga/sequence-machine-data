@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of 8 integers in -n..n with sum zero and adjacent elements differing in absolute value",
+  "description": "Number of arrays of 8 integers in -n..n with sum zero and adjacent elements differing in absolute value.",
   "id": "A202968",
   "mentions": [
     "A202962"

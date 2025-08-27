@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that A000330(n) is the sum of 2 positive cubes.",
+  "description": "Integers k such that A000330(k) is the sum of 2 positive cubes.",
   "id": "A269842",
   "mentions": [
     "A000330",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

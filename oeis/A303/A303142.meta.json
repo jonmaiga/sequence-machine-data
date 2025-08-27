@@ -2,7 +2,9 @@
   "description": "Number of minimum total dominating sets in the n X n grid graph.",
   "id": "A303142",
   "mentions": [
+    "A133793",
     "A302488",
+    "A303161",
     "A303293"
   ],
   "tags": [

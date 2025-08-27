@@ -1,5 +1,5 @@
 {
-  "description": "The smallest magic constant of pan-diagonal magic squares which consist of distinct prime numbers",
+  "description": "The smallest magic constant of pan-diagonal magic squares which consist of distinct prime numbers.",
   "id": "A179440",
   "mentions": [
     "A073523"

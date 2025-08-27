@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A379343(A379342(n)).",
+  "description": "a(n) = A379342(A379343(n)).",
   "id": "A376214",
   "mentions": [
     "A000027",

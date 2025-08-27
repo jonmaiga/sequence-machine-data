@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n having exactly 4 distinct prime factors, the largest of which is greater than or equal to sqrt(n) (i.e., sqrt(n)-rough numbers with exactly 4 distinct prime factors).",
+  "description": "Numbers k having exactly 4 distinct prime factors, the largest of which is greater than or equal to sqrt(k) (i.e., sqrt(k)-rough numbers with exactly 4 distinct prime factors).",
   "id": "A115958",
   "mentions": [
     "A115956",

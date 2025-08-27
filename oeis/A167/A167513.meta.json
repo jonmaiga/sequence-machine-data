@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that (p reversed)-4 is also prime",
+  "description": "Primes p such that (p reversed)-4 is also prime.",
   "id": "A167513",
   "mentions": [],
   "tags": [

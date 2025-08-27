@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 2 * sin(x))^(1/2).",
+  "id": "A385306",
+  "mentions": [
+    "A000111",
+    "A001147",
+    "A001586",
+    "A007289",
+    "A136630",
+    "A380015",
+    "A385304",
+    "A385307",
+    "A385308",
+    "A385310"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

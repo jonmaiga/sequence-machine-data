@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that s(n) >= sigma(n), where s(n) = A095118(n) is the sum of the squares of the divisors of n which are <= sqrt(n) and sigma(n) = A000203(n) is the sum of the divisors of n.",
+  "description": "Numbers k such that s(k) >= sigma(k), where s(k) = A095118(k) is the sum of the squares of the divisors of k which are <= sqrt(k) and sigma(k) = A000203(k) is the sum of the divisors of k.",
   "id": "A095119",
   "mentions": [
     "A000203",

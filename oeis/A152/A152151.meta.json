@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array [(1-x)exp(x/(1-x)),x]",
+  "description": "Riordan array [(1-x)exp(x/(1-x)),x].",
   "id": "A152151",
   "mentions": [
     "A052852"

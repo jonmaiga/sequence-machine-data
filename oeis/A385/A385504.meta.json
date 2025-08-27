@@ -1,0 +1,21 @@
+{
+  "description": "Binomially timely primes: primes prime(k) that do not arrive late in comparison with the binomially weighted average of prime(1) .. prime(2k-1).",
+  "id": "A385504",
+  "mentions": [
+    "A007443",
+    "A060770",
+    "A124661",
+    "A302334",
+    "A319126",
+    "A385503"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

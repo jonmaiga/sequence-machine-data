@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn arrays of occupancy after each element moves to some horizontal, diagonal or antidiagonal neighbor",
+  "description": "Number of 3Xn arrays of occupancy after each element moves to some horizontal, diagonal or antidiagonal neighbor.",
   "id": "A221247",
   "mentions": [
     "A221245"

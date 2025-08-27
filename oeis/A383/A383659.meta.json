@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of phi + 2*log(phi), where phi is the golden ratio.",
+  "id": "A383659",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A202543",
+    "A384238",
+    "A384682"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

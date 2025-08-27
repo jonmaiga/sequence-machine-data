@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..5 arrays with values 0..5 introduced in row major order and each element equal to at least one horizontal or vertical neighbor",
+  "description": "Number of nX2 0..5 arrays with values 0..5 introduced in row major order and each element equal to at least one horizontal or vertical neighbor.",
   "id": "A198621",
   "mentions": [
     "A198627"

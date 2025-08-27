@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of the sum of the reciprocals of all square divisors of all positive integers <= n.",
+  "id": "A384817",
+  "mentions": [
+    "A007406",
+    "A017667",
+    "A284648",
+    "A309125",
+    "A373439",
+    "A384818"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

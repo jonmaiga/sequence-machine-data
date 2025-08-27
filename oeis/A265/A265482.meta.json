@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 16^n - 4^n - 1 is prime.",
+  "description": "Numbers k such that 16^k - 4^k - 1 is prime.",
   "id": "A265482",
   "mentions": [
     "A098845",

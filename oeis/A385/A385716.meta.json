@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/((1-x) * (1-13*x))^(3/2).",
+  "id": "A385716",
+  "mentions": [
+    "A331516",
+    "A340973",
+    "A385563",
+    "A386362"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

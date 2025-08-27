@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..2 arrays avoiding the pattern z z+1 z horizontally and z z-1 z vertically",
+  "description": "Number of nX7 0..2 arrays avoiding the pattern z z+1 z horizontally and z z-1 z vertically.",
   "id": "A207988",
   "mentions": [
     "A207989"

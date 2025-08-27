@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 binary matrices with no 2X2 circuit having pattern 0101 in any orientation",
+  "description": "Number of nX5 binary matrices with no 2X2 circuit having pattern 0101 in any orientation.",
   "id": "A181240",
   "mentions": [
     "A181245"

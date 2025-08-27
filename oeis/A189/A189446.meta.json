@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 array permutations with each element moving zero or one space horizontally or diagonally",
+  "description": "Number of nX6 array permutations with each element moving zero or one space horizontally or diagonally.",
   "id": "A189446",
   "mentions": [
     "A189449"

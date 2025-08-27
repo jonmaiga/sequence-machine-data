@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 array permutations with each element making zero or one king moves",
+  "description": "Number of nX6 array permutations with each element making zero or one king moves.",
   "id": "A189251",
   "mentions": [
     "A189254"

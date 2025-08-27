@@ -1,5 +1,5 @@
 {
-  "description": "A polynomial coefficient sequence:p(x,n,m)=(1 + Eulerian[n+1, m]*x)^n",
+  "description": "A polynomial coefficient sequence:p(x,n,m)=(1 + Eulerian[n+1, m]*x)^n.",
   "id": "A176161",
   "mentions": [],
   "tags": [

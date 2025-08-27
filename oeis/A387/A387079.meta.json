@@ -1,0 +1,21 @@
+{
+  "description": "Least prime factor of A386482(n).",
+  "id": "A387079",
+  "mentions": [
+    "A020639",
+    "A386075",
+    "A386482",
+    "A387073",
+    "A387074",
+    "A387075"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,22 +1,19 @@
 {
-  "description": "Inverse Moebius transform of 6-simplex numbers A000579.",
+  "description": "a(n) = b(A000579(n+6)) with b(n) = Sum{d|n} d*(d+1)*(d+2)*(d+3)*(d+4)*(d+5)/720.",
   "id": "A116989",
   "mentions": [
-    "A000389",
     "A000579",
     "A007437",
-    "A073570",
     "A101289",
     "A116963"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

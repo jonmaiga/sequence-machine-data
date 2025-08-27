@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) + 1, ..., prime(n + 5) + 1 have the same number of prime divisors (with multiplicity).",
+  "description": "Numbers k such that prime(k) + 1, ..., prime(k + 5) + 1 have the same number of prime divisors (with multiplicity).",
   "id": "A255193",
   "mentions": [
     "A255173"

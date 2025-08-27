@@ -1,5 +1,5 @@
 {
-  "description": "a(k) such that A225258 column k of T(n,k) = n*k^3 - a(k) for large n",
+  "description": "a(k) such that A225258 column k of T(n,k) = n*k^3 - a(k) for large n.",
   "id": "A225263",
   "mentions": [
     "A225258"

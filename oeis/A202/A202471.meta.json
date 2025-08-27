@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays with no more than two of any consecutive three bits set in any row or column",
+  "description": "T(n,k) = Number of (n+2) X (k+2) binary arrays with no more than two of any consecutive three bits set in any row or column.",
   "id": "A202471",
   "mentions": [
     "A050974",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

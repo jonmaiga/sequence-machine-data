@@ -1,0 +1,16 @@
+{
+  "description": "Number of prime graphs, G, on n vertices which do not contain a degree-1 vertex in G nor in co-G.",
+  "id": "A385693",
+  "mentions": [
+    "A079473"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

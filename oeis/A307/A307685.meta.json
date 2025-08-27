@@ -1,5 +1,5 @@
 {
-  "description": "Clique covering number of the n-Sierpinski sieve graph.",
+  "description": "Clique covering number of the n-Sierpinski gasket graph.",
   "id": "A307685",
   "mentions": [
     "A307702"

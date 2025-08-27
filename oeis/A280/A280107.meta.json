@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that the symmetric representation of sigma(n) has four parts.",
+  "description": "Numbers m with the property that the symmetric representation of sigma(m) has four parts.",
   "id": "A280107",
   "mentions": [
     "A174973",

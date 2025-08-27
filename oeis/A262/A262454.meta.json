@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+3)X(5+3) 0..1 arrays with each row and column divisible by 15, read as a binary number with top and left being the most significant bits.",
+  "description": "Number of (n+3) X (5+3) 0..1 arrays with each row and column divisible by 15, read as a binary number with top and left being the most significant bits.",
   "id": "A262454",
   "mentions": [
     "A262457"

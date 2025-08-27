@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( arcsinh(x * A(x)) / A(x) ).",
+  "id": "A385428",
+  "mentions": [
+    "A001147",
+    "A381147",
+    "A385343",
+    "A385369",
+    "A385425"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

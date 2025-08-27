@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci(4n) + 3, or Fibonacci(2n+2)*Lucas(2n-2).",
+  "description": "Fibonacci(4*n) + 3, or Fibonacci(2*n+2)*Lucas(2*n-2).",
   "id": "A081072",
   "mentions": [
     "A000045",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

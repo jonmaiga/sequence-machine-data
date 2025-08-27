@@ -1,0 +1,16 @@
+{
+  "description": "Smallest nonnegative integer whose square is the sum of the squares of A047432(n) distinct primes.",
+  "id": "A385967",
+  "mentions": [
+    "A018935",
+    "A047432"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

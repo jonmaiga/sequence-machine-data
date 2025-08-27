@@ -1,5 +1,5 @@
 {
-  "description": "Number of regions in regular n-gon which are hexagons.",
+  "description": "Number of hexagonal regions in regular n-gon with all diagonals drawn.",
   "id": "A067153",
   "mentions": [
     "A007678",

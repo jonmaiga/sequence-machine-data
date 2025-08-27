@@ -1,0 +1,19 @@
+{
+  "description": "Excess for a circular sparse ruler, A283297(n) - (A000194(n-1) + 1).",
+  "id": "A386313",
+  "mentions": [
+    "A000194",
+    "A283297",
+    "A326499"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 131,
+    "source": "oeis-entry"
+  }
+}

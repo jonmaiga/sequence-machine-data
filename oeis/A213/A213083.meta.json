@@ -1,8 +1,13 @@
 {
   "description": "Each square n^2 appears n^2 number of times.",
   "id": "A213083",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A006752",
+    "A074279"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

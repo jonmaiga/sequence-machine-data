@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least m > n such that 2^n and 2^m are congruent modulo n.",
+  "id": "A385989",
+  "mentions": [
+    "A007733",
+    "A270096"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

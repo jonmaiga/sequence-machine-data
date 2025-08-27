@@ -2,10 +2,23 @@
   "description": "Sum of exponents in prime-power factorization of binomial(5n, 2n+1).",
   "id": "A023850",
   "mentions": [
-    "A023816",
-    "A023854"
+    "A001222",
+    "A023837",
+    "A023839",
+    "A023840",
+    "A023841",
+    "A023842",
+    "A023843",
+    "A023844",
+    "A023845",
+    "A023846",
+    "A023847",
+    "A023848",
+    "A023849",
+    "A023851"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

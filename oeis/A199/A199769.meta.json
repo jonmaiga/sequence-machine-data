@@ -1,5 +1,5 @@
 {
-  "description": "Number of brackets in distinct sets with fewest possible elements",
+  "description": "Number of brackets in distinct sets with fewest possible elements.",
   "id": "A199769",
   "mentions": [
     "A004111",

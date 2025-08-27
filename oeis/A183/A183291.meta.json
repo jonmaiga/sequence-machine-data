@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXnXn triangular pyramidal binary arrays with the number of 0-0 adjacencies equal to the number of 0-1 adjacencies",
+  "description": "Number of nXnXnXn triangular pyramidal binary arrays with the number of 0-0 adjacencies equal to the number of 0-1 adjacencies.",
   "id": "A183291",
   "mentions": [],
   "tags": [

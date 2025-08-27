@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n without prime numbers in the range (n-3*sqrt(sqrt(n)), n].",
+  "description": "Numbers k without prime numbers in the range (k-3*sqrt(sqrt(k)), k].",
   "id": "A192231",
   "mentions": [
     "A001223",

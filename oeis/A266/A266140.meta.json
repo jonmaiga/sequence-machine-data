@@ -2,6 +2,8 @@
   "description": "Palindromes such that removing at most one digit will result in a term in A110784.",
   "id": "A266140",
   "mentions": [
+    "A002113",
+    "A110751",
     "A110784",
     "A266139"
   ],

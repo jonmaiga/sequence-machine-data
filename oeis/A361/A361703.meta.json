@@ -2,7 +2,10 @@
   "description": "Constant term in the expansion of (1 + w + x + y + z + 1/(w*x*y*z))^n.",
   "id": "A361703",
   "mentions": [
+    "A002426",
+    "A082489",
     "A344560",
+    "A361636",
     "A361637",
     "A361675",
     "A361704",

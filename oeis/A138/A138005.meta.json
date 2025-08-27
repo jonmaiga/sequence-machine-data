@@ -1,16 +1,17 @@
 {
-  "description": "Prime numbers n for which nontrivial cycles of the Ducci map do not all have the same length.",
+  "description": "Odd prime numbers p for which not all nontrivial cycles of the Ducci map on p-tuples modulo 2 have the same length.",
   "id": "A138005",
   "mentions": [
+    "A038553",
+    "A111944",
     "A138004"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 74,
     "source": "oeis-entry"
   }
 }

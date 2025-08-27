@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1)*(b(n)+1)/(b(n)-1), where b(n) = A385958(n) is the largest prime p such that a(n) is an integer.",
+  "id": "A385959",
+  "mentions": [
+    "A385958"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

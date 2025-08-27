@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrangements of n+1 nonzero numbers x(i) in -6..6 with the sum of div(x(i),x(i+1)), where div(a,b)=a/b produces the integer quotient implying a nonnegative remainder, equal to zero",
+  "description": "Number of arrangements of n+1 nonzero numbers x(i) in -6..6 with the sum of div(x(i),x(i+1)), where div(a,b)=a/b produces the integer quotient implying a nonnegative remainder, equal to zero.",
   "id": "A190068",
   "mentions": [
     "A190071"

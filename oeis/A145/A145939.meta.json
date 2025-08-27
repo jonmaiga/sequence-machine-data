@@ -1,8 +1,9 @@
 {
-  "description": "Number of n X n binary arrays symmetric about both diagonal and antidiagonal with all ones connected only in a 2X2 elbow 1,1 1,2 2,1 in any orientation.",
+  "description": "Number of n X n binary arrays symmetric about both diagonal and antidiagonal with all ones connected only in a 2 X 2 elbow 1,1 1,2 2,1 in any orientation.",
   "id": "A145939",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

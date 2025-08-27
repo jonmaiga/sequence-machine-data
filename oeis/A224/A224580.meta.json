@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+6)X(n+6) 0..1 matrices with each 7X7 subblock idempotent",
+  "description": "Number of (n+6)X(n+6) 0..1 matrices with each 7X7 subblock idempotent.",
   "id": "A224580",
   "mentions": [
     "A224588"

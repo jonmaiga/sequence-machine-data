@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular binary arrays with every 1 adjacent to exactly 3 other 1s",
+  "description": "Number of nXnXn triangular binary arrays with every 1 adjacent to exactly 3 other 1s.",
   "id": "A192443",
   "mentions": [],
   "tags": [

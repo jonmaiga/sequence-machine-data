@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of an n X n 0..3 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less",
+  "description": "Number of lower triangles of an n X n 0..3 array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.",
   "id": "A195227",
   "mentions": [
     "A195232"

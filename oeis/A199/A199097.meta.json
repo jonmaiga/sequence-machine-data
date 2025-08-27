@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..2 arrays with values 0..2 introduced in row major order, the number of instances of each value within one of each other, and every element equal to two or fewer horizontal or vertical neighbors",
+  "description": "Number of nX4 0..2 arrays with values 0..2 introduced in row major order, the number of instances of each value within one of each other, and every element equal to two or fewer horizontal or vertical neighbors.",
   "id": "A199097",
   "mentions": [
     "A199101"

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n X n 0..k arrays with row sums equal and no column sum equal to the previous",
+  "description": "T(n,k)=Number of n X n 0..k arrays with row sums equal and no column sum equal to the previous.",
   "id": "A202714",
   "mentions": [
     "A006331"

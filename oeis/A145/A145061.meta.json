@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs of odd numbers that separate two consecutive twin prime pairs",
+  "description": "Number of pairs of odd numbers that separate two consecutive twin prime pairs.",
   "id": "A145061",
   "mentions": [
     "A001359",

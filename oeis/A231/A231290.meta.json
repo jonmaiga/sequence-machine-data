@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n dividing u(n), where the Lucas sequence is defined u(i) = u(i-1) - 5*u(i-2) with initial conditions u(0)=0, u(1)=1.",
+  "description": "Numbers k dividing u(k), where the Lucas sequence is defined u(i) = u(i-1) - 5*u(i-2) with initial conditions u(0)=0, u(1)=1.",
   "id": "A231290",
   "mentions": [
     "A001029"

@@ -1,0 +1,38 @@
+{
+  "description": "Number of subsets of {1..n} with the same number of maximal runs (increasing by 1) as maximal anti-runs (increasing by more than 1).",
+  "id": "A385572",
+  "mentions": [
+    "A000071",
+    "A000079",
+    "A001629",
+    "A010027",
+    "A034839",
+    "A053538",
+    "A069010",
+    "A116674",
+    "A210034",
+    "A217615",
+    "A268193",
+    "A384175",
+    "A384176",
+    "A384177",
+    "A384877",
+    "A384878",
+    "A384879",
+    "A384881",
+    "A384889",
+    "A384890",
+    "A384893",
+    "A384905",
+    "A385575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

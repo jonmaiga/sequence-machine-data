@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 2 * arcsin(x)).",
+  "id": "A385346",
+  "mentions": [
+    "A189780",
+    "A385343",
+    "A385347"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

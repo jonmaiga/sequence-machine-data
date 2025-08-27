@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X6 0..3 arrays with every 2X2 subblock having nonzero determinant and commuting with every horizontal or vertical neighbor",
+  "description": "Number of (n+1)X6 0..3 arrays with every 2X2 subblock having nonzero determinant and commuting with every horizontal or vertical neighbor.",
   "id": "A206340",
   "mentions": [
     "A206343"

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle, read by rows: row n gives the pair of proper positive fundamental solutions (x, y) of the form x^2 - 2*y^2 representing -A057126(n).",
+  "id": "A385449",
+  "mentions": [
+    "A001109",
+    "A001132",
+    "A007519",
+    "A007522",
+    "A035251",
+    "A038873",
+    "A057126"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

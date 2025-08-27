@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..7 arrays x(0..n+2) of n+3 elements with zero n-1st differences",
+  "description": "Number of 0..7 arrays x(0..n+2) of n+3 elements with zero n-1st differences.",
   "id": "A200328",
   "mentions": [
     "A200329"

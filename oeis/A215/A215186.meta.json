@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6X6X6 triangular 0..n arrays with every horizontal row nondecreasing, first elements of rows nonincreasing, last elements of rows nondecreasing, and every row having the same average value",
+  "description": "Number of 6X6X6 triangular 0..n arrays with every horizontal row nondecreasing, first elements of rows nonincreasing, last elements of rows nondecreasing, and every row having the same average value.",
   "id": "A215186",
   "mentions": [
     "A215182"

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,d) is the number of free d-dimensional polysticks of size n.",
+  "id": "A385583",
+  "mentions": [
+    "A019988",
+    "A330891",
+    "A365559",
+    "A365561",
+    "A365563",
+    "A365565",
+    "A365566",
+    "A385581"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

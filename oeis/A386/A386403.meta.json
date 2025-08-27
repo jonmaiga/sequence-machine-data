@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of zeta(3)/3.",
+  "id": "A386403",
+  "mentions": [
+    "A002117",
+    "A072691",
+    "A098198",
+    "A259928",
+    "A386404"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

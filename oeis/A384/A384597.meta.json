@@ -1,0 +1,16 @@
+{
+  "description": "Integers k such that k + 1 has a divisor that is an anagram of k, which must have the same number of digits as k.",
+  "id": "A384597",
+  "mentions": [
+    "A100412"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=1/5 the number of nXk 0..4 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors",
+  "description": "T(n,k)=1/5 the number of nXk 0..4 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors.",
   "id": "A185825",
   "mentions": [
     "A006131"

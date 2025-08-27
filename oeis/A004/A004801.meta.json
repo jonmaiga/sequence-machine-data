@@ -1,7 +1,11 @@
 {
   "description": "Sum of 12 positive 9th powers.",
   "id": "A004801",
-  "mentions": [],
+  "mentions": [
+    "A003335",
+    "A004823",
+    "A008453"
+  ],
   "tags": [
     "nonn"
   ],

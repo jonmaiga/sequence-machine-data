@@ -1,14 +1,21 @@
 {
   "description": "(8^n)-th prime.",
   "id": "A119773",
-  "mentions": [],
+  "mentions": [
+    "A033844",
+    "A119772",
+    "A119777",
+    "A119778",
+    "A119779"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

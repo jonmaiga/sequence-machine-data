@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1 + Sum_{i=1..n} 2^(2i-1) is prime.",
+  "description": "Numbers k such that 1 + Sum_{i=1..k} 2^(2*i-1) is prime.",
   "id": "A127936",
   "mentions": [
     "A000978",

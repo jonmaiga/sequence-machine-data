@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} Integral_{y=0..1} Integral_{z=0..1} ({x/y}*{y/z}*{z/x})^3 dx dy dz, where {w} is the fractional part of w.",
+  "id": "A386564",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013664",
+    "A013666",
+    "A183699",
+    "A183700",
+    "A375901",
+    "A383289"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,14 @@
 {
-  "description": "a(n) = product of n successive numbers up to n, if n is odd a(n) = n*(n-1)*.. = n!,if n is even a(n) = n(n+1)(n+2)... 'n' terms.",
+  "description": "a(n) = product of n successive numbers up to n, if n is odd a(n) = n*(n-1)*.. = n!, if n is even a(n) = n(n+1)(n+2)... 'n' terms.",
   "id": "A113550",
   "mentions": [
-    "A113549"
+    "A019704",
+    "A073742",
+    "A092042",
+    "A092616",
+    "A113549",
+    "A333419",
+    "A367563"
   ],
   "tags": [
     "easy",
@@ -11,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

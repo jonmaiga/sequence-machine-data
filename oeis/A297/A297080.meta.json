@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1s.",
+  "description": "Number of n X 3 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1's.",
   "id": "A297080",
   "mentions": [
     "A297085"

@@ -1,5 +1,5 @@
 {
-  "description": "Period of continued fraction for sqrt(n) contains exactly 34 ones.",
+  "description": "Numbers k such that the period of the continued fraction for sqrt(k) contains exactly 34 ones.",
   "id": "A031802",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

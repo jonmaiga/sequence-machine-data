@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 0, a(n) is the least Fibonacci number F_i (A000045) such that for some k >= 0, F_i = (n + 1)*(n + 2*k)/2, or a(n) = -1 if no such k exists.",
+  "id": "A386277",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A001175",
+    "A001177",
+    "A161553",
+    "A367420"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

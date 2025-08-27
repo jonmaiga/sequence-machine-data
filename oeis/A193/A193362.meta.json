@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of ways in which a unit disc can be dissected into 6n curvilinear triangles, at least one of which does not contain the center",
+  "description": "Numbers of ways in which a unit disc can be dissected into 6n curvilinear triangles, at least one of which does not contain the center.",
   "id": "A193362",
   "mentions": [],
   "tags": [

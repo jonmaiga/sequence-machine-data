@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+5 0..6 arrays with some three disjoint pairs in each consecutive six terms having the same sum",
+  "description": "Number of length n+5 0..6 arrays with some three disjoint pairs in each consecutive six terms having the same sum.",
   "id": "A248487",
   "mentions": [
     "A248489"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Card{ (x,y,z) | x < y < z and lcm(x,y,z) = n}.",
+  "description": "a(n) = |{ (x,y,z) | x < y < z and lcm(x,y,z) = n}|.",
   "id": "A086165",
   "mentions": [
     "A048691",

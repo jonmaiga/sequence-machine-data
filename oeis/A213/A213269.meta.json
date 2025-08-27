@@ -1,5 +1,5 @@
 {
-  "description": "The number of edges in the directed graph of the 2-opt landscape of the symmetric TSP",
+  "description": "The number of edges in the directed graph of the 2-opt landscape of the symmetric TSP.",
   "id": "A213269",
   "mentions": [],
   "tags": [

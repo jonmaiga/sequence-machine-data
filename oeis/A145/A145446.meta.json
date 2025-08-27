@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest cube > n-th prime",
+  "description": "a(n) = the smallest cube > n-th prime.",
   "id": "A145446",
   "mentions": [
     "A104147"

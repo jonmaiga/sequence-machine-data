@@ -1,0 +1,28 @@
+{
+  "description": "Positive integers setting a new record for the sum of the square roots of the prime exponents.",
+  "id": "A384669",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A002182",
+    "A007814",
+    "A025487",
+    "A029744",
+    "A046523",
+    "A051903",
+    "A056169",
+    "A095848",
+    "A168264",
+    "A385722"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

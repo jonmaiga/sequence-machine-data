@@ -1,5 +1,5 @@
 {
-  "description": "Rolling icosahedron footprints: number of nX4 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge",
+  "description": "Rolling icosahedron footprints: number of nX4 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal or vertical neighbor moves along an icosahedral edge.",
   "id": "A223259",
   "mentions": [
     "A223263"

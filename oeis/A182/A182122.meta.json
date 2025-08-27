@@ -2,8 +2,14 @@
   "description": "Expansion of exp( arcsinh( 2*x ) ).",
   "id": "A182122",
   "mentions": [
+    "A000984",
+    "A048990",
+    "A078531",
     "A104624",
-    "A127846"
+    "A127846",
+    "A224884",
+    "A245112",
+    "A245113"
   ],
   "tags": [
     "formulas",

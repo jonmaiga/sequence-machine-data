@@ -2,7 +2,8 @@
   "description": "Sums of two refactorable numbers whose difference is refactorable.",
   "id": "A309347",
   "mentions": [
-    "A033950"
+    "A033950",
+    "A114617"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

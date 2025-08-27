@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are prime or end in a prime number (of any length).",
+  "id": "A384735",
+  "mentions": [
+    "A000040",
+    "A017293",
+    "A017305",
+    "A017329",
+    "A017353",
+    "A033664",
+    "A055642"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

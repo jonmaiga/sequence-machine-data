@@ -1,7 +1,11 @@
 {
   "description": "Number of minimum total dominating sets in the n-folded cube graph.",
   "id": "A347642",
-  "mentions": [],
+  "mentions": [
+    "A302613",
+    "A347482",
+    "A347923"
+  ],
   "tags": [
     "more",
     "nonn"

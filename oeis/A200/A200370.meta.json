@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays x(0..n+4) of n+5 elements with zero n-1st differences",
+  "description": "T(n,k)=Number of 0..k arrays x(0..n+4) of n+5 elements with zero n-1st differences.",
   "id": "A200370",
   "mentions": [
     "A008814"

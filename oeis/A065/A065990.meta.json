@@ -1,11 +1,12 @@
 {
-  "description": "The first n base-5 digits of Pi expressed in decimal forms a prime.",
+  "description": "Numbers k such that the first k base-5 digits of Pi expressed in decimal forms a prime.",
   "id": "A065990",
   "mentions": [
     "A004604"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

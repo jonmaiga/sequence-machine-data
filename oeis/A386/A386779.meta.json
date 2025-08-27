@@ -1,0 +1,20 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of ways to partition an n X n X n cube into k noncongruent cuboids excluding cube-shaped parts.",
+  "id": "A386779",
+  "mentions": [
+    "A004526",
+    "A381847",
+    "A386756",
+    "A386757"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

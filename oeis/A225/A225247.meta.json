@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct values of the sum of 2 products of a 0..n-1 and a 0..n integer",
+  "description": "Number of distinct values of the sum of 2 products of a 0..n-1 and a 0..n integer.",
   "id": "A225247",
   "mentions": [
     "A225246"

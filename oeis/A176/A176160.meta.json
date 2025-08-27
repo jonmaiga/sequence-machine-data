@@ -1,5 +1,5 @@
 {
-  "description": "A polynomial coefficient sequence:p(x,n,m)=(1 + 4*Binomial[n, m]*x)^n",
+  "description": "A polynomial coefficient sequence:p(x,n,m)=(1 + 4*Binomial[n, m]*x)^n.",
   "id": "A176160",
   "mentions": [],
   "tags": [

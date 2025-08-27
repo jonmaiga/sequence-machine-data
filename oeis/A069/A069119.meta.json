@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!*Sum_{i=1..n} 1/(i*2^i) is an integer.",
+  "description": "Numbers k such that k!*Sum_{i=1..k} 1/(i*2^i) is an integer.",
   "id": "A069119",
   "mentions": [
     "A069120"

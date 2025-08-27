@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with no element equal to exactly three horizontal or vertical neighbors, with new values 0..2 introduced in row major order",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with no element equal to exactly three horizontal or vertical neighbors, with new values 0..2 introduced in row major order.",
   "id": "A241114",
   "mentions": [
     "A007051",

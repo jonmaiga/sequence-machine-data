@@ -1,5 +1,5 @@
 {
-  "description": "Squares n = k^2 with the property that nextprime(k) is a substring of n.",
+  "description": "Squares m = k^2 with the property that nextprime(k) is a substring of m.",
   "id": "A274932",
   "mentions": [
     "A052074"

@@ -1,9 +1,11 @@
 {
-  "description": "Bell numbers (A000110) mod 4.",
+  "description": "Bell numbers (A000110) read mod 4.",
   "id": "A146094",
   "mentions": [
     "A000110",
-    "A146093"
+    "A054767",
+    "A146093",
+    "A146122"
   ],
   "tags": [
     "easy",

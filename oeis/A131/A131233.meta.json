@@ -1,10 +1,14 @@
 {
-  "description": "a(n) = number of positive integers <= n which don't have 2 or more distinct prime divisors in common with n.",
+  "description": "a(n) is the number of positive integers <= n that do not have 2 or more distinct prime divisors in common with n.",
   "id": "A131233",
   "mentions": [
+    "A000010",
     "A010055",
+    "A013661",
+    "A116512",
     "A117494",
-    "A131232"
+    "A131232",
+    "A154945"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of divisors in the k-th sublist of the divisors of n formed by the k-th odd divisor and the next even divisors that are less than the next odd divisor of n, with n >= 1, k >= 1.",
+  "id": "A384224",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A001227",
+    "A027750",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A279387",
+    "A384222",
+    "A384223"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

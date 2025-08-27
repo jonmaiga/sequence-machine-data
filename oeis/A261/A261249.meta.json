@@ -1,5 +1,5 @@
 {
-  "description": "Number of classes of proper solutions of the Pell equation x^2 - D(n) y^2 = +4 for D(n) = A079896(n), n >= 0.",
+  "description": "Number of classes of proper solutions of the Pell equation x^2 - D(n) y^2 = +4 for D(n) = A079896(n), n >= 1.",
   "id": "A261249",
   "mentions": [
     "A000037",
@@ -16,7 +16,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 62,
     "source": "oeis-entry"
   }

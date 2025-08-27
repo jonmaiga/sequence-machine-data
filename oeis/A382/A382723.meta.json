@@ -2,13 +2,16 @@
   "description": "Number of entries in the n-th row of Pascal's triangle not divisible by 4.",
   "id": "A382723",
   "mentions": [
+    "A000120",
     "A001316",
     "A006047",
+    "A033264",
     "A194459",
     "A382720",
     "A382725"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

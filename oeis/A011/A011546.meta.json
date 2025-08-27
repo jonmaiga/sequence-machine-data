@@ -1,15 +1,21 @@
 {
   "description": "Decimal expansion of Pi rounded to n places.",
   "id": "A011546",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A011544",
+    "A011548",
+    "A011552"
+  ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

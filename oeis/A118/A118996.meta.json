@@ -2,16 +2,22 @@
   "description": "Number of real n X n symmetric (0,1) matrices with negative determinant.",
   "id": "A118996",
   "mentions": [
+    "A086899",
     "A086900",
-    "A118998"
+    "A086906",
+    "A118997",
+    "A118998",
+    "A118999",
+    "A119006"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

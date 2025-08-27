@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5X5X5 triangular nonnegative integer arrays with all sums of an element and its neighbors <= n",
+  "description": "Number of 5X5X5 triangular nonnegative integer arrays with all sums of an element and its neighbors <= n.",
   "id": "A166191",
   "mentions": [],
   "tags": [

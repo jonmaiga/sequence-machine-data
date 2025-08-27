@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^(n-k)*C(2*n,n-k).",
+  "id": "A386826",
+  "mentions": [
+    "A128418",
+    "A386825"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

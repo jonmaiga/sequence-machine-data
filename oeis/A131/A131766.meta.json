@@ -1,17 +1,19 @@
 {
-  "description": "a(n) = A131668(n) - (2n+1).",
+  "description": "a(n) = A131668(n) - (2*n+1).",
   "id": "A131766",
   "mentions": [
     "A002266",
-    "A131668"
+    "A131668",
+    "A131871"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "joeis"
   }
 }

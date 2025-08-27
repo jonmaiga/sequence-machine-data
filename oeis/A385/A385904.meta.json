@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of nonempty subsets of the divisors of n that sum to a perfect square.",
+  "id": "A385904",
+  "mentions": [
+    "A000290",
+    "A005835",
+    "A027750",
+    "A119347",
+    "A119348",
+    "A237290",
+    "A385645",
+    "A385646"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

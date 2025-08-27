@@ -1,5 +1,5 @@
 {
-  "description": "Least m for which A185615(n) divides A000201(A185615(n))^m",
+  "description": "Least m for which A185615(n) divides A000201(A185615(n))^m.",
   "id": "A185617",
   "mentions": [
     "A000201",

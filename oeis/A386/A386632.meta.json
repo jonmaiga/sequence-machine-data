@@ -1,0 +1,52 @@
+{
+  "description": "Numbers k such that there is a disjoint inseparable way to choose a strict integer partition of each exponent in the prime factorization of k.",
+  "id": "A386632",
+  "mentions": [
+    "A000110",
+    "A000670",
+    "A001221",
+    "A001222",
+    "A003242",
+    "A025065",
+    "A051903",
+    "A051904",
+    "A056239",
+    "A130091",
+    "A239455",
+    "A246549",
+    "A279790",
+    "A325534",
+    "A325535",
+    "A333489",
+    "A335126",
+    "A335127",
+    "A335433",
+    "A335448",
+    "A335452",
+    "A336106",
+    "A351293",
+    "A351294",
+    "A373957",
+    "A382525",
+    "A386575",
+    "A386582",
+    "A386583",
+    "A386584",
+    "A386585",
+    "A386586",
+    "A386587",
+    "A386633",
+    "A386634",
+    "A386635",
+    "A386636",
+    "A386638"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

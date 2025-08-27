@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (1 + k^6) * a(k) * a(n-1-k).",
+  "id": "A385834",
+  "mentions": [
+    "A088716",
+    "A385830",
+    "A385831",
+    "A385832",
+    "A385833"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

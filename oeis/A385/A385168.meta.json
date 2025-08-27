@@ -1,0 +1,22 @@
+{
+  "description": "Primes p == 3 (mod 4) such that (p+1) * ord(5,p) / ord(2+-i,p) > 1. Here ord(a,m) is the multiplicative order of a modulo m.",
+  "id": "A385168",
+  "mentions": [
+    "A002145",
+    "A384948",
+    "A385165",
+    "A385166",
+    "A385167",
+    "A385180"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX(n+1) binary arrays with the number of 0-1 adjacencies equal to the number of 0-0 adjacencies",
+  "description": "Number of nX(n+1) binary arrays with the number of 0-1 adjacencies equal to the number of 0-0 adjacencies.",
   "id": "A183263",
   "mentions": [
     "A183262"

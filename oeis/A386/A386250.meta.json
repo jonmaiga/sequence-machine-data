@@ -1,0 +1,20 @@
+{
+  "description": "Total number of ones in runs of 1's of length >= 4 over all binary strings of length n.",
+  "id": "A386250",
+  "mentions": [
+    "A001787",
+    "A053220",
+    "A066373",
+    "A128135"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

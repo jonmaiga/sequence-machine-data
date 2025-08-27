@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the nearest integer to n/log_10(Pi).",
+  "id": "A386725",
+  "mentions": [
+    "A000796",
+    "A002160",
+    "A005843",
+    "A010467",
+    "A053511",
+    "A385570"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

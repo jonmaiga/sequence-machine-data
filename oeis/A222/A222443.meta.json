@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..3 arrays with entries increasing mod 4 by 0, 1 or 2 rightwards and downwards, starting with upper left zero",
+  "description": "Number of nX7 0..3 arrays with entries increasing mod 4 by 0, 1 or 2 rightwards and downwards, starting with upper left zero.",
   "id": "A222443",
   "mentions": [
     "A222444"

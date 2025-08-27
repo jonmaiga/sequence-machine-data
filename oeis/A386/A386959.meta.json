@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 8^k * binomial(k-2/3,k) * binomial(2*n-2/3,n-k).",
+  "id": "A386959",
+  "mentions": [
+    "A386956",
+    "A386960"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

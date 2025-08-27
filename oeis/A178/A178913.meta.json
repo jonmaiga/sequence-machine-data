@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of integer bases r, where r is less than or equal to n, in which n cannot be expressed in the form of k+Reverse(k) for any k",
+  "description": "a(n) is the number of integer bases r, where r is less than or equal to n, in which n cannot be expressed in the form of k+Reverse(k) for any k.",
   "id": "A178913",
   "mentions": [],
   "tags": [

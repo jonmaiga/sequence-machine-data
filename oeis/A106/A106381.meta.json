@@ -1,5 +1,5 @@
 {
-  "description": "Real part of Gaussian prime numbers such that the Gaussian Primorial product up to them is a Gaussian prime minus i.",
+  "description": "Real part of Gaussian prime numbers such that the Gaussian primorial product up to them is a Gaussian prime minus i.",
   "id": "A106381",
   "mentions": [
     "A103431",
@@ -10,11 +10,12 @@
     "A106384"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = sum of the k first n-th powers",
+  "description": "Triangle T(n,k) = sum of the k first n-th powers.",
   "id": "A215083",
   "mentions": [
     "A000537",

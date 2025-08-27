@@ -1,0 +1,22 @@
+{
+  "description": "Initial term of first run of exactly n consecutive numbers with exactly 5 distinct prime factors.",
+  "id": "A384507",
+  "mentions": [
+    "A001221",
+    "A046387",
+    "A080569",
+    "A087977",
+    "A087978",
+    "A185032",
+    "A185042"
+  ],
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

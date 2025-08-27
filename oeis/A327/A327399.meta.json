@@ -2,6 +2,7 @@
   "description": "Number of factorizations of n that are constant or whose distinct factors are pairwise coprime.",
   "id": "A327399",
   "mentions": [
+    "A000005",
     "A007359",
     "A050320",
     "A051424",

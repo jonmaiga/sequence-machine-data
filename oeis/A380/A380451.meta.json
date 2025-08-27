@@ -1,19 +1,17 @@
 {
-  "description": "First coefficient of the lindep transform of Carmichael lambda, A002322.",
+  "description": "Number of disjoint-path coverings for 2 X n rectangular grids, admitting zero-length paths.",
   "id": "A380451",
   "mentions": [
-    "A002322",
-    "A339790",
-    "A380441",
-    "A380452",
-    "A380453"
+    "A003763"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
-    "source": "oeis-bfile"
+    "size": 25,
+    "source": "joeis"
   }
 }

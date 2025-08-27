@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n such that sigma(n) - n = n - pi(n) - 1 where pi(n) is A000720.",
+  "description": "Numbers k such that sigma(k) - k = k - pi(k) - 1 where pi(k) is A000720.",
   "id": "A048884",
   "mentions": [
+    "A000203",
     "A000720",
     "A037172"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

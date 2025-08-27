@@ -1,5 +1,5 @@
 {
-  "description": "Number of bisections of the n-th binary palindrome bit pattern until the result is not palindromic",
+  "description": "Number of bisections of the n-th binary palindrome bit pattern until the result is not palindromic.",
   "id": "A206923",
   "mentions": [
     "A006995",

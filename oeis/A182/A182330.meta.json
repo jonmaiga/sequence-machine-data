@@ -1,16 +1,18 @@
 {
-  "description": "Primes of the form 5^n + 2.",
+  "description": "Primes of the form 5^k + 2.",
   "id": "A182330",
   "mentions": [
     "A057735",
-    "A087885"
+    "A087885",
+    "A242328"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 4,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

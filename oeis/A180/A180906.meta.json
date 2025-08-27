@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=number of sequences of n integers p(i) i=0..n-1 0<=p(i)<=k*i and |p(i+1)-p(i)|<=k",
+  "description": "T(n,k)=number of sequences of n integers p(i) i=0..n-1 0<=p(i)<=k*i and |p(i+1)-p(i)|<=k.",
   "id": "A180906",
   "mentions": [],
   "tags": [

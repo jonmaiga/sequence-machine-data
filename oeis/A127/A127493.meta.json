@@ -1,5 +1,5 @@
 {
-  "description": "Indices k such that the coefficient [x^1] of the polynomial product_{j=0..4} (x-prime(k+j)) is prime.",
+  "description": "Indices k such that the coefficient [x^1] of the polynomial Product_{j=0..4} (x-prime(k+j)) is prime.",
   "id": "A127493",
   "mentions": [
     "A001043",

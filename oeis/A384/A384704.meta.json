@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(i, j), 1 <= j <= i, read by rows. T(i, j) is the smallest number k that has i odd divisors and whose symmetric representation of sigma, SRS(k), has j parts; when no such k exists then T(i, j) = -1.",
+  "id": "A384704",
+  "mentions": [
+    "A003056",
+    "A038547",
+    "A174973",
+    "A235791",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A239929",
+    "A249223",
+    "A279102",
+    "A279387",
+    "A280107",
+    "A318843",
+    "A320066",
+    "A320511",
+    "A377654"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

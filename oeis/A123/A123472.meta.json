@@ -1,5 +1,5 @@
 {
-  "description": "Number of weakly triangulated perfect graphs on n nodes.",
+  "description": "Number of weakly triangulated simple graphs on n unlabeled nodes.",
   "id": "A123472",
   "mentions": [
     "A079457"

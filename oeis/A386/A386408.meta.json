@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where A(n,k) = Sum_{j=0..n} k^j * binomial(n,j) * Catalan(j+1).",
+  "id": "A386408",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A002212",
+    "A127846",
+    "A340968",
+    "A386362",
+    "A386389",
+    "A386432"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

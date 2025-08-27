@@ -1,5 +1,5 @@
 {
-  "description": "Prime differences of primes subtracted from nearest square",
+  "description": "Prime differences of primes subtracted from nearest square.",
   "id": "A146315",
   "mentions": [
     "A000040",

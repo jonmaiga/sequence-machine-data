@@ -3,15 +3,16 @@
   "id": "A375545",
   "mentions": [
     "A000040",
+    "A000720",
     "A375543"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

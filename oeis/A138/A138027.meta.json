@@ -1,5 +1,5 @@
 {
-  "description": "Where A121561(n) = 4.",
+  "description": "Numbers k where A121561(k) = 4.",
   "id": "A138027",
   "mentions": [
     "A093513",

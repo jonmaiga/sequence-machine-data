@@ -1,17 +1,23 @@
 {
-  "description": "a(2n)=4^n, a(4*n+3)-(2^(4*n+3)+2^(2*n+1))=a(n).",
+  "description": "a(2n) = 2^(2n), a(2n+1) = 2^(2n+1) + a(n).",
   "id": "A127804",
   "mentions": [
+    "A001511",
+    "A045654",
+    "A115361",
     "A127803",
-    "A187767"
+    "A128807",
+    "A187767",
+    "A385665"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

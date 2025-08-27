@@ -2,7 +2,8 @@
   "description": "Base-2 Reacher numbers: numbers that are powers of the sum of their base-2 digits.",
   "id": "A256590",
   "mentions": [
-    "A023106"
+    "A023106",
+    "A161792"
   ],
   "tags": [
     "base",

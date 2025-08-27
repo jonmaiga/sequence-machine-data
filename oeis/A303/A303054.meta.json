@@ -2,6 +2,8 @@
   "description": "Number of minimum total dominating sets in the n-ladder graph.",
   "id": "A303054",
   "mentions": [
+    "A302402",
+    "A303072",
     "A303293"
   ],
   "tags": [

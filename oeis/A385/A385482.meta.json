@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number k such that k*n is a binary Niven number (A049445).",
+  "id": "A385482",
+  "mentions": [
+    "A049445",
+    "A144261",
+    "A363788",
+    "A385483",
+    "A385484",
+    "A385485"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

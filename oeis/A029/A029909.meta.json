@@ -2,6 +2,7 @@
   "description": "Starting with n (but omitting the primes), repeatedly sum prime factors (counted with multiplicity) until reaching a limit.",
   "id": "A029909",
   "mentions": [
+    "A006512",
     "A029908"
   ],
   "tags": [

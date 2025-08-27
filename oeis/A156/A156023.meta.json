@@ -1,7 +1,8 @@
 {
-  "description": "n(n+1)/2 - A112509(n).",
+  "description": "a(n) = n*(n+1)/2 - A112509(n).",
   "id": "A156023",
   "mentions": [
+    "A000217",
     "A078822",
     "A112509",
     "A112510",
@@ -12,12 +13,13 @@
     "A156025"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
-    "source": "oeis-entry"
+    "size": 58,
+    "source": "oeis-bfile"
   }
 }

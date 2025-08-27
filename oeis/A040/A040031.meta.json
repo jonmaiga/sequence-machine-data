@@ -2,11 +2,13 @@
   "description": "Continued fraction for sqrt(38).",
   "id": "A040031",
   "mentions": [
-    "A010492"
+    "A010492",
+    "A040001"
   ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

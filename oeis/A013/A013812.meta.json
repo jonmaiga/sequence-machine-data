@@ -1,7 +1,12 @@
 {
-  "description": "a(n) = 20^(4*n+1).",
+  "description": "a(n) = 20^(4*n + 1).",
   "id": "A013812",
-  "mentions": [],
+  "mentions": [
+    "A009964",
+    "A013776",
+    "A013792",
+    "A016813"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-bfile"
   }
 }

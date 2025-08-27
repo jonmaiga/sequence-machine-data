@@ -1,0 +1,20 @@
+{
+  "description": "Products m of primorials (i.e., m in A025487) such that both m-1 and m+1 are not squarefree.",
+  "id": "A386526",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A013929",
+    "A025487",
+    "A375197",
+    "A386527"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

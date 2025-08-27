@@ -1,9 +1,12 @@
 {
-  "description": "Sum of the binary numbers whose digits are cyclic permutations of the binary expansion of n",
+  "description": "Sum of the binary numbers whose digits are cyclic permutations of the binary expansion of n.",
   "id": "A255683",
   "mentions": [
+    "A000120",
     "A000225",
+    "A000523",
     "A000668",
+    "A000918",
     "A063787"
   ],
   "tags": [

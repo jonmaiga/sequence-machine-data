@@ -1,5 +1,5 @@
 {
-  "description": "Number of zig-zag paths from top to bottom of a 2n-1 by 2n-1 square whose color is that of the top right corner",
+  "description": "Number of zig-zag paths from top to bottom of a 2n-1 by 2n-1 square whose color is that of the top right corner.",
   "id": "A153337",
   "mentions": [
     "A102699",

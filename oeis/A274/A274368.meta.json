@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that if n is decreased by the sum of its digits and n is decreased by the product of its digits both differences are squares > 0.",
+  "description": "Numbers k such that if k is decreased by the sum of its digits and k is decreased by the product of its digits both differences are squares > 0.",
   "id": "A274368",
   "mentions": [
     "A007953",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X4 binary array having an odd sum, with rows and columns of the latter in lexicographically nondecreasing order",
+  "description": "Number of nX3 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X4 binary array having an odd sum, with rows and columns of the latter in lexicographically nondecreasing order.",
   "id": "A227676",
   "mentions": [
     "A227679"

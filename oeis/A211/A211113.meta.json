@@ -2,12 +2,14 @@
   "description": "Decimal expansion of -zeta(-1/2).",
   "id": "A211113",
   "mentions": [
+    "A019694",
     "A059750",
     "A078434"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

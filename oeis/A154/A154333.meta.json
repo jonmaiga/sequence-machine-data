@@ -1,5 +1,5 @@
 {
-  "description": "Difference between n^3 and the next smaller square",
+  "description": "Difference between n^3 and the next smaller square.",
   "id": "A154333",
   "mentions": [
     "A000578",

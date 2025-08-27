@@ -2,7 +2,8 @@
   "description": "Smallest number with digit sum = Fibonacci(n).",
   "id": "A061249",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A007953"
   ],
   "tags": [
     "base",

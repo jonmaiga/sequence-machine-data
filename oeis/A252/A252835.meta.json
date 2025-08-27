@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 nonnegative integer arrays with upper left 0 and every value within 2 of its king move distance from the upper left and every value increasing by 0 or 1 with every step right, diagonally se or down",
+  "description": "Number of nX7 nonnegative integer arrays with upper left 0 and every value within 2 of its king move distance from the upper left and every value increasing by 0 or 1 with every step right, diagonally se or down.",
   "id": "A252835",
   "mentions": [
     "A252836"

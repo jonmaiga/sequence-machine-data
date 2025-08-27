@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (48^n + 47^n)/95 is prime.",
+  "description": "Numbers k such that (48^k + 47^k)/95 is prime.",
   "id": "A227172",
   "mentions": [
     "A000978",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(n, k) mod 11).",
+  "id": "A385828",
+  "mentions": [
+    "A001316",
+    "A051638",
+    "A095144",
+    "A384715",
+    "A385285",
+    "A385741",
+    "A385825",
+    "A385826"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

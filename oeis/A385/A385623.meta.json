@@ -1,0 +1,33 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) is the number obtained by concatenation of n with k in that order, with k >= 0.",
+  "id": "A385623",
+  "mentions": [
+    "A001477",
+    "A008592",
+    "A017281",
+    "A017293",
+    "A017305",
+    "A017317",
+    "A017329",
+    "A017341",
+    "A017353",
+    "A017365",
+    "A017377",
+    "A020338",
+    "A055642",
+    "A385624"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

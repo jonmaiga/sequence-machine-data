@@ -1,5 +1,5 @@
 {
-  "description": "1/6 the number of n X n arrays of integers in 1..6 with no element or any of its neighbors having the same value",
+  "description": "1/6 the number of n X n arrays of integers in 1..6 with no element or any of its neighbors having the same value.",
   "id": "A180373",
   "mentions": [],
   "tags": [

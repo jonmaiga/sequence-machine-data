@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the concatenation of a reversible prime and its reversal, and are the product of three (not necessarily distinct) primes whose sum is a prime.",
+  "id": "A385370",
+  "mentions": [
+    "A002113",
+    "A007500",
+    "A014612"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

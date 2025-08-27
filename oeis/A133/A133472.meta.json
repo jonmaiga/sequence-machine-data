@@ -1,9 +1,10 @@
 {
-  "description": "6 followed by numbers with n-1 0's between 1 and 5.",
+  "description": "a(n) = 10^n + 5.",
   "id": "A133472",
   "mentions": [
     "A068128",
-    "A133384"
+    "A133384",
+    "A133473"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

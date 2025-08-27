@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 101*n + 97 is prime.",
+  "description": "Numbers k such that 101*k + 97 is prime.",
   "id": "A111455",
   "mentions": [
     "A101084"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

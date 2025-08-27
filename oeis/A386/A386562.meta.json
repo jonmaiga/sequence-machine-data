@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: Place a point on the integer coordinates, up to |n|, along all four axial directions on a Cartesian plane, and then join an infinite straight line between every pair of points: T(n,k) is the number of k-sided finite polygons formed, for k>=3, in the resulting graph.",
+  "id": "A386562",
+  "mentions": [
+    "A344938",
+    "A346446",
+    "A386559",
+    "A386560",
+    "A386561"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

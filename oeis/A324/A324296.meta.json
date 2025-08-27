@@ -1,5 +1,5 @@
 {
-  "description": "Smallest m such that A217157(m) = n",
+  "description": "Smallest m such that A217157(m) = n.",
   "id": "A324296",
   "mentions": [
     "A171901",

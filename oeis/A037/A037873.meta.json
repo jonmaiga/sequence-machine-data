@@ -2,6 +2,7 @@
   "description": "(1/2)*Sum{|d(i)-e(i)|}, where Sum{d(i)*5^i} is base 5 representation of n and e(i) are digits d(i) in nonincreasing order, for i=0,1,...,m.",
   "id": "A037873",
   "mentions": [
+    "A037855",
     "A037882"
   ],
   "tags": [

@@ -1,19 +1,22 @@
 {
-  "description": "Numbers n such that in their binary representation all numbers from 1 to n are contained in n!.",
+  "description": "Numbers k such that in their binary representation all numbers from 1 to k are contained in k!.",
   "id": "A093710",
   "mentions": [
     "A000142",
     "A007088",
     "A036603",
+    "A072831",
     "A092601",
     "A093711"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

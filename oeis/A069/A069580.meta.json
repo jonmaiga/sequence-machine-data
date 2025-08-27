@@ -1,8 +1,9 @@
 {
-  "description": "Noninvertible n X n matrices mod 4 (i.e., over the ring Z_4).",
+  "description": "Number of noninvertible n X n matrices mod 4 (i.e., over the ring Z_4).",
   "id": "A069580",
   "mentions": [
     "A011787",
+    "A048651",
     "A065128"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "joeis"
   }
 }

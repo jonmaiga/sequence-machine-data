@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled simple graphs with n vertices and treedepth k.",
+  "id": "A387046",
+  "mentions": [
+    "A000088",
+    "A263294"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

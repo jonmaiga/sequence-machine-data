@@ -1,7 +1,11 @@
 {
-  "description": "Triangle of coefficients in expansion of (2+7x)^n.",
+  "description": "Triangle of coefficients in expansion of (2 + 7*x)^n.",
   "id": "A013623",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A000420",
+    "A001019"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 45,
     "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of binary strings of length n which contain exactly one run of 1s of even length.",
+  "id": "A384497",
+  "mentions": [
+    "A029907"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

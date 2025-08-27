@@ -1,5 +1,5 @@
 {
-  "description": "Sums of three consecutive numbers each of which is the product of two distinct primes and each of which has no exponent greater than one for either of its two prime factors",
+  "description": "Sums of three consecutive numbers each of which is the product of two distinct primes and each of which has no exponent greater than one for either of its two prime factors.",
   "id": "A173969",
   "mentions": [
     "A173966",

@@ -1,14 +1,28 @@
 {
   "description": "Pseudo Galois numbers for d=6.",
   "id": "A028668",
-  "mentions": [],
+  "mentions": [
+    "A028670",
+    "A028671",
+    "A028672",
+    "A028674",
+    "A028676",
+    "A028677",
+    "A028678",
+    "A028680",
+    "A028682",
+    "A028683",
+    "A028684",
+    "A028686",
+    "A132034"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 10,
     "source": "oeis-bfile"
   }
 }

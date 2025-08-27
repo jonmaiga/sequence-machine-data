@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(3+1) 0..3 arrays with no 2X2 subblock having the minimum of its diagonal elements less than the absolute difference of its antidiagonal elements",
+  "description": "Number of (n+1)X(3+1) 0..3 arrays with no 2X2 subblock having the minimum of its diagonal elements less than the absolute difference of its antidiagonal elements.",
   "id": "A251170",
   "mentions": [
     "A251175"

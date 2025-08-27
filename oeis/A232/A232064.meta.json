@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally or vertically, with no adjacent values equal",
+  "description": "Number of nX7 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally or vertically, with no adjacent values equal.",
   "id": "A232064",
   "mentions": [
     "A232065"

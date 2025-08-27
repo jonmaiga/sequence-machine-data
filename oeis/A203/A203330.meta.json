@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with the row and column sums nondecreasing",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with the row and column sums nondecreasing.",
   "id": "A203330",
   "mentions": [
     "A000217"

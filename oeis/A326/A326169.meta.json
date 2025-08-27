@@ -7,12 +7,12 @@
     "A326168"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 54,
     "source": "oeis-entry"
   }
 }

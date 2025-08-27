@@ -1,0 +1,18 @@
+{
+  "description": "Record terms in A384698.",
+  "id": "A384512",
+  "mentions": [
+    "A020639",
+    "A383777",
+    "A384698"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

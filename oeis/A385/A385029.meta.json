@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{-n <= a, b, c <= n} (b^2 - 4*a*c).",
+  "id": "A385029",
+  "mentions": [
+    "A000384",
+    "A002378",
+    "A014105",
+    "A016754",
+    "A016755",
+    "A055112",
+    "A384666"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

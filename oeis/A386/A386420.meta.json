@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers k that are closer to being perfect than previous terms and also satisfy the conditions that sigma(k) preserves the 3-adic valuation of k, and that sigma(k) == -k (mod 3).",
+  "id": "A386420",
+  "mentions": [
+    "A000203",
+    "A171929",
+    "A228058",
+    "A228059",
+    "A349749",
+    "A349751",
+    "A349752",
+    "A386419",
+    "A386421",
+    "A386422"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

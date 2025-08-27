@@ -2,14 +2,15 @@
   "description": "Primes equal to floor(Pi*x) where x is prime.",
   "id": "A079593",
   "mentions": [
+    "A000796",
     "A077546"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 41,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
   }
 }

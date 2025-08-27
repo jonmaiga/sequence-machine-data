@@ -1,0 +1,21 @@
+{
+  "description": "Let p = A002145(n) be the n-th prime == 3 (mod 4); a(n) = (p+1) * ord(5,p) / ord(2+-i,p) = (p+1) * ord(5,p) / A385165(n). Here ord(a,m) is the multiplicative order of a modulo m.",
+  "id": "A385166",
+  "mentions": [
+    "A002145",
+    "A211450",
+    "A385165",
+    "A385167",
+    "A385168",
+    "A385180"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

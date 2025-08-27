@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which n + n' and n - n' are both prime, n' being the arithmetic derivative of n.",
+  "description": "Numbers k for which k + k' and k - k' are both prime, k' being the arithmetic derivative of k.",
   "id": "A229271",
   "mentions": [
     "A003415",

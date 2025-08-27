@@ -2,11 +2,13 @@
   "description": "Continued fraction for sqrt(40).",
   "id": "A040033",
   "mentions": [
-    "A010494"
+    "A010494",
+    "A040005"
   ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

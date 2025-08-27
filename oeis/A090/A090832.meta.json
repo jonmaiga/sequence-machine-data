@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p(n), p(n)+6, p(n)+12, p(n)+18 are consecutive primes, where p(n) denotes n-th prime.",
+  "description": "Numbers k such that p(k), p(k)+6, p(k)+12, p(k)+18 are consecutive primes, where p(k) denotes k-th prime.",
   "id": "A090832",
   "mentions": [
     "A033451",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 44,
     "source": "oeis-bfile"
   }
 }

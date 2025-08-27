@@ -1,8 +1,18 @@
 {
   "description": "Sum of exponents in prime-power factorization of C(3n,n-1).",
   "id": "A023820",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A004319",
+    "A023819",
+    "A023821",
+    "A023822",
+    "A023823",
+    "A023824",
+    "A023825"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

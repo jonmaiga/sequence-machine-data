@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n>0 such that n = k*(reversal of k*n) for some k<=n.",
+  "description": "Numbers m>0 such that m = k*(reversal of k*m) for some k<=m.",
   "id": "A281625",
   "mentions": [
     "A002113",

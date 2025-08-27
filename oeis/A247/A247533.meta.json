@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+3 0..k arrays with some disjoint pairs in every consecutive four terms having the same sum",
+  "description": "T(n,k)=Number of length n+3 0..k arrays with some disjoint pairs in every consecutive four terms having the same sum.",
   "id": "A247533",
   "mentions": [
     "A060942",

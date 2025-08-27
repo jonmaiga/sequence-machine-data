@@ -2,7 +2,9 @@
   "description": "Smallest multiple of n which uses no digits of n, or 0 if no such number exists.",
   "id": "A074157",
   "mentions": [
-    "A052983"
+    "A052983",
+    "A076924",
+    "A378865"
   ],
   "tags": [
     "base",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
+    "size": 64,
     "source": "joeis"
   }
 }

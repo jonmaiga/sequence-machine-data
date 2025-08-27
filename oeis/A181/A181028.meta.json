@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary matrices that are completed draws in n-in-a-row tic-tac-toe, with 0 going first",
+  "description": "Number of n X n binary matrices that are completed draws in n-in-a-row tic-tac-toe, with 0 going first.",
   "id": "A181028",
   "mentions": [
     "A181029"

@@ -1,0 +1,16 @@
+{
+  "description": "Place a point on the integer coordinates, up to |k|, along all four axial directions on a Cartesian plane, and then join an infinite straight line between every pair of points: a(n) is the smallest k such that n lines intersect at a point not on the axes.",
+  "id": "A386775",
+  "mentions": [
+    "A386559"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

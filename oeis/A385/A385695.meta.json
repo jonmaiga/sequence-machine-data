@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of an augmented dodecahedron with unit edge.",
+  "id": "A385695",
+  "mentions": [
+    "A002163",
+    "A102769",
+    "A179552",
+    "A385696",
+    "A385802",
+    "A385804"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

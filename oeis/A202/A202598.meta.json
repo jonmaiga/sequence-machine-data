@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X7 binary arrays avoiding patterns 001 and 000 in rows and columns",
+  "description": "Number of (n+2)X7 binary arrays avoiding patterns 001 and 000 in rows and columns.",
   "id": "A202598",
   "mentions": [
     "A202601"

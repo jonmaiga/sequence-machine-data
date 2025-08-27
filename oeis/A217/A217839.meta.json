@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n element 0..1 arrays with each element the minimum of k adjacent elements of a random 0..1 array of n+k-1 elements",
+  "description": "T(n,k)=Number of n element 0..1 arrays with each element the minimum of k adjacent elements of a random 0..1 array of n+k-1 elements.",
   "id": "A217839",
   "mentions": [
     "A000124",

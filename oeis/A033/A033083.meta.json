@@ -1,7 +1,9 @@
 {
   "description": "Numbers in which all pairs of consecutive base-5 digits differ by 2.",
   "id": "A033083",
-  "mentions": [],
+  "mentions": [
+    "A007091"
+  ],
   "tags": [
     "base",
     "nonn"

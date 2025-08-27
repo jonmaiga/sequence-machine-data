@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with permanents of 2X2 subblocks differing from horizontal and vertical neighbor permanents",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with permanents of 2X2 subblocks differing from horizontal and vertical neighbor permanents.",
   "id": "A205293",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Number of \"bilaterally symmetric hexagonal partitions\" of n",
+  "description": "Number of \"bilaterally symmetric hexagonal partitions\" of n.",
   "id": "A321443",
   "mentions": [
     "A116513",

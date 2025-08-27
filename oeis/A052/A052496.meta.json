@@ -1,5 +1,5 @@
 {
-  "description": "Nonsingular n X n matrices over GF(8).",
+  "description": "Number of nonsingular n X n matrices over GF(8).",
   "id": "A052496",
   "mentions": [
     "A002884",
@@ -11,7 +11,8 @@
     "A053291",
     "A053292",
     "A053293",
-    "A109966"
+    "A109966",
+    "A132036"
   ],
   "tags": [
     "easy",

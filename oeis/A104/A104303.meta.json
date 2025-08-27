@@ -1,14 +1,18 @@
 {
   "description": "Primes which are the reverse concatenation of four consecutive square numbers.",
   "id": "A104303",
-  "mentions": [],
+  "mentions": [
+    "A104301",
+    "A104302",
+    "A104304"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

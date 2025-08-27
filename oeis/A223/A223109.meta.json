@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6Xn 0..2 arrays with exactly floor(6Xn/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order",
+  "description": "Number of 6Xn 0..2 arrays with exactly floor(6Xn/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order.",
   "id": "A223109",
   "mentions": [
     "A223104"

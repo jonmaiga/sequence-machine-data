@@ -1,0 +1,17 @@
+{
+  "description": "The least integer of n consecutive numbers where each has its sum of prime factors, with multiplicity, being a prime.",
+  "id": "A385724",
+  "mentions": [
+    "A100118",
+    "A337310"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

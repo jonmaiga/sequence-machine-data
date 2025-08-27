@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n-step self-avoiding walks on a k-long line summed over all starting positions",
+  "description": "T(n,k)=Number of n-step self-avoiding walks on a k-long line summed over all starting positions.",
   "id": "A187637",
   "mentions": [],
   "tags": [

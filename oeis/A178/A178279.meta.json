@@ -1,5 +1,5 @@
 {
-  "description": "Number of collinear point 7-tuples in an n X n .. X n 5-dimensional cubical grid",
+  "description": "Number of collinear point 7-tuples in an n X n .. X n 5-dimensional cubical grid.",
   "id": "A178279",
   "mentions": [
     "A000938",

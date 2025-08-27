@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary strings of length n with equal numbers of 01001 and 10110 substrings",
+  "description": "Number of binary strings of length n with equal numbers of 01001 and 10110 substrings.",
   "id": "A164261",
   "mentions": [],
   "tags": [

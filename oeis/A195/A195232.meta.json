@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)is the number of lower triangles of an n X n 0..k array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less",
+  "description": "T(n,k)is the number of lower triangles of an n X n 0..k array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.",
   "id": "A195232",
   "mentions": [
     "A195213"

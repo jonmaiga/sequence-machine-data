@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4-turn rook's tours on an n X n board summed over all starting positions",
+  "description": "Number of 4-turn rook's tours on an n X n board summed over all starting positions.",
   "id": "A187191",
   "mentions": [
     "A187189"

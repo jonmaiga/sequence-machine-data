@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 has exactly 3 different digits.",
+  "description": "Numbers k such that k^3 has exactly 3 different digits.",
   "id": "A155146",
   "mentions": [
     "A030292"

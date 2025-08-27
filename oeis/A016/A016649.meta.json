@@ -2,11 +2,14 @@
   "description": "Decimal expansion of log(26).",
   "id": "A016649",
   "mentions": [
-    "A016454"
+    "A002162",
+    "A016454",
+    "A016636"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

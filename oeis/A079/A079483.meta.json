@@ -3,16 +3,18 @@
   "id": "A079483",
   "mentions": [
     "A020806",
+    "A035613",
     "A048962",
     "A048963"
   ],
   "tags": [
+    "base",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 2,
-    "size": 31,
-    "source": "oeis-entry"
+    "size": 81,
+    "source": "joeis"
   }
 }

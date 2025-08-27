@@ -1,0 +1,24 @@
+{
+  "description": "Maximum number of transversals in an extended self-orthogonal diagonal Latin square of order n.",
+  "id": "A387124",
+  "mentions": [
+    "A090741",
+    "A091323",
+    "A287644",
+    "A287645",
+    "A309210",
+    "A309598",
+    "A309599",
+    "A357514",
+    "A383684",
+    "A387187"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

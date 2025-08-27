@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive integer k such that the digit sum of prime(n) + k divides the concatenation of prime(n) - 1 and prime(n), where prime(n) is the n-th prime.",
+  "id": "A385241",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A385172"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

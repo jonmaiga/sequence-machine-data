@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Meissel Prime theta function at x = 2 : Sum_{p prime} 1/exp(2*p).",
+  "id": "A383903",
+  "mentions": [
+    "A077761",
+    "A383901"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

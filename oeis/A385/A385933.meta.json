@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to tile a \"central bump\" strip of length n with 1 X 1 squares and 1 X 3 rectangles.",
+  "id": "A385933",
+  "mentions": [
+    "A000930"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

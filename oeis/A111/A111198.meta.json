@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sequence A_n does not contain a perfect square.",
+  "description": "Numbers k such that sequence A_k does not contain a perfect square.",
   "id": "A111198",
   "mentions": [
     "A000001",

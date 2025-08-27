@@ -2,7 +2,8 @@
   "description": "Moment of inertia of all magic squares of order n.",
   "id": "A126275",
   "mentions": [
-    "A027480"
+    "A027480",
+    "A126276"
   ],
   "tags": [
     "easy",

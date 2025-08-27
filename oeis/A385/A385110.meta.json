@@ -1,0 +1,16 @@
+{
+  "description": "Terms of A198587 congruent {1, 3, 7} (mod 8).",
+  "id": "A385110",
+  "mentions": [
+    "A198587",
+    "A385109"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

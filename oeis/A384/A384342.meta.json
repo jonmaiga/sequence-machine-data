@@ -1,0 +1,17 @@
+{
+  "description": "Largest minimum height of the irreducible factors of a degree-n polynomial of height 1.",
+  "id": "A384342",
+  "mentions": [
+    "A363959"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Total number of OFF (white) cells after n iterations of the \"Rule 233\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A267884",
   "mentions": [
+    "A101101",
     "A267868"
   ],
   "tags": [

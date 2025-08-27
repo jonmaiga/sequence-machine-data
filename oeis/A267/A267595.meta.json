@@ -2,12 +2,14 @@
   "description": "Binary representation of the n-th iteration of the \"Rule 173\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A267595",
   "mentions": [
+    "A099814",
     "A267594",
     "A267596"
   ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

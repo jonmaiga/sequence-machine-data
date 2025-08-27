@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..2 arrays with every 2X2 subblock sum differing from its neighbors horizontally, vertically, diagonally and antidiagonally",
+  "description": "Number of (n+1)X(2+1) 0..2 arrays with every 2X2 subblock sum differing from its neighbors horizontally, vertically, diagonally and antidiagonally.",
   "id": "A253290",
   "mentions": [
     "A253294"

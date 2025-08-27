@@ -1,5 +1,5 @@
 {
-  "description": "Primitively abundant numbers k for which A378664(k) = 6, where A378664 is the greatest divisor d of n such that sigma(d) <= 2*d < A003961(d), or 1 if no such divisor exists",
+  "description": "Primitively abundant numbers k for which A378664(k) = 6, where A378664 is the greatest divisor d of n such that sigma(d) <= 2*d < A003961(d), or 1 if no such divisor exists.",
   "id": "A378742",
   "mentions": [
     "A003961",

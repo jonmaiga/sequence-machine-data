@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{k=1..n} (p(k+1)+p(k))/(p(k+1)-p(k)), where p(k) = prime(k).",
+  "description": "a(n) = Product_{k=1..n} (p(k+1) + p(k))/(p(k+1) - p(k)), where p(k) = prime(k).",
   "id": "A352743",
   "mentions": [
     "A000040",
@@ -8,7 +8,8 @@
     "A014574",
     "A024675",
     "A028334",
-    "A081411"
+    "A081411",
+    "A386311"
   ],
   "tags": [
     "formulas",

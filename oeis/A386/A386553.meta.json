@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2-colorings of an 3 X 3 X 3 grid, up to rotational symmetry, by the number of black cells.",
+  "id": "A386553",
+  "mentions": [
+    "A334616",
+    "A386554",
+    "A386555",
+    "A386556"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

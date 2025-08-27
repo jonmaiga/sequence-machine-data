@@ -2,7 +2,8 @@
   "description": "7th-order Patalan numbers (generalization of Catalan numbers).",
   "id": "A025752",
   "mentions": [
-    "A034833"
+    "A034833",
+    "A220607"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

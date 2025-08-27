@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^n has odd digit sum.",
+  "description": "Numbers k such that 3^k has odd digit sum.",
   "id": "A118732",
   "mentions": [
     "A000244",

@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that there are exactly n primes that are popular on the interval [2,k] (see A385503); i.e., exactly n primes share the lead as the most common greatest prime factor of the numbers 2..k.",
+  "id": "A386007",
+  "mentions": [
+    "A006530",
+    "A385503",
+    "A385652"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

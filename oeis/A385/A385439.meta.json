@@ -1,0 +1,16 @@
+{
+  "description": "Row sums of triangle A385865.",
+  "id": "A385439",
+  "mentions": [
+    "A385865"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "joeis"
+  }
+}

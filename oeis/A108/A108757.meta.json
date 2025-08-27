@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1000n + 911 is prime.",
+  "description": "Numbers k such that 1000*k + 911 is prime.",
   "id": "A108757",
   "mentions": [],
   "tags": [

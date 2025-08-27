@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X7 0..3 arrays with every 2X2 subblock having exactly one duplicate clockwise edge difference",
+  "description": "Half the number of (n+1)X7 0..3 arrays with every 2X2 subblock having exactly one duplicate clockwise edge difference.",
   "id": "A209785",
   "mentions": [
     "A209787"

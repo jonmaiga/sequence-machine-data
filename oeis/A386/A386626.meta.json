@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = denominator q of prime-fraction p/q that minimizes |m/n - p/q|>0, where p is 1 or prime, q is prime, q < 2n, and 1 <= m <= 2n-1.",
+  "id": "A386626",
+  "mentions": [
+    "A000040",
+    "A385925"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 61,
+    "source": "joeis"
+  }
+}

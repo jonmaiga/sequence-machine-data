@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose digit set intersects the odd digits in at most one element and intersects the even digits in at most two elements.",
+  "id": "A386004",
+  "mentions": [
+    "A000040",
+    "A020450",
+    "A020457",
+    "A020460",
+    "A020469",
+    "A385770"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

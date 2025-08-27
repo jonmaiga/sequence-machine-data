@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m > 1 such that there exists k such that k | m, k^k = k mod m and 1 < k < m.",
+  "id": "A386207",
+  "mentions": [
+    "A002997",
+    "A016825",
+    "A324455"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,20 +1,30 @@
 {
-  "description": "Third coefficient of the lindep transform of A017665, numerator of sigma(n)/n.",
+  "description": "Nonsquarefree weak numbers k whose squarefree kernel is a primorial.",
   "id": "A380543",
   "mentions": [
-    "A017665",
-    "A339792",
-    "A380541",
-    "A380542",
-    "A380546"
+    "A001694",
+    "A002110",
+    "A005117",
+    "A007947",
+    "A013929",
+    "A052485",
+    "A055932",
+    "A126706",
+    "A286708",
+    "A332785",
+    "A369374",
+    "A377854",
+    "A386223",
+    "A386224"
   ],
   "tags": [
+    "easy",
     "formulas",
-    "sign"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 88,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

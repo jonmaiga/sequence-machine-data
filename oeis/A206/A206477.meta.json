@@ -1,5 +1,5 @@
 {
-  "description": "(Number of permutations of {1,2,...,n} for which sums of three consecutive numbers (with wraparound) are all distinct)/2n",
+  "description": "(Number of permutations of {1,2,...,n} for which sums of three consecutive numbers (with wraparound) are all distinct)/2n.",
   "id": "A206477",
   "mentions": [
     "A040018"

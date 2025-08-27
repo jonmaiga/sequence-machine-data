@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 100n^2 - 151n + 57.",
+  "description": "a(n) = 100*n^2 - 151*n + 57.",
   "id": "A157626",
   "mentions": [
     "A157627",

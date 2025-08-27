@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally, diagonally or antidiagonally",
+  "description": "Number of 4Xn 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally, diagonally or antidiagonally.",
   "id": "A232152",
   "mentions": [
     "A232149"

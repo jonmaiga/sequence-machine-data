@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..4 arrays with values 0..4 introduced in row major order and each element equal to no more than two horizontal and vertical neighbors",
+  "description": "Number of nX7 0..4 arrays with values 0..4 introduced in row major order and each element equal to no more than two horizontal and vertical neighbors.",
   "id": "A198527",
   "mentions": [
     "A198528"

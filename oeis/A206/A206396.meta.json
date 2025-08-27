@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..5 arrays with no element equal to another within a city block distance of two, and new values 0..5 introduced in row major order",
+  "description": "T(n,k)=Number of nXk 0..5 arrays with no element equal to another within a city block distance of two, and new values 0..5 introduced in row major order.",
   "id": "A206396",
   "mentions": [
     "A007581",

@@ -1,0 +1,23 @@
+{
+  "description": "Primes having only {0, 4, 7} as digits.",
+  "id": "A384449",
+  "mentions": [
+    "A000040",
+    "A020465",
+    "A030432",
+    "A199327",
+    "A260378",
+    "A260827",
+    "A261181",
+    "A261267"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

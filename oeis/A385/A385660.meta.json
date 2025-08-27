@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that prime(k+1)-prime(k) divides k.",
+  "id": "A385660",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A029707"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

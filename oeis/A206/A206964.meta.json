@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..3 arrays avoiding the pattern z z+1 z in any row, column or nw-to-se diagonal",
+  "description": "Number of nX5 0..3 arrays avoiding the pattern z z+1 z in any row, column or nw-to-se diagonal.",
   "id": "A206964",
   "mentions": [
     "A206967"

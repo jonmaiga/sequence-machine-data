@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangles of a 4X4 0..n array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by two or less",
+  "description": "Number of lower triangles of a 4X4 0..n array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by two or less.",
   "id": "A195250",
   "mentions": [
     "A195248"

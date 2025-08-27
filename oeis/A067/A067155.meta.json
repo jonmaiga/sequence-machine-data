@@ -1,5 +1,5 @@
 {
-  "description": "Number of regions in regular n-gon which are octagons when all its diagonals are drawn.",
+  "description": "Number of octagonal regions in regular n-gon with all diagonals drawn.",
   "id": "A067155",
   "mentions": [
     "A007678",

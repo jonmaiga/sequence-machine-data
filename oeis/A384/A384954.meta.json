@@ -1,0 +1,18 @@
+{
+  "description": "Primes such that moving the last digit to the front produces a triangular number.",
+  "id": "A384954",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A133197"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

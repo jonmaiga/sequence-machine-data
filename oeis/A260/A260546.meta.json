@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of phi(-x^3) * psi(-x^3) / phi(-x)^2 in powers of x where phi(), psi() are Ramanujan theta functions",
+  "description": "Expansion of phi(-x^3) * psi(-x^3) / phi(-x)^2 in powers of x where phi(), psi() are Ramanujan theta functions.",
   "id": "A260546",
   "mentions": [
     "A000122",

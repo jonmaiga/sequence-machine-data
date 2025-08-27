@@ -1,7 +1,10 @@
 {
   "description": "Numbers n such that two of the primes between n^2 and (n+1)^2 add up to n^2+(n+1)^2 - 1.",
   "id": "A235986",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A046092"
+  ],
   "tags": [
     "nonn"
   ],

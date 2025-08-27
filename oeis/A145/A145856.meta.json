@@ -1,5 +1,5 @@
 {
-  "description": "Least number k>1 such that centered n-gonal number n*k(k-1)/2+1 is a perfect square, or 0 if there no such k exists.",
+  "description": "Least number k>1 such that centered n-gonal number n*k(k-1)/2+1 is a perfect square, or 0 if no such k exists.",
   "id": "A145856",
   "mentions": [
     "A001542",

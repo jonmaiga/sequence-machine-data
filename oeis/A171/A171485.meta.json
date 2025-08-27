@@ -1,19 +1,22 @@
 {
-  "description": "Beukers integral int(int( -log(x*y) / (1-x*y) * P_n(2*x-1) * P_n(2*y-1),x=0..1,y=0..1)) = (A(n) + B(n)*zeta(3)) / A003418(n)^3. This sequence gives values of B(n).",
+  "description": "Beukers integral Integral_{y = 0..1} Integral_{x = 0..1} -log(x*y) / (1-x*y) * P_n(2*x-1) * P_n(2*y-1) dx dy = (A(n) + B(n)*zeta(3)) / A003418(n)^3. This sequence gives the values of B(n).",
   "id": "A171485",
   "mentions": [
     "A002117",
     "A003418",
+    "A005259",
     "A008316",
     "A104684",
     "A171484"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

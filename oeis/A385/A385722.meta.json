@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the n-th term of the sequence B_2 defined as the ordered union of the ranges of A_x, where the sequence A_x is defined in A384669, and x is a proper positive fraction with denominator 2, 3, 4, or 6.",
+  "id": "A385722",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A002110",
+    "A002182",
+    "A025487",
+    "A095848",
+    "A384669"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

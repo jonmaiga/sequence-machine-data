@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 1^2 + 3^2 + 5^2 + ... + (2*n-1)^2 = x^3 + y^3 has a solution in positive integers x and y.",
+  "description": "Integers k such that 1^2 + 3^2 + 5^2 + ... + (2*k-1)^2 = x^3 + y^3 has a solution in positive integers x and y.",
   "id": "A270005",
   "mentions": [
     "A000447",
@@ -7,12 +7,11 @@
     "A269842"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

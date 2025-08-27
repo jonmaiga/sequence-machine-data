@@ -1,15 +1,17 @@
 {
-  "description": "The |sigma(n)-n|-perfect numbers, where f-perfect numbers for an arithmetical function f is defined in A066218.",
+  "description": "f-perfect numbers, where f(m) = sigma(m)-m.",
   "id": "A066365",
   "mentions": [
+    "A007429",
     "A066218"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

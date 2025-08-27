@@ -1,5 +1,5 @@
 {
-  "description": "Length of shortest series s(1..a(n))>0, with s(1)=1 and |s(i+1)-s(i)|=i and no value s(i) repeated, containing all the values 1..n",
+  "description": "Length of shortest series s(1..a(n))>0, with s(1)=1 and |s(i+1)-s(i)|=i and no value s(i) repeated, containing all the values 1..n.",
   "id": "A176168",
   "mentions": [
     "A176169"

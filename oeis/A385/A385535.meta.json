@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the surface area of a biaugmented pentagonal prism with unit edge.",
+  "id": "A385535",
+  "mentions": [
+    "A002163",
+    "A010469",
+    "A385510",
+    "A385534"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

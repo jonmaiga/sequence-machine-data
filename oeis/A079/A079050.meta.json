@@ -1,7 +1,9 @@
 {
   "description": "Sum of the digits of LookAndSay(n).",
   "id": "A079050",
-  "mentions": [],
+  "mentions": [
+    "A045918"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

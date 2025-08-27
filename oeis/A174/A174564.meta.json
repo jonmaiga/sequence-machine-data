@@ -1,5 +1,5 @@
 {
-  "description": "Let J_n be n X n matrix which contains 1's only, I=I_n be the n X n identity matrix and P=P_n be the incidence matrix of the cycle (2,3,...,n,1). Then a(n) is the number of (0,1) n X n matrices A<=J_n-I-P with exactly two 1's in every row and column",
+  "description": "Let J_n be n X n matrix which contains 1's only, I=I_n be the n X n identity matrix and P=P_n be the incidence matrix of the cycle (2,3,...,n,1). Then a(n) is the number of (0,1) n X n matrices A<=J_n-I-P with exactly two 1's in every row and column.",
   "id": "A174564",
   "mentions": [
     "A000186",

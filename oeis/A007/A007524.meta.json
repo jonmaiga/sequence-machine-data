@@ -1,7 +1,8 @@
 {
-  "description": "Decimal expansion of log_10 2.",
+  "description": "Decimal expansion of log_10(2).",
   "id": "A007524",
   "mentions": [
+    "A020862",
     "A104139",
     "A114490",
     "A114493",

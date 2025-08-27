@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n+1)(n+2)^2*(n+3)(7n^2 + 23n + 20)/240.",
+  "description": "a(n) = (n+1)*(n+2)^2*(n+3)*(7*n^2 + 23*n + 20)/240.",
   "id": "A114240",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

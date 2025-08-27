@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of face-connected polyhedral components consisting of k cuboctahedra and n-k octahedra in the rectified cubic honeycomb up to translation, rotation, and reflection of the honeycomb, 0<=k<=n.",
+  "id": "A384782",
+  "mentions": [
+    "A038119",
+    "A365970",
+    "A384254",
+    "A384486",
+    "A384755"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

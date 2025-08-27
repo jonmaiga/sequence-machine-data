@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with digit_sum(n*n) + 1 = digit_sum((n+1)*(n+1)).",
+  "description": "Numbers k with digit_sum(k*k) + 1 = digit_sum((k+1)*(k+1)).",
   "id": "A239878",
   "mentions": [
     "A000290",

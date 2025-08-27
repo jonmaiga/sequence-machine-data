@@ -1,7 +1,10 @@
 {
-  "description": "Let u(1)=u(2)=1, u(3)=n, u(k) = (1/2)*abs(2*u(k-1) -u(k-2)-u(k-3)); sequence gives values of n such that sum(k>=1, u(k)) is an integer.",
+  "description": "Let u(1)=u(2)=1, u(3)=n, u(k) = (1/2)*abs(2*u(k-1) -u(k-2)-u(k-3)); sequence gives values of n such that Sum_{k>=1} u(k) is an integer.",
   "id": "A078113",
-  "mentions": [],
+  "mentions": [
+    "A133257",
+    "A154117"
+  ],
   "tags": [
     "formulas",
     "more",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

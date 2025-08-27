@@ -1,7 +1,9 @@
 {
   "description": "a(n) = prime(9*n - 4).",
   "id": "A031904",
-  "mentions": [],
+  "mentions": [
+    "A017221"
+  ],
   "tags": [
     "nonn"
   ],

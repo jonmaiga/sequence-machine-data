@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..3 arrays with no element x(i,j) adjacent to value 3-x(i,j) horizontally, vertically or antidiagonally, and top left element zero",
+  "description": "Number of nX6 0..3 arrays with no element x(i,j) adjacent to value 3-x(i,j) horizontally, vertically or antidiagonally, and top left element zero.",
   "id": "A232946",
   "mentions": [
     "A232948"

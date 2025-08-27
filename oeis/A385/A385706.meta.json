@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of h(n) which is the minimum among the maxima of period n cycles of T(x) = 1 - 2 * |x-1/2|.",
+  "id": "A385706",
+  "mentions": [
+    "A020989",
+    "A162634",
+    "A385708",
+    "A386237"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

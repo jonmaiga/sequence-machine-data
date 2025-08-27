@@ -1,15 +1,15 @@
 {
-  "description": "A triangle of matrix polynomials:( dot version) M(d)=Reverse[Table[If[ m <= n, m, 0], {n, 1, d}, {m, 1, d}]].Transpose[Reverse[Table[If[ m <= n, m, 0], {n, 1, d}, {m, 1, d}]]].",
+  "description": "Triangle of characteristic polynomials, see Mathematica code.",
   "id": "A158391",
   "mentions": [],
   "tags": [
-    "formulas",
+    "less",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

@@ -2,8 +2,12 @@
   "description": "Start with a(1) = 3, a(2) = 7; then apply the rule of A093094.",
   "id": "A093097",
   "mentions": [
+    "A045777",
+    "A060310",
     "A093094",
-    "A093096"
+    "A093095",
+    "A093096",
+    "A096381"
   ],
   "tags": [
     "base",
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

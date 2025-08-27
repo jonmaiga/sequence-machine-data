@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..4 arrays with every row and column running average nondecreasing rightwards and downwards",
+  "description": "Number of nX6 0..4 arrays with every row and column running average nondecreasing rightwards and downwards.",
   "id": "A200856",
   "mentions": [
     "A200858"

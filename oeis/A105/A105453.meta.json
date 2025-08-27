@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) + n*prime(n+1) is prime.",
+  "description": "Numbers k such that prime(k) + k*prime(k+1) is prime.",
   "id": "A105453",
   "mentions": [],
   "tags": [

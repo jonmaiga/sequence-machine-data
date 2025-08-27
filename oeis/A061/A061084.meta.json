@@ -1,7 +1,8 @@
 {
-  "description": "Fibonacci-type sequence based on subtraction: a(0) = 1, a(1) = 2 and a(n) = a(n-2)-a(n-1).",
+  "description": "Fibonacci-type sequence based on subtraction: a(0) = 1, a(1) = 2 and a(n) = a(n-2) - a(n-1).",
   "id": "A061084",
   "mentions": [
+    "A000032",
     "A000045",
     "A000204",
     "A000301",

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the multinomial coefficient of the digits of n.",
+  "id": "A384955",
+  "mentions": [
+    "A037124",
+    "A066459",
+    "A093659",
+    "A269221"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

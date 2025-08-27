@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes (up to graph homeomorphism) of finite graphs that have an embedding in an orientable surface of genus n which minimally separates the surface of genus n (that is, no proper subset of the embedding separates the genus n surface) but not the surface of genus n-1.",
+  "id": "A387066",
+  "mentions": [
+    "A384639",
+    "A387067",
+    "A387068"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

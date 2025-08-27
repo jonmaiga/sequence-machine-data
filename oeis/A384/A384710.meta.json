@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} [gcd(k, n) = 1], where [.] are the Iverson brackets.",
+  "id": "A384710",
+  "mentions": [
+    "A000010",
+    "A109004",
+    "A217831",
+    "A372728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of points in Z^n of norm <= 3.",
   "id": "A055427",
   "mentions": [
+    "A122510",
     "A302997"
   ],
   "tags": [

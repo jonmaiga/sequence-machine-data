@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=5, q=a(n) is the smallest prime > a(n-1) such that q-2*n = p prime",
+  "description": "a(1)=5, q=a(n) is the smallest prime > a(n-1) such that q-2*n = p prime.",
   "id": "A232558",
   "mentions": [
     "A020483"

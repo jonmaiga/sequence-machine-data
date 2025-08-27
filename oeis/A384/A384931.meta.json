@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2-dense sublists of divisors of the number of partitions of n.",
+  "id": "A384931",
+  "mentions": [
+    "A000041",
+    "A174973",
+    "A237271",
+    "A384149",
+    "A384222",
+    "A384225",
+    "A384226",
+    "A384930"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Numbers k such that k and binomial(2*k, k) are relatively prime.",
   "id": "A082916",
   "mentions": [
-    "A000984"
+    "A000984",
+    "A061345"
   ],
   "tags": [
     "formulas",

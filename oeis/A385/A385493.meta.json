@@ -1,0 +1,15 @@
+{
+  "description": "Number of distinct states in Conway's Game of Life acting on a (2n+1) X (2n+1) toroidal grid starting with (x,y) turned on if and only if x-n + (y-n)*i is a Gaussian prime.",
+  "id": "A385493",
+  "mentions": [
+    "A055025"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

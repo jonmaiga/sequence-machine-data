@@ -2,7 +2,7 @@
   "description": "a(n) is the n-th J_16-prime (Josephus_16 prime).",
   "id": "A163796",
   "mentions": [
-    "A163762",
+    "A163782",
     "A163795",
     "A163797",
     "A163800"
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

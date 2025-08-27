@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that, in the prime factorization of n, the product of the prime factors equals the sum of prime factors and exponents.",
+  "description": "Numbers m such that, in the prime factorization of m, the product of the prime factors equals the sum of prime factors and exponents.",
   "id": "A231293",
   "mentions": [
     "A054411",

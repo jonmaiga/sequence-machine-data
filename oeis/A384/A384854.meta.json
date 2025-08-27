@@ -1,0 +1,20 @@
+{
+  "description": "The number of divisors d of n such that (-d)^d == d (mod n).",
+  "id": "A384854",
+  "mentions": [
+    "A000005",
+    "A032741",
+    "A065295",
+    "A384237",
+    "A384781"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

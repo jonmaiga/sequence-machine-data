@@ -1,0 +1,20 @@
+{
+  "description": "Integers x such that there exist four integers 0",
+  "id": "A386672",
+  "mentions": [
+    "A000203",
+    "A003350",
+    "A063922",
+    "A386225"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

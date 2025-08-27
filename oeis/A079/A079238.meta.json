@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n in which the last K digits of n form an integer divisible by K^2, for K = 1, 2, ..., M, where M is the number of digits in n.",
+  "description": "Numbers j in which the last K digits of j form an integer divisible by K^2, for K = 1, 2, ..., M, where M is the number of digits in j.",
   "id": "A079238",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

@@ -2,8 +2,10 @@
   "description": "Prime numbers whose binary representations are split into a maximum of 7 runs.",
   "id": "A100726",
   "mentions": [
-    "A000040",
-    "A100714"
+    "A100714",
+    "A100723",
+    "A100724",
+    "A100725"
   ],
   "tags": [
     "base",

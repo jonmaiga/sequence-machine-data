@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n such that for all 2^k < n the numbers n + 2^k, n - 2^k, n*2^k + 1, and n*2^k - 1 are composite.",
+  "description": "Odd numbers m such that for all 2^k < m the numbers m + 2^k, m - 2^k, m*2^k + 1, and m*2^k - 1 are composite, with k >= 1.",
   "id": "A256163",
   "mentions": [
     "A006285",

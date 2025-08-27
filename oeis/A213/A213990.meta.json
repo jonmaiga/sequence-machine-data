@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n X n 0..k matrices whose square is also a 0..k matrix",
+  "description": "T(n,k)=Number of n X n 0..k matrices whose square is also a 0..k matrix.",
   "id": "A213990",
   "mentions": [
     "A121231"

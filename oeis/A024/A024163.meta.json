@@ -2,7 +2,8 @@
   "description": "Number of integer-sided triangles with sides a,b,c, a",
   "id": "A024163",
   "mentions": [
-    "A024165"
+    "A024165",
+    "A025796"
   ],
   "tags": [
     "easy",

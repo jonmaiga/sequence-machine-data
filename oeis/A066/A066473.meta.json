@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having just seven anti-divisors.",
+  "description": "Numbers having exactly seven anti-divisors.",
   "id": "A066473",
   "mentions": [
     "A066272"

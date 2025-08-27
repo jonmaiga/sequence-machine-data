@@ -1,5 +1,5 @@
 {
-  "description": "Number of minimal deterministic Mealy automata with n states outputting ternary strings",
+  "description": "Number of minimal deterministic Mealy automata with n states outputting ternary strings.",
   "id": "A370821",
   "mentions": [
     "A059412",

@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of the expansion of e^(1 + x + x^2 + x^3 + x^4).",
+  "description": "Numerator of the expansion of e^(x + x^2 + x^3 + x^4).",
   "id": "A090754",
   "mentions": [
     "A090755"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,7 +1,9 @@
 {
-  "description": "Number of matchings in the n-Sierpinski sieve graph.",
+  "description": "Number of matchings in the n-Sierpinski gasket graph.",
   "id": "A292968",
-  "mentions": [],
+  "mentions": [
+    "A297532"
+  ],
   "tags": [
     "nonn"
   ],

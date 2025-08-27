@@ -2,6 +2,7 @@
   "description": "First differences of A035253.",
   "id": "A035254",
   "mentions": [
+    "A002024",
     "A014132",
     "A014133",
     "A030124",
@@ -10,6 +11,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

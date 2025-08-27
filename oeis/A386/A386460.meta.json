@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of an augmented truncated cube with unit edges.",
+  "id": "A386460",
+  "mentions": [
+    "A002193",
+    "A010482",
+    "A386412",
+    "A386459",
+    "A386461"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

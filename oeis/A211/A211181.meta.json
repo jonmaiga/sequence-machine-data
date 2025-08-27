@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n+1)^2 + n and (n+1)^2 - n are both prime.",
+  "description": "Numbers k such that (k+1)^2 + k and (k+1)^2 - k are both prime.",
   "id": "A211181",
   "mentions": [],
   "tags": [

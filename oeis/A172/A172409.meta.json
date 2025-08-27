@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that neither n-2 nor n-3 is prime.",
+  "description": "Numbers k such that neither k-2 nor k-3 is prime.",
   "id": "A172409",
   "mentions": [],
   "tags": [

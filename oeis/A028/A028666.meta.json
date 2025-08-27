@@ -2,6 +2,20 @@
   "description": "a(n) = order of the orthogonal group O_n(2) if n is odd or O^(+)_n(2) if n is even.",
   "id": "A028666",
   "mentions": [
+    "A028668",
+    "A028670",
+    "A028671",
+    "A028672",
+    "A028674",
+    "A028676",
+    "A028677",
+    "A028678",
+    "A028680",
+    "A028682",
+    "A028683",
+    "A028684",
+    "A028686",
+    "A100221",
     "A144546",
     "A144547"
   ],
@@ -11,7 +25,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

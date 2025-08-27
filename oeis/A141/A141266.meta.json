@@ -1,7 +1,8 @@
 {
-  "description": "Concatenate double factorials.",
+  "description": "Concatenate first n double factorials.",
   "id": "A141266",
   "mentions": [
+    "A006882",
     "A045508",
     "A141265",
     "A141267"
@@ -12,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 13,
+    "offset": 1,
+    "size": 14,
     "source": "joeis"
   }
 }

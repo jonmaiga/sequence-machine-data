@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n 0..k arrays with new values introduced in order from both ends, and least squares fitting to a straight line with slope zero, with a single point taken as having zero slope",
+  "description": "T(n,k)=Number of length n 0..k arrays with new values introduced in order from both ends, and least squares fitting to a straight line with slope zero, with a single point taken as having zero slope.",
   "id": "A245851",
   "mentions": [
     "A222955"

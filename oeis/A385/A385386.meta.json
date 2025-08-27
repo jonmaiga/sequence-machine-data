@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of polysticks, i.e., connected nonempty subsets of edges, of the n X k flat torus, up to cyclic shifts and reflections of rows and columns; 1 <= k <= n.",
+  "id": "A385386",
+  "mentions": [
+    "A385381",
+    "A385387",
+    "A385389"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

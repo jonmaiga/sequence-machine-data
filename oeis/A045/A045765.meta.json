@@ -1,5 +1,5 @@
 {
-  "description": "n - d(n) never takes these values, where d(n) = A000005(n).",
+  "description": "k - d(k) never takes these values, where d(k) = A000005(k).",
   "id": "A045765",
   "mentions": [
     "A000005",

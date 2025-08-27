@@ -2,7 +2,13 @@
   "description": "Order of simple Chevalley group B_n (3).",
   "id": "A003927",
   "mentions": [
-    "A003920"
+    "A003920",
+    "A003938",
+    "A003939",
+    "A003940",
+    "A003941",
+    "A003942",
+    "A132037"
   ],
   "tags": [
     "formulas",

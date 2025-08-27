@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 arrays containing 2 indistinguishable copies of 1..n with rows and columns in lexicographically strictly increasing order",
+  "description": "Number of nX2 arrays containing 2 indistinguishable copies of 1..n with rows and columns in lexicographically strictly increasing order.",
   "id": "A180836",
   "mentions": [
     "A180839"

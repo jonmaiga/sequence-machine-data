@@ -1,5 +1,5 @@
 {
-  "description": "10^n-th difference between cumulative prime and odd sums.",
+  "description": "Difference between the sums of the first 10^n odd primes and the first 10^n odd positive integers > 1.",
   "id": "A134182",
   "mentions": [
     "A005563",
@@ -10,12 +10,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

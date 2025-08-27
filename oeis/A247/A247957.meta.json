@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 33^n + 2 is prime.",
+  "description": "Numbers k such that 33^k + 2 is prime.",
   "id": "A247957",
   "mentions": [
     "A051783",

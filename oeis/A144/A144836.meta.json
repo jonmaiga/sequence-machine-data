@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Lucas(4^n).",
+  "description": "a(n) = round(phi^(4^n)) where phi is the golden ratio (A001622).",
   "id": "A144836",
   "mentions": [
     "A000032",
@@ -8,7 +8,8 @@
     "A006267",
     "A144837",
     "A144838",
-    "A144839"
+    "A144839",
+    "A374883"
   ],
   "tags": [
     "easy",
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 5,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

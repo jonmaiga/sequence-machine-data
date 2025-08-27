@@ -1,0 +1,23 @@
+{
+  "description": "Binary XOR of number of 1-bits in the binary representation of n and number of 0-bits in the binary representation of n, a(0) = 1.",
+  "id": "A384956",
+  "mentions": [
+    "A000120",
+    "A003987",
+    "A023416",
+    "A070939",
+    "A328568"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

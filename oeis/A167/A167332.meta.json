@@ -1,5 +1,5 @@
 {
-  "description": "Totally multiplicative sequence with a(p) = 2*(4p-1) = 8p-2 for prime p.",
+  "description": "Totally multiplicative sequence with a(p) = 2*(4*p-1) = 8*p-2 for prime p.",
   "id": "A167332",
   "mentions": [
     "A001222",

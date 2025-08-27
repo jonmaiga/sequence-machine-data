@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically first sequence of nonprime terms (with no duplicates) that turns into a sequence of prime terms (with no duplicates) by applying the \"comma-permutation\" simultaneously at every comma. [The \"comma-permutation\" is explained in the Comments section.]",
+  "description": "Lexicographically first sequence of nonprime terms (with no duplicates) that turns into a sequence of prime terms (with no duplicates) by applying the \"comma-permutation\" simultaneously at every comma. [The \"comma-permutation\" is explained in the Comments section.].",
   "id": "A228092",
   "mentions": [
     "A274408"

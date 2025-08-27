@@ -1,0 +1,20 @@
+{
+  "description": "Length of the preperiodic part of the decimal expansion of 1/n, including any leading zeros from the period.",
+  "id": "A386406",
+  "mentions": [
+    "A051628",
+    "A114205",
+    "A114206"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

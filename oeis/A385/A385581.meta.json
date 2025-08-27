@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by antidiagonals: T(n,d) is the number of fixed d-dimensional polysticks of size n.",
+  "id": "A385581",
+  "mentions": [
+    "A000384",
+    "A096267",
+    "A365560",
+    "A365562",
+    "A365564",
+    "A385291",
+    "A385582",
+    "A385583"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

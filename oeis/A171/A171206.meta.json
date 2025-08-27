@@ -1,8 +1,10 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x*A(2x)^6.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(2*x)^6.",
   "id": "A171206",
   "mentions": [
     "A135867",
+    "A143049",
+    "A171195",
     "A171200",
     "A171205",
     "A171207",
@@ -11,6 +13,7 @@
     "A343439"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

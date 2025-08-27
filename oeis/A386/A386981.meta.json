@@ -1,0 +1,17 @@
+{
+  "description": "Number of obtuse Heronian triangles with integer inradius n.",
+  "id": "A386981",
+  "mentions": [
+    "A078644",
+    "A120062",
+    "A386980"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

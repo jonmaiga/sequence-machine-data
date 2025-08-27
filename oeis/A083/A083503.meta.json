@@ -1,16 +1,17 @@
 {
-  "description": "n-th powers arising in A083502.",
+  "description": "Basis of the n-th power arising in A083502.",
   "id": "A083503",
   "mentions": [
     "A074792",
     "A083502"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=One quarter the number of nXk 1..4 arrays with no two neighbors of any element equal to each other",
+  "description": "T(n,k)=One quarter the number of nXk 1..4 arrays with no two neighbors of any element equal to each other.",
   "id": "A183362",
   "mentions": [
     "A003946"

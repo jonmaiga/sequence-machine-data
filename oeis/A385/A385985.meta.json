@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (2^k + 1) * binomial(n-1,k) * a(k) * a(n-1-k).",
+  "id": "A385985",
+  "mentions": [
+    "A385617",
+    "A385619"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

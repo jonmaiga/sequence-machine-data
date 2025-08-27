@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that antisigma(n) contains n as a substring.",
+  "description": "Numbers k such that antisigma(k) contains k as a substring.",
   "id": "A255968",
   "mentions": [
     "A024816"

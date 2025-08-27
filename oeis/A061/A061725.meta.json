@@ -1,7 +1,10 @@
 {
   "description": "p^2 + 2 where p is a prime.",
   "id": "A061725",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A001248"
+  ],
   "tags": [
     "easy",
     "nonn"

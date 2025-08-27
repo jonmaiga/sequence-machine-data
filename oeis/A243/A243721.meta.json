@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+2 0..n arrays with no three unequal elements in a row and no three equal elements in a row and new values 0..n introduced in 0..n order",
+  "description": "Number of length n+2 0..n arrays with no three unequal elements in a row and no three equal elements in a row and new values 0..n introduced in 0..n order.",
   "id": "A243721",
   "mentions": [
     "A243729"

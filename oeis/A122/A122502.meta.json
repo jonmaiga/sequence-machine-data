@@ -1,13 +1,14 @@
 {
-  "description": "Expansion of x/(1 - 22 x^2 - 54 x^3 - 38 x^4).",
+  "description": "Expansion of x/(1 - 22*x^2 - 54*x^3 - 38*x^4).",
   "id": "A122502",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 22,
     "source": "joeis"
   }

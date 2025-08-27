@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Pi/8*(6*zeta(3)+Pi^2*log(2)+4*log(2)^3).",
+  "description": "Decimal expansion of (Pi/8)*(6*zeta(3)+Pi^2*log(2)+4*log(2)^3).",
   "id": "A196878",
   "mentions": [
     "A002117",

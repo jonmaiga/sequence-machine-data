@@ -1,7 +1,16 @@
 {
   "description": "5^a(n) is smallest power of 5 beginning with n.",
   "id": "A018862",
-  "mentions": [],
+  "mentions": [
+    "A018858",
+    "A018860",
+    "A018861",
+    "A018864",
+    "A018866",
+    "A018868",
+    "A062525",
+    "A062526"
+  ],
   "tags": [
     "base",
     "nonn"

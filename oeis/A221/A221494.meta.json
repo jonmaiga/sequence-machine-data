@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k) = number of skeleta of (3+1)-free posets with n clone sets and k tangles",
+  "description": "Table read by downward diagonals: T(n,k) = number of skeleta of (3+1)-free posets with n clone sets and k tangles.",
   "id": "A221494",
   "mentions": [
     "A079145",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

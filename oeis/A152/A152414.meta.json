@@ -1,8 +1,11 @@
 {
-  "description": "Least k(n) such that k(n)*2^n*(2^n-1)-1 or k(n)*2^n*(2^n-1)+1 is prime or both primes.",
+  "description": "a(n) = least positive k such that k*2^n*(2^n-1) - 1 or k*2^n*(2^n-1) + 1 is prime.",
   "id": "A152414",
-  "mentions": [],
+  "mentions": [
+    "A153091"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

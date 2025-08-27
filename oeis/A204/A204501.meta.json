@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with every 3X3 subblock having three strictly increasing elements in a row horizontally or vertically",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with every 3X3 subblock having three strictly increasing elements in a row horizontally or vertically.",
   "id": "A204501",
   "mentions": [],
   "tags": [

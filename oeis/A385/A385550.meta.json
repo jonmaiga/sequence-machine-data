@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = Sum_{k>=0} x^k/k! * A(-k*x).",
+  "id": "A385550",
+  "mentions": [
+    "A125281",
+    "A385546",
+    "A385551"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

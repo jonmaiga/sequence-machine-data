@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 2p - 31 is prime.",
+  "description": "Primes p such that 2*p - 31 is prime.",
   "id": "A145485",
   "mentions": [
     "A063908",

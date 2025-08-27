@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 6n^3+7.",
+  "description": "Primes of the form 6k^3+7.",
   "id": "A201181",
   "mentions": [],
   "tags": [

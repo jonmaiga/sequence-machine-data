@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient triangle sequence of characteristic polynomials of a Fermat like matrix:M(n)=Eulerian n-th matrix: F(n)=M(n).Transpose[M(n)]]",
+  "description": "Coefficient triangle sequence of characteristic polynomials of a Fermat like matrix:M(n)=Eulerian n-th matrix: F(n)=M(n).Transpose[M(n)]].",
   "id": "A168242",
   "mentions": [],
   "tags": [

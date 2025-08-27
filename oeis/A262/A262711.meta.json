@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that sum of digits of n^2 is 7.",
+  "description": "Numbers k such that sum of digits of k^2 is 7.",
   "id": "A262711",
   "mentions": [
     "A004159",
     "A052216",
     "A061910",
     "A156638",
+    "A215614",
     "A262712",
     "A262713"
   ],

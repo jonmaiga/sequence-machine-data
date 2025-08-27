@@ -2,9 +2,11 @@
   "description": "Mean prime gaps that do not occur in A049036.",
   "id": "A085621",
   "mentions": [
-    "A049036"
+    "A049036",
+    "A049066"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

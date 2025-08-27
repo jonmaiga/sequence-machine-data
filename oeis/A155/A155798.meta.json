@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: t(n,k)=Binomial[n, k] + Binomial[k*(n - k), n]",
+  "description": "Triangle read by rows: t(n,k)=Binomial[n, k] + Binomial[k*(n - k), n].",
   "id": "A155798",
   "mentions": [],
   "tags": [

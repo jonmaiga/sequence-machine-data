@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unsensed simple planar maps with n edges and k vertices, 1 <= k <= n+1.",
+  "id": "A384850",
+  "mentions": [
+    "A006082",
+    "A006395",
+    "A054923",
+    "A212438",
+    "A277741",
+    "A342060",
+    "A372892",
+    "A384963",
+    "A384967"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

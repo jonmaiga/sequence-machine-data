@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2Xn arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..3 2Xn array",
+  "description": "Number of 2Xn arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..3 2Xn array.",
   "id": "A218523",
   "mentions": [
     "A218522"

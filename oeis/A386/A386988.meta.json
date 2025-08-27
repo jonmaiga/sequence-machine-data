@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest integer w such that the equation x^2 + y^4 + z^6 = w^8 where GCD(x,y,z)=1 has exactly n positive integer solutions.",
+  "id": "A386988",
+  "mentions": [
+    "A386373"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

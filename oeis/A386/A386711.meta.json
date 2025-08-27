@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (zeta(k)-1)/(k+1).",
+  "id": "A386711",
+  "mentions": [
+    "A001620",
+    "A061444",
+    "A153810",
+    "A386712"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

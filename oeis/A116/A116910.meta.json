@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of letters in the Roman numeral for n divides n.",
+  "description": "Numbers k such that the number of letters in the Roman numeral for k divides k.",
   "id": "A116910",
   "mentions": [
     "A006968"

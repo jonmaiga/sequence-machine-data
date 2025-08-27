@@ -1,5 +1,5 @@
 {
-  "description": "Number of 8-step one space for components leftwards or up, two space for components rightwards or down asymmetric quasi-queen's tours (antidiagonal moves become knight moves) on an n X n board summed over all starting positions",
+  "description": "Number of 8-step one space for components leftwards or up, two space for components rightwards or down asymmetric quasi-queen's tours (antidiagonal moves become knight moves) on an n X n board summed over all starting positions.",
   "id": "A187863",
   "mentions": [
     "A187857"

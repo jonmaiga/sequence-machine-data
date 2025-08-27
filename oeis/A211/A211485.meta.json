@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the canonical prime factorization contains only an odd number of exponents, all of which are congruent to 1 modulo 3.",
+  "description": "Numbers for which the canonical prime factorization contains only an odd number of exponents, all of which are congruent to 1 modulo 3.",
   "id": "A211485",
   "mentions": [
     "A000040",

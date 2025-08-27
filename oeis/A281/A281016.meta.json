@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, phi(n) and cototient(n) are all perfect powers.",
+  "description": "Numbers k such that k, phi(k) and cototient(k) are all perfect powers.",
   "id": "A281016",
   "mentions": [
     "A000010",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

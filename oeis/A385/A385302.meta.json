@@ -1,0 +1,21 @@
+{
+  "description": "Least common multiple of {n^n-1, n^(n-1)-1, ..., n-1}.",
+  "id": "A385302",
+  "mentions": [
+    "A000217",
+    "A000961",
+    "A003418",
+    "A048861",
+    "A156291",
+    "A351657"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

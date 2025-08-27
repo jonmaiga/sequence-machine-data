@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, based on Fibonacci numbers: Let i > 1 be such that F(i) <= n < F(i+1); i.e., i = A130233(n). Then T(n, k) = F(i-1)^2 + 1 - (i-1) mod 2 + (n - F(i)) * F(i-2) + (k-1) * F(i-1) where F(k) = A000045(k).",
+  "id": "A385590",
+  "mentions": [
+    "A000045",
+    "A130233"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

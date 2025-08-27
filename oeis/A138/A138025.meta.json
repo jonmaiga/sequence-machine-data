@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n remains prime through 7 iterations of function f(x) = 2x + 1.",
+  "description": "Numbers that remain prime through 7 iterations of function f(x) = 2x + 1.",
   "id": "A138025",
   "mentions": [],
   "tags": [

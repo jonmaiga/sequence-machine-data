@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n arrays with each row a permutation of 1..n having at least as many downsteps as the preceding row, with rows in lexicographically nonincreasing order",
+  "description": "Number of n X n arrays with each row a permutation of 1..n having at least as many downsteps as the preceding row, with rows in lexicographically nonincreasing order.",
   "id": "A222000",
   "mentions": [
     "A222005"

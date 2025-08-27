@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^6-n^3+1.",
+  "description": "Primes of the form k^6 - k^3 + 1.",
   "id": "A175170",
   "mentions": [
     "A000040",

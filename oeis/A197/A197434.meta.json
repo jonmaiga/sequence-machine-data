@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with no element equal to the average of its horizontal and vertical neighbors",
+  "description": "Number of n X n 0..2 arrays with no element equal to the average of its horizontal and vertical neighbors.",
   "id": "A197434",
   "mentions": [
     "A197442"

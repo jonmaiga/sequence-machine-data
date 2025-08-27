@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the sequence of sums of 6 adjacent elements having exactly 3 maxima",
+  "description": "Number of permutations of 1..n with the sequence of sums of 6 adjacent elements having exactly 3 maxima.",
   "id": "A179730",
   "mentions": [],
   "tags": [

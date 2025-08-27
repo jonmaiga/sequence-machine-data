@@ -1,11 +1,12 @@
 {
-  "description": "a(n) is the least integer m such that the distance of x_m from its nearest integer is less than 1/n, where x_m is the m-th extrema of gamma(x).",
+  "description": "a(n) is the least integer m such that the distance of x_m from its nearest integer is less than 1/n, where x_m is the m-th extrema of Gamma(x).",
   "id": "A374856",
   "mentions": [
     "A030169",
     "A175472",
     "A175473",
-    "A377376"
+    "A377506",
+    "A385170"
   ],
   "tags": [
     "formulas",

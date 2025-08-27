@@ -1,5 +1,5 @@
 {
-  "description": "Primes formed by the concatenation n, n-2, n.",
+  "description": "Primes formed by the concatenation k, k-2, k.",
   "id": "A068681",
   "mentions": [
     "A068680"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

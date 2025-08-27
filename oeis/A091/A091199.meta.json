@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (6n-3)^2 + 2 is prime.",
+  "description": "Numbers k such that (6k-3)^2 + 2 is prime.",
   "id": "A091199",
   "mentions": [
     "A056899",

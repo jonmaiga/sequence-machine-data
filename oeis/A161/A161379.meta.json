@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers whose Spanish names have a prime number of letters",
+  "description": "Prime numbers whose Spanish names have a prime number of letters.",
   "id": "A161379",
   "mentions": [
     "A072686"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 array permutations with each element not moved or moved diagonally or antidiagonally by one",
+  "description": "Number of nX5 array permutations with each element not moved or moved diagonally or antidiagonally by one.",
   "id": "A189276",
   "mentions": [
     "A189280"

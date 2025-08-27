@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, formed by reading Pascal's triangle (A007318) mod 4.",
+  "description": "Triangle read by rows: Pascal's triangle (A007318) mod 4.",
   "id": "A034931",
   "mentions": [
     "A000120",

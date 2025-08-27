@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer cubes <= n^2.",
+  "description": "Number of nonnegative integer cubes <= n^2.",
   "id": "A077113",
   "mentions": [
     "A026409",

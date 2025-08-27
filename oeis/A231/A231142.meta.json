@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..2 arrays with no element equal to a strict majority of its horizontal and vertical neighbors, with upper left element zero",
+  "description": "Number of (n+1)X(5+1) 0..2 arrays with no element equal to a strict majority of its horizontal and vertical neighbors, with upper left element zero.",
   "id": "A231142",
   "mentions": [
     "A231144"

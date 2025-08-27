@@ -1,0 +1,21 @@
+{
+  "description": "The number of unordered factorizations of the n-th powerful number into 1 and prime powers p^e where p is prime and e >= 2 (A025475).",
+  "id": "A384783",
+  "mentions": [
+    "A001694",
+    "A025475",
+    "A188585",
+    "A384784",
+    "A384785"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

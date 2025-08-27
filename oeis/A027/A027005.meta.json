@@ -2,6 +2,7 @@
   "description": "a(n) = T(2*n+1,n+2), T given by A026998.",
   "id": "A027005",
   "mentions": [
+    "A000032",
     "A026998",
     "A027963"
   ],

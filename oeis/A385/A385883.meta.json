@@ -1,0 +1,16 @@
+{
+  "description": "Values of v in the quartets (1, u, v, w) of type 2; i.e., values of v for solutions to (1 + u) = v(v - w), in positive integers, with v > 1, sorted by nondecreasing values of u; see A386218.",
+  "id": "A385883",
+  "mentions": [
+    "A386218",
+    "A386630"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

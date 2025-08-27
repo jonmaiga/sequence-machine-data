@@ -1,5 +1,5 @@
 {
-  "description": "1/8 the number of (n+1)X3 0..3 arrays with all 2X2 subblock sums the same",
+  "description": "1/8 the number of (n+1)X3 0..3 arrays with all 2X2 subblock sums the same.",
   "id": "A184022",
   "mentions": [
     "A184029"

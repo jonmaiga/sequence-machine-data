@@ -1,7 +1,10 @@
 {
   "description": "Number of minimum total dominating sets in the n-halved cube graph.",
   "id": "A323449",
-  "mentions": [],
+  "mentions": [
+    "A303846",
+    "A347483"
+  ],
   "tags": [
     "more",
     "nonn"

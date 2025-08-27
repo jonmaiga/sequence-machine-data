@@ -1,0 +1,17 @@
+{
+  "description": "First of three consecutive primes whose concatenations, both forward and backward, are primes.",
+  "id": "A384953",
+  "mentions": [
+    "A030469",
+    "A104328"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

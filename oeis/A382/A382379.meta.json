@@ -1,20 +1,20 @@
 {
-  "description": "Table read by rows: row n is the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "description": "Length of the long leg in the unique primitive Pythagorean triple (x,y,z) such that (x-y+z)/2 is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
   "id": "A382379",
   "mentions": [
     "A000032",
+    "A022319",
     "A382409",
     "A382410"
   ],
   "tags": [
     "easy",
     "formulas",
-    "nonn",
-    "tabf"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 48,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "joeis"
   }
 }

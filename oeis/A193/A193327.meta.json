@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..5 arrays with each element equal to the product mod 6 of two neighbors",
+  "description": "Number of nXnXn triangular 0..5 arrays with each element equal to the product mod 6 of two neighbors.",
   "id": "A193327",
   "mentions": [],
   "tags": [

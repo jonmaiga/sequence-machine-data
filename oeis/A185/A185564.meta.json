@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of nX6 0..3 arrays with no element equal both to the element above and to the element to its left",
+  "description": "1/4 the number of nX6 0..3 arrays with no element equal both to the element above and to the element to its left.",
   "id": "A185564",
   "mentions": [
     "A185567"

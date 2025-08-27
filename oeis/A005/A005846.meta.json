@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^2 + n + 41.",
+  "description": "Primes of the form k^2 + k + 41.",
   "id": "A005846",
   "mentions": [
     "A000040",

@@ -1,7 +1,11 @@
 {
   "description": "Primes p such that the non-Pellian equation x^2-2py^2=-1 is solvable.",
   "id": "A133204",
-  "mentions": [],
+  "mentions": [
+    "A002144",
+    "A007521",
+    "A385224"
+  ],
   "tags": [
     "nonn"
   ],

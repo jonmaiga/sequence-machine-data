@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5X5 nonnegative integer matrices with row and column i=1..5 having sum <= i*n",
+  "description": "Number of 5X5 nonnegative integer matrices with row and column i=1..5 having sum <= i*n.",
   "id": "A214014",
   "mentions": [
     "A214011"

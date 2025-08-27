@@ -1,8 +1,14 @@
 {
   "description": "Sum of exponents in prime-power factorization of C(4n,n-1).",
   "id": "A023827",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A004331",
+    "A022559",
+    "A023826"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

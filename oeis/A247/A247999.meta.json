@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 4+5 0..n arrays with no disjoint triples in any consecutive six terms having the same sum",
+  "description": "Number of length 4+5 0..n arrays with no disjoint triples in any consecutive six terms having the same sum.",
   "id": "A247999",
   "mentions": [
     "A247995"

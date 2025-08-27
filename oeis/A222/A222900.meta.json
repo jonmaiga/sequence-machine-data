@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..3 arrays with no more than floor(nX2/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..3 order",
+  "description": "Number of nX2 0..3 arrays with no more than floor(nX2/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222900",
   "mentions": [
     "A222906"

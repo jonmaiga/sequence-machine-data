@@ -1,5 +1,5 @@
 {
-  "description": "1/120 the number of (n+1)X7 0..4 arrays with every 2X2 subblock containing four distinct values",
+  "description": "1/120 the number of (n+1)X7 0..4 arrays with every 2X2 subblock containing four distinct values.",
   "id": "A183619",
   "mentions": [
     "A183622"

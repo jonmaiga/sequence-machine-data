@@ -1,5 +1,5 @@
 {
-  "description": "Indices of hexagonal numbers that are also decagonal",
+  "description": "Indices of hexagonal numbers that are also decagonal.",
   "id": "A203135",
   "mentions": [
     "A000384",

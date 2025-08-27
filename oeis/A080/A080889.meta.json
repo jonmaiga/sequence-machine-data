@@ -1,13 +1,15 @@
 {
-  "description": "Expansion of 1/(1+Sum_{k>0} (-x)^Fibonacci(k)).",
+  "description": "Expansion of 1/Sum_{k>=0} (-x)^Fibonacci(k).",
   "id": "A080889",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

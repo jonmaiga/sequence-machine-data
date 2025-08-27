@@ -1,5 +1,5 @@
 {
-  "description": "a(n)= least x such that 3*2^n*(3*2^n-x)-1 and 3*2^n*(3*2^n-x)+1 are twin primes",
+  "description": "a(n)= least x such that 3*2^n*(3*2^n-x)-1 and 3*2^n*(3*2^n-x)+1 are twin primes.",
   "id": "A145691",
   "mentions": [
     "A145690"

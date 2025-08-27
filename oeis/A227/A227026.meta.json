@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!/m! is a triangular number for some m < n-1.",
+  "description": "Numbers k such that k!/m! is a triangular number for some m < k-1.",
   "id": "A227026",
   "mentions": [
     "A000217",

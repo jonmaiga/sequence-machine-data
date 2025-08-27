@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = v(2*n+1), where v is a completely multiplicative sequence defined by v(2)=0 and for prime p >= 3: v(p^e) = ((p+1)/2))^e when p == 1 mod 4, and v(p^e) = ((1-p)/2)^e when p == 3 mod 4.",
+  "description": "a(n) = v(2*n+1), where v is a completely multiplicative sequence defined by v(2)=0 and for prime p >= 3: v(p^e) = ((p+1)/2)^e when p == 1 mod 4, and v(p^e) = ((1-p)/2)^e when p == 3 mod 4.",
   "id": "A272295",
   "mentions": [
     "A271974"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

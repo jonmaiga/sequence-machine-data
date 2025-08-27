@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n^2 * log(n)).",
+  "description": "a(n) = floor(n^2 * log(n)).",
   "id": "A235707",
   "mentions": [
     "A050504"

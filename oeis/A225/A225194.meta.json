@@ -1,5 +1,5 @@
 {
-  "description": "Largest highly abundant number with n distinct prime factors",
+  "description": "Largest highly abundant number with n distinct prime factors.",
   "id": "A225194",
   "mentions": [
     "A001221",

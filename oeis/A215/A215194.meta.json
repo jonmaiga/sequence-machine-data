@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of 7 0..n integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements",
+  "description": "Number of arrays of 7 0..n integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements.",
   "id": "A215194",
   "mentions": [
     "A215190"

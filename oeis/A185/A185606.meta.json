@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X3 0..3 arrays with every 2X2 subblock determinant equal to some horizontal or vertical neighbor 2X2 subblock determinant",
+  "description": "Number of (n+1)X3 0..3 arrays with every 2X2 subblock determinant equal to some horizontal or vertical neighbor 2X2 subblock determinant.",
   "id": "A185606",
   "mentions": [
     "A185609"

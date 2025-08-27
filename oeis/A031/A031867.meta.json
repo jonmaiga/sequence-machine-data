@@ -1,5 +1,5 @@
 {
-  "description": "Period of continued fraction for sqrt(n) contains exactly 99 ones.",
+  "description": "Numbers k such that the period of the continued fraction for sqrt(k) contains exactly 99 ones.",
   "id": "A031867",
   "mentions": [],
   "tags": [

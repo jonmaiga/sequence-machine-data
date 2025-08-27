@@ -1,7 +1,9 @@
 {
-  "description": "Number of partitions of n into Fibonacci numbers where every part appears at least 7 times",
+  "description": "Number of partitions of n into Fibonacci numbers where every part appears at least 7 times.",
   "id": "A161031",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "nonn"
   ],

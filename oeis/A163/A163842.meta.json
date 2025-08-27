@@ -1,5 +1,5 @@
 {
-  "description": "Triangle interpolating the swinging factorial (A056040) restricted to odd indices with its binomial transform. Same as interpolating the beta numbers 1/beta(n,n) (A002457) with (A163869).",
+  "description": "Triangle interpolating the swinging factorial (A056040) restricted to odd indices with its binomial transform. Same as interpolating the beta numbers 1/beta(n,n) (A002457) with (A163869). Triangle read by rows, for n >= 0, k >= 0.",
   "id": "A163842",
   "mentions": [
     "A000984",
@@ -14,12 +14,13 @@
     "A180000"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

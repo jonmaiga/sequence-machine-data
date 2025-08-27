@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least number k such that k*n is not a binary Niven number (A049445).",
+  "id": "A385485",
+  "mentions": [
+    "A000120",
+    "A049445",
+    "A065878",
+    "A144262",
+    "A385482",
+    "A385486",
+    "A385487"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

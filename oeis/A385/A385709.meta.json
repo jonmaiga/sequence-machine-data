@@ -1,0 +1,17 @@
+{
+  "description": "Least prime p such that the decimal expansion of p^2 contains exactly n distinct primes as substrings.",
+  "id": "A385709",
+  "mentions": [
+    "A018834",
+    "A046837"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

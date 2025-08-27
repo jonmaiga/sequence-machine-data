@@ -1,0 +1,23 @@
+{
+  "description": "On a 2 X n grid of vertices, draw a circle through every unordered triple of non-collinear vertices: a(n) is the number of distinct edges in the planar graph formed from the intersections of the circles.",
+  "id": "A384703",
+  "mentions": [
+    "A359571",
+    "A373108",
+    "A374339",
+    "A374827",
+    "A384700",
+    "A384701",
+    "A384702"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

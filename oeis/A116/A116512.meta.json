@@ -1,12 +1,16 @@
 {
-  "description": "a(n) = number of positive integers each of which is <= n and is divisible by exactly one prime dividing n (but is coprime to every other prime dividing n). a(1) = 0.",
+  "description": "a(n) is the number of positive integers each of which is <= n and is divisible by exactly one prime dividing n (but is coprime to every other prime dividing n). a(1) = 0.",
   "id": "A116512",
   "mentions": [
+    "A000010",
+    "A013661",
     "A069513",
     "A095112",
     "A119790",
     "A119794",
     "A120499",
+    "A131233",
+    "A154945",
     "A354109"
   ],
   "tags": [

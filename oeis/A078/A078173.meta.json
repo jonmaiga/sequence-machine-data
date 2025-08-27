@@ -1,5 +1,5 @@
 {
-  "description": "Max[min(r,s,t)], where the maximum is taken over all positive integer solutions of the Diophantine equation rst=n(r+s+t).",
+  "description": "a(n) = max(min(r,s,t)), where the maximum is taken over all positive integer solutions of the Diophantine equation r*s*t = n * (r+s+t).",
   "id": "A078173",
   "mentions": [
     "A063520"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

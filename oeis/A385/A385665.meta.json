@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 2n-bead balanced bicolor necklaces that can be rotated into their complements in k different ways.",
+  "id": "A385665",
+  "mentions": [
+    "A000013",
+    "A000048",
+    "A003239",
+    "A045654",
+    "A047996",
+    "A115118",
+    "A385666",
+    "A386388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

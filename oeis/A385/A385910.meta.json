@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of coefficients T(n,k) of x^n*y^k in g.f. A(x,y) where A(x,y) = A(x^3 + 3*x*y*A(x,y)^3, y) / A(x^2 + 2*x*y*A(x,y)^2, y), read by rows.",
+  "id": "A385910",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A376226",
+    "A384830",
+    "A385911",
+    "A385912"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

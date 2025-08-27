@@ -1,18 +1,22 @@
 {
-  "description": "Number of 2n-step 4-dimensional closed paths on 4-d cubic lattice.",
+  "description": "Number of 2n-step self-avoiding closed paths on the 4-dimensional cubic lattice.",
   "id": "A010568",
   "mentions": [
+    "A001413",
+    "A010566",
+    "A010567",
     "A010569",
     "A010570"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

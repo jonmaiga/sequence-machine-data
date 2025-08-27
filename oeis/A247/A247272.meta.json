@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n containing 256 as the highest power of 2 in their Collatz (3x+1) iteration.",
+  "description": "Odd numbers m containing 256 as the highest power of 2 in their Collatz (3x+1) iteration.",
   "id": "A247272",
   "mentions": [
     "A008908",

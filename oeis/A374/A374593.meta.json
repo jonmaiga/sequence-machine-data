@@ -2,8 +2,11 @@
   "description": "Numbers k such that k - rad(k) + 1 is prime, where rad(k) is the radical A007947(k).",
   "id": "A374593",
   "mentions": [
+    "A005384",
+    "A007693",
     "A007947",
     "A097379",
+    "A228857",
     "A359213"
   ],
   "tags": [
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

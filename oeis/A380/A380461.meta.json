@@ -1,21 +1,15 @@
 {
-  "description": "First coefficient of the lindep transform of the sum of squarefree divisors of n, A048250.",
+  "description": "Number of edge covers of fan graph F_{2,n}.",
   "id": "A380461",
-  "mentions": [
-    "A048250",
-    "A339790",
-    "A339791",
-    "A380462",
-    "A380463",
-    "A380471",
-    "A380481"
-  ],
+  "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
-    "source": "oeis-bfile"
+    "size": 21,
+    "source": "joeis"
   }
 }

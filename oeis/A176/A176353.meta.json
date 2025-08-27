@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle sequence based on Dirichlet's divisors:g(n)=n*Log[n] - n + Sqrt[n];t(n,m)=If[m == 0 || m == n, 1, 1 + Round[ -g(m) - g(n - m) + g(n)]]",
+  "description": "A symmetrical triangle sequence based on Dirichlet's divisors:g(n)=n*Log[n] - n + Sqrt[n];t(n,m)=If[m == 0 || m == n, 1, 1 + Round[ -g(m) - g(n - m) + g(n)]].",
   "id": "A176353",
   "mentions": [
     "A176346"

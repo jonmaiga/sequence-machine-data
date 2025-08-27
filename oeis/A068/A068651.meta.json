@@ -4,18 +4,22 @@
   "mentions": [
     "A056265",
     "A068645",
+    "A068646",
+    "A068647",
+    "A068648",
+    "A068649",
     "A068650",
     "A082718"
   ],
   "tags": [
     "base",
-    "bref",
     "formulas",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

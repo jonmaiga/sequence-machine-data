@@ -1,5 +1,5 @@
 {
-  "description": "Let k be any quadratic field such that all prime factors of n are inert in k, O_k be the corresponding ring of integers and G(n) = (O_k/(nO_k))* be the multiplicative group of integers in O_k modulo n; then a(n) is the exponent of G(n).",
+  "description": "Let k be any quadratic field such that all prime factors of n are inert in k, O_k be the corresponding ring of integers and G(n) = (O_k/nO_k)* be the multiplicative group of integers in O_k modulo n; then a(n) is the exponent of G(n).",
   "id": "A306933",
   "mentions": [
     "A007434"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of chains in the Bruhat order of type A_n.",
+  "id": "A384959",
+  "mentions": [
+    "A000142",
+    "A005130",
+    "A061710",
+    "A384061"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A000040(A072579(n)).",
+  "description": "a(n) = A000040(A072579(n)).",
   "id": "A072582",
   "mentions": [
     "A000040",
@@ -13,11 +13,14 @@
     "A072584"
   ],
   "tags": [
+    "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

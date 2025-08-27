@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of espalier polycubes counted by height and volume",
+  "description": "Triangle read by rows: number of espalier polycubes counted by height and volume.",
   "id": "A227925",
   "mentions": [
     "A229915"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of -n..n arrays x(0..7) of 8 elements with zero sum and nonzero second differences",
+  "description": "Number of -n..n arrays x(0..7) of 8 elements with zero sum and nonzero second differences.",
   "id": "A200558",
   "mentions": [
     "A200553"

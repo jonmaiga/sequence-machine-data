@@ -1,0 +1,22 @@
+{
+  "description": "Partial products of the sequence nonprime powers of primes (A025475).",
+  "id": "A385380",
+  "mentions": [
+    "A001694",
+    "A024923",
+    "A025475",
+    "A025487",
+    "A181800",
+    "A385379"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,20 +1,22 @@
 {
-  "description": "First coefficient of the lindep transform of A017666, denominator of sigma(n)/n.",
+  "description": "Numbers of the form A073138(k) XOR A038573(k).",
   "id": "A380544",
   "mentions": [
-    "A017666",
-    "A339790",
-    "A380464",
-    "A380541",
-    "A380545",
-    "A380546"
+    "A000267",
+    "A006995",
+    "A038573",
+    "A073138",
+    "A082375"
   ],
   "tags": [
+    "base",
+    "easy",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
-    "source": "oeis-bfile"
+    "size": 51,
+    "source": "oeis-entry"
   }
 }

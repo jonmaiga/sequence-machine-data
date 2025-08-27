@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the following process converges to zero: x(0)=n, x(i+1) = x(i) XOR ror(x(i)) XOR rol(x(i)), see the Comments section for details.",
+  "description": "Numbers k such that the following process converges to zero: x(0)=k, x(i+1) = x(i) XOR ror(x(i)) XOR rol(x(i)); see the Comments section for details.",
   "id": "A273039",
   "mentions": [
     "A006257",

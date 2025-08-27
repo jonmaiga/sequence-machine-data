@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays without the pattern 1 0 0 1 diagonally, vertically or horizontally",
+  "description": "Number of n X n binary arrays without the pattern 1 0 0 1 diagonally, vertically or horizontally.",
   "id": "A189773",
   "mentions": [
     "A189779"

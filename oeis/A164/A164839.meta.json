@@ -1,7 +1,10 @@
 {
   "description": "Left-truncatable squares: every suffix is square.",
   "id": "A164839",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A164840"
+  ],
   "tags": [
     "base",
     "fini",

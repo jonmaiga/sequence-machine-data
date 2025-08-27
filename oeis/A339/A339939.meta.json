@@ -1,5 +1,5 @@
 {
-  "description": "Coreful weird numbers: numbers k that are coreful abundant (A308053) but no subset their aliquot coreful divisors sums to k.",
+  "description": "Coreful weird numbers: numbers k that are coreful abundant (A308053) but no subset of their aliquot coreful divisors sums to k.",
   "id": "A339939",
   "mentions": [
     "A006037",

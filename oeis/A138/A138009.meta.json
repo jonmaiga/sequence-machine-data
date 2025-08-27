@@ -2,10 +2,13 @@
   "description": "a(n) = number of positive integers k, k <= n, where d(k) >= d(n); d(n) = number of positive divisors of n.",
   "id": "A138009",
   "mentions": [
+    "A000005",
+    "A002182",
     "A067004",
     "A079788"
   ],
   "tags": [
+    "formulas",
     "look",
     "nonn"
   ],

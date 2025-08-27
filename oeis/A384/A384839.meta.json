@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which sigma(k - x) + sigma(k + x) = 6*k has at least one nonnegative solution.",
+  "id": "A384839",
+  "mentions": [
+    "A000203",
+    "A005820",
+    "A383268",
+    "A383758",
+    "A384838",
+    "A384840",
+    "A384841"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

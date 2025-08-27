@@ -2,6 +2,7 @@
   "description": "Number of partitions of {1,...,n} into blocks such that no block size is repeated more than 3 times.",
   "id": "A115275",
   "mentions": [
+    "A000110",
     "A001935",
     "A007837",
     "A115276",

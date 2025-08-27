@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n = p+q with p prime or practical, and q-4, q, q+4 all practical",
+  "description": "Number of ways to write n = p+q with p prime or practical, and q-4, q, q+4 all practical.",
   "id": "A208246",
   "mentions": [
     "A005153",

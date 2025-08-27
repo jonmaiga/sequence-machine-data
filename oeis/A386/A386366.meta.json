@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (Sum_{k>=0} binomial(4*k,k) * x^k)^(1/4).",
+  "id": "A386366",
+  "mentions": [
+    "A000142",
+    "A007696",
+    "A378484",
+    "A386365"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

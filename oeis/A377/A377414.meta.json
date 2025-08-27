@@ -2,8 +2,10 @@
   "description": "a(n) is the largest term of A126684, say b, such that n AND b = b (where AND denotes the bitwise AND operator).",
   "id": "A377414",
   "mentions": [
+    "A000975",
     "A063694",
     "A063695",
+    "A070939",
     "A126684",
     "A371442",
     "A374356",

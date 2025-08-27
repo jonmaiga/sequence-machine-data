@@ -1,5 +1,5 @@
 {
-  "description": "Number a of different pairs of primes p,q (not consecutive) and such that p-6,p or p,p+6 are consecutive primes q-6,q or q,q+6 are consecutive primes and p+q=2*n",
+  "description": "Number a of different pairs of primes p,q (not consecutive) and such that p-6,p or p,p+6 are consecutive primes q-6,q or q,q+6 are consecutive primes and p+q=2*n.",
   "id": "A159708",
   "mentions": [
     "A159700",

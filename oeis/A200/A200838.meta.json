@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays x(0..n+1) of n+2 elements without any two consecutive increases or two consecutive decreases",
+  "description": "T(n,k)=Number of 0..k arrays x(0..n+1) of n+2 elements without any two consecutive increases or two consecutive decreases.",
   "id": "A200838",
   "mentions": [
     "A000079",

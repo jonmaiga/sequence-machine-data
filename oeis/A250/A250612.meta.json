@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with nondecreasing maximum of every two consecutive values in every row and column",
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with nondecreasing maximum of every two consecutive values in every row and column.",
   "id": "A250612",
   "mentions": [
     "A250620"

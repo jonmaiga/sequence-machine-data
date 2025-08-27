@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric binary arrays with rows, considered as graycode numbers, in strictly increasing order",
+  "description": "Number of n X n symmetric binary arrays with rows, considered as graycode numbers, in strictly increasing order.",
   "id": "A162109",
   "mentions": [],
   "tags": [

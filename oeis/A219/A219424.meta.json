@@ -1,5 +1,5 @@
 {
-  "description": "Unchanging value maps: number of 4Xn binary arrays indicating the locations of corresponding elements unequal to no horizontal or antidiagonal neighbor in a random 0..2 4Xn array",
+  "description": "Unchanging value maps: number of 4Xn binary arrays indicating the locations of corresponding elements unequal to no horizontal or antidiagonal neighbor in a random 0..2 4Xn array.",
   "id": "A219424",
   "mentions": [
     "A219421"

@@ -1,5 +1,5 @@
 {
-  "description": "Least prime q > p(n) such that p(n)+q=n^2-x^2 for n>9 where p(i)=i-th prime",
+  "description": "Least prime q > p(n) such that p(n)+q=n^2-x^2 for n>9 where p(i)=i-th prime.",
   "id": "A145175",
   "mentions": [],
   "tags": [

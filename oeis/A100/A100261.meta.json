@@ -2,7 +2,9 @@
   "description": "Continued fraction expansion of cot(1-Pi/4).",
   "id": "A100261",
   "mentions": [
-    "A005131"
+    "A005131",
+    "A143623",
+    "A143624"
   ],
   "tags": [
     "cofr",

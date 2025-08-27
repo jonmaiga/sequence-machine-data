@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+5)X(n+5) binary arrays with every 6X6 subblock commuting with each horizontal and vertical neighbor 6X6 subblock",
+  "description": "Number of (n+5)X(n+5) binary arrays with every 6X6 subblock commuting with each horizontal and vertical neighbor 6X6 subblock.",
   "id": "A186610",
   "mentions": [
     "A186619"

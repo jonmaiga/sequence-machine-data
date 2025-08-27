@@ -1,5 +1,5 @@
 {
-  "description": "Number of squarefree words of length n in an 8-ary alphabet, with new values 0..7 introduced in increasing order",
+  "description": "Number of squarefree words of length n in an 8-ary alphabet, with new values 0..7 introduced in increasing order.",
   "id": "A215074",
   "mentions": [
     "A215075"

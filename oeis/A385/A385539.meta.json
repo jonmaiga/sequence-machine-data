@@ -1,0 +1,24 @@
+{
+  "description": "Total number of distinct partitions of the repunit A002275(n) into an arbitrary number of complementary binary vectors having a common divisor > 1 in base 10.",
+  "id": "A385539",
+  "mentions": [
+    "A002275",
+    "A004023",
+    "A011557",
+    "A277364",
+    "A378511",
+    "A378761",
+    "A385537"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

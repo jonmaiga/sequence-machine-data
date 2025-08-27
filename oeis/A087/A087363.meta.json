@@ -1,5 +1,5 @@
 {
-  "description": "Primes whose decimal digits are twin primes.",
+  "description": "Primes having only {3, 5, 7} as digits.",
   "id": "A087363",
   "mentions": [],
   "tags": [

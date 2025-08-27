@@ -2,9 +2,11 @@
   "description": "a(1) = 1. Replace each prime power in the prime factorization of n with the next lower prime power.",
   "id": "A120636",
   "mentions": [
+    "A031218",
     "A120635"
   ],
   "tags": [
+    "formulas",
     "mult",
     "nonn"
   ],

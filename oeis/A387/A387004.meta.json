@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,d) is the number of free, properly d-dimensional (d,2)-polyominoids of size n, 2 <= d <= n+1.",
+  "id": "A387004",
+  "mentions": [
+    "A000105",
+    "A049430",
+    "A365566",
+    "A387002",
+    "A387003",
+    "A387005"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

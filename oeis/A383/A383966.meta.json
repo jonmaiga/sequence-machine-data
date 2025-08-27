@@ -1,0 +1,14 @@
+{
+  "description": "Numbers k such that floor(2^k / 5) is a prime.",
+  "id": "A383966",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

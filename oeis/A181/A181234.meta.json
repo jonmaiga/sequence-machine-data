@@ -1,5 +1,5 @@
 {
-  "description": "Number of (2*n)Xn binary matrices with all row sums equal and all column sums equal",
+  "description": "Number of (2*n)Xn binary matrices with all row sums equal and all column sums equal.",
   "id": "A181234",
   "mentions": [
     "A181236"

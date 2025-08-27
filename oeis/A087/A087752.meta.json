@@ -2,8 +2,10 @@
   "description": "Powers of 49.",
   "id": "A087752",
   "mentions": [
+    "A000420",
     "A001018",
     "A001029",
+    "A005843",
     "A008776",
     "A009964",
     "A009992"
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

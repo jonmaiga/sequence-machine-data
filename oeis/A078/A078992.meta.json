@@ -4,12 +4,13 @@
   "mentions": [],
   "tags": [
     "formulas",
+    "less",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

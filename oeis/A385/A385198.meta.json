@@ -1,0 +1,38 @@
+{
+  "description": "The number of integers k from 1 to n such that the greatest divisor of k that is a unitary divisor of n is a prime power (A246655).",
+  "id": "A385198",
+  "mentions": [
+    "A047994",
+    "A065463",
+    "A069513",
+    "A077610",
+    "A116512",
+    "A246655",
+    "A384047",
+    "A384048",
+    "A384049",
+    "A384050",
+    "A384051",
+    "A384052",
+    "A384053",
+    "A384054",
+    "A384055",
+    "A384056",
+    "A384057",
+    "A384058",
+    "A385195",
+    "A385196",
+    "A385197",
+    "A385199"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

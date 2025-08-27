@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5-colorings of a side-n hexagonal array with colors introduced in row major order",
+  "description": "Number of 5-colorings of a side-n hexagonal array with colors introduced in row major order.",
   "id": "A216791",
   "mentions": [
     "A216792"

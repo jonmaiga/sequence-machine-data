@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+2 0..k arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero",
+  "description": "T(n,k)=Number of length n+2 0..k arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.",
   "id": "A251935",
   "mentions": [
     "A000326"

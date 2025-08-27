@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n X n 0..k arrays with rows and columns in lexicographically nondecreasing order",
+  "description": "T(n,k)=Number of n X n 0..k arrays with rows and columns in lexicographically nondecreasing order.",
   "id": "A229794",
   "mentions": [
     "A089006",

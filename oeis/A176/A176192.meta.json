@@ -1,5 +1,5 @@
 {
-  "description": "Det(M) where M is an n X n matrix with M[i,j]=Floor[Log(i+j)]",
+  "description": "Det(M) where M is an n X n matrix with M[i,j]=Floor[Log(i+j)].",
   "id": "A176192",
   "mentions": [],
   "tags": [

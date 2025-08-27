@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = lcm({1, 2, ..., n}) * (n + 1) / n for n > 0, a(0) = 1.",
+  "id": "A387027",
+  "mentions": [
+    "A002944",
+    "A003418"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

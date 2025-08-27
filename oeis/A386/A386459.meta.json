@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of an augmented truncated cube with unit edges.",
+  "id": "A386459",
+  "mentions": [
+    "A131594",
+    "A179587",
+    "A377299",
+    "A386411",
+    "A386460"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

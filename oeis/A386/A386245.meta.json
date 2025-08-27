@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers k such that A075255(k) is a square.",
+  "id": "A386245",
+  "mentions": [
+    "A056899",
+    "A075255",
+    "A386246"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

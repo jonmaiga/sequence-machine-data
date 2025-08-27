@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = Prime(Pell(n)).",
+  "description": "a(n) = prime(Pell(n)).",
   "id": "A088747",
   "mentions": [
+    "A000040",
     "A000129"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

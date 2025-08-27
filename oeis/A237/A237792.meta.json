@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(1+2) 0..3 arrays with the (lower) medians of each row equal and of each column equal",
+  "description": "Number of (n+2)X(1+2) 0..3 arrays with the (lower) medians of each row equal and of each column equal.",
   "id": "A237792",
   "mentions": [
     "A237794"

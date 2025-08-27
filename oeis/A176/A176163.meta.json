@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=3 and a(n)=Floor[1/(n-1)^2 * a(n-1)^2]",
+  "description": "a(1)=3 and a(n)=Floor[1/(n-1)^2 * a(n-1)^2].",
   "id": "A176163",
   "mentions": [],
   "tags": [

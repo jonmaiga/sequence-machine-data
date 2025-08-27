@@ -1,5 +1,5 @@
 {
-  "description": "Zeckendorf distance between n and 2n.",
+  "description": "Zeckendorf distance between n and 2*n.",
   "id": "A226211",
   "mentions": [
     "A226080",

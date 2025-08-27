@@ -1,0 +1,28 @@
+{
+  "description": "Smallest number k with n distinct prime factors such that A010846(k) = A024718(n) (a tight lower bound), or -1 if such k does not exist.",
+  "id": "A384000",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001700",
+    "A005117",
+    "A007947",
+    "A010846",
+    "A024718",
+    "A138109",
+    "A162306",
+    "A383177",
+    "A383178",
+    "A383179"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and its 2's complement are both primes. In other words, n and 2^k - n (where k is the smallest power of 2 such that 2^k > n) are primes.",
+  "description": "Numbers m such that m and its 2's complement are both primes. In other words, m and 2^k - m (where k is the smallest power of 2 such that 2^k > m) are primes.",
   "id": "A086081",
   "mentions": [
     "A068811"

@@ -1,7 +1,8 @@
 {
-  "description": "The n-th term is the minimum number x such that x/Totient(x) >= n",
+  "description": "The n-th term is the minimum number x such that x/Totient(x) >= n.",
   "id": "A164347",
   "mentions": [
+    "A073087",
     "A091456",
     "A164348"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with each 3X3 subblock nonsingular",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with each 3X3 subblock nonsingular.",
   "id": "A184652",
   "mentions": [],
   "tags": [

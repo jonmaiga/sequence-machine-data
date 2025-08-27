@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the total number of digits of all the divisors of n written in base 2 is equal to n.",
+  "description": "Numbers k such that the total number of digits of all the divisors of k written in base 2 is equal to k.",
   "id": "A231116",
   "mentions": [
     "A182622",

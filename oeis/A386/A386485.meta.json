@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = 5*n^2 - 5*n + 2.",
+  "id": "A386485",
+  "mentions": [
+    "A051890",
+    "A062786",
+    "A069894",
+    "A077588",
+    "A124080",
+    "A386480"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

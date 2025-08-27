@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..7 arrays of length n with each element unequal to at least one neighbor, with new values introduced in 0..7 order",
+  "description": "Number of 0..7 arrays of length n with each element unequal to at least one neighbor, with new values introduced in 0..7 order.",
   "id": "A221458",
   "mentions": [
     "A221459"

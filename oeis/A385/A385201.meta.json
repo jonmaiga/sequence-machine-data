@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic primes indexed by palindromic primes.",
+  "id": "A385201",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A002385"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

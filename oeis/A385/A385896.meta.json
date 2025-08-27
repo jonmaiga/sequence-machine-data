@@ -1,0 +1,31 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = k! * [x^k] (1 - sin(n*x))^(-1/n) for n > 0, A(0, k) = 1.",
+  "id": "A385896",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000111",
+    "A001586",
+    "A007788",
+    "A028387",
+    "A135278",
+    "A144015",
+    "A187277",
+    "A227544",
+    "A230114",
+    "A230134",
+    "A235128",
+    "A385897",
+    "A385898"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

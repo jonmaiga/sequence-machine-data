@@ -1,0 +1,20 @@
+{
+  "description": "Nonprimes k such that sopfr(k) = rad(k), where sopfr(k) is sum of the prime factors of k (counting multiplicity), and rad(k) is the product of its distinct prime factors.",
+  "id": "A386916",
+  "mentions": [
+    "A000040",
+    "A001414",
+    "A007947",
+    "A018252",
+    "A085718",
+    "A126706"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "The sum of divisors d of n such that n/d is a biquadratefree number (A046100).",
+  "id": "A385134",
+  "mentions": [
+    "A000203",
+    "A001615",
+    "A002131",
+    "A008683",
+    "A046100",
+    "A069208",
+    "A076752",
+    "A129527",
+    "A244963",
+    "A254981",
+    "A307430",
+    "A327626",
+    "A385006",
+    "A385135",
+    "A385136",
+    "A385137",
+    "A385138",
+    "A385139"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

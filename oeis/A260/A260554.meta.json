@@ -2,6 +2,7 @@
   "description": "Primes p such that p = q^2 + 4*r^2 where q and r are also primes.",
   "id": "A260554",
   "mentions": [
+    "A182476",
     "A260553",
     "A260555",
     "A260556",

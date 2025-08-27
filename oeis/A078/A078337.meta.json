@@ -2,6 +2,7 @@
   "description": "Palindromes which are a nontrivial product of 2 palindromes (which need not be distinct).",
   "id": "A078337",
   "mentions": [
+    "A002113",
     "A078895"
   ],
   "tags": [

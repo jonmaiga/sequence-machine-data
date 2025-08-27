@@ -2,13 +2,14 @@
   "description": "Denominators in a product expansion for sqrt(5).",
   "id": "A219011",
   "mentions": [
+    "A000032",
+    "A000045",
     "A145275",
     "A219010",
     "A219013",
     "A219015"
   ],
   "tags": [
-    "bref",
     "easy",
     "formulas",
     "nonn"
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

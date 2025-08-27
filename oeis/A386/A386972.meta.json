@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the product of a semiprime and the square of another semiprime.",
+  "id": "A386972",
+  "mentions": [
+    "A001358",
+    "A046306",
+    "A054753",
+    "A386977"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

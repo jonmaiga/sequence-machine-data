@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of the differentiated row polynomials of the triangular Hadamard matrices of A158800: p(x,n)=If[n less than or equal to 2^m,Sum[H(2^m)[[k]]*x^(1-k),{k,1,n}],If[n greater than m then m+1]",
+  "description": "Coefficients of the differentiated row polynomials of the triangular Hadamard matrices of A158800: p(x,n)=If[n less than or equal to 2^m,Sum[H(2^m)[[k]]*x^(1-k),{k,1,n}],If[n greater than m then m+1].",
   "id": "A158810",
   "mentions": [
     "A158800"

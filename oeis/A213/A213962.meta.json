@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n X n 0..k matrices with row and column i=1..n having sum <= i*k",
+  "description": "T(n,k)=Number of n X n 0..k matrices with row and column i=1..n having sum <= i*k.",
   "id": "A213962",
   "mentions": [
     "A108678"

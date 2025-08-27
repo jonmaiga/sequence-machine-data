@@ -1,5 +1,5 @@
 {
-  "description": "Sum of neighbor maps: log base 2 of the number of n X n binary arrays indicating the locations of corresponding elements equal to the sum mod 2 of their horizontal, diagonal and antidiagonal neighbors in a random 0..1 n X n array",
+  "description": "Sum of neighbor maps: log base 2 of the number of n X n binary arrays indicating the locations of corresponding elements equal to the sum mod 2 of their horizontal, diagonal and antidiagonal neighbors in a random 0..1 n X n array.",
   "id": "A221355",
   "mentions": [
     "A221356"

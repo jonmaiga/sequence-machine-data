@@ -1,5 +1,5 @@
 {
-  "description": "Primes having only the (decimal) digits 2, 3 and 4.",
+  "description": "Primes having only {2, 3, 4} as digits.",
   "id": "A199342",
   "mentions": [
     "A004086",
@@ -9,7 +9,9 @@
     "A020472",
     "A199325",
     "A199329",
-    "A199340"
+    "A199340",
+    "A385768",
+    "A385800"
   ],
   "tags": [
     "base",

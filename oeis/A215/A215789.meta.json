@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 0..floor((3*n-1)/2) on even squares of an 3*n array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing",
+  "description": "Number of permutations of 0..floor((3*n-1)/2) on even squares of an 3*n array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing.",
   "id": "A215789",
   "mentions": [
     "A215788"

@@ -2,6 +2,7 @@
   "description": "Number of coprime positive integer S-unit solutions to a + b = c where a <= b < c, and where S = {prime(1), ..., prime(n)}.",
   "id": "A362593",
   "mentions": [
+    "A002071",
     "A361661",
     "A362567"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..4 arrays with every 2X2 subblock containing exactly one value repeat, and new values 0..4 introduced in row major order",
+  "description": "Number of nX3 0..4 arrays with every 2X2 subblock containing exactly one value repeat, and new values 0..4 introduced in row major order.",
   "id": "A209498",
   "mentions": [
     "A209503"

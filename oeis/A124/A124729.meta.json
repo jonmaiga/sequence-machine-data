@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+1, n+2 and n+3 are products of 5 primes.",
+  "description": "Numbers k such that k, k+1, k+2 and k+3 are products of 5 primes.",
   "id": "A124729",
   "mentions": [
     "A045940",

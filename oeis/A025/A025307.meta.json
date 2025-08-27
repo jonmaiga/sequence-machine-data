@@ -1,7 +1,9 @@
 {
   "description": "Numbers that are the sum of 2 distinct nonzero squares in exactly 6 ways.",
   "id": "A025307",
-  "mentions": [],
+  "mentions": [
+    "A025289"
+  ],
   "tags": [
     "nonn"
   ],

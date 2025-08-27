@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that mean of 7 consecutive squares starting with n^2 is prime.",
+  "description": "Numbers k such that mean of 7 consecutive squares starting with k^2 is prime.",
   "id": "A129412",
   "mentions": [
     "A005473",

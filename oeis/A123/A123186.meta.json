@@ -1,12 +1,11 @@
 {
-  "description": "This sequence needs a meaningful name.",
+  "description": "a(3*n-2) = a(3*n-1) = a(3*n) = b(n), where b(1) = 1, b(2) = -2, b(3) = 0, and b(n+1) = -(m+1)*b(n) - (m-1)*(m-2)*b(n-1) - (m-3)*(m-4)*(m-5)*b(n-2) for m = 3*n.",
   "id": "A123186",
   "mentions": [],
   "tags": [
     "easy",
     "less",
-    "sign",
-    "uned"
+    "sign"
   ],
   "terms": {
     "offset": 1,

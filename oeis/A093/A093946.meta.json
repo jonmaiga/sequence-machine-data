@@ -1,11 +1,13 @@
 {
-  "description": "Primes of the form 6*10^n - 1.",
+  "description": "Primes of the form 6*10^k - 1.",
   "id": "A093946",
   "mentions": [
     "A002275",
-    "A056716"
+    "A056716",
+    "A099151"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1) + Sum_{k=0..n-1} k^4 * a(k) * a(n-1-k).",
+  "id": "A386445",
+  "mentions": [
+    "A075834",
+    "A385832",
+    "A386443",
+    "A386444",
+    "A386446",
+    "A386447"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

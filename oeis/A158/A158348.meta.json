@@ -2,7 +2,9 @@
   "description": "Number of n-colorings of the Hypercube Graph Q4.",
   "id": "A158348",
   "mentions": [
-    "A140986"
+    "A140986",
+    "A342128",
+    "A380589"
   ],
   "tags": [
     "easy",

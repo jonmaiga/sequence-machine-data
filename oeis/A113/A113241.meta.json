@@ -1,7 +1,8 @@
 {
-  "description": "Sum{k=1..n, tau(2k)-1}.",
+  "description": "a(n) = Sum_{k=1..n} (tau(2*k) - 1).",
   "id": "A113241",
   "mentions": [
+    "A000005",
     "A066660"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

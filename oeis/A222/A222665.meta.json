@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..3 arrays with exactly floor(nX7/2) elements unequal to at least one horizontal, vertical or antidiagonal neighbor, with new values introduced in row major 0..3 order",
+  "description": "Number of nX7 0..3 arrays with exactly floor(nX7/2) elements unequal to at least one horizontal, vertical or antidiagonal neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222665",
   "mentions": [
     "A222666"

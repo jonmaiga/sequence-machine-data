@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of a set of infinite sum rational polynomials: p(x,n)=(-1 + x)^(m - 1)*( 1 - (1 + x)/(-1 + x))^(m + 1)*Sum[(k + 1)^(2*m - 1)*((x + 1)/( x - 1))^k, {k, 0, Infinity}]",
+  "description": "Coefficients of a set of infinite sum rational polynomials: p(x,n)=(-1 + x)^(m - 1)*( 1 - (1 + x)/(-1 + x))^(m + 1)*Sum[(k + 1)^(2*m - 1)*((x + 1)/( x - 1))^k, {k, 0, Infinity}].",
   "id": "A171657",
   "mentions": [
     "A008292"

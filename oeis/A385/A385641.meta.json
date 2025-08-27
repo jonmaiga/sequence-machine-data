@@ -1,0 +1,24 @@
+{
+  "description": "Partial sums of A097893.",
+  "id": "A385641",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A002426",
+    "A025178",
+    "A097893",
+    "A128014",
+    "A247287",
+    "A383527"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Numbers that are the concatenation of three (not necessarily distinct) primes whose sum is prime, and are also the product of three (not necessarily distinct) primes whose sum is prime.",
+  "id": "A385452",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

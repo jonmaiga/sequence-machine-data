@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals: T(m,n) = number of 3-metered (m,n)-parking functions",
+  "description": "Table read by antidiagonals: T(m,n) = number of 3-metered (m,n)-parking functions.",
   "id": "A372819",
   "mentions": [
     "A005563",

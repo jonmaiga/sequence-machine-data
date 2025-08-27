@@ -1,0 +1,18 @@
+{
+  "description": "Middle element of the list {1, 2, 3, ..., 2n-1} when elements are sorted lexicographically by their Roman numeral representations.",
+  "id": "A387014",
+  "mentions": [
+    "A036742"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with both permutation and its inverse having exactly 5 maxima",
+  "description": "Number of permutations of 1..n with both permutation and its inverse having exactly 5 maxima.",
   "id": "A180395",
   "mentions": [],
   "tags": [

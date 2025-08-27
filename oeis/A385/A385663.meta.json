@@ -1,0 +1,19 @@
+{
+  "description": "Binary numbers with an even number of 1s.",
+  "id": "A385663",
+  "mentions": [
+    "A001969",
+    "A007088"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

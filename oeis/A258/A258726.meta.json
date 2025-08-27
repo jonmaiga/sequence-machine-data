@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+4 0..3 arrays with at most one downstep in every 4 consecutive neighbor pairs",
+  "description": "Number of length n+4 0..3 arrays with at most one downstep in every 4 consecutive neighbor pairs.",
   "id": "A258726",
   "mentions": [
     "A258730"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A047800(n) - A047800(n-1).",
+  "id": "A384797",
+  "mentions": [
+    "A047800",
+    "A160663",
+    "A384798",
+    "A384799"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

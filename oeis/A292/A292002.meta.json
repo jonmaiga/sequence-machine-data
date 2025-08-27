@@ -2,24 +2,15 @@
   "description": "Number of (undirected) paths in the n-Apollonian network.",
   "id": "A292002",
   "mentions": [
-    "A027610",
-    "A192792",
-    "A193128",
-    "A289021",
-    "A289022",
-    "A289521",
-    "A289722",
-    "A291773",
-    "A292429"
+    "A302718",
+    "A307549"
   ],
   "tags": [
-    "bref",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 6,
+    "source": "oeis-bfile"
   }
 }

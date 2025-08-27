@@ -1,5 +1,5 @@
 {
-  "description": "Period of continued fraction for sqrt(n) contains exactly four 1's.",
+  "description": "Numbers k such that the period of the continued fraction for sqrt(k) contains exactly four 1's.",
   "id": "A020440",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

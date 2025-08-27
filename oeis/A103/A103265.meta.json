@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n in which both even and odd square parts occur in 2 forms c, c* and with multiplicity 1. There no restriction on parts which are twice squares.",
+  "description": "Number of partitions of n in which both even and odd square parts occur in 2 forms c, c* and with multiplicity 1. There is no restriction on parts which are twice squares.",
   "id": "A103265",
   "mentions": [
     "A001156",

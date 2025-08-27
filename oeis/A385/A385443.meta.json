@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x/(3*x + sqrt(9*x^2+1))^(1/3) ).",
+  "id": "A385443",
+  "mentions": [
+    "A001147",
+    "A384241",
+    "A385343",
+    "A385444"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

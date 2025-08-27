@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..1 arrays with 2X2 subblock sums lexicographically nondecreasing rowwise and nonincreasing columnwise",
+  "description": "Number of (n+1)X(2+1) 0..1 arrays with 2X2 subblock sums lexicographically nondecreasing rowwise and nonincreasing columnwise.",
   "id": "A235407",
   "mentions": [
     "A235413"

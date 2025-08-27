@@ -1,0 +1,19 @@
+{
+  "description": "Number of proper vertex colorings of the n-complete bipartite graph using exactly 5 interchangeable colors.",
+  "id": "A384981",
+  "mentions": [
+    "A008277",
+    "A384968",
+    "A384980"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

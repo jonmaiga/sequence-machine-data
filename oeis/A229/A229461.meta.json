@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there is no convex pentagon that can be decomposed into n pairwise congruent regular equilateral triangles.",
+  "description": "Numbers k such that there is no convex pentagon that can be decomposed into k pairwise congruent regular equilateral triangles.",
   "id": "A229461",
   "mentions": [
     "A000926",

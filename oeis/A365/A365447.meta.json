@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonempty choice functions on a set of n alternatives",
+  "description": "Number of nonempty choice functions on a set of n alternatives.",
   "id": "A365447",
   "mentions": [
     "A061301",

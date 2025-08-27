@@ -1,12 +1,14 @@
 {
-  "description": "a(n)=1 if n is a prime number, otherwise a(n)=n.",
+  "description": "a(n) = 1 if n is a prime number, otherwise a(n) = n.",
   "id": "A005451",
   "mentions": [
+    "A005171",
     "A005450",
     "A088140",
     "A089026",
     "A135684",
-    "A181569"
+    "A181569",
+    "A380441"
   ],
   "tags": [
     "formulas",

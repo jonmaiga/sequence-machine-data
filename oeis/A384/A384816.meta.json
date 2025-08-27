@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the cubes of the indices of distinct prime factors of n.",
+  "id": "A384816",
+  "mentions": [
+    "A000720",
+    "A005064",
+    "A066328",
+    "A332385"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

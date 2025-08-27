@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the maximum number of distinct positive integers whose sum of squares is equal to n^2.",
+  "id": "A385963",
+  "mentions": [
+    "A001032",
+    "A030273"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n 0..k arrays with new values introduced in order from both ends",
+  "description": "T(n,k)=Number of length n 0..k arrays with new values introduced in order from both ends.",
   "id": "A245163",
   "mentions": [
     "A000079",

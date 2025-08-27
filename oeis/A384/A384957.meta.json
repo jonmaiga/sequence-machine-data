@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f.: exp(Sum_{n>=1} A295433(n)*x^n/n).",
+  "id": "A384957",
+  "mentions": [
+    "A166990",
+    "A229451",
+    "A243953",
+    "A255881",
+    "A295432",
+    "A295433",
+    "A383796"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

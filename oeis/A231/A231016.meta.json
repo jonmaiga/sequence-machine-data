@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with non-unique solution to n = +- 1^2 +- 2^2 +- ... +- k^2 with minimal k giving at least one solution.",
+  "description": "Numbers m with non-unique solution to m = +- 1^2 +- 2^2 +- ... +- k^2 with minimal k giving at least one solution.",
   "id": "A231016",
   "mentions": [
     "A000330",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
+    "size": 61,
     "source": "oeis-bfile"
   }
 }

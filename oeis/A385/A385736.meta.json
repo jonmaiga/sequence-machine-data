@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of distinct nondegenerate triangles with perimeter n whose side lengths are triangular numbers.",
+  "id": "A385736",
+  "mentions": [
+    "A000217",
+    "A005044",
+    "A051516",
+    "A070088",
+    "A366398",
+    "A380875",
+    "A385737",
+    "A385860",
+    "A385872"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

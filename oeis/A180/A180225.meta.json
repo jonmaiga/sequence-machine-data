@@ -6,12 +6,11 @@
     "A123239"
   ],
   "tags": [
-    "bref",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

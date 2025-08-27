@@ -1,14 +1,19 @@
 {
-  "description": "Numbers n such that nextprime(5*n)>5*nextprime(n) and n is composite (if p is prime then nextprime(p)=p).",
+  "description": "Numbers k such that nextprime(5*k) > 5*nextprime(k) and k is composite.",
   "id": "A117101",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A007918",
+    "A117094"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

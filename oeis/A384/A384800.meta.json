@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A384727(A368538(n)).",
+  "id": "A384800",
+  "mentions": [
+    "A368538",
+    "A384727"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

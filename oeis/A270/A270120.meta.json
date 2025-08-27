@@ -1,5 +1,5 @@
 {
-  "description": "Number of k with k^n=1 (mod n) and k^k=k (mod n); related to some groups of order n",
+  "description": "Number of k with k^n=1 (mod n) and k^k=k (mod n); related to some groups of order n.",
   "id": "A270120",
   "mentions": [
     "A000001"

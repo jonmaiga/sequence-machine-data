@@ -1,0 +1,17 @@
+{
+  "description": "GCD of pairs of consecutive terms of the sequence A386482.",
+  "id": "A387087",
+  "mentions": [
+    "A073734",
+    "A386482"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

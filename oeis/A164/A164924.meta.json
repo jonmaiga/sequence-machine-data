@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of Egyptian fraction for Pi/4 whose partial sums are the convergents",
+  "description": "Denominators of Egyptian fraction for Pi/4 whose partial sums are the convergents.",
   "id": "A164924",
   "mentions": [
     "A156618"

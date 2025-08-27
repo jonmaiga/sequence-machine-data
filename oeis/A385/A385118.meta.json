@@ -1,0 +1,15 @@
+{
+  "description": "Number of solutions to x^2 + y^2 + z^2 == 3xyz (mod n).",
+  "id": "A385118",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

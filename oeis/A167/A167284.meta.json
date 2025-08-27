@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence related to the EulerPhi function: t(n,k)=If[Mod[k, n] == 0 && (Mod[k, EulerPhi[n]] == 0), 1, Mod[k, n] ^ Mod[k, EulerPhi[n]]]",
+  "description": "A triangular sequence related to the EulerPhi function: t(n,k)=If[Mod[k, n] == 0 && (Mod[k, EulerPhi[n]] == 0), 1, Mod[k, n] ^ Mod[k, EulerPhi[n]]].",
   "id": "A167284",
   "mentions": [],
   "tags": [

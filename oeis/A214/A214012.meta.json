@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3X3 nonnegative integer matrices with row and column i=1..3 having sum <= i*n",
+  "description": "Number of 3X3 nonnegative integer matrices with row and column i=1..3 having sum <= i*n.",
   "id": "A214012",
   "mentions": [
     "A214011"

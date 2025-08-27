@@ -1,12 +1,14 @@
 {
-  "description": "a[n] is the largest prime before A002279[n] repdigits.",
+  "description": "a(n) is the largest prime before A002279(n).",
   "id": "A099665",
   "mentions": [
     "A002275",
     "A002279",
+    "A002282",
     "A002283",
     "A003617",
     "A003618",
+    "A007917",
     "A068104",
     "A096497",
     "A096498",
@@ -15,11 +17,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

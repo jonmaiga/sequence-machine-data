@@ -1,0 +1,37 @@
+{
+  "description": "The number k such that the k-th composition in standard order lists the maximal anti-run lengths of the binary indices of n. Standard composition number of row n of A384877.",
+  "id": "A385816",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A044813",
+    "A048793",
+    "A052499",
+    "A066099",
+    "A069010",
+    "A209859",
+    "A232559",
+    "A245562",
+    "A245563",
+    "A246029",
+    "A247648",
+    "A348366",
+    "A384175",
+    "A384877",
+    "A384878",
+    "A384879",
+    "A384893",
+    "A385818",
+    "A385886",
+    "A385887",
+    "A385889"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,18 +1,28 @@
 {
-  "description": "2^(2p - 1)/16, where p is a Mersenne prime A000668(n).",
+  "description": "a(n) = 2^(2p - 1)/16, where p is the n-th Mersenne prime A000668(n).",
   "id": "A139302",
   "mentions": [
     "A000668",
-    "A139294"
+    "A139294",
+    "A139295",
+    "A139296",
+    "A139297",
+    "A139298",
+    "A139299",
+    "A139300",
+    "A139301",
+    "A139303",
+    "A139304",
+    "A139305",
+    "A139306"
   ],
   "tags": [
-    "bref",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..2 arrays with no element equal to exactly two horizontal and vertical neighbors, with new values 0..2 introduced in row major order",
+  "description": "Number of nX4 0..2 arrays with no element equal to exactly two horizontal and vertical neighbors, with new values 0..2 introduced in row major order.",
   "id": "A241127",
   "mentions": [
     "A241130"

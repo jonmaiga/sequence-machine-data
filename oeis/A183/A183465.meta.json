@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+4)X(k+4) binary arrays with every 1 having exactly three king-move neighbors equal to 1 but with no 2X2 blocks of 1s",
+  "description": "T(n,k)=Number of (n+4)X(k+4) binary arrays with every 1 having exactly three king-move neighbors equal to 1 but with no 2X2 blocks of 1s.",
   "id": "A183465",
   "mentions": [],
   "tags": [

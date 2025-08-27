@@ -1,0 +1,21 @@
+{
+  "description": "Twin primes p such that 6p+1, 6p-1 is a twin prime pair.",
+  "id": "A386724",
+  "mentions": [
+    "A001359",
+    "A002822",
+    "A014574",
+    "A060212",
+    "A176131",
+    "A182481",
+    "A294731"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Greatest k <= n such that 2^n+2^k+1 or 2^n+2^k-1 or 2^n-2^k+1 or 2^n-2^k-1 is prime",
+  "description": "Greatest k <= n such that 2^n+2^k+1 or 2^n+2^k-1 or 2^n-2^k+1 or 2^n-2^k-1 is prime.",
   "id": "A178993",
   "mentions": [],
   "tags": [

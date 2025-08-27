@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4X4 0..n symmetric arrays with all rows summing to 2*n",
+  "description": "Number of 4X4 0..n symmetric arrays with all rows summing to 2*n.",
   "id": "A213802",
   "mentions": [
     "A213800"

@@ -1,0 +1,18 @@
+{
+  "description": "Pentagonal numbers that are five times another pentagonal number.",
+  "id": "A385146",
+  "mentions": [
+    "A000326",
+    "A076140",
+    "A385152"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

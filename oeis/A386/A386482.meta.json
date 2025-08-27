@@ -1,0 +1,29 @@
+{
+  "description": "a(1)=1, a(2)=2; thereafter a(n) is either the greatest number k < a(n-1) not already used such that gcd(k, a(n-1)) > 1, or if no such k exists then a(n) is the smallest number k > a(n-1) not already used such that gcd(k, a(n-1)) > 1.",
+  "id": "A386482",
+  "mentions": [
+    "A064413",
+    "A126706",
+    "A386483",
+    "A386484",
+    "A387072",
+    "A387073",
+    "A387074",
+    "A387075",
+    "A387076",
+    "A387077",
+    "A387078",
+    "A387080",
+    "A387087",
+    "A387090"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

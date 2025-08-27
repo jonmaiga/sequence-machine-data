@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) is the reversal of sigma(n).",
+  "description": "Numbers k such that phi(k) is the reversal of sigma(k).",
   "id": "A069225",
   "mentions": [
     "A000010",

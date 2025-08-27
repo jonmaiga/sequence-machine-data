@@ -1,0 +1,17 @@
+{
+  "description": "The exponents (j, k) of the numbers 2^j*3^k that are averages of twin primes, with both j and k > 0, in the order of their sum, and then by j.",
+  "id": "A384835",
+  "mentions": [
+    "A027856",
+    "A384639"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

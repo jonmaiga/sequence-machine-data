@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^k is zeroless for k=1,...,4.",
+  "description": "Numbers m such that m^k is zeroless for k=1,...,4.",
   "id": "A252484",
   "mentions": [
     "A052382",

@@ -1,0 +1,23 @@
+{
+  "description": "The maximum exponent in the prime factorization of the largest exponentially squarefree divisor of n.",
+  "id": "A386468",
+  "mentions": [
+    "A005117",
+    "A051903",
+    "A070321",
+    "A365683",
+    "A368105",
+    "A375428",
+    "A378085"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

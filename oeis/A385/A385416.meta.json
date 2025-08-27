@@ -1,0 +1,22 @@
+{
+  "description": "The number of unordered factorizations of n into exponentially odd numbers (A268335).",
+  "id": "A385416",
+  "mentions": [
+    "A001055",
+    "A005117",
+    "A050361",
+    "A118914",
+    "A246551",
+    "A268335",
+    "A385417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

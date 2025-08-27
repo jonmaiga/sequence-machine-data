@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of odd divisors in the k-th 2-dense sublist of divisors of n, with n >= 1, k >= 1.",
+  "id": "A384225",
+  "mentions": [
+    "A000203",
+    "A001227",
+    "A027750",
+    "A174973",
+    "A237271",
+    "A280940",
+    "A379288",
+    "A384149",
+    "A384222",
+    "A384226",
+    "A384928",
+    "A384930",
+    "A384931",
+    "A385000",
+    "A386984",
+    "A386989",
+    "A387030"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "G.f.: A(x) = exp( Sum_{n>=1} (2^n + 1)^n * x^n/n ), a power series in x with integer coefficients.",
   "id": "A155201",
   "mentions": [
+    "A136516",
     "A155200",
     "A155202",
     "A155204",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 14,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

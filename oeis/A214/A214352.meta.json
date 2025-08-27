@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXnXn triangular 0..k arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors",
+  "description": "T(n,k)=Number of nXnXn triangular 0..k arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors.",
   "id": "A214352",
   "mentions": [
     "A084990",

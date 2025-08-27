@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=2a(n-1)+4a(n-2)-4a(n-3)-4a(n-4).",
+  "description": "a(n) = 2*a(n-1) + 4*a(n-2) - 4*a(n-3) - 4*a(n-4).",
   "id": "A099176",
   "mentions": [
     "A002605",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 30,
     "source": "joeis"
   }
 }

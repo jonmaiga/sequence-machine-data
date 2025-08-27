@@ -1,0 +1,26 @@
+{
+  "description": "The number of divisors of n whose exponents in their prime factorization are squares.",
+  "id": "A386470",
+  "mentions": [
+    "A000005",
+    "A005117",
+    "A048760",
+    "A197680",
+    "A365171",
+    "A365488",
+    "A369310",
+    "A386469",
+    "A386471"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{i} (phi(p_i^e_i)-1) where n = Product_{i} p_i^e_i and phi is the Euler phi function.",
+  "id": "A383954",
+  "mentions": [
+    "A000010",
+    "A055653",
+    "A057723",
+    "A107758"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

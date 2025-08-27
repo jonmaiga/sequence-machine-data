@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having divisors d,e with d < e < 2*d.",
+  "description": "Numbers having divisors d, e with d < e < 2*d.",
   "id": "A005279",
   "mentions": [
     "A002808",

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=half the number of nXk binary arrays with each element equal to at least two neighbors",
+  "description": "T(n,k)=half the number of nXk binary arrays with each element equal to at least two neighbors.",
   "id": "A180760",
   "mentions": [],
   "tags": [

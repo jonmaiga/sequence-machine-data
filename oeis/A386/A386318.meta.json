@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the minimum value of (x + 2)*(y + 2) such that x*y = n.",
+  "id": "A386318",
+  "mentions": [
+    "A001358",
+    "A063655",
+    "A386316"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

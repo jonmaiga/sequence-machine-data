@@ -1,0 +1,16 @@
+{
+  "description": "Sum of the orders of every automorphism group of order n.",
+  "id": "A385480",
+  "mentions": [
+    "A137316"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k) read by upward antidiagonals. T(n,k) = Product_{i=1..n} Sum_{j=1..k} (i-1)*k+j",
+  "description": "Table T(n,k) read by upward antidiagonals. T(n,k) = Product_{i=1..n} Sum_{j=1..k} (i-1)*k+j.",
   "id": "A333445",
   "mentions": [
     "A333420"

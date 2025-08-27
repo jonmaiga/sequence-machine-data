@@ -10,12 +10,13 @@
     "A325955"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
-    "source": "oeis-entry"
+    "size": 71,
+    "source": "oeis-bfile"
   }
 }

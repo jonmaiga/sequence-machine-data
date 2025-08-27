@@ -1,9 +1,10 @@
 {
-  "description": "Primes composed of the digits 1, 6, and 9.",
+  "description": "Primes having only {1, 6, 9} as digits.",
   "id": "A363023",
   "mentions": [
     "A020454",
-    "A020457"
+    "A020457",
+    "A385776"
   ],
   "tags": [
     "base",

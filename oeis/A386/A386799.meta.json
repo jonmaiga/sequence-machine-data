@@ -1,0 +1,25 @@
+{
+  "description": "Numbers without an exponent 3 in their prime factorization.",
+  "id": "A386799",
+  "mentions": [
+    "A001694",
+    "A176297",
+    "A295883",
+    "A336592",
+    "A337050",
+    "A386800",
+    "A386801",
+    "A386802",
+    "A386803",
+    "A386807"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

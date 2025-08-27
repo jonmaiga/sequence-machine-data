@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest number of distinct prime factors a number with at most n digits can have.",
+  "id": "A385863",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002283",
+    "A067175",
+    "A091800",
+    "A387173"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

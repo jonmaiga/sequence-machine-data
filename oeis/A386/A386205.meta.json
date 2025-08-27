@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which a solution to sigma_2(x) + sigma_2(k-x) = sigma_2(k) in positive integers exists.",
+  "id": "A386205",
+  "mentions": [
+    "A001157",
+    "A211223",
+    "A211225",
+    "A381747"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

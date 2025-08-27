@@ -1,13 +1,31 @@
 {
   "description": "Sum of exponents in prime-power factorization of multinomial coefficient M(4n;2n,n,n).",
   "id": "A023980",
-  "mentions": [],
+  "mentions": [
+    "A000897",
+    "A001222",
+    "A022559",
+    "A023978",
+    "A023979",
+    "A023981",
+    "A023982",
+    "A023983",
+    "A023984",
+    "A023985",
+    "A023986",
+    "A023987",
+    "A023990",
+    "A023991",
+    "A023992",
+    "A023993"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 76,
-    "source": "joeis"
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
   }
 }

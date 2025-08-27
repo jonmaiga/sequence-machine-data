@@ -1,5 +1,5 @@
 {
-  "description": "Minimum value unattainable as the sum of 3 attained values of i*j with i in 0..n-1 and j in 0..n",
+  "description": "Minimum value unattainable as the sum of 3 attained values of i*j with i in 0..n-1 and j in 0..n.",
   "id": "A225251",
   "mentions": [
     "A225246"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-element nonnegative integer arrays that are ascent sequences (interior element no greater than one plus up-steps preceding it) in both forward and reverse directions",
+  "description": "Number of n-element nonnegative integer arrays that are ascent sequences (interior element no greater than one plus up-steps preceding it) in both forward and reverse directions.",
   "id": "A202552",
   "mentions": [],
   "tags": [

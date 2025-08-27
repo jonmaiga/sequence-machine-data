@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays without the pattern 1 1 1 diagonally, vertically or antidiagonally",
+  "description": "T(n,k)=Number of nXk binary arrays without the pattern 1 1 1 diagonally, vertically or antidiagonally.",
   "id": "A188747",
   "mentions": [
     "A000073",

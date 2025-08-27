@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Fibonacci(n-1) is divisible by n.",
+  "description": "Numbers k such that Fibonacci(k-1) is divisible by k.",
   "id": "A123976",
   "mentions": [
     "A000045",

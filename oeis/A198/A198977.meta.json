@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..5 arrays with values 0..5 introduced in row major order and no element equal to any horizontal or vertical neighbor",
+  "description": "Number of nX3 0..5 arrays with values 0..5 introduced in row major order and no element equal to any horizontal or vertical neighbor.",
   "id": "A198977",
   "mentions": [
     "A198982"

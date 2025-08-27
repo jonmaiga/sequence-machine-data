@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer k such that k is the sum of exactly n distinct permutations of k, all having the same number of digits as k.",
+  "id": "A384708",
+  "mentions": [
+    "A055098",
+    "A384433"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of equivalence classes of finitely-supported integer functions on Z^2 modulo moves that add + or -1 to every cell whose coordinates form an arithmetic progression of length n.",
+  "id": "A385820",
+  "mentions": [
+    "A076113"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

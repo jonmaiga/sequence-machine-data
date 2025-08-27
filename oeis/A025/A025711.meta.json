@@ -1,7 +1,9 @@
 {
   "description": "Index of 5^n within sequence of numbers of form 5^i*10^j.",
   "id": "A025711",
-  "mentions": [],
+  "mentions": [
+    "A025687"
+  ],
   "tags": [
     "nonn"
   ],

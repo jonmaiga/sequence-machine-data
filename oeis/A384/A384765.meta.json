@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the rad(n)-th cyclotomic polynomial evaluated at x = -1.",
+  "id": "A384765",
+  "mentions": [
+    "A000079",
+    "A007947",
+    "A020500",
+    "A020513",
+    "A023900",
+    "A191898",
+    "A374385",
+    "A374412"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,12 @@
   "description": "Denominators in a product expansion for sqrt(3).",
   "id": "A219013",
   "mentions": [
+    "A188887",
     "A219011",
     "A219012",
     "A219015"
   ],
   "tags": [
-    "bref",
     "easy",
     "formulas",
     "nonn"
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

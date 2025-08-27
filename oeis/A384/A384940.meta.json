@@ -1,0 +1,19 @@
+{
+  "description": "Odd semiprimes interleaved with even semiprimes.",
+  "id": "A384940",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A100484"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

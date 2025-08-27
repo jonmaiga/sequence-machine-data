@@ -2,6 +2,7 @@
   "description": "Denominator of -A023900(n)/2.",
   "id": "A297382",
   "mentions": [
+    "A014963",
     "A023900",
     "A173557",
     "A209229",

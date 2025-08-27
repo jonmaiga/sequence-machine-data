@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2nX10 0..4 arrays with values 0..4 introduced in row major order and each element equal to exactly two horizontal and vertical neighbors",
+  "description": "Number of 2nX10 0..4 arrays with values 0..4 introduced in row major order and each element equal to exactly two horizontal and vertical neighbors.",
   "id": "A198250",
   "mentions": [
     "A198253"

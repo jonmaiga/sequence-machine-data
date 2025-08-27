@@ -1,0 +1,36 @@
+{
+  "description": "Number of maximal anti-runs of consecutive parts not increasing by 1 in the prime indices of n (with multiplicity).",
+  "id": "A384906",
+  "mentions": [
+    "A034839",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A069010",
+    "A112798",
+    "A116674",
+    "A130091",
+    "A245562",
+    "A268193",
+    "A300820",
+    "A351202",
+    "A356228",
+    "A356607",
+    "A382525",
+    "A384177",
+    "A384321",
+    "A384877",
+    "A384878",
+    "A384890",
+    "A384893",
+    "A385213"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

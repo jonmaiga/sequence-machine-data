@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2 is a square mod n.",
+  "description": "Numbers k such that 2 is a square mod k.",
   "id": "A057126",
   "mentions": [
     "A008784",
@@ -10,7 +10,8 @@
     "A057128",
     "A057129",
     "A057757",
-    "A087780"
+    "A087780",
+    "A385449"
   ],
   "tags": [
     "nonn"

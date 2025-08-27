@@ -1,0 +1,21 @@
+{
+  "description": "The number of face-connected components of polyhedra in the omnitruncated cubic honeycomb up to translation, rotation, and reflection.",
+  "id": "A384754",
+  "mentions": [
+    "A038119",
+    "A038181",
+    "A343909",
+    "A384254",
+    "A384274",
+    "A384755"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

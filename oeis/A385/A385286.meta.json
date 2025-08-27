@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n!)^2 [x^n] hypergeom([], [1], x)^8.",
+  "id": "A385286",
+  "mentions": [
+    "A000012",
+    "A000984",
+    "A002895",
+    "A287316"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

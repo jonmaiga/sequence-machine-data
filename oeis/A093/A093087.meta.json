@@ -1,5 +1,5 @@
 {
-  "description": "\"Lucas in digits\": start with a(1)=1, a(2)=3; repeatedly adjoin digits of sum of previous two terms.",
+  "description": "\"Lucas in digits\": start with a(1)=1, a(2)=3; repeatedly adjoin digits of sum of next two terms.",
   "id": "A093087",
   "mentions": [
     "A093086"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

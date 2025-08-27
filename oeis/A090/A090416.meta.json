@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = if Floor[(2*Pi/E)*m] is prime then Floor[(2*Pi/E)*m]",
+  "description": "a(n) = if Floor[(2*Pi/E)*m] is prime then Floor[(2*Pi/E)*m].",
   "id": "A090416",
   "mentions": [],
   "tags": [

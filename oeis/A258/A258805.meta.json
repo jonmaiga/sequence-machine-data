@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^8 + 1.",
+  "description": "Primes of the form k^8 + 1.",
   "id": "A258805",
   "mentions": [
     "A002496",

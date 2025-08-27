@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=number of nXk binary matrices with floor((n*k)/2) 1's and rows in lexicographically nonincreasing order and columns in lexicographically strictly increasing order",
+  "description": "T(n,k)=number of nXk binary matrices with floor((n*k)/2) 1's and rows in lexicographically nonincreasing order and columns in lexicographically strictly increasing order.",
   "id": "A180981",
   "mentions": [],
   "tags": [

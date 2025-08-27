@@ -5,7 +5,8 @@
     "A000583",
     "A003294",
     "A023042",
-    "A301601"
+    "A301601",
+    "A386494"
   ],
   "tags": [
     "nonn"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place any number of black and any number of white nonattacking knights on a (n+2)X(2+2) board",
+  "description": "Number of ways to place any number of black and any number of white nonattacking knights on a (n+2)X(2+2) board.",
   "id": "A251527",
   "mentions": [
     "A251531"

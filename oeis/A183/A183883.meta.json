@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrangements of n+2 numbers in 0..8 with each number being the sum mod 9 of two others",
+  "description": "Number of arrangements of n+2 numbers in 0..8 with each number being the sum mod 9 of two others.",
   "id": "A183883",
   "mentions": [
     "A183884"

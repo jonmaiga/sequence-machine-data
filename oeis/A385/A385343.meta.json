@@ -1,0 +1,21 @@
+{
+  "description": "Exponential Riordan array (1, arcsin(x)).",
+  "id": "A385343",
+  "mentions": [
+    "A006228",
+    "A091885",
+    "A121408",
+    "A136630",
+    "A185951"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

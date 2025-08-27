@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} |Stirling1(n,4*k)|.",
+  "id": "A384836",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A001710",
+    "A024430",
+    "A143815",
+    "A357828",
+    "A365525",
+    "A365528",
+    "A384837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

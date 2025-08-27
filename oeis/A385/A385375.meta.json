@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that can't be partitioned into tau(k) distinct parts.",
+  "id": "A385375",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A374793",
+    "A385374"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

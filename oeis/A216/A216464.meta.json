@@ -1,5 +1,5 @@
 {
-  "description": "Number of horizontal, diagonal and antidiagonal neighbor colorings of the even squares of a 6Xn array with new integer colors introduced in row major order",
+  "description": "Number of horizontal, diagonal and antidiagonal neighbor colorings of the even squares of a 6Xn array with new integer colors introduced in row major order.",
   "id": "A216464",
   "mentions": [
     "A216460"

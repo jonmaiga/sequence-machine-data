@@ -2,11 +2,13 @@
   "description": "In the sequence of positive integers add 1 to each nonprime number.",
   "id": "A113636",
   "mentions": [
+    "A005171",
     "A014683",
     "A014684",
     "A113523",
     "A113638",
-    "A179278"
+    "A179278",
+    "A380449"
   ],
   "tags": [
     "easy",

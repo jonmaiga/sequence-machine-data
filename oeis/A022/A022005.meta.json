@@ -2,6 +2,7 @@
   "description": "Initial members of prime triples (p, p+4, p+6).",
   "id": "A022005",
   "mentions": [
+    "A001359",
     "A002476",
     "A007529",
     "A029710",

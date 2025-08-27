@@ -1,5 +1,5 @@
 {
-  "description": "Square array constructed from Flavius sieve, shifted version, read by descending antidiagonals",
+  "description": "Square array constructed from Flavius sieve, shifted version, read by descending antidiagonals.",
   "id": "A278511",
   "mentions": [
     "A000960",

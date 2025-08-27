@@ -1,5 +1,5 @@
 {
-  "description": "Least number k > 0 such that 2^k contains an n-digit long substring of the infinite string \"98765432109876543210987654...\"",
+  "description": "Least number k > 0 such that 2^k contains an n-digit long substring of the infinite string \"98765432109876543210987654...\".",
   "id": "A243303",
   "mentions": [
     "A243150"

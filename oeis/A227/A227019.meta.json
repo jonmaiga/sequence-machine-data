@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that exactly one of {2^n-1, 2^n+1, 2^n+3} is semiprime.",
+  "description": "Numbers k such that exactly one of {2^k-1, 2^k+1, 2^k+3} is semiprime.",
   "id": "A227019",
   "mentions": [
     "A001358",

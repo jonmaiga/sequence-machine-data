@@ -1,5 +1,5 @@
 {
-  "description": "Number of states in minimal DFA for P_n^*, where P_n is the set of base-2 representations of the first n prime numbers",
+  "description": "Number of states in minimal DFA for P_n^*, where P_n is the set of base-2 representations of the first n prime numbers.",
   "id": "A257371",
   "mentions": [
     "A004676",

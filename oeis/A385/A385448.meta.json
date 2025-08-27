@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(5 + 7*phi)/sqrt(11), with the golden section phi = A001622.",
+  "id": "A385448",
+  "mentions": [
+    "A001622",
+    "A010468",
+    "A182007",
+    "A385445",
+    "A385447"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

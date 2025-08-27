@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that in their binary representation not all numbers from 1 to n are contained in n!.",
+  "description": "Numbers k such that in their binary representation not all numbers from 1 to k are contained in k!.",
   "id": "A093711",
   "mentions": [
     "A000142",
@@ -10,11 +10,13 @@
     "A093710"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

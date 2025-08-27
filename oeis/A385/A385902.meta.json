@@ -1,0 +1,17 @@
+{
+  "description": "Antihydra, a BB(6) Turing machine (values of b).",
+  "id": "A385902",
+  "mentions": [
+    "A028444",
+    "A060843",
+    "A386792"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

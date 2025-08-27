@@ -3,6 +3,8 @@
   "id": "A176623",
   "mentions": [
     "A002473",
+    "A007953",
+    "A007954",
     "A062035",
     "A062036",
     "A062037",
@@ -11,12 +13,11 @@
   ],
   "tags": [
     "base",
-    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

@@ -2,11 +2,20 @@
   "description": "Dirichlet convolution of the ruler function (A001511) with itself.",
   "id": "A349693",
   "mentions": [
+    "A000005",
     "A000217",
+    "A000292",
+    "A001227",
     "A001511",
     "A001620",
+    "A007814",
+    "A085058",
+    "A090739",
+    "A099777",
+    "A104117",
     "A115364",
-    "A129628"
+    "A129628",
+    "A372784"
   ],
   "tags": [
     "formulas",

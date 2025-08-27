@@ -1,0 +1,17 @@
+{
+  "description": "Number of solid standard Young tableaux of 2n cells and height >= n.",
+  "id": "A385413",
+  "mentions": [
+    "A215120"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

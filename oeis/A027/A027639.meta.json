@@ -2,7 +2,8 @@
   "description": "Order of unitary 2^n X 2^n group H_{n,4} acting on Siegel modular forms.",
   "id": "A027639",
   "mentions": [
-    "A005329"
+    "A005329",
+    "A048651"
   ],
   "tags": [
     "easy",

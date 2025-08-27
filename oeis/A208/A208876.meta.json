@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5Xn 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors",
+  "description": "Number of 5Xn 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.",
   "id": "A208876",
   "mentions": [
     "A208872"

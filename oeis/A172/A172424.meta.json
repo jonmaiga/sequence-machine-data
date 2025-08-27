@@ -1,14 +1,19 @@
 {
-  "description": "Numbers n with digits different from 0 and 1 such that the sum of digits and the product of digits divides n.",
+  "description": "Numbers k > 9 with digits different from 0 and 1 such that both the sum of digits and the product of digits divide k.",
   "id": "A172424",
-  "mentions": [],
+  "mentions": [
+    "A007602",
+    "A007953",
+    "A007954",
+    "A009994"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

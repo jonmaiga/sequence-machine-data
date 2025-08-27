@@ -1,5 +1,5 @@
 {
-  "description": "1/6 the number of (n+1)X6 0..2 arrays with every 2X2 subblock containing all three values",
+  "description": "1/6 the number of (n+1)X6 0..2 arrays with every 2X2 subblock containing all three values.",
   "id": "A183599",
   "mentions": [
     "A183603"

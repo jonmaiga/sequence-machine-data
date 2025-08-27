@@ -1,0 +1,19 @@
+{
+  "description": "Maximum exponent in the prime factorization of the exponent of the highest power of 2 dividing 2*n.",
+  "id": "A386260",
+  "mentions": [
+    "A001511",
+    "A051191",
+    "A051903"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(p) = (b(p)-2)/p where b(k) denotes the k-th Bell number and p runs through the prime numbers.",
+  "description": "a(n) = (b(p)-2)/p where b(k) denotes Bell numbers and p = prime(n).",
   "id": "A079609",
   "mentions": [
     "A000110"

@@ -1,10 +1,12 @@
 {
-  "description": "The floor(p(n)/n)-perfect numbers, where p(n) denotes the n-th prime and f-perfect numbers for an arithmetical function f are defined in A066218.",
+  "description": "The floor(prime(n)/n)-perfect numbers, where prime(n) denotes the n-th prime and f-perfect numbers for an arithmetical function f are defined in A066218.",
   "id": "A066367",
   "mentions": [
+    "A038605",
     "A066218"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_{k=0..8} (n+k)^k is a prime.",
+  "description": "Numbers m such that Sum_{k=0..8} (m+k)^k is a prime.",
   "id": "A138023",
   "mentions": [],
   "tags": [

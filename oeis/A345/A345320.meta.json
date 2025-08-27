@@ -2,6 +2,7 @@
   "description": "Sum of the divisors of n whose square does not divide n.",
   "id": "A345320",
   "mentions": [
+    "A000005",
     "A000203",
     "A056595",
     "A069290"

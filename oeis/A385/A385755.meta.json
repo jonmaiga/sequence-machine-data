@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with a unique combination of bigomega(k) and sopfr(k).",
+  "id": "A385755",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001222",
+    "A001414",
+    "A100484",
+    "A385756",
+    "A385811"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Numerators in a product expansion for sqrt(3).",
   "id": "A219012",
   "mentions": [
+    "A019973",
     "A219010",
     "A219013",
     "A219014"
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 4,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

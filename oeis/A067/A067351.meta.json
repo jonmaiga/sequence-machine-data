@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) + phi(n) has exactly 2 distinct prime divisors.",
+  "description": "Numbers k such that sigma(k) + phi(k) has exactly 2 distinct prime divisors.",
   "id": "A067351",
   "mentions": [
     "A000005",

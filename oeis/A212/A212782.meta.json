@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of 0..k arrays of length n+2 with second differences nonzero",
+  "description": "T(n,k)=Half the number of 0..k arrays of length n+2 with second differences nonzero.",
   "id": "A212782",
   "mentions": [
     "A000045",

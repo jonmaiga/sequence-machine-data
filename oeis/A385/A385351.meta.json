@@ -1,0 +1,17 @@
+{
+  "description": "Perfect powers whose digits are all powers of the same single-digit base.",
+  "id": "A385351",
+  "mentions": [
+    "A001597",
+    "A385324"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

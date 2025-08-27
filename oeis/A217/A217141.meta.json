@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) = phi(n+12) and are not divisible by 2.",
+  "description": "Numbers n such that phi(n) = phi(n+12) and n is not divisible by 2.",
   "id": "A217141",
   "mentions": [
     "A000010",

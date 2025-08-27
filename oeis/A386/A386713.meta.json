@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} {1/x}^2 * {1/(1-x)}^2 dx, where {} denotes fractional part.",
+  "id": "A386713",
+  "mentions": [
+    "A001620",
+    "A061444",
+    "A147533",
+    "A345208",
+    "A386714"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

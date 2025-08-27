@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+3 0..4 arrays with no four elements in a row with pattern abba (with a!=b) and new values 0..4 introduced in 0..4 order",
+  "description": "Number of length n+3 0..4 arrays with no four elements in a row with pattern abba (with a!=b) and new values 0..4 introduced in 0..4 order.",
   "id": "A243385",
   "mentions": [
     "A243389"

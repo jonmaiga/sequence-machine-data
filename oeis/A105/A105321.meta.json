@@ -2,6 +2,7 @@
   "description": "Convolution of binomial(1,n) and Gould's sequence A001316.",
   "id": "A105321",
   "mentions": [
+    "A000079",
     "A000120",
     "A000695",
     "A001316",

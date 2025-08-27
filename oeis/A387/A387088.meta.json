@@ -1,0 +1,17 @@
+{
+  "description": "Fixed points of A386482: numbers k such that A386482(k) = k.",
+  "id": "A387088",
+  "mentions": [
+    "A152458",
+    "A386482"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

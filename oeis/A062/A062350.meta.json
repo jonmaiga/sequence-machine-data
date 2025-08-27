@@ -1,5 +1,5 @@
 {
-  "description": "Primes containing digits 1, 2, 3 only.",
+  "description": "Primes having only {1, 2, 3} as digits.",
   "id": "A062350",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

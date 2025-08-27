@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{d|n} d * c(n/d), where c = A351114.",
+  "id": "A386594",
+  "mentions": [
+    "A020492",
+    "A351114"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

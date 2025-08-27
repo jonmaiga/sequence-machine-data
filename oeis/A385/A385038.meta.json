@@ -1,0 +1,25 @@
+{
+  "description": "Consecutive internal states of the linear congruential pseudo-random number generator (1366*s + 1283) mod 6075 when started at 1.",
+  "id": "A385038",
+  "mentions": [
+    "A384113",
+    "A384114",
+    "A384126",
+    "A384152",
+    "A384158",
+    "A384196",
+    "A384971",
+    "A385037"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "The w sequence in quartets (3,u,v,w); see A385595.",
+  "id": "A385597",
+  "mentions": [
+    "A385182",
+    "A385595"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

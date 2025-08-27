@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..3 arrays with no element equal to exactly one horizontal or vertical neighbor, with new values 0..3 introduced in row major order",
+  "description": "Number of nX2 0..3 arrays with no element equal to exactly one horizontal or vertical neighbor, with new values 0..3 introduced in row major order.",
   "id": "A240770",
   "mentions": [
     "A240774"

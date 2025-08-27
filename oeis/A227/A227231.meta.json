@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that antisigma(n) mod n = n - 1.",
+  "description": "Numbers k such that antisigma(k) mod k = k - 1.",
   "id": "A227231",
   "mentions": [
     "A024816",

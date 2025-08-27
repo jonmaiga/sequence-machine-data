@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n*sigma_6(n).",
+  "id": "A386750",
+  "mentions": [
+    "A013954",
+    "A064987",
+    "A281372",
+    "A282050",
+    "A282060",
+    "A328259",
+    "A386749",
+    "A386751"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

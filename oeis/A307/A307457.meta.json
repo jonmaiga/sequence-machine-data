@@ -1,14 +1,19 @@
 {
   "description": "Longest path length in the n-Apollonian network.",
   "id": "A307457",
-  "mentions": [],
+  "mentions": [
+    "A000918",
+    "A095121",
+    "A307549"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "joeis"
   }
 }

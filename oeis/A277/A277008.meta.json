@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that in the binary expansion of n no run of 1-bits is longer than 1 + the total number of 0-bits anywhere to the right of that run.",
+  "description": "Numbers k such that in the binary expansion of k no run of 1-bits is longer than 1 + the total number of 0-bits anywhere to the right of that run.",
   "id": "A277008",
   "mentions": [
     "A005940",

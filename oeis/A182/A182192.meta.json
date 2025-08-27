@@ -1,5 +1,5 @@
 {
-  "description": "Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any horizontal or vertical neighbor",
+  "description": "Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any horizontal or vertical neighbor.",
   "id": "A182192",
   "mentions": [],
   "tags": [

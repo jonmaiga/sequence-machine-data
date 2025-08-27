@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that d(n) divides 2^n-1.",
+  "description": "Numbers k such that d(k) divides 2^k-1.",
   "id": "A277285",
   "mentions": [
     "A000005",

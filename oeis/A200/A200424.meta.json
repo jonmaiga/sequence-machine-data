@@ -1,5 +1,5 @@
 {
-  "description": "Number of -2..2 arrays x(0..n+2) of n+3 elements with zero sum and no two or three adjacent elements summing to zero",
+  "description": "Number of -2..2 arrays x(0..n+2) of n+3 elements with zero sum and no two or three adjacent elements summing to zero.",
   "id": "A200424",
   "mentions": [
     "A200430"

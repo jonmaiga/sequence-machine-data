@@ -1,5 +1,5 @@
 {
-  "description": "f-perfect numbers defined by f(n) = n + 1 (where f-perfect numbers are defined in A066218).",
+  "description": "f-perfect numbers, where f(m) = m + 1.",
   "id": "A066229",
   "mentions": [
     "A066218",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,34 @@
+{
+  "description": "The number k such that the k-th composition in standard order is the sequence of lengths of maximal runs of binary indices of n.",
+  "id": "A385889",
+  "mentions": [
+    "A000120",
+    "A023758",
+    "A029931",
+    "A044813",
+    "A048793",
+    "A066099",
+    "A069010",
+    "A209859",
+    "A245562",
+    "A245563",
+    "A246029",
+    "A247648",
+    "A348366",
+    "A384175",
+    "A384877",
+    "A384878",
+    "A385816",
+    "A385817",
+    "A385818",
+    "A385887"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

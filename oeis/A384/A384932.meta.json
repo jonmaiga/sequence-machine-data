@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of tan(1) + sec(1).",
+  "id": "A384932",
+  "mentions": [
+    "A049471",
+    "A073448",
+    "A133265",
+    "A248617"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

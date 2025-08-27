@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 3^(n-k)*C(2*n,n-k).",
+  "id": "A386825",
+  "mentions": [
+    "A094527",
+    "A128417",
+    "A386826"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

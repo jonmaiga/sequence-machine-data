@@ -1,14 +1,18 @@
 {
   "description": "Convert n from inches (\") to centimeters (cm).",
   "id": "A029919",
-  "mentions": [],
+  "mentions": [
+    "A169860",
+    "A169861"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

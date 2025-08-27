@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the minimum value of (x + 2)*(y + 2) such that x*y >= n.",
+  "id": "A386316",
+  "mentions": [
+    "A386318"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

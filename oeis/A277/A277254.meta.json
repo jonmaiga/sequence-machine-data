@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p = n - phi(n) < q = n - lambda(n), and p and q are both primes, where phi(n) = A000010(n) and lambda(n) = A002322(n).",
+  "description": "Numbers k such that p = k - phi(k) < q = k - lambda(k), and p and q are both primes, where phi(k) = A000010(k) and lambda(k) = A002322(k).",
   "id": "A277254",
   "mentions": [
     "A000010",

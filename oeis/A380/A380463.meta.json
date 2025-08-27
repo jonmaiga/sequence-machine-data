@@ -1,21 +1,19 @@
 {
-  "description": "Third coefficient of the lindep transform of the sum of squarefree divisors of n, A048250.",
+  "description": "Partial sums of floor(n^2/13).",
   "id": "A380463",
   "mentions": [
-    "A048250",
-    "A339792",
-    "A380461",
-    "A380462",
-    "A380473",
-    "A380483"
+    "A173645",
+    "A173653",
+    "A175724"
   ],
   "tags": [
+    "easy",
     "formulas",
-    "sign"
+    "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 96,
+    "offset": 0,
+    "size": 52,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+1, n+2, and n+3 are not divisible by any of their nonzero digits.",
+  "description": "Numbers k such that k, k+1, k+2, and k+3 are not divisible by any of their nonzero digits.",
   "id": "A244358",
   "mentions": [
     "A038772",

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( arcsinh(x * A(x)^4) ).",
+  "id": "A385442",
+  "mentions": [
+    "A001147",
+    "A385343",
+    "A385369",
+    "A385440",
+    "A385441"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

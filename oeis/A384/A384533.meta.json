@@ -1,0 +1,16 @@
+{
+  "description": "Inventory sequence starting a(1) = 1 and thereafter recording the number of terms which are the product of 0,1,2,... primes (taken with multiplicity). The count resets following a term = 0.",
+  "id": "A384533",
+  "mentions": [
+    "A342585"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

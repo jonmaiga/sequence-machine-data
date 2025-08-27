@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 binary matrices with no three 1's adjacent in a line horizontally, vertically, diagonally or antidiagonally",
+  "description": "Number of nX5 binary matrices with no three 1's adjacent in a line horizontally, vertically, diagonally or antidiagonally.",
   "id": "A181221",
   "mentions": [
     "A181224"

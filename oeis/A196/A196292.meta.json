@@ -2,6 +2,7 @@
   "description": "a(n) = n^10 + n.",
   "id": "A196292",
   "mentions": [
+    "A168118",
     "A195859",
     "A196288",
     "A196289",
@@ -9,6 +10,8 @@
     "A196291"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

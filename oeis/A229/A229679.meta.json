@@ -2,7 +2,8 @@
   "description": "Number of defective 3-colorings of an n X 2 0..2 array connected diagonally and antidiagonally with exactly two mistakes, and colors introduced in row-major 0..2 order.",
   "id": "A229679",
   "mentions": [
-    "A229685"
+    "A229685",
+    "A385601"
   ],
   "tags": [
     "formulas",

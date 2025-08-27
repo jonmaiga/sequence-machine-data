@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient array for integer polynomial version of minimal polynomials of sin(2*Pi/n). Rising powers of x",
+  "description": "Coefficient array for integer polynomial version of minimal polynomials of sin(2*Pi/n). Rising powers of x.",
   "id": "A181871",
   "mentions": [
     "A093819",

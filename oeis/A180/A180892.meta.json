@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 4..n+3 with no element greater than or equal to the sum of its neighbors",
+  "description": "Number of permutations of 4..n+3 with no element greater than or equal to the sum of its neighbors.",
   "id": "A180892",
   "mentions": [],
   "tags": [

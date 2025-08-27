@@ -1,5 +1,5 @@
 {
-  "description": "Sum of termwise product of mu(k) and reduced residue system k mod n",
+  "description": "Sum of termwise product of mu(k) and reduced residue system k mod n.",
   "id": "A143729",
   "mentions": [
     "A008683",

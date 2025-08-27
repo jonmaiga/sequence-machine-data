@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X 2 array permutations with each element making zero or one king moves",
+  "description": "Number of n X 2 array permutations with each element making zero or one king moves.",
   "id": "A189247",
   "mentions": [
     "A189254"

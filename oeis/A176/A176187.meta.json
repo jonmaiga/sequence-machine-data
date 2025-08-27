@@ -1,5 +1,5 @@
 {
-  "description": "Least period of sequence {f^(m)(n)},m=1,2,3,..., where f^(m) is the m-th iteration of A002326 (f^(1)=f), after possibly dropping some finite number of iterations",
+  "description": "Least period of sequence {f^(m)(n)},m=1,2,3,..., where f^(m) is the m-th iteration of A002326 (f^(1)=f), after possibly dropping some finite number of iterations.",
   "id": "A176187",
   "mentions": [
     "A002326"

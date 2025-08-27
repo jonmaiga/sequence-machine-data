@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n 1..(7+2) arrays with no leading partial sum equal to a prime",
+  "description": "Number of length n 1..(7+2) arrays with no leading partial sum equal to a prime.",
   "id": "A254538",
   "mentions": [
     "A254539"

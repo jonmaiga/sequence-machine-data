@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n for which n^6+n^5-1 is prime.",
+  "description": "Numbers k for which k^6+k^5-1 is prime.",
   "id": "A125884",
   "mentions": [
     "A000040",
     "A045546",
     "A125881",
+    "A125882",
+    "A125883",
     "A125885"
   ],
   "tags": [

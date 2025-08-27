@@ -1,0 +1,26 @@
+{
+  "description": "Values of u in the quartets (1,u,v,w); i.e., values of u for solutions to (1+u) = v*(v+w), in positive integers, with v>1, sorted by nondecreasing values of u; see Comments.",
+  "id": "A385182",
+  "mentions": [
+    "A056924",
+    "A385183",
+    "A385184",
+    "A385592",
+    "A385593",
+    "A385594",
+    "A385595",
+    "A385596",
+    "A385597",
+    "A385598",
+    "A385599",
+    "A385600"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

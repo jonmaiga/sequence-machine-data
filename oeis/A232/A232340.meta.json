@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6Xn 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally or antidiagonally, with no adjacent elements equal",
+  "description": "Number of 6Xn 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally or antidiagonally, with no adjacent elements equal.",
   "id": "A232340",
   "mentions": [
     "A232335"

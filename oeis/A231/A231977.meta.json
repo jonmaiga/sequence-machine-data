@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with no element having a strict majority of its horizontal and vertical neighbors equal to one",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with no element having a strict majority of its horizontal and vertical neighbors equal to one.",
   "id": "A231977",
   "mentions": [
     "A207170"

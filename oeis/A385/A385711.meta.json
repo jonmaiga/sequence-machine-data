@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose digits are all distinct and pairwise coprime.",
+  "id": "A385711",
+  "mentions": [
+    "A029743",
+    "A038618"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

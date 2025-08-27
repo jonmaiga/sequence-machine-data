@@ -1,25 +1,23 @@
 {
-  "description": "Table read by rows: row n is the unique primitive Pythagorean triple whose short leg is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "description": "a(n) = Sum_{k=0..n} 3^k * binomial(2*n+1,n-k).",
   "id": "A377011",
   "mentions": [
-    "A001652",
-    "A001653",
-    "A002315",
-    "A008844",
-    "A078522",
-    "A114336",
-    "A377016",
-    "A377017"
+    "A000302",
+    "A000984",
+    "A026641",
+    "A141223",
+    "A293490",
+    "A383832",
+    "A386942",
+    "A386957"
   ],
   "tags": [
-    "easy",
     "formulas",
-    "nonn",
-    "tabf"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "joeis"
   }
 }

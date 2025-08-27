@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..2 arrays with row sums nondecreasing and column sums unimodal",
+  "description": "Number of 3Xn 0..2 arrays with row sums nondecreasing and column sums unimodal.",
   "id": "A223817",
   "mentions": [
     "A223815"

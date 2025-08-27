@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of phi^(2/Pi), the base of golden spiral",
+  "description": "Decimal expansion of phi^(2/Pi), the base of golden spiral.",
   "id": "A212224",
   "mentions": [
     "A001622",

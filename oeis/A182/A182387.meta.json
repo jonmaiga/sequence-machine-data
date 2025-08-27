@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 210*n+{11,13,17,19,23,29,31} are 7 consecutive primes.",
+  "description": "Numbers k such that 210*k+{11,13,17,19,23,29,31} are 7 consecutive primes.",
   "id": "A182387",
   "mentions": [
     "A014561",

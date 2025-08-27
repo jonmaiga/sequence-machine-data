@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k where sin(sqrt(k)) reaches successive record high values.",
+  "id": "A385636",
+  "mentions": [
+    "A046959",
+    "A046964",
+    "A046965"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

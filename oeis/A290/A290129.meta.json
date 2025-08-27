@@ -1,5 +1,5 @@
 {
-  "description": "Wiener index of the n-Sierpinski sieve graph.",
+  "description": "Wiener index of the n-Sierpinski gasket graph.",
   "id": "A290129",
   "mentions": [
     "A290004"

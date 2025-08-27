@@ -2,7 +2,12 @@
   "description": "a(n) = Sum_{d|n} d^[Omega(d) = 2], where [ ] is the Iverson bracket.",
   "id": "A345315",
   "mentions": [
-    "A001222"
+    "A000005",
+    "A001222",
+    "A001358",
+    "A064911",
+    "A076290",
+    "A086971"
   ],
   "tags": [
     "formulas",

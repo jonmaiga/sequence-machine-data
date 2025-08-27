@@ -1,0 +1,17 @@
+{
+  "description": "The hypotenuses of the triangles defined in A365577.",
+  "id": "A385973",
+  "mentions": [
+    "A365577",
+    "A385972"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

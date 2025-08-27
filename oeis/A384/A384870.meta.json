@@ -1,0 +1,20 @@
+{
+  "description": "The largest k such that the set {1^n, 2^n, ..., k^n} has uniquely distinct subset sums.",
+  "id": "A384870",
+  "mentions": [
+    "A000124",
+    "A208531",
+    "A332101"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

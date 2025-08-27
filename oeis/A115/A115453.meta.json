@@ -1,0 +1,19 @@
+{
+  "description": "Primes formed from the initial digits of sqrt(2).",
+  "id": "A115453",
+  "mentions": [
+    "A002193",
+    "A115377"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 1,
+    "source": "oeis-bfile"
+  }
+}

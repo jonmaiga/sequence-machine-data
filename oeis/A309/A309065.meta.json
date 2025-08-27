@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A014574(n) can be represented as a product of two terms in A014574.",
+  "description": "Numbers k such that A014574(k) can be represented as a product of two terms in A014574.",
   "id": "A309065",
   "mentions": [
     "A014574",

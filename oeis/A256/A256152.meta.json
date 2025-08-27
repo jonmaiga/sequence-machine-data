@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is the product of two distinct primes and sigma(n) is a square number.",
+  "description": "Numbers k such that k is the product of two distinct primes and sigma(k) is a square number.",
   "id": "A256152",
   "mentions": [
     "A006532",

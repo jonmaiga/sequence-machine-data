@@ -2,6 +2,7 @@
   "description": "a(n) is the smallest prime q such that Sum_{primes r <= q} Kronecker(r,prime(n)) > 0 (or equivalently, Sum_{primes r <= q} Kronecker(r,prime(n)) = 1), or 0 if no such prime exists.",
   "id": "A329224",
   "mentions": [
+    "A007350",
     "A306499",
     "A306500",
     "A329225"

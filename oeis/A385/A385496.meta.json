@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 1 - exp(1/2)/2.",
+  "id": "A385496",
+  "mentions": [
+    "A019775"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

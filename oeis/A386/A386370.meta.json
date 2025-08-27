@@ -1,0 +1,18 @@
+{
+  "description": "Square roots of partial sums of A386369 that are square numbers.",
+  "id": "A386370",
+  "mentions": [
+    "A386369",
+    "A386687",
+    "A386688"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 9^n - (1/2)*4^n, n > 0; a(0) = 0.",
+  "id": "A386293",
+  "mentions": [
+    "A386227"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 matrices with each 3X3 subblock idempotent",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 matrices with each 3X3 subblock idempotent.",
   "id": "A224606",
   "mentions": [],
   "tags": [

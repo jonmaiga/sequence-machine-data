@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+2 0..k arrays with no consecutive three elements summing to more than k",
+  "description": "T(n,k)=Number of length n+2 0..k arrays with no consecutive three elements summing to more than k.",
   "id": "A241619",
   "mentions": [
     "A000292",

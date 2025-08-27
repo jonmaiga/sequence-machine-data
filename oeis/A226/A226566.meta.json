@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_{d|n} sigma(d)^3/d is an integer, where d are the divisors of n.",
+  "description": "Numbers k such that Sum_{d|k} sigma(d)^3/d is an integer, where d are the divisors of k.",
   "id": "A226566",
   "mentions": [
     "A068978",

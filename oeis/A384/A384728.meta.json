@@ -1,0 +1,15 @@
+{
+  "description": "The number of different shuffle square roots of the prefix of length 2n of the infinte word 00110011001100...",
+  "id": "A384728",
+  "mentions": [
+    "A191755"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

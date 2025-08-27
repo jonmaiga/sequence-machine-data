@@ -1,13 +1,19 @@
 {
-  "description": "Numbers n such that sigma(n)-n = pi(sigma(n)).",
+  "description": "Numbers k such that sigma(k)-k = pi(sigma(k)).",
   "id": "A090999",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A001065",
+    "A070803"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

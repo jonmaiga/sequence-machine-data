@@ -2,7 +2,9 @@
   "description": "Triangular numbers n*(n+1)/2 with n or n+1 prime.",
   "id": "A147846",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A008837",
+    "A034953"
   ],
   "tags": [
     "easy",

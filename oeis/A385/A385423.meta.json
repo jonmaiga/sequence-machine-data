@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the absolute value of zeta(1/5).",
+  "id": "A385423",
+  "mentions": [
+    "A251734",
+    "A386590"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

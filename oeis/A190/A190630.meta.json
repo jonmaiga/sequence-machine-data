@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of n X n symmetric binary matrices with no element equal to a strict majority of its knight-move neighbors",
+  "description": "Half the number of n X n symmetric binary matrices with no element equal to a strict majority of its knight-move neighbors.",
   "id": "A190630",
   "mentions": [],
   "tags": [

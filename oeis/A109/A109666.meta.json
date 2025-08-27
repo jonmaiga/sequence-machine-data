@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that A002034(n) = A109631(n).",
+  "description": "Numbers k such that A002034(k) = A109631(k).",
   "id": "A109666",
   "mentions": [
     "A002034",
     "A109631"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

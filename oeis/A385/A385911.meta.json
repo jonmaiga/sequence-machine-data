@@ -1,0 +1,17 @@
+{
+  "description": "If n = 2^b*3^c, then a(n) = (-1)^b * binomial(b+c, b), else a(n) = 0, for n >= 1.",
+  "id": "A385911",
+  "mentions": [
+    "A061984",
+    "A385910"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)xn binary matrices with rows and columns each in strictly increasing order as binary numbers and each row and column having an even number of 1s",
+  "description": "Number of (n+1)xn binary matrices with rows and columns each in strictly increasing order as binary numbers and each row and column having an even number of 1s.",
   "id": "A181005",
   "mentions": [
     "A181004"

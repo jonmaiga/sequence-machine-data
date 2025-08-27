@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that the nonzero digits in the ternary expansion k = d(1),...,d(m) satisfy d(2*i+1) = d(1) and d(2*i) = 3-d(1).",
+  "id": "A384314",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

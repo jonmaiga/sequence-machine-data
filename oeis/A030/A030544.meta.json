@@ -1,7 +1,9 @@
 {
   "description": "Remainder-numerators from Egyptian fraction expansion of 2/24631 using odd greedy algorithm.",
   "id": "A030544",
-  "mentions": [],
+  "mentions": [
+    "A030543"
+  ],
   "tags": [
     "fini",
     "full",

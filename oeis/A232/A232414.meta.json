@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every element both >= and <= some horizontal, diagonal or antidiagonal neighbor",
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every element both >= and <= some horizontal, diagonal or antidiagonal neighbor.",
   "id": "A232414",
   "mentions": [
     "A232117"

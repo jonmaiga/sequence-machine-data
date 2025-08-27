@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..3 arrays with no element greater than all horizontal neighbors or less than all vertical neighbors",
+  "description": "Number of (n+1)X(4+1) 0..3 arrays with no element greater than all horizontal neighbors or less than all vertical neighbors.",
   "id": "A238284",
   "mentions": [
     "A238287"

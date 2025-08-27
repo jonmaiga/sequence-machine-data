@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of directed Hamiltonian paths in the n-Sierpinski sieve graph.",
+  "description": "Numbers of directed Hamiltonian paths in the n-Sierpinski gasket graph.",
   "id": "A234635",
   "mentions": [
     "A246957",

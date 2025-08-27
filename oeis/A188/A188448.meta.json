@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n*k)Xk binary arrays with nonzero rows in decreasing order, no more than 2 ones in any row and exactly n ones in every column",
+  "description": "T(n,k)=Number of (n*k)Xk binary arrays with nonzero rows in decreasing order, no more than 2 ones in any row and exactly n ones in every column.",
   "id": "A188448",
   "mentions": [
     "A000085",

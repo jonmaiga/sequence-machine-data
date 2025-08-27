@@ -1,0 +1,21 @@
+{
+  "description": "Let S(n,j,k), j = 1..n, k = 1..A024718(n), where row 1 = {(0),(1)}, and row n = union of n-tuples whose sum m < n, and the n-tuples formed by appending m to the (n-1)-tuples in row n-1. Then T(n,j) = j-th tuple in row n of S read as a base n+1 number expressed in decimal.",
+  "id": "A384002",
+  "mentions": [
+    "A024718",
+    "A384001"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

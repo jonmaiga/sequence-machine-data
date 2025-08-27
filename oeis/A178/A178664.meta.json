@@ -1,5 +1,5 @@
 {
-  "description": "2^n concatenated with itself.",
+  "description": "a(n) = 2^n concatenated with itself.",
   "id": "A178664",
   "mentions": [
     "A000079",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

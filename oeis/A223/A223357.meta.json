@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Rolling cube face footprints: number of nXk 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal or antidiagonal neighbor moves across a corresponding cube edge",
+  "description": "T(n,k)=Rolling cube face footprints: number of nXk 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal or antidiagonal neighbor moves across a corresponding cube edge.",
   "id": "A223357",
   "mentions": [
     "A000302",

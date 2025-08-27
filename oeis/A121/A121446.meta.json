@@ -2,10 +2,14 @@
   "description": "Number of ternary trees with n edges and such that the first leaf in the preorder traversal is at level 1.",
   "id": "A121446",
   "mentions": [
+    "A001764",
+    "A006013",
+    "A006632",
     "A007226",
     "A121445"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

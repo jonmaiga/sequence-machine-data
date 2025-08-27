@@ -1,5 +1,5 @@
 {
-  "description": "Number of (8*n)X8 binary arrays with rows in nonincreasing order, n ones in every column and no more than 3 ones in any row",
+  "description": "Number of (8*n)X8 binary arrays with rows in nonincreasing order, n ones in every column and no more than 3 ones in any row.",
   "id": "A188415",
   "mentions": [
     "A188416"

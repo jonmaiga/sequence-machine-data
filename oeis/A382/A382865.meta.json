@@ -9,15 +9,18 @@
     "A047615",
     "A048724",
     "A065621",
-    "A114389"
+    "A114389",
+    "A174091",
+    "A181983"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^k + n - 1, where k>=2 is minimal.",
+  "description": "a(n) is the smallest prime of the form n^k + n - 1 with k >= 2.",
   "id": "A078179",
   "mentions": [
     "A000040",
@@ -9,6 +9,7 @@
     "A078178"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

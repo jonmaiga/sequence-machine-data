@@ -1,0 +1,17 @@
+{
+  "description": "Number of non-isomorphic round-robin tournament schedules for 2*n players, where the order of rounds does not matter.",
+  "id": "A385919",
+  "mentions": [
+    "A000085",
+    "A000569"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

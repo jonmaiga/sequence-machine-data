@@ -2,6 +2,7 @@
   "description": "Satisfies a(n)/A079159(n) = p_n, the n-th prime (n>0), a(0)=1.",
   "id": "A079161",
   "mentions": [
+    "A000040",
     "A079159",
     "A079160"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

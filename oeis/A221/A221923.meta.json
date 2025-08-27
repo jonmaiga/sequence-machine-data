@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays of occupancy after each element stays put or moves to some king-move neighbor, without move-in move-out straight through or left turns",
+  "description": "Number of nX3 arrays of occupancy after each element stays put or moves to some king-move neighbor, without move-in move-out straight through or left turns.",
   "id": "A221923",
   "mentions": [
     "A221925"

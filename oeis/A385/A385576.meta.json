@@ -1,0 +1,43 @@
+{
+  "description": "Numbers whose prime indices have the same number of distinct elements as maximal anti-runs.",
+  "id": "A385576",
+  "mentions": [
+    "A001221",
+    "A034296",
+    "A044813",
+    "A046660",
+    "A047993",
+    "A066311",
+    "A073491",
+    "A106529",
+    "A112798",
+    "A116608",
+    "A133121",
+    "A210034",
+    "A268193",
+    "A297155",
+    "A356226",
+    "A356235",
+    "A356237",
+    "A361205",
+    "A375136",
+    "A384877",
+    "A384878",
+    "A384889",
+    "A384893",
+    "A384905",
+    "A385213",
+    "A385572",
+    "A385574",
+    "A385575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

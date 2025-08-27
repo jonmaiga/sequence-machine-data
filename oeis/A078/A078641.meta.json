@@ -1,5 +1,5 @@
 {
-  "description": "Number of numbers between 1 and n-1 inclusive that are coprime to n(n+1)(n+2)(n+3).",
+  "description": "Number of numbers between 1 and n-1 inclusive that are coprime to n*(n+1)*(n+2)*(n+3).",
   "id": "A078641",
   "mentions": [],
   "tags": [

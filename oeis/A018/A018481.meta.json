@@ -1,7 +1,9 @@
 {
   "description": "Divisors of 486.",
   "id": "A018481",
-  "mentions": [],
+  "mentions": [
+    "A038754"
+  ],
   "tags": [
     "easy",
     "fini",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n)/phi(phi(n)) = 3.",
+  "description": "Numbers k such that phi(k)/phi(phi(k)) = 3.",
   "id": "A051913",
   "mentions": [
     "A000010",

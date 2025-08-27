@@ -1,5 +1,5 @@
 {
-  "description": "Binary encoding of shortest and then lexicographically earliest series s(1..A176168(n)), with bits left to right indicating add (1) or subtract (0), to reproduce the series",
+  "description": "Binary encoding of shortest and then lexicographically earliest series s(1..A176168(n)), with bits left to right indicating add (1) or subtract (0), to reproduce the series.",
   "id": "A176169",
   "mentions": [
     "A176168"

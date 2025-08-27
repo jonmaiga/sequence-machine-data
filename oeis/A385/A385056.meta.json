@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers whose digit product is a positive cube.",
+  "id": "A385056",
+  "mentions": [
+    "A000040",
+    "A038618",
+    "A184328",
+    "A237767"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

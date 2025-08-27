@@ -1,5 +1,5 @@
 {
-  "description": "Numbers y such that there exists a pair x, n, with x < y, x != n and y != n that makes {x,y,n,n} an amicable multiset",
+  "description": "Numbers y such that there exists a pair x, n, with x < y, x != n and y != n that makes {x,y,n,n} an amicable multiset.",
   "id": "A273971",
   "mentions": [
     "A259302",

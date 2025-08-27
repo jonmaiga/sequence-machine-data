@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum_{k=0..n} (C(n,k) mod 3).",
+  "description": "a(n) = Sum_{k=0..n} (C(n,k) mod 3).",
   "id": "A051638",
   "mentions": [
     "A001316",
@@ -8,6 +8,7 @@
     "A083093"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

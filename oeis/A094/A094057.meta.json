@@ -1,16 +1,21 @@
 {
-  "description": "Number of digits of A001566(n).",
+  "description": "Number of decimal digits of Lucas(2^n).",
   "id": "A094057",
   "mentions": [
-    "A001566"
+    "A000032",
+    "A001566",
+    "A001622",
+    "A055642",
+    "A114469"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

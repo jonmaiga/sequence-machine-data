@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..7 arrays with no element equal to another at a city block distance of exactly two, and new values 0..7 introduced in row major order",
+  "description": "T(n,k)=Number of nXk 0..7 arrays with no element equal to another at a city block distance of exactly two, and new values 0..7 introduced in row major order.",
   "id": "A222894",
   "mentions": [],
   "tags": [

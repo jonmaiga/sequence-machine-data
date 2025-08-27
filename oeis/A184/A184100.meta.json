@@ -1,5 +1,5 @@
 {
-  "description": "One quarter the number of n X n toroidal 0..3 arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors",
+  "description": "One quarter the number of n X n toroidal 0..3 arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors.",
   "id": "A184100",
   "mentions": [
     "A184101"

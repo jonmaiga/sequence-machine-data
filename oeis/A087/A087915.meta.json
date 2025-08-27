@@ -1,5 +1,5 @@
 {
-  "description": "Even numbers n such that 2*n+3 is a prime.",
+  "description": "Even numbers k such that 2*k+3 is a prime.",
   "id": "A087915",
   "mentions": [
     "A002145",

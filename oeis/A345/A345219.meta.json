@@ -1,9 +1,10 @@
 {
-  "description": "Number of divisors of n with an odd number of primes not exceeding them.",
+  "description": "Number of divisors d of n with an odd number of primes not exceeding d.",
   "id": "A345219",
   "mentions": [
     "A000005",
     "A000720",
+    "A071986",
     "A345220"
   ],
   "tags": [

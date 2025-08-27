@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n+1) + (n+3/2)*H(n) - (H(n)^3)/2, where H(n)=A002024(n).",
+  "description": "a(n) = (n+1) + (n+3/2)*H(n) - (H(n)^3)/2, where H(n) = A002024(n).",
   "id": "A218036",
   "mentions": [
     "A002024"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
+    "size": 66,
     "source": "joeis"
   }
 }

@@ -1,22 +1,23 @@
 {
-  "description": "Numbers k for which A339792(k^2) = 0, where A339792 is the third coefficient of the lindep transform of sigma.",
+  "description": "Sum of the nonprimes dividing n and the squares of the primes dividing n.",
   "id": "A380444",
   "mentions": [
-    "A000196",
+    "A000005",
     "A000203",
-    "A322154",
-    "A339792",
-    "A380445",
-    "A380448",
-    "A380450"
+    "A005063",
+    "A008472",
+    "A010051",
+    "A023890",
+    "A103164"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
-    "source": "oeis-bfile"
+    "size": 76,
+    "source": "joeis"
   }
 }

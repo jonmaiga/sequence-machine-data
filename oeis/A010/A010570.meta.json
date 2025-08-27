@@ -1,14 +1,17 @@
 {
-  "description": "Number of 2n-step 6-dimensional closed paths on 6-d cubic lattice.",
+  "description": "Number of 2n-step self-avoiding closed paths on the 6-dimensional cubic lattice.",
   "id": "A010570",
-  "mentions": [],
+  "mentions": [
+    "A010567",
+    "A010569"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

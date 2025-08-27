@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of prime primitive roots of n is a prime primitive root of n",
+  "description": "Numbers n such that the number of prime primitive roots of n is a prime primitive root of n.",
   "id": "A100141",
   "mentions": [
     "A100142"

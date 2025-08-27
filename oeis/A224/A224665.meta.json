@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n X n 0..k matrices with each 2X2 subblock idempotent",
+  "description": "T(n,k)=Number of n X n 0..k matrices with each 2X2 subblock idempotent.",
   "id": "A224665",
   "mentions": [
     "A000027",

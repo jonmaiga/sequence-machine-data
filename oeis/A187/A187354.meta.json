@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X3 0..3 arrays with every 2X2 subblock sum equal to some diagonal or antidiagonal neighbor 2X2 subblock sum",
+  "description": "Number of (n+2)X3 0..3 arrays with every 2X2 subblock sum equal to some diagonal or antidiagonal neighbor 2X2 subblock sum.",
   "id": "A187354",
   "mentions": [
     "A187356"

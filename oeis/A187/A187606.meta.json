@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n-step one space for components leftwards or up, two space for components rightwards or down asymmetric quasi-bishop's tours (antidiagonal moves become knight moves) on a kXk board summed over all starting positions",
+  "description": "T(n,k)=Number of n-step one space for components leftwards or up, two space for components rightwards or down asymmetric quasi-bishop's tours (antidiagonal moves become knight moves) on a kXk board summed over all starting positions.",
   "id": "A187606",
   "mentions": [
     "A016754"

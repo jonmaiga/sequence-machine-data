@@ -1,5 +1,5 @@
 {
-  "description": "Zeros in a A171246 modulo two matrix:a(n)=(n+1)^2-Sum[Sum[Mod[A171246(m,k),2],{k,0,n}],{m,0,n}]",
+  "description": "Zeros in a A171246 modulo two matrix:a(n)=(n+1)^2-Sum[Sum[Mod[A171246(m,k),2],{k,0,n}],{m,0,n}].",
   "id": "A171377",
   "mentions": [
     "A001316",

@@ -1,0 +1,21 @@
+{
+  "description": "Intersection of A025487 and A007531.",
+  "id": "A386951",
+  "mentions": [
+    "A007531",
+    "A025487",
+    "A055932",
+    "A385189",
+    "A385956"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

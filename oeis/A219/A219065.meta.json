@@ -1,5 +1,5 @@
 {
-  "description": "Hilltop maps: number of 4Xn binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, diagonal or antidiagonal neighbor in a random 0..2 4Xn array",
+  "description": "Hilltop maps: number of 4Xn binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, diagonal or antidiagonal neighbor in a random 0..2 4Xn array.",
   "id": "A219065",
   "mentions": [
     "A219063"

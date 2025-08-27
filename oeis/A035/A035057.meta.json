@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n does not contain the digit 1 (probably finite).",
+  "description": "Numbers k such that 2^k does not contain the digit 1 (probably finite).",
   "id": "A035057",
   "mentions": [
     "A035064"

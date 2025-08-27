@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 0..k arrays x(0..n-1) of n elements with nondecreasing average value and 0..k occur with instance counts within one of each other",
+  "description": "T(n,k)=Number of 0..k arrays x(0..n-1) of n elements with nondecreasing average value and 0..k occur with instance counts within one of each other.",
   "id": "A200942",
   "mentions": [
     "A000217",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with digits 5 and 9 only.",
+  "description": "Numbers k with digits 5 and 9 only.",
   "id": "A284382",
   "mentions": [
     "A020468",

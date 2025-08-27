@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of 3:4:5 proportioned triangles on a (n+1)X(k+1) grid",
+  "description": "T(n,k)=Number of 3:4:5 proportioned triangles on a (n+1)X(k+1) grid.",
   "id": "A189973",
   "mentions": [],
   "tags": [

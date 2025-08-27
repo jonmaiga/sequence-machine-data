@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with no 2X2 subblock sum equal to any diagonal or antidiagonal neighbor 2X2 subblock sum",
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with no 2X2 subblock sum equal to any diagonal or antidiagonal neighbor 2X2 subblock sum.",
   "id": "A187600",
   "mentions": [],
   "tags": [

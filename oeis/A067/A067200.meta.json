@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 + 2 is prime.",
+  "description": "Numbers m such that m^3 + 2 is prime.",
   "id": "A067200",
   "mentions": [
     "A000040",

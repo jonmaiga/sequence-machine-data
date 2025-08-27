@@ -2,7 +2,8 @@
   "description": "Odd numbers producing 4 odd numbers in the Collatz iteration.",
   "id": "A198587",
   "mentions": [
-    "A198584"
+    "A198584",
+    "A385110"
   ],
   "tags": [
     "nonn"

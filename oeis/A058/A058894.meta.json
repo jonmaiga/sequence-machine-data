@@ -1,5 +1,5 @@
 {
-  "description": "|A006881(m)-A007304(m)| = 1, sequence gives A006881(m).",
+  "description": "Squarefree semiprimes A006881(m) such that |A006881(m)-A007304(m)| = 1.",
   "id": "A058894",
   "mentions": [
     "A006881",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 6,
     "source": "oeis-entry"
   }

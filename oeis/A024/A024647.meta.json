@@ -1,15 +1,17 @@
 {
   "description": "n written in fractional base 8/5.",
   "id": "A024647",
-  "mentions": [],
+  "mentions": [
+    "A245355"
+  ],
   "tags": [
     "base",
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

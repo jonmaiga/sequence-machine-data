@@ -1,5 +1,5 @@
 {
-  "description": "In binary expansion, number of 1's in 5n is less than in n.",
+  "description": "Numbers k such that in binary expansion, the number of 1's in 5*k is less than the number of 1's in k.",
   "id": "A180055",
   "mentions": [
     "A000120",
@@ -8,12 +8,12 @@
   ],
   "tags": [
     "base",
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

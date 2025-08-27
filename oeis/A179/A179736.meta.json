@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the sequence of sums of 9 adjacent elements having exactly 1 maximum",
+  "description": "Number of permutations of 1..n with the sequence of sums of 9 adjacent elements having exactly 1 maximum.",
   "id": "A179736",
   "mentions": [],
   "tags": [

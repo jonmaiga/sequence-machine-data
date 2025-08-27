@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it",
+  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it.",
   "id": "A209047",
   "mentions": [
     "A003946"

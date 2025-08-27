@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (number of prime factors of n-th composite) plus (number of divisors of n-th composite).",
+  "description": "Primes of the form (number of prime factors of k-th composite) plus (number of divisors of k-th composite).",
   "id": "A167133",
   "mentions": [
     "A000005",

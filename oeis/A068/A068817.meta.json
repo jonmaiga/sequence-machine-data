@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n concatenated with n 1's is a prime.",
+  "description": "Numbers k such that k concatenated with k 1's is a prime.",
   "id": "A068817",
   "mentions": [
     "A070220",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of four fourth powers in exactly two ways",
+  "description": "Numbers that are the sum of four fourth powers in exactly two ways.",
   "id": "A344193",
   "mentions": [
     "A025404",

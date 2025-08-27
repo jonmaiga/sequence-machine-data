@@ -1,13 +1,32 @@
 {
-  "description": "Sum of exponents of primes in C(4n,2n)/C(2n,n).",
+  "description": "Sum of exponents of primes in C(4n,2n) - sum of exponents of primes in C(2n,n).",
   "id": "A023986",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A022559",
+    "A023816",
+    "A023834",
+    "A023978",
+    "A023979",
+    "A023980",
+    "A023981",
+    "A023982",
+    "A023983",
+    "A023984",
+    "A023985",
+    "A023987",
+    "A023990",
+    "A023991",
+    "A023992",
+    "A023993"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 84,
+    "offset": 0,
+    "size": 85,
     "source": "oeis-bfile"
   }
 }

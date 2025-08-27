@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that in each of 9 bases 2..10, n has (at least one) substring '11'.",
+  "description": "Numbers k with property that in each of 9 bases 2..10, k has (at least one) substring '11'.",
   "id": "A167890",
   "mentions": [],
   "tags": [

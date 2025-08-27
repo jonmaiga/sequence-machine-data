@@ -1,7 +1,10 @@
 {
   "description": "a(n) = floor(n!/sigma(n)).",
   "id": "A062359",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A000203"
+  ],
   "tags": [
     "easy",
     "nonn"

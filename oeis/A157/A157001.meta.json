@@ -1,5 +1,5 @@
 {
-  "description": "Fractions x/y, with 1<=x,y<=n, that reduce to (odd)/(even).",
+  "description": "Fractions x/y, with 1<=x, y<=n, that reduce to (odd)/(even).",
   "id": "A157001",
   "mentions": [
     "A135013"

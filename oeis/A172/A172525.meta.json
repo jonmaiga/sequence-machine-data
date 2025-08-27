@@ -1,7 +1,8 @@
 {
-  "description": "9*n*12345679.",
+  "description": "a(n) = 111111111 * n.",
   "id": "A172525",
   "mentions": [
+    "A008591",
     "A021085"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 23,
     "source": "joeis"
   }
 }

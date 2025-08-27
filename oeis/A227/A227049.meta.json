@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (15^n + 4^n)/19 is prime.",
+  "description": "Numbers k such that (15^k + 4^k)/19 is prime.",
   "id": "A227049",
   "mentions": [
     "A057181",

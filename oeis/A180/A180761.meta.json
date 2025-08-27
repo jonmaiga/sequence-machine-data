@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of n X n binary arrays with each element equal to at least one neighbor",
+  "description": "Half the number of n X n binary arrays with each element equal to at least one neighbor.",
   "id": "A180761",
   "mentions": [
     "A180771"

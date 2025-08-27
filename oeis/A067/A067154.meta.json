@@ -1,5 +1,5 @@
 {
-  "description": "Number of regions in regular n-gon which are heptagons.",
+  "description": "Number of heptagonal regions in regular n-gon with all diagonals drawn.",
   "id": "A067154",
   "mentions": [
     "A007678",

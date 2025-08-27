@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers p = 8n + 7 for which k = (7 * (256^n - 16^n) + n^2) / (n * p) is an integer",
+  "description": "Prime numbers p = 8n + 7 for which k = (7 * (256^n - 16^n) + n^2) / (n * p) is an integer.",
   "id": "A162587",
   "mentions": [
     "A158034",

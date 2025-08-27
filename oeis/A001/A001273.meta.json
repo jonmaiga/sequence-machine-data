@@ -2,12 +2,14 @@
   "description": "Smallest number that takes n steps to reach 1 under iteration of sum-of-squares-of-digits map (= smallest \"happy number\" of height n).",
   "id": "A001273",
   "mentions": [
+    "A003132",
     "A007770",
     "A018785",
     "A176762"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

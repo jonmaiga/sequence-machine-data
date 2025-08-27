@@ -2,6 +2,7 @@
   "description": "Exponent of highest power of 5 dividing n. Or, 5-adic valuation of n.",
   "id": "A112765",
   "mentions": [
+    "A000351",
     "A007814",
     "A007949",
     "A022337",

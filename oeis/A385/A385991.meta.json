@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct values among A002487(0), ..., A002487(n).",
+  "id": "A385991",
+  "mentions": [
+    "A002487",
+    "A061069",
+    "A061070",
+    "A061071",
+    "A091945",
+    "A385993"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

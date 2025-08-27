@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p=26n+1 is prime and cos(2pi/p) is an algebraic number of a 13-smooth degree, but not 11-smooth.",
+  "description": "Numbers k such that p=26*k+1 is prime and cos(2*Pi/p) is an algebraic number of a 13-smooth degree, but not 11-smooth.",
   "id": "A125877",
   "mentions": [
     "A125866",

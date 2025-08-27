@@ -1,5 +1,5 @@
 {
-  "description": "Primes whose digits are primes.",
+  "description": "Primes whose digits are primes; primes having only {2, 3, 5, 7} as digits.",
   "id": "A019546",
   "mentions": [
     "A000040",

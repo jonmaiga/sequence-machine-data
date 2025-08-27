@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form n^n which contain n as a substring in base 10.",
+  "description": "Numbers of the form k^k which contain k as a substring in base 10.",
   "id": "A169754",
   "mentions": [
     "A049329",

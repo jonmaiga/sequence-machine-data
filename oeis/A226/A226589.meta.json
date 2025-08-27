@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) >= sigma(n-2) + sigma(n-1) + sigma(n+1) + sigma(n+2).",
+  "description": "Numbers k such that sigma(k) >= sigma(k-2) + sigma(k-1) + sigma(k+1) + sigma(k+2).",
   "id": "A226589",
   "mentions": [
     "A000203",

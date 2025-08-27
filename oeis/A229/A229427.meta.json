@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, rows lexicographically nondecreasing, and columns lexicographically nonincreasing",
+  "description": "Number of nX7 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, rows lexicographically nondecreasing, and columns lexicographically nonincreasing.",
   "id": "A229427",
   "mentions": [
     "A229428"

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in which all substrings in base 16 are primes.",
+  "id": "A384744",
+  "mentions": [
+    "A085823"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

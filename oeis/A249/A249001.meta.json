@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+4 0..k arrays with no five consecutive terms having two times the sum of any three elements equal to three times the sum of the remaining two",
+  "description": "T(n,k)=Number of length n+4 0..k arrays with no five consecutive terms having two times the sum of any three elements equal to three times the sum of the remaining two.",
   "id": "A249001",
   "mentions": [
     "A135492"

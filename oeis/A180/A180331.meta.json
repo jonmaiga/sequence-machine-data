@@ -2,6 +2,8 @@
   "description": "The larger amicable number corresponding to A180330(n).",
   "id": "A180331",
   "mentions": [
+    "A002046",
+    "A063990",
     "A180330"
   ],
   "tags": [
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = H(2n)*(2n)!/n! where H(n) = sum{k=1 to n} 1/k, the n-th harmonic number.",
+  "description": "a(n) = H(2*n)*(2*n)!/n! where H(n) = Sum_{k=1..n} 1/k, the n-th harmonic number.",
   "id": "A123989",
   "mentions": [
     "A124078",

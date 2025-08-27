@@ -1,20 +1,33 @@
 {
-  "description": "Second coefficient of the lindep transform of A325973.",
+  "description": "a(n) is the multiplicative order of -3 modulo prime(n); a(2) = 0 for completion.",
   "id": "A380482",
   "mentions": [
-    "A325973",
-    "A339791",
-    "A380462",
-    "A380472",
-    "A380481",
-    "A380483"
+    "A002371",
+    "A014664",
+    "A062117",
+    "A082654",
+    "A105875",
+    "A211241",
+    "A211242",
+    "A211243",
+    "A211244",
+    "A211245",
+    "A337878",
+    "A380531",
+    "A380532",
+    "A380533",
+    "A380540",
+    "A380541",
+    "A380542",
+    "A385222"
   ],
   "tags": [
-    "sign"
+    "easy",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 80,
+    "size": 60,
     "source": "oeis-bfile"
   }
 }

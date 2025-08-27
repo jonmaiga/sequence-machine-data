@@ -1,7 +1,9 @@
 {
   "description": "Exponent of 4 (value of i) in n-th number of form 4^i*7^j.",
   "id": "A025648",
-  "mentions": [],
+  "mentions": [
+    "A025619"
+  ],
   "tags": [
     "nonn"
   ],

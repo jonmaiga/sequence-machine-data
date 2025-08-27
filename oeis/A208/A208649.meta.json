@@ -2,9 +2,11 @@
   "description": "(1/n)*A073617(n+1).",
   "id": "A208649",
   "mentions": [
-    "A073617"
+    "A073617",
+    "A074962"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

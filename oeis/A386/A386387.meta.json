@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 4^k * binomial(n,k) * Catalan(k).",
+  "id": "A386387",
+  "mentions": [
+    "A340968",
+    "A386389"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

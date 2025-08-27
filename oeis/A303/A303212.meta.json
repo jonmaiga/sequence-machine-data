@@ -2,7 +2,9 @@
   "description": "Number of minimum total dominating sets in the n X n rook complement graph.",
   "id": "A303212",
   "mentions": [
-    "A179058"
+    "A179058",
+    "A303209",
+    "A347922"
   ],
   "tags": [
     "easy",

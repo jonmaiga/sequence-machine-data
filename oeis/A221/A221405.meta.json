@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 arrays of occupancy after each element stays put or moves to some horizontal or vertical neighbor, with every occupancy equal to zero or two",
+  "description": "Number of nX4 arrays of occupancy after each element stays put or moves to some horizontal or vertical neighbor, with every occupancy equal to zero or two.",
   "id": "A221405",
   "mentions": [
     "A221408"

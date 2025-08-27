@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A383844(k) = 2.",
+  "id": "A384584",
+  "mentions": [
+    "A024934",
+    "A383844"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

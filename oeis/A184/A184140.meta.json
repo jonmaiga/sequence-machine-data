@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 binary arrays with rows and columns in nondecreasing order",
+  "description": "Number of nX5 binary arrays with rows and columns in nondecreasing order.",
   "id": "A184140",
   "mentions": [
     "A180985"

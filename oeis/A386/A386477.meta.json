@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = 2*(6*n^2 - 3*n + 1).",
+  "id": "A386477",
+  "mentions": [
+    "A069894",
+    "A077588",
+    "A094159",
+    "A152746",
+    "A383466"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

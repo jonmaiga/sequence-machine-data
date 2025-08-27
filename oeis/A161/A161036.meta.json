@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into Fibonacci numbers where every part appears at least 12 times",
+  "description": "Number of partitions of n into Fibonacci numbers where every part appears at least 12 times.",
   "id": "A161036",
   "mentions": [],
   "tags": [
