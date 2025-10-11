@@ -1,0 +1,18 @@
+{
+  "description": "Number of dissections of a convex n-gon into quadrilaterals and pentagons by strictly disjoint diagonals.",
+  "id": "A387267",
+  "mentions": [
+    "A093128",
+    "A159284",
+    "A387224"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

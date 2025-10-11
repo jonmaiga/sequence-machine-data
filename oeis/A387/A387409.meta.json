@@ -1,0 +1,27 @@
+{
+  "description": "Partial sums of A387422 minus partial sums of A387412.",
+  "id": "A387409",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A003961",
+    "A387407",
+    "A387408",
+    "A387412",
+    "A387413",
+    "A387422",
+    "A387423",
+    "A387424",
+    "A387425"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

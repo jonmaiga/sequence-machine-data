@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/1024) * exp(13*Pi/12) * Pi^(13/2) * 2^(1/4) / Gamma(3/4)^26.",
+  "id": "A388226",
+  "mentions": [
+    "A010831"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

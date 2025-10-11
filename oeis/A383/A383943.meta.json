@@ -1,0 +1,19 @@
+{
+  "description": "GCD of the psi-amicable pairs: a(n) = gcd(A323329(n), A323330(n)).",
+  "id": "A383943",
+  "mentions": [
+    "A001615",
+    "A061469",
+    "A323329",
+    "A323330",
+    "A387892"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

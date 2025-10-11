@@ -1,0 +1,30 @@
+{
+  "description": "Number of 2-dense sublists of divisors of the n-th squarefree number.",
+  "id": "A386993",
+  "mentions": [
+    "A005117",
+    "A174973",
+    "A237271",
+    "A379288",
+    "A380328",
+    "A384149",
+    "A384222",
+    "A384225",
+    "A384226",
+    "A384928",
+    "A384930",
+    "A384931",
+    "A386984",
+    "A386992",
+    "A387030"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

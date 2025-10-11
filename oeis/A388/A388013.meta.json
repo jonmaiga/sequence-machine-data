@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors d of n for which sigma(d)/d >= 5/3.",
+  "id": "A388013",
+  "mentions": [
+    "A000203",
+    "A388011",
+    "A388012",
+    "A388014"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,10 +2,12 @@
   "description": "Sum of two (possibly negative) cubes in at least 4 ways.",
   "id": "A051384",
   "mentions": [
+    "A047696",
     "A051347",
     "A051383"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

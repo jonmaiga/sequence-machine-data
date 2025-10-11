@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the triangular number n*(n+1)/2 has 2 different digits in base 10.",
+  "description": "Numbers k such that the triangular number k*(k+1)/2 has 2 different digits in base 10.",
   "id": "A213518",
   "mentions": [
     "A045914",

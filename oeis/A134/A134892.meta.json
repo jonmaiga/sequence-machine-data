@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling(n*exp(sin n)).",
+  "description": "a(n) = ceiling(n*exp(sin(n))).",
   "id": "A134892",
   "mentions": [
     "A134890",

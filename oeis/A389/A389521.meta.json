@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the hexagonal pyramidal root of 2.",
+  "id": "A389521",
+  "mentions": [
+    "A002412",
+    "A188934",
+    "A388148",
+    "A389519",
+    "A389520"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

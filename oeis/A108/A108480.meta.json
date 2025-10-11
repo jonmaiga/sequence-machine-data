@@ -1,7 +1,11 @@
 {
-  "description": "Expansion of (1-x-2x^2)/(1-2x-3x^2-4x^3+4x^4).",
+  "description": "Expansion of (1-x-2*x^2)/(1-2*x-3*x^2-4*x^3+4*x^4).",
   "id": "A108480",
-  "mentions": [],
+  "mentions": [
+    "A001541",
+    "A387622",
+    "A387623"
+  ],
   "tags": [
     "easy",
     "formulas",

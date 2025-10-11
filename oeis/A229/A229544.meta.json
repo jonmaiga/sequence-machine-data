@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*product_of_digits(n) is a nonzero cube.",
+  "description": "Numbers k such that k*product_of_digits(k) is a nonzero cube.",
   "id": "A229544",
   "mentions": [
     "A066565",

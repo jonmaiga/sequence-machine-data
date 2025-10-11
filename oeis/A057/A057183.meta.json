@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (17^n + 1)/18 is a prime.",
+  "description": "Numbers k such that (17^k + 1)/18 is a prime.",
   "id": "A057183",
   "mentions": [],
   "tags": [

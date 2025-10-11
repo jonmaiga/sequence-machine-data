@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/24) * exp(Pi).",
+  "id": "A388562",
+  "mentions": [
+    "A115607"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

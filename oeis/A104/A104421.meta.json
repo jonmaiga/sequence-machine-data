@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, prime(n), prime(n)+n, prime(n)-n and prime(n)*n all numbers without the digit 1.",
+  "description": "Numbers k such that k, prime(k), prime(k)+k, prime(k)-k and prime(k)*k are all numbers without the digit 1.",
   "id": "A104421",
   "mentions": [
     "A038603",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

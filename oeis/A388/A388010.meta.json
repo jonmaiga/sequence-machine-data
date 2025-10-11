@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table T(n, k), n > 0, k = 1..A246600(n), read by rows; the n-th row lists the divisors d of n such that the binary representation of d can be obtained from the binary representation of n by changing any number of 1's to 0's.",
+  "id": "A388010",
+  "mentions": [
+    "A006519",
+    "A246600",
+    "A246601"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

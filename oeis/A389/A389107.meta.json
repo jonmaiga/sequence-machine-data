@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the area under the infinite tetration curve.",
+  "id": "A389107",
+  "mentions": [
+    "A073229",
+    "A073230"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

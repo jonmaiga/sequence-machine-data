@@ -1,0 +1,22 @@
+{
+  "description": "The number of decompositions of 2*n into ordered sums of two cyclic numbers.",
+  "id": "A387363",
+  "mentions": [
+    "A001620",
+    "A002372",
+    "A003277",
+    "A005597",
+    "A073004",
+    "A387362"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2^(-1/8).",
+  "id": "A388510",
+  "mentions": [
+    "A108494"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

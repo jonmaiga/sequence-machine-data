@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers k for which there is no largest circle enclosing exactly k points (strictly inside) on a square grid, only a least upper bound on that circle size.",
+  "id": "A387045",
+  "mentions": [
+    "A128006",
+    "A128007",
+    "A192493",
+    "A192494",
+    "A387044"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

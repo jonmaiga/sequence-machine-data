@@ -1,7 +1,9 @@
 {
   "description": "Period 2: repeat (0,7).",
   "id": "A010678",
-  "mentions": [],
+  "mentions": [
+    "A000035"
+  ],
   "tags": [
     "easy",
     "formulas",

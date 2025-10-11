@@ -1,0 +1,15 @@
+{
+  "description": "Size of largest subset of {1, ..., n} such that any 4 elements (a <= b <= c <= d) whose product is square implies a*d = b*c.",
+  "id": "A387584",
+  "mentions": [
+    "A167171"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

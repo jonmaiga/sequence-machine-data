@@ -1,0 +1,14 @@
+{
+  "description": "Number of dominating sets in the n-Lindgren-Sousselier graph.",
+  "id": "A387436",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

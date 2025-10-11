@@ -10,14 +10,13 @@
     "A262977"
   ],
   "tags": [
-    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

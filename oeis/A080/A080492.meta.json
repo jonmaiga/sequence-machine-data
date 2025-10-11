@@ -1,5 +1,5 @@
 {
-  "description": "a(1) =7, a(n) = smallest multiple of a(n-1) (not equal to 10*a(n-1)) obtained by inserting digits anywhere in a(n-1).",
+  "description": "a(1) =7, a(n) = smallest multiple of a(n-1) (not equal to 10^k*a(n-1)) obtained by inserting digits anywhere in a(n-1).",
   "id": "A080492",
   "mentions": [
     "A080486",
@@ -13,11 +13,12 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the complement of the n-path graph.",
+  "id": "A387827",
+  "mentions": [
+    "A336428"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

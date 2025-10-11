@@ -2,6 +2,8 @@
   "description": "Decimal expansion of (1+sqrt(17))/4.",
   "id": "A188934",
   "mentions": [
+    "A000384",
+    "A188485",
     "A188640",
     "A188935",
     "A191898",
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 130,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

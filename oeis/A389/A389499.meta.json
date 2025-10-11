@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose number of powerful divisors is also a powerful number.",
+  "id": "A389499",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A005361",
+    "A336224",
+    "A361177",
+    "A389497",
+    "A389500"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

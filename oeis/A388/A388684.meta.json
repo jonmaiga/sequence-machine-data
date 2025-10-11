@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (2 * (3+sqrt(3))) / 9.",
+  "id": "A388684",
+  "mentions": [
+    "A164617"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

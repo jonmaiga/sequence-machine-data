@@ -1,18 +1,19 @@
 {
-  "description": "Given m the n-th cubefree number, A004709(n); a(n) is the class number of field Q(m^(1/3)).",
+  "description": "Given m the n-th cubefree number, A004709(n); a(n) is the class number of the pure cubic field Q(m^(1/3)).",
   "id": "A246457",
   "mentions": [
+    "A000924",
+    "A003649",
     "A004709",
     "A005472",
     "A242867"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
-    "source": "oeis-entry"
+    "size": 96,
+    "source": "oeis-bfile"
   }
 }

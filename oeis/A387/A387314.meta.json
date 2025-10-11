@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/((1-x) * (1-9*x))^(7/2).",
+  "id": "A387314",
+  "mentions": [
+    "A387308"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

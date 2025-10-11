@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(Pi / 4) * sqrt(2 * Pi) / Gamma(3/4)^2.",
+  "id": "A388617",
+  "mentions": [
+    "A134343"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

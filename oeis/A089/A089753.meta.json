@@ -1,10 +1,16 @@
 {
   "description": "Number of projections of alternating knots and links with n crossings.",
   "id": "A089753",
-  "mentions": [],
+  "mentions": [
+    "A049344",
+    "A089790",
+    "A089791",
+    "A113201"
+  ],
   "tags": [
     "more",
-    "nonn"
+    "nonn",
+    "obsc"
   ],
   "terms": {
     "offset": 2,

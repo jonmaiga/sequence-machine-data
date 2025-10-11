@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} 2^(n-2*k) * binomial(n-2*k,k)^2.",
+  "id": "A387510",
+  "mentions": [
+    "A246840",
+    "A387507",
+    "A387509",
+    "A387513"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

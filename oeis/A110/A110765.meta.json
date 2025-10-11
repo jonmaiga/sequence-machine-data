@@ -1,21 +1,26 @@
 {
-  "description": "Let n in binary be a k-digit number say abbaaa... where a = 1 and b = 0. a(n) = 2^a*3^b*5^b*7*a... primes in increasing order raised to the powers starting from the MSB.",
+  "description": "Let n in binary be a k-bit number with bits d_1, d_2, ..., d_k (concatenated). a(n) = 2^d_1 * 3^d_2 * ... * prime(k)^d_k, where prime(k) is the k-th prime.",
   "id": "A110765",
   "mentions": [
     "A000040",
+    "A000523",
     "A019565",
+    "A029837",
+    "A030101",
     "A030308",
+    "A039956",
     "A110766"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "look",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 61,
+    "offset": 0,
+    "size": 62,
     "source": "oeis-bfile"
   }
 }

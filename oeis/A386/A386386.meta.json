@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of the nonnegative integers formed by their unique representation (k - 2^m)*2^(m-1) - 1, where 1 < 2^m < k odd, sorted first by k then by m.",
+  "id": "A386386",
+  "mentions": [
+    "A001477",
+    "A001855",
+    "A007814",
+    "A030530",
+    "A089654",
+    "A386220",
+    "A387016"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

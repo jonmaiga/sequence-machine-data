@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 4 - 2*sqrt(2).",
+  "id": "A388622",
+  "mentions": [
+    "A101465",
+    "A134746",
+    "A157259",
+    "A201488"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

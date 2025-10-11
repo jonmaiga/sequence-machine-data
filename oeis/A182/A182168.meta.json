@@ -2,6 +2,7 @@
   "description": "Decimal expansion of imaginary part of i^(1/4).",
   "id": "A182168",
   "mentions": [
+    "A101464",
     "A144981"
   ],
   "tags": [

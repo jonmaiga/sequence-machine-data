@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 16 * 3^k + 1 is prime.",
+  "id": "A387060",
+  "mentions": [
+    "A005537",
+    "A005538",
+    "A027856",
+    "A385115"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

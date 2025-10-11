@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular binary arrays with every 1 adjacent to at most 3 other 1s.",
+  "description": "Number of n X n X n triangular binary arrays with every 1 adjacent to at most 3 other 1s.",
   "id": "A192412",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,7 @@
 {
-  "description": "A007318 * Triangle with A133632 as the diagonal and the rest zeros.",
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k)*A133632(k + 1).",
   "id": "A134417",
   "mentions": [
-    "A007318",
     "A133632",
     "A134418"
   ],
@@ -12,7 +11,7 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 55,
     "source": "joeis"
   }

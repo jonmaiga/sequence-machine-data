@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 32 * exp(-Pi) * Gamma(3/4)^5 / Pi^(5/4).",
+  "id": "A388618",
+  "mentions": [
+    "A134414"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

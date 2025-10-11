@@ -2,10 +2,13 @@
   "description": "Main diagonal of square array A108553, in which row n equals the crystal ball sequence for D_n lattice.",
   "id": "A108554",
   "mentions": [
+    "A001622",
     "A108553",
-    "A108555"
+    "A108555",
+    "A244593"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

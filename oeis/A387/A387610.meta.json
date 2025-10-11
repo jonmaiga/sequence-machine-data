@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of the smallest dihedral angle, in radians, in a gyroelongated pentagonal cupola (Johnson solid J_24).",
+  "id": "A387610",
+  "mentions": [
+    "A002163",
+    "A002194",
+    "A010476",
+    "A195693",
+    "A377995",
+    "A377996",
+    "A384283",
+    "A384284",
+    "A384285",
+    "A384286",
+    "A386852",
+    "A387607",
+    "A387608",
+    "A387609"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

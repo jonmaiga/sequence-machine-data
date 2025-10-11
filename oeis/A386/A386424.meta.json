@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that sigma(k) has the same powerful part as k, where sigma is the sum of divisors function.",
+  "description": "Numbers k such that sigma(k) has the same powerful part as k has, where sigma is the sum of divisors function.",
   "id": "A386424",
   "mentions": [
     "A000203",
@@ -12,7 +12,8 @@
     "A386425",
     "A386426",
     "A387156",
-    "A387158"
+    "A387158",
+    "A387727"
   ],
   "tags": [
     "formulas",

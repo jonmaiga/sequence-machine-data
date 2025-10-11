@@ -1,5 +1,5 @@
 {
-  "description": "Lower bound of twin primes pairs whose digital reverse is also prime.",
+  "description": "Lower bound b of twin primes pairs such that b's digital reverse is also prime.",
   "id": "A101781",
   "mentions": [],
   "tags": [

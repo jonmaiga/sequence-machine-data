@@ -1,17 +1,17 @@
 {
-  "description": "A344899(2*n).",
+  "description": "Number of polygon edges formed when every pair of vertices of a regular 2n-gon are joined by an infinite line.",
   "id": "A347322",
   "mentions": [
     "A344899",
     "A344907"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

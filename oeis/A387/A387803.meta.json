@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-Moebius ladder.",
+  "id": "A387803",
+  "mentions": [
+    "A337794"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

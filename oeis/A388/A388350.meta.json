@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 16 * exp(-4*Pi/3).",
+  "id": "A388350",
+  "mentions": [
+    "A022627"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

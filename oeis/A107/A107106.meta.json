@@ -1,7 +1,9 @@
 {
-  "description": "Divide A036039(n) by A036040(n).",
+  "description": "Irregular triangle T(n,k) = A036039(n,k) / A036040(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A107106",
   "mentions": [
+    "A000041",
+    "A036036",
     "A036039",
     "A036040",
     "A107107",
@@ -9,13 +11,12 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 81,
-    "source": "joeis"
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
   }
 }

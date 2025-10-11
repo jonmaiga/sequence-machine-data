@@ -1,10 +1,15 @@
 {
-  "description": "Integers n such that (x1*x2*..xk)^(x1+x2+..xk) = (x1+x2+..xk)^(x1*x2*...xk) where x1x2..xk are the digits of n in base 10.",
+  "description": "Integers m such that (x1*x2*..xk)^(x1+x2+..xk) = (x1+x2+..xk)^(x1*x2*..xk) where x1x2..xk are the digits of m in base 10.",
   "id": "A064158",
-  "mentions": [],
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A034710"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

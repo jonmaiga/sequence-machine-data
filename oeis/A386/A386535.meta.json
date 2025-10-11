@@ -1,0 +1,15 @@
+{
+  "description": "Number of independent vertex sets in the n-Lindgren-Sousselier graph.",
+  "id": "A386535",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

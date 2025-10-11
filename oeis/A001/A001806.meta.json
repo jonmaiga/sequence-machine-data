@@ -2,9 +2,16 @@
   "description": "a(n) = n! * binomial(n,4).",
   "id": "A001806",
   "mentions": [
-    "A021012"
+    "A000142",
+    "A000332",
+    "A001113",
+    "A001620",
+    "A021012",
+    "A091725",
+    "A099285"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

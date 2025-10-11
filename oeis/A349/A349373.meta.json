@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of Kimberling's paraphrases (A003602) with Dirichlet inverse of Euler phi (A023900).",
+  "description": "Dirichlet convolution of Kimberling's paraphrase, A003602, with Dirichlet inverse of Euler phi (A023900).",
   "id": "A349373",
   "mentions": [
     "A003602",

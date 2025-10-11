@@ -1,0 +1,19 @@
+{
+  "description": "Maximum value of row n of table A387615.",
+  "id": "A387788",
+  "mentions": [
+    "A079277",
+    "A206242",
+    "A206243",
+    "A387615"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

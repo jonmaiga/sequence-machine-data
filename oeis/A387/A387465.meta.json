@@ -1,0 +1,42 @@
+{
+  "description": "Irregular triangle T(n,k), n >= 0, 0 <= k < 2^(n-1), where T(n,k) = Product_{j=0..n-1} prime(n-j)^((j+1)*d_j), where d_j is the bit with digit weight 2^j in the binary expansion of 2^(n-1)+k.",
+  "id": "A387465",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001221",
+    "A001222",
+    "A001597",
+    "A001694",
+    "A006939",
+    "A007947",
+    "A019565",
+    "A029837",
+    "A029931",
+    "A036044",
+    "A064549",
+    "A067255",
+    "A093141",
+    "A110765",
+    "A167747",
+    "A242378",
+    "A265127",
+    "A286708",
+    "A304686",
+    "A332785",
+    "A362227",
+    "A363250",
+    "A384003"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

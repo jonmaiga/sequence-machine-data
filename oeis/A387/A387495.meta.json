@@ -1,0 +1,18 @@
+{
+  "description": "Exponents k such that exp(k)/Pi is closer to an integer than for any smaller k.",
+  "id": "A387495",
+  "mentions": [
+    "A061360",
+    "A079490",
+    "A080284"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

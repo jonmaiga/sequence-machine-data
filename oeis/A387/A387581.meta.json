@@ -1,0 +1,15 @@
+{
+  "description": "Number of matchings in the n-trapezohedral graph.",
+  "id": "A387581",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/16) * exp(5*Pi/4) * 2^(1/4).",
+  "id": "A388320",
+  "mentions": [
+    "A022594"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

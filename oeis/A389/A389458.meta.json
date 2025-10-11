@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose sum of non-unitary divisors (A048146) is congruent to 2 modulo 4.",
+  "id": "A389458",
+  "mentions": [
+    "A000079",
+    "A034448",
+    "A048146",
+    "A069562",
+    "A191217",
+    "A389197",
+    "A389199",
+    "A389459"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

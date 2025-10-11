@@ -1,0 +1,21 @@
+{
+  "description": "Number of chiral pairs of polyominoes with n heptagonal cells of the hyperbolic regular tiling with Schläfli symbol {7,oo}.",
+  "id": "A389562",
+  "mentions": [
+    "A002295",
+    "A005419",
+    "A369473",
+    "A389561",
+    "A389563",
+    "A389564"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

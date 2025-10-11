@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = numerator(k^n/n), with k >= 0.",
+  "id": "A387656",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000027",
+    "A004248",
+    "A065440",
+    "A075101",
+    "A112543",
+    "A129194",
+    "A273893",
+    "A278312",
+    "A387655",
+    "A387657"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

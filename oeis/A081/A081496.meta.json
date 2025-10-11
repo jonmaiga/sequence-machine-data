@@ -2,18 +2,19 @@
   "description": "Start with Pascal's triangle; a(n) is the sum of the numbers on the periphery of the n-th central rhombus containing exactly 4 numbers.",
   "id": "A081496",
   "mentions": [
+    "A028270",
     "A029635",
     "A081494",
-    "A081495",
-    "A081497"
+    "A081495"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 26,
     "source": "joeis"
   }
 }

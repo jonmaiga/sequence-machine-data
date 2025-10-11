@@ -1,0 +1,26 @@
+{
+  "description": "Number of decimal digits in the n-th Catalan number.",
+  "id": "A389231",
+  "mentions": [
+    "A000108",
+    "A055642",
+    "A060384",
+    "A097944",
+    "A111393",
+    "A137239",
+    "A185679",
+    "A295866",
+    "A386758"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

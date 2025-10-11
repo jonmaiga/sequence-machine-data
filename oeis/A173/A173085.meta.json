@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n^2 - 5, and n^2 + 5 are semiprime.",
+  "description": "Numbers k such that k, k^2 - 5, and k^2 + 5 are semiprime.",
   "id": "A173085",
   "mentions": [
     "A001358",

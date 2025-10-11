@@ -1,7 +1,14 @@
 {
-  "description": "T(n,k)=Number of nXk 0..n*k-1 arrays with upper left zero and lower right n*k-1 and each element differing from its horizontal and vertical neighbors by a power of three.",
+  "description": "T(n,k) is the number of n X k 0..n*k-1 arrays with upper left zero and lower right n*k-1 and each element differing from its horizontal and vertical neighbors by a power of three.",
   "id": "A265218",
-  "mentions": [],
+  "mentions": [
+    "A265212",
+    "A265213",
+    "A265214",
+    "A265215",
+    "A265216",
+    "A265217"
+  ],
   "tags": [
     "nonn",
     "tabl"

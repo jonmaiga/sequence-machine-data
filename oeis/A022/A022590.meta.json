@@ -2,7 +2,8 @@
   "description": "Expansion of Product_{m>=1} (1+q^m)^26.",
   "id": "A022590",
   "mentions": [
-    "A286335"
+    "A286335",
+    "A388316"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be split into two numbers whose products of digits are equal.",
+  "id": "A387866",
+  "mentions": [
+    "A007954",
+    "A067042",
+    "A083967",
+    "A238237",
+    "A387867"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

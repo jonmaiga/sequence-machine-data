@@ -1,0 +1,19 @@
+{
+  "description": "Position of the odd Markoff numbers A388291 in A002559.",
+  "id": "A388292",
+  "mentions": [
+    "A002559",
+    "A388290",
+    "A388291"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

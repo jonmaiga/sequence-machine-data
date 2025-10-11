@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/8) * exp(11*Pi/12) * 2^(1/4).",
+  "id": "A388313",
+  "mentions": [
+    "A022587"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

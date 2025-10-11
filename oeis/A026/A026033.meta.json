@@ -1,17 +1,18 @@
 {
-  "description": "C(4n,n) - C(4n,n-4).",
+  "description": "a(n) = C(4*n,n) - C(4*n,n-4).",
   "id": "A026033",
   "mentions": [
     "A002293",
     "A026022"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

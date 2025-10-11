@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the even parts in the partitions of n into 2 parts.",
+  "id": "A387541",
+  "mentions": [
+    "A387539"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

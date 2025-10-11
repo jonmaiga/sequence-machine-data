@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp(tanh(x)*tan(x)), even powers only.",
+  "description": "Expansion of e.g.f. exp(tanh(x)*tan(x)), even powers only.",
   "id": "A009272",
   "mentions": [],
   "tags": [

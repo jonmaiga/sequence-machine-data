@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest unused positive number that has at least one prime exponent in its prime factorization that equals a prime exponent in the prime factorization of a(n-1).",
+  "id": "A388651",
+  "mentions": [
+    "A064413",
+    "A124010",
+    "A297075",
+    "A388652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

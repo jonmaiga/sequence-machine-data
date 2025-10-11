@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of dissections of a (4*n+2)-gon into hexagons using strictly disjoint diagonals.",
+  "id": "A387202",
+  "mentions": [
+    "A002212",
+    "A093128"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number ending in at least n identical digits that has exactly n distinct prime divisors.",
+  "id": "A389187",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002275",
+    "A086565",
+    "A388789"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

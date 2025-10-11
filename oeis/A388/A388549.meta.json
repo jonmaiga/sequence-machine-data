@@ -1,0 +1,26 @@
+{
+  "description": "Perfect powers k^m, m > 2, of nonsquarefree numbers k that are not squareful.",
+  "id": "A388549",
+  "mentions": [
+    "A000961",
+    "A024619",
+    "A036966",
+    "A246549",
+    "A332785",
+    "A372695",
+    "A383394",
+    "A386762",
+    "A388293",
+    "A388304"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

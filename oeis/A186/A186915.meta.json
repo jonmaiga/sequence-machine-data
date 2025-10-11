@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..6 arrays with each 3X3 subblock having rows and columns in lexicographically nondecreasing order.",
+  "description": "T(n,k) is the number of (n+2) X (k+2) 0..6 arrays with each 3 X 3 subblock having rows and columns in lexicographically nondecreasing order.",
   "id": "A186915",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

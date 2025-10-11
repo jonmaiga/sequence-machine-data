@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2^(7/4) * exp(-Pi/4).",
+  "id": "A388666",
+  "mentions": [
+    "A143895"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

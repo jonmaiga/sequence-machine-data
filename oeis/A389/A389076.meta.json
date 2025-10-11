@@ -1,0 +1,21 @@
+{
+  "description": "Sum of all other divisors of primeshifted n except its squarefree part: a(n) = sigma(A003961(n)) - A007913(A003961(n)).",
+  "id": "A389076",
+  "mentions": [
+    "A003961",
+    "A003973",
+    "A007913",
+    "A326126",
+    "A389077",
+    "A389078"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

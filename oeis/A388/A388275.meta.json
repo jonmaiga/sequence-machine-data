@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k and sigma(k) have the same largest prime factor and also its exponent is equal in their prime factorizations, with a(1) = 1 included by convention.",
+  "id": "A388275",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001694",
+    "A005820",
+    "A007691",
+    "A046060",
+    "A053585",
+    "A071834",
+    "A386428",
+    "A388274",
+    "A388276"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

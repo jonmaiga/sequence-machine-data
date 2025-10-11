@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x^4/24 * sinh(x)).",
+  "id": "A387019",
+  "mentions": [
+    "A003724",
+    "A003727",
+    "A389224"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

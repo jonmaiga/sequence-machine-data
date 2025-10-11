@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of a 2n-set into even blocks of size > 2.",
+  "id": "A387547",
+  "mentions": [
+    "A000110",
+    "A005046"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

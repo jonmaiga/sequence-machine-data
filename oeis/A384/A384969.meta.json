@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with exactly two distinct base-10 digits that have more divisors than any smaller such number.",
+  "id": "A384969",
+  "mentions": [
+    "A000005",
+    "A031955"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

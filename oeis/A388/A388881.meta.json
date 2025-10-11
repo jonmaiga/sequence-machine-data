@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of -1/6 * exp(19*Pi/24) * Pi^(3/2) * 2^(3/8) * Gamma(11/12)^2 * (-2+3^(1/2)) / Gamma(2/3)^2 / Gamma(3/4)^4.",
+  "id": "A388881",
+  "mentions": [
+    "A255317"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

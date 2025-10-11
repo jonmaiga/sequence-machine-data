@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = (1/2)*(A034460(n) + A325313(n)).",
+  "description": "a(n) = (1/2)*(A034448(n)+A048250(n)-2*n), where A034448 is the sum of unitary divisors and A048250 is the sum of squarefree divisors.",
   "id": "A325977",
   "mentions": [
     "A033879",
     "A034448",
     "A034460",
     "A048250",
+    "A228058",
     "A306633",
     "A325313",
     "A325963",
@@ -14,7 +15,11 @@
     "A325975",
     "A325978",
     "A325979",
-    "A325981"
+    "A325981",
+    "A388985",
+    "A388986",
+    "A389215",
+    "A389217"
   ],
   "tags": [
     "formulas",

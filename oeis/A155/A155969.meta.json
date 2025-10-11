@@ -2,7 +2,11 @@
   "description": "Decimal expansion of the square of the Euler-Mascheroni constant.",
   "id": "A155969",
   "mentions": [
-    "A001620"
+    "A001620",
+    "A002389",
+    "A073004",
+    "A098907",
+    "A346589"
   ],
   "tags": [
     "cons",

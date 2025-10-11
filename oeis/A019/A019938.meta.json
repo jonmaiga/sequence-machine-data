@@ -2,10 +2,12 @@
   "description": "Decimal expansion of tangent of 40 degrees.",
   "id": "A019938",
   "mentions": [
-    "A019849"
+    "A019849",
+    "A019859"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

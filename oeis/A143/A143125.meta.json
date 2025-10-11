@@ -1,17 +1,16 @@
 {
-  "description": "Sum {j=1..n} j*A001462(j).",
+  "description": "a(n) = Sum {j=1..n} j*A001462(j).",
   "id": "A143125",
   "mentions": [
     "A001462",
     "A143124"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

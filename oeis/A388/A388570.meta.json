@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (4 * (-1+sqrt(2)) * exp(Pi) * Gamma(5/4)^4) / Pi^3.",
+  "id": "A388570",
+  "mentions": [
+    "A121455"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(Pi / 4) / (3^(3/8) * (2 * (1+sqrt(3)))^(1/6)).",
+  "id": "A389012",
+  "mentions": [
+    "A280874"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

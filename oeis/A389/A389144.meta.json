@@ -1,0 +1,25 @@
+{
+  "description": "Weak numbers k such that lpf(k)^2 | k, where lpf(n) denotes the least prime factor of n (A020639).",
+  "id": "A389144",
+  "mentions": [
+    "A001694",
+    "A007947",
+    "A013929",
+    "A020639",
+    "A052485",
+    "A126706",
+    "A283050",
+    "A332785",
+    "A366825",
+    "A389145"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

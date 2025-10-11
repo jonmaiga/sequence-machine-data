@@ -1,0 +1,20 @@
+{
+  "description": "The length of binary expansion of n minus the length of the maximal common prefix of the binary expansions of n and A003961(n), where A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A387413",
+  "mentions": [
+    "A000523",
+    "A003961",
+    "A387412",
+    "A387414",
+    "A387423"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

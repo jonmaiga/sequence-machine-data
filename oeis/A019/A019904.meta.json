@@ -1,9 +1,18 @@
 {
   "description": "Decimal expansion of tangent of 6 degrees.",
   "id": "A019904",
-  "mentions": [],
+  "mentions": [
+    "A019815",
+    "A019821",
+    "A019839",
+    "A019887",
+    "A019940",
+    "A019964",
+    "A019976"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

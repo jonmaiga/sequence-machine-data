@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=T(n+1,n), array T given by A048201.",
+  "description": "a(n) = T(n+1,n), array T given by A048201.",
   "id": "A048204",
   "mentions": [
     "A004978",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
-    "source": "joeis"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

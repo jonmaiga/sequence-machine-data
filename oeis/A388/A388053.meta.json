@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n^2+k+1,n).",
+  "id": "A388053",
+  "mentions": [
+    "A306280",
+    "A388052"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

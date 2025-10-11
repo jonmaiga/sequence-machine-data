@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of length n binary palindromic words which are not all zero in which 1's occur in blocks of at least k.",
+  "id": "A388548",
+  "mentions": [
+    "A023434",
+    "A052551",
+    "A131524",
+    "A386709",
+    "A388200",
+    "A388547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

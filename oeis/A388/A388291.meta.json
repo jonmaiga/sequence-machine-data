@@ -1,0 +1,20 @@
+{
+  "description": "The odd Markoff numbers.",
+  "id": "A388291",
+  "mentions": [
+    "A002559",
+    "A309376",
+    "A388290",
+    "A388292"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

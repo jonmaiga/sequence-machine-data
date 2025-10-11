@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) divides Fibonacci(n).",
+  "description": "Numbers k such that sigma(k) divides Fibonacci(k).",
   "id": "A258748",
   "mentions": [
     "A000045",

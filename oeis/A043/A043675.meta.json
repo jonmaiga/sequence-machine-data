@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-16 representation has exactly 2 runs.",
   "id": "A043675",
-  "mentions": [],
+  "mentions": [
+    "A043705"
+  ],
   "tags": [
     "base",
     "nonn"

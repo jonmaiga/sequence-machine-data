@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer for which there exists a strict partition that can be partitioned into two disjoint subsets with equal sum in n ways.",
+  "id": "A387389",
+  "mentions": [
+    "A000009",
+    "A083206",
+    "A237258",
+    "A305551",
+    "A321452",
+    "A371791",
+    "A387388"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

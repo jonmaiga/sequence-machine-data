@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 1/18 * exp(5*Pi/6) * Pi / Gamma(11/12)^2 / Gamma(7/12)^2.",
+  "id": "A388896",
+  "mentions": [
+    "A258831"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "The first differences of A035403.",
+  "description": "First differences of A035403.",
   "id": "A035413",
   "mentions": [
     "A003114",
@@ -10,12 +10,11 @@
     "A035415"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 73,
+    "source": "joeis"
   }
 }

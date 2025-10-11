@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with even length such that phi(n)=phi(d_1^d_2)*phi(d_3^d_4) *...*phi(d_(k-1)^d_k) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "description": "Numbers m with even length such that phi(m)=phi(d_1^d_2)*phi(d_3^d_4) *...*phi(d_(k-1)^d_k) where d_1 d_2 ... d_k is the decimal expansion of m.",
   "id": "A112011",
   "mentions": [
     "A110084",

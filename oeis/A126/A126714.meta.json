@@ -1,5 +1,5 @@
 {
-  "description": "Dual Wythoff array read along antidiagonals.",
+  "description": "Dual Wythoff array read along antidiagonals downwards.",
   "id": "A126714",
   "mentions": [
     "A000032",

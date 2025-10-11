@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 8 * exp(-Pi/3) * Gamma(3/4)^8 / Pi^2.",
+  "id": "A388355",
+  "mentions": [
+    "A023007"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

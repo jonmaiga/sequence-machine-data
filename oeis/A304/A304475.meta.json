@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..1 arrays with every element unequal to 0, 1, 2, 4 or 6 king-move adjacent elements, with upper left element zero.",
+  "description": "Number of n X 4 0..1 arrays with every element unequal to 0, 1, 2, 4 or 6 king-move adjacent elements, with upper left element zero.",
   "id": "A304475",
   "mentions": [
     "A304479"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

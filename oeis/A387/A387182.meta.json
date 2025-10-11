@@ -1,0 +1,13 @@
+{
+  "description": "Positive integers k where, for zeta_k a primitive k-th root of unity, the set S_k = {(1-zeta_k^i)/(1-zeta_k) : 1",
+  "id": "A387182",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

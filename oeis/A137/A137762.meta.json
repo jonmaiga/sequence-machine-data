@@ -2,6 +2,7 @@
   "description": "Central elements in writing first the numerator and then the denominator (left to right) of Leibniz's harmonic-like triangle.",
   "id": "A137762",
   "mentions": [
+    "A003506",
     "A046201",
     "A046204",
     "A046205",
@@ -25,6 +26,7 @@
   "tags": [
     "formulas",
     "frac",
+    "more",
     "nonn",
     "tabf"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which A209332(n)=0.",
+  "description": "Numbers k for which A209332(k)=0.",
   "id": "A209333",
   "mentions": [
     "A209332"

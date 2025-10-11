@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 2n^k + 1, for k = 2..6, are prime.",
+  "description": "Integers m such that 2*m^k + 1, for k = 2..6, are prime.",
   "id": "A240099",
   "mentions": [
     "A089001",

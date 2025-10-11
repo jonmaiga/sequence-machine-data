@@ -2,7 +2,8 @@
   "description": "a(n) is the least odd multiple of 3, k, such that k*2^n-1 is a Sophie Germain prime.",
   "id": "A176248",
   "mentions": [
-    "A005384"
+    "A005384",
+    "A179658"
   ],
   "tags": [
     "nonn"

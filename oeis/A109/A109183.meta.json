@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th and (n+1)-th primes have the same sum of digits squared but different sets of digits.",
+  "description": "Numbers k such that both the k-th and (k+1)-th primes have the same sum of digits squared but different sets of digits.",
   "id": "A109183",
   "mentions": [
     "A000040",

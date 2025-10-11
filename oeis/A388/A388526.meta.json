@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((3+sqrt(3)) * exp(Pi / 4) * Gamma(7/12)^3 * Gamma(2/3) * Gamma(11/12)^2) / (8*2^(3/4) * Gamma(3/4)^7).",
+  "id": "A388526",
+  "mentions": [
+    "A112604"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^(n-k) * binomial(n,k) * binomial(4*n+1,k).",
+  "id": "A388131",
+  "mentions": [
+    "A079589",
+    "A385605",
+    "A388129",
+    "A388130",
+    "A388135"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

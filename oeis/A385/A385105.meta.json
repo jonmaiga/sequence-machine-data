@@ -1,0 +1,19 @@
+{
+  "description": "Harshad root of integer n: the largest integer produced by repeatedly dividing n by its digit sum until it fails to produce another integer or it reaches a power of 10.",
+  "id": "A385105",
+  "mentions": [
+    "A005349",
+    "A188641",
+    "A389235"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

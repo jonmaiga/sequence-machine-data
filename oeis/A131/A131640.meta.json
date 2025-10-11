@@ -1,7 +1,10 @@
 {
   "description": "First differences are periodic: 50, 50, 75, 50, 50, 75, ...",
   "id": "A131640",
-  "mentions": [],
+  "mentions": [
+    "A057078",
+    "A102283"
+  ],
   "tags": [
     "easy",
     "formulas",

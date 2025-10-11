@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 4 * exp(-Pi / 2) * Gamma(3/4)^2 / Gamma(11/12) / Gamma(7/12).",
+  "id": "A388448",
+  "mentions": [
+    "A058584"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

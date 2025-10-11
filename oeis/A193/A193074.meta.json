@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: A(x) = 1 + Sum_{n>=1} x^n*A(x)^prime(n).",
+  "description": "G.f. satisfies A(x) = 1 + Sum_{n>=1} x^n * A(x)^prime(n).",
   "id": "A193074",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

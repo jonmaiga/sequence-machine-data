@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k having exactly n divisors that are not balanced numbers.",
+  "id": "A387333",
+  "mentions": [
+    "A020492",
+    "A386591"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

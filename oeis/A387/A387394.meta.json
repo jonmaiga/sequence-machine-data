@@ -1,0 +1,18 @@
+{
+  "description": "Total number of 2's in the decimal digits of the divisors of n.",
+  "id": "A387394",
+  "mentions": [
+    "A385494",
+    "A387396",
+    "A387463"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

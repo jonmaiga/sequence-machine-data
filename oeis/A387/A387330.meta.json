@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n such that it is possible to choose a different constant integer partition of each part.",
+  "id": "A387330",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A052335",
+    "A063834",
+    "A238873",
+    "A239312",
+    "A276079",
+    "A355731",
+    "A355739",
+    "A367771",
+    "A370320",
+    "A383706",
+    "A387110",
+    "A387118",
+    "A387134",
+    "A387137",
+    "A387178",
+    "A387180",
+    "A387181",
+    "A387328",
+    "A387329",
+    "A387576",
+    "A387577"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

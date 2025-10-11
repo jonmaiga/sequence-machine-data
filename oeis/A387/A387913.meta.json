@@ -1,0 +1,19 @@
+{
+  "description": "Hodge number h^{1,n-1} of a smooth hypersurface of degree n+2 in P^{n+1}.",
+  "id": "A387913",
+  "mentions": [
+    "A000290",
+    "A001700",
+    "A387914"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

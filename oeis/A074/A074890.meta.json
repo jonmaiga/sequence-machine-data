@@ -1,8 +1,10 @@
 {
-  "description": "Decimal form of binary integers produced by a modified version of Wolfram's Rule 30 one-dimensional cellular automaton.",
+  "description": "a(n) is the action of recursively applying 'Rule 30' elementary cellular automata on the binary representation of n if the cells may only expand into the significant bit, a(0) = 1.",
   "id": "A074890",
   "mentions": [
-    "A110240"
+    "A110240",
+    "A269160",
+    "A387312"
   ],
   "tags": [
     "base",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 31,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

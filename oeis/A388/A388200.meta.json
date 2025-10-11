@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of length n binary palindromic words in which 1's occur in blocks of at least k, n >= 0, k >= 1.",
+  "id": "A388200",
+  "mentions": [
+    "A005251",
+    "A005686",
+    "A060546",
+    "A103609",
+    "A108104",
+    "A134816",
+    "A388146"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

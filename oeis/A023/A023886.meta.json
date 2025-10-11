@@ -1,5 +1,5 @@
 {
-  "description": "Average of proper divisors (excluding 1) is an integer.",
+  "description": "Average of proper divisors excluding 1 is an integer.",
   "id": "A023886",
   "mentions": [],
   "tags": [

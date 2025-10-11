@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (Pi^(5/2) * exp(Pi / 2)) / (3^(1/4) * Gamma(7/12)^5 * Gamma(11/12)^5).",
+  "id": "A388738",
+  "mentions": [
+    "A204342"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

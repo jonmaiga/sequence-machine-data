@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + (n-th generalized non-cuban prime) = (n-th generalized cuban prime).",
+  "description": "Numbers k such that k + (k-th generalized non-cuban prime) = (k-th generalized cuban prime).",
   "id": "A173026",
   "mentions": [
     "A003627",

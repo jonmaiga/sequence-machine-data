@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the Rogers-Ramanujan R(q) function evaluated at q = exp(-Pi).",
+  "id": "A387884",
+  "mentions": [
+    "A003106",
+    "A003114",
+    "A093580"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

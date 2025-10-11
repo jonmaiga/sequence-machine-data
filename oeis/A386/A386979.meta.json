@@ -1,0 +1,14 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-Plummer-Toft graph.",
+  "id": "A386979",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

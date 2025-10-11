@@ -1,0 +1,17 @@
+{
+  "description": "Number of dissections of a convex n-gon by strictly disjoint diagonals so as to create no triangles.",
+  "id": "A387224",
+  "mentions": [
+    "A004149",
+    "A093128"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

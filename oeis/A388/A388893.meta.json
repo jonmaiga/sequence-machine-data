@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of -(27/16384) * exp(17*Pi/24) * sqrt(2) * Gamma(2/3)^16 * Gamma(7/12)^(11/2) * (11*3^(1/2)+19) / Pi^(27/4) / Gamma(11/12)^(21/2) / (-2+3^(1/2)) / (sqrt(2) * (3^(1/2)-1))^(1/2).",
+  "id": "A388893",
+  "mentions": [
+    "A258770"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

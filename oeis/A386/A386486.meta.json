@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = 4*n^2 - 3*n + 2.",
+  "id": "A386486",
+  "mentions": [
+    "A001107",
+    "A054552",
+    "A343560"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that the digits of k are not present in 3k.",
   "id": "A140467",
-  "mentions": [],
+  "mentions": [
+    "A129846"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

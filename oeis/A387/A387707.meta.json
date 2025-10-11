@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A337345(A023196(n)), where A337345 is the number of divisors d of n for which A003961(d) > 2*d, and A023196 lists the nondeficient numbers, numbers k such that sigma(k) >= 2*k.",
+  "id": "A387707",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A023196",
+    "A246282",
+    "A337345",
+    "A337372",
+    "A337381",
+    "A378658",
+    "A387708"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

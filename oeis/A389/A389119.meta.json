@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that only use the digits 0 and 1 in both base 3 and 10.",
+  "id": "A389119",
+  "mentions": [
+    "A005836",
+    "A007088"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

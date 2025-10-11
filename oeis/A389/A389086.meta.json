@@ -1,0 +1,22 @@
+{
+  "description": "Primeshift array for primegap shift: Square array read by antidiagonals: A(1,col) = 3*col, and for row > 1, A(row,col) = A389084(A(row-1,col)).",
+  "id": "A389086",
+  "mentions": [
+    "A008585",
+    "A130789",
+    "A246278",
+    "A389083",
+    "A389084",
+    "A389085",
+    "A389088"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

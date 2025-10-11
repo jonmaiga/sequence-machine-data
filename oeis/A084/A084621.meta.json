@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Fibonacci(n) concatenated with its 10's complement is prime.",
+  "description": "Numbers k such that Fibonacci(k) concatenated with its 10's complement is prime.",
   "id": "A084621",
   "mentions": [
     "A084620"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

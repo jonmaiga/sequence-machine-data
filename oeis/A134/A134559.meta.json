@@ -1,13 +1,15 @@
 {
-  "description": "A127093 * A000012.",
+  "description": "Triangle read by rows: T(n,k) is the sum of the divisors of n that are >= k.",
   "id": "A134559",
   "mentions": [
     "A000012",
+    "A000027",
     "A000203",
     "A001157",
     "A005383",
     "A039653",
-    "A127093"
+    "A127093",
+    "A135539"
   ],
   "tags": [
     "formulas",
@@ -16,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 78,
     "source": "joeis"
   }
 }

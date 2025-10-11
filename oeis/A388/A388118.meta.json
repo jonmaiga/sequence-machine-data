@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (16 * sqrt(2+sqrt(2)) * exp(Pi) * Gamma(5/4)^3 * sin(Pi / 8)^3) / Pi^(9/4).",
+  "id": "A388118",
+  "mentions": [
+    "A004025"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

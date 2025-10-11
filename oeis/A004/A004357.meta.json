@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = binomial(6*n,n-2).",
+  "description": "Binomial coefficient C(6n,n-2).",
   "id": "A004357",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 16,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

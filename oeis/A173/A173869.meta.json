@@ -1,9 +1,10 @@
 {
-  "description": "Irregular table T(n,k) = A164341(n,k) * A036039(n,k) read by rows.",
+  "description": "Irregular triangle T(n,k) = A164341(n,k) * A036039(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A173869",
   "mentions": [
     "A000041",
     "A000085",
+    "A036036",
     "A036039",
     "A104778",
     "A111883",
@@ -15,8 +16,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

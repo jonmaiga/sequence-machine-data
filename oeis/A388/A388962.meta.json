@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(Pi / 24) * Gamma(3/4) / Pi^(1/4).",
+  "id": "A388962",
+  "mentions": [
+    "A279328"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

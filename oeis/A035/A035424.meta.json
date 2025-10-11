@@ -1,5 +1,5 @@
 {
-  "description": "Related to Rogers-Ramanujan Identities.",
+  "description": "Limit of the position of the n-th partition such that with k parts the smallest part is at least k in the list of all integer partitions sorted in reverse lexicographic order.",
   "id": "A035424",
   "mentions": [
     "A003106",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which n^5-n-1 is not prime.",
+  "description": "Numbers k for which k^5-k-1 is composite.",
   "id": "A177106",
   "mentions": [
     "A126427"

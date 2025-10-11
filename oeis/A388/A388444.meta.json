@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of -1/20 * ((-3+sqrt(5)) * sqrt(Pi) * exp(Pi)) / Gamma(3/4)^2.",
+  "id": "A388444",
+  "mentions": [
+    "A053694"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

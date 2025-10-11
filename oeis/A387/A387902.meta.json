@@ -1,0 +1,16 @@
+{
+  "description": "Index of A002313(n) in A005529.",
+  "id": "A387902",
+  "mentions": [
+    "A002313",
+    "A005529"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

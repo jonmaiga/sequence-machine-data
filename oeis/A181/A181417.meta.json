@@ -1,10 +1,9 @@
 {
-  "description": "Irregular triangle T(n,k) = binomial(n-1,m-1)*m!*A036040(n,k), where m=A036043(n,k).",
+  "description": "Irregular triangle T(n,k) = binomial(n-1,m-1)*m!*A036040(n,k), where m=A036043(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A181417",
   "mentions": [
     "A000041",
-    "A000142",
-    "A007318",
+    "A036036",
     "A036040",
     "A036043",
     "A045531",
@@ -17,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n' = d_1^k + d_2^(k-2) + ... + d_k^1 where d_1, d_2, ..., d_k are the digits of n, with MSD(n) = d_1 and LSD(n) = d_k, and n' is the arithmetic derivative of n.",
+  "description": "Numbers n such that n' = d_1^k + d_2^(k-1) + ... + d_k^1 where d_1, d_2, ..., d_k are the digits of n, with MSD(n) = d_1 and LSD(n) = d_k, and n' is the arithmetic derivative of n.",
   "id": "A284813",
   "mentions": [
     "A003415",

@@ -1,14 +1,17 @@
 {
   "description": "Largest prime <= 8^n.",
   "id": "A104093",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A001018"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 21,
     "source": "joeis"
   }
 }

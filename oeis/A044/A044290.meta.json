@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that string 4,3 occurs in the base 9 representation of n but not of n-1.",
+  "description": "Numbers k such that the string 4,3 occurs in the base 9 representation of k but not of k-1.",
   "id": "A044290",
-  "mentions": [],
+  "mentions": [
+    "A007095"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
-    "source": "joeis"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

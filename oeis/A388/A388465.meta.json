@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 4096 * exp(-4*Pi/3) * Gamma(3/4)^32 / Pi^8.",
+  "id": "A388465",
+  "mentions": [
+    "A082557"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

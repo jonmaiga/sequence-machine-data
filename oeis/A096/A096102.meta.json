@@ -1,11 +1,13 @@
 {
-  "description": "a(1) = 1, a(2) = 3; for n > 2: a(n) = smallest (odd) number not occurring earlier such that the sum of each section of odd length >=3 is prime.",
+  "description": "a(1) = 1, a(2) = 3; for n > 2: a(n) = smallest (odd) number not occurring earlier such that the sum of each section of odd length >= 3 is prime.",
   "id": "A096102",
   "mentions": [
     "A096100",
     "A096101"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer m such that sum_(k=1 to m) d(k) is divisible by n, where d(k) (A000005) is the number of divisors of k.",
+  "description": "Smallest integer m such that Sum_{k=1..m} d(k) is divisible by n, where d(k) (A000005) is the number of divisors of k.",
   "id": "A053051",
   "mentions": [
     "A000005",

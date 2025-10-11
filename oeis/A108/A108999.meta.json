@@ -2,6 +2,7 @@
   "description": "Main diagonal of square array A108998, in which row n equals the coordination sequence of B_n lattice.",
   "id": "A108999",
   "mentions": [
+    "A001622",
     "A108553",
     "A108554",
     "A108998",

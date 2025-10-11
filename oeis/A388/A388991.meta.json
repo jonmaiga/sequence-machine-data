@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of ratio A326128(n) / A326127(n), with a(6) = 0 by convention.",
+  "id": "A388991",
+  "mentions": [
+    "A000203",
+    "A007913",
+    "A326127",
+    "A326128",
+    "A326129",
+    "A388992"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

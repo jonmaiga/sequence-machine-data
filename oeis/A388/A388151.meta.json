@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^15 / Pi^(15/4).",
+  "id": "A388151",
+  "mentions": [
+    "A004416"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

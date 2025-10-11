@@ -2,6 +2,7 @@
   "description": "G.f. = 1/(1-g(x)) where g(x) is the g.f. for A141309.",
   "id": "A185161",
   "mentions": [
+    "A141308",
     "A141309"
   ],
   "tags": [

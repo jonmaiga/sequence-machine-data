@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that phi(m) is a heptagonal number.",
+  "id": "A384997",
+  "mentions": [
+    "A000010",
+    "A000566",
+    "A384996"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

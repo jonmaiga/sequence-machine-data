@@ -1,5 +1,5 @@
 {
-  "description": "Rank of elliptic curve y^2 = x^3 + n*x + n.",
+  "description": "Algebraic rank of elliptic curve y^2 = x^3 + n*x + n.",
   "id": "A386928",
   "mentions": [
     "A060950",

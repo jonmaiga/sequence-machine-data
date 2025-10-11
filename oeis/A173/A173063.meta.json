@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n + n - 1 is a prime.",
+  "description": "Numbers k such that 2^k + k - 1 is a prime.",
   "id": "A173063",
   "mentions": [],
   "tags": [

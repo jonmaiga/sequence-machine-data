@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that have several prime factors and all prime factors have the same exponent > 2.",
+  "id": "A388304",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A013929",
+    "A024619",
+    "A036966",
+    "A120944",
+    "A126706",
+    "A131605",
+    "A177492",
+    "A286708",
+    "A303606",
+    "A384006"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

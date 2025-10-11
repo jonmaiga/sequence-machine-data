@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 9n+4 are terms in A072841.",
+  "description": "Numbers k such that 9k+4 are terms in A072841.",
   "id": "A175518",
   "mentions": [
     "A072841"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers k such that the octal expansions of k and 2*k are anagrams.",
+  "id": "A387831",
+  "mentions": [
+    "A007094",
+    "A023086"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

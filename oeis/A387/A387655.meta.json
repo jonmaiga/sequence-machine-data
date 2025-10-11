@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = numerator(n^3/3).",
+  "id": "A387655",
+  "mentions": [
+    "A000578",
+    "A061347",
+    "A169609"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

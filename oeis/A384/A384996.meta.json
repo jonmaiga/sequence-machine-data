@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that phi(m) is a hexagonal number.",
+  "id": "A384996",
+  "mentions": [
+    "A000010",
+    "A000384",
+    "A384995",
+    "A384997"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

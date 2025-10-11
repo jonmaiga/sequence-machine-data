@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3*binomial(2*n+1,n+1) - n^2 - 2*n - 4.",
+  "id": "A387922",
+  "mentions": [
+    "A003409",
+    "A117950",
+    "A387913",
+    "A387914"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

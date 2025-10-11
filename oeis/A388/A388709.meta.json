@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (1/16) * exp(5*Pi/8) * 2^(7/8).",
+  "id": "A388709",
+  "mentions": [
+    "A195861"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

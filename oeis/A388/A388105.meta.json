@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/64) * Pi^2 / Gamma(3/4)^8.",
+  "id": "A388105",
+  "mentions": [
+    "A002408"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

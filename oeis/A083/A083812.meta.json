@@ -1,18 +1,18 @@
 {
-  "description": "4n-1 is the digit reversal of n-1.",
+  "description": "Numbers k such that 4*k-1 is the digit reversal of k-1.",
   "id": "A083812",
   "mentions": [
-    "A000042",
-    "A083811"
+    "A004086",
+    "A083811",
+    "A086573"
   ],
   "tags": [
     "base",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "joeis"
+    "size": 27,
+    "source": "oeis-entry"
   }
 }

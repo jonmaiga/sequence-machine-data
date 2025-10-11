@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n binary palindromic words which are not all zero in which 1's occur in blocks of at least 4.",
+  "id": "A386709",
+  "mentions": [
+    "A209231",
+    "A388548"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

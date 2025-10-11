@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the squarefree part of the numbers satisfying Euler's condition for odd perfect numbers (A228058).",
+  "id": "A389165",
+  "mentions": [
+    "A002144",
+    "A007913",
+    "A228058",
+    "A388993",
+    "A389161",
+    "A389166"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

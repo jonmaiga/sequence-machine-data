@@ -1,0 +1,18 @@
+{
+  "description": "Number of not necessarily connected bridgeless spanning subgraphs of the cocktail party graph of order n.",
+  "id": "A389388",
+  "mentions": [
+    "A058975",
+    "A389387",
+    "A389389"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

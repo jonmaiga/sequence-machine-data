@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(3*Pi/8) * 2^(7/8).",
+  "id": "A388251",
+  "mentions": [
+    "A022574"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

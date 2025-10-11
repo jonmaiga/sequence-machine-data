@@ -1,5 +1,5 @@
 {
-  "description": "( binomial(2*p,p) - 2)/p where p = prime(n).",
+  "description": "a(n) = (binomial(2*p,p) - 2)/p, where p = prime(n).",
   "id": "A177454",
   "mentions": [
     "A000040",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

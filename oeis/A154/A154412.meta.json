@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 10n^2+14n+5, n >= 0.",
+  "description": "Primes of the form 10*k^2+14*k+5, k >= 0.",
   "id": "A154412",
   "mentions": [
     "A017353",

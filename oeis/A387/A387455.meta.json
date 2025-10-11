@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of squares of A000975.",
+  "id": "A387455",
+  "mentions": [
+    "A000975"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

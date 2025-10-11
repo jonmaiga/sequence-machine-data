@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k that is a multiple of d=A240991(n), with abundancy ratio sigma(k)/k equal to (sigma(d)+1)/d), or -1 if no such k exists.",
+  "id": "A387405",
+  "mentions": [
+    "A006530",
+    "A240991",
+    "A253560",
+    "A387406"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

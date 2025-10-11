@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^13 / Pi^(13/4).",
+  "id": "A388128",
+  "mentions": [
+    "A004414"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A387523(n) is the a(n)-th prime number.",
+  "id": "A387640",
+  "mentions": [
+    "A000720",
+    "A386482",
+    "A387523",
+    "A387544"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

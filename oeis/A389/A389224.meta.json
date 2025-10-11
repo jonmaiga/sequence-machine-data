@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. exp(x^2/2 * sinh(x)).",
+  "id": "A389224",
+  "mentions": [
+    "A003724",
+    "A003727"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

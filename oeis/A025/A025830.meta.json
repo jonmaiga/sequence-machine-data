@@ -1,8 +1,11 @@
 {
-  "description": "Expansion of 1/((1-x^3)(1-x^4)(1-x^8)).",
+  "description": "Expansion of 1/((1-x^3)*(1-x^4)*(1-x^8)).",
   "id": "A025830",
-  "mentions": [],
+  "mentions": [
+    "A001399"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that log(A156668(n)*(1 + n mod 2))/n^2 is smaller than for any prior n.",
+  "description": "Numbers k such that log(A156668(k)*(1 + k mod 2))/k^2 is smaller than for any prior k.",
   "id": "A186082",
   "mentions": [
     "A156668"

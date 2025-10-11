@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/64) * exp(Pi) * Pi^(9/2) / Gamma(3/4)^18.",
+  "id": "A388110",
+  "mentions": [
+    "A002612"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

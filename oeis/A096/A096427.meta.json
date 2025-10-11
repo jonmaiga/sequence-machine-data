@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/(sqrt(2)*G), where G is Gauss's constant A014549.",
   "id": "A096427",
   "mentions": [
+    "A004403",
     "A014549",
     "A053004",
     "A062539",

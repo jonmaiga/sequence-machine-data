@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of 2^n terms by rows, left half of (n+1)-th row = row n; right half = \"reverse and increment\" row n; using terms in A000110.",
+  "description": "Triangle of 2^(n-1) terms by rows, left half of (n+1)-th row = row n; right half = \"reverse and increment\" row n; using terms in A000110.",
   "id": "A165194",
   "mentions": [
     "A000110",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 85,
+    "source": "oeis-bfile"
   }
 }

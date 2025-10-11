@@ -1,0 +1,17 @@
+{
+  "description": "Number of nodes in the smallest quartic graph with crossing number n.",
+  "id": "A389265",
+  "mentions": [
+    "A110507",
+    "A389263"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

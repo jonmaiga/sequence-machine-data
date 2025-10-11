@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 16 * exp(-11*Pi/24) * 2^(1/8) * Gamma(3/4)^11 / Pi^(11/4).",
+  "id": "A388359",
+  "mentions": [
+    "A023010"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

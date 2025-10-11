@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the second largest dihedral angle, in radians, in a gyroelongated square cupola (Johnson solid J_23).",
+  "id": "A387321",
+  "mentions": [
+    "A002193",
+    "A010487",
+    "A177870",
+    "A195696",
+    "A195702",
+    "A384214",
+    "A384215",
+    "A385258",
+    "A385259",
+    "A387320",
+    "A387322",
+    "A387323"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

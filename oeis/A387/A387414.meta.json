@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the binary expansion of k is a prefix of the binary expansion of A003961(k), where A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A387414",
+  "mentions": [
+    "A000523",
+    "A003961",
+    "A007088",
+    "A348514",
+    "A387411",
+    "A387412",
+    "A387413"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

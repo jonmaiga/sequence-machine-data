@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n such that for some part k the multiplicity of k exceeds k.",
+  "id": "A387578",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A052335",
+    "A087153",
+    "A117144",
+    "A238873",
+    "A239312",
+    "A276078",
+    "A276079",
+    "A276429",
+    "A325130",
+    "A367867",
+    "A367902",
+    "A367903",
+    "A370582",
+    "A370583",
+    "A370592",
+    "A370593",
+    "A370594",
+    "A387111",
+    "A387112",
+    "A387113",
+    "A387118",
+    "A387134",
+    "A387178",
+    "A387180",
+    "A387328",
+    "A387329"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

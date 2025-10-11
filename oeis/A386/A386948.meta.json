@@ -1,0 +1,22 @@
+{
+  "description": "Let s = A386482 and let D = s(n)-s(n-1); a(n) = position i of |D| in row s(n-1) of A121998, multiplied by sign(D).",
+  "id": "A386948",
+  "mentions": [
+    "A000010",
+    "A020639",
+    "A051953",
+    "A121998",
+    "A386482",
+    "A387075",
+    "A387079",
+    "A387081"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 69,
+    "source": "joeis"
+  }
+}

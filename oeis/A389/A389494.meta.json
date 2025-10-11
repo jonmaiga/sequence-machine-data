@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of x such that exp(x) - arccos(x) = 0.",
+  "id": "A389494",
+  "mentions": [
+    "A069997",
+    "A126598",
+    "A196401",
+    "A389484",
+    "A389485",
+    "A389495"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

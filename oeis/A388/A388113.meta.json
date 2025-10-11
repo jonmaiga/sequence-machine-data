@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (sqrt(2) * exp(Pi / 2) * Gamma(5/4) * sin(Pi / 8)) / Pi^(3/4).",
+  "id": "A388113",
+  "mentions": [
+    "A003982"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Position of records in A389235.",
+  "id": "A389302",
+  "mentions": [
+    "A005349",
+    "A235601",
+    "A389235"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

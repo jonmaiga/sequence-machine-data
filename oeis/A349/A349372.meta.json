@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of Kimberling's paraphrases (A003602) with tau (number of divisors, A000005).",
+  "description": "Dirichlet convolution of Kimberling's paraphrase, A003602, with tau (number of divisors, A000005).",
   "id": "A349372",
   "mentions": [
     "A000005",

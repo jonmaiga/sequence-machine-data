@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((-4+3 * sqrt(2)) * exp(Pi)) / 8.",
+  "id": "A388623",
+  "mentions": [
+    "A134747"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

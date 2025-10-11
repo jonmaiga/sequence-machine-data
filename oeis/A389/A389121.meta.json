@@ -1,0 +1,21 @@
+{
+  "description": "Lower (2/3)-midsequence of A000032 (Lucas numbers) and A000045 (Fibonacci numbers); see Comments.",
+  "id": "A389121",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A293345",
+    "A293546",
+    "A389122"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

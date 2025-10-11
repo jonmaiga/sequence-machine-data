@@ -1,0 +1,45 @@
+{
+  "description": "Number of ways to choose a sequence of distinct integer partitions, one of each prime factor of n (with multiplicity).",
+  "id": "A387133",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001222",
+    "A003963",
+    "A008966",
+    "A056239",
+    "A063834",
+    "A066328",
+    "A112798",
+    "A120383",
+    "A261049",
+    "A276078",
+    "A276079",
+    "A289509",
+    "A296122",
+    "A299200",
+    "A299201",
+    "A335433",
+    "A335448",
+    "A355739",
+    "A355741",
+    "A357977",
+    "A383706",
+    "A387110",
+    "A387111",
+    "A387115",
+    "A387120",
+    "A387135",
+    "A387136",
+    "A387326",
+    "A387327"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "a(2k-1) = k-th prime of form 1 mod 4, a(2k) = k-th prime of form 3 mod 4.",
   "id": "A111744",
-  "mentions": [],
+  "mentions": [
+    "A108546"
+  ],
   "tags": [
     "nonn"
   ],

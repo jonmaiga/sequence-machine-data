@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/982.",
   "id": "A021986",
-  "mentions": [],
+  "mentions": [
+    "A021086"
+  ],
   "tags": [
     "cons",
     "nonn"

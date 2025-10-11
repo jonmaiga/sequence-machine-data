@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: coefficients of polynomials P_n(t) defined in Formula section.",
+  "description": "Triangle read by rows: T(n, k) = binomial(2*n, n + k) * binomial(n + 1, k)/(n + 1).",
   "id": "A286784",
   "mentions": [
     "A000108",

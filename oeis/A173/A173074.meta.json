@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A171715(n)=2*A173073(n).",
+  "description": "Numbers k such that A171715(k)=2*A173073(k).",
   "id": "A173074",
   "mentions": [
     "A000040",

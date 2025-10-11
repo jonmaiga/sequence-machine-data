@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (1/4) * Sum_{k=0..n-1} binomial(10*n,10*k+5).",
+  "id": "A387755",
+  "mentions": [
+    "A070833",
+    "A387753"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

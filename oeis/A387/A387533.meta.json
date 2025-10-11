@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(n)^d(n), where d(n) = A000796(n) is the n-th digit of Pi.",
+  "id": "A387533",
+  "mentions": [
+    "A000040",
+    "A000796",
+    "A387534"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

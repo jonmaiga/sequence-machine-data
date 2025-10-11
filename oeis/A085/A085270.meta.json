@@ -2,7 +2,9 @@
   "description": "Integer part of the conversion from miles to kilometers.",
   "id": "A085270",
   "mentions": [
-    "A085269"
+    "A029921",
+    "A085269",
+    "A323606"
   ],
   "tags": [
     "easy",

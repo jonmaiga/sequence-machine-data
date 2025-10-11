@@ -3,7 +3,9 @@
   "id": "A084374",
   "mentions": [
     "A001222",
-    "A054054"
+    "A054054",
+    "A106101",
+    "A389007"
   ],
   "tags": [
     "base",
@@ -11,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

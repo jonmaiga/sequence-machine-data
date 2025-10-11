@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/8) * exp(Pi).",
+  "id": "A388237",
+  "mentions": [
+    "A014103"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

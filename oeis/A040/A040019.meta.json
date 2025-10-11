@@ -2,7 +2,8 @@
   "description": "Continued fraction for sqrt(24).",
   "id": "A040019",
   "mentions": [
-    "A010480"
+    "A010480",
+    "A010689"
   ],
   "tags": [
     "cofr",

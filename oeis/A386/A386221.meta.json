@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which can be expressed as the product of a number and its binary reversal in at least three different ways.",
+  "id": "A386221",
+  "mentions": [
+    "A066531",
+    "A066598"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

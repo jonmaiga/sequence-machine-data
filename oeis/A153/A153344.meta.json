@@ -1,16 +1,16 @@
 {
-  "description": "Lim_{n=1..inf.} A055830^n.",
+  "description": "Limit_{n->oo} A055830^n.",
   "id": "A153344",
   "mentions": [
-    "A055830"
+    "A055830",
+    "A122075"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

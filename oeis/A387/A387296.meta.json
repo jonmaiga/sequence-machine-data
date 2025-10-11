@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the third largest dihedral angle, in radians, in a gyroelongated triangular cupola (Johnson solid J_22).",
+  "id": "A387296",
+  "mentions": [
+    "A010469",
+    "A195698",
+    "A344076",
+    "A344077",
+    "A385256",
+    "A385257",
+    "A387294",
+    "A387295",
+    "A387297"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

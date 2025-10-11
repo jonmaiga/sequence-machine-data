@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 5^(n-k) * binomial(n,k) * binomial(n+1,k).",
+  "id": "A386398",
+  "mentions": [
+    "A047781",
+    "A084772",
+    "A098663",
+    "A098665",
+    "A388061"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

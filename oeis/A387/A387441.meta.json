@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of cos(Pi/13).",
+  "id": "A387441",
+  "mentions": [
+    "A019680"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

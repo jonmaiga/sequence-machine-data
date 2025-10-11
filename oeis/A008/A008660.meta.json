@@ -1,9 +1,12 @@
 {
   "description": "Theta series of direct sum of 4 copies of D_4 lattice.",
   "id": "A008660",
-  "mentions": [],
+  "mentions": [
+    "A388199"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

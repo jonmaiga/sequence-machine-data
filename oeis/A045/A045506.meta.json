@@ -2,6 +2,7 @@
   "description": "Inscribe 2 spheres of curvature 2 inside sphere of curvature -1, continue to inscribe spheres where possible; sequence gives list of curvatures.",
   "id": "A045506",
   "mentions": [
+    "A007494",
     "A042944"
   ],
   "tags": [

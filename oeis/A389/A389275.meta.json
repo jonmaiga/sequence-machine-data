@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{i>=2} 1/(i^12 - i^6).",
+  "id": "A389275",
+  "mentions": [
+    "A013664",
+    "A013670",
+    "A013676"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

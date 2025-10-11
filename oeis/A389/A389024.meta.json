@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/1073741824) * exp(6 * Pi) * Pi^12 / Gamma(3/4)^48.",
+  "id": "A389024",
+  "mentions": [
+    "A287991"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

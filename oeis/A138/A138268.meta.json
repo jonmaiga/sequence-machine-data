@@ -1,7 +1,8 @@
 {
-  "description": "Negative of the Hankel transform of C(n)-C(n+2), where C(n)=A000108(n).",
+  "description": "Negative of the Hankel transform of C(n) - C(n+2), where C = A000108.",
   "id": "A138268",
   "mentions": [
+    "A000045",
     "A000108",
     "A001076"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 29,
     "source": "joeis"
   }
 }

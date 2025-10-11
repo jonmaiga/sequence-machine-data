@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive number with a total of exactly n 2's in the decimal digits of its divisors.",
+  "id": "A387396",
+  "mentions": [
+    "A387357",
+    "A387394",
+    "A387464"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

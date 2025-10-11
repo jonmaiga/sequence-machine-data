@@ -1,5 +1,5 @@
 {
-  "description": "n^2 read backwards, for n = 51, 50, 49, ...",
+  "description": "n^2 read backwards, for n = 51, 50, 49, ..., 1.",
   "id": "A080334",
   "mentions": [
     "A000290",
@@ -7,11 +7,13 @@
   ],
   "tags": [
     "base",
+    "fini",
     "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 51,
+    "offset": 1,
     "size": 51,
     "source": "oeis-entry"
   }

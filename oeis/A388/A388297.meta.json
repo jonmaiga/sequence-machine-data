@@ -1,0 +1,26 @@
+{
+  "description": "The smallest term in A061862 with exactly n distinct partitions into a sum of nonnegative powers of its digits.",
+  "id": "A388297",
+  "mentions": [
+    "A003321",
+    "A005188",
+    "A007532",
+    "A023052",
+    "A050240",
+    "A061862",
+    "A134703",
+    "A384099",
+    "A387032",
+    "A388144"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

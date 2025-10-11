@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 4*(23 - 17*n + 8*n^2).",
+  "id": "A387458",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

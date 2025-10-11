@@ -1,13 +1,15 @@
 {
   "description": "Numbers k such that the continued fraction for sqrt(k) has period 83.",
   "id": "A020422",
-  "mentions": [],
+  "mentions": [
+    "A003285"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

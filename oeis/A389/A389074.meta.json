@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of ratio A034448(n) / A048250(n), where A034448 is the sum of unitary divisors and A048250 is the sum of squarefree divisors.",
+  "id": "A389074",
+  "mentions": [
+    "A034448",
+    "A048250",
+    "A323159",
+    "A348734",
+    "A348735",
+    "A389075"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

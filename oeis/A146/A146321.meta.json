@@ -5,12 +5,13 @@
     "A070366"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 34,
     "source": "joeis"
   }
 }

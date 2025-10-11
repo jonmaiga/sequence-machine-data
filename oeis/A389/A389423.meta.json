@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n*binomial(n, n/2) if n is even otherwise 2^(n-1)*binomial(n-1, (n-1)/2)).",
+  "id": "A389423",
+  "mentions": [
+    "A002011",
+    "A005430",
+    "A098430"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

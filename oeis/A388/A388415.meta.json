@@ -1,0 +1,15 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the 2n-crossed prism graph.",
+  "id": "A388415",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

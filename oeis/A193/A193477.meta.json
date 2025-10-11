@@ -1,11 +1,12 @@
 {
-  "description": "Denominator(n!/floor(n/2)!^4).",
+  "description": "a(n) = denominator(n!/floor(n/2)!^4).",
   "id": "A193477",
   "mentions": [
     "A055773",
     "A056040"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

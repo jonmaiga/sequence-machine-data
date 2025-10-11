@@ -1,16 +1,19 @@
 {
-  "description": "Smallest primes > Catalan numbers.",
+  "description": "Smallest prime > n-th Catalan number.",
   "id": "A173868",
   "mentions": [
     "A000108",
-    "A173867"
+    "A151800",
+    "A173867",
+    "A273974"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

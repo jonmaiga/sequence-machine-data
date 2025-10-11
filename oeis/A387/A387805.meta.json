@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-path graph.",
+  "id": "A387805",
+  "mentions": [
+    "A006967",
+    "A112362"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

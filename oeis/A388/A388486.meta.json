@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (3^(5/12) * exp((-5 * Pi) / 24) * (((1+sqrt(3)) * Gamma(7/12)) / Pi)^(1/3) * Gamma(3/4)^(2/3) * Gamma(5/6)^(1/6)) / 2^(1/72).",
+  "id": "A388486",
+  "mentions": [
+    "A096981"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

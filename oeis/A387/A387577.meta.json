@@ -1,0 +1,53 @@
+{
+  "description": "Numbers k such that it is not possible to choose a sequence of distinct integer partitions, one of each prime index of k (with multiplicity).",
+  "id": "A387577",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000720",
+    "A001222",
+    "A003963",
+    "A052335",
+    "A052337",
+    "A056239",
+    "A066328",
+    "A100716",
+    "A112798",
+    "A120383",
+    "A238873",
+    "A239312",
+    "A276078",
+    "A276079",
+    "A289509",
+    "A328251",
+    "A335433",
+    "A335448",
+    "A355740",
+    "A367771",
+    "A368110",
+    "A370320",
+    "A383706",
+    "A387110",
+    "A387112",
+    "A387113",
+    "A387115",
+    "A387118",
+    "A387134",
+    "A387137",
+    "A387176",
+    "A387177",
+    "A387180",
+    "A387181",
+    "A387328",
+    "A387329",
+    "A387576"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

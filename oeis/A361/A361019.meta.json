@@ -2,7 +2,14 @@
   "description": "Dirichlet inverse of A038712.",
   "id": "A361019",
   "mentions": [
-    "A038712"
+    "A008683",
+    "A038712",
+    "A039956",
+    "A046790",
+    "A056911",
+    "A081770",
+    "A086831",
+    "A359591"
   ],
   "tags": [
     "formulas",

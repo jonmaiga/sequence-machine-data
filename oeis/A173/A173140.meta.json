@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the period of the decimal representation of 1/n is a square.",
+  "description": "Numbers k such that the period of the decimal representation of 1/k is a square.",
   "id": "A173140",
   "mentions": [
     "A002329"

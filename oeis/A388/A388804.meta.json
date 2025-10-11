@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/32) * exp(3*Pi/4) * Pi^2*2^(3/4) / Gamma(3/4)^8.",
+  "id": "A388804",
+  "mentions": [
+    "A227317"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

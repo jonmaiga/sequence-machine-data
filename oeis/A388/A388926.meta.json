@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(Pi / 3) * Gamma(11/12)^3 * Gamma(7/12)^3 / Gamma(3/4)^6.",
+  "id": "A388926",
+  "mentions": [
+    "A261325"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

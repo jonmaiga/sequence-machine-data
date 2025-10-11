@@ -1,5 +1,5 @@
 {
-  "description": "Least p-smooth number not less n, where p is the smallest prime factor of n.",
+  "description": "Least p-smooth number not less than n, where p is the smallest prime factor of n.",
   "id": "A080785",
   "mentions": [
     "A000079",

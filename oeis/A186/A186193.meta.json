@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!! is divisible by (n+1).",
+  "description": "Numbers k such that k!! is divisible by (k+1).",
   "id": "A186193",
   "mentions": [
     "A006882",

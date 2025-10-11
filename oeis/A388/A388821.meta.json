@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(-Pi) * 2^(3/4) * (2+sqrt(2))^2.",
+  "id": "A388821",
+  "mentions": [
+    "A233458"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

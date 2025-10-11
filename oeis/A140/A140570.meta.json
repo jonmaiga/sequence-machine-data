@@ -1,5 +1,5 @@
 {
-  "description": "Positions of semiprimes in the EKG sequence.",
+  "description": "Position of the n-th semiprime A001358(n) in the EKG sequence A064413.",
   "id": "A140570",
   "mentions": [
     "A001358",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
-    "source": "oeis-entry"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

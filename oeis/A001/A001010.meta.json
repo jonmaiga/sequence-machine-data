@@ -1,5 +1,5 @@
 {
-  "description": "Number of symmetric foldings of a strip of n stamps.",
+  "description": "Number of symmetric foldings of a strip of n blank stamps.",
   "id": "A001010",
   "mentions": [
     "A000682",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 44,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Number of unordered pairs of partitions of n with the same number of parts.",
+  "id": "A387259",
+  "mentions": [
+    "A000217",
+    "A008284",
+    "A072233",
+    "A238312",
+    "A380124",
+    "A380126"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

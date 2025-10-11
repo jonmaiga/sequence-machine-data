@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Gamma(1/4)^4/(4*Pi^3).",
   "id": "A091670",
   "mentions": [
+    "A000118",
     "A000796",
     "A068465",
     "A068466",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-hypercube graph.",
+  "id": "A387801",
+  "mentions": [
+    "A338005"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

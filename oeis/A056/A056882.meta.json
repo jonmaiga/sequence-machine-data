@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-celled polyominoes without holes, symmetric about diagonal 2.",
+  "description": "Number of n-celled free polyominoes that have no holes and are symmetric about two diagonal axes (and therefore centrally symmetric) but have no other symmetries.",
   "id": "A056882",
   "mentions": [
     "A000104",

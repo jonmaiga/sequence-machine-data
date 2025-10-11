@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the smallest positive real solution > 0.5 to zeta(z) = zeta(1-z).",
+  "id": "A387378",
+  "mentions": [
+    "A058303",
+    "A365281",
+    "A377302"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

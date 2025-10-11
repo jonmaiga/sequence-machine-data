@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (3/512) * exp(3*Pi/2) * Pi^4 * sqrt(2) / Gamma(3/4)^16.",
+  "id": "A388627",
+  "mentions": [
+    "A135828"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

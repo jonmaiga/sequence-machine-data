@@ -1,0 +1,22 @@
+{
+  "description": "Lower (3/2)-midsequence of (F(2n)) and (F(2n+1)), where F=A000045 (Fibonacci numbers); see Comments.",
+  "id": "A387780",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A061347",
+    "A387778",
+    "A387781",
+    "A387782"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

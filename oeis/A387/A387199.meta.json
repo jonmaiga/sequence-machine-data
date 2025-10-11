@@ -1,0 +1,16 @@
+{
+  "description": "Numbers which are not themselves palindromes, but a single swap of two digits creates a palindrome.",
+  "id": "A387199",
+  "mentions": [
+    "A002113"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

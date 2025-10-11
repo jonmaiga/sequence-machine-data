@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer k such that b(2*j) is prime for 1 <= j <= n but not prime for j = n+1, where b(1) = k and b(m+1) = b(m) + prime(m) for m >= 1.",
+  "id": "A383938",
+  "mentions": [
+    "A014284",
+    "A092163",
+    "A109723",
+    "A227547"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

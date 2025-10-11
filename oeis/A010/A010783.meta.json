@@ -2,7 +2,11 @@
   "description": "Triangle of numbers floor(n/(n-k)).",
   "id": "A010783",
   "mentions": [
-    "A010766"
+    "A006218",
+    "A010766",
+    "A024920",
+    "A059851",
+    "A355947"
   ],
   "tags": [
     "nonn",
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 78,
+    "size": 91,
     "source": "oeis-bfile"
   }
 }

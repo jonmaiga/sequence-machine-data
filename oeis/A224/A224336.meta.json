@@ -1,5 +1,5 @@
 {
-  "description": "Number of idempotent 5X5 0..n matrices of rank 4.",
+  "description": "Number of idempotent 5 X 5 0..n matrices of rank 4.",
   "id": "A224336",
   "mentions": [
     "A224333"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 33,
     "source": "joeis"
   }
 }

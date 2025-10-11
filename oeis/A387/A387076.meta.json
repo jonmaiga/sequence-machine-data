@@ -2,6 +2,7 @@
   "description": "Primes in the order in which they appear in A386482.",
   "id": "A387076",
   "mentions": [
+    "A386462",
     "A386482",
     "A387077"
   ],

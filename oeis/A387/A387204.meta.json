@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*(n + 1)*(n^2 + 17*n + 54)/24.",
+  "id": "A387204",
+  "mentions": [
+    "A387152"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

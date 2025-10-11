@@ -2,7 +2,8 @@
   "description": "Theta series of b.c.c. lattice with respect to deep hole.",
   "id": "A004024",
   "mentions": [
-    "A045831"
+    "A045831",
+    "A388117"
   ],
   "tags": [
     "easy",

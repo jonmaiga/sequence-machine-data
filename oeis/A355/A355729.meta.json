@@ -1,7 +1,9 @@
 {
   "description": "Tournament standing, under standard rules double elimination, of the participant whose elimination leaves n participants still in the tournament.",
   "id": "A355729",
-  "mentions": [],
+  "mentions": [
+    "A356189"
+  ],
   "tags": [
     "easy",
     "formulas",

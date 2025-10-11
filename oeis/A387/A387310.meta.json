@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^k * binomial(n+2,k+2) * binomial(2*k+4,k+4).",
+  "id": "A387310",
+  "mentions": [
+    "A387309",
+    "A387311"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of cos(Pi/26).",
+  "id": "A387446",
+  "mentions": [
+    "A387441"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

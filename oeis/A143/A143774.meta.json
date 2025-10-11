@@ -1,19 +1,18 @@
 {
-  "description": "Eigentriangle of triangle A022166.",
+  "description": "Eigentriangle of triangle A022166: T(n,k) = A022166(n,k) * A125812(k).",
   "id": "A143774",
   "mentions": [
     "A022166",
+    "A056860",
     "A125812"
   ],
   "tags": [
-    "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

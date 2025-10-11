@@ -1,8 +1,11 @@
 {
   "description": "Product t2(q^d); d | 4, where t2 = theta2(q)/(2*q^(1/4)).",
   "id": "A033763",
-  "mentions": [],
+  "mentions": [
+    "A388395"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

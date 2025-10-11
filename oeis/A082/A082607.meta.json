@@ -2,6 +2,7 @@
   "description": "a(0)=1; for n > 0, a(n) = least k not included earlier such that k*a(n-1) - 1 is a square.",
   "id": "A082607",
   "mentions": [
+    "A008784",
     "A082608",
     "A082609",
     "A082610",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

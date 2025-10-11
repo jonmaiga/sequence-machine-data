@@ -1,0 +1,23 @@
+{
+  "description": "Short legs of nonprimitive Pythagorean triples of the form (p^2 - q^2, 2*p*q, p^2 + q^2), ordered by increasing hypotenuse (A386943).",
+  "id": "A386945",
+  "mentions": [
+    "A046083",
+    "A046086",
+    "A366674",
+    "A380074",
+    "A386309",
+    "A386943",
+    "A386944"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

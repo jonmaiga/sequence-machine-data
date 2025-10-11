@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the cumulative sums of the k-th composition in graded reverse lexicographic order (\"standard order\", see A066099) do not cover all residue classes modulo p for any prime p; i.e., such that (0, x_1, ..., x_1+...+x_j) is an admissible prime tuple pattern, where (x_1, ..., x_j) is the k-th composition.",
+  "id": "A387383",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A023189",
+    "A066099",
+    "A161781",
+    "A292224",
+    "A292225",
+    "A387381",
+    "A387382",
+    "A387384",
+    "A387386"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

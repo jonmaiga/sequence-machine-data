@@ -1,0 +1,17 @@
+{
+  "description": "Positive numbers k with property that by doubling a substring in place we get a prime.",
+  "id": "A387526",
+  "mentions": [
+    "A000040",
+    "A323286"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

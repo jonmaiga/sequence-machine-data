@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the smallest prime p greater than all previous terms such that the product of the previous terms plus p is prime.",
+  "id": "A387687",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

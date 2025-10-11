@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that {sum of unitary divisors of k} plus {sum of squarefree divisors of k} is less than 2*k.",
+  "id": "A388986",
+  "mentions": [
+    "A013929",
+    "A034448",
+    "A048108",
+    "A048250",
+    "A228058",
+    "A325963",
+    "A325973",
+    "A325977",
+    "A386427",
+    "A388985",
+    "A389079",
+    "A389215",
+    "A389217",
+    "A389219"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

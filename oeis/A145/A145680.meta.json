@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number m such that UnitarySigma(m) = nm/(n-1).",
+  "description": "a(n) = smallest number m such that UnitarySigma(m) = n*m/(n-1).",
   "id": "A145680",
   "mentions": [
     "A034448",

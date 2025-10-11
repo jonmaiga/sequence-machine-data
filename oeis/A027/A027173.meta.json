@@ -5,11 +5,12 @@
     "A027170"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

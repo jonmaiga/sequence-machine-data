@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 2*log(2)/3.",
+  "id": "A387235",
+  "mentions": [
+    "A001504",
+    "A002162",
+    "A010701",
+    "A010722",
+    "A016627",
+    "A193535",
+    "A256232"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,8 +1,11 @@
 {
-  "description": "a(n) = (n-1)*binomial(3*n-2,n)/(2*n-1)+(n+1)*binomial(3*n,n)/(2*n+1)-binomial(3*n-1,n).",
+  "description": "a(n) = (n-1)*binomial(3*n-2,n)/(2*n-1) + (n+1)*binomial(3*n,n)/(2*n+1) - binomial(3*n-1,n).",
   "id": "A262717",
   "mentions": [
-    "A001764"
+    "A001764",
+    "A005809",
+    "A117671",
+    "A165817"
   ],
   "tags": [
     "easy",

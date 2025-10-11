@@ -1,0 +1,22 @@
+{
+  "description": "Harmonic mean of the positive integers with n decimal digits, rounded to nearest integer.",
+  "id": "A388419",
+  "mentions": [
+    "A002387",
+    "A052268",
+    "A334388",
+    "A388420",
+    "A388421"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

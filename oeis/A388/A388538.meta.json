@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x / ((1+x)^6 + x^2) ).",
+  "id": "A388538",
+  "mentions": [
+    "A065065",
+    "A071356",
+    "A369213",
+    "A378691",
+    "A388532",
+    "A388537"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

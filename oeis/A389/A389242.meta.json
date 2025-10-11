@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x^5/120 * cosh(x)).",
+  "id": "A389242",
+  "mentions": [
+    "A003724",
+    "A003727",
+    "A389149"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

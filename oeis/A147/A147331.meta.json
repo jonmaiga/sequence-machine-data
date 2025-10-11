@@ -1,8 +1,11 @@
 {
   "description": "Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 00100-00100-11111-00100 pattern in any orientation.",
   "id": "A147331",
-  "mentions": [],
+  "mentions": [
+    "A146846"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

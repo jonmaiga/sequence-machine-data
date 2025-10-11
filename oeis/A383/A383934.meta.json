@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers that contain only nonprime digits and whose prime factors contain only nonprime digits.",
+  "id": "A383934",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A084984",
+    "A387093"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 8 * (2+sqrt(3)) * exp(-Pi).",
+  "id": "A388698",
+  "mentions": [
+    "A186829"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

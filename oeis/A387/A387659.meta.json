@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 13*n^2 + 10*n + 3.",
+  "id": "A387659",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

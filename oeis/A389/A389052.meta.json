@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (8 * sqrt(20+14 * sqrt(2)) * Gamma(5/4)^4) / Pi^3.",
+  "id": "A389052",
+  "mentions": [
+    "A320149"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

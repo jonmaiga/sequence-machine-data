@@ -2,6 +2,9 @@
   "description": "Set a(1) = 1. Then take the list of defined initial terms, reverse their order, add 1, 2, 3, ... to the reversed list in succession and append this new list to the right of the previously defined terms. Repeat this process indefinitely.",
   "id": "A088023",
   "mentions": [
+    "A088742",
+    "A088743",
+    "A088744",
     "A091072"
   ],
   "tags": [
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
-    "source": "oeis-entry"
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

@@ -2,9 +2,16 @@
   "description": "a(n) = n! * binomial(n,5).",
   "id": "A001807",
   "mentions": [
-    "A021012"
+    "A000142",
+    "A000389",
+    "A001113",
+    "A001620",
+    "A021012",
+    "A091725",
+    "A099285"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

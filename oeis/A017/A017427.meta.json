@@ -1,7 +1,10 @@
 {
-  "description": "(11n+3)^3.",
+  "description": "a(n) = (11*n+3)^3.",
   "id": "A017427",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A017425"
+  ],
   "tags": [
     "easy",
     "formulas",

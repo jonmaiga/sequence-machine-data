@@ -2,6 +2,7 @@
   "description": "Continued fraction for sqrt(101).",
   "id": "A040090",
   "mentions": [
+    "A010859",
     "A040000",
     "A040002",
     "A040020",

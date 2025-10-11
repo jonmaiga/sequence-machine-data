@@ -1,0 +1,14 @@
+{
+  "description": "Number of mutual-visibility sets in the n-Moebius ladder.",
+  "id": "A389185",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

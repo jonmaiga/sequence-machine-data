@@ -1,14 +1,16 @@
 {
   "description": "Numbers with the property that all pairs of consecutive base-5 digits differ by more than 1.",
   "id": "A032968",
-  "mentions": [],
+  "mentions": [
+    "A007091"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
-    "source": "joeis"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

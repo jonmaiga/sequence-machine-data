@@ -1,0 +1,16 @@
+{
+  "description": "Primes that remain prime when their digits are rotated once to the right in both binary and decimal.",
+  "id": "A389139",
+  "mentions": [
+    "A234901"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

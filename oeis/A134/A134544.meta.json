@@ -1,22 +1,22 @@
 {
-  "description": "A051731 * A002260.",
+  "description": "Triangle read by rows: T(n,k) = Sum_{d|n, d>=k} k.",
   "id": "A134544",
   "mentions": [
     "A000010",
     "A002260",
     "A007437",
     "A051731",
-    "A054731"
+    "A054731",
+    "A135539"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 91,
     "source": "joeis"
   }
 }

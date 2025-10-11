@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (n-i)^k * (n+i)^(n-k) * binomial(n,k)^2, where i is the imaginary unit.",
+  "id": "A387430",
+  "mentions": [
+    "A110129",
+    "A386621",
+    "A387459"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

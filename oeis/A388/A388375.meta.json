@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (-32 * sqrt(2+2 / sqrt(5)) * Pi^(3/4)) / Gamma(-1/4)^3.",
+  "id": "A388375",
+  "mentions": [
+    "A029595"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

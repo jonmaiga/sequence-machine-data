@@ -1,0 +1,19 @@
+{
+  "description": "Primitive terms of A388022: numbers k that satisfy sigma(k) AND 3*k = 3*k, but none of whose proper divisors satisfy the same condition.",
+  "id": "A388025",
+  "mentions": [
+    "A000203",
+    "A004198",
+    "A005820",
+    "A388019",
+    "A388022"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

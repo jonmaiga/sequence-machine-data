@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in a pentagonal orthobirotunda (Johnson solid J_34).",
+  "id": "A389421",
+  "mentions": [
+    "A010532",
+    "A179450",
+    "A179451",
+    "A197376",
+    "A344075"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

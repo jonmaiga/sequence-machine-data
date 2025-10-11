@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=-1; a(n)=Floor[n^a(n-1)-a(n-1)^n].",
+  "description": "a(0) = -1; a(n) = floor(n^a(n-1)-a(n-1)^n).",
   "id": "A152837",
   "mentions": [
     "A084964",

@@ -1,12 +1,15 @@
 {
-  "description": "a(n)= number of Catalan numbers with n digits.",
+  "description": "a(n) is the number of Catalan numbers with n digits.",
   "id": "A137239",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A154155",
+    "A389231"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

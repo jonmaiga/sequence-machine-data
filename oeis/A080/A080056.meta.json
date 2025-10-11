@@ -1,5 +1,5 @@
 {
-  "description": "Greedy powers of (2/Pi): sum_{n=1..inf} (2/Pi)^a(n) = 1.",
+  "description": "Greedy powers of (2/Pi): Sum_{n=1..inf} (2/Pi)^a(n) = 1.",
   "id": "A080056",
   "mentions": [
     "A077468",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (3*n-4, 3*n-2) is a twin prime pair.",
+  "description": "Numbers k such that (3*k-4, 3*k-2) is a twin prime pair.",
   "id": "A177139",
   "mentions": [
     "A001359",

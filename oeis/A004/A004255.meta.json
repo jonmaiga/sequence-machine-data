@@ -1,10 +1,13 @@
 {
-  "description": "n(n+1)(n^2 -3n + 6)/8.",
+  "description": "a(n) = n*(n + 1)*(n^2 - 3*n + 6)/8.",
   "id": "A004255",
   "mentions": [
     "A000051",
+    "A000332",
     "A060354",
-    "A062026"
+    "A062026",
+    "A139600",
+    "A180662"
   ],
   "tags": [
     "easy",
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 41,
     "source": "joeis"
   }
 }

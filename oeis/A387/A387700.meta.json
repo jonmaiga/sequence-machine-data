@@ -1,0 +1,16 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(2*k + n - 1, k - 2)*(n^2 - 2*k + n)/(k*(k - 1)) for k >= 2, T(n, 0) = 1 and T(n, 1) = n - 1.",
+  "id": "A387700",
+  "mentions": [
+    "A259475"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

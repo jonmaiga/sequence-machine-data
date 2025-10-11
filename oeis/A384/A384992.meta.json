@@ -1,0 +1,17 @@
+{
+  "description": "Positive numbers k whose prime factors together with their exponents are distinct.",
+  "id": "A384992",
+  "mentions": [
+    "A000040",
+    "A130091"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

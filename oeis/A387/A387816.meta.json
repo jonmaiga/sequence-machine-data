@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(7*n+1,7*k).",
+  "id": "A387816",
+  "mentions": [
+    "A082311",
+    "A090407",
+    "A094211",
+    "A345455",
+    "A387814"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

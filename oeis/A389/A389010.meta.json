@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((1+sqrt(3))^(5/3) * Pi^(5/4) * ((-1+sqrt(3)) / (Gamma(7/12) * Gamma(11/12)))^(3/2)) / (4*2^(7/12) * Gamma(3/4)^2).",
+  "id": "A389010",
+  "mentions": [
+    "A280666"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

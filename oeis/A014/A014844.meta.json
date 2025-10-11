@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 2^n - n*(n-1)/2.",
   "id": "A014844",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A161680"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 3/5+1 / sqrt(5).",
+  "id": "A388812",
+  "mentions": [
+    "A010476",
+    "A134974",
+    "A176453",
+    "A180251",
+    "A228864",
+    "A229780",
+    "A340722",
+    "A340724",
+    "A340725"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,14 +1,15 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^3)(1-x^9)(1-x^10)).",
+  "description": "Expansion of 1/((1-x^2)*(1-x^3)*(1-x^9)*(1-x^10)).",
   "id": "A029165",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 60,
+    "size": 68,
     "source": "joeis"
   }
 }

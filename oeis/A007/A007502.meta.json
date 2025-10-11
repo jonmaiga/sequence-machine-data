@@ -1,5 +1,5 @@
 {
-  "description": "Les Marvin sequence: a(n) = F(n)+(n-1)*F(n-1), F() = Fibonacci numbers.",
+  "description": "Les Marvin sequence: a(n) = F(n) + (n-1)*F(n-1), F() = Fibonacci numbers.",
   "id": "A007502",
   "mentions": [
     "A000045",

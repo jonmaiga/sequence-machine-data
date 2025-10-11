@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which A107758(k) > 2*k, where A107758 is sigma+, multiplicative function with a(p^e) = 1+sigma(p^e).",
+  "id": "A387721",
+  "mentions": [
+    "A005101",
+    "A052396",
+    "A107758",
+    "A246282",
+    "A387711",
+    "A387720",
+    "A387722",
+    "A387723",
+    "A387725"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

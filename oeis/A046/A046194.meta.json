@@ -2,6 +2,8 @@
   "description": "Heptagonal triangular numbers.",
   "id": "A046194",
   "mentions": [
+    "A000217",
+    "A000566",
     "A039835",
     "A046193"
   ],

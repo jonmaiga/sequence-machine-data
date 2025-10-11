@@ -1,0 +1,14 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-book graph.",
+  "id": "A387795",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

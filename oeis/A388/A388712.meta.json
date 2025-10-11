@@ -1,0 +1,47 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n into k parts without choosable initial intervals.",
+  "id": "A388712",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000700",
+    "A001522",
+    "A003106",
+    "A003114",
+    "A008289",
+    "A052337",
+    "A059607",
+    "A060016",
+    "A064428",
+    "A114088",
+    "A238394",
+    "A238395",
+    "A238873",
+    "A238875",
+    "A355529",
+    "A368100",
+    "A370592",
+    "A370593",
+    "A382864",
+    "A387112",
+    "A387118",
+    "A387134",
+    "A387328",
+    "A387576",
+    "A387577",
+    "A387578",
+    "A387880",
+    "A388710",
+    "A388711",
+    "A388724"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

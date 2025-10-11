@@ -1,5 +1,5 @@
 {
-  "description": "Number of representations of n! - 1 as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "description": "Number of representations of n! - 1 as p*q + p*r + q*r with three odd primes p <= q <= r.",
   "id": "A369242",
   "mentions": [
     "A033312",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

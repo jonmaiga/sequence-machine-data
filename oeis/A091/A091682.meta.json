@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 2*(18 + sqrt(3)*Pi)/27.",
   "id": "A091682",
   "mentions": [
+    "A000984",
     "A073016",
     "A248179"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

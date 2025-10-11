@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 4 * exp(-Pi / 2).",
+  "id": "A388515",
+  "mentions": [
+    "A112143"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

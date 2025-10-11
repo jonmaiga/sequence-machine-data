@@ -22,11 +22,12 @@
     "base",
     "cons",
     "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 92,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

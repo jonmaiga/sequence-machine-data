@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose number of exponential divisors is a power of 2.",
+  "id": "A388972",
+  "mentions": [
+    "A036537",
+    "A049419",
+    "A115063",
+    "A209061",
+    "A306736",
+    "A369939",
+    "A386803",
+    "A388973",
+    "A388974"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

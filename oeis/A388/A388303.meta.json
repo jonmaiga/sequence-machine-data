@@ -1,0 +1,22 @@
+{
+  "description": "A classification of the nonnegative integers, where each number lies in exactly one of six classes.",
+  "id": "A388303",
+  "mentions": [
+    "A000040",
+    "A001477",
+    "A059404",
+    "A120944",
+    "A246547",
+    "A303606",
+    "A387487"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

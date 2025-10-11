@@ -1,7 +1,9 @@
 {
   "description": "Sum of the even parts of the partitions of n into 3 parts.",
   "id": "A309515",
-  "mentions": [],
+  "mentions": [
+    "A309512"
+  ],
   "tags": [
     "formulas",
     "nonn"

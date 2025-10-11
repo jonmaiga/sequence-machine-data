@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 128 * exp(-7*Pi/8) * 2^(7/8) * Gamma(3/4)^21 / Pi^(21/4).",
+  "id": "A388368",
+  "mentions": [
+    "A023019"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

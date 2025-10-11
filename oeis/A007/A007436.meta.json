@@ -2,7 +2,9 @@
   "description": "Moebius transform of Fibonacci numbers.",
   "id": "A007436",
   "mentions": [
+    "A000045",
     "A001358",
+    "A008683",
     "A054525",
     "A127647"
   ],
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 40,
     "source": "oeis-bfile"
   }
 }

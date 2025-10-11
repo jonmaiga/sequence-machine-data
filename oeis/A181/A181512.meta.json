@@ -1,9 +1,11 @@
 {
-  "description": "Irregular triangle a(n,k) = A181415(n,k) / A036040(n,k).",
+  "description": "Irregular triangle T(n,k) = A181415(n,k) / A036040(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A181512",
   "mentions": [
     "A000041",
+    "A036036",
     "A036040",
+    "A178888",
     "A181415",
     "A181511",
     "A181513"
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

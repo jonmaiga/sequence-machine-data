@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = C(n)*(7n+1) where C(n)=Catalan numbers (A000108).",
+  "description": "a(n) = C(n)*(7*n + 1) where C(n) = Catalan numbers (A000108).",
   "id": "A050477",
   "mentions": [
     "A000108",
+    "A000984",
+    "A001791",
     "A016921",
     "A051945",
     "A330965"

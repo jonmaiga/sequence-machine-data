@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which the sum of k and sigma(k)-k does not generate any carries when done in the primorial base (A049345).",
+  "id": "A388280",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A049345",
+    "A276086",
+    "A329041",
+    "A379493",
+    "A388031",
+    "A388281"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

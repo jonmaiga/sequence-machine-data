@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct positive integers reachable from n by successively dividing a contiguous substring of digits by 2, including n itself.",
+  "id": "A389399",
+  "mentions": [
+    "A014261",
+    "A386395",
+    "A389140",
+    "A389141"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "(4n+3)^4.",
+  "description": "a(n) = (4*n+3)^4.",
   "id": "A016840",
   "mentions": [],
   "tags": [

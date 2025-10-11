@@ -1,7 +1,11 @@
 {
-  "description": "From generalized Catalan numbers.",
+  "description": "Expansion of (2 - x)^4/(1 - x)^8.",
   "id": "A006637",
   "mentions": [
+    "A006633",
+    "A006634",
+    "A006635",
+    "A006636",
     "A181289"
   ],
   "tags": [
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 33,
     "source": "joeis"
   }
 }

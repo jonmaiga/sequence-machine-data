@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. exp(exp(x) - exp(2*x)).",
   "id": "A368016",
   "mentions": [
+    "A143395",
     "A368017"
   ],
   "tags": [

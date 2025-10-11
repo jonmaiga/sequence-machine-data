@@ -2,10 +2,15 @@
   "description": "Terms k of A378738 for which A378664(k) obtains novel values.",
   "id": "A378741",
   "mentions": [
+    "A006039",
+    "A032742",
     "A091191",
     "A378664",
     "A378738",
-    "A378740"
+    "A378740",
+    "A387417",
+    "A387716",
+    "A387717"
   ],
   "tags": [
     "nonn"

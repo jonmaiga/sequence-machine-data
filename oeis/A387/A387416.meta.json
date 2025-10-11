@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A003961(k) - sigma(k) is a multiple of k, where A003961 is fully multiplicative with a(prime(i)) = prime(i+1), and sigma is the sum of divisors function.",
+  "id": "A387416",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A286385",
+    "A378980"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

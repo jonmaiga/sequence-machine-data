@@ -1,5 +1,5 @@
 {
-  "description": "(25*n^4-120*n^3+209*n^2-108*n)/6.",
+  "description": "a(n) = (25*n^4-120*n^3+209*n^2-108*n)/6.",
   "id": "A006529",
   "mentions": [
     "A000051",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 35,
     "source": "joeis"
   }
 }

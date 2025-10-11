@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with odd length such that n = d_1+(d_2^d_3)+ ...+(d_(k-1)^d_k) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "description": "Numbers m with odd length such that m = d_1+(d_2^d_3)+ ...+(d_(k-1)^d_k) where d_1 d_2 ... d_k is the decimal expansion of m.",
   "id": "A112014",
   "mentions": [
     "A112015",

@@ -1,15 +1,16 @@
 {
-  "description": "Primes of the form 10^n - 59.",
+  "description": "Primes of the form 10^k - 59.",
   "id": "A177418",
   "mentions": [
     "A108506"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Number of addition sums of the form x + y = z with 0 < x < y in base n, where each digit of the base appears at most once among all of x, y and z.",
+  "id": "A387334",
+  "mentions": [],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

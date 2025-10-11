@@ -1,5 +1,5 @@
 {
-  "description": "Greatest prime less than 10n.",
+  "description": "Greatest prime less than 10*n.",
   "id": "A122072",
   "mentions": [
     "A002808",

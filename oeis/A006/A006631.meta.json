@@ -2,6 +2,7 @@
   "description": "From generalized Catalan numbers.",
   "id": "A006631",
   "mentions": [
+    "A006630",
     "A092276"
   ],
   "tags": [

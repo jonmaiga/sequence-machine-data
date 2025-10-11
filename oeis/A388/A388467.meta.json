@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 16777216 * exp(-8*Pi/3) * Gamma(3/4)^64 / Pi^16.",
+  "id": "A388467",
+  "mentions": [
+    "A082559"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers divisible by at least 3 primes where not all exponents in the factorization are equal.",
+  "id": "A388305",
+  "mentions": [
+    "A059404",
+    "A367589",
+    "A375055"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

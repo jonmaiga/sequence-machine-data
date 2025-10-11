@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of length n binary words which are not all zero in which 1's occur in blocks of at least k.",
+  "id": "A388547",
+  "mentions": [
+    "A000217",
+    "A000225",
+    "A077855",
+    "A130578",
+    "A209231",
+    "A388146",
+    "A388548"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(sigma(n), A048250(n)), where sigma is the sum of divisors and A048250 is the sum of squarefree divisors.",
+  "id": "A389080",
+  "mentions": [
+    "A000203",
+    "A048250",
+    "A323159",
+    "A344695",
+    "A348503",
+    "A367991",
+    "A389087",
+    "A389089"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

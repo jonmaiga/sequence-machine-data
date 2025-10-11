@@ -1,7 +1,8 @@
 {
-  "description": "Numbers with property that truncated square root is unequal to rounded square root.",
+  "description": "Numbers whose truncated square root is unequal to rounded square root.",
   "id": "A063657",
   "mentions": [
+    "A002024",
     "A002061",
     "A002620",
     "A004201",

@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} x^2/sin(x) dx.",
+  "id": "A388260",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

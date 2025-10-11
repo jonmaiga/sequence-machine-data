@@ -2,15 +2,16 @@
   "description": "Row sums of triangle A167271.",
   "id": "A167272",
   "mentions": [
+    "A000005",
     "A167271"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 32,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

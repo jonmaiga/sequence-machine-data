@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers k for which A006694( (k-1)/2 )< A006694( (A000265(3k+1)-1)/2 ) .",
+  "description": "Odd numbers k for which A006694( (k-1)/2 ) < A006694( (A000265(3k+1)-1)/2 ).",
   "id": "A160268",
   "mentions": [
     "A000265",

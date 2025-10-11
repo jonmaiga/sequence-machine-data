@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the smallest dihedral angle, in radians, in a square gyrobicupola (Johnson solid J_29).",
+  "id": "A387856",
+  "mentions": [
+    "A010469",
+    "A020760",
+    "A020763",
+    "A177870",
+    "A195702",
+    "A384287"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Möbius transform of A325973, where A325973 is the arithmetic mean of {sum of unitary divisors} and {sum of squarefree divisors}.",
+  "id": "A388286",
+  "mentions": [
+    "A008683",
+    "A034448",
+    "A048250",
+    "A055615",
+    "A254503",
+    "A325973",
+    "A389072"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

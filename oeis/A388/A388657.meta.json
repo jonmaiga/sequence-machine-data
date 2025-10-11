@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the greatest prime factor of prime(n)^prime(n) + 1.",
+  "id": "A388657",
+  "mentions": [
+    "A006530",
+    "A007571",
+    "A051674",
+    "A125137",
+    "A214812",
+    "A388417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

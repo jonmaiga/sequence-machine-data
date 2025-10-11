@@ -1,5 +1,5 @@
 {
-  "description": "Baron Munchhausen's Sequence.",
+  "description": "Baron Münchhausen's Sequence.",
   "id": "A174541",
   "mentions": [
     "A000124",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

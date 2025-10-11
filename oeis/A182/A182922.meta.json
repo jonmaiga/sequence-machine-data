@@ -2,15 +2,19 @@
   "description": "a(n) = n! / A055773(n).",
   "id": "A182922",
   "mentions": [
+    "A001221",
     "A034386",
-    "A055773"
+    "A055773",
+    "A056172",
+    "A057521"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A325973(k) < k < A325974(k), where A325973 and A325974 are arithmetic means of {sum of unitary divisors and sum of squarefree divisors} and of {sum of non-unitary divisors and sum of nonsquarefree divisors}, respectively.",
+  "id": "A389202",
+  "mentions": [
+    "A000396",
+    "A013929",
+    "A048107",
+    "A048108",
+    "A325973",
+    "A325974",
+    "A325979",
+    "A325981",
+    "A388986",
+    "A389212",
+    "A389219"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

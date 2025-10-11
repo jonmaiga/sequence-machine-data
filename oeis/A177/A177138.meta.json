@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form (n!*(n+1))/2 with n or (n+1) prime.",
+  "description": "Numbers of the form (k!*(k+1))/2 with k or (k+1) prime.",
   "id": "A177138",
   "mentions": [
     "A001710"

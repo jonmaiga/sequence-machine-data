@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + 3^k is prime for k = 1, 2, 3.",
+  "description": "Numbers m such that m^2 + 3^k is prime for k = 1, 2, 3.",
   "id": "A177173",
   "mentions": [
     "A002144",

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^19 / Pi^(19/4).",
+  "id": "A388155",
+  "mentions": [
+    "A004420"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

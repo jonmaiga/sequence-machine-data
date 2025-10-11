@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that prime(n) divides 2^(n-1) + 1.",
+  "description": "Numbers k such that prime(k) divides 2^(k-1) + 1.",
   "id": "A226018",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

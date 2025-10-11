@@ -1,13 +1,16 @@
 {
-  "description": "Numbers of configurations of A'Campo forests with co-dimension 1 and degree n>0.",
+  "description": "Numbers of configurations of A'Campo forests with co-dimension 1 and degree n > 0.",
   "id": "A283049",
-  "mentions": [],
+  "mentions": [
+    "A004332"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 21,
     "source": "oeis-bfile"
   }

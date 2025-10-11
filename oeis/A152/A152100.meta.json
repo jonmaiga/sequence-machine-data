@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1 - 2*x*(-7 - 10*x + x^2)/(x - 1)^4.",
+  "description": "Expansion of g.f. 1 - 2*x*(-7 - 10*x + x^2)/(x - 1)^4.",
   "id": "A152100",
   "mentions": [
     "A006071"

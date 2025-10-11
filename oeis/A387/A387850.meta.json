@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(5*n,6*k).",
+  "id": "A387850",
+  "mentions": [
+    "A070967",
+    "A306847",
+    "A377627",
+    "A378031",
+    "A387849"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

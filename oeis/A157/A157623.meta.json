@@ -1,5 +1,5 @@
 {
-  "description": "781250n^2 - 455000n + 66249.",
+  "description": "a(n) = 781250*n^2 - 455000*n + 66249.",
   "id": "A157623",
   "mentions": [
     "A157621",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

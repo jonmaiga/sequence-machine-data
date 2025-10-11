@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the multiple zeta value (Euler sum) zetamult(7,4).",
+  "id": "A387773",
+  "mentions": [
+    "A258986"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -2,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

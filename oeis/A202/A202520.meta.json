@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of [x^(4n+2)] in the Taylor series log(cosec(x)*sinh(x))= x^2/3 +2*x^6/2835 +2*x^10/467775 +4*x^14/127702575 +...",
+  "description": "Denominator of [x^(4n+2)] in the Taylor series log(cosec(x)*sinh(x)).",
   "id": "A202520",
   "mentions": [
     "A012858",

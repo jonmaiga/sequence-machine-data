@@ -2,9 +2,11 @@
   "description": "Theta series of D_4 lattice with respect to edge.",
   "id": "A005880",
   "mentions": [
-    "A008438"
+    "A008438",
+    "A388170"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

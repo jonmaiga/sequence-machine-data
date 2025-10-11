@@ -1,9 +1,9 @@
 {
-  "description": "a(n+1) = a(n)^2+2*a(n)-2 and a(1)=6.",
+  "description": "a(n+1) = a(n)^2 + 2*a(n) - 2 and a(1) = 6.",
   "id": "A145506",
   "mentions": [
     "A145502",
-    "A145511"
+    "A145510"
   ],
   "tags": [
     "nonn"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

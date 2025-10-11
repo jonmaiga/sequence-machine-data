@@ -2,6 +2,7 @@
   "description": "Decimal expansion of sine of 75 degrees.",
   "id": "A019884",
   "mentions": [
+    "A010503",
     "A019812",
     "A019827",
     "A019834",

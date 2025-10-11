@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (1/6) * Sum_{k=0..n-1} binomial(6*n,6*k+1).",
+  "id": "A387745",
+  "mentions": [
+    "A015565",
+    "A070967",
+    "A387743",
+    "A387746",
+    "A387747",
+    "A387748",
+    "A387751",
+    "A387752",
+    "A387753",
+    "A387754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

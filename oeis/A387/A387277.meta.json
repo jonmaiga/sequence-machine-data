@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^(n-k) * binomial(n+4,k+4) * binomial(2*k+8,k+8).",
+  "id": "A387277",
+  "mentions": [
+    "A387274",
+    "A387275",
+    "A387276",
+    "A387278"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

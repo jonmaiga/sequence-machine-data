@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is a prime that is the average of two distinct primes p and q, neither of which has been used before as such. However, the average can be any prime, including previous p's or q's.",
+  "id": "A387174",
+  "mentions": [
+    "A000040",
+    "A100484"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

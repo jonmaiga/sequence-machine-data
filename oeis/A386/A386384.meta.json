@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of Sum_{k>=0} (-1)^k/(k!)!.",
+  "id": "A386384",
+  "mentions": [
+    "A001511",
+    "A157196",
+    "A336810",
+    "A386385",
+    "A387268"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

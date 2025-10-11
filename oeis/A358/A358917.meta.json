@@ -2,10 +2,12 @@
   "description": "a(n) = Fibonacci(n+1)^4 - Fibonacci(n-1)^4.",
   "id": "A358917",
   "mentions": [
+    "A000032",
     "A000045",
     "A001906",
     "A004187",
     "A056571",
+    "A099014",
     "A358934"
   ],
   "tags": [

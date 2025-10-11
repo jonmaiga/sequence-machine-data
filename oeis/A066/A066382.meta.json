@@ -1,7 +1,9 @@
 {
   "description": "a(n) = Sum_{k=0..n} binomial(n^2,k).",
   "id": "A066382",
-  "mentions": [],
+  "mentions": [
+    "A206849"
+  ],
   "tags": [
     "formulas",
     "nonn"

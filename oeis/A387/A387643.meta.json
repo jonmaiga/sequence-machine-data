@@ -1,0 +1,20 @@
+{
+  "description": "Difference between larger and smaller term of n-th psi-amicable pair, sorted by the smaller members from A323329.",
+  "id": "A387643",
+  "mentions": [
+    "A001615",
+    "A066539",
+    "A323329",
+    "A323330",
+    "A387641"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

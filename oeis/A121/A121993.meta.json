@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that yield a smaller number a(n) under the \"Look and Say\" function A045918.",
+  "description": "Numbers k that yield a smaller number a(k) under the \"Look and Say\" function A045918.",
   "id": "A121993",
   "mentions": [
     "A005150",

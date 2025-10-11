@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X5 0..3 arrays with every 2 X 2 subblock having the same number of clockwise edge increases as its horizontal neighbors and no 2 X 2 subblock having the same number of counterclockwise edge increases as its vertical neighbors.",
+  "description": "Number of (n+1) X 5 0..3 arrays with every 2 X 2 subblock having the same number of clockwise edge increases as its horizontal neighbors and no 2 X 2 subblock having the same number of counterclockwise edge increases as its vertical neighbors.",
   "id": "A205655",
   "mentions": [
     "A205659"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

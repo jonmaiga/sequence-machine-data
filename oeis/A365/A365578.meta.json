@@ -1,19 +1,16 @@
 {
-  "description": "Sequence of primitive Pythagorean triples beginning with the triple (3,4,5), with each subsequent triple having as its short leg the sum of the long leg and the hypotenuse of the previous triple, and with the long leg and the hypotenuse of each triple being consecutive natural numbers.",
+  "description": "Number of asteroidal triple-free graphs on n vertices.",
   "id": "A365578",
   "mentions": [
-    "A011764",
-    "A365577",
     "A365796"
   ],
   "tags": [
-    "formulas",
-    "nonn",
-    "tabf"
+    "more",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

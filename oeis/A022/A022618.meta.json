@@ -2,7 +2,8 @@
   "description": "Expansion of Product_{m>=1} (1+q^m)^(-23).",
   "id": "A022618",
   "mentions": [
-    "A000593"
+    "A000593",
+    "A388342"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (3 * (1+sqrt(3)) * (5+3 * sqrt(5)) * sqrt(Pi / (5+sqrt(5))) * Gamma(2/3) * Gamma(19/12)) / (7*5^(3/4) * Gamma(3/4)^5).",
+  "id": "A389051",
+  "mentions": [
+    "A320147"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

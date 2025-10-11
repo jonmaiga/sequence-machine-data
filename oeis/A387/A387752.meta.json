@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (1/9) * Sum_{k=0..n-1} binomial(9*n,9*k+1).",
+  "id": "A387752",
+  "mentions": [
+    "A015565",
+    "A094213",
+    "A387743",
+    "A387745",
+    "A387748",
+    "A387751",
+    "A387753",
+    "A387754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

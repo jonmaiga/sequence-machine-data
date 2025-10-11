@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (4 * (-8+6 * sqrt(2))^(1/4) * exp(Pi / 2) * Gamma(5/4)^3) / Pi^(9/4).",
+  "id": "A388863",
+  "mentions": [
+    "A246815"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

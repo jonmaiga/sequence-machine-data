@@ -2,15 +2,16 @@
   "description": "Triangles with integer sides i <= j <= k sorted by area, and, in case of ties, lexicographically by side lengths (smallest first). The sequence gives shortest side i. The other sides are in A331252 and A331253.",
   "id": "A331251",
   "mentions": [
+    "A070080",
+    "A135622",
     "A316841",
-    "A316843",
-    "A316844",
     "A316845",
-    "A316853",
     "A317182",
-    "A331011",
+    "A331244",
+    "A331250",
     "A331252",
-    "A331253"
+    "A331253",
+    "A331254"
   ],
   "tags": [
     "nonn"

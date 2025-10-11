@@ -2,6 +2,8 @@
   "description": "Decimal expansion of tan(Pi/16).",
   "id": "A343060",
   "mentions": [
+    "A144981",
+    "A182168",
     "A232737",
     "A232738",
     "A343057"

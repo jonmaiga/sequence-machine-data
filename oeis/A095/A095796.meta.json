@@ -1,5 +1,5 @@
 {
-  "description": "1 + (26*n+17+7*n^2)*n/2.",
+  "description": "a(n) = 1 + (26*n+17+7*n^2)*n/2.",
   "id": "A095796",
   "mentions": [
     "A095794"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 39,
     "source": "joeis"
   }
 }

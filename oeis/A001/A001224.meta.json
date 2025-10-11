@@ -2,8 +2,10 @@
   "description": "If F(n) is the n-th Fibonacci number, then a(2n) = (F(2n+1) + F(n+2))/2 and a(2n+1) = (F(2n+2) + F(n+1))/2.",
   "id": "A001224",
   "mentions": [
+    "A000045",
     "A000051",
     "A005207",
+    "A034851",
     "A051450",
     "A060312",
     "A068928",

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/8) * exp(23*Pi/24) * 2^(1/8).",
+  "id": "A388314",
+  "mentions": [
+    "A022588"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that first digit of 9*n = last digit of n.",
+  "description": "Numbers k with property that first digit of 9*k = last digit of k.",
   "id": "A168005",
   "mentions": [
     "A167994",

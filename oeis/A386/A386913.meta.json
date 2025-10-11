@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k for which the number of divisors d of k such that d == -d^k (mod k) is equal to n, or -1 if no such k exists.",
+  "id": "A386913",
+  "mentions": [
+    "A032741",
+    "A371513",
+    "A380393",
+    "A380656"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

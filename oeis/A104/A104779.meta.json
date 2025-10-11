@@ -1,5 +1,5 @@
 {
-  "description": "Row sums of A104778.",
+  "description": "a(n) is the sum of entries of n-th Kostka matrix for the partitions of n.",
   "id": "A104779",
   "mentions": [
     "A000041",
@@ -12,12 +12,12 @@
     "A178718"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

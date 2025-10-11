@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (3+sqrt(5)) * exp(-Pi/2).",
+  "id": "A388521",
+  "mentions": [
+    "A112179"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

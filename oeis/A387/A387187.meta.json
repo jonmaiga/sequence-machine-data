@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of distinct numbers of transversals an extended self-orthogonal diagonal Latin square of order n.",
+  "description": "a(n) is the number of distinct numbers of transversals in extended self-orthogonal diagonal Latin squares of order n.",
   "id": "A387187",
   "mentions": [
     "A309210",

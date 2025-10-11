@@ -1,5 +1,5 @@
 {
-  "description": "Fractalization of Kimberling's paraphrases sequence beginning with 1.",
+  "description": "Fractalization of Kimberling's paraphrase of the binary number system beginning with 1.",
   "id": "A110963",
   "mentions": [
     "A000265",

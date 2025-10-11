@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th term of A080997 is prime; a(n) is ranking of n-th prime number among the positive integers in terms of centrality (cf. A080997 for explanation of this concept).",
+  "description": "Numbers k such that k-th term of A080997 is prime.",
   "id": "A081028",
   "mentions": [
     "A018804",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "joeis"
   }
 }

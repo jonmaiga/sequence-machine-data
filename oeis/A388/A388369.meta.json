@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 256 * exp(-11*Pi/12) * 2^(1/4) * Gamma(3/4)^22 / Pi^(11/2).",
+  "id": "A388369",
+  "mentions": [
+    "A023020"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

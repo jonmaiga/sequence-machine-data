@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number x such that x^2 + 1 and 2^x + 1 are both divisible by A387595(n).",
+  "id": "A387642",
+  "mentions": [
+    "A066787",
+    "A387595"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

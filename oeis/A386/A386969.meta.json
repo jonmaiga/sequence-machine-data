@@ -1,0 +1,16 @@
+{
+  "description": "A variant of Recamán's sequence (A005132): a(0) = 0; for n > 0, a(n) = a(n-1) - n if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + n + 3.",
+  "id": "A386969",
+  "mentions": [
+    "A005132",
+    "A386947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

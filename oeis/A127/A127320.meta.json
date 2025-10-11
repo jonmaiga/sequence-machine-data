@@ -1,5 +1,5 @@
 {
-  "description": "Start with i=1 and j=2. Concatenate i and j, get k = floor ij/j, concatenate j and k, etc.",
+  "description": "Start with i=1 and j=2. Concatenate i and j, get k = floor(ij/j), concatenate j and k, etc.",
   "id": "A127320",
   "mentions": [],
   "tags": [

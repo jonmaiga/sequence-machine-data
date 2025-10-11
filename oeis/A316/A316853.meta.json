@@ -2,12 +2,17 @@
   "description": "Areas of all nondegenerate integer triangles, T, expressed as 16*area(T)^2. a(n) is for the triangle with sides A316841(n, 1..3).",
   "id": "A316853",
   "mentions": [
+    "A055595",
+    "A070786",
+    "A135622",
     "A316841",
     "A316842",
     "A316843",
     "A316844",
     "A316845",
-    "A316851"
+    "A316851",
+    "A317181",
+    "A317182"
   ],
   "tags": [
     "formulas",

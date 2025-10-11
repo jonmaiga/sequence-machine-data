@@ -1,0 +1,14 @@
+{
+  "description": "Number of mutual-visibility sets in the n-sunlet graph.",
+  "id": "A389186",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

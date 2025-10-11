@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(Pi / 8) / sqrt(2).",
+  "id": "A388094",
+  "mentions": [
+    "A001935"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

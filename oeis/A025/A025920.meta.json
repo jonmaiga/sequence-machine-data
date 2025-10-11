@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of 1/((1-x^8)(1-x^9)(1-x^12)).",
+  "description": "Expansion of 1/((1-x^8)*(1-x^9)*(1-x^12)).",
   "id": "A025920",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

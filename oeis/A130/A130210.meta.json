@@ -1,11 +1,12 @@
 {
-  "description": "Triangle read by rows: matrix product A051731 * A130209.",
+  "description": "Triangle read by rows: T(n, k) = A000005(k) if k divides n, T(n, k) = 0 otherwise.",
   "id": "A130210",
   "mentions": [
     "A000005",
     "A007425",
     "A051731",
-    "A130209"
+    "A130209",
+    "A130277"
   ],
   "tags": [
     "easy",

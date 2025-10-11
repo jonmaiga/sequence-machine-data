@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the tetrahedral root of 2.",
+  "id": "A388148",
+  "mentions": [
+    "A000292",
+    "A002193",
+    "A002580",
+    "A188934",
+    "A222133",
+    "A389133",
+    "A389134",
+    "A389135"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

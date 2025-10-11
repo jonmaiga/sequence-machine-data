@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (6n)^3 is the sum of a twin prime pair.",
+  "description": "Numbers m such that (6*m)^3 is the sum of a twin prime pair.",
   "id": "A240169",
   "mentions": [
     "A245591"

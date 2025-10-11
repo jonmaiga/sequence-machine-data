@@ -1,0 +1,21 @@
+{
+  "description": "Number of axis-aligned 2 X 2 squares in the 3D projection of a (3n+2)-dimensional hypercube with side length 2.",
+  "id": "A388424",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000290",
+    "A270205",
+    "A387286"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

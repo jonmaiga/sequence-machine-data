@@ -5,7 +5,8 @@
     "A000984",
     "A048760",
     "A065730",
-    "A065741"
+    "A065741",
+    "A192655"
   ],
   "tags": [
     "easy",
@@ -13,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 24,
+    "offset": 0,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

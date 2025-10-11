@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the action of \"Rule 30\" elementary cellular automaton on the binary representation of n if the cells may only expand into the significant bit.",
+  "id": "A387312",
+  "mentions": [
+    "A269160"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

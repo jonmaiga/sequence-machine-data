@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number that is the sum of 3 cubes of primes in exactly n different ways.",
+  "id": "A385316",
+  "mentions": [
+    "A025418",
+    "A025419",
+    "A088919",
+    "A124980",
+    "A255018"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

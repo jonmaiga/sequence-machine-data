@@ -1,11 +1,12 @@
 {
-  "description": "Those even positive integers that when written in binary, each run of 0's is of exactly the same length as the run of 1's immediately before it.",
+  "description": "Even positive integers in which, when written in binary, each run of 0's is of exactly the same length as the run of 1's immediately before it.",
   "id": "A166751",
   "mentions": [
     "A066099",
     "A164707",
     "A175413",
-    "A228369"
+    "A228369",
+    "A386705"
   ],
   "tags": [
     "base",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 51,
     "source": "oeis-bfile"
   }
 }

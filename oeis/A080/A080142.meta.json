@@ -1,5 +1,5 @@
 {
-  "description": "Greedy frac multiples of 1/Pi: a(1)=1, sum(n>0,frac(a(n)*x))=1 at x=1/Pi, where \"frac(y)\" denotes the fractional part of y.",
+  "description": "Greedy frac multiples of 1/Pi: a(1)=1, Sum_{n>0} frac(a(n)*x) = 1 at x=1/Pi, where \"frac(y)\" denotes the fractional part of y.",
   "id": "A080142",
   "mentions": [
     "A079938",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "description": "Exponential unitary deficient numbers that have at least one exponential unitary abundant divisor.",
+  "id": "A389330",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A046099",
+    "A051377",
+    "A054979",
+    "A059956",
+    "A322857",
+    "A322858",
+    "A361255",
+    "A383693",
+    "A389297",
+    "A389331"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

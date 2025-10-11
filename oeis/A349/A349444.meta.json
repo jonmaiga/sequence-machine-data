@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of A003602 (Kimberling's paraphrases) with A092673 (Dirichlet inverse of A001511).",
+  "description": "Dirichlet convolution of A003602 (a Kimberling paraphrase) with A092673 (Dirichlet inverse of A001511).",
   "id": "A349444",
   "mentions": [
     "A001511",

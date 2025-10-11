@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k) = A017665(A389088(n,k)), read by falling antidiagonals; numerator of the abundancy index as applied onto special prime shift array A389088.",
+  "id": "A388995",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A017665",
+    "A108546",
+    "A108548",
+    "A332806",
+    "A332808",
+    "A332818",
+    "A341605",
+    "A341606",
+    "A388996",
+    "A389081",
+    "A389082",
+    "A389088",
+    "A389093",
+    "A389094"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

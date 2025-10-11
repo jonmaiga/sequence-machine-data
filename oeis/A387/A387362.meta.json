@@ -1,0 +1,22 @@
+{
+  "description": "Cyclic numbers k such that k+2 is also a cyclic number.",
+  "id": "A387362",
+  "mentions": [
+    "A001359",
+    "A001620",
+    "A003277",
+    "A005597",
+    "A073004",
+    "A387363"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

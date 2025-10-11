@@ -1,10 +1,11 @@
 {
-  "description": "A129686 * A051340.",
+  "description": "Triangle read by rows: A129686 * A051340 as infinite lower triangular matrices.",
   "id": "A131034",
   "mentions": [
     "A051340",
     "A113127",
-    "A129686"
+    "A129686",
+    "A131035"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

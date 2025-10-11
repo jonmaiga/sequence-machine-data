@@ -2,10 +2,14 @@
   "description": "Decimal expansion of tangent of 70 degrees.",
   "id": "A019968",
   "mentions": [
-    "A019879"
+    "A019829",
+    "A019879",
+    "A019908",
+    "A019948"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 is an average of three successive primes.",
+  "description": "Numbers k such that k^2 is an average of three successive primes.",
   "id": "A226146",
   "mentions": [
     "A076304",

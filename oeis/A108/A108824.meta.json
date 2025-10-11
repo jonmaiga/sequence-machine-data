@@ -1,16 +1,14 @@
 {
-  "description": "Primes such that the outer 2 digits are n and n+1 and all inner digits are 7, where 0 < n < 9.",
+  "description": "Primes such that the outer 2 digits are k and k+1 and all inner digits are 7, where 0 < k < 9.",
   "id": "A108824",
   "mentions": [],
   "tags": [
     "base",
-    "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "joeis"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

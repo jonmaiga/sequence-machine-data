@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k that are less than distance j from j! for some positive integer j.",
+  "id": "A387616",
+  "mentions": [
+    "A000142"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

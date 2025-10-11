@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (3/32) * exp(Pi / 2) * Pi * Gamma(11/12)^7 * Gamma(7/12)^7 / Gamma(3/4)^18.",
+  "id": "A388677",
+  "mentions": [
+    "A159819"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

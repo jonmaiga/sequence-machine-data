@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} PolyGamma(x)*sin(Pi*x)^2 dx (negated).",
+  "id": "A388147",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

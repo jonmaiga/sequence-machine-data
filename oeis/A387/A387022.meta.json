@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 697*Pi^8/6613488.",
+  "id": "A387022",
+  "mentions": [
+    "A013661",
+    "A013662",
+    "A013666"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

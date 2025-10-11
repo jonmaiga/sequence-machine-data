@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n^(1/n)*10^n).",
+  "description": "a(n) = floor(n^(1/n)*10^n).",
   "id": "A093470",
   "mentions": [
     "A093471"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that triangular(n) is a sum of 4 consecutive primes.",
+  "description": "Numbers k such that triangular(k) is a sum of 4 consecutive primes.",
   "id": "A226151",
   "mentions": [
     "A000217",

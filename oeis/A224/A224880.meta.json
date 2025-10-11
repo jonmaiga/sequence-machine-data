@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2n + sum of divisors of n.",
+  "description": "a(n) = 2*n + sum of divisors of n.",
   "id": "A224880",
   "mentions": [
     "A000203",

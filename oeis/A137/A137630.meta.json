@@ -1,5 +1,5 @@
 {
-  "description": "Row sums of triangle A137629 (square of the partition triangle A026794).",
+  "description": "Row sums of triangle A137629.",
   "id": "A137630",
   "mentions": [
     "A026794",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 45,
     "source": "joeis"
   }
 }

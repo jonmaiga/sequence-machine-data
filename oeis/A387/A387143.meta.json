@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime p not already in the sequence such that the digit string of p is contained as a substring in the digit string of p^n.",
+  "id": "A387143",
+  "mentions": [
+    "A052073",
+    "A052075",
+    "A054260",
+    "A062584",
+    "A387142"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

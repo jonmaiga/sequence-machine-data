@@ -1,8 +1,9 @@
 {
-  "description": "a(n) is the number of ways to partition an n X n X n cube with four noncongruent cuboids of different volumes.",
+  "description": "a(n) is the number of ways to partition an n X n X n cube into four noncongruent cuboids of different volumes.",
   "id": "A385580",
   "mentions": [
-    "A384311"
+    "A384311",
+    "A387121"
   ],
   "tags": [
     "formulas",

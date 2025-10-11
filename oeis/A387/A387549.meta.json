@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + 23 is twice a square.",
+  "id": "A387549",
+  "mentions": [
+    "A048655",
+    "A077446",
+    "A154138",
+    "A156066",
+    "A217975"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that phi(m) is a pentagonal number.",
+  "id": "A384995",
+  "mentions": [
+    "A000010",
+    "A000326",
+    "A001318",
+    "A360944",
+    "A384996"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

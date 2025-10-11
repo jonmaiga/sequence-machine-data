@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^12 / Pi^3.",
+  "id": "A388127",
+  "mentions": [
+    "A004413"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Nonprimitive terms of A387711: numbers k for which A387715(k) > 1.",
+  "id": "A387713",
+  "mentions": [
+    "A003959",
+    "A341610",
+    "A387711",
+    "A387712",
+    "A387715"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

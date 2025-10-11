@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/32) * exp(13*Pi/24) * Pi^(13/4) * 2^(1/8) / Gamma(3/4)^13.",
+  "id": "A388215",
+  "mentions": [
+    "A010820"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

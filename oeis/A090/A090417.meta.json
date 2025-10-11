@@ -1,7 +1,9 @@
 {
   "description": "Primes of the form floor(2*Pi*n/(e*log(n))).",
   "id": "A090417",
-  "mentions": [],
+  "mentions": [
+    "A004139"
+  ],
   "tags": [
     "easy",
     "nonn"

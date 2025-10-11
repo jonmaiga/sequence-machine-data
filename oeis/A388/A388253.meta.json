@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(11*Pi/24) * 2^(5/8).",
+  "id": "A388253",
+  "mentions": [
+    "A022576"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

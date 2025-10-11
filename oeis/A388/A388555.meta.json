@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (128 * sqrt(5+7 / sqrt(2)) * exp(Pi / 2) * Gamma(5/4)^4 * sin(Pi / 8)^4) / Pi^3.",
+  "id": "A388555",
+  "mentions": [
+    "A113417"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

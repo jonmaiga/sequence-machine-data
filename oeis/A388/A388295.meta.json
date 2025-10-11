@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least possible difference between the areas of the largest and smallest rectangles in a 4 element set of distinct integer sided rectangles filling an n X n square.",
+  "id": "A388295",
+  "mentions": [
+    "A385153",
+    "A387171"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

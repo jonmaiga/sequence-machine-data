@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^11)(1-x^12)).",
+  "description": "Expansion of 1/((1-x^2)*(1-x^11)*(1-x^12)).",
   "id": "A025827",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

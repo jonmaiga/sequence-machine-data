@@ -1,0 +1,21 @@
+{
+  "description": "Upper (1/3)-midsequence of square numbers and triangular numbers; see Comments.",
+  "id": "A389143",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A111097",
+    "A387355",
+    "A389142"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

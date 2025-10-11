@@ -1,0 +1,23 @@
+{
+  "description": "Harshad numbers which when divided by sum of their digits, give an integer which is a non-Harshad number.",
+  "id": "A389220",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A114440",
+    "A188641",
+    "A235507",
+    "A235697",
+    "A385105"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

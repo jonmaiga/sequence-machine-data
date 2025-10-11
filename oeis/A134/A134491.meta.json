@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Fibonacci(5n+4).",
+  "description": "a(n) = Fibonacci(5*n+4).",
   "id": "A134491",
   "mentions": [
     "A000045",

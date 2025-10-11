@@ -1,12 +1,21 @@
 {
-  "description": "Triangle read by rows: T(n,k) = 2*k - (1 + (-1)^(n-k))/2 (1 <= k <= n).",
+  "description": "Triangle read by rows: T(n,k) = 2*k - (1 + (-1)^(n-k))/2, for 1 <= k <= n, n >= 1.",
   "id": "A131225",
   "mentions": [
+    "A001057",
     "A002260",
+    "A002620",
+    "A004524",
+    "A005408",
+    "A005843",
     "A035608",
-    "A128174"
+    "A042948",
+    "A042964",
+    "A128174",
+    "A131226"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"

@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 1's in A387348.",
+  "id": "A387350",
+  "mentions": [
+    "A035506",
+    "A035513",
+    "A387348",
+    "A387349",
+    "A387351"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

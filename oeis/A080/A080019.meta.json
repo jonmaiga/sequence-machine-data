@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers such that the smallest real solution to x^n + x = 2*Pi*a(n) forms a monotonically increasing sequence as n grows.",
+  "description": "Positive integers such that the smallest positive real solution to x^n + x = 2*Pi*a(n) forms a monotonically increasing sequence as n grows.",
   "id": "A080019",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 18,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

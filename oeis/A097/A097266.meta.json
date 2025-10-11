@@ -3,8 +3,10 @@
   "id": "A097266",
   "mentions": [
     "A096907",
+    "A096908",
     "A096909",
     "A097263",
+    "A097264",
     "A097265"
   ],
   "tags": [
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

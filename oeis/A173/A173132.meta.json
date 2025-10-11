@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that both the sum of the even digits of n^2 and the sum of the odd digits of n^2 are squares.",
+  "description": "Numbers k with the property that both the sum of the even digits of k^2 and the sum of the odd digits of k^2 are squares.",
   "id": "A173132",
   "mentions": [],
   "tags": [

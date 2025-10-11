@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the first n primes is prime and the sum of the squares of the first n primes is also prime.",
+  "description": "Numbers k such that the sum of the first k primes is prime and the sum of the squares of the first k primes is also prime.",
   "id": "A124225",
   "mentions": [
     "A013916",

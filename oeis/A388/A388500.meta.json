@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 32 * Gamma(3/4)^8 / Pi^2.",
+  "id": "A388500",
+  "mentions": [
+    "A105094"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the sum of the distinct entries of 1/A055204(n)^(1/2).",
+  "id": "A389117",
+  "mentions": [
+    "A055204",
+    "A387186",
+    "A388851"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

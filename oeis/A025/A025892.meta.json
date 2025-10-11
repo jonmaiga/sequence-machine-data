@@ -8,11 +8,13 @@
     "A025894"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 80,
+    "size": 86,
     "source": "joeis"
   }
 }

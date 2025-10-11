@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that LCM(1,2,...,m) = A003418(m) is not highly abundant (A002093).",
+  "id": "A389304",
+  "mentions": [
+    "A002093",
+    "A003418",
+    "A389482",
+    "A389483"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 2^k (k>=0) that are a sum of divisors of n for some n.",
+  "description": "Numbers of the form 2^k (k>=0) that are a sum of divisors of m for some m.",
   "id": "A247473",
   "mentions": [
     "A000079",

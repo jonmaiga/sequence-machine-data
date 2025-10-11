@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/512) * exp(23*Pi/24) * Pi^(23/4) * 2^(3/8) / Gamma(3/4)^23.",
+  "id": "A388224",
+  "mentions": [
+    "A010829"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

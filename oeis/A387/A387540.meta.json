@@ -1,0 +1,19 @@
+{
+  "description": "Number of simply laced Dynkin diagrams with n nodes.",
+  "id": "A387540",
+  "mentions": [
+    "A060296",
+    "A358241",
+    "A374624"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

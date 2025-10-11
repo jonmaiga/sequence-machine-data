@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first number with a total of exactly n 1's in the decimal digits of its divisors.",
+  "id": "A387357",
+  "mentions": [
+    "A385494"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

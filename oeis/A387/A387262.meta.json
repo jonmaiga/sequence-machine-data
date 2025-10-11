@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the denominator of the winning probability of the starting player to reach n points first in the game \"Risk or Safety\", assuming optimal play.",
+  "id": "A387262",
+  "mentions": [
+    "A002411",
+    "A349697",
+    "A349698",
+    "A387260",
+    "A387261"
+  ],
+  "tags": [
+    "frac",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

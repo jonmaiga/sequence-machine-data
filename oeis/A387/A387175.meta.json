@@ -1,0 +1,16 @@
+{
+  "description": "Continued fraction expansion of Product_{k>=0} (1+1/k!).",
+  "id": "A387175",
+  "mentions": [
+    "A238695"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

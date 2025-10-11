@@ -1,5 +1,5 @@
 {
-  "description": "Prime triples of the form p, 2^p -1, 2^(2^p)+1 derived from a single prime p.",
+  "description": "Prime triples of the form p, 2^p-1, 2^(2^p)+1 derived from a single prime p.",
   "id": "A140383",
   "mentions": [
     "A000040",

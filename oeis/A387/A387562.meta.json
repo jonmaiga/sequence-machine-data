@@ -1,0 +1,14 @@
+{
+  "description": "Number of matchings in the n-Goldberg graph.",
+  "id": "A387562",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

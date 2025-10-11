@@ -1,10 +1,11 @@
 {
-  "description": "Binomial transform of A128180.",
+  "description": "Triangle read by rows: A007318 * A128180 as infinite lower triangular matrices.",
   "id": "A128182",
   "mentions": [
     "A007318",
     "A128179",
-    "A128180"
+    "A128180",
+    "A128183"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 66,
     "source": "joeis"
   }
 }

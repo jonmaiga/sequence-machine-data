@@ -1,7 +1,9 @@
 {
   "description": "Odd Lucas numbers.",
   "id": "A014447",
-  "mentions": [],
+  "mentions": [
+    "A000032"
+  ],
   "tags": [
     "easy",
     "formulas",

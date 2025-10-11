@@ -2,7 +2,9 @@
   "description": "Number of non-crossing plants in the (n+1)-sided regular polygon (contains non-crossing trees).",
   "id": "A121873",
   "mentions": [
-    "A006013"
+    "A006013",
+    "A062992",
+    "A274734"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Least positive integer k such that A389140(k*n) has the smallest value.",
+  "id": "A389141",
+  "mentions": [
+    "A389140"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

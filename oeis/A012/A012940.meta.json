@@ -1,5 +1,5 @@
 {
-  "description": "cos(tan(x)+sin(x))=1-4/2!*x^2+8/4!*x^4-118/6!*x^6+1912/8!*x^8...",
+  "description": "Expansion of e.g.f. cos(tan(x)+sin(x)) (even powers only).",
   "id": "A012940",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Least x such that gcd(A001405(x+1), A001405(x)) = n.",
+  "description": "Least k such that gcd(k+1, binomial(k, k/2)) = n.",
   "id": "A080390",
   "mentions": [
     "A001405",
@@ -7,7 +7,6 @@
     "A080389"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

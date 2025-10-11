@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3*n,4*k).",
+  "id": "A387846",
+  "mentions": [
+    "A070775"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

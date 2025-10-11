@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k satisfying Euler's criterion for odd perfect numbers (A228058), such that sigma(k)+k is also a multiple of 3, and sigma(k) preserves the 3-adic valuation of k, where sigma is the sum of divisors function.",
+  "id": "A387162",
+  "mentions": [
+    "A228058",
+    "A349752",
+    "A349755",
+    "A386429"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

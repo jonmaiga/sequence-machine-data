@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (1-i)^k * (1+i)^(n-k) * binomial(n+2,k) * binomial(n+2,n-k), where i is the imaginary unit.",
+  "id": "A387402",
+  "mentions": [
+    "A006139",
+    "A374511",
+    "A387401",
+    "A387403"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest unhappy number that takes n iterations of the sum of the squares of digits to reach 4, ignoring the 4 cycle itself.",
+  "id": "A387324",
+  "mentions": [
+    "A001273",
+    "A031177",
+    "A092952",
+    "A094406"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

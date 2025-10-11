@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = round(n / pi(n)), where pi(n) is the prime-counting function.",
+  "description": "a(n) = round(n / pi(n)) = round(n / A000720(n)) where round(x) rounds up.",
   "id": "A272231",
   "mentions": [
     "A000720",
@@ -7,12 +7,13 @@
     "A107609"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 98,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

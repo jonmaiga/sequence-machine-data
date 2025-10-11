@@ -1,5 +1,5 @@
 {
-  "description": "576n^2 - 2n.",
+  "description": "a(n) = 576*n^2 - 2*n.",
   "id": "A158371",
   "mentions": [
     "A158372"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

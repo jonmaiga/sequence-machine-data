@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-1)*binomial(2n-1,n-1)^2.",
+  "description": "a(n) = 2^(n-1)*binomial(2*n-1,n-1)^2.",
   "id": "A116421",
   "mentions": [
     "A060150"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

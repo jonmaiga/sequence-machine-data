@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling of GAMMA(n+3/11)/GAMMA(3/11).",
+  "description": "Ceiling of Gamma(n+3/11)/Gamma(3/11).",
   "id": "A020102",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "joeis"
   }
 }

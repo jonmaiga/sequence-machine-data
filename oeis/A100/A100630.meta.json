@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(m,n) = Sum(1<=i<=m) [ i*(n-1+i)! ].",
+  "description": "Array read by antidiagonals: T(m,n) = Sum_{i=1..m} i*(n-1+i)!.",
   "id": "A100630",
   "mentions": [
     "A052649",

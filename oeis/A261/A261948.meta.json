@@ -1,5 +1,5 @@
 {
-  "description": "Number of (6+1)X(n+1) 0..1 arrays with each row nonprime and column prime, read as a binary number with top and left being the most significant bits.",
+  "description": "Number of (6+1) X (n+1) 0..1 arrays with each row nonprime and column prime, read as a binary number with top and left being the most significant bits.",
   "id": "A261948",
   "mentions": [
     "A261942"

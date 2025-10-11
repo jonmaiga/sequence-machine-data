@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose binary expansion consists of alternating runs of 1's and 0's where each run of 0's is exactly one shorter than the preceding run of 1's, and the expansion ends with a 0-run.",
+  "id": "A387270",
+  "mentions": [
+    "A000396",
+    "A000931",
+    "A006516",
+    "A166751",
+    "A387269"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

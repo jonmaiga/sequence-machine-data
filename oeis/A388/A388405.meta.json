@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/35184372088832) * exp(5 * Pi) * Pi^30 / Gamma(3/4)^120.",
+  "id": "A388405",
+  "mentions": [
+    "A035190"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive integer k such that there exists an algebraic integer in Q(sqrt(D)) of norm -k, where D = A005117(n) is the n-th squarefree number.",
+  "id": "A387618",
+  "mentions": [
+    "A003654",
+    "A005117",
+    "A387207"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

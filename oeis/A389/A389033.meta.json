@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 768 * exp(-2 * Pi) * Gamma(3/4)^4 / Pi.",
+  "id": "A389033",
+  "mentions": [
+    "A319294"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

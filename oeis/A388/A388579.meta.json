@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 16 * exp(-Pi).",
+  "id": "A388579",
+  "mentions": [
+    "A124972"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

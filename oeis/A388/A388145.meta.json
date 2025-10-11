@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 3^k + 2 has at least one divisor of the form 3^m + 2 with 1 <= m < k.",
+  "id": "A388145",
+  "mentions": [
+    "A298827",
+    "A375324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

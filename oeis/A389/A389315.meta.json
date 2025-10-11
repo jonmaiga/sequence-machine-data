@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (3751/3888) * zeta(5).",
+  "id": "A389315",
+  "mentions": [
+    "A013663"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

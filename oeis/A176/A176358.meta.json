@@ -2,11 +2,7 @@
   "description": "Partial sums of A002503.",
   "id": "A176358",
   "mentions": [
-    "A000108",
-    "A002503",
-    "A065344",
-    "A065349",
-    "A065350"
+    "A002503"
   ],
   "tags": [
     "easy",

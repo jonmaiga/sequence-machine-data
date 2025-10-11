@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (3/4) * exp(-Pi / 2) * Gamma(2/3)^2 * Gamma(3/4)^2 * (1+3^(1/2))^2 / Gamma(11/12)^2 / Pi.",
+  "id": "A388450",
+  "mentions": [
+    "A062243"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

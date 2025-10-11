@@ -1,7 +1,8 @@
 {
-  "description": "Twin palindromic primes (upper terms).",
+  "description": "Greater of two consecutive palindromes, both of which are prime.",
   "id": "A032594",
   "mentions": [
+    "A002385",
     "A032593"
   ],
   "tags": [

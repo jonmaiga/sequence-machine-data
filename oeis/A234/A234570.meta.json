@@ -1,5 +1,5 @@
 {
-  "description": "7*binomial(10*n+7,n)/(10*n+7).",
+  "description": "a(n) = 7*binomial(10*n+7,n)/(10*n+7).",
   "id": "A234570",
   "mentions": [
     "A000108",

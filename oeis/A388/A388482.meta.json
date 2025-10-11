@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/2) * Pi / Gamma(3/4)^4.",
+  "id": "A388482",
+  "mentions": [
+    "A096727"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

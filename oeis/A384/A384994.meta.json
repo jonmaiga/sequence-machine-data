@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers whose prime indices of their prime factors, together with their exponents are distinct.",
+  "id": "A384994",
+  "mentions": [
+    "A000040",
+    "A049084",
+    "A130091"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

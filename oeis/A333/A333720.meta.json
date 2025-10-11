@@ -1,7 +1,9 @@
 {
   "description": "Number of graceful labelings of the n-cycle graph.",
   "id": "A333720",
-  "mentions": [],
+  "mentions": [
+    "A387796"
+  ],
   "tags": [
     "formulas",
     "more",

@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(330).",
   "id": "A040311",
-  "mentions": [],
+  "mentions": [
+    "A041622",
+    "A041623"
+  ],
   "tags": [
     "cofr",
     "easy",

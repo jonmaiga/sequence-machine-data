@@ -1,0 +1,17 @@
+{
+  "description": "Denominators of the expected number of steps to hit the opposite corner by simple random walk on the n-cube.",
+  "id": "A387183",
+  "mentions": [
+    "A384229"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

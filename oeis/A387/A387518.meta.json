@@ -1,0 +1,22 @@
+{
+  "description": "The start of a record-breaking run of consecutive integers with a number of prime factors (counted with multiplicity) equal to 8.",
+  "id": "A387518",
+  "mentions": [
+    "A001222",
+    "A067813",
+    "A067814",
+    "A067820",
+    "A067821",
+    "A067822"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n+1,6*k).",
+  "id": "A387876",
+  "mentions": [
+    "A387814",
+    "A387849",
+    "A387874",
+    "A387875",
+    "A387877"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

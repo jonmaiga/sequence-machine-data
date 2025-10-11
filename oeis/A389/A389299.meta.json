@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number that has exactly n exponential abundant divisors.",
+  "id": "A389299",
+  "mentions": [
+    "A051377",
+    "A129575",
+    "A389297",
+    "A389298",
+    "A389300"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

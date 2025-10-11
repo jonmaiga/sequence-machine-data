@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Farey(m; I) where m = Fibonacci (n + 1) and I = [1/n, 1].",
+  "description": "a(n) = Farey(m; I) where m = Fibonacci(n + 1) and I = [1/n, 1].",
   "id": "A176501",
   "mentions": [
     "A048211",

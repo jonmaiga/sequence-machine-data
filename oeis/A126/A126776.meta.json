@@ -2,7 +2,9 @@
   "description": "Basis orbits of n-dimensional cubes.",
   "id": "A126776",
   "mentions": [
-    "A052849"
+    "A052849",
+    "A105231",
+    "A276412"
   ],
   "tags": [
     "hard",
@@ -10,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 4,
-    "size": 4,
+    "offset": 1,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

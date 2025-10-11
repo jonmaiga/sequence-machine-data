@@ -1,5 +1,5 @@
 {
-  "description": "From generalized Catalan numbers.",
+  "description": "a(n) = 4*binomial(4*n+11, n)/(n+4).",
   "id": "A006635",
   "mentions": [
     "A002293",
@@ -11,12 +11,13 @@
     "A233667"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

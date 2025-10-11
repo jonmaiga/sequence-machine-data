@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^8 / Pi^2.",
+  "id": "A388123",
+  "mentions": [
+    "A004409"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

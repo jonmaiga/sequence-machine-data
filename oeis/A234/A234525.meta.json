@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(10*n+2,n)/(5*n+1).",
+  "description": "a(n) = binomial(10*n+2,n)/(5*n+1).",
   "id": "A234525",
   "mentions": [
     "A000108",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

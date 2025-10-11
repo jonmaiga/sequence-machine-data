@@ -1,0 +1,25 @@
+{
+  "description": "Weak numbers k such that gpf(k)^2 | k, where gpf(n) denotes the greatest prime factor of n (A006530).",
+  "id": "A389145",
+  "mentions": [
+    "A001694",
+    "A006530",
+    "A013929",
+    "A052485",
+    "A070003",
+    "A126706",
+    "A332785",
+    "A360767",
+    "A366825",
+    "A389144"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

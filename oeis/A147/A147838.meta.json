@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=8*a(n-1)-6*a(n-2), a(0)=1, a(1)=6 .",
+  "description": "a(n) = 8*a(n-1) - 6*a(n-2), a(0)=1, a(1)=6.",
   "id": "A147838",
   "mentions": [
     "A147703"

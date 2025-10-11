@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of sqrt(Pi) / (2^(3/8) * Gamma(3/4)^2).",
+  "id": "A388468",
+  "mentions": [
+    "A082564"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,20 +1,24 @@
 {
-  "description": "Write the factorial of each term in A036043(n).",
+  "description": "Irregular triangle: T(n,k) is the factorial of the number of parts in the k-th partition of n listed in Abramowitz and Stegun order, read by rows, 1 <= k <= A000041(n).",
   "id": "A178803",
   "mentions": [
     "A000041",
     "A000142",
+    "A036036",
     "A036043",
-    "A101880"
+    "A101880",
+    "A130675",
+    "A185974"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 83,
-    "source": "joeis"
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
   }
 }

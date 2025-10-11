@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which are the concatenation of two numbers whose digital roots are equal.",
+  "id": "A387911",
+  "mentions": [
+    "A010888",
+    "A083967",
+    "A229127",
+    "A238237",
+    "A387866"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the quartic elliptic curve y^2 = 5x^4 + 4k does not have integer solutions.",
+  "description": "Numbers k such that the quartic elliptic curve y^2 = 5*x^4 + 4*k does not have integer solutions.",
   "id": "A193528",
   "mentions": [
     "A193524"

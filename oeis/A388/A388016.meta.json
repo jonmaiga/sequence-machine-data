@@ -1,0 +1,19 @@
+{
+  "description": "Odd squares k, multiples of 3 and non-multiples of 5, such that sigma(k)/k >= 5/3.",
+  "id": "A388016",
+  "mentions": [
+    "A000203",
+    "A388012",
+    "A388014",
+    "A388015"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

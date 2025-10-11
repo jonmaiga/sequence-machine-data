@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that 128 * 3^k + 1 is prime.",
+  "id": "A388408",
+  "mentions": [
+    "A003306",
+    "A005537",
+    "A005538",
+    "A027856",
+    "A384228",
+    "A387060",
+    "A387201",
+    "A387761"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

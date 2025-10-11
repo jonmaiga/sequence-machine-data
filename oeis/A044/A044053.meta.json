@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that string 0,1 occurs in the base 3 representation of n but not of n-1.",
+  "description": "Numbers k such that string 0,1 occurs in the base 3 representation of k but not of k-1.",
   "id": "A044053",
-  "mentions": [],
+  "mentions": [
+    "A007089"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
-    "source": "joeis"
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

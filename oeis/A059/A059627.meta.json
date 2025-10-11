@@ -4,7 +4,8 @@
   "mentions": [
     "A001477",
     "A004520",
-    "A008592"
+    "A008592",
+    "A059626"
   ],
   "tags": [
     "base",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the length of the chord in a circle (in units of the diameter) that splits the area into one and two thirds.",
+  "id": "A385847",
+  "mentions": [
+    "A192408"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-entry"
+  }
+}

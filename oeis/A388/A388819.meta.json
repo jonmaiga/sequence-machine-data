@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of -(1/2) * exp(Pi / 2) * (sqrt(2)-2).",
+  "id": "A388819",
+  "mentions": [
+    "A232772"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

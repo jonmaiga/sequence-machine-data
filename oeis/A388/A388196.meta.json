@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Pi^(11/4) / Gamma(3/4)^11.",
+  "id": "A388196",
+  "mentions": [
+    "A008453"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

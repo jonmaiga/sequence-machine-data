@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers whose ternary expansion has equal run-length multisets for digits 1 and 2.",
+  "id": "A387271",
+  "mentions": [
+    "A154391",
+    "A166751",
+    "A175061"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

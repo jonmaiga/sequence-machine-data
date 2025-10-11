@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} binomial(n+k-1,k) * binomial(k,n-4*k).",
+  "id": "A389291",
+  "mentions": [
+    "A365731"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

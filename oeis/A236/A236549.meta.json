@@ -1,5 +1,5 @@
 {
-  "description": "The number of independent sets in L(J_n), the line graph of the flower snark graph J_n.",
+  "description": "The number of matchings in the n-flower graph.",
   "id": "A236549",
   "mentions": [
     "A236550"

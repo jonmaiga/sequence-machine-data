@@ -1,0 +1,14 @@
+{
+  "description": "Number of matchings in the Dorogovtsev-Goltsev-Mendes graph",
+  "id": "A387564",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

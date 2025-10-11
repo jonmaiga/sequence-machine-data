@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = C(n)*(6n+1) where C(n)=Catalan numbers (A000108).",
+  "description": "a(n) = C(n)*(6*n + 1) where C(n) = Catalan numbers (A000108).",
   "id": "A050476",
   "mentions": [
     "A000108",
+    "A000984",
+    "A001791",
     "A016861",
     "A051945",
     "A330965"

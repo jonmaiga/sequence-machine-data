@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = C(n)*(5n+1) where C(n) = Catalan numbers (A000108).",
+  "description": "a(n) = C(n)*(5*n+1) where C(n) = Catalan numbers (A000108).",
   "id": "A051945",
   "mentions": [
     "A000108",
+    "A000984",
+    "A001791",
     "A016813",
     "A051924",
     "A330965"

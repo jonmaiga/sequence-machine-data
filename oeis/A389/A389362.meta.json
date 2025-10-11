@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors d of n such that d^2 - 1 is not relatively prime to n.",
+  "id": "A389362",
+  "mentions": [
+    "A000005",
+    "A246655",
+    "A386476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

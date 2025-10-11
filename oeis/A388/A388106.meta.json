@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/64) * Pi^(7/2) / Gamma(3/4)^14.",
+  "id": "A388106",
+  "mentions": [
+    "A002470"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected dominating sets in the n-Cameron graph.",
+  "id": "A387373",
+  "mentions": [
+    "A387374",
+    "A387433"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

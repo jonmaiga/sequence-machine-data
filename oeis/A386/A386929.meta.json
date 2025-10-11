@@ -2,6 +2,7 @@
   "description": "a(n) is the least base b in {2,...,10} such that the base-b expansion of n, when read as a decimal integer, is prime; a(n) = 0 if no such base exists.",
   "id": "A386929",
   "mentions": [
+    "A036952",
     "A038537",
     "A052026",
     "A052033"
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

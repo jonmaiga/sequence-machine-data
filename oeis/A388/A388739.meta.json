@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (9/4) * Pi^(5/2) / Gamma(3/4)^10.",
+  "id": "A388739",
+  "mentions": [
+    "A204372"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

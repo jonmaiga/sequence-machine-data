@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that x^n + x^4 + 2 is irreducible over GF(3).",
+  "description": "Numbers k such that x^k + x^4 + 2 is irreducible over GF(3).",
   "id": "A058237",
   "mentions": [
     "A057463"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

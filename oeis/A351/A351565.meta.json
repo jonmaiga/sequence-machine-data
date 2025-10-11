@@ -1,5 +1,5 @@
 {
-  "description": "Odd part of Kimberling's paraphrases: a(n) = A000265(A003602(n)).",
+  "description": "Odd part of Kimberling's paraphrase of the binary number system: a(n) = A000265(A003602(n)).",
   "id": "A351565",
   "mentions": [
     "A000265",

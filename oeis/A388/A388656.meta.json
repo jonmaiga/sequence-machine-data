@@ -1,0 +1,22 @@
+{
+  "description": "Greatest prime factor of the pair of psi-amicable numbers.",
+  "id": "A388656",
+  "mentions": [
+    "A001615",
+    "A006530",
+    "A122967",
+    "A323329",
+    "A323330",
+    "A383943"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "A051731 * A133698.",
+  "description": "Triangle read by rows: T(n, k) = A001227(k) if k divides n, T(n, k) = 0 otherwise.",
   "id": "A133699",
   "mentions": [
     "A001227",
     "A051731",
     "A133698",
-    "A133700"
+    "A133700",
+    "A133701"
   ],
   "tags": [
     "formulas",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 91,
     "source": "joeis"
   }
 }

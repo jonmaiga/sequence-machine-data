@@ -1,0 +1,20 @@
+{
+  "description": "The largest proper divisor of the n-th primitive nondeficient number.",
+  "id": "A387417",
+  "mentions": [
+    "A006039",
+    "A032742",
+    "A341619",
+    "A378741",
+    "A387717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

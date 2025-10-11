@@ -1,10 +1,11 @@
 {
-  "description": "Multiply, cell by cell, the sequences A096162, A048996 and A178886.",
+  "description": "Irregular triangle T(n,k) = A096162(n,k) * A048996(n,k) * A178886(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A178883",
   "mentions": [
     "A000041",
-    "A001700",
     "A001710",
+    "A036036",
+    "A036043",
     "A048996",
     "A096162",
     "A162608",
@@ -12,12 +13,13 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 44,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

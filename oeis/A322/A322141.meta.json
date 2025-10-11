@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is also the sum of the even-indexed terms of the n-th row of the triangle A237591.",
+  "description": "a(n) is the sum of the even-indexed terms of the n-th row of the triangle A237591.",
   "id": "A322141",
   "mentions": [
     "A000203",
@@ -22,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

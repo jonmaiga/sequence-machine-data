@@ -1,0 +1,23 @@
+{
+  "description": "Exponential deficient numbers that have at least one exponential abundant divisor.",
+  "id": "A389297",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A046099",
+    "A051377",
+    "A054979",
+    "A059956",
+    "A129575",
+    "A389298"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

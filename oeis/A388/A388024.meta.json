@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that (sigma(k) - k) AND 2*k = 2*k, where AND is bitwise-and, A004198.",
+  "id": "A388024",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A004198",
+    "A005820",
+    "A023197",
+    "A324649",
+    "A388022",
+    "A388026"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

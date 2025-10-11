@@ -1,16 +1,18 @@
 {
-  "description": "Number of 0/1 n-simplices formed from vertices of unit n-dimensional cube.",
+  "description": "Number of 0/1 n-simplices formed from vertices of unit n-dimensional cube, including degenerate ones.",
   "id": "A276412",
   "mentions": [
-    "A276411"
+    "A105231",
+    "A126776",
+    "A276411",
+    "A276777"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

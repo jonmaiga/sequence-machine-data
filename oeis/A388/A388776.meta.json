@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (11+5 * sqrt(5)) * exp(-Pi).",
+  "id": "A388776",
+  "mentions": [
+    "A223903"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

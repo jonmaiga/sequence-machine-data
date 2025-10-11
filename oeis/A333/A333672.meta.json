@@ -1,14 +1,17 @@
 {
-  "description": "Number of graceful labelings of the n-wheel graph.",
+  "description": "Total number of graceful labelings of the n-wheel graph.",
   "id": "A333672",
-  "mentions": [],
+  "mentions": [
+    "A387825"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 4,
-    "size": 8,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows in which row n is the maximum clique containing n in the gcd-graph of {1, 2, ..., n}. If more than one such clique exists, choose the lexicographically earliest.",
+  "id": "A387698",
+  "mentions": [
+    "A120499",
+    "A387543",
+    "A387699"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

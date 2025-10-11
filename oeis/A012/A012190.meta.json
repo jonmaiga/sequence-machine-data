@@ -1,8 +1,9 @@
 {
-  "description": "tanh(arctan(sin(x)))=x-5/3!*x^3+121/5!*x^5-6845/7!*x^7+690481/9!*x^9...",
+  "description": "Expansion of e.g.f. tanh(arctan(sin(x))), odd powers only.",
   "id": "A012190",
   "mentions": [],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

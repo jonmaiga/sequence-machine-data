@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the sum of the reciprocals of the hendecagonal numbers (A051682).",
+  "description": "Decimal expansion of the sum of the reciprocals of the 11-gonal (or hendecagonal) numbers (A051682).",
   "id": "A244648",
   "mentions": [
     "A000038",
@@ -21,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

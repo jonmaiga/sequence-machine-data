@@ -7,11 +7,12 @@
     "A069355"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
+    "size": 68,
     "source": "joeis"
   }
 }

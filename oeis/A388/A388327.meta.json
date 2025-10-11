@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(-Pi / 4) * 2^(3/4).",
+  "id": "A388327",
+  "mentions": [
+    "A022601"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

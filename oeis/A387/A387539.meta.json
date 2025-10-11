@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the odd parts in the partitions of n into 2 parts.",
+  "id": "A387539",
+  "mentions": [
+    "A387541"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

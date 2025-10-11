@@ -1,0 +1,21 @@
+{
+  "description": "Lower (2/3)-midsequence of square numbers and triangular numbers; see Comments.",
+  "id": "A389316",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A387355",
+    "A389142",
+    "A389317"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

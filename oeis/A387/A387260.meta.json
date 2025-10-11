@@ -1,0 +1,21 @@
+{
+  "description": "Number of strategies in the game \"Risk or Safety\" to reach n points.",
+  "id": "A387260",
+  "mentions": [
+    "A002411",
+    "A349697",
+    "A349698",
+    "A387261",
+    "A387262"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "For n >= 0, a(n) is the least s >= 0 such that (s + 1)*(s + n) is a triangular number (A000217).",
+  "id": "A387517",
+  "mentions": [
+    "A000217",
+    "A074378"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

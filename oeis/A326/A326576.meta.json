@@ -1,15 +1,18 @@
 {
-  "description": "Number of graceful labelings of the n-antiprism graph.",
+  "description": "Total number of graceful labelings of the n-antiprism graph.",
   "id": "A326576",
-  "mentions": [],
+  "mentions": [
+    "A387791"
+  ],
   "tags": [
     "bref",
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 3,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

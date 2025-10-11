@@ -1,5 +1,5 @@
 {
-  "description": "Infinite product of Triangle A167271 columns.",
+  "description": "Infinite product of triangle A167271 columns.",
   "id": "A167273",
   "mentions": [
     "A167271"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

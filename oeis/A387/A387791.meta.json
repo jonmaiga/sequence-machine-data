@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-antiprism graph.",
+  "id": "A387791",
+  "mentions": [
+    "A326576"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

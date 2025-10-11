@@ -1,15 +1,15 @@
 {
-  "description": "Numbers n with property that decimal expansion of 3^n-2^n contains no pair of neighbor equal digits (probably finite).",
+  "description": "Numbers k such that the decimal expansion of 3^k - 2^k contains no pair of consecutive equal digits (probably finite).",
   "id": "A171551",
   "mentions": [
+    "A001047",
     "A050723",
     "A050724",
     "A171550"
   ],
   "tags": [
     "base",
-    "fini",
-    "full",
+    "more",
     "nonn"
   ],
   "terms": {

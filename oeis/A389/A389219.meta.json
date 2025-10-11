@@ -1,0 +1,24 @@
+{
+  "description": "Terms k of A228058 for which A048146(k)+A162296(k) >= 2*k, where A048146 is the sum of non-unitary divisors, and A162296 is the sum of divisors that have a square factor.",
+  "id": "A389219",
+  "mentions": [
+    "A048146",
+    "A162296",
+    "A228058",
+    "A325974",
+    "A325978",
+    "A386427",
+    "A388986",
+    "A389214",
+    "A389218"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,14 +1,17 @@
 {
   "description": "Convolution of (F(2), F(3), F(4), ...) and odd numbers.",
   "id": "A023652",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

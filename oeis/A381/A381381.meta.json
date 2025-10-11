@@ -1,14 +1,14 @@
 {
-  "description": "a(n) is the smallest positive integer m such that for all integers k >= m an n-free 1-partition of k exists.",
+  "description": "a(n) is the smallest positive integer m such that for all integers k >= m distinct positive integers d_1, .., d_r exist with d_1 + .. + d_r = k, 1/d_1 + .. + 1/d_r = 1 and none of the d_i divisible by n.",
   "id": "A381381",
   "mentions": [],
   "tags": [
-    "more",
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 31,
-    "source": "oeis-entry"
+    "offset": 4,
+    "size": 63,
+    "source": "joeis"
   }
 }

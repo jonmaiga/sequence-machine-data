@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum of binomial(n,k)*binomial(2n+k,k) over all k.",
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(2n+k,k).",
   "id": "A114496",
   "mentions": [
     "A001850",
@@ -9,7 +9,8 @@
     "A114497",
     "A114498",
     "A156886",
-    "A156894"
+    "A156894",
+    "A387934"
   ],
   "tags": [
     "easy",

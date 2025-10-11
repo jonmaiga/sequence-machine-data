@@ -1,5 +1,5 @@
 {
-  "description": "Greedy frac multiples of e: a(1)=1, sum(n>0,frac(a(n)*x))=1 at x=e.",
+  "description": "Greedy frac multiples of e: a(1)=1, Sum_{n>0} frac(a(n)*e)=1.",
   "id": "A079939",
   "mentions": [
     "A007677",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

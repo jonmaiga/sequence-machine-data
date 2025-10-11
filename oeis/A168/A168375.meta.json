@@ -1,5 +1,5 @@
 {
-  "description": "Natural numbers n for which the concatenation p= \"1 n^3\" (A168327) is prime.",
+  "description": "Natural numbers n for which the concatenation \"1 n^3\" (A168327) is prime.",
   "id": "A168375",
   "mentions": [
     "A000040",
@@ -9,12 +9,11 @@
   ],
   "tags": [
     "base",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

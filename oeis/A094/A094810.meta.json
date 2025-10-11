@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form F(n)*F(n+1)+F(n+2).",
+  "description": "Primes of the form F(k)*F(k+1) + F(k+2).",
   "id": "A094810",
   "mentions": [
     "A000040",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

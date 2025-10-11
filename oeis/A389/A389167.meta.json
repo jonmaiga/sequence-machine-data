@@ -1,0 +1,20 @@
+{
+  "description": "Largest squarefree number dividing the numbers satisfying Euler's condition for odd perfect numbers: a(n) = A007947(A228058(n)).",
+  "id": "A389167",
+  "mentions": [
+    "A007947",
+    "A228058",
+    "A388997",
+    "A389164",
+    "A389165"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

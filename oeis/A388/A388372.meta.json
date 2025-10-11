@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (4 * (1+sqrt(5)) * sqrt((2-2 / sqrt(5)) * Pi)) / Gamma(-1/4)^2.",
+  "id": "A388372",
+  "mentions": [
+    "A028586"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

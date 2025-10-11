@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2 X 2 square tiles in a discrete 4-dimensional hypercube of side length n.",
+  "id": "A387286",
+  "mentions": [
+    "A000290",
+    "A270205"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

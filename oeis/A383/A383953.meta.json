@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 4, a(n) = 2*a(n-1) + (-1)^n.",
+  "id": "A383953",
+  "mentions": [
+    "A001045",
+    "A005015",
+    "A052997",
+    "A072261",
+    "A199210",
+    "A340627"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

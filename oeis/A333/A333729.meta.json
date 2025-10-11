@@ -1,14 +1,17 @@
 {
-  "description": "Number of graceful labelings of the n-pan graph.",
+  "description": "Total number of graceful labelings of the n-pan graph.",
   "id": "A333729",
-  "mentions": [],
+  "mentions": [
+    "A387804"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 11,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

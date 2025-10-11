@@ -1,0 +1,22 @@
+{
+  "description": "The smallest start of a run of exactly n consecutive positive integers whose factorials have an equal number of exponential divisors.",
+  "id": "A388844",
+  "mentions": [
+    "A000142",
+    "A049419",
+    "A322791",
+    "A388840",
+    "A388841",
+    "A388845",
+    "A388846"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

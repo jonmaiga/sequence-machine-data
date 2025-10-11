@@ -9,16 +9,16 @@
     "A061010",
     "A137579",
     "A137580",
-    "A356758"
+    "A356758",
+    "A375575"
   ],
   "tags": [
     "base",
-    "easy",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

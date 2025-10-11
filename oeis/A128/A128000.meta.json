@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (28^n - 1)/27 is prime.",
+  "description": "Numbers k such that (28^k - 1)/27 is prime.",
   "id": "A128000",
   "mentions": [],
   "tags": [

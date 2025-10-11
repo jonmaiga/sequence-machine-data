@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which row n lists, in nonincreasing order, the areas of the faces of the stepped pyramid with n levels described in A245092, n >= 1, k >= 1.",
+  "id": "A388065",
+  "mentions": [
+    "A000217",
+    "A024916",
+    "A175254",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A245092",
+    "A262626",
+    "A325300",
+    "A325301",
+    "A325302",
+    "A328366"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

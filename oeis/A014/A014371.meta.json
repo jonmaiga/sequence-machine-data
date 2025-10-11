@@ -1,5 +1,5 @@
 {
-  "description": "Number of trivalent connected simple graphs with 2n nodes and girth at least 4.",
+  "description": "Number of trivalent connected simple graphs with 2*n nodes and girth at least 4.",
   "id": "A014371",
   "mentions": [
     "A002851",

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4096) * exp(5*Pi/4) * Pi^(15/2) * 2^(3/4) / Gamma(3/4)^30.",
+  "id": "A388230",
+  "mentions": [
+    "A010835"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

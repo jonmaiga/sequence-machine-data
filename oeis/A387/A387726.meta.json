@@ -1,0 +1,22 @@
+{
+  "description": "Powerful part of the sum of divisors of n: a(n) = A057521(A000203(n)).",
+  "id": "A387726",
+  "mentions": [
+    "A000203",
+    "A057521",
+    "A064549",
+    "A386424",
+    "A387156",
+    "A387727",
+    "A387728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

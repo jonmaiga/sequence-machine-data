@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of x^n in the expansion of (1+x^4+x^5)^n.",
+  "id": "A387200",
+  "mentions": [
+    "A002426",
+    "A176806",
+    "A192442",
+    "A365730",
+    "A387125"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

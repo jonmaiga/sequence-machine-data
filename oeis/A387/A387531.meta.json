@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A387527(k) >= 3.",
+  "id": "A387531",
+  "mentions": [
+    "A140104",
+    "A359749",
+    "A387527",
+    "A387528",
+    "A387529",
+    "A387530",
+    "A388967"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

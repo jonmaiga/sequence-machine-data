@@ -1,15 +1,13 @@
 {
-  "description": "Modified Sisyphus function of order 3: a(n) is the concatenation of (number of digits of n)(number digits of n congruent to 0 modulo 3)(number of digits of n congruent to 1 modulo 3)(number of digits of n congruent to 2 modulo 3).",
+  "description": "Modified Sisyphus function of order 3: a(n) is the concatenation of the number of digits in n with the number of digits of n congruent to k modulo 3 for each k from 0 to 2 in turn.",
   "id": "A350709",
   "mentions": [
-    "A055642",
     "A073053",
     "A171797",
     "A171798",
-    "A171813",
-    "A196563",
-    "A196564",
-    "A308002"
+    "A352751",
+    "A352752",
+    "A375208"
   ],
   "tags": [
     "base",
@@ -19,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

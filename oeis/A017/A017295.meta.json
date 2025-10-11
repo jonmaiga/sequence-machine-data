@@ -1,8 +1,10 @@
 {
-  "description": "(10*n+2)^3.",
+  "description": "a(n) = (10*n + 2)^3.",
   "id": "A017295",
   "mentions": [
     "A000578",
+    "A016863",
+    "A016875",
     "A017293"
   ],
   "tags": [
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

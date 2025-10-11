@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that n is the sum of a prime and k powers of 2.",
+  "id": "A387053",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

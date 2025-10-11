@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of 1/sqrt(1 - 4*x - (2*k*x)^2).",
+  "id": "A387466",
+  "mentions": [
+    "A000984",
+    "A006139",
+    "A084770",
+    "A098455",
+    "A098456",
+    "A386621",
+    "A387467"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum number of ways in which any strict partition of 2n can be partitioned into two disjoint subsets of equal sum.",
+  "id": "A387388",
+  "mentions": [
+    "A000009",
+    "A083206",
+    "A237258",
+    "A305551",
+    "A321452",
+    "A371791"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

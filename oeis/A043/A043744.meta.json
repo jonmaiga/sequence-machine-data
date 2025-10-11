@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose number of runs in the base-2 representation is congruent to 5 mod 7.",
   "id": "A043744",
-  "mentions": [],
+  "mentions": [
+    "A043572"
+  ],
   "tags": [
     "base",
     "nonn"

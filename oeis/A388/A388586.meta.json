@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1024 * sqrt(239+169 * sqrt(2)) * exp(Pi / 2) * Gamma(5/4)^6 * sin(Pi / 8)^6) / Pi^(9/2).",
+  "id": "A388586",
+  "mentions": [
+    "A128711"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

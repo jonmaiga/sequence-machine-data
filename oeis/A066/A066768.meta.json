@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{d|n} binomial(2*d-2,d-1).",
+  "description": "a(n) = Sum_{d|n} binomial(2*d-2,d-1).",
   "id": "A066768",
   "mentions": [
     "A000984",
@@ -8,6 +8,7 @@
     "A052854"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((1+sqrt(3)) * exp(Pi / 24) * Gamma(2/3)) / (2 * (6 * Pi)^(1/4) * Gamma(11/12)).",
+  "id": "A388614",
+  "mentions": [
+    "A133985"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

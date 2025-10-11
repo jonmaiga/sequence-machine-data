@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k * binomial(n+3,k+3) * binomial(2*k+6,k+6).",
+  "id": "A387308",
+  "mentions": [
+    "A331793",
+    "A387307"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

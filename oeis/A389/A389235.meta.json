@@ -1,0 +1,25 @@
+{
+  "description": "Number of repeating Harshad algorithm steps until a non-Harshad number or a power of 10 is reached.",
+  "id": "A389235",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A114440",
+    "A188641",
+    "A235507",
+    "A235697",
+    "A236338",
+    "A385105",
+    "A389220"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

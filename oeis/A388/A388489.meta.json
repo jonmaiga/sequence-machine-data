@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 64 * exp(-Pi).",
+  "id": "A388489",
+  "mentions": [
+    "A097340"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

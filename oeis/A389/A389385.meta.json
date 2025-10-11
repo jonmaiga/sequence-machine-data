@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-factors of the n-dimensional hypercube graph.",
+  "id": "A389385",
+  "mentions": [
+    "A005271",
+    "A066037",
+    "A389384",
+    "A389386"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

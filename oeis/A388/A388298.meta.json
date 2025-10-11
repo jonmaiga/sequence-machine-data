@@ -1,0 +1,15 @@
+{
+  "description": "Degree zero coefficients in the self-intersection of a point in the quantum cohomology of a twisted flag manifold: a(n) is the coefficient of q^(3*A+ n*B) where A and B are the generators of the effective cone with first Chern number 2 and 0, respectively.",
+  "id": "A388298",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

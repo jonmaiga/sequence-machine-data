@@ -1,5 +1,5 @@
 {
-  "description": "arcsinh(sin(sin(x)))=x-3/3!*x^3+41/5!*x^5-1515/7!*x^7+113489/9!*x^9...",
+  "description": "Expansion of e.g.f. arcsinh(sin(sin(x))), odd powers only.",
   "id": "A012011",
   "mentions": [],
   "tags": [

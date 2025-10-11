@@ -1,5 +1,5 @@
 {
-  "description": "A Beatty sequence: [ n(1 + 1/e) ].",
+  "description": "A Beatty sequence: floor(n*(1 + 1/e)).",
   "id": "A006594",
   "mentions": [
     "A000572"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

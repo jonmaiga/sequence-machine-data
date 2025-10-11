@@ -1,5 +1,5 @@
 {
-  "description": "Number of integers among the following n+1 quotients: A001405(n)/A001405(k), k=0,..,n. Number of values k for which the n-th central binomial coefficient[cbc] is divisible by the k-th cbc-s k=0,..n.",
+  "description": "Number of integers among the following n+1 quotients: A001405(n)/A001405(k), k=0,..,n. Number of values k for which the n-th central binomial coefficient is divisible by the k-th central binomial coefficient for 0<=k=n.",
   "id": "A080391",
   "mentions": [
     "A001405"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

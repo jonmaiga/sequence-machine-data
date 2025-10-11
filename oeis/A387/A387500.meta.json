@@ -1,0 +1,19 @@
+{
+  "description": "Median of twin prime pairs with n decimal digits.",
+  "id": "A387500",
+  "mentions": [
+    "A001097",
+    "A007508",
+    "A309329"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

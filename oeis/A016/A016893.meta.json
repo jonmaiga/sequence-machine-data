@@ -1,5 +1,5 @@
 {
-  "description": "(5n+3)^9.",
+  "description": "a(n) = (5*n+3)^9.",
   "id": "A016893",
   "mentions": [],
   "tags": [

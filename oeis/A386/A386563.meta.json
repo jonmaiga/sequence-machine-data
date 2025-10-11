@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{p lesser of a twin prime pair} 1/(1 - 1/p^2).",
+  "id": "A386563",
+  "mentions": [
+    "A001359",
+    "A007508",
+    "A013661",
+    "A387500"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

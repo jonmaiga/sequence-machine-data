@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 32 * exp(-Pi).",
+  "id": "A388179",
+  "mentions": [
+    "A007246",
+    "A029845"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

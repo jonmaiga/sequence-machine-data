@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{x>=0} sin(x) * sin(x^2) dx.",
+  "id": "A387213",
+  "mentions": [
+    "A069998",
+    "A217481",
+    "A231863"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

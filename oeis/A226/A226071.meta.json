@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that triangular(n)+1 is a square and triangular(n)+2 is a prime.",
+  "description": "Numbers k such that triangular(k)+1 is a square and triangular(k)+2 is a prime.",
   "id": "A226071",
   "mentions": [
     "A006451",

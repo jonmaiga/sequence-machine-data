@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of second solution of equation cos(x) cosh(x) = 1.",
+  "description": "Decimal expansion of second solution of the equation cos(x)*cosh(x) = 1.",
   "id": "A076415",
   "mentions": [
     "A076414",

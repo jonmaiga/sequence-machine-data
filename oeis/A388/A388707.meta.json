@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of exp(Pi / 12) * 2^(3/4).",
+  "id": "A388707",
+  "mentions": [
+    "A192096"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

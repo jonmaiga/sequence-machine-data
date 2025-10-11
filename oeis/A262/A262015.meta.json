@@ -2,9 +2,12 @@
   "description": "a(n) = [x^n] (1-x)^(4*n+1) * Sum_{k>=0} binomial(n+k-1,k)^4 * x^k.",
   "id": "A262015",
   "mentions": [
+    "A183204",
     "A262014"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

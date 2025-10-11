@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A387412, where A387412(n) is the length of the maximal common prefix of the binary expansions of n and A003961(n).",
+  "id": "A387408",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A387407",
+    "A387409",
+    "A387412",
+    "A387425"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

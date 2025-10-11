@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are at least twice the size the largest Catalan number less than or equal to n.",
+  "description": "Numbers k that are at least twice the size the largest Catalan number less than or equal to k.",
   "id": "A244216",
   "mentions": [
     "A000108",

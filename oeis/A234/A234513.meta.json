@@ -1,5 +1,5 @@
 {
-  "description": "8*binomial(9*n+8,n)/(9*n+8).",
+  "description": "a(n) = 8*binomial(9*n+8,n)/(9*n+8).",
   "id": "A234513",
   "mentions": [
     "A000108",
@@ -22,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

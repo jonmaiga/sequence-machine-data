@@ -1,9 +1,13 @@
 {
-  "description": "Third column sequence of triangle A062138 (generalized a=5 Laguerre).",
+  "description": "Third column of triangle A062138 (generalized a=5 Laguerre).",
   "id": "A062149",
   "mentions": [
+    "A001113",
+    "A001620",
     "A062138",
-    "A062148"
+    "A062148",
+    "A091725",
+    "A099285"
   ],
   "tags": [
     "easy",
@@ -12,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

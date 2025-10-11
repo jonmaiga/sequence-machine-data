@@ -1,5 +1,5 @@
 {
-  "description": "Sum of Kimberling's paraphrases (A003602) and its Dirichlet inverse.",
+  "description": "Sum of Kimberling's paraphrase, A003602, and its Dirichlet inverse.",
   "id": "A349135",
   "mentions": [
     "A003602",

@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 1, a(n) is the least k >= 0 such that n^2 - k^2 = 8*t where t >= 1 is a triangular number (A000217), or a(n) = -1 if no such k exists.",
+  "id": "A387359",
+  "mentions": [
+    "A000217",
+    "A005408",
+    "A005574",
+    "A094550",
+    "A134407"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

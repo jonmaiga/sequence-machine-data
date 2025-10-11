@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Bernoulli number B_{n} has denominator 498.",
+  "description": "Numbers k such that Bernoulli number B_{k} has denominator 498.",
   "id": "A282773",
   "mentions": [
     "A002445",

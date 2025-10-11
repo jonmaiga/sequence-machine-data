@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,k) = Sum_{j=0..n} (-1)^(n-j)*C(-j,-n)*S2(k,j), S2 the Stirling set numbers A048993, for n>=0 and 0<=k<=n.",
+  "description": "Triangle read by rows, T(n, k) = Sum_{j=0..n} (-1)^(n-j)*C(-j, -n)*S2(k, j), S2 the Stirling set numbers A048993, for n >= 0 and 0 <= k <= n.",
   "id": "A271701",
   "mentions": [
     "A048993"

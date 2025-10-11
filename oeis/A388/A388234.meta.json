@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/262144) * exp(2 * Pi) * Pi^12 / Gamma(3/4)^48.",
+  "id": "A388234",
+  "mentions": [
+    "A010839"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

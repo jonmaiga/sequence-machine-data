@@ -2,6 +2,7 @@
   "description": "Diagonal of the rational function 1/((1 - u v - u w - v w) * (1 - x y - x z - y z)).",
   "id": "A268553",
   "mentions": [
+    "A006480",
     "A268552"
   ],
   "tags": [

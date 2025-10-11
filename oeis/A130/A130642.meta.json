@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1 + Sum{k=1..n/2}A001223(2k-1)*(-1)^k = 0.",
+  "description": "Numbers n such that 1 + Sum{k=1..n/2} A001223(2k-1)*(-1)^k = 0.",
   "id": "A130642",
   "mentions": [
     "A000040",

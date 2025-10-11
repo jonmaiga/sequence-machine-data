@@ -2,7 +2,8 @@
   "description": "Expansion of 1 / (Sum_{n=-oo..oo} x^(n^2))^4.",
   "id": "A004405",
   "mentions": [
-    "A000122"
+    "A000122",
+    "A293238"
   ],
   "tags": [
     "formulas",

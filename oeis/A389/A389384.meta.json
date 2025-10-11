@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-factors of the n-dimensional hypercube graph, 0 <= k <= n.",
+  "id": "A389384",
+  "mentions": [
+    "A005271",
+    "A389385",
+    "A389386"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

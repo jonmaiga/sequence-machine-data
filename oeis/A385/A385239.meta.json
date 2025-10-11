@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = the total lengths of all the top arches of semi-meanders with n top arches where arch length = 1 + number of arches covered by the arch.",
+  "id": "A385239",
+  "mentions": [
+    "A000682"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors d of n for which A003959(d) > 2*d, where A003959 is multiplicative with a(p^e) = (p+1)^e.",
+  "id": "A387715",
+  "mentions": [
+    "A003959",
+    "A080224",
+    "A337345",
+    "A387711",
+    "A387712",
+    "A387713"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

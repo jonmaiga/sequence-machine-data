@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/2) * Sum_{k=0..n-1} binomial(4*n,4*k+2).",
+  "id": "A387742",
+  "mentions": [
+    "A070775"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

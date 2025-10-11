@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that the sum of digits of k^2 in base 10 is divisible by n.",
+  "id": "A389004",
+  "mentions": [
+    "A004159",
+    "A051885",
+    "A389000"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/512) * exp(11*Pi/12) * Pi^(11/2) * 2^(3/4) / Gamma(3/4)^22.",
+  "id": "A388223",
+  "mentions": [
+    "A010828"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

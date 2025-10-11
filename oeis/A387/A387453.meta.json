@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of cos(Pi/29).",
+  "id": "A387453",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

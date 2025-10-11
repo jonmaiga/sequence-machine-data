@@ -2,7 +2,10 @@
   "description": "Generalized nim sum n + n in base 10.",
   "id": "A004520",
   "mentions": [
-    "A014263"
+    "A014263",
+    "A059626",
+    "A169894",
+    "A389424"
   ],
   "tags": [
     "base",
@@ -13,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 77,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

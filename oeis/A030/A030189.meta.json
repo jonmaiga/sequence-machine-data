@@ -1,8 +1,11 @@
 {
   "description": "Expansion of eta(q)*eta(q^2)*eta(q^4)*eta(q^8).",
   "id": "A030189",
-  "mentions": [],
+  "mentions": [
+    "A388386"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

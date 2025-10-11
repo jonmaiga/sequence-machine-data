@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the imaginary part of i^(1/12), or sin(Pi/24).",
   "id": "A343054",
   "mentions": [
+    "A019824",
     "A144982"
   ],
   "tags": [

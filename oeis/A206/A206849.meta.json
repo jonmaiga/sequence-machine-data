@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..n} binomial(n^2, k^2).",
   "id": "A206849",
   "mentions": [
+    "A066382",
     "A206847",
     "A206848",
     "A206850",

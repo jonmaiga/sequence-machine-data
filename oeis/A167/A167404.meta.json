@@ -1,5 +1,5 @@
 {
-  "description": "Complete lower trim array of the Wythoff fractal sequence, A003603.",
+  "description": "Complete lower trim array of the Wythoff fractal sequence, A003603, read by descending antidiagonals.",
   "id": "A167404",
   "mentions": [
     "A000027",

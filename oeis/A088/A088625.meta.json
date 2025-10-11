@@ -1,5 +1,5 @@
 {
-  "description": "14*C(n,8).",
+  "description": "a(n) = 14*binomial(n,8).",
   "id": "A088625",
   "mentions": [
     "A088617"

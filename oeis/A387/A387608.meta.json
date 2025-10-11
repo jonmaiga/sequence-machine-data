@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the fourth largest dihedral angle, in radians, in a gyroelongated pentagonal cupola (Johnson solid J_24).",
+  "id": "A387608",
+  "mentions": [
+    "A002163",
+    "A002194",
+    "A010476",
+    "A377995",
+    "A377996",
+    "A384283",
+    "A384284",
+    "A385260",
+    "A385261",
+    "A385262",
+    "A385263",
+    "A386852",
+    "A387607",
+    "A387609",
+    "A387610"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

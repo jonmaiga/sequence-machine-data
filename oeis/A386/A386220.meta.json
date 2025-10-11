@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = d + 2*2^e where n = d*2^e with d = A000265(n) odd.",
+  "id": "A386220",
+  "mentions": [
+    "A000265",
+    "A007814",
+    "A171977",
+    "A386386"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

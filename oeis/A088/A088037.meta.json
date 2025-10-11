@@ -2,6 +2,7 @@
   "description": "Smallest square k == 1 (mod some n-th power), k > 1.",
   "id": "A088037",
   "mentions": [
+    "A000225",
     "A060867"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 26,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form Catalan(n) - 1.",
+  "description": "Primes of the form Catalan(k) - 1.",
   "id": "A231885",
   "mentions": [
     "A000108",

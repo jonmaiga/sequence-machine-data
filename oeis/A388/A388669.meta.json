@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((3+sqrt(5))^(1/4) * exp(Pi / 4)) / sqrt(10).",
+  "id": "A388669",
+  "mentions": [
+    "A145722"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

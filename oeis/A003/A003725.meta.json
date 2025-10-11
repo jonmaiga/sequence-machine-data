@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp( x * exp(-x) ).",
+  "description": "Expansion of e.g.f. exp( x * exp(-x) ).",
   "id": "A003725",
   "mentions": [
     "A000248",

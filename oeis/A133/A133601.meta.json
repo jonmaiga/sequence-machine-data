@@ -1,11 +1,12 @@
 {
-  "description": "A007318 * (A097806 + A133080 - I), I = Identity matrix.",
+  "description": "Triangle read by rows: A007318 * (A097806 + A133080 - I) as infinite lower triangular matrices, where I is the identity matrix.",
   "id": "A133601",
   "mentions": [
     "A007318",
     "A052549",
     "A097806",
-    "A133080"
+    "A133080",
+    "A133807"
   ],
   "tags": [
     "formulas",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

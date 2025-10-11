@@ -1,15 +1,18 @@
 {
   "description": "Tersum n + 7.",
   "id": "A004496",
-  "mentions": [],
+  "mentions": [
+    "A004489"
+  ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 58,
-    "source": "joeis"
+    "size": 68,
+    "source": "oeis-bfile"
   }
 }

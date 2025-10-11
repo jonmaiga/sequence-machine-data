@@ -1,0 +1,18 @@
+{
+  "description": "Rectangular array (d(n,k)) read by falling antidiagonals: d(n,k) is the denominator array of q(n,k) in the array V(1), defined in Comments.",
+  "id": "A387266",
+  "mentions": [
+    "A000040",
+    "A387265"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

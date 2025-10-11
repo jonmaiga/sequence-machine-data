@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of people such that the last person is freed in the variant of the Josephus problem in which one person is skipped, then one is eliminated, then two people are skipped and one eliminated, then three people are skipped and so on.",
+  "id": "A386312",
+  "mentions": [
+    "A182459",
+    "A291317",
+    "A385513",
+    "A386305"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

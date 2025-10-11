@@ -1,0 +1,17 @@
+{
+  "description": "Smallest multiple of n that does not contain the digit 1 in its decimal representation.",
+  "id": "A388059",
+  "mentions": [
+    "A039932",
+    "A319542"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

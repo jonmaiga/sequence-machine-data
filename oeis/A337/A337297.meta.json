@@ -1,9 +1,10 @@
 {
-  "description": "Sum of the coordinates of all pairs of divisors of n, (d1,d2), such that d1 < d2.",
+  "description": "a(n) = sigma(n)*(tau(n) - 1).",
   "id": "A337297",
   "mentions": [
     "A000005",
     "A000203",
+    "A064840",
     "A066446",
     "A184389",
     "A337246",

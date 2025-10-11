@@ -2,6 +2,7 @@
   "description": "Sum of the middle parts in the partitions of n into 3 parts.",
   "id": "A308266",
   "mentions": [
+    "A079978",
     "A308265"
   ],
   "tags": [

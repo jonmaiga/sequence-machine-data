@@ -1,0 +1,20 @@
+{
+  "description": "The least number whose sum of digits in base b is divisible by b for all bases b = 2, 3, ..., n.",
+  "id": "A388288",
+  "mentions": [
+    "A001969",
+    "A053839",
+    "A079498",
+    "A388287"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

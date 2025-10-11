@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-crown graph.",
+  "id": "A387888",
+  "mentions": [
+    "A326747"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

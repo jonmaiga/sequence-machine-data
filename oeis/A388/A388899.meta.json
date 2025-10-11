@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (512 * (2+sqrt(2)) * Gamma(5/4)^8) / Pi^6.",
+  "id": "A388899",
+  "mentions": [
+    "A259491"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

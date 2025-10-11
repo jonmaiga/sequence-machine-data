@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 512 * exp(-Pi) * Gamma(3/4)^24 / Pi^6.",
+  "id": "A388176",
+  "mentions": [
+    "A006922"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

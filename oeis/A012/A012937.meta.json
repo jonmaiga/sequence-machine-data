@@ -1,5 +1,5 @@
 {
-  "description": "sin(tan(x)+sin(x))=2*x-7/3!*x^3+9/5!*x^5-865/7!*x^7-12375/9!*x^9...",
+  "description": "Expansion of e.g.f. sin(tan(x)+sin(x)) (odd powers only).",
   "id": "A012937",
   "mentions": [],
   "tags": [

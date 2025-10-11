@@ -1,0 +1,16 @@
+{
+  "description": "First component A of the pairs (A, B), listed in increasing order, such that the multiset of digits of A union the multiset of digits of B equals the multiset of digits of A^2 and the multiset of digits of B^2, for some B >= A. Note that terms may be repeated.",
+  "id": "A389379",
+  "mentions": [
+    "A389390"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Number of integer partitions of n whose parts do not have choosable sets of integer partitions.",
+  "id": "A387134",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A238873",
+    "A239312",
+    "A276078",
+    "A276079",
+    "A335433",
+    "A355529",
+    "A355535",
+    "A367867",
+    "A367901",
+    "A367903",
+    "A367905",
+    "A367907",
+    "A368100",
+    "A370320",
+    "A370583",
+    "A370592",
+    "A370593",
+    "A370594",
+    "A387118",
+    "A387137",
+    "A387328",
+    "A387576",
+    "A387577"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Table of T(b,n) read by ascending antidiagonals, where T(b,n) is the smallest positive integer k for which every nonzero digit in base b appears in the k first multiples of n for b>=2, n>=1.",
+  "id": "A387615",
+  "mentions": [
+    "A202296",
+    "A206242",
+    "A206243"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

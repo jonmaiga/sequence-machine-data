@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6n-5 and 6n-1 are both primes.",
+  "description": "Numbers k such that 6*k-5 and 6*k-1 are both primes.",
   "id": "A186243",
   "mentions": [
     "A023200",

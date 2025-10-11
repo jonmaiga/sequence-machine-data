@@ -9,12 +9,13 @@
     "A192962"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

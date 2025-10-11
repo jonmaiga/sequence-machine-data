@@ -1,8 +1,11 @@
 {
   "description": "Number of (undirected) Hamiltonian paths in the n X n black bishop graph.",
   "id": "A307934",
-  "mentions": [],
+  "mentions": [
+    "A234632"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"

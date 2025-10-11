@@ -1,14 +1,17 @@
 {
-  "description": "Numbers n such that average of prime(n) and prime(n+1) is a perfect square.",
+  "description": "Numbers k such that average of prime(k) and prime(k+1) is a perfect square.",
   "id": "A076692",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000290"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 48,
     "source": "joeis"
   }
 }

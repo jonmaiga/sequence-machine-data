@@ -1,0 +1,25 @@
+{
+  "description": "Minimum number of diagonal transversals in an extended self-orthogonal diagonal Latin square of order n.",
+  "id": "A387236",
+  "mentions": [
+    "A287647",
+    "A287648",
+    "A309210",
+    "A309598",
+    "A309599",
+    "A354068",
+    "A360220",
+    "A387360",
+    "A389118"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

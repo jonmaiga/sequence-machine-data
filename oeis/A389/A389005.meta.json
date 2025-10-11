@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of palindromes in base 10 such that the sums of three consecutive terms are all distinct.",
+  "id": "A389005",
+  "mentions": [
+    "A002113",
+    "A002264",
+    "A389006"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

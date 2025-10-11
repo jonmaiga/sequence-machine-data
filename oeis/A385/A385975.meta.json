@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(2*k,n-k).",
+  "id": "A385975",
+  "mentions": [
+    "A002426",
+    "A082759",
+    "A161634",
+    "A387288",
+    "A387358",
+    "A389125",
+    "A389126",
+    "A389225"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

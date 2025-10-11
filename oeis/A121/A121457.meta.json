@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = A096162(n) * A036039(n).",
+  "description": "Irregular triangle T(n,k) = A096162(n,k) * A036039(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A121457",
   "mentions": [
     "A000041",
     "A007841",
     "A025487",
+    "A036036",
     "A036039",
     "A096162"
   ],
@@ -14,8 +15,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 55,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

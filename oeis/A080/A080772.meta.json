@@ -1,7 +1,9 @@
 {
   "description": "Numbers of numbers <= n having prime factors <= k, triangular array read by rows.",
   "id": "A080772",
-  "mentions": [],
+  "mentions": [
+    "A080786"
+  ],
   "tags": [
     "formulas",
     "nonn",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

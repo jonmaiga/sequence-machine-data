@@ -2,6 +2,7 @@
   "description": "Terms k of A249667 such that k-A151799(k) = A151800(k)-k.",
   "id": "A249676",
   "mentions": [
+    "A024675",
     "A151799",
     "A151800",
     "A249624",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

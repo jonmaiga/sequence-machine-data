@@ -1,15 +1,18 @@
 {
   "description": "Number of graceful labelings of the n-crown graph.",
   "id": "A326747",
-  "mentions": [],
+  "mentions": [
+    "A387888"
+  ],
   "tags": [
     "bref",
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 3,
+    "offset": 1,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least k that starts a sequence of exactly n numbers on which i + Omega(i) is constant, where Omega = A001222.",
+  "description": "a(n) is the least k that starts a sequence of exactly n numbers on which i + Omega(i) is constant, where Omega = A001222 (this is BigOmega).",
   "id": "A369228",
   "mentions": [
     "A001222",

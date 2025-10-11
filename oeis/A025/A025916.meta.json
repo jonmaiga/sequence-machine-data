@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of 1/((1-x^7)(1-x^10)(1-x^12)).",
+  "description": "Expansion of 1/((1-x^7)*(1-x^10)*(1-x^12)).",
   "id": "A025916",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

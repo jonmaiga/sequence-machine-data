@@ -1,0 +1,48 @@
+{
+  "description": "Number of prime factors with multiplicity (bigomega) of the least common multiple of the prime indices of n.",
+  "id": "A387879",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A003963",
+    "A033844",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A062447",
+    "A066328",
+    "A112798",
+    "A120383",
+    "A289508",
+    "A289509",
+    "A290103",
+    "A302242",
+    "A302594",
+    "A303975",
+    "A318978",
+    "A335433",
+    "A335448",
+    "A355731",
+    "A355733",
+    "A355737",
+    "A355740",
+    "A370820",
+    "A371127",
+    "A387114",
+    "A387135",
+    "A387579"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

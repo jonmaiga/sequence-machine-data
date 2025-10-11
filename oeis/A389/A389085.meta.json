@@ -1,0 +1,21 @@
+{
+  "description": "Inverse of primegap shift: fully multiplicative with a(3) = 1 and a(prime(j)) = A130789(A389083(j)-1) for j <> 2.",
+  "id": "A389085",
+  "mentions": [
+    "A000244",
+    "A130789",
+    "A389083",
+    "A389084",
+    "A389086"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

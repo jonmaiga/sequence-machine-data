@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the residues (mod k) of their aliquot parts is equal to n, for some 1 <= k <= n.",
+  "description": "Numbers m such that the sum of the residues (mod k) of their aliquot parts is equal to m, for some 1 <= k <= m.",
   "id": "A273124",
   "mentions": [
     "A265646"

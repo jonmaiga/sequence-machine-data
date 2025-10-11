@@ -1,11 +1,14 @@
 {
-  "description": "C(3+2*n,3+n)*C(8+2*n,0+n).",
+  "description": "a(n) = C(3+2*n,3+n)*C(8+2*n,0+n).",
   "id": "A114251",
   "mentions": [
+    "A002054",
+    "A004310",
     "A062190"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

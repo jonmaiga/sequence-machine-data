@@ -12,16 +12,18 @@
     "A060544",
     "A069270",
     "A115141",
+    "A118970",
     "A163456",
     "A224274"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "joeis"
   }
 }

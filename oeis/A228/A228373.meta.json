@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 27*n + 1 is not prime.",
+  "description": "Numbers k such that 27*k + 1 is not prime.",
   "id": "A228373",
   "mentions": [
     "A224467"

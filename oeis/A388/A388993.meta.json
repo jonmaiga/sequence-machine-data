@@ -1,0 +1,19 @@
+{
+  "description": "Square array A(n,k) = A007913(A388981(n, k)), read by descending antidiagonals.",
+  "id": "A388993",
+  "mentions": [
+    "A003961",
+    "A007913",
+    "A388981",
+    "A388984"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

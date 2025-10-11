@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers k for which A000005(2*k) >= A017665(2*k), where A000005 is the number of divisors function, and A017665 is the numerator of the abundancy ratio, sigma(k)/k.",
+  "id": "A388277",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A009194",
+    "A017665",
+    "A388268",
+    "A388269",
+    "A388270"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

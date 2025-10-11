@@ -1,0 +1,21 @@
+{
+  "description": "Primes in the order of their first appearance among the factors of the averages of twin prime pairs.",
+  "id": "A387287",
+  "mentions": [
+    "A000040",
+    "A014574",
+    "A071256",
+    "A071407",
+    "A090530",
+    "A294731"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

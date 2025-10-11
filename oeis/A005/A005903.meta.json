@@ -1,5 +1,5 @@
 {
-  "description": "Number of points on surface of dodecahedron: 30n^2 + 2 for n > 0.",
+  "description": "Number of points on surface of dodecahedron: a(n) = 30*n^2 + 2 for n > 0.",
   "id": "A005903",
   "mentions": [
     "A000051",

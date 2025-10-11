@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that k^k + (k+1)^(k-1) is prime.",
+  "id": "A389195",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

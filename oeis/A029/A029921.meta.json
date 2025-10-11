@@ -1,8 +1,14 @@
 {
   "description": "Convert n from miles to kilometers (km).",
   "id": "A029921",
-  "mentions": [],
+  "mentions": [
+    "A029922",
+    "A085270",
+    "A323606"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

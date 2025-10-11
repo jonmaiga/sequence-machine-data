@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 24 * exp(-Pi / 2) * sqrt(2) * Gamma(3/4)^8 / Pi^2.",
+  "id": "A388501",
+  "mentions": [
+    "A105095"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

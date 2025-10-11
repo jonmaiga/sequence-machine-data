@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^17 / Pi^(17/4).",
+  "id": "A388153",
+  "mentions": [
+    "A004418"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

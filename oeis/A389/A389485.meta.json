@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the least x > 0 such that exp(x) - tan(x) = 0.",
+  "id": "A389485",
+  "mentions": [
+    "A069997",
+    "A196401",
+    "A389484"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

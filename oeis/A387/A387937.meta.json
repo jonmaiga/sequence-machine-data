@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of cycles of length n with k descents in a complete graph on n nodes.",
+  "id": "A387937",
+  "mentions": [
+    "A185634",
+    "A387913"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

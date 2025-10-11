@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k for which A388258(k) = n, or -1 if no such k exists.",
+  "id": "A389229",
+  "mentions": [
+    "A387857",
+    "A388258"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

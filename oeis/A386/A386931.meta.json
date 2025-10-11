@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer k such that k^2 is equal to the sum of n consecutive positive integers, or 0 if no such k exists.",
+  "id": "A386931",
+  "mentions": [
+    "A076114",
+    "A076115"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of matchings in the n-double cone graph.",
+  "id": "A387571",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

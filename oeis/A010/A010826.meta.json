@@ -2,7 +2,8 @@
   "description": "Expansion of Product_{k>=1} (1 - x^k)^20.",
   "id": "A010826",
   "mentions": [
-    "A000203"
+    "A000203",
+    "A388221"
   ],
   "tags": [
     "formulas",

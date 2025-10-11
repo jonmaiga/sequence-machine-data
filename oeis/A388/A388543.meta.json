@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of e^(-9).",
+  "id": "A388543",
+  "mentions": [
+    "A001113",
+    "A068985",
+    "A092553",
+    "A092554",
+    "A092555",
+    "A092560",
+    "A092577",
+    "A092578",
+    "A388542"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

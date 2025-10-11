@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1 - 8*x + 4*x^2)^(5/2).",
+  "id": "A387343",
+  "mentions": [
+    "A002802",
+    "A069835",
+    "A331515",
+    "A387313",
+    "A387339",
+    "A387341",
+    "A387344"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

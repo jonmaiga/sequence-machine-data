@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 > (1/2)(prevprime(n^2)+nextprime(n^2)).",
+  "description": "Numbers k such that k^2 > (1/2)*(prevprime(k^2) + nextprime(k^2)).",
   "id": "A109270",
   "mentions": [
     "A024675",

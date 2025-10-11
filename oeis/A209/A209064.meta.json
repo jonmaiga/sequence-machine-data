@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose divisors, when expressed in binary, have lengths 1 to tau(n).",
+  "description": "Numbers k whose divisors, when expressed in binary, have lengths 1 to tau(k).",
   "id": "A209064",
   "mentions": [
     "A000079",

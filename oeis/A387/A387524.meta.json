@@ -1,0 +1,23 @@
+{
+  "description": "Primes p with property that in A386482 they are immediately preceded by 2*p and immediately followed by 3*p.",
+  "id": "A387524",
+  "mentions": [
+    "A064413",
+    "A386482",
+    "A386483",
+    "A387072",
+    "A387076",
+    "A387077",
+    "A387522",
+    "A387523"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

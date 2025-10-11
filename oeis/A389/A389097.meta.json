@@ -1,0 +1,21 @@
+{
+  "description": "LCM of the amicable pairs: a(n) = lcm(A002025(n), A002046(n)).",
+  "id": "A389097",
+  "mentions": [
+    "A000203",
+    "A002025",
+    "A002046",
+    "A061469",
+    "A180202"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

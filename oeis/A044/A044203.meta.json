@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that string 2,0 occurs in the base 8 representation of n but not of n-1.",
+  "description": "Numbers k such that string 2,0 occurs in the base 8 representation of k but not of k-1.",
   "id": "A044203",
-  "mentions": [],
+  "mentions": [
+    "A007094"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
-    "source": "joeis"
+    "size": 49,
+    "source": "oeis-bfile"
   }
 }

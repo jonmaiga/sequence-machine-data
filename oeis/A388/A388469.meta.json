@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(Pi / 8) / 2^(5/8).",
+  "id": "A388469",
+  "mentions": [
+    "A083365"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) - 1 divides n, where phi is Euler's totient function.",
+  "description": "Numbers k such that phi(k) - 1 divides k, where phi is Euler's totient function.",
   "id": "A202855",
   "mentions": [
     "A000010",

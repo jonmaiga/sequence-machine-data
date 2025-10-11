@@ -1,5 +1,5 @@
 {
-  "description": "An irregular triangular array of natural numbers read by rows, with shape sequence A000041(n) related to sequence A060850.",
+  "description": "Irregular triangle T(n,k) read by rows: Heinz numbers of the integer partitions of n in graded reverse-lexicographic order, 1 <= k <= A000041(n).",
   "id": "A129129",
   "mentions": [
     "A000041",
@@ -10,7 +10,6 @@
     "A036037",
     "A036042",
     "A056239",
-    "A060850",
     "A061395",
     "A066099",
     "A080577",

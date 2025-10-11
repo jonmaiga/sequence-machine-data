@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways of writing n as the sum of 2 triangular numbers.",
+  "description": "Number of ordered ways of writing n as the sum of 2 triangular numbers.",
   "id": "A008441",
   "mentions": [
     "A000122",
@@ -47,7 +47,8 @@
     "A226253",
     "A226254",
     "A226255",
-    "A274621"
+    "A274621",
+    "A388192"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of x such that exp(x) - arccot(x) = 0.",
+  "id": "A389495",
+  "mentions": [
+    "A069997",
+    "A196401",
+    "A389484",
+    "A389485",
+    "A389494"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

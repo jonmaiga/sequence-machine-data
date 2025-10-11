@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (sqrt(2 * (-1+sqrt(2))) * exp((5 * Pi) / 8) * Gamma(5/4)^2) / Pi^(3/2).",
+  "id": "A388792",
+  "mentions": [
+    "A226194"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

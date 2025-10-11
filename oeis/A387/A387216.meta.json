@@ -2,7 +2,8 @@
   "description": "Numbers that have at least two prime factors (counting multiplicity) congruent to 1 mod 3.",
   "id": "A387216",
   "mentions": [
-    "A002476"
+    "A002476",
+    "A050931"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of g.f.: (1+x)/(1+2*x+4x^2).",
+  "description": "Expansion of g.f. (1+x)/(1+2*x+4*x^2).",
   "id": "A104537",
   "mentions": [
     "A000108",

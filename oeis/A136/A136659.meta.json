@@ -2,7 +2,11 @@
   "description": "Unsigned third column (k=2) of triangle A136656 divided by 4.",
   "id": "A136659",
   "mentions": [
+    "A001113",
+    "A001620",
     "A001710",
+    "A091725",
+    "A099285",
     "A136656",
     "A136657",
     "A136660"
@@ -14,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "joeis"
   }
 }

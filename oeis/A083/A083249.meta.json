@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with A045763(n) = n + 1 - d(n) - phi(n) < d(n) < phi(n).",
+  "description": "Numbers k with A045763(k) = k + 1 - d(k) - phi(k) < d(k) < phi(k).",
   "id": "A083249",
   "mentions": [
     "A000005",

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the squarefree divisors of the numbers satisfying Euler's condition for odd perfect numbers: a(n) = A048250(A228058(n)).",
+  "id": "A389164",
+  "mentions": [
+    "A000203",
+    "A048250",
+    "A228058",
+    "A325378",
+    "A389096",
+    "A389167",
+    "A389203"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

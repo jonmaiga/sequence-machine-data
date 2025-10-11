@@ -2,10 +2,12 @@
   "description": "Partial sums of A006206.",
   "id": "A001461",
   "mentions": [
+    "A001622",
     "A006206"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

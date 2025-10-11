@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 24 * exp(-Pi).",
+  "id": "A388431",
+  "mentions": [
+    "A045479"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

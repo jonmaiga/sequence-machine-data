@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are divisible by at least one twin prime (A001097), and furthermore, if a twin prime p divides n, then the other twin q also divides n.",
+  "description": "Numbers that are divisible by at least one pair of twin primes (A001097).",
   "id": "A079877",
   "mentions": [
     "A001097",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
-    "source": "oeis-bfile"
+    "size": 54,
+    "source": "joeis"
   }
 }

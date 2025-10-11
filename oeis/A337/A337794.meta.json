@@ -1,8 +1,11 @@
 {
-  "description": "Number of graceful labelings of the n-Moebius ladder graph.",
+  "description": "Total number of graceful labelings of the n-Moebius ladder graph.",
   "id": "A337794",
-  "mentions": [],
+  "mentions": [
+    "A387803"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

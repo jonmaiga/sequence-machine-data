@@ -2,6 +2,7 @@
   "description": "Values of n corresponding to the terms in sequence A080153.",
   "id": "A080154",
   "mentions": [
+    "A000720",
     "A073640",
     "A080153"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

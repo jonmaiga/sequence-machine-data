@@ -1,5 +1,5 @@
 {
-  "description": "A129017(3n+1).",
+  "description": "a(n) = A129017(3*n+1).",
   "id": "A129019",
   "mentions": [
     "A129012",
@@ -7,6 +7,7 @@
     "A129021"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

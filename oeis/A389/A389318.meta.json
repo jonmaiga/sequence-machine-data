@@ -1,0 +1,32 @@
+{
+  "description": "Upper (1/4)-midsequence of square numbers and (-1)*(triangular numbers); see Comments.",
+  "id": "A389318",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A007980",
+    "A007997",
+    "A011848",
+    "A011861",
+    "A054925",
+    "A128422",
+    "A130518",
+    "A281026",
+    "A332495",
+    "A387355",
+    "A389142",
+    "A389316",
+    "A389319",
+    "A389320"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

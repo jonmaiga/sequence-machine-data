@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n, k) = A388283((A246278(n, k)), read by falling antidiagonals. Numerator of (3*n-sigma(n))/n, as applied to the prime shift array.",
+  "id": "A388284",
+  "mentions": [
+    "A246278",
+    "A341605",
+    "A341606",
+    "A355925",
+    "A355927",
+    "A388283",
+    "A388285"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

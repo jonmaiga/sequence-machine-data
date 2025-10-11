@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: T(n,k)= (k-1)*T(n-1,k) + (n-k+2)*T(n-1, k-1), with T(n,1)=1, for 1 <= k <= n, n >= 1.",
+  "description": "Triangle T(n,k) read by rows: T(n,k) = (k-1)*T(n-1,k) + (n-k+2)*T(n-1, k-1), with T(n,1)=1, for 1 <= k <= n, n >= 1.",
   "id": "A157011",
   "mentions": [
     "A000096",

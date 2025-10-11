@@ -1,21 +1,21 @@
 {
-  "description": "A triangle with shape A000041 defined by sequence A098546 times sequence A036040.",
+  "description": "Irregular triangle T(n,k) = A098546(n,k) * A036040(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A122454",
   "mentions": [
     "A000041",
+    "A036036",
     "A036040",
     "A098546",
     "A122455"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 56,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

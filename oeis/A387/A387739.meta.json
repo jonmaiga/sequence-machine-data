@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that the largest part is >= n/2 and each part is congruent to 1 or 4 (mod 5).",
+  "id": "A387739",
+  "mentions": [
+    "A003114",
+    "A387735",
+    "A387736",
+    "A387737",
+    "A387738",
+    "A387740"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

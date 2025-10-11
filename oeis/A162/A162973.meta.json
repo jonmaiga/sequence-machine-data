@@ -2,6 +2,7 @@
   "description": "Number of cycles in all derangement permutations of {1,2,...,n}.",
   "id": "A162973",
   "mentions": [
+    "A000166",
     "A000254",
     "A001620",
     "A002720",

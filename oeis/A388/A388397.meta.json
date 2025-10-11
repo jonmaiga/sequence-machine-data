@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (24 * (3+2 * sqrt(3)) * Gamma(2/3)^2) / (Gamma(-1/12)^2 * Gamma(3/4)^2).",
+  "id": "A388397",
+  "mentions": [
+    "A034896"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^24 / Pi^6.",
+  "id": "A388160",
+  "mentions": [
+    "A004425"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

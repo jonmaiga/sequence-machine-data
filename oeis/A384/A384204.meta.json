@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of palindromic permutations of the prime factors of n (counted with multiplicity).",
+  "id": "A384204",
+  "mentions": [
+    "A242414",
+    "A265640",
+    "A388859"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of -x, where x is the abscissa of the second local extremum of the Riemann zeta function on the negative real axis.",
+  "id": "A387052",
+  "mentions": [
+    "A271855",
+    "A271856",
+    "A387065"
+  ],
+  "tags": [
+    "cons",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

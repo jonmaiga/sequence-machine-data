@@ -2,6 +2,8 @@
   "description": "Table T(n,k) = max{n+k-1, n+k-1} n, k > 0, read by sides of squares from T(1,n) to T(n,n), then from T(n,n) to T(n,1).",
   "id": "A209302",
   "mentions": [
+    "A000194",
+    "A053188",
     "A187760"
   ],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Möbius transform of A325974, where A325974 is the arithmetic mean of {sum of non-unitary divisors} and {sum of nonsquarefree divisors}.",
+  "id": "A389072",
+  "mentions": [
+    "A008683",
+    "A048146",
+    "A162296",
+    "A254503",
+    "A325974",
+    "A388286"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

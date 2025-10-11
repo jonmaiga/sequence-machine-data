@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} (3^n*x + LambertW(x))^n / n!.",
+  "id": "A386656",
+  "mentions": [
+    "A386648",
+    "A386655",
+    "A386657",
+    "A386658"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (1/7) * Sum_{k=0..n-1} binomial(7*n,7*k+1).",
+  "id": "A387748",
+  "mentions": [
+    "A015565",
+    "A094211",
+    "A387743",
+    "A387745",
+    "A387749",
+    "A387750",
+    "A387751",
+    "A387752",
+    "A387753",
+    "A387754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

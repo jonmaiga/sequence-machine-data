@@ -2,7 +2,8 @@
   "description": "Numbers whose base-6 representation has exactly 2 runs.",
   "id": "A043610",
   "mentions": [
-    "A007092"
+    "A007092",
+    "A043695"
   ],
   "tags": [
     "base",

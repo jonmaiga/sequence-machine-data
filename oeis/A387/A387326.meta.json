@@ -1,0 +1,41 @@
+{
+  "description": "Numbers whose prime factors do not have choosable sets of integer partitions.",
+  "id": "A387326",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001222",
+    "A056239",
+    "A063834",
+    "A066328",
+    "A112798",
+    "A120383",
+    "A276079",
+    "A289509",
+    "A299200",
+    "A325127",
+    "A335433",
+    "A335448",
+    "A355739",
+    "A365886",
+    "A383706",
+    "A387111",
+    "A387133",
+    "A387134",
+    "A387135",
+    "A387180",
+    "A387327",
+    "A387328",
+    "A387576",
+    "A387577"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

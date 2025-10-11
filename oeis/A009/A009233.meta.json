@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. exp(sinh(x)*x) (even powers only).",
   "id": "A009233",
   "mentions": [
+    "A005046",
     "A009214",
     "A352254"
   ],

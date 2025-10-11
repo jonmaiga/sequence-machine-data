@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/512) * exp(Pi) * Pi^6 / Gamma(3/4)^24.",
+  "id": "A388084",
+  "mentions": [
+    "A000594"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n*(n+5)*(50+45*n+n^2)/24.",
+  "description": "a(n) = n*(n+5)*(50+45*n+n^2)/24.",
   "id": "A101861",
   "mentions": [
     "A101860"

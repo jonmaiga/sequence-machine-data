@@ -1,5 +1,5 @@
 {
-  "description": "3600n^2 - 1601n + 178.",
+  "description": "a(n) = 3600*n^2 - 1601*n + 178.",
   "id": "A157853",
   "mentions": [
     "A157854",

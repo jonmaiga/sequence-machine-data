@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1/p(2n+1)*sum(k=1,n,p(2k+1)-p(2k)) >= 1/p(2*n)*sum(k=1,n,p(2k)-p(2k-1)) where p(k) denotes the k-th prime.",
+  "description": "Numbers m such that (1/p(2*m+1)) * Sum_{k=1..m} p(2*k+1)-p(2*k) >= (1/p(2*m))* Sum_{k=1..m} p(2*k)-p(2*k-1) where p(k) denotes the k-th prime.",
   "id": "A080612",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

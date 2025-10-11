@@ -1,0 +1,20 @@
+{
+  "description": "Geometric mean of the primes with n decimal digits, rounded to nearest integer.",
+  "id": "A388422",
+  "mentions": [
+    "A309329",
+    "A388420",
+    "A388421",
+    "A388423"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

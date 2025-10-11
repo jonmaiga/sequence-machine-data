@@ -1,5 +1,5 @@
 {
-  "description": "Fifth column (m=4) of (1,4)-Pascal triangle A095666.",
+  "description": "Fifth column of the (1,4)-Pascal triangle A095666.",
   "id": "A095667",
   "mentions": [
     "A000332",

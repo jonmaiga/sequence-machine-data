@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 2(p+q) + 1, p and q prime.",
+  "description": "Primes of the form 2*(p+q) + 1, p and q prime.",
   "id": "A097358",
   "mentions": [],
   "tags": [

@@ -12,12 +12,13 @@
     "A386380"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 21,
     "source": "joeis"
   }
 }

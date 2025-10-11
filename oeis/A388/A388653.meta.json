@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k >= 0 such that the interval [A000217(k), A000217(k + 1)] contains at least one Fibonacci number (A000045).",
+  "id": "A388653",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A039595",
+    "A057042"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of pairs of polynomials (f,g) in GF(2)[x] satisfying 1 <= deg(f) <= n, 1 <= deg(g) <= n and gcd(f,g) = 1.",
   "id": "A087291",
   "mentions": [
+    "A060867",
     "A087289",
     "A087290",
     "A087292"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 25,
     "source": "joeis"
   }
 }

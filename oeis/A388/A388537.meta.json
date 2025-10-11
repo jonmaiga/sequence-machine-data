@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x^n in the expansion of ( (1+x)^6 + x^2 )^n.",
+  "id": "A388537",
+  "mentions": [
+    "A006139",
+    "A370286",
+    "A388530",
+    "A388531",
+    "A388536",
+    "A388538"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

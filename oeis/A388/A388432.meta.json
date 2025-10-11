@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 12 * (1+sqrt(2)) * exp(-Pi).",
+  "id": "A388432",
+  "mentions": [
+    "A045490"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

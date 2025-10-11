@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/64) * exp(Pi) * Pi * Gamma(11/12)^9 * Gamma(7/12)^9 / Gamma(3/4)^22.",
+  "id": "A388787",
+  "mentions": [
+    "A226132"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

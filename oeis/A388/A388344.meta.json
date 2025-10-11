@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 8 * exp(-13*Pi/12) * 2^(1/4).",
+  "id": "A388344",
+  "mentions": [
+    "A022621"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

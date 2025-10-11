@@ -1,8 +1,8 @@
 {
-  "description": "Decimal expansion of the number x satisfying x*e^x=4.",
+  "description": "Decimal expansion of the number x satisfying x*e^x = 4.",
   "id": "A196517",
   "mentions": [
-    "A030175",
+    "A030178",
     "A196515",
     "A196516",
     "A196518",

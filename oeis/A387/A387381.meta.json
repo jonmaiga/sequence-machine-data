@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p such that p+x_1, ..., p+x_1+...+x_k are prime, where (x_1, ..., x_k) is the n-th composition in graded reverse lexicographic order (\"standard order\", see A066099); or 0 if no such prime exists.",
+  "id": "A387381",
+  "mentions": [
+    "A066099",
+    "A387382",
+    "A387383",
+    "A387384",
+    "A387385"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

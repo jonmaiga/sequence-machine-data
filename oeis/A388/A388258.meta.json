@@ -1,0 +1,17 @@
+{
+  "description": "Number of divisors d of n such that d^d == -(-d)^n (mod n).",
+  "id": "A388258",
+  "mentions": [
+    "A000005",
+    "A386776",
+    "A387857"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

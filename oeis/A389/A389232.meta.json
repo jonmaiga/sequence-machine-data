@@ -1,0 +1,19 @@
+{
+  "description": "Total number of decreasing runs in all heapable permutations of length n.",
+  "id": "A389232",
+  "mentions": [
+    "A336282",
+    "A386382",
+    "A389255",
+    "A389256"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

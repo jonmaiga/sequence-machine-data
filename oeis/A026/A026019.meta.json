@@ -2,6 +2,8 @@
   "description": "a(n) = binomial(3*n,n) - binomial(3*n,n-3).",
   "id": "A026019",
   "mentions": [
+    "A004321",
+    "A005809",
     "A026009"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "joeis"
   }
 }

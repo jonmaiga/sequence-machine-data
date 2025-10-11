@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A162296(A228058(n)) - A048250(A228058(n)).",
+  "description": "a(n) = A162296(A228058(n)) - A048250(A228058(n)), where A162296 is the sum of divisors that have a square factor, A048250 the sum of the squarefree divisors, and A228058 lists numbers satisfying Euler's condition for odd perfect numbers.",
   "id": "A325378",
   "mentions": [
     "A048250",
@@ -7,7 +7,10 @@
     "A228058",
     "A325319",
     "A325320",
-    "A325379"
+    "A325379",
+    "A388994",
+    "A389096",
+    "A389164"
   ],
   "tags": [
     "formulas",

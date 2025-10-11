@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(x^2/(1-x)^4).",
+  "id": "A387244",
+  "mentions": [
+    "A000262",
+    "A052845",
+    "A052887",
+    "A082579",
+    "A091695",
+    "A293012",
+    "A361283",
+    "A386514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

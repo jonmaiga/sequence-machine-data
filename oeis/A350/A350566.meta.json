@@ -1,11 +1,12 @@
 {
-  "description": "a(n) is the maximal permanent of an n X n matrix using the integers 1 to n^2.",
+  "description": "a(n) is the maximum permanent of an n X n matrix using the integers 1 to n^2.",
   "id": "A350566",
   "mentions": [
     "A085000",
     "A350565",
     "A350858",
-    "A350859"
+    "A350859",
+    "A358487"
   ],
   "tags": [
     "hard",

@@ -1,5 +1,5 @@
 {
-  "description": "Nonzero differences A179313(n,k)- A127742(n,k) read along rows.",
+  "description": "Irregular triangle: nonzero differences A179313(n,k) - A127742(n,k), read by rows.",
   "id": "A179315",
   "mentions": [
     "A000041",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 4,
-    "size": 33,
+    "size": 72,
     "source": "oeis-entry"
   }
 }

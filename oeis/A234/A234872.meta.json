@@ -1,5 +1,5 @@
 {
-  "description": "6*binomial(11*n+6,n)/(11*n+6).",
+  "description": "a(n) = 6*binomial(11*n+6,n)/(11*n+6).",
   "id": "A234872",
   "mentions": [
     "A230388",

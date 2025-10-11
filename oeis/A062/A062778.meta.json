@@ -2,16 +2,19 @@
   "description": "Values of Moebius-transform of PrimePi function.",
   "id": "A062778",
   "mentions": [
+    "A000720",
     "A007444",
-    "A007445"
+    "A007445",
+    "A008683"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 94,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

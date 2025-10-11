@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} (5^n*x + LambertW(x))^n / n!.",
+  "id": "A386658",
+  "mentions": [
+    "A386648",
+    "A386655",
+    "A386656",
+    "A386657"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

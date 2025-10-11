@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(5/8 * Pi) * Pi^(3/4) * 2^(7/8) / Gamma(3/4)^3.",
+  "id": "A388117",
+  "mentions": [
+    "A004024"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

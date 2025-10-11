@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 18 * exp(-Pi / 2) * sqrt(2).",
+  "id": "A388180",
+  "mentions": [
+    "A007247"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

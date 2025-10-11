@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the Integral_{x>=2} P(x)/x, where P(x) is prime zeta function.",
+  "id": "A389398",
+  "mentions": [
+    "A387289",
+    "A387293",
+    "A387300",
+    "A387303"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,16 +1,16 @@
 {
-  "description": "a(1) = 1 and then smallest multiple of a(n) which has no nonzero digit in common with a(n).",
+  "description": "a(1)=1 and for n>1, a(n) is the smallest multiple of a(n-1) which has no nonzero digit in common with a(n-1).",
   "id": "A079838",
-  "mentions": [
-    "A079839"
-  ],
+  "mentions": [],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

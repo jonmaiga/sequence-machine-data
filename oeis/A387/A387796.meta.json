@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-cycle graph.",
+  "id": "A387796",
+  "mentions": [
+    "A333720"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

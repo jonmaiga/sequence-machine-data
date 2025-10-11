@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that a(n) shares no digit with the a(a(n)) for all n>=0.",
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that a(n) shares no digit with a(a(n)) for all n>=0.",
   "id": "A152208",
   "mentions": [
     "A163501"

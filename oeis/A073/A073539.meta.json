@@ -2,11 +2,11 @@
   "description": "Numbers k such that if p is a prime dividing k then p divides phi(k).",
   "id": "A073539",
   "mentions": [
-    "A000005",
     "A000010",
     "A002322",
     "A007947",
     "A055744",
+    "A090779",
     "A151999",
     "A280936"
   ],

@@ -1,7 +1,8 @@
 {
-  "description": "Values of n corresponding to the primes given in A073640. The concatenation of the a(n) and a(n+1)th primes for any n is also prime.",
+  "description": "Values of n corresponding to the primes given in A073640. The concatenation of the a(n) and a(n+1)-th primes for any n is also prime.",
   "id": "A080152",
   "mentions": [
+    "A000720",
     "A073640"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

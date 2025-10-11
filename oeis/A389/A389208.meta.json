@@ -1,0 +1,26 @@
+{
+  "description": "Numbers satisfying Euler's condition for odd perfect numbers, with the squarefree part subtracted: a(n) = A326128(A228058(n)), where A326128(n) = n - A007913(n).",
+  "id": "A389208",
+  "mentions": [
+    "A007913",
+    "A228058",
+    "A325377",
+    "A325379",
+    "A326128",
+    "A388279",
+    "A389161",
+    "A389165",
+    "A389206",
+    "A389207",
+    "A389209"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

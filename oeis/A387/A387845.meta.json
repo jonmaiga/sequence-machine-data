@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n,7*k).",
+  "id": "A387845",
+  "mentions": [
+    "A377627",
+    "A377840",
+    "A387843",
+    "A387844"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of k <= n such that both rad(k) | n and rad(k)^2 | k, where rad = A007947.",
+  "id": "A387924",
+  "mentions": [
+    "A000961",
+    "A001694",
+    "A005361",
+    "A007947",
+    "A010846",
+    "A052486",
+    "A091050",
+    "A162306",
+    "A376719"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

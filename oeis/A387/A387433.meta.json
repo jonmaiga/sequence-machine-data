@@ -1,0 +1,17 @@
+{
+  "description": "Number of dominating sets in the n-Cameron graph.",
+  "id": "A387433",
+  "mentions": [
+    "A387373"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

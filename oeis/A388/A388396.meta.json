@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1024 * (-4+3 * sqrt(2)) * exp(3 * Pi) * Gamma(5/4)^16) / Pi^12.",
+  "id": "A388396",
+  "mentions": [
+    "A034433"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

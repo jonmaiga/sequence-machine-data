@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Pi^2 / (sqrt(2) * Gamma(3/4)^8).",
+  "id": "A389027",
+  "mentions": [
+    "A291124"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

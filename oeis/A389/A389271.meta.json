@@ -1,0 +1,14 @@
+{
+  "description": "Number of unordered pairs of n-bit numbers x, y such that gcd(x,y) = xor(x,y).",
+  "id": "A389271",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

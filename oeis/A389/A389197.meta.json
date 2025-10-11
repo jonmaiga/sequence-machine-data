@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose sum of unitary divisors (usigma, A034448) is congruent to 2 modulo 4.",
+  "id": "A389197",
+  "mentions": [
+    "A000079",
+    "A000265",
+    "A001221",
+    "A034448",
+    "A048250",
+    "A191217",
+    "A325973",
+    "A336101",
+    "A389199",
+    "A389205"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

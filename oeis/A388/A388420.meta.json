@@ -1,0 +1,20 @@
+{
+  "description": "Geometric mean of the positive integers with n decimal digits, rounded to nearest integer.",
+  "id": "A388420",
+  "mentions": [
+    "A011278",
+    "A388419",
+    "A388422"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

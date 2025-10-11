@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1+z+z^2-sqrt(1+2*z-z^2-6*z^3-3*z^4))/(2*z^2*(1+z)).",
+  "description": "Expansion of g.f. (1+z+z^2-sqrt(1+2*z-z^2-6*z^3-3*z^4))/(2*z^2*(1+z)).",
   "id": "A359140",
   "mentions": [],
   "tags": [

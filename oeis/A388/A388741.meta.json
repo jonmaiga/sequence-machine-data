@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((4756+3363 * sqrt(2))^(1/8) * Gamma(1/4)^2 * sin(Pi / 8)^2) / Pi^(3/2).",
+  "id": "A388741",
+  "mentions": [
+    "A204531"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

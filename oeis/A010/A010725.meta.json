@@ -2,6 +2,7 @@
   "description": "Period 2: repeat (6,9).",
   "id": "A010725",
   "mentions": [
+    "A010693",
     "A176402"
   ],
   "tags": [

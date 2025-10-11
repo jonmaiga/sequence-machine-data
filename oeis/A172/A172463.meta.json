@@ -1,28 +1,19 @@
 {
-  "description": "Partial sums of emirps, primes whose reversal is a different prime (A006567).",
+  "description": "Partial sums of A006567.",
   "id": "A172463",
   "mentions": [
-    "A000040",
-    "A003684",
-    "A004086",
-    "A006567",
-    "A007628",
-    "A046732",
-    "A048051",
-    "A048052",
-    "A048053",
-    "A048054",
-    "A048895"
+    "A006567"
   ],
   "tags": [
     "base",
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 43,
     "source": "joeis"
   }
 }

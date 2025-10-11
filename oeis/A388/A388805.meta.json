@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (3^(3/4) * exp(-Pi/12) * ((-2 * (1+sqrt(3)) * Gamma(2/3) * Gamma(3/4)) / Gamma(-1/12))^(2/3)) / Pi^(1/3).",
+  "id": "A388805",
+  "mentions": [
+    "A227398"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

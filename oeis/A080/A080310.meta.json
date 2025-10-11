@@ -1,5 +1,5 @@
 {
-  "description": "Rewrite 0->100 in the binary expansion of n (but leaving single zero as zero) and append 10 to the right.",
+  "description": "a(0) = 2 and, for n >= 1, rewrite 0->100 in the binary expansion of n and append 10 to the right.",
   "id": "A080310",
   "mentions": [
     "A080298",
@@ -7,13 +7,14 @@
     "A080303"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
-    "source": "oeis-entry"
+    "size": 46,
+    "source": "oeis-bfile"
   }
 }

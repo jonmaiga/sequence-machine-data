@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes whose least decimal digit is 2.",
+  "id": "A389007",
+  "mentions": [
+    "A001358",
+    "A084374",
+    "A106101",
+    "A284063"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Let n be a number partitioned as n = b_1 + 2*b_2 + ... + n*b_n; then T(n) = (b_1)! * (b_2)! * ... (b_n)!. Irregular triangle read by rows, T(n, k) for n >= 1 and 1 <= k <= A000041(n).",
+  "description": "Let n be a number partitioned as n = b_1 + 2*b_2 + ... + n*b_n; then T(n) = (b_1)! * (b_2)! * ... (b_n)!. Irregular triangle read by rows, T(n, k) for n >= 0 and 1 <= k <= A000041(n).",
   "id": "A096162",
   "mentions": [
     "A000041",
@@ -12,12 +12,13 @@
   "tags": [
     "easy",
     "formulas",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 90,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

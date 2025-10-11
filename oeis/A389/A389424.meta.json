@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the carryless sum of n + n in base k, n >=0, k >= 2.",
+  "id": "A389424",
+  "mentions": [
+    "A000004",
+    "A004488",
+    "A004489",
+    "A004514",
+    "A004515",
+    "A004516",
+    "A004517",
+    "A004518",
+    "A004519",
+    "A004520",
+    "A004521",
+    "A004522",
+    "A059692",
+    "A169894"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

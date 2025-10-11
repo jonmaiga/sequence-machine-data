@@ -2,7 +2,9 @@
   "description": "Decimal expansion of tangent of 15 degrees.",
   "id": "A019913",
   "mentions": [
-    "A002194"
+    "A002194",
+    "A019824",
+    "A019884"
   ],
   "tags": [
     "cons",

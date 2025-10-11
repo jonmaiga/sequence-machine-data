@@ -1,5 +1,5 @@
 {
-  "description": "Numbers in which all digits are nonprimes (1, 4, 6, 8, 9).",
+  "description": "Numbers in which all digits are neither primes nor zero, i.e., are members of (1, 4, 6, 8, 9).",
   "id": "A202268",
   "mentions": [
     "A001742",

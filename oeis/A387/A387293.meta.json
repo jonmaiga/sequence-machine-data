@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} P(k)/zeta(k), where P(k) is the prime zeta function.",
+  "id": "A387293",
+  "mentions": [
+    "A387289"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

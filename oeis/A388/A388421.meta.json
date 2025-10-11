@@ -1,0 +1,20 @@
+{
+  "description": "Harmonic mean of the primes with n decimal digits, rounded to nearest integer.",
+  "id": "A388421",
+  "mentions": [
+    "A309329",
+    "A388419",
+    "A388422",
+    "A388423"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

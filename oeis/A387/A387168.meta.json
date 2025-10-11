@@ -1,0 +1,17 @@
+{
+  "description": "Number of isomorphism classes of multigraphs representing particle interactions in phi-4-theory on n non-external vertices.",
+  "id": "A387168",
+  "mentions": [
+    "A129417"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

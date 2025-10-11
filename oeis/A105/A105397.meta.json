@@ -2,8 +2,11 @@
   "description": "Periodic with period 2: repeat [4,2].",
   "id": "A105397",
   "mentions": [
+    "A000034",
     "A007310",
-    "A010694"
+    "A010694",
+    "A109008",
+    "A176213"
   ],
   "tags": [
     "easy",

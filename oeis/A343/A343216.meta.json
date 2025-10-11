@@ -1,9 +1,11 @@
 {
-  "description": "Numbers k such that A003415(sigma(k)) < k.",
+  "description": "Numbers k such that A003415(sigma(k)) < k, where A003415(x) gives the arithmetic derivative of x.",
   "id": "A343216",
   "mentions": [
     "A000203",
     "A003415",
+    "A342925",
+    "A342926",
     "A343217"
   ],
   "tags": [
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

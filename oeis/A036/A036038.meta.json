@@ -1,12 +1,16 @@
 {
-  "description": "Triangle of multinomial coefficients.",
+  "description": "Triangle T(n,k) read by rows: multinomial coefficients for the partitions of n listed in Abramowitz-Stegun order, 1 <= k <= A000041(n).",
   "id": "A036038",
   "mentions": [
     "A000041",
     "A005651",
     "A008275",
     "A008276",
+    "A008480",
+    "A036035",
     "A036036",
+    "A036037",
+    "A036039",
     "A036040",
     "A078760",
     "A094638",
@@ -14,8 +18,10 @@
     "A130561",
     "A134264",
     "A183610",
+    "A185974",
     "A248120",
-    "A248927"
+    "A248927",
+    "A318762"
   ],
   "tags": [
     "easy",

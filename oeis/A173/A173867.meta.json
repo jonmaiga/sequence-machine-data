@@ -2,14 +2,18 @@
   "description": "Largest prime < n-th Catalan number.",
   "id": "A173867",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A151799",
+    "A173868",
+    "A273974"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

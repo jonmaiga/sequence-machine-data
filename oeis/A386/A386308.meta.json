@@ -1,0 +1,22 @@
+{
+  "description": "Long legs of Pythagorean triples that do not have the form (u^2 - v^2, 2*u*v, u^2 + v^2) ordered by increasing hypotenuse (A386307), where u and v are positive integers.",
+  "id": "A386308",
+  "mentions": [
+    "A046084",
+    "A046087",
+    "A366675",
+    "A380073",
+    "A386307",
+    "A386309",
+    "A386944"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

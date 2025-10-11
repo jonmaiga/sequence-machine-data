@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k > 2 such that (k - 2^m)*2^m + 1 is prime for every m > 0 with 2^m < k.",
+  "id": "A388054",
+  "mentions": [
+    "A039669",
+    "A387016"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

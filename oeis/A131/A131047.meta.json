@@ -1,14 +1,13 @@
 {
-  "description": "(1/2) * (A007318 - A007318^(-1)).",
+  "description": "Triangle read by rows: (1/2) * (A007318 - A007318^(-1)) as infinite lower triangular matrices.",
   "id": "A131047",
   "mentions": [
+    "A000079",
     "A007318",
-    "A087447",
     "A119467",
     "A131048",
     "A131049",
-    "A131050",
-    "A131051"
+    "A131050"
   ],
   "tags": [
     "formulas",
@@ -17,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 78,
     "source": "joeis"
   }
 }

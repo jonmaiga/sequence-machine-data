@@ -1,11 +1,13 @@
 {
-  "description": "Period 2: repeat [6, 4].",
+  "description": "Period 2: repeat (6,4).",
   "id": "A226294",
   "mentions": [
+    "A000035",
     "A010711",
     "A101432",
     "A168428",
     "A176059",
+    "A176396",
     "A226276"
   ],
   "tags": [

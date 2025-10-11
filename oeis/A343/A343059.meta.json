@@ -2,12 +2,16 @@
   "description": "Decimal expansion of tan(Pi/14).",
   "id": "A343059",
   "mentions": [
+    "A073052",
+    "A178818",
     "A232735",
-    "A232736"
+    "A232736",
+    "A323601"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

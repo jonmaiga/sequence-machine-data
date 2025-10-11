@@ -2,7 +2,6 @@
   "description": "Late-growing permutations: number of permutations of 1..n with every partial sum <= the same partial sum averaged over all permutations.",
   "id": "A147681",
   "mentions": [
-    "A145874",
     "A147682",
     "A147684",
     "A147686",

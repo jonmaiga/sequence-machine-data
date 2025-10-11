@@ -2,6 +2,7 @@
   "description": "Numbers k such that k and k+2 both have exactly 4 divisors.",
   "id": "A356742",
   "mentions": [
+    "A000005",
     "A001359",
     "A039832",
     "A356743",

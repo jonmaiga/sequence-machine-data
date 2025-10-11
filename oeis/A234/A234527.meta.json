@@ -1,5 +1,5 @@
 {
-  "description": "2*binomial(10*n+4,n)/(5*n+2).",
+  "description": "a(n) = 2*binomial(10*n+4,n)/(5*n+2).",
   "id": "A234527",
   "mentions": [
     "A000108",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

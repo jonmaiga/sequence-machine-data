@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of x > 0 satisfying 2*x^2 + 1 = exp(x^2).",
+  "id": "A389268",
+  "mentions": [
+    "A202320",
+    "A202343"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

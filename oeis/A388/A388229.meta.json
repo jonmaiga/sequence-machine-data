@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/2048) * exp(29*Pi/24) * Pi^(29/4) * 2^(1/8) / Gamma(3/4)^29.",
+  "id": "A388229",
+  "mentions": [
+    "A010834"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

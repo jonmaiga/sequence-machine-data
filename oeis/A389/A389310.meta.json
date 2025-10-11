@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the smallest m such that for every red-blue edge-coloring of the graph K_{m} there exists either a red n-cycle or a blue k-cycle; Ramsey number r(C_n, C_k).",
+  "id": "A389310",
+  "mentions": [
+    "A000791",
+    "A003323",
+    "A006672",
+    "A361261",
+    "A389313"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

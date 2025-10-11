@@ -1,0 +1,36 @@
+{
+  "description": "Number of twice-partitions of n into distinct constant partitions.",
+  "id": "A387179",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A006906",
+    "A007425",
+    "A047968",
+    "A063834",
+    "A261049",
+    "A270995",
+    "A279784",
+    "A279786",
+    "A296122",
+    "A299200",
+    "A299201",
+    "A355739",
+    "A358914",
+    "A387110",
+    "A387120",
+    "A387180",
+    "A387181",
+    "A387329",
+    "A387330"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

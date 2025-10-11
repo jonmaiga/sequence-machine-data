@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (8 * sqrt(6 * (58+41 * sqrt(2)) * (3+2 * sqrt(3))) * Gamma(5/4)^3 * Gamma(5/3) * sin(Pi / 8)^3) / (Pi^(5/2) * Gamma(11/12)).",
+  "id": "A389053",
+  "mentions": [
+    "A320150"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

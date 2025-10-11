@@ -1,5 +1,5 @@
 {
-  "description": "Number of real invertible (0,1) n X n matrices with (-1,0,1) inverses.",
+  "description": "Number of symmetric real invertible (0,1) n X n matrices with (-1,0,1) inverses.",
   "id": "A080636",
   "mentions": [
     "A086900"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

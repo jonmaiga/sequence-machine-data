@@ -1,0 +1,26 @@
+{
+  "description": "Integers k such that 2047*2^k - 1 is prime.",
+  "id": "A387927",
+  "mentions": [
+    "A000043",
+    "A001771",
+    "A002235",
+    "A002237",
+    "A050541",
+    "A050557",
+    "A050589",
+    "A050886",
+    "A387925",
+    "A387926"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

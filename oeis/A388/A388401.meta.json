@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * Pi^2 / Gamma(3/4)^8.",
+  "id": "A388401",
+  "mentions": [
+    "A035016"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

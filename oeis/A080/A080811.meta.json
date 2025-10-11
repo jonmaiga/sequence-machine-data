@@ -2,9 +2,9 @@
   "description": "a(1) = 8, a(n)= smallest n-th power obtained by inserting digits anywhere in a(n-1).",
   "id": "A080811",
   "mentions": [
-    "A080804",
-    "A080805",
-    "A080806",
+    "A080514",
+    "A080515",
+    "A080516",
     "A080807",
     "A080808",
     "A080809",

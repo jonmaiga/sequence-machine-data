@@ -1,5 +1,5 @@
 {
-  "description": "Integers n > 10577 such that the 'Reverse and Add!' trajectory of n joins the trajectory of 10577.",
+  "description": "Integers k > 10577 such that the 'Reverse and Add!' trajectory of k joins the trajectory of 10577.",
   "id": "A063434",
   "mentions": [
     "A023108",

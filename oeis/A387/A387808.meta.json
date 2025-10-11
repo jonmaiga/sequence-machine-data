@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-sunlet graph.",
+  "id": "A387808",
+  "mentions": [
+    "A333757"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

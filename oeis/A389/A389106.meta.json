@@ -1,0 +1,16 @@
+{
+  "description": "Least positive integer k such that A386395(k*n) has the least possible number of digits.",
+  "id": "A389106",
+  "mentions": [
+    "A386395"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

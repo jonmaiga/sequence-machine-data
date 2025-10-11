@@ -1,8 +1,9 @@
 {
-  "description": "Array read by antidiagonals: Arnoux's product T(n,k) = n * k = nk + ceiling(phi n) ceiling(phi k), where phi = (1 + sqrt(5))/2 ; m, n >= 1.",
+  "description": "Array read by antidiagonals: Arnoux's product T(n,k) = n * k = nk + ceiling(phi n) ceiling(phi k), where phi = (1 + sqrt(5))/2 ; n, k >= 1.",
   "id": "A101866",
   "mentions": [
     "A001622",
+    "A004956",
     "A101330",
     "A101385",
     "A101633",
@@ -15,6 +16,7 @@
     "A188434"
   ],
   "tags": [
+    "easy",
     "nonn",
     "tabl"
   ],

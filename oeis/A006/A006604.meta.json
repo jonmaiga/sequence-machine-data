@@ -1,7 +1,10 @@
 {
   "description": "Generalized Fibonacci numbers.",
   "id": "A006604",
-  "mentions": [],
+  "mentions": [
+    "A006318",
+    "A006603"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

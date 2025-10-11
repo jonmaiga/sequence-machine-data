@@ -2,7 +2,8 @@
   "description": "Number of 8-core partitions of n.",
   "id": "A182803",
   "mentions": [
-    "A175595"
+    "A175595",
+    "A388691"
   ],
   "tags": [
     "formulas",

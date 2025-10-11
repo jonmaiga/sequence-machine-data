@@ -1,14 +1,18 @@
 {
-  "description": "(n!/2)*sum(k=1,n,(n+k)!/(k!)^3).",
+  "description": "a(n) = (n!/2)*Sum_{k=1..n} (n+k)!/(k!)^3.",
   "id": "A073014",
-  "mentions": [],
+  "mentions": [
+    "A073013",
+    "A384929"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

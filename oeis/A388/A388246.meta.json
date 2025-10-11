@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (1/2) * exp(Pi/6) * sqrt(2).",
+  "id": "A388246",
+  "mentions": [
+    "A022569"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

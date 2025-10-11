@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of exp(-Pi)*2*(5 + 3*sqrt(5)).",
+  "id": "A388517",
+  "mentions": [
+    "A112158"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

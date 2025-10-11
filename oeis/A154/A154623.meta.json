@@ -1,5 +1,5 @@
 {
-  "description": "Sequence with g.f. 1+(x/(1-5*x))*c(x/(1-5*x)), c(x) the g.f. of A000108.",
+  "description": "Expansion of 1+(x/(1-5*x))*c(x/(1-5*x)) where c(x) is the g.f. of A000108.",
   "id": "A154623",
   "mentions": [
     "A000108",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Smaller members p of sexy prime pairs (p,p+6) such that both p and p+6 are emirps.",
+  "id": "A384227",
+  "mentions": [
+    "A006567",
+    "A023201"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

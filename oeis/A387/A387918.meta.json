@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers whose number of divisors is a power of an odd prime.",
+  "id": "A387918",
+  "mentions": [
+    "A000005",
+    "A036454",
+    "A036537",
+    "A061345",
+    "A120497",
+    "A384517"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

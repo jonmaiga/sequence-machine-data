@@ -1,8 +1,9 @@
 {
-  "description": "Triangle T(n,k) read by rows: product of A074664(a_i) of all parts a_i of the k-th partition of n.",
+  "description": "Triangle T(n,k) read by rows: product of A074664(a_i) over all parts a_i of the k-th partition of n listed in Abramowitz and Stegun order, 1 <= k <= A000041(n).",
   "id": "A179380",
   "mentions": [
     "A000041",
+    "A036036",
     "A048996",
     "A074664",
     "A179313",
@@ -14,8 +15,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 81,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
   }
 }

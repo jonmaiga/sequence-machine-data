@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^(n-1) - pi(n) is prime.",
+  "description": "Numbers k such that 10^(k-1) - pi(k) is prime.",
   "id": "A261620",
   "mentions": [
     "A110068"

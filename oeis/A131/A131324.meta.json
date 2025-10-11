@@ -1,8 +1,7 @@
 {
-  "description": "2*A049310 - A000012(signed).",
+  "description": "Triangle read by rows: T(n,k) = 2*|A049310(n,k)| - (-1)^(n+k).",
   "id": "A131324",
   "mentions": [
-    "A000012",
     "A049310",
     "A062114",
     "A131325",
@@ -11,13 +10,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 91,
     "source": "joeis"
   }
 }

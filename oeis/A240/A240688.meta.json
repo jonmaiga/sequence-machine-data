@@ -2,7 +2,8 @@
   "description": "Expansion of -(x*sqrt(-4*x^2-4*x+1)-2*x^2-3*x) / ((x+1)*sqrt(-4*x^2-4*x+1)+ 4*x^3+8*x^2+3*x-1).",
   "id": "A240688",
   "mentions": [
-    "A052709"
+    "A052709",
+    "A288470"
   ],
   "tags": [
     "easy",

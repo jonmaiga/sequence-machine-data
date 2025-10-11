@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of [x^n] in the Taylor series arccosh(exp(x)-arcsinh(x))= x+x^2/3 -x^3/18 -14*x^4/135 +47*x^5/3240 +3527*x^6/68040 -4787*x^7/680400-...",
+  "description": "Numerator of [x^n] in the Taylor series arccosh(exp(x)-arcsinh(x)).",
   "id": "A013323",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

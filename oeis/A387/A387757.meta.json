@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 3; for n > 2, a(n) is the smallest unused positive number that differs from a(n-1) by more than 1 and shares a factor with a(n-1) if a(n-1) < a(n-2), else it is coprime to a(n-1) if a(n-1) > a(n-2).",
+  "id": "A387757",
+  "mentions": [
+    "A064413",
+    "A373545",
+    "A375563",
+    "A375564",
+    "A384045",
+    "A387231"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

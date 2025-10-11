@@ -1,0 +1,18 @@
+{
+  "description": "The maximal norm of an additively indecomposable element in Shanks' simplest cubic field Q[x]/(x^3 - n*x^2 - (n+3)*x - 1).",
+  "id": "A387575",
+  "mentions": [
+    "A005472",
+    "A387207",
+    "A387574"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

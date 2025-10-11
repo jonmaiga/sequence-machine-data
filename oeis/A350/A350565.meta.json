@@ -1,11 +1,12 @@
 {
-  "description": "a(n) is the minimal permanent of an n X n matrix using the integers 1 to n^2.",
+  "description": "a(n) is the minimum permanent of an n X n matrix using the integers 1 to n^2.",
   "id": "A350565",
   "mentions": [
     "A085000",
     "A350566",
     "A350858",
-    "A350859"
+    "A350859",
+    "A358486"
   ],
   "tags": [
     "hard",

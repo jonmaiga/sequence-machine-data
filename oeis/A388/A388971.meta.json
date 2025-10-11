@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers whose factorial has more exponential divisors than all smaller factorials.",
+  "id": "A388971",
+  "mentions": [
+    "A000142",
+    "A049419",
+    "A388840",
+    "A388843"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

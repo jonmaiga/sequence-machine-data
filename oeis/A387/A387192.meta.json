@@ -1,0 +1,20 @@
+{
+  "description": "Primes prime(k) whose sum of digits and sum of digits of k are prime.",
+  "id": "A387192",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A046704",
+    "A075177",
+    "A227420"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

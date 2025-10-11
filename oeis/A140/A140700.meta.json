@@ -1,18 +1,20 @@
 {
-  "description": "Row products of A140699.",
+  "description": "a(n) = n*A069158(n).",
   "id": "A140700",
   "mentions": [
     "A054524",
     "A055615",
+    "A069158",
     "A140256",
     "A140699"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
-    "source": "oeis-entry"
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

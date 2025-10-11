@@ -1,18 +1,19 @@
 {
-  "description": "Triangle read by rows: T(n,k) = T(n-1, k-1) - T(n-k, k-1); left border = (1, 2, 4, 8, 16, 32, ...).",
+  "description": "Triangle read by rows: T(n,k) = T(n-1, k-1) - T(n-k, k-1) for k > 1 with T(n,1) = 2^(n-1).",
   "id": "A137710",
   "mentions": [
+    "A000079",
     "A137711",
+    "A137712",
     "A180339"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 85,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

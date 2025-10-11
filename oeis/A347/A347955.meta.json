@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of A003415 (arithmetic derivative) with A003602 (Kimberling's paraphrases).",
+  "description": "Dirichlet convolution of A003415 (arithmetic derivative) with A003602 (a Kimberling paraphrase).",
   "id": "A347955",
   "mentions": [
     "A003415",

@@ -2,6 +2,13 @@
   "description": "Low temperature series for spin-1/2 Ising magnetic susceptibility on 3-dimensional simple cubic lattice.",
   "id": "A002926",
   "mentions": [
+    "A002891",
+    "A002913",
+    "A002915",
+    "A002924",
+    "A002925",
+    "A002927",
+    "A002929",
     "A007239"
   ],
   "tags": [
@@ -11,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

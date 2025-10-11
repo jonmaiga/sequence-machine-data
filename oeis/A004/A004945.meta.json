@@ -2,14 +2,17 @@
   "description": "a(n) = round(n*phi^10), where phi is the golden ratio, A001622.",
   "id": "A004945",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A004925",
+    "A004965"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 35,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

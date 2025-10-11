@@ -1,7 +1,9 @@
 {
   "description": "Theta series of quadratic form with Gram matrix [ 1, 0, 0; 0, 2, 0; 0, 0, 3 ].",
   "id": "A029594",
-  "mentions": [],
+  "mentions": [
+    "A388374"
+  ],
   "tags": [
     "formulas",
     "nonn"

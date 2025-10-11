@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/32) * Pi^5 / Gamma(3/4)^20.",
+  "id": "A389036",
+  "mentions": [
+    "A319308"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

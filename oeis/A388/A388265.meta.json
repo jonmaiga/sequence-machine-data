@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k for which gcd(A276086(sigma(k)-k), A276086(k)) is equal to A276086(k), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.",
+  "id": "A388265",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A023196",
+    "A049345",
+    "A276086",
+    "A324649",
+    "A379493",
+    "A388034",
+    "A388036",
+    "A388264",
+    "A388266",
+    "A388267",
+    "A388271"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

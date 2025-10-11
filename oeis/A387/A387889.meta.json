@@ -1,0 +1,20 @@
+{
+  "description": "First difference of consecutive odd perfect powers (no perfect power between them).",
+  "id": "A387889",
+  "mentions": [
+    "A001597",
+    "A053289",
+    "A074981",
+    "A075109",
+    "A076427",
+    "A387890"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

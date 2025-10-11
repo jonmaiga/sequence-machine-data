@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * ((n-2) * 2^(n-1) + 1).",
+  "id": "A388041",
+  "mentions": [
+    "A000337",
+    "A001804",
+    "A386961"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

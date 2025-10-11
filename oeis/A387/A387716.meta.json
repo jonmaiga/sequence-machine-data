@@ -1,0 +1,21 @@
+{
+  "description": "Greatest divisor d of n such that sigma(d) < 2*d < A003961(d), or 1 if no such divisor exists, where A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A387716",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A341613",
+    "A341615",
+    "A378664",
+    "A387717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

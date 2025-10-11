@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the distinct prime divisors divides rad(n)=A007947(n).",
+  "description": "Numbers k such that the sum of the distinct prime divisors divides rad(k)=A007947(k).",
   "id": "A086486",
   "mentions": [
     "A007947",

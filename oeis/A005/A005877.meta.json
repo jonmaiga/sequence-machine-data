@@ -2,7 +2,8 @@
   "description": "Theta series of cubic lattice with respect to square.",
   "id": "A005877",
   "mentions": [
-    "A045828"
+    "A045828",
+    "A388168"
   ],
   "tags": [
     "easy",

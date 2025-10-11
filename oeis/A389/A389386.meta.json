@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-factors of the n-dimensional hypercube graph.",
+  "id": "A389386",
+  "mentions": [
+    "A005271",
+    "A389384",
+    "A389385"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

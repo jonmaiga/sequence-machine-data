@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that are less than distance j from e^j for some positive integer j.",
+  "id": "A387580",
+  "mentions": [
+    "A000149",
+    "A001113",
+    "A045650"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

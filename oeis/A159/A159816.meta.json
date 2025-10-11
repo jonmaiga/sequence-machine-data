@@ -1,5 +1,5 @@
 {
-  "description": "Seven-digit terms in A023086 Numbers n such that n and 2*n are anagrams.",
+  "description": "Seven-digit terms in A023086.",
   "id": "A159816",
   "mentions": [
     "A023086",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that psi(p+3) = psi(p+4) = psi(p+5).",
+  "id": "A389477",
+  "mentions": [
+    "A000040",
+    "A001615",
+    "A119711",
+    "A387733",
+    "A389278"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

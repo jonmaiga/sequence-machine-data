@@ -1,0 +1,24 @@
+{
+  "description": "Integers t having at least one nonempty subset of the set of its proper divisors for which the equation sigma(t) + r = m*t (m is any integer > 1, r is the sum of elements of such subset) is true.",
+  "id": "A386213",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A007691",
+    "A271816",
+    "A331627",
+    "A331628",
+    "A331629",
+    "A364977",
+    "A385462"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

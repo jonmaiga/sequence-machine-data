@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of -((sqrt(3 * (2+sqrt(3))) * Gamma(2/3)) / (Gamma(-1/4) * Gamma(11/12))).",
+  "id": "A388603",
+  "mentions": [
+    "A132973"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(2*Pi/3).",
+  "id": "A388307",
+  "mentions": [
+    "A022581"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

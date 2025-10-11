@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{i=1..n} A387533(i).",
+  "id": "A387534",
+  "mentions": [
+    "A000796",
+    "A387533"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

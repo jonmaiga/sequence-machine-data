@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X3 0..6 arrays with each 3X3 subblock having rows and columns in lexicographically nondecreasing order.",
+  "description": "Number of (n+2) X 3 0..6 arrays with each 3 X 3 subblock having rows and columns in lexicographically nondecreasing order.",
   "id": "A186907",
   "mentions": [
     "A186915"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

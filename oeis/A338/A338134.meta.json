@@ -2,7 +2,8 @@
   "description": "Initial terms are the first 11 odd prime numbers. After that each new term in the sequence is the sum of whichever subset of the previous 11 terms gives the smallest prime number that is larger than the largest term so far.",
   "id": "A338134",
   "mentions": [
-    "A065091"
+    "A065091",
+    "A338216"
   ],
   "tags": [
     "fini",

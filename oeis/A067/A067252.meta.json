@@ -1,5 +1,5 @@
 {
-  "description": "Composite n such that sigma(n)-phi(n) is prime.",
+  "description": "Composite k such that sigma(k)-phi(k) is prime.",
   "id": "A067252",
   "mentions": [
     "A028982"

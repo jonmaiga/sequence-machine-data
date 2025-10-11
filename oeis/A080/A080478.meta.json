@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest k>a(n-1) such that k^2+a(n-1)^2 is prime, starting with a(1)=1. Square roots of A062067(n).",
+  "description": "Square roots of A062067(n).",
   "id": "A080478",
   "mentions": [
     "A010051",

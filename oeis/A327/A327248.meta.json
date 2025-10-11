@@ -2,6 +2,7 @@
   "description": "Squarefree part of A078522(n+1).",
   "id": "A327248",
   "mentions": [
+    "A000129",
     "A001653",
     "A002315",
     "A007913",

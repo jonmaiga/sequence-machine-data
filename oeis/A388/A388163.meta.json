@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 16 * exp(-Pi/2) * sqrt(2) * Gamma(3/4)^12 / Pi^3.",
+  "id": "A388163",
+  "mentions": [
+    "A005758"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

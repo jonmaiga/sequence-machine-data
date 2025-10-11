@@ -1,0 +1,17 @@
+{
+  "description": "Minimum squared diameter of a cloud of points in the square lattice such that no three points form an isosceles triangle.",
+  "id": "A386493",
+  "mentions": [
+    "A193839"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

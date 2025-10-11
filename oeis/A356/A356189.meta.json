@@ -1,7 +1,9 @@
 {
   "description": "Optimal link functions for repeat avoidance in double elimination tournaments.",
   "id": "A356189",
-  "mentions": [],
+  "mentions": [
+    "A355729"
+  ],
   "tags": [
     "nonn"
   ],

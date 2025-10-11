@@ -2,6 +2,8 @@
   "description": "Sum of terms in n-th row of A081517.",
   "id": "A081515",
   "mentions": [
+    "A065383",
+    "A077128",
     "A081516",
     "A081517"
   ],

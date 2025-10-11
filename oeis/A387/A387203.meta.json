@@ -1,0 +1,20 @@
+{
+  "description": "Number of additively indecomposable elements in the real quadratic field Q(sqrt(D)) up to multiplication by totally positive units, where D = A005117(n) is the n-th squarefree number.",
+  "id": "A387203",
+  "mentions": [
+    "A005117",
+    "A035015",
+    "A121339",
+    "A387207",
+    "A387574"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

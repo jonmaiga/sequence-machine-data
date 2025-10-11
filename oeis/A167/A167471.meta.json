@@ -1,7 +1,8 @@
 {
-  "description": "Janet periodic table of the elements and structured hexagonal diamond numbers. a(n) = A166911(2n) + A166911(2n+1).",
+  "description": "Janet periodic table of the elements and structured hexagonal diamond numbers. a(n) = A166911(2*n) + A166911(2*n+1).",
   "id": "A167471",
   "mentions": [
+    "A019558",
     "A100178",
     "A166464",
     "A166911"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

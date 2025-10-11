@@ -2,8 +2,10 @@
   "description": "Decimal expansion of sine of 66 degrees.",
   "id": "A019875",
   "mentions": [
+    "A019815",
     "A019821",
     "A019842",
+    "A019851",
     "A019866",
     "A019887"
   ],

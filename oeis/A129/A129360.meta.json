@@ -1,5 +1,5 @@
 {
-  "description": "A054525 * A115361.",
+  "description": "Triangle read by rows: A054525 * A115361 as infinite lower triangular matrices.",
   "id": "A129360",
   "mentions": [
     "A001511",

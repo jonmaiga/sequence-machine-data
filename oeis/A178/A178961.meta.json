@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of number of symmetric foldings of a strip of n stamps (A001010).",
+  "description": "Partial sums of A001010.",
   "id": "A178961",
   "mentions": [
     "A001010"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

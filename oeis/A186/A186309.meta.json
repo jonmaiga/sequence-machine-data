@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n having more than one representation as k*(1+phi(k)/2), where phi(k) is Euler's totient function.",
+  "description": "Numbers m having more than one representation as k*(1+phi(k)/2), where phi(k) is Euler's totient function.",
   "id": "A186309",
   "mentions": [],
   "tags": [

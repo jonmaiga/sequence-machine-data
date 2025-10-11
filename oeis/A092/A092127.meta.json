@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+2, n+4, n+6, n+8 are semiprimes.",
+  "description": "Numbers k such that k, k+2, k+4, k+6, k+8 are semiprimes.",
   "id": "A092127",
   "mentions": [
     "A056809",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

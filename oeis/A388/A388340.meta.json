@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 4 * exp(-7*Pi/8) * 2^(5/8).",
+  "id": "A388340",
+  "mentions": [
+    "A022616"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

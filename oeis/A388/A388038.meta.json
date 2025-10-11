@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of steps to reach 1 when the Sisyphus sequence (A350877) begins with n, or -1 if 1 is never reached.",
+  "id": "A388038",
+  "mentions": [
+    "A350877",
+    "A388141",
+    "A388262",
+    "A388263"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

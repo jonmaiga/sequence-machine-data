@@ -2,7 +2,8 @@
   "description": "Number of elements w of the Weyl group D(n) such that the roots sent negative by w span an Abelian subalgebra of the Lie algebra.",
   "id": "A007851",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A189176"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 27,
     "source": "joeis"
   }
 }

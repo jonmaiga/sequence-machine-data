@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 4, for n > 1, a(n) = largest composite k < a(n-1), a(m) != k, m < n, such that gcd(k, a(n-1)) > 1; if no such k exists, then a(n) = smallest composite k > a(n-1), a(m) != k, m < n, such that gcd(k, a(n-1)) > 1.",
+  "id": "A387832",
+  "mentions": [
+    "A064413",
+    "A240024",
+    "A386482"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

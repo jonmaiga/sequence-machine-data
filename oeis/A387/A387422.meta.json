@@ -1,0 +1,21 @@
+{
+  "description": "The length of the maximal common prefix of the binary expansions of n and sigma(n), where sigma is the sum of divisors function.",
+  "id": "A387422",
+  "mentions": [
+    "A000203",
+    "A000523",
+    "A347380",
+    "A387412",
+    "A387423"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

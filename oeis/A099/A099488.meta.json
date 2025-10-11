@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-x)^2/((1+x^2)(1-4x+x^2)).",
+  "description": "Expansion of (1-x)^2/((1+x^2)*(1-4*x+x^2)).",
   "id": "A099488",
   "mentions": [
     "A001353",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

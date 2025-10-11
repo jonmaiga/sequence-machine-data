@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A033885(A003961(n)), where A033885(n) = 3*n-sigma(n), and A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A388975",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A023197",
+    "A033885",
+    "A064989",
+    "A119240",
+    "A249734",
+    "A388976",
+    "A388977"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

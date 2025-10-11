@@ -2,7 +2,8 @@
   "description": "Number of integer solutions to a^2 + b^2 + 5*c^2 + 5*d^2 = n.",
   "id": "A236929",
   "mentions": [
-    "A236924"
+    "A236924",
+    "A388824"
   ],
   "tags": [
     "formulas",

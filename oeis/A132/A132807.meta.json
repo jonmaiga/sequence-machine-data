@@ -1,17 +1,18 @@
 {
-  "description": "A000108(n) + A000079(n) - 1.",
+  "description": "a(n) = A000108(n) + A000079(n) - 1.",
   "id": "A132807",
   "mentions": [
     "A000079",
     "A000108"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
-    "source": "joeis"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

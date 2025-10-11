@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Pi^8 / Gamma(3/4)^32.",
+  "id": "A389031",
+  "mentions": [
+    "A302856"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

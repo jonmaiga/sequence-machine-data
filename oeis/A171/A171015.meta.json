@@ -1,7 +1,10 @@
 {
   "description": "In the sequence of prime numbers, replace all the '2' digits with '1' and vice versa.",
   "id": "A171015",
-  "mentions": [],
+  "mentions": [
+    "A035043",
+    "A180525"
+  ],
   "tags": [
     "base",
     "easy",

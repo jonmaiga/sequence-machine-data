@@ -2,9 +2,11 @@
   "description": "a(n) = 3*2^(2*n)*(3*n)!/((2*n)!*n!).",
   "id": "A006587",
   "mentions": [
-    "A006577"
+    "A006577",
+    "A006588"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

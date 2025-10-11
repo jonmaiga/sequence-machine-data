@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of n such that it is not possible to choose a different constant integer partition of each part.",
+  "id": "A387329",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A052335",
+    "A063834",
+    "A239312",
+    "A335448",
+    "A355739",
+    "A370320",
+    "A387110",
+    "A387115",
+    "A387134",
+    "A387137",
+    "A387178",
+    "A387180",
+    "A387181",
+    "A387328",
+    "A387330",
+    "A387576",
+    "A387577"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

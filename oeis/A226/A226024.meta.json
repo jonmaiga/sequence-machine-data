@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that (sum of digits of 10234*n) = n.",
+  "description": "Integers k such that (sum of digits of 10234*k) = k.",
   "id": "A226024",
   "mentions": [
     "A005349",

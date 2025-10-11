@@ -1,0 +1,31 @@
+{
+  "description": "Numbers that are not square but divisible by the square of their largest prime factor.",
+  "id": "A388306",
+  "mentions": [
+    "A000037",
+    "A003557",
+    "A006530",
+    "A007947",
+    "A013929",
+    "A020639",
+    "A024619",
+    "A056824",
+    "A070003",
+    "A119288",
+    "A120944",
+    "A126706",
+    "A246549",
+    "A360967",
+    "A366825",
+    "A388654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

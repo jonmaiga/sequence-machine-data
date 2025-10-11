@@ -1,0 +1,49 @@
+{
+  "description": "Number of integer compositions of n in which runs of 1's all have length <= 1, runs of 2's all have length <= 2, runs of 3's all have length <= 3, etc.",
+  "id": "A389510",
+  "mentions": [
+    "A000079",
+    "A003242",
+    "A005811",
+    "A008965",
+    "A011782",
+    "A032020",
+    "A052335",
+    "A066099",
+    "A070211",
+    "A098124",
+    "A098504",
+    "A124767",
+    "A175342",
+    "A175413",
+    "A233564",
+    "A238130",
+    "A276078",
+    "A276429",
+    "A301503",
+    "A328592",
+    "A333489",
+    "A333755",
+    "A353860",
+    "A365676",
+    "A389508",
+    "A389509",
+    "A389511",
+    "A389512",
+    "A389513",
+    "A389514",
+    "A389515",
+    "A389516",
+    "A389530",
+    "A389531"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

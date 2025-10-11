@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) is the number of nondecreasing Dyck paths of semilength n, having k returns to the x-axis (1<=k<=n).",
   "id": "A121460",
   "mentions": [
+    "A000045",
     "A001519",
     "A055588",
     "A061667"

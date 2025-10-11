@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n X n grid graph.",
+  "id": "A387799",
+  "mentions": [
+    "A337796"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

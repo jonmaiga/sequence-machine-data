@@ -1,17 +1,18 @@
 {
-  "description": "Smallest composite number with n distinct prime factors with property that the concatenation of its distinct prime factors, in descending order, is a palindrome.",
+  "description": "Smallest composite number with exactly n distinct prime factors with the property that the concatenation of its prime factors (with multiplicity), in descending order, is a palindrome.",
   "id": "A273776",
   "mentions": [
     "A046449"
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

@@ -4,15 +4,16 @@
   "mentions": [
     "A007504",
     "A073619",
-    "A090700"
+    "A090700",
+    "A387215"
   ],
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 50,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

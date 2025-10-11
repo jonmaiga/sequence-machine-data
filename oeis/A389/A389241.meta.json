@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of distinct consecutive sums of a permutation of [n].",
+  "id": "A389241",
+  "mentions": [
+    "A234813"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

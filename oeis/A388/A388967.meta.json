@@ -1,0 +1,28 @@
+{
+  "description": "Smallest number in a group of 4 or more consecutive numbers such that, beyond the first number, no number's prime factor exponents equal any prime factor exponent of the previous number.",
+  "id": "A388967",
+  "mentions": [
+    "A001694",
+    "A124010",
+    "A140104",
+    "A221075",
+    "A297075",
+    "A359749",
+    "A387527",
+    "A387528",
+    "A387529",
+    "A387530",
+    "A387531",
+    "A388968"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

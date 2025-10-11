@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/32768) * exp(5*Pi/3) * Pi^10 / Gamma(3/4)^40.",
+  "id": "A388235",
+  "mentions": [
+    "A010840"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

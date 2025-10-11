@@ -1,7 +1,9 @@
 {
   "description": "Expansion of eta(z)^2*eta(4*z)^6/eta(2*z).",
   "id": "A159814",
-  "mentions": [],
+  "mentions": [
+    "A388674"
+  ],
   "tags": [
     "formulas",
     "sign"

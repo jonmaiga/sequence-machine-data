@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2 * exp(-7*Pi/12) * 2^(3/4).",
+  "id": "A388333",
+  "mentions": [
+    "A022609"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

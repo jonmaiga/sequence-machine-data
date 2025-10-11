@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that A334676(k) != k and the decimal string of n appears in A334676(k).",
+  "id": "A387242",
+  "mentions": [
+    "A334676"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

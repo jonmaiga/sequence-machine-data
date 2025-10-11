@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/(k^3)!.",
+  "id": "A388357",
+  "mentions": [
+    "A091131",
+    "A371499"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

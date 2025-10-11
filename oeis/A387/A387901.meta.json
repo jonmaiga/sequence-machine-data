@@ -1,0 +1,21 @@
+{
+  "description": "Powerful numbers with a squarefree kernel that is a product of the smallest primes.",
+  "id": "A387901",
+  "mentions": [
+    "A000079",
+    "A001694",
+    "A055932",
+    "A061742",
+    "A181800",
+    "A369374"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

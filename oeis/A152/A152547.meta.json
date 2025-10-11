@@ -1,8 +1,11 @@
 {
-  "description": "Triangle, read by rows, derived from Pascal's triangle (see g.f. and example for generating methods).",
+  "description": "Triangle, read by rows, derived from Pascal's triangle (see g.f. and example for generating methods), 0 <= k < A001405(n).",
   "id": "A152547",
   "mentions": [
+    "A000079",
+    "A001405",
     "A008315",
+    "A068076",
     "A152545",
     "A152548"
   ],

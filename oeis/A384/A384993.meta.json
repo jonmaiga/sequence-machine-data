@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions (p_0,p_1,...,p_m) of n such that max(i + p_i) = k for 0 <= i <= m.",
+  "id": "A384993",
+  "mentions": [
+    "A001339",
+    "A008930",
+    "A011782",
+    "A034856",
+    "A238859"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

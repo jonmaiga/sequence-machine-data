@@ -1,7 +1,8 @@
 {
-  "description": "(12n+9)^2.",
+  "description": "a(n) = (12*n+9)^2.",
   "id": "A017630",
   "mentions": [
+    "A000290",
     "A016838"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 37,
     "source": "joeis"
   }
 }

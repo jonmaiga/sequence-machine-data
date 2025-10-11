@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=A080180(1), a(n)=a(n-1)+A080180(n) for n>1.",
+  "description": "Partial sums of A080180.",
   "id": "A080181",
   "mentions": [
     "A080180",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

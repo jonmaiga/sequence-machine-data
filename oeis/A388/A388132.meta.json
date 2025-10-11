@@ -1,0 +1,16 @@
+{
+  "description": "Triangular array read by rows: row n consists of the numbers k such that A075255(k) = A385964(n).",
+  "id": "A388132",
+  "mentions": [
+    "A075255",
+    "A385964"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

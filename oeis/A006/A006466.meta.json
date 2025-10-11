@@ -2,8 +2,10 @@
   "description": "Continued fraction expansion of C = 2*Sum_{n>=0} 1/2^(2^n).",
   "id": "A006466",
   "mentions": [
+    "A000012",
     "A006463",
-    "A076214"
+    "A076214",
+    "A157196"
   ],
   "tags": [
     "cofr",

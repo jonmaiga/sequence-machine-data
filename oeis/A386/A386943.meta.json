@@ -1,0 +1,24 @@
+{
+  "description": "Ordered hypotenuses of nonprimitive Pythagorean triples of the form (u^2 - v^2, 2*u*v, u^2 + v^2), where u and v are positive integers.",
+  "id": "A386943",
+  "mentions": [
+    "A009000",
+    "A020882",
+    "A101930",
+    "A366428",
+    "A380072",
+    "A386307",
+    "A386944",
+    "A386945"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

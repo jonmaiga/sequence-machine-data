@@ -1,12 +1,19 @@
 {
-  "description": "Numerator of product_{k=1..n-1} (1 + 1/prime(k)).",
+  "description": "Numerator of Product_{k=1..n-1} (1 + 1/prime(k)).",
   "id": "A236435",
   "mentions": [
+    "A013661",
     "A038110",
+    "A056911",
     "A060753",
     "A072044",
     "A072045",
-    "A236436"
+    "A073004",
+    "A104141",
+    "A185199",
+    "A236436",
+    "A276378",
+    "A335004"
   ],
   "tags": [
     "formulas",

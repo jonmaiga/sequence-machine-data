@@ -1,5 +1,5 @@
 {
-  "description": "Least positive integer multiples of angle x such that their direction cosines form a unit vector: sum(k>0, cos(a(k)*x)^2)=1, where a(1)=1 and x=(2/3).",
+  "description": "Least positive integer multiples of angle x such that their direction cosines form a unit vector: Sum_{k>0} cos(a(k)*x)^2 = 1, where a(1)=1 and x=2/3.",
   "id": "A080140",
   "mentions": [
     "A080136",

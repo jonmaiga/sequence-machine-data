@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X4 binary array having determinant equal to one.",
+  "description": "Number of n X 3 0,1 arrays indicating 2 X 2 subblocks of some larger (n+1) X 4 binary array having determinant equal to one.",
   "id": "A227748",
   "mentions": [
     "A227751"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

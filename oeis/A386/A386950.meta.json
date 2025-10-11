@@ -1,5 +1,5 @@
 {
-  "description": "A sequence constructed by greedily sampling the the pdf (H(10)-H(i))/10, where H(n) is the n-th Harmonic number and the support is [0,9], to minimize discrepancy.",
+  "description": "A sequence constructed by greedily sampling the pdf (H(10)-H(i))/10, where H(n) is the n-th Harmonic number and the support is [0,9], to minimize discrepancy.",
   "id": "A386950",
   "mentions": [
     "A081528"

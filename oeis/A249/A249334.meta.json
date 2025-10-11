@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the digital sum contains the same distinct digits as the digital product.",
+  "description": "Numbers for which the digital sum contains the same distinct digits as the digital product.",
   "id": "A249334",
   "mentions": [
     "A002275",

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/32) * exp(Pi) * Pi^(7/4) / Gamma(3/4)^7.",
+  "id": "A388830",
+  "mentions": [
+    "A243763"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

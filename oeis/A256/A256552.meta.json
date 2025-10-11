@@ -1,7 +1,9 @@
 {
   "description": "Expansion of the unique weight 11/2 Gamma1(4) cusp form in powers of q.",
   "id": "A256552",
-  "mentions": [],
+  "mentions": [
+    "A388883"
+  ],
   "tags": [
     "formulas",
     "sign"

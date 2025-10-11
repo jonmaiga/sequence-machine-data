@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges in the prime-intersection graph on the Boolean lattice of rank n.",
+  "id": "A387397",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000244",
+    "A000720",
+    "A007318"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

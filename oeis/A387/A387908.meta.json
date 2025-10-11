@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct integer-sided triangles with perimeter 6*n and integer area whose sides are in arithmetic progression.",
+  "id": "A387908",
+  "mentions": [
+    "A008588",
+    "A024164",
+    "A051516",
+    "A334277"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

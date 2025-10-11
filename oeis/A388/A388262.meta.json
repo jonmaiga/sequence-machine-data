@@ -1,0 +1,19 @@
+{
+  "description": "Records in A388038.",
+  "id": "A388262",
+  "mentions": [
+    "A388038",
+    "A388263"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

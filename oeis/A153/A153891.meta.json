@@ -1,5 +1,5 @@
 {
-  "description": "Largest of five consecutive Fibonacci numbers such that sum of five consecutive Fibonacci numbers is prime number.",
+  "description": "Largest of five consecutive Fibonacci numbers such that the sum of the five consecutive Fibonacci numbers is prime.",
   "id": "A153891",
   "mentions": [
     "A000045",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

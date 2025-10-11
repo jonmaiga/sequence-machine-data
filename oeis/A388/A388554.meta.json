@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (sqrt(41+29 * sqrt(2)) * Gamma(1/4)^4 * sin(Pi / 8)^4) / Pi^3.",
+  "id": "A388554",
+  "mentions": [
+    "A113416"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

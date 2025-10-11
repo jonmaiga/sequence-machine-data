@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*a(n-1) + 2*a(n-2) + 2*a(n-3) - a(n-4) with a(0)=0, a(1)=1, a(2)=2, a(3)=7, a(4)=20.",
+  "id": "A389120",
+  "mentions": [
+    "A138573",
+    "A138574",
+    "A387018"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

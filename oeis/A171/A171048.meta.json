@@ -1,7 +1,13 @@
 {
   "description": "In the sequence of prime numbers, replace all the '8' digits with '7' and vice versa.",
   "id": "A171048",
-  "mentions": [],
+  "mentions": [
+    "A171013",
+    "A171016",
+    "A171018",
+    "A171057",
+    "A175770"
+  ],
   "tags": [
     "base",
     "easy",

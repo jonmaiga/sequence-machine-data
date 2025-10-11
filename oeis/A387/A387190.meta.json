@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the second smallest dihedral angle, in radians, in an elongated pentagonal cupola (Johnson solid J_20).",
+  "id": "A387190",
+  "mentions": [
+    "A002163",
+    "A019669",
+    "A179591",
+    "A228824",
+    "A377995",
+    "A377996",
+    "A384144",
+    "A387147"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

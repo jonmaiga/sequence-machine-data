@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the permanent of the n X n matrix containing the first n^2 semiprimes in increasing order.",
+  "id": "A387895",
+  "mentions": [
+    "A114533",
+    "A118770",
+    "A387894"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Averages of two successive primes (prime(k)+prime(k+1))/2 such that the ratio (prime(k+2)-prime(k+1))/(prime(k)-prime(k-1)) sets a new record.",
+  "id": "A389303",
+  "mentions": [
+    "A002822",
+    "A024675",
+    "A115401",
+    "A329160",
+    "A354604"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

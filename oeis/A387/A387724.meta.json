@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that sigma(k)^2 >= k * sigma(A003961(k)), where A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A387724",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A005100",
+    "A016825",
+    "A072861",
+    "A337379",
+    "A337381",
+    "A337382",
+    "A337543",
+    "A341528"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

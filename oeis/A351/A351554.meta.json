@@ -1,17 +1,24 @@
 {
-  "description": "Numbers k such that there are no odd prime factors p of k such that p would not divide A003961(k) and the valuation(k, p) would be different from valuation(sigma(k), p), where A003961 is fully multiplicative with a(p) = nextprime(p), and sigma is the sum of divisors function.",
+  "description": "Numbers k such that there are no odd prime factors p of sigma(k) such that p does not divide A003961(k) and the valuation(k, p) is different from valuation(sigma(k), p), where A003961 is fully multiplicative with a(p) = nextprime(p), and sigma is the sum of divisors function.",
   "id": "A351554",
   "mentions": [
     "A000203",
+    "A000396",
     "A003961",
     "A005820",
     "A007691",
+    "A007947",
     "A046060",
+    "A046061",
+    "A151799",
     "A349169",
     "A349745",
+    "A351546",
     "A351551",
     "A351553",
-    "A351555"
+    "A351555",
+    "A386430",
+    "A387160"
   ],
   "tags": [
     "nonn"

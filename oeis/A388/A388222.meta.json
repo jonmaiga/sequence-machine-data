@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/256) * exp(7*Pi/8) * Pi^(21/4) * 2^(1/8) / Gamma(3/4)^21.",
+  "id": "A388222",
+  "mentions": [
+    "A010827"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

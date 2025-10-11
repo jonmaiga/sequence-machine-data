@@ -1,14 +1,17 @@
 {
-  "description": "Number of graceful labelings of the n-centipede graph.",
+  "description": "Total number of graceful labelings of the n-centipede graph.",
   "id": "A334351",
-  "mentions": [],
+  "mentions": [
+    "A387794"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

@@ -2,15 +2,16 @@
   "description": "a(n) is the number of distinct five-cuboid combinations that fill an n X n X n cube with cuboids of different volumes.",
   "id": "A387040",
   "mentions": [
-    "A384479"
+    "A384479",
+    "A385580",
+    "A387121"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

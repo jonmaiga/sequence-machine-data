@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of cos(Pi/34).",
+  "id": "A387451",
+  "mentions": [
+    "A210649"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/2) * Pi * Gamma(11/12)^2 * Gamma(7/12)^2 / Gamma(3/4)^8.",
+  "id": "A388813",
+  "mentions": [
+    "A230057"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

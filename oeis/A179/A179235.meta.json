@@ -2,17 +2,14 @@
   "description": "Row sums of the irregular triangle A179236.",
   "id": "A179235",
   "mentions": [
-    "A049009",
-    "A178802",
     "A179236"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

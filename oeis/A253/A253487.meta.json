@@ -2,9 +2,11 @@
   "description": "Number of lattice paths of 2*n+2 steps in the first quadrant from (0,0) to (n,n).",
   "id": "A253487",
   "mentions": [
+    "A001622",
     "A110609"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

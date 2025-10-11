@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/128) * exp(3*Pi/4) * Pi^(9/2) * 2^(1/4) / Gamma(3/4)^18.",
+  "id": "A388219",
+  "mentions": [
+    "A010824"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

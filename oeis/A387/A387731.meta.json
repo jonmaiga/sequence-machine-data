@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n if n <= 3; thereafter a(n) is either the greatest number k < a(n-1) not already used such that gcd(k, a(n-1)) = 1 and gcd(k, a(n-2)) > 1, or if no such k exists then a(n) is the smallest number k > a(n-1) not already used such that gcd(k, a(n-1)) = 1 and gcd(k, a(n-2)) > 1.",
+  "id": "A387731",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A386482",
+    "A387621"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

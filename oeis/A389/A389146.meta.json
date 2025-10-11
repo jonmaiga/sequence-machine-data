@@ -1,0 +1,33 @@
+{
+  "description": "Classification of positive integers into numbers in A387487, primes, proper prime powers, weak composites, and powerful numbers that are not prime powers.",
+  "id": "A389146",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001221",
+    "A001694",
+    "A002808",
+    "A007947",
+    "A010055",
+    "A052485",
+    "A112526",
+    "A120944",
+    "A126706",
+    "A246547",
+    "A286708",
+    "A332785",
+    "A385113",
+    "A387487",
+    "A389065"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

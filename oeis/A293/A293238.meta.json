@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the escape probability for a random walk on the 3D bcc lattice.",
   "id": "A293238",
   "mentions": [
+    "A004405",
     "A091670",
     "A242761",
     "A293237"

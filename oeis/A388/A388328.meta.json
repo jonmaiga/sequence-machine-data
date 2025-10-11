@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(-7*Pi/24) * 2^(7/8).",
+  "id": "A388328",
+  "mentions": [
+    "A022602"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

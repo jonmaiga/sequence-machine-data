@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: (A000012 * A131431) + (A131431 * A000012) - A000012 as infinite lower triangular matrices.",
+  "description": "Triangle read by rows: T(n,k) = 3*(n + k) + 1, 0 <= k <= n.",
   "id": "A131432",
   "mentions": [
     "A000012",
@@ -9,6 +9,7 @@
     "A131431"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

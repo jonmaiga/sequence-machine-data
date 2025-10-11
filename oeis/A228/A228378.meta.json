@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tb(n) = tb(n+1) where tb(n) = A048784(n) is the number of divisors of binomial(2*n, n).",
+  "description": "Numbers k such that tb(k) = tb(k+1) where tb(k) = A048784(k) is the number of divisors of binomial(2*k, k).",
   "id": "A228378",
   "mentions": [
     "A000005",

@@ -1,0 +1,17 @@
+{
+  "description": "Self-inverse permutation of the nonnegative integers, by swapping and converting the head and tail parts of n in binary and using the rightmost 0-bit as their separator.",
+  "id": "A387325",
+  "mentions": [
+    "A007814",
+    "A025480"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

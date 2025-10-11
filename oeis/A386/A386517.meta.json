@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 60*binomial(3*n,n)/(n+2).",
+  "id": "A386517",
+  "mentions": [
+    "A005809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

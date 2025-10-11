@@ -2,6 +2,7 @@
   "description": "Square row sums of the table A072233 (A008284).",
   "id": "A238312",
   "mentions": [
+    "A000290",
     "A008284",
     "A072233"
   ],

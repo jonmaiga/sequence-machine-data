@@ -1,10 +1,11 @@
 {
-  "description": "Exponential 3-abundant numbers: numbers m such that esigma(m) >= 3m, where esigma(m) is the sum of exponential divisors of m (A051377).",
+  "description": "Exponential 3-nondeficient numbers: numbers m such that esigma(m) >= 3*m, where esigma(m) is the sum of exponential divisors of m (A051377).",
   "id": "A328135",
   "mentions": [
     "A002110",
     "A023197",
     "A051377",
+    "A068403",
     "A072986",
     "A129575",
     "A285615",

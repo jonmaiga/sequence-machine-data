@@ -3,6 +3,7 @@
   "id": "A386930",
   "mentions": [
     "A000005",
+    "A001227",
     "A384237",
     "A384834",
     "A384854",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

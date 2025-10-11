@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/2) * Pi^(5/4) / Gamma(3/4)^5.",
+  "id": "A388832",
+  "mentions": [
+    "A245643"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

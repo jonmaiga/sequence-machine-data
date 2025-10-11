@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the maximal density of a set of positive integers free of subsets of the form {n, 2n, 3n}.",
+  "id": "A386439",
+  "mentions": [
+    "A003586",
+    "A004059",
+    "A057561",
+    "A094708"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

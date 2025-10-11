@@ -1,0 +1,14 @@
+{
+  "description": "Number of mutual-visibility sets in the n-sun graph.",
+  "id": "A389173",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

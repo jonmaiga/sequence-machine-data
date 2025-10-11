@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k * binomial(n,k) * binomial(3*n+1,k).",
+  "id": "A388045",
+  "mentions": [
+    "A002002",
+    "A108448",
+    "A388046",
+    "A388052"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

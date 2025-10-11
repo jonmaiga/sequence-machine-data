@@ -1,5 +1,5 @@
 {
-  "description": "Integers n for which k = (9^n - 3 * 3^n - 4n) / (2n * (2n + 1)) is an integer.",
+  "description": "Integers m such that (9^m - 3 * 3^m - 4*m) / (2*m * (2*m + 1)) is an integer.",
   "id": "A161896",
   "mentions": [
     "A000040",

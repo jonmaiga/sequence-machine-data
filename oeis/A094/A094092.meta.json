@@ -1,5 +1,5 @@
 {
-  "description": "Floor( (sqrt n)^(sqrt n) ).",
+  "description": "a(n) = floor(sqrt(n)^sqrt(n)).",
   "id": "A094092",
   "mentions": [
     "A094054",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 47,
     "source": "joeis"
   }
 }

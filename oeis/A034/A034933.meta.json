@@ -1,7 +1,9 @@
 {
   "description": "Expansion of theta_3(q)^2 * theta_3(q^3) in powers of q.",
   "id": "A034933",
-  "mentions": [],
+  "mentions": [
+    "A388398"
+  ],
   "tags": [
     "formulas",
     "nonn"

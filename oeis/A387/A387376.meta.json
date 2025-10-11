@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 2 + 4^n + 2*n*(n - 1).",
+  "id": "A387376",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

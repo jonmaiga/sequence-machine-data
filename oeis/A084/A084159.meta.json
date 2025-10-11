@@ -2,6 +2,7 @@
   "description": "Pell oblongs.",
   "id": "A084159",
   "mentions": [
+    "A000129",
     "A001333",
     "A001654",
     "A046727",

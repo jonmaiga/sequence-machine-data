@@ -2,7 +2,8 @@
   "description": "G.f. = theta_4(0,x^4)/theta_4(0,x).",
   "id": "A103258",
   "mentions": [
-    "A002448"
+    "A002448",
+    "A388499"
   ],
   "tags": [
     "formulas",

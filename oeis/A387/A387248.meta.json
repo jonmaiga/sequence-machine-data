@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3/(n + 1) * Catalan(2*n).",
+  "id": "A387248",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001448",
+    "A007054",
+    "A387249",
+    "A387250"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

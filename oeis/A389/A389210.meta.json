@@ -1,0 +1,20 @@
+{
+  "description": "Positions of odd terms in A325974, where A325974 is the arithmetic mean of {sum of non-unitary divisors} and {sum of nonsquarefree divisors}.",
+  "id": "A389210",
+  "mentions": [
+    "A028982",
+    "A048146",
+    "A069562",
+    "A162296",
+    "A325974",
+    "A389205"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

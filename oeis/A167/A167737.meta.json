@@ -1,5 +1,5 @@
 {
-  "description": "Primes that becomes a square when prefixed with a 4.",
+  "description": "Primes that become squares when prefixed with a 4.",
   "id": "A167737",
   "mentions": [
     "A167734",

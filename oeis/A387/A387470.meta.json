@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n*(Omega(n) - 1), where Omega = A001222.",
+  "id": "A387470",
+  "mentions": [
+    "A001222",
+    "A066959",
+    "A252736"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

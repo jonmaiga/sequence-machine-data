@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of cos(Pi/25).",
+  "id": "A387445",
+  "mentions": [
+    "A019694",
+    "A019863"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

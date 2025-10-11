@@ -1,0 +1,15 @@
+{
+  "description": "Number of dying period sets for binary words of length n.",
+  "id": "A385878",
+  "mentions": [
+    "A005434"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

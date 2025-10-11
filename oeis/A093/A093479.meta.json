@@ -10,11 +10,13 @@
     "A093478"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 113,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

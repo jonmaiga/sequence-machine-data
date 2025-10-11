@@ -2,7 +2,8 @@
   "description": "Sum of the common path length over all 2-tuples of nodes in a complete binary tree of height n.",
   "id": "A286778",
   "mentions": [
-    "A036799"
+    "A036799",
+    "A050488"
   ],
   "tags": [
     "easy",

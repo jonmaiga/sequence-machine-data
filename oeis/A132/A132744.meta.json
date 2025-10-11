@@ -2,10 +2,12 @@
   "description": "Decimal expansion of Pi/28.",
   "id": "A132744",
   "mentions": [
+    "A000796",
     "A019673"
   ],
   "tags": [
     "cons",
+    "easy",
     "nonn"
   ],
   "terms": {

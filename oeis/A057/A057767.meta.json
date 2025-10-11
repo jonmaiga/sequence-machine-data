@@ -2,7 +2,8 @@
   "description": "Number of twin prime pairs between P(n)^2 and P(n+1)^2 where P(n) is the n-th prime.",
   "id": "A057767",
   "mentions": [
-    "A002822"
+    "A002822",
+    "A091591"
   ],
   "tags": [
     "nonn"

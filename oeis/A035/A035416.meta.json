@@ -1,5 +1,5 @@
 {
-  "description": "Related to Rogers-Ramanujan Identities.",
+  "description": "First differences of A035406.",
   "id": "A035416",
   "mentions": [
     "A003106",
@@ -10,12 +10,11 @@
     "A035420"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 72,
+    "source": "joeis"
   }
 }

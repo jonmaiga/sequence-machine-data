@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of exp(-Pi/24) / (12*2^(3/4)).",
+  "id": "A389056",
+  "mentions": [
+    "A330373"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

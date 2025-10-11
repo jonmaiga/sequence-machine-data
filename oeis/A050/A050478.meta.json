@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = C(n)*(8n+1) where C(n)=Catalan numbers (A000108).",
+  "description": "a(n) = C(n)*(8*n+1) where C(n) = Catalan numbers (A000108).",
   "id": "A050478",
   "mentions": [
     "A000108",
+    "A000984",
+    "A001791",
     "A016993",
     "A051945",
     "A330965"

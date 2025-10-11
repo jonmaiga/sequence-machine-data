@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/((1-2*x) * (1-6*x))^(9/2).",
+  "id": "A387282",
+  "mentions": [
+    "A387274"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

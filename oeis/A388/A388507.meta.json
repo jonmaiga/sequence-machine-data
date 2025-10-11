@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 40 * exp(-Pi).",
+  "id": "A388507",
+  "mentions": [
+    "A107080"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

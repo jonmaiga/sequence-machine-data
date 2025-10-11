@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(-Pi/12) * 2^(7/16) * Gamma(7/8) * Pi^(1/4) * (2-sqrt(2))^(1/4) / Gamma(5/8).",
+  "id": "A388838",
+  "mentions": [
+    "A246712"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

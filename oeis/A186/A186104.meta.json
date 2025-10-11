@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 3*6^n - 1.",
+  "description": "Primes of the form 3*6^k - 1.",
   "id": "A186104",
   "mentions": [
     "A186106"

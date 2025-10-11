@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 27/512 * Gamma(7/12)^9 * (5/3+3^(1/2)) * 3^(1/2) * exp(Pi/6) * 2^(5/8) * Gamma(11/12)^4 * Gamma(2/3)^5 / Pi^2 / Gamma(3/4)^15.",
+  "id": "A388801",
+  "mentions": [
+    "A226862"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

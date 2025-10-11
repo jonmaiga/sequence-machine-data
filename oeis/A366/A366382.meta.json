@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A349134(i) = A349134(j) for all i, j >= 1, where A349134 is Dirichlet inverse of Kimberling's paraphrases.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A349134(i) = A349134(j) for all i, j >= 1, where A349134 is Dirichlet inverse of Kimberling's paraphrase of the binary number system (A003602).",
   "id": "A366382",
   "mentions": [
     "A003602",

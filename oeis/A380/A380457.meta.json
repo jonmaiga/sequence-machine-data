@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the divisors of n plus the number of distinct primes dividing n.",
+  "description": "Sum of divisors of n plus the number of distinct prime divisors of n: a(n) = sigma(n) + omega(n).",
   "id": "A380457",
   "mentions": [
     "A000203",

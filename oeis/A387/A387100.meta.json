@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number that can be written in exactly n ways as s_1^x_1 + ... + s_t^x_t, with 1 < s_1 < ... < s_t and {s_1,..., s_t} = {x_1,..., x_t}.",
+  "id": "A387100",
+  "mentions": [
+    "A385969",
+    "A386968"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

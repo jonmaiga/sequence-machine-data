@@ -2,7 +2,15 @@
   "description": "a(1) = 1, a(n) = smallest palindromic number > a(n-1) of the form k*a(n-1) - 1.",
   "id": "A081938",
   "mentions": [
-    "A081939"
+    "A068664",
+    "A068665",
+    "A068666",
+    "A068667",
+    "A068668",
+    "A069503",
+    "A081939",
+    "A083147",
+    "A109931"
   ],
   "tags": [
     "base",
@@ -11,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

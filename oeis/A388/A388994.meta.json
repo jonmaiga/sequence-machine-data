@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = {sum of squarefree divisors of n} minus {sum of divisors of n that have a square factor}.",
+  "id": "A388994",
+  "mentions": [
+    "A000203",
+    "A001615",
+    "A005117",
+    "A013929",
+    "A048250",
+    "A162296",
+    "A228058",
+    "A325378"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

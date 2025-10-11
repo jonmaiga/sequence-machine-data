@@ -1,11 +1,13 @@
 {
-  "description": "Define a k-th-power loop of length m>1 to be a circular permutation of the numbers 1 to m such that the sum of any two consecutive numbers is a perfect k-th-power; these numbers are the lengths of the possible k-th-power loops.",
+  "description": "a(n) is the shortest possible n-th-power loop where an n-th-power loop of length m > 1 is a circular permutation of the numbers 1 to m such that the sum of any two consecutive numbers is a perfect n-th power.",
   "id": "A115418",
   "mentions": [
     "A071984",
     "A112663"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

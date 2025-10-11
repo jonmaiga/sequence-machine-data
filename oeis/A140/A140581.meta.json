@@ -1,9 +1,10 @@
 {
-  "description": "Triangle read by rows, A054525 * A140256.",
+  "description": "Triangle read by rows: T(n,k) = A140254(n/k) if k divides n, T(n,k) = 0 otherwise.",
   "id": "A140581",
   "mentions": [
     "A014963",
     "A054525",
+    "A140254",
     "A140256"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 104,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

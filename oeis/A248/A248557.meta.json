@@ -2,6 +2,7 @@
   "description": "Decimal expansion of (Pi/2)^(1/4)/Gamma(3/4).",
   "id": "A248557",
   "mentions": [
+    "A002448",
     "A010767",
     "A068465",
     "A092040",

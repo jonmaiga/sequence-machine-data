@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number that has exactly n divisors and the differences between its consecutive divisors (ordered by size) are distinct.",
+  "id": "A384097",
+  "mentions": [
+    "A000005",
+    "A060680",
+    "A060681",
+    "A060682",
+    "A060683",
+    "A384098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

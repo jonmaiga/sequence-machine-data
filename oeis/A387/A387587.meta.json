@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimal vertex cuts in the n-trapezohedral graph.",
+  "id": "A387587",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

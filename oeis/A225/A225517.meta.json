@@ -1,5 +1,5 @@
 {
-  "description": "Integers n > 1 such that expression n!/(prime(n-1)+1) is not an integer.",
+  "description": "Integers m > 1 such that expression m!/(prime(m-1)+1) is not an integer.",
   "id": "A225517",
   "mentions": [
     "A223881"

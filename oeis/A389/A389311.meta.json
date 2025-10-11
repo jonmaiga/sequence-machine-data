@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [2n] having exactly n consecutive ascending pairs.",
+  "id": "A389311",
+  "mentions": [
+    "A010027",
+    "A123513",
+    "A131577"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

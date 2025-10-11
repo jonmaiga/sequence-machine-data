@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of the coefficient of [x^(2n)] of the Taylor series log(cosec(x)*arctanh(x))= x^2/2 +3*x^4/20 +4*x^6/45 +203*x^8/3240 +2038*x^10/42525 +...",
+  "description": "Numerator of the coefficient of [x^(2n)] of the Taylor series log(cosec(x)*arctanh(x)).",
   "id": "A012861",
   "mentions": [
     "A202602"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 17,
     "source": "joeis"
   }
 }

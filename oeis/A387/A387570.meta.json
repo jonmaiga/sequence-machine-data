@@ -1,0 +1,15 @@
+{
+  "description": "Number of matchings in the n-dipyramidal graph.",
+  "id": "A387570",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of sqrt(5 * (2+sqrt(5))) * exp(-Pi/2).",
+  "id": "A388668",
+  "mentions": [
+    "A145708"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

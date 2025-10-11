@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/128) * Pi^7 / Gamma(3/4)^28.",
+  "id": "A389038",
+  "mentions": [
+    "A319310"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

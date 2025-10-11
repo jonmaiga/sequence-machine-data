@@ -1,15 +1,19 @@
 {
-  "description": "Least composite k such that nearest integer to average of smallest and largest prime factors of k equals n.",
+  "description": "Least composite k such that the nearest integer to the average of the smallest and largest prime factors of k equals n.",
   "id": "A084372",
   "mentions": [
-    "A076690"
+    "A020481",
+    "A076690",
+    "A098090"
   ],
   "tags": [
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

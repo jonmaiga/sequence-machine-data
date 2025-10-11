@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (Pi/32) * (-zeta'(3/2)/zeta(3/2)).",
+  "id": "A388541",
+  "mentions": [
+    "A215722",
+    "A384541",
+    "A385742"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

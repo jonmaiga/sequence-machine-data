@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed polyiamonds of area n with holes.",
+  "id": "A389190",
+  "mentions": [
+    "A001420",
+    "A070764",
+    "A341630",
+    "A389191"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

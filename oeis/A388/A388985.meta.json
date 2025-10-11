@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that {sum of unitary divisors of k} plus {sum of squarefree divisors of k} does not exceed 2*k.",
+  "id": "A388985",
+  "mentions": [
+    "A034448",
+    "A048250",
+    "A325963",
+    "A325973",
+    "A325977",
+    "A388986"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

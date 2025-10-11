@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/(1 - 8*x + 4*x^2)^(7/2).",
+  "id": "A387344",
+  "mentions": [
+    "A387340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

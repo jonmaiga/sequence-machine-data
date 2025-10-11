@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there are no primes p which divide n+1 and p-1 does not divide n.",
+  "description": "Numbers k such that there are no primes p which divide k+1 and p-1 does not divide k.",
   "id": "A226038",
   "mentions": [
     "A225481",

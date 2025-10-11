@@ -1,16 +1,19 @@
 {
-  "description": "Numbers that are in A337381, but that have no proper divisor in A337381.",
+  "description": "Primitive terms of A337381: Numbers that are in A337381, but that have no proper divisor in A337381.",
   "id": "A337543",
   "mentions": [
     "A000203",
     "A003961",
     "A003973",
+    "A023196",
     "A091191",
     "A337372",
     "A337381",
     "A337383",
+    "A337479",
     "A337541",
-    "A337542"
+    "A337542",
+    "A387708"
   ],
   "tags": [
     "formulas",

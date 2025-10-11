@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n >= 0 such that 2*3^n - 1 is not prime.",
+  "description": "Numbers k >= 0 such that 2*3^k - 1 is not prime.",
   "id": "A177103",
   "mentions": [
     "A003307"

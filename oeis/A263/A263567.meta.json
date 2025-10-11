@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(3+2) arrays of permutations of 0..n*5+9 with each element moved 0 or 1 knight moves and no more than 1 element left unmoved.",
+  "description": "Number of (n+2) X (3+2) arrays of permutations of 0..n*5+9 with each element moved 0 or 1 knight moves and no more than 1 element left unmoved.",
   "id": "A263567",
   "mentions": [
     "A263568"

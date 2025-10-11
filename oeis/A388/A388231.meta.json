@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4096) * exp(31*Pi/24) * Pi^(31/4) * 2^(3/8) / Gamma(3/4)^31.",
+  "id": "A388231",
+  "mentions": [
+    "A010836"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

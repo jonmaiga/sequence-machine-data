@@ -1,5 +1,5 @@
 {
-  "description": "The number of primes p <= n such that p^p = p (mod n).",
+  "description": "The number of primes p <= n such that p^p == p (mod n).",
   "id": "A384239",
   "mentions": [
     "A000720",

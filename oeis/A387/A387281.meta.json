@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/((1-2*x) * (1-6*x))^(7/2).",
+  "id": "A387281",
+  "mentions": [
+    "A387273"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

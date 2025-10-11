@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0; for n >= 1, a(n) is the smallest positive integer not already in the sequence that is coprime to both a(n-1) and the sum of all preceding terms.",
+  "id": "A383941",
+  "mentions": [
+    "A084385",
+    "A085229",
+    "A093714",
+    "A103683",
+    "A352588"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

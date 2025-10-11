@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+1, n+2, n+3 and n+4 are respectively 1,2,3,4,5-almost primes.",
+  "description": "Numbers k such that k, k+1, k+2, k+3 and k+4 are respectively 1,2,3,4,5-almost primes.",
   "id": "A113008",
   "mentions": [
     "A112998",

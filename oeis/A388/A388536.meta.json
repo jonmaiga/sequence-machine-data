@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n+5*k,k).",
+  "id": "A388536",
+  "mentions": [
+    "A001850",
+    "A388533",
+    "A388534",
+    "A388535",
+    "A388537"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

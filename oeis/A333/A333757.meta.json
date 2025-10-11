@@ -1,14 +1,17 @@
 {
   "description": "Number of graceful labelings of the n-sunlet graph.",
   "id": "A333757",
-  "mentions": [],
+  "mentions": [
+    "A387808"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 5,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

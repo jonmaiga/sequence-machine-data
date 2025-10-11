@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..1 arrays with no 1 equal to more than two of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly one element.",
+  "description": "Number of n X 3 0..1 arrays with no 1 equal to more than two of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly one element.",
   "id": "A283721",
   "mentions": [
     "A283726"

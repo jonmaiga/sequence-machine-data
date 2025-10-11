@@ -1,13 +1,24 @@
 {
-  "description": "Number of n-celled polyominoes with 1 hole.",
+  "description": "Number of n-celled free polyominoes with 1 hole.",
   "id": "A057418",
-  "mentions": [],
+  "mentions": [
+    "A000104",
+    "A001419",
+    "A057419",
+    "A057420",
+    "A089454",
+    "A089455",
+    "A089456",
+    "A089457",
+    "A089458"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 7,
-    "size": 20,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

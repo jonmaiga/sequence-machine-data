@@ -2,7 +2,8 @@
   "description": "Subsequence of A167709 whose indices are congruent to 1 mod 5, i.e., a(n) = A167709(5*n+1).",
   "id": "A167822",
   "mentions": [
-    "A167709"
+    "A167709",
+    "A167755"
   ],
   "tags": [
     "easy",

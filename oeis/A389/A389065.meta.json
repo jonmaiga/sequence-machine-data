@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are neither prime powers nor powerful.",
+  "id": "A389065",
+  "mentions": [
+    "A000027",
+    "A000961",
+    "A001694",
+    "A002808",
+    "A024619",
+    "A052485",
+    "A052486",
+    "A106543",
+    "A120944",
+    "A126706",
+    "A286708",
+    "A332785"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

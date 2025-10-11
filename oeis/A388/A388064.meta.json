@@ -1,0 +1,28 @@
+{
+  "description": "Total number of parts in all partitions of n with designated summands.",
+  "id": "A388064",
+  "mentions": [
+    "A002127",
+    "A002128",
+    "A006128",
+    "A077285",
+    "A293421",
+    "A365664",
+    "A365665",
+    "A384926",
+    "A384998",
+    "A384999",
+    "A385001",
+    "A386997",
+    "A386998",
+    "A388063"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

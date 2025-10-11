@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * Gamma(2/3)^2 * Gamma(7/12)^2 * (2+3^(1/2)) / Pi^(1/4) / Gamma(3/4)^5.",
+  "id": "A388872",
+  "mentions": [
+    "A246928"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

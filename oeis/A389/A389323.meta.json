@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n+4*k-1,n-k).",
+  "id": "A389323",
+  "mentions": [
+    "A321799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

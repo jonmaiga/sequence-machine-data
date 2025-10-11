@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(-Pi/24) * 2^(1/16) / (2-sqrt(2))^(1/4).",
+  "id": "A388512",
+  "mentions": [
+    "A108961"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of tangent of 48 degrees.",
   "id": "A019946",
   "mentions": [
+    "A019851",
     "A019857"
   ],
   "tags": [

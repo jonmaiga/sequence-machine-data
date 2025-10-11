@@ -2,6 +2,7 @@
   "description": "a(n)>a(n-1), a(n) = smallest prime such that a(n)+a(n-1) is multiple of m, a(1)=2, m=3.",
   "id": "A175442",
   "mentions": [
+    "A101635",
     "A175451"
   ],
   "tags": [

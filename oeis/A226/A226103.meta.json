@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that triangular(n)+1 is a prime power (A025475).",
+  "description": "Numbers k such that triangular(k)+1 is a prime power (A025475).",
   "id": "A226103",
   "mentions": [
     "A000217",

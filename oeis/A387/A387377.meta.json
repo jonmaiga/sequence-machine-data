@@ -1,0 +1,19 @@
+{
+  "description": "In the prime factorization of n, replace 2's with 3's, replace 3's with 5's and replace 5's with 2's.",
+  "id": "A387377",
+  "mentions": [
+    "A064614",
+    "A181351"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

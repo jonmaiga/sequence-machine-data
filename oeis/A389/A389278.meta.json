@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that psi(p+1) = psi(p+2).",
+  "id": "A389278",
+  "mentions": [
+    "A000040",
+    "A001615",
+    "A119705",
+    "A291043",
+    "A389277",
+    "A389279"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

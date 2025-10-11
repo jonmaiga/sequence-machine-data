@@ -1,18 +1,20 @@
 {
-  "description": "a(n,m) = (binomial(n,m) mod 2)*Gray_Code(n,m).",
+  "description": "Triangle read by rows: T(n, k) = A047999(n, k)*A131218(n-k, k).",
   "id": "A131219",
   "mentions": [
-    "A047999"
+    "A047999",
+    "A131218",
+    "A277561"
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

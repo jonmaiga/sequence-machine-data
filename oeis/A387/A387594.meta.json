@@ -1,0 +1,18 @@
+{
+  "description": "Rectangular array (d(n,k)) read by descending antidiagonals: d(n,k) is the denominator array of the decreasing (2)-prime-fractions array, defined in Comments.",
+  "id": "A387594",
+  "mentions": [
+    "A387265",
+    "A387593"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

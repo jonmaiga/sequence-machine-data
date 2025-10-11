@@ -1,0 +1,16 @@
+{
+  "description": "Big Ramsey degree (with respect to substructures) of an independent set of size n in a universal triangle-free graph.",
+  "id": "A387346",
+  "mentions": [
+    "A000182"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

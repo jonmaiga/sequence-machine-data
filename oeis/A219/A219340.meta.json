@@ -1,7 +1,9 @@
 {
   "description": "Numbers not multiples of 9 whose digital sum coincides with digital sum of their largest proper divisor.",
   "id": "A219340",
-  "mentions": [],
+  "mentions": [
+    "A032742"
+  ],
   "tags": [
     "base",
     "nonn"

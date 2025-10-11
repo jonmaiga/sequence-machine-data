@@ -1,5 +1,5 @@
 {
-  "description": "After 0 and 1, numbers n all of whose prime divisors encode an irreducible polynomial over GF(2) (are terms of A091206).",
+  "description": "After 0 and 1, numbers k all of whose prime divisors encode an irreducible polynomial over GF(2) (are terms of A091206).",
   "id": "A236860",
   "mentions": [
     "A091206",

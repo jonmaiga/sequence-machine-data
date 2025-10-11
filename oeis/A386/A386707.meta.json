@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Lucas(n) + 6.",
+  "id": "A386707",
+  "mentions": [
+    "A000032"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

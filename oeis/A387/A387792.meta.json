@@ -1,0 +1,14 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-alkane graph.",
+  "id": "A387792",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

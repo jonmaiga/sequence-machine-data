@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed polyhexes of area n with holes.",
+  "id": "A389191",
+  "mentions": [
+    "A001207",
+    "A038144",
+    "A121220",
+    "A389190"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

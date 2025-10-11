@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..2 arrays with the maximum plus the upper median plus the minimum minus the lower median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one.",
+  "description": "Number of (n+1) X (6+1) 0..2 arrays with the maximum plus the upper median plus the minimum minus the lower median of every 2 X 2 subblock differing from its horizontal and vertical neighbors by exactly one.",
   "id": "A237322",
   "mentions": [
     "A237324"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

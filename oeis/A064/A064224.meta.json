@@ -10,12 +10,12 @@
     "A163263"
   ],
   "tags": [
-    "more",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

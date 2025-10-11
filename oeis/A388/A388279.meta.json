@@ -1,0 +1,18 @@
+{
+  "description": "Positions of powerful terms among the numbers satisfying Euler's condition for odd perfect numbers (A228058).",
+  "id": "A388279",
+  "mentions": [
+    "A001694",
+    "A228058",
+    "A386428"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

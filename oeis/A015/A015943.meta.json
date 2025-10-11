@@ -1,5 +1,5 @@
 {
-  "description": "(2^(2n)+n) mod (2n).",
+  "description": "a(n) = (2^(2*n)+n) mod (2*n).",
   "id": "A015943",
   "mentions": [],
   "tags": [

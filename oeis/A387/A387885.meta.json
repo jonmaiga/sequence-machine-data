@@ -1,0 +1,20 @@
+{
+  "description": "Product of smaller and larger term of n-th psi-amicable pair, sorted by the smaller members from A323329.",
+  "id": "A387885",
+  "mentions": [
+    "A001615",
+    "A180202",
+    "A323329",
+    "A323330",
+    "A387893"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

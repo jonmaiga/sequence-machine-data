@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer k >= 2 such that the digit string of prime(n) is contained as a substring in the digit string of prime(n)^k.",
+  "id": "A387142",
+  "mentions": [
+    "A045537",
+    "A052073",
+    "A052075",
+    "A054260",
+    "A062584",
+    "A387143"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

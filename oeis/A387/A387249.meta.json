@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 10/(n + 1) * Catalan(3*n).",
+  "id": "A387249",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A007272",
+    "A066802",
+    "A387248",
+    "A387250"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

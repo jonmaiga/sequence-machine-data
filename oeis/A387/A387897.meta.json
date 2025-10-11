@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the connective constant of the square lattice.",
+  "id": "A387897",
+  "mentions": [
+    "A001411",
+    "A002931",
+    "A156816",
+    "A179260",
+    "A249776"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

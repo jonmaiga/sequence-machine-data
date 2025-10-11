@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} gcd(n^k, k). Antidiagonal sums of A389101.",
+  "id": "A389102",
+  "mentions": [
+    "A389101"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "The largest unitary divisor of n that is a term in A048103 (not divisible by p^p for any prime p).",
+  "id": "A389455",
+  "mentions": [
+    "A048103",
+    "A054744",
+    "A327937",
+    "A359550",
+    "A368333",
+    "A380085",
+    "A380088",
+    "A389450",
+    "A389451",
+    "A389454"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

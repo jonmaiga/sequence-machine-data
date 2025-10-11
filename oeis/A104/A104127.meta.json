@@ -1,5 +1,5 @@
 {
-  "description": "(1+prime(n))^prime(n).",
+  "description": "a(n) = (1+prime(n))^prime(n).",
   "id": "A104127",
   "mentions": [
     "A000040",

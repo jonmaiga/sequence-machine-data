@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that Omega(k)^Omega(k) = Omega(k) (mod k) where Omega = A001222.",
+  "description": "Numbers k such that Omega(k)^Omega(k) == Omega(k) (mod k) where Omega = A001222.",
   "id": "A384369",
   "mentions": [
     "A000040",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1 + n + n^3 + n^5 + n^7 + n^9 + n^11 + ... + n^61 + n^63 is prime.",
+  "description": "Numbers k such that 1 + k + k^3 + k^5 + k^7 + k^9 + k^11 + ... + k^61 + k^63 is prime.",
   "id": "A124209",
   "mentions": [
     "A049407",

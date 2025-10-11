@@ -1,5 +1,5 @@
 {
-  "description": "J_4(n)/240.",
+  "description": "a(n) = J_4(n)/240.",
   "id": "A115002",
   "mentions": [
     "A115000"

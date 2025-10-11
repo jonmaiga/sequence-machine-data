@@ -1,5 +1,5 @@
 {
-  "description": "3*binomial(10*n+3,n)/(10*n+3).",
+  "description": "a(n) = 3*binomial(10*n+3,n)/(10*n+3).",
   "id": "A234526",
   "mentions": [
     "A000108",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

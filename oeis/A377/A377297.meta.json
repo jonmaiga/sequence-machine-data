@@ -2,6 +2,9 @@
   "description": "Decimal expansion of the smallest positive imaginary solution to Gamma(1+z) = Gamma(1-z).",
   "id": "A377297",
   "mentions": [
+    "A000796",
+    "A001620",
+    "A212880",
     "A377302"
   ],
   "tags": [

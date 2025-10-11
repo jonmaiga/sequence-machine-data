@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n)+3 divides n+3.",
+  "description": "Numbers k such that phi(k)+3 divides k+3.",
   "id": "A226104",
   "mentions": [
     "A000010",

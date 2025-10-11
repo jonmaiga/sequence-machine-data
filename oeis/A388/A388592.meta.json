@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 4 * (4+3 * sqrt(2)) * exp(-Pi).",
+  "id": "A388592",
+  "mentions": [
+    "A131123"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,21 +1,25 @@
 {
-  "description": "Distribution of A060642 in Abramowitz and Stegun order.",
+  "description": "Triangle T(n,k) read by rows: number of ordered lists of unordered partitions whose sums are given by the k-th partition of n listed in Abramowitz and Stegun order, 1 <= k <= A000041(n).",
   "id": "A119443",
   "mentions": [
     "A000041",
+    "A036036",
     "A048996",
+    "A055887",
     "A060642",
-    "A119441"
+    "A119441",
+    "A179314"
   ],
   "tags": [
     "easy",
     "formulas",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 66,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 3 * exp(Pi / 2) * Pi^2 * sqrt(2) / Gamma(3/4)^8.",
+  "id": "A389032",
+  "mentions": [
+    "A318937"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

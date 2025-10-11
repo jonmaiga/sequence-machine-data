@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of cos(Pi/23).",
+  "id": "A387444",
+  "mentions": [
+    "A019690"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

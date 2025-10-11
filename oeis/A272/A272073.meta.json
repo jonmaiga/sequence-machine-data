@@ -1,7 +1,9 @@
 {
-  "description": "Exponents of x in the numerator of cluster variables of rank 2 cluster algebras.",
+  "description": "Exponents of x in the numerator of cluster variables of a rank 2 cluster algebra.",
   "id": "A272073",
-  "mentions": [],
+  "mentions": [
+    "A143643"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 33,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

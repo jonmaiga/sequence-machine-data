@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (9 * sqrt((5+sqrt(5)) * Pi) * exp(Pi / 4)) / (32*5^(3/4) * Gamma(7/4)^2).",
+  "id": "A388676",
+  "mentions": [
+    "A159818"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

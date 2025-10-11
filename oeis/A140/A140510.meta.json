@@ -1,16 +1,18 @@
 {
-  "description": "Position of Catalan numbers in the EKG sequence.",
+  "description": "Position of the n-th Catalan number in the EKG sequence.",
   "id": "A140510",
   "mentions": [
     "A000108",
     "A064413"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

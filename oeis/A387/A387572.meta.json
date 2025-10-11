@@ -1,0 +1,13 @@
+{
+  "description": "a(n) is the length of the disturbed prefix after n steps of the iterative process defined in the Comments.",
+  "id": "A387572",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

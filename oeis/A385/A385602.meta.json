@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the minimum number of squares from which an n-fold totally concave polyomino (n-TCP) can be made.",
+  "id": "A385602",
+  "mentions": [
+    "A140811"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

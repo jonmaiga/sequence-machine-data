@@ -1,9 +1,11 @@
 {
-  "description": "Triangle read by rows: A054524*A140256.",
+  "description": "Triangle read by rows: T(n,k) = moebius(k)*A014963(n/k) if k divides n, T(n,k) = 0 otherwise.",
   "id": "A140699",
   "mentions": [
+    "A014963",
     "A054524",
     "A126988",
+    "A140254",
     "A140256",
     "A140700"
   ],
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 117,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

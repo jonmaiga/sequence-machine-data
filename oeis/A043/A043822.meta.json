@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that number of runs in the base 3 representation of n is congruent to 7 mod 10.",
+  "description": "Numbers k such that number of runs in the base 3 representation of k is congruent to 7 mod 10.",
   "id": "A043822",
   "mentions": [],
   "tags": [

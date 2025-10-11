@@ -2,6 +2,7 @@
   "description": "Minimal number of moves for the cyclic variant of Hanoi's tower for 4 pegs and n disks, with the final peg three steps away.",
   "id": "A338089",
   "mentions": [
+    "A289265",
     "A292764",
     "A338024"
   ],

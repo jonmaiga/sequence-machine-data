@@ -1,8 +1,9 @@
 {
-  "description": "A000012(signed) * A065941.",
+  "description": "Triangle read by rows: A000012(signed) * A065941 as infinite lower triangular matrices.",
   "id": "A131334",
   "mentions": [
     "A000012",
+    "A000045",
     "A065941",
     "A131332",
     "A131333",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

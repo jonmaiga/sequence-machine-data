@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/6) * exp(5*Pi/12) * sqrt(Pi) * 3^(1/4) / Gamma(3/4)^2.",
+  "id": "A388897",
+  "mentions": [
+    "A258832"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

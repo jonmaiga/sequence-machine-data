@@ -1,0 +1,16 @@
+{
+  "description": "Number of noncongruent points in a face-centered cubic lattice that intersect a sphere of radius n centered on a point in the lattice.",
+  "id": "A387222",
+  "mentions": [
+    "A386315",
+    "A387223"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

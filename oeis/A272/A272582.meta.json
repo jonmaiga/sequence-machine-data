@@ -2,7 +2,11 @@
   "description": "The number of strongly connected digraphs with n vertices and n+1 edges.",
   "id": "A272582",
   "mentions": [
-    "A057273"
+    "A001113",
+    "A001620",
+    "A057273",
+    "A091725",
+    "A099285"
   ],
   "tags": [
     "easy",

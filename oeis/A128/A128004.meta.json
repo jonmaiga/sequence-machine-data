@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (38^n - 1)/37 is prime.",
+  "description": "Numbers k such that (38^k - 1)/37 is prime.",
   "id": "A128004",
   "mentions": [],
   "tags": [

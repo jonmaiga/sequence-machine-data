@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n = p*q*r (p, q, r prime) congruent to 0 mod p+q+r.",
+  "description": "Numbers k = p*q*r (p, q, r prime) congruent to 0 mod p+q+r.",
   "id": "A160394",
   "mentions": [
     "A001359",

@@ -1,21 +1,25 @@
 {
-  "description": "The unrestricted partition statistic defined by A049085(n,k)+A036043(n,k)- 1.",
+  "description": "Irregular triangle: T(n,k) is the largest hook size of the k-th partition of n listed in Abramowitz and Stegun order, read by rows, 1 <= k <= A000041(n).",
   "id": "A179864",
   "mentions": [
     "A000041",
     "A036043",
     "A049085",
     "A105805",
-    "A179862"
+    "A179862",
+    "A185974",
+    "A252464",
+    "A325458"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

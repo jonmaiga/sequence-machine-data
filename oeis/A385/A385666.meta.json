@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of 2n-bead balanced bicolor necklaces that can be rotated into themselves in k different ways.",
+  "description": "Triangle read by rows: T(n,k) is the number of 2n-bead balanced binary necklaces with period length 2n/k.",
   "id": "A385666",
   "mentions": [
     "A003239",

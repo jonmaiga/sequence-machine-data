@@ -2,6 +2,8 @@
   "description": "Number of nondecreasing arrangements of n+2 numbers in 0..3 with the last equal to 3 and each after the second equal to the sum of one or two of the preceding three.",
   "id": "A190035",
   "mentions": [
+    "A016825",
+    "A073760",
     "A190041"
   ],
   "tags": [

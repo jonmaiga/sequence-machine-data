@@ -1,15 +1,17 @@
 {
-  "description": "Number of graceful labelings of the n-prism graph.",
+  "description": "Total number of graceful labelings of the n-prism graph.",
   "id": "A336677",
-  "mentions": [],
+  "mentions": [
+    "A387806"
+  ],
   "tags": [
-    "bref",
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 3,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

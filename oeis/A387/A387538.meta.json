@@ -1,0 +1,21 @@
+{
+  "description": "Indices of record high points in A387537.",
+  "id": "A387538",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A086560",
+    "A387535",
+    "A387536",
+    "A387537"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

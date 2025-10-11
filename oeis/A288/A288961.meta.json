@@ -2,6 +2,7 @@
   "description": "Number of 3-cycles in the n X n rook graph.",
   "id": "A288961",
   "mentions": [
+    "A004320",
     "A288960",
     "A288962",
     "A288963",

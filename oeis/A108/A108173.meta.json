@@ -2,10 +2,8 @@
   "description": "Let beta = A058265. Sequence gives a(n) = 1 + ceiling((n-1)*beta^2).",
   "id": "A108173",
   "mentions": [
-    "A000195",
     "A007066",
-    "A058265",
-    "A076662"
+    "A058265"
   ],
   "tags": [
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (33^n - 1)/32 is prime.",
+  "description": "Numbers k such that (33^k - 1)/32 is prime.",
   "id": "A209120",
   "mentions": [],
   "tags": [

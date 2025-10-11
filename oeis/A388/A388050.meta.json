@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^k * binomial(n,k) * binomial(4*n+1,k).",
+  "id": "A388050",
+  "mentions": [
+    "A387932",
+    "A388047",
+    "A388048",
+    "A388049"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

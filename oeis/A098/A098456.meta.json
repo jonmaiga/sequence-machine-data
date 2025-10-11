@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/sqrt(1-4x-64x^2).",
+  "description": "Expansion of 1/sqrt(1-4*x-64*x^2).",
   "id": "A098456",
   "mentions": [
     "A084770",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Integers k such that 511*2^k - 1 is prime.",
+  "id": "A387925",
+  "mentions": [
+    "A000043",
+    "A001771",
+    "A002235",
+    "A002237",
+    "A050541",
+    "A050557",
+    "A050589",
+    "A050886",
+    "A387926",
+    "A387927"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

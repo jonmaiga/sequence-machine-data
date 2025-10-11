@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{i=1..n} denominator(n^i/i).",
+  "description": "a(n) = Sum_{k=0..n} k / gcd(n^k, k).",
   "id": "A279911",
   "mentions": [
     "A072205",

@@ -1,0 +1,19 @@
+{
+  "description": "Powerful numbers whose number of powerful divisors is a square.",
+  "id": "A389498",
+  "mentions": [
+    "A001694",
+    "A005361",
+    "A389497",
+    "A389500"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

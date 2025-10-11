@@ -1,16 +1,12 @@
 {
-  "description": "Modified Sisyphus function of order 5.",
+  "description": "Modified Sisyphus function of order 5: a(n) is the concatenation of the number of digits in n with the number of digits of n congruent to k modulo 5 for each k from 0 to 4 in turn.",
   "id": "A375208",
   "mentions": [
-    "A055642",
     "A073053",
     "A171797",
     "A171798",
-    "A171813",
-    "A196563",
-    "A196564",
-    "A308002",
-    "A350709"
+    "A350709",
+    "A352751"
   ],
   "tags": [
     "base",
@@ -20,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

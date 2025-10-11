@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of steps to reach n again when the Sisyphus sequence (A350877) begins with n, or -1 if n is never reached.",
+  "id": "A388301",
+  "mentions": [
+    "A350877",
+    "A388038"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

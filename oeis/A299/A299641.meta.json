@@ -13,11 +13,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 57,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

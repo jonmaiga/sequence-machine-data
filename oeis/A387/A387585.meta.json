@@ -1,0 +1,15 @@
+{
+  "description": "Number of matchings in the n-Plummer-Toft graph.",
+  "id": "A387585",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

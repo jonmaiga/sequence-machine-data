@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = d(n) * gcd(n, sigma(n)), where d is the number of divisors function (A000005), and sigma is the sum of divisors.",
+  "id": "A388270",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A009194",
+    "A038040",
+    "A064840",
+    "A388268",
+    "A388269"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

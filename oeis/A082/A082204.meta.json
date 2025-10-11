@@ -2,6 +2,7 @@
   "description": "Begin with a 1, then place the smallest (as far as possible distinct) digits, such that, beginning from the n-th term, n terms form a palindrome.",
   "id": "A082204",
   "mentions": [
+    "A052901",
     "A082205",
     "A082206"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form pqrs+2 with p,q,r,s odd primes.",
+  "description": "Primes of the form p*q*r*s+2 with p,q,r,s odd primes.",
   "id": "A126711",
   "mentions": [
     "A000040",

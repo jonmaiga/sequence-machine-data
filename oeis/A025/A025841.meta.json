@@ -1,8 +1,10 @@
 {
-  "description": "Expansion of 1/((1-x^3)(1-x^6)(1-x^7)).",
+  "description": "Expansion of 1/((1-x^3)*(1-x^6)*(1-x^7)).",
   "id": "A025841",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

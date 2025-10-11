@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/68719476736) * exp(4 * Pi) * Pi^24 / Gamma(3/4)^96.",
+  "id": "A388404",
+  "mentions": [
+    "A035150"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

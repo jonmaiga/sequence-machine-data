@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A135311(k) = A008407(k).",
+  "id": "A388999",
+  "mentions": [
+    "A008407",
+    "A135311"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

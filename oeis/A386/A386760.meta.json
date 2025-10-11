@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the number of decimal digits of the Lucas number L(k) is greater than the number of decimal digits of the Fibonacci number F(k).",
+  "id": "A386760",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A055642",
+    "A060384",
+    "A097348",
+    "A386758"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

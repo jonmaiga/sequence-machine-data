@@ -2,6 +2,8 @@
   "description": "Where the prime race 4k-1 vs. 4k+1 changes leader.",
   "id": "A007350",
   "mentions": [
+    "A002144",
+    "A002145",
     "A005165",
     "A005596",
     "A007351",

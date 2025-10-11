@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the odd part of (1+k) divides (1 + odd part of A001615(k)), where A001615 is Dedekind's psi-function.",
+  "id": "A387415",
+  "mentions": [
+    "A000225",
+    "A000265",
+    "A001615",
+    "A004767",
+    "A336700",
+    "A387410",
+    "A387418",
+    "A387419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of cell turned \"ON\" at n-th stage of cellular automaton of A173456.",
+  "description": "Number of cells turned \"ON\" at n-th stage of cellular automaton of A173456.",
   "id": "A173457",
   "mentions": [
     "A000695",

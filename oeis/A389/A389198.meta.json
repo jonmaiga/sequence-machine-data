@@ -1,0 +1,20 @@
+{
+  "description": "Sum of unitary divisors of the numbers satisfying Euler's condition for odd perfect numbers: a(n) = A034448(A228058(n)).",
+  "id": "A389198",
+  "mentions": [
+    "A034448",
+    "A228058",
+    "A325377",
+    "A325823",
+    "A325824"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,11 @@
 {
   "description": "a(n) = (10*n + 4)^2.",
   "id": "A017318",
-  "mentions": [],
+  "mentions": [
+    "A016874",
+    "A016898",
+    "A017317"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

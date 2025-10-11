@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that the largest part is >= n/2 and if the partition has k parts then the smallest part is >= k.",
+  "id": "A387737",
+  "mentions": [
+    "A387735",
+    "A387736",
+    "A387738",
+    "A387739",
+    "A387740"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

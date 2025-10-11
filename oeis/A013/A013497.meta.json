@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. log(cosh(x)-log(x+1))= -x+1/2!*x^2+2/3!*x^3+5/4!*x^4-13/5!*x^5...",
+  "description": "Expansion of e.g.f. log(cosh(x)-log(x+1)).",
   "id": "A013497",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 24,
     "source": "joeis"
   }
 }

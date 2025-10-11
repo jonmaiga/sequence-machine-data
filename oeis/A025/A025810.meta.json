@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^5)(1-x^10)) in powers of x.",
+  "description": "Expansion of 1/((1-x^2)*(1-x^5)*(1-x^10)).",
   "id": "A025810",
   "mentions": [
     "A000008",

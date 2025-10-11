@@ -2,16 +2,18 @@
   "description": "a(n) = 3*binomial(2*n, n-1).",
   "id": "A062561",
   "mentions": [
+    "A001622",
     "A001791",
     "A029635"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

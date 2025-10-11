@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals, where the n-th row lists primes p such that p, p+x_1, ..., p+x_1+...+x_k are consecutive primes, where (x_1, ..., x_k) is the n-th composition corresponding to an admissible prime tuple pattern (see A387383).",
+  "id": "A387386",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A007530",
+    "A022004",
+    "A022005",
+    "A029710",
+    "A031924",
+    "A031926",
+    "A031928",
+    "A049437",
+    "A049438",
+    "A078562",
+    "A387383",
+    "A387384",
+    "A387387"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

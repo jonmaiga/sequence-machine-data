@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = gcd(n^k, k).",
+  "id": "A389101",
+  "mentions": [
+    "A000012",
+    "A000034",
+    "A006519",
+    "A010685",
+    "A010689",
+    "A028310",
+    "A038500",
+    "A060904",
+    "A065331",
+    "A089128",
+    "A109007",
+    "A389099",
+    "A389102"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

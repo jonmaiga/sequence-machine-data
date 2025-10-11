@@ -1,5 +1,5 @@
 {
-  "description": "Primes in the triangle defined by T(0,c)=1, T(1,c)=c, T(r,1)=1 and T(r,c) = T(r,c-1)+ c*(r-1)!.",
+  "description": "Primes in the triangle defined by T(0,c)=1, T(1,c)=c, T(r,1)=1 and T(r,c) = T(r,c-1) + c*(r-1)!.",
   "id": "A105071",
   "mentions": [],
   "tags": [

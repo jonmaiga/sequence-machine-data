@@ -2,12 +2,14 @@
   "description": "Fixed point of the mapping 00->0101, 1->10, starting with 00.",
   "id": "A288462",
   "mentions": [
+    "A080843",
     "A288463",
     "A288464",
     "A288465"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

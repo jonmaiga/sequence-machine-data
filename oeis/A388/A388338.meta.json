@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 4 * exp(-19*Pi/24) * 2^(3/8).",
+  "id": "A388338",
+  "mentions": [
+    "A022614"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

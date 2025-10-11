@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically earliest sequence, where a(n+1) - a(n) is unique and if a(i) = a(n+1), i <= n, then the minimal n+1 - i is also unique.",
+  "id": "A389308",
+  "mentions": [
+    "A025480"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

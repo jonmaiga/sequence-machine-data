@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (n-i)^k * (n+i)^(n-k), where i is the imaginary unit.",
+  "id": "A387459",
+  "mentions": [
+    "A387430"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

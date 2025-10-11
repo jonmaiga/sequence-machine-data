@@ -1,14 +1,20 @@
 {
   "description": "a(n) = (10*n + 6)^4.",
   "id": "A017344",
-  "mentions": [],
+  "mentions": [
+    "A016864",
+    "A016888",
+    "A017341",
+    "A017342"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

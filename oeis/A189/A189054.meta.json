@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f. exp(x/sqrt(1-4*x^2)).",
+  "description": "Expansion of e.g.f. exp(x/sqrt(1-4*x^2)).",
   "id": "A189054",
-  "mentions": [],
+  "mentions": [
+    "A012150"
+  ],
   "tags": [
     "formulas",
     "nonn"

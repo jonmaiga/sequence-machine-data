@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^16 / Pi^4.",
+  "id": "A388152",
+  "mentions": [
+    "A004417"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

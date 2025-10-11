@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = largest k such that, starting at n, the k pairs (n,n+1), (n+1,n+2), ... (n+k-1,n+k) have the \"Distinct Prime Exponents\" (DPE) property.",
+  "id": "A387527",
+  "mentions": [
+    "A140104",
+    "A359749",
+    "A387528",
+    "A387529",
+    "A387530",
+    "A387531",
+    "A388967"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

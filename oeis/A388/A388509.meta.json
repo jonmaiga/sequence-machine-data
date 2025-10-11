@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of -(3/16) * exp(Pi) * Pi^2 * Gamma(11/12)^10 * Gamma(7/12)^6 * (-7+4*3^(1/2)) / Gamma(2/3)^4 / Gamma(3/4)^16.",
+  "id": "A388509",
+  "mentions": [
+    "A107653"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

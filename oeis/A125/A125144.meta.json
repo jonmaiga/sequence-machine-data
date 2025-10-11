@@ -2,6 +2,7 @@
   "description": "Increments in the number of decimal digits of 4^n.",
   "id": "A125144",
   "mentions": [
+    "A055642",
     "A125117",
     "A125122",
     "A210434"

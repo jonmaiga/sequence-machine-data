@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the sum of the reciprocals of the Dodecagonal numbers (A051624).",
+  "description": "Decimal expansion of the sum of the reciprocals of the 12-gonal (or dodecagonal) numbers (A051624).",
   "id": "A244649",
   "mentions": [
     "A000038",
@@ -23,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

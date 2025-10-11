@@ -1,5 +1,5 @@
 {
-  "description": "Odd integers such that phi(n)/n < 6/Pi^2 where phi = A000010.",
+  "description": "Odd integers k such that phi(k)/k < 6/Pi^2 where phi = A000010.",
   "id": "A079814",
   "mentions": [
     "A000010",

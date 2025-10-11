@@ -1,0 +1,15 @@
+{
+  "description": "Number of maximum matchings in the n-Cameron graph.",
+  "id": "A387596",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

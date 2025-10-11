@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = (10*n+2)^2.",
+  "description": "a(n) = (10*n + 2)^2.",
   "id": "A017294",
   "mentions": [
     "A016861",
+    "A016874",
     "A017293"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

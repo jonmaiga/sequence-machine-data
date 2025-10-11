@@ -2,6 +2,9 @@
   "description": "For m=1,2,3,... write all the 2^m binary vectors of length m in increasing order, and replace each vector with (number of 1's) - (number of 0's). Start with an initial 0 for the empty vector.",
   "id": "A274575",
   "mentions": [
+    "A000120",
+    "A008687",
+    "A023416",
     "A037861"
   ],
   "tags": [

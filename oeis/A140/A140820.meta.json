@@ -2,17 +2,16 @@
   "description": "Triangle read by rows: T(n,k) = 1 if and only if the Gray codes for n and k have no bits in common.",
   "id": "A140820",
   "mentions": [
-    "A014550",
-    "A131218"
+    "A131218",
+    "A140280"
   ],
   "tags": [
-    "formulas",
     "less",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 105,
     "source": "oeis-bfile"
   }

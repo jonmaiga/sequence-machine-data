@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2 * exp(-Pi/6) * sqrt(2) * Gamma(3/4)^4 / Pi.",
+  "id": "A388351",
+  "mentions": [
+    "A023003"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

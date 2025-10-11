@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number that occurs exactly n times in A075255.",
+  "id": "A385964",
+  "mentions": [
+    "A075255",
+    "A388132"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

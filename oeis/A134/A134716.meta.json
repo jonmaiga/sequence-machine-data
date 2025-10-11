@@ -2,6 +2,7 @@
   "description": "a(n) = least number m such that sigma(m)/m > n, where sigma(m) = sum of divisors of m.",
   "id": "A134716",
   "mentions": [
+    "A000203",
     "A023199"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

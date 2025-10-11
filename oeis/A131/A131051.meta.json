@@ -1,11 +1,12 @@
 {
-  "description": "Row sums of triangle A133805.",
+  "description": "a(n) = 5*2^(n-2) - 2 for n > 1, with a(1) = 1.",
   "id": "A131051",
   "mentions": [
     "A051633",
     "A053209",
     "A083329",
-    "A133805"
+    "A133805",
+    "A133807"
   ],
   "tags": [
     "easy",

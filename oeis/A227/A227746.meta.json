@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X(n+1) binary array having determinant equal to one.",
+  "description": "Number of n X n 0,1 arrays indicating 2 X 2 subblocks of some larger (n+1) X (n+1) binary array having determinant equal to one.",
   "id": "A227746",
   "mentions": [
     "A227751"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

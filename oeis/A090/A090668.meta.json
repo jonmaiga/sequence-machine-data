@@ -1,11 +1,12 @@
 {
-  "description": "a(n)=[prime(n)*(n-pi(n))/(pi(n)+1)], where pi=A000720, [x]=floor(x).",
+  "description": "a(n) = floor( prime(n)*(n-pi(n))/(pi(n)+1) ) where pi=A000720.",
   "id": "A090668",
   "mentions": [
     "A000720"
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

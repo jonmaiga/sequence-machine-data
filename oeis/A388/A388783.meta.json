@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/128) * Pi^3 * sqrt(2) / Gamma(3/4)^12.",
+  "id": "A388783",
+  "mentions": [
+    "A225912"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

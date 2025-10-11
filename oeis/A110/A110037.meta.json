@@ -2,6 +2,7 @@
   "description": "Signed version of A090678 and congruent to A088567 mod 2.",
   "id": "A110037",
   "mentions": [
+    "A073089",
     "A088567",
     "A090678",
     "A110036"

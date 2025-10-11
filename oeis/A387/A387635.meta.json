@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} binomial(2*n, k)^2.",
+  "id": "A387635",
+  "mentions": [
+    "A002894",
+    "A036910",
+    "A071799",
+    "A218708"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

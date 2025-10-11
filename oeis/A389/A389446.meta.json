@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(sigma(n), A057723(n)), where A057723 is sum of positive divisors of n that are divisible by every prime that divides n and sigma is the sum of divisors function.",
+  "id": "A389446",
+  "mentions": [
+    "A000203",
+    "A057723",
+    "A308135",
+    "A389447",
+    "A389448"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

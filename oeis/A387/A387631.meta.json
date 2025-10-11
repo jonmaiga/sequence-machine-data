@@ -1,0 +1,15 @@
+{
+  "description": "Sombor energy of the n-triangular honeycomb queen graph divided by sqrt(2).",
+  "id": "A387631",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = C(n)*(9n+1) where C(n)=Catalan numbers (A000108).",
+  "description": "a(n) = C(n)*(9*n + 1) where C(n) = Catalan numbers (A000108).",
   "id": "A050479",
   "mentions": [
     "A000108",
+    "A000984",
+    "A001791",
     "A017077",
     "A051945",
     "A330965"

@@ -1,5 +1,5 @@
 {
-  "description": "A002110(n) mod A000217(n).",
+  "description": "a(n) = A002110(n) mod A000217(n).",
   "id": "A226734",
   "mentions": [
     "A000217",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of Kimberling's paraphrases (A003602) with squarefree part of n (A007913).",
+  "description": "Dirichlet convolution of Kimberling's paraphrase, A003602, with squarefree part of n (A007913).",
   "id": "A349374",
   "mentions": [
     "A003602",

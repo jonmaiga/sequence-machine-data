@@ -1,12 +1,12 @@
 {
-  "description": "Partial sums of floor(e^n).",
+  "description": "Partial sums of A000149.",
   "id": "A117869",
   "mentions": [
     "A000149"
   ],
   "tags": [
     "easy",
-    "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

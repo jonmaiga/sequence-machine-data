@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^4)(1-x^5)(1-x^6)).",
+  "description": "Expansion of 1/((1-x^2)*(1-x^4)*(1-x^5)*(1-x^6)).",
   "id": "A029171",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 56,
+    "size": 79,
     "source": "joeis"
   }
 }

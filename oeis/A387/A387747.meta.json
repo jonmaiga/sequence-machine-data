@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/4) * Sum_{k=0..n-1} binomial(6*n,6*k+3).",
+  "id": "A387747",
+  "mentions": [
+    "A070967",
+    "A387745",
+    "A387746"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

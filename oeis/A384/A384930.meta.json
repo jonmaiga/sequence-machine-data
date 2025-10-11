@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) is the sum of the terms of the (n-k+1)st sublist of divisors of n whose terms increase by a factor of at most 2, with n >= 1, k >= 1.",
+  "description": "Irregular triangle read by rows: T(n,k) is the sum of the terms of the (n-k+1)-th 2-dense sublist of divisors of n, with n >= 1, k >= 1.",
   "id": "A384930",
   "mentions": [
     "A000005",

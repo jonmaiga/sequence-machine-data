@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that floor(Pi^n) is prime.",
+  "description": "Numbers k such that floor(Pi^k) is prime.",
   "id": "A059792",
   "mentions": [
     "A077547",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

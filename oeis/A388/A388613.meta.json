@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (2*2^(3/4) * sqrt((2+sqrt(2)) / Pi) * Gamma(5/4)^2) / Pi.",
+  "id": "A388613",
+  "mentions": [
+    "A133692"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

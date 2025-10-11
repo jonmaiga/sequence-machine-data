@@ -2,6 +2,7 @@
   "description": "a(n) is the least k with sigma(k) >= n*k.",
   "id": "A023199",
   "mentions": [
+    "A000203",
     "A004394",
     "A007539",
     "A034386",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

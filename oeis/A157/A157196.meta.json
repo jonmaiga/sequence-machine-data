@@ -3,15 +3,18 @@
   "id": "A157196",
   "mentions": [
     "A000002",
+    "A014577",
     "A157129",
-    "A336810"
+    "A336810",
+    "A387398"
   ],
   "tags": [
+    "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

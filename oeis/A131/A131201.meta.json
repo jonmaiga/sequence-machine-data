@@ -1,10 +1,13 @@
 {
   "description": "Period 24: repeat [0,1,2,5,2,9,0,9,8,5,8,1,0,-1,-2,-5,-2,-9,0,-9,-8,-5,-8,-1].",
   "id": "A131201",
-  "mentions": [],
+  "mentions": [
+    "A131711"
+  ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "sign"
   ],
   "terms": {

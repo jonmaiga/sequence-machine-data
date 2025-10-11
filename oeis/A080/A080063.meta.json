@@ -1,5 +1,5 @@
 {
-  "description": "n mod (spf(n)+1), where spf(n) is the smallest prime dividing n (A020639).",
+  "description": "a(n) = n mod (spf(n)+1), where spf(n) is the smallest prime dividing n (A020639).",
   "id": "A080063",
   "mentions": [
     "A000040",
@@ -21,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 96,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

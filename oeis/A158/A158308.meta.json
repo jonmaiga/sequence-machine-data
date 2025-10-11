@@ -1,5 +1,5 @@
 {
-  "description": "361n - 1.",
+  "description": "a(n) = 361*n - 1.",
   "id": "A158308",
   "mentions": [
     "A158307"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

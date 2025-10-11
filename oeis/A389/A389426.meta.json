@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that k*(n-k) + 1 is prime, or -1 if there is no such k.",
+  "id": "A389426",
+  "mentions": [
+    "A098090",
+    "A109905",
+    "A383636"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

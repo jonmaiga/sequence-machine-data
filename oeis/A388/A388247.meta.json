@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (1/2) * exp(5*Pi/24) * 2^(3/8).",
+  "id": "A388247",
+  "mentions": [
+    "A022570"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

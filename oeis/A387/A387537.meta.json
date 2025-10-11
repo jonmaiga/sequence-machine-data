@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = maximum k such that B(n) < B(n+1) < ... < B(n+k-1), where B = omega (A001221).",
+  "id": "A387537",
+  "mentions": [
+    "A001221",
+    "A387535",
+    "A387536",
+    "A387538"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

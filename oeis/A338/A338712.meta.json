@@ -2,6 +2,7 @@
   "description": "Numbers with all digits equal and from the set {1, 3, 7, 9}.",
   "id": "A338712",
   "mentions": [
+    "A065444",
     "A090287",
     "A338366"
   ],

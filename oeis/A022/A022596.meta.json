@@ -2,7 +2,8 @@
   "description": "Expansion of Product_{m>=1} (1+q^m)^32.",
   "id": "A022596",
   "mentions": [
-    "A286335"
+    "A286335",
+    "A388322"
   ],
   "tags": [
     "formulas",

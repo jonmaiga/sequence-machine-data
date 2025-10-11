@@ -1,0 +1,20 @@
+{
+  "description": "Number of incongruent integer-sided triangles with sides a,b,c, a",
+  "id": "A024162",
+  "mentions": [
+    "A005044",
+    "A024161",
+    "A051493"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

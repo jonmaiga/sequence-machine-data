@@ -1,10 +1,9 @@
 {
-  "description": "Difference between 3-almostprime(n) and 3-almostprime(n+2).",
+  "description": "a(n) = A014612(n+2) - A014612(n).",
   "id": "A110934",
   "mentions": [
     "A014612",
     "A031131",
-    "A067813",
     "A113784",
     "A113789",
     "A114403"
@@ -12,11 +11,12 @@
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

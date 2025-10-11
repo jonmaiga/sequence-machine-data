@@ -1,9 +1,13 @@
 {
   "description": "Bouton numbers: a(n) is the number of P positions in games of Nim with three nonzero heaps each containing at most n sticks.",
   "id": "A363166",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A063915"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which A389461(k) is a positive multiple of (k-A075423(k)).",
+  "id": "A389463",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A007947",
+    "A075423",
+    "A087248",
+    "A389460",
+    "A389461",
+    "A389462"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

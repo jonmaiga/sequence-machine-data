@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (1/24) * ( log(1 + x) / (1 - x) )^4.",
+  "id": "A389003",
+  "mentions": [
+    "A000454",
+    "A001719",
+    "A024167",
+    "A389001",
+    "A389002"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 21,
+    "source": "joeis"
+  }
+}

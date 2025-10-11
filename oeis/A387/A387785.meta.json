@@ -1,0 +1,23 @@
+{
+  "description": "Upper (2/3)-midsequence of (F(2n)) and (F(2n+1)), where F=A000045 (Fibonacci numbers); see Comments.",
+  "id": "A387785",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A056594",
+    "A387778",
+    "A387782",
+    "A387783",
+    "A387784"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

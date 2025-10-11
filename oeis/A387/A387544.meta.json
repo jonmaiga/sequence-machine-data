@@ -1,0 +1,17 @@
+{
+  "description": "Even terms of A386482, halved, in order of occurrence.",
+  "id": "A387544",
+  "mentions": [
+    "A386482",
+    "A387558"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

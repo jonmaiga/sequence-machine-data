@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of [x^(2n+1)] in the Taylor series arccos(cot(x)*arcsinh(x))= x-x^3/15 +4*x^5/75 -2098*x^7/70875 +2969*x^9/141750 -35380322*x^11/2280403125 +...",
+  "description": "Numerator of [x^(2n+1)] in the Taylor series arccos(cot(x)*arcsinh(x)).",
   "id": "A012869",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "joeis"
   }
 }

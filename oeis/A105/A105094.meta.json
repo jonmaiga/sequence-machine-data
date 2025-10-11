@@ -1,7 +1,9 @@
 {
   "description": "Expansion of 8 * (eta(q^2) / eta(q)^2)^8 in powers of q.",
   "id": "A105094",
-  "mentions": [],
+  "mentions": [
+    "A388500"
+  ],
   "tags": [
     "easy",
     "formulas",

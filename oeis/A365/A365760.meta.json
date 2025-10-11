@@ -1,7 +1,11 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x*A(x)*(1 + x^4*A(x)^5).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)*(1 + x^4*A(x)^5).",
   "id": "A365760",
   "mentions": [
+    "A000108",
+    "A006318",
+    "A063019",
+    "A215340",
     "A364472",
     "A364523",
     "A365758",

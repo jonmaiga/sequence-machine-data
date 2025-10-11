@@ -1,16 +1,18 @@
 {
-  "description": "Numbers for which there is at least one 3-smooth representation that is special of level k.",
+  "description": "Odd numbers >1 for which there is at least one 3-smooth representation that is special of level k, including repeats if there are multiple representations.",
   "id": "A226383",
   "mentions": [
     "A003586",
-    "A213539"
+    "A116641",
+    "A213539",
+    "A348175"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

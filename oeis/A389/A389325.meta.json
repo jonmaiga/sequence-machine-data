@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n,k) * binomial(n+k-1,n-2*k).",
+  "id": "A389325",
+  "mentions": [
+    "A246437",
+    "A378405",
+    "A389246",
+    "A389324",
+    "A389326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

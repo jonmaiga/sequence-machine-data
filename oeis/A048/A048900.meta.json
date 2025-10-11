@@ -2,6 +2,8 @@
   "description": "Heptagonal pentagonal numbers.",
   "id": "A048900",
   "mentions": [
+    "A000326",
+    "A000566",
     "A046198",
     "A046199"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-bfile"
   }
 }

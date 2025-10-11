@@ -1,13 +1,15 @@
 {
-  "description": "A positive integer k is included if neither k-1 nor k+1 have any of the same prime-factorization exponents as k has.",
+  "description": "A positive integer k>1 is included if neither k-1 nor k+1 have any of the same prime-factorization exponents as k has.",
   "id": "A140104",
-  "mentions": [],
+  "mentions": [
+    "A387530"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
-    "source": "oeis-entry"
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

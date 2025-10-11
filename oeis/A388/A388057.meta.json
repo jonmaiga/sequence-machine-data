@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of distinct positive integers built as follows: for n = 1, 2, ..., if a(n) has not yet been determined, let b be the least base >= 2 such that the base-b expansion of n, when read backwards, corresponds to that of an integer, say r, not yet in the sequence and the base-b expansion of r, when read backwards, corresponds to that of n; then a(n) = r and a(r) = n.",
+  "id": "A388057",
+  "mentions": [
+    "A004086",
+    "A030101",
+    "A030102"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

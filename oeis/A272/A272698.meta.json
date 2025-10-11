@@ -1,7 +1,10 @@
 {
   "description": "Powers of 2 with exactly one even decimal digit.",
   "id": "A272698",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A068994"
+  ],
   "tags": [
     "base",
     "nonn"

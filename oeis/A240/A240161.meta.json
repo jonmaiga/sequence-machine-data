@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (k!-n)/k is prime for some k.",
+  "description": "Numbers m such that (k! - m)/k is prime for some k.",
   "id": "A240161",
   "mentions": [
     "A240160",

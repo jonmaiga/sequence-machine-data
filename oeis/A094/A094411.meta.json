@@ -2,6 +2,9 @@
   "description": "Composite numbers k that divide both Fibonacci(k+1) and Fibonacci(k) + 1.",
   "id": "A094411",
   "mentions": [
+    "A000032",
+    "A000045",
+    "A002808",
     "A069107",
     "A094395",
     "A094401",

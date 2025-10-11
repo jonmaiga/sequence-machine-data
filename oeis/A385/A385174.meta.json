@@ -1,0 +1,17 @@
+{
+  "description": "Indices k such that P(k-1) < Q(n) <= P(k), where primorial P = A002110 and superprimorial Q = A006939.",
+  "id": "A385174",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006939"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling of GAMMA(n+3/4)/GAMMA(3/4).",
+  "description": "Ceiling of Gamma(n+3/4)/Gamma(3/4).",
   "id": "A020131",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "joeis"
   }
 }

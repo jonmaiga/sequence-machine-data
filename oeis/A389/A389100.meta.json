@@ -1,0 +1,18 @@
+{
+  "description": "Elements of a non-singleton interval of natural numbers whose product is divisible by the square of the largest prime factor of the product.",
+  "id": "A389100",
+  "mentions": [
+    "A070003",
+    "A387054",
+    "A388654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

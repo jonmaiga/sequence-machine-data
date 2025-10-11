@@ -1,0 +1,18 @@
+{
+  "description": "Arithmetic mean of number of lattice points strictly inside circle of radius n centered on origin, and number of points not outside that circle.",
+  "id": "A387220",
+  "mentions": [
+    "A000328",
+    "A051132",
+    "A256465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

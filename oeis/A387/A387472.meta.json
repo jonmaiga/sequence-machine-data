@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the sum of the first k digits of e is divisible by k.",
+  "id": "A387472",
+  "mentions": [
+    "A001113",
+    "A046975",
+    "A098934"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

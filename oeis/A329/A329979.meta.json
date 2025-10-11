@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers which can be represented as p^i * q^j - (p + q) where p and q are odd primes and i,j > 0.",
+  "description": "Prime numbers which can be represented as p^i * q^j - (p + q) where p and q are distinct odd primes and i,j > 0.",
   "id": "A329979",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

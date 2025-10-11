@@ -2,7 +2,8 @@
   "description": "Smallest number whose reciprocal fits in the square-root gap of consecutive primes.",
   "id": "A079636",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A252477"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 81,
+    "source": "oeis-bfile"
   }
 }

@@ -2,9 +2,11 @@
   "description": "Expansion of Product_{m>=1} 1/(1-x^m)^48.",
   "id": "A082558",
   "mentions": [
-    "A144064"
+    "A144064",
+    "A388466"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -8,12 +8,13 @@
     "A071722"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 27,
     "source": "joeis"
   }
 }

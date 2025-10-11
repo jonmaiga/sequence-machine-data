@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (8+6 * sqrt(2))^(1/8) * exp(-Pi/8).",
+  "id": "A388564",
+  "mentions": [
+    "A116498"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

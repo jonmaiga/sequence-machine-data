@@ -1,10 +1,11 @@
 {
-  "description": "Magic numbers from Smale’s 7th problem.",
+  "description": "Magic numbers from Smale's 7th problem.",
   "id": "A227416",
   "mentions": [
     "A018226"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

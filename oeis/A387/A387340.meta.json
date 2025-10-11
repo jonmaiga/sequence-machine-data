@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^k * binomial(n+3,k) * binomial(n+3,k+3).",
+  "id": "A387340",
+  "mentions": [
+    "A002696",
+    "A069835",
+    "A331792",
+    "A387338",
+    "A387339"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

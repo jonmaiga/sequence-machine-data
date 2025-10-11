@@ -1,0 +1,16 @@
+{
+  "description": "Number of dominating sets in the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A387435",
+  "mentions": [
+    "A115098",
+    "A368456"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

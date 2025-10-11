@@ -1,0 +1,40 @@
+{
+  "description": "Number of integer compositions of n with no maximal runs of the form (k)^k for any k.",
+  "id": "A389508",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A003242",
+    "A005811",
+    "A008965",
+    "A011782",
+    "A032020",
+    "A066099",
+    "A070211",
+    "A098124",
+    "A098504",
+    "A124767",
+    "A175342",
+    "A238130",
+    "A238279",
+    "A276429",
+    "A301503",
+    "A325130",
+    "A325551",
+    "A333489",
+    "A333755",
+    "A365676",
+    "A389530",
+    "A389531",
+    "A389532"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

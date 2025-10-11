@@ -1,15 +1,17 @@
 {
-  "description": "Number of graceful labelings of the n-sun graph.",
+  "description": "Total number of graceful labelings of the n-sun graph.",
   "id": "A337792",
-  "mentions": [],
+  "mentions": [
+    "A387807"
+  ],
   "tags": [
-    "bref",
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 3,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Number of partitions of 2*n + 1 into parts of two kinds.",
   "id": "A100535",
   "mentions": [
-    "A000712"
+    "A000712",
+    "A388495"
   ],
   "tags": [
     "formulas",

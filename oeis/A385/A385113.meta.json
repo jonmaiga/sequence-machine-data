@@ -1,0 +1,35 @@
+{
+  "description": "a(1) = 0, a(n) = 1 + 2*[omega(n) > 1] + [bigomega(n) > omega(n)], Iverson brackets, where omega = A001221 and bigomega = A001222.",
+  "id": "A385113",
+  "mentions": [
+    "A000040",
+    "A000941",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A008966",
+    "A010051",
+    "A010055",
+    "A010551",
+    "A013929",
+    "A024619",
+    "A120944",
+    "A126706",
+    "A246547",
+    "A246655",
+    "A268340",
+    "A354819",
+    "A355447",
+    "A388303"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

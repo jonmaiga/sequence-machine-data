@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1. a(n) = number of terms among the first (n-1) terms of the sequence which are coprime to n(n+1)/2.",
+  "description": "a(1)=1. a(n) = number of terms among the first (n-1) terms of the sequence which are coprime to n*(n+1)/2.",
   "id": "A119989",
   "mentions": [
     "A123953"

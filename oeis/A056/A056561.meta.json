@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + n + 41 is prime.",
+  "description": "Numbers n such that n^2 + n + 41 (known as Euler's polynomial) is prime.",
   "id": "A056561",
   "mentions": [
     "A002837",

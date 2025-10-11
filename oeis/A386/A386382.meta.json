@@ -1,0 +1,18 @@
+{
+  "description": "Total number of runs in all heapable permutations of length n.",
+  "id": "A386382",
+  "mentions": [
+    "A336282",
+    "A388136",
+    "A388139"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

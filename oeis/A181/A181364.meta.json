@@ -2,10 +2,14 @@
   "description": "Fibonacci numbers whose digits, when squared, sum to a prime.",
   "id": "A181364",
   "mentions": [
-    "A065398"
+    "A000045",
+    "A065398",
+    "A108662",
+    "A178838"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

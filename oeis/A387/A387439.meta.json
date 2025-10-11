@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (2*n + 1)*(12 + 11*n + 93*n^2 + 4*n^3)/3.",
+  "id": "A387439",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

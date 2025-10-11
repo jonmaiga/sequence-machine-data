@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = (6n + 4)^2.",
+  "description": "a(n) = (6*n + 4)^2.",
   "id": "A016958",
   "mentions": [
+    "A016778",
+    "A016790",
     "A016957",
     "A086730"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 40,
     "source": "joeis"
   }
 }

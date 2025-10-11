@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of A000265 (odd part of n) with A349134 (Dirichlet inverse of Kimberling's paraphrases).",
+  "description": "Dirichlet convolution of A000265 (odd part of n) with A349134.",
   "id": "A349448",
   "mentions": [
     "A000265",

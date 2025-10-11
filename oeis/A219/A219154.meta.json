@@ -1,5 +1,5 @@
 {
-  "description": "Unchanging value maps: number of nX6 binary arrays indicating the locations of corresponding elements unequal to no horizontal, antidiagonal or vertical neighbor in a random 0..1 nX6 array.",
+  "description": "Unchanging value maps: number of n X 6 binary arrays indicating the locations of corresponding elements unequal to no horizontal, antidiagonal or vertical neighbor in a random 0..1 n X 6 array.",
   "id": "A219154",
   "mentions": [
     "A219156"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

@@ -1,15 +1,18 @@
 {
-  "description": "(1/2)*T(2n,n), T given by A026907.",
+  "description": "a(n) = (1/2)*A026907(2*n, n).",
   "id": "A026909",
   "mentions": [
-    "A026907"
+    "A000108",
+    "A026907",
+    "A026908"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "joeis"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

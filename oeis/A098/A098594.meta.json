@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!-1 and n!+1 are both semiprime.",
+  "description": "Numbers k such that k!-1 and k!+1 are both semiprime.",
   "id": "A098594",
   "mentions": [
     "A078778",

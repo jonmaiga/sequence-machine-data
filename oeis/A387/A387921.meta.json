@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least number k such that A005704(k) is divisible by prime(n).",
+  "id": "A387921",
+  "mentions": [
+    "A005704"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

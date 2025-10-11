@@ -8,12 +8,13 @@
     "A122045"
   ],
   "tags": [
-    "more",
+    "formulas",
+    "hard",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

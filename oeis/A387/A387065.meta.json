@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the value of the Riemann zeta function at 2nd extremum (negated).",
+  "id": "A387065",
+  "mentions": [
+    "A271855",
+    "A271856",
+    "A387052"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

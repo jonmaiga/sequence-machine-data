@@ -1,0 +1,23 @@
+{
+  "description": "Ordered hypotenuses of Pythagorean triples that do not have the form (u^2 - v^2, 2*u*v, u^2 + v^2), where u and v are positive integers.",
+  "id": "A386307",
+  "mentions": [
+    "A009000",
+    "A020882",
+    "A101930",
+    "A366428",
+    "A380072",
+    "A386308",
+    "A386309",
+    "A386943"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

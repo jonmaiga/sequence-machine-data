@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least base b >= 2 such that the base-b representation of n is the base-10 representation of a prime.",
+  "id": "A388299",
+  "mentions": [
+    "A036952",
+    "A052026",
+    "A052033",
+    "A386929",
+    "A388300"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

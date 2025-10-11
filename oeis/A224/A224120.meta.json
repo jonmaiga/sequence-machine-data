@@ -1,10 +1,11 @@
 {
-  "description": "Number of idempotent 6X6 0..n matrices of rank 4.",
+  "description": "Number of idempotent 6 X 6 0..n matrices of rank 4.",
   "id": "A224120",
   "mentions": [
     "A224118"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

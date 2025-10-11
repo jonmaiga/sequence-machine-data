@@ -1,15 +1,16 @@
 {
-  "description": "Number of (n+2)X(n+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 0 2 4 5 7 or 9.",
+  "description": "Number of (n+2) X (n+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 0 2 4 5 7 or 9.",
   "id": "A251644",
   "mentions": [
     "A251652"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

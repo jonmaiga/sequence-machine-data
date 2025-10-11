@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (1/2) * ( log(1 + x) / (1 - x) )^2.",
+  "id": "A389001",
+  "mentions": [
+    "A000254",
+    "A001706",
+    "A024167",
+    "A389002",
+    "A389003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 23,
+    "source": "joeis"
+  }
+}

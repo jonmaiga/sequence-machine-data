@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-step closed walks on the kagomé lattice.",
+  "description": "Number of n-step closed walks on kagome lattice.",
   "id": "A338672",
   "mentions": [
     "A001665",

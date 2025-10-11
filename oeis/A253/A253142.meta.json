@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + 15 and n^2 + 15 are prime.",
+  "description": "Numbers k such that k + 15 and k^2 + 15 are prime.",
   "id": "A253142",
   "mentions": [
     "A086303",

@@ -1,5 +1,5 @@
 {
-  "description": "Greedy frac multiples of Pi: a(1)=1, Sum_{n>=1} frac(a(n)*x) = 1 at x = Pi.",
+  "description": "Greedy frac multiples of Pi: a(1)=1, Sum_{n>=1} frac(a(n)*Pi) = 1.",
   "id": "A079938",
   "mentions": [
     "A002486",

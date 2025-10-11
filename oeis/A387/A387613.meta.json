@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that A386482(k) and A386482(k+2) are coprime.",
+  "id": "A387613",
+  "mentions": [
+    "A386482",
+    "A387087"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

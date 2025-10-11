@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (729/64) * Pi^6 / Gamma(3/4)^24.",
+  "id": "A388209",
+  "mentions": [
+    "A008662"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

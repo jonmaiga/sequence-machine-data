@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of cos(Pi/22).",
+  "id": "A387443",
+  "mentions": [
+    "A019689",
+    "A387440"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

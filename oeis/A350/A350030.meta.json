@@ -1,7 +1,8 @@
 {
-  "description": "a(n) is the number of n-celled unholey treelike polyominoes.",
+  "description": "a(n) is the number of free n-celled unholey treelike polyominoes.",
   "id": "A350030",
   "mentions": [
+    "A006725",
     "A131482",
     "A308300"
   ],

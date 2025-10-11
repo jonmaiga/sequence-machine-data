@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (15/16) * Pi^3 / Gamma(3/4)^12.",
+  "id": "A388175",
+  "mentions": [
+    "A006914"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

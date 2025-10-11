@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 12*x - 4*x^2).",
+  "id": "A387428",
+  "mentions": [
+    "A386621"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

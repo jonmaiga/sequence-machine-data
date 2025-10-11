@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} 2^k * binomial(2*n-6*k,2*k).",
+  "id": "A387623",
+  "mentions": [
+    "A001541",
+    "A108480",
+    "A387622",
+    "A387626",
+    "A387629"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

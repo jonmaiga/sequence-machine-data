@@ -1,14 +1,17 @@
 {
   "description": "Generalized nim sum n + n in base 8.",
   "id": "A004518",
-  "mentions": [],
+  "mentions": [
+    "A389424"
+  ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 60,
-    "source": "joeis"
+    "size": 68,
+    "source": "oeis-bfile"
   }
 }

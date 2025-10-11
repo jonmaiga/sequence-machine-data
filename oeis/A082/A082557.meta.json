@@ -2,9 +2,11 @@
   "description": "G.f.: Product_{m>=1} 1/(1-x^m)^32.",
   "id": "A082557",
   "mentions": [
-    "A144064"
+    "A144064",
+    "A388465"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

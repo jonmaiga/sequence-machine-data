@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of sqrt((1-x) / (1-5*x)^5).",
+  "id": "A387228",
+  "mentions": [
+    "A085362",
+    "A163869",
+    "A377199",
+    "A387229",
+    "A387230"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

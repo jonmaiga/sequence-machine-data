@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that string 8,5 occurs in the base 9 representation of n but not of n-1.",
+  "description": "Numbers k such that the string 8,5 occurs in the base 9 representation of k but not of k-1.",
   "id": "A044328",
   "mentions": [
+    "A007095",
     "A044709"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 46,
-    "source": "joeis"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

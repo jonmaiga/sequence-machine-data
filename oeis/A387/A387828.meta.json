@@ -1,0 +1,17 @@
+{
+  "description": "Least prime p which remains prime if one intertwines the sequence of the first n primes.",
+  "id": "A387828",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

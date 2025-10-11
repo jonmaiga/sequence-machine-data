@@ -1,0 +1,20 @@
+{
+  "description": "Complement of A000332.",
+  "id": "A388077",
+  "mentions": [
+    "A000332",
+    "A014132",
+    "A145397",
+    "A256436"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

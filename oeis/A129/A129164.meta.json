@@ -2,6 +2,7 @@
   "description": "Sum of pyramid weights in all skew Dyck paths of semilength n.",
   "id": "A129164",
   "mentions": [
+    "A000108",
     "A026378",
     "A129163"
   ],

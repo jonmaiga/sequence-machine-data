@@ -1,0 +1,17 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the n-pan graph.",
+  "id": "A387804",
+  "mentions": [
+    "A333729"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

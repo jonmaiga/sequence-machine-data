@@ -1,0 +1,16 @@
+{
+  "description": "Numbers of the form 12*k + 1 that satisfy Euler's condition for odd perfect numbers (A228058).",
+  "id": "A387404",
+  "mentions": [
+    "A017533",
+    "A228058"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

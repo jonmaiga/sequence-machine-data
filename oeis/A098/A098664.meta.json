@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. BesselI(0,4x)+BesselI(1,4x)/2.",
+  "description": "Expansion of e.g.f. BesselI(0,4*x)+BesselI(1,4*x)/2.",
   "id": "A098664",
   "mentions": [
     "A098665"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of 1 - Sum_{i=1..n} Bernoulli(i).",
+  "description": "a(n) is the numerator of 1 - Sum_{i=1..n} Bernoulli(i).",
   "id": "A100649",
   "mentions": [
     "A027641",

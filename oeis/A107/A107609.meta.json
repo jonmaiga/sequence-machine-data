@@ -1,8 +1,7 @@
 {
-  "description": "a(n) = round(n / pi(n)) = round(A000027(n) / A000720(n)).",
+  "description": "a(n) = round(n / pi(n)) = round(n / A000720(n)) where round(x) rounds half to even.",
   "id": "A107609",
   "mentions": [
-    "A000027",
     "A000720",
     "A107610",
     "A107614",
@@ -14,6 +13,6 @@
   "terms": {
     "offset": 2,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

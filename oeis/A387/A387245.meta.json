@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (the concatenation of the first k positive even numbers) + 1 is prime.",
+  "id": "A387245",
+  "mentions": [
+    "A019520",
+    "A069048",
+    "A210734"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

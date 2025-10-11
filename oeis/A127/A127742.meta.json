@@ -1,18 +1,22 @@
 {
-  "description": "Triangle read by rows with shape A000041 which refines the Catalan triangle A033184 using sequence A048996.",
+  "description": "Triangle T(n,k) read by rows which refines the Catalan triangle A033184 using sequence A048996, 1 <= k <= A000041(n).",
   "id": "A127742",
   "mentions": [
     "A000041",
+    "A000108",
     "A033184",
-    "A048996"
+    "A036036",
+    "A048996",
+    "A179318"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 75,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 nX3 array.",
+  "description": "Number of n X 3 arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 nX3 array.",
   "id": "A220039",
   "mentions": [
     "A220044"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

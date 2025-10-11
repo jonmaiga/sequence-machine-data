@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3(a(n-2) + 1), with a(0) = 1, a(1) = 3.",
+  "description": "a(n) = 3*(a(n-2) + 1), with a(0) = 1, a(1) = 3.",
   "id": "A087503",
   "mentions": [
     "A016116",
@@ -22,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

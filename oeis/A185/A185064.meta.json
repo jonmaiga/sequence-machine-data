@@ -2,6 +2,7 @@
   "description": "Numbers k such that a Golay sequence of length k exists.",
   "id": "A185064",
   "mentions": [
+    "A036975",
     "A208924",
     "A208929"
   ],

@@ -1,13 +1,14 @@
 {
-  "description": "10000 log(n/10), rounded.",
+  "description": "a(n) = round(10000*log(n/10)).",
   "id": "A104077",
   "mentions": [],
   "tags": [
+    "easy",
     "sign"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

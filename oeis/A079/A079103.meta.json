@@ -1,5 +1,5 @@
 {
-  "description": "Catalan(n)^(2n-2).",
+  "description": "a(n) = Catalan(n)^(2*n-2).",
   "id": "A079103",
   "mentions": [
     "A079102",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = phi(A003602(n)), where A003602 is Kimberling's paraphrases, and phi is Euler totient function.",
+  "description": "a(n) = phi(A003602(n)), where A003602 is Kimberling's paraphrase of the binary number system, and phi is Euler totient function.",
   "id": "A349137",
   "mentions": [
     "A000010",

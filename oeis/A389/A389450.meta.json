@@ -1,0 +1,23 @@
+{
+  "description": "Sum of unitary divisors of the largest unitary divisor of n that is a term in A048103 (not divisible by p^p for any prime p).",
+  "id": "A389450",
+  "mentions": [
+    "A034448",
+    "A048103",
+    "A380087",
+    "A380090",
+    "A389451",
+    "A389455"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

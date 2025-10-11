@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of exp(Pi/3)*(3 + sqrt(3))/18.",
+  "id": "A388679",
+  "mentions": [
+    "A164270"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

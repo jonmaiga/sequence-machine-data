@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of A003415 (arithmetic derivative of n) with A349134 (Dirichlet inverse of Kimberling's paraphrases).",
+  "description": "Dirichlet convolution of A003415 (arithmetic derivative of n) with A349134.",
   "id": "A349380",
   "mentions": [
     "A003415",

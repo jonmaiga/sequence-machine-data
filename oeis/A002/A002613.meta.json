@@ -2,7 +2,8 @@
   "description": "Glaisher's function J(n) (18 squares version).",
   "id": "A002613",
   "mentions": [
-    "A002609"
+    "A002609",
+    "A388111"
   ],
   "tags": [
     "formulas",

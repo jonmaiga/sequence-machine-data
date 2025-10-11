@@ -1,0 +1,17 @@
+{
+  "description": "Number of dominating sets in the n X n camel graph.",
+  "id": "A387434",
+  "mentions": [
+    "A381928",
+    "A382390"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

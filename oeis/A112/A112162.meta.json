@@ -1,7 +1,9 @@
 {
   "description": "McKay-Thompson series of class 24b for the Monster group.",
   "id": "A112162",
-  "mentions": [],
+  "mentions": [
+    "A388519"
+  ],
   "tags": [
     "formulas",
     "nonn"

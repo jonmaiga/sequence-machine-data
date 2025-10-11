@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(8*n+4,n)/(2*n+1).",
+  "description": "a(n) = binomial(8*n+4,n)/(2*n+1).",
   "id": "A234463",
   "mentions": [
     "A000108",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

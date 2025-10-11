@@ -1,7 +1,9 @@
 {
   "description": "a(n+1) = 9*a(n) - 6, a(0) = 2.",
   "id": "A137483",
-  "mentions": [],
+  "mentions": [
+    "A135522"
+  ],
   "tags": [
     "easy",
     "formulas",

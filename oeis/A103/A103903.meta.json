@@ -2,6 +2,7 @@
   "description": "Square array T(n,k) read by antidiagonals: coordination sequence for lattice D_n.",
   "id": "A103903",
   "mentions": [
+    "A000012",
     "A007900",
     "A008355",
     "A008357",
@@ -9,7 +10,10 @@
     "A008361",
     "A008376",
     "A008378",
-    "A103884"
+    "A046092",
+    "A103884",
+    "A107506",
+    "A107545"
   ],
   "tags": [
     "formulas",
@@ -19,6 +23,6 @@
   "terms": {
     "offset": 4,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

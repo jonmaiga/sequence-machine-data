@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form P(k)^m * Q(k), k > 1, m >= 0, with P(k) = Product_{i=1..k} prime(i) = A002110(k) and Q(k) = Product_{j=1..k} P(j) = A006939(k).",
+  "id": "A387492",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A002110",
+    "A006939",
+    "A024619",
+    "A025487",
+    "A055932",
+    "A286708",
+    "A387491",
+    "A387493"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

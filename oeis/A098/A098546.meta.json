@@ -1,5 +1,5 @@
 {
-  "description": "Table read by rows: row n has a term T(n,k) for each of the partition(n) partitions of n. T(n,k) = binomial(n,m) where m is the number of parts.",
+  "description": "Irregular triangle T(n,k) = binomial(n,m) where m is the number of parts in the k-th partition of n listed in Abramowitz and Stegun order, read by rows, 1 <= k <= A000041(n).",
   "id": "A098546",
   "mentions": [
     "A000041",
@@ -23,8 +23,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 78,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
   }
 }

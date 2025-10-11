@@ -1,5 +1,5 @@
 {
-  "description": "A127170 * A127648.",
+  "description": "Triangle read by rows: T(n,k) = tau(n/k)*k if k divides n, T(n,k) = 0 otherwise, where tau = A000005.",
   "id": "A134577",
   "mentions": [
     "A000005",
@@ -14,13 +14,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

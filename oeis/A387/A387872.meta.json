@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3*n+1,5*k).",
+  "id": "A387872",
+  "mentions": [
+    "A387847"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

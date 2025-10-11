@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*prime(n) - prime(n+1) is not prime.",
+  "description": "Numbers k such that 2*prime(k) - prime(k+1) is not prime.",
   "id": "A228374",
   "mentions": [
     "A216075"

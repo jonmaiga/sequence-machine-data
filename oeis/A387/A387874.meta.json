@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n+1,6*k).",
+  "id": "A387874",
+  "mentions": [
+    "A377627",
+    "A387814",
+    "A387875",
+    "A387876",
+    "A387877"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

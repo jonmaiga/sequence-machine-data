@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which gcd(k, A003961(k)) = gcd(sigma(k), A003961(k)) = 1, and that satisfy Euler's condition for odd perfect numbers (A228058).",
+  "id": "A387167",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A228058",
+    "A319630",
+    "A349165",
+    "A349177",
+    "A387164",
+    "A387166"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Twin palindromic primes (lower terms).",
+  "description": "Lesser of two consecutive palindromes, both of which are prime.",
   "id": "A032593",
   "mentions": [
     "A032594"

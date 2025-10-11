@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. exp(x * cosh(x)).",
   "id": "A003727",
   "mentions": [
+    "A003724",
     "A009233",
     "A191509",
     "A216688"
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

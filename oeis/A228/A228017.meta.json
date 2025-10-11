@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n divisible by the sum of any k-subset of digits of n with k >= 1.",
+  "description": "Numbers m divisible by the sum of any k-subset of digits of m with k >= 1.",
   "id": "A228017",
   "mentions": [
     "A051004",

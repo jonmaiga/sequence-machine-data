@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the area of the half-plane of the positive ordinates bounded between the curves of equations x^2 + y^2 = 1 and y = x^2.",
+  "id": "A387606",
+  "mentions": [
+    "A195692",
+    "A197762"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Odd nonsquarefree numbers k such that {sum of unitary divisors of k} plus {sum of squarefree divisors of k} >= 2*k.",
+  "id": "A389079",
+  "mentions": [
+    "A001221",
+    "A008683",
+    "A013929",
+    "A034448",
+    "A048250",
+    "A053850",
+    "A228058",
+    "A325973",
+    "A325977",
+    "A388986",
+    "A389215"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

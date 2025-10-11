@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n * sigma(A332818(n)).",
+  "id": "A389081",
+  "mentions": [
+    "A003961",
+    "A108546",
+    "A108548",
+    "A332806",
+    "A332808",
+    "A332818",
+    "A341528",
+    "A389073",
+    "A389082",
+    "A389088"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

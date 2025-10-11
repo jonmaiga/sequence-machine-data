@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/8) * Pi^3 / Gamma(3/4)^12.",
+  "id": "A389020",
+  "mentions": [
+    "A286346"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

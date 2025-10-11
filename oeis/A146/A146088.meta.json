@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that shifting the rightmost digit of n to the left end doubles the number.",
+  "description": "Numbers k with the property that shifting the rightmost digit of k to the left end doubles the number.",
   "id": "A146088",
   "mentions": [
     "A034089",

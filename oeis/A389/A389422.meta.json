@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of exp((gamma - 1) / 12).",
+  "id": "A389422",
+  "mentions": [
+    "A001620"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

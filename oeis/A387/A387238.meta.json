@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/((1-x) * (1-5*x))^(7/2).",
+  "id": "A387238",
+  "mentions": [
+    "A026375",
+    "A126190",
+    "A374509",
+    "A385563",
+    "A387237",
+    "A387239"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest integer k such that b(n,k) is squarefree, where b(n,1) = n and b(n, k+1) = b(n,k) + rad(b(n, k)) for k >= 1.",
+  "id": "A386376",
+  "mentions": [
+    "A005117",
+    "A007947"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

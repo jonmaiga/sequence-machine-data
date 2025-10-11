@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (64 * sqrt(10 * (-1+sqrt(5))) * Pi) / Gamma(-1/4)^4.",
+  "id": "A388636",
+  "mentions": [
+    "A138506"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

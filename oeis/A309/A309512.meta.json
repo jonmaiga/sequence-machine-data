@@ -1,7 +1,9 @@
 {
   "description": "Sum of the odd parts in the partitions of n into 3 parts.",
   "id": "A309512",
-  "mentions": [],
+  "mentions": [
+    "A309515"
+  ],
   "tags": [
     "formulas",
     "nonn"

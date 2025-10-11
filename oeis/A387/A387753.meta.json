@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (1/10) * Sum_{k=0..n-1} binomial(10*n,10*k+1).",
+  "id": "A387753",
+  "mentions": [
+    "A015565",
+    "A070833",
+    "A387743",
+    "A387745",
+    "A387748",
+    "A387751",
+    "A387752",
+    "A387754",
+    "A387755"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

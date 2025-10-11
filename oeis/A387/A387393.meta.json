@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the imaginary part of the smallest complex solution to zeta(z) = zeta(1-z).",
+  "id": "A387393",
+  "mentions": [
+    "A058303",
+    "A377302"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

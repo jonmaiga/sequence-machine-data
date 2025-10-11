@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers k such that the difference between k and the largest prime less than k is not prime.",
+  "id": "A387501",
+  "mentions": [
+    "A007917",
+    "A008864",
+    "A018252",
+    "A049711",
+    "A309760"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

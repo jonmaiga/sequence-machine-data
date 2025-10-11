@@ -1,8 +1,9 @@
 {
-  "description": "Irregular table T(n,k) = A178886(n,k)/A048996(n,k) read by rows.",
+  "description": "Irregular triangle T(n,k) = A178886(n,k)/A048996(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A179972",
   "mentions": [
     "A000041",
+    "A036036",
     "A036042",
     "A036043",
     "A048996",
@@ -16,8 +17,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 67,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
   }
 }

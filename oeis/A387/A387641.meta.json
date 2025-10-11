@@ -1,0 +1,21 @@
+{
+  "description": "Sum of larger and smaller term of n-th psi-amicable pair, sorted by the smaller members from A323329.",
+  "id": "A387641",
+  "mentions": [
+    "A001615",
+    "A180164",
+    "A323329",
+    "A323330",
+    "A387643",
+    "A387893"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

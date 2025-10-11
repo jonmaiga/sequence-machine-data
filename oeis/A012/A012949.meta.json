@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. = sin(tan(x)+arcsin(x))=2*x-5/3!*x^3-63/5!*x^5-1311/7!*x^7-40503/9!*x^9...",
+  "description": "Expansion of e.g.f. sin(tan(x)+arcsin(x)) (odd powers only).",
   "id": "A012949",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

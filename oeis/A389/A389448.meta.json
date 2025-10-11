@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of ratio sigma(n) / A057723(n), where A057723 is sum of positive divisors of n that are divisible by every prime that divides n and sigma is the sum of divisors function.",
+  "id": "A389448",
+  "mentions": [
+    "A000203",
+    "A057723",
+    "A389087",
+    "A389089",
+    "A389446",
+    "A389447"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

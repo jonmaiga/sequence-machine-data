@@ -1,5 +1,5 @@
 {
-  "description": "Number of integers in the interval [2,A289663(n)] whose greatest prime factor is equal to the n-th popular prime A385503(n).",
+  "description": "Number of integers in the interval [2, A289663(n)] whose greatest prime factor is equal to the n-th popular prime A385503(n).",
   "id": "A289665",
   "mentions": [
     "A006530",
@@ -9,7 +9,6 @@
     "A385503"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {

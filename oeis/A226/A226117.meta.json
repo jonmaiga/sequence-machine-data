@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(sigma(tau(n))) = tau(sigma(phi(n))).",
+  "description": "Numbers k such that phi(sigma(tau(k))) = tau(sigma(phi(k))).",
   "id": "A226117",
   "mentions": [
     "A000005",

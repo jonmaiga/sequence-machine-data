@@ -2,7 +2,10 @@
   "description": "Decimal expansion of tangent of 20 degrees.",
   "id": "A019918",
   "mentions": [
-    "A019938"
+    "A019829",
+    "A019879",
+    "A019938",
+    "A019978"
   ],
   "tags": [
     "cons",

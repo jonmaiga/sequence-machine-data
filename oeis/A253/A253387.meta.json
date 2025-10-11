@@ -1,5 +1,5 @@
 {
-  "description": "A \"mod sequence\" where a(n) is the eventual constant value attained by the sequence defined as b(1) = n, b(m) = (sum_{k=1..m-1} b(k)) mod m, with a(n) = -1 in case a constant run is not found.",
+  "description": "A \"mod sequence\" where a(n) is the eventual constant value attained by the sequence defined as b(1) = n, b(m) = (Sum_{k=1..m-1} b(k)) mod m.",
   "id": "A253387",
   "mentions": [
     "A074482",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p-1 divides n+1 for every prime divisor p of n.",
+  "description": "Numbers k such that p-1 divides k+1 for every prime divisor p of k.",
   "id": "A231811",
   "mentions": [
     "A231810"

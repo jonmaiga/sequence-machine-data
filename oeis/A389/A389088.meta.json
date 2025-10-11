@@ -1,0 +1,35 @@
+{
+  "description": "Prime shift array for A332818: Square array read by antidiagonals: A(1,col) = 2*col, and for row > 1, A(row,col) = A332818(A(row-1,col)).",
+  "id": "A389088",
+  "mentions": [
+    "A003961",
+    "A005843",
+    "A009194",
+    "A017665",
+    "A017666",
+    "A108546",
+    "A108548",
+    "A228058",
+    "A246278",
+    "A332806",
+    "A332808",
+    "A332818",
+    "A336937",
+    "A388983",
+    "A388995",
+    "A389081",
+    "A389082",
+    "A389093",
+    "A389094",
+    "A389095"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

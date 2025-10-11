@@ -1,5 +1,5 @@
 {
-  "description": "Smallest semiprime p1*p2 such that p2 >= p1 and p2 mod p1 = n.",
+  "description": "Smallest semiprime p*q such that q >= p and q mod p = n.",
   "id": "A064910",
   "mentions": [
     "A001358",

@@ -1,0 +1,14 @@
+{
+  "description": "Number of maximal matchings in the n-Cameron graph.",
+  "id": "A387588",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

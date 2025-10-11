@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (32 * (2+sqrt(2)) * exp(-Pi/4) * Gamma(5/4)^4) / Pi^3.",
+  "id": "A388965",
+  "mentions": [
+    "A280339"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

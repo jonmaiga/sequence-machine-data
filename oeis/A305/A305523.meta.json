@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with every element unequal to 0, 1, 2, 3, 4 or 5 king-move adjacent elements, with upper left element zero.",
+  "description": "T(n,k) = Number of n X k 0..1 arrays with every element unequal to 0, 1, 2, 3, 4 or 5 king-move adjacent elements, with upper left element zero.",
   "id": "A305523",
   "mentions": [
     "A000079",

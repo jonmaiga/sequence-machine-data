@@ -11,11 +11,12 @@
   ],
   "tags": [
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

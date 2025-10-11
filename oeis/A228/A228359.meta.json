@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose 10's complement is not prime, i.e., 10^k-n, where k is the number of digits of n, is not prime.",
+  "description": "Numbers m whose 10's complement is not prime, i.e., 10^k-m, where k is the number of digits of m, is not prime.",
   "id": "A228359",
   "mentions": [
     "A228075"

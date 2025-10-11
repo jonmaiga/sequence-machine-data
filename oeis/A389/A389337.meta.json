@@ -1,0 +1,21 @@
+{
+  "description": "Number of chiral pairs of asymmetric polyominoes with n hexagonal cells of the hyperbolic regular tiling with Schläfli symbol {6,oo}.",
+  "id": "A389337",
+  "mentions": [
+    "A002294",
+    "A004127",
+    "A143546",
+    "A221184",
+    "A369473",
+    "A389194"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

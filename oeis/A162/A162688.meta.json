@@ -1,5 +1,5 @@
 {
-  "description": "Strictly positive numbers n such that 12*n/(12+n) are integers.",
+  "description": "Strictly positive numbers k such that 12*k/(12+k) are integers.",
   "id": "A162688",
   "mentions": [
     "A127730"

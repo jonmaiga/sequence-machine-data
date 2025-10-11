@@ -2,10 +2,17 @@
   "description": "Multiplicative with a(p^e) = p^(p-1) if e >= p, otherwise a(p^e) = p^e.",
   "id": "A327937",
   "mentions": [
+    "A000005",
+    "A000203",
     "A048103",
     "A129251",
     "A327936",
-    "A327938"
+    "A327938",
+    "A359550",
+    "A377515",
+    "A377518",
+    "A389456",
+    "A389457"
   ],
   "tags": [
     "formulas",

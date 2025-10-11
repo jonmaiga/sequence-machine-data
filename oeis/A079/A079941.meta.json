@@ -1,5 +1,5 @@
 {
-  "description": "Greedy frac multiples of log(2): a(1)=1, sum(n>0,frac(a(n)*x))=1 at x=log(2).",
+  "description": "Greedy frac multiples of log(2): a(1)=1, Sum_{n>0} frac(a(n)*log(2)) = 1.",
   "id": "A079941",
   "mentions": [
     "A079934",
@@ -8,11 +8,12 @@
     "A079943"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

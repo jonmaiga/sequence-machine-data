@@ -1,0 +1,26 @@
+{
+  "description": "Powers of superprimorials that are not powers of 2.",
+  "id": "A385112",
+  "mentions": [
+    "A000079",
+    "A001021",
+    "A002110",
+    "A006939",
+    "A024619",
+    "A025487",
+    "A055932",
+    "A126706",
+    "A364710",
+    "A368507",
+    "A368508"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

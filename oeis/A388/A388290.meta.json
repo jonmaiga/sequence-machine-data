@@ -1,0 +1,18 @@
+{
+  "description": "Position of the even Markoff numbers 2*A388289 in A002559.",
+  "id": "A388290",
+  "mentions": [
+    "A002559",
+    "A388289"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

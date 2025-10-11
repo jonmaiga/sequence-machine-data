@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/16777216) * exp(8*Pi/3) * Pi^16 / Gamma(3/4)^64.",
+  "id": "A388236",
+  "mentions": [
+    "A010841"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

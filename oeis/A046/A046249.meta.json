@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 is palindromic in base 14.",
+  "description": "Numbers k such that k^3 is palindromic in base 14.",
   "id": "A046249",
   "mentions": [
     "A046250"

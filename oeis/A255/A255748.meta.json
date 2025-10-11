@@ -2,8 +2,10 @@
   "description": "Total number of ON states after n generations of cellular automaton based on triangles in a 60-degree wedge (see Comments lines for definition).",
   "id": "A255748",
   "mentions": [
+    "A000217",
     "A001316",
     "A047999",
+    "A063915",
     "A080079",
     "A139250",
     "A169779",

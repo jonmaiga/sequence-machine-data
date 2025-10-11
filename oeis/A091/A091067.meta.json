@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose odd part is of the form 4k+3.",
+  "description": "Numbers whose odd part is of the form 4*k+3.",
   "id": "A091067",
   "mentions": [
     "A000265",

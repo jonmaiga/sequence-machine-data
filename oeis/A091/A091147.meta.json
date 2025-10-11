@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-x-sqrt(1-2x-15x^2))/(8x^2).",
+  "description": "Expansion of (1-x-sqrt(1-2*x-15*x^2))/(8*x^2).",
   "id": "A091147",
   "mentions": [
     "A000108",

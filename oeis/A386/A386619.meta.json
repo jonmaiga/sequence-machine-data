@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 5^k - 32 is prime.",
+  "id": "A386619",
+  "mentions": [
+    "A059613",
+    "A109080",
+    "A165701",
+    "A217134"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

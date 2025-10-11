@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = greatest prime of the form k*(n-k) +1. 0 if no such prime exists.",
+  "description": "a(n) = greatest prime of the form k*(n-k) + 1, 0 if no such prime exists.",
   "id": "A109905",
   "mentions": [
     "A026728",
-    "A109904"
+    "A109904",
+    "A383636"
   ],
   "tags": [
     "nonn"

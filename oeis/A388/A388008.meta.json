@@ -1,0 +1,15 @@
+{
+  "description": "Number of generalized conjugacy classes in the semigroup of relations on a set of size n.",
+  "id": "A388008",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -3,6 +3,7 @@
   "id": "A176035",
   "mentions": [
     "A006881",
+    "A053186",
     "A056892",
     "A106044",
     "A176032",
@@ -10,11 +11,12 @@
     "A176034"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

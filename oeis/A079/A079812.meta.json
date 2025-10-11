@@ -2,6 +2,7 @@
   "description": "Lower of twin primes (p,p+2) such that (p*(p+2))^2 + p^2 - (p+2)^2 and (p*(p+2))^2 - p^2 + (p+2)^2 are both prime.",
   "id": "A079812",
   "mentions": [
+    "A001359",
     "A079797"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "joeis"
   }
 }

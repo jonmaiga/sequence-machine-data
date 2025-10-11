@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = 6/((4*n+1)*(4*n+2))*binomial(5*n,n).",
+  "description": "a(n) = (6/((4*n+1)*(4*n+2)))*binomial(5*n,n).",
   "id": "A197272",
   "mentions": [
     "A000139",
+    "A001449",
+    "A002294",
     "A197271"
   ],
   "tags": [
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "joeis"
   }
 }

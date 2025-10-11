@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 3 * exp(-1/6 * Pi) * sqrt(2).",
+  "id": "A388240",
+  "mentions": [
+    "A014705"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

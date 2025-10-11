@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} (-1)^(n+1) P(3*n)/(3*n), where P(x) is the prime zeta function.",
+  "id": "A387289",
+  "mentions": [
+    "A387293"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

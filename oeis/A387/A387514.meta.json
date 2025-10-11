@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to tile a fixed circular strip of length n with squares and dominos of two different colors where there must be the same number of each color of domino.",
+  "id": "A387514",
+  "mentions": [
+    "A000032",
+    "A098482"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

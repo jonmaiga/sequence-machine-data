@@ -1,0 +1,14 @@
+{
+  "description": "Number of mutual-visibility sets in the n-web graph.",
+  "id": "A389188",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

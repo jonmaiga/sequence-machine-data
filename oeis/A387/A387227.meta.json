@@ -1,0 +1,16 @@
+{
+  "description": "Number of Hamiltonian cycles in the n-Sierpinski tetrahedron graph.",
+  "id": "A387227",
+  "mentions": [
+    "A246959"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

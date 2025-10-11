@@ -1,0 +1,21 @@
+{
+  "description": "Lesser of a pair of amicable numbers k < m such that A033634(k) = m and A033634(m) = k.",
+  "id": "A387821",
+  "mentions": [
+    "A033634",
+    "A325847",
+    "A387820",
+    "A387822"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

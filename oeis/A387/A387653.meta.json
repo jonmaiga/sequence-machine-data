@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+1 are both almost practical numbers (A174533).",
+  "id": "A387653",
+  "mentions": [
+    "A174533",
+    "A287681",
+    "A387654"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

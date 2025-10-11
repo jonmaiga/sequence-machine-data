@@ -1,7 +1,17 @@
 {
   "description": "Pick any pair of \"1\" digits in the sequence. Those two \"1\"s are separated by k digits. This is the lexicographically earliest sequence of distinct terms in which all the resulting values of k are distinct.",
   "id": "A273376",
-  "mentions": [],
+  "mentions": [
+    "A273880",
+    "A273881",
+    "A273882",
+    "A273883",
+    "A273884",
+    "A273885",
+    "A273886",
+    "A273887",
+    "A273888"
+  ],
   "tags": [
     "base",
     "nonn"

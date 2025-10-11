@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that (concatenation of even integers through n) - 1 is a prime.",
+  "description": "Numbers k such that (concatenation of even integers through k) - 1 is a prime.",
   "id": "A109445",
   "mentions": [
     "A066811"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

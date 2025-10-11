@@ -1,5 +1,5 @@
 {
-  "description": "arctan(arctanh(x)*cos(x))=x-3/3!*x^3+53/5!*x^5-1799/7!*x^7...",
+  "description": "Expansion of e.g.f. arctan(arctanh(x)*cos(x)) (odd powers only).",
   "id": "A012742",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 16,
     "source": "joeis"
   }
 }

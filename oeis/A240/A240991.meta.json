@@ -1,13 +1,16 @@
 {
-  "description": "Integers m such that A240923(m) = 1.",
+  "description": "Integers m such that A240923(m) = 1, where A240923(n) = numerator(sigma(n)/n) - sigma(denominator(sigma(n)/n)).",
   "id": "A240991",
   "mentions": [
     "A000203",
     "A000396",
+    "A001221",
     "A014567",
     "A017665",
     "A017666",
-    "A240923"
+    "A240923",
+    "A387405",
+    "A387406"
   ],
   "tags": [
     "nonn"

@@ -1,17 +1,18 @@
 {
-  "description": "Numbers n such that 1_100.2_200.3_300 ... 8_800.9_900.10^n+1 is prime, i.e., 1 repeated 100 times, concatenated with 2 repeated 200 times, etc.",
+  "description": "Numbers k such that (1_100.2_200.3_300 ... 8_800.9_900)*10^k + 1 is prime, i.e., 1 repeated 100 times, concatenated with 2 repeated 200 times, etc.",
   "id": "A108055",
   "mentions": [
     "A106488"
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

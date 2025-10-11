@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which phi(n) = m! for some integer m, where phi = A000010.",
+  "description": "Numbers k for which phi(k) = m! for some integer m, where phi = A000010.",
   "id": "A165773",
   "mentions": [
     "A000010",

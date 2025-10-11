@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigmawt(n) = sigmawt(n+1), where sigmawt(n) is the sum of the divisors of n weighted by divisor multiplicity in n.",
+  "description": "Numbers k such that sigmawt(k) = sigmawt(k+1), where sigmawt(k) is the sum of the divisors of k weighted by divisor multiplicity in k.",
   "id": "A171183",
   "mentions": [
     "A168512"

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (1/6) * ( log(1 + x) / (1 - x) )^3.",
+  "id": "A389002",
+  "mentions": [
+    "A000399",
+    "A001713",
+    "A024167",
+    "A389001",
+    "A389003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Pi^(-9).",
+  "id": "A388545",
+  "mentions": [
+    "A000796",
+    "A049541",
+    "A092742",
+    "A092748"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

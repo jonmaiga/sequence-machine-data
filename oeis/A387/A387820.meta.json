@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are divisible by the sum of their exponentially odd divisors.",
+  "id": "A387820",
+  "mentions": [
+    "A033289",
+    "A033634",
+    "A268335",
+    "A387821",
+    "A387822",
+    "A387826"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

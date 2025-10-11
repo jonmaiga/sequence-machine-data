@@ -1,0 +1,21 @@
+{
+  "description": "Psi-abundant numbers: numbers k such that psi(k) > 2*k.",
+  "id": "A387893",
+  "mentions": [
+    "A001615",
+    "A005101",
+    "A007947",
+    "A033845",
+    "A087248",
+    "A387892"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

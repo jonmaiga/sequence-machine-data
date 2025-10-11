@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: earliest group of n consecutive numbers such that, beyond the first number, no number's prime factor exponents equal any prime factor exponent of the previous number.",
+  "id": "A388968",
+  "mentions": [
+    "A124010",
+    "A297075",
+    "A388967"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

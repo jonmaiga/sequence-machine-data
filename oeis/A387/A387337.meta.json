@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k * binomial(n+2,k) * binomial(n+2,k+2).",
+  "id": "A387337",
+  "mentions": [
+    "A050151"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

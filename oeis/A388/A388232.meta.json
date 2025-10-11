@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4096) * exp(4*Pi/3) * Pi^8 / Gamma(3/4)^32.",
+  "id": "A388232",
+  "mentions": [
+    "A010837"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

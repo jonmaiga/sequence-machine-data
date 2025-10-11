@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of the sets of partitions of n with length k grouped by largest part.",
+  "id": "A386832",
+  "mentions": [
+    "A309097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

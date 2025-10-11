@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Product_{k>=0} (1 + 1/k!^3).",
+  "id": "A386405",
+  "mentions": [
+    "A000442",
+    "A238695",
+    "A384510"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

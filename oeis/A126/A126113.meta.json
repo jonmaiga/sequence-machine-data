@@ -1,5 +1,5 @@
 {
-  "description": "Primes p^4 + (p-1)^4 + (p + 1)^4 arising from A126112.",
+  "description": "Primes p^4 + (p-1)^4 + (p+1)^4 arising from A126112.",
   "id": "A126113",
   "mentions": [
     "A126112",

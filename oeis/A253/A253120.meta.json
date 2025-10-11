@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the octagonal numbers O(n), O(n+1), O(n+2) and O(n+3) is equal to the hexagonal number H(m) for some m.",
+  "description": "Numbers k such that the sum of the octagonal numbers O(k), O(k+1), O(k+2) and O(k+3) is equal to the hexagonal number H(m) for some m.",
   "id": "A253120",
   "mentions": [
     "A000384",

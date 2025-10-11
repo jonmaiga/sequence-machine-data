@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected induced subgraphs in the n-Cameron graph.",
+  "id": "A387374",
+  "mentions": [
+    "A387373"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, A167269 columns aerated with k zeros.",
+  "description": "Triangle read by rows: T(n,k) = A167269(n/k-1, k-1) if k divides n, T(n,k) = 0 otherwise.",
   "id": "A167271",
   "mentions": [
     "A167269",
@@ -7,13 +7,12 @@
     "A167273"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

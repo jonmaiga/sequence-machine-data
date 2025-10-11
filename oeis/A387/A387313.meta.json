@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1-x) * (1-9*x))^(5/2).",
+  "id": "A387313",
+  "mentions": [
+    "A084771",
+    "A331516",
+    "A387229",
+    "A387307",
+    "A387314"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

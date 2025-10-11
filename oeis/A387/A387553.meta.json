@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/2) * Sum_{k=0..floor(n/2)} 2^(n-k) * binomial(2*k+2,2*n-4*k+1).",
+  "id": "A387553",
+  "mentions": [
+    "A387483"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

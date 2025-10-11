@@ -1,7 +1,8 @@
 {
-  "description": "Kimberling's paraphrases: if n = (2k-1)*2^m then a(n) = k.",
+  "description": "Kimberling's paraphrase of the binary number system: if n = (2k-1)*2^m then a(n) = k.",
   "id": "A003602",
   "mentions": [
+    "A000045",
     "A000079",
     "A000265",
     "A001511",

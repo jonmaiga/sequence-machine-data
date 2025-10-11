@@ -1,5 +1,5 @@
 {
-  "description": "sec(tan(sin(x)))=1+1/2!*x^2+9/4!*x^4+153/6!*x^6+4337/8!*x^8...",
+  "description": "Expansion of e.g.f. sec(tan(sin(x))), even powers only.",
   "id": "A012148",
   "mentions": [],
   "tags": [

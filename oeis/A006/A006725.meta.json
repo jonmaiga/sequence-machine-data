@@ -1,13 +1,15 @@
 {
   "description": "Number of n-celled polygons with perimeter 2n+2 on square lattice.",
   "id": "A006725",
-  "mentions": [],
+  "mentions": [
+    "A008855"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

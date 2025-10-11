@@ -1,0 +1,23 @@
+{
+  "description": "Elements of A388654 that do not lie in A070003.",
+  "id": "A387054",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A052485",
+    "A070003",
+    "A084920",
+    "A120944",
+    "A332785",
+    "A388654",
+    "A389100"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

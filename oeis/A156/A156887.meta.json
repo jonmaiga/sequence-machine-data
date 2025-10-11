@@ -1,12 +1,13 @@
 {
-  "description": "a(n) = Sum_{k=0..n} C(n,k)*C(4*n+k,k).",
+  "description": "a(n) = Sum_{k=0..n} C(n,k) * C(4*n+k,k).",
   "id": "A156887",
   "mentions": [
     "A001850",
     "A029635",
     "A114496",
     "A156886",
-    "A359646"
+    "A359646",
+    "A387934"
   ],
   "tags": [
     "easy",

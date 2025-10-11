@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of Kimberling's paraphrases (A003602) with itself.",
+  "description": "Dirichlet convolution of Kimberling's paraphrase, A003602, with itself.",
   "id": "A349370",
   "mentions": [
     "A003602",

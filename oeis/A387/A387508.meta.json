@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} 2^k * binomial(n-3*k,k)^2.",
+  "id": "A387508",
+  "mentions": [
+    "A001850",
+    "A108488",
+    "A246883",
+    "A375293",
+    "A387507"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

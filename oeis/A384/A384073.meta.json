@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that d(k)^d(k) = d(k) (mod k), where d = A000005.",
+  "description": "Numbers k such that d(k)^d(k) == d(k) (mod k), where d = A000005.",
   "id": "A384073",
   "mentions": [
     "A000005"

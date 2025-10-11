@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to tile a 2 X n strip with squares, dominoes, and (straight and bent) trominoes.",
+  "id": "A387619",
+  "mentions": [
+    "A030186",
+    "A052980"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

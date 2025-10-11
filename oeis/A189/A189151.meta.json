@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n < floor(sqrt(n)) * ceiling(sqrt(n)).",
+  "description": "Numbers k such that k < floor(sqrt(k)) * ceiling(sqrt(k)).",
   "id": "A189151",
   "mentions": [
     "A002620",

@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of Kimberling's paraphrases (A003602) with Liouville's lambda.",
+  "description": "Dirichlet convolution of Kimberling's paraphrase, A003602, with Liouville's lambda.",
   "id": "A349375",
   "mentions": [
     "A003602",

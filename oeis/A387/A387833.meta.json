@@ -1,0 +1,18 @@
+{
+  "description": "sqrt(a(n)) / 4 is the maximum area of any triangle with integer side lengths whose perimeter is n, or a(n) = -1 if there is no such triangle.",
+  "id": "A387833",
+  "mentions": [
+    "A002620",
+    "A005044"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

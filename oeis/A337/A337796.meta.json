@@ -1,11 +1,13 @@
 {
-  "description": "Number of graceful labelings of the n X n grid graph.",
+  "description": "Total number of graceful labelings of the n X n grid graph.",
   "id": "A337796",
   "mentions": [
-    "A336833"
+    "A336833",
+    "A387799"
   ],
   "tags": [
     "bref",
+    "formulas",
     "more",
     "nonn"
   ],

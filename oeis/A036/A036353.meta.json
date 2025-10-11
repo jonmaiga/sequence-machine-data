@@ -2,6 +2,7 @@
   "description": "Square pentagonal numbers.",
   "id": "A036353",
   "mentions": [
+    "A000290",
     "A000326",
     "A001078",
     "A001079",
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

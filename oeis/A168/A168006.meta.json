@@ -1,5 +1,5 @@
 {
-  "description": "Primes n with property that first digit of 2*n = last digit of n.",
+  "description": "Primes p with property that first digit of 2*p = last digit of p.",
   "id": "A168006",
   "mentions": [
     "A167994"

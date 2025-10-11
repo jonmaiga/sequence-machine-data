@@ -2,13 +2,16 @@
   "description": "Numbers that are a product of distinct Mersenne primes (elements of A000668).",
   "id": "A046528",
   "mentions": [
+    "A000035",
     "A000043",
     "A000668",
     "A051281",
+    "A054784",
     "A056652",
     "A078426",
     "A094502",
-    "A306204"
+    "A306204",
+    "A336923"
   ],
   "tags": [
     "formulas",

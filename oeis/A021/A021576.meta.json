@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 1/572.",
   "id": "A021576",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

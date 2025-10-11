@@ -1,0 +1,14 @@
+{
+  "description": "Number of Hamiltonian paths in the n-Goldberg graph.",
+  "id": "A387457",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

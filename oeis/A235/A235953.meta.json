@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(7+1) 0..2 arrays colored with the upper median value of each 2X2 subblock.",
+  "description": "Number of (n+1) X (7+1) 0..2 arrays colored with the upper median value of each 2 X 2 subblock.",
   "id": "A235953",
   "mentions": [
     "A235954"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

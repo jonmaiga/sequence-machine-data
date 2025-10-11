@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(1 - 10*x + x^2)^(5/2).",
+  "id": "A387367",
+  "mentions": [
+    "A000332",
+    "A387341",
+    "A387369"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

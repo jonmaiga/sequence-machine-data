@@ -2,6 +2,8 @@
   "description": "Number of n-length cycles from any point in a complete graph on n nodes.",
   "id": "A185634",
   "mentions": [
+    "A056852",
+    "A081216",
     "A173499"
   ],
   "tags": [

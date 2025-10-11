@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x^n in the expansion of ( (1-x+x^4) / (1-x) )^n.",
+  "id": "A387345",
+  "mentions": [
+    "A088218",
+    "A215341",
+    "A246437",
+    "A372413",
+    "A387200",
+    "A387546"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

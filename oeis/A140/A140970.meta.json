@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (n-1)! + n^(n-1).",
+  "description": "Primes of the form (k-1)! + k^(k-1).",
   "id": "A140970",
   "mentions": [],
   "tags": [

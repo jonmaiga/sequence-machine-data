@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of 1/sqrt(1 - 4*k*x - 4*x^2).",
+  "id": "A386621",
+  "mentions": [
+    "A006139",
+    "A098443",
+    "A126869",
+    "A387428",
+    "A387430"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

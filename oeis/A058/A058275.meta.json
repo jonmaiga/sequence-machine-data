@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected 5-regular simple graphs on 2n vertices with girth at least 4.",
+  "description": "Number of connected 5-regular simple graphs on 2*n vertices with girth at least 4.",
   "id": "A058275",
   "mentions": [
     "A006821",

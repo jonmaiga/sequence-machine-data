@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of exp(Pi / 24) / 2^(1/4).",
+  "id": "A388460",
+  "mentions": [
+    "A081360"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

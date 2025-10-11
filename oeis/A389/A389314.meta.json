@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/3432.",
+  "id": "A389314",
+  "mentions": [
+    "A010680",
+    "A010701",
+    "A020821",
+    "A021017",
+    "A021347",
+    "A154127"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers k for which A003961(k) > 2*k and A003961(k)-2*k OR A003961(k)-sigma(k) = A003961(k)-2*k, where OR is bitwise-or (A003986) and A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A388029",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003986",
+    "A004198",
+    "A252748",
+    "A286385",
+    "A388028"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

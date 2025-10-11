@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1+x)(1-x)^9).",
+  "description": "Expansion of 1/((1+x)*(1-x)^9).",
   "id": "A001780",
   "mentions": [
     "A000581",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 34,
     "source": "joeis"
   }
 }

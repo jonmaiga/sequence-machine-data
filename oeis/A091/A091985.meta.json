@@ -2,7 +2,8 @@
   "description": "Number of steps required for the initial value p = 10^n to reach 0 in the recurrence p = pi(p).",
   "id": "A091985",
   "mentions": [
-    "A000720"
+    "A000720",
+    "A091984"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..1 arrays with no 1 equal to more than two of its horizontal, vertical and antidiagonal neighbors.",
+  "description": "Number of n X 3 0..1 arrays with no 1 equal to more than two of its horizontal, vertical and antidiagonal neighbors.",
   "id": "A283277",
   "mentions": [
     "A283282"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

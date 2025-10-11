@@ -1,7 +1,10 @@
 {
   "description": "Number of even numbers that can be formed by permuting the digits of n.",
   "id": "A079806",
-  "mentions": [],
+  "mentions": [
+    "A047726",
+    "A079807"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

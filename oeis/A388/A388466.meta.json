@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 262144 * exp(-2 * Pi) * Gamma(3/4)^48 / Pi^12.",
+  "id": "A388466",
+  "mentions": [
+    "A082558"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

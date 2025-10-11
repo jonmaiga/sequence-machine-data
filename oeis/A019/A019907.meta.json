@@ -1,9 +1,18 @@
 {
   "description": "Decimal expansion of tangent of 9 degrees.",
   "id": "A019907",
-  "mentions": [],
+  "mentions": [
+    "A019818",
+    "A019827",
+    "A019881",
+    "A019890",
+    "A019925",
+    "A019961",
+    "A019979"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

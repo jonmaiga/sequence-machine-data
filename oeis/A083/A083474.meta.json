@@ -1,11 +1,14 @@
 {
-  "description": "T(n)^2-n!, where T(n) is the n-th triangular number.",
+  "description": "a(n) = T(n)^2-n!, where T(n) is the n-th triangular number.",
   "id": "A083474",
   "mentions": [
     "A000142",
-    "A000217"
+    "A000217",
+    "A000537"
   ],
   "tags": [
+    "easy",
+    "less",
     "sign"
   ],
   "terms": {

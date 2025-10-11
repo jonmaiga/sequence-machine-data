@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (9/16) * Pi / Gamma(3/4)^4.",
+  "id": "A388808",
+  "mentions": [
+    "A228745"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

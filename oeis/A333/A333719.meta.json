@@ -1,8 +1,11 @@
 {
-  "description": "Number of graceful labelings of the n-ladder graph.",
+  "description": "Total number of graceful labelings of the n-ladder graph.",
   "id": "A333719",
-  "mentions": [],
+  "mentions": [
+    "A387802"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

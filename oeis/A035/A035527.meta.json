@@ -2,7 +2,9 @@
   "description": "Harmonic seed numbers.",
   "id": "A035527",
   "mentions": [
-    "A001599"
+    "A000396",
+    "A001599",
+    "A388268"
   ],
   "tags": [
     "nonn"

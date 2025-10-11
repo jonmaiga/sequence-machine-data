@@ -1,8 +1,9 @@
 {
-  "description": "Sum_{k=1}^n J_4(k)/240.",
+  "description": "a(n) = Sum_{k=1..n} J_4(k)/240.",
   "id": "A115003",
   "mentions": [
-    "A115000"
+    "A115000",
+    "A115002"
   ],
   "tags": [
     "nonn"

@@ -1,16 +1,15 @@
 {
-  "description": "Row sums of the irregular table A179380 related to Bell numbers.",
+  "description": "Row sums of the triangle A179380 related to Bell numbers.",
   "id": "A179379",
   "mentions": [
-    "A000041",
     "A179380"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 9,
+    "offset": 0,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

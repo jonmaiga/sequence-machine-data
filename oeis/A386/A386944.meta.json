@@ -1,0 +1,23 @@
+{
+  "description": "Long legs of nonprimitive Pythagorean triples of the form (u^2 - v^2, 2*u*v, u^2 + v^2), ordered by increasing hypotenuse (A386943).",
+  "id": "A386944",
+  "mentions": [
+    "A046084",
+    "A046087",
+    "A366675",
+    "A380073",
+    "A386308",
+    "A386943",
+    "A386945"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

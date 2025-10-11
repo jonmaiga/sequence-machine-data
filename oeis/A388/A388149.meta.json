@@ -1,0 +1,16 @@
+{
+  "description": "Number of partial permutations of [2n] that have exactly n cycles.",
+  "id": "A388149",
+  "mentions": [
+    "A216294"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

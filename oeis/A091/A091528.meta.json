@@ -2,6 +2,8 @@
   "description": "a(n) = (Sum_{k=1..n} H(k)*k!*(n-k)!) mod (n+1), where H(k) is the k-th harmonic number.",
   "id": "A091528",
   "mentions": [
+    "A001008",
+    "A002805",
     "A091529",
     "A091530"
   ],

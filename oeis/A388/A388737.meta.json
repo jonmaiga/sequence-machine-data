@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 0, a(n) = abs(x) + abs(y), with x and y the next coordinates by using A028334 as a rectangular spiral.",
+  "id": "A388737",
+  "mentions": [
+    "A002386",
+    "A028334"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

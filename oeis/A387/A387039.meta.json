@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (p_k#)*(p_(k-1)#)+1, or A228593(k)+1 is prime.",
+  "id": "A387039",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006094",
+    "A034386",
+    "A228593"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of sqrt(2/5+1 / sqrt(5)).",
+  "id": "A388935",
+  "mentions": [
+    "A261968"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

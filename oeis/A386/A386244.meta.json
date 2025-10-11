@@ -1,0 +1,26 @@
+{
+  "description": "Number of iterations of seven segments count x -> A277116(x) to go from n to a fixed point.",
+  "id": "A386244",
+  "mentions": [
+    "A006942",
+    "A010371",
+    "A063720",
+    "A074458",
+    "A277116",
+    "A328330",
+    "A338255",
+    "A385249",
+    "A386910",
+    "A387106"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are the sum of all primes in an interval [k,2*k] for some k>=1.",
+  "id": "A389113",
+  "mentions": [
+    "A000040",
+    "A073837",
+    "A341632"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

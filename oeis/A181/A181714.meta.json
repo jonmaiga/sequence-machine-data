@@ -1,7 +1,8 @@
 {
-  "description": "Solutions of A181712(n)=1.",
+  "description": "Numbers k such that A181712(k) = 1.",
   "id": "A181714",
   "mentions": [
+    "A001622",
     "A181712",
     "A181713"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

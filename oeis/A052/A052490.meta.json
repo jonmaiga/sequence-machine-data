@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n with only one nonzero solution to \"numbers that are n times sum of their digits\".",
+  "description": "Numbers k such that there is exactly one number which is k times the sum of its digits.",
   "id": "A052490",
   "mentions": [
     "A003634",
     "A003635",
+    "A037478",
     "A052489"
   ],
   "tags": [

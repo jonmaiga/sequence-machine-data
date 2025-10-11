@@ -1,7 +1,9 @@
 {
   "description": "Expansion of (Sum_{n=-inf..inf} x^(n^2))^(-17).",
   "id": "A004418",
-  "mentions": [],
+  "mentions": [
+    "A388153"
+  ],
   "tags": [
     "formulas",
     "sign"

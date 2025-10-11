@@ -1,7 +1,9 @@
 {
-  "description": "Decimal expansion of sine of 80 degrees.",
+  "description": "Decimal expansion of sine of 80 degrees = cos(Pi/18).",
   "id": "A019889",
   "mentions": [
+    "A010527",
+    "A019829",
     "A019849",
     "A019859"
   ],

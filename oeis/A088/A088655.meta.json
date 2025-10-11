@@ -1,8 +1,9 @@
 {
-  "description": "a(n) is the absolute value of floor(x^n), where x=E/(2-E) = -3.784422... is derived from E=A001113.",
+  "description": "a(n) is the absolute value of floor(x^n), where x = e/(2-e) = -3.784422... is derived from e=A001113.",
   "id": "A088655",
   "mentions": [
-    "A001113"
+    "A001113",
+    "A309419"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((-4+3 * sqrt(2))^(1/8) * exp((7 * Pi) / 24)) / 2.",
+  "id": "A388933",
+  "mentions": [
+    "A261775"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

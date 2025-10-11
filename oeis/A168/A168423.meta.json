@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: expansion of (1 - x)/(exp(t)*(1 - x*exp(t*(1 - x)))).",
+  "description": "Triangle read by rows: expansion of e.g.f. (1 - x)/(exp(t)*(1 - x*exp(t*(1 - x)))).",
   "id": "A168423",
   "mentions": [
     "A000166",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

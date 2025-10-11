@@ -2,6 +2,7 @@
   "description": "Decimal expansion of phi(exp(-Pi)), where phi(q) = Product_{n>=1} (1-q^n) is the Euler modular function.",
   "id": "A259148",
   "mentions": [
+    "A010815",
     "A048651",
     "A100220",
     "A100221",

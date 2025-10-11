@@ -1,0 +1,17 @@
+{
+  "description": "Initial term of first maximal bad interval of width n, i.e., initial term of the first run of exactly n+1 consecutive integers in A388654; or 0 if no such interval exists.",
+  "id": "A388850",
+  "mentions": [
+    "A388654"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(n+k-1,k) * binomial(k,n-3*k).",
+  "id": "A389290",
+  "mentions": [
+    "A365725"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

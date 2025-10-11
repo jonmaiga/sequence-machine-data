@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of sqrt(2 * (-1+sqrt(2))).",
+  "id": "A388753",
+  "mentions": [
+    "A210030"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

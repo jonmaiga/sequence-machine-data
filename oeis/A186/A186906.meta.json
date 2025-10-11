@@ -1,10 +1,11 @@
 {
-  "description": "Number of (n+2)X(n+2) 0..6 arrays with each 3X3 subblock having rows and columns in lexicographically nondecreasing order.",
+  "description": "Number of (n+2) X (n+2) 0..6 arrays with each 3 X 3 subblock having rows and columns in lexicographically nondecreasing order.",
   "id": "A186906",
   "mentions": [
     "A186915"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

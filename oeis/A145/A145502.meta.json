@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = a(n)^2+2*a(n)-2 and a(1)=2.",
+  "description": "a(n+1) = a(n)^2 + 2*a(n) - 2 and a(1) = 2.",
   "id": "A145502",
   "mentions": [
     "A000324",

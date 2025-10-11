@@ -1,10 +1,11 @@
 {
-  "description": "Discriminants of cubic domains for cubefree n.",
+  "description": "Discriminant of the pure cubic field Q(m^(1/3)), where m = A004709(n) is the n-th cubefree number.",
   "id": "A242867",
   "mentions": [
     "A000188",
     "A004709",
-    "A007913"
+    "A007913",
+    "A246457"
   ],
   "tags": [
     "formulas",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

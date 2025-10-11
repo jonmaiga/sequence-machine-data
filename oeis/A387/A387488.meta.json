@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [x^n] hypergeom([1/2, 1/2], [1], 256*x).",
+  "id": "A387488",
+  "mentions": [
+    "A036910",
+    "A359761"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

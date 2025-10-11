@@ -1,10 +1,11 @@
 {
-  "description": "T(n,n-3), array T as in A038738.",
+  "description": "a(n) = T(n,n-3), array T as in A038738.",
   "id": "A038740",
   "mentions": [
     "A038738"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

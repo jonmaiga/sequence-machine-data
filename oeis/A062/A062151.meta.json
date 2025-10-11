@@ -1,9 +1,13 @@
 {
-  "description": "Fifth column sequence of triangle A062138 (generalized a=5 Laguerre).",
+  "description": "Fifth column of triangle A062138 (generalized a=5 Laguerre).",
   "id": "A062151",
   "mentions": [
+    "A001113",
+    "A001620",
     "A062138",
-    "A062150"
+    "A062150",
+    "A091725",
+    "A099285"
   ],
   "tags": [
     "easy",
@@ -12,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

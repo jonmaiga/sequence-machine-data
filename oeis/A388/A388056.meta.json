@@ -1,0 +1,21 @@
+{
+  "description": "The decimal expansion of the n-th term of A007500, when read backwards, corresponds to that of the a(n)-th term of A007500.",
+  "id": "A388056",
+  "mentions": [
+    "A002385",
+    "A004086",
+    "A007500",
+    "A095180",
+    "A388055"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

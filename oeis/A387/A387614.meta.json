@@ -1,0 +1,19 @@
+{
+  "description": "The Pythagoras number of the maximal order of the field Q(sqrt(D)), where D = A005117(n) is the n-th squarefree number.",
+  "id": "A387614",
+  "mentions": [
+    "A000118",
+    "A005117",
+    "A263849"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

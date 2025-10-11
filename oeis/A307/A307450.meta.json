@@ -2,7 +2,8 @@
   "description": "Number of cubic graphs with minimal crossing number n and the minimal possible number of vertices.",
   "id": "A307450",
   "mentions": [
-    "A110507"
+    "A110507",
+    "A389263"
   ],
   "tags": [
     "more",

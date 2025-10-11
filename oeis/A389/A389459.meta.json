@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose sum of non-unitary divisors (A162296) is congruent to 2 modulo 4.",
+  "id": "A389459",
+  "mentions": [
+    "A069562",
+    "A162296",
+    "A191217",
+    "A389197",
+    "A389199",
+    "A389458"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

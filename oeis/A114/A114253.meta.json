@@ -2,6 +2,8 @@
   "description": "a(n) = C(5+2*n,5+n)*C(10+2*n,0+n).",
   "id": "A114253",
   "mentions": [
+    "A003516",
+    "A004311",
     "A062190"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

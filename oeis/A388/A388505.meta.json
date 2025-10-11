@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (9 * (7441254+4296210 * sqrt(3))^(1/4) * exp(Pi / 24) * Gamma(7/12)^(17/4) * Gamma(2/3)^(21/2)) / (256 * Pi^(19/4) * Gamma(11/12)^(25/4)).",
+  "id": "A388505",
+  "mentions": [
+    "A107033"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

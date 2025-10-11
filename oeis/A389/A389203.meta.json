@@ -1,0 +1,20 @@
+{
+  "description": "Sum of divisors of the numbers satisfying Euler's condition for odd perfect numbers (A228058).",
+  "id": "A389203",
+  "mentions": [
+    "A000203",
+    "A228058",
+    "A325377",
+    "A389200",
+    "A389201"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

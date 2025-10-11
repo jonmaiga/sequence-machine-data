@@ -2,9 +2,11 @@
   "description": "Number of irredundant sets in the n X n rook complement graph.",
   "id": "A291622",
   "mentions": [
-    "A291623"
+    "A291623",
+    "A384124"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

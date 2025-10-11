@@ -1,10 +1,10 @@
 {
-  "description": "Multiply, cell by cell, sequence A048996 by A178801.",
+  "description": "Irregular triangle T(n,k) = A048996(n,k) * A178801(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A178802",
   "mentions": [
     "A000041",
-    "A000142",
     "A002866",
+    "A036036",
     "A048996",
     "A178801"
   ],
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

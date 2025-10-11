@@ -2,6 +2,7 @@
   "description": "Numbers k such that (2*k - 1)!/(k!)^2 is an integer.",
   "id": "A058008",
   "mentions": [
+    "A000108",
     "A000961",
     "A000984",
     "A001405",

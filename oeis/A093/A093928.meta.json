@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum( A073698(k), k=1...n )^(1/n).",
+  "description": "a(n) = (Sum_{k=1..n} A073698(k))^(1/n).",
   "id": "A093928",
   "mentions": [
     "A073698",

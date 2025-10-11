@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the smallest dihedral angle, in radians, in a gyroelongated pentagonal pyramid (Johnson solid J_11).",
+  "id": "A389109",
+  "mentions": [
+    "A010476",
+    "A179639",
+    "A179640",
+    "A236367"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

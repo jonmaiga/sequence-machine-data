@@ -6,13 +6,12 @@
     "A134629"
   ],
   "tags": [
-    "more",
     "nonn",
     "word"
   ],
   "terms": {
     "offset": 2,
-    "size": 40,
+    "size": 44,
     "source": "oeis-entry"
   }
 }

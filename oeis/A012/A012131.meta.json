@@ -1,5 +1,5 @@
 {
-  "description": "cosh(arcsin(tanh(x)))=1+1/2!*x^2-3/4!*x^4+21/6!*x^6-263/8!*x^8...",
+  "description": "Expansion of e.g.f. cosh(arcsin(tanh(x))) (even powers only).",
   "id": "A012131",
   "mentions": [
     "A000364"

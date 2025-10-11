@@ -1,0 +1,20 @@
+{
+  "description": "Number of good involutions of all nontrivial linear quandles of order n.",
+  "id": "A387317",
+  "mentions": [
+    "A060594",
+    "A202828",
+    "A386233",
+    "A386234"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

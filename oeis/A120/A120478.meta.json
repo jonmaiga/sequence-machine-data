@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(n+6,5)-binomial(n,5).",
+  "description": "a(n) = binomial(n+6,5) - binomial(n,5).",
   "id": "A120478",
   "mentions": [
     "A008488"

@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n with property that Fibonacci(n) has exactly two 1's.",
+  "description": "Numbers k such that Fibonacci(k) has exactly two 1's.",
   "id": "A181691",
   "mentions": [
+    "A000045",
     "A085855"
   ],
   "tags": [

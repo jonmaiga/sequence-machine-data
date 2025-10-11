@@ -2,9 +2,13 @@
   "description": "a(n) = Sum_{k = 0..n} binomial(n,k)*trinomial(n,k), where trinomial(n,k) = trinomial coefficients.",
   "id": "A082759",
   "mentions": [
+    "A000984",
     "A037011",
     "A106228",
-    "A115990"
+    "A115990",
+    "A378403",
+    "A378404",
+    "A385975"
   ],
   "tags": [
     "easy",

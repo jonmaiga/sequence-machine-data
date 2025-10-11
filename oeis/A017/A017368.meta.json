@@ -1,14 +1,20 @@
 {
   "description": "a(n) = (10*n + 8)^4.",
   "id": "A017368",
-  "mentions": [],
+  "mentions": [
+    "A016888",
+    "A016900",
+    "A017365",
+    "A017366"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that sigma(k) AND 3*k = 3*k, where AND is bitwise-and, A004198.",
+  "id": "A388022",
+  "mentions": [
+    "A000203",
+    "A004198",
+    "A005820",
+    "A023197",
+    "A324652",
+    "A388017",
+    "A388023",
+    "A388024",
+    "A388025",
+    "A388026"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

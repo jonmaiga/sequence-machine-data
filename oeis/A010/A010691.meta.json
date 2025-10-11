@@ -2,6 +2,7 @@
   "description": "Period 2: repeat (1,10).",
   "id": "A010691",
   "mentions": [
+    "A000035",
     "A010695",
     "A010712",
     "A036117",
@@ -21,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
+    "size": 72,
     "source": "joeis"
   }
 }

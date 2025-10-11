@@ -1,5 +1,5 @@
 {
-  "description": "Array: row n shows the Look-and-Say partitions of n >=1, in Mathematica order.",
+  "description": "Array: row n shows the Look-and-Say partitions of n >= 1, in Mathematica order.",
   "id": "A239454",
   "mentions": [
     "A005150",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 85,
+    "size": 99,
     "source": "oeis-bfile"
   }
 }

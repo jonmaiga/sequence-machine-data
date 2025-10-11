@@ -2,9 +2,11 @@
   "description": "Positive integers not divisible by any of their own prime-factorization exponents.",
   "id": "A124184",
   "mentions": [
+    "A001694",
     "A124438"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

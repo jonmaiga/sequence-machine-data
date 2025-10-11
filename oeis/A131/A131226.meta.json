@@ -1,13 +1,17 @@
 {
-  "description": "Triangle read by rows: 3*A002260 - 2*A128174 as infinite lower triangular matrices.",
+  "description": "Triangle read by rows: T(n,k) = 3*k - 1 - (-1)^(n+k), for 1 <= k <= n, n >= 1.",
   "id": "A131226",
   "mentions": [
-    "A002260",
+    "A000027",
+    "A001057",
+    "A016777",
     "A095894",
-    "A128174",
-    "A131225"
+    "A131225",
+    "A211538"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

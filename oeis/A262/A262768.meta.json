@@ -1,10 +1,13 @@
 {
-  "description": "a(n) = binomial(2*n+2,n)-2*binomial(2*n,n)+binomial(2*n-2,n).",
+  "description": "a(n) = binomial(2*n+2,n) - 2*binomial(2*n,n) + binomial(2*n-2,n).",
   "id": "A262768",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A000984",
+    "A001791"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

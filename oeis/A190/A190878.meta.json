@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp(x/(1-x-x^4)).",
+  "description": "Expansion of e.g.f. exp(x/(1-x-x^4)).",
   "id": "A190878",
   "mentions": [],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 64 * 3^k - 1 is prime.",
+  "id": "A387760",
+  "mentions": [
+    "A003307",
+    "A005540",
+    "A005541",
+    "A027856",
+    "A385115",
+    "A387197",
+    "A387761"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

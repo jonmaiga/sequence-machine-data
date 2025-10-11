@@ -1,0 +1,22 @@
+{
+  "description": "Integers x such that there exist three numbers y,z,and t with x<=y<=z<=t such that psi(x) = psi(y) = psi(z) = psi(t) = (x + y + z + t)/3.",
+  "id": "A387292",
+  "mentions": [
+    "A001615",
+    "A385852",
+    "A386727",
+    "A386901",
+    "A386933",
+    "A387291",
+    "A387486"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,15 @@
 {
-  "description": "Triangle read by rows: A130209 * A051731 as infinite lower triangular matrices.",
+  "description": "Triangle read by rows: T(n, k) = A000005(n) if k divides n, T(n, k) = 0 otherwise.",
   "id": "A130277",
   "mentions": [
     "A000005",
     "A035116",
     "A051731",
-    "A130209"
+    "A130209",
+    "A130210"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

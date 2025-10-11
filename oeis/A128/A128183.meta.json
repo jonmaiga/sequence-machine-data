@@ -1,16 +1,18 @@
 {
-  "description": "Row sums of A128182.",
+  "description": "Row sums of triangle A128182.",
   "id": "A128183",
   "mentions": [
+    "A008794",
     "A128182"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
-    "source": "joeis"
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

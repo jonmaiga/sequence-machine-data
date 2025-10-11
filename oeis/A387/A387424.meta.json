@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A387423.",
+  "id": "A387424",
+  "mentions": [
+    "A000203",
+    "A387423",
+    "A387425"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Odd numbers k such that the powerful part of the sum of divisors of k (A387726) is greater than or equal to k, and sigma(k) is not itself a powerful number.",
+  "id": "A387719",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A057521",
+    "A162284",
+    "A228058",
+    "A386426",
+    "A386428",
+    "A387726",
+    "A387729"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

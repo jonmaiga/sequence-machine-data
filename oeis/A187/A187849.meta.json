@@ -1,5 +1,5 @@
 {
-  "description": "Integers k such that 2^(k-1) == 1 (mod k) and 2^(m-1) == 1 (mod m), where m is defined as m = k*(A000265(k-1) - 1) + 1.",
+  "description": "Integers k such that 2^(k-1) == 1 (mod k) and 2^(m-1) == 1 (mod m), where m = k*(A000265(k-1) - 1) + 1 and A000265 gives the odd part of its argument.",
   "id": "A187849",
   "mentions": [
     "A000265",

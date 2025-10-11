@@ -1,5 +1,5 @@
 {
-  "description": "2*A094555(n).",
+  "description": "a(n) = 2*A094555(n).",
   "id": "A140431",
   "mentions": [
     "A077925",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
-    "source": "joeis"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "A151723(2^n).",
+  "description": "a(n) = A151723(2^n).",
   "id": "A169785",
   "mentions": [
     "A151723",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

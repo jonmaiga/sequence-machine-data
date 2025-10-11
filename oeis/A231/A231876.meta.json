@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that omega(n)^2 (cf. A001221) divides n.",
+  "description": "Numbers k such that omega(k)^2 (cf. A001221) divides k.",
   "id": "A231876",
   "mentions": [
     "A001221",

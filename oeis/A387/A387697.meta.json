@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the probability that a Poisson(1) random variable is a power of 2.",
+  "id": "A387697",
+  "mentions": [
+    "A068985",
+    "A387398",
+    "A387399"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

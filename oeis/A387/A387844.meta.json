@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n,5*k).",
+  "id": "A387844",
+  "mentions": [
+    "A070782",
+    "A139398",
+    "A377627",
+    "A377840",
+    "A387843",
+    "A387845",
+    "A387847",
+    "A387848"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

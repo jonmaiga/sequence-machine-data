@@ -1,0 +1,21 @@
+{
+  "description": "Primitive terms of A388034.",
+  "id": "A388035",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A276086",
+    "A388034",
+    "A388037",
+    "A388272"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that there exists a prime p for which p+x_1, ..., p+x_1+...+x_j are prime, where (x_1, ..., x_j) is the k-th composition in graded reverse lexicographic order (\"standard order\", see A066099), i.e., such that A387381(k) != 0.",
+  "id": "A387382",
+  "mentions": [
+    "A066099",
+    "A387381",
+    "A387383"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

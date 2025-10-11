@@ -2,7 +2,10 @@
   "description": "Continued fraction for sqrt(14).",
   "id": "A010123",
   "mentions": [
-    "A010471"
+    "A010471",
+    "A041020",
+    "A041021",
+    "A248243"
   ],
   "tags": [
     "cofr",

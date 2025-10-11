@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((4+3 * sqrt(2))^(1/8) * exp(Pi / 4) * Gamma(1/4) * sin(Pi / 8)) / (2^(5/8) * Pi^(3/4)).",
+  "id": "A388598",
+  "mentions": [
+    "A132965"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "Divide, cell by cell, sequence A178802 by sequence A178888.",
+  "description": "Irregular triangle T(n,k) = A178802(n,k) / A178888(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A178886",
   "mentions": [
     "A000041",
     "A000522",
     "A002866",
+    "A036036",
     "A178802",
     "A178887",
     "A178888"
@@ -16,8 +17,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
   }
 }

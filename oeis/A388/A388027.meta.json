@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k of the form 4u+2 for which sigma(k) >= 2*k and sigma(k)-2*k AND k = k, where AND is bitwise-and, A004198.",
+  "id": "A388027",
+  "mentions": [
+    "A000203",
+    "A004198",
+    "A016825",
+    "A228058",
+    "A324647",
+    "A388023",
+    "A388026"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

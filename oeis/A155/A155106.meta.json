@@ -1,5 +1,5 @@
 {
-  "description": "For each term k in this sequence, both k and k+1 can expressed as sum of three distinct nonzero squares in 2 or more ways.",
+  "description": "Numbers k such that both k and k+1 can be expressed as the sum of three distinct nonzero squares in 2 or more ways.",
   "id": "A155106",
   "mentions": [
     "A024804"

@@ -12,11 +12,12 @@
     "hard",
     "more",
     "nice",
-    "nonn"
+    "nonn",
+    "unsolved"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

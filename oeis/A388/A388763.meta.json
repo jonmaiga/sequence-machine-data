@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/32) * exp(3*Pi/4) * sqrt(2) * Gamma(5/8)^3 * (1+sqrt(2)) / Pi^(3/4) / Gamma(7/8)^3.",
+  "id": "A388763",
+  "mentions": [
+    "A213624"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

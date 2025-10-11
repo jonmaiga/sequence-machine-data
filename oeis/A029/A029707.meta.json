@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th and the (n+1)-st primes are twin primes.",
+  "description": "Numbers k such that the k-th and the (k+1)-st primes are twin primes.",
   "id": "A029707",
   "mentions": [
     "A000040",

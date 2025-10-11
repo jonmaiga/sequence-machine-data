@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (sum of digits of n!) / 9 is prime.",
+  "description": "Numbers k such that (sum of digits of k!) / 9 is prime.",
   "id": "A202706",
   "mentions": [
     "A000142",
@@ -7,7 +7,6 @@
   ],
   "tags": [
     "base",
-    "formulas",
     "nonn"
   ],
   "terms": {

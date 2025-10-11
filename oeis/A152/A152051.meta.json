@@ -1,7 +1,10 @@
 {
   "description": "Hardy-Littlewood approximation to the number of twin primes less than 10^n.",
   "id": "A152051",
-  "mentions": [],
+  "mentions": [
+    "A005597",
+    "A007508"
+  ],
   "tags": [
     "formulas",
     "nonn"

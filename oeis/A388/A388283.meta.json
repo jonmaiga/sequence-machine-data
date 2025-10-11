@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of (3*n - sigma(n)) / n.",
+  "id": "A388283",
+  "mentions": [
+    "A000203",
+    "A005820",
+    "A009194",
+    "A017666",
+    "A023197",
+    "A033885",
+    "A068403",
+    "A364977",
+    "A388284"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

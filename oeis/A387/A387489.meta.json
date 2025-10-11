@@ -1,0 +1,18 @@
+{
+  "description": "Number of packing 1X1X2 bricks into 2X2Xn boxes considering packings obtained by rigid motions equivalent.",
+  "id": "A387489",
+  "mentions": [
+    "A006253",
+    "A109437"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

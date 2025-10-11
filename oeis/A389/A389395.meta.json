@@ -1,0 +1,16 @@
+{
+  "description": "Sequence which is the partial sums of the proper divisors of its own elements.",
+  "id": "A389395",
+  "mentions": [
+    "A001065"
+  ],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

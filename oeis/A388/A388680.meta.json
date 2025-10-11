@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/18) * exp(2*Pi/3) * 3^(1/2).",
+  "id": "A388680",
+  "mentions": [
+    "A164271"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

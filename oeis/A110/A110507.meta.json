@@ -2,7 +2,8 @@
   "description": "Number of nodes in the smallest cubic graph with crossing number n.",
   "id": "A110507",
   "mentions": [
-    "A307450"
+    "A307450",
+    "A389265"
   ],
   "tags": [
     "more",

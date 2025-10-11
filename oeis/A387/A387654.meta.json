@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that each of k and k+1 is either a practical number (A005153) or an almost practical number (A174533).",
+  "id": "A387654",
+  "mentions": [
+    "A005153",
+    "A096399",
+    "A103289",
+    "A174533",
+    "A287681",
+    "A387653"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

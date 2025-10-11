@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A351569(A228058(n)), where A351569(x) is the sum of divisors of the largest unitary divisor of x that is an exponentially odd number, and A228058 gives the numbers satisfying Euler's condition for odd perfect numbers.",
+  "id": "A389201",
+  "mentions": [
+    "A000203",
+    "A228058",
+    "A350389",
+    "A351569",
+    "A389161",
+    "A389200",
+    "A389203"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

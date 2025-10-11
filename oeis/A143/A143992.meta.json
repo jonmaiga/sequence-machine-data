@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the prime factors of n (counted with multiplicity) is a proper substring of n.",
+  "description": "Numbers k such that the sum of the prime factors of k (counted with multiplicity) is a proper substring of k.",
   "id": "A143992",
   "mentions": [],
   "tags": [

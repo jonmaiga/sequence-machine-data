@@ -1,11 +1,12 @@
 {
-  "description": "Triangle read by rows: A000012 * A054525 regarded as infinite lower triangular matrices.",
+  "description": "Triangle read by rows: T(n,k) = A002321(floor(n/k)).",
   "id": "A134541",
   "mentions": [
     "A000012",
     "A002088",
     "A002321",
     "A054525",
+    "A134542",
     "A176702"
   ],
   "tags": [

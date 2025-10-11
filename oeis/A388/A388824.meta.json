@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (81 * (2+sqrt(5)) * Pi) / (1280 * Gamma(7/4)^4).",
+  "id": "A388824",
+  "mentions": [
+    "A236929"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

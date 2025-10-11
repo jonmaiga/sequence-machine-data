@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^5 + 3n^3 + 2n = n(n^2+1)(n^2+2).",
+  "description": "a(n) = n^5 + 3*n^3 + 2*n = n*(n^2 + 1)*(n^2 + 2).",
   "id": "A120573",
   "mentions": [
     "A002522",
@@ -8,11 +8,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which sigma(k) >= 2*k and (sigma(k) - 2*k) AND k = k, where AND is bitwise-and, A004198.",
+  "id": "A388026",
+  "mentions": [
+    "A000203",
+    "A004198",
+    "A005820",
+    "A023197",
+    "A033880",
+    "A388022",
+    "A388024",
+    "A388027"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Complement of A045944.",
+  "id": "A387644",
+  "mentions": [
+    "A045944"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

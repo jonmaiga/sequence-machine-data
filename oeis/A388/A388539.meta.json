@@ -1,0 +1,19 @@
+{
+  "description": "Sum of decimal digits of Fibonacci(n)^2.",
+  "id": "A388539",
+  "mentions": [
+    "A007598",
+    "A007953",
+    "A216676"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of nonprimes in the k-th 2-dense sublist of divisors of n, with n >= 1, k >= 1.",
+  "id": "A386992",
+  "mentions": [
+    "A018252",
+    "A033273",
+    "A174973",
+    "A237271",
+    "A379288",
+    "A384149",
+    "A384222",
+    "A384225",
+    "A384226",
+    "A384928",
+    "A384930",
+    "A384931",
+    "A386984",
+    "A386993",
+    "A387030"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

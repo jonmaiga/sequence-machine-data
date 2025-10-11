@@ -2,10 +2,17 @@
   "description": "Decimal expansion of tangent of 10 degrees.",
   "id": "A019908",
   "mentions": [
-    "A019918"
+    "A019819",
+    "A019829",
+    "A019879",
+    "A019889",
+    "A019918",
+    "A019948",
+    "A019968"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

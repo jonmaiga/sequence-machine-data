@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that the largest part is >= n/2 and adjacent parts differ by at least 2.",
+  "id": "A387735",
+  "mentions": [
+    "A387736",
+    "A387737",
+    "A387738",
+    "A387739",
+    "A387740"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

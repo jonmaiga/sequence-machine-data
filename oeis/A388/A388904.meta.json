@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (128 * (4756+3363 * sqrt(2))^(1/4) * exp(Pi / 8) * Gamma(5/4)^4 * sin(Pi / 8)^4) / Pi^3.",
+  "id": "A388904",
+  "mentions": [
+    "A259790"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

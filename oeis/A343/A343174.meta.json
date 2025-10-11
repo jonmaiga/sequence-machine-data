@@ -2,7 +2,9 @@
   "description": "Partial sums of paper-folding sequence A014577.",
   "id": "A343174",
   "mentions": [
-    "A014577"
+    "A004526",
+    "A014577",
+    "A033264"
   ],
   "tags": [
     "formulas",

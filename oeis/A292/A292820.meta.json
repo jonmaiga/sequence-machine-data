@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Product_{k>=1} (1 + exp(-Pi*k)).",
   "id": "A292820",
   "mentions": [
+    "A000009",
     "A259148",
     "A259149",
     "A292819",

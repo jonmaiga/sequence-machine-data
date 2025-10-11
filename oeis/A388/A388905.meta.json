@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of -(1/16) * exp(Pi) * (sqrt(2)-2).",
+  "id": "A388905",
+  "mentions": [
+    "A260145"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

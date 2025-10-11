@@ -10,11 +10,13 @@
     "A093479"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 113,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

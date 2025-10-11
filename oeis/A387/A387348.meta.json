@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = W(n,2) - S(n,2) where W is the Wythoff array (A035513) and S is the Stolarsky array (A035506).",
+  "id": "A387348",
+  "mentions": [
+    "A000045",
+    "A035506",
+    "A035513",
+    "A387349",
+    "A387350",
+    "A387351"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

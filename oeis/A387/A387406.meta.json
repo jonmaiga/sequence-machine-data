@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(A253560(k)) / A253560(k) is equal to (sigma(k)+1) / k, where A253560(k) = k multiplied by its largest prime factor.",
+  "id": "A387406",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001221",
+    "A006530",
+    "A023194",
+    "A053585",
+    "A240991",
+    "A253560",
+    "A387405"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

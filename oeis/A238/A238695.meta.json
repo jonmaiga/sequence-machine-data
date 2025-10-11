@@ -1,10 +1,11 @@
 {
-  "description": "Decimal expansion of Product_{n>=0} (1+1/n!).",
+  "description": "Decimal expansion of Product_{k>=0} (1+1/k!).",
   "id": "A238695",
   "mentions": [
     "A072334",
     "A217757",
-    "A282529"
+    "A282529",
+    "A387175"
   ],
   "tags": [
     "cons",

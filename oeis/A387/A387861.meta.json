@@ -1,0 +1,20 @@
+{
+  "description": "Number of black-white-balanced permutations of [n].",
+  "id": "A387861",
+  "mentions": [
+    "A004526",
+    "A014601",
+    "A042963",
+    "A110654",
+    "A226288"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

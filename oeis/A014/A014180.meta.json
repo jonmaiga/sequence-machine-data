@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 0..n} binomial(n,k)^3*binomial(n+k,k)^2.",
+  "description": "a(n) = Sum_{k = 0..n} binomial(n,k)^3*binomial(n+k,k)^2.",
   "id": "A014180",
   "mentions": [
     "A005258",

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of d = 1-(1+log(log(2)))/log(2) = 0.08607133....",
+  "description": "Decimal expansion of 1-(1+log(log(2)))/log(2).",
   "id": "A074738",
   "mentions": [
     "A002174"

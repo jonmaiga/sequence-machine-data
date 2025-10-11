@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^(n-k) * binomial(n,k) * binomial(n+2,k).",
+  "id": "A388409",
+  "mentions": [
+    "A098663",
+    "A388202",
+    "A388410",
+    "A388411"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

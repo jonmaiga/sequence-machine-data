@@ -2,7 +2,8 @@
   "description": "Sum of the remainders when n^2 is divided by squares less than n.",
   "id": "A067459",
   "mentions": [
-    "A000290"
+    "A000290",
+    "A072516"
   ],
   "tags": [
     "easy",

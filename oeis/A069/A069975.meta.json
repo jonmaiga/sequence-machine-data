@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = n*(16*n^2-1).",
+  "description": "a(n) = n*(16*n^2 - 1).",
   "id": "A069975",
   "mentions": [
-    "A016631"
+    "A016631",
+    "A069140"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 36,
     "source": "joeis"
   }
 }

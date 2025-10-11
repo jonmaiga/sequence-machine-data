@@ -1,0 +1,21 @@
+{
+  "description": "The maximal norm of an additively indecomposable element in the real quadratic field Q(sqrt(D)), where D = A005117(n) is the n-th squarefree number.",
+  "id": "A387207",
+  "mentions": [
+    "A003654",
+    "A005117",
+    "A035015",
+    "A121339",
+    "A387203",
+    "A387618"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

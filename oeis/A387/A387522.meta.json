@@ -1,0 +1,18 @@
+{
+  "description": "Index of first term in A386482 that is divisible by the n-th prime.",
+  "id": "A387522",
+  "mentions": [
+    "A386482",
+    "A386483",
+    "A387072",
+    "A387076"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

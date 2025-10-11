@@ -2,7 +2,6 @@
   "description": "Product of first n Lucas numbers, plus one.",
   "id": "A103845",
   "mentions": [
-    "A000045",
     "A000204",
     "A000217",
     "A052449",

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 5^n + 4.",
+  "description": "Primes of the form 5^k + 4.",
   "id": "A228028",
   "mentions": [
     "A057733",

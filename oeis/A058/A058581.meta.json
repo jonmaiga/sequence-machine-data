@@ -1,14 +1,15 @@
 {
-  "description": "(4*n^2+2*n-3)*(2*n-1)*n/3.",
+  "description": "a(n) = (4*n^2 + 2*n - 3)*(2*n - 1)*n/3.",
   "id": "A058581",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 35,
     "source": "joeis"
   }
 }

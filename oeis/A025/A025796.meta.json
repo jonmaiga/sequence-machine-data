@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^3)(1-x^6)).",
+  "description": "Expansion of 1/((1-x^2)*(1-x^3)*(1-x^6)).",
   "id": "A025796",
   "mentions": [
     "A024163"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 61,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

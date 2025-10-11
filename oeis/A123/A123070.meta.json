@@ -2,6 +2,7 @@
   "description": "Hofstadter Flip-G-sequence.",
   "id": "A123070",
   "mentions": [
+    "A001622",
     "A005206",
     "A060144"
   ],

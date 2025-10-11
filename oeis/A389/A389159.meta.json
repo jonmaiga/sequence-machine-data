@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of complex spherical realizations among all minimally rigid graphs on n vertices.",
+  "id": "A389159",
+  "mentions": [
+    "A227117",
+    "A273468",
+    "A306420"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (sqrt(2/5+1 / sqrt(5)) * Pi) / Gamma(3/4)^4.",
+  "id": "A388825",
+  "mentions": [
+    "A236930"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

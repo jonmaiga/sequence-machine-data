@@ -6,11 +6,12 @@
     "A290640"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
     "size": 26,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

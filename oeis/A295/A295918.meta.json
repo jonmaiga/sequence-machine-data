@@ -1,9 +1,15 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 0 or 3 king-move neighboring 1s.",
+  "description": "T(n,k)=Number of n X k 0..1 arrays with each 1 adjacent to 0 or 3 king-move neighboring 1s.",
   "id": "A295918",
   "mentions": [
     "A000045",
-    "A002478"
+    "A002478",
+    "A295912",
+    "A295913",
+    "A295914",
+    "A295915",
+    "A295916",
+    "A295917"
   ],
   "tags": [
     "formulas",

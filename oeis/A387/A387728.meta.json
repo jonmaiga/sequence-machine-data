@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the powerful part of the sum of divisors of k (A387726) is less than k.",
+  "id": "A387728",
+  "mentions": [
+    "A000203",
+    "A057521",
+    "A387726",
+    "A387727"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

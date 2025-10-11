@@ -1,0 +1,17 @@
+{
+  "description": "Number of Sylow permutations in S_n.",
+  "id": "A387061",
+  "mentions": [
+    "A000142",
+    "A186202"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

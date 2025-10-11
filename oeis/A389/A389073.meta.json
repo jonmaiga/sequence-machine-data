@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = sigma(A332818(n)), where sigma is the sum of divisors, and A332818(n) = A108548(A003961(A332808(n))) [a special prime shift].",
+  "id": "A389073",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A108548",
+    "A332808",
+    "A332818",
+    "A354089",
+    "A354093",
+    "A389081"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

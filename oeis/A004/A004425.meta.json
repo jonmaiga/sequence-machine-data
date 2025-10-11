@@ -1,7 +1,9 @@
 {
   "description": "Expansion of (Sum x^(n^2), n = -inf .. inf )^(-24).",
   "id": "A004425",
-  "mentions": [],
+  "mentions": [
+    "A388160"
+  ],
   "tags": [
     "formulas",
     "sign"

@@ -2,8 +2,11 @@
   "description": "Values of n corresponding to the terms in sequence A080155. For any k, the concatenation of the a(1) to a(k)-th primes is prime and each value of k is the smallest for which this is true.",
   "id": "A080156",
   "mentions": [
+    "A000720",
     "A073640",
     "A080152",
+    "A080153",
+    "A080154",
     "A080155"
   ],
   "tags": [

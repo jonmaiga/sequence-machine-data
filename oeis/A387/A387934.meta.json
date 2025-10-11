@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where A(n,k) = Sum_{j=0..n} binomial(n,j) * binomial(k*n+j,j).",
+  "id": "A387934",
+  "mentions": [
+    "A000079",
+    "A001850",
+    "A114496",
+    "A156886",
+    "A156887",
+    "A306280",
+    "A341470",
+    "A359646"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

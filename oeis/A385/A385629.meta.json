@@ -1,0 +1,19 @@
+{
+  "description": "Number of equivalence classes of connected 4-regular graphs on n unlabeled nodes up to local complementation.",
+  "id": "A385629",
+  "mentions": [
+    "A006820",
+    "A033301",
+    "A090899",
+    "A156800"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

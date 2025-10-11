@@ -3,17 +3,21 @@
   "id": "A365771",
   "mentions": [
     "A000108",
+    "A007004",
     "A033042",
     "A165817",
+    "A319578",
+    "A356770",
     "A365770"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

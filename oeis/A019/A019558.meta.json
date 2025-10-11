@@ -1,7 +1,9 @@
 {
   "description": "Coordination sequence for F_4 lattice.",
   "id": "A019558",
-  "mentions": [],
+  "mentions": [
+    "A167471"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

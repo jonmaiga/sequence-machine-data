@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of n into k distinct parts containing k as a part.",
+  "id": "A389344",
+  "mentions": [
+    "A000009",
+    "A064428",
+    "A240855",
+    "A240861",
+    "A343941",
+    "A344649"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

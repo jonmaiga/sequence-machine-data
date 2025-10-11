@@ -1,0 +1,19 @@
+{
+  "description": "The smallest prime factor of (10*n + 5)^4 + 4^(10*n + 5).",
+  "id": "A387217",
+  "mentions": [
+    "A001589",
+    "A017329",
+    "A017332",
+    "A020639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

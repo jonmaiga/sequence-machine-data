@@ -1,5 +1,5 @@
 {
-  "description": "Floor(sum_{i=1..n} (sum_{j=1..i} sqrt(1/j))).",
+  "description": "Floor(Sum_{i=1..n} (Sum_{j=1..i} sqrt(1/j))).",
   "id": "A225154",
   "mentions": [
     "A022819",

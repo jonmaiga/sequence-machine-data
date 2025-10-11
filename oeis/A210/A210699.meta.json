@@ -2,7 +2,10 @@
   "description": "Number of bilaterally asymmetric 8-hoops with n symbols and no a-rooted trees.",
   "id": "A210699",
   "mentions": [
-    "A210768"
+    "A060560",
+    "A210766",
+    "A210768",
+    "A295925"
   ],
   "tags": [
     "easy",

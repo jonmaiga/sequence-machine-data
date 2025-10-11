@@ -1,0 +1,17 @@
+{
+  "description": "Powerful part of n*(n+1): a(n) = A057521(n*(n+1)).",
+  "id": "A389244",
+  "mentions": [
+    "A002378",
+    "A057521"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

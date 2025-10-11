@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 3*Pi/(8*sqrt(2)).",
+  "id": "A387468",
+  "mentions": [
+    "A000796",
+    "A002193",
+    "A068467",
+    "A203130",
+    "A244976"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

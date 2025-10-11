@@ -1,0 +1,20 @@
+{
+  "description": "Number of points in a face-centered cubic lattice that intersect a sphere of radius n centered on a point in the lattice.",
+  "id": "A386315",
+  "mentions": [
+    "A004015",
+    "A016725",
+    "A278081",
+    "A387222",
+    "A387223"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

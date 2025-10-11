@@ -1,7 +1,9 @@
 {
   "description": "Molecular topological indices of the crossed prism graphs.",
   "id": "A192793",
-  "mentions": [],
+  "mentions": [
+    "A047667"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 36,
     "source": "joeis"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A351568(A228058(n)), where A351568(x) is the sum of divisors of the largest unitary divisor of x that is a square, and A228058 gives the numbers satisfying Euler's condition for odd perfect numbers.",
+  "id": "A389200",
+  "mentions": [
+    "A000203",
+    "A065768",
+    "A228058",
+    "A350388",
+    "A351568",
+    "A389160",
+    "A389201",
+    "A389203"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

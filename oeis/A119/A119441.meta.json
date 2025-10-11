@@ -1,11 +1,15 @@
 {
-  "description": "Distribution of A063834 in Abramowitz and Stegun order.",
+  "description": "Triangle T(n,k) read by rows: product of A000041(a_i) over all parts a_i of the k-th partition of n listed in Abramowitz and Stegun order, 1 <= k <= A000041(n).",
   "id": "A119441",
   "mentions": [
     "A000041",
+    "A036036",
     "A036043",
     "A063834",
-    "A119442"
+    "A119442",
+    "A119443",
+    "A179314",
+    "A321449"
   ],
   "tags": [
     "easy",

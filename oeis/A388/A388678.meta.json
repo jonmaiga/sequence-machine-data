@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(7*Pi/24) * Pi^(3/4) * 2^(1/4) / Gamma(3/4)^3.",
+  "id": "A388678",
+  "mentions": [
+    "A160832"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

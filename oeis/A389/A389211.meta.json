@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A048146(k)+A162296(k) <= 2*k, where A048146 is the sum of non-unitary divisors of n, and A162296 is the sum of divisors of n that have a square factor.",
+  "id": "A389211",
+  "mentions": [
+    "A005117",
+    "A034448",
+    "A048146",
+    "A162296",
+    "A325974",
+    "A325978",
+    "A389212",
+    "A389213"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(5*Pi/12) * 2^(3/4).",
+  "id": "A388252",
+  "mentions": [
+    "A022575"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

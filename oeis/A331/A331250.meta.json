@@ -2,6 +2,7 @@
   "description": "a(n) = number of triangles with integer sides i <= j <= k with area <= n.",
   "id": "A331250",
   "mentions": [
+    "A135622",
     "A316853",
     "A317182",
     "A331011",

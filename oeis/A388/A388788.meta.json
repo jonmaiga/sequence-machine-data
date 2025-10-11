@@ -1,0 +1,22 @@
+{
+  "description": "Array read by downward antidiagonals: T(n,k) is the number of partitions of [n], n >= 1, k >= 1, into cycles labeled with positive integers, such that the labels sum to k.",
+  "id": "A388788",
+  "mentions": [
+    "A000096",
+    "A000774",
+    "A023545",
+    "A247329",
+    "A271699",
+    "A387299"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

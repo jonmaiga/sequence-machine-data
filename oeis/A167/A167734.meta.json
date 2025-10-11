@@ -1,5 +1,5 @@
 {
-  "description": "Primes that becomes a square when prefixed with a 1.",
+  "description": "Primes that become squares when prefixed with a 1.",
   "id": "A167734",
   "mentions": [
     "A167735",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^2+5n+c (n>=0), where c=3 for even n and c=-3 for odd n.",
+  "description": "Primes of the form n^2+5*n+c (n>=0), where c=3 for even n and c=-3 for odd n.",
   "id": "A117012",
   "mentions": [
     "A014209",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

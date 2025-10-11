@@ -1,0 +1,15 @@
+{
+  "description": "Indices where the cumulative sum of sin(2k+1)^(2k+1) reaches a record low value.",
+  "id": "A387730",
+  "mentions": [
+    "A387706"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

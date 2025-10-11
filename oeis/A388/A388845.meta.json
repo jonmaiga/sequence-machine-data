@@ -1,0 +1,22 @@
+{
+  "description": "The smallest start of a run of exactly n consecutive positive integers for which the number of exponential divisors of their factorials is strictly increasing.",
+  "id": "A388845",
+  "mentions": [
+    "A000142",
+    "A049419",
+    "A322791",
+    "A388840",
+    "A388843",
+    "A388844",
+    "A388846"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

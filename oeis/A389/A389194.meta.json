@@ -1,0 +1,21 @@
+{
+  "description": "Number of chiral pairs of asymmetric polyominoes with n pentagonal cells of the hyperbolic regular tiling with Schläfli symbol {5,oo}.",
+  "id": "A389194",
+  "mentions": [
+    "A002293",
+    "A005038",
+    "A005040",
+    "A369471",
+    "A369472",
+    "A385149"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

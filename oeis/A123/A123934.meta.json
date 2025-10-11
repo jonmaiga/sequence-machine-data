@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), 1<=k<=n :forms the odd-indexed trinomial coefficients (A027907).",
+  "description": "Triangle T(n,k), 1<=k<=n: forms the odd-indexed trinomial coefficients (A027907).",
   "id": "A123934",
   "mentions": [
     "A003462",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 55,
     "source": "joeis"
   }
 }

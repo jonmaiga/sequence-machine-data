@@ -2,10 +2,12 @@
   "description": "Sum of the parts in the partitions of n into two squarefree semiprimes.",
   "id": "A280832",
   "mentions": [
+    "A280710",
     "A280829"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

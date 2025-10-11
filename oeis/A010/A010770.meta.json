@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 8th root of 2.",
   "id": "A010770",
-  "mentions": [],
+  "mentions": [
+    "A080054"
+  ],
   "tags": [
     "cons",
     "formulas",

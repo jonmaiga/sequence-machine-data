@@ -1,7 +1,9 @@
 {
   "description": "q-expansion of modular form of weight 13/2: eta(8 tau)^12 * theta(tau).",
   "id": "A002284",
-  "mentions": [],
+  "mentions": [
+    "A388103"
+  ],
   "tags": [
     "formulas",
     "nice",

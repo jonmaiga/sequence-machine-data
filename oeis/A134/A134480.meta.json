@@ -1,21 +1,21 @@
 {
-  "description": "A134478 * A000012.",
+  "description": "Triangle read by rows: T(n,k) = Sum_{i=k..n} n + i.",
   "id": "A134480",
   "mentions": [
     "A000012",
-    "A134478",
-    "A134479",
+    "A005843",
+    "A045943",
+    "A051162",
     "A134481"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "joeis"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

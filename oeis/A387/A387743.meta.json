@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (1/5) * Sum_{k=0..n-1} binomial(5*n,5*k+1).",
+  "id": "A387743",
+  "mentions": [
+    "A015565",
+    "A070782",
+    "A387744",
+    "A387745",
+    "A387748",
+    "A387751",
+    "A387752",
+    "A387753",
+    "A387754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

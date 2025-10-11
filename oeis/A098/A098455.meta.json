@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of 1/sqrt(1-4x-36x^2).",
+  "description": "Expansion of 1/sqrt(1-4*x-36*x^2).",
   "id": "A098455",
   "mentions": [
-    "A084770"
+    "A084770",
+    "A387428"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Minimal number of Farey fractions in between two fractions that are not similarly ordered.",
+  "id": "A386893",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

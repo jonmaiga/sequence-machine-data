@@ -1,0 +1,22 @@
+{
+  "description": "Number of oriented polyominoes with n heptagonal cells of the hyperbolic regular tiling with Schläfli symbol {7,oo}.",
+  "id": "A389561",
+  "mentions": [
+    "A002295",
+    "A005419",
+    "A221184",
+    "A295224",
+    "A389562",
+    "A389563",
+    "A389564"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

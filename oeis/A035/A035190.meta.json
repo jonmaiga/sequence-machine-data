@@ -1,7 +1,9 @@
 {
   "description": "Fourier coefficients of (normalized Delta)^5.",
   "id": "A035190",
-  "mentions": [],
+  "mentions": [
+    "A388405"
+  ],
   "tags": [
     "easy",
     "formulas",

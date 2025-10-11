@@ -1,0 +1,21 @@
+{
+  "description": "Primes in the order in which they first divide a term of A386482.",
+  "id": "A387523",
+  "mentions": [
+    "A386482",
+    "A386483",
+    "A387072",
+    "A387076",
+    "A387077",
+    "A387522",
+    "A387524"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

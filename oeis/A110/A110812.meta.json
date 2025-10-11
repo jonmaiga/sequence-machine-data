@@ -1,5 +1,5 @@
 {
-  "description": "Fractalization of sqrt 2.",
+  "description": "Fractalization of sqrt(2).",
   "id": "A110812",
   "mentions": [
     "A002193",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
-    "source": "oeis-entry"
+    "size": 90,
+    "source": "oeis-bfile"
   }
 }

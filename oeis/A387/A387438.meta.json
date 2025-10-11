@@ -1,0 +1,17 @@
+{
+  "description": "Number of Hamiltonian paths in the n-Cameron graph.",
+  "id": "A387438",
+  "mentions": [
+    "A387375"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

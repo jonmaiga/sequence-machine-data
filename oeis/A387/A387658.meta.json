@@ -1,0 +1,18 @@
+{
+  "description": "Number of points on a cubic lattice that have a minimum distance sqrt(n) from either of two adjacent lattice points.",
+  "id": "A387658",
+  "mentions": [
+    "A004018",
+    "A004215",
+    "A005875"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

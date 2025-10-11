@@ -2,10 +2,13 @@
   "description": "Decimal expansion of tangent of 50 degrees.",
   "id": "A019948",
   "mentions": [
-    "A019859"
+    "A019859",
+    "A019908",
+    "A019968"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

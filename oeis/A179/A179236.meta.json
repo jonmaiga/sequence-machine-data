@@ -1,16 +1,13 @@
 {
-  "description": "Irregular triangle T(n,k) = A096162(n,k)* A036040(n,k)* A048996(n,k)*A098546(n,k)* A178886(n,k) read by rows, 1<=k<=A000041(n).",
+  "description": "Irregular triangle T(n,k) = A096162(n,k) * A036040(n,k) * A048996(n,k) * A098546(n,k) * A178886(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A179236",
   "mentions": [
     "A000041",
-    "A000079",
-    "A000110",
     "A000522",
+    "A036036",
     "A036040",
     "A048996",
-    "A096161",
     "A096162",
-    "A098545",
     "A098546",
     "A178886",
     "A179235"
@@ -21,8 +18,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 48,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
   }
 }

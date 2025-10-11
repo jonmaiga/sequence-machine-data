@@ -1,0 +1,21 @@
+{
+  "description": "Primitive terms of A387711: numbers k for which A003959(k) > 2*k, but for all whose proper divisors d|k, d",
+  "id": "A387712",
+  "mentions": [
+    "A003959",
+    "A091191",
+    "A337372",
+    "A387711",
+    "A387713",
+    "A387715"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

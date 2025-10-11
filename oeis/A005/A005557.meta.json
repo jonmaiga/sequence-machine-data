@@ -1,5 +1,5 @@
 {
-  "description": "Number of walks on square lattice.",
+  "description": "a(n) is the number of Dyck paths of semilength n+6 having its first peak at height n+1.",
   "id": "A005557",
   "mentions": [
     "A000051",

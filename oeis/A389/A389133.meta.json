@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the octahedral root of 2.",
+  "id": "A389133",
+  "mentions": [
+    "A002193",
+    "A002580",
+    "A005900",
+    "A188934",
+    "A222133",
+    "A388148",
+    "A389134",
+    "A389135"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

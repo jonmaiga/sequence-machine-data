@@ -1,13 +1,15 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^9)(1-x^12)).",
+  "description": "Expansion of 1/((1-x^2)*(1-x^9)*(1-x^12)).",
   "id": "A025825",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
+    "size": 93,
     "source": "joeis"
   }
 }

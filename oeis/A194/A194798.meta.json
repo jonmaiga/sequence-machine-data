@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n having the same parity as the number of partitions of n.",
+  "description": "Numbers k having the same parity as the number of partitions of k.",
   "id": "A194798",
   "mentions": [
     "A000041",

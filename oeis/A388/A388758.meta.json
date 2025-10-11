@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2 * (7+3 * sqrt(5)) * exp(-Pi).",
+  "id": "A388758",
+  "mentions": [
+    "A210459"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

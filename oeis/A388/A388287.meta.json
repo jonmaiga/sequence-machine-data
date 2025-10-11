@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose sum of digits in any base b >= 2 is not divisible by b.",
+  "id": "A388287",
+  "mentions": [
+    "A000069",
+    "A008864",
+    "A388288"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

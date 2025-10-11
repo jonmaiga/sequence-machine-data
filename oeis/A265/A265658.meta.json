@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn arrays containing n copies of 0..4-1 with no equal diagonal or antidiagonal neighbors and new values introduced sequentially from 0.",
+  "description": "Number of 4 X n arrays containing n copies of 0..4-1 with no equal diagonal or antidiagonal neighbors and new values introduced sequentially from 0.",
   "id": "A265658",
   "mentions": [
     "A265656"

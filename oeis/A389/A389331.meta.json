@@ -1,0 +1,18 @@
+{
+  "description": "Primitive terms in A389330: powerful numbers that are exponential unitary deficient and having at least one exponential unitary abundant divisor.",
+  "id": "A389331",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A389298",
+    "A389330"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

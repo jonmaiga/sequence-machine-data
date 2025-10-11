@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 6*Sum_{k>=0} 12^(-2^k).",
+  "id": "A388852",
+  "mentions": [
+    "A006466",
+    "A007400",
+    "A014577",
+    "A157196",
+    "A387398",
+    "A388655"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 130,
+    "source": "joeis"
+  }
+}

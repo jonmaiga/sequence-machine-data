@@ -1,7 +1,11 @@
 {
   "description": "a(n) = (10*n + 4)^3.",
   "id": "A017319",
-  "mentions": [],
+  "mentions": [
+    "A016875",
+    "A016899",
+    "A017317"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

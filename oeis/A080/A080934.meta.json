@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals of number of Catalan paths (nonnegative, starting and ending at 0, step +/-1) of 2n steps with all values less than or equal to k.",
+  "description": "Square array read by antidiagonals of number of Catalan paths (nonnegative, starting and ending at 0, step +-1) of 2n steps with all values less than or equal to k.",
   "id": "A080934",
   "mentions": [
     "A000007",

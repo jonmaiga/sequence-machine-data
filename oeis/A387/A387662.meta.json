@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k>0 such that n divides 1^1 + 2^2 + ... + k^k.",
+  "id": "A387662",
+  "mentions": [
+    "A000312",
+    "A001923"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

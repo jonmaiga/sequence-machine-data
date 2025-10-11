@@ -1,5 +1,5 @@
 {
-  "description": "4k+3 primes whose Legendre-vector is not valid Dyck-path.",
+  "description": "4*k+3 primes whose Legendre-vector is not valid Dyck-path.",
   "id": "A095103",
   "mentions": [
     "A000040",

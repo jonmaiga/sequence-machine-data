@@ -1,10 +1,12 @@
 {
-  "description": "a(n) = (4n-1)*4n*(4n+1).",
+  "description": "a(n) = (4*n-1)*4*n*(4*n+1).",
   "id": "A069140",
   "mentions": [
     "A007531",
     "A069072",
-    "A097321"
+    "A069975",
+    "A097321",
+    "A267031"
   ],
   "tags": [
     "easy",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 34,
     "source": "joeis"
   }
 }

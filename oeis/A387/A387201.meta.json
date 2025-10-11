@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 32 * 3^k + 1 is prime.",
+  "id": "A387201",
+  "mentions": [
+    "A003306",
+    "A005537",
+    "A005538",
+    "A027856",
+    "A387060",
+    "A387197"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

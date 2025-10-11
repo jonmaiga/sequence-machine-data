@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 2^k + 13^k.",
+  "id": "A386618",
+  "mentions": [
+    "A082101",
+    "A094475",
+    "A094476",
+    "A094477",
+    "A176946",
+    "A176947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

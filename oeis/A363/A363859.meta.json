@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors of 7*n-1 of form 7*k+2.",
+  "description": "Number of divisors of 7*n-1 of the form 7*k+2.",
   "id": "A363859",
   "mentions": [
     "A363795",

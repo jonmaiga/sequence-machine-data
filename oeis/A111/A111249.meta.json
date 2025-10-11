@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 7*n + 8 is prime.",
+  "description": "Numbers k such that 7*k + 8 is prime.",
   "id": "A111249",
   "mentions": [
     "A024900",
@@ -8,6 +8,7 @@
     "A105772"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,10 +1,13 @@
 {
-  "description": "Numbers n such that triangular(n) is an average of three successive primes.",
+  "description": "Numbers k such that triangular(k) is an average of three successive primes.",
   "id": "A226147",
   "mentions": [
     "A076304",
     "A206279",
     "A226145",
+    "A226146",
+    "A226148",
+    "A226149",
     "A226150"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "7*binomial(11*n+7,n)/(11*n+7).",
+  "description": "a(n) = 7*binomial(11*n+7,n)/(11*n+7).",
   "id": "A234873",
   "mentions": [
     "A230388",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

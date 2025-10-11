@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 - 3n + 3 is prime.",
+  "description": "Numbers k such that k^2 - 3*k + 3 is prime.",
   "id": "A089358",
   "mentions": [
     "A002384"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 57,
+    "size": 59,
     "source": "joeis"
   }
 }

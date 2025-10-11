@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n-th composite positive integer from among those composites which are coprime to the n-th composite.",
   "id": "A119757",
-  "mentions": [],
+  "mentions": [
+    "A002808"
+  ],
   "tags": [
     "nonn"
   ],

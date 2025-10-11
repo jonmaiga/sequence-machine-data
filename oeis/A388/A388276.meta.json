@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A053585(sigma(k)) is equal to A053585(k) and that satisfy also Euler's condition for odd perfect numbers (A228058).",
+  "id": "A388276",
+  "mentions": [
+    "A000203",
+    "A053585",
+    "A228058",
+    "A386428",
+    "A388274",
+    "A388275"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

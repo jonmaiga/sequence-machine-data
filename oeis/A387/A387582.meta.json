@@ -1,0 +1,14 @@
+{
+  "description": "Number of matchings in the n X n zebra graph.",
+  "id": "A387582",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

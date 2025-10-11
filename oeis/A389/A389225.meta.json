@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(4*k,n-k).",
+  "id": "A389225",
+  "mentions": [
+    "A002426",
+    "A364743",
+    "A378404",
+    "A385975",
+    "A387358"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

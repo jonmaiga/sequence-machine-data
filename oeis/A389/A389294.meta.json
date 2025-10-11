@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * (1 - x^2 * (1 + x)^2) ).",
+  "id": "A389294",
+  "mentions": [
+    "A214372",
+    "A389062",
+    "A389292"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

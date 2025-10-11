@@ -1,21 +1,19 @@
 {
-  "description": "Rabbit-like sequence for phi^2.",
+  "description": "Irregular triangle: rows are iterates of the morphism with maps 1 -> 110, 0 -> 10.",
   "id": "A131309",
   "mentions": [
     "A001906",
     "A027941",
-    "A104457"
+    "A104457",
+    "A114986"
   ],
   "tags": [
-    "formulas",
-    "more",
     "nonn",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 88,
+    "source": "oeis-bfile"
   }
 }

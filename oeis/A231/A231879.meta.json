@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that bigomega(n)^2 (cf. A001222) does not divide n.",
+  "description": "Numbers k such that bigomega(k)^2 (cf. A001222) does not divide k.",
   "id": "A231879",
   "mentions": [
     "A001221",

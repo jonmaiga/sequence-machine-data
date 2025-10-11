@@ -1,19 +1,15 @@
 {
-  "description": "A051731 * A023136.",
+  "description": "Inverse Moebius transform of A023136.",
   "id": "A133702",
   "mentions": [
-    "A023136",
-    "A051731",
-    "A133698",
-    "A133701"
+    "A023136"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 84,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

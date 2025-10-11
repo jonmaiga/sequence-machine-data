@@ -1,0 +1,17 @@
+{
+  "description": "A bisection of A221075.",
+  "id": "A389607",
+  "mentions": [
+    "A221075",
+    "A388967"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A325973(A228058(n)), where A325973 is the arithmetic mean of {sum of unitary divisors} and {sum of squarefree divisors} and A228058 gives the numbers satisfying Euler's condition for odd perfect numbers.",
+  "id": "A389163",
+  "mentions": [
+    "A228058",
+    "A325973",
+    "A389217",
+    "A389218"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

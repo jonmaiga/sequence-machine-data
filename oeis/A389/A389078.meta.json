@@ -1,0 +1,21 @@
+{
+  "description": "Primeshifted n minus its squarefree part: a(n) = A003961(n) - A007913(A003961(n)).",
+  "id": "A389078",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A007913",
+    "A326128",
+    "A389076",
+    "A389077"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

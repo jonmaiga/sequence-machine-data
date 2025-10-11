@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1; thereafter a(n+1) = T(8*a(n)), where T(i)=i*(i+1)/2 is the i-th triangular number.",
+  "description": "a(1) = 1; thereafter a(n+1) = T(8*a(n)), where T(i) = i*(i+1)/2 is the i-th triangular number.",
   "id": "A185097",
   "mentions": [
     "A000217",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 6,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

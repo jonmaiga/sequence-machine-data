@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x^3/(1-x)^4).",
+  "id": "A387264",
+  "mentions": [
+    "A001804",
+    "A001805",
+    "A386514",
+    "A387244"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

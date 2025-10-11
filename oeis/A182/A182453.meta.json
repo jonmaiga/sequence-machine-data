@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 3^n - n*(n-1)/2.",
   "id": "A182453",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A161680"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals in which T(n,k) is the n-th number j with the property that the symmetric representation of sigma(j) has k parts.",
+  "description": "Square array read by antidiagonals in which T(n,k) is the n-th number j with the property that the symmetric representation of sigma(j) has k parts, with j >= 1, n >= 1, k >= 1.",
   "id": "A240062",
   "mentions": [
     "A000203",

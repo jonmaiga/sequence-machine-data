@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that gcd(A276086(sigma(k)), A276086(3*k)) = A276086(3*k), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.",
+  "id": "A388036",
+  "mentions": [
+    "A000203",
+    "A005820",
+    "A023197",
+    "A049345",
+    "A276086",
+    "A388022",
+    "A388031",
+    "A388033",
+    "A388034",
+    "A388037",
+    "A388271"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

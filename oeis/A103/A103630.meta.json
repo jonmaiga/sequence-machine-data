@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the string 235n is the decimal expansion of a prime number.",
+  "description": "Numbers k such that the string 235k is the decimal expansion of a prime number.",
   "id": "A103630",
   "mentions": [],
   "tags": [

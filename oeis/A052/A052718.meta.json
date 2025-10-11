@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. 1 - x - sqrt(1-4*x).",
+  "description": "Expansion of e.g.f. 1 - x - sqrt(1-4*x).",
   "id": "A052718",
   "mentions": [
     "A068875"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

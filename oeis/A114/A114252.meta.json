@@ -1,11 +1,14 @@
 {
-  "description": "C(4+2*n,4+n)*C(9+2*n,0+n).",
+  "description": "a(n) = C(4+2*n,4+n)*C(9+2*n,0+n).",
   "id": "A114252",
   "mentions": [
+    "A002694",
+    "A030054",
     "A062190"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

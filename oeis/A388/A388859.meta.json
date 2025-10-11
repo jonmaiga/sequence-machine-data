@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number k such that A384204(k) = n.",
+  "id": "A388859",
+  "mentions": [
+    "A265640",
+    "A384204"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

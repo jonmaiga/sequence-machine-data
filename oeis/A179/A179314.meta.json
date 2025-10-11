@@ -1,20 +1,23 @@
 {
-  "description": "An irregular table of values refining Table A061260.",
+  "description": "Triangle T(n,k) read by rows: number of unordered twice partitions derived from the k-th partition of n listed in Abramowitz and Stegun order, 1 <= k <= A000041(n).",
   "id": "A179314",
   "mentions": [
     "A000041",
     "A001970",
+    "A036036",
     "A055884",
-    "A061260"
+    "A061260",
+    "A119443"
   ],
   "tags": [
+    "formulas",
+    "look",
     "nonn",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 44,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
   }
 }

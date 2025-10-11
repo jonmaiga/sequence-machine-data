@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((-1+sqrt(5)) * Pi * exp(Pi)) / (40 * Gamma(3/4)^4).",
+  "id": "A388959",
+  "mentions": [
+    "A276491"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

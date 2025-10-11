@@ -1,7 +1,9 @@
 {
   "description": "Generalized nim sum n + n in base 12.",
   "id": "A004522",
-  "mentions": [],
+  "mentions": [
+    "A389424"
+  ],
   "tags": [
     "base",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 57,
-    "source": "joeis"
+    "size": 64,
+    "source": "oeis-bfile"
   }
 }

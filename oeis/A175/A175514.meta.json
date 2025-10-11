@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the base-2 expansion of n ends with the base-5 expansion of n.",
+  "description": "Numbers k such that the base-2 expansion of k ends with the base-5 expansion of k.",
   "id": "A175514",
   "mentions": [
     "A169828"

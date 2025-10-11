@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x^n in the expansion of ( (1+x)^4 + x^2 )^n.",
+  "id": "A388530",
+  "mentions": [
+    "A006139",
+    "A359643",
+    "A369213",
+    "A370286",
+    "A388531",
+    "A388537"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of tangent of 27 degrees.",
   "id": "A019925",
-  "mentions": [],
+  "mentions": [
+    "A019836",
+    "A019872"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

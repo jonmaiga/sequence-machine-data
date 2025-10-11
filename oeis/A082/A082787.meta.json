@@ -1,8 +1,12 @@
 {
   "description": "a(n) = (2/3)*(2*n-1)!*binomial(3*n,2*n).",
   "id": "A082787",
-  "mentions": [],
+  "mentions": [
+    "A005809"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

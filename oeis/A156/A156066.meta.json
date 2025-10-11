@@ -1,9 +1,11 @@
 {
-  "description": "Numbers n with property that n^2 is a square arising in A154138.",
+  "description": "Numbers k such that k^2 is a square arising in A154138.",
   "id": "A156066",
   "mentions": [
     "A006452",
-    "A154138"
+    "A048655",
+    "A154138",
+    "A387549"
   ],
   "tags": [
     "easy",

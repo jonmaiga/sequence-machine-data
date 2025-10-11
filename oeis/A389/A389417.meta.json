@@ -1,0 +1,16 @@
+{
+  "description": "Primes containing at least one substring (not beginning with 0) such that, by doubling it, the resulting number is still prime.",
+  "id": "A389417",
+  "mentions": [
+    "A387526"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

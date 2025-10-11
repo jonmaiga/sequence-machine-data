@@ -1,11 +1,12 @@
 {
-  "description": "Irregular triangle a(n,k) = A049009(n,k)/n, read by rows 1<=k<=A000041(n).",
+  "description": "Irregular triangle T(n,k) = A049009(n,k)/n, read by rows, 1 <= k <= A000041(n).",
   "id": "A181415",
   "mentions": [
     "A000041",
     "A000081",
     "A000169",
     "A019538",
+    "A036036",
     "A049009",
     "A049019",
     "A054589",
@@ -23,6 +24,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

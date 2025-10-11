@@ -1,10 +1,9 @@
 {
-  "description": "a(0)=0, a(1)=1 and a(n) = 16n-27 for n >= 2.",
+  "description": "a(0)=0, a(1)=1, and a(n) = 16*n - 27 for n >= 2.",
   "id": "A170837",
   "mentions": [
     "A016813",
-    "A170836",
-    "A170876"
+    "A170836"
   ],
   "tags": [
     "easy",

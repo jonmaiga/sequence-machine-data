@@ -1,0 +1,15 @@
+{
+  "description": "Self-inventory sequence modulo 10: start with 0; repeatedly append the counts of digits 0..9 seen so far, taken mod 10.",
+  "id": "A387170",
+  "mentions": [
+    "A342585"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

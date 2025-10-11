@@ -1,0 +1,22 @@
+{
+  "description": "Primes that are the sum of some first primes minus one.",
+  "id": "A388261",
+  "mentions": [
+    "A007504",
+    "A013916",
+    "A089228",
+    "A237589",
+    "A366206",
+    "A388066"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

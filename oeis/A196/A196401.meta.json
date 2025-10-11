@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the least positive number x satisfying e^(-x)=cos(x).",
+  "description": "Decimal expansion of the least positive number x satisfying exp(-x) = cos(x).",
   "id": "A196401",
   "mentions": [
     "A196396",

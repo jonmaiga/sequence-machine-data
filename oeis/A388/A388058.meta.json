@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the permanent of a 4 X 4 matrix M(n) whose generic element is given by binomial(2*n + i, n + j) with i, j = 0..3.",
+  "id": "A388058",
+  "mentions": [
+    "A007318",
+    "A320845",
+    "A383823"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

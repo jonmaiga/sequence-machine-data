@@ -1,20 +1,17 @@
 {
-  "description": "Eigentriangle, row sums = A125275, shifted.",
+  "description": "Eigentriangle of A085478: T(n,k) = A085478(n,k) * A125273(k).",
   "id": "A144250",
   "mentions": [
     "A085478",
-    "A125273",
-    "A125275"
+    "A125273"
   ],
   "tags": [
-    "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

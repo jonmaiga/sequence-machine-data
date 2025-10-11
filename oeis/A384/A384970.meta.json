@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the length of the largest run of consecutive terms of A386482 containing A386482(n) and sharing a common prime factor.",
+  "id": "A384970",
+  "mentions": [
+    "A386482",
+    "A387542"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

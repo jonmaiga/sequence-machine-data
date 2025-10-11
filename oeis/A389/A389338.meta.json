@@ -1,0 +1,24 @@
+{
+  "description": "Final digit of Carmichael(n).",
+  "id": "A389338",
+  "mentions": [
+    "A002997",
+    "A007652",
+    "A010879",
+    "A352970",
+    "A354609",
+    "A355305",
+    "A355307",
+    "A355309"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

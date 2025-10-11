@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} 3^k * 2^(n-3*k) * binomial(k,n-3*k)^2.",
+  "id": "A387482",
+  "mentions": [
+    "A387480",
+    "A387481"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

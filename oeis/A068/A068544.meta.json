@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*tau(n) > 2*prime(n).",
+  "description": "Numbers k such that k*tau(k) > 2*prime(k).",
   "id": "A068544",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=4; a(n)=floor((39+sum(a(1) to a(n-1)))/9).",
+  "description": "a(1) = 4; a(n) = floor((39 + Sum_{i=1..n-1} a(i))/9).",
   "id": "A120205",
   "mentions": [
     "A072493",

@@ -2,14 +2,18 @@
   "description": "Row sums of triangle A141155.",
   "id": "A141156",
   "mentions": [
-    "A141155"
+    "A000041",
+    "A000070",
+    "A141155",
+    "A182738"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 41,
     "source": "joeis"
   }
 }

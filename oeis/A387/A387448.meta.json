@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of cos(Pi/28).",
+  "id": "A387448",
+  "mentions": [
+    "A132744",
+    "A232735"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

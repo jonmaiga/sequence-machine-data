@@ -2,9 +2,11 @@
   "description": "Nonpalindromic integers with palindromic product of divisors.",
   "id": "A324041",
   "mentions": [
+    "A000005",
     "A002113",
     "A007955",
     "A029742",
+    "A075786",
     "A327325"
   ],
   "tags": [

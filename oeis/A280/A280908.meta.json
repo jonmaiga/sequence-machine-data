@@ -1,7 +1,9 @@
 {
   "description": "Expansion of Product_{k>=1} ((1+x^k) / ((1-x^(2*k-1)) * (1-x^(8*k-4)))).",
   "id": "A280908",
-  "mentions": [],
+  "mentions": [
+    "A389013"
+  ],
   "tags": [
     "formulas",
     "nonn"

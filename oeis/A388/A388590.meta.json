@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((-1+sqrt(3)) * Pi * exp(Pi / 3) * Gamma(11/12)) / (sqrt(6) * Gamma(2/3) * Gamma(3/4)^3).",
+  "id": "A388590",
+  "mentions": [
+    "A129576"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

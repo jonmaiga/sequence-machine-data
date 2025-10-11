@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of A000027 (the identity function) with A349134 (Dirichlet inverse of Kimberling's paraphrases).",
+  "description": "Dirichlet convolution of A000027 (the identity function) with A349134.",
   "id": "A349432",
   "mentions": [
     "A000027",

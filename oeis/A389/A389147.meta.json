@@ -1,0 +1,18 @@
+{
+  "description": "Minimum largest of a set of n nonnegative integers such that the difference of any pair is a square.",
+  "id": "A389147",
+  "mentions": [
+    "A115040",
+    "A195854"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

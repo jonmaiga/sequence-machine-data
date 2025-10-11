@@ -2,6 +2,7 @@
   "description": "Amicable triples. Sequence gives sigma values: A125490(n) + A125491(n) + A125492(n).",
   "id": "A137231",
   "mentions": [
+    "A005101",
     "A125490",
     "A125491",
     "A125492"

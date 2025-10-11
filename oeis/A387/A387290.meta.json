@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there exist three numbers x, y and z such that k = psi(x) = psi(y) = psi(z) = x + y + z.",
+  "id": "A387290",
+  "mentions": [
+    "A001615",
+    "A137231",
+    "A385852",
+    "A386901",
+    "A386933"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,15 +1,16 @@
 {
-  "description": "Expansion of tanh(tanh(x)*tan(x)).",
+  "description": "Expansion of e.g.f. tanh(tanh(x)*tan(x)) (even powers only).",
   "id": "A012673",
   "mentions": [
     "A009823"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 12,
     "source": "joeis"
   }
 }

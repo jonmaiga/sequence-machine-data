@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 91*Pi^6/87480.",
+  "id": "A389274",
+  "mentions": [
+    "A013661",
+    "A013664"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

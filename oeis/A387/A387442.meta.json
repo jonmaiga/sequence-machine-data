@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of cos(Pi/19).",
+  "id": "A387442",
+  "mentions": [
+    "A019686"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

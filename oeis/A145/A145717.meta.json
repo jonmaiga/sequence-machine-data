@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there exists x in N with (x+127)^3-x^3=n^2.",
+  "description": "Numbers k such that there exists x in N with (x+127)^3-x^3=k^2.",
   "id": "A145717",
   "mentions": [
     "A145721"

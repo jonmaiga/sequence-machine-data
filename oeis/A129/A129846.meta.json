@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that n and 3n share at least one digit.",
+  "description": "Numbers k such that k and 3*k share at least one digit.",
   "id": "A129846",
-  "mentions": [],
+  "mentions": [
+    "A140467"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

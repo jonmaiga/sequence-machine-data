@@ -1,7 +1,8 @@
 {
-  "description": "5*9^n+1.",
+  "description": "a(n) = 5*9^n + 1.",
   "id": "A199563",
   "mentions": [
+    "A001019",
     "A135423"
   ],
   "tags": [

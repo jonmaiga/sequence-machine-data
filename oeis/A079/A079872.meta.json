@@ -1,5 +1,5 @@
 {
-  "description": "signum(round(n^(1/Omega(n)))^Omega(n) - n), where Omega(n) is the total number of prime factors of n (A001222).",
+  "description": "a(1)=0, a(n) = signum(round(n^(1/Omega(n)))^Omega(n) - n), where Omega(n) is the total number of prime factors of n (A001222).",
   "id": "A079872",
   "mentions": [
     "A000961",
@@ -8,11 +8,12 @@
     "A079869"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 96,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

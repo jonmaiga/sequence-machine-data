@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number that is n-persistent but not (n+1)-persistent, i.e., k, 2k, ..., nk, but not (n+1)k, are pandigital in the sense of A171102; 0 if such a number does not exist.",
+  "description": "Smallest number that is n-persistent but not (n+1)-persistent, i.e., k, 2*k, ..., n*k, but not (n+1)*k, are pandigital in the sense of A171102; 0 if such a number does not exist.",
   "id": "A204047",
   "mentions": [
     "A051018",
@@ -12,6 +12,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

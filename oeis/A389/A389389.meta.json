@@ -1,0 +1,18 @@
+{
+  "description": "Number of not necessarily connected bridgeless spanning subgraphs of the n-dimensional hypercube graph.",
+  "id": "A389389",
+  "mentions": [
+    "A282010",
+    "A389387",
+    "A389388"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

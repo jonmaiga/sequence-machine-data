@@ -1,5 +1,5 @@
 {
-  "description": "Axially symmetric (about axis 2) 2n-celled polyominoes with 1 hole.",
+  "description": "Number of 2n-celled free polyominoes with 1 hole that are symmetric about two orthogonal axes (and therefore centrally symmetric) but have no other symmetries.",
   "id": "A057422",
   "mentions": [
     "A056880"

@@ -2,7 +2,11 @@
   "description": "Expansion of e.g.f. exp(sinh(x)*cosh(x)).",
   "id": "A009229",
   "mentions": [
-    "A216688"
+    "A003724",
+    "A003727",
+    "A216688",
+    "A389149",
+    "A389242"
   ],
   "tags": [
     "easy",

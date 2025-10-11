@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (2^(7/8) * sqrt((2-sqrt(2)) * Pi) * exp(-Pi/24) * Gamma(7/8)^2) / Gamma(5/8)^2.",
+  "id": "A388494",
+  "mentions": [
+    "A100534"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

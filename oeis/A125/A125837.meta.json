@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose base 8 or octal representation is 6666666......6.",
+  "description": "a(n) = 6*(8^n - 1)/7.",
   "id": "A125837",
   "mentions": [
     "A001018",
@@ -14,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 22,
     "source": "oeis-bfile"
   }

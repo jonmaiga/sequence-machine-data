@@ -1,0 +1,19 @@
+{
+  "description": "Smallest final number reachable by successively dividing a substring of digits of n by 2.",
+  "id": "A389140",
+  "mentions": [
+    "A014261",
+    "A386395",
+    "A389141"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

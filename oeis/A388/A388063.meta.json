@@ -1,0 +1,34 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the total number of parts in all partitions of n with k designated summands, n >= 1, 1 <= k <= A003056(n).",
+  "id": "A388063",
+  "mentions": [
+    "A000217",
+    "A001157",
+    "A002127",
+    "A002128",
+    "A003056",
+    "A006128",
+    "A066186",
+    "A077285",
+    "A293421",
+    "A365664",
+    "A365665",
+    "A384926",
+    "A384998",
+    "A384999",
+    "A385001",
+    "A386997",
+    "A386998",
+    "A388064"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

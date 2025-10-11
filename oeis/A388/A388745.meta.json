@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2 * sqrt(2 * (2+sqrt(2))) * exp(-Pi/2).",
+  "id": "A388745",
+  "mentions": [
+    "A208589"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

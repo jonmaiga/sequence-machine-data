@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 81*Pi*sqrt(110 + 50*sqrt(5))/(5120*Gamma(7/4)^4).",
+  "id": "A388528",
+  "mentions": [
+    "A113185"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

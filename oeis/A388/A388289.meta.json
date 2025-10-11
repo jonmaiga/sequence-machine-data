@@ -1,0 +1,20 @@
+{
+  "description": "One half of the even Markoff nunbers.",
+  "id": "A388289",
+  "mentions": [
+    "A002559",
+    "A309376",
+    "A386894",
+    "A388290"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

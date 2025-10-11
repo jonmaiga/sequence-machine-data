@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/(8k)!.",
+  "id": "A386440",
+  "mentions": [
+    "A091131",
+    "A195070"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (sqrt(-8+14 / sqrt(3)) * Pi^2 * exp(Pi)) / (Gamma(-1/3)^2 * Gamma(7/12)^2 * Gamma(3/4)^2).",
+  "id": "A388766",
+  "mentions": [
+    "A214361"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

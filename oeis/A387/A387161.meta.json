@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A324644(k)/A324198(k) = 3.",
+  "id": "A387161",
+  "mentions": [
+    "A000203",
+    "A276086",
+    "A324198",
+    "A324644",
+    "A351458",
+    "A364286",
+    "A387163"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

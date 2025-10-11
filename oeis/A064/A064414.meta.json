@@ -1,12 +1,13 @@
 {
-  "description": "Fix a > 0, b > 0, k > 0 and define G_1 = a, G_2 = b, G_k = G_(k-1) + G_(k-2); sequence gives numbers m such that there exists (a, b) where G_k is divisible by m.",
+  "description": "Numbers that divide at least one term in every Fibonacci sequence.",
   "id": "A064414",
   "mentions": [
     "A000010",
     "A000057",
     "A001177",
     "A232357",
-    "A232656"
+    "A232656",
+    "A389401"
   ],
   "tags": [
     "easy",

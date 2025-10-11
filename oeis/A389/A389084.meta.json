@@ -1,0 +1,20 @@
+{
+  "description": "Primegap shift: fully multiplicative with a(prime(j)) = A130789(1+A389083(j)).",
+  "id": "A389084",
+  "mentions": [
+    "A001651",
+    "A130789",
+    "A389083",
+    "A389085",
+    "A389086"
+  ],
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

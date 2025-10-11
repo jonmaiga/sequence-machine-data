@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/1024) * exp(25*Pi/24) * Pi^(25/4) * 2^(5/8) / Gamma(3/4)^25.",
+  "id": "A388225",
+  "mentions": [
+    "A010830"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

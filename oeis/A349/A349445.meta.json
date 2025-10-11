@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of A001511 (the 2-adic valuation of 2n) with A349134 (the Dirichlet inverse of Kimberling's paraphrases).",
+  "description": "Dirichlet convolution of A001511 (the 2-adic valuation of 2n) with A349134.",
   "id": "A349445",
   "mentions": [
     "A001511",

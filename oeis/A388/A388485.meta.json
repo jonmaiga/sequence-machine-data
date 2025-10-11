@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/4) * exp(Pi) * Pi^4 / Gamma(11/12)^8 / Gamma(7/12)^8.",
+  "id": "A388485",
+  "mentions": [
+    "A096961"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

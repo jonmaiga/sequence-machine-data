@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{i=1..n} (Product_{j=1..n} M(j, ((i+j-2) mod n)+1) - Product_{j=1..n} M(j, ((i-j-1) mod n)+1)) where M is the n X n matrix with numbers 1, 2, ..., n^2 in order across rows.",
+  "id": "A389261",
+  "mentions": [
+    "A232773"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

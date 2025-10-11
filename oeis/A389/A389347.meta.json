@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * (1 - x^2 / (1 - x)^5) ).",
+  "id": "A389347",
+  "mentions": [
+    "A000957",
+    "A046736",
+    "A389248",
+    "A389345",
+    "A389346"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

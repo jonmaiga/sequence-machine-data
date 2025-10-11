@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest square dividing the numbers satisfying Euler's condition for odd perfect numbers (A228058).",
+  "id": "A389166",
+  "mentions": [
+    "A008833",
+    "A228058",
+    "A325320",
+    "A389160",
+    "A389165"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

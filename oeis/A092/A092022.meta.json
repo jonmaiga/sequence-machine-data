@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 16n + 3 is prime.",
+  "description": "Numbers k such that 16k + 3 is prime.",
   "id": "A092022",
   "mentions": [
     "A091968",

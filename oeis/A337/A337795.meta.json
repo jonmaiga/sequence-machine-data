@@ -1,8 +1,11 @@
 {
-  "description": "Number of graceful labelings of the n-gear graph.",
+  "description": "Total number of graceful labelings of the n-gear graph.",
   "id": "A337795",
-  "mentions": [],
+  "mentions": [
+    "A387798"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

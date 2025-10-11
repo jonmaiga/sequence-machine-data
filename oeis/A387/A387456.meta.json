@@ -1,0 +1,14 @@
+{
+  "description": "Number of Hamiltonian paths in the n-flower graph.",
+  "id": "A387456",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

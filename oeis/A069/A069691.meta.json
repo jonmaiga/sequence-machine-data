@@ -2,7 +2,10 @@
   "description": "Smallest prime with internal digits = n; or 0 if no such number exists.",
   "id": "A069691",
   "mentions": [
-    "A032734"
+    "A030665",
+    "A032734",
+    "A077501",
+    "A084413"
   ],
   "tags": [
     "base",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 45,
     "source": "oeis-bfile"
   }
 }

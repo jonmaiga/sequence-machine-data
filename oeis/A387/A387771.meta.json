@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of the third largest dihedral angle, in radians, in a gyroelongated pentagonal rotunda (Johnson solid J_25).",
+  "id": "A387771",
+  "mentions": [
+    "A002163",
+    "A002194",
+    "A010476",
+    "A105199",
+    "A344075",
+    "A384285",
+    "A384286",
+    "A385262",
+    "A385263",
+    "A385264",
+    "A385488",
+    "A387607",
+    "A387610",
+    "A387770"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

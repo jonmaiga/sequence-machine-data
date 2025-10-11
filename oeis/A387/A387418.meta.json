@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the odd part of (1+k) divides (1 + odd part of A034448(k)), where A034448 is unitary sigma (usigma).",
+  "id": "A387418",
+  "mentions": [
+    "A000225",
+    "A000265",
+    "A002827",
+    "A004767",
+    "A034448",
+    "A336700",
+    "A387410",
+    "A387415",
+    "A387419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

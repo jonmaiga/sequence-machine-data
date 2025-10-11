@@ -1,0 +1,14 @@
+{
+  "description": "Number of ways to tile a strip of length n with squares, dominoes and trominoes, using an equal number of dominoes and trominoes.",
+  "id": "A387599",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

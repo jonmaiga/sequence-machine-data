@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of x*(1+x)/((1+2x)(1-2x-768x^2)).",
+  "description": "Expansion of x*(1+x)/((1+2*x)*(1-2*x-768*x^2)).",
   "id": "A114543",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "less",
     "nonn"

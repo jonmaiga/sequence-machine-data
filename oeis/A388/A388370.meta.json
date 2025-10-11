@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 256 * exp(-23*Pi/24) * 2^(5/8) * Gamma(3/4)^23 / Pi^(23/4).",
+  "id": "A388370",
+  "mentions": [
+    "A023021"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

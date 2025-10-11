@@ -2,10 +2,13 @@
   "description": "a(n) = C(2*n+1,n)*C(2*n+6,n+1).",
   "id": "A113888",
   "mentions": [
+    "A001700",
+    "A002694",
     "A062190"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

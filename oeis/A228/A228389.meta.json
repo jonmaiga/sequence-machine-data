@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 binary arrays with top left value 1 and no two ones adjacent horizontally or vertically.",
+  "description": "Number of n X 7 binary arrays with top left value 1 and no two 1's adjacent horizontally or vertically.",
   "id": "A228389",
   "mentions": [
     "A228390"

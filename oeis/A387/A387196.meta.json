@@ -1,0 +1,15 @@
+{
+  "description": "Integers k such that 1/k = (1/p - 1/q)*(1/r - 1/s) for distinct primes p < q and r < s.",
+  "id": "A387196",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

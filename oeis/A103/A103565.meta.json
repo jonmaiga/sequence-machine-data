@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 3 p^2+2, where p is prime.",
+  "description": "Primes of the form 3*p^2+2, where p is prime.",
   "id": "A103565",
   "mentions": [
     "A103564"

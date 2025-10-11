@@ -1,7 +1,10 @@
 {
   "description": "Number of permutations of 1..n with no adjacent pair summing to n+1.",
   "id": "A173841",
-  "mentions": [],
+  "mentions": [
+    "A007060",
+    "A285850"
+  ],
   "tags": [
     "formulas",
     "nonn"

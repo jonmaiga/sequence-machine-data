@@ -1,8 +1,10 @@
 {
-  "description": "Neither 4 nor 9 divides C(2k-1,k) (almost certainly finite).",
+  "description": "Numbers k such that neither 4 nor 9 divides binomial(2k-1,k) (almost certainly finite).",
   "id": "A051404",
   "mentions": [
+    "A000120",
     "A001700",
+    "A053735",
     "A110556"
   ],
   "tags": [

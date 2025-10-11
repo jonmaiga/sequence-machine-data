@@ -2,6 +2,7 @@
   "description": "Expansion of 1/(1 - 3*x + x^2)^2.",
   "id": "A001871",
   "mentions": [
+    "A000032",
     "A000045",
     "A000051",
     "A001629",

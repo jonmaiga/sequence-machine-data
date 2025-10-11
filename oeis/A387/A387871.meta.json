@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n+1,5*k).",
+  "id": "A387871",
+  "mentions": [
+    "A387844"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

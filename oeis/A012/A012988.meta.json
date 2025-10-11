@@ -1,5 +1,5 @@
 {
-  "description": "arctan(arctan(x)+arcsin(x))=2*x-17/3!*x^3+881/5!*x^5-111919/7!*x^7...",
+  "description": "Expansion of e.g.f. arctan(arctan(x)+arcsin(x)) (odd powers only).",
   "id": "A012988",
   "mentions": [],
   "tags": [

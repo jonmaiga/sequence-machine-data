@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the conjecturally latest index where n occurs in A322345, or -1 if n doesn't occur.",
+  "id": "A387499",
+  "mentions": [
+    "A063984",
+    "A070911",
+    "A322345"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

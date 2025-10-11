@@ -1,7 +1,9 @@
 {
   "description": "Expansion of q^(-3/4) * eta(q)^2 * eta(q^2)^4 * eta(q^8)^4 / eta(q^4)^6 in powers of q.",
   "id": "A135467",
-  "mentions": [],
+  "mentions": [
+    "A388625"
+  ],
   "tags": [
     "formulas",
     "sign"

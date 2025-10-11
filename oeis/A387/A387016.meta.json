@@ -2,9 +2,13 @@
   "description": "Permutation of the odd integers >= 3 formed by ordering them first by odd k >= 3 and then by integer m >= 1 in their unique representation (k - 2^m)*2^m + 1.",
   "id": "A387016",
   "mentions": [
+    "A001855",
     "A007814",
+    "A030530",
     "A080075",
-    "A369901"
+    "A089654",
+    "A369901",
+    "A386386"
   ],
   "tags": [
     "easy",

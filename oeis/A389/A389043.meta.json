@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/16) * exp(3*Pi/4) * 2^(1/4).",
+  "id": "A389043",
+  "mentions": [
+    "A320049"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

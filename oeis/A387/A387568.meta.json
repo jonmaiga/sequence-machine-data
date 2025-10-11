@@ -1,0 +1,14 @@
+{
+  "description": "Number of matchings in the n-Pell graph.",
+  "id": "A387568",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

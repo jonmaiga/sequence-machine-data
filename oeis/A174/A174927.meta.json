@@ -1,8 +1,9 @@
 {
-  "description": "Periodic sequence: Repeat 1, 64.",
+  "description": "Periodic sequence: repeat (1,64).",
   "id": "A174927",
   "mentions": [
     "A000012",
+    "A010685",
     "A010689",
     "A010871",
     "A174928",

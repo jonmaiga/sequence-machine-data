@@ -2,15 +2,17 @@
   "description": "Row sums of triangle A098542, which shifts left and up under the matrix square.",
   "id": "A098544",
   "mentions": [
+    "A018819",
     "A098542",
     "A098543"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

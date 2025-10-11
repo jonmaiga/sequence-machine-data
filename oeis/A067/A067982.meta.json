@@ -1,5 +1,5 @@
 {
-  "description": "Convolution of L(n+1) := A000204(n+1) (Lucas), n>=0, with L(n+4), n>=0.",
+  "description": "Convolution of L(n+1) = A000204(n+1), n>=0, with L(n+4), n>=0.",
   "id": "A067982",
   "mentions": [
     "A000045",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 34,
     "source": "joeis"
   }
 }

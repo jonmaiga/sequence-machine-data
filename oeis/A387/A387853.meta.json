@@ -1,0 +1,16 @@
+{
+  "description": "Least integer k = Sum_{j=1..n} x_j such that sigma(k) = Sum_{j=1..n} sigma(x_j), where x_j are positive integers.",
+  "id": "A387853",
+  "mentions": [
+    "A000203",
+    "A211223"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

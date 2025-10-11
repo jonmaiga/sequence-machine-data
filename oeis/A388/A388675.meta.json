@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of ((1+sqrt(5)) * Pi * exp(Pi / 2)) / (20 * Gamma(3/4)^4).",
+  "id": "A388675",
+  "mentions": [
+    "A159817"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

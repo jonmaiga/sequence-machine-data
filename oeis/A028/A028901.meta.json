@@ -1,14 +1,17 @@
 {
-  "description": "Map n = Sum c_i 10^i to a(n) = Sum c_i 6^i.",
+  "description": "Map n = Sum c_i*10^i to a(n) = Sum c_i*6^i.",
   "id": "A028901",
-  "mentions": [],
+  "mentions": [
+    "A081597"
+  ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 74,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

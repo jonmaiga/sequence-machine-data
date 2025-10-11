@@ -1,0 +1,24 @@
+{
+  "description": "Odd nonsquares k such that gcd(A276086(sigma(k)/2), A276086(k)) is equal to A276086(k), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.",
+  "id": "A388273",
+  "mentions": [
+    "A000203",
+    "A023196",
+    "A049345",
+    "A228058",
+    "A276086",
+    "A386427",
+    "A388021",
+    "A388267",
+    "A388271"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

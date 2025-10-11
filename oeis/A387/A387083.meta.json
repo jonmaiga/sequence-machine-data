@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. (2*(1-x)^2)/(2-4*x+x^2).",
+  "id": "A387083",
+  "mentions": [
+    "A001286",
+    "A060995"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

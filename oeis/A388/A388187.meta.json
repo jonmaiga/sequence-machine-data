@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (5/4) * Pi^2 / Gamma(3/4)^8.",
+  "id": "A388187",
+  "mentions": [
+    "A008427"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

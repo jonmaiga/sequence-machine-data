@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle T(n,k), n >= 0, k = 0..2^(n-1)-1, where a(n) = Product_{j=0..n-1} prime(j+1)^((n-j)*d_j), where d_j is the bit with digit weight 2^j in the binary expansion of 2^n+k.",
+  "description": "Irregular triangle T(n,k), n >= 0, 0 <= k < 2^(n-1), where T(n,k) = Product_{j=0..n-1} prime(j+1)^((n-j)*d_j), where d_j is the bit with digit weight 2^j in the binary expansion of 2^(n-1)+k.",
   "id": "A384003",
   "mentions": [
     "A000040",

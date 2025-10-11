@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/128) * Pi^4 / Gamma(3/4)^16.",
+  "id": "A388104",
+  "mentions": [
+    "A002288"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

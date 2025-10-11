@@ -2,9 +2,15 @@
   "description": "Table of tersums m + n (answers written in base 10).",
   "id": "A004489",
   "mentions": [
+    "A001477",
     "A003987",
     "A004481",
-    "A004488"
+    "A004482",
+    "A004483",
+    "A004488",
+    "A004492",
+    "A004493",
+    "A004513"
   ],
   "tags": [
     "base",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of unitary divisors d of n for which A107758(d) > 2*d, where A107758 is sigma+, multiplicative function with a(p^e) = 1+sigma(p^e).",
+  "id": "A387725",
+  "mentions": [
+    "A107758",
+    "A337345",
+    "A387715",
+    "A387721"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

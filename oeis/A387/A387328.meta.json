@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of n whose parts have choosable sets of integer partitions.",
+  "id": "A387328",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A052335",
+    "A052337",
+    "A238873",
+    "A239312",
+    "A335433",
+    "A355529",
+    "A367771",
+    "A368100",
+    "A370320",
+    "A370585",
+    "A370592",
+    "A370593",
+    "A370804",
+    "A387118",
+    "A387134",
+    "A387137",
+    "A387178",
+    "A387576",
+    "A387577"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primitive nondeficient numbers (A006039) that satisfy Euler's criteria for odd perfect numbers (A228058).",
+  "id": "A387709",
+  "mentions": [
+    "A006039",
+    "A228058",
+    "A341619",
+    "A386427"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

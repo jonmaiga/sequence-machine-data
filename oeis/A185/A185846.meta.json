@@ -1,20 +1,15 @@
 {
-  "description": "Numbers which are both prime and MacMahon's prime numbers of measurement. Primes in A002049.",
+  "description": "Primes in A002049.",
   "id": "A185846",
   "mentions": [
-    "A000040",
-    "A002048",
-    "A002049",
-    "A004978",
-    "A048204"
+    "A002049"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "joeis"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

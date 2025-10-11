@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n^3+28*n^2 is a square.",
+  "description": "Integers k such that k^3+28*k^2 is a square.",
   "id": "A155135",
   "mentions": [
     "A153642",

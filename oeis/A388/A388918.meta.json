@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/32) * exp(Pi / 8) * 2^(5/8) * Gamma(2/3)^5 * Gamma(7/12)^(3/2) * 3^(1/8) * (5*3^(1/2)+9) / Pi^2 / Gamma(11/12)^(7/2).",
+  "id": "A388918",
+  "mentions": [
+    "A260308"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

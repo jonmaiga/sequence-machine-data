@@ -1,0 +1,23 @@
+{
+  "description": "Pythagorean prime shift, variant: fully multiplicative with a(2) = 3, a(A002144(n)) = A002144(1+n) and a(A002145(n)) = a(A002145(1+n)) for all n >= 1, where A002144 and A002145 give the primes of the form 4k+1 and 4k+3 respectively.",
+  "id": "A389092",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A003961",
+    "A045572",
+    "A332818",
+    "A348746",
+    "A354091",
+    "A354202"
+  ],
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

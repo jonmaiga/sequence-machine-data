@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 and (n + 1)^2 have the same number of divisors.",
+  "description": "Numbers k such that k^2 and (k + 1)^2 have the same number of divisors.",
   "id": "A276553",
   "mentions": [
     "A000290",

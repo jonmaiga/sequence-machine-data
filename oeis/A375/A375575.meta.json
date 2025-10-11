@@ -13,12 +13,11 @@
   ],
   "tags": [
     "base",
-    "easy",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

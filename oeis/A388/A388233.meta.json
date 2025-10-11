@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/131072) * exp(11*Pi/6) * Pi^11 * sqrt(2) / Gamma(3/4)^44.",
+  "id": "A388233",
+  "mentions": [
+    "A010838"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

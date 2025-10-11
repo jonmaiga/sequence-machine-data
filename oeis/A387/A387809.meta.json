@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. exp(cosh(x)*x^2/2).",
+  "id": "A387809",
+  "mentions": [
+    "A005046",
+    "A009233"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

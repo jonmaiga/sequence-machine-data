@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (sqrt((58+41 * sqrt(2)) * (5+2 * sqrt(5))) * Gamma(1/4)^4 * sin(Pi / 8)^4) / (5^(3/4) * Pi^3).",
+  "id": "A389048",
+  "mentions": [
+    "A320126"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

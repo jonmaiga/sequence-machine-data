@@ -1,0 +1,21 @@
+{
+  "description": "Prime powers q such that LCM(1,2,...,q) = A003418(q) is highly abundant (A002093).",
+  "id": "A389482",
+  "mentions": [
+    "A000961",
+    "A002093",
+    "A003418",
+    "A389483"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

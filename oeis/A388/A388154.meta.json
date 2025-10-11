@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^18 / Pi^(9/2).",
+  "id": "A388154",
+  "mentions": [
+    "A004419"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

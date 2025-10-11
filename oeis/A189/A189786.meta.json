@@ -2,6 +2,8 @@
   "description": "a(n) = n + [nr/t] + [ns/t]; r=Pi/2, s=arcsin(5/13), t=arcsin(12/13).",
   "id": "A189786",
   "mentions": [
+    "A047217",
+    "A047464",
     "A189785",
     "A189787"
   ],

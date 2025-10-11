@@ -2,6 +2,7 @@
   "description": "Number of 2 X 2 matrices having all elements in {-n,...,n} and determinant 1.",
   "id": "A209982",
   "mentions": [
+    "A002088",
     "A171503",
     "A196227",
     "A209981",

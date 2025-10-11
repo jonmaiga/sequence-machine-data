@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of permutations of 1..n that win this game. Take a shuffled pack of cards labeled 1..n, repeat this: look at the top card's value, X. Move X cards from the top of the deck to the back, one at a time. If you ever end up with the first card back at the top, you win.",
+  "id": "A389415",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

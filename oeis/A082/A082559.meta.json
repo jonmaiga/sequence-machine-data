@@ -2,9 +2,11 @@
   "description": "G.f.: Product_{m>=1} 1/(1-x^m)^64.",
   "id": "A082559",
   "mentions": [
-    "A144064"
+    "A144064",
+    "A388467"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,24 @@
+{
+  "description": "Sum of all other divisors except the squarefree part applied to the numbers satisfying Euler's condition for odd perfect numbers: a(n) = A326126(A228058(n)).",
+  "id": "A389206",
+  "mentions": [
+    "A228058",
+    "A325377",
+    "A326126",
+    "A388279",
+    "A389161",
+    "A389165",
+    "A389203",
+    "A389207",
+    "A389208"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

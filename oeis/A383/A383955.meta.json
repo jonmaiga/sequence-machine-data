@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of sqrt(5/3 - 2*sqrt(1/45)).",
+  "id": "A383955",
+  "mentions": [
+    "A378973",
+    "A378974",
+    "A378975",
+    "A378976",
+    "A378977",
+    "A380793",
+    "A380794",
+    "A382009"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/2) * Sum_{k=0..floor(n/3)} 3^(n-2*k) * binomial(2*n-4*k+2,2*k+1).",
+  "id": "A387604",
+  "mentions": [
+    "A375278",
+    "A387513",
+    "A387602"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

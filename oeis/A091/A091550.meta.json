@@ -2,7 +2,6 @@
   "description": "Second column (k=3) sequence of array A091746 ((6,2)-Stirling2) divided by 12.",
   "id": "A091550",
   "mentions": [
-    "A078740",
     "A091539",
     "A091746"
   ],
@@ -13,7 +12,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 12,
+    "size": 13,
     "source": "joeis"
   }
 }

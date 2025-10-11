@@ -2,12 +2,14 @@
   "description": "Decimal expansion of eighth root of 3.",
   "id": "A246710",
   "mentions": [
+    "A011002",
     "A011269",
     "A011446",
     "A246709"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

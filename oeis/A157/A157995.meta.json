@@ -1,5 +1,5 @@
 {
-  "description": "Primes which are sum of 1 plus two consecutive not-twin primes, p1 and p2, (p2-p1)>2.",
+  "description": "Primes which are the sum of 1 plus two consecutive not-twin primes, p1 and p2, (p2-p1)>2.",
   "id": "A157995",
   "mentions": [
     "A005385",

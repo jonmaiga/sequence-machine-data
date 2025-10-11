@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of exp(1/12)/A074962, where A074962 is the Glaisher-Kinkelin constant.",
+  "id": "A387592",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A074962",
+    "A084448",
+    "A087013"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

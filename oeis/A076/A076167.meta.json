@@ -2,6 +2,7 @@
   "description": "Primes p such that sum of even digits of p equals sum of odd digits of p.",
   "id": "A076167",
   "mentions": [
+    "A000040",
     "A036301",
     "A111309"
   ],

@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that the continued fraction for sqrt(k) has period 57.",
   "id": "A020396",
-  "mentions": [],
+  "mentions": [
+    "A003285"
+  ],
   "tags": [
     "nonn"
   ],

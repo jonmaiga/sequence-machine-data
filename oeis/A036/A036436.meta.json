@@ -2,7 +2,10 @@
   "description": "Numbers whose number of divisors is a square.",
   "id": "A036436",
   "mentions": [
+    "A000005",
+    "A001694",
     "A009087",
+    "A028982",
     "A030059",
     "A030229",
     "A033950",

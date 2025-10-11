@@ -1,22 +1,22 @@
 {
-  "description": "A051731 * A004736.",
+  "description": "Triangle read by rows: T(n,k) = Sum_{i=k..n} (i+1-k)*A051731(n,i).",
   "id": "A134545",
   "mentions": [
     "A000203",
     "A004736",
-    "A007436",
     "A007437",
-    "A051731"
+    "A051731",
+    "A134559",
+    "A135539"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 91,
     "source": "joeis"
   }
 }

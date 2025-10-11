@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that sigma(k) < 2*A057521(k), where A057521(n) gives the powerful part of n, and sigma is the sum of divisors function.",
+  "id": "A387420",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A025475",
+    "A052485",
+    "A052486",
+    "A057521",
+    "A379164",
+    "A387421",
+    "A387720"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Elements of an interval of natural numbers whose product is divisible by the square of the largest prime factor.",
+  "id": "A388654",
+  "mentions": [
+    "A070003",
+    "A387054",
+    "A388850",
+    "A389100"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

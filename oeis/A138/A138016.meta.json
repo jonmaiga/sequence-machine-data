@@ -3,6 +3,7 @@
   "id": "A138016",
   "mentions": [
     "A003422",
+    "A014144",
     "A138015"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

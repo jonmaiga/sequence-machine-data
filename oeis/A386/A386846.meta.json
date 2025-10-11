@@ -2,7 +2,8 @@
   "description": "a(n) is the number of sets of distinct four-cuboid combinations that fill an n X n X n cube excluding combinations that contain strict cuboids.",
   "id": "A386846",
   "mentions": [
-    "A384311"
+    "A384311",
+    "A386848"
   ],
   "tags": [
     "nonn"

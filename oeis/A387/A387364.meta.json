@@ -1,0 +1,15 @@
+{
+  "description": "Least number which is not a prime power and whose prime factors are equal modulo n.",
+  "id": "A387364",
+  "mentions": [
+    "A380758"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

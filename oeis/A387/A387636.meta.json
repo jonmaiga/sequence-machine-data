@@ -1,0 +1,19 @@
+{
+  "description": "Numbers x such that there exist integers y, z, t, v, w with x<=y<=z<=t<=v<=w such that psi(x) = psi(y) = psi(z) = psi(t) = psi(v) = psi(w) = (x + y + z + t + v + w)/5.",
+  "id": "A387636",
+  "mentions": [
+    "A001615",
+    "A387291",
+    "A387292",
+    "A387486"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

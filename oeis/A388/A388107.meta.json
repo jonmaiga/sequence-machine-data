@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(5/8)^3 * (2+sqrt(2))^(3/2) * 2^(15/16) / (32 * Pi^(3/4) * Gamma(7/8)^3 * (sqrt(2) * sqrt(2+sqrt(2)))^(3/2)).",
+  "id": "A388107",
+  "mentions": [
+    "A002483"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

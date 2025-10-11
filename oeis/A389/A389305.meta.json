@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can terminate in 3 by successively dividing a contiguous substring of digits by 2 but cannot terminate in 1.",
+  "id": "A389305",
+  "mentions": [
+    "A386551",
+    "A389140"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

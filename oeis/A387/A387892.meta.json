@@ -1,0 +1,21 @@
+{
+  "description": "Psi-deficient numbers: numbers k such that psi(k) < 2*k.",
+  "id": "A387892",
+  "mentions": [
+    "A001615",
+    "A005100",
+    "A007947",
+    "A033845",
+    "A087246",
+    "A387893"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

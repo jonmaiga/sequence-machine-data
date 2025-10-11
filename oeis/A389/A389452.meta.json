@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of the largest p-full divisor of n (a term of A054744 that divides n).",
+  "id": "A389452",
+  "mentions": [
+    "A000203",
+    "A054744",
+    "A368333",
+    "A389451"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

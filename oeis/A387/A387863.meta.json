@@ -1,0 +1,17 @@
+{
+  "description": "Primes p for which there are at least two integers p < n < q, all of whose prime factors are less than q - p, where q is the next prime following p.",
+  "id": "A387863",
+  "mentions": [
+    "A387864"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

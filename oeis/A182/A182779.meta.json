@@ -1,23 +1,20 @@
 {
-  "description": "a(n) = A049019(n) * A118851(n). Irregular table read by rows.",
+  "description": "Irregular triangle T(n,k) = A049019(n,k) * A118851(n,k), read by rows, 1 <= k <= A000041(n).",
   "id": "A182779",
   "mentions": [
     "A000041",
-    "A000670",
     "A006153",
-    "A006906",
+    "A036036",
     "A049019",
-    "A118851",
-    "A133314"
+    "A118851"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 54,
     "source": "joeis"
   }
 }

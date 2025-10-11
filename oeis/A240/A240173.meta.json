@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that k^n - 2^k is not prime for any k.",
+  "description": "Numbers m such that k^m - 2^m is not prime for any k.",
   "id": "A240173",
   "mentions": [
     "A245459"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) is the arithmetic mean of n and reversal(n).",
+  "description": "Numbers k such that phi(k) is the arithmetic mean of k and reversal(k).",
   "id": "A130001",
   "mentions": [
     "A000010",

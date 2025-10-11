@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/8) * exp(1/2 * Pi) * 2^(1/2).",
+  "id": "A388097",
+  "mentions": [
+    "A001938"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Values of u in the quartets (1, u, v, w) of type 3; i.e., values of u for solutions to (1 - u) = v(v - w), in distinct positive integers, with v > 1, sorted by nondecreasing values of u; see Comments.",
+  "id": "A385476",
+  "mentions": [
+    "A163870",
+    "A385182",
+    "A385246",
+    "A386218",
+    "A386631"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

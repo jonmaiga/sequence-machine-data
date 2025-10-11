@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sigma(n) - A075423(n) - n.",
+  "id": "A389461",
+  "mentions": [
+    "A001065",
+    "A075423",
+    "A389460",
+    "A389462"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

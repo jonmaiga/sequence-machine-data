@@ -1,0 +1,28 @@
+{
+  "description": "Irregular table T(n,k) = Product_{j = 1..k} prime(j)^(n-j+1), n >= 0, k = 1..n.",
+  "id": "A386822",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A001694",
+    "A002110",
+    "A006939",
+    "A025487",
+    "A055932",
+    "A126706",
+    "A286708",
+    "A332785",
+    "A387491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

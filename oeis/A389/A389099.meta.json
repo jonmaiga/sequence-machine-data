@@ -1,0 +1,36 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = k / gcd(n^k, k).",
+  "id": "A389099",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000034",
+    "A000265",
+    "A001477",
+    "A006519",
+    "A010685",
+    "A010689",
+    "A038502",
+    "A057427",
+    "A065330",
+    "A129203",
+    "A132739",
+    "A166925",
+    "A169609",
+    "A171372",
+    "A242603",
+    "A279911",
+    "A306367",
+    "A389101"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

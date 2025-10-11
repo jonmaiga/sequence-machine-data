@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (8192 * sqrt(2+sqrt(2)) * (2+sqrt(5)) * Gamma(9/4)^4) / (3125 * Pi^3).",
+  "id": "A389042",
+  "mentions": [
+    "A319822"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

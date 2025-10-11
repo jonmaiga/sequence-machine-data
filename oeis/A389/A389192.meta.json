@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically earliest sequence, where a(n) - a(n-1) is unique, and a(a(n)) = n.",
+  "id": "A389192",
+  "mentions": [
+    "A092569"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

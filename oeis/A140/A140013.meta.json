@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 41x^2+38xy+41y^2.",
+  "description": "Primes of the form 41*x^2+38*x*y+41*y^2.",
   "id": "A140013",
   "mentions": [
     "A106856",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 44,
     "source": "oeis-bfile"
   }
 }

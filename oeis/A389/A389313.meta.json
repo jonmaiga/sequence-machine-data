@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest m such that for every red-blue edge-coloring of the graph K_{m} there exists either a red or a blue n-cycle; Ramsey number r(C_n, C_n).",
+  "id": "A389313",
+  "mentions": [
+    "A000791",
+    "A003323",
+    "A006672",
+    "A361261",
+    "A389310"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

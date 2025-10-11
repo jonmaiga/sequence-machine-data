@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/2048) * exp(7*Pi/6) * Pi^7 * sqrt(2) / Gamma(3/4)^28.",
+  "id": "A388228",
+  "mentions": [
+    "A010833"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

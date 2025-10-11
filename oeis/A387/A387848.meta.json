@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n,5*k).",
+  "id": "A387848",
+  "mentions": [
+    "A070775",
+    "A070782",
+    "A139398",
+    "A387844",
+    "A387847",
+    "A387849"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

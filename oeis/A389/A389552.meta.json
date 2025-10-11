@@ -1,0 +1,16 @@
+{
+  "description": "Vandermonde determinant of the divisors of n.",
+  "id": "A389552",
+  "mentions": [
+    "A000005"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

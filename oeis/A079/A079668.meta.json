@@ -2,18 +2,20 @@
   "description": "Start with 1; at n-th step, write down what is in the sequence so far.",
   "id": "A079668",
   "mentions": [
-    "A005150",
+    "A030717",
     "A051120",
-    "A079585",
-    "A079586"
+    "A055186",
+    "A079686",
+    "A333867"
   ],
   "tags": [
     "base",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 84,
+    "source": "oeis-bfile"
   }
 }

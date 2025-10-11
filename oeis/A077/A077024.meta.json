@@ -2,6 +2,8 @@
   "description": "a(n) = Sum_{k=1..n} floor(n/k + 1/2).",
   "id": "A077024",
   "mentions": [
+    "A006218",
+    "A006590",
     "A077025"
   ],
   "tags": [

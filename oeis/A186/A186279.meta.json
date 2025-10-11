@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the digits of n plus the sum of the digits of n^2 plus the sum of the digits of n^3 is prime.",
+  "description": "Numbers k such that the sum of the digits of k plus the sum of the digits of k^2 plus the sum of the digits of k^3 is prime.",
   "id": "A186279",
   "mentions": [
     "A011557",

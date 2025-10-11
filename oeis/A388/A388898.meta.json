@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (32 * (280+198 * sqrt(2))^(1/4) * exp((7 * Pi) / 8) * Gamma(5/4)^4 * sin(Pi / 8)^4) / Pi^3.",
+  "id": "A388898",
+  "mentions": [
+    "A258835"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

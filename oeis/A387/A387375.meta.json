@@ -1,0 +1,17 @@
+{
+  "description": "Number of cycles in the n-Cameron graph.",
+  "id": "A387375",
+  "mentions": [
+    "A387438"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

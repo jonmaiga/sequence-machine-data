@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Product_{n>=1} sqrt(2*Pi*n)*(n/e)^n*e^(1/(12*n)) / n!, the cumulative error ratio of the first-order refinement of Stirling's approximation over the positive integers.",
+  "id": "A389380",
+  "mentions": [
+    "A019692",
+    "A046968",
+    "A046969",
+    "A074962",
+    "A389381",
+    "A389382"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

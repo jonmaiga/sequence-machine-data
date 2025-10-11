@@ -2,6 +2,7 @@
   "description": "Number of 6's in decimal expansion of Fibonacci(n).",
   "id": "A085860",
   "mentions": [
+    "A000045",
     "A085854",
     "A085855",
     "A085856",
@@ -13,12 +14,12 @@
     "A085863"
   ],
   "tags": [
-    "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

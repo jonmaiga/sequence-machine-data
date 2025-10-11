@@ -1,15 +1,16 @@
 {
-  "description": "a(n)=f(n,n+5) where f is given in A034261.",
+  "description": "a(n) = f(n,n+5) where f is given in A034261.",
   "id": "A034272",
   "mentions": [
     "A034261"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "joeis"
   }
 }

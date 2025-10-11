@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^22 / Pi^(11/2).",
+  "id": "A388158",
+  "mentions": [
+    "A004423"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

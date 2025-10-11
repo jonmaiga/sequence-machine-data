@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which A003959(k) > 2*k, where A003959 is multiplicative with a(p^e) = (p+1)^e.",
+  "id": "A387711",
+  "mentions": [
+    "A003959",
+    "A005101",
+    "A033942",
+    "A246282",
+    "A387710",
+    "A387712",
+    "A387713",
+    "A387715"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

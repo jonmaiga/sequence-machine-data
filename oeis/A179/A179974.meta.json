@@ -1,8 +1,9 @@
 {
-  "description": "Triangle read by rows: T(n,k) = (n-A049085(n,k))! in columns 1<=k<=A000041(n), rows n>=1.",
+  "description": "Irregular triangle T(n,k) = (n-A049085(n,k))!, read by rows, 1 <= k <= A000041(n).",
   "id": "A179974",
   "mentions": [
     "A000041",
+    "A036036",
     "A036042",
     "A036043",
     "A049085",
@@ -14,8 +15,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 92,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
   }
 }

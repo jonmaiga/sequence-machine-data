@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (8 * (1+sqrt(2)) * sqrt(5-sqrt(5)) * (3+sqrt(5)) * Gamma(5/4)^4) / (5^(3/4) * Pi^3).",
+  "id": "A389054",
+  "mentions": [
+    "A320151"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

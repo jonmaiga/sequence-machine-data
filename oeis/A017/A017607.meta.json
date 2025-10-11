@@ -1,5 +1,5 @@
 {
-  "description": "(12n+7)^3.",
+  "description": "a(n) = (12n+7)^3.",
   "id": "A017607",
   "mentions": [],
   "tags": [

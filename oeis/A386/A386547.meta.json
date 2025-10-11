@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer k such that 5^k begins with n!.",
+  "id": "A386547",
+  "mentions": [
+    "A000142",
+    "A018862",
+    "A374922",
+    "A374923",
+    "A387304"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

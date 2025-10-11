@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) of the coefficients JacobiDC(x,y) = sum_{n>=0} sum_{m=0..n} (-1)^m* T(n,m) *x^(2*n) *y^(2*m)/(2*n)!.",
+  "description": "Triangle T(n,m) of the coefficients JacobiDC(x,y) = Sum_{n>=0} Sum_{m=0..n} (-1)^m* T(n,m) *x^(2*n) *y^(2*m)/(2*n)!.",
   "id": "A181612",
   "mentions": [
     "A000364",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

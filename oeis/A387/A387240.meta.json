@@ -1,0 +1,18 @@
+{
+  "description": "Lesser of twin happy primes.",
+  "id": "A387240",
+  "mentions": [
+    "A001359",
+    "A007770",
+    "A035497"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

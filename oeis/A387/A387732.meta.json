@@ -1,0 +1,28 @@
+{
+  "description": "Highly powerful numbers that are perfect powers.",
+  "id": "A387732",
+  "mentions": [
+    "A000079",
+    "A001597",
+    "A001694",
+    "A005934",
+    "A025487",
+    "A052486",
+    "A055932",
+    "A131605",
+    "A246547",
+    "A307703",
+    "A368682",
+    "A378002",
+    "A388293"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

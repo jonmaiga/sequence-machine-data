@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k > prime(bigomega(k))#, where prime(bigomega(k))# is the product of the first bigomega(k) primes and bigomega(k) is the number of prime divisors of k (counted multiplicity).",
+  "id": "A387097",
+  "mentions": [
+    "A000027",
+    "A001222",
+    "A002110",
+    "A086568",
+    "A387096"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,12 @@
 {
-  "description": "a(n)=10^n*C(2n,n)/C(n+3,3).",
+  "description": "a(n) = 10^n*C(2n,n)/C(n+3,3).",
   "id": "A156125",
   "mentions": [
     "A000108",
+    "A000292",
+    "A000984",
     "A007272",
+    "A011557",
     "A156126"
   ],
   "tags": [
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/64) * exp(5*Pi/8) * Pi^(15/4) * 2^(3/8) / Gamma(3/4)^15.",
+  "id": "A388217",
+  "mentions": [
+    "A010822"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

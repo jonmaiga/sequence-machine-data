@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} log(Gamma(x))*PolyGamma(1-x) dx (negated).",
+  "id": "A388259",
+  "mentions": [
+    "A082633",
+    "A102887"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

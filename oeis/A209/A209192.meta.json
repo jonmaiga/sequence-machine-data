@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that digital root of n equals largest prime factor of n.",
+  "description": "Numbers k such that digital root of k equals largest prime factor of k.",
   "id": "A209192",
   "mentions": [
     "A006530",

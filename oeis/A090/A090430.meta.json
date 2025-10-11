@@ -1,7 +1,9 @@
 {
   "description": "a(n) = if Floor[2*Pi*PrimePi[m]/E] is prime then Floor[2*Pi*PrimePi[m]/E].",
   "id": "A090430",
-  "mentions": [],
+  "mentions": [
+    "A090416"
+  ],
   "tags": [
     "nonn"
   ],

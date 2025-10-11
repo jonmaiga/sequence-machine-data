@@ -1,16 +1,24 @@
 {
-  "description": "Number of connected set partitions of the vertices of labeled graphs with n vertices.",
+  "description": "Number of connected set partitions of the edges of labeled graphs with n vertices.",
   "id": "A317631",
   "mentions": [
     "A000110",
+    "A000272",
     "A001187",
     "A006125",
+    "A007718",
     "A048143",
+    "A056156",
+    "A125702",
+    "A147878",
+    "A275307",
     "A293510",
     "A304717",
     "A317632",
     "A317634",
-    "A317635"
+    "A317635",
+    "A318697",
+    "A320921"
   ],
   "tags": [
     "more",

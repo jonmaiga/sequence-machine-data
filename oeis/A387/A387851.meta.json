@@ -1,0 +1,19 @@
+{
+  "description": "Largest Littlewood-Richardson coefficient of symmetric group S_n of degree n.",
+  "id": "A387851",
+  "mentions": [
+    "A003040",
+    "A129723"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

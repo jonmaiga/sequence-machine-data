@@ -1,8 +1,10 @@
 {
-  "description": "Primitive numbers whose abundance is odd.",
+  "description": "Primitive numbers whose abundance is positive and odd.",
   "id": "A259231",
   "mentions": [
-    "A156903"
+    "A033880",
+    "A156903",
+    "A156942"
   ],
   "tags": [
     "nonn"

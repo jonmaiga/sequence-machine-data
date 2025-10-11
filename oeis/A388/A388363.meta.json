@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 64 * exp(-2*Pi/3) * Gamma(3/4)^16 / Pi^4.",
+  "id": "A388363",
+  "mentions": [
+    "A023014"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Central coefficients in Product_{k=1..n} (1 + k*y + y^2).",
   "id": "A201826",
   "mentions": [
+    "A002426",
     "A201950",
     "A202474",
     "A202476",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

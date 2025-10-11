@@ -2,7 +2,8 @@
   "description": "Theta series of D8 lattice with respect to midpoint of edge.",
   "id": "A045820",
   "mentions": [
-    "A045822"
+    "A045822",
+    "A388433"
   ],
   "tags": [
     "formulas",

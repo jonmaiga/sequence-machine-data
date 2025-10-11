@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 8 * exp(-Pi).",
+  "id": "A388178",
+  "mentions": [
+    "A007191"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

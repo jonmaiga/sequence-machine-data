@@ -1,0 +1,22 @@
+{
+  "description": "Number of achiral polyominoes with n heptagonal cells of the hyperbolic regular tiling with Schläfli symbol {7,oo}.",
+  "id": "A389563",
+  "mentions": [
+    "A002295",
+    "A005419",
+    "A143546",
+    "A143547",
+    "A389561",
+    "A389562",
+    "A389564"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

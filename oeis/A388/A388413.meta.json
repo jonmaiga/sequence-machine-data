@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 4^(n-k) * binomial(n,k) * binomial(n+3,k).",
+  "id": "A388413",
+  "mentions": [
+    "A098665",
+    "A388206",
+    "A388412",
+    "A388414"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

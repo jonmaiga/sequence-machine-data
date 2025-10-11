@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 0; thereafter a(n) = a(n-1) - n if a(n-1) >= 2*n and not already in the sequence, otherwise a(n) = a(n-1) + n.",
+  "id": "A387683",
+  "mentions": [
+    "A005132",
+    "A387660"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

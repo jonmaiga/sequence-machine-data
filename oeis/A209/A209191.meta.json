@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that digital root of n equals smallest prime factor of n.",
+  "description": "Numbers k such that digital root of k equals smallest prime factor of k.",
   "id": "A209191",
   "mentions": [
+    "A010888",
+    "A020639",
     "A031214"
   ],
   "tags": [
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
+    "size": 56,
     "source": "oeis-bfile"
   }
 }

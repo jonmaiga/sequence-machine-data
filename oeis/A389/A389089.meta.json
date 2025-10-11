@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of ratio sigma(n) / A048250(n), where sigma is the sum of divisors and A048250 is the sum of squarefree divisors.",
+  "id": "A389089",
+  "mentions": [
+    "A000203",
+    "A048250",
+    "A367990",
+    "A389075",
+    "A389080",
+    "A389087"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Cubefull Achilles numbers.",
+  "id": "A388293",
+  "mentions": [
+    "A000961",
+    "A024619",
+    "A036966",
+    "A052486",
+    "A076467",
+    "A126706",
+    "A131605",
+    "A246549",
+    "A286708",
+    "A372695",
+    "A383394",
+    "A386762",
+    "A388304",
+    "A388549"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

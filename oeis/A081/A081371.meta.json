@@ -1,5 +1,5 @@
 {
-  "description": "Binomial coefficients C[n,j] reduced modulo j, j=1,...n; read by rows, j=0 is omitted because of mod[n,0].",
+  "description": "Binomial coefficients C(n,j) reduced modulo j, j=1,...n; read by rows, j=0 is omitted because of mod(n,0).",
   "id": "A081371",
   "mentions": [
     "A007318"

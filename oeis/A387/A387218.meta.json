@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k = sigma(s(s(s(k)))) where s(k) = sigma(k)-k and sigma = A000203.",
+  "id": "A387218",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A072868"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

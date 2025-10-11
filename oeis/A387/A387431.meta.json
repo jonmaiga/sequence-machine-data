@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled simple connected graphs with n vertices and treedepth k.",
+  "id": "A387431",
+  "mentions": [
+    "A001349",
+    "A263294",
+    "A387046"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

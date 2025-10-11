@@ -1,14 +1,17 @@
 {
   "description": "Numbers whose base-3 and base-7 expansions have no digits in common.",
   "id": "A037348",
-  "mentions": [],
+  "mentions": [
+    "A007089",
+    "A007093"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
+    "size": 59,
     "source": "joeis"
   }
 }

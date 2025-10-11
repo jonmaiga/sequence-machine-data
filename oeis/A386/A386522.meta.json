@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the number of radians in a minute of arc.",
+  "id": "A386522",
+  "mentions": [
+    "A000796",
+    "A019673",
+    "A019679",
+    "A019685"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

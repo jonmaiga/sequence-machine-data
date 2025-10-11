@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^3-(n+1)^2.",
+  "description": "a(n) = n^3 - (n+1)^2.",
   "id": "A153257",
   "mentions": [
     "A045991",
@@ -8,11 +8,13 @@
     "A140719"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 43,
     "source": "joeis"
   }
 }

@@ -1,11 +1,14 @@
 {
-  "description": "The minimum value of j + k where j and k are positive integers with j^2 + k^2 = A001481(n).",
+  "description": "The minimum value of j + k where j and k are nonnegative integers with j^2 + k^2 = A001481(n).",
   "id": "A328803",
   "mentions": [
     "A000161",
-    "A001481"
+    "A001481",
+    "A229140",
+    "A385236"
   ],
   "tags": [
+    "formulas",
     "look",
     "nonn"
   ],

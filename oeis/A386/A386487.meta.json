@@ -1,0 +1,15 @@
+{
+  "description": "A386482(n) - n.",
+  "id": "A386487",
+  "mentions": [
+    "A386482"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

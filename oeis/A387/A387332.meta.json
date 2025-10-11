@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary strings of length n that contain at least one maximal run of ones of even length.",
+  "id": "A387332",
+  "mentions": [
+    "A000079",
+    "A027934"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

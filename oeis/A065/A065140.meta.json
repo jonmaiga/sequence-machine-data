@@ -1,7 +1,11 @@
 {
   "description": "a(n) = 2^n*(2*n)!.",
   "id": "A065140",
-  "mentions": [],
+  "mentions": [
+    "A000680",
+    "A005443",
+    "A088026"
+  ],
   "tags": [
     "easy",
     "formulas",

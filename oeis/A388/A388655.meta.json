@@ -1,0 +1,22 @@
+{
+  "description": "Continued fraction expansion of 6*Sum_{k>=0} 12^(-2^k).",
+  "id": "A388655",
+  "mentions": [
+    "A006466",
+    "A007400",
+    "A014577",
+    "A157196",
+    "A387398",
+    "A388852"
+  ],
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

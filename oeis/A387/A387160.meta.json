@@ -1,0 +1,24 @@
+{
+  "description": "Terms of the form prime * m^2 in A351554.",
+  "id": "A387160",
+  "mentions": [
+    "A000396",
+    "A000668",
+    "A003961",
+    "A162642",
+    "A228058",
+    "A229125",
+    "A351554",
+    "A351555",
+    "A386430"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

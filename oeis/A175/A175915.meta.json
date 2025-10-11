@@ -1,8 +1,15 @@
 {
-  "description": "Odd terms of A109510.",
+  "description": "Odd k such that sigma(k) - 2*k (the abundance of k) is a square >= 0.",
   "id": "A175915",
   "mentions": [
-    "A109510"
+    "A063788",
+    "A083874",
+    "A088012",
+    "A088832",
+    "A109510",
+    "A141547",
+    "A275996",
+    "A292558"
   ],
   "tags": [
     "nonn"
@@ -10,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

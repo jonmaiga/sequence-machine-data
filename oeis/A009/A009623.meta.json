@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of sinh(x).exp(sinh(x)).",
+  "description": "Expansion of e.g.f. sinh(x)*exp(sinh(x)).",
   "id": "A009623",
   "mentions": [
     "A003724",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 27,
     "source": "joeis"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Lesser of cousin happy primes.",
+  "id": "A387896",
+  "mentions": [
+    "A007770",
+    "A035497",
+    "A046132"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

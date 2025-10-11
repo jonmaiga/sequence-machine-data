@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{c composite} 1/c - log(1 + 1/c).",
+  "id": "A389400",
+  "mentions": [
+    "A001620",
+    "A002808",
+    "A387506"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

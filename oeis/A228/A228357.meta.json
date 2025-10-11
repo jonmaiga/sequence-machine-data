@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of all primes <=n is not prime.",
+  "description": "Numbers k such that sum of all primes <= k is not prime.",
   "id": "A228357",
   "mentions": [
     "A034387",

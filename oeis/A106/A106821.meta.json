@@ -1,5 +1,5 @@
 {
-  "description": "Greatest k < n such that 2^n - 2^k -1 is prime or 0 if no such prime exists.",
+  "description": "Greatest k < n such that 2^n - 2^k - 1 is prime or 0 if no such prime exists.",
   "id": "A106821",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
+    "size": 71,
     "source": "oeis-bfile"
   }
 }

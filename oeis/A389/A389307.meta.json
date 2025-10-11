@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the second smallest dihedral angle, in radians, in a pentagonal orthocupolarotunda (Johnson solid J_32).",
+  "id": "A389307",
+  "mentions": [
+    "A002194",
+    "A010472",
+    "A344075",
+    "A377995",
+    "A377996",
+    "A384871",
+    "A384872",
+    "A389109"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

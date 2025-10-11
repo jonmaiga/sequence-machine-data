@@ -2,6 +2,7 @@
   "description": "Numbers k such that k/4^m == 1 (mod 4), where 4^m is the greatest power of 4 that divides k.",
   "id": "A277549",
   "mentions": [
+    "A016813",
     "A036554",
     "A055050",
     "A065882"

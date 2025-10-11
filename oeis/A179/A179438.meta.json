@@ -1,19 +1,20 @@
 {
-  "description": "Number of rooted trees which can be associated with each unrestricted partition.",
+  "description": "Triangle T(n,k) read by rows: number of forests of rooted trees whose trees have sizes given by the k-th partition of n listed in Abramowitz and Stegun order, 1 <= k <= A000041(n).",
   "id": "A179438",
   "mentions": [
     "A000041",
     "A000081",
-    "A144963"
+    "A033185",
+    "A036036"
   ],
   "tags": [
+    "look",
     "nonn",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of edges in a graph related to the Kolakoski sequence (A000002).",
+  "description": "Length of the cycle that has maximal fraction of 1's in output labels in the n-th composition of the finite-state transducer that fixes the Kolakoski sequence (A000002).",
   "id": "A306337",
   "mentions": [
     "A000002"

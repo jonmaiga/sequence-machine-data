@@ -1,0 +1,18 @@
+{
+  "description": "Nonprimes k with no proper divisor d such that gcd(d^2 - 1, k) = 1.",
+  "id": "A389150",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A014574"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

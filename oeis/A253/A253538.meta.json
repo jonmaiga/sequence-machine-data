@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(2+2) 0..1 arrays with every 3X3 subblock diagonal maximum minus antidiagonal minimum nonincreasing horizontally and nondecreasing vertically.",
+  "description": "Number of (n+2) X (2+2) 0..1 arrays with every 3 X 3 subblock diagonal maximum minus antidiagonal minimum nonincreasing horizontally and nondecreasing vertically.",
   "id": "A253538",
   "mentions": [
     "A253544"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

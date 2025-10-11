@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(x + tan(x)).",
+  "description": "Expansion of e.g.f. exp(x + tan(x)).",
   "id": "A009284",
   "mentions": [],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/((1-2*x) * (1-6*x))^(5/2).",
+  "id": "A387280",
+  "mentions": [
+    "A387237",
+    "A387272"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

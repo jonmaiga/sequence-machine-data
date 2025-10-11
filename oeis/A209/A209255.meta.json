@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that (prime(n)*prime(n+1)+1)/2 is prime.",
+  "description": "Integers k such that (prime(k)*prime(k+1)+1)/2 is prime.",
   "id": "A209255",
   "mentions": [],
   "tags": [

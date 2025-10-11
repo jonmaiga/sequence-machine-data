@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/(1 - 6*x + x^2)^(7/2).",
+  "id": "A387342",
+  "mentions": [
+    "A387338"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

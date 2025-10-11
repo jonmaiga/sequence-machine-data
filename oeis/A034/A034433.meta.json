@@ -2,7 +2,8 @@
   "description": "Expansion of q^(-3) * (eta(q) * eta(q^8))^8 in powers of q.",
   "id": "A034433",
   "mentions": [
-    "A002288"
+    "A002288",
+    "A388396"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of rotationally symmetric 2n-celled polyominoes with 1 hole.",
+  "description": "Number of 2n-celled free polyominoes with 1 hole that have the 180-degree rotation symmetry and no others.",
   "id": "A057425",
   "mentions": [
     "A056883"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 5,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

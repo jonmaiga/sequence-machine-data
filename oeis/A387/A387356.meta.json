@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose set of cyclic permutations has GCD = 1.",
+  "id": "A387356",
+  "mentions": [
+    "A001651",
+    "A084433",
+    "A226778",
+    "A287513",
+    "A339076"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

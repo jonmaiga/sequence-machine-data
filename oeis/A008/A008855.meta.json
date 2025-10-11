@@ -2,9 +2,14 @@
   "description": "Triangle T(n,k), n>=1, read by rows, where T(n,k) is the number of lattice polygons with area n and perimeter 2*k.",
   "id": "A008855",
   "mentions": [
+    "A002931",
+    "A006724",
     "A006725",
     "A006726",
-    "A259857"
+    "A027434",
+    "A056625",
+    "A259857",
+    "A334756"
   ],
   "tags": [
     "nice",

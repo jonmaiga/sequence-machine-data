@@ -1,5 +1,5 @@
 {
-  "description": "A sum of decreasing powers.",
+  "description": "a(n) = 6^n - 5^n - 4^n - 3^n + 3*2^n.",
   "id": "A081685",
   "mentions": [
     "A081684"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

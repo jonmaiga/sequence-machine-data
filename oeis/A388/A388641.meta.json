@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (Pi * exp(Pi)) / (2 * sqrt(110+50 * sqrt(5)) * Gamma(3/4)^4).",
+  "id": "A388641",
+  "mentions": [
+    "A138558"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

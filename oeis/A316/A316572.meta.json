@@ -1,10 +1,11 @@
 {
-  "description": "Number of nXn 0..1 arrays with every element unequal to 0, 2, 3, 4, 7 or 8 king-move adjacent elements, with upper left element zero.",
+  "description": "Number of n X n 0..1 arrays with every element unequal to 0, 2, 3, 4, 7 or 8 king-move adjacent elements, with upper left element zero.",
   "id": "A316572",
   "mentions": [
     "A316576"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

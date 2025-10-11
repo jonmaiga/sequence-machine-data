@@ -1,22 +1,19 @@
 {
-  "description": "Gray code/ Silvester-Hadamard binary triangular sequence from 16 X 16 self-similar matrix.",
+  "description": "Array read by antidiagonals: A(n, k) = 1 if and only if the Gray codes for n and k have no bits in common.",
   "id": "A131218",
   "mentions": [
-    "A121801",
-    "A122944",
-    "A123949",
-    "A140820"
+    "A140820",
+    "A363710"
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn",
-    "obsc",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

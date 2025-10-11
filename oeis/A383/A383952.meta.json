@@ -1,0 +1,14 @@
+{
+  "description": "Number of ways to tile a 1 X n strip using squares, red dominos, and blue dominos, where the number of red dominos must be twice the number of blues.",
+  "id": "A383952",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

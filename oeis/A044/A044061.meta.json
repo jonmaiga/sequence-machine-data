@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that string 0,0 occurs in the base 4 representation of n but not of n-1.",
+  "description": "Numbers k such that string 0,0 occurs in the base 4 representation of k but not of k-1.",
   "id": "A044061",
-  "mentions": [],
+  "mentions": [
+    "A007090"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
-    "source": "joeis"
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

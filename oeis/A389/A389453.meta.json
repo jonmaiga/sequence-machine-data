@@ -1,0 +1,21 @@
+{
+  "description": "Arithmetic derivative of the largest p-full divisor of n (a term of A054744 that divides n).",
+  "id": "A389453",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A054744",
+    "A368333",
+    "A389454",
+    "A389455"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

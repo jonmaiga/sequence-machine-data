@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^23 / Pi^(23/4).",
+  "id": "A388159",
+  "mentions": [
+    "A004424"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of additively indecomposable elements in Shanks' simplest cubic field Q[x]/(x^3 - n*x^2 - (n+3)*x - 1), up to multiplication by totally positive units.",
+  "id": "A387574",
+  "mentions": [
+    "A005472",
+    "A152948",
+    "A387203",
+    "A387575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

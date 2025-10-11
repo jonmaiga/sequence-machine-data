@@ -1,0 +1,19 @@
+{
+  "description": "Numbers r for which there are at least two integers strictly between prime(r) and prime(r+1), all of whose prime factors are less than prime(r+1) - prime(r).",
+  "id": "A387864",
+  "mentions": [
+    "A000720",
+    "A383863",
+    "A387863"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

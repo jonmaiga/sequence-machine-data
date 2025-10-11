@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of 1/((1-2x)(1-5x)(1-9x)(1-10x)).",
+  "description": "Expansion of 1/((1-2*x)*(1-5*x)*(1-9*x)*(1-10*x)).",
   "id": "A026024",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

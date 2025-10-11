@@ -1,9 +1,10 @@
 {
-  "description": "3nd diagonal (from right) in A104978.",
+  "description": "3rd diagonal (from right) in A104978.",
   "id": "A383451",
   "mentions": [
     "A104978",
-    "A104987"
+    "A104987",
+    "A383450"
   ],
   "tags": [
     "formulas",

@@ -2,9 +2,11 @@
   "description": "Expansion of g.f. Product_{m>=1} 1/(1-x^m)^30.",
   "id": "A082556",
   "mentions": [
-    "A144064"
+    "A144064",
+    "A388464"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

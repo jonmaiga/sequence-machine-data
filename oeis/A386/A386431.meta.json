@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows, where row n contains the numbers 1, ..., n^2, written columnwise into a square matrix and read rowwise.",
+  "id": "A386431",
+  "mentions": [
+    "A000330",
+    "A002061",
+    "A037270",
+    "A064866",
+    "A074279"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

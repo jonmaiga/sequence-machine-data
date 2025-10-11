@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/16) * exp(9*Pi/8) * 2^(5/8).",
+  "id": "A388317",
+  "mentions": [
+    "A022591"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n-1 and 3^n-1 are coprime.",
+  "description": "Numbers k such that 2^k-1 and 3^k-1 are coprime.",
   "id": "A263647",
   "mentions": [
     "A000225",

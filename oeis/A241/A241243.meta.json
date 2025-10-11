@@ -1,7 +1,9 @@
 {
   "description": "Decimal representation of sin(Pi/17).",
   "id": "A241243",
-  "mentions": [],
+  "mentions": [
+    "A210649"
+  ],
   "tags": [
     "cons",
     "formulas",

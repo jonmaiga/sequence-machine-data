@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (3^n + 5^n)/2^3 = A074606(n)/8.",
+  "description": "Primes of the form (3^k + 5^k)/2^3 = A074606(k)/8.",
   "id": "A121938",
   "mentions": [
     "A005058",

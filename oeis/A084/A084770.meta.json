@@ -2,7 +2,12 @@
   "description": "Coefficients of 1/(1-4x-16x^2)^(1/2); also, a(n) is the central coefficient of (1+2x+5x^2)^n.",
   "id": "A084770",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A000984",
+    "A006139",
+    "A098455",
+    "A098456",
+    "A387466"
   ],
   "tags": [
     "formulas",

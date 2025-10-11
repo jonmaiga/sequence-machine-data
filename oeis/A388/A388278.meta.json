@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(sigma(n), A276086(sigma(n))), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.",
+  "id": "A388278",
+  "mentions": [
+    "A000203",
+    "A276086",
+    "A324198",
+    "A388031"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

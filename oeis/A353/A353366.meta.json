@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet inverse of A110963, which is a fractalization of Kimberling's paraphrases sequence (A003602).",
+  "description": "Dirichlet inverse of A110963, which is a fractalization of Kimberling's paraphrase of the binary number system, A003602.",
   "id": "A353366",
   "mentions": [
     "A003602",

@@ -1,0 +1,25 @@
+{
+  "description": "Powerful numbers (A061862) representable as a sum of nonnegative powers of their digits in a unique way.",
+  "id": "A388144",
+  "mentions": [
+    "A003321",
+    "A005188",
+    "A007532",
+    "A023052",
+    "A050240",
+    "A061862",
+    "A134703",
+    "A384099",
+    "A387032",
+    "A388297"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

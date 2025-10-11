@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of cos(Pi/21).",
+  "id": "A387454",
+  "mentions": [
+    "A019688",
+    "A073052"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

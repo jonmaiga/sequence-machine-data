@@ -2,6 +2,8 @@
   "description": "a(n) = binomial(2*n, n) * binomial(2*n+5, n).",
   "id": "A113894",
   "mentions": [
+    "A000984",
+    "A003516",
     "A062190"
   ],
   "tags": [

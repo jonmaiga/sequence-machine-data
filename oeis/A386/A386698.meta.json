@@ -1,0 +1,15 @@
+{
+  "description": "Values of w in the quartets (4, u, v, w) of type 2; i.e., values of w for solutions to 4(4 + u) = v(v - w), in distinct positive integers, with v > 1, sorted by nondecreasing values of u; see A386288.",
+  "id": "A386698",
+  "mentions": [
+    "A386288"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that if you subtract n-reversed from n you get a natural number with the same digits as n.",
+  "description": "Numbers k such that if you subtract k-reversed from k you get a natural number with the same digits as k.",
   "id": "A121969",
   "mentions": [
     "A055161"

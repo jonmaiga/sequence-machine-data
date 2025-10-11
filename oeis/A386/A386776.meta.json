@@ -1,0 +1,17 @@
+{
+  "description": "Number of divisors d of n such that d^d == d^n (mod n).",
+  "id": "A386776",
+  "mentions": [
+    "A065295",
+    "A182816",
+    "A387400"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,28 +1,21 @@
 {
-  "description": "Cube of A051731.",
+  "description": "Triangle read by rows: A051731^3 as an infinite lower triangular matrix.",
   "id": "A127172",
   "mentions": [
-    "A000005",
-    "A000010",
     "A007425",
     "A007426",
-    "A007429",
-    "A008683",
-    "A018804",
+    "A007430",
     "A051731",
-    "A061200",
-    "A126988",
     "A127170"
   ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

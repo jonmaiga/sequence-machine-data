@@ -1,7 +1,8 @@
 {
-  "description": "Greedy frac multiples of Catalan's constant, G: a(1)=1, sum(n>0,frac(a(n)*x))=1 at x=G, where \"frac(y)\" denotes the fractional part of y.",
+  "description": "Greedy frac multiples of Catalan's constant, G: a(1)=1, Sum_{n>0} frac(a(n)*x) = 1 at x=G=A006752, where \"frac(y)\" denotes the fractional part of y.",
   "id": "A080158",
   "mentions": [
+    "A006752",
     "A079938",
     "A079939",
     "A079940",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

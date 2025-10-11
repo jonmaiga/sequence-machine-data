@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed polyominoes of area n with holes.",
+  "id": "A389193",
+  "mentions": [
+    "A001168",
+    "A001419",
+    "A006724",
+    "A057419",
+    "A389190",
+    "A389191"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

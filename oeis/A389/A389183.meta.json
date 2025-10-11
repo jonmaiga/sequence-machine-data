@@ -1,0 +1,15 @@
+{
+  "description": "Number of mutual-visibility sets in the n-ladder graph.",
+  "id": "A389183",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

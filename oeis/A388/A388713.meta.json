@@ -1,0 +1,53 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of superdiagonal multisets summing to n (reversed partitions of n) with maximum k.",
+  "id": "A388713",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000700",
+    "A001522",
+    "A003059",
+    "A003106",
+    "A003114",
+    "A025157",
+    "A052335",
+    "A052337",
+    "A059607",
+    "A064428",
+    "A114088",
+    "A115720",
+    "A115994",
+    "A237979",
+    "A238352",
+    "A238394",
+    "A238395",
+    "A238873",
+    "A238875",
+    "A352828",
+    "A352830",
+    "A352833",
+    "A355529",
+    "A368100",
+    "A370585",
+    "A370592",
+    "A370593",
+    "A387118",
+    "A387576",
+    "A387578",
+    "A387880",
+    "A388710",
+    "A388711",
+    "A388714",
+    "A388720",
+    "A388724"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^2 + x^2*(1-x)*A(x)^3.",
+  "id": "A388734",
+  "mentions": [
+    "A163733"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

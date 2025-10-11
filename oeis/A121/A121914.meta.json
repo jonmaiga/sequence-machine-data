@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that (partial sums of n times (n 1's)) + 1 is prime; or n such that Sum_{k=1..n} A053422(k) + 1 is prime.",
+  "description": "Numbers m such that (partial sums of m times (m 1's)) + 1 is prime; or m such that Sum_{k=1..m} A053422(k) + 1 is prime.",
   "id": "A121914",
   "mentions": [
     "A053422"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

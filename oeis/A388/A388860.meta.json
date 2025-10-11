@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the number of runs of 1's in k is the same as the number of runs on 1's in k^2.",
+  "id": "A388860",
+  "mentions": [
+    "A069010",
+    "A077436"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

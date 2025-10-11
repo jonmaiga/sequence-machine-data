@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 49*2^n - 3*n - 18.",
+  "id": "A387391",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

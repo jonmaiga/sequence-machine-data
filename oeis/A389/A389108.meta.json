@@ -1,0 +1,14 @@
+{
+  "description": "Number of 4 X 4 matrices in Hermite normal form with determinant n.",
+  "id": "A389108",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

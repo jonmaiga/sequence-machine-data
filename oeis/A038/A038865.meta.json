@@ -1,7 +1,9 @@
 {
-  "description": "(n+3)^3 - n^3.",
+  "description": "a(n) = (n+3)^3 - n^3.",
   "id": "A038865",
-  "mentions": [],
+  "mentions": [
+    "A002061"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 43,
     "source": "joeis"
   }
 }

@@ -1,13 +1,16 @@
 {
   "description": "Number of fixed n-celled polyominoes with 1 hole.",
   "id": "A057419",
-  "mentions": [],
+  "mentions": [
+    "A057418"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 7,
-    "size": 20,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

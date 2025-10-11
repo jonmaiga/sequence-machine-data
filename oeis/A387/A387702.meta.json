@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number m such that m, m+1, m+2, m+3, m+4, m+5 and m+6 have exactly n prime factors (counted with multiplicity).",
+  "id": "A387702",
+  "mentions": [
+    "A001222",
+    "A113752",
+    "A115186",
+    "A356893",
+    "A387505",
+    "A387701"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

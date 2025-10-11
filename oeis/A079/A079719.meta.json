@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + floor[sum_k{k",
+  "description": "a(n) = n + floor(Sum_{k",
   "id": "A079719",
   "mentions": [
     "A005428",

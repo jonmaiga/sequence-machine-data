@@ -2,7 +2,8 @@
   "description": "n with the rightmost occurrence of the smallest digit of n deleted.",
   "id": "A340184",
   "mentions": [
-    "A054054"
+    "A054054",
+    "A340270"
   ],
   "tags": [
     "base",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 90,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

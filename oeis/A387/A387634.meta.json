@@ -1,0 +1,24 @@
+{
+  "description": "Indices k such that s(k) is a prime p, s(k-1) = 2*p, and s(k+1) = 3*p, where s = A386482.",
+  "id": "A387634",
+  "mentions": [
+    "A064413",
+    "A386482",
+    "A386483",
+    "A387072",
+    "A387076",
+    "A387077",
+    "A387522",
+    "A387523",
+    "A387524"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

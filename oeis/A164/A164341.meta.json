@@ -1,19 +1,21 @@
 {
-  "description": "Irregular triangle read by rows: a(n,m) counts the decompositions into involutions of a permutation that has a cycle structure given by the m-th partition of n.",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of decompositions into involutions of a permutation that has a cycle structure given by the k-th partition of n.",
   "id": "A164341",
   "mentions": [
     "A000041",
     "A000085",
+    "A036036",
     "A036039",
-    "A164342"
+    "A164342",
+    "A173869"
   ],
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 78,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
   }
 }

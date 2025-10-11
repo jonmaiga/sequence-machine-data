@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of cos(Pi/11).",
+  "id": "A387440",
+  "mentions": [
+    "A019678"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 118,
+    "source": "joeis"
+  }
+}

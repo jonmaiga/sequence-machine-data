@@ -1,19 +1,20 @@
 {
-  "description": "Sum of numerators and denominators of convergents to 1/e.",
+  "description": "Sum of numerators and denominators of convergents to e.",
   "id": "A085368",
   "mentions": [
     "A000572",
     "A006594",
     "A007676",
-    "A007677"
+    "A007677",
+    "A085369"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

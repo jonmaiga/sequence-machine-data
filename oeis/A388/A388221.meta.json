@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (1/256) * exp(5*Pi/6) * Pi^5 * sqrt(2) / Gamma(3/4)^20.",
+  "id": "A388221",
+  "mentions": [
+    "A010826"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

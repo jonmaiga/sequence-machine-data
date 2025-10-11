@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways of folding a strip of n labeled stamps.",
+  "description": "Number of symmetric ways of folding a strip of n labeled stamps.",
   "id": "A000560",
   "mentions": [
     "A000108",

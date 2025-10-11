@@ -1,5 +1,5 @@
 {
-  "description": "Related to Rogers-Ramanujan Identities.",
+  "description": "Limit of the position of the n-th partition into parts 5k+2 or 5k+3 in the list of all integer partitions sorted in reverse lexicographic order, for integers == 3 (mod 5).",
   "id": "A035408",
   "mentions": [
     "A003106",
@@ -9,12 +9,11 @@
     "A035410"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 49,
+    "source": "joeis"
   }
 }

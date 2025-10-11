@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 16 * exp(-7*Pi/8) * 2^(3/8).",
+  "id": "A388383",
+  "mentions": [
+    "A029844"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

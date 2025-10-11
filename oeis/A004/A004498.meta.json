@@ -4,6 +4,7 @@
   "mentions": [
     "A004482",
     "A004483",
+    "A004489",
     "A004492",
     "A004493",
     "A004494",
@@ -12,12 +13,14 @@
     "A004497"
   ],
   "tags": [
+    "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 58,
-    "source": "joeis"
+    "size": 68,
+    "source": "oeis-bfile"
   }
 }

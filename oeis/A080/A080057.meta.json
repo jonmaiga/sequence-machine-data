@@ -1,5 +1,5 @@
 {
-  "description": "Greedy powers of (e^-Gamma): sum_{n=1..inf} (e^-Gamma)^a(n) = 1, where e^-Gamma = e^(-.57721566490153286...) = .561459483566885169...",
+  "description": "Greedy powers of exp(-gamma): Sum_{n>=1} exp(-gamma)^a(n) = 1, where exp(-gamma) = exp(-.57721566490153286...) = .561459483566885169...",
   "id": "A080057",
   "mentions": [
     "A076802",

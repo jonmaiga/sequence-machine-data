@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (45/32) * Pi^(7/2) / Gamma(3/4)^14.",
+  "id": "A388438",
+  "mentions": [
+    "A047626"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

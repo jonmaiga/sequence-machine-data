@@ -2,7 +2,8 @@
   "description": "Continued fraction for sqrt(35).",
   "id": "A040029",
   "mentions": [
-    "A010490"
+    "A010490",
+    "A010691"
   ],
   "tags": [
     "cofr",

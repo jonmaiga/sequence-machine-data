@@ -2,6 +2,8 @@
   "description": "Decimal expansion of tangent of 84 degrees.",
   "id": "A019982",
   "mentions": [
+    "A019815",
+    "A019893",
     "A019970",
     "A019976"
   ],

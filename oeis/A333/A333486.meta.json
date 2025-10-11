@@ -4,6 +4,7 @@
   "mentions": [
     "A000041",
     "A000120",
+    "A001222",
     "A006128",
     "A026792",
     "A036036",
@@ -30,12 +31,13 @@
     "A334442"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 97,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

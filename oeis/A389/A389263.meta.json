@@ -1,0 +1,17 @@
+{
+  "description": "Number of quartic graphs with minimal crossing number n and the minimal possible number of vertices.",
+  "id": "A389263",
+  "mentions": [
+    "A307450",
+    "A389265"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of sets of k integer sided cuboids with distinct volumes that fill an n X n X n cube.",
+  "id": "A387121",
+  "mentions": [
+    "A004526",
+    "A381847",
+    "A385580",
+    "A387040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

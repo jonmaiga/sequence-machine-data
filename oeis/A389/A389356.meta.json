@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..Pi/2} {sqrt(tan(x))} dx, where {} denotes fractional part.",
+  "id": "A389356",
+  "mentions": [
+    "A212880",
+    "A247719",
+    "A352527"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

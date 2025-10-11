@@ -1,0 +1,19 @@
+{
+  "description": "Inverse map for A130789, where A130789 gives primes sorted according to decreasing ratio A001223(n)/A000040(n).",
+  "id": "A389083",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A130789",
+    "A389084",
+    "A389085"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

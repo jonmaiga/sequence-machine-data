@@ -1,0 +1,22 @@
+{
+  "description": "LCM of the psi-amicable pairs: a(n) = lcm(A323329(n), A323330(n)).",
+  "id": "A389098",
+  "mentions": [
+    "A001615",
+    "A323329",
+    "A323330",
+    "A383943",
+    "A387885",
+    "A387893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

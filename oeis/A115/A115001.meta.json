@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=1}^n J_2(k)/24.",
+  "description": "a(n) = Sum_{k=1..n} J_2(k)/24.",
   "id": "A115001",
   "mentions": [
     "A115000"

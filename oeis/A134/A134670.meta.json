@@ -1,5 +1,5 @@
 {
-  "description": "First position k such that A046694(k) = A046694(k+1) =.. 0 are n consecutive zeros starting with A046694(k), where A046694 = Ramanujan tau numbers mod 691.",
+  "description": "Least k such that A046694(k) = A046694(k+1) = ... = 0 are n consecutive zeros starting with A046694(k), where A046694 = Ramanujan tau numbers mod 691.",
   "id": "A134670",
   "mentions": [
     "A046694",

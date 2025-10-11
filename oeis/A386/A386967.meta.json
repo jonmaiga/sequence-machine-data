@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that can be written in three different ways as s_1^x_1 + ... + s_t^x_t, with 1 < s_1 < ... < s_t and {s_1,..., s_t} = {x_1,..., x_t} for some t > 0.",
+  "description": "Numbers that can be written in exactly three different ways as s_1^x_1 + ... + s_t^x_t, with 1 < s_1 < ... < s_t and {s_1,..., s_t} = {x_1,..., x_t} for some t > 0.",
   "id": "A386967",
   "mentions": [
     "A385232",

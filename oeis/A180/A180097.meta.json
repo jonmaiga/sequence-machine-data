@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n such that sigma(n) is powerful.",
+  "description": "Numbers k such that sigma(k) is powerful.",
   "id": "A180097",
   "mentions": [
     "A000203",
     "A001694",
     "A180090",
-    "A180098"
+    "A180098",
+    "A387726",
+    "A387727"
   ],
   "tags": [
     "easy",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
+    "size": 68,
     "source": "oeis-bfile"
   }
 }

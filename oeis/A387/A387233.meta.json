@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of sqrt((1-2*x) / (1-6*x)^5).",
+  "id": "A387233",
+  "mentions": [
+    "A360317",
+    "A387211",
+    "A387228",
+    "A387234"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

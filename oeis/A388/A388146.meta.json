@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of length n binary words in which 1's occur in blocks of at least k, n >= 0, k >= 1.",
+  "id": "A388146",
+  "mentions": [
+    "A000079",
+    "A000124",
+    "A005251",
+    "A005252",
+    "A005253",
+    "A005689",
+    "A048887",
+    "A098574",
+    "A217838",
+    "A217839"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

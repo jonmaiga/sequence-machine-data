@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(3/4)^7 / Pi^(7/4).",
+  "id": "A388122",
+  "mentions": [
+    "A004408"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

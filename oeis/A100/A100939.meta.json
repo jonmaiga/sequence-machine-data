@@ -1,9 +1,15 @@
 {
-  "description": "Decimal expansion of the nested surd Pi-thRoot[1 + Pi-thRoot[1 + Pi-thRoot[1 + ...]]].",
+  "description": "Decimal expansion of the root of x^Pi - x - 1.",
   "id": "A100939",
   "mentions": [
+    "A001622",
+    "A060006",
+    "A060007",
     "A094689",
-    "A100940"
+    "A100940",
+    "A160155",
+    "A230159",
+    "A230163"
   ],
   "tags": [
     "cons",

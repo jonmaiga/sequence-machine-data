@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = (1 + x*A(x))*(1 + x^3*A(x)^3).",
+  "description": "G.f. A(x) satisfies A(x) = (1 + x*A(x))*(1 + x^3*A(x)^3).",
   "id": "A198951",
   "mentions": [
     "A007863",
@@ -7,7 +7,9 @@
     "A186241",
     "A198953",
     "A200731",
-    "A228960"
+    "A228960",
+    "A365724",
+    "A369444"
   ],
   "tags": [
     "easy",

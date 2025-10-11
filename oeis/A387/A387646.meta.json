@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic function of A000537.",
+  "id": "A387646",
+  "mentions": [
+    "A000537",
+    "A010054",
+    "A253903"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

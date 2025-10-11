@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n*Bell(n). E.g.f.: exp(exp(2x)-1).",
+  "description": "a(n) = 2^n*Bell(n). E.g.f.: exp(exp(2*x)-1).",
   "id": "A055882",
   "mentions": [
     "A000079",

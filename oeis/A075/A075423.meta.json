@@ -1,5 +1,5 @@
 {
-  "description": "rad(n) - 1, where rad(n) is the squarefree kernel of n (A007947).",
+  "description": "a(n) = rad(n) - 1, where rad(n) is the squarefree kernel of n (A007947).",
   "id": "A075423",
   "mentions": [
     "A007947",
@@ -7,11 +7,12 @@
     "A075425"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n such that the maximal cardinality of C is 1, where C is a subset of the set of parts such that all elements in C appear in weakly increasing order within the composition.",
+  "id": "A387371",
+  "mentions": [
+    "A333213",
+    "A374629",
+    "A385604",
+    "A386891"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Theta series of f.c.c. lattice with respect to edge.",
   "id": "A005884",
   "mentions": [
-    "A045828"
+    "A045828",
+    "A388172"
   ],
   "tags": [
     "formulas",

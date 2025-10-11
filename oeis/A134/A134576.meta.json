@@ -1,20 +1,21 @@
 {
-  "description": "A127733 * A051731.",
+  "description": "Triangle read by rows: T(n,k) = n^2*A051731(n,k).",
   "id": "A134576",
   "mentions": [
+    "A000290",
     "A034714",
     "A051731",
-    "A127733"
+    "A127733",
+    "A134575"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 78,
     "source": "joeis"
   }
 }

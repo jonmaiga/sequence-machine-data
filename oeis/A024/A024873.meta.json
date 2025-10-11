@@ -1,8 +1,11 @@
 {
-  "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (natural numbers >= 2), t = (Lucas numbers).",
+  "description": "a(n) = s(1)*t(n) + s(2)*t(n-1) + ... + s(k)*t(n-k+1), where k = [ n/2 ], s = (natural numbers >= 2), t = (Lucas numbers).",
   "id": "A024873",
-  "mentions": [],
+  "mentions": [
+    "A000032"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

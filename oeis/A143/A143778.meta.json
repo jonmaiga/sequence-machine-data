@@ -1,18 +1,17 @@
 {
-  "description": "Eigentriangle of A001263, the Narayana triangle.",
+  "description": "Eigentriangle of A001263: T(n,k) = A001263(n+1,k+1)*A102812(k).",
   "id": "A143778",
   "mentions": [
     "A001263",
     "A102812"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

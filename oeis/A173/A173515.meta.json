@@ -1,5 +1,5 @@
 {
-  "description": "Consider positive integer solutions to x^3+ y^3 = z^3 - n or 'Fermat near misses' of 1, 2, 3 ... Arrange known solutions by increasing values of n. Sequence gives value of lowest z for a given n.",
+  "description": "Consider positive integer solutions to x^3 + y^3 = z^3 - n or 'Fermat near misses' of 1, 2, 3 ... Arrange known solutions by increasing values of n. Sequence gives value of lowest z for a given n.",
   "id": "A173515",
   "mentions": [
     "A050788",

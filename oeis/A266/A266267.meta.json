@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) = k*phi(n-k) for some number 1 <= k < n - 2.",
+  "description": "Numbers m such that phi(m) = k*phi(m-k) for some number 1 <= k < m - 2.",
   "id": "A266267",
   "mentions": [
     "A000010",

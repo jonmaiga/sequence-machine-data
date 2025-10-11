@@ -2,9 +2,11 @@
   "description": "Sum of coefficients in the hereditary representation of n in base 2.",
   "id": "A273004",
   "mentions": [
+    "A033922",
     "A056004",
     "A222112",
-    "A273005"
+    "A273005",
+    "A361838"
   ],
   "tags": [
     "base",
@@ -14,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 101,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

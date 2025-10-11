@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (307/655360) * (Pi^7/sqrt(2)).",
+  "id": "A389442",
+  "mentions": [
+    "A010503",
+    "A092735"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

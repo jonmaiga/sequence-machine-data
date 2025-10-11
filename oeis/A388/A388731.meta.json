@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x / ((1+x)^2 * (x+(1+x)^4)) ).",
+  "id": "A388731",
+  "mentions": [
+    "A003168",
+    "A364748",
+    "A364792",
+    "A365192",
+    "A378685",
+    "A388727",
+    "A388732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}
