@@ -23,6 +23,9 @@
         "floor",
         "A000120",
         "sub"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {
