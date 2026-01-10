@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 20 (most significant digit on right).",
+  "description": "Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 20 (most significant digit on right).",
   "id": "A061949",
   "mentions": [
     "A029447",

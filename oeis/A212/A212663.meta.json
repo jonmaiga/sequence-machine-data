@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to represent n’ as x’ + y’, where x+y = n, x > 0, and n’, x’, y’ are the arithmetic derivatives of n, x, y.",
+  "description": "Number of ways to represent n' as x' + y', where x+y = n, x > 0, and n', x', y' are the arithmetic derivatives of n, x, y.",
   "id": "A212663",
   "mentions": [
     "A003415",

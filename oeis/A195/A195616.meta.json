@@ -2,6 +2,7 @@
   "description": "Denominators of Pythagorean approximations to 3.",
   "id": "A195616",
   "mentions": [
+    "A020797",
     "A085447",
     "A097314",
     "A097315",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

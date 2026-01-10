@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that its k-th smallest divisor, for all 1 <= k <= tau(n), contains exactly k \"1\" digits in its binary representation.",
+  "description": "Numbers m with the property that its k-th smallest divisor, for all 1 <= k <= tau(m), contains exactly k \"1\" digits in its binary representation.",
   "id": "A255401",
   "mentions": [
     "A000120",

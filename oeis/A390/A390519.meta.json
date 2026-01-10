@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (4*k+1) * binomial(3*n+k+1,n-k)/(3*n+k+1).",
+  "id": "A390519",
+  "mentions": [
+    "A001764",
+    "A047098",
+    "A390520"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

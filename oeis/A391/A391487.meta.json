@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonequivalent essentially parallel series-parallel networks with longest path of at most n edges and largest cut set of at most n edges.",
+  "id": "A391487",
+  "mentions": [
+    "A007803",
+    "A391485"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

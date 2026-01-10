@@ -1,7 +1,9 @@
 {
   "description": "Primes that remain prime through 2 iterations of function f(x) = x + 6.",
   "id": "A023241",
-  "mentions": [],
+  "mentions": [
+    "A023201"
+  ],
   "tags": [
     "nonn"
   ],

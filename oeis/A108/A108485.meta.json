@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(2n-2k,2k)2^(n-k).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(2*n-2*k,2*k)*2^(n-k).",
   "id": "A108485",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

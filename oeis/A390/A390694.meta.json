@@ -1,0 +1,20 @@
+{
+  "description": "The smallest multiple of n that is a Loeschian number (A003136).",
+  "id": "A390694",
+  "mentions": [
+    "A003136",
+    "A390692",
+    "A390693"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

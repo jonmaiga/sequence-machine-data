@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (2*n - sigma(n))/gcd(n, sigma(n)).",
+  "id": "A390582",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A009194",
+    "A033879",
+    "A153501",
+    "A271816"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

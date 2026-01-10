@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of edges that need to be removed from a triangle-free graph on n vertices to make it bipartite.",
+  "id": "A389646",
+  "mentions": [
+    "A216783",
+    "A280020",
+    "A387954"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

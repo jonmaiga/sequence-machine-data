@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1) * binomial(k,3*(n-k)).",
+  "id": "A392044",
+  "mentions": [
+    "A001629",
+    "A003522",
+    "A178618",
+    "A391962"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

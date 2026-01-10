@@ -1,0 +1,15 @@
+{
+  "description": "Numbers s such that there exists a triangle with integer sides, semiperimeter s and inradius r such that 2*s + r and 2*s - r are prime.",
+  "id": "A390886",
+  "mentions": [
+    "A120252"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest b >= 2 for which P_{n}(b) = Sum_{k=1..n} b^(prime(k)-2) is prime or 0 if such a number does not exist.",
+  "id": "A390550",
+  "mentions": [
+    "A010051",
+    "A135482",
+    "A390108"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

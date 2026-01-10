@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the largest numbers m with the number of steps n of iterations of {r - (smallest prime divisor of r)} needed to reach 0 starting at r = m .",
+  "description": "a(n) = the largest numbers m with the number of steps n of iterations of {r - (smallest prime divisor of r)} needed to reach 0 starting at r = m.",
   "id": "A175127",
   "mentions": [
     "A005843",
@@ -7,6 +7,7 @@
     "A175126"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

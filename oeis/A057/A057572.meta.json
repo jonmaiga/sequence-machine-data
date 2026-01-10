@@ -1,17 +1,18 @@
 {
-  "description": "Number of unlabeled Hugenholz diagrams with n nodes.",
+  "description": "Number of unlabeled Hugenholtz diagrams with n nodes.",
   "id": "A057572",
   "mentions": [
-    "A064732"
+    "A005816",
+    "A064732",
+    "A129417",
+    "A367497"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 9,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

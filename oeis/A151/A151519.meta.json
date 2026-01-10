@@ -2,9 +2,11 @@
   "description": "Number of 1-sided polytans (polyaboloes) with n cells.",
   "id": "A151519",
   "mentions": [
-    "A006074"
+    "A006074",
+    "A353978"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"

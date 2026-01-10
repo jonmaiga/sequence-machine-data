@@ -2,14 +2,18 @@
   "description": "Exponent of 7 (value of j) in n-th number of form 2^i*7^j.",
   "id": "A025664",
   "mentions": [
-    "A003591"
+    "A003591",
+    "A025637",
+    "A214411"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 108,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

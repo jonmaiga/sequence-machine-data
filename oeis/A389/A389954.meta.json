@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k) = pi(k) + Omega(k).",
+  "id": "A389954",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001222",
+    "A388000"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

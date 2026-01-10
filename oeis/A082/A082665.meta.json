@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Y = sum(k>2, 1/2^floor(k^log(log(k)))).",
+  "description": "Decimal expansion of Y = Sum_{k>2} 1/2^floor(k^log(log(k))).",
   "id": "A082665",
   "mentions": [
     "A084119"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

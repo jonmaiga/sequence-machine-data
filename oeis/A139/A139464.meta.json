@@ -1,5 +1,5 @@
 {
-  "description": "n! + 2n - 1.",
+  "description": "a(n) = n! + 2n - 1.",
   "id": "A139464",
   "mentions": [
     "A000142",

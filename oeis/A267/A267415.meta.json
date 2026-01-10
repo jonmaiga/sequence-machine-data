@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n^n = (x^3 + y^3) / 2 where x, y > 0, is soluble.",
+  "description": "Integers k such that k^k = (x^3 + y^3) / 2 where x, y > 0, is soluble.",
   "id": "A267415",
   "mentions": [
     "A000312",

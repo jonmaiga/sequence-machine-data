@@ -1,0 +1,19 @@
+{
+  "description": "Minimum site perimeter of a polyiamond with n cells.",
+  "id": "A390458",
+  "mentions": [
+    "A067628",
+    "A069813",
+    "A182619",
+    "A261491"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

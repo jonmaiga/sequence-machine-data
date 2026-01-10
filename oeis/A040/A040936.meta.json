@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(968).",
   "id": "A040936",
-  "mentions": [],
+  "mentions": [
+    "A042872",
+    "A042873"
+  ],
   "tags": [
     "cofr",
     "easy",

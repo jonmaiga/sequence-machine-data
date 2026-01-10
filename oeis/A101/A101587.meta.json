@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes in sequence defined by A(0) = 51, A(n) = 10*A(n-1) + 71 for n > 0.",
+  "description": "Indices of primes in the sequence defined by A(0) = 51, A(n) = 10*A(n-1) + 71 for n > 0.",
   "id": "A101587",
   "mentions": [
     "A000533",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],

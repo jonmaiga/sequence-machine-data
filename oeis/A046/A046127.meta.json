@@ -1,5 +1,5 @@
 {
-  "description": "Maximal number of regions into which space can be divided by n spheres.",
+  "description": "a(0) = 0; for n>0, a(n) = maximal number of regions into which space can be divided by n spheres.",
   "id": "A046127",
   "mentions": [
     "A000124",

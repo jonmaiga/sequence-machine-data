@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that a type-7 Gaussian normal basis over GF(2^n) exists.",
+  "description": "Numbers k such that a type-7 Gaussian normal basis over GF(2^k) exists.",
   "id": "A137314",
   "mentions": [
     "A136415"

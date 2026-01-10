@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0, a(2*n) = a(n)+1, a(2*n+1) = floor((a(n)+a(n+1))/2) for n >= 1.",
+  "id": "A387789",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A002487",
+    "A007814"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

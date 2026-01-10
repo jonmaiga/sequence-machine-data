@@ -1,7 +1,8 @@
 {
-  "description": "Composite n such that for some integer r, n equals the sum of the r-th powers of the prime factors of n (counted with multiplicity).",
+  "description": "Composite numbers that are equal to the sum of the r-th powers of its prime factors (counted with multiplicity) for some integer r.",
   "id": "A067688",
   "mentions": [
+    "A002808",
     "A068916",
     "A081177",
     "A268036"

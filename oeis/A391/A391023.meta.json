@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with more than 1 distinct prime factor and whose largest prime factor exponent is 2.",
+  "id": "A391023",
+  "mentions": [
+    "A004709",
+    "A067259",
+    "A126706",
+    "A177492",
+    "A378767",
+    "A386684"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

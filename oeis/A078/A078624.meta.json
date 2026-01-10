@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 7x^3 + 5x^2 + 3x + 2.",
+  "description": "Primes of the form 7*x^3 + 5*x^2 + 3*x + 2.",
   "id": "A078624",
   "mentions": [
     "A003627",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 28,
     "source": "joeis"
   }
 }

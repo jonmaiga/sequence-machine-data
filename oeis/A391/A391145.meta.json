@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the smallest dihedral angle, in radians, in a disphenocingulum (Johnson solid J_90).",
+  "id": "A391145",
+  "mentions": [
+    "A385257",
+    "A386752",
+    "A391146",
+    "A391147",
+    "A391148",
+    "A391149",
+    "A391150",
+    "A391151"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

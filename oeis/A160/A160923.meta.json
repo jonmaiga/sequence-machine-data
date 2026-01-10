@@ -3,14 +3,16 @@
   "id": "A160923",
   "mentions": [
     "A000012",
+    "A070769",
     "A099803"
   ],
   "tags": [
     "cofr",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 50,
     "source": "oeis-entry"
   }

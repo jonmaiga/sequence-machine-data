@@ -2,6 +2,9 @@
   "description": "Secondary root edges in doubly rooted tree maps with n edges.",
   "id": "A046715",
   "mentions": [
+    "A000108",
+    "A002054",
+    "A090181",
     "A260039"
   ],
   "tags": [

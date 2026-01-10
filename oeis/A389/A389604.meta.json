@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of chains in the poset of plane partitions ordered by inclusion that end with a plane partition of n and have length k.",
+  "id": "A389604",
+  "mentions": [
+    "A000219",
+    "A207542",
+    "A379277",
+    "A385373",
+    "A389605"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

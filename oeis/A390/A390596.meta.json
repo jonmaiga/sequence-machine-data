@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of exp(h(log(2)/log(3))) where h(x) = -x*log(x)-(1-x)*log(1-x).",
+  "id": "A390596",
+  "mentions": [
+    "A002162",
+    "A002391",
+    "A102525"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

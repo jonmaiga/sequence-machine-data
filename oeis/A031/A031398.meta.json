@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree n with no 4k+3 factors such that Pell equation x^2 - n y^2 = -1 is insoluble.",
+  "description": "Squarefree m with no 4k+3 factors such that Pell equation x^2 - m*y^2 = -1 is insoluble.",
   "id": "A031398",
   "mentions": [
     "A003654",

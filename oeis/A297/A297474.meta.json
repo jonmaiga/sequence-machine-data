@@ -2,7 +2,8 @@
   "description": "Number of maximal matchings in the n-cocktail party graph.",
   "id": "A297474",
   "mentions": [
-    "A053871"
+    "A053871",
+    "A293073"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

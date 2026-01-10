@@ -1,8 +1,9 @@
 {
-  "description": "Write 2*n = p+q (p,q prime), p*q minimal; then a(n) = p*q.",
+  "description": "Write 2*n = p + q (p, q prime), p*q minimal; then a(n) = p*q.",
   "id": "A073046",
   "mentions": [
     "A000040",
+    "A001358",
     "A061397",
     "A102084",
     "A193315",

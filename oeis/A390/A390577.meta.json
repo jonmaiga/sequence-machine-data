@@ -1,0 +1,18 @@
+{
+  "description": "Remainder when (prime(n) * prime(n+1)) is divided by n.",
+  "id": "A390577",
+  "mentions": [
+    "A006094",
+    "A173956"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

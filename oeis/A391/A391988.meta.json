@@ -1,0 +1,23 @@
+{
+  "description": "The number of exponential divisors of the exponentially squarefree numbers.",
+  "id": "A391988",
+  "mentions": [
+    "A049419",
+    "A074823",
+    "A209061",
+    "A262276",
+    "A278908",
+    "A388973",
+    "A391989"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

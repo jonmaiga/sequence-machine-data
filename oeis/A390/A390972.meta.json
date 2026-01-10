@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (1/(2*n+1)) * Sum_{k=0..n} k^3 * (2*k+1) * binomial(3*n-k,n-k).",
+  "id": "A390972",
+  "mentions": [
+    "A001764",
+    "A390971",
+    "A390973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

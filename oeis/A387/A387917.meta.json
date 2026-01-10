@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 5*sqrt(5)/3.",
+  "id": "A387917",
+  "mentions": [
+    "A000045",
+    "A134976",
+    "A208899",
+    "A344171"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

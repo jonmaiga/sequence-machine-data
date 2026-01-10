@@ -1,5 +1,5 @@
 {
-  "description": "Sierpinski square-based pyramid numbers: a(n) = 5*a(n-1) - (2^(n+1)+7).",
+  "description": "Sierpinski square-based pyramid numbers: a(n) = 5*a(n-1) - (2^(n+1) + 7).",
   "id": "A279511",
   "mentions": [
     "A000330",

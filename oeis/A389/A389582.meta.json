@@ -1,0 +1,21 @@
+{
+  "description": "Lower (1/2,1/3) midsequence of (n^2) and (n^3); see Comments.",
+  "id": "A389582",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A389583",
+    "A390582",
+    "A390583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Largest even number that is not the sum of two elements coprime to the primorial prime(n)# and each bounded by prime(n)#.",
+  "id": "A389507",
+  "mentions": [
+    "A002110",
+    "A007310",
+    "A007775",
+    "A008364",
+    "A008366",
+    "A051271",
+    "A051272",
+    "A166061",
+    "A166063",
+    "A389506"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

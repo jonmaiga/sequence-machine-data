@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that divide the sum of the first n nonzero Fibonacci numbers.",
+  "description": "Numbers k that divide the sum of the first k nonzero Fibonacci numbers.",
   "id": "A111035",
   "mentions": [
     "A000071",

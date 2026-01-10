@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=0..n} binomial(n + 2*k, k).",
+  "id": "A390499",
+  "mentions": [
+    "A007685",
+    "A074962",
+    "A296589",
+    "A306789",
+    "A388043"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

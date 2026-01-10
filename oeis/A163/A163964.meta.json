@@ -7,12 +7,13 @@
     "A170735"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

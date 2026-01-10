@@ -1,5 +1,5 @@
 {
-  "description": "a(2*n) = 4*n if n>0, a(2*n + 1) = -(2*n + 1), a(0) = 1.",
+  "description": "a(2*n) = 4*n if n > 0, a(2*n + 1) = -(2*n + 1), a(0) = 1.",
   "id": "A280166",
   "mentions": [
     "A005408",

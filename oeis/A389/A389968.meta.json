@@ -1,0 +1,20 @@
+{
+  "description": "Maximum degree of the polyhex graph PG(n) defined in A389967.",
+  "id": "A389968",
+  "mentions": [
+    "A367124",
+    "A389962",
+    "A389967",
+    "A389969",
+    "A389971"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

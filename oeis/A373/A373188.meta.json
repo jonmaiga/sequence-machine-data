@@ -2,6 +2,7 @@
   "description": "Expansion of Sum_{k>=0} x^(4^k) / (1 - x^(4^k))^2.",
   "id": "A373188",
   "mentions": [
+    "A000975",
     "A129527",
     "A327625",
     "A359100",
@@ -9,12 +10,14 @@
     "A373189"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

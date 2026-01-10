@@ -1,5 +1,5 @@
 {
-  "description": "Prime digits in the decimal expansion of golden ratio phi (or tau) = (1 + sqrt 5 )/2.",
+  "description": "Prime digits in the decimal expansion of golden ratio phi = (1 + sqrt 5 )/2.",
   "id": "A101457",
   "mentions": [
     "A001622",

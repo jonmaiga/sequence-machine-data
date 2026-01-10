@@ -5,12 +5,11 @@
     "A081545"
   ],
   "tags": [
-    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

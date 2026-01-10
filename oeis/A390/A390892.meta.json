@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/4) * Sum_{k>=0} (3/4)^k * Stirling2(n+k,k).",
+  "id": "A390892",
+  "mentions": [
+    "A201466",
+    "A234294",
+    "A390890",
+    "A390891"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

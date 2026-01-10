@@ -1,0 +1,32 @@
+{
+  "description": "Squares of nonsquarefree numbers k that are not squareful.",
+  "id": "A389947",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A001694",
+    "A013929",
+    "A024619",
+    "A036966",
+    "A062503",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A332785",
+    "A362147",
+    "A374291",
+    "A383394",
+    "A386762",
+    "A389864"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

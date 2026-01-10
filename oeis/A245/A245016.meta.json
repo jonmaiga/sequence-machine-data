@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number k such that P=k*prime(n+1)*(prime(n)-1)+1, Q=k*prime(n+1)*P+1, R=(prime(n)-1)*Q+1 and P, Q, and R are all prime numbers.",
+  "description": "Smallest number k such that P = k*prime(n+1)*(prime(n)-1)+1, Q = k*prime(n+1)*P+1, R = (prime(n)-1)*Q+1 and P, Q, and R are all prime numbers.",
   "id": "A245016",
   "mentions": [
     "A005846"

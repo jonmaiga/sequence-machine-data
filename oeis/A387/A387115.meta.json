@@ -41,11 +41,13 @@
   ],
   "tags": [
     "easy",
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

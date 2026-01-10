@@ -2,7 +2,7 @@
   "description": "Number of triangles with perimeter n whose side lengths are even.",
   "id": "A308066",
   "mentions": [
-    "A308065"
+    "A005044"
   ],
   "tags": [
     "formulas",

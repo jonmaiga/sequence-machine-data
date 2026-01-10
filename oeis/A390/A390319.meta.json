@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with exactly five coincident values among the fractions (2*k mod m)/m for 1 <= m <= k.",
+  "id": "A390319",
+  "mentions": [
+    "A387426",
+    "A389221",
+    "A389863",
+    "A390100"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

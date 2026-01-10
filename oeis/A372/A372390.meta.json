@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{k>=0} 1/(floor(k*tau))!, where tau = golden ratio.",
+  "description": "Decimal expansion of Sum_{k>=0} 1/(floor(k*phi))!, where phi is the golden ratio.",
   "id": "A372390",
   "mentions": [
     "A001622",

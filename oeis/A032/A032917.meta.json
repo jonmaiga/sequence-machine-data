@@ -2,7 +2,8 @@
   "description": "Numbers having only digits 1 and 3 in their decimal representation.",
   "id": "A032917",
   "mentions": [
-    "A020451"
+    "A020451",
+    "A174813"
   ],
   "tags": [
     "base",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 46,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^(n-1) + pi(n) is the smallest n-digit prime.",
+  "description": "Numbers k such that 10^(k-1) + pi(k) is the smallest k-digit prime.",
   "id": "A110068",
   "mentions": [
     "A110065"

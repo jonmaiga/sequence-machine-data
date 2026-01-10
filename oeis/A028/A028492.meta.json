@@ -1,5 +1,5 @@
 {
-  "description": "Similarity classes of triangles which can be drawn using the lattice points in an n X n grid for vertices.",
+  "description": "Number of similarity classes of triangles which can be drawn using the lattice points in an n X n grid for vertices.",
   "id": "A028492",
   "mentions": [
     "A028419"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

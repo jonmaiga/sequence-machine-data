@@ -1,5 +1,5 @@
 {
-  "description": "Product_{i=4..n} (prime(i) - 6).",
+  "description": "a(n) = Product_{i=4..n} (prime(i) - 6).",
   "id": "A059865",
   "mentions": [
     "A000847",

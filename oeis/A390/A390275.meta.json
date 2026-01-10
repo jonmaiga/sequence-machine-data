@@ -1,0 +1,19 @@
+{
+  "description": "Number of words covering the alphabet [n] that are irreducible with respect to C, with |C| = 1.",
+  "id": "A390275",
+  "mentions": [
+    "A386599",
+    "A386891",
+    "A387336",
+    "A390670"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

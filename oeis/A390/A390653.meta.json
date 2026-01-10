@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of n-celled fixed polyominoes with at least 180 degree rotational symmetry about the center of a square in the lattice.",
+  "id": "A390653",
+  "mentions": [
+    "A001168",
+    "A351127",
+    "A351142",
+    "A351159",
+    "A351190",
+    "A351615",
+    "A390654",
+    "A390655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

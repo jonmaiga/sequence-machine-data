@@ -1,7 +1,16 @@
 {
   "description": "Write n in base 8, then complement each digit (d -> 7-d) and juxtapose.",
   "id": "A031055",
-  "mentions": [],
+  "mentions": [
+    "A030315",
+    "A030351",
+    "A030399",
+    "A030586",
+    "A031016",
+    "A031098",
+    "A031251",
+    "A031310"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

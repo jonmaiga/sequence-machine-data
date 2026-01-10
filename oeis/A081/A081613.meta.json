@@ -1,5 +1,5 @@
 {
-  "description": "Length of iteration list when Collatz-function is iterated with initial value n!=A000142[n].",
+  "description": "Length of iteration list when Collatz-function is iterated with initial value n!.",
   "id": "A081613",
   "mentions": [
     "A000142",

@@ -1,15 +1,20 @@
 {
-  "description": "Index of 9^n within sequence of numbers of form 5^i*9^j.",
+  "description": "Index of 9^n within the sequence of the numbers of the form 5^i*9^j.",
   "id": "A025735",
   "mentions": [
-    "A025654"
+    "A001019",
+    "A025624",
+    "A025654",
+    "A154008"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

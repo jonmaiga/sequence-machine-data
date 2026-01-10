@@ -1,0 +1,19 @@
+{
+  "description": "Primitive cubic pyritohedral numbers: a(n) = 864*n^3 - 2484*n^2 + 2384*n - 763.",
+  "id": "A391165",
+  "mentions": [
+    "A197376",
+    "A391166",
+    "A391167"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

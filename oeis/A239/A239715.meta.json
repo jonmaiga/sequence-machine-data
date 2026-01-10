@@ -2,6 +2,7 @@
   "description": "Primes of the form m = 5^i + 5^j - 1, where i > j >= 0.",
   "id": "A239715",
   "mentions": [
+    "A053824",
     "A239712"
   ],
   "tags": [

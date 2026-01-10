@@ -1,10 +1,13 @@
 {
   "description": "Smallest prime containing a leading sequence of n ascending numbers.",
   "id": "A053546",
-  "mentions": [],
+  "mentions": [
+    "A007908"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

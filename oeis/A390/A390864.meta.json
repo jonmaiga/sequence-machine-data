@@ -1,0 +1,29 @@
+{
+  "description": "The number of integers k from 1 to n such that gcd(n, k) is a noninfinitary divisor of n.",
+  "id": "A390864",
+  "mentions": [
+    "A003557",
+    "A005117",
+    "A010848",
+    "A051953",
+    "A055653",
+    "A055654",
+    "A077609",
+    "A138302",
+    "A390863",
+    "A390865",
+    "A390866",
+    "A390867",
+    "A390868"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

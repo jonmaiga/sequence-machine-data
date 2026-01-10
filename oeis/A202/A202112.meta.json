@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 90n + 79 is prime.",
+  "description": "Numbers k such that 90*k + 79 is prime.",
   "id": "A202112",
   "mentions": [
     "A142330",

@@ -1,12 +1,13 @@
 {
-  "description": "Pell equation solutions (10*b(n))^2 - 101*a(n)^2 = -1 with b(n)=A097741(n), n >= 0.",
+  "description": "Pell equation solutions (10*b(n))^2 - 101*a(n)^2 = -1 with b(n) = A097741(n), n >= 0.",
   "id": "A097742",
   "mentions": [
     "A049310",
     "A053120",
     "A097740",
     "A097741",
-    "A188647"
+    "A188647",
+    "A248803"
   ],
   "tags": [
     "easy",

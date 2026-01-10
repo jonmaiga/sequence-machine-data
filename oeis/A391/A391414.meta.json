@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the median of the set of the distinct values of (n-1)^n, (n-1)^(n+1), n^(n-1), n^(n+1), (n+1)^(n-1), (n+1)^n.",
+  "id": "A391414",
+  "mentions": [
+    "A051489",
+    "A062024"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

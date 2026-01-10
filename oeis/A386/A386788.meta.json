@@ -2,6 +2,7 @@
   "description": "a(n) = n^4*sigma_8(n).",
   "id": "A386788",
   "mentions": [
+    "A013667",
     "A013956",
     "A280022",
     "A280025",
@@ -15,6 +16,7 @@
     "A386787"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

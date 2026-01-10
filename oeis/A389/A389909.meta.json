@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*A064989(n) for odd n, a(n) = A003961(n/2) for even n, where A003961 is fully multiplicative with a(p) = nextprime(p), and A064989 is its left inverse.",
+  "id": "A389909",
+  "mentions": [
+    "A003961",
+    "A064989",
+    "A243502",
+    "A252463",
+    "A389910"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

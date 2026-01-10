@@ -1,18 +1,20 @@
 {
-  "description": "Primes of the form p^2+10, where p is prime.",
+  "description": "Primes of the form p^2 + 10, where p is prime.",
   "id": "A182475",
   "mentions": [
     "A045637",
     "A079141",
-    "A138355"
+    "A138355",
+    "A243367"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

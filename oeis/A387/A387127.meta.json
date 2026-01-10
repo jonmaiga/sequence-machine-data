@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest integer w such that the Diophantine equation x^2 + y^3 + z^5 = w^7 where GCD(x,y,z)=1 has exactly n positive integer solutions.",
+  "id": "A387127",
+  "mentions": [
+    "A386373",
+    "A386988"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Values y of smallest positive pair (x,y) satisfying x^2 - 2*y^2 = -+d, where d=A058529(n).",
+  "description": "Values y of smallest positive pair (x,y) satisfying x^2 - 2*y^2 = +-d, where d=A058529(n).",
   "id": "A094137",
   "mentions": [
     "A058529",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of n-celled polyplets (polyominoes connected at edges or corners) in the {4,5} tessellation of the hyperbolic plane.",
+  "id": "A390200",
+  "mentions": [
+    "A030222",
+    "A119611"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

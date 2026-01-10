@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can terminate in 1 by successively dividing a contiguous substring of digits by 2.",
+  "id": "A386551",
+  "mentions": [
+    "A000079",
+    "A389140",
+    "A389141",
+    "A389305"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

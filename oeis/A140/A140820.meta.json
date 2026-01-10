@@ -2,8 +2,7 @@
   "description": "Triangle read by rows: T(n,k) = 1 if and only if the Gray codes for n and k have no bits in common.",
   "id": "A140820",
   "mentions": [
-    "A131218",
-    "A140280"
+    "A131218"
   ],
   "tags": [
     "less",

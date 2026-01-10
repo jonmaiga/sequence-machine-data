@@ -1,0 +1,14 @@
+{
+  "description": "The smallest prime whose representation in base n contains the digit 0.",
+  "id": "A390983",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

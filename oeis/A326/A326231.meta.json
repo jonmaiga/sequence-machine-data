@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that N = (5n)^2 is a twin rank (cf. A002822: 6N +- 1 are twin primes).",
+  "description": "Numbers k such that N = (5*k)^2 is a twin rank (cf. A002822: 6N +- 1 are twin primes).",
   "id": "A326231",
   "mentions": [
     "A002822",

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(2*x + 3*x^2/2).",
+  "description": "Expansion of e.g.f. exp(2*x + 3*x^2/2).",
   "id": "A202830",
   "mentions": [
     "A202829",

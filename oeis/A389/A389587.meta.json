@@ -1,0 +1,21 @@
+{
+  "description": "Increasing partition array based on the fractions A168265(n)/A389810(n); see Comments.",
+  "id": "A389587",
+  "mentions": [
+    "A000027",
+    "A168265",
+    "A185787",
+    "A388853",
+    "A389586",
+    "A389810"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

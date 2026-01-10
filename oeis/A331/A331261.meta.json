@@ -1,13 +1,16 @@
 {
-  "description": "List of pairs of numbers having certain properties (see Comments).",
+  "description": "List of pairs of consecutive integers such that one of them is a square and their sum is also a square.",
   "id": "A331261",
-  "mentions": [],
+  "mentions": [
+    "A078057"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways to decompose A152242(n) into primes.",
+  "id": "A391500",
+  "mentions": [
+    "A037276",
+    "A152242"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

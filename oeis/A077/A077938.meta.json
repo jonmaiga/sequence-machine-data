@@ -2,6 +2,7 @@
   "description": "Expansion of 1/(1 - 2*x - x^2 - 2*x^3).",
   "id": "A077938",
   "mentions": [
+    "A000129",
     "A077987"
   ],
   "tags": [

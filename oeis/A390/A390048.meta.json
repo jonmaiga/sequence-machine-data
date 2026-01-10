@@ -1,0 +1,17 @@
+{
+  "description": "Number of block-separated overpartitions of n.",
+  "id": "A390048",
+  "mentions": [
+    "A000041",
+    "A015128"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

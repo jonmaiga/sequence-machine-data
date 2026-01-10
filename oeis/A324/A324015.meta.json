@@ -12,12 +12,13 @@
     "A324014"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
-    "source": "joeis"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

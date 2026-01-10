@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n+2*k+1,n-k).",
+  "id": "A390267",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A001791",
+    "A079309",
+    "A360143",
+    "A390266",
+    "A390268"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

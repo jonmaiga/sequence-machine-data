@@ -1,0 +1,16 @@
+{
+  "description": "Numbers of the form Product_{k=i..j} prime(k) - Sum_{k=i..j} prime(k) where i < j.",
+  "id": "A387946",
+  "mentions": [
+    "A050936",
+    "A097889"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

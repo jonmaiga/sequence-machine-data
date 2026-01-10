@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: Product_{k>=1} 1 / (1 - x^k/(k!*(1 - x)^k)).",
+  "description": "Expansion of e.g.f. Product_{k>=1} 1 / (1 - x^k/(k!*(1 - x)^k)).",
   "id": "A330649",
   "mentions": [
     "A005651",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

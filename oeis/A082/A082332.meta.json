@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of natural numbers induced by the composition of involutions A069888 & A057163. &F A082332 a(n) = A069888(A057163(n)).",
+  "description": "Permutation of natural numbers induced by the composition of involutions A069888 and A057163.",
   "id": "A082332",
   "mentions": [
     "A057163",
@@ -10,11 +10,12 @@
     "A082334"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Primitive exponential Zumkeller numbers that are not primitive exponential unitary Zumkeller numbers.",
+  "id": "A391091",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A321147",
+    "A322791",
+    "A335218",
+    "A361255",
+    "A391087",
+    "A391088",
+    "A391089",
+    "A391090"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

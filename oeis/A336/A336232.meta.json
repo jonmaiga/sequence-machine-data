@@ -1,5 +1,5 @@
 {
-  "description": "Integers whose binary digit expansion has a prime number of 0’s between any two consecutive 1’s.",
+  "description": "Integers whose binary digit expansion has a prime number of 0's between any two consecutive 1's.",
   "id": "A336232",
   "mentions": [
     "A007088",

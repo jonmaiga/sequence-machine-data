@@ -1,17 +1,19 @@
 {
-  "description": "Number of nX2 binary arrays with all 1s connected, a path of 1s from upper left corner to lower right corner, and no 1 having more than two 1s adjacent.",
+  "description": "Number of n X 2 binary arrays with all 1s connected, a path of 1s from upper left corner to lower right corner, and no 1 having more than two 1s adjacent.",
   "id": "A163685",
   "mentions": [
     "A000045",
-    "A010892"
+    "A010892",
+    "A391818"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 39,
     "source": "joeis"
   }
 }

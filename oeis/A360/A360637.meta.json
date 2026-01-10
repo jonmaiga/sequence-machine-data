@@ -1,16 +1,18 @@
 {
-  "description": "Least crossing number of a prime knot with braid index n.",
+  "description": "Triangle read by rows: row n consists of the n numbers k such that A075254(k) = A346378(n).",
   "id": "A360637",
   "mentions": [
-    "A002863"
+    "A075254",
+    "A346378"
   ],
   "tags": [
-    "more",
-    "nonn"
+    "look",
+    "nonn",
+    "tabl"
   ],
   "terms": {
-    "offset": 2,
-    "size": 6,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "First differences of 2-dense numbers.",
+  "id": "A389763",
+  "mentions": [
+    "A005153",
+    "A174973",
+    "A179651",
+    "A237271"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

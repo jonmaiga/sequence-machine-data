@@ -8,12 +8,11 @@
     "A058302"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

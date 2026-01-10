@@ -1,0 +1,23 @@
+{
+  "description": "Number of tripling steps to reach 1 in the 3x+1 (Collatz) problem starting with the n-th Mersenne prime.",
+  "id": "A390817",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A000668",
+    "A006667",
+    "A075680",
+    "A181777",
+    "A379724",
+    "A390816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -5,16 +5,21 @@
     "A000005",
     "A000040",
     "A000203",
+    "A001620",
+    "A002117",
     "A064840",
+    "A244115",
+    "A306016",
     "A324987"
   ],
   "tags": [
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

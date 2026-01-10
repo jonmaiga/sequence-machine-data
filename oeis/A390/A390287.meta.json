@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the second largest dihedral angle, in radians, in a sphenocorona (Johnson solid J_86).",
+  "id": "A390287",
+  "mentions": [
+    "A010482",
+    "A386739",
+    "A390281",
+    "A390282",
+    "A390283",
+    "A390284",
+    "A390285",
+    "A390286",
+    "A390288"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

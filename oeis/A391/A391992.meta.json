@@ -1,0 +1,20 @@
+{
+  "description": "Number of digits in the decimal expansion of binomial(2*n,n).",
+  "id": "A391992",
+  "mentions": [
+    "A000984",
+    "A055642",
+    "A391991"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

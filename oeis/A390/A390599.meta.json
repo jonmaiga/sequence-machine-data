@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number obtained by concatenating a permutation of the divisors of n.",
+  "id": "A390599",
+  "mentions": [
+    "A037278",
+    "A060555"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

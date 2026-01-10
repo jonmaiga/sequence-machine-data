@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k for which the number of divisors d of k such that d == -d^(k/d) (mod k) is equal to n, or -1 if no such k exists.",
+  "id": "A390392",
+  "mentions": [
+    "A386913"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

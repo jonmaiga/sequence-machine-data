@@ -2,8 +2,8 @@
   "description": "Sum modulo n of all the digits of n in every base from 2 to n-1.",
   "id": "A014836",
   "mentions": [
-    "A014834",
     "A014837",
+    "A014843",
     "A116987"
   ],
   "tags": [

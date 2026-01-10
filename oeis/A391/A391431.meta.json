@@ -1,0 +1,17 @@
+{
+  "description": "Numerator of k + a/k where n = k^2 + 2a + 1 and -k <= a <= k.",
+  "id": "A391431",
+  "mentions": [
+    "A132411",
+    "A391490"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

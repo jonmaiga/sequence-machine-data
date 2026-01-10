@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=2, a(2)=3, for n >= 3, a(n) = 2*(gpd(a(n-1)) + gpd(a(n-2))) + 1, where gpd(n) is the greatest prime divisor of n.",
+  "description": "a(1)=2, a(2)=3, for n >= 3, a(n) = 2*(gpf(a(n-1)) + gpf(a(n-2))) + 1, where gpf(n) is the greatest prime factor of n.",
   "id": "A202211",
   "mentions": [
     "A006530"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
-    "source": "oeis-entry"
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

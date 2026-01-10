@@ -8,6 +8,7 @@
     "A129391"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

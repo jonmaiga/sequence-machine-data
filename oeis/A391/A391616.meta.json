@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + prime(a(n-1)) + 1 for n > 1, with a(1) = 1.",
+  "id": "A391616",
+  "mentions": [
+    "A000040",
+    "A074271",
+    "A391401"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

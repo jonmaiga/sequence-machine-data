@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of minimal polynomial of cos(Pi/n) (exponents in decreasing order).",
+  "id": "A391261",
+  "mentions": [
+    "A055034",
+    "A187360",
+    "A389480",
+    "A391262"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

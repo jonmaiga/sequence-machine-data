@@ -1,0 +1,22 @@
+{
+  "description": "Discriminants of real quadratic fields with class group C_2 and form class group C_2 X C_2.",
+  "id": "A391531",
+  "mentions": [
+    "A001221",
+    "A003656",
+    "A327297",
+    "A391421",
+    "A391439",
+    "A391529",
+    "A391530",
+    "A391532"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

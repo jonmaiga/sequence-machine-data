@@ -1,0 +1,22 @@
+{
+  "description": "Largest positive integer k such that exactly 1/n of the integers from 1 to k are divisors of k, or 0 if no solution exists.",
+  "id": "A390913",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A036763",
+    "A036764",
+    "A090395",
+    "A353011"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

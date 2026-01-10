@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to partition digits 0-9 into terms in decreasing order with sum 9*n.",
+  "id": "A389951",
+  "mentions": [
+    "A050278",
+    "A213737",
+    "A389952"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

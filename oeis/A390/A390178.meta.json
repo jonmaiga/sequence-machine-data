@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that can be represented in more than one way as p^r + q^s with 4 distinct primes p < q, r, s.",
+  "id": "A390178",
+  "mentions": [
+    "A053810",
+    "A390066",
+    "A390188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

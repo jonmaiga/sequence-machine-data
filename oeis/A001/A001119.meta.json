@@ -2,7 +2,8 @@
   "description": "Number of skew-symmetric Hadamard matrices of order 4n.",
   "id": "A001119",
   "mentions": [
-    "A001014"
+    "A001014",
+    "A007299"
   ],
   "tags": [
     "hard",

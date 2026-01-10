@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=0..k} (-1)^(k-j) * binomial(k,j) * (4+j)^n.",
+  "id": "A391633",
+  "mentions": [
+    "A007318",
+    "A028246",
+    "A038719",
+    "A048993",
+    "A131689",
+    "A391552",
+    "A391635"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

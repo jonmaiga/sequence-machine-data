@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1/(5-s(n)) is an integer where s(k)=sum(i=1,k,1/2^floor(sqrt(i))).",
+  "description": "Numbers k such that 1/(5-s(k)) is an integer where s(k) = Sum_{i=1..k} 1/2^floor(sqrt(i)).",
   "id": "A082483",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

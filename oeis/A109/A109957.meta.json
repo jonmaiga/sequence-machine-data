@@ -2,7 +2,9 @@
   "description": "Diagonal sums of number triangle A109956.",
   "id": "A109957",
   "mentions": [
-    "A109956"
+    "A109956",
+    "A109963",
+    "A179848"
   ],
   "tags": [
     "easy",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

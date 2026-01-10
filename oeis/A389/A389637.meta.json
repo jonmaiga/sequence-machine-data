@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of coefficients of 1- Pi/(2*EllipticK).",
+  "id": "A389637",
+  "mentions": [
+    "A038533",
+    "A038534",
+    "A054474",
+    "A056982",
+    "A060629"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

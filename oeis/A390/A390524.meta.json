@@ -1,0 +1,30 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = k * Fibonacci(n).",
+  "id": "A390524",
+  "mentions": [
+    "A000004",
+    "A000045",
+    "A001477",
+    "A001924",
+    "A005843",
+    "A008585",
+    "A008587",
+    "A008590",
+    "A022086",
+    "A022093",
+    "A022345",
+    "A022366",
+    "A045925"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

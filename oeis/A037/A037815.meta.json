@@ -2,15 +2,25 @@
   "description": "Number of i such that d(i) <= d(i-1), where Sum_{i=0..m} d(i)*8^i is the base-8 representation of n.",
   "id": "A037815",
   "mentions": [
+    "A007094",
+    "A037809",
+    "A037810",
+    "A037811",
+    "A037812",
+    "A037813",
+    "A037814",
+    "A037816",
+    "A037817",
     "A037831"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

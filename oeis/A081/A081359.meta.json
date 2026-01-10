@@ -1,15 +1,16 @@
 {
-  "description": "Problem 49 on page 235 of \"Mathematics\", California Edition, by Carole Greenes et al.",
+  "description": "Problem 49 on page 235 of Mathematics: California Edition, by Carole Greenes et al.",
   "id": "A081359",
-  "mentions": [],
+  "mentions": [
+    "A008486"
+  ],
   "tags": [
     "nonn",
-    "unkn",
-    "unsolved"
+    "unkn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 5,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

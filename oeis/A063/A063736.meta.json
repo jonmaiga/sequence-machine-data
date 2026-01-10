@@ -1,13 +1,16 @@
 {
-  "description": "Patterns of possible squarefree triples of 3 consecutive numbers {4k+1, 4k+2, 4k+3} are coded as follows: compute A008966(x) getting one of {000, 001, 010, 011, 100, 101, 110, 111} and convert to decimal.",
+  "description": "To get a(n), the pattern of the possible squarefree triple (4n+1, 4n+2, 4n+3) is coded as follows: compute A008966(x) getting one of {000, 001, 010, 011, 100, 101, 110, 111} and convert from binary.",
   "id": "A063736",
   "mentions": [
     "A007675",
     "A008966",
-    "A063238",
-    "A063838"
+    "A068088",
+    "A258332",
+    "A278554",
+    "A370600"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

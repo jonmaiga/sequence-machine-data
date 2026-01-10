@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(639).",
   "id": "A040613",
-  "mentions": [],
+  "mentions": [
+    "A042226",
+    "A042227"
+  ],
   "tags": [
     "cofr",
     "easy",

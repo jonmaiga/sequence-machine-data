@@ -4,6 +4,7 @@
   "mentions": [
     "A000035",
     "A010679",
+    "A010686",
     "A176057"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
+    "size": 72,
     "source": "joeis"
   }
 }

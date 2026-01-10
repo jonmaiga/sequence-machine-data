@@ -1,14 +1,24 @@
 {
-  "description": "Related to number of mesh patterns of length 2 that avoid the pattern 231.",
+  "description": "Related to number of mesh patterns of length 2 that avoid the pattern 231 or 321. For details see the comment section.",
   "id": "A289450",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A280891",
+    "A289446",
+    "A289453",
+    "A289587",
+    "A289616",
+    "A289652",
+    "A289654"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
   }
 }

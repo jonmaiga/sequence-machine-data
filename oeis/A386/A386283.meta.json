@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients in level 17 Ramanujan-Sato series for 1/Pi.",
+  "id": "A386283",
+  "mentions": [
+    "A002895",
+    "A005259",
+    "A005260",
+    "A125143",
+    "A181418",
+    "A183204",
+    "A219692",
+    "A274786",
+    "A284756",
+    "A290575",
+    "A290576"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

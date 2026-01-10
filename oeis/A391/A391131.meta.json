@@ -1,0 +1,17 @@
+{
+  "description": "Areas of Pythagorean triangles that are sums of two or more consecutive primes.",
+  "id": "A391131",
+  "mentions": [
+    "A009112",
+    "A050936",
+    "A383395"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

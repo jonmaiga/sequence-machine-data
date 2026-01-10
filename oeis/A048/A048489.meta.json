@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 7 * 2^n - 6.",
+  "description": "a(n) = 7*2^n - 6.",
   "id": "A048489",
   "mentions": [
     "A000079",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

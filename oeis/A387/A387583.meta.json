@@ -1,0 +1,20 @@
+{
+  "description": "Denominator D(n) of the rational part in J(n) = Integral_{x=0..Pi/2} x*cos(x)^(2n) dx.",
+  "id": "A387583",
+  "mentions": [
+    "A000984",
+    "A001147",
+    "A006882",
+    "A389342"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

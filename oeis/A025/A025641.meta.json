@@ -2,11 +2,14 @@
   "description": "Exponent of 3 (value of i) in n-th number of form 3^i*6^j.",
   "id": "A025641",
   "mentions": [
+    "A007949",
     "A025614",
     "A025649",
     "A025657"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

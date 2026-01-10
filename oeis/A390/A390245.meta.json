@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-3)^k/Catalan(k) (negated).",
+  "id": "A390245",
+  "mentions": [
+    "A000108",
+    "A197723",
+    "A268813",
+    "A352779",
+    "A390242",
+    "A390243",
+    "A390244"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k whose binary expansion contains 2 adjacent 1's and A391571(k) = k.",
+  "id": "A391581",
+  "mentions": [
+    "A003714",
+    "A004780",
+    "A391571",
+    "A391580"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

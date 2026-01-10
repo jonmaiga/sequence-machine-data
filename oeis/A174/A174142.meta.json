@@ -1,5 +1,5 @@
 {
-  "description": "Either 2*n^2-+3 is a prime.",
+  "description": "Either 2*k^2+-3 is a prime.",
   "id": "A174142",
   "mentions": [
     "A001105",

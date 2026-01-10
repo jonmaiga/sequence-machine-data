@@ -1,18 +1,19 @@
 {
-  "description": "Floor(n-th noncomposite / n).",
+  "description": "a(n) = floor(n-th noncomposite / n).",
   "id": "A171622",
   "mentions": [
-    "A000027",
     "A008578",
     "A171525",
-    "A171526"
+    "A171526",
+    "A171626"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 100,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 2, thereafter a(n+1) is the nearest integer to 4*a(n)/3.",
+  "id": "A390254",
+  "mentions": [
+    "A061418",
+    "A061419",
+    "A087192",
+    "A390315",
+    "A390316",
+    "A390321"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Let h(m) denote the sequence whose n-th term is Sum__{k=0..n} (k+1)^m*T(n,k)^2, where T(n,k) is the Catalan triangle A039598. This is h(7).",
+  "description": "Let h(m) denote the sequence whose n-th term is Sum_{k=0..n} (k+1)^m*T(n,k)^2, where T(n,k) is the Catalan triangle A039598. This is h(7).",
   "id": "A228333",
   "mentions": [
     "A000108",
@@ -13,6 +13,7 @@
     "A228332"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

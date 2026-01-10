@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that the largest prime power in the factorization of n equals phi(n).",
+  "description": "Numbers m such that the largest prime power in the factorization of m equals phi(m).",
   "id": "A081808",
   "mentions": [
-    "A007283"
+    "A000079",
+    "A007283",
+    "A020707"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

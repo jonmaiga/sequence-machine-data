@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that the complete graph K_m is Perrin cordial.",
+  "id": "A386887",
+  "mentions": [
+    "A001608"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

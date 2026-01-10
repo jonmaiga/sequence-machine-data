@@ -1,0 +1,27 @@
+{
+  "description": "The sum of the exponential divisors of n^2.",
+  "id": "A390556",
+  "mentions": [
+    "A000290",
+    "A001157",
+    "A034676",
+    "A051377",
+    "A065764",
+    "A322791",
+    "A374539",
+    "A380322",
+    "A390554",
+    "A390555"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

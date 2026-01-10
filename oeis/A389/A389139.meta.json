@@ -2,7 +2,8 @@
   "description": "Primes that remain prime when their digits are rotated once to the right in both binary and decimal.",
   "id": "A389139",
   "mentions": [
-    "A234901"
+    "A234901",
+    "A389481"
   ],
   "tags": [
     "base",

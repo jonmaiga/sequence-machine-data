@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * binomial(3*n-k,n-2*k).",
   "id": "A371785",
   "mentions": [
+    "A001764",
     "A024718",
     "A371742",
     "A371786",

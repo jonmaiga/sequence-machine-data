@@ -1,0 +1,21 @@
+{
+  "description": "Binary widths of RSA numbers.",
+  "id": "A391943",
+  "mentions": [
+    "A070939",
+    "A391940",
+    "A391944"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

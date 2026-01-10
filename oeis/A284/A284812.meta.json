@@ -1,18 +1,17 @@
 {
-  "description": "Numbers n such that n' = d_1^1 + d_2^2 + ... + d_k^k where d_1, d_2, ..., d_k are the digits of n, with MSD(n) = d_1 and LSD(n) = d_k, and n' is the arithmetic derivative of n.",
+  "description": "Numbers m such that m' = d_1^1 + d_2^2 + ... + d_k^k where d_1, d_2, ..., d_k are the digits of m, with MSD(m) = d_1 and LSD(m) = d_k, and m' is the arithmetic derivative of m.",
   "id": "A284812",
   "mentions": [
     "A003415",
-    "A284213"
+    "A284813"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

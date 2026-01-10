@@ -1,5 +1,5 @@
 {
-  "description": "The c coefficients of the transform ax^2 + (4a/k - b)x + 4a/k^2 + 2b/k + c= 0 for a,b,c = 1,-1,-1, k = 1,2,3...",
+  "description": "The c coefficients of the transform a*x^2 + (4*a/k - b)*x + 4*a/k^2 + 2*b/k + c = 0 for a,b,c = 1,-1,-1, k = 1,2,3...",
   "id": "A229526",
   "mentions": [
     "A168077",

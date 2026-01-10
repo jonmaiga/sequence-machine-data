@@ -1,0 +1,19 @@
+{
+  "description": "Values of L(2^n), where L(n) is the summatory function of the Liouville function A008836(n).",
+  "id": "A390483",
+  "mentions": [
+    "A002321",
+    "A002819",
+    "A008836",
+    "A090410"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

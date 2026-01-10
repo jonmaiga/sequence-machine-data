@@ -1,16 +1,17 @@
 {
-  "description": "a(1) = 1, a(2) = 2, a(2n) = a(2n-1)*a(2n-2), a(2n+1)= a(2n-1) + a(2n).",
+  "description": "a(0) = 2, a(1) = 1, a(2n) = a(2n-1) * a(2n-2), a(2n+1) = a(2n-1) + a(2n).",
   "id": "A077753",
   "mentions": [
     "A039941",
     "A248479"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 16,
-    "source": "joeis"
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Continued fraction expansion of Lochs constant.",
   "id": "A086820",
   "mentions": [
-    "A062543"
+    "A062543",
+    "A086819"
   ],
   "tags": [
     "cofr",

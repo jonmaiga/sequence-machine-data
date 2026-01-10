@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which are both the sum of two nonzero squares and the concatenation of the decimal representation of two nonzero squares.",
+  "description": "Numbers which are both the sum of two nonzero squares and the concatenation of the decimal representation of two nonzero squares.",
   "id": "A191867",
   "mentions": [
     "A000404",

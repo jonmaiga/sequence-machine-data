@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with canonical prime factorization k = p1^e1*p2^e2*p3^e3*p4^e4 such that the points (p1, e1), (p2, e2), (p3, e3) and (p4, e4) form a square.",
+  "id": "A389795",
+  "mentions": [
+    "A033993",
+    "A387172",
+    "A387586",
+    "A389339",
+    "A389340"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

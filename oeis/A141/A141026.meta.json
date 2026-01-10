@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n,n+8) forms a pair of consecutive primes ending respectively in 1 and 9.",
+  "description": "Numbers k such that (k,k+8) forms a pair of consecutive primes ending respectively in 1 and 9.",
   "id": "A141026",
   "mentions": [
     "A007530"

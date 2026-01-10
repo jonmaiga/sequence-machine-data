@@ -1,16 +1,18 @@
 {
-  "description": "Decimal part of cube root of a(n) starts with 7: first term of runs.",
+  "description": "a(n) = ceiling((n + 7/10)^3).",
   "id": "A034133",
   "mentions": [
     "A034123"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
-    "source": "joeis"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

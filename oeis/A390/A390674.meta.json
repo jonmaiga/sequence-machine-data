@@ -1,0 +1,39 @@
+{
+  "description": "Numbers k > 0 such that the k-th composition in standard order has all equal first sums.",
+  "id": "A390674",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A066099",
+    "A070939",
+    "A175342",
+    "A325545",
+    "A342527",
+    "A351014",
+    "A353744",
+    "A354144",
+    "A357135",
+    "A358133",
+    "A358134",
+    "A358135",
+    "A361003",
+    "A389731",
+    "A390307",
+    "A390432",
+    "A390449",
+    "A390567",
+    "A390568",
+    "A390673"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

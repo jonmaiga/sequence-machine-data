@@ -1,12 +1,12 @@
 {
-  "description": "Semiperimeter of the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "description": "Semiperimeter of the unique primitive Pythagorean triple (x,y,z) such that (x-y+z)/2 is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
   "id": "A378965",
   "mentions": [
     "A002315",
-    "A377016",
-    "A377017",
-    "A377725",
-    "A377726"
+    "A362545",
+    "A377726",
+    "A378966",
+    "A379508"
   ],
   "tags": [
     "easy",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

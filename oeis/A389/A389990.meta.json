@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the product of alternating ratio's of consecutive positive integer pairs.",
+  "id": "A389990",
+  "mentions": [
+    "A014549",
+    "A019727",
+    "A062539",
+    "A068465",
+    "A076390"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairs of Dyck paths of length 2*n touching the axis at the same points.",
+  "id": "A391955",
+  "mentions": [
+    "A000108",
+    "A001181",
+    "A001246"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,16 +1,20 @@
 {
-  "description": "A symmetrical triangle sequence;q=4;c(n,q)=Product[1 - q^i, {i, 1, n}];t(n,m,q)=1 - n! + n!*c(n, q)/(c[m, q)*c(n - m, q))/Binomial[n, m].",
+  "description": "Triangle read by rows: T(n,k) = A022168(n,k)*n!/binomial(n,k) + 1 - n!.",
   "id": "A176419",
-  "mentions": [],
+  "mentions": [
+    "A007318",
+    "A022168",
+    "A176417",
+    "A176418"
+  ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

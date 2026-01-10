@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that Kronecker(8,n) = mu(gcd(8,n)).",
+  "description": "Numbers k such that Kronecker(8,k) = mu(gcd(8,k)).",
   "id": "A074231",
   "mentions": [
     "A046055",
     "A047538"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

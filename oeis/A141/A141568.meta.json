@@ -7,12 +7,13 @@
     "A018252"
   ],
   "tags": [
+    "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

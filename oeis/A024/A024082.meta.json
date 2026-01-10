@@ -1,5 +1,5 @@
 {
-  "description": "7^n-n^7.",
+  "description": "a(n) = 7^n - n^7.",
   "id": "A024082",
   "mentions": [
     "A024012",
@@ -11,6 +11,7 @@
     "A123206"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "1+floor((2/3)*n^2).",
+  "description": "a(n) = 1+floor((2/3)*n^2).",
   "id": "A194069",
   "mentions": [
     "A030511",
@@ -7,6 +7,7 @@
     "A194071"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

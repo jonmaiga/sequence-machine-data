@@ -2,6 +2,7 @@
   "description": "Second diagonal of A027537.",
   "id": "A027540",
   "mentions": [
+    "A000295",
     "A027537"
   ],
   "tags": [

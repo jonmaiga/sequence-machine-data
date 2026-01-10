@@ -9,17 +9,18 @@
     "A369240",
     "A376410",
     "A377986",
-    "A377992"
+    "A377992",
+    "A387956",
+    "A390533"
   ],
   "tags": [
     "hard",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 4,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sums of the odd and even aliquot parts of n both divide n.",
+  "description": "Numbers k such that the sums of the odd and even aliquot parts of k both divide k.",
   "id": "A065125",
   "mentions": [
     "A000396",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "joeis"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

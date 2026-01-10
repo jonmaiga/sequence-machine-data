@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(3*n-k+1,n-k).",
+  "id": "A390543",
+  "mentions": [
+    "A001764",
+    "A005809",
+    "A183160",
+    "A199033",
+    "A371785",
+    "A390541",
+    "A390542",
+    "A390544",
+    "A390545"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

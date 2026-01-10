@@ -1,9 +1,13 @@
 {
   "description": "a(n) = n! + n^2 + n.",
   "id": "A066143",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A002378"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

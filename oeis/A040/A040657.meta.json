@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(684).",
   "id": "A040657",
-  "mentions": [],
+  "mentions": [
+    "A042314",
+    "A042315"
+  ],
   "tags": [
     "cofr",
     "easy",

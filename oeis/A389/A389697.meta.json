@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * (3*k+1) * binomial(3*n-3*k+1,n-2*k)/(3*n-3*k+1).",
+  "id": "A389697",
+  "mentions": [
+    "A001764",
+    "A089354",
+    "A109957",
+    "A390517",
+    "A390518"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

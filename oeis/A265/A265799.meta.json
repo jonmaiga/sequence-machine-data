@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of upper primes-only best approximates (POBAs) to the golden ratio, tau (A001622); see Comments.",
+  "description": "Denominators of upper primes-only best approximates (POBAs) to the golden ratio, phi (A001622); see Comments.",
   "id": "A265799",
   "mentions": [
     "A000040",

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of log(phi)^2, where phi is the golden ratio (A002390^2).",
+  "description": "Decimal expansion of log(phi)^2, where phi is the golden ratio.",
   "id": "A339470",
   "mentions": [
     "A001622",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 87,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

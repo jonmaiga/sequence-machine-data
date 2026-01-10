@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} zeta(2*k)/(k*(k+1)*(2*k+1)*4^k).",
+  "id": "A389746",
+  "mentions": [
+    "A002117",
+    "A053510",
+    "A240966",
+    "A243262",
+    "A389747",
+    "A389748"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

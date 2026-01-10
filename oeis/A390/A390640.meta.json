@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 72 / log(7).",
+  "id": "A390640",
+  "mentions": [
+    "A016630",
+    "A016635",
+    "A016707"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

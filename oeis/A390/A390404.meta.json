@@ -1,0 +1,14 @@
+{
+  "description": "Number of mutual-visibility sets in the n-crown graph.",
+  "id": "A390404",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Length of period of continued fraction for sqrt(prime(n)).",
   "id": "A054269",
   "mentions": [
+    "A000040",
     "A002496",
     "A003285",
     "A006254",
@@ -14,6 +15,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

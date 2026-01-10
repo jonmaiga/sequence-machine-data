@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 49*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391860",
+  "mentions": [
+    "A048720",
+    "A114384",
+    "A280500",
+    "A391744",
+    "A391858",
+    "A391861"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

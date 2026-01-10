@@ -1,16 +1,17 @@
 {
-  "description": "Determinant of n X n matrix M(i,j)=binomial(2i+1, j).",
+  "description": "Determinant of n X n matrix M(i,j) = binomial(2i+1, j).",
   "id": "A086228",
   "mentions": [
     "A001803"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

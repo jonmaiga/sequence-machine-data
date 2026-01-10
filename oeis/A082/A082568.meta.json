@@ -1,5 +1,5 @@
 {
-  "description": "First nontrivial square root of unity mod A033949(n), i.e., smallest x > 1 such that x^2 == 1 mod A033949(n).",
+  "description": "First nontrivial square root of unity mod A033949(n); i.e., smallest x > 1 such that x^2 == 1 mod A033949(n).",
   "id": "A082568",
   "mentions": [
     "A033949",

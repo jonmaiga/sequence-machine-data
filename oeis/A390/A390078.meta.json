@@ -1,0 +1,16 @@
+{
+  "description": "Number of normal subgroups of the modular group of index 6n.",
+  "id": "A390078",
+  "mentions": [
+    "A389830"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

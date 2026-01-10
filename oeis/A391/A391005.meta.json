@@ -1,0 +1,16 @@
+{
+  "description": "Semiperfect primes: p is a semiperfect prime <=> p is prime and p + 1 is semiperfect.",
+  "id": "A391005",
+  "mentions": [
+    "A005835",
+    "A391003"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

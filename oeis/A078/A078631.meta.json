@@ -7,11 +7,12 @@
     "A089222"
   ],
   "tags": [
+    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

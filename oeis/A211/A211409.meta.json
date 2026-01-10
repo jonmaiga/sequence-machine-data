@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (9^n + 4^n)/13 is prime.",
+  "description": "Numbers k such that (9^k + 4^k)/13 is prime.",
   "id": "A211409",
   "mentions": [
     "A057175",
@@ -9,6 +9,7 @@
     "A187819"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

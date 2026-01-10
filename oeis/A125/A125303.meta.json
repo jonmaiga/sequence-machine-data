@@ -1,5 +1,5 @@
 {
-  "description": "Each number in this sequence is the reversal of the sum of its proper substrings.",
+  "description": "Numbers not ending with 0 equal the reversal of the sum of their distinct proper substrings (without leading zeros).",
   "id": "A125303",
   "mentions": [],
   "tags": [

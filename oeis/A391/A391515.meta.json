@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(g^2 * (2 - g^2)), where g = 1+x*g^4 is the g.f. of A002293.",
+  "id": "A391515",
+  "mentions": [
+    "A000129",
+    "A002293",
+    "A052203",
+    "A391464",
+    "A391465",
+    "A391518"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

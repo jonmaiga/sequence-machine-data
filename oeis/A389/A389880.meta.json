@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations f of {1,...,n} with f(1) = 1 such that k*f(k) (k = 1..n) are distinct practical numbers.",
+  "id": "A389880",
+  "mentions": [
+    "A005153",
+    "A321651"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

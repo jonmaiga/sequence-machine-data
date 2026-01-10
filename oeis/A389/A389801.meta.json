@@ -1,0 +1,17 @@
+{
+  "description": "Primes k such that the concatenation of (b, k, b) and (k, b, k) are both prime, where b is the binary representation of k.",
+  "id": "A389801",
+  "mentions": [
+    "A000040",
+    "A007088"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

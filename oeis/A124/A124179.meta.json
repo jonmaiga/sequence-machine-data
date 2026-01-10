@@ -1,15 +1,20 @@
 {
-  "description": "Prime(R(p)) where Prime(i) is the i-th prime and R(p) is the value of the reverse of the digits of prime p.",
+  "description": "a(n) = prime(R(prime(n))) where prime(i) is the i-th prime and R(p) is the value of the reverse of the digits of p.",
   "id": "A124179",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A004087"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

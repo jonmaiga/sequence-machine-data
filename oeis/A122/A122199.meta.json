@@ -2,8 +2,10 @@
   "description": "Permutation of natural numbers: a recursed variant of A122155.",
   "id": "A122199",
   "mentions": [
+    "A048724",
     "A053644",
     "A053645",
+    "A065621",
     "A096111",
     "A096115",
     "A122155",

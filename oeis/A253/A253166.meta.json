@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^k+15, with k=1..7, are all prime.",
+  "description": "Numbers m such that m^k+15, with k=1..7, are all prime.",
   "id": "A253166",
   "mentions": [
     "A086303",

@@ -1,0 +1,21 @@
+{
+  "description": "Increasing partition array based on the prime fractions A037126(n)/A389809(n); see Comments.",
+  "id": "A389586",
+  "mentions": [
+    "A000027",
+    "A037126",
+    "A185787",
+    "A388853",
+    "A389588",
+    "A389809"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

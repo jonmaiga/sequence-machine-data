@@ -1,0 +1,14 @@
+{
+  "description": "Number of irredundant sets in the Lingren-Sousslier graph on 6n+4 vertices.",
+  "id": "A391913",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

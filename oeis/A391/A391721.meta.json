@@ -1,0 +1,16 @@
+{
+  "description": "Restricted size Ramsey numbers r*(P_3, C_n).",
+  "id": "A391721",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

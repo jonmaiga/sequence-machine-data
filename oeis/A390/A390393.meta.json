@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the maximum size of a subset A of {1,...,n} such that Sum_{k in S} 1/k != 1 for all subsets S of A.",
+  "id": "A390393",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

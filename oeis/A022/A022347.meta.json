@@ -1,8 +1,11 @@
 {
   "description": "Fibonacci sequence beginning 0, 13.",
   "id": "A022347",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

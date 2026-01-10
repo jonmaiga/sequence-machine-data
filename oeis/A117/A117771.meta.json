@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that digit sum of 2^n is less than or equal to n.",
+  "description": "Numbers k such that the digit sum of 2^k is less than or equal to k.",
   "id": "A117771",
   "mentions": [
     "A001370"

@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(488).",
   "id": "A040465",
-  "mentions": [],
+  "mentions": [
+    "A041930",
+    "A041931"
+  ],
   "tags": [
     "cofr",
     "easy",

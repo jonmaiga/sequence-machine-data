@@ -1,5 +1,5 @@
 {
-  "description": "f(f(n+1))-f(f(n)), where f() = Catalan() = A000108.",
+  "description": "a(n) = f(f(n+1)) - f(f(n)), where f() = Catalan() = A000108.",
   "id": "A111401",
   "mentions": [
     "A000108"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 6,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

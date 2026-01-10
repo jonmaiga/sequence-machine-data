@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: numerators of the almost-Riordan array ( (3*x - 2 - 2*sqrt(1 - x))/(-x^2 + 5*x - 2 + 2*(x - 1)*sqrt(1 - x)) | 4/(2*(1 - x)*sqrt(1 - x) + x^2 - 5*x + 2), (8 - 4*x - 8*sqrt(1 - x))/x ).",
+  "id": "A389710",
+  "mentions": [
+    "A373744",
+    "A373746",
+    "A389706",
+    "A389708",
+    "A389711",
+    "A389739"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

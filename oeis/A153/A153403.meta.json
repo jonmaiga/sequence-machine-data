@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10*n+3 is not prime.",
+  "description": "Numbers k such that 10*k+3 is not prime.",
   "id": "A153403",
   "mentions": [
     "A102338"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 59,
+    "size": 65,
     "source": "joeis"
   }
 }

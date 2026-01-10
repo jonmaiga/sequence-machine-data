@@ -1,14 +1,17 @@
 {
   "description": "Number of n X 3 binary arrays with all 1s connected, a path of 1s from left column to right column, and no 1 having more than two 1s adjacent.",
   "id": "A163724",
-  "mentions": [],
+  "mentions": [
+    "A391822"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "joeis"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

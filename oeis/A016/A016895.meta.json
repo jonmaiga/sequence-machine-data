@@ -1,5 +1,5 @@
 {
-  "description": "(5n+3)^11.",
+  "description": "a(n) = (5*n + 3)^11.",
   "id": "A016895",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 15,
     "source": "joeis"
   }
 }

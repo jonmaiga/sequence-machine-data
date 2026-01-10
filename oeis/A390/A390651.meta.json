@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of the convergents given by treating A084580 as continued fraction coefficients after the leading 0.",
+  "id": "A390651",
+  "mentions": [
+    "A084580",
+    "A086702",
+    "A372869",
+    "A390652"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

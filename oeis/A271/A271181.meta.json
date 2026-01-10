@@ -2,7 +2,8 @@
   "description": "Read A002942 digit-by-digit, beginning with an initial 0.",
   "id": "A271181",
   "mentions": [
-    "A002942"
+    "A002942",
+    "A031298"
   ],
   "tags": [
     "base",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
-    "source": "oeis-entry"
+    "size": 98,
+    "source": "oeis-bfile"
   }
 }

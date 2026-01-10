@@ -1,5 +1,5 @@
 {
-  "description": "A variant of Euclid-Mullin (A000945): a(1)=2, a(n+1) is the least prime dividing [Product_{i in I} a(i) + Product_{i not in I} a(i)], minimized over all subsets I of {1..n}.",
+  "description": "A variant of Euclid-Mullin (A000945): a(1)=2, a(n+1) is the least prime dividing [Product_{i in I} a(i) + Product_{i in I'} a(i)], minimized over all subsets I of {1..n}, where I' denotes the complementary subset of I.",
   "id": "A167604",
   "mentions": [
     "A000945",

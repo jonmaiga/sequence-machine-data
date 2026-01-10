@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of n-coloring the square grid graph G_(6,6) such that no rectangle exists with sides parallel to the axes having all 4 corners of the same color.",
+  "id": "A391612",
+  "mentions": [
+    "A200045",
+    "A252778",
+    "A252779",
+    "A252780",
+    "A252839"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

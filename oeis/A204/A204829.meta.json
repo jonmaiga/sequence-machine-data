@@ -1,9 +1,15 @@
 {
-  "description": "Numbers with abundancy 2 <= a < 3.",
+  "description": "Numbers k with abundancy 2 <= sigma(k)/k < 3.",
   "id": "A204829",
   "mentions": [
     "A000396",
-    "A204828"
+    "A005101",
+    "A068403",
+    "A204828",
+    "A230608",
+    "A302991",
+    "A386213",
+    "A386317"
   ],
   "tags": [
     "nonn"

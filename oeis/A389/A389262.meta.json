@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that more than half the permutations of n elements have longest cycle <= k.",
+  "id": "A389262",
+  "mentions": [
+    "A000142",
+    "A068424",
+    "A330858"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

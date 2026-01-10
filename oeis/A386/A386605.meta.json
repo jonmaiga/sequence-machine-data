@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer k whose sum of its distinct prime factors and bigomega(k) both equal n; or -1 if no such integer exists.",
+  "id": "A386605",
+  "mentions": [
+    "A000040",
+    "A000586",
+    "A001222",
+    "A008472",
+    "A027746",
+    "A112798"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

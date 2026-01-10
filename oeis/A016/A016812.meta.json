@@ -1,5 +1,5 @@
 {
-  "description": "(4n)^12.",
+  "description": "a(n) = (4*n)^12.",
   "id": "A016812",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 15,
     "source": "joeis"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Primes obtained by iterating the map prime(j) -> prime(j + prime(j) + 1) starting at 2.",
+  "id": "A391401",
+  "mentions": [
+    "A000040",
+    "A093502",
+    "A391616"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

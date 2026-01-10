@@ -1,21 +1,24 @@
 {
-  "description": "The label of the ending square of a (m,n)-leaper (a generalization of a chess knight) when it can no longer move, starting on a board with squares spirally numbered, starting at 1. Each move is to the lowest-numbered unvisited square.",
+  "description": "Triangle read by rows: T(m,n) is the label of the ending square of an (m,n)-leaper (a generalization of a chess knight) when it can no longer move, starting on a board with squares spirally numbered, starting at 1; 1 <= n < m. Each move is to the lowest-numbered unvisited square.",
   "id": "A323750",
   "mentions": [
+    "A306197",
     "A316667",
     "A317106",
     "A317416",
     "A317438",
     "A317471",
     "A317916",
-    "A323749"
+    "A323471",
+    "A323749",
+    "A343179"
   ],
   "tags": [
     "nonn",
-    "tabf"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 47,
     "source": "oeis-bfile"
   }

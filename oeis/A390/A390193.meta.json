@@ -1,0 +1,19 @@
+{
+  "description": "Number of achiral polyominoes in {4,5} tessellation of the hyperbolic plane.",
+  "id": "A390193",
+  "mentions": [
+    "A119611",
+    "A390191",
+    "A390192",
+    "A390194"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

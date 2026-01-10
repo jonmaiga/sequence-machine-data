@@ -1,0 +1,19 @@
+{
+  "description": "Lower (1/2)-midsequence of Fibonacci numbers (A000045) and tribonacci numbers (A000213); see Comments.",
+  "id": "A390348",
+  "mentions": [
+    "A000045",
+    "A000213",
+    "A390349"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

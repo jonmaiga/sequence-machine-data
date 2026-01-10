@@ -1,0 +1,25 @@
+{
+  "description": "Ordered numbers of partitions of the faces of the Archimedean solids into 2 connected subsets.",
+  "id": "A389999",
+  "mentions": [
+    "A092536",
+    "A092537",
+    "A092538",
+    "A343432",
+    "A343433",
+    "A358999",
+    "A389997",
+    "A390000",
+    "A390001"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

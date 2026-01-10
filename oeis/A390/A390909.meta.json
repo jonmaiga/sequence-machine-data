@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of noncrossing path sets on n nodes with k paths and isolated vertices allowed, 0 <= k <= n.",
+  "id": "A390909",
+  "mentions": [
+    "A000007",
+    "A001792",
+    "A054727",
+    "A303868",
+    "A303869",
+    "A363964",
+    "A390893",
+    "A390894",
+    "A390908",
+    "A390910"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

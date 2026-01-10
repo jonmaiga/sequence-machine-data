@@ -1,0 +1,17 @@
+{
+  "description": "One-fourth of the total number of edges in the graph (see A392172) formed when n points are placed in general position on each edge of a square and a chord is drawn from each point to the the 3*n points on the other three sides.",
+  "id": "A392174",
+  "mentions": [
+    "A392172",
+    "A392173"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

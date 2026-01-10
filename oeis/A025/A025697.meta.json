@@ -1,15 +1,20 @@
 {
-  "description": "Index of 3^n within sequence of numbers of form 3^i*6^j.",
+  "description": "Index of 3^n within the sequence of the numbers of the form 3^i*6^j.",
   "id": "A025697",
   "mentions": [
-    "A025657"
+    "A000244",
+    "A025614",
+    "A025657",
+    "A152935"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

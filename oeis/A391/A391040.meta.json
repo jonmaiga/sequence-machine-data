@@ -1,0 +1,18 @@
+{
+  "description": "Area of the Pythagoras tree with triangles formed by successive stages of the fractal filled in.",
+  "id": "A391040",
+  "mentions": [
+    "A382280"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

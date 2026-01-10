@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: coefficients d(n,k) of Andre polynomials D(x,n) = Sum_{k>0} d(n,k)*x^k.",
+  "description": "Triangle read by rows: coefficients d(n,k) of André polynomials D(x,n) = Sum_{k>0} d(n,k)*x^k.",
   "id": "A094503",
   "mentions": [
     "A000012",

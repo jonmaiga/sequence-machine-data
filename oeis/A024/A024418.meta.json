@@ -1,14 +1,16 @@
 {
-  "description": "a(n) = t mod s(n,n-1), where t = max{s(n,k): k=1,2,...,n}, s(n,k) = Stirling numbers of the second kind, n >= 2.",
+  "description": "a(n) = t mod s(n,n-1), where t = max{s(n,k): k=1,2,...,n}, s(n,k) = Stirling numbers of the second kind.",
   "id": "A024418",
   "mentions": [
+    "A002870",
     "A008277"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 62,
     "source": "joeis"
   }

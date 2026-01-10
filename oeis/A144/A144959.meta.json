@@ -1,5 +1,5 @@
 {
-  "description": "A134955(n) - A134955(n-1). Number of hyperforests spanning n unlabeled nodes without isolated vertices.",
+  "description": "a(n) = A134955(n) - A134955(n-1). Number of hyperforests spanning n unlabeled nodes without isolated vertices.",
   "id": "A144959",
   "mentions": [
     "A007563",
@@ -23,6 +23,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

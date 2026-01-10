@@ -1,5 +1,5 @@
 {
-  "description": "A trisection of A001405 (central binomial coefficients): binomial(3n+2,floor((3n+2)/2))/2, n>=0.",
+  "description": "A trisection of A001405 (central binomial coefficients): binomial(3n+2,floor((3n+2)/2))/2, n >= 0.",
   "id": "A187444",
   "mentions": [
     "A001405",

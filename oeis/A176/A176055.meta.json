@@ -2,11 +2,11 @@
   "description": "Decimal expansion of (2+sqrt(5))/2.",
   "id": "A176055",
   "mentions": [
-    "A000045",
     "A001622",
     "A002163",
     "A010698",
-    "A020837"
+    "A020837",
+    "A104457"
   ],
   "tags": [
     "cons",

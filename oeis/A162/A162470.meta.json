@@ -5,13 +5,14 @@
     "A000108"
   ],
   "tags": [
+    "easy",
     "less",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 79,
-    "source": "oeis-entry"
+    "size": 81,
+    "source": "oeis-bfile"
   }
 }

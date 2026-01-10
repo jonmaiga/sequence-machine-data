@@ -1,5 +1,5 @@
 {
-  "description": "Initial n digits in decimal portion of golden ratio phi (or tau) = (1 + sqrt 5)/2 form a prime number.",
+  "description": "Initial n digits in decimal portion of golden ratio phi = (1 + sqrt 5)/2 form a prime number.",
   "id": "A065868",
   "mentions": [
     "A001622",

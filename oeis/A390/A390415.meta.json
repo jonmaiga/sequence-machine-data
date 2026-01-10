@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n+3*k+1,n-k).",
+  "id": "A390415",
+  "mentions": [
+    "A002293",
+    "A257633",
+    "A386811",
+    "A390333",
+    "A390411",
+    "A390412",
+    "A390413",
+    "A390414",
+    "A390416"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

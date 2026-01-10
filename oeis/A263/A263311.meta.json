@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that each of p=6*n+1, q=6*p+1, r=6*q+1 and s=6*r+1 is prime.",
+  "description": "Numbers m such that each of p=6*m+1, q=6*p+1, r=6*q+1 and s=6*r+1 is prime.",
   "id": "A263311",
   "mentions": [
     "A024899",

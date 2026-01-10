@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^3 can be represented as the sum of k consecutive nonprimes.",
+  "id": "A389751",
+  "mentions": [
+    "A018252",
+    "A390584",
+    "A390586"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

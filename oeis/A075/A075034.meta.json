@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(n) >= tau(n+1) >= tau(n+2) where tau(n) = number of divisors of n.",
+  "description": "Numbers k such that tau(k) >= tau(k+1) >= tau(k+2) where tau(k) = number of divisors of k.",
   "id": "A075034",
   "mentions": [
     "A000005",

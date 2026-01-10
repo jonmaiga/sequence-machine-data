@@ -1,0 +1,16 @@
+{
+  "description": "Least number of vertical or horizontal cuts required to divide a square into n equal parts.",
+  "id": "A387830",
+  "mentions": [
+    "A063655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

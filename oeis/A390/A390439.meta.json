@@ -1,0 +1,31 @@
+{
+  "description": "Exponentially noncomposite numbers: numbers whose prime factorization exponents are all noncomposites.",
+  "id": "A390439",
+  "mentions": [
+    "A004709",
+    "A005117",
+    "A008578",
+    "A046100",
+    "A056166",
+    "A115063",
+    "A140823",
+    "A209061",
+    "A274034",
+    "A322791",
+    "A323308",
+    "A323309",
+    "A361255",
+    "A369939",
+    "A386803",
+    "A388972"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1. For n > 1, a(n) is the smallest number obtainable by rearranging the digits of n whose value has the largest prime factor among all such rearrangements.",
+  "id": "A390052",
+  "mentions": [
+    "A006530",
+    "A387938",
+    "A390053"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

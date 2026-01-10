@@ -1,0 +1,37 @@
+{
+  "description": "a(n) is the largest prime number obtainable by inserting a single digit anywhere in n (including at the beginning or end), or -1 if no such prime is obtainable.",
+  "id": "A389720",
+  "mentions": [
+    "A000040",
+    "A032352",
+    "A065502",
+    "A068679",
+    "A069246",
+    "A069832",
+    "A069833",
+    "A097722",
+    "A124665",
+    "A125001",
+    "A158594",
+    "A215417",
+    "A215419",
+    "A215420",
+    "A215421",
+    "A389721",
+    "A389722",
+    "A389723",
+    "A389724",
+    "A389725",
+    "A389726",
+    "A389727"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

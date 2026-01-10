@@ -1,0 +1,26 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = A000045(n)^2 + A000045(n+k)^2.",
+  "id": "A389800",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A007598",
+    "A045702",
+    "A069921",
+    "A126358",
+    "A175395",
+    "A245306",
+    "A390581"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

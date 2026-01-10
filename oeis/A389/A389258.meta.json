@@ -1,0 +1,16 @@
+{
+  "description": "Values of r for which there is a P-position (p,p,r,r) in 4 X n Chomp with p >= r, sorted by p.",
+  "id": "A389258",
+  "mentions": [
+    "A029899",
+    "A152004"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

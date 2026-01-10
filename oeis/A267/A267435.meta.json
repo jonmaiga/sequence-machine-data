@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that each reduced Collatz trajectory (mod p): (n, T(n), T(T(n)),..., 4, 2, 1) / pZ, where the odd prime p is the number of iterations needed to reach 1, contains exactly the p-1 values {1, 2, 3, .., p-1}.",
+  "description": "Numbers n such that each reduced Collatz trajectory (mod p): (n, T(n), T(T(n)), ..., 4, 2, 1) / pZ, where the odd prime p is the number of iterations needed to reach 1, contains exactly the p-1 values {1, 2, 3, ..., p-1}.",
   "id": "A267435",
   "mentions": [
     "A001122",

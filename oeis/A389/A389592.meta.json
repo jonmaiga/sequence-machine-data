@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the sum of the numbers that are not the smallest number in the k-th 2-dense sublist of divisors of n, with n >= 1, k >= 1.",
+  "id": "A389592",
+  "mentions": [
+    "A237271",
+    "A379288",
+    "A379379",
+    "A384149",
+    "A384222",
+    "A384226",
+    "A384930",
+    "A389591"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

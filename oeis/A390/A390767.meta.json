@@ -1,0 +1,26 @@
+{
+  "description": "Number of digits in base-9 representation of n.",
+  "id": "A390767",
+  "mentions": [
+    "A007095",
+    "A055642",
+    "A070939",
+    "A081604",
+    "A110591",
+    "A110592",
+    "A390764",
+    "A390765",
+    "A390766"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

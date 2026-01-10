@@ -1,5 +1,5 @@
 {
-  "description": "Strongly prime-additive numbers: numbers n with at least 2 distinct prime factors that can be represented as n = Sum_{p|n} p^e_p, with e_p > 0 and p^e_p < n < p^(e_p+1).",
+  "description": "Strongly prime-additive numbers: numbers m with at least 2 distinct prime factors that can be represented as m = Sum_{p|m} p^e_p, with e_p > 0 and p^e_p < m < p^(e_p+1).",
   "id": "A302755",
   "mentions": [
     "A296717",

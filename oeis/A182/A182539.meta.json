@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) + (a(n-2) AND n).",
+  "description": "a(0)=0, a(1)=1, a(n) = a(n-1) + (a(n-2) AND n), where AND is the bitwise AND operator.",
   "id": "A182539",
   "mentions": [
     "A182537"
@@ -7,12 +7,11 @@
   "tags": [
     "base",
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

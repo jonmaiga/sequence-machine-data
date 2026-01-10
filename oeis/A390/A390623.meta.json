@@ -1,0 +1,22 @@
+{
+  "description": "Cluster series for percolation on the cells of the Cairo tiling.",
+  "id": "A390623",
+  "mentions": [
+    "A003202",
+    "A003203",
+    "A003204",
+    "A196991",
+    "A219529",
+    "A383735",
+    "A390624"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

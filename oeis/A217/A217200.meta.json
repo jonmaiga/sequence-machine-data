@@ -2,6 +2,7 @@
   "description": "Number of permutations in S_{n+2} containing an increasing subsequence of length n.",
   "id": "A217200",
   "mentions": [
+    "A165563",
     "A214152"
   ],
   "tags": [

@@ -10,12 +10,13 @@
     "A072034"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 41,
     "source": "joeis"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer compositions of n with all distinct 0-prepended first differences.",
+  "id": "A389601",
+  "mentions": [
+    "A000120",
+    "A000740",
+    "A007862",
+    "A011782",
+    "A049988",
+    "A051336",
+    "A070211",
+    "A175342",
+    "A303664",
+    "A325324",
+    "A325325",
+    "A325367",
+    "A325368",
+    "A325545",
+    "A325547",
+    "A325557",
+    "A358133",
+    "A364465",
+    "A389597",
+    "A389731",
+    "A389732",
+    "A389733",
+    "A389734",
+    "A389738",
+    "A389741",
+    "A389742",
+    "A389743",
+    "A389744"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

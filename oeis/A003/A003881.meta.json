@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Pi/4.",
   "id": "A003881",
   "mentions": [
+    "A000045",
     "A000182",
     "A000364",
     "A000796",

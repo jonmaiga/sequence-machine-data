@@ -1,0 +1,19 @@
+{
+  "description": "Site percolation series for hexagonal lattice: coefficients of the power series expansion in powers of q=1-p of the probability that a given site (not assumed to be open) belongs to the infinite cluster, where p is the probability that a site is open.",
+  "id": "A391392",
+  "mentions": [
+    "A391388",
+    "A391390",
+    "A391393"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

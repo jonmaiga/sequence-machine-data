@@ -1,0 +1,22 @@
+{
+  "description": "Odd semiprimes p*q such that Stern polynomial B(p*q,x) is reducible.",
+  "id": "A391336",
+  "mentions": [
+    "A046315",
+    "A125184",
+    "A260443",
+    "A389917",
+    "A389918",
+    "A391256",
+    "A391257",
+    "A391337"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

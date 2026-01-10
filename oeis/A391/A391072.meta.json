@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of twin prime candidates in primorial interval of prime(n)# after elimination by prime factor prime(n-1).",
+  "id": "A391072",
+  "mentions": [
+    "A002110",
+    "A059861",
+    "A121406"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,21 @@
 {
-  "description": "Index of 10^n within sequence of numbers of form 2^i*10^j.",
+  "description": "Index of 10^n within the sequence of the numbers of the form 2^i*10^j.",
   "id": "A025740",
   "mentions": [
+    "A011557",
+    "A020862",
+    "A025612",
     "A025639",
     "A123384"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 49,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

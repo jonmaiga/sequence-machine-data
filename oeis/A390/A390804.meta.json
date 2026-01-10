@@ -1,0 +1,35 @@
+{
+  "description": "The sum of the integers k from 1 to n such that gcd(n, k) is a power of 2.",
+  "id": "A390804",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A000961",
+    "A007582",
+    "A023896",
+    "A042968",
+    "A062570",
+    "A119790",
+    "A209229",
+    "A246655",
+    "A390800",
+    "A390801",
+    "A390802",
+    "A390803",
+    "A390805",
+    "A390806",
+    "A390807",
+    "A390808",
+    "A390809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

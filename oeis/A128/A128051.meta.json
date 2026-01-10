@@ -1,5 +1,5 @@
 {
-  "description": "(n^3+n)*7^n.",
+  "description": "a(n) = (n^3 + n)*7^n.",
   "id": "A128051",
   "mentions": [
     "A128796",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

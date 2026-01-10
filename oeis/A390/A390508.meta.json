@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = index of the NA-run sequence of the n-th 01-word, where all 01-words are lexicographically ordered (i.e., enumerated) as in A076478; see Comments.",
+  "id": "A390508",
+  "mentions": [
+    "A055168",
+    "A076478",
+    "A390505",
+    "A390509",
+    "A390510"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

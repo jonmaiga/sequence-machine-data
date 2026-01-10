@@ -1,8 +1,12 @@
 {
-  "description": "Least positive k such that k * [RSA-640]^n - 1 is prime, where RSA-640 is the 193 decimal digit RSA challenge number.",
+  "description": "Least positive k such that k * [RSA-640]^n - 1 is prime, where RSA-640 is the 193 decimal digit RSA challenge number A391940(14).",
   "id": "A108573",
   "mentions": [
-    "A108375"
+    "A108375",
+    "A108881",
+    "A391940",
+    "A391941",
+    "A391942"
   ],
   "tags": [
     "nonn"

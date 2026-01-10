@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n binary matrices that contain no 3 X 3 zero submatrix.",
+  "id": "A391634",
+  "mentions": [
+    "A001198",
+    "A175563",
+    "A350304"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Increasing partition array read by antidiagonals based on Farey fractions, (A038566(n+1)/A038567(n)); see Comments.",
+  "id": "A388853",
+  "mentions": [
+    "A000027",
+    "A015614",
+    "A035513",
+    "A038566",
+    "A038567",
+    "A143514",
+    "A143515",
+    "A143527",
+    "A143528",
+    "A185787",
+    "A345254",
+    "A385573",
+    "A388854",
+    "A388855",
+    "A388856",
+    "A389574",
+    "A389575",
+    "A389576",
+    "A389577",
+    "A389578",
+    "A389579",
+    "A389580",
+    "A389581",
+    "A389584",
+    "A389585",
+    "A389586",
+    "A389587"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

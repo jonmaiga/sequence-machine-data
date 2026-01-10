@@ -1,14 +1,16 @@
 {
-  "description": "Numbers whose number of runs in the base-2 representation is congruent to 3 mod 5.",
+  "description": "Numbers whose number of runs in their base-2 representation is congruent to 3 mod 5.",
   "id": "A043731",
-  "mentions": [],
+  "mentions": [
+    "A007088"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
-    "source": "joeis"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

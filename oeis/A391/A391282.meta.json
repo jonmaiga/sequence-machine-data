@@ -1,0 +1,31 @@
+{
+  "description": "Primitive e-semiproper perfect numbers: powerful numbers k for which A323309(k) = 2*k.",
+  "id": "A391282",
+  "mentions": [
+    "A001694",
+    "A002827",
+    "A005117",
+    "A007947",
+    "A054979",
+    "A054980",
+    "A056166",
+    "A064549",
+    "A318645",
+    "A322858",
+    "A323308",
+    "A323309",
+    "A323310",
+    "A391281"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

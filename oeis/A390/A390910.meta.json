@@ -1,0 +1,19 @@
+{
+  "description": "Number of noncrossing path sets on n nodes with isolated vertices allowed.",
+  "id": "A390910",
+  "mentions": [
+    "A303730",
+    "A303835",
+    "A303836",
+    "A390909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

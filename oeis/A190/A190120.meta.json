@@ -2,12 +2,13 @@
   "description": "a(n) = Sum_{k=1..n} lcm(k,k')/gcd(k,k'), where n' is arithmetic derivative of n.",
   "id": "A190120",
   "mentions": [
-    "A003145",
     "A003415",
+    "A189036",
     "A190118",
     "A190119"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

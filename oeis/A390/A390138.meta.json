@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest integer k such that there is an integer m with exactly n nonunitary prime factors and m + A005117(i) is squarefree for 1 <= i <= k.",
+  "id": "A390138",
+  "mentions": [
+    "A005117",
+    "A056170",
+    "A100112",
+    "A375707",
+    "A389412",
+    "A390240",
+    "A390241"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

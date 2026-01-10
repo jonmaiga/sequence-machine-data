@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form (product of 4 consecutive primes) - (sum of those primes).",
+  "id": "A390916",
+  "mentions": [
+    "A390917",
+    "A390918"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

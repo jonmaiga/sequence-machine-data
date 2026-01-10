@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that Sum_{j|k, j!=k} A036044(j) = A036044(k).",
+  "id": "A391095",
+  "mentions": [
+    "A000668",
+    "A034785",
+    "A036044"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

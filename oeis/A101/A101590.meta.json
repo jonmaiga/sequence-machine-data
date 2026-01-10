@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes in sequence defined by A(0) = 53, A(n) = 10*A(n-1) + 63 for n > 0.",
+  "description": "Indices of primes in the sequence defined by A(0) = 53, A(n) = 10*A(n-1) + 63 for n > 0.",
   "id": "A101590",
   "mentions": [
     "A000533",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],

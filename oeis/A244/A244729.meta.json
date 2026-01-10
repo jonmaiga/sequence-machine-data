@@ -2,6 +2,8 @@
   "description": "a(n) = 10*n^3.",
   "id": "A244729",
   "mentions": [
+    "A000578",
+    "A033431",
     "A244725"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 38,
     "source": "joeis"
   }
 }

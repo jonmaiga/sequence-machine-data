@@ -1,0 +1,25 @@
+{
+  "description": "Continued fraction expansion of 3*Sum_{k>=0} 6^(-2^k).",
+  "id": "A389522",
+  "mentions": [
+    "A006466",
+    "A007400",
+    "A014577",
+    "A157196",
+    "A336810",
+    "A386384",
+    "A387398",
+    "A388655",
+    "A389527"
+  ],
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

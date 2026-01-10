@@ -1,5 +1,5 @@
 {
-  "description": "Period 6: 1,4,3,-1,-4,-3.",
+  "description": "Period 6: repeat 1,4,3,-1,-4,-3.",
   "id": "A130806",
   "mentions": [
     "A010892"
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
+    "size": 78,
     "source": "joeis"
   }
 }

@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that if sum of the proper divisors of n is equal to m then n = phi(m).",
+  "description": "Numbers k such that phi(sum of the proper divisors of k) = k.",
   "id": "A107654",
   "mentions": [
-    "A107653"
+    "A000010",
+    "A001065"
   ],
   "tags": [
     "more",

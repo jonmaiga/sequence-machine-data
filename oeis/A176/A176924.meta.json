@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 2^n + 37.",
+  "description": "Primes of the form 2^k + 37.",
   "id": "A176924",
   "mentions": [],
   "tags": [

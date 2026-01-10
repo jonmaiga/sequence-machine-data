@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that floor(phi^n) is prime, where phi = golden ratio.",
+  "description": "Numbers k such that floor(phi^k) is prime, where phi is the golden ratio.",
   "id": "A059791",
   "mentions": [
     "A001622",

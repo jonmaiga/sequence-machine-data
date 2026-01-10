@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (2*n+1)*(11*n+1).",
   "id": "A033575",
-  "mentions": [],
+  "mentions": [
+    "A051865"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 42,
     "source": "joeis"
   }
 }

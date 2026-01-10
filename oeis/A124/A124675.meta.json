@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = product of the positive integers k, k<= n, such that the positive integers <= k and coprime to k are also coprime to n.",
+  "description": "a(n) = product of the positive integers k, k <= n, such that the positive integers <= k and coprime to k are also coprime to n.",
   "id": "A124675",
   "mentions": [
     "A124611",

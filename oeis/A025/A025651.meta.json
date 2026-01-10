@@ -2,14 +2,18 @@
   "description": "Exponent of 5 (value of i) in n-th number of form 5^i*6^j.",
   "id": "A025651",
   "mentions": [
-    "A025622"
+    "A025622",
+    "A025659",
+    "A112765"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

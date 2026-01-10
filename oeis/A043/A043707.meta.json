@@ -1,14 +1,16 @@
 {
   "description": "Numbers whose base-4 representation has an odd number of runs.",
   "id": "A043707",
-  "mentions": [],
+  "mentions": [
+    "A007090"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
-    "source": "joeis"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

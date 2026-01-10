@@ -1,9 +1,11 @@
 {
-  "description": "Numbers simultaneously heptagonal and centered heptagonal.",
+  "description": "Numbers which are both heptagonal and centered heptagonal.",
   "id": "A128919",
   "mentions": [
     "A000566",
-    "A069099"
+    "A069099",
+    "A133271",
+    "A133272"
   ],
   "tags": [
     "easy",
@@ -11,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 11,
-    "source": "joeis"
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

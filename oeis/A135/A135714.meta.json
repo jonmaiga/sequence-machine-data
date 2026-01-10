@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes of the form p(n)#/p(k) - 1, where 1 <= k <= n.",
+  "description": "Number of primes of the form prime(n)#/prime(k) - 1, where 1 <= k <= n.",
   "id": "A135714",
   "mentions": [
     "A002110",

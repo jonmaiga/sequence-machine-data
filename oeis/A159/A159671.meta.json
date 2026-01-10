@@ -1,8 +1,11 @@
 {
   "description": "Continued fraction expansion of Landau's constant L.",
   "id": "A159671",
-  "mentions": [],
+  "mentions": [
+    "A081760"
+  ],
   "tags": [
+    "cofr",
     "formulas",
     "nonn"
   ],

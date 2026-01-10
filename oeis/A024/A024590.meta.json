@@ -1,13 +1,16 @@
 {
   "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = (composite numbers), t = (odd natural numbers).",
   "id": "A024590",
-  "mentions": [],
+  "mentions": [
+    "A002808"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

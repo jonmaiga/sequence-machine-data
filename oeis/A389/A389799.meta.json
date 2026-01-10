@@ -1,0 +1,20 @@
+{
+  "description": "Centered 30-gonal numbers.",
+  "id": "A389799",
+  "mentions": [
+    "A069190",
+    "A195314",
+    "A389797",
+    "A389798"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

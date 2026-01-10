@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array ((1+x)/(1+2x+2x^2),x(1+x)/(1+2x+2x^2)).",
+  "description": "Riordan array ((1+x)/(1+2*x+2*x^2),x*(1+x)/(1+2*x+2*x^2)).",
   "id": "A181472",
   "mentions": [
     "A054336",

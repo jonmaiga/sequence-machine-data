@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Im(Sum_{k=1..n} [k|n]*A008683(k)*(i^k)).",
+  "description": "a(n) = Im(Sum_{d|n} mu(d)*(i^d)).",
   "id": "A374366",
   "mentions": [
     "A000079",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

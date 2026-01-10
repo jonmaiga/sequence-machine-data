@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows, where the n-th row is the vector of n consecutive primes with minimum first element, such that the components of the sum of this vector and of this vector arranged in reverse order are all the same.",
+  "id": "A391880",
+  "mentions": [
+    "A055382",
+    "A175309",
+    "A267028",
+    "A391881"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

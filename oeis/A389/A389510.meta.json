@@ -38,12 +38,12 @@
     "A389531"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

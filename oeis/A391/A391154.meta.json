@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled magmas with n elements whose center contains k elements.",
+  "id": "A391154",
+  "mentions": [
+    "A002489",
+    "A023813",
+    "A386681",
+    "A391094",
+    "A391155"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

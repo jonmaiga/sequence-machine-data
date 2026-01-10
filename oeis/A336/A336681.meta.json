@@ -2,13 +2,16 @@
   "description": "Odd exponential admirable numbers: the odd terms of A336680.",
   "id": "A336681",
   "mentions": [
+    "A001694",
+    "A005117",
     "A005408",
     "A109729",
     "A321147",
     "A329188",
     "A334973",
     "A334975",
-    "A336680"
+    "A336680",
+    "A391284"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,21 @@
+{
+  "description": "Greedy odd Egyptian fraction representation of Pi-3.",
+  "id": "A391015",
+  "mentions": [
+    "A000796",
+    "A001466",
+    "A130738",
+    "A182257",
+    "A224230"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,17 +1,21 @@
 {
-  "description": "Least number k having exactly n prime divisors and the Stern polynomial B(k,x) is irreducible.",
+  "description": "Least number k having exactly n distinct prime divisors and the Stern polynomial B(k,x) is irreducible.",
   "id": "A186886",
   "mentions": [
+    "A001221",
+    "A001222",
+    "A002110",
     "A125184",
-    "A186891"
+    "A186891",
+    "A186892"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

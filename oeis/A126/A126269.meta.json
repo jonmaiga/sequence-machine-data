@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that hcl(n,n) < hcl(n,n-1) where hcl(n,i) is the Huffman code length; see comments.",
+  "description": "Numbers k such that hcl(k,k) < hcl(k,k-1) where hcl(k,i) is the Huffman code length; see comments.",
   "id": "A126269",
   "mentions": [
     "A033484",

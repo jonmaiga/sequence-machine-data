@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of digits of n equals the concatenation of the distinct prime divisors of n.",
+  "description": "Numbers k such that the sum of digits of k equals the concatenation of the distinct prime divisors of k.",
   "id": "A212667",
   "mentions": [
     "A046017"

@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n)*prime(n+1)-prime(n).",
+  "description": "a(n) = prime(n)*prime(n+1) - prime(n).",
   "id": "A037166",
   "mentions": [
     "A000040",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 44,
     "source": "oeis-bfile"
   }
 }

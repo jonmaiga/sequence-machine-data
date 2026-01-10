@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(5*n-k+4,n-k).",
+  "id": "A390593",
+  "mentions": [
+    "A002294",
+    "A371753",
+    "A387756",
+    "A390548",
+    "A390590"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

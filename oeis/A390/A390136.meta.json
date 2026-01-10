@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x * exp(-x/(1+x)) ).",
+  "id": "A390136",
+  "mentions": [
+    "A243954",
+    "A334316",
+    "A361095"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

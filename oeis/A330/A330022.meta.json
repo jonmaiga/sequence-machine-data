@@ -1,8 +1,10 @@
 {
-  "description": "Length of shortest binary string containing, as contiguous blocks, all palindromes of length n.",
+  "description": "Length of shortest binary string containing all palindromes of length n as substrings.",
   "id": "A330022",
   "mentions": [
-    "A057148"
+    "A057148",
+    "A291633",
+    "A390882"
   ],
   "tags": [
     "more",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

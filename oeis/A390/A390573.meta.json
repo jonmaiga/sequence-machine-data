@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 2/(2 - x^2*sinh(x)).",
+  "id": "A390573",
+  "mentions": [
+    "A006154",
+    "A205571",
+    "A389224"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

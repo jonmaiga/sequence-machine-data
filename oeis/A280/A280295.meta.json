@@ -1,8 +1,10 @@
 {
-  "description": "Smallest number with precipice n. Descending by the main diagonal of the pyramid described in A245092, the height difference between the level a(n) (starting from the top) and the level of the next terrace is equal to n.",
+  "description": "Smallest number with middle divisors whose distance to the next number with middle divisors is n.",
   "id": "A280295",
   "mentions": [
     "A000203",
+    "A067742",
+    "A071562",
     "A196020",
     "A235791",
     "A236104",
@@ -17,15 +19,18 @@
     "A277437",
     "A279286",
     "A279385",
-    "A280223"
+    "A280223",
+    "A280919",
+    "A281012",
+    "A390114"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

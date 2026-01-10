@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(914).",
   "id": "A040883",
-  "mentions": [],
+  "mentions": [
+    "A042766",
+    "A042767"
+  ],
   "tags": [
     "cofr",
     "easy",

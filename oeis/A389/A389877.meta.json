@@ -1,0 +1,19 @@
+{
+  "description": "Number of digits in numerators of zeta(2*n)/Pi^(2*n).",
+  "id": "A389877",
+  "mentions": [
+    "A046988",
+    "A055642",
+    "A389876"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

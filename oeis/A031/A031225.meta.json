@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=least k such that base 5 representation of n begins at s(k), where s=A031219.",
+  "description": "a(n) = least k such that base 5 representation of n begins at s(k), where s = A031219.",
   "id": "A031225",
   "mentions": [
     "A031219"

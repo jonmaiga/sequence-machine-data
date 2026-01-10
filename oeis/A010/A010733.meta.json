@@ -1,7 +1,10 @@
 {
   "description": "Period 2: repeat (8,10).",
   "id": "A010733",
-  "mentions": [],
+  "mentions": [
+    "A010710",
+    "A176460"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
+    "size": 72,
     "source": "joeis"
   }
 }

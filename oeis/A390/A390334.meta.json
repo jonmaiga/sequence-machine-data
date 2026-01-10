@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(5*n+k+1,n-k).",
+  "id": "A390334",
+  "mentions": [
+    "A000045",
+    "A002294",
+    "A390332",
+    "A390336",
+    "A390339"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

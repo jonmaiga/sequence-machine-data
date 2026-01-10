@@ -2,7 +2,8 @@
   "description": "Number of ways to place 4 nonattacking queens on a 4 X n board.",
   "id": "A061990",
   "mentions": [
-    "A061989"
+    "A061989",
+    "A269133"
   ],
   "tags": [
     "easy",

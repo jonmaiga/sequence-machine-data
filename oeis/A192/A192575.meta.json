@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,0) = A040000(n), T(n,k)=0 (odd-numbered columns); T(n,k) = (-1)^(k/2)*A110813(n-k/2-1,k/2-1) (even-numbered columns, k>0).",
+  "description": "Triangle T(n,0) = A040000(n), T(n,k) = 0 (odd-numbered columns); T(n,k) = (-1)^(k/2)*A110813(n-k/2-1,k/2-1) (even-numbered columns, k>0).",
   "id": "A192575",
   "mentions": [
     "A000045",

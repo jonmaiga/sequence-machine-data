@@ -1,16 +1,18 @@
 {
-  "description": "Triangle T(n,k) with the coefficient [x^k] of the series (1-x)^(n+1) * sum_{j=0..infinity} *binomial(n+3*j,3*j)*x^j, in row n, column k.",
+  "description": "Triangle T(n,k) with the coefficient [x^k] of the series (1-x)^(n+1) * Sum_{j>=0} binomial(n+3*j,3*j)*x^j, in row n, column k.",
   "id": "A178618",
   "mentions": [
     "A027907",
     "A034839",
     "A086645",
     "A094531",
-    "A111808"
+    "A111808",
+    "A178619"
   ],
   "tags": [
+    "formulas",
     "nonn",
-    "tabl"
+    "tabf"
   ],
   "terms": {
     "offset": 0,

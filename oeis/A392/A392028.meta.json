@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A255933.",
+  "id": "A392028",
+  "mentions": [
+    "A255933",
+    "A392027"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

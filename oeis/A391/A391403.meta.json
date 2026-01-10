@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is k-th entry of the gamma-vector of the n-dimensional cyclohedron, 0 <= k <= floor(n/2).",
+  "id": "A391403",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A098479",
+    "A105868",
+    "A391402"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

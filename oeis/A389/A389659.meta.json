@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x / (1 + x^2 / (1 - x)^3)^2 ).",
+  "id": "A389659",
+  "mentions": [
+    "A187430",
+    "A389658"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

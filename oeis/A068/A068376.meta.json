@@ -2,7 +2,8 @@
   "description": "Engel expansion of log(1+e).",
   "id": "A068376",
   "mentions": [
-    "A006784"
+    "A006784",
+    "A085671"
   ],
   "tags": [
     "easy",

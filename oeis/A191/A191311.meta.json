@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that exactly half of the a such that 0",
+  "description": "Numbers m such that exactly half of the a such that 0",
   "id": "A191311",
   "mentions": [
     "A000010",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of digits in decimal representation of binomial(n,k), 0<=k<=n.",
+  "id": "A391991",
+  "mentions": [
+    "A007318",
+    "A055642",
+    "A101598",
+    "A391992"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

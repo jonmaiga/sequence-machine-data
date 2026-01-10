@@ -1,0 +1,22 @@
+{
+  "description": "Number of solid partitions of n with 7 parts.",
+  "id": "A389774",
+  "mentions": [
+    "A000219",
+    "A000293",
+    "A002836",
+    "A207542",
+    "A379277",
+    "A380893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 35,
+    "source": "joeis"
+  }
+}

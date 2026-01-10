@@ -1,5 +1,5 @@
 {
-  "description": "Number of chiral polyominoes with n cells.",
+  "description": "Number of chiral pairs of polyominoes with n cells.",
   "id": "A030228",
   "mentions": [
     "A000105",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

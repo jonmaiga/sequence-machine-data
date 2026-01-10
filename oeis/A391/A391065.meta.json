@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g/(1 - x^3*g^9), where g = 1+x*g^3 is the g.f. of A001764.",
+  "id": "A391065",
+  "mentions": [
+    "A001764",
+    "A390485",
+    "A391059",
+    "A391061",
+    "A391062",
+    "A391063",
+    "A391064"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

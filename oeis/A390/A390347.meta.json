@@ -1,0 +1,19 @@
+{
+  "description": "Upper (1/2)-midsequence of binomial(n,3) and (-1)*binomial(n,2); see Comments.",
+  "id": "A390347",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A390346"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

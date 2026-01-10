@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of limit sqrt(2’*sqrt(3’*sqrt(4’*sqrt(5’*sqrt(6’*...))))), where n’ is the arithmetic derivative of n.",
+  "description": "Decimal expansion of limit sqrt(2'*sqrt(3'*sqrt(4'*sqrt(5'*sqrt(6'*...))))), where n' is the arithmetic derivative of n.",
   "id": "A190142",
   "mentions": [
     "A003415",

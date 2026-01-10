@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-1)*(4*n - 6) + 4.",
+  "description": "a(n) = 2^(n-1)*(4*n-6) + 4.",
   "id": "A048497",
   "mentions": [
     "A016813",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

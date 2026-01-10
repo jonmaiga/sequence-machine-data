@@ -2,14 +2,18 @@
   "description": "Exponent of 5 (value of i) in n-th number of form 5^i*7^j.",
   "id": "A025652",
   "mentions": [
-    "A003595"
+    "A003595",
+    "A025667",
+    "A112765"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 101,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

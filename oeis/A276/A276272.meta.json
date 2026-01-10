@@ -2,6 +2,7 @@
   "description": "Number of polytets with n cells, distinguishing mirror images.",
   "id": "A276272",
   "mentions": [
+    "A007173",
     "A038168",
     "A119602"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

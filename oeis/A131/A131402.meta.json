@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: 2*A007318 - (A046854 + A065941 - A000012)) as infinite lower triangular matrices.",
+  "description": "Triangle read by rows: 2*A007318 - (A046854 + A065941 - A000012) as infinite lower triangular matrices.",
   "id": "A131402",
   "mentions": [
     "A000012",

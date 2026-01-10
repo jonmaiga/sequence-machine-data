@@ -1,0 +1,26 @@
+{
+  "description": "The difference between the number of exponential divisors and the number of exponential unitary divisors for numbers that are not exponentially squarefree.",
+  "id": "A391989",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A049419",
+    "A130897",
+    "A174961",
+    "A262276",
+    "A278908",
+    "A322791",
+    "A361255",
+    "A391988"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

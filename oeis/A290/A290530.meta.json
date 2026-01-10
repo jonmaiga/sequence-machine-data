@@ -1,5 +1,5 @@
 {
-  "description": "Primes congruent to (11,17) mod 30.",
+  "description": "Primes congruent to {11, 17} mod 30.",
   "id": "A290530",
   "mentions": [
     "A045372",

@@ -1,7 +1,10 @@
 {
   "description": "k is the first integer such that phi(k+n) | sigma(k)+n.",
   "id": "A015810",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
   "tags": [
     "hard",
     "more",

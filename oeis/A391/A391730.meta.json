@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A115873(k) is not of the form 2^e - 1.",
+  "id": "A391730",
+  "mentions": [
+    "A000225",
+    "A036987",
+    "A115873",
+    "A209229",
+    "A391727",
+    "A391731",
+    "A391732"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

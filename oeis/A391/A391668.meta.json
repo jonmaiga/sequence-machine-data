@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals. T(n,k) is the least number coprime to all numbers in [n+1, n+k].",
+  "id": "A391668",
+  "mentions": [
+    "A007918",
+    "A053669",
+    "A053670",
+    "A053671",
+    "A053672",
+    "A053673",
+    "A060264"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

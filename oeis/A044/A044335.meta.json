@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that string 0,3 occurs in the base 10 representation of n but not of n-1.",
+  "description": "Numbers k such that the string 0,3 occurs in the base 10 representation of k but not of k-1.",
   "id": "A044335",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
-    "source": "joeis"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

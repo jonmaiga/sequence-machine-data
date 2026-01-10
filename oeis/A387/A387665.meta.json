@@ -1,0 +1,21 @@
+{
+  "description": "Smallest nonnegative integer coprime to 5 with a constant congruence speed >= n (see A373387 for the definition of \"constant congruence speed\").",
+  "id": "A387665",
+  "mentions": [
+    "A317905",
+    "A337392",
+    "A337833",
+    "A373387",
+    "A389432"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

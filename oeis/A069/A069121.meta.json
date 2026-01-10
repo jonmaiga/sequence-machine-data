@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = n^4*binomial(2n,n).",
+  "description": "a(n) = n^4*binomial(2*n,n).",
   "id": "A069121",
   "mentions": [
-    "A002736"
+    "A002736",
+    "A005429",
+    "A005430"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

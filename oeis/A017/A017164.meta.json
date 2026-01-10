@@ -1,7 +1,10 @@
 {
   "description": "a(n) = (9*n)^4.",
   "id": "A017164",
-  "mentions": [],
+  "mentions": [
+    "A000583",
+    "A016768"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

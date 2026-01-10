@@ -1,13 +1,16 @@
 {
-  "description": "a(n) = Sum_{i=1..n, j=1..n} i! mod j.",
+  "description": "a(n) = Sum_{k=1..n} (k! mod n).",
   "id": "A119360",
-  "mentions": [],
+  "mentions": [
+    "A086330"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 62,
     "source": "oeis-entry"
   }

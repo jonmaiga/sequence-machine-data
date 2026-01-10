@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 2*k can be represented as the sum of four distinct squares of primes.",
+  "id": "A389640",
+  "mentions": [
+    "A001248",
+    "A389638",
+    "A389639"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

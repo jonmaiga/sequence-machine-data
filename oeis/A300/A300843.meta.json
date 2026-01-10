@@ -2,10 +2,15 @@
   "description": "Number of 4-cycles in the n-transposition graph.",
   "id": "A300843",
   "mentions": [
+    "A001113",
+    "A001620",
+    "A091725",
+    "A099285",
     "A296528",
     "A300851"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

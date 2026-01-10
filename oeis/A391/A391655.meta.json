@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the circumradius of a Dürer's solid with unit shorter edge length.",
+  "id": "A391655",
+  "mentions": [
+    "A002163",
+    "A080992",
+    "A238238",
+    "A391653",
+    "A391654",
+    "A391656",
+    "A391657"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

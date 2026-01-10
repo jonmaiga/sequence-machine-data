@@ -1,0 +1,19 @@
+{
+  "description": "Fixed points of A391573.",
+  "id": "A391579",
+  "mentions": [
+    "A003714",
+    "A048720",
+    "A391573",
+    "A391578"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

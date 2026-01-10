@@ -2,6 +2,7 @@
   "description": "a(n) = (7*n)^3.",
   "id": "A016983",
   "mentions": [
+    "A000578",
     "A244725"
   ],
   "tags": [

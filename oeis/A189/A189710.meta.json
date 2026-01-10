@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n such that n'' = n'-1 where n' and n'' are respectively the first and the second arithmetic derivative of n (A003415).",
+  "description": "Numbers m such that m'' = m'-1 where m' and m'' are respectively the first and the second arithmetic derivative of m (A003415).",
   "id": "A189710",
   "mentions": [
     "A003415",
     "A007850",
     "A054377",
-    "A189639"
+    "A189639",
+    "A189803",
+    "A387956"
   ],
   "tags": [
     "nonn"

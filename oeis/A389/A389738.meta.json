@@ -1,0 +1,33 @@
+{
+  "description": "Standard composition numbers of compositions without all distinct 0-prepended first differences.",
+  "id": "A389738",
+  "mentions": [
+    "A000120",
+    "A011782",
+    "A066099",
+    "A070939",
+    "A124767",
+    "A175342",
+    "A325367",
+    "A333381",
+    "A358133",
+    "A389597",
+    "A389598",
+    "A389601",
+    "A389731",
+    "A389733",
+    "A389734",
+    "A389736",
+    "A389742",
+    "A389743",
+    "A389744"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

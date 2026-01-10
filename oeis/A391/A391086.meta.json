@@ -1,0 +1,20 @@
+{
+  "description": "Primitives exponential abundant numbers that are not primitives exponential unitary abundant.",
+  "id": "A391086",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A209061",
+    "A384418",
+    "A391085"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

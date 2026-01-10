@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer compositions of n whose parts are not in arithmetic progression.",
+  "id": "A389741",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A011782",
+    "A049988",
+    "A051336",
+    "A059966",
+    "A066099",
+    "A070211",
+    "A124767",
+    "A167606",
+    "A175342",
+    "A325328",
+    "A325545",
+    "A325546",
+    "A325557",
+    "A332834",
+    "A389597",
+    "A389598",
+    "A389731",
+    "A389735",
+    "A389736",
+    "A389742",
+    "A389743",
+    "A389811",
+    "A389812"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

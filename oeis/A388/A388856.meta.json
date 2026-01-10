@@ -1,0 +1,19 @@
+{
+  "description": "Increasing partition array based on the sequence (sin(n)); see Comments.",
+  "id": "A388856",
+  "mentions": [
+    "A000027",
+    "A046955",
+    "A385573",
+    "A388853"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

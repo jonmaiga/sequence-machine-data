@@ -1,5 +1,5 @@
 {
-  "description": "Number for which the number of distinct base 10 digits is 8.",
+  "description": "Numbers for which the number of distinct base 10 digits is 8.",
   "id": "A219743",
   "mentions": [
     "A010785",

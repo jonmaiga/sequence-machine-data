@@ -1,5 +1,5 @@
 {
-  "description": "Triangle: T(n,k)=b(n)/(b(k)*b(n-k)) where b is A048803.",
+  "description": "Triangle: T(n,k) = b(n)/(b(k)*b(n-k)) where b is A048803.",
   "id": "A048804",
   "mentions": [
     "A048803"

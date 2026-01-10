@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which A222084(n)= A222084(A222085(n)).",
+  "description": "Numbers n for which A222084(n) = A222084(A222085(n)).",
   "id": "A222087",
   "mentions": [
     "A000005",

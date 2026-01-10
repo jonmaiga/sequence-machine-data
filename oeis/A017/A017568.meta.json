@@ -1,5 +1,5 @@
 {
-  "description": "(12n+3)^12.",
+  "description": "a(n) = (12*n + 3)^12.",
   "id": "A017568",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
-    "source": "joeis"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

@@ -3,18 +3,20 @@
   "id": "A139227",
   "mentions": [
     "A000045",
+    "A027751",
     "A133021",
     "A139044",
     "A139045"
   ],
   "tags": [
     "easy",
+    "look",
     "nonn",
-    "tabl"
+    "tabf"
   ],
   "terms": {
     "offset": 3,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

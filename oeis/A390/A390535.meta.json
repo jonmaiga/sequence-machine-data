@@ -1,0 +1,23 @@
+{
+  "description": "Smallest integer > 1 whose radix-A013929(n) congruence speed never stabilizes.",
+  "id": "A390535",
+  "mentions": [
+    "A013929",
+    "A317905",
+    "A373387",
+    "A379906",
+    "A380031",
+    "A390597",
+    "A390598"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

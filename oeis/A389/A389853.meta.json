@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that both 2^k-1 and 2^k+1 are sphenic.",
+  "id": "A389853",
+  "mentions": [
+    "A000051",
+    "A000225",
+    "A007304",
+    "A092558",
+    "A262978",
+    "A294729",
+    "A389854"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

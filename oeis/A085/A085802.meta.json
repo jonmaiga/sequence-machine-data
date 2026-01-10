@@ -2,7 +2,8 @@
   "description": "Numbers whose sum of digits is a semiprime.",
   "id": "A085802",
   "mentions": [
-    "A001358"
+    "A001358",
+    "A007953"
   ],
   "tags": [
     "base",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

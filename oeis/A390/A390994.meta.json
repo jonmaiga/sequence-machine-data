@@ -1,0 +1,21 @@
+{
+  "description": "Number of one-sided polyaboloes (or polytans) with n cells, where the orientation of two triangles sharing a hypotenuse (making up a square) matters.",
+  "id": "A390994",
+  "mentions": [
+    "A151519",
+    "A390993",
+    "A390995",
+    "A390997",
+    "A391000"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

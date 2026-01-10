@@ -1,8 +1,10 @@
 {
-  "description": "Primes of the form n^2+n+1 or n^2+n+9.",
+  "description": "Primes of the form k^2+k+1 or k^2+k+9.",
   "id": "A173295",
   "mentions": [
     "A002378",
+    "A002383",
+    "A027758",
     "A173288"
   ],
   "tags": [
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

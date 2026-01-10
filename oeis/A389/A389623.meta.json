@@ -1,0 +1,19 @@
+{
+  "description": "Perrin numbers (A001608) which are the product of two Fibonacci numbers.",
+  "id": "A389623",
+  "mentions": [
+    "A001608",
+    "A389621",
+    "A389622"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

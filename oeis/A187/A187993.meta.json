@@ -2,15 +2,15 @@
   "description": "Number of nondecreasing arrangements of n numbers x(i) in -(2n-2)..(2n-2) with the sum of sign(x(i))*x(i)^2 zero.",
   "id": "A187993",
   "mentions": [
-    "A188002"
+    "A188002",
+    "A379451"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

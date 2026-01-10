@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the greatest prime that starts a sequence of two or more consecutive primes whose sum is A050936(n).",
+  "id": "A391433",
+  "mentions": [
+    "A050936",
+    "A084143",
+    "A390497"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

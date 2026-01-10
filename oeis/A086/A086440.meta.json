@@ -5,12 +5,14 @@
     "A086439"
   ],
   "tags": [
+    "fini",
     "frac",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

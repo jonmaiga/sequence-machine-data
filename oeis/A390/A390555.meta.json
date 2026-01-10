@@ -1,0 +1,29 @@
+{
+  "description": "The number of exponential divisors of n^2.",
+  "id": "A390555",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A048691",
+    "A049419",
+    "A055205",
+    "A099777",
+    "A252505",
+    "A275367",
+    "A322327",
+    "A322791",
+    "A365173",
+    "A390556"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

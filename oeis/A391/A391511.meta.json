@@ -1,0 +1,28 @@
+{
+  "description": "Number of permutations p of [n] satisfying Sum_{i=1..n} (p(i)-i)^2 = n*(n+1)/2.",
+  "id": "A391511",
+  "mentions": [
+    "A000217",
+    "A014601",
+    "A042963",
+    "A056876",
+    "A074378",
+    "A126972",
+    "A175929",
+    "A179264",
+    "A179266",
+    "A180111",
+    "A390749",
+    "A391664"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

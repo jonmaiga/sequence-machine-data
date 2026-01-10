@@ -1,0 +1,21 @@
+{
+  "description": "Increasing partition array based on the tails of the Champernowne constant (A033307); see Comments.",
+  "id": "A389574",
+  "mentions": [
+    "A033307",
+    "A388853",
+    "A389575",
+    "A389576",
+    "A389577"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

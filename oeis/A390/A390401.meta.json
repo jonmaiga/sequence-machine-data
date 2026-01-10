@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the real solution of sqrt(Pi)*erf(sqrt(-log(h))) - 2*h*sqrt(-log(h)) = sqrt(Pi)/2.",
+  "id": "A390401",
+  "mentions": [
+    "A002161",
+    "A019704",
+    "A086751",
+    "A391400"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

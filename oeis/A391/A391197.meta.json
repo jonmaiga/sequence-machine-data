@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed polyominoes with perimeter 2n.",
+  "id": "A391197",
+  "mentions": [
+    "A001168",
+    "A002931",
+    "A057730",
+    "A088702",
+    "A216820",
+    "A266549"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

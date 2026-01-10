@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of log(e-1).",
+  "id": "A390735",
+  "mentions": [
+    "A001113",
+    "A027641",
+    "A027642",
+    "A085671",
+    "A091131"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

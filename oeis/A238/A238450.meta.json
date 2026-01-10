@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of k’s in all partitions of n into an odd number of distinct parts.",
+  "description": "Triangle read by rows: T(n,k) is the number of k's in all partitions of n into an odd number of distinct parts.",
   "id": "A238450",
   "mentions": [
     "A015716",

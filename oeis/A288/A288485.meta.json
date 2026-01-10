@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (E_4(q) - 28*E_4(q^2) + 63*E_4(q^3) - 36*E(q^6)) / 240.",
+  "description": "Expansion of (E_4(q) - 28*E_4(q^2) + 63*E_4(q^3) - 36*E_4(q^6)) / 240.",
   "id": "A288485",
   "mentions": [
     "A001158",

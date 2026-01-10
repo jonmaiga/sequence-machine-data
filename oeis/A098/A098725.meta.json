@@ -1,10 +1,13 @@
 {
-  "description": "a(4n) = 0, a(2n+1) = 1, a(4n+2) = a(n+1).",
+  "description": "a(4*n) = 0, a(2*n+1) = 1, a(4*n+2) = a(n+1).",
   "id": "A098725",
   "mentions": [
-    "A072894"
+    "A072894",
+    "A073059"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k whose digits d_1...d_m satisfy k = Sum_{i=1..m} i * d_i^i.",
+  "id": "A389243",
+  "mentions": [
+    "A009996"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

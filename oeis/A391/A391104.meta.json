@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g/(1 - x^2*g^6), where g = 1+x*g^4 is the g.f. of A002293.",
+  "id": "A391104",
+  "mentions": [
+    "A002293",
+    "A109963",
+    "A390280",
+    "A390500",
+    "A391084",
+    "A391097",
+    "A391099"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

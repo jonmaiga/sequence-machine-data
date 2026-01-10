@@ -1,0 +1,20 @@
+{
+  "description": "Simple continued fraction expansion of (Pi - e*log(Pi))/(log(Pi) - 1).",
+  "id": "A391920",
+  "mentions": [
+    "A001203",
+    "A003417",
+    "A259671",
+    "A380965"
+  ],
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

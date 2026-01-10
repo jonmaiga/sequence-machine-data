@@ -1,5 +1,5 @@
 {
-  "description": "For the Collatz (3x+1) iteration starting at n, number of integers k such that T(n,k) = T(n-1,k) +1 where T(n,k) is the k-th number of the trajectory (n is not counted).",
+  "description": "For the Collatz (3x+1) iteration starting at n, number of integers k such that T(n,k) = T(n-1,k) + 1 where T(n,k) is the k-th number of the trajectory (n is not counted).",
   "id": "A213185",
   "mentions": [
     "A006577",

@@ -1,13 +1,17 @@
 {
   "description": "a(n) = 100*log_10(n) rounded to the nearest integer.",
   "id": "A004223",
-  "mentions": [],
+  "mentions": [
+    "A002392",
+    "A004222",
+    "A004224"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
-    "source": "joeis"
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

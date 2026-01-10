@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + omega(k)^3.",
+  "id": "A390252",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A001615",
+    "A387953",
+    "A387999",
+    "A389478",
+    "A390251",
+    "A390253"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

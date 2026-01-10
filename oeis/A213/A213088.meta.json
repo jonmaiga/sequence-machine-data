@@ -1,7 +1,13 @@
 {
   "description": "The Manhattan distance to the origin while traversing the first quadrant in a taxicab geometry.",
   "id": "A213088",
-  "mentions": [],
+  "mentions": [
+    "A214526",
+    "A319289",
+    "A319290",
+    "A319514",
+    "A389352"
+  ],
   "tags": [
     "nonn",
     "walk"
@@ -9,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

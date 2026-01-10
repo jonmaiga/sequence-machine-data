@@ -1,14 +1,24 @@
 {
-  "description": "Related to number of mesh patterns of length 2 that avoid the pattern 321.",
+  "description": "a(n) is the number of permutations of length n that avoid the pattern 321 and the mesh pattern (12, 165) or the same sequence for the mesh patterns (12, 167), (12, 225), (12, 233), (12, 270), (12, 302), (12, 330), (12, 458).",
   "id": "A289589",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A135336",
+    "A280891",
+    "A289446",
+    "A289453",
+    "A289587",
+    "A289616",
+    "A289652",
+    "A289654"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 11,
+    "offset": 0,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

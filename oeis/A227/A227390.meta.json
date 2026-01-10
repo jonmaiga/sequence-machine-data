@@ -1,5 +1,5 @@
 {
-  "description": "Minimum value of k such that sum_{i=k..k+n-1} i = sum_{i=k..k+n-1} i’, where i’ is the arithmetic derivative of i.",
+  "description": "Minimum value of k such that Sum_{i=k..k+n-1} i = Sum_{i=k..k+n-1} i', where i' is the arithmetic derivative of i.",
   "id": "A227390",
   "mentions": [
     "A003415",

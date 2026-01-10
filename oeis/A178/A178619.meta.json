@@ -1,17 +1,19 @@
 {
-  "description": "Triangle T(n,k) with the coefficient of [x^k] of the series (1-x)^(n+1)* sum_{j>=0} binomial(n + 4*j, 4*j)*x^j in row n, column k.",
+  "description": "Triangle T(n,k) with the coefficient of [x^k] of the series (1-x)^(n+1)* Sum_{j>=0} binomial(n + 4*j, 4*j)*x^j in row n, column k.",
   "id": "A178619",
   "mentions": [
     "A008287",
+    "A034839",
     "A178618"
   ],
   "tags": [
+    "formulas",
     "nonn",
-    "tabl"
+    "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 53,
+    "size": 56,
     "source": "oeis-entry"
   }
 }

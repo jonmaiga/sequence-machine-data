@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n not forming an arithmetic progression with offset 0.",
+  "id": "A389920",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A007862",
+    "A049988",
+    "A051336",
+    "A070211",
+    "A175342",
+    "A325324",
+    "A325325",
+    "A325327",
+    "A325328",
+    "A325545",
+    "A325546",
+    "A325557",
+    "A389731",
+    "A389735",
+    "A389736",
+    "A389741",
+    "A389742",
+    "A389743",
+    "A389811",
+    "A389812",
+    "A389919"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

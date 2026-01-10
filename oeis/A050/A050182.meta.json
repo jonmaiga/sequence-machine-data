@@ -2,6 +2,8 @@
   "description": "a(n) = T(2*n+4, n), array T as in A051168 (a count of Lyndon words).",
   "id": "A050182",
   "mentions": [
+    "A000207",
+    "A003446",
     "A051168"
   ],
   "tags": [

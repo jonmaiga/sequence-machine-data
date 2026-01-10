@@ -9,14 +9,15 @@
     "A138729",
     "A138730",
     "A138732",
-    "A138733"
+    "A138733",
+    "A245333"
   ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 100,
     "source": "oeis-entry"
   }

@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least integer k such that there exist n distinct integers b_1, ..., b_n with n < b_i < n+k and b_i is divisible by i for 1 <= i <= n.",
+  "id": "A390246",
+  "mentions": [],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

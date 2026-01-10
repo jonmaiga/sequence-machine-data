@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that 13*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391848",
+  "mentions": [
+    "A048718",
+    "A048720",
+    "A115772",
+    "A115805",
+    "A280500",
+    "A391585",
+    "A391740",
+    "A391742",
+    "A391744",
+    "A391846",
+    "A391849",
+    "A391850",
+    "A391925"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

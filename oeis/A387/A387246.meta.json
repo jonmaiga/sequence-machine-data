@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k + sopfr(k) is a fourth power.",
+  "id": "A387246",
+  "mentions": [
+    "A075254",
+    "A386246",
+    "A389862"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

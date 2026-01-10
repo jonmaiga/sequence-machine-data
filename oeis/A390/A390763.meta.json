@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of 5 element sets of distinct integer-sided trapezoids each of area less than 3*n^2 whose base angles are 60 degrees that fill a regular hexagon of side n units.",
+  "id": "A390763",
+  "mentions": [
+    "A389392",
+    "A390739"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

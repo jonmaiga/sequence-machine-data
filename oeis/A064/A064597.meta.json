@@ -1,5 +1,5 @@
 {
-  "description": "Nonunitary abundant numbers: the sum of the nonunitary divisors of n is larger than n; i.e., sigma(n) - usigma(n) > n.",
+  "description": "Nonunitary abundant numbers: the sum of the nonunitary divisors of k is larger than k; i.e., sigma(k) - usigma(k) > k.",
   "id": "A064597",
   "mentions": [
     "A048146",

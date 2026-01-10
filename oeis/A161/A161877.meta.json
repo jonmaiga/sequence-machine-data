@@ -6,6 +6,7 @@
     "A161409"
   ],
   "tags": [
+    "easy",
     "fini",
     "formulas",
     "full",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 27,
     "source": "joeis"
   }
 }

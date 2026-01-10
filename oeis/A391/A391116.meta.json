@@ -1,0 +1,17 @@
+{
+  "description": "Prime-indexed primes that are the average of the preceding and following prime-indexed primes.",
+  "id": "A391116",
+  "mentions": [
+    "A006450",
+    "A006562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

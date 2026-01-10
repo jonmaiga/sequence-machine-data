@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n^4 - 4*(n^3-n)/3.",
+  "id": "A389090",
+  "mentions": [
+    "A014820",
+    "A102860"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

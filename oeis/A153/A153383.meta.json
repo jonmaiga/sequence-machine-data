@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 12*n+1 is not prime.",
+  "description": "Numbers k such that 12*k+1 is not prime.",
   "id": "A153383",
   "mentions": [
     "A110801"

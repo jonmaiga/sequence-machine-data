@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k * 3^(n-k) * binomial(k+6,6) * binomial(2*k,2*(n-k)).",
+  "id": "A391779",
+  "mentions": [
+    "A108486",
+    "A382473",
+    "A390849",
+    "A391723"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

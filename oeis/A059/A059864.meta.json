@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{i=4..n} (prime(i)-5), where prime(i) is i-th prime.",
+  "description": "a(n) = Product_{i=4..n} (prime(i) - 5).",
   "id": "A059864",
   "mentions": [
     "A000847",

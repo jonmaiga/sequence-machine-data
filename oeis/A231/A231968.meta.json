@@ -4,16 +4,18 @@
   "mentions": [
     "A000040",
     "A005117",
+    "A023272",
     "A231966",
     "A231967",
     "A231969"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the index where n appears for first time in the list of first differences of the numbers with middle divisors.",
+  "id": "A390114",
+  "mentions": [
+    "A067742",
+    "A071562",
+    "A237593",
+    "A245092",
+    "A276112",
+    "A277437",
+    "A280223",
+    "A280295",
+    "A280919",
+    "A281012"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

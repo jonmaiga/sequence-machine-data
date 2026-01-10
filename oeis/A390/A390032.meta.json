@@ -1,0 +1,19 @@
+{
+  "description": "Number of perfect overpartitions of 2*n-1: A390030(2*n-1).",
+  "id": "A390032",
+  "mentions": [
+    "A007814",
+    "A352063",
+    "A390030",
+    "A390031"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

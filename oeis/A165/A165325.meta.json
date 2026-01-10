@@ -1,8 +1,12 @@
 {
   "description": "Triangle |S_{n,N}| read by rows, the number of permutations of [1..n] that are realized by a shift on N symbols.",
   "id": "A165325",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A059413"
+  ],
   "tags": [
+    "more",
     "nonn",
     "tabf"
   ],

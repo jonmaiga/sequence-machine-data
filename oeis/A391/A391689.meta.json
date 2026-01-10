@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^(n-k) * binomial(k+2,2) * binomial(k,n-k)^2.",
+  "id": "A391689",
+  "mentions": [
+    "A391676",
+    "A391688"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

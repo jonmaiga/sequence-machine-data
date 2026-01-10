@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g^2/(1 + x^4*g^4), where g = 1+x*g^3 is the g.f. of A001764.",
+  "id": "A391303",
+  "mentions": [
+    "A001764",
+    "A098746"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

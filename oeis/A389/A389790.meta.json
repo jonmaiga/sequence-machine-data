@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write 2*n as p + p' + q + q', where p and q are primes with p <= q, and r' is the first prime greater than r.",
+  "id": "A389790",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A002375",
+    "A389789"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "Integers n such that n^2 + 3 is the sum of 4 but no fewer nonzero squares.",
+  "description": "Integers m such that m^2 + 3 is the sum of 4 but no fewer nonzero squares.",
   "id": "A273324",
   "mentions": [
     "A000196",
     "A004215",
+    "A057079",
     "A117950",
     "A278491",
     "A278536"

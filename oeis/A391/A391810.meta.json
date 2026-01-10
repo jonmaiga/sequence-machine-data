@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle, read by rows, where row n lists the coefficients of nonpositive powers of x in the doubly infinite series Sum_{k=-oo..oo} x^k * (1 - x^k)^(n+k) for n >= 1.",
+  "id": "A391810",
+  "mentions": [
+    "A001045",
+    "A391811"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

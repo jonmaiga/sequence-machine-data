@@ -1,16 +1,21 @@
 {
-  "description": "A symmetrical triangle sequence:q=3;c(n,q)=Product[(1 - q^i), {i, 1, n}]:t(n,m)=1 + Binomial[n, m]^2 + (c(n, q)/(c(m, q)*c(n - m, q)))^2 - 2*Binomial[n, m]*c(n, q)/(c(m, q)*c(n - m, q)).",
+  "description": "Triangle read by rows: T(n,k) = 1 + (A022167(n,k) - binomial(n,k))^2.",
   "id": "A174919",
-  "mentions": [],
+  "mentions": [
+    "A007318",
+    "A022167",
+    "A174918",
+    "A174921",
+    "A176421"
+  ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

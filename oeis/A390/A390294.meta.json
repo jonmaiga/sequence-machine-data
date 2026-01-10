@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k with a prime factor other than 2 or 5 such that digsum(k) = digsum(repeating period of 1/k).",
+  "id": "A390294",
+  "mentions": [
+    "A003592",
+    "A007732",
+    "A007953",
+    "A070276",
+    "A204324",
+    "A386682"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

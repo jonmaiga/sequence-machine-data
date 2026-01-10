@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of closed binary operations on a set of n labeled elements with a closed center of size k.",
+  "id": "A386681",
+  "mentions": [
+    "A023813",
+    "A391093",
+    "A391094",
+    "A391154",
+    "A391161"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

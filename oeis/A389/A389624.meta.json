@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of regions that can be formed in the plane by drawing n lollipop shapes (of any size).",
+  "id": "A389624",
+  "mentions": [
+    "A000124",
+    "A386480",
+    "A386486",
+    "A389608"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

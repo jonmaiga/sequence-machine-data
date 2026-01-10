@@ -1,0 +1,18 @@
+{
+  "description": "Product of the first n terms of the paperfolding sequence A034947, or the Kronecker symbol (-1|n!).",
+  "id": "A387219",
+  "mentions": [
+    "A034947",
+    "A255070"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

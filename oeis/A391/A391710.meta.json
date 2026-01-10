@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} lambda(k)/Fibonacci(2*k), where lambda is the Liouville lambda function (A008836).",
+  "id": "A391710",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A008836",
+    "A132338",
+    "A391711",
+    "A391712"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

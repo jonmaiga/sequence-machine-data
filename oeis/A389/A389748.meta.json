@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} zeta(k)/(k*(k+1)*2^k).",
+  "id": "A389748",
+  "mentions": [
+    "A001620",
+    "A002162",
+    "A053510",
+    "A074962",
+    "A225746",
+    "A389746",
+    "A389747"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

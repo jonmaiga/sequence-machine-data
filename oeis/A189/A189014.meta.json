@@ -1,9 +1,9 @@
 {
-  "description": "Zero-one sequence based on pentagonal numbers: a(A000325(k))=a(k); a(A183217(k))=1-a(k); a(1)=0.",
+  "description": "Zero-one sequence based on pentagonal numbers: a(A000326(k))=a(k); a(A183217(k))=1-a(k); a(1)=0.",
   "id": "A189014",
   "mentions": [
     "A000217",
-    "A000325",
+    "A000326",
     "A014132",
     "A183217",
     "A188967",

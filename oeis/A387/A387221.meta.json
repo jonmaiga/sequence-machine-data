@@ -1,0 +1,18 @@
+{
+  "description": "Even terms in A002181.",
+  "id": "A387221",
+  "mentions": [
+    "A000010",
+    "A002181",
+    "A002202",
+    "A005843"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

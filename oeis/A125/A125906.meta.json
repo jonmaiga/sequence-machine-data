@@ -2,6 +2,7 @@
   "description": "Riordan array (1/(1 + 5*x + x^2), x/(1 + 5*x + x^2))^(-1); inverse of Riordan array A123967.",
   "id": "A125906",
   "mentions": [
+    "A007318",
     "A038622",
     "A039598",
     "A039599",

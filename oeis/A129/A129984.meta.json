@@ -2,14 +2,18 @@
   "description": "First differences of A129983.",
   "id": "A129984",
   "mentions": [
-    "A129983"
+    "A129983",
+    "A129986",
+    "A129987",
+    "A129988"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
-    "source": "joeis"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

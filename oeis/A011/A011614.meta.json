@@ -3,12 +3,13 @@
   "id": "A011614",
   "mentions": [],
   "tags": [
+    "easy",
     "mult",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 81,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

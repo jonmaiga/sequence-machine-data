@@ -1,13 +1,17 @@
 {
-  "description": "n-3, n-2, n-1, n+1, n+2 and n+3 are squarefree.",
+  "description": "Numbers k such that k-3, k-2, k-1, k+1, k+2 and k+3 are squarefree.",
   "id": "A068088",
   "mentions": [
     "A007675",
     "A039833",
-    "A283628"
+    "A053797",
+    "A283628",
+    "A283668",
+    "A390138"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

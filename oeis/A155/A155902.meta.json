@@ -1,7 +1,9 @@
 {
   "description": "Arises in Connell's game, a variation of Wythoff's Nim game.",
   "id": "A155902",
-  "mentions": [],
+  "mentions": [
+    "A059549"
+  ],
   "tags": [
     "easy",
     "formulas",

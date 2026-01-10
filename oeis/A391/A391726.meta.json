@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by descending antidiagonals: find the k-th odd number i that satisfies i*n = A048720(i,m) for some m, then A(n, k) = m. Here A048720 is carryless base-2 multiplication.",
+  "id": "A391726",
+  "mentions": [
+    "A000012",
+    "A005408",
+    "A048720",
+    "A280500",
+    "A391571",
+    "A391583",
+    "A391725",
+    "A391736"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

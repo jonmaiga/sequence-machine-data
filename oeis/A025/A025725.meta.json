@@ -1,16 +1,20 @@
 {
-  "description": "Index of 7^n within sequence of numbers of form 7^i*8^j.",
+  "description": "Index of 7^n within the sequence of the numbers of the form 7^i*8^j.",
   "id": "A025725",
   "mentions": [
+    "A000420",
     "A025675",
-    "A036566"
+    "A036566",
+    "A153618"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

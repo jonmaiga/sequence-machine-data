@@ -1,0 +1,20 @@
+{
+  "description": "Primes == 1 (mod 16), for which the octonic Gauss sum is greater than the quartic one.",
+  "id": "A390758",
+  "mentions": [
+    "A094407",
+    "A155942",
+    "A387776",
+    "A390759",
+    "A391135",
+    "A391136"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

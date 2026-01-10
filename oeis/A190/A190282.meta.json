@@ -8,10 +8,11 @@
   ],
   "tags": [
     "cofr",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 91,
     "source": "oeis-bfile"
   }

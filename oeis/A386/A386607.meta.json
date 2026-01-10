@@ -1,0 +1,19 @@
+{
+  "description": "Smallest exponent b >= 2 such that the absolute value of the alternating digit sum of n^b = n or 0 if no such b exists.",
+  "id": "A386607",
+  "mentions": [
+    "A225693",
+    "A259379",
+    "A260193"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

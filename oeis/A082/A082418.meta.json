@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that P(n) > P(n+1) < P(n+2), where P(n) = largest prime factor of n (A006530).",
+  "description": "Numbers k such that P(k) > P(k+1) < P(k+2), where P(n) = largest prime factor of n (A006530).",
   "id": "A082418",
   "mentions": [
     "A006530",

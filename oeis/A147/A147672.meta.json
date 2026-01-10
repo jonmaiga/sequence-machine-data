@@ -1,17 +1,18 @@
 {
-  "description": "a(n)=a(n-2)+2^(n-1)+5 for n>3, a(0..3)=(0,1,2,7).",
+  "description": "a(n) = a(n-2) + 2^(n-1) + 5 for n>3, a(0..3) = (0,1,2,7).",
   "id": "A147672",
   "mentions": [
     "A000079",
     "A147673"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

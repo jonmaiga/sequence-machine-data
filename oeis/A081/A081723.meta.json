@@ -1,5 +1,5 @@
 {
-  "description": "Let b(n)=floor((3/2)^n), c(n)=floor((4/3)^n); sequence gives values of n such that b(n+1)/b(n)=3/2 and c(n+1)/c(n)=4/3.",
+  "description": "Let b(n)=floor((3/2)^n), c(n)=floor((4/3)^n); sequence gives values of k such that b(k+1) / b(k) = 3/2 and c(k+1) / c(k) = 4/3.",
   "id": "A081723",
   "mentions": [
     "A065554",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

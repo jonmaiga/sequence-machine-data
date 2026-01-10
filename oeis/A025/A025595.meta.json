@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-move king paths on 8x8 board from given corner to any square.",
+  "description": "Number of n-move king paths on 8 X 8 board from given corner to any square.",
   "id": "A025595",
   "mentions": [],
   "tags": [

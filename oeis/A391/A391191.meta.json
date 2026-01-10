@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of free polyaboloes (or polytans) with n cells of which 2*k share a hypotenuse in pairs (making up k squares), 0 <= k <= n/2.",
+  "id": "A391191",
+  "mentions": [
+    "A000105",
+    "A006074",
+    "A390885",
+    "A391192",
+    "A391193"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

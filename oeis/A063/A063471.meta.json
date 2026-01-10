@@ -1,14 +1,17 @@
 {
   "description": "Continued fraction for sqrt(2) / zeta(2).",
   "id": "A063471",
-  "mentions": [],
+  "mentions": [
+    "A002193",
+    "A013661"
+  ],
   "tags": [
     "cofr",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 101,
     "source": "oeis-bfile"
   }

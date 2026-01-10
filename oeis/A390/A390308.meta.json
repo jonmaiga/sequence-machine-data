@@ -1,0 +1,43 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the first sums minus 1 of the 1-prepended prime indices of n.",
+  "id": "A390308",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A055396",
+    "A056239",
+    "A093641",
+    "A112798",
+    "A174090",
+    "A243055",
+    "A243056",
+    "A253566",
+    "A287352",
+    "A325328",
+    "A325351",
+    "A325389",
+    "A325390",
+    "A355524",
+    "A355531",
+    "A355533",
+    "A355534",
+    "A355536",
+    "A358169",
+    "A387181",
+    "A390307",
+    "A390309",
+    "A390361",
+    "A390363",
+    "A390364",
+    "A390365"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

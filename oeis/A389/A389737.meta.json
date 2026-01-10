@@ -1,0 +1,34 @@
+{
+  "description": "Number of subsets of {1..n} forming a finite arithmetic progression.",
+  "id": "A389737",
+  "mentions": [
+    "A000740",
+    "A007862",
+    "A008965",
+    "A011782",
+    "A049980",
+    "A049988",
+    "A051336",
+    "A054519",
+    "A175342",
+    "A325328",
+    "A325557",
+    "A364465",
+    "A389731",
+    "A389732",
+    "A389735",
+    "A389741",
+    "A389811",
+    "A389812",
+    "A389813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

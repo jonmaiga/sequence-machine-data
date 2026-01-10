@@ -2,17 +2,22 @@
   "description": "a(n) = Sum_{d|n} d * rad(d).",
   "id": "A345261",
   "mentions": [
+    "A002117",
     "A007947",
+    "A013661",
+    "A065464",
     "A066872",
     "A345263"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

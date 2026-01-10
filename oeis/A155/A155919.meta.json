@@ -1,14 +1,17 @@
 {
   "description": "Number of squared hypotenuses mod n in three dimensions.",
   "id": "A155919",
-  "mentions": [],
+  "mentions": [
+    "A171231"
+  ],
   "tags": [
+    "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

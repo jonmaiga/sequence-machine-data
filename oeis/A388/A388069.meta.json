@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the asymptotic density of the integers k such that k and k+1 are both numbers whose number of divisors is a power of 2 (A372690).",
+  "id": "A388069",
+  "mentions": [
+    "A065474",
+    "A327839",
+    "A372690"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

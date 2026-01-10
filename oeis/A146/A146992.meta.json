@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that there exists a group of order n in which some element of the commutator subgroup G' is not a commutator [x,y].",
+  "description": "Numbers k with the property that there exists a group of order k in which some element of the commutator subgroup G' is not a commutator [x,y].",
   "id": "A146992",
   "mentions": [],
   "tags": [

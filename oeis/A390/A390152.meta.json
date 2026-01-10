@@ -1,0 +1,16 @@
+{
+  "description": "Numerator of average duration of the game \"Tug of Luck\" played with n coins.",
+  "id": "A390152",
+  "mentions": [
+    "A390153"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

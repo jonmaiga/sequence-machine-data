@@ -1,10 +1,11 @@
 {
-  "description": "Number of edges formed after n points have been placed in general position on each edge of the triangle in A365929.",
+  "description": "Total number of edges formed after n points have been placed in general position on each edge of a triangle (as in A365929).",
   "id": "A366932",
   "mentions": [
     "A365929",
     "A366478",
-    "A367015"
+    "A367015",
+    "A389626"
   ],
   "tags": [
     "formulas",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

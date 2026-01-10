@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect overpartitions of n.",
+  "id": "A390030",
+  "mentions": [
+    "A002033",
+    "A007814",
+    "A015128",
+    "A074206",
+    "A330773"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

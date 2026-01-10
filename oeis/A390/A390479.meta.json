@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} (5*k+1) * binomial(2*n-3*k+1,n-4*k)/(2*n-3*k+1).",
+  "id": "A390479",
+  "mentions": [
+    "A000108",
+    "A081696",
+    "A390478",
+    "A390480",
+    "A390481"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

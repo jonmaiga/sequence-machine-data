@@ -1,0 +1,20 @@
+{
+  "description": "Manhattan distance to the origin of point n while traversing the half plane by integer points in rectangular layers starting from n=1 at the origin.",
+  "id": "A389352",
+  "mentions": [
+    "A213088",
+    "A214526",
+    "A389648",
+    "A389649"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

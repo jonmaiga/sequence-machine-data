@@ -2,18 +2,14 @@
   "description": "Points of nonzero curvature in the sequence of squarefree numbers (A005117).",
   "id": "A376592",
   "mentions": [
-    "A000040",
-    "A001223",
     "A005117",
     "A007674",
     "A013929",
     "A036263",
-    "A050320",
     "A053797",
     "A053806",
     "A061398",
     "A072284",
-    "A073576",
     "A076259",
     "A078147",
     "A112925",
@@ -37,6 +33,7 @@
     "A376655"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

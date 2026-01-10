@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 10^(2n+1) - 4*10^n - 1.",
+  "description": "a(n) = 10^(2*n+1) - 4*10^n - 1.",
   "id": "A332195",
   "mentions": [
     "A002113",

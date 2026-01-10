@@ -1,0 +1,20 @@
+{
+  "description": "Number of positive integers k with an arithmetic mean of divisors equal to n.",
+  "id": "A391368",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A157846",
+    "A157847",
+    "A162538"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

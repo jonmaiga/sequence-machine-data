@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k = p_i^e_i * p_j^e_j such that i/e_i + j/e_j = 1 for e_i, e_j >= 1, p_i, p_j distinct prime numbers.",
+  "id": "A387978",
+  "mentions": [
+    "A000040",
+    "A007774"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -3,10 +3,12 @@
   "id": "A115979",
   "mentions": [
     "A033716",
+    "A093766",
     "A096936",
     "A115978"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"

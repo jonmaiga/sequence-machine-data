@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of n such that within in each maximal run of k's, up to k parts within that run can be marked.",
+  "id": "A387637",
+  "mentions": [
+    "A011782",
+    "A301503",
+    "A389508",
+    "A389509",
+    "A389511"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

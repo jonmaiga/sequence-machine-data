@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n of the form 2^k + 1 such that n - k is a prime q (for k >= 0).",
+  "description": "Numbers m of the form 2^k + 1 such that m - k is a prime q (for k >= 0).",
   "id": "A268209",
   "mentions": [
     "A000051",

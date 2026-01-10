@@ -1,5 +1,5 @@
 {
-  "description": "Diagonal of triangle in A082196.",
+  "description": "First column of triangle in A082196.",
   "id": "A082198",
   "mentions": [
     "A082196",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

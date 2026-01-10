@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that number of runs in the base 4 representation of n is congruent to 3 mod 5.",
+  "description": "Numbers k such that number of runs in the base 4 representation of k is congruent to 3 mod 5.",
   "id": "A043835",
   "mentions": [],
   "tags": [

@@ -1,13 +1,16 @@
 {
-  "description": "Smallest number k (different from n) such that n^k (mod 2k+1) = k^n (mod 2n+1).",
+  "description": "Smallest positive integer k (different from n) such that n^k mod (2*k+1) = k^n mod (2*n+1).",
   "id": "A210693",
-  "mentions": [],
+  "mentions": [
+    "A391870",
+    "A391871"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

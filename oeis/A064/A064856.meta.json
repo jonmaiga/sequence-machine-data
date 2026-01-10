@@ -1,5 +1,5 @@
 {
-  "description": "Stirling transform of Catalan numbers: a(n) = Sum_{k=0..n} stirling2(n,k)*binomial(2*k,k)/(k+1).",
+  "description": "Stirling transform of Catalan numbers: a(n) = Sum_{k=0..n} Stirling2(n, k)*binomial(2*k, k) / (k+1).",
   "id": "A064856",
   "mentions": [
     "A000108",

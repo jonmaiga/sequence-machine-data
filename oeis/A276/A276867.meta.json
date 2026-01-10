@@ -1,5 +1,5 @@
 {
-  "description": "First differences of the Beatty sequence A003231 for 2 + tau, where tau = golden ratio = (1 + sqrt(5))/2.",
+  "description": "First differences of the Beatty sequence A003231 for 2 + phi, where phi = golden ratio = (1 + sqrt(5))/2.",
   "id": "A276867",
   "mentions": [
     "A003231",

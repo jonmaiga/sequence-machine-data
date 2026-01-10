@@ -1,0 +1,18 @@
+{
+  "description": "Total sum of major indices of heapable permutations of length n.",
+  "id": "A387955",
+  "mentions": [
+    "A336282",
+    "A386382",
+    "A389496"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

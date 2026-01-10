@@ -2,6 +2,7 @@
   "description": "a(n) = (5*n + 9)*binomial(n+8, 8)/9.",
   "id": "A055844",
   "mentions": [
+    "A001622",
     "A052255",
     "A093562"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 31,
     "source": "joeis"
   }
 }

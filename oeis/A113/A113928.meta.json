@@ -1,13 +1,19 @@
 {
-  "description": "(RSA-768)+10^n = prime where RSA-768 is the 232 decimal digit RSA challenge number.",
+  "description": "Numbers k such that (RSA-768) + 10^k is prime where RSA-768 is the 232 decimal digit RSA challenge number A391940(21).",
   "id": "A113928",
-  "mentions": [],
+  "mentions": [
+    "A391940",
+    "A391941",
+    "A391942"
+  ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

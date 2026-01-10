@@ -1,5 +1,5 @@
 {
-  "description": "Instruction-Limited Busy Beaver Sequence BBi(n): Maximum number of steps that an n-instruction Turing machine (allowing any number of states and symbols) can take on an initially blank tape before eventually halting.",
+  "description": "Instruction-Limited Busy Beaver Sequence: BBi(n). Maximum number of steps that an n-instruction Turing machine (allowing any number of states and symbols) can take on an initially blank tape before eventually halting.",
   "id": "A384629",
   "mentions": [
     "A060843",

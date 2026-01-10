@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of closed binary operations on a set of n labeled elements with a closed center.",
+  "id": "A391093",
+  "mentions": [
+    "A002489",
+    "A023814",
+    "A386681",
+    "A391094",
+    "A391162"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

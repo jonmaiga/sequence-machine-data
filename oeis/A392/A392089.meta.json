@@ -1,0 +1,25 @@
+{
+  "description": "The unitary totient of the smallest powerful number that is divisible by n.",
+  "id": "A392089",
+  "mentions": [
+    "A001694",
+    "A002117",
+    "A013661",
+    "A047994",
+    "A183699",
+    "A197863",
+    "A330523",
+    "A390755"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

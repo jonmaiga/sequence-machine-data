@@ -1,0 +1,18 @@
+{
+  "description": "Number of monotone simple Venn diagrams with n curves.",
+  "id": "A390247",
+  "mentions": [
+    "A386795",
+    "A390248"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

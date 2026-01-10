@@ -1,16 +1,17 @@
 {
-  "description": "T(n,[ n/2 ]), where T is the array defined in A026009.",
+  "description": "a(n) = T(n, [n/2]), where T is the array defined in A026009.",
   "id": "A026021",
   "mentions": [
     "A026009"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 37,
     "source": "joeis"
   }
 }

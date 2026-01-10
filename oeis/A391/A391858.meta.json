@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 25*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391858",
+  "mentions": [
+    "A048720",
+    "A280500",
+    "A391737",
+    "A391738",
+    "A391739",
+    "A391744",
+    "A391859",
+    "A391860",
+    "A391925"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

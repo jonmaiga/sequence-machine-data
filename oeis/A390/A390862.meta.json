@@ -1,0 +1,18 @@
+{
+  "description": "Number of positive integers k such that at least 1/n of the integers from 1 to k are divisors of k.",
+  "id": "A390862",
+  "mentions": [
+    "A000005",
+    "A051521"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

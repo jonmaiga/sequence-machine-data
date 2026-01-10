@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n grids with 3 non-attacking kings on each row.",
+  "id": "A390736",
+  "mentions": [
+    "A387098",
+    "A389770",
+    "A390419"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

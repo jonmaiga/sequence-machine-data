@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = S(n,4) where S(n,m) = sum(k=0,n,binomial(n,k)*Fibonacci(m*k)).",
+  "description": "a(n) = S(n,4) where S(n,m) = Sum_{k=0..n} binomial(n,k)*Fibonacci(m*k).",
   "id": "A087426",
   "mentions": [
     "A001906",
-    "A030191"
+    "A030191",
+    "A057085"
   ],
   "tags": [
     "easy",

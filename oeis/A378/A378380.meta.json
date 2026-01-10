@@ -3,9 +3,10 @@
   "id": "A378380",
   "mentions": [
     "A002315",
-    "A377025",
     "A377725",
-    "A378386"
+    "A378386",
+    "A379509",
+    "A385977"
   ],
   "tags": [
     "easy",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

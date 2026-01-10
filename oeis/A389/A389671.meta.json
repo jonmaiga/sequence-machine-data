@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct pairs of integer-sided quadrilaterals obtainable by making a single straight cut through an nXn square.",
+  "id": "A389671",
+  "mentions": [
+    "A004526",
+    "A046083",
+    "A046084",
+    "A056137",
+    "A389672"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

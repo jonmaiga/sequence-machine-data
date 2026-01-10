@@ -1,0 +1,20 @@
+{
+  "description": "Array of Fibonacci polynomial linear combinations read by antidiagonals: T(m,r) = F_m(r) + 2*F_{m-1}(r) + F_{m-2}(r) where F_k(r) is the k-th Fibonacci polynomial evaluated at r (m >= 2, r >= 1).",
+  "id": "A390491",
+  "mentions": [
+    "A000045",
+    "A007283",
+    "A083856",
+    "A129718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 63,
+    "source": "joeis"
+  }
+}

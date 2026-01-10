@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k * 5^(n-k) * Stirling2(n,k).",
+  "id": "A390889",
+  "mentions": [
+    "A001861",
+    "A047055",
+    "A055882",
+    "A390888"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

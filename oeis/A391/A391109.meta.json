@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write 2*n as p + p' + 2^a + 2^b, where p and p' > p are consecutive primes, and a and b are positive integers with a <= b.",
+  "id": "A391109",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001043",
+    "A018900",
+    "A387865",
+    "A389789",
+    "A389790",
+    "A389793"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

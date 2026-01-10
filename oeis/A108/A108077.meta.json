@@ -2,10 +2,13 @@
   "description": "Largest prime p such that p-1 divides n.",
   "id": "A108077",
   "mentions": [
+    "A006530",
+    "A027760",
     "A108939"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

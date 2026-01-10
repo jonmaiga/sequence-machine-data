@@ -1,8 +1,9 @@
 {
-  "description": "Number of Dyck paths of semilength n having the property that the heights of the first and the last peaks coincide.",
+  "description": "Number of Dyck paths of semilength n having the property that the heights of the first and the last peaks do not disagree.",
   "id": "A193215",
   "mentions": [
-    "A000958"
+    "A000958",
+    "A097607"
   ],
   "tags": [
     "easy",
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 31,
+    "offset": 0,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

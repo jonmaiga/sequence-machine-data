@@ -2,7 +2,8 @@
   "description": "a(n) = (n^2 - n + 8)/2.",
   "id": "A145018",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A027693"
   ],
   "tags": [
     "easy",

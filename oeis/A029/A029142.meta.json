@@ -1,7 +1,11 @@
 {
   "description": "Expansion of 1/((1-x^2)*(1-x^3)*(1-x^4)*(1-x^12)).",
   "id": "A029142",
-  "mentions": [],
+  "mentions": [
+    "A005044",
+    "A025801",
+    "A266755"
+  ],
   "tags": [
     "easy",
     "formulas",

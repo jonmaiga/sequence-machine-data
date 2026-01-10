@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of points missed by the longest non-intersecting loop starting at (0,0) on the n X k torus consisting of steps up and to the right, 1 <= k <= n.",
+  "id": "A390514",
+  "mentions": [
+    "A306779",
+    "A324603",
+    "A324604"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

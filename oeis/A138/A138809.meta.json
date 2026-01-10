@@ -5,12 +5,13 @@
     "A105634"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

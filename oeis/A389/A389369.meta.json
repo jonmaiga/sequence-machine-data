@@ -1,0 +1,23 @@
+{
+  "description": "Least prime starting a run of 2*n consecutive primes whose product minus sum is prime.",
+  "id": "A389369",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A007504",
+    "A096345",
+    "A390916",
+    "A390917",
+    "A390918",
+    "A390933",
+    "A390935"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

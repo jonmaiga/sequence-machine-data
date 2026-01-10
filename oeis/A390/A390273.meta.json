@@ -1,0 +1,19 @@
+{
+  "description": "Total sum of the heights of the trees associated with all heapable permutations of length n.",
+  "id": "A390273",
+  "mentions": [
+    "A336282",
+    "A389282",
+    "A389993",
+    "A390146"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

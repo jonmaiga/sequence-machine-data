@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = 5*(n^2-n+2)/2.",
+  "description": "a(n) = 5*(n^2 - n + 2)/2.",
   "id": "A082450",
   "mentions": [
     "A000124",
-    "A000217"
+    "A000217",
+    "A152947"
   ],
   "tags": [
     "easy",

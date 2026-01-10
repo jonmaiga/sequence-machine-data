@@ -1,5 +1,5 @@
 {
-  "description": "Primes having initial digits \"11\" in binary representation.",
+  "description": "Primes having initial digits \"11\" in their binary representation.",
   "id": "A080166",
   "mentions": [
     "A000040",

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(1 / (1 - arctanh(x)) - 1).",
+  "description": "Expansion of e.g.f. exp(1 / (1 - arctanh(x)) - 1).",
   "id": "A331618",
   "mentions": [
     "A000246",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

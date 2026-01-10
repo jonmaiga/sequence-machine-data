@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 4*k - (greatest prime < 4*k) = (least prime > 4*k) - 4*k.",
+  "id": "A391355",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A391351",
+    "A391354",
+    "A391356"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

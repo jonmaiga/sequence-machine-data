@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the norm of Mersenne prime M_{p, 2 + phi} = (2 + phi)^p - 1 in quadratic ring Z[phi], with phi = (1 + sqrt(5))/2, is a rational prime.",
+  "id": "A390617",
+  "mentions": [
+    "A000043",
+    "A004061",
+    "A323697",
+    "A390618"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

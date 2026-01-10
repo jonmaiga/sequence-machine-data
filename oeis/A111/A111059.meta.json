@@ -2,10 +2,12 @@
   "description": "a(n) = Product_{k=1..n} A005117(k), the product of the first n squarefree positive integers.",
   "id": "A111059",
   "mentions": [
+    "A001113",
     "A001221",
     "A002110",
     "A005117",
     "A006881",
+    "A013661",
     "A014466",
     "A054640",
     "A070826",
@@ -21,6 +23,7 @@
     "A339360"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

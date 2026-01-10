@@ -1,7 +1,9 @@
 {
   "description": "Continued fraction for gamma^gamma.",
   "id": "A179946",
-  "mentions": [],
+  "mentions": [
+    "A348362"
+  ],
   "tags": [
     "cofr",
     "nonn"

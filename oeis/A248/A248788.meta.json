@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (2-sqrt(e))^2, the mean fraction of guests without a napkin in Conway’s napkin problem.",
+  "description": "Decimal expansion of (2-sqrt(e))^2, the mean fraction of guests without a napkin in Conway's napkin problem.",
   "id": "A248788",
   "mentions": [
     "A000670",

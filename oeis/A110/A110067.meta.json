@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n + sigma(n) is prime.",
+  "description": "Numbers k such that 10^k + sigma(k) is prime.",
   "id": "A110067",
   "mentions": [
     "A110065",

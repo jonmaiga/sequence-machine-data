@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 7*n^2/2 + 3*n/2 + 1.",
+  "id": "A389615",
+  "mentions": [
+    "A140065",
+    "A186029"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

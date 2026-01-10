@@ -1,0 +1,26 @@
+{
+  "description": "Odd semiprimes p*q such that either p*q = A048720(p,x) or p*q = A048720(q,x) for some x, where A048720 is the carryless binary multiplication.",
+  "id": "A391253",
+  "mentions": [
+    "A046315",
+    "A048720",
+    "A280500",
+    "A365473",
+    "A391248",
+    "A391254",
+    "A391255",
+    "A391257",
+    "A391328",
+    "A391333",
+    "A391343"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

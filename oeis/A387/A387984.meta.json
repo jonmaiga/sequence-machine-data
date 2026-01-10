@@ -1,0 +1,16 @@
+{
+  "description": "Carmichael numbers that can be written as a product of three Carmichael numbers.",
+  "id": "A387984",
+  "mentions": [
+    "A002997",
+    "A207041"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

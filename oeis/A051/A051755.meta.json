@@ -2,6 +2,7 @@
   "description": "Consider problem of placing N queens on an n X n board so that each queen attacks precisely 2 others. Sequence gives maximal number of queens.",
   "id": "A051755",
   "mentions": [
+    "A002863",
     "A019654",
     "A051567",
     "A051571",

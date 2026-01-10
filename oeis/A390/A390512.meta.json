@@ -1,0 +1,21 @@
+{
+  "description": "The all-integers indexing of lexicographically ordered 01 words; a bijection from the positive integers to the integers.",
+  "id": "A390512",
+  "mentions": [
+    "A000027",
+    "A001057",
+    "A081241",
+    "A345254",
+    "A346306",
+    "A390513"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

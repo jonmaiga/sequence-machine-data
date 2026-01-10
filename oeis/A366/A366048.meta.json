@@ -1,5 +1,5 @@
 {
-  "description": "For n >= 1, a(n) is the least k >= 1 such that 1/d(k) + … + 1/d(k + n - 1) is an integer, d(i) = A000005(i).",
+  "description": "For n >= 1, a(n) is the least k >= 1 such that 1/d(k) + ... + 1/d(k + n - 1) is an integer, d(i) = A000005(i).",
   "id": "A366048",
   "mentions": [
     "A000005",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

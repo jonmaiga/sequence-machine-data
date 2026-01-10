@@ -1,0 +1,20 @@
+{
+  "description": "One-third of the total number of edges formed after n points have been placed in general position on each edge of a triangle (as in A365929).",
+  "id": "A389626",
+  "mentions": [
+    "A365929",
+    "A366478",
+    "A366932",
+    "A367015"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

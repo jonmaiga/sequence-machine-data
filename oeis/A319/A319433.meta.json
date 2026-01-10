@@ -1,5 +1,5 @@
 {
-  "description": "Take Zeckendorf representation of n (A014417(n)), drop least significant bit, take inverse Zeckendorf representation.",
+  "description": "Take the Zeckendorf representation of n (A014417(n)), drop least significant bit, take the inverse Zeckendorf representation.",
   "id": "A319433",
   "mentions": [
     "A003714",

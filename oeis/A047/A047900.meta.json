@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 8; for n > 0, a(n+1) = a(n) * sum of digits of a(n).",
+  "description": "a(1) = 8; for n > 1, a(n+1) = a(n) * sum of digits of a(n).",
   "id": "A047900",
   "mentions": [
     "A047892",
@@ -9,7 +9,8 @@
     "A047901",
     "A047902",
     "A047912",
-    "A057147"
+    "A057147",
+    "A346178"
   ],
   "tags": [
     "base",
@@ -19,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

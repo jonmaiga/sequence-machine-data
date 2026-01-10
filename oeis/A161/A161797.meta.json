@@ -1,8 +1,9 @@
 {
-  "description": "G.f. satisfies: A(x) = 1/(1 - x/(1 - x*A(x))^3).",
+  "description": "G.f. A(x) satisfies A(x) = 1/(1 - x/(1 - x*A(x))^3).",
   "id": "A161797",
   "mentions": [
     "A109081",
+    "A300048",
     "A321798",
     "A321799"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

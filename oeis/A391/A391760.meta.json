@@ -1,0 +1,22 @@
+{
+  "description": "Strictly increasing continued fraction that produces its own decimal expansion (with leading zeros).",
+  "id": "A391760",
+  "mentions": [
+    "A039662",
+    "A091694",
+    "A113307",
+    "A378147",
+    "A391759",
+    "A391761"
+  ],
+  "tags": [
+    "base",
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

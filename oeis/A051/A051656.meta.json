@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{i=0..n} (C(n,i) mod 2)*Fibonacci(2*i).",
+  "description": "a(n) = Sum_{i=0..n} (C(n,i) mod 2)*Fibonacci(2*i).",
   "id": "A051656",
   "mentions": [
     "A000032",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

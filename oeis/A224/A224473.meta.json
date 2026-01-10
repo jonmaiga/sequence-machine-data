@@ -1,5 +1,5 @@
 {
-  "description": "(2*5^(2^n) - 1) mod 10^n: a sequence of trimorphic numbers ending in 9.",
+  "description": "a(n) = (2*5^(2^n) - 1) mod 10^n: a sequence of trimorphic numbers ending in 9.",
   "id": "A224473",
   "mentions": [
     "A002283",

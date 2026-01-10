@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that A161606(k) = n or a(n) = -1 if no such k exists.",
+  "id": "A385677",
+  "mentions": [
+    "A001222",
+    "A008472",
+    "A161606"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

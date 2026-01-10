@@ -1,0 +1,20 @@
+{
+  "description": "Body-centered cubic pyritohedral numbers: a(n) = 1728*n^3 - 5076*n^2 + 4984*n - 1635.",
+  "id": "A391166",
+  "mentions": [
+    "A005898",
+    "A197376",
+    "A391165",
+    "A391167"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

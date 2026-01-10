@@ -1,7 +1,12 @@
 {
   "description": "Powers of 2 written in base 4.",
   "id": "A004643",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A000866",
+    "A004645",
+    "A004655"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

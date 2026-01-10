@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(m,n) is the number of Hamiltonian cycles on m X n torus where each step goes north or east or northeast; 2 <= n <= m.",
+  "id": "A391478",
+  "mentions": [
+    "A007283",
+    "A324604",
+    "A324605"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "3^n + 6^n + 9^n.",
+  "description": "a(n) = 3^n + 6^n + 9^n.",
   "id": "A074557",
   "mentions": [
     "A001550",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

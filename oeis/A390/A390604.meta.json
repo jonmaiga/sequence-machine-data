@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of ways n^n can be written as s^t*u^v, where s, t, u, v are integers > 1 and s^t <= u^v.",
+  "id": "A390604",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A000312",
+    "A001597",
+    "A027750",
+    "A072103",
+    "A253642",
+    "A259362",
+    "A390605"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

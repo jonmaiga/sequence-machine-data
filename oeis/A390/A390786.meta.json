@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that the number of integers between (1/5)*prime(k) and (1/5)*prime(k+1) is n.",
+  "id": "A390786",
+  "mentions": [
+    "A390785",
+    "A390787",
+    "A390788"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

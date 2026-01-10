@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as (p-1)^2 + (q-1)^2 + (r-1)^2/2 + (s-1)^2/4 with p <= q, where each of p,q,r,s is either 1 or an odd prime.",
+  "id": "A390762",
+  "mentions": [
+    "A000040",
+    "A000118",
+    "A000290",
+    "A006093",
+    "A389523"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sierpinski octahedron numbers a(n) = 2*6^n + 3*2^n + 1.",
+  "description": "Sierpinski octahedron numbers: a(n) = 2*6^n + 3*2^n + 1.",
   "id": "A279512",
   "mentions": [
     "A005900",

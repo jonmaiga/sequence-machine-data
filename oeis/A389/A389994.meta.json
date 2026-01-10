@@ -1,0 +1,19 @@
+{
+  "description": "Second smallest order m > 0 for which there are n nonisomorphic finite groups of order m, or 0 if no such order exists.",
+  "id": "A389994",
+  "mentions": [
+    "A000001",
+    "A046057",
+    "A389995"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of ways n can be written as (w + x)*(y + z), where w, x, y and z are distinct positive integers with w < x, y < z, and w < y.",
+  "id": "A389443",
+  "mentions": [
+    "A135539"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

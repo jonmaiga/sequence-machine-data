@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer > 1 whose congruence speed never stabilizes in the radix-n numeral system.",
+  "id": "A389365",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A373387",
+    "A390535",
+    "A390598"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

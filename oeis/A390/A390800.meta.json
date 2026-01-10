@@ -1,0 +1,33 @@
+{
+  "description": "The sum of the integers k from 1 to n such that gcd(n, k) is a power of a prime (A000961).",
+  "id": "A390800",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A013661",
+    "A023896",
+    "A119790",
+    "A131233",
+    "A154945",
+    "A246655",
+    "A390801",
+    "A390802",
+    "A390803",
+    "A390804",
+    "A390805",
+    "A390806",
+    "A390807",
+    "A390808",
+    "A390809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

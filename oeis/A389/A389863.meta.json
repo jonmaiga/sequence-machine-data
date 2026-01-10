@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k with exactly two distinct repeated values among the fractions (2*k mod m)/m for 1 <= m <= k.",
+  "id": "A389863",
+  "mentions": [
+    "A100484",
+    "A387426"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

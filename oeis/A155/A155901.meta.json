@@ -1,5 +1,5 @@
 {
-  "description": "Arise in p-adic valuations of sequences counting alternating sign matrices.",
+  "description": "Number of sizes k such that the 2-adic valuation of the number of k X k alternating sign matrices is n.",
   "id": "A155901",
   "mentions": [
     "A000219",
@@ -7,15 +7,17 @@
     "A005130",
     "A048601",
     "A128445",
-    "A143670"
+    "A143670",
+    "A194827"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

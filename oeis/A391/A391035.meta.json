@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g/(1 - x^4*g^4), where g = 1+x*g^2 is the g.f. of A000108.",
+  "id": "A391035",
+  "mentions": [
+    "A000108",
+    "A390479",
+    "A391030",
+    "A391032",
+    "A391034"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

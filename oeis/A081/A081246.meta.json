@@ -1,5 +1,5 @@
 {
-  "description": "Triangle in which (2^n+1)st row gives trajectory of x=2^n+1 under the map x -> x/2 if x is even, x -> x+1 if x is odd, stopping when reaching 1.",
+  "description": "Triangle in which (2^n+1)-st row gives trajectory of x=2^n+1 under the map x -> x/2 if x is even, x -> x+1 if x is odd, stopping when reaching 1.",
   "id": "A081246",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 108,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

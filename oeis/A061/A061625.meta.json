@@ -1,8 +1,14 @@
 {
-  "description": "Disk domain wall degeneracies for brane I in the O(K) -> P^1 X P^1 geometry.",
+  "description": "Ooguri-Vafa invariants of disk domain wall degeneracies for brane I in the O(K) -> P^1 X P^1 geometry.",
   "id": "A061625",
-  "mentions": [],
+  "mentions": [
+    "A061605",
+    "A061627",
+    "A061628",
+    "A061637"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

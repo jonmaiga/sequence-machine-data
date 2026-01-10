@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 113*Pi + 355.",
+  "id": "A392026",
+  "mentions": [
+    "A014307",
+    "A068079",
+    "A180875",
+    "A226043"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n/(p(n)-p(n-1)), where p(n)=n-th prime.",
+  "description": "Primes of the form k/(p(k)-p(k-1)), where p(k)=k-th prime.",
   "id": "A141652",
   "mentions": [
     "A000040"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = (a(n)-1)-th prime + 1.",
+  "description": "a(n+1) = (a(n)-1)-th prime + 1, a(1) = 2.",
   "id": "A095938",
   "mentions": [
     "A007097"

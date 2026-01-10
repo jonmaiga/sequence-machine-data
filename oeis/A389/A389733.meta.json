@@ -1,0 +1,40 @@
+{
+  "description": "Irregular triangle read by rows where row n is the 0-prepended first differences of the n-th composition in standard order.",
+  "id": "A389733",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A007862",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A048896",
+    "A065120",
+    "A066099",
+    "A070939",
+    "A124762",
+    "A124767",
+    "A175342",
+    "A242628",
+    "A287352",
+    "A325327",
+    "A333381",
+    "A351014",
+    "A355536",
+    "A358133",
+    "A358134",
+    "A358135",
+    "A389597",
+    "A389732",
+    "A389734"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

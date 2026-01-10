@@ -11,12 +11,13 @@
     "A255140"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

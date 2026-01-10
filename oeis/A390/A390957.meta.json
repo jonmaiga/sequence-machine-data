@@ -1,0 +1,27 @@
+{
+  "description": "The number of non-bi-unitary divisors of n.",
+  "id": "A390957",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A048105",
+    "A160097",
+    "A222266",
+    "A268335",
+    "A286324",
+    "A306071",
+    "A306072",
+    "A319072",
+    "A348341"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

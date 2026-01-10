@@ -1,7 +1,9 @@
 {
   "description": "Totally multiplicative sequence with a(p) = a(p-1) + 8 for prime p.",
   "id": "A166705",
-  "mentions": [],
+  "mentions": [
+    "A166699"
+  ],
   "tags": [
     "formulas",
     "mult",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

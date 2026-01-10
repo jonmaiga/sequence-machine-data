@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the sum of the bi-unitary divisors of n^2.",
+  "id": "A390554",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A001157",
+    "A002117",
+    "A007947",
+    "A013661",
+    "A034448",
+    "A034676",
+    "A065764",
+    "A183699",
+    "A188999",
+    "A322327",
+    "A374539",
+    "A380322",
+    "A390556"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

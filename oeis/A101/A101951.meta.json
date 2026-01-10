@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes in sequence defined by A(0) = 23, A(n) = 10*A(n-1) - 27 for n > 0.",
+  "description": "Indices of primes in the sequence defined by A(0) = 23, A(n) = 10*A(n-1) - 27 for n > 0.",
   "id": "A101951",
   "mentions": [
     "A000533",

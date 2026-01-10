@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the primes with exponent > 1 in the prime factorization of n. If no such primes exist, row n = {0}.",
+  "id": "A392066",
+  "mentions": [
+    "A035306",
+    "A063958",
+    "A071773",
+    "A392063",
+    "A392073",
+    "A392108",
+    "A392109"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

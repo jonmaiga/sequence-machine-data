@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (1+i)^n - i is a Gaussian prime.",
+  "description": "Numbers m such that (1+i)^m - i is a Gaussian prime.",
   "id": "A103329",
   "mentions": [
     "A027206",
@@ -7,6 +7,7 @@
     "A112634"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

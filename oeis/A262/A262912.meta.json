@@ -1,16 +1,17 @@
 {
-  "description": "Number of (n+1)X(3+1) 0..1 arrays with each row divisible by 3 and each column divisible by 7, read as a binary number with top and left being the most significant bits.",
+  "description": "Number of (n+1) X (3+1) 0..1 arrays with each row divisible by 3 and each column divisible by 7, read as a binary number with top and left being the most significant bits.",
   "id": "A262912",
   "mentions": [
     "A262917"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

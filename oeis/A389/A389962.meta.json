@@ -1,0 +1,19 @@
+{
+  "description": "Maximum degree of the polyiamond graph PG(n) defined in A389961.",
+  "id": "A389962",
+  "mentions": [
+    "A367124",
+    "A389961",
+    "A389963",
+    "A389965"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

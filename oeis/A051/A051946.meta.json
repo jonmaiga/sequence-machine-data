@@ -2,6 +2,7 @@
   "description": "Expansion of g.f.: (1+4*x)/(1-x)^7.",
   "id": "A051946",
   "mentions": [
+    "A001622",
     "A027800",
     "A034264",
     "A093562",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 35,
     "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if n occurs exactly twice in square array A391260, otherwise 0.",
+  "id": "A391240",
+  "mentions": [
+    "A010051",
+    "A283991",
+    "A391239",
+    "A391241",
+    "A391260"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,15 +2,17 @@
   "description": "Number of n X 2 binary arrays with all 1s connected, a path of 1s from left column to lower right corner, and no 1 having more than two 1s adjacent.",
   "id": "A163704",
   "mentions": [
-    "A023548"
+    "A023548",
+    "A391823"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 37,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "A simple context-free grammar in a labeled universe.",
+  "description": "A simple context-free grammar in a labeled universe: labeled version of A049140.",
   "id": "A052740",
   "mentions": [
     "A049140"

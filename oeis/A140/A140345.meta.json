@@ -1,9 +1,11 @@
 {
-  "description": "a(n)=a(n-1)^2-a(n-2)-a(n-3)-a(n-4), a(1)=a(2)=a(3)=a(4)=1.",
+  "description": "a(n) = a(n-1)^2 - a(n-2) - a(n-3) - a(n-4), a(1) = a(2) = a(3) = a(4) = 1.",
   "id": "A140345",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
+    "mult",
     "sign"
   ],
   "terms": {

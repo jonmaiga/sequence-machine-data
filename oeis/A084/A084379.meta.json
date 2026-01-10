@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n^3 + 17.",
   "id": "A084379",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A084377"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 43,
     "source": "joeis"
   }
 }

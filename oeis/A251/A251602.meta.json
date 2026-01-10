@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that hexagonal number H(n) is the sum of two consecutive hexagonal numbers.",
+  "description": "Numbers k such that hexagonal number H(k) is the sum of two consecutive hexagonal numbers.",
   "id": "A251602",
   "mentions": [
+    "A000129",
     "A000384",
+    "A203136",
     "A251601"
   ],
   "tags": [
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "(9n+1)^11.",
+  "description": "a(n) = (9*n + 1)^11.",
   "id": "A017183",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 14,
     "source": "joeis"
   }
 }

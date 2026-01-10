@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{1 < k < n} sigma(n) mod k, where sigma = A000203.",
+  "description": "a(n) = Sum_{1 < k < n} sigma(n) mod k, where sigma = A000203.",
   "id": "A340976",
   "mentions": [
     "A000079",

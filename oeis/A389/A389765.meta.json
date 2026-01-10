@@ -1,0 +1,21 @@
+{
+  "description": "Odd sub-perfect powers: even perfect powers minus 1.",
+  "id": "A389765",
+  "mentions": [
+    "A002162",
+    "A005408",
+    "A045542",
+    "A075090",
+    "A389764"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of natural numbers in range [n .. sigma(n)-1] that are coprime to n.",
+  "id": "A389464",
+  "mentions": [
+    "A000203",
+    "A325964",
+    "A389465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

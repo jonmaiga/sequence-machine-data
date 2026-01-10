@@ -2,6 +2,8 @@
   "description": "Numbers k = m * s, where s is composite and squarefree, rad(m) divides s, and 1 < m <= s, where rad() = A007947().",
   "id": "A370409",
   "mentions": [
+    "A001221",
+    "A003557",
     "A005117",
     "A007947",
     "A010846",
@@ -13,7 +15,9 @@
     "A126706",
     "A162306",
     "A177492",
-    "A370266"
+    "A370266",
+    "A389528",
+    "A390538"
   ],
   "tags": [
     "nonn"

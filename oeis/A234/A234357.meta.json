@@ -1,5 +1,5 @@
 {
-  "description": "Array T(n,k) by antidiagonals: T(n,k) = n^k * Fibonacci(k).",
+  "description": "Array A(n,k) by ascending antidiagonals: A(n,k) = n^k * Fibonacci(k + 1) for n, k >= 1.",
   "id": "A234357",
   "mentions": [
     "A000027",
@@ -18,8 +18,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 0,
-    "size": 58,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
   }
 }

@@ -1,14 +1,17 @@
 {
-  "description": "Continued fraction expansion for log_2(10).",
+  "description": "Continued fraction expansion for log_10(2).",
   "id": "A028232",
-  "mentions": [],
+  "mentions": [
+    "A007524",
+    "A020862"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 79,
+    "offset": 0,
+    "size": 87,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that f(p) is prime and f(f(p)) = p, where f(k) = 10 * (10^(floor(log_10(k)) + 1) - 1)/9 - k.",
+  "id": "A391948",
+  "mentions": [
+    "A068811",
+    "A105279"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,15 +1,17 @@
 {
-  "description": "Phi(binomial(2*n,n)*n^2) (phi of A002736 = Apery numbers: n^2 C(2n,n). ).",
+  "description": "a(n) = phi(binomial(2*n,n)*n^2).",
   "id": "A131681",
   "mentions": [
+    "A000010",
     "A002736"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

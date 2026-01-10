@@ -2,7 +2,9 @@
   "description": "Expansion of 1/(1-x*A002295(x)).",
   "id": "A186183",
   "mentions": [
-    "A002295"
+    "A002295",
+    "A390385",
+    "A390389"
   ],
   "tags": [
     "formulas",

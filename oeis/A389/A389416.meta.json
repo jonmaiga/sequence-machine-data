@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the end-to-node distance for the first vibrational bending mode of a unit-length free-free beam.",
+  "id": "A389416",
+  "mentions": [
+    "A076414",
+    "A076415",
+    "A076416",
+    "A391410"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} k * zeta(2*k) * Fibonacci(2*k) / 5^k.",
+  "id": "A391665",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A244979",
+    "A350760",
+    "A391666"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

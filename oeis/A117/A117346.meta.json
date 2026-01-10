@@ -2,14 +2,20 @@
   "description": "Near-multiperfects: numbers m such that abs(sigma(m) mod m) <= log(m).",
   "id": "A117346",
   "mentions": [
+    "A000203",
     "A045768",
+    "A045769",
     "A045770",
     "A077374",
     "A087167",
     "A087485",
     "A088007",
+    "A088008",
+    "A088010",
+    "A088011",
     "A088012",
     "A117347",
+    "A117349",
     "A117350"
   ],
   "tags": [

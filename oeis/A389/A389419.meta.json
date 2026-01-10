@@ -1,0 +1,20 @@
+{
+  "description": "Least integer k such that Sum_{j=k..k+n-1} j is the concatenation of two consecutive integers, x and x + 1. No leading zeros allowed.",
+  "id": "A389419",
+  "mentions": [
+    "A001704",
+    "A116285",
+    "A116294",
+    "A116301",
+    "A389418"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

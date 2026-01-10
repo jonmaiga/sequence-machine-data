@@ -1,0 +1,17 @@
+{
+  "description": "Least prime p such that (2^n*p)^2+1 is also prime, or 0 if no such p exists.",
+  "id": "A389785",
+  "mentions": [
+    "A002263",
+    "A002496",
+    "A052292"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array read by rows of ordered quadruples of coprime positive integers {r1..r4} for which spheres of radius r1..r4 are tangent to a plane when arranged as mutually tangent to one another, with rows in lexicographic order.",
+  "id": "A390148",
+  "mentions": [
+    "A001221",
+    "A079978",
+    "A289917",
+    "A388858",
+    "A389940",
+    "A390322",
+    "A390464",
+    "A390465",
+    "A390583"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

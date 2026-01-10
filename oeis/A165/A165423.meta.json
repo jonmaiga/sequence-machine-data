@@ -2,7 +2,9 @@
   "description": "a(1) = 1, a(2) = 5, a(n) = product of the previous terms for n >= 3.",
   "id": "A165423",
   "mentions": [
-    "A000351"
+    "A000351",
+    "A078886",
+    "A176594"
   ],
   "tags": [
     "formulas",

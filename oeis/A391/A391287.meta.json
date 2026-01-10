@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of twin prime pairs entirely within the sets of length prime(n) that are incrementally taken from the sequence of odd consecutive primes.",
+  "id": "A391287",
+  "mentions": [
+    "A000040",
+    "A001097"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

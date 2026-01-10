@@ -1,7 +1,10 @@
 {
-  "description": "Percolation series for cubic lattice.",
+  "description": "Bond percolation series for directed cubic lattice.",
   "id": "A006804",
-  "mentions": [],
+  "mentions": [
+    "A006837",
+    "A363090"
+  ],
   "tags": [
     "more",
     "sign"

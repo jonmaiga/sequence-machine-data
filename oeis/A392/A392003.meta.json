@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (7*2^n - 9 + 5*(-1)^n) / 6.",
+  "id": "A392003",
+  "mentions": [
+    "A266753",
+    "A390768"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

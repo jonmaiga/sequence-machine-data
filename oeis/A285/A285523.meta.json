@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + 1 is 100-smooth.",
+  "description": "Numbers k such that k^2 + 1 is 100-smooth.",
   "id": "A285523",
   "mentions": [
     "A285282",

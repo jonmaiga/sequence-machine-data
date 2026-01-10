@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the Fibonacci number F(n) satisfies F(n)^2+1 = f1*f2 where f1, f2 are prime Fibonacci numbers.",
+  "description": "Numbers k such that the Fibonacci number F(k) satisfies F(k)^2+1 = f1*f2 where f1, f2 are prime Fibonacci numbers.",
   "id": "A245236",
   "mentions": [
     "A000045",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

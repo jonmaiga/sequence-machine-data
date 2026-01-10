@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 3p - 4 where p is prime.",
+  "description": "Primes of the form 3*p - 4 where p is prime.",
   "id": "A228353",
   "mentions": [
     "A003627",

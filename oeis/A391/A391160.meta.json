@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic semigroups with n elements and empty center.",
+  "id": "A391160",
+  "mentions": [
+    "A391156",
+    "A391158",
+    "A391159"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

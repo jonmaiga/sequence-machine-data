@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/4) * Sum_{k=0..n} (k+2) * 2^(n-k) * binomial(2*k+2,2*n-2*k+1).",
+  "id": "A391835",
+  "mentions": [
+    "A391829",
+    "A391832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

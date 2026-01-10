@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the greatest prime > a(n-1) obtained by inserting a single digit anywhere in its string of digits (including at the beginning or end), starting with a(1) = 1.",
+  "id": "A389721",
+  "mentions": [
+    "A068166",
+    "A068167",
+    "A068168",
+    "A068169",
+    "A068170",
+    "A068171",
+    "A068172",
+    "A068173",
+    "A068174",
+    "A389720",
+    "A389722",
+    "A389723",
+    "A389724",
+    "A389725",
+    "A389726",
+    "A389727"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

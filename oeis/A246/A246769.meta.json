@@ -1,5 +1,5 @@
 {
-  "description": "Composite x such that [(x-1)’ + (x+1)’] / x’ is an integer, where x’ is the arithmetic derivative of x.",
+  "description": "Composite x such that [(x-1)' + (x+1)'] / x' is an integer, where x' is the arithmetic derivative of x.",
   "id": "A246769",
   "mentions": [
     "A003415"

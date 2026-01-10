@@ -2,6 +2,7 @@
   "description": "Numbers k such that k^4 has exactly 2 different decimal digits.",
   "id": "A155148",
   "mentions": [
+    "A011557",
     "A155149",
     "A155150"
   ],

@@ -1,0 +1,20 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths on the first n cells of the 7 X ceiling(n/7) knight graph.",
+  "id": "A389757",
+  "mentions": [
+    "A306283",
+    "A389753",
+    "A389754",
+    "A389756",
+    "A389758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

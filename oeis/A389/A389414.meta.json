@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose (not necessarily distinct) prime factors can be side lengths of a simple polygon.",
+  "id": "A389414",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A006530",
+    "A076467",
+    "A246549",
+    "A376348",
+    "A379033",
+    "A386632"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

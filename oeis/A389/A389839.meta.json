@@ -1,0 +1,26 @@
+{
+  "description": "Smallest even number which cannot be written as the difference of two consecutive numbers which are relatively prime to the primorial prime(n)#.",
+  "id": "A389839",
+  "mentions": [
+    "A002110",
+    "A007310",
+    "A007775",
+    "A008364",
+    "A008366",
+    "A051271",
+    "A051272",
+    "A166061",
+    "A166063",
+    "A329815"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

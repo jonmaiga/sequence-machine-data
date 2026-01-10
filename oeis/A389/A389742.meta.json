@@ -1,0 +1,45 @@
+{
+  "description": "Number of integer compositions of n whose 0-prepended first differences are not all equal.",
+  "id": "A389742",
+  "mentions": [
+    "A000740",
+    "A007862",
+    "A008965",
+    "A011782",
+    "A049988",
+    "A051336",
+    "A059966",
+    "A066099",
+    "A070211",
+    "A124767",
+    "A175342",
+    "A325545",
+    "A325547",
+    "A325557",
+    "A332834",
+    "A389597",
+    "A389598",
+    "A389601",
+    "A389731",
+    "A389732",
+    "A389734",
+    "A389735",
+    "A389736",
+    "A389738",
+    "A389741",
+    "A389743",
+    "A389744",
+    "A389811",
+    "A389812"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

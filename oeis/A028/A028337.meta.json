@@ -1,7 +1,9 @@
 {
-  "description": "Palindromes of the form n(n+1).",
+  "description": "Palindromes of the form k*(k + 1).",
   "id": "A028337",
   "mentions": [
+    "A002113",
+    "A002378",
     "A028336"
   ],
   "tags": [

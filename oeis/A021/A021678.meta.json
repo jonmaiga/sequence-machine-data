@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/674.",
   "id": "A021678",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
     "easy",

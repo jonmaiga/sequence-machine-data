@@ -1,5 +1,5 @@
 {
-  "description": "(5n+3)^7.",
+  "description": "a(n) = (5*n+3)^7.",
   "id": "A016891",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 20,
     "source": "joeis"
   }
 }

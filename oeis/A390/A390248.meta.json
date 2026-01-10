@@ -1,0 +1,18 @@
+{
+  "description": "Number of reducible simple Venn diagrams with n curves.",
+  "id": "A390248",
+  "mentions": [
+    "A386795",
+    "A390247"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p that cannot be represented as either the sum of distinct nontrivial divisors of p - 1 or the sum of distinct nontrivial divisors of p + 1.",
+  "id": "A391007",
+  "mentions": [
+    "A000040",
+    "A391004",
+    "A391006"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

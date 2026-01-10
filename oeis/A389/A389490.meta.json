@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in a biaugmented triangular prism (Johnson solid J_50).",
+  "id": "A389490",
+  "mentions": [
+    "A019669",
+    "A019670",
+    "A156546",
+    "A195702",
+    "A384141",
+    "A385505",
+    "A387670"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1, a(n)= a(n-1)[n-1]a(n-1).",
+  "description": "a(0) = 1, a(n) = a(n-1)[n-1]a(n-1).",
   "id": "A271552",
   "mentions": [
     "A054871",

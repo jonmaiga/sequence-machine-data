@@ -1,5 +1,5 @@
 {
-  "description": "Integers n with the property that the largest prime factor of n^2 + 1 is less than n.",
+  "description": "Integers k with the property that the largest prime factor of k^2 + 1 is less than k.",
   "id": "A256011",
   "mentions": [
     "A002144",

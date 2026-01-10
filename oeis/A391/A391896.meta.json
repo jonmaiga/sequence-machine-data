@@ -1,0 +1,30 @@
+{
+  "description": "Cubefull numbers with exactly 2 distinct prime factors.",
+  "id": "A391896",
+  "mentions": [
+    "A001694",
+    "A007774",
+    "A013929",
+    "A024619",
+    "A036966",
+    "A046099",
+    "A126706",
+    "A200511",
+    "A286708",
+    "A355462",
+    "A372404",
+    "A372695",
+    "A376936",
+    "A378767"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

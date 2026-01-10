@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k<=10^n} d(k)^2, where d(k) = number of divisors function A000005.",
+  "id": "A386602",
+  "mentions": [
+    "A000005",
+    "A061202",
+    "A061502"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

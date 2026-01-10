@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} 2^k * 3^(n-3*k) * binomial(k+6,6) * binomial(k,2*(n-3*k)).",
+  "id": "A391961",
+  "mentions": [
+    "A390775",
+    "A391723",
+    "A391960"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

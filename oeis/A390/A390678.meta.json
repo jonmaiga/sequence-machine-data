@@ -1,0 +1,43 @@
+{
+  "description": "Numbers k such that (1) the k-th composition in standard order contains no 1's, and (2) there is no composition whose first sums are the k-th composition in standard order.",
+  "id": "A390678",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001511",
+    "A003714",
+    "A008965",
+    "A011782",
+    "A022340",
+    "A029837",
+    "A029931",
+    "A066099",
+    "A070211",
+    "A070939",
+    "A342527",
+    "A357213",
+    "A389731",
+    "A390307",
+    "A390362",
+    "A390432",
+    "A390448",
+    "A390449",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390674",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390745"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Primes with two odd digits.",
   "id": "A155071",
   "mentions": [
-    "A104638"
+    "A104638",
+    "A119449"
   ],
   "tags": [
     "base",

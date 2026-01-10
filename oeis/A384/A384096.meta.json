@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2*n - A080776(n).",
+  "id": "A384096",
+  "mentions": [
+    "A080776"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: the n-th row contains, in weakly decreasing order, the powers of 2 summing to n as obtained by the greedy algorithm.",
+  "id": "A392036",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A006519",
+    "A053644",
+    "A272011"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

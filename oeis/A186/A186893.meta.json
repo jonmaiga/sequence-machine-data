@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the Stern polynomial B(n,x) is irreducible and self-reciprocal.",
+  "description": "Numbers m such that the Stern polynomial B(m,x) is irreducible and self-reciprocal.",
   "id": "A186893",
   "mentions": [
     "A186890",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

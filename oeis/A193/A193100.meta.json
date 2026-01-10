@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. A(x) satisfies: A’(x) = x + A(A(x)), where A(x) = Sum_{n>=0} a(n)*x^(3*n+2)/(3*n+2)!.",
+  "description": "E.g.f. A(x) satisfies: A'(x) = x + A(A(x)), where A(x) = Sum_{n>=0} a(n)*x^(3*n+2)/(3*n+2)!.",
   "id": "A193100",
   "mentions": [
     "A001028",

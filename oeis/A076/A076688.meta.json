@@ -9,11 +9,12 @@
     "A289585"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

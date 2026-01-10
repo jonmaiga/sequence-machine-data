@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-2)^k/Catalan(k).",
+  "id": "A390244",
+  "mentions": [
+    "A000108",
+    "A065918",
+    "A122803",
+    "A197723",
+    "A268813",
+    "A390242",
+    "A390243",
+    "A390245"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

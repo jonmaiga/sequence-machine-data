@@ -1,0 +1,35 @@
+{
+  "description": "Number of subsets of {1..n} not forming a finite arithmetic progression.",
+  "id": "A389813",
+  "mentions": [
+    "A000740",
+    "A007862",
+    "A011782",
+    "A049980",
+    "A049988",
+    "A051336",
+    "A054519",
+    "A070939",
+    "A175342",
+    "A325325",
+    "A325328",
+    "A325545",
+    "A364465",
+    "A389731",
+    "A389732",
+    "A389735",
+    "A389737",
+    "A389741",
+    "A389811",
+    "A389812",
+    "A389921"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

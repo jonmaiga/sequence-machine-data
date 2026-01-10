@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets of noncrossing paths whose nodes are a subset of n nodes arranged in a circle with one node paths allowed.",
+  "id": "A390907",
+  "mentions": [
+    "A390895",
+    "A390897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

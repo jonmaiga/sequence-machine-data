@@ -1,0 +1,16 @@
+{
+  "description": "Number of decimal digits in the numerator of A003504(n).",
+  "id": "A389769",
+  "mentions": [
+    "A003504"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

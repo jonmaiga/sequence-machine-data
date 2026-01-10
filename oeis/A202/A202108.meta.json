@@ -2,6 +2,7 @@
   "description": "Expansion of 4/sqrt(phi) in base phi, where phi=(1+sqrt(5))/2.",
   "id": "A202108",
   "mentions": [
+    "A001622",
     "A202142"
   ],
   "tags": [

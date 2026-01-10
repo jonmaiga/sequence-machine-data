@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the largest digit of n^3 is 6.",
+  "description": "Numbers m such that the largest digit of m^3 is 6.",
   "id": "A294996",
   "mentions": [
     "A000578",

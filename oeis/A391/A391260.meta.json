@@ -1,0 +1,39 @@
+{
+  "description": "Square array A(n,k): Index of the product of Stern polynomials B(n,x) and B(k,x) among the Stern polynomials, or 0 if the product is not a Stern polynomial (see A125184).",
+  "id": "A391260",
+  "mentions": [
+    "A003961",
+    "A003991",
+    "A048675",
+    "A055396",
+    "A061395",
+    "A125184",
+    "A260442",
+    "A260443",
+    "A277333",
+    "A297845",
+    "A389449",
+    "A391239",
+    "A391241",
+    "A391242",
+    "A391243",
+    "A391249",
+    "A391250",
+    "A391256",
+    "A391259",
+    "A391338",
+    "A391339",
+    "A391348",
+    "A391349"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

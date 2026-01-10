@@ -2,6 +2,7 @@
   "description": "Number of distinct primes dividing n (also called omega(n)).",
   "id": "A001221",
   "mentions": [
+    "A000005",
     "A000010",
     "A000040",
     "A001222",
@@ -19,6 +20,8 @@
     "A010051",
     "A013939",
     "A024619",
+    "A033273",
+    "A034444",
     "A046660",
     "A051731",
     "A059841",

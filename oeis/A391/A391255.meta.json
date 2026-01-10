@@ -1,0 +1,20 @@
+{
+  "description": "Odd semiprimes in A391253 that are neither in A365473 nor in A391248.",
+  "id": "A391255",
+  "mentions": [
+    "A048720",
+    "A065621",
+    "A280500",
+    "A365473",
+    "A391248",
+    "A391253"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

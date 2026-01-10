@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of lower primes-only best approximates (POBAs) to the golden ratio, tau (A001622); see Comments.",
+  "description": "Denominator of lower primes-only best approximates (POBAs) to the golden ratio, phi (A001622); see Comments.",
   "id": "A265797",
   "mentions": [
     "A000040",

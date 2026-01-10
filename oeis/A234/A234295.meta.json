@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. satisfies: A(x) = 1 + A(x)^5 * Integral 1/A(x)^5 dx.",
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + A(x)^5 * Integral 1/A(x)^5 dx.",
   "id": "A234295",
   "mentions": [
     "A002294",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

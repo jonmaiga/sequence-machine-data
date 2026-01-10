@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of [n] satisfying Sum_{i=1..n} (p(i)-i)^2 = 2*n.",
+  "id": "A390749",
+  "mentions": [
+    "A175929",
+    "A391511",
+    "A391664"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The number of exponential unitary divisors of the exponentially-2^n numbers.",
+  "id": "A392014",
+  "mentions": [
+    "A138302",
+    "A271727",
+    "A278908",
+    "A361255",
+    "A366538",
+    "A392013",
+    "A392016"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

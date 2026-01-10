@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum number of strong k-tournaments in any n-tournament.",
+  "id": "A386886",
+  "mentions": [
+    "A006918",
+    "A038376",
+    "A339590",
+    "A351822"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 66,
+    "source": "joeis"
+  }
+}

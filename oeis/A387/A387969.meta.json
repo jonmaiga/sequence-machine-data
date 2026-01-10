@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1+x) * exp(x^2*(1+x)^2).",
+  "id": "A387969",
+  "mentions": [
+    "A081125",
+    "A387968",
+    "A387970"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

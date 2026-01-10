@@ -1,17 +1,17 @@
 {
-  "description": "The LerchPhi functional part of A060187 MacMahon numbers is treated/ solved for as a curvature to give a set of polynomial triangle sequence coefficients: p(x,n)=Sum[A060187(n,m)*x^(m-1),{m,0,n}]; q(x,n)=k from Solve[FullSimplify[ExpandAll[p[x, n]/(x - 1)^n]] - (1 + k/x^2) == 0, k].",
+  "description": "The LerchPhi functional part of A060187 MacMahon numbers is treated/ solved for as a curvature to give a set of polynomial triangle sequence coefficients: p(x,n) = Sum[A060187(n,m)*x^(m-1),{m,0,n}]; q(x,n)=k from Solve[FullSimplify[ExpandAll[p[x, n]/(x - 1)^n]] - (1 + k/x^2) == 0, k].",
   "id": "A146543",
   "mentions": [
     "A008292",
     "A060187"
   ],
   "tags": [
-    "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
-    "offset": 0,
-    "size": 42,
+    "offset": 1,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

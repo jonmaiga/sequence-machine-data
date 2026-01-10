@@ -1,0 +1,41 @@
+{
+  "description": "Numbers k such that there is a unique nonnegative sequence whose first sums are the k-th composition in standard order.",
+  "id": "A391622",
+  "mentions": [
+    "A000120",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A066099",
+    "A070939",
+    "A342527",
+    "A357213",
+    "A390307",
+    "A390362",
+    "A390432",
+    "A390449",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390674",
+    "A390675",
+    "A390676",
+    "A390678",
+    "A390745",
+    "A390747",
+    "A391621",
+    "A391623",
+    "A391643",
+    "A391644",
+    "A391645",
+    "A391680"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

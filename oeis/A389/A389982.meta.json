@@ -1,0 +1,19 @@
+{
+  "description": "Triangle in which row n contains values from 1 to n in alphabetical order (in German).",
+  "id": "A389982",
+  "mentions": [
+    "A001061",
+    "A124172"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

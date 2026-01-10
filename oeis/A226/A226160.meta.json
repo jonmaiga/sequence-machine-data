@@ -1,5 +1,5 @@
 {
-  "description": "Least positive integer k such that 1 + 1/2 + ... + 1/k > n/tau, where tau = golden ratio = (1+sqrt(5))/2.",
+  "description": "Least positive integer k such that 1 + 1/2 + ... + 1/k > n/phi, where phi = golden ratio = (1+sqrt(5))/2.",
   "id": "A226160",
   "mentions": [
     "A226161"

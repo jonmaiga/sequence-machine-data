@@ -2,6 +2,7 @@
   "description": "Sum of nonprime divisors of n^2 + 1.",
   "id": "A194039",
   "mentions": [
+    "A002522",
     "A023890"
   ],
   "tags": [

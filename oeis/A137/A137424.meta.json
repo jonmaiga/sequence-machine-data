@@ -1,17 +1,18 @@
 {
-  "description": "a(n)=C{Sum_digits(n),[n mod Sum_digits(n)]}, n>=1.",
+  "description": "a(n) = binomial(digsum(n), n mod digsum(n)).",
   "id": "A137424",
   "mentions": [
-    "A070635",
-    "A110366"
+    "A007953",
+    "A070635"
   ],
   "tags": [
     "easy",
+    "look",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

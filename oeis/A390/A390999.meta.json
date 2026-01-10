@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyforms with n cells of two types: unit squares and isosceles right triangles whose short sides have unit length. Cells are joined along sides of equal lengths.",
+  "id": "A390999",
+  "mentions": [
+    "A006074",
+    "A390993",
+    "A390996",
+    "A391000",
+    "A391001"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

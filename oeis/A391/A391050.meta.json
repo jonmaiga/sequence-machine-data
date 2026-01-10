@@ -1,0 +1,28 @@
+{
+  "description": "Greatest prime q such that A391049(n)^2 - 8*q = s^2 for some s > 0.",
+  "id": "A391050",
+  "mentions": [
+    "A000040",
+    "A067274",
+    "A091626",
+    "A091627",
+    "A364384",
+    "A364385",
+    "A365876",
+    "A365877",
+    "A379597",
+    "A381710",
+    "A381711",
+    "A391049"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

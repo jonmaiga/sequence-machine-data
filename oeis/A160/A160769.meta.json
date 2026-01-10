@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (21+101*x+97*x^2+22*x^3+x^4)/(1-x)^5.",
+  "description": "G.f.: (21 + 101*x + 97*x^2 + 22*x^3 + x^4)/(1 - x)^5.",
   "id": "A160769",
   "mentions": [
     "A160747"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 33,
     "source": "joeis"
   }
 }

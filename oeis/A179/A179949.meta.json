@@ -1,7 +1,9 @@
 {
   "description": "Continued fraction for sqrt(gamma).",
   "id": "A179949",
-  "mentions": [],
+  "mentions": [
+    "A346589"
+  ],
   "tags": [
     "cofr",
     "nonn"

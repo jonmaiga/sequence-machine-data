@@ -1,5 +1,5 @@
 {
-  "description": "a(2*n) = 3*n if n>0, a(2*n + 1) = -(2*n + 1), a(0) = 1.",
+  "description": "a(2*n) = 3*n if n > 0, a(2*n + 1) = -(2*n + 1), a(0) = 1.",
   "id": "A280167",
   "mentions": [
     "A080512",

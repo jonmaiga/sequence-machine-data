@@ -1,0 +1,28 @@
+{
+  "description": "Even Achilles numbers.",
+  "id": "A390952",
+  "mentions": [
+    "A000203",
+    "A001597",
+    "A001694",
+    "A005843",
+    "A052486",
+    "A075090",
+    "A126706",
+    "A286708",
+    "A363216",
+    "A378859",
+    "A390010",
+    "A390953"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

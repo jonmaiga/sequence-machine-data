@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+x)(1+4x)/((1-x)(1-4x)).",
+  "description": "Expansion of (1+x)*(1+4*x)/((1-x)*(1-4*x)).",
   "id": "A086462",
   "mentions": [
     "A001045",

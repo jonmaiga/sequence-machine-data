@@ -1,7 +1,9 @@
 {
   "description": "Nonsquares mod 19.",
   "id": "A028732",
-  "mentions": [],
+  "mentions": [
+    "A010381"
+  ],
   "tags": [
     "fini",
     "full",

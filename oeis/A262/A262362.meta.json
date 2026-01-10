@@ -1,16 +1,25 @@
 {
-  "description": "Real positive integers with more than one factorization in Z[sqrt(10)].",
+  "description": "Numbers with more than one factorization (up to association) in Z[sqrt(10)].",
   "id": "A262362",
   "mentions": [
+    "A038880",
     "A097955",
-    "A262828"
+    "A141179",
+    "A141180",
+    "A262828",
+    "A390526",
+    "A391362",
+    "A391363",
+    "A391364",
+    "A391367"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
-    "source": "oeis-entry"
+    "size": 68,
+    "source": "oeis-bfile"
   }
 }

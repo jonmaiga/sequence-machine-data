@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A( x^2 + 2*x^3 + 2*A(x)^2 ) = 3*A(x)^2.",
+  "id": "A389474",
+  "mentions": [
+    "A000108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

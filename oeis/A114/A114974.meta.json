@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 7^n + n^7 is a semiprime.",
+  "description": "Numbers k such that 7^k + k^7 is a semiprime.",
   "id": "A114974",
   "mentions": [
     "A114970",

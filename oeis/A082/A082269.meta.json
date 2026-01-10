@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms in row n of A082268.",
+  "description": "Number of positive terms in row n of A082268.",
   "id": "A082269",
   "mentions": [
     "A082268"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

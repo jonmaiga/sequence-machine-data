@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the minimum possible value of max{x_1, x_2, ..., x_n}, where x_1, ..., x_n are distinct positive integers such that x_1^2+1, ..., x_n^2+1 are pairwise coprime.",
+  "id": "A389572",
+  "mentions": [
+    "A008578"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

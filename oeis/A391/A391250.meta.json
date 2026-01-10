@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the square of Stern polynomial B(k,x) is not a Stern polynomial.",
+  "id": "A391250",
+  "mentions": [
+    "A000265",
+    "A125184",
+    "A260442",
+    "A260443",
+    "A389449",
+    "A391249",
+    "A391251",
+    "A391260"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = min(2*n, A003961(n)), where A003961 is fully multiplicative with a(p) = nextprime(p)",
+  "id": "A389906",
+  "mentions": [
+    "A003961",
+    "A252463",
+    "A297113",
+    "A322805",
+    "A389910"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

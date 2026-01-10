@@ -2,6 +2,8 @@
   "description": "Continued fraction for c=sqrt(2)*(exp(sqrt(2))+1)/(exp(sqrt(2))-1). a(2*n-1) = 8*n-6, a(2*n) = 4*n-1.",
   "id": "A123167",
   "mentions": [
+    "A000984",
+    "A026741",
     "A123168"
   ],
   "tags": [

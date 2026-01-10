@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = (2n-1)*210; numbers which are 210 times an odd number.",
+  "description": "a(n) = (2*n-1)*210; numbers which are 210 times an odd number.",
   "id": "A236432",
   "mentions": [
     "A053669",
+    "A169825",
     "A235921",
     "A236454"
   ],

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the total number of vertices of degree 3 in Catalan word grid graphs with n parts.",
+  "id": "A390116",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000984",
+    "A390111",
+    "A390115"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 25,
+    "source": "joeis"
+  }
+}

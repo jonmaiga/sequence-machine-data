@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..floor((n+1)/2)} A389524(n, n - 2*k + 2).",
+  "id": "A389573",
+  "mentions": [
+    "A000005",
+    "A025052",
+    "A387793",
+    "A389524",
+    "A389526"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

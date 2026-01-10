@@ -1,0 +1,21 @@
+{
+  "description": "Number of chiral pairs of asymmetric polyominoes with n octagonal cells of the hyperbolic regular tiling with Schläfli symbol {8,oo}.",
+  "id": "A389939",
+  "mentions": [
+    "A002296",
+    "A143547",
+    "A389564",
+    "A389936",
+    "A389937",
+    "A389938"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

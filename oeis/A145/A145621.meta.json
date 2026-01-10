@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of the polynomial A_l(x) = sum_{d=1..l-1} x^(l-d)/d for index l=2n+1 evaluated at x=7.",
+  "description": "Numerator of the polynomial A_i(x) = Sum_{d=1..i-1} x^(i-d)/d for index i=2n+1 evaluated at x=7.",
   "id": "A145621",
   "mentions": [
     "A145609",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

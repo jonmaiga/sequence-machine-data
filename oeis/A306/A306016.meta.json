@@ -1,8 +1,13 @@
 {
-  "description": "Decimal expansion of -Zeta'(2)/Zeta(2).",
+  "description": "Decimal expansion of -zeta'(2)/zeta(2).",
   "id": "A306016",
   "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A013661",
     "A059956",
+    "A061444",
     "A073002"
   ],
   "tags": [

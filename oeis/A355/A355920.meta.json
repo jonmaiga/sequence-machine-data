@@ -2,7 +2,9 @@
   "description": "Largest prime number p such that x^n + y^n mod p does not take all values on Z/pZ.",
   "id": "A355920",
   "mentions": [
-    "A289559"
+    "A289559",
+    "A367688",
+    "A371670"
   ],
   "tags": [
     "nonn"

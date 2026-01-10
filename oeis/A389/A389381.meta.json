@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Product_{n>=1} sqrt(2*Pi) * (m/e)^m / e^(1/(24*m)) / n! (where m=n+1/2), the cumulative error ratio of the first-order refinement of a variant of Stirling's approximation over the positive integers.",
+  "id": "A389381",
+  "mentions": [
+    "A001620",
+    "A074962",
+    "A189048",
+    "A189049",
+    "A277002",
+    "A277003",
+    "A389380",
+    "A389382"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative integers such that the harmonic mean of the digits is an integer.",
+  "id": "A392051",
+  "mentions": [
+    "A011540",
+    "A061383",
+    "A061430",
+    "A147591",
+    "A392049",
+    "A392050"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

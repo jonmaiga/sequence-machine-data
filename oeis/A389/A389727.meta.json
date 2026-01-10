@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the greatest prime > a(n-1) obtained by inserting a single digit anywhere in its string of digits (including at the beginning or end), starting with a(1) = 7.",
+  "id": "A389727",
+  "mentions": [
+    "A389720",
+    "A389721",
+    "A389722",
+    "A389723",
+    "A389724",
+    "A389725",
+    "A389726"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

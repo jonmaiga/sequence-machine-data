@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+4*k+4,k).",
+  "id": "A390388",
+  "mentions": [
+    "A002294",
+    "A186182",
+    "A390384"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

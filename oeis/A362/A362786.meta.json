@@ -1,17 +1,19 @@
 {
-  "description": "Number of unordered triples of disjoint self-avoiding paths with nodes that cover all vertices of a convex n-gon.",
+  "description": "Number of unordered triples of disjoint self-avoiding paths with nodes that cover all vertices of a convex n-gon; one node paths are not allowed.",
   "id": "A362786",
   "mentions": [
     "A308914",
-    "A359404"
+    "A359404",
+    "A390908"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 28,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

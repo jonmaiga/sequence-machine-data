@@ -1,0 +1,34 @@
+{
+  "description": "The sum of the integers k from 1 to n such that gcd(n, k) is a square.",
+  "id": "A390808",
+  "mentions": [
+    "A000290",
+    "A000961",
+    "A005117",
+    "A010052",
+    "A023896",
+    "A057660",
+    "A119790",
+    "A206369",
+    "A246655",
+    "A390800",
+    "A390801",
+    "A390802",
+    "A390803",
+    "A390804",
+    "A390805",
+    "A390806",
+    "A390807",
+    "A390809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

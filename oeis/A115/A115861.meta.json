@@ -1,17 +1,22 @@
 {
-  "description": "Number of distinct m's < n, such that there exists nonzero solutions to a cross-domain congruence m*i = n X i.",
+  "description": "Number of integers m in range 1 .. n-1, such that there exists at least one such i in range 1 .. n^3 for which m*i = A048720(n, i), where A048720 is carryless base-2 multiplication.",
   "id": "A115861",
   "mentions": [
+    "A048720",
     "A115859",
     "A115869",
-    "A115871"
+    "A115871",
+    "A125121",
+    "A391736"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 102,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

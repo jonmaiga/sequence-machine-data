@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(sigma(n) - n) = phi(sigma(n) + n).",
+  "description": "Numbers k such that sigma(sigma(k) - k) = phi(sigma(k) + k).",
   "id": "A074886",
   "mentions": [
     "A000010",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

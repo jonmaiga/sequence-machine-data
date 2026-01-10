@@ -1,5 +1,5 @@
 {
-  "description": "Variant of numbers for which there is at least one 3-smooth representation that is special of level k.",
+  "description": "Numbers for which there is at least one 3-smooth representation that is special of level k.",
   "id": "A213539",
   "mentions": [
     "A003586",
@@ -7,14 +7,15 @@
     "A116640",
     "A116641",
     "A119733",
-    "A226383"
+    "A226383",
+    "A348175"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

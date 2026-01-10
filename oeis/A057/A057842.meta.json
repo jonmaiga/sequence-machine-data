@@ -1,13 +1,16 @@
 {
-  "description": "Numbers n such that n | 6^n + 4^n + 2^n + 1.",
+  "description": "Numbers k such that k | 6^k + 4^k + 2^k + 1.",
   "id": "A057842",
-  "mentions": [],
+  "mentions": [
+    "A074533"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "joeis"
+    "size": 8,
+    "source": "oeis-entry"
   }
 }

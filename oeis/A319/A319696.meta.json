@@ -2,10 +2,12 @@
   "description": "Number of distinct values obtained when Euler phi (A000010) is applied to the divisors of n.",
   "id": "A319696",
   "mentions": [
+    "A000005",
     "A000010",
     "A184395",
     "A319686",
-    "A319695"
+    "A319695",
+    "A326835"
   ],
   "tags": [
     "formulas",

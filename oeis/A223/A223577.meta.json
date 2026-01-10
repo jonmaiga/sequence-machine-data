@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n for which there is exactly one negative integer m such that -n = floor(cot(Pi/(2*m))).",
+  "description": "Positive integers k for which there is exactly one negative integer m such that -k = floor(cot(Pi/(2*m))).",
   "id": "A223577",
   "mentions": [
     "A024812",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

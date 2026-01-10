@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x/(1-x^2)^3 * A(x)^2 ).",
+  "id": "A390304",
+  "mentions": [
+    "A387900",
+    "A390094",
+    "A390301",
+    "A390303"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

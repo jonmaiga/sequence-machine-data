@@ -1,0 +1,22 @@
+{
+  "description": "Discriminants of real quadratic fields in which every additively indecomposable element is a unit.",
+  "id": "A389888",
+  "mentions": [
+    "A003658",
+    "A013928",
+    "A028347",
+    "A035015",
+    "A121339",
+    "A387203",
+    "A387207"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

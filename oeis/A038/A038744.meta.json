@@ -1,17 +1,24 @@
 {
-  "description": "T(2n,n), array T as in A038738.",
+  "description": "a(n) = T(2n,n), array T as in A038738.",
   "id": "A038744",
   "mentions": [
-    "A038738"
+    "A000045",
+    "A001764",
+    "A025174",
+    "A038736",
+    "A038738",
+    "A038792",
+    "A160906",
+    "A263134",
+    "A390238"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 23,
     "source": "joeis"
   }
 }

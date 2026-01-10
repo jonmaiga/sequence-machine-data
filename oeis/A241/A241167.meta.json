@@ -1,7 +1,8 @@
 {
-  "description": "Number of (not necessarily connected) vertex-transitive cubic graphs on 2n nodes.",
+  "description": "Number of cubic graphs on 2n unlabeled nodes whose connected components are vertex-transitive.",
   "id": "A241167",
   "mentions": [
+    "A023646",
     "A032355"
   ],
   "tags": [

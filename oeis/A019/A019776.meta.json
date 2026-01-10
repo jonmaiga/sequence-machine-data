@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of sqrt(e)/3.",
   "id": "A019776",
-  "mentions": [],
+  "mentions": [
+    "A019774"
+  ],
   "tags": [
     "cons",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

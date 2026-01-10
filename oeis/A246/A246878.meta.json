@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1, then a(n) = sum(a(k), k = floor(log_2(n)) .. n - 1).",
+  "description": "a(0) = 1, then a(n) = Sum_{k = floor(log_2(n)) .. n - 1} a(k).",
   "id": "A246878",
   "mentions": [
     "A000523"

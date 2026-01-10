@@ -1,0 +1,22 @@
+{
+  "description": "Number of unoriented polyominoes with n octagonal cells of the hyperbolic regular tiling with Schläfli symbol {8,oo}.",
+  "id": "A389937",
+  "mentions": [
+    "A002296",
+    "A005419",
+    "A143547",
+    "A295260",
+    "A389936",
+    "A389938",
+    "A389939"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

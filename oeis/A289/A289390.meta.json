@@ -1,11 +1,10 @@
 {
-  "description": "Bases b for which there exists an integer y such that y^4 in base b looks like [c,d,c,d] for some base-b digits c, d.",
+  "description": "Integers b for which there exists an integer y < b such that b^2+1 divides y^4.",
   "id": "A289390",
   "mentions": [
     "A290204"
   ],
   "tags": [
-    "base",
     "more",
     "nonn"
   ],

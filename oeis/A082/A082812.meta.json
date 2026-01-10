@@ -1,5 +1,5 @@
 {
-  "description": "Positions of sign changes in running sum of mu(k)/k: n such that sign(Sum(k=1..n; mu(k)/k)) <> sign(Sum(k=1..n+1; mu(k)/k)).",
+  "description": "Positions of sign changes in running sum of mu(k)/k: n such that sign(Sum_{k=1..n} mu(k)/k) <> sign(Sum_{k=1..n+1} mu(k)/k).",
   "id": "A082812",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Sixth column (k=7) of array A090438 ((4,2)-Stirling2) divided by 48=4!*2.",
+  "description": "Sixth column (k=7) of array A090438 ((4,2)-Stirling2) divided by 48 = 4!*2.",
   "id": "A091036",
   "mentions": [
     "A053132",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 4,
-    "size": 11,
+    "size": 13,
     "source": "joeis"
   }
 }

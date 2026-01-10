@@ -1,0 +1,28 @@
+{
+  "description": "Cubefull powers of squarefree numbers.",
+  "id": "A390540",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A013929",
+    "A036966",
+    "A062503",
+    "A072777",
+    "A082020",
+    "A246547",
+    "A246549",
+    "A303606",
+    "A368250",
+    "A388304"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

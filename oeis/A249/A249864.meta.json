@@ -2,7 +2,7 @@
   "description": "A special solution of X(n)^2 - 120*Y(n)^2 = 7^(2*n), n >= 0. The present sequence gives the X values.",
   "id": "A249864",
   "mentions": [
-    "A240926",
+    "A092387",
     "A249457",
     "A249458",
     "A249863"

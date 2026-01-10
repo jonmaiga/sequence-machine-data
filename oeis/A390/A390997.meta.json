@@ -1,0 +1,20 @@
+{
+  "description": "Number of one-sided polyaboloes (or polytans) with n cells, where two triangles sharing a hypotenuse (making up a square) are counted as a single cell.",
+  "id": "A390997",
+  "mentions": [
+    "A151519",
+    "A390994",
+    "A390996",
+    "A390998",
+    "A391000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

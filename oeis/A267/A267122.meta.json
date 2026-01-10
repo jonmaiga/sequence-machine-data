@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 1.5^n is closer to an integer than 1.5^m for any 0 < m < n.",
+  "description": "Numbers k such that 1.5^k is closer to an integer than 1.5^m for any 0 < m < k.",
   "id": "A267122",
   "mentions": [
     "A079490",
     "A080052"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -5,7 +5,6 @@
     "A000002",
     "A111090",
     "A143477",
-    "A143489",
     "A143586",
     "A143589"
   ],
@@ -15,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

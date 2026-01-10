@@ -1,0 +1,21 @@
+{
+  "description": "The maximum exponent in the prime factorization of the exponentially noncomposite numbers (A390439).",
+  "id": "A391898",
+  "mentions": [
+    "A051903",
+    "A375766",
+    "A375768",
+    "A390439",
+    "A391899"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that if n = a U b (where U denotes concatenation) then a’ + b’ = n’, where a’, b’ and n’ are the arithmetic derivatives of a, b and n.",
+  "description": "Composite numbers k such that if k = a U b (where U denotes concatenation) then a' + b' = k', where a', b' and k' are the arithmetic derivatives of a, b and k.",
   "id": "A239724",
   "mentions": [
     "A003415"

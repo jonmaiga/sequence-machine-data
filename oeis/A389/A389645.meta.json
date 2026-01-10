@@ -1,0 +1,18 @@
+{
+  "description": "The factorial base expansion of A389644(n), when read backwards, corresponds to that of A389644(a(n)).",
+  "id": "A389645",
+  "mentions": [
+    "A046807",
+    "A389644"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

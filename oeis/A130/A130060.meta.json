@@ -1,7 +1,8 @@
 {
-  "description": "Primes p such that p^2 divides 3^p - 2^p - 1; or primes in A127074(n).",
+  "description": "Primes p such that p^2 divides 3^p - 2^p - 1; or primes in A127074.",
   "id": "A130060",
   "mentions": [
+    "A000040",
     "A127071",
     "A127072",
     "A127073",

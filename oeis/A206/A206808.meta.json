@@ -1,10 +1,11 @@
 {
-  "description": "Sum_{0",
+  "description": "a(n) = Sum_{0",
   "id": "A206808",
   "mentions": [
     "A206806",
     "A206809",
-    "A206817"
+    "A206817",
+    "A390904"
   ],
   "tags": [
     "easy",

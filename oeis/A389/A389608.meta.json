@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (7*n^2-5*n+2)/2.",
+  "id": "A389608",
+  "mentions": [
+    "A001106"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

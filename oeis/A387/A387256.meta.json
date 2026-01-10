@@ -1,0 +1,34 @@
+{
+  "description": "Powerful numbers that are neither cubefull nor prime powers.",
+  "id": "A387256",
+  "mentions": [
+    "A001248",
+    "A001694",
+    "A036966",
+    "A052485",
+    "A065483",
+    "A082695",
+    "A085548",
+    "A120944",
+    "A126706",
+    "A177492",
+    "A246547",
+    "A286708",
+    "A325240",
+    "A362147",
+    "A372695",
+    "A386762",
+    "A389558",
+    "A389947",
+    "A390539"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of primes q <= A080082(n) such that prime(n) divides q + 1.",
+  "id": "A390840",
+  "mentions": [
+    "A001223",
+    "A080082",
+    "A390839",
+    "A390841",
+    "A390844"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "The sum of the bi-unitary divisors of n that are exponentially odd numbers (A268335).",
+  "id": "A390372",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A013661",
+    "A013664",
+    "A033634",
+    "A042965",
+    "A062503",
+    "A188999",
+    "A268335",
+    "A286324",
+    "A358346",
+    "A384558",
+    "A384559",
+    "A390370",
+    "A390371"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. BesselI(0,2*sqrt(3)*x) + BesselI(1,2*sqrt(3)*x)/sqrt(3).",
+  "description": "Expansion of e.g.f. BesselI(0,2*sqrt(3)*x) + BesselI(1,2*sqrt(3)*x)/sqrt(3).",
   "id": "A098662",
   "mentions": [
     "A098663"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

@@ -1,17 +1,16 @@
 {
-  "description": "Numbers n such that n and n+1 are modest (cf. A054986).",
+  "description": "Numbers k such that k and k+1 are modest (cf. A054986).",
   "id": "A055018",
   "mentions": [
     "A054986"
   ],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

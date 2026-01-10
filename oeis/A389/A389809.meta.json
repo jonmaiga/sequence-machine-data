@@ -1,0 +1,21 @@
+{
+  "description": "Sequence containing k-1 occurrences of prime(k) ordered by k.",
+  "id": "A389809",
+  "mentions": [
+    "A000027",
+    "A005145",
+    "A051697",
+    "A115732",
+    "A389586",
+    "A389810"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

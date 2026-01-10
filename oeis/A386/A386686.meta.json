@@ -1,0 +1,26 @@
+{
+  "description": "Classification of the interval [4*n+1, 4*n+2, 4*n+3] according to positions of squarefree composite numbers.",
+  "id": "A386686",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A010051",
+    "A013929",
+    "A063736",
+    "A120944",
+    "A354819",
+    "A363597",
+    "A389685"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

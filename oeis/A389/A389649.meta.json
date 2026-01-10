@@ -1,0 +1,19 @@
+{
+  "description": "X coordinate of point n while traversing the half plane by integer points in rectangular layers starting from n=1 at the origin.",
+  "id": "A389649",
+  "mentions": [
+    "A025581",
+    "A174344",
+    "A389352",
+    "A389648"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

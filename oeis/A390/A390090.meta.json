@@ -1,0 +1,43 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the first differences of the binary indices of n.",
+  "id": "A390090",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001511",
+    "A011782",
+    "A018900",
+    "A029837",
+    "A029931",
+    "A048645",
+    "A048793",
+    "A048881",
+    "A066099",
+    "A070211",
+    "A070939",
+    "A119387",
+    "A175332",
+    "A228351",
+    "A253566",
+    "A295235",
+    "A325352",
+    "A325545",
+    "A325546",
+    "A333766",
+    "A333768",
+    "A355536",
+    "A358133",
+    "A358135",
+    "A390091",
+    "A390432"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

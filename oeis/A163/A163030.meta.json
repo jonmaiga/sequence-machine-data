@@ -1,17 +1,19 @@
 {
-  "description": "Number of nX4 binary arrays with all 1s connected and a path of 1s from top row to bottom row.",
+  "description": "Number of n X 4 binary arrays with all 1s connected and a path of 1s from top row to bottom row.",
   "id": "A163030",
   "mentions": [
     "A163029",
-    "A163036"
+    "A163036",
+    "A359574"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

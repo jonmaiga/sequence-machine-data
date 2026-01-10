@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^5+2.",
+  "description": "Primes of the form k^5+2.",
   "id": "A216977",
   "mentions": [
     "A053788",

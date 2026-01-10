@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the arithmetic mean of all multiplicative arithmetic functions f(n) with f(p^e) returning a monic degree 3 Littlewood polynomial of p.",
+  "id": "A386704",
+  "mentions": [
+    "A007947",
+    "A053698",
+    "A062158",
+    "A083074",
+    "A100109",
+    "A152618",
+    "A152619",
+    "A155120",
+    "A188377",
+    "A389978"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

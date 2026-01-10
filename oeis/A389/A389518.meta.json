@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of 4 element sets of integer sided trapezoids with distinct areas and base angles that are 60 degrees, which fill an equilateral triangular grid of side n units.",
+  "id": "A389518",
+  "mentions": [
+    "A389392"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

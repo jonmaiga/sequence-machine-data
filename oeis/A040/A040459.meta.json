@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(481).",
   "id": "A040459",
-  "mentions": [],
+  "mentions": [
+    "A041918",
+    "A041919"
+  ],
   "tags": [
     "cofr",
     "easy",

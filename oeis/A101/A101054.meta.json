@@ -1,9 +1,11 @@
 {
-  "description": "E.g.f.: exp(exp(x)-1)/(1-x)^2.",
+  "description": "Expansion of e.g.f. exp(exp(x)-1)/(1-x)^2.",
   "id": "A101054",
   "mentions": [
     "A000110",
-    "A101053"
+    "A101053",
+    "A101055",
+    "A305051"
   ],
   "tags": [
     "formulas",

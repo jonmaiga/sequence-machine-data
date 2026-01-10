@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th term of Hofstadter Q-sequence is > (n+1)-th term.",
+  "description": "Numbers k such that the k-th term of Hofstadter Q-sequence is > (k+1)-th term.",
   "id": "A081829",
   "mentions": [
     "A005185",

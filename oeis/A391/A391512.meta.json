@@ -1,0 +1,16 @@
+{
+  "description": "Primes expressible as a*b*c*d - (a+b+c+d) where a,b,c,d are distinct composite numbers.",
+  "id": "A391512",
+  "mentions": [
+    "A391698",
+    "A391699"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

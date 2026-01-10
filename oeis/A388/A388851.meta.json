@@ -1,10 +1,14 @@
 {
-  "description": "Numbers c such that a!b!c! is a perfect square for some 1 <= a < b < c.",
+  "description": "Numbers c such that a! * b! * c! is a perfect square for some 1 <= a < b < c.",
   "id": "A388851",
   "mentions": [
     "A007917",
     "A055204",
-    "A151799"
+    "A151799",
+    "A387184",
+    "A389553",
+    "A389554",
+    "A389555"
   ],
   "tags": [
     "nonn"

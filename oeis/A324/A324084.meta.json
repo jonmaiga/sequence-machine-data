@@ -1,5 +1,5 @@
 {
-  "description": "One of the four successive approximations up to 13^n for 13-adic integer 3^(1/4).This is the 11 (mod 13) case (except for n = 0).",
+  "description": "One of the four successive approximations up to 13^n for 13-adic integer 3^(1/4). This is the 11 (mod 13) case (except for n = 0).",
   "id": "A324084",
   "mentions": [
     "A286840",

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer k such that k*R_n has digits with alternating parity, where R_n is the n-th repunit.",
+  "id": "A391473",
+  "mentions": [
+    "A002275",
+    "A030141",
+    "A110304",
+    "A110305"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

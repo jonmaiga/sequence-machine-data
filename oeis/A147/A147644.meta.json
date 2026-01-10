@@ -1,18 +1,29 @@
 {
-  "description": "Triangle read by rows: t(n,m)=Binomial[n, m] + If[n > 2, 2*Binomial[n - 2, m - 1], 0]; Mod[If[n > 2, 2*Binomial[n - 2, m - 1], 0],2]=0.",
+  "description": "Triangle read by rows: T(n, k) = binomial(n, k) if n < 3, otherwise T(n, k) = binomial(n, k) + 2*binomial(n-2, k-1).",
   "id": "A147644",
   "mentions": [
+    "A000007",
+    "A000012",
+    "A007283",
+    "A010892",
+    "A022815",
     "A028262",
+    "A052905",
+    "A057544",
+    "A134465",
     "A146986",
-    "A146987"
+    "A146987",
+    "A244472"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 65,
+    "size": 66,
     "source": "joeis"
   }
 }

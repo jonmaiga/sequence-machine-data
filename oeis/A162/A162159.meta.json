@@ -1,5 +1,5 @@
 {
-  "description": "The number of elements in S_4\\det^{-1}(n)/GL(4,\\Z), where we take det : M_{4 \\x 4}(\\Z) \\rightarrow \\Z.",
+  "description": "The number of elements in S_4\\det^{-1}(n)/GL(4,Z), where we take det : M_{4 X 4} (Z) => Z.",
   "id": "A162159",
   "mentions": [
     "A162158"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

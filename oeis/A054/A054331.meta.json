@@ -1,5 +1,5 @@
 {
-  "description": "One eighth of eighth unsigned column of Lanczos' triangle A053125.",
+  "description": "One eighth of eighth unsigned column of Lanczos triangle A053125.",
   "id": "A054331",
   "mentions": [
     "A053125",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

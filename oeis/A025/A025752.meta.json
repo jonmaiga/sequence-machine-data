@@ -2,6 +2,7 @@
   "description": "7th-order Patalan numbers (generalization of Catalan numbers).",
   "id": "A025752",
   "mentions": [
+    "A025748",
     "A034833",
     "A220607"
   ],

@@ -1,14 +1,18 @@
 {
   "description": "Differences of Beatty sequence for cube root of 2.",
   "id": "A081117",
-  "mentions": [],
+  "mentions": [
+    "A002580",
+    "A038129"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

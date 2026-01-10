@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2-2 and (n+2)^2-2 are primes.",
+  "description": "Numbers k such that k^2-2 and (k+2)^2-2 are primes.",
   "id": "A126108",
   "mentions": [
     "A126334"

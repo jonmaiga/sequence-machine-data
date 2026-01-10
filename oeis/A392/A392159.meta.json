@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Pi^2/(36*(3 - sqrt(6))*(sqrt(2) - 1)*zeta(3)).",
+  "id": "A392159",
+  "mentions": [
+    "A002117",
+    "A002388",
+    "A014176",
+    "A188582",
+    "A353908",
+    "A392160"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

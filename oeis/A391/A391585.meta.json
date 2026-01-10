@@ -1,0 +1,35 @@
+{
+  "description": "Numbers k such that 3*k = A048720(m,k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391585",
+  "mentions": [
+    "A003714",
+    "A048717",
+    "A048720",
+    "A125121",
+    "A280500",
+    "A295235",
+    "A333762",
+    "A391584",
+    "A391740",
+    "A391742",
+    "A391744",
+    "A391846",
+    "A391848",
+    "A391850",
+    "A391852",
+    "A391854",
+    "A391856",
+    "A391858",
+    "A391860",
+    "A391925"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

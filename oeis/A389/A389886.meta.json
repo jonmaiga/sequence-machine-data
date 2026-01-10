@@ -1,0 +1,18 @@
+{
+  "description": "Number of proper 3-partitions of the vertices of the fan graph on n vertices such that every triangle uses exactly 2 colors.",
+  "id": "A389886",
+  "mentions": [
+    "A000045",
+    "A008277"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

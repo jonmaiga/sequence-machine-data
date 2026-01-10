@@ -1,0 +1,20 @@
+{
+  "description": "The smallest number in the earliest group of n consecutive numbers that contain prime factor exponents n, n-1, ..., 2, 1, respectively.",
+  "id": "A389794",
+  "mentions": [
+    "A051903",
+    "A124010",
+    "A387536",
+    "A387537",
+    "A389505"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

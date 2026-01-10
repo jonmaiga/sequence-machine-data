@@ -2,7 +2,9 @@
   "description": "Somos-5 sequence variant: a(n) = (a(n-1) * a(n-4) - a(n-2) * a(n-3)) / a(n-5), a(0) = 0, a(1) = a(2) = a(3) = a(4) = 1, a(5) = 2.",
   "id": "A210098",
   "mentions": [
-    "A006721"
+    "A006721",
+    "A277279",
+    "A377310"
   ],
   "tags": [
     "formulas",

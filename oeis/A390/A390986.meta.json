@@ -1,0 +1,17 @@
+{
+  "description": "Integers k such that all prime factors of k^2+1 are Sophie Germain primes.",
+  "id": "A390986",
+  "mentions": [
+    "A005384",
+    "A156541",
+    "A389884"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

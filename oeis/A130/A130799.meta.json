@@ -1,9 +1,10 @@
 {
-  "description": "Triangle read by rows in which row n (n>=3) list the anti-divisors of n.",
+  "description": "Triangle read by rows in which row n (n>=3) lists the anti-divisors of n.",
   "id": "A130799",
   "mentions": [
     "A040040",
     "A066272",
+    "A066417",
     "A066542"
   ],
   "tags": [

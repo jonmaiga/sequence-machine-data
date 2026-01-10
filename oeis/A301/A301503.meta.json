@@ -2,10 +2,30 @@
   "description": "Number of compositions (ordered partitions) of n into square parts (A000290) such that no two adjacent parts are equal (Carlitz compositions).",
   "id": "A301503",
   "mentions": [
+    "A000041",
+    "A000079",
     "A000290",
     "A003242",
+    "A005811",
     "A006456",
-    "A301502"
+    "A008965",
+    "A011782",
+    "A032020",
+    "A033461",
+    "A070211",
+    "A098124",
+    "A109298",
+    "A238130",
+    "A238279",
+    "A276429",
+    "A301502",
+    "A324587",
+    "A333489",
+    "A333755",
+    "A365676",
+    "A389508",
+    "A389530",
+    "A389531"
   ],
   "tags": [
     "formulas",
@@ -14,6 +34,6 @@
   "terms": {
     "offset": 0,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

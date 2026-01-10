@@ -1,0 +1,16 @@
+{
+  "description": "Numbers of the form p^q with odd primes p != q.",
+  "id": "A390188",
+  "mentions": [
+    "A118092",
+    "A390179"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

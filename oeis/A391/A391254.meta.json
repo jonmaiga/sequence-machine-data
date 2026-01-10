@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes k = p*q such that neither k = A048720(p,x) nor k = A048720(q,x) for any x, where A048720 is the carryless binary multiplication.",
+  "id": "A391254",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A048720",
+    "A280500",
+    "A325559",
+    "A391253"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

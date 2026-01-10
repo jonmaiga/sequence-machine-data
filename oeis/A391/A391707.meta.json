@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the odd-indexed Pell numbers.",
+  "id": "A391707",
+  "mentions": [
+    "A000129",
+    "A001653",
+    "A153387",
+    "A153416",
+    "A391706",
+    "A391708",
+    "A391709"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

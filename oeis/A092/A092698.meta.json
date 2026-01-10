@@ -1,13 +1,20 @@
 {
-  "description": "Disk degeneracies for brane III in the O(K)->P^1 x P^1 geometry.",
+  "description": "Ooguri-Vafa invariants of disk degeneracies for brane III in the O(K)->P^1 x P^1 geometry.",
   "id": "A092698",
-  "mentions": [],
+  "mentions": [
+    "A061605",
+    "A061627",
+    "A061628",
+    "A061637",
+    "A092726"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

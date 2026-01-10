@@ -1,0 +1,19 @@
+{
+  "description": "Primitive coreful-bi-unitary abundant numbers: powerful numbers k for which A363334(k) > 2*k.",
+  "id": "A391507",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A363334",
+    "A391506"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. x/cos(x) (odd powers only).",
+  "description": "Expansion of e.g.f. x/cos(x) (odd powers only).",
   "id": "A009843",
   "mentions": [
     "A000364",

@@ -1,5 +1,5 @@
 {
-  "description": "n not divisible by any prime=p, where either p-2 or p+2 is prime.",
+  "description": "Numbers that are not divisible by any prime=p, where either p-2 or p+2 is prime.",
   "id": "A062729",
   "mentions": [
     "A007510",

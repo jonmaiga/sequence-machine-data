@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of psi'(1/6).",
+  "id": "A390076",
+  "mentions": [
+    "A086727",
+    "A222457",
+    "A390072"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

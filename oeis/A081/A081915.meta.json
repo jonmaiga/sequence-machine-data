@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4^n*(n^3 - 3n^2 + 2n + 384)/384.",
+  "description": "a(n) = 4^n*(n^3 - 3*n^2 + 2*n + 384)/384.",
   "id": "A081915",
   "mentions": [
     "A081914",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "joeis"
   }
 }

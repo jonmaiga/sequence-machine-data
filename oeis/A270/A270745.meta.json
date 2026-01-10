@@ -1,5 +1,5 @@
 {
-  "description": "(r,1)-greedy sequence, where r(k) = k/tau^k and tau = golden ratio.",
+  "description": "(r,1)-greedy sequence, where r(k) = k/phi^k and phi = golden ratio.",
   "id": "A270745",
   "mentions": [
     "A001620",

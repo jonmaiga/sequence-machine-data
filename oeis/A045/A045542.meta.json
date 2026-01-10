@@ -1,11 +1,12 @@
 {
-  "description": "Sub-perfect powers: perfect powers (squares, cubes etc.) minus 1.",
+  "description": "Sub-perfect powers: perfect powers (squares, cubes etc., not including 1) minus 1.",
   "id": "A045542",
   "mentions": [
     "A000668",
     "A001597",
     "A214390",
-    "A214391"
+    "A214391",
+    "A216765"
   ],
   "tags": [
     "easy",

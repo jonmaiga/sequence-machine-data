@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 17/36*zeta(4).",
+  "description": "Decimal expansion of (17/36)*zeta(4).",
   "id": "A086464",
   "mentions": [
     "A073010",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

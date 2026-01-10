@@ -1,5 +1,5 @@
 {
-  "description": "For n >= 0, a(n) is the least x >= 0 such that x^2 + (x + 2*n)^2 + 1 = p, p prime number (A000040).",
+  "description": "For n >= 0, a(n) is the least x >= 0 such that x^2 + (x + 2*n)^2 + 1 is prime.",
   "id": "A366193",
   "mentions": [
     "A000040",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 90,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

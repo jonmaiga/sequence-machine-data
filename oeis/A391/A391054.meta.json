@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 9*n+1 if n is odd and (n + (n mod 4))/4 if n is even.",
+  "id": "A391054",
+  "mentions": [
+    "A006370"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

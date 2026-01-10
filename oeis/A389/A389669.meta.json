@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (-1)^k * zeta(k) / ((k+1) * (k+2)).",
+  "id": "A389669",
+  "mentions": [
+    "A001620",
+    "A074962",
+    "A225746",
+    "A321943",
+    "A379425",
+    "A389666",
+    "A389667",
+    "A389668",
+    "A389670"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

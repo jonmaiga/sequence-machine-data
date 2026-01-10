@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors d of n such that d^(n/d) == d (mod (n/d)).",
+  "id": "A390213",
+  "mentions": [
+    "A000005",
+    "A384237",
+    "A389781"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

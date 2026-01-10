@@ -1,0 +1,17 @@
+{
+  "description": "Minimum size of maximum clique or independent set of a graph on n vertices.",
+  "id": "A390256",
+  "mentions": [
+    "A059442",
+    "A212954"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

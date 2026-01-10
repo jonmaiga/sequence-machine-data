@@ -1,5 +1,5 @@
 {
-  "description": "G.f. -x*(x-1)*(1+x)/(1-x-9*x^2-x^3+x^4).",
+  "description": "Expansion of g.f.: x*(1 - x)*(1 + x)/(1 - x - 9*x^2 - x^3 + x^4).",
   "id": "A171066",
   "mentions": [
     "A003757",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

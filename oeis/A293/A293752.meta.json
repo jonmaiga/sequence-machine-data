@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that c(k,0) = c(k,1), where c(k,d) = number of d's in the first k digits of the base-2 expansion of tau (the golden ratio, (1+sqrt(5))/2).",
+  "description": "Numbers k such that c(k,0) = c(k,1), where c(k,d) = number of d's in the first k digits of the base-2 expansion of phi (the golden ratio, (1+sqrt(5))/2).",
   "id": "A293752",
   "mentions": [
     "A068432",

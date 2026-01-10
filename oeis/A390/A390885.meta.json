@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyaboloes without any two triangles sharing a hypotenuse.",
+  "id": "A390885",
+  "mentions": [
+    "A000012",
+    "A000105",
+    "A000577",
+    "A006074",
+    "A057787",
+    "A390515"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

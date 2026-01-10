@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that the equation phi(x) = k has exactly n solutions and the arithmetic mean of these solutions is an integer, or -1 if no such number exists.",
+  "id": "A389860",
+  "mentions": [
+    "A000010",
+    "A007366",
+    "A007367",
+    "A007374",
+    "A271983",
+    "A389859"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

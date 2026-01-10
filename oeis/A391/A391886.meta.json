@@ -1,0 +1,17 @@
+{
+  "description": "Array read by downward antidiagonals: A(n,k) = A(n-1,k) + (k+1)*A(n-1,k+1) + k*A(n-1,k-1) with A(n,0) = A(n-1,0) + A(n-1,1), A(0,k) = 1.",
+  "id": "A391886",
+  "mentions": [
+    "A201158"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

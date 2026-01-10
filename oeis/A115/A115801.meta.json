@@ -1,18 +1,22 @@
 {
-  "description": "Integers i such that 9*i = 25 X i.",
+  "description": "Numbers k such that 9*k = A048720(25,k), where A048720 is carryless base-2 multiplication.",
   "id": "A115801",
   "mentions": [
     "A048720",
     "A115802",
     "A115809",
-    "A115811"
+    "A115811",
+    "A115872",
+    "A391744",
+    "A391850"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 46,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
   }
 }

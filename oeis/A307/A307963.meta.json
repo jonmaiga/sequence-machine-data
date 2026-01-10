@@ -2,6 +2,9 @@
   "description": "Larger of coreful amicable numbers pair: numbers (m, n) such that csigma(m) = csigma(n) = m + n, where csigma(n) is the sum of the coreful divisors of n (A057723).",
   "id": "A307963",
   "mentions": [
+    "A002025",
+    "A002046",
+    "A007947",
     "A057723",
     "A307958",
     "A307959",

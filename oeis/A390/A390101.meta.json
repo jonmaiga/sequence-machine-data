@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the minimum positive x such that (n mod x) = k.",
+  "id": "A390101",
+  "mentions": [
+    "A000012",
+    "A020639",
+    "A048158",
+    "A110654"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

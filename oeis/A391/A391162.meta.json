@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic magmas with n elements and a closed center.",
+  "id": "A391162",
+  "mentions": [
+    "A001329",
+    "A391093",
+    "A391156",
+    "A391161"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,18 +1,21 @@
 {
-  "description": "Index of 8^n within sequence of numbers of form 5^i*8^j.",
+  "description": "Index of 8^n within the sequence of the numbers of the form 5^i*8^j.",
   "id": "A025729",
   "mentions": [
     "A001018",
     "A025623",
     "A025653",
-    "A025714"
+    "A025714",
+    "A153739"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

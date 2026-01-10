@@ -1,17 +1,19 @@
 {
-  "description": "Integers i such that 11*i = 31 X i.",
+  "description": "Numbers k such that 11*k = A048720(31,k), where A048720 is carryless base-2 multiplication.",
   "id": "A115803",
   "mentions": [
     "A048720",
     "A115804",
-    "A115805"
+    "A115805",
+    "A391846"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 56,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
   }
 }

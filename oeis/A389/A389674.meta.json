@@ -1,0 +1,19 @@
+{
+  "description": "If n is a power of 10, then leave n untouched, else rewrite n in the base given by the sum of its digits, and 'read' those new digits in base 10.",
+  "id": "A389674",
+  "mentions": [
+    "A007953",
+    "A011557",
+    "A326833"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

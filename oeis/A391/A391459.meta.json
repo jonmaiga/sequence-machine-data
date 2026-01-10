@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g/(2 - g^2), where g = 1+x*g^2 is the g.f. of A000108.",
+  "id": "A391459",
+  "mentions": [
+    "A000108",
+    "A000129",
+    "A391462",
+    "A391465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

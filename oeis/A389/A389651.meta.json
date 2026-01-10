@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (127/128) * zeta(7).",
+  "id": "A389651",
+  "mentions": [
+    "A013665"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

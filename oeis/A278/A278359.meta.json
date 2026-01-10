@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..1 arrays with rows and columns in lexicographic nondecreasing order but with exactly one mistake.",
+  "description": "Number of n X 4 0..1 arrays with rows and columns in lexicographic nondecreasing order but with exactly one mistake.",
   "id": "A278359",
   "mentions": [
     "A278363"

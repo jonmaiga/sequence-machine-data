@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the positive even-indexed Pell numbers.",
+  "id": "A391706",
+  "mentions": [
+    "A000129",
+    "A001542",
+    "A153386",
+    "A153415",
+    "A391707",
+    "A391708",
+    "A391709"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

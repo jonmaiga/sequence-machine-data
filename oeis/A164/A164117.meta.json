@@ -2,8 +2,8 @@
   "description": "Expansion of (1 - x) * (1 - x^10) / ((1 - x^2) * (1 - x^4) * (1 - x^5)) in powers of x.",
   "id": "A164117",
   "mentions": [
-    "A164118",
-    "A164415"
+    "A164115",
+    "A164118"
   ],
   "tags": [
     "easy",

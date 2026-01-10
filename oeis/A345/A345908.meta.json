@@ -55,12 +55,11 @@
     "A346632"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

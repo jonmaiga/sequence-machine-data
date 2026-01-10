@@ -1,5 +1,5 @@
 {
-  "description": "m such that 2m + 1 divides lcm(1,3,5,...,2m - 1).",
+  "description": "Integers m such that 2m + 1 divides lcm(1,3,5,...,2m - 1).",
   "id": "A083390",
   "mentions": [
     "A025547",

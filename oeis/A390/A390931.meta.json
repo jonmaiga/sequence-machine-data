@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^(1/6)*sqrt(1+phi^2)/2, where phi = A001622.",
+  "id": "A390931",
+  "mentions": [
+    "A001622",
+    "A010768",
+    "A019881"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

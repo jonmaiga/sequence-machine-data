@@ -1,12 +1,32 @@
 {
-  "description": "Class numbers of indefinite quadratic forms over the integers in two variables with discriminant D = D(n) = A079896(n), n>=1.",
+  "description": "Class number of indefinite quadratic forms over the integers in two variables with discriminant D = D(n) = A079896(n), n>=1.",
   "id": "A087048",
   "mentions": [
     "A000924",
+    "A003646",
+    "A003652",
+    "A003655",
+    "A003656",
+    "A003658",
     "A006374",
-    "A079896"
+    "A014600",
+    "A079896",
+    "A094612",
+    "A094619",
+    "A133315",
+    "A306638",
+    "A344408",
+    "A344409",
+    "A390079",
+    "A391418",
+    "A391420",
+    "A391421",
+    "A391423",
+    "A391424",
+    "A391425"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = (3n+1)*n!.",
+  "description": "a(n) = (3*n + 1)*n!.",
   "id": "A082033",
   "mentions": [
+    "A000142",
     "A007680",
     "A016777",
     "A082034",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

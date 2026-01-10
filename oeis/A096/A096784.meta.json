@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both n and n+1 are composite numbers that sum up to a prime.",
+  "description": "Numbers k such that both k and k+1 are composite numbers that sum up to a prime.",
   "id": "A096784",
   "mentions": [
     "A060254",

@@ -1,0 +1,18 @@
+{
+  "description": "The number of partitions of [n] into a set of irreducible balanced subsets.",
+  "id": "A389805",
+  "mentions": [
+    "A389802",
+    "A389806",
+    "A389807"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

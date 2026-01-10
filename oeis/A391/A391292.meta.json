@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2^(7/4).",
+  "id": "A391292",
+  "mentions": [
+    "A000791",
+    "A011006"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

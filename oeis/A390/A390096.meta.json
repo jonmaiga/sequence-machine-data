@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of the form p^2 * m, squarefree m > 1, prime p > gpf(m), where gpf = A006530.",
+  "id": "A390096",
+  "mentions": [
+    "A001248",
+    "A006530",
+    "A007947",
+    "A070003",
+    "A072357",
+    "A120944",
+    "A126706",
+    "A138302",
+    "A229027",
+    "A253560",
+    "A366825",
+    "A386684"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

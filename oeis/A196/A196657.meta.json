@@ -1,9 +1,12 @@
 {
-  "description": "63*2^(n+1) + 1.",
+  "description": "a(n) = 63*2^(n+1) + 1.",
   "id": "A196657",
-  "mentions": [],
+  "mentions": [
+    "A196658"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

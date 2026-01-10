@@ -1,19 +1,21 @@
 {
-  "description": "Integers i such that 13*i = 29 X i.",
+  "description": "Numbers k such that 13*k = A048720(29,k), where A048720 is carryless base-2 multiplication.",
   "id": "A115805",
   "mentions": [
     "A048720",
     "A115803",
     "A115806",
     "A115823",
-    "A115829"
+    "A115829",
+    "A391848"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 43,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

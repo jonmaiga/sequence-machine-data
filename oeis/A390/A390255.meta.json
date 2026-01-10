@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. x*(1 + x/2)*sinh(x).",
+  "id": "A390255",
+  "mentions": [
+    "A014105"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

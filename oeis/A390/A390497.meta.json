@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime that starts a sequence of two or more consecutive primes whose sum is A050936(n).",
+  "id": "A390497",
+  "mentions": [
+    "A007504",
+    "A050936",
+    "A084143",
+    "A391433"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that both k+1 and (product of digits of k) + 1 are squares.",
+  "description": "Numbers k that have no zero digits and such that both k+1 and (product of digits of k) + 1 are squares.",
   "id": "A081990",
   "mentions": [
     "A081989"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

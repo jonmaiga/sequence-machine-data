@@ -1,7 +1,9 @@
 {
-  "description": "Primes p such that p^2+10 is prime.",
+  "description": "Primes p such that p^2 + 10 is prime.",
   "id": "A243367",
   "mentions": [
+    "A045637",
+    "A079141",
     "A182475"
   ],
   "tags": [
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

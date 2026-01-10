@@ -1,0 +1,25 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = HurwitzZeta(-n, k) - HurwitzZeta(-n, k+n) with k >= 0.",
+  "id": "A391310",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A001844",
+    "A027602",
+    "A031971",
+    "A096141",
+    "A121706",
+    "A160828",
+    "A391311"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A143615(n) = sigma(n) where sigma(n) = A000203(n).",
+  "description": "Numbers k such that A143615(k) = sigma(k) where sigma(k) = A000203(k).",
   "id": "A215195",
   "mentions": [
     "A000203",

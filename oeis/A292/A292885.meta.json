@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least number k such that k | concat(k-n,k-n+1,…,k,…,k+n-1,k+n).",
+  "description": "a(n) is the least number k such that k | concat(k-n,k-n+1,...,k,...,k+n-1,k+n).",
   "id": "A292885",
   "mentions": [
     "A069860",

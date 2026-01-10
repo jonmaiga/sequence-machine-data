@@ -2,7 +2,7 @@
   "description": "Smallest number k such that the sum of prime factors of k (counted with multiplicity) is n times a square > 1.",
   "id": "A213420",
   "mentions": [
-    "A212401",
+    "A001414",
     "A213386"
   ],
   "tags": [

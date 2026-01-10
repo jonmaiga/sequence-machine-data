@@ -2,7 +2,17 @@
   "description": "T(n,k)=Number of pairs of orthogonal (-x,y) vectors of length k*(x+y), where x/y is the n-th rational <= 1, ordered first by y and then x, e.g. 1/1, 1/2, 1/3, 2/3, 1/4, 3/4 ...",
   "id": "A225987",
   "mentions": [
-    "A098402"
+    "A098402",
+    "A225986",
+    "A225988",
+    "A225989",
+    "A225990",
+    "A225991",
+    "A225992",
+    "A225993",
+    "A225994",
+    "A225995",
+    "A225996"
   ],
   "tags": [
     "nonn",

@@ -1,14 +1,22 @@
 {
   "description": "Least m such that A(m) = -10^n, where A(n) = sigma(n) - 2n, the abundance of n.",
   "id": "A075767",
-  "mentions": [],
+  "mentions": [
+    "A049054",
+    "A088274",
+    "A101223",
+    "A107083",
+    "A135115",
+    "A292557",
+    "A292558",
+    "A363285"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

@@ -2,8 +2,10 @@
   "description": "Expansion of x*(3 - 2*x + x^2)/((1 - x)^2*(1 + x + x^2)).",
   "id": "A272071",
   "mentions": [
+    "A006370",
     "A011655",
-    "A028242"
+    "A028242",
+    "A160967"
   ],
   "tags": [
     "easy",

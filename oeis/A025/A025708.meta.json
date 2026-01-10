@@ -1,10 +1,15 @@
 {
-  "description": "Index of 5^n within sequence of numbers of form 5^i*7^j.",
+  "description": "Index of 5^n within the sequence of the numbers of the form 5^i*7^j.",
   "id": "A025708",
   "mentions": [
-    "A025667"
+    "A000351",
+    "A003595",
+    "A025667",
+    "A153203"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

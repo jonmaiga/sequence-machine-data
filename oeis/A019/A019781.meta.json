@@ -2,6 +2,7 @@
   "description": "Decimal expansion of sqrt(e)/8.",
   "id": "A019781",
   "mentions": [
+    "A019774",
     "A019777"
   ],
   "tags": [

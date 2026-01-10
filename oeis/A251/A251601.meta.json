@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that hexagonal numbers H(n) and H(n+1) sum to another hexagonal number.",
+  "description": "Numbers k such that hexagonal numbers H(k) and H(k+1) sum to another hexagonal number.",
   "id": "A251601",
   "mentions": [
     "A000384",

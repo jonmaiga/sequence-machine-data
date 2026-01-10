@@ -2,6 +2,7 @@
   "description": "a(n) = (4*n + 1)*n!.",
   "id": "A082034",
   "mentions": [
+    "A000142",
     "A007680",
     "A016813",
     "A082033",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

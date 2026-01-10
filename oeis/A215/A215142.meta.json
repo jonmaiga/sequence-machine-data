@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the difference between the greatest prime divisor of n and the sum of the other distinct prime divisors equals 1.",
+  "description": "Numbers k such that the difference between the greatest prime divisor of k and the sum of the other distinct prime divisors equals 1.",
   "id": "A215142",
   "mentions": [
     "A033845"

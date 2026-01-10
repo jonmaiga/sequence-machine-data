@@ -1,0 +1,17 @@
+{
+  "description": "Least integer k such that (2^n*k)^2+1 is prime, or 0 if no such k exists.",
+  "id": "A390482",
+  "mentions": [
+    "A002496",
+    "A052292",
+    "A389785"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

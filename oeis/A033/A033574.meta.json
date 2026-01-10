@@ -1,7 +1,11 @@
 {
   "description": "a(n) = (2*n+1)*(10*n+1).",
   "id": "A033574",
-  "mentions": [],
+  "mentions": [
+    "A005408",
+    "A017281",
+    "A051624"
+  ],
   "tags": [
     "easy",
     "formulas",

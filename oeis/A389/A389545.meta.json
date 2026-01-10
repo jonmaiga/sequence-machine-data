@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..4} 2^k * binomial(n,k).",
+  "id": "A389545",
+  "mentions": [
+    "A058331",
+    "A130810",
+    "A161712"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

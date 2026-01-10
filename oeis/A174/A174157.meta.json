@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^64+(n+1)^64 is a prime.",
+  "description": "Numbers k such that k^64+(k+1)^64 is a prime.",
   "id": "A174157",
   "mentions": [
     "A153504",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
-    "source": "oeis-bfile"
+    "size": 46,
+    "source": "joeis"
   }
 }

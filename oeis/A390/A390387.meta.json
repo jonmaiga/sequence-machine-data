@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+7*k,k).",
+  "id": "A390387",
+  "mentions": [
+    "A001700",
+    "A007556",
+    "A376447",
+    "A388043",
+    "A389239",
+    "A390384",
+    "A390385",
+    "A390386",
+    "A390391"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

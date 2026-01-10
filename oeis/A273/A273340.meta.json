@@ -1,5 +1,5 @@
 {
-  "description": "Smallest base b such that A273339(b) = A002808(n), i.e., smallest base b > 1 such that the n-th composite number is the smallest \"non-Wieferich pseudoprime\" to base b.",
+  "description": "Smallest base b such that A273339(b) = A002808(n); i.e., smallest base b > 1 such that the n-th composite number is the smallest \"non-Wieferich pseudoprime\" to base b, or -1 if no such b exists.",
   "id": "A273340",
   "mentions": [
     "A002808",
@@ -7,11 +7,11 @@
   ],
   "tags": [
     "more",
-    "nonn"
+    "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

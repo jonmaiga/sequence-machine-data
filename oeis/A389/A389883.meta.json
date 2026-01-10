@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest integer k such that ((2^n + 5)^k - 5^k)/2^n is prime, or -1 if no such k exists.",
+  "id": "A389883",
+  "mentions": [
+    "A062572",
+    "A128344",
+    "A128346",
+    "A128349",
+    "A246005",
+    "A389827"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

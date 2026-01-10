@@ -2,16 +2,18 @@
   "description": "Odd part of A005277(n).",
   "id": "A079697",
   "mentions": [
+    "A000265",
     "A005277",
     "A057192",
     "A079698"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
+    "size": 60,
     "source": "oeis-bfile"
   }
 }

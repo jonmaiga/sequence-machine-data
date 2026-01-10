@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{i=3..n} (prime(i)-4).",
+  "description": "a(n) = Product_{i=3..n} (prime(i) - 4).",
   "id": "A059863",
   "mentions": [
     "A000847",

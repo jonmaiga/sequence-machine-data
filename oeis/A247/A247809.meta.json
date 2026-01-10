@@ -1,8 +1,9 @@
 {
-  "description": "Numbers in decimal representation with distinct digits, such that in Norwegian and Swedish their digits are in alphabetic order.",
+  "description": "Numbers in decimal representation with distinct digits, such that in Swedish their digits are in alphabetic order.",
   "id": "A247809",
   "mentions": [
     "A010784",
+    "A053432",
     "A053433",
     "A247759",
     "A247800",
@@ -28,7 +29,7 @@
     "word"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 64,
     "source": "oeis-bfile"
   }

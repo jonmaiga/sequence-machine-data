@@ -1,0 +1,21 @@
+{
+  "description": "Number of irreducible polynomial factors of Stern polynomial B(n,x) that themselves are Stern polynomials, counted with multiplicity.",
+  "id": "A391237",
+  "mentions": [
+    "A125184",
+    "A260443",
+    "A277013",
+    "A389449",
+    "A389918",
+    "A391238"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

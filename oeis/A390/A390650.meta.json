@@ -1,0 +1,19 @@
+{
+  "description": "Number of tic-tac-toe positions after n plays.",
+  "id": "A390650",
+  "mentions": [
+    "A008907",
+    "A048245",
+    "A061526"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

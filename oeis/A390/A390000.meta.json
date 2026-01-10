@@ -1,0 +1,20 @@
+{
+  "description": "Ordered numbers of partitions of the faces of the Catalan solids into 2 connected subsets.",
+  "id": "A390000",
+  "mentions": [
+    "A343434",
+    "A358999",
+    "A389999",
+    "A390001"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

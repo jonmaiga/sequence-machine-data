@@ -1,7 +1,9 @@
 {
-  "description": "Number of runs of even length in base-8 representation of n.",
+  "description": "Number of runs of even length in the base-8 representation of n.",
   "id": "A044939",
-  "mentions": [],
+  "mentions": [
+    "A044933"
+  ],
   "tags": [
     "base",
     "nonn"

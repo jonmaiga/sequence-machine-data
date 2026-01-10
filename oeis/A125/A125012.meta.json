@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which nontrivial positive magic squares of exactly 5 different orders with magic sum n exist. For a definition of nontrivial positive magic squares, see A125005.",
+  "description": "Numbers k for which nontrivial positive magic squares of exactly 5 different orders with magic sum k exist. For a definition of nontrivial positive magic squares, see A125005.",
   "id": "A125012",
   "mentions": [
     "A125005",

@@ -2,15 +2,18 @@
   "description": "a(n) = (4*n)^4.",
   "id": "A016804",
   "mentions": [
+    "A000583",
+    "A016744",
     "A155955"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 31,
     "source": "joeis"
   }
 }

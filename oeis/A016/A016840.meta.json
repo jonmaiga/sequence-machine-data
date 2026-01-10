@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (4*n+3)^4.",
   "id": "A016840",
-  "mentions": [],
+  "mentions": [
+    "A390075"
+  ],
   "tags": [
     "easy",
     "formulas",

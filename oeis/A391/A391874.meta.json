@@ -1,0 +1,16 @@
+{
+  "description": "Nonsquare integers >= 2 for which the square of its largest prime factor equals the sum of the squares of its other prime factors, with multiplicity.",
+  "id": "A391874",
+  "mentions": [
+    "A385967",
+    "A390574"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

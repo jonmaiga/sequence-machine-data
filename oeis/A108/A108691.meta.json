@@ -1,13 +1,16 @@
 {
   "description": "Continued fraction expansion of Pi^2/exp(gamma).",
   "id": "A108691",
-  "mentions": [],
+  "mentions": [
+    "A002388",
+    "A073004"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 100,
     "source": "joeis"
   }

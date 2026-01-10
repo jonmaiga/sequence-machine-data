@@ -1,0 +1,20 @@
+{
+  "description": "The number of two-component spanning forests of the wheel graph W_{n+1} in which vertices v_1 and v_3 lie in different components.",
+  "id": "A391263",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A004146",
+    "A005248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp(x+x^3+x^5).",
+  "description": "Expansion of e.g.f. exp(x+x^3+x^5).",
   "id": "A191237",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

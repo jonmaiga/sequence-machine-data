@@ -1,0 +1,20 @@
+{
+  "description": "Norms of the Mersenne primes M_{p, 2 + phi} = (2 + phi)^p - 1 in quadratic ring Z[phi], where p is a rational prime and phi = (1 + sqrt(5))/2.",
+  "id": "A390618",
+  "mentions": [
+    "A000668",
+    "A086122",
+    "A232993",
+    "A390617"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

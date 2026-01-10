@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) + pi(n) is prime.",
+  "description": "Numbers k such that phi(k) + pi(k) is prime.",
   "id": "A227623",
   "mentions": [
     "A097646"

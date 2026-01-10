@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p for which there are exactly n smaller primes q such that p - q is a perfect square.",
+  "id": "A386603",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A065376",
+    "A065377",
+    "A386600"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

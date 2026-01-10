@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that rad(phi(n)) divides n-1.",
+  "description": "Numbers k such that rad(phi(k)) divides k-1.",
   "id": "A187731",
   "mentions": [
     "A000010",

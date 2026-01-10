@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of vertices of Platonic solids in the order tetrahedron, octahedron, cube, icosahedron, dodecahedron. Equally, numbers of faces of Platonic solids in the order tetrahedron, cube, octahedron, dodecahedron, icosahedron.",
+  "description": "Numbers of vertices of Platonic solids in the order tetrahedron, octahedron, cube, icosahedron, dodecahedron.",
   "id": "A053016",
   "mentions": [
     "A063722",

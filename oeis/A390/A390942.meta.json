@@ -1,0 +1,17 @@
+{
+  "description": "Value of T[2] after the n-th iteration, when the map T is initialized with T[1] = 1 and in subsequent iterations, T[v] = k + (T[v] if defined else 0) for all key-value pairs (k, v) in T; a(n) = 0 if T[2] isn't defined yet.",
+  "id": "A390942",
+  "mentions": [
+    "A390939"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

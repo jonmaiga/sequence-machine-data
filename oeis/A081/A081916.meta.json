@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 5^n*(n^3 - 3n^2 + 2n + 750)/750.",
+  "description": "a(n) = 5^n*(n^3 - 3*n^2 + 2*n + 750)/750.",
   "id": "A081916",
   "mentions": [
     "A081915"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

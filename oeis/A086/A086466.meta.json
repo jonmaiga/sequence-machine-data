@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 2*sqrt(5)/5 arccsch(2).",
+  "description": "Decimal expansion of 2*arccsch(2)/sqrt(5).",
   "id": "A086466",
   "mentions": [
     "A000032",
@@ -21,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

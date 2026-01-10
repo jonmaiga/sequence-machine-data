@@ -2,7 +2,8 @@
   "description": "Coordination sequence T2 for Coesite.",
   "id": "A008268",
   "mentions": [
-    "A008000"
+    "A008000",
+    "A008267"
   ],
   "tags": [
     "formulas",

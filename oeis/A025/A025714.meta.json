@@ -1,17 +1,21 @@
 {
-  "description": "Index of 6^n within sequence of numbers of form 4^i*6^j.",
+  "description": "Index of 6^n within the sequence of the numbers of the form 4^i*6^j.",
   "id": "A025714",
   "mentions": [
+    "A000400",
     "A025618",
     "A025647",
-    "A025729"
+    "A025729",
+    "A153460"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

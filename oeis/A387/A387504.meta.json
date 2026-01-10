@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways n L-tiles can be placed on an n X n square.",
+  "id": "A387504",
+  "mentions": [
+    "A243608"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

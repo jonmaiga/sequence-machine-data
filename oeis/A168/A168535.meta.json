@@ -2,7 +2,8 @@
   "description": "Primes in A028359.",
   "id": "A168535",
   "mentions": [
-    "A028359"
+    "A028359",
+    "A092696"
   ],
   "tags": [
     "nonn"

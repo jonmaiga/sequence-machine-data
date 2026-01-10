@@ -1,5 +1,5 @@
 {
-  "description": "Jazz chord substitution: Aminor,Cminor,DMajor,GMajor Uses a start vector based on these: {1, 4, 6, 11}.",
+  "description": "Jazz chord substitution: A-minor, C-minor, D-major, G-major Uses a start vector based on these: {1, 4, 6, 11}.",
   "id": "A131517",
   "mentions": [],
   "tags": [

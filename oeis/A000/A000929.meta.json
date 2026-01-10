@@ -1,5 +1,5 @@
 {
-  "description": "Dimension of n-th degree part of Steenrod algebra.",
+  "description": "Dimension of the n-th graded piece of the mod-2 Steenrod algebra A_2.",
   "id": "A000929",
   "mentions": [
     "A000041",

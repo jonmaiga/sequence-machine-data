@@ -1,5 +1,5 @@
 {
-  "description": "Number of q in the range 0<=q<=n for which k(n)+k(q) is prime, with k(n) := n*(n+1)^2/2.",
+  "description": "Number of q in the range 0<=q<=n for which A006002(n)+A006002(q) is prime.",
   "id": "A209777",
   "mentions": [
     "A006002",

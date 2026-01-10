@@ -1,5 +1,5 @@
 {
-  "description": "Pell equation solutions (7*b(n))^2 - 2*(5*a(n))^2 = -1 with b(n)=A097732(n), n >= 0. Note that D=50=2*5^2 is not squarefree.",
+  "description": "Pell equation solutions (7*b(n))^2 - 2*(5*a(n))^2 = -1 with b(n) = A097732(n), n >= 0. Note that D = 50 = 2*5^2 is not squarefree.",
   "id": "A097733",
   "mentions": [
     "A000129",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

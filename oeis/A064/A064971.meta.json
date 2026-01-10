@@ -2,9 +2,11 @@
   "description": "a(n) = n*usigma(n), where usigma(n) is the sum of unitary divisors of n (A034448).",
   "id": "A064971",
   "mentions": [
+    "A002117",
     "A034448"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

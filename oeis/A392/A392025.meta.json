@@ -1,0 +1,16 @@
+{
+  "description": "Least m such that n can be represented as a linear combination of 1^3, 2^3, ..., m^3 with coefficients +-1 only.",
+  "id": "A392025",
+  "mentions": [
+    "A231015"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

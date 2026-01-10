@@ -2,16 +2,20 @@
   "description": "Number of permutations of [n] for which the first two entries have the same parity (n>=2).",
   "id": "A152661",
   "mentions": [
+    "A001620",
+    "A068985",
     "A077613",
+    "A099284",
     "A152660"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 21,
+    "size": 22,
     "source": "joeis"
   }
 }

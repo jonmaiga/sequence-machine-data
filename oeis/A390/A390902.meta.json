@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. Series_Reversion(4*x + log(1-3*x)).",
+  "id": "A390902",
+  "mentions": [
+    "A032188",
+    "A390900",
+    "A390901"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

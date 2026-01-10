@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that can be represented as p^r + q^s with 4 distinct odd primes p, q, r, s.",
+  "id": "A390179",
+  "mentions": [
+    "A390066",
+    "A390188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

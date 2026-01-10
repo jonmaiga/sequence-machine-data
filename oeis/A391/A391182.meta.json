@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of a constant related to the asymptotic counting function of numbers of the form x^2 + 2*y^2 (A002479).",
+  "id": "A391182",
+  "mentions": [
+    "A001481",
+    "A002479",
+    "A003628",
+    "A064533",
+    "A175646",
+    "A301430",
+    "A391183"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

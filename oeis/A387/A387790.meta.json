@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to write n as S(i) + S(j) + 2*S(k), where i,j,k are positive integers with i >= j, and S(k) is the sum of the first k primes.",
+  "id": "A387790",
+  "mentions": [
+    "A000040",
+    "A007504"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

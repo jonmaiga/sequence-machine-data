@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose sum of non-unitary divisors (A162296) is congruent to 2 modulo 4.",
+  "description": "Numbers whose sum of nonsquarefree divisors (A162296) is congruent to 2 modulo 4.",
   "id": "A389459",
   "mentions": [
     "A069562",

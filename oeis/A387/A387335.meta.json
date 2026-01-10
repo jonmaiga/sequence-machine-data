@@ -1,0 +1,16 @@
+{
+  "description": "1, 2, 4, along with numbers divisible by at least two distinct primes.",
+  "id": "A387335",
+  "mentions": [
+    "A024619",
+    "A361102"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

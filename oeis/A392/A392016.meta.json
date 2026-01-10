@@ -1,0 +1,22 @@
+{
+  "description": "The sum of the exponential unitary divisors of the exponentially-2^n numbers.",
+  "id": "A392016",
+  "mentions": [
+    "A138302",
+    "A271727",
+    "A322857",
+    "A361255",
+    "A392014",
+    "A392015"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

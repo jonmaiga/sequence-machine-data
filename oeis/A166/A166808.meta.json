@@ -1,8 +1,11 @@
 {
   "description": "Number of n X 5 1..2 arrays containing at least one of each value, all equal values connected, rows considered as a single number in nondecreasing order, and columns considered as a single number in nondecreasing order.",
   "id": "A166808",
-  "mentions": [],
+  "mentions": [
+    "A132823"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

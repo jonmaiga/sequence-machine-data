@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write 2*n + 1 as prime(i^2) + prime(j^2) + prime(k^2) + 2*prime(m^2) with i >= j >= k >= m >= 1.",
+  "id": "A389525",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A011757",
+    "A389517"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = number of interior triple intersections for the equal-angle model with parameter m = 2*n-1.",
+  "id": "A387471",
+  "mentions": [
+    "A331423"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Recip transform of 2*(1 + x^5)-1/(1-x).",
   "id": "A049155",
-  "mentions": [],
+  "mentions": [
+    "A049150"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of topological sequences of three dimensional lattice points with index n and depth k.",
+  "id": "A387672",
+  "mentions": [
+    "A000219",
+    "A000293",
+    "A002836",
+    "A207542"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

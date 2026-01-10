@@ -1,12 +1,14 @@
 {
-  "description": "Numbers whose prime divisors, when multiplied together without carry-bits (as encodings of GF(2)[X]-polynomials, with A048720), produce the original number; numbers for which A234741(n) = n.",
+  "description": "Numbers whose prime divisors, when multiplied together without carry-bits (as encodings of polynomials over GF(2), with A048720), produce the original number; numbers for which A234741(n) = n.",
   "id": "A235034",
   "mentions": [
     "A000040",
+    "A000120",
     "A004729",
     "A045544",
     "A048720",
     "A061858",
+    "A072084",
     "A091206",
     "A091209",
     "A093641",

@@ -1,5 +1,5 @@
 {
-  "description": "n such that there are no primes between n - sqrt(n) and n.",
+  "description": "Numbers k such that there are no primes between k - sqrt(k) and k.",
   "id": "A220095",
   "mentions": [
     "A035250"

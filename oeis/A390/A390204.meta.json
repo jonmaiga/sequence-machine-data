@@ -1,0 +1,17 @@
+{
+  "description": "Number of {4,5} polyominoes of size n for which there exists at least one closed path that passes through each square exactly once.",
+  "id": "A390204",
+  "mentions": [
+    "A119611",
+    "A361288"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

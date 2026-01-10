@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of digits of n = sum of digits of anti-divisors of n.",
+  "description": "Numbers k such that sum of digits of k = sum of digits of anti-divisors of k.",
   "id": "A213239",
   "mentions": [
     "A006753",

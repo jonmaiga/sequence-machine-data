@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (12n + 5)^2.",
+  "description": "a(n) = (12*n + 5)^2.",
   "id": "A017582",
   "mentions": [
     "A017581"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
-    "source": "joeis"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

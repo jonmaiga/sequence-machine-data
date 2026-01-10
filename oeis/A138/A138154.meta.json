@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(sigma(n))-phi(phi(n)) = 2n.",
+  "description": "Numbers k such that sigma(sigma(k))-phi(phi(k)) = 2k.",
   "id": "A138154",
   "mentions": [
     "A136131",

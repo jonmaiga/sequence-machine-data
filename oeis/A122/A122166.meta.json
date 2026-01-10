@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1 + Sum k^k (k=1..n) is prime.",
+  "description": "Numbers k such that 1 + Sum_{h=1..k} h^h is prime.",
   "id": "A122166",
   "mentions": [
     "A001923",

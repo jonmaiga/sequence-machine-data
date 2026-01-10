@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that both 2^k-1 and 2^k+1 are squarefree with the same number of distinct prime factors.",
+  "id": "A389854",
+  "mentions": [
+    "A000051",
+    "A000225",
+    "A001221",
+    "A262978",
+    "A389853"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

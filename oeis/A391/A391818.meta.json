@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of m X n binary arrays with all 1's connected, a path of 1's from upper left corner to lower right corner, and no 1 having more than two 1's adjacent.",
+  "id": "A391818",
+  "mentions": [
+    "A000012",
+    "A163684",
+    "A163685",
+    "A163686",
+    "A163687",
+    "A163688",
+    "A163689",
+    "A163690",
+    "A163691",
+    "A163692",
+    "A163693",
+    "A359573",
+    "A391819",
+    "A391820",
+    "A391822"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Numerator of G(n)=sum(k=1,n,1/2^k/2*sum(j=0,k-1,1/binomial(2^(k-j)+j,j))).",
+  "description": "Numerator of G(n) = Sum_{k=1..n} (1/(2*2^k)) * Sum_{j=0..k-1} 1/binomial(2^(k-j)+j,j).",
   "id": "A085115",
   "mentions": [
+    "A001620",
     "A085116"
   ],
   "tags": [
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 13,
+    "offset": 1,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

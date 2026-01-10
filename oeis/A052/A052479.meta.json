@@ -1,10 +1,13 @@
 {
-  "description": "Discriminants of real quadratic number fields with class number 2 such that Hilbert class field has splitting field Q(sqrt(17)).",
+  "description": "Discriminants of real quadratic number fields K with class number 2 such that the Hilbert class field of K is K(sqrt(17)).",
   "id": "A052479",
   "mentions": [
     "A003656",
     "A035120",
-    "A052475"
+    "A052475",
+    "A052476",
+    "A052477",
+    "A052478"
   ],
   "tags": [
     "nice",
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

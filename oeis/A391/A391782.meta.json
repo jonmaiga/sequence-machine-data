@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} eta(2*k) * Lucas(2*k) / 5^k, where eta is the Dirichlet eta function.",
+  "id": "A391782",
+  "mentions": [
+    "A000032",
+    "A005248",
+    "A350760",
+    "A391781"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

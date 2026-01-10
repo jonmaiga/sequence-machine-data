@@ -2,15 +2,20 @@
   "description": "Coreful weird numbers: numbers k that are coreful abundant (A308053) but no subset of their aliquot coreful divisors sums to k.",
   "id": "A339939",
   "mentions": [
+    "A001694",
+    "A003557",
+    "A005117",
     "A006037",
     "A007947",
     "A057723",
     "A064114",
+    "A181797",
     "A292986",
     "A306984",
     "A308053",
     "A321146",
-    "A327948"
+    "A327948",
+    "A391142"
   ],
   "tags": [
     "nonn"

@@ -2,7 +2,8 @@
   "description": "Positive integers k that are coprime to the value of the reversal of k's representation in binary.",
   "id": "A161607",
   "mentions": [
-    "A030101"
+    "A030101",
+    "A207039"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

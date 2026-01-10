@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (-1)^n*Stirling1(2*n, n)*(2*n)!/(n+1)!.",
+  "id": "A390726",
+  "mentions": [
+    "A001761",
+    "A073315",
+    "A132393",
+    "A187646",
+    "A390276",
+    "A390277",
+    "A390727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

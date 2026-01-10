@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that sigma(k) + phi(k) = psi(k) + k.",
+  "id": "A391967",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001615"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n) is the number of steps the Collatz trajectory of -n takes to reach a cycle, or -1 if no cycle is ever reached.",
   "id": "A346369",
   "mentions": [
+    "A001281",
     "A139399",
     "A224166",
     "A224183",

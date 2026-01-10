@@ -1,12 +1,19 @@
 {
-  "description": "A007318 + 2*A103451 - 2*A000012.",
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k) - 2 for 0 < k < n, with T(n,0) = T(n,n) = 1.",
   "id": "A132823",
   "mentions": [
     "A000012",
     "A007318",
+    "A034856",
     "A103451",
     "A115112",
-    "A132824"
+    "A132824",
+    "A166805",
+    "A166808",
+    "A166810",
+    "A166812",
+    "A166813",
+    "A166830"
   ],
   "tags": [
     "formulas",

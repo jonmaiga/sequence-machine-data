@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer that can be expressed as the sum of k different primes, for all k’s between 2 and n, with n >= 2.",
+  "description": "Smallest integer that can be expressed as the sum of k different primes, for all k's between 2 and n, with n >= 2.",
   "id": "A387198",
   "mentions": [
     "A007504",
@@ -8,7 +8,6 @@
     "A387215"
   ],
   "tags": [
-    "hard",
     "nonn"
   ],
   "terms": {

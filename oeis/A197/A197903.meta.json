@@ -1,10 +1,11 @@
 {
-  "description": "Ceiling((n+1/n)^4).",
+  "description": "a(n) = ceiling((n+1/n)^4).",
   "id": "A197903",
   "mentions": [
     "A014058"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

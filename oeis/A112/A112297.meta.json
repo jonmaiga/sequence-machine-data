@@ -1,14 +1,14 @@
 {
-  "description": "A puzzle sequence, answer not known to me.",
+  "description": "A puzzle sequence: given the first six terms, how does the sequence continue?",
   "id": "A112297",
-  "mentions": [],
+  "mentions": [
+    "A380885"
+  ],
   "tags": [
-    "more",
-    "nonn",
-    "unkn"
+    "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 6,
     "source": "oeis-entry"
   }

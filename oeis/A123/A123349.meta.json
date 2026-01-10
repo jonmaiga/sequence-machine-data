@@ -2,9 +2,21 @@
   "description": "Square array of Kekulé numbers for the mirror-symmetrical chevrons Ch(m,n), read by antidiagonals (m,n >= 0).",
   "id": "A123349",
   "mentions": [
+    "A000012",
+    "A000027",
+    "A000330",
     "A002522",
+    "A024166",
+    "A086020",
+    "A086023",
+    "A086025",
+    "A086027",
+    "A086029",
+    "A110197",
     "A123350",
-    "A123351"
+    "A123351",
+    "A234253",
+    "A333592"
   ],
   "tags": [
     "formulas",
@@ -14,6 +26,6 @@
   "terms": {
     "offset": 0,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

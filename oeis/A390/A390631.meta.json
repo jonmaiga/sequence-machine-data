@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the second smallest dihedral angle, in radians, in a sphenomegacorona (Johnson solid J_88).",
+  "id": "A390631",
+  "mentions": [
+    "A010502",
+    "A334114",
+    "A390630",
+    "A390632",
+    "A390633",
+    "A390634",
+    "A390635",
+    "A390636",
+    "A390637",
+    "A390638"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number m such that (2k-1)m+1 is prime for all 0",
+  "description": "a(n) is the smallest number m such that (2*k-1)*m+1 is prime for all 0",
   "id": "A164325",
   "mentions": [
     "A071576",

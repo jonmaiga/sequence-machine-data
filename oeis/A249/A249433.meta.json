@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n! does not divide the product of elements on row n of Pascal's triangle.",
+  "description": "Integers k such that k! does not divide the product of elements on row k of Pascal's triangle.",
   "id": "A249433",
   "mentions": [
     "A000142",

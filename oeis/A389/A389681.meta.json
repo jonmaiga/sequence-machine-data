@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 - round(k/phi)^2 is a square where phi = (1+sqrt(5))/2.",
+  "id": "A389681",
+  "mentions": [
+    "A001622",
+    "A007067",
+    "A066096",
+    "A101803",
+    "A139339"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

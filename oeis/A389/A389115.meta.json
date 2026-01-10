@@ -1,16 +1,23 @@
 {
-  "description": "Primes p such that ord_p(2) = 2*r with r prime and 2*r < p-1, where ord_p(2) = A014664(p).",
+  "description": "Expansion of g^3/(1 + x*g)^2, where g = 1+x*g^2 is the g.f. of A000108.",
   "id": "A389115",
   "mentions": [
-    "A014662",
-    "A014664"
+    "A000108",
+    "A000344",
+    "A065601",
+    "A104629",
+    "A114495",
+    "A294527",
+    "A391405",
+    "A391408"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 45,
-    "source": "oeis-bfile"
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
   }
 }

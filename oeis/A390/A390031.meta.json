@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered factorizations of 2*n into factors > 1.",
+  "id": "A390031",
+  "mentions": [
+    "A002033",
+    "A074206",
+    "A352063",
+    "A390030"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

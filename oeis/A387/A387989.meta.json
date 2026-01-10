@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the perimeter equal to the area of an equable decagon (10-gon).",
+  "id": "A387989",
+  "mentions": [
+    "A002163",
+    "A010532",
+    "A019827",
+    "A019881",
+    "A019916",
+    "A019970",
+    "A178816"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

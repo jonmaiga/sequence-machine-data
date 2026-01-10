@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer exponents k such that in the expansion in powers of q of (q^(-1/24) * eta(q))^k the term q^n has a zero coefficient and eta is the Dedekind eta function.",
+  "id": "A389567",
+  "mentions": [
+    "A000120",
+    "A000203",
+    "A000594",
+    "A000727",
+    "A000731",
+    "A000735",
+    "A000739",
+    "A002107",
+    "A007706",
+    "A010815",
+    "A010840",
+    "A014132",
+    "A020757",
+    "A066099",
+    "A078521",
+    "A090864",
+    "A213250",
+    "A286354",
+    "A302056",
+    "A302057",
+    "A319933",
+    "A322043",
+    "A322430",
+    "A322431",
+    "A322432",
+    "A322433",
+    "A390313"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

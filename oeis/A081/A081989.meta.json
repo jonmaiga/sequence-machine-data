@@ -1,7 +1,8 @@
 {
-  "description": "Product of digits + 1 is a square greater than 1.",
+  "description": "Numbers k such that 1 + product of digits of k is a square greater than 1.",
   "id": "A081989",
   "mentions": [
+    "A052382",
     "A081990"
   ],
   "tags": [
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 51,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
   }
 }

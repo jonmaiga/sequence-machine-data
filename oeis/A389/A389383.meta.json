@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k): the n-th row gives the trajectory of n under the juggler map x->A094683(x) ending on 1.",
+  "id": "A389383",
+  "mentions": [
+    "A007320",
+    "A094670",
+    "A094679",
+    "A094683"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

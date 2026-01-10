@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of the triangle A391318, given by T(n,k) = T(n-1,k) + T(n-1,k-1) + T(n-2,k-1) + 1, assuming T(0,0) = T(n,-1) = T(n,n+1) = 0.",
+  "id": "A391272",
+  "mentions": [
+    "A164095",
+    "A391318"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n divisible by at least one twin prime (A001097).",
+  "description": "Numbers divisible by at least one twin prime (A001097).",
   "id": "A062506",
   "mentions": [
     "A001097",

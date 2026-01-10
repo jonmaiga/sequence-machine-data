@@ -1,0 +1,34 @@
+{
+  "description": "Numbers > 0 whose binary indices have strictly decreasing first differences.",
+  "id": "A390306",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A048793",
+    "A070211",
+    "A070939",
+    "A119387",
+    "A124768",
+    "A240027",
+    "A295235",
+    "A320470",
+    "A325456",
+    "A325457",
+    "A325545",
+    "A325546",
+    "A333255",
+    "A333256",
+    "A358133",
+    "A390090",
+    "A390091",
+    "A390305"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

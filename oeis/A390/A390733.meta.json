@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that the sum of j-th powers of the prime factors of k, taken with multiplicity, is a prime power for j from 1 to n, but not for j = n+1.",
+  "id": "A390733",
+  "mentions": [
+    "A000961",
+    "A390729",
+    "A390731"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

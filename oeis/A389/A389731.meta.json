@@ -1,0 +1,32 @@
+{
+  "description": "Standard composition numbers of finite arithmetic progressions.",
+  "id": "A389731",
+  "mentions": [
+    "A000120",
+    "A007862",
+    "A011782",
+    "A054519",
+    "A066099",
+    "A070939",
+    "A124767",
+    "A175342",
+    "A325328",
+    "A333381",
+    "A358133",
+    "A389597",
+    "A389732",
+    "A389733",
+    "A389735",
+    "A389737",
+    "A389741"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of noncomposite numbers in the k-th 2-dense sublist of divisors of n, with n >= 1, k >= 1.",
+  "id": "A389761",
+  "mentions": [
+    "A008578",
+    "A027750",
+    "A083399",
+    "A174973",
+    "A237271",
+    "A379288",
+    "A384222",
+    "A384225",
+    "A386992",
+    "A387030",
+    "A389762"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

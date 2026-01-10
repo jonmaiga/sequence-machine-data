@@ -2,7 +2,8 @@
   "description": "Ordered even short legs of primitive Pythagorean triangles.",
   "id": "A081925",
   "mentions": [
-    "A020884"
+    "A020884",
+    "A081874"
   ],
   "tags": [
     "nonn"

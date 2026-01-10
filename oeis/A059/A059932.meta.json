@@ -1,7 +1,11 @@
 {
-  "description": "Prime groupings.",
+  "description": "a(n) is formed by concatenating the next prime(n) primes.",
   "id": "A059932",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A043347"
+  ],
   "tags": [
     "base",
     "easy",
@@ -9,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 7,
-    "source": "joeis"
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,11 @@
   "description": "Sequence which is the partial sums of the proper divisors of its own elements.",
   "id": "A389395",
   "mentions": [
-    "A001065"
+    "A001065",
+    "A027751",
+    "A389609",
+    "A389610",
+    "A389613"
   ],
   "tags": [
     "nice",
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 58,
-    "source": "joeis"
+    "size": 62,
+    "source": "oeis-bfile"
   }
 }

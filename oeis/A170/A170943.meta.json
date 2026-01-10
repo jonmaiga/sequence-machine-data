@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that when 1/n is written in base 3 (in either of the two representations, if the representation is ambiguous) the fractional part contains no 1's.",
+  "description": "Numbers k with the property that when 1/k is written in base 3 (in either of the two representations, if the representation is ambiguous) the fractional part contains no 1's.",
   "id": "A170943",
   "mentions": [
     "A005823",

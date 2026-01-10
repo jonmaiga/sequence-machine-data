@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k that are neither squarefree nor prime powers such that A119288(k) <= k/A007947(k) < A053669(k) and A007947(k) is not a primorial.",
+  "description": "Numbers k that are neither squarefree nor prime powers such that A119288(k) <= k/A007947(k) < A053669(k) and k has a primorial kernel but is not a product of primorials.",
   "id": "A369419",
   "mentions": [
     "A002110",

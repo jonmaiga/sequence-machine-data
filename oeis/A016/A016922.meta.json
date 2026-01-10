@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (6*n+1)^2.",
+  "description": "a(n) = (6*n + 1)^2.",
   "id": "A016922",
   "mentions": [
     "A000290",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 41,
     "source": "joeis"
   }
 }

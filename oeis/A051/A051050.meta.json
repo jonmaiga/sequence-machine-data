@@ -5,12 +5,14 @@
     "A051051"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 11,
+    "offset": 1,
+    "size": 13,
     "source": "joeis"
   }
 }

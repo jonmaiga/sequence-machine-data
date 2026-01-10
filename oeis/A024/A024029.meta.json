@@ -1,14 +1,15 @@
 {
-  "description": "a(n) = 3^n-n^6.",
+  "description": "a(n) = 3^n - n^6.",
   "id": "A024029",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 27,
     "source": "joeis"
   }
 }

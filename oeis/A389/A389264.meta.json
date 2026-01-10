@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that (20^k + 19^k)/37 is prime.",
+  "description": "Numbers k such that (20^k + 19^k)/39 is prime.",
   "id": "A389264",
   "mentions": [
     "A057187",

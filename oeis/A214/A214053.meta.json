@@ -2,7 +2,8 @@
   "description": "Least m>0 such that floor(n*r)+m and n-m have a common divisor > 1, where r = (1+sqrt(5))/2, the golden ratio.",
   "id": "A214053",
   "mentions": [
-    "A000201"
+    "A000201",
+    "A001622"
   ],
   "tags": [
     "easy",

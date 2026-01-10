@@ -2,6 +2,7 @@
   "description": "Consider triples a<=b",
   "id": "A198453",
   "mentions": [
+    "A000217",
     "A103606",
     "A198454",
     "A198469"

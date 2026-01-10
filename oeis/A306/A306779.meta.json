@@ -2,17 +2,19 @@
   "description": "Table read by rows: T(n,k) is the length of the longest non-intersecting loop starting at (0,0) on the n X k torus consisting of steps up and to the right, 1 <= k <= n.",
   "id": "A306779",
   "mentions": [
+    "A324603",
     "A324604"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn",
     "tabl",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

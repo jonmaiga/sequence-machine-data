@@ -1,5 +1,5 @@
 {
-  "description": "The integer k that minimizes |k/2^n - tau^2|, where tau = (1+sqrt(5))/2 = golden ratio.",
+  "description": "The integer k that minimizes |k/2^n - phi^2|, where phi = (1+sqrt(5))/2 = golden ratio.",
   "id": "A293321",
   "mentions": [
     "A001622",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the Stern polynomial B(n,x) is self-reciprocal.",
+  "description": "Numbers m such that the Stern polynomial B(m,x) is self-reciprocal.",
   "id": "A186890",
   "mentions": [
     "A057526",

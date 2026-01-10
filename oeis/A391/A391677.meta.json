@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1) * 2^k * 3^(n-k) * binomial(k,n-k)^2.",
+  "id": "A391677",
+  "mentions": [
+    "A108490",
+    "A391678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

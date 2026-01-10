@@ -2,6 +2,8 @@
   "description": "Binomial transform of 1, 1, 1, 2, 2, 2, 2, 2, ...",
   "id": "A084634",
   "mentions": [
+    "A000079",
+    "A000124",
     "A000225",
     "A000325"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

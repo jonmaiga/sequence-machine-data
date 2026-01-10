@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(n^3+3*n^7)/4.",
+  "description": "a(n) = (n^3 + 3*n^7)/4.",
   "id": "A190636",
   "mentions": [],
   "tags": [

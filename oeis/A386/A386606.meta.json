@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with exactly 3 distinct odd prime factors.",
+  "id": "A386606",
+  "mentions": [
+    "A013595",
+    "A013596",
+    "A065091",
+    "A278569",
+    "A391069"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i=1..n} (Product_{j=1..n} M(j, ((i+j-2) mod n)+1) - Product_{j=1..n} M(j, ((i-j-1) mod n)+1)) where M is an n X n Toeplitz matrix whose first row consists of successive positive integer numbers 1, ..., n and whose first column consists of 1, n + 1, ..., 2*n - 1.",
+  "id": "A389503",
+  "mentions": [
+    "A322908",
+    "A389261",
+    "A389504"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

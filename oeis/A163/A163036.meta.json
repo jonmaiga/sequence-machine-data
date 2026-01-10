@@ -1,9 +1,10 @@
 {
-  "description": "Number of nX10 binary arrays with all 1s connected and a path of 1s from top row to bottom row.",
+  "description": "Number of n X 10 binary arrays with all 1s connected and a path of 1s from top row to bottom row.",
   "id": "A163036",
   "mentions": [
     "A163029",
-    "A163035"
+    "A163035",
+    "A359574"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

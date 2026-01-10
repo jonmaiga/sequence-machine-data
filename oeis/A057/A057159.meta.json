@@ -1,14 +1,29 @@
 {
   "description": "Numbers k that divide s(k-1), where s(1) = 1, s(k) = s(k-1) + (k+1)*3^k.",
   "id": "A057159",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A015888",
+    "A015949",
+    "A015973",
+    "A067945",
+    "A128148",
+    "A276671",
+    "A276740",
+    "A277126",
+    "A277274",
+    "A277288",
+    "A277289",
+    "A277340",
+    "A277628",
+    "A277630"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

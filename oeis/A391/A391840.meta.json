@@ -1,0 +1,22 @@
+{
+  "description": "Base 16 sum of digits of prime(n).",
+  "id": "A391840",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A014499",
+    "A053836",
+    "A239690",
+    "A239694"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

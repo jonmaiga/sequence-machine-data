@@ -1,5 +1,5 @@
 {
-  "description": "Number of steps required to kill the hydra in a version of the hydra game (see comments) where the rightmost head is chopped off in each step and new heads are grown to the left.",
+  "description": "Number of steps required to kill the hydra in a version of the hydra game (see comments) where, at each step, the rightmost head is chopped off and new heads grow to the left.",
   "id": "A372421",
   "mentions": [
     "A000217",

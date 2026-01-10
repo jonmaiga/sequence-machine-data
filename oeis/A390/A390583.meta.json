@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array read by rows of ordered quadruples of coprime positive integers {r1..r4} for which circles of radius r1..r4 can be arranged as mutually externally tangent to one another, with rows in lexicographic order.",
+  "id": "A390583",
+  "mentions": [
+    "A000447",
+    "A061550",
+    "A069074",
+    "A290508",
+    "A390148"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

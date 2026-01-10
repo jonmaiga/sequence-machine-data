@@ -1,11 +1,15 @@
 {
-  "description": "Index of 2^n within sequence of numbers of form 2^i * 9^j.",
+  "description": "Index of 2^n within the sequence of the numbers of the form 2^i * 9^j.",
   "id": "A025694",
   "mentions": [
-    "A025678"
+    "A000079",
+    "A025611",
+    "A025678",
+    "A152747"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

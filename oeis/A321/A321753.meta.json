@@ -14,16 +14,17 @@
     "A319226",
     "A321742",
     "A321752",
-    "A321765"
+    "A321765",
+    "A322014"
   ],
   "tags": [
     "formulas",
-    "more",
+    "mult",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
-    "source": "oeis-entry"
+    "size": 80,
+    "source": "oeis-bfile"
   }
 }

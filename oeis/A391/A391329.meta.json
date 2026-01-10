@@ -1,0 +1,20 @@
+{
+  "description": "Odd semiprimes p*q, p, q > 3, such that Stern polynomial B(p*q,x) is a multiple of either B(p,x) or B(q,x).",
+  "id": "A391329",
+  "mentions": [
+    "A001651",
+    "A125184",
+    "A260443",
+    "A391257",
+    "A391330",
+    "A391336"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

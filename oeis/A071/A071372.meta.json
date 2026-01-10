@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+0, n+1, ... and n+9 are, in some order, 1 * a prime, 2 * a prime, ... and 10 * a prime.",
+  "description": "Numbers k such that k+0, k+1, ... and k+9 are, in some order, 1 * a prime, 2 * a prime, ... and 10 * a prime.",
   "id": "A071372",
   "mentions": [
     "A071367",

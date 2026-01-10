@@ -1,0 +1,25 @@
+{
+  "description": "Classification of the interval [4*n+1, 4*n+2, 4*n+3] according to positions of primes.",
+  "id": "A386685",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A010051",
+    "A018252",
+    "A063736",
+    "A123986",
+    "A332103",
+    "A386686"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

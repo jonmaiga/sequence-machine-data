@@ -1,7 +1,10 @@
 {
   "description": "a(n) = a(n-1) + the number of primes <= a(n-1).",
   "id": "A061535",
-  "mentions": [],
+  "mentions": [
+    "A000720",
+    "A337334"
+  ],
   "tags": [
     "nonn"
   ],

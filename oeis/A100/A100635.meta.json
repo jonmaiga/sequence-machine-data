@@ -2,6 +2,8 @@
   "description": "Number of 2 X 2 matrices with elements in {1,2,...,n} such that LCMs of rows and columns are n.",
   "id": "A100635",
   "mentions": [
+    "A001221",
+    "A034444",
     "A048691"
   ],
   "tags": [

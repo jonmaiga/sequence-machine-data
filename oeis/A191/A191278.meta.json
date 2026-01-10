@@ -1,9 +1,10 @@
 {
-  "description": "Count of Mosaic numbers that equal n.",
+  "description": "Count of mosaic numbers that equal n.",
   "id": "A191278",
   "mentions": [
     "A000026",
-    "A073093"
+    "A073093",
+    "A118914"
   ],
   "tags": [
     "easy",

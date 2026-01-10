@@ -30,11 +30,12 @@
     "A387577"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

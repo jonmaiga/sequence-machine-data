@@ -1,14 +1,18 @@
 {
   "description": "Number of 6-cycles in the n-odd graph.",
   "id": "A300850",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A301558"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

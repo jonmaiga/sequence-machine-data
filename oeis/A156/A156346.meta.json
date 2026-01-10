@@ -1,5 +1,5 @@
 {
-  "description": "Palindromic period of length 12: repeat 1,2,-4,4,-2,-1,-1,-2,4,-4,2,1.",
+  "description": "Period length 12: repeat 1,2,-4,4,-2,-1,-1,-2,4,-4,2,1.",
   "id": "A156346",
   "mentions": [
     "A154811",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 48,
+    "size": 72,
     "source": "joeis"
   }
 }

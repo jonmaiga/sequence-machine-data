@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=A029908[n! ]=A029908[A000142[n]] Fixed points of iterated A001414 function if started at factorials as initial values.",
+  "description": "a(n) = A029908(n!) = A029908(A000142(n)); fixed points of iterated A001414 function if started at factorials as initial values.",
   "id": "A082084",
   "mentions": [
     "A000142",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 77,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

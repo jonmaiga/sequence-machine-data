@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 11*12^n + 1 is prime.",
+  "description": "Numbers k such that 11*12^k + 1 is prime.",
   "id": "A251259",
   "mentions": [
     "A079907"

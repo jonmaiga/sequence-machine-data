@@ -1,5 +1,5 @@
 {
-  "description": "Least prime p not already included in the sequence such that p + 2n is a prime.",
+  "description": "Least prime p not already included in the sequence such that p + 2*n is prime.",
   "id": "A237055",
   "mentions": [],
   "tags": [

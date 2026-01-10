@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sin(k) > 1 - 1/k^2.",
+  "id": "A389816",
+  "mentions": [
+    "A046959",
+    "A070752"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

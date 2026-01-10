@@ -2,6 +2,8 @@
   "description": "a(n) = (5*n + 4)*binomial(n+7,7)/4.",
   "id": "A056125",
   "mentions": [
+    "A001622",
+    "A019952",
     "A052254",
     "A093645"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 31,
     "source": "joeis"
   }
 }

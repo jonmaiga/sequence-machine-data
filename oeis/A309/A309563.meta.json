@@ -1,5 +1,5 @@
 {
-  "description": "Cyclic permutations of length n that avoid the patterns 123 and 231.",
+  "description": "Number of cyclic permutations of length n that avoid the patterns 123 and 231.",
   "id": "A309563",
   "mentions": [
     "A000010"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "description": "Powers k^m, m > 1, where k is an Achilles number that is not a product of primorials.",
+  "id": "A389814",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A025487",
+    "A052486",
+    "A055932",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A367268",
+    "A369361",
+    "A369636",
+    "A383394",
+    "A387620",
+    "A387958",
+    "A389260"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

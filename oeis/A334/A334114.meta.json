@@ -2,6 +2,7 @@
   "description": "Decimal expansion of volume of a sphenomegacorona (J88) with each edge of unit length.",
   "id": "A334114",
   "mentions": [
+    "A010502",
     "A179552",
     "A179587",
     "A179590"

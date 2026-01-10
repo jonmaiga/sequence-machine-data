@@ -8,12 +8,11 @@
     "A321611"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

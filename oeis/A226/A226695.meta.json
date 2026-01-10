@@ -1,7 +1,8 @@
 {
-  "description": "Pell equation solutions (32*b(n))^2 - 41*(5*a(n))^2 = -1 with b(n) := A226694(n), n>=0.",
+  "description": "Pell equation solutions (32*b(n))^2 - 41*(5*a(n))^2 = -1 with b(n) = A226694(n), n >= 0.",
   "id": "A226695",
   "mentions": [
+    "A010495",
     "A049310",
     "A226694"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 12,
     "source": "joeis"
   }
 }

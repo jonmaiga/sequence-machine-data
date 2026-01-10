@@ -2,8 +2,12 @@
   "description": "Third column sequence of coefficient triangle A062137 of generalized Laguerre polynomials n!*L(n,3,x).",
   "id": "A062141",
   "mentions": [
+    "A001113",
+    "A001620",
     "A061206",
-    "A062137"
+    "A062137",
+    "A091725",
+    "A099285"
   ],
   "tags": [
     "easy",
@@ -12,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

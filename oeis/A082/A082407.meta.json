@@ -1,5 +1,5 @@
 {
-  "description": "define u(k) as u(1)=1 u(k)=binomial(2*u(k-1),u(k-1)) (mod k), sequence gives values of k such that u(k)=0.",
+  "description": "Define u(k) as u(1)=1, u(k)=binomial(2*u(k-1),u(k-1)) (mod k), sequence gives values of k such that u(k)=0.",
   "id": "A082407",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Consider a number n with m decimal digits, the prefix p of length m-1 and the suffix s of length m-1. The sequence lists the numbers n such that sigma(n) = sigma(p)*sigma(s) where sigma(n) is the sum of the divisors of n.",
+  "description": "Consider a number k with m decimal digits, the prefix p of length m-1 and the suffix s of length m-1. The sequence lists the numbers k such that sigma(k) = sigma(p)*sigma(s) where sigma(x) is the sum of the divisors of x.",
   "id": "A244313",
   "mentions": [
     "A000203"

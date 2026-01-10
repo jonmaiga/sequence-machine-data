@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of 5 element sets of distinct integer-sided trapezoids whose base angles are 60 degrees that fill an equilateral triangle of side n units having three vertices of a trapezoid inside the triangle.",
+  "id": "A391039",
+  "mentions": [
+    "A389392"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of hypergeom([1/4, 1/2, 3/4], [2/3, 4/3], 1/27)/4.",
+  "id": "A391953",
+  "mentions": [
+    "A019819",
+    "A094214",
+    "A130880",
+    "A192918",
+    "A382626",
+    "A382627"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

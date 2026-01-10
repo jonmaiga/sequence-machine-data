@@ -1,9 +1,10 @@
 {
-  "description": "Denominators of the Verhulst sequence x(n+1)=4*x(n)-3*x(n)^2, x(0)=1/10.",
+  "description": "Denominators of the Verhulst sequence x(n+1) = 4*x(n) - 3*x(n)^2, x(0) = 1/10.",
   "id": "A220812",
   "mentions": [
     "A000079",
     "A011557",
+    "A036987",
     "A051840",
     "A220811"
   ],

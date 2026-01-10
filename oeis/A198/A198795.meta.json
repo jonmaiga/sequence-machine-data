@@ -1,14 +1,15 @@
 {
-  "description": "7*6^n-1.",
+  "description": "a(n) = 7*6^n-1.",
   "id": "A198795",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

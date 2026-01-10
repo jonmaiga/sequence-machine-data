@@ -1,0 +1,20 @@
+{
+  "description": "Let PG(n) be the graph with one node for each free n-celled polyhex and edges between nodes corresponding to polyhexes that can be obtained from each other by moving one cell, where the intermediate polyform (the set of cells remaining when the cell to be moved is detached) is required to be a connected polyhex. a(n) is the number of edges in PG(n).",
+  "id": "A389970",
+  "mentions": [
+    "A000228",
+    "A367435",
+    "A389964",
+    "A389967",
+    "A389971"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

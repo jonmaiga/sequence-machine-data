@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of cos(5*Pi/33).",
+  "id": "A390698",
+  "mentions": [
+    "A387440",
+    "A387450",
+    "A389480",
+    "A390699"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

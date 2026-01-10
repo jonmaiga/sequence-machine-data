@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that each of the 6 consecutive numbers n through n+5 has exactly two distinct prime factors.",
+  "description": "Numbers k such that each of the 6 consecutive numbers k through k+5 has exactly two distinct prime factors.",
   "id": "A088983",
   "mentions": [
     "A001221",
@@ -15,6 +15,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

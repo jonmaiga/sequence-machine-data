@@ -1,0 +1,21 @@
+{
+  "description": "Primitive terms of A389634.",
+  "id": "A389635",
+  "mentions": [
+    "A000203",
+    "A006039",
+    "A023196",
+    "A334118",
+    "A388014",
+    "A388019",
+    "A389634"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

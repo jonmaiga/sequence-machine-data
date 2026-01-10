@@ -1,15 +1,15 @@
 {
-  "description": "A065560(n) + n - prime(n).",
+  "description": "a(n) = A065560(n) + n - prime(n).",
   "id": "A081725",
   "mentions": [
     "A065560"
   ],
   "tags": [
-    "nonn"
+    "sign"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

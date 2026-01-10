@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer m such that prime(2^m + 1) - prime(2^m) = 2*n.",
+  "id": "A386996",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001359",
+    "A006512",
+    "A033844",
+    "A051439"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

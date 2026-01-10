@@ -1,16 +1,16 @@
 {
-  "description": "Numbers n at which record values of A082469(n) occur.",
+  "description": "Record positions in A082469.",
   "id": "A083908",
   "mentions": [
     "A082469"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "more",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

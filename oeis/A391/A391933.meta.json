@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k) = Product_{i=1..n} prime(i)^(k mod prime(i)), with n >= 0, and 0 <= k < A002110(n), read by rows.",
+  "id": "A391933",
+  "mentions": [
+    "A000012",
+    "A002110",
+    "A143293",
+    "A276086",
+    "A391930"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

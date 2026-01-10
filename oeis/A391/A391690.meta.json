@@ -1,0 +1,18 @@
+{
+  "description": "Number of congruences of the lattice of alternating sign matrices of size n such that minima of congruence classes are permutations.",
+  "id": "A391690",
+  "mentions": [
+    "A005130",
+    "A125791",
+    "A391691"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

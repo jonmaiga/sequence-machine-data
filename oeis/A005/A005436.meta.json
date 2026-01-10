@@ -2,6 +2,7 @@
   "description": "Number of convex polygons of perimeter 2n on square lattice.",
   "id": "A005436",
   "mentions": [
+    "A002931",
     "A005768",
     "A005769",
     "A005770",

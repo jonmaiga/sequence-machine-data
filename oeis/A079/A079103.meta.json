@@ -2,6 +2,8 @@
   "description": "a(n) = Catalan(n)^(2*n-2).",
   "id": "A079103",
   "mentions": [
+    "A000108",
+    "A001246",
     "A079102",
     "A079104",
     "A079105",
@@ -12,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
-    "source": "joeis"
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
   }
 }

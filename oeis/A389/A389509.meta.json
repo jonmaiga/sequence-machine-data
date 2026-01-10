@@ -36,12 +36,12 @@
     "A389532"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

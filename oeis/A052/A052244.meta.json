@@ -2,6 +2,7 @@
   "description": "Partial sums of A014827.",
   "id": "A052244",
   "mentions": [
+    "A000217",
     "A000351",
     "A003463",
     "A014827"

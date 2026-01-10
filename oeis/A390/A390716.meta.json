@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; a(n) = 3 * Sum_{k=0..n} k * binomial(5*n-2*k,n-k)/(5*n-2*k).",
+  "id": "A390716",
+  "mentions": [
+    "A002294",
+    "A186182",
+    "A390715"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

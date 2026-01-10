@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the maximal number of perfect powers (not including 1) whose product is n^n, counting each perfect power as many times as it can be written with different exponents.",
+  "id": "A390606",
+  "mentions": [
+    "A000005",
+    "A000312",
+    "A001597",
+    "A027750",
+    "A032741",
+    "A072103",
+    "A253642",
+    "A390604",
+    "A390605"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

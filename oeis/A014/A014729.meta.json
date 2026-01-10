@@ -2,7 +2,9 @@
   "description": "Squares of even Fibonacci numbers.",
   "id": "A014729",
   "mentions": [
-    "A014445"
+    "A001622",
+    "A014445",
+    "A202541"
   ],
   "tags": [
     "easy",

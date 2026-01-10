@@ -1,5 +1,5 @@
 {
-  "description": "Number of labeled increasing binary trees on 2n-1 nodes whose breadth-first reading word avoids 231.",
+  "description": "Number of labeled increasing binary trees on 2*n-1 nodes whose breadth-first reading word avoids 231.",
   "id": "A245894",
   "mentions": [
     "A245888",

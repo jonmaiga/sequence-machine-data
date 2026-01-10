@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6n - 5 is not prime.",
+  "description": "Numbers k such that 6*k - 5 is not prime.",
   "id": "A272902",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+3*k+2,k).",
+  "id": "A390471",
+  "mentions": [
+    "A002293",
+    "A224274",
+    "A387009",
+    "A389471",
+    "A390335",
+    "A390412",
+    "A390472",
+    "A390473",
+    "A390474"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Upper (3/4)-midsequence of square numbers and negative triangular numbers; see Comments.",
+  "id": "A389320",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A387355",
+    "A389318",
+    "A389319"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

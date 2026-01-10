@@ -1,0 +1,21 @@
+{
+  "description": "Total number of ascents in all heapable permutations of length n.",
+  "id": "A389792",
+  "mentions": [
+    "A336282",
+    "A386382",
+    "A389232",
+    "A389255",
+    "A389991"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

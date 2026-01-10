@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as (p-1)^4/16 + (q-1)^2/2 + u^2 + 3*v^2, where each of p and q is 1 or an odd prime, and u and v are in the set {m >= 0: 2*m is practical} with u > 0.",
+  "id": "A390799",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000583",
+    "A005097",
+    "A390762",
+    "A390793",
+    "A390795"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

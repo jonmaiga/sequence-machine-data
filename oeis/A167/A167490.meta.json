@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Smallest number with binary run length product = n.",
+  "description": "a(n) = smallest number whose binary run length product = n.",
   "id": "A167490",
   "mentions": [
     "A167489",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(2+sqrt(2+sqrt(2))).",
+  "id": "A391672",
+  "mentions": [
+    "A187360",
+    "A232737",
+    "A272535",
+    "A391673",
+    "A391674"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

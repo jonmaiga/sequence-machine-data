@@ -1,0 +1,15 @@
+{
+  "description": "Indices k such that A389240(k) = -1.",
+  "id": "A388429",
+  "mentions": [
+    "A389240"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

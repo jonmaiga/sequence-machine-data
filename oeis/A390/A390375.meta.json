@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number of positive integers with n divisors and no prime divisor greater than n.",
+  "id": "A390375",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000720",
+    "A005179",
+    "A006450",
+    "A006530",
+    "A007318",
+    "A027750",
+    "A074206",
+    "A086436",
+    "A251683",
+    "A377505",
+    "A377537"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

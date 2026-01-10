@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest final value obtainable from n by repeatedly choosing a contiguous substring of at least two digits that is divisible by some d in 2..9, replacing it with (substring)/d, and continuing until no further division is possible.",
+  "id": "A387819",
+  "mentions": [
+    "A387963",
+    "A389140"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

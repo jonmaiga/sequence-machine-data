@@ -1,5 +1,5 @@
 {
-  "description": "Integers i such that 7*i = A048720bi(11, i), where A048720bi implements the dyadic function given in A048720 (see A001317).",
+  "description": "Numbers k such that 7*k = A048720(11,k), where A048720 is carryless base-2 multiplication.",
   "id": "A115770",
   "mentions": [
     "A001317",
@@ -10,14 +10,17 @@
     "A115772",
     "A115774",
     "A115776",
-    "A115872"
+    "A115872",
+    "A391740",
+    "A391742"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 50,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
   }
 }

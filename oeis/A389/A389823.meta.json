@@ -1,0 +1,18 @@
+{
+  "description": "Indices k such that the product of the first k prime gaps plus 1 is prime.",
+  "id": "A389823",
+  "mentions": [
+    "A001223",
+    "A081411"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Largest possible index of a topological sequence of three dimensional lattice points with depth n.",
+  "id": "A391795",
+  "mentions": [
+    "A000219",
+    "A000293",
+    "A002836",
+    "A207542",
+    "A387672"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Average of the number of \"ON\" cells at n-th stage in the \"Ulam-Warburton\" two-dimensional cellular automaton (A147562) and the number of toothpicks at n-th stage in the \"Toothpick\" two-dimensional automaton (A139250).",
+  "id": "A390468",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A147562",
+    "A195853",
+    "A261313",
+    "A323650"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

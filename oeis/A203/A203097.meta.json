@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..3 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor.",
+  "description": "Number of n X 4 0..3 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor.",
   "id": "A203097",
   "mentions": [
     "A203101"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

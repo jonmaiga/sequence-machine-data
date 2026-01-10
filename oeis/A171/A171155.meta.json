@@ -1,7 +1,8 @@
 {
-  "description": "For two strings of length n, this is the number of pairwise alignments that do not have an insertion adjacent to a deletion.",
+  "description": "For two strings of length n, this is the number of pairwise alignments that do not have an insertion adjacent to a deletion. (Duplicate of A047085.)",
   "id": "A171155",
   "mentions": [
+    "A047085",
     "A108626",
     "A171158",
     "A171563",

@@ -2,12 +2,24 @@
   "description": "Exponential Zumkeller numbers: numbers whose exponential divisors can be partitioned into two disjoint subsets of equal sum.",
   "id": "A335218",
   "mentions": [
+    "A001694",
+    "A005117",
     "A054979",
+    "A055231",
+    "A057521",
     "A083207",
     "A129575",
+    "A290466",
     "A318100",
+    "A321147",
     "A322791",
-    "A323343"
+    "A323343",
+    "A335142",
+    "A335197",
+    "A335215",
+    "A339979",
+    "A348527",
+    "A391087"
   ],
   "tags": [
     "nonn"

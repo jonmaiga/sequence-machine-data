@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct numbers of diagonal transversals that a diagonal Latin square of order 2n+1 defined in A372922 can have.",
+  "id": "A391213",
+  "mentions": [
+    "A287647",
+    "A342998",
+    "A366332",
+    "A372922",
+    "A372923",
+    "A375475",
+    "A376587",
+    "A391212"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(987).",
   "id": "A040955",
-  "mentions": [],
+  "mentions": [
+    "A042910",
+    "A042911"
+  ],
   "tags": [
     "cofr",
     "easy",

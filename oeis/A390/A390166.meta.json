@@ -1,0 +1,15 @@
+{
+  "description": "Number of edge-weighted n-regular multigraphs on 2 unlabeled vertices with total edge weight n.",
+  "id": "A390166",
+  "mentions": [
+    "A390167"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

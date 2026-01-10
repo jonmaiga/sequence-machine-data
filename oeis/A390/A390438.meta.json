@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose prime factorization exponents are not divisible by 4.",
+  "id": "A390438",
+  "mentions": [
+    "A000583",
+    "A004709",
+    "A005117",
+    "A042968",
+    "A046100",
+    "A077610",
+    "A115063",
+    "A140823",
+    "A209061",
+    "A268335",
+    "A369939",
+    "A374458",
+    "A386803",
+    "A388972",
+    "A390437"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

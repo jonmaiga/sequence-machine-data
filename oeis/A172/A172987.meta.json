@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+10 and n+100 are prime.",
+  "description": "Numbers k such that k + 10 and k + 100 are prime.",
   "id": "A172987",
   "mentions": [],
   "tags": [

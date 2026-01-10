@@ -1,12 +1,13 @@
 {
-  "description": "Odd semiprimes pq with p < q < 2p.",
+  "description": "Odd semiprimes p*q with p < q < 2*p.",
   "id": "A082663",
   "mentions": [
     "A000005",
     "A046388",
     "A056913",
     "A082647",
-    "A229964"
+    "A229964",
+    "A298855"
   ],
   "tags": [
     "easy",

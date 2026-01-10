@@ -1,0 +1,34 @@
+{
+  "description": "The sum of the integers k from 1 to n such that gcd(n, k) is cubefree (A004709).",
+  "id": "A390807",
+  "mentions": [
+    "A000961",
+    "A004709",
+    "A005117",
+    "A013664",
+    "A023896",
+    "A119790",
+    "A212793",
+    "A246655",
+    "A254926",
+    "A390800",
+    "A390801",
+    "A390802",
+    "A390803",
+    "A390804",
+    "A390805",
+    "A390806",
+    "A390808",
+    "A390809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

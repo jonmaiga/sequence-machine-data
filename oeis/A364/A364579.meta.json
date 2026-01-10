@@ -8,12 +8,13 @@
     "A362007"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 39,
     "source": "joeis"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of noncrossing path sets on n nodes with k paths and each path having at least two nodes, 0 <= k <= floor(n/2).",
+  "id": "A390908",
+  "mentions": [
+    "A000007",
+    "A001792",
+    "A054727",
+    "A303730",
+    "A308914",
+    "A362786",
+    "A390893",
+    "A390909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

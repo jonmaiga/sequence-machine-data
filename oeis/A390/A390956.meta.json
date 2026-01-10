@@ -1,0 +1,25 @@
+{
+  "description": "Powers k^m, m > 1, of even squarefree composite k.",
+  "id": "A390956",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A005843",
+    "A039956",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A303606",
+    "A390955"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

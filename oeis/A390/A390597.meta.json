@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer with a constant congruence speed of (exactly) n in the radix-n numeral system.",
+  "id": "A390597",
+  "mentions": [
+    "A317905",
+    "A337392",
+    "A373387"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

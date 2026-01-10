@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k^2 + 1 is a Sophie Germain prime.",
+  "id": "A389884",
+  "mentions": [
+    "A005384",
+    "A005574"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

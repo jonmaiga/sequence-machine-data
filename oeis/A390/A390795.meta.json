@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as ((p-1)/2)^4 + x^2 + 2*y^2 + 3*z^2, where p is 1 or an odd prime, and x,y,z are in the set {m >= 0: 2*m is practical}.",
+  "id": "A390795",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000583",
+    "A005097",
+    "A005153",
+    "A389523",
+    "A390762",
+    "A390793",
+    "A390799"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

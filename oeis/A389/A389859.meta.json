@@ -1,0 +1,20 @@
+{
+  "description": "Totient numbers k such that A014197(k) divides A215240(k).",
+  "id": "A389859",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A014197",
+    "A215240",
+    "A389860"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

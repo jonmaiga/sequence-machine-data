@@ -1,0 +1,20 @@
+{
+  "description": "Face-centered cubic pyritohedral numbers: a(n) = 3456*n^3 - 8424*n^2 + 6848*n - 1854.",
+  "id": "A391167",
+  "mentions": [
+    "A050492",
+    "A197376",
+    "A391165",
+    "A391166"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

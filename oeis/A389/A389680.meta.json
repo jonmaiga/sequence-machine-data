@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k for which no i > 1 exists such that k + i is composite and its least prime factor exceeds i^2.",
+  "id": "A389680",
+  "mentions": [
+    "A002808",
+    "A020639"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of Hamiltonian rooted triangulations with n internal nodes and k + 3 external nodes, n >= 0, k >= 0.",
+  "id": "A391153",
+  "mentions": [
+    "A000108",
+    "A003122",
+    "A003123",
+    "A005979",
+    "A062561",
+    "A146305",
+    "A341856"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

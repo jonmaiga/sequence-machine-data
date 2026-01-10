@@ -2,6 +2,7 @@
   "description": "s(n,a(n)) = max{s(n,k): k=1,2,...,n}, n >= 1, where s(n,k) = Stirling numbers of the second kind.",
   "id": "A024417",
   "mentions": [
+    "A000110",
     "A002870",
     "A008277"
   ],

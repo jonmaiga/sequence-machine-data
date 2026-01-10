@@ -1,5 +1,5 @@
 {
-  "description": "Iccanobif prime indices: indices of prime numbers in A014258.",
+  "description": "Indices of prime numbers in A014258.",
   "id": "A101760",
   "mentions": [
     "A000040",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

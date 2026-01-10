@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(4*n-k+2,n-k).",
+  "id": "A390547",
+  "mentions": [
+    "A002293",
+    "A014301",
+    "A199033",
+    "A224274",
+    "A390548"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n not divisible by 9 such that n divides 10^n - 1 (A014950).",
+  "description": "Numbers k not divisible by 9 such that k divides 10^k - 1 (A014950).",
   "id": "A232769",
   "mentions": [
     "A014950"

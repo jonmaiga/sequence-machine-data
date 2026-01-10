@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted binary perfect phylogenies with sample size n and 4 leaves.",
+  "id": "A389571",
+  "mentions": [
+    "A002620",
+    "A113822"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 47,
+    "source": "joeis"
+  }
+}

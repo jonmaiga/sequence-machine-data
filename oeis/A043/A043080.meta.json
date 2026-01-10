@@ -1,14 +1,17 @@
 {
-  "description": "a(n)=(s(n)+9)/10, where s(n)=n-th base 10 palindrome that starts with 1.",
+  "description": "a(n) = (s(n) + 9)/10, where s(n) is the n-th base 10 palindrome that starts with 1.",
   "id": "A043080",
-  "mentions": [],
+  "mentions": [
+    "A043036"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 50,
     "source": "joeis"
   }
 }

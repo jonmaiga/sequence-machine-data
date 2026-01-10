@@ -1,0 +1,18 @@
+{
+  "description": "Numbers for which the square of its largest prime factor equals the sum of the squares of its other prime factors.",
+  "id": "A390574",
+  "mentions": [
+    "A001248",
+    "A062312",
+    "A163836",
+    "A391874"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

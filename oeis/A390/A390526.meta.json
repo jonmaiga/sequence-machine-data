@@ -1,0 +1,25 @@
+{
+  "description": "Norms of irreducible elements of Z[sqrt(10)].",
+  "id": "A390526",
+  "mentions": [
+    "A038880",
+    "A091730",
+    "A097955",
+    "A141179",
+    "A141180",
+    "A262362",
+    "A390422",
+    "A390498",
+    "A391362",
+    "A391367"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

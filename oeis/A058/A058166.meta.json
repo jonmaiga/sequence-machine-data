@@ -2,7 +2,12 @@
   "description": "Triangle read by rows: T(n,k) = number of labeled semigroups of order n with k idempotents.",
   "id": "A058166",
   "mentions": [
-    "A023814"
+    "A023814",
+    "A058108",
+    "A058157",
+    "A058158",
+    "A058167",
+    "A351730"
   ],
   "tags": [
     "hard",

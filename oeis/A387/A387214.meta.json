@@ -1,0 +1,18 @@
+{
+  "description": "Sturmian word of slope log(3)/log(2) - 1.",
+  "id": "A387214",
+  "mentions": [
+    "A022924",
+    "A100982",
+    "A144595",
+    "A144609"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

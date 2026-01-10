@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 2 + sqrt(A058265) + 1/sqrt(A058265).",
+  "id": "A390750",
+  "mentions": [
+    "A058265"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

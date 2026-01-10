@@ -1,16 +1,17 @@
 {
-  "description": "Triangle T(n,m) read by rows: T(n,0)=T(n,n)=1, else T(n,m)= binomial(n,m) + 2^(2*n-3) *binomial(n-2,m-1).",
+  "description": "Triangle T(n,m) read by rows: T(n,0)=T(n,n)=1, else T(n,m) = binomial(n,m) + 2^(2*n-3)*binomial(n-2,m-1).",
   "id": "A173152",
   "mentions": [
     "A008292"
   ],
   "tags": [
+    "less",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

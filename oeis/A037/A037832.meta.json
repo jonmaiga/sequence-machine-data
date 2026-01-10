@@ -2,7 +2,16 @@
   "description": "Number of i such that d(i) >= d(i-1), where Sum_{i=0..m} d(i)*9^i is the base-9 representation of n.",
   "id": "A037832",
   "mentions": [
-    "A037816"
+    "A007095",
+    "A033265",
+    "A037816",
+    "A037826",
+    "A037827",
+    "A037828",
+    "A037829",
+    "A037830",
+    "A037831",
+    "A037833"
   ],
   "tags": [
     "base",
@@ -11,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,12 @@
 {
   "description": "a(n) = (n^(n-1)+1)^n.",
   "id": "A253604",
-  "mentions": [],
+  "mentions": [
+    "A317905",
+    "A373787",
+    "A379243",
+    "A390597"
+  ],
   "tags": [
     "formulas",
     "nonn"

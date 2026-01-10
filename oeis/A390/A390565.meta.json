@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(n^2/3 + n^3/2).",
+  "id": "A390565",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A389123",
+    "A390566"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

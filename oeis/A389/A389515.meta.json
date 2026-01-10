@@ -1,0 +1,44 @@
+{
+  "description": "Standard composition numbers of compositions whose maximal runs R all satisfy length(R) > first(R).",
+  "id": "A389515",
+  "mentions": [
+    "A000079",
+    "A003242",
+    "A005811",
+    "A011782",
+    "A022340",
+    "A029837",
+    "A044813",
+    "A066099",
+    "A109298",
+    "A115584",
+    "A117144",
+    "A124767",
+    "A212804",
+    "A233564",
+    "A301503",
+    "A324525",
+    "A325127",
+    "A328592",
+    "A333381",
+    "A333489",
+    "A389508",
+    "A389509",
+    "A389510",
+    "A389511",
+    "A389512",
+    "A389513",
+    "A389514",
+    "A389516",
+    "A389530",
+    "A389531"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

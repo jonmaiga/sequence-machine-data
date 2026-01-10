@@ -2,16 +2,22 @@
   "description": "Coreful Zumkeller numbers: numbers whose set of coreful divisors can be partitioned into two disjoint sets of equal sum.",
   "id": "A339979",
   "mentions": [
+    "A001694",
+    "A003557",
+    "A005117",
     "A007947",
     "A057723",
     "A083207",
+    "A179527",
+    "A181797",
     "A290466",
     "A307958",
     "A308053",
     "A335142",
     "A335197",
     "A335215",
-    "A335218"
+    "A335218",
+    "A391139"
   ],
   "tags": [
     "nonn"
@@ -19,6 +25,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

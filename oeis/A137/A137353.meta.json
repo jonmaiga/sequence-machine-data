@@ -1,14 +1,17 @@
 {
-  "description": "Minimal number of edges in an n-stable graph.",
+  "description": "Minimal number of edges in a (P_4,n)-edge stable graph.",
   "id": "A137353",
-  "mentions": [],
+  "mentions": [
+    "A080036"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 72,
     "source": "oeis-entry"
   }
 }

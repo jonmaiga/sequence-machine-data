@@ -1,8 +1,11 @@
 {
   "description": "Number of diagonal dissections of a convex (n+8)-gon into n+1 regions.",
   "id": "A033280",
-  "mentions": [],
+  "mentions": [
+    "A001622"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

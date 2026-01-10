@@ -1,9 +1,9 @@
 {
-  "description": "Square array where row n gives all solutions k > 0 to the cross-domain congruence n*k = A048720(A065621(n),k), zero sequence (A000004) if no such solutions exist.",
+  "description": "Square array where row n gives all solutions k > 0 to the cross-domain congruence n*k = A048720(A065621(n),k).",
   "id": "A115872",
   "mentions": [
-    "A000004",
     "A000027",
+    "A003817",
     "A048717",
     "A048720",
     "A065621",
@@ -28,9 +28,13 @@
     "A325567",
     "A325568",
     "A325570",
-    "A325571"
+    "A325571",
+    "A391729",
+    "A391925"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn",
     "tabl"
   ],

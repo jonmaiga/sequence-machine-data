@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n =d1+10d2+100d3+...+10^p dp such that \"prime(1)*d1+prime(2)*d2+...+prime(p)*dp\" is prime.",
+  "description": "Numbers k = d1+10*d2+100*d3+...+10^p*dp such that \"prime(1)*d1+prime(2)*d2+...+prime(p)*dp\" is prime.",
   "id": "A126802",
   "mentions": [
     "A011557",

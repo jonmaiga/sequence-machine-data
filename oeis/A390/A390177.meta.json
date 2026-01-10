@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in a snub square antiprism (Johnson solid J_85).",
+  "id": "A390177",
+  "mentions": [
+    "A385259",
+    "A386696",
+    "A390174",
+    "A390175",
+    "A390176"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

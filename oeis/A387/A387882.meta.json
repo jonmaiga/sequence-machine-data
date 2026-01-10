@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k > 0 such that exactly n distinct permutations of the digits of k, all having the same number of digits as k, are perfect squares (no leading zeros allowed).",
+  "id": "A387882",
+  "mentions": [
+    "A000290",
+    "A128993",
+    "A179239",
+    "A328447"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers k such that 7*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391743",
+  "mentions": [
+    "A048720",
+    "A280500",
+    "A391584",
+    "A391725",
+    "A391741",
+    "A391742",
+    "A391745"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

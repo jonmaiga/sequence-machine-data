@@ -2,9 +2,15 @@
   "description": "Number of ways to arrange n books on 4 consecutive bookshelves, leaving no shelf empty.",
   "id": "A200979",
   "mentions": [
-    "A156992"
+    "A001113",
+    "A001620",
+    "A091725",
+    "A099285",
+    "A156992",
+    "A200978"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

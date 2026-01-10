@@ -1,8 +1,7 @@
 {
-  "description": "Ceiling(n-th noncomposite/n).",
+  "description": "a(n) = ceiling(n-th noncomposite/n).",
   "id": "A171626",
   "mentions": [
-    "A000027",
     "A008578",
     "A171525",
     "A171526",
@@ -14,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 100,
+    "source": "oeis-bfile"
   }
 }

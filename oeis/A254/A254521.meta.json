@@ -2,9 +2,12 @@
   "description": "Coefficients of the Dirichlet series zeta(s-3) / zeta(3s-3).",
   "id": "A254521",
   "mentions": [
-    "A000578"
+    "A000578",
+    "A008683",
+    "A013667"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

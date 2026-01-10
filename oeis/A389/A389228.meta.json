@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the length of the shortest path in the rooted tree T_n defined in A390207 and in the comments.",
+  "id": "A389228",
+  "mentions": [
+    "A333123",
+    "A389370",
+    "A390207"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

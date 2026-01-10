@@ -1,7 +1,10 @@
 {
   "description": "Numbers k such that both k and the k-th triangular number are palindromes.",
   "id": "A008510",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A002113"
+  ],
   "tags": [
     "base",
     "more",

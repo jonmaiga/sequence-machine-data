@@ -1,0 +1,21 @@
+{
+  "description": "The Euler totient of the smallest number whose cube is divisible by n.",
+  "id": "A390753",
+  "mentions": [
+    "A000010",
+    "A013663",
+    "A019555",
+    "A390752"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

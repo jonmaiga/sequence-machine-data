@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that the Stern polynomial B(n,x) is irreducible.",
+  "description": "Numbers m such that the Stern polynomial B(m,x) is irreducible.",
   "id": "A186891",
   "mentions": [
+    "A002487",
+    "A007310",
     "A057526",
     "A125184",
     "A186886",
@@ -13,7 +15,14 @@
     "A277318",
     "A283991",
     "A283992",
-    "A284011"
+    "A284011",
+    "A389912",
+    "A389914",
+    "A389916",
+    "A389917",
+    "A391241",
+    "A391337",
+    "A391345"
   ],
   "tags": [
     "formulas",

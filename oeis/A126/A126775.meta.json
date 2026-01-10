@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = phi(n)^2 * d(n) = A000010(n)^2 * A000005(n).",
+  "description": "a(n) = phi(n)^2 * d(n), where phi = A000010, d = A000005.",
   "id": "A126775",
   "mentions": [
     "A000005",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

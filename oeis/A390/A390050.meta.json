@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that 256 * 3^k - 1 is prime.",
+  "id": "A390050",
+  "mentions": [
+    "A003307",
+    "A005540",
+    "A005541",
+    "A027856",
+    "A384228",
+    "A385115",
+    "A387197",
+    "A387760",
+    "A390051"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

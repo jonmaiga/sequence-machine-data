@@ -1,0 +1,13 @@
+{
+  "description": "Numbers m>1 such that e_1 * (p_1 - 1) = ... = e_s * (p_s - 1), where p_1^e_1 * ... * p_s^e_s is the prime factorization of m.",
+  "id": "A390250",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

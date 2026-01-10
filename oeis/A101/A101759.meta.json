@@ -1,5 +1,5 @@
 {
-  "description": "Iccanobif prime indices: Indices of prime numbers in A001129.",
+  "description": "Indices of prime numbers in A001129.",
   "id": "A101759",
   "mentions": [
     "A000040",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

@@ -5,13 +5,14 @@
   "tags": [
     "dumb",
     "fini",
+    "full",
     "less",
     "nonn",
     "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 81,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

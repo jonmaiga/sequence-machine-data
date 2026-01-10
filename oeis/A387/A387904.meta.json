@@ -1,0 +1,16 @@
+{
+  "description": "Numbers in which there exist two, distinct, non-overlapping prime substrings that can be swapped to form a prime number.",
+  "id": "A387904",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

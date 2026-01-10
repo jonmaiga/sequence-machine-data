@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the perimeter equal to the area of an equable Reuleaux triangle.",
+  "id": "A389779",
+  "mentions": [
+    "A000796",
+    "A002194",
+    "A002388",
+    "A019692",
+    "A164102"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that k + n * A001414(k) and k - n * A001414(k) are both prime.",
+  "id": "A390466",
+  "mentions": [
+    "A001414",
+    "A389358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

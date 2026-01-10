@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled semigroups with n elements whose center contains k elements.",
+  "id": "A391157",
+  "mentions": [
+    "A023814",
+    "A023815",
+    "A058166",
+    "A391154",
+    "A391158",
+    "A391159"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

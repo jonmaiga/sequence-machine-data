@@ -1,0 +1,21 @@
+{
+  "description": "Sum of squarefree numbers <= 10^n.",
+  "id": "A387980",
+  "mentions": [
+    "A005117",
+    "A064018",
+    "A143658",
+    "A173143",
+    "A388005"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

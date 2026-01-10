@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least k that is a multiple of d=A240991(n), with abundancy ratio sigma(k)/k equal to (sigma(d)+1)/d), or -1 if no such k exists.",
+  "description": "a(n) is the least k that is a multiple of d=A240991(n), with abundancy ratio sigma(k)/k equal to (sigma(d)+1)/d, or -1 if no such k exists.",
   "id": "A387405",
   "mentions": [
     "A006530",

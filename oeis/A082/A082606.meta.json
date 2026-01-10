@@ -1,8 +1,7 @@
 {
-  "description": "n-th powers arising in A082605.",
+  "description": "n-th powers arising in A083205.",
   "id": "A082606",
   "mentions": [
-    "A082605",
     "A083203",
     "A083204",
     "A083205"

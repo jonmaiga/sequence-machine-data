@@ -1,5 +1,5 @@
 {
-  "description": "Solutions to sigma(n)-2*n = phi(n): abundance of n equals Euler-phi of n.",
+  "description": "Numbers k such that sigma(k)-2*k = phi(k): abundance of k equals Eulerphi of k.",
   "id": "A088826",
   "mentions": [
     "A000010",
@@ -8,6 +8,7 @@
     "A077374"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

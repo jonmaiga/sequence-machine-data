@@ -2,6 +2,7 @@
   "description": "Position of integer n in the list of first n natural numbers written out in English (without \"and\") and arranged in alphabetical order.",
   "id": "A108017",
   "mentions": [
+    "A005589",
     "A214095"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

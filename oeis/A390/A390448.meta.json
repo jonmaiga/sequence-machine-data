@@ -1,0 +1,38 @@
+{
+  "description": "Numbers whose prime indices are the first sums of some weakly increasing sequence of positive integers.",
+  "id": "A390448",
+  "mentions": [
+    "A001222",
+    "A004709",
+    "A055396",
+    "A056239",
+    "A112798",
+    "A124010",
+    "A215366",
+    "A243055",
+    "A286470",
+    "A325328",
+    "A342527",
+    "A355536",
+    "A390307",
+    "A390362",
+    "A390364",
+    "A390365",
+    "A390444",
+    "A390445",
+    "A390446",
+    "A390447",
+    "A390449",
+    "A390567",
+    "A390676",
+    "A390677"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

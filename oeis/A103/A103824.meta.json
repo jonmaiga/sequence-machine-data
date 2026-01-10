@@ -1,5 +1,5 @@
 {
-  "description": "Choose a(n) to be the smallest number not yet used such that: a(1) = 1, a(2n) = prime, a(2n+1) = composite and partial sums are alternately composite or prime.",
+  "description": "Choose a(n) to be the smallest number not yet used such that: a(1) = 1, a(2*n) = prime, a(2*n+1) = composite and partial sums are alternately composite or prime.",
   "id": "A103824",
   "mentions": [
     "A075593",

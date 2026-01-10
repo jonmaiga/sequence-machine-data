@@ -1,7 +1,8 @@
 {
-  "description": "Pell equation solutions (6*b(n))^2 - 37*a(n)^2 = -1 with b(n)=A097729(n), n >= 0.",
+  "description": "Pell equation solutions (6*b(n))^2 - 37*a(n)^2 = -1 with b(n) = A097729(n), n >= 0.",
   "id": "A097730",
   "mentions": [
+    "A010491",
     "A049310",
     "A053120",
     "A097729",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

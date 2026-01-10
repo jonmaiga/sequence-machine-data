@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polynars with n cells.",
+  "id": "A390620",
+  "mentions": [
+    "A000105",
+    "A390621",
+    "A390622"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

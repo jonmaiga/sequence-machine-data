@@ -1,0 +1,17 @@
+{
+  "description": "Centered truncated cube numbers: a(n) = (46*n^3 - 69*n^2 + 29*n - 3)/3.",
+  "id": "A390140",
+  "mentions": [
+    "A005911"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

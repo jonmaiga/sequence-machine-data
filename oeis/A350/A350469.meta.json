@@ -5,12 +5,13 @@
     "A350470"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

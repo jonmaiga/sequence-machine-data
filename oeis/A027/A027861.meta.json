@@ -2,8 +2,10 @@
   "description": "Numbers k such that k^2 + (k+1)^2 is prime.",
   "id": "A027861",
   "mentions": [
+    "A000040",
     "A001844",
     "A002731",
+    "A005574",
     "A010051",
     "A012132",
     "A027862",

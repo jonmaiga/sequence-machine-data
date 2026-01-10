@@ -1,0 +1,17 @@
+{
+  "description": "Greatest prime divisor of 2*prime(n) + 3.",
+  "id": "A387122",
+  "mentions": [
+    "A006530",
+    "A129069"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

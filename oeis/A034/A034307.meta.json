@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there are no oblong (promic) palindromes of length n.",
+  "description": "Numbers k such that there are no oblong (promic) palindromes of length k.",
   "id": "A034307",
   "mentions": [
     "A002378",
@@ -9,6 +9,7 @@
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

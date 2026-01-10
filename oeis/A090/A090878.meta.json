@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Integral_{x=0..infinity} exp(-x)*(1+x/n)^n dx.",
+  "description": "Numerator of Integral_{x>=0} exp(-x)*(1+x/n)^n dx.",
   "id": "A090878",
   "mentions": [
     "A036503",

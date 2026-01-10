@@ -2,8 +2,10 @@
   "description": "Decimal expansion of log_9 (12).",
   "id": "A154202",
   "mentions": [
+    "A102525",
     "A152747",
     "A153205",
+    "A153459",
     "A153495",
     "A153619",
     "A153756",

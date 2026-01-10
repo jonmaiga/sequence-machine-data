@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 75^n+2 is prime.",
+  "description": "Numbers k such that 75^k+2 is prime.",
   "id": "A248547",
   "mentions": [
     "A051783",

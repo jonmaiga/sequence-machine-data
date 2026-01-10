@@ -1,0 +1,39 @@
+{
+  "description": "Heinz numbers of integer partitions that are not the first sums of any nonempty multiset.",
+  "id": "A390445",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001222",
+    "A004709",
+    "A055396",
+    "A056239",
+    "A112798",
+    "A124010",
+    "A215366",
+    "A243055",
+    "A325325",
+    "A325328",
+    "A355536",
+    "A368684",
+    "A389599",
+    "A390307",
+    "A390362",
+    "A390429",
+    "A390431",
+    "A390444",
+    "A390446",
+    "A390447",
+    "A390448",
+    "A390449",
+    "A390569"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

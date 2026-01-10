@@ -2,7 +2,8 @@
   "description": "Expansion of e.g.f. BesselI(0,4*x)+BesselI(1,4*x)/2.",
   "id": "A098664",
   "mentions": [
-    "A098665"
+    "A098665",
+    "A195621"
   ],
   "tags": [
     "easy",

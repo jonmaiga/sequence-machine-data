@@ -1,0 +1,17 @@
+{
+  "description": "Maximum length of an increasing sequence, bounded by n, in which the largest prime divisors of the elements form a decreasing sequence.",
+  "id": "A391750",
+  "mentions": [
+    "A000523",
+    "A391751"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

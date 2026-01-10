@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the algebraic degree of cos(k*Pi/n).",
+  "id": "A389480",
+  "mentions": [
+    "A000010",
+    "A019887",
+    "A023022",
+    "A055034",
+    "A387441"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that no numbers of the form 1 + (product of k distinct primes of first k+1 primes) are prime.",
+  "id": "A391020",
+  "mentions": [
+    "A014545"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

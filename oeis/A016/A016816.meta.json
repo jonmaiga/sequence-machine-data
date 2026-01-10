@@ -1,9 +1,12 @@
 {
   "description": "a(n) = (4n+1)^4.",
   "id": "A016816",
-  "mentions": [],
+  "mentions": [
+    "A390074"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

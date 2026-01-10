@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(k+2,2) * binomial(k,2*(n-k)).",
+  "id": "A391963",
+  "mentions": [
+    "A005251",
+    "A382230",
+    "A391962"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primitive e-unitary perfect numbers: powerful numbers k for which A322857(k) = 2*k.",
+  "id": "A391281",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A054979",
+    "A054980",
+    "A209061",
+    "A318645",
+    "A322857",
+    "A322858",
+    "A391282"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

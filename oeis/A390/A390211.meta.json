@@ -1,0 +1,16 @@
+{
+  "description": "Canonical coin systems; numbers k where the positions of 1-bits in the binary expansion of k give the coin denominations of a canonical coin system.",
+  "id": "A390211",
+  "mentions": [],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

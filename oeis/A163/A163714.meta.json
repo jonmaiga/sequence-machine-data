@@ -6,15 +6,17 @@
     "A078642",
     "A090991",
     "A163695",
-    "A163733"
+    "A163733",
+    "A391822"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 38,
     "source": "joeis"
   }
 }

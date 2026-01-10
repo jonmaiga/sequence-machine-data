@@ -1,7 +1,13 @@
 {
   "description": "Smallest k such that 6^k has exactly n 8's in its decimal representation.",
   "id": "A063604",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A063593",
+    "A063596",
+    "A063605",
+    "A063614"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 51,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

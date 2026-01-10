@@ -1,0 +1,14 @@
+{
+  "description": "Number of irredundant sets in the n-triangular honeycomb obtuse knight graph.",
+  "id": "A391976",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

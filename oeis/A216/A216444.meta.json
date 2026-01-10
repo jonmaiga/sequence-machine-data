@@ -1,7 +1,9 @@
 {
   "description": "List of primes with property that if they have d digits, these digits are a permutation of {1..d}.",
   "id": "A216444",
-  "mentions": [],
+  "mentions": [
+    "A156113"
+  ],
   "tags": [
     "base",
     "fini",

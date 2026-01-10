@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A098548(2n+3) > A098548(2n+1) + 6.",
+  "description": "Numbers k such that A098548(2*k+3) > A098548(2*k+1) + 6.",
   "id": "A251538",
   "mentions": [
     "A098548",

@@ -2,6 +2,11 @@
   "description": "Decimal expansion of 4*Pi / (5*sqrt(10-2*sqrt(5))).",
   "id": "A352324",
   "mentions": [
+    "A000032",
+    "A000045",
+    "A000108",
+    "A001620",
+    "A001622",
     "A019669",
     "A019670",
     "A019694",

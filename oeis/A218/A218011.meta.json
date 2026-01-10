@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which n’ = x’*y’, where x>0, y>0, n = x + y and n’, x’, y’ are the arithmetic derivatives of n, x, y.",
+  "description": "Numbers k for which k' = x'*y', where x>0, y>0, k = x + y and k', x', y' are the arithmetic derivatives of k, x, y.",
   "id": "A218011",
   "mentions": [
     "A003415",

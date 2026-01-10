@@ -1,14 +1,18 @@
 {
-  "description": "(12n+11)^3.",
+  "description": "a(n) = (12*n + 11)^3.",
   "id": "A017655",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A017653"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "joeis"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

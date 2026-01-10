@@ -8,15 +8,18 @@
     "A234006",
     "A234007",
     "A234009",
-    "A234010"
+    "A234010",
+    "A346799",
+    "A390654"
   ],
   "tags": [
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

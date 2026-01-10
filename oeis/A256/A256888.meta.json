@@ -1,15 +1,16 @@
 {
-  "description": "Terms of the continued fraction expansion of 1 + sqrt(64 / 37).",
+  "description": "Continued fraction expansion of 1 + sqrt(64 / 37).",
   "id": "A256888",
   "mentions": [
     "A118273"
   ],
   "tags": [
     "cofr",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 90,
     "source": "joeis"
   }

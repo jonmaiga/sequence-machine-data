@@ -3,16 +3,21 @@
   "id": "A351616",
   "mentions": [
     "A006747",
+    "A234007",
     "A234008",
-    "A351615"
+    "A346800",
+    "A351160",
+    "A351191",
+    "A351615",
+    "A390655"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

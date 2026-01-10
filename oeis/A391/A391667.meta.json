@@ -1,0 +1,20 @@
+{
+  "description": "Numbers j such that the average of the first j+1 partition numbers (beginning with p(0)) is an integer.",
+  "id": "A391667",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A051177",
+    "A058856",
+    "A203023"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

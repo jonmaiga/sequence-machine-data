@@ -1,15 +1,20 @@
 {
-  "description": "Index of 4^n within sequence of numbers of form 3^i*4^j.",
+  "description": "Index of 4^n within the sequence of the numbers of the form 3^i*4^j.",
   "id": "A025701",
   "mentions": [
-    "A025640"
+    "A000302",
+    "A025613",
+    "A025640",
+    "A100831"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

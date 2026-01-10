@@ -1,0 +1,21 @@
+{
+  "description": "Harmonic-mean index of primes: a(1) = 0 and thereafter a(n) = floor( n / (2*H(n)) ), where H(n) = Sum_{k=1..n} 1/prime(k).",
+  "id": "A389596",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A024451",
+    "A034386",
+    "A077761",
+    "A106830"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

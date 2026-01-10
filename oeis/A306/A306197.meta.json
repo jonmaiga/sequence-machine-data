@@ -1,5 +1,5 @@
 {
-  "description": "The label of the largest square that an (m,n)-leaper (a generalization of a chess knight) reaches before it can no longer move, starting on a board with squares spirally numbered, starting at 1. Each move is to the lowest-numbered unvisited square.",
+  "description": "Triangle read by rows: T(m,n) is the label of the largest square that an (m,n)-leaper (a generalization of a chess knight) reaches before it can no longer move, starting on a board with squares spirally numbered, starting at 1; 1 <= n < m. Each move is to the lowest-numbered unvisited square.",
   "id": "A306197",
   "mentions": [
     "A316667",
@@ -13,10 +13,10 @@
   ],
   "tags": [
     "nonn",
-    "tabf"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 46,
     "source": "oeis-entry"
   }

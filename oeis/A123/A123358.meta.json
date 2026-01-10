@@ -2,6 +2,7 @@
   "description": "Kekulé numbers for certain benzenoids (see the Cyvin-Gutman book for details).",
   "id": "A123358",
   "mentions": [
+    "A000045",
     "A001519"
   ],
   "tags": [

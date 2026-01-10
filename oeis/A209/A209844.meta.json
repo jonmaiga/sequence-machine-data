@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X5 0..3 arrays with every 2X2 subblock having one or two distinct values, and new values 0..3 introduced in row major order.",
+  "description": "Number of (n+1) X 5 0..3 arrays with every 2 X 2 subblock having one or two distinct values, and new values 0..3 introduced in row major order.",
   "id": "A209844",
   "mentions": [
     "A209848"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,i) = number of n X n semi-canonical binary matrices with exactly i 1’s, where 0 <= i <= n^2.",
+  "description": "Irregular triangle read by rows: T(n,i) = number of n X n semi-canonical binary matrices with exactly i 1's, where 0 <= i <= n^2.",
   "id": "A268523",
   "mentions": [],
   "tags": [

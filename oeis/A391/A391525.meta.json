@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = Product_{n>=0} (1 + (x*A(x)^3)^(3^n)).",
+  "id": "A391525",
+  "mentions": [
+    "A391522",
+    "A391524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

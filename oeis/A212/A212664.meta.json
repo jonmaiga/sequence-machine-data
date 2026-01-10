@@ -1,5 +1,5 @@
 {
-  "description": "Least k with precisely n partitions k = x + y satisfying x > 0 and k’ = x’ + y’, where k’, x’, y’ are the arithmetic derivatives of k, x, y.",
+  "description": "Least k with precisely n partitions k = x + y satisfying x > 0 and k' = x' + y', where k', x', y' are the arithmetic derivatives of k, x, y.",
   "id": "A212664",
   "mentions": [
     "A003415",

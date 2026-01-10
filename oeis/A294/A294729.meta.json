@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n - 1 is the product of three primes.",
+  "description": "Numbers k such that 2^k - 1 is the product of three primes.",
   "id": "A294729",
   "mentions": [
     "A000043",

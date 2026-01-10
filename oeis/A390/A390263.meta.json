@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * (1/(4*k-3)^6 + 1/(4*k-1)^6).",
+  "id": "A390263",
+  "mentions": [
+    "A004767",
+    "A016813",
+    "A300709"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

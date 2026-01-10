@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least n-bit number k such that k has the maximum number of distinct (nonempty) substrings in the binary representation of k.",
+  "id": "A391787",
+  "mentions": [
+    "A006697",
+    "A094913",
+    "A141297"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

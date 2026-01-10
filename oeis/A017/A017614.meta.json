@@ -1,5 +1,5 @@
 {
-  "description": "(12n+7)^10.",
+  "description": "a(n) = (12*n + 7)^10.",
   "id": "A017614",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
-    "source": "joeis"
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

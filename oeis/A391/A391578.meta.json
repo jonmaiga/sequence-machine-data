@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which A391573(k) < k.",
+  "id": "A391578",
+  "mentions": [
+    "A048720",
+    "A391573",
+    "A391579",
+    "A391580"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

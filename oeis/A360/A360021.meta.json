@@ -2,7 +2,9 @@
   "description": "Number of unordered triples of self-avoiding paths with nodes that cover all vertices of a convex n-gon; one-node paths are allowed.",
   "id": "A360021",
   "mentions": [
-    "A359405"
+    "A359405",
+    "A361285",
+    "A390894"
   ],
   "tags": [
     "easy",
@@ -10,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 23,
-    "source": "joeis"
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

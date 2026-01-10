@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with abundancy 3 <= sigma(n)/n < 4.",
+  "description": "Numbers k with abundancy 3 <= sigma(k)/k < 4.",
   "id": "A204828",
   "mentions": [
     "A005100",
@@ -7,6 +7,9 @@
     "A023197",
     "A023198",
     "A023199",
+    "A068403",
+    "A068404",
+    "A119240",
     "A204829",
     "A230608"
   ],

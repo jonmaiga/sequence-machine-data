@@ -2,6 +2,8 @@
   "description": "Number of words of length 2n such that all letters of the ternary alphabet occur at least once and are introduced in ascending order and which can be built by repeatedly inserting doublets into the initially empty word.",
   "id": "A258490",
   "mentions": [
+    "A000984",
+    "A089022",
     "A256117"
   ],
   "tags": [

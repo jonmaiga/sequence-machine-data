@@ -2,6 +2,8 @@
   "description": "Powers of 26.",
   "id": "A009970",
   "mentions": [
+    "A000079",
+    "A001022",
     "A008776"
   ],
   "tags": [

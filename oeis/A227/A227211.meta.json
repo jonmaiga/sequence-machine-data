@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Markoff numbers: largest of 6-tuple of positive numbers a, b, c, d, e, f, g satisfying the Markoff(7) equation a^2+b^2+c^2+d^2+e^2+f^2+g^2 = 3abcdefg.",
+  "description": "Generalized Markoff numbers: largest of 7-tuple of positive numbers a, b, c, d, e, f, g satisfying the Markoff(7) equation a^2+b^2+c^2+d^2+e^2+f^2+g^2 = 3abcdefg.",
   "id": "A227211",
   "mentions": [
     "A227210",

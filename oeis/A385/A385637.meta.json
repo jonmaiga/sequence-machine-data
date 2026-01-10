@@ -1,5 +1,5 @@
 {
-  "description": "Primes whose decimal expansion consists of the concatenation of m i’s followed by m j’s, ..., iiijjj, iijj and ij, i != j, where 1 <= i, j <= 9 and m > 0.",
+  "description": "Primes whose decimal expansion consists of the concatenation of m i's followed by m j's, ..., iiijjj, iijj and ij, i != j, where 1 <= i, j <= 9 and m > 0.",
   "id": "A385637",
   "mentions": [
     "A034845",

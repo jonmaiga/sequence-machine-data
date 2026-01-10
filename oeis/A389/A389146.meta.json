@@ -1,5 +1,5 @@
 {
-  "description": "Classification of positive integers into numbers in A387487, primes, proper prime powers, weak composites, and powerful numbers that are not prime powers.",
+  "description": "Classification of nonnegative integers into numbers in {0, 1}, primes, proper prime powers, weak composites, and powerful numbers that are not prime powers.",
   "id": "A389146",
   "mentions": [
     "A000040",
@@ -17,7 +17,6 @@
     "A286708",
     "A332785",
     "A385113",
-    "A387487",
     "A389065"
   ],
   "tags": [

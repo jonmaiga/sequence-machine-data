@@ -1,5 +1,5 @@
 {
-  "description": "Nexus numbers (n+1)^7-n^7.",
+  "description": "Nexus numbers (n + 1)^7 - n^7.",
   "id": "A022523",
   "mentions": [
     "A001015",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

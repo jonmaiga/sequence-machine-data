@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = a(1) = 1, a(2) = 3, a(3) = 6, a(n) = a(n-1) + 6*a(n-3) + 2*a(n-4) for n >= 4.",
+  "description": "a(n) = a(n-1) + 6*a(n-3) + 2*a(n-4), with a(0) = a(1) = 1, a(2) = 3, a(3) = 6.",
   "id": "A339600",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
-    "source": "joeis"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

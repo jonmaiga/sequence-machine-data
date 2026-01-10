@@ -1,8 +1,11 @@
 {
   "description": "Norm of Mersenne prime M_{p,alpha}, where p runs through the rational primes and alpha = 2 + sqrt(2).",
   "id": "A232993",
-  "mentions": [],
+  "mentions": [
+    "A323697"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

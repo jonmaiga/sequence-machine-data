@@ -1,0 +1,20 @@
+{
+  "description": "Odd semiprimes k = p*q, with p, q primes, such that neither k = A325820(p,x) nor k = A325820(q,x) for any x, where A325820 is the carryless base-3 multiplication.",
+  "id": "A391334",
+  "mentions": [
+    "A046315",
+    "A325820",
+    "A391254",
+    "A391330",
+    "A391333"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

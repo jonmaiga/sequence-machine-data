@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(851).",
   "id": "A040821",
-  "mentions": [],
+  "mentions": [
+    "A042642",
+    "A042643"
+  ],
   "tags": [
     "cofr",
     "easy",

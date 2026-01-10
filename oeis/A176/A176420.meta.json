@@ -1,16 +1,20 @@
 {
-  "description": "A symmetrical triangle sequence;q=2;c(n,q)=Product[1 - q^i, {i, 1, n}];t(n,m,q)=1 c(n, q)/(c[m, q)*c(n - m, q))-Binomial[n, m].",
+  "description": "Triangle read by rows: T(n,k) = 1 + (q-binomial coefficient [n,k] for q=2) - binomial(n,k).",
   "id": "A176420",
-  "mentions": [],
+  "mentions": [
+    "A007318",
+    "A022166",
+    "A176421",
+    "A176422"
+  ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 56,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

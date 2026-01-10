@@ -1,0 +1,24 @@
+{
+  "description": "Exponential Zumkeller numbers that are not exponential unitary Zumkeller numbers.",
+  "id": "A391090",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A054979",
+    "A129575",
+    "A321147",
+    "A322791",
+    "A335218",
+    "A361255",
+    "A391088",
+    "A391091"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

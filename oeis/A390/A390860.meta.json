@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the minimum number of armies required for an attacker to have a 50% or better chance of beating a defender with n armies in the game Risk.",
+  "id": "A390860",
+  "mentions": [
+    "A167179",
+    "A371949"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the set of prime divisors of phi(n) is equal to the set of prime divisors of sigma(n).",
+  "description": "Numbers k such that the set of prime divisors of phi(k) is equal to the set of prime divisors of sigma(k).",
   "id": "A081377",
   "mentions": [
     "A000010",
@@ -19,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

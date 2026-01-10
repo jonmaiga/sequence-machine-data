@@ -1,22 +1,13 @@
 {
-  "description": "Continued fraction for Pi^Pi (cf. A073233).",
+  "description": "Continued fraction for Pi^Pi.",
   "id": "A159824",
   "mentions": [
-    "A001076",
-    "A001203",
-    "A001204",
-    "A002945",
-    "A010767",
-    "A011002",
-    "A011003",
     "A073233",
     "A073238",
-    "A179613",
-    "A179615",
-    "A179616",
     "A179617"
   ],
   "tags": [
+    "cofr",
     "nonn"
   ],
   "terms": {

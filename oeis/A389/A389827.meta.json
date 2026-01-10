@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer k such that ((2^n + 3)^k - 3^k)/2^n is prime, or -1 if no such k exists.",
+  "id": "A389827",
+  "mentions": [
+    "A059801",
+    "A121877",
+    "A128024",
+    "A128027",
+    "A128032",
+    "A246005",
+    "A385992"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

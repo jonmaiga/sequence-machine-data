@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer such that a(n) * n is a Loeschian number (A003136).",
+  "id": "A390692",
+  "mentions": [
+    "A003136",
+    "A363340",
+    "A390691"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the only powerful number between k^2 and (k+2)^2 is (k+1)^2.",
+  "id": "A391443",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A008683",
+    "A336175",
+    "A336176",
+    "A336177",
+    "A336178",
+    "A361936"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

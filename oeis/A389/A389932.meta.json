@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in an augmented truncated cube (Johnson solid J_66).",
+  "id": "A389932",
+  "mentions": [
+    "A010524",
+    "A019669",
+    "A020760",
+    "A020763",
+    "A177870",
+    "A195698",
+    "A195702",
+    "A386459",
+    "A386460",
+    "A386461"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

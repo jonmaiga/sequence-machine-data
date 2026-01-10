@@ -2,6 +2,7 @@
   "description": "Express 1 - x - x^2 - x^3 - x^4 - ... as product (1 + g(1)*x) * (1 + g(2)*x^2) *(1 + g(3)*x^3) * ... and use a(n) = - g(n).",
   "id": "A220418",
   "mentions": [
+    "A059966",
     "A064535",
     "A147541",
     "A153881",

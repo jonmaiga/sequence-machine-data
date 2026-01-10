@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest unused prime number, when read in binary, that can be created by either removing or adding a single 0 or 1 anywhere in the binary value of a(n-1).",
+  "id": "A389925",
+  "mentions": [
+    "A000040",
+    "A068166",
+    "A080603",
+    "A080608",
+    "A387852",
+    "A389824",
+    "A389825",
+    "A389926"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

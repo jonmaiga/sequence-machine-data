@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n | 8^n + 7^n + 6^n + 5^n + 4^n + 3^n.",
+  "description": "Numbers k such that k | 8^k + 7^k + 6^k + 5^k + 4^k + 3^k.",
   "id": "A057261",
   "mentions": [],
   "tags": [

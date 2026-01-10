@@ -1,0 +1,28 @@
+{
+  "description": "Powers k^m, m > 1, where k is neither squarefree, squareful, nor a product of primorials.",
+  "id": "A389695",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A007916",
+    "A025487",
+    "A055932",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A367268",
+    "A369361",
+    "A369636",
+    "A386762",
+    "A387620",
+    "A387919"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

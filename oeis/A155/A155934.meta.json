@@ -1,5 +1,5 @@
 {
-  "description": "The sequence {k(m)} defined in A005991.",
+  "description": "a(n) denotes the least nonnegative integer such that every n X n {0,1}-matrix with exactly a(n) ones in each row and in each column contains a 2 X 2 submatrix without zeros. (This sequence is referred to as k(m) in A003509 and A005991.)",
   "id": "A155934",
   "mentions": [
     "A003509",

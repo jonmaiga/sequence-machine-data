@@ -1,5 +1,5 @@
 {
-  "description": "A045944 mod 9. Period 9: repeat 0,5,7,6,2,4,3,8,1.",
+  "description": "Period 9: repeat 0,5,7,6,2,4,3,8,1.",
   "id": "A145577",
   "mentions": [
     "A045944",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 90,
     "source": "joeis"
   }
 }

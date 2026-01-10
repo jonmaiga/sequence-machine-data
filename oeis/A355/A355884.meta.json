@@ -8,12 +8,11 @@
   ],
   "tags": [
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

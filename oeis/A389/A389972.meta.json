@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + phi(k) + omega(k)^7.",
+  "id": "A389972",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001221",
+    "A001615",
+    "A390049",
+    "A391312",
+    "A391749",
+    "A391763",
+    "A391908",
+    "A391949"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

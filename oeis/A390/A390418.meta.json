@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A014829.",
+  "id": "A390418",
+  "mentions": [
+    "A000217",
+    "A000400",
+    "A003464",
+    "A014829"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

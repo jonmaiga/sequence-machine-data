@@ -1,5 +1,5 @@
 {
-  "description": "(A081746(n) - n)/4.",
+  "description": "a(n) = (A081746(n) - n)/4.",
   "id": "A081748",
   "mentions": [
     "A081746",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

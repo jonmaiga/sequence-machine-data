@@ -1,0 +1,21 @@
+{
+  "description": "Powerful numbers with more than 2 distinct prime factors.",
+  "id": "A390950",
+  "mentions": [
+    "A000977",
+    "A001694",
+    "A286708",
+    "A355462",
+    "A375055"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

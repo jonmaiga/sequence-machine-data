@@ -2,9 +2,11 @@
   "description": "Number of n X 7 1..2 arrays containing at least one of each value, all equal values connected, rows considered as a single number in nondecreasing order, and columns considered as a single number in nondecreasing order.",
   "id": "A166812",
   "mentions": [
-    "A000580"
+    "A000580",
+    "A132823"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

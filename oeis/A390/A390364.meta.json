@@ -1,0 +1,39 @@
+{
+  "description": "Numbers whose prime indices are the first sums minus 1 of some multiset beginning with 1. Sorted list of all Heinz numbers of rows of A390308. Union of A390309.",
+  "id": "A390364",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A055396",
+    "A056239",
+    "A093641",
+    "A112798",
+    "A174090",
+    "A243055",
+    "A243056",
+    "A325351",
+    "A325352",
+    "A325389",
+    "A355531",
+    "A355534",
+    "A355536",
+    "A358169",
+    "A390307",
+    "A390308",
+    "A390309",
+    "A390365",
+    "A390445",
+    "A390446",
+    "A390447",
+    "A390448",
+    "A390449"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

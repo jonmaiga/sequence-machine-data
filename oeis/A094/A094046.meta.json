@@ -1,8 +1,9 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n>=2; 0<=k<=floor(n/2)-1) is the number of noncrossing connected graphs on n nodes on a circle, having exactly k four-sided faces.",
+  "description": "Triangle read by rows: T(n,k) is the number of noncrossing connected graphs on n nodes on a circle, having exactly k four-sided faces, n>=2, 0<=k<=floor(n/2)-1.",
   "id": "A094046",
   "mentions": [
     "A001764",
+    "A007297",
     "A045744"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

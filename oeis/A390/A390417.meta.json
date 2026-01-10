@@ -1,0 +1,17 @@
+{
+  "description": "Primes at which the prime race among 10k+1, 10k+3, 10k+7, and 10k+9 produces a specific 4-way ranking (1st, 2nd, 3rd, 4th place in the race) for the first time.",
+  "id": "A390417",
+  "mentions": [
+    "A007811"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

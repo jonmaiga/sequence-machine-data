@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * binomial(4*n-k,n-2*k).",
   "id": "A371786",
   "mentions": [
+    "A002293",
     "A024718",
     "A371743",
     "A371785",

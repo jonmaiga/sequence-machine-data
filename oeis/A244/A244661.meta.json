@@ -1,5 +1,5 @@
 {
-  "description": "Beastly reciprocals, or numbers n such that digitsum(1/n) = 666.",
+  "description": "Beastly reciprocals, or numbers k such that digitsum(1/k) = 666.",
   "id": "A244661",
   "mentions": [
     "A001913",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 binary matrices with no three 1's adjacent in a line horizontally, vertically, diagonally or antidiagonally.",
+  "description": "Number of n X 3 binary matrices with no three 1's adjacent in a line horizontally, vertically, diagonally or antidiagonally.",
   "id": "A181219",
   "mentions": [
     "A181224"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

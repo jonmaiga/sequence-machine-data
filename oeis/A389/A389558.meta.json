@@ -1,0 +1,33 @@
+{
+  "description": "Powerful numbers that are neither cubefull nor powers of squarefree numbers.",
+  "id": "A389558",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A001694",
+    "A036966",
+    "A062503",
+    "A065483",
+    "A082020",
+    "A082695",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A325240",
+    "A359280",
+    "A362147",
+    "A389551",
+    "A389947",
+    "A390539"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of chains in the poset of plane partitions ordered by inclusion that end with a plane partition of n.",
+  "id": "A389605",
+  "mentions": [
+    "A000219",
+    "A207542",
+    "A379277",
+    "A385373",
+    "A389604"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

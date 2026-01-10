@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the distinct prime factors of the generalized Fermat number F_n(10) = 10^(2^n) + 1.",
+  "id": "A391444",
+  "mentions": [
+    "A001271",
+    "A027748",
+    "A080176",
+    "A253242"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

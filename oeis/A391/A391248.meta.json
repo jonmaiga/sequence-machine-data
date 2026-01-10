@@ -1,0 +1,26 @@
+{
+  "description": "Odd composites k such that for all divisor pairs (d, k/d), d <= k/d, it holds that k = A048720(k/d, A065621(d)).",
+  "id": "A391248",
+  "mentions": [
+    "A038548",
+    "A048720",
+    "A065621",
+    "A277199",
+    "A325573",
+    "A391246",
+    "A391247",
+    "A391252",
+    "A391253",
+    "A391255",
+    "A391343"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

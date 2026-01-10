@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of an Escher's solid with unit shorter edge length.",
+  "id": "A391951",
+  "mentions": [
+    "A010482",
+    "A020784",
+    "A391653",
+    "A391952"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

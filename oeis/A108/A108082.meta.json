@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{i=0..n} binomial(2n+i,2i).",
+  "description": "a(n) = Sum_{i=0..n} binomial(2n+i,2i).",
   "id": "A108082",
   "mentions": [
     "A001622"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

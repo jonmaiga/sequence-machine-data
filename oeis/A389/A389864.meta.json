@@ -1,0 +1,26 @@
+{
+  "description": "Powers k^m, m > 1, such that k is neither squarefree nor perfect power.",
+  "id": "A389864",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A013929",
+    "A059404",
+    "A072777",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A303606",
+    "A303946",
+    "A383394",
+    "A386762"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

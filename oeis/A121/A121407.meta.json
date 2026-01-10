@@ -1,5 +1,5 @@
 {
-  "description": "Number of double eliminations of twin prime candidates within primorial intervals of p(n)#. That is, it is the number of twin prime candidates for which each half of the pair is composite, where one of those composites has p(n) for its lowest prime factor and the other composite has a prime less than p(n) for its lowest prime factor.",
+  "description": "Number of double eliminations of twin prime candidates within primorial intervals of prime(n)#.",
   "id": "A121407",
   "mentions": [
     "A002110",
@@ -9,12 +9,11 @@
   "tags": [
     "easy",
     "formulas",
-    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Least integer k such that k/2^n > tau^2, where tau = (1+sqrt(5))/2 = golden ratio.",
+  "description": "Least integer k such that k/2^n > phi^2, where phi = (1+sqrt(5))/2 = golden ratio.",
   "id": "A293320",
   "mentions": [
     "A001622",

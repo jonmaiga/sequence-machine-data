@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integer k such that f(i,k) = 2^i*k^2 + 1 for i = 0..n are prime numbers, but not for i = n + 1.",
+  "id": "A390722",
+  "mentions": [
+    "A000040",
+    "A001912",
+    "A002496",
+    "A005574",
+    "A052291",
+    "A052292",
+    "A390701"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

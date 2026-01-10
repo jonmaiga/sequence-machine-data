@@ -1,0 +1,20 @@
+{
+  "description": "Values of u in the quartets (3, u, v, w) of type 3; i.e., values of u for solutions to 3*(3 - u) = v*(v - w), in distinct positive integers, with v > 1, sorted by nondecreasing values of u; see Comments.",
+  "id": "A390021",
+  "mentions": [
+    "A385182",
+    "A385476",
+    "A386218",
+    "A386630",
+    "A390022",
+    "A390023"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

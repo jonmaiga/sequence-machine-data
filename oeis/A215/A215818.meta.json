@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the Fibonacci number F(n) can be written in the form a^2 + 2*b^2.",
+  "description": "Numbers k such that the Fibonacci number F(k) can be written in the form a^2 + 2*b^2.",
   "id": "A215818",
   "mentions": [
     "A000045",

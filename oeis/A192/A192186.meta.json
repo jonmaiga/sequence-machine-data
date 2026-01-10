@@ -2,15 +2,17 @@
   "description": "a(n) = binomial(2*n, floor(n*sqrt(2))).",
   "id": "A192186",
   "mentions": [
+    "A001951",
     "A135964",
     "A135965"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

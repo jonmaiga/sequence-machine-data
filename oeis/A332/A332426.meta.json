@@ -1,9 +1,11 @@
 {
-  "description": "Number of unordered pairs of non-selfintersecting paths with nodes that cover all vertices of a convex n-gon.",
+  "description": "Number of unordered pairs of self-avoiding paths with nodes that cover all vertices of a convex n-gon.",
   "id": "A332426",
   "mentions": [
     "A001792",
-    "A308914"
+    "A308914",
+    "A360716",
+    "A390893"
   ],
   "tags": [
     "easy",
@@ -11,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 22,
-    "source": "joeis"
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

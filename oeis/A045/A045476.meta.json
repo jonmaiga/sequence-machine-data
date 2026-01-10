@@ -2,7 +2,8 @@
   "description": "Normalized extreme values for \"3x+1\" trees of depth n.",
   "id": "A045476",
   "mentions": [
-    "A045474"
+    "A045474",
+    "A045475"
   ],
   "tags": [
     "more",

@@ -2,6 +2,7 @@
   "description": "Partial sums of A014825, second partial sums of A002450.",
   "id": "A052161",
   "mentions": [
+    "A000217",
     "A000302",
     "A002450",
     "A014825"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

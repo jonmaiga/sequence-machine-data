@@ -2,6 +2,7 @@
   "description": "Partial sums of A026905; the convolution of the natural numbers with the partition function.",
   "id": "A085360",
   "mentions": [
+    "A014153",
     "A026905",
     "A086716"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "joeis"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

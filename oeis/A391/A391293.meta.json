@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2^(12/7).",
+  "id": "A391293",
+  "mentions": [
+    "A000791",
+    "A011186"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

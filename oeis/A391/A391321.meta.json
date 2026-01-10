@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 3*p+2 in which p and p+2 are twin primes.",
+  "id": "A391321",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A071695",
+    "A174913"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

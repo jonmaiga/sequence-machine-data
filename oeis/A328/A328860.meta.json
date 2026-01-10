@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are 4-imperfect.",
+  "description": "4-imperfect numbers.",
   "id": "A328860",
   "mentions": [
     "A127724",
@@ -9,13 +9,11 @@
     "A309806"
   ],
   "tags": [
-    "bref",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 10,
+    "source": "oeis-bfile"
   }
 }

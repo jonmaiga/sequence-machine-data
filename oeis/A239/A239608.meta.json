@@ -1,5 +1,5 @@
 {
-  "description": "Sin( arcsin(n)- 2*arccos(n) )^2.",
+  "description": "a(n) = sin( arcsin(n)- 2*arccos(n) )^2.",
   "id": "A239608",
   "mentions": [
     "A144129",
@@ -8,6 +8,7 @@
     "A239610"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

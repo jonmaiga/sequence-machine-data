@@ -1,7 +1,10 @@
 {
   "description": "Disk domain wall degeneracies for brane I in the O(K) -> P^1 X P^1 geometry.",
   "id": "A061627",
-  "mentions": [],
+  "mentions": [
+    "A061605",
+    "A061637"
+  ],
   "tags": [
     "nonn"
   ],

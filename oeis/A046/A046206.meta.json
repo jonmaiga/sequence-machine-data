@@ -2,7 +2,8 @@
   "description": "In Leibniz's Harmonic Triangle, write denominator first and then numerator of each element.",
   "id": "A046206",
   "mentions": [
-    "A003506"
+    "A003506",
+    "A046205"
   ],
   "tags": [
     "easy",

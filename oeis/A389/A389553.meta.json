@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n lists all the triples (a,b,c) such that a!*b!*c! is a perfect square, with 1 <= a < b < c = A388851(n). Within a row, triples are sorted by increasing a, then by increasing b.",
+  "id": "A389553",
+  "mentions": [
+    "A388851",
+    "A389554",
+    "A389555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

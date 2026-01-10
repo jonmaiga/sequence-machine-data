@@ -1,0 +1,18 @@
+{
+  "description": "\"Late birds\" in A390939: terms A390939(m) such that A390939(k) > A390939(m) for all k > m, where A390939 lists the keys added in the map initialized with T[1] = 1 and then repeatedly T[v] := k + (T[v] if defined else 0) for all key-value pairs (k, v) in T.",
+  "id": "A390941",
+  "mentions": [
+    "A390939",
+    "A390943"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of directed Hamiltonian cycles in the complete 5-partite graph K_{n,n,n,n,n}.",
+  "id": "A391877",
+  "mentions": [
+    "A010790",
+    "A234365",
+    "A378241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

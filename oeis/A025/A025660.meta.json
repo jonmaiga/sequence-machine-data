@@ -2,14 +2,18 @@
   "description": "Exponent of 6 (value of i) in n-th number of form 6^i*7^j.",
   "id": "A025660",
   "mentions": [
-    "A025626"
+    "A025626",
+    "A025668",
+    "A122841"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

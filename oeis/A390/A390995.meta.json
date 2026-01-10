@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed polyaboloes (or polytans) with n cells, where the orientation of two triangles sharing a hypotenuse (making up a square) matters.",
+  "id": "A390995",
+  "mentions": [
+    "A353978",
+    "A390993",
+    "A390994",
+    "A390998",
+    "A391001"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

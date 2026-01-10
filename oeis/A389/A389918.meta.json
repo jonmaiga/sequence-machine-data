@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that Stern polynomial B(m,x) has no irreducible polynomial factors that themselves are Stern polynomials. The initial a(1) = 1 is included by convention.",
+  "id": "A389918",
+  "mentions": [
+    "A125184",
+    "A260443",
+    "A389917",
+    "A391237",
+    "A391241",
+    "A391243"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

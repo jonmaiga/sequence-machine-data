@@ -1,7 +1,9 @@
 {
   "description": "Number of vertices in a planar Apollonian graph at iteration n.",
   "id": "A289521",
-  "mentions": [],
+  "mentions": [
+    "A168610"
+  ],
   "tags": [
     "easy",
     "formulas",

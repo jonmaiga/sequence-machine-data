@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of psi'''(3/4).",
+  "id": "A390075",
+  "mentions": [
+    "A175572",
+    "A375772"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primitive exponential pseudoperfect numbers: powerful numbers equal to the sum of a subset of their proper exponential divisors.",
+  "id": "A391143",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A318100",
+    "A391144"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

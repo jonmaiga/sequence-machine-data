@@ -1,16 +1,28 @@
 {
-  "description": "Number of pairs of functions (f,g) from a set of n elements into itself satisfying f(g(g(x))) = f(g(x)).",
+  "description": "Number of pairs of functions (f,g) from a set of n elements into itself satisfying f(g(x)) = f(g(g(x))).",
   "id": "A239785",
   "mentions": [
-    "A181162"
+    "A181162",
+    "A239749",
+    "A239750",
+    "A239752",
+    "A239755",
+    "A239756",
+    "A239759",
+    "A239762",
+    "A239764",
+    "A239766",
+    "A239772",
+    "A239775",
+    "A239781",
+    "A239783"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

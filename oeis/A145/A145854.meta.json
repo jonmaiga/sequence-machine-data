@@ -1,7 +1,9 @@
 {
   "description": "Continued fraction for sin(Pi/7).",
   "id": "A145854",
-  "mentions": [],
+  "mentions": [
+    "A323601"
+  ],
   "tags": [
     "cofr",
     "easy",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 75,
-    "source": "joeis"
+    "size": 86,
+    "source": "oeis-bfile"
   }
 }

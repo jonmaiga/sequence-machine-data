@@ -2,6 +2,7 @@
   "description": "Partial sums of A050484.",
   "id": "A052255",
   "mentions": [
+    "A001622",
     "A050484",
     "A093562"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 32,
     "source": "joeis"
   }
 }

@@ -1,7 +1,14 @@
 {
   "description": "Primes with minimal digit = 5.",
   "id": "A106105",
-  "mentions": [],
+  "mentions": [
+    "A106101",
+    "A106102",
+    "A106103",
+    "A106104",
+    "A106106",
+    "A106107"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

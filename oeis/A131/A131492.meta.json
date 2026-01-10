@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the Carmichael lambda functions of the divisors is a proper divisor of n.",
+  "description": "Numbers k such that the sum of the Carmichael lambda functions of the divisors is a proper divisor of k.",
   "id": "A131492",
   "mentions": [
     "A002322",

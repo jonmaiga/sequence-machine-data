@@ -2,6 +2,15 @@
   "description": "Number of i such that d(i) < d(i-1), where Sum_{i=0..m} d(i)*6^i is the base-6 representation of n.",
   "id": "A037804",
   "mentions": [
+    "A007092",
+    "A037800",
+    "A037801",
+    "A037802",
+    "A037803",
+    "A037805",
+    "A037806",
+    "A037807",
+    "A037808",
     "A037821"
   ],
   "tags": [
@@ -11,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

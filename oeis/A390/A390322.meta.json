@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of table A390148.",
+  "id": "A390322",
+  "mentions": [
+    "A388858",
+    "A390148",
+    "A390464",
+    "A390465"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

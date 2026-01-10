@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array read by rows: T(n,m)=prime(m+1)^n*prime(m)^(n*(n-1)/2).",
+  "description": "Triangular array read by rows: T(n, k) = prime(n+1)^k * prime(n)^(k*(k-1)/2) with T(0,0) = 1.",
   "id": "A133397",
   "mentions": [
     "A133396"
@@ -9,8 +9,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
   }
 }

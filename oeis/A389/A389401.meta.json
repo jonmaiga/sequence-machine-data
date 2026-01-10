@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers that divide at least one term in every Fibonacci sequence.",
+  "id": "A389401",
+  "mentions": [
+    "A000057",
+    "A064414",
+    "A232656"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

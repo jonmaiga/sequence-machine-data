@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(3*n-3*k-2,n-3*k).",
+  "id": "A390705",
+  "mentions": [
+    "A371871",
+    "A390706"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

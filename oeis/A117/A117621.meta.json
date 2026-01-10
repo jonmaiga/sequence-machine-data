@@ -1,8 +1,9 @@
 {
-  "description": "Number of double-perfect partitions of [1..n].",
+  "description": "Number of double-perfect partitions of n.",
   "id": "A117621",
   "mentions": [
-    "A002033"
+    "A002033",
+    "A074206"
   ],
   "tags": [
     "formulas",

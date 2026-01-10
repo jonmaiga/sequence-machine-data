@@ -2,6 +2,7 @@
   "description": "2nd-largest term in n-th row of Stern's diatomic triangle A002487.",
   "id": "A244472",
   "mentions": [
+    "A000045",
     "A002487",
     "A013655",
     "A100545",
@@ -17,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

@@ -2,9 +2,12 @@
   "description": "a(n) = 3^n - (3*n^2 + n + 2)/2.",
   "id": "A061983",
   "mentions": [
-    "A061980"
+    "A000244",
+    "A061980",
+    "A104249"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

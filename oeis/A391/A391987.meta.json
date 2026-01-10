@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (7*sqrt(5)-5)/22.",
+  "id": "A391987",
+  "mentions": [
+    "A000032",
+    "A001566",
+    "A001622",
+    "A189961"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,9 +1,13 @@
 {
-  "description": "Decimal expansion of integral_{x>0} tanh(x)^3/x^2 dx.",
+  "description": "Decimal expansion of Integral_{x>0} tanh(x)^3/x^2 dx.",
   "id": "A324021",
   "mentions": [
+    "A001620",
+    "A053510",
     "A074962",
-    "A261506"
+    "A225746",
+    "A261506",
+    "A306016"
   ],
   "tags": [
     "cons",

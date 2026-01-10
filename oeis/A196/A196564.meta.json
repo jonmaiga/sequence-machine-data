@@ -2,6 +2,7 @@
   "description": "Number of odd digits in decimal representation of n.",
   "id": "A196564",
   "mentions": [
+    "A007953",
     "A007957",
     "A014261",
     "A014263",

@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of natural numbers: composition of permutations A057163 & A082356.",
+  "description": "Permutation of natural numbers: composition of permutations A057163 and A082356.",
   "id": "A082358",
   "mentions": [
     "A057163",
@@ -19,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

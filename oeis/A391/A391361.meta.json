@@ -1,0 +1,25 @@
+{
+  "description": "Number of irreducible elements of Z[sqrt(-6)] of norm n up to association.",
+  "id": "A391361",
+  "mentions": [
+    "A033199",
+    "A084865",
+    "A091731",
+    "A157437",
+    "A191059",
+    "A390498",
+    "A391360",
+    "A391362",
+    "A391364",
+    "A391366"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

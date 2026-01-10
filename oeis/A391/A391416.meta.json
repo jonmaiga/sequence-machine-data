@@ -1,0 +1,34 @@
+{
+  "description": "Perfect powers that are neither prime powers nor cubefree.",
+  "id": "A391416",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A013929",
+    "A024619",
+    "A046099",
+    "A052486",
+    "A072102",
+    "A082020",
+    "A085548",
+    "A126706",
+    "A131605",
+    "A177492",
+    "A246547",
+    "A286708",
+    "A383394",
+    "A386762",
+    "A388304",
+    "A389864"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

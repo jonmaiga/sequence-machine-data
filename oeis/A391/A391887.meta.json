@@ -1,0 +1,21 @@
+{
+  "description": "Alternately add and multiply the last two terms starting with 2, 1.",
+  "id": "A391887",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A039941",
+    "A077753",
+    "A265496"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

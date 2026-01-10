@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of series reversion of x*(1-x^3*sum(k>=1, x^k)).",
+  "description": "Expansion of series reversion of x*(1 - x^3*Sum_{k>=1} x^k).",
   "id": "A215342",
   "mentions": [
     "A000108",

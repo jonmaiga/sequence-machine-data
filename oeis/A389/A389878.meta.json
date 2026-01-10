@@ -1,0 +1,23 @@
+{
+  "description": "Nonprime solutions m to Subbarao's congruence phi(m)*tau(m)+ 2 == 0 (mod m), where phi is Euler's totient (A000010) and tau is the number of divisors (A000005).",
+  "id": "A389878",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A002270",
+    "A051948",
+    "A062355"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

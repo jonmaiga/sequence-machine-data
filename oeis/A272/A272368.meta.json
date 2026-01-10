@@ -2,6 +2,7 @@
   "description": "Number of polycubes with n cells, allowing vertex connections and edge connections as well as face connections, identifying mirror images.",
   "id": "A272368",
   "mentions": [
+    "A030222",
     "A038119",
     "A268666",
     "A272385",

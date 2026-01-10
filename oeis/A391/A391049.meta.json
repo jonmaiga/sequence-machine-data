@@ -1,0 +1,28 @@
+{
+  "description": "Primes p such that p^2 - 4*q*r = s^2, where q, r are primes and s > 0.",
+  "id": "A391049",
+  "mentions": [
+    "A000040",
+    "A067274",
+    "A091626",
+    "A091627",
+    "A364384",
+    "A364385",
+    "A365876",
+    "A365877",
+    "A379597",
+    "A381710",
+    "A381711",
+    "A391050"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

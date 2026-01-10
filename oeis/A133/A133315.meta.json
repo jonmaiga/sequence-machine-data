@@ -1,13 +1,32 @@
 {
-  "description": "Positive discriminants with form class number 1.",
+  "description": "Positive discriminants of orders of quadratic fields with class number 1.",
   "id": "A133315",
-  "mentions": [],
+  "mentions": [
+    "A003646",
+    "A003652",
+    "A003655",
+    "A003656",
+    "A003658",
+    "A079896",
+    "A087048",
+    "A094612",
+    "A094619",
+    "A344408",
+    "A344409",
+    "A390079",
+    "A391418",
+    "A391420",
+    "A391421",
+    "A391423",
+    "A391424",
+    "A391425"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

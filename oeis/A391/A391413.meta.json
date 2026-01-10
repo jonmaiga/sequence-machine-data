@@ -1,0 +1,18 @@
+{
+  "description": "Last of 3 consecutive primes p1 < p2 < p3 such that the pattern of differences [p2-p1, p3-p2] does not occur earlier.",
+  "id": "A391413",
+  "mentions": [
+    "A151800",
+    "A391411",
+    "A391412"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

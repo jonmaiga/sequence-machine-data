@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+1 both have 16 divisors.",
+  "description": "Numbers k such that k and k+1 both have 16 divisors.",
   "id": "A274359",
   "mentions": [
     "A000005",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

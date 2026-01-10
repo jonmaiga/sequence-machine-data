@@ -1,0 +1,17 @@
+{
+  "description": "Integers k such that A008472(k) / A001222(k) = 1/2.",
+  "id": "A390139",
+  "mentions": [
+    "A001222",
+    "A008472",
+    "A054411"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

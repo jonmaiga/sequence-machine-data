@@ -1,0 +1,20 @@
+{
+  "description": "Quartic-full (4-full) Achilles numbers.",
+  "id": "A391011",
+  "mentions": [
+    "A007916",
+    "A036967",
+    "A052486",
+    "A388293"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

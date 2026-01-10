@@ -1,15 +1,28 @@
 {
-  "description": "Real positive integers with more than one distinct factorization in Z[sqrt(-5)].",
+  "description": "Numbers with more than one factorization (up to association) in Z[sqrt(-5)].",
   "id": "A262828",
   "mentions": [
-    "A020669"
+    "A003626",
+    "A020669",
+    "A033205",
+    "A091727",
+    "A091728",
+    "A091729",
+    "A091730",
+    "A091731",
+    "A106865",
+    "A139513",
+    "A262362",
+    "A391363",
+    "A391364"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
-    "source": "oeis-entry"
+    "size": 63,
+    "source": "oeis-bfile"
   }
 }

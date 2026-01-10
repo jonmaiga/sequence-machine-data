@@ -1,5 +1,5 @@
 {
-  "description": "Initial term of a series of exactly n consecutive Harshad or Niven numbers (a Harshad number is such that is divided by the sum of its digits).",
+  "description": "a(n) = initial term of the smallest tuple of exactly n consecutive Harshad numbers.",
   "id": "A060159",
   "mentions": [
     "A005349"

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of free polyaboloes (or polytans) with n cells (counted as in A390996) of which k are square cells consisting of two triangles sharing a hypotenuse, 0 <= k <= n.",
+  "id": "A391192",
+  "mentions": [
+    "A000105",
+    "A390885",
+    "A390996",
+    "A391191",
+    "A391193"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

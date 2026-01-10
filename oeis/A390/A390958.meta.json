@@ -1,0 +1,26 @@
+{
+  "description": "The number of non-bi-unitary divisors of the numbers that are not exponentially odd.",
+  "id": "A390958",
+  "mentions": [
+    "A001620",
+    "A065463",
+    "A072587",
+    "A174961",
+    "A268335",
+    "A306071",
+    "A306072",
+    "A390957",
+    "A390959",
+    "A390960"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

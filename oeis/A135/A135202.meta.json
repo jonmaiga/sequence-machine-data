@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that raised to the powers from 1 to k (with k>=1) are multiples of the sum of their digits (n raised to k+1 must not be a multiple). Case k=17.",
+  "description": "Numbers m that raised to the powers from 1 to k (with k>=1) are multiples of the sum of their digits (m raised to k+1 must not be a multiple). Case k=17.",
   "id": "A135202",
   "mentions": [
     "A135186",

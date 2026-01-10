@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the smallest positive root of P(x) = 2*x^4 + 36*x^3 - 22*x^2 - 6*x + 2.",
+  "id": "A391410",
+  "mentions": [
+    "A389416"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

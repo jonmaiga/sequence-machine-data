@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k>=0} (1/2)^(k+1) * Stirling2(n+k,k).",
+  "id": "A390890",
+  "mentions": [
+    "A000311",
+    "A005640",
+    "A032188",
+    "A225170",
+    "A390891",
+    "A390892",
+    "A390898"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

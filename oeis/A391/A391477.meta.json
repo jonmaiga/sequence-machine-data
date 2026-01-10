@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime that starts a sequence of consecutive primes whose sum is n^5, or -1 if there is no such prime.",
+  "id": "A391477",
+  "mentions": [
+    "A050936",
+    "A390497"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

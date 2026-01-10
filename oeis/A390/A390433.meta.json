@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, Lah numbers with level 2.",
+  "id": "A390433",
+  "mentions": [
+    "A268434",
+    "A371081",
+    "A390434"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

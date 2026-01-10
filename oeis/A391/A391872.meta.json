@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the constant x where the terms in the simple continued fraction expansion of x equal 2 plus the respective bits in the binary expansion of x, after the initial constant term of '1'.",
+  "id": "A391872",
+  "mentions": [
+    "A391873"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

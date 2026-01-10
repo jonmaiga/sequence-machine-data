@@ -1,0 +1,13 @@
+{
+  "description": "Positive integers m such that 2*m is not the sum of two horizontal, vertical or diagonal neighboring primes in a square spiral with odd primes.",
+  "id": "A387981",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

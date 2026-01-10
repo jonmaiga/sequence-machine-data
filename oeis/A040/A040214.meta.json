@@ -1,7 +1,11 @@
 {
   "description": "Continued fraction for sqrt(230).",
   "id": "A040214",
-  "mentions": [],
+  "mentions": [
+    "A041428",
+    "A041429",
+    "A176909"
+  ],
   "tags": [
     "cofr",
     "easy",

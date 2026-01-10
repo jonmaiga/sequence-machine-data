@@ -1,0 +1,34 @@
+{
+  "description": "2-rank of the class group of real quadratic field Q(sqrt(k)), k squarefree > 1.",
+  "id": "A391437",
+  "mentions": [
+    "A003658",
+    "A005117",
+    "A079896",
+    "A317989",
+    "A317990",
+    "A317991",
+    "A317992",
+    "A319662",
+    "A390079",
+    "A391417",
+    "A391419",
+    "A391422",
+    "A391426",
+    "A391435",
+    "A391436",
+    "A391438",
+    "A391439",
+    "A391440",
+    "A391441"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

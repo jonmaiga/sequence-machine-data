@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1; thereafter a(n) = (2/5)*(9*6^(n-2)+1).",
+  "description": "a(n) = (2/5)*(9*6^(n-2)+1).",
   "id": "A261399",
   "mentions": [
     "A081341",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

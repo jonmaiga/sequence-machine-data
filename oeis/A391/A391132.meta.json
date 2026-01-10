@@ -1,0 +1,17 @@
+{
+  "description": "Number of planar graphs on n unlabeled vertices with a planar complement.",
+  "id": "A391132",
+  "mentions": [
+    "A391133"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

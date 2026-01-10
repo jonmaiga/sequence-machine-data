@@ -1,5 +1,5 @@
 {
-  "description": "Normalization of dense fractal sequence A054065 (defined from fractional parts {n*tau}, where tau = golden ratio).",
+  "description": "Normalization of dense fractal sequence A054065 (defined from fractional parts {n*phi}, where phi = golden ratio).",
   "id": "A132283",
   "mentions": [
     "A054065",

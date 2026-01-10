@@ -1,5 +1,5 @@
 {
-  "description": "Minimum integer m for which n·m = n'·m', where n' and m' are the arithmetic derivatives of n and m. Zero if m does not exist.",
+  "description": "Minimum integer m for which n*m = n'*m', where n' and m' are the arithmetic derivatives of n and m. Zero if m does not exist.",
   "id": "A211222",
   "mentions": [
     "A003415",

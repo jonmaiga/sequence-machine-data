@@ -2,8 +2,15 @@
   "description": "Decimal expansion of the multiple zeta value (Euler sum) zetamult(2,1,3).",
   "id": "A381652",
   "mentions": [
+    "A013662",
+    "A197110",
+    "A258982",
+    "A258986",
     "A381651",
-    "A381653"
+    "A381653",
+    "A381654",
+    "A381656",
+    "A381657"
   ],
   "tags": [
     "cons",

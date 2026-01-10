@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(2 - g^2), where g = 1+x*g^3 is the g.f. of A001764.",
+  "id": "A391461",
+  "mentions": [
+    "A000129",
+    "A001764",
+    "A006013",
+    "A289684",
+    "A391464"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

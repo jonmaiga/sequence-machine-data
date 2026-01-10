@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} PolyLog(2, 1/1(x+1)) dx.",
+  "id": "A390463",
+  "mentions": [
+    "A001008",
+    "A002162",
+    "A002805",
+    "A244009",
+    "A253191",
+    "A348763",
+    "A390462"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Smallest even number which cannot be written as the difference of two numbers which are less than and relatively prime to (the primorial) p(n)#.",
+  "id": "A389506",
+  "mentions": [
+    "A002110",
+    "A007310",
+    "A007775",
+    "A008364",
+    "A008366",
+    "A051271",
+    "A051272",
+    "A166061",
+    "A166063",
+    "A389507"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

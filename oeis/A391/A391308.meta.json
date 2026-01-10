@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of linear intervals of height k in the weak order on permutations of length n (0 <= k < n).",
+  "id": "A391308",
+  "mentions": [
+    "A000142",
+    "A344216",
+    "A384133"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

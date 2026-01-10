@@ -1,14 +1,15 @@
 {
-  "description": "Quotient after one division by 2 of numbers of the form 3^(2n) + 5^(2n).",
+  "description": "a(n) = (3^(2*n) + 5^(2*n)) / 2.",
   "id": "A081421",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "joeis"
   }
 }

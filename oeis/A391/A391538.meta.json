@@ -1,0 +1,19 @@
+{
+  "description": "Guaranteed win if opponent chooses one of three baskets and the player chooses the coins with values from 1 to n (see Comments for details).",
+  "id": "A391538",
+  "mentions": [
+    "A391537",
+    "A391791",
+    "A391792"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

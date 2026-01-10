@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that m=TITO(n)>n and TITO(m)=n, where TITO() = A161594().",
+  "description": "Numbers k such that m=TITO(k)>k and TITO(m)=k, where TITO() = A161594().",
   "id": "A162151",
   "mentions": [
     "A161594",

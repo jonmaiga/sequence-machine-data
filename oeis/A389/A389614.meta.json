@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*n^2 + 1 - (m*n - 3*m*(m+1)/2) where m = floor(n/3).",
+  "id": "A389614",
+  "mentions": [
+    "A001840",
+    "A058331",
+    "A062781"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

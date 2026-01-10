@@ -2,7 +2,8 @@
   "description": "Sum of terms in n-th block of Kolakoski sequence.",
   "id": "A088570",
   "mentions": [
-    "A000002"
+    "A000002",
+    "A335075"
   ],
   "tags": [
     "formulas",

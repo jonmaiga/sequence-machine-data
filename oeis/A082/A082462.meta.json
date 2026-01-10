@@ -1,9 +1,10 @@
 {
-  "description": "Let chi(k) = 1 if prime(k+1) - prime(k) = 2, = 0 otherwise; sequence gives a(n) = sum_{k <= n} chi(k).",
+  "description": "Let chi(k) = 1 if prime(k+1) - prime(k) = 2, = 0 otherwise; sequence gives a(n) = Sum_{k <= n} chi(k).",
   "id": "A082462",
   "mentions": [
     "A000040",
     "A001223",
+    "A001359",
     "A071538"
   ],
   "tags": [
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

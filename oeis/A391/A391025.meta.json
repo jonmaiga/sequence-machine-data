@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers that are neither powerful nor squarefree.",
+  "id": "A391025",
+  "mentions": [
+    "A005408",
+    "A013929",
+    "A024619",
+    "A052485",
+    "A126706",
+    "A332785",
+    "A391026"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the coefficient of x^k in the polynomial P[n](x) = b(n)Q[n](x), where b(n) = numerator of binomial(2n,n)/2^n = A001790(n) and Q[n](x) = F(-n,1; 1/2-n; x) (hypergeometric function); 0 <= k <= n.",
+  "description": "Triangle read by rows: T(n, k) is the coefficient of x^k in the polynomial P[n](x) = b(n)Q[n](x), where b(n) = numerator of binomial(2n, n)/2^n = A001790(n) and Q[n](x) = F(-n, 1; 1/2-n; x) (hypergeometric function); 0 <= k <= n.",
   "id": "A138773",
   "mentions": [
     "A001790",
     "A001803",
-    "A046161"
+    "A046161",
+    "A161737"
   ],
   "tags": [
     "formulas",

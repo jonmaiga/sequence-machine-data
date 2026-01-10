@@ -1,0 +1,19 @@
+{
+  "description": "Right edge of triangle A240673: a(n) = A002110(n-1) * A079276(n).",
+  "id": "A391734",
+  "mentions": [
+    "A002110",
+    "A079276",
+    "A240673",
+    "A245458"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

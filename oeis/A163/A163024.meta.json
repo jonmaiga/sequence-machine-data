@@ -1,13 +1,15 @@
 {
-  "description": "Number of nX7 binary arrays with all 1s connected and a path of 1s from left column to lower right corner.",
+  "description": "Number of n X 7 binary arrays with all 1s connected and a path of 1s from left column to lower right corner.",
   "id": "A163024",
-  "mentions": [],
+  "mentions": [
+    "A391489"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

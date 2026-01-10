@@ -1,12 +1,15 @@
 {
-  "description": "Least k such that ((2k+1)/(2k-1))^k < 1/(2n^2).",
+  "description": "Least k such that ((2*k+1)/(2*k-1))^k - e < 1/(2*n^2).",
   "id": "A248103",
   "mentions": [
+    "A085527",
+    "A085528",
     "A248106",
     "A248111"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

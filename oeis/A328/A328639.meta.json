@@ -2,13 +2,15 @@
   "description": "Dirichlet g.f.: zeta(2*s) / (zeta(s) * zeta(s-2)).",
   "id": "A328639",
   "mentions": [
+    "A001221",
     "A008683",
     "A008836",
     "A026424",
     "A046970",
     "A065958",
     "A323363",
-    "A328640"
+    "A328640",
+    "A351265"
   ],
   "tags": [
     "formulas",

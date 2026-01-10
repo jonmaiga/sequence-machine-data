@@ -1,0 +1,21 @@
+{
+  "description": "Primitive exponential unitary Zumkeller numbers: powerful numbers whose exponential unitary divisors can be partitioned into two disjoint subsets of equal sum.",
+  "id": "A391089",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A321147",
+    "A361255",
+    "A383694",
+    "A391088"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

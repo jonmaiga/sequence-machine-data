@@ -2,7 +2,9 @@
   "description": "Sum of the squarefree numbers appearing among the smaller parts of the partitions of n into two parts.",
   "id": "A262871",
   "mentions": [
+    "A004526",
     "A008683",
+    "A066779",
     "A071068",
     "A261985",
     "A262351",

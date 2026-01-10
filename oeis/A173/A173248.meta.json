@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(n) = (-1)^n*(n^3-15*n^2-12+2*n)/6, n>0.",
+  "description": "a(0) = -1, otherwise a(n) = (-1)^n*(n^3 - 15*n^2 + 2*n - 12)/6.",
   "id": "A173248",
   "mentions": [
     "A089071",

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in an augmented tridiminished icosahedron (Johnson solid J_64).",
+  "id": "A389930",
+  "mentions": [
+    "A105199",
+    "A137914",
+    "A236367",
+    "A386002",
+    "A386003",
+    "A389109"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (4*cos(Pi/7)- 2*sin(3*Pi/14) - 1)/7.",
+  "id": "A387979",
+  "mentions": [
+    "A160389"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

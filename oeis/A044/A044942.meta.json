@@ -1,14 +1,22 @@
 {
   "description": "Number of runs of odd length in the base-2 representation of n.",
   "id": "A044942",
-  "mentions": [],
+  "mentions": [
+    "A005811",
+    "A007088",
+    "A044933",
+    "A044943",
+    "A044950"
+  ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

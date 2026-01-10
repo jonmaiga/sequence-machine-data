@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least positive integer k such that the points (p_i, e_i) lie on a straight line with nonzero slope, where p_1^e_1*...*p_n^e_n is the canonical prime factorization of k.",
+  "id": "A389339",
+  "mentions": [
+    "A001221",
+    "A048692",
+    "A125666",
+    "A338425",
+    "A373813",
+    "A389340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

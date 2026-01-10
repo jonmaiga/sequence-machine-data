@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyhexes with n cells that have the maximum degree (A389968(n)) in the polyhex graph PG(n) defined in A389967.",
+  "id": "A389969",
+  "mentions": [
+    "A367125",
+    "A389963",
+    "A389967",
+    "A389968",
+    "A389970",
+    "A389971"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

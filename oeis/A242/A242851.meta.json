@@ -1,5 +1,5 @@
 {
-  "description": "64*n^6 - 80*n^4 + 24*n^2 - 1.",
+  "description": "a(n) = 64*n^6 - 80*n^4 + 24*n^2 - 1.",
   "id": "A242851",
   "mentions": [
     "A000466",

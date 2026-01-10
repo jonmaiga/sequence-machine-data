@@ -2,6 +2,9 @@
   "description": "Numbers k such that A387527(k) >= 3.",
   "id": "A387531",
   "mentions": [
+    "A001694",
+    "A060355",
+    "A076445",
     "A140104",
     "A359749",
     "A387527",

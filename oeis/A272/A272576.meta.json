@@ -2,9 +2,16 @@
   "description": "a(n) = f(10, f(9, n)), where f(k,m) = floor(m*k/(k-1)).",
   "id": "A272576",
   "mentions": [
+    "A001477",
     "A007094",
+    "A008592",
     "A039155",
-    "A272574"
+    "A197652",
+    "A272574",
+    "A293292",
+    "A390774",
+    "A391163",
+    "A391164"
   ],
   "tags": [
     "base",
@@ -15,6 +22,6 @@
   "terms": {
     "offset": 0,
     "size": 73,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

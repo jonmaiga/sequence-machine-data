@@ -1,5 +1,5 @@
 {
-  "description": "Courteous prime numbers.",
+  "description": "Twin prime numbers that can be written as the sum of two or more consecutive twin prime numbers.",
   "id": "A158754",
   "mentions": [
     "A065867",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

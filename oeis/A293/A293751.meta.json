@@ -2,7 +2,6 @@
   "description": "Values of positive integer i such that floor(tan(-i)) = 1.",
   "id": "A293751",
   "mentions": [
-    "A000530",
     "A195910",
     "A293698",
     "A293699",

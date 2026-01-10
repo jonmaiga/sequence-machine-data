@@ -2,14 +2,18 @@
   "description": "Exponent of 10 (value of j) in n-th number of form 2^i*10^j.",
   "id": "A025684",
   "mentions": [
-    "A025612"
+    "A025612",
+    "A025639",
+    "A122840"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 108,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

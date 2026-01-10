@@ -1,0 +1,17 @@
+{
+  "description": "Records in A210693.",
+  "id": "A391870",
+  "mentions": [
+    "A210693",
+    "A391871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

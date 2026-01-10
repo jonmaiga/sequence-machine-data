@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 23*n^2 - 36 is prime.",
+  "description": "Numbers k such that abs(23*k^2 - 36) is prime.",
   "id": "A110912",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

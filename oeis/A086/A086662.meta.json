@@ -1,5 +1,5 @@
 {
-  "description": "Stirling transform of Catalan numbers: Sum_{k=0..n} |Stirling1(n,k)|*C(2*k,k)/(k+1).",
+  "description": "Stirling transform of Catalan numbers: Sum_{k=0..n} |Stirling1(n, k)|*binomial(2*k, k)/(k+1).",
   "id": "A086662",
   "mentions": [
     "A000108",

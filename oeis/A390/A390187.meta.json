@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of distinct consecutive sums of a permutation of [n].",
+  "id": "A390187",
+  "mentions": [
+    "A234813",
+    "A389241"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

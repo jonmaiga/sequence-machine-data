@@ -2,9 +2,13 @@
   "description": "Number of connected triangle-free graphs on n nodes with edge chromatic number 3.",
   "id": "A207408",
   "mentions": [
-    "A116079"
+    "A116079",
+    "A207410",
+    "A207411",
+    "A207412"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

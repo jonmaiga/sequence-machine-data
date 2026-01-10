@@ -2,12 +2,17 @@
   "description": "Near-multiperfects with primes, powers of 2, 6 * prime and 2^n * prime excluded, abs(sigma(n) mod n) <= log(n).",
   "id": "A117350",
   "mentions": [
+    "A000203",
     "A045768",
+    "A045769",
     "A045770",
     "A077374",
     "A087167",
     "A087485",
     "A088007",
+    "A088008",
+    "A088010",
+    "A088011",
     "A088012",
     "A117346",
     "A117349"

@@ -1,0 +1,20 @@
+{
+  "description": "Lower (1/5,1/2) midsequence of (3^n) and (5*n); see Comments.",
+  "id": "A390563",
+  "mentions": [
+    "A000244",
+    "A008587",
+    "A389123",
+    "A390564"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

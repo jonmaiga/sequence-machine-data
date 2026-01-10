@@ -1,0 +1,20 @@
+{
+  "description": "Number of \"iterative\" minimally rigid n X n adjacency matrices of sphere packings in R^3.",
+  "id": "A390291",
+  "mentions": [
+    "A000088",
+    "A006125",
+    "A173715",
+    "A390292"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

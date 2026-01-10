@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (5*k+1) * binomial(2*n+3*k+1,n-k)/(2*n+3*k+1).",
+  "id": "A390528",
+  "mentions": [
+    "A000108",
+    "A026726",
+    "A390520",
+    "A390527"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

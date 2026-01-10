@@ -1,12 +1,27 @@
 {
-  "description": "Positive discriminants of orders with class number 3.",
+  "description": "Positive discriminants of orders of quadratic fields with class number 3.",
   "id": "A344409",
   "mentions": [
+    "A003646",
+    "A003652",
+    "A003655",
+    "A003656",
+    "A003658",
     "A006832",
+    "A079896",
+    "A087048",
     "A094612",
+    "A094619",
     "A133315",
     "A328825",
-    "A344408"
+    "A344408",
+    "A390079",
+    "A391418",
+    "A391420",
+    "A391421",
+    "A391423",
+    "A391424",
+    "A391425"
   ],
   "tags": [
     "nonn"

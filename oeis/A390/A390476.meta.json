@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/5)} (-1)^k * (6*k+1) * binomial(2*n-4*k+1,n-5*k)/(2*n-4*k+1).",
+  "id": "A390476",
+  "mentions": [
+    "A000108",
+    "A059019",
+    "A135310",
+    "A390477"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/(5*n+3)) * Sum_{k=0..n} (5*k+3) * binomial(5*n+3,n-k).",
+  "id": "A390779",
+  "mentions": [
+    "A002294",
+    "A304979",
+    "A390777",
+    "A390780"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

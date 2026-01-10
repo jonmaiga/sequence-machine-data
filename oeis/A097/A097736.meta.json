@@ -1,7 +1,8 @@
 {
-  "description": "Pell equation solutions (8*b(n))^2 - 65*a(n)^2 = -1 with b(n):=A097735(n), n >= 0.",
+  "description": "Pell equation solutions (8*b(n))^2 - 65*a(n)^2 = -1 with b(n) = A097735(n), n >= 0.",
   "id": "A097736",
   "mentions": [
+    "A010517",
     "A049310",
     "A053120",
     "A097734",

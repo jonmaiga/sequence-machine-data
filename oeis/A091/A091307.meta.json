@@ -1,12 +1,13 @@
 {
-  "description": "a(n)=6*2^n+4 (Bode Number A003461(n+2)) except for a(1)=6.",
+  "description": "a(n) = 6*2^n + 4 (Bode Number A003461(n+2)) except for a(1)=6.",
   "id": "A091307",
   "mentions": [
     "A003461",
     "A053445",
     "A079946",
     "A090324",
-    "A090774"
+    "A090774",
+    "A164094"
   ],
   "tags": [
     "easy",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

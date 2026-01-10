@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of sqrt(e)/6.",
   "id": "A019779",
-  "mentions": [],
+  "mentions": [
+    "A019774"
+  ],
   "tags": [
     "cons",
     "nonn"

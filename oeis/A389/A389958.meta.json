@@ -1,0 +1,25 @@
+{
+  "description": "Odd perfect powers (not including 1) plus 1.",
+  "id": "A389958",
+  "mentions": [
+    "A005843",
+    "A075109",
+    "A216765",
+    "A244009",
+    "A348670",
+    "A389764",
+    "A389765",
+    "A389955",
+    "A389957"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

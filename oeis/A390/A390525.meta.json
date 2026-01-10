@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A000217(n)*A000045(n).",
+  "id": "A390525",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A372252"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

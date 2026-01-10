@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. x^4*exp(x)^2-2*x^4*exp(x)+x^4.",
+  "description": "Expansion of e.g.f. x^4*exp(x)^2 - 2*x^4*exp(x) + x^4.",
   "id": "A052793",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

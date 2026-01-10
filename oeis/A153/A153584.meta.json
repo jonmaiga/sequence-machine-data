@@ -1,8 +1,11 @@
 {
-  "description": "Integers n such that floor((e + Pi)^n) is prime.",
+  "description": "Integers k such that floor((e + Pi)^k) is prime.",
   "id": "A153584",
-  "mentions": [],
+  "mentions": [
+    "A059742"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

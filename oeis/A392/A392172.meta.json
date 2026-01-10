@@ -1,0 +1,28 @@
+{
+  "description": "Number of regions formed after n points have been placed in general position on each edge of a square and a chord is drawn from each point to the the 3*n points on the other three sides.",
+  "id": "A392172",
+  "mentions": [
+    "A255011",
+    "A331448",
+    "A331449",
+    "A331452",
+    "A334698",
+    "A366478",
+    "A366932",
+    "A367015",
+    "A367016",
+    "A367017",
+    "A367117",
+    "A367121",
+    "A367122"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

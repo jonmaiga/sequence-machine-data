@@ -1,16 +1,16 @@
 {
-  "description": "A triangle sequence made symmetrical by reverse coefficients: t0(n,m)=2 + PartitionsP[n] - PartitionsP[m] - PartitionsP[n - m]; t(n,m)=(t0(n,m)+Reverse[t0(n,m)])/2.",
+  "description": "Triangle read by rows: T(n,k) = 2 + A000041(n) - A000041(k) - A000041(n-k).",
   "id": "A156044",
-  "mentions": [],
+  "mentions": [
+    "A000041"
+  ],
   "tags": [
-    "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

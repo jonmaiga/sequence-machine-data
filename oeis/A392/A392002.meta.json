@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n with parts colored by {0, 1} such that the sum of colors is congruent to 1 (mod 2).",
+  "id": "A392002",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A387957",
+    "A390208"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

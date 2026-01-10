@@ -1,0 +1,17 @@
+{
+  "description": "Primes p that can be represented as the sum of distinct nontrivial divisors of p - 1.",
+  "id": "A391006",
+  "mentions": [
+    "A000040",
+    "A070824",
+    "A391004"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

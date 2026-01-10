@@ -1,5 +1,5 @@
 {
-  "description": "Floor(exp(n)/n).",
+  "description": "a(n) = floor(exp(n)/n).",
   "id": "A107316",
   "mentions": [
     "A058738"

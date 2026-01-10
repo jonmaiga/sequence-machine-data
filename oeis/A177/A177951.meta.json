@@ -1,5 +1,5 @@
 {
-  "description": "PrimePi(A066903(n)), the index of A066903(n) in the primes.",
+  "description": "a(n) = PrimePi(A066903(n)), the index of A066903(n) in the primes.",
   "id": "A177951",
   "mentions": [
     "A000720",

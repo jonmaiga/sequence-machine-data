@@ -1,5 +1,5 @@
 {
-  "description": "Sum of squares of the multiplicities of pairwise distances among the vertices of a regular n‑gon.",
+  "description": "Sum of squares of the multiplicities of pairwise distances among the vertices of a regular n-gon.",
   "id": "A387858",
   "mentions": [
     "A084367",

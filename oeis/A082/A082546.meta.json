@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=A082534(x)=A082534(y), where x",
+  "description": "Numbers occurring more than once in A082534.",
   "id": "A082546",
   "mentions": [
     "A082534"

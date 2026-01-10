@@ -1,0 +1,21 @@
+{
+  "description": "Smallest exponent b >= 2 such that the absolute value of the alternating 3-digit block sum of n^b equals n; 0 if none.",
+  "id": "A390112",
+  "mentions": [
+    "A225693",
+    "A259379",
+    "A260193",
+    "A386607",
+    "A386609"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

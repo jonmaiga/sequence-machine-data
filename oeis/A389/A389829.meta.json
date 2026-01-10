@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of closed binary operations on n elements, labeled, that satisfy both x(yz) = (xy)z and x(yz) = xz identically.",
+  "id": "A389829",
+  "mentions": [
+    "A023814",
+    "A121860",
+    "A279644",
+    "A390162"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

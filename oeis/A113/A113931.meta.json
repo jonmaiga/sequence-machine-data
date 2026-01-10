@@ -1,17 +1,20 @@
 {
-  "description": "(RSA-1536)-10^n = prime where RSA-1536 is the 463 decimal digit unfactored RSA challenge number.",
+  "description": "Numbers k such that abs(RSA-1536 - 10^k) is prime, where RSA-1536 is the 463 decimal digit RSA challenge number A391940(48).",
   "id": "A113931",
-  "mentions": [],
+  "mentions": [
+    "A113928",
+    "A113932",
+    "A113934",
+    "A391940"
+  ],
   "tags": [
-    "base",
-    "bref",
-    "fini",
-    "full",
+    "less",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

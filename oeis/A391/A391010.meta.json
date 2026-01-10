@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the maximum number of divisors a number with k distinct and n total prime factors can have.",
+  "id": "A391010",
+  "mentions": [
+    "A152072"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

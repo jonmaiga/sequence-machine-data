@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed polyaboloes (or polytans) with n cells, where two triangles sharing a hypotenuse (making up a square) are counted as a single cell.",
+  "id": "A390998",
+  "mentions": [
+    "A353978",
+    "A390995",
+    "A390996",
+    "A390997",
+    "A391001"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

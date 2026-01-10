@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1/Product_{i = 1..n} w_i, where w_i is the i-th weight factor for Laguerre-Gauss quadrature of degree n.",
+  "id": "A391956",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A387347",
+    "A391957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

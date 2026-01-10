@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(binomial(2*n,n)*n^2,n).",
+  "description": "a(n) = binomial(n^2 * binomial(2*n,n), n).",
   "id": "A119553",
   "mentions": [
     "A002736"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
-    "source": "joeis"
+    "size": 10,
+    "source": "oeis-bfile"
   }
 }

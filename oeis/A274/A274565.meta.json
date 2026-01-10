@@ -24,12 +24,11 @@
     "A274566"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

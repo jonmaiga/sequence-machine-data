@@ -1,0 +1,20 @@
+{
+  "description": "Circular sorting numbers: a(n) = maximum number of swaps required to arrange n labeled points on a circle into clockwise order.",
+  "id": "A390046",
+  "mentions": [
+    "A007705",
+    "A058986",
+    "A071607",
+    "A390047"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

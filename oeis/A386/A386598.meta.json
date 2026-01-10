@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that k - sopfr(k) has exactly n prime factors, counted with multiplicity.",
+  "id": "A386598",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A075255",
+    "A386245",
+    "A389889",
+    "A389973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

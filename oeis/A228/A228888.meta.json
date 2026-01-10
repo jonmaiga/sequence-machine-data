@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = binomial(3*n + 2, 3).",
+  "description": "a(n) = binomial(3*n+2,3).",
   "id": "A228888",
   "mentions": [
     "A000326",

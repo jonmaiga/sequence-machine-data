@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 14 applications of 'Reverse and Subtract' lead to n, whereas fewer than 14 applications do not lead to n.",
+  "description": "Numbers k such that 14 applications of 'Reverse and Subtract' lead to k, whereas fewer than 14 applications do not lead to k.",
   "id": "A072142",
   "mentions": [
     "A072137",

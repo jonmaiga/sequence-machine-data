@@ -2,6 +2,8 @@
   "description": "Fibonacci sequence beginning 4, 10.",
   "id": "A022382",
   "mentions": [
+    "A000032",
+    "A000045",
     "A001060",
     "A022124"
   ],

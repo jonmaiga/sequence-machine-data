@@ -9,12 +9,11 @@
     "A165354"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

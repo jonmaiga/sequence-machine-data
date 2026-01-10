@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f.: x/((1-x^2)^3*(1-2*x)).",
+  "id": "A389373",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A038163",
+    "A052161"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

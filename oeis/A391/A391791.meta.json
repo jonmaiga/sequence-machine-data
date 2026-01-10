@@ -1,0 +1,19 @@
+{
+  "description": "a(n)/2^(n-1) is the expected win if one of two baskets is chosen randomly and the player optimally chooses the coins with values from 1 to n (see Comments for details).",
+  "id": "A391791",
+  "mentions": [
+    "A391537",
+    "A391538",
+    "A391792"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

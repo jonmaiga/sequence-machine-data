@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of 2n-celled fixed polyominoes with at least 180 degree rotational symmetry about the midpoint of a horizontal edge of a square in the lattice.",
+  "id": "A390654",
+  "mentions": [
+    "A001168",
+    "A234008",
+    "A346799",
+    "A390653",
+    "A390655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

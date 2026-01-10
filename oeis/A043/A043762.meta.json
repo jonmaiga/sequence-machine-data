@@ -1,7 +1,9 @@
 {
   "description": "Number of runs in the base 2 representation of n is congruent to 8 mod 9.",
   "id": "A043762",
-  "mentions": [],
+  "mentions": [
+    "A043575"
+  ],
   "tags": [
     "base",
     "nonn"

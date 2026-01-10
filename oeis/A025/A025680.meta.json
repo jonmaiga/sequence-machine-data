@@ -2,14 +2,18 @@
   "description": "Exponent of 9 (value of j) in n-th number of form 6^i*9^j.",
   "id": "A025680",
   "mentions": [
-    "A025628"
+    "A007949",
+    "A025628",
+    "A025662"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g^5/(1 + x*g)^2, where g = 1+x*g^2 is the g.f. of A000108.",
+  "id": "A391408",
+  "mentions": [
+    "A000108",
+    "A065601",
+    "A114495",
+    "A389115"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

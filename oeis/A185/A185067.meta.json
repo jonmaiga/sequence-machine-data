@@ -2,14 +2,15 @@
   "description": "Continued fraction for phi^gamma.",
   "id": "A185067",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A345066"
   ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 91,
     "source": "oeis-bfile"
   }

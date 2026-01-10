@@ -1,0 +1,20 @@
+{
+  "description": "Consider the factorial base expansion of n, without leading zeros, say (d(1), ..., d(w)); for k = 2..floor(w/2), if d(k) <= k then exchange d(k) and d(w+1-k); the resulting digits correspond to the factorial base expansion of a(n).",
+  "id": "A387909",
+  "mentions": [
+    "A034968",
+    "A084558",
+    "A333658",
+    "A389644"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

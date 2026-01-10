@@ -1,5 +1,5 @@
 {
-  "description": "Oex perfect numbers: n such that A186644(n) = 2*n.",
+  "description": "Oex perfect numbers: k such that A186644(k) = 2*k.",
   "id": "A186889",
   "mentions": [
     "A000396",
@@ -11,6 +11,7 @@
     "A186644"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

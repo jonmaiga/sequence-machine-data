@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k which has exactly n divisors d such that sigma(d) = sigma(d + k/d) where sigma = A000203.",
+  "id": "A392031",
+  "mentions": [
+    "A000005",
+    "A000203"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

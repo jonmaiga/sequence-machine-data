@@ -2,15 +2,17 @@
   "description": "Beatty sequence for cube root of 2.",
   "id": "A038129",
   "mentions": [
+    "A002580",
     "A059539"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

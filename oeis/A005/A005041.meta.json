@@ -1,5 +1,5 @@
 {
-  "description": "A self-generating sequence.",
+  "description": "Positive integers k repeated ceiling(k/3) + 1 times.",
   "id": "A005041",
   "mentions": [
     "A001462",

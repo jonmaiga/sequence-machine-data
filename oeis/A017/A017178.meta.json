@@ -1,5 +1,5 @@
 {
-  "description": "(9n+1)^6.",
+  "description": "a(n) = (9*n + 1)^6.",
   "id": "A017178",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 20,
     "source": "joeis"
   }
 }

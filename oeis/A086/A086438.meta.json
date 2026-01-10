@@ -6,11 +6,13 @@
     "A086440"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 12,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

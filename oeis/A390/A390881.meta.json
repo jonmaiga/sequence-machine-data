@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = gcd(A018804(n), A000203(n)).",
+  "id": "A390881",
+  "mentions": [
+    "A000203",
+    "A018804"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

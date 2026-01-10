@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ((3^(n-1)-1)^2)/4.",
+  "description": "a(n) = ((3^(n-1) - 1)^2)/4.",
   "id": "A238976",
   "mentions": [
     "A024023",

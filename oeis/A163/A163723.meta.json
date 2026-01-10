@@ -1,16 +1,18 @@
 {
-  "description": "Number of nX2 binary arrays with all 1s connected, a path of 1s from left column to right column, and no 1 having more than two 1s adjacent.",
+  "description": "Number of n X 2 binary arrays with all 1s connected, a path of 1s from left column to right column, and no 1 having more than two 1s adjacent.",
   "id": "A163723",
   "mentions": [
-    "A006355"
+    "A006355",
+    "A391822"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 36,
     "source": "joeis"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Leading digit of 15^n.",
+  "id": "A390002",
+  "mentions": [
+    "A000030",
+    "A001024",
+    "A008952",
+    "A060956",
+    "A111395",
+    "A362871",
+    "A363093",
+    "A363249",
+    "A364185"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

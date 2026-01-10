@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that floor(antisigma(n) / n) = antisigma(n) mod n.",
+  "description": "Numbers m such that floor(antisigma(m) / m) = antisigma(m) mod m.",
   "id": "A244324",
   "mentions": [
     "A024816",
@@ -7,11 +7,13 @@
     "A244325"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

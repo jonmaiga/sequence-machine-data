@@ -1,0 +1,22 @@
+{
+  "description": "Number of solid partitions of n with 4 parts.",
+  "id": "A387997",
+  "mentions": [
+    "A000219",
+    "A000293",
+    "A002836",
+    "A207542",
+    "A379277",
+    "A380893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 44,
+    "source": "joeis"
+  }
+}

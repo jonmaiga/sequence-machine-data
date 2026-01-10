@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f.: exp(x*(exp(2*x) + 3)/4).",
+  "id": "A390895",
+  "mentions": [
+    "A354323",
+    "A390894",
+    "A390896",
+    "A390907"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

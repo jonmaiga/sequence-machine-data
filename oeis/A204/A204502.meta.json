@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that floor[a(n)^2 / 9] is a square.",
+  "description": "Numbers k such that floor(k^2 / 9) is a square.",
   "id": "A204502",
   "mentions": [
     "A001075",
@@ -23,6 +23,7 @@
     "A204520"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

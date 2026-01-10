@@ -1,0 +1,19 @@
+{
+  "description": "Sum of numbers <= 10^n which are not squarefree.",
+  "id": "A388005",
+  "mentions": [
+    "A013929",
+    "A037156",
+    "A063035",
+    "A387980"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

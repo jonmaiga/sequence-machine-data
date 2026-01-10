@@ -1,16 +1,20 @@
 {
-  "description": "Take the list of positive rationals {R(n): n>=1} in the order defined by Calkin and Wilf (Recounting the Rationals, 1999); a(n) = denominator of R(prime(n)).",
+  "description": "a(n) is the (prime(n)+1)-th term of Stern-Brocot sequence, A002487.",
   "id": "A261273",
   "mentions": [
     "A002487",
+    "A008864",
     "A261179"
   ],
   "tags": [
+    "easy",
+    "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 168,
-    "source": "oeis-entry"
+    "size": 89,
+    "source": "oeis-bfile"
   }
 }

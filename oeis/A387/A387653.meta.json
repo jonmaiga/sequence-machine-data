@@ -7,12 +7,11 @@
     "A387654"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "The largest number with an arithmetic mean of divisors equal to n or 0 is there is no such number.",
+  "id": "A391373",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A157846",
+    "A157847",
+    "A162538"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

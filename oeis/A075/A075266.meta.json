@@ -2,6 +2,8 @@
   "description": "Numerator of the coefficient of x^n in log(-log(1-x)/x).",
   "id": "A075266",
   "mentions": [
+    "A002208",
+    "A002209",
     "A053657",
     "A075264",
     "A075267",
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

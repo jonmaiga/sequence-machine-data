@@ -6,11 +6,14 @@
     "A199636"
   ],
   "tags": [
+    "easy",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 52,
     "source": "oeis-entry"
   }
 }

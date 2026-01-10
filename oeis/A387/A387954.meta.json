@@ -1,0 +1,18 @@
+{
+  "description": "The number of triangle-free graphs on n vertices which require the most edges to be removed to make them bipartite.",
+  "id": "A387954",
+  "mentions": [
+    "A216783",
+    "A280020",
+    "A389646"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

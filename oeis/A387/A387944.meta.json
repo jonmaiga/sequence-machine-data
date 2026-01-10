@@ -1,0 +1,25 @@
+{
+  "description": "Number of squarefree composites <= n.",
+  "id": "A387944",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A005117",
+    "A008683",
+    "A013928",
+    "A120944",
+    "A126706",
+    "A246547",
+    "A354819"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

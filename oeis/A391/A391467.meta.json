@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,0) = T(n,n) = 0 and T(n,k) = T(n, k-1) + T(n-1, k-1) + T(n-2, k-1) + k for 0 < k < n.",
+  "id": "A391467",
+  "mentions": [
+    "A000340",
+    "A052150",
+    "A130481",
+    "A211278",
+    "A387263",
+    "A390369"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,11 @@
 {
   "description": "Continued fraction for sqrt(193).",
   "id": "A010235",
-  "mentions": [],
+  "mentions": [
+    "A041358",
+    "A041359",
+    "A177272"
+  ],
   "tags": [
     "cofr",
     "nonn"

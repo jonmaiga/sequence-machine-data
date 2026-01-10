@@ -1,0 +1,31 @@
+{
+  "description": "Odd cubefree exponential abundant numbers: odd cubefree numbers k for which A051377(k) > 2*k.",
+  "id": "A391429",
+  "mentions": [
+    "A001694",
+    "A004709",
+    "A005117",
+    "A005408",
+    "A051377",
+    "A056911",
+    "A059956",
+    "A064987",
+    "A112643",
+    "A129575",
+    "A321147",
+    "A357695",
+    "A357697",
+    "A381822",
+    "A391427",
+    "A391430"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

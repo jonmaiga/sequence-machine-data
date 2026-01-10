@@ -1,0 +1,17 @@
+{
+  "description": "Record denominators of (p2+1)/(p1+1), where p1 < p2 are consecutive primes.",
+  "id": "A390099",
+  "mentions": [
+    "A390027",
+    "A390028",
+    "A390098"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

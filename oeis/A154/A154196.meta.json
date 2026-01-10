@@ -2,6 +2,7 @@
   "description": "Decimal expansion of log_3 (12).",
   "id": "A154196",
   "mentions": [
+    "A100831",
     "A102525",
     "A153015"
   ],

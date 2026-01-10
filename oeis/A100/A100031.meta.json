@@ -2,15 +2,16 @@
   "description": "Bisection of A005384.",
   "id": "A100031",
   "mentions": [
-    "A005384"
+    "A005384",
+    "A100032"
   ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

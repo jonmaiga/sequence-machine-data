@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k) read by antidiagonals: T(n,k) = f(T(n,k)) starting with T(n,1)=n, where f(x) = x - 1 + x/gpf(x), that is, f(x) = A269304(x)-2.",
+  "description": "Table T(n,k) read by antidiagonals: T(n,k) = f(T(n,k-1)) starting with T(n,1)=n, where f(x) = x - 1 + x/gpf(x), that is, f(x) = A269304(x)-2.",
   "id": "A329288",
   "mentions": [
     "A006530",

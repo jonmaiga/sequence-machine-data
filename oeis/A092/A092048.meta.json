@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) == -6 (mod n).",
+  "description": "Numbers k such that prime(k) == -6 (mod k).",
   "id": "A092048",
   "mentions": [
     "A023148",
@@ -14,6 +14,7 @@
     "A092052"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

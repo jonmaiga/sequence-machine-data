@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in an augmented dodecahedron (Johnson solid J_58).",
+  "id": "A389851",
+  "mentions": [
+    "A010476",
+    "A137218",
+    "A236367",
+    "A385695",
+    "A385696"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "0-additive sequence: a(n) is the smallest number larger than a(n-1) which is not the sum of any subset of earlier terms, with initial values {0, 2, 3, 4}.",
   "id": "A244750",
   "mentions": [
+    "A000079",
     "A003662",
     "A003663",
     "A005408",
+    "A007300",
     "A026471",
     "A026474",
     "A033627",
@@ -18,12 +20,12 @@
     "A244749"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

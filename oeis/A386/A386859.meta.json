@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the number of steps taken by all n-state Turing machines that halt.",
+  "id": "A386859",
+  "mentions": [
+    "A004147",
+    "A060843"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

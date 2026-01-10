@@ -1,0 +1,16 @@
+{
+  "description": "Twin primes in the twin prime partitions defined in A381169 that contain one twin prime pair.",
+  "id": "A388068",
+  "mentions": [
+    "A069453",
+    "A381169"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

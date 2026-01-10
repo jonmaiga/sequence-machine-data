@@ -2,7 +2,8 @@
   "description": "a(n) is the maximum number of water-pouring moves needed to reach (1, 1, ..., 1) from any valid initial configuration for n bottles.",
   "id": "A387318",
   "mentions": [
-    "A000707"
+    "A000707",
+    "A387661"
   ],
   "tags": [
     "formulas",

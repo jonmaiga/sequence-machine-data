@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct lattice points on the Lévy C curve after n iterations.",
+  "id": "A390425",
+  "mentions": [
+    "A332251",
+    "A332252"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

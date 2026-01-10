@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first prime that is (product minus sum) of a sequence of 2*n consecutive primes.",
+  "id": "A390935",
+  "mentions": [
+    "A096345",
+    "A387590",
+    "A387946",
+    "A390916",
+    "A390933"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "A005117(k) - 1 where k is the least k such that A389412(k) = n.",
+  "id": "A389879",
+  "mentions": [
+    "A005117",
+    "A056170",
+    "A389412"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,13 +2,16 @@
   "description": "Dirichlet g.f.: Sum_{n>0} a(n)/n^s = zeta(s) * zeta(s-2) / (zeta(s-1))^2.",
   "id": "A340850",
   "mentions": [
+    "A000203",
     "A000290",
     "A001157",
     "A002618",
     "A007433",
     "A018804",
     "A023900",
+    "A048250",
     "A060640",
+    "A173557",
     "A328722"
   ],
   "tags": [
@@ -20,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

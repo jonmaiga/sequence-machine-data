@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k > n such that prime(k)# contains the digits of prime(n)# as a substring.",
+  "id": "A390378",
+  "mentions": [
+    "A002110",
+    "A086654",
+    "A354114"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

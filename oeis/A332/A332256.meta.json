@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1 / (2 - exp(sinh(x))).",
+  "description": "Expansion of e.g.f. 1 / (2 - exp(sinh(x))).",
   "id": "A332256",
   "mentions": [
     "A000110",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

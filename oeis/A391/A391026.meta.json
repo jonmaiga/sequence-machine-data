@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers that are neither powerful nor squarefree.",
+  "id": "A391026",
+  "mentions": [
+    "A005843",
+    "A013929",
+    "A024619",
+    "A052485",
+    "A126706",
+    "A332785",
+    "A391025"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

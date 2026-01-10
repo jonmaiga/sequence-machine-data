@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that x^4 + y^4 = n * z^4 is solvable in nonzero integers x,y,z with z > 1 and gcd(x,y,n) = 1.",
+  "description": "Numbers k such that x^4 + y^4 = k * z^4 is solvable in nonzero integers x,y,z with z > 1 and gcd(x,y,k) = 1.",
   "id": "A209431",
   "mentions": [
     "A003336",

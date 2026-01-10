@@ -1,0 +1,18 @@
+{
+  "description": "Number of (edge) 5-critical graphs on n vertices.",
+  "id": "A389840",
+  "mentions": [
+    "A076316",
+    "A358316",
+    "A389841"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

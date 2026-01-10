@@ -2,7 +2,9 @@
   "description": "Expansion of 1/(1 - x*A002296(x)).",
   "id": "A186184",
   "mentions": [
-    "A002296"
+    "A002296",
+    "A390386",
+    "A390390"
   ],
   "tags": [
     "formulas",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

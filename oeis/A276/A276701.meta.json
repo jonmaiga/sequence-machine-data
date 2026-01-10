@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n>0 such that n’ = (n-1)’ + (n-2)’, where n’ is the arithmetic derivative of n.",
+  "description": "Numbers k>0 such that k' = (k-1)' + (k-2)', where k' is the arithmetic derivative of k.",
   "id": "A276701",
   "mentions": [
-    "A003415"
+    "A003415",
+    "A276702"
   ],
   "tags": [
     "more",

@@ -2,6 +2,7 @@
   "description": "Perfect powers equal to the sum of 7 factorial numbers.",
   "id": "A227648",
   "mentions": [
+    "A001597",
     "A114377",
     "A227644",
     "A227651"

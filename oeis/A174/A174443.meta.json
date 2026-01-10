@@ -1,5 +1,5 @@
 {
-  "description": "Generating function x/(1+4*x-8*x^2).",
+  "description": "Expansion of g.f. x/(1 + 4*x - 8*x^2).",
   "id": "A174443",
   "mentions": [
     "A002605",

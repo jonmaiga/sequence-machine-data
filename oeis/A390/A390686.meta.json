@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * binomial(3*n-2*k,n-2*k).",
+  "id": "A390686",
+  "mentions": [
+    "A176332",
+    "A390687"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

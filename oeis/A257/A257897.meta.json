@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n = concat(a,b) and n | a^b + b^a , with a>0 and b>0.",
+  "description": "Numbers k such that k = concat(a,b) and k | a^b + b^a, with a>0 and b>0.",
   "id": "A257897",
   "mentions": [
     "A253824",

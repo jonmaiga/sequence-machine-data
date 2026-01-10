@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 9*(q+1)*q/2 + (3*q+2)*(n mod 3) - 3*k + 3 for 1 <= k <= n, where q = floor(n/3).",
+  "id": "A391056",
+  "mentions": [
+    "A001844",
+    "A006003"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

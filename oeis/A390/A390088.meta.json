@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least integer base b > 1 in which the representation of n uses only prime digits; or 0 if no such base exists.",
+  "id": "A390088",
+  "mentions": [
+    "A355034",
+    "A384211"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

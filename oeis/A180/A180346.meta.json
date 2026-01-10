@@ -1,5 +1,5 @@
 {
-  "description": "Primes that divide every circular permutation of the digits of at least one number of the form 123...(n-1)(n) (see A007908), where n is 3 digits long (that is, for some n in the range 99",
+  "description": "Primes that divide every circular permutation of the digits of at least one number of the form 123...(k-1)(k) (see A007908), where k is 3 digits long (that is, for some k in the range 99 < k < 1000).",
   "id": "A180346",
   "mentions": [
     "A007908",
@@ -10,7 +10,7 @@
     "base",
     "fini",
     "formulas",
-    "hard",
+    "full",
     "nonn"
   ],
   "terms": {

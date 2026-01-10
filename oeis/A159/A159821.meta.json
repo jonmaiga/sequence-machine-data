@@ -1,10 +1,11 @@
 {
-  "description": "Continued fraction for (e*Pi*phi)^2 A131566, where phi = (1 + sqrt(5))/2.",
+  "description": "Continued fraction for (e*Pi*phi)^2, where phi = (1 + sqrt(5))/2.",
   "id": "A159821",
   "mentions": [
     "A131566"
   ],
   "tags": [
+    "cofr",
     "nonn"
   ],
   "terms": {

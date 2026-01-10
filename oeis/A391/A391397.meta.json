@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that d(k+1)/d(k) = 2^m for some integer m (positive, zero, or negative), where d(k) is the number of divisors of k.",
+  "id": "A391397",
+  "mentions": [
+    "A000005",
+    "A036537",
+    "A372690",
+    "A377562",
+    "A391396"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number n in the rational base 7/3.",
+  "id": "A389934",
+  "mentions": [
+    "A157532",
+    "A383346"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

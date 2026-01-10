@@ -1,0 +1,14 @@
+{
+  "description": "Number of increasing interval-labeled restricted ternary trees on the label set {0,1,...,n}.",
+  "id": "A390399",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

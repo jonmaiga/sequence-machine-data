@@ -1,5 +1,5 @@
 {
-  "description": "Numbers in decimal representation, such that in Norwegian and Swedish their digits are in alphabetic order.",
+  "description": "Numbers in decimal representation, such that in Swedish their digits are in alphabetic order.",
   "id": "A247759",
   "mentions": [
     "A053432",
@@ -25,8 +25,8 @@
     "word"
   ],
   "terms": {
-    "offset": 1,
-    "size": 65,
+    "offset": 0,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as u + (1+(n mod 2))*v with v <= n/2, where u and v are both sums of three consecutive primes.",
+  "id": "A386888",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A002375",
+    "A034961",
+    "A387043",
+    "A389789",
+    "A389790"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

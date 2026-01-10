@@ -2,17 +2,19 @@
   "description": "Number of internal triangles in all triangulations of an (n+1)-gon.",
   "id": "A002058",
   "mentions": [
+    "A001622",
     "A002059",
     "A002060",
     "A003516"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 5,
-    "size": 23,
+    "size": 25,
     "source": "joeis"
   }
 }

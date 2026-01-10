@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose prime factorization exponents are not divisible by 3.",
+  "id": "A390437",
+  "mentions": [
+    "A001651",
+    "A004709",
+    "A005117",
+    "A007412",
+    "A077610",
+    "A182120",
+    "A268335",
+    "A336592",
+    "A366762",
+    "A386799",
+    "A390438"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

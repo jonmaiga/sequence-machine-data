@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of connected uniquely graceful graph on n vertices.",
+  "description": "Numbers of connected uniquely graceful graphs on n vertices.",
   "id": "A379573",
   "mentions": [
     "A379572",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

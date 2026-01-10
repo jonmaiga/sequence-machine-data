@@ -1,0 +1,21 @@
+{
+  "description": "Decreasing partition array based on the tails of the binary Champernowne constant (A030190); see Comments.",
+  "id": "A389577",
+  "mentions": [
+    "A030190",
+    "A388853",
+    "A389574",
+    "A389575",
+    "A389576"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,11 +1,10 @@
 {
-  "description": "Number of paths with length A383980(n) touching all cells in an n X n grid, where rotations, reflections, and translations are not counted as distinct.",
+  "description": "Number of canonical representative paths with length A383980(n) touching all cells in an n X n grid.",
   "id": "A384037",
   "mentions": [
     "A383980"
   ],
   "tags": [
-    "formulas",
     "hard",
     "more",
     "nonn",

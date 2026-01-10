@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (-1)^n*Stirling1(2*n, n)*CatalanNumber(n).",
+  "id": "A390276",
+  "mentions": [
+    "A000108",
+    "A132393",
+    "A187646",
+    "A390277",
+    "A390726",
+    "A390727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,17 +1,22 @@
 {
-  "description": "Row indices for nonzero elements in first column of A174888.",
+  "description": "All positive numbers except those that are the product of an odd number of distinct primes.",
   "id": "A174891",
   "mentions": [
+    "A008683",
+    "A013929",
     "A018252",
+    "A030229",
     "A174888",
-    "A174889"
+    "A174889",
+    "A390278"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
+    "size": 69,
     "source": "oeis-entry"
   }
 }

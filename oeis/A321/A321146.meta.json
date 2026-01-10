@@ -2,9 +2,12 @@
   "description": "Exponential weird numbers: numbers that are exponential abundant (A129575) but not exponential pseudoperfect (A318100).",
   "id": "A321146",
   "mentions": [
+    "A001694",
+    "A005117",
     "A006037",
     "A129575",
-    "A318100"
+    "A318100",
+    "A391144"
   ],
   "tags": [
     "nonn"

@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that sigma(n-phi(n)) = phi(n).",
+  "description": "Numbers k such that sigma(k-phi(k)) = phi(k).",
   "id": "A070170",
   "mentions": [
+    "A000010",
+    "A000203",
+    "A051953",
     "A070171"
   ],
   "tags": [

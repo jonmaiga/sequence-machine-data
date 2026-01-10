@@ -1,9 +1,8 @@
 {
-  "description": "The sum of all odd numbers from 2n-1 to prime(n).",
+  "description": "The sum of all odd numbers from 2*n-1 to prime(n).",
   "id": "A163637",
   "mentions": [
     "A000040",
-    "A000079",
     "A005408",
     "A006254"
   ],

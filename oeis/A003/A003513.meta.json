@@ -10,13 +10,13 @@
     "A234595"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

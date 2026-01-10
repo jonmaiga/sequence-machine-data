@@ -9,11 +9,12 @@
     "A352566"
   ],
   "tags": [
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 116,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Indices where the cumulative sum of cos(2k+1)^(2k+1) reaches a record high value.",
+  "id": "A389559",
+  "mentions": [
+    "A387706",
+    "A389560"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

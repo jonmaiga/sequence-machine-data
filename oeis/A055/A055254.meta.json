@@ -2,6 +2,7 @@
   "description": "Number of odd digits in 2^n.",
   "id": "A055254",
   "mentions": [
+    "A001370",
     "A034887",
     "A055253"
   ],

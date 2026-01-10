@@ -1,15 +1,16 @@
 {
-  "description": "(n^2-2=A008865) mod 9. Period 9: repeat 8,2,7,5,5,7,2,8,7.",
+  "description": "Period 9: repeat 8,2,7,5,5,7,2,8,7.",
   "id": "A152179",
   "mentions": [
     "A008865"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 54,
+    "size": 90,
     "source": "joeis"
   }
 }

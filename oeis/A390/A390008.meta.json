@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number which can be represented as a sum of two distinct nontrivial powers in exactly n ways.",
+  "id": "A390008",
+  "mentions": [
+    "A001597",
+    "A093195",
+    "A225099",
+    "A225100",
+    "A225103",
+    "A298591",
+    "A362424",
+    "A363040",
+    "A365295",
+    "A389486",
+    "A389842"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

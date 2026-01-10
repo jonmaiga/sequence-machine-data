@@ -1,0 +1,21 @@
+{
+  "description": "Number of tripling steps in the Collatz 3x+1 iteration going from 2^n-1 to 1.",
+  "id": "A390816",
+  "mentions": [
+    "A000225",
+    "A006667",
+    "A075680",
+    "A181777",
+    "A193688",
+    "A390817"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

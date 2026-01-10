@@ -2,14 +2,18 @@
   "description": "Exponent of 10 (value of j) in n-th number of form 5^i*10^j.",
   "id": "A025687",
   "mentions": [
-    "A025625"
+    "A025625",
+    "A025655",
+    "A122840"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 106,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to place 2 non-attacking kings in each row and column of an n X n board.",
+  "id": "A389766",
+  "mentions": [
+    "A002464",
+    "A061995",
+    "A387098"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 8,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

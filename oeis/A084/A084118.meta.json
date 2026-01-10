@@ -2,11 +2,11 @@
   "description": "Continued fraction expansion of Product_{k>=0} (1 - 1/(2^k+1)).",
   "id": "A084118",
   "mentions": [
+    "A083864",
     "A085011"
   ],
   "tags": [
     "cofr",
-    "formulas",
     "nonn"
   ],
   "terms": {

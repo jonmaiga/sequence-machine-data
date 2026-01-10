@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that |s(k) - k| < |s(s(k)) - s(k)|, where s(k) is the sum of the proper divisors of k.",
+  "id": "A390186",
+  "mentions": [
+    "A001065"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

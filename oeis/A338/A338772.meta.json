@@ -2,7 +2,8 @@
   "description": "The number of different probabilities p for which a coin that lands heads with probability p can, using n flips, perfectly model one flip of a fair coin.",
   "id": "A338772",
   "mentions": [
-    "A055612"
+    "A055612",
+    "A096195"
   ],
   "tags": [
     "hard",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

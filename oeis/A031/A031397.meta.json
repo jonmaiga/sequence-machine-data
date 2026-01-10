@@ -1,5 +1,5 @@
 {
-  "description": "Nonsquarefree n such that Pell equation x^2 - n y^2 = -1 is soluble.",
+  "description": "Nonsquarefree k such that Pell equation x^2 - k*y^2 = -1 is soluble.",
   "id": "A031397",
   "mentions": [
     "A003654",

@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(545).",
   "id": "A040521",
-  "mentions": [],
+  "mentions": [
+    "A042042",
+    "A042043"
+  ],
   "tags": [
     "cofr",
     "easy",

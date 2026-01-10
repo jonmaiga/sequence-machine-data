@@ -1,11 +1,13 @@
 {
-  "description": "Period 2: repeat 6,30.",
+  "description": "Period 2: repeat (6,30).",
   "id": "A165734",
   "mentions": [
     "A002445",
     "A010686",
+    "A010700",
     "A040214",
-    "A124886"
+    "A124886",
+    "A176906"
   ],
   "tags": [
     "easy",
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
+    "size": 72,
     "source": "joeis"
   }
 }

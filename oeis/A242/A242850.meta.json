@@ -1,5 +1,5 @@
 {
-  "description": "32*n^5 - 32*n^3 + 6*n.",
+  "description": "a(n) = 32*n^5 - 32*n^3 + 6*n.",
   "id": "A242850",
   "mentions": [
     "A000466",

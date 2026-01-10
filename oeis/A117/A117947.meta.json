@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=L(C(n,k)/3) where L(j/p) is the Legendre symbol of j and p.",
+  "description": "T(n,k) = L(C(n,k)/3) where L(j/p) is the Legendre symbol of j and p.",
   "id": "A117947",
   "mentions": [
     "A059126",

@@ -12,11 +12,13 @@
     "A071552"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 9,
     "source": "oeis-bfile"
   }
 }

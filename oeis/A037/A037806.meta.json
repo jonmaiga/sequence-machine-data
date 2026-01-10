@@ -2,6 +2,15 @@
   "description": "Number of i such that d(i) < d(i-1), where Sum_{i=0..m} d(i)*8^i is the base-8 representation of n.",
   "id": "A037806",
   "mentions": [
+    "A007094",
+    "A037800",
+    "A037801",
+    "A037802",
+    "A037803",
+    "A037804",
+    "A037805",
+    "A037807",
+    "A037808",
     "A037823"
   ],
   "tags": [

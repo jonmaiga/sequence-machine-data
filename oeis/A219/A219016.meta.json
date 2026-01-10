@@ -2,7 +2,8 @@
   "description": "e-perfect numbers (A054979) divided by 36.",
   "id": "A219016",
   "mentions": [
-    "A054979"
+    "A054979",
+    "A318645"
   ],
   "tags": [
     "nonn"

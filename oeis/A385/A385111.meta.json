@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the least cardinality of a set of binary strings of length k such that any binary string of length n contains one of the strings in the set as a substring; 0 <= k <= n.",
+  "id": "A385111",
+  "mentions": [
+    "A000031",
+    "A000079"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

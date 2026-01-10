@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of iterations of x-> gpf(3*x+1) starting at n until the value 2 is reached; a(n) = -1 if 2 is not reached.",
+  "id": "A391055",
+  "mentions": [
+    "A006530",
+    "A087273"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

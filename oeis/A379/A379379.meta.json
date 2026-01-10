@@ -2,6 +2,7 @@
   "description": "Sum of odd divisors of n except the \"e\" odd divisors described in A005279.",
   "id": "A379379",
   "mentions": [
+    "A000203",
     "A000593",
     "A001227",
     "A005279",
@@ -13,9 +14,12 @@
     "A379288",
     "A379374",
     "A379384",
-    "A379461"
+    "A379461",
+    "A383147",
+    "A389591"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

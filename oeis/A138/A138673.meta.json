@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n)^4 mod prime(n-1).",
+  "description": "a(n) = prime(n)^4 mod prime(n-1).",
   "id": "A138673",
   "mentions": [
     "A001223",
@@ -18,8 +18,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 49,
+    "offset": 2,
+    "size": 65,
     "source": "joeis"
   }
 }

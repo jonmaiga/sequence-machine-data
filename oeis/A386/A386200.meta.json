@@ -1,0 +1,16 @@
+{
+  "description": "Number of conjugacy classes of PSL(2,Z) of trace n, or 0 if infinitely many.",
+  "id": "A386200",
+  "mentions": [
+    "A372728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Continued fraction for square root of Pi.",
   "id": "A058280",
-  "mentions": [],
+  "mentions": [
+    "A002161"
+  ],
   "tags": [
     "cofr",
     "easy",

@@ -1,0 +1,15 @@
+{
+  "description": "Smallest number that is the sum of n > 2 consecutive primes and also the sum of n consecutive composites.",
+  "id": "A391771",
+  "mentions": [
+    "A390613"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

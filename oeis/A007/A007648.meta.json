@@ -1,9 +1,10 @@
 {
-  "description": "n*18^n + 1 is a prime.",
+  "description": "Numbers k such that k*18^k + 1 is prime.",
   "id": "A007648",
   "mentions": [],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

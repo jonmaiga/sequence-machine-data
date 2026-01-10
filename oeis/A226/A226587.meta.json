@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n having at least two complementary pairs of divisors (q, p) and (p', q') such that n = p*q = p'*q' where the decimal digits of p' are the 9's complement of the decimal digits of p and the decimal digits of q' are the 9's complement of the decimal digits of q.",
+  "description": "Numbers k having at least two complementary pairs of divisors (q, p) and (p', q') such that k = p*q = p'*q' where the decimal digits of p' are the 9's complement of the decimal digits of p and the decimal digits of q' are the 9's complement of the decimal digits of q.",
   "id": "A226587",
   "mentions": [
     "A002275",

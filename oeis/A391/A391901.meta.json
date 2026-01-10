@@ -1,0 +1,24 @@
+{
+  "description": "The number of distinct factorials that are unitarily dividing n.",
+  "id": "A391901",
+  "mentions": [
+    "A000010",
+    "A000142",
+    "A048855",
+    "A055881",
+    "A077610",
+    "A123476",
+    "A373318",
+    "A373319"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

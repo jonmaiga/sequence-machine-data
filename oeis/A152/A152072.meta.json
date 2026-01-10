@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = the largest product of a partition of n into k positive integers (1 <= k <= n).",
+  "description": "Triangle read by rows: T(n, k) is the largest product of a partition of n into k positive integers.",
   "id": "A152072",
   "mentions": [
     "A000027",

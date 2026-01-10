@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of lim_{i->infinity} Product_{j=2..i} gamma(i+zeta(i+1))/gamma(i+zeta(i)).",
+  "description": "Decimal expansion of lim_{i->infinity} Product_{j=2..i} Gamma(j+zeta(j+1)) / Gamma(j+zeta(j)).",
   "id": "A081709",
   "mentions": [
     "A002117"

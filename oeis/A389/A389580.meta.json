@@ -1,0 +1,17 @@
+{
+  "description": "Increasing partition array based on the fractional parts of (n*e); see A388853.",
+  "id": "A389580",
+  "mentions": [
+    "A388853",
+    "A389581"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

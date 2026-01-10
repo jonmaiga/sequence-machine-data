@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: numerators of the almost-Riordan array ( (3 - 3*x)/(2*x^2 - 6*x + 3) | 3/(2*x^2 - 6*x + 3), (1 - 3*x - sqrt(5*x^2 - 6*x + 1))/(2*x) ).",
+  "id": "A389749",
+  "mentions": [
+    "A373744",
+    "A373746",
+    "A389706",
+    "A389708",
+    "A389710",
+    "A389739",
+    "A389750"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

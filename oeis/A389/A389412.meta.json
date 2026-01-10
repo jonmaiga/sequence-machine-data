@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest k such that (A005117(n) - 1) + A005117(i) is squarefree for 1 <= i <= k.",
+  "id": "A389412",
+  "mentions": [
+    "A005117",
+    "A056170",
+    "A072284",
+    "A373415",
+    "A375707",
+    "A390138"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

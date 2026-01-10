@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 divides n.n.n where dot \".\" means concatenation.",
+  "description": "Numbers k such that k^2 divides k.k.k where dot \".\" means concatenation.",
   "id": "A243162",
   "mentions": [
     "A074992",

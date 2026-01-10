@@ -1,0 +1,20 @@
+{
+  "description": "Minimal integer s such that the ceiling of the Golomb-Keller limit gives prime(n+1) (see comment).",
+  "id": "A389650",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002110",
+    "A002386",
+    "A092526"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..1 arrays with no 1 equal to more than one of its horizontal, vertical and antidiagonal neighbors, with the exception of exactly one element.",
+  "description": "Number of n X 2 0..1 arrays with no 1 equal to more than one of its horizontal, vertical and antidiagonal neighbors, with the exception of exactly one element.",
   "id": "A282879",
   "mentions": [
     "A282885"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = min(n, A059894(n)).",
+  "id": "A389904",
+  "mentions": [
+    "A059894",
+    "A331166",
+    "A389903",
+    "A389907"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,14 +1,18 @@
 {
   "description": "Continued fraction for sqrt(128).",
   "id": "A010189",
-  "mentions": [],
+  "mentions": [
+    "A041232",
+    "A041233",
+    "A377342"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
+    "size": 81,
     "source": "joeis"
   }
 }

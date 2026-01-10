@@ -2,6 +2,7 @@
   "description": "Lexicographically earliest infinite sequence of distinct positive integers with a(n) = n for n <= 3, and for n > 3 a(n) is the least novel multiple of the greatest prime divisor of a(n-2) which does not divide a(n-1).",
   "id": "A362631",
   "mentions": [
+    "A006530",
     "A007947",
     "A098550",
     "A361133",

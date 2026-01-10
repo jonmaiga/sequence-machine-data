@@ -10,13 +10,13 @@
     "A189391"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

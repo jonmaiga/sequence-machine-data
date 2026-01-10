@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the divisors of k^2 + 1 are all of the form m^2 + 1.",
+  "id": "A391137",
+  "mentions": [
+    "A002496",
+    "A002522",
+    "A005574",
+    "A027750",
+    "A027751",
+    "A193432"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

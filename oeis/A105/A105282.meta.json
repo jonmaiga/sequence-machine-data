@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that n^20 + 1 is semiprime (A001358).",
+  "description": "Positive integers k such that k^20 + 1 is semiprime (A001358).",
   "id": "A105282",
   "mentions": [
     "A000040",

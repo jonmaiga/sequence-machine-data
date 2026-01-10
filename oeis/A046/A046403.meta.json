@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with exactly 5 distinct palindromic prime factors.",
+  "description": "Numbers with exactly 5 distinct prime factors each of which is a palindrome.",
   "id": "A046403",
   "mentions": [
     "A002385",

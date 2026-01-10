@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of squares in the n-th ring (n >= 0) of the Poincaré diagram of the order-5 square tiling of the hyperbolic plane (Schläfli symbol {4,5}).",
+  "id": "A390190",
+  "mentions": [
+    "A119611"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

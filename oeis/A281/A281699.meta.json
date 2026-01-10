@@ -1,5 +1,5 @@
 {
-  "description": "Sierpinski stellated octahedron numbers: a(n) = 2*(-3*2^(n+1) + 2^(2n+3) + 5).",
+  "description": "Sierpinski stellated octahedron numbers: a(n) = 2*(-3*2^(n+1) + 2^(2*n+3) + 5).",
   "id": "A281699",
   "mentions": [
     "A007588",

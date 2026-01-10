@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest integer k such that the Diophantine equation x^3 + y^3 + z^3 = k^3 has exactly n positive primitive integer solutions.",
+  "id": "A391773",
+  "mentions": [
+    "A316359",
+    "A377444"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

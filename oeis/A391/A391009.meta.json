@@ -1,0 +1,17 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths on the 9 X n knight graph.",
+  "id": "A391009",
+  "mentions": [
+    "A390833"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

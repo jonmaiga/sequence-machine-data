@@ -2,6 +2,7 @@
   "description": "First differences of Chebyshev polynomials S(n,51) = A097836(n) with Diophantine property.",
   "id": "A097838",
   "mentions": [
+    "A010506",
     "A049310",
     "A053120",
     "A097836",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

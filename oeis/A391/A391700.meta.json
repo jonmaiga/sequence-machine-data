@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (8*n)!/(n!*(2*n)!*(5*n)!).",
+  "id": "A391700",
+  "mentions": [
+    "A234461",
+    "A235536",
+    "A364305"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

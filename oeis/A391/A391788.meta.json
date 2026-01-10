@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) = phi(n+k) with k >= 0 and A(0,0) = 0.",
+  "id": "A391788",
+  "mentions": [
+    "A000010",
+    "A002618",
+    "A062570",
+    "A391789",
+    "A391790"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

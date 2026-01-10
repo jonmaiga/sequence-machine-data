@@ -1,5 +1,5 @@
 {
-  "description": "Primes n such that nextprime(n) - n = ( number of divisors of (nextprime(n)+n)/2 )-1.",
+  "description": "Primes p such that nextprime(p) - p = ( number of divisors of (nextprime(p)+p)/2 )-1.",
   "id": "A037209",
   "mentions": [],
   "tags": [

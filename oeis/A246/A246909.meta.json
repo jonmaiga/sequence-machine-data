@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest numbers k such that sigma(k+sigma(k)) = n* sigma(k) or -1 if no solution exists or has been found for n.",
+  "description": "a(n) = the smallest numbers k such that sigma(k+sigma(k)) = n*sigma(k) or -1 if no solution exists or has been found for n.",
   "id": "A246909",
   "mentions": [
     "A000203",
@@ -11,6 +11,8 @@
     "A246914"
   ],
   "tags": [
+    "hard",
+    "more",
     "sign"
   ],
   "terms": {

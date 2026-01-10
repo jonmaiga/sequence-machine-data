@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n where the gcd of the parts equals the median of the parts.",
+  "id": "A388070",
+  "mentions": [
+    "A011782",
+    "A130709",
+    "A130711",
+    "A391398"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

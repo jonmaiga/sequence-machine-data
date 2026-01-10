@@ -1,13 +1,13 @@
 {
-  "description": "A nonsense sequence.",
+  "description": "Triangle read by rows: Row n is the expansion of the characteristic polynomial of an n X n submatrix of A131218 (0 <= i,j < n).",
   "id": "A122944",
   "mentions": [
-    "A121801"
+    "A121801",
+    "A131218"
   ],
   "tags": [
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 1,

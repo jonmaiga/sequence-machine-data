@@ -1,5 +1,5 @@
 {
-  "description": "(5n)^12.",
+  "description": "a(n) = (5*n)^12.",
   "id": "A016860",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 14,
     "source": "joeis"
   }
 }

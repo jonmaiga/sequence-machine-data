@@ -1,16 +1,16 @@
 {
-  "description": "Triangle read by rows: t(n,m)=2 + PartitionsQ[n] - PartitionsQ[m] - PartitionsQ[n - m].",
+  "description": "Triangle read by rows: T(n,k) = 2 + A000009(n) - A000009(k) - A000009(n-k).",
   "id": "A156054",
-  "mentions": [],
+  "mentions": [
+    "A000009"
+  ],
   "tags": [
-    "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1/((1-4x)c(x)),xc(x)/sqrt(1-4x)), c(x) the g.f. of A000108.",
+  "description": "Riordan array (1/((1-4*x)*c(x)),x*c(x)/sqrt(1-4*x)), c(x) the g.f. of A000108.",
   "id": "A113955",
   "mentions": [
     "A000108",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 52,
+    "size": 55,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Kronecker symbol (-100 / n).",
+  "description": "a(n) = Kronecker symbol (-100 / n).",
   "id": "A185276",
   "mentions": [
     "A000012",

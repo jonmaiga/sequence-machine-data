@@ -2,6 +2,7 @@
   "description": "Number of complementing systems of subsets of {0, 1, ..., n-1}.",
   "id": "A104725",
   "mentions": [
+    "A000110",
     "A001222",
     "A002033",
     "A074206"

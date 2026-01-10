@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-1)*(9*n-16)+9.",
+  "description": "a(n) = 2^(n-1)*(9*n-16) + 9.",
   "id": "A048502",
   "mentions": [
     "A000079",

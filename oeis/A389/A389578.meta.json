@@ -1,0 +1,17 @@
+{
+  "description": "Increasing partition array based on the fractional parts of (tan(n)); see Comments.",
+  "id": "A389578",
+  "mentions": [
+    "A388853",
+    "A389579"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

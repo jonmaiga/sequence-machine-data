@@ -1,0 +1,22 @@
+{
+  "description": "Continued fraction that converts to its own decimal expansion; the sequence becomes strictly increasing when all zero terms are removed.",
+  "id": "A391761",
+  "mentions": [
+    "A039662",
+    "A091694",
+    "A113307",
+    "A378147",
+    "A391759",
+    "A391760"
+  ],
+  "tags": [
+    "base",
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

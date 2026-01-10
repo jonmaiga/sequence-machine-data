@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * binomial(4*n-2*k-3,n-2*k).",
+  "id": "A390682",
+  "mentions": [
+    "A371815",
+    "A390680",
+    "A390681",
+    "A390685",
+    "A390687"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

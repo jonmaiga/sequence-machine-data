@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 0 and a(1) = 1 followed by primes p such that (2p)^4 + 1 is prime.",
+  "id": "A385243",
+  "mentions": [
+    "A188717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

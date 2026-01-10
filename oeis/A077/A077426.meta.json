@@ -1,5 +1,5 @@
 {
-  "description": "Nonsquare integers n such that the continued fraction (sqrt(n)+1)/2 has odd period length.",
+  "description": "Nonsquare integers k such that the continued fraction (sqrt(k)+1)/2 has odd period length.",
   "id": "A077426",
   "mentions": [
     "A003814",

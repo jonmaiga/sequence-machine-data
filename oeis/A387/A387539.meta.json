@@ -2,6 +2,7 @@
   "description": "Sum of the odd parts in the partitions of n into 2 parts.",
   "id": "A387539",
   "mentions": [
+    "A093353",
     "A387541"
   ],
   "tags": [

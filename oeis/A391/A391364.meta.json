@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with more than one factorization (up to association) in Z[sqrt(-6)].",
+  "id": "A391364",
+  "mentions": [
+    "A033199",
+    "A084865",
+    "A157437",
+    "A191059",
+    "A262362",
+    "A262828",
+    "A390498",
+    "A391361",
+    "A391363",
+    "A391366"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

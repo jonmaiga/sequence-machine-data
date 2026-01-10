@@ -1,10 +1,11 @@
 {
-  "description": "a(n) is smallest number >= a(n-1) such that a(n) plus any set of the previous values of the sequence is a nonsquare.",
+  "description": "a(n) is smallest number >= a(n-1) such that a(n) plus any set of the previous values of the sequence is a nonsquare; starting with a(1) = 2.",
   "id": "A064776",
   "mentions": [
     "A133662"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

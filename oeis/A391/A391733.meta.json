@@ -1,0 +1,25 @@
+{
+  "description": "Numbers in whose binary expansion there is exactly one run of 1-bits with an odd length, while all other run of 1-bits are of an even length (or absent).",
+  "id": "A391733",
+  "mentions": [
+    "A000079",
+    "A000396",
+    "A000668",
+    "A005940",
+    "A007088",
+    "A229125",
+    "A233868",
+    "A358769"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,10 @@
 {
-  "description": "Number of different triangles created when a square sheet of paper is folded n times, the first time by one of the diagonal of the square sheet and the by the median of the square triangle.",
+  "description": "Number of triangles created when a square sheet of paper is folded n times, the first time by one of the diagonals of the square and then by the median of the square triangle.",
   "id": "A096227",
-  "mentions": [],
+  "mentions": [
+    "A096260",
+    "A096531"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "joeis"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

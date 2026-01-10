@@ -2,9 +2,13 @@
   "description": "Fifth column sequence of coefficient triangle A062137 of generalized Laguerre polynomials n!*L(n,3,x).",
   "id": "A062143",
   "mentions": [
+    "A001113",
+    "A001620",
     "A062137",
     "A062142",
-    "A062145"
+    "A062145",
+    "A091725",
+    "A099285"
   ],
   "tags": [
     "easy",
@@ -13,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

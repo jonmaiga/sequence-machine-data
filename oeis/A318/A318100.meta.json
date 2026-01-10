@@ -1,14 +1,17 @@
 {
-  "description": "Exponential pseudoperfect numbers: numbers n equal to the sum of a subset of their proper exponential divisors.",
+  "description": "Exponential pseudoperfect numbers: numbers equal to the sum of a subset of their proper exponential divisors.",
   "id": "A318100",
   "mentions": [
+    "A001694",
+    "A005117",
     "A005835",
     "A051377",
     "A054979",
     "A126164",
     "A129575",
     "A292985",
-    "A293188"
+    "A293188",
+    "A391143"
   ],
   "tags": [
     "nonn"

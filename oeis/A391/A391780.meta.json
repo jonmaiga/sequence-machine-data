@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (Pi/4) * arctan(1/(2*sqrt(2))).",
+  "id": "A391780",
+  "mentions": [
+    "A000129",
+    "A003881",
+    "A188615"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

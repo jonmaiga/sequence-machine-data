@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the least number not already in the sequence that is a multiple of the smallest nonzero digit of a(n-1).",
+  "id": "A389116",
+  "mentions": [
+    "A390054"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

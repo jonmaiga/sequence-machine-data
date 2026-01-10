@@ -2,7 +2,8 @@
   "description": "Number of Hamiltonian rooted triangulations with n internal nodes and 5 external nodes.",
   "id": "A005979",
   "mentions": [
-    "A003122"
+    "A003122",
+    "A391153"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

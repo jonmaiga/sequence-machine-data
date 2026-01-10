@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the second smallest dihedral angle, in radians, in a snub disphenoid (Johnson solid J_84).",
+  "id": "A390144",
+  "mentions": [
+    "A010482",
+    "A386695",
+    "A390143",
+    "A390145"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

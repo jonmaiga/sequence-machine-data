@@ -1,0 +1,34 @@
+{
+  "description": "The sum of the integers k from 1 to n such that gcd(n, k) is odd.",
+  "id": "A390802",
+  "mentions": [
+    "A000035",
+    "A000961",
+    "A013661",
+    "A016627",
+    "A023896",
+    "A026741",
+    "A119790",
+    "A246655",
+    "A367204",
+    "A390800",
+    "A390801",
+    "A390803",
+    "A390804",
+    "A390805",
+    "A390806",
+    "A390807",
+    "A390808",
+    "A390809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

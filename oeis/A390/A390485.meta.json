@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} (4*k+1) * binomial(3*n-5*k+1,n-3*k)/(3*n-5*k+1).",
+  "id": "A390485",
+  "mentions": [
+    "A001764",
+    "A109957",
+    "A390486"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

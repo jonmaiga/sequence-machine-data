@@ -2,15 +2,18 @@
   "description": "a(n) = floor(C(4n,2n)/C(4n,n)).",
   "id": "A024501",
   "mentions": [
-    "A000984"
+    "A000984",
+    "A001448",
+    "A005810"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 39,
     "source": "joeis"
   }
 }

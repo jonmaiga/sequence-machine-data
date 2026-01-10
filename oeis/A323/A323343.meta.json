@@ -1,13 +1,19 @@
 {
-  "description": "Numbers k whose exponential divisors have an even sum which is larger than 2k, but they cannot be partitioned into two disjoint parts whose sums are equal.",
+  "description": "Numbers k whose exponential divisors have an even sum which is larger than 2*k, but they cannot be partitioned into two disjoint parts whose sums are equal.",
   "id": "A323343",
   "mentions": [
+    "A001694",
+    "A005117",
     "A051377",
     "A129575",
     "A171641",
+    "A197680",
     "A323341",
     "A323342",
-    "A323344"
+    "A323344",
+    "A335218",
+    "A357014",
+    "A391138"
   ],
   "tags": [
     "nonn"

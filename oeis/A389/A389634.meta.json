@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k whose abundancy (sigma(k)/k) is at least 4/3, where sigma(k) = A000203(k).",
+  "id": "A389634",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005101",
+    "A023196",
+    "A047229",
+    "A334117",
+    "A388012",
+    "A389633",
+    "A389635"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

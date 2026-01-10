@@ -1,0 +1,19 @@
+{
+  "description": "Total number of consecutive pairs across all heapable permutations of length n.",
+  "id": "A389301",
+  "mentions": [
+    "A336282",
+    "A389792",
+    "A389991",
+    "A389993"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

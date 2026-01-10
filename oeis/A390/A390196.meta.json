@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n-celled snake polyominoes in the {4,5} tessellation of the hyperbolic plane.",
+  "id": "A390196",
+  "mentions": [
+    "A002013",
+    "A119611",
+    "A390195",
+    "A390198"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Cubefree nonsquares with at least one prime power factor that is not square.",
+  "id": "A386684",
+  "mentions": [
+    "A013929",
+    "A024619",
+    "A062503",
+    "A067259",
+    "A072357",
+    "A126706",
+    "A332785",
+    "A366825",
+    "A390096"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

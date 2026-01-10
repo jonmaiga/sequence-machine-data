@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (4*n+3)^3.",
   "id": "A016839",
-  "mentions": [],
+  "mentions": [
+    "A375772"
+  ],
   "tags": [
     "easy",
     "formulas",

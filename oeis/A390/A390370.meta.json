@@ -1,0 +1,27 @@
+{
+  "description": "The sum of the infinitary divisors of n that are exponentially odd numbers (A268335).",
+  "id": "A390370",
+  "mentions": [
+    "A049417",
+    "A077609",
+    "A268335",
+    "A350389",
+    "A358346",
+    "A363825",
+    "A368471",
+    "A384558",
+    "A384559",
+    "A390372"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

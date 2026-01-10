@@ -1,0 +1,15 @@
+{
+  "description": "Number of irredundant sets in the n-trapezohedral graph.",
+  "id": "A391916",
+  "mentions": [
+    "A370089"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

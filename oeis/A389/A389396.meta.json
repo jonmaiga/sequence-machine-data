@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that binomial(2*k,k) is divisible by (k+1)^2*(k+2)^2.",
+  "id": "A389396",
+  "mentions": [
+    "A002503",
+    "A065344",
+    "A065345",
+    "A065346",
+    "A065347",
+    "A065348",
+    "A065349",
+    "A065350"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

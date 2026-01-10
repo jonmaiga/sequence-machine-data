@@ -11,12 +11,14 @@
     "A382125"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

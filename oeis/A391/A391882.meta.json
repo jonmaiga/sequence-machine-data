@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k > 0 such that n! + k is an odd nonsquare semiprime (A046388).",
+  "id": "A391882",
+  "mentions": [
+    "A046388",
+    "A131057",
+    "A356207"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

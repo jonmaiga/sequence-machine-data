@@ -1,0 +1,22 @@
+{
+  "description": "Cubefull numbers with more than 2 distinct prime factors.",
+  "id": "A391755",
+  "mentions": [
+    "A000977",
+    "A001694",
+    "A036966",
+    "A126706",
+    "A286708",
+    "A390950"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n) = n^3*sigma_8(n).",
   "id": "A386782",
   "mentions": [
+    "A013667",
     "A013956",
     "A282211",
     "A282213",
@@ -14,6 +15,7 @@
     "A386781"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

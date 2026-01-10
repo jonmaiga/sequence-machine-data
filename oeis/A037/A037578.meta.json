@@ -1,7 +1,14 @@
 {
   "description": "Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 1,3.",
   "id": "A037578",
-  "mentions": [],
+  "mentions": [
+    "A037576",
+    "A037577",
+    "A037579",
+    "A037580",
+    "A037581",
+    "A037582"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

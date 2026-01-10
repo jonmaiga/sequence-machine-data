@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6*n+5 and 6*n+7 are twin primes.",
+  "description": "Numbers k such that 6*k+5 and 6*k+7 are twin primes.",
   "id": "A153196",
   "mentions": [
     "A001359",

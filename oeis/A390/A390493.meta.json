@@ -1,0 +1,17 @@
+{
+  "description": "Number of symmetric Catalan triangles of size n.",
+  "id": "A390493",
+  "mentions": [
+    "A391969",
+    "A391973"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

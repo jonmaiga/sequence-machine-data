@@ -1,0 +1,17 @@
+{
+  "description": "Total sum of the lengths of the first runs in heapable permutations of length n.",
+  "id": "A389488",
+  "mentions": [
+    "A336282",
+    "A386382"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

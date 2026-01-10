@@ -1,5 +1,5 @@
 {
-  "description": "Number of orderings of the edges of the labeled complete graph K_n such that the graph induced by the first k edges is connected for every k=1,2,...,binomial(n,2).",
+  "description": "Number of orderings of the edges of the labeled complete graph K_n such that the graph induced by the first k edges is connected for every k = 1,2,...,binomial(n,2).",
   "id": "A255886",
   "mentions": [
     "A000108",

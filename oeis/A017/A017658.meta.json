@@ -1,5 +1,5 @@
 {
-  "description": "(12n+11)^6.",
+  "description": "a(n) = (12*n + 11)^6.",
   "id": "A017658",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
-    "source": "joeis"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

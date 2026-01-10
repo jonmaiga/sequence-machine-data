@@ -2,7 +2,8 @@
   "description": "a(n) is the largest prime factor of (n-1)^n - n^(n-1).",
   "id": "A174379",
   "mentions": [
-    "A007925"
+    "A007925",
+    "A174380"
   ],
   "tags": [
     "nonn"

@@ -1,7 +1,9 @@
 {
   "description": "Smallest k such that 6^k has exactly n 7's in its decimal representation.",
   "id": "A063603",
-  "mentions": [],
+  "mentions": [
+    "A000400"
+  ],
   "tags": [
     "base",
     "nonn"

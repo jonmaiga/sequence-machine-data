@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose square is a bi-unitary abundant number.",
+  "id": "A390557",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A013929",
+    "A034448",
+    "A034683",
+    "A082020",
+    "A188999",
+    "A292982",
+    "A381738",
+    "A390554",
+    "A390558"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

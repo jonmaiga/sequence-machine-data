@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k+1 are both numbers whose number of divisors is 3 times a power of 2 (A377562).",
+  "id": "A391396",
+  "mentions": [
+    "A372690",
+    "A377562",
+    "A388069",
+    "A391397"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

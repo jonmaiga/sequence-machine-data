@@ -1,8 +1,9 @@
 {
-  "description": "Filaments with n square cells.",
+  "description": "Number of filaments with n square cells.",
   "id": "A002013",
   "mentions": [
     "A003104",
+    "A182644",
     "A333313"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

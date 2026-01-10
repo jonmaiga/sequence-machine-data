@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form (3*m + 1)^k - 1, where m >= 1 and k >= 2.",
+  "id": "A390156",
+  "mentions": [
+    "A001597",
+    "A045542",
+    "A156057",
+    "A353238",
+    "A381671",
+    "A389764",
+    "A389765",
+    "A390155",
+    "A390157"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

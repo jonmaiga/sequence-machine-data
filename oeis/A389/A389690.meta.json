@@ -1,0 +1,17 @@
+{
+  "description": "Length of the longest possible eventual period of the Sprague-Grundy value of a subtraction game where the largest element of the subtraction set is n.",
+  "id": "A389690",
+  "mentions": [
+    "A389689"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

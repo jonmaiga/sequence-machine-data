@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp(3x)/(1-3x).",
+  "description": "Expansion of e.g.f. exp(3*x)/(1-3*x).",
   "id": "A097814",
   "mentions": [
     "A000522",

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g*(1 + x*g^2), where g = 1+x*g^4 is the g.f. of A002293.",
+  "id": "A391381",
+  "mentions": [
+    "A002293",
+    "A167422",
+    "A390710",
+    "A391380",
+    "A391382"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

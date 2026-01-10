@@ -1,0 +1,29 @@
+{
+  "description": "Powerful numbers that are both divisible by only one prime cube and have more than 1 distinct prime factor.",
+  "id": "A391491",
+  "mentions": [
+    "A001694",
+    "A024619",
+    "A046099",
+    "A059404",
+    "A082020",
+    "A152441",
+    "A286708",
+    "A359280",
+    "A362148",
+    "A372404",
+    "A376936",
+    "A378767",
+    "A389558"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

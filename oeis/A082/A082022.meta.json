@@ -1,5 +1,5 @@
 {
-  "description": "In the following square array a(i,j) = Least Common Multiple of i and j. Sequence contains the product of the terms of the n-th antidiagonal.",
+  "description": "In the following square array A(i,j) = Least Common Multiple of i and j. Sequence contains the product of the terms of the n-th antidiagonal.",
   "id": "A082022",
   "mentions": [
     "A001044",
@@ -13,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

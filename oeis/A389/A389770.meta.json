@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place 3 non-attacking kings in each row and column of an n X n board.",
+  "id": "A389770",
+  "mentions": [
+    "A002464",
+    "A061996",
+    "A387098",
+    "A389766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 12,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

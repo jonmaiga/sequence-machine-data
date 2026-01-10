@@ -2,7 +2,8 @@
   "description": "Continued fraction for Pi^3/zeta(3).",
   "id": "A027431",
   "mentions": [
-    "A276120"
+    "A276120",
+    "A308637"
   ],
   "tags": [
     "cofr",

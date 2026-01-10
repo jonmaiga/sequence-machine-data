@@ -1,8 +1,10 @@
 {
-  "description": "Arises in a refined modular approach to the Diophantine equation x^2+y^(2n)=z^3.",
+  "description": "Arises in a refined modular approach to the Diophantine equation x^2+y^62=z^3.",
   "id": "A172408",
   "mentions": [],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

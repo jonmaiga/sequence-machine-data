@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (49*4^n + 6*n - 13)/9.",
+  "id": "A390403",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

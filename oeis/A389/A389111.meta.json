@@ -1,0 +1,18 @@
+{
+  "description": "Write 0,1,2,3,4,... in a triangular spiral, a(n) is such that n lies geometrically half way between 0 and a(n).",
+  "id": "A389111",
+  "mentions": [
+    "A062708",
+    "A198954"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

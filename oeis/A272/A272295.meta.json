@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 60,
-    "source": "joeis"
+    "size": 64,
+    "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,14 @@
 {
-  "description": "Disk degeneracies for brane I or brane II in the O(K) -> P^2 geometry.",
+  "description": "Ooguri-Vafa invariants of disk degeneracies for brane I or brane II in the O(K) -> P^2 geometry.",
   "id": "A061635",
-  "mentions": [],
+  "mentions": [
+    "A061605",
+    "A061627",
+    "A061628",
+    "A061637"
+  ],
   "tags": [
+    "more",
     "sign"
   ],
   "terms": {

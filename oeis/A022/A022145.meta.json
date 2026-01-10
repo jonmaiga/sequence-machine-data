@@ -2,6 +2,7 @@
   "description": "Coordination sequence for root lattice B_3.",
   "id": "A022145",
   "mentions": [
+    "A108998",
     "A195162"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 43,
     "source": "joeis"
   }
 }

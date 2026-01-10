@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4^n*(n^2-n+32)/32.",
+  "description": "a(n) = 4^n*(n^2 - n + 32)/32.",
   "id": "A081910",
   "mentions": [
     "A081909",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

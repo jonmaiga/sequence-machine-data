@@ -1,15 +1,21 @@
 {
-  "description": "Integers n > 0 such that n XOR 20*n = 21*n.",
+  "description": "Numbers k > 0 such that k XOR 20*k = 21*k.",
   "id": "A115422",
   "mentions": [
     "A003714",
     "A048715",
+    "A048716",
     "A048718",
+    "A048720",
     "A115423",
     "A115424",
-    "A224809"
+    "A115831",
+    "A224809",
+    "A391737",
+    "A391856"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],

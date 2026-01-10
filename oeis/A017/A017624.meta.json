@@ -1,5 +1,5 @@
 {
-  "description": "(12n+8)^8.",
+  "description": "a(n) = (12*n + 8)^8.",
   "id": "A017624",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

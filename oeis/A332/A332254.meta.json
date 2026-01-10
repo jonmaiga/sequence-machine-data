@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1 / (2 - exp(exp(x) - 1 - x)).",
+  "description": "Expansion of e.g.f. 1 / (2 - exp(exp(x) - 1 - x)).",
   "id": "A332254",
   "mentions": [
     "A000296",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

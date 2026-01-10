@@ -2,6 +2,7 @@
   "description": "a(n) = 1 if n is odd, otherwise a(n) = 2^(v-1)+1 where v is the 2-adic valuation of n (A007814(n)).",
   "id": "A330569",
   "mentions": [
+    "A001620",
     "A006519",
     "A007814",
     "A040001",
@@ -11,6 +12,7 @@
   "tags": [
     "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {

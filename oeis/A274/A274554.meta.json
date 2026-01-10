@@ -2,7 +2,9 @@
   "description": "Numbers k such that sigma(k) == 0 (mod k-4).",
   "id": "A274554",
   "mentions": [
+    "A056006",
     "A067702",
+    "A125246",
     "A125247",
     "A223609",
     "A274551",
@@ -11,12 +13,11 @@
     "A274566"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

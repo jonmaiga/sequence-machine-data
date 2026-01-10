@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of reliable digits produced by using n terms of A084580 and treating them as the coefficients of a continued fraction.",
+  "id": "A390737",
+  "mentions": [
+    "A062542",
+    "A084580",
+    "A086819",
+    "A372869"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

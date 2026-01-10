@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that k(n) = n/tau(n) - sigma(n)/n is an integer.",
+  "description": "Numbers m such that k(m) = m/tau(m) - sigma(m)/m is an integer.",
   "id": "A245778",
   "mentions": [
     "A000005",

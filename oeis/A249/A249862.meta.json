@@ -2,7 +2,7 @@
   "description": "A special solution of X(n)^2 - 280*Y(n)^2 = 3^(2*n), n >= 0; here the X member.",
   "id": "A249862",
   "mentions": [
-    "A240926",
+    "A092387",
     "A248163",
     "A249457",
     "A249863"

@@ -1,0 +1,21 @@
+{
+  "description": "Primitive terms in A389501: powerful numbers whose coreful divisors have a noninteger arithmetic mean.",
+  "id": "A389502",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A005361",
+    "A057723",
+    "A307958",
+    "A389501"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,16 @@
   "description": "E.g.f. S(x) satisfies: S(x) = Integral (1 + S(x)^2)^(7/2) dx.",
   "id": "A281435",
   "mentions": [
-    "A281436"
+    "A281181",
+    "A281182",
+    "A281427",
+    "A281428",
+    "A281436",
+    "A281443",
+    "A281444"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

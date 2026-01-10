@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are the hypotenuse of exactly 7 distinct integer-sided right triangles, i.e., n^2 can be written as a sum of two squares in 7 ways.",
+  "description": "Numbers m that are the hypotenuse of exactly 7 distinct integer-sided right triangles, i.e., m^2 can be written as a sum of two squares in 7 ways.",
   "id": "A097101",
   "mentions": [
     "A004144",

@@ -2,15 +2,17 @@
   "description": "Continued fraction expansion for log_2(5).",
   "id": "A028508",
   "mentions": [
+    "A020858",
     "A028232"
   ],
   "tags": [
+    "cofr",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 79,
-    "source": "joeis"
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
   }
 }

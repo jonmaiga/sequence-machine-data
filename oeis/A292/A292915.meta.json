@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. exp(k*x)/(2 - exp(x)).",
+  "description": "Square array A(n, k) read by descending antidiagonals, where column k is the expansion of the e.g.f. exp(k*x)/(2 - exp(x)).",
   "id": "A292915",
   "mentions": [
     "A000012",
@@ -8,6 +8,7 @@
     "A000670",
     "A007047",
     "A102305",
+    "A154921",
     "A259533",
     "A292916",
     "A368317"

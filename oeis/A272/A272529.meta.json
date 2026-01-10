@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the arithmetic derivative of the cototient(n) is equal to the totient(n).",
+  "description": "Numbers k such that the arithmetic derivative of the cototient(k) is equal to the totient(k).",
   "id": "A272529",
   "mentions": [
     "A000010",

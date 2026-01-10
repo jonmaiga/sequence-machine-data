@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient of x in the reduction by (x^2 -> x+1) of the polynomial F(n+4)*x^n, where F=A000045 (Fibonacci sequence).",
+  "description": "Coefficient of x in the reduction by (x^2 -> x+1) of the polynomial F(n+4)*x^n, where F = A000045 (Fibonacci sequence).",
   "id": "A192920",
   "mentions": [
     "A000045",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

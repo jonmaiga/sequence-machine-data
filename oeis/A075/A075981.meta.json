@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that |2^n - n^5| is prime.",
+  "description": "Numbers k such that |2^k - k^5| is prime.",
   "id": "A075981",
   "mentions": [
     "A075980"

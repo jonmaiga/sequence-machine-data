@@ -1,5 +1,5 @@
 {
-  "description": "n! + n# + 1 is prime, where n# is the primorial function.",
+  "description": "k! + k# + 1 is prime, where k# is the primorial function.",
   "id": "A081710",
   "mentions": [
     "A081711",

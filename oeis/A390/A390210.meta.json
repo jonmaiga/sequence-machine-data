@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * k * (H(k) - log(k) - gamma - 1/(2*k)), where H(k) = A001008(k)/A002805(k) is the k-th harmonic number (negated).",
+  "id": "A390210",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A074962",
+    "A225746",
+    "A256921",
+    "A345208"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

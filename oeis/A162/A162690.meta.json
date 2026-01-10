@@ -1,5 +1,5 @@
 {
-  "description": "Strictly positive numbers n such that 20*n/(20+n) are integers.",
+  "description": "Strictly positive numbers k such that 20*k/(20+k) are integers.",
   "id": "A162690",
   "mentions": [
     "A127730",

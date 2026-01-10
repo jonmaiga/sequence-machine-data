@@ -5,6 +5,7 @@
     "A014486",
     "A057117",
     "A057163",
+    "A057177",
     "A063171",
     "A082351",
     "A082352",
@@ -17,11 +18,12 @@
     "A085184"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

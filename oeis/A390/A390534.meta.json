@@ -1,0 +1,17 @@
+{
+  "description": "Index of first occurrence of n in A390514.",
+  "id": "A390534",
+  "mentions": [
+    "A000005",
+    "A390514"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

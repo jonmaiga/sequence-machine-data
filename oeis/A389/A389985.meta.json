@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of the vertex set of the n-cocktailparty graph into k connected subsets, 1 <= k <= 2*n.",
+  "id": "A389985",
+  "mentions": [
+    "A008277",
+    "A124133",
+    "A282010",
+    "A389983"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

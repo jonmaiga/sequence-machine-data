@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3^n*n^4.",
+  "id": "A387251",
+  "mentions": [
+    "A000244",
+    "A000583",
+    "A036290",
+    "A062074",
+    "A127960"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

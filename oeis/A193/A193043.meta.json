@@ -1,8 +1,9 @@
 {
-  "description": "Listed by antidiagonals, array A[k,n] = digital root of n-th nonzero k-gonal number.",
+  "description": "Listed by antidiagonals, array A(k,n) = digital root of n-th nonzero k-gonal number.",
   "id": "A193043",
   "mentions": [
     "A010888",
+    "A086271",
     "A193090"
   ],
   "tags": [

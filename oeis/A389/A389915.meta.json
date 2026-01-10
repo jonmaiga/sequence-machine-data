@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers m such that at least one of the factors of Stern polynomial B(m,x) has at least one negative coefficient.",
+  "id": "A389915",
+  "mentions": [
+    "A125184",
+    "A260443",
+    "A277013",
+    "A389917"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,15 @@
 {
   "description": "Number of n X n binary arrays with all 1s connected and a path of 1s from top row to lower right corner.",
   "id": "A163011",
-  "mentions": [],
+  "mentions": [
+    "A391489"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

@@ -1,15 +1,24 @@
 {
-  "description": "Symmetric version of square array A086460.",
+  "description": "Symmetric version of square array A086460, read by antidiagonals.",
   "id": "A086461",
   "mentions": [
+    "A000012",
     "A000290",
+    "A004275",
     "A004277",
     "A008458",
     "A008486",
     "A008574",
+    "A008589",
+    "A008591",
+    "A008592",
+    "A008594",
     "A008706",
+    "A022144",
     "A028310",
-    "A086460"
+    "A086460",
+    "A105811",
+    "A222001"
   ],
   "tags": [
     "easy",
@@ -19,7 +28,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 85,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

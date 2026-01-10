@@ -2,6 +2,10 @@
   "description": "a(n) is half the sum of the terms in the n-th antidiagonal of the table A130836.",
   "id": "A130849",
   "mentions": [
+    "A000010",
+    "A001222",
+    "A022559",
+    "A095112",
     "A130836"
   ],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the Frobenius number for the set { binomial(m,k), k=1..m-1 } where m = A024619(n).",
+  "id": "A389479",
+  "mentions": [
+    "A024619"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

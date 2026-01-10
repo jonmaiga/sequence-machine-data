@@ -1,0 +1,25 @@
+{
+  "description": "Norms of irreducible elements of Z[sqrt(-6)].",
+  "id": "A390498",
+  "mentions": [
+    "A033199",
+    "A084865",
+    "A091730",
+    "A157437",
+    "A191059",
+    "A390422",
+    "A390526",
+    "A391361",
+    "A391364",
+    "A391366"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

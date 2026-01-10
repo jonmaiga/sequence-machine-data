@@ -1,5 +1,5 @@
 {
-  "description": "(5n+2)^7.",
+  "description": "a(n) = (5*n + 2)^7.",
   "id": "A016879",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

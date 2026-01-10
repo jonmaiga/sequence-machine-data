@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (2*k+1) * binomial(4*n-2*k+1,n-k)/(4*n-2*k+1).",
+  "id": "A390709",
+  "mentions": [
+    "A002293",
+    "A069271",
+    "A107026",
+    "A390710"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

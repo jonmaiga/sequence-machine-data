@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of g/(1 - x^3*g^5), where g = 1+x*g^3 is the g.f. of A001764.",
+  "id": "A391063",
+  "mentions": [
+    "A000305",
+    "A001764",
+    "A390485",
+    "A390486",
+    "A390520",
+    "A391059",
+    "A391061",
+    "A391062",
+    "A391064",
+    "A391065"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

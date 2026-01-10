@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 380^(1/5).",
+  "id": "A391291",
+  "mentions": [
+    "A000791",
+    "A005533",
+    "A011180"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

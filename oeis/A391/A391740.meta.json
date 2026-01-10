@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 5*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391740",
+  "mentions": [
+    "A004742",
+    "A048716",
+    "A048720",
+    "A115770",
+    "A280500",
+    "A391585",
+    "A391741",
+    "A391742",
+    "A391925"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

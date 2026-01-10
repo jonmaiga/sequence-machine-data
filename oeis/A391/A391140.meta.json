@@ -1,0 +1,20 @@
+{
+  "description": "Powerful terms in A339983.",
+  "id": "A391140",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A339983",
+    "A391138",
+    "A391139",
+    "A391141"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of Heronian triangles with semiperimeter n that can be split into two Pythagorean triangles.",
+  "id": "A391112",
+  "mentions": [
+    "A009000",
+    "A078926",
+    "A334607"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

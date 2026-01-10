@@ -1,5 +1,5 @@
 {
-  "description": "Factorial-nested interval sequence of 1/tau, where tau = golden ratio (A001622).",
+  "description": "Factorial-nested interval sequence of 1/phi, where phi = golden ratio (A001622).",
   "id": "A269978",
   "mentions": [
     "A000142",

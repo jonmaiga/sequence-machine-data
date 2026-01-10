@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = x * Product_{n>=0} (1 + A(x)^(2^n))^(2^n).",
+  "id": "A389473",
+  "mentions": [
+    "A073707",
+    "A073708"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

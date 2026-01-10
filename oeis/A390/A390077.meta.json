@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the negated value of psi''(1/6).",
+  "id": "A390077",
+  "mentions": [
+    "A222457",
+    "A377560",
+    "A390076"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

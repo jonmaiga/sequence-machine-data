@@ -1,0 +1,22 @@
+{
+  "description": "Carmichael's lambda function on Gaussian integers: least universal exponent for a reduced system of residues modulo a + b*sqrt(-1).",
+  "id": "A391111",
+  "mentions": [
+    "A001481",
+    "A002322",
+    "A227334",
+    "A229140",
+    "A385236",
+    "A391110"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

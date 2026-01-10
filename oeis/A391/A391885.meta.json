@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that the product m*(m+1) has a set of prime divisors, from greatest down to 2, that is missing exactly one prime divisor.",
+  "id": "A391885",
+  "mentions": [
+    "A059957",
+    "A252489",
+    "A391449",
+    "A391602",
+    "A391970"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

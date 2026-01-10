@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) is the Kruskal-Macaulay function M_n of degree n evaluated at k.",
+  "id": "A391662",
+  "mentions": [
+    "A057427",
+    "A123578",
+    "A123579",
+    "A123580",
+    "A123731",
+    "A391660",
+    "A391661"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

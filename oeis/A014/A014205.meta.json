@@ -1,5 +1,5 @@
 {
-  "description": "(1/12)*(n+5)*(n+1)*n^2.",
+  "description": "a(n) = (1/12)*(n+5)*(n+1)*n^2.",
   "id": "A014205",
   "mentions": [
     "A084990"

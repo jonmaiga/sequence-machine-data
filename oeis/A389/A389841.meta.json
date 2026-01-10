@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-critical graphs with n vertices and degree k, (4 <= k <= n).",
+  "id": "A389841",
+  "mentions": [
+    "A358316",
+    "A389840"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

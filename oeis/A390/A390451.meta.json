@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the concatenation of a permutation of its divisors is prime.",
+  "id": "A390451",
+  "mentions": [
+    "A003136",
+    "A037278",
+    "A176553",
+    "A176554",
+    "A176555"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

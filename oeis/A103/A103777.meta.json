@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that f[n],f[n+1]and f[n+2] are all primes, where f[n]=8*n^2+4*n+1.",
+  "description": "Numbers k such that f(k), f(k+1) and f(k+2) are all primes, where f(k) = 8*k^2 + 4*k + 1.",
   "id": "A103777",
   "mentions": [
     "A102083",

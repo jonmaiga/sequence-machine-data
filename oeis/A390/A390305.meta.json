@@ -1,0 +1,38 @@
+{
+  "description": "Numbers > 0 whose binary indices have strictly increasing first differences.",
+  "id": "A390305",
+  "mentions": [
+    "A000120",
+    "A011782",
+    "A018900",
+    "A029931",
+    "A048793",
+    "A070211",
+    "A070939",
+    "A119387",
+    "A124768",
+    "A225620",
+    "A240027",
+    "A320470",
+    "A325456",
+    "A325457",
+    "A325545",
+    "A325546",
+    "A333255",
+    "A333256",
+    "A358133",
+    "A358135",
+    "A390090",
+    "A390091",
+    "A390306"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

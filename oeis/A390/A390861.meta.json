@@ -1,0 +1,16 @@
+{
+  "description": "Sum of maximum depths over all increasing rooted trees with n nodes.",
+  "id": "A390861",
+  "mentions": [
+    "A179454"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

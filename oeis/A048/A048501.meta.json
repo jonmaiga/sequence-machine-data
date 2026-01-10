@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-1)*(8*n-14)+8.",
+  "description": "a(n) = 2^(n-1)*(8*n-14) + 8.",
   "id": "A048501",
   "mentions": [
     "A048494"

@@ -1,7 +1,9 @@
 {
   "description": "Triangle read by rows: T(n,k) = number of domino stacks with n dominoes having a base of k dominoes.",
   "id": "A275204",
-  "mentions": [],
+  "mentions": [
+    "A390209"
+  ],
   "tags": [
     "formulas",
     "nonn",

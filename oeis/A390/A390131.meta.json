@@ -1,0 +1,20 @@
+{
+  "description": "Number of proper 5-partitions of the fan graph on n vertices such that every triangle uses exactly 2 colors.",
+  "id": "A390131",
+  "mentions": [
+    "A000045",
+    "A001045",
+    "A006130",
+    "A007283",
+    "A083856"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 8,
+    "size": 30,
+    "source": "joeis"
+  }
+}

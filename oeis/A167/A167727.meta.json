@@ -2,7 +2,16 @@
   "description": "Cubes that becomes a prime number when prefixed with a 3.",
   "id": "A167727",
   "mentions": [
-    "A032666"
+    "A000578",
+    "A032666",
+    "A167725",
+    "A167726",
+    "A167728",
+    "A167729",
+    "A167730",
+    "A167731",
+    "A167732",
+    "A167733"
   ],
   "tags": [
     "base",
@@ -10,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Coreful-bi-unitary abundant numbers: numbers k for which A363334(k) > 2*k.",
+  "id": "A391506",
+  "mentions": [
+    "A001694",
+    "A005101",
+    "A005117",
+    "A059956",
+    "A292982",
+    "A308053",
+    "A363334",
+    "A381313",
+    "A391507"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

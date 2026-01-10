@@ -1,5 +1,5 @@
 {
-  "description": "Periodic sequence: Repeat 3, -3.",
+  "description": "Periodic sequence: repeat (3,-3).",
   "id": "A174971",
   "mentions": [
     "A000004",
@@ -9,6 +9,7 @@
     "A010674",
     "A010701",
     "A013708",
+    "A033999",
     "A093138",
     "A103333",
     "A164346",

@@ -1,10 +1,12 @@
 {
-  "description": "Index of 6^n in A025622 (numbers of form 5^i*6^j).",
+  "description": "Index of 6^n within the sequence of the numbers of the form 5^i*6^j (A025622).",
   "id": "A025715",
   "mentions": [
+    "A000400",
     "A025622",
     "A025651",
-    "A025707"
+    "A025707",
+    "A153461"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^7-n-1.",
+  "description": "Primes of the form k^7-k-1.",
   "id": "A126435",
   "mentions": [
     "A002327",

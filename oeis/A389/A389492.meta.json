@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the maximum y value of y=x^(x^-y) and y=x^(-x/y).",
+  "id": "A389492",
+  "mentions": [
+    "A141251",
+    "A202357",
+    "A248200"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

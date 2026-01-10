@@ -1,5 +1,5 @@
 {
-  "description": "Number of integers m <= 10^n that contain a square factor (i.e., belong to A013929).",
+  "description": "Number of integers <= 10^n that contain a square factor (i.e., belong to A013929).",
   "id": "A063035",
   "mentions": [
     "A001694",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

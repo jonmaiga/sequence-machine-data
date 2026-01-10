@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that gcd(n, 2^n-2) does not equal the least prime factor of n.",
+  "description": "Numbers k such that gcd(k, 2^k-2) does not equal the least prime factor of k.",
   "id": "A146077",
   "mentions": [
     "A032742",

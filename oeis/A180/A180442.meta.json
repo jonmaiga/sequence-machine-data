@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that a sum of two or more consecutive squares beginning with n^2 is a square.",
+  "description": "Numbers k such that a sum of two or more consecutive squares beginning with k^2 is a square.",
   "id": "A180442",
   "mentions": [
     "A001032",

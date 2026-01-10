@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed polyforms with n cells of two types: unit squares and isosceles right triangles whose short sides have unit length. Cells are joined along sides of equal lengths.",
+  "id": "A391001",
+  "mentions": [
+    "A353978",
+    "A390995",
+    "A390998",
+    "A390999",
+    "A391000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

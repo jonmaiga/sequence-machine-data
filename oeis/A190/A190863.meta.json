@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp(x*sqrt(1+x^2)).",
+  "description": "Expansion of e.g.f. exp(x*sqrt(1+x^2)).",
   "id": "A190863",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

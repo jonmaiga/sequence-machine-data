@@ -1,5 +1,5 @@
 {
-  "description": "Perfect powers n with no primes between n and the next smaller perfect power, which is in A116086.",
+  "description": "Perfect powers k with no primes between k and the next smaller perfect power, which is in A116086.",
   "id": "A116455",
   "mentions": [
     "A001597",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

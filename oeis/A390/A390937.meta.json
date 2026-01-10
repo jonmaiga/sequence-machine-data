@@ -1,0 +1,17 @@
+{
+  "description": "Number of entries in the map T after the n-th iteration, when initially T[1] = 1 is the only entry, and in subsequent iterations, T[v] := k + (T[v] if defined else 0) for each key-value pair (k, v) in the map.",
+  "id": "A390937",
+  "mentions": [
+    "A390938",
+    "A390939"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

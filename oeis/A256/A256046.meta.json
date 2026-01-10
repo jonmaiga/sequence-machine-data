@@ -4,15 +4,16 @@
   "mentions": [
     "A256043",
     "A256045",
-    "A256047"
+    "A256047",
+    "A376606",
+    "A376607"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 9,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

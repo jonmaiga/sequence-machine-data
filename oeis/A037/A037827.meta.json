@@ -2,7 +2,16 @@
   "description": "Number of i such that d(i) >= d(i-1), where Sum_{i=0..m} d(i)*4^i is the base-4 representation of n.",
   "id": "A037827",
   "mentions": [
-    "A037811"
+    "A007090",
+    "A033265",
+    "A037811",
+    "A037826",
+    "A037828",
+    "A037829",
+    "A037830",
+    "A037831",
+    "A037832",
+    "A037833"
   ],
   "tags": [
     "base",

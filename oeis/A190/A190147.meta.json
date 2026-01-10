@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum{k=1..infinity}(1/Sum{j=1..k} j^j’), where n’ is the arithmetic derivative of n.",
+  "description": "Decimal expansion of Sum_{k>=1} (1/Sum_{j=1..k} j^j'), where n' is the arithmetic derivative of n.",
   "id": "A190147",
   "mentions": [
     "A003415",

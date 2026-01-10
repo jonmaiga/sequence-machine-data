@@ -1,0 +1,19 @@
+{
+  "description": "Initial values of 8 semiprimes in arithmetic progression with common difference 4.",
+  "id": "A390829",
+  "mentions": [
+    "A001358",
+    "A082919",
+    "A124570",
+    "A125025"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

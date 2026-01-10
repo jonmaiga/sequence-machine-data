@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the exponent of 2 of the last term of the map x -> A087207(x) before reaching 1 when starting with A019565(n) or -1 if 1 is never reached.",
+  "id": "A391067",
+  "mentions": [
+    "A000523",
+    "A007814",
+    "A019565",
+    "A087207",
+    "A288569",
+    "A391066"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

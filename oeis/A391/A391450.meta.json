@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary strings of length n where the number of runs equals the number of 1s.",
+  "id": "A391450",
+  "mentions": [
+    "A000120",
+    "A005811",
+    "A345908",
+    "A357183",
+    "A370048"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

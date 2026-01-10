@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x*cosh(x) + x^2*sinh(x)/2).",
+  "id": "A389688",
+  "mentions": [
+    "A003724",
+    "A003727",
+    "A389224"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

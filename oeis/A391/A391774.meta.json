@@ -1,0 +1,15 @@
+{
+  "description": "Number of possibilities for the first n terms of the normalized chromatic difference sequence of the graph of a Young diagram.",
+  "id": "A391774",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

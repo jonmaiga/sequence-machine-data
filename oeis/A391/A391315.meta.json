@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1324-avoiding permutations of [n] in which the largest element is not in the final position.",
+  "id": "A391315",
+  "mentions": [
+    "A000108",
+    "A000305",
+    "A061552"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. satisfies A(x) = exp( 1/(1 - x * A(x)^3) - 1 ).",
+  "description": "E.g.f. A(x) satisfies A(x) = exp( 1/(1 - x * A(x)^3) - 1 ).",
   "id": "A361094",
   "mentions": [
     "A052873",
@@ -8,7 +8,8 @@
     "A361093",
     "A361095",
     "A361096",
-    "A361097"
+    "A361097",
+    "A376094"
   ],
   "tags": [
     "formulas",

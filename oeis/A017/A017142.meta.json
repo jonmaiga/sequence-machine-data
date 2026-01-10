@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (8*n+6)^6.",
+  "description": "a(n) = (8*n + 6)^6.",
   "id": "A017142",
   "mentions": [
     "A016842"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

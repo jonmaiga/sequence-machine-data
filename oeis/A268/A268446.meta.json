@@ -1,8 +1,11 @@
 {
   "description": "Number of North-East lattice paths from (0,0) to (n,n) that cross the diagonal y = x horizontally exactly three times.",
   "id": "A268446",
-  "mentions": [],
+  "mentions": [
+    "A001622"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

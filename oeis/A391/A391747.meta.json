@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if -1 <= A195017(n) <= 1, otherwise 0, where A195017(n) = Sum_{k >= 1} c_k*((-1)^(k-1)), when n = Product_{k >= 1} (p_k)^(c_k), with p_k the k-th prime.",
+  "id": "A391747",
+  "mentions": [
+    "A003961",
+    "A008578",
+    "A195017",
+    "A297845",
+    "A353370",
+    "A357852",
+    "A391909"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

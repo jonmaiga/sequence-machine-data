@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7X7 0..n arrays with rows and columns in lexicographically nondecreasing order.",
+  "description": "Number of 7 X 7 0..n arrays with rows and columns in lexicographically nondecreasing order.",
   "id": "A229800",
   "mentions": [
     "A229794"

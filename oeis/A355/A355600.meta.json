@@ -2,21 +2,24 @@
   "description": "a(1) = 37. For n > 1, a(n) = smallest prime q such that q^(a(n-1)-1) == 1 (mod a(n-1)^2).",
   "id": "A355600",
   "mentions": [
+    "A000720",
     "A249162",
     "A355597",
     "A355598",
     "A355599",
     "A355601",
-    "A355602"
+    "A355602",
+    "A355658"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that (k+2) divides 2^(k-1) - 1.",
+  "description": "Numbers k such that k+2 divides 2^(k-1) - 1.",
   "id": "A081765",
   "mentions": [
     "A000225"

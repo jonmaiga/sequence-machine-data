@@ -2,6 +2,7 @@
   "description": "Smallest square which is one more than the product of n (not necessarily distinct) numbers > 1.",
   "id": "A081949",
   "mentions": [
+    "A001222",
     "A081948"
   ],
   "tags": [
@@ -9,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

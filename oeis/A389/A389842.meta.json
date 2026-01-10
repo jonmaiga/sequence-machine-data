@@ -1,0 +1,16 @@
+{
+  "description": "Numbers which can be represented as a sum of two distinct nontrivial powers in three or more ways.",
+  "id": "A389842",
+  "mentions": [
+    "A001597",
+    "A389486"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

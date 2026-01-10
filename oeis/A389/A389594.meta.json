@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n+1) = a(n)-th positive integer that is not a power of 2.",
+  "id": "A389594",
+  "mentions": [
+    "A025003",
+    "A056875",
+    "A057716",
+    "A088236",
+    "A130235"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

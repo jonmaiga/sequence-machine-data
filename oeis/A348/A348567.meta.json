@@ -2,6 +2,7 @@
   "description": "Number of fully symmetric recurrent sandpiles on an n X n grid.",
   "id": "A348567",
   "mentions": [
+    "A030451",
     "A256046",
     "A348566"
   ],

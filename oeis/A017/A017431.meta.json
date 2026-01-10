@@ -1,5 +1,5 @@
 {
-  "description": "(11n+3)^7.",
+  "description": "a(n) = (11*n + 3)^7.",
   "id": "A017431",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
-    "source": "joeis"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

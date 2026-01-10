@@ -1,5 +1,5 @@
 {
-  "description": "Palindromes arising in A082272.",
+  "description": "Palindromes arising in A082272, or 0 if A082272(n) is 0.",
   "id": "A082273",
   "mentions": [
     "A082272",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

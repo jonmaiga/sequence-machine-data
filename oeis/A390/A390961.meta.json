@@ -1,0 +1,25 @@
+{
+  "description": "The sum of the noninfinitary divisors of the numbers whose number of divisors is not a power of 2 (A162643).",
+  "id": "A390961",
+  "mentions": [
+    "A036537",
+    "A072691",
+    "A162643",
+    "A327574",
+    "A327839",
+    "A348271",
+    "A368038",
+    "A390959",
+    "A390960"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

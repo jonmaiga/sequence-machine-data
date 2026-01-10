@@ -1,0 +1,20 @@
+{
+  "description": "Keys added to a map T initialized with T[1] = 1 and updated at each iteration according to T[value] := (T[value] if defined else 0) + key, for all (key, value) pairs already in T; listed in order the keys are added to the map (cf. comments for details).",
+  "id": "A390939",
+  "mentions": [
+    "A390938",
+    "A390940",
+    "A390941",
+    "A390942",
+    "A390943",
+    "A390944"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

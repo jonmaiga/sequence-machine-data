@@ -1,0 +1,26 @@
+{
+  "description": "Rectangular array R read by falling antidiagonals: R(n,k) = prime(n) + prime(n+k).",
+  "id": "A391357",
+  "mentions": [
+    "A001043",
+    "A048448",
+    "A052147",
+    "A092390",
+    "A113935",
+    "A175222",
+    "A175223",
+    "A391358",
+    "A391359"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

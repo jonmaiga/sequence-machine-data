@@ -1,16 +1,14 @@
 {
-  "description": "Primes of the form n^(n-1)+n-1.",
+  "description": "Primes of the form k^(k-1) + k - 1.",
   "id": "A177008",
   "mentions": [
+    "A000040",
     "A173235",
     "A177007",
-    "A177009",
-    "A177010",
-    "A177011"
+    "A177009"
   ],
   "tags": [
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {

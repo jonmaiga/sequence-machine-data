@@ -1,0 +1,19 @@
+{
+  "description": "Weakly primes (A050249) that are also non-insertable primes (A125001).",
+  "id": "A391722",
+  "mentions": [
+    "A050249",
+    "A125001"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with canonical prime factorization k = p1^e1*p2^e2*p3^e3 such that the points (p1, e1), (p2, e2) and (p3, e3) form a nondegenerate integer-sided triangle.",
+  "id": "A387586",
+  "mentions": [
+    "A007947",
+    "A033992",
+    "A387172",
+    "A389339",
+    "A389340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

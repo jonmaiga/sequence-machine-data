@@ -1,9 +1,10 @@
 {
-  "description": "a(n) is the number of ways to partition an n X n X n cube into 3 noncongruent cuboids.",
+  "description": "Number of 3 element sets of distinct integer sided rectangles that fill an n X n square.",
   "id": "A381847",
   "mentions": [
     "A384311",
     "A384479",
+    "A385240",
     "A385247",
     "A386296"
   ],

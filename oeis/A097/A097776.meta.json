@@ -1,5 +1,5 @@
 {
-  "description": "Pell equation solutions (14*b(n))^2 - 197*a(n)^2 = -1 with b(n)=A097775(n), n >= 0.",
+  "description": "Pell equation solutions (14*b(n))^2 - 197*a(n)^2 = -1 with b(n) = A097775(n), n >= 0.",
   "id": "A097776",
   "mentions": [
     "A049310",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

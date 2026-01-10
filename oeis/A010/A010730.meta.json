@@ -1,14 +1,18 @@
 {
-  "description": "a(n) = (17 -3*(-1)^n)/2.",
+  "description": "a(n) = (17 - 3*(-1)^n)/2.",
   "id": "A010730",
-  "mentions": [],
+  "mentions": [
+    "A000035",
+    "A176444"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
+    "size": 72,
     "source": "joeis"
   }
 }

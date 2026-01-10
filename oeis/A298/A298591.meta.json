@@ -2,6 +2,7 @@
   "description": "Numbers which are the sum of two distinct perfect powers x^k + y^m with x, y, k, m >= 2.",
   "id": "A298591",
   "mentions": [
+    "A001597",
     "A076467",
     "A111231",
     "A133388",

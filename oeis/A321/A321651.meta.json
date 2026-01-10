@@ -10,12 +10,12 @@
     "A321611"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 11,
+    "offset": 0,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

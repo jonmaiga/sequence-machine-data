@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that semiprime(n)+1 is prime, where semiprime(n) is A001358.",
+  "description": "Numbers k such that semiprime(k)+1 is prime, where semiprime(k) is A001358.",
   "id": "A174838",
   "mentions": [
     "A000040",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

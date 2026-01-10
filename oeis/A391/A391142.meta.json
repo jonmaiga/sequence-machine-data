@@ -1,0 +1,22 @@
+{
+  "description": "Primitive coreful weird numbers: powerful numbers k that are coreful abundant (A308053) but no subset of their aliquot coreful divisors sums to k.",
+  "id": "A391142",
+  "mentions": [
+    "A001694",
+    "A003557",
+    "A005117",
+    "A006037",
+    "A007947",
+    "A064549",
+    "A308053",
+    "A339939"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Strictly positive numbers n such that 24*n/(24+n) is an integer.",
+  "description": "Strictly positive numbers k such that 24*k/(24+k) is an integer.",
   "id": "A162691",
   "mentions": [
     "A127730",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of closed binary operations on n labeled elements satisfying (xy)z = xy identically.",
+  "id": "A390603",
+  "mentions": [
+    "A002489",
+    "A279644",
+    "A390164"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

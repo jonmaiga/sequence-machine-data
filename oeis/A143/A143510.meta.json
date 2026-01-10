@@ -3,15 +3,15 @@
   "id": "A143510",
   "mentions": [
     "A143511",
-    "A143512"
+    "A143512",
+    "A387221"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

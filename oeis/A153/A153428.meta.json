@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that phi(n) = p^3, where p is product of digits of n.",
+  "description": "Numbers k such that phi(k) = p^3, where p is product of digits of k.",
   "id": "A153428",
   "mentions": [
+    "A000010",
+    "A007954",
     "A068572",
     "A153427"
   ],

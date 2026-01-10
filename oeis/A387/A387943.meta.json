@@ -1,0 +1,16 @@
+{
+  "description": "Number of fully packed loops on an n X n grid with no cycle.",
+  "id": "A387943",
+  "mentions": [
+    "A005130"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

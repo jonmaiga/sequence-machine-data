@@ -1,13 +1,16 @@
 {
-  "description": "a(n) is the index of 10^n within sequence of numbers of form 4^i*10^j.",
+  "description": "Index of 10^n within the sequence of the numbers of the form 4^i*10^j.",
   "id": "A025742",
   "mentions": [
+    "A011557",
     "A025621",
     "A025649",
-    "A025686"
+    "A025686",
+    "A154155"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

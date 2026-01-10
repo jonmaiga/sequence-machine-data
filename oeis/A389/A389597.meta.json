@@ -1,0 +1,45 @@
+{
+  "description": "Standard composition numbers of integer compositions with all distinct first differences.",
+  "id": "A389597",
+  "mentions": [
+    "A000120",
+    "A001221",
+    "A003242",
+    "A011782",
+    "A029931",
+    "A066099",
+    "A070939",
+    "A124767",
+    "A130091",
+    "A175342",
+    "A228351",
+    "A233564",
+    "A240026",
+    "A242882",
+    "A272919",
+    "A303664",
+    "A318928",
+    "A320347",
+    "A325325",
+    "A325366",
+    "A325368",
+    "A325545",
+    "A333489",
+    "A333627",
+    "A333628",
+    "A364465",
+    "A389598",
+    "A389599",
+    "A389601",
+    "A389731",
+    "A389734"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

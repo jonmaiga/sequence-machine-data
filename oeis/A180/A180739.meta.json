@@ -1,14 +1,20 @@
 {
-  "description": "Diagonal of array arising in computing the number of numerical semigroups using generating functions.",
+  "description": "Number of numerical semigroups of multiplicity n and genus n+2.",
   "id": "A180739",
-  "mentions": [],
+  "mentions": [
+    "A000124",
+    "A007323",
+    "A060163",
+    "A199711"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "offset": 2,
+    "size": 47,
+    "source": "joeis"
   }
 }

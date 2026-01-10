@@ -1,0 +1,16 @@
+{
+  "description": "Semilengths of the Dyck natural numbers.",
+  "id": "A389367",
+  "mentions": [
+    "A082582"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

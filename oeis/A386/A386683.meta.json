@@ -1,0 +1,20 @@
+{
+  "description": "Number of unique n-element sum-distinct sets with minimal largest element.",
+  "id": "A386683",
+  "mentions": [
+    "A005230",
+    "A005318",
+    "A096858",
+    "A276661"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

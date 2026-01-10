@@ -1,8 +1,9 @@
 {
-  "description": "Number of connected bipartite cubic graphs with 2*n nodes and the maximum number of edge-Kempe equivalence classes.",
+  "description": "Number of connected bipartite cubic simple graphs on 2n nodes with the maximum number of edge-Kempe equivalence classes of 3-edge-colorings.",
   "id": "A358283",
   "mentions": [
-    "A006823"
+    "A006823",
+    "A358281"
   ],
   "tags": [
     "more",

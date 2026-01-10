@@ -1,5 +1,5 @@
 {
-  "description": "Product_{k=1..n} prime(k) - prime(4n).",
+  "description": "(Product_{k=1..n} prime(k)) - prime(4n).",
   "id": "A064109",
   "mentions": [],
   "tags": [

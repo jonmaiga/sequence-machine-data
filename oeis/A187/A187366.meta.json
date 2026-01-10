@@ -1,5 +1,5 @@
 {
-  "description": "One half of a trisection of A001700: binomial(6n+5,3(n+1))/2, n>=0.",
+  "description": "One half of a trisection of A001700: binomial(6n+5,3(n+1))/2, n >= 0.",
   "id": "A187366",
   "mentions": [
     "A000984",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 16,
     "source": "joeis"
   }
 }

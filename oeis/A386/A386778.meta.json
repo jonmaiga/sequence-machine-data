@@ -2,6 +2,7 @@
   "description": "a(n) = n^2*sigma_8(n).",
   "id": "A386778",
   "mentions": [
+    "A013667",
     "A013956",
     "A282097",
     "A282099",
@@ -13,6 +14,7 @@
     "A386777"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

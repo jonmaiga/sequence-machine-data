@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k with abundance 90: sigma(k) - 2*k = 90.",
+  "id": "A389703",
+  "mentions": [
+    "A033880",
+    "A088831"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

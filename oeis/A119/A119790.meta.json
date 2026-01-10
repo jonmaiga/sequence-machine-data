@@ -2,12 +2,18 @@
   "description": "a(n) is the sum of the positive integers each of which is <= n and is divisible by exactly one prime dividing n (but is coprime to every other prime dividing n). (a(1) = 1).",
   "id": "A119790",
   "mentions": [
+    "A013661",
     "A026741",
+    "A069513",
     "A116512",
     "A119794",
-    "A120499"
+    "A120499",
+    "A154945",
+    "A246655"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

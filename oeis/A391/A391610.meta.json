@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the coefficient of x^k of the monic polynomial (1+x)^n + ((2*(1+x))^n - (2+x)^n) / x.",
+  "id": "A391610",
+  "mentions": [
+    "A005183",
+    "A008949",
+    "A052944",
+    "A083324",
+    "A388426"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

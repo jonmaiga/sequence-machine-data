@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = min(n, A059893(n)), where A059893 reverses the order of all but the most significant bit in binary expansion of n.",
+  "id": "A389903",
+  "mentions": [
+    "A059893",
+    "A331166",
+    "A389904",
+    "A389907"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

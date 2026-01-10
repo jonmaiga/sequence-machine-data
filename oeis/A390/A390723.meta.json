@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (-1)^(n-k)*Stirling1(n, k)*CatalanNumber(k).",
+  "id": "A390723",
+  "mentions": [
+    "A000108",
+    "A086662",
+    "A086672",
+    "A132393",
+    "A390724"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

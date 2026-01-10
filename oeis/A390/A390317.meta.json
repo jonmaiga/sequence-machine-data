@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative sequence a(n) with a(p^e) = 2 + (p^e + p^(e-1) - 2) * (p+1) / (p-1) for prime p and e > 0.",
+  "id": "A390317",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A034444",
+    "A322328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

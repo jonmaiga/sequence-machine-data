@@ -1,7 +1,9 @@
 {
   "description": "Sum of digit-sums of first n nonprimes.",
   "id": "A051350",
-  "mentions": [],
+  "mentions": [
+    "A018252"
+  ],
   "tags": [
     "base",
     "easy",

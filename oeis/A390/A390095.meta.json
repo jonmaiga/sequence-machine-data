@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of sqrt(Pi) in base phi where phi = (1+sqrt(5))/2.",
+  "id": "A390095",
+  "mentions": [
+    "A001622",
+    "A002161",
+    "A068431",
+    "A102243"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

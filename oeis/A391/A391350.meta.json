@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Stern polynomial B(5*k,x) is reducible, but not equal to B(5,x)*B(k,x).",
+  "id": "A391350",
+  "mentions": [
+    "A125184",
+    "A260443",
+    "A391260",
+    "A391341",
+    "A391342",
+    "A391348",
+    "A391349"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

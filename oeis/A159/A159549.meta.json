@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (201+20*sqrt(2))/199.",
+  "description": "Decimal expansion of (201 + 20*sqrt(2))/199.",
   "id": "A159549",
   "mentions": [
     "A002193",

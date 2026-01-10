@@ -1,0 +1,15 @@
+{
+  "description": "Number of rhombus tilings of a triangular shape formed by n*(n+1)/2 adjacent hexagons.",
+  "id": "A390149",
+  "mentions": [
+    "A115965"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

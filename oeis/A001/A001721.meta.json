@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Stirling numbers.",
+  "description": "Generalized Stirling numbers, [n+6,6]_5.",
   "id": "A001721",
   "mentions": [
     "A000254",

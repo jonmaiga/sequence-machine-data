@@ -1,0 +1,34 @@
+{
+  "description": "Number of elements that square to the identity in the class group of real quadratic field Q(sqrt(k)), k squarefree > 1.",
+  "id": "A391435",
+  "mentions": [
+    "A003643",
+    "A003658",
+    "A005117",
+    "A079896",
+    "A317989",
+    "A317990",
+    "A317991",
+    "A317992",
+    "A390079",
+    "A391417",
+    "A391419",
+    "A391422",
+    "A391426",
+    "A391436",
+    "A391437",
+    "A391438",
+    "A391439",
+    "A391440",
+    "A391441"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

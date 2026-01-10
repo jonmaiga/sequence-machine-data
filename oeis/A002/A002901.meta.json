@@ -1,5 +1,5 @@
 {
-  "description": "n^3 - floor( n/3 ).",
+  "description": "a(n) = n^3 - floor( n/3 ).",
   "id": "A002901",
   "mentions": [
     "A000578",

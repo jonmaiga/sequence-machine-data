@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k>=0 such that n(n+1)-(2k+1) and n(n+1)+(2k+1) are both noncomposite numbers, or -1 if no such k exists.",
+  "description": "Smallest k>=0 such that n*(n+1)-(2*k+1) and n*(n+1)+(2*k+1) are both noncomposite numbers, or -1 if no such k exists.",
   "id": "A209882",
   "mentions": [
     "A002378",

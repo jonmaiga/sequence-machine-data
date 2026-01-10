@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer compositions of n whose first differences are not all distinct.",
+  "id": "A389743",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A011782",
+    "A049988",
+    "A059966",
+    "A066099",
+    "A070211",
+    "A167606",
+    "A175342",
+    "A325325",
+    "A325368",
+    "A325545",
+    "A332834",
+    "A389597",
+    "A389598",
+    "A389601",
+    "A389734",
+    "A389735",
+    "A389736",
+    "A389737",
+    "A389738",
+    "A389741",
+    "A389742",
+    "A389744",
+    "A389811",
+    "A389812"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

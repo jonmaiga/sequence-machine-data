@@ -1,7 +1,11 @@
 {
-  "description": "2*(10^n - 7).",
+  "description": "a(n) = 2*(10^n - 7).",
   "id": "A175237",
-  "mentions": [],
+  "mentions": [
+    "A033175",
+    "A175604",
+    "A177112"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

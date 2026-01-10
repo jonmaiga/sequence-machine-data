@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k such that the concatenation of k, k-1, ..., 1 is divisible by 2*n-1, or -1 if there is no such k.",
+  "id": "A386680",
+  "mentions": [
+    "A000422",
+    "A075002"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum binomial(2n-2k,2k)10^(n-k), k=0..floor(n/2).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(2n-2k,2k)10^(n-k).",
   "id": "A108487",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

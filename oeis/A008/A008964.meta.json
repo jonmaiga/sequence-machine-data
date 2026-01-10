@@ -1,7 +1,9 @@
 {
   "description": "Number of elements of order <= 2 in group of n X n upper triangular matrices over GF(2).",
   "id": "A008964",
-  "mentions": [],
+  "mentions": [
+    "A063505"
+  ],
   "tags": [
     "formulas",
     "nonn"

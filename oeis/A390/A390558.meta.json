@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose square is an exponential abundant number.",
+  "id": "A390558",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A005117",
+    "A007947",
+    "A051377",
+    "A052485",
+    "A087248",
+    "A129575",
+    "A330595",
+    "A381738",
+    "A390556",
+    "A390557"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

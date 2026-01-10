@@ -1,15 +1,14 @@
 {
-  "description": "Solutions to place plus, minus, multiply or divide signs to a nonzero digits sequence 123456789 so that result of thus described arithmetic operation will be n.",
+  "description": "Number of ways to place plus, minus, multiply or divide signs to a nonzero digits sequence 123456789 so that result of thus described arithmetic operation will be n.",
   "id": "A171223",
   "mentions": [],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

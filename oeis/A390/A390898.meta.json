@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k>=0} (1/2)^(k+1) * |Stirling1(n+k,k)|.",
+  "id": "A390898",
+  "mentions": [
+    "A008275",
+    "A032188",
+    "A205671",
+    "A390890",
+    "A390899",
+    "A390900"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

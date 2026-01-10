@@ -2,6 +2,7 @@
   "description": "Coefficients for extrapolation.",
   "id": "A002738",
   "mentions": [
+    "A001622",
     "A002720",
     "A002802",
     "A007744",
@@ -9,6 +10,7 @@
     "A331431"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

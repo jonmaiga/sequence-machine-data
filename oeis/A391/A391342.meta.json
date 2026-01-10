@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that Stern polynomial B(5*k,x) is reducible.",
+  "id": "A391342",
+  "mentions": [
+    "A008585",
+    "A125184",
+    "A206285",
+    "A260443",
+    "A283991",
+    "A391341",
+    "A391346",
+    "A391348",
+    "A391350"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

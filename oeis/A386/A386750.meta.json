@@ -2,6 +2,7 @@
   "description": "a(n) = n*sigma_6(n).",
   "id": "A386750",
   "mentions": [
+    "A013665",
     "A013954",
     "A064987",
     "A281372",
@@ -12,6 +13,7 @@
     "A386751"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

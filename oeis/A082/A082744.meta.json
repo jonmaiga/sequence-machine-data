@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that nk + 1 is a palindrome.",
+  "description": "Smallest k such that n*k + 1 is a palindrome.",
   "id": "A082744",
   "mentions": [
     "A082743"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 92,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

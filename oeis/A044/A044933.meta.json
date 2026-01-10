@@ -1,14 +1,19 @@
 {
   "description": "Number of runs of even length in the base-2 representation of n.",
   "id": "A044933",
-  "mentions": [],
+  "mentions": [
+    "A005811",
+    "A044942"
+  ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 90,
-    "source": "joeis"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

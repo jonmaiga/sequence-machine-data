@@ -1,9 +1,15 @@
 {
-  "description": "T(3*n + 1, n + 1), array T as in A038792.",
+  "description": "a(n) = T(3*n + 1, n + 1), array T as in A038792.",
   "id": "A038736",
   "mentions": [
+    "A000045",
+    "A001764",
+    "A038744",
     "A038792",
-    "A134511"
+    "A108080",
+    "A122367",
+    "A134511",
+    "A390238"
   ],
   "tags": [
     "formulas",

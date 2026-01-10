@@ -1,0 +1,26 @@
+{
+  "description": "Odd Achilles numbers.",
+  "id": "A390953",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A005408",
+    "A052486",
+    "A062739",
+    "A075109",
+    "A126706",
+    "A286708",
+    "A363217",
+    "A390952"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

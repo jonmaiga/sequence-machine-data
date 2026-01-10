@@ -1,8 +1,9 @@
 {
-  "description": "Number of connected planar cubic graphs with 2*n nodes and zero edge-Kempe equivalence classes.",
+  "description": "Number of connected planar cubic simple graphs on 2n unlabeled nodes with chromatic index 4.",
   "id": "A358284",
   "mentions": [
-    "A005964"
+    "A005964",
+    "A357446"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 11,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

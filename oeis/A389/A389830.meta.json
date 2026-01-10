@@ -1,0 +1,16 @@
+{
+  "description": "Number of normal subgroups of the modular group of index n.",
+  "id": "A389830",
+  "mentions": [
+    "A005133"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

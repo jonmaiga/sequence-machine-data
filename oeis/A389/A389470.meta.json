@@ -1,0 +1,20 @@
+{
+  "description": "A003973(k)/k for k such that A003973(k) is divisible by k (A389469), where A003973(n) is sum of the divisors of prime-shifted n, A003961(n).",
+  "id": "A389470",
+  "mentions": [
+    "A003961",
+    "A003973",
+    "A007691",
+    "A054030",
+    "A389469"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

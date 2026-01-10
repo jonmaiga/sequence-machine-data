@@ -1,0 +1,23 @@
+{
+  "description": "Carmichael numbers of the form (30*k+7) * (60*k+13) * (150*k+31) * (300*k+61) * (900*k+181), k>=0, where all five factors are prime.",
+  "id": "A391076",
+  "mentions": [
+    "A002997",
+    "A182085",
+    "A182088",
+    "A182089",
+    "A182132",
+    "A182133",
+    "A182416",
+    "A255441",
+    "A255514"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

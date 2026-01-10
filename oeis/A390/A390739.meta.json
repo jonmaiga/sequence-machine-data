@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least possible difference between the areas of the largest and smallest trapezoids in a 4 element set of distinct integer-sided trapezoids whose base angles are 60 degrees that fill a regular hexagon of side n units.",
+  "id": "A390739",
+  "mentions": [
+    "A249547",
+    "A390738"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

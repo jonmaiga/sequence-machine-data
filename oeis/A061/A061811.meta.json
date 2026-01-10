@@ -2,6 +2,7 @@
   "description": "Multiples of 3 with all even digits.",
   "id": "A061811",
   "mentions": [
+    "A008585",
     "A061810",
     "A276508"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! is the product of exactly four smaller factorials.",
+  "description": "Numbers k such that k! is the product of exactly four smaller factorials.",
   "id": "A109097",
   "mentions": [
     "A001013",

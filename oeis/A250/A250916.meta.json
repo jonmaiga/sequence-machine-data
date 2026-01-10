@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(C(x)^2 - 1) where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers, A000108.",
+  "description": "Expansion of e.g.f. exp(C(x)^2 - 1) where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers, A000108.",
   "id": "A250916",
   "mentions": [
     "A000108",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Class numbers h(D) of imaginary quadratic orders with discriminant D == 0 or 1 mod 4, D",
   "id": "A014600",
   "mentions": [
-    "A000924"
+    "A000924",
+    "A087048"
   ],
   "tags": [
     "nonn"

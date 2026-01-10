@@ -2,20 +2,26 @@
   "description": "Numbers k such that 7^k starts with k.",
   "id": "A362099",
   "mentions": [
+    "A000420",
+    "A033147",
     "A100129",
+    "A131493",
+    "A131494",
+    "A131495",
     "A320930",
     "A362096",
     "A362097",
+    "A362098",
+    "A362100",
     "A362101"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

@@ -1,13 +1,14 @@
 {
-  "description": "a(n) is the cardinality of the smallest subset S1 of S={1,2,3,...,n} such that every element of S is either in S1 or is the sum of two elements of S1.",
+  "description": "a(n) is the cardinality of the smallest subset S1 of S={1,2,3,...,n} such that every element of S is either in S1 or is the sum of two distinct elements of S1.",
   "id": "A082429",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 56,
     "source": "oeis-entry"
   }
 }

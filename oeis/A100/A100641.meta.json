@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: denominators of Cotesian numbers C(n,k) (0 <= k <= k).",
+  "description": "Triangle read by rows: denominators of Cotesian numbers C(n,k) (0 <= k <= n).",
   "id": "A100641",
   "mentions": [
     "A002176",
@@ -7,6 +7,12 @@
     "A100620",
     "A100621",
     "A100640",
+    "A100642",
+    "A100643",
+    "A100644",
+    "A100645",
+    "A100646",
+    "A100647",
     "A100648"
   ],
   "tags": [
@@ -17,6 +23,6 @@
   "terms": {
     "offset": 0,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

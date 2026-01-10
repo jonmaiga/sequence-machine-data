@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the absolute value of the sum of gamma function at all its extremas.",
+  "id": "A389850",
+  "mentions": [
+    "A030169",
+    "A030171",
+    "A175472",
+    "A175473",
+    "A344964"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

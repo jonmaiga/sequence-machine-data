@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array T(n, k) read by rows: polynomials for the series expansion of the iterated function F^{t}(x) = Sum_{n>=0} (1/x)^(2*n-1)*P_n(t)/n! with F^{1}(x) = (x + sqrt(x^2 + 4))/2 and F^{2}(x) = F^{1}(F^{1}(x)). Row n of the triangle give the coefficients of the polynomial P_n(t).",
+  "id": "A390822",
+  "mentions": [
+    "A000407",
+    "A001147",
+    "A001813",
+    "A027614",
+    "A112576",
+    "A147989",
+    "A179320"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

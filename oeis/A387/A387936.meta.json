@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 4-dimensional balanced ballot paths of 4n steps with exactly k peaks.",
+  "id": "A387936",
+  "mentions": [
+    "A001263",
+    "A005789",
+    "A005790"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -6,11 +6,12 @@
     "A271493"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "joeis"
   }
 }

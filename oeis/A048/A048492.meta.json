@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ( 8*(2^n) - n^2 - 3*n - 6 )/2.",
+  "description": "a(n) = (8*(2^n) - n^2 - 3*n - 6)/2.",
   "id": "A048492",
   "mentions": [
     "A000325",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

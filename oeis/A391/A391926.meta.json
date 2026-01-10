@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by descending antidiagonals: find the k-th natural number i that satisfies i*n = A048720(i,m) for some m, then A(n, k) = m. Here A048720 is carryless base-2 multiplication.",
+  "id": "A391926",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000120",
+    "A048720",
+    "A280500",
+    "A391726",
+    "A391925"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

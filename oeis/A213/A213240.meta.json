@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of digits of n = sum of digits of n’, where n’ is the arithmetic derivative of n.",
+  "description": "Numbers k such that sum of digits of k = sum of digits of k', where k' is the arithmetic derivative of k.",
   "id": "A213240",
   "mentions": [
     "A003415",

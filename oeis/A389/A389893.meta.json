@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*(1-x^2)^2*A(x)^2.",
+  "id": "A389893",
+  "mentions": [
+    "A000108",
+    "A157003",
+    "A336165",
+    "A389871"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

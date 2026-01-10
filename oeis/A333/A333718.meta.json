@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = L(8*n+4)/7, where L=A000032 (the Lucas sequence).",
+  "description": "a(n) = L(8*n+4)/7, where L = A000032 (the Lucas sequence).",
   "id": "A333718",
   "mentions": [
     "A000032",

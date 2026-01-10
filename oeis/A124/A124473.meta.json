@@ -2,7 +2,10 @@
   "description": "y-coordinate of position of n in the magic square in A124471.",
   "id": "A124473",
   "mentions": [
-    "A124471"
+    "A124471",
+    "A124474",
+    "A126128",
+    "A126129"
   ],
   "tags": [
     "fini",

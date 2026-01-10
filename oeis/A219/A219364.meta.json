@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that the product of divisors of n is greater than the product of divisors of sigma(n).",
+  "description": "Numbers k whose product of divisors is greater than the product of divisors of sigma(k).",
   "id": "A219364",
   "mentions": [
     "A000203",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

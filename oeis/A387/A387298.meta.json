@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet g.f.: zeta(s) * zeta(6*s) / (zeta(3*s) * zeta(4*s)).",
+  "id": "A387298",
+  "mentions": [
+    "A002117",
+    "A005361",
+    "A013662",
+    "A013664",
+    "A163806",
+    "A322327"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

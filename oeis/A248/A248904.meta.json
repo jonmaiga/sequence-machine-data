@@ -1,5 +1,5 @@
 {
-  "description": "Consider a decimal number of k>=2 digits z = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + … + d_(2)*10 + d_(1) and the sum y = Sum_{x=2..k} {Sum_{j=1..k-x}{d_(j+x-1)*10^(j-1)} - Sum_{j=1..x-1}{d_(j)*10^(j-1)}}. Sequence lists the numbers for which y = tau(z), where tau(z) is the number of divisors of z .",
+  "description": "Consider a decimal number of k>=2 digits z = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + ... + d_(2)*10 + d_(1) and the sum y = Sum_{x=2..k} {Sum_{j=1..k-x}{d_(j+x-1)*10^(j-1)} - Sum_{j=1..x-1}{d_(j)*10^(j-1)}}. Sequence lists the numbers for which y = tau(z), where tau(z) is the number of divisors of z.",
   "id": "A248904",
   "mentions": [
     "A000005"

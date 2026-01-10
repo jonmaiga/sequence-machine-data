@@ -2,6 +2,7 @@
   "description": "Number of compositions (ordered partitions) of n into distinct proper divisors of n.",
   "id": "A331928",
   "mentions": [
+    "A005835",
     "A018818",
     "A027751",
     "A033630",
@@ -19,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

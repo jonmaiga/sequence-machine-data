@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: numerators of the almost-Riordan array ( (-6*x - 3 - 3*sqrt(12*x^2 - 8*x + 1))/(8*x^2 - 3*x - 3 + (3*x - 3)*sqrt(12*x^2 - 8*x + 1)) | 6/(3*(1 - x)*sqrt(12*x^2 - 8*x + 1) - 8*x^2 + 3*x + 3), (1 - 4*x - sqrt(12*x^2 - 8*x + 1))/(2*x) ).",
+  "id": "A389739",
+  "mentions": [
+    "A373744",
+    "A373746",
+    "A389706",
+    "A389708",
+    "A389710",
+    "A389740"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

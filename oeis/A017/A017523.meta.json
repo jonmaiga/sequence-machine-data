@@ -2,6 +2,9 @@
   "description": "a(n) = (12*n)^3.",
   "id": "A017523",
   "mentions": [
+    "A000578",
+    "A016743",
+    "A016911",
     "A244725"
   ],
   "tags": [
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 29,
     "source": "joeis"
   }
 }

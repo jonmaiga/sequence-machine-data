@@ -1,7 +1,13 @@
 {
   "description": "a(n) = (2^n/n!)*Product_{k=0..n-1} (4*k + 5).",
   "id": "A004985",
-  "mentions": [],
+  "mentions": [
+    "A004981",
+    "A004982",
+    "A004983",
+    "A004984",
+    "A004986"
+  ],
   "tags": [
     "easy",
     "formulas",

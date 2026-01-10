@@ -2,6 +2,7 @@
   "description": "a(n) = number immediately following n-th 0 in A181391.",
   "id": "A171889",
   "mentions": [
+    "A171868",
     "A181391"
   ],
   "tags": [

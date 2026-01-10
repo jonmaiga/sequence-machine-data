@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is the concatenation of distinct prime factors of phi(n), in decreasing order.",
+  "description": "Numbers k such that k is the concatenation of distinct prime factors of phi(k), in decreasing order.",
   "id": "A251363",
   "mentions": [
     "A000010",

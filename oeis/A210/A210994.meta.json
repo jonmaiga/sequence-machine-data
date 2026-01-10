@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A000005(n) <> 4.",
+  "description": "Numbers k such that A000005(k) != 4.",
   "id": "A210994",
   "mentions": [
     "A000005",

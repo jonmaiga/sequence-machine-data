@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n grids with 7 non-attacking kings on each row.",
+  "id": "A390984",
+  "mentions": [
+    "A387098",
+    "A390419"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

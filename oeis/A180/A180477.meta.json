@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that r*n/k is an integer. n=(x_1 x_2 ... x_r) where x_i are digits of n, k = x_1 + x_2 + ... + x_r.",
+  "description": "Numbers m such that r*m/k is an integer. m=(x_1 x_2 ... x_r) where x_i are digits of m, k = x_1 + x_2 + ... + x_r.",
   "id": "A180477",
   "mentions": [
     "A005349",

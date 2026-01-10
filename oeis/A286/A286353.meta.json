@@ -1,5 +1,5 @@
 {
-  "description": "Zeroless numbers n = concat(s,t) such that s * t is the 10’s complement of the digits of n.",
+  "description": "Zeroless numbers n = concat(s,t) such that s * t is the 10's complement of the digits of n.",
   "id": "A286353",
   "mentions": [],
   "tags": [

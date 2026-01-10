@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer m > n, such that there exists nonzero solutions to a cross-domain congruence n*i = m X i, n if no such integer exists.",
+  "description": "If n is a power of 2, then a(n) = n, otherwise a(n) is the smallest integer m > n, for which there exists an odd number i <= n^3 such that n*i = A048720(m, i), where A048720 is carryless base-2 multiplication.",
   "id": "A115857",
   "mentions": [
     "A048720",
@@ -9,14 +9,24 @@
     "A115861",
     "A115869",
     "A115871",
-    "A115872"
+    "A115872",
+    "A115873",
+    "A209229",
+    "A391567",
+    "A391568",
+    "A391571",
+    "A391573",
+    "A391925",
+    "A391926"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 69,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

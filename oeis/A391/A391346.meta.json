@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Stern polynomial B(5*k,x) is a multiple of B(5,x).",
+  "id": "A391346",
+  "mentions": [
+    "A125184",
+    "A260443",
+    "A391342",
+    "A391347",
+    "A391348",
+    "A391566"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

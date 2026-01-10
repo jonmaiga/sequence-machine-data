@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of gamma^exp(1).",
   "id": "A073018",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A001620"
+  ],
   "tags": [
     "cons",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

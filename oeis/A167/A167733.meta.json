@@ -1,14 +1,25 @@
 {
   "description": "Cubes that becomes a prime number when prefixed with a 9.",
   "id": "A167733",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A032672",
+    "A167725",
+    "A167726",
+    "A167727",
+    "A167728",
+    "A167729",
+    "A167730",
+    "A167731",
+    "A167732"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 29,
     "source": "joeis"
   }
 }

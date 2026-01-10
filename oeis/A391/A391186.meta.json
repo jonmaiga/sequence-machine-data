@@ -1,0 +1,26 @@
+{
+  "description": "The largest divisor of n that is a number of the form x^2 + 2*y^2 (A002479).",
+  "id": "A391186",
+  "mentions": [
+    "A002479",
+    "A003628",
+    "A005117",
+    "A371015",
+    "A390691",
+    "A391183",
+    "A391184",
+    "A391185",
+    "A391187"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

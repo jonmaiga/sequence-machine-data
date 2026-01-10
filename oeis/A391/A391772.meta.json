@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime that can be written as (product - sum) of n distinct composite numbers.",
+  "id": "A391772",
+  "mentions": [
+    "A391512",
+    "A391698",
+    "A391699"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

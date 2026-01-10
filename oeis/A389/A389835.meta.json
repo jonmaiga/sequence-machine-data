@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that wt(Fibonacci(k)) * e > k, where wt(x) is the binary weight of x (A000120), and e is the natural logarithm base.",
+  "id": "A389835",
+  "mentions": [
+    "A000045",
+    "A000120"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

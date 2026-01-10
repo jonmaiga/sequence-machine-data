@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of g/(1 - x^2*g^5), where g = 1+x*g^2 is the g.f. of A000108.",
+  "id": "A391036",
+  "mentions": [
+    "A000108",
+    "A000958",
+    "A030238",
+    "A071738",
+    "A078483",
+    "A081696",
+    "A088218",
+    "A390479",
+    "A390528"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

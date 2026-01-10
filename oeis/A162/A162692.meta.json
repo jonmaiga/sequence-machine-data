@@ -1,5 +1,5 @@
 {
-  "description": "Strictly positive numbers n such that 28*n/(28+n) are integers.",
+  "description": "Strictly positive numbers k such that 28*k/(28+k) are integers.",
   "id": "A162692",
   "mentions": [
     "A127730",

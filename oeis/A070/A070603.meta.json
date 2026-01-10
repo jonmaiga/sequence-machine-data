@@ -1,7 +1,9 @@
 {
-  "description": "n^5 mod 19.",
+  "description": "a(n) = n^5 mod 19.",
   "id": "A070603",
-  "mentions": [],
+  "mentions": [
+    "A000584"
+  ],
   "tags": [
     "easy",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: c(3x)^3, c(x) the g.f. of A000108.",
+  "description": "Expansion of g.f. c(3x)^3, where c(x) is the g.f. of A000108.",
   "id": "A101601",
   "mentions": [
     "A000108",

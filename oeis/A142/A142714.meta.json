@@ -1,15 +1,13 @@
 {
-  "description": "A determinant sequence: M={{a(-1 + n), a(-2 + n)}, {a(-2 + n), a(-3 + n)}}; a(n)=Det[M].",
+  "description": "a(n) = a(n-1)*a(n-3) - a(n-2)^2, with a(1) = 1, a(2) = 2, a(3) = 3.",
   "id": "A142714",
   "mentions": [],
   "tags": [
-    "formulas",
-    "sign",
-    "uned"
+    "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

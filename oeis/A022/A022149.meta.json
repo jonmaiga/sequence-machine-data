@@ -1,7 +1,9 @@
 {
   "description": "Coordination sequence for root lattice B_7.",
   "id": "A022149",
-  "mentions": [],
+  "mentions": [
+    "A108998"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 28,
     "source": "joeis"
   }
 }

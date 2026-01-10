@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of 3*Sum_{k>=0} 6^(-2^k).",
+  "id": "A389527",
+  "mentions": [
+    "A006466",
+    "A007400",
+    "A014577",
+    "A078887",
+    "A157196",
+    "A336810",
+    "A386384",
+    "A387398",
+    "A388655",
+    "A389522"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

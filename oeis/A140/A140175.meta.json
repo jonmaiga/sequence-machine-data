@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that n=prime((d_1*d_2*...*d_k)*(d_1+d_2+...+d_k)) where d_1d_2...d_k is the decimal expansion of n.",
+  "description": "Numbers m such that m = prime((d_1*d_2*...*d_k)*(d_1+d_2+...+d_k)) where d_1d_2...d_k is the decimal expansion of m.",
   "id": "A140175",
   "mentions": [
     "A097223"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

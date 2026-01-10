@@ -1,13 +1,17 @@
 {
   "description": "Theta series of extremal 3-modular even lattice in dimension 26.",
   "id": "A034623",
-  "mentions": [],
+  "mentions": [
+    "A004016",
+    "A007332"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

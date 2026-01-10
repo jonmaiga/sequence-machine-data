@@ -1,0 +1,22 @@
+{
+  "description": "Non-semiprime solutions m to m'' = m'+1, where m' and m'' are the first and the second arithmetic derivatives of m.",
+  "id": "A390533",
+  "mentions": [
+    "A003415",
+    "A007850",
+    "A189639",
+    "A366890",
+    "A377987",
+    "A377992",
+    "A387956"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

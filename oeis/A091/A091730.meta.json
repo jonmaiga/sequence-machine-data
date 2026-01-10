@@ -1,14 +1,28 @@
 {
   "description": "Norms of irreducible elements of Z[sqrt(-5)].",
   "id": "A091730",
-  "mentions": [],
+  "mentions": [
+    "A003626",
+    "A033205",
+    "A091727",
+    "A091728",
+    "A091729",
+    "A091731",
+    "A106865",
+    "A139513",
+    "A262828",
+    "A390422",
+    "A390498",
+    "A390526"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

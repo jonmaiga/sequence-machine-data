@@ -1,0 +1,25 @@
+{
+  "description": "Odd exponential abundant numbers that are squares of squarefree numbers.",
+  "id": "A391430",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A005408",
+    "A016754",
+    "A056911",
+    "A112643",
+    "A321147",
+    "A391427",
+    "A391428",
+    "A391429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

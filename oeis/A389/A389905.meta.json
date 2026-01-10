@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is neither squarefree nor powerful, otherwise 0.",
+  "id": "A389905",
+  "mentions": [
+    "A107078",
+    "A112526",
+    "A332785",
+    "A355447",
+    "A363131",
+    "A384667"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

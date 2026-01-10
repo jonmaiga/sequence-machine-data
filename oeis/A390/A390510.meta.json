@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least k such that W(n,k) = W(n,k+1), where W(n,k) is the k-th iterate of the AN-totals mapping applied to the n-th 01-word, where all 01-words are lexicographically ordered as in A076478; see Comments.",
+  "id": "A390510",
+  "mentions": [
+    "A076478",
+    "A390505",
+    "A390508"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

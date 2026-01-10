@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the permanent of the n-th order Hankel matrix M(n) whose generic element is given by M(i,j) = phi(i+j) with i,j = 0, ..., n-1 and M(0,0) = 0.",
+  "id": "A391790",
+  "mentions": [
+    "A000010",
+    "A368026",
+    "A391788",
+    "A391789"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

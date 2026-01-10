@@ -1,14 +1,24 @@
 {
   "description": "Number of runs of even length in base-5 representation of n.",
   "id": "A044936",
-  "mentions": [],
+  "mentions": [
+    "A007091",
+    "A043557",
+    "A044933",
+    "A044935",
+    "A044937",
+    "A044941",
+    "A044945"
+  ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

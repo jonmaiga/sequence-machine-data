@@ -1,5 +1,5 @@
 {
-  "description": "Areas of triangles whose three vertices are consecutive ordered pairs of consecutive odd Fibonacci numbers such that an ordered pair’s y-value is the next ordered pair’s x-value.",
+  "description": "Areas of triangles whose three vertices are consecutive ordered pairs of consecutive odd Fibonacci numbers such that an ordered pair's y-value is the next ordered pair's x-value.",
   "id": "A384219",
   "mentions": [
     "A000045",

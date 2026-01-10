@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5xn binary matrices such that any 2 rows have a common 1.",
+  "description": "Number of 5 X n binary matrices such that any 2 rows have a common 1.",
   "id": "A051589",
   "mentions": [
     "A005061",

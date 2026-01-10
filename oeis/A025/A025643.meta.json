@@ -2,10 +2,13 @@
   "description": "Exponent of 3 (value of i) in n-th number of form 3^i*8^j.",
   "id": "A025643",
   "mentions": [
+    "A007949",
     "A025615",
     "A025672"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

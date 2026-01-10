@@ -1,7 +1,9 @@
 {
-  "description": "Sum(4^k, k=2..n).",
+  "description": "a(n) = Sum_{k=2..n} 4^k.",
   "id": "A247817",
   "mentions": [
+    "A002450",
+    "A020988",
     "A028329",
     "A080674",
     "A124166",

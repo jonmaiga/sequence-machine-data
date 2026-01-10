@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+2) * binomial(4*n-3*k+2,n-k)/(4*n-3*k+2).",
+  "id": "A390720",
+  "mentions": [
+    "A000245",
+    "A002293",
+    "A390719",
+    "A390721"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

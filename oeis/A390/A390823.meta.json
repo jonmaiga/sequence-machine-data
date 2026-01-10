@@ -1,0 +1,34 @@
+{
+  "description": "Powers k^m, m > 1, of numbers k that are neither prime powers nor powerful.",
+  "id": "A390823",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A024619",
+    "A120944",
+    "A126706",
+    "A131605",
+    "A246547",
+    "A286708",
+    "A303606",
+    "A303946",
+    "A332785",
+    "A383394",
+    "A386762",
+    "A387254",
+    "A388304",
+    "A388549",
+    "A389065",
+    "A389959",
+    "A390905"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

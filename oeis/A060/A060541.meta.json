@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = binomial(4*n, 4).",
+  "description": "a(n) = binomial(4*n,4).",
   "id": "A060541",
   "mentions": [
     "A000027",
@@ -7,6 +7,7 @@
     "A000384",
     "A006566",
     "A015219",
+    "A054777",
     "A060539"
   ],
   "tags": [

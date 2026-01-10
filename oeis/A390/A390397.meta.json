@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose sum of prime divisors equals the sum of square divisors.",
+  "id": "A390397",
+  "mentions": [
+    "A008472",
+    "A035316",
+    "A056240",
+    "A064502"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal representation of the n-th iteration of the Conway’s game of life starting with four adjacent rows of lines turned on to positive and negative infinity.",
+  "description": "Decimal representation of the n-th iteration of the Conway's game of life starting with four adjacent rows of lines turned on to positive and negative infinity.",
   "id": "A270072",
   "mentions": [],
   "tags": [

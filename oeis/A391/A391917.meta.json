@@ -1,0 +1,17 @@
+{
+  "description": "Number of irredundant sets in the n-double cone graph.",
+  "id": "A391917",
+  "mentions": [
+    "A290493"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

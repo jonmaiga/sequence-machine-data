@@ -1,0 +1,23 @@
+{
+  "description": "If n is a power of 2, then a(n) = 1, otherwise we search for the smallest integer m > n, for which there exists an odd number i <= n^3 such that m*i = A048720(n, i), and return that i as the result of a(n). Here A048720 is carryless base-2 multiplication.",
+  "id": "A391567",
+  "mentions": [
+    "A048720",
+    "A065621",
+    "A115857",
+    "A115873",
+    "A209229",
+    "A391568",
+    "A391570",
+    "A391572"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

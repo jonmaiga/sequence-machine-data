@@ -1,0 +1,19 @@
+{
+  "description": "Length of the longest irreducible balanced subsets of {-n..n}.",
+  "id": "A390084",
+  "mentions": [
+    "A389802",
+    "A389804",
+    "A389807",
+    "A390082"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

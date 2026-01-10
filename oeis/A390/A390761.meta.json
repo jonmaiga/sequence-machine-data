@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer k which has the same set of digits as n, and k is divisible by each nonzero digit of n, or -1 if no such number exists.",
+  "id": "A390761",
+  "mentions": [
+    "A002796",
+    "A010784",
+    "A034838",
+    "A137564"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

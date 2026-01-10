@@ -2,7 +2,8 @@
   "description": "Number of length 2 1..(n+2) arrays with no leading or trailing partial sum equal to a prime.",
   "id": "A254205",
   "mentions": [
-    "A254204"
+    "A254204",
+    "A254218"
   ],
   "tags": [
     "nonn"

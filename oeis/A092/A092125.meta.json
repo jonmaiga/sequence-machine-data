@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+2, n+4 are semiprimes.",
+  "description": "Numbers k such that k, k+2, k+4 are semiprimes.",
   "id": "A092125",
   "mentions": [
     "A056809",

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A067599(k) is a substring of k.",
+  "id": "A391519",
+  "mentions": [
+    "A027746",
+    "A067599",
+    "A378893",
+    "A390475"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

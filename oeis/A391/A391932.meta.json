@@ -1,0 +1,20 @@
+{
+  "description": "Inverse permutation of A391931.",
+  "id": "A391932",
+  "mentions": [
+    "A002110",
+    "A143293",
+    "A360407",
+    "A391931"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The smaller prime factor of RSA numbers.",
+  "id": "A391941",
+  "mentions": [
+    "A020639",
+    "A391940",
+    "A391942"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

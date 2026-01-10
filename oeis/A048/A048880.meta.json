@@ -1,5 +1,5 @@
 {
-  "description": "Primes of form pq+2 where p and q are consecutive primes.",
+  "description": "Primes of the form p*q+2 where p and q are consecutive primes.",
   "id": "A048880",
   "mentions": [
     "A051507",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 36,
     "source": "joeis"
   }
 }

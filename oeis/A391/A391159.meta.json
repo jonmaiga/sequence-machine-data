@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonisomorphic semigroups with n elements whose center contains k elements.",
+  "id": "A391159",
+  "mentions": [
+    "A001426",
+    "A027851",
+    "A058108",
+    "A391155",
+    "A391157",
+    "A391160"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

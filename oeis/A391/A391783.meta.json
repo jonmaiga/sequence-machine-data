@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * log(1 + 1/k) / k.",
+  "id": "A391783",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A058312",
+    "A058313",
+    "A131688",
+    "A391784"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

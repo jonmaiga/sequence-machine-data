@@ -3,12 +3,14 @@
   "id": "A011627",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "mult",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 81,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

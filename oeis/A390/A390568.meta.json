@@ -1,0 +1,45 @@
+{
+  "description": "The number k such that the k-th composition in standard order is the first sums of the n-th composition in standard order.",
+  "id": "A390568",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001511",
+    "A008965",
+    "A011782",
+    "A018900",
+    "A029837",
+    "A029931",
+    "A066099",
+    "A070211",
+    "A070939",
+    "A342527",
+    "A351014",
+    "A357135",
+    "A358133",
+    "A358134",
+    "A389731",
+    "A390307",
+    "A390362",
+    "A390432",
+    "A390448",
+    "A390449",
+    "A390567",
+    "A390673",
+    "A390674",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390745"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of zeta(2) * Product_{p prime} (1 - 2/p^2 + 1/p^(2/5) - 1/p^(3/2) + 1/p^4).",
+  "id": "A391785",
+  "mentions": [
+    "A013661"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

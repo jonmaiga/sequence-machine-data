@@ -1,5 +1,5 @@
 {
-  "description": "A number n is included if, for at least one distinct prime p dividing n, p+1 divides n.",
+  "description": "A number k is included if, for at least one distinct prime p dividing n, p+1 divides k.",
   "id": "A126798",
   "mentions": [],
   "tags": [

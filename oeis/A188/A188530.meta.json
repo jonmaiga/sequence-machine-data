@@ -1,5 +1,5 @@
 {
-  "description": "2^(2n+1)-5*2^(n-1)-1.",
+  "description": "a(n) = 2^(2*n+1) - 5*2^(n-1) - 1.",
   "id": "A188530",
   "mentions": [
     "A052539",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Perfect powers (squares, cubes, etc.) plus 1.",
+  "description": "Perfect powers (squares, cubes, etc., not including 1) plus 1.",
   "id": "A216765",
   "mentions": [
     "A001597",

@@ -1,13 +1,15 @@
 {
-  "description": "Numerators in continued fraction representation of (e-1)/(e+1).",
+  "description": "Numerators in the convergents of the continued fraction representation of (e-1)/(e+1).",
   "id": "A086403",
   "mentions": [
     "A000108",
+    "A001497",
     "A016825",
     "A033184",
     "A079165"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

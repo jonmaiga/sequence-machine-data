@@ -1,7 +1,10 @@
 {
   "description": "Indices for which there is no twin prime pair between two consecutive prime-indexed primes.",
   "id": "A087920",
-  "mentions": [],
+  "mentions": [
+    "A006450",
+    "A087919"
+  ],
   "tags": [
     "formulas",
     "nonn"

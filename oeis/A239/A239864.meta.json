@@ -1,5 +1,5 @@
 {
-  "description": "Starting from any prime p_i (with i = 1, 2, 3 …) sequence lists the minimum number of consecutive primes that must be added to 1 to reach another prime.",
+  "description": "Starting from any prime p_i (with i = 1, 2, 3, ...) sequence lists the minimum number of consecutive primes that must be added to 1 to reach another prime.",
   "id": "A239864",
   "mentions": [
     "A000040",

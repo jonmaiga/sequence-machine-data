@@ -2,14 +2,17 @@
   "description": "Prime quartets of form k, k+6, k+12, k+18.",
   "id": "A123083",
   "mentions": [
-    "A001097"
+    "A001097",
+    "A023271",
+    "A046124"
   ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
+    "size": 52,
     "source": "oeis-bfile"
   }
 }

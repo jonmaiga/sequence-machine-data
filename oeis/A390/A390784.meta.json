@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of positive integers k for which Sum_{i=1..r} p_i = Sum_{i=1..r} e_i = n, where p_1^e_1*...*p_r^e_r is the canonical prime factorization of k.",
+  "id": "A390784",
+  "mentions": [
+    "A001222",
+    "A008472",
+    "A024936",
+    "A097805",
+    "A219180",
+    "A377505",
+    "A377537",
+    "A382330",
+    "A390375"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

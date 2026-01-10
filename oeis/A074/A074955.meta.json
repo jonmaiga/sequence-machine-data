@@ -2,7 +2,7 @@
   "description": "Continued fraction for arithmetic mean of Pi and e.",
   "id": "A074955",
   "mentions": [
-    "A019645"
+    "A074916"
   ],
   "tags": [
     "cofr",

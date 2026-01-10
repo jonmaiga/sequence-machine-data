@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} tanh(arctan(k) * arcsinh(k) / 2).",
+  "id": "A390459",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

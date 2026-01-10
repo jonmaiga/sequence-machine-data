@@ -2,11 +2,13 @@
   "description": "Decimal expansion of sinh(Pi)/(4*Pi).",
   "id": "A175615",
   "mentions": [
+    "A000796",
     "A109219",
     "A144663",
     "A156648",
     "A175617",
-    "A175619"
+    "A175619",
+    "A334401"
   ],
   "tags": [
     "cons",
@@ -17,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

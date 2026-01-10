@@ -1,13 +1,11 @@
 {
-  "description": "a(n) = (A172126(n) - 1)/3.",
+  "description": "Numbers of form 4^(3*k+l+1)/9 - 4^l/9 - 1/3 or 2*4^(3*k+l+2)/9 - 2*4^l/9 - 1/3, k,l>=0.",
   "id": "A172143",
   "mentions": [
-    "A002450",
-    "A072197",
-    "A172126",
-    "A172241"
+    "A172126"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

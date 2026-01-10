@@ -2,7 +2,16 @@
   "description": "Cubes that become prime numbers when prefixed with an 8.",
   "id": "A167732",
   "mentions": [
-    "A032671"
+    "A000578",
+    "A032671",
+    "A167725",
+    "A167726",
+    "A167727",
+    "A167728",
+    "A167729",
+    "A167730",
+    "A167731",
+    "A167733"
   ],
   "tags": [
     "base",
@@ -10,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

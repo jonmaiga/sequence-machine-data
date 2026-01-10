@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{j=1..A066272(n)} (A066417(n) mod d_j), where d_j are the antidivisors of n.",
+  "id": "A388007",
+  "mentions": [
+    "A066272",
+    "A066417",
+    "A130799",
+    "A318996",
+    "A389846"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

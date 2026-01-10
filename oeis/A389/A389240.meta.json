@@ -1,0 +1,18 @@
+{
+  "description": "Start the sequence S with S(1) = n and extend S with S(m+1) = S(m)/2 when S(m) is even, otherwise with S(m) + the smallest odd number not yet added. a(n) is the number of steps to reach 1, or -1 if 1 is never reached.",
+  "id": "A389240",
+  "mentions": [
+    "A066070",
+    "A386819",
+    "A389391"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

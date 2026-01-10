@@ -1,8 +1,14 @@
 {
   "description": "Number of inequivalent indecomposable regular SQ matrices (strongly quadrangular) of order n.",
   "id": "A140839",
-  "mentions": [],
+  "mentions": [
+    "A140836",
+    "A140837",
+    "A140838",
+    "A140860"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

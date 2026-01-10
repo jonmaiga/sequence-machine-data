@@ -1,0 +1,37 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the sum of composite numbers in the k-th 2-dense sublist of divisors of n, with n >= 1, k >= 1.",
+  "id": "A390610",
+  "mentions": [
+    "A002808",
+    "A023891",
+    "A027750",
+    "A174973",
+    "A237271",
+    "A379288",
+    "A384149",
+    "A384222",
+    "A384225",
+    "A384226",
+    "A386604",
+    "A386989",
+    "A386992",
+    "A387030",
+    "A389592",
+    "A389761",
+    "A389762",
+    "A390443",
+    "A390494",
+    "A390495",
+    "A390609"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

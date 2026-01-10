@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1)^3 is next smallest cube ending with a(n)^3, initial term is 27.",
+  "description": "a(n+1)^3 is next smallest cube ending with a(n)^3, a(1) = 3.",
   "id": "A050651",
   "mentions": [
     "A048568",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

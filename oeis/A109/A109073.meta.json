@@ -1,9 +1,8 @@
 {
-  "description": "Number of decimal digits ( counted with multiplicity ) in n^2 but not in n.",
+  "description": "Number of decimal digits (counted with multiplicity) in n^2 but not in n.",
   "id": "A109073",
   "mentions": [
     "A076493",
-    "A109071",
     "A109072"
   ],
   "tags": [

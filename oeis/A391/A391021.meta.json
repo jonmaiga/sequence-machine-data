@@ -1,0 +1,23 @@
+{
+  "description": "Primes in A390697 where the concatenation, in non-decreasing order, of all prime digit permutations, read as a decimal integer, attains a new record.",
+  "id": "A391021",
+  "mentions": [
+    "A000040",
+    "A003459",
+    "A039999",
+    "A046811",
+    "A072857",
+    "A262988",
+    "A390697"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

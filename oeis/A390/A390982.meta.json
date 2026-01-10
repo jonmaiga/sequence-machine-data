@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in a hebesphenomegacorona (Johnson solid J_89).",
+  "id": "A390982",
+  "mentions": [
+    "A386741",
+    "A386742",
+    "A390975",
+    "A390976",
+    "A390977",
+    "A390978",
+    "A390979",
+    "A390980",
+    "A390981"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,12 +1,15 @@
 {
-  "description": "Consider problem of placing N queens on an n X n board so that each queen attacks precisely k others. Here k=4 and sequence gives number of different solutions when N takes its maximal value.",
+  "description": "Consider problem of placing N queens on an n X n board so that each queen attacks precisely k others. Here k=4 and sequence gives number of inequivalent solutions when N = 3*n-3.",
   "id": "A051571",
   "mentions": [
     "A019654",
     "A051567",
+    "A051568",
+    "A051569",
     "A051570",
     "A051754",
-    "A051759"
+    "A051759",
+    "A063724"
   ],
   "tags": [
     "more",

@@ -1,8 +1,14 @@
 {
-  "description": "(Greatest base 3 digit of n)-(least base 3 digit of n).",
+  "description": "a(n) = (Greatest base 3 digit of n) - (least base 3 digit of n).",
   "id": "A037897",
   "mentions": [
     "A007089",
+    "A037898",
+    "A037899",
+    "A037900",
+    "A037901",
+    "A037902",
+    "A037903",
     "A043530",
     "A190592",
     "A290825"
@@ -13,8 +19,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 105,
+    "offset": 0,
+    "size": 106,
     "source": "oeis-bfile"
   }
 }

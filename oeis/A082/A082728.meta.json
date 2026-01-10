@@ -1,13 +1,15 @@
 {
-  "description": "Numbers expressible as a sum of 2 Fibonacci numbers in exactly 1 way.",
+  "description": "Numbers expressible as a sum of 2 nonzero Fibonacci numbers in exactly 1 way.",
   "id": "A082728",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
-    "source": "oeis-entry"
+    "size": 59,
+    "source": "joeis"
   }
 }

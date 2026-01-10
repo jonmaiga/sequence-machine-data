@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(790).",
   "id": "A040761",
-  "mentions": [],
+  "mentions": [
+    "A042522",
+    "A042523"
+  ],
   "tags": [
     "cofr",
     "easy",

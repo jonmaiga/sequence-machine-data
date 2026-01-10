@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of divisors of n equals the integer part of the geometric mean of the divisors of n.",
+  "description": "Numbers k such that the number of divisors of k equals the integer part of the geometric mean of the divisors of k.",
   "id": "A276734",
   "mentions": [
     "A000005",

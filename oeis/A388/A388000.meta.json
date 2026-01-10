@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that phi(k) = pi(k) + tau(k).",
+  "id": "A388000",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000720"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that n = p*phi(p) where p is product of the digits of n.",
+  "description": "Numbers k such that k = p*phi(p) where p is the product of digits of k.",
   "id": "A153425",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A007954"
+  ],
   "tags": [
     "base",
     "more",

@@ -1,0 +1,34 @@
+{
+  "description": "Number of elements that square to the identity in the class group of real quadratic field with discriminant A003658(n), n >= 2.",
+  "id": "A391426",
+  "mentions": [
+    "A003640",
+    "A003658",
+    "A079896",
+    "A087048",
+    "A317989",
+    "A317990",
+    "A317991",
+    "A317992",
+    "A390079",
+    "A391417",
+    "A391419",
+    "A391422",
+    "A391435",
+    "A391436",
+    "A391437",
+    "A391438",
+    "A391439",
+    "A391440",
+    "A391441"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 159,
+    "source": "oeis-bfile"
+  }
+}

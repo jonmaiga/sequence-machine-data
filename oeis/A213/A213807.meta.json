@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=Sum(L(i)*L(j)*L(k), 0<=i",
+  "description": "a(n) = Sum_{0<=i",
   "id": "A213807",
   "mentions": [
     "A000032",

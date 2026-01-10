@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the maximum size of a subset A of {1,...,n} such that there are no solutions to 1/a = 1/b_1 + ... + 1/b_k with distinct a, b_1, ..., b_k in A.",
+  "id": "A390394",
+  "mentions": [
+    "A390393",
+    "A390395"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

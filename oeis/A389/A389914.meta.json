@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A048675(k) is in A186891\\{1}.",
+  "id": "A389914",
+  "mentions": [
+    "A048675",
+    "A186891",
+    "A277316",
+    "A277317",
+    "A277318",
+    "A277319",
+    "A283991",
+    "A389912",
+    "A389913",
+    "A389917"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

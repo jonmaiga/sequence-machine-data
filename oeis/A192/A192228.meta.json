@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (n+1)^6+(n+2)^6+(n+3)^6-666.",
+  "description": "Primes of the form (k+1)^6 + (k+2)^6 + (k+3)^6 - 666.",
   "id": "A192228",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 19,
     "source": "joeis"
   }
 }

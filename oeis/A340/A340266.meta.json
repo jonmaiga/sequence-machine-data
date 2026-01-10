@@ -2,6 +2,7 @@
   "description": "The number of degrees of freedom in a quadrilateral cell for a serendipity finite element space of order n.",
   "id": "A340266",
   "mentions": [
+    "A000217",
     "A111802"
   ],
   "tags": [

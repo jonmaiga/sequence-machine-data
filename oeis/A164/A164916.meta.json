@@ -10,13 +10,14 @@
     "A157142"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

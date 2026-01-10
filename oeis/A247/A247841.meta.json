@@ -2,7 +2,10 @@
   "description": "a(n) = Sum_{k=2..n} 8^k.",
   "id": "A247841",
   "mentions": [
+    "A023001",
     "A052379",
+    "A108019",
+    "A125835",
     "A247817"
   ],
   "tags": [
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

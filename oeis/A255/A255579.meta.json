@@ -1,5 +1,5 @@
 {
-  "description": "Minimum prime p such that all the powers p^k, with k = 2, 3, …, n, are concatenations of two primes, while p^(k+1) is not.",
+  "description": "Minimum prime p such that all the powers p^k, with k = 2..n, are concatenations of two primes, while p^(k+1) is not.",
   "id": "A255579",
   "mentions": [
     "A000040",

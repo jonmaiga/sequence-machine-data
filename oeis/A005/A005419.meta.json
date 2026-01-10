@@ -2,7 +2,14 @@
   "description": "Number of nonequivalent dissections of a polygon into n heptagons by nonintersecting diagonals up to rotation and reflection.",
   "id": "A005419",
   "mentions": [
-    "A295260"
+    "A002295",
+    "A004127",
+    "A295260",
+    "A389561",
+    "A389562",
+    "A389563",
+    "A389564",
+    "A389937"
   ],
   "tags": [
     "formulas",

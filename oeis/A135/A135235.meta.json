@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=s^phi(s) where s is sum of its digits.",
+  "description": "Numbers k such that k = s^phi(s) where s is sum of its digits.",
   "id": "A135235",
   "mentions": [
     "A135234",

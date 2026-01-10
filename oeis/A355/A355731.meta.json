@@ -45,11 +45,12 @@
   ],
   "tags": [
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

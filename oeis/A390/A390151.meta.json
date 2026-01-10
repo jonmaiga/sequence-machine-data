@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the absolute value of the sum of gamma function for all negative half integers.",
+  "id": "A390151",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A099288",
+    "A351400"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

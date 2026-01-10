@@ -1,7 +1,8 @@
 {
-  "description": "Numbers whose number of runs in the base-2 representation is congruent to 0 mod 6.",
+  "description": "Numbers whose number of runs in their base-2 representation is congruent to 0 mod 6.",
   "id": "A043733",
   "mentions": [
+    "A007088",
     "A043573"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
-    "source": "joeis"
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

@@ -8,12 +8,13 @@
   "tags": [
     "dumb",
     "easy",
+    "formulas",
     "less",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 97,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

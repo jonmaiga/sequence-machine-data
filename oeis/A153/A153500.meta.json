@@ -2,6 +2,7 @@
   "description": "First 3 terms coincide with A152756. For n>3, a(n) is the palindromic number formed from concatenation of 1, 0, A147759(n-3), 0, A147759(n-3), 0 and 1.",
   "id": "A153500",
   "mentions": [
+    "A007088",
     "A135577",
     "A138146",
     "A144564",
@@ -22,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

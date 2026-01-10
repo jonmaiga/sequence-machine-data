@@ -1,0 +1,18 @@
+{
+  "description": "Number of shortest strings containing all binary palindromes of length n as substrings.",
+  "id": "A390882",
+  "mentions": [
+    "A057148",
+    "A330022"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

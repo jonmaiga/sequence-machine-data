@@ -2,10 +2,11 @@
   "description": "a(n) is the earliest number m such that n*pi(m)=phi(m).",
   "id": "A097651",
   "mentions": [
+    "A000010",
+    "A000720",
     "A037171"
   ],
   "tags": [
-    "formulas",
     "more",
     "nonn"
   ],

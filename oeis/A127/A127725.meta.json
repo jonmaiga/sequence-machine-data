@@ -1,10 +1,11 @@
 {
-  "description": "Numbers that are 2-imperfect.",
+  "description": "2-imperfect numbers.",
   "id": "A127725",
   "mentions": [
     "A019434",
     "A127724",
-    "A127726"
+    "A127726",
+    "A328860"
   ],
   "tags": [
     "hard",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

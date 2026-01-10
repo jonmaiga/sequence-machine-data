@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(n+2*k,n-k) * Fibonacci(k+1).",
+  "id": "A390855",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A390825",
+    "A390854"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

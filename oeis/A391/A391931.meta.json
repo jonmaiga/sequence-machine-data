@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n, k) = A143293(n-1) + Sum_{i=1..n} (k mod prime(i))*A002110(i-1), with n >= 1, and 1 <= k <= A002110(n), read by rows, where A002110 are the primorials and A143293 are their partial sums.",
+  "id": "A391931",
+  "mentions": [
+    "A002110",
+    "A143293",
+    "A240673",
+    "A289234",
+    "A391930",
+    "A391932"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

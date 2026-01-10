@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(500).",
   "id": "A040477",
-  "mentions": [],
+  "mentions": [
+    "A041954",
+    "A041955"
+  ],
   "tags": [
     "cofr",
     "easy",

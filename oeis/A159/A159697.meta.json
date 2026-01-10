@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=9, a(n) = 2*a(n-1) + 2^(n-1) for n > 0.",
+  "description": "a(0) = 9, a(n) = 2*a(n-1) + 2^(n-1) for n > 0.",
   "id": "A159697",
   "mentions": [
     "A000079",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

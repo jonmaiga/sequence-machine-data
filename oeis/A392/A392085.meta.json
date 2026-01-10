@@ -1,0 +1,23 @@
+{
+  "description": "The unitary totient of the smallest number whose square is divisible by n.",
+  "id": "A392085",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A019554",
+    "A047994",
+    "A183699",
+    "A390752"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

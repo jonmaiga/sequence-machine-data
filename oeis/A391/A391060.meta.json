@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g/(1 - x^2*g^2), where g = 1+x*g^3 is the g.f. of A001764.",
+  "id": "A391060",
+  "mentions": [
+    "A000305",
+    "A001764",
+    "A047099",
+    "A109957",
+    "A121545",
+    "A391058"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

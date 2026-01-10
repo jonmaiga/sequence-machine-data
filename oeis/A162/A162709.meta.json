@@ -2,7 +2,8 @@
   "description": "Palindromes that are the sum of two squares.",
   "id": "A162709",
   "mentions": [
-    "A000404"
+    "A000404",
+    "A002113"
   ],
   "tags": [
     "base",

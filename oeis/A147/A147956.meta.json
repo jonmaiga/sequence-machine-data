@@ -2,6 +2,7 @@
   "description": "All positive integers that are not multiples of any Fibonacci numbers >= 2.",
   "id": "A147956",
   "mentions": [
+    "A000045",
     "A092579"
   ],
   "tags": [

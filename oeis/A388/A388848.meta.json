@@ -1,0 +1,15 @@
+{
+  "description": "Number of distinct squares (of any orientation) whose vertices are points of the cross of side n.",
+  "id": "A388848",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

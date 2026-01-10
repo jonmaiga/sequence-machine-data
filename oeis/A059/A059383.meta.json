@@ -1,5 +1,5 @@
 {
-  "description": "Product J_4(i), i=1..n.",
+  "description": "a(n) = Product J_4(i), i=1..n.",
   "id": "A059383",
   "mentions": [
     "A001088",

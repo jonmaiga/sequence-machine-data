@@ -1,15 +1,16 @@
 {
-  "description": "The Bo Diddley beat. Periodic musical rhythm, embedded into a sequence of measured regular units of duration for both notes and rests. All terms except a(4 + 6*k) = 2 mark the lengths of notes. a(4 + 6*k) = 2 being a single rest of length 2 within each period of 6, where k >= 0.",
+  "description": "The Bo Diddley beat. Periodic musical rhythm, embedded into a sequence of measured regular units of duration for both notes and rests. All terms except a(3 + 6*k) = 2 mark the lengths of notes. a(3 + 6*k) = 2 being a single rest of length 2 within each period of 6, where k >= 0.",
   "id": "A366424",
   "mentions": [],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 96,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of polyominoes (A000105) with perimeter 2n.",
+  "description": "Number of free polyominoes (A000105) with perimeter 2n.",
   "id": "A057730",
   "mentions": [
     "A000105",
@@ -7,7 +7,9 @@
     "A057753",
     "A131487",
     "A266549",
-    "A342243"
+    "A342243",
+    "A366443",
+    "A391197"
   ],
   "tags": [
     "more",

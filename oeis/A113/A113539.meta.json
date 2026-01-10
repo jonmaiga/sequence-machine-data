@@ -1,13 +1,16 @@
 {
   "description": "a(n) is the minimal k such that 3^n +/- k are primes.",
   "id": "A113539",
-  "mentions": [],
+  "mentions": [
+    "A082467"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

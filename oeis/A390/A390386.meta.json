@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+6*k,k).",
+  "id": "A390386",
+  "mentions": [
+    "A002296",
+    "A186184",
+    "A390390"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

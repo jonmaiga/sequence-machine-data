@@ -1,0 +1,26 @@
+{
+  "description": "Powers k^m, m > 1, where k is an even Achilles number.",
+  "id": "A391376",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A005843",
+    "A052486",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A383394",
+    "A386762",
+    "A390952",
+    "A391375"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

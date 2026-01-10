@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k + 1 is not a power of an odd prime and 2*k + 1 is not a prime power.",
+  "id": "A392001",
+  "mentions": [
+    "A003418",
+    "A045979",
+    "A053176",
+    "A067656",
+    "A093880",
+    "A166602",
+    "A246655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

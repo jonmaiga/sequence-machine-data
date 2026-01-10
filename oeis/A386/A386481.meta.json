@@ -10,12 +10,13 @@
     "A386478"
   ],
   "tags": [
+    "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! can be expressed as the product of the factorials of prime numbers, repetitions allowed.",
+  "description": "Numbers k such that k! can be expressed as the product of the factorials of prime numbers, repetitions allowed.",
   "id": "A109104",
   "mentions": [
     "A001013",

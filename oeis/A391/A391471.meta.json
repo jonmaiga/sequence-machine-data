@@ -1,0 +1,15 @@
+{
+  "description": "Integers n such that floor((11/10)*n + 1/2) is a digit permutation of n.",
+  "id": "A391471",
+  "mentions": [],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

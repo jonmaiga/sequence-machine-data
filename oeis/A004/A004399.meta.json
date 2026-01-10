@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci(n+2) plus n-th prime.",
+  "description": "a(n) = Fibonacci(n+2) + prime(n).",
   "id": "A004399",
   "mentions": [],
   "tags": [

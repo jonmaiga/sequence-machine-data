@@ -1,13 +1,15 @@
 {
-  "description": "Number of nX8 binary arrays with all 1s connected, and all corners 1.",
+  "description": "Number of n X 8 binary arrays with all 1s connected, and all corners 1.",
   "id": "A163052",
-  "mentions": [],
+  "mentions": [
+    "A389687"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

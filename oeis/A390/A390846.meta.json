@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp( x^2/2 + x^3/6 + x^4/24 ).",
+  "id": "A390846",
+  "mentions": [
+    "A000296",
+    "A001680",
+    "A001681",
+    "A005044",
+    "A190452",
+    "A190729",
+    "A227937",
+    "A390845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

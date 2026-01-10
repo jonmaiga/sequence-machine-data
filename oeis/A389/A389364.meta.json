@@ -1,0 +1,23 @@
+{
+  "description": "Harshad numbers h (terms of A005349) such that A389235(h) + 2 = A055642(h) and A385105(h) is a 2 digit number with digit sum 10.",
+  "id": "A389364",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A055642",
+    "A114440",
+    "A235697",
+    "A385105",
+    "A389235",
+    "A389302"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

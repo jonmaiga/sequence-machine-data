@@ -1,5 +1,5 @@
 {
-  "description": "(5n+2)^11.",
+  "description": "a(n) = (5*n + 2)^11.",
   "id": "A016883",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "joeis"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Primes which remain prime after replacing 6's with 0's and 0's with 6's in their decimal representation.",
+  "id": "A386529",
+  "mentions": [
+    "A000040",
+    "A088785",
+    "A088786",
+    "A088787",
+    "A088788",
+    "A386528"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

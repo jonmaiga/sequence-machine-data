@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the expected number of consecutive random decimal digits whose running sum first exceeds 9.",
+  "id": "A392064",
+  "mentions": [
+    "A000012",
+    "A001113",
+    "A007953",
+    "A021085",
+    "A021733"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

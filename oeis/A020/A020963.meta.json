@@ -1,5 +1,5 @@
 {
-  "description": "Sum of Floor[ 2*(1+sqrt(2))^(n-k) ] for k from 1 to infinity.",
+  "description": "a(n) = Sum_{k>=1} floor( 2*(1+sqrt(2))^(n-k) ).",
   "id": "A020963",
   "mentions": [],
   "tags": [

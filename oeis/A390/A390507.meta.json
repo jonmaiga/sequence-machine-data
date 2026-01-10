@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of 1's in A390505(n).",
+  "id": "A390507",
+  "mentions": [
+    "A007953",
+    "A390505",
+    "A390506"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

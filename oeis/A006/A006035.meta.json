@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (19^n-1)/18 is prime.",
+  "description": "Numbers k such that (19^k - 1)/18 is prime.",
   "id": "A006035",
   "mentions": [
     "A028491"

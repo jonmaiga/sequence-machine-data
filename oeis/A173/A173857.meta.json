@@ -2,6 +2,7 @@
   "description": "Expansion of 3/2 in base phi.",
   "id": "A173857",
   "mentions": [
+    "A022003",
     "A079978"
   ],
   "tags": [

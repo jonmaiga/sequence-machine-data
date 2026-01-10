@@ -1,5 +1,5 @@
 {
-  "description": "Faulhaber’s triangle: triangle of denominators of coefficients of power-sum polynomials.",
+  "description": "Faulhaber's triangle: triangle of denominators of coefficients of power-sum polynomials.",
   "id": "A220963",
   "mentions": [
     "A162298",

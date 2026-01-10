@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A115873 that are not of the form 2^e - 1, in the order of appearance, including duplicates.",
+  "id": "A391731",
+  "mentions": [
+    "A000225",
+    "A115873",
+    "A391728",
+    "A391730"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,8 @@
   "description": "Sum of quadratic residues of (n-th prime == 3 mod 4).",
   "id": "A282035",
   "mentions": [
+    "A002143",
+    "A002145",
     "A076409",
     "A125615",
     "A171555",
@@ -10,6 +12,7 @@
     "A282038"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

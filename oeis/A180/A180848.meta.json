@@ -7,10 +7,11 @@
   ],
   "tags": [
     "cofr",
+    "less",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 97,
     "source": "oeis-entry"
   }

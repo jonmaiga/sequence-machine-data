@@ -24,12 +24,12 @@
     "A387577"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 49,
+    "source": "oeis-bfile"
   }
 }

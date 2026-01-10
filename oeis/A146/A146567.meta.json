@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*sigma_0(n)/(n+sigma_0(n)) = c, c an integer.",
+  "description": "Numbers k such that k*sigma_0(k)/(k+sigma_0(k)) = c, c an integer.",
   "id": "A146567",
   "mentions": [
     "A000005",

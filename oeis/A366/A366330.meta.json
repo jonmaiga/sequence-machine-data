@@ -2,6 +2,7 @@
   "description": "Minimal numbers (with respect to division) with no coprime divisor shift.",
   "id": "A366330",
   "mentions": [
+    "A003627",
     "A044135",
     "A044516",
     "A366219",

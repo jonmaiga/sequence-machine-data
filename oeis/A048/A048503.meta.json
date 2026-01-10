@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1 - 4*x + 6*x^2 - 2*x^3)/((1-x)^3*(1-2*x)^2).",
+  "description": "Expansion of g.f. (1 - 4*x + 6*x^2 - 2*x^3)/((1-x)^3*(1-2*x)^2).",
   "id": "A048503",
   "mentions": [
     "A048494"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

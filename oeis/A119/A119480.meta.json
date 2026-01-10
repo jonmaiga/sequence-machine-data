@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the Bernoulli number B_{4n} has denominator 30.",
+  "description": "Numbers k such that the Bernoulli number B_{4k} has denominator 30.",
   "id": "A119480",
   "mentions": [
     "A043297",

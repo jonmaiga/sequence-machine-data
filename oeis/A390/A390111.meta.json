@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the total number of vertices of degree 1 in Catalan word grid graphs with n parts.",
+  "id": "A390111",
+  "mentions": [
+    "A000108",
+    "A000302",
+    "A000984",
+    "A390115",
+    "A390116"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "joeis"
+  }
+}

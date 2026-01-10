@@ -1,5 +1,5 @@
 {
-  "description": "First nonzero digit in expansion of 1/n.",
+  "description": "First nonzero digit in the decimal expansion of 1/n.",
   "id": "A052038",
   "mentions": [
     "A000030",
@@ -19,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

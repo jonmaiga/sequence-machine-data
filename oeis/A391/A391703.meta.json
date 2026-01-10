@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that there exists a pair of numbers {j,k} with 0 < j < k < m, such that j*m+k and k*m+j have the same squarefree kernel.",
+  "id": "A391703",
+  "mentions": [
+    "A007947",
+    "A391704"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

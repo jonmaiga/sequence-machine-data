@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(725).",
   "id": "A040698",
-  "mentions": [],
+  "mentions": [
+    "A042396",
+    "A042397"
+  ],
   "tags": [
     "cofr",
     "easy",

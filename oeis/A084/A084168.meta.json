@@ -1,5 +1,5 @@
 {
-  "description": "Count of primitive roots p = 2 or 1 mod 4 of elements in A084167.",
+  "description": "Number of primitive roots p = 2 or 1 mod 4 of elements in A084167.",
   "id": "A084168",
   "mentions": [
     "A084167"

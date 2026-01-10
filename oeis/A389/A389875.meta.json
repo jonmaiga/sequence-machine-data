@@ -1,0 +1,21 @@
+{
+  "description": "Arrangement of numbers such that every digit rotation of the number n is included in descending order after those of n-1.",
+  "id": "A389875",
+  "mentions": [
+    "A055642",
+    "A389420",
+    "A389882"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

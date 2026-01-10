@@ -1,0 +1,17 @@
+{
+  "description": "Starting values k of Collatz orbits that achieve a new minimum of Product_{j == 4 mod 6 in \"3x+1\" orbit of k} (j-1)/j.",
+  "id": "A391017",
+  "mentions": [
+    "A006577",
+    "A391016",
+    "A391018"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

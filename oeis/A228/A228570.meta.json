@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, formed from antidiagonals of triangle A102541. T(n, k) = A034851(n-2*k, k), n>= 0 and 0 <= k <= floor(n/3).",
+  "description": "Triangle read by rows, formed from antidiagonals of triangle A102541. T(n, k) = A034851(n-2*k, k), n >= 0 and 0 <= k <= floor(n/3).",
   "id": "A228570",
   "mentions": [
     "A005691",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 70,
+    "size": 77,
     "source": "joeis"
   }
 }

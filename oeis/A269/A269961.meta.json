@@ -1,5 +1,5 @@
 {
-  "description": "Decimal representation of the n-th iteration of Conway’s Game of Life starting with two adjacent two-way infinite rows of ON cells.",
+  "description": "Decimal representation of the n-th iteration of Conway's Game of Life starting with two adjacent two-way infinite rows of ON cells.",
   "id": "A269961",
   "mentions": [
     "A266382"

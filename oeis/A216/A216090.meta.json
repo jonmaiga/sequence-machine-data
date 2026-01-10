@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that k^(n-1) == k (mod n) for every k = 1, 2, ..., n-1.",
+  "description": "Numbers m such that k^(m-1) == k (mod m) for every k = 1, 2, ..., m-1.",
   "id": "A216090",
   "mentions": [
     "A002322",

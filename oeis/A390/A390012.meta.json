@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the largest possible smallest nonsquare missed by a union of n squarefree arithmetic progressions.",
+  "id": "A390012",
+  "mentions": [
+    "A000037"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

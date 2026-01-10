@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the fixed point if function A008472 (= sum of prime factors with no repetition) is iterated when started at initial value n!.",
+  "description": "a(n) is the fixed point if function A008472 is iterated when started at initial value n!.",
   "id": "A082087",
   "mentions": [
     "A000142",
@@ -13,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 85,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(g^3 - 1), where g = 1+x*g^4 is the g.f. of A002293.",
+  "id": "A391549",
+  "mentions": [
+    "A002293",
+    "A380516",
+    "A391548",
+    "A391550",
+    "A391560"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

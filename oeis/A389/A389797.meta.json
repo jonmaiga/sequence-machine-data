@@ -1,0 +1,20 @@
+{
+  "description": "Centered 27-gonal numbers.",
+  "id": "A389797",
+  "mentions": [
+    "A069190",
+    "A195314",
+    "A389798",
+    "A389799"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

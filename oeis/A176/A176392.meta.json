@@ -1,18 +1,15 @@
 {
-  "description": "A symmetrical triangle:t(n,m)=2 - (1 + m)^m + (1 + n)^n - (1 - m + n)^(n - m).",
+  "description": "Triangle read by rows: T(n,k) = 2 - (1 + k)^k + (1 + n)^n - (1 - k + n)^(n - k).",
   "id": "A176392",
-  "mentions": [
-    "A000169"
-  ],
+  "mentions": [],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 42,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

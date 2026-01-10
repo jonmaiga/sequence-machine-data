@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form m*2^Omega(m), where m>1 is odd and Omega(m)=A001222(m), the number of prime factors of m.",
+  "description": "Numbers of the form m * 2^bigomega(m), where m>1 is odd and bigomega(m) = A001222(m), the number of prime factors of m.",
   "id": "A072978",
   "mentions": [
     "A000400",
@@ -12,7 +12,10 @@
     "A009975",
     "A011557",
     "A028260",
-    "A087436"
+    "A046337",
+    "A087436",
+    "A345452",
+    "A356170"
   ],
   "tags": [
     "formulas",

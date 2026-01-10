@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (12n+6)^3.",
+  "description": "a(n) = (12*n + 6)^3.",
   "id": "A017595",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "joeis"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

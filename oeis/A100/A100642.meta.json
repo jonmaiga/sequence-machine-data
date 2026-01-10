@@ -10,13 +10,14 @@
     "A100641"
   ],
   "tags": [
+    "formulas",
     "frac",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 56,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

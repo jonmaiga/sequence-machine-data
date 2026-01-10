@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,r) is maximal such that there exists a family F of subsets of {1,...,n} of size T(n,r) such that the intersection of no two sets in F has r elements.",
+  "id": "A390645",
+  "mentions": [
+    "A000295",
+    "A045621"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

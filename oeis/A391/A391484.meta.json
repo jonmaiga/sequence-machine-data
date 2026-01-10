@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of nonequivalent series-parallel networks with longest path of at most n edges and largest cut set of at most k edges.",
+  "id": "A391484",
+  "mentions": [
+    "A000027",
+    "A007803",
+    "A037294",
+    "A037295",
+    "A037296",
+    "A037297",
+    "A037298",
+    "A339153",
+    "A391485"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,16 @@
   "description": "Number of i such that d(i) >= d(i-1), where Sum_{i=0..m} d(i)*5^i is the base-5 representation of n.",
   "id": "A037828",
   "mentions": [
-    "A037812"
+    "A007091",
+    "A033265",
+    "A037812",
+    "A037826",
+    "A037827",
+    "A037829",
+    "A037830",
+    "A037831",
+    "A037832",
+    "A037833"
   ],
   "tags": [
     "base",
@@ -11,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

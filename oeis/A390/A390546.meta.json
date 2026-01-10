@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of heapable permutations of length n that contain the max element on position k (positions starting from 0).",
+  "id": "A390546",
+  "mentions": [
+    "A336282",
+    "A390273",
+    "A390377",
+    "A390450"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

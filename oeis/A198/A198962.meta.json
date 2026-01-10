@@ -1,5 +1,5 @@
 {
-  "description": "5*9^n-1.",
+  "description": "a(n) = 5*9^n-1.",
   "id": "A198962",
   "mentions": [
     "A138894"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

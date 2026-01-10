@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A000005(k) = A384237(k).",
+  "id": "A390097",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A294169",
+    "A384237"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Number of n X n upper triangular binary matrices over GF(2) B such that B^2 = 0.",
+  "description": "Erroneous version of A008964.",
   "id": "A063505",
   "mentions": [
+    "A008964",
     "A053722"
   ],
   "tags": [

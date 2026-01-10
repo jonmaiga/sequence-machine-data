@@ -1,0 +1,19 @@
+{
+  "description": "Perrin numbers (A001608) which are the difference of two Fibonacci numbers.",
+  "id": "A389622",
+  "mentions": [
+    "A001608",
+    "A389621",
+    "A389623"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

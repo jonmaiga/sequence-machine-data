@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n)*prime(n)#+1 is prime where prime(n) is the n-th prime.",
+  "description": "Numbers k such that prime(k)*prime(k)# + 1 is prime where prime(k) is the k-th prime.",
   "id": "A103539",
   "mentions": [
     "A000040",

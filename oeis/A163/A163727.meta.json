@@ -1,13 +1,15 @@
 {
-  "description": "Number of nX6 binary arrays with all 1s connected, a path of 1s from left column to right column, and no 1 having more than two 1s adjacent.",
+  "description": "Number of n X 6 binary arrays with all 1s connected, a path of 1s from left column to right column, and no 1 having more than two 1s adjacent.",
   "id": "A163727",
-  "mentions": [],
+  "mentions": [
+    "A391822"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

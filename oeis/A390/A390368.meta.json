@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: number of permutations of length n that require exactly k removals from the beginning to become heapable.",
+  "id": "A390368",
+  "mentions": [
+    "A336282",
+    "A389282",
+    "A389993",
+    "A390146"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

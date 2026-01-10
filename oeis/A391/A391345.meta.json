@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that are multiples of 5 and for which Stern polynomial B(k,x) is irreducible.",
+  "id": "A391345",
+  "mentions": [
+    "A008587",
+    "A125184",
+    "A186891",
+    "A260443",
+    "A391341"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

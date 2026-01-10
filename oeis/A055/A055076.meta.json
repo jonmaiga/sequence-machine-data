@@ -2,11 +2,13 @@
   "description": "Multiplicity of Max{gcd(d, n/d)} when d runs over divisors of n.",
   "id": "A055076",
   "mentions": [
+    "A000005",
     "A000035",
     "A000188",
     "A001620",
     "A005117",
     "A007913",
+    "A008836",
     "A028234",
     "A034444",
     "A046951",

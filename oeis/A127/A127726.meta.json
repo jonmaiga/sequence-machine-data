@@ -1,11 +1,12 @@
 {
-  "description": "Numbers that are 3-imperfect.",
+  "description": "3-imperfect numbers.",
   "id": "A127726",
   "mentions": [
     "A019434",
     "A127724",
     "A127725",
-    "A206369"
+    "A206369",
+    "A328860"
   ],
   "tags": [
     "nonn"

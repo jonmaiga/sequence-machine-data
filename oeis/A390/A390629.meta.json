@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k >= 1 starting a run of n numbers i = k..k + n - 1 for which i and its digit-reverse are not coprime, while k+n and its digit-reverse are coprime.",
+  "id": "A390629",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A069554"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

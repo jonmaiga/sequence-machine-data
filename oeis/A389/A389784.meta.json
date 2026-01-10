@@ -1,0 +1,13 @@
+{
+  "description": "a(n) is the maximum size of a subset A of {1,...,n} such that no element in A is the average of a subset of A with cardinality at least 2.",
+  "id": "A389784",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

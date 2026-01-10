@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is smallest natural number satisfying Pell equation a^2 - d(n)*b^2= +1 or = -1, with d(n)=A000037(n) (a nonsquare). Corresponding smallest b(n)=A077233(n).",
+  "description": "a(n) is smallest natural number a satisfying Pell equation a^2 - d(n)*b^2= +1 or = -1, with d(n)=A000037(n) (a nonsquare). Corresponding smallest b(n)=A077233(n).",
   "id": "A077232",
   "mentions": [
     "A000037",

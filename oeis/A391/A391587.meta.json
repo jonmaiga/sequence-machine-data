@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*n - A115873(n).",
+  "id": "A391587",
+  "mentions": [
+    "A000051",
+    "A006068",
+    "A048720",
+    "A115873"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

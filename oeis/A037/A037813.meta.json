@@ -1,11 +1,21 @@
 {
-  "description": "Number of i such that d(i) <= d(i-1), where Sum_{i=0..n} d(i)*6^i is the base-6 representation of n.",
+  "description": "Number of i such that d(i) <= d(i-1), where Sum_{i=0..m} d(i)*6^i is the base-6 representation of n.",
   "id": "A037813",
   "mentions": [
+    "A007092",
+    "A037809",
+    "A037810",
+    "A037811",
+    "A037812",
+    "A037814",
+    "A037815",
+    "A037816",
+    "A037817",
     "A037828"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite numbers that are squarefree or prime powers.",
+  "id": "A390760",
+  "mentions": [
+    "A024556",
+    "A071904",
+    "A244623",
+    "A360769",
+    "A388427"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

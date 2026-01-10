@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p not already listed such that m + A005117(A390138(n) + 1) is divisible by p^2 for certain m (as defined in the comments) with exactly n nonunitary prime factors.",
+  "id": "A390240",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A390138",
+    "A390241"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

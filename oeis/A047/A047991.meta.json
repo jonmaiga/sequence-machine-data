@@ -1,11 +1,13 @@
 {
-  "description": "Triangle formed from expansion of (x-1)(x+2)(x-3)...(x+-n).",
+  "description": "Triangle formed from expansion of (x-1)*(x+2)*(x-3)*...*(x+-n).",
   "id": "A047991",
   "mentions": [
-    "A047990"
+    "A047990",
+    "A140956"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "sign",
     "tabl"

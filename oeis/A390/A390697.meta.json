@@ -1,0 +1,21 @@
+{
+  "description": "Primes k for which the concatenation, in ascending order, of all prime digit permutations, yields a prime.",
+  "id": "A390697",
+  "mentions": [
+    "A000040",
+    "A003459",
+    "A039999",
+    "A046811",
+    "A072857",
+    "A262988"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

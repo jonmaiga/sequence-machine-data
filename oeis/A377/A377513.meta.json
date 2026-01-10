@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of iterations of x -> 2 x - 5 to reach a nonprime, starting with prime(n+4).",
+  "description": "a(n) = number of iterations of x -> 2 x - 5 to reach a nonprime, starting with prime(n+3).",
   "id": "A377513",
   "mentions": [
     "A377120",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 86,
-    "source": "oeis-entry"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

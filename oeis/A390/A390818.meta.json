@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as 3*((p-1)/2)^4 + (q-1)^2/2 + (r-1)^2/4 + s^2, where each of p,q,r is either 1 or an odd prime, and s is half of a practical number.",
+  "id": "A390818",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000583",
+    "A005097",
+    "A390793",
+    "A390795",
+    "A390799"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

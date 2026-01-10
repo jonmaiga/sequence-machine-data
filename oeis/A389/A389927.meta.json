@@ -1,0 +1,26 @@
+{
+  "description": "The total length of the sequence when starting from n and creating the smallest unused prime number by either removing or adding a single digit anywhere in the value of the previous number. If the sequence does not terminate, a(n) = -1.",
+  "id": "A389927",
+  "mentions": [
+    "A000040",
+    "A068166",
+    "A080603",
+    "A080608",
+    "A387852",
+    "A389824",
+    "A389825",
+    "A389925",
+    "A389926",
+    "A389929"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

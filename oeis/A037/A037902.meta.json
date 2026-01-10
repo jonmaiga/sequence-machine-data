@@ -1,14 +1,23 @@
 {
-  "description": "a(n)=(greatest base 8 digit of n)-(least base 8 digit of n).",
+  "description": "a(n) = (greatest base 8 digit of n) - (least base 8 digit of n).",
   "id": "A037902",
-  "mentions": [],
+  "mentions": [
+    "A007094",
+    "A037897",
+    "A037898",
+    "A037899",
+    "A037900",
+    "A037901",
+    "A037903"
+  ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 90,
-    "source": "joeis"
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

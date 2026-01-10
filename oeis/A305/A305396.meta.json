@@ -1,5 +1,5 @@
 {
-  "description": "Records in A171797.",
+  "description": "Records in A171797 starting from a(1).",
   "id": "A305396",
   "mentions": [
     "A004643",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

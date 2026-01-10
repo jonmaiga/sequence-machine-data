@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2*sqrt(3)*Pi^2/(27*zeta(3)).",
+  "id": "A392160",
+  "mentions": [
+    "A002117",
+    "A002194",
+    "A002388",
+    "A164102",
+    "A291050",
+    "A346933",
+    "A392159"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

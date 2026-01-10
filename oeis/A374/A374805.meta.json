@@ -8,12 +8,11 @@
     "A346071"
   ],
   "tags": [
-    "more",
-    "nonn"
+    "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Limit of A390254(n)/(4/3)^n.",
+  "id": "A390321",
+  "mentions": [
+    "A083286",
+    "A390254",
+    "A390315",
+    "A390316"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

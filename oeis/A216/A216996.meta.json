@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the digit sum of n*7 is a multiple of 7.",
+  "description": "Numbers k such that the digit sum of k*7 is a multiple of 7.",
   "id": "A216996",
   "mentions": [
     "A216994",

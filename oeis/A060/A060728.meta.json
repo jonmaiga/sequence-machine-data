@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Ramanujan's equation x^2 + 7 = 2^n has an integer solution.",
+  "description": "Numbers k such that Ramanujan's equation x^2 + 7 = 2^k has an integer solution.",
   "id": "A060728",
   "mentions": [
     "A000217",

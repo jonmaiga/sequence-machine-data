@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with the property that k is the next lexicographically earliest number that cannot be expressed as a linear sum of the squares of preceding terms of the sequence with coefficients of 0, +1 or -1, with a(1)=1.",
+  "id": "A390487",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A000404",
+    "A000408",
+    "A000414",
+    "A047700"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

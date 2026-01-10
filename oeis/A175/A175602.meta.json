@@ -1,14 +1,19 @@
 {
-  "description": "8*(10^n-3).",
+  "description": "a(n) = 8*(10^n - 3).",
   "id": "A175602",
-  "mentions": [],
+  "mentions": [
+    "A086946",
+    "A173833",
+    "A177108"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

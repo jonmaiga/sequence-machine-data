@@ -1,0 +1,21 @@
+{
+  "description": "Sum of decimal digits of RSA numbers.",
+  "id": "A391945",
+  "mentions": [
+    "A007953",
+    "A391940",
+    "A391944"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

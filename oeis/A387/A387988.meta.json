@@ -1,0 +1,15 @@
+{
+  "description": "Number of intersection types when n circular arcs pass through a single point, reduced for symmetry.",
+  "id": "A387988",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

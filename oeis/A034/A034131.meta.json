@@ -1,17 +1,18 @@
 {
-  "description": "Decimal part of cube root of a(n) starts with 5: first term of runs.",
+  "description": "a(n) = ceiling((n + 1/2)^3).",
   "id": "A034131",
   "mentions": [
-    "A034121"
+    "A034121",
+    "A219085"
   ],
   "tags": [
-    "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
-    "source": "joeis"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

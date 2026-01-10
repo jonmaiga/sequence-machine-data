@@ -1,0 +1,15 @@
+{
+  "description": "Number of edges in the directed graph for the Reversed Zeckendorf game with starting number n.",
+  "id": "A389617",
+  "mentions": [
+    "A003107"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

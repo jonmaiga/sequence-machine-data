@@ -1,0 +1,19 @@
+{
+  "description": "Number of polyiamonds with n cells that have the maximum degree (A389965(n)) in the polyiamond graph PG(n) defined in A389964.",
+  "id": "A389966",
+  "mentions": [
+    "A367438",
+    "A389963",
+    "A389964",
+    "A389965"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

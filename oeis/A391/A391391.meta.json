@@ -1,0 +1,19 @@
+{
+  "description": "Site percolation series for triangular lattice: coefficients of the power series expansion in powers of q=1-p of the probability that a given open site belongs to the infinite cluster, where p is the probability that a site is open.",
+  "id": "A391391",
+  "mentions": [
+    "A391389",
+    "A391390",
+    "A391393"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

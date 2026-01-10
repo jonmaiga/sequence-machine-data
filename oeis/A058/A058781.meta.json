@@ -2,9 +2,12 @@
   "description": "Numbers k such that k^2 * 2^k - 1 is prime.",
   "id": "A058781",
   "mentions": [
-    "A058780"
+    "A058780",
+    "A279904"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

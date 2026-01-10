@@ -2,6 +2,7 @@
   "description": "a(n) = 1 except for a(1) = 0.",
   "id": "A060576",
   "mentions": [
+    "A000325",
     "A003514",
     "A060516",
     "A060533",

@@ -2,16 +2,19 @@
   "description": "a(n) = Sum_{k=1..n} T(n,k), array T as in A049765.",
   "id": "A049766",
   "mentions": [
+    "A004125",
     "A049765",
     "A049767",
-    "A049768"
+    "A049768",
+    "A161680"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
-    "source": "joeis"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

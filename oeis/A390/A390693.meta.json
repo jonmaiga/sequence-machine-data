@@ -1,0 +1,21 @@
+{
+  "description": "The smallest multiple of n that is the sum of 2 squares (A001481).",
+  "id": "A390693",
+  "mentions": [
+    "A001481",
+    "A167181",
+    "A363340",
+    "A390694"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

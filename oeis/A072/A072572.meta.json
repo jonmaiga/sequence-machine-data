@@ -2,6 +2,7 @@
   "description": "Odd interprimes divisible by 3.",
   "id": "A072572",
   "mentions": [
+    "A016945",
     "A024675",
     "A072569",
     "A072573"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that eventually reach the cycle given in A119454 by starting with n and repeatedly reversing the digits and adding 16.",
+  "description": "Numbers k that eventually reach the cycle given in A119454 by starting with k and repeatedly reversing the digits and adding 16.",
   "id": "A119481",
   "mentions": [
     "A118533",

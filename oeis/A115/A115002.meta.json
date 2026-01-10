@@ -2,14 +2,16 @@
   "description": "a(n) = J_4(n)/240.",
   "id": "A115002",
   "mentions": [
+    "A059377",
     "A115000"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 6,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

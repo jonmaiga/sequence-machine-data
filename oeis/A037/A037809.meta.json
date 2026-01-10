@@ -3,18 +3,28 @@
   "id": "A037809",
   "mentions": [
     "A000120",
+    "A007088",
     "A033265",
+    "A037810",
+    "A037811",
+    "A037812",
+    "A037813",
+    "A037814",
+    "A037815",
+    "A037816",
+    "A037817",
     "A056973",
     "A079944"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

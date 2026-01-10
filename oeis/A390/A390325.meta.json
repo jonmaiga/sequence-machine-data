@@ -1,0 +1,22 @@
+{
+  "description": "Oblong numbers of the form 2^k*(2^k - 1) or 2^k*(2^k + 1).",
+  "id": "A390325",
+  "mentions": [
+    "A000079",
+    "A000302",
+    "A002378",
+    "A020522",
+    "A063376",
+    "A390326"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

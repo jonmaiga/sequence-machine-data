@@ -1,5 +1,5 @@
 {
-  "description": "First term of n-th difference sequence of (round(k*tau)), tau = golden ratio = (1+sqrt(5))/2, k >= 0.",
+  "description": "First term of n-th difference sequence of (round(k*phi)), phi = golden ratio = (1+sqrt(5))/2, k >= 0.",
   "id": "A325844",
   "mentions": [
     "A001622",

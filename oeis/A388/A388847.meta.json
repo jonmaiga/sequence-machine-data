@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*(1-x^2)*A(x)^3.",
+  "id": "A388847",
+  "mentions": [
+    "A001764",
+    "A200753",
+    "A388857"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

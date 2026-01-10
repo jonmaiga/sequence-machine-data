@@ -4,125 +4,13 @@
     {
       "d": "2022-03-21",
       "ix": "or(1, floor(cos(n)))",
-      "mt": 78,
+      "mt": 10000,
       "px": [
         "1",
         "n",
         "cos",
         "floor",
         "or"
-      ]
-    },
-    {
-      "d": "2022-02-09",
-      "ix": "ceil(acot(ceil(cos(n))))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "ceil",
-        "acot",
-        "ceil"
-      ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "round(sin(acot(cos(n))))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "acot",
-        "sin",
-        "round"
-      ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "round(atan(acot(cos(n))))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "acot",
-        "atan",
-        "round"
-      ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "round(tanh(acot(cos(n))))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "acot",
-        "tanh",
-        "round"
-      ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "round(acot(acot(cos(n))))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "acot",
-        "acot",
-        "round"
-      ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "cos(n)/abs(cos(n))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "n",
-        "cos",
-        "abs",
-        "/"
-      ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "floor(acot(floor(sin(cos(n)))))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "sin",
-        "floor",
-        "acot",
-        "floor"
-      ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "floor(acot(floor(atan(cos(n)))))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "atan",
-        "floor",
-        "acot",
-        "floor"
-      ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "floor(acot(floor(tanh(cos(n)))))",
-      "mt": 78,
-      "px": [
-        "n",
-        "cos",
-        "tanh",
-        "floor",
-        "acot",
-        "floor"
       ]
     }
   ]

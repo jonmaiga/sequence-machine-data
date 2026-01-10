@@ -1,5 +1,5 @@
 {
-  "description": "(Fibonacci(n)!!)!.",
+  "description": "a(n) = (Fibonacci(n)!!)!.",
   "id": "A167446",
   "mentions": [
     "A000045",

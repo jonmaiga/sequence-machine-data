@@ -1,10 +1,14 @@
 {
-  "description": "Powers of 13.",
+  "description": "Powers of 13: a(n) = 13^n.",
   "id": "A001022",
   "mentions": [
     "A000051",
+    "A000079",
+    "A000244",
     "A001021",
-    "A008776"
+    "A008776",
+    "A009970",
+    "A009983"
   ],
   "tags": [
     "easy",

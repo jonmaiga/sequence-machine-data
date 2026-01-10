@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that prime(k) * prime(k+1) * prime(k+2) * prime(k+3) - (prime(k) + prime(k+1) + prime(k+2) + prime(k+3)) is prime.",
+  "id": "A390917",
+  "mentions": [
+    "A390916",
+    "A390918"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

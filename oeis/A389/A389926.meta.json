@@ -1,0 +1,24 @@
+{
+  "description": "The total length of the base n sequence when starting from 2 and creating the smallest unused prime number, when read in base n, by either removing or adding a single digit, from 0 to n-1, anywhere in the base n value of the previous number. If the base n sequence does not terminate, a(n) = -1.",
+  "id": "A389926",
+  "mentions": [
+    "A000040",
+    "A068166",
+    "A080603",
+    "A080608",
+    "A387852",
+    "A389824",
+    "A389825",
+    "A389925"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

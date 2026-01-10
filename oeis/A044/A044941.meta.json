@@ -2,11 +2,16 @@
   "description": "Number of runs of even length in base-10 representation of n.",
   "id": "A044941",
   "mentions": [
+    "A043562",
+    "A044933",
+    "A044940",
+    "A044950",
     "A153435"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

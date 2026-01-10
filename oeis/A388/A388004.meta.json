@@ -1,0 +1,16 @@
+{
+  "description": "Number of n X n grids with 1 non-attacking king on each row.",
+  "id": "A388004",
+  "mentions": [
+    "A002464",
+    "A390419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

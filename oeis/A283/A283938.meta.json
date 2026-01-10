@@ -1,5 +1,5 @@
 {
-  "description": "Interspersion of the signature sequence of tau^2, where tau = (1 + sqrt(5))/2 = golden ratio.",
+  "description": "Interspersion of the signature sequence of phi^2, where phi = (1 + sqrt(5))/2 = golden ratio.",
   "id": "A283938",
   "mentions": [
     "A118276",

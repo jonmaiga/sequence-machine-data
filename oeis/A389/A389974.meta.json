@@ -1,0 +1,22 @@
+{
+  "description": "A generalization of Euclid-Mullin sequence A000945 applied to generate only primes of the form 4k+3: let Q be the product of all preceding terms, then a(n) is the smallest prime factor of the form 4k+3 of whichever of {Q+2, Q+4} has the form 4k+3.",
+  "id": "A389974",
+  "mentions": [
+    "A000945",
+    "A002145",
+    "A002715",
+    "A057205",
+    "A057207",
+    "A125045",
+    "A187811"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

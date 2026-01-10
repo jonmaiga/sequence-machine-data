@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of periodic functions on [n] that have order k, n>=1, 1<=k<=A000793(n).",
+  "id": "A392061",
+  "mentions": [
+    "A000248",
+    "A000793",
+    "A006153",
+    "A057731",
+    "A162682",
+    "A199673",
+    "A222029"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

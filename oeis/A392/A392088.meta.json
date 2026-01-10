@@ -1,0 +1,22 @@
+{
+  "description": "The unitary totient of the smallest cube divisible by n.",
+  "id": "A392088",
+  "mentions": [
+    "A013662",
+    "A013667",
+    "A047994",
+    "A053149",
+    "A390754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

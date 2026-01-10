@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = AN-run sequence of the n-th 01-word, where all 01-words are lexicographically ordered as in A076478; see Comments.",
+  "id": "A390505",
+  "mentions": [
+    "A055186",
+    "A076478",
+    "A390506",
+    "A390507",
+    "A390508"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

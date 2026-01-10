@@ -1,5 +1,5 @@
 {
-  "description": "First term of n-th difference sequence of (floor[k*r]), r = sqrt(2), k >= 0.",
+  "description": "First term of n-th difference sequence of (floor(k*r)), r = sqrt(2), k >= 0.",
   "id": "A325664",
   "mentions": [
     "A001951",

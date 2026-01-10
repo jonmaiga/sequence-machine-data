@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways to place k non-attacking kings in each row of an n X n board, 0 <= k <= floor((n+1)/4) + [n=1].",
+  "id": "A390419",
+  "mentions": [
+    "A000012",
+    "A387098",
+    "A388004",
+    "A389665",
+    "A390736",
+    "A390782",
+    "A390920",
+    "A390984",
+    "A390985"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

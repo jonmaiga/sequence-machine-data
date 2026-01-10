@@ -1,0 +1,33 @@
+{
+  "description": "Powers k^m, m > 1, such that k is in A303946 and are products of primorials.",
+  "id": "A390290",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A002110",
+    "A025487",
+    "A055932",
+    "A126706",
+    "A286708",
+    "A303946",
+    "A364710",
+    "A364930",
+    "A365308",
+    "A368682",
+    "A378002",
+    "A380452",
+    "A386223",
+    "A389260",
+    "A389312",
+    "A389397",
+    "A389864"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

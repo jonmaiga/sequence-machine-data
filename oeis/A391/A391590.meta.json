@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A115873(k) = A003817(k).",
+  "id": "A391590",
+  "mentions": [
+    "A003817",
+    "A006068",
+    "A048720",
+    "A115873",
+    "A391589",
+    "A391729"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

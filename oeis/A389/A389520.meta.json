@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the pentagonal pyramidal root of 2.",
+  "id": "A389520",
+  "mentions": [
+    "A002411",
+    "A388148",
+    "A389519",
+    "A389521"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

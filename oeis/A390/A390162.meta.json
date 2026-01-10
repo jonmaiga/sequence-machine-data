@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic semigroups with n elements satisfying the equation xyz = xz.",
+  "id": "A390162",
+  "mentions": [
+    "A027851",
+    "A318795",
+    "A362384",
+    "A389829",
+    "A390163"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

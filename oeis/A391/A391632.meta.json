@@ -1,0 +1,14 @@
+{
+  "description": "Number of mutual-visibility sets in the n-Andrásfai graph.",
+  "id": "A391632",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

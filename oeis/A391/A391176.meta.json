@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g^3/(1 - x*g)^4, where g = 1+x*g^3 is the g.f. of A001764.",
+  "id": "A391176",
+  "mentions": [
+    "A001764",
+    "A391174",
+    "A391175",
+    "A391178"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

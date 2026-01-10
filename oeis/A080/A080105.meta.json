@@ -1,7 +1,8 @@
 {
-  "description": "Round(113*phi^n).",
+  "description": "a(n) = round(113*phi^n).",
   "id": "A080105",
   "mentions": [
+    "A001622",
     "A080104"
   ],
   "tags": [

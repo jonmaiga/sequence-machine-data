@@ -1,0 +1,45 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n,k) is the number of primes p in the range n*(k-1) < p <= n*k.",
+  "id": "A391280",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A038800",
+    "A038822",
+    "A038823",
+    "A038824",
+    "A038825",
+    "A038826",
+    "A038827",
+    "A038828",
+    "A038829",
+    "A038830",
+    "A038831",
+    "A038832",
+    "A080132",
+    "A094892",
+    "A098592",
+    "A108954",
+    "A155462",
+    "A157865",
+    "A289493",
+    "A289494",
+    "A289495",
+    "A289496",
+    "A289497",
+    "A289498",
+    "A289499",
+    "A289500"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

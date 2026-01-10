@@ -1,0 +1,18 @@
+{
+  "description": "Number of positive integers k such that k's arithmetic mean of divisors is at most n.",
+  "id": "A391374",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A391368"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Least number k such that k mod (2, 3, 4, ... , n+1) = (d_1, d_2, ..., d_n), where d_1 , d_2, …, d_n are the digits of n, with MSD(n) = d_1 and LSD(n) = d_n. 0 if such a number does not exist.",
+  "description": "Least number k such that k mod (2, 3, 4, ..., n+1) = (d_1, d_2, ..., d_n), where d_1, d_2, ..., d_n are the digits of n, with MSD(n) = d_1 and LSD(n) = d_n. 0 if such a number does not exist.",
   "id": "A284814",
   "mentions": [
     "A284815"

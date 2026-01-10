@@ -1,0 +1,24 @@
+{
+  "description": "Odd semiprimes p*q, such that Stern polynomial B(p*q,x) is irreducible.",
+  "id": "A391337",
+  "mentions": [
+    "A046315",
+    "A125184",
+    "A186891",
+    "A186892",
+    "A260443",
+    "A391258",
+    "A391330",
+    "A391336",
+    "A391338",
+    "A391339"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that N = (7n)^3 is a twin rank (A002822: 6N +- 1 are twin primes).",
+  "description": "Numbers k such that N = (7*k)^3 is a twin rank (A002822: 6N +- 1 are twin primes).",
   "id": "A326233",
   "mentions": [
     "A002822",

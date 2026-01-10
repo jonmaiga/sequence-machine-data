@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A090086(n+1) > n+1.",
+  "description": "Numbers k such that A090086(k+1) > k+1.",
   "id": "A316504",
   "mentions": [
     "A000040",

@@ -1,18 +1,22 @@
 {
-  "description": "Index of 3^n within sequence of numbers of form 3^i * 10^j.",
+  "description": "Index of 3^n within the sequence of the numbers of the form 3^i * 10^j.",
   "id": "A025700",
   "mentions": [
     "A000244",
     "A011557",
+    "A025616",
     "A025685",
-    "A033638"
+    "A033638",
+    "A114490"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

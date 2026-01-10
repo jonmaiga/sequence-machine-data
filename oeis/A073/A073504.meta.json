@@ -2,6 +2,7 @@
   "description": "A possible basis for finite fractal sequences: let u(1) = 1, u(2) = n, u(k) = floor(u(k-1)/2) + floor(u(k-2)/2); then a(n) = lim_{k->infinity} u(k).",
   "id": "A073504",
   "mentions": [
+    "A027615",
     "A071992",
     "A073059"
   ],

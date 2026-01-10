@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of occurrences of n^2 in A390375.",
+  "id": "A390516",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A390375"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

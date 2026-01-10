@@ -1,0 +1,21 @@
+{
+  "description": "Composite non-semiprime solutions m to m'' = m'-1, where m' and m'' are the first and the second arithmetic derivatives of m.",
+  "id": "A387956",
+  "mentions": [
+    "A003415",
+    "A054377",
+    "A189710",
+    "A189803",
+    "A390533"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,23 +1,24 @@
 {
-  "description": "Numbers n such that abs(A045763(n) - A073757(n)) = 2, i.e., signed difference of size of related and unrelated sets to n equals either 2 or -2.",
+  "description": "Numbers m such that abs(A045763(m) - A073757(m)) = 2, i.e., signed difference of size of related and unrelated sets to n equals either 2 or -2.",
   "id": "A083251",
   "mentions": [
     "A000005",
     "A000010",
     "A045763",
     "A073757",
-    "A076274",
     "A083243",
     "A083249",
-    "A083250"
+    "A083250",
+    "A083252"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

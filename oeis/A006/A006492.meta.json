@@ -2,9 +2,11 @@
   "description": "Generalized Lucas numbers.",
   "id": "A006492",
   "mentions": [
+    "A000032",
     "A000051"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

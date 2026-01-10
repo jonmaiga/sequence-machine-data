@@ -1,0 +1,17 @@
+{
+  "description": "Smallest order m > 0 for which there are n nonisomorphic nonsolvable finite groups of order m, or 0 if no such order exists.",
+  "id": "A390324",
+  "mentions": [
+    "A046057"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

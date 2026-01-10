@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest integer k such that ((2^n + 1)^k - 1)/(2^n) is prime, or -1 if no such k exists.",
+  "id": "A391028",
+  "mentions": [
+    "A000043",
+    "A000051",
+    "A000079",
+    "A002452",
+    "A004061",
+    "A006034",
+    "A028491",
+    "A209120",
+    "A246005"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the octagonal number O(n) is equal to the sum of the pentagonal numbers P(m), P(m+1), P(m+2) and P(m+3) for some m.",
+  "description": "Numbers k such that the octagonal number O(k) is equal to the sum of the pentagonal numbers P(m), P(m+1), P(m+2) and P(m+3) for some m.",
   "id": "A253168",
   "mentions": [
     "A000326",

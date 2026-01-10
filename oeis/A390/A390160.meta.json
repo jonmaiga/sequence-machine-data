@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of ways to place k nonattacking knights on an n X k board.",
+  "id": "A390160",
+  "mentions": [
+    "A000027",
+    "A172212",
+    "A172213",
+    "A172214",
+    "A172215",
+    "A172217",
+    "A174698",
+    "A201540",
+    "A236257",
+    "A244081",
+    "A390159"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

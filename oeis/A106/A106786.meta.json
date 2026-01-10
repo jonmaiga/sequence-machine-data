@@ -1,5 +1,5 @@
 {
-  "description": "Primes with digit sum = 59.",
+  "description": "Primes whose sum of digits is 59.",
   "id": "A106786",
   "mentions": [
     "A244918"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 30,
     "source": "joeis"
   }
 }

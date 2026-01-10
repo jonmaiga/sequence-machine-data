@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 15/8 + Pi/4 * coth(Pi) - zeta(2) - zeta(6).",
+  "id": "A389828",
+  "mentions": [
+    "A003881",
+    "A013661",
+    "A013664",
+    "A175316",
+    "A338815"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

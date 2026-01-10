@@ -2,9 +2,12 @@
   "description": "Row sums of inverse of Riordan array (1/(1+x),x/(1+x)^4).",
   "id": "A107026",
   "mentions": [
+    "A000984",
+    "A002293",
     "A047098",
     "A107027",
-    "A107030"
+    "A107030",
+    "A304979"
   ],
   "tags": [
     "easy",

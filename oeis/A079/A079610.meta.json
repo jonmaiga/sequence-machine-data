@@ -1,7 +1,12 @@
 {
   "description": "a(n) = (5*n+1)*(5*n+3)*(5*n+5).",
   "id": "A079610",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A016861",
+    "A100164",
+    "A180577"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 33,
     "source": "joeis"
   }
 }

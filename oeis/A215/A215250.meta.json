@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of values k >= 0 such that A215244(k) = n.",
+  "description": "a(n) is the number of values k >= 0 such that A215244(k) = n.",
   "id": "A215250",
   "mentions": [
     "A215244",

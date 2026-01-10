@@ -1,5 +1,5 @@
 {
-  "description": "A summarize Fibonacci sequence: summarize the previous two terms!.",
+  "description": "A summarize Fibonacci sequence starting with a(0)=4 and a(1)=1: summarize the previous two terms!.",
   "id": "A036115",
   "mentions": [
     "A036059"

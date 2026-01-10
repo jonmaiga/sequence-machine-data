@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n)^5 mod prime(n-1).",
+  "description": "a(n) = prime(n)^5 mod prime(n-1).",
   "id": "A138674",
   "mentions": [
     "A001223",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 49,
+    "size": 65,
     "source": "joeis"
   }
 }

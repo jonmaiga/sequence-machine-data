@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n+1,k+1)*binomial(2*n-k+1,k)/(n+1), 0<=k<=n.",
+  "id": "A391045",
+  "mentions": [
+    "A001263",
+    "A106228",
+    "A391046",
+    "A391047",
+    "A391048"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

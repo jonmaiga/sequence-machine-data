@@ -1,7 +1,9 @@
 {
   "description": "Positive integers having no fewer base-6 runs of even length than odd.",
   "id": "A044847",
-  "mentions": [],
+  "mentions": [
+    "A037985"
+  ],
   "tags": [
     "base",
     "nonn"

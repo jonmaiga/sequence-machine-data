@@ -2,6 +2,7 @@
   "description": "Consider the triangle of odd numbers where the n-th row has the next n odd numbers. The sequence is the number of primes in the n-th row.",
   "id": "A108309",
   "mentions": [
+    "A002378",
     "A010051",
     "A014085",
     "A088485",

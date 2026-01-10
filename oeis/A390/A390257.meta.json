@@ -1,0 +1,16 @@
+{
+  "description": "Minimum size of maximum regular induced subgraph of a graph on n vertices.",
+  "id": "A390257",
+  "mentions": [
+    "A390256"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

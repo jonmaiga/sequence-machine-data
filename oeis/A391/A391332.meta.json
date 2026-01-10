@@ -1,0 +1,20 @@
+{
+  "description": "Odd semiprimes k = p*q such that k = A325820(p,q), with p, q primes, where A325820 is the carryless base-3 multiplication.",
+  "id": "A391332",
+  "mentions": [
+    "A001748",
+    "A325820",
+    "A365473",
+    "A391331",
+    "A391333"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

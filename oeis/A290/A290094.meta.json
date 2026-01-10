@@ -1,20 +1,35 @@
 {
-  "description": "Restricted growth sequence transform of A290093.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A278222(A289813(i)) = A278222(A289813(j)) and A278222(A289814(i)) = A278222(A289814(j)) for all i, j >= 0.",
   "id": "A290094",
   "mentions": [
+    "A005940",
     "A006047",
+    "A038574",
+    "A046523",
     "A053735",
     "A062756",
     "A081603",
     "A117942",
     "A206424",
     "A227428",
+    "A278222",
+    "A286622",
+    "A289813",
+    "A289814",
     "A290079",
     "A290091",
     "A290092",
-    "A290093"
+    "A290093",
+    "A305303",
+    "A305433",
+    "A331303",
+    "A340383",
+    "A365720",
+    "A387188"
   ],
   "tags": [
+    "base",
+    "look",
     "nonn"
   ],
   "terms": {

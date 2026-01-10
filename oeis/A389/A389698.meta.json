@@ -1,0 +1,20 @@
+{
+  "description": "Multiplicative sequence a(n) with a(p^e) = 4 * e^2 + 2 for prime p and e > 0.",
+  "id": "A389698",
+  "mentions": [
+    "A008836",
+    "A034444",
+    "A322328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

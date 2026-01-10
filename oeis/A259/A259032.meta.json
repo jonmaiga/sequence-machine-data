@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that digital root of n is 2*(digital root of n-th prime).",
+  "description": "Numbers k such that digital root of k is 2*(digital root of k-th prime).",
   "id": "A259032",
   "mentions": [
     "A010888",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)= 0; for n > 1, a(n) = a(n-1) - P(n) if that number is zero or positive, otherwise a(n)= a(n-1)+ P(n), where P(n) is the largest prime factor of n (A006530).",
+  "description": "a(1) = 0; for n > 1, a(n) = a(n-1) - P(n) if that number is zero or positive, otherwise a(n) = a(n-1) + P(n), where P(n) is the largest prime factor of n (A006530).",
   "id": "A185112",
   "mentions": [
     "A006530"

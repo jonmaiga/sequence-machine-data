@@ -1,0 +1,20 @@
+{
+  "description": "Decreasing partition array based on the sequence (sin(n)); see Comments.",
+  "id": "A385573",
+  "mentions": [
+    "A000027",
+    "A046964",
+    "A063771",
+    "A388853",
+    "A388856"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

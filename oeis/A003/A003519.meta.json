@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 10*C(2n+1, n-4)/(n+6).",
+  "description": "a(n) = 10*binomial(2*n + 1, n - 4)/(n + 6).",
   "id": "A003519",
   "mentions": [
     "A000108",

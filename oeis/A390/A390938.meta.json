@@ -1,0 +1,21 @@
+{
+  "description": "Number of new keys inserted at iteration n in a map initialized with T[1] := 1, then iterate: for each (key, value) already in T, T[value] := T[value]+key if T[value] already exists, else T[value] := key.",
+  "id": "A390938",
+  "mentions": [
+    "A390937",
+    "A390939",
+    "A390940",
+    "A390941",
+    "A390943"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

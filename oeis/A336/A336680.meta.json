@@ -2,13 +2,17 @@
   "description": "Exponential admirable numbers: numbers k such that there is a proper exponential divisor d of k such that esigma(k) - 2*d = 2*k, where esigma is the sum of exponential divisors function (A051377).",
   "id": "A336680",
   "mentions": [
+    "A001694",
+    "A005117",
     "A051377",
     "A111592",
     "A129575",
     "A322791",
     "A328328",
     "A334972",
-    "A334974"
+    "A334974",
+    "A336681",
+    "A391283"
   ],
   "tags": [
     "nonn"

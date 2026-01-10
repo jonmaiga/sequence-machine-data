@@ -1,0 +1,29 @@
+{
+  "description": "The number of divisors of n that are of the form x^2 + 2*y^2 (A002479).",
+  "id": "A391184",
+  "mentions": [
+    "A000005",
+    "A002479",
+    "A003628",
+    "A005117",
+    "A046951",
+    "A371014",
+    "A375325",
+    "A391182",
+    "A391183",
+    "A391185",
+    "A391186",
+    "A391187"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

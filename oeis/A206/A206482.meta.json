@@ -1,5 +1,5 @@
 {
-  "description": "Primes p(k) such that p(k) <= 2^(p(k+1)-p(k)) < p(k+1).",
+  "description": "Primes prime(k) such that prime(k) <= 2^(prime(k+1)-prime(k)) < prime(k+1).",
   "id": "A206482",
   "mentions": [
     "A000040",

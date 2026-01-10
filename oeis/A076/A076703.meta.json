@@ -2,9 +2,10 @@
   "description": "Palindromic prime powers of prime numbers.",
   "id": "A076703",
   "mentions": [
+    "A002113",
+    "A002780",
     "A053810",
-    "A072037",
-    "A075308"
+    "A072037"
   ],
   "tags": [
     "base",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

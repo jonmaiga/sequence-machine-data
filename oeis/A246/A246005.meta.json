@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that ((2n+1)^k-1)/2n is prime, or 0 if no such k exists.",
+  "description": "Least k such that ((2n+1)^k-1)/(2*n) is prime, or 0 if no such k exists.",
   "id": "A246005",
   "mentions": [
     "A084740",

@@ -2,11 +2,14 @@
   "description": "a(n) = (4n-2)*a(n-1)+a(n-2) with a(0)=1 and a(1)=2.",
   "id": "A079165",
   "mentions": [
+    "A001497",
     "A001517",
     "A002119",
-    "A079166"
+    "A079166",
+    "A086403"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

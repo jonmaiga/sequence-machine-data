@@ -1,5 +1,5 @@
 {
-  "description": "5*4^n-1.",
+  "description": "a(n) = 5*4^n - 1.",
   "id": "A156760",
   "mentions": [
     "A000302",
@@ -10,7 +10,8 @@
     "A083420",
     "A132207",
     "A140529",
-    "A198693"
+    "A198693",
+    "A199115"
   ],
   "tags": [
     "easy",
@@ -19,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

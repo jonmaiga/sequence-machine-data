@@ -1,12 +1,14 @@
 {
-  "description": "Composite numbers n such that n'' = n'-1 where n' and n'' are the first and the second arithmetic derivative of n.",
+  "description": "Composite numbers m such that m'' = m'-1, where m' and m'' are the first and the second arithmetic derivatives of m.",
   "id": "A189803",
   "mentions": [
+    "A002375",
     "A002808",
     "A003415",
     "A054377",
     "A068346",
-    "A189710"
+    "A189710",
+    "A387956"
   ],
   "tags": [
     "nonn"

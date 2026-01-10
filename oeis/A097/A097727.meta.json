@@ -1,7 +1,8 @@
 {
-  "description": "Pell equation solutions (5*b(n))^2 - 26*a(n)^2 = -1 with b(n)=A097726(n), n >= 0.",
+  "description": "Pell equation solutions (5*b(n))^2 - 26*a(n)^2 = -1 with b(n) = A097726(n), n >= 0.",
   "id": "A097727",
   "mentions": [
+    "A010481",
     "A049310",
     "A053120",
     "A097725",

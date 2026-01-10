@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that the number of integers between (1/4)*prime(k) and (1/4)*prime(k+1) is n.",
+  "id": "A390785",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A038664",
+    "A213903",
+    "A390786",
+    "A390787",
+    "A390788"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

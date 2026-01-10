@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be written in exactly seven ways as s_1^x_1 + ... + s_t^x_t, with 1 < s_1 < ... < s_t and {s_1,..., s_t} = {x_1,..., x_t} for some t > 0.",
+  "id": "A387681",
+  "mentions": [
+    "A385969",
+    "A386966",
+    "A386967",
+    "A386968",
+    "A387099"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

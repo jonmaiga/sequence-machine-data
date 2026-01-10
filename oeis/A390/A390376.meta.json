@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(2)/2 - 1 + Sum_{p prime} log(p) / (p - 1)^2.",
+  "id": "A390376",
+  "mentions": [
+    "A002162",
+    "A345308",
+    "A385647"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

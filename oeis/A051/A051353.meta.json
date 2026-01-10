@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) + n^2 if n prime else a(n-1) - n.",
+  "description": "a(n) = a(n-1) + n^2 if n prime else a(n-1) - n, starting with a(0) = 0.",
   "id": "A051353",
   "mentions": [
     "A010051"
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
-    "source": "joeis"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "33*2^(n+1) + 7.",
+  "description": "a(n) = 33*2^(n+1) + 7.",
   "id": "A196655",
   "mentions": [
     "A196656"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

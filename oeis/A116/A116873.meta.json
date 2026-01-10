@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Catalan numbers C(2,3;n)=C(3,2;n).",
+  "description": "Generalized Catalan numbers C(2,3;n) = C(3,2;n).",
   "id": "A116873",
   "mentions": [
     "A000108"

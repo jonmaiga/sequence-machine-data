@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(x^n) where x^x = e.",
+  "id": "A389675",
+  "mentions": [
+    "A001113",
+    "A019474",
+    "A030178",
+    "A030797",
+    "A238274",
+    "A299614",
+    "A299617"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

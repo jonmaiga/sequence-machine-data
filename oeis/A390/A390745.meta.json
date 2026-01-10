@@ -1,0 +1,40 @@
+{
+  "description": "Numbers k such that there exists a unique integer composition whose first sums are the k-th composition in standard order.",
+  "id": "A390745",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001511",
+    "A008965",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A066099",
+    "A070211",
+    "A070939",
+    "A342527",
+    "A357135",
+    "A357213",
+    "A390307",
+    "A390362",
+    "A390432",
+    "A390448",
+    "A390449",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390674",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

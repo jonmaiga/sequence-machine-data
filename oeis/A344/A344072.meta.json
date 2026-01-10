@@ -1,5 +1,5 @@
 {
-  "description": "Smallest even k such that h(-k) = 2n, where h(D) is the class number of the quadratic field with discriminant D; or 0 if no such k exists.",
+  "description": "Smallest even fundamental discriminant k such that h(-k) = 2n, where h(D) is the class number of the quadratic field with discriminant D; or 0 if no such k exists.",
   "id": "A344072",
   "mentions": [
     "A060649",

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1 + x)*(1 + x^2/2)*cosh(x).",
+  "id": "A388428",
+  "mentions": [
+    "A130883",
+    "A189890",
+    "A317297"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

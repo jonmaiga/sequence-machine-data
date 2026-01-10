@@ -2,6 +2,9 @@
   "description": "Number of pairs of divisors of n, (d1,d2), such that d1 <= d2 and gcd(d1,d2) > 1.",
   "id": "A333976",
   "mentions": [
+    "A000005",
+    "A018892",
+    "A184389",
     "A275387",
     "A337298"
   ],
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

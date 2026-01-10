@@ -2,11 +2,14 @@
   "description": "a(n) is the number of digits in the decimal representation of the smallest power of 11 that contains n consecutive identical digits.",
   "id": "A217190",
   "mentions": [
+    "A055642",
     "A215731",
-    "A215737"
+    "A215737",
+    "A348553"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

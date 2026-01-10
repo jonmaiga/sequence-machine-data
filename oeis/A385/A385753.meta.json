@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of the greedy base sqrt(Pi) representation of n.",
+  "id": "A385753",
+  "mentions": [
+    "A002161",
+    "A105424",
+    "A344939"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that number of runs in the base 4 representation of n is congruent to 3 mod 4.",
+  "description": "Numbers k such that number of runs in the base 4 representation of k is congruent to 3 mod 4.",
   "id": "A043831",
-  "mentions": [],
+  "mentions": [
+    "A043556",
+    "A043830"
+  ],
   "tags": [
     "base",
     "nonn"

@@ -1,0 +1,20 @@
+{
+  "description": "Period of all n-th order linear recurrence integers sequence with constant integer coefficients mod 9.",
+  "id": "A389175",
+  "mentions": [
+    "A010878",
+    "A010888",
+    "A210456",
+    "A351889"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

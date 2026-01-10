@@ -1,7 +1,9 @@
 {
   "description": "Numbers n such that number of runs in the base 2 representation of n is congruent to 2 mod 10.",
   "id": "A043765",
-  "mentions": [],
+  "mentions": [
+    "A043569"
+  ],
   "tags": [
     "base",
     "nonn"

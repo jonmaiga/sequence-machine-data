@@ -1,0 +1,21 @@
+{
+  "description": "Tetrahedron T(m,n,k) in which the slice k is a finite triangle read by rows T(m, n). T(m,n,k) is the smallest v such that for every red-green-blue edge-coloring of the graph K_{v} there exists either a red m-cycle, a green n-cycle or a blue k-cycle; Ramsey number r(C_m, C_n, C_k).",
+  "id": "A389334",
+  "mentions": [
+    "A389310",
+    "A389313",
+    "A389335"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

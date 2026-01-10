@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the smallest prime divisor of n^2+1 is 29.",
+  "description": "Numbers k such that the smallest prime divisor of k^2+1 is 29.",
   "id": "A248529",
   "mentions": [
     "A002313",

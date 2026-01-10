@@ -2,6 +2,8 @@
   "description": "Fibonacci sequence beginning 0, 18.",
   "id": "A022352",
   "mentions": [
+    "A000032",
+    "A000045",
     "A258160",
     "A280154"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

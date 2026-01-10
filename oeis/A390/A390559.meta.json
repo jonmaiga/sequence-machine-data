@@ -1,0 +1,19 @@
+{
+  "description": "Lower (1/2)-midsequence of (2^n) and F(n), where F = A000045 (Fibonacci numbers); see Comments.",
+  "id": "A390559",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A390560"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

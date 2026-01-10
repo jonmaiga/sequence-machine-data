@@ -1,0 +1,19 @@
+{
+  "description": "Primitive coreful-infinitary abundant numbers: powerful numbers k for which A363331(k) > 2*k.",
+  "id": "A391505",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A363331",
+    "A391504"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

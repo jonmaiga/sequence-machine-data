@@ -1,0 +1,27 @@
+{
+  "description": "The sum of the divisors of n that are sums of 2 squares (A001481).",
+  "id": "A390689",
+  "mentions": [
+    "A000203",
+    "A001481",
+    "A004614",
+    "A035316",
+    "A072437",
+    "A167181",
+    "A229062",
+    "A371014",
+    "A371015",
+    "A390690"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

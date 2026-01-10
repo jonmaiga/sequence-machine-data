@@ -1,0 +1,26 @@
+{
+  "description": "Exponentially 5-rough numbers: numbers whose prime factorization exponents are all coprime to 6.",
+  "id": "A390440",
+  "mentions": [
+    "A005117",
+    "A007310",
+    "A013661",
+    "A013664",
+    "A050997",
+    "A092759",
+    "A178740",
+    "A179664",
+    "A268335",
+    "A390437"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

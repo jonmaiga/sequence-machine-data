@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(2*k)-1)/(k+1).",
+  "id": "A389666",
+  "mentions": [
+    "A061444",
+    "A321943",
+    "A379425",
+    "A389667",
+    "A389668",
+    "A389669",
+    "A389670"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

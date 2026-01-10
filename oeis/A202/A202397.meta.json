@@ -1,7 +1,8 @@
 {
-  "description": "Length of period of sequence starting with a(1)=prime(n), a(2)=prime(n+1) and a(n>2)=2(gpd(a(n-1))+gpd(a(n-2)))+1, where gpd(m) is the greatest prime divisor of m.",
+  "description": "Length of period of sequence starting with a(1)=prime(n), a(2)=prime(n+1) and a(n>2) = 2(gpf(a(n-1))+gpf(a(n-2)))+1, where gpf(m) is the greatest prime factor of m.",
   "id": "A202397",
   "mentions": [
+    "A006530",
     "A202211"
   ],
   "tags": [

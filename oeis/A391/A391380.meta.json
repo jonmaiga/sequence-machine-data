@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g*(1 + x*g), where g = 1+x*g^3 is the g.f. of A001764.",
+  "id": "A391380",
+  "mentions": [
+    "A001764",
+    "A101409",
+    "A167422",
+    "A390519",
+    "A391381",
+    "A391382"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

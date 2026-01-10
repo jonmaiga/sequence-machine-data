@@ -2,9 +2,11 @@
   "description": "Sign of A092673(n).",
   "id": "A092152",
   "mentions": [
+    "A008683",
     "A092673"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"

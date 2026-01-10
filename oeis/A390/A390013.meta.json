@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x * (1-x^2) * A(x) ).",
+  "id": "A390013",
+  "mentions": [
+    "A376577",
+    "A389104",
+    "A390014"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

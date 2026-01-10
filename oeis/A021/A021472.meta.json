@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/468.",
   "id": "A021472",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
     "easy",

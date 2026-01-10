@@ -1,15 +1,20 @@
 {
-  "description": "Index of 10^n within sequence of numbers of form 7^i*10^j.",
+  "description": "Index of 10^n within the sequence of the numbers of the form 7^i*10^j.",
   "id": "A025745",
   "mentions": [
-    "A025671"
+    "A011557",
+    "A025632",
+    "A025671",
+    "A154158"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

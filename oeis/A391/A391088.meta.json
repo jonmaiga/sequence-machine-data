@@ -1,0 +1,29 @@
+{
+  "description": "Exponential unitary Zumkeller numbers: numbers whose exponential unitary divisors can be partitioned into two disjoint subsets of equal sum.",
+  "id": "A391088",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A054979",
+    "A055231",
+    "A057521",
+    "A083207",
+    "A127657",
+    "A318100",
+    "A322857",
+    "A322858",
+    "A335218",
+    "A361255",
+    "A383693",
+    "A391089"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

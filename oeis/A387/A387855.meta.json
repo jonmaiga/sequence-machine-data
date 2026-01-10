@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of filled Cayley table cells for unique identification of a group of order n.",
+  "id": "A387855",
+  "mentions": [
+    "A387854"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "In the prime factorization of n, replace each prime with the number of nonzero digits in its balanced ternary representation.",
+  "id": "A387942",
+  "mentions": [
+    "A005812",
+    "A072084",
+    "A106843"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

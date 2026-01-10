@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p=n^2+2 and p+2 are primes.",
+  "description": "Numbers k such that p=k^2+2 and p+2 are primes.",
   "id": "A086381",
   "mentions": [
     "A007591",

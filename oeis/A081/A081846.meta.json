@@ -1,10 +1,11 @@
 {
-  "description": "Maximal element in the continued fraction for 1/n*sum(k>=0,1/2^(2^k)).",
+  "description": "Maximal element in the continued fraction for (1/n)*Sum_{k>=0} 1/2^(2^k).",
   "id": "A081846",
   "mentions": [
     "A007400",
     "A007404",
     "A078816",
+    "A081778",
     "A384939"
   ],
   "tags": [

@@ -1,18 +1,23 @@
 {
-  "description": "a(n) is the numerator of (-1/6) * Integral_{x=0..1} x^n * log^3(1-x).",
+  "description": "a(n) is the numerator of (-1/6) * Integral_{x=0..1} x^n * log^3(1-x) dx.",
   "id": "A027462",
   "mentions": [
+    "A001008",
+    "A019538",
     "A027448",
     "A027459",
+    "A072913",
     "A329122"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 20,
     "source": "joeis"
   }
 }

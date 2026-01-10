@@ -2,8 +2,10 @@
   "description": "The non-powers of 10.",
   "id": "A057717",
   "mentions": [
+    "A007953",
     "A011557",
-    "A057716"
+    "A057716",
+    "A376919"
   ],
   "tags": [
     "formulas",

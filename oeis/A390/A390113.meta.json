@@ -1,0 +1,19 @@
+{
+  "description": "Numbers i >= 1 such that 1/t_i + 1/t_j = 1/t_k, i > j > k, where t_r = r*(r+1)/2 is the r-th triangular number (A000217).",
+  "id": "A390113",
+  "mentions": [
+    "A000217",
+    "A001652",
+    "A001653",
+    "A182190"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

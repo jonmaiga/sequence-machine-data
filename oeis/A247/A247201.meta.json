@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose reversal divides n+1.",
+  "description": "Numbers m whose reversal divides m+1.",
   "id": "A247201",
   "mentions": [
     "A160946"

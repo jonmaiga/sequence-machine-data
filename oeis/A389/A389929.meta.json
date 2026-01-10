@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime number obtained by removing or adding a single digit anywhere in n, or 0 if no such prime exists.",
+  "id": "A389929",
+  "mentions": [
+    "A014263",
+    "A032352",
+    "A062584",
+    "A211396",
+    "A389720",
+    "A389824",
+    "A390019"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

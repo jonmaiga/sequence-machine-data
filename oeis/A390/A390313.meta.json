@@ -1,0 +1,42 @@
+{
+  "description": "Irregular triangle where row n lists the counts of types k for which the number of partitions of n into an even number of distinct parts equals the number of partitions of n into an odd number of distinct parts, assuming k types of each part. Each row starts with zero.",
+  "id": "A390313",
+  "mentions": [
+    "A000120",
+    "A000203",
+    "A000594",
+    "A000727",
+    "A000731",
+    "A000735",
+    "A000739",
+    "A002107",
+    "A010815",
+    "A010840",
+    "A014132",
+    "A020757",
+    "A066099",
+    "A078521",
+    "A090864",
+    "A213250",
+    "A286354",
+    "A302056",
+    "A302057",
+    "A319933",
+    "A322043",
+    "A322430",
+    "A322431",
+    "A322432",
+    "A322433",
+    "A389567"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

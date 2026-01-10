@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: powers of 2 in the factorization of A391261; 0 if A391261(n,k) = 0.",
+  "id": "A391386",
+  "mentions": [
+    "A055034",
+    "A389480",
+    "A391261",
+    "A391387"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

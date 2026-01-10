@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = limiting prime of the recurrence x(k) = 1 + (phi(x(k-1)) + phi(x(k-2))) / 2 started at x(0) = x(1) = n.",
+  "id": "A390521",
+  "mentions": [
+    "A000010",
+    "A039650",
+    "A039651",
+    "A229487"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

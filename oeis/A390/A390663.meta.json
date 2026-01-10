@@ -1,0 +1,28 @@
+{
+  "description": "The sum of the divisors of the smallest cube divisible by n.",
+  "id": "A390663",
+  "mentions": [
+    "A000203",
+    "A000578",
+    "A013662",
+    "A013667",
+    "A053149",
+    "A365346",
+    "A365489",
+    "A369717",
+    "A369720",
+    "A369758",
+    "A390664"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

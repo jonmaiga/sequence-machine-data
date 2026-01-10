@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} 2^k * 3^(n-3*k) * binomial(2*(n-3*k),2*k).",
+  "id": "A391757",
+  "mentions": [
+    "A391724",
+    "A391758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

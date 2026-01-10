@@ -1,0 +1,25 @@
+{
+  "description": "Odd composites k with more than 2 prime factors for which it holds that k = A048720(k/d, A065621(d)), for all divisor pairs (d, k/d), d <= k/d.",
+  "id": "A391252",
+  "mentions": [
+    "A000035",
+    "A001222",
+    "A033942",
+    "A038548",
+    "A048720",
+    "A065621",
+    "A277199",
+    "A391245",
+    "A391246",
+    "A391248"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

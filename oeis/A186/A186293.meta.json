@@ -1,5 +1,5 @@
 {
-  "description": "(A007519(n)-1)/2.",
+  "description": "a(n) = (A007519(n)-1)/2.",
   "id": "A186293",
   "mentions": [
     "A005123",

@@ -1,7 +1,9 @@
 {
-  "description": "Ceiling(n!*exp(-n)).",
+  "description": "a(n) = ceiling(n!*exp(-n)).",
   "id": "A174300",
-  "mentions": [],
+  "mentions": [
+    "A174299"
+  ],
   "tags": [
     "nonn"
   ],

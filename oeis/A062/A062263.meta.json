@@ -2,13 +2,17 @@
   "description": "Sixth (unsigned) column of triangle A062140 (generalized a=4 Laguerre).",
   "id": "A062263",
   "mentions": [
+    "A001113",
+    "A001620",
     "A001720",
     "A062140",
     "A062199",
     "A062260",
     "A062261",
     "A062262",
-    "A062264"
+    "A062264",
+    "A091725",
+    "A099285"
   ],
   "tags": [
     "easy",
@@ -17,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

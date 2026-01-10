@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of n-celled treelike polyominoes in the {4,5} tessellation of the hyperbolic plane.",
+  "id": "A390195",
+  "mentions": [
+    "A119611",
+    "A131482",
+    "A390196"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

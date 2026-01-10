@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (2-2x-x^2)/((1-x)(1-x-x^2)).",
+  "description": "Expansion of e.g.f. (2-2*x-x^2)/((1-x)*(1-x-x^2)).",
   "id": "A052660",
   "mentions": [
     "A001611"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

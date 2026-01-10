@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that n=s^phi(phi(s)) where s is sum of its digits.",
+  "description": "Numbers k such that k = s^phi(phi(s)) where s is sum of its digits.",
   "id": "A135236",
   "mentions": [
+    "A007953",
+    "A010554",
     "A135234",
     "A135235",
     "A135237"
@@ -9,11 +11,12 @@
   "tags": [
     "base",
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

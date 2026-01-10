@@ -1,7 +1,24 @@
 {
   "description": "T(n,m) = number of 0..m-1 integer arrays v[1..n] of length n with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..n-1.",
   "id": "A171307",
-  "mentions": [],
+  "mentions": [
+    "A171308",
+    "A171309",
+    "A171310",
+    "A171311",
+    "A171312",
+    "A171313",
+    "A171314",
+    "A171315",
+    "A171317",
+    "A171318",
+    "A171319",
+    "A171356",
+    "A171357",
+    "A171358",
+    "A171359",
+    "A171360"
+  ],
   "tags": [
     "nonn",
     "tabl"

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (k+1) * binomial(n,k) * binomial(n-k,k).",
+  "id": "A391990",
+  "mentions": [
+    "A002426",
+    "A098473"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of the vertex set of the labeled n-dimensional hypercube graph into 2 connected subsets.",
+  "id": "A389984",
+  "mentions": [
+    "A358999",
+    "A389983"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Odd semiprimes k = p*q such that neither k = A048720(A065621(p),x) nor k = A048720(A065621(q),x) for any x.",
+  "id": "A391344",
+  "mentions": [
+    "A046315",
+    "A048720",
+    "A065621",
+    "A391254",
+    "A391343"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

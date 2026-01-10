@@ -1,15 +1,19 @@
 {
   "description": "Number of labeled Eulerian oriented graphs with n nodes.",
   "id": "A007081",
-  "mentions": [],
+  "mentions": [
+    "A350028",
+    "A358177",
+    "A382212"
+  ],
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

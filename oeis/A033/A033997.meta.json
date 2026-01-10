@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of first n primes is a square.",
+  "description": "Numbers k such that the sum of the first k primes is a square.",
   "id": "A033997",
   "mentions": [
     "A000040",
@@ -12,6 +12,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

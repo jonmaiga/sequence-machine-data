@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected cubic graphs with 2*n nodes and zero edge-Kempe equivalence classes.",
+  "description": "Number of connected cubic simple graphs on 2n unlabeled nodes with chromatic index 4.",
   "id": "A357446",
   "mentions": [
     "A002851"

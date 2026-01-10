@@ -1,0 +1,34 @@
+{
+  "description": "The sum of the integers k from 1 to n such that gcd(n, k) is a 3-smooth number (A003586).",
+  "id": "A390805",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A003586",
+    "A007310",
+    "A023896",
+    "A065333",
+    "A119790",
+    "A246655",
+    "A372671",
+    "A390800",
+    "A390801",
+    "A390802",
+    "A390803",
+    "A390804",
+    "A390806",
+    "A390807",
+    "A390808",
+    "A390809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

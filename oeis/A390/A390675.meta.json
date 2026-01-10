@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer compositions whose first sums are the (2n)-th composition in standard order.",
+  "id": "A390675",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001511",
+    "A008965",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A066099",
+    "A070939",
+    "A342527",
+    "A357135",
+    "A357213",
+    "A358133",
+    "A390432",
+    "A390448",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390674",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390745"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

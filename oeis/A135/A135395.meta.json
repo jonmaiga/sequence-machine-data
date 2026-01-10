@@ -1,5 +1,5 @@
 {
-  "description": "Number of walks of length 2n+3 from origin to (1,1,1) on a cubic lattice.",
+  "description": "Number of walks of length 2*n+3 from origin to (1,1,1) on a cubic lattice.",
   "id": "A135395",
   "mentions": [
     "A002896",

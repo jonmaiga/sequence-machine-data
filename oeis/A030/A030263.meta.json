@@ -1,14 +1,16 @@
 {
   "description": "Number of nonisomorphic commutative groupoids with 1 idempotent.",
   "id": "A030263",
-  "mentions": [],
+  "mentions": [
+    "A038021"
+  ],
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

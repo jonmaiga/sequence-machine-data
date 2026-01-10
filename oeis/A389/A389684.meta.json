@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of n as binomial(i,4) + binomial(j,3) + binomial(k,2) + binomial(l,1) with i,j,k,l>=0.",
+  "id": "A389684",
+  "mentions": [
+    "A194882",
+    "A194883",
+    "A194884",
+    "A389683"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

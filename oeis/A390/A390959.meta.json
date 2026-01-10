@@ -1,0 +1,25 @@
+{
+  "description": "The sum of the non-bi-unitary divisors of the numbers that are not exponentially odd.",
+  "id": "A390959",
+  "mentions": [
+    "A065463",
+    "A072587",
+    "A072691",
+    "A268335",
+    "A307160",
+    "A319072",
+    "A368038",
+    "A390958",
+    "A390961"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

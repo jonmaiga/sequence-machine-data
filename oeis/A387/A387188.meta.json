@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = s*(s+1)/2 + t + 1 where s = A160384(n) and t = A081603(n) are the number of nonzero and number of 2 digits of n in ternary.",
+  "id": "A387188",
+  "mentions": [
+    "A000217",
+    "A006047",
+    "A023745",
+    "A038574",
+    "A038586",
+    "A081603",
+    "A120879",
+    "A160384",
+    "A320030",
+    "A331279",
+    "A385859"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

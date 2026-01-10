@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of primes-only best approximates (POBAs) to the golden ratio, tau; see Comments.",
+  "description": "Numerators of primes-only best approximates (POBAs) to the golden ratio, phi; see Comments.",
   "id": "A265800",
   "mentions": [
     "A000040",

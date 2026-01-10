@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^6 + n^5 + n^4 + n^3 + n^2 + n + 1 where n is nonprime.",
+  "description": "Primes of the form k^6 + k^5 + k^4 + k^3 + k^2 + k + 1 where k is nonprime.",
   "id": "A194194",
   "mentions": [
     "A000040",
@@ -7,7 +7,8 @@
     "A088548",
     "A088550",
     "A185632",
-    "A192321"
+    "A192321",
+    "A288939"
   ],
   "tags": [
     "easy",

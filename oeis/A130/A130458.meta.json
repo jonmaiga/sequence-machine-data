@@ -2,7 +2,16 @@
   "description": "Final term in the rows of triangle A130457: a(n) = A130457(n, 3n), for n>=0.",
   "id": "A130458",
   "mentions": [
-    "A130457"
+    "A000108",
+    "A002293",
+    "A098746",
+    "A130457",
+    "A186182",
+    "A186183",
+    "A186184",
+    "A376447",
+    "A389239",
+    "A390383"
   ],
   "tags": [
     "formulas",

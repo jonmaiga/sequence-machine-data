@@ -2,10 +2,15 @@
   "description": "Number of directed animals on a certain lattice.",
   "id": "A011791",
   "mentions": [
+    "A011789",
+    "A011790",
+    "A011792",
     "A259757"
   ],
   "tags": [
-    "nonn"
+    "more",
+    "nonn",
+    "obsc"
   ],
   "terms": {
     "offset": 0,

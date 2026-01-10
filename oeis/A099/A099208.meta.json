@@ -2,19 +2,18 @@
   "description": "In canonical prime-factorization of n replace prime(k)^e with prime(k+e-1).",
   "id": "A099208",
   "mentions": [
-    "A000040",
     "A005117",
     "A013929",
-    "A049084",
     "A099209"
   ],
   "tags": [
+    "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

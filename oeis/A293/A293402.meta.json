@@ -1,5 +1,5 @@
 {
-  "description": "The integer k that minimizes |k/n^2 - tau|, where tau = (1+sqrt(5))/2 (golden ratio).",
+  "description": "The integer k that minimizes |k/n^2 - phi|, where phi = (1+sqrt(5))/2 (golden ratio).",
   "id": "A293402",
   "mentions": [
     "A001622",

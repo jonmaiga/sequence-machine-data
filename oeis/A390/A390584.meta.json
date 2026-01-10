@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of k consecutive nonprimes equals k^2.",
+  "id": "A390584",
+  "mentions": [
+    "A018252",
+    "A389751",
+    "A390585"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

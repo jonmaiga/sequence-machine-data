@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 21*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391856",
+  "mentions": [
+    "A048720",
+    "A115422",
+    "A115774",
+    "A115809",
+    "A280500",
+    "A391857",
+    "A391925"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

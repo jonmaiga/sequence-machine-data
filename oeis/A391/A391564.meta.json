@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the constant term of the remainder obtained when Stern polynomial B(n,x) is divided by B(5,x).",
+  "id": "A391564",
+  "mentions": [
+    "A125184",
+    "A186891",
+    "A260443",
+    "A391565",
+    "A391566"
+  ],
+  "tags": [
+    "frac",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

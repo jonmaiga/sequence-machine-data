@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T(n, k) = Sum_{i=1..n} (k mod prime(i))*A002110(i-1), with n >= 0, and 0 <= k < A002110(n), read by rows. Here A002110(n) is the n-th primorial number.",
+  "id": "A391930",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A143293",
+    "A240673",
+    "A276085",
+    "A276086",
+    "A360407",
+    "A391931",
+    "A391933"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array R read by falling antidiagonals: R(n,k) = (prime(n) + prime(n+k))/2, for n>=2, k>=1.",
+  "id": "A391359",
+  "mentions": [
+    "A065305",
+    "A391357",
+    "A391358"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

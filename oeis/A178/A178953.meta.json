@@ -1,5 +1,5 @@
 {
-  "description": "Indices n such that 2*prime(n) cannot be written as a sum of two distinct prime(n-k) and prime(n+k).",
+  "description": "Indices m such that 2*prime(m) cannot be written as a sum of two distinct prime(m-k) and prime(m+k).",
   "id": "A178953",
   "mentions": [
     "A071681",

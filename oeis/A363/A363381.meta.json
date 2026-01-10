@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of distinct n-cell patterns that tile an n X n square.",
+  "description": "a(n) is the number of distinct n-cell patterns (or quasi-polyominoes) that tile an n X n square.",
   "id": "A363381",
   "mentions": [
     "A220778",

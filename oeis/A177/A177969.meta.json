@@ -1,13 +1,15 @@
 {
   "description": "Continued fraction of Ai(1) (where Ai is the first Airy function).",
   "id": "A177969",
-  "mentions": [],
+  "mentions": [
+    "A385253"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 98,
     "source": "oeis-entry"
   }

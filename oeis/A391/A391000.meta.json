@@ -1,0 +1,20 @@
+{
+  "description": "Number of one-sided polyforms with n cells of two types: unit squares and isosceles right triangles whose short sides have unit length. Cells are joined along sides of equal lengths.",
+  "id": "A391000",
+  "mentions": [
+    "A151519",
+    "A390994",
+    "A390997",
+    "A390999",
+    "A391001"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

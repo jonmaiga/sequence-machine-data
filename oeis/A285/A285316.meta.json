@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which A019565(n) > n.",
+  "description": "Numbers k for which A019565(k) > k.",
   "id": "A285316",
   "mentions": [
     "A019565",

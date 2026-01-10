@@ -5,12 +5,13 @@
     "A331126"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

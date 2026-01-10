@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: a(n,k) = binomial(k,n-k).",
+  "description": "Triangle read by rows: T(n,k) = binomial(k,n-k).",
   "id": "A030528",
   "mentions": [
     "A000045",

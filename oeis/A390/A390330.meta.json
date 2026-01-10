@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the number of distinct prime divisors of binomial(2k, k) is odd.",
+  "id": "A390330",
+  "mentions": [
+    "A000984",
+    "A001221",
+    "A390327",
+    "A390328",
+    "A390329"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

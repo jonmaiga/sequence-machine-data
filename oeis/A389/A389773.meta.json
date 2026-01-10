@@ -1,0 +1,22 @@
+{
+  "description": "One third the number of solid partitions of n with 6 parts.",
+  "id": "A389773",
+  "mentions": [
+    "A000219",
+    "A000293",
+    "A002836",
+    "A207542",
+    "A379277",
+    "A380893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 40,
+    "source": "joeis"
+  }
+}

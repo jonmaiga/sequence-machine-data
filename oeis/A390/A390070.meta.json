@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} zeta(2*k) / (16^k * k * (2*k+1)).",
+  "id": "A390070",
+  "mentions": [
+    "A006752",
+    "A094642",
+    "A143233",
+    "A378910",
+    "A390071"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

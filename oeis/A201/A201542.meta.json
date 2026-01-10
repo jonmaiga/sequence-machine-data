@@ -1,5 +1,5 @@
 {
-  "description": "Integer nearest f(2^n), where f(x) = Sum of ( mu(k) * H(k)/k^(3/2) * Integral Log(x^(1/k)) ) for k = 1 to infinity, where H(k) is the harmonic number sum_{i=1..k} 1/i.",
+  "description": "Integer nearest f(2^n), where f(x) = Sum of ( mu(k) * H(k)/k^(3/2) * Integral Log(x^(1/k)) ) for k = 1 to infinity, where H(k) is the harmonic number Sum_{i=1..k} 1/i.",
   "id": "A201542",
   "mentions": [
     "A007053"

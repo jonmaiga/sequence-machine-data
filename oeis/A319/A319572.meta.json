@@ -2,6 +2,8 @@
   "description": "The x coordinates of the stripe enumeration of N X N where N = {0, 1, 2, ...}.",
   "id": "A319572",
   "mentions": [
+    "A002024",
+    "A092543",
     "A319289",
     "A319290",
     "A319514",

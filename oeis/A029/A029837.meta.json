@@ -2,10 +2,12 @@
   "description": "Binary order of n: log_2(n) rounded up to next integer.",
   "id": "A029837",
   "mentions": [
+    "A000120",
     "A000193",
     "A000195",
     "A000523",
     "A001855",
+    "A003817",
     "A004050",
     "A004233",
     "A029827",

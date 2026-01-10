@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k), read by antidiagonals: product of two Stern polynomials, B(n,x) and B(k,x), converted to a natural number via prime factorization encoding explained in A297845.",
+  "id": "A391259",
+  "mentions": [
+    "A125184",
+    "A206284",
+    "A260443",
+    "A297845",
+    "A391260"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

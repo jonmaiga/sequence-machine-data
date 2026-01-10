@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where more than one positive integer k with 1 < k < n exists such that n^k + k^n is prime.",
+  "description": "Numbers m where more than one positive integer k with 1 < k < m exists such that m^k + k^m is prime.",
   "id": "A300478",
   "mentions": [
     "A162488",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

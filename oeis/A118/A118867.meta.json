@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n, 3^n and 5^n have even digit sum.",
+  "description": "Numbers k such that 2^k, 3^k and 5^k have even digit sum.",
   "id": "A118867",
   "mentions": [
     "A118734"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

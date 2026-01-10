@@ -1,0 +1,20 @@
+{
+  "description": "Fixed points of A387819.",
+  "id": "A387963",
+  "mentions": [
+    "A131648",
+    "A387819"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

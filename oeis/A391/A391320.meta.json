@@ -1,0 +1,29 @@
+{
+  "description": "Squares of squarefree numbers that have at least 3 distinct prime factors.",
+  "id": "A391320",
+  "mentions": [
+    "A000977",
+    "A001597",
+    "A001694",
+    "A004709",
+    "A005117",
+    "A085986",
+    "A126706",
+    "A131605",
+    "A162143",
+    "A177492",
+    "A286708",
+    "A303606",
+    "A350352"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

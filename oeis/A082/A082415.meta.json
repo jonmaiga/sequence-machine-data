@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that in all partitions of n into distinct coprimes these coprimes are also mutually relatively prime.",
+  "description": "Numbers k such that in all partitions of k into distinct coprimes these coprimes are also mutually relatively prime.",
   "id": "A082415",
   "mentions": [
     "A036998",
     "A083290"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

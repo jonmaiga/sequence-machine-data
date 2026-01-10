@@ -1,5 +1,5 @@
 {
-  "description": "The Isis problem : Array a(i,j) (by antidiagonals) of differences between area and perimeter of rectangle with sides (i,j).",
+  "description": "The Isis problem: Array a(i,j) (by antidiagonals) of differences between area and perimeter of rectangle with sides (i,j).",
   "id": "A201006",
   "mentions": [],
   "tags": [

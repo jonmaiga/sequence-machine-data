@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that the sum and difference of the fourth power of the sum of 4 consecutive primes starting with p and the product of those primes are both prime.",
+  "id": "A389333",
+  "mentions": [
+    "A034963",
+    "A046302"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

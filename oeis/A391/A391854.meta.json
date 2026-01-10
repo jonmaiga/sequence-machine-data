@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 19*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391854",
+  "mentions": [
+    "A048720",
+    "A115805",
+    "A115874",
+    "A280500",
+    "A391855"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

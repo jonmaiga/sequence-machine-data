@@ -1,17 +1,16 @@
 {
-  "description": "(det(I - M) - 1)/x where M_jk = (j*x)^k/k!.",
+  "description": "a(n) = A157503(n)/n for n > 0 with a(0) = 1.",
   "id": "A157504",
   "mentions": [
     "A157503"
   ],
   "tags": [
     "easy",
-    "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
+    "offset": 0,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

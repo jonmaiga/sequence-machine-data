@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of independent permutations on {0,1,...,n-1}.",
+  "id": "A389616",
+  "mentions": [
+    "A020639"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k not in A000961 such that A001414(k) and A067666(k) are in A000961.",
+  "id": "A390729",
+  "mentions": [
+    "A000961",
+    "A001414",
+    "A067666",
+    "A192794",
+    "A390731"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

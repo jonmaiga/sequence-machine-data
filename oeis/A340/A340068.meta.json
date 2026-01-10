@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of integers in the set {n+1,n+2, . . . ,2n} whose representation in base 2 contain exactly three digits 1’s.",
+  "description": "a(n) is the number of integers in the set {n+1, n+2, ..., 2*n} whose representation in base 2 contain exactly three digits 1's.",
   "id": "A340068",
   "mentions": [
     "A000120",

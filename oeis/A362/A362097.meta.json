@@ -2,9 +2,17 @@
   "description": "Numbers k such that 5^k starts with k.",
   "id": "A362097",
   "mentions": [
+    "A000351",
+    "A033147",
     "A100129",
+    "A131493",
+    "A131494",
+    "A131495",
     "A320930",
     "A362096",
+    "A362098",
+    "A362099",
+    "A362100",
     "A362101"
   ],
   "tags": [
@@ -14,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

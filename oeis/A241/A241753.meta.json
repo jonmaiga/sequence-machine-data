@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Sum_{n>=1} (H(n)/(n+1))^2, where H(n) is the n-th harmonic number.",
   "id": "A241753",
   "mentions": [
+    "A013662",
     "A218505"
   ],
   "tags": [

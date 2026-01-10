@@ -2,18 +2,16 @@
   "description": "a(n) is the Levenshtein distance between n and n^n (where each is treated as a string).",
   "id": "A081230",
   "mentions": [
-    "A081231",
-    "A081232",
-    "A081233",
-    "A081234"
+    "A000312",
+    "A081355"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 69,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

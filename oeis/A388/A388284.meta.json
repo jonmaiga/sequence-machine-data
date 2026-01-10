@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(n, k) = A388283((A246278(n, k)), read by falling antidiagonals. Numerator of (3*n-sigma(n))/n, as applied to the prime shift array.",
+  "description": "Square array A(n, k) = A388283(A246278(n, k)), read by falling antidiagonals. Numerator of (3*n-sigma(n))/n, as applied to the prime shift array.",
   "id": "A388284",
   "mentions": [
     "A246278",

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least multiple of n that contains all digits 0-9 at least once.",
+  "id": "A391190",
+  "mentions": [
+    "A171102"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

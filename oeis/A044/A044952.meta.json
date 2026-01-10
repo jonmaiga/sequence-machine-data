@@ -1,14 +1,16 @@
 {
-  "description": "Numbers with no two equally numerous base 3 digits.",
+  "description": "Positive numbers with no two equally numerous base 3 digits.",
   "id": "A044952",
-  "mentions": [],
+  "mentions": [
+    "A007089"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 58,
-    "source": "joeis"
+    "size": 64,
+    "source": "oeis-bfile"
   }
 }

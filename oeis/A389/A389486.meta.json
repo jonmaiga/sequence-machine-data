@@ -1,0 +1,19 @@
+{
+  "description": "Integers which can be represented as a sum of two distinct nontrivial powers in two or more ways.",
+  "id": "A389486",
+  "mentions": [
+    "A001597",
+    "A225103",
+    "A298591",
+    "A365295"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

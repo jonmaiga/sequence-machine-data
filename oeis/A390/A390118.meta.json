@@ -1,0 +1,18 @@
+{
+  "description": "Least positive integer m such that m*n + 1 = p^2 for some prime number p.",
+  "id": "A390118",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A034693",
+    "A390117"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

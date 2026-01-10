@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangular array read by rows: T(n,k) = position of 1st letter of 1st appearance of the k-th word of length n in the lexicographic ordering of all 01-words, as in A076478.",
+  "id": "A391696",
+  "mentions": [
+    "A076478",
+    "A088578"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of prime pairs {p, q} with n >= p > q such that (p-1)^2 == (q-1)^2 (mod n).",
+  "id": "A387947",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A006093",
+    "A181901"
+  ],
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

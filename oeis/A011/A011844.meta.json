@@ -1,16 +1,17 @@
 {
-  "description": "a(n) = floor(C(n,7)/8).",
+  "description": "a(n) = floor(binomial(n,7)/8).",
   "id": "A011844",
   "mentions": [
     "A011847"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 43,
     "source": "joeis"
   }
 }

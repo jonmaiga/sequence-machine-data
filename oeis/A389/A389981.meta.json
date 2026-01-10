@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers (not multiples of 10) whose constant congruence speed is greater than the product of the constant congruence speeds of all their prime factors (see A373387 for the definition of \"constant congruence speed\").",
+  "id": "A389981",
+  "mentions": [
+    "A317905",
+    "A373387",
+    "A389432",
+    "A389979",
+    "A389980"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

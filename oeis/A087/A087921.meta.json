@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the interval [prime(prime(prime(n))) ... prime(prime(prime(n+1)))] contains no twin prime pair.",
+  "description": "Numbers k such that the interval [prime(prime(prime(k))) ... prime(prime(prime(k+1)))] contains no twin prime pair.",
   "id": "A087921",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 49,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = floor(n * log_10(2^64)).",
+  "id": "A390696",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

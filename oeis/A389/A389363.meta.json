@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of isosceles trapezoids in a triangular grid of side length n.",
+  "id": "A389363",
+  "mentions": [
+    "A000292",
+    "A000332",
+    "A001752",
+    "A070893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

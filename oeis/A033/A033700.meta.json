@@ -4,15 +4,17 @@
   "mentions": [
     "A006820",
     "A033301",
-    "A033483"
+    "A033483",
+    "A319368"
   ],
   "tags": [
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 5,
-    "size": 13,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

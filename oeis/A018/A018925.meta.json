@@ -1,9 +1,10 @@
 {
-  "description": "Isotropic subspaces of a 2n-dimensional unitary space over GF(4).",
+  "description": "Number of isotropic subspaces of a 2n-dimensional unitary space over GF(4).",
   "id": "A018925",
   "mentions": [],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

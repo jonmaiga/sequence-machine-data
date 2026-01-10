@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the first n factorials of primes is either a power of 2 or a prime times a power of 2.",
+  "description": "Numbers k such that the sum of the first k factorials of primes is either a power of 2 or a prime times a power of 2.",
   "id": "A126250",
   "mentions": [
     "A000040",

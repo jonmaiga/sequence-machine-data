@@ -2,7 +2,10 @@
   "description": "a(n) = 4^n*(2n + 1)^2.",
   "id": "A164583",
   "mentions": [
-    "A002457"
+    "A002457",
+    "A014480",
+    "A076788",
+    "A355234"
   ],
   "tags": [
     "easy",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

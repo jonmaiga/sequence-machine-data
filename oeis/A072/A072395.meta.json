@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that reverse(phi(n)) = n.",
+  "description": "Numbers k such that reverse(phi(k)) = k.",
   "id": "A072395",
   "mentions": [
+    "A000010",
+    "A004086",
     "A069215",
     "A085331",
     "A102278"

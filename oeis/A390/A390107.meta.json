@@ -1,0 +1,16 @@
+{
+  "description": "Least positive integer m such that m*(n-1) + 1 is relatively prime to C(m*n^2, m*n), where C(k, j) denotes the binomial coefficient k!/(j!*(k-j)!).",
+  "id": "A390107",
+  "mentions": [
+    "A000290",
+    "A390117"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

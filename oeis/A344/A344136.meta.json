@@ -2,7 +2,8 @@
   "description": "Number of linear intervals in the Tamari lattices.",
   "id": "A344136",
   "mentions": [
-    "A000260"
+    "A000260",
+    "A384133"
   ],
   "tags": [
     "formulas",

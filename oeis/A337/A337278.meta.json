@@ -1,7 +1,8 @@
 {
-  "description": "Array read by antidiagonals: T(m,n) (m>=1, n>=1) is number of graceful labelings of the complete bipartite graph K_{m,n}.",
+  "description": "Array read by antidiagonals: T(m,n) (m>=1, n>=1) is number of fundamentally different graceful labelings of the complete bipartite graph K_{m,n}.",
   "id": "A337278",
   "mentions": [
+    "A335619",
     "A337279"
   ],
   "tags": [

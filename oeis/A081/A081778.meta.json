@@ -1,5 +1,5 @@
 {
-  "description": "Maximum element is the continued fraction for n*sum(k>=0,1/2^(2^k)).",
+  "description": "Maximum element in the continued fraction for n * Sum_{k>=0} 1/2^(2^k).",
   "id": "A081778",
   "mentions": [
     "A007400"

@@ -1,0 +1,31 @@
+{
+  "description": "Achilles numbers that are not cubefull.",
+  "id": "A390539",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A013661",
+    "A013929",
+    "A024619",
+    "A036966",
+    "A052486",
+    "A065483",
+    "A082695",
+    "A126706",
+    "A286708",
+    "A325240",
+    "A362147",
+    "A374291",
+    "A388293"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

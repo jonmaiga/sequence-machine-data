@@ -1,5 +1,5 @@
 {
-  "description": "Count of n-digit numbers whose sum of digits is a prime.",
+  "description": "Number of n-digit numbers whose sum of digits is a prime.",
   "id": "A372897",
   "mentions": [
     "A000720",

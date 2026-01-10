@@ -2,8 +2,11 @@
   "description": "1 + the sum of the distinct primes dividing n.",
   "id": "A074372",
   "mentions": [
+    "A000203",
     "A001414",
     "A008472",
+    "A008578",
+    "A023891",
     "A036288"
   ],
   "tags": [

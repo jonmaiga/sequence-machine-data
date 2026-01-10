@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k such that k + sopfr(k) has exactly n prime factors, counted with multiplicity.",
+  "id": "A389973",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A075254",
+    "A191749",
+    "A386246",
+    "A389862"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

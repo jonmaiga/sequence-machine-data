@@ -1,0 +1,17 @@
+{
+  "description": "A005117(k) - 1 such that A389412(k) is a record value.",
+  "id": "A387630",
+  "mentions": [
+    "A005117",
+    "A389412"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

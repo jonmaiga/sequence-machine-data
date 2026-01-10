@@ -2,6 +2,7 @@
   "description": "Numerators of continued fraction convergents to sqrt(798).",
   "id": "A042538",
   "mentions": [
+    "A040769",
     "A042539"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

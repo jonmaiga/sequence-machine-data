@@ -1,0 +1,17 @@
+{
+  "description": "Length of the longest possible eventual period of the win/lose state of a subtraction game where the largest element of the subtraction set is n.",
+  "id": "A389689",
+  "mentions": [
+    "A389690"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

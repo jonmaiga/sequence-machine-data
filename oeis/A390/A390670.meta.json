@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of irreducible words covering the alphabet [n] such that the maximal cardinality of C is k, where C is a subset of the alphabet such that all letters in C appear in weakly increasing order within the word.",
+  "id": "A390670",
+  "mentions": [
+    "A000290",
+    "A386891",
+    "A387336"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

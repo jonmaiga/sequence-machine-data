@@ -1,0 +1,17 @@
+{
+  "description": "Squares that are the concatenation of a square and a nonzero cube.",
+  "id": "A389643",
+  "mentions": [
+    "A023111",
+    "A039686"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

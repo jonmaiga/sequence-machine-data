@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of n is the largest prime factor of n.",
+  "description": "Numbers with a sum of digits equal to their greatest prime factor.",
   "id": "A052021",
   "mentions": [
     "A005349",
@@ -9,7 +9,8 @@
     "A052018",
     "A052019",
     "A052020",
-    "A052022"
+    "A052022",
+    "A162948"
   ],
   "tags": [
     "base",

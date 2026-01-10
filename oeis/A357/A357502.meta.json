@@ -2,7 +2,8 @@
   "description": "a(n) = ((1 + sqrt(n))^n - (1 - sqrt(n))^n)/(2*sqrt(n)).",
   "id": "A357502",
   "mentions": [
-    "A099173"
+    "A099173",
+    "A357580"
   ],
   "tags": [
     "easy",

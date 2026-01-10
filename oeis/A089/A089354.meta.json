@@ -1,14 +1,19 @@
 {
   "description": "Number of generalized {(1,2),(1,-1)}-Dyck paths of length 3n with no peaks at level 2.",
   "id": "A089354",
-  "mentions": [],
+  "mentions": [
+    "A000957",
+    "A001764",
+    "A390500",
+    "A390744"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

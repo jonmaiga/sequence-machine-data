@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that psi(phi(n))/n > psi(phi(m))/m for all m < n, where phi is Euler's totient function (A000010) and psi is the Dedekind psi function (A001615).",
+  "description": "Numbers k such that psi(phi(k))/k > psi(phi(m))/m for all m < k, where phi is Euler's totient function (A000010) and psi is the Dedekind psi function (A001615).",
   "id": "A293712",
   "mentions": [
     "A000010",

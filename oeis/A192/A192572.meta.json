@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum((-1)^(n-k)*floor(sqrt(Bell(k))),k=0..n).",
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k)*floor(sqrt(Bell(k))).",
   "id": "A192572",
   "mentions": [
     "A000110",

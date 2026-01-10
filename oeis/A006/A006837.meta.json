@@ -1,8 +1,12 @@
 {
-  "description": "Percolation series for directed cubic lattice.",
+  "description": "Site percolation series for directed cubic lattice.",
   "id": "A006837",
-  "mentions": [],
+  "mentions": [
+    "A006804",
+    "A363090"
+  ],
   "tags": [
+    "more",
     "sign"
   ],
   "terms": {

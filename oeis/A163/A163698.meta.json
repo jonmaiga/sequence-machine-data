@@ -1,13 +1,16 @@
 {
-  "description": "Number of nX5 binary arrays with all 1s connected, a path of 1s from top row to lower right corner, and no 1 having more than two 1s adjacent.",
+  "description": "Number of n X 5 binary arrays with all 1s connected, a path of 1s from top row to lower right corner, and no 1 having more than two 1s adjacent.",
   "id": "A163698",
-  "mentions": [],
+  "mentions": [
+    "A391823"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

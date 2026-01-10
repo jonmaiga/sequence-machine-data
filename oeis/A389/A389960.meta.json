@@ -1,0 +1,20 @@
+{
+  "description": "Powers p^m, with prime p and m > 1, such that neither p^m-1 nor p^m+1 are squarefree.",
+  "id": "A389960",
+  "mentions": [
+    "A013929",
+    "A126706",
+    "A187965",
+    "A246547",
+    "A249435",
+    "A269758"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

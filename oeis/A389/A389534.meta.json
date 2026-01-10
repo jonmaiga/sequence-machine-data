@@ -1,0 +1,17 @@
+{
+  "description": "Length of shortest loop (in Chebyshev distance) that touches all cells in an n X n grid.",
+  "id": "A389534",
+  "mentions": [
+    "A383980"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

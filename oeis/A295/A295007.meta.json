@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the largest digit of n^2 is 7.",
+  "description": "Numbers k such that the largest digit of k^2 is 7.",
   "id": "A295007",
   "mentions": [
     "A000194",

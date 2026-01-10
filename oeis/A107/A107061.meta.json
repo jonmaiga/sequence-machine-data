@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = largest number m >0 such that n*prime(n)-a(n) is a prime.",
+  "description": "a(n) = smallest number m > 0 such that n*prime(n)+m is a prime.",
   "id": "A107061",
   "mentions": [
+    "A086172",
     "A107060"
   ],
   "tags": [

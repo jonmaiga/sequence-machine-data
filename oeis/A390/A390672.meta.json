@@ -1,0 +1,16 @@
+{
+  "description": "Nonzero Dyck natural numbers encoded as binary integers.",
+  "id": "A390672",
+  "mentions": [
+    "A389367"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

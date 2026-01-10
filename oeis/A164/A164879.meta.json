@@ -1,5 +1,5 @@
 {
-  "description": "Maximum number of copies of unique prime divisors of n required to express n as a sum; a(1) = 0 by convention.",
+  "description": "Maximum number of copies of distinct prime divisors of n required to express n as a sum; a(1) = 0 by convention.",
   "id": "A164879",
   "mentions": [
     "A008472",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 101,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "The number of gaps in the set of positive integers which need at most n steps of the Collatz iteration to reach 1.",
+  "id": "A391769",
+  "mentions": [
+    "A005186",
+    "A176014"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

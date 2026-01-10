@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 3*k - (greatest prime < 3*k) = (least prime > 3*k) - 3*k.",
+  "id": "A391352",
+  "mentions": [
+    "A000040",
+    "A391351",
+    "A391353"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Floor(11^n/6^n).",
+  "description": "a(n) = floor(11^n/6^n).",
   "id": "A094989",
   "mentions": [
     "A002379",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n XOR A391573(n).",
+  "id": "A391569",
+  "mentions": [
+    "A003987",
+    "A048720",
+    "A391573",
+    "A391578",
+    "A391579",
+    "A391586"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

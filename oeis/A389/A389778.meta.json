@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (13/12) - zeta(4).",
+  "id": "A389778",
+  "mentions": [
+    "A013662"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

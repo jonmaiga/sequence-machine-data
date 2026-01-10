@@ -2,7 +2,6 @@
   "description": "a(n) = 2^n + n^2.",
   "id": "A001580",
   "mentions": [
-    "A000027",
     "A000079",
     "A000217"
   ],
@@ -13,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

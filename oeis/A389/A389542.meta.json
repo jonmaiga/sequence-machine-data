@@ -1,0 +1,14 @@
+{
+  "description": "G.f. A(x) satisfies A( A(x)^2 - x^2 ) = 4*A(x)^3.",
+  "id": "A389542",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

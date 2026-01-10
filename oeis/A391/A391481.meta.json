@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled magmas with n elements and no idempotents.",
+  "id": "A391481",
+  "mentions": [
+    "A002489",
+    "A030250",
+    "A391480",
+    "A391483"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

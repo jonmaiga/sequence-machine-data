@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integer k with exactly n distinct prime factors such that the sum of those primes equals the sum of the exponents in its prime factorization.",
+  "id": "A390173",
+  "mentions": [
+    "A000040",
+    "A000586",
+    "A001221",
+    "A002110",
+    "A007504",
+    "A008472",
+    "A054411"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

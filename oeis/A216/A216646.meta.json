@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1+2*(d1 + 1)*(d2 + 1)* … *(dk + 1), where d1, d2, ..., dk are the prime factors of the n-th Fermat pseudoprime to base 2 A001567(n).",
+  "description": "a(n) = 1+2*(d1 + 1)*(d2 + 1)*...*(dk + 1), where d1, d2, ..., dk are the prime factors of the n-th Fermat pseudoprime to base 2 A001567(n).",
   "id": "A216646",
   "mentions": [
     "A001567",

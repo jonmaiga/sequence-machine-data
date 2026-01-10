@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. tan(x)*sin(x) (even powers only).",
   "id": "A009744",
   "mentions": [
+    "A024235",
     "A029582",
     "A099023"
   ],

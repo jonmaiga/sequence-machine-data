@@ -1,0 +1,34 @@
+{
+  "description": "Cubefull powers k^m, m > 1, of composite numbers k that are not powerful.",
+  "id": "A387255",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A036966",
+    "A052486",
+    "A076467",
+    "A106543",
+    "A120944",
+    "A126706",
+    "A131065",
+    "A131605",
+    "A246549",
+    "A286708",
+    "A332785",
+    "A372695",
+    "A383394",
+    "A387254",
+    "A388293",
+    "A388304",
+    "A388549"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

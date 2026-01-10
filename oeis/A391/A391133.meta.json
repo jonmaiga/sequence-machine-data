@@ -1,0 +1,17 @@
+{
+  "description": "The number of connected planar graphs on n unlabeled vertices with connected planar complement.",
+  "id": "A391133",
+  "mentions": [
+    "A391132"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

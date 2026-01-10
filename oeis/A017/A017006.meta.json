@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

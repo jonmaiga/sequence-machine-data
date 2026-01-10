@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m such that the n numbers (prime(1)-1)^2,...,(prime(n)-1)^2 are pairwise incongruent modulo m.",
+  "id": "A387959",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A006093",
+    "A181901",
+    "A387947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

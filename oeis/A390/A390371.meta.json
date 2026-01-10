@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the largest bi-unitary divisor of n that is an exponentially odd number (A268335).",
+  "id": "A390371",
+  "mentions": [
+    "A062503",
+    "A065464",
+    "A222266",
+    "A268335",
+    "A286324",
+    "A331737",
+    "A350389",
+    "A368977",
+    "A390372"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

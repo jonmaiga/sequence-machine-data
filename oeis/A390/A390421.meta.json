@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + phi(k) + tau(k)^2.",
+  "id": "A390421",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001615",
+    "A388001",
+    "A390296"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

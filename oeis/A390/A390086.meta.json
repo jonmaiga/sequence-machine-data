@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest index k such that A390084(k) = n.",
+  "id": "A390086",
+  "mentions": [
+    "A301654",
+    "A390084"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

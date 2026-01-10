@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} 1/(k^10 - k^5).",
+  "id": "A388416",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

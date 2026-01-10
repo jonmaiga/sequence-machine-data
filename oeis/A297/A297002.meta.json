@@ -2,8 +2,16 @@
   "description": "Completely multiplicative with a(prime(k)) = prime(2 * k) (where prime(k) denotes the k-th prime).",
   "id": "A297002",
   "mentions": [
+    "A031215",
     "A066207",
-    "A248601"
+    "A248601",
+    "A319523",
+    "A319525",
+    "A348067",
+    "A350066",
+    "A352001",
+    "A353397",
+    "A357975"
   ],
   "tags": [
     "easy",

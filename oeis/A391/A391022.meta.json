@@ -1,0 +1,21 @@
+{
+  "description": "Minimal square obtained by concatenating n distinct nonzero squares in ascending order.",
+  "id": "A391022",
+  "mentions": [
+    "A000290",
+    "A006716",
+    "A019521",
+    "A087354"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

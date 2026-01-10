@@ -1,5 +1,5 @@
 {
-  "description": "Strictly positive numbers n such that 30*n/(30+n) are integers.",
+  "description": "Strictly positive numbers k such that 30*k/(30+k) are integers.",
   "id": "A162693",
   "mentions": [
     "A127730",

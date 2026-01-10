@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of 2 X 2 matrices with elements 1..n where at least one row, at least one column and at least one of the two diagonals is strictly increasing.",
+  "id": "A391092",
+  "mentions": [
+    "A206808",
+    "A390904",
+    "A390922",
+    "A390925"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

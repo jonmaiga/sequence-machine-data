@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of log(1+tanh(x)/cosh(x)).",
+  "description": "Expansion of e.g.f. log(1+tanh(x)/cosh(x)).",
   "id": "A009401",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "joeis"
   }
 }

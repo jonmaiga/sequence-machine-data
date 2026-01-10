@@ -1,0 +1,25 @@
+{
+  "description": "Even perfect powers plus 1.",
+  "id": "A389957",
+  "mentions": [
+    "A002162",
+    "A005408",
+    "A072691",
+    "A075090",
+    "A216765",
+    "A389764",
+    "A389765",
+    "A389956",
+    "A389958"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

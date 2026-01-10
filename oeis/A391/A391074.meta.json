@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of nonuniform divisors of n.",
+  "id": "A391074",
+  "mentions": [
+    "A000005",
+    "A034444",
+    "A051903",
+    "A062977",
+    "A183095",
+    "A327527",
+    "A335460",
+    "A368251",
+    "A376514"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

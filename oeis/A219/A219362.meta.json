@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the product of divisors of sigma(n) is divisible by the product of divisors of n.",
+  "description": "Numbers k such that the product of divisors of sigma(k) is divisible by the product of divisors of k.",
   "id": "A219362",
   "mentions": [
     "A000203",

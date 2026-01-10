@@ -1,0 +1,18 @@
+{
+  "description": "Let PG(n) be the graph with one node for each free n-celled polyomino in the {4,5} tessellation of the hyperbolic plane, and edges between nodes corresponding to polyominoes that can be obtained from each other by moving one cell, where the intermediate polyform (the set of cells remaining when the cell to be moved is detached) is required to be a connected polyomino. a(n) is the number of edges in PG(n).",
+  "id": "A390203",
+  "mentions": [
+    "A119611",
+    "A367435",
+    "A390202"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

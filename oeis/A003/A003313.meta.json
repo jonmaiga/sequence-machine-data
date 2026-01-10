@@ -2,6 +2,7 @@
   "description": "Length of shortest addition chain for n.",
   "id": "A003313",
   "mentions": [
+    "A000120",
     "A003063",
     "A003064",
     "A003065",

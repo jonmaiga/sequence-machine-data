@@ -2,7 +2,8 @@
   "description": "The generations in which the transformation described in A072207 does not lead to a doubling of the cardinality of the set of rationals.",
   "id": "A175952",
   "mentions": [
-    "A072207"
+    "A072207",
+    "A278638"
   ],
   "tags": [
     "formulas",

@@ -1,7 +1,11 @@
 {
   "description": "Multiples of 3 with all odd digits.",
   "id": "A061810",
-  "mentions": [],
+  "mentions": [
+    "A008585",
+    "A014261",
+    "A061811"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

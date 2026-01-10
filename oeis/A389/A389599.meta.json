@@ -1,0 +1,41 @@
+{
+  "description": "Heinz numbers of integer partitions whose first differences are not all distinct.",
+  "id": "A389599",
+  "mentions": [
+    "A000041",
+    "A000720",
+    "A000837",
+    "A001222",
+    "A001223",
+    "A007862",
+    "A049988",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A175342",
+    "A325325",
+    "A325327",
+    "A325328",
+    "A325367",
+    "A325368",
+    "A325545",
+    "A389597",
+    "A389598",
+    "A389731",
+    "A389735",
+    "A389741",
+    "A389743",
+    "A389811",
+    "A389812",
+    "A389919"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

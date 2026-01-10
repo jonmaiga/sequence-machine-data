@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of tangent of 81 degrees.",
   "id": "A019979",
-  "mentions": [],
+  "mentions": [
+    "A019907"
+  ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n - 3 and 3*2^n - 1 are both prime.",
+  "description": "Numbers k such that 2^k - 3 and 3*2^k - 1 are both prime.",
   "id": "A267943",
   "mentions": [
     "A002235",

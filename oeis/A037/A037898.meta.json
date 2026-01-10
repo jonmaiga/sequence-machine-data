@@ -1,14 +1,23 @@
 {
-  "description": "a(n)=(greatest base 4 digit of n)-(least base 4 digit of n).",
+  "description": "a(n) = (greatest base 4 digit of n) - (least base 4 digit of n).",
   "id": "A037898",
-  "mentions": [],
+  "mentions": [
+    "A007090",
+    "A037897",
+    "A037899",
+    "A037900",
+    "A037901",
+    "A037902",
+    "A037903"
+  ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 90,
-    "source": "joeis"
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

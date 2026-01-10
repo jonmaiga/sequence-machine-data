@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n such that one maximal run is the longest.",
+  "id": "A391595",
+  "mentions": [
+    "A011782",
+    "A387637",
+    "A389509",
+    "A389511",
+    "A389512"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

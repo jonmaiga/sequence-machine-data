@@ -2,10 +2,13 @@
   "description": "E.g.f. C(x) satisfies: C(x) = cosh( Integral C(x)^4 dx ).",
   "id": "A281428",
   "mentions": [
+    "A052502",
+    "A281180",
     "A281181",
     "A281427"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

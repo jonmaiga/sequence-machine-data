@@ -2,7 +2,8 @@
   "description": "Sum of digits of numbers between 0 and (10^n)-1.",
   "id": "A034967",
   "mentions": [
-    "A037123"
+    "A037123",
+    "A053541"
   ],
   "tags": [
     "base",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

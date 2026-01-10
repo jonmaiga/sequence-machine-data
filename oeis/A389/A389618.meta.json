@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the Reversed Zeckendorf game with starting number n is a win for the second player.",
+  "id": "A389618",
+  "mentions": [
+    "A389617",
+    "A389619"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

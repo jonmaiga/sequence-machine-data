@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers (not multiples of 10) whose constant congruence speed is greater than the sum of the constant congruence speeds of all their prime factors counted with multiplicity.",
+  "id": "A389979",
+  "mentions": [
+    "A317905",
+    "A373387",
+    "A389432",
+    "A389980",
+    "A389981"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

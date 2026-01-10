@@ -1,0 +1,22 @@
+{
+  "description": "Product_{k <= n} (prime(k) + 1)/A001223(k), where A001223 lists the prime gaps, rounded to the nearest integer if necessary.",
+  "id": "A390839",
+  "mentions": [
+    "A001223",
+    "A080082",
+    "A390840",
+    "A390841",
+    "A390842",
+    "A390843",
+    "A390844"
+  ],
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

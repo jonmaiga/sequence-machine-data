@@ -2,6 +2,7 @@
   "description": "Sum of the even parts in the partitions of n into 2 parts.",
   "id": "A387541",
   "mentions": [
+    "A093353",
     "A387539"
   ],
   "tags": [

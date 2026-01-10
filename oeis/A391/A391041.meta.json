@@ -1,0 +1,16 @@
+{
+  "description": "Irregular array where the n-th row lists the odd primes p such that (p-1) divides 4*n and gcd(p, 4n/(p-1)) = 1.",
+  "id": "A391041",
+  "mentions": [
+    "A391042"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

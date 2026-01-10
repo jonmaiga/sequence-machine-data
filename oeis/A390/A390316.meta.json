@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that A390254(m) < c*(4/3)^m, where c = lim_{m->oo} A390254(m)/(4/3)^m = A390321.",
+  "id": "A390316",
+  "mentions": [
+    "A390254",
+    "A390315",
+    "A390321"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

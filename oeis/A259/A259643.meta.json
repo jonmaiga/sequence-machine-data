@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of first n odd primes divides product of first n odd primes.",
+  "description": "Numbers k such that sum of first k odd primes divides product of first k odd primes.",
   "id": "A259643",
   "mentions": [
     "A051838",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

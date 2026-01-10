@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that psi(k) = psi(k+1) = psi(k+2).",
+  "id": "A387733",
+  "mentions": [
+    "A001615",
+    "A005238",
+    "A291043"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -3,11 +3,15 @@
   "id": "A168310",
   "mentions": [],
   "tags": [
-    "nonn"
+    "fini",
+    "full",
+    "look",
+    "nonn",
+    "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "description": "Run-compression sum (A373953) minus number of maximal runs in the n-th composition in standard order.",
+  "id": "A389600",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A001221",
+    "A003242",
+    "A011782",
+    "A029931",
+    "A037201",
+    "A066099",
+    "A066328",
+    "A070939",
+    "A106356",
+    "A114901",
+    "A116608",
+    "A116861",
+    "A124767",
+    "A228351",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A272919",
+    "A333217",
+    "A333381",
+    "A333489",
+    "A333627",
+    "A333755",
+    "A333769",
+    "A373949",
+    "A373951",
+    "A373953",
+    "A373954",
+    "A389532"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

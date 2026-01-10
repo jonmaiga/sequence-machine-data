@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the length of chunks of the prime number sequence such that each chunk’s sum of reciprocals is no less than 1/n, chunks being consecutive and of minimal length, for n>=2.",
+  "description": "a(n) is the length of chunks of the prime number sequence such that each chunk's sum of reciprocals is no less than 1/n, chunks being consecutive and of minimal length, for n>=2.",
   "id": "A383891",
   "mentions": [
     "A000040",

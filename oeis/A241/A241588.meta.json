@@ -1,14 +1,15 @@
 {
   "description": "Coefficients in expansion of determinant of the Ihara Laplacian on the infinite grid Z x Z.",
   "id": "A241588",
-  "mentions": [],
+  "mentions": [
+    "A241587"
+  ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

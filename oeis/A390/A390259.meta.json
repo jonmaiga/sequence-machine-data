@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Sum_{k>=1} (-1)^(k+1)*x^(k^3)/(1-x^(k^3)).",
+  "id": "A390259",
+  "mentions": [
+    "A000578",
+    "A010057",
+    "A048272",
+    "A061704",
+    "A309082",
+    "A344299",
+    "A390260"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Numbers not able to be represented in the form c*p^2+b for p prime, c >= 1 and 0 <= b < p.",
+  "id": "A390181",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

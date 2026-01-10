@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of the digits of k equals the sum of the digits of |k - reverse(k)|.",
+  "id": "A390009",
+  "mentions": [
+    "A004086",
+    "A007953",
+    "A056965"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

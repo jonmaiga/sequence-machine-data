@@ -1,5 +1,5 @@
 {
-  "description": "Not the sum of three positive squares or cubes.",
+  "description": "Numbers that are not the sum of three positive squares or cubes (which can be a mix of squares and cubes).",
   "id": "A135693",
   "mentions": [
     "A004214",

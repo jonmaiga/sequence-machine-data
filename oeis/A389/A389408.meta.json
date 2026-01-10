@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2; thereafter a(n) = a(n-1) + gpf(a(n-1)) - 1, where gpf = greatest prime factor = A006530.",
+  "id": "A389408",
+  "mentions": [
+    "A006530",
+    "A076271"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

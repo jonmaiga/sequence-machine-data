@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that the sum of the binary digits of n! is divisible by n.",
+  "description": "Numbers k such that the sum of the binary digits of k! is divisible by k.",
   "id": "A109711",
   "mentions": [],
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

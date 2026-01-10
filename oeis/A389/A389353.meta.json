@@ -1,0 +1,18 @@
+{
+  "description": "Primes p which are the concatenation of the last digits of the length(p) primes before and including p, where length(p) is the number of digits of p.",
+  "id": "A389353",
+  "mentions": [
+    "A055642",
+    "A091633"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

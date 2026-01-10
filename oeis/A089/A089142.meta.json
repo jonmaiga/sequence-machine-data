@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 5^n + 6 is prime.",
+  "description": "Numbers k such that 5^k + 6 is prime.",
   "id": "A089142",
   "mentions": [],
   "tags": [

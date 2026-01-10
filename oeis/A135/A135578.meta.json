@@ -1,10 +1,13 @@
 {
-  "description": "Not the sum of three distinct perfect powers (assuming 1, but not 0, is a perfect power).",
+  "description": "Numbers that are not the sum of three distinct perfect powers (assuming 1, but not 0, is a perfect power).",
   "id": "A135578",
   "mentions": [
-    "A113505"
+    "A113505",
+    "A135367",
+    "A388076"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

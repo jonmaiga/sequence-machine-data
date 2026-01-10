@@ -2,10 +2,14 @@
   "description": "Sum of the digits of all n-digit numbers.",
   "id": "A078761",
   "mentions": [
-    "A034967"
+    "A034967",
+    "A081045",
+    "A358620",
+    "A359271"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

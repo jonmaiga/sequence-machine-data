@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k), 2 <= k < n is the number of n-element k-ary unlabeled rooted trees where a subtree consisting of h + 1 nodes has exactly min{h,k} subtrees.",
+  "description": "Triangle read by rows: T(n,k), 2 <= k < n is the number of n-element k-ary unlabeled quasi-full rooted trees.",
   "id": "A352460",
   "mentions": [
     "A000081",

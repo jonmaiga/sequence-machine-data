@@ -1,0 +1,19 @@
+{
+  "description": "Number of loops with length A389534(n) touching all cells in an n X n grid.",
+  "id": "A390110",
+  "mentions": [
+    "A389534",
+    "A390109"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

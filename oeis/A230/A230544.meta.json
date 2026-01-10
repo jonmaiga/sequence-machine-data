@@ -1,5 +1,5 @@
 {
-  "description": "Solutions of the equation n'' = tau(n) * n', where n' and n'' are the first and the second arithmetic derivative of n.",
+  "description": "Solutions of the equation k'' = tau(k) * k', where k' and k'' are the first and the second arithmetic derivative of k.",
   "id": "A230544",
   "mentions": [
     "A000005",

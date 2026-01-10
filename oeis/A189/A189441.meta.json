@@ -2,10 +2,16 @@
   "description": "Primes that are the arithmetic derivative (A003415) of some number.",
   "id": "A189441",
   "mentions": [
+    "A000040",
     "A003415",
+    "A006512",
     "A099302",
     "A157037",
-    "A189483"
+    "A189483",
+    "A239433",
+    "A241859",
+    "A351096",
+    "A369250"
   ],
   "tags": [
     "formulas",

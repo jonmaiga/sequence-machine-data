@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with no 4k+3 factors such that Pell equation x^2 - n y^2 = -1 insoluble.",
+  "description": "Numbers n with no 4k+3 factors such that the Pell equation x^2 - n y^2 = -1 is insoluble.",
   "id": "A031399",
   "mentions": [
     "A031396",

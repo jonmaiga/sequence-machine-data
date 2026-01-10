@@ -1,7 +1,9 @@
 {
-  "description": "n such that n is the sum of previous numbers found using n's digits as offsets.",
+  "description": "a(n) is the sum of previous numbers found using n's nonzero digits as offsets.",
   "id": "A179622",
-  "mentions": [],
+  "mentions": [
+    "A121853"
+  ],
   "tags": [
     "base",
     "formulas",

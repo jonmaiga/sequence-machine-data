@@ -1,5 +1,5 @@
 {
-  "description": "Offsets i such that i + n*(n+1)/2 is a perfect square for some positive integer n.",
+  "description": "Offsets i such that i + m*(m+1)/2 is a perfect square for some positive integer m.",
   "id": "A175035",
   "mentions": [
     "A001108",

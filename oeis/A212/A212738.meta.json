@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = (7^p - 6^p - 1)/(1806p) where p is the n-th prime.",
+  "description": "a(n) = (7^p - 6^p - 1)/(1806*p) where p is the n-th prime.",
   "id": "A212738",
   "mentions": [
     "A002383",
     "A055494"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

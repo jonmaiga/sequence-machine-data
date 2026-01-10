@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of the constant x in which each term equals 2 plus the respective bit in the binary expansion of x, after the initial constant term of '1'.",
+  "id": "A391873",
+  "mentions": [
+    "A391872"
+  ],
+  "tags": [
+    "cofr",
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

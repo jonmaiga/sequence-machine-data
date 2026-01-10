@@ -2,9 +2,13 @@
   "description": "Expansion of e.g.f. exp(x/2)/(2 - exp(2*x))^(1/4).",
   "id": "A276371",
   "mentions": [
-    "A124212"
+    "A124212",
+    "A365777",
+    "A365782",
+    "A365794"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

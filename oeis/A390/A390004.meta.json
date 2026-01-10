@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of quadruples (a,b,c,d) such that a!*b!*c!*d! is a perfect square, with 1 <= a < b < c < d = A387184(n).",
+  "id": "A390004",
+  "mentions": [
+    "A316341",
+    "A387184",
+    "A389554",
+    "A390003",
+    "A390005"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

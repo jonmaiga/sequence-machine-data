@@ -3,13 +3,14 @@
   "id": "A081361",
   "mentions": [],
   "tags": [
+    "less",
     "nonn",
     "tabf",
     "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
-    "source": "oeis-entry"
+    "size": 85,
+    "source": "joeis"
   }
 }

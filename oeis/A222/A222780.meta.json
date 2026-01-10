@@ -1,10 +1,11 @@
 {
-  "description": "Number of (n+3)X4 0..1 arrays with every row and column least squares fitting to a positive slope straight line.",
+  "description": "Number of (n+3) X 4 0..1 arrays with every row and column least squares fitting to a positive slope straight line.",
   "id": "A222780",
   "mentions": [
     "A222784"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

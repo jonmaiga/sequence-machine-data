@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that [A070080(n), A070081(n), A070082(n)] is an integer triangle with integer area.",
+  "description": "Numbers k such that [A070080(k), A070081(k), A070082(k)] is an integer triangle with integer area.",
   "id": "A070142",
   "mentions": [
     "A051516",

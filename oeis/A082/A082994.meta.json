@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that all the following properties hold: (i) n*reverse(n) is a square; (ii) n != reverse(n); (iii) n and reverse(n) are not both squares; and (iv) n and reverse(n) have the same number of digits.",
+  "description": "Numbers k such that all the following properties hold: (i) k*reverse(k) is a square; (ii) k != reverse(k); (iii) k and reverse(k) are not both squares; and (iv) k and reverse(k) have the same number of digits.",
   "id": "A082994",
   "mentions": [
     "A002113",

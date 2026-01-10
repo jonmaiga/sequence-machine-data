@@ -2,15 +2,18 @@
   "description": "a(n) is the decimal period of the fractional part of BernoulliB(2n).",
   "id": "A112828",
   "mentions": [
+    "A002445",
+    "A051626",
     "A112829"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

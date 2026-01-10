@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) (n >= 2) is the number of cubic graphs on 2*n nodes with diameter k.",
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 2) is the number of cubic graphs on 2n nodes with diameter k.",
   "id": "A204329",
   "mentions": [
     "A002851",

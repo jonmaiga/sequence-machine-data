@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n lists all the quadruples (a,b,c,d) such that a!*b!*c!*d! is a perfect square, with 1 <= a < b < c < d = A387184(n). Within a row, quadruples are sorted by increasing a, then by increasing b, and finally by increasing c.",
+  "id": "A390003",
+  "mentions": [
+    "A387184",
+    "A388851",
+    "A389553",
+    "A390004",
+    "A390005"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

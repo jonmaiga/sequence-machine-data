@@ -1,0 +1,19 @@
+{
+  "description": "Third smallest order m > 0 for which there are n nonisomorphic finite groups of order m, or 0 if no such order exists.",
+  "id": "A389995",
+  "mentions": [
+    "A000001",
+    "A046057",
+    "A389994"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

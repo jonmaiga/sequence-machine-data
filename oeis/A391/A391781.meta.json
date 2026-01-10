@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} eta(2*k) * Fibonacci(2*k) / 5^k, where eta is the Dirichlet eta function.",
+  "id": "A391781",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A350760",
+    "A391782"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

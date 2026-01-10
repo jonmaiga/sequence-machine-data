@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that the sum of four consecutive primes starting with p and their product is a prime.",
+  "id": "A390930",
+  "mentions": [
+    "A390918",
+    "A390929"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

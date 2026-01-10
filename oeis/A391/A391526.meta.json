@@ -1,0 +1,15 @@
+{
+  "description": "Positive integers m such that m^6 is not of the form (x+y+z) * (x^3+y^3+z^3).",
+  "id": "A391526",
+  "mentions": [
+    "A001014"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

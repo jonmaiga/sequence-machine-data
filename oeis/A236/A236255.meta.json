@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers s for which there exist primes p, q, r such that phi(pqs)=phi(rs^3), sigma(pqs)=sigma(rs^3).",
+  "description": "Prime numbers s for which there exist primes p, q, r such that phi(p*q*s)=phi(r*s^3) and sigma(p*q*s)=sigma(r*s^3).",
   "id": "A236255",
   "mentions": [
     "A000010",

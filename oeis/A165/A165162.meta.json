@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) with 2n-1 entries per row, read by rows: the first n entries count down from n to 1, the remaining n-1 entries down from n-1 to 1.",
+  "description": "Triangle T(n,m) with 2*n-1 entries per row, read by rows: the first n entries count down from n to 1, the remaining n-1 entries down from n-1 to 1.",
   "id": "A165162",
   "mentions": [
     "A057058",

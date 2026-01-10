@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (-1)^k * zeta(k) / (4^k * k * (k+1)).",
+  "id": "A390068",
+  "mentions": [
+    "A001620",
+    "A006752",
+    "A074962",
+    "A143233",
+    "A225746",
+    "A378910",
+    "A390067",
+    "A390069"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

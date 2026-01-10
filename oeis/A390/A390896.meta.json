@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sets of noncrossing paths of size k whose nodes are a subset of n nodes arranged in a circle with one node paths disallowed, 0 <= k <= floor(n/2).",
+  "id": "A390896",
+  "mentions": [
+    "A000012",
+    "A001147",
+    "A261064",
+    "A360716",
+    "A361284",
+    "A390893",
+    "A390894",
+    "A390895",
+    "A390897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

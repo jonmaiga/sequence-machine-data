@@ -1,0 +1,17 @@
+{
+  "description": "Numbers b such that there exist 3 smaller numbers {i,j,k} that each exceed 0 such that i*b^2 + j*b + k, j*b^2 + k*b + i, and k*b^2 + i*b + j have the same squarefree kernel.",
+  "id": "A391704",
+  "mentions": [
+    "A007947",
+    "A391703"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

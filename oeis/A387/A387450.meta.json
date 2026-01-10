@@ -2,16 +2,20 @@
   "description": "Decimal expansion of cos(Pi/33).",
   "id": "A387450",
   "mentions": [
-    "A387440"
+    "A387440",
+    "A389480",
+    "A390698",
+    "A390699"
   ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 118,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -10,11 +10,12 @@
     "A072401"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

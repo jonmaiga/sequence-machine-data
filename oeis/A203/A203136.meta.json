@@ -2,10 +2,12 @@
   "description": "Indices of decagonal numbers that are also hexagonal.",
   "id": "A203136",
   "mentions": [
+    "A000129",
     "A000384",
     "A001107",
     "A203134",
-    "A203135"
+    "A203135",
+    "A251602"
   ],
   "tags": [
     "easy",

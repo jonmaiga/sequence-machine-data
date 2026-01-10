@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{i=1..k} T(i,k)/(i*(k-i+1)), (k>=1, 1<=n<=k), where T(,) is given in A080046.",
+  "description": "a(n) = Sum_{k=1..n} T(n,k) / (k * (n-k+1)) where T is given in A080046.",
   "id": "A082611",
   "mentions": [
     "A080046"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

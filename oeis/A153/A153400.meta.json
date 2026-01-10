@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 18*n+1 is not prime.",
+  "description": "Numbers k such that 18*k+1 is not prime.",
   "id": "A153400",
   "mentions": [
     "A111094"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
+    "size": 65,
     "source": "joeis"
   }
 }

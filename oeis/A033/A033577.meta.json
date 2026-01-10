@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (3*n+1) * (4*n+1).",
+  "description": "a(n) = (3*n+1)*(4*n+1).",
   "id": "A033577",
   "mentions": [
     "A003215",

@@ -2,14 +2,17 @@
   "description": "a(n) is 2n divided by A112828(n).",
   "id": "A112829",
   "mentions": [
+    "A002445",
+    "A051626",
     "A112828"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

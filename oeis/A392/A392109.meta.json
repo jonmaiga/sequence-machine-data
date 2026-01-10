@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = largest prime with exponent > 1 in the prime factorization of n, or 0 if no such prime exists.",
+  "id": "A392109",
+  "mentions": [
+    "A027748",
+    "A063958",
+    "A080367",
+    "A392066",
+    "A392073",
+    "A392108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

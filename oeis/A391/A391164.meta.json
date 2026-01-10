@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose final digit is at most 5.",
+  "id": "A391164",
+  "mentions": [
+    "A001477",
+    "A007092",
+    "A008592",
+    "A010875",
+    "A017281",
+    "A017293",
+    "A017305",
+    "A017317",
+    "A017329",
+    "A152467",
+    "A197652",
+    "A272576",
+    "A293292",
+    "A390774",
+    "A391163"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle: Self-converse monoids of order n with k idempotents.",
+  "description": "Triangle: Number of self-converse monoids of order n with k idempotents.",
   "id": "A058144",
   "mentions": [
     "A000001",

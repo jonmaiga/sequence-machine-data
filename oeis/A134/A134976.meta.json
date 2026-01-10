@@ -2,6 +2,7 @@
   "description": "Decimal expansion of (6 divided by golden ratio = 6/phi = 12/(1 + sqrt(5))).",
   "id": "A134976",
   "mentions": [
+    "A000045",
     "A001622",
     "A010499",
     "A134973",

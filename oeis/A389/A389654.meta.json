@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of zeta(3)/1728.",
+  "id": "A389654",
+  "mentions": [
+    "A002117"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

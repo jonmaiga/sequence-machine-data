@@ -1,14 +1,17 @@
 {
-  "description": "7*(10^n-9).",
+  "description": "a(n) = 7*(10^n - 9).",
   "id": "A175601",
-  "mentions": [],
+  "mentions": [
+    "A170955"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

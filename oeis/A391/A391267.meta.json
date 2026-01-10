@@ -1,0 +1,17 @@
+{
+  "description": "Indices of records in A391055.",
+  "id": "A391267",
+  "mentions": [
+    "A391055",
+    "A391266"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

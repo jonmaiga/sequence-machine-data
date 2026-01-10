@@ -1,11 +1,13 @@
 {
-  "description": "Prime factor addition sequence: For the term n, add all the prime factors of n to n. If n is a prime then add n to it. Start with n = 3.",
+  "description": "a(n+1) is the sum of a(n) and the prime factors of a(n), counted with multiplicity. Start with a(0) = 3.",
   "id": "A192896",
   "mentions": [
     "A001414",
+    "A075254",
     "A096461"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

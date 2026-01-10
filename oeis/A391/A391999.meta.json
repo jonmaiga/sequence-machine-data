@@ -1,0 +1,23 @@
+{
+  "description": "Number of undirected closed knight's tours on a 9 X (2n) board.",
+  "id": "A391999",
+  "mentions": [
+    "A000004",
+    "A001230",
+    "A169764",
+    "A175855",
+    "A175881",
+    "A193054",
+    "A193055",
+    "A392000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

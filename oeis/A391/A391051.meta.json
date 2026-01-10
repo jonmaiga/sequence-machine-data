@@ -1,0 +1,16 @@
+{
+  "description": "Number of combinatorially distinct (n-1)-dimensional links in all edgewise triangulations of a simplex.",
+  "id": "A391051",
+  "mentions": [
+    "A000041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

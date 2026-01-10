@@ -1,7 +1,12 @@
 {
   "description": "Triangle T(n,k) for A(x)^k=sum(n>=k T(n,k)*x^n), where o.g.f. A(x) satisfies A(x)=(1+x*A(x)^3)/(1-x*A(x)^3).",
   "id": "A187920",
-  "mentions": [],
+  "mentions": [
+    "A144097",
+    "A365843",
+    "A371675",
+    "A378238"
+  ],
   "tags": [
     "formulas",
     "nonn",

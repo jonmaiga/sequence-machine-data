@@ -1,0 +1,30 @@
+{
+  "description": "Sum of the two greatest prime indices of n, or 0 if n is 1 or a prime number.",
+  "id": "A390363",
+  "mentions": [
+    "A055396",
+    "A056239",
+    "A061395",
+    "A074320",
+    "A112798",
+    "A124010",
+    "A243055",
+    "A243056",
+    "A286470",
+    "A333352",
+    "A339114",
+    "A355536",
+    "A360006",
+    "A390430",
+    "A390988",
+    "A391226"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

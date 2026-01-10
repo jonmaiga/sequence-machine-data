@@ -1,0 +1,17 @@
+{
+  "description": "Number of chord-connected permutations on [n].",
+  "id": "A390400",
+  "mentions": [
+    "A000142",
+    "A075834"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

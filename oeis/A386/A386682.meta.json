@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sum of digits of k equals sum of digits of 1/k.",
+  "id": "A386682",
+  "mentions": [
+    "A003592",
+    "A007953",
+    "A070276",
+    "A204324"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

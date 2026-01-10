@@ -2,12 +2,19 @@
   "description": "Period of the continued fraction for sqrt(2^n-1).",
   "id": "A059866",
   "mentions": [
+    "A000225",
     "A003285",
+    "A059853",
+    "A059854",
+    "A059855",
     "A059926",
     "A059927",
+    "A062328",
+    "A062345",
     "A064932"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

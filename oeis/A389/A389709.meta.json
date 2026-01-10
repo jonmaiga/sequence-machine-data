@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: denominators of the almost-Riordan array ( (1 - x + sqrt(1 - 2*x))/(1 - 2*x + (1 - x)*sqrt(1 - 2*x)) | 2/(1 - 2*x + (1 - x)*sqrt(1 - 2*x)), 2*(1 - x - sqrt(1 - 2*x))/x ).",
+  "id": "A389709",
+  "mentions": [
+    "A373744",
+    "A373746",
+    "A389707",
+    "A389708",
+    "A389711",
+    "A389740"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

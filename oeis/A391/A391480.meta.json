@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled magmas with n elements and k idempotents.",
+  "id": "A391480",
+  "mentions": [
+    "A002489",
+    "A038018",
+    "A090588",
+    "A391154",
+    "A391481",
+    "A391482"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Number of connected bipartite cubic graphs with 2*n nodes and exactly one edge-Kempe equivalence class.",
+  "description": "Number of connected bipartite cubic simple graphs on 2*n unlabeled nodes with a unique 3-edge-coloring up to edge-Kempe equivalence.",
   "id": "A358282",
   "mentions": [
-    "A006823"
+    "A006823",
+    "A357447"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 12,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

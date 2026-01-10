@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the real solution of 2*sqrt(1-h^2) - Pi*h + 2*h*arcsin(h) = 1.",
+  "id": "A391400",
+  "mentions": [
+    "A086751",
+    "A390401"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

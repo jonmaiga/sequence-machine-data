@@ -1,27 +1,32 @@
 {
-  "description": "Numbers n such that binary expansion matches ((0)*00(1?)1)*(0*).",
+  "description": "Numbers k such that (k AND 4*k) = 0, where AND is bitwise-and.",
   "id": "A048716",
   "mentions": [
     "A003714",
     "A003726",
+    "A004198",
     "A004742",
     "A048715",
     "A048719",
+    "A048720",
     "A048725",
     "A048729",
+    "A115422",
     "A115845",
     "A115847",
     "A116360",
-    "A116361"
+    "A116361",
+    "A391740"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 63,
+    "size": 72,
     "source": "oeis-bfile"
   }
 }

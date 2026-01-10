@@ -1,8 +1,9 @@
 {
-  "description": "Floor(n+n^(2/3)).",
+  "description": "a(n) = floor(n + n^(2/3)).",
   "id": "A135674",
   "mentions": [
     "A028391",
+    "A100196",
     "A135660",
     "A135661",
     "A135662",
@@ -18,6 +19,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

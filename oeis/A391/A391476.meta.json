@@ -1,0 +1,17 @@
+{
+  "description": "For n >= 1, a(n) is the sum of the number of divisors A000005(r) for all distinct, nonzero numbers r formed by permuting subsets of the digits of n.",
+  "id": "A391476",
+  "mentions": [
+    "A000005",
+    "A179933"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

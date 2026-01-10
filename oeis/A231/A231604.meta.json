@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (42^n + 1)/43 is prime.",
+  "description": "Numbers k such that (42^k + 1)/43 is prime.",
   "id": "A231604",
   "mentions": [
     "A000978",

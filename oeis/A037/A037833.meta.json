@@ -2,7 +2,16 @@
   "description": "Number of i such that d(i) >= d(i-1), where Sum_{i=0..m} d(i)*10^i is the base-10 representation of n.",
   "id": "A037833",
   "mentions": [
-    "A037817"
+    "A000027",
+    "A033265",
+    "A037817",
+    "A037826",
+    "A037827",
+    "A037828",
+    "A037829",
+    "A037830",
+    "A037831",
+    "A037832"
   ],
   "tags": [
     "base",
@@ -11,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,16 +1,21 @@
 {
-  "description": "Integers i such that 9*i XOR 16*i = 25*i.",
+  "description": "Numbers k such that 9*k XOR 16*k = 25*k, or equally, that 9*k AND 16*k = 0, where AND is bitwise-and.",
   "id": "A115831",
   "mentions": [
     "A003987",
-    "A115832"
+    "A004198",
+    "A007088",
+    "A115422",
+    "A115832",
+    "A391737"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

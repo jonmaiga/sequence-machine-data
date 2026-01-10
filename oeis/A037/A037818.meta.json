@@ -1,9 +1,17 @@
 {
-  "description": "Number of i such that d(i)>d(i-1), where Sum{d(i)*3^i: i=0,1,....,m} is base 3 representation of n.",
+  "description": "Number of i such that d(i) > d(i-1), where Sum_{i=0..m} d(i)*3^i is the base-3 representation of n.",
   "id": "A037818",
   "mentions": [
     "A007089",
-    "A037801"
+    "A033264",
+    "A037801",
+    "A037819",
+    "A037820",
+    "A037821",
+    "A037822",
+    "A037823",
+    "A037824",
+    "A037825"
   ],
   "tags": [
     "base",
@@ -12,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

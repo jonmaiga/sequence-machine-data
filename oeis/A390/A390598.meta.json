@@ -1,0 +1,19 @@
+{
+  "description": "Constant congruence speed in the senary numeral system of the tetration base n, or -1 if n is a multiple of 6.",
+  "id": "A390598",
+  "mentions": [
+    "A317905",
+    "A373387",
+    "A390597"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of nondecreasing integer sequences of length k with sum zero and sum of absolute values 2n.",
+  "id": "A389686",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A109613",
+    "A158138",
+    "A158139",
+    "A158140",
+    "A158141",
+    "A158142",
+    "A158143",
+    "A158184"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

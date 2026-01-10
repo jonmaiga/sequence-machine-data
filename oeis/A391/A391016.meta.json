@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of an observed ratio describing the separation of level sets in Collatz orbits.",
+  "id": "A391016",
+  "mentions": [
+    "A127824",
+    "A391017",
+    "A391018"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

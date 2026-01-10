@@ -1,0 +1,25 @@
+{
+  "description": "Least k such that k + A005117(i) is squarefree with i prime factors, for 1 <= i <= n.",
+  "id": "A389393",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A006881",
+    "A007304",
+    "A046386",
+    "A046387",
+    "A056170",
+    "A067885"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

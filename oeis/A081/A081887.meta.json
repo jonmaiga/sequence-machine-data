@@ -1,13 +1,15 @@
 {
   "description": "Numbers k such that lcm(1..k) equals the denominator of the sum of the first k harmonic numbers.",
   "id": "A081887",
-  "mentions": [],
+  "mentions": [
+    "A003418"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

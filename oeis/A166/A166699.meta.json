@@ -1,7 +1,16 @@
 {
   "description": "Totally multiplicative sequence with a(p) = a(p-1) + 2 for prime p.",
   "id": "A166699",
-  "mentions": [],
+  "mentions": [
+    "A166700",
+    "A166701",
+    "A166702",
+    "A166703",
+    "A166704",
+    "A166705",
+    "A166706",
+    "A166707"
+  ],
   "tags": [
     "formulas",
     "mult",
@@ -9,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "joeis"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

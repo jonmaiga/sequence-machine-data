@@ -1,8 +1,9 @@
 {
-  "description": "a(n) is the size of largest subset of {1, 1/2, ..., 1/n} that can be partitioned into two parts, the sum of elements of which are equal.",
+  "description": "a(n) is the size of largest subset of {1, 1/2, ..., 1/n} that can be partitioned into two parts with equal sums of elements.",
   "id": "A386820",
   "mentions": [
     "A001008",
+    "A025529",
     "A098181"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 79,
     "source": "oeis-entry"
   }
 }

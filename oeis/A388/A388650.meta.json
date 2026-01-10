@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that psi(k) = phi(k) + pi(k).",
+  "id": "A388650",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A001615",
+    "A067788",
+    "A387999",
+    "A388000"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

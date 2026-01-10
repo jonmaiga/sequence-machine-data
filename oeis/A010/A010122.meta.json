@@ -2,7 +2,10 @@
   "description": "Continued fraction for sqrt(13).",
   "id": "A010122",
   "mentions": [
-    "A010470"
+    "A010470",
+    "A041018",
+    "A041019",
+    "A248242"
   ],
   "tags": [
     "cofr",

@@ -1,5 +1,5 @@
 {
-  "description": "(12n+6)^5.",
+  "description": "a(n) = (12*n + 6)^5.",
   "id": "A017597",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 22,
     "source": "joeis"
   }
 }

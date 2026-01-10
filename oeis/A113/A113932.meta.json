@@ -1,16 +1,21 @@
 {
-  "description": "(RSA-2048)-10^n = prime where RSA-2048 is the 617 decimal digit unfactored RSA challenge number.",
+  "description": "Numbers k such that abs(RSA-2048 - 10^k) is prime, where RSA-2048 is the 617 decimal digit number A391940(54).",
   "id": "A113932",
-  "mentions": [],
+  "mentions": [
+    "A108881",
+    "A113928",
+    "A113931",
+    "A113934",
+    "A391940"
+  ],
   "tags": [
-    "base",
-    "fini",
-    "full",
+    "less",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

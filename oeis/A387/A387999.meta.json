@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + pi(k).",
+  "id": "A387999",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A001615",
+    "A067788",
+    "A387953",
+    "A389478"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

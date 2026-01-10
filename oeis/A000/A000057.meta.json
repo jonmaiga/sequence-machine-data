@@ -1,5 +1,5 @@
 {
-  "description": "Primes dividing all Fibonacci sequences.",
+  "description": "Primes that divide at least one term in every Fibonacci sequence.",
   "id": "A000057",
   "mentions": [
     "A001175",
@@ -8,7 +8,9 @@
     "A079346",
     "A106535",
     "A115004",
-    "A213648"
+    "A213648",
+    "A232656",
+    "A389401"
   ],
   "tags": [
     "nonn"

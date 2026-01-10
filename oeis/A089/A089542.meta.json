@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least semiprime > n^n.",
+  "description": "a(n) is the least semiprime >= n^n.",
   "id": "A089542",
   "mentions": [
     "A001358",

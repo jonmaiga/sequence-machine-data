@@ -2,9 +2,14 @@
   "description": "Odd numbers that are neither primes nor prime powers.",
   "id": "A061346",
   "mentions": [
+    "A024556",
+    "A024619",
     "A061345",
     "A070826",
-    "A225375"
+    "A071904",
+    "A225375",
+    "A244623",
+    "A360769"
   ],
   "tags": [
     "easy",

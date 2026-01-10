@@ -1,0 +1,22 @@
+{
+  "description": "Smallest nonnegative integer with a constant congruence speed >= n (see A373387 for the definition of \"constant congruence speed\").",
+  "id": "A389432",
+  "mentions": [
+    "A317905",
+    "A337392",
+    "A339313",
+    "A373387",
+    "A387664"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

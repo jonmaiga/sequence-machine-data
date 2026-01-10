@@ -19,12 +19,11 @@
     "A320331"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

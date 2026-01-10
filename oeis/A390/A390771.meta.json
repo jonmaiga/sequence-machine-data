@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimal concatenation pq of two primes p <= q such that p + q = 2*n.",
+  "id": "A390771",
+  "mentions": [
+    "A000040",
+    "A014091",
+    "A073046",
+    "A157931"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

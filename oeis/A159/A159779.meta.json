@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (56211+34510*sqrt(2))/167^2.",
+  "description": "Decimal expansion of (56211 + 34510*sqrt(2))/167^2.",
   "id": "A159779",
   "mentions": [
     "A002193",

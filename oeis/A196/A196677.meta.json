@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of the divisors of n equals the sum of the reversals of the divisors of n. Numbers with all palindrome divisors are not in the sequence.",
+  "description": "Numbers k such that sum of the divisors of k equals the sum of the reversals of the divisors of k. Numbers with all palindrome divisors are not in the sequence.",
   "id": "A196677",
   "mentions": [
     "A000203",

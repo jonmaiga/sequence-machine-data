@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k for which a chain of linked rods of length 1, ..., k can be folded in half in exactly n dictinct ways.",
+  "id": "A390056",
+  "mentions": [
+    "A000217",
+    "A380867",
+    "A380868",
+    "A382605"
+  ],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

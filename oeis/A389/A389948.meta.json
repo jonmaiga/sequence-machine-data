@@ -1,0 +1,19 @@
+{
+  "description": "Shell enumeration of the upper halfplane. Terms are interleaved x and y coordinates.",
+  "id": "A389948",
+  "mentions": [
+    "A296030",
+    "A319514",
+    "A389352",
+    "A389648",
+    "A389649"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

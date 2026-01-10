@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k for which the Collatz 3x+1 dropping value (first value < k) is prime.",
+  "id": "A387787",
+  "mentions": [
+    "A006370",
+    "A060565",
+    "A070165",
+    "A074473",
+    "A100484"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

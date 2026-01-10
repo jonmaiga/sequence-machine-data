@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to form Stern polynomial B(n,x) as a product of two Stern polynomials B(i,x), B(j,x), when the order matters.",
+  "id": "A391239",
+  "mentions": [
+    "A000005",
+    "A125184",
+    "A260443",
+    "A391240",
+    "A391241",
+    "A391260"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose final digit is at most 2.",
+  "id": "A391163",
+  "mentions": [
+    "A001477",
+    "A002264",
+    "A008592",
+    "A010872",
+    "A017281",
+    "A017293",
+    "A054967",
+    "A197652",
+    "A272576",
+    "A293292",
+    "A390774",
+    "A391164"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

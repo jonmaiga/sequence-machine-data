@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle where the n-th row gives coefficients of the minimal irreducible polynomial, that has a root at the elliptic modular lambda-star function evaluated in n.",
+  "id": "A389848",
+  "mentions": [
+    "A000003",
+    "A078878",
+    "A084540",
+    "A305474",
+    "A305475",
+    "A305494"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

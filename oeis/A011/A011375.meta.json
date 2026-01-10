@@ -1,16 +1,18 @@
 {
-  "description": "Length of n-th term in A006960.",
+  "description": "Number of decimal digits in the n-th term of A006960.",
   "id": "A011375",
   "mentions": [
-    "A006960"
+    "A006960",
+    "A055642"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 60,
-    "source": "joeis"
+    "size": 71,
+    "source": "oeis-bfile"
   }
 }

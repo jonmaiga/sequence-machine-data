@@ -1,13 +1,16 @@
 {
-  "description": "Triangle read by rows: A051731 * A010766 as infinite lower triangular matrices.",
+  "description": "Triangle read by rows: T(n,k) = Sum_{d|n} floor(d/k).",
   "id": "A143355",
   "mentions": [
     "A000203",
     "A010766",
     "A051731",
+    "A086670",
+    "A135539",
     "A143356"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

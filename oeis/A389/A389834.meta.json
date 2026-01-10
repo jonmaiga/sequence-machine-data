@@ -1,0 +1,16 @@
+{
+  "description": "Odd spoof k-perfect numbers of order <= 10.",
+  "id": "A389834",
+  "mentions": [
+    "A222262"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

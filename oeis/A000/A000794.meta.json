@@ -1,5 +1,5 @@
 {
-  "description": "Permanent of projective plane of order n.",
+  "description": "Permanent of the Desarguesian projective plane PG(2,n), or 0 if such plane does not exist.",
   "id": "A000794",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 6,
+    "offset": 0,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

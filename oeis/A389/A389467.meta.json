@@ -1,0 +1,19 @@
+{
+  "description": "Number of natural numbers in range [n .. A003961(n)-1] that are coprime to n.",
+  "id": "A389467",
+  "mentions": [
+    "A001359",
+    "A003961",
+    "A389464",
+    "A389468"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

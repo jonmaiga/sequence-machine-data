@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that the sum of unitary divisors (A034448) is equal to the sum of exponential divisors (A051377).",
+  "description": "Numbers whose sum of unitary divisors (A034448) is equal to the sum of exponential divisors (A051377).",
   "id": "A236474",
   "mentions": [
     "A034448",

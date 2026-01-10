@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp((g^4 - 1)/4), where g = 1+x*g^2 is the g.f. of A000108.",
+  "id": "A391555",
+  "mentions": [
+    "A000108",
+    "A391544"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

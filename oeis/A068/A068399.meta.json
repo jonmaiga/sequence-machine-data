@@ -2,10 +2,13 @@
   "description": "Number of digits in numerator of B(2n) the Bernoulli numbers.",
   "id": "A068399",
   "mentions": [
+    "A000367",
+    "A055642",
     "A092904"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n that have divisor d > 1 such that A048720(A065621(d),n/d) = n.",
+  "description": "Odd numbers k that have divisor d > 1 such that A048720(A065621(d),k/d) = k.",
   "id": "A325573",
   "mentions": [
     "A048720",
@@ -9,9 +9,15 @@
     "A325566",
     "A325567",
     "A325571",
-    "A325572"
+    "A325572",
+    "A391246",
+    "A391247",
+    "A391248",
+    "A391253",
+    "A391343"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

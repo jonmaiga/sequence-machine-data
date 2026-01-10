@@ -2,9 +2,14 @@
   "description": "Number of labeled trees on n nodes with maximum degree three and three vertices of degree three.",
   "id": "A355023",
   "mentions": [
+    "A001113",
+    "A001620",
+    "A091725",
+    "A099285",
     "A355024"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

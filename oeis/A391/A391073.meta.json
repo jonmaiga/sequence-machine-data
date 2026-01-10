@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of nondegenerate triangles (n, n + d, n + 2*d) with integer area for some nonnegative integers d.",
+  "id": "A391073",
+  "mentions": [
+    "A024164",
+    "A336750",
+    "A351178",
+    "A379663",
+    "A387908"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

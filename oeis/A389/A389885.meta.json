@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/7142857.",
+  "id": "A389885",
+  "mentions": [
+    "A007732",
+    "A020806"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

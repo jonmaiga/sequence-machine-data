@@ -1,0 +1,16 @@
+{
+  "description": "Fixed points of A388007.",
+  "id": "A389846",
+  "mentions": [
+    "A388007"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -2,11 +2,13 @@
   "description": "The number of unitary 3-smooth divisors of n.",
   "id": "A382488",
   "mentions": [
+    "A000005",
     "A003586",
     "A005117",
     "A034444",
     "A065331",
     "A072078",
+    "A089128",
     "A134451",
     "A181982",
     "A382487",

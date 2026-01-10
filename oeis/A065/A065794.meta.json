@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of all possible subsequences of the digits in n, excluding n itself, sums to n.",
+  "description": "Numbers k such that the sum of all possible subsequences of the digits in k, excluding k itself, is k.",
   "id": "A065794",
   "mentions": [
     "A153980"

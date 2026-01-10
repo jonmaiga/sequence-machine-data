@@ -1,14 +1,16 @@
 {
   "description": "Numbers whose base-8 representation has an even number of runs.",
   "id": "A043697",
-  "mentions": [],
+  "mentions": [
+    "A007094"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 58,
-    "source": "joeis"
+    "size": 67,
+    "source": "oeis-bfile"
   }
 }

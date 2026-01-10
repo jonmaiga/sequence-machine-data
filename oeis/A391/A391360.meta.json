@@ -1,0 +1,25 @@
+{
+  "description": "Number of irreducible elements of Z[(1+sqrt(-15))/2] (the ring of integers of Q(sqrt(-15))) of norm n up to association.",
+  "id": "A391360",
+  "mentions": [
+    "A033212",
+    "A091731",
+    "A106859",
+    "A191018",
+    "A191062",
+    "A341786",
+    "A390422",
+    "A391361",
+    "A391362",
+    "A391363"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,13 +1,18 @@
 {
-  "description": "IntegerPart(PolyGamma(n,1)).",
+  "description": "a(n) = IntegerPart(PolyGamma(n,1)).",
   "id": "A144167",
-  "mentions": [],
+  "mentions": [
+    "A144168",
+    "A144169",
+    "A144170"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

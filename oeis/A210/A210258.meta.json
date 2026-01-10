@@ -3,15 +3,19 @@
   "id": "A210258",
   "mentions": [
     "A000041",
-    "A115131"
+    "A026791",
+    "A115131",
+    "A330417",
+    "A334437"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 72,
-    "source": "oeis-entry"
+    "size": 96,
+    "source": "oeis-bfile"
   }
 }

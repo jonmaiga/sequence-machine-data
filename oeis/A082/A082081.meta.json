@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = fixed point when the pseudo-log function A008475[ ] is iterated.",
+  "description": "a(n) = fixed point reached when the pseudo-log function A008475 is iterated starting from n.",
   "id": "A082081",
   "mentions": [
     "A000961",

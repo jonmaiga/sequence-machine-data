@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: greatest odd divisor of A391261(n,k), signed; 0 if A391261(n,k) = 0.",
+  "id": "A391387",
+  "mentions": [
+    "A000265",
+    "A055034",
+    "A389480",
+    "A391261",
+    "A391386"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

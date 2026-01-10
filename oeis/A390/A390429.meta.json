@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions that are the first sums of some integer partition of n > 0.",
+  "id": "A390429",
+  "mentions": [
+    "A000041",
+    "A027934",
+    "A056239",
+    "A110475",
+    "A112798",
+    "A124010",
+    "A342527",
+    "A355523",
+    "A390307",
+    "A390362",
+    "A390446",
+    "A390447",
+    "A390448",
+    "A390449",
+    "A390567"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

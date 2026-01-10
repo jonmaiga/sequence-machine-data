@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between two adjacent pentagonal faces (meeting at their longest edge) in a Dürer's solid.",
+  "id": "A391656",
+  "mentions": [
+    "A002163",
+    "A080992",
+    "A238238",
+    "A391653",
+    "A391654",
+    "A391655",
+    "A391657"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

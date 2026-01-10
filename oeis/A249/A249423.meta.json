@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that A249150(n) = n; integers n such that A249151(n) = n+1.",
+  "description": "Integers k such that A249150(k) = k; integers k such that A249151(k) = k+1.",
   "id": "A249423",
   "mentions": [
     "A000142",

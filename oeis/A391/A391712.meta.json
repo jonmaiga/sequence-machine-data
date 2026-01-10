@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci numbers whose indices are even positive numbers with an even number of prime factors (counted with multiplicity).",
+  "id": "A391712",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A063745",
+    "A153386",
+    "A391710",
+    "A391711"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

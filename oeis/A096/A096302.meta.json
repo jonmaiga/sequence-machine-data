@@ -2,7 +2,8 @@
   "description": "Number of combinations of two natural numbers that together have n digits.",
   "id": "A096302",
   "mentions": [
-    "A053541"
+    "A053541",
+    "A212704"
   ],
   "tags": [
     "base",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

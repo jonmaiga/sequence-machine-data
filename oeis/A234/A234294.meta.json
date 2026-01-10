@@ -1,11 +1,12 @@
 {
-  "description": "E.g.f. satisfies: A(x) = 1 + A(x)^4 * Integral 1/A(x)^4 dx.",
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + A(x)^4 * Integral 1/A(x)^4 dx.",
   "id": "A234294",
   "mentions": [
     "A000108",
     "A002293",
     "A006351",
     "A058562",
+    "A201466",
     "A234295"
   ],
   "tags": [
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

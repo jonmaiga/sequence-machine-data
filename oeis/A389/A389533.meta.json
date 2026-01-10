@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the largest number m in base n such that the digits of the pair (m, 2*m) use every digit in base n exactly once; a(n) = 0 if no such number exists.",
+  "id": "A389533",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

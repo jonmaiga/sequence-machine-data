@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/4) * Sum_{k=0..floor(n/2)} (k+2) * 2^k * binomial(2*k+2,2*n-4*k+1).",
+  "id": "A391833",
+  "mentions": [
+    "A391830",
+    "A391836"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

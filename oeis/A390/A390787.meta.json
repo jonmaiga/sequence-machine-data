@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k such that there are exactly n integers between (1/6)*prime(k) and (1/6)*prime(k+1).",
+  "id": "A390787",
+  "mentions": [
+    "A390785",
+    "A390786",
+    "A390788"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

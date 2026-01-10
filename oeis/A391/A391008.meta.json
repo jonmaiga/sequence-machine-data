@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = [x^k] Sum_{j=0..n} FallingFactorial(n, j)*RisingFactorial(x, j).",
+  "id": "A391008",
+  "mentions": [
+    "A008279",
+    "A046662",
+    "A124320"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

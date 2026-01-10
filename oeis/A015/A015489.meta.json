@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(1)=4, a(n) = sum_{k=0}^{k=n-1} 4^k a(k).",
+  "description": "a(0)=1, a(1)=4, a(n) = Sum_{k=0..n-1} 4^k*a(k).",
   "id": "A015489",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 14,
     "source": "joeis"
   }
 }

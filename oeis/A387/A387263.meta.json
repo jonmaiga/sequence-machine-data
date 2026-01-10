@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of A247287.",
+  "id": "A387263",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A002426",
+    "A097861",
+    "A180282",
+    "A247287",
+    "A383527",
+    "A385641",
+    "A390369",
+    "A391467"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

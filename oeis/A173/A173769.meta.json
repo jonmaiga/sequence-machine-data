@@ -2,16 +2,18 @@
   "description": "Primes in A154117.",
   "id": "A173769",
   "mentions": [
+    "A058588",
     "A154117",
     "A172156"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

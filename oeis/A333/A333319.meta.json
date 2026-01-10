@@ -2,7 +2,8 @@
   "description": "a(n) is the number of subsets of {1..n} that contain exactly 3 odd and 1 even numbers.",
   "id": "A333319",
   "mentions": [
-    "A330299"
+    "A330299",
+    "A348670"
   ],
   "tags": [
     "easy",

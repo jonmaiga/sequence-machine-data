@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x^2*A(x)^2 / (1-x*A(x)) ) / (1-x*A(x)).",
+  "id": "A387964",
+  "mentions": [
+    "A144085",
+    "A387965",
+    "A387966"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

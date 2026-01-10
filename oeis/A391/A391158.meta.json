@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled semigroups with n elements and empty center.",
+  "id": "A391158",
+  "mentions": [
+    "A023814",
+    "A391157",
+    "A391160"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

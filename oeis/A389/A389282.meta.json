@@ -1,0 +1,19 @@
+{
+  "description": "Total sum of lengths of the longest decreasing sequences in heapable permutations of length n.",
+  "id": "A389282",
+  "mentions": [
+    "A336282",
+    "A386382",
+    "A390146"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

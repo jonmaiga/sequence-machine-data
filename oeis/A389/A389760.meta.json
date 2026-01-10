@@ -1,0 +1,22 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths on the 8 X n knight graph.",
+  "id": "A389760",
+  "mentions": [
+    "A079137",
+    "A083386",
+    "A169696",
+    "A306281",
+    "A306283",
+    "A308131",
+    "A389758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

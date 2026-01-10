@@ -1,0 +1,25 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = (2*n + 1)*2^(2*k+1) - 1 with k >= 0.",
+  "id": "A391685",
+  "mentions": [
+    "A016813",
+    "A020989",
+    "A083420",
+    "A098713",
+    "A140529",
+    "A153465",
+    "A206372",
+    "A391686"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

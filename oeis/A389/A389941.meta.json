@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the number of non-isomorphic non-adjacent self-avoiding paths in an n X n grid which leave unused cells divided into groups of size n.",
+  "id": "A389941",
+  "mentions": [
+    "A331968",
+    "A331986",
+    "A332920"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

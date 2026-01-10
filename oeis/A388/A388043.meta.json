@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3*n-2*k,n-k).",
+  "id": "A388043",
+  "mentions": [
+    "A001764",
+    "A006134",
+    "A038736",
+    "A045721",
+    "A066380",
+    "A188675",
+    "A390358",
+    "A390359",
+    "A390407",
+    "A390499"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

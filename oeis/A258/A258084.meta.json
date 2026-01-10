@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n concatenated with its reversal n' yields a prime when the rightmost digit of n and leftmost digit of n' are coalesced.",
+  "description": "Numbers k such that k concatenated with its reversal k' yields a prime when the rightmost digit of k and leftmost digit of k' are coalesced.",
   "id": "A258084",
   "mentions": [
     "A000040",

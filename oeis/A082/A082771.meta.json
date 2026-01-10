@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array, read by rows: t(n,k) = Sum_{d|n} d^k, 0 <= k < n.",
+  "description": "Triangular array, read by rows: T(n,k) = Sum_{d|n} d^k, 0 <= k < n.",
   "id": "A082771",
   "mentions": [
     "A000005",

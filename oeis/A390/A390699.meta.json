@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of cos(7*Pi/33).",
+  "id": "A390699",
+  "mentions": [
+    "A387440",
+    "A387450",
+    "A389480",
+    "A390698"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

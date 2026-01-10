@@ -1,16 +1,18 @@
 {
-  "description": "A symmetrical binomial product triangle sequence:q=2; t(n,m,q)=If[n == 0 || n == 1, 1, Product[Binomial[n + i, m + i], {i, -Floor[q/2], Floor[q/2]}] + Product[Binomial[n + i, n - m + i], {i, -Floor[q/2], Floor[q/2]}]].",
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k)*(binomial(n-1,k-1)*binomial(n+1,k+1) + binomial(n-1,k)*binomial(n+1,k)), with T(0,0) = 1.",
   "id": "A174148",
-  "mentions": [],
+  "mentions": [
+    "A007586",
+    "A277188"
+  ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

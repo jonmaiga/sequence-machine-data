@@ -2,8 +2,8 @@
   "description": "Primes p such that either p - 5/2 -+ 7/2 is prime.",
   "id": "A172071",
   "mentions": [
-    "A000040",
-    "A046117"
+    "A046117",
+    "A067831"
   ],
   "tags": [
     "nonn"

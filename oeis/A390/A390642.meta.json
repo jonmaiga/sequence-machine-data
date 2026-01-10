@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer k such that the number of sums a(i) + a(j) <= k for i <= j < n is less than k - n + 1.",
+  "id": "A390642",
+  "mentions": [
+    "A000041",
+    "A026906",
+    "A061784",
+    "A368434",
+    "A385352"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

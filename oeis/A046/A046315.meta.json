@@ -2,9 +2,17 @@
   "description": "Odd semiprimes: odd numbers divisible by exactly 2 primes (counted with multiplicity).",
   "id": "A046315",
   "mentions": [
+    "A001248",
     "A001358",
     "A046388",
-    "A085770"
+    "A080774",
+    "A085770",
+    "A108181",
+    "A353480",
+    "A384940",
+    "A391253",
+    "A391257",
+    "A391330"
   ],
   "tags": [
     "formulas",

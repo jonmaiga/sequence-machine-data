@@ -1,0 +1,21 @@
+{
+  "description": "Triangle array read by rows: T(n,k) = T(n-1,k) + T(n-1,k-1) + T(n-2,k-1) + 1 with T(0,0) = T(n,-1) = T(n,n+1) = 0.",
+  "id": "A391318",
+  "mentions": [
+    "A000332",
+    "A002061",
+    "A051743",
+    "A391272"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

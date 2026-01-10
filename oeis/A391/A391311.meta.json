@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} HurwitzZeta(k-n, k) - HurwitzZeta(k-n, n).",
+  "id": "A391311",
+  "mentions": [
+    "A391310",
+    "A391313"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

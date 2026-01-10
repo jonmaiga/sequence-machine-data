@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor( tau*a(n-2) ) + a(n-1) where tau is the golden ratio.",
+  "description": "a(n) = floor(phi*a(n-2)) + a(n-1) where phi is the golden ratio.",
   "id": "A005834",
   "mentions": [],
   "tags": [

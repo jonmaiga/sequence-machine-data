@@ -10,11 +10,12 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

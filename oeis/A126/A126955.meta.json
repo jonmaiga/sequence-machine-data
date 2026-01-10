@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2n+1, 3n+2 and 4n+3 are primes.",
+  "description": "Numbers k such that 2*k+1, 3*k+2 and 4*k+3 are primes.",
   "id": "A126955",
   "mentions": [
     "A005097",

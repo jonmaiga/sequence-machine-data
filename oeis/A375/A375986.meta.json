@@ -1,15 +1,19 @@
 {
   "description": "Maximum number of edges in a simple polygon that is the union of n triangles.",
   "id": "A375986",
-  "mentions": [],
+  "mentions": [
+    "A006066",
+    "A090338",
+    "A090339",
+    "A250001"
+  ],
   "tags": [
-    "bref",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -1,11 +1,15 @@
 {
-  "description": "Numbers n such that 36n - 7, 36n - 6, 36n - 5, 36n - 3, 36n - 2, 36n - 1, 36n + 1, 36n + 2, 36n + 3, 36n + 5, 36n + 6 and 36n + 7 are all squarefree.",
+  "description": "Numbers k such that 36k - 7, 36k - 6, 36k - 5, 36k - 3, 36k - 2, 36k - 1, 36k + 1, 36k + 2, 36k + 3, 36k + 5, 36k + 6 and 36k + 7 are all squarefree.",
   "id": "A283668",
   "mentions": [
     "A005117",
-    "A283628"
+    "A053797",
+    "A068088",
+    "A283628",
+    "A390138"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

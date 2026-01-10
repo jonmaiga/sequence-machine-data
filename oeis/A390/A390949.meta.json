@@ -1,0 +1,24 @@
+{
+  "description": "Nonsquarefree weak numbers that have more than 2 distinct prime factors.",
+  "id": "A390949",
+  "mentions": [
+    "A000977",
+    "A001221",
+    "A007947",
+    "A013929",
+    "A052485",
+    "A332785",
+    "A345381",
+    "A375055",
+    "A388305"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The maximum exponent in the prime factorization of the exponentially squarefree numbers (A209061).",
+  "id": "A391899",
+  "mentions": [
+    "A008683",
+    "A051903",
+    "A209061",
+    "A262276",
+    "A375766",
+    "A375768",
+    "A391898"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

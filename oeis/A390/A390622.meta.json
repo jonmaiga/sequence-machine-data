@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed polynars with n cells.",
+  "id": "A390622",
+  "mentions": [
+    "A001168",
+    "A390620",
+    "A390621"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

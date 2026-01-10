@@ -2,6 +2,7 @@
   "description": "a(n) = ((n+1)^n + (n-1)^n)/2.",
   "id": "A062024",
   "mentions": [
+    "A073744",
     "A302583"
   ],
   "tags": [

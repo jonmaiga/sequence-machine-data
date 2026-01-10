@@ -1,15 +1,17 @@
 {
-  "description": "Number of simple graphs with 3 edges on n vertices.",
+  "description": "Number of simple graphs with 3 edges on n unlabeled vertices.",
   "id": "A085600",
   "mentions": [
     "A000088"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 90,
+    "source": "joeis"
   }
 }

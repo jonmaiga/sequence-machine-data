@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*n! is not a refactorable number.",
+  "description": "Numbers k such that 2*k! is not a refactorable number.",
   "id": "A281291",
   "mentions": [
     "A019434",

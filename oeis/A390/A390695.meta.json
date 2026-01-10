@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations f of {1,...,n} with f(1) = 1 such that the n numbers prime(k) + prime(f(k)) + 1 (k = 1..n) are distinct primes.",
+  "id": "A390695",
+  "mentions": [
+    "A000040",
+    "A321727"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

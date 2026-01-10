@@ -1,5 +1,5 @@
 {
-  "description": "Maximum exponent in the prime factorization of the exponent of the highest power of 2 dividing 2*n.",
+  "description": "Maximum exponent in the prime factorization of the exponent of the highest power of 2 dividing 4*n.",
   "id": "A386260",
   "mentions": [
     "A001511",
@@ -9,6 +9,7 @@
   "tags": [
     "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {

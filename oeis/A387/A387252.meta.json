@@ -1,0 +1,17 @@
+{
+  "description": "Number of possible bidding sequences of length n in contract bridge.",
+  "id": "A387252",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/(n+1)) * Sum_{k=0..n} k^4 * (k+1) * binomial(2*n-k,n-k).",
+  "id": "A390967",
+  "mentions": [
+    "A000108",
+    "A390964",
+    "A390965",
+    "A390966"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of self-dual Catalan triangles of size 2*n+1.",
+  "id": "A391973",
+  "mentions": [
+    "A390493",
+    "A391969"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

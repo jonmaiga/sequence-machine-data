@@ -2,6 +2,8 @@
   "description": "Numbers k such that phi(k) | sigma_8(k).",
   "id": "A015766",
   "mentions": [
+    "A000010",
+    "A013956",
     "A015759",
     "A015762",
     "A015770",

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there are no nontrivial factorizations of Stern polynomial B(k,x) to a pair of Stern polynomials B(i,x), B(j,x).",
+  "id": "A391241",
+  "mentions": [
+    "A000040",
+    "A186891",
+    "A389918",
+    "A391240",
+    "A391260"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -27,11 +27,12 @@
     "A359043"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

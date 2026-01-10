@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci numbers whose indices are prime Fibonacci numbers: a(n) = Fibonacci(A001605(n)).",
+  "description": "Fibonacci numbers whose indices are prime Fibonacci numbers: a(n) = Fibonacci(Fibonacci(A001605(n))).",
   "id": "A135724",
   "mentions": [
     "A000045",

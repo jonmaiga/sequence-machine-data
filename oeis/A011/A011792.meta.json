@@ -2,10 +2,14 @@
   "description": "Number of directed animals on a certain lattice.",
   "id": "A011792",
   "mentions": [
+    "A011789",
+    "A011790",
+    "A011791",
     "A295537"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn",
     "obsc",
     "unkn"

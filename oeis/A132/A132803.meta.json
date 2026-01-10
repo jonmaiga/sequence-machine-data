@@ -1,14 +1,23 @@
 {
-  "description": "Number of simple permutations in S_n, i.e., those whose \"cycle graph\" (or \"breakpoint graph\") only contains alternating cycles of length at most 3.",
+  "description": "Number of unsigned permutations of size n whose \"cycle graph\" (or \"breakpoint graph\") is composed of alternating cycles of length at most 3.",
   "id": "A132803",
-  "mentions": [],
+  "mentions": [
+    "A164652",
+    "A178217",
+    "A189507",
+    "A264614",
+    "A264615",
+    "A264616",
+    "A264617",
+    "A300003"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

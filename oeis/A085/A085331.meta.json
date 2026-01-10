@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(rev(n))=n.",
+  "description": "Numbers k such that phi(rev(k)) = k.",
   "id": "A085331",
   "mentions": [
     "A000010",

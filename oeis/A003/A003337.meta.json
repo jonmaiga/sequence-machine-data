@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which are the sum of 3 nonzero 4th powers.",
+  "description": "Numbers which are the sum of 3 nonzero 4th powers.",
   "id": "A003337",
   "mentions": [
     "A000404",

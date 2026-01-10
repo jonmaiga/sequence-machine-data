@@ -1,5 +1,5 @@
 {
-  "description": "(12n+4)^4.",
+  "description": "a(n) = (12*n + 4)^4.",
   "id": "A017572",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

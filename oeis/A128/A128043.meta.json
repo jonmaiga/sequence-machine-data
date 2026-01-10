@@ -1,5 +1,5 @@
 {
-  "description": "(n^3+n)*6^n.",
+  "description": "a(n) = (n^3 + n)*6^n.",
   "id": "A128043",
   "mentions": [
     "A128796",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

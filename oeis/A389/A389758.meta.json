@@ -1,0 +1,16 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths on the first n cells of the 8 X ceiling(n/8) knight graph.",
+  "id": "A389758",
+  "mentions": [
+    "A389760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

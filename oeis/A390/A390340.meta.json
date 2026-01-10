@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(3*x)*(exp(2*x) - x^2 - x).",
+  "id": "A390340",
+  "mentions": [
+    "A000351",
+    "A383136"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

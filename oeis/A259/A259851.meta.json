@@ -1,5 +1,5 @@
 {
-  "description": "Numbers x such that x = concat(a, b) and a’ * b’ = x, where a’ and b’ are the arithmetic derivatives of a and b.",
+  "description": "Numbers x such that x = concat(a, b) and a' * b' = x, where a' and b' are the arithmetic derivatives of a and b.",
   "id": "A259851",
   "mentions": [
     "A003415"

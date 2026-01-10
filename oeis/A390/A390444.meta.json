@@ -1,0 +1,30 @@
+{
+  "description": "Number of multisets whose first sums are the prime indices of 2n + 1.",
+  "id": "A390444",
+  "mentions": [
+    "A001222",
+    "A004709",
+    "A031215",
+    "A055396",
+    "A056239",
+    "A112798",
+    "A124010",
+    "A243055",
+    "A325328",
+    "A355536",
+    "A390307",
+    "A390362",
+    "A390445",
+    "A390448",
+    "A390449"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

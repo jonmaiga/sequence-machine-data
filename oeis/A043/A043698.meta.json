@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-9 representation has an even number of runs.",
   "id": "A043698",
-  "mentions": [],
+  "mentions": [
+    "A007095"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

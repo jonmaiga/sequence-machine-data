@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k, sigma(k) and phi(k) have the same decimal digits.",
+  "description": "Numbers k such that k, sigma(k) and phi(k) have the same decimal digits (ignoring multiplicity).",
   "id": "A082059",
   "mentions": [
     "A000010",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

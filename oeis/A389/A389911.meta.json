@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if a polynomial p(n,x) with nonnegative integer coefficients determined by the prime factorization of n is irreducible, otherwise 0.",
+  "id": "A389911",
+  "mentions": [
+    "A206284",
+    "A206442",
+    "A260443",
+    "A277322",
+    "A283991",
+    "A389912"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

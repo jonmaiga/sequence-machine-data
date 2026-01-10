@@ -1,21 +1,23 @@
 {
-  "description": "Triangle: T(n,k), k<=n: commutative groupoids with n elements and k idempotents.",
+  "description": "Triangle read by rows: T(n,k) is the number of commutative groupoids with n elements and k idempotents.",
   "id": "A038021",
   "mentions": [
     "A001329",
     "A001425",
     "A030257",
     "A030260",
-    "A030263"
+    "A030263",
+    "A038018",
+    "A038022",
+    "A391482"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

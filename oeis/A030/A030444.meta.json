@@ -2,10 +2,12 @@
   "description": "Number of fixed n-celled polyknights.",
   "id": "A030444",
   "mentions": [
+    "A001168",
     "A030445",
     "A030446",
     "A030447",
-    "A030448"
+    "A030448",
+    "A093877"
   ],
   "tags": [
     "more",

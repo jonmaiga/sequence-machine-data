@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of the minimal polynomial for the weight factors of Laguerre-Gauss quadrature (exponents in decreasing order).",
+  "id": "A387347",
+  "mentions": [
+    "A384463",
+    "A384464",
+    "A384465",
+    "A384466",
+    "A384467",
+    "A384588",
+    "A384589"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

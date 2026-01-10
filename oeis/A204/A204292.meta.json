@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(n, d(n)), where d(n) = A000005(n) is the number of divisors of n.",
+  "description": "a(n) = binomial(n, d(n)), where d(n) = A000005(n) is the number of divisors of n.",
   "id": "A204292",
   "mentions": [
     "A000005",

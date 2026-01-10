@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A000010(n) mod A048865(n).",
+  "id": "A391883",
+  "mentions": [
+    "A000010",
+    "A048865",
+    "A307712"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 81,
+    "source": "joeis"
+  }
+}

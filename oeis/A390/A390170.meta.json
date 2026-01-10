@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x/(1+x^2)^2 * A(x)^3.",
+  "id": "A390170",
+  "mentions": [
+    "A001764",
+    "A367059",
+    "A385065",
+    "A385317",
+    "A389284",
+    "A390169"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

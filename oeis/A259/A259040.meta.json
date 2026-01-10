@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that digital root of n is 3*(digital root of n-th prime).",
+  "description": "Numbers k such that digital root of k is 3*(digital root of k-th prime).",
   "id": "A259040",
   "mentions": [
     "A010888",

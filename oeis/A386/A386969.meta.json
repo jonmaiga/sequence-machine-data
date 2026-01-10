@@ -6,11 +6,12 @@
     "A386947"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -4,14 +4,15 @@
   "mentions": [
     "A007925",
     "A046065",
-    "A051442"
+    "A051442",
+    "A391414"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

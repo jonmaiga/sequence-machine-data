@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! is the product of exactly 3 smaller factorials (greater than 1).",
+  "description": "Numbers k such that k! is the product of exactly 3 smaller factorials (greater than 1).",
   "id": "A109101",
   "mentions": [
     "A001013",

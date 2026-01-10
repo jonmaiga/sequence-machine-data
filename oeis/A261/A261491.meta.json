@@ -2,7 +2,8 @@
   "description": "a(n) = ceiling(2 + sqrt(8*n-4)).",
   "id": "A261491",
   "mentions": [
-    "A001971"
+    "A001971",
+    "A027709"
   ],
   "tags": [
     "easy",

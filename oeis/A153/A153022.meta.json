@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1 plus the sum of squares of the first n primes is divisible by n+1.",
+  "description": "Numbers k such that 1 plus the sum of squares of the first k primes is divisible by k+1.",
   "id": "A153022",
   "mentions": [
     "A024525",

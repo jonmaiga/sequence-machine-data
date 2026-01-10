@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + 2 * tau(k).",
+  "id": "A387962",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001615",
+    "A387953"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

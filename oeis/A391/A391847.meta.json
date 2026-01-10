@@ -1,0 +1,26 @@
+{
+  "description": "Odd numbers k such that 11*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.",
+  "id": "A391847",
+  "mentions": [
+    "A048720",
+    "A280500",
+    "A391584",
+    "A391725",
+    "A391741",
+    "A391743",
+    "A391745",
+    "A391846",
+    "A391849",
+    "A391851"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

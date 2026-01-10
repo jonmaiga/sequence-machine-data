@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = A188526(n) / 7.",
+  "description": "a(n) = A188526(n)/7.",
   "id": "A188527",
   "mentions": [
+    "A000079",
+    "A013708",
     "A188526"
   ],
   "tags": [

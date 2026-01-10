@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n not of form k(k+2) that have a single '1' in the periodic part of the continued fraction of sqrt(n).",
+  "description": "Numbers m not of the form k*(k+2) that have a single '1' in the periodic part of the continued fraction of sqrt(n).",
   "id": "A102538",
   "mentions": [
     "A005563",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers which are the hypotenuse of a primitive Pythagorean quadruple whose legs are also members of a smaller primitive Pythagorean quadruple.",
+  "id": "A391905",
+  "mentions": [
+    "A256418"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

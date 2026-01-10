@@ -1,5 +1,5 @@
 {
-  "description": "Numbers not of form ab + bc + ca for 1<=a<=b<=c (probably the list is complete).",
+  "description": "Numbers not of form a*b + b*c + c*a for 1<=a<=b<=c (probably the list is complete).",
   "id": "A025052",
   "mentions": [
     "A000926",

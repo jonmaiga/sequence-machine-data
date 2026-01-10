@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k > 0 such that wt(k^n) >= wt(k) * T(n), or -1 if such k does not exist, where wt(x) = A000120(x) is the binary weight of x, and T(n) = n*(n+1)/2 = A000217(n) is the n-th triangular number.",
+  "id": "A389280",
+  "mentions": [
+    "A000120",
+    "A000217",
+    "A358268"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

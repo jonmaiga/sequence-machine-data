@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the length of the longest path in the rooted tree T_n defined in A390207 and in the comments.",
+  "id": "A389370",
+  "mentions": [
+    "A333123",
+    "A389228",
+    "A390207"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The sum of the unitary divisors of the smallest number whose cube is divisible by n.",
+  "id": "A390666",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A013663",
+    "A019555",
+    "A034448",
+    "A365481",
+    "A390664",
+    "A390665"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "Powers of 17.",
+  "description": "Powers of 17: a(n) = 17^n.",
   "id": "A001026",
   "mentions": [
     "A000051",
-    "A008776"
+    "A000079",
+    "A008776",
+    "A009978"
   ],
   "tags": [
     "easy",

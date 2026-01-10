@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 2x/[1-exp(-2x)+2exp(-x)].",
+  "description": "Expansion of e.g.f. 2*x/(1-exp(-2*x)+2*exp(-x)).",
   "id": "A109577",
   "mentions": [],
   "tags": [

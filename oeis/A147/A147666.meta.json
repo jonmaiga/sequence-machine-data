@@ -1,7 +1,13 @@
 {
   "description": "List of triples (0, 6n+1, 6n+5) for n = 0, 1, 2, ...",
   "id": "A147666",
-  "mentions": [],
+  "mentions": [
+    "A000004",
+    "A016921",
+    "A016969",
+    "A049347",
+    "A099254"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 74,
+    "size": 75,
     "source": "joeis"
   }
 }

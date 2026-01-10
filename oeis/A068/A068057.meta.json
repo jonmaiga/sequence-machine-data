@@ -2,11 +2,14 @@
   "description": "First differences of A068056.",
   "id": "A068057",
   "mentions": [
+    "A001511",
     "A066425",
     "A068056",
     "A068059"
   ],
   "tags": [
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {

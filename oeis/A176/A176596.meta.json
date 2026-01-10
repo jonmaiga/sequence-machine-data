@@ -1,8 +1,12 @@
 {
-  "description": "13^(2^n).",
+  "description": "a(n) = 13^(2^n).",
   "id": "A176596",
-  "mentions": [],
+  "mentions": [
+    "A001022"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

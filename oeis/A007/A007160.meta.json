@@ -2,6 +2,7 @@
   "description": "Number of diagonal dissections of a convex (n+6)-gon into n regions.",
   "id": "A007160",
   "mentions": [
+    "A001622",
     "A033282"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 23,
     "source": "joeis"
   }
 }

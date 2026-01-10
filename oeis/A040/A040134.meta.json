@@ -1,7 +1,11 @@
 {
   "description": "Continued fraction for sqrt(147).",
   "id": "A040134",
-  "mentions": [],
+  "mentions": [
+    "A041268",
+    "A041269",
+    "A377274"
+  ],
   "tags": [
     "cofr",
     "easy",

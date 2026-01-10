@@ -3,14 +3,17 @@
   "id": "A351518",
   "mentions": [
     "A000720",
+    "A007947",
     "A351517"
   ],
   "tags": [
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

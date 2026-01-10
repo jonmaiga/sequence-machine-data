@@ -1,5 +1,5 @@
 {
-  "description": "Set of n such that the prime quadruple prime(n), prime(n+1), prime(n+2), prime(n+3) does not have a solution for the congruence prime(n+1)^x - prime(n)^x == prime(n+2) mod prime(n+3).",
+  "description": "Numbers k such that the congruence prime(k+1)^x - prime(k)^x == prime(k+2) mod prime(k+3) does not have a solution.",
   "id": "A082374",
   "mentions": [
     "A082371"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

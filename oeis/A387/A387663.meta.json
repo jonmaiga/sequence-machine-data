@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n! * coefficient of m^k in the polynomial counting labeled digraphs with m nodes and n arcs and without directed paths of length >= 2, with 0 <= k <= 2*n.",
+  "id": "A387663",
+  "mentions": [
+    "A052296",
+    "A092552"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

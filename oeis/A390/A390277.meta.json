@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Stirling2(2*n, n)*CatalanNumber(n).",
+  "id": "A390277",
+  "mentions": [
+    "A000108",
+    "A007820",
+    "A048993",
+    "A390276",
+    "A390726",
+    "A390727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

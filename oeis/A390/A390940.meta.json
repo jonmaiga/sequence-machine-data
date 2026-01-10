@@ -1,0 +1,17 @@
+{
+  "description": "Terms of A390939 sorted in increasing order, where A390939 lists the keys added in the map initialized with T[1] = 1 and repeatedly T[v] := k + (T[v] if defined else 0) for all key-value pairs (k, v) in T.",
+  "id": "A390940",
+  "mentions": [
+    "A000079",
+    "A390939",
+    "A390943"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

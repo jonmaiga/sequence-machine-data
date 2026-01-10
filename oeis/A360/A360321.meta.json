@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..n} 5^(n-k) * binomial(n-1,n-k) * binomial(2*k,k).",
   "id": "A360321",
   "mentions": [
+    "A001405",
     "A063886",
     "A085362",
     "A360317",

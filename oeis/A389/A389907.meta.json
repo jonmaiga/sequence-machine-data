@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = min(n, A054429(n)), where A054429 list each block of 2^n numbers (from 2^n to 2^(n+1) - 1) in reverse order.",
+  "id": "A389907",
+  "mentions": [
+    "A054429",
+    "A331166"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

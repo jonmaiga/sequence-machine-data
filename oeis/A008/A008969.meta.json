@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of differences of reciprocals of unity.",
+  "description": "Triangle read by rows of differences of reciprocals of unity.",
   "id": "A008969",
   "mentions": [
     "A000225",

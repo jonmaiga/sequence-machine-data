@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form p = prime(n+1) such that prime(n) = (prime(n+3)+prime(n-1))/2.",
+  "description": "Primes of the form p = prime(k+1) such that prime(k) = (prime(k+3)+prime(k-1))/2.",
   "id": "A126239",
   "mentions": [
     "A006562",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

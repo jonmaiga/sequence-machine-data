@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g^2/(1 - x^2*g), where g = 1+x*g^2 is the g.f. of A000108.",
+  "id": "A391134",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A104629",
+    "A109262",
+    "A129775",
+    "A164651"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

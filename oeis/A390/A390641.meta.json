@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the sum of k and 3 times the sum of its prime factors, counted with multiplicity, is prime.",
+  "id": "A390641",
+  "mentions": [
+    "A001414",
+    "A050703",
+    "A390639"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

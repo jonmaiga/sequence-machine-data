@@ -2,9 +2,11 @@
   "description": "Triangle read by rows: T(n,k) = number of parity alternating partitions of [n] into k blocks (1 <= k <= m).",
   "id": "A274310",
   "mentions": [
+    "A008277",
     "A124419",
     "A274547",
-    "A274581"
+    "A274581",
+    "A384968"
   ],
   "tags": [
     "easy",

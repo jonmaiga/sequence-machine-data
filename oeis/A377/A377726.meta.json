@@ -1,12 +1,14 @@
 {
-  "description": "Lengths of the long leg of the unique primitive Pythagorean triple (x,y,z) such that (x-y+z)/2 is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "description": "Length of the long leg of the unique primitive Pythagorean triple (x,y,z) such that (x-y+z)/2 is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
   "id": "A377726",
   "mentions": [
     "A002315",
     "A362545",
     "A377016",
-    "A377017",
-    "A377725"
+    "A377725",
+    "A378965",
+    "A378966",
+    "A379508"
   ],
   "tags": [
     "easy",
@@ -14,8 +16,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 16,
-    "source": "joeis"
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

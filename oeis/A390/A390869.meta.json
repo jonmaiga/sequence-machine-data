@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k which are a substring of the base-10 representation of sigma(k).",
+  "id": "A390869",
+  "mentions": [
+    "A000203",
+    "A007539",
+    "A007691",
+    "A235710",
+    "A272778",
+    "A272779"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (17^n-1)/16 is prime.",
+  "description": "Numbers k such that (17^k - 1)/16 is prime.",
   "id": "A006034",
   "mentions": [
     "A028491"

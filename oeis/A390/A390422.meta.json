@@ -1,0 +1,25 @@
+{
+  "description": "Norms of irreducible elements of Z[(1+sqrt(-15))/2], the ring of integers of Q(sqrt(-15)).",
+  "id": "A390422",
+  "mentions": [
+    "A033212",
+    "A091730",
+    "A106859",
+    "A191018",
+    "A191062",
+    "A341786",
+    "A390498",
+    "A390526",
+    "A391360",
+    "A391363"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

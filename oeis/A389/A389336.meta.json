@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array, (C(n,k)), read by descending antidiagonals: C(n,k) = n++k, the concatenation sum of n and k, defined as the index of the concatenation w(n)w(k) in the sequence S = (w(n)) of all 01-words in lexicographic order.",
+  "id": "A389336",
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A020330",
+    "A059939",
+    "A092754",
+    "A206332",
+    "A390512",
+    "A390513"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

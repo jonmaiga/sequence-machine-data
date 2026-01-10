@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that sf(n) = phi(n), where sf(n) = A013928(n).",
+  "description": "Numbers k such that sf(k) = phi(k), where sf(k) = A013928(k).",
   "id": "A064020",
   "mentions": [
+    "A000010",
     "A013928"
   ],
   "tags": [

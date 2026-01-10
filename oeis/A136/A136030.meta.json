@@ -1,7 +1,8 @@
 {
-  "description": "Smallest prime factor of composite Mersenne numbers.",
+  "description": "Smallest prime factor of composite Mersenne numbers: lpf(2^p-1) where 2^p-1 is composite and p is prime.",
   "id": "A136030",
   "mentions": [
+    "A001348",
     "A016047",
     "A049479"
   ],

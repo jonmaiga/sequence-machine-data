@@ -2,8 +2,12 @@
   "description": "Fourth (unsigned) column sequence of coefficient triangle A062137 of generalized Laguerre polynomials n!*L(n,3,x).",
   "id": "A062142",
   "mentions": [
+    "A001113",
+    "A001620",
     "A062137",
-    "A062141"
+    "A062141",
+    "A091725",
+    "A099285"
   ],
   "tags": [
     "easy",
@@ -12,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

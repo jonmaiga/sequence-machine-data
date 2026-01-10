@@ -1,0 +1,21 @@
+{
+  "description": "Oblong numbers not of the forms 2^k*(2^k - 1) or 2^k*(2^k + 1).",
+  "id": "A390326",
+  "mentions": [
+    "A000079",
+    "A000302",
+    "A002378",
+    "A020522",
+    "A063376",
+    "A390325"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

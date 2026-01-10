@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that the k-th Lucas number can be written in the form a^2 + 7*b^2.",
   "id": "A216433",
-  "mentions": [],
+  "mentions": [
+    "A000032"
+  ],
   "tags": [
     "nonn"
   ],

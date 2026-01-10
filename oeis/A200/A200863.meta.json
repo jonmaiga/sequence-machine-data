@@ -1,5 +1,5 @@
 {
-  "description": "List of numbers n without 1's in their decimal expansion such that n is equal to the total number of 1's in the decimal expansion of all positive numbers < n.",
+  "description": "List of numbers k without 1's in their decimal expansion such that k is equal to the total number of 1's in the decimal expansion of all positive numbers < k.",
   "id": "A200863",
   "mentions": [
     "A014778"

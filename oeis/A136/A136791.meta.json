@@ -1,20 +1,18 @@
 {
-  "description": "Triangle read by rows: (2 * A011971) - A000012.",
+  "description": "Triangle read by rows: T(n,k) = 2 * A011971(n,k) - 1.",
   "id": "A136791",
   "mentions": [
-    "A000012",
     "A011971",
     "A060719",
     "A136792"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which phi(n^2) = phi(n-1) * phi(n+1).",
+  "description": "Numbers k for which phi(k^2) = phi(k-1) * phi(k+1).",
   "id": "A220169",
   "mentions": [
     "A000010",

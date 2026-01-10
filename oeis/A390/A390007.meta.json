@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least possible difference between the areas of the largest and smallest rectangles in a 3 element set of distinct integer sided rectangles filling an n X n square.",
+  "id": "A390007",
+  "mentions": [
+    "A381847",
+    "A385151",
+    "A388295",
+    "A390265"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 73,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of canonical representative loops with length A389534(n) touching all cells in an n X n grid.",
+  "id": "A390109",
+  "mentions": [
+    "A389534"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

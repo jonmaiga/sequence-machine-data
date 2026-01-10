@@ -1,5 +1,5 @@
 {
-  "description": "Floor(Lucas(n+1)/2), Lucas(n) = A000032(n).",
+  "description": "a(n) = floor(Lucas(n+1)/2), Lucas(n) = A000032(n).",
   "id": "A173714",
   "mentions": [
     "A000032",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 41,
     "source": "joeis"
   }
 }

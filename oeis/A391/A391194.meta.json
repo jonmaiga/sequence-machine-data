@@ -1,0 +1,19 @@
+{
+  "description": "Number of ternary trees with n internal nodes labeled 1 or 2; nodes labeled 1 have three linearly ordered children, but nodes labeled 2 have three children which are reversible (the first and third children may be transposed but the middle child must remain in place).",
+  "id": "A391194",
+  "mentions": [
+    "A226909",
+    "A268163",
+    "A268172"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,14 @@
   "description": "Number of ways to arrange n books on 3 consecutive shelves leaving none of the shelves empty.",
   "id": "A200978",
   "mentions": [
+    "A001113",
+    "A001620",
     "A001754",
     "A062119",
-    "A156992"
+    "A091725",
+    "A099285",
+    "A156992",
+    "A200979"
   ],
   "tags": [
     "easy",

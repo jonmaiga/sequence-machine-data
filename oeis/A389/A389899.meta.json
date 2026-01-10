@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A343029(A126760(i)) = A343029(A126760(j)) and A343030(A126760(i)) = A343030(A126760(j)) for all i, j >= 0.",
+  "id": "A389899",
+  "mentions": [
+    "A126760",
+    "A343029",
+    "A343030",
+    "A361020",
+    "A389897",
+    "A389898",
+    "A389900",
+    "A389901"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

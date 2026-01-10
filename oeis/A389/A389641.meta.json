@@ -1,0 +1,22 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = Sum_{j=0..floor(n/k)} n!/((j!)^k*(n - j*k)!) for k > 0 and A(n, 0) = 1.",
+  "id": "A389641",
+  "mentions": [
+    "A000012",
+    "A002426",
+    "A038507",
+    "A344560",
+    "A361637",
+    "A361703"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

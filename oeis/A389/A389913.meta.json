@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if A048675(n) is in A186891\\{1}, otherwise 0.",
+  "id": "A389913",
+  "mentions": [
+    "A048675",
+    "A186891",
+    "A260443",
+    "A283991",
+    "A389911",
+    "A389914"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of natural numbers induced by the composition of involutions A057163 & A069888.",
+  "description": "Permutation of natural numbers induced by the composition of involutions A057163 and A069888.",
   "id": "A082331",
   "mentions": [
     "A057163",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

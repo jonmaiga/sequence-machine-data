@@ -2,15 +2,19 @@
   "description": "Inverse Moebius transform of A019554.",
   "id": "A346613",
   "mentions": [
+    "A002117",
     "A019554",
     "A346612"
   ],
   "tags": [
+    "easy",
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

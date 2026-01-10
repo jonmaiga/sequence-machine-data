@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k is prime and k + 1 is semiperfect and k can be represented as the sum of some subset of the divisors of k + 1.",
+  "id": "A391003",
+  "mentions": [
+    "A005835",
+    "A390728",
+    "A391005"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

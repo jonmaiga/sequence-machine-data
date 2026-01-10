@@ -2,6 +2,14 @@
   "description": "Write n in base 10, complement each digit and juxtapose.",
   "id": "A031310",
   "mentions": [
+    "A030315",
+    "A030351",
+    "A030399",
+    "A030586",
+    "A031016",
+    "A031055",
+    "A031098",
+    "A031251",
     "A033307"
   ],
   "tags": [

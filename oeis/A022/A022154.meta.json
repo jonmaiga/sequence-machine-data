@@ -1,7 +1,9 @@
 {
   "description": "Coordination sequence for root lattice B_12.",
   "id": "A022154",
-  "mentions": [],
+  "mentions": [
+    "A108998"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that m^(n+1) == m (mod n) holds for all m.",
+  "description": "Numbers k such that m^(k+1) == m (mod k) holds for all m.",
   "id": "A014117",
   "mentions": [
     "A007018",

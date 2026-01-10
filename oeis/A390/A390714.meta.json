@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; a(n) = 5 * Sum_{k=0..n} k * binomial(4*n+k,n-k)/(4*n+k).",
+  "id": "A390714",
+  "mentions": [
+    "A002293",
+    "A130458",
+    "A390713"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

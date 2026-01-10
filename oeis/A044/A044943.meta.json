@@ -1,14 +1,21 @@
 {
-  "description": "Runs of odd length in the base 3 representation of n.",
+  "description": "Number of runs of odd length in the base 3 representation of n.",
   "id": "A044943",
-  "mentions": [],
+  "mentions": [
+    "A007089",
+    "A044934",
+    "A044942",
+    "A044944",
+    "A044950"
+  ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

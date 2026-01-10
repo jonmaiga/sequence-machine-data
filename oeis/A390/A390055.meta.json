@@ -1,0 +1,26 @@
+{
+  "description": "Powers k^m, m > 0, of nonsquarefree numbers k that are not squareful.",
+  "id": "A390055",
+  "mentions": [
+    "A013929",
+    "A024619",
+    "A059404",
+    "A072777",
+    "A120944",
+    "A126706",
+    "A182853",
+    "A303606",
+    "A317616",
+    "A332785",
+    "A386762",
+    "A389959"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

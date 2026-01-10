@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) < pi(n).",
+  "description": "Numbers k such that phi(k) < pi(k).",
   "id": "A037230",
   "mentions": [
     "A037171"

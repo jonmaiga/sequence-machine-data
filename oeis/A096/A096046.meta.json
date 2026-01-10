@@ -5,15 +5,19 @@
     "A001019",
     "A096045",
     "A096047",
-    "A096048"
+    "A096048",
+    "A198964",
+    "A199565",
+    "A199566"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

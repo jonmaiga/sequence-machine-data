@@ -1,8 +1,21 @@
 {
-  "description": "T(n,k)=Number of length n 1..(k+2) arrays with no leading or trailing partial sum equal to a prime.",
+  "description": "T(n,k) = number of length n 1..(k+2) arrays with no leading or trailing partial sum equal to a prime.",
   "id": "A254204",
   "mentions": [
-    "A062298"
+    "A062298",
+    "A254197",
+    "A254198",
+    "A254199",
+    "A254200",
+    "A254201",
+    "A254202",
+    "A254203",
+    "A254205",
+    "A254206",
+    "A254207",
+    "A254208",
+    "A254209",
+    "A254210"
   ],
   "tags": [
     "nonn",

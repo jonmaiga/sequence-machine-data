@@ -1,14 +1,17 @@
 {
   "description": "Period 9: repeat 81,27,9,27,27,9,27,81,9.",
   "id": "A147674",
-  "mentions": [],
+  "mentions": [
+    "A154629"
+  ],
   "tags": [
+    "formulas",
     "less",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 72,
     "source": "joeis"
   }
 }

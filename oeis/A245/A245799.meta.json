@@ -1,5 +1,5 @@
 {
-  "description": "Lucas(3*n) - Fibonacci(n).",
+  "description": "a(n) = Lucas(3*n) - Fibonacci(n).",
   "id": "A245799",
   "mentions": [
     "A000032",

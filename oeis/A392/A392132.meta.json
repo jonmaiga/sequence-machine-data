@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the permanent of the n X n circulant matrix whose rows are formed by successively rotating the vector (A000129(0), A000129(1), ..., A000129(n-1)) right.",
+  "id": "A392132",
+  "mentions": [
+    "A000129",
+    "A306457",
+    "A392131"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

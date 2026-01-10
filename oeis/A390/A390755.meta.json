@@ -1,0 +1,22 @@
+{
+  "description": "The Euler totient of the smallest powerful number divisible by n.",
+  "id": "A390755",
+  "mentions": [
+    "A000010",
+    "A013661",
+    "A197863",
+    "A327171",
+    "A390756"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "exp(tanh(x)+tan(x))=1+2*x+4/2!*x^2+8/3!*x^3+16/4!*x^4+64/5!*x^5...",
+  "description": "Expansion of e.g.f.: exp(tanh(x)+tan(x))=1+2*x+4/2!*x^2+8/3!*x^3+16/4!*x^4+64/5!*x^5...",
   "id": "A013133",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

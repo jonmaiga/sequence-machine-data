@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of polyedges with n edges in the {4,5} tessellation of the hyperbolic plane.",
+  "id": "A390201",
+  "mentions": [
+    "A019988",
+    "A119611"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

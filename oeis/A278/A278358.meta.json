@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..1 arrays with rows and columns in lexicographic nondecreasing order but with exactly one mistake.",
+  "description": "Number of n X 3 0..1 arrays with rows and columns in lexicographic nondecreasing order but with exactly one mistake.",
   "id": "A278358",
   "mentions": [
     "A278363"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

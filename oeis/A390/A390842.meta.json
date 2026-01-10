@@ -1,0 +1,18 @@
+{
+  "description": "3-valuation of Product_{1 <= k <= n} (prime(k) + 1) / (prime(k+1) - prime(k)).",
+  "id": "A390842",
+  "mentions": [
+    "A227990",
+    "A390841",
+    "A390843",
+    "A390844"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

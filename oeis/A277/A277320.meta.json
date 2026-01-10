@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(r,c) = A048720(A065621(r), c), read by descending antidiagonals as A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), etc.",
+  "description": "Square array A(n,k) = A048720(A065621(n), k), read by descending antidiagonals as A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), etc.",
   "id": "A277320",
   "mentions": [
     "A000027",
@@ -14,7 +14,8 @@
     "A277699",
     "A277820",
     "A277823",
-    "A277825"
+    "A277825",
+    "A379221"
   ],
   "tags": [
     "base",

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that do not exceed the square of their squarefree kernel.",
+  "id": "A390538",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001248",
+    "A003557",
+    "A005117",
+    "A007947",
+    "A010846",
+    "A033485",
+    "A033486",
+    "A033845",
+    "A059172",
+    "A120944",
+    "A177492",
+    "A341646"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

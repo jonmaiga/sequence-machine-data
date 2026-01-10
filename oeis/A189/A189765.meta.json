@@ -1,5 +1,5 @@
 {
-  "description": "Triangle in which row n has the n(n+1)/2 elements of the lower triangular part of the inverse of the n-th order Hilbert matrix.",
+  "description": "Triangle in which row n has the n*(n+1)/2 elements of the lower triangular part of the inverse of the n-th order Hilbert matrix.",
   "id": "A189765",
   "mentions": [
     "A000515",

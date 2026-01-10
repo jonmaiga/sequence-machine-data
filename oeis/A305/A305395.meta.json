@@ -1,5 +1,5 @@
 {
-  "description": "Records in A073053.",
+  "description": "Records in A073053 starting from a(1).",
   "id": "A305395",
   "mentions": [
     "A004643",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-entry"
   }
 }

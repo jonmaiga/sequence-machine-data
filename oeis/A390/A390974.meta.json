@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(log(2)^2 + 4*Pi^2).",
+  "id": "A390974",
+  "mentions": [
+    "A000670",
+    "A002162",
+    "A016627",
+    "A212002"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

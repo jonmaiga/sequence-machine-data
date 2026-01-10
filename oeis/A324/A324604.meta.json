@@ -1,19 +1,18 @@
 {
-  "description": "Table read by rows: T(n,k) is the number of non-intersecting loops starting at (0,0) on the n X k torus consisting of steps up and to the right, 1 <= k <= n.",
+  "description": "Triangle read by rows: T(n,k) is the number of non-intersecting loops starting at (0,0) on the n X k torus consisting of steps up and to the right, 1 <= k <= n.",
   "id": "A324604",
   "mentions": [
     "A181565",
     "A324603"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabl",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 44,
     "source": "oeis-entry"
   }
 }

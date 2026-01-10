@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that A065560(k) >= A065560(k+1).",
+  "id": "A390575",
+  "mentions": [
+    "A065560"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

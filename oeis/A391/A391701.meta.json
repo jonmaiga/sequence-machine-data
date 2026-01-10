@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = phi(n) * (sigma(n) - tau(n)).",
+  "id": "A391701",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A002378",
+    "A024556",
+    "A056075",
+    "A062354",
+    "A062355",
+    "A065608"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

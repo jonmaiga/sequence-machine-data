@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1 / (1 + x - sinh(x)).",
+  "description": "Expansion of e.g.f. 1 / (1 + x - sinh(x)).",
   "id": "A332258",
   "mentions": [
     "A006154",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

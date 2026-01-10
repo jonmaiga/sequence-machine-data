@@ -1,15 +1,13 @@
 {
-  "description": "The basic sequence using the Multi-Symbol Function with M()={+,-,*} indexed by prime numbers.",
+  "description": "a(n) = a(n-1) # n, where # is addition, subtraction, multiplication if prime(n) == respectively 0, 1, 2 (mod 3).",
   "id": "A154382",
   "mentions": [],
   "tags": [
-    "nonn",
-    "obsc",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

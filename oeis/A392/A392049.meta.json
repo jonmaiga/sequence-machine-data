@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of the harmonic mean of the digits of n.",
+  "id": "A392049",
+  "mentions": [
+    "A011540",
+    "A371383",
+    "A392050",
+    "A392051"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

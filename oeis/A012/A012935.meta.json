@@ -1,5 +1,5 @@
 {
-  "description": "sech(tan(x)+log(x+1))=1-4/2!*x^2+6/3!*x^3+45/4!*x^4-300/5!*x^5...",
+  "description": "Expansion of e.g.f.: sech(tan(x)+log(x+1))=1-4/2!*x^2+6/3!*x^3+45/4!*x^4-300/5!*x^5...",
   "id": "A012935",
   "mentions": [],
   "tags": [

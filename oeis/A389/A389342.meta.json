@@ -1,0 +1,20 @@
+{
+  "description": "Numerators C(n) of the rational part in J(n) = Integral_{x=0..Pi/2} x*cos(x)^(2n) dx.",
+  "id": "A389342",
+  "mentions": [
+    "A000984",
+    "A001147",
+    "A006882",
+    "A387583"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

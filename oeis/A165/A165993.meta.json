@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum_{j=1..prime(n)-1} floor (j^2/prime(n)).",
+  "description": "a(n) = Sum_{j=1..prime(n)-1} floor(j^2/prime(n)).",
   "id": "A165993",
   "mentions": [
     "A014817",

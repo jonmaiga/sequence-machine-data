@@ -1,0 +1,18 @@
+{
+  "description": "Difference between A333242(n) and the next lower prime number.",
+  "id": "A391211",
+  "mentions": [
+    "A151799",
+    "A333242",
+    "A348677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 86,
+    "source": "joeis"
+  }
+}

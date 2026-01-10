@@ -1,9 +1,11 @@
 {
-  "description": "Index of 2^n within sequence of numbers of form 2^i*7^j.",
+  "description": "Index of 2^n within the sequence of the numbers of the form 2^i*7^j.",
   "id": "A025693",
   "mentions": [
+    "A000079",
     "A003591",
-    "A025664"
+    "A025664",
+    "A152713"
   ],
   "tags": [
     "easy",

@@ -1,7 +1,8 @@
 {
-  "description": "Add prime(n) to A033955.",
+  "description": "a(n) = prime(n) + A033955(n).",
   "id": "A033956",
   "mentions": [
+    "A000040",
     "A033955"
   ],
   "tags": [

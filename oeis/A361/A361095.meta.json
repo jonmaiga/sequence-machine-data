@@ -1,8 +1,9 @@
 {
-  "description": "E.g.f. satisfies A(x) = exp( 1/(1 - x/A(x)) - 1 ).",
+  "description": "E.g.f. A(x) satisfies A(x) = exp( 1/(1 - x/A(x)) - 1 ).",
   "id": "A361095",
   "mentions": [
     "A052873",
+    "A334316",
     "A361093",
     "A361094",
     "A361096",

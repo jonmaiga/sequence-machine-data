@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. satisfies: A(x) = (x + 3*exp(A(x)) - 3)/4.",
+  "description": "E.g.f. A(x) satisfies A(x) = (x + 3*exp(A(x)) - 3)/4.",
   "id": "A201466",
   "mentions": [
     "A000311",

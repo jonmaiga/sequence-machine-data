@@ -2,6 +2,7 @@
   "description": "Number of cyclic arrangements of S={1,2,...,2n} such that the binary expansions of any two neighbors differ by one bit.",
   "id": "A242530",
   "mentions": [
+    "A000069",
     "A236602",
     "A242519",
     "A242520",
@@ -20,13 +21,14 @@
     "A242534"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

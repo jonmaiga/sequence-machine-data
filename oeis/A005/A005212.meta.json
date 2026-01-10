@@ -1,8 +1,10 @@
 {
-  "description": "n! if n is odd otherwise 0 (from the Taylor series for sin x).",
+  "description": "a(n) = n! if n is odd otherwise 0 (from the Taylor series for sin x).",
   "id": "A005212",
   "mentions": [
+    "A000142",
     "A000670",
+    "A005359",
     "A052856",
     "A089677"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

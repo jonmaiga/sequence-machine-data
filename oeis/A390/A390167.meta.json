@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of edge-weighted k-regular multigraphs on 2 unlabeled vertices with total edge weight n.",
+  "id": "A390167",
+  "mentions": [
+    "A001477",
+    "A008619",
+    "A047233",
+    "A358243",
+    "A358244",
+    "A358245",
+    "A358246",
+    "A358247",
+    "A358248",
+    "A358249",
+    "A390166"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

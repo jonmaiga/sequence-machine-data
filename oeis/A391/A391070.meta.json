@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of integers in [n] that are multiples of the squarefree kernel of d but not divisible by a prime in the squarefree kernel of n/d where d is the k-th unitary divisor of n (as in A077610).",
+  "id": "A391070",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A001221",
+    "A003557",
+    "A007947",
+    "A034444",
+    "A077610"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

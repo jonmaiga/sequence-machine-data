@@ -2,6 +2,7 @@
   "description": "Even elements of A080435.",
   "id": "A082930",
   "mentions": [
+    "A005843",
     "A080435"
   ],
   "tags": [

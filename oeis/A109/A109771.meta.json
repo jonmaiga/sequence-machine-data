@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: sqrt(1+6*x+x^2).",
+  "description": "Expansion of g.f.: sqrt(1+6*x+x^2).",
   "id": "A109771",
   "mentions": [
     "A002420"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

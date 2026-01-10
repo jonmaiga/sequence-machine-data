@@ -1,0 +1,34 @@
+{
+  "description": "Irregular triangle read by rows where row k lists the first sums of binary indices of n.",
+  "id": "A390987",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A011782",
+    "A019565",
+    "A029837",
+    "A029931",
+    "A048793",
+    "A048881",
+    "A066099",
+    "A070939",
+    "A094373",
+    "A342527",
+    "A390090",
+    "A390307",
+    "A390432",
+    "A390449",
+    "A390567",
+    "A390568",
+    "A390992"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

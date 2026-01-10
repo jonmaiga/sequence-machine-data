@@ -1,0 +1,16 @@
+{
+  "description": "a(n) equals half the sum of the squares of the terms in row n of irregular triangle A391810.",
+  "id": "A391811",
+  "mentions": [
+    "A391810"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

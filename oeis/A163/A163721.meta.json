@@ -1,14 +1,15 @@
 {
   "description": "Number of n X 9 binary arrays with all 1s connected, a path of 1s from top row to bottom row, and no 1 having more than two 1s adjacent.",
   "id": "A163721",
-  "mentions": [],
+  "mentions": [
+    "A391822"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

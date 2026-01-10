@@ -1,5 +1,5 @@
 {
-  "description": "Primes n with property that sum of digits that are primes is prime.",
+  "description": "Primes with the property that the sum of the digits that are primes is prime.",
   "id": "A094317",
   "mentions": [
     "A094318"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

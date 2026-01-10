@@ -1,14 +1,20 @@
 {
-  "description": "Runs of even length in the base 3 representation of n.",
+  "description": "Number of runs of even length in the base 3 representation of n.",
   "id": "A044934",
-  "mentions": [],
+  "mentions": [
+    "A007089",
+    "A044933",
+    "A044941",
+    "A044943"
+  ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

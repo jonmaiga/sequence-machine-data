@@ -2,7 +2,9 @@
   "description": "Total path length of the complete ternary tree of height n.",
   "id": "A289399",
   "mentions": [
-    "A036290"
+    "A036290",
+    "A120926",
+    "A229277"
   ],
   "tags": [
     "easy",

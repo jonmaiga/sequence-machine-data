@@ -1,0 +1,20 @@
+{
+  "description": "Upper (3/2)-midsequence of binomial(n,3) and binomial(n,2); see Comments.",
+  "id": "A390343",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A011896",
+    "A390342"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

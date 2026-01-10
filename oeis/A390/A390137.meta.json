@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/((1-5*x) * sqrt(1+4*x)).",
+  "id": "A390137",
+  "mentions": [
+    "A000984",
+    "A091520",
+    "A144635"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

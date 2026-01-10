@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of all proper substrings of their decimal representation equals the reverse of n.",
+  "description": "Numbers k such that the sum of all proper substrings of their decimal representation equals the reverse of k.",
   "id": "A162467",
   "mentions": [
     "A000096",

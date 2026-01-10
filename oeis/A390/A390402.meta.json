@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest k > 1 such that n^k reaches n under repeated application of the Collatz or 3x+1 map (A006370), or a(n) = -1 if no such k exists.",
+  "id": "A390402",
+  "mentions": [
+    "A001651",
+    "A006370",
+    "A061641",
+    "A070165",
+    "A221956",
+    "A222118",
+    "A275160",
+    "A275663",
+    "A299962",
+    "A300119",
+    "A375093"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Irregular array read by rows: lexicographically earliest sublist of [d: d|k, d < k] that adds up to k and is maximal in length, where k is a semiperfect number.",
+  "id": "A390728",
+  "mentions": [
+    "A005835",
+    "A390834"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

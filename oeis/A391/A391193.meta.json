@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of free polyforms consisting of k unit square cells and n-k isosceles right triangular cells whose short sides have unit length. Cells are joined along sides of equal lengths.",
+  "id": "A391193",
+  "mentions": [
+    "A000105",
+    "A390993",
+    "A390999",
+    "A391191",
+    "A391192"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

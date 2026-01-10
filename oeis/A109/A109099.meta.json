@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! can be expressed as the product of smaller factorials > 2.",
+  "description": "Numbers k such that k! can be expressed as the product of smaller factorials > 2.",
   "id": "A109099",
   "mentions": [
     "A001013",

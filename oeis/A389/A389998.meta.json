@@ -1,0 +1,31 @@
+{
+  "description": "Number of partitions of the faces of the n-th Johnson solid into connected subsets.",
+  "id": "A389998",
+  "mentions": [
+    "A242731",
+    "A242732",
+    "A242733",
+    "A343209",
+    "A343210",
+    "A343211",
+    "A343212",
+    "A343954",
+    "A343959",
+    "A384377",
+    "A384379",
+    "A384381",
+    "A389996",
+    "A389997",
+    "A390001"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

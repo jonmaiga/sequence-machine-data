@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that k^m + (k+1)^m + ... + (k+m-1)^m is prime for some k.",
+  "description": "a(n) = smallest k such that k^m + (k+1)^m + ... + (k+m-1)^m is prime, where m = A014117(n).",
   "id": "A242927",
   "mentions": [
     "A000040",
@@ -7,8 +7,8 @@
     "A027861"
   ],
   "tags": [
-    "hard",
-    "more",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

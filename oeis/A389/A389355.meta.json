@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (A388291(n)^2 - 1)/24.",
+  "id": "A389355",
+  "mentions": [
+    "A002559",
+    "A305312",
+    "A308687",
+    "A309376",
+    "A366292",
+    "A388291",
+    "A388292",
+    "A389354"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

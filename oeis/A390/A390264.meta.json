@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative with a(p^e) = e*p - 1.",
+  "id": "A390264",
+  "mentions": [
+    "A000026",
+    "A001221",
+    "A007947",
+    "A076479",
+    "A191750"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

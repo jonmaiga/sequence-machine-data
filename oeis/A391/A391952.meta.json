@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the surface area of an Escher's solid with unit shorter edge length.",
+  "id": "A391952",
+  "mentions": [
+    "A002193",
+    "A391654",
+    "A391951"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

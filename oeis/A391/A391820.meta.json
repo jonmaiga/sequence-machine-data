@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of m X n binary arrays with all 1's connected and no 1 having more than two 1's adjacent.",
+  "id": "A391820",
+  "mentions": [
+    "A360196",
+    "A360199",
+    "A391821",
+    "A391822"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

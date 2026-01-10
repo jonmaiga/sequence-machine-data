@@ -1,0 +1,25 @@
+{
+  "description": "Triangular table T(n,k) = n*k if A048720(n, A065621(k)) = n*k, otherwise 0, read by rows for n >= 1, 1 <= k <= n.",
+  "id": "A391245",
+  "mentions": [
+    "A023758",
+    "A048720",
+    "A065621",
+    "A075362",
+    "A277199",
+    "A277704",
+    "A277807",
+    "A391244",
+    "A391246",
+    "A391247"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

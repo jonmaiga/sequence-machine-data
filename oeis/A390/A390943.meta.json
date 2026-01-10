@@ -1,0 +1,17 @@
+{
+  "description": "Entries that keep growing, in the map initialized with T[1] = 1 and subsequently updated using T[v] := k + (T[v] if defined else 0), for all key-value pairs (k,v) in the map T at a given iteration.",
+  "id": "A390943",
+  "mentions": [
+    "A390939"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

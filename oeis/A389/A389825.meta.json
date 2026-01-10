@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is the smallest unused prime number that can be created by either removing or adding a single digit anywhere in the value of a(n-1).",
+  "id": "A389825",
+  "mentions": [
+    "A000040",
+    "A068166",
+    "A080603",
+    "A080608",
+    "A389824"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

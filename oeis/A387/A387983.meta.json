@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} k^(-5*k).",
+  "id": "A387983",
+  "mentions": [
+    "A073009",
+    "A086648"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

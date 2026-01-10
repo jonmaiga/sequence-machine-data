@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of palindromic polynomials.",
+  "id": "A388426",
+  "mentions": [
+    "A002720",
+    "A046802",
+    "A053221",
+    "A354020"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Somos-4 sequence variant: a(n) = (a(n-1) * a(n-3) - a(n-2)^2) / a(n-4), a(0) = 1, a(1) = 1, a(2) = 2, a(3) = -1.",
+  "description": "Somos-4 sequence variant: a(n) = (a(n-1)*a(n-3) - a(n-2)^2)/a(n-4), a(0) = 1, a(1) = 1, a(2) = 2, a(3) = -1.",
   "id": "A277279",
   "mentions": [
     "A006720",

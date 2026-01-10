@@ -1,12 +1,14 @@
 {
-  "description": "The minimum absolute value obtainable by partitioning the first n consecutive integers into two sets and subtracting the two sums of the sets.",
+  "description": "The minimum absolute value obtainable by partitioning the first n consecutive integers into two sets 1,2,...,k and k+1,k+2,...,n, and subtracting the two sums of the sets.",
   "id": "A181176",
   "mentions": [
+    "A000217",
     "A001652",
     "A181177"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

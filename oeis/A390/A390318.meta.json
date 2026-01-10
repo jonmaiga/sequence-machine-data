@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(gamma^(-n)) where gamma is Euler's constant A001620.",
+  "id": "A390318",
+  "mentions": [
+    "A001620",
+    "A017913",
+    "A098907"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

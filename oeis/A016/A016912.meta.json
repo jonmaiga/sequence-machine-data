@@ -1,7 +1,14 @@
 {
   "description": "a(n) = (6*n)^4.",
   "id": "A016912",
-  "mentions": [],
+  "mentions": [
+    "A000583",
+    "A008588",
+    "A016744",
+    "A016768",
+    "A016910",
+    "A016911"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 28,
     "source": "joeis"
   }
 }

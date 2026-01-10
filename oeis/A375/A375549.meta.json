@@ -1,5 +1,5 @@
 {
-  "description": "Row sums of A375550.",
+  "description": "Series expansion of (x - 1)^3/(2*x - 1)^5.",
   "id": "A375549",
   "mentions": [
     "A375550"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

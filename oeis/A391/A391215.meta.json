@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^k*sin(1/k^2) (negated).",
+  "id": "A391215",
+  "mentions": [
+    "A248945",
+    "A248946",
+    "A248947",
+    "A248948"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

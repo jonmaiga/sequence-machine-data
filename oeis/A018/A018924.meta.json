@@ -1,8 +1,9 @@
 {
-  "description": "Isotropic subspaces of an n-dimensional symplectic space over GF(4).",
+  "description": "Number of isotropic subspaces of an n-dimensional symplectic space over GF(4).",
   "id": "A018924",
   "mentions": [],
   "tags": [
+    "more",
     "nice",
     "nonn"
   ],

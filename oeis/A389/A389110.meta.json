@@ -1,0 +1,17 @@
+{
+  "description": "Least m such that the two-sided exact 95% Clopper-Pearson binomial confidence interval has worst-case width <= 1/n.",
+  "id": "A389110",
+  "mentions": [
+    "A182868",
+    "A220510"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

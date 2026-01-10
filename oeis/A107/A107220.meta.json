@@ -1,7 +1,11 @@
 {
-  "description": "Numbers n such that 1 + (x + x^3 + x^5 + x^7 + ...+ x^(2*n+1)) is irreducible over GF(2).",
+  "description": "Numbers k such that 1 + (x + x^3 + x^5 + x^7 + ... + x^(2*k+1)) is irreducible over GF(2).",
   "id": "A107220",
-  "mentions": [],
+  "mentions": [
+    "A071428",
+    "A071522",
+    "A071642"
+  ],
   "tags": [
     "hard",
     "more",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

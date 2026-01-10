@@ -1,0 +1,31 @@
+{
+  "description": "Prime-factorization representation of irreducible (non-constant) Stern-polynomials B(m,x), listed in ascending order.",
+  "id": "A389912",
+  "mentions": [
+    "A048675",
+    "A055932",
+    "A061395",
+    "A186891",
+    "A206284",
+    "A260442",
+    "A260443",
+    "A277317",
+    "A277318",
+    "A277333",
+    "A283991",
+    "A389449",
+    "A389911",
+    "A389913",
+    "A389914"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

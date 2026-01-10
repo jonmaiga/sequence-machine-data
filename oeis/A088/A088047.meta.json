@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime(k) such that prime(k)-prime(j) == 0 (mod prime(n)), for some k > j.",
+  "description": "Smallest prime(k) such that prime(k) - prime(j) == 0 (mod prime(n)), for some j < k.",
   "id": "A088047",
   "mentions": [
     "A088046"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

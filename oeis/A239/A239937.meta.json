@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that DigitSum(k^2) > DigitSum((k+1)^2).",
+  "description": "Numbers k such that digsum(k^2) > digsum((k+1)^2).",
   "id": "A239937",
   "mentions": [
     "A004159",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

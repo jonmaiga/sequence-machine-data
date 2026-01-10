@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the series limit sum_{k>=1} (-1)^(k+1) sum_{t=1..k} 1/(t^2*(k+1)^2).",
+  "description": "Decimal expansion of the series limit Sum_{k>=1} (-1)^(k+1) Sum_{t=1..k} 1/(t^2*(k+1)^2).",
   "id": "A214508",
   "mentions": [
     "A002117",

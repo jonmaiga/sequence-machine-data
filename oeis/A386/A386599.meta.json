@@ -1,0 +1,19 @@
+{
+  "description": "Number of words covering the alphabet [n] that are irreducible with respect to C, where C is a subset of the alphabet such that all letters in C appear in weakly increasing order within the word.",
+  "id": "A386599",
+  "mentions": [
+    "A386891",
+    "A387336",
+    "A390275",
+    "A390670"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

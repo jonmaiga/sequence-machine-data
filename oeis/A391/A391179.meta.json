@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g^4/(1 - x*g)^5, where g = 1+x*g^3 is the g.f. of A001764.",
+  "id": "A391179",
+  "mentions": [
+    "A001764",
+    "A391177"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

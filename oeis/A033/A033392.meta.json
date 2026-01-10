@@ -1,7 +1,9 @@
 {
   "description": "a(n) = floor(72/n).",
   "id": "A033392",
-  "mentions": [],
+  "mentions": [
+    "A318571"
+  ],
   "tags": [
     "easy",
     "nonn"

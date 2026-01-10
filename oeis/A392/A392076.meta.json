@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k+1) * binomial(k,4*(n-k)).",
+  "id": "A392076",
+  "mentions": [
+    "A001629",
+    "A005676",
+    "A178619",
+    "A391962",
+    "A392044"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

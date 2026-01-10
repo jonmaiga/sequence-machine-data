@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k = p1^e1*p2^e2, with e1 != e2, such that the Euclidean distance between points (p1, e1) and (p2, e2) is an integer.",
+  "id": "A387172",
+  "mentions": [
+    "A007774",
+    "A007947",
+    "A389339",
+    "A389340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

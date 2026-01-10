@@ -1,16 +1,17 @@
 {
-  "description": "a(n) = number of distinct solutions to the set of equations 1 +- x +- x^2 +- ... +- x^n = 0 over the complex numbers.",
+  "description": "a(n) = number of distinct solutions to equations 1 +- x +- x^2 +- ... +- x^n = 0 over the complex numbers.",
   "id": "A096195",
   "mentions": [
-    "A036289"
+    "A036289",
+    "A071642"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
+    "offset": 0,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

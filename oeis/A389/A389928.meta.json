@@ -1,0 +1,21 @@
+{
+  "description": "Truncated centered square numbers: a(n) = 14*n^2 - 22*n + 9.",
+  "id": "A389928",
+  "mentions": [
+    "A000290",
+    "A001844",
+    "A005892",
+    "A381109",
+    "A381424"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

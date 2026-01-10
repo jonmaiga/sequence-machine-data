@@ -1,7 +1,11 @@
 {
   "description": "Numbers k such that the sum of the digits of k is a prime factor of k.",
   "id": "A062713",
-  "mentions": [],
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A027748"
+  ],
   "tags": [
     "base",
     "easy",

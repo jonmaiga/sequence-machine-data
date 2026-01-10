@@ -1,0 +1,23 @@
+{
+  "description": "Number of integer partitions of n with parts colored by {0, 1, 2, 3} such that the sum of colors is congruent to 1 (mod 4).",
+  "id": "A387957",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A023003",
+    "A109085",
+    "A281357",
+    "A389343",
+    "A390208",
+    "A390217"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

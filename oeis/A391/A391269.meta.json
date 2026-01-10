@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of iterations of x-> gpf(2*x+1) starting at n until the value 3 is reached; a(n)=-1 if 3 is not reached.",
+  "id": "A391269",
+  "mentions": [
+    "A006530",
+    "A076565",
+    "A391055"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

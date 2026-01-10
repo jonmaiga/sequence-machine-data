@@ -1,5 +1,5 @@
 {
-  "description": "Integer values of divisor balance: Sum_{d divides k} {d / phi(d)} for numbers k in A023898.",
+  "description": "Integer values of divisor balance: Sum_{d divides k} (d / phi(d)) for numbers k in A023898.",
   "id": "A023899",
   "mentions": [
     "A000010",
@@ -8,7 +8,6 @@
     "A239887"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

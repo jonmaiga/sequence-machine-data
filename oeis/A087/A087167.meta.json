@@ -1,22 +1,24 @@
 {
-  "description": "Odd numbers such that sigma(n) - 2n = 6.",
+  "description": "Numbers k such that sigma(k) - 2k = 6.",
   "id": "A087167",
   "mentions": [
     "A003380",
     "A005101",
     "A005835",
+    "A059609",
     "A077374",
-    "A141548"
+    "A088834",
+    "A141548",
+    "A274551"
   ],
   "tags": [
-    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

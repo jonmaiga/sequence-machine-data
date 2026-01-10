@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of i <= n such that A020481(i) = prime(k).",
+  "id": "A391043",
+  "mentions": [
+    "A001477",
+    "A020481",
+    "A377758"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 94,
+    "source": "joeis"
+  }
+}

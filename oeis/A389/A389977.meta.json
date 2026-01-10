@@ -1,0 +1,30 @@
+{
+  "description": "Absolute value of the inverse Möbius transform of n*mu(n)*sigma(n).",
+  "id": "A389977",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A001615",
+    "A007947",
+    "A008683",
+    "A008966",
+    "A023900",
+    "A048250",
+    "A202535",
+    "A367865",
+    "A367866",
+    "A389775",
+    "A389978"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

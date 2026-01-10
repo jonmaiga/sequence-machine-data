@@ -6,12 +6,13 @@
     "A347317"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

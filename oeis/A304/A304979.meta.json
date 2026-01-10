@@ -2,6 +2,7 @@
   "description": "The nonzero terms of the cogrowth sequence of (Z/5Z)^*2 = * with respect to the generating set {(x,1), (1,y)}.",
   "id": "A304979",
   "mentions": [
+    "A002294",
     "A047098",
     "A107026",
     "A126869"

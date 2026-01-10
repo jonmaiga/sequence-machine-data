@@ -2,7 +2,10 @@
   "description": "a(n) = n^3 + 2.",
   "id": "A084380",
   "mentions": [
-    "A034324"
+    "A034324",
+    "A084377",
+    "A084378",
+    "A084379"
   ],
   "tags": [
     "easy",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 43,
     "source": "joeis"
   }
 }

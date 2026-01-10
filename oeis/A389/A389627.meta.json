@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of circulant graphs with n vertices and degree k, (0 <= k < n).",
+  "id": "A389627",
+  "mentions": [
+    "A023645",
+    "A049287",
+    "A049289",
+    "A075545",
+    "A319367",
+    "A319372",
+    "A367554"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

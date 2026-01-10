@@ -1,7 +1,9 @@
 {
   "description": "Recip transform of 2*(1 + x^4)-1/(1-x).",
   "id": "A049152",
-  "mentions": [],
+  "mentions": [
+    "A049150"
+  ],
   "tags": [
     "nonn"
   ],

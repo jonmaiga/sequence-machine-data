@@ -1,5 +1,5 @@
 {
-  "description": "a(n)= 4*a(n-1) -a(n-2) -a(n-3).",
+  "description": "a(n) = 4*a(n-1) - a(n-2) - a(n-3).",
   "id": "A108146",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 29,
     "source": "joeis"
   }
 }

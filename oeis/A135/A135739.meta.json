@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+reverse(n) has only odd decimal digits (n not a multiple of 10).",
+  "description": "Numbers k such that k+reverse(k) has only odd decimal digits (k not a multiple of 10).",
   "id": "A135739",
   "mentions": [],
   "tags": [

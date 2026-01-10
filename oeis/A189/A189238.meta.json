@@ -1,7 +1,8 @@
 {
-  "description": "E.g.f. x/cos(x)*exp(x/cos(x)).",
+  "description": "Expansion of e.g.f. x/cos(x)*exp(x/cos(x)).",
   "id": "A189238",
   "mentions": [
+    "A009300",
     "A009843"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

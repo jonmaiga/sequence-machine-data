@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the determinant of the n-th order Hankel matrix M(n) whose generic element is given by M(i,j) = phi(i+j) with i,j = 0, ..., n-1 and M(0,0) = 0.",
+  "id": "A391789",
+  "mentions": [
+    "A000010",
+    "A368025",
+    "A391788",
+    "A391790"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

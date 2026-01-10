@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of 3 X 3 matrices with elements 1..n where at least one row is strictly increasing.",
+  "id": "A390904",
+  "mentions": [
+    "A206808"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

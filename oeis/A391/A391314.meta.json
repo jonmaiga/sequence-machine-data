@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(2)/log(365/364).",
+  "id": "A391314",
+  "mentions": [
+    "A014088",
+    "A033810",
+    "A380129"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

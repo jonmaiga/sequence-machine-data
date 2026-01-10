@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes in sequence defined by A(0) = 27, A(n) = 10*A(n-1) - 53 for n > 0.",
+  "description": "Indices of primes in the sequence defined by A(0) = 27, A(n) = 10*A(n-1) - 53 for n > 0.",
   "id": "A101954",
   "mentions": [
     "A000533",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

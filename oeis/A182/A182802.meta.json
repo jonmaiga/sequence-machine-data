@@ -1,5 +1,5 @@
 {
-  "description": "Joint-rank array of the numbers j*(1+tau)^2*(i-1), where tau = golden ratio = (1+sqrt(5))/2, i>=1, read by antidiagonals.",
+  "description": "Joint-rank array of the numbers j*(1+phi)^2*(i-1), where phi = golden ratio = (1+sqrt(5))/2, i>=1, read by antidiagonals.",
   "id": "A182802",
   "mentions": [
     "A054963",

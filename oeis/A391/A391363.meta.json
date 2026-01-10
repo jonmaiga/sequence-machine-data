@@ -1,0 +1,24 @@
+{
+  "description": "Numbers with more than one factorization (up to association) in Z[(1+sqrt(-15))/2], the ring of integers of Q(sqrt(-15)).",
+  "id": "A391363",
+  "mentions": [
+    "A033212",
+    "A106859",
+    "A191018",
+    "A191062",
+    "A262362",
+    "A262828",
+    "A341786",
+    "A390422",
+    "A391360",
+    "A391364"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

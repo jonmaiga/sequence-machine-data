@@ -1,0 +1,17 @@
+{
+  "description": "Average k of twin prime pairs such that gcd(d^2 - 4, k) = 1 for only one divisor d of k.",
+  "id": "A390295",
+  "mentions": [
+    "A002472",
+    "A014574"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

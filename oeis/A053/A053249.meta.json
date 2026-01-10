@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors of n such that n and n+1 have the same sum of divisors.",
+  "description": "Number of divisors of k, where k and k+1 have the same sum of divisors (A002961).",
   "id": "A053249",
   "mentions": [
     "A000005",

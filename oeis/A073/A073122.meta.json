@@ -2,6 +2,8 @@
   "description": "Minimal reversing binary representation of n. Converting sum of powers of 2 in binary representation of a(n) to alternating sum gives n. See A072339.",
   "id": "A073122",
   "mentions": [
+    "A003188",
+    "A038189",
     "A065621",
     "A072219",
     "A072339",

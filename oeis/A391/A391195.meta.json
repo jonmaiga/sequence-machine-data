@@ -1,0 +1,18 @@
+{
+  "description": "Integers which can be expressed as the sum of two distinct perfect powers.",
+  "id": "A391195",
+  "mentions": [
+    "A000404",
+    "A001597",
+    "A388076"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

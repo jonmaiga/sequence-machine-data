@@ -1,5 +1,5 @@
 {
-  "description": "Greatest common divisor of n^2 - 4 and n^2 + 4.",
+  "description": "a(n) = gcd(n^2 - 4, n^2 + 4).",
   "id": "A089146",
   "mentions": [
     "A028347",

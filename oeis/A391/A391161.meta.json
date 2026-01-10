@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonisomorphic magmas with n elements and a closed center of size k.",
+  "id": "A391161",
+  "mentions": [
+    "A001329",
+    "A001425",
+    "A386681",
+    "A391155",
+    "A391156",
+    "A391162"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

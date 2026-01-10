@@ -1,7 +1,9 @@
 {
-  "description": "This is a sequence from 4 X n Chomp. Values of p for which there is a P-position (p,p,r,r).",
+  "description": "Values of p for which there is a P-position (p,p,r,r) in 4 X n Chomp with p >= r.",
   "id": "A152004",
-  "mentions": [],
+  "mentions": [
+    "A389258"
+  ],
   "tags": [
     "nonn"
   ],

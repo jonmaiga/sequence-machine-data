@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the largest dihedral angle, in radians, in an augmented pentagonal prism (Johnson solid J_52).",
+  "id": "A389491",
+  "mentions": [
+    "A019669",
+    "A156546",
+    "A195696",
+    "A195702",
+    "A228719",
+    "A385509",
+    "A385510"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

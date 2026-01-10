@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle T(n, k) read by rows, giving on row n all A389465(n) natural numbers in range [n, sigma(n)] that are coprime to n.",
+  "id": "A389466",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A389465"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

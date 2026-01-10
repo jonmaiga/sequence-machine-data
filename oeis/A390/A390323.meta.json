@@ -1,0 +1,27 @@
+{
+  "description": "Sum of composite numbers coprime to n in the range 1 < k < n.",
+  "id": "A390323",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003817",
+    "A008472",
+    "A023896",
+    "A034387",
+    "A036997",
+    "A048597",
+    "A064819",
+    "A070826",
+    "A325284"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (g/(1 + x*g))^3, where g = 1+x*g^4 is the g.f. of A002293.",
+  "id": "A391607",
+  "mentions": [
+    "A002293",
+    "A387982",
+    "A391278"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

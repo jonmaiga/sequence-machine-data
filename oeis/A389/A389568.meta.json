@@ -1,0 +1,18 @@
+{
+  "description": "Record values in A034058.",
+  "id": "A389568",
+  "mentions": [
+    "A034058",
+    "A389569"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction expansion for c=sum_{k>=0} 1/2^(k!).",
+  "description": "Continued fraction expansion for c = Sum_{k>=0} 1/2^(k!).",
   "id": "A076157",
   "mentions": [
     "A004200",

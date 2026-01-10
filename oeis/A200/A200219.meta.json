@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions of the equation x^n + (x+1)^n = (x+2)^n (mod n) for x = 0..n-1.",
+  "description": "Number of solutions of the equation x^n + (x+1)^n == (x+2)^n (mod n) for x = 0..n-1.",
   "id": "A200219",
   "mentions": [
     "A195637",

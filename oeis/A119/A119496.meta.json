@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n, 3^n, 5^n and 7^n have even digit sum.",
+  "description": "Numbers k such that 2^k, 3^k, 5^k and 7^k have even digit sum.",
   "id": "A119496",
   "mentions": [
     "A118734",

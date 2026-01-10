@@ -1,0 +1,18 @@
+{
+  "description": "The number of Motzkin paths of length n satisfying the red-blue rule.",
+  "id": "A389602",
+  "mentions": [
+    "A001006",
+    "A005802",
+    "A216947"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}
