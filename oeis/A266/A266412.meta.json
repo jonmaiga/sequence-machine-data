@@ -2,9 +2,11 @@
   "description": "Inverse permutation to A266411.",
   "id": "A266412",
   "mentions": [
+    "A004001",
     "A266411"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

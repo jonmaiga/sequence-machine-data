@@ -2,9 +2,11 @@
   "description": "Number of partitions of n, where the difference between the number of odd parts and the number of even parts is 1.",
   "id": "A240010",
   "mentions": [
+    "A239832",
     "A240009"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

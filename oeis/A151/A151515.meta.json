@@ -1,15 +1,20 @@
 {
   "description": "Number of 1-sided strip polyhexes with n cells.",
   "id": "A151515",
-  "mentions": [],
+  "mentions": [
+    "A003104",
+    "A151514",
+    "A323931",
+    "A359068"
+  ],
   "tags": [
+    "formulas",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 7^n + 12 is prime.",
+  "description": "Numbers k such that 7^k + 12 is prime.",
   "id": "A152213",
   "mentions": [
     "A090669",
@@ -11,6 +11,7 @@
     "A236371"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

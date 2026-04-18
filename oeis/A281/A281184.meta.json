@@ -2,12 +2,14 @@
   "description": "E.g.f. C(x)^3 = d/dx log(C(x) + S(x)), where C(x) and S(x) are described by A281181 and A281180, respectively.",
   "id": "A281184",
   "mentions": [
+    "A000010",
     "A281180",
     "A281181",
     "A281182",
     "A281183"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

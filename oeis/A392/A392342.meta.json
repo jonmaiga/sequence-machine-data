@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not the sum of at most four cubefull numbers.",
+  "id": "A392342",
+  "mentions": [
+    "A036966",
+    "A056828",
+    "A392343"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

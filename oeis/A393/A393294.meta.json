@@ -1,0 +1,19 @@
+{
+  "description": "Iteration numbers k such that MD5^{k}(128 bits of 0) is a record high value.",
+  "id": "A393294",
+  "mentions": [
+    "A234849",
+    "A392764",
+    "A393716"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

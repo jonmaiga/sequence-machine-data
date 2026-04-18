@@ -1,0 +1,22 @@
+{
+  "description": "The radical value of the product of adjacent terms of A392505.",
+  "id": "A393471",
+  "mentions": [
+    "A005117",
+    "A007947",
+    "A046388",
+    "A100484",
+    "A120944",
+    "A392505"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

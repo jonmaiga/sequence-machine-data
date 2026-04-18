@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} Sum_{m>=1} (-1)^(m+k) * H(m+k)/(m+k), where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A391304",
+  "mentions": [
+    "A001008",
+    "A002162",
+    "A002805",
+    "A072691",
+    "A187832",
+    "A253191",
+    "A256358"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

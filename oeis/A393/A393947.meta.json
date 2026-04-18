@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are neither squarefree nor squareful with prime power factor exponents that are not all pairwise coprime.",
+  "id": "A393947",
+  "mentions": [
+    "A000977",
+    "A002110",
+    "A013929",
+    "A024619",
+    "A126706",
+    "A332785",
+    "A390949",
+    "A393946"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

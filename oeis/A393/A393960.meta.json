@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the volume of a square antiprism with unit edges.",
+  "id": "A393960",
+  "mentions": [
+    "A010474",
+    "A176394",
+    "A228497",
+    "A387149",
+    "A387150",
+    "A393961",
+    "A393962"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

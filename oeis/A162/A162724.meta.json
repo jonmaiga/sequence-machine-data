@@ -2,7 +2,11 @@
   "description": "Binary Keith numbers.",
   "id": "A162724",
   "mentions": [
-    "A162363"
+    "A007629",
+    "A162363",
+    "A187713",
+    "A188195",
+    "A188200"
   ],
   "tags": [
     "base",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

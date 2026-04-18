@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of ways to assign signs +- to 1, 2, ..., A042948(n) such that the signed sum equals A042948(n).",
+  "id": "A394723",
+  "mentions": [
+    "A000009",
+    "A000027",
+    "A025591",
+    "A026836",
+    "A042948",
+    "A063890",
+    "A070936",
+    "A327467",
+    "A387388",
+    "A387389"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

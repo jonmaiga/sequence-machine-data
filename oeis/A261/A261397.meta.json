@@ -2,7 +2,9 @@
   "description": "a(n) = 3^n*Fibonacci(n).",
   "id": "A261397",
   "mentions": [
+    "A000032",
     "A000045",
+    "A001622",
     "A103435"
   ],
   "tags": [

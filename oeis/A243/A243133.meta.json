@@ -1,5 +1,5 @@
 {
-  "description": "64*n^7 - 112*n^5 + 56*n^3 - 7*n.",
+  "description": "a(n) = 64*n^7 - 112*n^5 + 56*n^3 - 7*n.",
   "id": "A243133",
   "mentions": [
     "A056220",

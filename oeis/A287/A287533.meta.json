@@ -2,12 +2,15 @@
   "description": "Fibonacci numbers modulo 20.",
   "id": "A287533",
   "mentions": [
+    "A000045",
+    "A001175",
     "A003893",
     "A079343",
     "A082116"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

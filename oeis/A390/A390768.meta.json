@@ -1,22 +1,21 @@
 {
-  "description": "Triangle (read by rows) lists relative distances in 2^m-range-steps after some first Collatz iterations.",
+  "description": "Binary length of A139391(n) - binary length of n.",
   "id": "A390768",
   "mentions": [
     "A001511",
-    "A083595",
-    "A097073",
+    "A139391",
     "A177057",
-    "A390595"
+    "A390595",
+    "A392003"
   ],
   "tags": [
     "easy",
     "formulas",
-    "sign",
-    "tabf"
+    "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 76,
+    "size": 73,
     "source": "oeis-bfile"
   }
 }

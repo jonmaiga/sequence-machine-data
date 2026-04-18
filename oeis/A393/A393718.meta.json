@@ -1,0 +1,25 @@
+{
+  "description": "The smallest number k such that the digit reversals of k, when written in all bases 2 to n, are strictly decreasing from base 2 to base n.",
+  "id": "A393718",
+  "mentions": [
+    "A004086",
+    "A305877",
+    "A305989",
+    "A393717",
+    "A393720",
+    "A393721",
+    "A393902",
+    "A393903"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that there is a set of n proper divisors of k whose sum is k, and no set of fewer than n proper divisors of k whose sum is k.",
+  "id": "A389712",
+  "mentions": [
+    "A005835",
+    "A083207",
+    "A392361"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

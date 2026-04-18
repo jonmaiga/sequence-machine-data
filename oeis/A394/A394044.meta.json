@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 - 2/p^2 + 2/p^3 - 1/p^4).",
+  "id": "A394044",
+  "mentions": [
+    "A005117",
+    "A065463",
+    "A268335",
+    "A394042",
+    "A394043"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

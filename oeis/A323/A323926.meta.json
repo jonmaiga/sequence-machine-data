@@ -1,5 +1,5 @@
 {
-  "description": "Polycyclic aromatic hydrocarbons (for precise definition see He and He, 1986).",
+  "description": "Number of Kekuléan polyhexes with n hexagons.",
   "id": "A323926",
   "mentions": [
     "A003104",

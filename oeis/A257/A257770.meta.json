@@ -1,5 +1,5 @@
 {
-  "description": "Table read by rows: numbers k, 0<=k<=9, such that n is a Belgian-k number.",
+  "description": "Table read by rows: Row n >= 0 lists numbers k, 0 <= k <= 9, such that n is a Belgian-k number.",
   "id": "A257770",
   "mentions": [
     "A106039",

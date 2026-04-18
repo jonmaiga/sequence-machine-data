@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximum permanent of an n X n circulant matrix whose rows are permutations of [0, 1, 2, ..., n-1].",
+  "id": "A392192",
+  "mentions": [
+    "A392132",
+    "A392188",
+    "A392190",
+    "A392191",
+    "A392193"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

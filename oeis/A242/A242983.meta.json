@@ -1,5 +1,5 @@
 {
-  "description": "n/2 * (n^3 - 2*n^2 - 2*n + 5).",
+  "description": "a(n) = (n/2) * (n^3 - 2*n^2 - 2*n + 5).",
   "id": "A242983",
   "mentions": [
     "A019582",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 39,
     "source": "joeis"
   }
 }

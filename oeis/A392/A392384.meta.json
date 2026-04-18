@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + tau(k) + omega(k)^6.",
+  "id": "A392384",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001221",
+    "A001615",
+    "A386637",
+    "A391447",
+    "A392263"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

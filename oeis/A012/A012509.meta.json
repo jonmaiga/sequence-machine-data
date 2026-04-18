@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: -log(cos(x)*cos(x)) (even powers only).",
+  "description": "Expansion of e.g.f. -log(cos(x)*cos(x)) (even powers only).",
   "id": "A012509",
   "mentions": [
     "A000182",

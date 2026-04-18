@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime factor of the n-th base 10 palindrome with a(1)=a(2)=1.",
+  "id": "A394544",
+  "mentions": [
+    "A002113",
+    "A006530",
+    "A394545"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

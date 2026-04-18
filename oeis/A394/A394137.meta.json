@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) satisfies (1-x)*A(x)^3+(3x-2)*A(x)^2+(1-x)*A(x)+x^2-x=0.",
+  "id": "A394137",
+  "mentions": [
+    "A394136"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

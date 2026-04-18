@@ -1,9 +1,11 @@
 {
-  "description": "Numbers m>=2, such that, if a prime p divides m^2-1, then every prime q",
+  "description": "Numbers m >= 2, such that, if a prime p divides m^2 - 1, then every prime q < p divides m^2 - 1 as well.",
   "id": "A194099",
   "mentions": [
     "A005563",
-    "A055932"
+    "A055932",
+    "A141399",
+    "A391602"
   ],
   "tags": [
     "formulas",

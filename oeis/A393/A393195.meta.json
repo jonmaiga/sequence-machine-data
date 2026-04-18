@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = A(x^2) + x*A(x^2)^3.",
+  "id": "A393195",
+  "mentions": [
+    "A073711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

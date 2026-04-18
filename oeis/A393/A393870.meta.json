@@ -1,0 +1,14 @@
+{
+  "description": "G.f. A(x) satisfies [x^(n+2)] A^(2^n)(x) = n*2^n * [x^(n+1)] A^(2^n)(x) for n >= 1, where A^k(x) denotes the k-th iteration of A(x).",
+  "id": "A393870",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + (sum of digits of n) and n + (product of digits of n) contain the same distinct digits of n.",
+  "description": "Numbers k such that k + (sum of digits of k) and k + (product of digits of k) contain the same distinct digits of k.",
   "id": "A248718",
   "mentions": [
     "A007953",

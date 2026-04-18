@@ -1,5 +1,5 @@
 {
-  "description": "(10^n)^4+(10^n+1)^4.",
+  "description": "a(n) = (10^n)^4+(10^n+1)^4.",
   "id": "A171687",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
-    "source": "joeis"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

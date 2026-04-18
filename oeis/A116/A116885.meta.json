@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 0<|n^5-m^2|<= n for some integer m.",
+  "description": "Integers k such that 0<|k^5-m^2|<= k for some integer m.",
   "id": "A116885",
   "mentions": [
     "A078933",

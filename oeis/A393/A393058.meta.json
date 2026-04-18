@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms of A392868 <= n.",
+  "id": "A393058",
+  "mentions": [
+    "A391844",
+    "A392868",
+    "A393056",
+    "A393057",
+    "A393067",
+    "A393068"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

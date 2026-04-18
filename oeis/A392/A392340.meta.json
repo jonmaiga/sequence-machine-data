@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the area of a 15-gon with unit side lengths.",
+  "id": "A392340",
+  "mentions": [
+    "A019910"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

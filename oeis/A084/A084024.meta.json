@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which row n gives n smallest n-digit multiples of n that are palindromes.",
+  "description": "Triangle read by rows in which row n gives n smallest n-digit multiples of n that are palindromes with rows padded with 0 if there are insufficient palindromes.",
   "id": "A084024",
   "mentions": [
     "A053041",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

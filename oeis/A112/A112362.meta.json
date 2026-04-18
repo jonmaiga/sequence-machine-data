@@ -1,5 +1,5 @@
 {
-  "description": "A006967(n)/2.",
+  "description": "a(n) = A006967(n)/2.",
   "id": "A112362",
   "mentions": [
     "A006967"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 19,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

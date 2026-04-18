@@ -1,0 +1,19 @@
+{
+  "description": "Consider the first quadrant with its squares numbered by the square spiral, with initial square numbered 0, as in A392181. A knight starts at square 0 and always moves to the lowest-numbered square it has not visited. Sequence gives its trajectory (which is finite).",
+  "id": "A393433",
+  "mentions": [
+    "A316588",
+    "A316667",
+    "A392181"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

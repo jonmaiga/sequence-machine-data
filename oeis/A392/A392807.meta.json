@@ -1,0 +1,19 @@
+{
+  "description": "Number of plane partitions of n with 3 parts.",
+  "id": "A392807",
+  "mentions": [
+    "A000219",
+    "A091298",
+    "A392995"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 56,
+    "source": "joeis"
+  }
+}

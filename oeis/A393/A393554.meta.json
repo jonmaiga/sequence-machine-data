@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways, up to rotations and reflections, to distribute n guards on the corners and walls of an equilateral triangle castle so that each wall has an equal number of guards.",
+  "id": "A393554",
+  "mentions": [
+    "A001400",
+    "A213506",
+    "A363370"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that tau(k) and sigma(k) are both Fibonacci numbers.",
+  "id": "A390231",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A000203",
+    "A272412"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

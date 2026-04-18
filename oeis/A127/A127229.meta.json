@@ -1,14 +1,17 @@
 {
-  "description": "a(n)= numerator of ((n + 5)! - (n - 5)!)/(n!).",
+  "description": "a(n) = numerator of ((n + 5)! - (n - 5)!)/n!.",
   "id": "A127229",
   "mentions": [
     "A028387",
+    "A052787",
     "A062938",
     "A127227",
     "A127228",
     "A127230"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "frac",
     "nonn"
   ],

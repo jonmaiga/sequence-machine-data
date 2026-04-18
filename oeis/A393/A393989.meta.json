@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f.: Product_{k>=1} (1 + x^(k*(k+5)/2)).",
+  "id": "A393989",
+  "mentions": [
+    "A024940",
+    "A393987",
+    "A393988"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "floor(prime(n) - n*log(n) - n*log(log(n)) + n).",
+  "description": "a(n) = floor(prime(n) - n*log(n) - n*log(log(n)) + n).",
   "id": "A059112",
   "mentions": [
     "A000040",

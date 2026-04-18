@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which the n-th row contains the smallest set of n distinct numbers beginning with n with a product which is a square.",
+  "description": "Triangle read by rows in which the n-th row contains the smallest set of n increasing numbers beginning with n with a product which is a square.",
   "id": "A083486",
   "mentions": [
     "A083484",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

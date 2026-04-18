@@ -1,0 +1,15 @@
+{
+  "description": "For k >= 1, perfect powers A001597(k) for which ratio A001597(k+1) / A001597(k) is smaller than that for any smaller k.",
+  "id": "A393483",
+  "mentions": [
+    "A001597"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

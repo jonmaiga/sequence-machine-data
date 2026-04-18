@@ -1,0 +1,18 @@
+{
+  "description": "Integers k, not divisible by any of their digits, such that Sum_{j = digits of k} k/j is an integer different from k.",
+  "id": "A393454",
+  "mentions": [
+    "A034838",
+    "A393453"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

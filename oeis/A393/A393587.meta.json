@@ -1,0 +1,15 @@
+{
+  "description": "Matula-Goebel numbers of two-leaf rooted trees.",
+  "id": "A393587",
+  "mentions": [
+    "A007097"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The largest 11-smooth divisor of n.",
+  "id": "A392598",
+  "mentions": [
+    "A006519",
+    "A051038",
+    "A065331",
+    "A355582",
+    "A391946",
+    "A392597"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

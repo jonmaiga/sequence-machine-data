@@ -1,0 +1,19 @@
+{
+  "description": "Sum of depths of leaves in a complete ternary tree with n nodes.",
+  "id": "A390616",
+  "mentions": [
+    "A003462",
+    "A213511",
+    "A392221"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

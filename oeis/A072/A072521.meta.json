@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 6 and then the smallest triangular numbers such that sum of two neighbors is also a triangular number.",
+  "description": "a(1) = 6 and then the smallest triangular numbers, larger than the previous term, such that sum of two neighbors is also a triangular number.",
   "id": "A072521",
   "mentions": [
     "A072522"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "joeis"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

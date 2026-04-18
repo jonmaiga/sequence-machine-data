@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m with divisor 32 | m and abundance sigma(m)-2*m = 32.",
+  "description": "Numbers m divisible by 32 and with abundance sigma(m)-2*m = 32.",
   "id": "A181601",
   "mentions": [
     "A000203",

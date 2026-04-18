@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the maximum total surface area of three-element sets of distinct integer-sided cuboids that fill an n X n X n cube.",
+  "id": "A389716",
+  "mentions": [
+    "A381847",
+    "A384311",
+    "A384479",
+    "A385153",
+    "A385154",
+    "A386296",
+    "A392884",
+    "A392885",
+    "A393104",
+    "A393105",
+    "A393319"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 43,
+    "source": "joeis"
+  }
+}

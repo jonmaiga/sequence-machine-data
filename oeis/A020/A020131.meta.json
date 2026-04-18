@@ -1,13 +1,16 @@
 {
   "description": "Ceiling of Gamma(n+3/4)/Gamma(3/4).",
   "id": "A020131",
-  "mentions": [],
+  "mentions": [
+    "A020041",
+    "A020086"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

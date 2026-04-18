@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n+1, k+1)*A000272(k).",
+  "id": "A392286",
+  "mentions": [
+    "A000169",
+    "A000217",
+    "A000272",
+    "A073229",
+    "A088957",
+    "A270593"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

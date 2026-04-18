@@ -1,17 +1,15 @@
 {
-  "description": "A sequence of primes suggested by Ramanujan's: 2*n*log(2*n) < R(n) < 4*n*log(4*n) : floor((2n+m)* log(2*n+m)) if Prime.",
+  "description": "Primes of the form floor(2 * (k+j) * log(2*(k+j))), 0 <= j <= k.",
   "id": "A163587",
   "mentions": [
     "A104272"
   ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 47,
     "source": "oeis-bfile"
   }
 }

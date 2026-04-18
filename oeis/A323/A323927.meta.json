@@ -1,5 +1,5 @@
 {
-  "description": "Polycyclic aromatic hydrocarbons (for precise definition see He and He, 1986).",
+  "description": "Number of peri-condensed or cyclic peri-condensed non-Kekuléan planar polycyclic aromatic hydrocarbons with n hexagons.",
   "id": "A323927",
   "mentions": [
     "A003104",

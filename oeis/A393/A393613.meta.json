@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least positive integer k such that prime(n) + 2^k + 4 is prime, or -1 if no such prime exists.",
+  "id": "A393613",
+  "mentions": [
+    "A000040",
+    "A094076",
+    "A393612"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

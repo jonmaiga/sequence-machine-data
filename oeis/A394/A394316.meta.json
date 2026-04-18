@@ -1,0 +1,19 @@
+{
+  "description": "Number of Hamiltonian cycles on a simple grid graph of size 4 X 4 X n.",
+  "id": "A394316",
+  "mentions": [
+    "A003699",
+    "A003763",
+    "A193346"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

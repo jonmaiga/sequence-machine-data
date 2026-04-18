@@ -1,0 +1,15 @@
+{
+  "description": "Upper irredundance and domination number of the n-Moebius ladder.",
+  "id": "A392590",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

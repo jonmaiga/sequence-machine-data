@@ -1,0 +1,18 @@
+{
+  "description": "Negated discriminants of imaginary quadratic fields F such that 16 is an 8th power in F_2, where F_2 is the completion of F with respect to a place above 2.",
+  "id": "A391271",
+  "mentions": [
+    "A003657",
+    "A391409"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

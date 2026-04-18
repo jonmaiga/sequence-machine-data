@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 50.",
   "id": "A010279",
-  "mentions": [],
+  "mentions": [
+    "A010621"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 75,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

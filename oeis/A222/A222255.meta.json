@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n!/n# + 1, where n#=A034386(n) (primorial), listed with repetition.",
+  "description": "Primes of the form k!/k# + 1, where k# = A034386(k) (primorial), listed with repetition.",
   "id": "A222255",
   "mentions": [
     "A000142",

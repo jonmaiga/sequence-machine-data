@@ -1,5 +1,5 @@
 {
-  "description": "n is such that pi(n*prime(n))/n is an integer.",
+  "description": "Numbers k such that pi(k*prime(k))/k is an integer.",
   "id": "A084295",
   "mentions": [
     "A000040",

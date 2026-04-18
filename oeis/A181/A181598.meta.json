@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m with divisor 8 | m and abundance sigma(m)-2*m = 8.",
+  "description": "Numbers m divisible by 8 and with abundance sigma(m)-2*m = 8.",
   "id": "A181598",
   "mentions": [
     "A000396",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

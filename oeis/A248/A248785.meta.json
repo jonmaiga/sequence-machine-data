@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that p = n^2 - 13 and q = n^2 + 13 are consecutive primes.",
+  "description": "Numbers k with the property that p = k^2 - 13 and q = k^2 + 13 are consecutive primes.",
   "id": "A248785",
   "mentions": [
     "A075190",

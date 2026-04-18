@@ -1,0 +1,21 @@
+{
+  "description": "The smallest positive number k such that A066686(k,n) is a substring of A051129(n,k), or -1 if no such k exists.",
+  "id": "A390224",
+  "mentions": [
+    "A018834",
+    "A051129",
+    "A066686",
+    "A067599",
+    "A391639",
+    "A392669"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Rectangular array read by descending antidiagonals: row n shows the indices m such that prime(m) (mod n) = n-1.",
+  "id": "A393606",
+  "mentions": [
+    "A000040",
+    "A219109",
+    "A393607"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

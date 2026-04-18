@@ -1,0 +1,24 @@
+{
+  "description": "Achilles numbers k with at least 1 repeated exponent of prime power factors.",
+  "id": "A392927",
+  "mentions": [
+    "A000977",
+    "A001694",
+    "A002110",
+    "A013929",
+    "A024619",
+    "A052486",
+    "A126706",
+    "A286708",
+    "A375055",
+    "A393708"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

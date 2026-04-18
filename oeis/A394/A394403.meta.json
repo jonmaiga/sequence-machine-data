@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + pi(k) + Omega(k)^8.",
+  "id": "A394403",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A001222",
+    "A001615",
+    "A393123",
+    "A393162",
+    "A393163",
+    "A394260",
+    "A394312",
+    "A394315",
+    "A394402"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

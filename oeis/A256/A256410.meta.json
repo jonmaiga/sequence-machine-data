@@ -2,6 +2,7 @@
   "description": "Subtract 1 from the terms of A256407.",
   "id": "A256410",
   "mentions": [
+    "A001359",
     "A166133",
     "A256403",
     "A256407",

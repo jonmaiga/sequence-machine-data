@@ -1,18 +1,18 @@
 {
-  "description": "A symmetrical triangular sequence:t(n,m)=(StirlingS1[n, m] + StirlingS1[n, n - m])*Binomial[n, m] - (StirlingS1[n, 0] + StirlingS1[n, n - 0])* Binomial[n, 0] + 1.",
+  "description": "Triangle read by rows: T(n,k) = (Stirling1(n,k) + Stirling1(n,n-k)) * binomial(n,k) with T(0,0)=1.",
   "id": "A174834",
   "mentions": [
+    "A008275",
     "A154843"
   ],
   "tags": [
-    "formulas",
+    "less",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 48,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "joeis"
   }
 }

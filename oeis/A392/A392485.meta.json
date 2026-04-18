@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n Boolean matrices that are row-consistent but not column-consistent.",
+  "id": "A392485",
+  "mentions": [
+    "A048291",
+    "A392482",
+    "A392486"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

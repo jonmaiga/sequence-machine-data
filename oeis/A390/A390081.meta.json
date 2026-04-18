@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the abundancy index of k is equal to the abundancy index of d(k).",
+  "id": "A390081",
+  "mentions": [
+    "A000005",
+    "A392506"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

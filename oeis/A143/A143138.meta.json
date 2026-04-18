@@ -2,15 +2,18 @@
   "description": "E.g.f.: A(x) = x + (exp(A(x)) - 1)^2.",
   "id": "A143138",
   "mentions": [
-    "A143139"
+    "A000010",
+    "A143139",
+    "A281181"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "joeis"
   }
 }

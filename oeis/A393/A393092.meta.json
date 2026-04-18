@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of ways to partition n labeled elements into pie slices whose part sizes are given by the k-th partition of n, allowing the pie to be turned over, partitions given in Abramowitz-Stegun order.",
+  "id": "A393092",
+  "mentions": [
+    "A000041",
+    "A032262",
+    "A036040",
+    "A036043",
+    "A133800"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

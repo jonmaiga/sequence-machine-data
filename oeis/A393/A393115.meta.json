@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (AH(k)/k)^2, where AH(K) = A058313(k)/A058312(k) is the k-th alternating harmonic (or skew-harmonic) number.",
+  "id": "A393115",
+  "mentions": [
+    "A002162",
+    "A013661",
+    "A013662",
+    "A058312",
+    "A058313",
+    "A099218",
+    "A218505",
+    "A393116",
+    "A393117",
+    "A393118",
+    "A393119",
+    "A393120",
+    "A393143"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

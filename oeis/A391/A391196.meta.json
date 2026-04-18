@@ -1,0 +1,14 @@
+{
+  "description": "a(n) = (2^(n-2) * (n-2)! + floor(n/2)) mod n for n > 1.",
+  "id": "A391196",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

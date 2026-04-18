@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (1/2+1/2*i*sqrt(11))^n + (1/2-1/2*i*sqrt(11))^n, where i=sqrt(-1).",
+  "description": "a(n) = (1/2+(1/2)*i*sqrt(11))^(n+1) + (1/2-(1/2)*i*sqrt(11))^(n+1), where i=sqrt(-1).",
   "id": "A131040",
   "mentions": [
     "A002316",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of separable derangements on [n].",
+  "id": "A393394",
+  "mentions": [
+    "A000166",
+    "A006318"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

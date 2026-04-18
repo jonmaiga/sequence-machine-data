@@ -1,5 +1,5 @@
 {
-  "description": "The absolute values of n-th natural noncomposite number minus n-th number k such that 6*k-+1 is a twin prime pair.",
+  "description": "The absolute values of n-th natural noncomposite number minus n-th number k such that 6*k +- 1 is a twin prime pair.",
   "id": "A173386",
   "mentions": [
     "A002822",

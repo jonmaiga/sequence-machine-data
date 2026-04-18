@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of n consecutive triangular numbers immediately preceding a triangular number T(k), which is also equal to the sum of n-1 consecutive triangular numbers immediately following T(k).",
+  "id": "A392441",
+  "mentions": [
+    "A000217",
+    "A056220",
+    "A222716"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k whose smallest prime factor index is equal to the number of distinct prime factors of k and whose largest prime factor index is equal to the number of prime factors of k counted with multiplicity.",
+  "id": "A393102",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A106529",
+    "A126706",
+    "A324515",
+    "A360769",
+    "A392728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

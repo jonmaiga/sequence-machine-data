@@ -1,5 +1,5 @@
 {
-  "description": "Values of n where numerators of series coefficients of 1/(1 + Cosh[Sqrt[x]]) differ from A002425.",
+  "description": "Values of n where numerators of series coefficients of 1/(1 + cosh(sqrt(x))) differ from A002425.",
   "id": "A089172",
   "mentions": [
     "A002425"

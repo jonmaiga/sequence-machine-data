@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/2 + 5 * arcsin(1/4) / Pi.",
+  "id": "A394806",
+  "mentions": [
+    "A086201",
+    "A195621",
+    "A394805",
+    "A394807"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

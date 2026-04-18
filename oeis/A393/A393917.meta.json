@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes strictly between (prime(n) + prime(n+1)) and (prime(n) * prime(n+1)).",
+  "id": "A393917",
+  "mentions": [
+    "A000720",
+    "A001043",
+    "A006094"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

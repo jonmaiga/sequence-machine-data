@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the distinct prime factors of the generalized Fermat number F_n(8) = 8^(2^n) + 1.",
+  "id": "A393152",
+  "mentions": [
+    "A050922",
+    "A060444",
+    "A152581",
+    "A253242",
+    "A391444",
+    "A392900",
+    "A392901",
+    "A392902",
+    "A392903",
+    "A392904",
+    "A392905"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

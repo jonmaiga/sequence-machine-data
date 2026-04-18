@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are neither cubefree nor powerful and have exactly 2 distinct prime factors.",
+  "id": "A391922",
+  "mentions": [
+    "A007774",
+    "A013929",
+    "A046099",
+    "A054753",
+    "A126706",
+    "A200511",
+    "A332785",
+    "A345381",
+    "A378767",
+    "A391319"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

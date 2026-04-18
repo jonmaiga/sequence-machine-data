@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that gcd(k, phi(k)) is prime.",
+  "id": "A394433",
+  "mentions": [
+    "A000010",
+    "A001248",
+    "A003277",
+    "A054395",
+    "A350586",
+    "A392199"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

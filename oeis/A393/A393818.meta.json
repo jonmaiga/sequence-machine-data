@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least odd semiprime > 2*prime(n).",
+  "id": "A393818",
+  "mentions": [
+    "A001747",
+    "A046315",
+    "A393819"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

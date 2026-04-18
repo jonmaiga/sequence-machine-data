@@ -1,0 +1,19 @@
+{
+  "description": "The grid points at integer Euclidean distance from the central point of an infinite square spiral.",
+  "id": "A393465",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A331400",
+    "A336336",
+    "A393466"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

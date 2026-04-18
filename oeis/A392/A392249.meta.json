@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k-1 is a perfect square and k+1 is prime.",
+  "id": "A392249",
+  "mentions": [
+    "A067201",
+    "A163492"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

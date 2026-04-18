@@ -1,5 +1,5 @@
 {
-  "description": "4^(n-1)*Fibonacci(n).",
+  "description": "a(n) = 4^(n-1)*Fibonacci(n).",
   "id": "A099133",
   "mentions": [
     "A000045",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 24,
     "source": "joeis"
   }
 }

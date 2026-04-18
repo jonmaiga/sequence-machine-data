@@ -1,0 +1,21 @@
+{
+  "description": "a(2*n) = 2*n+1, a(2*n+1) = (2*n+1)^2.",
+  "id": "A392334",
+  "mentions": [
+    "A000034",
+    "A005408",
+    "A016754",
+    "A109613",
+    "A228958"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of distinct nondegenerate triangles that can be formed by partitioning the multiset of prime factors of A392380(n) into three nonempty subsets whose sums are the triangle sides.",
+  "id": "A392381",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001414",
+    "A006530",
+    "A030514",
+    "A033942",
+    "A306678",
+    "A366398",
+    "A376348",
+    "A378819",
+    "A379033",
+    "A389414",
+    "A392380"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of vertices with distinct coordinates up to permutation in the Loday realization of the (n-1)-dimensional associahedron.",
+  "id": "A392457",
+  "mentions": [
+    "A000108",
+    "A247139",
+    "A382440"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

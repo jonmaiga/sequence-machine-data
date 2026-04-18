@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k == 1 mod A117366(k), where A117366(n) gives the smallest prime greater than the largest prime dividing n.",
+  "id": "A392871",
+  "mentions": [
+    "A006530",
+    "A117366",
+    "A392865",
+    "A392870"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

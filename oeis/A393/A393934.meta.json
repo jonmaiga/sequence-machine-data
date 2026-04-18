@@ -1,0 +1,20 @@
+{
+  "description": "Array T(n,k) read by antidiagonals, n,k >= 1: Start with a point at the origin of the n-dimensional grid. At each iteration, add a new point by increasing one of the coordinates of the current point by 1, choosing the option that gives the least maximum number of points on a line through the new point. In case of ties, compare the number of points on the line with the next largest number of points, etc. If there is still a tie, choose the first among the optimal coordinates. T(n,k) is the zero-based index of the coordinate that is increased in the k-th step.",
+  "id": "A393934",
+  "mentions": [
+    "A000004",
+    "A007814",
+    "A393932",
+    "A393933"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

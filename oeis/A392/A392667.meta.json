@@ -1,0 +1,17 @@
+{
+  "description": "Least positive integer m such that tau(k)*(tau(k)-1) (k = 1..n) are incongruent modulo m, where tau(.) is Ramanujan's tau function.",
+  "id": "A392667",
+  "mentions": [
+    "A000040",
+    "A000594",
+    "A390228"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

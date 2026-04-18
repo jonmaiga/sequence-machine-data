@@ -1,0 +1,19 @@
+{
+  "description": "Difference between the numbers of binary words of length n with an even and with an odd number of occurrences of subword 101.",
+  "id": "A393995",
+  "mentions": [
+    "A000079",
+    "A118429",
+    "A393945"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

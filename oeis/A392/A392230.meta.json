@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of log(5/4).",
+  "id": "A392230",
+  "mentions": [
+    "A002162",
+    "A016627",
+    "A016628",
+    "A019669"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

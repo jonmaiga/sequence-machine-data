@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 / (1 - x/3 * d/dx log(1 + 3*x*A(x))).",
+  "id": "A394844",
+  "mentions": [
+    "A075834",
+    "A111530",
+    "A394843",
+    "A394845",
+    "A394846"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

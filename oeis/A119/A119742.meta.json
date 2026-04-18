@@ -1,5 +1,5 @@
 {
-  "description": "Partial sum of tetradic primes (A068188).",
+  "description": "Partial sums of tetradic primes (A068188).",
   "id": "A119742",
   "mentions": [
     "A000040",

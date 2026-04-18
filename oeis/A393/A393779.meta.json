@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the asymptotic probability that two positive integers selected independently at random have equal smallest prime divisors.",
+  "id": "A393779",
+  "mentions": [
+    "A020639",
+    "A038110",
+    "A038111",
+    "A085548"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

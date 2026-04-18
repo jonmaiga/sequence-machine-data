@@ -2,6 +2,7 @@
   "description": "a(n) is the number of Carmichael numbers of the form prime(n)*prime(n')*prime(n\") with n < n' < n\".",
   "id": "A141703",
   "mentions": [
+    "A000005",
     "A002997",
     "A051663",
     "A087788",

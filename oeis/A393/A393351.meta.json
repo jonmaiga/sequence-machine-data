@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the lcm of n and all (p_i + e_i) in the canonical prime factorization of n.",
+  "id": "A393351",
+  "mentions": [
+    "A001221",
+    "A008473",
+    "A009230",
+    "A390229",
+    "A392819"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

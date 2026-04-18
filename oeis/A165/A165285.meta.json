@@ -1,19 +1,19 @@
 {
-  "description": "Primes which are the sum of at least 2 consecutive pars \"Prime and PreviousNumber\".",
+  "description": "Primes which can be expressed as the sum of 2*p-1 for two or more consecutive primes p.",
   "id": "A165285",
   "mentions": [
     "A015919",
     "A050150",
     "A062090",
+    "A076274",
     "A130097"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

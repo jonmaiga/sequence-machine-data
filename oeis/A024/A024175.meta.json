@@ -1,9 +1,13 @@
 {
-  "description": "Expansion of g.f. (x^3 - 6*x^2 + 5*x - 1)/((2*x - 1)*(2*x^2 - 4*x + 1)).",
+  "description": "Expansion of g.f. (1 - 5*x + 6*x^2 - x^3)/((1 - 2*x)*(1 - 4*x + 2*x^2)).",
   "id": "A024175",
   "mentions": [
+    "A000129",
+    "A002203",
     "A006012",
+    "A007070",
     "A030436",
+    "A056236",
     "A094803",
     "A211216"
   ],
@@ -14,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

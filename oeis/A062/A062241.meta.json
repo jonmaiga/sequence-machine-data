@@ -1,10 +1,11 @@
 {
-  "description": "Smallest integer >= 2 that is not the sum of 2 positive integers whose prime factors are all <= p(n), the n-th prime.",
+  "description": "Smallest integer >= 2 that is not the sum of 2 positive integers whose prime factors are all <= prime(n), the n-th prime.",
   "id": "A062241",
   "mentions": [
     "A045535"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

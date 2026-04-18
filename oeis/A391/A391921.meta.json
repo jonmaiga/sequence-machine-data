@@ -1,0 +1,27 @@
+{
+  "description": "Powerful numbers that are not cubefree and are divisible by exactly 2 distinct primes.",
+  "id": "A391921",
+  "mentions": [
+    "A001694",
+    "A007774",
+    "A024619",
+    "A046099",
+    "A126706",
+    "A286708",
+    "A355462",
+    "A372404",
+    "A378767",
+    "A390539",
+    "A391896"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

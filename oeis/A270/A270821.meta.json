@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that F(n) - n is a prime, where F(n) denotes the n-th Fibonacci number.",
+  "description": "Numbers k such that F(k) - k is a prime, where F(k) denotes the k-th Fibonacci number.",
   "id": "A270821",
   "mentions": [
     "A000045",
@@ -9,12 +9,13 @@
     "A175404"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

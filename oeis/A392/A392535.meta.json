@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 2^k + 2*k - 3 is prime.",
+  "id": "A392535",
+  "mentions": [
+    "A066229",
+    "A100359",
+    "A100361",
+    "A301634",
+    "A301744"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

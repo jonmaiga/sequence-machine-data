@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangular array T, read by rows: when the partitions of n are arranged in reverse lexicographic order, T(n,k) is the position of the k-th partition in which adjacent parts differ by at least 2.",
+  "id": "A393670",
+  "mentions": [
+    "A003114",
+    "A035422"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

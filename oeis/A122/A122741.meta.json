@@ -1,8 +1,13 @@
 {
-  "description": "Numbers of perifusenes with one internal vertex (see Cyvin et al. for precise definition).",
+  "description": "Numbers of helicenes with one internal vertex made of n hexagons.",
   "id": "A122741",
-  "mentions": [],
+  "mentions": [
+    "A038380",
+    "A122740"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

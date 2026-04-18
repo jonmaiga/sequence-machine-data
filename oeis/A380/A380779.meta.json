@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x * exp(-x / (1 + x)) / (1 + x)^2 ).",
   "id": "A380779",
   "mentions": [
+    "A001622",
     "A377829",
     "A380675",
     "A380778",

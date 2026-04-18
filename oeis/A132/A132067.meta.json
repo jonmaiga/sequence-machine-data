@@ -1,5 +1,5 @@
 {
-  "description": "Composite integers n where d_{k+2} + d_k < 2*d_{k+1} for at least one k (1<=k<=A000005(n)-2), where d_k is the k-th positive divisor of n.",
+  "description": "Composite integers m where d_{k+2} + d_k < 2*d_{k+1} for at least one k (1<=k<=A000005(m)-2), where d_k is the k-th positive divisor of m.",
   "id": "A132067",
   "mentions": [
     "A000005"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

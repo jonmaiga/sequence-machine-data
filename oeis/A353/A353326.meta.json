@@ -1,5 +1,5 @@
 {
-  "description": "Series reversion of x*(1 - x^2)^8*(1 + x^2)*(1 + 6*x^2 + x^4).",
+  "description": "Coefficients of odd exponents of series reversion of x*(1 - x^2)^8*(1 + x^2)*(1 + 6*x^2 + x^4).",
   "id": "A353326",
   "mentions": [
     "A353324",

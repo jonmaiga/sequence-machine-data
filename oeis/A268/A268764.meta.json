@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 binary arrays with some element plus some horizontally, vertically, diagonally or antidiagonally adjacent neighbor totalling two exactly once.",
+  "description": "Number of n X 6 binary arrays with some element plus some horizontally, vertically, diagonally or antidiagonally adjacent neighbor totalling two exactly once.",
   "id": "A268764",
   "mentions": [
     "A268766"

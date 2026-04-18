@@ -1,0 +1,23 @@
+{
+  "description": "The number of quintuplets where a!b!c!d!n! is a perfect square, with 0",
+  "id": "A393399",
+  "mentions": [
+    "A000142",
+    "A387184",
+    "A388851",
+    "A389148",
+    "A389553",
+    "A389554",
+    "A389555",
+    "A392333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

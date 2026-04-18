@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there exists a perfect n X n parity pattern with 8-fold symmetry.",
+  "description": "Numbers k for which there exists a perfect k X k parity pattern with 8-fold symmetry.",
   "id": "A118143",
   "mentions": [
     "A118141"

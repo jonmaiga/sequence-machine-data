@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sin(1/5).",
+  "id": "A393785",
+  "mentions": [
+    "A161014",
+    "A393784"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 117,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of bipartite non-complete simple games with a maximal number of minimal winning pairs.",
+  "id": "A393957",
+  "mentions": [
+    "A000217"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Main diagonal of rectangular table A393620.",
+  "id": "A393626",
+  "mentions": [
+    "A337458",
+    "A393620",
+    "A393621",
+    "A393622",
+    "A393623",
+    "A393624",
+    "A393625"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

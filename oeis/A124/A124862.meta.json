@@ -1,17 +1,20 @@
 {
-  "description": "a(n)=J(2n+1)*C(2n,n), J(n)=A001045(n).",
+  "description": "a(n) = J(2*n+1) * C(2*n,n), where J(n) = A001045(n).",
   "id": "A124862",
   "mentions": [
+    "A000984",
     "A001045",
+    "A007583",
     "A124860"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "joeis"
   }
 }

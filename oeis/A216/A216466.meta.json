@@ -1,5 +1,5 @@
 {
-  "description": "n!! mod n!",
+  "description": "a(n) = n!! mod n!",
   "id": "A216466",
   "mentions": [
     "A000142",

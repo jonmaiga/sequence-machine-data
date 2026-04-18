@@ -1,0 +1,17 @@
+{
+  "description": "Integers k >= 4 such that 2^k is record-close to a base-10 palindrome, in the sense that A393111(k)/2^(k/2) sets a new minimum.",
+  "id": "A393112",
+  "mentions": [
+    "A393111"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

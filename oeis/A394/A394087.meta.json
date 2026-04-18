@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} k * (1/zeta(2*k+2)-1/zeta(2*k)).",
+  "id": "A394087",
+  "mentions": [
+    "A033150",
+    "A051903",
+    "A393778",
+    "A394088"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

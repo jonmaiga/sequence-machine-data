@@ -1,14 +1,14 @@
 {
-  "description": "Let M={{0,1},{1,1}}, M0=MatrixPower[(M-IdentityMatrix[2]),2], Det[M0]; a[n_]:=M0.a[n-1]; a[0]:={{0,1},{1,1}}.",
+  "description": "Absolute values of elements of flattened successive matrices B(k), k>=0, read by rows where B(k) = M^k*C where M=[[2, -1], [-1, 1]] and C = [[0, 1], [1, 1]].",
   "id": "A098054",
   "mentions": [],
   "tags": [
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

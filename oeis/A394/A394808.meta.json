@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi - 4/Pi.",
+  "id": "A394808",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A088538",
+    "A394809",
+    "A394810",
+    "A394811",
+    "A394812"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

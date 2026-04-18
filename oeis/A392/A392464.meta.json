@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the area of an 18-gon with unit side lengths.",
+  "id": "A392464",
+  "mentions": [
+    "A019889",
+    "A019908"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

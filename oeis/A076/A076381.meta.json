@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of digits in base 3 is a divisor of sum of prime divisors (A008472).",
+  "description": "Numbers k such that sum of digits in base 3 is a divisor of sum of prime divisors (A008472).",
   "id": "A076381",
   "mentions": [
     "A008472",

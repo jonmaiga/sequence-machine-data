@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k is not divisible by p^p for any prime p, and for which 1 < A373842(k) <= k, where A373842 is the arithmetic derivative of the primorial base log-function.",
+  "description": "Numbers k not divisible by p^p for any prime p, and for which 1 < A373842(k) <= k, where A373842 is the arithmetic derivative of the primorial base log-function.",
   "id": "A373848",
   "mentions": [
     "A001222",
@@ -20,7 +20,9 @@
     "A373844",
     "A373845",
     "A373846",
-    "A373847"
+    "A373847",
+    "A391938",
+    "A391939"
   ],
   "tags": [
     "nonn"

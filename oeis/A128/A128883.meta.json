@@ -2,6 +2,7 @@
   "description": "A 4 X 4 magic square with sum 33 read by rows.",
   "id": "A128883",
   "mentions": [
+    "A080992",
     "A126647",
     "A126648",
     "A126649",

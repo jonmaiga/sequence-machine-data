@@ -1,0 +1,18 @@
+{
+  "description": "Riesel numbers that have at least three covering sets.",
+  "id": "A394519",
+  "mentions": [
+    "A076337",
+    "A263391",
+    "A263392",
+    "A394518"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

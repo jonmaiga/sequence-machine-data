@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (1/2)*Sum_{k>=3} (k*tan(Pi/k)/Pi - 1).",
+  "id": "A394396",
+  "mentions": [
+    "A000182",
+    "A085365",
+    "A379131",
+    "A394496"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

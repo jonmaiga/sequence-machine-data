@@ -1,0 +1,20 @@
+{
+  "description": "Upper Wythoff partition sequence of the primes; see A392117.",
+  "id": "A392118",
+  "mentions": [
+    "A000040",
+    "A000201",
+    "A001950",
+    "A392117",
+    "A392119",
+    "A392121"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

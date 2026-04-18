@@ -1,14 +1,17 @@
 {
-  "description": "Irregular triangular array T(n,k) read by rows. Row n gives the number of permutations of {1,2,...,n} whose descent set is S for each subset S of {1,2,...,n-1} ordered lexicographically within the rows.",
+  "description": "Irregular triangular array T(n,k) read by rows. Row n gives the number of permutations of {1,2,...,n} whose descent set is S for each subset S of {1,2,...,n-1} where the subsets are ordered first by size and then lexicographically (Cf. A082185).",
   "id": "A335845",
   "mentions": [
+    "A000111",
     "A000142",
     "A011782",
+    "A052665",
     "A060350",
     "A060351",
     "A082185"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

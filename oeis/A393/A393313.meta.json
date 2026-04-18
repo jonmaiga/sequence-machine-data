@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = (1 + x + x^2)^2 * A(x^3) / (1 - x).",
+  "id": "A393313",
+  "mentions": [
+    "A005704",
+    "A062051",
+    "A131205",
+    "A393314"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

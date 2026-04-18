@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k) = Sum_{i=1..1+n} (A276086(k) mod prime(i))*A002110(i-1), with n >= 0, and 0 <= k < A002110(n), read by rows.",
+  "id": "A391935",
+  "mentions": [
+    "A002110",
+    "A143293",
+    "A276086",
+    "A391930",
+    "A391934"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

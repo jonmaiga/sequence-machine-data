@@ -2,6 +2,7 @@
   "description": "5x + 1 sequence beginning at 11.",
   "id": "A259193",
   "mentions": [
+    "A028389",
     "A057688",
     "A259207"
   ],

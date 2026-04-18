@@ -1,0 +1,19 @@
+{
+  "description": "Number of coverings of [n] by 1-tuples, 2-tuples, ..., n-tuples where each entry is chosen from the subsets of [n].",
+  "id": "A392322",
+  "mentions": [
+    "A092477",
+    "A245789",
+    "A329943",
+    "A392321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

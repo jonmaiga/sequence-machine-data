@@ -1,0 +1,14 @@
+{
+  "description": "Number of platypus graphs on n vertices.",
+  "id": "A392591",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

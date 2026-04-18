@@ -2,17 +2,19 @@
   "description": "Indices of primes with non-distinct digits.",
   "id": "A073069",
   "mentions": [
+    "A000720",
     "A030291",
     "A073064"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

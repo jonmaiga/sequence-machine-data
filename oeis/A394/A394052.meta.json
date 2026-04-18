@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of positive integers <= n with exactly k divisors.",
+  "id": "A394052",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000027",
+    "A000720",
+    "A002182",
+    "A002541",
+    "A006218",
+    "A047983",
+    "A056811",
+    "A061502",
+    "A065651",
+    "A067004",
+    "A070319",
+    "A140225",
+    "A318755",
+    "A394053",
+    "A394054",
+    "A394056"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

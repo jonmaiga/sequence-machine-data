@@ -1,5 +1,5 @@
 {
-  "description": "Areas of trapezoids with integer sides and height whose area equals their perimeter.",
+  "description": "Areas of trapezoids with integer sides, height and offsets whose area equals their perimeter.",
   "id": "A374594",
   "mentions": [
     "A098030",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

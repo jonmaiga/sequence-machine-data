@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = a(1) = a(2) = a(3) = 1; a(n) = a(n-1) + (n-3)*a(n-4).",
+  "id": "A394800",
+  "mentions": [
+    "A000085",
+    "A000142",
+    "A394799",
+    "A394802"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

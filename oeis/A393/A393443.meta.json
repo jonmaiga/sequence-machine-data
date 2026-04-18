@@ -1,0 +1,23 @@
+{
+  "description": "Array read by downward antidiagonals: T(n,k) (n>=0, k>=0) = 1+k+2*n*k+k*(k-1)/2+n*(n-1).",
+  "id": "A393443",
+  "mentions": [
+    "A000124",
+    "A002061",
+    "A014206",
+    "A034856",
+    "A140063",
+    "A386480",
+    "A393442"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n) = sum of n-th row of the triangle formed by replacing each m in Pascal's triangle with the m-th prime.",
   "id": "A074663",
   "mentions": [
+    "A007318",
     "A074589"
   ],
   "tags": [

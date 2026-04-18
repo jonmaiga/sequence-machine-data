@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k>=1 such that A143293(n)+k is prime, where A143293 give the partial sums of primorial numbers.",
+  "id": "A392616",
+  "mentions": [
+    "A005235",
+    "A143293",
+    "A281318",
+    "A392615"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

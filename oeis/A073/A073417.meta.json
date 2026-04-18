@@ -1,15 +1,21 @@
 {
   "description": "Flawless numbers: numbers without a, f, l or w.",
   "id": "A073417",
-  "mentions": [],
+  "mentions": [
+    "A073416",
+    "A073418",
+    "A073419"
+  ],
   "tags": [
     "easy",
+    "fini",
+    "full",
     "nonn",
     "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 63,
-    "source": "joeis"
+    "size": 64,
+    "source": "oeis-bfile"
   }
 }

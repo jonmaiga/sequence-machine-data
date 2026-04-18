@@ -1,0 +1,16 @@
+{
+  "description": "Least positive integer d such that n + d^3 is the sum of 3 positive cubes.",
+  "id": "A389852",
+  "mentions": [
+    "A003072"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

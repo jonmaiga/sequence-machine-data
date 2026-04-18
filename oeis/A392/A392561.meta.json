@@ -1,0 +1,16 @@
+{
+  "description": "Euler transform of A016116 = 2^floor(n/2).",
+  "id": "A392561",
+  "mentions": [
+    "A016116",
+    "A358369"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

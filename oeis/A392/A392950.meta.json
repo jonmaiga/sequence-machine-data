@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that sigma(k) = 2*k - tau(phi(k)).",
+  "id": "A392950",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A000396",
+    "A005843",
+    "A301975",
+    "A392949",
+    "A392951",
+    "A392952"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

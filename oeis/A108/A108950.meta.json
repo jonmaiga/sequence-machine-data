@@ -2,6 +2,7 @@
   "description": "Number of partitions of n with more odd parts than even parts.",
   "id": "A108950",
   "mentions": [
+    "A000041",
     "A045931",
     "A108949",
     "A130780",

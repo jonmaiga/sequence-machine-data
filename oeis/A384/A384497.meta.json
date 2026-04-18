@@ -2,7 +2,8 @@
   "description": "a(n) is the number of binary strings of length n which contain exactly one run of 1s of even length.",
   "id": "A384497",
   "mentions": [
-    "A029907"
+    "A029907",
+    "A391669"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

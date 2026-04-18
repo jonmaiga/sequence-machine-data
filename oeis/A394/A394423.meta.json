@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest index k such that the subsequence of prime gaps b(k), b(k+1),..., b(k+2n) is a palindrome of length 2n+1, where b(k) = A001223(k).",
+  "id": "A394423",
+  "mentions": [
+    "A000005",
+    "A001223",
+    "A055382",
+    "A175309",
+    "A393833",
+    "A394059"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

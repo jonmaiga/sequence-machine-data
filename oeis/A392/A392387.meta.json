@@ -1,0 +1,18 @@
+{
+  "description": "Nullspace dimension of the periodic XX Heisenberg chain with n > 1 sites.",
+  "id": "A392387",
+  "mentions": [
+    "A103314",
+    "A107848"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

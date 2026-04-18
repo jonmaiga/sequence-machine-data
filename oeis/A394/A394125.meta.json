@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^6+A(x)^5-2x*A(x)^4-x*A(x)^3+(x^3+3x^2)*A(x)^2-3x^3*A(x)+x^4=0.",
+  "id": "A394125",
+  "mentions": [
+    "A394126"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

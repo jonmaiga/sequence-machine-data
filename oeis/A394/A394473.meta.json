@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n labeled nodes having chromatic number k, 1 <= k <= n.",
+  "id": "A394473",
+  "mentions": [
+    "A006125",
+    "A084268",
+    "A084270",
+    "A084271",
+    "A084272",
+    "A394474"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

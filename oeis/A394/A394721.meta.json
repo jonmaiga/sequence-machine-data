@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the sum of its proper divisors, each to some power greater than zero, is equal to k itself.",
+  "id": "A394721",
+  "mentions": [
+    "A000396",
+    "A005101"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

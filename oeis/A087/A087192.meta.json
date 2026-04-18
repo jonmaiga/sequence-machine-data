@@ -2,9 +2,12 @@
   "description": "a(n) = ceiling(a(n-1)*4/3), with a(1) = 1.",
   "id": "A087192",
   "mentions": [
+    "A061419",
     "A072493",
     "A087165",
-    "A155167"
+    "A155167",
+    "A390254",
+    "A390321"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,16 @@
+{
+  "description": "Halting time for Wolfram's 3-state 2-symbol Turing machine 589111 when started with n on the tape.",
+  "id": "A393534",
+  "mentions": [
+    "A393507",
+    "A393533"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

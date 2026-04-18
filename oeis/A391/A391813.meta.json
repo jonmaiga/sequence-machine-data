@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction of the constant x where a(n) = 2 - A391814(n+1) for n >= 0, and A391814 is the binary expansion of x starting with A391814(1) = 1.",
+  "id": "A391813",
+  "mentions": [
+    "A391812",
+    "A391814",
+    "A391873"
+  ],
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

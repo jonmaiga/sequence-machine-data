@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n having three times as many odd parts as even.",
+  "id": "A393513",
+  "mentions": [
+    "A045931",
+    "A239258",
+    "A393514",
+    "A393515"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

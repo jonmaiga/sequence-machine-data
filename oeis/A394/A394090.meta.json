@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the parameter c that minimizes the integral of squared distance between sin((Pi/2)x)^(1/c) and the quarter-circle sqrt(2x-x^2) on [0,1].",
+  "id": "A394090",
+  "mentions": [
+    "A000796"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

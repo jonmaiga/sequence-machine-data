@@ -2,9 +2,11 @@
   "description": "f-perfect numbers, where f(m) = m + 1.",
   "id": "A066229",
   "mentions": [
+    "A000005",
     "A066218",
     "A066230",
-    "A083874"
+    "A083874",
+    "A392535"
   ],
   "tags": [
     "more",
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

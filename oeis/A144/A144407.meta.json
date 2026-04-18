@@ -1,5 +1,5 @@
 {
-  "description": "A058529(n+1)^2.",
+  "description": "a(n) = A058529(n+1)^2.",
   "id": "A144407",
   "mentions": [
     "A058529",

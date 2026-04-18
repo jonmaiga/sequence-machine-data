@@ -1,0 +1,19 @@
+{
+  "description": "The least prime p of three consecutive primes p,q,r such that q - p = 2n + 2 and r - q = 2n.",
+  "id": "A393799",
+  "mentions": [
+    "A006562",
+    "A075540",
+    "A096693",
+    "A282707",
+    "A283145"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

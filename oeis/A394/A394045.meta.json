@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0, a(n) = Sum_{k=1..n} binomial(n+1, k+1)*A053507(k) for n > 0.",
+  "id": "A394045",
+  "mentions": [
+    "A000169",
+    "A007531",
+    "A016969",
+    "A053507",
+    "A073229",
+    "A203092",
+    "A393272"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

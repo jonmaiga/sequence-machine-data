@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (4*n^3 - 18*n^2 - 4*n + 9*(1 - (-1)^n)) / 48.",
+  "id": "A391995",
+  "mentions": [
+    "A212964",
+    "A392248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

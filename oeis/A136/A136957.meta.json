@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that k and k^2 use only the digits 0, 4, 6 and 9.",
   "id": "A136957",
-  "mentions": [],
+  "mentions": [
+    "A047900"
+  ],
   "tags": [
     "base",
     "nonn"

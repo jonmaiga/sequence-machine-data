@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the digit reversals of k, when written in all bases 2 to 10, are greater than k.",
+  "id": "A393903",
+  "mentions": [
+    "A004086",
+    "A305877",
+    "A305989",
+    "A393717",
+    "A393718",
+    "A393720",
+    "A393721",
+    "A393902"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

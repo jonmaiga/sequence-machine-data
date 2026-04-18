@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 2p-1 is a square and 2p+1 is also prime.",
+  "id": "A386995",
+  "mentions": [
+    "A005384",
+    "A027862"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

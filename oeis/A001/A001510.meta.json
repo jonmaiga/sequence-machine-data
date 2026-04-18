@@ -2,7 +2,9 @@
   "description": "a(n) = 2*a(n-1)*(a(n-1)-1) for n > 1, with a(0) = 1, a(1) = 2.",
   "id": "A001510",
   "mentions": [
+    "A000032",
     "A000058",
+    "A001566",
     "A001622",
     "A002715"
   ],
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi*G - (3/8)*zeta(3), where G is Catalan's constant (A006752).",
+  "id": "A393256",
+  "mentions": [
+    "A000796",
+    "A002117",
+    "A006752",
+    "A393257"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

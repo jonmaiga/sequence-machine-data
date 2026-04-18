@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers k such that binomial(4*k, k) == 4^k (mod k).",
+  "id": "A390043",
+  "mentions": [
+    "A002808",
+    "A080469",
+    "A084699",
+    "A109760",
+    "A109769",
+    "A392484"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

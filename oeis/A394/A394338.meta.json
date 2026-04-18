@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled posemigroups on n elements.",
+  "id": "A394338",
+  "mentions": [
+    "A001035",
+    "A027851",
+    "A394339"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

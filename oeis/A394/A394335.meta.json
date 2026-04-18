@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 15015/(1382*Pi^2).",
+  "id": "A394335",
+  "mentions": [
+    "A001694",
+    "A005361",
+    "A013661",
+    "A340065",
+    "A393648",
+    "A394336"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

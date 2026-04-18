@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the smallest positive integer y such that there exists an integer x such that binomial(x + i*y, n) is a Gaussian integer.",
+  "id": "A387569",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

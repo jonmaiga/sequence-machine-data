@@ -1,0 +1,20 @@
+{
+  "description": "Maximum side length of a compound perfect squared square (CPSS) of order n.",
+  "id": "A393664",
+  "mentions": [
+    "A217149",
+    "A393598",
+    "A393599",
+    "A393600"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 24,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

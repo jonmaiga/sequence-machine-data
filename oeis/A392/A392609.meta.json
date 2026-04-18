@@ -1,0 +1,23 @@
+{
+  "description": "Number of prime factors of n that do not divide A276086(n), where A276086 is the primorial base exp-function.",
+  "id": "A392609",
+  "mentions": [
+    "A001221",
+    "A049345",
+    "A276086",
+    "A351250",
+    "A392608",
+    "A392610"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "3*7^n+1.",
+  "description": "a(n) = 3*7^n+1.",
   "id": "A199418",
   "mentions": [],
   "tags": [

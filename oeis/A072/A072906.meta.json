@@ -1,5 +1,5 @@
 {
-  "description": "Least k >=1 such that floor(n/k) is squarefree.",
+  "description": "Least k >= 1 such that floor(n/k) is squarefree.",
   "id": "A072906",
   "mentions": [
     "A005117"

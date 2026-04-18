@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x/A(x)) = G(x) where G(x) = 1 + x*G(x)^2 is the g.f. of A000108 (Catalan numbers).",
+  "description": "G.f. satisfies: A(x/A(x)) = C(x) where C(x) = 1 + x*C(x)^2 is the g.f. of A000108 (Catalan numbers).",
   "id": "A154677",
   "mentions": [
     "A000108",

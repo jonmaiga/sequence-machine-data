@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of different ways to move from A to B along grid paths in an equilateral triangular grid ABC of side n units such that the distance between A and each successive point of the path increases.",
+  "id": "A393796",
+  "mentions": [
+    "A112675",
+    "A266513",
+    "A288148"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of ratio n!/sigma(n), when the denominators are > 1 and where n! = factorial(n) (A000142) and sigma(n) = sum of divisors of n (A000203).",
+  "id": "A390836",
+  "mentions": [
+    "A000142",
+    "A000203",
+    "A325436",
+    "A390815"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

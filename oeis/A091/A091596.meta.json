@@ -1,16 +1,17 @@
 {
-  "description": "Expansion of x(1-2x^2)/(1-x-2x^2)^2.",
+  "description": "Expansion of x*(1-2*x^2)/(1-x-2*x^2)^2.",
   "id": "A091596",
   "mentions": [
     "A091595"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 34,
     "source": "joeis"
   }
 }

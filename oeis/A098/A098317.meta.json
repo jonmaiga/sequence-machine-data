@@ -2,6 +2,7 @@
   "description": "Decimal expansion of phi^3 = 2 + sqrt(5).",
   "id": "A098317",
   "mentions": [
+    "A000032",
     "A000045",
     "A001076",
     "A001622",

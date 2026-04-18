@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are neither squarefree nor squareful, with at least 1 repeated exponent of prime power factors.",
+  "id": "A392926",
+  "mentions": [
+    "A000977",
+    "A002110",
+    "A013929",
+    "A024619",
+    "A126706",
+    "A182855",
+    "A332785",
+    "A375055",
+    "A390949"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

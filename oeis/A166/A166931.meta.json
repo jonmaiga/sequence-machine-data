@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that n mod k is k-1 for all k = 2..9.",
+  "description": "Numbers m such that m mod k is k-1 for all k = 2..9.",
   "id": "A166931",
   "mentions": [],
   "tags": [

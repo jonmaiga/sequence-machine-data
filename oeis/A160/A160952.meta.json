@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=largest (n+1)-digit prime formed by appending a digit to a(n-1); a(0)=2.",
+  "description": "a(n) = largest (n+1)-digit prime formed by appending a digit to a(n-1); a(0)=2.",
   "id": "A160952",
   "mentions": [
     "A000040",
@@ -9,8 +9,7 @@
     "base",
     "fini",
     "full",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

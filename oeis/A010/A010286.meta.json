@@ -1,7 +1,9 @@
 {
   "description": "Continued fraction for cube root of 57.",
   "id": "A010286",
-  "mentions": [],
+  "mentions": [
+    "A010628"
+  ],
   "tags": [
     "cofr",
     "easy",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 78,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

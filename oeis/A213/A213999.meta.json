@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of the triangle of fractions read by rows: pf(n,0) = 1, pf(n,n) = 1/(n+1) and pf(n+1,k) = pf(n,k) + pf(n,k-1) with 0 < k < n; denominators: A213998.",
+  "description": "Denominators of the triangle of fractions read by rows: pf(n,0) = 1, pf(n,n) = 1/(n+1) and pf(n+1,k) = pf(n,k) + pf(n,k-1) with 0 < k < n.",
   "id": "A213999",
   "mentions": [
     "A002805",

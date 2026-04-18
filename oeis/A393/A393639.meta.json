@@ -1,0 +1,16 @@
+{
+  "description": "Number computed by Wolfram's 1-state 3-symbol Turing machine 29 when started with n on the tape.",
+  "id": "A393639",
+  "mentions": [
+    "A392245",
+    "A393640"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

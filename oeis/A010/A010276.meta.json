@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 47.",
   "id": "A010276",
-  "mentions": [],
+  "mentions": [
+    "A010618"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 77,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

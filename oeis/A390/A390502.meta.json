@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the number of cells under the Dyck paths of semilength n in the first quadrant of the square grid in nondecreasing order, n >= 0.",
+  "id": "A390502",
+  "mentions": [
+    "A000108",
+    "A000217",
+    "A000290",
+    "A008549",
+    "A024916",
+    "A129182",
+    "A193694",
+    "A227543",
+    "A237593",
+    "A339575",
+    "A393383",
+    "A394529",
+    "A394643"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

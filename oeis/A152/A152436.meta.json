@@ -1,13 +1,15 @@
 {
-  "description": "a(n)=(13^n - 1)/(3*2^(3 - Mod[n, 2])).",
+  "description": "a(n) = (13^n - 1)/(3*2^(3 - (n mod 2))).",
   "id": "A152436",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

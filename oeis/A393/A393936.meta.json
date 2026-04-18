@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of points that have been added when n collinear points first appear in the path defined in A393933.",
+  "id": "A393936",
+  "mentions": [
+    "A393933",
+    "A393935",
+    "A393938"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

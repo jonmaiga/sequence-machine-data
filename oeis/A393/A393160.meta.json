@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the largest possible integer Euclidean distance between two lattice points with coordinates in the interval 0..n.",
+  "id": "A393160",
+  "mentions": [
+    "A393159"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

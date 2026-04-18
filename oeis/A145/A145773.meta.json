@@ -1,14 +1,16 @@
 {
   "description": "Number of n X n binary arrays with all ones connected only either two adjacent vertically or two adjacent horizontally.",
   "id": "A145773",
-  "mentions": [],
+  "mentions": [
+    "A196436",
+    "A386664"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 14,
+    "offset": 0,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

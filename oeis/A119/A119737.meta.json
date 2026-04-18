@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = Sum{k=1..n} Fibonacci(floor(n/k)).",
+  "description": "a(n) = Sum_{k=1..n} Fibonacci(floor(n/k)).",
   "id": "A119737",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A070964"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

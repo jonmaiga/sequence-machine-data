@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1 / sqrt(1 - 12*x + 28*x^2).",
+  "id": "A394232",
+  "mentions": [
+    "A001850",
+    "A006139",
+    "A059304",
+    "A080609",
+    "A084601",
+    "A098409",
+    "A098410",
+    "A154346",
+    "A394231",
+    "A394233"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

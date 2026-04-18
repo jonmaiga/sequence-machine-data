@@ -1,0 +1,24 @@
+{
+  "description": "Terms of A055932 that are products of the three composite integers in prime gaps of size 4.",
+  "id": "A391540",
+  "mentions": [
+    "A002017",
+    "A055932",
+    "A117581",
+    "A141399",
+    "A376690",
+    "A391602",
+    "A391885",
+    "A392344"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

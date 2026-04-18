@@ -1,0 +1,21 @@
+{
+  "description": "Number of involution pairs of graceful Prüfer codes on n vertices with one code in the first half and the other in the second half of the lexicographic order.",
+  "id": "A393154",
+  "mentions": [
+    "A033472",
+    "A337274",
+    "A393155",
+    "A393156"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

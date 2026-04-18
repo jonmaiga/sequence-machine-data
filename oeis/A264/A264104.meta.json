@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n with the property that the symmetric representation of sigma(n) has four parts, each of width one and two regions meet at the center of the Dyck path.",
+  "description": "Numbers k with the property that the symmetric representation of sigma(k) has four parts, each of width one and two regions meet at the center of the Dyck path.",
   "id": "A264104",
   "mentions": [
     "A005384",
     "A005385",
     "A014105",
+    "A033676",
+    "A033677",
     "A156592",
     "A235791",
     "A236104",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ordered triples (u,v,w) of palindromes such that u+v+w=n.",
+  "description": "Number of ordered triples (u,v,w) of palindromes such that u+v+w = n.",
   "id": "A261422",
   "mentions": [
     "A002113",

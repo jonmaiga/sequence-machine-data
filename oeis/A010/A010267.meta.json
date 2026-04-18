@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 38.",
   "id": "A010267",
-  "mentions": [],
+  "mentions": [
+    "A010609"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 78,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

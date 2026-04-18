@@ -1,5 +1,5 @@
 {
-  "description": "A Goldbug number is an even number 2m for which there exists a subset of the prime non-divisors, P={p1, p2, p3, ..., pk}, of 2m where (2m-p1)*(2m-p2)*(2m-p3)*...*(2m-pk) has only elements of P as factors and one of the pi is between m/2 and m for even m and between (m+1)/2 and m-1 for odd m.",
+  "description": "A Goldbug number is an even number 2m for which there exists a subset of the prime non-divisors of 2m, P={p1, p2, p3, ..., pk}, such that each prime factor of (2m-p1)*(2m-p2)*(2m-p3)*...*(2m-pk) is in P and max(P) is strictly between m/2 and m.",
   "id": "A306746",
   "mentions": [
     "A057896",

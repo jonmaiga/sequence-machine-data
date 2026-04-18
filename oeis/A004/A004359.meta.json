@@ -1,7 +1,9 @@
 {
   "description": "Binomial coefficient C(6n,n-4).",
   "id": "A004359",
-  "mentions": [],
+  "mentions": [
+    "A004360"
+  ],
   "tags": [
     "easy",
     "formulas",

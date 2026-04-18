@@ -2,8 +2,7 @@
   "description": "Number of different four-digit proper fractions with anomalous cancellation property in base n.",
   "id": "A329909",
   "mentions": [
-    "A094907",
-    "A329908"
+    "A094907"
   ],
   "tags": [
     "base",

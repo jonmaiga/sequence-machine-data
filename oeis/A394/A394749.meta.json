@@ -1,0 +1,19 @@
+{
+  "description": "Largest GCD of the digits of n in any base b < n, considering only cases where all digits are nonzero.",
+  "id": "A394749",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006881",
+    "A060775"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Indices corresponding to records in A393379.",
+  "id": "A394327",
+  "mentions": [
+    "A000005",
+    "A333053",
+    "A393379"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A391844(n) * A393067(n).",
+  "id": "A393068",
+  "mentions": [
+    "A391844",
+    "A392868",
+    "A393067"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

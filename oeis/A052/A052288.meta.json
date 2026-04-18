@@ -1,5 +1,5 @@
 {
-  "description": "First differences of the average of two consecutive primes (A024675).",
+  "description": "First differences of the average of two consecutive odd primes (A024675).",
   "id": "A052288",
   "mentions": [
     "A024675",

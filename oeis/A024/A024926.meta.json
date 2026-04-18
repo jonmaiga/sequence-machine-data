@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=1..n} floor(p(k)/k).",
+  "description": "a(n) = Sum_{k=1..n} floor(prime(k)/k).",
   "id": "A024926",
   "mentions": [
     "A038605"

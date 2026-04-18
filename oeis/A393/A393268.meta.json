@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the probability that in a randomly selected group of 16 girls and 16 boys there is at least one girl-boy pair with a matching birthday, not considering leap years.",
+  "id": "A393268",
+  "mentions": [
+    "A008277",
+    "A333507",
+    "A343015",
+    "A393269",
+    "A393270",
+    "A393271"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

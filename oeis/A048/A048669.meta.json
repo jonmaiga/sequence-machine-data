@@ -2,6 +2,7 @@
   "description": "The Jacobsthal function g(n): maximal gap in a list of all the integers relatively prime to n.",
   "id": "A048669",
   "mentions": [
+    "A002110",
     "A007947",
     "A038566",
     "A048670",

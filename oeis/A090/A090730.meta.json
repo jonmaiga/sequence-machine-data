@@ -2,9 +2,6 @@
   "description": "a(n) = 22*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 22.",
   "id": "A090730",
   "mentions": [
-    "A001613",
-    "A008951",
-    "A016005",
     "A077422"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sqrt((3 - sqrt(7))/2).",
+  "id": "A392289",
+  "mentions": [
+    "A010465",
+    "A392290"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

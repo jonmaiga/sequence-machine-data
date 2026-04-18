@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table T(n, k) = (k*A002110(n-1)) mod prime(n), n >= 0, k = 0..prime(n)-1, read by rows, with row 0 = {0} by convention.",
+  "id": "A391928",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A060735",
+    "A062347",
+    "A079276",
+    "A341805",
+    "A391929"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

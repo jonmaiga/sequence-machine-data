@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} binomial(2*n-5*k,3*k).",
+  "id": "A392404",
+  "mentions": [
+    "A387843",
+    "A392400",
+    "A392401",
+    "A392402",
+    "A392403",
+    "A392405"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

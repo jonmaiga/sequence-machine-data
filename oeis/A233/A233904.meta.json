@@ -8,12 +8,13 @@
     "A233931"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 65,
     "source": "joeis"
   }
 }

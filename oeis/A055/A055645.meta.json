@@ -2,7 +2,13 @@
   "description": "Integers in base 16 with each hexadecimal digit represented by 2 decimal digits.",
   "id": "A055645",
   "mentions": [
-    "A049872"
+    "A049872",
+    "A055643",
+    "A055644",
+    "A055646",
+    "A055647",
+    "A055648",
+    "A055649"
   ],
   "tags": [
     "base",

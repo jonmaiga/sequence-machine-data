@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form prime(k) + prime(k+2) - 1, where prime(k) is the k-th prime.",
+  "id": "A394471",
+  "mentions": [
+    "A001359",
+    "A005384",
+    "A005385",
+    "A023201",
+    "A111255"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

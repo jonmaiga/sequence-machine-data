@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of unit cubes in the cubic lattice, divided by 8, that have 7 vertices strictly inside and 1 vertex strictly outside the sphere x^2 + y^2 + z^2 = n.",
+  "id": "A393827",
+  "mentions": [
+    "A393563",
+    "A393821"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

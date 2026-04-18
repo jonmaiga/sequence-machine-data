@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of partitions of n into distinct parts such that if x and y are parts and x < y then y - x != 2.",
+  "id": "A393676",
+  "mentions": [
+    "A000009",
+    "A393671",
+    "A393672",
+    "A393673",
+    "A393674"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

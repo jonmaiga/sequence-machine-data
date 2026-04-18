@@ -1,0 +1,18 @@
+{
+  "description": "Halting time for Wolfram's 2-state 2-symbol Turing machine 1285 when started with n on the tape.",
+  "id": "A393103",
+  "mentions": [
+    "A392245",
+    "A393106",
+    "A393146"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

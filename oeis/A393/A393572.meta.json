@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of a square and the reverse of a square.",
+  "id": "A393572",
+  "mentions": [
+    "A000290",
+    "A074896"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

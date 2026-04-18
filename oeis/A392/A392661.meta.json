@@ -1,0 +1,23 @@
+{
+  "description": "Upper Wythoff partition sequence of the triangular numbers (A003086); see A392660.",
+  "id": "A392661",
+  "mentions": [
+    "A000040",
+    "A000201",
+    "A000217",
+    "A001950",
+    "A003086",
+    "A392117",
+    "A392656",
+    "A392660",
+    "A392663"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1 - 5x + 7x^2).",
+  "description": "Expansion of 1/(1 - 5*x + 7*x^2).",
   "id": "A099450",
   "mentions": [
     "A099451",

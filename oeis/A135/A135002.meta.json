@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 2/e.",
   "id": "A135002",
   "mentions": [
+    "A001620",
     "A036039",
     "A068985",
     "A090998",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 79,
+    "size": 105,
     "source": "joeis"
   }
 }

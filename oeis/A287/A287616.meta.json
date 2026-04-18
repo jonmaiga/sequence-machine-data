@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as x(x+1)/2 + y(3y+1)/2 + z(5z+1)/2 with x,y,z nonnegative integers.",
+  "description": "Number of ways to write n as x*(x+1)/2 + y*(3*y+1)/2 + z*(5*z+1)/2 with x,y,z nonnegative integers.",
   "id": "A287616",
   "mentions": [
     "A000217",

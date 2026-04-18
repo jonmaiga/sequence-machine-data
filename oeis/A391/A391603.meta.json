@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k for which the number of divisors d of k such that A000005(d) = A000005(k/d) is equal to n.",
+  "id": "A391603",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A000400",
+    "A161904",
+    "A389254"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

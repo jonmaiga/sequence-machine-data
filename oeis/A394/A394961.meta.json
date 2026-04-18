@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * [x^n] (exp(exp(x) - 1) - 1)/(1 - x).",
+  "id": "A394961",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A234473"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

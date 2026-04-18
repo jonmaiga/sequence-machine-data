@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n!*Sum_{k=0..n} Fibonacci(k-1)/k!, where Fibonacci(-1) = 1, Fibonacci(n) = A000045(n) for n>=0.",
+  "description": "a(n) = n! * Sum_{k=0..n} Fibonacci(k-1)/k!, where Fibonacci(-1) = 1, Fibonacci(n) = A000045(n) for n>=0.",
   "id": "A263823",
   "mentions": [
     "A000023",
@@ -7,11 +7,14 @@
     "A000142",
     "A000166",
     "A000522",
+    "A001622",
     "A009102",
     "A009551",
     "A010844",
     "A053486",
-    "A111139"
+    "A111139",
+    "A193010",
+    "A277345"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "2*n^n + 1.",
+  "description": "a(n) = 2*n^n + 1.",
   "id": "A216147",
   "mentions": [
     "A110932",

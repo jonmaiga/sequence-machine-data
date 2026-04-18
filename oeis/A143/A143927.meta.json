@@ -2,10 +2,12 @@
   "description": "G.f. A(x) satisfies A(x) = (1 + x*A(x) + x^2*A(x)^2)^2.",
   "id": "A143927",
   "mentions": [
+    "A000108",
     "A006605",
     "A027907",
     "A027908",
-    "A143926"
+    "A143926",
+    "A369441"
   ],
   "tags": [
     "formulas",

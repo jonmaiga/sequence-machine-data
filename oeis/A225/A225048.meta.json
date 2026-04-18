@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that cannot be expressed as n plus the sum of the squared digits of n for any integer n.",
+  "description": "Numbers that cannot be expressed as k plus the sum of the squared digits of k for any integer k.",
   "id": "A225048",
   "mentions": [
     "A003052",

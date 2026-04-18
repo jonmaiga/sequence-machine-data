@@ -1,5 +1,5 @@
 {
-  "description": "Let f[n_]=((n^4-n^3-1)/ (n^3-n-1))^2; then a(n) = Floor[f[n]].",
+  "description": "Let f(n) = ((n^4-n^3-1)/(n^3-n-1))^2; then a(n) = floor(f(n)).",
   "id": "A098749",
   "mentions": [
     "A002522"

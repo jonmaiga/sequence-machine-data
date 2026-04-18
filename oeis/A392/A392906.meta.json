@@ -1,0 +1,17 @@
+{
+  "description": "Number of odd terms in row n of A393283.",
+  "id": "A392906",
+  "mentions": [
+    "A393283"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

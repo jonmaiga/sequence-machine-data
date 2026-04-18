@@ -1,0 +1,18 @@
+{
+  "description": "Number of bipartite complete simple games with a maximum number of minimal winning pairs.",
+  "id": "A392899",
+  "mentions": [
+    "A001477",
+    "A051936"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

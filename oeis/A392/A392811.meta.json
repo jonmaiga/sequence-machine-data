@@ -1,0 +1,17 @@
+{
+  "description": "Number of transfer systems on the horizontal join lattice [n]*[n].",
+  "id": "A392811",
+  "mentions": [
+    "A000108"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the mean distance between two points selected independently at random within the interior of a rectangle with dimensions 1 X 2.",
+  "id": "A394602",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A091505",
+    "A093064",
+    "A093070",
+    "A135707",
+    "A348668",
+    "A394596",
+    "A394597",
+    "A394598",
+    "A394599",
+    "A394600",
+    "A394601"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

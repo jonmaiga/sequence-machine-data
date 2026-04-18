@@ -2,6 +2,10 @@
   "description": "The Manhattan distance to the origin while traversing the first quadrant in a taxicab geometry.",
   "id": "A213088",
   "mentions": [
+    "A000194",
+    "A053188",
+    "A080344",
+    "A209302",
     "A214526",
     "A319289",
     "A319290",
@@ -9,6 +13,7 @@
     "A389352"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "walk"
   ],

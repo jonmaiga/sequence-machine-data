@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n, k), n >= 0, k > 0, read by antidiagonals, where T(0, k) = 1 for k > 0 and where T(n, k) = R(n, k+1) - R(n, k) for n > 0, k > 0. Here R(n, k) = T(A053645(n), k)*k^(A290255(n) + 1).",
+  "description": "Square array T(n, k), n >= 0, k > 0, read by antidiagonals, where T(n, k) = R(n, k+1) - R(n, k) for n > 0, k > 0 with T(0, k) = 1 for k > 0 and where R(n, k) = T(A053645(n), k)*k^(A290255(n) + 1).",
   "id": "A357990",
   "mentions": [
     "A000120",

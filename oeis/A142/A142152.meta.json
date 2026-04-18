@@ -2,7 +2,8 @@
   "description": "Primes congruent to 21 mod 38.",
   "id": "A142152",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A141869"
   ],
   "tags": [
     "easy",

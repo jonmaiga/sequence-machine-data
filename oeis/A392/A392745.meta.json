@@ -1,0 +1,18 @@
+{
+  "description": "The number of partitions of n into parts, so that there exists a part i with multiplicity i.",
+  "id": "A392745",
+  "mentions": [
+    "A000041",
+    "A276429",
+    "A336273"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

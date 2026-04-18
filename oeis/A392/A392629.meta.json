@@ -1,0 +1,29 @@
+{
+  "description": "The number of coreful infinitary divisors of n that are numbers whose number of divisors is a power of 2.",
+  "id": "A392629",
+  "mentions": [
+    "A005117",
+    "A007814",
+    "A036537",
+    "A037445",
+    "A072587",
+    "A077609",
+    "A268335",
+    "A284318",
+    "A307958",
+    "A363329",
+    "A392628",
+    "A392630"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

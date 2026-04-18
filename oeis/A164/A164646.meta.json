@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n)/phi(n) = 9/4.",
+  "description": "Numbers m such that sigma(m)/phi(m) = 9/4.",
   "id": "A164646",
   "mentions": [
     "A000010",

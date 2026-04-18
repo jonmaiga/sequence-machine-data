@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both n*(n+2)-(n+1) and n*(n+2)+(n+1) are primes.",
+  "description": "Numbers k such that both k*(k+2)-(k+1) and k*(k+2)+(k+1) are primes.",
   "id": "A116214",
   "mentions": [
     "A005563",

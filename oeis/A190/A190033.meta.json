@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays with every 3X3 subblock commuting with each horizontal and vertical neighbor 3X3 subblock.",
+  "description": "Array read by antidiagonals: T(n,k) = number of (n+2) X (k+2) binary arrays with every 3 X 3 subblock commuting with each horizontal and vertical neighbor 3 X 3 subblock.",
   "id": "A190033",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

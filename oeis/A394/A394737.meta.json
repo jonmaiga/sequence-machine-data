@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of unordered sets of unit fractions with smallest element 1/n that can be made into a pie so that no consecutive subset may be replaced by a larger unit fraction.",
+  "id": "A394737",
+  "mentions": [
+    "A092666"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

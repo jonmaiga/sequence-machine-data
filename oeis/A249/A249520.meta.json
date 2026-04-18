@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of: G.f.: 2-(2*x)/(1-sqrt(sqrt(1-16*x)+1)/sqrt(2)).",
+  "description": "Expansion of g.f. 2-(2*x)/(1-sqrt(sqrt(1-16*x)+1)/sqrt(2)).",
   "id": "A249520",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A066357"
   ],
   "tags": [
     "formulas",

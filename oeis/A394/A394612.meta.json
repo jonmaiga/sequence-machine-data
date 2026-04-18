@@ -1,0 +1,18 @@
+{
+  "description": "Records corresponding to A394361.",
+  "id": "A394612",
+  "mentions": [
+    "A000005",
+    "A394361"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

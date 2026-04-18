@@ -1,14 +1,19 @@
 {
-  "description": "2n! / number of divisors of n.",
+  "description": "a(n) = 2 * n! / number of divisors of n.",
   "id": "A062833",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A052849",
+    "A371133"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

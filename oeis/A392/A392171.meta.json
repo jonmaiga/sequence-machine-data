@@ -1,0 +1,23 @@
+{
+  "description": "The Dedekind psi function value of the smallest cubefull number that is a multiple of n.",
+  "id": "A392171",
+  "mentions": [
+    "A001615",
+    "A002117",
+    "A013661",
+    "A356193",
+    "A390756",
+    "A392090"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

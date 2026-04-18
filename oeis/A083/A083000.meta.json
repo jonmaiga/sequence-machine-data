@@ -1,5 +1,5 @@
 {
-  "description": "Values of x for which 9y^2 = x^2 + 2xy - 2x has integer solutions with positive y.",
+  "description": "Values of x for which 9*y^2 = x^2 + 2*x*y - 2*x has integer solutions with positive y.",
   "id": "A083000",
   "mentions": [
     "A046195",

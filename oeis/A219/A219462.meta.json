@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k = 1..2*n} binomial(2*n,k) * Fibonacci(2*k).",
   "id": "A219462",
   "mentions": [
+    "A000032",
     "A000045",
     "A000351",
     "A001906",

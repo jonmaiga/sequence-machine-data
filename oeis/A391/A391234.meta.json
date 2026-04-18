@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal of the 3-dimensional geode array: a(n) = G(n,n,n).",
+  "id": "A391234",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A104978",
+    "A383439"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

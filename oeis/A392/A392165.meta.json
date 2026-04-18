@@ -1,0 +1,17 @@
+{
+  "description": "Indices of record values in A392164.",
+  "id": "A392165",
+  "mentions": [
+    "A056911",
+    "A392164"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

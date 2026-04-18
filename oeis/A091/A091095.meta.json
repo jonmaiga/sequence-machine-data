@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+4x-24x^2)/((1-4x)(1+4x)).",
+  "description": "Expansion of (1+4*x-24*x^2)/((1-4*x)(1+4*x)).",
   "id": "A091095",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 26,
     "source": "joeis"
   }
 }

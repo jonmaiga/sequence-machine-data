@@ -1,0 +1,24 @@
+{
+  "description": "The maximum exponent in the prime factorization of the smallest multiple of n that is an exponentially squarefree number.",
+  "id": "A392278",
+  "mentions": [
+    "A005117",
+    "A051903",
+    "A067535",
+    "A209061",
+    "A365684",
+    "A378087",
+    "A386468",
+    "A391899"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

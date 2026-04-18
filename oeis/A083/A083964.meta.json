@@ -1,5 +1,5 @@
 {
-  "description": "Smallest palindromic multiple of 2n-1 beginning with the digit string of 2n-1; or 0 if no such number exists.",
+  "description": "Smallest palindromic multiple of 2*n-1 beginning with the digit string of 2*n-1; or 0 if no such number exists.",
   "id": "A083964",
   "mentions": [
     "A083965"

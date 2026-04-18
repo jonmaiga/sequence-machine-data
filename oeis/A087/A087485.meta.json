@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n such that 2n - sigma(n) = 6.",
+  "description": "Odd numbers m such that 2*m - sigma(m) = 6.",
   "id": "A087485",
   "mentions": [
     "A067795",

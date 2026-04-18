@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+2/11)/GAMMA(2/11).",
+  "description": "Ceiling of Gamma(n+2/11)/Gamma(2/11).",
   "id": "A020103",
-  "mentions": [],
+  "mentions": [
+    "A020013",
+    "A020058"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

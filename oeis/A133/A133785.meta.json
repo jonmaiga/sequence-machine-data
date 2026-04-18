@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that integer part of the square root of n appears as a substring in n.",
+  "description": "Numbers m such that integer part of the square root of m appears as a substring in m.",
   "id": "A133785",
   "mentions": [],
   "tags": [

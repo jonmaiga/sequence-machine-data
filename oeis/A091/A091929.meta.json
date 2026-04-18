@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-6x)/(1-6x-11x^2).",
+  "description": "Expansion of (1-6*x)/(1-6*x-11*x^2).",
   "id": "A091929",
   "mentions": [
     "A015553",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

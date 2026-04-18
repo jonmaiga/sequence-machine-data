@@ -2,6 +2,7 @@
   "description": "Wiener index of the Moebius ladder M(n).",
   "id": "A180857",
   "mentions": [
+    "A047838",
     "A180856"
   ],
   "tags": [

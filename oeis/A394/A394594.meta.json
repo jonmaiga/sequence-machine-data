@@ -1,0 +1,18 @@
+{
+  "description": "The largest positive integer for which there exist n arithmetic progressions whose union covers all smaller positive integers, but miss a(n) and a(n)+1.",
+  "id": "A394594",
+  "mentions": [
+    "A000079",
+    "A275489",
+    "A390012"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

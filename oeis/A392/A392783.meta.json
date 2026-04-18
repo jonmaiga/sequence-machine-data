@@ -1,0 +1,20 @@
+{
+  "description": "Non-palindromic numbers whose digit reversal have the same sum of distinct prime factors.",
+  "id": "A392783",
+  "mentions": [
+    "A004086",
+    "A008472",
+    "A029742",
+    "A085607",
+    "A115662"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

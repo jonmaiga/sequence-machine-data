@@ -1,0 +1,17 @@
+{
+  "description": "Time taken to get n people from one side of a bridge to the other where (a) the only flashlight must be carried when crossing; (b) at most three people may cross at the same time; (c) a group crosses at the speed of the slowest member; and (d) the k-th person requires k seconds to cross the bridge.",
+  "id": "A392834",
+  "mentions": [
+    "A078476"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

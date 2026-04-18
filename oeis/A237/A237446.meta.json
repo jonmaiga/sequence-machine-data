@@ -1,18 +1,21 @@
 {
-  "description": "Primes p such that f(f(p)) is prime where f(x) = Phi_6(x).",
+  "description": "Primes p such that Phi_7(Phi_7(p)) is prime.",
   "id": "A237446",
   "mentions": [
     "A013595",
     "A013596",
+    "A053716",
     "A088550",
+    "A163268",
     "A237364"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

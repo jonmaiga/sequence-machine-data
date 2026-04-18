@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that 25*2^k + 9 is prime.",
+  "id": "A392300",
+  "mentions": [
+    "A166560"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

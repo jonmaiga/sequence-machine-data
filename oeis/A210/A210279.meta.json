@@ -1,5 +1,5 @@
 {
-  "description": "(6n)!/6^n.",
+  "description": "a(n) = (6n)!/6^n.",
   "id": "A210279",
   "mentions": [
     "A000680",

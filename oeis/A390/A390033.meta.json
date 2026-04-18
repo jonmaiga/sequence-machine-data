@@ -1,0 +1,14 @@
+{
+  "description": "Number of different digit-cycles that can appear when you repeatedly multiply by a single digit in base n, tracking only the last digit.",
+  "id": "A390033",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

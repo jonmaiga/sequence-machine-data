@@ -2,6 +2,7 @@
   "description": "Primes of the form x^2 + 22x*y + y^2 for x and y nonnegative.",
   "id": "A139502",
   "mentions": [
+    "A003171",
     "A007519",
     "A007645",
     "A033212",

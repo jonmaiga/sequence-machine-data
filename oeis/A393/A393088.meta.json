@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 5/36 - log(2)/6.",
+  "id": "A393088",
+  "mentions": [
+    "A002162",
+    "A069079"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

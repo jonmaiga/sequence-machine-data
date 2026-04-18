@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle of numbers k such that A002313(n), the n-th prime not congruent to 3 mod 4 is the largest prime factor of k^2 + 1.",
+  "description": "Irregular triangle of numbers k such that A002313(n), the n-th prime not congruent to 3 mod 4, is the largest prime factor of k^2 + 1.",
   "id": "A223702",
   "mentions": [
     "A002313",

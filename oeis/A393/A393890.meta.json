@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies 5*A(x) = 1 + x + 4*A(x*A(x)).",
+  "id": "A393890",
+  "mentions": [
+    "A242003",
+    "A393888",
+    "A393889",
+    "A394901"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

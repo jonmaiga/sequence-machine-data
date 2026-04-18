@@ -1,0 +1,17 @@
+{
+  "description": "Number of terms in the discriminant of the monic polynomial f(x) = x^n + a1 * x^{n-1} + ... + an whose absolute coefficient is equal to A240582(n).",
+  "id": "A394669",
+  "mentions": [
+    "A007878",
+    "A240582"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

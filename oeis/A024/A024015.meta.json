@@ -1,5 +1,5 @@
 {
-  "description": "2^n-n^5.",
+  "description": "a(n) = 2^n-n^5.",
   "id": "A024015",
   "mentions": [
     "A024028",

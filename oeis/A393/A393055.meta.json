@@ -1,0 +1,26 @@
+{
+  "description": "Number of terms of A392867 <= n that are neither terms of A067019 nor terms of A393044.",
+  "id": "A393055",
+  "mentions": [
+    "A003415",
+    "A020639",
+    "A053669",
+    "A067019",
+    "A392867",
+    "A393044",
+    "A393056",
+    "A393057",
+    "A393058",
+    "A393067"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of the digits of k raised to the power of their respective positions has unique digits in strictly ascending order.",
+  "id": "A393581",
+  "mentions": [
+    "A005935",
+    "A009993",
+    "A009994",
+    "A032799"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

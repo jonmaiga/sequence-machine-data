@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions p of n with multiplicity of each part at most 3, satisfying max(p) = 3 * min(p).",
+  "id": "A394029",
+  "mentions": [
+    "A241063",
+    "A394024",
+    "A394028"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

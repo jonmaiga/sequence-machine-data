@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies (x-1)*A(x)^4+(2x+1)*A(x)^3-(2x^2+3x)*A(x)^2+(x^3+3x^2)*A(x)-x^3=0.",
+  "id": "A394155",
+  "mentions": [
+    "A394153",
+    "A394154"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

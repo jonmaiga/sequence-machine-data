@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the minimum total surface area of five-element sets of distinct integer-sided cuboids that fill an n X n X n cube.",
+  "id": "A393104",
+  "mentions": [
+    "A054567",
+    "A384311",
+    "A384479",
+    "A385153",
+    "A385154",
+    "A392884",
+    "A392885",
+    "A393105",
+    "A393267"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

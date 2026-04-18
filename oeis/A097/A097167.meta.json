@@ -1,5 +1,5 @@
 {
-  "description": "3*10^n-2*9^n.",
+  "description": "a(n) = 3*10^n - 2*9^n.",
   "id": "A097167",
   "mentions": [
     "A097168"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

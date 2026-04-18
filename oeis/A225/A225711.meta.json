@@ -1,7 +1,8 @@
 {
-  "description": "Composite squarefree numbers n such that p(i)+1 divides n-1, where p(i) are the prime factors of n.",
+  "description": "Composite squarefree numbers k such that p+1 divides k-1 for any prime p dividing k.",
   "id": "A225711",
   "mentions": [
+    "A120944",
     "A208728",
     "A225702",
     "A225710",

@@ -1,5 +1,5 @@
 {
-  "description": "Primes that contain at least two different even digits and at least two different odd digits such that any permutation of the odd digits and any permutation of the even digits produces a prime. Permutations with leading 0s are disregarded; ie. if permutations of even digits in a prime p produce a number with a leading 0 that is not prime, p is still in the sequence.",
+  "description": "Primes that contain at least two different even digits and at least two different odd digits such that any permutation of the odd digits and any permutation of the even digits produces a prime. Permutations with leading 0's are disregarded; i.e., if permutations of even digits in a prime p produce a number with a leading 0 that is not prime, p is still in the sequence.",
   "id": "A377564",
   "mentions": [
     "A000040",

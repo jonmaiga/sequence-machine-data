@@ -1,5 +1,5 @@
 {
-  "description": "T(n,3) of A086350.",
+  "description": "Row T(n,3) of square array A086350.",
   "id": "A086351",
   "mentions": [
     "A000129",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "joeis"
   }
 }

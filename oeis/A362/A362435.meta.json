@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 18; thereafter a(n) = a(n-1) + difference between first two digits of a(n-1).",
+  "description": "a(1) = 18; thereafter a(n) = a(n-1) + abs(difference between first two digits of a(n-1)).",
   "id": "A362435",
   "mentions": [
     "A006507",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
+    "size": 66,
     "source": "joeis"
   }
 }

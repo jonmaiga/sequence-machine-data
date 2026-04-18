@@ -1,5 +1,5 @@
 {
-  "description": "21*n^4 - 36*n^3 + 25*n^2 - 8*n + 1.",
+  "description": "a(n) = 21*n^4 - 36*n^3 + 25*n^2 - 8*n + 1.",
   "id": "A239426",
   "mentions": [
     "A003215",

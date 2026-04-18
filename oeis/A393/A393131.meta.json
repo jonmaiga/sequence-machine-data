@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = EulerPhi(2*n+1)/A329726(n); index of witnesses for Solovay-Strassen primality test of 2*n+1 as a subgroup of (Z/(2*n+1)Z)*.",
+  "id": "A393131",
+  "mentions": [
+    "A000265",
+    "A002322",
+    "A033181",
+    "A247074",
+    "A329726",
+    "A392377",
+    "A392921",
+    "A394230"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

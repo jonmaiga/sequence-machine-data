@@ -2,6 +2,7 @@
   "description": "Triangle read by rows of [2^(n+1) - (n+1)] terms where row n has the g.f.: Product_{i=0..n-1} (1 + x^(2^i))^(n-i) for n>0, starting with a '1' in row 0.",
   "id": "A131823",
   "mentions": [
+    "A000120",
     "A131824"
   ],
   "tags": [

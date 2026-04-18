@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 - 1/(1 + p + p^2)^2).",
+  "id": "A394041",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A005117",
+    "A059956",
+    "A183030",
+    "A330594",
+    "A394042",
+    "A394043"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,16 +1,16 @@
 {
-  "description": "Antidiagonal triangle sequence based on recursion: f(n,a)=a*f(n-1,a)+n*f(n-2,a).",
+  "description": "Square array A(n,k) read by antidiagonals: T(n,k) = A(n-k+1,k) where A(n,0)=0, A(n,1)=1, and A(n,k) = n*A(n,k-1) + k*A(n,k-2).",
   "id": "A173004",
-  "mentions": [],
+  "mentions": [
+    "A059480"
+  ],
   "tags": [
-    "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "joeis"
   }
 }

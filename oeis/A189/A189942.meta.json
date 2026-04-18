@@ -1,5 +1,5 @@
 {
-  "description": "Table, read by rows, of the number of quivers of type A_(n-1) according to the parameter k (n >= 2, 1 <= k <= [n/2]).",
+  "description": "Table, read by rows, of the number of quivers of affine type A_(n-1) according to the parameter k (n >= 2, 1 <= k <= [n/2]).",
   "id": "A189942",
   "mentions": [
     "A000108",

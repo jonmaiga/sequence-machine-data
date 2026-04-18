@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the arc length of 1 complete rotation of the golden spiral to maximum radius 1.",
+  "id": "A392005",
+  "mentions": [
+    "A001622",
+    "A176015",
+    "A390038"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

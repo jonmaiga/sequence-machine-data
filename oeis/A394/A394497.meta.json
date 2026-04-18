@@ -1,0 +1,20 @@
+{
+  "description": "Recurrence: a(2*n + 1) = 2*n + 1, a(2*n) = 3*a(n).",
+  "id": "A394497",
+  "mentions": [
+    "A000265",
+    "A007814",
+    "A085062"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

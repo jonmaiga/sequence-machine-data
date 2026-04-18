@@ -1,5 +1,5 @@
 {
-  "description": "(n^4 - 10*n^2 + 15*n - 6)/2.",
+  "description": "a(n) = (n^4 - 10*n^2 + 15*n - 6)/2.",
   "id": "A135916",
   "mentions": [],
   "tags": [

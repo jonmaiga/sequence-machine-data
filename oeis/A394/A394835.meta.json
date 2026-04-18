@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the mean area of triangle formed by three points independently and uniformly selected at random in a unit half-disk.",
+  "id": "A394835",
+  "mentions": [
+    "A093582",
+    "A189511"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

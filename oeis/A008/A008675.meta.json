@@ -2,10 +2,13 @@
   "description": "Expansion of 1/( Product_{j=0..5} (1-x^(2*j+1)) ).",
   "id": "A008675",
   "mentions": [
+    "A000009",
     "A008674",
     "A259094"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

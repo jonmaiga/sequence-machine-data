@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; thereafter a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference between a(n-1) and a(n) is a factorial number k!, k >= 1; in case of a tie, preference is given to the positive value.",
+  "id": "A393434",
+  "mentions": [
+    "A000142",
+    "A377090",
+    "A377091",
+    "A377092",
+    "A379719",
+    "A392317"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

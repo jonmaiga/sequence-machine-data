@@ -1,0 +1,16 @@
+{
+  "description": "Main diagonal of rectangular array A393760.",
+  "id": "A393768",
+  "mentions": [
+    "A393760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime q such that the set of p-1 consecutive primes starting at q forms a complete system of residues modulo p (excluding p mod p), where p=prime(n).",
+  "id": "A393928",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "(5^n+(-1)^n)/2.",
+  "description": "a(n) = (5^n+(-1)^n)/2.",
   "id": "A081340",
   "mentions": [
     "A003665",

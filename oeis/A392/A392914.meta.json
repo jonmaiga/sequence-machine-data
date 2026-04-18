@@ -1,0 +1,20 @@
+{
+  "description": "Primes starting a run of at least 4 consecutive primes with binary Hamming distance 1.",
+  "id": "A392914",
+  "mentions": [
+    "A007530",
+    "A101080",
+    "A205510",
+    "A205511",
+    "A205533"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

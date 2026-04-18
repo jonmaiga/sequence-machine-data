@@ -1,11 +1,12 @@
 {
-  "description": "Smallest k such that no set of n lattice points gives visibility to every point of a square k X k lattice.",
+  "description": "Smallest k such that no set of n points in a square k X k lattice gives visibility to all other points of the square.",
   "id": "A165164",
   "mentions": [
     "A157639"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

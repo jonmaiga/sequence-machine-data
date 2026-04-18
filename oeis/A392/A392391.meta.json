@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed polybends with n cells.",
+  "id": "A392391",
+  "mentions": [
+    "A390995",
+    "A392389",
+    "A392390"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

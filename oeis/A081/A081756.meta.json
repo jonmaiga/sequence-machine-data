@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there is a proper divisor d of n satisfying sigma(d)=n.",
+  "description": "Numbers k such that there is a proper divisor d of k satisfying sigma(d)=k.",
   "id": "A081756",
   "mentions": [
     "A007691",

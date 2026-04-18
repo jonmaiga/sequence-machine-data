@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of reliable digits produced by using n terms of A084580 and treating them as the coefficients of a continued fraction.",
+  "description": "Number of decimal places which are known after using n terms of A084580 and treating them as the coefficients of a continued fraction.",
   "id": "A390737",
   "mentions": [
     "A062542",
@@ -9,12 +9,11 @@
   ],
   "tags": [
     "base",
-    "cons",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

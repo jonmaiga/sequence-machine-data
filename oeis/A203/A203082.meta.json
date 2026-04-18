@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of (5/48)! = Gamma(53/48).",
   "id": "A203082",
-  "mentions": [],
+  "mentions": [
+    "A203141"
+  ],
   "tags": [
     "cons",
     "nonn"

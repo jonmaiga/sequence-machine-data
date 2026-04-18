@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant characterizing the complexity of the general number field sieve (GNFS) factoring algorithm.",
+  "id": "A394663",
+  "mentions": [
+    "A394662",
+    "A394664"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

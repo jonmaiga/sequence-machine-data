@@ -1,0 +1,14 @@
+{
+  "description": "Number of maximum irredundant sets in the n-triangular honeycomb queen graph.",
+  "id": "A389949",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

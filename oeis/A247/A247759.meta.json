@@ -25,7 +25,7 @@
     "word"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 66,
     "source": "oeis-bfile"
   }

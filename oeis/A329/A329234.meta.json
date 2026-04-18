@@ -1,5 +1,5 @@
 {
-  "description": "Number of digraphs on n unlabled vertices such that every vertex has the same outdegree.",
+  "description": "Number of digraphs on n unlabeled vertices such that every vertex has the same outdegree.",
   "id": "A329234",
   "mentions": [
     "A000273",

@@ -1,0 +1,22 @@
+{
+  "description": "Total number of cells under all symmetric Dyck paths of semilength n in the first quadrant of the square grid.",
+  "id": "A394643",
+  "mentions": [
+    "A000290",
+    "A001405",
+    "A057571",
+    "A390502",
+    "A393383",
+    "A394529"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

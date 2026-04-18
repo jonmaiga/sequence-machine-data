@@ -1,5 +1,5 @@
 {
-  "description": "9^n - 3^n + 1.",
+  "description": "a(n) = 9^n - 3^n + 1.",
   "id": "A155614",
   "mentions": [
     "A155599",

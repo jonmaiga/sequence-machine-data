@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the period length of the Ducci sequence, where the initial vector consists of the binary digits of n.",
+  "id": "A393248",
+  "mentions": [
+    "A007788",
+    "A038553",
+    "A111944"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

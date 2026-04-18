@@ -2,6 +2,7 @@
   "description": "Number of partitions of n such that the multiplicity of the greatest part is a part.",
   "id": "A240494",
   "mentions": [
+    "A006141",
     "A240491",
     "A240492",
     "A240493",
@@ -9,6 +10,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

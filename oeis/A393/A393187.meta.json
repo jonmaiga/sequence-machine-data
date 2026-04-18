@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n XOR (2 * (n AND -n)) assuming a two's complement representation of negative values.",
+  "id": "A393187",
+  "mentions": [
+    "A006519",
+    "A392245",
+    "A393188"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

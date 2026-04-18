@@ -1,0 +1,20 @@
+{
+  "description": "Primitive semiperfect numbers (A006036) that are not unit-anchored semiperfects (A392910).",
+  "id": "A392912",
+  "mentions": [
+    "A005835",
+    "A006036",
+    "A390873",
+    "A392910",
+    "A392911"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

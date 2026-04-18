@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*11^n + 1 is prime.",
+  "description": "Numbers k such that 2*11^k + 1 is prime.",
   "id": "A141774",
   "mentions": [
     "A068231",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

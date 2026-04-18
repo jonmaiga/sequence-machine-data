@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = LCM_{d|n} A276086(d), where LCM is the least common multiple, and A276086 is the primorial base exp-function.",
+  "id": "A393061",
+  "mentions": [
+    "A048103",
+    "A276086",
+    "A393062"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

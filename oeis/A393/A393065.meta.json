@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A020639(k') = A053669(k) and A053669(k') = A020639(k), where k' stands for the arithmetic derivative of k, A020639 returns the least prime factor of its argument, and A053669 is the least prime not dividing its argument.",
+  "id": "A393065",
+  "mentions": [
+    "A003415",
+    "A020639",
+    "A053669",
+    "A370125",
+    "A391845",
+    "A393064",
+    "A393066"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

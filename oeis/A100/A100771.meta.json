@@ -1,15 +1,20 @@
 {
   "description": "Distance from the nearest palindrome.",
   "id": "A100771",
-  "mentions": [],
+  "mentions": [
+    "A002113",
+    "A052036",
+    "A261424"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 10,
-    "size": 105,
+    "offset": 0,
+    "size": 89,
     "source": "oeis-entry"
   }
 }

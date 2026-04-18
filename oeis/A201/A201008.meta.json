@@ -1,12 +1,14 @@
 {
-  "description": "Triangular numbers, T(m), that are five-sixths of another triangular number: T(m) such that 6*T(m)=5*T(k) for some k.",
+  "description": "Triangular numbers, T(m), that are five-sixths of another triangular number: T(m) such that 6*T(m) = 5*T(k) for some k.",
   "id": "A201008",
   "mentions": [
+    "A000217",
     "A001652",
     "A029549",
     "A053141",
     "A075528",
-    "A200993"
+    "A200993",
+    "A201007"
   ],
   "tags": [
     "easy",
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

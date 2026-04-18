@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the minimum total surface area of four-element sets of distinct integer-sided cuboids that fill an n X n X n cube.",
+  "id": "A392884",
+  "mentions": [
+    "A384311",
+    "A385153",
+    "A392885",
+    "A393267"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -4,7 +4,8 @@
   "mentions": [
     "A088690",
     "A377826",
-    "A377891"
+    "A377891",
+    "A392526"
   ],
   "tags": [
     "formulas",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

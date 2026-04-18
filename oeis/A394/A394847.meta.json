@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 / (1 + x/2 * d/dx log(1 - 2*x*A(x))).",
+  "id": "A394847",
+  "mentions": [
+    "A158884",
+    "A394848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

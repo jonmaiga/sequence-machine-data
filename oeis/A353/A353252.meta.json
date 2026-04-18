@@ -2,6 +2,7 @@
   "description": "Expansion of Sum_{k>=0} x^k * Product_{j=0..k-1} (j + 2 * x).",
   "id": "A353252",
   "mentions": [
+    "A001620",
     "A097341",
     "A343579",
     "A352802",

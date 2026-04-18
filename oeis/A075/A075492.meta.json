@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of n < number of divisors of n.",
+  "description": "Numbers k such that sum of digits of k < number of divisors of k.",
   "id": "A075492",
   "mentions": [
     "A000005",
@@ -10,12 +10,11 @@
   "tags": [
     "base",
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

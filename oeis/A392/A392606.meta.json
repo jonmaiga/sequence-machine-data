@@ -1,0 +1,23 @@
+{
+  "description": "Intersection of A392605 and A392611.",
+  "id": "A392606",
+  "mentions": [
+    "A276088",
+    "A327860",
+    "A328114",
+    "A380527",
+    "A381035",
+    "A392605",
+    "A392611"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of plane partitions of n with k smallest parts.",
+  "id": "A392357",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A091298",
+    "A392995"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime k-tuplet constellations, i.e., patterns with minimal diameter A008407.",
+  "description": "Number of prime k-tuplet constellations; i.e., patterns with minimal diameter A008407.",
   "id": "A083409",
   "mentions": [
     "A008407",

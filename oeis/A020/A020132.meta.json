@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+1/4)/GAMMA(1/4).",
+  "description": "Ceiling of Gamma(n+1/4)/Gamma(1/4).",
   "id": "A020132",
-  "mentions": [],
+  "mentions": [
+    "A020042",
+    "A020087"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that every abelian group of order k appears as a group of units of the ring Z/mZ for at least one m.",
+  "id": "A394532",
+  "mentions": [
+    "A000688",
+    "A002202",
+    "A390394",
+    "A394390"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

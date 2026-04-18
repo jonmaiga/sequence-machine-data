@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi_5, a generalized version of Pi used in squigonometry.",
+  "id": "A393968",
+  "mentions": [
+    "A175576",
+    "A246745",
+    "A371856",
+    "A393967"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

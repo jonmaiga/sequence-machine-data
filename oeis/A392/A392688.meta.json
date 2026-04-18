@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the addend producing the record value of the Hardy-Littlewood constant from Jacobson (1995).",
+  "id": "A392688",
+  "mentions": [
+    "A331940"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 19,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

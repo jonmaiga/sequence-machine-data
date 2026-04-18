@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(k*(2*k-1))) / (1 - x^(k*(2*k-1))).",
+  "id": "A394204",
+  "mentions": [
+    "A103265",
+    "A278949",
+    "A279279",
+    "A394202",
+    "A394203"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

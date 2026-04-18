@@ -1,0 +1,19 @@
+{
+  "description": "Number of singular meanders with n intersections.",
+  "id": "A393122",
+  "mentions": [
+    "A005316",
+    "A391919"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

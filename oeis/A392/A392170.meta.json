@@ -1,0 +1,22 @@
+{
+  "description": "The Dedekind psi function value of the smallest powerful number that is a multiple of n.",
+  "id": "A392170",
+  "mentions": [
+    "A001615",
+    "A013661",
+    "A197863",
+    "A390755",
+    "A392089"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

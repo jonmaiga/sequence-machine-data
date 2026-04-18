@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the largest m <= A002034(n) such that n divides m * ... * A002034(n).",
+  "id": "A393580",
+  "mentions": [
+    "A002034"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

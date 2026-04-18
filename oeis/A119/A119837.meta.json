@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(2n)!/n!-(2n)!/(n-1)!.",
+  "description": "a(n) = (2n)!/n! - (2n)!/(n-1)!.",
   "id": "A119837",
   "mentions": [
     "A001813",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 18,
     "source": "joeis"
   }
 }

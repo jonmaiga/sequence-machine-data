@@ -1,0 +1,15 @@
+{
+  "description": "Maximum number of vertices in a uniquely traceable induced subgraph of the n X n grid graph.",
+  "id": "A391479",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

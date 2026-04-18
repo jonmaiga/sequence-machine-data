@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 1/sqrt(7) - 2/7.",
+  "id": "A392290",
+  "mentions": [
+    "A010465",
+    "A020764",
+    "A020806",
+    "A392289"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/133.",
   "id": "A021137",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
     "easy",

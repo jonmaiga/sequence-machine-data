@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of imaginary part of Integral_{x=0..1/e} log(log(x))/(1+x^2) dx.",
+  "id": "A393630",
+  "mentions": [
+    "A115252",
+    "A258428",
+    "A388042",
+    "A390125"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer k with exactly n distinct prime factors such that, for every prime power p^e in the canonical prime factorization of k, (p + e) divides k.",
+  "id": "A390229",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A033950",
+    "A392819"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

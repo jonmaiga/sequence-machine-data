@@ -1,5 +1,5 @@
 {
-  "description": "Fixed points reached when prime-factor-concatenation function [A084317] is started at n!.",
+  "description": "Fixed points reached when prime-factor-concatenation function (A084317) is started at n!.",
   "id": "A084323",
   "mentions": [
     "A000142",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "joeis"
   }
 }

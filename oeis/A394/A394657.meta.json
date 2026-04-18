@@ -1,0 +1,22 @@
+{
+  "description": "Number of decompositions of 2n into an unordered sum of two terms of A393798.",
+  "id": "A394657",
+  "mentions": [
+    "A000040",
+    "A002375",
+    "A045917",
+    "A240708",
+    "A254041",
+    "A319178",
+    "A393798"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

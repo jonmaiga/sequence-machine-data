@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the average Euclidean distance between two randomly picked points, one of which is located in a unit square and the other in an adjacent unit square, both axis-parallel, with the two squares sharing one common vertex.",
+  "id": "A392687",
+  "mentions": [
+    "A135707"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

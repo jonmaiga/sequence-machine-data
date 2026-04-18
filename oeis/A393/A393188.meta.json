@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = u(n) OR (u(n) - 1) where u(n) = n + (n AND -n) assuming a two's complement representation for negative values.",
+  "id": "A393188",
+  "mentions": [
+    "A006519",
+    "A392245",
+    "A393187"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

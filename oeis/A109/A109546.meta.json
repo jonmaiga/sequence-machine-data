@@ -1,5 +1,5 @@
 {
-  "description": "(4^(n+1)-(-1)^n 9 )/5.",
+  "description": "a(n) = (4^(n+1)-(-1)^n 9 )/5.",
   "id": "A109546",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=6*phi(n)-sigma(n).",
+  "description": "Numbers k such that k = 6*phi(k) - sigma(k).",
   "id": "A136539",
   "mentions": [
     "A001770",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

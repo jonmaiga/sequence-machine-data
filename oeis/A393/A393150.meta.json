@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is chosen such that the root mean square of all terms so far is closest to n by absolute difference.",
+  "id": "A393150",
+  "mentions": [
+    "A000194",
+    "A141391"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} n/(e^(2*Pi*n)+1).",
+  "id": "A394349",
+  "mentions": [
+    "A319462",
+    "A394350",
+    "A394351"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "(2*3^(n-1)+1)^2.",
+  "description": "a(n) = (2*3^(n-1)+1)^2.",
   "id": "A169724",
   "mentions": [
     "A000290",

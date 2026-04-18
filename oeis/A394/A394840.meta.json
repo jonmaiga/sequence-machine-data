@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number of triangular cells in a connected polyiamond enclosing an interior hole of exactly n empty triangular cells.",
+  "id": "A394840",
+  "mentions": [
+    "A027709",
+    "A067628",
+    "A070764",
+    "A283056",
+    "A327896"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

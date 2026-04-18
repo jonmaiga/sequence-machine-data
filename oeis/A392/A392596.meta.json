@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A276086(n) mod 360, where A276086 is the primorial base exp-function.",
+  "id": "A392596",
+  "mentions": [
+    "A047247",
+    "A047257",
+    "A276086",
+    "A353486",
+    "A358840",
+    "A358850",
+    "A372576",
+    "A380486",
+    "A392595",
+    "A392599",
+    "A392600"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of singular meanders with n intersections having k tangential intersections.",
+  "id": "A391919",
+  "mentions": [
+    "A000012",
+    "A005316",
+    "A082590",
+    "A393122"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

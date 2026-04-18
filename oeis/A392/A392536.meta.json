@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number not yet in the sequence that has a prime factor in common with a(n-2) (either 2 or odd) and an odd prime factor in common with a(n-1); a(1) = 2, a(2) = 6 (see comments for details).",
+  "id": "A392536",
+  "mentions": [
+    "A064413",
+    "A240024",
+    "A392162",
+    "A392770"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

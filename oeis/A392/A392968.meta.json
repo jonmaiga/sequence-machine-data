@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the area swept by 1 complete rotation about its origin of the radius of the golden spiral to maximum radius 1.",
+  "id": "A392968",
+  "mentions": [
+    "A001622",
+    "A392005"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

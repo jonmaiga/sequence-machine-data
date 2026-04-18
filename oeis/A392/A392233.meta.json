@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers (not multiples of 10) whose constant congruence speed equals the product of the constant congruence speeds of all their prime factors.",
+  "id": "A392233",
+  "mentions": [
+    "A067251",
+    "A317905",
+    "A373387",
+    "A389432",
+    "A389979",
+    "A389980",
+    "A389981"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

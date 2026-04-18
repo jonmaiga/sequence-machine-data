@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that the sum of the products of each digit of k and the number obtained by removing that digit is equal to k.",
+  "id": "A391636",
+  "mentions": [
+    "A065759",
+    "A088116"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

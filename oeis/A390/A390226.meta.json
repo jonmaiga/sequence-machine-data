@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction of A365075.",
+  "id": "A390226",
+  "mentions": [
+    "A182972",
+    "A182973",
+    "A365075"
+  ],
+  "tags": [
+    "base",
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

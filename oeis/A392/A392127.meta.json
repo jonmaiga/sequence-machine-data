@@ -1,0 +1,20 @@
+{
+  "description": "The smallest k >= 0 that can be represented as a linear combination of 1^2, 2^2, ..., n^2 with coefficients +-1 and that cannot be represented using 1^2, 2^2, ..., m^2 with 1<=m",
+  "id": "A392127",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A019568",
+    "A231015",
+    "A392126",
+    "A392346"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

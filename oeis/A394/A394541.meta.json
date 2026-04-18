@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} cos(n)/n^3.",
+  "id": "A394541",
+  "mentions": [
+    "A121225",
+    "A122143",
+    "A223709",
+    "A263192"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

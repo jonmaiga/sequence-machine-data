@@ -1,0 +1,17 @@
+{
+  "description": "Irregular table T(n,m): coefficients of the minimal polynomial for the normalized weight factors of the Hermite-Gauss quadrature (exponents in decreasing order).",
+  "id": "A393904",
+  "mentions": [
+    "A112734",
+    "A387347"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

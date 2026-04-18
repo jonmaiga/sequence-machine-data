@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n | Sigma_2(n) + Sigma_1(n) + Sigma_0(n).",
+  "description": "Numbers k such that k | sigma_2(k) + sigma_1(k) + sigma_0(k).",
   "id": "A057852",
   "mentions": [
     "A000005",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

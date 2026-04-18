@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that average digit of n^2 is s=8.",
+  "description": "Numbers k with property that average digit of k^2 is s=8.",
   "id": "A164772",
   "mentions": [
     "A164770",

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Sum_{j=0..k} (-1)^(k - j) * binomial(k, j) * j^n * 2^j.",
+  "id": "A394443",
+  "mentions": [
+    "A394444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

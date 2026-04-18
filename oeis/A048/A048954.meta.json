@@ -2,6 +2,8 @@
   "description": "Wendt determinant of n-th circulant matrix C(n).",
   "id": "A048954",
   "mentions": [
+    "A000032",
+    "A001945",
     "A052182",
     "A066933",
     "A086459",

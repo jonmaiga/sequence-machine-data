@@ -1,0 +1,22 @@
+{
+  "description": "Number of totients below exp(n).",
+  "id": "A394381",
+  "mentions": [
+    "A000010",
+    "A000149",
+    "A002202",
+    "A221283",
+    "A264810",
+    "A394380"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

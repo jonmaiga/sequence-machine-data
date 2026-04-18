@@ -1,0 +1,20 @@
+{
+  "description": "List giving least 5-rough number (A007310) of each prime signature.",
+  "id": "A393012",
+  "mentions": [
+    "A007310",
+    "A023196",
+    "A025487",
+    "A070826",
+    "A147516"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

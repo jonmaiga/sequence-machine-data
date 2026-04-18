@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 + 1/(p^6 - p^4)).",
+  "id": "A394336",
+  "mentions": [
+    "A013661",
+    "A036966",
+    "A190867",
+    "A393649",
+    "A394335"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangular array read by rows: row n shows the coefficients of the irreducible polynomial p(u) when the expansion of the n-th derivative of tan(x) is expressed in the form 2^q*(1 + u^2)*p(u) if n is odd, and 2^q*u*(1 + u^2)*p(u) if n is even, where u = tan(x).",
+  "id": "A392676",
+  "mentions": [
+    "A002430",
+    "A392124"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "G.f.: A(x) = 1 + x*F(x)*G(x)^2 where F(x) = A(x/F(x)) and G(x) = A(x*G(x)).",
+  "id": "A392527",
+  "mentions": [
+    "A184509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

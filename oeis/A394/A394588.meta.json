@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(2)^(1-log(2)).",
+  "id": "A394588",
+  "mentions": [
+    "A244009",
+    "A394585",
+    "A394587"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

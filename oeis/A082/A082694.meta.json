@@ -2,14 +2,17 @@
   "description": "Partial sums of A082693.",
   "id": "A082694",
   "mentions": [
-    "A082693"
+    "A082693",
+    "A095264",
+    "A101946"
   ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

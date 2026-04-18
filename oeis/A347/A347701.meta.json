@@ -3,15 +3,15 @@
   "id": "A347701",
   "mentions": [
     "A003041",
+    "A159920",
     "A347700"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Number of vertices in successive convex layers of the positive octant of the three-dimensional integer grid.",
+  "id": "A392196",
+  "mentions": [
+    "A292276",
+    "A293596"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

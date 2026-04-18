@@ -1,0 +1,18 @@
+{
+  "description": "Number of invertible n X n Hankel matrices with entries in {0,1}.",
+  "id": "A391693",
+  "mentions": [
+    "A096390",
+    "A390669",
+    "A392574"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

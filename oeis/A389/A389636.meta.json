@@ -1,0 +1,23 @@
+{
+  "description": "Nondeficient numbers k such that k/p is nondeficient (see A023196) for all primes p dividing k.",
+  "id": "A389636",
+  "mentions": [
+    "A000396",
+    "A006039",
+    "A023196",
+    "A023197",
+    "A064549",
+    "A337688",
+    "A341620",
+    "A389633"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

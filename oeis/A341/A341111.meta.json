@@ -1,5 +1,5 @@
 {
-  "description": "T(n, k) = [x^k] M(n)*Sum_{k=0..n} E2(n, k)*binomial(-x + n - k, 2*n), where E2 are the second-order Eulerian numbers A340556 and M(n) are the Minkowski numbers A053657. Triangle read by rows, T(n, k) for n >= 0 and 0 <= k <= 2*n+1.",
+  "description": "T(n, k) = [x^k] M(n)*Sum_{k=0..n} E2(n, k)*binomial(-x + n - k, 2*n), where E2 are the second-order Eulerian numbers A340556 and M(n) are the Minkowski numbers. Triangle read by rows, T(n, k) for n >= 0 and 0 <= k <= 2*n+1.",
   "id": "A341111",
   "mentions": [
     "A008517",

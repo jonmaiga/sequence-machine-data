@@ -1,0 +1,16 @@
+{
+  "description": "Numbers of the form p^2 - b^2 where p is prime and b > 0.",
+  "id": "A390794",
+  "mentions": [
+    "A005383",
+    "A355643"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

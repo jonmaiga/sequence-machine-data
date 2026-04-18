@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = n mod A117366(n), where A117366 gives the smallest prime greater than the largest prime dividing n.",
+  "id": "A392865",
+  "mentions": [
+    "A005940",
+    "A006530",
+    "A019565",
+    "A117366",
+    "A122111",
+    "A276076",
+    "A276086",
+    "A392866",
+    "A392870",
+    "A392871",
+    "A392872",
+    "A392874",
+    "A392875",
+    "A392876"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

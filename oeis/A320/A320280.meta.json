@@ -2,10 +2,12 @@
   "description": "Triangle T(n, k) = Sum_{i=1..n} Stirling2(n,i) * abs(Stirling1(i-1,k-1)), n >= 1, 1 <= k <= n.",
   "id": "A320280",
   "mentions": [
+    "A000629",
     "A008275",
     "A008277"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

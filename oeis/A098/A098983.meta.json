@@ -2,6 +2,7 @@
   "description": "Number of ways of writing n as a sum of a prime and a squarefree number.",
   "id": "A098983",
   "mentions": [
+    "A005596",
     "A008966",
     "A010051"
   ],

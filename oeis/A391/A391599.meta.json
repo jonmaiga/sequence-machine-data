@@ -1,0 +1,18 @@
+{
+  "description": "Minimum size of an intersecting family of n-sets such that every set of size at most n-1 is disjoint from at least one member of the family.",
+  "id": "A391599",
+  "mentions": [
+    "A051185"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

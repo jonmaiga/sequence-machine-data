@@ -1,0 +1,19 @@
+{
+  "description": "Odd solid numbers that are not odd primitive abundant numbers. A number k is solid if a subset of its sum-irreducible nontrivial divisors sums to k. Sum-irreducible divisors are defined in A392650.",
+  "id": "A392651",
+  "mentions": [
+    "A006038",
+    "A195101",
+    "A392649",
+    "A392650",
+    "A392652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

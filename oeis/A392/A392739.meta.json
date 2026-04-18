@@ -1,0 +1,25 @@
+{
+  "description": "3-smooth numbers k = s(i) such that s(i)/s(i+1) sets a record high, where s = A003586.",
+  "id": "A392739",
+  "mentions": [
+    "A003586",
+    "A005663",
+    "A005664",
+    "A006899",
+    "A028507",
+    "A085152",
+    "A138180",
+    "A186927",
+    "A392635",
+    "A392740"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

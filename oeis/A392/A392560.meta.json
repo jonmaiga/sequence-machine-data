@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = nextprime(P(n)+1) - P(n), where P(n) is the product of the first n triangular numbers and nextprime(i) is the smallest prime > i.",
+  "id": "A392560",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A005235",
+    "A006472"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

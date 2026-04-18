@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2 - 22/(5*sqrt(5)).",
+  "id": "A393802",
+  "mentions": [
+    "A002163",
+    "A020837",
+    "A393800",
+    "A393801"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

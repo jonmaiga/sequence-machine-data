@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to write n as x^2 + y + z with x >= 1 and y >= z >= 1 such that lcm(x^2,y,z) is a square.",
+  "id": "A391613",
+  "mentions": [
+    "A000290",
+    "A231635"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

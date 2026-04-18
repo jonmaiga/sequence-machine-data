@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: d/dx x*A(x) = 1+x + x*[d/dx log(A(x))].",
+  "description": "G.f. A(x) satisfies d/dx x*A(x) = 1+x + x*[d/dx log(A(x))].",
   "id": "A158884",
   "mentions": [
     "A088715",

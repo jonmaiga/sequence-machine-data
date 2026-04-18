@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1 / ((1-x)^3 - x^4)^2.",
+  "id": "A392587",
+  "mentions": [
+    "A107068",
+    "A292324",
+    "A392552",
+    "A392588",
+    "A392589"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

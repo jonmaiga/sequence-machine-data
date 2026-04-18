@@ -1,0 +1,18 @@
+{
+  "description": "5-smooth numbers k = s(i) such that s(i)/s(i+1) sets a record high, where s = A051037.",
+  "id": "A392740",
+  "mentions": [
+    "A051037",
+    "A085152",
+    "A392635",
+    "A392739"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

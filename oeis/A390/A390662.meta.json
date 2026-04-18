@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(2*n/7)} binomial(k+1,2*n-7*k).",
+  "id": "A390662",
+  "mentions": [
+    "A001906",
+    "A005251",
+    "A122514",
+    "A390020",
+    "A390688",
+    "A391399",
+    "A392250"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of maximum irredundant sets in the n-necklace graph.",
+  "id": "A393467",
+  "mentions": [
+    "A393349",
+    "A393463"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

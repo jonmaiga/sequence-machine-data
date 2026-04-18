@@ -1,17 +1,16 @@
 {
-  "description": "Number of permutations of A004001 sequence vectors:a(n)=Length[Permutations[Table[A004001[i], {i, 0, m}]]].",
+  "description": "a(n) is the number of permutations of the first n terms of the Hofstadter-Conway $10000 sequence (A004001).",
   "id": "A169636",
   "mentions": [
     "A004001"
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "joeis"
   }
 }

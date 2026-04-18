@@ -1,5 +1,5 @@
 {
-  "description": "128n^2 + 2336n + 10657.",
+  "description": "a(n) = 128n^2 + 2336n + 10657.",
   "id": "A157433",
   "mentions": [
     "A157431",

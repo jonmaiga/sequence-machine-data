@@ -1,0 +1,31 @@
+{
+  "description": "Smallest prime(n)-smooth k > primorial(n+1), where primorial = A002110.",
+  "id": "A394581",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A002473",
+    "A003586",
+    "A006530",
+    "A007947",
+    "A051037",
+    "A051038",
+    "A080197",
+    "A080681",
+    "A080682",
+    "A080683",
+    "A276939",
+    "A394580"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

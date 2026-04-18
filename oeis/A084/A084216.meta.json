@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest integer d such that a quadratic representation (2n+1)= x^2+ d*y^2 exists (x,y positive integers).",
+  "description": "a(n) = smallest integer d such that a quadratic representation 2n+1 = x^2 + d*y^2 exists (x,y positive integers).",
   "id": "A084216",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 98,
-    "source": "oeis-entry"
+    "size": 84,
+    "source": "oeis-bfile"
   }
 }

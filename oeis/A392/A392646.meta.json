@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of solutions of the equation (x^2 + y^2 + z^2)/(x*y-x*z+y*z) = A392201(n) such that x, y, z are in {1,..., A392201(n)}.",
+  "id": "A392646",
+  "mentions": [
+    "A392201"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "a(n) is the least r such that ord(n,r) >= (log_2(n))^2, where ord(n,r) is the multiplicative order of n modulo r.",
+  "id": "A394432",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

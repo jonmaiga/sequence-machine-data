@@ -1,0 +1,20 @@
+{
+  "description": "The smallest k >= 0 that can be represented as a linear combination of 1^3, 2^3, ..., n^3 with coefficients +-1 and that cannot be represented using 1^3, 2^3, ..., m^3 with 1<=m",
+  "id": "A392126",
+  "mentions": [
+    "A000537",
+    "A000578",
+    "A019568",
+    "A392025",
+    "A392127",
+    "A392346"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

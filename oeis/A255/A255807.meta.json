@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(Sum_{k>=1} k^2 * x^k).",
+  "description": "Expansion of e.g.f.: exp(Sum_{k>=1} k^2 * x^k).",
   "id": "A255807",
   "mentions": [
     "A000262",

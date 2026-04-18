@@ -1,13 +1,11 @@
 {
-  "description": "a(n) =29a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 29.",
+  "description": "a(n) = 29a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 29.",
   "id": "A090251",
   "mentions": [
-    "A007610",
     "A049310",
     "A053120",
     "A077428",
     "A078355",
-    "A083148",
     "A090248",
     "A097781",
     "A097782"

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n^n * denominator(hypergeom([1, -n], [], -1/(n + 1))).",
+  "id": "A394064",
+  "mentions": [
+    "A036505",
+    "A393141",
+    "A394063"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

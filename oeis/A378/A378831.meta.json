@@ -1,5 +1,5 @@
 {
-  "description": "The minimum number of diagonal lines required to cover all vertices created when the n outer vertices of a regular n-gon are connected by diagonal lines.",
+  "description": "Draw a regular n-gon and join every pair of boundary vertices by a chord, producing a planar graph with A007569(n) nodes; a(n) is the minimum number of chords needed to cover all A007569(n) nodes.",
   "id": "A378831",
   "mentions": [
     "A007569",

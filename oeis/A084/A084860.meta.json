@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1 - 2x + 2x^2 - x^3)/(1 - 2x)^2.",
+  "description": "Expansion of (1 - 2*x + 2*x^2 - x^3)/(1 - 2*x)^2.",
   "id": "A084860",
   "mentions": [
     "A026741",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
-    "source": "joeis"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

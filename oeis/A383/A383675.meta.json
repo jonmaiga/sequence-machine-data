@@ -2,7 +2,8 @@
   "description": "Number of n-digit terms in A157711.",
   "id": "A383675",
   "mentions": [
-    "A157711"
+    "A157711",
+    "A393531"
   ],
   "tags": [
     "base",

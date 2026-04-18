@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 - 1/p^2 + 2/p^3 - 4/p^4 + 2/p^5 + 2/p^6 - 4/p^7 + 2/p^8).",
+  "id": "A393109",
+  "mentions": [
+    "A059956",
+    "A222266",
+    "A306071",
+    "A393948"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

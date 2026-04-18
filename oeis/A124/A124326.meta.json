@@ -1,5 +1,5 @@
 {
-  "description": "T(n,m) = A007318(n,m) - A077028(n,m).",
+  "description": "Triangle read by rows: T(n,m) = A007318(n,m) - A077028(n,m) skipping zeros.",
   "id": "A124326",
   "mentions": [
     "A002663",
@@ -11,8 +11,7 @@
   "tags": [
     "formulas",
     "nonn",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "offset": 1,

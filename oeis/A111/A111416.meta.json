@@ -1,15 +1,18 @@
 {
-  "description": "f(f(n+1))-f(f(n)), where f(m) = m! = A000142(m).",
+  "description": "a(n) = f(f(n+1)) - f(f(n)), where f(m) = m! = A000142(m).",
   "id": "A111416",
   "mentions": [
-    "A000142"
+    "A000142",
+    "A000197"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 4,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

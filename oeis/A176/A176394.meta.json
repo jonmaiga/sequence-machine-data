@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 3+2*sqrt(3).",
   "id": "A176394",
   "mentions": [
+    "A001652",
     "A002194",
     "A010469",
     "A010696"

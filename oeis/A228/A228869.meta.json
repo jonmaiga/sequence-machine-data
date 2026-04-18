@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 2 * (1^n + 2^n + 3^n + ... + n^n) == 0 (mod n).",
+  "description": "Numbers k such that 2 * (1^k + 2^k + 3^k + ... + k^k) == 0 (mod k).",
   "id": "A228869",
   "mentions": [
     "A005408",
     "A124240",
     "A226872",
-    "A228870"
+    "A228870",
+    "A229307"
   ],
   "tags": [
     "nonn"

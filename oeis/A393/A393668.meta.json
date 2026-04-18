@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of log(sinh(Pi)/Pi).",
+  "id": "A393668",
+  "mentions": [
+    "A000796",
+    "A090986",
+    "A156648",
+    "A352527"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

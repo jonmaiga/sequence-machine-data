@@ -2,18 +2,21 @@
   "description": "a(n) is the number of n-gons in A000940 that are asymmetric.",
   "id": "A357602",
   "mentions": [
+    "A000939",
     "A000940",
+    "A002619",
     "A007619",
+    "A064852",
+    "A324513",
     "A342533"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

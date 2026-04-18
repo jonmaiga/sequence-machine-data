@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = A(x^2) - x*A(x^2)^3.",
+  "id": "A393196",
+  "mentions": [
+    "A374571"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

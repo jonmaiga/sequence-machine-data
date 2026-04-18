@@ -1,0 +1,19 @@
+{
+  "description": "Number of plane partitions of n with 6 parts.",
+  "id": "A391705",
+  "mentions": [
+    "A000219",
+    "A091298",
+    "A392995"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 42,
+    "source": "joeis"
+  }
+}

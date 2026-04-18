@@ -1,17 +1,16 @@
 {
-  "description": "Numbers n such that 2^n-1 is in A004782 but not in A081767.",
+  "description": "Numbers k such that 2^k-1 is in A004782 but not in A081767.",
   "id": "A260641",
   "mentions": [
     "A004782",
     "A081767"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 72,
+    "source": "oeis-bfile"
   }
 }

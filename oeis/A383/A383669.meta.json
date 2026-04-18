@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose binary representation has a positive number of 0s, all with odd runlength.",
+  "description": "Numbers whose binary representation has a positive number of 0's, all with odd runlength.",
   "id": "A383669",
   "mentions": [
     "A060142",

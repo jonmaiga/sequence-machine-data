@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (O(k)/k)^2, where O(k) = A350669(k)/A350670(k) is the k-th odd harmonic number (or harmonic number of the second kind).",
+  "id": "A393116",
+  "mentions": [
+    "A013662",
+    "A092425",
+    "A218505",
+    "A350669",
+    "A350670",
+    "A393115",
+    "A393117",
+    "A393118",
+    "A393119",
+    "A393120",
+    "A393143"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

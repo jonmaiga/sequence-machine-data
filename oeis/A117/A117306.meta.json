@@ -1,8 +1,15 @@
 {
-  "description": "Numbers n such that the counts of 0's, 1's and 2's are the same in the ternary expansion of 2^n.",
+  "description": "Numbers k such that the counts of 0's, 1's and 2's are the same in the ternary expansion of 2^k.",
   "id": "A117306",
-  "mentions": [],
+  "mentions": [
+    "A020915",
+    "A036461",
+    "A104320",
+    "A260683"
+  ],
   "tags": [
+    "base",
+    "more",
     "nonn"
   ],
   "terms": {

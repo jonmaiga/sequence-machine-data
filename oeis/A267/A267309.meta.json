@@ -1,5 +1,5 @@
 {
-  "description": "Number of discrete vectors with integral components and integral length <= n in a 3-dimensional vectorspace (Partial sums of A016725).",
+  "description": "Number of discrete vectors with integral components and integral length <= n in a 3-dimensional vector space (Partial sums of A016725).",
   "id": "A267309",
   "mentions": [
     "A005875",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

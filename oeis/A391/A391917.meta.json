@@ -2,7 +2,9 @@
   "description": "Number of irredundant sets in the n-double cone graph.",
   "id": "A391917",
   "mentions": [
-    "A290493"
+    "A290493",
+    "A290494",
+    "A392237"
   ],
   "tags": [
     "easy",
@@ -10,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 26,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
   }
 }

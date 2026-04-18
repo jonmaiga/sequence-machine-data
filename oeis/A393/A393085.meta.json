@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table T(n,k) where row n lists exponents m such that A001597(n) = r^m for some integer r.",
+  "id": "A393085",
+  "mentions": [
+    "A000005",
+    "A001597",
+    "A025479",
+    "A027750",
+    "A072814",
+    "A253642",
+    "A392986"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

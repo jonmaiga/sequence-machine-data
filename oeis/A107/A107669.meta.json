@@ -4,14 +4,17 @@
   "mentions": [
     "A107667",
     "A107668",
-    "A107670"
+    "A107670",
+    "A304396",
+    "A304397"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

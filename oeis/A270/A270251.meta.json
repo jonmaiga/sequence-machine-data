@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..2 arrays with some element plus some adjacent element totalling 2 exactly once.",
+  "description": "Number of n X n X n triangular 0..2 arrays with some element plus some adjacent element totalling 2 exactly once.",
   "id": "A270251",
   "mentions": [
     "A270256"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

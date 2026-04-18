@@ -1,16 +1,17 @@
 {
-  "description": "4^n-2^n+2.",
+  "description": "a(n) = 4^n - 2^n + 2.",
   "id": "A170939",
   "mentions": [
     "A134169"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

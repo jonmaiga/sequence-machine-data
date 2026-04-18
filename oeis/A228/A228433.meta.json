@@ -1,5 +1,5 @@
 {
-  "description": "Smallest starting abundant number for n consecutive abundant numbers in arithmetic progression.",
+  "description": "Smallest starting abundant number such that n consecutive abundant numbers are in arithmetic progression.",
   "id": "A228433",
   "mentions": [
     "A005101"

@@ -1,0 +1,26 @@
+{
+  "description": "Rectangular table, read by ascending antidiagonals, in which the n-th row o.g.f. R(n,x) satisfies: [x^m] exp( m*(m+1) * x*R(n,x)^n ) / R(n,x)^(m+1) = 0 for m >= 1, n >= 0.",
+  "id": "A393620",
+  "mentions": [
+    "A226775",
+    "A304320",
+    "A337458",
+    "A393621",
+    "A393622",
+    "A393623",
+    "A393624",
+    "A393625",
+    "A393626",
+    "A393627",
+    "A393628"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Ceiling of GAMMA(n+5/7)/GAMMA(5/7).",
+  "description": "Ceiling of Gamma(n+5/7)/Gamma(5/7).",
   "id": "A020120",
   "mentions": [
+    "A020030",
+    "A020075",
     "A220606"
   ],
   "tags": [
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Binomial transform of Chebyshev polynomial coefficients A001793.",
   "id": "A081278",
   "mentions": [
+    "A001792",
     "A001793",
     "A006234",
     "A007051",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

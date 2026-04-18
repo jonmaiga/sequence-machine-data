@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = (n+1)* 2^abs(n-1 - c*(c-1)) / 2, where c = ceiling(sqrt(n)).",
+  "description": "a(n) = (n+1) * 2^abs(n - 1 - c*(c-1)) / 2, where c = ceiling(sqrt(n)).",
   "id": "A387365",
   "mentions": [
     "A000124",
     "A053218",
     "A053615",
+    "A082693",
     "A152920",
     "A356888"
   ],
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 57,
+    "size": 60,
     "source": "oeis-bfile"
   }
 }

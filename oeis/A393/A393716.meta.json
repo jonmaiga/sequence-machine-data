@@ -1,0 +1,17 @@
+{
+  "description": "Iteration numbers k such that SHA256^{k}(256 bits of 0) is a record high value.",
+  "id": "A393716",
+  "mentions": [
+    "A392764",
+    "A393294"
+  ],
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

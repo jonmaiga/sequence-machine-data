@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 4*Pi*arccot(sqrt(phi)), where phi is the golden ratio (A001622).",
+  "id": "A392573",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A175288"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

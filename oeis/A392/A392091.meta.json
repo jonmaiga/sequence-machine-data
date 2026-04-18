@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n gives T(n,k) = Sum_{j=1..n} #{m <= j : A001222(m)=k} for k=1..floor(log_2(n)).",
+  "id": "A392091",
+  "mentions": [
+    "A001222",
+    "A046992",
+    "A072203",
+    "A380049"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 70,
+    "source": "joeis"
+  }
+}

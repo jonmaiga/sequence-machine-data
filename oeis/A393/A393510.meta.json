@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n having four times as many even parts as odd.",
+  "id": "A393510",
+  "mentions": [
+    "A045931",
+    "A239004",
+    "A393509",
+    "A393511"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

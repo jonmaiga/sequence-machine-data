@@ -1,0 +1,17 @@
+{
+  "description": "At square n in the black/red knights spiral discussed in A392177-A392179, suppose we have seen a total of Nb black knights and Nr red knights so far; then a(n) = Nb-Nr.",
+  "id": "A392180",
+  "mentions": [
+    "A392177",
+    "A392179"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

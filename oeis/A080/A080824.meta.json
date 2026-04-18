@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that T(n)=T(A072522(n))+T(A072522(n+1)), T(i) being the triangular numbers.",
+  "description": "Numbers k such that T(k) = T(A072522(k)) + T(A072522(k+1)), T(i) being the triangular numbers.",
   "id": "A080824",
   "mentions": [
     "A072522"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the average length of a chord in a unit cube defined by a point in the interior and a direction, both uniformly and independently chosen at random.",
+  "id": "A394919",
+  "mentions": [
+    "A348682",
+    "A348683",
+    "A394920"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

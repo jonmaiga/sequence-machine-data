@@ -1,0 +1,20 @@
+{
+  "description": "Number of totients below 2^n.",
+  "id": "A394380",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A221283",
+    "A264810",
+    "A394381"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

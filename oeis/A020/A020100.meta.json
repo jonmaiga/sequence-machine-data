@@ -1,13 +1,16 @@
 {
   "description": "Ceiling of Gamma(n + 5/11)/Gamma(5/11).",
   "id": "A020100",
-  "mentions": [],
+  "mentions": [
+    "A020010",
+    "A020055"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

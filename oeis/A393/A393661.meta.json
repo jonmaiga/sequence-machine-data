@@ -1,0 +1,19 @@
+{
+  "description": "A sequence appearing in the 3-Bratteli diagram, a(n)=3^(n-3)*(16*n-17), n>=3.",
+  "id": "A393661",
+  "mentions": [
+    "A391520",
+    "A393655",
+    "A393662"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 26,
+    "source": "joeis"
+  }
+}

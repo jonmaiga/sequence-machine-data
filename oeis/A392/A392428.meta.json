@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(2*n/3)} binomial(2*k,2*n-3*k).",
+  "id": "A392428",
+  "mentions": [
+    "A108479",
+    "A376729",
+    "A376730",
+    "A376731",
+    "A391594",
+    "A392429",
+    "A392430"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

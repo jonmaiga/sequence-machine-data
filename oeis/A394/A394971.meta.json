@@ -1,0 +1,17 @@
+{
+  "description": "Number of species of order n that contain row-Hamiltonian Latin squares.",
+  "id": "A394971",
+  "mentions": [
+    "A120489",
+    "A394970"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Number of distinct descendants of [1] in the n-th degree, where a list L has two children: L with a 1 appended; L + (L reversed).",
+  "id": "A392287",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,16 +1,17 @@
 {
-  "description": "A polynomial coefficient sequence:p(x,n,m)=(1 + 4*Binomial[n, m]*x)^n.",
+  "description": "Triangle read by rows: T(n,k) = (1 + 4*binomial(n, k))^n.",
   "id": "A176160",
-  "mentions": [],
+  "mentions": [
+    "A000351"
+  ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 36,
+    "source": "joeis"
   }
 }

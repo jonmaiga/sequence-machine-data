@@ -1,5 +1,5 @@
 {
-  "description": "Powers of 19.",
+  "description": "Powers of 19: a(n) = 19^n.",
   "id": "A001029",
   "mentions": [
     "A000051",

@@ -1,7 +1,8 @@
 {
-  "description": "Positive integers n such that (n+4)^3 - n^3 is a square.",
+  "description": "Positive integers m such that (m+4)^3 - m^3 is a square.",
   "id": "A263942",
   "mentions": [
+    "A001353",
     "A263943",
     "A263944",
     "A263945",

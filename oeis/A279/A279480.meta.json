@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+1 and n^4+1 are primes.",
+  "description": "Numbers k such that k+1 and k^4+1 are primes.",
   "id": "A279480",
   "mentions": [
     "A070689"

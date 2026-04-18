@@ -1,0 +1,42 @@
+{
+  "description": "Decimal expansion of the smallest positive zero of the Hermite polynomial of degree 4.",
+  "id": "A393353",
+  "mentions": [
+    "A010503",
+    "A019704",
+    "A019708",
+    "A019717",
+    "A060821",
+    "A115754",
+    "A245887",
+    "A393354",
+    "A393355",
+    "A393357",
+    "A393358",
+    "A393360",
+    "A393361",
+    "A393362",
+    "A393363",
+    "A393364",
+    "A393365",
+    "A393366",
+    "A393367",
+    "A393368",
+    "A393369",
+    "A393370",
+    "A393371",
+    "A393372",
+    "A393373",
+    "A393374"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

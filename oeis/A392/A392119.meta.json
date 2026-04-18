@@ -1,0 +1,20 @@
+{
+  "description": "Indices of the lower Wythoff partition sequence of the primes; see A392117.",
+  "id": "A392119",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A392117",
+    "A392118",
+    "A392121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

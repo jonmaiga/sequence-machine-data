@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that there is a primitive Pythagorean triple with perimeter k and inradius r such that k + r^j is prime for j = 1..n but not for j = n+1.",
+  "id": "A392948",
+  "mentions": [
+    "A390249"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

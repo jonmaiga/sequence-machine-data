@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of prime-to-prime deletion paths from prime(n) to a one-digit prime, where at each step exactly one decimal digit is removed and the resulting number, interpreted without leading zeros, is prime.",
+  "id": "A392157",
+  "mentions": [
+    "A000040",
+    "A118950",
+    "A392156"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

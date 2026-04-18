@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer k such that there are exactly n positive integers m where m^2 - k^2 is an anagram of k^2.",
+  "id": "A394502",
+  "mentions": [
+    "A393978",
+    "A393998",
+    "A394001"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

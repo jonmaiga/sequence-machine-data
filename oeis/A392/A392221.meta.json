@@ -1,0 +1,22 @@
+{
+  "description": "Sum of depths of leaves in a complete binary tree with n nodes.",
+  "id": "A392221",
+  "mentions": [
+    "A000523",
+    "A003314",
+    "A061168",
+    "A070941",
+    "A123753",
+    "A390616"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

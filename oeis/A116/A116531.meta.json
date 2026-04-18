@@ -1,7 +1,8 @@
 {
-  "description": "Number of letters in common in the English names for the numbers n and n+1.",
+  "description": "Number of letters in common in the US English names for the numbers n and n+1.",
   "id": "A116531",
   "mentions": [
+    "A005589",
     "A109382"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 103,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (2*n)! * [x^k] [y^n] (1 + u*sinh(u)/2) where u = sqrt(2*x*(cosh(y^(1/2)) - 1)).",
+  "id": "A394823",
+  "mentions": [
+    "A020988",
+    "A108678",
+    "A394813",
+    "A394822"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

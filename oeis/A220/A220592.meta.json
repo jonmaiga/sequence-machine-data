@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to reciprocally link elements of an nX4 array either to themselves or to exactly two king-move neighbors.",
+  "description": "Number of ways to reciprocally link elements of an n X 4 array either to themselves or to exactly two king-move neighbors.",
   "id": "A220592",
   "mentions": [
     "A220595"

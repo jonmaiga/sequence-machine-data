@@ -1,8 +1,11 @@
 {
-  "description": "a(n) = Floor[Sqrt[Prime[n]*PrimePi[n]]].",
+  "description": "a(n) = floor(sqrt(prime(n)*primepi(n))).",
   "id": "A089175",
-  "mentions": [],
+  "mentions": [
+    "A128930"
+  ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "10*11^n+1.",
+  "description": "a(n) = 10*11^n+1.",
   "id": "A199764",
   "mentions": [],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Emirps in A157711.",
+  "id": "A393530",
+  "mentions": [
+    "A006567",
+    "A157711",
+    "A393531"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

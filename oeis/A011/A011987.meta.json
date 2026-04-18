@@ -1,11 +1,12 @@
 {
-  "description": "Covering numbers C(n,6,5) (next term is <= 100).",
+  "description": "Covering numbers C(n,6,5).",
   "id": "A011987",
   "mentions": [
     "A066010"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

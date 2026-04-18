@@ -1,0 +1,16 @@
+{
+  "description": "Denominators in the expansion of g.f. x^2/(x - log(1 + x)).",
+  "id": "A392799",
+  "mentions": [
+    "A392798"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "Number of distinct prime factors of the odd Catalan numbers A038003(n).",
+  "description": "Number of distinct prime factors of the n-th odd Catalan number, A038003(n).",
   "id": "A119861",
   "mentions": [
     "A000108",
+    "A001221",
     "A038003",
+    "A080405",
     "A094389",
     "A119908",
     "A120274",
@@ -11,6 +13,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

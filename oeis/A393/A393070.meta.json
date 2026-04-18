@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A276086(k) <= A003959(k).",
+  "id": "A393070",
+  "mentions": [
+    "A003959",
+    "A276086",
+    "A351226",
+    "A351228",
+    "A351229",
+    "A369970",
+    "A392602",
+    "A393040"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 6/Pi.",
   "id": "A132696",
   "mentions": [
+    "A006352",
     "A049541",
     "A059956",
     "A060294",

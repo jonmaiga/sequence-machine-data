@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. z*(2*(exp(z) + 1)/(cosh(z) + cos(z)) - 1).",
+  "description": "Expansion of e.g.f. z*(2*(exp(z) + 1)/(cosh(z) + cos(z)) - 1).",
   "id": "A281588",
   "mentions": [
     "A281587"

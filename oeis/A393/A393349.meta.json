@@ -1,0 +1,17 @@
+{
+  "description": "Number of irredundant sets in the n-necklace graph.",
+  "id": "A393349",
+  "mentions": [
+    "A392478"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

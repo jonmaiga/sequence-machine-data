@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the Mahler measure of polynomial x^6+x^5+x^4-x^3-x^2+x-1.",
+  "id": "A392802",
+  "mentions": [
+    "A390906",
+    "A392808"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

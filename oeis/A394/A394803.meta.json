@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least prime number of the form A392155(k) + ... + A392155(n) for some k in 1..n.",
+  "id": "A394803",
+  "mentions": [
+    "A392155"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

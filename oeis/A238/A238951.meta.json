@@ -1,10 +1,11 @@
 {
-  "description": "The number of arcs from odd to even level vertices in divisor lattice D(n).",
+  "description": "Number of arcs from odd to even level vertices in divisor lattice D(n).",
   "id": "A238951",
   "mentions": [
     "A001221",
     "A056924",
     "A062799",
+    "A065043",
     "A238950",
     "A358769"
   ],

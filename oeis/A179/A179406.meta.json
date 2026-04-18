@@ -1,5 +1,5 @@
 {
-  "description": "Record minima of the positive distance d between the fifth power of a positive integer x and the square of an integer y such that d = x^5 - y^2 (x != k^2 and y != k^5).",
+  "description": "Conjectured records d such that for all nonsquare x > A179407(n), all positive differences x^5-y^2 exceed d.",
   "id": "A179406",
   "mentions": [
     "A179107",
@@ -12,12 +12,11 @@
     "A179408"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

@@ -1,10 +1,12 @@
 {
-  "description": "Numbers of the form p^2-q^2 with p > q prime.",
+  "description": "Numbers of the form p^2 - q^2 with p > q prime.",
   "id": "A124865",
   "mentions": [
+    "A001248",
     "A045636",
     "A124866",
-    "A177713"
+    "A177713",
+    "A394631"
   ],
   "tags": [
     "formulas",

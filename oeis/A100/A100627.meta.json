@@ -1,8 +1,12 @@
 {
-  "description": "3^(2p + 1) where p is prime.",
+  "description": "a(n) = 3^(2*prime(n) + 1).",
   "id": "A100627",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A072055"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

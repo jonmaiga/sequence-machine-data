@@ -2,7 +2,8 @@
   "description": "Number of profiles in domino tiling of a 2*n checkboard.",
   "id": "A218073",
   "mentions": [
-    "A005430"
+    "A005430",
+    "A006752"
   ],
   "tags": [
     "formulas",

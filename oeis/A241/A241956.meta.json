@@ -1,5 +1,5 @@
 {
-  "description": "Number of inequivalent m X n binary matrices, where equivalence means permutations of rows or columns. Presented in diagonal order, with (m,n)=(1,1), (1,2), (2,1), (1,3), (2,2), (3,1), ... .",
+  "description": "Number of inequivalent m X n binary matrices, where equivalence means permutations of rows or columns. Presented in diagonal order, with (m,n) = (1,1), (1,2), (2,1), (1,3), (2,2), (3,1), ... .",
   "id": "A241956",
   "mentions": [
     "A002724",

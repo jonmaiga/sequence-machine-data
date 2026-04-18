@@ -2,6 +2,7 @@
   "description": "a(0) = 0, a(1) = 2, a(n) = 2*n + 1 for n >= 2.",
   "id": "A130773",
   "mentions": [
+    "A062545",
     "A140139"
   ],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered pairs of positive integers (a,b) with a < b such that b^2 - a^2 <= n.",
+  "id": "A394687",
+  "mentions": [
+    "A100073"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

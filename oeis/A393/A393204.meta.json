@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n matrices over GF(2) such that the row space is equal to the column space.",
+  "id": "A393204",
+  "mentions": [
+    "A002884",
+    "A022166"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

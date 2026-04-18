@@ -1,0 +1,15 @@
+{
+  "description": "Number of induced cubes in the n-Menger sponge graph.",
+  "id": "A394272",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

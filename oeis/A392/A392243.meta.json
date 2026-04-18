@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=1..n} i*(-1)^ceiling(sqrt(i)).",
+  "id": "A392243",
+  "mentions": [
+    "A000196",
+    "A000217",
+    "A000290",
+    "A000578",
+    "A053186",
+    "A392677"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

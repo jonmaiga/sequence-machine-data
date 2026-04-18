@@ -1,0 +1,16 @@
+{
+  "description": "Number of Hamiltonian paths from vertex (1, 1) to (3, 2*n+2) on the product graph C_4 X P_{2*n+2}, using (row, column) numbering.",
+  "id": "A390791",
+  "mentions": [
+    "A003752"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to write n as x + y + z with x >= y >= z >= 1 such that lcm(x,y,z) is a product of three consecutive integers.",
+  "id": "A392684",
+  "mentions": [
+    "A007531",
+    "A231635"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

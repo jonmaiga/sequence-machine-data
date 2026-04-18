@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (n! / k!) * [x^n] ( (2*sinh(x/2))^k * (exp(x/2))^(k mod 2) ).",
+  "id": "A395021",
+  "mentions": [
+    "A008957",
+    "A394582",
+    "A394813",
+    "A395022"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of planar subpartitions of size n pyramidal planar partition.",
+  "description": "Number of planar subpartitions of the size n pyramidal planar partition.",
   "id": "A115965",
   "mentions": [
     "A000108",
@@ -9,12 +9,11 @@
     "A115729"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Composite numbers k such that the Chebyshev distance from 1 to k in the square spiral is a prime number.",
+  "id": "A392353",
+  "mentions": [
+    "A392219"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

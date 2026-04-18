@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the result of swapping the 4th digit and the digit 3 positions from the last digit is prime.",
+  "description": "Numbers k such that the result of swapping the 4th digit and the digit 3 positions from the last digit is prime.",
   "id": "A111349",
   "mentions": [
     "A095179",

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i * 8^j)).",
+  "id": "A393565",
+  "mentions": [
+    "A000041",
+    "A174065",
+    "A280663",
+    "A327726",
+    "A373219",
+    "A373220",
+    "A373221"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 / ((1-x)^4 - x^5).",
+  "id": "A390044",
+  "mentions": [
+    "A000749",
+    "A369794",
+    "A390045"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

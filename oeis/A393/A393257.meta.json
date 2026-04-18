@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi*G, where G is Catalan's constant (A006752).",
+  "id": "A393257",
+  "mentions": [
+    "A000796",
+    "A006752",
+    "A143233"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

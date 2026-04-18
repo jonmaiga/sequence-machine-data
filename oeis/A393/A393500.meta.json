@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the average dimensionless pairwise Manhattan distance between all points in a city of optimum shape, i.e., minimizing this distance.",
+  "id": "A393500",
+  "mentions": [
+    "A091505",
+    "A193452"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

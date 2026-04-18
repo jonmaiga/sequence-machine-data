@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of unit squares in the square lattice, divided by 4, that have at least one vertex strictly inside and at least one vertex strictly outside the circle x^2 + y^2 = n.",
+  "id": "A393562",
+  "mentions": [
+    "A004018",
+    "A014200",
+    "A057655",
+    "A393563",
+    "A393699",
+    "A393700"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

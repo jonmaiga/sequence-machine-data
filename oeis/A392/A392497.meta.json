@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest p-rigid number where p = prime(n).",
+  "id": "A392497",
+  "mentions": [
+    "A392495",
+    "A392496",
+    "A392499"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

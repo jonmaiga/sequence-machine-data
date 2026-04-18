@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer compositions of n that are the first sums of more than one composition.",
+  "id": "A391628",
+  "mentions": [
+    "A008965",
+    "A011782",
+    "A022340",
+    "A066099",
+    "A070211",
+    "A342527",
+    "A357213",
+    "A390432",
+    "A390446",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390745",
+    "A391235",
+    "A391621",
+    "A391623",
+    "A391627",
+    "A391642",
+    "A391644",
+    "A391680",
+    "A391682",
+    "A391683",
+    "A391983"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

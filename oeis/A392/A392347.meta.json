@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A000005(k) = A000005(k/d + d) for some d.",
+  "id": "A392347",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A161904",
+    "A391496"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

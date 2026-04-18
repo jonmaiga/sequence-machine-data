@@ -1,0 +1,19 @@
+{
+  "description": "Group the partitions of n into 3 parts into sets whose smallest parts are equal. a(n) is the sum of the minimum values of all the largest parts in each set.",
+  "id": "A393095",
+  "mentions": [
+    "A069905",
+    "A211546",
+    "A393093"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

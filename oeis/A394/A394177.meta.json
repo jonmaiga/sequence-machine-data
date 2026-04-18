@@ -1,0 +1,18 @@
+{
+  "description": "Odd k such that there are exactly 2 bases 1 <= b <= k-1 in which k is a strong pseudoprime.",
+  "id": "A394177",
+  "mentions": [
+    "A071294",
+    "A329759",
+    "A394182"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

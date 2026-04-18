@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*n*3^n - 1 is prime.",
+  "description": "Numbers k such that 2*k*3^k - 1 is prime.",
   "id": "A271956",
   "mentions": [
     "A006553",

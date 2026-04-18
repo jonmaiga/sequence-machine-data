@@ -1,0 +1,15 @@
+{
+  "description": "A sequence constructed by greedily sampling the discrete probability distribution p(k)=zeta(k+1)-1 to minimize discrepancy.",
+  "id": "A393793",
+  "mentions": [
+    "A393663"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

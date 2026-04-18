@@ -1,0 +1,28 @@
+{
+  "description": "Biquadratefree numbers that are neither cubefree nor squareful.",
+  "id": "A390128",
+  "mentions": [
+    "A013929",
+    "A024619",
+    "A046099",
+    "A046100",
+    "A052485",
+    "A126706",
+    "A332785",
+    "A360793",
+    "A362148",
+    "A375076",
+    "A391319",
+    "A391497",
+    "A392360"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Discriminants of imaginary quadratic fields with class number 23 (negated).",
   "id": "A046020",
   "mentions": [
+    "A002145",
     "A006203",
     "A013658",
     "A014602",

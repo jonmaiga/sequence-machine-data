@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/(k*sinh(k*Pi))^2.",
+  "id": "A394963",
+  "mentions": [
+    "A006752",
+    "A334401",
+    "A360167"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

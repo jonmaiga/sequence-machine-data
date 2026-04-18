@@ -2,6 +2,7 @@
   "description": "Numbers of form 7^k (values of k see A050728) containing no pair of consecutive equal digits (probably finite).",
   "id": "A050737",
   "mentions": [
+    "A000420",
     "A043096",
     "A050728"
   ],

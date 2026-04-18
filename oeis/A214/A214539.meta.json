@@ -1,10 +1,11 @@
 {
-  "description": "Number of nXnXn triangular 0..7 arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors, and every horizontal row having the same average value.",
+  "description": "Number of n X n X n triangular 0..7 arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors, and every horizontal row having the same average value.",
   "id": "A214539",
   "mentions": [
     "A214540"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

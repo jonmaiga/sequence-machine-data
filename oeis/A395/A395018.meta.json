@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the mode of the distribution of distances between two points in the interior of a unit cube.",
+  "id": "A395018",
+  "mentions": [
+    "A073012",
+    "A394605",
+    "A394607",
+    "A395016",
+    "A395017",
+    "A395019"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that ((1+I)^n+1)/(2+I) is a Gaussian prime.",
+  "description": "Numbers k such that ((1+I)^k+1)/(2+I) is a Gaussian prime.",
   "id": "A124112",
   "mentions": [
     "A124165",

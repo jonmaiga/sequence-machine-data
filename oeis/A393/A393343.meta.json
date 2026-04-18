@@ -1,0 +1,21 @@
+{
+  "description": "Number of Cayley permutations of size n avoiding 132 and 213.",
+  "id": "A393343",
+  "mentions": [
+    "A001353",
+    "A007583",
+    "A099087",
+    "A393341",
+    "A393344"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

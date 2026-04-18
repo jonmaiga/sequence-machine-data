@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 3 - 24/Pi^2.",
+  "id": "A394812",
+  "mentions": [
+    "A222171",
+    "A242780",
+    "A394808",
+    "A394809",
+    "A394810",
+    "A394811"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

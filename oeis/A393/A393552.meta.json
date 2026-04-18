@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct line sets in an n-gon connecting vertices and midpoints, disallowing same-edge connections, up to rotations and reflections.",
+  "id": "A393552",
+  "mentions": [
+    "A191563"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

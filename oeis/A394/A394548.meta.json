@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the negated value of Sum_{n>=1} cos(n)/n^(2/3).",
+  "id": "A394548",
+  "mentions": [
+    "A121225",
+    "A122143",
+    "A263192",
+    "A394547"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

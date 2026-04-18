@@ -1,14 +1,15 @@
 {
-  "description": "Coefficients of polynomial expansion of Golay C_12 enumeration Polynomial: p(x)=24 + 440*x^3 + 264*x^6 + x^12; q(x)=x^12*p(1/x).",
+  "description": "Expansion of 1/q(x) where q(x)=x^12*p(1/x) and p(x)=24 + 440*x^3 + 264*x^6 + x^12.",
   "id": "A157828",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

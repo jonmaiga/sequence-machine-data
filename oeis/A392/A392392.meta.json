@@ -1,0 +1,21 @@
+{
+  "description": "Number of free polyquarcs with n cells.",
+  "id": "A392392",
+  "mentions": [
+    "A187210",
+    "A187220",
+    "A392389",
+    "A392393",
+    "A392394",
+    "A393000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

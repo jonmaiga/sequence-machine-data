@@ -1,5 +1,5 @@
 {
-  "description": "Number of line segments in regular n-gon with all diagonals drawn.",
+  "description": "Number of line segments (or edges) in regular n-gon with all diagonals drawn.",
   "id": "A135565",
   "mentions": [
     "A001006",

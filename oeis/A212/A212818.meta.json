@@ -1,5 +1,5 @@
 {
-  "description": "Numbers up to 10^n with an even number of not necessarily distinct prime factors, or positive Liouville function.",
+  "description": "Number of numbers up to 10^n with an even number of not necessarily distinct prime factors, or positive Liouville function.",
   "id": "A212818",
   "mentions": [
     "A002819",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

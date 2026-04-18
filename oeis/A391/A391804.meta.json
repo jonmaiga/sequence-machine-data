@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least prime greater than prime(n)*prime(n+1).",
+  "id": "A391804",
+  "mentions": [
+    "A000040",
+    "A006094",
+    "A151800",
+    "A391805"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers expressible as a difference of two nonzero rational fourth powers.",
+  "id": "A393616",
+  "mentions": [
+    "A003336",
+    "A060387",
+    "A147857",
+    "A152044",
+    "A393617"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

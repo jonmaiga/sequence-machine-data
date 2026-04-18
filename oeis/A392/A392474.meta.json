@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the largest parts in the partitions of n into 3 parts whose smallest part is even.",
+  "id": "A392474",
+  "mentions": [
+    "A309685",
+    "A309686",
+    "A393408"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

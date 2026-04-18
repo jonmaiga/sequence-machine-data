@@ -2,15 +2,24 @@
   "description": "Numbers whose prime multiplicities are pairwise indivisible.",
   "id": "A317101",
   "mentions": [
+    "A000961",
+    "A005117",
+    "A052486",
+    "A072774",
     "A118914",
     "A124010",
     "A285572",
     "A285573",
     "A303362",
+    "A303554",
+    "A303606",
     "A304713",
     "A316475",
     "A317102",
-    "A317616"
+    "A317616",
+    "A332785",
+    "A386762",
+    "A390055"
   ],
   "tags": [
     "nonn"
@@ -18,6 +27,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

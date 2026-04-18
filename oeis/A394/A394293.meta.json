@@ -1,0 +1,14 @@
+{
+  "description": "Number of induced cubes in the n X n white bishop graph.",
+  "id": "A394293",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

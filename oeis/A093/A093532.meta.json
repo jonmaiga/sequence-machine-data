@@ -8,12 +8,11 @@
   ],
   "tags": [
     "frac",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

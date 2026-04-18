@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that the reversal of p^2 is the square of a prime not equal to p nor the reversal of p.",
+  "id": "A394382",
+  "mentions": [
+    "A393520"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

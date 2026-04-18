@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed polyquarcs with n cells.",
+  "id": "A392394",
+  "mentions": [
+    "A392391",
+    "A392392",
+    "A392393",
+    "A393002"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

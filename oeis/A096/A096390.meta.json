@@ -2,7 +2,8 @@
   "description": "Maximal determinant of an n X n persymmetric matrix with entries from {0,1}.",
   "id": "A096390",
   "mentions": [
-    "A034918"
+    "A034918",
+    "A390669"
   ],
   "tags": [
     "hard",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

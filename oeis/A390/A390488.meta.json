@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct parts where each part is at most the sum of the previous two.",
+  "id": "A390488",
+  "mentions": [
+    "A000009",
+    "A000045",
+    "A000837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

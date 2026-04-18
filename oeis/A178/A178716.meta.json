@@ -1,12 +1,14 @@
 {
-  "description": "a(n) = smallest prime whose sum of digits is A001651(n).",
+  "description": "a(n) = least prime whose sum of digits is A001651(n+1)^3, the n-th cube > 1 not a multiple of 3.",
   "id": "A178716",
   "mentions": [
     "A001651",
-    "A061105"
+    "A061105",
+    "A067180"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

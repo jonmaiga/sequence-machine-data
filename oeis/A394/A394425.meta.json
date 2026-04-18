@@ -1,0 +1,25 @@
+{
+  "description": "The number of exponential divisors of the biquadratefree numbers.",
+  "id": "A394425",
+  "mentions": [
+    "A013662",
+    "A046100",
+    "A049419",
+    "A278908",
+    "A307848",
+    "A322791",
+    "A323308",
+    "A382419",
+    "A382422"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

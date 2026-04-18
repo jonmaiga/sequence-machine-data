@@ -1,5 +1,5 @@
 {
-  "description": "n + 1 - d(n), where d(n) is the number of divisors function.",
+  "description": "a(n) = n + 1 - d(n), where d(n) is the number of divisors function.",
   "id": "A062968",
   "mentions": [
     "A000005",
@@ -8,6 +8,7 @@
     "A070824"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

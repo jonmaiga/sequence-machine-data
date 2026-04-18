@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that 4^n - n is prime.",
+  "description": "Numbers k such that 4^k - k is prime.",
   "id": "A057908",
   "mentions": [],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

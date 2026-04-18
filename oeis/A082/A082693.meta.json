@@ -2,8 +2,12 @@
   "description": "Pyramidal sequence built with powers of 2.",
   "id": "A082693",
   "mentions": [
+    "A000079",
     "A004738",
-    "A036563"
+    "A036563",
+    "A059268",
+    "A082694",
+    "A130321"
   ],
   "tags": [
     "easy",
@@ -11,8 +15,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 84,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

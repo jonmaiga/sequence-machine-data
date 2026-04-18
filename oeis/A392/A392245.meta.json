@@ -1,0 +1,19 @@
+{
+  "description": "Number computed by Wolfram's 2-state 2-symbol Turing machine 1285 when started with n on the tape.",
+  "id": "A392245",
+  "mentions": [
+    "A393103",
+    "A393106",
+    "A393146"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

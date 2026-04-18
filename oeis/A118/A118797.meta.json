@@ -2,7 +2,10 @@
   "description": "Number of cells in smallest polyomino with n holes.",
   "id": "A118797",
   "mentions": [
-    "A168339"
+    "A060919",
+    "A168339",
+    "A183859",
+    "A239072"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,23 @@
+{
+  "description": "Number of endofunctions f:{1,2,...,n}-> {1,2,...,n} whose smallest weakly connected component has exactly 2 nodes.",
+  "id": "A394928",
+  "mentions": [
+    "A000169",
+    "A001147",
+    "A001865",
+    "A069856",
+    "A347999",
+    "A350134",
+    "A362278"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

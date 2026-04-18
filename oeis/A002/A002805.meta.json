@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of harmonic numbers H(n) = Sum_{i=1..n} 1/i.",
+  "description": "a(n) = denominator of harmonic number H(n) = Sum_{i=1..n} 1/i.",
   "id": "A002805",
   "mentions": [
     "A000254",

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = log_2(A392280(n)).",
+  "id": "A392281",
+  "mentions": [
+    "A007814",
+    "A029837",
+    "A051903",
+    "A356194",
+    "A369934",
+    "A374328",
+    "A383104",
+    "A392280"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

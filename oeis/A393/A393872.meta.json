@@ -1,0 +1,24 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n^7*x - n^2*A(x) ) = 0 for n >= 1.",
+  "id": "A393872",
+  "mentions": [
+    "A317346",
+    "A319942",
+    "A393852",
+    "A393862",
+    "A393871",
+    "A393873",
+    "A393874",
+    "A393875",
+    "A393876",
+    "A393882"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

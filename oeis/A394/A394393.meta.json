@@ -1,0 +1,19 @@
+{
+  "description": "Number of free polyominoes with n cells such that pairs of cell centers determine the largest possible number (A393993(n)) of distinct slopes of lines.",
+  "id": "A394393",
+  "mentions": [
+    "A000105",
+    "A393993",
+    "A394392",
+    "A394395"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

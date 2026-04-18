@@ -1,8 +1,9 @@
 {
-  "description": "Odd composite numbers n such that n-2 and n+2 are also composite.",
+  "description": "Odd composite numbers k such that k-2 and k+2 are also composite.",
   "id": "A099019",
   "mentions": [
-    "A007921"
+    "A007921",
+    "A161945"
   ],
   "tags": [
     "nonn"

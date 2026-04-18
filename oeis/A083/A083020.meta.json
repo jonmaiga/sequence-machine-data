@@ -1,14 +1,15 @@
 {
-  "description": "Prime factors of 3^(3^n) + 2.",
+  "description": "Irregular triangle read by row of the prime factors of 3^(3^n) + 2.",
   "id": "A083020",
   "mentions": [],
   "tags": [
     "easy",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

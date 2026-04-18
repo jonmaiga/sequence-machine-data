@@ -1,0 +1,15 @@
+{
+  "description": "Halting time for Wolfram's 2-state 2-symbol Turing machine 2977 when started with n on the tape.",
+  "id": "A393308",
+  "mentions": [
+    "A393307"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,11 @@
 {
-  "description": "Numbers n such that there exists a smaller number k such that k^2-1 has exactly the same set of distinct prime divisors as n^2-1.",
+  "description": "Numbers k such that there exists a smaller number j such that j^2-1 has exactly the same set of distinct prime divisors as k^2-1.",
   "id": "A175901",
   "mentions": [
+    "A001570",
+    "A001653",
+    "A002315",
+    "A028230",
     "A175902"
   ],
   "tags": [
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

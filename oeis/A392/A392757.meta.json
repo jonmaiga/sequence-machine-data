@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k!*m! + 1, with k <= m.",
+  "id": "A392757",
+  "mentions": [
+    "A051739",
+    "A062591",
+    "A062698",
+    "A088332"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

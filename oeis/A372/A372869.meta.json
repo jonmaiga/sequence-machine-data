@@ -2,10 +2,13 @@
   "description": "Decimal expansion of the number whose continued fraction coefficients are given in A084580.",
   "id": "A372869",
   "mentions": [
-    "A084580"
+    "A084580",
+    "A390651",
+    "A390652"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n^2/4) appears 1+floor(n/2) times.",
+  "description": "Floor(k^2/4) appears 1+floor(k/2) times.",
   "id": "A206224",
   "mentions": [
     "A000267",
@@ -7,6 +7,7 @@
     "A055086"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m such that 2^(k*(k-1)/2) (k = 1..n) are pairwise incongruent modulo m.",
+  "id": "A392732",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000217",
+    "A208643",
+    "A392775"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

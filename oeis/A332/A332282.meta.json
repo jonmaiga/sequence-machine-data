@@ -2,10 +2,12 @@
   "description": "Numbers whose unsorted prime signature is not unimodal.",
   "id": "A332282",
   "mentions": [
+    "A000977",
     "A001523",
     "A007052",
     "A056239",
     "A059204",
+    "A059404",
     "A112798",
     "A115981",
     "A124010",
@@ -26,6 +28,6 @@
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

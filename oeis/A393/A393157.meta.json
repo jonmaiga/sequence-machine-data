@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive number m such that A000538(m) is divisible by n.",
+  "id": "A393157",
+  "mentions": [
+    "A000538",
+    "A011772",
+    "A383075",
+    "A383972"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

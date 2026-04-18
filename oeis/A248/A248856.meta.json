@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + pi(n) is a power of 10.",
+  "description": "Numbers k such that k + pi(k) is a power of 10.",
   "id": "A248856",
   "mentions": [
     "A000720",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

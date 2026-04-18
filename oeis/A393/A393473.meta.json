@@ -1,0 +1,19 @@
+{
+  "description": "Consider the square spiral in the first quadrant, as in A393433, and look at the trajectory of a knight, starting at square n, and always moving to the smallest unvisited square. Sequence gives the total length of the trajectory.",
+  "id": "A393473",
+  "mentions": [
+    "A307422",
+    "A316328",
+    "A316588",
+    "A393433",
+    "A393472"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

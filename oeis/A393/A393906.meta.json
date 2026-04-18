@@ -1,0 +1,16 @@
+{
+  "description": "Equivalence classes of clusters of n connected lozenges in the triangular grid.",
+  "id": "A393906",
+  "mentions": [
+    "A056845"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

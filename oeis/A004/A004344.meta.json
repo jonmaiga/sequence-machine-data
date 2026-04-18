@@ -2,6 +2,7 @@
   "description": "Binomial coefficient C(5n+10,n).",
   "id": "A004344",
   "mentions": [
+    "A004343",
     "A233738"
   ],
   "tags": [

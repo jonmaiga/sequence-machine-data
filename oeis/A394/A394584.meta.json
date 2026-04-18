@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the shape parameter that leads to the same mean and median of the Weibull distribution.",
+  "id": "A394584",
+  "mentions": [
+    "A244009",
+    "A394585",
+    "A394586",
+    "A394587",
+    "A394588"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

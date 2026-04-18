@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k in A393065 such that k+1 is also in A393065.",
+  "id": "A393066",
+  "mentions": [
+    "A393064",
+    "A393065"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

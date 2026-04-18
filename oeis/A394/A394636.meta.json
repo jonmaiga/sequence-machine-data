@@ -1,0 +1,22 @@
+{
+  "description": "Start of exactly two even numbers that are totient numbers (A002202).",
+  "id": "A394636",
+  "mentions": [
+    "A002202",
+    "A333019",
+    "A393544",
+    "A394635",
+    "A394637",
+    "A394638",
+    "A394639",
+    "A394640"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

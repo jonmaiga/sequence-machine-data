@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that p + e divides k for every prime power p^e in the canonical prime factorization of k.",
+  "id": "A392819",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A005117",
+    "A033950",
+    "A259417",
+    "A390229"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

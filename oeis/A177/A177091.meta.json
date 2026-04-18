@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4-n-1 is not prime.",
+  "description": "Numbers k such that k^4-k-1 is composite.",
   "id": "A177091",
   "mentions": [
     "A126424"

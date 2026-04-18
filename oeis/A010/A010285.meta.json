@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 56.",
   "id": "A010285",
-  "mentions": [],
+  "mentions": [
+    "A010627"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 78,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

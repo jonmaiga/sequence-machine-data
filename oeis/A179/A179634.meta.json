@@ -1,7 +1,10 @@
 {
-  "description": "Primes p such that p + d and p-d are primes, where d is the sum of floors of square roots of the digits of p.",
+  "description": "Primes p such that p + d and p - d are primes, where d is the sum of floors of square roots of the digits of p.",
   "id": "A179634",
-  "mentions": [],
+  "mentions": [
+    "A179632",
+    "A179633"
+  ],
   "tags": [
     "base",
     "nonn"

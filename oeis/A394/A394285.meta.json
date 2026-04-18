@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered rooted trees with node weights summing to n; such that the root has weight 0, non-root nodes have positive integer weights, and only nodes of even weight can have branches.",
+  "id": "A394285",
+  "mentions": [
+    "A000108",
+    "A107131",
+    "A384748",
+    "A394284"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled minimally 4-rigid graphs on n vertices.",
+  "id": "A394820",
+  "mentions": [
+    "A227117",
+    "A328419"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

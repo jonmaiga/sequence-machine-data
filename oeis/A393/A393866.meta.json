@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies [x^n] A(x)^prime(n) = prime(n) * [x^(n-1)] A(x)^prime(n) for n >= 1.",
+  "id": "A393866",
+  "mentions": [
+    "A002110",
+    "A393867",
+    "A393868"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

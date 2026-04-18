@@ -1,0 +1,17 @@
+{
+  "description": "Number of decimal places which are known after n terms of the continued fraction for the golden ratio.",
+  "id": "A392060",
+  "mentions": [
+    "A001622",
+    "A369715",
+    "A392067"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

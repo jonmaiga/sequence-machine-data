@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(k+1,4*n-8*k+1).",
+  "id": "A390221",
+  "mentions": [
+    "A390040",
+    "A390220",
+    "A390222"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

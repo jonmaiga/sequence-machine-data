@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array T(n,k) read by rows. Row n gives the number of permutations of {1,2,...,n} whose descent set is contained in S for each subset S of {1,2,...,n-1} where the subsets are ordered first by size and then lexicographically (Cf. A082185).",
+  "id": "A392945",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A082185",
+    "A335845"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

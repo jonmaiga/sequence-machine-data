@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer k such that the sum of the prime divisors of k, each taken modulo its exponent in the prime factorization of k, equals n.",
+  "id": "A391646",
+  "mentions": [
+    "A000586",
+    "A001222",
+    "A001694",
+    "A008474",
+    "A343923",
+    "A392814"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

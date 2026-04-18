@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+1/7)/GAMMA(1/7).",
+  "description": "Ceiling of Gamma(n+1/7)/Gamma(1/7).",
   "id": "A020124",
-  "mentions": [],
+  "mentions": [
+    "A020034",
+    "A020079"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

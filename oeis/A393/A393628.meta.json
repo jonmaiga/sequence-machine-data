@@ -1,0 +1,23 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n*(n+1) * x*A(x)^7 ) / A(x)^(n+1) = 0 for n > 0.",
+  "id": "A393628",
+  "mentions": [
+    "A337458",
+    "A393620",
+    "A393621",
+    "A393622",
+    "A393623",
+    "A393624",
+    "A393625",
+    "A393627"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

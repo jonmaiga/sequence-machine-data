@@ -1,0 +1,26 @@
+{
+  "description": "Achilles numbers whose prime power factor multiplicities are not pairwise indivisible.",
+  "id": "A394482",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A013929",
+    "A024619",
+    "A052486",
+    "A126706",
+    "A286708",
+    "A317101",
+    "A317616",
+    "A393708",
+    "A394000"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

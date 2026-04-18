@@ -1,10 +1,13 @@
 {
-  "description": "Literal string created by the first time an orderless exponent appears; the exponents from A025487.",
+  "description": "Concatenation of terms in each row of A124832.",
   "id": "A090323",
   "mentions": [
-    "A025487"
+    "A025487",
+    "A124832"
   ],
   "tags": [
+    "base",
+    "less",
     "nonn"
   ],
   "terms": {

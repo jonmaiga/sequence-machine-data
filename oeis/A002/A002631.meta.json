@@ -2,7 +2,9 @@
   "description": "Number of circuits of nullity n.",
   "id": "A002631",
   "mentions": [
-    "A002632"
+    "A059687",
+    "A204198",
+    "A377569"
   ],
   "tags": [
     "more",

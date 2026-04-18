@@ -1,13 +1,17 @@
 {
-  "description": "Number of partitions satisfying cn(0,5) = cn(2,5) + cn(3,5).",
+  "description": "Number of partitions of n satisfying cn(0,5) = cn(2,5) + cn(3,5).",
   "id": "A039859",
-  "mentions": [],
+  "mentions": [
+    "A039840",
+    "A039841",
+    "A039861"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 45,
-    "source": "joeis"
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1 / sqrt(1 - 10*x + 17*x^2).",
+  "id": "A394231",
+  "mentions": [
+    "A001850",
+    "A006139",
+    "A059304",
+    "A080609",
+    "A081671",
+    "A084601",
+    "A098409",
+    "A154340",
+    "A394232",
+    "A394233"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

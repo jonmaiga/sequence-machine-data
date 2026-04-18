@@ -1,5 +1,5 @@
 {
-  "description": "Iccanobif numbers: add previous two terms and reverse the sum.",
+  "description": "Iccanobif numbers: add previous two terms and reverse the sum, starting with 0, 1.",
   "id": "A014258",
   "mentions": [
     "A000045",

@@ -1,0 +1,19 @@
+{
+  "description": "Sequences A001477 and A000079 interlaced.",
+  "id": "A390532",
+  "mentions": [
+    "A000079",
+    "A001477",
+    "A138219"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

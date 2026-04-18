@@ -1,0 +1,18 @@
+{
+  "description": "Sierpiński numbers that have at least three covering sets.",
+  "id": "A394518",
+  "mentions": [
+    "A076336",
+    "A263391",
+    "A263392",
+    "A394519"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

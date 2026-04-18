@@ -1,5 +1,5 @@
 {
-  "description": "Consider numbers x = 4n + 1 which are of the form x = y^2 + z^2 with y <= z; sequence gives smallest value of y.",
+  "description": "Consider numbers x = 4*n + 1 which are of the form x = y^2 + z^2 with y <= z; sequence gives smallest value of y.",
   "id": "A087818",
   "mentions": [
     "A087819"

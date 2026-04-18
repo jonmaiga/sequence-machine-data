@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that the symmetric representation of sigma(n) has two parts.",
+  "description": "Numbers k with the property that the symmetric representation of sigma(k) has two parts.",
   "id": "A239929",
   "mentions": [
     "A000040",
@@ -23,7 +23,6 @@
     "A237271",
     "A237591",
     "A237593",
-    "A238443",
     "A239660",
     "A239663",
     "A239665",
@@ -34,7 +33,8 @@
     "A245062",
     "A262626",
     "A270298",
-    "A270301"
+    "A270301",
+    "A384222"
   ],
   "tags": [
     "formulas",

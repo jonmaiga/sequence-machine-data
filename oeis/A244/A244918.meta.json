@@ -2,11 +2,13 @@
   "description": "Primes p where the digital sum is equal to 68.",
   "id": "A244918",
   "mentions": [
+    "A001651",
     "A048517",
     "A062337",
     "A062339",
     "A062341",
     "A062343",
+    "A067180",
     "A106754",
     "A106755",
     "A106756",

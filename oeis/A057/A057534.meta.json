@@ -1,14 +1,16 @@
 {
-  "description": "a(n+1) = a(n)/2 if 2|a(n), a(n)/3 if 3|a(n), a(n)/5 if 5|a(n), a(n)/7 if 7|a(n), a(n)/11 if 11|a(n), a(n)/13 if 13|a(n), otherwise 17*a(n)+1.",
+  "description": "Start with 61; to get the next term, divide by the smallest prime factor < 17 if it exists, else multiply by 17 and add 1.",
   "id": "A057534",
   "mentions": [
     "A057216",
     "A057446",
     "A057522",
-    "A057614"
+    "A057614",
+    "A057684"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

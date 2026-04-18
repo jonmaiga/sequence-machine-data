@@ -1,0 +1,16 @@
+{
+  "description": "Number of ordered set partitions of [n] whose set of block sizes covers an initial interval.",
+  "id": "A393921",
+  "mentions": [
+    "A000670",
+    "A393098"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

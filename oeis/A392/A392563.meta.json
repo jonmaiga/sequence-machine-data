@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least number that can be written in exactly n ways as p + r, where p is a prime and r is an anagram of p.",
+  "id": "A392563",
+  "mentions": [
+    "A393958"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

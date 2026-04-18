@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the area of a 20-gon with unit side lengths.",
+  "id": "A394451",
+  "mentions": [
+    "A001622",
+    "A019907",
+    "A019979",
+    "A188594"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

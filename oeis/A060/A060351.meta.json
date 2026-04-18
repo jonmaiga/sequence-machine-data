@@ -2,6 +2,7 @@
   "description": "If the binary expansion of n has k bits, let S be the subset of [k-1] such that i is in S if the i-th bit of n is a 1 (with the first bit being the least significant bit); a(n) is the number of permutations of [k] with descent set S.",
   "id": "A060351",
   "mentions": [
+    "A000111",
     "A000142",
     "A011782",
     "A060350",

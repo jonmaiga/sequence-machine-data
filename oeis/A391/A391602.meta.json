@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the largest number m such that A391449(m) = n.",
+  "id": "A391602",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A002378",
+    "A006530",
+    "A055932",
+    "A059957",
+    "A141399",
+    "A194099",
+    "A252489",
+    "A391449",
+    "A391885",
+    "A391970"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

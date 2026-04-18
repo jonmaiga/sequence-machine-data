@@ -1,0 +1,22 @@
+{
+  "description": "Number of fixed polygiraffes with n cells.",
+  "id": "A393836",
+  "mentions": [
+    "A030444",
+    "A093877",
+    "A151830",
+    "A393390",
+    "A393837",
+    "A393838",
+    "A393839"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

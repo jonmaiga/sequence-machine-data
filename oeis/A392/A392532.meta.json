@@ -1,0 +1,26 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x * A(2*x/(1 - x)^2) / (1 - x)^2.",
+  "id": "A392532",
+  "mentions": [
+    "A000110",
+    "A040027",
+    "A125273",
+    "A125274",
+    "A126443",
+    "A352859",
+    "A390837",
+    "A392468",
+    "A392538",
+    "A393535",
+    "A393536"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

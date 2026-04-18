@@ -2,7 +2,15 @@
   "description": "Number of even-length palindromes among the k-tuples of partial quotients of the continued fraction expansions of n/r, r=1,...,n.",
   "id": "A092147",
   "mentions": [
-    "A092089"
+    "A000089",
+    "A004614",
+    "A008966",
+    "A010052",
+    "A063014",
+    "A063725",
+    "A079260",
+    "A092089",
+    "A256452"
   ],
   "tags": [
     "formulas",
@@ -11,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

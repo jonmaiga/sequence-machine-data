@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n == -1 (mod phi(n-1)).",
+  "description": "Numbers k such that k == -1 (mod phi(k-1)).",
   "id": "A119388",
   "mentions": [
     "A067933"

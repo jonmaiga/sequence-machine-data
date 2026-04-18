@@ -1,5 +1,5 @@
 {
-  "description": "Friedman numbers that involve the \"^\" sign.",
+  "description": "Friedman numbers having a representation that involves the \"^\" sign.",
   "id": "A083509",
   "mentions": [
     "A036057"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

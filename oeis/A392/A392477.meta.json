@@ -1,0 +1,24 @@
+{
+  "description": "A modified Sisyphus function: a(n) = concatenation of (number of odd digits in n) (number of even digits in n) (number of digits in n).",
+  "id": "A392477",
+  "mentions": [
+    "A055642",
+    "A073053",
+    "A171797",
+    "A196563",
+    "A196564",
+    "A308003",
+    "A308005",
+    "A392220"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

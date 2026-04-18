@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(k + 1) * k^(n - k) * Gamma(k, -k) / exp(k). Row sums of A393142.",
+  "id": "A394078",
+  "mentions": [
+    "A393142"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

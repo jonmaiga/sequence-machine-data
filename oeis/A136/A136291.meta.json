@@ -1,5 +1,5 @@
 {
-  "description": "Array read by rows: each row is a sequence of numbers k such that n^k does not contain the digit n.",
+  "description": "Array read by rows: row n is a sequence of numbers k such that n^k does not contain the digit n.",
   "id": "A136291",
   "mentions": [
     "A034293",
@@ -13,7 +13,7 @@
     "tabf"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 2,
     "size": 74,
     "source": "oeis-entry"
   }

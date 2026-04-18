@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that prime tower factorizations of k and k+1 share some prime number.",
+  "id": "A394855",
+  "mentions": [
+    "A182318",
+    "A284761",
+    "A286068",
+    "A336965"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

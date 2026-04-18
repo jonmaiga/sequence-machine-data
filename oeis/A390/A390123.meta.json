@@ -1,0 +1,15 @@
+{
+  "description": "Even integers x such that x + sqrt(y) = sqrt(x || y), where || denotes decimal concatenation and y is a perfect square.",
+  "id": "A390123",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

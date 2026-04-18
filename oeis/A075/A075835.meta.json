@@ -2,6 +2,7 @@
   "description": "Numbers k such that 13*k^2 + 4 is a square.",
   "id": "A075835",
   "mentions": [
+    "A004190",
     "A006190"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

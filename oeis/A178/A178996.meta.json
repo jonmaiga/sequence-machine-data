@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 5^n mod 2^n is prime.",
+  "description": "Numbers k such that 5^k mod 2^k is prime.",
   "id": "A178996",
   "mentions": [
     "A178995"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

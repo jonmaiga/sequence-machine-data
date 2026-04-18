@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime that is the sum of four nonzero squares in exactly n ways.",
+  "description": "Smallest prime that is the sum of four nonzero squares in exactly n ways, or -1 if there is no such prime.",
   "id": "A213721",
   "mentions": [
     "A025416"

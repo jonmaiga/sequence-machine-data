@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..4 arrays with each element equal to the number of its horizontal and vertical zero neighbors.",
+  "description": "T(n,k) is the number of n X k 0..4 arrays with each element equal to the number of its horizontal and vertical zero neighbors.",
   "id": "A197054",
   "mentions": [
     "A000931",

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Pi/2 + log(2) - 2.",
+  "id": "A390876",
+  "mentions": [
+    "A002162",
+    "A019669"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

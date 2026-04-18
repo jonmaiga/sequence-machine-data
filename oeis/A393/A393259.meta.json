@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 5*Pi^2/54 - 197/216.",
+  "id": "A393259",
+  "mentions": [
+    "A002388",
+    "A102753",
+    "A145426",
+    "A145427"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

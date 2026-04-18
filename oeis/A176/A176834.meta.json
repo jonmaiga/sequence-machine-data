@@ -1,5 +1,5 @@
 {
-  "description": "List of all primes p such that 3*A099609(2n-1)",
+  "description": "List of all primes p such that 3*A099609(2n-1) < p < 3*A099609(2n).",
   "id": "A176834",
   "mentions": [
     "A001359",

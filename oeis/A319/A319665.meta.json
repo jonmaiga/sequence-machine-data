@@ -1,9 +1,10 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) = log_5(4*k + 1) mod 2^n, n >= 2, 0 <= k <= 2^(n-2) - 1.",
+  "description": "Irregular triangle read by rows: T(n,k) is the discrete logarithm log_5(4*k + 1) in the cyclic group 1+4Z/2^nZ, n >= 2, 0 <= k <= 2^(n-2) - 1.",
   "id": "A319665",
   "mentions": [
     "A007814",
-    "A319663"
+    "A319663",
+    "A319666"
   ],
   "tags": [
     "nonn",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 2,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

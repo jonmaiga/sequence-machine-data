@@ -2,6 +2,8 @@
   "description": "Greatest prime divisor of all composite numbers between p and next prime.",
   "id": "A052248",
   "mentions": [
+    "A005384",
+    "A005385",
     "A006530",
     "A052180",
     "A059960",
@@ -11,7 +13,8 @@
     "A080186",
     "A080187",
     "A080188",
-    "A080189"
+    "A080189",
+    "A266400"
   ],
   "tags": [
     "easy",

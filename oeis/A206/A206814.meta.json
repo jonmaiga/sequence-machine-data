@@ -2,9 +2,6 @@
   "description": "Position of 5^n in joint ranking of {2^i}, {3^j}, {5^k}.",
   "id": "A206814",
   "mentions": [
-    "A205812",
-    "A205813",
-    "A205814",
     "A206805",
     "A206812",
     "A206813"

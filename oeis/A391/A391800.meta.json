@@ -1,0 +1,20 @@
+{
+  "description": "Primes indexed by A391797.",
+  "id": "A391800",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A391797",
+    "A391801",
+    "A391802"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

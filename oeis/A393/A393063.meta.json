@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A276085(LCM_{d|n, d",
+  "id": "A393063",
+  "mentions": [
+    "A276085",
+    "A276086",
+    "A393059",
+    "A393062"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies 4*A(x) = 1 + x + 3*A(x*A(x)).",
+  "id": "A393889",
+  "mentions": [
+    "A242003",
+    "A393888",
+    "A393890",
+    "A394047"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

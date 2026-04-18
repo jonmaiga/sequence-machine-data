@@ -2,6 +2,7 @@
   "description": "Least gap in the partition having Heinz number n; index of the least prime not dividing n.",
   "id": "A257993",
   "mentions": [
+    "A000005",
     "A000040",
     "A000070",
     "A000720",
@@ -44,7 +45,11 @@
     "A339662",
     "A339737",
     "A342050",
-    "A342051"
+    "A342051",
+    "A365920",
+    "A365921",
+    "A366128",
+    "A392758"
   ],
   "tags": [
     "formulas",

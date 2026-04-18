@@ -1,0 +1,17 @@
+{
+  "description": "Integers m such that the digits 0 and 1 are not present in the decimal expansion of m^10.",
+  "id": "A393218",
+  "mentions": [
+    "A008454",
+    "A393217"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

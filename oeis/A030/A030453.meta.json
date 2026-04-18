@@ -1,5 +1,5 @@
 {
-  "description": "Number of linearly ordered Abelian monoids of size n (semi-groups with greatest element of the corresponding chain as neutral element); triangular norms on an n-chain.",
+  "description": "Number of linearly ordered Abelian monoids of size n (semigroups with greatest element of the corresponding chain as neutral element); triangular norms on an n-chain.",
   "id": "A030453",
   "mentions": [],
   "tags": [

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers m such that there is no solution to the equation phi(k+m) = sigma(k).",
+  "id": "A393634",
+  "mentions": [
+    "A094466"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -2,16 +2,20 @@
   "description": "The positions of zeros in the top row of A163898 (and A163899).",
   "id": "A165404",
   "mentions": [
+    "A000695",
     "A025581",
     "A147600",
+    "A163482",
     "A163898",
     "A163899",
     "A163901",
     "A163904",
     "A165403",
-    "A165406"
+    "A165406",
+    "A392655"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

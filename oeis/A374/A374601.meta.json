@@ -2,7 +2,8 @@
   "description": "Defined by: Sum_{i=1..n} i*a(i)/n^i = 1, n>=1.",
   "id": "A374601",
   "mentions": [
-    "A374562"
+    "A374562",
+    "A394530"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(2)*log(sqrt(2)/Pi), negated.",
+  "id": "A393158",
+  "mentions": [
+    "A002162",
+    "A256924"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

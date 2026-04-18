@@ -1,0 +1,16 @@
+{
+  "description": "Index of 2*n in A390314, or -1 if 2*n does not appear.",
+  "id": "A393439",
+  "mentions": [
+    "A390314",
+    "A393440"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

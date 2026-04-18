@@ -1,0 +1,20 @@
+{
+  "description": "Number of one-sided polyquoins with n cells.",
+  "id": "A392940",
+  "mentions": [
+    "A000162",
+    "A390621",
+    "A392939",
+    "A392941"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

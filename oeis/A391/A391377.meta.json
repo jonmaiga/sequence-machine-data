@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + LambertW(x^3 * log(1-x))).",
+  "id": "A391377",
+  "mentions": [
+    "A305981",
+    "A362835",
+    "A362891"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

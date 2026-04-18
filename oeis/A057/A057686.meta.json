@@ -1,5 +1,5 @@
 {
-  "description": "Trajectory of 23 under the `23x+1' map.",
+  "description": "Trajectory of 23 under the `23x+1' map: x -> x/p if p = least prime factor < 23, else x*23 + 1.",
   "id": "A057686",
   "mentions": [
     "A033478",
@@ -14,10 +14,15 @@
     "A057688",
     "A057689",
     "A057690",
-    "A057691"
+    "A057691",
+    "A368085",
+    "A368114",
+    "A368115",
+    "A368159"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "Distance from 2^n to the nearest base-10 palindrome.",
+  "id": "A393111",
+  "mentions": [
+    "A000079",
+    "A002113",
+    "A100771",
+    "A393112"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

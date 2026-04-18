@@ -1,0 +1,17 @@
+{
+  "description": "Total number of firings in a certain chip-firing game that starts with 2^n chips and is described in the comments.",
+  "id": "A389565",
+  "mentions": [
+    "A293452",
+    "A390129",
+    "A390355"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

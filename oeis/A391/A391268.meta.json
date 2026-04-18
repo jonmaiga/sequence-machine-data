@@ -1,0 +1,17 @@
+{
+  "description": "Smallest numbers k such that 2^k-1 when written in ternary contains its least significant zero in position n.",
+  "id": "A391268",
+  "mentions": [
+    "A000225",
+    "A215879"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

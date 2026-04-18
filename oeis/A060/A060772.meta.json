@@ -2,7 +2,8 @@
   "description": "Minimal Thompson primes: a(n) is the smallest prime expressible as p1*p2*...*pk-q1*q2*...*qj, where k+j=n and {p1,...,qj} are the first n primes.",
   "id": "A060772",
   "mentions": [
-    "A003681"
+    "A003681",
+    "A167604"
   ],
   "tags": [
     "nonn"

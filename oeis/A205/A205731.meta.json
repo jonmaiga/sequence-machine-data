@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X4 0..2 arrays with every 2 X 2 subblock having the same number of clockwise edge increases as its horizontal neighbors and no 2 X 2 subblock having the same number of counterclockwise edge increases as its vertical neighbors.",
+  "description": "Number of (n+1) X 4 0..2 arrays with every 2 X 2 subblock having the same number of clockwise edge increases as its horizontal neighbors and no 2 X 2 subblock having the same number of counterclockwise edge increases as its vertical neighbors.",
   "id": "A205731",
   "mentions": [
     "A205736"

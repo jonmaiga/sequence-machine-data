@@ -1,0 +1,28 @@
+{
+  "description": "Smallest prime p for which, for every i with 1 <= i <= n, the numbers p - i and p + i have the same number of divisors.",
+  "id": "A393910",
+  "mentions": [
+    "A005237",
+    "A006558",
+    "A006601",
+    "A049051",
+    "A049052",
+    "A049053",
+    "A067889",
+    "A119711",
+    "A119728",
+    "A119730",
+    "A119740",
+    "A190821",
+    "A391384"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

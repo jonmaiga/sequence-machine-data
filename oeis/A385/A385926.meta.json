@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = numerator p of prime-fraction p/q that minimizes |m/n - p/q| with m/n != p/q, where p is 1 or prime, q is prime, q < n, and 1 <= m <= n-1.",
+  "description": "a(n) = numerator p of the prime-fraction p/q that most closely approximates m/n as in A385925.",
   "id": "A385926",
   "mentions": [
     "A000040",
     "A007917",
     "A385925",
-    "A385927"
+    "A385927",
+    "A394354"
   ],
   "tags": [
     "frac",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 74,
-    "source": "oeis-entry"
+    "size": 75,
+    "source": "joeis"
   }
 }

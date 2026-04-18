@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor.",
+  "description": "Number of n X 6 arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor.",
   "id": "A221124",
   "mentions": [
     "A221125"

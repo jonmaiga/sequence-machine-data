@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that for every integer k>0, n*6^k-1 has a divisor in the set { 7, 13, 31, 37, 43 }.",
+  "description": "Integers j such that for every integer k>0, j*6^k-1 has a divisor in the set { 7, 13, 31, 37, 43 }.",
   "id": "A244211",
   "mentions": [
     "A076337",
@@ -13,6 +13,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

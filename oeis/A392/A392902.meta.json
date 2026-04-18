@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the distinct prime factors of the generalized Fermat number F_n(6) = 6^(2^n) + 1.",
+  "id": "A392902",
+  "mentions": [
+    "A050922",
+    "A078303",
+    "A253242",
+    "A391444",
+    "A392900",
+    "A392901",
+    "A392903",
+    "A392904",
+    "A392905",
+    "A393152"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

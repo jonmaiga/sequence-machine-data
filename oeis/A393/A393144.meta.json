@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of [n] whose multiset of block sizes is indeed a gapless set.",
+  "id": "A393144",
+  "mentions": [
+    "A000110",
+    "A001227",
+    "A131577",
+    "A392234",
+    "A393098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

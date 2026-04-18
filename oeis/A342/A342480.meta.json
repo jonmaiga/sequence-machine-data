@@ -2,13 +2,18 @@
   "description": "a(n) is the denominator of the asymptotic density of numbers whose second smallest prime divisor (A119288) is prime(n).",
   "id": "A342480",
   "mentions": [
+    "A002110",
+    "A027748",
     "A038110",
     "A038111",
+    "A078456",
+    "A096294",
     "A119288",
     "A342479"
   ],
   "tags": [
     "easy",
+    "formulas",
     "frac",
     "nonn"
   ],

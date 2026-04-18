@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (3 - e)/(6*(e - 2)).",
+  "id": "A392576",
+  "mentions": [
+    "A001113",
+    "A153805"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

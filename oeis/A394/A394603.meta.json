@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the aspect ratio of a rectangle with the property that the mean distance between two points selected independently at random within its interior is equal to the length of its smaller side.",
+  "id": "A394603",
+  "mentions": [
+    "A394602",
+    "A394604"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

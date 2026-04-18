@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimal edge covers in the n-necklace graph.",
+  "id": "A393385",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 25/Pi.",
   "id": "A132715",
   "mentions": [
+    "A000041",
     "A049541",
     "A060294",
     "A086201",

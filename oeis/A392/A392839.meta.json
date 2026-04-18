@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (F(4*n + 3) - F(4*n - 1) - 5*n + 9)/5, where F(n) = A000045(n).",
+  "id": "A392839",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A033891",
+    "A172968",
+    "A392837",
+    "A392838",
+    "A392840"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

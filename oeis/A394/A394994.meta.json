@@ -1,0 +1,16 @@
+{
+  "description": "Matchable numbers: an integer k is matchable if there is a coprime matching between [1..tau(k)] and D(k), where tau(k) is A000005(k) and D(k) is the set of divisors of k.",
+  "id": "A394994",
+  "mentions": [
+    "A000005",
+    "A027750"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

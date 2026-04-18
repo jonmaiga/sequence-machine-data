@@ -1,0 +1,20 @@
+{
+  "description": "Perfect powers m^k, with m, k > 1, such that no digit of m^k is present in k^m.",
+  "id": "A393217",
+  "mentions": [
+    "A001597",
+    "A029783",
+    "A062518",
+    "A389849"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

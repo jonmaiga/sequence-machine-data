@@ -1,5 +1,5 @@
 {
-  "description": "Array read by ascending antidiagonals: A(n,k) is the total semi-perimeter of n-Fibonacci polyominoes with k columns, where k > 0.",
+  "description": "Array read by ascending antidiagonals: A(n,k) is the total semiperimeter of n-Fibonacci polyominoes with k columns, where k > 0.",
   "id": "A378706",
   "mentions": [
     "A378704",

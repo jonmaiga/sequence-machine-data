@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that n+sigma(n) is a repunit number.",
+  "description": "Numbers k such that k+sigma(k) is a repunit number.",
   "id": "A244444",
   "mentions": [
     "A116017",
+    "A155085",
     "A309835"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

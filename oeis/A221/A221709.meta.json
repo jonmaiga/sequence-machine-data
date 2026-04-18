@@ -1,14 +1,19 @@
 {
-  "description": "Nonzero terms of a Fibonacci-inspired C-fraction.",
+  "description": "Nonzero terms of the Hankel transform applied onto a Fibonacci-inspired C-fraction.",
   "id": "A221709",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A003266",
+    "A206741",
+    "A307082"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

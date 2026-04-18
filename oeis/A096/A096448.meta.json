@@ -2,6 +2,8 @@
   "description": "Primes p such that the number of primes less than p equal to 1 mod 4 is one less than the number of primes less than p equal to 3 mod 4.",
   "id": "A096448",
   "mentions": [
+    "A038698",
+    "A066520",
     "A096447",
     "A096449",
     "A096450",

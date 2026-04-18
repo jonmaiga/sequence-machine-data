@@ -1,0 +1,19 @@
+{
+  "description": "A sequence arising from the 3-Bratteli diagram, a(n) = 3^(n - 3)*(16*n - 15), n>=3.",
+  "id": "A393662",
+  "mentions": [
+    "A391520",
+    "A393655",
+    "A393661"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 25,
+    "source": "joeis"
+  }
+}

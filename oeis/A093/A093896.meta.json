@@ -2,9 +2,11 @@
   "description": "Least positive k such that n^n divides k!.",
   "id": "A093896",
   "mentions": [
+    "A002034",
     "A093897"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

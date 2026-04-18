@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of unit cubes in the cubic lattice, divided by 24, that have 2 vertices strictly inside and 6 vertices strictly outside the sphere x^2 + y^2 + z^2 = n.",
+  "id": "A393822",
+  "mentions": [
+    "A393563",
+    "A393821",
+    "A393827"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

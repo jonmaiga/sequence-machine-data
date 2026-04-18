@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A392758(k) = A392758(k + 1), where A392758(k) = number of divisors of k which are not primorials.",
+  "id": "A391879",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A257993",
+    "A390927",
+    "A392758"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 36/Pi^4.",
   "id": "A227929",
   "mentions": [
+    "A000010",
     "A000796",
     "A002321",
     "A098198"

@@ -2,6 +2,7 @@
   "description": "Form array starting with {1,1}; then i-th term in a row gives number of i's in next row; sequence is formed from final term in each row.",
   "id": "A014644",
   "mentions": [
+    "A001622",
     "A011784",
     "A014643"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

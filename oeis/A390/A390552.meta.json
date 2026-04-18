@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the total number of inversions over the permutations of [n] whose descent set is S for each subset S of {1,2,...,n-1} where the subsets are ordered first by size and then lexicographically (Cf. A082185).",
+  "id": "A390552",
+  "mentions": [
+    "A000217",
+    "A001809",
+    "A082185",
+    "A335845",
+    "A337193",
+    "A392945",
+    "A393166"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

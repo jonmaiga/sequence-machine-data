@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of connected endofunctions on [n] in which k nodes have no nonrecurrent preimages, n >= 1, 1 <= k <= n.",
+  "id": "A387632",
+  "mentions": [
+    "A000169",
+    "A001865",
+    "A063170",
+    "A219859",
+    "A231536",
+    "A386973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

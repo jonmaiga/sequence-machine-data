@@ -2,7 +2,10 @@
   "description": "Decimal expansion of 1/zeta(6).",
   "id": "A343359",
   "mentions": [
+    "A004709",
     "A008683",
+    "A013661",
+    "A013662",
     "A013664",
     "A059956",
     "A088453",

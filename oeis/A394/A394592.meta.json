@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the distinct prime divisors of C(5*n, n).",
+  "id": "A394592",
+  "mentions": [
+    "A001449",
+    "A006480",
+    "A008472",
+    "A394454",
+    "A394591"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

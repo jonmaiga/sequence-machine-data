@@ -1,7 +1,9 @@
 {
-  "description": "Decimal expansion of sum(1/floor(2^n/n),n=1..+oo).",
+  "description": "Decimal expansion of Sum_{n>=1} 1/floor(2^n/n).",
   "id": "A193359",
-  "mentions": [],
+  "mentions": [
+    "A000799"
+  ],
   "tags": [
     "cons",
     "nonn"

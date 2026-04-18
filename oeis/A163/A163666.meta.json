@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=prime(sigma(phi(pi(n)))).",
+  "description": "Numbers k such that k=prime(sigma(phi(pi(k)))).",
   "id": "A163666",
   "mentions": [
     "A000010",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

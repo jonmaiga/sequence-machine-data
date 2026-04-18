@@ -1,0 +1,20 @@
+{
+  "description": "Exponentially odd numbers whose maximum exponent in their prime factorization is congruent to 1 mod 4.",
+  "id": "A394256",
+  "mentions": [
+    "A051903",
+    "A065463",
+    "A268335",
+    "A368711",
+    "A390440"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

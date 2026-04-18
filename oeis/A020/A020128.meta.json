@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+3/5)/GAMMA(3/5).",
+  "description": "Ceiling of Gamma(n+3/5)/Gamma(3/5).",
   "id": "A020128",
-  "mentions": [],
+  "mentions": [
+    "A020038",
+    "A020083"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

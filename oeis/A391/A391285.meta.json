@@ -1,0 +1,17 @@
+{
+  "description": "Number of decimal places which are known after n terms of the continued fraction for the silver ratio.",
+  "id": "A391285",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A014176"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

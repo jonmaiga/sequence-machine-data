@@ -2,6 +2,7 @@
   "description": "The y coordinates of the shell enumeration of N X N where N = {0, 1, 2, ...}(A319514).",
   "id": "A319290",
   "mentions": [
+    "A319289",
     "A319514"
   ],
   "tags": [

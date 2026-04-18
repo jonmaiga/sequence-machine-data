@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m such that 2*3^(k*(k-1)/2) (k = 1..n) are pairwise incongruent modulo m.",
+  "id": "A392775",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000244",
+    "A208643",
+    "A392732"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

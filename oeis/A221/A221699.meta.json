@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with property that each sum any pair of digits is prime.",
+  "description": "Numbers with the property that each sum of any pair of their digits is prime.",
   "id": "A221699",
   "mentions": [
     "A091939",

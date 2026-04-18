@@ -1,0 +1,19 @@
+{
+  "description": "Number of graphs with n vertices that have no induced regular subgraph of order 5.",
+  "id": "A394539",
+  "mentions": [
+    "A390919",
+    "A394462",
+    "A394573",
+    "A394930"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the middle parts in the partitions of n into 3 parts whose largest part is even.",
+  "id": "A393409",
+  "mentions": [
+    "A026927",
+    "A309694",
+    "A393404"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

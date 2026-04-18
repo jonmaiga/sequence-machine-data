@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the orders of every automorphism group of order n.",
+  "description": "Sum of the orders of the automorphism groups for every group of order n.",
   "id": "A385480",
   "mentions": [
     "A137316"

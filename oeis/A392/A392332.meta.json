@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the excess of deficient numbers over abundant numbers in the first n positive integers.",
+  "id": "A392332",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A005100",
+    "A005101",
+    "A033879",
+    "A033880",
+    "A060862",
+    "A082551",
+    "A091194",
+    "A256562",
+    "A294934",
+    "A294937",
+    "A302991",
+    "A393184",
+    "A393185",
+    "A393186"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

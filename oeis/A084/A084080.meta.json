@@ -1,5 +1,5 @@
 {
-  "description": "Length of lists created by n substitutions k -> Range[k+1,1,-3] starting with {1}, counting down from k+1 to 1 step -3.",
+  "description": "Length of lists created by n substitutions k -> range(k+1,1,-3) starting with {1}, counting down from k+1 to 1 step -3.",
   "id": "A084080",
   "mentions": [
     "A124753"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of anti-divisors of n divides n.",
+  "description": "Numbers k such that the number of anti-divisors of k divides k.",
   "id": "A192276",
   "mentions": [
     "A033950",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of one-sided polyquarcs with n cells, with cusp connections allowed.",
+  "id": "A393001",
+  "mentions": [
+    "A392393",
+    "A393000",
+    "A393002"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

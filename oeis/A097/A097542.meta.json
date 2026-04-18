@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=1..2*n-1} J(4*n,k)*k, where J(i,j) is the Jacobi symbol.",
+  "description": "a(n) = Sum_{k=1..2*n-1} J(4*n,k)*k, where J(i,j) is the Jacobi symbol.",
   "id": "A097542",
   "mentions": [],
   "tags": [

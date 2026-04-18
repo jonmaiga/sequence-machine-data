@@ -1,13 +1,15 @@
 {
   "description": "Largest prime x such that x/(n^k), rounded up, is 1 or a prime for all positive integer values of k.",
   "id": "A128110",
-  "mentions": [],
+  "mentions": [
+    "A008578"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

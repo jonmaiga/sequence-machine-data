@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A080704(n+1) - A080704(n) = 1.",
+  "description": "Numbers k such that A080704(k+1) - A080704(k) = 1.",
   "id": "A080705",
   "mentions": [
     "A064437",

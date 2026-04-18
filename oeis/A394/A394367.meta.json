@@ -1,0 +1,24 @@
+{
+  "description": "Middle sides z of integer-sided triangles (x <= y <= z) having at least one integral median and such that every integral median m satisfies gcd(x, y, z, m) = 1, ordered by increasing z, then y, then x.",
+  "id": "A394367",
+  "mentions": [
+    "A181924",
+    "A181928",
+    "A227895",
+    "A393193",
+    "A394100",
+    "A394101",
+    "A394102",
+    "A394366",
+    "A394368",
+    "A394369"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

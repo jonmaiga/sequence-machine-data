@@ -2,11 +2,11 @@
   "description": "Number of n-length words on {0,1,2,3,4} avoiding runs of zeros of length 1 (mod 3).",
   "id": "A255632",
   "mentions": [
+    "A239333",
     "A254598",
     "A254601",
     "A254602",
     "A254663",
-    "A255115",
     "A255117"
   ],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of [n] such that i + p(i) is composite for all i.",
+  "id": "A392408",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A073364",
+    "A324372"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

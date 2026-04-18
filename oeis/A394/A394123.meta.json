@@ -1,0 +1,13 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^4-A(x)^3+4x*A(x)^2-x*A(x)+x^2=0.",
+  "id": "A394123",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

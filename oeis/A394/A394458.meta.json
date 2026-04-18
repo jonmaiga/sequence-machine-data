@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions p of n such that 2 * (the greatest multiplicity of the parts of p) is a part of p.",
+  "id": "A394458",
+  "mentions": [
+    "A365613",
+    "A394459"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

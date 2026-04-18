@@ -1,0 +1,15 @@
+{
+  "description": "Even numbers k such that Sum_{i=1..r} i*(k-i) = Sum_{j=1..s} j*(j+k) for some integers r and s.",
+  "id": "A390080",
+  "mentions": [
+    "A094550"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2n-1 and 4n-1 are primes.",
+  "description": "Numbers k such that both 2*k-1 and 4*k-1 are primes.",
   "id": "A124485",
   "mentions": [
     "A005384",

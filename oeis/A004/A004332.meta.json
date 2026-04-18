@@ -2,7 +2,8 @@
   "description": "a(n) = C(4n,n-2).",
   "id": "A004332",
   "mentions": [
-    "A002293"
+    "A002293",
+    "A004333"
   ],
   "tags": [
     "easy",

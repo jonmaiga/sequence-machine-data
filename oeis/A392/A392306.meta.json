@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle, read by rows, where row n lists composite numbers c such that c * sigma_n(c) == 2 (mod phi(c)) for n >= 0. Row lengths for n=0,1,... are given in A392307.",
+  "id": "A392306",
+  "mentions": [
+    "A002270",
+    "A051948",
+    "A100484",
+    "A389878",
+    "A392307"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

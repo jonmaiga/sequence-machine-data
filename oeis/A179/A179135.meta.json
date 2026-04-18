@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = (3-sqrt(5))*((3+sqrt(5))/10)^(-n)/2+(3+sqrt(5))*((3-sqrt(5))/10)^(-n)/2.",
+  "description": "a(n) = (3-sqrt(5))*((3+sqrt(5))/10)^(-n)/2 + (3+sqrt(5))*((3-sqrt(5))/10)^(-n)/2.",
   "id": "A179135",
   "mentions": [
+    "A000032",
     "A000351",
     "A109106",
     "A128052",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

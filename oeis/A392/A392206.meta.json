@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A'(x) = exp( A(x)*A'(x)^2 ).",
+  "id": "A392206",
+  "mentions": [
+    "A214654",
+    "A392208"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

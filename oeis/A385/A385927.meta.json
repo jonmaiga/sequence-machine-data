@@ -4,7 +4,8 @@
   "mentions": [
     "A000040",
     "A385925",
-    "A385926"
+    "A385926",
+    "A394354"
   ],
   "tags": [
     "frac",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 98,
-    "source": "oeis-entry"
+    "size": 74,
+    "source": "joeis"
   }
 }

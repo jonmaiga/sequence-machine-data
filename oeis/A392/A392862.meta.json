@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A143293(n)+14 mod prime(n+1), where A143293 gives the partial sums of primorials.",
+  "id": "A392862",
+  "mentions": [
+    "A143293",
+    "A357270",
+    "A392615",
+    "A392864"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

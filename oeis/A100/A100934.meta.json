@@ -1,7 +1,8 @@
 {
-  "description": "Numbers having more than one representation as the product of consecutive integers.",
+  "description": "Numbers having more than one representation as the product of two or more consecutive integers.",
   "id": "A100934",
   "mentions": [
+    "A000142",
     "A003015",
     "A064224"
   ],

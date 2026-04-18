@@ -1,5 +1,5 @@
 {
-  "description": "Visible Factor Numbers, or VFNs: numbers n with the property that every prime factor of n can be found in the decimal expansion of n and every digit of n can be found in a prime factor.",
+  "description": "Visible factor numbers (VFNs): composite numbers k with the property that every prime factor of k can be found in the decimal expansion of k and every digit of k can be covered by a prime factor.",
   "id": "A083359",
   "mentions": [
     "A083360",

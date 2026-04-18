@@ -2,6 +2,7 @@
   "description": "Smallest number a(n) > n such that a(n)! contains n! as a substring.",
   "id": "A086654",
   "mentions": [
+    "A000142",
     "A004154"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

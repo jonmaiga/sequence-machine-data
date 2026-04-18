@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes of the form b^k + 1 or b^k - 1, with b, k > 1.",
+  "id": "A392319",
+  "mentions": [
+    "A001597",
+    "A002113",
+    "A075786",
+    "A080262"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

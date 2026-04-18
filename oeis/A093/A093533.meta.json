@@ -1,19 +1,19 @@
 {
-  "description": "Pi*denominators of the average length of a line segment picked at random in the unit n-ball for even n.",
+  "description": "Denominators of Pi * average length of a line segment picked at random in the unit n-ball for even n.",
   "id": "A093533",
   "mentions": [
+    "A000796",
     "A093530",
     "A093531",
     "A093532"
   ],
   "tags": [
     "frac",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

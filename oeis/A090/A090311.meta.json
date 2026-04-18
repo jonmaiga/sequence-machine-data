@@ -2,18 +2,17 @@
   "description": "Concatenation of two distinct primes p and q, p < q.",
   "id": "A090311",
   "mentions": [
-    "A090309",
-    "A090310",
     "A090312"
   ],
   "tags": [
     "base",
     "easy",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

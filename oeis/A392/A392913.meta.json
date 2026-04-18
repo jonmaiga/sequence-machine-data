@@ -1,0 +1,18 @@
+{
+  "description": "A primitive semiperfect number k is in this sequence if and only if there exists exactly one subset S of the proper divisors of k with Sum(S) = k and 1 not in S.",
+  "id": "A392913",
+  "mentions": [
+    "A000396",
+    "A006036",
+    "A392910",
+    "A392912"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

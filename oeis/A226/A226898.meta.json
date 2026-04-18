@@ -1,5 +1,5 @@
 {
-  "description": "Hooley's Delta function: maximum number of divisors of n in [u, eu] for all u. (Here e is Euler's number 2.718... = A001113.)",
+  "description": "Hooley's Delta function: maximum number of divisors of n in [u, e*u] for all u. (Here e is Euler's number 2.718... = A001113.)",
   "id": "A226898",
   "mentions": [
     "A000005",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the 10^n-th term of A389544.",
+  "id": "A392241",
+  "mentions": [
+    "A389544",
+    "A390848"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

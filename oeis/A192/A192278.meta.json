@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose product of their anti-divisors divides the product of their divisors.",
+  "description": "Numbers k whose product of their anti-divisors divides the product of their divisors.",
   "id": "A192278",
   "mentions": [
     "A066272"

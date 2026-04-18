@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: the n-th row gives the denominators of the node values in a pre-order traversal of the Calkin-Wilf tree with n levels, 0 <= k < 2^n - 1.",
+  "id": "A392671",
+  "mentions": [
+    "A001511",
+    "A002487",
+    "A003462",
+    "A254112",
+    "A392670"
+  ],
+  "tags": [
+    "frac",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

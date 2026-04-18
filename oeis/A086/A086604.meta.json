@@ -1,5 +1,5 @@
 {
-  "description": "2^(n-3)n(9n^2-9n+4).",
+  "description": "a(n) = 2^(n-3)n(9n^2-9n+4).",
   "id": "A086604",
   "mentions": [
     "A086603",

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^4 - 6.",
+  "description": "Primes of the form k^4 - 6.",
   "id": "A182351",
   "mentions": [
     "A037896"

@@ -1,14 +1,16 @@
 {
-  "description": "a(n) = 10^( (10^n-1)/9 + n) + 1.",
+  "description": "a(n) = 10^((10^n-1)/9 + n) + 1.",
   "id": "A230304",
   "mentions": [
     "A006064",
+    "A110369",
     "A230093",
     "A230094",
     "A230100"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

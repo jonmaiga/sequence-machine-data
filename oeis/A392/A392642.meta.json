@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1 / sqrt((1-x)^6 - 4*x^2).",
+  "id": "A392642",
+  "mentions": [
+    "A002426",
+    "A101500"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

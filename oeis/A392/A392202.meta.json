@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Product_{p prime >= 3} ((p - 1)^2 + 1)/((p - 1)^2 - 1).",
+  "id": "A392202",
+  "mentions": [
+    "A005597",
+    "A376742"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

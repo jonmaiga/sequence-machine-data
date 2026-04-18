@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers prime(i) such that reversal(prime(i)) = prime(reversal(i)).",
+  "id": "A393322",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A046941",
+    "A069469"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

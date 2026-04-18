@@ -1,0 +1,18 @@
+{
+  "description": "Unhappy numbers that are sandwiched between two consecutive happy numbers.",
+  "id": "A392990",
+  "mentions": [
+    "A007770",
+    "A035502",
+    "A356412"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

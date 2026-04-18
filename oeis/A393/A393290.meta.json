@@ -1,0 +1,17 @@
+{
+  "description": "Primitive congruent numbers that are the squarefree part of the area of primitive Pythagorean triangles (PPTs) ordered within a Berggren ternary tree of PPTs.",
+  "id": "A393290",
+  "mentions": [
+    "A006991",
+    "A322170"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

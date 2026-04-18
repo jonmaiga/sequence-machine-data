@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = x + ( Sum_{n>=1} A(x^n) )^3.",
+  "description": "G.f. A(x) satisfies A(x) = x + ( Sum_{n>=1} A(x^n) )^3.",
   "id": "A382318",
   "mentions": [
     "A008683",

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 4*Pi/105.",
+  "id": "A394169",
+  "mentions": [
+    "A093524",
+    "A093525",
+    "A093591",
+    "A394170",
+    "A394171",
+    "A394172",
+    "A394173",
+    "A394174",
+    "A394175",
+    "A394176"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

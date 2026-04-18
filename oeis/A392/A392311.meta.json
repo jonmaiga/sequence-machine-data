@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(3*n/5)} (k+1) * binomial(k,3*n-5*k).",
+  "id": "A392311",
+  "mentions": [
+    "A392044",
+    "A392254",
+    "A392271",
+    "A392312",
+    "A392314"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

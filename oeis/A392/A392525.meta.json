@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = A( x^3 + 15*x*A(x)^3 )^(1/3), with A(0)=0, A'(0)=1.",
+  "id": "A392525",
+  "mentions": [
+    "A000108",
+    "A271934",
+    "A377106",
+    "A392524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

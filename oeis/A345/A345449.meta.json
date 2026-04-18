@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of Gascheau's value, which is defined as the smaller solution of 27*x*(1 - x) = 1.",
   "id": "A345449",
-  "mentions": [],
+  "mentions": [
+    "A230242"
+  ],
   "tags": [
     "cons",
     "formulas",

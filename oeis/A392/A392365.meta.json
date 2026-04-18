@@ -1,0 +1,25 @@
+{
+  "description": "The cubefree numbers squared.",
+  "id": "A392365",
+  "mentions": [
+    "A003593",
+    "A004709",
+    "A062503",
+    "A113849",
+    "A157292",
+    "A189988",
+    "A336591",
+    "A374291",
+    "A374458"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

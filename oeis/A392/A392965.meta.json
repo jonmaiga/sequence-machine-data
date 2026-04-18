@@ -1,0 +1,17 @@
+{
+  "description": "Least number of vertices in a stepwise-irregular tree with at least one vertex of degree n.",
+  "id": "A392965",
+  "mentions": [
+    "A000522"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n!*Sum_{k=0..n} Fibonacci(k)/k!.",
+  "description": "a(n) = n! * Sum_{k=0..n} Fibonacci(k)/k!.",
   "id": "A111139",
   "mentions": [
     "A000023",
@@ -11,7 +11,9 @@
     "A009551",
     "A010844",
     "A053486",
-    "A263823"
+    "A098689",
+    "A263823",
+    "A277345"
   ],
   "tags": [
     "easy",
@@ -20,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

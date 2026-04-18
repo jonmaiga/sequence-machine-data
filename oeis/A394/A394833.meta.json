@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the mean distance between two points chosen independently and uniformly at random from a half-disk, one from each of the two sides of the radius that divides it into two quadrants.",
+  "id": "A394833",
+  "mentions": [
+    "A091648",
+    "A130203",
+    "A130204",
+    "A394832"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

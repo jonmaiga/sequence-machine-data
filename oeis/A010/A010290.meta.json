@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 61.",
   "id": "A010290",
-  "mentions": [],
+  "mentions": [
+    "A010632"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 76,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

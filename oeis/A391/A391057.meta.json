@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, for n > 2, a(n) shares a factor with R(a(n-1)), where R(k) is the digital reversal of k.",
+  "id": "A391057",
+  "mentions": [
+    "A004086",
+    "A064413",
+    "A161594",
+    "A210437",
+    "A239697"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

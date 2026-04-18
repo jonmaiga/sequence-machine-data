@@ -1,0 +1,19 @@
+{
+  "description": "Concatenations x||1||x for numbers x.",
+  "id": "A392225",
+  "mentions": [
+    "A392226",
+    "A392227",
+    "A392239"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

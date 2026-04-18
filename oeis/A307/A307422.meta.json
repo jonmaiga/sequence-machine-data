@@ -1,9 +1,11 @@
 {
-  "description": "End squares for a trapped knight moving on a diagonally numbered 2D board where the knight starts from square n.",
+  "description": "End squares for a trapped knight moving on a diagonally numbered first quadrant board where the knight starts on square n, or -1 if the knight does not get trapped.",
   "id": "A307422",
   "mentions": [
     "A306291",
-    "A316588"
+    "A316588",
+    "A393472",
+    "A394234"
   ],
   "tags": [
     "sign"
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Least number k such that the square root of {k^2 + (Prime[n + k] - Prime[n])^2} is an integer; or 0 if no such number exists.",
+  "description": "Least number k such that the square root of {k^2 + (prime(n + k) - prime(n))^2} is an integer; or 0 if no such number exists.",
   "id": "A066689",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "10^n-6^n+1.",
+  "description": "a(n) = 10^n - 6^n + 1.",
   "id": "A155653",
   "mentions": [
     "A155630",
@@ -33,7 +33,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

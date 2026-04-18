@@ -2,7 +2,19 @@
   "description": "Numbers whose base-9 representation has the same number of 1's and 6's.",
   "id": "A039088",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039082",
+    "A039084",
+    "A039085",
+    "A039086",
+    "A039087",
+    "A039089",
+    "A039090",
+    "A039094",
+    "A039099",
+    "A039103",
+    "A039106",
+    "A039369"
   ],
   "tags": [
     "base",

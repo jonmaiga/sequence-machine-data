@@ -2,7 +2,15 @@
   "description": "a(n) = 1 if n != p^m*(p-1) for any prime p and any m >= 0, otherwise Product_{p in W} p, where W are the primes such that n = p^m*(p-1) for some m >= 0.",
   "id": "A381887",
   "mentions": [
-    "A155457"
+    "A000010",
+    "A002202",
+    "A007614",
+    "A025487",
+    "A032447",
+    "A155457",
+    "A378636",
+    "A378638",
+    "A392539"
   ],
   "tags": [
     "formulas",
@@ -11,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

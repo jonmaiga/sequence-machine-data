@@ -1,16 +1,16 @@
 {
-  "description": "G_n(1).",
+  "description": "Number of 123-avoiding derangements of {1,2,...n}.",
   "id": "A318232",
   "mentions": [
+    "A258041",
     "A318233"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

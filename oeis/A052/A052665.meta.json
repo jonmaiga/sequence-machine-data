@@ -2,7 +2,8 @@
   "description": "a(0)=0, for n >= 1, a(n) = (2^(n-1)-1)*n!.",
   "id": "A052665",
   "mentions": [
-    "A000225"
+    "A000225",
+    "A335845"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

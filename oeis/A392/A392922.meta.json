@@ -1,0 +1,23 @@
+{
+  "description": "Odd composite k such that the odd part of psi(k) divides k-1, where psi = A002322 and odd part = A000265.",
+  "id": "A392922",
+  "mentions": [
+    "A000265",
+    "A002322",
+    "A002997",
+    "A033181",
+    "A329726",
+    "A339879",
+    "A392921",
+    "A393131"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

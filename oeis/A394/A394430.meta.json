@@ -1,0 +1,16 @@
+{
+  "description": "Totient numbers k for which there does not exist an m = p^e or 2*p^e, p an odd prime and e >= 1, such that phi(m) = k.",
+  "id": "A394430",
+  "mentions": [
+    "A000010",
+    "A002202"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,13 +1,15 @@
 {
-  "description": "Even Fibbinary numbers (A003714); also 2*Fibbinary(n).",
+  "description": "Even Fibbinary numbers (A003714); also a(n) = 2*Fibbinary(n).",
   "id": "A022340",
   "mentions": [
+    "A000045",
     "A000120",
     "A001045",
     "A003188",
     "A003714",
     "A003754",
     "A006013",
+    "A022342",
     "A066099",
     "A070939",
     "A085405",
@@ -25,6 +27,7 @@
     "A333628"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

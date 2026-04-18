@@ -1,5 +1,5 @@
 {
-  "description": "Pseudoperfect (or semiperfect) numbers n: some subset of the proper divisors of n sums to n.",
+  "description": "Pseudoperfect (or semiperfect) numbers k: some subset of the proper divisors of k sums to k.",
   "id": "A005835",
   "mentions": [
     "A000396",
@@ -15,7 +15,8 @@
     "A122036",
     "A136446",
     "A136447",
-    "A210455"
+    "A210455",
+    "A392653"
   ],
   "tags": [
     "easy",

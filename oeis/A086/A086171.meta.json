@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction of sum(prime(n)/10^b(n)), where b(n) = 1 + the total number of digits of the first n-1 primes, A068670.",
+  "description": "Continued fraction of Sum_{n>=1} (prime(n)/10^b(n)), where b(n) = 1 + the total number of digits of the first n-1 primes, A068670.",
   "id": "A086171",
   "mentions": [
     "A068670"
@@ -11,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 99,
     "source": "oeis-entry"
   }

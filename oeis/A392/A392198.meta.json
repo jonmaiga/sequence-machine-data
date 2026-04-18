@@ -1,0 +1,20 @@
+{
+  "description": "Position of the first instance of n, expressed in hexadecimal, in the hexadecimal representation of Pi.",
+  "id": "A392198",
+  "mentions": [
+    "A014777",
+    "A062964",
+    "A099333",
+    "A178707",
+    "A385936"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

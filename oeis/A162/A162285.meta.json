@@ -1,5 +1,5 @@
 {
-  "description": "Periodic length 8 sequence [1, -1, -1, 1, -1, 1, 1, -1, ...].",
+  "description": "Period 8, repeat: [1, -1, -1, 1, -1, 1, 1, -1].",
   "id": "A162285",
   "mentions": [
     "A143431"

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that Pi_{3,1}(p) = Pi_{3,2}(p), where Pi_{m,n}(p) denotes the number of primes q <= p with q == n (mod m).",
+  "id": "A392294",
+  "mentions": [
+    "A007350",
+    "A096449",
+    "A096452",
+    "A096453",
+    "A098044",
+    "A297006",
+    "A306891",
+    "A321856"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

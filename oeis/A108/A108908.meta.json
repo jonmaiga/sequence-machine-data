@@ -1,7 +1,10 @@
 {
   "description": "Largest n-digit number coprime to n.",
   "id": "A108908",
-  "mentions": [],
+  "mentions": [
+    "A394352",
+    "A394357"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,12 +1,10 @@
 {
-  "description": "Triangle read by rows:s(n,m)=Sum[StirlingS2[n, k]*StirlingS1[n - k, m]* Binomial[n, k]*(-1)^(m - k), {k, 0, n}];t[n,m]=s[n,m]+s[n,n-m].",
+  "description": "Triangle read by rows: T(n,m) = S(n,m) + S(n,n-m) where S(n,m) = Sum_{k=0..n} Stirling2(n, k) * Stirling1(n - k, m) * binomial(n, k) * (-1)^(m - k).",
   "id": "A174555",
   "mentions": [],
   "tags": [
-    "formulas",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,

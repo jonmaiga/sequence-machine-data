@@ -1,7 +1,9 @@
 {
   "description": "Expansion of e.g.f. arcsin(tan(x)) (odd powers only).",
   "id": "A012780",
-  "mentions": [],
+  "mentions": [
+    "A003706"
+  ],
   "tags": [
     "formulas",
     "nonn"

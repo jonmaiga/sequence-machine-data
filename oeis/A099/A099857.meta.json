@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+3x+x^2)/(1-3x+x^2).",
+  "description": "Expansion of (1+3*x+x^2)/(1-3*x+x^2).",
   "id": "A099857",
   "mentions": [
     "A000045",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

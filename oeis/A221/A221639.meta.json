@@ -1,5 +1,5 @@
 {
-  "description": "5^(5n+1) + 4^(5n+2) + 3^(5n).",
+  "description": "a(n) = 5^(5*n+1) + 4^(5*n+2) + 3^(5*n).",
   "id": "A221639",
   "mentions": [
     "A000244",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "joeis"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

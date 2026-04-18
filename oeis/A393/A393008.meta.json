@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of mutual Manhattan distances of the A117609(n) distinct grid points (x_i,y_i,z_i) in a cubic lattice such that x_i^2 + y_i^2 + z_i^2 <= n.",
+  "id": "A393008",
+  "mentions": [
+    "A117609",
+    "A290190",
+    "A342561",
+    "A342562",
+    "A342563"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

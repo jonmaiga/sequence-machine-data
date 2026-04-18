@@ -2,10 +2,13 @@
   "description": "a(n) is the number of open intervals (m, m+1) containing at least one fraction n/k, where m and k are integers between 1 and n.",
   "id": "A317243",
   "mentions": [
+    "A000005",
+    "A000196",
     "A055086",
     "A316519"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

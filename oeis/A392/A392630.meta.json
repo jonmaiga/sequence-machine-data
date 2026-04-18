@@ -1,0 +1,30 @@
+{
+  "description": "The number of exponential divisors of n that are numbers whose number of divisors is a power of 2.",
+  "id": "A392630",
+  "mentions": [
+    "A000668",
+    "A036537",
+    "A049419",
+    "A154402",
+    "A161790",
+    "A318672",
+    "A322791",
+    "A353786",
+    "A380395",
+    "A392628",
+    "A392629",
+    "A392631",
+    "A392632"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

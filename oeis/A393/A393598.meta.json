@@ -1,0 +1,27 @@
+{
+  "description": "Maximum width of a simple perfect squared rectangle (SPSR) of order n.",
+  "id": "A393598",
+  "mentions": [
+    "A002839",
+    "A129947",
+    "A217148",
+    "A217149",
+    "A217154",
+    "A219766",
+    "A228953",
+    "A338861",
+    "A393599",
+    "A393600"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -2,10 +2,12 @@
   "description": "Number of partitions of n having twice as many even parts as odd.",
   "id": "A239004",
   "mentions": [
+    "A045931",
     "A239258"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

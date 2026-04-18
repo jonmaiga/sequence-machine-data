@@ -1,5 +1,5 @@
 {
-  "description": "1/7 the number of nX5 0..6 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors.",
+  "description": "1/7 the number of n X 5 0..6 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors.",
   "id": "A185408",
   "mentions": [
     "A185409"

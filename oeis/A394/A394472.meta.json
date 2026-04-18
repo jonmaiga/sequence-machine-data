@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Product_{k=1..n} (2*prime(n)-prime(k)).",
+  "id": "A394472",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

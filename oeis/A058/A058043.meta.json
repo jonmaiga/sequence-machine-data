@@ -1,7 +1,10 @@
 {
   "description": "a(n) = nextprime(n^2) - prevprime(n^2).",
   "id": "A058043",
-  "mentions": [],
+  "mentions": [
+    "A350100",
+    "A378904"
+  ],
   "tags": [
     "nonn"
   ],

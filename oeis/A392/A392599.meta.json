@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A276087(n) mod 360, where A276087 is the primorial base exp-function applied twice.",
+  "id": "A392599",
+  "mentions": [
+    "A276086",
+    "A276087",
+    "A392596",
+    "A392600"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

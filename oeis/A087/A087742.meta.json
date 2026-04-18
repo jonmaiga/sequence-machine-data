@@ -1,16 +1,17 @@
 {
-  "description": "a(n) = 1+Abs[Prime[A005185[n]]-A005185[Prime[n]]].",
+  "description": "a(n) = 1 + abs(prime(A005185(n)) - A005185(prime(n))).",
   "id": "A087742",
   "mentions": [
     "A000040",
     "A005185"
   ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 85,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

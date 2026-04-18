@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that sigma(k) = 2*k + 5*phi(k).",
+  "id": "A392693",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000396",
+    "A002110",
+    "A005843",
+    "A008578",
+    "A068412",
+    "A088826",
+    "A099650",
+    "A392691",
+    "A392692"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

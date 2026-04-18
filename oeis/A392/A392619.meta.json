@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = denominator((2^n*(n!)^2/(1+2*n)!)^2).",
+  "id": "A392619",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A001044",
+    "A002697",
+    "A009445",
+    "A124399",
+    "A134374"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

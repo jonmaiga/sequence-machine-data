@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of 4-dimensional balanced ballot paths of 4n steps and symmetric height exactly k.",
+  "id": "A393594",
+  "mentions": [
+    "A001246",
+    "A005790",
+    "A387987",
+    "A393571",
+    "A393573"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

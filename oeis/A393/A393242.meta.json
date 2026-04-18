@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of divisors of n! with exactly n divisors.",
+  "id": "A393242",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A005179",
+    "A027423",
+    "A099311",
+    "A393241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

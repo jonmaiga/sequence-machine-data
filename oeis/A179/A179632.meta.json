@@ -1,14 +1,16 @@
 {
   "description": "Primes p such that p + the integer part of square root of its digits is a prime.",
   "id": "A179632",
-  "mentions": [],
+  "mentions": [
+    "A179633"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
-    "source": "oeis-entry"
+    "size": 52,
+    "source": "oeis-bfile"
   }
 }

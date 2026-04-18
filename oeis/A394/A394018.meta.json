@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f.: Product_{k>=1} 1 / (1 - x^(k^2 + 3)).",
+  "id": "A394018",
+  "mentions": [
+    "A001156",
+    "A393990",
+    "A394017",
+    "A394019",
+    "A394020"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

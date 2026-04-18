@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4-stack polyominoes having semiperimeter equal to n.",
+  "id": "A393099",
+  "mentions": [
+    "A005436",
+    "A126764",
+    "A128611"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "joeis"
+  }
+}

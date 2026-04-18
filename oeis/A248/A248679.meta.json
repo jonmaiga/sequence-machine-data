@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of r = sum_{n >= 0} floor(3n/2)!/(2n)!.",
+  "description": "Decimal expansion of r = Sum_{n >= 0} floor(3n/2)!/(2n)!.",
   "id": "A248679",
   "mentions": [
     "A248680",

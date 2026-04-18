@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i * 6^j)) / (1 - x^(i * 6^j)).",
+  "id": "A393558",
+  "mentions": [
+    "A327727",
+    "A373220",
+    "A373297",
+    "A393555",
+    "A393556",
+    "A393557",
+    "A393559"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

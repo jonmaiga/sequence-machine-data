@@ -1,5 +1,5 @@
 {
-  "description": "Number of bits in Elias omega-coded prime numbers.",
+  "description": "a(n) is the number of bits in the Elias omega-coded value of prime(n).",
   "id": "A147814",
   "mentions": [
     "A000040",
@@ -9,8 +9,7 @@
     "base",
     "easy",
     "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

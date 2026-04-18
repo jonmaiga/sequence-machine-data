@@ -1,0 +1,20 @@
+{
+  "description": "Denominators > 1 of ratio n!/sigma(n), where n! = factorial of n (A000142) and sigma(n) = sum of divisors of n (A000203).",
+  "id": "A390815",
+  "mentions": [
+    "A000142",
+    "A000203",
+    "A062700",
+    "A325436",
+    "A390836"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

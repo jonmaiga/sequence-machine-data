@@ -1,5 +1,5 @@
 {
-  "description": "The decimal digits of n appear n times in the decimal representation of n!.",
+  "description": "Numbers k such the digits of k appear k times in total in the decimal representation of k!.",
   "id": "A264688",
   "mentions": [],
   "tags": [

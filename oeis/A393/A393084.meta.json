@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that c(p) - tau(p) is divisible by 120, where c(n) are coefficients of Klein's j-invariant and tau(n) are values of the Ramanujan tau function.",
+  "id": "A393084",
+  "mentions": [
+    "A000040",
+    "A000521",
+    "A000594"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

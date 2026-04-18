@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the volume of an uniform octagonal antiprism with unit edges.",
+  "id": "A394534",
+  "mentions": [
+    "A002193",
+    "A387320",
+    "A387323",
+    "A394535",
+    "A394536",
+    "A394537",
+    "A394538"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

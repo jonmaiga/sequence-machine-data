@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-x^5+x^8+x^10)/(b(4)*b(5)*b(6)) where b(n) = 1-x^n.",
+  "description": "Expansion of (1-x^5+x^8+x^10)/((1-x^4)*(1-x^5)*(1-x^6)).",
   "id": "A319973",
   "mentions": [],
   "tags": [

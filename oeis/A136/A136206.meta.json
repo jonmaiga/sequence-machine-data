@@ -1,5 +1,5 @@
 {
-  "description": "Triangle H(n,j) (n=1,2,3,..., j=2,3,4,...) read by rows: let X(k,l,n) := Stirling2(n,k)*Stirling2(k,l) for 1<=k<=n and 1<=l<=k. Then H(n,j)= sum_{k+l=j, 1<=k<=n and 1<=l<=k} X(k,l,n).",
+  "description": "Triangle H(n,j) (n=1,2,3,..., j=2,3,4,...) read by rows: let X(k,l,n) := Stirling2(n,k)*Stirling2(k,l) for 1<=k<=n and 1<=l<=k. Then H(n,j)= Sum_{k+l=j, 1<=k<=n and 1<=l<=k} X(k,l,n).",
   "id": "A136206",
   "mentions": [
     "A000258",

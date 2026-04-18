@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 24n+7 is prime.",
+  "description": "Numbers k such that 24*k + 7 is prime.",
   "id": "A139483",
   "mentions": [
     "A107006",

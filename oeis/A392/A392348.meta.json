@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the Chebyshev distance from 1 to p in the Ulam spiral is not a prime number.",
+  "id": "A392348",
+  "mentions": [
+    "A000040",
+    "A392219",
+    "A392353"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

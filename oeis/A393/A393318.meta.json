@@ -1,0 +1,19 @@
+{
+  "description": "Final square visited by a knight moving on a square-spiral numbered board when starting from square n and always moving to the lowest available unvisited square.",
+  "id": "A393318",
+  "mentions": [
+    "A306291",
+    "A307422",
+    "A316667",
+    "A393472"
+  ],
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Fourth column of A392806.",
+  "id": "A393082",
+  "mentions": [
+    "A214411",
+    "A373217",
+    "A392138",
+    "A392805",
+    "A392806"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

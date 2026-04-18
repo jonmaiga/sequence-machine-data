@@ -2,11 +2,14 @@
   "description": "Primes made up of 0's and four 1's only.",
   "id": "A157711",
   "mentions": [
+    "A007088",
     "A020449",
     "A038446",
     "A062339",
     "A235154",
-    "A383675"
+    "A383675",
+    "A393530",
+    "A393531"
   ],
   "tags": [
     "base",
@@ -14,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

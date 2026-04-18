@@ -2,6 +2,8 @@
   "description": "Decimal expansion of V_3T, a Quantum Field Theory constant [negated] related to the coloring of the tetrahedron with three masses (triangle case).",
   "id": "A274415",
   "mentions": [
+    "A002117",
+    "A013662",
     "A274412",
     "A274413",
     "A274414",

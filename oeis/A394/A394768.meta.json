@@ -1,0 +1,22 @@
+{
+  "description": "Number of Achilles numbers that do not exceed 2^n.",
+  "id": "A394768",
+  "mentions": [
+    "A000079",
+    "A008683",
+    "A052486",
+    "A062762",
+    "A070228",
+    "A372403",
+    "A380431"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

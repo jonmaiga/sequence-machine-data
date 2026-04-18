@@ -1,0 +1,23 @@
+{
+  "description": "Walk along the square spiral in the first quadrant (see link). Start with no knights. If the square you are at is not attacked by an existing knight, place a knight there, otherwise leave it empty. The sequence lists the squares where the knights are.",
+  "id": "A392181",
+  "mentions": [
+    "A213088",
+    "A274641",
+    "A308885",
+    "A319289",
+    "A319290",
+    "A392177",
+    "A392180",
+    "A392182",
+    "A392183"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

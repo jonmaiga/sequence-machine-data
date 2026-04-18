@@ -1,5 +1,5 @@
 {
-  "description": "n! - n^4.",
+  "description": "a(n) = n! - n^4.",
   "id": "A196411",
   "mentions": [
     "A005008",

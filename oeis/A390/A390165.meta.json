@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled semigroups with n elements satisfying the equation xyz = xy.",
+  "id": "A390165",
+  "mentions": [
+    "A023814",
+    "A362386",
+    "A389829",
+    "A390163"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

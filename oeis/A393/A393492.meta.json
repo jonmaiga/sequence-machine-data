@@ -1,0 +1,25 @@
+{
+  "description": "S-practical numbers: numbers m such that every number 1 <= k <= Sum_{d|m} s(d) = A211779(m) is a subsum of the multiset {s(d) : d|m}, where s is the sum of aliquot divisors function (A001065).",
+  "id": "A393492",
+  "mentions": [
+    "A001065",
+    "A005153",
+    "A211779",
+    "A246547",
+    "A260653",
+    "A286906",
+    "A336506",
+    "A336508",
+    "A393493",
+    "A393494",
+    "A393495"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

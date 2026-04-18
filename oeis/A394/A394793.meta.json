@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive multiple of n whose decimal representation contains every distinct digit of n+1.",
+  "id": "A394793",
+  "mentions": [
+    "A380885",
+    "A393845"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

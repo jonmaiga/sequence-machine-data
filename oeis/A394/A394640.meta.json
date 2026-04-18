@@ -1,0 +1,23 @@
+{
+  "description": "Start of exactly six even numbers that are totient numbers (A002202).",
+  "id": "A394640",
+  "mentions": [
+    "A002202",
+    "A333021",
+    "A333023",
+    "A393544",
+    "A394635",
+    "A394636",
+    "A394637",
+    "A394638",
+    "A394639"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

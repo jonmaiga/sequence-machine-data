@@ -1,5 +1,5 @@
 {
-  "description": "A fractal sequence.",
+  "description": "Partial sums of A083056.",
   "id": "A083057",
   "mentions": [
     "A083038",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 - 1 is a tetrahedral number (A000292).",
+  "description": "Numbers k such that k^2 - 1 is a tetrahedral number (A000292).",
   "id": "A216269",
   "mentions": [
     "A000292",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {

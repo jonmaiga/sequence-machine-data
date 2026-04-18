@@ -1,0 +1,22 @@
+{
+  "description": "Maximum number of parts i with multiplicity i possible in a partition of n.",
+  "id": "A394247",
+  "mentions": [
+    "A000041",
+    "A000330",
+    "A276429",
+    "A336273",
+    "A391611",
+    "A392745",
+    "A394246"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

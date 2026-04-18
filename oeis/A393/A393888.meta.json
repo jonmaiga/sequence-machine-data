@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies 3*A(x) = 1 + x + 2*A(x*A(x)).",
+  "id": "A393888",
+  "mentions": [
+    "A242003",
+    "A392379",
+    "A393889",
+    "A393890"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of circular parking functions of length n avoiding the pattern 123.",
+  "id": "A394236",
+  "mentions": [
+    "A019536",
+    "A121774",
+    "A171005",
+    "A213937",
+    "A393352",
+    "A394237",
+    "A394238"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Start with a single point at the origin of the square grid. At each step, add a point adjacent to an existing point in such a way that the maximum number of existing points on a line through the new point is as small as possible. In case of ties, compare the number of points on the line with the next largest number of points, etc. If there is still a tie, choose the lexicographically largest point. a(n) is the number of points that have been added when n collinear points first appear.",
+  "id": "A393937",
+  "mentions": [
+    "A380991",
+    "A393935",
+    "A393939"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

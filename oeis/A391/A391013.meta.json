@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that a k-gon is the first polygon where an agreement of the areas of k-gons inscribed and circumscribed to a unit circle agree with the true value of Pi when truncated to n digits.",
+  "id": "A391013",
+  "mentions": [
+    "A000796",
+    "A011545",
+    "A051762",
+    "A085365",
+    "A244644"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

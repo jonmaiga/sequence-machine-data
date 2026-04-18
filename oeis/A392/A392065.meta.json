@@ -2,8 +2,7 @@
   "description": "a(n) = number of primes with unit exponent in the prime factorization of n, or 1 if no such primes exist.",
   "id": "A392065",
   "mentions": [
-    "A056169",
-    "A392063"
+    "A056169"
   ],
   "tags": [
     "formulas",

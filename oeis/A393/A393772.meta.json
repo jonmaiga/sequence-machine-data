@@ -1,0 +1,17 @@
+{
+  "description": "Imaginary part of Sum_{n>=0} (2*Pi*i + 1/2^n)^n / n!.",
+  "id": "A393772",
+  "mentions": [
+    "A393771"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 120,
+    "source": "joeis"
+  }
+}

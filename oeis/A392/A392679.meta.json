@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the permanent of an n X n circulant matrix whose first row is given by the first n cube numbers 0, 1, ..., (n-1)^3.",
+  "id": "A392679",
+  "mentions": [
+    "A000578",
+    "A118709"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

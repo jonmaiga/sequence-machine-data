@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} floor((k/2)^2)*n^2. Row sums of A391996.",
+  "id": "A391997",
+  "mentions": [
+    "A391996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

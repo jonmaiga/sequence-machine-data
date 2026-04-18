@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the position of the first occurrence of 2*n+1 in A393562.",
+  "id": "A393699",
+  "mentions": [
+    "A393562",
+    "A393700",
+    "A393701"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

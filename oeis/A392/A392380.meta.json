@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers k whose multiset of prime factors can be partitioned into three nonempty subsets whose sums form a nondegenerate triangle.",
+  "id": "A392380",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001414",
+    "A006530",
+    "A030514",
+    "A033942",
+    "A306678",
+    "A366398",
+    "A376348",
+    "A378819",
+    "A379033",
+    "A389414",
+    "A392381"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,10 +2,7 @@
   "description": "Denominators of partial alternating sums of Catalan numbers scaled by powers of 1/125.",
   "id": "A121005",
   "mentions": [
-    "A000032",
-    "A000045",
     "A000108",
-    "A120996",
     "A121004"
   ],
   "tags": [
@@ -16,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 16,
     "source": "joeis"
   }
 }

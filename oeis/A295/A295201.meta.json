@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..1 arrays with each 1 horizontally or vertically adjacent to 2 or 4 1s.",
+  "description": "Number of n X 4 0..1 arrays with each 1 horizontally or vertically adjacent to 2 or 4 1s.",
   "id": "A295201",
   "mentions": [
     "A295205"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

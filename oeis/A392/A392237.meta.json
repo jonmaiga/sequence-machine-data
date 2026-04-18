@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal irredundant sets in the n-double cone graph.",
+  "id": "A392237",
+  "mentions": [
+    "A286954",
+    "A291063",
+    "A391917"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

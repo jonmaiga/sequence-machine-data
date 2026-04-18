@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes that have only one smallest digit (strict minimum).",
+  "id": "A393807",
+  "mentions": [
+    "A002113",
+    "A110785",
+    "A134970",
+    "A266139",
+    "A393015"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

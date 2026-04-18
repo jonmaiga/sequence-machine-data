@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=0..k} 2^(n - j) * j! * Stirling2(n, j).",
+  "id": "A394442",
+  "mentions": [
+    "A048993",
+    "A122704",
+    "A123125",
+    "A131689",
+    "A394440"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

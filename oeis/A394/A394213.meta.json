@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A394212.",
+  "id": "A394213",
+  "mentions": [
+    "A101274",
+    "A394212",
+    "A394214"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

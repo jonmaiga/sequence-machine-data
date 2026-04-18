@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 2*Pi/(1 + phi^2), where phi = A001622.",
+  "id": "A392302",
+  "mentions": [
+    "A001622",
+    "A019692",
+    "A096627",
+    "A104457",
+    "A131988",
+    "A296184",
+    "A392301"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

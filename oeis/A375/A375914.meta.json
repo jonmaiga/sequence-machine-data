@@ -1,5 +1,5 @@
 {
-  "description": "Base-5 Euler-Jacobi pseudoprimes: odd composite k coprime to 5 such that 5^((k-1)/2) == (5/k) (mod n), where (5/k) is the Jacobi symbol (or Kronecker symbol).",
+  "description": "Base-5 Euler-Jacobi pseudoprimes: odd composite k coprime to 5 such that 5^((k-1)/2) == (5/k) (mod k), where (5/k) is the Jacobi symbol (or Kronecker symbol).",
   "id": "A375914",
   "mentions": [
     "A006970",

@@ -1,0 +1,21 @@
+{
+  "description": "The difference between the maximum and minimum voucher costs for n distinct positive integer vouchers v_1, v_2, ..., v_n, where the cost is defined as v_1 + v_1*v_2 + v_2*v_3 + ... + v_(n-1)*v_n.",
+  "id": "A393532",
+  "mentions": [
+    "A026035",
+    "A101986",
+    "A110610",
+    "A110611",
+    "A393145"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

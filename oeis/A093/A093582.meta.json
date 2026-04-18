@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 3/(2*Pi).",
   "id": "A093582",
-  "mentions": [],
+  "mentions": [
+    "A019693"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

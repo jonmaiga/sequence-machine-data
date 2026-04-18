@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 has one or more occurrences of exactly nine different digits.",
+  "description": "Numbers k such that k^3 has one or more occurrences of exactly nine different digits.",
   "id": "A235811",
   "mentions": [
     "A030292",

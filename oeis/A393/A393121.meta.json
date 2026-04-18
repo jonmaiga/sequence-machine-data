@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k for which A024360(k) = n, or a(n) = -1 if such k does not exist.",
+  "id": "A393121",
+  "mentions": [
+    "A024360"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

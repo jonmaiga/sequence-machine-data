@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the concatenation n written in base 2 n times, n-1 written in base 2 n-1 times, ..., 1 written in base 2 once.",
+  "description": "a(n) is the concatenation of n written in base 2 n times, n-1 written in base 2 n-1 times, ..., 1 written in base 2 once.",
   "id": "A300558",
   "mentions": [
     "A007088",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {

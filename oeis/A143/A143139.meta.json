@@ -2,9 +2,14 @@
   "description": "E.g.f.: A(x) = exp(x + A(x)^2) - 1.",
   "id": "A143139",
   "mentions": [
-    "A143138"
+    "A000010",
+    "A143138",
+    "A281181",
+    "A391954",
+    "A392723"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

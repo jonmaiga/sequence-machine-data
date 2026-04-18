@@ -2,6 +2,7 @@
   "description": "The diagonal of the rational function 1/(1 - x - y - x y - x z - y z).",
   "id": "A268542",
   "mentions": [
+    "A183204",
     "A268545",
     "A268555"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

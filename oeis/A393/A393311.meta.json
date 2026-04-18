@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n-k-2)!!^2 * binomial(n,k) if n+k is odd, else 0.",
+  "id": "A393311",
+  "mentions": [
+    "A177145",
+    "A291482"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

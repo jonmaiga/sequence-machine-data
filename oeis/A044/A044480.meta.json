@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that string 4,2 occurs in the base 5 representation of n but not of n+1.",
+  "description": "Numbers k such that string 4,2 occurs in the base 5 representation of k but not of k+1.",
   "id": "A044480",
   "mentions": [],
   "tags": [

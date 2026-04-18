@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k such that binomial(11*k, k) == 11^k (mod k).",
+  "id": "A392484",
+  "mentions": [
+    "A002808",
+    "A080469",
+    "A084699",
+    "A109760",
+    "A109769"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

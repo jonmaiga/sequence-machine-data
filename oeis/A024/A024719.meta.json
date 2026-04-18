@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (1/3)*(2 + Sum_{k=0..n} C(3k,k)).",
   "id": "A024719",
-  "mentions": [],
+  "mentions": [
+    "A024718"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (Pi - 149/60)/60.",
+  "id": "A393087",
+  "mentions": [
+    "A019673",
+    "A069080"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

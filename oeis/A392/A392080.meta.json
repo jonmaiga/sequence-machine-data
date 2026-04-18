@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of repeated difference values among the consecutive divisors of A259366(n).",
+  "id": "A392080",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A060682",
+    "A193829",
+    "A259366",
+    "A392079"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

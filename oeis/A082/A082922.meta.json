@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that when the digits of Fibonacci(n) are sorted into decreasing order and zeros are dropped it is a prime.",
+  "description": "Numbers k such that when the digits of Fibonacci(k) are sorted into decreasing order and zeros are dropped it is a prime.",
   "id": "A082922",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A028867"
+  ],
   "tags": [
     "base",
     "nonn"

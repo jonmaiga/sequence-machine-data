@@ -5,15 +5,16 @@
     "A000984",
     "A007318",
     "A009766",
-    "A011782"
+    "A011782",
+    "A393178"
   ],
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 36,
+    "offset": 0,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

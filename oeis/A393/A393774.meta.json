@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/(1 - q^2 - q^3/(1 - q^4 - q^5/(1 - q^6 - q^7/(1 - q^8 - q^9/(1 - ... ))))), a continued fraction.",
+  "id": "A393774",
+  "mentions": [
+    "A088352",
+    "A316585"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

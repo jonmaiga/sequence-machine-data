@@ -1,0 +1,26 @@
+{
+  "description": "The position of the first occurrence of n in A392610.",
+  "id": "A392614",
+  "mentions": [
+    "A002110",
+    "A143293",
+    "A258937",
+    "A260187",
+    "A267263",
+    "A324198",
+    "A324583",
+    "A328574",
+    "A392610",
+    "A392615"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

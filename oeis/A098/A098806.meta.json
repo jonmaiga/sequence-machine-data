@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p such that 2n-p and 2n+p are both prime.",
+  "description": "Smallest prime p such that p - A098807(n) and p + A098807(n) are both prime.",
   "id": "A098806",
   "mentions": [
     "A098807"
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

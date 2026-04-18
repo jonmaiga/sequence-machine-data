@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = the length of the n-th run of 1's in A392200.",
+  "id": "A394761",
+  "mentions": [
+    "A381466",
+    "A392200"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

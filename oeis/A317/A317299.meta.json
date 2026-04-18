@@ -2,6 +2,7 @@
   "description": "Semiprimes in A072226.",
   "id": "A317299",
   "mentions": [
+    "A001358",
     "A019320",
     "A072226"
   ],

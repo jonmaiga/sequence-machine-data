@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n divisible by precprime(sqrt(n)) or nextprime(sqrt(n)) but not both, where precprime=A007917, nextprime=A007918.",
+  "description": "Numbers k divisible by precprime(sqrt(k)) or nextprime(sqrt(k)) but not both, where precprime=A007917, nextprime=A007918.",
   "id": "A157939",
   "mentions": [
     "A001248",

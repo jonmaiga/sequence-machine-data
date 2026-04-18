@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers p of the form 10k+1 for which the pentanacci quintic polynomial x^5-x^4-x^3-x^2-x-1 modulus p is factorizable into five binomials.",
+  "description": "Primes p of the form 10k+1 for which the polynomial x^5-x^4-x^3-x^2-x-1 modulo p is factorizable into five binomials.",
   "id": "A135843",
   "mentions": [
     "A135842"

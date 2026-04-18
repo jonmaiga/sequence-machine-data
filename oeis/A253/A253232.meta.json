@@ -1,5 +1,5 @@
 {
-  "description": "Smallest of five consecutive primes in arithmetic progression with common difference 90 and equal digit sums.",
+  "description": "Smallest of five primes in arithmetic progression with common difference 90 and equal digit sums.",
   "id": "A253232",
   "mentions": [
     "A000040",

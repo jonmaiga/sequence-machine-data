@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k^2 - 1 is one of Ramanujan's largely composite numbers (A067128).",
+  "id": "A391884",
+  "mentions": [
+    "A000290",
+    "A067128"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Nonpalindromic n which have the same number of distinct prime divisors as the reverse of n.",
+  "description": "Nonpalindromic k which have the same number of distinct prime divisors as the reverse of k.",
   "id": "A115662",
   "mentions": [
     "A001221",
+    "A029742",
     "A115661"
   ],
   "tags": [

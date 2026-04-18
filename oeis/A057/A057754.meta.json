@@ -1,5 +1,5 @@
 {
-  "description": "Integer nearest to Li(10^n), where Li(x) = integral(0..x, dt/log(t)).",
+  "description": "Integer nearest to Li(10^n), where Li(x) = Integral_{t=0..x} dt/log(t).",
   "id": "A057754",
   "mentions": [
     "A000720",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

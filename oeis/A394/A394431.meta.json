@@ -1,0 +1,18 @@
+{
+  "description": "The smallest base b < n where the sum of the digits for the number n in the base b is the largest, with 1 < b < n and a(1) = a(2) = 1.",
+  "id": "A394431",
+  "mentions": [
+    "A007953",
+    "A329814"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

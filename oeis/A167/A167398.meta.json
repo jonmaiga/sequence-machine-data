@@ -2,15 +2,19 @@
   "description": "a(n) = Fibonacci(11*n).",
   "id": "A167398",
   "mentions": [
-    "A134498"
+    "A000045",
+    "A008593",
+    "A134498",
+    "A305413"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 15,
     "source": "joeis"
   }
 }

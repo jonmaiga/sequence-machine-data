@@ -2,8 +2,10 @@
   "description": "Numbers that are both lucky and prime.",
   "id": "A031157",
   "mentions": [
+    "A000040",
     "A000959",
     "A010051",
+    "A016921",
     "A055728",
     "A145649"
   ],

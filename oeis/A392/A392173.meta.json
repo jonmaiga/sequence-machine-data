@@ -1,5 +1,5 @@
 {
-  "description": "Total number of vertices in the graph (see A392172) formed when n points are placed in general position on each edge of a square and a chord is drawn from each point to the the 3*n points on the other three sides.",
+  "description": "Total number of vertices in the graph (see A392172) formed when n points are placed in general position on each edge of a square and a chord is drawn from each point to the 3*n points on the other three sides.",
   "id": "A392173",
   "mentions": [
     "A331449",
@@ -9,12 +9,13 @@
     "A392174"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

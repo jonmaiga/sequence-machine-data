@@ -2,15 +2,18 @@
   "description": "Number of n X 1 0..3 arrays with no element equal to one plus the sum of elements to its left or one plus the sum of elements above it, modulo 4.",
   "id": "A239040",
   "mentions": [
-    "A239047"
+    "A077999",
+    "A239047",
+    "A357101"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "joeis"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

@@ -1,10 +1,11 @@
 {
-  "description": "O.g.f. A(x) satisfies: [x^n] exp(-n*A(x)) / (1 - n*x) = 0, for n > 0.",
+  "description": "O.g.f. A(x) satisfies [x^n] exp(-n*A(x)) / (1 - n*x) = 0, for n > 0.",
   "id": "A319938",
   "mentions": [
     "A088716",
     "A319939",
     "A319940",
+    "A320414",
     "A320417",
     "A321085"
   ],

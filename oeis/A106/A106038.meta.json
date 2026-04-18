@@ -1,11 +1,11 @@
 {
-  "description": "Triangle Loop von Koch substitution: characteristic polynomial:x^3-6x^2+8*x.",
+  "description": "Triangle read by rows, based on the morphism f: 1->1231, 2->2112, 3->3113.",
   "id": "A106038",
   "mentions": [],
   "tags": [
     "formulas",
     "nonn",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "offset": 0,

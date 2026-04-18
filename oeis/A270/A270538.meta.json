@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n > 0 such that n = (d_1^1 + d_2^2 + d_3^3 + ...)^2, where d_k represents the k-th decimal digit of n.",
+  "description": "Numbers k such that k = (d_1^1 + d_2^2 + d_3^3 + ...)^2, where d_i represents the i-th decimal digit of k.",
   "id": "A270538",
   "mentions": [],
   "tags": [

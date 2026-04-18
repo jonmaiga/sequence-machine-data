@@ -2,7 +2,13 @@
   "description": "Integers in base 15 with each base 15 digit represented by 2 decimal digits.",
   "id": "A055646",
   "mentions": [
-    "A049872"
+    "A049872",
+    "A055643",
+    "A055644",
+    "A055645",
+    "A055647",
+    "A055648",
+    "A055649"
   ],
   "tags": [
     "base",
@@ -12,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

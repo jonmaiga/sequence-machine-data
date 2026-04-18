@@ -1,0 +1,17 @@
+{
+  "description": "Total number of linear intervals in the weak order on the Coxeter group B_n.",
+  "id": "A394191",
+  "mentions": [
+    "A000165",
+    "A344216",
+    "A394190"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "joeis"
+  }
+}

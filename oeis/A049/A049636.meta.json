@@ -2,6 +2,8 @@
   "description": "Congruent to 0 or 2 mod 3, but not equal to 0 or 3.",
   "id": "A049636",
   "mentions": [
+    "A000034",
+    "A004526",
     "A007494",
     "A049627"
   ],

@@ -1,0 +1,20 @@
+{
+  "description": "Terms in Recamán's sequence A005132 which are the result of a record number of subtraction steps.",
+  "id": "A393285",
+  "mentions": [
+    "A005132",
+    "A057165",
+    "A057166",
+    "A390717",
+    "A392407",
+    "A393284"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

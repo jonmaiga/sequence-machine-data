@@ -1,0 +1,20 @@
+{
+  "description": "The order of the Monster simple group in the factorial number system.",
+  "id": "A393078",
+  "mentions": [
+    "A003131",
+    "A051161",
+    "A343743"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

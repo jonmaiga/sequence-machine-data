@@ -2,6 +2,7 @@
   "description": "Decimal expansion of average length of a line segment picked at random in a unit 4-cube.",
   "id": "A103983",
   "mentions": [
+    "A006752",
     "A103984",
     "A103985",
     "A103986",

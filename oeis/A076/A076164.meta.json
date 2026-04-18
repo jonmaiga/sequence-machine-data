@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of squares of even digits of n equals sum of squares of odd digits of n.",
+  "description": "Numbers k such that sum of squares of even digits of k equals sum of squares of odd digits of .",
   "id": "A076164",
   "mentions": [
     "A036301",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=2, a(1)=1, and thereafter a(n) = R(a(n-1) + a(n-2)) where R(x) = A004086(x) is the decimal digit reversal of x.",
+  "id": "A387786",
+  "mentions": [
+    "A000032",
+    "A004086",
+    "A014258",
+    "A036447"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

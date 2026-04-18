@@ -1,19 +1,19 @@
 {
-  "description": "A symmetrical triangle sequence: q=1;t(n,m,q)=If[q == 1, Binomial[n, m] + Eulerian[n + 1, m] - Binomial[n, m]*Eulerian[n + 1, m], (q - 1) + Binomial[n, m]^q + Eulerian[n + 1, m]^q - q*Binomial[n, m]*Eulerian[n + 1, m]].",
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k) + Eulerian1(n+1,k) - binomial(n,k) * Eulerian1(n+1,k).",
   "id": "A174966",
   "mentions": [
+    "A173018",
     "A174912",
     "A174914"
   ],
   "tags": [
-    "formulas",
+    "less",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "joeis"
   }
 }

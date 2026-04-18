@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of sqrt(105)/5 - 1.",
+  "id": "A395019",
+  "mentions": [
+    "A093530",
+    "A093531",
+    "A176461",
+    "A394605",
+    "A394607",
+    "A395018",
+    "A395020"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

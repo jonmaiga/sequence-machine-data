@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the probability that the cusp of a given cardioid lies within the triangle formed by three points chosen uniformly and independently at random from the interior of that cardioid.",
+  "id": "A393430",
+  "mentions": [
+    "A020773",
+    "A197723",
+    "A393427",
+    "A393428",
+    "A393429"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n | Sigma_2(n) + Phi(n)^2.",
+  "description": "Numbers k such that k | sigma_2(k) + phi(k)^2.",
   "id": "A055696",
   "mentions": [
+    "A000010",
     "A001157"
   ],
   "tags": [
@@ -9,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

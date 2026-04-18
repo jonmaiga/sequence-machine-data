@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the smallest positive zero of the Hermite polynomial of degree 5.",
+  "id": "A393357",
+  "mentions": [
+    "A010503",
+    "A019704",
+    "A019708",
+    "A019717",
+    "A115754",
+    "A245887",
+    "A393353",
+    "A393354",
+    "A393355",
+    "A393356",
+    "A393358",
+    "A393360",
+    "A393361"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

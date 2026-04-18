@@ -1,8 +1,9 @@
 {
-  "description": "Polycyclic aromatic hydrocarbons (for precise definition see He and He, 1986).",
+  "description": "Number of branched cata-condensed benzenoid hydrocarbons with n hexagons.",
   "id": "A323851",
   "mentions": [
     "A003104",
+    "A038142",
     "A323924",
     "A323930"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

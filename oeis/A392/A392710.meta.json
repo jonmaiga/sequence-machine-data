@@ -1,0 +1,40 @@
+{
+  "description": "Numbers whose prime indices are the first sums of some finite weakly increasing sequence of integers > 1.",
+  "id": "A392710",
+  "mentions": [
+    "A001222",
+    "A007775",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A103919",
+    "A112798",
+    "A316524",
+    "A344606",
+    "A344612",
+    "A344616",
+    "A345958",
+    "A346699",
+    "A390307",
+    "A390362",
+    "A390429",
+    "A390431",
+    "A390445",
+    "A390446",
+    "A390448",
+    "A390449",
+    "A390990",
+    "A391981",
+    "A391982",
+    "A392374",
+    "A392695"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

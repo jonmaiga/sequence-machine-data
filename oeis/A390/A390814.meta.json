@@ -1,0 +1,19 @@
+{
+  "description": "Number of cyclically symmetric plane partitions with n orbits of cubes up to the action of C3.",
+  "id": "A390814",
+  "mentions": [
+    "A000219",
+    "A003293",
+    "A006366",
+    "A096419",
+    "A392511"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

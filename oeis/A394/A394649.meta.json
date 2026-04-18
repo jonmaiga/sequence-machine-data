@@ -1,0 +1,18 @@
+{
+  "description": "Rectangular array, read by descending antidiagonals: the offset sum array of the infinite Fibonacci word, A003849; see Comments.",
+  "id": "A394649",
+  "mentions": [
+    "A003849",
+    "A394648"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

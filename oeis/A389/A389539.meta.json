@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of edges blocked from infinity by n vertices of a hexagonal grid.",
+  "id": "A389539",
+  "mentions": [
+    "A002620",
+    "A197459"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

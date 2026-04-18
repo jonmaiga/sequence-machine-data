@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A122111(n) mod prime(1+bigomega(n)).",
+  "id": "A392872",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A105560",
+    "A122111",
+    "A392865",
+    "A392866",
+    "A392874",
+    "A392875",
+    "A392876"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

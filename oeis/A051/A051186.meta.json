@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Stirling number triangle of first kind.",
+  "description": "Triangle read by rows: T(n, m) = S1(n, m)*7^(n-m), where S1 are the signed Stirling numbers of first kind A008275 (n >= 1, 1 <= m <= n).",
   "id": "A051186",
   "mentions": [
     "A000142",
@@ -7,13 +7,16 @@
     "A039683",
     "A039692",
     "A045754",
+    "A048176",
     "A048994",
     "A049209",
     "A051141",
     "A051142",
     "A051150",
     "A051151",
-    "A051188"
+    "A051187",
+    "A051188",
+    "A051231"
   ],
   "tags": [
     "easy",

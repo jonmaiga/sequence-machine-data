@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (Pi^3)/96.",
+  "id": "A393165",
+  "mentions": [
+    "A091925",
+    "A152584",
+    "A153071",
+    "A164105",
+    "A225016",
+    "A258749"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

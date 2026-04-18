@@ -1,5 +1,5 @@
 {
-  "description": "A triangle sequence of the form: T(n,m) = binomial(n, m) + floor(Eulerian(n + 1, m)/2).",
+  "description": "Triangle read by rows: T(n,m) = binomial(n, m) + floor(Eulerian(n + 1, m)/2).",
   "id": "A174035",
   "mentions": [
     "A007318",
@@ -8,9 +8,9 @@
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,

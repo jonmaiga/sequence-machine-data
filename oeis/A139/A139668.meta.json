@@ -2,7 +2,9 @@
   "description": "Primes of the form x^2 + 1848*y^2.",
   "id": "A139668",
   "mentions": [
+    "A003171",
     "A106856",
+    "A140039",
     "A244019"
   ],
   "tags": [

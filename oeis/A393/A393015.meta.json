@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic canyon numbers.",
+  "id": "A393015",
+  "mentions": [
+    "A002113",
+    "A134970",
+    "A134971",
+    "A173070"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

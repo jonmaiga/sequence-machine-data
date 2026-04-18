@@ -1,0 +1,19 @@
+{
+  "description": "Starting at one corner of n X n grid of dots, the maximum number of edges that can be drawn without lifting the pencil or going over a previously drawn edge.",
+  "id": "A394499",
+  "mentions": [
+    "A002522",
+    "A081585",
+    "A108099"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

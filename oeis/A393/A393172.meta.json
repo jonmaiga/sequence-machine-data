@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x-x^2) = x + A(x)^2.",
+  "id": "A393172",
+  "mentions": [
+    "A000108",
+    "A392210",
+    "A393171"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

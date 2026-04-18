@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 = j^2 + r for some j, where r is an anagram of j^2.",
+  "id": "A394558",
+  "mentions": [
+    "A393978",
+    "A393998",
+    "A394001",
+    "A394502",
+    "A394527"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Manhattan distance from 0 to n in perfect shuffle array of base-2 expansions.",
+  "id": "A393253",
+  "mentions": [
+    "A054238"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

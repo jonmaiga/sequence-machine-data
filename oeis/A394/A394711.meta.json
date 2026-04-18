@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic probability that two positive integers selected independently at random are coprime and both are nonsquarefree numbers.",
+  "id": "A394711",
+  "mentions": [
+    "A013929",
+    "A059956",
+    "A065464",
+    "A065473",
+    "A229099",
+    "A394712"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

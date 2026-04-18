@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the first n quaternary digits found in the base-10 expansion of Pi form a prime (when the decimal point is ignored).",
+  "description": "Numbers k such that the first k quaternary digits found in the base-10 expansion of Pi form a prime (when the decimal point is ignored).",
   "id": "A065840",
   "mentions": [
     "A000796",
@@ -17,6 +17,7 @@
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

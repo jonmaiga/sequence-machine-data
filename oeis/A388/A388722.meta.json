@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of steps to reach 0 or the start of a cycle using the iteration x -> |sigma(x)-2*x| starting from x=n.",
+  "id": "A388722",
+  "mentions": [
+    "A000396",
+    "A005820",
+    "A033879",
+    "A033880",
+    "A068403",
+    "A098007",
+    "A098008",
+    "A113285",
+    "A371921"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of cubic polynomials with coefficients in {-n, ..., n}, positive leading coefficient, and having three integer roots.",
+  "id": "A391108",
+  "mentions": [
+    "A391527",
+    "A391597",
+    "A392944"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

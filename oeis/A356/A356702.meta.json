@@ -2,6 +2,7 @@
   "description": "Records values in A081120.",
   "id": "A356702",
   "mentions": [
+    "A005250",
     "A081119",
     "A081120",
     "A356699",

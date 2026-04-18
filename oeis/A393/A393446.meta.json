@@ -1,0 +1,16 @@
+{
+  "description": "Index of A393445(n) in the list of primes.",
+  "id": "A393446",
+  "mentions": [
+    "A000720",
+    "A393445"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

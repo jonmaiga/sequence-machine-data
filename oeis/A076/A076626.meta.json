@@ -2,7 +2,10 @@
   "description": "Array of coefficients of polynomials p(n,x) = 2^(n-1)*Product_{i=0..n} (x - cos(i*Pi/n)) of degree (n+1) with P(-1,x) = 1, P(0,x) = 0.",
   "id": "A076626",
   "mentions": [
+    "A053117",
+    "A053120",
     "A201509",
+    "A201780",
     "A201863"
   ],
   "tags": [
@@ -11,7 +14,7 @@
     "tabl"
   ],
   "terms": {
-    "offset": 0,
+    "offset": -1,
     "size": 91,
     "source": "joeis"
   }

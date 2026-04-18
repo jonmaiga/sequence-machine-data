@@ -1,5 +1,5 @@
 {
-  "description": "Uniquification of array T given by A027935.",
+  "description": "Distinct value of array T given by A027935.",
   "id": "A027936",
   "mentions": [
     "A027935"

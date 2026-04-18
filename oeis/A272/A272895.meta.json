@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the largest natural number k such that the composite number (2n+1) 2^k+1 has a nontrivial divisor of the form h2^s+1 (h odd) with 2s>k. If such a natural number does not exist, we set a(n)=0.",
+  "description": "a(n) is the largest natural number k such that the composite number (2n+1) 2^k+1 has a nontrivial divisor of the form h2^s+1 (h odd) with 2s >= k. If such a natural number does not exist, we set a(n)=0.",
   "id": "A272895",
   "mentions": [
     "A272894"

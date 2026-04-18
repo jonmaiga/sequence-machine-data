@@ -1,15 +1,18 @@
 {
   "description": "Number of letters in n-th prime (in Latin).",
   "id": "A168275",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A132984"
+  ],
   "tags": [
-    "hard",
+    "formulas",
     "nonn",
     "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 67,
     "source": "oeis-entry"
   }
 }

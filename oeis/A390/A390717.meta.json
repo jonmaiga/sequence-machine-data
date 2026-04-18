@@ -1,0 +1,20 @@
+{
+  "description": "Indices in Recamán's sequence A005132 which are the result of a record number of addition steps.",
+  "id": "A390717",
+  "mentions": [
+    "A005132",
+    "A057165",
+    "A057166",
+    "A392407",
+    "A393284",
+    "A393285"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -2,8 +2,8 @@
   "description": "a(n)=sqrt((A173631(n))^2-4*P_n), where P_n is product of first n primes, if this value is integral and a(n)=0, otherwise.",
   "id": "A173632",
   "mentions": [
-    "A000040",
     "A002110",
+    "A061060",
     "A173631"
   ],
   "tags": [

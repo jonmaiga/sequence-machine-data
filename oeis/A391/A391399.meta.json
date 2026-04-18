@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(k,2*n-6*k).",
+  "id": "A391399",
+  "mentions": [
+    "A005251",
+    "A062200",
+    "A391265",
+    "A392250"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

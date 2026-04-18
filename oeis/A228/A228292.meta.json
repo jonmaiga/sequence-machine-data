@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=1..8} n^k.",
   "id": "A228292",
   "mentions": [
+    "A053717",
     "A228275"
   ],
   "tags": [

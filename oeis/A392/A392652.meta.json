@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which there exists a subset of its even nontrivial divisors that sum to k.",
+  "id": "A392652",
+  "mentions": [
+    "A005835",
+    "A070824",
+    "A392653"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

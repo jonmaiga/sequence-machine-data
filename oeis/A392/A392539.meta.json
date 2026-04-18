@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the least common multiple of all natural numbers k such that phi(k) <= n.",
+  "id": "A392539",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A007614",
+    "A025487",
+    "A032447",
+    "A378636",
+    "A378638",
+    "A381887"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

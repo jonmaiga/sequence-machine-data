@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 10^n - 23 is a prime number.",
+  "description": "Integers k such that 10^k - 23 is a prime number.",
   "id": "A108328",
   "mentions": [
     "A089675",
@@ -7,6 +7,7 @@
     "A095714"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

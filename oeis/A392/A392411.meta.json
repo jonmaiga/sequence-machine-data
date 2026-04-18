@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} gamma^p, where gamma is the Euler-Mascheroni constant.",
+  "id": "A392411",
+  "mentions": [
+    "A000040",
+    "A001620",
+    "A051006",
+    "A132797",
+    "A132800",
+    "A132806",
+    "A346525"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

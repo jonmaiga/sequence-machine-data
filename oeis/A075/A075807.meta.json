@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th prime is palindromic.",
+  "description": "Numbers k such that k-th prime is palindromic.",
   "id": "A075807",
   "mentions": [
     "A000720",

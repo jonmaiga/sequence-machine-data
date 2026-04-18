@@ -1,0 +1,20 @@
+{
+  "description": "Number of one-sided polybends with n cells.",
+  "id": "A392390",
+  "mentions": [
+    "A006744",
+    "A333249",
+    "A390994",
+    "A392389",
+    "A392391"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,13 @@
 {
-  "description": "Numbers n such that 3^n - phi(n) is prime.",
+  "description": "Numbers k such that 3^k - phi(k) is prime.",
   "id": "A109889",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A109887"
+  ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

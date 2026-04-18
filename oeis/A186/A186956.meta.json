@@ -1,5 +1,5 @@
 {
-  "description": "1/729 the number of (n+2)X5 0..2 arrays with each 3X3 subblock trace equal to some horizontal or vertical neighbor 3X3 subblock trace.",
+  "description": "1/729 the number of (n+2) X 5 0..2 arrays with each 3 X 3 subblock trace equal to some horizontal or vertical neighbor 3 X 3 subblock trace.",
   "id": "A186956",
   "mentions": [
     "A186962"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

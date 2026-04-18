@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose maximum exponent in their prime factorization is a nonsquarefree number.",
+  "id": "A392279",
+  "mentions": [
+    "A008683",
+    "A013929",
+    "A051903",
+    "A130897",
+    "A374589"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

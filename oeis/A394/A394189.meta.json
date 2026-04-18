@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that (number of distinct parts) < minimal multiplicity of the parts.",
+  "id": "A394189",
+  "mentions": [
+    "A239966",
+    "A240305",
+    "A394188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

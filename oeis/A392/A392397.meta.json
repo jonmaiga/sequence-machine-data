@@ -1,0 +1,17 @@
+{
+  "description": "Primes p that are congruent to 1 (mod 10) for which 5 | A001177(p).",
+  "id": "A392397",
+  "mentions": [
+    "A001177",
+    "A030430",
+    "A040969"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

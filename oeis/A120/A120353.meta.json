@@ -1,7 +1,9 @@
 {
   "description": "Sum of 5 consecutive powers of 3, starting with a power of 9.",
   "id": "A120353",
-  "mentions": [],
+  "mentions": [
+    "A001019"
+  ],
   "tags": [
     "easy",
     "formulas",

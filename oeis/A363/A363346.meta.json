@@ -2,13 +2,16 @@
   "description": "a(n) is the length of the initial transient, before the periodic part, on the n-th diagonal from the left of rule-30 1-D cellular automaton, when started from a single ON cell.",
   "id": "A363346",
   "mentions": [
+    "A051023",
     "A070950",
     "A094605",
     "A363344",
     "A363345",
-    "A364241"
+    "A364241",
+    "A365254"
   ],
   "tags": [
+    "nice",
     "nonn"
   ],
   "terms": {

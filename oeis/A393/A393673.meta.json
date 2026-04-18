@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of partitions of n into distinct parts that are triangular numbers, no two of which are consecutive triangular numbers.",
+  "id": "A393673",
+  "mentions": [
+    "A000217",
+    "A024940",
+    "A393671",
+    "A393672",
+    "A393674",
+    "A393675",
+    "A393676"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

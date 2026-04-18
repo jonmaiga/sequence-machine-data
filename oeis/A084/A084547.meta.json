@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that have primitive roots less than n that are nonnegative perfect cubes.",
+  "description": "Numbers k that have primitive roots less than k that are nonnegative perfect cubes.",
   "id": "A084547",
   "mentions": [
     "A000578",

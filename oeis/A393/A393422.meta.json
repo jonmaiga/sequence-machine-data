@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n, k), n > 0, k = 1..2^(n-1), read by rows; row 1 contains a single 0; for n >= 1, row n+1 contains the terms of row n plus n^2 followed by the terms of row n minus n^2.",
+  "id": "A393422",
+  "mentions": [
+    "A000330",
+    "A208531",
+    "A231015",
+    "A393423",
+    "A393461"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

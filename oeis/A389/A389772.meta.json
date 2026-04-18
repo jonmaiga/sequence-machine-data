@@ -2,7 +2,8 @@
   "description": "Number of unique nonempty strings with either 0 or 1 copies of a letter i_1, either 0 or 2 copies of a letter i_2, ..., either 0 or n copies of a letter i_n, where i_1, ..., i_n are all distinct letters.",
   "id": "A389772",
   "mentions": [
-    "A108571"
+    "A108571",
+    "A262073"
   ],
   "tags": [
     "formulas",

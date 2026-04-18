@@ -1,9 +1,8 @@
 {
-  "description": "a(n) = (n^3 + 9*n + 14*n + 9)/3.",
+  "description": "a(n) = (n^3 + 9*n^2 + 14*n + 9)/3.",
   "id": "A322595",
   "mentions": [
     "A000292",
-    "A027693",
     "A161680",
     "A174794",
     "A321124",
@@ -17,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

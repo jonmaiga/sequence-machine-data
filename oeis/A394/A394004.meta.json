@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of zeta(2)^2 * Product_{p prime} (1 - 5/p^2 + 6/p^3 - 1/p^4 - 2/p^5 + 1/p^6).",
+  "id": "A394004",
+  "mentions": [
+    "A013661",
+    "A065473",
+    "A098198",
+    "A268335",
+    "A394005",
+    "A394008"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

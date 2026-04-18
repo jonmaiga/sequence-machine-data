@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k such that there is no m < k with phi(m)/tau(m) = phi(k)/tau(k).",
+  "id": "A394407",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A045344",
+    "A094872",
+    "A175667",
+    "A279287",
+    "A279288"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

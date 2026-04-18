@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest p-composable number where p = prime(n).",
+  "id": "A392492",
+  "mentions": [
+    "A020639",
+    "A392437",
+    "A392438",
+    "A392440"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

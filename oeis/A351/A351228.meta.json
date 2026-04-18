@@ -2,6 +2,7 @@
   "description": "Numbers k for which A003415(k) >= A276086(k), where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
   "id": "A351228",
   "mentions": [
+    "A000040",
     "A002110",
     "A003415",
     "A024451",
@@ -25,7 +26,10 @@
     "A369970",
     "A370127",
     "A370128",
-    "A371104"
+    "A371104",
+    "A373848",
+    "A391938",
+    "A391939"
   ],
   "tags": [
     "base",

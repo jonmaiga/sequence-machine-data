@@ -1,5 +1,5 @@
 {
-  "description": "(n^3 - n + 15)/3.",
+  "description": "a(n) = (n^3 - n + 15)/3.",
   "id": "A155757",
   "mentions": [
     "A007290"

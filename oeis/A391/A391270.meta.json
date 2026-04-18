@@ -1,0 +1,16 @@
+{
+  "description": "Number of length n words over the alphabet [4] such that any prefix satisfies c(1) >= c(3), c(1) >= c(4), c(2) >= c(3), and c(2) >= c(4), where c(i) is the number of occurrences of the letter i.",
+  "id": "A391270",
+  "mentions": [
+    "A000302",
+    "A384725"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

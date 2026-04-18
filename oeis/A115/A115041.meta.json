@@ -1,14 +1,18 @@
 {
-  "description": "y in the smallest x such that x^2 + p = y^n over the set of primes p.",
+  "description": "a(n) = y where A115038(x)^2 + prime(n) = y^A115039(n).",
   "id": "A115041",
-  "mentions": [],
+  "mentions": [
+    "A115038",
+    "A115039"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

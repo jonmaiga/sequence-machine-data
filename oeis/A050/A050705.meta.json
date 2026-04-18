@@ -1,5 +1,5 @@
 {
-  "description": "Composite number such that when sum of its prime factors is added or subtracted becomes prime.",
+  "description": "Composite number such that when the sum of its prime factors is added or subtracted it results in a prime.",
   "id": "A050705",
   "mentions": [
     "A050703",

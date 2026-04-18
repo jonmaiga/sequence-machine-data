@@ -1,7 +1,10 @@
 {
   "description": "Powers of 6 written backwards and sorted.",
   "id": "A134112",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A004086"
+  ],
   "tags": [
     "base",
     "easy",

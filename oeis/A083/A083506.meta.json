@@ -1,5 +1,5 @@
 {
-  "description": "n-th row of the following triangle contains all distinct numbers that can be obtained as the product of two distinct numbers chosen from 1 to n. (n>1). Sequence contains the triangle read by rows.",
+  "description": "Triangle read by rows where the n-th row contains all distinct numbers that can be obtained as the product of two distinct numbers chosen from [1..n].",
   "id": "A083506",
   "mentions": [
     "A027428"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 2,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

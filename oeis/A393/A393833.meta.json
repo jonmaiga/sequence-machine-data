@@ -1,0 +1,17 @@
+{
+  "description": "Least integer k having exactly 2n+2 divisors such that the sequence of its 2n+1 proper divisors modulo n is a palindrome.",
+  "id": "A393833",
+  "mentions": [
+    "A000005",
+    "A032741"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

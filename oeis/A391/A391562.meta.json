@@ -1,0 +1,16 @@
+{
+  "description": "Number of subsets of {1..n} where no two elements sum to a prime.",
+  "id": "A391562",
+  "mentions": [
+    "A000040",
+    "A002808"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

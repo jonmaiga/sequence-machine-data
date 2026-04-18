@@ -1,0 +1,27 @@
+{
+  "description": "Number of nonzero digits in the primorial base representation of n (A049345) such that their corresponding radix prime does not divide n.",
+  "id": "A392610",
+  "mentions": [
+    "A001221",
+    "A020639",
+    "A049345",
+    "A053669",
+    "A267263",
+    "A276086",
+    "A351251",
+    "A392608",
+    "A392612",
+    "A392614"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 2X3 U in any orientation.",
+  "description": "Number of n X n binary arrays symmetric under 180 degree rotation with all 1's connected only in a 2 X 3 U in any orientation.",
   "id": "A146062",
   "mentions": [],
   "tags": [

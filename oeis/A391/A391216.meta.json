@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k for which omega(k)*omega(k + 1) = n where omega = A001221.",
+  "id": "A391216",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A098026",
+    "A392184"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

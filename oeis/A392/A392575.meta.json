@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number k such that Lucas(n) + 2^k is prime, or -1 if there is no such prime.",
+  "id": "A392575",
+  "mentions": [
+    "A000032",
+    "A094076"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

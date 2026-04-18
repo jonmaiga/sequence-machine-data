@@ -1,5 +1,5 @@
 {
-  "description": "n_{n^2}.",
+  "description": "a(n) = n_{n^2}.",
   "id": "A122625",
   "mentions": [
     "A122618"

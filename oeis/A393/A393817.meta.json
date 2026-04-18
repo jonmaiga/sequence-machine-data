@@ -1,0 +1,14 @@
+{
+  "description": "Return time for an n X n picture by the baker's map.",
+  "id": "A393817",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

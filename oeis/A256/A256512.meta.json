@@ -1,5 +1,5 @@
 {
-  "description": "n*(1+(2*n)^n).",
+  "description": "a(n) = n*(1+(2*n)^n).",
   "id": "A256512",
   "mentions": [
     "A062971",

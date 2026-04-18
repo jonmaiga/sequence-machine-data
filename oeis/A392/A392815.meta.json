@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which A392814(k) > 0.",
+  "id": "A392815",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A013929",
+    "A392814"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 2sinh(x) + BesselI_0(2x).",
+  "description": "Expansion of 2*sinh(x) + BesselI_0(2*x).",
   "id": "A081668",
   "mentions": [
     "A000984",

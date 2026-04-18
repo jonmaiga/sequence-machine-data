@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+1/5)/GAMMA(1/5).",
+  "description": "Ceiling of Gamma(n+1/5)/Gamma(1/5).",
   "id": "A020130",
-  "mentions": [],
+  "mentions": [
+    "A020040",
+    "A020085"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

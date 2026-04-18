@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that the least prime not dividing the arithmetic derivative of k is equal to the least prime dividing k.",
+  "id": "A391845",
+  "mentions": [
+    "A003415",
+    "A020639",
+    "A042968",
+    "A048103",
+    "A053669",
+    "A080364",
+    "A100484",
+    "A369650",
+    "A370125",
+    "A373487",
+    "A373488",
+    "A391844",
+    "A392592",
+    "A392868"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

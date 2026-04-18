@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A327860(k) <= k, where A327860 is the arithmetic derivative of the primorial base exp-function.",
+  "id": "A392605",
+  "mentions": [
+    "A002110",
+    "A327860",
+    "A328110",
+    "A380527",
+    "A392606"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

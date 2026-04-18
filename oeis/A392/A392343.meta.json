@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are not the sum of at most five 4-full numbers.",
+  "id": "A392343",
+  "mentions": [
+    "A036967",
+    "A056828",
+    "A392342"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

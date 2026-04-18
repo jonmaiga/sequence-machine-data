@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that the sum of the first k squarefree numbers is a square.",
+  "id": "A392801",
+  "mentions": [
+    "A005117",
+    "A173143",
+    "A262783"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

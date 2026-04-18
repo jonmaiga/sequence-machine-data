@@ -1,0 +1,24 @@
+{
+  "description": "The maximum exponent in the prime factorization of the cube root of the largest cube dividing n.",
+  "id": "A392277",
+  "mentions": [
+    "A008834",
+    "A051903",
+    "A053150",
+    "A295659",
+    "A366123",
+    "A375359",
+    "A392275",
+    "A392276"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

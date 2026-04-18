@@ -1,0 +1,22 @@
+{
+  "description": "Primes that are palindromic in both base 2 and base 9.",
+  "id": "A393014",
+  "mentions": [
+    "A016041",
+    "A029977",
+    "A046473",
+    "A046477",
+    "A259385"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

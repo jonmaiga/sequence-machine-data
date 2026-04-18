@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of Chebyshev sequence S(n,12)= U(n,6)=A004191(n).",
+  "description": "Partial sums of Chebyshev sequence S(n,12) = U(n,6) = A004191(n).",
   "id": "A097827",
   "mentions": [
     "A004191",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

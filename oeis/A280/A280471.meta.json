@@ -1,5 +1,5 @@
 {
-  "description": "Solutions to the Gamow-Stern Elevator Problem, a(n) = ceiling((log_10 5)/(log_10 (1+2(n-2)))) for integer n >= 3.",
+  "description": "Solutions to the Gamow-Stern Elevator Problem, a(n) = ceiling((log_10(5))/(log_10(1+2/(n-2)))) for n >= 3.",
   "id": "A280471",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 68,
-    "source": "oeis-entry"
+    "size": 70,
+    "source": "joeis"
   }
 }

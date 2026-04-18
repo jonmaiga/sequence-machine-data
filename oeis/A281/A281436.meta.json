@@ -2,9 +2,17 @@
   "description": "E.g.f. C(x) satisfies: C(x) = cosh( Integral C(x)^6 dx ).",
   "id": "A281436",
   "mentions": [
+    "A281180",
+    "A281181",
+    "A281183",
+    "A281184",
+    "A281427",
+    "A281428",
+    "A281432",
     "A281435"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

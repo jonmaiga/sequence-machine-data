@@ -1,0 +1,33 @@
+{
+  "description": "Numbers m such that all parts of the symmetric representation of sigma(m) have width 1 and two parts meet at the center of the Dyck path.",
+  "id": "A392197",
+  "mentions": [
+    "A001227",
+    "A014105",
+    "A033676",
+    "A033677",
+    "A071561",
+    "A162348",
+    "A174905",
+    "A191363",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A250068",
+    "A262259",
+    "A262626",
+    "A264104",
+    "A280940",
+    "A298856",
+    "A384222",
+    "A384225"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

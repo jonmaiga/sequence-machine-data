@@ -1,0 +1,27 @@
+{
+  "description": "Powers k^m, m > 1, odd k that are neither squarefree nor squareful.",
+  "id": "A392423",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A005408",
+    "A013929",
+    "A024619",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A332785",
+    "A386762",
+    "A391025",
+    "A392424"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Manhattan distance of prime(n) on the Ulam spiral from origin.",
+  "id": "A388723",
+  "mentions": [
+    "A000040",
+    "A214526",
+    "A214664",
+    "A214665"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

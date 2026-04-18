@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that the number formed by the concatenation of the consecutive integers from 5 to n is prime.",
+  "description": "Numbers k such that the number formed by the concatenation of the consecutive integers from 5 to k is prime.",
   "id": "A128887",
   "mentions": [],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],

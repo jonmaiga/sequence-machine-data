@@ -1,7 +1,8 @@
 {
-  "description": "Total number of distinct palindromes of form 'n-digit number' x 'n-digit number_reversed' (n-digit number not palindromic).",
+  "description": "Number of palindromes of the form k*rev(k), where k is a non-palindromic n-digit number and rev(k) = A004086(k) is the digit reversal of k.",
   "id": "A048343",
   "mentions": [
+    "A004086",
     "A048344"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

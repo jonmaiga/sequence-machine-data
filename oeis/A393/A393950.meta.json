@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of (1/zeta(2))^2 * Product_{p prime} ((p/(p+2)) * Product_{k>=0} (1 + 2/p^(2^k))).",
+  "id": "A393950",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A065472",
+    "A077609",
+    "A098198",
+    "A215267",
+    "A227929",
+    "A393891",
+    "A393948",
+    "A393949",
+    "A393951",
+    "A393952",
+    "A393953"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

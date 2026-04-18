@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers c satisfying the congruence c * sigma_k(c) == 2 (mod phi(c)) that are \"flanked\" by 14 at k-1 and k+1.",
+  "id": "A392308",
+  "mentions": [
+    "A100484",
+    "A392306",
+    "A392309"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

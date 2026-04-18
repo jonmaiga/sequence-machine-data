@@ -1,0 +1,18 @@
+{
+  "description": "Odd k such that there are exactly 2 bases 1 <= b <= k-1 in which k is an Euler-Jacobi pseudoprime.",
+  "id": "A394182",
+  "mentions": [
+    "A033181",
+    "A329726",
+    "A394177"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

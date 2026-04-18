@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of ways to write n as the sum of a square and the reverse of a square.",
+  "id": "A393705",
+  "mentions": [
+    "A000290",
+    "A074896",
+    "A393572"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

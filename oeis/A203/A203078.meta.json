@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of (1/48)! = Gamma(49/48).",
   "id": "A203078",
-  "mentions": [],
+  "mentions": [
+    "A203137"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

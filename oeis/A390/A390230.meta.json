@@ -1,0 +1,17 @@
+{
+  "description": "Norms of primitive Pythagorean quadruples (PPQs) derived from primitive Pythagorean triangles (PPTs) ordered within a Berggren ternary tree of PPTs.",
+  "id": "A390230",
+  "mentions": [
+    "A096910",
+    "A097263"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of k <= 2^(n-1) such that tau(k) = n where tau = A000005.",
+  "id": "A393179",
+  "mentions": [
+    "A000005",
+    "A002808",
+    "A007053",
+    "A008578",
+    "A060967"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

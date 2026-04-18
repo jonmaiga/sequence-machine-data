@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=0..k} (-1)^j * binomial(k,j) * (3-j)^n.",
+  "id": "A391210",
+  "mentions": [
+    "A007318",
+    "A131689",
+    "A173018",
+    "A278075",
+    "A389570",
+    "A391068"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -5,17 +5,26 @@
     "A000041",
     "A000792",
     "A001055",
+    "A006906",
+    "A077335",
     "A118851",
-    "A212721"
+    "A212721",
+    "A265837",
+    "A265838",
+    "A265839",
+    "A292193",
+    "A380218",
+    "A394589"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 82,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-bfile"
   }
 }

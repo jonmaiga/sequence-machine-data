@@ -2,11 +2,13 @@
   "description": "Number of equicolored (unrooted) trees on 2n nodes.",
   "id": "A119857",
   "mentions": [
+    "A051491",
     "A119855",
     "A119856",
     "A329054"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

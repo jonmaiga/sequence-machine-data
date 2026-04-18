@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that can be written in exactly four ways as s_1^x_1 + ... + s_t^x_t, with 0 < s_1 < ... < s_t and x_1 > ... > x_t > 1 for some t > 0, with the restriction that if s_1 = 1 then x_1 is the least possible.",
+  "id": "A393031",
+  "mentions": [
+    "A393024",
+    "A393025",
+    "A393026",
+    "A393027",
+    "A393028",
+    "A393029",
+    "A393030",
+    "A393032",
+    "A393033",
+    "A393034"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

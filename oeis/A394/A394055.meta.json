@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the constant factor in the asymptotic for 2-dense numbers (A174973).",
+  "id": "A394055",
+  "mentions": [
+    "A001620",
+    "A174973",
+    "A327824",
+    "A392987"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

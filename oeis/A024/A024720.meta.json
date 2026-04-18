@@ -2,7 +2,8 @@
   "description": "a(n) = (1/4)*(3 + Sum_{k=0..n} C(4k,k)).",
   "id": "A024720",
   "mentions": [
-    "A002293"
+    "A002293",
+    "A024718"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

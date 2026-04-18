@@ -1,5 +1,5 @@
 {
-  "description": "Record differences between prime(n+3) and prime(n). Records in A031165.",
+  "description": "Record differences between prime(n+3) and prime(n). Differences in A031165.",
   "id": "A115401",
   "mentions": [
     "A000040",

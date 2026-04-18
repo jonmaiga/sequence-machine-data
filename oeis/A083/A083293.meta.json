@@ -1,5 +1,5 @@
 {
-  "description": "e=sum(n>=0, a(n)/2^n/n!).",
+  "description": "e = Sum_{n>=0} a(n) / 2^n / n!.",
   "id": "A083293",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

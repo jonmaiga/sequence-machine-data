@@ -1,0 +1,19 @@
+{
+  "description": "Number of free polycubes with n cells such that pairs of cell centers determine the largest possible number (A393994(n)) of distinct directions of lines.",
+  "id": "A394395",
+  "mentions": [
+    "A038119",
+    "A393939",
+    "A393994",
+    "A394393"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Describe and add.",
+  "description": "a(1)=1; a(n+1) = desc(a(n)) + n, where desc(x) is the description of x as in A005150.",
   "id": "A109229",
-  "mentions": [],
+  "mentions": [
+    "A005150"
+  ],
   "tags": [
     "base",
     "easy",

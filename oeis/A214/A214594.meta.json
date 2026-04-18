@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..7 arrays with every horizontal row having the same average value.",
+  "description": "Number of n X n X n triangular 0..7 arrays with every horizontal row having the same average value.",
   "id": "A214594",
   "mentions": [
     "A214595"

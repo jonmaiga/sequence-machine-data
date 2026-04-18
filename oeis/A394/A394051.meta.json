@@ -1,0 +1,17 @@
+{
+  "description": "Hofstadter Q-sequence perturbed by (-1)^n.",
+  "id": "A394051",
+  "mentions": [
+    "A005185"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

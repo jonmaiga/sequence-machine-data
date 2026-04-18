@@ -1,16 +1,17 @@
 {
-  "description": "A symmetrical triangular sequence adjusted by -t[n,-1]+1 :t(n,m)=If[n == 0, 1, Sum[Eulerian[n + 1, k]*(-1)^k*(m + 1 - k)^n, {k, 0, n}]].",
+  "description": "Triangle read by rows: T(n,k) = S(n,k) - S(n,0) + 1 where S(n,k) = Sum_{j=0..n} (-1)^j * (k-j)^n * Eulerian1(n+1, j) with S(0,k)=1.",
   "id": "A174587",
-  "mentions": [],
+  "mentions": [
+    "A173018"
+  ],
   "tags": [
-    "formulas",
+    "less",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Achilles numbers whose prime power factor exponents are not all pairwise coprime.",
+  "id": "A394000",
+  "mentions": [
+    "A000977",
+    "A001694",
+    "A002110",
+    "A052486",
+    "A061742",
+    "A126706",
+    "A286708",
+    "A393708",
+    "A393999"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

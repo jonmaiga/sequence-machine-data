@@ -1,0 +1,18 @@
+{
+  "description": "For each starting value n, the number of distinct terms in the sequence obtained by repeatedly doubling and then deleting repeated digits (keeping the first occurrence) until a term repeats.",
+  "id": "A392158",
+  "mentions": [
+    "A010784",
+    "A137564",
+    "A392142"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

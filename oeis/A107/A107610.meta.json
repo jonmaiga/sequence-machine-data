@@ -1,5 +1,5 @@
 {
-  "description": "Least number k such that round(k/pi(k)) = n.",
+  "description": "Least number k such that round(k/pi(k)) = n where round(x) rounds half to even.",
   "id": "A107610",
   "mentions": [
     "A000720",

@@ -1,5 +1,5 @@
 {
-  "description": "(8n)!/8^n.",
+  "description": "a(n) = (8n)!/8^n.",
   "id": "A210281",
   "mentions": [
     "A000680",

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of log(sqrt(2)+1)/sqrt(3).",
+  "id": "A394966",
+  "mentions": [
+    "A000041",
+    "A002194",
+    "A091648",
+    "A132715",
+    "A394967"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

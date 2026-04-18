@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms of A392867 <= n.",
+  "id": "A393057",
+  "mentions": [
+    "A392867",
+    "A393056",
+    "A393058",
+    "A393067"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

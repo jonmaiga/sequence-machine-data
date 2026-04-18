@@ -1,5 +1,5 @@
 {
-  "description": "1+8*10^n+100^n.",
+  "description": "a(n) = 1 + 8*10^n + 100^n.",
   "id": "A171513",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Number of sparse alternating sign matrices of size n.",
+  "id": "A392029",
+  "mentions": [
+    "A005130"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Total number of 321 patterns in all heapable permutations of length n.",
+  "id": "A392533",
+  "mentions": [
+    "A336282",
+    "A391697",
+    "A391971"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

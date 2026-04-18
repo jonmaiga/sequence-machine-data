@@ -1,0 +1,18 @@
+{
+  "description": "Number of automorphism group orders that occur for exactly one unlabeled tree with n vertices.",
+  "id": "A392962",
+  "mentions": [
+    "A000055",
+    "A391694"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

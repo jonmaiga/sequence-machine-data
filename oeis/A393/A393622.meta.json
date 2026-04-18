@@ -1,0 +1,22 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n*(n+1) * x*A(x)^2 ) / A(x)^(n+1) = 0 for n > 0.",
+  "id": "A393622",
+  "mentions": [
+    "A226775",
+    "A337458",
+    "A393620",
+    "A393621",
+    "A393623",
+    "A393624",
+    "A393625"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

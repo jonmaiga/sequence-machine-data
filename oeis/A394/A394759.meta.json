@@ -1,0 +1,17 @@
+{
+  "description": "Number of graceful labelings of the balanced bistar tree on n vertices.",
+  "id": "A394759",
+  "mentions": [
+    "A033472"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

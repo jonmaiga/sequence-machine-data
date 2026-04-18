@@ -1,5 +1,5 @@
 {
-  "description": "Number of stacks, or planar partitions of n; also weakly unimodal compositions of n.",
+  "description": "Number of stacks, or planar partitions of n; also number of weakly unimodal compositions of n.",
   "id": "A001523",
   "mentions": [
     "A000569",

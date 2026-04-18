@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of A394559, inverse of a sequence transform with torus symmetry.",
+  "id": "A394595",
+  "mentions": [
+    "A394559",
+    "A394560"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

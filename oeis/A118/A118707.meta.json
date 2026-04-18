@@ -15,8 +15,8 @@
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 14,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

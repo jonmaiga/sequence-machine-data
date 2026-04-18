@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of nu_2^2, which is the infimum of f over all unit mass functions in L^1(-1/2,1/2) Integral_{x=-1..1} (f(x)*f(x))^2 dx.",
+  "id": "A393459",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

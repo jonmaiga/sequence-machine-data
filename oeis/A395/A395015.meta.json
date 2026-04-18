@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi - 13/6.",
+  "id": "A395015",
+  "mentions": [
+    "A091505",
+    "A102519",
+    "A394607",
+    "A394608",
+    "A395016"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

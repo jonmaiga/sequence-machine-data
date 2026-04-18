@@ -1,0 +1,23 @@
+{
+  "description": "Start of exactly five even numbers that are totient numbers (A002202).",
+  "id": "A394639",
+  "mentions": [
+    "A002202",
+    "A333021",
+    "A333022",
+    "A393544",
+    "A394635",
+    "A394636",
+    "A394637",
+    "A394638",
+    "A394640"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Index of terms in A083164 which are not dislocated in the rearrangement. Or k such that A083164(k) = k.",
+  "description": "Fixed points of A083164: numbers k such that A083164(k) = k.",
   "id": "A083166",
   "mentions": [
     "A083164",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Rectangular array, read by descending antidiagonals: the offset sum array of the Thue-Morse sequence, A010060; see Comments.",
+  "id": "A394648",
+  "mentions": [
+    "A000012",
+    "A010060",
+    "A394649"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

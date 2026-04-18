@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that A003415(k) == A276085(k) (mod 4), where A003415 is the arithmetic derivative and A276085 is the primorial base log-function.",
+  "id": "A392594",
+  "mentions": [
+    "A001222",
+    "A003415",
+    "A017089",
+    "A017137",
+    "A276085",
+    "A359151",
+    "A359161",
+    "A360110",
+    "A369001",
+    "A369002",
+    "A369650",
+    "A369668",
+    "A373142",
+    "A392593"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

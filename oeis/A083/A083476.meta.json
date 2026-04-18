@@ -1,5 +1,5 @@
 {
-  "description": "Indices of terms of A083475 with a zero entry.",
+  "description": "Positions of 0's in A083475.",
   "id": "A083476",
   "mentions": [
     "A083475"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

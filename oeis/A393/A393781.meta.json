@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sin(1/3).",
+  "id": "A393781",
+  "mentions": [
+    "A161012",
+    "A393780"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 117,
+    "source": "joeis"
+  }
+}

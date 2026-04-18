@@ -1,0 +1,19 @@
+{
+  "description": "The number of partitions of n into parts so that there exists exactly one part whose multiplicity is equal to its value.",
+  "id": "A391611",
+  "mentions": [
+    "A000041",
+    "A276429",
+    "A336273",
+    "A392745"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that sigma(n) = phi(prime(n)-1).",
+  "description": "Numbers k such that sigma(k) = phi(prime(k)-1).",
   "id": "A067651",
   "mentions": [
+    "A000010",
+    "A000203",
     "A107815",
     "A107816"
   ],

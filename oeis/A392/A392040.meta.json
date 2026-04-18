@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the concatenation of the digit-wise multiplication of k*m, with 1 < m < k, keeping the leading digits of k when m has fewer digits.",
+  "id": "A392040",
+  "mentions": [
+    "A392568",
+    "A392618"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

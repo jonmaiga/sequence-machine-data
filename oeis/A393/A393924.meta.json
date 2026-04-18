@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are either squarefree or squareful.",
+  "id": "A393924",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A317101",
+    "A332785"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,11 @@
 {
-  "description": "E.g.f. sin(tan(x)), zeros omitted.",
+  "description": "Expansion of e.g.f. sin(tan(x)), zeros omitted.",
   "id": "A003706",
-  "mentions": [],
+  "mentions": [
+    "A281181"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

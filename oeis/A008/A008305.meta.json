@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: a(n,k) = number of permutations of [n] allowing i->i+j (mod n), j=0..k-1.",
+  "description": "Triangle read by rows: T(n,k) = number of permutations of [n] allowing i->i+j (mod n), j=0..k-1.",
   "id": "A008305",
   "mentions": [
     "A000142",

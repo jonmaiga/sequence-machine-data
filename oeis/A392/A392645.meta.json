@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1 / ((1-x)^9 - 9*x)^(1/3).",
+  "id": "A392645",
+  "mentions": [
+    "A376802",
+    "A392644"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Total number of connected defect cluster types of weight n in the span-stratified cluster expansion for the row-word inversion statistic on standard Young tableaux of shape (m,m,m).",
+  "id": "A394326",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

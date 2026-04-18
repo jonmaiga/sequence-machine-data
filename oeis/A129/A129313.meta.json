@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 6*p(k)*p(k+1)*p(k+2)*p(k+3)*p(k+4)*(k+5)*p(k+6)-1 and 6*p(k)*p(k+1)*p(k+2)*p(k+3)*p(k+4)*(k+5)*p(k+6)+1 are twin primes with p(h) = h-th prime.",
+  "description": "Numbers k such that 6*p(k)*p(k+1)*p(k+2)*p(k+3)*p(k+4)*p(k+5)*p(k+6)-1 and 6*p(k)*p(k+1)*p(k+2)*p(k+3)*p(k+4)*p(k+5)*p(k+6)+1 are twin primes with p(h) = h-th prime.",
   "id": "A129313",
   "mentions": [
     "A129310",

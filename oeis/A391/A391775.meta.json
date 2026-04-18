@@ -1,0 +1,22 @@
+{
+  "description": "Discriminants of totally real quartic fields in which every additively indecomposable element is a unit.",
+  "id": "A391775",
+  "mentions": [
+    "A387203",
+    "A387207",
+    "A387574",
+    "A387575",
+    "A389888"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

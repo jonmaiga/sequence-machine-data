@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the median of the distribution of distances between two points in the interior of a unit cube.",
+  "id": "A395017",
+  "mentions": [
+    "A073012",
+    "A394606",
+    "A394608",
+    "A395016",
+    "A395018",
+    "A395020"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

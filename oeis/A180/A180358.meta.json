@@ -1,5 +1,5 @@
 {
-  "description": "n^8+8n.",
+  "description": "a(n) = n^8+8n.",
   "id": "A180358",
   "mentions": [
     "A079908",

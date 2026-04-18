@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^4-2*A(x)^3+x*A(x)^2+x*A(x)-x^2=0.",
+  "id": "A394145",
+  "mentions": [
+    "A394143",
+    "A394144"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

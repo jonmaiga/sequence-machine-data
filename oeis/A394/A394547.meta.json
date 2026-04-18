@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the negated value of Sum_{n>=1} cos(n)/n^(1/3).",
+  "id": "A394547",
+  "mentions": [
+    "A121225",
+    "A122143",
+    "A263192"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

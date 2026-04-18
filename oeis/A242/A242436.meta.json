@@ -1,5 +1,5 @@
 {
-  "description": "n^5 - 2n.",
+  "description": "a(n) = n^5 - 2n.",
   "id": "A242436",
   "mentions": [
     "A000584",

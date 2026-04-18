@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Product_{p prime} ((1-1/p)^2 * Sum_{k>=0} (k^2+1)/p^(k^2)).",
+  "id": "A394427",
+  "mentions": [
+    "A197680",
+    "A394004",
+    "A394008",
+    "A394011",
+    "A394428"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

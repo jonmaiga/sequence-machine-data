@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * ( Sum_{k=0..5} (-x)^k ) ).",
+  "id": "A393658",
+  "mentions": [
+    "A393659",
+    "A393660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

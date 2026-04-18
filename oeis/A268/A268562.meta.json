@@ -2,15 +2,15 @@
   "description": "Number of bicolored immersions of oriented circle into oriented surface with n double points, up to stable geotopy.",
   "id": "A268562",
   "mentions": [
+    "A061417",
     "A268559"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 9,
+    "offset": 0,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

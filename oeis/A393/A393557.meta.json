@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i * 5^j)) / (1 - x^(i * 5^j)).",
+  "id": "A393557",
+  "mentions": [
+    "A327727",
+    "A373219",
+    "A373296",
+    "A393555",
+    "A393556",
+    "A393558",
+    "A393559"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

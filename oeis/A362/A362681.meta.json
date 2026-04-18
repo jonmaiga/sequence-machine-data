@@ -1,5 +1,5 @@
 {
-  "description": "The number of steps, starting from n, to reach x<=2 in an iteration x <- 2x - {sum of proper factors of 2x}.",
+  "description": "The number of steps, starting from n, to reach k<=2 in an iteration k -> 2*k - (sum of proper factors of 2*k).",
   "id": "A362681",
   "mentions": [
     "A005101",

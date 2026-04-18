@@ -1,7 +1,9 @@
 {
   "description": "Weight distribution of [71,36,11] binary quadratic-residue (or QR) code.",
   "id": "A145981",
-  "mentions": [],
+  "mentions": [
+    "A145922"
+  ],
   "tags": [
     "fini",
     "full",

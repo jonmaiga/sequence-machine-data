@@ -1,0 +1,20 @@
+{
+  "description": "Primes p(k) > 3 such that, for every integer 1 < m < k (except m = k - 2 if p(k) > 5), there exists a set of m distinct primes < p(k) the sum of whose reciprocals forms a fraction that has a numerator divisible by p(k).",
+  "id": "A392682",
+  "mentions": [
+    "A000720",
+    "A006512",
+    "A293457"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

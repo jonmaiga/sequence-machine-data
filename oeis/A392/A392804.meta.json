@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into parts of n+1 kinds.",
+  "id": "A392804",
+  "mentions": [
+    "A008485",
+    "A109085",
+    "A144064",
+    "A270915",
+    "A366022"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

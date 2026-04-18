@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the position of the first occurrence of n in A393564.",
+  "id": "A393701",
+  "mentions": [
+    "A004018",
+    "A014200",
+    "A057655",
+    "A393562",
+    "A393564"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

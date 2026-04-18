@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose smallest prime factor is not 3, while the least prime not dividing their arithmetic derivative is 3.",
+  "id": "A393044",
+  "mentions": [
+    "A003415",
+    "A020639",
+    "A047263",
+    "A053669",
+    "A067019",
+    "A391845",
+    "A393043"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

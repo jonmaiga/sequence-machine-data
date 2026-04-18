@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of graceful Prüfer codes on n vertices whose last element equals k (0 <= k <= n-1).",
+  "id": "A392515",
+  "mentions": [
+    "A033472"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

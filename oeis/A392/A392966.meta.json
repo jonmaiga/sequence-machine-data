@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered rooted trees with non-root node weights summing to n. Such that non-root nodes are each labeled with a subset s of [n], the weight of a node is the number of elements in s, only non-root nodes labeled with singleton subsets can have child nodes, and the labels of a given tree form a set partition of [n].",
+  "id": "A392966",
+  "mentions": [
+    "A000108",
+    "A000670",
+    "A052895"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

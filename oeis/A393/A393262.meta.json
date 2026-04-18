@@ -1,0 +1,18 @@
+{
+  "description": "Number of plane partitions of n with exactly one smallest part.",
+  "id": "A393262",
+  "mentions": [
+    "A000219",
+    "A002865",
+    "A392357",
+    "A392995"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that |first digit - second digit + third digit - fourth digit ...| = 4.",
+  "description": "Numbers k such that |first digit - second digit + third digit - fourth digit ...| = 4.",
   "id": "A061873",
   "mentions": [
     "A008593",

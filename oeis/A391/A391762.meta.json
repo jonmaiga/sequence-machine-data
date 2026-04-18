@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers k such that both 2*k + 1 and 4*k^2 + 1 are composite, and either 2*k is a perfect power with odd exponent >= 3 or 2*k = 2^r with r > 2 and r not a power of 2.",
+  "id": "A391762",
+  "mentions": [
+    "A000079",
+    "A000215",
+    "A001912",
+    "A002144",
+    "A002522",
+    "A008586",
+    "A047845",
+    "A070265",
+    "A094550",
+    "A121944",
+    "A394571"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

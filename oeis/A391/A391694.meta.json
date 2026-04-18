@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct automorphism group orders among unlabeled trees with n vertices.",
+  "id": "A391694",
+  "mentions": [
+    "A000055"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

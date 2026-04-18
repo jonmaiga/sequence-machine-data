@@ -1,10 +1,11 @@
 {
-  "description": "Sum of nonprime proper divisors (or nonprime aliquot parts) of n.",
+  "description": "Sum of the nonprime proper divisors (or nonprime aliquot parts) of n.",
   "id": "A206773",
   "mentions": [
     "A000469",
     "A001065",
     "A001358",
+    "A005171",
     "A023890",
     "A105221",
     "A187793",

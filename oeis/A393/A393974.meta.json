@@ -1,0 +1,23 @@
+{
+  "description": "Number of transitive relations on an n-set with exactly nine ordered pairs.",
+  "id": "A393974",
+  "mentions": [
+    "A348634",
+    "A349849",
+    "A349919",
+    "A349927",
+    "A392460",
+    "A393216",
+    "A393925"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

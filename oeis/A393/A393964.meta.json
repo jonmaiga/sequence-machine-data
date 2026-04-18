@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the circumradius of an hexagonal antiprism with unit edges.",
+  "id": "A393964",
+  "mentions": [
+    "A019884",
+    "A165663",
+    "A385259",
+    "A387296",
+    "A387297",
+    "A393963",
+    "A393965"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

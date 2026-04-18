@@ -1,0 +1,19 @@
+{
+  "description": "Number of graphs with n vertices that have no induced regular subgraph of order 7.",
+  "id": "A394930",
+  "mentions": [
+    "A394462",
+    "A394539",
+    "A394573"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Additive with a(p^e) = p mod e.",
+  "id": "A392814",
+  "mentions": [
+    "A005117",
+    "A391646",
+    "A392815"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

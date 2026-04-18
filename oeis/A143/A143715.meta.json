@@ -1,7 +1,8 @@
 {
-  "description": "Number of subsets {a,b,c} of {1,...,n} such that (a+b)^2+c^2 is a square (where c = max(a,b,c)).",
+  "description": "Number of subsets {a,b,c} of {1,...,n} such that (a+b)^2+c^2 is a square (where c = max(a,b)) and a <= b.",
   "id": "A143715",
   "mentions": [
+    "A004431",
     "A143714"
   ],
   "tags": [

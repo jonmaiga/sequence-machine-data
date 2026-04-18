@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n * gcd(5, n).",
+  "id": "A394222",
+  "mentions": [
+    "A109009",
+    "A203648",
+    "A394223"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of unit cubes in the cubic lattice, divided by 8, that have 7 vertices strictly inside and 1 vertex strictly outside the sphere (x-1/2)^2 + (y-1/2)^2 + (z-1/2)^2 = n, i.e., the sphere centered at the deep hole.",
+  "id": "A394304",
+  "mentions": [
+    "A005878",
+    "A393827",
+    "A394294",
+    "A394295",
+    "A394296",
+    "A394297",
+    "A394305",
+    "A394306"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

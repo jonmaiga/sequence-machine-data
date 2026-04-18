@@ -1,14 +1,17 @@
 {
   "description": "Number of mutual-visibility sets in the n-prism graph.",
   "id": "A389184",
-  "mentions": [],
+  "mentions": [
+    "A389177"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "joeis"
   }
 }

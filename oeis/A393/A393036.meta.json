@@ -1,0 +1,20 @@
+{
+  "description": "Triangular irregular array: T(n,k) is the number of permutations on n letters with cycle type set [k].",
+  "id": "A393036",
+  "mentions": [
+    "A000217",
+    "A002024",
+    "A246292",
+    "A393037"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

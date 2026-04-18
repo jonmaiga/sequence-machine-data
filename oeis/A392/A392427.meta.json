@@ -1,0 +1,19 @@
+{
+  "description": "Number of edges in a complete bipartite graph where the vertices in the two parts are placed on opposite sides of a parabola at integer x coordinates |x| = 1, 2, ...n.",
+  "id": "A392427",
+  "mentions": [
+    "A290132",
+    "A392425",
+    "A392426",
+    "A392444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

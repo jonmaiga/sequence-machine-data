@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k for which there exists a subset of its odd nontrivial divisors that sum to k.",
+  "id": "A392653",
+  "mentions": [
+    "A005835",
+    "A392652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = P(x*A(x)) where P(x) = A(x/P(x)) is the g.f. of the partition numbers A000041.",
+  "description": "G.f. A(x) satisfies A(x) = P(x*A(x)) where P(x) = A(x/P(x)) is the g.f. of the partition numbers A000041.",
   "id": "A109085",
   "mentions": [
     "A000041",
     "A008485",
     "A106336",
     "A109084",
+    "A144064",
     "A184362",
     "A270915",
     "A366022"

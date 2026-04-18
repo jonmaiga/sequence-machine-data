@@ -1,8 +1,9 @@
 {
-  "description": "Generalized Stirling numbers of the first kind.",
+  "description": "a(n) = (n! - Stirling1(n+1, 2))*(-1)^n where Stirling1 is A048994.",
   "id": "A081050",
   "mentions": [
     "A008275",
+    "A048994",
     "A081049"
   ],
   "tags": [

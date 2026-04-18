@@ -1,7 +1,9 @@
 {
   "description": "Wiener index of the n X n X n grid graph.",
   "id": "A292045",
-  "mentions": [],
+  "mentions": [
+    "A290190"
+  ],
   "tags": [
     "easy",
     "formulas",

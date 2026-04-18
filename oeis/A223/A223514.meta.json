@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) represents the coefficients of (x^12*d/dx)^n, where n=1,2,3,...; generalization of Stirling numbers of second kind A008277, Lah-numbers A008297.",
+  "description": "Triangle T(n,k) represents the coefficients of (x^12*d/dx)^n, where n>=1; generalization of Stirling numbers of second kind A008277, Lah-numbers A008297.",
   "id": "A223514",
   "mentions": [
     "A008277",
@@ -12,6 +12,9 @@
     "A092082",
     "A132056",
     "A223168",
+    "A223169",
+    "A223170",
+    "A223171",
     "A223172",
     "A223511",
     "A223522",
@@ -25,7 +28,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "joeis"
   }
 }

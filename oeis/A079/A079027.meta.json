@@ -2,7 +2,8 @@
   "description": "a(n) = det(M(n)) where M(n) is the n X n matrix defined by m(i,i)=6, m(i,j)=i/j.",
   "id": "A079027",
   "mentions": [
-    "A006234"
+    "A006234",
+    "A081105"
   ],
   "tags": [
     "easy",

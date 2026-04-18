@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^10 reversed is a prime.",
+  "description": "Numbers k such that k^10 reversed is a prime.",
   "id": "A059211",
   "mentions": [],
   "tags": [

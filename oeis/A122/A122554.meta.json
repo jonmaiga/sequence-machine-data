@@ -2,9 +2,11 @@
   "description": "Let S(1) = {1} and, for n>1 let S(n) be the smallest set containing x, 2x and x+2 for each element x in S(n-1). a(n) is the number of elements in S(n).",
   "id": "A122554",
   "mentions": [
-    "A000032"
+    "A000032",
+    "A000126"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

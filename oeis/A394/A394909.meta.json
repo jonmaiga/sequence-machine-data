@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of products x*y of two integers 2^(n-1) <= x <= y < 2^n such that the Hamming weight of this product is maximized.",
+  "id": "A394909",
+  "mentions": [
+    "A000120",
+    "A029837",
+    "A394988",
+    "A394998"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

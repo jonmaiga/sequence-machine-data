@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k whose abundance is 54: sigma(k) - 2*k = 54.",
+  "id": "A391617",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A088831"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

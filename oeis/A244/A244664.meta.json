@@ -2,9 +2,13 @@
   "description": "Decimal expansion of Sum_{n >= 1} H(n,2)/n^2 where H(n,2) = A007406(n)/A007407(n) is the n-th harmonic number of order 2.",
   "id": "A244664",
   "mentions": [
+    "A001008",
+    "A002805",
     "A007406",
     "A007407",
-    "A013662"
+    "A013662",
+    "A058312",
+    "A058313"
   ],
   "tags": [
     "cons",

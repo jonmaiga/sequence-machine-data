@@ -11,12 +11,13 @@
     "A359615"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

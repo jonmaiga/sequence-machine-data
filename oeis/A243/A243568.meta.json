@@ -1,5 +1,5 @@
 {
-  "description": "Number of simple connected graphs with n nodes that are have no subgraph isomorphic to diamond graph or the bull graph.",
+  "description": "Number of simple connected graphs with n nodes that have no subgraph isomorphic to diamond graph or the bull graph.",
   "id": "A243568",
   "mentions": [
     "A242790",

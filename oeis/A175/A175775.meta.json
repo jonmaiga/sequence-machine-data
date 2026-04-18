@@ -1,5 +1,5 @@
 {
-  "description": "7*(10^n-3).",
+  "description": "a(n) = 7*(10^n-3).",
   "id": "A175775",
   "mentions": [],
   "tags": [

@@ -1,0 +1,25 @@
+{
+  "description": "Nonnegative integers k such that the Euclidean distance between the vector of proportions of the digits 0-9 in 2^k and the uniform distribution (1/10, ..., 1/10) sets a new minimum.",
+  "id": "A393331",
+  "mentions": [
+    "A027870",
+    "A034887",
+    "A065710",
+    "A065712",
+    "A065714",
+    "A065719",
+    "A065744",
+    "A117306",
+    "A393332",
+    "A393333"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

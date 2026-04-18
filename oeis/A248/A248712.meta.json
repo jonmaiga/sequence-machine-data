@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are the product of four distinct primes such that x^2+y^2 = n has integer solutions.",
+  "description": "Numbers k that are the product of four distinct primes such that x^2+y^2 = k has integer solutions.",
   "id": "A248712",
   "mentions": [
     "A248649",

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose squarefree kernel is the only exponential divisor of k that is a number whose number of divisors is a power of 2.",
+  "id": "A392632",
+  "mentions": [
+    "A007947",
+    "A036537",
+    "A161790",
+    "A336592",
+    "A386799",
+    "A390437",
+    "A392630",
+    "A392631"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

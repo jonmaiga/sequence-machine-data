@@ -1,0 +1,22 @@
+{
+  "description": "Even squarefree integers with at least 3 prime factors.",
+  "id": "A392009",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A024556",
+    "A053858",
+    "A075819",
+    "A350352",
+    "A392008"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

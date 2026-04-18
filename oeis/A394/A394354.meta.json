@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = denominator q of the fraction p/q that minimizes |m/n - p/q| with m/n != p/q, where p is 1 or prime, q is prime, q < n, and m ranges from 1 to n - 1, with this rule to ensure uniqueness: if for given n there is more than one minimizing triple (m, p, q), then choose the greatest such m, then greatest q, then greatest p.",
+  "id": "A394354",
+  "mentions": [
+    "A000040",
+    "A007917",
+    "A385925",
+    "A385926",
+    "A385927",
+    "A394355",
+    "A394356"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 78,
+    "source": "joeis"
+  }
+}

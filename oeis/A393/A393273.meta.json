@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically earliest sequence of distinct prime numbers such that for any n > 0, the bottom entry in the absolute difference triangle of the first n terms is different from 1.",
+  "id": "A393273",
+  "mentions": [
+    "A393281"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

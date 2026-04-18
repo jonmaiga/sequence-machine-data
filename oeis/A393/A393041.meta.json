@@ -1,0 +1,27 @@
+{
+  "description": "Number of trailing zeros in the primorial base representation of the arithmetic derivative of n.",
+  "id": "A393041",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A049345",
+    "A235991",
+    "A235992",
+    "A276084",
+    "A393042",
+    "A393043",
+    "A393045",
+    "A393047"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

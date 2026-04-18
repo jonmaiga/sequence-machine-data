@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p, distinct from prime(n), that uses exactly the same set of digits as prime(n), and -1 if no such prime exists.",
+  "id": "A392504",
+  "mentions": [
+    "A000040",
+    "A357096",
+    "A358020"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

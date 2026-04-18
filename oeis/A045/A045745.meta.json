@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that sum of proper divisors s(n) is a triangular number T(k).",
+  "description": "Numbers k such that sum of proper divisors s(k) is a triangular number.",
   "id": "A045745",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A001065",
+    "A010054"
   ],
   "tags": [
     "easy",

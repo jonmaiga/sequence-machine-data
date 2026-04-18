@@ -1,0 +1,17 @@
+{
+  "description": "Anti-admirable numbers. A number k is anti-admirable if there exists an anti-divisor d of k such that A066417(k) - 2d = 2k.",
+  "id": "A394575",
+  "mentions": [
+    "A066417",
+    "A111592"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

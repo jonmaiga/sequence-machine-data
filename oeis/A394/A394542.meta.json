@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} cos(n)/n^(3/2).",
+  "id": "A394542",
+  "mentions": [
+    "A121225",
+    "A122143",
+    "A263192"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

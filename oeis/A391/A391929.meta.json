@@ -1,0 +1,22 @@
+{
+  "description": "Number of fixed points on row n of triangle A391930.",
+  "id": "A391929",
+  "mentions": [
+    "A002110",
+    "A079276",
+    "A341805",
+    "A343405",
+    "A360407",
+    "A391928",
+    "A391930"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

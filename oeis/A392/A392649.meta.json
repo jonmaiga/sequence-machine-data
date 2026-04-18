@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be written as the sum of a subset of their sum-irreducible nontrivial divisors.",
+  "id": "A392649",
+  "mentions": [
+    "A005835",
+    "A138636",
+    "A392440",
+    "A392650",
+    "A392651",
+    "A392652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(2*n/7)} binomial(3*k,2*n-7*k).",
+  "id": "A392436",
+  "mentions": [
+    "A375307",
+    "A392431",
+    "A392432",
+    "A392433",
+    "A392434",
+    "A392435"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

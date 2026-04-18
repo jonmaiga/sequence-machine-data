@@ -1,5 +1,5 @@
 {
-  "description": "(2n^7 + 4n^6 - n^5 - 4n^4 - n^3) / 24.",
+  "description": "a(n) = (2n^7 + 4n^6 - n^5 - 4n^4 - n^3) / 24.",
   "id": "A245940",
   "mentions": [
     "A245826"

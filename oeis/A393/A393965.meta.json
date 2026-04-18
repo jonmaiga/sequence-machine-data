@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the height of an hexagonal antiprism with unit edges.",
+  "id": "A393965",
+  "mentions": [
+    "A019884",
+    "A160390",
+    "A385259",
+    "A387296",
+    "A387297",
+    "A393963",
+    "A393964"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Values of hypotenuse of primitive Pythagorean triples which can have four different shapes (that is, four different sets of \"legs\").",
+  "description": "Values of hypotenuse of primitive Pythagorean triples which can have exactly four different shapes (that is, four different sets of \"legs\").",
   "id": "A159781",
   "mentions": [
     "A006278",
@@ -8,6 +8,7 @@
     "A146945"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

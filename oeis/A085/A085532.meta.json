@@ -1,5 +1,5 @@
 {
-  "description": "(2n)^(n+1).",
+  "description": "a(n) = (2n)^(n+1).",
   "id": "A085532",
   "mentions": [],
   "tags": [

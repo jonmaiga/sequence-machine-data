@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k <= n/2 } binomial(n-2k, 3k+2).",
+  "description": "a(n) = Sum_{k <= n/2} binomial(n-2k, 3k+2).",
   "id": "A137358",
   "mentions": [
     "A136444",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

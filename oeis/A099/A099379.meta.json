@@ -2,7 +2,10 @@
   "description": "The real part of n', the arithmetic derivative for Gaussian integers.",
   "id": "A099379",
   "mentions": [
+    "A002144",
+    "A002145",
     "A003415",
+    "A079886",
     "A099380",
     "A218854",
     "A218855",

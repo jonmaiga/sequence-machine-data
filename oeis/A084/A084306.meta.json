@@ -1,16 +1,19 @@
 {
-  "description": "Numbers x such that sigma(x) mod x = 12 and x is not divisible by 6. Singular solutions mentioned in A076496.",
+  "description": "Numbers m not divisible by 6 such that sigma(m) == 12 (mod m).",
   "id": "A084306",
   "mentions": [
     "A000396",
     "A007691",
     "A045768",
+    "A045769",
     "A045770",
     "A076495",
     "A076496",
-    "A096818"
+    "A096818",
+    "A234238"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

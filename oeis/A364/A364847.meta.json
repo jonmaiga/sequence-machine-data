@@ -2,6 +2,7 @@
   "description": "Number of conjugacy classes in the group SL(2, Z_n), up to conjugacy in GL(2, Z_n).",
   "id": "A364847",
   "mentions": [
+    "A060594",
     "A062354",
     "A065501"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n*(3^n - 1) + 1.",
+  "id": "A394342",
+  "mentions": [
+    "A036290",
+    "A050914",
+    "A394330"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "F(P(n)) where P(n) is the unrestricted partition number of n and F(n) is the Fibonacci number.",
+  "description": "a(n) = F(P(n)) where P(n) is the unrestricted partition number of n and F(n) is the Fibonacci number.",
   "id": "A100843",
   "mentions": [
     "A000041",

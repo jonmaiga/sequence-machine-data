@@ -1,0 +1,24 @@
+{
+  "description": "Number of free polyantelopes with n cells.",
+  "id": "A394196",
+  "mentions": [
+    "A030446",
+    "A093989",
+    "A393390",
+    "A393392",
+    "A393838",
+    "A394194",
+    "A394195",
+    "A394197"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

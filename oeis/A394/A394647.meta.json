@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array, read by descending antidiagonals: numerators in the best approximating array to the golden ratio, phi (A001622). See A394037.",
+  "id": "A394647",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A394033",
+    "A394037"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

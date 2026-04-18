@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table T(n, k), n >= 0, k > 0, read by rows of extended (due to binary expansion of n) Stirling numbers of the first kind.",
+  "description": "Irregular triangle T(n, k), n >= 0, k > 0, read by rows of extended (due to binary expansion of n) Stirling numbers of the first kind.",
   "id": "A358631",
   "mentions": [
     "A000120",

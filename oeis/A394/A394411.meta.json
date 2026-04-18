@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered rooted trees with node weights summing to n such that the root has weight 0, non-root nodes have positive integer weights, and no two adjacent sibling nodes have the same weight.",
+  "id": "A394411",
+  "mentions": [
+    "A000108",
+    "A002212",
+    "A393235",
+    "A394284",
+    "A394385"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

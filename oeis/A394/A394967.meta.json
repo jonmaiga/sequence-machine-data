@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(3)/(2*Pi) - log(2)/(4*sqrt(3)) - 1/6.",
+  "id": "A394967",
+  "mentions": [
+    "A000041",
+    "A002194",
+    "A019692",
+    "A132715",
+    "A379101",
+    "A394966"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

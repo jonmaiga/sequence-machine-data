@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(3*k,2*n-6*k).",
+  "id": "A392435",
+  "mentions": [
+    "A375307",
+    "A392431",
+    "A392432",
+    "A392433",
+    "A392434",
+    "A392436"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

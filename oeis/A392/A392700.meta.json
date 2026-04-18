@@ -1,0 +1,44 @@
+{
+  "description": "Nonprime numbers k such that if the least prime index of k is x, then all subsequent prime indices are 2x.",
+  "id": "A392700",
+  "mentions": [
+    "A000040",
+    "A000097",
+    "A001222",
+    "A001227",
+    "A005117",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A069283",
+    "A112798",
+    "A316524",
+    "A325230",
+    "A344606",
+    "A344616",
+    "A345958",
+    "A346697",
+    "A346699",
+    "A346703",
+    "A390307",
+    "A390362",
+    "A390448",
+    "A390449",
+    "A391981",
+    "A391982",
+    "A392371",
+    "A392374",
+    "A392697",
+    "A392707",
+    "A392711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

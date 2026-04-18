@@ -1,15 +1,17 @@
 {
-  "description": "1/24 * (A018188(n)-11).",
+  "description": "a(n) = (1/24) * (A018188(n)-11).",
   "id": "A092153",
   "mentions": [
     "A018188"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. = continued fraction: A(x)=1/(1-x-x/(1-x^2-x^2/(1-x^3-x^3/(1-x^4-x^4/(...))))).",
+  "description": "Expansion of continued fraction A(x) = 1/(1-x-x/(1-x^2-x^2/(1-x^3-x^3/(1-x^4-x^4/(1-...))))).",
   "id": "A088354",
   "mentions": [
     "A088352",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T, read by rows, equal to the matrix square of A118032 and also equal to a diagonal bisection of A118032; i.e., diagonal n of T equals diagonal 2n of A118032: T(n,k) = A118032(2n-k,k) for n>=k>=0.",
+  "description": "Triangle T, read by rows, equal to the matrix square of A118032 and also equal to a diagonal bisection of A118032; i.e., diagonal n of T equals diagonal 2*n of A118032: T(n,k) = A118032(2*n-k,k) for n >= k >= 0.",
   "id": "A118040",
   "mentions": [
     "A118032",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 59,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

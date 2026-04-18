@@ -1,7 +1,8 @@
 {
-  "description": "Rook polynomials.",
+  "description": "Rook polynomials; fourth column of A008305.",
   "id": "A004306",
   "mentions": [
+    "A000073",
     "A000803",
     "A001644",
     "A008305"

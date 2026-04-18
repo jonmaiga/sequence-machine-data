@@ -2,14 +2,17 @@
   "description": "A fractal sequence. Pick any term t: exactly one of the t terms following t is larger than t.",
   "id": "A366113",
   "mentions": [
+    "A000217",
     "A342042"
   ],
   "tags": [
-    "nonn"
+    "formulas",
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 92,
+    "size": 105,
     "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "description": "Primes of the form 6^n+7.",
+  "description": "Primes of the form 6^k+7.",
   "id": "A104115",
   "mentions": [
-    "A080174"
+    "A078303"
   ],
   "tags": [
     "nonn"

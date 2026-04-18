@@ -1,0 +1,15 @@
+{
+  "description": "Integers k such that f(5k), f(5k+2), and f(5k+4) are all prime where f(x) = 2*x^2+2*x+1 = x^2+(x+1)^2.",
+  "id": "A393811",
+  "mentions": [
+    "A027862"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

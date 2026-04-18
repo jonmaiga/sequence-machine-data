@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(k+1,2*n-6*k+1).",
+  "id": "A392490",
+  "mentions": [
+    "A005314",
+    "A390020",
+    "A390662",
+    "A392489",
+    "A392491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

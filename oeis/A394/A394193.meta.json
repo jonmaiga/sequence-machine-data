@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of linear intervals of height k in the weak order on D_n (0 <= k <= n-1).",
+  "id": "A394193",
+  "mentions": [
+    "A002866",
+    "A391308",
+    "A394190",
+    "A394198"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 39,
+    "source": "joeis"
+  }
+}

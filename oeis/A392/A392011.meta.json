@@ -1,0 +1,22 @@
+{
+  "description": "The smallest number k such that k! contains all numbers 0, 1, ..., 10^n-1 as substrings.",
+  "id": "A392011",
+  "mentions": [
+    "A000142",
+    "A137578",
+    "A346120",
+    "A392010"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyominoes in the {4,7} tessellation of the hyperbolic plane.",
+  "id": "A393723",
+  "mentions": [
+    "A005036",
+    "A119611",
+    "A332930",
+    "A393724"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

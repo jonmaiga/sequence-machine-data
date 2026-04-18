@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that no convex hexagon exists that can be dissected into n congruent equilateral triangles.",
+  "description": "Numbers m such that no convex hexagon exists that can be dissected into m congruent equilateral triangles.",
   "id": "A229757",
   "mentions": [
     "A229461"

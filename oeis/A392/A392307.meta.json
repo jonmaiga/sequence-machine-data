@@ -1,0 +1,16 @@
+{
+  "description": "Number of composite numbers c such that c * sigma_n(c) == 2 (mod phi(c)).",
+  "id": "A392307",
+  "mentions": [
+    "A392306"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

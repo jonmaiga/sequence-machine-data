@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(n+1) = (n+1)^a(n).",
+  "description": "a(0) = 1, a(n+1) = (n+1)^a(n).",
   "id": "A049384",
   "mentions": [
     "A000142",

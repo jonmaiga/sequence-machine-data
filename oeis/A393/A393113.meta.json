@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, for n > 2, a(n) shares a factor with digsum(a(n-1)), where digsum(k) is the sum of the digits of k.",
+  "id": "A393113",
+  "mentions": [
+    "A007953",
+    "A028834",
+    "A037123",
+    "A064413",
+    "A391057"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

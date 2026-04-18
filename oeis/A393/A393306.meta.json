@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the greatest number k that contains, in base n, every digit exactly once, and such that k/(n-1) (if n is even) or 2*k/(n-1) (if n is odd) is prime.",
+  "id": "A393306",
+  "mentions": [
+    "A380386"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

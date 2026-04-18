@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of [n] having a gapless set of block sizes.",
+  "id": "A392234",
+  "mentions": [
+    "A000110",
+    "A393098",
+    "A393144"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

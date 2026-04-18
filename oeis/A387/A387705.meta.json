@@ -1,18 +1,18 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of heapable permutations of length n with exactly k-1 132 patterns.",
+  "description": "Triangle read by rows: T(n,k) = number of heapable permutations of length n with exactly k 132 patterns.",
   "id": "A387705",
   "mentions": [
     "A336282",
-    "A384725",
-    "A390832"
+    "A390832",
+    "A391286"
   ],
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 72,
+    "offset": 0,
+    "size": 73,
     "source": "oeis-bfile"
   }
 }

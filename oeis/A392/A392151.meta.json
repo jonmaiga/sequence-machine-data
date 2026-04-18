@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of tan(2) - sec(2).",
+  "id": "A392151",
+  "mentions": [
+    "A049471",
+    "A100261",
+    "A133265",
+    "A143623",
+    "A143624",
+    "A384932",
+    "A392146",
+    "A392147",
+    "A392148",
+    "A392149",
+    "A392150"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

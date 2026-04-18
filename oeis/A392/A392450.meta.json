@@ -1,0 +1,25 @@
+{
+  "description": "The number of exponential unitary (or e-unitary) divisors of n that are exponentially squarefree numbers (A209061).",
+  "id": "A392450",
+  "mentions": [
+    "A056624",
+    "A056671",
+    "A209061",
+    "A278908",
+    "A361177",
+    "A361255",
+    "A366309",
+    "A384557"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

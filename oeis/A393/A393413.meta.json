@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the limit mean of the number of continued fraction coefficients required per decimal digit for the bronze ratio.",
+  "id": "A393413",
+  "mentions": [
+    "A086819",
+    "A098316",
+    "A392067",
+    "A393243"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

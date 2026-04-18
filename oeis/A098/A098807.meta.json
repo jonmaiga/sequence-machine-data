@@ -1,5 +1,5 @@
 {
-  "description": "Numbers 2n arising from A098806.",
+  "description": "Numbers k such that there exists a prime p for which p - k and p + k are also prime.",
   "id": "A098807",
   "mentions": [
     "A098806"
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

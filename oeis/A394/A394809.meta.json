@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 12/Pi - Pi.",
+  "id": "A394809",
+  "mentions": [
+    "A000796",
+    "A132702",
+    "A394808",
+    "A394810",
+    "A394811",
+    "A394812"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

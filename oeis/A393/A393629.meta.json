@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = x + x*d/dx ( x*d/dx A(x)^2/2 ).",
+  "id": "A393629",
+  "mentions": [
+    "A088716",
+    "A216733",
+    "A323693",
+    "A323694",
+    "A393751"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

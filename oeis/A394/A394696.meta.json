@@ -1,0 +1,20 @@
+{
+  "description": "Number of social networks of n persons in which the statement \"My friends have on average more friends than I have\" is true for a majority of the persons.",
+  "id": "A394696",
+  "mentions": [
+    "A006129",
+    "A393153",
+    "A394695"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

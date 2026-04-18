@@ -1,16 +1,17 @@
 {
-  "description": "A symmetrical triangular sequence:t(n,m)=(n!^2/(m!(n - m)!))*Eulerian[n + 1, m] - (n!^2/(m!(n - m)!)) + 1.",
+  "description": "Triangle ready by rows: T(n,k) = n! * binomial(n,k) * (Eulerian(n+1,k) - 1) + 1.",
   "id": "A174791",
-  "mentions": [],
+  "mentions": [
+    "A173018"
+  ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "joeis"
   }
 }

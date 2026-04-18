@@ -1,8 +1,11 @@
 {
   "description": "a(n) = 3*n - floor(n*sqrt(2)).",
   "id": "A195176",
-  "mentions": [],
+  "mentions": [
+    "A001951"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

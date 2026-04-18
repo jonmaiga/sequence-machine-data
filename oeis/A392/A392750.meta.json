@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers that appear in A381466.",
+  "id": "A392750",
+  "mentions": [
+    "A381466",
+    "A381495",
+    "A381501"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

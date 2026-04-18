@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = usigma(n) + tau(n) - tau(rad(n)).",
+  "id": "A394481",
+  "mentions": [
+    "A000005",
+    "A007947",
+    "A034444",
+    "A034448"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

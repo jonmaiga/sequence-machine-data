@@ -1,0 +1,29 @@
+{
+  "description": "The largest 7-smooth divisor of n.",
+  "id": "A392597",
+  "mentions": [
+    "A002473",
+    "A006519",
+    "A007814",
+    "A007949",
+    "A038500",
+    "A060904",
+    "A065331",
+    "A112765",
+    "A214411",
+    "A268354",
+    "A355582",
+    "A392598"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

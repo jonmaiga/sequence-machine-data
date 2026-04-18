@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least y such that A393978(n)^2 - y^2 is an anagram of y^2.",
+  "id": "A393998",
+  "mentions": [
+    "A004186",
+    "A393978",
+    "A394001"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

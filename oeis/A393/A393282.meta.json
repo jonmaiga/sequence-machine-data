@@ -1,0 +1,16 @@
+{
+  "description": "Main diagonal of A330942.",
+  "id": "A393282",
+  "mentions": [
+    "A330942"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

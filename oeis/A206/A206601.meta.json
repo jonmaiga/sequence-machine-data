@@ -1,5 +1,5 @@
 {
-  "description": "3^(n(n+1)/2) - 1.",
+  "description": "a(n) = 3^(n(n+1)/2) - 1.",
   "id": "A206601",
   "mentions": [
     "A000217",

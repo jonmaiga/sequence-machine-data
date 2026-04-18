@@ -1,0 +1,17 @@
+{
+  "description": "Real part of Sum_{n>=0} (2*Pi*i + 1/2^n)^n / n!.",
+  "id": "A393771",
+  "mentions": [
+    "A393772"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 120,
+    "source": "joeis"
+  }
+}

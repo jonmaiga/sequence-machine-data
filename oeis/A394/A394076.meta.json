@@ -1,0 +1,28 @@
+{
+  "description": "Smallest dihedral angle, in radians, in an uniform heptagonal antiprism.",
+  "id": "A394076",
+  "mentions": [
+    "A002194",
+    "A020760",
+    "A121598",
+    "A178818",
+    "A343059",
+    "A394071",
+    "A394072",
+    "A394073",
+    "A394074",
+    "A394075",
+    "A394077"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

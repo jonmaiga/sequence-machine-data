@@ -1,0 +1,15 @@
+{
+  "description": "a(0) = 0, a(1) = 1; otherwise, a(n) = a(n-1) + a(m), where m is the greatest square < n.",
+  "id": "A392473",
+  "mentions": [
+    "A048760"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

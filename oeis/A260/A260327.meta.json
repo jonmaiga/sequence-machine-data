@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) gives numerators of coefficients in Nörlund's polynomials D_{2n}(x).",
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) gives numerators of coefficients in Nørlund's polynomials D_{2n}(x).",
   "id": "A260327",
   "mentions": [
     "A001896",

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers such that each digit d_i is equal to the number of digits to its right that are strictly less than d_i.",
+  "id": "A394504",
+  "mentions": [
+    "A008592"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

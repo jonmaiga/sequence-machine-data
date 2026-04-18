@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n+j)^3-(n+j)^2+1 are primes for j=0 to 3.",
+  "description": "Numbers k such that (k+j)^3-(k+j)^2+1 are primes for j=0 to 3.",
   "id": "A111502",
   "mentions": [],
   "tags": [

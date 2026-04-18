@@ -1,0 +1,13 @@
+{
+  "description": "Primes which can be written as 2^a + p^b where a > 1, p is an odd prime and b > 1 is odd.",
+  "id": "A392680",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

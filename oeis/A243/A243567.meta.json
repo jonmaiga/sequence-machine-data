@@ -1,5 +1,5 @@
 {
-  "description": "Number of simple connected graphs with n nodes that are have no subgraph isomorphic to diamond graph or the bowtie graph.",
+  "description": "Number of simple connected graphs with n nodes that have no subgraph isomorphic to diamond graph or the bowtie graph.",
   "id": "A243567",
   "mentions": [
     "A242790",

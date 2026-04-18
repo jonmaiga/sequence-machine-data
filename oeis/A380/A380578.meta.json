@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic groups appearing as the group of units of the ring Z/kZ for every k such that phi(k) = n.",
+  "description": "Number of nonisomorphic abelian groups of order n which appear as the group of units of the ring Z/kZ taken over every k such that phi(k) = n.",
   "id": "A380578",
   "mentions": [
     "A000010",
@@ -8,7 +8,8 @@
     "A007617",
     "A014197",
     "A049283",
-    "A057635"
+    "A057635",
+    "A394390"
   ],
   "tags": [
     "formulas",
@@ -17,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "(9*7^n+1)/2.",
+  "description": "a(n) = (9*7^n+1)/2.",
   "id": "A199486",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

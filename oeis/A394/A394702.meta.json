@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1-1/p^p).",
+  "id": "A394702",
+  "mentions": [
+    "A048103",
+    "A051674"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

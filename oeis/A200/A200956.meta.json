@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 8n^3-3.",
+  "description": "Primes of the form 8*k^3-3.",
   "id": "A200956",
   "mentions": [],
   "tags": [

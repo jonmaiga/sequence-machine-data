@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k > 1 whose largest proper divisor cannot be written as a sum of their other nontrivial divisors.",
+  "id": "A392500",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A002808",
+    "A246547",
+    "A392440",
+    "A392498",
+    "A392499"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

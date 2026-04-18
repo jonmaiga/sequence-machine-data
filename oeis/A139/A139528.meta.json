@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that numbers 24n+11 are primes.",
+  "description": "Numbers k such that 24*k + 11 is prime.",
   "id": "A139528",
-  "mentions": [],
+  "mentions": [
+    "A107007"
+  ],
   "tags": [
     "easy",
     "nonn"

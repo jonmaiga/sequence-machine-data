@@ -3,6 +3,7 @@
   "id": "A061607",
   "mentions": [
     "A061605",
+    "A061606",
     "A061627",
     "A061628",
     "A061637",
@@ -10,12 +11,13 @@
     "A092726"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

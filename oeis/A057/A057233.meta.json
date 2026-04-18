@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that n | 8^n + 7^n + 6^n.",
+  "description": "Numbers k such that k | 8^k + 7^k + 6^k.",
   "id": "A057233",
   "mentions": [
-    "A003594"
+    "A003594",
+    "A074577"
   ],
   "tags": [
     "nonn"

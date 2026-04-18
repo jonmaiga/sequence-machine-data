@@ -1,0 +1,21 @@
+{
+  "description": "Number of transitive relations on an n-set with at most four ordered pairs.",
+  "id": "A394722",
+  "mentions": [
+    "A000290",
+    "A349849",
+    "A349919",
+    "A349927",
+    "A393295"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

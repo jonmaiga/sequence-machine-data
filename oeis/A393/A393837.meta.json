@@ -1,0 +1,22 @@
+{
+  "description": "Number of one-sided polygiraffes with n cells.",
+  "id": "A393837",
+  "mentions": [
+    "A030445",
+    "A093990",
+    "A393390",
+    "A393391",
+    "A393836",
+    "A393838",
+    "A393839"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

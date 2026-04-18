@@ -1,13 +1,19 @@
 {
-  "description": "Guttmann-Torrie simple cubic lattice series coefficients c_n^{21}(Pi).",
+  "description": "Number of n-step self-avoiding walks on the cubic lattice that start at the origin, stay in the top half-space, and end at height 0.",
   "id": "A259806",
-  "mentions": [],
+  "mentions": [
+    "A001411",
+    "A116903",
+    "A116904",
+    "A259807"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

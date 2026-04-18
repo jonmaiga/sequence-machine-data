@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n^(n - 1) - 1)^n.",
+  "id": "A392143",
+  "mentions": [
+    "A253604",
+    "A373387",
+    "A390597"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) is the number of partial functions on [n] such that the sizes of the preimages of the individual elements in the range form the k-th partition in the class of all partitions listed in Abramowitz and Stegun order, n>=0, 0<=k<=A000070(n).",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partial functions on [n] such that the sizes of the preimages of the individual elements in the range form the k-th partition in the class of all partitions listed in canonical (graded reverse lexicographic) order, n>=0, 0<=k<=A000070(n).",
   "id": "A350788",
   "mentions": [
     "A000041",
     "A000070",
     "A000169",
-    "A049009"
+    "A049009",
+    "A080577"
   ],
   "tags": [
     "nonn",

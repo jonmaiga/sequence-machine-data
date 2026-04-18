@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes k such that k+2 and k+6 are primes and k+4 and k+8 are all semiprimes.",
+  "id": "A392186",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A016969",
+    "A175710"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

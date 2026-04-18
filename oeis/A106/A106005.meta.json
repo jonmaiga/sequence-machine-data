@@ -1,7 +1,9 @@
 {
   "description": "Fibonacci sequence (mod 15).",
   "id": "A106005",
-  "mentions": [],
+  "mentions": [
+    "A001175"
+  ],
   "tags": [
     "easy",
     "nonn"

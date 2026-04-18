@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest k for which A243917(k) = n.",
+  "id": "A391720",
+  "mentions": [
+    "A005179",
+    "A243865",
+    "A243917",
+    "A391675"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

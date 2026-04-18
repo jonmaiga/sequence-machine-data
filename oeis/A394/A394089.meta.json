@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (-1)^k * (1 - 1/zeta(k)).",
+  "id": "A394089",
+  "mentions": [
+    "A008683",
+    "A033150",
+    "A051903",
+    "A368714",
+    "A381955"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

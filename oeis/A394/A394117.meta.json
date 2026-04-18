@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^5+(2x-2)*A(x)^4+A(x)^3+(4x^2-2x)*A(x)^2+x^3=0.",
+  "id": "A394117",
+  "mentions": [
+    "A394116",
+    "A394118"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

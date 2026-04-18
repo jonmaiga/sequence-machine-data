@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest k for which A243865(k) = n, or -1 if no such k exists.",
+  "id": "A391675",
+  "mentions": [
+    "A243865",
+    "A243917"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

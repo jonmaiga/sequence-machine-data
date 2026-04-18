@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least prime factor of (3^(2^n)+1)/2.",
+  "id": "A394703",
+  "mentions": [
+    "A020639",
+    "A059917",
+    "A093625",
+    "A138083",
+    "A171381"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of partitions of n with n sorts of part 1 which are introduced in ascending order.",
   "id": "A292503",
   "mentions": [
+    "A014326",
     "A292462",
     "A292463",
     "A292507",
@@ -9,11 +10,12 @@
     "A292746"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

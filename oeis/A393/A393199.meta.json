@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least m such that the base m expansion of n contains exactly two ones.",
+  "id": "A393199",
+  "mentions": [
+    "A393198"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

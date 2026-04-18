@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the number of exponential divisors of the greatest common divisor of two positive integers selected independently at random.",
+  "id": "A394333",
+  "mentions": [
+    "A000005",
+    "A049419",
+    "A322791",
+    "A327837",
+    "A394334"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

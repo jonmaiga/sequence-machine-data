@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the permanent of the n-th order Hankel matrix whose generic element is given by A000045(i+j-1) with i,j = 1, ..., n.",
+  "id": "A393240",
+  "mentions": [
+    "A000045",
+    "A120297",
+    "A374668"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

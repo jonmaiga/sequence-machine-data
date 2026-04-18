@@ -3,6 +3,7 @@
   "id": "A386315",
   "mentions": [
     "A004015",
+    "A004018",
     "A016725",
     "A278081",
     "A387222",
@@ -10,11 +11,12 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

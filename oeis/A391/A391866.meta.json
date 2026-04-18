@@ -1,0 +1,22 @@
+{
+  "description": "Nonsquarefree numbers k that are not divisible by p^p for any prime p, and for which A276085(k) is a multiple of A003557(k), where A276085 is the primorial base log-function.",
+  "id": "A391866",
+  "mentions": [
+    "A003557",
+    "A008966",
+    "A276085",
+    "A359550",
+    "A371083",
+    "A371086",
+    "A392592"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) = 5*phi(n+1).",
+  "description": "Numbers k such that phi(k) = 5*phi(k+1).",
   "id": "A257550",
   "mentions": [
     "A001274",

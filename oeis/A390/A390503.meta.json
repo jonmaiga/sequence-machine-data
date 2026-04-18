@@ -1,0 +1,19 @@
+{
+  "description": "Number of character comparisons needed by Boyer-Moore string search to identify the first occurrence of string n in the infinite Champernowne word 123456789101112... (A033307).",
+  "id": "A390503",
+  "mentions": [
+    "A031297",
+    "A033307",
+    "A392989",
+    "A393101"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

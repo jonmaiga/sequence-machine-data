@@ -1,10 +1,11 @@
 {
-  "description": "The first n digits of n! form a prime number.",
+  "description": "The first k digits of k! form a prime number.",
   "id": "A060323",
   "mentions": [],
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

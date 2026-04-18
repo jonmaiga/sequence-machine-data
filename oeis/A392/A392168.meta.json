@@ -1,0 +1,23 @@
+{
+  "description": "The Dedekind psi function value of the smallest square divisible by n.",
+  "id": "A392168",
+  "mentions": [
+    "A001615",
+    "A013661",
+    "A013662",
+    "A053143",
+    "A327171",
+    "A392087"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest value of k such that gcd(A381466(k-1), k) = n.",
+  "id": "A389105",
+  "mentions": [
+    "A381466"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

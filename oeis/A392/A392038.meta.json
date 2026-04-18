@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that n can be represented as a linear combination of 1^n, 2^n, ..., k^n with coefficients +-1 only.",
+  "id": "A392038",
+  "mentions": [
+    "A019568",
+    "A126908",
+    "A231015",
+    "A392025"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

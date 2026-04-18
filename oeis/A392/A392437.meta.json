@@ -1,0 +1,17 @@
+{
+  "description": "3-composable numbers: numbers k divisible by 3 but not by 2, for which k/3 is a sum of the other nontrivial divisors of k.",
+  "id": "A392437",
+  "mentions": [
+    "A392438",
+    "A392440",
+    "A392500"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

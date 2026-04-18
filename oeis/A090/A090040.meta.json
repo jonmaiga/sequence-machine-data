@@ -1,5 +1,5 @@
 {
-  "description": "(3*6^n + 2^n)/4.",
+  "description": "a(n) = (3*6^n + 2^n)/4.",
   "id": "A090040",
   "mentions": [
     "A019590",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the distance between the A393465(n)-th point on a square spiral and the origin.",
+  "id": "A393466",
+  "mentions": [
+    "A046109",
+    "A174344",
+    "A274923",
+    "A336336",
+    "A393465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the first n primes divides n!.",
+  "description": "Numbers k such that the sum of the first k primes divides k!.",
   "id": "A074207",
   "mentions": [],
   "tags": [

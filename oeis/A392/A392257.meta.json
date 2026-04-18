@@ -1,0 +1,15 @@
+{
+  "description": "Smallest value of rad(t*(n-t)) where t is coprime to n and in the range 1 <= t <= n/2 where rad = A007947.",
+  "id": "A392257",
+  "mentions": [
+    "A007947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 73,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle in which row n gives periodic part of a certain map.",
+  "description": "Triangle read by rows: T(n,k) = floor(e*k!) - n*floor(e*k!/n).",
   "id": "A084348",
   "mentions": [
     "A084351"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 102,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

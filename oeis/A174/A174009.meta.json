@@ -1,19 +1,20 @@
 {
-  "description": "Numbers n such that A174008(k)=n-th prime.",
+  "description": "Indices of the primes appearing in A174008.",
   "id": "A174009",
   "mentions": [
     "A000040",
-    "A001477",
-    "A078916",
+    "A000720",
+    "A078917",
     "A163300",
     "A174008"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

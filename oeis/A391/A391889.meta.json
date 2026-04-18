@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (7*n)!/(n!*(2*n)!*(4*n)!).",
+  "id": "A391889",
+  "mentions": [
+    "A001421",
+    "A113424",
+    "A391700",
+    "A393378",
+    "A394371"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the position of A003961(A025487(n)) in A147516.",
+  "id": "A393258",
+  "mentions": [
+    "A003961",
+    "A025487",
+    "A147516"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

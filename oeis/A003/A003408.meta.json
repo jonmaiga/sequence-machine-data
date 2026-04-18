@@ -2,7 +2,8 @@
   "description": "a(n) = binomial(3n+6, n).",
   "id": "A003408",
   "mentions": [
-    "A001764"
+    "A001764",
+    "A013698"
   ],
   "tags": [
     "easy",

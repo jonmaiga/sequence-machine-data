@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 149*k + 151 is prime.",
+  "description": "Numbers k such that 149*k + 151 is prime.",
   "id": "A108029",
   "mentions": [],
   "tags": [

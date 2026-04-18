@@ -8,13 +8,14 @@
     "A220604"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 73,
+    "size": 81,
     "source": "oeis-bfile"
   }
 }

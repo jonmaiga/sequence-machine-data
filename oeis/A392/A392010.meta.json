@@ -1,0 +1,19 @@
+{
+  "description": "The smallest nonnegative number k such that n! does not contain k as a substring.",
+  "id": "A392010",
+  "mentions": [
+    "A000142",
+    "A137578",
+    "A346120",
+    "A392011"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

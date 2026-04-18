@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A278981(n) < 2*n^2.",
+  "description": "Numbers k such that A278981(k) < 2*k^2.",
   "id": "A280270",
   "mentions": [
     "A278981",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

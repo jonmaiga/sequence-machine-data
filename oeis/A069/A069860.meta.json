@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that divide the concatenation of n+1 and n+2.",
+  "description": "Numbers m that divide the concatenation of m+1 and m+2.",
   "id": "A069860",
   "mentions": [
     "A069861",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 35,
     "source": "joeis"
   }
 }

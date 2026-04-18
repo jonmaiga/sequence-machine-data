@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 10^n - 83 is prime.",
+  "description": "Numbers k such that 10^k - 83 is prime.",
   "id": "A178438",
   "mentions": [
     "A108328",
     "A108330"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

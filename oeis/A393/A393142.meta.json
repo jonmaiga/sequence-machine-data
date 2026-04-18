@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. T(n, k) = k^(n-1)*hypergeom([1, 1 - k], [], 1/k) for k > 0; T(n, 0) = 0^n.",
+  "id": "A393142",
+  "mentions": [
+    "A001865",
+    "A133297",
+    "A394078"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

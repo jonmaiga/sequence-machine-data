@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that a perfect n X n parity pattern exists.",
+  "description": "Numbers k such that a perfect k X k parity pattern exists.",
   "id": "A118142",
   "mentions": [
     "A117870",

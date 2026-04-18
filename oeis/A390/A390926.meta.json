@@ -1,0 +1,21 @@
+{
+  "description": "Square array read by upward diagonals: A(n,k) is the position of the k-th occurrence of the decimal string n in the infinite Champernowne word 123456789101112... (A033307).",
+  "id": "A390926",
+  "mentions": [
+    "A007376",
+    "A031288",
+    "A031289",
+    "A031296",
+    "A031297",
+    "A033307"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

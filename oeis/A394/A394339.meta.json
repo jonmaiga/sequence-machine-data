@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled posemigroups on n elements.",
+  "id": "A394339",
+  "mentions": [
+    "A001035",
+    "A027851",
+    "A394338"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

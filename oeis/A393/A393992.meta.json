@@ -1,0 +1,22 @@
+{
+  "description": "Largest number of distinct lines determined by pairs of cell centers of a polyomino with n cells.",
+  "id": "A393992",
+  "mentions": [
+    "A000105",
+    "A380991",
+    "A393939",
+    "A393993",
+    "A394392",
+    "A394394"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

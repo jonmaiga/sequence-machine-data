@@ -1,13 +1,14 @@
 {
-  "description": "Expansion of e.g.f.: exp(arctan(x)-arctanh(x))=1-4/3!*x^3+160/6!*x^6-1440/7!*x^7...",
+  "description": "Expansion of e.g.f. exp(arctan(x)-arctanh(x)).",
   "id": "A013462",
   "mentions": [],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

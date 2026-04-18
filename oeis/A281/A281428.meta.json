@@ -2,9 +2,11 @@
   "description": "E.g.f. C(x) satisfies: C(x) = cosh( Integral C(x)^4 dx ).",
   "id": "A281428",
   "mentions": [
+    "A000010",
     "A052502",
     "A281180",
     "A281181",
+    "A281183",
     "A281427"
   ],
   "tags": [
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

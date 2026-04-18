@@ -1,5 +1,5 @@
 {
-  "description": "n*(n^10+1)/2.",
+  "description": "a(n) = n*(n^10+1)/2.",
   "id": "A168119",
   "mentions": [
     "A170793"

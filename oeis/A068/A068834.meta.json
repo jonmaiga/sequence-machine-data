@@ -1,17 +1,18 @@
 {
-  "description": "Square such that the next three squares also having a square digit sum.",
+  "description": "Squares k such that k and the next three squares also have a square digit sum.",
   "id": "A068834",
   "mentions": [
+    "A061910",
     "A068833"
   ],
   "tags": [
     "base",
-    "hard",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least common recursive multiple of {1, ..., n}.",
+  "id": "A394655",
+  "mentions": [
+    "A003418",
+    "A164336",
+    "A287958"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

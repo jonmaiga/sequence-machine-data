@@ -1,0 +1,32 @@
+{
+  "description": "Powers k^m, 2 <= m <= 3, with k neither squarefree nor squareful.",
+  "id": "A390379",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A002760",
+    "A013929",
+    "A024619",
+    "A126706",
+    "A131605",
+    "A168363",
+    "A286708",
+    "A332785",
+    "A362762",
+    "A386762",
+    "A389947",
+    "A389949",
+    "A390381",
+    "A391115",
+    "A392564"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

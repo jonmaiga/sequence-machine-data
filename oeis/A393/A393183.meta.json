@@ -1,0 +1,16 @@
+{
+  "description": "Number of non-isomorphic planar graphs with n edges that are exactly 2-vertex connected and at least 3-edge connected.",
+  "id": "A393183",
+  "mentions": [
+    "A392848"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

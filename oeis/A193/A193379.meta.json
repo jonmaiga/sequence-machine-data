@@ -1,11 +1,13 @@
 {
-  "description": "Norm of coefficients in g.f. C(x) that satisfies: C(x) = 1 + x*C(I*x)^2.",
+  "description": "Norm of coefficients in the series C(x) defined by C(x) = 1 + x*C(i*x)^2, where i^2 = -1.",
   "id": "A193379",
   "mentions": [
+    "A138157",
     "A193377",
     "A193378"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

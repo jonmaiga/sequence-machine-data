@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/((1-z)*(1-2*z)*(1-3*z))^4.",
+  "id": "A393589",
+  "mentions": [
+    "A008277",
+    "A048993",
+    "A383841",
+    "A393588",
+    "A393590"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

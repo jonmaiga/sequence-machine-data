@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the mean distance between two points uniformly and independently selected at random in a regular octahedron of unit volume.",
+  "id": "A394103",
+  "mentions": [
+    "A073012",
+    "A366019",
+    "A394104",
+    "A394105"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

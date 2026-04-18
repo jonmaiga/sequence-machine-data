@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that |s(k) - 2*k|, where s(k) is the aliquot sum A001065(k), is a perfect number.",
+  "id": "A394719",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A033885"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

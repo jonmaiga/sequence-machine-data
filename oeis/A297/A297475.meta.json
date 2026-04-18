@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that phi(x) = n for more than one value of x, and the smallest such x divides the largest.",
+  "description": "Numbers k such that phi(x) = k for more than one value of x, and the smallest such x divides the largest.",
   "id": "A297475",
   "mentions": [
+    "A000040",
     "A002181",
     "A002202",
     "A006511",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of perfect matchings in a graph which is the complete tripartite graph K_{2n,2n,2n} with the edges of a single perfect matching removed.",
+  "id": "A393180",
+  "mentions": [
+    "A000166",
+    "A082491",
+    "A293075"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

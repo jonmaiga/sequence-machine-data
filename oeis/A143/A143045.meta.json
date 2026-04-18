@@ -1,7 +1,8 @@
 {
-  "description": "G.f.: A(x) = x + A(-x)^2.",
+  "description": "G.f. A(x) satisfies A(x) = x + A(-x)^2.",
   "id": "A143045",
   "mentions": [
+    "A000108",
     "A100238",
     "A143046",
     "A143048",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

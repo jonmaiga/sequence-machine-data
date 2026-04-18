@@ -1,7 +1,8 @@
 {
-  "description": "Maximum number of edges in a simple polygon that is the union of n triangles.",
+  "description": "Maximum number of edges in a simple polygon that is the regular union of n triangles.",
   "id": "A375986",
   "mentions": [
+    "A002004",
     "A006066",
     "A090338",
     "A090339",
@@ -9,7 +10,8 @@
   ],
   "tags": [
     "more",
-    "nonn"
+    "nonn",
+    "unsolved"
   ],
   "terms": {
     "offset": 1,

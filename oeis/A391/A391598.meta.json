@@ -1,0 +1,16 @@
+{
+  "description": "Primes that are perimeter^2 + hypotenuse^2 of a Pythagorean triple.",
+  "id": "A391598",
+  "mentions": [
+    "A103606",
+    "A389589"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

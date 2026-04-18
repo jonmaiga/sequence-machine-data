@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-x^2)/(1+2x).",
+  "description": "Expansion of (1-x^2)/(1+2*x).",
   "id": "A110164",
   "mentions": [
     "A003945",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 34,
     "source": "joeis"
   }
 }

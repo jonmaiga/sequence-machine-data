@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + phi(k) + Omega(k)^6.",
+  "id": "A393528",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001222",
+    "A001615",
+    "A390049",
+    "A391448",
+    "A393229",
+    "A393230",
+    "A393425"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

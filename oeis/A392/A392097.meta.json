@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k for which the symmetric representation of sigma for k, SRS(k), has n parts and each i-th part up to the diagonal is unimodal of width i.",
+  "id": "A392097",
+  "mentions": [
+    "A003056",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A249351",
+    "A377654"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

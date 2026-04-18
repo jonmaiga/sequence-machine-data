@@ -1,0 +1,15 @@
+{
+  "description": "Wiener index of the n-necklace graph.",
+  "id": "A393462",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

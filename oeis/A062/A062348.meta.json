@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n! / (number of distinct prime divisors of n).",
   "id": "A062348",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A001221"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "E.g.f. C(x)^2 = cosh( Integral C(x)^3 dx )^2 where C(x) is described by A281181.",
   "id": "A281183",
   "mentions": [
+    "A000010",
     "A281180",
     "A281181",
     "A281182",

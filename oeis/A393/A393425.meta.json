@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + phi(k) + Omega(k)^4.",
+  "id": "A393425",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001222",
+    "A001615",
+    "A390049",
+    "A393229",
+    "A393230"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

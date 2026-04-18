@@ -1,0 +1,18 @@
+{
+  "description": "Number of derangements p of n points on a circle such that if x is next to y, then p(x) is not next to p(y).",
+  "id": "A393831",
+  "mentions": [
+    "A000166",
+    "A002464",
+    "A089222",
+    "A288208"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

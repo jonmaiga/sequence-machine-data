@@ -1,0 +1,18 @@
+{
+  "description": "Totient numbers (A002202) k at which x/k reaches a record, where x (A002181) is the smallest integer such that phi(x) = k.",
+  "id": "A393265",
+  "mentions": [
+    "A002181",
+    "A002202",
+    "A393266"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

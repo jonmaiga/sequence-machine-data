@@ -1,0 +1,23 @@
+{
+  "description": "The smallest k >= 0 that can be represented as a linear combination of 1, 2, ..., n with coefficients +-1 and that cannot be represented using 1, 2, ..., m with 1<=m",
+  "id": "A392346",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A019568",
+    "A140358",
+    "A165998",
+    "A392126",
+    "A392127"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Maximal term in trajectory of P under the 'Px+1' map, where P = n-th prime, or -1 if no such term exists.",
   "id": "A057689",
   "mentions": [
+    "A020639",
     "A033478",
     "A057216",
     "A057446",
@@ -17,13 +18,12 @@
     "A057691"
   ],
   "tags": [
-    "easy",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 30,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

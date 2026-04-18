@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime > n^10.",
+  "id": "A391601",
+  "mentions": [
+    "A000040",
+    "A003617",
+    "A007491",
+    "A008454",
+    "A014220",
+    "A053786",
+    "A053788",
+    "A151800"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

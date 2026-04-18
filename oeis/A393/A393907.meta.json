@@ -1,0 +1,15 @@
+{
+  "description": "Number of planar embedding isomorphism classes of the n-Hanoi graph.",
+  "id": "A393907",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

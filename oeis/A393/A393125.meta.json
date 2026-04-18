@@ -1,0 +1,21 @@
+{
+  "description": "Maximum of the orbit of n under the map x -> 5x+1 if odd else x/2; -1 if the orbit is unbounded.",
+  "id": "A393125",
+  "mentions": [
+    "A028389",
+    "A057688",
+    "A259193",
+    "A259207"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

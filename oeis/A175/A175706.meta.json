@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes of the form m*p such that k*p=(m*p)-th semiprime.",
+  "description": "Semiprimes of the form m*p such that k*p = (m*p)-th semiprime.",
   "id": "A175706",
   "mentions": [
     "A000040",

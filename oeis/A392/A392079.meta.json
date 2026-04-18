@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the maximum count of equal differences among consecutive divisors of A259366(n).",
+  "id": "A392079",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A060682",
+    "A193829",
+    "A259366",
+    "A392080"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

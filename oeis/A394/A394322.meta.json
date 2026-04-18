@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions p of n such that (minimal multiplicity of the parts of p) >= (minimal part of p).",
+  "id": "A394322",
+  "mentions": [
+    "A394323"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

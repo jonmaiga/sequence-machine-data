@@ -1,5 +1,5 @@
 {
-  "description": "Degree of the algebraic number g = eta(sqrt(-n))/sqrt(K(sqrt(lambda(sqrt(-r))))/Pi), where eta is the Dedekind eta function, K is the complete elliptic integral of the first kind, lambda is the modular lambda function and r = A007913(n) is the square free part of of n.",
+  "description": "Degree of the algebraic number g = eta(sqrt(-n))/sqrt(K(sqrt(lambda(sqrt(-r))))/Pi), where eta is the Dedekind eta function, K is the complete elliptic integral of the first kind, lambda is the modular lambda function and r = A007913(n) is the square free part of n.",
   "id": "A389953",
   "mentions": [
     "A007913",

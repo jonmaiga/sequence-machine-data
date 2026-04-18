@@ -1,0 +1,29 @@
+{
+  "description": "Powers k^m divisible by at least 2 cubes greater than 1, with m > 1 and nonsquarefree weak k (in A332785).",
+  "id": "A392098",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A013929",
+    "A024619",
+    "A062503",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A332785",
+    "A359280",
+    "A386762",
+    "A389864",
+    "A391968",
+    "A392069"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

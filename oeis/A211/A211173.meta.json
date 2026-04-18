@@ -1,5 +1,5 @@
 {
-  "description": "(2n)!^n (modulo 2n+1).",
+  "description": "a(n) = (2n)!^n (modulo 2n+1).",
   "id": "A211173",
   "mentions": [
     "A047845",

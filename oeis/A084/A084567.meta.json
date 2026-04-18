@@ -2,7 +2,9 @@
   "description": "Binomial transform of (1,-1,4,-16,64,-256,1024,...) = (3*0^n-(-4)^n)/4.",
   "id": "A084567",
   "mentions": [
-    "A054878"
+    "A054878",
+    "A262710",
+    "A352779"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

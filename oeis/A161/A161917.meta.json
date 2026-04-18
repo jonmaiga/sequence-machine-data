@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n for which the sum of their prime factors (with repetition) divides the sum of their divisors.",
+  "description": "Numbers for which the sum of their prime factors (with repetition) divides the sum of their divisors.",
   "id": "A161917",
   "mentions": [
     "A000203",
     "A001414",
+    "A037074",
     "A161918"
   ],
   "tags": [

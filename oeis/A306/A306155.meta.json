@@ -2,11 +2,13 @@
   "description": "a(n) > a(n-1) is the smallest number such that a(n)! contains a(n-1)! as a substring, with a(0) = 0.",
   "id": "A306155",
   "mentions": [
-    "A000142"
+    "A000142",
+    "A086654"
   ],
   "tags": [
     "base",
     "bref",
+    "formulas",
     "more",
     "nonn"
   ],

@@ -1,14 +1,14 @@
 {
-  "description": "a(n) = floor(n*Pi(n)/2).",
+  "description": "a(n) = floor(n*pi(n)/2) where pi(n) is the number of primes <= n.",
   "id": "A140208",
   "mentions": [
+    "A000720",
     "A007504",
     "A128913"
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

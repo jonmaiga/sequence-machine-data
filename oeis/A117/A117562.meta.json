@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is a multiple of the sum of decimal digits squared of n.",
+  "description": "Numbers k such that k is a multiple of the sum of decimal digits squared of k.",
   "id": "A117562",
   "mentions": [
     "A034087"

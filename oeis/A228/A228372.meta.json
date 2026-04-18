@@ -2,10 +2,13 @@
   "description": "Number of nontrivial divisors in the first n composites.",
   "id": "A228372",
   "mentions": [
+    "A002808",
+    "A006218",
     "A144925",
     "A228363"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

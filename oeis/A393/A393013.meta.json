@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k with the property sigma(k)/k >= 6 that are not divisible by any other number with that property, where sigma = A000203.",
+  "id": "A393013",
+  "mentions": [
+    "A000203",
+    "A006039",
+    "A388019",
+    "A392936"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

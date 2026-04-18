@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that sigma(k) = 2*k + 3*phi(k).",
+  "id": "A392691",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000396",
+    "A005843",
+    "A008578",
+    "A047802",
+    "A068412",
+    "A088826",
+    "A099650",
+    "A200905",
+    "A392692",
+    "A392693"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

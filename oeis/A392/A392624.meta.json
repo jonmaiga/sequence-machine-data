@@ -1,0 +1,17 @@
+{
+  "description": "Parallelized coupon collector's problem: With n fair n-sided dice, a(n) = numerator(E(n)) where E(n) is the expected number of turns for n coordinating mice to have every face present.",
+  "id": "A392624",
+  "mentions": [
+    "A392625"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

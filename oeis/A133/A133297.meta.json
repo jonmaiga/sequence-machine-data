@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n!*Sum_{k=1..n} (-1)^(k+1)*n^(n-k-1)/(n-k)!.",
+  "description": "a(n) = n! * Sum_{k=1..n} (-1)^(k + 1) * n^(n - k - 1)/(n - k)!.",
   "id": "A133297",
   "mentions": [
     "A000272",

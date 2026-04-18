@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which r^n-floor(r^n) > 1/2, where r is the real root of x^3-x-1.",
+  "description": "Numbers k for which r^k-floor(r^k) > 1/2, where r is the real root of x^3-x-1.",
   "id": "A051017",
   "mentions": [
     "A051016",

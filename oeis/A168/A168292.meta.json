@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = 24*A046802(n+1,k+1) - 9*A008518(n,k) - 8*A007318(n,k), triangle read by rows (0 <= k <= n).",
+  "description": "T(n,k) = 24*A046802(n,k) - 9*A008518(n,k) - 8*A007318(n,k), triangle read by rows (0 <= k <= n).",
   "id": "A168292",
   "mentions": [
     "A007318",
@@ -27,6 +27,6 @@
   "terms": {
     "offset": 0,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

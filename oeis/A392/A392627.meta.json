@@ -1,0 +1,23 @@
+{
+  "description": "Tetrahedron read by slices read by antidiagonals: T(n,i,j) is the number of paths from (0,0,0) to (n,i,j) consisting of moves {(1,0,0), (1,1,0), (1,0,1), (1,1,1)} that remain confined to i+j<=n at each step.",
+  "id": "A392627",
+  "mentions": [
+    "A000531",
+    "A001263",
+    "A001700",
+    "A050166",
+    "A247644",
+    "A296769"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

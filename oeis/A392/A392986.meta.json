@@ -1,0 +1,29 @@
+{
+  "description": "Irregular table T(n,k) where row n lists roots r such that A001597(n) = r^m for some m > 1.",
+  "id": "A392986",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001597",
+    "A025478",
+    "A025479",
+    "A027750",
+    "A072813",
+    "A072814",
+    "A131605",
+    "A246547",
+    "A253642",
+    "A393085"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

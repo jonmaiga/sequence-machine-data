@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} sin(n)/n^(2/3).",
+  "id": "A394553",
+  "mentions": [
+    "A096418",
+    "A096444",
+    "A223709",
+    "A263193"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

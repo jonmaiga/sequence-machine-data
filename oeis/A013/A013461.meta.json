@@ -1,13 +1,14 @@
 {
-  "description": "Expansion of e.g.f. exp(arctan(x)-arcsinh(x)) = 1-1/3!*x^3+15/5!*x^5+10/6!*x^6-495/7!*x^7...",
+  "description": "Expansion of e.g.f. exp(arctan(x)-arcsinh(x)).",
   "id": "A013461",
   "mentions": [],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

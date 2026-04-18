@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of e^(-5/6).",
+  "id": "A394996",
+  "mentions": [
+    "A001113",
+    "A394995"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

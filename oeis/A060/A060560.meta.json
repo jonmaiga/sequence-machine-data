@@ -8,12 +8,13 @@
     "A295925"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
-    "source": "joeis"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

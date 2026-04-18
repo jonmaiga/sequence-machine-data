@@ -1,0 +1,47 @@
+{
+  "description": "Number of integer compositions of n that are not the first sums of any composition with no 1's.",
+  "id": "A391641",
+  "mentions": [
+    "A000041",
+    "A008965",
+    "A011782",
+    "A070211",
+    "A080671",
+    "A342527",
+    "A357213",
+    "A390432",
+    "A390445",
+    "A390446",
+    "A390447",
+    "A390448",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390745",
+    "A390747",
+    "A391235",
+    "A391620",
+    "A391626",
+    "A391629",
+    "A391642",
+    "A391644",
+    "A391645",
+    "A391679",
+    "A391680",
+    "A391981"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

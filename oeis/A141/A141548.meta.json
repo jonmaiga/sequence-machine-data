@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose deficiency is 6.",
+  "description": "Numbers k whose deficiency is 6.",
   "id": "A141548",
   "mentions": [
     "A000203",

@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals: row n gives the Euler transform of the sequence (2,...,2,0,0,...) that contains n 2s followed by 0s.",
+  "description": "Table read by antidiagonals: row n gives the Euler transform of the sequence (2,...,2,0,0,...) that contains n 2's followed by 0's.",
   "id": "A364842",
   "mentions": [
     "A000027",

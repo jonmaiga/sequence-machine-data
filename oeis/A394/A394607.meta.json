@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the mode of the distribution of distances between two points in a unit square.",
+  "id": "A394607",
+  "mentions": [
+    "A091505",
+    "A394605",
+    "A394608"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

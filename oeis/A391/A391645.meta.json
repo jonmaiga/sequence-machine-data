@@ -1,0 +1,49 @@
+{
+  "description": "Number of integer compositions of n that are not the first sums of any finite nonnegative sequence.",
+  "id": "A391645",
+  "mentions": [
+    "A008965",
+    "A011782",
+    "A070211",
+    "A342527",
+    "A357213",
+    "A390307",
+    "A390445",
+    "A390447",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390745",
+    "A390747",
+    "A391235",
+    "A391621",
+    "A391622",
+    "A391623",
+    "A391627",
+    "A391628",
+    "A391629",
+    "A391641",
+    "A391642",
+    "A391643",
+    "A391644",
+    "A391679",
+    "A391680",
+    "A391682",
+    "A391683",
+    "A391983"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

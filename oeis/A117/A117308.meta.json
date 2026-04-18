@@ -1,7 +1,11 @@
 {
-  "description": "Numbers k for which (phi(k))^2 + phi(k) + 1 is a palindrome.",
+  "description": "Numbers k for which phi(k)^2 + phi(k) + 1 is a palindrome.",
   "id": "A117308",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A127473",
+    "A393976"
+  ],
   "tags": [
     "base",
     "nonn"

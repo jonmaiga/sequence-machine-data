@@ -1,5 +1,5 @@
 {
-  "description": "(11*5^n+1)/2.",
+  "description": "a(n) = (11*5^n+1)/2.",
   "id": "A199315",
   "mentions": [],
   "tags": [

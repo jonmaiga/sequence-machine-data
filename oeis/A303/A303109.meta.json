@@ -2,6 +2,7 @@
   "description": "a(n) = n*(2*n-1)*a(n-1) + ((n-1)!)^2, with a(0) = 0, n > 0.",
   "id": "A303109",
   "mentions": [
+    "A302117",
     "A303108"
   ],
   "tags": [

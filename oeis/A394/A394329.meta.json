@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A394328(2*n,1); that is, the bipartition of the first column of A394328.",
+  "id": "A394329",
+  "mentions": [
+    "A001511",
+    "A002064",
+    "A394328"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

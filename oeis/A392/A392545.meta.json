@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1 / ((1-x)^4 - x^7).",
+  "id": "A392545",
+  "mentions": [
+    "A005709",
+    "A049017",
+    "A392543",
+    "A392544",
+    "A392546",
+    "A392547"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

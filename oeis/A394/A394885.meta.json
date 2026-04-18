@@ -1,0 +1,25 @@
+{
+  "description": "Terms of A099308 for which A051903 obtains value n for the first time.",
+  "id": "A394885",
+  "mentions": [
+    "A000312",
+    "A003415",
+    "A051903",
+    "A099308",
+    "A151800",
+    "A359550",
+    "A394884",
+    "A394887",
+    "A394889"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

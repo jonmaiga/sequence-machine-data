@@ -1,0 +1,14 @@
+{
+  "description": "Smallest number that differs from all previous terms at at least half of its binary digit positions; a(1) = 0.",
+  "id": "A394688",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that k and 10^k - n are coprime but k and 10^k - j are not coprime for 1 <= j < n.",
+  "id": "A394357",
+  "mentions": [
+    "A108908",
+    "A394352"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

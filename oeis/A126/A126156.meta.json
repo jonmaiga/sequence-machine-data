@@ -2,12 +2,14 @@
   "description": "Expansion of e.g.f. sqrt(sec(sqrt(2)*x)), showing coefficients of only the even powers of x.",
   "id": "A126156",
   "mentions": [
+    "A000010",
     "A087736",
     "A122045",
     "A126155",
     "A126157",
     "A126158",
     "A241885",
+    "A281181",
     "A365672"
   ],
   "tags": [

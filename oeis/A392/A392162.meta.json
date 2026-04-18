@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest number not yet in the sequence that has exactly one prime factor in common with a(n-1) and has at least two other different prime factors that are not factors of a(n-1); a(1) = 2.",
+  "id": "A392162",
+  "mentions": [
+    "A064413",
+    "A350352"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

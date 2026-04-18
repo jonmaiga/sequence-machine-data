@@ -9,11 +9,12 @@
     "A084108"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 8,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

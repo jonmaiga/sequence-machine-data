@@ -1,5 +1,5 @@
 {
-  "description": "The squares of the Fermat primes, (A019434(n))^2.",
+  "description": "The squares of the Fermat primes, A019434(n)^2.",
   "id": "A330828",
   "mentions": [
     "A000215",

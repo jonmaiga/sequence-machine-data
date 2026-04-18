@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1 = abs(sum{p-1|p is prime and divisor of n} - product{p-1|p is prime and divisor of n}).",
+  "description": "Numbers k such that 1 = abs(sum{p-1|p is prime and divisor of k} - product{p-1|p is prime and divisor of k}).",
   "id": "A174164",
   "mentions": [
     "A055631",

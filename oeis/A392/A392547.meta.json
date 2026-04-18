@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1 / ((1-x)^6 - x^7).",
+  "id": "A392547",
+  "mentions": [
+    "A005709",
+    "A049017",
+    "A392543",
+    "A392544",
+    "A392545",
+    "A392546"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

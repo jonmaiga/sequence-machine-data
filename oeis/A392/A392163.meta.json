@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A055932 that are products of two or more consecutive composite integers.",
+  "id": "A392163",
+  "mentions": [
+    "A055932",
+    "A141399",
+    "A391540"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

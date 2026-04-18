@@ -1,0 +1,18 @@
+{
+  "description": "Sequence where, for every step t starting from 2, k is appended if t is a multiple of s(k-1) where s(k) is the Sylvester's sequence (A000058). If multiple numbers trigger on the same step, they are appended in increasing order.",
+  "id": "A394540",
+  "mentions": [
+    "A000058",
+    "A381522",
+    "A381900",
+    "A382093"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

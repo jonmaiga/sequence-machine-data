@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A392736(2*n + 1 - A392736(n)).",
+  "id": "A392743",
+  "mentions": [
+    "A392736"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

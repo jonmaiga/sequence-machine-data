@@ -1,0 +1,18 @@
+{
+  "description": "Squares whose sum of prime factors (with multiplicity) is also a perfect square.",
+  "id": "A392304",
+  "mentions": [
+    "A000290",
+    "A001414",
+    "A051448"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

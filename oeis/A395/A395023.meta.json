@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of the o.g.f. Sum_{k >= 0} ((k + 1) * x^k) / Product_{j=1..k} (1 - j^2 * x).",
+  "id": "A395023",
+  "mentions": [
+    "A008957",
+    "A135920",
+    "A394582",
+    "A394813",
+    "A394822",
+    "A395021",
+    "A395022"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of the set 1, 2, 3, ..., 6n+3 into 2n+1 sets of 3 elements each, such that each 3-element set has the same sum (there are no such partitions unless there are 6n+3 elements).",
+  "description": "Number of partitions of the set {1, 2, 3, ..., 6n+3} into 2n+1 sets of 3 elements each, such that each 3-element set has the same sum (there are no such partitions unless there are 6n+3 elements).",
   "id": "A104185",
   "mentions": [
     "A203986"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ordered rooted trees with node weights summing to n that have k non-root nodes; such that the root has weight 0, non-root nodes have positive integer weights, and no two adjacent sibling nodes have the same weight.",
+  "id": "A393235",
+  "mentions": [
+    "A000108",
+    "A000292",
+    "A002212",
+    "A394284",
+    "A394385",
+    "A394411"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

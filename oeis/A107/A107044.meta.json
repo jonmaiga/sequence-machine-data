@@ -1,17 +1,19 @@
 {
-  "description": "A symmetric factorial triangle, read by rows: T(n,k) = min(n,k)!.",
+  "description": "A symmetric factorial triangle, read by rows: T(n,k) = min(k,n-k)!; n>=2, 1<=k<=n-1.",
   "id": "A107044",
   "mentions": [
-    "A003983"
+    "A003983",
+    "A140356"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

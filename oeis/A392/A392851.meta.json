@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x/(1 + x*(exp(x) - 1)^3) ).",
+  "id": "A392851",
+  "mentions": [
+    "A371119",
+    "A392825",
+    "A392828",
+    "A392850"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

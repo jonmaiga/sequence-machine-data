@@ -5,13 +5,12 @@
     "A018226"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 47,
     "source": "oeis-entry"
   }
 }

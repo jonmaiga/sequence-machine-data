@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least number k such that j * n! + 1 is prime for all j from k to k + n - 1.",
+  "id": "A392534",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

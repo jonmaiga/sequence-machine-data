@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 137*n + 139 is prime.",
+  "description": "Numbers k such that 137*k + 139 is prime.",
   "id": "A108027",
   "mentions": [],
   "tags": [

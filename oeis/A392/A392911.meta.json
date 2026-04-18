@@ -1,0 +1,23 @@
+{
+  "description": "Unit-anchored semiperfect numbers (A392910) whose odd part (A000265) is not prime.",
+  "id": "A392911",
+  "mentions": [
+    "A000040",
+    "A000265",
+    "A005835",
+    "A006036",
+    "A122036",
+    "A308710",
+    "A392910",
+    "A392912"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

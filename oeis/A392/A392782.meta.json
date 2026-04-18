@@ -1,0 +1,18 @@
+{
+  "description": "Complement of A000792.",
+  "id": "A392782",
+  "mentions": [
+    "A000792",
+    "A349983"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

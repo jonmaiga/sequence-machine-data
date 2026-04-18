@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the sum of positions of 1's minus sum of positions of 0's in the binary expansion of n.",
+  "id": "A393336",
+  "mentions": [
+    "A006257",
+    "A029931",
+    "A035327",
+    "A037861",
+    "A070939",
+    "A147991",
+    "A309983",
+    "A359400",
+    "A360099",
+    "A392980"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

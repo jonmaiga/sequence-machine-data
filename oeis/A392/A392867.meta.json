@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that A276086(A003415(k)) <= k, where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
+  "id": "A392867",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A276086",
+    "A327859",
+    "A369650",
+    "A370115",
+    "A392601",
+    "A392605",
+    "A392868",
+    "A392869",
+    "A392873",
+    "A393056",
+    "A393057",
+    "A393067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Number of partitions of n in which both even and odd squares occur with multiplicity 1. There is no restriction on the parts which are twice even squares.",
   "id": "A104276",
-  "mentions": [],
+  "mentions": [
+    "A167700"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

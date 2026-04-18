@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered set partitions of [n] whose block sizes are a palindromic sequence with no adjacent equal elements.",
+  "id": "A392810",
+  "mentions": [
+    "A000670",
+    "A114902",
+    "A239327",
+    "A393570"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

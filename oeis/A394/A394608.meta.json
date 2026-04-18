@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the median of the distribution of distances between two points in a unit square.",
+  "id": "A394608",
+  "mentions": [
+    "A091505",
+    "A394606",
+    "A394607"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

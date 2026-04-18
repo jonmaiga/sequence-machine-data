@@ -2,6 +2,7 @@
   "description": "E.g.f. S(x) satisfies: S(x) = Integral (1 + S(x)^2)^2 dx.",
   "id": "A281180",
   "mentions": [
+    "A000010",
     "A281181",
     "A281182",
     "A281183",
@@ -12,6 +13,7 @@
     "A281436"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

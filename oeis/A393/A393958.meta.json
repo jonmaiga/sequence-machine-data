@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of ways to write n = p + r where p is a prime and r is an anagram of p.",
+  "id": "A393958",
+  "mentions": [
+    "A046810",
+    "A392563"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

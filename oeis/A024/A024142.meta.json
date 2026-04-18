@@ -1,5 +1,5 @@
 {
-  "description": "12^n-n^2.",
+  "description": "a(n) = 12^n-n^2.",
   "id": "A024142",
   "mentions": [
     "A024025"

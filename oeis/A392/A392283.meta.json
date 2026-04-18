@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k) divides k + 3.",
+  "id": "A392283",
+  "mentions": [
+    "A000010",
+    "A039777",
+    "A203966",
+    "A207667",
+    "A350777"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Upper Wythoff partition sequence of the squares; see A392656.",
+  "id": "A392657",
+  "mentions": [
+    "A000040",
+    "A000201",
+    "A000290",
+    "A001950",
+    "A392117",
+    "A392656",
+    "A392658",
+    "A392659"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

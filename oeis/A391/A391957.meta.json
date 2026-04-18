@@ -4,17 +4,19 @@
   "mentions": [
     "A000040",
     "A000720",
+    "A067255",
     "A391956",
     "A391958",
     "A391959"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 2,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. -LambertW(x*log(1-x)^3).",
+  "id": "A392918",
+  "mentions": [
+    "A392824",
+    "A392915",
+    "A392917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

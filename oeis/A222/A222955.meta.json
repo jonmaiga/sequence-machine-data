@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX1 0..1 arrays with every row and column least squares fitting to a zero slope straight line, with a single point array taken as having zero slope.",
+  "description": "Number of n X 1 0..1 arrays with every row and column least squares fitting to a zero slope straight line, with a single point array taken as having zero slope.",
   "id": "A222955",
   "mentions": [
     "A011782",
@@ -14,6 +14,7 @@
     "A359402"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

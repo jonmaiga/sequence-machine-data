@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of g.f. A(x) satisfying Sum_{n=-oo..+oo} (x^n - 3*A(x))^n = 1 - Sum_{n>=1} x^(n^2).",
+  "description": "G.f. A(x) satisfies Sum_{n=-oo..+oo} (x^n - 3*A(x))^n = 1 - Sum_{n>=1} x^(n^2).",
   "id": "A370033",
   "mentions": [
     "A355868",

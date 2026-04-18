@@ -1,5 +1,5 @@
 {
-  "description": "Draw a line through every pair of points with coordinates (x, 1) and (x', 2) with x, x' in 1..n, and then count the number of intersection points above the line y = 2.",
+  "description": "Draw a line through every pair of points with coordinates (x, 1) and (x', 2) with x, x' in 1..n; a(n) is the number of intersection points above the line y = 2.",
   "id": "A092275",
   "mentions": [
     "A331755",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 37,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

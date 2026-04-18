@@ -1,0 +1,18 @@
+{
+  "description": "Primes that survive the lucky number sieve when applied to the sequence of primes.",
+  "id": "A394450",
+  "mentions": [
+    "A000040",
+    "A000959",
+    "A031157"
+  ],
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of e.g.f. (5*t/2) * (cos(t/2) - cos(3*t/2)) / sin(5*t/2) (even powers only).",
+  "id": "A393956",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

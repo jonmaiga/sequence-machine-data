@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 42.",
   "id": "A010271",
-  "mentions": [],
+  "mentions": [
+    "A010613"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 74,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

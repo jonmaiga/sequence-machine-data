@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the mean distance between two points selected independently at random within the interior of a rhombus with a unit side length and an acute angle of 60 degrees.",
+  "id": "A394601",
+  "mentions": [
+    "A091505",
+    "A093064",
+    "A093070",
+    "A394596",
+    "A394597",
+    "A394598",
+    "A394599",
+    "A394600",
+    "A394602"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

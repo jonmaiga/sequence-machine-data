@@ -2,7 +2,8 @@
   "description": "Numbers k such that 2^k contains 2^2=4 as its largest proper substring of the form 2^m (probably finite).",
   "id": "A046288",
   "mentions": [
-    "A033921"
+    "A033921",
+    "A035063"
   ],
   "tags": [
     "base",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled rooted trees with n nodes whose level sizes are strictly decreasing away from the root, excluding the root level.",
+  "id": "A393334",
+  "mentions": [
+    "A000081",
+    "A000217",
+    "A393323"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

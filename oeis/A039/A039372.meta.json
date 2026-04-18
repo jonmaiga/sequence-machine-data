@@ -2,7 +2,15 @@
   "description": "Numbers whose base-9 representation has the same nonzero number of 2's and 3's.",
   "id": "A039372",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039091",
+    "A039359",
+    "A039366",
+    "A039373",
+    "A039374",
+    "A039375",
+    "A039376",
+    "A039377"
   ],
   "tags": [
     "base",
@@ -11,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
-    "source": "joeis"
+    "size": 52,
+    "source": "oeis-bfile"
   }
 }

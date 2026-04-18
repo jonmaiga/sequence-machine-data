@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as (2^a*5^b)^2 + c*(3c+1)/2 + d*(3d+1)/2, where a and b are nonnegative integers, and c and d are integers with c*(3c+1)/2 <= d*(3d+1)/2.",
+  "description": "Number of ways to write n as (2^a*5^b)^2 + c*(3*c+1)/2 + d*(3*d+1)/2, where a and b are nonnegative integers, and c and d are integers with c*(3*c+1)/2 <= d*(3*d+1)/2.",
   "id": "A308641",
   "mentions": [
     "A000079",

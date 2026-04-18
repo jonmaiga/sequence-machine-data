@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), n>=0, 0<=k<=n, read by rows, where column k is (1/k!) times the k-fold exponential convolution of Fibonacci numbers with themselves.",
+  "description": "Triangle T(n, k), n >= 0, 0 <= k <= n, read by rows, where column k is (1/k!) times the k-fold exponential convolution of Fibonacci numbers with themselves.",
   "id": "A346415",
   "mentions": [
     "A000007",
@@ -10,7 +10,8 @@
     "A014335",
     "A014337",
     "A014341",
-    "A256180"
+    "A256180",
+    "A394559"
   ],
   "tags": [
     "nonn",

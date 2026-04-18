@@ -1,0 +1,46 @@
+{
+  "description": "Number of integer compositions of n that are the first sums of a unique composition.",
+  "id": "A391644",
+  "mentions": [
+    "A008965",
+    "A011782",
+    "A022340",
+    "A066099",
+    "A070211",
+    "A342527",
+    "A357213",
+    "A390432",
+    "A390446",
+    "A390567",
+    "A390673",
+    "A390674",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390745",
+    "A391235",
+    "A391621",
+    "A391622",
+    "A391627",
+    "A391628",
+    "A391641",
+    "A391642",
+    "A391643",
+    "A391645",
+    "A391680",
+    "A391681",
+    "A391683",
+    "A391983"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

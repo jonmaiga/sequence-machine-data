@@ -2,6 +2,7 @@
   "description": "Primes of the form 28x^2+28xy+73y^2.",
   "id": "A140039",
   "mentions": [
+    "A003171",
     "A106856",
     "A139827"
   ],

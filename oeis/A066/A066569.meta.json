@@ -2,7 +2,9 @@
   "description": "Triangular numbers whose reverse is also triangular.",
   "id": "A066569",
   "mentions": [
+    "A000217",
     "A003098",
+    "A004086",
     "A061455",
     "A066528",
     "A069673"

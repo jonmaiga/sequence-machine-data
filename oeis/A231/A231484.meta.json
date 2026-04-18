@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n, sigma(n) and sigma(sigma(n)) are odd.",
+  "description": "Numbers k such that k, sigma(k) and sigma(sigma(k)) are odd.",
   "id": "A231484",
   "mentions": [
+    "A000203",
     "A008848"
   ],
   "tags": [

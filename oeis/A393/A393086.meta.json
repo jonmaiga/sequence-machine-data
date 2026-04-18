@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of x for maximum of function log(log(x))/(1+x^2).",
+  "id": "A393086",
+  "mentions": [
+    "A091476",
+    "A115252",
+    "A388042",
+    "A390125",
+    "A393630",
+    "A393691"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

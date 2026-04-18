@@ -2,6 +2,8 @@
   "description": "Number of bond trees with n bonds on the square lattice.",
   "id": "A308409",
   "mentions": [
+    "A056841",
+    "A066158",
     "A096267"
   ],
   "tags": [
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

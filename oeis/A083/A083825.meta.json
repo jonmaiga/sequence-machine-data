@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 12; then numbers obtained at every stage of division by 9 in the following process. multiply by 9, reverse the digits, divide by 9, reverse the digits, multiply by 9, reverse the digit, divide by 9, ...",
+  "description": "a(1) = 12; then numbers obtained at every stage of division by 9 in the following process: multiply by 9, reverse the digits, divide by 9, reverse the digits, multiply by 9, reverse the digits, divide by 9, ...",
   "id": "A083825",
   "mentions": [
     "A083822",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "joeis"
   }
 }

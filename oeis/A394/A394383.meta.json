@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = f^(n/f), where f is the largest prime factor of n.",
+  "id": "A394383",
+  "mentions": [
+    "A006530",
+    "A052126",
+    "A275465",
+    "A394384"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

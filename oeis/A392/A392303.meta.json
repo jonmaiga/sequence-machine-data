@@ -1,0 +1,16 @@
+{
+  "description": "Number of NE lattice paths from (0,0) to (n,n) staying weakly below the discretized parabolic boundary y = floor(x^2/n).",
+  "id": "A392303",
+  "mentions": [
+    "A000108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

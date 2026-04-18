@@ -1,5 +1,5 @@
 {
-  "description": "Alexandrian integers: numbers of the form n=pqr such that 1/n = 1/p - 1/q - 1/r for some integers p,q,r.",
+  "description": "Alexandrian integers: numbers of the form n = p*q*r such that 1/n = 1/p - 1/q - 1/r for some integers p,q,r.",
   "id": "A147811",
   "mentions": [
     "A147807",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of unordered increasing trees on n nodes, with k nodes colored blue and n-k nodes colored red, such that each red node has at least two children.",
+  "id": "A393523",
+  "mentions": [
+    "A000142",
+    "A002105",
+    "A261001",
+    "A393524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 2^(2*n-1) - 3^n + 2^n - 1, n > 0; a(0)=0.",
+  "id": "A394314",
+  "mentions": [
+    "A092438",
+    "A092880"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

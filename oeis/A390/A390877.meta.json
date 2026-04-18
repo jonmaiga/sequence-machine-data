@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A237271(k)*A000041(n-k), 1 <= k <= n.",
+  "id": "A390877",
+  "mentions": [
+    "A000041",
+    "A139582",
+    "A221529",
+    "A237271",
+    "A299473",
+    "A299474",
+    "A384931",
+    "A390878",
+    "A390879"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^(n-1)*(L(4*n + 1) + 9 - 5*n)/5, where L(n) = A000032(n).",
+  "id": "A392837",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000079",
+    "A056914",
+    "A392838",
+    "A392839",
+    "A392840"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

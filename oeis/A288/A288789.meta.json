@@ -1,5 +1,5 @@
 {
-  "description": "Number of blocks of size >= 7 in all set partitions of n.",
+  "description": "Number of blocks of size >= seven in all set partitions of n.",
   "id": "A288789",
   "mentions": [
     "A000110",

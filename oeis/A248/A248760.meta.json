@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{n >= 1} (2n)!/(3n)!.",
+  "description": "Decimal expansion of Sum_{n >= 1} (2n)!/(3n)!.",
   "id": "A248760",
   "mentions": [
     "A214869",

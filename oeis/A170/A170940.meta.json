@@ -1,5 +1,5 @@
 {
-  "description": "4^n-2^n-2.",
+  "description": "a(n) = 4^n - 2^n - 2.",
   "id": "A170940",
   "mentions": [
     "A006516",
@@ -9,12 +9,13 @@
     "A173521"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Number of congruence classes (epimorphisms/vertex partitionings induced by graph endomorphisms) of undirected cycles of even length: |C(C_{2*n})|.",
   "id": "A112849",
   "mentions": [
+    "A006481",
     "A112850",
     "A196265",
     "A260878"

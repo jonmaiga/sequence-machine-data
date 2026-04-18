@@ -1,0 +1,18 @@
+{
+  "description": "Euclid-Carmichael numbers: Carmichael numbers 1 + product of \"powers of\" first n primes.",
+  "id": "A393389",
+  "mentions": [
+    "A002997",
+    "A006862",
+    "A055932"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

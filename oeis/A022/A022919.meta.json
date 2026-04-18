@@ -2,9 +2,12 @@
   "description": "Multinomial coefficients(TOP, BOTTOM), where TOP = n^2, BOTTOM = ( 1 3 5 ... 2n-1 ).",
   "id": "A022919",
   "mentions": [
-    "A022915"
+    "A022915",
+    "A070781",
+    "A074962"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

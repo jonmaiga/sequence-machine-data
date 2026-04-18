@@ -1,0 +1,18 @@
+{
+  "description": "Least positive integer k, such that the equation x^3 + 2*y^3 = k has exactly n sets of different integer solutions (x, y) where GCD(x, y) = 1.",
+  "id": "A391767",
+  "mentions": [
+    "A093193",
+    "A219726",
+    "A219728"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for n>1, a(n) = Product_{k = 1..n-1} (9k - 3).",
+  "description": "a(n) = Product_{k = 1..n-1} (9*k - 3).",
   "id": "A147630",
   "mentions": [
     "A048994",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (c1, c2, ...) of n with each c_i <= phi*c_{i-1}, where phi = (1 + sqrt(5))/2 = A001622.",
+  "id": "A393207",
+  "mentions": [
+    "A000041",
+    "A000201",
+    "A001622",
+    "A002843",
+    "A011782",
+    "A224957",
+    "A342333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

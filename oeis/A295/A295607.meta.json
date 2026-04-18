@@ -2,9 +2,11 @@
   "description": "a(n) = A001567(n) - 2^floor(log_2(A001567(n))).",
   "id": "A295607",
   "mentions": [
-    "A001567"
+    "A001567",
+    "A053645"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

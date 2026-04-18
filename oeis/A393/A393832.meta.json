@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers that have only one largest digit m and the sum of the digits equal to 2*m.",
+  "id": "A393832",
+  "mentions": [
+    "A005843",
+    "A007953",
+    "A393841"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

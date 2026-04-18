@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the probability that at least 2 of 14 randomly selected people have a birthday within a day of each other, not considering leap years.",
+  "id": "A393270",
+  "mentions": [
+    "A333507",
+    "A343015",
+    "A393268",
+    "A393269",
+    "A393271"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

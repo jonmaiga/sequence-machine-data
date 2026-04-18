@@ -2,7 +2,8 @@
   "description": "a(1) = 1; for n > 1, number of partitions of n into distinct odd parts such that the two largest parts differ by 2.",
   "id": "A090723",
   "mentions": [
-    "A000700"
+    "A000700",
+    "A116927"
   ],
   "tags": [
     "formulas",

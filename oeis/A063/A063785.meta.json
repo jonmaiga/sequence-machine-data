@@ -1,8 +1,11 @@
 {
-  "description": "Numbers n such that sigma(n) = 2n + omega(n), where omega(n) is the number of distinct prime divisors of n.",
+  "description": "Numbers k such that sigma(k) = 2k + omega(k), where omega(k) is the number of distinct prime divisors of k.",
   "id": "A063785",
   "mentions": [
-    "A045768"
+    "A000203",
+    "A001221",
+    "A045768",
+    "A392668"
   ],
   "tags": [
     "more",

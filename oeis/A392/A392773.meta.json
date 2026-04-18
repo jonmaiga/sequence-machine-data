@@ -1,0 +1,17 @@
+{
+  "description": "The smallest x for which x^2 == 2 (mod F(n)), where F(n) is the n-th Fermat number.",
+  "id": "A392773",
+  "mentions": [
+    "A000215"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

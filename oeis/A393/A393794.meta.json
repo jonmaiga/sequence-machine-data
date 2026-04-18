@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of the 1089-trick map T(n) = |n - reverse(n)| + reverse(|n - reverse(n)|).",
+  "id": "A393794",
+  "mentions": [
+    "A001232",
+    "A002275",
+    "A002283",
+    "A023093"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

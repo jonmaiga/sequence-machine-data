@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the hafnian of the 2n X 2n Hankel matrix whose generic element is given by A000045(i+j-1) with i,j = 1, ..., n.",
+  "id": "A391640",
+  "mentions": [
+    "A000045",
+    "A120297",
+    "A357279",
+    "A374668",
+    "A393240"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

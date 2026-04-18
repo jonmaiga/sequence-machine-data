@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 - E^4(log(1 - x*A(x))), where E is the Euler operator x*d/dx.",
+  "id": "A394821",
+  "mentions": [
+    "A003319",
+    "A393775",
+    "A393959",
+    "A393977"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Non-semiprime composite numbers e such that there is no 0",
+  "id": "A392333",
+  "mentions": [
+    "A001358",
+    "A005117",
+    "A007304",
+    "A350352",
+    "A387184",
+    "A388851",
+    "A389148"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

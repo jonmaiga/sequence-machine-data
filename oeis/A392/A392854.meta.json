@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x/(1 - x*log(1-x)^3) ).",
+  "id": "A392854",
+  "mentions": [
+    "A371121",
+    "A392829",
+    "A392832",
+    "A392853"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

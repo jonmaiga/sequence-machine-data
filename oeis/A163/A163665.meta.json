@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=prime(phi(sigma(pi(n)))).",
+  "description": "Numbers k such that k=prime(phi(sigma(pi(k)))).",
   "id": "A163665",
   "mentions": [
     "A000010",

@@ -2,7 +2,12 @@
   "description": "Number of minimally rigid graphs with n vertices constructible by Henneberg type I moves.",
   "id": "A273468",
   "mentions": [
-    "A227117"
+    "A000207",
+    "A004273",
+    "A054581",
+    "A227117",
+    "A352210",
+    "A357815"
   ],
   "tags": [
     "more",

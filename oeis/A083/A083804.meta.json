@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1. If the (n-1)th partial concatenation is divisible by n then a(n) = 0. Otherwise, a(n) is the smallest positive number such that the n-th partial concatenation is divisible by n.",
+  "description": "a(1) = 1. If the (n-1)-th partial concatenation is divisible by n then a(n) = 0; otherwise, a(n) is the smallest positive number such that the n-th partial concatenation is divisible by n.",
   "id": "A083804",
   "mentions": [
     "A051883",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

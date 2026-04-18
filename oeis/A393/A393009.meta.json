@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of mutual Manhattan distances of the A000328(n) distinct grid points (x_i,y_i) in a square lattice such that x_i^2 + y_i^2 <= n^2.",
+  "id": "A393009",
+  "mentions": [
+    "A000328",
+    "A085463",
+    "A193452",
+    "A305575",
+    "A305576",
+    "A393008"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

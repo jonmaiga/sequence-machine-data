@@ -2,6 +2,8 @@
   "description": "a(n) = usigma(n) - (phi(n) + d(n)), where usigma(n) is the sum of the unitary divisors of n and d(n) is the number of divisors of n.",
   "id": "A063085",
   "mentions": [
+    "A000005",
+    "A000010",
     "A034448"
   ],
   "tags": [

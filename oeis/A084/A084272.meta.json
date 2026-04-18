@@ -5,16 +5,18 @@
     "A084270",
     "A084271",
     "A084279",
-    "A084280"
+    "A084280",
+    "A394473"
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

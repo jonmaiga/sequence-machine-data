@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 2^(n+1)+2n+1 is prime.",
+  "description": "Numbers k such that 2^(k+1) + 2*k + 1 is prime.",
   "id": "A105330",
   "mentions": [
     "A083874",
     "A105331"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

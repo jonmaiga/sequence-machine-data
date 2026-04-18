@@ -2,6 +2,7 @@
   "description": "A column and diagonal of A060187.",
   "id": "A060188",
   "mentions": [
+    "A000295",
     "A048473",
     "A060187",
     "A061980",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

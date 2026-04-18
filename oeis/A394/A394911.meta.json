@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = denominator( (2/3)^n*(1/8 - (1/24)*(1/9)^n) ).",
+  "id": "A394911",
+  "mentions": [
+    "A013732",
+    "A394910"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

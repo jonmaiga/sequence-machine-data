@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least integer k > n such that any prime factor of k is also a prime factor of n.",
+  "description": "a(n) is the least integer k > n such that any prime factor of k is also a prime factor of n.",
   "id": "A289280",
   "mentions": [
     "A001221",
@@ -8,6 +8,7 @@
     "A079277"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

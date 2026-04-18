@@ -1,5 +1,5 @@
 {
-  "description": "Primes which are 1 mod m, where m is the index of the prime in sequence A002313 (Real primes with corresponding complex primes). The index m can be found in A084166 Primes which are -1 mod m can be found in sequence A084163.",
+  "description": "Primes which are 1 (mod m), where m is the index of the prime in sequence A002313 (Real primes with corresponding complex primes).",
   "id": "A084165",
   "mentions": [
     "A002313",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

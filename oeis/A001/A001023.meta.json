@@ -1,5 +1,5 @@
 {
-  "description": "Powers of 14.",
+  "description": "Powers of 14: a(n) = 14^n.",
   "id": "A001023",
   "mentions": [
     "A000005",

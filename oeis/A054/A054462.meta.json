@@ -1,8 +1,11 @@
 {
   "description": "Numbers k such that (k+1)^k + k^(k-1) is prime.",
   "id": "A054462",
-  "mentions": [],
+  "mentions": [
+    "A389195"
+  ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

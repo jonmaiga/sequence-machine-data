@@ -1,5 +1,5 @@
 {
-  "description": "(16n^6 - 24n^5 + 2n^4 + 11n^3 - 6n^2 + n) / 6.",
+  "description": "a(n) = (16n^6 - 24n^5 + 2n^4 + 11n^3 - 6n^2 + n) / 6.",
   "id": "A245941",
   "mentions": [
     "A245826"

@@ -1,14 +1,17 @@
 {
-  "description": "Numbers n such that 2^n-th prime + 2^(n-1)-th prime + 1 is prime.",
+  "description": "Primes of the form 2^k-th prime + 2^(k-1)-th prime + 1.",
   "id": "A092244",
-  "mentions": [],
+  "mentions": [
+    "A033844"
+  ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

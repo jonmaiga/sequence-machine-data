@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n as (2^a*3^b)^2 + c*(2c+1) + d*(3d+1)/2, where a,b,c are nonnegative integers and d is an integer.",
+  "description": "Number of ways to write n as (2^a*3^b)^2 + c*(2*c+1) + d*(3*d+1)/2, where a,b,c are nonnegative integers and d is an integer.",
   "id": "A308640",
   "mentions": [
     "A000079",

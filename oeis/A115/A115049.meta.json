@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that starting with n-th prime, seven groups of three consecutive primes have prime totals.",
+  "description": "Numbers k such that starting with k-th prime, seven groups of three consecutive primes have prime totals.",
   "id": "A115049",
   "mentions": [],
   "tags": [

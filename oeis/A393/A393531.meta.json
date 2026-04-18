@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit emirp pairs in A393530.",
+  "id": "A393531",
+  "mentions": [
+    "A006567",
+    "A157711",
+    "A383675",
+    "A393530"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where column k is the expansion of e.g.f. 1/(1 - x*(exp(x) - 1)^k).",
+  "id": "A392817",
+  "mentions": [
+    "A000142",
+    "A052848",
+    "A357868",
+    "A392820",
+    "A392821",
+    "A392822"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

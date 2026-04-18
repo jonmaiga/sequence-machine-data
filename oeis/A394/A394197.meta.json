@@ -1,0 +1,23 @@
+{
+  "description": "Number of squares reachable in n (but no fewer) leaps of an antelope (the fairy chess piece) on an infinite chessboard.",
+  "id": "A394197",
+  "mentions": [
+    "A018839",
+    "A018842",
+    "A393393",
+    "A393839",
+    "A394194",
+    "A394195",
+    "A394196"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

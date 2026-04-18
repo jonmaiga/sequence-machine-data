@@ -1,0 +1,22 @@
+{
+  "description": "The smallest number k such that k! contains the string concatenation of 0 to n as a substring.",
+  "id": "A385673",
+  "mentions": [
+    "A000142",
+    "A137578",
+    "A346120",
+    "A392010",
+    "A392011"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

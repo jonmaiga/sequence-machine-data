@@ -1,0 +1,42 @@
+{
+  "description": "Least even-indexed part in row n of A391983 (the 0-based partial alternating sums of the n-th composition in standard order).",
+  "id": "A392706",
+  "mentions": [
+    "A000120",
+    "A011782",
+    "A065120",
+    "A066099",
+    "A070939",
+    "A116406",
+    "A124754",
+    "A124767",
+    "A209281",
+    "A316524",
+    "A344616",
+    "A344618",
+    "A344619",
+    "A346633",
+    "A346697",
+    "A390432",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390676",
+    "A390745",
+    "A391642",
+    "A391983",
+    "A391984",
+    "A392369",
+    "A392370",
+    "A392705",
+    "A392713"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

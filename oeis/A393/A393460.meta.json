@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p such that n - p is the reverse of a prime, where leading 0's are not allowed, or -1 if there is no such p.",
+  "id": "A393460",
+  "mentions": [
+    "A391563",
+    "A392264"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 86,
+    "source": "joeis"
+  }
+}

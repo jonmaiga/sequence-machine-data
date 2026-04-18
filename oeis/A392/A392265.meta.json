@@ -1,0 +1,27 @@
+{
+  "description": "Number of divisors d | A286708(n) such that d is also in A286708.",
+  "id": "A392265",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A001694",
+    "A003557",
+    "A005361",
+    "A007947",
+    "A027750",
+    "A046660",
+    "A246547",
+    "A286708"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

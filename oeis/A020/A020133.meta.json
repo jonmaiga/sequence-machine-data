@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+2/3)/GAMMA(2/3).",
+  "description": "Ceiling of Gamma(n+2/3)/Gamma(2/3).",
   "id": "A020133",
-  "mentions": [],
+  "mentions": [
+    "A020043",
+    "A020088"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

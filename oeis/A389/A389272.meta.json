@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that a sequence of consecutive primes ending on p sums to a power of 10.",
+  "id": "A389272",
+  "mentions": [
+    "A000040",
+    "A000396",
+    "A007504"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form N = a^2 + 7b^2 for some positive integers a,b.",
+  "description": "Numbers of the form N = a^2 + 7*b^2 for some positive integers a, b.",
   "id": "A155717",
   "mentions": [
     "A000404",

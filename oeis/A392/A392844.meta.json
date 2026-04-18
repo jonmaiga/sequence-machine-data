@@ -1,0 +1,17 @@
+{
+  "description": "Stellated octahemioctahedral numbers.",
+  "id": "A392844",
+  "mentions": [
+    "A274974"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

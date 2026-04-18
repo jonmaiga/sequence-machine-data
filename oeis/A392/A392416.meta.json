@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of the vertices of the n X 3 grid graph into total dominating sets.",
+  "id": "A392416",
+  "mentions": [
+    "A203280",
+    "A392413",
+    "A392415"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

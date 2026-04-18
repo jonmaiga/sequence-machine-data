@@ -1,0 +1,20 @@
+{
+  "description": "Minimum Mahler measure of all irreducible and non-cyclotomic quintic polynomials with coefficients in {-1, 0, 1}.",
+  "id": "A393377",
+  "mentions": [
+    "A060006",
+    "A073011",
+    "A086106",
+    "A393039"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

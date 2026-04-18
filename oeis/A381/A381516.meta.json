@@ -2,6 +2,7 @@
   "description": "a(n) = 1 + number of divisors of n within the sequence up to a(n-1).",
   "id": "A381516",
   "mentions": [
+    "A000005",
     "A027750",
     "A056148"
   ],

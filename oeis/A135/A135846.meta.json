@@ -1,7 +1,9 @@
 {
-  "description": "Prime numbers p for which quintonacci quintic polynomial x^5-x^4-x^3-x^2-x-1 modulus p is completely factorizable.",
+  "description": "Primes p such that the polynomial x^5-x^4-x^3-x^2-x-1 modulo p is completely factorizable.",
   "id": "A135846",
   "mentions": [
+    "A106278",
+    "A106281",
     "A135842",
     "A135843",
     "A135844",

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: coefficient [t^k] of the Ehrhart polynomial of the n-dimensional cross-polytope, multiplied by n!.",
+  "id": "A388456",
+  "mentions": [
+    "A007680",
+    "A008275",
+    "A132393",
+    "A137394"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 9^n - 8^n is prime or a strong pseudoprime.",
+  "description": "Numbers k such that 9^k - 8^k is prime.",
   "id": "A059803",
   "mentions": [
     "A000043",

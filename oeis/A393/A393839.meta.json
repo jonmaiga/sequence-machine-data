@@ -1,0 +1,21 @@
+{
+  "description": "Number of squares reachable in n (but no fewer) leaps of a giraffe (the fairy chess piece) on an infinite chessboard.",
+  "id": "A393839",
+  "mentions": [
+    "A018839",
+    "A018842",
+    "A393393",
+    "A393836",
+    "A393837",
+    "A393838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

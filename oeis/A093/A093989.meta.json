@@ -2,7 +2,7 @@
   "description": "Number of free n-celled polyzebras (or zebra-move-connected polyominoes).",
   "id": "A093989",
   "mentions": [
-    "A030444",
+    "A030446",
     "A093877",
     "A093990",
     "A093991",

@@ -1,0 +1,21 @@
+{
+  "description": "Number of transitive relations on an n-set with exactly seven ordered pairs.",
+  "id": "A392460",
+  "mentions": [
+    "A348634",
+    "A349849",
+    "A349919",
+    "A349927",
+    "A393216"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

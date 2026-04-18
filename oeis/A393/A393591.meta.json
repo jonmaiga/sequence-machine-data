@@ -1,0 +1,17 @@
+{
+  "description": "Greatest integer b such that the sum of the integer digits of n in bases 2..b strictly increases.",
+  "id": "A393591",
+  "mentions": [
+    "A000042",
+    "A393592"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

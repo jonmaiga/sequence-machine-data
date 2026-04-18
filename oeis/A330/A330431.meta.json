@@ -2,6 +2,8 @@
   "description": "a(n) is the smallest k such that {1^2, 2^2, 3^2, ..., k^2} can be partitioned into n sets of equal sums.",
   "id": "A330431",
   "mentions": [
+    "A000290",
+    "A000330",
     "A019568",
     "A240070",
     "A330212"

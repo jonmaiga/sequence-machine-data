@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X7 0..2 arrays with every 2X2 subblock having the same number of equal edges as its horizontal neighbors and a different number from its vertical neighbors, and new values 0..2 introduced in row major order.",
+  "description": "Number of (n+1) X 7 0..2 arrays with every 2 X 2 subblock having the same number of equal edges as its horizontal neighbors and a different number from its vertical neighbors, and new values 0..2 introduced in row major order.",
   "id": "A205751",
   "mentions": [
     "A205753"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

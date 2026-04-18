@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients in the expansion of A(q) = lim_{M->inf} Sum_{n=0..2M} (-1)^n / ((q^2;q)_n * (q^2;q^2)_n).",
+  "id": "A391794",
+  "mentions": [
+    "A000041",
+    "A002513"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

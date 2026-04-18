@@ -2,9 +2,17 @@
   "description": "Triangle read by rows: T(n,m) = number of solid partitions of n with shape of a plane partition of m.",
   "id": "A380893",
   "mentions": [
+    "A000012",
     "A000219",
     "A000293",
-    "A094504"
+    "A094504",
+    "A168237",
+    "A387996",
+    "A387997",
+    "A387998",
+    "A389773",
+    "A389774",
+    "A393239"
   ],
   "tags": [
     "nonn",

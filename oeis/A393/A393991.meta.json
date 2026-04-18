@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f.: Product_{k>=1} (1 + x^(k^2 + 1)).",
+  "id": "A393991",
+  "mentions": [
+    "A033461",
+    "A291748",
+    "A291749",
+    "A393990"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

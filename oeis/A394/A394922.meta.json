@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the probability that a straight line drawn through a point uniformly selected at random in the interior of a cube, with a direction independently and uniformly selected at random, intersects two opposite faces.",
+  "id": "A394922",
+  "mentions": [
+    "A300284",
+    "A359532",
+    "A394921"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

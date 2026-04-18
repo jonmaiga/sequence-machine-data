@@ -1,5 +1,5 @@
 {
-  "description": "Smallest multiple of n which is the reverse concatenation of n consecutive numbers.0 if no such number exists.",
+  "description": "Smallest multiple of n which is the reverse concatenation of n consecutive numbers; or 0 if no such number exists.",
   "id": "A083468",
   "mentions": [
     "A075000",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

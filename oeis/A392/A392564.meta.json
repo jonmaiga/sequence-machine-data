@@ -1,0 +1,26 @@
+{
+  "description": "Cubes of numbers that are neither squarefree nor squareful.",
+  "id": "A392564",
+  "mentions": [
+    "A000578",
+    "A013929",
+    "A024619",
+    "A046101",
+    "A131605",
+    "A286708",
+    "A332785",
+    "A386762",
+    "A389947",
+    "A391115"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

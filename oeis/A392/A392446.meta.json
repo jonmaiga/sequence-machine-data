@@ -1,0 +1,17 @@
+{
+  "description": "Toroidal factorizations: row sums of A392445.",
+  "id": "A392446",
+  "mentions": [
+    "A335078",
+    "A335079",
+    "A392445"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,14 +1,19 @@
 {
   "description": "a(n) = n - digital sum(n+1).",
   "id": "A160949",
-  "mentions": [],
+  "mentions": [
+    "A007953",
+    "A017257"
+  ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

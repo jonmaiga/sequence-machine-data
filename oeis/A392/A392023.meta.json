@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of the series e(q)/e(-q), where the series e(q) is Morier-Genoud and Ovsienko's q-analog of the real number e = exp(1).",
+  "id": "A392023",
+  "mentions": [
+    "A001113",
+    "A003417",
+    "A337589",
+    "A392020",
+    "A392021",
+    "A392022"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

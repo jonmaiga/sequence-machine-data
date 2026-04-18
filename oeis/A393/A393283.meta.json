@@ -1,0 +1,18 @@
+{
+  "description": "A triangular array where each value is the sum of points on or adjacent to the ray connecting the value to the apex of the triangle, with first rows terms [0], [1,0].",
+  "id": "A393283",
+  "mentions": [
+    "A392906"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

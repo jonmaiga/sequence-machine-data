@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which omega(k)*omega(k + 2)*omega(k + 4)*omega(k + 6)*omega(k + 8) = 2 where omega = A001221.",
+  "id": "A393805",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A392232",
+    "A393108"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

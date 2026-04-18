@@ -2,9 +2,11 @@
   "description": "Number of ways to place 3n nonattacking kings on a 6 X 2n chessboard.",
   "id": "A061594",
   "mentions": [
+    "A000129",
     "A000244",
     "A000302",
     "A001787",
+    "A002203",
     "A002697",
     "A006012",
     "A007070",
@@ -19,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

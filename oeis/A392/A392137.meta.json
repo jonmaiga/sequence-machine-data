@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 5*a(n-1) + 2*5^n - 1, a(0) = 0.",
+  "id": "A392137",
+  "mentions": [
+    "A392135"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number k such that k and k+1 are both s-practical numbers (A393492).",
+  "id": "A393493",
+  "mentions": [
+    "A287681",
+    "A330871",
+    "A387653",
+    "A393492",
+    "A393494",
+    "A393495"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest composite k such that radical(k) = sopfr(k) = A350352(n).",
+  "id": "A391316",
+  "mentions": [
+    "A001414",
+    "A002808",
+    "A007947",
+    "A350352",
+    "A391501"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Longest sides z of primitive integer-sided triangles (x <= y <= z) with integer distance between circumcenter O and centroid G; ordered by increasing z, then y, then x.",
+  "id": "A394376",
+  "mentions": [
+    "A394377",
+    "A394378",
+    "A394379"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Shortest sides x of primitive integer-sided triangles (x <= y <= z) with integer distance between circumcenter O and centroid G; ordered by increasing z, then y, then x.",
+  "id": "A394378",
+  "mentions": [
+    "A394376",
+    "A394377",
+    "A394379"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

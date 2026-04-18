@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that cannot be expressed as the sum of the partial products of some sequence of primes.",
+  "id": "A392459",
+  "mentions": [
+    "A180337",
+    "A192580"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

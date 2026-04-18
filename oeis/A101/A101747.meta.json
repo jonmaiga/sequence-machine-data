@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that ((0!)^2+(1!)^2+(2!)^2+...+(n!)^2)/6 is prime.",
+  "description": "Numbers k such that ((0!)^2+(1!)^2+(2!)^2+...+(k!)^2)/6 is prime.",
   "id": "A101747",
   "mentions": [
     "A061062",

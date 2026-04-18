@@ -1,5 +1,5 @@
 {
-  "description": "Left-justified Wythoff Array.",
+  "description": "Left-justified Wythoff array, read by descending antidiagonals.",
   "id": "A165357",
   "mentions": [
     "A000045",

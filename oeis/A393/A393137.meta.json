@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of nontrivial divisors {d | n, 1 < d < n} that are sum-irreducible, for n >= 1; by convention a(0) = 0.",
+  "id": "A393137",
+  "mentions": [
+    "A392650"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

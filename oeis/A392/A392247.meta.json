@@ -1,0 +1,18 @@
+{
+  "description": "Number of inequivalent chord diagrams on 8n points with 4n chords of distinct lengths 1, 2, ..., 4n.",
+  "id": "A392247",
+  "mentions": [
+    "A000931",
+    "A001147",
+    "A390360"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

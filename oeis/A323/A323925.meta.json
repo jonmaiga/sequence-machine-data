@@ -1,5 +1,5 @@
 {
-  "description": "Polycyclic aromatic hydrocarbons (for precise definition see He and He, 1986).",
+  "description": "Number of Kekuléan planar polycyclic aromatic hydrocarbons with n hexagons that are derived from peri-condensed, cyclic peri-condensed, or corona-condensed molecules.",
   "id": "A323925",
   "mentions": [
     "A003104",

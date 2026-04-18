@@ -1,15 +1,19 @@
 {
-  "description": "E.g.f.: C(x)^4 where C(x) is described by A281428.",
+  "description": "Expansion of e.g.f. C(x)^4 where C(x) is described by A281428.",
   "id": "A281430",
   "mentions": [
+    "A006256",
+    "A281181",
     "A281428"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 14,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

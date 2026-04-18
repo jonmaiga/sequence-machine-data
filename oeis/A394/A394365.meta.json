@@ -1,0 +1,20 @@
+{
+  "description": "The number of squares visited by a knight moving on a square-spiral numbered board, starting from square n, and always moving to the lowest available unvisited square while never crossing the path of any previous step (Cf. A394363), or -1 if no such number exists.",
+  "id": "A394365",
+  "mentions": [
+    "A316667",
+    "A336208",
+    "A383185",
+    "A394363",
+    "A394364"
+  ],
+  "tags": [
+    "sign",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

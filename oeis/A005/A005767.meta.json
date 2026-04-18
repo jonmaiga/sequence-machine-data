@@ -1,11 +1,12 @@
 {
-  "description": "Solutions n to n^2 = a^2 + b^2 + c^2 (a,b,c > 0).",
+  "description": "Solutions k to k^2 = a^2 + b^2 + c^2 (a,b,c > 0).",
   "id": "A005767",
   "mentions": [
     "A000378",
     "A000408",
     "A000419",
     "A005818",
+    "A070939",
     "A094958",
     "A169580"
   ],

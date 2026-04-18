@@ -2,6 +2,7 @@
   "description": "Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,3.",
   "id": "A037580",
   "mentions": [
+    "A007094",
     "A037576",
     "A037577",
     "A037578",

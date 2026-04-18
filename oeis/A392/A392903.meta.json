@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the distinct prime factors of the generalized Fermat number F_n(7) = 7^(2^n) + 1.",
+  "id": "A392903",
+  "mentions": [
+    "A050922",
+    "A078304",
+    "A253242",
+    "A391444",
+    "A392900",
+    "A392901",
+    "A392902",
+    "A392904",
+    "A392905",
+    "A393152"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

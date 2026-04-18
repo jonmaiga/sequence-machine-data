@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers (not multiples of 10) whose (radix-10) constant congruence speed equals the maximum of the constant congruence speeds of all their prime factors.",
+  "id": "A391434",
+  "mentions": [
+    "A067251",
+    "A317905",
+    "A373387",
+    "A389432",
+    "A389979",
+    "A389980",
+    "A389981",
+    "A390320",
+    "A392231",
+    "A392233"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

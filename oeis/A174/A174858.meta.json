@@ -1,17 +1,16 @@
 {
-  "description": "Primes p of a prime triple (p,p+2,p+6) such that the concatenation p//(p+2)//(p+6) is prime.",
+  "description": "Primes p such that p + 2, p + 6, and the concatenation p (p+2) (p+6) is prime.",
   "id": "A174858",
   "mentions": [
     "A022004"
   ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

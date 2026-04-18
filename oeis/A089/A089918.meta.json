@@ -1,13 +1,18 @@
 {
   "description": "(n+1)*a(n) equals the (n+1)-th term of the n-th binomial transform of this sequence.",
   "id": "A089918",
-  "mentions": [],
+  "mentions": [
+    "A000272",
+    "A000312",
+    "A293860"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

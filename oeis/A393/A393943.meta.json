@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the coefficient of x^k in the unique (up to scale) degree-n polynomial P_n(x) with P_n(0) = 0 whose derivative P_n'(x) has zeros exactly at 1, 2, ..., n - 1.",
+  "id": "A393943",
+  "mentions": [
+    "A003418",
+    "A008276",
+    "A008277",
+    "A033999",
+    "A091137",
+    "A363596",
+    "A373995",
+    "A373996",
+    "A373997"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

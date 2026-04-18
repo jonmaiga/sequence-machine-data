@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; then the smallest number such that both the forward and reverse n-th partial concatenation is a prime for n > 1. (Reverse concatenation is taken term-wise and not digit-wise.)",
+  "description": "a(1) = 1; then the smallest number such that both the forward and reverse n-th partial concatenation is a prime for n > 1.",
   "id": "A083992",
   "mentions": [
     "A083993",

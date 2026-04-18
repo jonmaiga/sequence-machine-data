@@ -2,6 +2,7 @@
   "description": "Decimal expansion of phi*(2*phi + 1) (i.e., (7 + 3*sqrt(5))/2), where phi is the golden ratio.",
   "id": "A374883",
   "mentions": [
+    "A000032",
     "A001622",
     "A090550",
     "A104457",

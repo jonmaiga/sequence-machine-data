@@ -1,0 +1,18 @@
+{
+  "description": "Indices of the minimum value taken by Recamán's sequence (A005132) between terms where A005132(k) mod k increases.",
+  "id": "A393815",
+  "mentions": [
+    "A005132",
+    "A064227",
+    "A065052",
+    "A393814"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

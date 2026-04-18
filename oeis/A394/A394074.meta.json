@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the circumradius of an uniform heptagonal antiprism with unit edges.",
+  "id": "A394074",
+  "mentions": [
+    "A394071",
+    "A394072",
+    "A394073",
+    "A394075",
+    "A394076",
+    "A394077"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

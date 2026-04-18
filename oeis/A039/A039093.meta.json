@@ -2,7 +2,17 @@
   "description": "Numbers whose base-9 representation has the same number of 2's and 5's.",
   "id": "A039093",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039081",
+    "A039087",
+    "A039091",
+    "A039092",
+    "A039094",
+    "A039095",
+    "A039096",
+    "A039098",
+    "A039102",
+    "A039374"
   ],
   "tags": [
     "base",
@@ -12,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

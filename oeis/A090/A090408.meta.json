@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} binomial(4n+3,4k).",
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n+3,4*k).",
   "id": "A090408",
   "mentions": [
     "A001025",

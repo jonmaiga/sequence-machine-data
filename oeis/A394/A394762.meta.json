@@ -1,0 +1,14 @@
+{
+  "description": "Minimum number of draws without replacement from an urn with n white and n black balls to ensure the probability of drawing at least one ball of each color is >= n/(n+1).",
+  "id": "A394762",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

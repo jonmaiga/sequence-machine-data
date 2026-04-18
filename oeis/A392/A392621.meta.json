@@ -1,0 +1,22 @@
+{
+  "description": "Product of distinct integer roots r such that A001597(n) = r^m for some m > 1.",
+  "id": "A392621",
+  "mentions": [
+    "A000005",
+    "A001597",
+    "A025479",
+    "A027750",
+    "A253642",
+    "A392986",
+    "A393085"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

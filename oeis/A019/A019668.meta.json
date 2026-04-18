@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of sqrt(Pi*e)/24.",
   "id": "A019668",
-  "mentions": [],
+  "mentions": [
+    "A002161",
+    "A019645",
+    "A019774"
+  ],
   "tags": [
     "cons",
     "nonn"

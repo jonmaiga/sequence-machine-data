@@ -1,9 +1,9 @@
 {
-  "description": "Non-palindromic n and its digit reversal have the same sum of prime factors (with repetition).",
+  "description": "Non-palindromic numbers whose digit reversal have the same sum of prime factors (with repetition).",
   "id": "A085607",
   "mentions": [
     "A001414",
-    "A085870"
+    "A029742"
   ],
   "tags": [
     "base",

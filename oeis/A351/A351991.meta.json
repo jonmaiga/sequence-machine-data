@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. Product_{k>=1} 1/(1 - x^prime(k) / prime(k)!).",
+  "description": "Expansion of e.g.f. Product_{k>=1} 1/(1 - x^prime(k)/prime(k)!).",
   "id": "A351991",
   "mentions": [
     "A005651",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -5,12 +5,12 @@
     "A005185"
   ],
   "tags": [
-    "formulas",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 87,
+    "size": 84,
     "source": "oeis-entry"
   }
 }

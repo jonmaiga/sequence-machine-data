@@ -1,0 +1,16 @@
+{
+  "description": "The indices of the record values of A091508.",
+  "id": "A394797",
+  "mentions": [
+    "A091508"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

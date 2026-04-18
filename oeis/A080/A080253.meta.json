@@ -2,6 +2,7 @@
   "description": "a(n) is the number of elements in the Coxeter complex of type B_n (or C_n).",
   "id": "A080253",
   "mentions": [
+    "A000010",
     "A000670",
     "A001333",
     "A060187",

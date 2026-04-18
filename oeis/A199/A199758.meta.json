@@ -1,5 +1,5 @@
 {
-  "description": "7*11^n+1.",
+  "description": "a(n) = 7*11^n + 1.",
   "id": "A199758",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

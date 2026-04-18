@@ -1,9 +1,12 @@
 {
-  "description": "Total number of positive integers below 10^n requiring 5 positive biquadrates in their representation as sum of biquadrates.",
+  "description": "Total number of positive integers below 10^n requiring exactly 5 positive biquadrates in their representation as sum of biquadrates.",
   "id": "A186655",
   "mentions": [
     "A002283",
+    "A002377",
     "A003339",
+    "A046047",
+    "A047716",
     "A114322",
     "A186649",
     "A186651",
@@ -25,11 +28,13 @@
     "A186684"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

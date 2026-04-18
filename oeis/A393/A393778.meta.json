@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion 1/zeta(2)^2 + Sum_{k>=2} (1/zeta(k) - 1/zeta(k+1))^2.",
+  "id": "A393778",
+  "mentions": [
+    "A033150",
+    "A051903",
+    "A227929",
+    "A357310"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

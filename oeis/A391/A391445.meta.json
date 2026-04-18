@@ -1,0 +1,18 @@
+{
+  "description": "Take a prime p>9, sum the digits, repeat the sum deleting the first addendum and adding the previous sum and so on. Sequence lists the minimum prime p that produces a run of exactly n consecutive primes.",
+  "id": "A391445",
+  "mentions": [
+    "A007629"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

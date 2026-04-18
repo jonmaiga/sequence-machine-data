@@ -1,13 +1,14 @@
 {
-  "description": "Counts of Kekulean pericondensed planar benzenoid hydrocarbons (see reference for precise definition).",
+  "description": "Counts of Kekulean pericondensed planar benzenoid hydrocarbons C_{4n-6}H_{2n-4}.",
   "id": "A141789",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 8,
-    "size": 7,
+    "offset": 9,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

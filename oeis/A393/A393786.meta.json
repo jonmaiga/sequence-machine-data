@@ -1,0 +1,19 @@
+{
+  "description": "Number of cyclically symmetric planar subpartitions of the size n pyramidal planar partition.",
+  "id": "A393786",
+  "mentions": [
+    "A006366",
+    "A115965",
+    "A388969",
+    "A393748"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

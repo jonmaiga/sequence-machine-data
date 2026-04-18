@@ -1,10 +1,12 @@
 {
-  "description": "A two level sequence: v(n)=2*(If[n == 0, 0, 2^(n - 1)] + 2); a(n)=If[n == 0, 6, (v[n] + v[n - 1] - 2)].",
+  "description": "a(0) = 6, a(n) = v(n) + v(n-1) - 2 where v(0)=4 and v(n) = 2^n + 4.",
   "id": "A146529",
   "mentions": [
-    "A007283"
+    "A007283",
+    "A153973"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

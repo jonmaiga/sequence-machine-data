@@ -1,0 +1,15 @@
+{
+  "description": "Number computed by Wolfram's 2-state 2-symbol Turing machine 3555 when started with n on the tape.",
+  "id": "A393304",
+  "mentions": [
+    "A393305"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

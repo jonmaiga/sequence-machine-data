@@ -2,9 +2,11 @@
   "description": "a(n) is the Skolem number of the triangular grid graph T_n.",
   "id": "A342939",
   "mentions": [
+    "A000045",
     "A002061",
     "A152947",
     "A161680",
+    "A165357",
     "A247476",
     "A342938",
     "A342940"

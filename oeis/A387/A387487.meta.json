@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the length of the longest prefix of S matching the substring of S starting at n where S = 123456789101112... is the Champernowne word (A033307).",
+  "id": "A387487",
+  "mentions": [
+    "A031297",
+    "A033307",
+    "A392989"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

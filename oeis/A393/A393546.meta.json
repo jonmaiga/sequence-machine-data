@@ -1,0 +1,17 @@
+{
+  "description": "Number of decimal places which are known after n terms of the continued fraction for the bronze ratio.",
+  "id": "A393546",
+  "mentions": [
+    "A003688",
+    "A006190",
+    "A098316"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

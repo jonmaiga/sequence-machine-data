@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: (sin(2*x) + sin(3*x)) / sin(5*x).",
+  "description": "Expansion of e.g.f. (sin(2*x) + sin(3*x)) / sin(5*x).",
   "id": "A272467",
   "mentions": [
     "A002439",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into parts where each part divides the largest part, and each part occurs at most twice if it is the largest part, and at most once otherwise.",
+  "id": "A389719",
+  "mentions": [
+    "A000009",
+    "A130689",
+    "A343347"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

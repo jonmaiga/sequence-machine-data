@@ -2,6 +2,7 @@
   "description": "Partial sums of A089451.",
   "id": "A322665",
   "mentions": [
+    "A008683",
     "A049092",
     "A078330",
     "A088144",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 85,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

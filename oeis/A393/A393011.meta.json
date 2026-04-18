@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (7*n)!/((5*n)!*(2*n)!).",
+  "id": "A393011",
+  "mentions": [
+    "A001421",
+    "A113424",
+    "A391700",
+    "A391889",
+    "A393378",
+    "A394371",
+    "A394642"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

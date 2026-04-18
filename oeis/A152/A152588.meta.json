@@ -1,16 +1,17 @@
 {
-  "description": "15^(2^n) + 2.",
+  "description": "a(n) = 15^(2^n) + 2.",
   "id": "A152588",
   "mentions": [
     "A175138"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

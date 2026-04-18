@@ -1,0 +1,22 @@
+{
+  "description": "The number of exponential divisors of the numbers whose exponents in their prime factorization are squares (A197680).",
+  "id": "A394426",
+  "mentions": [
+    "A000005",
+    "A049419",
+    "A197680",
+    "A322791",
+    "A357016",
+    "A388973"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

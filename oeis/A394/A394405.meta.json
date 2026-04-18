@@ -1,0 +1,18 @@
+{
+  "description": "Number of transitive relations, on an n-set, that are not quasi-orders.",
+  "id": "A394405",
+  "mentions": [
+    "A000798",
+    "A006905"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

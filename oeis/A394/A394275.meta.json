@@ -1,0 +1,15 @@
+{
+  "description": "Number of induced cubes in the n-Sierpinski tetrahedron graph.",
+  "id": "A394275",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

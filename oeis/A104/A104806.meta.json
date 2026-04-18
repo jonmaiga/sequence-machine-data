@@ -2,16 +2,20 @@
   "description": "\"Round of hypotenuse\", see comments.",
   "id": "A104806",
   "mentions": [
+    "A000194",
+    "A022099",
     "A104803",
     "A104804",
     "A104805"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

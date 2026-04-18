@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/2)*n*(n+3)*(n+4).",
+  "id": "A393327",
+  "mentions": [
+    "A000217",
+    "A001477",
+    "A005586",
+    "A027480",
+    "A140229"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

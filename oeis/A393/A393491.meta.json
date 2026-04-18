@@ -1,0 +1,16 @@
+{
+  "description": "Multiplicative sequence a(n) with a(p^e) = floor((e+1)/3) for prime p and e > 0.",
+  "id": "A393491",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

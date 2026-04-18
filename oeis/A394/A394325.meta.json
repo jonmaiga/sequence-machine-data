@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions p of n such that (minimal multiplicity of the parts of p) >= 2 * (maximal part of p).",
+  "id": "A394325",
+  "mentions": [
+    "A394324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

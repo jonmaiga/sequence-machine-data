@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = f(n+1) - f(n), where f(n) = floor(prime(n)/5).",
+  "id": "A392116",
+  "mentions": [
+    "A000040",
+    "A116572"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

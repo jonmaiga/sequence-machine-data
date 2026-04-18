@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of n-digit numbers that are primes or squares of primes.",
+  "id": "A394308",
+  "mentions": [
+    "A000430",
+    "A000720",
+    "A001248",
+    "A006879",
+    "A122121",
+    "A379566"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Coefficients of a Bessel function (reciprocal of J_0(z)); also pairs of permutations with rise/rise forbidden.",
   "id": "A000275",
   "mentions": [
+    "A008683",
     "A055133",
     "A115368",
     "A192721",

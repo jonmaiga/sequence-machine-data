@@ -8,11 +8,12 @@
     "base",
     "easy",
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

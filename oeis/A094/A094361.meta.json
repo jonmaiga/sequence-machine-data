@@ -1,7 +1,8 @@
 {
-  "description": "Pair-reversal of 1,4,4,16,16...",
+  "description": "Pair-reversal of 1, 4, 4, 16, 16, ... (A056450).",
   "id": "A094361",
   "mentions": [
+    "A056450",
     "A076736"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 34,
     "source": "joeis"
   }
 }

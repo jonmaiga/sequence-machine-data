@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k), n > 0, k = 1..A282446(n), read by rows; the n-th row lists the recursive divisors of n (as defined in A282446).",
+  "id": "A394673",
+  "mentions": [
+    "A020639",
+    "A282446",
+    "A287957",
+    "A333926",
+    "A394674"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

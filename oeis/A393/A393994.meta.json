@@ -1,0 +1,20 @@
+{
+  "description": "Largest number of distinct directions of lines determined by pairs of cell centers of a polycube with n cells.",
+  "id": "A393994",
+  "mentions": [
+    "A038119",
+    "A393938",
+    "A393993",
+    "A394394",
+    "A394395"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

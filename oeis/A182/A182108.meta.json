@@ -1,5 +1,5 @@
 {
-  "description": "Odd composite numbers in successive intervals [2^i +1 .. 2^(i+1) -1] i=1,2,3... such that there are only composite symmetric XOR couples in either the original interval or any recursively halved interval that contains them.",
+  "description": "Odd composite numbers in successive intervals [2^i + 1 .. 2^(i+1) - 1], i=1,2,3,... such that there are only composite symmetric XOR couples in either the original interval or any recursively halved interval that contains them.",
   "id": "A182108",
   "mentions": [
     "A199824"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

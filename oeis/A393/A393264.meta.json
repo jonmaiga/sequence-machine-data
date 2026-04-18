@@ -1,0 +1,19 @@
+{
+  "description": "The smallest number k > 1 such that the total number of its prime factors, with multiplicity, equals that of the digit reversals of k when it is written in all bases 2 to n.",
+  "id": "A393264",
+  "mentions": [
+    "A001222",
+    "A393176",
+    "A393263"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

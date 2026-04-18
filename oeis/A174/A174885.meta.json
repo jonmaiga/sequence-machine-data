@@ -1,5 +1,5 @@
 {
-  "description": "Prime hypotenuses c with concatenation p = c//a//b a prime number.",
+  "description": "Prime hypotenuses c with concatenation p = c||a||b a prime number, where (a,b,c) is a primitive Pythagorean triple with a the even leg.",
   "id": "A174885",
   "mentions": [
     "A008846",
@@ -11,12 +11,11 @@
   ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

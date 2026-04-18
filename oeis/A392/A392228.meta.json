@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: Place k points in general position on each side of a regular n-gon and join every pair of the k*n boundary points by a chord; T(n,k) (n >= 3, k >= 0) gives the number of regions in the resulting planar graph.",
+  "id": "A392228",
+  "mentions": [
+    "A367015",
+    "A367323",
+    "A392172",
+    "A392261",
+    "A392282"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

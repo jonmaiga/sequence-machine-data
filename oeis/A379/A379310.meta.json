@@ -65,6 +65,7 @@
     "A379301",
     "A379304",
     "A379305",
+    "A379306",
     "A379307",
     "A379308",
     "A379309",
@@ -75,12 +76,13 @@
     "A379317"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

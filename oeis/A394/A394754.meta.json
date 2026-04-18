@@ -1,0 +1,17 @@
+{
+  "description": "Number of semi-bipartite structures on n unlabeled vertices.",
+  "id": "A394754",
+  "mentions": [
+    "A000088",
+    "A339832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer compositions of n that are the 0-prepended first sums of some finite sequence of distinct integers.",
+  "id": "A392702",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000070",
+    "A000097",
+    "A053251",
+    "A103919",
+    "A325325",
+    "A344610",
+    "A344612",
+    "A390429",
+    "A390446",
+    "A390567",
+    "A390673",
+    "A390989",
+    "A391620",
+    "A391629",
+    "A392695",
+    "A392697",
+    "A392698",
+    "A392701",
+    "A392703",
+    "A392704",
+    "A392708",
+    "A392709"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

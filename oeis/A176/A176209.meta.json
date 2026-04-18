@@ -1,5 +1,5 @@
 {
-  "description": "Sums of at least 2 squares s', for s >= 4.",
+  "description": "Numbers that can be greedily decomposed as a sum of two or more squares >= 4.",
   "id": "A176209",
   "mentions": [
     "A000290"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

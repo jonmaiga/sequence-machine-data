@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows where row n is the numerators of the node values in a preorder traversal of the Calkin-Wilf tree with n levels, columns 0 <= k < 2^n-1.",
+  "id": "A392670",
+  "mentions": [
+    "A001511",
+    "A002487",
+    "A003462",
+    "A046699",
+    "A392671"
+  ],
+  "tags": [
+    "frac",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

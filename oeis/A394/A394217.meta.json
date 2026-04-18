@@ -1,0 +1,20 @@
+{
+  "description": "Earliest monotonic sequence satisfying a(1)=1 and a(a(n)+a(n-1))=n for n>=1 (with a(k)=0 for k<=0).",
+  "id": "A394217",
+  "mentions": [
+    "A001462",
+    "A003605",
+    "A079000",
+    "A394218",
+    "A394219"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

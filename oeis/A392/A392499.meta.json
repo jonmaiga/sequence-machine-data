@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k > 1 with the smallest prime divisor p, where the sum of divisors d in the range 1 < d < k/p is at least k/p, but no subset of these divisors sums to k/p.",
+  "id": "A392499",
+  "mentions": [
+    "A006036",
+    "A392440",
+    "A392495",
+    "A392496",
+    "A392497",
+    "A392498",
+    "A392500",
+    "A392652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

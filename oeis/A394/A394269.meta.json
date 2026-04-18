@@ -1,0 +1,14 @@
+{
+  "description": "Number of induced cubes in the n-polygon diagonal intersection graph.",
+  "id": "A394269",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Greatest a(n) such that every graph on n vertices has an induced regular subgraph of order a(n).",
+  "id": "A394574",
+  "mentions": [
+    "A390257",
+    "A394564"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

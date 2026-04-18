@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number of the form a^b, with 1 < a and 1 < b and a != b, for which the digit sets of a^b and b^a share exactly n digits.",
+  "id": "A389849",
+  "mentions": [],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

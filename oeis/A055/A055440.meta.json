@@ -1,5 +1,5 @@
 {
-  "description": "Distribution of first digit of mantissa following Benford's Law, using d'Hondt method.",
+  "description": "Distribution of first digit of mantissa following Benford's law, using d'Hondt method.",
   "id": "A055440",
   "mentions": [
     "A055439",

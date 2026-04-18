@@ -1,0 +1,16 @@
+{
+  "description": "Number of pairs {j,k}, 0 < j < k < n, such that j*n + k and k*n + j are distinct and have the same squarefree kernel.",
+  "id": "A391753",
+  "mentions": [
+    "A007947",
+    "A391703"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

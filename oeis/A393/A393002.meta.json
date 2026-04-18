@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed polyquarcs with n cells, with cusp connections allowed.",
+  "id": "A393002",
+  "mentions": [
+    "A392394",
+    "A393000",
+    "A393001"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 - x^4 * d/dx log(1 - x*A(x)).",
+  "id": "A394802",
+  "mentions": [
+    "A003319",
+    "A201689",
+    "A394800",
+    "A394801"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

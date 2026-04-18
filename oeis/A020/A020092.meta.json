@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+7/12)/GAMMA(7/12).",
+  "description": "Ceiling of Gamma(n+7/12)/Gamma(7/12).",
   "id": "A020092",
-  "mentions": [],
+  "mentions": [
+    "A020002",
+    "A020047"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

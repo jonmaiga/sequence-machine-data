@@ -1,7 +1,8 @@
 {
-  "description": "Expansion of (1+8x)/(1-16x^2).",
+  "description": "Expansion of (1+8*x)/(1-16*x^2).",
   "id": "A107906",
   "mentions": [
+    "A014601",
     "A096053"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "joeis"
   }
 }

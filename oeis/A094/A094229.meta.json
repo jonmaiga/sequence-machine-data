@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that d(n) >= n-th harmonic number H(n)=sum_{i=1..n}1/i.",
+  "description": "Numbers k such that d(k) >= k-th harmonic number H(k) = Sum_{i=1..k} 1/i.",
   "id": "A094229",
   "mentions": [
     "A000005",

@@ -1,14 +1,17 @@
 {
-  "description": "Even numbers that have a nontrivial odd divisor.",
+  "description": "Even numbers divisible by an odd prime.",
   "id": "A177712",
   "mentions": [
     "A000217",
     "A005843",
+    "A039956",
     "A051144",
     "A054741",
     "A057716",
+    "A061346",
     "A225546",
-    "A299174"
+    "A299174",
+    "A363101"
   ],
   "tags": [
     "easy",

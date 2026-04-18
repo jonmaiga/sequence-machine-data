@@ -2,6 +2,8 @@
   "description": "Indices of heptagonal numbers (A000566) which are also triangular numbers (A000217).",
   "id": "A046193",
   "mentions": [
+    "A000032",
+    "A000045",
     "A000217",
     "A000566",
     "A039835",

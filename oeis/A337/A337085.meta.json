@@ -1,10 +1,16 @@
 {
-  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where T(n,k) = n! * Sum_{j=0..n} j^k/j!.",
+  "description": "Square array T(n, k) read by descending antidiagonals. T(n, k) = n! * Sum_{j=0..n} j^k / j!.",
   "id": "A337085",
   "mentions": [
+    "A000110",
+    "A000142",
     "A000522",
     "A007526",
     "A030297",
+    "A048993",
+    "A061354",
+    "A061355",
+    "A186020",
     "A256016",
     "A337001",
     "A337002",

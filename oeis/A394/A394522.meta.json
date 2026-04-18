@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/(1 - 4*x*A(x)^2)^(1/4).",
+  "id": "A394522",
+  "mentions": [
+    "A394494",
+    "A394523",
+    "A394524"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

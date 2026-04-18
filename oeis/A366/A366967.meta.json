@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=2..n} binomial(k,2) * floor(n/k).",
   "id": "A366967",
   "mentions": [
+    "A002117",
     "A002541",
     "A024916",
     "A064602",

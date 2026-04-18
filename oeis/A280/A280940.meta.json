@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) = number of subparts in the k-th part of the symmetric representation of sigma(n).",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of subparts in the k-th part of the symmetric representation of sigma(n).",
   "id": "A280940",
   "mentions": [
     "A000203",

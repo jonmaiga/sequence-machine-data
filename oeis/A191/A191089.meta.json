@@ -2,11 +2,13 @@
   "description": "Least prime p such that the first n primes are not squares mod p.",
   "id": "A191089",
   "mentions": [
+    "A001986",
     "A001992",
     "A147972",
     "A191088"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

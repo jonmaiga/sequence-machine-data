@@ -1,0 +1,19 @@
+{
+  "description": "G.f. Sum_{n>=0} x^n / (1 - x)^A002262(n), where A002262 is a triangle read by rows in which row n lists the first n+1 nonnegative integers.",
+  "id": "A392528",
+  "mentions": [
+    "A002024",
+    "A002262",
+    "A089799",
+    "A392529"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

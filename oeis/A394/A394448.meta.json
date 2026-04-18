@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest nonnegative integer whose first n hexadecimal digits coincide with its first n decimal digits.",
+  "id": "A394448",
+  "mentions": [
+    "A227549",
+    "A305213"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

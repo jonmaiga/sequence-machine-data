@@ -1,0 +1,17 @@
+{
+  "description": "Binary-encoded contents of pin 2, after n moves, when moving infinitely many disks in the Tower of Hanoi starting from pin 1, via the optimal algorithm.",
+  "id": "A392655",
+  "mentions": [
+    "A165404",
+    "A391638",
+    "A392654"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

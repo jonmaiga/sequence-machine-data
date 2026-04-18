@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the maximum determinant of an n X n circulant matrix whose rows are permutations of [0, 1, 2, ..., n-1].",
+  "id": "A392190",
+  "mentions": [
+    "A328030",
+    "A392131",
+    "A392187",
+    "A392191",
+    "A392192",
+    "A392193"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

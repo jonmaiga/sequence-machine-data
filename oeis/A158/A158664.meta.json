@@ -2,7 +2,8 @@
   "description": "Number of directed Hamiltonian paths on the n X n queen graph.",
   "id": "A158664",
   "mentions": [
-    "A158663"
+    "A158663",
+    "A308139"
   ],
   "tags": [
     "hard",

@@ -1,0 +1,18 @@
+{
+  "description": "Product of the divisors of phi(n).",
+  "id": "A392218",
+  "mentions": [
+    "A007955",
+    "A062402",
+    "A392217"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

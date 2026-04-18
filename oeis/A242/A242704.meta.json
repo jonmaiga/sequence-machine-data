@@ -2,6 +2,7 @@
   "description": "Lexicographically earliest sequence of distinct positive integers such that for any n>0 the number of ones in the binary representation of a(n) divides a(n+1).",
   "id": "A242704",
   "mentions": [
+    "A000120",
     "A242705"
   ],
   "tags": [

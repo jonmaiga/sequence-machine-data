@@ -1,0 +1,18 @@
+{
+  "description": "Cube of 3, then 33, then 333, increasing the number of threes by one each time.",
+  "id": "A392833",
+  "mentions": [
+    "A002277",
+    "A272066"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the unique solution x > 0 to Sum_{k>=1} arcsin(1/k^x) = Pi.",
+  "id": "A394851",
+  "mentions": [
+    "A052469",
+    "A055786",
+    "A393447"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n) = prime(n) + Fibonacci(n).",
   "id": "A004397",
   "mentions": [
+    "A096379",
     "A100700"
   ],
   "tags": [

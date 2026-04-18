@@ -2,15 +2,18 @@
   "description": "Size of free Kleene algebra on n generators.",
   "id": "A268534",
   "mentions": [
-    "A006356"
+    "A006356",
+    "A007153",
+    "A007154"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 4,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

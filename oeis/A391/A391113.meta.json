@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the area of the irregular hexagon, rounded to the nearest integer, where its vertices lie on the co-vertices and the endpoints of the two latus rectums of an ellipse, where n and k are respectively the integer major and minor axes with n >= 2 and k >= 1.",
+  "id": "A391113",
+  "mentions": [
+    "A108126",
+    "A386539"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, with T(n,k) giving the number of n X n Boolean matrices with exactly k ones that have no zero rows and at least one zero column.",
+  "id": "A392482",
+  "mentions": [
+    "A055599",
+    "A392483",
+    "A392485"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

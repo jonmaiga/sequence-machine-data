@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least prime p such that n + p is the digit reversal of a prime.",
+  "id": "A392264",
+  "mentions": [
+    "A393287"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

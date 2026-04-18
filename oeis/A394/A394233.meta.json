@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1 / sqrt(1 - 14*x + 41*x^2).",
+  "id": "A394233",
+  "mentions": [
+    "A001850",
+    "A006139",
+    "A059304",
+    "A080609",
+    "A084601",
+    "A098410",
+    "A104454",
+    "A154347",
+    "A394231",
+    "A394232"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

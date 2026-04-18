@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the hafnian of the 2n X 2n symmetric matrix whose generic element M[i,j] is equal to the digit reversal of i*j.",
+  "id": "A393480",
+  "mentions": [
+    "A003991",
+    "A004086",
+    "A354865",
+    "A357279",
+    "A357420",
+    "A357421",
+    "A357503",
+    "A358158",
+    "A358160",
+    "A358162",
+    "A358164",
+    "A391365",
+    "A393479"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

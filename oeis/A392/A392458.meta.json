@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the area of a 16-gon with unit side lengths.",
+  "id": "A392458",
+  "mentions": [
+    "A343060"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

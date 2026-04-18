@@ -1,0 +1,30 @@
+{
+  "description": "Maximum halting time for any of the 4096 Wolfram 2-state 2-symbol Turing machines across all n-bit inputs.",
+  "id": "A393317",
+  "mentions": [
+    "A036563",
+    "A056220",
+    "A391977",
+    "A393103",
+    "A393106",
+    "A393146",
+    "A393190",
+    "A393209",
+    "A393210",
+    "A393212",
+    "A393232",
+    "A393233",
+    "A393234"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

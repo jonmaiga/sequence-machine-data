@@ -1,0 +1,17 @@
+{
+  "description": "In the spiral discussed in A392177 and A392178, squares not occupied by a knight of either color.",
+  "id": "A392179",
+  "mentions": [
+    "A392177",
+    "A392178",
+    "A392180"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of compositions of n having exactly one part whose multiplicity equals its size.",
+  "id": "A393566",
+  "mentions": [
+    "A391611"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

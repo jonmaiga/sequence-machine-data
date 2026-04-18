@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A003415(k) >= A276085(k), where A003415 is the arithmetic derivative and A276085 is the primorial base log-function.",
+  "id": "A392869",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A369650",
+    "A373490",
+    "A380459",
+    "A392601"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

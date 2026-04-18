@@ -1,10 +1,11 @@
 {
-  "description": "Distribution of first digit of mantissa following Benford's Law, using largest remainder method with Hare quotas.",
+  "description": "Distribution of first digit of mantissa following Benford's law, using largest remainder method with Hare quotas.",
   "id": "A055441",
   "mentions": [
     "A055439",
     "A055440",
-    "A055442"
+    "A055442",
+    "A241773"
   ],
   "tags": [
     "base",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

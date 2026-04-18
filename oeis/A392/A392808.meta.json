@@ -1,0 +1,29 @@
+{
+  "description": "Maximum Mahler measure of all septic polynomials with coefficients in {-1, 0, 1}.",
+  "id": "A392808",
+  "mentions": [
+    "A000007",
+    "A001622",
+    "A058265",
+    "A073011",
+    "A219300",
+    "A306078",
+    "A306079",
+    "A316605",
+    "A316610",
+    "A390906",
+    "A392802",
+    "A393038",
+    "A393039"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

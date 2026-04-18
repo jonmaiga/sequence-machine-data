@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n nonograms (hanjie) which can be solved uniquely by iteratively analyzing each row and column in isolation, without guessing and backtracking.",
+  "id": "A391619",
+  "mentions": [
+    "A242876"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

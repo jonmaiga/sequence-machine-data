@@ -1,7 +1,8 @@
 {
-  "description": "Smallest number k of consecutive primes > p_n such that p_n^2 * p_(n+1) * p_(n+2) * ... * p_(n+k) is an abundant number.",
+  "description": "Smallest number k of consecutive primes > p_n such that p_n^2 * p_(n+1) * p_(n+2) * ... * p_(n+k) is an abundant number, where p_n is the n-th prime.",
   "id": "A110585",
   "mentions": [
+    "A000203",
     "A005101",
     "A005231",
     "A047802"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

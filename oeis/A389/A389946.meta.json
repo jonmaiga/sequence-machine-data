@@ -1,0 +1,15 @@
+{
+  "description": "Minimum positive value k such that prime(n) - k^2 is a prime number, or 0 if no such positive k exists.",
+  "id": "A389946",
+  "mentions": [
+    "A386600"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

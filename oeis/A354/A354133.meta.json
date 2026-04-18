@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table read by rows: for each interior cell of a regular n-gon with all diagonals drawn remove all its edges and then count the number of sides in the resulting polygon; row n gives the number of resulting k-sided polygons, for k >= 6, for all interior cells.",
+  "description": "Irregular table read by rows: for each interior cell of a regular n-gon with all diagonals drawn remove all its edges and then count the sides in the resulting polygon; row n gives the number of resulting k-sided polygons, for k >= 6, for all interior cells.",
   "id": "A354133",
   "mentions": [
     "A007569",

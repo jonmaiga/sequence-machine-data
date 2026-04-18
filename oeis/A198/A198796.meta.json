@@ -1,5 +1,5 @@
 {
-  "description": "3*6^n-1.",
+  "description": "a(n) = 3*6^n-1.",
   "id": "A198796",
   "mentions": [],
   "tags": [

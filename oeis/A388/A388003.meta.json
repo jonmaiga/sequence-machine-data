@@ -1,0 +1,15 @@
+{
+  "description": "Number of fundamentally different graceful labelings of the K_n X C_4 graph where X is graph Cartesian product.",
+  "id": "A388003",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

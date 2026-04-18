@@ -1,5 +1,5 @@
 {
-  "description": "Integers m such that the base-10 digit concatenation 2//m//3//m//5//m...//prime(49)//m//prime(50) is prime.",
+  "description": "Integers m such that the base-10 digit concatenation 2 m 3 m 5 m ... prime(49) m prime(50) is prime.",
   "id": "A084048",
   "mentions": [
     "A032711",
@@ -8,6 +8,7 @@
   "tags": [
     "base",
     "easy",
+    "less",
     "nonn"
   ],
   "terms": {

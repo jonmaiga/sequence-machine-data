@@ -2,9 +2,7 @@
   "description": "a(n) = 23a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 23.",
   "id": "A090731",
   "mentions": [
-    "A037088",
     "A049310",
-    "A051502",
     "A053120",
     "A077428",
     "A078355",

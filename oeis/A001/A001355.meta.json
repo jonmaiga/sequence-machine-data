@@ -2,7 +2,8 @@
   "description": "Mix digits of Pi and e.",
   "id": "A001355",
   "mentions": [
-    "A058382"
+    "A058382",
+    "A076790"
   ],
   "tags": [
     "base",

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of cos(1/5).",
+  "id": "A393784",
+  "mentions": [
+    "A161014",
+    "A393785"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 117,
+    "source": "joeis"
+  }
+}

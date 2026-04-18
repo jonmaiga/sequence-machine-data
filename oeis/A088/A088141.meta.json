@@ -6,11 +6,12 @@
     "A072829"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 92,
-    "source": "joeis"
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
   }
 }

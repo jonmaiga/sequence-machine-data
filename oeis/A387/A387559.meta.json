@@ -1,14 +1,17 @@
 {
   "description": "Number of matchings in the n-Cameron graph.",
   "id": "A387559",
-  "mentions": [],
+  "mentions": [
+    "A387588"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

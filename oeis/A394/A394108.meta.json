@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that set a new record for A007953(k) - A004164(k).",
+  "id": "A394108",
+  "mentions": [
+    "A004164",
+    "A007953",
+    "A064209",
+    "A204324"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

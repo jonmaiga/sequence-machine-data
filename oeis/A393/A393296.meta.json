@@ -1,0 +1,18 @@
+{
+  "description": "Number of lower sets of size n in the Young lattice.",
+  "id": "A393296",
+  "mentions": [
+    "A000041",
+    "A116473",
+    "A119262"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

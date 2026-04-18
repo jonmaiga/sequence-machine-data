@@ -2,6 +2,7 @@
   "description": "Partial sums of central numbers for a Moebius-binomial triangle.",
   "id": "A105598",
   "mentions": [
+    "A065474",
     "A105597"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A001065(x)*x = n has at least two solutions, where x is an abundant number.",
+  "description": "Numbers k such that A001065(x)*x = k has at least two solutions, where x is an abundant number.",
   "id": "A212373",
   "mentions": [
     "A001065",

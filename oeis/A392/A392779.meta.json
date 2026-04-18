@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct coefficients in the expansion of x_1(x_1 + x_2)...(x_1 + x_2 + ... + x_n).",
+  "id": "A392779",
+  "mentions": [
+    "A000108",
+    "A347917",
+    "A349404"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Continued fraction for Khintchine's constant.",
   "id": "A002211",
   "mentions": [
-    "A002210"
+    "A002210",
+    "A054866",
+    "A224852"
   ],
   "tags": [
     "cofr",

@@ -1,5 +1,5 @@
 {
-  "description": "Eigenfunction of a sequence transformation.",
+  "description": "G.f. A(x) satisfies x = (1 + 4*A(x)) * A(A(x)).",
   "id": "A088675",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "sign"
   ],
   "terms": {
-    "offset": 0,
-    "size": 23,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

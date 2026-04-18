@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. T(n, k) = Sum_{i=0..k} C(k, i) * C(n - i, floor((n - i) / 2)).",
+  "id": "A393138",
+  "mentions": [
+    "A001405",
+    "A005773",
+    "A393139"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

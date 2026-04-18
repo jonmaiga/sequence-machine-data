@@ -1,0 +1,28 @@
+{
+  "description": "Nonsquarefree numbers k such that A276086(A003415(k)) <= k, where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
+  "id": "A392873",
+  "mentions": [
+    "A003415",
+    "A008966",
+    "A013929",
+    "A048103",
+    "A080364",
+    "A276086",
+    "A327859",
+    "A370115",
+    "A371083",
+    "A391845",
+    "A392867",
+    "A392868",
+    "A393067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

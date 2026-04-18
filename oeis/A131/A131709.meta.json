@@ -2,8 +2,12 @@
   "description": "Number of partitions into \"bus routes\" of an n X 1 grid.",
   "id": "A131709",
   "mentions": [
+    "A089243",
     "A131518",
-    "A177187"
+    "A135442",
+    "A135444",
+    "A177187",
+    "A357895"
   ],
   "tags": [
     "easy",
@@ -12,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

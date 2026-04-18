@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct n-edges, fully-dimensional incomplete open cubes (see Comments for precise definition).",
+  "id": "A393969",
+  "mentions": [
+    "A222186",
+    "A222192",
+    "A383799",
+    "A393693"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

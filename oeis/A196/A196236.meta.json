@@ -14,12 +14,11 @@
     "A196237"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 17,
-    "size": 17,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

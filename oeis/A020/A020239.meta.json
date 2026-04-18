@@ -2,7 +2,9 @@
   "description": "Strong pseudoprimes to base 13.",
   "id": "A020239",
   "mentions": [
-    "A001262"
+    "A001262",
+    "A020141",
+    "A188755"
   ],
   "tags": [
     "nonn"

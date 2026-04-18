@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of the vertices of the n-ladder graph into dominating sets.",
+  "id": "A391826",
+  "mentions": [
+    "A180762",
+    "A230813",
+    "A391824",
+    "A391827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

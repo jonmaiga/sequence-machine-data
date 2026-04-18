@@ -2,6 +2,9 @@
   "description": "Sum of binary palindromes in the half-open interval [2^(n-1), 2^n).",
   "id": "A206917",
   "mentions": [
+    "A006995",
+    "A016116",
+    "A052995",
     "A206918"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Stirling number triangle of first kind.",
+  "description": "Generalized Stirling number triangle of first kind read by rows: T(n, k) = [x^k] Product_{m=1..n} (x - m - r), with r = 4.",
   "id": "A049460",
   "mentions": [
     "A000035",
@@ -9,7 +9,19 @@
     "A001725",
     "A008275",
     "A048854",
-    "A084938"
+    "A049444",
+    "A049458",
+    "A049459",
+    "A051338",
+    "A051339",
+    "A051379",
+    "A051390",
+    "A051523",
+    "A084938",
+    "A094645",
+    "A094646",
+    "A143492",
+    "A143495"
   ],
   "tags": [
     "easy",

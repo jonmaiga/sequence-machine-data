@@ -2,7 +2,19 @@
   "description": "Numbers whose base-9 representation has the same number of 3's and 8's.",
   "id": "A039101",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A031492",
+    "A039090",
+    "A039096",
+    "A039097",
+    "A039098",
+    "A039099",
+    "A039100",
+    "A039105",
+    "A039108",
+    "A039110",
+    "A039111",
+    "A039382"
   ],
   "tags": [
     "base",
@@ -12,6 +24,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

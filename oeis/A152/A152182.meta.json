@@ -1,13 +1,13 @@
 {
-  "description": "The sequence is a lattice filling using the exponential \"E\" constant digits base ten.",
+  "description": "Number of overlapping n-digit blocks of e needed to see all 10^n possibilities.",
   "id": "A152182",
   "mentions": [
     "A001113"
   ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "more",
+    "nonn"
   ],
   "terms": {
     "offset": 0,

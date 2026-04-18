@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*d/dx log(1 + x*A(x)^2).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*d/dx log(1 + x*A(x)^2).",
   "id": "A159607",
   "mentions": [
     "A159606",

@@ -1,0 +1,25 @@
+{
+  "description": "Number of labeled elementary Abelian groups (C_2)^n with a fixed identity.",
+  "id": "A394566",
+  "mentions": [
+    "A000315",
+    "A001761",
+    "A002884",
+    "A005154",
+    "A005329",
+    "A006125",
+    "A058161",
+    "A246137",
+    "A336412"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 54.",
   "id": "A010283",
-  "mentions": [],
+  "mentions": [
+    "A010625"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 76,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Number of mutual-visibility sets in the n-Plummer-Toft graph.",
+  "id": "A393478",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (directed) Hamiltonian cycles on the Moebius ladder graph M_n (for n>=4).",
+  "description": "Number of (directed) Hamiltonian cycles on the Moebius ladder graph M_n (for n >= 4).",
   "id": "A124356",
   "mentions": [
     "A014681"

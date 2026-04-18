@@ -1,13 +1,13 @@
 {
-  "description": "Number of partitions satisfying (cn(0,5) = 0 and cn(1,5) = cn(4,5)).",
+  "description": "Number of partitions of n satisfying (cn(0,5) = 0 and cn(1,5) = cn(4,5)).",
   "id": "A036818",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 60,
-    "source": "joeis"
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A038575.",
+  "id": "A393508",
+  "mentions": [
+    "A000045",
+    "A001222",
+    "A038575"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

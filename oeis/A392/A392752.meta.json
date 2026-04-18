@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} |Stirling1(n+2*k,k)|.",
+  "id": "A392752",
+  "mentions": [
+    "A392733",
+    "A392744",
+    "A392748",
+    "A392753"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

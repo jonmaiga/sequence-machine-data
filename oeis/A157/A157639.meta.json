@@ -1,8 +1,10 @@
 {
-  "description": "Least number of lattice points from which every point of a square n X n lattice is visible.",
+  "description": "Least number of points in a square n X n lattice from which all other points of the square are visible.",
   "id": "A157639",
   "mentions": [
-    "A141224"
+    "A141224",
+    "A165164",
+    "A360063"
   ],
   "tags": [
     "hard",

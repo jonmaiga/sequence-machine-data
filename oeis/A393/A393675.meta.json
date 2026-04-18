@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of partitions of n into distinct composite parts, no two of which are consecutive in A002808.",
+  "id": "A393675",
+  "mentions": [
+    "A002808",
+    "A018252",
+    "A393671",
+    "A393672",
+    "A393673",
+    "A393674",
+    "A393676"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

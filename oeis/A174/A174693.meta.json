@@ -1,16 +1,17 @@
 {
-  "description": "A symmetrical triangle sequence: t(n,m)=n!*Binomial[n, m]*Eulerian[n + 1, m] - n! + 1.",
+  "description": "Triangle read by rows: T(n,k) = n! * binomial(n, k) * Eulerian(n + 1, k) - n! + 1.",
   "id": "A174693",
-  "mentions": [],
+  "mentions": [
+    "A173018"
+  ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 40,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci(Pn-1) mod Pn, where Pn is the n-th prime.",
+  "description": "a(n) = Fibonacci(Pn-1) mod Pn, where Pn is the n-th prime.",
   "id": "A051834",
   "mentions": [
     "A000045",

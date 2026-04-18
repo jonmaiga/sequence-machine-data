@@ -1,11 +1,13 @@
 {
-  "description": "The primes doubled; Even semiprimes.",
+  "description": "The primes doubled; even semiprimes.",
   "id": "A100484",
   "mentions": [
     "A000005",
     "A000010",
     "A000040",
     "A000203",
+    "A001221",
+    "A001222",
     "A001358",
     "A001747",
     "A001748",
@@ -14,6 +16,7 @@
     "A008864",
     "A039956",
     "A046315",
+    "A065091",
     "A065342",
     "A077017",
     "A078834",

@@ -1,0 +1,24 @@
+{
+  "description": "Number of fixed polyantelopes with n cells.",
+  "id": "A394194",
+  "mentions": [
+    "A030444",
+    "A093877",
+    "A151830",
+    "A393390",
+    "A393836",
+    "A394195",
+    "A394196",
+    "A394197"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

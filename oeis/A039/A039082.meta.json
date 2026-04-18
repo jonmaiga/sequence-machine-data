@@ -2,7 +2,20 @@
   "description": "Numbers whose base-9 representation has the same number of 0's and 6's.",
   "id": "A039082",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A031492",
+    "A039077",
+    "A039078",
+    "A039079",
+    "A039080",
+    "A039081",
+    "A039083",
+    "A039088",
+    "A039094",
+    "A039099",
+    "A039103",
+    "A039106",
+    "A039362"
   ],
   "tags": [
     "base",
@@ -12,6 +25,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

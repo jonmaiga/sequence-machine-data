@@ -1,0 +1,17 @@
+{
+  "description": "A set of 46 squarefree numbers whose reciprocals add to a number that is close to 1, with the property that each number has exactly two distinct prime factors.",
+  "id": "A392224",
+  "mentions": [
+    "A334342"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

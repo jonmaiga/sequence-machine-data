@@ -1,14 +1,16 @@
 {
-  "description": "Difference between the closest squares surrounding squarefree composite numbers.",
+  "description": "Difference between the closest squares surrounding nonsquare composite numbers.",
   "id": "A111186",
-  "mentions": [],
+  "mentions": [
+    "A089229"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 6,
+    "offset": 1,
     "size": 65,
     "source": "oeis-entry"
   }

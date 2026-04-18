@@ -1,18 +1,17 @@
 {
-  "description": "Sequence A154692 adjusted to leading one:t(n,m)=A154692(n,m)-A154692(n,0)+1.",
+  "description": "Triangle read by rows: T(n, k) = A154692(n, k) - A154692(n, 0) + 1.",
   "id": "A174667",
   "mentions": [
     "A154692"
   ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

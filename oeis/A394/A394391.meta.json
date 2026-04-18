@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = tau(n)^2 + (n - tau(n))^2.",
+  "id": "A394391",
+  "mentions": [
+    "A000005",
+    "A049820",
+    "A236283"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

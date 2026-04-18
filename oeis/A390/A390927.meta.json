@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer k for which A392758(k) is equal to n.",
+  "id": "A390927",
+  "mentions": [
+    "A002110",
+    "A025487",
+    "A133812",
+    "A257993",
+    "A392758"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

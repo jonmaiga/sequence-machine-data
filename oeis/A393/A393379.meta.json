@@ -1,0 +1,17 @@
+{
+  "description": "The records of min(d(k), d(k+1), d(k+2)), where d(k) is the number of divisors of k (A000005).",
+  "id": "A393379",
+  "mentions": [
+    "A000005",
+    "A394327"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

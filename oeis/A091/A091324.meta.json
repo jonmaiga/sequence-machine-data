@@ -1,5 +1,5 @@
 {
-  "description": "(2^n)^(2^n)-(2^n-1)^(2^n).",
+  "description": "a(n) = (2^n)^(2^n)-(2^n-1)^(2^n).",
   "id": "A091324",
   "mentions": [
     "A057156",

@@ -1,5 +1,5 @@
 {
-  "description": "A084015(n)/n.",
+  "description": "a(n) = A084015(n)/n.",
   "id": "A084016",
   "mentions": [
     "A084015"

@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of n which are not primorials.",
+  "id": "A392758",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A002110",
+    "A064648",
+    "A257993"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

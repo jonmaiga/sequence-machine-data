@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer k such that k^n contains each digit of k exactly n times, or -1 if no such k exists.",
+  "id": "A391002",
+  "mentions": [
+    "A114259",
+    "A114260",
+    "A114261",
+    "A363160",
+    "A371469"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

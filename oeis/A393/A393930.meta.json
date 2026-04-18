@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0, a(1) = 1; a(n) = n! * [x^n] (1/n)^2 * exp(n*x) * Sum_{k=1..n-1} a(k)*x^k/k!.",
+  "id": "A393930",
+  "mentions": [
+    "A089918",
+    "A293860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

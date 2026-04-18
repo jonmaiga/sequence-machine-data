@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n = x + y, sigma_1(n) = sigma_1(x) + sigma_1(y) and sigma_2(n) = sigma_2(x) + sigma_2(y).",
+  "description": "Numbers k such that k = x + y, sigma_1(k) = sigma_1(x) + sigma_1(y) and sigma_2(k) = sigma_2(x) + sigma_2(y).",
   "id": "A219033",
   "mentions": [
     "A000203",

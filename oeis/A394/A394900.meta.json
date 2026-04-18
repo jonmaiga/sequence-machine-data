@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the positive real root of 6*x^3 - 6*x^2 - 3*x - 2 = 0.",
+  "id": "A394900",
+  "mentions": [
+    "A355293",
+    "A394899"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

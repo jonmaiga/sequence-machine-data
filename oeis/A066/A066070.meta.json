@@ -2,7 +2,8 @@
   "description": "a(1) = 1; for m > 0, a(2m) = 2(2m+1), a(2m+1) = 2m+1.",
   "id": "A066070",
   "mentions": [
-    "A066069"
+    "A066069",
+    "A350877"
   ],
   "tags": [
     "easy",

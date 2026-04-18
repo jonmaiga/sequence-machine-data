@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of heapable permutations of length n with exactly k-1 123 patterns.",
+  "description": "Triangle read by rows: T(n,k) = number of heapable permutations of length n with exactly k 123 patterns.",
   "id": "A390832",
   "mentions": [
     "A336282",
@@ -12,8 +12,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 77,
+    "offset": 0,
+    "size": 78,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "The number of tiles composed of n equilateral squares and triangles.",
+  "id": "A390142",
+  "mentions": [
+    "A000105",
+    "A000577",
+    "A390999"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

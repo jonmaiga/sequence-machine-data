@@ -1,0 +1,16 @@
+{
+  "description": "Number of vertically centered alternating sign matrices of size 2*n+1.",
+  "id": "A390341",
+  "mentions": [
+    "A005130",
+    "A005156"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

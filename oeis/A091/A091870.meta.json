@@ -2,7 +2,9 @@
   "description": "A trinomial transform of Fibonacci(3n).",
   "id": "A091870",
   "mentions": [
+    "A000045",
     "A001076",
+    "A014445",
     "A084326"
   ],
   "tags": [
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

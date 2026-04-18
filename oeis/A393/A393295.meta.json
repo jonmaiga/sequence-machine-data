@@ -1,0 +1,18 @@
+{
+  "description": "Number of transitive relations on an n-set with at most three ordered pairs.",
+  "id": "A393295",
+  "mentions": [
+    "A349919",
+    "A393238"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

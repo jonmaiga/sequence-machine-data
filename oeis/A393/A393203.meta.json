@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/2)*(prime(n + 2)^2 - prime(n + 1)*prime(n)).",
+  "id": "A393203",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006094",
+    "A046868",
+    "A056221",
+    "A393202"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 49,
+    "source": "joeis"
+  }
+}

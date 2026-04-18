@@ -1,0 +1,16 @@
+{
+  "description": "Maximum difference between b^c and c^b, where b,c are natural numbers such that b*c=n.",
+  "id": "A393226",
+  "mentions": [
+    "A027750"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -2,9 +2,9 @@
   "description": "Number of partitions of n in which the sequence of frequencies of the summands is nonincreasing.",
   "id": "A100882",
   "mentions": [
+    "A100471",
     "A100881",
-    "A100883",
-    "A100884"
+    "A100883"
   ],
   "tags": [
     "nonn"

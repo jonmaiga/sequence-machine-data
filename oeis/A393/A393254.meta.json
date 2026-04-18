@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that both n! + k and n! + k + 2 are primes.",
+  "id": "A393254",
+  "mentions": [
+    "A033932",
+    "A037153"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

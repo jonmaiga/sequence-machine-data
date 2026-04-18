@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m with divisor 16 | m and abundance sigma(m)-2*m = 16.",
+  "description": "Numbers m divisible by 16 and with abundance sigma(m)-2*m = 16.",
   "id": "A181599",
   "mentions": [
     "A000396",
@@ -22,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

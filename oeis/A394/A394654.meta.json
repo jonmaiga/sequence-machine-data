@@ -1,0 +1,17 @@
+{
+  "description": "Size of the exact model for the diagram of the fragment [&, ->]^n of the intuitionistic propositional logic (see A393669).",
+  "id": "A394654",
+  "mentions": [
+    "A393669"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

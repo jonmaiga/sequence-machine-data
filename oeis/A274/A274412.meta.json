@@ -2,6 +2,8 @@
   "description": "Decimal expansion of V_1, a Quantum Field Theory constant related to the coloring of the tetrahedron with one mass.",
   "id": "A274412",
   "mentions": [
+    "A002117",
+    "A013662",
     "A274413",
     "A274414",
     "A274415",

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 7*2^n - 3.",
   "id": "A156127",
-  "mentions": [],
+  "mentions": [
+    "A000225"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

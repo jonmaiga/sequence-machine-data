@@ -1,0 +1,26 @@
+{
+  "description": "Rectangular array, read by ascending antidiagonals, where the n-th row o.g.f. R(n,x) satisfies: [x^m] exp( m^2*(m + n)*x - m*R(n,x) ) = 0 for m >= 1, n >= 0.",
+  "id": "A393760",
+  "mentions": [
+    "A226750",
+    "A317344",
+    "A317347",
+    "A393761",
+    "A393762",
+    "A393763",
+    "A393764",
+    "A393765",
+    "A393766",
+    "A393767",
+    "A393768"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

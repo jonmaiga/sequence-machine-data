@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1 / ((1-x)^5 - x^6).",
+  "id": "A390045",
+  "mentions": [
+    "A049016",
+    "A390044"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

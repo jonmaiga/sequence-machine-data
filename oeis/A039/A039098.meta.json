@@ -2,7 +2,16 @@
   "description": "Numbers whose base-9 representation has the same number of 3's and 5's.",
   "id": "A039098",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039081",
+    "A039087",
+    "A039093",
+    "A039097",
+    "A039099",
+    "A039100",
+    "A039101",
+    "A039102",
+    "A039379"
   ],
   "tags": [
     "base",
@@ -12,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

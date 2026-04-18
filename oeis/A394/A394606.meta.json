@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the median of the distribution of distances between two points in a unit disk.",
+  "id": "A394606",
+  "mentions": [
+    "A093070",
+    "A102519",
+    "A394605",
+    "A394608"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

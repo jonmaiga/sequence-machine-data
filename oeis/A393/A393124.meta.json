@@ -1,0 +1,22 @@
+{
+  "description": "The smallest non-palindromic number greater than n whose digit reversals in base n and base n+1, when read as a number in those bases, are equal.",
+  "id": "A393124",
+  "mentions": [
+    "A004086",
+    "A029742",
+    "A048268",
+    "A393720",
+    "A393721",
+    "A393902",
+    "A393903"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

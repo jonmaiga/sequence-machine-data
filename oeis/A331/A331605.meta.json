@@ -2,14 +2,16 @@
   "description": "Positive integers k such that k = (a^2 + b^2 + c^2)/(a*b + b*c + c*a) for some integers a, b and c.",
   "id": "A331605",
   "mentions": [
-    "A003136"
+    "A003136",
+    "A392201"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

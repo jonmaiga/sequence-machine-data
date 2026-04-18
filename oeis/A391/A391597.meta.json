@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of quadratic polynomials with coefficients in {-n, ..., n}, positive leading coefficient, and having two integer roots.",
+  "id": "A391597",
+  "mentions": [
+    "A006218",
+    "A013936",
+    "A061201",
+    "A067274",
+    "A391108",
+    "A391527",
+    "A392944"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

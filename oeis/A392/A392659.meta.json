@@ -1,0 +1,20 @@
+{
+  "description": "Indices of the upper Wythoff partition sequence of the squares; see A392656.",
+  "id": "A392659",
+  "mentions": [
+    "A000027",
+    "A392119",
+    "A392656",
+    "A392657",
+    "A392658"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -6,11 +6,12 @@
     "A386975"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

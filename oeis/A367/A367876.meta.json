@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. exp(x * (2 - exp(x))).",
   "id": "A367876",
   "mentions": [
+    "A133399",
     "A367874",
     "A367877"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

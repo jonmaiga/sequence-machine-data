@@ -2,6 +2,7 @@
   "description": "Sum of even-indexed divisors of n.",
   "id": "A086989",
   "mentions": [
+    "A000203",
     "A086988"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

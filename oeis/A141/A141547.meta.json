@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n whose abundance is 16.",
+  "description": "Numbers whose abundance is 16.",
   "id": "A141547",
   "mentions": [
+    "A059611",
     "A125248"
   ],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest sum of n powers, where all bases and exponents are different primes.",
+  "id": "A392412",
+  "mentions": [
+    "A053810"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

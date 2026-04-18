@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n >= 0 such that n^3-n-1 is not prime.",
+  "description": "Numbers k >= 0 such that k^3-k-1 is not prime.",
   "id": "A177089",
   "mentions": [
     "A126421"

@@ -1,0 +1,26 @@
+{
+  "description": "O.g.f. A(x) satisfies [x^n] exp( n^7*x - n*A(x) ) = 0 for n >= 1.",
+  "id": "A393871",
+  "mentions": [
+    "A317344",
+    "A317347",
+    "A319941",
+    "A319944",
+    "A393861",
+    "A393872",
+    "A393873",
+    "A393874",
+    "A393875",
+    "A393876",
+    "A393881"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

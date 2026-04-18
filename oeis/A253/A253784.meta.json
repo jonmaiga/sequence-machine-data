@@ -1,14 +1,19 @@
 {
-  "description": "Numbers which have no two successive prime factors (when sorted into monotonic order) where the latter prime factor would be greater than the square of the former.",
+  "description": "Numbers which have no two successive prime factors (when sorted into nondecreasing order) where the latter prime factor is greater than the square of the former.",
   "id": "A253784",
   "mentions": [
     "A000290",
+    "A000961",
+    "A008578",
     "A251726",
     "A251728",
     "A253567",
-    "A253785"
+    "A253785",
+    "A379271",
+    "A380995"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

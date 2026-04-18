@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers with canonical prime factorization Product_{i=1..m} p_i^(p_i - p_{i-1}), where p_0 = 1.",
+  "id": "A392195",
+  "mentions": [
+    "A001222",
+    "A006530",
+    "A390784",
+    "A392819"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

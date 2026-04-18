@@ -1,0 +1,29 @@
+{
+  "description": "Largest prime(n)-smooth k < primorial(n+1), where primorial = A002110.",
+  "id": "A394580",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A002473",
+    "A003586",
+    "A006530",
+    "A007947",
+    "A051037",
+    "A051038",
+    "A061720",
+    "A080197",
+    "A080681",
+    "A080682",
+    "A080683"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

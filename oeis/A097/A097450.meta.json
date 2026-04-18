@@ -1,8 +1,13 @@
 {
   "description": "If n is square, replace with the sqrt(n)-th prime.",
   "id": "A097450",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A097448"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

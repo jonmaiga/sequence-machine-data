@@ -1,0 +1,19 @@
+{
+  "description": "The smallest number k > 1 such that the total number of its distinct prime factors equals that of the digit reversals of k when it is written in all bases 2 to n.",
+  "id": "A393263",
+  "mentions": [
+    "A001221",
+    "A393176",
+    "A393264"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

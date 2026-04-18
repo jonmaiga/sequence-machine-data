@@ -10,12 +10,13 @@
     "A364661"
   ],
   "tags": [
+    "formulas",
     "frac",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

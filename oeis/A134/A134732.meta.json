@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of first n members of the Padovan sequence A000931, starting at (1, 1, 1, 2,).",
+  "description": "Concatenation of first n members of the Padovan sequence A000931, starting at (1, 1, 1, 2).",
   "id": "A134732",
   "mentions": [
     "A000931",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

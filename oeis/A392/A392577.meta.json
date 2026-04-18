@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n > 1, a(n) = a(n-1) - A056240(n) if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + A056240(n), where A056240(n) is the smallest number whose prime divisors, counted with multiplicity, sum to n.",
+  "id": "A392577",
+  "mentions": [
+    "A005132",
+    "A056240"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} binomial(k+1,2*n-8*k+1).",
+  "id": "A392491",
+  "mentions": [
+    "A005314",
+    "A390662",
+    "A390688",
+    "A392489",
+    "A392490"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

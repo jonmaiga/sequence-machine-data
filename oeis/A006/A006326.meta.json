@@ -1,12 +1,15 @@
 {
-  "description": "Total preorders.",
+  "description": "Number of total preorders on a n-set.",
   "id": "A006326",
   "mentions": [
     "A000111",
     "A019538",
-    "A079502"
+    "A050446",
+    "A079502",
+    "A205497"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

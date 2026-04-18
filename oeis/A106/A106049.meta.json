@@ -1,11 +1,10 @@
 {
-  "description": "Silver dragon four-symbol substitution: characteristic polynomial:x^4-2x^3+x^2-4.",
+  "description": "Triangle read by rows, based on the morphism f: 1->212, 2->3, 3->434, 4->1.",
   "id": "A106049",
   "mentions": [],
   "tags": [
-    "formulas",
     "nonn",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "offset": 0,

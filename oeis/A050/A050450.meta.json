@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{d|n, d=1 mod 4} d^2.",
+  "description": "a(n) = Sum_{d|n, d=1 mod 4} d^2.",
   "id": "A050450",
   "mentions": [
     "A027750",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
+    "size": 65,
     "source": "oeis-bfile"
   }
 }

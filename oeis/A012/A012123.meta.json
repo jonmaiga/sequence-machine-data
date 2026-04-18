@@ -1,10 +1,13 @@
 {
-  "description": "E.g.f.: exp(arcsin(tanh(x))).",
+  "description": "Expansion of e.g.f. exp(arcsin(tanh(x))).",
   "id": "A012123",
   "mentions": [
-    "A147309"
+    "A000364",
+    "A147309",
+    "A281181"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

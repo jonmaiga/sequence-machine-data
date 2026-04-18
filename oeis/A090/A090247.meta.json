@@ -2,8 +2,6 @@
   "description": "a(n) = 26*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 26.",
   "id": "A090247",
   "mentions": [
-    "A019586",
-    "A032000",
     "A097308"
   ],
   "tags": [

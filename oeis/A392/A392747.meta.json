@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Stirling2(n+3*k,2*k).",
+  "id": "A392747",
+  "mentions": [
+    "A226775",
+    "A229286",
+    "A392726",
+    "A392734"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

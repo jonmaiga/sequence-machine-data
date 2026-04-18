@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number k such that log_b(k) - floor(log_b(k)) >= 1/2 for b = 2..n, and not for b = n+1.",
+  "id": "A392007",
+  "mentions": [
+    "A002163",
+    "A002193",
+    "A002194",
+    "A010464",
+    "A020857",
+    "A153459"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

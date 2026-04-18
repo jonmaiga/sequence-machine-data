@@ -2,7 +2,8 @@
   "description": "Primes preceded and followed by gaps whose quotient (value greater or equal to 1) is less than 2.",
   "id": "A384603",
   "mentions": [
-    "A383215"
+    "A383215",
+    "A384618"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

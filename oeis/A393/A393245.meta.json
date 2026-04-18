@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} binomial(2*k,k) * binomial(n,4*k).",
+  "id": "A393245",
+  "mentions": [
+    "A002426",
+    "A026375",
+    "A098482",
+    "A383355",
+    "A393244",
+    "A393246"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

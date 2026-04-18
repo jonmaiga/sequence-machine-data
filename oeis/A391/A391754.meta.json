@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = number of solutions involving 3 smaller numbers {i,j,k} that each exceed 0 such that i*n^2 + j*n + k, j*n^2 + k*n + i, and k*n^2 + i*n + j are distinct and have the same squarefree kernel.",
+  "id": "A391754",
+  "mentions": [
+    "A007947",
+    "A391704"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "Decimal expansion of 1 minus the Copeland-Erdos constant.",
+  "description": "Decimal expansion of 1 minus the Copeland-Erdős constant.",
   "id": "A154730",
   "mentions": [
     "A033308"
   ],
   "tags": [
+    "base",
     "cons",
     "nonn"
   ],

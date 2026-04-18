@@ -1,0 +1,18 @@
+{
+  "description": "Number of alpha-labelings of trees on n vertices.",
+  "id": "A392797",
+  "mentions": [
+    "A005193",
+    "A033472"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

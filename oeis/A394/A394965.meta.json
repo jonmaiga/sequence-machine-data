@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Pi^3/360.",
+  "id": "A394965",
+  "mentions": [
+    "A091925",
+    "A394964"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

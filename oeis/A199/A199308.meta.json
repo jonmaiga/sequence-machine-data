@@ -1,5 +1,5 @@
 {
-  "description": "(7*5^n+1)/4.",
+  "description": "a(n) = (7*5^n+1)/4.",
   "id": "A199308",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

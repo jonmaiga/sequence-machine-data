@@ -1,0 +1,19 @@
+{
+  "description": "Number of positions of the 15-puzzle at a distance of n multi-tile moves from an initial state with the empty square in one of the corners.",
+  "id": "A389728",
+  "mentions": [
+    "A089484",
+    "A264040"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

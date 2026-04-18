@@ -1,0 +1,17 @@
+{
+  "description": "Array listed by rows: Pythagorean triples a < b < c such that a + b and a + b + 2*c are prime, sorted first by increasing perimeter and then by the even term.",
+  "id": "A392100",
+  "mentions": [
+    "A103605",
+    "A103606"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

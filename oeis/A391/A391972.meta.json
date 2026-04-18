@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 if n=1 or a(n-1) is prime; a(n) = a(n-1) + i otherwise, where i = n - r and r is the number of occurrences of 1 among terms a(1) to a(n-1).",
+  "id": "A391972",
+  "mentions": [
+    "A087128",
+    "A393386",
+    "A393398"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

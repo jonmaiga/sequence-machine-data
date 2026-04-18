@@ -1,0 +1,19 @@
+{
+  "description": "Number of plane partitions of n with 4 parts.",
+  "id": "A393692",
+  "mentions": [
+    "A000219",
+    "A091298",
+    "A392995"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 49,
+    "source": "joeis"
+  }
+}

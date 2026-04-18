@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n = concat(s,t) such that s and t divide n.",
+  "description": "Numbers k = concat(s,t) such that s and t divide k.",
   "id": "A249766",
   "mentions": [
     "A038770",
-    "A139138"
+    "A139138",
+    "A392961"
   ],
   "tags": [
     "base",

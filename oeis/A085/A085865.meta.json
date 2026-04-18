@@ -2,6 +2,7 @@
   "description": "a(1) = 2, a(n+1) = a(n)*{sigma(a(n))}, where sigma(n) is the sum of the divisors function.",
   "id": "A085865",
   "mentions": [
+    "A000203",
     "A064491",
     "A081973",
     "A085864"

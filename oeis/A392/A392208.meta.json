@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A'(x) = exp( A(x)*A'(x)^3 ).",
+  "id": "A392208",
+  "mentions": [
+    "A214654",
+    "A392206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

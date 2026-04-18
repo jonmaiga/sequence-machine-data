@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the maximum value p>0, such that (cos(sin(x)))^p >= sin(cos(x)), x in (0,Pi/2).",
+  "description": "Decimal expansion of the maximum value p > 0, such that (cos(sin(x)))^p >= sin(cos(x)), x in (0,Pi/2).",
   "id": "A215833",
   "mentions": [
     "A168546",

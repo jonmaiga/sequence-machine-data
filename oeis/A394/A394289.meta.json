@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the asymptotic probability that the p-adic valuations of two positive integers selected independently at random are coprime for every prime p dividing both integers.",
+  "id": "A394289",
+  "mentions": [
+    "A008683",
+    "A049599",
+    "A256936"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

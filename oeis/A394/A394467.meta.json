@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the average reciprocal of Euclidean distance between two randomly chosen points, one of which is located in a unit cube and the other in an adjacent unit cube, with the two cubes sharing a common face.",
+  "id": "A394467",
+  "mentions": [
+    "A242588",
+    "A336274",
+    "A353407",
+    "A392512",
+    "A394468",
+    "A394469"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Prime generating polynomial: a(n) = 32502 n^2 - 1727988 n + 24009847.",
+  "id": "A392928",
+  "mentions": [
+    "A005846"
+  ],
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

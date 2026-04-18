@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number with exactly n prime factors, counted with multiplicity, that is the concatenation of x, 1, and x for some x.",
+  "id": "A392239",
+  "mentions": [
+    "A001222",
+    "A392225",
+    "A392226",
+    "A392227"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

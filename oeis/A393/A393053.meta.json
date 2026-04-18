@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors d of n such that d and A276086(n) are coprime, where A276086 is the primorial base exp-function.",
+  "id": "A393053",
+  "mentions": [
+    "A000005",
+    "A276086",
+    "A393051",
+    "A393054"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

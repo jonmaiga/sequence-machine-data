@@ -1,17 +1,19 @@
 {
-  "description": "Numbers n such that r(k) * 2^n + 1 is prime, where r() = A002275 the repunits and k is the number of decimal digits of 2^n.",
+  "description": "Numbers k such that R(d) * 2^k + 1 is prime, where R() = A002275 and d is the number of decimal digits of 2^k.",
   "id": "A095306",
   "mentions": [
-    "A002275"
+    "A002275",
+    "A095967"
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

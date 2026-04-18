@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sin(1/4).",
+  "id": "A393783",
+  "mentions": [
+    "A161013",
+    "A201505",
+    "A393782"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 117,
+    "source": "joeis"
+  }
+}

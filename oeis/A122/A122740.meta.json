@@ -1,8 +1,13 @@
 {
-  "description": "Numbers of perifusenes with one internal vertex (see Cyvin et al. for precise definition).",
+  "description": "Numbers of benzenoids with one internal vertex made of n hexagons.",
   "id": "A122740",
-  "mentions": [],
+  "mentions": [
+    "A018190",
+    "A038142"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

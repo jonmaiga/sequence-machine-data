@@ -1,0 +1,18 @@
+{
+  "description": "Start with the list of positive integers 1,2,3,... . After each integer k, insert k empty positions. Fill these positions, from left to right, with the positive integers in order. Repeat this spacing-and-filling process indefinitely. The sequence consists of the positions of the last occurrence of 1 after each step.",
+  "id": "A391868",
+  "mentions": [
+    "A000217",
+    "A006893",
+    "A007501"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

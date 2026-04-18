@@ -1,0 +1,21 @@
+{
+  "description": "Number of words of length 3n formed with 3 types of letter where the number of each type == 0 (mod 3).",
+  "id": "A391468",
+  "mentions": [
+    "A007613",
+    "A013733",
+    "A054879",
+    "A391469",
+    "A391470"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

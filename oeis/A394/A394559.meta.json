@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: inverse transform relative to set partitions into 3-tori (see A393519).",
+  "id": "A394559",
+  "mentions": [
+    "A007425",
+    "A045943",
+    "A048993",
+    "A059297",
+    "A393519",
+    "A394560",
+    "A394595"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

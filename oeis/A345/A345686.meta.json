@@ -2,6 +2,7 @@
   "description": "a(n) = n! * Sum_{k=1..n} n/floor(n/k)^2.",
   "id": "A345686",
   "mentions": [
+    "A249649",
     "A345683"
   ],
   "tags": [

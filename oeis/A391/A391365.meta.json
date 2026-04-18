@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) = reverse(n*k) = A004086(n*k).",
+  "id": "A391365",
+  "mentions": [
+    "A002942",
+    "A003991",
+    "A004086",
+    "A004093",
+    "A059692",
+    "A110749",
+    "A248423",
+    "A336225",
+    "A353109"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

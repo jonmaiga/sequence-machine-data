@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: starting with A128174, replace left border with (1, 1, 1, ...).",
   "id": "A135839",
   "mentions": [
+    "A071022",
     "A128174"
   ],
   "tags": [

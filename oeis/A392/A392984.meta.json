@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (A_0 - A_2)/p where p is the n-th prime == 5 (mod 8) with p >= 13, A_0 is the sum of quartic residues mod p, and A_2 is the sum of quadratic-non-quartic residues mod p.",
+  "id": "A392984",
+  "mentions": [
+    "A002143",
+    "A002144",
+    "A007521"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 80,
+    "source": "joeis"
+  }
+}

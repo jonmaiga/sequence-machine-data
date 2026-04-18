@@ -2,14 +2,16 @@
   "description": "a(n) = Sum_{1<=k<=n, gcd(k,n)=1} Fibonacci(k).",
   "id": "A070964",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A119737"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

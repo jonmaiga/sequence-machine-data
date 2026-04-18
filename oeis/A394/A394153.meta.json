@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies (1-x)*A(x)^4+(5x-2)*A(x)^3+(1-5x)*A(x)^2+x^2*A(x)-x^2=0.",
+  "id": "A394153",
+  "mentions": [
+    "A394154",
+    "A394155"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,18 +1,17 @@
 {
-  "description": "Asymmetrical triangle sequence:t(n,m)=(-1)^m* Binomial[n, m] Pochhammer[ -n, m] - (-1)^n Pochhammer[ -n, n] + (-1)^( n - m)* Binomial[n, -m + n] Pochhammer[ -n, -m + n].",
+  "description": "Triangle read by rows: T(n,k) = (-1)^k * binomial(n,k) * pochhammer(-n,k) + (-1)^(n-k) * binomial(n,n-k) * pochhammer(-n,n-k) - n!.",
   "id": "A176063",
   "mentions": [
     "A021010"
   ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 49,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "joeis"
   }
 }

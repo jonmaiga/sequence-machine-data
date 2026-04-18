@@ -1,0 +1,15 @@
+{
+  "description": "Dimension of the random-to-random subalgebra of the n-th symmetric group algebra.",
+  "id": "A393539",
+  "mentions": [
+    "A000712"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

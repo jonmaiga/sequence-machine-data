@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(2*n/9)} binomial(2*n-7*k,2*k).",
+  "id": "A392399",
+  "mentions": [
+    "A099098",
+    "A108479",
+    "A375279",
+    "A375282",
+    "A375284",
+    "A391541",
+    "A392398"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

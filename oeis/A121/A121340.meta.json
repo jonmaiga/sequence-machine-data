@@ -1,16 +1,18 @@
 {
-  "description": "List of triples {1^(2^k), 2^(2^k), 3^(2^k)} for k>0.",
+  "description": "List of triples {1^(2^n), 2^(2^n), 3^(2^n)} for n >= 0.",
   "id": "A121340",
   "mentions": [
     "A000012",
     "A001146",
-    "A011764"
+    "A011764",
+    "A097547"
   ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 24,
     "source": "oeis-entry"
   }

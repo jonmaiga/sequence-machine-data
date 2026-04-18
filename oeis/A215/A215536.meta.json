@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that 87^n - 86^n is prime.",
+  "description": "Numbers k such that 87^k - 86^k is prime.",
   "id": "A215536",
   "mentions": [],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

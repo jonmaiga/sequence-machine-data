@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows; integers with identical sigma values occurring at least twice, rows ordered by their smallest term.",
+  "id": "A393812",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A007609",
+    "A066075",
+    "A206036",
+    "A211656",
+    "A392774"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

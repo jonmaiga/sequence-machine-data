@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-5x)/(1-8x+4x^2).",
+  "description": "Expansion of (1-5*x)/(1-8*x+4*x^2).",
   "id": "A154627",
   "mentions": [
     "A081671"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

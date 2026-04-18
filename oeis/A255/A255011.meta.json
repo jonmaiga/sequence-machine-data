@@ -1,5 +1,5 @@
 {
-  "description": "Number of polygons formed by connecting all the 4n points on the perimeter of an n X n square by straight lines; a(0) = 0 by convention.",
+  "description": "Number of cells formed by connecting all the 4n points on the perimeter of an n X n square by straight lines; a(0) = 0 by convention.",
   "id": "A255011",
   "mentions": [
     "A006533",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [r]*[2r]*...[nr], where r=sqrt(2) and []=floor.",
+  "description": "a(n) = [r]*[2*r]*...*[n*r], where r=sqrt(2) and []=floor.",
   "id": "A180736",
   "mentions": [
     "A001951",

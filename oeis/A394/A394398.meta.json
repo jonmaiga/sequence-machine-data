@@ -1,0 +1,17 @@
+{
+  "description": "Number of integers k, 1<= k < n, such that n|(k^2-1) and k|n^2-1.",
+  "id": "A394398",
+  "mentions": [
+    "A060594",
+    "A129296"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

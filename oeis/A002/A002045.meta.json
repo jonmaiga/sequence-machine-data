@@ -1,15 +1,18 @@
 {
-  "description": "Solid partitions.",
+  "description": "MacMahon's solid partitions of n in which 4 is the smallest summand.",
   "id": "A002045",
   "mentions": [
-    "A000294"
+    "A000294",
+    "A002043",
+    "A002044"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 4,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "joeis"
   }
 }

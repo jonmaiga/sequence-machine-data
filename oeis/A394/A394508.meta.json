@@ -1,0 +1,25 @@
+{
+  "description": "Write the primes in a column. Add new columns to the right, with each entry being the prime whose index is the entry to its left. The sequence a(n) is given by the antidiagonal sums.",
+  "id": "A394508",
+  "mentions": [
+    "A007097",
+    "A057450",
+    "A057451",
+    "A057452",
+    "A057453",
+    "A057456",
+    "A057457",
+    "A377173",
+    "A394678"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

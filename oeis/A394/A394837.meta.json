@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the mean distance between two points chosen independently and uniformly at random from the interior of a unit square, one from each of the two sides of a given diagonal.",
+  "id": "A394837",
+  "mentions": [
+    "A091505",
+    "A091648",
+    "A093063"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

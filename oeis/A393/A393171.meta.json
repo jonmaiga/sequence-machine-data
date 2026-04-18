@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = x + A(C(x))^2, where C(x) = x + C(x)^2 is a g.f. of the Catalan numbers (A000108).",
+  "id": "A393171",
+  "mentions": [
+    "A000108",
+    "A393172"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

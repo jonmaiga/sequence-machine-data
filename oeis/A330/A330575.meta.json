@@ -2,6 +2,7 @@
   "description": "a(n) = n + Sum_{d|n and d1; a(1) = 1.",
   "id": "A330575",
   "mentions": [
+    "A000203",
     "A067824",
     "A074206",
     "A191161",

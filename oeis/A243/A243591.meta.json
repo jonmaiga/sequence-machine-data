@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that floor((3/2)^n)-floor((3/2)^(n-1)) is a prime number.",
+  "description": "Numbers k such that floor((3/2)^k)-floor((3/2)^(k-1)) is a prime number.",
   "id": "A243591",
   "mentions": [
     "A242734",

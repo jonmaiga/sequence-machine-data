@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-4x)/((1-5x)(1-6x)).",
+  "description": "Expansion of (1-4*x)/((1-5*x)*(1-6*x)).",
   "id": "A085352",
   "mentions": [
     "A085351",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

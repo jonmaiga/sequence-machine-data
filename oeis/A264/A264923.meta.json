@@ -1,9 +1,10 @@
 {
-  "description": "G.f.: 1 / Product_{n>=0} (1 - x^(n+3))^((n+1)*(n+2)/2!).",
+  "description": "Expansion of g.f. 1 / Product_{n>=0} (1 - x^(n+3))^((n+1)*(n+2)/2!).",
   "id": "A264923",
   "mentions": [
     "A000294",
     "A052847",
+    "A161680",
     "A217093",
     "A258349",
     "A264924",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Cayley permutations of size n avoiding 123 and 321.",
+  "id": "A393341",
+  "mentions": [
+    "A007583",
+    "A393343",
+    "A393344"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

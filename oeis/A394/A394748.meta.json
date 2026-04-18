@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the hafnian of the 2n X 2n symmetric matrix defined by M[i, j] = C(n, (j-i) mod n).",
+  "id": "A394748",
+  "mentions": [
+    "A048954",
+    "A357279",
+    "A393597"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

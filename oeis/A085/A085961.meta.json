@@ -1,10 +1,11 @@
 {
-  "description": "Sigma of the least numbers k for which sigma is divisible by k (where sigma is the sum of the divisors of k, A000203(k)).",
+  "description": "Sigma of the least number for which sigma is divisible by n (where sigma is the sum of the divisors of n, A000203(n)).",
   "id": "A085961",
   "mentions": [
     "A000203",
     "A066678",
-    "A070982"
+    "A070982",
+    "A239578"
   ],
   "tags": [
     "formulas",

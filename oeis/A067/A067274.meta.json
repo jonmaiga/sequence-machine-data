@@ -2,6 +2,7 @@
   "description": "Number of ordered integer pairs (b,c), with -n<=b<=n, -n<=c<=n, such that both roots of x^2+bx+c=0 are integers.",
   "id": "A067274",
   "mentions": [
+    "A006218",
     "A010052"
   ],
   "tags": [

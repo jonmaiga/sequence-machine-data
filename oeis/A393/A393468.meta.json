@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimal dominating sets in the n-necklace graph.",
+  "id": "A393468",
+  "mentions": [
+    "A392478",
+    "A393349"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

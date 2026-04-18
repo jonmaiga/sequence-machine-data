@@ -1,7 +1,10 @@
 {
-  "description": "E.g.f. sqrt(1-t^2)*exp(t*(1+arctanh(t))).",
+  "description": "Expansion of e.g.f. sqrt(1-x^2) * exp(x*(1+arctanh(x))).",
   "id": "A255432",
-  "mentions": [],
+  "mentions": [
+    "A211393",
+    "A394727"
+  ],
   "tags": [
     "formulas",
     "nonn"

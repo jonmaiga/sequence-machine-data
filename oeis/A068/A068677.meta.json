@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that yield a prime when a 7 is prefixed or suffixed to them.",
+  "description": "Numbers that yield primes when a 7 is prefixed or suffixed to them.",
   "id": "A068677",
   "mentions": [
     "A068673",

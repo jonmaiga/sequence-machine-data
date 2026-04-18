@@ -1,17 +1,18 @@
 {
-  "description": "Bends of spheres in Soddy's bowl of integers.",
+  "description": "Bends of spheres in Soddy's bowl of integers which are tangent to the unit sphere and a single 2-sphere.",
   "id": "A046160",
   "mentions": [
-    "A046159"
+    "A045506",
+    "A046159",
+    "A049636"
   ],
   "tags": [
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "joeis"
   }
 }

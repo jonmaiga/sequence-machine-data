@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^2 + n + 55661, with n >= 0.",
+  "description": "Primes of the form k^2 + k + 55661, with k >= 0.",
   "id": "A116206",
   "mentions": [
     "A005846"

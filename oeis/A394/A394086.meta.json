@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n where the smallest part divides all others, has multiplicity at most 2, and all larger parts are distinct.",
+  "id": "A394086",
+  "mentions": [
+    "A000009",
+    "A047966",
+    "A083710",
+    "A097986",
+    "A389719"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,11 @@
   "description": "a(n) = Sum_{k=1..phi(n)} k*t(k), where t(k) is the k-th positive integer which is coprime to n and phi(n) is the number of positive integers which are <= n and are coprime to n.",
   "id": "A135324",
   "mentions": [
+    "A000005",
     "A000010",
+    "A001221",
+    "A007947",
+    "A097945",
     "A126572"
   ],
   "tags": [
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

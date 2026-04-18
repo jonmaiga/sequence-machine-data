@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that are coprime to A276085(k), where A276085 is the primorial base log-function.",
+  "id": "A391862",
+  "mentions": [
+    "A276085",
+    "A359794",
+    "A369650",
+    "A373361",
+    "A391863"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest sets of 3 consecutive odd numbers that are primes or pseudoprime (base 2). The initial odd number is listed.",
+  "description": "Smallest sets of 3 consecutive odd numbers that are primes or pseudoprimes (base 2). The initial odd number is listed.",
   "id": "A230808",
   "mentions": [
     "A001567",

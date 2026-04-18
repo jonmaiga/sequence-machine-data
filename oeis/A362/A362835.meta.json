@@ -3,7 +3,10 @@
   "id": "A362835",
   "mentions": [
     "A318615",
-    "A362836"
+    "A357265",
+    "A362836",
+    "A362891",
+    "A391377"
   ],
   "tags": [
     "formulas",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of connected endofunctions on [n] with k preimageless nodes. (n >= 1, 0 <= k < n).",
+  "id": "A386973",
+  "mentions": [
+    "A000169",
+    "A001865",
+    "A036505",
+    "A219859",
+    "A231536",
+    "A350589",
+    "A387632",
+    "A393141"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

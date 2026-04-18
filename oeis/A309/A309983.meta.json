@@ -1,16 +1,22 @@
 {
-  "description": "Numbers n resulting from adding the exponents of 2 associated with the \"1\" terms of their binary representation and subtracting the exponents of 2 associated with the \"0\" terms of their binary representation.",
+  "description": "Numbers resulting from adding the exponents of 2 associated with the \"1\" terms of their binary representation and subtracting the exponents of 2 associated with the \"0\" terms of their binary representation.",
   "id": "A309983",
   "mentions": [
-    "A073642"
+    "A000120",
+    "A029931",
+    "A070939",
+    "A073642",
+    "A392236",
+    "A393336"
   ],
   "tags": [
     "base",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 74,
+    "size": 80,
     "source": "oeis-bfile"
   }
 }

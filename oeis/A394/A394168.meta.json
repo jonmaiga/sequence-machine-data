@@ -1,0 +1,20 @@
+{
+  "description": "Smallest term of A392774 that starts a run of n consecutive terms with identical (tau, sigma).",
+  "id": "A394168",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A054004",
+    "A381925",
+    "A392774",
+    "A393812"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 43,
+    "source": "joeis"
+  }
+}

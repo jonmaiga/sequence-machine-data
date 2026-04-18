@@ -4,15 +4,17 @@
   "mentions": [
     "A070165",
     "A070168",
+    "A078719",
     "A256598"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 61,
+    "size": 81,
     "source": "oeis-entry"
   }
 }

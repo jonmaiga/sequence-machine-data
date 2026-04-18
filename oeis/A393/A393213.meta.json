@@ -1,0 +1,28 @@
+{
+  "description": "Primes and cubes of primes.",
+  "id": "A393213",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A016825",
+    "A030078",
+    "A030514",
+    "A048109",
+    "A049419",
+    "A160097",
+    "A186285",
+    "A274205",
+    "A322791",
+    "A348097",
+    "A356413"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

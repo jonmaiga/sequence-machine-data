@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+8/9)/GAMMA(8/9).",
+  "description": "Ceiling of Gamma(n+8/9)/Gamma(8/9).",
   "id": "A020109",
-  "mentions": [],
+  "mentions": [
+    "A020019",
+    "A020064"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

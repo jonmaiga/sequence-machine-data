@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - x^(2*k^2 - 1)).",
+  "id": "A394243",
+  "mentions": [
+    "A291748",
+    "A393990",
+    "A394244"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

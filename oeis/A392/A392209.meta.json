@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A( x*A(x)^3 + A(x)^5 ) = A(x)^4.",
+  "id": "A392209",
+  "mentions": [
+    "A063021",
+    "A371713",
+    "A371716",
+    "A372526"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

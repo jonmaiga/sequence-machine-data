@@ -2,9 +2,20 @@
   "description": "E.g.f. C(x) satisfies: C(x) = cosh( Integral C(x)^8 dx ).",
   "id": "A281444",
   "mentions": [
-    "A281439"
+    "A281180",
+    "A281181",
+    "A281183",
+    "A281184",
+    "A281427",
+    "A281428",
+    "A281432",
+    "A281433",
+    "A281436",
+    "A281440",
+    "A281443"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * [x^n] exp(-Li_{-2}(x)), where Li_{-2}(x) = x*(1+x)/(1-x)^3 is the polylogarithm of order -2.",
+  "id": "A394551",
+  "mentions": [
+    "A293116",
+    "A318215"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Let P(m,k) = 1-(m-1)*...*(m-k+1)/m^(k-1) be the probability that at least two out of k people share a birthday out of m possible days. Sequence gives values of m for which P(m,k(m)) sets a new maximum, where k(m) = A033810(m)-1 is the largest k such that P(m,k) < 1/2.",
+  "id": "A392223",
+  "mentions": [
+    "A033810",
+    "A072829",
+    "A392222"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "A modified version of Catalan numbers.",
   "id": "A226022",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A025262"
   ],
   "tags": [
     "easy",

@@ -1,13 +1,15 @@
 {
-  "description": "Even pseudoprimes (or primes) to base 2: even n that divide 2^n - 2.",
+  "description": "Even pseudoprimes (or primes) to base 2: even numbers k that divide 2^k - 2.",
   "id": "A006935",
   "mentions": [
     "A015919",
     "A130421",
     "A295740",
-    "A296104"
+    "A296104",
+    "A392813"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

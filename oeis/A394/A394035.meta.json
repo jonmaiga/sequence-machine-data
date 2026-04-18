@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array, read by descending antidiagonals: denominators in the best upper approximating array to the golden ratio, phi (A001622) (see Comments).",
+  "id": "A394035",
+  "mentions": [
+    "A001622",
+    "A001906",
+    "A394033",
+    "A394034",
+    "A394036",
+    "A394037"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

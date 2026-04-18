@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=2*q-prime(n), where q is the prime < p(n) for which (prime(n) mod q) is maximal.",
+  "description": "a(n) = 2*q-prime(n), where q is the prime < prime(n) for which (prime(n) mod q) is maximal.",
   "id": "A039739",
   "mentions": [
     "A039734"

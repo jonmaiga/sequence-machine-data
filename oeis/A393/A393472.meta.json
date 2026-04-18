@@ -1,0 +1,20 @@
+{
+  "description": "Consider the square spiral in the first quadrant, as in A393433, and look at the trajectory of a knight, starting at square n, and always moving to the smallest unvisited square. Sequence gives the number of the last square in the trajectory.",
+  "id": "A393472",
+  "mentions": [
+    "A307422",
+    "A316328",
+    "A316588",
+    "A393433",
+    "A393473"
+  ],
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Number of permutations of [n] with exactly one occurrence of the consecutive pattern 45321.",
   "id": "A264896",
   "mentions": [
+    "A202213",
     "A264781"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

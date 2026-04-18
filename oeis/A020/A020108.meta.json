@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+1/10)/GAMMA(1/10).",
+  "description": "Ceiling of Gamma(n+1/10)/Gamma(1/10).",
   "id": "A020108",
-  "mentions": [],
+  "mentions": [
+    "A020018",
+    "A020063"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "(5n+2)^3.",
+  "description": "a(n) = (5n+2)^3.",
   "id": "A016875",
   "mentions": [],
   "tags": [

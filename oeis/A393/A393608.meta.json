@@ -1,0 +1,16 @@
+{
+  "description": "Rectangular array R read by descending antidiagonals: R(n,k) = prime(k) mod n, for n>=2.",
+  "id": "A393608",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "joeis"
+  }
+}

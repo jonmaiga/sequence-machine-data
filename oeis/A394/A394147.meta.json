@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) satisfies 3*A(x)^3+(6x-2)*A(x)^2+x*A(x)+x^2=0.",
+  "id": "A394147",
+  "mentions": [
+    "A394146"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

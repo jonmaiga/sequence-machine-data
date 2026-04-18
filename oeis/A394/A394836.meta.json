@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the probability that three points selected uniformly and independently at random one on each of the three sides of an equilateral triangle form an acute triangle.",
+  "id": "A394836",
+  "mentions": [
+    "A083679",
+    "A387235",
+    "A394107"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

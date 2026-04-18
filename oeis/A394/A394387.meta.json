@@ -1,0 +1,23 @@
+{
+  "description": "Squares visited by a (1,2)-darter moving on a square-spiral numbered board, starting from square 1, always moving to the lowest available unvisited square that can be reached without crossing a square that has been previously visited.",
+  "id": "A394387",
+  "mentions": [
+    "A316667",
+    "A336208",
+    "A383185",
+    "A394363",
+    "A394388",
+    "A394389"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

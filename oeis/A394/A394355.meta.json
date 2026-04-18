@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator p of the prime-fraction p/q that most closely approximates m/n as in A394354.",
+  "id": "A394355",
+  "mentions": [
+    "A000040",
+    "A385925",
+    "A385926",
+    "A385927",
+    "A394354",
+    "A394356"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 74,
+    "source": "joeis"
+  }
+}

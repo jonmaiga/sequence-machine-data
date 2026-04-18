@@ -2,6 +2,7 @@
   "description": "y-values in the solution to x^2 - 39*y^2 = 1.",
   "id": "A174776",
   "mentions": [
+    "A004296",
     "A174751"
   ],
   "tags": [

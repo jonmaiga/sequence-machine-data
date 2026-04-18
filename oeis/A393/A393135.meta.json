@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x * A(-x)^2 / (1 - x).",
+  "id": "A393135",
+  "mentions": [
+    "A001006",
+    "A002212",
+    "A007440",
+    "A090192",
+    "A108623",
+    "A108624",
+    "A143045",
+    "A371888"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

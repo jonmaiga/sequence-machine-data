@@ -2,6 +2,7 @@
   "description": "Integer reached in A085058.",
   "id": "A085060",
   "mentions": [
+    "A020857",
     "A085058",
     "A085062"
   ],

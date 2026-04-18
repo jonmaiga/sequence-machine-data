@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the average dimensionless pairwise Manhattan distance between all points in a city minimizing this distance as a function of d for a symmetric boundary given by w(x) = +-(2 - |x|^d)^(1/d), |x| <= 2^(1/d).",
+  "id": "A393501",
+  "mentions": [
+    "A193452",
+    "A393499",
+    "A393500"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

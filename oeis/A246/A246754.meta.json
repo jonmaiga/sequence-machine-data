@@ -1,7 +1,10 @@
 {
   "description": "Least positive number k such that k^k is at least 10^n digits long.",
   "id": "A246754",
-  "mentions": [],
+  "mentions": [
+    "A000312",
+    "A011557"
+  ],
   "tags": [
     "base",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

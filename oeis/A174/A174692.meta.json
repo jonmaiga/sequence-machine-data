@@ -1,16 +1,17 @@
 {
-  "description": "A symmetrical triangle sequence: t(n,m)=n!*Eulerian[n + 1, m]^2 - n! + 1.",
+  "description": "Triangle read by rows: T(n,k) = n! * Eulerian(n + 1, k)^2 - k! + 1.",
   "id": "A174692",
-  "mentions": [],
+  "mentions": [
+    "A173018"
+  ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 36,
     "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "A variant of Sierpinski carpet, read by antidiagonals.",
+  "id": "A393834",
+  "mentions": [
+    "A001019",
+    "A081190",
+    "A153490"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

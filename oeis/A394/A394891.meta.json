@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A143293(k) has no factor of the form p^p, where A143293 is the partial sums of the primorial numbers.",
+  "id": "A394891",
+  "mentions": [
+    "A048103",
+    "A143293",
+    "A276085",
+    "A328313",
+    "A359550",
+    "A394892"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

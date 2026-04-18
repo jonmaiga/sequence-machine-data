@@ -1,0 +1,21 @@
+{
+  "description": "The smallest number k > 1 such that the total number of prime factors of the digital reversal of k, counted with multiplicity, when written in all bases b, where 2 <= b <= n, equals b.",
+  "id": "A393577",
+  "mentions": [
+    "A001221",
+    "A392678",
+    "A393176",
+    "A393263",
+    "A393264"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

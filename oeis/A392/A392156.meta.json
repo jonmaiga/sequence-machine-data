@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of distinct primes obtainable by inserting exactly one decimal digit into the decimal representation of prime(n) (at any position, including before the first digit or after the last), with the resulting number required to have no leading zero.",
+  "id": "A392156",
+  "mentions": [
+    "A000040",
+    "A068164",
+    "A125001",
+    "A304244",
+    "A389720",
+    "A389721",
+    "A392157"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

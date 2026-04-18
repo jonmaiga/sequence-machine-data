@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, for n > 2, a(n) shares a factor with a(n-1) while the set of distinct prime factors shared between a(n) and a(n-1) differs from that shared between a(n-1) and a(n-2).",
+  "id": "A394689",
+  "mentions": [
+    "A000961",
+    "A027748",
+    "A064413",
+    "A392505"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

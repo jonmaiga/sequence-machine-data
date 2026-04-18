@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n having five times as many even parts as odd.",
+  "id": "A393511",
+  "mentions": [
+    "A045931",
+    "A239004",
+    "A393509",
+    "A393510"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

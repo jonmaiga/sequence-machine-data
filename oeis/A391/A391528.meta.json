@@ -1,0 +1,17 @@
+{
+  "description": "Consider the following process: take an integer k>9, sum the digits, repeat the sum deleting the first addendum and adding the previous sum and so on. Sequence lists the minimum integer k such that, after exactly n steps of this process, reaches an integer j which in turn, applying the same process, reaches k again, in a number of steps not necessarily equal to n.",
+  "id": "A391528",
+  "mentions": [
+    "A007629"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

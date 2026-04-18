@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the probability that three points uniformly and independently selected at random from the interior of a cube form the vertices of an obtuse triangle.",
+  "id": "A394106",
+  "mentions": [
+    "A006752",
+    "A075549",
+    "A093072",
+    "A093588",
+    "A102519",
+    "A102520",
+    "A341942",
+    "A394107"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

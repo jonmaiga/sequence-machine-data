@@ -2,7 +2,8 @@
   "description": "Second series of Hankel determinants based on A001044(n+1)=((n+1)!)^2 : a(n)=det(A001044(i+j-1))=det(((i+j-1)!)^2), i,j=1,2...n. Hankel transform of A001044(n+1).",
   "id": "A165344",
   "mentions": [
-    "A001044"
+    "A001044",
+    "A059332"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,18 @@
+{
+  "description": "Chebyshev distance between prime(n) and prime(n+1) on Ulam spiral.",
+  "id": "A394484",
+  "mentions": [
+    "A000040",
+    "A214664",
+    "A214665",
+    "A391618"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

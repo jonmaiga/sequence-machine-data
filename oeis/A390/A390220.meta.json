@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(k,4*n-8*k).",
+  "id": "A390220",
+  "mentions": [
+    "A306752",
+    "A390040",
+    "A390221",
+    "A390222"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

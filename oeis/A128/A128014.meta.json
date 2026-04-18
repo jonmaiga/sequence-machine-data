@@ -1,11 +1,12 @@
 {
-  "description": "Central binomial coefficients C(2n,n) repeated.",
+  "description": "Central binomial coefficients C(2k,k) repeated.",
   "id": "A128014",
   "mentions": [
     "A000984",
     "A097893",
     "A128017",
     "A128018",
+    "A128055",
     "A249095",
     "A249308"
   ],

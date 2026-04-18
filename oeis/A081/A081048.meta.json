@@ -1,10 +1,11 @@
 {
-  "description": "Signed Stirling numbers of the first kind.",
+  "description": "a(n) = Stirling1(n+1, 2) where Stirling1 is A048994.",
   "id": "A081048",
   "mentions": [
     "A000254",
     "A001620",
-    "A008275"
+    "A008275",
+    "A048994"
   ],
   "tags": [
     "formulas",

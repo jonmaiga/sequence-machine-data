@@ -1,0 +1,16 @@
+{
+  "description": "Numerators in the expansion of g.f. x^2/(x - log(1 + x)).",
+  "id": "A392798",
+  "mentions": [
+    "A392799"
+  ],
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (A001147(n))^3 = 2^(3*n)*GAMMA(n+1/2)^3/Pi^(3/2).",
+  "description": "a(n) = (A001147(n))^3 = 2^(3*n)*Gamma(n+1/2)^3/Pi^(3/2).",
   "id": "A166750",
   "mentions": [
     "A001147"

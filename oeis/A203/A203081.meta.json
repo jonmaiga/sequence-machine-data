@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of (1/12)! = Gamma(13/12).",
   "id": "A203081",
-  "mentions": [],
+  "mentions": [
+    "A203140"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

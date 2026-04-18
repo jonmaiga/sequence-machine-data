@@ -1,12 +1,13 @@
 {
-  "description": "Triangle read by rows:t(n,m)=Sum[StirlingS2[n, k]*Eulerian[n - k + 1, m]*(-1)^(n - k - m)*k!, {k, 0, n}].",
+  "description": "Triangle read by rows: T(n,m) = Sum_{k=0..n} StirlingS2(n, k) * Eulerian(n - k + 1, m) *(-1)^(n - k - m) * k!.",
   "id": "A174553",
-  "mentions": [],
+  "mentions": [
+    "A008277",
+    "A173018"
+  ],
   "tags": [
-    "formulas",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,

@@ -2,6 +2,7 @@
   "description": "G.f.: Sum_{n>=0} x^n/(1-x)^(5*n) * Sum_{k=0..n} C(n,k)^2 * x^k.",
   "id": "A249793",
   "mentions": [
+    "A051924",
     "A249792",
     "A249794",
     "A249946"

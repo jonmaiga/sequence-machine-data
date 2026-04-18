@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct sets F = {P_1, P_2, ..., P_k} where P_i is a faithful permutation representation of Aut(G_i) as defined in the comments, and where G_i is the i-th group of order n.",
+  "id": "A389620",
+  "mentions": [
+    "A005432",
+    "A385480"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

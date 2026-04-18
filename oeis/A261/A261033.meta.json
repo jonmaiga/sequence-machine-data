@@ -1,5 +1,5 @@
 {
-  "description": "Values of n such that A002110(n) - A007504(n) - 1 is a prime number.",
+  "description": "Values of k such that A002110(k) - A007504(k) - 1 is a prime number.",
   "id": "A261033",
   "mentions": [
     "A002110",

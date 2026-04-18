@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct parts (or odd parts) with n+1 types of each part.",
+  "id": "A393593",
+  "mentions": [
+    "A181315",
+    "A270913",
+    "A270914",
+    "A286335",
+    "A366018"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

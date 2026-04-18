@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 3*2^n + 3*n + 1.",
   "id": "A389178",
-  "mentions": [],
+  "mentions": [
+    "A000051"
+  ],
   "tags": [
     "easy",
     "formulas",

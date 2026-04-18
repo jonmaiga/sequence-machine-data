@@ -1,0 +1,17 @@
+{
+  "description": "Number of undirected paths in the n X n grid graph, reduced for symmetry (with rotations, reflections, and translations not counted as distinct).",
+  "id": "A394065",
+  "mentions": [
+    "A288032",
+    "A394066"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

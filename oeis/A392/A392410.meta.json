@@ -1,0 +1,18 @@
+{
+  "description": "Number of full alternating sign matrices of size n.",
+  "id": "A392410",
+  "mentions": [
+    "A005130",
+    "A029759",
+    "A392029"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

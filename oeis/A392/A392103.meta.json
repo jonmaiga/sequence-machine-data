@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = (1 + 5*x*A(x)^2)^(1/5).",
+  "id": "A392103",
+  "mentions": [
+    "A008548",
+    "A384242",
+    "A392128",
+    "A394488",
+    "A394489"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

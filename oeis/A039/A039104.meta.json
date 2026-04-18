@@ -2,7 +2,17 @@
   "description": "Numbers whose base-9 representation has the same number of 4's and 7's.",
   "id": "A039104",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039083",
+    "A039089",
+    "A039095",
+    "A039100",
+    "A039102",
+    "A039103",
+    "A039105",
+    "A039107",
+    "A039109",
+    "A039385"
   ],
   "tags": [
     "base",
@@ -12,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

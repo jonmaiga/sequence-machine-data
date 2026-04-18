@@ -1,13 +1,14 @@
 {
-  "description": "Numbers n such that (9^n + 1)/10 is a prime.",
+  "description": "Numbers k such that (9^k + 1)/10 is a prime.",
   "id": "A057175",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

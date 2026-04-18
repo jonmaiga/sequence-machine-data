@@ -1,0 +1,16 @@
+{
+  "description": "The number of ways of placing dominoes on an n X n board so that no two touch, and no additional domino can be placed to still satisfy that condition.",
+  "id": "A386664",
+  "mentions": [
+    "A145773"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

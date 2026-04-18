@@ -1,17 +1,14 @@
 {
-  "description": "Number of nonisomorphic graphic matroids (by rank or number of vertices).",
+  "description": "Number of nonisomorphic graphic matroids of connected graphs on n vertices (equivalently, of rank n-1).",
   "id": "A078639",
-  "mentions": [
-    "A002632",
-    "A057475"
-  ],
+  "mentions": [],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the set {2,3,...,k} is a P-position for the game where players remove a number and all its divisors in turn.",
+  "id": "A393927",
+  "mentions": [
+    "A019312",
+    "A053398"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

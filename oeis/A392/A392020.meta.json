@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of the series e(-q), where the series e(q) is Morier-Genoud and Ovsienko's q-analog of Euler's number e.",
+  "id": "A392020",
+  "mentions": [
+    "A001113",
+    "A003417",
+    "A004148",
+    "A337589",
+    "A392021",
+    "A392022",
+    "A392023"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

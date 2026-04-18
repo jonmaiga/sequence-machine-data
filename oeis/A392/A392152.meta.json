@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of tan(2/3) + sec(2/3).",
+  "id": "A392152",
+  "mentions": [
+    "A384932",
+    "A392147",
+    "A392148",
+    "A392149",
+    "A392150",
+    "A392151",
+    "A392153"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

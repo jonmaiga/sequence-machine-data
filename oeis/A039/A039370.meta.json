@@ -2,7 +2,20 @@
   "description": "Numbers whose base-9 representation has the same nonzero number of 1's and 7's.",
   "id": "A039370",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039089",
+    "A039363",
+    "A039365",
+    "A039366",
+    "A039367",
+    "A039368",
+    "A039369",
+    "A039371",
+    "A039376",
+    "A039381",
+    "A039385",
+    "A039388",
+    "A039390"
   ],
   "tags": [
     "base",
@@ -11,7 +24,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
-    "source": "joeis"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

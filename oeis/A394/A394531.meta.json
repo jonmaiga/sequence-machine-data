@@ -1,0 +1,17 @@
+{
+  "description": "Sum_{k=1..n} k^2 * a(k)/n^(2*k) = 1.",
+  "id": "A394531",
+  "mentions": [
+    "A068087",
+    "A394530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "a(0)=360, a(n)=a(n-1)+720 for n>=1.",
+  "description": "a(0)=360, a(n) = a(n-1) + 720 for n>=1.",
   "id": "A140801",
   "mentions": [
+    "A005408",
     "A069476"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A143293(k) has a factor of the form p^p, where A143293 is the partial sums of the primorial numbers.",
+  "id": "A394892",
+  "mentions": [
+    "A048103",
+    "A100716",
+    "A143293",
+    "A359550",
+    "A394891"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

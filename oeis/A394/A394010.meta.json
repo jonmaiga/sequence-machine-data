@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 - (S(p)/(S(p)+1))^2), where S(p) = Sum_{k>=0} 1/p^(2^k).",
+  "id": "A394010",
+  "mentions": [
+    "A138302",
+    "A271727",
+    "A394003",
+    "A394007",
+    "A394009"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

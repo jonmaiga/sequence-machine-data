@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the greatest unused number < a(n-1) such that it shares a factor with a(n-1) while rad(a(n)*a(n-1)) has not previously occurred as the rad value of the product of adjacent terms, where rad(k) = A007947(k). If no such number exists then a(n) is the smallest number > a(n-1) satisfying the same criteria.",
+  "id": "A394416",
+  "mentions": [
+    "A007947",
+    "A064413",
+    "A386482",
+    "A392505",
+    "A394417"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

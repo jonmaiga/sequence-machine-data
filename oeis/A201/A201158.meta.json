@@ -1,7 +1,9 @@
 {
   "description": "Expansion of e.g.f. exp(x)/(cos(x) - sin(x)).",
   "id": "A201158",
-  "mentions": [],
+  "mentions": [
+    "A391886"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. 1/(1-x) * Sum_{k>=0} 3^k * x^2^(k+1)/(1+x^2^k).",
+  "description": "Expansion of g.f. 1/(1-x) * Sum_{k>=0} 3^k * x^2^(k+1)/(1+x^2^k).",
   "id": "A083904",
   "mentions": [
     "A005823",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

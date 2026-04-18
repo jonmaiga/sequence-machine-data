@@ -1,0 +1,17 @@
+{
+  "description": "Least positive integer m such that the n numbers c(0),...,c(n-1) are incongruent modulo m, where c(k) = A000521(k).",
+  "id": "A390228",
+  "mentions": [
+    "A000040",
+    "A000521",
+    "A392667"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

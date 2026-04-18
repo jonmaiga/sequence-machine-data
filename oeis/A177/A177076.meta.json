@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^5-n^3-2*n^2+1.",
+  "description": "Primes of the form k^5 - k^3 - 2*k^2 + 1.",
   "id": "A177076",
   "mentions": [
     "A177075"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 27,
     "source": "joeis"
   }
 }

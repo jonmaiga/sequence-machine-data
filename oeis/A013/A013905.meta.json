@@ -1,5 +1,5 @@
 {
-  "description": "22^(5n+4).",
+  "description": "a(n) = 22^(5n+4).",
   "id": "A013905",
   "mentions": [
     "A010810",

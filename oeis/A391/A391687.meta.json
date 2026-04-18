@@ -1,0 +1,15 @@
+{
+  "description": "Number of bordered magic squares of order n composed of the numbers from 1 to n^2, counted up to rotations and reflections.",
+  "id": "A391687",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

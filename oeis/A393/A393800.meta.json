@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(5*sqrt(5) - 11)/2.",
+  "id": "A393800",
+  "mentions": [
+    "A002163",
+    "A020837",
+    "A134944",
+    "A393801",
+    "A393802"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

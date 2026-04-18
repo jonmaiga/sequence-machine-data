@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that there is a smaller number m > 1 such that k*m equals the concatenation of digit-wise multiplication, keeping the leading digits of k when m has fewer digits.",
+  "id": "A392568",
+  "mentions": [
+    "A392040",
+    "A392618"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

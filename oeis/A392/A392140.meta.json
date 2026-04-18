@@ -1,0 +1,18 @@
+{
+  "description": "Number of prime factors of 1+2^2+3^3+...+n^n (counted with multiplicity).",
+  "id": "A392140",
+  "mentions": [
+    "A001222",
+    "A001923"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

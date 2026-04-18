@@ -1,5 +1,5 @@
 {
-  "description": "n^2+Smallest cube, (Smallest cube >= n^2).",
+  "description": "n^2+smallest cube >= n^2.",
   "id": "A176583",
   "mentions": [
     "A065733",

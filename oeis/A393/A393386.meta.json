@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers in A391972, in the order in which they occur.",
+  "id": "A393386",
+  "mentions": [
+    "A087128",
+    "A391972",
+    "A393398"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose abundance is 8: sigma(n) - 2n = 8.",
+  "description": "Numbers k whose abundance is 8: sigma(k) - 2*k = 8.",
   "id": "A088833",
   "mentions": [
     "A033880",

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the unique solution x > 0 to Sum_{primes p} arcsin(p^-x) = Pi.",
+  "id": "A393447",
+  "mentions": [
+    "A000796",
+    "A394851"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

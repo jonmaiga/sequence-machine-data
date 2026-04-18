@@ -1,5 +1,5 @@
 {
-  "description": "Independence number of the n-Mycielski graph.",
+  "description": "Independence number, upper domination number, and upper irredundance number of the n-Mycielski graph.",
   "id": "A266550",
   "mentions": [
     "A052940",

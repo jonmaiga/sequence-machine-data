@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the absolute value of the smallest real root of the minimal polynomial of Conway's constant.",
+  "id": "A392501",
+  "mentions": [
+    "A014715",
+    "A392502"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

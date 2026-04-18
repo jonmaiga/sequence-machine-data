@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the reversal of p^2 is the square of a prime.",
+  "id": "A393520",
+  "mentions": [
+    "A065378",
+    "A085306"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

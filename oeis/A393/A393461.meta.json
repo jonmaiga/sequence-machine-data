@@ -1,0 +1,18 @@
+{
+  "description": "Positions of zeros in A393422.",
+  "id": "A393461",
+  "mentions": [
+    "A054429",
+    "A158092",
+    "A393422"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

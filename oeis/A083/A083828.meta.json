@@ -1,5 +1,5 @@
 {
-  "description": "Let x(n) = 123...n, y(n) = n...321; c(n) = delete the LSD of y(n) and concatenated with x(n); d(n) = delete LSD of x(n) and concatenate with y(n). a(n) = c(n) - d(n).",
+  "description": "Let x(n) = 123...n, y(n) = n...321; c(n) = delete the least significant digit of y(n) and concatenate with x(n); d(n) = delete the least significant digit of x(n) and concatenate with y(n). a(n) = c(n) - d(n).",
   "id": "A083828",
   "mentions": [
     "A083827"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

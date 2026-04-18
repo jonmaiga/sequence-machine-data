@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (1/2)*Sum_{n>=3} (1 - n*sin(2*Pi/n)/(2*Pi)).",
+  "id": "A394496",
+  "mentions": [
+    "A379131",
+    "A394396",
+    "A394477"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

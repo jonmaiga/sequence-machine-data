@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant characterizing the complexity of the special number field sieve (SNFS) factoring algorithm.",
+  "id": "A394662",
+  "mentions": [
+    "A394663",
+    "A394664"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

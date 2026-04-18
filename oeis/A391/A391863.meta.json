@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k that are coprime to A276085(k) and that are not divisible by p^p for any prime p, where A276085 is the primorial base log-function.",
+  "id": "A391863",
+  "mentions": [
+    "A048103",
+    "A276085",
+    "A276086",
+    "A324583",
+    "A359550",
+    "A373361",
+    "A391862",
+    "A391866"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

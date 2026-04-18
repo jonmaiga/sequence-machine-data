@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions p of n such that 3 * (number of distinct parts of p) <= (minimal multiplicity of the parts of p).",
+  "id": "A393375",
+  "mentions": [
+    "A393298",
+    "A394188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

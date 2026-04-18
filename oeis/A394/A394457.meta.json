@@ -1,0 +1,20 @@
+{
+  "description": "Least Lucas-Carmichael number (A006972) that is the product of exactly n primes congruent to 1 modulo 4.",
+  "id": "A394457",
+  "mentions": [
+    "A006972",
+    "A216928",
+    "A292021",
+    "A394179"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

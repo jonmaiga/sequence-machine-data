@@ -1,0 +1,29 @@
+{
+  "description": "Number of divisors d | n such that d is neither squarefree nor powerful (in A332785).",
+  "id": "A391713",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000961",
+    "A001221",
+    "A005117",
+    "A005361",
+    "A013929",
+    "A024619",
+    "A027750",
+    "A052485",
+    "A126706",
+    "A303554",
+    "A332785"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

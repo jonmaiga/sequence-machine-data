@@ -2,7 +2,9 @@
   "description": "Odd numbers whose number of distinct prime factors is also odd.",
   "id": "A098903",
   "mentions": [
-    "A001221"
+    "A001221",
+    "A353673",
+    "A381218"
   ],
   "tags": [
     "easy",

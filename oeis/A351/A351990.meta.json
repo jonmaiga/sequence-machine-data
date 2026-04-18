@@ -1,7 +1,11 @@
 {
   "description": "Number of minimum edge covers of the complete graph K_n.",
   "id": "A351990",
-  "mentions": [],
+  "mentions": [
+    "A001147",
+    "A006129",
+    "A054548"
+  ],
   "tags": [
     "formulas",
     "nonn"

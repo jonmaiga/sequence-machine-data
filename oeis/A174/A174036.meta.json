@@ -1,12 +1,14 @@
 {
-  "description": "A triangle sequence of the form:t(n,m]=If[m == 0 || m == n, 1, Binomial[Eulerian[n + 1, m], If[Floor[n/2] < m, n - m, m]]].",
+  "description": "Triangle read by rows: T(n,k) = 1 if k=0 or k=n, otherwise T(n,k) = binomial(Eulerian(n+1, k), min(n-k,k)).",
   "id": "A174036",
-  "mentions": [],
+  "mentions": [
+    "A173018",
+    "A174035"
+  ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,

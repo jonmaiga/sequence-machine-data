@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 2^n + n^2 + 2.",
+  "description": "Primes of the form 2^k + k^2 + 2.",
   "id": "A182357",
   "mentions": [
     "A035325",

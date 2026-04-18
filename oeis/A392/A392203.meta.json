@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x - A(x)) = x^2 + x*A(x).",
+  "id": "A392203",
+  "mentions": [
+    "A276370"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

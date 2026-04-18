@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the probability that everyone in a randomly selected group of 3064 persons share their birthday with at least one other person, not considering leap years.",
+  "id": "A393269",
+  "mentions": [
+    "A008299",
+    "A333507",
+    "A343015",
+    "A380129",
+    "A393268",
+    "A393270",
+    "A393271"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

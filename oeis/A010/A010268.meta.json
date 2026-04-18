@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 39.",
   "id": "A010268",
-  "mentions": [],
+  "mentions": [
+    "A010610"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 78,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

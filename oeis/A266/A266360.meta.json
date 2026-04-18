@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 binary arrays with rows and columns lexicographically nondecreasing and row and column sums nondecreasing.",
+  "description": "Number of n X 6 binary arrays with rows and columns lexicographically nondecreasing and row and column sums nondecreasing.",
   "id": "A266360",
   "mentions": [
     "A266362"

@@ -1,0 +1,28 @@
+{
+  "description": "Integers k such that there are i groups of order k+1 up to isomorphism, for i=1,2,3,4,5,6,7.",
+  "id": "A392130",
+  "mentions": [
+    "A000001",
+    "A003277",
+    "A054395",
+    "A054396",
+    "A054397",
+    "A055561",
+    "A135850",
+    "A249550",
+    "A373648",
+    "A373649",
+    "A373650",
+    "A381335",
+    "A392129"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

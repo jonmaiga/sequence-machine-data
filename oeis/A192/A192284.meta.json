@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the average of the anti-divisors of n is an integer.",
+  "description": "Numbers k such that the average of the anti-divisors of k is an integer.",
   "id": "A192284",
   "mentions": [
     "A003601",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of perfect matchings on [2n] with n short pairs.",
+  "description": "Number of perfect matchings on [4n] with n short pairs.",
   "id": "A365744",
   "mentions": [
     "A001147",

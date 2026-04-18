@@ -1,0 +1,16 @@
+{
+  "description": "Integers k such that 8*k^2 + m*k is a pronic number (A002378) for some m in {-6, -2, 2, 6}.",
+  "id": "A394358",
+  "mentions": [
+    "A002378"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

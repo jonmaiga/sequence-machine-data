@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (-1)^A033264(n).",
+  "id": "A393435",
+  "mentions": [
+    "A033264"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

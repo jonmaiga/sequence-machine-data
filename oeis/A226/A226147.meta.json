@@ -2,6 +2,7 @@
   "description": "Numbers k such that triangular(k) is an average of three successive primes.",
   "id": "A226147",
   "mentions": [
+    "A000217",
     "A076304",
     "A206279",
     "A226145",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

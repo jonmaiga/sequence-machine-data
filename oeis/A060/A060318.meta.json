@@ -1,5 +1,5 @@
 {
-  "description": "Powers of 3 in the odd Catalan numbers Catalan(2^n - 1).",
+  "description": "Exponent of highest power of 3 dividing the n-th odd Catalan number Catalan(2^n - 1).",
   "id": "A060318",
   "mentions": [
     "A000108",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

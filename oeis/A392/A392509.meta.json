@@ -1,0 +1,17 @@
+{
+  "description": "Triangle of coefficients of the permanent polynomial of rectangular Dancing School matrices.",
+  "id": "A392509",
+  "mentions": [
+    "A079908",
+    "A079928"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,17 +1,19 @@
 {
-  "description": "Numbers n such that r3(k) * 2^n + 1 is prime, where r3() = A002277 and k is the number of decimal digits of 2^n.",
+  "description": "Numbers k such that R3(d) * 2^k + 1 is prime, where R3() = A002277 and d is the number of decimal digits of 2^k.",
   "id": "A095967",
   "mentions": [
-    "A002277"
+    "A002277",
+    "A095306"
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

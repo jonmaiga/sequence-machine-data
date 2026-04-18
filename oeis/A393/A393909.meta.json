@@ -1,0 +1,14 @@
+{
+  "description": "Number of planar embedding isomorphism classes of the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A393909",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

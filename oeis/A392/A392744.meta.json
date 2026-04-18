@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} |Stirling1(n+k,2*k)|.",
+  "id": "A392744",
+  "mentions": [
+    "A229286",
+    "A392733"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

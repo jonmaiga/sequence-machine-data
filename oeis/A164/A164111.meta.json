@@ -2,7 +2,10 @@
   "description": "Expansion of (1-x)/(1+4*x^2).",
   "id": "A164111",
   "mentions": [
-    "A126869"
+    "A052928",
+    "A087960",
+    "A126869",
+    "A213173"
   ],
   "tags": [
     "easy",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

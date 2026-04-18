@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of log(2)^(1/A394584).",
+  "id": "A394585",
+  "mentions": [
+    "A394584",
+    "A394587",
+    "A394588"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

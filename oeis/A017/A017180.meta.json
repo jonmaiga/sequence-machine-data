@@ -1,5 +1,5 @@
 {
-  "description": "(9n+1)^8.",
+  "description": "a(n) = (9n+1)^8.",
   "id": "A017180",
   "mentions": [],
   "tags": [

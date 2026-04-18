@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 43/30 - Pi/6.",
+  "id": "A395016",
+  "mentions": [
+    "A073012",
+    "A102519",
+    "A395015",
+    "A395017",
+    "A395018"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

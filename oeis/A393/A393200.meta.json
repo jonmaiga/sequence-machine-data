@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least value of m such that the sum of the digits of n in base m is coprime with n.",
+  "id": "A393200",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 88,
+    "source": "joeis"
+  }
+}

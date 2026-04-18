@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer k such that Mordell's equation y^2 = x^3 + k has exactly n integer solutions with y >= 0.",
+  "id": "A392144",
+  "mentions": [
+    "A054504",
+    "A134108",
+    "A179162",
+    "A392395"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

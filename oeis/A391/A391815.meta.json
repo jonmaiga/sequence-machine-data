@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the constant x that satisfies x = Sum_{n>=0} 1/2^floor(n*x).",
+  "id": "A391815",
+  "mentions": [
+    "A119809",
+    "A119812",
+    "A329986",
+    "A391809"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

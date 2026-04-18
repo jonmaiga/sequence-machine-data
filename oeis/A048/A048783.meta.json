@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) - sigma(n) - phi(n) = prime(n+1) - sigma(n+1) - phi(n+1), where sigma(n) = sum of divisors of n.",
+  "description": "Numbers k such that prime(k) - sigma(k) - phi(k) = prime(k+1) - sigma(k+1) - phi(k+1), where sigma(k) = sum of divisors of k.",
   "id": "A048783",
   "mentions": [
     "A000010",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

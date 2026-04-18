@@ -1,5 +1,5 @@
 {
-  "description": "sech(sec(x)*tan(x))=1-1/2!*x^2-15/4!*x^4-177/6!*x^6+8225/8!*x^8...",
+  "description": "Expansion of e.g.f. sech(sec(x)*tan(x)) (only even powers).",
   "id": "A012800",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 17,
     "source": "joeis"
   }
 }

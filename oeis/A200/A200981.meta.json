@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of non-divisors of n is prime.",
+  "description": "Numbers k such that the sum of non-divisors of k is prime.",
   "id": "A200981",
   "mentions": [
     "A023194",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
+    "size": 56,
     "source": "oeis-bfile"
   }
 }

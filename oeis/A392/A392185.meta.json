@@ -1,0 +1,15 @@
+{
+  "description": "Smallest number of sets a(n) in a collection C of sets of size n such that C does not have Property B (see comments).",
+  "id": "A392185",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (-1)^(n(n-1)/2) * Product_{k=0,...,n-1} (n+k-1)!/((k!)^2 * (n-1-k)!).",
+  "description": "a(n) = (-1)^(n*(n-1)/2) * Product_{k=0..n-1} (n+k-1)!/((k!)^2 * (n-1-k)!).",
   "id": "A060739",
   "mentions": [
     "A001700",

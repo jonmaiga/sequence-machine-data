@@ -1,7 +1,10 @@
 {
   "description": "Powers of 7 written backwards and sorted.",
   "id": "A134113",
-  "mentions": [],
+  "mentions": [
+    "A000420",
+    "A004086"
+  ],
   "tags": [
     "base",
     "easy",

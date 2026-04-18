@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that omega(2*k) = omega(k + 2), where omega = A001221.",
+  "id": "A392386",
+  "mentions": [
+    "A001221",
+    "A006049"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "Number of 7Xn arrays containing n copies of 0..7-1 with every element equal to or 1 greater than any west, northeast or northwest neighbors modulo 7 and the upper left element equal to 0.",
+  "description": "Number of 7 X n arrays containing n copies of 0..7-1 with every element equal to or 1 greater than any west, northeast or northwest neighbors modulo 7 and the upper left element equal to 0.",
   "id": "A267429",
   "mentions": [
     "A267425"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

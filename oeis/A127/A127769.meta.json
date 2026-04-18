@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=3*C(4n-2,2n)/(2n+1)-2*0^n.",
+  "description": "a(n) = 3*C(4*n-2,2*n)/(2*n+1) - 2*0^n.",
   "id": "A127769",
   "mentions": [
     "A127768"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

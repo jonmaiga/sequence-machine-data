@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i * 7^j)) / (1 - x^(i * 7^j)).",
+  "id": "A393559",
+  "mentions": [
+    "A327727",
+    "A373221",
+    "A373298",
+    "A393555",
+    "A393556",
+    "A393557",
+    "A393558"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

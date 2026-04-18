@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A(x) = x + LambertW( -A(x) )^2.",
+  "id": "A392526",
+  "mentions": [
+    "A206855",
+    "A377890"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

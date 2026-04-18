@@ -2,7 +2,8 @@
   "description": "Number of cells in the two-sided Coxeter complex of type B_n.",
   "id": "A275787",
   "mentions": [
-    "A120733"
+    "A120733",
+    "A373027"
   ],
   "tags": [
     "nonn"

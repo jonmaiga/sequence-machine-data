@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of b_{2n}(1/4), where b_{n}(x) are Nörlund's generalized Bernoulli polynomials.",
+  "description": "Numerator of b_{2n}(1/4), where b_{n}(x) are Nørlund's generalized Bernoulli polynomials.",
   "id": "A239792",
   "mentions": [
     "A220412",

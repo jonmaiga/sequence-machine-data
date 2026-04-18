@@ -1,0 +1,16 @@
+{
+  "description": "Sequence where k is appended after every k^k occurrences of 1, with multiple values following a 1 listed in order.",
+  "id": "A393595",
+  "mentions": [
+    "A073009"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

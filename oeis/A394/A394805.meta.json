@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 6 * arcsin(1/3) / Pi.",
+  "id": "A394805",
+  "mentions": [
+    "A132696",
+    "A188615",
+    "A242780",
+    "A349605",
+    "A394806",
+    "A394807"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

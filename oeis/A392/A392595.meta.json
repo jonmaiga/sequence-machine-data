@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A324895(n) mod 360, where A324895 gives the largest proper divisor of primorial base exp-function.",
+  "id": "A392595",
+  "mentions": [
+    "A032742",
+    "A276086",
+    "A324895",
+    "A353516",
+    "A392596"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

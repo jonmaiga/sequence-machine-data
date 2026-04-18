@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..3 arrays with nondecreasing x(i,j)+x(i,j-1) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.",
+  "description": "Number of (n+1) X (6+1) 0..3 arrays with nondecreasing x(i,j) + x(i,j-1) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.",
   "id": "A250705",
   "mentions": [
     "A250707"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

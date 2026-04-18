@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the average Euclidean distance between two randomly picked points, one of which is located in a unit cube and the other in an adjacent unit cube, both axis-parallel, with the two cubes sharing one common edge.",
+  "id": "A392513",
+  "mentions": [
+    "A001622",
+    "A073012",
+    "A135707",
+    "A392512",
+    "A392514",
+    "A392687"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest index k such that the subsequence b(k), b(k+1),..., b(k+n-1) is a palindrome of length n, where b(k) = A206400(k).",
+  "id": "A393703",
+  "mentions": [
+    "A206400"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

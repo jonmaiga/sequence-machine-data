@@ -2,11 +2,13 @@
   "description": "Number of partitions of n having (sum of odd parts) < (sum of even parts).",
   "id": "A239259",
   "mentions": [
+    "A000009",
     "A000041",
     "A239260",
     "A239261",
     "A239262",
-    "A239263"
+    "A239263",
+    "A249914"
   ],
   "tags": [
     "easy",

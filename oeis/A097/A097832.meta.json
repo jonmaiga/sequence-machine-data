@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of Chebyshev sequence S(n,19)= U(n,19/2)=A078368(n).",
+  "description": "Partial sums of Chebyshev sequence S(n,19) = U(n,19/2) = A078368(n).",
   "id": "A097832",
   "mentions": [
     "A078368",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 19,
     "source": "joeis"
   }
 }

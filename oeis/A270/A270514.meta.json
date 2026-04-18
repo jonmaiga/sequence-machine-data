@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6X6X6 triangular 0..n arrays with some element plus some adjacent element totalling n+1 exactly once.",
+  "description": "Number of 6 X 6 X 6 triangular 0..n arrays with some element plus some adjacent element totalling n+1 exactly once.",
   "id": "A270514",
   "mentions": [
     "A270509"

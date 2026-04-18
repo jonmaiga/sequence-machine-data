@@ -2,6 +2,7 @@
   "description": "Palindromic primes which are a member of a twin prime pair.",
   "id": "A083840",
   "mentions": [
+    "A002385",
     "A083841",
     "A083842"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

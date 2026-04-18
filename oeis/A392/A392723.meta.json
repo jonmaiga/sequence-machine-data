@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. Series_Reversion(log(1+x) - x^4).",
+  "id": "A392723",
+  "mentions": [
+    "A143139",
+    "A391954",
+    "A392724"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

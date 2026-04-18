@@ -1,0 +1,15 @@
+{
+  "description": "Feedback vertex set (decycling) number of the n-hypercube graph.",
+  "id": "A390382",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

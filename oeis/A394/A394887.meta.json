@@ -1,0 +1,24 @@
+{
+  "description": "Terms k in A328116 corresponding to records in A394886.",
+  "id": "A394887",
+  "mentions": [
+    "A007814",
+    "A051903",
+    "A099307",
+    "A099308",
+    "A276086",
+    "A328116",
+    "A369645",
+    "A394885",
+    "A394886"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

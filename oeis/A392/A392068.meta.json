@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = ((n*p)^p - 1)/(n*p-1) where p = prime(n).",
+  "id": "A392068",
+  "mentions": [
+    "A033286"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

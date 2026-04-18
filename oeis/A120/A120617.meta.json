@@ -1,5 +1,5 @@
 {
-  "description": "Hankel transform of g.f. 1/sqrt(1+4x^2).",
+  "description": "Hankel transform of g.f. 1/sqrt(1+4*x^2).",
   "id": "A120617",
   "mentions": [
     "A082590",

@@ -1,14 +1,17 @@
 {
   "description": "Both m and its reverse are one more than a square and m does not end in 0.",
   "id": "A066618",
-  "mentions": [],
+  "mentions": [
+    "A002522",
+    "A004086"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

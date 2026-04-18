@@ -1,0 +1,20 @@
+{
+  "description": "Number of transitive relations on an n-set with exactly six ordered pairs.",
+  "id": "A393216",
+  "mentions": [
+    "A348634",
+    "A349849",
+    "A349919",
+    "A349927"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

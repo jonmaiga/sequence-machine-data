@@ -1,0 +1,17 @@
+{
+  "description": "Triangle giving the number L(k,n) of paratopy classes of (k X n)-Latin rectangles.",
+  "id": "A393633",
+  "mentions": [
+    "A162544"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

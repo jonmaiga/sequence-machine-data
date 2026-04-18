@@ -1,0 +1,17 @@
+{
+  "description": "Number of symmetric planar subpartitions of the size n pyramidal planar partition.",
+  "id": "A388969",
+  "mentions": [
+    "A005987",
+    "A049505",
+    "A115965"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

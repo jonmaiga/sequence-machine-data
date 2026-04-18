@@ -1,7 +1,9 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*Sum_{n>=0} (A(x)^2 - 1)^n.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*Sum_{n>=0} (A(x)^2 - 1)^n.",
   "id": "A192945",
   "mentions": [
+    "A001002",
+    "A120590",
     "A192946",
     "A192947",
     "A192948"
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

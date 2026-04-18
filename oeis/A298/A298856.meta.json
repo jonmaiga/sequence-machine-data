@@ -1,9 +1,11 @@
 {
-  "description": "Triangular numbers n for which A240542(n) = A240542(n-1).",
+  "description": "Triangular numbers k for which A240542(k) = A240542(k-1).",
   "id": "A298856",
   "mentions": [
     "A000217",
     "A014105",
+    "A033676",
+    "A033677",
     "A067742",
     "A156592",
     "A191363",
@@ -13,6 +15,7 @@
     "A237593",
     "A240542",
     "A262259",
+    "A279387",
     "A298855"
   ],
   "tags": [
@@ -21,6 +24,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

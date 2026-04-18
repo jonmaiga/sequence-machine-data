@@ -1,5 +1,5 @@
 {
-  "description": "10*6^n+1.",
+  "description": "a(n) = 10*6^n+1.",
   "id": "A199414",
   "mentions": [],
   "tags": [

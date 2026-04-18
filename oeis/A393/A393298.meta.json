@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions p of n such that 2 * (number of distinct parts of p) <= (minimal multiplicity of the parts of p).",
+  "id": "A393298",
+  "mentions": [
+    "A393375",
+    "A394188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

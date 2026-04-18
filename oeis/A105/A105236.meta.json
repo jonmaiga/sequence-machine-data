@@ -6,11 +6,12 @@
     "A006721"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

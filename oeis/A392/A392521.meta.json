@@ -1,0 +1,18 @@
+{
+  "description": "Irregular table: apply Ducci map to each binary string of length n-1 in order and read as binary digits to get the terms of row n.",
+  "id": "A392521",
+  "mentions": [
+    "A038553",
+    "A038556"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

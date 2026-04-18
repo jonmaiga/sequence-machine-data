@@ -1,0 +1,17 @@
+{
+  "description": "Number of total dominating sets in the n-necklace graph.",
+  "id": "A393328",
+  "mentions": [
+    "A392478"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

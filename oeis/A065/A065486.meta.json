@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Product_{p prime} (1 + 1/(p+1)^2).",
   "id": "A065486",
   "mentions": [
+    "A000005",
     "A000203",
     "A001692",
     "A008683",

@@ -1,14 +1,17 @@
 {
-  "description": "Squarefree numbers n such that the difference between the closest squares surrounding n and n have a common divisor greater than 1.",
+  "description": "Nonsquare composite numbers k such that the difference between the closest squares surrounding k and k have a common divisor greater than 1.",
   "id": "A111205",
-  "mentions": [],
+  "mentions": [
+    "A089229",
+    "A111204"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 6,
+    "offset": 1,
     "size": 55,
     "source": "oeis-entry"
   }

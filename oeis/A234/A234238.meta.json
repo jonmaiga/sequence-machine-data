@@ -1,9 +1,10 @@
 {
-  "description": "Sporadic solutions to sigma(n) == 12 modulo n.",
+  "description": "Sporadic solutions m to the congruence sigma(m) == 12 (mod m).",
   "id": "A234238",
   "mentions": [
     "A076496",
-    "A084306"
+    "A084306",
+    "A216697"
   ],
   "tags": [
     "more",

@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies A( x - x*A(5*x)/5 ) = x.",
+  "id": "A393857",
+  "mentions": [
+    "A000108",
+    "A088714",
+    "A195195",
+    "A195196",
+    "A393856",
+    "A393858",
+    "A393859"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

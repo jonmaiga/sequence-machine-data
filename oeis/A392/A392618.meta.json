@@ -1,0 +1,17 @@
+{
+  "description": "Greatest number m < A392568(n) such that A392568(n)*m equals the concatenation of the digit-wise multiplication, where the digits of the larger number are kept when m has no corresponding digit.",
+  "id": "A392618",
+  "mentions": [
+    "A392040",
+    "A392568"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

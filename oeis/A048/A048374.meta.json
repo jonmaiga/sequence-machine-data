@@ -1,5 +1,5 @@
 {
-  "description": "a(n)^3 is smallest cube containing exactly n 9's.",
+  "description": "a(n)^3 is the smallest cube containing exactly n 9's.",
   "id": "A048374",
   "mentions": [
     "A036536",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

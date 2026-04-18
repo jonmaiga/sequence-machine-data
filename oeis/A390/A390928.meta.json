@@ -1,0 +1,19 @@
+{
+  "description": "Array listed by rows: row n is the primitive Pythagorean triple a < b < c with least perimeter a+b+c such that its inradius (a+b-c)/2 = n.",
+  "id": "A390928",
+  "mentions": [
+    "A087484",
+    "A099776",
+    "A103605"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

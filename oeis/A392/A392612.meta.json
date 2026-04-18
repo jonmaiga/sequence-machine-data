@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that all prime factors of A276086(k) divide k, except the least one of them, where A276086 is the primorial base exp-function.",
+  "id": "A392612",
+  "mentions": [
+    "A002110",
+    "A020639",
+    "A053669",
+    "A060735",
+    "A276086",
+    "A392610",
+    "A392613"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

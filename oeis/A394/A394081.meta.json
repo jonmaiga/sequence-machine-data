@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n^(n - k)*Gamma(k + 1, k + 1)*exp(k + 1).",
+  "id": "A394081",
+  "mentions": [
+    "A000312",
+    "A001865",
+    "A392923"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

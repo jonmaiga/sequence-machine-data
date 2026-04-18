@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} |Stirling1(n+3*k,k)|.",
+  "id": "A392753",
+  "mentions": [
+    "A392733",
+    "A392744",
+    "A392749",
+    "A392752"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

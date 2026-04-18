@@ -1,0 +1,18 @@
+{
+  "description": "Number of totally symmetric planar subpartitions of the size n pyramidal planar partition.",
+  "id": "A393748",
+  "mentions": [
+    "A005157",
+    "A115965",
+    "A388969",
+    "A393786"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -6,12 +6,14 @@
     "A204198"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

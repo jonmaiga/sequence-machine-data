@@ -2,6 +2,7 @@
   "description": "Binomial transform of n*F(n).",
   "id": "A117202",
   "mentions": [
+    "A000045",
     "A001519",
     "A001622",
     "A004146",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

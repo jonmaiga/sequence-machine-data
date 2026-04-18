@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree numbers n for which the Mordell equation y^2 = x^3 + n^r admits at least one integer solution for each nonnegative integer r.",
+  "id": "A393416",
+  "mentions": [
+    "A005117",
+    "A054504",
+    "A081119"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

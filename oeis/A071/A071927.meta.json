@@ -2,7 +2,8 @@
   "description": "Barely abundant numbers: abundant n such that sigma(n)/n < sigma(m)/m for all abundant numbers m",
   "id": "A071927",
   "mentions": [
-    "A004394"
+    "A004394",
+    "A362053"
   ],
   "tags": [
     "nonn"

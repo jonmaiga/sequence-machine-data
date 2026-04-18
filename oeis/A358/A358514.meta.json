@@ -1,16 +1,19 @@
 {
-  "description": "a(n) is the smallest number with exactly n divisors that are Achilles numbers (A052486).",
+  "description": "a(n) is the smallest number divisible by exactly n Achilles numbers (A052486).",
   "id": "A358514",
   "mentions": [
     "A000005",
-    "A052486"
+    "A001694",
+    "A025487",
+    "A052486",
+    "A364930"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

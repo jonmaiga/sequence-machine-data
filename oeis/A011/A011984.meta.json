@@ -1,5 +1,5 @@
 {
-  "description": "Covering numbers C(n,6,4) (next term is <= 41).",
+  "description": "Covering numbers C(n,6,4).",
   "id": "A011984",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 6,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

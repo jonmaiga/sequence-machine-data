@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer k such that 1 + x^2 + y^2 = k*prime(n) has at least one solution for some integers x, y.",
+  "id": "A392072",
+  "mentions": [
+    "A000378",
+    "A001481",
+    "A133529"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,16 @@
   "description": "Numbers whose base-9 representation has the same number of 2's and 4's.",
   "id": "A039092",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039080",
+    "A039086",
+    "A039091",
+    "A039093",
+    "A039094",
+    "A039095",
+    "A039096",
+    "A039097",
+    "A039373"
   ],
   "tags": [
     "base",
@@ -12,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

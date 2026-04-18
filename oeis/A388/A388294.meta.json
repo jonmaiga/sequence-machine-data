@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of the unique positive x such that digamma(x) = 1/x.",
+  "id": "A388294",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

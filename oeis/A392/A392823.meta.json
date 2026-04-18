@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x*log(1-x)^2).",
+  "id": "A392823",
+  "mentions": [
+    "A392822"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

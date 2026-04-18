@@ -1,0 +1,17 @@
+{
+  "description": "Number of full subcategories of the category of finite dimensional linear representations of a totally ordered set with n elements (over any field) that are closed under extensions and direct summands.",
+  "id": "A393920",
+  "mentions": [
+    "A000108",
+    "A000142"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

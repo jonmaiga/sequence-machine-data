@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of ordered pairs (i, j) of integers with 0 <= i, j < n such that floor((i*j) / n) = k.",
+  "id": "A393470",
+  "mentions": [
+    "A106633"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "joeis"
+  }
+}

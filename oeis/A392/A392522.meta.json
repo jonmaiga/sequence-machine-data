@@ -1,0 +1,19 @@
+{
+  "description": "Determinant of the 3 X 3 Hankel matrix of consecutive primes starting at prime(n).",
+  "id": "A392522",
+  "mentions": [
+    "A000040",
+    "A056221",
+    "A056222",
+    "A392523"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

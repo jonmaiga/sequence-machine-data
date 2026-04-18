@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the result of swapping the 2nd and next to the last digit of n is prime.",
+  "description": "Numbers k such that the result of swapping the 2nd and next to the last digit of k is prime.",
   "id": "A111347",
   "mentions": [
     "A007934",

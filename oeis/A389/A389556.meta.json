@@ -1,0 +1,17 @@
+{
+  "description": "The number of primitive Pythagorean triples (PPTs) that lie within the first n rows of an irregular triangular array of PPTs defined in comments and whose even leg of the integer right triangle formed from the PPT is greater than its odd leg.",
+  "id": "A389556",
+  "mentions": [
+    "A014176",
+    "A072451",
+    "A188582"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

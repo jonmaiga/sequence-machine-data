@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the aspect ratio of a rectangle with the property that the probability that distance between two points selected independently at random within its interior is smaller than the length of its smaller side is 1/2.",
+  "id": "A394604",
+  "mentions": [
+    "A394602",
+    "A394603"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

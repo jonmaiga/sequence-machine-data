@@ -1,5 +1,5 @@
 {
-  "description": "Numbers congruent to 47867742232066880047611079 modulo 66483034025018711639862527490.",
+  "description": "a(n) = 66483034025018711639862527490*n + 47867742232066880047611079.",
   "id": "A281907",
   "mentions": [
     "A076335",
@@ -7,11 +7,10 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 8,
     "source": "joeis"
   }

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * [x^n] exp(x-x^2/2)/(1 - x).",
+  "id": "A395025",
+  "mentions": [
+    "A000142",
+    "A000266",
+    "A000522",
+    "A019774",
+    "A394961",
+    "A394995"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

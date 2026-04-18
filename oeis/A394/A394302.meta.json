@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of unit squares in the square lattice, divided by 4, that have 2 vertices strictly inside and 2 vertices strictly outside the circle (x-1/2)^2 + (y-1/2)^2 = n, i.e., the circle centered at the deep hole.",
+  "id": "A394302",
+  "mentions": [
+    "A000194",
+    "A005883",
+    "A393564"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

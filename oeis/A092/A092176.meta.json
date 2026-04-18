@@ -1,5 +1,5 @@
 {
-  "description": "A067076 + A000079/2.",
+  "description": "a(n) = A067076(n) + A000079(n)/2 with A067076(0)=0.",
   "id": "A092176",
   "mentions": [
     "A000079",
@@ -7,12 +7,11 @@
   ],
   "tags": [
     "less",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 35,
     "source": "joeis"
   }
 }

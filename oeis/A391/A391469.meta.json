@@ -1,0 +1,19 @@
+{
+  "description": "Number of words of length 3*n that can be formed with a three-letter alphabet when the number of letters of each type is == 1 (mod 3).",
+  "id": "A391469",
+  "mentions": [
+    "A013733",
+    "A391468",
+    "A391470"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

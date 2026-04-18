@@ -1,0 +1,28 @@
+{
+  "description": "Intersection of A391845 and A391866.",
+  "id": "A392592",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A008966",
+    "A020639",
+    "A053669",
+    "A276085",
+    "A359550",
+    "A369650",
+    "A371083",
+    "A391844",
+    "A391845",
+    "A391866"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "a(n) is the number of squares of side length greater than 1 having vertices at the points of an n X n grid of dots.",
   "id": "A328152",
   "mentions": [
-    "A002415"
+    "A002415",
+    "A289223"
   ],
   "tags": [
     "easy",

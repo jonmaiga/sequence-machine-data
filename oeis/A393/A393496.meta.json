@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the GCD of the X and Y-coordinates of the n-th point of the square spiral.",
+  "id": "A393496",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A331400"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the abundancy index of sigma(k) is equal to the abundancy index of d(k).",
+  "id": "A392506",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A081357"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

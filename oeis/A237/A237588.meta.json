@@ -1,5 +1,5 @@
 {
-  "description": "Sigma(n) - 2n + 1.",
+  "description": "a(n) = sigma(n) - 2n + 1.",
   "id": "A237588",
   "mentions": [
     "A000079",

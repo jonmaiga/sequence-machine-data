@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the probability that three points uniformly and independently selected at random from the interior of an equilateral triangle form the vertices of an obtuse triangle.",
+  "id": "A394107",
+  "mentions": [
+    "A075549",
+    "A093072",
+    "A093588",
+    "A102519",
+    "A102520",
+    "A244977",
+    "A341942",
+    "A394106"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

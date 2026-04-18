@@ -1,5 +1,5 @@
 {
-  "description": "n^(n+6).",
+  "description": "a(n) = n^(n+6).",
   "id": "A090650",
   "mentions": [
     "A000312",

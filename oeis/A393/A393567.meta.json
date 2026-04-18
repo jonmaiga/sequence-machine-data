@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients of the formal power series quotient of the '5th-order' mock theta function f_0(q) by the 3rd-order mock theta function f(q).",
+  "id": "A393567",
+  "mentions": [
+    "A000025",
+    "A053256"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

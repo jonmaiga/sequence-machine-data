@@ -1,0 +1,15 @@
+{
+  "description": "The largest prime p which is less than n^2 and n is a primitive root modulo p, or 0 if n is a square.",
+  "id": "A394337",
+  "mentions": [
+    "A060749"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,10 @@
 {
-  "description": "Decimal representation of consonants and vowels in English integers mapped to binary 1 and 0.",
+  "description": "Decimal representation of the consonants and vowels in the American English name of n mapped to binary 1 and 0.",
   "id": "A174880",
-  "mentions": [],
+  "mentions": [
+    "A005589",
+    "A037196"
+  ],
   "tags": [
     "base",
     "easy",
@@ -9,8 +12,8 @@
     "word"
   ],
   "terms": {
-    "offset": 1,
-    "size": 58,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
   }
 }

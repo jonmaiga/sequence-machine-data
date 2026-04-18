@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + x*A(x) * (exp(x^2*A(x)^2) - 1).",
+  "id": "A392957",
+  "mentions": [
+    "A392933"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

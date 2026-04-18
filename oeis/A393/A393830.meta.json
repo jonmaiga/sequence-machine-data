@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the difference between the nearest upper and lower odd semiprime neighbors of prime(n), divided by 2.",
+  "id": "A393830",
+  "mentions": [
+    "A046315",
+    "A393820",
+    "A393828",
+    "A393829"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

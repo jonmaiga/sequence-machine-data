@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions p of n into distinct parts such that max(p) >= 3*min(p).",
+  "id": "A393986",
+  "mentions": [
+    "A241036",
+    "A241063",
+    "A393970",
+    "A393971",
+    "A393985"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

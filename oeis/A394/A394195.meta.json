@@ -1,0 +1,24 @@
+{
+  "description": "Number of one-sided polyantelopes with n cells.",
+  "id": "A394195",
+  "mentions": [
+    "A030445",
+    "A093990",
+    "A393390",
+    "A393391",
+    "A393837",
+    "A394194",
+    "A394196",
+    "A394197"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

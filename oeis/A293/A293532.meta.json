@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(x/(x^2 - 1)).",
+  "description": "Expansion of e.g.f. exp(x/(x^2 - 1)).",
   "id": "A293532",
   "mentions": [
     "A000010",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

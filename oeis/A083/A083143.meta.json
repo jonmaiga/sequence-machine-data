@@ -2,6 +2,7 @@
   "description": "Smallest n-digit palindromic multiple of prime(n), or 0 if no such number exists.",
   "id": "A083143",
   "mentions": [
+    "A083123",
     "A083144"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Lesser of two consecutive 7-smooth numbers that are coprime.",
+  "id": "A393603",
+  "mentions": [
+    "A002473",
+    "A353576",
+    "A393604"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

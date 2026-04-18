@@ -1,5 +1,5 @@
 {
-  "description": "Distribution of first digit of mantissa following Benford's Law, using largest remainder method with Droop quotas.",
+  "description": "Distribution of first digit of mantissa following Benford's law, using largest remainder method with Droop quotas.",
   "id": "A055442",
   "mentions": [
     "A055439",

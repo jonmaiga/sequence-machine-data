@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of e^(9/2).",
+  "id": "A392846",
+  "mentions": [
+    "A001113",
+    "A019774",
+    "A067736"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 100,
+    "source": "joeis"
+  }
+}

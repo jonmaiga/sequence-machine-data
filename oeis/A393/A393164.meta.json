@@ -1,0 +1,20 @@
+{
+  "description": "Greatest common divisors of consecutive terms of numbers of the form 2^i*5^j.",
+  "id": "A393164",
+  "mentions": [
+    "A003592",
+    "A112752",
+    "A186711"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

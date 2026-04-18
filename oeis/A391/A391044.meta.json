@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k for which omega(k)*omega(k + 1)*omega(k + 2) = 2 where omega = A001221.",
+  "id": "A391044",
+  "mentions": [
+    "A001221",
+    "A392184"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

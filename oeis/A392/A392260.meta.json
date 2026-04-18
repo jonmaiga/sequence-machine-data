@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + pi(k) + omega(k)^10.",
+  "id": "A392260",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A001221",
+    "A001615",
+    "A390234",
+    "A390235",
+    "A390236",
+    "A392053",
+    "A392054",
+    "A392909",
+    "A393090",
+    "A393091",
+    "A393094"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

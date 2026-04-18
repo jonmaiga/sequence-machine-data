@@ -1,0 +1,28 @@
+{
+  "description": "Number of twelve-prime Carmichael numbers less than 10^n.",
+  "id": "A392847",
+  "mentions": [
+    "A002997",
+    "A006931",
+    "A055553",
+    "A132195",
+    "A174612",
+    "A174613",
+    "A174614",
+    "A174615",
+    "A174616",
+    "A174617",
+    "A299710",
+    "A299711"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 19,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

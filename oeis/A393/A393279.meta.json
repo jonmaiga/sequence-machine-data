@@ -1,0 +1,16 @@
+{
+  "description": "Row 5 of A330942.",
+  "id": "A393279",
+  "mentions": [
+    "A330942"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

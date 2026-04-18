@@ -1,0 +1,16 @@
+{
+  "description": "Composition numbers of biconnected graphs.",
+  "id": "A392292",
+  "mentions": [
+    "A392291",
+    "A392293"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

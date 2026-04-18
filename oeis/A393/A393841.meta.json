@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n-digit terms in A393832.",
+  "id": "A393841",
+  "mentions": [
+    "A097805",
+    "A393832"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

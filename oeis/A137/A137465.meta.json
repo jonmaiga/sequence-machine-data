@@ -2,7 +2,8 @@
   "description": "1 concatenated with n n's concatenated with 1.",
   "id": "A137465",
   "mentions": [
-    "A000461"
+    "A000461",
+    "A075859"
   ],
   "tags": [
     "base",

@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of (25+3*sqrt(69))/2.",
   "id": "A230242",
-  "mentions": [],
+  "mentions": [
+    "A345449"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

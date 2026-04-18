@@ -2,10 +2,14 @@
   "description": "a(n) = gcd(1 + Fibonacci(n+1), 1 + Fibonacci(n)).",
   "id": "A063726",
   "mentions": [
+    "A000032",
     "A000045",
-    "A001611"
+    "A001519",
+    "A001611",
+    "A005248"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

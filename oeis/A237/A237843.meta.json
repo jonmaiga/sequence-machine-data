@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..2 arrays with the maximum minus the lower median of every 2X2 subblock equal.",
+  "description": "Number of (n+1) X (1+1) 0..2 arrays with the maximum minus the lower median of every 2 X 2 subblock equal.",
   "id": "A237843",
   "mentions": [
     "A237850"

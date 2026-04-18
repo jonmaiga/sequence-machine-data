@@ -1,5 +1,5 @@
 {
-  "description": "n_{n+1}.",
+  "description": "a(n) = n_{n+1}.",
   "id": "A122620",
   "mentions": [
     "A122618"

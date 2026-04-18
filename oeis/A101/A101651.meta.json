@@ -1,16 +1,18 @@
 {
-  "description": "a(n)=Product{k=0..n, 1+0^A010060(k)}/2.",
+  "description": "a(n) = Product_{k=0..n} (1 + 0^A010060(k))/2.",
   "id": "A101651",
   "mentions": [
-    "A010060"
+    "A010060",
+    "A245710"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 46,
     "source": "joeis"
   }
 }

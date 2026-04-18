@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1 / ((1-x)^2 - x^6).",
+  "id": "A392541",
+  "mentions": [
+    "A005708",
+    "A192080",
+    "A375278",
+    "A376785",
+    "A390045",
+    "A392542"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

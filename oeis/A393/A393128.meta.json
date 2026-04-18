@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers not of the form floor(k + log(k) + log(Pi)).",
+  "id": "A393128",
+  "mentions": [
+    "A053510"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

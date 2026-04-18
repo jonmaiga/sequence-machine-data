@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of AGM(1-x,1+x), where x=1/(10^27+1).",
+  "description": "Decimal expansion of AGM(1-x,1+x), where x = 1/(10^27+1).",
   "id": "A181693",
   "mentions": [],
   "tags": [

@@ -2,9 +2,21 @@
   "description": "E.g.f. C(x) satisfies: C(x) = cosh( Integral C(x)^7 dx ).",
   "id": "A281440",
   "mentions": [
-    "A281439"
+    "A000010",
+    "A281180",
+    "A281181",
+    "A281183",
+    "A281184",
+    "A281427",
+    "A281428",
+    "A281432",
+    "A281436",
+    "A281439",
+    "A281443",
+    "A281444"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,16 @@
+{
+  "description": "Number of colored partitions of n into distinct parts such that all parts have distinct colors and the color of a part of size i is in {1..i}.",
+  "id": "A392063",
+  "mentions": [
+    "A022629"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

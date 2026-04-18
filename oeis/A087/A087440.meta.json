@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-2x-3x^2)/((1-2x)(1-4x)).",
+  "description": "Expansion of (1-2*x-3*x^2)/((1-2*x)*(1-4*x)).",
   "id": "A087440",
   "mentions": [
     "A000217",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 27,
     "source": "joeis"
   }
 }

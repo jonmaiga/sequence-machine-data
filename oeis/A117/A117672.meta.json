@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that |cos(n)*cos(n+2)| < (cos(n+1))^2.",
+  "description": "Numbers k such that |cos(k)*cos(k+2)| < (cos(k+1))^2.",
   "id": "A117672",
   "mentions": [
     "A026313"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

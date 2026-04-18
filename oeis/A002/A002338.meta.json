@@ -1,5 +1,5 @@
 {
-  "description": "x such that p = (x^2 + 27*y^2)/4, where p is the n-th prime of the form 3k+1.",
+  "description": "x such that p = (x^2 + 27*y^2)/4, where p is the n-th prime of the form 3*k+1.",
   "id": "A002338",
   "mentions": [
     "A002330",

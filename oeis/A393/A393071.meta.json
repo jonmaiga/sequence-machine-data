@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A276086(k) is a multiple of A003415(k) and A276087(k) is a multiple of A327859(k).",
+  "id": "A393071",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A276086",
+    "A276087",
+    "A327859",
+    "A358215",
+    "A358221",
+    "A383303"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

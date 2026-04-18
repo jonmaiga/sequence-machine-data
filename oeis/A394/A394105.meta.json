@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the mean distance between two points uniformly and independently selected at random in a regular dodecahedron of unit volume.",
+  "id": "A394105",
+  "mentions": [
+    "A073012",
+    "A366019",
+    "A394103",
+    "A394104"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

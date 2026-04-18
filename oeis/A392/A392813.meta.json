@@ -1,0 +1,28 @@
+{
+  "description": "The number of even pseudoprimes to base 2 (A006935 without 2) less than 10^n.",
+  "id": "A392813",
+  "mentions": [
+    "A006935",
+    "A055550",
+    "A055551",
+    "A055552",
+    "A055553",
+    "A114245",
+    "A114246",
+    "A114247",
+    "A114248",
+    "A114249",
+    "A114250",
+    "A300418"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

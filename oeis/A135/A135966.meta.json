@@ -2,9 +2,18 @@
   "description": "Triangle, read by rows, where T(n,k) = fibonacci(k(n-k) + 1) for n>=k>=0.",
   "id": "A135966",
   "mentions": [
+    "A000012",
+    "A000045",
+    "A033887",
+    "A033889",
+    "A099100",
+    "A122367",
+    "A134493",
+    "A134499",
     "A135967"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

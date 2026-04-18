@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies [x^n] exp( -n*A(x) ) / (1-n^2*x)^(1/n) = 0, for n >= 1.",
+  "id": "A395074",
+  "mentions": [
+    "A319938",
+    "A320414",
+    "A395024",
+    "A395075"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

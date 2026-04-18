@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that normalizer of Gamma_0(n) is a triangle group.",
+  "description": "Numbers k such that normalizer of Gamma_0(k) is a triangle group.",
   "id": "A018231",
   "mentions": [
     "A018228",

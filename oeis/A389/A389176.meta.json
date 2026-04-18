@@ -1,14 +1,17 @@
 {
   "description": "Number of mutual-visibility sets in the n-antiprism graph.",
   "id": "A389176",
-  "mentions": [],
+  "mentions": [
+    "A389184"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "joeis"
   }
 }

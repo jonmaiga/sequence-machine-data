@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(3*n/17)} binomial(3*n-16*k,k).",
+  "id": "A392352",
+  "mentions": [
+    "A001018",
+    "A033887",
+    "A052544",
+    "A099234",
+    "A190525",
+    "A373638",
+    "A373640",
+    "A373718",
+    "A392349",
+    "A392350",
+    "A392351"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

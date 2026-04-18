@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that all integers in the interval (n-2*sqrt(sqrt(n)), n] are composite.",
+  "description": "Numbers k such that all integers in the interval (k-2*sqrt(sqrt(k)), k] are composite.",
   "id": "A192226",
   "mentions": [
     "A008995",

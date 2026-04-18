@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Pell(Pell(n)) where Pell(n) = A000129(n).",
+  "id": "A393297",
+  "mentions": [
+    "A000129",
+    "A005371",
+    "A007570",
+    "A061306",
+    "A111415",
+    "A273399"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

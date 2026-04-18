@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A373842(k) >= k, where A373842 is the arithmetic derivative of the primorial base log-function.",
+  "id": "A391927",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A373842",
+    "A373847",
+    "A391938"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

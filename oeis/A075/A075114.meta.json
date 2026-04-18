@@ -1,5 +1,5 @@
 {
-  "description": "Perfect powers n such that 2n + 1 is a perfect power; the value of y^b in the solution of the Diophantine equation x^a - 2y^b = 1.",
+  "description": "Perfect powers k such that 2*k + 1 is a perfect power; the value of y^b in the solution of the Diophantine equation x^a - 2y^b = 1.",
   "id": "A075114",
   "mentions": [
     "A001541",

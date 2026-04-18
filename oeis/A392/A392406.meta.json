@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the maximum possible number of extensions of a sequence of any n integers, where an extension is the runs-resistance of the sequence including all previous extensions.",
+  "id": "A392406",
+  "mentions": [
+    "A318928",
+    "A319412",
+    "A319414",
+    "A319415",
+    "A319416",
+    "A327662",
+    "A329745",
+    "A329768",
+    "A333628",
+    "A333629",
+    "A350952",
+    "A351013",
+    "A351016",
+    "A351017",
+    "A351205",
+    "A353427"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

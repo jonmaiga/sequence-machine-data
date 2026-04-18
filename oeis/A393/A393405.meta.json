@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the middle parts in the partitions of n into 3 parts whose smallest part is odd.",
+  "id": "A393405",
+  "mentions": [
+    "A309683",
+    "A309684",
+    "A393410"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

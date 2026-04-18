@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with squarefree kernel 210 such that both k-1 and k+1 are prime.",
+  "id": "A392030",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A014574",
+    "A027856",
+    "A147571",
+    "A386252"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

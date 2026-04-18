@@ -1,0 +1,15 @@
+{
+  "description": "Anarboricity of the n-triangular honeycomb rook graph.",
+  "id": "A393083",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

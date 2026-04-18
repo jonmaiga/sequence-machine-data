@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes of the form b^2 + (b+1)^2 for b <= 10^n.",
+  "id": "A392244",
+  "mentions": [
+    "A006880",
+    "A027861",
+    "A199401",
+    "A206709",
+    "A331941"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

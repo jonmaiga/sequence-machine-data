@@ -1,0 +1,16 @@
+{
+  "description": "The maximal coefficient in the expansion of Product_{j=0..n} (Sum_{k=1..2^j} x_k).",
+  "id": "A393804",
+  "mentions": [
+    "A006125",
+    "A349404"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

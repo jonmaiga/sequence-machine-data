@@ -1,0 +1,16 @@
+{
+  "description": "Numbers x such that for some y, a divisor of x such that 1",
+  "id": "A392559",
+  "mentions": [
+    "A000040",
+    "A280270"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

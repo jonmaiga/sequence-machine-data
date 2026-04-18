@@ -1,0 +1,26 @@
+{
+  "description": "Semiperfect numbers that cannot be represented as a sum of their nontrivial divisors.",
+  "id": "A392910",
+  "mentions": [
+    "A000396",
+    "A005835",
+    "A006036",
+    "A064771",
+    "A122036",
+    "A136446",
+    "A306987",
+    "A308710",
+    "A339343",
+    "A392911",
+    "A392912"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

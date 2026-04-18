@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that 4*p + 9 is also prime.",
   "id": "A023216",
-  "mentions": [],
+  "mentions": [
+    "A111199"
+  ],
   "tags": [
     "easy",
     "nonn"

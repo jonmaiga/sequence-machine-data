@@ -1,0 +1,29 @@
+{
+  "description": "Even positive integers whose canonical prime factorization p_1^e_1*...*p_r^e_r satisfies that {p_1, ..., p_r, e_1, ..., e_r} is a set of 2*r consecutive integers.",
+  "id": "A392046",
+  "mentions": [
+    "A097320",
+    "A111774",
+    "A382330",
+    "A383397",
+    "A387172",
+    "A387586",
+    "A389339",
+    "A389340",
+    "A389795",
+    "A390784",
+    "A392045",
+    "A392047"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

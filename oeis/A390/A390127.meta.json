@@ -1,0 +1,29 @@
+{
+  "description": "Powers k^m, m >= 4, of squarefree composite k.",
+  "id": "A390127",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A013929",
+    "A024619",
+    "A036967",
+    "A120944",
+    "A126706",
+    "A131605",
+    "A177493",
+    "A286708",
+    "A303606",
+    "A388304",
+    "A390126"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

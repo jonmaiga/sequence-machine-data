@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: A(x) = G(G(x)) = G(x)*[1 + A(A(x))] where G(x) = x + x*G(G(G(x))) = g.f. of A091713.",
+  "description": "G.f.: A(x) = G(G(x)) = G(x)*(1 + A(A(x))) where G(x) = x + x*G(G(G(x))) = g.f. of A091713.",
   "id": "A141117",
   "mentions": [
     "A091713"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

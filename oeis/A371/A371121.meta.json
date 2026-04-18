@@ -2,6 +2,7 @@
   "description": "E.g.f. satisfies A(x) = 1 - x*A(x)*log(1 - x*A(x)).",
   "id": "A371121",
   "mentions": [
+    "A001622",
     "A370993",
     "A371117",
     "A371119",

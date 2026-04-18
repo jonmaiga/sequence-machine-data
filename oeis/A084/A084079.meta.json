@@ -1,15 +1,16 @@
 {
-  "description": "Sum of absolute values of lists created by n substitutions k -> Range[ -Abs[k+1],Abs[k-1],2] starting with {1}.",
+  "description": "Sum of absolute values of lists created by n substitutions k -> Range(-abs(k+1),abs(k-1),2) starting with {1}.",
   "id": "A084079",
   "mentions": [
     "A084075"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

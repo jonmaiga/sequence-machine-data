@@ -1,0 +1,18 @@
+{
+  "description": "The number of 2-dense numbers <= n where the 2-dense numbers are A174973.",
+  "id": "A392987",
+  "mentions": [
+    "A174973",
+    "A225559",
+    "A365429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

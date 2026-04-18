@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k for which the number of divisors d of k such that A000005(d*k) = A000005(k + d) is equal to n, or -1 if no such k exists.",
+  "id": "A389254",
+  "mentions": [
+    "A000005"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

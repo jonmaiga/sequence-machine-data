@@ -2,7 +2,8 @@
   "description": "a(n) = 16*(n-1)*((2*n-3)*a(n-1) + (((-1)^n)/9)*Product_{k=0..n-1} (2*k-3)^2) with a(0) = 0.",
   "id": "A302116",
   "mentions": [
-    "A302115"
+    "A302115",
+    "A302117"
   ],
   "tags": [
     "formulas",

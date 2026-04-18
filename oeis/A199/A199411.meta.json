@@ -1,5 +1,5 @@
 {
-  "description": "8*6^n+1.",
+  "description": "a(n) = 8*6^n+1.",
   "id": "A199411",
   "mentions": [],
   "tags": [

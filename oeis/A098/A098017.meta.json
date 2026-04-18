@@ -1,14 +1,14 @@
 {
-  "description": "M={{0, 1, -1, 1}, {-1, 0, 1, -1}, {1, -1, 0, 1}, {-1, 1, -1, 0}}; a(n) =M*a(n-1); a(0):={{0, 1, 1, 2}, {1, 1, 2, 3}, {1, 2, 3, 5}, {2, 3, 5, 8}}.",
+  "description": "Absolute values of elements of flattened successive matrices B(k), k>=2, read by rows where B(k) = M^k*C, where M=[[0, 1, -1, 1], [-1, 0, 1, -1], [1, -1, 0, 1], [-1, 1, -1, 0]] and C = [[0, 1, 1, 2], [1, 1, 2, 3], [1, 2, 3, 5], [2, 3, 5, 8]].",
   "id": "A098017",
   "mentions": [],
   "tags": [
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 2,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

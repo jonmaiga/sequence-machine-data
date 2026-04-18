@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 = p^3 + q^3, p, q primes (p<=q).",
+  "description": "Numbers k such that k^2 = p^3 + q^3, p, q primes (p<=q).",
   "id": "A145767",
   "mentions": [
     "A086119",
@@ -7,12 +7,11 @@
     "A145798"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

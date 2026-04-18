@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that there is a reversible prime of the form 10^k - 2*10^m - 1.",
+  "id": "A393129",
+  "mentions": [
+    "A002385",
+    "A004086",
+    "A006567",
+    "A077798",
+    "A173594",
+    "A393126",
+    "A393130",
+    "A393131"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

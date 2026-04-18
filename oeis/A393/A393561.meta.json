@@ -1,0 +1,28 @@
+{
+  "description": "Smallest prime p such that p+1 starts a run of exactly n consecutive numbers having exactly the same number of divisors.",
+  "id": "A393561",
+  "mentions": [
+    "A005237",
+    "A006558",
+    "A006601",
+    "A049051",
+    "A049052",
+    "A049053",
+    "A067889",
+    "A119711",
+    "A119728",
+    "A119730",
+    "A119740",
+    "A391384"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

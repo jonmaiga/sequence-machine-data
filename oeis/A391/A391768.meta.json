@@ -1,0 +1,17 @@
+{
+  "description": "Records k >= 3 such that log((k-1)!)/log(k) is closer to an integer than any m < k.",
+  "id": "A391768",
+  "mentions": [
+    "A248868"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

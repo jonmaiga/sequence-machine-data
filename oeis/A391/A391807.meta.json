@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that the residues mod 3 of the primes prime(k), prime(k+1),... include a string of n 1's followed by 2.",
+  "id": "A391807",
+  "mentions": [
+    "A039701",
+    "A390511",
+    "A391796"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

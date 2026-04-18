@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of vertices that ever have chips in a layer in a certain chip-firing game that starts with 2^n chips and is described in the comments.",
+  "id": "A390355",
+  "mentions": [
+    "A259013",
+    "A376131",
+    "A378726",
+    "A389565",
+    "A390129"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

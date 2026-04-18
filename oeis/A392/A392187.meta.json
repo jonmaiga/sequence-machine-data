@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the minimum determinant of an n X n circulant matrix whose rows are permutations of [1, 2, ..., n].",
+  "id": "A392187",
+  "mentions": [
+    "A309257",
+    "A328030",
+    "A392131",
+    "A392188",
+    "A392189",
+    "A392191"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

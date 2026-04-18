@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = f(n,k,2) where f(n,k,m) = Sum_{j=k-1..n-1} binomial(n,j) * f(j+1,k,m-1) with f(n,k,0) = [n = k].",
+  "id": "A392735",
+  "mentions": [
+    "A000225",
+    "A000290",
+    "A074909",
+    "A091344"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -2,20 +2,37 @@
   "description": "Odd numbers with an odd number of prime factors (counted with multiplicity).",
   "id": "A067019",
   "mentions": [
+    "A002556",
     "A005408",
     "A016825",
     "A026424",
+    "A036348",
     "A046337",
+    "A056912",
+    "A063745",
+    "A098903",
+    "A166698",
+    "A335657",
     "A353558",
     "A358669",
-    "A358765"
+    "A358765",
+    "A359151",
+    "A359153",
+    "A359373",
+    "A359772",
+    "A366371",
+    "A369258",
+    "A369966",
+    "A373142",
+    "A381218"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

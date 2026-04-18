@@ -1,0 +1,16 @@
+{
+  "description": "Position where n first occurs in A393336.",
+  "id": "A393797",
+  "mentions": [
+    "A393336"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

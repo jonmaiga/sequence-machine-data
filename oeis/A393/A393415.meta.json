@@ -1,0 +1,16 @@
+{
+  "description": "Least prime summand of A254859.",
+  "id": "A393415",
+  "mentions": [
+    "A254859",
+    "A393388"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

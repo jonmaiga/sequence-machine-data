@@ -1,5 +1,5 @@
 {
-  "description": "Uniquification of A026998.",
+  "description": "Distinct values of A026998.",
   "id": "A026999",
   "mentions": [
     "A026998",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

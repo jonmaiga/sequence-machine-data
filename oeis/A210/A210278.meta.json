@@ -1,5 +1,5 @@
 {
-  "description": "(5n)!/5^n.",
+  "description": "a(n) = (5n)!/5^n.",
   "id": "A210278",
   "mentions": [
     "A000680",

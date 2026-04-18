@@ -2,9 +2,10 @@
   "description": "4-dimensional centered cube numbers.",
   "id": "A008514",
   "mentions": [
+    "A000124",
     "A002061",
     "A047838",
-    "A152913"
+    "A069129"
   ],
   "tags": [
     "easy",

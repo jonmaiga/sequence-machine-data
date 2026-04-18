@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1 thereafter a(n) = floor(k(n)^n) where k(n) = a(1).a(2)a(3)...a(n-1) = 1.111... is the decimal digit concatenation of all preceding terms.",
+  "id": "A390457",
+  "mentions": [
+    "A094996"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

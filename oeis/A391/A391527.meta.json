@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of quadratic polynomials with coefficients in {-n, ..., n}, positive leading coefficient, and having two rational roots.",
+  "id": "A391527",
+  "mentions": [
+    "A391108",
+    "A391597",
+    "A392944"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

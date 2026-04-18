@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first positive number that is the sum of a prime and the reverse of a prime in exactly n ways.",
+  "id": "A393602",
+  "mentions": [
+    "A000040",
+    "A074895",
+    "A391563"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

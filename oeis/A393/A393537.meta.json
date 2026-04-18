@@ -1,0 +1,28 @@
+{
+  "description": "a(0) = 1, a(n) = prime(n)^n * Product_{i=n+1..2*n-1} prime(i).",
+  "id": "A393537",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001222",
+    "A006530",
+    "A007947",
+    "A020639",
+    "A094727",
+    "A303557",
+    "A332785",
+    "A391025",
+    "A392970",
+    "A393102"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Squares with distinct digits.",
+  "id": "A392242",
+  "mentions": [
+    "A000290",
+    "A052046",
+    "A052062",
+    "A078255",
+    "A119509",
+    "A392480"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the conjectured largest number such that both a(n) and a(n) - n are 5-smooth numbers, or 0 if no such number exists.",
+  "id": "A391077",
+  "mentions": [
+    "A002072",
+    "A006530",
+    "A051037",
+    "A219794",
+    "A392256"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 7*a(n-1) + 2*7^n - 1, a(0) = 0.",
+  "id": "A392138",
+  "mentions": [
+    "A392136"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

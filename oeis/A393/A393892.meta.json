@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 - (p-1)/(p^6*(p+1))).",
+  "id": "A393892",
+  "mentions": [
+    "A004709",
+    "A013661",
+    "A021016",
+    "A077610",
+    "A306071",
+    "A343359",
+    "A393891",
+    "A393893",
+    "A393894",
+    "A393895",
+    "A393896",
+    "A393897",
+    "A393898",
+    "A393899",
+    "A393900"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

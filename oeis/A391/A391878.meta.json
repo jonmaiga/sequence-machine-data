@@ -1,0 +1,19 @@
+{
+  "description": "The number of vacuously transitive relations on an n-set.",
+  "id": "A391878",
+  "mentions": [
+    "A000079",
+    "A001831",
+    "A002416",
+    "A006905"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

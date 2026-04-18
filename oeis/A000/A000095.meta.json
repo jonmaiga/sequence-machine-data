@@ -1,11 +1,18 @@
 {
-  "description": "Number of fixed points of GAMMA_0 (n) of type i.",
+  "description": "Number of fixed points of Gamma_0 (n) of type i.",
   "id": "A000095",
   "mentions": [
     "A000089",
     "A027748",
     "A060294",
-    "A124010"
+    "A086831",
+    "A091379",
+    "A124010",
+    "A130779",
+    "A166486",
+    "A192450",
+    "A256452",
+    "A350872"
   ],
   "tags": [
     "easy",

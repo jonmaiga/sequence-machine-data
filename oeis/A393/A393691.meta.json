@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Integral_{x=1..e} log(log(x))/(1+x^2) dx (negated).",
+  "id": "A393691",
+  "mentions": [
+    "A091476",
+    "A115252",
+    "A388042",
+    "A390125",
+    "A393630"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

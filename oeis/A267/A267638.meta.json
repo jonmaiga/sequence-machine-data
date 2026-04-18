@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..1 arrays with every repeated value in every row and column unequal to the previous repeated value, and new values introduced in row-major sequential order.",
+  "description": "Number of n X 2 0..1 arrays with every repeated value in every row and column unequal to the previous repeated value, and new values introduced in row-major sequential order.",
   "id": "A267638",
   "mentions": [
     "A267644"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 33,
     "source": "joeis"
   }
 }

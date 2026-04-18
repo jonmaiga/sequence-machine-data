@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (P(2) + P(4))/zeta(2), where P is the prime zeta function.",
+  "id": "A394713",
+  "mentions": [
+    "A013661",
+    "A085548",
+    "A085964",
+    "A268335"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

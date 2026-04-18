@@ -1,5 +1,5 @@
 {
-  "description": "Table of coefficients in row functions R(n,x) such that [x^k] exp( k^n * x ) / R(n,x) = 0 for k>=1 and n>=1.",
+  "description": "Table read by ascending antidiagonals of coefficients in row functions R(n,x) such that [x^k] exp( k^n * x ) / R(n,x) = 0 for k>=1 and n>=1.",
   "id": "A304320",
   "mentions": [
     "A304321",
@@ -7,7 +7,11 @@
     "A304323",
     "A304324",
     "A304325",
-    "A337551"
+    "A337551",
+    "A393846",
+    "A393847",
+    "A393848",
+    "A393849"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + pi(k) + omega(k)^3.",
+  "id": "A390236",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A001221",
+    "A001615",
+    "A390234",
+    "A390235"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

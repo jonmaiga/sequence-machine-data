@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers whose binary representation can be reduced to length zero by removing palindromic substrings of length at least 2.",
+  "id": "A390504",
+  "mentions": [
+    "A006995"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

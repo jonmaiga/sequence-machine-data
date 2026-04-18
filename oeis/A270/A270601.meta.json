@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular 0..3 arrays with some element plus some adjacent element totalling 3+1 or 3-1 exactly once.",
+  "description": "Number of n X n X n triangular 0..3 arrays with some element plus some adjacent element totalling 3+1 or 3-1 exactly once.",
   "id": "A270601",
   "mentions": [
     "A270606"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

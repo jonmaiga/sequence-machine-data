@@ -1,0 +1,20 @@
+{
+  "description": "Odd squares k such that k has an odd number of digits and the sum of digits of k is an odd number.",
+  "id": "A392730",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001633",
+    "A028982",
+    "A054684"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

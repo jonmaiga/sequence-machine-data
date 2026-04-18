@@ -1,0 +1,19 @@
+{
+  "description": "Odd squarefree integers with at least 3 prime factors.",
+  "id": "A392008",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A046389",
+    "A350352",
+    "A392009"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. Series_Reversion(1 - exp(-x) - x^4).",
+  "id": "A392721",
+  "mentions": [
+    "A143155",
+    "A392719",
+    "A392722"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

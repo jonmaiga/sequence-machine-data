@@ -1,0 +1,20 @@
+{
+  "description": "Squares which are the concatenation of two or more powers of 2.",
+  "id": "A392102",
+  "mentions": [
+    "A000290",
+    "A272884",
+    "A381259",
+    "A392101"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

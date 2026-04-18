@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the circumradius of an uniform octagonal antiprism with unit edges.",
+  "id": "A394537",
+  "mentions": [
+    "A387320",
+    "A387323",
+    "A394534",
+    "A394535",
+    "A394536",
+    "A394538"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Number of positive integers <= 2^n of form x^2 + 9 y^2.",
   "id": "A054153",
   "mentions": [
+    "A000079",
     "A020672"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

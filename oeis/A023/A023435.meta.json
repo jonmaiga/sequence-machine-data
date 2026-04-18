@@ -2,12 +2,14 @@
   "description": "Dying rabbits: a(n) = a(n-1) + a(n-2) - a(n-5).",
   "id": "A023435",
   "mentions": [
+    "A000930",
     "A013979",
     "A035317",
     "A077864",
     "A180662"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

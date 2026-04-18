@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2*n*binomial(n, 4).",
+  "id": "A391978",
+  "mentions": [
+    "A027764"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

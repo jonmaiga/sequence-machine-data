@@ -1,0 +1,23 @@
+{
+  "description": "Number of horizontally symmetric reduced Latin squares of order 2n.",
+  "id": "A394485",
+  "mentions": [
+    "A000315",
+    "A005154",
+    "A065982",
+    "A287649",
+    "A287650",
+    "A336412",
+    "A351413",
+    "A394486"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

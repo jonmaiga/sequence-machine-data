@@ -1,5 +1,5 @@
 {
-  "description": "Integers with \"even\" Zeckendorf expansions (do not end with ...+F_2 = ...+1) (the Fibonacci-even numbers); also, apart from first term, a(n) = Fibonacci successor to n-1.",
+  "description": "Integers with \"even\" Zeckendorf expansions (do not end with ... + F_2 = ... + 1) (the Fibonacci-even numbers); also, apart from first term, a(n) = Fibonacci successor to n-1.",
   "id": "A022342",
   "mentions": [
     "A000201",
@@ -19,6 +19,7 @@
     "A035336",
     "A035516",
     "A035612",
+    "A060143",
     "A062879",
     "A066096",
     "A088462",

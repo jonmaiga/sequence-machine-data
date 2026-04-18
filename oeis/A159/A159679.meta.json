@@ -1,5 +1,5 @@
 {
-  "description": "a(n) are solutions of the 2 equations: 7*a(n) +1 = c(n)^2 and 9*a(n) +1 = b(n)^2.",
+  "description": "a(n) are solutions of the 2 equations: 7*a(n) +1 = c(n)^2 and 9*a(n) + 1 = b(n)^2.",
   "id": "A159679",
   "mentions": [
     "A077412",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

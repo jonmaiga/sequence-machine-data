@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(k+1,2*n-4*k+1).",
+  "id": "A392489",
+  "mentions": [
+    "A005314",
+    "A122514",
+    "A390020",
+    "A392490",
+    "A392491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

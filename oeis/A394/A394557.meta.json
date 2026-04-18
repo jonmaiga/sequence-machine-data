@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies [x^n] exp(n^3*x) (1 - E^3(x*A(x))) = 0 for n > 0, where E is the Euler operator x*d/dx.",
+  "id": "A394557",
+  "mentions": [
+    "A107669",
+    "A107675",
+    "A304396",
+    "A304397"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

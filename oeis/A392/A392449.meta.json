@@ -1,0 +1,26 @@
+{
+  "description": "The number of exponential unitary (or e-unitary) divisors of n that are squares.",
+  "id": "A392449",
+  "mentions": [
+    "A010052",
+    "A034444",
+    "A056624",
+    "A065803",
+    "A068068",
+    "A278908",
+    "A323239",
+    "A361255",
+    "A384557"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers whose base-3, base-5, and base-7 expansions have the same digit sum.",
+  "id": "A390225",
+  "mentions": [
+    "A037310",
+    "A037312",
+    "A037323",
+    "A053735",
+    "A053824",
+    "A053828",
+    "A135127"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangular array read by rows: row n shows the coefficients in the expansion of the n-th derivative of tan(x) as a linear combination of products of powers of sec(x)^2 and tan(x).",
+  "id": "A392124",
+  "mentions": [
+    "A000182",
+    "A008303",
+    "A155100",
+    "A392676"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

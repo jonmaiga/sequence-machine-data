@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th cyclotomic polynomial has no root mod p for all primes p <= n.",
+  "description": "Numbers k such that the k-th cyclotomic polynomial has no root mod p for all primes p <= k.",
   "id": "A253235",
   "mentions": [
     "A000079",

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{p prime, k>=0} 1/(p^(2^(k+1)) + 2*p^(2^k)) * Product_{p prime} ((1-1/p)^2 * Product_{k>=0} (1 + 2/p^(2^k))).",
+  "id": "A393951",
+  "mentions": [
+    "A050376",
+    "A065472",
+    "A077609",
+    "A393948",
+    "A393949",
+    "A393950",
+    "A393952",
+    "A393953"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

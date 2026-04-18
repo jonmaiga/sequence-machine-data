@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of generalized Stirling numbers of the first kind.",
+  "description": "Triangle of generalized Stirling numbers of the first kind read by rows: T(n, k) = (-1)^(n+k)*Sum_{m=0..n} Stirling1(n, m) * binomial(m, k), where Stirling1 is A048994.",
   "id": "A094645",
   "mentions": [
     "A000007",
@@ -11,6 +11,7 @@
     "A001730",
     "A006232",
     "A027642",
+    "A048994",
     "A049388",
     "A049389",
     "A049398",

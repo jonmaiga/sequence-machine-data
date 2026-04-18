@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [n] having exactly one block size whose multiplicity equals its size.",
+  "id": "A392503",
+  "mentions": [
+    "A000110",
+    "A391611"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Achilles numbers with more than 2 distinct prime factors.",
+  "id": "A393708",
+  "mentions": [
+    "A000977",
+    "A001694",
+    "A013929",
+    "A024619",
+    "A052486",
+    "A126706",
+    "A286708",
+    "A375055",
+    "A390950"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

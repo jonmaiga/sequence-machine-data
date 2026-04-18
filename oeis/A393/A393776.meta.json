@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 2 * BesselI(2, 2) - 1.",
+  "id": "A393776",
+  "mentions": [
+    "A007623",
+    "A070910",
+    "A096789",
+    "A162991",
+    "A229020",
+    "A230403",
+    "A393777"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

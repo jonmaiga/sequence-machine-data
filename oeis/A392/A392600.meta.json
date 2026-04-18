@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A327860(n) mod 360, where A327860 is the arithmetic derivative of the primorial base exp-function.",
+  "id": "A392600",
+  "mentions": [
+    "A003415",
+    "A166486",
+    "A276086",
+    "A327860",
+    "A353630",
+    "A392596"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

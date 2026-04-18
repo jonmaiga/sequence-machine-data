@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows giving successive states of the Code 10 1-D cellular automaton when started from a single ON cell.",
+  "id": "A393631",
+  "mentions": [
+    "A070950",
+    "A393632"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

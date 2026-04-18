@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A028234(A276086(n)), where the A276086 is the primorial base exp-function, and A028234 completely removes the smallest prime factor of its argument.",
+  "id": "A392858",
+  "mentions": [
+    "A028234",
+    "A060735",
+    "A276086",
+    "A324895",
+    "A392613"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

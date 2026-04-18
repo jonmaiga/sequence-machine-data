@@ -1,13 +1,15 @@
 {
-  "description": "n! has a palindromic prime number of digits.",
+  "description": "Numbers k such that k! has a palindromic prime number of digits.",
   "id": "A035067",
   "mentions": [
     "A000142",
-    "A035068"
+    "A002385",
+    "A034886",
+    "A035065",
+    "A333598"
   ],
   "tags": [
     "base",
-    "hard",
     "nonn"
   ],
   "terms": {

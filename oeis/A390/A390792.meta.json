@@ -1,0 +1,14 @@
+{
+  "description": "Number of cyclic edge cuts in the n-necklace graph.",
+  "id": "A390792",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

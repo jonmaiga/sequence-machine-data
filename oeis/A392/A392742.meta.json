@@ -1,0 +1,18 @@
+{
+  "description": "A 4-automatic binary sequence with irreducible nested recurrence (see Comments).",
+  "id": "A392742",
+  "mentions": [
+    "A010060",
+    "A392736"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

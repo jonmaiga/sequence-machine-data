@@ -1,14 +1,15 @@
 {
-  "description": "2^(n-1) - n*(n+1)/2.",
+  "description": "a(n) = 2^(n-1) - n*(n+1)/2.",
   "id": "A014846",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

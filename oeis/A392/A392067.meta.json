@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the limit mean of the number of continued fraction coefficients required per decimal digit for the golden ratio.",
+  "id": "A392067",
+  "mentions": [
+    "A001622",
+    "A086819"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

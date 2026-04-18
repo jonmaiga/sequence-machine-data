@@ -2,7 +2,9 @@
   "description": "Continued fraction for sqrt(28).",
   "id": "A040022",
   "mentions": [
-    "A010483"
+    "A010483",
+    "A041044",
+    "A041045"
   ],
   "tags": [
     "cofr",

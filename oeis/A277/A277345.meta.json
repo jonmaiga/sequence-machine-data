@@ -2,7 +2,10 @@
   "description": "a(n) = Gamma(n+1, phi)*exp(phi) + Gamma(n+1, 1-phi)*exp(1-phi), where phi=(1+sqrt(5))/2.",
   "id": "A277345",
   "mentions": [
-    "A263823"
+    "A000032",
+    "A111139",
+    "A263823",
+    "A328344"
   ],
   "tags": [
     "formulas",
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

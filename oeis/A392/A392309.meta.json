@@ -1,0 +1,17 @@
+{
+  "description": "First row in which A392308(n) appears in the irregular triangle A392306; i.e., first k for which A392308(n) * sigma_k(A392308(n)) == 2 (mod phi(A392308(n))).",
+  "id": "A392309",
+  "mentions": [
+    "A392306",
+    "A392307",
+    "A392308"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

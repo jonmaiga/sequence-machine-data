@@ -1,0 +1,20 @@
+{
+  "description": "Largest y solution to Mordell's equation y^2 = x^3 - n for some integer x, -1 if no such y exists.",
+  "id": "A394625",
+  "mentions": [
+    "A081119",
+    "A081120",
+    "A081121",
+    "A134109",
+    "A394624"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

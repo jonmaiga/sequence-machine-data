@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer compositions of n with all distinct 0-based partial alternating sums.",
+  "id": "A392703",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000070",
+    "A053251",
+    "A097805",
+    "A261983",
+    "A344610",
+    "A345197",
+    "A390446",
+    "A390567",
+    "A390673",
+    "A390676",
+    "A391620",
+    "A391629",
+    "A391981",
+    "A392695",
+    "A392697",
+    "A392698",
+    "A392701",
+    "A392702",
+    "A392704",
+    "A392707",
+    "A392708",
+    "A392709"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

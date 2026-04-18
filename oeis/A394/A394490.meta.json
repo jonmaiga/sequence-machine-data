@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x/(1 + 5*x)^(3/5) ).",
+  "id": "A394490",
+  "mentions": [
+    "A394488",
+    "A394489",
+    "A394491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

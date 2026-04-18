@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (1/zeta(4)) * Sum_{p prime} 1/(p^4-1).",
+  "id": "A394715",
+  "mentions": [
+    "A013662",
+    "A056798",
+    "A393651",
+    "A393899"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

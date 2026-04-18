@@ -1,8 +1,8 @@
 {
-  "description": "Primes of the form prime(n)^2 + n.",
+  "description": "Primes of the form prime(k)^2 + k.",
   "id": "A212304",
   "mentions": [
-    "A000040",
+    "A064361",
     "A184935",
     "A188831",
     "A229203"

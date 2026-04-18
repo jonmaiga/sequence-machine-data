@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of [n] in which exactly one third of the elements are primes and one third of the elements are squares.",
+  "id": "A393944",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A037031",
+    "A102366"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

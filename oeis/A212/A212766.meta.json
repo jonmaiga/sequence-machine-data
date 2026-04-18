@@ -2,6 +2,7 @@
   "description": "Number of (w,x,y,z) with all terms in {0,...,n}, w even and x odd.",
   "id": "A212766",
   "mentions": [
+    "A210379",
     "A211795"
   ],
   "tags": [

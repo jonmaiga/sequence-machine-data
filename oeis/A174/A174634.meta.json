@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = 3^n*F(n+2).",
+  "description": "a(n) = 3^n * Fibonacci(n+2).",
   "id": "A174634",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A000244"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 25,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "4^n + 3^n - 1.",
+  "description": "a(n) = 4^n + 3^n - 1.",
   "id": "A155602",
   "mentions": [
     "A020515",

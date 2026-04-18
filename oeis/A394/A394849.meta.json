@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 24/(Pi^2 - 6).",
+  "id": "A394849",
+  "mentions": [
+    "A002388"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

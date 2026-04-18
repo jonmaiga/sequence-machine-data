@@ -1,7 +1,9 @@
 {
   "description": "Binomial coefficient C(7n,n-3).",
   "id": "A004371",
-  "mentions": [],
+  "mentions": [
+    "A004372"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers such that the least prime not dividing their arithmetic derivative is 5.",
+  "id": "A393045",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A053669",
+    "A235991",
+    "A276084",
+    "A393041",
+    "A393043",
+    "A393046",
+    "A393047"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

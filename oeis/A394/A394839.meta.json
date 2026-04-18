@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the probability that the distance between two points chosen independently and uniformly at random from a half-disk is less than the radius.",
+  "id": "A394839",
+  "mentions": [
+    "A102519",
+    "A130203",
+    "A258147",
+    "A394838"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

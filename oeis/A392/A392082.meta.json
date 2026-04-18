@@ -1,0 +1,17 @@
+{
+  "description": "Number of graceful Prüfer codes on n vertices with n-1 in the first position of the code.",
+  "id": "A392082",
+  "mentions": [
+    "A033472"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

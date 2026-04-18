@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..n*4-1 arrays with upper left zero and lower right n*4-1 and each element differing from its horizontal, vertical and diagonal neighbors by a power of two.",
+  "description": "Number of n X 4 0..n*4-1 arrays with upper left zero and lower right n*4-1 and each element differing from its horizontal, vertical and diagonal neighbors by a power of two.",
   "id": "A265490",
   "mentions": [
     "A265494"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of ways to successively choose subsets of sizes equal to the proper divisors of n from [n], each choice taken from the remaining elements.",
+  "id": "A393359",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007318",
+    "A007837",
+    "A023645",
+    "A027750",
+    "A038041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

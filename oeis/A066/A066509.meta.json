@@ -1,8 +1,9 @@
 {
-  "description": "a(n) is the first of a triple of consecutive integers, each of which is both the product of three distinct primes and also the product of three primes counted with multiplicity.",
+  "description": "a(n) is the first of a triple of consecutive integers, each of which is the product of three distinct primes.",
   "id": "A066509",
   "mentions": [
     "A005238",
+    "A007304",
     "A007675",
     "A052214",
     "A168626",

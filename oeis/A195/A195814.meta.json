@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which use half of the ten digits such that they have at least one factorization n=p*q that uses remaining half of the digits that are not in n.",
+  "description": "Numbers k which use half of the ten digits such that they have at least one factorization k=p*q that uses remaining half of the digits that are not in k.",
   "id": "A195814",
   "mentions": [],
   "tags": [

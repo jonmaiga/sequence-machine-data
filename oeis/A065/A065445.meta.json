@@ -1,11 +1,13 @@
 {
-  "description": "Decimal expansion of Product{k=0..inf} (1+1/2^(2k))^(1/2).",
+  "description": "Decimal expansion of Product_{k>=0} (1+1/2^(2k))^(1/2).",
   "id": "A065445",
   "mentions": [
-    "A065045"
+    "A065045",
+    "A371748"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,16 @@
+{
+  "description": "Number of mutual-visibility sets in the n X n grid graph.",
+  "id": "A392418",
+  "mentions": [
+    "A392417"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

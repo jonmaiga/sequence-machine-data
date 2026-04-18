@@ -1,5 +1,5 @@
 {
-  "description": "3^n+3n4^(n-1).",
+  "description": "a(n) = 3^n + 3*n*4^(n-1).",
   "id": "A086091",
   "mentions": [
     "A086090",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

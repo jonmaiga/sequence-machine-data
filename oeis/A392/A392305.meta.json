@@ -1,0 +1,19 @@
+{
+  "description": "Compensation points to be given to the presenter such that the game \"Fill your basket\" with n coins is fair.",
+  "id": "A392305",
+  "mentions": [
+    "A391537",
+    "A391538",
+    "A391791",
+    "A391792"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

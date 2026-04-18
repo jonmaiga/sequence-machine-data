@@ -1,7 +1,9 @@
 {
   "description": "Positions of records in iterated MD5 applied to empty string.",
   "id": "A234849",
-  "mentions": [],
+  "mentions": [
+    "A393294"
+  ],
   "tags": [
     "fini",
     "nice",

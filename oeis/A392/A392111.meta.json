@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 5*k - (greatest prime < 5*k) = (least prime > 5*k) - 5*k.",
+  "id": "A392111",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A268328",
+    "A390788",
+    "A392110",
+    "A392112"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

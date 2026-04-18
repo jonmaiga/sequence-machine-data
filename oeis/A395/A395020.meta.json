@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the median of the distribution of distances between two points in a unit ball.",
+  "id": "A395020",
+  "mentions": [
+    "A093530",
+    "A093531",
+    "A394606",
+    "A394608",
+    "A395017",
+    "A395019"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

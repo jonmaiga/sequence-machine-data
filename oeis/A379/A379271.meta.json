@@ -2,9 +2,13 @@
   "description": "Composite numbers, k, whose prime factors, viewed on a log log scale, have a small standard deviation defined with respect to bigomega(k), as specified in the comments.",
   "id": "A379271",
   "mentions": [
+    "A008578",
+    "A051037",
+    "A080682",
     "A251728",
     "A253784",
-    "A380438"
+    "A380438",
+    "A392985"
   ],
   "tags": [
     "nonn"
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

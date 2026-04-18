@@ -1,0 +1,19 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals downwards, where A(n,k) = k^(n*(k-1)) - Sum_{j=1..k-1} k^(n*(k-1-j)) * j^n * A(n,j).",
+  "id": "A394530",
+  "mentions": [
+    "A342202",
+    "A374601",
+    "A394531"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

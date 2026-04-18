@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the mean distance between two points selected independently and uniformly at random from a unit disk, one from each of the two sides of a given diameter.",
+  "id": "A394832",
+  "mentions": [
+    "A093070",
+    "A130203",
+    "A258147",
+    "A394833"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

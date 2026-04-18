@@ -1,0 +1,23 @@
+{
+  "description": "Integers k, not divisible by any of their digits, such that k = Sum_{j = digits of k} k/j.",
+  "id": "A393453",
+  "mentions": [
+    "A011540",
+    "A034838",
+    "A037268",
+    "A038770",
+    "A393454"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -11,6 +11,7 @@
     "A130312",
     "A132665",
     "A194029",
+    "A256654",
     "A356771"
   ],
   "tags": [
@@ -22,6 +23,6 @@
   "terms": {
     "offset": 0,
     "size": 88,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

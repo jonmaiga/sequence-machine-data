@@ -1,0 +1,17 @@
+{
+  "description": "Number of point sets with a unique stable state in the 3 X n neighborhood grid.",
+  "id": "A394932",
+  "mentions": [
+    "A000142",
+    "A394931"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

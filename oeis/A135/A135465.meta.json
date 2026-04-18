@@ -1,8 +1,9 @@
 {
-  "description": "Decimal equivalents of A135465.",
+  "description": "Decimal equivalents of A135464.",
   "id": "A135465",
   "mentions": [
-    "A135463"
+    "A135463",
+    "A135464"
   ],
   "tags": [
     "base",

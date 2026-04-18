@@ -1,7 +1,11 @@
 {
-  "description": "Sum_{k>=1} k^n/Catalan(k) rounded to nearest integer.",
+  "description": "a(n) = Sum_{k>=0} k^n/Catalan(k) rounded to nearest integer.",
   "id": "A100666",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A121839",
+    "A268813"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "joeis"
   }
 }

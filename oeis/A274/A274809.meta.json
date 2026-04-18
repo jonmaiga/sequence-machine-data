@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+1 both have 36 divisors.",
+  "description": "Numbers k such that k and k+1 both have 36 divisors.",
   "id": "A274809",
   "mentions": [
     "A005237",

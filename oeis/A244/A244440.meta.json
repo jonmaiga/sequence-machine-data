@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + phi(n) is a power of 10.",
+  "description": "Numbers k such that k + phi(k) is a power of 10.",
   "id": "A244440",
   "mentions": [
     "A000010",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

@@ -1,13 +1,14 @@
 {
-  "description": "a(n) = Mod[10-Mod[Prime[n+3],10],4]-Mod[n,4]+3.",
+  "description": "a(n) = (10 - (prime(n+3) mod 10) mod 4) - (n mod 4) + 3.",
   "id": "A090183",
   "mentions": [],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
+    "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

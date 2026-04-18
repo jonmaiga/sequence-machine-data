@@ -2,12 +2,15 @@
   "description": "a(n) = index of the antidiagonal of the Wythoff array (A035513) that includes n.",
   "id": "A360485",
   "mentions": [
+    "A019586",
     "A035513",
+    "A035612",
     "A191360",
     "A360379"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

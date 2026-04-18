@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = d_4(n)^2, where d_4 is the 4th Piltz function (A007426).",
+  "id": "A393214",
+  "mentions": [
+    "A001249",
+    "A007426",
+    "A013661",
+    "A035116",
+    "A097988"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

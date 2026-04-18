@@ -1,0 +1,26 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = Sum_{j=0..k} (-1)^(k - j) * binomial(k, j) * j^n * 2^j.",
+  "id": "A394444",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A002939",
+    "A005843",
+    "A040000",
+    "A131689",
+    "A173033",
+    "A366058",
+    "A375540",
+    "A394441"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

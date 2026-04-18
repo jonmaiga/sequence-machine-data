@@ -1,17 +1,17 @@
 {
-  "description": "Numbers n such that the concatenation of consecutive increasing numbers beginning with prime(n) and ending with prime(n+1) is prime; or n such that A111875(n) is prime.",
+  "description": "Numbers k such that the concatenation of consecutive increasing numbers beginning with prime(k) and ending with prime(k+1) is prime; or k such that A111875(k) is prime.",
   "id": "A109166",
   "mentions": [
+    "A109320",
     "A111875"
   ],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 46,
-    "source": "oeis-entry"
+    "size": 48,
+    "source": "oeis-bfile"
   }
 }

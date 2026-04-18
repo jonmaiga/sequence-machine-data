@@ -1,5 +1,5 @@
 {
-  "description": "n minus totally additive with a(p)=PrimePi(p), where PrimePi(n)=A000720(n).",
+  "description": "n minus totally additive with a(p) = PrimePi(p), where PrimePi = A000720.",
   "id": "A178503",
   "mentions": [
     "A000027",

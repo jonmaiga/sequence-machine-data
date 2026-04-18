@@ -2,6 +2,7 @@
   "description": "Consider triangle in which n-th row contains the smallest set of n consecutive numbers whose LCM is divisible by primorial(n) (the product of first n primes). Sequence contains the first column.",
   "id": "A083130",
   "mentions": [
+    "A002110",
     "A083129"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

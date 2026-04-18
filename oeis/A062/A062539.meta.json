@@ -1,7 +1,8 @@
 {
-  "description": "Decimal expansion of the Lemniscate constant or Gauss's constant.",
+  "description": "Decimal expansion of the lemniscate constant or Gauss's constant.",
   "id": "A062539",
   "mentions": [
+    "A000108",
     "A000796",
     "A002193",
     "A014549",
@@ -9,7 +10,8 @@
     "A062540",
     "A064853",
     "A085565",
-    "A093341"
+    "A093341",
+    "A382242"
   ],
   "tags": [
     "cons",

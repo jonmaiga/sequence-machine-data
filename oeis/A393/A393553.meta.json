@@ -1,0 +1,17 @@
+{
+  "description": "Number of dominating sets in K_{2n,2n,2n} minus a perfect matching.",
+  "id": "A393553",
+  "mentions": [
+    "A393548"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

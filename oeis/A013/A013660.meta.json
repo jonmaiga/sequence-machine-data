@@ -1,8 +1,10 @@
 {
-  "description": "Elementary catastrophes on n-dimensional manifold (the next term is infinite).",
+  "description": "Number of elementary catastrophes on n-dimensional manifold (the next term is infinite).",
   "id": "A013660",
   "mentions": [],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

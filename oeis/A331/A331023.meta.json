@@ -1,5 +1,5 @@
 {
-  "description": "Numerator: factorizations divided by strict factorizations A001055(n)/A045778(n).",
+  "description": "Numerator of number of factorizations of n divided by number of strict factorizations of n A001055(n)/A045778(n).",
   "id": "A331023",
   "mentions": [
     "A001055",

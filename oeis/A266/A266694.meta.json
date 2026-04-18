@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that 2*n*3^n + 1 is prime.",
+  "description": "Numbers k such that 2*k*3^k + 1 is prime.",
   "id": "A266694",
   "mentions": [
-    "A006552"
+    "A006552",
+    "A271956"
   ],
   "tags": [
     "more",

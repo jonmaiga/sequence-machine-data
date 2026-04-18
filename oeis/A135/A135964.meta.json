@@ -2,14 +2,16 @@
   "description": "a(n) = binomial(floor(n*sqrt(2)),n) for n>=0.",
   "id": "A135964",
   "mentions": [
+    "A001951",
     "A135965"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

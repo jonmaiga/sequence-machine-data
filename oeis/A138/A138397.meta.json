@@ -1,14 +1,14 @@
 {
-  "description": "Penta-Primes. Prime Numbers n as a Sum of 5 consecutive prime numbers (four twin primes and single prime number in between) are primes.",
+  "description": "Primes k such that k = p+q+r+s+t where p, q, r, s, t are consecutive primes and (p,q) and (s,t) are twin prime pairs (i.e., q=p+2 and t=s+2).",
   "id": "A138397",
   "mentions": [],
   "tags": [
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

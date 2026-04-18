@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime number whose decimal digits include the consecutive pattern 0, 1, 2, ..., n.",
+  "id": "A392246",
+  "mentions": [
+    "A007908",
+    "A053546",
+    "A058183",
+    "A176942",
+    "A392041"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

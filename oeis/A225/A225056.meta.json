@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that q=2*k*prime(n)^4+b , r=2*k*q^4+c , s=2*k*r^4+d and q, r and s are all prime numbers with b, c and d = -1 or 1.",
+  "description": "Smallest k such that q=2*k*prime(n)^4+b, r=2*k*q^4+c, s=2*k*r^4+d and q, r and s are all prime numbers with b, c and d = -1 or 1.",
   "id": "A225056",
   "mentions": [],
   "tags": [

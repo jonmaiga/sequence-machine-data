@@ -2,6 +2,7 @@
   "description": "Smallest m such that A116361(m) = n.",
   "id": "A116362",
   "mentions": [
+    "A005418",
     "A116361"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

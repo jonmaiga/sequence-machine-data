@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of free (r,s)-polyleapers with k cells, where r = A094192(n-1) and s = A094193(n-1) if n > 1, (r,s) = (1,0) if n = 1; n, k >= 1.",
+  "id": "A393392",
+  "mentions": [
+    "A000105",
+    "A030446",
+    "A093989",
+    "A094192",
+    "A094193",
+    "A393390",
+    "A393391",
+    "A393393",
+    "A393838",
+    "A394196"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

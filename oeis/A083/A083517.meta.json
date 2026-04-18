@@ -2,7 +2,8 @@
   "description": "Triangular numbers which are one more than a product of distinct triangular numbers.",
   "id": "A083517",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A334130"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

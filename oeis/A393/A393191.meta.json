@@ -1,0 +1,18 @@
+{
+  "description": "Number of purely (not vacuously) transitive relations on an n-set.",
+  "id": "A393191",
+  "mentions": [
+    "A003041",
+    "A006905",
+    "A391878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

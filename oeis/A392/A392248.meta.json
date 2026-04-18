@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: A(n, k) is the maximum number of whole unit squares under the polygonal path (i, h_k'(v_i)), associated with a k-dimensional balanced ballot path, n >= 1, k >= 2.",
+  "id": "A392248",
+  "mentions": [
+    "A000108",
+    "A001105",
+    "A002378",
+    "A002620",
+    "A002943",
+    "A057571",
+    "A208375",
+    "A212964",
+    "A391993",
+    "A391994",
+    "A391995"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

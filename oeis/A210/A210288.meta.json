@@ -5,11 +5,12 @@
     "A210000"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
+    "size": 54,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (10^n+11)/3.",
+  "description": "a(n) = (10^n + 11)/3.",
   "id": "A173766",
   "mentions": [
     "A086574",

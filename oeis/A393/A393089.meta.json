@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of log(2)/4 - Pi/24.",
+  "id": "A393089",
+  "mentions": [
+    "A054777"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

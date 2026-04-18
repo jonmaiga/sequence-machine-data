@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n not divisible by 10 such that the decimal representation of n^26 does not use every nonzero digit.",
+  "description": "Numbers k not divisible by 10 such that the decimal representation of k^26 does not use every nonzero digit.",
   "id": "A112258",
   "mentions": [
     "A089081"

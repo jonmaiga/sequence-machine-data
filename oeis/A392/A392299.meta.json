@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that Pi_{5,2}(p) + Pi_{5,3}(p) - Pi_{5,1}(p) - Pi_{5,4}(p) = 3, where Pi_{m,n}(p) denotes the number of primes q <= p with q == n (mod m).",
+  "id": "A392299",
+  "mentions": [
+    "A007350",
+    "A321857",
+    "A392295",
+    "A392296",
+    "A392297",
+    "A392298"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

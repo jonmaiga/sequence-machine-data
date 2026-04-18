@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n such that the multiplicity m of the greatest part g is a part of the partition and m < g.",
+  "id": "A394290",
+  "mentions": [
+    "A006141",
+    "A240494"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of iterations required to reach the fixed point (strictly interleaved state) in the prime-composite merging process starting from {1, 2, ..., n}.",
+  "id": "A393569",
+  "mentions": [
+    "A393568"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

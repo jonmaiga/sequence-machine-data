@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of different ways in which three particles move from A->B, B->C, and C->A on an equilateral triangular grid ABC of side n units, starting simultaneously and moving at the same constant speed along the grid lines, such that the distance of each particle from its starting corner is always increasing, and no two particles ever meet.",
+  "id": "A393490",
+  "mentions": [
+    "A357603",
+    "A393796",
+    "A394097",
+    "A394098"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,13 +1,16 @@
 {
-  "description": "Number of partitions satisfying cn(2,5) + cn(3,5) <= cn(0,5).",
+  "description": "Number of partitions of n satisfying cn(2,5) + cn(3,5) <= cn(0,5).",
   "id": "A039861",
-  "mentions": [],
+  "mentions": [
+    "A039840",
+    "A039841"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 45,
-    "source": "joeis"
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
   }
 }

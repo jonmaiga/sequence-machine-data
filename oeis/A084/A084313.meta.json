@@ -1,8 +1,13 @@
 {
-  "description": "a(n)=x is the smallest number such that gcd(prime(x)-1, x) = n.",
+  "description": "a(n) is the smallest number k such that gcd(prime(k)-1, k) = n.",
   "id": "A084313",
   "mentions": [
     "A084309",
+    "A084310",
+    "A084311",
+    "A084312",
+    "A084314",
+    "A084315",
     "A084316"
   ],
   "tags": [

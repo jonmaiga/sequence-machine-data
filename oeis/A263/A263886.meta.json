@@ -2,7 +2,8 @@
   "description": "Number of permutations of [n] containing exactly two occurrences of the consecutive pattern 132.",
   "id": "A263886",
   "mentions": [
-    "A197365"
+    "A197365",
+    "A240885"
   ],
   "tags": [
     "formulas",

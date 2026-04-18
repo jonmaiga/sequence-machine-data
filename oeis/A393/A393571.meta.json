@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 4-dimensional balanced ballot paths of length 4n with exactly k semisymmetric peaks. Here, 1 <= k <= 2n-1 if n >=1, and k=0 if n=0.",
+  "id": "A393571",
+  "mentions": [
+    "A001246",
+    "A005790",
+    "A387936",
+    "A393573",
+    "A393594",
+    "A393747"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,10 +2,12 @@
   "description": "a(n) is the least semiprime s such that the Sum_{semiprime i <= s} 1/i exceeds n.",
   "id": "A120055",
   "mentions": [
+    "A001358",
     "A002387",
     "A016088"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

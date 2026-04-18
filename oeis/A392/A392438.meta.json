@@ -1,0 +1,23 @@
+{
+  "description": "2-composable numbers: even numbers k for which k/2 is a sum of the other nontrivial divisors of k.",
+  "id": "A392438",
+  "mentions": [
+    "A000040",
+    "A005231",
+    "A005835",
+    "A070824",
+    "A136446",
+    "A392437",
+    "A392439",
+    "A392440",
+    "A392500"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

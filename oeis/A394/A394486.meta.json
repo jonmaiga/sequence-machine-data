@@ -1,0 +1,25 @@
+{
+  "description": "Number of horizontally symmetric reduced Latin squares of order 2n representing groups.",
+  "id": "A394486",
+  "mentions": [
+    "A000315",
+    "A005154",
+    "A058161",
+    "A065982",
+    "A246137",
+    "A287649",
+    "A287650",
+    "A336412",
+    "A351413",
+    "A394485"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

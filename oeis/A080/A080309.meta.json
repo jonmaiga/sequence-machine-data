@@ -1,9 +1,11 @@
 {
-  "description": "n-th even number equals n-th multiple of a Fermat number.",
+  "description": "Numbers k such that the k-th positive even number equals the k-th multiple of a Fermat number.",
   "id": "A080309",
   "mentions": [
     "A000215",
-    "A080307"
+    "A005843",
+    "A080307",
+    "A299174"
   ],
   "tags": [
     "nonn"
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

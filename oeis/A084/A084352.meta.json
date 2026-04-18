@@ -7,11 +7,12 @@
   ],
   "tags": [
     "base",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 65,
-    "source": "oeis-entry"
+    "size": 87,
+    "source": "joeis"
   }
 }

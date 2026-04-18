@@ -2,6 +2,7 @@
   "description": "Least integer k such that prime(n+1) + ... + prime(n+k) > prime(1) + ... + prime(n).",
   "id": "A231152",
   "mentions": [
+    "A007504",
     "A231151",
     "A231153"
   ],
@@ -11,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 71,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
   }
 }

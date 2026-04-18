@@ -2,16 +2,19 @@
   "description": "Numbers with a digit > 1 in their primorial base expansion that are multiples of the corresponding radix primes of all such digits.",
   "id": "A381037",
   "mentions": [
+    "A000040",
     "A003557",
     "A007947",
     "A049345",
     "A177711",
+    "A276085",
     "A276086",
     "A328572",
     "A380527",
     "A381034",
     "A381035",
-    "A381036"
+    "A381036",
+    "A392611"
   ],
   "tags": [
     "nonn"

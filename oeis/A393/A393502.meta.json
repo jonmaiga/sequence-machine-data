@@ -1,0 +1,13 @@
+{
+  "description": "Start values of \"paradoxical sequences\" in the modified '3x+1' problem.",
+  "id": "A393502",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

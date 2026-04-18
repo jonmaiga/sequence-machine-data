@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+4/11)/GAMMA(4/11).",
+  "description": "Ceiling of Gamma(n+4/11)/Gamma(4/11).",
   "id": "A020101",
-  "mentions": [],
+  "mentions": [
+    "A020011",
+    "A020056"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

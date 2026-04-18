@@ -2,6 +2,7 @@
   "description": "a(n) = (2 + sqrt(2))^n + (2 - sqrt(2))^n.",
   "id": "A056236",
   "mentions": [
+    "A000129",
     "A002203",
     "A006012",
     "A007052",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

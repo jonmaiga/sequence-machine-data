@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the mean volume of a tetrahedron whose vertices are uniformly and independently selected at random in the interior of a triangular bipyramid (or dipyramid) of unit volume.",
+  "id": "A394174",
+  "mentions": [
+    "A093524",
+    "A093525",
+    "A093591",
+    "A394169",
+    "A394170",
+    "A394171",
+    "A394172",
+    "A394173",
+    "A394175",
+    "A394176"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

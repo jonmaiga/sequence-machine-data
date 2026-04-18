@@ -2,9 +2,12 @@
   "description": "Central numbers in a Moebius-binomial triangle.",
   "id": "A105597",
   "mentions": [
+    "A065474",
+    "A081770",
     "A105594",
     "A105595",
-    "A105598"
+    "A105598",
+    "A117204"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polyquarcs with n cells, with cusp connections allowed.",
+  "id": "A393000",
+  "mentions": [
+    "A392392",
+    "A393001",
+    "A393002"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

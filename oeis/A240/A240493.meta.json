@@ -2,6 +2,7 @@
   "description": "Number of partitions of n such that the multiplicity of the least part is a part.",
   "id": "A240493",
   "mentions": [
+    "A096403",
     "A240491",
     "A240492",
     "A240494",
@@ -9,6 +10,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

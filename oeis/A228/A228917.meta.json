@@ -16,12 +16,11 @@
     "A228886"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

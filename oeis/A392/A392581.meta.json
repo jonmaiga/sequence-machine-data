@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1 / ((1-x)^3 - x^2)^2.",
+  "id": "A392581",
+  "mentions": [
+    "A095263"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

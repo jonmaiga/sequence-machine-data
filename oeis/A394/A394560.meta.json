@@ -1,0 +1,18 @@
+{
+  "description": "The coefficients of the exponential expansion of the compositional inverse of f(t) = Sum_{m>=1} tau3(m)*(-1)^(m + 1)*t^m/m.",
+  "id": "A394560",
+  "mentions": [
+    "A000005",
+    "A007425",
+    "A393519",
+    "A394559"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

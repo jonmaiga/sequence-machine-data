@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = x is the smallest number such that gcd(prime(x)-1,x-1) = n.",
+  "description": "a(n) is the smallest number k such that gcd(prime(k)-1,k-1) = n.",
   "id": "A084315",
   "mentions": [
     "A000040",

@@ -1,7 +1,8 @@
 {
-  "description": "Trajectory of 29 under the `29x+1' map.",
+  "description": "Trajectory of 29 under the `29x+1' map: x -> x/p if p = least prime factor(x) < 29, else x*29 + 1.",
   "id": "A057687",
   "mentions": [
+    "A020639",
     "A033478",
     "A057216",
     "A057446",
@@ -18,11 +19,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 60,
     "source": "joeis"
   }
 }

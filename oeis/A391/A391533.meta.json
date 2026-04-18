@@ -1,0 +1,30 @@
+{
+  "description": "The truncated (4,4,1)-Pascal triangle, given by 4*C(n-2, k) + 4*C(n-2, k-1) + C(n-2, k-2) for n>=2.",
+  "id": "A391533",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000297",
+    "A001019",
+    "A001844",
+    "A005900",
+    "A006325",
+    "A008574",
+    "A008586",
+    "A010709",
+    "A033455",
+    "A034856",
+    "A113311",
+    "A323847"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 63,
+    "source": "joeis"
+  }
+}

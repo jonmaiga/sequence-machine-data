@@ -1,5 +1,5 @@
 {
-  "description": "(7*n+4)^8.",
+  "description": "a(n) = (7*n+4)^8.",
   "id": "A017036",
   "mentions": [],
   "tags": [

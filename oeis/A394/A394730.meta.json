@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k! is the sum of a square and a triangular number.",
+  "id": "A394730",
+  "mentions": [
+    "A000142",
+    "A014133",
+    "A230363"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

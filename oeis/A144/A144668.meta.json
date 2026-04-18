@@ -1,12 +1,15 @@
 {
-  "description": "Decimal expansion of product_{n=2..infinity} (n^9-1)/(n^9+1).",
+  "description": "Decimal expansion of Product_{n=2..infinity} (n^9-1)/(n^9+1).",
   "id": "A144668",
   "mentions": [
-    "A090986"
+    "A090986",
+    "A144664",
+    "A144666"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

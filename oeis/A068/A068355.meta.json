@@ -1,8 +1,10 @@
 {
-  "description": "Odd n such that sigma(n)*tau(n)>prime(2*n) where sigma(n) is the sum of divisors of n and tau(n) the number of divisors of n = A000005(n).",
+  "description": "Odd numbers k such that sigma(k)*tau(k) > prime(2*k), where sigma(k) is the sum of divisors of k and tau(k) is the number of divisors of k.",
   "id": "A068355",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A000203",
+    "A031215"
   ],
   "tags": [
     "easy",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

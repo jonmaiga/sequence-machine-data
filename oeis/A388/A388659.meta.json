@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k for which there exists m such that the sum from 1 to m and the sum from m + 1 to k are both perfect squares.",
+  "id": "A388659",
+  "mentions": [
+    "A000290",
+    "A001108",
+    "A374087"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

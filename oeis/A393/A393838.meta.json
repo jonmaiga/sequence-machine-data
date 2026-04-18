@@ -1,0 +1,22 @@
+{
+  "description": "Number of free polygiraffes with n cells.",
+  "id": "A393838",
+  "mentions": [
+    "A030446",
+    "A093989",
+    "A393390",
+    "A393392",
+    "A393836",
+    "A393837",
+    "A393839"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

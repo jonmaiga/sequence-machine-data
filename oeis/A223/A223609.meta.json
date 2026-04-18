@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n whose abundance is 10. Sigma(n)-2*n = 10.",
+  "description": "Numbers m whose abundance is 10: Sigma(m) - 2*m = 10.",
   "id": "A223609",
   "mentions": [
     "A000203",
     "A033880",
+    "A096817",
     "A101223"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} Pi/(sqrt(k)*sinh(Pi*sqrt(k))).",
+  "id": "A394962",
+  "mentions": [
+    "A001008",
+    "A002162",
+    "A002805",
+    "A016655",
+    "A262023",
+    "A353874"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

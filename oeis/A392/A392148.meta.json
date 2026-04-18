@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of tan(1/4) + sec(1/4).",
+  "id": "A392148",
+  "mentions": [
+    "A019427",
+    "A133265",
+    "A161013",
+    "A384932",
+    "A392146",
+    "A392147",
+    "A392149",
+    "A392150",
+    "A392151",
+    "A392152",
+    "A392153"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

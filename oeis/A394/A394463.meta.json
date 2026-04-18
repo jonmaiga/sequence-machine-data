@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the sum of distinct prime factors and the sum of their exponents are divisible in at least one direction, while the corresponding products are divisible in neither direction.",
+  "id": "A394463",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005361",
+    "A007947",
+    "A008472",
+    "A126706",
+    "A390784",
+    "A392819"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

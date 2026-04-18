@@ -2,7 +2,8 @@
   "description": "Number of (undirected) Hamiltonian paths on the n X n queen graph.",
   "id": "A308139",
   "mentions": [
-    "A158664"
+    "A158664",
+    "A307928"
   ],
   "tags": [
     "formulas",

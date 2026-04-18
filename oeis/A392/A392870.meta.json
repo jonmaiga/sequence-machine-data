@@ -1,0 +1,20 @@
+{
+  "description": "Multiplicative inverse of {n mod A117366(n)} in finite field F(A117366(n)), where A117366 gives the smallest prime greater than the largest prime dividing n.",
+  "id": "A392870",
+  "mentions": [
+    "A006530",
+    "A069830",
+    "A117366",
+    "A392865",
+    "A392871"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that phi(m) is a perfect number (A000396).",
+  "id": "A393942",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000396",
+    "A146542",
+    "A393940"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

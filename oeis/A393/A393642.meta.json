@@ -1,0 +1,22 @@
+{
+  "description": "First differences of fifth powers of triangular numbers.",
+  "id": "A393642",
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A022521",
+    "A059860",
+    "A168364",
+    "A357178"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

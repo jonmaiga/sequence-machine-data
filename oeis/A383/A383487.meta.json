@@ -1,5 +1,5 @@
 {
-  "description": "Prime powers p^r such that p (mod 4) = 3 and r is even.",
+  "description": "Prime powers p^r such that p == 3 (mod 4) and r is even.",
   "id": "A383487",
   "mentions": [],
   "tags": [

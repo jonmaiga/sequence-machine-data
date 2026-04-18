@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n in whose prime factorization, n = 2^e1 * 3^e2 * 5^e3 * ... * p_k^e_k, the exponents (some of them possibly zero) of prime factors from 2 to p_k form a palindrome, so that e1 = e_k, e2 = e_{k-1}, etc.",
+  "description": "Numbers n in whose prime factorization, n = 2^e_1 * 3^e_2 * 5^e_3 * ... * p_k^e_k, the exponents (with only e_1 and e_k required to be nonzero) of prime factors from 2 to p_k form a palindrome, so that e_1 = e_k, e_2 = e_{k-1}, etc.",
   "id": "A242418",
   "mentions": [
     "A002110",

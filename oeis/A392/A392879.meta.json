@@ -1,0 +1,23 @@
+{
+  "description": "Let p = A129252(n), if p = 1, then a(n) = n, otherwise a(n) = n * p^((e mod p)-e) * q^floor(e/p), where e is p-adic valuation of n and q is the least prime number greater than p.",
+  "id": "A392879",
+  "mentions": [
+    "A048103",
+    "A129252",
+    "A276085",
+    "A276086",
+    "A277886",
+    "A392878",
+    "A392880"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

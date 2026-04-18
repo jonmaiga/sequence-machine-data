@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = floor(n*(sqrt(n - 1) + 2)/2).",
+  "id": "A394869",
+  "mentions": [
+    "A334563"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

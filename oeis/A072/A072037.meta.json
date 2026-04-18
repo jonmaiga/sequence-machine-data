@@ -2,12 +2,13 @@
   "description": "Palindromic powers (with positive exponents) of a prime but not a prime (A025475).",
   "id": "A072037",
   "mentions": [
+    "A002113",
     "A002385",
-    "A025475"
+    "A025475",
+    "A246547"
   ],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {

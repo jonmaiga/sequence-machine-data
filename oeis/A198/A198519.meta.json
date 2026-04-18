@@ -1,5 +1,5 @@
 {
-  "description": "a(2n-1) is the first unused prime which is the sum of the two preceding terms and such that a(2n) is that sum and it is also an unused prime.",
+  "description": "a(2*k) is the sum of the prior 3 terms, k>1, with all sequence terms minimal distinct primes, a(1)=3, a(2)=5.",
   "id": "A198519",
   "mentions": [
     "A073653",

@@ -2,15 +2,19 @@
   "description": "Multiplicative inverse of prime(n) modulo prime(n+1).",
   "id": "A069830",
   "mentions": [
-    "A077005"
+    "A000040",
+    "A077005",
+    "A079276",
+    "A392870"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

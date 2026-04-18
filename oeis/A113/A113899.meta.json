@@ -1,8 +1,7 @@
 {
-  "description": "Number parallelogram based on Pascal's triangle (and special mirror of central and multiply of diagonal).",
+  "description": "Number parallelogram based on Pascal's triangle.",
   "id": "A113899",
   "mentions": [
-    "A008459",
     "A113162",
     "A113163",
     "A113164"
@@ -10,8 +9,9 @@
   "tags": [
     "easy",
     "fini",
-    "nonn",
-    "uned"
+    "full",
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,

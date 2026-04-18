@@ -1,5 +1,5 @@
 {
-  "description": "Even Lucas numbers: L(3n).",
+  "description": "Even Lucas numbers: a(n) = L(3*n).",
   "id": "A014448",
   "mentions": [
     "A000032",

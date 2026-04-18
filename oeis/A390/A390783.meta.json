@@ -1,0 +1,14 @@
+{
+  "description": "Least k > a(n-1) such that k + the sum of all previous terms = 0 (mod (k-2)), with a(1)=1 and a(2)=2.",
+  "id": "A390783",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

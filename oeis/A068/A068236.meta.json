@@ -1,5 +1,5 @@
 {
-  "description": "First differences of (n+1)^5-n^5.",
+  "description": "First differences of (n+1)^5 - n^5.",
   "id": "A068236",
   "mentions": [
     "A000584",

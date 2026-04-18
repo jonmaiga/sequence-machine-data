@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the height of an uniform heptagonal antiprism with unit edges.",
+  "id": "A394075",
+  "mentions": [
+    "A160389",
+    "A394071",
+    "A394072",
+    "A394073",
+    "A394074",
+    "A394076",
+    "A394077"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

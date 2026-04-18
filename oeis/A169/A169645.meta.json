@@ -1,19 +1,20 @@
 {
-  "description": "Primes p = prime(k) of form 13//r, s//13 or t//13//u and sod(p) = sod(k).",
+  "description": "Primes p = prime(k) whose decimal expansion contains the string 13 and such that digsum(p) = disgum(k) where digsum = A007953 is the sum of digits function.",
   "id": "A169645",
   "mentions": [
+    "A007953",
     "A033548",
     "A166573",
     "A175017"
   ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "(10*n+6)^12.",
+  "description": "a(n) = (10*n+6)^12.",
   "id": "A017352",
   "mentions": [
     "A008456",

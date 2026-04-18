@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 0; for n > 1, a(n) is the smallest unused number k such that k! contains the concatenation of a(1), a(2), ..., a(n-1) as a substring.",
+  "id": "A393301",
+  "mentions": [
+    "A000142",
+    "A346120",
+    "A385673",
+    "A392010",
+    "A392011",
+    "A393300"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

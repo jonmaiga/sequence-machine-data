@@ -1,7 +1,13 @@
 {
-  "description": "Least positive k such that k * [RSA-200]^n - 1 is prime, where RSA-200 is defined in the Wikinews link.",
+  "description": "Least positive k such that k * [RSA-200]^n - 1 is prime, where RSA-200 is the 200 decimal digit RSA challenge number A391940(15).",
   "id": "A108375",
-  "mentions": [],
+  "mentions": [
+    "A108573",
+    "A108881",
+    "A391940",
+    "A391941",
+    "A391942"
+  ],
   "tags": [
     "nonn"
   ],

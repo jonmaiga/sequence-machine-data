@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4*n^3 + 1 is prime.",
+  "description": "Numbers k such that 4*k^3 + 1 is prime.",
   "id": "A115104",
   "mentions": [
     "A001912",

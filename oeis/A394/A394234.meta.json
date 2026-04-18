@@ -1,0 +1,18 @@
+{
+  "description": "The number of squares visited by a knight before being trapped when moving on a diagonally numbered board (Cf. A316588) when starting from square n and always moving to the lowest available unvisited square, or -1 if the knight is never trapped.",
+  "id": "A394234",
+  "mentions": [
+    "A307422",
+    "A309918",
+    "A316588",
+    "A393473"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

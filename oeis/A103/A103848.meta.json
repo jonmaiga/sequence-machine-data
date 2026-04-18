@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of even digits of n is larger than sum of odd digits.",
+  "description": "Numbers k such that sum of even digits of k is less than sum of odd digits.",
   "id": "A103848",
   "mentions": [
     "A036301",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that k*n/(k+n) is never prime for all k.",
+  "description": "Even numbers m such that m*k/(k+m) is never prime for all k.",
   "id": "A242933",
   "mentions": [
     "A016742",
+    "A242834",
     "A242932"
   ],
   "tags": [

@@ -2,9 +2,11 @@
   "description": "a(n) = s(k), where k is the n-th number such that s(j)",
   "id": "A026180",
   "mentions": [
-    "A026177"
+    "A026177",
+    "A026179"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

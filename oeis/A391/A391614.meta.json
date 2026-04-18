@@ -1,0 +1,20 @@
+{
+  "description": "a(4n) = a(2n+a(n)), a(4n+2) = a(2n+1-a(n)) and a(2n+1) = 1-a(2n), with a(0) = 0.",
+  "id": "A391614",
+  "mentions": [
+    "A010060",
+    "A298952",
+    "A392736"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

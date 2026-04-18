@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that there exists m < k/2 such that 10^k - 10^m - 1 is a reversible prime; i.e., a palindromic prime or an emirp.",
+  "id": "A393126",
+  "mentions": [
+    "A004086",
+    "A006567",
+    "A007953",
+    "A020472",
+    "A128389",
+    "A173594",
+    "A263431"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

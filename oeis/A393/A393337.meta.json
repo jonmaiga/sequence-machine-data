@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected unlabeled graphs with composition number n.",
+  "id": "A393337",
+  "mentions": [
+    "A000055",
+    "A070939",
+    "A392291",
+    "A393338",
+    "A393339"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

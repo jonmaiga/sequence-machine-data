@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there are precisely 4 groups of orders n and n + 1.",
+  "description": "Numbers k such that there are precisely 4 groups of orders k and k + 1.",
   "id": "A295990",
   "mentions": [
     "A000001",

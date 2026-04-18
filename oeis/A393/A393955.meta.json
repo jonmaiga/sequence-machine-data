@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. ( 1 + Series_Reversion( x*exp(-x*(2+x)) ) )^2.",
+  "id": "A393955",
+  "mentions": [
+    "A192949",
+    "A393954"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

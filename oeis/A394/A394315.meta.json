@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + pi(k) + Omega(k)^6.",
+  "id": "A394315",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A001222",
+    "A001615",
+    "A393123",
+    "A393162",
+    "A393163",
+    "A394260",
+    "A394312"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

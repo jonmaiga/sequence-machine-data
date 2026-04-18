@@ -2,10 +2,7 @@
   "description": "a(n) = 20*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 20.",
   "id": "A090728",
   "mentions": [
-    "A001085",
-    "A037035",
-    "A054877",
-    "A080959"
+    "A001085"
   ],
   "tags": [
     "easy",

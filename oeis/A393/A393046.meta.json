@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose smallest prime factor is not 5, while the least prime not dividing their arithmetic derivative is 5.",
+  "id": "A393046",
+  "mentions": [
+    "A003415",
+    "A020639",
+    "A053669",
+    "A067019",
+    "A084967",
+    "A393044",
+    "A393045"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,14 +1,17 @@
 {
-  "description": "a(n) = Sum{j_1 + ... + j_n = n} Sum_{k=1..n} k*C(n-1,k-1), where the outer sum is over all partitions of n.",
+  "description": "a(n) = Sum_{lambda_1 + lambda_2 + ... = n} Sum_{k=1..lambda_1} k * C(lambda_1-1, k-1), where lambda_1 is the largest part of the partition of n.",
   "id": "A084362",
-  "mentions": [],
+  "mentions": [
+    "A001792"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

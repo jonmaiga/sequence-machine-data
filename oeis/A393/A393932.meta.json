@@ -1,0 +1,17 @@
+{
+  "description": "Start with a point at (0,0). At each iteration, add a new point by going one step up or to the right from the current point, choosing the option that gives the least maximum number of points on a line through the new point. In case of ties, compare the number of points on the line with the next largest number of points, etc. If there is still a tie, go to the right. a(n) is 0 if the n-th step is to the right, 1 if the step is upwards.",
+  "id": "A393932",
+  "mentions": [
+    "A393933",
+    "A393934",
+    "A393935"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

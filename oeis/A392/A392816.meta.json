@@ -1,0 +1,17 @@
+{
+  "description": "Number of occurrences of n in A392781.",
+  "id": "A392816",
+  "mentions": [
+    "A000041",
+    "A392781"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Iteration numbers k for which MD5^k(128 bits 1) yields record lows.",
+  "id": "A393134",
+  "mentions": [
+    "A234849",
+    "A393294"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

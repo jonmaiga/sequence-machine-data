@@ -1,0 +1,18 @@
+{
+  "description": "Records in A008443.",
+  "id": "A394699",
+  "mentions": [
+    "A005878",
+    "A008443",
+    "A071611",
+    "A394700"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Integral_{x>=e} log(log(x))/(1+x^2) dx.",
+  "id": "A388042",
+  "mentions": [
+    "A091476",
+    "A115252",
+    "A390125",
+    "A393630",
+    "A393691"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

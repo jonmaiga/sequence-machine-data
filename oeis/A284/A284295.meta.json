@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that product of digits of n is a power of 9.",
+  "description": "Numbers k such that product of digits of k is a power of 9.",
   "id": "A284295",
   "mentions": [
     "A002275",

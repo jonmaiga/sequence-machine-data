@@ -1,0 +1,15 @@
+{
+  "description": "Number of induced cubes in the n X n zebra graph.",
+  "id": "A394307",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

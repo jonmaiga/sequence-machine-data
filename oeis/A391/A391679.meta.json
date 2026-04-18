@@ -1,0 +1,48 @@
+{
+  "description": "Number of integer compositions of n that (1) have all parts > 1 and (2) are not the first sums of any finite nonnegative sequence.",
+  "id": "A391679",
+  "mentions": [
+    "A008965",
+    "A011782",
+    "A022340",
+    "A070211",
+    "A342527",
+    "A357213",
+    "A390307",
+    "A390432",
+    "A390447",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390747",
+    "A391235",
+    "A391620",
+    "A391621",
+    "A391622",
+    "A391623",
+    "A391628",
+    "A391641",
+    "A391642",
+    "A391644",
+    "A391645",
+    "A391680",
+    "A391681",
+    "A391682",
+    "A391683",
+    "A391983"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) is the number of partitions of [n] into a set of k connected series-parallel posets.",
+  "id": "A392857",
+  "mentions": [
+    "A048172",
+    "A048173",
+    "A048174",
+    "A058349",
+    "A199916",
+    "A394559"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

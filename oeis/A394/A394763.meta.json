@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of A394582.",
+  "id": "A394763",
+  "mentions": [
+    "A008957",
+    "A036969",
+    "A394582"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

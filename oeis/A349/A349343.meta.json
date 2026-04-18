@@ -2,6 +2,8 @@
   "description": "Dirichlet inverse of A193356, which is defined as n if n is odd, 0 if n is even.",
   "id": "A349343",
   "mentions": [
+    "A001489",
+    "A099991",
     "A193356",
     "A328203",
     "A349134",

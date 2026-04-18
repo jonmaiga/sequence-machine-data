@@ -1,0 +1,24 @@
+{
+  "description": "Primes p that set records for the minimum k in the Erdős-Straus y = k*p construction for 4/p = 1/x + 1/y + 1/z.",
+  "id": "A392469",
+  "mentions": [
+    "A073101",
+    "A075245",
+    "A075246",
+    "A075247",
+    "A075248",
+    "A192789",
+    "A287116"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

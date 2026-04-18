@@ -1,0 +1,22 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = (1/(n+1)!) * Sum_{j=0..k} (n+k)! * Stirling2(n+j,j) / (k-j)!.",
+  "id": "A394975",
+  "mentions": [
+    "A000007",
+    "A000522",
+    "A054977",
+    "A086764",
+    "A143409",
+    "A340556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

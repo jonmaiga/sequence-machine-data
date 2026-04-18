@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor(Fibonacci(n)^(1/Pi)).",
+  "description": "a(n) = floor(Fibonacci(n)^(1/Pi)).",
   "id": "A171962",
   "mentions": [
     "A120184",

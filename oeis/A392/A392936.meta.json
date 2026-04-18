@@ -1,0 +1,24 @@
+{
+  "description": "Primitive terms of A023198: numbers k with the property sigma(k)/k >= 4 that are not divisible by any other number with that property.",
+  "id": "A392936",
+  "mentions": [
+    "A000203",
+    "A006039",
+    "A023198",
+    "A023199",
+    "A025487",
+    "A027687",
+    "A133812",
+    "A307115",
+    "A358414",
+    "A388019"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

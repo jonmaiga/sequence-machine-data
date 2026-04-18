@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 - x*A(x)^3 * log(1 - x^2*A(x)^2).",
+  "id": "A392934",
+  "mentions": [
+    "A376344",
+    "A392932",
+    "A392933",
+    "A392935"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

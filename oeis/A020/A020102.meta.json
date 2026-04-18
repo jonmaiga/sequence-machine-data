@@ -1,13 +1,16 @@
 {
   "description": "Ceiling of Gamma(n+3/11)/Gamma(3/11).",
   "id": "A020102",
-  "mentions": [],
+  "mentions": [
+    "A020012",
+    "A020057"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

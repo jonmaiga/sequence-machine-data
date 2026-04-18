@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that gcd(A381466(k-1),k) > 1.",
+  "id": "A391446",
+  "mentions": [
+    "A381466"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

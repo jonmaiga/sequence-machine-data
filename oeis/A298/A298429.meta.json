@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there are precisely 12 groups of orders n and n + 1.",
+  "description": "Numbers k such that there are precisely 12 groups of order k and precisely 12 of order k + 1.",
   "id": "A298429",
   "mentions": [
     "A000001",

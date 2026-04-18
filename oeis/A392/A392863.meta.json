@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{i=1..n} (A143293(n) mod prime(i))*A002110(i-1), where A002110 are the primorial numbers, and A143293 give their partial sums.",
+  "id": "A392863",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A062347",
+    "A143293",
+    "A357270",
+    "A391930",
+    "A391936",
+    "A392615",
+    "A392864"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

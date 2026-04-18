@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} (1/(p*(p+2))) * Product_{p prime} (1 - 1/(p+1)^2).",
+  "id": "A394040",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A065472",
+    "A098198",
+    "A185380",
+    "A227929",
+    "A394039"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

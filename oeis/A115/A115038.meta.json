@@ -1,14 +1,18 @@
 {
-  "description": "Smallest x such that x^2 + p is a perfect power over the set of primes p.",
+  "description": "a(n) is the smallest x such that x^2 + prime(n) is a perfect power.",
   "id": "A115038",
-  "mentions": [],
+  "mentions": [
+    "A115039",
+    "A115041"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

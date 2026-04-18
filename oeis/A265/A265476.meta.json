@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..n+4-2 arrays with upper left zero and lower right n+4-2 and each element differing from its diagonal and antidiagonal neighbors by one or two.",
+  "description": "Number of n X 4 0..n+4-2 arrays with upper left zero and lower right n+4-2 and each element differing from its diagonal and antidiagonal neighbors by one or two.",
   "id": "A265476",
   "mentions": [
     "A265480"

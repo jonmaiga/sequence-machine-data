@@ -1,5 +1,5 @@
 {
-  "description": "(n+4)^3 - n^3.",
+  "description": "a(n) = (n+4)^3 - n^3.",
   "id": "A038866",
   "mentions": [],
   "tags": [

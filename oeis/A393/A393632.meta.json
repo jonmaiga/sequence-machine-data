@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of contiguous OFF cells around the center column after n steps of the Code 10 1-D cellular automaton, when started from a single ON cell.",
+  "id": "A393632",
+  "mentions": [
+    "A393631"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = least k >= 2 such that Sum_{i=2..k} 1/log(i) >= n.",
+  "id": "A392896",
+  "mentions": [
+    "A004080"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

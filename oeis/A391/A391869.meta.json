@@ -1,0 +1,18 @@
+{
+  "description": "Delete from n all digits of opposite parity to its largest digit.",
+  "id": "A391869",
+  "mentions": [
+    "A059708"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

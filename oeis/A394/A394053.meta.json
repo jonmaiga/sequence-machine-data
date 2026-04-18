@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of positive integers <= n with k odd divisors.",
+  "id": "A394053",
+  "mentions": [
+    "A000027",
+    "A001227",
+    "A038547",
+    "A053624",
+    "A070939",
+    "A237593",
+    "A279387",
+    "A299765",
+    "A394052",
+    "A394054"
+  ],
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

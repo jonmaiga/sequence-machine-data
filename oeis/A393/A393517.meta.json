@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of 2*n in which (number of odd parts) / (number of even parts) = 2/3.",
+  "id": "A393517",
+  "mentions": [
+    "A393516"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

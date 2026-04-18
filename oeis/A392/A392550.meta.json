@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k for which the number of divisors d of k such that tau(d*k) = tau(k/d + d) is equal to n, where tau = A000005.",
+  "id": "A392550",
+  "mentions": [
+    "A000005",
+    "A391496",
+    "A392347"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,13 @@
 {
-  "description": "a(n) = Product_{k=n..2*n} prime(k).",
+  "description": "a(n) = Product_{k=max(1,n)..2*n} prime(k).",
   "id": "A330769",
   "mentions": [
     "A000040",
-    "A002110"
+    "A001221",
+    "A001222",
+    "A002110",
+    "A020639",
+    "A051162"
   ],
   "tags": [
     "formulas",
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the numerator of the expected absolute difference of two primes p1, p2 drawn randomly from the interval 2^n <= p < 2^(n+1) without replacement.",
+  "id": "A394299",
+  "mentions": [
+    "A000051",
+    "A006516",
+    "A036378",
+    "A394300"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

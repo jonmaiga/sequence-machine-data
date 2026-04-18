@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array read by rows: a(n, k) = number of ordered factorizations of a \"hook-type\" number with n total prime factors and k distinct prime factors. \"Hook-type\" means that only one prime can have multiplicity > 1.",
+  "description": "Triangular array read by rows: T(n, k) = number of ordered factorizations of a \"hook-type\" number with n total prime factors and k distinct prime factors. \"Hook-type\" means that only one prime can have multiplicity > 1.",
   "id": "A098348",
   "mentions": [
     "A000079",
@@ -13,7 +13,9 @@
     "A095705",
     "A098349",
     "A098384",
-    "A098385"
+    "A098385",
+    "A172110",
+    "A172111"
   ],
   "tags": [
     "easy",
@@ -23,7 +25,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

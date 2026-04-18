@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = number of reversible strings with n black beads and k white beads, 0 <= k <= n.",
+  "id": "A391786",
+  "mentions": [
+    "A005418",
+    "A005654",
+    "A027306",
+    "A045723"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

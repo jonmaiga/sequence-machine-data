@@ -1,16 +1,17 @@
 {
-  "description": "A symmetrical triangular sequence:t(n,m)=n!*(StirlingS1[n, m] + StirlingS1[n, n - m] - (StirlingS1[n, 0] + StirlingS1[n, n]) + 1) - n! + 1.",
+  "description": "Triangle read by rows: T(n,k) = n! * (Stirling1(n,k) + Stirling1(n,n-k) - 1) + 1 with T(0,0)=1.",
   "id": "A174861",
-  "mentions": [],
+  "mentions": [
+    "A008275"
+  ],
   "tags": [
-    "formulas",
+    "less",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "joeis"
   }
 }

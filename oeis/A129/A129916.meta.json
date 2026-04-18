@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that adding the product of the digits of n to the product of n and the sum of its digits yields a prime.",
+  "description": "Numbers k such that adding the product of the digits of k to the product of k and the sum of its digits yields a prime.",
   "id": "A129916",
   "mentions": [],
   "tags": [

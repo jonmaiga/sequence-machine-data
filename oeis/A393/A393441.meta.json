@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n^4-n^3+2*n^2-2*n+2)/2.",
+  "id": "A393441",
+  "mentions": [
+    "A092365",
+    "A386478",
+    "A386481",
+    "A387525"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

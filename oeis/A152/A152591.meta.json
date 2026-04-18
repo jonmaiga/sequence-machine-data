@@ -1,5 +1,5 @@
 {
-  "description": "17^(2^n) + 2.",
+  "description": "a(n) = 17^(2^n) + 2.",
   "id": "A152591",
   "mentions": [],
   "tags": [

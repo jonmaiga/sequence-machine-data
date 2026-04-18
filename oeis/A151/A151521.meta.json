@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2-sided strip polytans with n cells.",
+  "description": "Number of 2-sided strip polytans (polyaboloes) with n cells.",
   "id": "A151521",
   "mentions": [
     "A006074",

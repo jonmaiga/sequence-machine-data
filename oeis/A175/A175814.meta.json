@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the first n decimal digits of e contain equal numbers of even and odd decimal digits.",
+  "description": "Numbers k such that the first k decimal digits of e contain equal numbers of even and odd decimal digits.",
   "id": "A175814",
   "mentions": [
     "A175793"

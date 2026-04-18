@@ -2,6 +2,7 @@
   "description": "Number of bicolored acyclic graphs on n unlabeled nodes.",
   "id": "A329053",
   "mentions": [
+    "A051491",
     "A122086",
     "A329052"
   ],

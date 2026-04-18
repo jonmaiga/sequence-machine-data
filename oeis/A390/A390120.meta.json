@@ -1,0 +1,17 @@
+{
+  "description": "Integers k that can be represented by at least one concatenation (x, y, z) such that k = A000203(x)*A000203(y)*A000203(z).",
+  "id": "A390120",
+  "mentions": [
+    "A000203",
+    "A253824"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

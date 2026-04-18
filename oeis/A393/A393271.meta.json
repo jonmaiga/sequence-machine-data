@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the probability that at least 3 of 88 randomly selected persons have the same birthday, not considering leap years.",
+  "id": "A393271",
+  "mentions": [
+    "A014088",
+    "A225852",
+    "A333507",
+    "A343015",
+    "A393268",
+    "A393269",
+    "A393270"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

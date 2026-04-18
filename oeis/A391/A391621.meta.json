@@ -1,0 +1,42 @@
+{
+  "description": "Number of nonnegative integer sequences whose first sums are the k-th composition in standard order.",
+  "id": "A391621",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A055396",
+    "A066099",
+    "A070939",
+    "A342527",
+    "A357213",
+    "A390432",
+    "A390449",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390674",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390745",
+    "A390747",
+    "A391622",
+    "A391623",
+    "A391642",
+    "A391643",
+    "A391644",
+    "A391645"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

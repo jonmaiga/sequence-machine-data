@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp((4/3)*x^3+x).",
+  "id": "A394644",
+  "mentions": [
+    "A118395",
+    "A190865"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

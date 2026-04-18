@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of tan(1/5) + sec(1/5).",
+  "id": "A392149",
+  "mentions": [
+    "A019428",
+    "A133265",
+    "A161014",
+    "A384932",
+    "A392146",
+    "A392147",
+    "A392148",
+    "A392150",
+    "A392151",
+    "A392152",
+    "A392153"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

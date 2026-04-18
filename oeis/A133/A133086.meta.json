@@ -2,17 +2,19 @@
   "description": "Row sums of triangle A133085.",
   "id": "A133086",
   "mentions": [
+    "A098156",
     "A114753",
     "A133080",
     "A133085"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

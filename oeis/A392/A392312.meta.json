@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(3*n/8)} (k+1) * binomial(k,3*n-8*k).",
+  "id": "A392312",
+  "mentions": [
+    "A392044",
+    "A392254",
+    "A392311"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

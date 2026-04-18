@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = 4*A046802(n+1,k+1) - 2*A008518(n,k) - A007318(n,k), triangle read by rows (0 <= k <= n).",
+  "description": "T(n,k) = 4*A046802(n,k) - 2*A008518(n,k) - A007318(n,k), triangle read by rows (0 <= k <= n).",
   "id": "A168291",
   "mentions": [
     "A007318",
@@ -27,6 +27,6 @@
   "terms": {
     "offset": 0,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

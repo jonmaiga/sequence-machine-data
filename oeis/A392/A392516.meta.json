@@ -1,0 +1,19 @@
+{
+  "description": "Number of graceful Prüfer codes on n vertices with n-2 in the last position of the code.",
+  "id": "A392516",
+  "mentions": [
+    "A033472",
+    "A392082",
+    "A392515"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

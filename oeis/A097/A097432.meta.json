@@ -2,10 +2,12 @@
   "description": "Integer part of the hypotenuse of right triangles with consecutive integer legs.",
   "id": "A097432",
   "mentions": [
+    "A000196",
     "A001844",
     "A001951"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

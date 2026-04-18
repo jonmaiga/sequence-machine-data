@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations on n letters with cycle type set [k] for some k, row sums of A393036 and A392215.",
+  "id": "A393037",
+  "mentions": [
+    "A392215",
+    "A393036"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

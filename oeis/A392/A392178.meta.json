@@ -1,0 +1,21 @@
+{
+  "description": "Consider the square spiral with its cells numbered starting at 0, as in A308884 and A274641. Two players, Black and Red, take turns. When it is Black's turn, he places a knight at the smallest unoccupied cell not attacked by an existing Red knight, and when it is Red's turn, she places a knight at the smallest unoccupied cell not attacked by an existing Black knight. Sequence lists squares occupied by a Red knight.",
+  "id": "A392178",
+  "mentions": [
+    "A274641",
+    "A308884",
+    "A308885",
+    "A392177",
+    "A392179",
+    "A392180"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

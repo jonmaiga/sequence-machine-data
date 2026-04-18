@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 7^n - 6 is prime.",
+  "description": "Numbers k such that 7^k - 6 is prime.",
   "id": "A191469",
   "mentions": [
     "A014224",

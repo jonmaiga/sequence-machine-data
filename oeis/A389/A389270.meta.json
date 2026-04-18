@@ -1,0 +1,16 @@
+{
+  "description": "Number computed by Wolfram's 3-state 2-symbol Turing machine 1342057 when started with n on the tape.",
+  "id": "A389270",
+  "mentions": [
+    "A392245",
+    "A393542"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

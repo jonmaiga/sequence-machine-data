@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. -log(1 - x) / (2 - exp(x)).",
+  "id": "A393792",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A002741",
+    "A337000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Sqrt(sigma(A008847(n)^2)), where A008847 lists m such that sigma(m^2) is a square.",
+  "description": "a(n) = sqrt(sigma(A008847(n)^2)), where A008847 lists numbers m such that sigma(m^2) is a square.",
   "id": "A163763",
   "mentions": [
+    "A000203",
     "A008847",
     "A163764"
   ],
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

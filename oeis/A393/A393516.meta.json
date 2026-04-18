@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n in which (number of odd parts) / (number of even parts) = 3/2.",
+  "id": "A393516",
+  "mentions": [
+    "A393517"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

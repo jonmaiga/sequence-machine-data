@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the number whose continued fraction coefficients are given in A241773.",
+  "id": "A392388",
+  "mentions": [
+    "A241773",
+    "A391509",
+    "A391510"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

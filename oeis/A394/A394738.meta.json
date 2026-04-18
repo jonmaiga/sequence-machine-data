@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + tau(k) + Omega(k)^3.",
+  "id": "A394738",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001222",
+    "A001615",
+    "A394658"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

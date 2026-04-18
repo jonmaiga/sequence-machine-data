@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose abundance sigma(n) - 2n = -8. Numbers n whose deficiency is 8.",
+  "description": "Numbers k whose abundance sigma(k) - 2*k = -8. Numbers k whose deficiency is 8.",
   "id": "A125247",
   "mentions": [
     "A002975",
@@ -10,7 +10,6 @@
     "A258882"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {

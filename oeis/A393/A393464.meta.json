@@ -1,0 +1,15 @@
+{
+  "description": "Number of maximum independent vertex sets and minimum vertex covers in the n-necklace graph.",
+  "id": "A393464",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

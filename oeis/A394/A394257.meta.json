@@ -1,0 +1,17 @@
+{
+  "description": "Determinant of the n X n matrix M(i,j) = f(gcd(i,j)) + delta(i,j), where f is the characteristic function of numbers coprime to 6 (A354354) and delta(i,j) is the Kronecker delta.",
+  "id": "A394257",
+  "mentions": [
+    "A354354"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

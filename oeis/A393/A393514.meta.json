@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of 2*n having four times as many odd parts as even.",
+  "id": "A393514",
+  "mentions": [
+    "A045931",
+    "A239258",
+    "A393513",
+    "A393515"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

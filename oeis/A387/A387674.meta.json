@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. (Sum_{i>=0} (i! - 1)*x^i)/(Sum_{i>=0} i!*x^i).",
+  "id": "A387674",
+  "mentions": [
+    "A167894",
+    "A233824"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

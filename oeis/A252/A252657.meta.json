@@ -2,10 +2,12 @@
   "description": "Numbers m such that 4^m - m is a semiprime.",
   "id": "A252657",
   "mentions": [
+    "A001358",
     "A024037",
     "A252656"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

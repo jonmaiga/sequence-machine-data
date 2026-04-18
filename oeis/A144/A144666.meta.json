@@ -1,11 +1,13 @@
 {
-  "description": "Decimal expansion of product_{n=2..infinity} (n^7-1)/(n^7+1).",
+  "description": "Decimal expansion of Product_{n=2..infinity} (n^7-1)/(n^7+1).",
   "id": "A144666",
   "mentions": [
-    "A090986"
+    "A090986",
+    "A144664"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the total number of possible books in the fictional library described in the short story \"The Library of Babel\" by J. L. Borges (1941).",
+  "id": "A392510",
+  "mentions": [
+    "A086746"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1834098,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

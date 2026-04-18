@@ -1,5 +1,5 @@
 {
-  "description": "n * (11*n^2 + 6*n + 1) / 6.",
+  "description": "a(n) = n * (11*n^2 + 6*n + 1) / 6.",
   "id": "A215646",
   "mentions": [
     "A215631"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = numerator(hypergeom([1, -n], [], -1/(n + 1))).",
+  "id": "A393141",
+  "mentions": [
+    "A001865",
+    "A036505",
+    "A063169"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

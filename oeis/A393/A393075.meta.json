@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, for n > 2, a(n) shares a factor with A030101(a(n-1)), where A030101(k) is the decimal value of the reversal of the binary string of k.",
+  "id": "A393075",
+  "mentions": [
+    "A004086",
+    "A030101",
+    "A064413",
+    "A161594",
+    "A210437",
+    "A391057"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

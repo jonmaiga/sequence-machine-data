@@ -8,11 +8,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 71,
+    "size": 83,
     "source": "oeis-entry"
   }
 }

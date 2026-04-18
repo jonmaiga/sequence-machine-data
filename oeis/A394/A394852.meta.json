@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: Expansion of the e.g.f. 1/( 1 + (1+y)*LambertW(-x) ).",
+  "id": "A394852",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A001865",
+    "A063169",
+    "A066324",
+    "A185391",
+    "A201685",
+    "A219706",
+    "A259334",
+    "A394824"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

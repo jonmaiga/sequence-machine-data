@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of Proth primes A080076.",
+  "description": "Partial sums of A080076.",
   "id": "A172243",
   "mentions": [
     "A080076"
@@ -7,11 +7,12 @@
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

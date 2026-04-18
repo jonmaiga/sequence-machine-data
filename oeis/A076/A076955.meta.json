@@ -1,11 +1,12 @@
 {
-  "description": "Product_{i=1..n} i^prime(i).",
+  "description": "a(n) = Product_{i=1..n} i^prime(i).",
   "id": "A076955",
   "mentions": [
     "A062481",
     "A076954"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

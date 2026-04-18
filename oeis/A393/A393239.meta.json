@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A000219(k) == 0 (mod 3).",
+  "id": "A393239",
+  "mentions": [
+    "A000219",
+    "A040051",
+    "A380893"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Jac(n)(2Jac(n)-1).",
+  "description": "a(n) = Jac(n)*(2Jac(n)-1), where Jac(n) = A001045(n).",
   "id": "A095129",
   "mentions": [
     "A001045",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 27,
     "source": "joeis"
   }
 }

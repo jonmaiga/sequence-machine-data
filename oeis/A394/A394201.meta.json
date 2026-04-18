@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(k*(k+5)/2)) / (1 - x^(k*(k+5)/2)).",
+  "id": "A394201",
+  "mentions": [
+    "A103265",
+    "A280366",
+    "A393988",
+    "A393989"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Lower Wythoff partition sequence of the triangular numbers (A003086); see Comments.",
+  "id": "A392660",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000201",
+    "A000217",
+    "A001950",
+    "A003086",
+    "A392117",
+    "A392656",
+    "A392661",
+    "A392662"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

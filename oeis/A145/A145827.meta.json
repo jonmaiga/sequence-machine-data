@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A145768(n) is a square.",
+  "description": "Numbers k such that A145768(k) is a square.",
   "id": "A145827",
   "mentions": [
     "A000290",
@@ -8,7 +8,6 @@
   ],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {

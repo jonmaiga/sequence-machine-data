@@ -1,5 +1,5 @@
 {
-  "description": "Positions of 0's on the spiral defined in A308890.",
+  "description": "Positions of 1's on the spiral defined in A308890.",
   "id": "A308891",
   "mentions": [
     "A308884",

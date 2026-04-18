@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th prime number has an odd number of digits and becomes composite if the central digit is removed.",
+  "description": "Numbers k such that the k-th prime number has an odd number of digits and becomes composite if the central digit is removed.",
   "id": "A084366",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

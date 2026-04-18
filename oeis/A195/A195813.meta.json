@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 3^n - 2^n + n^2 - n^3.",
+  "description": "Primes of the form 3^k - 2^k + k^2 - k^3.",
   "id": "A195813",
   "mentions": [
     "A001047",

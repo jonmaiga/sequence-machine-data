@@ -2,9 +2,11 @@
   "description": "Longest gap between numbers relatively prime to n.",
   "id": "A132468",
   "mentions": [
+    "A002110",
     "A048669",
     "A048670",
     "A049298",
+    "A058989",
     "A070194",
     "A070791"
   ],

@@ -2,6 +2,7 @@
   "description": "a(1) = a(2) = 1. a(n) = a(n-1) + (largest nonprime {1 or composite} among the first n-2 terms of the sequence).",
   "id": "A120760",
   "mentions": [
+    "A001622",
     "A018252",
     "A120761"
   ],

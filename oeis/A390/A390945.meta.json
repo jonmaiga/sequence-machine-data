@@ -1,0 +1,17 @@
+{
+  "description": "Burning number of the n-necklace graph.",
+  "id": "A390945",
+  "mentions": [
+    "A003059"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

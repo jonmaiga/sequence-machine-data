@@ -1,0 +1,16 @@
+{
+  "description": "List points (x,y,z) having integer coordinates, sorted first by L = |x| + |y| + |z| and in case of ties, then by z and last by polar angle 0 <= phi < 2*Pi in a polar coordinate system. Sequence gives z-coordinates.",
+  "id": "A393023",
+  "mentions": [
+    "A393021",
+    "A393022"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

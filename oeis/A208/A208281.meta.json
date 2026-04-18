@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3*prime(n)*2^k - 1 is prime for some k > 0 and then 3*prime(n)*2^k + 1 is also prime.",
+  "description": "Numbers m such that 3*prime(m)*2^k - 1 is prime for some k > 0 and then 3*prime(m)*2^k + 1 is also prime.",
   "id": "A208281",
   "mentions": [
     "A207572"

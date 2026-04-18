@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = gcd(A381466(n-1), n).",
+  "id": "A392200",
+  "mentions": [
+    "A381466"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

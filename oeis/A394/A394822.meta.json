@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of o.g.f. 1 + Sum_{n>=1} (n * x^n / Product_{k=1..n} (1 - k^2*x)). Row sums of A394823.",
+  "id": "A394822",
+  "mentions": [
+    "A008957",
+    "A135920",
+    "A394582",
+    "A394813",
+    "A394823"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

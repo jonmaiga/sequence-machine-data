@@ -1,0 +1,42 @@
+{
+  "description": "Decimal expansion of the largest positive zero of the Hermite polynomial of degree 7.",
+  "id": "A393370",
+  "mentions": [
+    "A010503",
+    "A019704",
+    "A019708",
+    "A019717",
+    "A060821",
+    "A115754",
+    "A245887",
+    "A393353",
+    "A393354",
+    "A393355",
+    "A393356",
+    "A393357",
+    "A393358",
+    "A393360",
+    "A393361",
+    "A393362",
+    "A393363",
+    "A393364",
+    "A393365",
+    "A393366",
+    "A393367",
+    "A393368",
+    "A393369",
+    "A393371",
+    "A393372",
+    "A393373",
+    "A393374"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

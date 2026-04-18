@@ -1,0 +1,18 @@
+{
+  "description": "Maximum width of a simple imperfect squared square (SISS) of order n, or 0 if no such square exists.",
+  "id": "A393600",
+  "mentions": [
+    "A002962"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 13,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

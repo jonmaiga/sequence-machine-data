@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimum diameter of a n-element set of integers for which no nonzero d has more than 2 representations as a difference of elements of the set.",
+  "id": "A392461",
+  "mentions": [
+    "A003022",
+    "A392462",
+    "A392463"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

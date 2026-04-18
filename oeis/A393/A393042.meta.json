@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer whose arithmetic derivative has n trailing zeros in its primorial base representation (A049345).",
+  "id": "A393042",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A060735",
+    "A276084",
+    "A368703",
+    "A393041"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

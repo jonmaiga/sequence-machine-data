@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A375516(n) mod n+1.",
+  "id": "A392175",
+  "mentions": [
+    "A374663",
+    "A375516",
+    "A375517"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

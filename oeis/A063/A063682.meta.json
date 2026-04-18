@@ -2,16 +2,19 @@
   "description": "Number of 2-trees rooted at an asymmetric end-edge.",
   "id": "A063682",
   "mentions": [
+    "A000151",
+    "A005750",
     "A054581",
     "A058866",
     "A058870"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

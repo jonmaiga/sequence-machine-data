@@ -1,5 +1,5 @@
 {
-  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and w=3x-3y.",
+  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and w = 3x-3y.",
   "id": "A211546",
   "mentions": [
     "A211422"

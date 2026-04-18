@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-5x)/((1-6x)(1-7x)).",
+  "description": "Expansion of (1-5*x)/((1-6*x)*(1-7*x)).",
   "id": "A085353",
   "mentions": [
     "A000400",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p(n) such that n is a second-order nonprime number.",
+  "description": "Primes prime(k) where k is a second-order nonprime number.",
   "id": "A102617",
   "mentions": [
     "A000040",

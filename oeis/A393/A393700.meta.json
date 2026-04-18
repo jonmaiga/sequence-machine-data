@@ -1,0 +1,18 @@
+{
+  "description": "Numbers multiplied by 2 conjecturally not occurring in A393562.",
+  "id": "A393700",
+  "mentions": [
+    "A004018",
+    "A393562",
+    "A393564",
+    "A393701"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of Chebyshev sequence S(n,13)= U(n,13/2)=A078362(n).",
+  "description": "Partial sums of Chebyshev sequence S(n,13)= U(n,13/2) = A078362(n).",
   "id": "A097828",
   "mentions": [
     "A078362",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

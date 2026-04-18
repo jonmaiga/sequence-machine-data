@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of the probability that a bullet, shot randomly at a cube that is thrown into the air, will pass through the opposite side.",
   "id": "A300284",
-  "mentions": [],
+  "mentions": [
+    "A188582"
+  ],
   "tags": [
     "cons",
     "formulas",

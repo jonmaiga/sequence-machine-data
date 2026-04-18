@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k > 1 with at least one nontrivial divisor 1 < d < k such that the largest proper divisor is the sum of a subset of the other nontrivial divisors of k.",
+  "id": "A392440",
+  "mentions": [
+    "A000040",
+    "A020639",
+    "A070824",
+    "A392437",
+    "A392438",
+    "A392439",
+    "A392492",
+    "A392500",
+    "A392652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

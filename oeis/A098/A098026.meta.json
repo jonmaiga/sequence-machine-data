@@ -2,7 +2,8 @@
   "description": "Smallest prime p such that p+1 is the product of exactly n distinct prime numbers.",
   "id": "A098026",
   "mentions": [
-    "A073918"
+    "A073918",
+    "A391216"
   ],
   "tags": [
     "nonn"

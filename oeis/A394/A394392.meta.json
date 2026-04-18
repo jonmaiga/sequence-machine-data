@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyominoes with n cells such that pairs of cell centers determine the largest possible number (A393992(n)) of distinct lines.",
+  "id": "A394392",
+  "mentions": [
+    "A000105",
+    "A377942",
+    "A393939",
+    "A393992",
+    "A394393"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

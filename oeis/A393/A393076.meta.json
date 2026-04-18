@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the last bit in the bit string s_n, where s_0 is 10 and s_n is the concatenation of s_{n-1} with itself with the last bit removed and then reversed.",
+  "id": "A393076",
+  "mentions": [
+    "A282390",
+    "A334820"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

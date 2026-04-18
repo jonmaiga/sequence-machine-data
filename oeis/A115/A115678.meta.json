@@ -2,6 +2,8 @@
   "description": "Triangular numbers whose digit reversal is a brilliant number (A078972).",
   "id": "A115678",
   "mentions": [
+    "A000217",
+    "A001358",
     "A078972",
     "A115677"
   ],
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

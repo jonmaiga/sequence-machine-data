@@ -1,14 +1,18 @@
 {
-  "description": "10n+12^n.",
+  "description": "a(n) = 10*n + 12^n.",
   "id": "A173393",
-  "mentions": [],
+  "mentions": [
+    "A001021",
+    "A011540"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "joeis"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

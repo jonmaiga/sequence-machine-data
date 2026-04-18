@@ -1,5 +1,5 @@
 {
-  "description": "16^(5*n+4).",
+  "description": "a(n) = 16^(5*n+4).",
   "id": "A013881",
   "mentions": [
     "A001025",

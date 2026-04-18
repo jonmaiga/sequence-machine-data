@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected bicolored graphs on n unlabeled nodes such that black nodes are not adjacent to each other.",
+  "id": "A394610",
+  "mentions": [
+    "A000088",
+    "A001349",
+    "A339832"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

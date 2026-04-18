@@ -1,0 +1,15 @@
+{
+  "description": "Number of induced cubes in the n X n fiveleaper graph.",
+  "id": "A394278",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

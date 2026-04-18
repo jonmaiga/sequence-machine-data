@@ -1,0 +1,17 @@
+{
+  "description": "Semiprimes that are (perimeter^2 - hypotenuse^2) of a Pythagorean triple.",
+  "id": "A389589",
+  "mentions": [
+    "A103605",
+    "A103606",
+    "A392100"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

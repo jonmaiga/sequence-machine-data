@@ -6,7 +6,8 @@
     "A239964",
     "A240305",
     "A240308",
-    "A240309"
+    "A240309",
+    "A394188"
   ],
   "tags": [
     "easy",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

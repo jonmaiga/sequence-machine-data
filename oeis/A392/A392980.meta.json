@@ -1,0 +1,19 @@
+{
+  "description": "Positions of zeros in A393336.",
+  "id": "A392980",
+  "mentions": [
+    "A058377",
+    "A392236",
+    "A393336"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

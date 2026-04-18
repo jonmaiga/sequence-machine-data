@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that have a primitive root less than n that are nonnegative perfect eleventh powers.",
+  "description": "Numbers k that have a primitive root less than k that are nonnegative perfect eleventh powers.",
   "id": "A084550",
   "mentions": [
     "A167791"

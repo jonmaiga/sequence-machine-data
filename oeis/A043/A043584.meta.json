@@ -2,7 +2,9 @@
   "description": "Numbers whose base-3 representation has exactly 4 runs.",
   "id": "A043584",
   "mentions": [
-    "A007089"
+    "A007089",
+    "A043784",
+    "A043789"
   ],
   "tags": [
     "base",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
-    "source": "joeis"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

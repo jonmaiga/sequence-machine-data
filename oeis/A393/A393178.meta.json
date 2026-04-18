@@ -1,0 +1,17 @@
+{
+  "description": "Main diagonal of A171698.",
+  "id": "A393178",
+  "mentions": [
+    "A000984",
+    "A171698"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

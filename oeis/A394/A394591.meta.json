@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the distinct prime divisors of C(3*n, n).",
+  "id": "A394591",
+  "mentions": [
+    "A005809",
+    "A006480",
+    "A008472",
+    "A394454"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

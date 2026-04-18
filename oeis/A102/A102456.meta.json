@@ -2,6 +2,7 @@
   "description": "a(n) = n!/A102356(n).",
   "id": "A102456",
   "mentions": [
+    "A000142",
     "A102356"
   ],
   "tags": [

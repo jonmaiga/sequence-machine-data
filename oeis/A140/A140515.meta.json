@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that one of floor(10^n * Pi) or ceiling(10^n * Pi) is prime.",
+  "description": "Numbers k such that one of floor(10^k * Pi) or ceiling(10^k * Pi) is prime.",
   "id": "A140515",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Least number of qubits such that a quantum error correcting code with distance n and one logical qubit exists.",
+  "id": "A393197",
+  "mentions": [
+    "A090899",
+    "A094927"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

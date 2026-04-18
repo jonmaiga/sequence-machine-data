@@ -1,15 +1,15 @@
 {
-  "description": "Number of 3-almostprimes <= 2^n.",
+  "description": "Number of 3-almost-primes <= 2^n.",
   "id": "A127396",
   "mentions": [
     "A072114",
+    "A092479",
     "A109251",
     "A125527",
     "A126279"
   ],
   "tags": [
     "formulas",
-    "less",
     "nonn"
   ],
   "terms": {

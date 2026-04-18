@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the largest digit of n^3 is 7.",
+  "description": "Numbers k such that the largest digit of k^3 is 7.",
   "id": "A294997",
   "mentions": [
     "A000578",
@@ -7,11 +7,13 @@
     "A294664",
     "A294665",
     "A294996",
+    "A294998",
     "A294999",
     "A295022"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {

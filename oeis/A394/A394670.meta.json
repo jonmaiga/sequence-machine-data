@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways n students take an exam one by one on any number of consecutive days as long as there are at least k students for each day.",
+  "id": "A394670",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A002866",
+    "A052554",
+    "A052557",
+    "A394677"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

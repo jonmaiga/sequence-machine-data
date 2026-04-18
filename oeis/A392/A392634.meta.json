@@ -1,0 +1,17 @@
+{
+  "description": "Array listed by rows: Pythagorean triples a < b < c with inradius r such that a*b*c*r - (a+b+c+r) and a*b*c*r + (a+b+c+r) are both prime, sorted first by increasing hypotenuse c and then by the even term.",
+  "id": "A392634",
+  "mentions": [
+    "A020882",
+    "A103606"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

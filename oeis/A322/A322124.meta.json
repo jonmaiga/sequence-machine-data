@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that m = 24k^2 + 4k + 73 and 6m - 5 are both primes.",
+  "description": "Numbers k such that m = 24*k^2 + 4*k + 73 and 6*m - 5 are both primes.",
   "id": "A322124",
   "mentions": [
     "A001567",

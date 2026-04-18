@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n < d(n)^(29/10), where d(n) is the number of divisors of n.",
+  "description": "Numbers k such that k < d(k)^(29/10), where d(k) is the number of divisors of k.",
   "id": "A225737",
   "mentions": [
     "A034884",

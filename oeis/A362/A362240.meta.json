@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: Row n is the shortest, then lexicographically earliest sequence of 0s and 1s not yet in the sequence.",
+  "description": "Triangle read by rows: Row n is the shortest, then lexicographically earliest sequence of 0's and 1's not yet in the sequence.",
   "id": "A362240",
   "mentions": [
     "A076478",

@@ -1,5 +1,5 @@
 {
-  "description": "Squares on infinite chessboard at n moves from center using a {2,3} fairy knight.",
+  "description": "Squares on infinite chessboard at n moves from center using a {2,3} fairy knight (or zebra).",
   "id": "A018839",
   "mentions": [
     "A297740"

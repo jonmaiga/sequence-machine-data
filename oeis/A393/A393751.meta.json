@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = x + x*d^2/dx^2 A(x)^3/3.",
+  "id": "A393751",
+  "mentions": [
+    "A088716",
+    "A393750"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

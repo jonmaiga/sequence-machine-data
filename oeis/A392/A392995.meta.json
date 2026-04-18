@@ -1,0 +1,22 @@
+{
+  "description": "Number of plane partitions with multiplicities of parts matching the n-th composition in standard order.",
+  "id": "A392995",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000085",
+    "A000219",
+    "A066099",
+    "A299926",
+    "A379277"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

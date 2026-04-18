@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of connected graphs on n nodes with genus k, 0 <= k <= A000933(n).",
+  "id": "A393345",
+  "mentions": [
+    "A000933",
+    "A001349",
+    "A003094",
+    "A319115",
+    "A394215"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

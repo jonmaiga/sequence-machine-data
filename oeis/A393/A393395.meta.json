@@ -1,0 +1,14 @@
+{
+  "description": "Number of permutations of length n sortable by a (2,2)-stack.",
+  "id": "A393395",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

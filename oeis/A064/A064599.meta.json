@@ -1,8 +1,10 @@
 {
-  "description": "The sum of the nonunitary divisors of n is a divisor of n; i.e., sigma(n) - usigma(n) divides n.",
+  "description": "Numbers k such that the sum of the nonunitary divisors of k is a divisor of k; i.e., sigma(k) - usigma(k) divides k.",
   "id": "A064599",
   "mentions": [
+    "A000203",
     "A001248",
+    "A034448",
     "A048146",
     "A064591"
   ],

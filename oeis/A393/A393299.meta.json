@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of 2n X 2n matrices over GF(2) such that the column space and the row space and the null space are all equal.",
+  "id": "A393299",
+  "mentions": [
+    "A002884",
+    "A028362",
+    "A393204"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

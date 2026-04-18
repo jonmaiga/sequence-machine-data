@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the unique integral median length of the triangle (A394368(n), A394367(n), A394366(n)).",
+  "id": "A394369",
+  "mentions": [
+    "A181924",
+    "A181928",
+    "A227895",
+    "A393193",
+    "A394100",
+    "A394101",
+    "A394102",
+    "A394366",
+    "A394367",
+    "A394368"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

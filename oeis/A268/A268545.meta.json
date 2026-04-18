@@ -2,6 +2,8 @@
   "description": "From the diagonal of 1/(1 - (y + z + x w + x z w + x y w)).",
   "id": "A268545",
   "mentions": [
+    "A000984",
+    "A026000",
     "A268555"
   ],
   "tags": [

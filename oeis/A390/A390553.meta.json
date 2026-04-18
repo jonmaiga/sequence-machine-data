@@ -1,0 +1,18 @@
+{
+  "description": "Total number of permutations of [k] having exactly n cycles with cycle length set [m] for nonnegative integers k and m.",
+  "id": "A390553",
+  "mentions": [
+    "A000110",
+    "A000217",
+    "A392215"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

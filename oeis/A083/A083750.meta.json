@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2111131111...p(n-1)1111p(n) is prime.",
+  "description": "Numbers k such that 2111131111...p(k-1)1111p(k) is prime.",
   "id": "A083750",
   "mentions": [
     "A082549",
@@ -7,11 +7,14 @@
   ],
   "tags": [
     "base",
+    "hard",
+    "less",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

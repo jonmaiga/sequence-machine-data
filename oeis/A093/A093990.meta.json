@@ -2,7 +2,7 @@
   "description": "Number of one-sided n-celled polyzebras (or zebra-move-connected polyominoes).",
   "id": "A093990",
   "mentions": [
-    "A030444",
+    "A030445",
     "A093877",
     "A093989",
     "A093991",

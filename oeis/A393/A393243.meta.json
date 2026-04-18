@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the limit mean of the number of continued fraction coefficients required per decimal digit for the silver ratio.",
+  "id": "A393243",
+  "mentions": [
+    "A014176",
+    "A086819",
+    "A392067"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -2,7 +2,7 @@
   "description": "Expansion of B(x)/sqrt(1 + 8*(B(x)-1)/9), where B(x) is the g.f. of A169958.",
   "id": "A387092",
   "mentions": [
-    "A062994",
+    "A059967",
     "A169958",
     "A226706",
     "A383965",

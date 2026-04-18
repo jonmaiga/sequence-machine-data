@@ -1,5 +1,5 @@
 {
-  "description": "Polycyclic aromatic hydrocarbons (for precise definition see He and He, 1986).",
+  "description": "Polycyclic aromatic hydrocarbons: polyhexes made of n hexagons that do not have holes of size 1.",
   "id": "A323930",
   "mentions": [
     "A000228",

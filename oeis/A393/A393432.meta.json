@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of three-element sets of distinct integer-sided trapezoids whose base angles are 60 degrees of total area n^2 but which cannot fill an equilateral triangular grid of side n units.",
+  "id": "A393432",
+  "mentions": [
+    "A130518",
+    "A389392",
+    "A389518",
+    "A390522",
+    "A390523",
+    "A391498",
+    "A391499",
+    "A393545"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

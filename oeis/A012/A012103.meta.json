@@ -1,14 +1,19 @@
 {
   "description": "cos(arcsin(sinh(x))) = 1-1/2!*x^2-7/4!*x^4-121/6!*x^6-5167/8!*x^8...",
   "id": "A012103",
-  "mentions": [],
+  "mentions": [
+    "A235134",
+    "A281181",
+    "A385304"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "joeis"
   }
 }

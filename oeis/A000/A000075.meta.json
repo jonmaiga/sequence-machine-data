@@ -1,5 +1,5 @@
 {
-  "description": "Number of positive integers <= 2^n of form 2 x^2 + 3 y^2.",
+  "description": "Number of positive integers <= 2^n of form 2*x^2 + 3*y^2.",
   "id": "A000075",
   "mentions": [
     "A002480"

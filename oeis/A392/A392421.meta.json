@@ -1,0 +1,19 @@
+{
+  "description": "Number of mutual-visibility sets of size 3 in the n-cycle graph.",
+  "id": "A392421",
+  "mentions": [
+    "A000292",
+    "A060423",
+    "A389177"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

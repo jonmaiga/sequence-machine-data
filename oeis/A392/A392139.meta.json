@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n^4 as an ordered sum of n fourth powers of integers.",
+  "id": "A392139",
+  "mentions": [
+    "A000583",
+    "A175372",
+    "A175375",
+    "A232173",
+    "A259793",
+    "A299169",
+    "A299195",
+    "A307644",
+    "A346566"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

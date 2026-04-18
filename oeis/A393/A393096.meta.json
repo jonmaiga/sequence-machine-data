@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sopf(k) and k-sopf(k) are prime, where sopf() is the sum of distinct prime factors.",
+  "id": "A393096",
+  "mentions": [
+    "A001221",
+    "A008472",
+    "A394061",
+    "A394062"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

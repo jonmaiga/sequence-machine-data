@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which when sandwiched between two 7's give a multiple of n.",
+  "description": "Numbers k which when sandwiched between two 7's give a multiple of k.",
   "id": "A116442",
   "mentions": [
     "A116436",

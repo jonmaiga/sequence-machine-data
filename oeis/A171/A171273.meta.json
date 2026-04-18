@@ -8,13 +8,12 @@
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "tabl",
-    "uned"
+    "sign",
+    "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

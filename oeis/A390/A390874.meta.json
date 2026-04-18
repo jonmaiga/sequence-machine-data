@@ -1,0 +1,15 @@
+{
+  "description": "Molecular topological index of the n-necklace graph.",
+  "id": "A390874",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

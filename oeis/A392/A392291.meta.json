@@ -1,0 +1,33 @@
+{
+  "description": "List of all possible composition numbers of graphs.",
+  "id": "A392291",
+  "mentions": [
+    "A000079",
+    "A000110",
+    "A000325",
+    "A058975",
+    "A078468",
+    "A110476",
+    "A265417",
+    "A282010",
+    "A344638",
+    "A346273",
+    "A367172",
+    "A367173",
+    "A367174",
+    "A367703",
+    "A389996",
+    "A389997",
+    "A389998",
+    "A392292",
+    "A392293"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

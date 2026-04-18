@@ -1,8 +1,9 @@
 {
-  "description": "Numbers that are not the sum of at most three powerful (1) numbers.",
+  "description": "Numbers that are not the sum of at most three powerful numbers (A001694).",
   "id": "A056828",
   "mentions": [
     "A001694",
+    "A004215",
     "A076871",
     "A113505"
   ],

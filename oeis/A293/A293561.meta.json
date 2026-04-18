@@ -1,16 +1,17 @@
 {
-  "description": "Column 3 of A142249.",
+  "description": "a(n) = Stirling2(n + 1, 3) - binomial(n, 2). Column 3 of A142249.",
   "id": "A293561",
   "mentions": [
     "A142249"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 26,
+    "offset": 0,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

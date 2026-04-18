@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number <>n, not occurring earlier and having as many distinct prime factors as n has, with a(1) = 1.",
+  "description": "Smallest number <> n, not occurring earlier and having as many distinct prime factors as n has, with a(1) = 1.",
   "id": "A094681",
   "mentions": [
     "A001221",

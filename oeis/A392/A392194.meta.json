@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive numbers on a square spiral such that each pair of orthogonal nearest neighbor numbers is distinct.",
+  "id": "A392194",
+  "mentions": [
+    "A274640",
+    "A307834",
+    "A355270",
+    "A355271",
+    "A355314"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

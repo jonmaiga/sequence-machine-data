@@ -43,7 +43,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 15,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary words of length n with an even number of occurrences of subword 101.",
+  "id": "A393945",
+  "mentions": [
+    "A005251",
+    "A118429",
+    "A303430"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

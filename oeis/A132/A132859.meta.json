@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0, a(n)=n^a(n-1) for n>=1 .",
+  "description": "a(0) = 0, a(n) = n^a(n-1) for n>=1.",
   "id": "A132859",
   "mentions": [
     "A049384"

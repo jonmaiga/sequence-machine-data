@@ -1,5 +1,5 @@
 {
-  "description": "Integers n not of form 3m+1 such that for any integer k>0, n*10^k-1 has a divisor in the set { 7, 11, 13, 37 }.",
+  "description": "Integers j not of form 3m+1 such that for any integer k>0, j*10^k-1 has a divisor in the set { 7, 11, 13, 37 }.",
   "id": "A243974",
   "mentions": [
     "A076337",
@@ -12,12 +12,13 @@
     "A244076"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 36,
+    "source": "joeis"
   }
 }

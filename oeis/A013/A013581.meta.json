@@ -1,10 +1,13 @@
 {
-  "description": "Let P = 2*3*5*..*p_n = n-th primorial number (A002110), G = Z_2xZ_3x...xZ_{p_n}; a(n) = max{e in G} min{i : both e+i, e-i are relatively prime to P}.",
+  "description": "Let P = 2*3*5*..*p_n = n-th primorial number (A002110); a(n) = max_{e} min{i>=0 : both e+i, e-i are relatively prime to P}.",
   "id": "A013581",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A048670",
+    "A058989"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

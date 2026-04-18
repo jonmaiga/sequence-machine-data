@@ -1,0 +1,17 @@
+{
+  "description": "Number of equivalence classes of trees with n unlabeled nodes under the adjacency monomial E.",
+  "id": "A392756",
+  "mentions": [
+    "A000055",
+    "A381349"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

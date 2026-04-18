@@ -1,5 +1,5 @@
 {
-  "description": "Common denominator of coefficients in Nörlund's polynomial D_{2n}(x).",
+  "description": "Common denominator of coefficients in Nørlund's polynomial D_{2n}(x).",
   "id": "A260326",
   "mentions": [
     "A001896",

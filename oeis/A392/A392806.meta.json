@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: exponents of the primes in the prime factorization of A392805(n) (primes in increasing order).",
+  "id": "A392806",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A067255",
+    "A391956",
+    "A392805"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

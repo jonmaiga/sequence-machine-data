@@ -1,0 +1,21 @@
+{
+  "description": "Chebyshev distance from n to the origin in a square spiral of positive integers and 1 at the origin.",
+  "id": "A391618",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A392219",
+    "A392348",
+    "A392353"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

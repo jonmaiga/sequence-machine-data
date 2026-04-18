@@ -1,9 +1,10 @@
 {
-  "description": "O.g.f. A(x) satisfies: [x^n] exp( -n*A(x) ) / (1 - n*x)^n = 0, for n > 0.",
+  "description": "O.g.f. A(x) satisfies [x^n] exp( -n*A(x) ) / (1 - n*x)^n = 0, for n > 0.",
   "id": "A319940",
   "mentions": [
     "A319938",
-    "A319939"
+    "A319939",
+    "A394968"
   ],
   "tags": [
     "formulas",

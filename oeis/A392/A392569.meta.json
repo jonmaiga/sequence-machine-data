@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A000788.",
+  "id": "A392569",
+  "mentions": [
+    "A000120",
+    "A000788"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

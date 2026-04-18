@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient of Gauss polynomials [n+4,4]_q (q-binomials).",
+  "description": "Triangle of coefficients of the Gauss polynomials [n+4,4]_q (q-binomials).",
   "id": "A219237",
   "mentions": [
     "A000012",

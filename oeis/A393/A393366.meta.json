@@ -1,0 +1,35 @@
+{
+  "description": "Decimal expansion of the weight factor for Hermite-Gauss quadrature of degree 6 corresponding to abscissa A393363.",
+  "id": "A393366",
+  "mentions": [
+    "A010503",
+    "A019704",
+    "A019708",
+    "A019717",
+    "A115754",
+    "A245887",
+    "A393353",
+    "A393354",
+    "A393355",
+    "A393356",
+    "A393357",
+    "A393358",
+    "A393360",
+    "A393361",
+    "A393362",
+    "A393363",
+    "A393364",
+    "A393365",
+    "A393367"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

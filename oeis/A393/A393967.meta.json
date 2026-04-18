@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi_3, a generalized version of Pi used in squigonometry.",
+  "id": "A393967",
+  "mentions": [
+    "A073005",
+    "A175576",
+    "A304656",
+    "A393968"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

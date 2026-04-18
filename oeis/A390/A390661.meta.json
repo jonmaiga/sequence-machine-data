@@ -8,12 +8,13 @@
     "A390660"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 32,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

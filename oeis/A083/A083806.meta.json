@@ -2,6 +2,7 @@
   "description": "Perfect powers using only prime digits and 1.",
   "id": "A083806",
   "mentions": [
+    "A001597",
     "A083807"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "joeis"
   }
 }

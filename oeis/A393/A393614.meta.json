@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form a*b*c*r/60 where (a,b,c) is a primitive Pythagorean triple with inradius r.",
+  "id": "A393614",
+  "mentions": [
+    "A392634",
+    "A393335",
+    "A393526"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

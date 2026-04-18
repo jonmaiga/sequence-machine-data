@@ -1,13 +1,33 @@
 {
   "description": "Values tilde(B_s(2)) of q-analogs of Fibonacci numbers.",
   "id": "A279007",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A000124",
+    "A000129",
+    "A002856",
+    "A003600",
+    "A007179",
+    "A015474",
+    "A015475",
+    "A015476",
+    "A015477",
+    "A015479",
+    "A015480",
+    "A015481",
+    "A015482",
+    "A015484",
+    "A015485",
+    "A254875"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

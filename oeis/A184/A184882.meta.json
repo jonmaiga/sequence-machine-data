@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=1-4*n-4*n^2.",
+  "description": "a(n) = 1 - 4*n - 4*n^2.",
   "id": "A184882",
   "mentions": [
     "A184881"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 41,
     "source": "joeis"
   }
 }

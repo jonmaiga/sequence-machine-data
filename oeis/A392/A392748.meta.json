@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Stirling2(n+2*k,k).",
+  "id": "A392748",
+  "mentions": [
+    "A226750",
+    "A229286",
+    "A392734",
+    "A392749"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

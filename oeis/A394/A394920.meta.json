@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the average length of a chord in a unit square defined by a point in the interior and a direction both uniformly and independently chosen at random.",
+  "id": "A394920",
+  "mentions": [
+    "A254140",
+    "A330924",
+    "A348680",
+    "A348681",
+    "A394919"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

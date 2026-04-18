@@ -2,11 +2,13 @@
   "description": "Decimal expansion of the tetrahedral angle (in degrees).",
   "id": "A247412",
   "mentions": [
+    "A072097",
     "A156546"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

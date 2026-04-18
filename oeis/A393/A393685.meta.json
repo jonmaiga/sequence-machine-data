@@ -1,0 +1,18 @@
+{
+  "description": "Records in A393684.",
+  "id": "A393685",
+  "mentions": [
+    "A003462",
+    "A393684",
+    "A393688"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

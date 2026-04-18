@@ -1,11 +1,13 @@
 {
-  "description": "Number of partitions of n into parts with at most one part not greater than 2.",
+  "description": "Number of partitions of n into parts with at most one part <= 2.",
   "id": "A121659",
   "mentions": [
     "A000041",
     "A008483",
     "A027336",
-    "A121081"
+    "A121081",
+    "A350716",
+    "A351169"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,18 @@
+{
+  "description": "Minimax length of a simple path grown from its endpoints on an n X n grid graph.",
+  "id": "A394517",
+  "mentions": [
+    "A000290",
+    "A005563"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

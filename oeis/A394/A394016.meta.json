@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 1 if k appears in the n X n multiplication table, otherwise 0.",
+  "id": "A394016",
+  "mentions": [
+    "A027424",
+    "A321165"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

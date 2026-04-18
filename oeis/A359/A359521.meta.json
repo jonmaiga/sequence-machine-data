@@ -2,7 +2,9 @@
   "description": "Number of free mature snake polyominoes of n cells, where mature means that the snake cannot grow in either direction.",
   "id": "A359521",
   "mentions": [
-    "A002013"
+    "A002013",
+    "A331986",
+    "A383731"
   ],
   "tags": [
     "more",

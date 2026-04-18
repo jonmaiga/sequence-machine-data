@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n such that the multiplicity m of the least part s is a part of the partition and m > s.",
+  "id": "A394291",
+  "mentions": [
+    "A096403",
+    "A240493"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

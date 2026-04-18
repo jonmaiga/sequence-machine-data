@@ -1,5 +1,5 @@
 {
-  "description": "First differences of A069475, successive differences of (n+1)^6-n^6.",
+  "description": "First differences of A069475, successive differences of (n+1)^6 - n^6.",
   "id": "A069476",
   "mentions": [
     "A001014",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 40,
     "source": "joeis"
   }
 }

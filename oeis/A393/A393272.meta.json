@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, a(n) = Sum_{k=1..n} binomial(n+1, k+1)*A000169(k) for n > 0.",
+  "id": "A393272",
+  "mentions": [
+    "A000169",
+    "A038051",
+    "A203092",
+    "A258387",
+    "A277473",
+    "A392286"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of induced cubes in the n-Sierpinski carpet graph.",
+  "id": "A394274",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

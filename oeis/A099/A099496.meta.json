@@ -2,6 +2,8 @@
   "description": "a(n) = (-1)^n * Fibonacci(2*n+1).",
   "id": "A099496",
   "mentions": [
+    "A000045",
+    "A001622",
     "A056594",
     "A122367"
   ],

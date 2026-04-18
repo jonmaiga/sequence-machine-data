@@ -1,5 +1,5 @@
 {
-  "description": "Distribution of first digit of mantissa following Benford's Law, using Sainte-Lague method to minimize chi-squared statistic.",
+  "description": "Distribution of first digit of mantissa following Benford's law, using Sainte-Laguë method to minimize chi-squared statistic.",
   "id": "A055439",
   "mentions": [
     "A055440",

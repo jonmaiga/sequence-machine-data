@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(n + 2)^2 - prime(n + 1)*prime(n).",
+  "id": "A393202",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006094",
+    "A046868",
+    "A056221",
+    "A393203"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

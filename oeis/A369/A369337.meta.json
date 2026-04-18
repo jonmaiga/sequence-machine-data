@@ -2,6 +2,7 @@
   "description": "Total number of numbers less than each divisor d of n that do not divide d.",
   "id": "A369337",
   "mentions": [
+    "A006218",
     "A369338"
   ],
   "tags": [

@@ -1,8 +1,13 @@
 {
   "description": "Number of perifusenes with one internal vertex.",
   "id": "A038384",
-  "mentions": [],
+  "mentions": [
+    "A038381",
+    "A038382"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

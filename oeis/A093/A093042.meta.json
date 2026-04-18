@@ -1,5 +1,5 @@
 {
-  "description": "Jacobsthal(n)*Fibonacci(n).",
+  "description": "a(n) = Jacobsthal(n) * Fibonacci(n).",
   "id": "A093042",
   "mentions": [
     "A000045",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 30,
     "source": "joeis"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of A393455*A393457, which is the improved constant in Theorem 1.1 of Alcántara et al, (2025).",
+  "id": "A393458",
+  "mentions": [
+    "A393455",
+    "A393456",
+    "A393457"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

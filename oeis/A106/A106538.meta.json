@@ -1,5 +1,5 @@
 {
-  "description": "Pseudo-golombisation of the Fibonacci-sequence succession of digits. Size of successive chunks is given by the digits of the Fibonacci-sequence themselves. See \"pi pseudo-golombisation\" for problems raised by 0, either as digit in the Fibonacci-sequence or as leading digit in a chunk.",
+  "description": "Pseudo-golombization of the Fibonacci-sequence succession of digits. Size of successive chunks is given by the digits of the Fibonacci-sequence themselves. See \"pi pseudo-golombization\" for problems raised by 0, either as digit in the Fibonacci-sequence or as leading digit in a chunk.",
   "id": "A106538",
   "mentions": [],
   "tags": [

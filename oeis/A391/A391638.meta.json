@@ -1,0 +1,18 @@
+{
+  "description": "Binary encoding of the disks missing from pin 1, after n moves, when moving infinitely many disks in the Tower of Hanoi starting from pin 1, via the optimal algorithm.",
+  "id": "A391638",
+  "mentions": [
+    "A295897",
+    "A392654",
+    "A392655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

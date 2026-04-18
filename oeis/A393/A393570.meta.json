@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered set partitions of [n] with palindromic block sizes.",
+  "id": "A393570",
+  "mentions": [
+    "A000670",
+    "A016116",
+    "A114902"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

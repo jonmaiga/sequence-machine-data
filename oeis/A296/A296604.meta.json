@@ -8,12 +8,13 @@
     "A296603"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 65,
+    "size": 89,
     "source": "joeis"
   }
 }

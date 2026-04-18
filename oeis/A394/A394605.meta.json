@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the mode of the distribution of distances between two points in a unit disk.",
+  "id": "A394605",
+  "mentions": [
+    "A093070",
+    "A102519",
+    "A394606",
+    "A394607"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

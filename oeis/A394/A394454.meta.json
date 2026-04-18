@@ -1,0 +1,21 @@
+{
+  "description": "Sum of distinct prime divisors of C(2*n, n).",
+  "id": "A394454",
+  "mentions": [
+    "A000984",
+    "A001221",
+    "A001405",
+    "A007947",
+    "A008472",
+    "A020639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

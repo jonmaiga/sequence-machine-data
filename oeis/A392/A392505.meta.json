@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest unused number such that a(n) shares a factor with a(n-1) while rad(a(n)*a(n-1)) has not previously occurred as the rad value of the product of adjacent terms, where rad = A007947.",
+  "id": "A392505",
+  "mentions": [
+    "A007947",
+    "A064413",
+    "A372043",
+    "A393471"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

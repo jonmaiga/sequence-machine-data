@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=n if n=1 or if n=prime. Otherwise, n=4 if n is even and n=1 if n is odd.",
+  "description": "a(n)=n if n=prime. Otherwise, a(n)=4 if n is even and a(n)=1 if n is odd.",
   "id": "A135681",
   "mentions": [
     "A014681",
@@ -16,6 +16,7 @@
     "A135679"
   ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {

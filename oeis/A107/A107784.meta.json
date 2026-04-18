@@ -1,13 +1,12 @@
 {
-  "description": "Stable nuclear atomic numbers based on an semi-empirical formula.",
+  "description": "See Mathematica program.",
   "id": "A107784",
   "mentions": [],
   "tags": [
-    "formulas",
+    "fini",
+    "full",
     "less",
-    "nonn",
-    "obsc",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

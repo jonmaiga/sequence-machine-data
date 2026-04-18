@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the larger of the two factors whose product is A394987.",
+  "id": "A394990",
+  "mentions": [
+    "A053644",
+    "A394987",
+    "A394989",
+    "A395003",
+    "A395004"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

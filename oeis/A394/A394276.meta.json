@@ -1,0 +1,15 @@
+{
+  "description": "Number of induced cubes in the n-triangular honeycomb queen graph.",
+  "id": "A394276",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

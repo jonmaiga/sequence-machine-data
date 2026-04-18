@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which can be expressed as the ordered sum of 3 squares in 2 or more different ways and such that n+1 has the same property.",
+  "description": "Numbers k which can be expressed as the ordered sum of 3 squares in 2 or more different ways and such that k+1 has the same property.",
   "id": "A124971",
   "mentions": [
     "A000164",

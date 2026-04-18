@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, A393834(n, a(n)) = 1.",
+  "id": "A393835",
+  "mentions": [
+    "A004488",
+    "A153490",
+    "A393834"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

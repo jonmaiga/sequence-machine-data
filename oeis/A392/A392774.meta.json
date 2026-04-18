@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows; integers with identical (tau, sigma) values occurring at least twice, rows ordered by their smallest term.",
+  "id": "A392774",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A054004",
+    "A381925",
+    "A393812"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n*(n-1)*(n-2)*(n-3)*(n-4)*(2*n-1)/72.",
+  "description": "a(n) = n*(n-1)*(n-2)*(n-3)*(n-4)*(2*n-1)/72.",
   "id": "A055504",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "joeis"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

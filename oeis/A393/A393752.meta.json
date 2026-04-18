@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: exp( x * Sum_{n>=0} n! * 2^n * x^n ).",
+  "id": "A393752",
+  "mentions": [
+    "A158876",
+    "A393753",
+    "A393754",
+    "A393755",
+    "A393756",
+    "A393757",
+    "A393758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

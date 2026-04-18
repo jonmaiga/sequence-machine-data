@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: cosh(log(x+1)-arctanh(x)) (even powers only).",
+  "description": "Expansion of e.g.f. cosh(log(x+1)-arctanh(x)) (even powers only).",
   "id": "A013302",
   "mentions": [
     "A013299"

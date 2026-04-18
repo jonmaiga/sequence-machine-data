@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal matchings in the n-necklace graph.",
+  "id": "A392336",
+  "mentions": [
+    "A002203",
+    "A108051",
+    "A170931"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -8,12 +8,11 @@
     "A375515"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 66,
-    "source": "oeis-entry"
+    "size": 101,
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "Number of polybricks: number of ways to arrange n 1 X 2 \"bricks\" in a wall (see illustrations).",
   "id": "A057973",
-  "mentions": [],
+  "mentions": [
+    "A197550"
+  ],
   "tags": [
     "nice",
     "nonn"

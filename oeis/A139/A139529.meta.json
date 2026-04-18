@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that numbers 24n+13 are primes.",
+  "description": "Numbers k such that 24*k + 13 is prime.",
   "id": "A139529",
-  "mentions": [],
+  "mentions": [
+    "A139530"
+  ],
   "tags": [
     "nonn"
   ],

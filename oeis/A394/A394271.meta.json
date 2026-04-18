@@ -1,0 +1,15 @@
+{
+  "description": "Number of induced cubes in the n-Keller graph.",
+  "id": "A394271",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

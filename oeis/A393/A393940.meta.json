@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that tau(m) is a perfect number (A000396).",
+  "id": "A393940",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000396",
+    "A020488",
+    "A030515",
+    "A081357",
+    "A081620",
+    "A137491",
+    "A146542",
+    "A162947",
+    "A393942"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of occurrences of n in A081493.",
+  "id": "A394694",
+  "mentions": [
+    "A000005",
+    "A033831",
+    "A081493",
+    "A209297"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

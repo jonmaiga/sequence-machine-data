@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct orders of derangements of n items.",
+  "id": "A392081",
+  "mentions": [
+    "A000166",
+    "A002865",
+    "A009490",
+    "A123131"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

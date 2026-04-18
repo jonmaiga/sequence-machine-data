@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the probability that a straight line drawn through a point selected uniformly at random on the perimeter of a regular pentagon, with a direction selected independently and uniformly at random, intersects one of the two sides adjacent to the side on which the point lies.",
+  "id": "A394923",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A165954",
+    "A244847",
+    "A284983",
+    "A394921"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

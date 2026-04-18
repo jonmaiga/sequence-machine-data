@@ -2,6 +2,8 @@
   "description": "Row lengths of A329585: number of solutions of the congruences x^2 == +1 (mod n) or (inclusive) x^2 == -1 (mod n), for n >= 1.",
   "id": "A329586",
   "mentions": [
+    "A000089",
+    "A060594",
     "A227091",
     "A329585",
     "A329588"

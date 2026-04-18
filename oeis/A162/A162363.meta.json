@@ -1,9 +1,10 @@
 {
-  "description": "Binary Keith numbers, excluding positive powers of 2.",
+  "description": "Binary Keith numbers, excluding positive powers of 2 that are larger than 1.",
   "id": "A162363",
   "mentions": [
     "A001567",
-    "A007629"
+    "A007629",
+    "A162724"
   ],
   "tags": [
     "base",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

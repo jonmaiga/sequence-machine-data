@@ -1,5 +1,5 @@
 {
-  "description": "Strong pseudo safe-primes: numbers n = 2m+1 with 2^m == +-1 (mod n) and m a strong pseudoprime A001262.",
+  "description": "Strong pseudo safe-primes: numbers k = 2*m+1 with 2^m == +-1 (mod k) and m a strong pseudoprime A001262.",
   "id": "A301643",
   "mentions": [
     "A001262",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

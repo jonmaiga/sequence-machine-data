@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,m) giving total degree of n-th-order elementary symmetric polynomials in m variables, -1 <= n, 1 <= m, transposed and read by upward antidiagonals.",
+  "description": "Array read by upward antidiagonals. A(n, k) = A(n, k-1) + Sum_{j=0..floor((n-1)/2)} A(2*j, k-1) * A(n-1-2*j, k) for n, k > 0, otherwise 1 for n = 0 or k = 0.",
   "id": "A050447",
   "mentions": [
     "A000012",

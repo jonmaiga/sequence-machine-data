@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 360/(1 + phi^2), where phi = A001622.",
+  "id": "A392301",
+  "mentions": [
+    "A001622",
+    "A096627",
+    "A104457",
+    "A131988",
+    "A296184",
+    "A392302"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 100,
+    "source": "joeis"
+  }
+}

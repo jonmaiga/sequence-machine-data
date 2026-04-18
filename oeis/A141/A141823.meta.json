@@ -1,5 +1,5 @@
 {
-  "description": "Integers n>1 such that A141822(n)=4.",
+  "description": "Integers k>1 such that A141822(k)=4.",
   "id": "A141823",
   "mentions": [
     "A141821",

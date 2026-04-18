@@ -1,0 +1,19 @@
+{
+  "description": "Total number of descents over all paths from a fixed vertex on level 2*(n+1) to level 1 in the 3-Bratteli diagram, a(n) = 3^(n-3)*(16*n-13), n>=3.",
+  "id": "A393655",
+  "mentions": [
+    "A391520",
+    "A393661",
+    "A393662"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 26,
+    "source": "joeis"
+  }
+}

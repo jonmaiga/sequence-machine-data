@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A392858(k) divides k.",
+  "id": "A392613",
+  "mentions": [
+    "A002110",
+    "A028234",
+    "A060735",
+    "A276086",
+    "A328387",
+    "A351226",
+    "A392612",
+    "A392858"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

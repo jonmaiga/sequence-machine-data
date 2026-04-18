@@ -1,5 +1,5 @@
 {
-  "description": "The number of distinct positions on an infinite chessboard reachable by the (2,3)-leaper in <= n moves.",
+  "description": "The number of distinct positions on an infinite chessboard reachable by the (2,3)-leaper (or zebra) in at most n moves.",
   "id": "A297740",
   "mentions": [
     "A018836",

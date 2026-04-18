@@ -1,5 +1,5 @@
 {
-  "description": "Smooth Power Quartets: The m-th number in the sequence, n, is part of the minimum quartet of numbers n through n-3 such that the highest prime factor of each number x <= floor(x^(1/m)).",
+  "description": "a(n) is the smallest number k such that gpf(k-j) <= floor((k-j)^(1/n)) for 0<=j<=3 where gpf(k) is the greatest prime factor of k.",
   "id": "A122465",
   "mentions": [
     "A122463",
@@ -8,8 +8,7 @@
   "tags": [
     "hard",
     "more",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

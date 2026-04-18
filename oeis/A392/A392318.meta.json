@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 37/72.",
+  "id": "A392318",
+  "mentions": [
+    "A021220"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

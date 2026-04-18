@@ -1,13 +1,21 @@
 {
   "description": "Number of unimodal h-vectors of length n.",
   "id": "A232478",
-  "mentions": [],
+  "mentions": [
+    "A111133",
+    "A232476",
+    "A232477",
+    "A232479",
+    "A232480",
+    "A232481",
+    "A232482"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 20,
     "source": "oeis-entry"
   }

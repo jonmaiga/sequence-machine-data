@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the parameter q at the stability limit of the Mathieu equation for the characteristic value 0.",
+  "id": "A394701",
+  "mentions": [
+    "A085550",
+    "A176019"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

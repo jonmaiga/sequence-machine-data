@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x having 2*x^2+x=4*cos(x).",
+  "description": "Decimal expansion of least x having 2*x^2+x=4*cos(x), negated.",
   "id": "A198118",
   "mentions": [
     "A197737",

@@ -1,7 +1,9 @@
 {
   "description": "Expansion of (1-x)/(1-3x-4x^2+4x^3).",
   "id": "A052965",
-  "mentions": [],
+  "mentions": [
+    "A316139"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,16 @@
+{
+  "description": "Continued fraction expansion of 4/sqrt(phi) = A202142, where phi = (1 + sqrt(5)) / 2 is the golden ratio.",
+  "id": "A392216",
+  "mentions": [
+    "A202142"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

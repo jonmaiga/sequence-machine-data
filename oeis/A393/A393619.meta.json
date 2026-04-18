@@ -1,0 +1,19 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n*(n-1)*x*A(x) ) / A(x)^(n-1) = 0 for n > 0.",
+  "id": "A393619",
+  "mentions": [
+    "A226775",
+    "A337458",
+    "A393618",
+    "A393621"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

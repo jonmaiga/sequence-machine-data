@@ -5,13 +5,12 @@
     "A046895"
   ],
   "tags": [
-    "easy",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

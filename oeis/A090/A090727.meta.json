@@ -2,8 +2,7 @@
   "description": "a(n) = 16a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 16.",
   "id": "A090727",
   "mentions": [
-    "A001081",
-    "A080246"
+    "A001081"
   ],
   "tags": [
     "easy",

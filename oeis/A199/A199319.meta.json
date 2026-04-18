@@ -1,5 +1,5 @@
 {
-  "description": "4*6^n+1.",
+  "description": "a(n) = 4*6^n+1.",
   "id": "A199319",
   "mentions": [
     "A083066"

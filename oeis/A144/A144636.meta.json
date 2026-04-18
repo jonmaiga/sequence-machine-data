@@ -2,15 +2,20 @@
   "description": "Column 1 of triangle in A144633.",
   "id": "A144636",
   "mentions": [
-    "A144633"
+    "A144633",
+    "A144637",
+    "A144638",
+    "A144639",
+    "A281181"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "joeis"
   }
 }

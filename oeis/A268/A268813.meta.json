@@ -1,8 +1,9 @@
 {
-  "description": "Decimal expansion of sum(k>=0, 1/C(k)), where C(k) is a Catalan Number (A000108).",
+  "description": "Decimal expansion of Sum_{k>=0} 1/C(k), where C(k) is a Catalan Number (A000108).",
   "id": "A268813",
   "mentions": [
     "A000108",
+    "A100666",
     "A121839"
   ],
   "tags": [

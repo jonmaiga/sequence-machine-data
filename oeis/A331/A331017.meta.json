@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that equal to the sum of their iterated absolute alternating sum-of-divisors function (A206369).",
+  "description": "Numbers that are equal to the sum of their iterated absolute alternating sum-of-divisors function (A206369).",
   "id": "A331017",
   "mentions": [
     "A082897",

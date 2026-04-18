@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f.: Product_{k>=1} 1 / (1 - x^(k^2 + 4)).",
+  "id": "A394019",
+  "mentions": [
+    "A001156",
+    "A393990",
+    "A394017",
+    "A394018",
+    "A394020"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

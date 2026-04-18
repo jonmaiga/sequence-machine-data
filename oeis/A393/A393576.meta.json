@@ -1,0 +1,18 @@
+{
+  "description": "Greatest common divisors of consecutive 7-smooth numbers.",
+  "id": "A393576",
+  "mentions": [
+    "A002473",
+    "A112752",
+    "A186711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

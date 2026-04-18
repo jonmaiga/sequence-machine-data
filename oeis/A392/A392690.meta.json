@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = denominator( (-1)^(n-1)*H(2*n)/(2*n + 1) ), where H(n) is the n-th harmonic number.",
+  "id": "A392690",
+  "mentions": [
+    "A002805",
+    "A005408",
+    "A392689"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "-sinh(log(x+1)-arctanh(x)) = 1/2!*x^2 + 6/4!*x^4 + 135/6!*x^6 + 6300/8!*x^8 + ...",
+  "description": "Expansion of e.g.f. -sinh(log(x+1) - arctanh(x)) (even powers only).",
   "id": "A013299",
   "mentions": [
     "A013302"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "joeis"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

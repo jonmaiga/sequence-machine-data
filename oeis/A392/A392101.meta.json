@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose square is the concatenation of two or more powers of 2.",
+  "id": "A392101",
+  "mentions": [
+    "A272884",
+    "A392102"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

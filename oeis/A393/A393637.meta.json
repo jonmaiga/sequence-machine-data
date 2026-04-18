@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2*sin(Pi/8)/(1+cos(Pi/8)).",
+  "id": "A393637",
+  "mentions": [
+    "A343060",
+    "A393636",
+    "A393638"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

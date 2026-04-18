@@ -1,0 +1,19 @@
+{
+  "description": "Number of character comparisons needed by naive string search to identify the first occurrence of string n in the infinite Champernowne word 123456789101112... (A033307).",
+  "id": "A392989",
+  "mentions": [
+    "A031297",
+    "A033307",
+    "A390503",
+    "A393101"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

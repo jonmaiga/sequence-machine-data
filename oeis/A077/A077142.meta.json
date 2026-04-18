@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of b = log(2*Pi) - 1 - gamma/2.",
   "id": "A077142",
-  "mentions": [],
+  "mentions": [
+    "A074760"
+  ],
   "tags": [
     "cons",
     "formulas",

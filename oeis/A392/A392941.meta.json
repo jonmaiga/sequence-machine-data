@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed polyquoins with n cells.",
+  "id": "A392941",
+  "mentions": [
+    "A001931",
+    "A390622",
+    "A392939",
+    "A392940"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

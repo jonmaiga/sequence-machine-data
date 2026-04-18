@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of binary words using letters 1 and 2, in numerical order.",
+  "id": "A392106",
+  "mentions": [
+    "A007931",
+    "A076478",
+    "A392107"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 98,
+    "source": "joeis"
+  }
+}

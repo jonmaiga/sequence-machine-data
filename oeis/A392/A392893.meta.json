@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct nonempty substrings in the first 10^n digits of the decimal expansion of Pi.",
+  "id": "A392893",
+  "mentions": [
+    "A000796"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

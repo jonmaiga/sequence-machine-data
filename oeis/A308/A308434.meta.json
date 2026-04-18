@@ -1,5 +1,5 @@
 {
-  "description": "n! + n!!.",
+  "description": "a(n) = n! + n!!.",
   "id": "A308434",
   "mentions": [
     "A000142",

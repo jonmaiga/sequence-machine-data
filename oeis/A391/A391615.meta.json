@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k whose abundance is 42: sigma(k) - 2*k = 42.",
+  "id": "A391615",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A088831"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

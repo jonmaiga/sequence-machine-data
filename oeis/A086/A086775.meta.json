@@ -1,9 +1,16 @@
 {
-  "description": "Decimal expansion of the number defined by the continued fraction shown below.",
+  "description": "Decimal expansion of the number defined by the continued fraction 1/(phi+1/(phi+1/(phi + ...))).",
   "id": "A086775",
   "mentions": [
     "A001622",
-    "A136319"
+    "A010527",
+    "A086773",
+    "A086774",
+    "A101263",
+    "A136319",
+    "A188485",
+    "A340616",
+    "A394765"
   ],
   "tags": [
     "cons",
@@ -14,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

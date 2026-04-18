@@ -1,0 +1,18 @@
+{
+  "description": "Binary expansion of a(n) obtained from binary expansion of n with increased number of zeros separated by every next 1 by total number of zeros lying from the left side of selected 1.",
+  "id": "A394533",
+  "mentions": [
+    "A125106",
+    "A225620"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

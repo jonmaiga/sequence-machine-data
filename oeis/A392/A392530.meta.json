@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest unused number such that the sum a(1) + ... + a(n) is coprime to the product a(1) * ... * a(n), where both the sum and product are nonprime.",
+  "id": "A392530",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A027748",
+    "A073659",
+    "A390314"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

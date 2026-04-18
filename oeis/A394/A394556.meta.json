@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest m not divisible by (n-1)! such that sigma(m) = n*m/2.",
+  "id": "A394556",
+  "mentions": [
+    "A317681"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

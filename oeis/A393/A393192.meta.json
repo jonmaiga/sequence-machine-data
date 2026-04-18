@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 32*n^3 - 72*n^2 + 60*n - 19.",
+  "id": "A393192",
+  "mentions": [
+    "A001105",
+    "A001844",
+    "A046142",
+    "A057813",
+    "A172482"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

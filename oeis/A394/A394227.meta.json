@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers whose decimal digits are 2, 3, or 6, and that are divisible by the product of their digits.",
+  "id": "A394227",
+  "mentions": [
+    "A007602",
+    "A058458",
+    "A119154"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

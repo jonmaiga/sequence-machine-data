@@ -1,5 +1,5 @@
 {
-  "description": "4*9^n-1.",
+  "description": "a(n) = 4*9^n-1.",
   "id": "A198961",
   "mentions": [],
   "tags": [

@@ -1,0 +1,16 @@
+{
+  "description": "Triangle read by rows: T(n,k), for n >= 4 and 3 <= k < n, is the number of irreducible meanders with n intersections and k tangential intersections.",
+  "id": "A393654",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

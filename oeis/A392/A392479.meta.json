@@ -1,0 +1,19 @@
+{
+  "description": "Pairs of prime numbers (p,q), p minimal, such that prime(n) = p^3 - 2*q, or (0,0) if no such pair exists.",
+  "id": "A392479",
+  "mentions": [
+    "A000040",
+    "A185046",
+    "A224730"
+  ],
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

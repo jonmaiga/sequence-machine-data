@@ -1,0 +1,18 @@
+{
+  "description": "Numbers x such that x^2 = y^2 + r for some y, where r is an anagram of y^2.",
+  "id": "A393978",
+  "mentions": [
+    "A393975",
+    "A393998",
+    "A394001"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

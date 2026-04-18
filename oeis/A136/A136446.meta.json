@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that some subset of the numbers { 1 < d < n : d divides n } adds up to n.",
+  "description": "Numbers k such that some subset of the numbers { 1 < d < k : d divides k } adds up to k.",
   "id": "A136446",
   "mentions": [
     "A005101",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
+    "size": 56,
     "source": "oeis-bfile"
   }
 }

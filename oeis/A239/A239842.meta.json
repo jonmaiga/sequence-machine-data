@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the Eisenstein integer ((1-ω)^n+1)/(2-ω) has prime norm, where ω = - 1/2 + sqrt(-3)/2.",
+  "description": "Numbers k such that the Eisenstein integer ((1-ω)^k+1)/(2-ω) has prime norm, where ω = - 1/2 + sqrt(-3)/2.",
   "id": "A239842",
   "mentions": [
     "A066408",

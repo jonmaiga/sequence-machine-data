@@ -2,6 +2,9 @@
   "description": "Diagonal of the rational function 1/(1-(wxyz + wxz + wy + wz + xy + xz + y + z)).",
   "id": "A274788",
   "mentions": [
+    "A005258",
+    "A007318",
+    "A046899",
     "A268545",
     "A268555"
   ],

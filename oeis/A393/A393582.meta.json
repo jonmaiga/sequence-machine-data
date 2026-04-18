@@ -1,0 +1,19 @@
+{
+  "description": "Largest n-digit Zumkeller number.",
+  "id": "A393582",
+  "mentions": [
+    "A003618",
+    "A056712",
+    "A083207",
+    "A093172"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

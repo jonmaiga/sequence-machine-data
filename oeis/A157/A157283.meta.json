@@ -1,5 +1,5 @@
 {
-  "description": "k X k determinants at the n-th row of A126988.",
+  "description": "Triangle read by rows: T(n,k) is the determinant of the k X k matrix, values taken from A126988 with columns starting on the first column and rows finishing on the n-th row.",
   "id": "A157283",
   "mentions": [
     "A007318",
@@ -10,8 +10,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 79,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected semi-bipartite structures on n unlabeled vertices.",
+  "id": "A394755",
+  "mentions": [
+    "A001349",
+    "A394610",
+    "A394754"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

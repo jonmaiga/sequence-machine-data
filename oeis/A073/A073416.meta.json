@@ -3,7 +3,10 @@
   "id": "A073416",
   "mentions": [
     "A039135",
-    "A072957"
+    "A072957",
+    "A073417",
+    "A073418",
+    "A073419"
   ],
   "tags": [
     "easy",
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

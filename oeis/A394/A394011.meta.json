@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1-1/p)^2 * (1 + Sum_{k >= 0} (2^k + 1)/p^(2^k)).",
+  "id": "A394011",
+  "mentions": [
+    "A065473",
+    "A138302",
+    "A394004",
+    "A394008"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

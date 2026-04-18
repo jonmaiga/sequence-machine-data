@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 90*a(n-1) + 1.",
+  "description": "a(n) = 90*a(n-1) + 1, with a(1) = 1.",
   "id": "A172174",
   "mentions": [
     "A017173",

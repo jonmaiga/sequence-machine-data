@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (AO(k)/k)^2, where AO(k) = A007509(k)/A352395(k) is the k-th alternating odd harmonic number (or skew-harmonic number of the second kind).",
+  "id": "A393117",
+  "mentions": [
+    "A006752",
+    "A007509",
+    "A013662",
+    "A092425",
+    "A218505",
+    "A352395",
+    "A393115",
+    "A393116",
+    "A393118",
+    "A393119",
+    "A393120",
+    "A393143"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

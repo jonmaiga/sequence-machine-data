@@ -1,9 +1,11 @@
 {
-  "description": "Product of the prime factors of n equals the product of the digits of n.",
+  "description": "Numbers k such that the product of the prime factors of k equals the product of the digits of k.",
   "id": "A067183",
   "mentions": [
     "A002473",
     "A006753",
+    "A007947",
+    "A007954",
     "A052382",
     "A075048",
     "A238985",

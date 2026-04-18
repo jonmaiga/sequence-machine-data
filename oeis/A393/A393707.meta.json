@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer that can be written in exactly n ways as the sum of a square and the reverse of a square.",
+  "id": "A393707",
+  "mentions": [
+    "A000290",
+    "A074896",
+    "A393572",
+    "A393705"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

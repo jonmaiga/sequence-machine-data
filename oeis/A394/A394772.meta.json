@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 - x * d/dx log(1 - x*A(x)^2).",
+  "id": "A394772",
+  "mentions": [
+    "A003319",
+    "A027307",
+    "A159607",
+    "A394778",
+    "A394779",
+    "A394780",
+    "A394781"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

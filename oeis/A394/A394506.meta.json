@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = numerator(binomial(1/n, k)) with 1 <= k <= n.",
+  "id": "A394506",
+  "mentions": [
+    "A000012",
+    "A007318",
+    "A026741",
+    "A364713",
+    "A394507"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

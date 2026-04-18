@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the number of exponential unitary divisors.",
+  "id": "A393489",
+  "mentions": [
+    "A001221",
+    "A034444",
+    "A278908",
+    "A327837",
+    "A358659",
+    "A361255"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

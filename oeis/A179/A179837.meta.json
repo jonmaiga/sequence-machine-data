@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: the coefficient [x^k] of the product_{s=1..n} (x+16*cos(s*Pi/(2n+1))^4), 0<=k<=n.",
+  "description": "Triangle T(n,k) read by rows: the coefficient [x^k] of Product_{s=1..n} (x+16*cos(s*Pi/(2n+1))^4), 0<=k<=n.",
   "id": "A179837",
   "mentions": [
     "A006325",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 57,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Number of connected induced subgraphs in the n-necklace graph.",
+  "id": "A393326",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

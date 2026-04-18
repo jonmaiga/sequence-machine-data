@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = G(pi(10^n)) where pi is A000720 and G(n) is the \"depth\" of n in the sense of the Gilbreath-Proth conjecture.",
+  "id": "A393110",
+  "mentions": [
+    "A000720",
+    "A006880",
+    "A036262"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

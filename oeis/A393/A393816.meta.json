@@ -1,0 +1,24 @@
+{
+  "description": "Achilles numbers with exactly 2 distinct prime factors.",
+  "id": "A393816",
+  "mentions": [
+    "A001694",
+    "A007774",
+    "A013929",
+    "A024619",
+    "A052486",
+    "A126706",
+    "A200511",
+    "A286708",
+    "A355462"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

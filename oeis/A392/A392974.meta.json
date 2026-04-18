@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sopfr(k-1) = sopfr(k+1), where sopfr = A001414.",
+  "id": "A392974",
+  "mentions": [
+    "A001414",
+    "A006145",
+    "A039752",
+    "A076155"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

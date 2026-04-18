@@ -1,10 +1,11 @@
 {
-  "description": "a(n) the smallest positive integer such that a(n)+10^k is prime for k=1,2...n.",
+  "description": "a(n) is the smallest positive integer such that a(n)+10^k is prime for 1 <= k <= n.",
   "id": "A124116",
   "mentions": [],
   "tags": [
     "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,9 +1,10 @@
 {
-  "description": "E.g.f.: A(x) = -log(1 - x - A(x)^2).",
+  "description": "E.g.f. A(x) satisfies A(x) = -log(1 - x - A(x)^2).",
   "id": "A143155",
   "mentions": [
     "A143139",
     "A143154",
+    "A185151",
     "A202356"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "joeis"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "description": "Positive integers k such that (2*k)^m + 1 is composite for every m >= 1 that is not a power of 2 with value >= 4.",
+  "id": "A394571",
+  "mentions": [
+    "A000079",
+    "A000215",
+    "A001912",
+    "A002144",
+    "A002522",
+    "A008586",
+    "A016825",
+    "A047845",
+    "A070265",
+    "A094550",
+    "A121944",
+    "A391762"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

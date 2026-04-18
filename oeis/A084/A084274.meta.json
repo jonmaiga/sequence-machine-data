@@ -3,15 +3,17 @@
   "id": "A084274",
   "mentions": [
     "A001832",
-    "A084273"
+    "A084273",
+    "A394474"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

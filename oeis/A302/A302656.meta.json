@@ -1,5 +1,5 @@
 {
-  "description": "Replacing each term of this sequence S with its digitsum produces a new sequence S' such that S' and S share the same succession of digits.",
+  "description": "Replacing each term of this sequence S with its digit-sum produces a new sequence S' such that S' and S share the same succession of digits.",
   "id": "A302656",
   "mentions": [
     "A007953",

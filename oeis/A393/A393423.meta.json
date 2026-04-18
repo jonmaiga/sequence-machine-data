@@ -1,0 +1,15 @@
+{
+  "description": "Distinct nonnegative values of A393422, in order of appearance and with offset 0.",
+  "id": "A393423",
+  "mentions": [
+    "A393422"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of graceful Prüfer codes on n vertices whose tree is the path graph and whose last element equals 0.",
+  "id": "A394464",
+  "mentions": [
+    "A112362",
+    "A394465"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

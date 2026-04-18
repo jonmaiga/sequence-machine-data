@@ -2,6 +2,7 @@
   "description": "a(n) = (sum of first n primes) * n.",
   "id": "A167214",
   "mentions": [
+    "A000027",
     "A007504"
   ],
   "tags": [

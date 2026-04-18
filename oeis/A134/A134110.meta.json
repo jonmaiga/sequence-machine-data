@@ -1,7 +1,10 @@
 {
   "description": "Powers of 4 written backwards and sorted.",
   "id": "A134110",
-  "mentions": [],
+  "mentions": [
+    "A000302",
+    "A004086"
+  ],
   "tags": [
     "base",
     "easy",

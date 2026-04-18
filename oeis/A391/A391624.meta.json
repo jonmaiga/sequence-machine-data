@@ -1,0 +1,47 @@
+{
+  "description": "Positive integers k such that there is at most one nonnegative sequence whose first sums are the k-th composition in standard order.",
+  "id": "A391624",
+  "mentions": [
+    "A000120",
+    "A005674",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A066099",
+    "A070939",
+    "A357213",
+    "A390432",
+    "A390448",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390675",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A390745",
+    "A390747",
+    "A391621",
+    "A391622",
+    "A391623",
+    "A391627",
+    "A391628",
+    "A391642",
+    "A391643",
+    "A391644",
+    "A391645",
+    "A391680",
+    "A391682",
+    "A391683",
+    "A391983"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

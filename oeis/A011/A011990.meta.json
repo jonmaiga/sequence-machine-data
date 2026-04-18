@@ -1,9 +1,10 @@
 {
-  "description": "Covering numbers C(n,9,5) (next term is <= 19).",
+  "description": "Covering numbers C(n,9,5).",
   "id": "A011990",
   "mentions": [],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

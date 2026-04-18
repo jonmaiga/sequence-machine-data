@@ -1,0 +1,15 @@
+{
+  "description": "Triangle T(n,s) read by rows: The number of ways of inserting smaller hexagons of edge lengths s into a larger amount hexagon of edge length n.",
+  "id": "A393325",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

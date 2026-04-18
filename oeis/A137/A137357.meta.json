@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k <= n/2 } binomial(n-2k, 3k+1).",
+  "description": "a(n) = Sum_{k <= n/2} binomial(n-2k, 3k+1).",
   "id": "A137357",
   "mentions": [
     "A136444",

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p - 1 has exactly as many odd divisors as p + 1.",
+  "id": "A391384",
+  "mentions": [
+    "A001227",
+    "A067889",
+    "A275418",
+    "A275598"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

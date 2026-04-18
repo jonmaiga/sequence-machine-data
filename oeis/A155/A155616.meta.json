@@ -1,5 +1,5 @@
 {
-  "description": "5^n + 4^n - 1.",
+  "description": "a(n) = 5^n + 4^n - 1.",
   "id": "A155616",
   "mentions": [
     "A155588",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

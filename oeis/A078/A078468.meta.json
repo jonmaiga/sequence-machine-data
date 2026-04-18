@@ -1,5 +1,5 @@
 {
-  "description": "Distinct compositions of the complete graph with one edge removed (K^-_n).",
+  "description": "Distinct compositions of the complete graph on n+2 vertices with one edge removed (K^-_{n+2}).",
   "id": "A078468",
   "mentions": [
     "A000110",

@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose fifth power are sums of fifth powers of seven distinct primes.",
+  "id": "A390734",
+  "mentions": [
+    "A000040",
+    "A000584",
+    "A114923"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

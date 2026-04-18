@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n-2)=phi(n+2) where phi=A000010.",
+  "description": "Numbers k such that phi(k-2)=phi(k+2) where phi=A000010.",
   "id": "A192221",
   "mentions": [
     "A000010",

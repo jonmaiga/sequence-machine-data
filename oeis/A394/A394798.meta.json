@@ -1,0 +1,14 @@
+{
+  "description": "For n >= 2, the number of bases b <= n for which the average of the digits of n base b equals the average of the digits of n^2 base b.",
+  "id": "A394798",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

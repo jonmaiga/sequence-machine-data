@@ -1,5 +1,5 @@
 {
-  "description": "n*(n^2-2*n-1).",
+  "description": "a(n) = n*(n^2-2*n-1).",
   "id": "A214446",
   "mentions": [
     "A110427"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "joeis"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

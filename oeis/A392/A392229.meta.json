@@ -1,0 +1,23 @@
+{
+  "description": "Index of first occurrence of n in A391449.",
+  "id": "A392229",
+  "mentions": [
+    "A002378",
+    "A055932",
+    "A059957",
+    "A141399",
+    "A252489",
+    "A391449",
+    "A391602",
+    "A391885",
+    "A391970"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

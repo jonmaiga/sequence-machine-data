@@ -1,0 +1,18 @@
+{
+  "description": "Sum of decimal digits of A101686.",
+  "id": "A392465",
+  "mentions": [
+    "A007953",
+    "A101686"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

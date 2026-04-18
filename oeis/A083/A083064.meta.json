@@ -2,6 +2,7 @@
   "description": "Square number array T(n,k) = (k*(k+2)^n+1)/(k+1) read by antidiagonals.",
   "id": "A083064",
   "mentions": [
+    "A000012",
     "A000027",
     "A007051",
     "A007583",

@@ -1,5 +1,5 @@
 {
-  "description": "Number a(n) of forests with two components in the complete bipartite graph K_{n,n}.",
+  "description": "Number of forests with two components in the complete bipartite graph K_{n,n}.",
   "id": "A100070",
   "mentions": [
     "A000272",

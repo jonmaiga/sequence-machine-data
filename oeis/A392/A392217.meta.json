@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row gives the divisors of phi(n).",
+  "id": "A392217",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A027750",
+    "A062402",
+    "A392218"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

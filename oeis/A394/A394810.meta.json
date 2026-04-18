@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 3*Pi - 12/Pi.",
+  "id": "A394810",
+  "mentions": [
+    "A122952",
+    "A132702",
+    "A394808",
+    "A394809",
+    "A394811",
+    "A394812"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

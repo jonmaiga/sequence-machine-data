@@ -2,8 +2,18 @@
   "description": "An infinite coprime sequence defined by recursion.",
   "id": "A002715",
   "mentions": [
+    "A000058",
+    "A000215",
+    "A000289",
+    "A001566",
+    "A001601",
     "A001685",
+    "A002716",
+    "A002812",
+    "A002814",
     "A003686",
+    "A004767",
+    "A006695",
     "A064526"
   ],
   "tags": [

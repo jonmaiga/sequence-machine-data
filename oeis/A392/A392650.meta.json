@@ -1,0 +1,20 @@
+{
+  "description": "Sum-irreducible numbers. A number k > 0 is sum-irreducible if no subset of its nontrivial divisors {1 < d < k : d | k} can sum to k.",
+  "id": "A392650",
+  "mentions": [
+    "A122036",
+    "A136446",
+    "A263837",
+    "A392496",
+    "A392649",
+    "A392652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

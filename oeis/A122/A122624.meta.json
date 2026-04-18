@@ -1,5 +1,5 @@
 {
-  "description": "n_{2^n}.",
+  "description": "a(n) = n_{2^n}.",
   "id": "A122624",
   "mentions": [
     "A122618"

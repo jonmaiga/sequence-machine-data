@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*prime(n) + (n+1)*(prime(n+1)) is semiprime.",
+  "description": "Numbers k such that k*prime(k) + (k+1)*(prime(k+1)) is semiprime.",
   "id": "A242936",
   "mentions": [
     "A000040",

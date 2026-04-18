@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle T(n, k), n > 0, k = 1..A064372(n), read by rows; the n-th row corresponds to the minimal nonempty subset of A164336 with least common recursive multiple n.",
+  "id": "A394674",
+  "mentions": [
+    "A001221",
+    "A064372",
+    "A141810",
+    "A164336",
+    "A287958",
+    "A394673"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

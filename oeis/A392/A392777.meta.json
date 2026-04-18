@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{k>=2} k^(zeta(k+1)-1).",
+  "id": "A392777",
+  "mentions": [
+    "A386009",
+    "A393663",
+    "A393793"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

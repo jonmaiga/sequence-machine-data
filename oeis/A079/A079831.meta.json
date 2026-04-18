@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that floor(reverse(n)/n) = 2.",
+  "description": "Numbers k such that floor(reverse(k)/k) = 2.",
   "id": "A079831",
   "mentions": [
     "A079832"

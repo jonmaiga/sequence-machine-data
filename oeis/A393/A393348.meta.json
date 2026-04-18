@@ -1,0 +1,15 @@
+{
+  "description": "Number of edge cuts in the n-necklace graph.",
+  "id": "A393348",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,11 +1,15 @@
 {
-  "description": "G.f. satisfies: 2*A(x) = 1 + x + A(x*A(x)).",
+  "description": "G.f. A(x) satisfies 2*A(x) = 1 + x + A(x*A(x)).",
   "id": "A242003",
   "mentions": [
     "A006196",
     "A242004",
     "A242005",
-    "A242006"
+    "A242006",
+    "A392378",
+    "A393888",
+    "A393889",
+    "A393890"
   ],
   "tags": [
     "formulas",

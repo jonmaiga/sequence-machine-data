@@ -2,6 +2,7 @@
   "description": "a(n) = (2*n-1)*a(n-1) - (n-2)!, with a(1) = 2, n > 1.",
   "id": "A303108",
   "mentions": [
+    "A302117",
     "A303109"
   ],
   "tags": [

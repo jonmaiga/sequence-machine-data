@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the heights of symmetric peaks over all compositions of the integer n.",
+  "id": "A393175",
+  "mentions": [
+    "A393177"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Generating function = Product_{m>=1} 1/(1 - x^m)^2; a(n) = number of partitions of n into parts of 2 kinds.",
+  "description": "a(n) = number of partitions of n into parts of 2 kinds.",
   "id": "A000712",
   "mentions": [
     "A000027",

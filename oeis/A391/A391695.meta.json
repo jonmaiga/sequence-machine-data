@@ -1,0 +1,28 @@
+{
+  "description": "Composite numbers k, not multiples of 10, whose (radix-10) constant congruence speed equals the minimum of the (radix-10) constant congruence speeds of all the prime factors of k.",
+  "id": "A391695",
+  "mentions": [
+    "A067251",
+    "A317905",
+    "A373387",
+    "A389432",
+    "A389979",
+    "A389980",
+    "A389981",
+    "A390320",
+    "A390601",
+    "A391434",
+    "A392231",
+    "A392233",
+    "A392565"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

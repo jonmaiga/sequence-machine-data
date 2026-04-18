@@ -2,6 +2,8 @@
   "description": "Sum of a square and a triangular number.",
   "id": "A014133",
   "mentions": [
+    "A000217",
+    "A000290",
     "A014134",
     "A101428"
   ],
@@ -10,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 66,
-    "source": "joeis"
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
   }
 }

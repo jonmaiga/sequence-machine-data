@@ -2,6 +2,7 @@
   "description": "Ooguri-Vafa invariants of disk domain wall degeneracies for brane I in the O(K) -> P^1 X P^1 geometry.",
   "id": "A061605",
   "mentions": [
+    "A061606",
     "A061627",
     "A061628",
     "A061637",
@@ -9,12 +10,12 @@
     "A092726"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "joeis"
   }
 }

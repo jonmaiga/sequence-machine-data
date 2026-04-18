@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the largest positive zero of the Hermite polynomial of degree 4.",
+  "id": "A393354",
+  "mentions": [
+    "A010503",
+    "A019704",
+    "A019708",
+    "A019717",
+    "A115754",
+    "A393353",
+    "A393355"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

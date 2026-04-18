@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least nonnegative integer such that for all positive integers k, appending zero or more copies of a(n) to k will eventually result in a value divisible by n.",
+  "id": "A392964",
+  "mentions": [
+    "A051626"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

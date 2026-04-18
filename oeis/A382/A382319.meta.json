@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = x/(1-x) + Sum_{n>=1} A(x^n)^3.",
+  "description": "G.f. A(x) satisfies A(x) = x/(1-x) + Sum_{n>=1} A(x^n)^3.",
   "id": "A382319",
   "mentions": [
     "A382318",

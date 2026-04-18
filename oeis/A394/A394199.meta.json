@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(k*(k+3)/2)) / (1 - x^(k*(k+3)/2)).",
+  "id": "A394199",
+  "mentions": [
+    "A103265",
+    "A280366",
+    "A319799",
+    "A393987"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Expansion of g.f.: 1/(1 + 2*x + 9*x^2).",
   "id": "A025170",
   "mentions": [
+    "A025172",
     "A087455",
     "A088137",
     "A127357"

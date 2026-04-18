@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the depths of symmetric valleys over all compositions of the integer n.",
+  "id": "A393177",
+  "mentions": [
+    "A393175"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

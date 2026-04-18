@@ -1,5 +1,5 @@
 {
-  "description": "Smallest starting deficient number for n consecutive deficient numbers in arithmetic progression.",
+  "description": "Smallest starting deficient number such that n consecutive deficient numbers are in arithmetic progression.",
   "id": "A231623",
   "mentions": [
     "A005100",

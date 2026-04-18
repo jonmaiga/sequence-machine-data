@@ -1,0 +1,26 @@
+{
+  "description": "Achilles numbers with more than 2 distinct prime factors, whose prime power factor exponents are pairwise coprime.",
+  "id": "A394224",
+  "mentions": [
+    "A000977",
+    "A001694",
+    "A052486",
+    "A087315",
+    "A126706",
+    "A286708",
+    "A393708",
+    "A393816",
+    "A393999",
+    "A394000"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

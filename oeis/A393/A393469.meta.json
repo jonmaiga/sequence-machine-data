@@ -1,0 +1,17 @@
+{
+  "description": "Number of mutual visibility sets in the n-necklace graph.",
+  "id": "A393469",
+  "mentions": [
+    "A389186"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

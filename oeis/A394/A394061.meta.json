@@ -1,0 +1,17 @@
+{
+  "description": "Prime number produced by summing the distinct prime factors of the numbers in A393096.",
+  "id": "A394061",
+  "mentions": [
+    "A008472",
+    "A393096"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

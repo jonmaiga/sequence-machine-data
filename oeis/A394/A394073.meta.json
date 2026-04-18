@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the midradius of an uniform heptagonal antiprism with unit edges.",
+  "id": "A394073",
+  "mentions": [
+    "A232736",
+    "A362922",
+    "A394071",
+    "A394072",
+    "A394074",
+    "A394075",
+    "A394076",
+    "A394077"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

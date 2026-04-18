@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors d | A286708(n) such that d is an Achilles number (in A052486).",
+  "id": "A394561",
+  "mentions": [
+    "A001694",
+    "A027750",
+    "A052486",
+    "A246547",
+    "A286708",
+    "A376514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

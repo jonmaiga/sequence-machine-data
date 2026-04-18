@@ -2,14 +2,18 @@
   "description": "Coefficient of y^(n-3) in expansion of (y+n!)^n.",
   "id": "A134358",
   "mentions": [
-    "A001563"
+    "A001563",
+    "A131092",
+    "A134359"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 13,
+    "source": "joeis"
   }
 }

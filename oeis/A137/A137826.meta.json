@@ -1,11 +1,13 @@
 {
-  "description": "Least prime number that produces the highest abundancy number when multiplied by the product of all previous n-1 terms.",
+  "description": "a(n) is the least prime number that maximizes the abundancy of the product of the first n terms.",
   "id": "A137826",
   "mentions": [
     "A005101",
     "A017665",
     "A017666",
-    "A137825"
+    "A108348",
+    "A137825",
+    "A319076"
   ],
   "tags": [
     "easy",

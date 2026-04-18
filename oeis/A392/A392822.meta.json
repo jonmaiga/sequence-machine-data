@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where column k is the expansion of e.g.f. 1/(1 - x*(-log(1-x))^k).",
+  "id": "A392822",
+  "mentions": [
+    "A000142",
+    "A052830",
+    "A392823",
+    "A392824"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

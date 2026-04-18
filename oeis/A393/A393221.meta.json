@@ -1,0 +1,16 @@
+{
+  "description": "Column 1 of A372254.",
+  "id": "A393221",
+  "mentions": [
+    "A372254"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

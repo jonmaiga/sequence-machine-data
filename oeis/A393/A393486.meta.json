@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) such that b(e,e-n) = 2^(e-2n) * Sum_{k=0..n} T(n,k)*binomial(e,k), arising from excess-tail polynomials of row-word inversion clusters on standard Young tableaux of shape (m,m,m).",
+  "id": "A393486",
+  "mentions": [
+    "A394326"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

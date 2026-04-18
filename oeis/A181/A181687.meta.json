@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of odd divisors of (2n)^2 is an odd divisor of (2n)^2, and the number of even divisors of (2n)^2 is an even divisor of (2n)^2.",
+  "description": "Numbers k such that the number of odd divisors of (2k)^2 is an odd divisor of (2k)^2, and the number of even divisors of (2k)^2 is an even divisor of (2k)^2.",
   "id": "A181687",
   "mentions": [
     "A016742",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Numbers whose base-3 representation has exactly 7 runs.",
   "id": "A043587",
   "mentions": [
-    "A007089"
+    "A007089",
+    "A043791"
   ],
   "tags": [
     "base",

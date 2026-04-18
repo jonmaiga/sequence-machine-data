@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the sum of their digits divides sigma(n).",
+  "description": "Numbers k for which the sum of their digits divides sigma(k).",
   "id": "A132628",
   "mentions": [
     "A007691",

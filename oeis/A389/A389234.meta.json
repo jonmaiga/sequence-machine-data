@@ -1,14 +1,17 @@
 {
   "description": "Number of mutual-visibility sets in the n-double cone graph.",
   "id": "A389234",
-  "mentions": [],
+  "mentions": [
+    "A194455"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

@@ -1,13 +1,14 @@
 {
-  "description": "Length of lists created by n substitutions k -> Range[ -Floor[Abs[k]/2],Floor[Abs[k]+3/2]] starting with {0}.",
+  "description": "Length of lists created by n substitutions k -> range(-floor(abs(k)/2), abs(k)+1) starting with {0}.",
   "id": "A084082",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

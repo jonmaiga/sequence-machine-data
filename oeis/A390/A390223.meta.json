@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that for the k-th almost-equilateral Heronian triangle (triangle with consecutive integer sides and integer area), perimeter - inradius is a prime or semiprime.",
+  "id": "A390223",
+  "mentions": [
+    "A001222",
+    "A001353",
+    "A003500"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

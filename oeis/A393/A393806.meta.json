@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes that have only one largest digit (strict maximum).",
+  "id": "A393806",
+  "mentions": [
+    "A002113",
+    "A110784",
+    "A173070",
+    "A193407"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

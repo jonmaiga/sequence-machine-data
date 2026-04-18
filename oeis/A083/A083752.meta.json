@@ -1,5 +1,5 @@
 {
-  "description": "Minimal k > n such that (4k+3n)(4n+3k) is a square.",
+  "description": "Minimal k > n such that (4*k+3*n) * (4*n+3*k) is a square.",
   "id": "A083752",
   "mentions": [
     "A010052",

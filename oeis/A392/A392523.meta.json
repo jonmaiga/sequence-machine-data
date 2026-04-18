@@ -1,0 +1,16 @@
+{
+  "description": "Indices k such that the determinant of the 3 X 3 Hankel matrix of consecutive primes starting at prime(k) is 0.",
+  "id": "A392523",
+  "mentions": [
+    "A000040",
+    "A392522"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

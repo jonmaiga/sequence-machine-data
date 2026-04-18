@@ -10,12 +10,12 @@
     "A092726"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "joeis"
   }
 }

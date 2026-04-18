@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+9/10)/GAMMA(9/10).",
+  "description": "Ceiling of Gamma(n+9/10)/Gamma(9/10).",
   "id": "A020105",
-  "mentions": [],
+  "mentions": [
+    "A020015",
+    "A020060"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

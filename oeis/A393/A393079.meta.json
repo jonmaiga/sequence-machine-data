@@ -1,0 +1,21 @@
+{
+  "description": "First column of A392806.",
+  "id": "A393079",
+  "mentions": [
+    "A001511",
+    "A005187",
+    "A007814",
+    "A392083",
+    "A392805",
+    "A392806"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

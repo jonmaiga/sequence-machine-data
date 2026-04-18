@@ -2,9 +2,18 @@
   "description": "Triangular array read by rows: T(n,k) is the number of functions f:{1,2,...,n} -> {1,2,...,n} that have exactly k nonrecurrent elements; n>=1, 0<=k<=n-1.",
   "id": "A219694",
   "mentions": [
-    "A216971"
+    "A000312",
+    "A007778",
+    "A063169",
+    "A066324",
+    "A216971",
+    "A219706",
+    "A262970",
+    "A277458",
+    "A369071"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"

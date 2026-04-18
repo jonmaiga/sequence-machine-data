@@ -1,5 +1,5 @@
 {
-  "description": "Difference between 3n^2 and the nearest square number.",
+  "description": "Difference between 3*n^2 and the nearest square number.",
   "id": "A227790",
   "mentions": [
     "A001951",
@@ -9,12 +9,13 @@
     "A087060"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

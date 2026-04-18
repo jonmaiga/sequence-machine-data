@@ -1,18 +1,18 @@
 {
-  "description": "Numbers n such that sigma(n) = 6*(n - phi(n)).",
+  "description": "Numbers k such that sigma(k) = 6*(k - phi(k)).",
   "id": "A068421",
   "mentions": [
     "A000010",
     "A000203"
   ],
   "tags": [
-    "bref",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

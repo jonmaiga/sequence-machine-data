@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that triangular(n) + triangular(2*n) is a square.",
+  "description": "Numbers k such that triangular(k) + triangular(2*k) is a square.",
   "id": "A224419",
   "mentions": [
     "A000217",
@@ -9,6 +9,7 @@
     "A228209"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

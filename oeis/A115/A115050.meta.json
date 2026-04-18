@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that in the 3 X 3 square arrangement of the 9 primes p(n),..,p(n+8), totals of 3 rows and 3 columns, are all prime.",
+  "description": "Numbers k such that in the 3 X 3 square arrangement of the 9 primes p(k),..,p(k+8), totals of 3 rows and 3 columns, are all prime.",
   "id": "A115050",
   "mentions": [
     "A116936"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

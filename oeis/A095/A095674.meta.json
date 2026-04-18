@@ -6,16 +6,19 @@
     "A005494",
     "A007318",
     "A011971",
-    "A095675"
+    "A024716",
+    "A095675",
+    "A367775"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 55,
     "source": "joeis"
   }
 }

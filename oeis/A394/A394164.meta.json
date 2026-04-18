@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer k such that the elliptic curve y^2 = x^3 + k*x + 1 has exactly n integer solutions with y >= 0.",
+  "id": "A394164",
+  "mentions": [
+    "A392144",
+    "A392395",
+    "A393931"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

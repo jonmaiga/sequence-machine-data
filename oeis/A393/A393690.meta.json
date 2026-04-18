@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of lim_{x->oo} Sum_{p<=x} log(p)^2/p - log(x)^2/2 (negated).",
+  "id": "A393690",
+  "mentions": [
+    "A083343",
+    "A143524",
+    "A155969",
+    "A346832",
+    "A394622"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

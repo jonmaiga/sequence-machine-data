@@ -2,6 +2,7 @@
   "description": "Numbers of form 3^k (values of k see A050724) containing no pair of consecutive equal digits (probably finite).",
   "id": "A050733",
   "mentions": [
+    "A000244",
     "A043096",
     "A050724"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-entry"
   }
 }

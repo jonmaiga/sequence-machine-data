@@ -1,7 +1,11 @@
 {
-  "description": "G.f. satisfies: A(x) = A(x^2) + x*A(x)^2.",
+  "description": "G.f. A(x) satisfies A(x) = A(x^2) + x*A(x)^2.",
   "id": "A181999",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A073711",
+    "A182144"
+  ],
   "tags": [
     "formulas",
     "nonn"

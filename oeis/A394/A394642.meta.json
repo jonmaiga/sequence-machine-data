@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (7*n)!/(n!*((2*n)!)^3).",
+  "id": "A394642",
+  "mentions": [
+    "A001421",
+    "A113424",
+    "A391700",
+    "A391889",
+    "A393378",
+    "A394371"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

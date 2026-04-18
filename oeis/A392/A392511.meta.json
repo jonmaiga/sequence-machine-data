@@ -1,0 +1,18 @@
+{
+  "description": "Number of planar partitions of n where parts decrease by at most 1 along each row and column.",
+  "id": "A392511",
+  "mentions": [
+    "A000219",
+    "A003293",
+    "A391969",
+    "A392637"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

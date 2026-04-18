@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k such that gcd(k, tau(k)) is prime.",
+  "id": "A392024",
+  "mentions": [
+    "A000005",
+    "A009191",
+    "A033950",
+    "A036878",
+    "A392199"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

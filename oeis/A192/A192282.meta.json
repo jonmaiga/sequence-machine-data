@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+1 have same sum of anti-divisors.",
+  "description": "Numbers k such that k and k+1 have same sum of anti-divisors.",
   "id": "A192282",
   "mentions": [
     "A002961",

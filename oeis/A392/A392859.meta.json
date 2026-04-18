@@ -1,0 +1,17 @@
+{
+  "description": "Multiplicative inverse of {A143293(n) modulo prime(1+n)} in the finite field F(prime(1+n)), or 0 if prime(1+n) divides A143293(n), where A143293 gives the partial sums of primorials.",
+  "id": "A392859",
+  "mentions": [
+    "A079276",
+    "A143293",
+    "A357270"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

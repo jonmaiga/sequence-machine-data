@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of distinct prime divisors of n divides phi(n).",
+  "description": "Numbers k such that the number of distinct prime divisors of k divides phi(k).",
   "id": "A192218",
   "mentions": [
     "A000010",

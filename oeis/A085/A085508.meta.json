@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of conjectured value for the Bloch constant.",
   "id": "A085508",
-  "mentions": [],
+  "mentions": [
+    "A062539"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

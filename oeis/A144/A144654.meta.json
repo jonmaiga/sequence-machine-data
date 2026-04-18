@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum_{k=1..n} k*H_{n+k} where H_m = Sum_{i=1..m}.",
+  "description": "Numerator of Sum_{k=1..n} k*H_{n+k} where H_m = Sum_{i=1..m} 1/i.",
   "id": "A144654",
   "mentions": [
     "A001008",

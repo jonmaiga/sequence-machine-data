@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k equal prime(n)*prime(n+1) such that k+1 is a square and k-1 is even semiprime.",
+  "description": "Numbers k equal prime(m)*prime(m+1) such that k+1 is a square and k-1 is an even semiprime.",
   "id": "A107423",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

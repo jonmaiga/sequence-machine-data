@@ -1,0 +1,16 @@
+{
+  "description": "Conjectured least positive integer k such that n^k has the largest average of digits and k>1.",
+  "id": "A394057",
+  "mentions": [
+    "A394058"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

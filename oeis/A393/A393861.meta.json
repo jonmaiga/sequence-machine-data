@@ -1,0 +1,25 @@
+{
+  "description": "O.g.f. A(x) satisfies [x^n] exp( n^6*x - n*A(x) ) = 0 for n >= 1.",
+  "id": "A393861",
+  "mentions": [
+    "A317344",
+    "A317347",
+    "A319941",
+    "A319944",
+    "A393862",
+    "A393863",
+    "A393864",
+    "A393865",
+    "A393871",
+    "A393881"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

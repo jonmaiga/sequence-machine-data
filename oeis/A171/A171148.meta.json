@@ -1,14 +1,18 @@
 {
-  "description": "3+10^n+3*100^n.",
+  "description": "a(n) = 3 + 10^n + 3*100^n.",
   "id": "A171148",
-  "mentions": [],
+  "mentions": [
+    "A098608",
+    "A216179"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

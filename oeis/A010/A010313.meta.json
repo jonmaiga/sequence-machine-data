@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 85.",
   "id": "A010313",
-  "mentions": [],
+  "mentions": [
+    "A010655"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 76,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

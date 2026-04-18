@@ -1,5 +1,5 @@
 {
-  "description": "Least positive k such that k*n^n - 1 is a prime, or 0 if no such k exists.",
+  "description": "Least positive k such that k*n^n - 1 is a prime.",
   "id": "A231818",
   "mentions": [
     "A034693",
@@ -17,11 +17,12 @@
     "A231820"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

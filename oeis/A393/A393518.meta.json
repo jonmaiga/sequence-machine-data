@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled rooted trees with n nodes whose level sizes are equal, excluding the root level.",
+  "id": "A393518",
+  "mentions": [
+    "A000081",
+    "A393323",
+    "A393334"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

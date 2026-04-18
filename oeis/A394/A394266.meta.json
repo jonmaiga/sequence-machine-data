@@ -1,0 +1,17 @@
+{
+  "description": "Number of induced cubes in the n-odd graph.",
+  "id": "A394266",
+  "mentions": [
+    "A092443"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

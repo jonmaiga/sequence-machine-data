@@ -1,0 +1,22 @@
+{
+  "description": "Array read by downward antidiagonals: T(n,k) (n>=0, k>=0) is the maximum number of regions the plane can be divided into by drawing n circles and k lines.",
+  "id": "A393442",
+  "mentions": [
+    "A000124",
+    "A002061",
+    "A014206",
+    "A034856",
+    "A140063",
+    "A386480"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

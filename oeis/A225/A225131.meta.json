@@ -1,7 +1,8 @@
 {
-  "description": "Numerators of the convolutory inverse of the primes of the form 6m+1.",
+  "description": "Numerators of the convolutory inverse of the primes of the form 6m + 1 (A007528).",
   "id": "A225131",
   "mentions": [
+    "A007528",
     "A030018",
     "A225127",
     "A225130"

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the largest value of k such that A381466(k) = n or -1 if no such k exists.",
+  "id": "A392755",
+  "mentions": [
+    "A091508",
+    "A133058",
+    "A381466"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that among any pair of consecutive terms, one is a recursive divisor of the other.",
+  "id": "A394850",
+  "mentions": [
+    "A282291",
+    "A282446",
+    "A287957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of truncated triangular pyramid numbers.",
+  "id": "A393148",
+  "mentions": [
+    "A051937"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that T(n) + T(n+1) + ... + T(n+10) is a square, where T(m) = A000217(m) is the m-th triangular number.",
+  "description": "Numbers k such that T(k) + T(k+1) + ... + T(k+10) is a square, where T(m) = A000217(m) is the m-th triangular number.",
   "id": "A116476",
   "mentions": [
     "A000217",

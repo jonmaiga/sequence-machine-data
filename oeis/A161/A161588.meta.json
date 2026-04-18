@@ -1,5 +1,5 @@
 {
-  "description": "The list of the k values in the common solutions to the 2 equations 11*k+1=A^2, 15*k+1=B^2.",
+  "description": "The list of the k values in the common solutions to the 2 equations 11*k+1 = A^2, 15*k+1 = B^2.",
   "id": "A161588",
   "mentions": [
     "A085260",

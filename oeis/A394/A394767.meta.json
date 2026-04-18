@@ -1,0 +1,24 @@
+{
+  "description": "Number of numbers k <= 2^n such that k is neither squareful nor squarefree.",
+  "id": "A394767",
+  "mentions": [
+    "A000079",
+    "A001694",
+    "A005117",
+    "A008683",
+    "A062762",
+    "A143658",
+    "A332785",
+    "A372403",
+    "A380431"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

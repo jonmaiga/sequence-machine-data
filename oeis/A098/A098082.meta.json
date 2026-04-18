@@ -1,14 +1,14 @@
 {
-  "description": "M={{0,1,0},{0,0,1},{1,1,0}} M0=M-IdentityMatrix[3] Det[M0] A[n_]:=M0.A[n-1]; A[0]:={{0,1,1},{1,1,1},{1,1,2}}.",
+  "description": "Absolute values of elements of flattened successive matrices B(k), k>=0, read by rows where B(k) = M^k*C where M=[[-1, 1, 0], [0, -1, 1], [1, 1, -1]] and C = [[0, 1, 1], [1, 1, 1], [1, 1, 2]].",
   "id": "A098082",
   "mentions": [],
   "tags": [
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(5*n/14)} binomial(k,5*n-14*k).",
+  "id": "A389718",
+  "mentions": [
+    "A099131",
+    "A099132",
+    "A389717",
+    "A391265",
+    "A392272",
+    "A392356"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

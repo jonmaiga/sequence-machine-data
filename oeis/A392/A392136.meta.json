@@ -1,0 +1,18 @@
+{
+  "description": "Fourth column of A391957.",
+  "id": "A392136",
+  "mentions": [
+    "A373217",
+    "A391956",
+    "A391957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

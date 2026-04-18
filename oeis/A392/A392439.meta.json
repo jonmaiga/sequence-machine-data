@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers p whose predecessor k = (p - 1) is a composable number (A392440).",
+  "id": "A392439",
+  "mentions": [
+    "A000040",
+    "A005835",
+    "A032741",
+    "A070824",
+    "A392438",
+    "A392440"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

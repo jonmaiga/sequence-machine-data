@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1 - 4/p^3 + 3/p^4).",
+  "id": "A394008",
+  "mentions": [
+    "A004709",
+    "A065473",
+    "A394004"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Binary digits found in decimal expansion of Pi.",
+  "description": "Binary digits found in the decimal expansion of Pi, listed with repetitions and in order of appearance.",
   "id": "A065828",
   "mentions": [
     "A000796",

@@ -1,0 +1,21 @@
+{
+  "description": "Largest number of distinct lines determined by pairs of cell centers of a polycube with n cells.",
+  "id": "A394394",
+  "mentions": [
+    "A038119",
+    "A393938",
+    "A393939",
+    "A393992",
+    "A393994"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

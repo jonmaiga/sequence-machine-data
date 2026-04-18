@@ -1,14 +1,17 @@
 {
-  "description": "Number of fixed points of N_{2,2}(G_n).",
+  "description": "Number of connected graphs on n vertices such that any two distinct vertices that are connected by at least 2 distinct paths of length 2 are also connected by an edge.",
   "id": "A135445",
-  "mentions": [],
+  "mentions": [
+    "A079566",
+    "A079573"
+  ],
   "tags": [
-    "nonn",
-    "uned"
+    "more",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

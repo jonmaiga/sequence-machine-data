@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x)^6 = 1 + 6*x*A(x).",
+  "id": "A393169",
+  "mentions": [
+    "A000142",
+    "A001761",
+    "A008542",
+    "A282626",
+    "A385369",
+    "A385440"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

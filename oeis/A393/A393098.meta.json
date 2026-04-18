@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of [n] whose set of block sizes equals [k] for some k.",
+  "id": "A393098",
+  "mentions": [
+    "A000110",
+    "A007837",
+    "A392234",
+    "A393037",
+    "A393144"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

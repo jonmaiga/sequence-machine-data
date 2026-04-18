@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x - A(x)) = x^3 + x^4.",
+  "id": "A392205",
+  "mentions": [
+    "A392204"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

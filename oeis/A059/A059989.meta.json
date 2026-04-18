@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3*n+1 and 4*n+1 are both squares.",
+  "description": "Numbers k such that 3*k+1 and 4*k+1 are both squares.",
   "id": "A059989",
   "mentions": [
     "A001570",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

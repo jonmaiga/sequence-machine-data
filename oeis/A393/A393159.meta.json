@@ -1,0 +1,18 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals: A(n, k) is the largest possible integer Euclidean distance between two lattice points with X-coordinates in the interval 0..n and Y-coordinates in the interval 0..k.",
+  "id": "A393159",
+  "mentions": [
+    "A003984",
+    "A393160"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "(17-(-1)^n)/2.",
+  "description": "a(n) = (17-(-1)^n)/2.",
   "id": "A010732",
   "mentions": [],
   "tags": [

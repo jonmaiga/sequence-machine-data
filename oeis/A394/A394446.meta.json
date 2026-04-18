@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k), where row n lists the coefficients of the n-th palindromic polynomial p(n) defined by a recurrence of order 2.",
+  "id": "A394446",
+  "mentions": [
+    "A000012",
+    "A055998",
+    "A059231",
+    "A128079"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

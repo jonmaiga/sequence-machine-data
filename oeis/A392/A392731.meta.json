@@ -1,0 +1,17 @@
+{
+  "description": "Start at first leftmost digit of n. Move clockwise d steps, where d is the value of the active digit. Erase the digit landed upon. The new \"active\" digit is the one immediately following the one just erased. Repeat until only one digit remains. a(n) is the last remaining digit.",
+  "id": "A392731",
+  "mentions": [
+    "A006257"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

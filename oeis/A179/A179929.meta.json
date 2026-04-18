@@ -2,13 +2,17 @@
   "description": "a(n) = 2^n*A(n, -1/2), A(n, x) the Eulerian polynomials.",
   "id": "A179929",
   "mentions": [
+    "A000010",
     "A000629",
     "A123125",
     "A173018",
     "A195205",
-    "A212846"
+    "A212846",
+    "A281181",
+    "A383165"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

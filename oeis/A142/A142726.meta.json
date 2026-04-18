@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of an Egyptian fraction for 1/Sqrt[20] = 0.2236067977...",
+  "description": "Denominators of an Egyptian fraction for 1/sqrt(20) = 0.2236067977...",
   "id": "A142726",
   "mentions": [
     "A001466",

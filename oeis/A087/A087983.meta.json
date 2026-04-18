@@ -1,5 +1,5 @@
 {
-  "description": "Number of different values taken by permanent of n X n (0,1)-matrix.",
+  "description": "Number of different values taken by the permanent of n X n (0,1)-matrices.",
   "id": "A087983",
   "mentions": [
     "A089472",

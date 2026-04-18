@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n, k) with 0 <= k <= n^2 is the maximum number of possible moves that can be made by k queens of the same color on an n X n board.",
   "id": "A278214",
   "mentions": [
+    "A047470",
     "A275815",
     "A278213",
     "A278215"

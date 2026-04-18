@@ -1,0 +1,31 @@
+{
+  "description": "Powers k^m, m > 1, squarefree k with more than 2 distinct prime factors.",
+  "id": "A392741",
+  "mentions": [
+    "A000977",
+    "A001597",
+    "A001694",
+    "A072777",
+    "A120944",
+    "A126706",
+    "A131605",
+    "A162143",
+    "A286708",
+    "A303606",
+    "A303661",
+    "A350352",
+    "A375055",
+    "A390950",
+    "A391320"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+1/12)/GAMMA(1/12).",
+  "description": "Ceiling of Gamma(n+1/12)/Gamma(1/12).",
   "id": "A020094",
-  "mentions": [],
+  "mentions": [
+    "A020004",
+    "A020049"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

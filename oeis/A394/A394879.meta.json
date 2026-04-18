@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = -1 / (1 + x - x^2 + x^3 - x * d/dx log(1 - x*A(x))).",
+  "id": "A394879",
+  "mentions": [
+    "A075834",
+    "A394877",
+    "A394878",
+    "A394880",
+    "A394881"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

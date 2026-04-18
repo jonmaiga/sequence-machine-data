@@ -1,0 +1,15 @@
+{
+  "description": "Practical numbers of the form 2*f where f is a product of multiples of Fermat primes (A143512).",
+  "id": "A392778",
+  "mentions": [
+    "A143512"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

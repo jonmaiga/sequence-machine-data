@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^(2*k) / Product_{j=1..3*k} (1 - j * x).",
+  "id": "A392727",
+  "mentions": [
+    "A143815",
+    "A392726"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

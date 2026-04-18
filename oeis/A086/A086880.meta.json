@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor( sum(k=0, infinity, k^n/(k!)^2 ) ); related to generalized Bell numbers.",
+  "description": "a(n) = floor(Sum_{k=0..infinity} k^n/(k!)^2); related to generalized Bell numbers.",
   "id": "A086880",
   "mentions": [
     "A000994",

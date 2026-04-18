@@ -1,0 +1,20 @@
+{
+  "description": "Exponents k such that 2^k - 1 has exactly one representation of the form (2^k-1)/d + d with omega((2^k - 1)/d + d) = omega(2^k - 1) where omega = A001221.",
+  "id": "A392070",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A000668",
+    "A001221",
+    "A391451"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

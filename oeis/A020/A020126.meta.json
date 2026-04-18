@@ -1,13 +1,16 @@
 {
-  "description": "Ceiling of GAMMA(n+1/6)/GAMMA(1/6).",
+  "description": "Ceiling of Gamma(n+1/6)/Gamma(1/6).",
   "id": "A020126",
-  "mentions": [],
+  "mentions": [
+    "A020036",
+    "A020081"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

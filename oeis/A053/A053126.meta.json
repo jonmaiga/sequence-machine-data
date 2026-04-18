@@ -2,6 +2,7 @@
   "description": "Binomial coefficients binomial(2*n-3,4).",
   "id": "A053126",
   "mentions": [
+    "A000447",
     "A002492",
     "A006561",
     "A053123"

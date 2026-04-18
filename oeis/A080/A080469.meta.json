@@ -1,7 +1,8 @@
 {
-  "description": "Composite n such that binomial(3*n,n)==3^n (mod n).",
+  "description": "Composite numbers k such that binomial(3*k, k) == 3^k (mod k).",
   "id": "A080469",
   "mentions": [
+    "A014127",
     "A109641",
     "A109642",
     "A109760",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 97.",
   "id": "A010325",
-  "mentions": [],
+  "mentions": [
+    "A010667"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 75,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

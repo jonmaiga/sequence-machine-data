@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p such that there are n consecutive quadratic nonresidues mod p.",
+  "description": "Smallest prime p such that the maximum run length of consecutive quadratic nonresidues modulo p is n.",
   "id": "A129201",
   "mentions": [
     "A002308",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

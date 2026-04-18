@@ -1,0 +1,22 @@
+{
+  "description": "The maximum exponent in the prime factorization of the square root of the largest square dividing n.",
+  "id": "A392276",
+  "mentions": [
+    "A000188",
+    "A008833",
+    "A051903",
+    "A375359",
+    "A392275",
+    "A392277"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

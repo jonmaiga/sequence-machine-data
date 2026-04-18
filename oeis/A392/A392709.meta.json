@@ -1,0 +1,44 @@
+{
+  "description": "Numbers k such that the trimmed 0-based partial alternating sums of the k-th composition in standard order are all distinct.",
+  "id": "A392709",
+  "mentions": [
+    "A000120",
+    "A011782",
+    "A029837",
+    "A029931",
+    "A066099",
+    "A070939",
+    "A097805",
+    "A325545",
+    "A329739",
+    "A342527",
+    "A345197",
+    "A351596",
+    "A358134",
+    "A389597",
+    "A389601",
+    "A390432",
+    "A390567",
+    "A390568",
+    "A390673",
+    "A390674",
+    "A390676",
+    "A391981",
+    "A392695",
+    "A392697",
+    "A392698",
+    "A392702",
+    "A392703",
+    "A392704",
+    "A392707",
+    "A392708"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

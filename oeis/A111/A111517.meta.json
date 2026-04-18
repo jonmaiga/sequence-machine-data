@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that (7*n + 1)/2 is prime.",
+  "description": "Numbers k such that (7*k + 1)/2 is prime.",
   "id": "A111517",
-  "mentions": [],
+  "mentions": [
+    "A045471"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 60,
     "source": "joeis"
   }
 }

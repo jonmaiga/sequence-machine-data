@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Pi^5/768.",
+  "id": "A394964",
+  "mentions": [
+    "A092731",
+    "A394965"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

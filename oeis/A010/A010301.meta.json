@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for cube root of 73.",
   "id": "A010301",
-  "mentions": [],
+  "mentions": [
+    "A010643"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 77,
-    "source": "joeis"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

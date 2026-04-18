@@ -1,5 +1,5 @@
 {
-  "description": "Squares visited by knight moves on a diagonally numbered board and moving to the lowest available unvisited square at each step.",
+  "description": "Squares visited by knight moves on a diagonally numbered Q1 board and moving to the lowest available unvisited square at each step. Starting square is labeled 1.",
   "id": "A316588",
   "mentions": [
     "A316328",

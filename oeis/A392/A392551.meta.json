@@ -1,0 +1,20 @@
+{
+  "description": "Number of words of length n over an infinite alphabet such that all prefixes satisfy c(3*k + 1) >= c(3*k + 2), c(3*k + 1) >= c(3*k), c(3*k + 2) >= c(3*j + 1), and c(3*k) >= c(3*j + 1) for 0 <= k < j, where c(i) is the number of occurrences of the letter i.",
+  "id": "A392551",
+  "mentions": [
+    "A369588",
+    "A369589",
+    "A369590",
+    "A384725",
+    "A391270",
+    "A392274"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

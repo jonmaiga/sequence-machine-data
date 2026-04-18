@@ -1,0 +1,15 @@
+{
+  "description": "Number of tetrahedra in the n X n black bishop graph.",
+  "id": "A391766",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

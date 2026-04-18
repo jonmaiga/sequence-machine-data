@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest m such that m > A037155(n) and n!- m is prime.",
+  "description": "a(n) is the smallest m such that m > A037155(n) and n! - m is prime.",
   "id": "A087203",
   "mentions": [
     "A037155",
@@ -7,7 +7,6 @@
     "A087202"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

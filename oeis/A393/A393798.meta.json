@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime p such that a(n)-a(n-1) is a 3-smooth number, starting with a(1) = 2.",
+  "id": "A393798",
+  "mentions": [
+    "A000040",
+    "A003586"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

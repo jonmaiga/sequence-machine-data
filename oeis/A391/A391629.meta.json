@@ -1,0 +1,44 @@
+{
+  "description": "Number of multisets summing to n (or reversed partitions of n) that are not the first sums of any integer partition.",
+  "id": "A391629",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000065",
+    "A008484",
+    "A046099",
+    "A111133",
+    "A295341",
+    "A325325",
+    "A368684",
+    "A389811",
+    "A390307",
+    "A390362",
+    "A390429",
+    "A390431",
+    "A390445",
+    "A390446",
+    "A390447",
+    "A390448",
+    "A390449",
+    "A390568",
+    "A390676",
+    "A390677",
+    "A390678",
+    "A391620",
+    "A391641",
+    "A391645",
+    "A391680",
+    "A391981"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

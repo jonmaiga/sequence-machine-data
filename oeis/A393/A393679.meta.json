@@ -1,0 +1,21 @@
+{
+  "description": "Upper (1/2,1/3) midsequence of (n^2) and ((n+1)^2); see Comments.",
+  "id": "A393679",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A393678",
+    "A393681",
+    "A393778"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

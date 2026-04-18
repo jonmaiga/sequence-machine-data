@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp( sqrt(1-x^2) - 1 + x*(1 + arcsin(x)) ).",
+  "id": "A394727",
+  "mentions": [
+    "A255432",
+    "A394728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

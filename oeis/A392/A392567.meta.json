@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the smallest parts in the partitions of n into 3 parts whose middle part is even.",
+  "id": "A392567",
+  "mentions": [
+    "A309689",
+    "A309690",
+    "A392475"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

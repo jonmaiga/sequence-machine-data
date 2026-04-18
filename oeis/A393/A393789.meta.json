@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1 / (2 - exp(x))^exp(x).",
+  "id": "A393789",
+  "mentions": [
+    "A000670",
+    "A005649",
+    "A073479",
+    "A143405",
+    "A191365",
+    "A354413"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,9 +1,13 @@
 {
-  "description": "Numbers n such that sum of 5th power of digits of n equals the sum of prime divisors of n.",
+  "description": "Numbers k such that sum of 5th power of digits of k equals the sum of prime divisors of k.",
   "id": "A217533",
   "mentions": [
     "A008472",
-    "A055014"
+    "A055014",
+    "A070275",
+    "A217390",
+    "A217531",
+    "A217532"
   ],
   "tags": [
     "base",
@@ -12,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

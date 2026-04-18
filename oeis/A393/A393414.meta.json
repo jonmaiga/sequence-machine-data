@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci sequence beginning 29, 21.",
+  "id": "A393414",
+  "mentions": [
+    "A000045",
+    "A022121",
+    "A069921"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

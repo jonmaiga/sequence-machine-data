@@ -2,7 +2,19 @@
   "description": "Numbers whose base-9 representation has the same number of 0's and 5's.",
   "id": "A039081",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A031492",
+    "A039077",
+    "A039078",
+    "A039079",
+    "A039080",
+    "A039082",
+    "A039083",
+    "A039087",
+    "A039093",
+    "A039098",
+    "A039102",
+    "A039361"
   ],
   "tags": [
     "base",

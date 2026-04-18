@@ -1,5 +1,5 @@
 {
-  "description": "Solutions to n + 2*phi(n) = sigma(n) where phi is A000010 and sigma is A000203.",
+  "description": "Solutions to k + 2*phi(k) = sigma(k) where phi is A000010 and sigma is A000203.",
   "id": "A076373",
   "mentions": [
     "A000010",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

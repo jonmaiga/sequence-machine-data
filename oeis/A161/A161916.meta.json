@@ -1,5 +1,5 @@
 {
-  "description": "The smallest k such that A010060(n+k)=A010060(n).",
+  "description": "The smallest k > 0 such that A010060(n+k)=A010060(n).",
   "id": "A161916",
   "mentions": [
     "A010060",

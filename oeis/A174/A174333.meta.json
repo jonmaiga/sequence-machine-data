@@ -1,5 +1,5 @@
 {
-  "description": "61*n^2.",
+  "description": "a(n) = 61*n^2.",
   "id": "A174333",
   "mentions": [],
   "tags": [

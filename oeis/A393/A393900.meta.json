@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the asymptotic probability that the greatest common unitary divisor of two positive integers selected independently at random is a perfect power (A001597).",
+  "id": "A393900",
+  "mentions": [
+    "A001597",
+    "A008683",
+    "A021016",
+    "A072102",
+    "A077610",
+    "A306071",
+    "A393652",
+    "A393891",
+    "A393892",
+    "A393893",
+    "A393894",
+    "A393895",
+    "A393896",
+    "A393897",
+    "A393898",
+    "A393899"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations of [n] having exactly one cycle length whose multiplicity equals its length.",
+  "id": "A393583",
+  "mentions": [
+    "A000142",
+    "A391611"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

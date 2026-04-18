@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the height of an uniform octagonal antiprism with unit edges.",
+  "id": "A394538",
+  "mentions": [
+    "A179260",
+    "A387320",
+    "A387323",
+    "A393638",
+    "A394534",
+    "A394535",
+    "A394536",
+    "A394537"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

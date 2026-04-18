@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (prime(n)-11)/10 is a prime.",
+  "description": "Numbers k such that (prime(k)-11)/10 is a prime.",
   "id": "A143365",
   "mentions": [
     "A089442",

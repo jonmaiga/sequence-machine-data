@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of partitions of n into distinct nonprime parts, no two of which are consecutive in A018252.",
+  "id": "A393674",
+  "mentions": [
+    "A018252",
+    "A096258",
+    "A393671",
+    "A393672",
+    "A393673",
+    "A393675",
+    "A393676"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

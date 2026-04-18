@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (x^2*(3*x - 1))/((x - 1)^4*(x + 1)).",
+  "id": "A391994",
+  "mentions": [
+    "A002620",
+    "A392248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

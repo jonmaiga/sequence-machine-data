@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ceiling( (n^2 + n + 2)/4 ).",
+  "description": "a(n) = ceiling((n^2 + n + 2)/4).",
   "id": "A039823",
   "mentions": [
     "A000125",

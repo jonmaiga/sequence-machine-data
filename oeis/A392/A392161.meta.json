@@ -1,0 +1,16 @@
+{
+  "description": "Primes that are happy palindromic primes and are also the sum of 3 happy palindromic primes.",
+  "id": "A392161",
+  "mentions": [
+    "A364479"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

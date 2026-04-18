@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are the concatenation of x, 1 and x for some x.",
+  "id": "A392227",
+  "mentions": [
+    "A392225",
+    "A392226",
+    "A392239"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

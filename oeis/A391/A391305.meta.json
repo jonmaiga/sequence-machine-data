@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} ((1+1/k)^k/e)^((-1)^k).",
+  "id": "A391305",
+  "mentions": [
+    "A001113",
+    "A002161",
+    "A074962"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

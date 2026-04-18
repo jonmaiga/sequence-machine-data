@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A392860(1+n) - A006093(1+n)*A392860(n), where A006093(n) is prime(n)-1.",
+  "id": "A392861",
+  "mentions": [
+    "A002110",
+    "A006093",
+    "A143293",
+    "A392860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

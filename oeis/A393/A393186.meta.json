@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the abundance of A393184(n) or, equivalently, the deficiency of A393185(n).",
+  "id": "A393186",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A033879",
+    "A033880",
+    "A331181",
+    "A393184",
+    "A393185"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

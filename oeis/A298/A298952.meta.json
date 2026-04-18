@@ -2,6 +2,7 @@
   "description": "First put a(n)=0 for all n, then start with a(0) = 1 and add at step n >= 0 the term 1 at position 2*n + a(n).",
   "id": "A298952",
   "mentions": [
+    "A010060",
     "A059009",
     "A059010",
     "A059448",
@@ -9,11 +10,13 @@
     "A298307"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 121,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

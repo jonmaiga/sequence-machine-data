@@ -2,14 +2,20 @@
   "description": "Number of points in square lattice covered by a disc centered at (0,0) as its radius increases.",
   "id": "A057961",
   "mentions": [
+    "A000161",
+    "A000328",
     "A000404",
     "A000592",
+    "A000925",
     "A001481",
     "A004018",
     "A004020",
     "A005883",
+    "A047808",
     "A057655",
     "A057962",
+    "A105352",
+    "A213408",
     "A232499"
   ],
   "tags": [

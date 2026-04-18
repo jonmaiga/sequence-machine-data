@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * (2 * (1 - x)^2 - 1) ).",
+  "id": "A393418",
+  "mentions": [
+    "A006013",
+    "A393419",
+    "A393420",
+    "A393421"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

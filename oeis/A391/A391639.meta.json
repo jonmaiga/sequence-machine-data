@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A067599(2^k) is a substring of 2^k.",
+  "id": "A391639",
+  "mentions": [
+    "A067599",
+    "A378893",
+    "A390475",
+    "A391519"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

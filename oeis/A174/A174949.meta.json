@@ -1,16 +1,15 @@
 {
-  "description": "A symmetrical triangle sequence based on:q=2/12;t(n,m,q)=12*(Binomial[n, m]*(1 - q) + (((n + m + 1)!/((n + 1)!* m!)) + ((2*n - m + 1)!/((n + 1)!*(n - m)!)))*q).",
+  "description": "Triangle read by rows: T(n,k) = B(n,k) - B(n,0) + 1 where B(n,k) = 2 * (5*binomial(n,k)*(n+1)!*k!*(n-k)! + (n+k+1)!*(n-k)! + (2*n-k+1)!*k!) / ((n+1)!*k!*(n-k)!).",
   "id": "A174949",
   "mentions": [],
   "tags": [
-    "formulas",
+    "less",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "joeis"
   }
 }

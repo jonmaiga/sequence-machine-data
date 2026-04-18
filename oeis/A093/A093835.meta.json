@@ -1,5 +1,5 @@
 {
-  "description": "n*Jacobsthal(n).",
+  "description": "a(n) = n * Jacobsthal(n).",
   "id": "A093835",
   "mentions": [
     "A001045",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 33,
     "source": "joeis"
   }
 }

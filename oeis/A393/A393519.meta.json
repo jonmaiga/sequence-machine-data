@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array: T(n,k) is the number of set partitions of [n] into k labeled 3-tori.",
+  "id": "A393519",
+  "mentions": [
+    "A007425",
+    "A318695",
+    "A338805"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

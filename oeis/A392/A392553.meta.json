@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 / ((1-x)^2 - x^5)^2.",
+  "id": "A392553",
+  "mentions": [
+    "A137361",
+    "A292325",
+    "A392540"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

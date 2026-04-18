@@ -1,0 +1,18 @@
+{
+  "description": "Number of graphs with n vertices that have no induced regular subgraph of order 4.",
+  "id": "A394573",
+  "mentions": [
+    "A394400",
+    "A394462",
+    "A394539",
+    "A394930"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{i=1..n} (A392614(1+n) mod prime(i))*A002110(i-1).",
+  "id": "A392864",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A143293",
+    "A267263",
+    "A328574",
+    "A392614",
+    "A392615",
+    "A392862",
+    "A392863"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = position of first occurrence of the n-th binary word (using letters 1 and 2 as in A392106) in the sequence of residues modulo 3 of the primes.",
+  "id": "A392107",
+  "mentions": [
+    "A039701",
+    "A392106"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the domination number of the Kneser graph K(n,k), 1 <= k <= n/2.",
+  "id": "A392963",
+  "mentions": [
+    "A354568"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

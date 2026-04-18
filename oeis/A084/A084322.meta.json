@@ -1,5 +1,5 @@
 {
-  "description": "Fixed points if prime-factor-concatenation function (A084318) is iterated at primorial number initial values.",
+  "description": "Fixed points if prime-factor-concatenation function (A084317) is iterated at primorial number initial values.",
   "id": "A084322",
   "mentions": [
     "A001405",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

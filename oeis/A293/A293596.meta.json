@@ -2,7 +2,8 @@
   "description": "The number of vertices on successive convex layers of the positive quadrant of the two-dimensional integer grid.",
   "id": "A293596",
   "mentions": [
-    "A290966"
+    "A290966",
+    "A392196"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,17 @@
+{
+  "description": "Starts of runs of 4 consecutive integers that are all s-practical numbers (A393492).",
+  "id": "A393495",
+  "mentions": [
+    "A393492",
+    "A393493",
+    "A393494"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

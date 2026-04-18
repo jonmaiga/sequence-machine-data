@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of noncongruent solutions to x^(2^m) == 1 (mod n) is the same for any m>=1.",
+  "description": "Numbers k such that the number of noncongruent solutions to x^(2^m) == 1 (mod k) is the same for any m>=1.",
   "id": "A081754",
   "mentions": [
     "A002322",

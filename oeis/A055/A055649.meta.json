@@ -2,7 +2,13 @@
   "description": "Integers in base 11 with each base-11 digit represented by 2 decimal digits.",
   "id": "A055649",
   "mentions": [
-    "A049872"
+    "A049872",
+    "A055643",
+    "A055644",
+    "A055645",
+    "A055646",
+    "A055647",
+    "A055648"
   ],
   "tags": [
     "base",

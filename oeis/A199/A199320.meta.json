@@ -1,5 +1,5 @@
 {
-  "description": "5*6^n+1.",
+  "description": "a(n) = 5*6^n+1.",
   "id": "A199320",
   "mentions": [],
   "tags": [

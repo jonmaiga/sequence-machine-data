@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of the common value of A and B in Daniel Shanks' \"incredible identity\" A = B.",
   "id": "A245645",
-  "mentions": [],
+  "mentions": [
+    "A136319"
+  ],
   "tags": [
     "cons",
     "easy",

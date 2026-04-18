@@ -2,6 +2,7 @@
   "description": "Maximal number of zero digits in square of number with n digits not divisible by 10.",
   "id": "A135251",
   "mentions": [
+    "A058992",
     "A134843",
     "A134844",
     "A134845",

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle, read by rows: T(n,k) is the unique natural number such that the T(n,k)-th row of A125106 is equivalent to k-th partition of n in A026792.",
+  "id": "A392039",
+  "mentions": [
+    "A000041",
+    "A026792",
+    "A026794",
+    "A059893",
+    "A125106",
+    "A225620",
+    "A394533"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

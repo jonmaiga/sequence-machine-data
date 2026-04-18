@@ -1,0 +1,17 @@
+{
+  "description": "Greatest common divisor of consecutive powerful numbers.",
+  "id": "A387923",
+  "mentions": [
+    "A001694"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

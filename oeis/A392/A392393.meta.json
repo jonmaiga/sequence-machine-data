@@ -1,0 +1,20 @@
+{
+  "description": "Number of one-sided polyquarcs with n cells.",
+  "id": "A392393",
+  "mentions": [
+    "A392390",
+    "A392392",
+    "A392394",
+    "A393001"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Binary expansion of the constant x where a(n) = 2 - A391813(n-1) for n >= 1, and A391813 is the continued fraction of x starting with A391813(0) = 1.",
+  "id": "A391814",
+  "mentions": [
+    "A391812",
+    "A391813",
+    "A391872"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

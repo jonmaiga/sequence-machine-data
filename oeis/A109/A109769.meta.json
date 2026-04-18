@@ -1,16 +1,18 @@
 {
-  "description": "Composite n such that binomial(7*n, n) == 7^n (mod n).",
+  "description": "Composite numbers k such that binomial(7*k, k) == 7^k (mod k).",
   "id": "A109769",
   "mentions": [
-    "A080469"
+    "A080469",
+    "A123693"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

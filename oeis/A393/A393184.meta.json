@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are the larger of two distinct positive integers with opposite abundances, where this pair of abundances occurs for the first time; sorted by the larger term.",
+  "id": "A393184",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A002046",
+    "A005100",
+    "A005101",
+    "A033879",
+    "A033880",
+    "A330901",
+    "A331181",
+    "A335253",
+    "A335254",
+    "A393185",
+    "A393186"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

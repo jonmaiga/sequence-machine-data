@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer k greater than 1 such that every solution of y^m = y (for all integers m > 1) in the commutative ring of n-adic integers is also a solution of y^k = y.",
+  "id": "A391966",
+  "mentions": [
+    "A007947",
+    "A076566",
+    "A373387",
+    "A390598",
+    "A390915"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 76,
+    "source": "joeis"
+  }
+}

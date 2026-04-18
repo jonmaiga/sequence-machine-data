@@ -2,9 +2,12 @@
   "description": "Decimal expansion of lemniscate constant A.",
   "id": "A085565",
   "mentions": [
+    "A000108",
+    "A062539",
     "A076390",
     "A225119",
-    "A243340"
+    "A243340",
+    "A382242"
   ],
   "tags": [
     "cons",

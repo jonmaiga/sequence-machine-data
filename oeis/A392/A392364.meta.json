@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer k such that tau(k)*tau(n)/(tau(k) + tau(n)) is an integer. If no such k exists a(n) = -1. tau(i) = A000005(i).",
+  "id": "A392364",
+  "mentions": [
+    "A000005",
+    "A037992",
+    "A063427"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

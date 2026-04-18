@@ -1,0 +1,21 @@
+{
+  "description": "Largest number of distinct slopes of lines determined by pairs of cell centers of a polyomino with n cells.",
+  "id": "A393993",
+  "mentions": [
+    "A000105",
+    "A331781",
+    "A393992",
+    "A393994",
+    "A394393"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

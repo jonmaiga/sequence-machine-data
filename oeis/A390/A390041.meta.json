@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(4*n/11)} binomial(k+3,4*n-11*k).",
+  "id": "A390041",
+  "mentions": [
+    "A390039"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

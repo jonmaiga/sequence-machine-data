@@ -1,11 +1,12 @@
 {
-  "description": "For all numbers of the form 6 +- 1 starting with 5,7,11,13,..., '1' indicates prime and '0' indicates composite.",
+  "description": "For all numbers of the form 6*k +- 1 starting with 5, '1' indicates prime and '0' indicates composite.",
   "id": "A075743",
   "mentions": [
     "A000040",
     "A000720",
     "A007310",
     "A010051",
+    "A090405",
     "A156706"
   ],
   "tags": [

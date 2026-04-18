@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies [x^n] A(x)^(n+1) * (1 - (n+1)^2*x*A(x)) = 0 for n >= 1.",
+  "id": "A393750",
+  "mentions": [
+    "A245118",
+    "A393751"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

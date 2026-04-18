@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions p of n such that max(p) < 3*min(p).",
+  "id": "A393972",
+  "mentions": [
+    "A053263",
+    "A237825",
+    "A393973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Image of n under one application of the \"7x+1\" map.",
+  "description": "The \"7x+1\" map: x/p if p is the least prime factor < 7 of x, or 7x+1 if there's no such p.",
   "id": "A133421",
   "mentions": [
     "A133419",

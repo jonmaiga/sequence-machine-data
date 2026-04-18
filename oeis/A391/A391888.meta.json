@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=5 and a(n) = n*(a(n-1) + 2) for n > 0.",
+  "id": "A391888",
+  "mentions": [
+    "A000142",
+    "A007526",
+    "A033540",
+    "A052648",
+    "A165792"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

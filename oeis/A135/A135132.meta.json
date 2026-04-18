@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 10^n + 73 is a prime number.",
+  "description": "Integers k such that 10^k + 73 is a prime number.",
   "id": "A135132",
   "mentions": [
     "A095688",

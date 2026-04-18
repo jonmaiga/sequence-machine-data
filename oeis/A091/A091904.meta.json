@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x/((1+4x)(1-8x)).",
+  "description": "Expansion of x/((1+4*x)*(1-8*x)).",
   "id": "A091904",
   "mentions": [
     "A001045",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "joeis"
   }
 }

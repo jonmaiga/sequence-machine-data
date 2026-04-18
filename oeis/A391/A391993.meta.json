@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (2*x*(x - 7))/(x - 1)^3.",
+  "id": "A391993",
+  "mentions": [
+    "A392248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

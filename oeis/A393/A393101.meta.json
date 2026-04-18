@@ -1,0 +1,20 @@
+{
+  "description": "Number of character comparisons needed by Knuth-Morris-Pratt string search to identify the first occurrence of string n in the infinite Champernowne word 123456789101112... (A033307).",
+  "id": "A393101",
+  "mentions": [
+    "A022543",
+    "A033307",
+    "A387487",
+    "A390503",
+    "A392989"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

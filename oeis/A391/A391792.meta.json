@@ -1,0 +1,19 @@
+{
+  "description": "a(n)/3^(n-1) is the expected win if one of three baskets is chosen randomly and the player optimally chooses the coins with values from 1 to n (see Comments for details).",
+  "id": "A391792",
+  "mentions": [
+    "A391537",
+    "A391538",
+    "A391791"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of different pawn structures on an n X n chessboard.",
+  "id": "A391671",
+  "mentions": [
+    "A384759"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

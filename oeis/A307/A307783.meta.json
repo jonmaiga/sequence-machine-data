@@ -1,5 +1,5 @@
 {
-  "description": "The permanent of an n X n symmetric Toeplitz matrix M(n) whose first row consists of n, n-1, ..., 1.",
+  "description": "Permanent of an n X n symmetric Toeplitz matrix M(n) whose first row consists of n, n-1, ..., 1.",
   "id": "A307783",
   "mentions": [
     "A000290",

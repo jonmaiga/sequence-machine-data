@@ -1,0 +1,28 @@
+{
+  "description": "Achilles numbers divisible by at least 2 cubes greater than 1.",
+  "id": "A391980",
+  "mentions": [
+    "A001694",
+    "A013929",
+    "A024619",
+    "A052486",
+    "A072102",
+    "A082020",
+    "A082695",
+    "A126706",
+    "A286708",
+    "A369632",
+    "A388293",
+    "A391968"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

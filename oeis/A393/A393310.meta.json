@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of chains of nonempty partitions ordered by inclusion that end with a partition of n and have length k.",
+  "id": "A393310",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A299926",
+    "A389604",
+    "A392995"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

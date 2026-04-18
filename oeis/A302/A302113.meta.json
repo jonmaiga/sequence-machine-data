@@ -2,7 +2,8 @@
   "description": "a(n) = (4/(2*n-3))*(2*(n-1)*(2*n-1)*a(n-1) + (-1)^n*Product_{k=0..n-1} (2*k+1)) with a(0) = 0.",
   "id": "A302113",
   "mentions": [
-    "A302114"
+    "A302114",
+    "A302117"
   ],
   "tags": [
     "formulas",

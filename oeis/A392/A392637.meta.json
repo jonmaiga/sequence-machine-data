@@ -1,0 +1,19 @@
+{
+  "description": "Number of planar partitions of n with strictly decreasing columns and where parts decrease by at most 1 along each row.",
+  "id": "A392637",
+  "mentions": [
+    "A000219",
+    "A003293",
+    "A005157",
+    "A392511"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

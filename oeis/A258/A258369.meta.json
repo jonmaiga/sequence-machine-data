@@ -2,6 +2,7 @@
   "description": "Stirling-Bernoulli transform of A027656.",
   "id": "A258369",
   "mentions": [
+    "A005649",
     "A027656",
     "A163626",
     "A249163"

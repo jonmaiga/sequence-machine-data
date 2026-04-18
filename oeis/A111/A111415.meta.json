@@ -1,8 +1,9 @@
 {
-  "description": "f(f(n+1))-f(f(n)), where f(m) = Pell(m) = A000129(m).",
+  "description": "a(n) = f(f(n+1)) - f(f(n)), where f(m) = Pell(m) = A000129(m).",
   "id": "A111415",
   "mentions": [
-    "A000129"
+    "A000129",
+    "A393297"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

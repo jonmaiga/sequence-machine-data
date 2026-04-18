@@ -1,0 +1,16 @@
+{
+  "description": "Main diagonal of A255741.",
+  "id": "A392617",
+  "mentions": [
+    "A255741"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) - tau(n) is a perfect number.",
+  "description": "Numbers k such that sigma(k) - tau(k) is a perfect number.",
   "id": "A219036",
   "mentions": [
     "A000396"

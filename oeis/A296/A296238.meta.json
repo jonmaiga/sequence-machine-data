@@ -7,11 +7,12 @@
     "A296237"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 88,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

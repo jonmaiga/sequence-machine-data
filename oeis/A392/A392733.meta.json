@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} |Stirling1(n+k,k)|.",
+  "id": "A392733",
+  "mentions": [
+    "A202343",
+    "A354980",
+    "A392734",
+    "A392744"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

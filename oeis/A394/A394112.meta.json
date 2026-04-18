@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A000108(n-1)+A007852(n).",
+  "id": "A394112",
+  "mentions": [
+    "A000108",
+    "A007852"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

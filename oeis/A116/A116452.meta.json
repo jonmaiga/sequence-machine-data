@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors of A116451.",
+  "description": "Number of prime factors of A116451(n).",
   "id": "A116452",
   "mentions": [
     "A001222",
@@ -8,6 +8,7 @@
     "A116454"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

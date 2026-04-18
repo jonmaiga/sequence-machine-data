@@ -1,0 +1,16 @@
+{
+  "description": "Prime numbers having only digits {0, 1} whose product with 101 also has only digits {0, 1}.",
+  "id": "A390936",
+  "mentions": [
+    "A020449"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

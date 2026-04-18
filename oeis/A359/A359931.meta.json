@@ -2,18 +2,20 @@
   "description": "Number of distinct circles that can be constructed from an n x n square grid of points using only a compass.",
   "id": "A359931",
   "mentions": [
+    "A047800",
+    "A301851",
+    "A301853",
     "A359932",
     "A359933",
     "A359934",
     "A359935"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Least integer a(n) such that every graph on a(n) vertices has an induced regular subgraph of order n.",
+  "id": "A394564",
+  "mentions": [
+    "A390257",
+    "A394563",
+    "A394574"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

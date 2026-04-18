@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose binary representation has a positive number of 0s, all with even runlength.",
+  "description": "Numbers whose binary representation has a positive number of 0's, all with even runlength.",
   "id": "A383668",
   "mentions": [
     "A060142",

@@ -1,0 +1,20 @@
+{
+  "description": "The number of layers of vertices that ever have chips in a certain chip-firing game that starts with 2^n chips and is described in the comments.",
+  "id": "A390129",
+  "mentions": [
+    "A259013",
+    "A376131",
+    "A378726",
+    "A389565",
+    "A390355"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

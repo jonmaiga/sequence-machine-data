@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Fibonacci(k) has a record number of distinct prime factors.",
+  "id": "A394771",
+  "mentions": [
+    "A000045",
+    "A001221",
+    "A022307",
+    "A060319"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,18 +1,21 @@
 {
-  "description": "Triangle S(n, k) by rows: coefficients of 2^(n/2)*(x^(1/2)*d/dx)^n, where n =0, 2, 4, 6, ...",
+  "description": "Triangle S(n, k) by rows: coefficients of 2^(n/2)*(x^(1/2)*d/dx)^n, where n = 0, 2, 4, 6, ...",
   "id": "A223524",
   "mentions": [
+    "A000079",
+    "A001147",
     "A223168",
     "A223172",
-    "A223523"
+    "A223523",
+    "A349468"
   ],
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 38,
+    "offset": 0,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

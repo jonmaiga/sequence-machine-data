@@ -2,11 +2,14 @@
   "description": "Squares modulo triangular numbers: n^2 minus the greatest triangular number smaller than or equal to n^2.",
   "id": "A076816",
   "mentions": [
-    "A064784"
+    "A000217",
+    "A064784",
+    "A214857"
   ],
   "tags": [
     "easy",
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {

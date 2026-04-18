@@ -1,0 +1,27 @@
+{
+  "description": "Achilles numbers that are neither 4-free nor 4-full.",
+  "id": "A392134",
+  "mentions": [
+    "A001694",
+    "A013929",
+    "A024619",
+    "A046101",
+    "A052486",
+    "A126706",
+    "A286708",
+    "A375073",
+    "A388293",
+    "A390539",
+    "A391011",
+    "A391115"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Sum_{j=0..k} (-1)^(k - j)*binomial(k, j)*j^(n - k)*2^j. Row sums of A394444.",
+  "id": "A394441",
+  "mentions": [
+    "A394444"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

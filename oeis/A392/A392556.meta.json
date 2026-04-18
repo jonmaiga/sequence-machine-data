@@ -1,0 +1,16 @@
+{
+  "description": "Carmichael numbers k such that (p+1)/2 divides k-1 for any prime p dividing k.",
+  "id": "A392556",
+  "mentions": [
+    "A002997",
+    "A392557"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

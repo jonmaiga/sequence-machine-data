@@ -1,9 +1,11 @@
 {
-  "description": "G.f. = continued fraction: A(x) = 1/(1-x-x^2/(1-x^3-x^4/(1-x^5-x^6/(1-x^7-x^8/(...))))).",
+  "description": "Expansion of continued fraction A(x) = 1/(1-x-x^2/(1-x^3-x^4/(1-x^5-x^6/(1-x^7-x^8/(1-...))))).",
   "id": "A088352",
   "mentions": [
+    "A088354",
     "A143951",
-    "A224704"
+    "A224704",
+    "A393774"
   ],
   "tags": [
     "easy",

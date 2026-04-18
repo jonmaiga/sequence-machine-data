@@ -1,0 +1,27 @@
+{
+  "description": "Powers k^m, m > 1, of even k that are neither squarefree nor squareful.",
+  "id": "A392424",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A005843",
+    "A013929",
+    "A024619",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A332785",
+    "A386762",
+    "A391026",
+    "A392423"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

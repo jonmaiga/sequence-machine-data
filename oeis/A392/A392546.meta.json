@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of 1 / ((1-x)^5 - x^7).",
+  "id": "A392546",
+  "mentions": [
+    "A005709",
+    "A049016",
+    "A049017",
+    "A079675",
+    "A368475",
+    "A369803",
+    "A369804",
+    "A390045",
+    "A392543",
+    "A392544",
+    "A392545",
+    "A392547"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the unique nonnegative integer whose binary expansion is the parity sequence of the Collatz orbit of n, interpreted through a particular conjugacy (see Comments).",
+  "id": "A389685",
+  "mentions": [
+    "A006370"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

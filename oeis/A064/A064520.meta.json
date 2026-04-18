@@ -2,6 +2,7 @@
   "description": "a(n) = + 1 - 2 - 3 + 4 + 5 + 6 - 7 - 8 - 9 - 10 + 11 + 12 + 13 + 14 + 15 - ... + (+-1)*n, where there is one plus, two minuses, three pluses, etc. (see A002024).",
   "id": "A064520",
   "mentions": [
+    "A000217",
     "A002024",
     "A019298",
     "A064528"

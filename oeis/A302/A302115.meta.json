@@ -2,7 +2,8 @@
   "description": "a(n) = 16*(n-1)*a(n-1) + ((-1)^n)*(4/3)*Product_{k=0..n-1} (2*k-3) with a(0) = 0.",
   "id": "A302115",
   "mentions": [
-    "A302116"
+    "A302116",
+    "A302117"
   ],
   "tags": [
     "formulas",

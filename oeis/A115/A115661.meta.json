@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which have the same number of distinct prime divisors as the reverse of n.",
+  "description": "Numbers k which have the same number of distinct prime divisors as the reverse of k.",
   "id": "A115661",
   "mentions": [
     "A001221",

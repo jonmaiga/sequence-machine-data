@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose greatest prime factor is a Fermat prime.",
+  "id": "A392367",
+  "mentions": [
+    "A006530",
+    "A019434",
+    "A143512",
+    "A143513",
+    "A392368"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Achilles numbers that are neither biquadratefree nor cubefull.",
+  "id": "A392907",
+  "mentions": [
+    "A001221",
+    "A001694",
+    "A013929",
+    "A024619",
+    "A052486",
+    "A126706",
+    "A286708",
+    "A362147",
+    "A390539",
+    "A391115",
+    "A392134",
+    "A392908"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

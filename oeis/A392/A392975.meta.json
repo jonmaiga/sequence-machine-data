@@ -1,0 +1,23 @@
+{
+  "description": "A Sisyphus sequence: a(0) = 0, a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest unused positive integer having the same greatest prime factor as the sum of the previous terms.",
+  "id": "A392975",
+  "mentions": [
+    "A006530",
+    "A364246",
+    "A364280",
+    "A374404",
+    "A376865",
+    "A377193",
+    "A378233",
+    "A379044"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

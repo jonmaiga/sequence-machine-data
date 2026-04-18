@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^4-2*A(x)^3+(4x+1)*A(x)^2-3x*A(x)+2x^2=0.",
+  "id": "A394163",
+  "mentions": [
+    "A394162"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

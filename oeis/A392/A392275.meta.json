@@ -1,0 +1,30 @@
+{
+  "description": "The maximum exponent in the prime factorization of the smallest number whose cube is divisible by n.",
+  "id": "A392275",
+  "mentions": [
+    "A008620",
+    "A019555",
+    "A043289",
+    "A051903",
+    "A053149",
+    "A053164",
+    "A063775",
+    "A203640",
+    "A295658",
+    "A365333",
+    "A375359",
+    "A384914",
+    "A392276",
+    "A392277"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

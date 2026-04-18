@@ -2,6 +2,7 @@
   "description": "Decimal expansion of e/(e-1) = 1 + 1/e + 1/e^2 + ...",
   "id": "A185393",
   "mentions": [
+    "A007840",
     "A073333",
     "A254445",
     "A254446",

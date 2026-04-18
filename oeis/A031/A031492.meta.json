@@ -2,7 +2,22 @@
   "description": "Numbers whose base-9 representation has the same number of 0's as 8's.",
   "id": "A031492",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039077",
+    "A039078",
+    "A039079",
+    "A039080",
+    "A039081",
+    "A039082",
+    "A039083",
+    "A039090",
+    "A039096",
+    "A039101",
+    "A039105",
+    "A039108",
+    "A039110",
+    "A039111",
+    "A039364"
   ],
   "tags": [
     "base",
@@ -10,7 +25,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 63,
-    "source": "joeis"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

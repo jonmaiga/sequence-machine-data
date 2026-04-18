@@ -1,8 +1,9 @@
 {
-  "description": "Smallest prime p such that there are n consecutive quadratic residues mod p.",
+  "description": "Smallest prime p such that the maximum run length of consecutive positive quadratic residues modulo p is n.",
   "id": "A097159",
   "mentions": [
     "A002307",
+    "A025046",
     "A097160",
     "A097161",
     "A129201"
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

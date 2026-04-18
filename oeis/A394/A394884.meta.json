@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A051903(A099308(n)), where A051903 is the maximum exponent in the prime factorization of n, and A099308 lists numbers m whose k-th arithmetic derivative is zero for some k.",
+  "id": "A394884",
+  "mentions": [
+    "A003415",
+    "A051903",
+    "A099308",
+    "A394885",
+    "A394886"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

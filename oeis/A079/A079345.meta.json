@@ -1,7 +1,9 @@
 {
-  "description": "Fibonacci(n) mod 16.",
+  "description": "a(n) = Fibonacci(n) mod 16.",
   "id": "A079345",
   "mentions": [
+    "A000045",
+    "A001175",
     "A079343",
     "A079344"
   ],

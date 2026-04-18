@@ -1,0 +1,15 @@
+{
+  "description": "Maximum halting time across all Wolfram 3-state 2-symbol Turning machines started with n on the tape.",
+  "id": "A390016",
+  "mentions": [
+    "A393317"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

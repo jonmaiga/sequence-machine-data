@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyquoins with n cells.",
+  "id": "A392939",
+  "mentions": [
+    "A038119",
+    "A390620",
+    "A392940",
+    "A392941"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

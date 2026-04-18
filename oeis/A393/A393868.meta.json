@@ -1,0 +1,15 @@
+{
+  "description": "Runs of consecutive odd/even terms in A393866.",
+  "id": "A393868",
+  "mentions": [
+    "A393866"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

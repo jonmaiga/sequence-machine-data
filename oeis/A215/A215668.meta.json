@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the zero z in (0,Pi/2) of the function sin(sin(x))/x - cos(cos(x))/x.",
+  "description": "Decimal expansion of the zero z in (0,Pi/2) of the function sin(sin(x))/sin(x) - cos(cos(x))/cos(x).",
   "id": "A215668",
   "mentions": [
     "A168546",

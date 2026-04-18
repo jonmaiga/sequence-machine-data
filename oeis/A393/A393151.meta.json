@@ -1,0 +1,17 @@
+{
+  "description": "Least prime representable as a sum of n prime powers using each of the first 2n primes exactly once as bases and exponents, and -1 if no such number exists.",
+  "id": "A393151",
+  "mentions": [
+    "A053810",
+    "A392412"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

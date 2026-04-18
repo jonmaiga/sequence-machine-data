@@ -2,6 +2,7 @@
   "description": "a(0)=1; for n >= 1, a(n) = ceiling(Fibonacci(n)/a(n-1)).",
   "id": "A140829",
   "mentions": [
+    "A000071",
     "A140828"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Power tower of descending prime factors of n with multiplicity.",
+  "id": "A394384",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A027746",
+    "A164339",
+    "A394383"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

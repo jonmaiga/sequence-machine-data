@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^8*2^n - 1 is prime.",
+  "description": "Numbers k such that 3^8*2^k - 1 is prime.",
   "id": "A212311",
   "mentions": [
     "A002235",
@@ -12,6 +12,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

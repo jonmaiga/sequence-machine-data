@@ -1,10 +1,12 @@
 {
-  "description": "Triangular array, T, read by rows: T(n,0) = T(n,n) = 1. For n >= 2 and 1<=k<=n-1, T(n,k) = T(n-1,k-1) + T(n-2,k-1) + T(n-1,k) if n is odd and k=n/2, otherwise T(n,k) = T(n-1,k-1) + T(n-1,k).",
+  "description": "Triangular array, T, read by rows: T(n,0) = T(n,n) = 1. For n >= 2 and 1<=k<=n-1, T(n,k) = T(n-1,k-1) + T(n-2,k-1) + T(n-1,k) if n is odd and k=(n-1)/2, otherwise T(n,k) = T(n-1,k-1) + T(n-1,k).",
   "id": "A026725",
   "mentions": [
     "A026670",
     "A026674",
-    "A134869"
+    "A108080",
+    "A134869",
+    "A236830"
   ],
   "tags": [
     "formulas",

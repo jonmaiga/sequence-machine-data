@@ -1,0 +1,19 @@
+{
+  "description": "Middle sides y for integer-sided triangles (x <= y <= z) with an integer internal angle bisector l splitting the triangle into two integer-sided triangles; include only tuples (x, y, z; l) with gcd(x, y, z, l) = 1; ordered by z, then y, then x.",
+  "id": "A394101",
+  "mentions": [
+    "A181925",
+    "A182171",
+    "A393193",
+    "A394100",
+    "A394102"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

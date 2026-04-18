@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table T(n, k), n >= 0, k > 0, read by rows with row polynomials R(n, x) such that R(2n+1, x) = x*R(n, x) for n >= 0, R(2n, x) = x*(R(n, x+1) - R(n, x)) for n > 0 with R(0, x) = x.",
+  "description": "Irregular triangle T(n, k), n >= 0, k > 0, read by rows with row polynomials R(n, x) such that R(2n+1, x) = x*R(n, x) for n >= 0, R(2n, x) = x*(R(n, x+1) - R(n, x)) for n > 0 with R(0, x) = x.",
   "id": "A373183",
   "mentions": [
     "A000120",

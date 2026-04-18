@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of constant in Kac's formula.",
   "id": "A093601",
-  "mentions": [],
+  "mentions": [
+    "A060294"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

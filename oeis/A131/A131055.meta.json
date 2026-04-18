@@ -2,6 +2,7 @@
   "description": "1 followed by repeats of 2*k.",
   "id": "A131055",
   "mentions": [
+    "A052928",
     "A131056"
   ],
   "tags": [

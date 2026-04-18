@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the denominator of the n-th convergent of the continued fraction expansion of Pi is prime.",
+  "description": "Numbers k such that the denominator of the k-th convergent of the continued fraction expansion of Pi is prime.",
   "id": "A259490",
   "mentions": [
     "A002486",
