@@ -1,8 +1,10 @@
 {
-  "description": "E.g.f. A(x) satisfies: A'(x) = (1 - sqrt(1-4*A(x))) / (2*A(x)).",
+  "description": "E.g.f. A(x) satisfies A'(x) = (1 - sqrt(1-4*A(x))) / (2*A(x)).",
   "id": "A180254",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A376174",
+    "A376175"
   ],
   "tags": [
     "formulas",

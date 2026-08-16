@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of 1/n^2-1/(3n)^2 or of 8/(9n^2).",
+  "description": "Denominator of 1/n^2 - 1/(3*n)^2 or of 8/(9*n^2).",
   "id": "A152018",
   "mentions": [
     "A000290",
@@ -11,9 +11,11 @@
     "A061048",
     "A061050",
     "A143025",
+    "A152020",
     "A291050"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

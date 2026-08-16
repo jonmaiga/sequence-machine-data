@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of A000290 and A000219.",
+  "id": "A396890",
+  "mentions": [
+    "A000219",
+    "A000290",
+    "A074962",
+    "A360489"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

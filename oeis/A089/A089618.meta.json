@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction elements constructed out of a van der Corput discrepancy sequence. Interpreted as such, it is the simple continued fraction of 0.461070495956719519354149869336699687678...",
+  "description": "Continued fraction elements constructed out of the van der Corput discrepancy sequence.",
   "id": "A089618",
   "mentions": [
     "A002210",
@@ -14,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 83,
+    "offset": 1,
+    "size": 82,
     "source": "oeis-bfile"
   }
 }

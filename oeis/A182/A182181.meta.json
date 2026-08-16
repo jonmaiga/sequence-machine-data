@@ -1,5 +1,5 @@
 {
-  "description": "Total number of parts in the section model of partitions of A135010 with n regions.",
+  "description": "Total number of parts in the modular table of partitions of A135010 with n regions.",
   "id": "A182181",
   "mentions": [
     "A000041",

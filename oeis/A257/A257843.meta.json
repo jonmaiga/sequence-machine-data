@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the lexicographically first integer solution (x,y,z) of 4/n = 1/x + 1/y + 1/z with 0 < x < y < z, is different from the solution having the largest z-value.",
+  "description": "Numbers k for which the lexicographically first integer solution (x,y,z) of 4/k = 1/x + 1/y + 1/z with 0 < x < y < z, is different from the solution having the largest z-value.",
   "id": "A257843",
   "mentions": [
     "A073101",

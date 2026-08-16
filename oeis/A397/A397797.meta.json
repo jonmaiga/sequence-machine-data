@@ -1,0 +1,20 @@
+{
+  "description": "Number of free ouroboros polyknights with 2*n cells.",
+  "id": "A397797",
+  "mentions": [
+    "A030446",
+    "A165143",
+    "A297666",
+    "A359706"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

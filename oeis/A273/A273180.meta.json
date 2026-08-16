@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that ror(n) + rol(n) is a power of 2, where ror(n)=A038572(n) is n rotated one binary place to the right, rol(n)=A006257(n) is n rotated one binary place to the left.",
+  "description": "Numbers k such that ror(k) + rol(k) is a power of 2, where ror(k)=A038572(k) is k rotated one binary place to the right, rol(k)=A006257(k) is k rotated one binary place to the left.",
   "id": "A273180",
   "mentions": [
+    "A002264",
     "A006257",
     "A038572",
     "A088161",

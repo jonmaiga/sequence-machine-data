@@ -1,5 +1,5 @@
 {
-  "description": "(-1)^n + 50*floor(3n/2) - 100*floor(n/4).",
+  "description": "a(n) = (-1)^n + 50*floor(3*n/2) - 100*floor(n/4).",
   "id": "A265423",
   "mentions": [
     "A265424"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

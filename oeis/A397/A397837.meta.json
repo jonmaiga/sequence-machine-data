@@ -1,0 +1,17 @@
+{
+  "description": "Number of ternary words of length n over {a,b,c} avoiding the consecutive word abcabc.",
+  "id": "A397837",
+  "mentions": [
+    "A397835"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

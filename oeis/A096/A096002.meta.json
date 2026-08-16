@@ -2,6 +2,7 @@
   "description": "Let {b(n)} = A095996; then a(n) = number of terms {b(1),b(2),...,b(n-1)} which are coprime to n.",
   "id": "A096002",
   "mentions": [
+    "A002110",
     "A095996"
   ],
   "tags": [

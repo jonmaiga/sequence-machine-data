@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are sums of consecutive hexagonal pyramidal numbers (A002412).",
+  "description": "Numbers that are sums of one or more consecutive hexagonal pyramidal numbers (A002412).",
   "id": "A322651",
   "mentions": [
     "A002412",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

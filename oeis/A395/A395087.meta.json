@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of vertices of the convex hull of the finite point set {(k, prime(k)), k = 1..n} (where prime(k) denotes the k-th prime number).",
+  "id": "A395087",
+  "mentions": [
+    "A246033",
+    "A395094",
+    "A395098",
+    "A395113"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

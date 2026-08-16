@@ -1,0 +1,20 @@
+{
+  "description": "Number of factorizations of (p*q)^n into parts greater than 1 that contain at least one mixed factor (a part divisible by both p and q), where p and q are distinct primes.",
+  "id": "A395808",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A002774",
+    "A397646"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

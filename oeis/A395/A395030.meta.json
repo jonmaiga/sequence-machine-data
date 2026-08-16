@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that x^2 + y*z = n, where x,y,z are positive integers satisfying x >= y >= z.",
+  "id": "A395030",
+  "mentions": [
+    "A393710",
+    "A394740",
+    "A394743",
+    "A394785",
+    "A394787"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of sides of the convex hull of an n-cell polyomino.",
+  "id": "A395263",
+  "mentions": [
+    "A000105",
+    "A001168",
+    "A122133",
+    "A181785"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

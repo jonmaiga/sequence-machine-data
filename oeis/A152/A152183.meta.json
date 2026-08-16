@@ -1,15 +1,18 @@
 {
-  "description": "The sequence is a lattice filling using the Golden Ratio, (Sqrt[5]+1)/2, constant digits base ten.",
+  "description": "Number of overlapping n-digit blocks of the golden ratio phi = (sqrt(5)+1)/2 needed to see all 10^n possibilities.",
   "id": "A152183",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A152182"
+  ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "more",
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

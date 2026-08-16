@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A033677(n) - A135034(n); excess of the smallest divisor of n >= sqrt(n) over ceiling(sqrt(n)).",
+  "id": "A395409",
+  "mentions": [
+    "A000290",
+    "A033677",
+    "A135034"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

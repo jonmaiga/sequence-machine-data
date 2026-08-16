@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=0; for n>=2, let s = product of the decimal digits of a(n-1); if s=a(m) for some m < n-1, let m be the greatest such index and set a(n) = n-1-m; otherwise set a(n) = 0.",
+  "id": "A398260",
+  "mentions": [
+    "A007954",
+    "A181391",
+    "A398259"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k such that A091508(k) = n.",
+  "id": "A394973",
+  "mentions": [
+    "A091508",
+    "A394797"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

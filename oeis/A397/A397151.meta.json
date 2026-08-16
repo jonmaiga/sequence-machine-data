@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions (c_1,...,c_k) of n with c_i >= 3*k - 2*i.",
+  "id": "A397151",
+  "mentions": [
+    "A098131",
+    "A219282",
+    "A236310",
+    "A397066",
+    "A397101"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

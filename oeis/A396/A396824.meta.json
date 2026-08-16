@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with no initial substring divisible by 3.",
+  "id": "A396824",
+  "mentions": [
+    "A001651",
+    "A323422"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

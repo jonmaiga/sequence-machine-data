@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the most primes produced by any n-digit prime according to rules stipulated in Honaker's A048853.",
+  "id": "A396419",
+  "mentions": [
+    "A048853",
+    "A050673",
+    "A396418"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn 0..3 arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling three exactly once.",
+  "description": "Number of 4 X n 0..3 arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling three exactly once.",
   "id": "A269217",
   "mentions": [
     "A269214"

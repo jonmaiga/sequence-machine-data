@@ -1,8 +1,10 @@
 {
-  "description": "Positive numbers k such that abs((sin k)^k) sets a new record.",
+  "description": "Numbers k such that abs((sin k)^k) sets a new record.",
   "id": "A382815",
   "mentions": [
     "A004112",
+    "A096456",
+    "A382564",
     "A383540"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

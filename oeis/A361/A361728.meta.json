@@ -2,8 +2,13 @@
   "description": "Diagonal of rational function 1/(1 - (1 + x*y*z) * (x + y + z)).",
   "id": "A361728",
   "mentions": [
+    "A099234",
     "A361729",
-    "A361730"
+    "A361730",
+    "A361737",
+    "A361812",
+    "A398291",
+    "A398294"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to tile a strip of length n with three types of tiles.",
+  "id": "A397302",
+  "mentions": [
+    "A396569"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

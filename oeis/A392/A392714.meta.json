@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the positive integer such that Sum_{sigma in S_{2n}} sign(sigma) * w_{sigma(1)}*D^n o w_{sigma(2)}*D^n o ... o w_{sigma(2n)}*D^n = a(n) * Wronskian(w_1,...,w_{2n}) * D^n, where D = d/dx and w_1,...,w_{2n} are smooth functions on the real line.",
+  "id": "A392714",
+  "mentions": [
+    "A147681"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

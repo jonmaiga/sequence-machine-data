@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 24*(2 - sqrt(2)).",
+  "id": "A396518",
+  "mentions": [
+    "A101465",
+    "A396517"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

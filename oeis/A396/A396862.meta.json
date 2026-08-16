@@ -1,0 +1,19 @@
+{
+  "description": "Discriminants of real quadratic fields with trivial Pólya group.",
+  "id": "A396862",
+  "mentions": [
+    "A003655",
+    "A003656",
+    "A003658",
+    "A396863",
+    "A396865"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

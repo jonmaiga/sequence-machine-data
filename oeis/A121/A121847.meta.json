@@ -1,14 +1,17 @@
 {
-  "description": "The spiral parameter alpha for the icosahedral fullerenes C_n.",
+  "description": "The spiral parameter alpha for the icosahedral fullerenes.",
   "id": "A121847",
-  "mentions": [],
+  "mentions": [
+    "A121848",
+    "A121849"
+  ],
   "tags": [
-    "nonn",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
-    "offset": 20,
-    "size": 21,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: row n (n >= 1) gives the concatenated run-length encoding of the integer partitions of n, sorted as in A334442.",
+  "id": "A395081",
+  "mentions": [
+    "A334442",
+    "A395698"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

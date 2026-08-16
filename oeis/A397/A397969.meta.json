@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent ways to choose 4 squares on an n X n board with no chosen square orthogonally adjacent to another, with equivalence being up to rotations.",
+  "id": "A397969",
+  "mentions": [
+    "A172227",
+    "A239576",
+    "A277226",
+    "A397970"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

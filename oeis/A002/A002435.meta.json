@@ -1,14 +1,18 @@
 {
   "description": "Second-order Euler numbers.",
   "id": "A002435",
-  "mentions": [],
+  "mentions": [
+    "A008294",
+    "A104035"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

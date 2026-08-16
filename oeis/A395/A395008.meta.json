@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k representable as a sum of three squares at which the minimal three-square spread s3(k) reaches a new record value, where s3(k) is the least value of x-z over all representations k = x^2 + y^2 + z^2 with x >= y >= z >= 0.",
+  "id": "A395008",
+  "mentions": [
+    "A000378",
+    "A000408",
+    "A004214",
+    "A004215",
+    "A051952",
+    "A219222",
+    "A396760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

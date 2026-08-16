@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(2) - H(k,2))*(zeta(3) - H(k,3))/k, where H(k,2) = A007406(k)/A007407(k) is the k-th generalized harmonic number of order 2, and H(k,3) = A007408(k)/A007409(k) is the k-th generalized harmonic number of order 3.",
+  "id": "A397761",
+  "mentions": [
+    "A002117",
+    "A007406",
+    "A007407",
+    "A007408",
+    "A007409",
+    "A013664",
+    "A397762"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

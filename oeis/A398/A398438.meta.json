@@ -1,0 +1,24 @@
+{
+  "description": "Array read by ascending antidiagonals: A(0,k) = 0 and A(n,k) = A(n-1,k)^2 + k for n > 0.",
+  "id": "A398438",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A002378",
+    "A003095",
+    "A072191",
+    "A329471",
+    "A398439",
+    "A398440"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

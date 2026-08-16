@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X2 0..4 arrays with the permanents of all 2X2 subblocks equal and nonzero.",
+  "description": "Number of (n+1) X 2 0..4 arrays with the permanents of all 2 X 2 subblocks equal and nonzero.",
   "id": "A204725",
   "mentions": [
     "A204732"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

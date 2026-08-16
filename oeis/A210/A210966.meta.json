@@ -1,5 +1,5 @@
 {
-  "description": "Sum of all region numbers of all parts of the n-th region of the shell model of partitions.",
+  "description": "Sum of all region numbers of all parts of the n-th region of the modular table of partitions.",
   "id": "A210966",
   "mentions": [
     "A001255",

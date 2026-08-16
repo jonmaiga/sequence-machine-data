@@ -2,6 +2,7 @@
   "description": "Number of distinct hexaflexagons of length n.",
   "id": "A286110",
   "mentions": [
+    "A000207",
     "A007148",
     "A007282",
     "A052307",

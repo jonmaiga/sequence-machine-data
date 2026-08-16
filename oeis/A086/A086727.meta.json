@@ -1,7 +1,8 @@
 {
-  "description": "Decimal expansion of sum(1/(6*m+1)^2,m=0..infinity).",
+  "description": "Decimal expansion of Sum_{m>=0} 1/(6*m+1)^2.",
   "id": "A086727",
   "mentions": [
+    "A016922",
     "A086722",
     "A086731"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

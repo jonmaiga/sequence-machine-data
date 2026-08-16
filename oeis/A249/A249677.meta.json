@@ -2,13 +2,23 @@
   "description": "Triangle, read by rows, with row n forming the coefficients in Product_{k=0..n} (1 + k^3*x).",
   "id": "A249677",
   "mentions": [
+    "A000012",
     "A000442",
     "A000537",
     "A008955",
+    "A066989",
+    "A094638",
     "A107415",
-    "A130032"
+    "A130032",
+    "A255433",
+    "A347107",
+    "A352980",
+    "A394716",
+    "A394861",
+    "A395066"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

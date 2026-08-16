@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; thereafter a(n+1) is the unused number with the greatest abundancy selected from candidates of the form a(n)/p if possible, otherwise of the form a(n)*p, where p is prime.",
+  "id": "A395487",
+  "mentions": [
+    "A000203",
+    "A003188",
+    "A137825",
+    "A207901",
+    "A300012",
+    "A302033"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

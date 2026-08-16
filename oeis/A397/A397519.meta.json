@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers whose binary plot has no two 0 bits a knight's move apart.",
+  "id": "A397519",
+  "mentions": [
+    "A007088",
+    "A109812",
+    "A394166",
+    "A396694",
+    "A396836"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

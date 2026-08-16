@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations p of [n] satisfying p(i+7)-p(i)<>7 for all 1<=i<=n-7.",
+  "id": "A395915",
+  "mentions": [
+    "A189281",
+    "A189282",
+    "A189283",
+    "A189284",
+    "A189285",
+    "A360384",
+    "A395916",
+    "A396646",
+    "A397254"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

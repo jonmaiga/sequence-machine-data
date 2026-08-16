@@ -5,11 +5,12 @@
     "A058033"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

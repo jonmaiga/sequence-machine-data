@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = binomial(n,floor(n/2)) + (n mod 2) - 2.",
+  "id": "A395396",
+  "mentions": [
+    "A001405",
+    "A014495"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

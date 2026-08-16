@@ -1,13 +1,15 @@
 {
-  "description": "a(n) = minimal number m of unit squares needed to make an figure formed from squares (joined edge to edge) which has n holes.",
+  "description": "a(n) = minimal number m of unit squares needed to make a figure formed from squares (joined edge to edge) which has n holes.",
   "id": "A319879",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
-    "source": "oeis-entry"
+    "size": 58,
+    "source": "oeis-bfile"
   }
 }

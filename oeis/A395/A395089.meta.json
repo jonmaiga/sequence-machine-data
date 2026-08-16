@@ -1,0 +1,25 @@
+{
+  "description": "Binary complement of A395088.",
+  "id": "A395089",
+  "mentions": [
+    "A003849",
+    "A005614",
+    "A010060",
+    "A026465",
+    "A080764",
+    "A171588",
+    "A284388",
+    "A284391",
+    "A395088"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of odd divisors and sum of even divisors are both palindromic.",
+  "description": "Numbers k such that sum of odd divisors and sum of even divisors are both palindromic.",
   "id": "A084831",
   "mentions": [
     "A000593",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

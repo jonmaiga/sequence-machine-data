@@ -1,0 +1,32 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = floor(1+k*n/(k-1)) with k >= 2.",
+  "id": "A397991",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A001651",
+    "A003991",
+    "A005408",
+    "A042968",
+    "A047201",
+    "A047253",
+    "A047304",
+    "A047592",
+    "A067251",
+    "A113763",
+    "A160542",
+    "A168183",
+    "A168186",
+    "A397992"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are divisible by the sum of the digits of their canonical snowball representation.",
+  "id": "A398303",
+  "mentions": [
+    "A118363",
+    "A397794",
+    "A398006"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

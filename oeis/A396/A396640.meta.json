@@ -1,0 +1,17 @@
+{
+  "description": "Number of geodesics of length n in the braid group B_4.",
+  "id": "A396640",
+  "mentions": [
+    "A000244",
+    "A396638",
+    "A396639"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

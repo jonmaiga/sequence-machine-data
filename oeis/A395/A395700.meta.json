@@ -1,0 +1,17 @@
+{
+  "description": "k is term if and only if k = gcd(k^2, k!) / gcd(k^2, k!/floor(k/2)!^2).",
+  "id": "A395700",
+  "mentions": [
+    "A001405",
+    "A181859"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

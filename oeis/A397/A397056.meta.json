@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of A000203 and A026007.",
+  "id": "A397056",
+  "mentions": [
+    "A000203",
+    "A026007",
+    "A066186",
+    "A276432",
+    "A277029",
+    "A335651",
+    "A397057"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

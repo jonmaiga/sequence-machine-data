@@ -1,19 +1,20 @@
 {
-  "description": "Number of steps J. H. Conway's Fractran program needs to calculate the n-th prime.",
+  "description": "Number of steps J. H. Conway's Fractran program needs to calculate the n-th prime when starting from 2^n.",
   "id": "A267572",
   "mentions": [
     "A007542",
     "A007546",
     "A007547",
     "A183132",
-    "A183133"
+    "A183133",
+    "A202138"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

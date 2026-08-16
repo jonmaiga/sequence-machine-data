@@ -1,13 +1,18 @@
 {
-  "description": "Numbers n such that n | 8^n + 6^n + 4^n + 2^n + 1.",
+  "description": "Numbers k such that k | 8^k + 6^k + 4^k + 2^k + 1.",
   "id": "A057840",
-  "mentions": [],
+  "mentions": [
+    "A006521",
+    "A057839",
+    "A057842",
+    "A057845"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-entry"
   }
 }

@@ -1,14 +1,16 @@
 {
   "description": "Palindromes whose ten's complements are squares.",
   "id": "A121233",
-  "mentions": [],
+  "mentions": [
+    "A002113"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Smallest sum of synchronizing word lengths of an n-state binary deterministic finite automaton that has a synchronizing word for every state.",
+  "id": "A395449",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

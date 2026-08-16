@@ -2,10 +2,13 @@
   "description": "Numbers m such that m = prime((d_1*d_2*...*d_k)*(d_1+d_2+...+d_k)) where d_1d_2...d_k is the decimal expansion of m.",
   "id": "A140175",
   "mentions": [
-    "A097223"
+    "A097223",
+    "A110069",
+    "A164322"
   ],
   "tags": [
     "base",
+    "fini",
     "more",
     "nonn"
   ],

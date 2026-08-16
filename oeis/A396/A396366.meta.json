@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the lambda (scale) constant in the SELU activation function.",
+  "id": "A396366",
+  "mentions": [
+    "A396365"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

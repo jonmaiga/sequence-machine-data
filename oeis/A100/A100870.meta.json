@@ -1,7 +1,8 @@
 {
-  "description": "Triangle read by rows: T(n,k) = minimal sum of denominators needed to write k/n (for 1 <= k <= n with gcd(k,n) = 1) as a sum of unit fractions.",
+  "description": "Triangle read by rows: T(n,k) = minimal sum of denominators needed to write k/n as a sum of distinct unit fractions, 1 <= k <= n-1.",
   "id": "A100870",
   "mentions": [
+    "A097847",
     "A100869",
     "A100871"
   ],
@@ -10,7 +11,7 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 80,
     "source": "oeis-entry"
   }

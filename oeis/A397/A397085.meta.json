@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (-1)^(n-floor(sqrt(n))^2-1) if n is not a perfect square and 0 otherwise.",
+  "id": "A397085",
+  "mentions": [
+    "A001614",
+    "A133280",
+    "A161886",
+    "A195437",
+    "A397086"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

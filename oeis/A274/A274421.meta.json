@@ -1,7 +1,9 @@
 {
-  "description": "Decimal expansion of V_6, a Quantum Field Theory constant [negated] related to the coloring of the tetrahedron with six masses.",
+  "description": "Decimal expansion of V_6, a Quantum Field Theory constant (negated) related to the coloring of the tetrahedron with six masses.",
   "id": "A274421",
   "mentions": [
+    "A002117",
+    "A013662",
     "A143298",
     "A255685",
     "A274412",

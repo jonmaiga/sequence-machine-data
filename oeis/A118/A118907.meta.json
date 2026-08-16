@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1; a(n) = |a(n-1) - n| if n is has already appeared in the sequence, otherwise a(n) = a(n-1) + n.",
+  "description": "a(0) = 1; a(n) = |a(n-1) - n| if n has already appeared in the sequence, otherwise a(n) = a(n-1) + n.",
   "id": "A118907",
   "mentions": [
     "A005132",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

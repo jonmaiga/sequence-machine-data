@@ -1,14 +1,15 @@
 {
-  "description": "a(n)=4a(n-4).",
+  "description": "a(0) = 1, a(1) = a(2) = 2, a(3) = 1, and a(n) = 4*a(n-4) for n > 3.",
   "id": "A137399",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

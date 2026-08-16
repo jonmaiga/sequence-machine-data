@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n#*2^n+1 is prime, where n# = product of primes <= n.",
+  "description": "Numbers k such that k#*2^k+1 is prime, where k# = product of primes <= k.",
   "id": "A084404",
   "mentions": [
     "A034386"

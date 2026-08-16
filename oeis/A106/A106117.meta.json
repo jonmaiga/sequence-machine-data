@@ -1,11 +1,10 @@
 {
-  "description": "Substitution sequence that simulates a three level two state neural net in six symbols : Fibonacci-Silver Chain-Fibonacci.",
+  "description": "Fixed point of the morphism 1->3, 2->34, 3->565, 4->5, 5->1, 6->12.",
   "id": "A106117",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,

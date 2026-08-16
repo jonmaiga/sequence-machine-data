@@ -1,0 +1,18 @@
+{
+  "description": "Number of points covered by a minimal level n H-Tree on a square lattice.",
+  "id": "A395108",
+  "mentions": [
+    "A169726",
+    "A395109"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of doubly triangular numbers (A002817).",
+  "id": "A396485",
+  "mentions": [
+    "A002117",
+    "A002817",
+    "A013661",
+    "A013662"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

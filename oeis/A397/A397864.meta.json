@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there are more divisors d of k where d + n/d is a square than those where it is not.",
+  "id": "A397864",
+  "mentions": [
+    "A000005",
+    "A005563",
+    "A069496",
+    "A118593",
+    "A211996",
+    "A232878"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

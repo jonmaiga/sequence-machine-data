@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of face diagonals in Johnson solid J_n.",
+  "id": "A396906",
+  "mentions": [
+    "A394912",
+    "A394913",
+    "A396904",
+    "A396905"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

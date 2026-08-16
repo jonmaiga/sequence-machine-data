@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k^k+43 is prime.",
+  "description": "Numbers k such that k^k + 43 is prime.",
   "id": "A173974",
   "mentions": [
     "A100837",
@@ -7,6 +7,7 @@
     "A100839"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

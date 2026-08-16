@@ -1,5 +1,5 @@
 {
-  "description": "A fourth-order linear divisibility sequence: a(n) := (1/9)*(2^n + (-1)^n)*(2^(3*n) - (-1)^n).",
+  "description": "A fourth-order linear divisibility sequence: a(n) = (1/9)*(2^n + (-1)^n)*(2^(3*n) - (-1)^n).",
   "id": "A238539",
   "mentions": [
     "A238536",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place non-attacking knights on a 4 X n chessboard.",
+  "id": "A392323",
+  "mentions": [
+    "A030978",
+    "A141243",
+    "A189145",
+    "A244081",
+    "A321251",
+    "A394505",
+    "A395243"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

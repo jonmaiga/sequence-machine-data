@@ -1,5 +1,5 @@
 {
-  "description": "Volume of the last section of the set of partitions of n from the shell model of partitions version \"Boxes\".",
+  "description": "Volume of the last section of the set of partitions of n from the modular table of partitions version \"Boxes\".",
   "id": "A206440",
   "mentions": [
     "A066183",

@@ -1,0 +1,24 @@
+{
+  "description": "Infinite square array where the n-th row lists the starting points of runs of n consecutive primes with same digit sum; read by antidiagonals.",
+  "id": "A395623",
+  "mentions": [
+    "A000040",
+    "A031936",
+    "A066540",
+    "A071613",
+    "A209396",
+    "A209663",
+    "A210629",
+    "A227931",
+    "A227933"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

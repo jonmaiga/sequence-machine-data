@@ -1,5 +1,5 @@
 {
-  "description": "The sequence A059515(3,n). Number of ways of placing n identifiable nonnegative intervals with a total of exactly three starting and/or finishing points.",
+  "description": "a(n) = A059515(3,n). Number of ways of placing n identifiable nonnegative intervals with a total of exactly three starting and/or finishing points.",
   "id": "A059517",
   "mentions": [
     "A058809",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

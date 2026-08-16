@@ -2,6 +2,7 @@
   "description": "Numerator of Sum_{k=0..n} (-1)^k/(2*k+1).",
   "id": "A007509",
   "mentions": [
+    "A003881",
     "A024199",
     "A025547",
     "A142969",

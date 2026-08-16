@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into 5 distinct parts containing the part 5.",
+  "id": "A395222",
+  "mentions": [
+    "A275216",
+    "A343941",
+    "A394827",
+    "A396058"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

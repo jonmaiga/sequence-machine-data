@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) is the smallest integer so that a(n) > a(n-1) and a(n)^4+a(n-1)^4 is prime.",
+  "id": "A395028",
+  "mentions": [
+    "A002645",
+    "A073627",
+    "A080478",
+    "A155211",
+    "A158979",
+    "A396066"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

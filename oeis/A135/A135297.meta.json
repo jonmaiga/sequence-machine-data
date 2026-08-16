@@ -1,5 +1,5 @@
 {
-  "description": "Number of Riemann zeta function zeros on the critical line, less than n.",
+  "description": "a(n) = number of zeros of the Riemann zeta function on the critical line that are less than n.",
   "id": "A135297",
   "mentions": [
     "A002410",

@@ -1,0 +1,22 @@
+{
+  "description": "Consider the square spiral with its cells numbered starting at 0. Six players take turns and place knights at the smallest unoccupied cell not attacked by an existing knight of a different player. Sequence lists squares occupied by the third player.",
+  "id": "A396131",
+  "mentions": [
+    "A392177",
+    "A396129",
+    "A396130",
+    "A396132",
+    "A396133",
+    "A396134",
+    "A396135",
+    "A396166"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

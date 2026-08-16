@@ -1,0 +1,19 @@
+{
+  "description": "Number of directed self-avoiding paths in the n X n torus grid graph, reduced for symmetry (with rotations, reflections, and translations not counted as distinct).",
+  "id": "A396337",
+  "mentions": [
+    "A394066",
+    "A395462"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

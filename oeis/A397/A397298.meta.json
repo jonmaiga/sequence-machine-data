@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2-adic valuation of A085244(n).",
+  "id": "A397298",
+  "mentions": [
+    "A007814",
+    "A011371",
+    "A085244"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

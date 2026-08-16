@@ -2,7 +2,7 @@
   "description": "Largest number of maximal diamond-free node-induced subgraphs of an n-node graph.",
   "id": "A352216",
   "mentions": [
-    "A242790",
+    "A079573",
     "A342211"
   ],
   "tags": [
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

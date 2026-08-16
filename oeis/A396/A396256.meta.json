@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number k such that reverse(k)^i <= reverse(k^i), for i=1..n, but not for i=n+1, or -1 if no such number exists.",
+  "id": "A396256",
+  "mentions": [
+    "A004086"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

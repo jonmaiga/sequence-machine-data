@@ -2,7 +2,9 @@
   "description": "Number of ternary words of length n (beginning with 0) with autocorrelation function 2^(n-1).",
   "id": "A045694",
   "mentions": [
-    "A019308"
+    "A019308",
+    "A045690",
+    "A094547"
   ],
   "tags": [
     "easy",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

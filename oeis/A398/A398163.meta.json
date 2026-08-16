@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that neither k nor k+1 has an exponent that equals 2 in their prime factorization.",
+  "id": "A398163",
+  "mentions": [
+    "A007674",
+    "A337050",
+    "A340152",
+    "A367695",
+    "A372690",
+    "A391396",
+    "A398161",
+    "A398162",
+    "A398164",
+    "A398165",
+    "A398166",
+    "A398167",
+    "A398168",
+    "A398169",
+    "A398170"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

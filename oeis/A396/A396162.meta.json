@@ -1,0 +1,18 @@
+{
+  "description": "First column of the triangular array with T(0, m) = m^m and T(n, m) = T(n - 1, m + 3) - 2*T(n - 1, m + 2) + T(n - 1, m + 1).",
+  "id": "A396162",
+  "mentions": [
+    "A000312",
+    "A069856",
+    "A395764"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Minimum transmission of a connected quartic graph on n vertices.",
+  "id": "A395988",
+  "mentions": [
+    "A395986",
+    "A395987",
+    "A395989"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

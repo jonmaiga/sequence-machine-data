@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that two consecutive terms have no nonzero digits together at the same position.",
+  "id": "A398043",
+  "mentions": [
+    "A109812",
+    "A252022",
+    "A344511",
+    "A398044"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

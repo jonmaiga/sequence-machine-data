@@ -1,5 +1,5 @@
 {
-  "description": "Least edge-length of a square dissectable into at least n squares in the Mrs. Perkins's quilt problem.",
+  "description": "Least edge-length of a square dissectible into at least n squares in the Mrs. Perkins's quilt problem.",
   "id": "A089046",
   "mentions": [
     "A005670",

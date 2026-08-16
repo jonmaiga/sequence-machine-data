@@ -1,5 +1,5 @@
 {
-  "description": "Largest denominator of greedy Egyptian fraction sum for M/N.",
+  "description": "Largest denominator of greedy Egyptian fraction sum for m/n, 1 <= m <= n-1.",
   "id": "A100140",
   "mentions": [
     "A050210",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 38,
+    "size": 40,
     "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,12 @@
 {
-  "description": "Expansion of (1+5*x)/(1-13*x+10*x^2).",
+  "description": "Expansion of (1 + 5*x)/(1 - 13*x + 10*x^2).",
   "id": "A155049",
-  "mentions": [],
+  "mentions": [
+    "A153709",
+    "A155073",
+    "A156341",
+    "A275905"
+  ],
   "tags": [
     "easy",
     "formulas",

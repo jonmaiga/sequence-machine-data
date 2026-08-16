@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of coefficients T(n,k) of x^n*y^k in g.f. A(x,y) satisfying y^(n-1) = Sum_{k=0..n-1} [x^k] A(x/n, y)^n for n >= 1 with T(0,0) = 1, read by rows n >= 0 as k = 0..n.",
+  "id": "A397590",
+  "mentions": [
+    "A180747",
+    "A375457",
+    "A397591",
+    "A397592",
+    "A397593",
+    "A397594",
+    "A397595",
+    "A397596"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

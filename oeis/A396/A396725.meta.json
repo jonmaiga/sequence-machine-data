@@ -1,0 +1,17 @@
+{
+  "description": "Fill the square spiral the greedy way with distinct nonnegative integers such that not two points of the form (x, y, z) where 2^z appears in the binary expansion of the value at cell (x, y) are a knight's move apart.",
+  "id": "A396725",
+  "mentions": [
+    "A394166",
+    "A396603"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

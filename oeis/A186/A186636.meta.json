@@ -1,9 +1,12 @@
 {
-  "description": "a(n) = n*(n^3+n^2+2*n+1).",
+  "description": "a(n) = n*(n^3 + n^2 + 2*n + 1).",
   "id": "A186636",
-  "mentions": [],
+  "mentions": [
+    "A100705"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

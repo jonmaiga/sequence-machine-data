@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p such that there are exactly n numbers k with p^2 = A075254(k).",
+  "id": "A395809",
+  "mentions": [
+    "A001414",
+    "A075254",
+    "A396408",
+    "A396455"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

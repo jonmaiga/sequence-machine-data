@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} (p*log(p) - (p-1)*log(p-1))/(p^2-1).",
+  "id": "A396759",
+  "mentions": [
+    "A085541",
+    "A085548",
+    "A397097"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

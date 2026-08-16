@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2*asinh(2) + 2*asinh(1/2) + (1 - sqrt(5))/2.",
+  "id": "A395610",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A094214",
+    "A182999",
+    "A202543",
+    "A336275"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "joeis"
+  }
+}

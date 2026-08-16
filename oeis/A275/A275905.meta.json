@@ -1,7 +1,11 @@
 {
   "description": "Expansion of (1-x-2*x^2) / (1-6*x+3*x^2-2*x^3).",
   "id": "A275905",
-  "mentions": [],
+  "mentions": [
+    "A155049",
+    "A275903",
+    "A275906"
+  ],
   "tags": [
     "easy",
     "formulas",

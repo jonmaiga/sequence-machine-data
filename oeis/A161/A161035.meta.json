@@ -1,7 +1,9 @@
 {
   "description": "Number of partitions of n into Fibonacci numbers where every part appears at least 11 times.",
   "id": "A161035",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "nonn"
   ],

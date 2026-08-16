@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k >= 2 not expressible as (x*y + gcd(x-1,y-1) + 1)/2 with x, y >= 3.",
+  "id": "A394343",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A016933",
+    "A049727"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

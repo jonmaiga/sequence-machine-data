@@ -1,0 +1,20 @@
+{
+  "description": "Consider the square spiral in a single quadrant with its cells numbered starting at 0. Three players take turns and place black knights(K), cyan antelopes(A), and red ferzes(F), respectively, at the smallest unoccupied cell not attacked by an existing pieces of a different color. Sequence lists squares occupied by a cyan antelope.",
+  "id": "A396462",
+  "mentions": [
+    "A392177",
+    "A392182",
+    "A392183",
+    "A396461",
+    "A396463",
+    "A396465"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

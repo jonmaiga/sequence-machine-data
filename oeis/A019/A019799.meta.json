@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of sqrt(2*e)/3.",
   "id": "A019799",
-  "mentions": [],
+  "mentions": [
+    "A019798"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

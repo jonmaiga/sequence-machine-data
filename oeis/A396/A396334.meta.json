@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers that are palindromes in both binary and balanced ternary.",
+  "id": "A396334",
+  "mentions": [
+    "A006995",
+    "A134027"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

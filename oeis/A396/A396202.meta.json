@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (7 - sqrt(5)) / (7 + sqrt(5)).",
+  "id": "A396202",
+  "mentions": [
+    "A001622",
+    "A374883",
+    "A395973",
+    "A396201"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

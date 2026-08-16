@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of sqrt(Pi)/22.",
   "id": "A019724",
-  "mentions": [],
+  "mentions": [
+    "A002161"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

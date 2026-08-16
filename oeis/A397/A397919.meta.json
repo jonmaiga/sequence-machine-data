@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of binomial(9, 9/2).",
+  "id": "A397919",
+  "mentions": [
+    "A088538",
+    "A318910",
+    "A395953",
+    "A396990",
+    "A397918"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 89,
+    "source": "joeis"
+  }
+}

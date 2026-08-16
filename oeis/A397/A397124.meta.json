@@ -1,0 +1,18 @@
+{
+  "description": "Number of placements of n queens on distinct squares of an n X n board that leave the maximum number of unattacked vacant squares, with rotations and reflections counted as distinct.",
+  "id": "A397124",
+  "mentions": [
+    "A001366",
+    "A019317"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of primes q < p = prime(n) such that (p + q)/4 is prime.",
+  "id": "A397208",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002144",
+    "A002145",
+    "A038698",
+    "A045917",
+    "A098428",
+    "A191473",
+    "A339414",
+    "A397209"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

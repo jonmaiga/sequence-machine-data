@@ -1,0 +1,18 @@
+{
+  "description": "Number of integers of the form r^k (0 < r < n, k > 0) whose base-n alternating digital root is r and whose number of base-n digits is k.",
+  "id": "A397878",
+  "mentions": [
+    "A010880",
+    "A394570",
+    "A396781"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "joeis"
+  }
+}

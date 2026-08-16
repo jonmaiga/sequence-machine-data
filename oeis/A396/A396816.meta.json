@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the maximum size of a subset of the cyclic group Z/nZ that can be partitioned into three sum-free sets.",
+  "id": "A396816",
+  "mentions": [
+    "A211316",
+    "A396815"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

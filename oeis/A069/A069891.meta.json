@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=1..n} A007913(k), the squarefree part of k.",
   "id": "A069891",
   "mentions": [
+    "A005117",
     "A007913",
     "A046970",
     "A069087"

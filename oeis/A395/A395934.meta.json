@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{r in Z} 1/|r*(r+1)| where r runs over the nontrivial zeros Z of the Riemann zeta function.",
+  "id": "A395934",
+  "mentions": [
+    "A000793",
+    "A001620",
+    "A074760",
+    "A082633",
+    "A195423",
+    "A233825",
+    "A245275",
+    "A245276",
+    "A396146"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

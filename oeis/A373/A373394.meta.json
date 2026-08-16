@@ -2,6 +2,7 @@
   "description": "Number of minimum connected dominating sets in the n X n queen graph.",
   "id": "A373394",
   "mentions": [
+    "A289185",
     "A358062",
     "A381091"
   ],

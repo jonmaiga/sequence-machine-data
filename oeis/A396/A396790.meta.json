@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n, k) = least hypotenuse z of a primitive Pythagorean triple whose legs are multiples p*x and q*y, where p = prime(n), q = prime(k), 1 <= k < n.",
+  "id": "A396790",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001221",
+    "A020882",
+    "A046086",
+    "A046087",
+    "A066885",
+    "A216244",
+    "A245908",
+    "A370760",
+    "A396789"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

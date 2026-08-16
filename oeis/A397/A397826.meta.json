@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is the smallest unused number greater than 2 placed on a hexagon spiral that is coprime with any earlier term that is adjacent to it on the spiral.",
+  "id": "A397826",
+  "mentions": [
+    "A257339",
+    "A363938",
+    "A396357"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of undirected self-avoiding cycles in the n X n torus grid graph, reduced for symmetry (with rotations, reflections, and translations not counted as distinct).",
+  "id": "A397016",
+  "mentions": [
+    "A394067",
+    "A395462",
+    "A396483",
+    "A397017"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

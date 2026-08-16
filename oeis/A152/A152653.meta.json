@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = (n-1)! * Product_{k=1..n-2} (n-k)!.",
+  "description": "a(n) = (n-1)! * Product_{k=1..n-1} k!.",
   "id": "A152653",
   "mentions": [
+    "A000142",
     "A000178"
   ],
   "tags": [

@@ -1,0 +1,15 @@
+{
+  "description": "Number of non-isomorphic nilpotent Lie algebras of dimension n over GF(2).",
+  "id": "A393578",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

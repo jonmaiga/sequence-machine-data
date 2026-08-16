@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime beginning a pair of consecutive primes with the same number of digits and a digit dot product equal to prime(n), n>=3, or -1 if none exists.",
+  "id": "A395400",
+  "mentions": [
+    "A000040",
+    "A033994",
+    "A151800",
+    "A337574",
+    "A395346"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

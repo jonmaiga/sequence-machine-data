@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k)/(k+1)!, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A395407",
+  "mentions": [
+    "A001008",
+    "A001113",
+    "A001620",
+    "A002805",
+    "A073003",
+    "A091725",
+    "A099285",
+    "A229837",
+    "A347952"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

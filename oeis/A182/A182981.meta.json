@@ -1,5 +1,5 @@
 {
-  "description": "Number of grid point that are covered at the n-th stage of the cellular automata which is a version \"forest\" of the shell model of partitions, with a(0)=1. The outers shells are represented as trees.",
+  "description": "Number of grid point that are covered at the n-th stage of the cellular automata which is a version \"forest\" of the modular table of partitions, with a(0)=1. The outers shells are represented as trees.",
   "id": "A182981",
   "mentions": [
     "A135010",

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of terms in the lexicographically earliest sequence of distinct integers greater than 1 that are coprime to half the product of the first n primes and whose reciprocals sum to 1, or a(n) = -1 if no such finite sequence exists.",
+  "id": "A397799",
+  "mentions": [
+    "A001651",
+    "A070826",
+    "A130738",
+    "A229829",
+    "A236206",
+    "A397798"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

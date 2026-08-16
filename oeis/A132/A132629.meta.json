@@ -1,8 +1,10 @@
 {
-  "description": "Sigma(n)/Sum_digits(n) for n such that sigma(n) is divisible by Sum_digits(n).",
+  "description": "Number sigma(k)/digsum(k) for n such that sigma(k) is divisible by digsum(k).",
   "id": "A132629",
   "mentions": [
+    "A000203",
     "A007691",
+    "A007953",
     "A054030",
     "A132628"
   ],
@@ -11,7 +13,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 58,
     "source": "oeis-entry"
   }

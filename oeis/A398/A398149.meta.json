@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive number on a square spiral such the resulting sums of the numbers in each row and column is distinct.",
+  "id": "A398149",
+  "mentions": [
+    "A355270",
+    "A355271",
+    "A357991",
+    "A361724"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,15 +2,17 @@
   "description": "Number of (n+2) X 3 binary arrays avoiding patterns 001 and 011 in rows and columns.",
   "id": "A202093",
   "mentions": [
+    "A202099",
     "A202100"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 37,
     "source": "joeis"
   }
 }

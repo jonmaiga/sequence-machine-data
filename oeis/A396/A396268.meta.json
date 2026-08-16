@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least prime p such that, if q is the next prime after p, (p mod n) > (q mod n) while (p mod k) <= (q mod k) for all k < n, or -1 of there is no such p.",
+  "id": "A396268",
+  "mentions": [
+    "A121889"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

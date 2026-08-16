@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of zeta(n) in the linear equality by Plouffe for the odd values of the Riemann zeta function.",
+  "id": "A395662",
+  "mentions": [
+    "A057867",
+    "A394977",
+    "A395663",
+    "A395748",
+    "A396050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

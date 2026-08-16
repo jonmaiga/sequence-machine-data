@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..n arrays with every repeated value in every row and column equal to the previous repeated value, and new values introduced in row-major sequential order.",
+  "description": "Number of 3 X n 0..n arrays with every repeated value in every row and column equal to the previous repeated value, and new values introduced in row-major sequential order.",
   "id": "A268006",
   "mentions": [
     "A268003"

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of ballot sequences of length n whose sum of positions of descents is k.",
+  "id": "A393114",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A000219",
+    "A007042",
+    "A091298",
+    "A238121",
+    "A238122",
+    "A392995"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

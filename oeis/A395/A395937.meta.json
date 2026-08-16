@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the expected distance between two points independently and uniformly selected at random one on each of two opposite faces of a unit cube.",
+  "id": "A395937",
+  "mentions": [
+    "A019696",
+    "A073012",
+    "A091648",
+    "A093066",
+    "A247674",
+    "A395938",
+    "A395939"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

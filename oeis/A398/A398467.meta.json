@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + Omega(k)^8.",
+  "id": "A398467",
+  "mentions": [
+    "A001222",
+    "A244963",
+    "A397843",
+    "A398159",
+    "A398160",
+    "A398401"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest number k such that k^n is the sum of n^2 distinct positive n-th powers.",
+  "id": "A396536",
+  "mentions": [
+    "A000217",
+    "A007666",
+    "A018935",
+    "A130012",
+    "A130022",
+    "A393280",
+    "A394259",
+    "A394979",
+    "A395180",
+    "A395432",
+    "A395519"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

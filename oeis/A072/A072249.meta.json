@@ -1,8 +1,9 @@
 {
-  "description": "Related to lollipop graphs.",
+  "description": "a(n) is the least k such that for every m >= k, the characteristic set of the lollipop graph C_{m,n} is the central edge of its pendant path.",
   "id": "A072249",
   "mentions": [],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest index t such that the binary expansions of A394166(t) and A394166(t+1) both end in at least n zeros.",
+  "id": "A396194",
+  "mentions": [
+    "A394166",
+    "A396188",
+    "A396192",
+    "A396195",
+    "A396484"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

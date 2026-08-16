@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the greatest prime dividing arithmetic derivative of k is not larger than the greatest prime dividing k.",
+  "id": "A395045",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A006530",
+    "A395042",
+    "A395043",
+    "A395044",
+    "A395055"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

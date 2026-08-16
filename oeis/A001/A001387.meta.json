@@ -1,5 +1,5 @@
 {
-  "description": "The binary \"look and say\" sequence.",
+  "description": "Binary \"look and say\" sequence.",
   "id": "A001387",
   "mentions": [
     "A001391",

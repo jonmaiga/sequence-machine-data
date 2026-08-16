@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the relative increase at positions k given by A395753, where A000793(k)/A000793(k-1)-1 reaches a new minimum > 0.",
+  "id": "A395751",
+  "mentions": [
+    "A000793",
+    "A395752",
+    "A395753"
+  ],
+  "tags": [
+    "frac",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

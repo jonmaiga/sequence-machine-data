@@ -1,16 +1,27 @@
 {
-  "description": "a(n) = Sum_{ d divides n } tau(gcd(d,n/d)), where tau = sigma_0 = A000005.",
+  "description": "a(n) = Sum_{d|n} tau(gcd(d,n/d)), where tau = sigma_0 = A000005.",
   "id": "A124315",
   "mentions": [
     "A000005",
     "A001616",
     "A001620",
+    "A007425",
+    "A008836",
+    "A008966",
+    "A010052",
+    "A034444",
+    "A035116",
     "A046951",
     "A061884",
     "A124316",
-    "A306016"
+    "A306016",
+    "A329484",
+    "A369308",
+    "A383795",
+    "A388067"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

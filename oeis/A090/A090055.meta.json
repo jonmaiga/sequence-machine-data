@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n divisible by at least one nontrivial permutation (rearrangement) of the digits of n.",
+  "description": "Numbers k divisible by at least one nontrivial permutation (rearrangement) of the digits of k.",
   "id": "A090055",
   "mentions": [
     "A031877",
@@ -13,6 +13,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

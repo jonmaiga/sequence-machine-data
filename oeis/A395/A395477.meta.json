@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest semiprime that can be partitioned in exactly n unique ways into two coprime semiprimes.",
+  "id": "A395477",
+  "mentions": [
+    "A001358",
+    "A088183"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

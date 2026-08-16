@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form 2^n*p where p is a prime > 2^n.",
+  "description": "Integers of the form 2^k*p where p is a prime > 2^k.",
   "id": "A085681",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

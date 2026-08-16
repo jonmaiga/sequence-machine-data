@@ -1,5 +1,5 @@
 {
-  "description": "Total sum of the smallest part of every partition of every shell of n.",
+  "description": "Total sum of the smallest part of every partition of every section of the modular table of partitions of n.",
   "id": "A196039",
   "mentions": [
     "A026905",

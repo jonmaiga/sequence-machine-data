@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n^8 + 60*n^7 + 1490*n^6 + 19800*n^5 + 151761*n^4 + 671580*n^3 + 1609180*n^2 + 1741200*n + 448448.",
+  "id": "A395903",
+  "mentions": [
+    "A010969",
+    "A346376"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

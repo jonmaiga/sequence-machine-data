@@ -1,7 +1,8 @@
 {
-  "description": "C(2n-1,n-1) mod n^4.",
+  "description": "a(n) = C(2n-1,n-1) mod n^4.",
   "id": "A099908",
   "mentions": [
+    "A000583",
     "A088164",
     "A088218",
     "A099905",
@@ -9,11 +10,12 @@
     "A099907"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

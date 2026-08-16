@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Gamma(5/3)/(3*Pi/2)^(1/3).",
+  "id": "A397855",
+  "mentions": [
+    "A197723",
+    "A203129",
+    "A397856"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

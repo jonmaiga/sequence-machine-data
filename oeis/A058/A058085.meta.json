@@ -1,15 +1,16 @@
 {
-  "description": "Coefficients of ménage hit polynomials.",
+  "description": "a(n) = A058057(n,n-5).",
   "id": "A058085",
   "mentions": [
     "A058057"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 5,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

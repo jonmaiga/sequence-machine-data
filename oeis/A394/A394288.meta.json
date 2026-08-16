@@ -1,0 +1,18 @@
+{
+  "description": "Values taken by the analog of Euler's totient function for Gaussian integers.",
+  "id": "A394288",
+  "mentions": [
+    "A002202",
+    "A007434",
+    "A079458",
+    "A391110"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

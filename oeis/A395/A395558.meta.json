@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form (x^2 + y^2 + z^2) / (x*y - x*z + y*z) with integer x, y, z.",
+  "id": "A395558",
+  "mentions": [
+    "A000040",
+    "A392201"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

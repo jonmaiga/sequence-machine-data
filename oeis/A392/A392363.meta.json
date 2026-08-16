@@ -1,0 +1,20 @@
+{
+  "description": "Smallest connected polyiamond containing all free n-iamonds under rigid motions of the triangular lattice.",
+  "id": "A392363",
+  "mentions": [
+    "A000577",
+    "A327094",
+    "A352029",
+    "A394840"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

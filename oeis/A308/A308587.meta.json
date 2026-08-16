@@ -1,7 +1,11 @@
 {
   "description": "Number of maximum matchings in the n X n antelope graph.",
   "id": "A308587",
-  "mentions": [],
+  "mentions": [
+    "A285997",
+    "A286040",
+    "A321583"
+  ],
   "tags": [
     "more",
     "nonn"

@@ -1,7 +1,8 @@
 {
-  "description": "Number of strictly increasing Boolean functions of n variables.",
+  "description": "Number of strictly increasing Boolean functions of n variables with n outputs.",
   "id": "A198893",
   "mentions": [
+    "A014466",
     "A198894"
   ],
   "tags": [

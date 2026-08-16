@@ -1,0 +1,18 @@
+{
+  "description": "Lower (-1,2) midsequence of (floor[n/2]^2) and (ceiling[n/2]^2); see Comments.",
+  "id": "A397268",
+  "mentions": [
+    "A389123",
+    "A397110"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

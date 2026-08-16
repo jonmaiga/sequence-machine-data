@@ -1,0 +1,19 @@
+{
+  "description": "Number of sets S of nonempty ternary words with n total letters such that no words in S share letters.",
+  "id": "A394096",
+  "mentions": [
+    "A000244",
+    "A102866",
+    "A292805"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

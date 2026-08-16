@@ -1,0 +1,20 @@
+{
+  "description": "Number of strict integer partitions of 2*n with reverse-alternating sum -8.",
+  "id": "A396145",
+  "mentions": [
+    "A008637",
+    "A026814",
+    "A275216",
+    "A396075",
+    "A396143"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

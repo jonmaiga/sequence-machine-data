@@ -2,9 +2,12 @@
   "description": "Theta series of A15 packing with respect to origin.",
   "id": "A063863",
   "mentions": [
+    "A004013",
+    "A045831",
     "A063864"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

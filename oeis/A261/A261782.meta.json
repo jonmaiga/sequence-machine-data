@@ -2,8 +2,10 @@
   "description": "Powers C^z = A^x + B^y with positive integers A,B,C,x,y,z such that x,y,z > 2.",
   "id": "A261782",
   "mentions": [
+    "A001235",
     "A076467",
-    "A245713"
+    "A245713",
+    "A396775"
   ],
   "tags": [
     "nonn"

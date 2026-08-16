@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of pairwise incongruent triangles with distinct integer sides and positive integer area and longest side of length n.",
+  "id": "A395186",
+  "mentions": [
+    "A054875"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

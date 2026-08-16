@@ -2,7 +2,9 @@
   "description": "Decimal expansion of tangent of 42 degrees.",
   "id": "A019940",
   "mentions": [
-    "A019851"
+    "A019851",
+    "A019857",
+    "A019946"
   ],
   "tags": [
     "cons",

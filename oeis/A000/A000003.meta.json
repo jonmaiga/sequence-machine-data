@@ -2,8 +2,11 @@
   "description": "Number of classes of primitive positive definite binary quadratic forms of discriminant D = -4n; or equivalently the class number of the quadratic order of discriminant D = -4n.",
   "id": "A000003",
   "mentions": [
+    "A006374",
     "A006643",
-    "A014599"
+    "A014599",
+    "A014600",
+    "A096445"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,18 @@
+{
+  "description": "Largest prime of the form x*y + x*z + x*t + y*z + y*t + z*t for integers 0 <= x <= y <= z <= t <= n.",
+  "id": "A395568",
+  "mentions": [
+    "A000040",
+    "A382407",
+    "A394353"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

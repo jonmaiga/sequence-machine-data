@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of [n] such that |p(i+1)-p(i)| <> 3 for all 1 <= i < n.",
+  "id": "A398599",
+  "mentions": [
+    "A002464",
+    "A277609",
+    "A395335",
+    "A398600",
+    "A398601"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

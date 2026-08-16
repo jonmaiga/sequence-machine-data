@@ -1,0 +1,24 @@
+{
+  "description": "Number of positive integers <= n with exactly two odd divisors.",
+  "id": "A394789",
+  "mentions": [
+    "A001227",
+    "A038547",
+    "A070939",
+    "A237593",
+    "A279387",
+    "A286000",
+    "A286001",
+    "A299765",
+    "A394053"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

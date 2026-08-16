@@ -1,0 +1,15 @@
+{
+  "description": "Number of axially symmetric tilings of an L-tromino of order n by elementary L-trominoes.",
+  "id": "A395580",
+  "mentions": [
+    "A396671"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

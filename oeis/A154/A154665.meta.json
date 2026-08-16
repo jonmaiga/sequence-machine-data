@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!^2-+8663 are primes.",
+  "description": "Numbers k such that k!^2 + 8663 and abs(k!^2 - 8663) are primes.",
   "id": "A154665",
   "mentions": [
     "A144046",
@@ -10,7 +10,8 @@
     "A154664"
   ],
   "tags": [
-    "more",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

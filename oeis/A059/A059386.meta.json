@@ -1,8 +1,12 @@
 {
   "description": "Expansion of e.g.f. cosh(cosh(x)-1) (even powers only).",
   "id": "A059386",
-  "mentions": [],
+  "mentions": [
+    "A185951",
+    "A192060"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

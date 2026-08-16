@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (97 + 52*sqrt(2))/2304.",
+  "id": "A396661",
+  "mentions": [
+    "A093582",
+    "A093587",
+    "A394834",
+    "A394835",
+    "A396660",
+    "A396662",
+    "A396663"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

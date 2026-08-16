@@ -2,6 +2,7 @@
   "description": "Numbers k such that k concatenated with k-8 gives the product of two numbers which differ by 2.",
   "id": "A116102",
   "mentions": [
+    "A115434",
     "A116095",
     "A116101",
     "A116103",

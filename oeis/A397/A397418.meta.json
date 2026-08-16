@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive powerful numbers such that gcd(a(n), a(n-1)) > 1 for n >= 2.",
+  "id": "A397418",
+  "mentions": [
+    "A001694",
+    "A064413",
+    "A100113"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

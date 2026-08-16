@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (1+sqrt(1+r))/r, where r=sqrt(2).",
+  "description": "Decimal expansion of (1+sqrt(1+r))/r, where r = sqrt(2).",
   "id": "A190281",
   "mentions": [
     "A188635",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

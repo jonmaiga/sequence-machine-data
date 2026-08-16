@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sigma(n) - usigma(n) + tau(rad(n)).",
+  "id": "A395435",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007947",
+    "A034444",
+    "A034448"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

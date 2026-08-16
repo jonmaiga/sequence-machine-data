@@ -1,0 +1,18 @@
+{
+  "description": "Consider the Hilbert curve with its cells numbered starting at 0. Two players take turns and place knights at the smallest unoccupied cell not attacked by an existing knight of the other player. Sequence lists unoccupied cels.",
+  "id": "A397054",
+  "mentions": [
+    "A392177",
+    "A397052",
+    "A397053",
+    "A397055"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

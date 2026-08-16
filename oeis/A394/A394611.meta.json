@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0. For n > 1, a(n) is the number of ways to write a(n-1) as the sum of two previous terms with distinct positions in the sequence.",
+  "id": "A394611",
+  "mentions": [
+    "A393702",
+    "A395907",
+    "A397173",
+    "A397180",
+    "A397471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

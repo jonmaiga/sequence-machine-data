@@ -1,0 +1,18 @@
+{
+  "description": "L.g.f. Sum_{n>=1} a(n)*x^n/n = log(1+x + Sum_{n>=2} 2*n/(2*n^2-1) * a(n)*x^n ).",
+  "id": "A397347",
+  "mentions": [
+    "A396846",
+    "A397346",
+    "A397349"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

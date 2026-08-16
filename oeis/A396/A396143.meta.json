@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) is the number of strict integer partitions of 2*n with reverse-alternating sum -2*k.",
+  "id": "A396143",
+  "mentions": [
+    "A008284",
+    "A079126",
+    "A152146",
+    "A344649",
+    "A396144",
+    "A396145"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

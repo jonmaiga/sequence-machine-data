@@ -1,0 +1,20 @@
+{
+  "description": "Primes p for which pi_{24;7,13}(p) - pi_{24;1,19}(p) = -1, where pi_{m;a,b,...}(x) is the number of primes <= x which are congruent to a or b or ... (mod m).",
+  "id": "A398235",
+  "mentions": [
+    "A295354",
+    "A297355",
+    "A297357",
+    "A297448",
+    "A398234",
+    "A398236"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

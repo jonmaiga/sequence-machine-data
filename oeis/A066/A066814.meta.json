@@ -2,17 +2,19 @@
   "description": "Smallest prime p such that (p-1) has n divisors, or 0 if no such prime exists.",
   "id": "A066814",
   "mentions": [
+    "A000005",
     "A004249",
     "A007516",
     "A019434",
-    "A066529"
+    "A066529",
+    "A072275"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

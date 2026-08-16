@@ -1,0 +1,20 @@
+{
+  "description": "Residues of decimal digits mod 3, with 0 represented by 3.",
+  "id": "A397694",
+  "mentions": [
+    "A007932",
+    "A010882",
+    "A397643",
+    "A397644"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

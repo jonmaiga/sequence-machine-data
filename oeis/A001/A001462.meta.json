@@ -1,5 +1,5 @@
 {
-  "description": "Golomb's sequence: a(n) is the number of times n occurs, starting with a(1) = 1.",
+  "description": "Golomb's sequence: a(n) is the number of times n occurs in the sequence, starting with a(1) = 1.",
   "id": "A001462",
   "mentions": [
     "A000002",

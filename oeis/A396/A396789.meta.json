@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n, k) = minimal product x*y over primitive Pythagorean triples whose legs are p*x and q*y, where p = prime(n), q = prime(k), and 1 <= k < n.",
+  "id": "A396789",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001221",
+    "A008594",
+    "A020882",
+    "A024701",
+    "A046086",
+    "A046087",
+    "A084922",
+    "A245908",
+    "A370760",
+    "A396790"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

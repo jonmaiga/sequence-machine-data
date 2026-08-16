@@ -1,5 +1,5 @@
 {
-  "description": "Number of maximal subsets of [n] avoiding 3-term arithmetic progressions and containing n if n>0.",
+  "description": "Number of maximum subsets of [n] avoiding 3-term arithmetic progressions and containing n if n>0.",
   "id": "A334894",
   "mentions": [
     "A003002",

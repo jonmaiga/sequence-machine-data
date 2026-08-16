@@ -1,11 +1,9 @@
 {
-  "description": "4-symbol substitution made from Fibonacci matrix by one level matrix self-similarity.",
+  "description": "1-limiting word of the morphism 1->4, 2->34, 3->24, 4->1234.",
   "id": "A107468",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

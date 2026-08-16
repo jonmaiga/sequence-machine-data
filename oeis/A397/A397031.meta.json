@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k) / (2*k+1)^5, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A397031",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002162",
+    "A002805",
+    "A013663",
+    "A013664",
+    "A397028",
+    "A397029",
+    "A397030",
+    "A397032"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

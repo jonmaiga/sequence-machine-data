@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime less than the n-th prime-complete number.",
+  "id": "A394258",
+  "mentions": [
+    "A055932",
+    "A151799",
+    "A377028",
+    "A396087"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "joeis"
+  }
+}

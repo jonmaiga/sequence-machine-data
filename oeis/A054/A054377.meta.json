@@ -1,5 +1,5 @@
 {
-  "description": "Primary pseudoperfect numbers: numbers n > 1 such that 1/n + sum 1/p = 1, where the sum is over the primes p | n.",
+  "description": "Primary pseudoperfect numbers: numbers k > 1 such that 1/k + sum 1/p = 1, where the sum is over the primes p | k.",
   "id": "A054377",
   "mentions": [
     "A005835",

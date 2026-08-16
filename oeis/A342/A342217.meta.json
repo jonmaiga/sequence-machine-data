@@ -1,5 +1,5 @@
 {
-  "description": "The n-th and a(n)-th points of the Hilbert's Hamiltonian walk (A059252, A059253) are symmetrical with respect to the line X=Y.",
+  "description": "The n-th and a(n)-th points of Hilbert's Hamiltonian walk (A059252, A059253) are symmetrical with respect to the line X=Y.",
   "id": "A342217",
   "mentions": [
     "A059252",

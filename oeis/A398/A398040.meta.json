@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = A(x^2) / (1-4*x), with A(0) = 1.",
+  "id": "A398040",
+  "mentions": [
+    "A018819",
+    "A309728",
+    "A398039"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

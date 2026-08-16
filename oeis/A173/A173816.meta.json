@@ -1,5 +1,5 @@
 {
-  "description": "The sum of the numbers in the n-th row of Gilbreath's triangle (A036262).",
+  "description": "The sum of the numbers in the n-th antidiagonal of Gilbreath's array (A036262).",
   "id": "A173816",
   "mentions": [
     "A036261",

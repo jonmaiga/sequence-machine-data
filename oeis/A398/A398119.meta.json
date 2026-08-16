@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of distinct cycles under iteration of x -> s(x^n) on the positive integers, where s is the decimal digit sum and fixed points are counted as cycles of length 1.",
+  "id": "A398119",
+  "mentions": [
+    "A004159",
+    "A007953",
+    "A046000",
+    "A046471",
+    "A056527",
+    "A056529",
+    "A061905",
+    "A152147",
+    "A398120",
+    "A398121"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 59,
+    "source": "joeis"
+  }
+}

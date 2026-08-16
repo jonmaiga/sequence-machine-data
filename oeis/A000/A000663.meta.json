@@ -1,15 +1,19 @@
 {
-  "description": "Number of relations on an infinite set.",
+  "description": "Number of binary relations on an infinite set, each with exactly n ordered pairs, up to isomorphism.",
   "id": "A000663",
-  "mentions": [],
+  "mentions": [
+    "A000595",
+    "A000664",
+    "A046858"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

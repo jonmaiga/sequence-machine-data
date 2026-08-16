@@ -2,9 +2,12 @@
   "description": "T(n,k) = number of n X k nonnegative integer arrays with new values 0 upwards introduced in row major order and every value unique in its row and column.",
   "id": "A211709",
   "mentions": [
-    "A144085"
+    "A000012",
+    "A144085",
+    "A211708"
   ],
   "tags": [
+    "more",
     "nonn",
     "tabl"
   ],

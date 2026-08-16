@@ -1,5 +1,5 @@
 {
-  "description": "T(n,[ n/2 ]), where T is defined in A026022.",
+  "description": "a(n) = A026022(n,floor(n/2)).",
   "id": "A026034",
   "mentions": [
     "A026022",
@@ -7,11 +7,13 @@
     "A026029"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 36,
     "source": "joeis"
   }
 }

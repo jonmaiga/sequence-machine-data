@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that there exists a subset S of {1,...,k} of size tau(k) = A000005(k) containing 1 and k whose mean of squares is a perfect square.",
+  "id": "A398391",
+  "mentions": [
+    "A000005",
+    "A002315",
+    "A088165",
+    "A140480"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p^2 = (a+b+c)*b + 1 for some primitive Pythagorean triple (a,b,c).",
+  "id": "A393809",
+  "mentions": [
+    "A395517"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

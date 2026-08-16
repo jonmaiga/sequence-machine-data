@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of the integral_{x=0..Pi} sin(sin(x)) dx.",
   "id": "A333566",
-  "mentions": [],
+  "mentions": [
+    "A397310"
+  ],
   "tags": [
     "cons",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,20 +1,21 @@
 {
-  "description": "a(n) = n^n-n^(n-1)-n^(n-2)-n^(n-3)-...-n^3-n^2-n.",
+  "description": "a(n) = n^n - n^(n-1) - n^(n-2) - n^(n-3) - ... - n^3 - n^2 - n.",
   "id": "A117667",
   "mentions": [
     "A000312",
     "A001923",
     "A023037",
     "A031972",
-    "A191690"
+    "A191690",
+    "A341331"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 17,
+    "offset": 0,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

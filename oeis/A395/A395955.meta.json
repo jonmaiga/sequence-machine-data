@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of the n-th moment of the probability distribution of distances from the center of a unit disk to a line passing through two points independently and uniformly selected at random in the disk.",
+  "id": "A395955",
+  "mentions": [
+    "A395953",
+    "A395954",
+    "A395956"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

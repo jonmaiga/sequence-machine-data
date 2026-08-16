@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the median of the probability distribution of areas of triangles formed by independently and uniformly selecting three points at random in the interior of a given triangle of unit area.",
+  "id": "A395526",
+  "mentions": [
+    "A103474",
+    "A103475",
+    "A130117",
+    "A130118",
+    "A395527"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

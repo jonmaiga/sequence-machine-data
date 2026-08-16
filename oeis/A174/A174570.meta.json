@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of squares of factorials of digits of n is a power of 2.",
+  "description": "Numbers k such that sum of squares of factorials of digits of k is a power of 2.",
   "id": "A174570",
   "mentions": [],
   "tags": [

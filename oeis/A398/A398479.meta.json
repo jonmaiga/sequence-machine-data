@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (2*n)^n * binomial(3*n, n) / (n + 1). Central terms of A398477.",
+  "id": "A398479",
+  "mentions": [
+    "A398477"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

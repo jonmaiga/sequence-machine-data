@@ -1,0 +1,17 @@
+{
+  "description": "Numerators of the likelihoods of the n-cocktail party graphs (equivalently, the n-ladder rung graphs).",
+  "id": "A394956",
+  "mentions": [
+    "A397599"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

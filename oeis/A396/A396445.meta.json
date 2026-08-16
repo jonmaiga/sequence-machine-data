@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(2*k)/k)*(5/6)^(2*k).",
+  "id": "A396445",
+  "mentions": [
+    "A002391",
+    "A016628",
+    "A019673",
+    "A053510",
+    "A396436",
+    "A396437",
+    "A396438",
+    "A396439",
+    "A396440",
+    "A396441",
+    "A396442",
+    "A396443",
+    "A396444"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

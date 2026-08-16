@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of n-digit terms in A397046.",
+  "id": "A397047",
+  "mentions": [
+    "A397046",
+    "A397051"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

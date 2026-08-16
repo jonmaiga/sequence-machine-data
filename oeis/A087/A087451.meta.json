@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (2-x)/((1+2x)(1-3x)); e.g.f.: exp(3x)+exp(-2x); a(n)=3^n+(-2)^n.",
+  "description": "G.f.: (2-x)/((1+2*x)*(1-3*x)); e.g.f.: exp(3*x) + exp(-2*x); a(n) = 3^n + (-2)^n.",
   "id": "A087451",
   "mentions": [
     "A014551",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
-    "source": "joeis"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

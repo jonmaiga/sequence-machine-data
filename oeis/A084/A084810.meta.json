@@ -1,5 +1,5 @@
 {
-  "description": "Least positive integers, all distinct, that satisfy sum(n>0,1/a(n)^z)=0, where z=1/2+I*sqrt(3).",
+  "description": "Least positive integers, all distinct, that satisfy Sum_{n>0} 1/a(n)^z = 0, where z=1/2+I*sqrt(3).",
   "id": "A084810",
   "mentions": [
     "A084799",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

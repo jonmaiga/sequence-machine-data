@@ -1,0 +1,20 @@
+{
+  "description": "Maximum size of a B_3 set in {0,1}^n, where vectors are added componentwise over the integers.",
+  "id": "A396704",
+  "mentions": [
+    "A002858",
+    "A309370",
+    "A385931"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

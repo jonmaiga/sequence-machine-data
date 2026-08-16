@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of the maximum expected number of steps of a knight's random walk on an infinite chessboard before it lands on a mined square, given that all but n squares are mined.",
+  "id": "A397796",
+  "mentions": [
+    "A366999",
+    "A397795"
+  ],
+  "tags": [
+    "frac",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

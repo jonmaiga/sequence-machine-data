@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of e.g.f. 1/sqrt((1-x^2)*(1-2*x)).",
+  "id": "A396146",
+  "mentions": [
+    "A395934"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

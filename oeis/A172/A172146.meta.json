@@ -1,16 +1,19 @@
 {
-  "description": "Primes of form x^y + y^x + 1.",
+  "description": "Primes of form x^y + y^x + 1 with x <= y < 50.",
   "id": "A172146",
   "mentions": [
     "A094133",
     "A172142"
   ],
   "tags": [
+    "fini",
+    "full",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

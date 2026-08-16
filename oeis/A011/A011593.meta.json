@@ -1,9 +1,21 @@
 {
   "description": "Legendre symbol (n,53).",
   "id": "A011593",
-  "mentions": [],
+  "mentions": [
+    "A011582",
+    "A011631",
+    "A038931",
+    "A038932",
+    "A080891",
+    "A102283",
+    "A165573",
+    "A165574",
+    "A175629",
+    "A191035"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "mult",
     "sign"
   ],

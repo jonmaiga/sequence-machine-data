@@ -2,7 +2,8 @@
   "description": "A000169 prefixed by an initial 0.",
   "id": "A152917",
   "mentions": [
-    "A000169"
+    "A000169",
+    "A398135"
   ],
   "tags": [
     "formulas",

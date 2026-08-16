@@ -1,5 +1,5 @@
 {
-  "description": "Let s(n) be the smallest number x such that the decimal representation of n appears as a substring of the decimal representations of the numbers [0...x] more than x times.",
+  "description": "a(n) is the smallest number x such that the decimal representation of n appears as a substring of the decimal representations of the numbers [0..x] more than x times.",
   "id": "A164321",
   "mentions": [
     "A092175",

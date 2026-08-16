@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the number Sum_{j>=1} p_j/10^j with p_j being the j-th prime.",
+  "id": "A395317",
+  "mentions": [
+    "A098990"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "a(n) is the least number such that the set {p_1,p_2,...,p_a(n)} contains all residues modulo p_n (where p_m is m-th prime).",
   "id": "A178215",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A340752"
   ],
   "tags": [
     "nonn"

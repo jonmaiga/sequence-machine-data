@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that the denominator of the poly-Bernoulli number B(2,n) equals 8p.",
+  "description": "Primes p such that the denominator of the poly-Bernoulli number B(2,p) equals 8p.",
   "id": "A099596",
   "mentions": [
     "A027644"

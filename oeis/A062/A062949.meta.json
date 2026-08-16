@@ -2,10 +2,12 @@
   "description": "Multiplicative with a(p^e) = ((e+1)*p^(e+1)-(e+2)*p^e+1)/(p-1).",
   "id": "A062949",
   "mentions": [
+    "A001620",
     "A029939",
     "A047994",
     "A057660",
-    "A062355"
+    "A062355",
+    "A065463"
   ],
   "tags": [
     "easy",

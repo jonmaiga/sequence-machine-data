@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} psi(k)/(k^2*(k+1)), where psi the Dedekind psi function (A001615).",
+  "id": "A398703",
+  "mentions": [
+    "A000203",
+    "A001615",
+    "A398700",
+    "A398701",
+    "A398702"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

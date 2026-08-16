@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 64^n * [z^n] 2F1(1/4, 1/4; 1; z)^4.",
+  "id": "A397472",
+  "mentions": [
+    "A002897",
+    "A395287",
+    "A397369"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

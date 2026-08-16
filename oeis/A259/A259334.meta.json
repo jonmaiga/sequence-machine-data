@@ -1,12 +1,19 @@
 {
-  "description": "Triangle read by rows: T(n,k) = k*(n-1)!*n^(n-k-1)/(n-k)!, 1 <= k <= n.",
+  "description": "Triangle read by rows: T(n, k) = k * (n - 1)! * n^(n - k - 1) / (n - k)!.",
   "id": "A259334",
   "mentions": [
     "A000142",
+    "A000169",
     "A000272",
     "A000435",
     "A001787",
-    "A089946"
+    "A001865",
+    "A066324",
+    "A089946",
+    "A122525",
+    "A185391",
+    "A201685",
+    "A394852"
   ],
   "tags": [
     "formulas",

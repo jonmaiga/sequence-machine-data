@@ -1,9 +1,25 @@
 {
-  "description": "T(n,k)=Hilltop maps: number of nXk binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, diagonal or antidiagonal neighbor in a random 0..1 nXk array.",
+  "description": "T(n,k) = number of n X k binary arrays with every 0 a horizontal, diagonal or antidiagonal neighbor to some 1, n >= 1, k >= 1, read by antidiagonals.",
   "id": "A219078",
   "mentions": [
+    "A000012",
     "A000213",
-    "A218348"
+    "A218348",
+    "A218354",
+    "A218638",
+    "A219063",
+    "A219072",
+    "A219073",
+    "A219074",
+    "A219075",
+    "A219076",
+    "A219077",
+    "A219079",
+    "A219080",
+    "A219081",
+    "A219082",
+    "A219083",
+    "A219084"
   ],
   "tags": [
     "nonn",

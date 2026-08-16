@@ -2,11 +2,14 @@
   "description": "a(n) = 4^(n^2).",
   "id": "A060757",
   "mentions": [
+    "A002416",
     "A060722",
+    "A060758",
     "A060761",
     "A118185"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

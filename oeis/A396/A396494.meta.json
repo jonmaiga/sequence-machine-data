@@ -1,0 +1,18 @@
+{
+  "description": "Number of sets S of nonempty strict integer partitions with total sum n such that all elements in S have pairwise disjoint sets of adjacent differences.",
+  "id": "A396494",
+  "mentions": [
+    "A000009",
+    "A050342",
+    "A294617",
+    "A360764"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

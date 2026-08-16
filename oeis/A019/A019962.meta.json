@@ -2,10 +2,12 @@
   "description": "Decimal expansion of tangent of 64 degrees.",
   "id": "A019962",
   "mentions": [
-    "A019874"
+    "A019874",
+    "A019924"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

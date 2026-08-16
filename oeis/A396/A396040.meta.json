@@ -1,0 +1,22 @@
+{
+  "description": "Minimum k such that k^10 can be expressed as the sum of n distinct positive 10th powers.",
+  "id": "A396040",
+  "mentions": [
+    "A018935",
+    "A130012",
+    "A130022",
+    "A393280",
+    "A394259",
+    "A394979",
+    "A395180",
+    "A395432"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 12,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

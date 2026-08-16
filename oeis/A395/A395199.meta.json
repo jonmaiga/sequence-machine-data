@@ -1,0 +1,17 @@
+{
+  "description": "Approximations up to 2^n for the 2-adic integer Product_{k>=1} (2^k-1)!!.",
+  "id": "A395199",
+  "mentions": [
+    "A069954",
+    "A178854"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

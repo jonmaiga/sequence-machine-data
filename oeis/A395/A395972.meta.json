@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 2^n * [x^k] hypergeom([-n, -n, 1], [1], x).",
+  "id": "A395972",
+  "mentions": [
+    "A000165",
+    "A002720",
+    "A129683",
+    "A395930"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

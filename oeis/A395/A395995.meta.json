@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number k in 1..n such that GCD(n,k) = 1 and the greedy Egyptian fraction representation of k/n has more terms than the shortest representation of k/n as a sum of unit fractions; or 0 if no such k exists.",
+  "id": "A395995",
+  "mentions": [
+    "A050205",
+    "A097847",
+    "A395994",
+    "A395996",
+    "A395997",
+    "A395998",
+    "A395999",
+    "A396000",
+    "A396001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

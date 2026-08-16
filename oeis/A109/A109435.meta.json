@@ -1,18 +1,22 @@
 {
-  "description": "Triangle read by rows: T(n,m) = number of binary numbers n digits long, which have m 0's as a substring.",
+  "description": "Triangle read by rows: T(n,m) = number of binary strings of length n, which have m 0's as a substring.",
   "id": "A109435",
   "mentions": [
     "A000079",
     "A000225",
     "A001792",
     "A008466",
+    "A048004",
     "A050227",
     "A050231",
     "A050232",
     "A050233",
     "A102712",
     "A109433",
-    "A109436"
+    "A109436",
+    "A143662",
+    "A151975",
+    "A396158"
   ],
   "tags": [
     "base",
@@ -22,7 +26,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 71,
-    "source": "joeis"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

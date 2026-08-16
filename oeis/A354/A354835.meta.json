@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the k-th and (k+1)st Stieltjes constants have opposite signs.",
+  "description": "Numbers k such that the k-th and (k+1)-th Stieltjes constants have opposite signs.",
   "id": "A354835",
   "mentions": [
     "A114523",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

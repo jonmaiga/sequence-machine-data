@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (m*p)^2 + 1 where p = A002496(n) is the n-th prime of the form m^2 + 1.",
+  "id": "A394683",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A030199",
+    "A078429",
+    "A100104",
+    "A382617"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

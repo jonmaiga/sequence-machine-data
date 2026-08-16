@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. cos(2x) cos(3x) / cos(6x) (even powers only).",
+  "description": "Expansion of e.g.f. cos(2*x) cos(3*x) / cos(6*x) (even powers only).",
   "id": "A352977",
   "mentions": [
     "A000192",

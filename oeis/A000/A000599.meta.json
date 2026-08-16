@@ -4,7 +4,9 @@
   "mentions": [
     "A000598",
     "A000600",
-    "A000602"
+    "A000602",
+    "A000633",
+    "A036670"
   ],
   "tags": [
     "easy",
@@ -12,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 31,
-    "source": "joeis"
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Shortest path indices during walk over Archimedean spiral lattice with divergence angle equal to golden angle and starting at the center.",
+  "id": "A397408",
+  "mentions": [
+    "A000045",
+    "A000796",
+    "A001622",
+    "A131988",
+    "A396911"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

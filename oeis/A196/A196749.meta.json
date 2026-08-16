@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3, 5 and 7 do not divide swing(n) = A056040(n).",
+  "description": "Numbers k such that 3, 5 and 7 do not divide swing(k) = A056040(k).",
   "id": "A196749",
   "mentions": [
     "A005836",
@@ -12,12 +12,12 @@
     "A196750"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

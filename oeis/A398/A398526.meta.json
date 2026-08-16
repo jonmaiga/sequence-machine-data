@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A212793(floor(n/k)).",
+  "id": "A398526",
+  "mentions": [
+    "A004709",
+    "A212793",
+    "A398524",
+    "A398527"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "C(1+2*n,1+n)*C(6+2*n,0+n).",
+  "description": "a(n) = C(2*n+1,n+1)*C(2*n+6,n).",
   "id": "A114201",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

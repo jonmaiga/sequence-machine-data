@@ -1,0 +1,17 @@
+{
+  "description": "n-th prime greater than 10^n.",
+  "id": "A396106",
+  "mentions": [
+    "A069100",
+    "A151799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

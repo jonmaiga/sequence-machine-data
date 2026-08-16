@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) is the number of derangements of [n] with k ascents; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A395497",
+  "mentions": [
+    "A000166",
+    "A059841",
+    "A091919",
+    "A219836",
+    "A395498",
+    "A395499",
+    "A395500"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

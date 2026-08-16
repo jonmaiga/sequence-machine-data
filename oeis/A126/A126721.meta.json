@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that q-p = 40, where q is the next prime after p.",
   "id": "A126721",
-  "mentions": [],
+  "mentions": [
+    "A134120"
+  ],
   "tags": [
     "nonn"
   ],

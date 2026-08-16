@@ -1,0 +1,28 @@
+{
+  "description": "Product of the sum of divisors of n with the exponent of the highest power of 2 dividing 2n: a(n) = A000203(n)*A001511(n).",
+  "id": "A394790",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001227",
+    "A001511",
+    "A005880",
+    "A008438",
+    "A237271",
+    "A237593",
+    "A279387",
+    "A286357",
+    "A286460"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

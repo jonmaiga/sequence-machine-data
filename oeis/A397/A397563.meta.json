@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3*n+3*k,k).",
+  "id": "A397563",
+  "mentions": [
+    "A002295",
+    "A079590",
+    "A390385",
+    "A396691",
+    "A397564"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

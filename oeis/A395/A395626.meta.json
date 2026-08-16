@@ -1,0 +1,20 @@
+{
+  "description": "Numbers x*y such that |x-y| is a square, with nonnegative integers x and y.",
+  "id": "A395626",
+  "mentions": [
+    "A000290",
+    "A002522",
+    "A218381",
+    "A394904",
+    "A397224"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

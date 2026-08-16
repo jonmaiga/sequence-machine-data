@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of hexagonal polygorials A000680.",
+  "id": "A395537",
+  "mentions": [
+    "A000680",
+    "A001113",
+    "A070910",
+    "A395536",
+    "A395538"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,14 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) = number of partitions of n having k distinct parts i of multiplicity i; 0 <= k <= A328806(n)-1 = largest index of a nonzero value; n >= 0.",
+  "description": "Irregular triangle read by rows: T(n,k) = number of partitions of n having k distinct parts i of multiplicity i; n >= 0, 0 <= k <= A394247(n).",
   "id": "A276427",
   "mentions": [
     "A000041",
+    "A000330",
     "A276428",
     "A276429",
-    "A328806"
+    "A328806",
+    "A391611",
+    "A394247"
   ],
   "tags": [
     "formulas",

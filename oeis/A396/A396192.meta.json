@@ -1,0 +1,17 @@
+{
+  "description": "A394166(n) written in binary.",
+  "id": "A396192",
+  "mentions": [
+    "A394166",
+    "A396191"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

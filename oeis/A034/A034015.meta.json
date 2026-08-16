@@ -1,5 +1,5 @@
 {
-  "description": "Small 3-Schroeder numbers: a(n) = A027307(n+1)/2.",
+  "description": "Small 3-Schroeder numbers: a(n) = Sum_{k=0..n} 2^k*binomial(n, k)*binomial(2*n+2, k)/(k + 1).",
   "id": "A034015",
   "mentions": [
     "A000108",
@@ -11,7 +11,9 @@
     "A144097",
     "A243675",
     "A243676",
-    "A260332"
+    "A260332",
+    "A394872",
+    "A395080"
   ],
   "tags": [
     "easy",

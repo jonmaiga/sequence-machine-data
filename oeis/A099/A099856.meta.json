@@ -2,6 +2,7 @@
   "description": "Expansion of (1+3*x)/(1-3*x).",
   "id": "A099856",
   "mentions": [
+    "A008776",
     "A025192",
     "A083420",
     "A093561",

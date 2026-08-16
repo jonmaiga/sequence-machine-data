@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 104348 / 33215.",
   "id": "A068089",
   "mentions": [
+    "A000796",
     "A002485",
     "A002486",
     "A046947",
@@ -12,6 +13,7 @@
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,10 @@
 {
   "description": "Positive integers having the same number of base-15 runs of odd length as even.",
   "id": "A044871",
-  "mentions": [],
+  "mentions": [
+    "A043704",
+    "A044841"
+  ],
   "tags": [
     "base",
     "nonn"

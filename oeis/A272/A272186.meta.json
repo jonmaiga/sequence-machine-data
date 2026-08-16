@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Bernoulli number B_{n} has denominator 690.",
+  "description": "Numbers k such that Bernoulli number B_{k} has denominator 690.",
   "id": "A272186",
   "mentions": [
     "A045979",

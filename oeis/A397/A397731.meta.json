@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct triples of triangles chosen from n^2 unit triangles of a triangular grid up to rotation and reflection such that no two triangles share a common side.",
+  "id": "A397731",
+  "mentions": [
+    "A396761",
+    "A396762",
+    "A396882",
+    "A397730"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

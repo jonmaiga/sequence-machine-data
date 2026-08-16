@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the sum of gcd(k,n) over all numbers k obtained by changing any subset of the 1-bits of n to 0-bits in its binary representation.",
+  "id": "A397024",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001316",
+    "A007088",
+    "A050873",
+    "A295989"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

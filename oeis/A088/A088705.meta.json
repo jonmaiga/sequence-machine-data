@@ -2,8 +2,10 @@
   "description": "First differences of A000120. One minus exponent of 2 in n.",
   "id": "A088705",
   "mentions": [
+    "A000005",
     "A000120",
     "A007814",
+    "A008683",
     "A079559",
     "A079944"
   ],

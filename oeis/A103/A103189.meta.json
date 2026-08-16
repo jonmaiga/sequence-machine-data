@@ -1,7 +1,9 @@
 {
   "description": "Number of divisors of prime p concatenated p times.",
   "id": "A103189",
-  "mentions": [],
+  "mentions": [
+    "A000005"
+  ],
   "tags": [
     "base",
     "nonn"

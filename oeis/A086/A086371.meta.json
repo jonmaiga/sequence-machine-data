@@ -8,16 +8,18 @@
     "A052452",
     "A077392",
     "A077393",
-    "A077394"
+    "A077394",
+    "A395684"
   ],
   "tags": [
+    "formulas",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

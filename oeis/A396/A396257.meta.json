@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X 3 arrays over {0,1,2} such that orthogonally adjacent entries are distinct.",
+  "id": "A396257",
+  "mentions": [
+    "A052913",
+    "A206144",
+    "A209042",
+    "A232922"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of unsatisfiable 3-SAT formulas with 3 variables and n clauses in the multiset clause model.",
+  "id": "A395399",
+  "mentions": [
+    "A395739",
+    "A396351",
+    "A396353",
+    "A396354",
+    "A396491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

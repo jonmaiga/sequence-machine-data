@@ -1,18 +1,19 @@
 {
-  "description": "Greatest a(n) such that every graph on n vertices has an induced regular subgraph of order a(n).",
+  "description": "a(n) is the greatest k such that every graph on n vertices has an induced regular subgraph of order k.",
   "id": "A394574",
   "mentions": [
     "A390257",
     "A394564"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

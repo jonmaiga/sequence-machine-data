@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 4^n * [x^k] hypergeom([-n, -n, 1/2], [1], x).",
+  "id": "A395930",
+  "mentions": [
+    "A001813",
+    "A393915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

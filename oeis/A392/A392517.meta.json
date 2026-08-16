@@ -8,13 +8,14 @@
     "A392463"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

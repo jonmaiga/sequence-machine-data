@@ -2,7 +2,6 @@
   "description": "Beatty sequence for 2/(3+sqrt(3)).",
   "id": "A183142",
   "mentions": [
-    "A001477",
     "A097337"
   ],
   "tags": [

@@ -1,18 +1,25 @@
 {
-  "description": "Denominators of coefficients of expansion of Bessel function J_2(x).",
+  "description": "Denominators of coefficients of even powers of x of the expansion of Bessel function J_2(x).",
   "id": "A002506",
   "mentions": [
-    "A002454",
     "A002474",
-    "A014401"
+    "A014401",
+    "A061403",
+    "A061404",
+    "A061405",
+    "A061406",
+    "A061407",
+    "A061440",
+    "A061441"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

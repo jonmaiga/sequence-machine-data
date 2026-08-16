@@ -1,0 +1,19 @@
+{
+  "description": "Number of words of length n in S, such that S is a set containing the word ab and if a word w of the form xy is in S then w* of the form x(k^r)y is in S where k^r is the reversal of some factor k of w with |k| > 1.",
+  "id": "A397135",
+  "mentions": [
+    "A000079",
+    "A006697",
+    "A116456",
+    "A183135"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

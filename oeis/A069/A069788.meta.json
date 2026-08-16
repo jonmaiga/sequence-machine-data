@@ -1,14 +1,17 @@
 {
   "description": "Number of tilings by lozenges of hexagon with sides n, n+1, n, n+1, n, n+1 and central triangle removed.",
   "id": "A069788",
-  "mentions": [],
+  "mentions": [
+    "A071091"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
-    "source": "joeis"
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

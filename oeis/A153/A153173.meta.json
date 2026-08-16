@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = L(5*n)/L(n) where L(n) = Lucas number A000204(n).",
+  "description": "a(n) = L(5*n)/L(n) where L(n) = n-th Lucas number A000032(n).",
   "id": "A153173",
   "mentions": [
     "A000032",
@@ -16,8 +16,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 19,
+    "offset": 0,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

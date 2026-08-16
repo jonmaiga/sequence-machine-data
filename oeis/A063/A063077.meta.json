@@ -1,9 +1,12 @@
 {
   "description": "a(n) = phi(n^2 + 1) - 2n.",
   "id": "A063077",
-  "mentions": [],
+  "mentions": [
+    "A333169"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

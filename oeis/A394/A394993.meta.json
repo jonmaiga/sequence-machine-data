@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} (-1)^(k+1)*F(k)/k!, where F(n) is the n-th Fibonacci number, A000045(n).",
+  "id": "A394993",
+  "mentions": [
+    "A000045",
+    "A001113",
+    "A001622",
+    "A039834",
+    "A098689",
+    "A099935",
+    "A111139",
+    "A394992"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

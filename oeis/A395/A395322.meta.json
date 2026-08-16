@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the length of the longest edge of the polyhedron with 14 vertices with conjecturally maximum possible volume inscribed in the unit sphere.",
+  "id": "A395322",
+  "mentions": [
+    "A081314",
+    "A081366",
+    "A339259",
+    "A339263",
+    "A395320"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,15 +1,14 @@
 {
-  "description": "Four consecutive nonprime odd numbers {n-1,n+1,n+3,n+5}.",
+  "description": "Quadruples (k,k+2,k+4,k+6) such that k is odd and k, k+2, k+4, and k+6 are composite.",
   "id": "A129823",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

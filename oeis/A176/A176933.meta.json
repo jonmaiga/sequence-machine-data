@@ -1,9 +1,8 @@
 {
-  "description": "Primes of the form 3^n + 100^n.",
+  "description": "Primes of the form 3^k + 100^k.",
   "id": "A176933",
   "mentions": [],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {

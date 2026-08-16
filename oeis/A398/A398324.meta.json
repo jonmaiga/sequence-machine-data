@@ -1,0 +1,19 @@
+{
+  "description": "Positions k such that the prefix of length k of the Kolakoski sequence contains an even number of 1's and an even number of 2's.",
+  "id": "A398324",
+  "mentions": [
+    "A000002",
+    "A022292",
+    "A074273",
+    "A088568"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

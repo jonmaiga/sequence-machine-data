@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4*a(n - 2) - 2*a(n - 1) for n >= 2, a(0) = 1, a(1) = 6.",
+  "id": "A396582",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000285",
+    "A396201"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (3 + sqrt(9 + 12x))/6, where x=sqrt(3).",
+  "description": "Decimal expansion of (3 + sqrt(9 + 12x))/6, where x = sqrt(3).",
   "id": "A190262",
   "mentions": [
     "A188635",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

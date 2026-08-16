@@ -2,9 +2,12 @@
   "description": "a(n) = (12*n)!*(3*n)!*(2*n)!/((6*n)!*(6*n)!*(4*n)!*n!).",
   "id": "A295432",
   "mentions": [
+    "A000120",
+    "A073216",
     "A295431"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

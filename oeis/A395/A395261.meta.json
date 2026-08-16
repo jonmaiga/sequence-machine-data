@@ -1,0 +1,16 @@
+{
+  "description": "Self-convolution of A000293.",
+  "id": "A395261",
+  "mentions": [
+    "A000293"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

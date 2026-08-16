@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first occurrence k of an uninterrupted sequence of n adjacent center parts of the symmetric representation of sigma of i, SRS(i), i = k to i = k + n - 1 where each SRS(i) has an odd number of parts and SRS(k-1) and SRS(k+n) each have an even number of parts.",
+  "id": "A395533",
+  "mentions": [
+    "A237271",
+    "A237593",
+    "A240542",
+    "A249223",
+    "A320511"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

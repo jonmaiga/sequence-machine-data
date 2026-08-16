@@ -1,9 +1,8 @@
 {
-  "description": "One of the two successive approximations up to 2^n for 2-adic integer sqrt(17). This is the 1 (mod 4) case.",
+  "description": "One of the two successive approximations up to 2^n for the 2-adic integer sqrt(17). This is the 1 (mod 4) case.",
   "id": "A341538",
   "mentions": [
     "A318960",
-    "A318961",
     "A322217",
     "A341539"
   ],

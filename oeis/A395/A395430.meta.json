@@ -1,0 +1,18 @@
+{
+  "description": "Hexagrams of the Yi Jing [or I Ching] interpreted in base 10, with the bottom line = 2^5 (most significant bit) and the top line as 2^0 (least significant bit).",
+  "id": "A395430",
+  "mentions": [
+    "A102241",
+    "A125638"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

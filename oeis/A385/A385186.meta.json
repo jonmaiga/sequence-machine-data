@@ -1,18 +1,25 @@
 {
-  "description": "Numbers y such that there exists an integer 0 < x < y such that sigma(x)^x * sigma(y)^y = (x+y)^(x+y).",
+  "description": "Oblong numbers of the form k*(k + 1) such that at least one of k and k + 1 is prime.",
   "id": "A385186",
   "mentions": [
-    "A000203",
-    "A002046",
-    "A383932"
+    "A000040",
+    "A000720",
+    "A001248",
+    "A002378",
+    "A020793",
+    "A021016",
+    "A036689",
+    "A036690",
+    "A154945",
+    "A369632"
   ],
   "tags": [
-    "hard",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 49,
+    "source": "joeis"
   }
 }

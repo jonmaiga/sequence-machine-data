@@ -1,0 +1,20 @@
+{
+  "description": "Least negated fundamental discriminant -D of imaginary quadratic fields such that omega(-D) = n, where omega = A001221.",
+  "id": "A396867",
+  "mentions": [
+    "A001221",
+    "A002144",
+    "A002145",
+    "A319659",
+    "A396868"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

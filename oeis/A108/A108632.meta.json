@@ -2,6 +2,7 @@
   "description": "Semiprimes with prime digits (only digits 2,3,5,7 in semiprimes).",
   "id": "A108632",
   "mentions": [
+    "A084996",
     "A108631"
   ],
   "tags": [

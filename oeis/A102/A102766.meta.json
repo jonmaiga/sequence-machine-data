@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that can be chopped into two parts, which when added and squared result in n.",
+  "description": "Numbers k that can be chopped into two parts, which when added and squared result in k.",
   "id": "A102766",
   "mentions": [
     "A238237",

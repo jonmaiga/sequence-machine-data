@@ -2,7 +2,8 @@
   "description": "Primes congruent to {2, 4} mod 5.",
   "id": "A045378",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A045356"
   ],
   "tags": [
     "easy",

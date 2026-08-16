@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of cosh(Pi)/Pi.",
+  "id": "A396326",
+  "mentions": [
+    "A000796",
+    "A156648",
+    "A321161",
+    "A334402",
+    "A396327"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

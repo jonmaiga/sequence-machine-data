@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the mean distance from the center to the interior points of a regular icosahedron of unit volume.",
+  "id": "A396613",
+  "mentions": [
+    "A001622",
+    "A135691",
+    "A394104",
+    "A396610",
+    "A396611",
+    "A396612"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

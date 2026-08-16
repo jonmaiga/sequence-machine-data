@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k,3) / 2^k, where H(k,3) = A007408(k)/A007409(k) is the k-th harmonic number of order 3.",
+  "id": "A398251",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002162",
+    "A002805",
+    "A007406",
+    "A007407",
+    "A007408",
+    "A007409",
+    "A013661",
+    "A016627",
+    "A099217",
+    "A398249"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

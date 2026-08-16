@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn arrays containing n copies of 0..3-1 with no element plus any horizontal neighbor equal to 3-1.",
+  "description": "Number of 3 X n arrays containing n copies of 0..3-1 with no element plus any horizontal neighbor equal to 3-1.",
   "id": "A265883",
   "mentions": [
     "A265882"

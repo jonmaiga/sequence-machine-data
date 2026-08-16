@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(4n+1) - 2^(2n).",
+  "description": "a(n) = 2^(4*n+1) - 2^(2*n).",
   "id": "A079598",
   "mentions": [
     "A000396",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "joeis"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3*k-4,k).",
+  "id": "A397666",
+  "mentions": [
+    "A001764",
+    "A087413",
+    "A188675",
+    "A263134",
+    "A371965",
+    "A397535",
+    "A397538",
+    "A397565",
+    "A397667",
+    "A397668",
+    "A397669"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

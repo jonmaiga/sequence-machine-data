@@ -1,0 +1,21 @@
+{
+  "description": "Norms of multiplicatively perfect Gaussian integers (Gaussian integers having exactly four divisors up to associates).",
+  "id": "A397070",
+  "mentions": [
+    "A000005",
+    "A001481",
+    "A007422",
+    "A007955",
+    "A055025"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 2*A179523(n+1) - 3*A179523(n).",
+  "id": "A398092",
+  "mentions": [
+    "A179523"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

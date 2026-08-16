@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that each pixel in the binary plot of the sequence is within a knights' move's distance from another pixel.",
+  "id": "A396694",
+  "mentions": [
+    "A394166"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

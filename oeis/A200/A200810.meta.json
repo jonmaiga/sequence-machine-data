@@ -2,6 +2,7 @@
   "description": "Iterate k -> d(k) until an odd prime is reached.",
   "id": "A200810",
   "mentions": [
+    "A000005",
     "A200811",
     "A200815"
   ],

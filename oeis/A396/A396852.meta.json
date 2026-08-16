@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that bigomega(k) > omega(k)^2.",
+  "id": "A396852",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001248",
+    "A246547"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

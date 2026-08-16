@@ -1,0 +1,18 @@
+{
+  "description": "Apply PrimePi (A000720) to A396301 and then take first differences.",
+  "id": "A396302",
+  "mentions": [
+    "A000720",
+    "A280745",
+    "A280864",
+    "A396301"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

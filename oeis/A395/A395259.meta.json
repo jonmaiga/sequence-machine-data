@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the number defined by the continued fraction 1/(r+1/(r+1/(r + ...))), where r is the bronze ratio (A098316).",
+  "id": "A395259",
+  "mentions": [
+    "A010527",
+    "A086773",
+    "A086774",
+    "A086775",
+    "A098316",
+    "A101263",
+    "A188485",
+    "A189964",
+    "A340616",
+    "A394765"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

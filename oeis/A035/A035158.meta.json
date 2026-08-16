@@ -1,5 +1,5 @@
 {
-  "description": "Floor of the Chebyshev function theta(n): a(n) = floor(Sum_{primes p <= n } log(p)).",
+  "description": "Floor of the Chebyshev function theta(n): a(n) = floor(Sum_{primes p <= n} log(p)).",
   "id": "A035158",
   "mentions": [
     "A000040",
@@ -10,12 +10,13 @@
     "A083535"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

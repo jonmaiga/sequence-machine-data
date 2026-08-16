@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 128/5^(11/4).",
+  "id": "A395981",
+  "mentions": [
+    "A328229",
+    "A395980"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

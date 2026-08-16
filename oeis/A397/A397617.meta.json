@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(floor(n*e)).",
+  "id": "A397617",
+  "mentions": [
+    "A000040",
+    "A001113",
+    "A022843",
+    "A397618"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

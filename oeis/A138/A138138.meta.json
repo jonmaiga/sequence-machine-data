@@ -1,5 +1,5 @@
 {
-  "description": "A shell model of partitions. Triangle read by rows: row n lists the parts of the last section of the set of partitions of n.",
+  "description": "A modular table of partitions. Triangle read by rows: row n lists the parts of the last section of the set of partitions of n.",
   "id": "A138138",
   "mentions": [
     "A000041",

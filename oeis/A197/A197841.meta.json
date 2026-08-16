@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x having x^2+2x=cos(x).",
+  "description": "Decimal expansion of least x having x^2+2x=cos(x), negated.",
   "id": "A197841",
   "mentions": [
     "A197737",

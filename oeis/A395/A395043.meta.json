@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if the greatest prime dividing arithmetic derivative of n is larger than the greatest prime dividing n, otherwise 0. a(1) = 0 by convention.",
+  "id": "A395043",
+  "mentions": [
+    "A003415",
+    "A006530",
+    "A395042",
+    "A395044",
+    "A395045",
+    "A395053"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

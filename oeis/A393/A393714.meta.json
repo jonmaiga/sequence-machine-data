@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that x^2 + y*z = n, where x, y, z are positive integers and x is coprime to y*z.",
+  "id": "A393714",
+  "mentions": [
+    "A393710",
+    "A393715",
+    "A394746"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

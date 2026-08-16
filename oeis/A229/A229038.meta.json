@@ -1,18 +1,23 @@
 {
-  "description": "Number of undirected circular permutations i_1, ..., i_n of 1, ..., n such that all the n sums i_1^2+i_2^2, ..., i_{n-1}^2+i_n^2, i_n^2+i_1^2 are among those integers m with the Jacobi symbol (m/(2*n+1)) equal to 1.",
+  "description": "Number of undirected circular permutations (i_1, ..., i_n) of 1, ..., n such that all the n sums i_1^2+i_2^2, ..., i_{n-1}^2+i_n^2, i_n^2+i_1^2 are among those integers m with the Jacobi symbol (m/(2*n+1)) equal to 1.",
   "id": "A229038",
   "mentions": [
+    "A228860",
+    "A228886",
+    "A228917",
+    "A228956",
     "A229005",
+    "A229141",
+    "A229543",
     "A229878"
   ],
   "tags": [
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

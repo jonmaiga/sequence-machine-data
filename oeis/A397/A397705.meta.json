@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers m > 5, with no representation m = p + 2q with p, q prime and p <= q.",
+  "id": "A397705",
+  "mentions": [
+    "A002091",
+    "A002092",
+    "A046927",
+    "A185091",
+    "A194828",
+    "A194829",
+    "A195353",
+    "A195354"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

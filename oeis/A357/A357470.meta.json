@@ -2,11 +2,13 @@
   "description": "Decimal expansion of the real root of x^3 - x^2 - 2*x - 1.",
   "id": "A357470",
   "mentions": [
+    "A092526",
     "A160389",
     "A255249",
     "A255524",
     "A357471",
-    "A357472"
+    "A357472",
+    "A369346"
   ],
   "tags": [
     "cons",

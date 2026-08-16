@@ -1,0 +1,16 @@
+{
+  "description": "Number of digraphs on n unlabeled nodes with self-loops allowed and distinguished nodes r and t (r = t if n = 1, else r != t) such that every node is reachable from r and t is reachable from every node, counted up to isomorphism fixing r and t.",
+  "id": "A398256",
+  "mentions": [
+    "A350794"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

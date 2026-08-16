@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-2x)(1-9x)(1-11x)).",
+  "description": "Expansion of 1/((1-2x)*(1-9x)*(1-11x)).",
   "id": "A016322",
   "mentions": [],
   "tags": [

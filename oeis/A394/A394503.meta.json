@@ -1,0 +1,21 @@
+{
+  "description": "Number of equivalence classes of set partitions of [n] under the adjacency monomial E.",
+  "id": "A394503",
+  "mentions": [
+    "A000110",
+    "A087903",
+    "A381349",
+    "A392756",
+    "A394235"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

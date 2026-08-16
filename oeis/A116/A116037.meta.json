@@ -1,5 +1,5 @@
 {
-  "description": "n+p(n)+p(p(n)) is a palindrome, where p(n) denotes the n-th prime.",
+  "description": "Numbers k such that k+prime(k)+prime(prime(k)) is a palindrome, where prime(k) denotes the k-th prime.",
   "id": "A116037",
   "mentions": [
     "A115884"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

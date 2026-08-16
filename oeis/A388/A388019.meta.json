@@ -2,9 +2,11 @@
   "description": "Primitive terms of A023197: numbers k such that sigma(k)/k >= 3, but for every proper divisor, d|k, d",
   "id": "A388019",
   "mentions": [
+    "A000203",
     "A005820",
     "A006039",
     "A023197",
+    "A307111",
     "A307112",
     "A307115",
     "A334118",
@@ -14,9 +16,11 @@
     "A388020",
     "A389635",
     "A392936",
-    "A393013"
+    "A393013",
+    "A395192"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

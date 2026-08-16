@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n that can be reduced to a single part by repeatedly replacing two parts x and y with |x - y| >= 3 by their sum x + y.",
+  "id": "A395687",
+  "mentions": [
+    "A000041",
+    "A397939"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

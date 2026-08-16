@@ -1,0 +1,25 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = Sum_{j=0..k} binomial(k, j) * j^(n + j) * (1 - j)^(k - j).",
+  "id": "A394825",
+  "mentions": [
+    "A000007",
+    "A000522",
+    "A054977",
+    "A210448",
+    "A240951",
+    "A281912",
+    "A281946",
+    "A292880",
+    "A395078"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

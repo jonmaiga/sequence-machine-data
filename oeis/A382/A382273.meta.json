@@ -1,7 +1,10 @@
 {
   "description": "Number of minimum connected dominating sets in the n-Fibonacci cube graph.",
   "id": "A382273",
-  "mentions": [],
+  "mentions": [
+    "A291298",
+    "A298115"
+  ],
   "tags": [
     "more",
     "nonn"

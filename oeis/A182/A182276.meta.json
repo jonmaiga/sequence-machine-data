@@ -1,5 +1,5 @@
 {
-  "description": "Sum of all parts minus the total number of parts of the shell model of partitions with n regions.",
+  "description": "Sum of all parts minus the total number of parts of the modular table of partitions with n regions.",
   "id": "A182276",
   "mentions": [
     "A000041",

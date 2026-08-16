@@ -1,11 +1,12 @@
 {
-  "description": "E.g.f.: exp( T(T(T(T(x)))) ), where T(x) = -LambertW(-x) is Euler's tree function (A000169).",
+  "description": "Expansion of e.g.f. exp( T(T(T(T(x)))) ), where T(x) = -LambertW(-x) is Euler's tree function (A000169).",
   "id": "A268654",
   "mentions": [
     "A000169",
     "A000272",
     "A227176",
-    "A268653"
+    "A268653",
+    "A274391"
   ],
   "tags": [
     "formulas",

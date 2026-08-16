@@ -1,0 +1,21 @@
+{
+  "description": "Self-convolution of A305102.",
+  "id": "A397062",
+  "mentions": [
+    "A001620",
+    "A006128",
+    "A305082",
+    "A305102",
+    "A305120",
+    "A397061"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

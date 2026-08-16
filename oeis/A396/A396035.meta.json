@@ -1,0 +1,24 @@
+{
+  "description": "Growth series of higher Heisenberg group H_6, with standard generators.",
+  "id": "A396035",
+  "mentions": [
+    "A063810",
+    "A396031",
+    "A396032",
+    "A396033",
+    "A396034",
+    "A396036",
+    "A396037",
+    "A396038",
+    "A396039"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

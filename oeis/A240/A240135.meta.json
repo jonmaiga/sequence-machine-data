@@ -2,15 +2,17 @@
   "description": "a(n) = composite(n)*2^(n - 3).",
   "id": "A240135",
   "mentions": [
+    "A000079",
     "A002808"
   ],
   "tags": [
+    "formulas",
     "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "joeis"
   }
 }

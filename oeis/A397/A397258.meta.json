@@ -1,0 +1,17 @@
+{
+  "description": "Indices of late birds in Buss's sequence B = A067836: numbers m such that all smaller primes have occurred before B(m).",
+  "id": "A397258",
+  "mentions": [
+    "A067836",
+    "A397259"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

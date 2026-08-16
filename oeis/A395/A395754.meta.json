@@ -1,0 +1,24 @@
+{
+  "description": "Number of k < m^2 such that both rad(k) and rad(k+1) divide m, where rad = A007947 and m = A005117(n).",
+  "id": "A395754",
+  "mentions": [
+    "A002071",
+    "A005117",
+    "A007947",
+    "A039956",
+    "A062503",
+    "A071403",
+    "A365435",
+    "A383008",
+    "A395721"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

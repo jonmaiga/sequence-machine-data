@@ -1,0 +1,19 @@
+{
+  "description": "Number of order-convex subsets of the rectangular grid poset [2] X [n] with componentwise partial order.",
+  "id": "A395260",
+  "mentions": [
+    "A393665",
+    "A394682",
+    "A394685"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

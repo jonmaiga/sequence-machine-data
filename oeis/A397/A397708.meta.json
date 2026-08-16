@@ -1,0 +1,17 @@
+{
+  "description": "Number of face-connected components of n polyhedral cells in the sphenoid hendecahedral honeycomb, up to translation, rotation, and reflection of the honeycomb.",
+  "id": "A397708",
+  "mentions": [
+    "A038119",
+    "A385028"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

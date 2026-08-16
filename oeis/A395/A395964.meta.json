@@ -1,0 +1,22 @@
+{
+  "description": "Second iterate of the Thue-Morse transform applied to the Fibonacci word A003849.",
+  "id": "A395964",
+  "mentions": [
+    "A003849",
+    "A010060",
+    "A095076",
+    "A341389",
+    "A395958",
+    "A395961",
+    "A395965",
+    "A395966"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

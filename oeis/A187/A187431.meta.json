@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that generate 5 primes under the first 5 iterations of the map n->A002731(n).",
+  "description": "Numbers that generate 5 primes under the first 5 iterations of the map x->A002731(x).",
   "id": "A187431",
   "mentions": [
     "A002731",

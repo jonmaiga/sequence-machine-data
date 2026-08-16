@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = binomial(n + 5, 5)*9^n.",
+  "description": "a(n) = binomial(n+5,5)*9^n.",
   "id": "A173188",
   "mentions": [
     "A081139",

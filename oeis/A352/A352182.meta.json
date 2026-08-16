@@ -2,6 +2,7 @@
   "description": "Twice A200994.",
   "id": "A352182",
   "mentions": [
+    "A000217",
     "A072256",
     "A200993",
     "A200994",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 16,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

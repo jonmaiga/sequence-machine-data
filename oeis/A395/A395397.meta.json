@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the volume of the solid of revolution formed by rotating the loop part of a Folium of Descartes about its axis of symmetry.",
+  "id": "A395397",
+  "mentions": [
+    "A247719",
+    "A257872",
+    "A295709",
+    "A353049"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

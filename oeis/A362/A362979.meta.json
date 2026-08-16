@@ -11,13 +11,12 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 3,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

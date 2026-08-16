@@ -2,10 +2,10 @@
   "description": "Number of linear extensions of a 2 X 2 X n lattice.",
   "id": "A114714",
   "mentions": [
+    "A000108",
     "A114717"
   ],
   "tags": [
-    "hard",
     "nonn"
   ],
   "terms": {

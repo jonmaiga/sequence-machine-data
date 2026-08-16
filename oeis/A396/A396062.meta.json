@@ -1,0 +1,19 @@
+{
+  "description": "Define the level of a number in A395720 as the largest integer m such that repeated application of the inner operation can be performed m times, with each intermediate value remaining in A395720. Let a(n) be the smallest kangaroo number in A395720 of level n.",
+  "id": "A396062",
+  "mentions": [
+    "A395720",
+    "A395761",
+    "A395926"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

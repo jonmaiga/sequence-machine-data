@@ -1,0 +1,17 @@
+{
+  "description": "Sum of squared end-to-end distances of all n-step self-avoiding walks on the f.c.c. lattice.",
+  "id": "A398322",
+  "mentions": [
+    "A001336",
+    "A118313",
+    "A242355"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

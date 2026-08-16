@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 262144/177147 = 2^18/3^11.",
+  "id": "A395980",
+  "mentions": [
+    "A328229",
+    "A395981"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

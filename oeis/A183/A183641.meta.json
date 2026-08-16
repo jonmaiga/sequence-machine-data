@@ -1,16 +1,17 @@
 {
-  "description": "Number of (n+1)X9 0..3 arrays with every 2x2 subblock summing to 6.",
+  "description": "Number of (n+1) X 9 0..3 arrays with every 2 X 2 subblock summing to 6.",
   "id": "A183641",
   "mentions": [
     "A183642"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

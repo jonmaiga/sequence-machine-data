@@ -1,7 +1,8 @@
 {
-  "description": "a(0)=1, a(n) = a(n-1)*a(n-1) + 2.",
+  "description": "a(0) = 1, a(n) = a(n-1)*a(n-1) + 2.",
   "id": "A102847",
   "mentions": [
+    "A000058",
     "A065653"
   ],
   "tags": [

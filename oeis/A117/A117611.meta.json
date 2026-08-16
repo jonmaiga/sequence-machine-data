@@ -1,7 +1,11 @@
 {
   "description": "Legendre-binomial transform of 10^n for p=3.",
   "id": "A117611",
-  "mentions": [],
+  "mentions": [
+    "A117976",
+    "A117977",
+    "A117980"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "joeis"
   }
 }

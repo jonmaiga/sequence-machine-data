@@ -4,6 +4,7 @@
   "mentions": [
     "A000001",
     "A000019",
+    "A002106",
     "A023675"
   ],
   "tags": [
@@ -12,8 +13,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 3,
-    "size": 35,
+    "offset": 1,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

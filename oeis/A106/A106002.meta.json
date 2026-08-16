@@ -2,7 +2,9 @@
   "description": "a(n)=1 if there is a number of the form 6k+3 such that prime(n) < 6k+3 < prime(n+1), otherwise 0.",
   "id": "A106002",
   "mentions": [
-    "A100810"
+    "A100810",
+    "A105469",
+    "A105470"
   ],
   "tags": [
     "easy",

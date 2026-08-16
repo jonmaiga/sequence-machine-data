@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = gcd(A395115(n)^(3*n) - 1, A395115(n)! - 1).",
+  "id": "A395944",
+  "mentions": [
+    "A033312",
+    "A395115",
+    "A395171",
+    "A395286"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

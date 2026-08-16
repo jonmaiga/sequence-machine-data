@@ -1,0 +1,19 @@
+{
+  "description": "Number of edges a Johnson solid can have.",
+  "id": "A395162",
+  "mentions": [
+    "A242732",
+    "A296603",
+    "A395163"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

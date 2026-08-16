@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution of hyperfactorials (A002109).",
+  "id": "A397715",
+  "mentions": [
+    "A002109",
+    "A074962",
+    "A396841",
+    "A397718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

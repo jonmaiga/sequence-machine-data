@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} mu(d)*Fibonacci(2*(n/d)+1).",
+  "id": "A395282",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A008683",
+    "A122367"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

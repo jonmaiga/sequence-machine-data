@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct products ij with 1 <= i, j <= n (number of distinct terms in n X n multiplication table).",
+  "description": "Number of distinct products i*j with 1 <= i, j <= n (number of distinct terms in n X n multiplication table).",
   "id": "A027424",
   "mentions": [
     "A027384",

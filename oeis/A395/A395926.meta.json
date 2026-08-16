@@ -1,0 +1,17 @@
+{
+  "description": "Grand-grand-kangaroo numbers: kangaroo numbers whose inner number is a grand-kangaroo number (A395761).",
+  "id": "A395926",
+  "mentions": [
+    "A395720",
+    "A395761"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

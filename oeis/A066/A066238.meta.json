@@ -1,16 +1,17 @@
 {
-  "description": "The floor(n/3)-perfect numbers, where f-perfect numbers for an arithmetical function f are defined in A066218.",
+  "description": "floor(x/3)-perfect numbers, where f-perfect numbers for an arithmetical function f are defined in A066218.",
   "id": "A066238",
   "mentions": [
-    "A066218"
+    "A066218",
+    "A066239",
+    "A066240"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

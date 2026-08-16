@@ -1,0 +1,25 @@
+{
+  "description": "Least k such that {1^n, 2^n, ..., k^n} contains numbers with every leading digit from 1 through 9.",
+  "id": "A395429",
+  "mentions": [
+    "A002993",
+    "A002994",
+    "A097408",
+    "A097409",
+    "A097410",
+    "A097411",
+    "A097412",
+    "A097413",
+    "A097414"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

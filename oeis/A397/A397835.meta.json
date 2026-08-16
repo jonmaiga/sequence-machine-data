@@ -1,0 +1,19 @@
+{
+  "description": "Number of ternary words of length n over {a,b,c} containing the consecutive word abcabc.",
+  "id": "A397835",
+  "mentions": [
+    "A000244",
+    "A397833",
+    "A397837"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

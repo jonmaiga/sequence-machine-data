@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer m > 1 such that gcd(m^(3*n) - 1, m! - 1) > 1.",
+  "id": "A395115",
+  "mentions": [
+    "A033312",
+    "A395171",
+    "A395286"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

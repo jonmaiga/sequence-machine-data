@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary words of length n containing the consecutive word ababab.",
+  "id": "A397834",
+  "mentions": [
+    "A256813",
+    "A397833"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,8 +1,11 @@
 {
   "description": "a(n) = 6*a(n-1) + 9*a(n-2), with a(0)=0, a(1)=1.",
   "id": "A189801",
-  "mentions": [],
+  "mentions": [
+    "A000129"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

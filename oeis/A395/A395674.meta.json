@@ -1,0 +1,23 @@
+{
+  "description": "Odd powerful numbers that are not powers of squarefree numbers.",
+  "id": "A395674",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A005408",
+    "A061742",
+    "A070826",
+    "A072777",
+    "A359280"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

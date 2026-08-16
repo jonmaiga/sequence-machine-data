@@ -1,19 +1,12 @@
 {
-  "description": "Distribution of the natural numbers using the sequences family mentioned in the comments.",
+  "description": "Irregular table read by rows: T(n, m) = min(4*m+2, n - 2*m^2), included only when positive; n >= 1, m >= 0.",
   "id": "A234398",
   "mentions": [
-    "A000027",
-    "A016825",
-    "A028310",
-    "A040000",
-    "A058331",
-    "A101272",
-    "A169695",
     "A173642"
   ],
   "tags": [
     "nonn",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "offset": 1,

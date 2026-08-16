@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n-digit terms in A192689 with a(1) = 4.",
+  "id": "A396618",
+  "mentions": [
+    "A017934",
+    "A017936",
+    "A192689"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of undirected Hamiltonian paths in the n X n torus grid graph, reduced for symmetry (with rotations, reflections, and translations not counted as distinct).",
+  "id": "A396482",
+  "mentions": [
+    "A265914",
+    "A268838",
+    "A395462",
+    "A396483"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

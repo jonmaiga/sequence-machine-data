@@ -1,0 +1,17 @@
+{
+  "description": "Number of {0,1}-labelings of the ladder graph L_n that are unchanged when every vertex updates to the majority of itself and its neighbors, keeping its value on a tie.",
+  "id": "A395029",
+  "mentions": [
+    "A006355",
+    "A007039"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "joeis"
+  }
+}

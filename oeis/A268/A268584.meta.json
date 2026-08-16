@@ -1,11 +1,12 @@
 {
-  "description": "a(0)=0; a(1)=0. For m>=1 : a(2*m) = 2*m-2-i, a(2*m+1) = 2*m-2-i, where i (0<=i<=n-2) is the smallest number such that a(2*m-2)-a(i)=0 AND a(2*m-1)-a(i+1)=0, or a(2*m)=0 AND a(2*m+1)=0 if no such i exists.",
+  "description": "a(0)=0; a(1)=0. For m>=1 : a(2*m) = 2*m-2-i, a(2*m+1) = 2*m-2-i, where i (0<=i<=2*m-4) is the largest number such that a(2*m-2)-a(i)=0 AND a(2*m-1)-a(i+1)=0, or a(2*m)=0 AND a(2*m+1)=0 if no such i exists.",
   "id": "A268584",
   "mentions": [
     "A181391",
     "A267794"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

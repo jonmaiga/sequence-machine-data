@@ -1,15 +1,13 @@
 {
-  "description": "4-symbol substitution from L[n] Coxeter diagram with n=3.",
+  "description": "1-limiting word of the morphism 1->333, 2->34, 3->12, 4->222.",
   "id": "A106703",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

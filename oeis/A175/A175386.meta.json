@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = denominator of sum((1/i)*C(2n-i-1,i-1),i=1..n).",
+  "description": "a(n) = denominator of Sum_{i=1..n} (1/i)*C(2n-i-1,i-1).",
   "id": "A175386",
   "mentions": [
     "A175385"

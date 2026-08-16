@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by antidiagonals downwards, where column k is the expansion of e.g.f. F^k(x), where F(x) is the e.g.f. of A214645.",
+  "id": "A396998",
+  "mentions": [
+    "A063524",
+    "A214645",
+    "A396999",
+    "A397000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

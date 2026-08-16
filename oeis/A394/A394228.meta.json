@@ -1,0 +1,16 @@
+{
+  "description": "The exponent j of the first pair of powers of 2 (2^j, 2^k), j < k, where 2^k is the smallest power whose last n digits are a non-identical anagram (besides n=1), no leading zeros, of the last n digits of 2^j.",
+  "id": "A394228",
+  "mentions": [
+    "A395027"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

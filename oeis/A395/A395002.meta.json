@@ -1,0 +1,16 @@
+{
+  "description": "Number of index 4*n subgroups of SL_2(Z) not containing the negative identity matrix.",
+  "id": "A395002",
+  "mentions": [
+    "A005133"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 binary arrays with every one adjacent to another one horizontally, diagonally, antidiagonally or vertically.",
+  "description": "Number of n X 6 binary arrays with every one adjacent to another one horizontally, diagonally, antidiagonally or vertically.",
   "id": "A202793",
   "mentions": [
     "A202795"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

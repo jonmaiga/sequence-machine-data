@@ -1,5 +1,5 @@
 {
-  "description": "Vertex number of a rectangular spiral which contains exactly between its edges the successive shells of the partitions of the positive integers.",
+  "description": "Vertex number of a rectangular spiral which contains exactly between its edges the successive sections of the modular table of partitions of the positive integers.",
   "id": "A194450",
   "mentions": [
     "A000041",

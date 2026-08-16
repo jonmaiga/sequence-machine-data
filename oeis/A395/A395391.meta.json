@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the probability that the segment between two points selected independently and uniformly at random in the interior of a regular pentagram is included entirely within that pentagram.",
+  "id": "A395391",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A134974",
+    "A179050",
+    "A188593",
+    "A348757"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

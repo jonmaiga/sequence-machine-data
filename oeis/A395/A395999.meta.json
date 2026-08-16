@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k > 5 such that the greedy Egyptian fraction representation of 5/k has more terms than the shortest representation of 5/k as a sum of unit fractions.",
+  "id": "A395999",
+  "mentions": [
+    "A050205",
+    "A097847",
+    "A395995",
+    "A395997",
+    "A395998",
+    "A396160"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

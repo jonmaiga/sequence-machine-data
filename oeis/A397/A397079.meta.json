@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. (Sum_{j>=1} x^j/(1-x^j))^2 * Product_{k>=1} 1/(1-x^k).",
+  "id": "A397079",
+  "mentions": [
+    "A001620",
+    "A006128",
+    "A397077",
+    "A397078"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

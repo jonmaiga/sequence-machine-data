@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k = x + y such that there exists sigma(x) + sigma(y) = 3*(x+y).",
+  "id": "A395420",
+  "mentions": [
+    "A000203",
+    "A395419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

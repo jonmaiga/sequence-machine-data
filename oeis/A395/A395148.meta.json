@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where A(n,k) = (2*n)! * [x^(2*n)] 1/(1 - x^2)^(k/2).",
+  "id": "A395148",
+  "mentions": [
+    "A000007",
+    "A001818",
+    "A010050",
+    "A079484",
+    "A327882",
+    "A341268",
+    "A395141",
+    "A395146"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

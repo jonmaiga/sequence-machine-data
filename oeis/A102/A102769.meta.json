@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the volume of a dodecahedron with each edge of unit length.",
+  "description": "Decimal expansion of the volume of a regular dodecahedron with each edge of unit length.",
   "id": "A102769",
   "mentions": [
     "A001622",

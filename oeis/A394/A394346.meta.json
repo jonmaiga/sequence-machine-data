@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = tau(n) * pod(n) where tau(k) = the number of the divisors of k (A000005) and pod(k) = the product of the divisors of k (A007955).",
+  "id": "A394346",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007955",
+    "A064840",
+    "A064987",
+    "A076722",
+    "A306671",
+    "A324528",
+    "A338576"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,8 @@
   "description": "a(n) = number of m <= n which can be obtained by deleting digits from n.",
   "id": "A079790",
   "mentions": [
+    "A009993",
+    "A039994",
     "A120004"
   ],
   "tags": [

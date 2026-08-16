@@ -1,0 +1,18 @@
+{
+  "description": "Sprague-Grundy values for the octal game .007.",
+  "id": "A395248",
+  "mentions": [
+    "A002186",
+    "A002187",
+    "A002188"
+  ],
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

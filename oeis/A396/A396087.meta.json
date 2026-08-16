@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer m such that the product of every 5 consecutive integers > m has a prime factor > prime(n).",
+  "id": "A396087",
+  "mentions": [
+    "A002072",
+    "A003032",
+    "A003033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

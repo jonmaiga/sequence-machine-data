@@ -2,8 +2,9 @@
   "description": "Number of Barlow packings with group P63/mmc(O) that repeat after 4n+2 layers.",
   "id": "A011947",
   "mentions": [
-    "A045683",
-    "A129629"
+    "A082392",
+    "A129629",
+    "A383182"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "joeis"
   }
 }

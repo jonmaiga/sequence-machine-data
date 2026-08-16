@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of binomial(7, 7/2).",
+  "id": "A397918",
+  "mentions": [
+    "A088538",
+    "A318910",
+    "A395953",
+    "A396990",
+    "A397919"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 89,
+    "source": "joeis"
+  }
+}

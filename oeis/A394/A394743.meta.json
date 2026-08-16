@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that x^2 + y*z = n, where x,y,z are positive Fibonacci numbers.",
+  "id": "A394743",
+  "mentions": [
+    "A393710",
+    "A394740",
+    "A394744"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

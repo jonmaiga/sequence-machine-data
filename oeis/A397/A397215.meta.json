@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct triples of triangles chosen from n^2 unit triangles of a triangular grid with their centers collinear up to rotation and reflection.",
+  "id": "A397215",
+  "mentions": [
+    "A396761",
+    "A396762",
+    "A396882",
+    "A397216"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

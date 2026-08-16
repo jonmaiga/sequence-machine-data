@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..floor(n/6)} binomial(2*k,k) * binomial(n-4*k,2*k).",
   "id": "A393251",
   "mentions": [
+    "A001850",
     "A002426",
     "A098479",
     "A098482",

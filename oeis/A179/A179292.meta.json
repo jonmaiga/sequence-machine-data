@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of radius of inscribed sphere of an icosahedron with radius of circumscribed sphere = 1.",
+  "description": "Decimal expansion of radius of inscribed sphere of a regular icosahedron with radius of circumscribed sphere = 1.",
   "id": "A179292",
   "mentions": [
     "A010527",

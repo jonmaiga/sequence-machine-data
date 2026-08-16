@@ -1,0 +1,17 @@
+{
+  "description": "Antidiagonal sums of the array A398062.",
+  "id": "A398063",
+  "mentions": [
+    "A000290",
+    "A398062"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

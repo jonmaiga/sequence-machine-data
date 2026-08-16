@@ -1,5 +1,5 @@
 {
-  "description": "n modulo 7 repeated 7 times.",
+  "description": "N modulo 7 repeated 7 times.",
   "id": "A133877",
   "mentions": [
     "A000040",
@@ -16,6 +16,7 @@
     "A133910"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

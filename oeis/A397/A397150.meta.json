@@ -1,0 +1,21 @@
+{
+  "description": "Number of decimal places which are known after using n terms of A072193 and treating them as the coefficients of a continued fraction.",
+  "id": "A397150",
+  "mentions": [
+    "A072193",
+    "A086819",
+    "A390737",
+    "A392472",
+    "A393695",
+    "A396908"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of labeled squarefree bipartite graphs on n vertices.",
+  "id": "A395760",
+  "mentions": [
+    "A138347"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

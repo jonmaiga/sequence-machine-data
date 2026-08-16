@@ -1,5 +1,5 @@
 {
-  "description": "Smaller of two consecutive prime numbers such that p0+p1=average of twin prime pairs and p0*p1+7=average of twin prime pairs.",
+  "description": "Smaller of two consecutive prime numbers p0, p1 such that p0+p1=average of twin prime pairs and p0*p1+7=average of twin prime pairs.",
   "id": "A153374",
   "mentions": [
     "A099349"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

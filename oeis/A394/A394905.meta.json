@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number k > n such that the binary Hamming distance between n and k is equal to the number of runs in the binary representation of n, and k has more runs than n.",
+  "id": "A394905",
+  "mentions": [
+    "A005811",
+    "A044813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

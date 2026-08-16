@@ -1,0 +1,21 @@
+{
+  "description": "O.g.f. Sum_{n>=0} n^(3*n) * exp(-n^3*C(x)) * C(x)^n / n!, where C(x) = x + C(x)^2 is the g.f. of the Catalan numbers (A000108).",
+  "id": "A395123",
+  "mentions": [
+    "A000108",
+    "A008277",
+    "A217913",
+    "A219228",
+    "A226750",
+    "A395122"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

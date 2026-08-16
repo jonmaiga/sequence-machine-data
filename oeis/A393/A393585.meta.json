@@ -1,0 +1,17 @@
+{
+  "description": "The maximum number of distinct products from 1 to n^2 produced by the product of 2 sets, each with n positive integer elements.",
+  "id": "A393585",
+  "mentions": [
+    "A001222",
+    "A027424"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

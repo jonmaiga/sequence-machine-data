@@ -2,7 +2,7 @@
   "description": "Numerators of Farey fractions with prime numerators and denominators.",
   "id": "A085962",
   "mentions": [
-    "A085693"
+    "A085963"
   ],
   "tags": [
     "easy",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 3,
     "size": 101,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

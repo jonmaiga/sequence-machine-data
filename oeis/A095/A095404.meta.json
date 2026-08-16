@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum-of-digits-of-n > Sum-of-digits-of-all-distinct-prime-factors-of-n.",
+  "description": "Numbers whose sum of digits is greater than the sum of the digits of all of its distinct prime factors.",
   "id": "A095404",
   "mentions": [
     "A007953",
@@ -11,12 +11,11 @@
   ],
   "tags": [
     "base",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

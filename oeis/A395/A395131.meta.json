@@ -1,0 +1,20 @@
+{
+  "description": "Number of occurrences of digit n in 9^9^9.",
+  "id": "A395131",
+  "mentions": [
+    "A002488",
+    "A054382",
+    "A241298"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

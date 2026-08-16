@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct smallest connected polyiamonds that contain every free n-iamond, up to rotations, reflections and translations of the triangular lattice.",
+  "id": "A396884",
+  "mentions": [
+    "A000577",
+    "A001420",
+    "A352029",
+    "A392363"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

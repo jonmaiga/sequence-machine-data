@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n! + p where p is the smallest prime > n.",
+  "description": "Primes of the form k! + p where p is the smallest prime > k.",
   "id": "A084748",
   "mentions": [
     "A007918",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

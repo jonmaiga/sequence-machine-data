@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the permanent of the symmetric tau(n) X tau(n) matrix M(n) defined by M(i,j) = sigma(d_i*d_j), where d_i, d_j run through the divisors of n.",
+  "id": "A395509",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A027750",
+    "A190902"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Area of the n-th convex polyiamond formed by winding spirals of incrementing strips of polyiamonds.",
+  "id": "A395193",
+  "mentions": [
+    "A000217",
+    "A069813"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

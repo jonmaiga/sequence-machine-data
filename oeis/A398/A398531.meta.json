@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} f(k)/(k*(k+1)), where f(k) = A034444(k) is the number of unitary divisors (or squarefree divisors) of k.",
+  "id": "A398531",
+  "mentions": [
+    "A034444",
+    "A398530"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

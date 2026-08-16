@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent ways to place 4 nonattacking kings on an n X n board, with equivalence being up to rotations.",
+  "id": "A397970",
+  "mentions": [
+    "A061997",
+    "A277226",
+    "A397969"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

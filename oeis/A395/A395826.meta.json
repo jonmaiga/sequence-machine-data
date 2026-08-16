@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4n X 4n matrices of decimal digits with the following property: the matrix decomposes into a 3 X 3 block structure with corners of size n X n and a center of size 2n X 2n, and for every row and every column, the n-digit number formed by the leftmost (resp. topmost) n digits times the n-digit number formed by the rightmost (resp. bottommost) n digits equals the 2n-digit number formed by the middle 2n digits; digits in the outer n rows and outer n columns must be nonzero.",
+  "id": "A395826",
+  "mentions": [],
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

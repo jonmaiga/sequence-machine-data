@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the probability that if three dice are piled up at random on a horizontal plane the pile will not fall down.",
+  "id": "A396273",
+  "mentions": [
+    "A091648",
+    "A396272"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

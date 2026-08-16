@@ -1,0 +1,34 @@
+{
+  "description": "Table read by falling antidiagonals: T(n,k) is the number of k-colorings of the faces of a n-bipyramid up to prismatic symmetry. n >= 3, k >= 0.",
+  "id": "A395240",
+  "mentions": [
+    "A128766",
+    "A199406",
+    "A222187",
+    "A252704",
+    "A252705",
+    "A274900",
+    "A274901",
+    "A321791",
+    "A337963",
+    "A378473",
+    "A378474",
+    "A378475",
+    "A378476",
+    "A378477",
+    "A378478",
+    "A396858",
+    "A396861",
+    "A396913"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

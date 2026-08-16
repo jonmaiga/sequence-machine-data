@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the height of a uniform 10-gonal antiprism with unit edges.",
+  "id": "A395946",
+  "mentions": [
+    "A188593",
+    "A387607",
+    "A387610",
+    "A395804",
+    "A395805",
+    "A395806",
+    "A395807"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

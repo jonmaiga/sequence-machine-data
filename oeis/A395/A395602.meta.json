@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 2, k >= 1, read by antidiagonals downwards, where A(n,k) = [x^(n*k-2)] (1-x) * (1+x)^(n*k-4) * (Sum_{j=0..k} x^j)^n.",
+  "id": "A395602",
+  "mentions": [
+    "A086452",
+    "A087809",
+    "A282733",
+    "A282734",
+    "A282735",
+    "A282736"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "n such that 3 < sigma(n)/n < sigma(m)/m for all abundant numbers m",
+  "description": "Numbers k such that 3 < sigma(k)/k < sigma(m)/m for all abundant numbers m < k such that 3 < sigma(m)/m.",
   "id": "A259312",
   "mentions": [
+    "A000040",
     "A068403",
-    "A071927"
+    "A071927",
+    "A151800"
   ],
   "tags": [
     "nonn"
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

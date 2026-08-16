@@ -2,9 +2,12 @@
   "description": "Multiplicative with a(p^e) = e*p - 1.",
   "id": "A390264",
   "mentions": [
+    "A000005",
     "A000026",
+    "A000203",
     "A001221",
     "A007947",
+    "A008683",
     "A076479",
     "A191750"
   ],

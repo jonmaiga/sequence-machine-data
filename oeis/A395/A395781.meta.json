@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(4*k+1,k) * x^k)^3.",
+  "id": "A395781",
+  "mentions": [
+    "A052203",
+    "A308523",
+    "A395782"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

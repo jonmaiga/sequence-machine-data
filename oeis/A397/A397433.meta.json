@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of integers k >= 0 such that n has a divisor in the interval [2^k, 2^(k+1)).",
+  "id": "A397433",
+  "mentions": [
+    "A000005",
+    "A027424",
+    "A060741",
+    "A070939",
+    "A074738",
+    "A080226"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

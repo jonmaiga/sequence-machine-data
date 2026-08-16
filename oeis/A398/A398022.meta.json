@@ -1,0 +1,16 @@
+{
+  "description": "Irregular triangular array T(n, k) read by rows: Row n gives coefficients for calculating the coefficient of x^n in the power series S(x) = c0+c1*x+c2*x^2+..., that satisfies Mish(S(x)) = x. See comments for further details.",
+  "id": "A398022",
+  "mentions": [
+    "A396907"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

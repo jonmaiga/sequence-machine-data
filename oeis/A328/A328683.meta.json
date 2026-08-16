@@ -2,12 +2,14 @@
   "description": "Positive integers that are equal to 99...99 (repdigit with n digits 9) times the sum of their digits.",
   "id": "A328683",
   "mentions": [
+    "A053422",
     "A057147",
     "A086580",
     "A110807"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -2,6 +2,7 @@
   "description": "a(n) = A335978(n)/9.",
   "id": "A334145",
   "mentions": [
+    "A132583",
     "A335978"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

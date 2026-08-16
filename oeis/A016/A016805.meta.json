@@ -1,9 +1,13 @@
 {
   "description": "a(n) = (4*n)^5.",
   "id": "A016805",
-  "mentions": [],
+  "mentions": [
+    "A000584",
+    "A008586"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

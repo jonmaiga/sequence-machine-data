@@ -1,0 +1,13 @@
+{
+  "description": "a(n) = n! * [x^n] exp(x)/(2 - x - exp(x)).",
+  "id": "A395336",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

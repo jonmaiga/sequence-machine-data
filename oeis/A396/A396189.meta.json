@@ -1,0 +1,18 @@
+{
+  "description": "Record high-points in A396484.",
+  "id": "A396189",
+  "mentions": [
+    "A394166",
+    "A396190",
+    "A396484"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

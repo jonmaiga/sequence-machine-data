@@ -1,0 +1,28 @@
+{
+  "description": "The number of coreful divisors of n that are not exponential unitary divisors of n.",
+  "id": "A396548",
+  "mentions": [
+    "A004709",
+    "A005361",
+    "A082695",
+    "A118914",
+    "A209061",
+    "A278908",
+    "A284318",
+    "A361255",
+    "A380399",
+    "A393489",
+    "A396543",
+    "A396549"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

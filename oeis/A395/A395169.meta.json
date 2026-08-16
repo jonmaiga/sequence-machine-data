@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the smallest dihedral angle, in radians, in a uniform 9-gonal antiprism.",
+  "id": "A395169",
+  "mentions": [
+    "A002194",
+    "A019908",
+    "A019968",
+    "A121602",
+    "A395164",
+    "A395165",
+    "A395166",
+    "A395167",
+    "A395168",
+    "A395170"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

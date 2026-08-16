@@ -2,6 +2,7 @@
   "description": "Number of nonzero elements in GF(2^n) that are cubes.",
   "id": "A213243",
   "mentions": [
+    "A051176",
     "A213244",
     "A213245",
     "A213246",
@@ -9,6 +10,7 @@
     "A213248"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

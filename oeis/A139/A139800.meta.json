@@ -1,16 +1,17 @@
 {
-  "description": "a(n)=a(n-1)+a(n-2)+a(n-3)+2a(n-4).",
+  "description": "a(n) = a(n-1) + a(n-2) + a(n-3) + 2*a(n-4), with a(0) = 1 and a(1) = a(2) = a(3) = 0.",
   "id": "A139800",
   "mentions": [
     "A112030"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "joeis"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

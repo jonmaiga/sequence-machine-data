@@ -1,9 +1,11 @@
 {
-  "description": "Numbers m such that k(m) = m/tau(m) - sigma(m)/m is an integer.",
+  "description": "Numbers m such that m/tau(m) - sigma(m)/m is an integer.",
   "id": "A245778",
   "mentions": [
     "A000005",
     "A000203",
+    "A009194",
+    "A071707",
     "A216793",
     "A245776",
     "A245777",
@@ -12,12 +14,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Main diagonal of A256045: order of all-2s configuration on the n X n sandpile grid graph.",
   "id": "A256046",
   "mentions": [
+    "A007814",
     "A256043",
     "A256045",
     "A256047",
@@ -9,6 +10,7 @@
     "A376607"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

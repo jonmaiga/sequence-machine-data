@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the surface area of the roof of Galileo's dome, a surface that can be described in cylindrical coordinates by z = r * tan(phi) - r^2/(2*cos(phi)^2).",
+  "id": "A396214",
+  "mentions": [
+    "A019675",
+    "A138500"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

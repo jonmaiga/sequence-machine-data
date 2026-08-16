@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5Xn integer arrays with each element equal to the number of horizontal and antidiagonal neighbors less than itself.",
+  "description": "Number of 5 X n integer arrays with each element equal to the number of horizontal and antidiagonal neighbors less than itself.",
   "id": "A266037",
   "mentions": [
     "A266033"

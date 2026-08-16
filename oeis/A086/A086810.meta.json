@@ -1,5 +1,5 @@
 {
-  "description": "Triangle obtained by adding a leading diagonal 1,0,0,0,... to A033282.",
+  "description": "Triangle read by rows: T(n, k) = binomial(n-1, k-1) * binomial(n + k, k) / (n + 1) for k > 0 and T(n, 0) = 0^n.",
   "id": "A086810",
   "mentions": [
     "A000007",

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of maximal chains in the poset of all k-ary words of length <= n, ordered by B covers A iff A_i <= B_{i+k} for all i in A and some k >= 0.",
+  "description": "Triangle read by rows: T(n,k) is the number of maximal chains in the poset of all compositions with weight <= n and parts of size <= k, ordered by A covers B iff A_i >= B_{i+k} for all i in B and some k >= 0. ordered by B covers A iff A_i <= B_{i+k} for all i in A and some k >= 0.",
   "id": "A378588",
   "mentions": [
     "A034841",

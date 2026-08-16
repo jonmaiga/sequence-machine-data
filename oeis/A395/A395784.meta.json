@@ -1,0 +1,16 @@
+{
+  "description": "Brick wall numbers: an integer k > 1, written as k = p_1 * p_2 * ... * p_r where p_1 <= p_2 <= ... <= p_r are primes, is a brick wall number if there exist integers h >= 2 and w >= 2 such that the prime factors p_i of k can be stacked up in h horizontal layers of bricks such that the sum of the p_i's in each layer is equal to w.",
+  "id": "A395784",
+  "mentions": [
+    "A175592",
+    "A246547"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

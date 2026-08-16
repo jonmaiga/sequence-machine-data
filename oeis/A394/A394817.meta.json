@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the spherical cap radius for a spherical cap with 1/3rd of the volume of the unit sphere.",
+  "id": "A394817",
+  "mentions": [
+    "A019699",
+    "A220052"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

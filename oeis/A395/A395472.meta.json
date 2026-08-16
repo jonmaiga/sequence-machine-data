@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the angle theta (in radians) such that 5*theta and 3*theta are the half central angles of the circular arcs of a constructible squarable lune.",
+  "id": "A395472",
+  "mentions": [
+    "A395465",
+    "A395466",
+    "A395467",
+    "A395468",
+    "A395469",
+    "A395470",
+    "A395471"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,15 +1,21 @@
 {
-  "description": "Denominator of coefficient of Pi^n in Ramanujan-like series for Zeta[4n+3].",
+  "description": "Sum_{k>=1} 1/(tanh(k*Pi) * k^(4n-1)) = Pi^(4n-1)*A057866(n)/a(n).",
   "id": "A057867",
   "mentions": [
-    "A057866"
+    "A027641",
+    "A027642",
+    "A057866",
+    "A384962",
+    "A394977"
   ],
   "tags": [
+    "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

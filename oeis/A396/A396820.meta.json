@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (479 - 52*sqrt(2))/576.",
+  "id": "A396820",
+  "mentions": [
+    "A051050",
+    "A051051",
+    "A242780",
+    "A394805",
+    "A396661",
+    "A396819",
+    "A396821"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

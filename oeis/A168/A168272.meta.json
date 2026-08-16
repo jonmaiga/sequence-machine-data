@@ -1,5 +1,5 @@
 {
-  "description": "Abs(prime(prime(n))-prime(nonprime(n))).",
+  "description": "a(n) = abs(prime(prime(n))-prime(nonprime(n))).",
   "id": "A168272",
   "mentions": [
     "A000040",

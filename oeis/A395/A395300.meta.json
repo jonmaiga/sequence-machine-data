@@ -1,0 +1,29 @@
+{
+  "description": "Sum of numbers k < n such that rad(k) | n but k does not divide n, where rad = A007947.",
+  "id": "A395300",
+  "mentions": [
+    "A000096",
+    "A000203",
+    "A000961",
+    "A001221",
+    "A007947",
+    "A020639",
+    "A027750",
+    "A138109",
+    "A138511",
+    "A162306",
+    "A244974",
+    "A272618",
+    "A369609"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

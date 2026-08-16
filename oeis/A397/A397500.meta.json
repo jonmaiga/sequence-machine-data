@@ -1,0 +1,20 @@
+{
+  "description": "Distinct numbers in the order they appear in A397499.",
+  "id": "A397500",
+  "mentions": [
+    "A003557",
+    "A007947",
+    "A055932",
+    "A397499"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

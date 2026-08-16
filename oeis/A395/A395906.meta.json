@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Jacobi theta function theta_2(0, 1/2) where theta_2 is the 2nd Jacobi theta function.",
+  "id": "A395906",
+  "mentions": [
+    "A001831",
+    "A011006",
+    "A046165",
+    "A047863",
+    "A117402",
+    "A156171",
+    "A182176",
+    "A244754",
+    "A259274",
+    "A319016",
+    "A323843",
+    "A369673",
+    "A395905"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

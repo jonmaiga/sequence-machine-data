@@ -1,0 +1,16 @@
+{
+  "description": "Square array read by upwards antidiagonals: T(p,q) is the number cells required to completely surround a single cell of the regular tiling with Schläfli symbol {p,q}.",
+  "id": "A396776",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 66,
+    "source": "joeis"
+  }
+}

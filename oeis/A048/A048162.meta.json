@@ -2,10 +2,12 @@
   "description": "Expansion of (1 - x + 3*x^3 - 2*x^4 - 3*x^5)/(1 - 2*x + x^3).",
   "id": "A048162",
   "mentions": [
+    "A000032",
     "A001610",
     "A008305"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

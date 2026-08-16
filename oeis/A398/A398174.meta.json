@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the sum of reciprocals of repunit numbers base 5, Sum_{k>=1} 4/(5^k - 1).",
+  "id": "A398174",
+  "mentions": [
+    "A003463",
+    "A065442",
+    "A321872",
+    "A398175",
+    "A398178"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

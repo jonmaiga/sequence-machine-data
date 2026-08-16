@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ((Lucas(prime(n)) - 1) / prime(n)) mod prime(n).",
+  "id": "A395605",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A008683",
+    "A064723"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

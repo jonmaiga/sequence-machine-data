@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(4*n+2*k-3,k) - binomial(4*n+2*k-3,k-1)).",
+  "id": "A397507",
+  "mentions": [
+    "A002295",
+    "A333096",
+    "A396577",
+    "A397508",
+    "A397512",
+    "A397515"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

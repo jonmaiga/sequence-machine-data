@@ -1,0 +1,21 @@
+{
+  "description": "Record gaps between consecutive Loeschian numbers (A003136).",
+  "id": "A398379",
+  "mentions": [
+    "A003136",
+    "A357018",
+    "A398380",
+    "A398381"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

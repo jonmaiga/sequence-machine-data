@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2-ball multiplex prime juggling patterns of period n.",
+  "id": "A396749",
+  "mentions": [
+    "A260744",
+    "A260745",
+    "A260746",
+    "A260752"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

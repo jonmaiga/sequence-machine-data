@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n that can be reduced to a single part by repeatedly replacing two parts x and y with |x - y| >= 2 by their sum x + y.",
+  "id": "A397939",
+  "mentions": [
+    "A000005",
+    "A000041"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

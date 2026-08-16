@@ -1,18 +1,19 @@
 {
-  "description": "Start with [0], repeatedly apply the map 0 -> [01/10], 1 -> [10/01] .",
+  "description": "Start with [0], repeatedly apply the map 0 -> [01/10], 1 -> [10/01].",
   "id": "A159637",
   "mentions": [
     "A010059",
     "A010060"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 78,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of factorizations of (p*q*r)^n into parts > 1 where none of p, q, or r are permitted as factors, for any three distinct primes p, q, and r.",
+  "id": "A398553",
+  "mentions": [
+    "A001055",
+    "A397646"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

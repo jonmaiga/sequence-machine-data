@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the height of a canonical (dual-uniform) pentagonal trapezohedron with unit short edge length.",
+  "id": "A397544",
+  "mentions": [
+    "A019692",
+    "A019845",
+    "A104457",
+    "A134945",
+    "A137218",
+    "A228719",
+    "A237603",
+    "A239798",
+    "A384871",
+    "A397543"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

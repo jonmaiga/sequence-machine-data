@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (16*Pi^2/Gamma(2/3)^3-57)*c1/27, where c1 = Gamma(5/3)/(3*Pi/2)^(1/3) (A397855).",
+  "id": "A397856",
+  "mentions": [
+    "A073006",
+    "A197723",
+    "A203129",
+    "A397855"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

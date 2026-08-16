@@ -4,18 +4,18 @@
   "mentions": [
     "A001986",
     "A001992",
+    "A002189",
     "A002224",
     "A002225",
     "A045535"
   ],
   "tags": [
-    "easy",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

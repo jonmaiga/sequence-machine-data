@@ -2,6 +2,7 @@
   "description": "a(n) = 2^(2*n - 1) + n.",
   "id": "A221130",
   "mentions": [
+    "A081294",
     "A199116",
     "A221129"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

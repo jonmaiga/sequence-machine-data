@@ -1,0 +1,19 @@
+{
+  "description": "In factorial base, any rational number has a terminating expansion; hence we can devise a self-inverse permutation of the rational numbers, say m, such that for any rational number q, the representations of q and of m(q) in factorial base are mirrored around the radix point and q and m(q) have the same sign; let f(n) = A002487(n)/A002487(n+1); f is a permutation from the nonnegative integers to the nonnegative rational numbers; let g be the inverse of f; a(n) = g(m(f(n))).",
+  "id": "A398338",
+  "mentions": [
+    "A002487",
+    "A299160",
+    "A355090"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

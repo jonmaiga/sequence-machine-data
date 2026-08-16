@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} gcd(k,n)^(ceiling(n/k) - floor(n/k)).",
+  "id": "A396515",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A018804",
+    "A396514"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = 15n^2 + 13n^3.",
+  "description": "a(n) = 15*n^2 + 13*n^3.",
   "id": "A085377",
   "mentions": [
     "A085409",
     "A085479"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

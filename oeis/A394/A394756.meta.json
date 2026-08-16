@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (6*sqrt(3) - Pi)/24.",
+  "id": "A394756",
+  "mentions": [
+    "A000796",
+    "A002194",
+    "A019691",
+    "A120011",
+    "A395465"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

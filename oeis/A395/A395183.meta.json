@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least positive integer k such that k*n has a decimal expansion with exactly two nonzero digits with one or more zeros between them and any number of trailing zeros. If no such number exists, then a(n) = 0.",
+  "id": "A395183",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

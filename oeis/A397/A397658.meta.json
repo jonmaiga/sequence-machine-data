@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k*P(j) such that bigomega(k) = k - j, where P = A002110 and bigomega = A001222.",
+  "id": "A397658",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A007947",
+    "A060735",
+    "A067255",
+    "A332785",
+    "A396594"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

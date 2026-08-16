@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of generating function x / (1 - 3*x - x^2)^2.",
+  "id": "A398137",
+  "mentions": [
+    "A006190",
+    "A395431",
+    "A395902"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -2,10 +2,17 @@
   "description": "Number of divisors of n of the form 4k+1.",
   "id": "A001826",
   "mentions": [
+    "A000035",
     "A001227",
     "A001620",
     "A001842",
-    "A256778"
+    "A002654",
+    "A082410",
+    "A121262",
+    "A188169",
+    "A188171",
+    "A256778",
+    "A293451"
   ],
   "tags": [
     "easy",

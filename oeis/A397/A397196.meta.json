@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)*H(2*k,2)/k, where H(k,2) = A007406(k)/A007407(k) is the k-th generalized harmonic number of order 2.",
+  "id": "A397196",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A006752",
+    "A007406",
+    "A007407",
+    "A013661",
+    "A397195",
+    "A397197",
+    "A397198"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

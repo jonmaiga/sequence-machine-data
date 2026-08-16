@@ -1,0 +1,17 @@
+{
+  "description": "Number of integer compositions of n such that every initial segment has an integer average.",
+  "id": "A398023",
+  "mentions": [
+    "A000005",
+    "A011782"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

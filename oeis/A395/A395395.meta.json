@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the area of the largest rectangle that can be inscribed in the unit half-width lemniscate of Bernoulli.",
+  "id": "A395395",
+  "mentions": [
+    "A001622",
+    "A064853",
+    "A094214",
+    "A139339",
+    "A154739",
+    "A154743",
+    "A154747",
+    "A197762",
+    "A395392",
+    "A395393",
+    "A395394"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

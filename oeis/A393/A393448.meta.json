@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 3*n^2-2*n+1+floor(n^2/4).",
+  "id": "A393448",
+  "mentions": [
+    "A386486"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

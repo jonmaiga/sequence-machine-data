@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 9*Pi/77.",
+  "id": "A396663",
+  "mentions": [
+    "A093582",
+    "A093587",
+    "A394834",
+    "A394835",
+    "A396660",
+    "A396661",
+    "A396662"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

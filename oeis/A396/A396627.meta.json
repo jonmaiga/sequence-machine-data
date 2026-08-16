@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 5; thereafter a(n+1) = least k with a(n) divisors.",
+  "id": "A396627",
+  "mentions": [
+    "A005179",
+    "A009287",
+    "A037025",
+    "A076964"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

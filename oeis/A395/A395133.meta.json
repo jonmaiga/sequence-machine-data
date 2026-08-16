@@ -1,0 +1,19 @@
+{
+  "description": "Number of monotone and order decreasing transformations on an n-chain.",
+  "id": "A395133",
+  "mentions": [
+    "A000045",
+    "A006318",
+    "A047790",
+    "A122367"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

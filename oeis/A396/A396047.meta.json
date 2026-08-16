@@ -1,0 +1,18 @@
+{
+  "description": "Integers k with 2*m digits such that the product of the number formed by the first m digits and the number formed by the last m digits equals the reversal of k.",
+  "id": "A396047",
+  "mentions": [
+    "A004086",
+    "A009944"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

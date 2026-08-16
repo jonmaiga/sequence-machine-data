@@ -1,0 +1,17 @@
+{
+  "description": "Number of cyclic permutations sigma of Z/2^n such that sigma(i+1) is in {2*sigma(i), 2*sigma(i)+1} for all i in Z/2^n.",
+  "id": "A395616",
+  "mentions": [
+    "A016031"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the volume of an icosahedron with unit edge length.",
+  "description": "Decimal expansion of the volume of a regular icosahedron with unit edge length.",
   "id": "A102208",
   "mentions": [
     "A001622",

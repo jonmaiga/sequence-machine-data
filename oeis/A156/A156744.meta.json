@@ -6,13 +6,13 @@
     "A099996"
   ],
   "tags": [
-    "more",
+    "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 48,
+    "source": "oeis-bfile"
   }
 }

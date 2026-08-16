@@ -1,5 +1,5 @@
 {
-  "description": "\"Mersenne\" semiprimes, semiprimes of the form 2^k-1.",
+  "description": "Mersenne semiprimes, semiprimes of the form 2^k-1.",
   "id": "A092561",
   "mentions": [
     "A000225",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

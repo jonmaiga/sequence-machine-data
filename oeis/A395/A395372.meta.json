@@ -1,0 +1,13 @@
+{
+  "description": "Number of weakly consecutive sequences of length n.",
+  "id": "A395372",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

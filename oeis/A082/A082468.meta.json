@@ -2,7 +2,8 @@
   "description": "a(n) is the smallest positive integer k such that A082467(k)=n.",
   "id": "A082468",
   "mentions": [
-    "A082467"
+    "A082467",
+    "A104884"
   ],
   "tags": [
     "nonn"

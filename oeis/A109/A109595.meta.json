@@ -2,10 +2,13 @@
   "description": "n^3 followed by n^2 followed by n.",
   "id": "A109595",
   "mentions": [
+    "A000290",
     "A000463",
+    "A000578",
     "A010872"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

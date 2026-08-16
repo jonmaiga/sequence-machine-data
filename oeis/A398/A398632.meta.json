@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations p of [n+5] such that |p(i+1)-p(i)| <> n for all 1 <= i < n+5.",
+  "id": "A398632",
+  "mentions": [
+    "A001689",
+    "A062119",
+    "A396690",
+    "A397570",
+    "A398631",
+    "A398634"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

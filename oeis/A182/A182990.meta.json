@@ -8,12 +8,13 @@
     "A183001"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
-    "source": "joeis"
+    "size": 8,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of abstract order types of configurations of n points in n+3 dimensions.",
+  "description": "Number of abstract order types of configurations of n+3 points in n dimensions.",
   "id": "A246990",
   "mentions": [
     "A063853"

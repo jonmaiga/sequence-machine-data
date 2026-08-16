@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. log(1 - W_2(-x)), where W_k(x) is the k-th iterate of LambertW(x).",
+  "id": "A396677",
+  "mentions": [
+    "A133297",
+    "A207833",
+    "A396675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

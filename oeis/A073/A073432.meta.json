@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) + composite(n) is even.",
+  "description": "Numbers k such that prime(k) + composite(k) is even.",
   "id": "A073432",
   "mentions": [
     "A000040",

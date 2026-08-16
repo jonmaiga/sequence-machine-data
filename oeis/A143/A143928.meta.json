@@ -2,6 +2,7 @@
   "description": "2*p^2, for p an odd prime.",
   "id": "A143928",
   "mentions": [
+    "A001248",
     "A054397",
     "A065091",
     "A079704"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 41,
     "source": "joeis"
   }
 }

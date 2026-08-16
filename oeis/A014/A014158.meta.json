@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are not the sum of 2 cubes and a triangular number.",
+  "description": "Numbers that are not the sum of 2 nonnegative cubes and a triangular number.",
   "id": "A014158",
   "mentions": [
     "A014157"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

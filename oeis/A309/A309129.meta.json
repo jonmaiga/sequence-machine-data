@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that -n is a quadratic nonresidue modulo all odd primes p <= sqrt(n) which do not divide n.",
+  "description": "Numbers k such that -k is a quadratic nonresidue modulo all odd primes p <= sqrt(k) which do not divide k.",
   "id": "A309129",
   "mentions": [
     "A000926",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2^(n-1)-1) * (2^n-3).",
+  "id": "A394960",
+  "mentions": [
+    "A000225",
+    "A006516",
+    "A036563",
+    "A134057"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

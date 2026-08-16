@@ -1,0 +1,18 @@
+{
+  "description": "Number of square-patch-irreducible squarings of a square into n smaller squares, up to dihedral symmetry.",
+  "id": "A393979",
+  "mentions": [
+    "A221841",
+    "A221842"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

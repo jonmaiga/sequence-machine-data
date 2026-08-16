@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * AH(k,8)/k, where AH(k,8) = Sum_{i=1..k} (-1)^(i+1)/i^8 is the k-th alternating harmonic (or skew-harmonic) number of order 8.",
+  "id": "A397291",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013664",
+    "A013665",
+    "A013666",
+    "A013667",
+    "A369884",
+    "A397288",
+    "A397289",
+    "A397290"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

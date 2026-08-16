@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that concatenation of n and its 10's complement is a palindrome.",
+  "description": "Numbers k such that concatenation of k and its 10's complement is a palindrome.",
   "id": "A109625",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Minimum number of hexagonal cells in a connected polyhex that contains every one-sided n-hex as a rotation-and-translation subset.",
+  "id": "A395434",
+  "mentions": [
+    "A000228",
+    "A001207",
+    "A006535",
+    "A261878",
+    "A261993",
+    "A293239",
+    "A299251",
+    "A327094",
+    "A392363",
+    "A395422"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

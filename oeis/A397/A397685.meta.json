@@ -1,0 +1,19 @@
+{
+  "description": "Multiperfect numbers k that are divisible by some 2^m but not by 2^(m+1)-1.",
+  "id": "A397685",
+  "mentions": [
+    "A000203",
+    "A005820",
+    "A007691",
+    "A046060"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

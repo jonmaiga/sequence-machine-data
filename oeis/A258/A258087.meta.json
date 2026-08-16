@@ -2,6 +2,7 @@
   "description": "Start with all terms set to 0. Then add n to the next n+2 terms for n=0,1,2,... .",
   "id": "A258087",
   "mentions": [
+    "A037915",
     "A272058"
   ],
   "tags": [

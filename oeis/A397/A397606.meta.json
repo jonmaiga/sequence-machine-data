@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator of A069835(n)/2^n.",
+  "id": "A397606",
+  "mentions": [
+    "A002692",
+    "A005187",
+    "A069835",
+    "A397547"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A'(x) = 1 + A(-log(1-3*x)/3), with A(0) = 0.",
+  "id": "A398000",
+  "mentions": [
+    "A143805",
+    "A307874",
+    "A397999"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

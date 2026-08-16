@@ -1,7 +1,10 @@
 {
   "description": "Sum of interior angles in an n-sided polygon in degrees.",
   "id": "A066164",
-  "mentions": [],
+  "mentions": [
+    "A000027",
+    "A008592"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 43,
+    "size": 45,
     "source": "joeis"
   }
 }

@@ -1,14 +1,27 @@
 {
-  "description": "Number of permutations of 1..n+6 with the number moved left exceeding the number moved right by n or more.",
+  "description": "Number of permutations of {1, ..., n+6} with deficiencies #{i : p(i) < i} exceeding exceedances #{i : p(i) > i} by n or more.",
   "id": "A179581",
-  "mentions": [],
+  "mentions": [
+    "A179564",
+    "A179565",
+    "A179566",
+    "A179570",
+    "A179571",
+    "A179573",
+    "A179578",
+    "A179579",
+    "A179580",
+    "A179582",
+    "A179583",
+    "A179584"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 21,
-    "source": "joeis"
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

@@ -2,15 +2,23 @@
   "description": "Leftmost 1 is converted to a 2, which then propagates one step at a time until it is rightmost; then it changes to a pair of 1's and the process repeats.",
   "id": "A071762",
   "mentions": [
-    "A071761"
+    "A002262",
+    "A002275",
+    "A003056",
+    "A010054",
+    "A025581",
+    "A057944",
+    "A071761",
+    "A128138"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 38,
     "source": "joeis"
   }
 }

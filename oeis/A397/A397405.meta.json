@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not Jacobsthal-Lucas numbers.",
+  "id": "A397405",
+  "mentions": [
+    "A014551",
+    "A090946",
+    "A147613"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

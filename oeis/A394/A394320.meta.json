@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where A(n,k) = (2*n)! * [x^(2*n)] (f(x)^k + f(-x)^k)/2 and f(x) = 1/(cos(x) + sin(x)).",
+  "id": "A394320",
+  "mentions": [
+    "A000007",
+    "A000281",
+    "A253165",
+    "A341268",
+    "A395232",
+    "A395233"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

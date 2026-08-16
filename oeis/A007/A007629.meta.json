@@ -1,5 +1,5 @@
 {
-  "description": "Repfigit (REPetitive FIbonacci-like diGIT) numbers (or Keith numbers).",
+  "description": "Keith numbers, or Repfigit (REPlicating FIbonnaci diGIT) numbers.",
   "id": "A007629",
   "mentions": [
     "A006576",
@@ -10,6 +10,10 @@
     "A186830",
     "A187713",
     "A188195",
+    "A188196",
+    "A188197",
+    "A188198",
+    "A188199",
     "A188200",
     "A188201",
     "A188380",

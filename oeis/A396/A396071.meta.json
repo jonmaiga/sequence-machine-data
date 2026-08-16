@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the maximum number of distinct residues modulo n among {i*f(i): 1 <= i <= n}, as f ranges over all permutations of {1, 2, ..., n}.",
+  "id": "A396071",
+  "mentions": [
+    "A397403"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

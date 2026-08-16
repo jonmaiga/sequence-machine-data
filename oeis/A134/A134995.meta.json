@@ -1,5 +1,5 @@
 {
-  "description": "Floor(3n/2log(n+1)).",
+  "description": "a(n) = floor(3n/2log(n+1)).",
   "id": "A134995",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 2,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

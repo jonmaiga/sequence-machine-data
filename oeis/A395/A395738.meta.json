@@ -1,0 +1,16 @@
+{
+  "description": "Index of first occurrence of n in A057853.",
+  "id": "A395738",
+  "mentions": [
+    "A057853"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

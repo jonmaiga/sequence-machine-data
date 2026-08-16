@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle, next row is the previous row with the difference between consecutive numbers inserted between, starting with row 1 1.",
+  "id": "A395114",
+  "mentions": [
+    "A000051",
+    "A049456"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

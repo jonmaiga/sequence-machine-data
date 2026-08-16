@@ -1,8 +1,9 @@
 {
-  "description": "Subsequence of fixed points A099009 of the Kaprekar mapping with numbers of the form 5(n)//4//9(n+1)//4(n)//5.",
+  "description": "Subsequence of fixed points A099009 of the Kaprekar mapping, with numbers of the form 5{n}49{n+1}4{n}5, where d{n} means n-fold repetition of digit d.",
   "id": "A214555",
   "mentions": [
     "A099009",
+    "A151949",
     "A214556",
     "A214559"
   ],

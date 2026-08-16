@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array T(n, k) of coefficients of the \"Mish\" activation function that is used in machine learning. Mish(x) = x*tan(log(1+exp(x))) = x*Sum_{n>=0} x^n*Sum_{k=0..n}t^k*T(n, k)/(k!*2^k), where t = tan(log(2)).",
+  "id": "A396907",
+  "mentions": [
+    "A001286",
+    "A009640",
+    "A014481",
+    "A027641",
+    "A027642",
+    "A089171",
+    "A276593",
+    "A398022"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

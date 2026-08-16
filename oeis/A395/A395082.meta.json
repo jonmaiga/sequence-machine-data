@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of partitions of n into distinct parts with sum of phi values equals phi(n).",
+  "id": "A395082",
+  "mentions": [
+    "A000009",
+    "A000010",
+    "A051953",
+    "A394248",
+    "A395091",
+    "A395096",
+    "A395097",
+    "A395111"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

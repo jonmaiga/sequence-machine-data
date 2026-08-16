@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records of A395994.",
+  "id": "A396399",
+  "mentions": [
+    "A395994",
+    "A396400",
+    "A396401",
+    "A396402"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

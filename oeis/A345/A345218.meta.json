@@ -2,10 +2,12 @@
   "description": "Number of labeled triangle-free connected simple graphs on n vertices.",
   "id": "A345218",
   "mentions": [
+    "A001832",
     "A024607",
     "A213434"
   ],
   "tags": [
+    "formulas",
     "hard",
     "nonn"
   ],

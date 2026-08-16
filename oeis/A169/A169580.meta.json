@@ -1,5 +1,5 @@
 {
-  "description": "Squares of the form x^2+y^2+z^2 with x,y,z positive integers.",
+  "description": "Squares of the form x^2 + y^2 + z^2 with x, y, z as positive integers.",
   "id": "A169580",
   "mentions": [
     "A000378",

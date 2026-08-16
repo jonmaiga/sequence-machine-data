@@ -1,0 +1,38 @@
+{
+  "description": "Smallest number k such that the symmetric representation of sigma(k) has 2*n parts and two parts meet at the center of the Dyck paths.",
+  "id": "A394791",
+  "mentions": [
+    "A000203",
+    "A014105",
+    "A033676",
+    "A033677",
+    "A071561",
+    "A174973",
+    "A191363",
+    "A207375",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A239929",
+    "A240062",
+    "A245092",
+    "A262259",
+    "A262626",
+    "A264104",
+    "A280107",
+    "A298856",
+    "A320511",
+    "A384222",
+    "A392197",
+    "A395156"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

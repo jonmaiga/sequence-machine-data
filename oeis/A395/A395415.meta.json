@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest n-simplex number that has exactly n prime factors, counted with multiplicity.",
+  "id": "A395415",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A068443",
+    "A356095",
+    "A396215"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

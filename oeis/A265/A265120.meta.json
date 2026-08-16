@@ -6,6 +6,7 @@
     "A000010",
     "A002322",
     "A066800",
+    "A111725",
     "A155828",
     "A258446"
   ],
@@ -14,8 +15,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 2,
-    "size": 83,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) are the terms occurring for the first time exactly n times consecutively in A000793.",
+  "id": "A395750",
+  "mentions": [
+    "A000793",
+    "A395749"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

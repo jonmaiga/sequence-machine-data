@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of space diagonals in Johnson solid J_n.",
+  "id": "A396905",
+  "mentions": [
+    "A242733",
+    "A394912",
+    "A394913",
+    "A396904",
+    "A396906"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

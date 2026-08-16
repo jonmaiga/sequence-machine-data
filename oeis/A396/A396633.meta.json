@@ -1,0 +1,24 @@
+{
+  "description": "Primes with strictly increasing decimal digits whose digit reversal is also prime.",
+  "id": "A396633",
+  "mentions": [
+    "A006567",
+    "A007500",
+    "A024770",
+    "A046732",
+    "A052015",
+    "A068652"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

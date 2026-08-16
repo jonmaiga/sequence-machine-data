@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of new, distinct point-like intersections created after the n-th step of the process described at A394915.",
+  "id": "A394225",
+  "mentions": [
+    "A394915",
+    "A395161"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of almost irreducible meanders with n intersections.",
+  "id": "A394577",
+  "mentions": [
+    "A393654"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

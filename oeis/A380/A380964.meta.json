@@ -1,5 +1,5 @@
 {
-  "description": "Perimeter-magic hexagons of order 3 with magic sum n.",
+  "description": "Number of perimeter-magic hexagons of order 3 with magic sum n.",
   "id": "A380964",
   "mentions": [
     "A244879",

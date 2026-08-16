@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n divided by the largest ratio of consecutive divisors of n.",
+  "id": "A396897",
+  "mentions": [
+    "A033676",
+    "A163925",
+    "A163926",
+    "A396205",
+    "A396715",
+    "A396716"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 80,
+    "source": "joeis"
+  }
+}

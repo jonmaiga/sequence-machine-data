@@ -2,7 +2,8 @@
   "description": "A bisection of A063522.",
   "id": "A160699",
   "mentions": [
-    "A063522"
+    "A063522",
+    "A160674"
   ],
   "tags": [
     "easy",

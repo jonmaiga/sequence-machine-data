@@ -1,5 +1,5 @@
 {
-  "description": "Primes appearing as concatenation of the last digit of Prime[A086101(n)] and the first digit of Prime[A086101(n)+1].",
+  "description": "Primes appearing as concatenation of the last digit of prime(A086101(n)) and the first digit of prime(A086101(n)+1).",
   "id": "A086104",
   "mentions": [
     "A086101",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

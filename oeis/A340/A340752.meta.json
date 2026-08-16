@@ -2,9 +2,11 @@
   "description": "a(n) is the least prime p such that there is at least one prime <= p in each congruence class mod prime(n).",
   "id": "A340752",
   "mentions": [
+    "A178215",
     "A340753"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

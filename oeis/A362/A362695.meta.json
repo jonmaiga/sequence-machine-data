@@ -1,9 +1,7 @@
 {
   "description": "Decimal expansion of (3 - sqrt(3))/4.",
   "id": "A362695",
-  "mentions": [
-    "A334843"
-  ],
+  "mentions": [],
   "tags": [
     "cons",
     "nonn"

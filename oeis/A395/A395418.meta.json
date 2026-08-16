@@ -1,0 +1,23 @@
+{
+  "description": "For any n with Hamming weight h > 0, reverse each chunk of h bits in the binary expansion of n (possibly with leading 0's); a(0) = 0.",
+  "id": "A395418",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A057300",
+    "A210635",
+    "A344531",
+    "A373038"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

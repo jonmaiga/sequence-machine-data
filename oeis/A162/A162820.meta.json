@@ -1,5 +1,5 @@
 {
-  "description": "Positive numbers n such that 60*n/(60+n) are integers.",
+  "description": "Positive numbers n such that 60*n/(60+n) is an integer.",
   "id": "A162820",
   "mentions": [
     "A127730",

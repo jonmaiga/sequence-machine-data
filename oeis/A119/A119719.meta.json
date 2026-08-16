@@ -5,12 +5,11 @@
   "tags": [
     "cofr",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 95,
+    "source": "oeis-bfile"
   }
 }

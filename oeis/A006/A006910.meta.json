@@ -1,8 +1,11 @@
 {
   "description": "Theta series of laminated lattice LAMBDA_11^{min}.",
   "id": "A006910",
-  "mentions": [],
+  "mentions": [
+    "A006911"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

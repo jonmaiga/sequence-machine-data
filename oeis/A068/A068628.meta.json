@@ -2,10 +2,14 @@
   "description": "Numbers occurring twice in A068627.",
   "id": "A068628",
   "mentions": [
+    "A007742",
+    "A033585",
+    "A063436",
     "A068627"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

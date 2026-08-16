@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic solutions to minimal dominating set on queens' graph Q(n).",
+  "description": "Number of nonisomorphic minimum dominating sets on the queens' graph Q(n).",
   "id": "A002563",
   "mentions": [
     "A002560",

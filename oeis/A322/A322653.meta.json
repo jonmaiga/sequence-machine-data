@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are sums of consecutive octagonal pyramidal numbers (A002414).",
+  "description": "Numbers that are sums of one or more consecutive octagonal pyramidal numbers (A002414).",
   "id": "A322653",
   "mentions": [
     "A002414",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Majority value maps: number of 4Xn binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal and antidiagonal neighbors in a random 0..3 4Xn array.",
+  "description": "Majority value maps: number of 4 X n binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal and antidiagonal neighbors in a random 0..3 4 X n array.",
   "id": "A221501",
   "mentions": [
     "A221499"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

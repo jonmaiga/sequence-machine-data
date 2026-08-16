@@ -1,5 +1,5 @@
 {
-  "description": "n such that floor(sqrt(10^(2*n-1))) is (probably) prime.",
+  "description": "k such that floor(sqrt(10^(2*k-1))) is prime.",
   "id": "A136583",
   "mentions": [
     "A010467",
@@ -12,12 +12,13 @@
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that tau(2*k) = tau(k + 2) where tau = A000005.",
+  "id": "A396005",
+  "mentions": [
+    "A000005",
+    "A115093",
+    "A234095"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

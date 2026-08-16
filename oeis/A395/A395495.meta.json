@@ -1,0 +1,20 @@
+{
+  "description": "Minimum number of cells in a connected polyomino on the square grid that contains every fixed n-omino as a translated subregion.",
+  "id": "A395495",
+  "mentions": [
+    "A000105",
+    "A000217",
+    "A001168",
+    "A327094",
+    "A350660"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

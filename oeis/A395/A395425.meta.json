@@ -1,0 +1,20 @@
+{
+  "description": "In the binary expansion of n without leading zeros, say (b_1, b_2, ..., b_w), reverse even-indexed bits.",
+  "id": "A395425",
+  "mentions": [
+    "A000120",
+    "A371459"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

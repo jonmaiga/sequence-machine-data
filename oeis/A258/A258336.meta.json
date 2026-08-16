@@ -1,17 +1,19 @@
 {
-  "description": "Least solution of the equation x' = x + p for increasing values of p, where x' is the arithmetic derivative of x and p is an odd prime. a(n)= -1 if no such solution exists.",
+  "description": "a(n) = smallest solution of the equation x' = x + p, where x' is the arithmetic derivative of x and p is the n-th prime. a(n)= -1 if no such solution exists.",
   "id": "A258336",
   "mentions": [
     "A000040",
-    "A003415"
+    "A003415",
+    "A007850",
+    "A263927",
+    "A368703"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

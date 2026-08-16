@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n lists a permutation of the nonnegative integers in the interval [0, A001911(n)] (see comments).",
+  "id": "A396472",
+  "mentions": [
+    "A000071",
+    "A001911",
+    "A396471"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum{floor(sqrt(3)*k/2) : 1<=k<=n}.",
+  "description": "a(n) = Sum_{k=1..n} floor(sqrt(3)*k/2).",
   "id": "A194082",
   "mentions": [
     "A010527",

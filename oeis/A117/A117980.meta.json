@@ -1,7 +1,11 @@
 {
   "description": "Legendre-binomial transform of (-1)^n for p=3.",
   "id": "A117980",
-  "mentions": [],
+  "mentions": [
+    "A117611",
+    "A117976",
+    "A117977"
+  ],
   "tags": [
     "easy",
     "formulas",

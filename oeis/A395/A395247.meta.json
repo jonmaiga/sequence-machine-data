@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of acyclic digraphs (or DAGs) on n labeled nodes in which the maximum in-degree is k, for n >= 0 and 0 <= k <= n.",
+  "id": "A395247",
+  "mentions": [
+    "A000272",
+    "A003024",
+    "A397711",
+    "A397712"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

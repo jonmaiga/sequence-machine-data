@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (Pi+2)/Pi^2.",
+  "id": "A396023",
+  "mentions": [
+    "A049541",
+    "A060294",
+    "A089491",
+    "A185197",
+    "A197724",
+    "A396022"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

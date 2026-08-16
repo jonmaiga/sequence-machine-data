@@ -1,7 +1,19 @@
 {
-  "description": "Numbers k such that 2^(2*k-7)-7 is prime.",
+  "description": "Numbers k such that 2^(2*k-7) - 7 is prime.",
   "id": "A138578",
-  "mentions": [],
+  "mentions": [
+    "A138577",
+    "A138579",
+    "A138580",
+    "A138581",
+    "A138582",
+    "A138598",
+    "A138599",
+    "A138600",
+    "A138601",
+    "A138602",
+    "A138603"
+  ],
   "tags": [
     "more",
     "nonn"

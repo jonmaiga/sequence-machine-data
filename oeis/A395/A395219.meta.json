@@ -1,0 +1,20 @@
+{
+  "description": "Entropy of the zeta probability distribution with parameter s=3.",
+  "id": "A395219",
+  "mentions": [
+    "A013661",
+    "A073002",
+    "A395218",
+    "A395220"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Number of primes embedded in decimal expansion of prime(n) as substrings.",
+  "description": "Number of primes embedded in decimal expansion of prime(n) as subsequences.",
   "id": "A039994",
   "mentions": [
+    "A000040",
     "A039995",
     "A039996"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

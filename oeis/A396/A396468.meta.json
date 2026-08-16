@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct triples of triangles chosen from n^2 unit triangles of a triangular grid up to rotation and triples in which all three triangles lie in the same row parallel to a side of the grid.",
+  "id": "A396468",
+  "mentions": [
+    "A006324",
+    "A396285",
+    "A396467"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

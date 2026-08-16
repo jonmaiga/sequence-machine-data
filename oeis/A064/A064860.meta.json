@@ -1,7 +1,18 @@
 {
   "description": "Period of continued fraction for sqrt(7)*n.",
   "id": "A064860",
-  "mentions": [],
+  "mentions": [
+    "A064848",
+    "A064849",
+    "A064850",
+    "A064851",
+    "A064862",
+    "A064863",
+    "A064864",
+    "A064887",
+    "A064897",
+    "A064912"
+  ],
   "tags": [
     "nonn"
   ],

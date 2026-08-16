@@ -1,0 +1,17 @@
+{
+  "description": "Main diagonal of the array A397775.",
+  "id": "A397776",
+  "mentions": [
+    "A033540",
+    "A397775"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

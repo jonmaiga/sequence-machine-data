@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of unlabeled connected prime graphs with n nodes (see Comments).",
+  "id": "A394736",
+  "mentions": [
+    "A001349"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

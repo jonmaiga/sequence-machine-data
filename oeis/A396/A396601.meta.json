@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k where sigma_4(k)/k is an integer.",
+  "id": "A396601",
+  "mentions": [
+    "A001159",
+    "A005408",
+    "A046764",
+    "A396599",
+    "A396600",
+    "A396602"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

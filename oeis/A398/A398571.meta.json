@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed polyominoes with 2n cells that can be tiled by n dominoes.",
+  "id": "A398571",
+  "mentions": [
+    "A001168",
+    "A056785",
+    "A390622",
+    "A397722",
+    "A397725"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

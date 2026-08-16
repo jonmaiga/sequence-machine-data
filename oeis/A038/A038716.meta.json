@@ -1,7 +1,9 @@
 {
   "description": "a(n) = floor(n/4)*ceiling((n+3)/4).",
   "id": "A038716",
-  "mentions": [],
+  "mentions": [
+    "A038715"
+  ],
   "tags": [
     "easy",
     "formulas",

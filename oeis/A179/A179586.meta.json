@@ -1,13 +1,29 @@
 {
-  "description": "Number of permutations of 1..n+11 with the number moved left exceeding the number moved right by n or more.",
+  "description": "Number of permutations of 1..n+11 with deficiencies #{i: p(i) < i} exceeding the exceedances #{i: p(i) > i} by n or more.",
   "id": "A179586",
-  "mentions": [],
+  "mentions": [
+    "A179564",
+    "A179565",
+    "A179566",
+    "A179570",
+    "A179571",
+    "A179578",
+    "A179579",
+    "A179580",
+    "A179581",
+    "A179582",
+    "A179583",
+    "A179584",
+    "A179585"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 9,
+    "offset": 0,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

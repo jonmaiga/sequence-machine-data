@@ -1,7 +1,10 @@
 {
-  "description": "mu(prime(n)+1)+1.",
+  "description": "a(n) = mu(prime(n)+1)+1.",
   "id": "A067461",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A008683"
+  ],
   "tags": [
     "easy",
     "nonn"

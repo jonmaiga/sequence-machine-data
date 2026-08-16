@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimum feedback vertex sets in the grid graph P_n X P_5.",
+  "id": "A398273",
+  "mentions": [
+    "A398271"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

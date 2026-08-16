@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes p such that n is the smallest value of z for which there exists a solution to p = x*y+y*z+z*x in nonnegative integers x <= y <= z.",
+  "id": "A396668",
+  "mentions": [
+    "A394353",
+    "A396665",
+    "A396667"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,13 @@
 {
   "description": "Decimal expansion of sqrt(4*sqrt(3) - 3) - 1, the solution to the problem of dissecting an equilateral triangle into a square, with 3 cuts (Haberdasher's problem).",
   "id": "A185260",
-  "mentions": [],
+  "mentions": [
+    "A298744"
+  ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

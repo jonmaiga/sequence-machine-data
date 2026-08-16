@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=1..n-2} (n*k + n - 1)! / (n*k + 1)!.",
+  "id": "A395280",
+  "mentions": [
+    "A088020",
+    "A382532",
+    "A382612",
+    "A382620"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

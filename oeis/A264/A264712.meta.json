@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 arrays of permutations of 0..n*2-1 with rows nondecreasing modulo 5 and columns nondecreasing modulo 6.",
+  "description": "Number of n X 2 arrays of permutations of 0..n*2-1 with rows nondecreasing modulo 5 and columns nondecreasing modulo 6.",
   "id": "A264712",
   "mentions": [
     "A264714"

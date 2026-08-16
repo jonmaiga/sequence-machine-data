@@ -1,14 +1,15 @@
 {
-  "description": "Expansion of 1/((1-2x)(1-3x)(1-6x)(1-7x)).",
+  "description": "Expansion of 1/((1-2*x)*(1-3*x)*(1-6*x)*(1-7*x)).",
   "id": "A025937",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

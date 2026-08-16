@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit base-3 deletable prime.",
+  "id": "A395333",
+  "mentions": [
+    "A096236",
+    "A125589",
+    "A125590",
+    "A305352",
+    "A395332"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

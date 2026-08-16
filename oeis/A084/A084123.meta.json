@@ -1,12 +1,15 @@
 {
-  "description": "Palindromic numbers which are equal to a number n multiplied by the n-th prime.",
+  "description": "Palindromic numbers which are equal to a number k multiplied by the k-th prime.",
   "id": "A084123",
   "mentions": [
+    "A002113",
+    "A033286",
     "A084121",
     "A084122"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

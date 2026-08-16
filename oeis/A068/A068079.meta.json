@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 355 / 113.",
   "id": "A068079",
   "mentions": [
+    "A000796",
     "A001203",
     "A002485",
     "A002486",

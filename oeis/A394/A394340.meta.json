@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding walks on the cubic lattice with the first three orthogonal steps specified (see Comments).",
+  "id": "A394340",
+  "mentions": [
+    "A001412",
+    "A046171",
+    "A078717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

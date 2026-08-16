@@ -1,10 +1,13 @@
 {
   "description": "Decimal expansion of tangent of 3 degrees.",
   "id": "A019901",
-  "mentions": [],
+  "mentions": [
+    "A019985"
+  ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

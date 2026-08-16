@@ -1,0 +1,18 @@
+{
+  "description": "Which blocks in A280864 have length 4.",
+  "id": "A396305",
+  "mentions": [
+    "A280864",
+    "A283832",
+    "A396306",
+    "A396307"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

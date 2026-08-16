@@ -1,0 +1,19 @@
+{
+  "description": "Antidiagonal products of the multifactorial array.",
+  "id": "A397838",
+  "mentions": [
+    "A000290",
+    "A010766",
+    "A114423",
+    "A129116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

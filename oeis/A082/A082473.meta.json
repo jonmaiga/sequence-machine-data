@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n = phi(x)*core(x) for some x <= n, where phi(x) is the Euler totient function and core(x) the squarefree part of x.",
+  "description": "Numbers k such that k = phi(x)*core(x) for some x <= k, where phi(x) is the Euler totient function and core(x) the squarefree part of x.",
   "id": "A082473",
   "mentions": [
     "A000010",

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 12*(2*sqrt(2) - sqrt(6)).",
+  "id": "A396519",
+  "mentions": [
+    "A010464",
+    "A010466",
+    "A396517",
+    "A396520"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

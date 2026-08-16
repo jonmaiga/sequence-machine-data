@@ -2,16 +2,23 @@
   "description": "Number of length-2n binary strings of the form xxyy, with x and y both nonempty.",
   "id": "A347583",
   "mentions": [
+    "A027375",
+    "A191755",
+    "A237500",
+    "A237501",
+    "A237502",
+    "A241208",
+    "A241210",
+    "A241211",
     "A347582"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

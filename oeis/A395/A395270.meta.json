@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are radicals of abundant numbers.",
+  "id": "A395270",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A000961",
+    "A001221",
+    "A001275",
+    "A001276",
+    "A005117",
+    "A007947",
+    "A039956",
+    "A046388",
+    "A056911",
+    "A120944",
+    "A395271",
+    "A396829"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

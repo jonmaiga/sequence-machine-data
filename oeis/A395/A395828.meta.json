@@ -1,0 +1,26 @@
+{
+  "description": "Number of septenary strings of length n that contain a specific string xx (where x is a single digit).",
+  "id": "A395828",
+  "mentions": [
+    "A008466",
+    "A180167",
+    "A186244",
+    "A322053",
+    "A340156",
+    "A351529",
+    "A351530",
+    "A395827",
+    "A395829",
+    "A395830"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

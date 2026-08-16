@@ -1,0 +1,17 @@
+{
+  "description": "Number of primitive undirected self-avoiding paths of length n in the square lattice; i.e., A037245 with nonprimitive paths excluded.",
+  "id": "A396017",
+  "mentions": [
+    "A037245"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Conjectured list of numbers whose trajectory under the 15x+1 map eventually reaches 1, where the map sends odd x to 15x+1 and even x to x/2.",
+  "id": "A396960",
+  "mentions": [
+    "A000079",
+    "A131865",
+    "A267703"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

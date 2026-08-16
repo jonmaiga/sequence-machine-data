@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p-1 has primitive roots (i.e., is in A033948).",
+  "id": "A396480",
+  "mentions": [
+    "A002322",
+    "A033948",
+    "A061345",
+    "A396478",
+    "A396481"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

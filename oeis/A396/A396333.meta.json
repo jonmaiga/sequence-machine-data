@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered triples of integers (x,y,z) with 0 <= x <= y <= z and x^2 + y^2 + z^2 < n^2.",
+  "id": "A396333",
+  "mentions": [
+    "A000605",
+    "A078183",
+    "A117609",
+    "A255212",
+    "A394684"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

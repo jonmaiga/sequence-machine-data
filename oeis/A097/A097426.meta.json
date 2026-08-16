@@ -1,7 +1,10 @@
 {
   "description": "Integer part of the circumference of circles with prime diameters.",
   "id": "A097426",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000796"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

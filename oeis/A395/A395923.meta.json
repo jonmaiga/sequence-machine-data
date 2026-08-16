@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k), n >= 1, 1 <= k <= n, read by rows, where T(n,k) is the number of rectangular plane partitions of n with exactly k rows.",
+  "id": "A395923",
+  "mentions": [
+    "A000041",
+    "A323429",
+    "A395924",
+    "A395925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

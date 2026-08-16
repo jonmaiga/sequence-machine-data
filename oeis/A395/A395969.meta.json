@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 3*(k+1) divides the decimal concatenation [k, k+1, k+2].",
+  "id": "A395969",
+  "mentions": [
+    "A001703",
+    "A173712",
+    "A375728"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

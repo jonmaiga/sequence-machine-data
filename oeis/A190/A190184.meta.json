@@ -1,13 +1,13 @@
 {
-  "description": "Decimal expansion of sqrt(1+x+sqrt(1+2*x)), where x=sqrt(2/3).",
+  "description": "Decimal expansion of sqrt(1+x+sqrt(1+2*x)), where x = sqrt(2/3).",
   "id": "A190184",
   "mentions": [
     "A188635",
-    "A190185",
-    "A190186"
+    "A190185"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

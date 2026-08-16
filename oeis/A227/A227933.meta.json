@@ -1,12 +1,13 @@
 {
-  "description": "Smallest sets of 6 consecutive primes with equal digital sum. The initial prime is listed.",
+  "description": "Smallest of 6 consecutive primes with equal digital sum.",
   "id": "A227933",
   "mentions": [
     "A066540",
     "A071613",
     "A209396",
     "A210629",
-    "A227931"
+    "A227931",
+    "A395623"
   ],
   "tags": [
     "base",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

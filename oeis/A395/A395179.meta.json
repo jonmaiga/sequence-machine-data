@@ -1,0 +1,22 @@
+{
+  "description": "Maximum number of runs in the binary expansion of integers obtained by changing a single 0-bit to 1 in the binary representation of n considering bits up to and including the first leading 0.",
+  "id": "A395179",
+  "mentions": [
+    "A004779",
+    "A005811",
+    "A008586",
+    "A044813",
+    "A394905"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

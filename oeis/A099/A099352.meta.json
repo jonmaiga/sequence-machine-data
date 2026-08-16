@@ -1,5 +1,5 @@
 {
-  "description": "From P-positions in a certain game.",
+  "description": "From P-positions in a certain game. Pile 1 tokens for select function x1-floor((x1+1)/x0)+2.",
   "id": "A099352",
   "mentions": [
     "A099353"

@@ -1,0 +1,18 @@
+{
+  "description": "Number of homogeneous right coideal subalgebras of quantized enveloping algebras of type D.",
+  "id": "A395855",
+  "mentions": [
+    "A002866",
+    "A213438",
+    "A395854"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

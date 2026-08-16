@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the digits of the numbers from 1 to n divides the sum of the numbers from 1 to n.",
+  "description": "Numbers m such that the sum of the digits of the numbers from 1 to m divides the sum of the numbers from 1 to m.",
   "id": "A272360",
   "mentions": [
     "A000217",

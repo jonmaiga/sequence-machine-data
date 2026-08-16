@@ -1,0 +1,22 @@
+{
+  "description": "Number of fixed polynars with n cells that are not the 2 X enlargement of a fixed n-omino.",
+  "id": "A396643",
+  "mentions": [
+    "A000105",
+    "A001168",
+    "A390620",
+    "A390621",
+    "A390622",
+    "A397023"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

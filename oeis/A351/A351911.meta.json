@@ -2,15 +2,18 @@
   "description": "a(n) is the least integer m such that every m-element subset of {1,2,3,...,n} contains two nonempty and disjoint subsets whose sums are equal.",
   "id": "A351911",
   "mentions": [
-    "A006127"
+    "A001405",
+    "A006127",
+    "A201052",
+    "A276661"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 88,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that are the concatenation of three divisors of k.",
+  "id": "A395128",
+  "mentions": [
+    "A034838",
+    "A392961"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

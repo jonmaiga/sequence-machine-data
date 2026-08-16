@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (4*log(2)-1)/(6*log(2)^2).",
+  "id": "A394804",
+  "mentions": [
+    "A002162",
+    "A182999"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

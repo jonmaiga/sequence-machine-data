@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=s is the first occurrence of 3 consecutive odd squarefree semiprimes r, s, t (A046388) such that gcd(r,s,t) = prime(n).",
+  "id": "A396673",
+  "mentions": [
+    "A046388"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

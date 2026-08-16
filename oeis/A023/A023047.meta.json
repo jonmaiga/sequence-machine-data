@@ -1,8 +1,14 @@
 {
   "description": "10th differences of factorial numbers.",
   "id": "A023047",
-  "mentions": [],
+  "mentions": [
+    "A023043",
+    "A023044",
+    "A023045",
+    "A023046"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

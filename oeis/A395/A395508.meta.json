@@ -1,0 +1,17 @@
+{
+  "description": "Record lengths of runs of consecutive numbers whose numbers of Collatz steps to reach 1 are weakly increasing.",
+  "id": "A395508",
+  "mentions": [
+    "A006577",
+    "A351224"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

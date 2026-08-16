@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct integers appearing in Collatz sequences with starting values <= n.",
+  "id": "A395127",
+  "mentions": [
+    "A006370",
+    "A025586",
+    "A177729",
+    "A221956",
+    "A222118"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

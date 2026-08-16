@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sum of powers of 2 where the exponents are the digits of n.",
+  "id": "A397768",
+  "mentions": [
+    "A000079",
+    "A086066",
+    "A109303",
+    "A306979",
+    "A353138"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

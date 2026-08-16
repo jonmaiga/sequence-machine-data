@@ -1,8 +1,9 @@
 {
-  "description": "(1/168)*(sigma_7(2n-1)-sigma_1(2n-1)).",
+  "description": "a(n) = (1/168)*(sigma_7(2n-1)-sigma_1(2n-1)).",
   "id": "A081862",
   "mentions": [
     "A000203",
+    "A013955",
     "A081863"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

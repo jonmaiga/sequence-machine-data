@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(-LambertW(LambertW(-LambertW(x)))).",
+  "id": "A394239",
+  "mentions": [
+    "A268653",
+    "A340474",
+    "A395376",
+    "A396556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

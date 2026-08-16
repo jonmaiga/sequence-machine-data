@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in row n of triangle A398498.",
+  "id": "A398501",
+  "mentions": [
+    "A377091",
+    "A398498",
+    "A398499",
+    "A398500",
+    "A398505"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the smallest prime p such that p^k in base n contains exactly k distinct digits, for 1 <= k <= n (n >= 2), and T(1,1) = 2.",
+  "id": "A397276",
+  "mentions": [
+    "A000040",
+    "A171744",
+    "A247045"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

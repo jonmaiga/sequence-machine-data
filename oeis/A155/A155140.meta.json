@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that both p-+4 are not squarefree.",
+  "description": "Primes p such that both p+-4 are not squarefree.",
   "id": "A155140",
   "mentions": [
     "A049282",

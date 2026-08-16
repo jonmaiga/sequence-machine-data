@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that x^2 + y*z = n, where x,y,z are positive integers satisfying x^2 < y*z.",
+  "id": "A394786",
+  "mentions": [
+    "A393710",
+    "A394740",
+    "A394743",
+    "A394787"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

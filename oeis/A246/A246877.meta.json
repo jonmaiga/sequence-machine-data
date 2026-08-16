@@ -1,5 +1,5 @@
 {
-  "description": "Cogrowth sequence for Richard Thompson's group F with the standard generating set x_0, x_1.",
+  "description": "Cogrowth sequence for Richard Thompson's group F with the standard generating set x_0, x_1 (counting only reduced words).",
   "id": "A246877",
   "mentions": [],
   "tags": [

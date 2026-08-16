@@ -1,5 +1,5 @@
 {
-  "description": "Number of (2+3)X(n+3) 0..1 arrays with each row divisible by 13 and column not divisible by 13, read as a binary number with top and left being the most significant bits.",
+  "description": "Number of (2+3) X (n+3) 0..1 arrays with each row divisible by 13 and column not divisible by 13, read as a binary number with top and left being the most significant bits.",
   "id": "A263305",
   "mentions": [
     "A263303"

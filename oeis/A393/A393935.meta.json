@@ -2,6 +2,7 @@
   "description": "a(n) is the number of points that have been added when n collinear points first appear in the path defined in A393932.",
   "id": "A393935",
   "mentions": [
+    "A231255",
     "A380991",
     "A381111",
     "A393932",

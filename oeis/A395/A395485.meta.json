@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic metrizable convexities on a set of n elements.",
+  "id": "A395485",
+  "mentions": [
+    "A102894",
+    "A364656",
+    "A367422",
+    "A395237",
+    "A395250"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,15 +1,14 @@
 {
-  "description": "A designed sequence of primes that seems to be chaotic based on the sum of the sequence with a prime and one: a(n+1)->Abs(a(n)+Prime[n]+1).",
+  "description": "The subsequence of primes in the sequence b(k) defined by b(0)=2, b(1)=7, b(2)=13, and b(k) = abs(b(k) - prime(k-1) + 1).",
   "id": "A130710",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 46,
-    "source": "oeis-entry"
+    "size": 58,
+    "source": "joeis"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "Alternately append n-th prime to end or beginning of previous term.",
   "id": "A053066",
-  "mentions": [],
+  "mentions": [
+    "A053065"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "joeis"
   }
 }

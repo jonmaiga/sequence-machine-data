@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of 2 cubes and a triangular number.",
+  "description": "Numbers that are the sum of 2 nonnegative cubes and a triangular number.",
   "id": "A014157",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = (1/x)*A(A(x^2)) + A(A(A(x^2))).",
+  "id": "A396100",
+  "mentions": [
+    "A120566"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

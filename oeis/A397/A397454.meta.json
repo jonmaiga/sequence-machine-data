@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{k>=5} cos(2*Pi/k).",
+  "id": "A397454",
+  "mentions": [
+    "A051762",
+    "A085365",
+    "A211174",
+    "A243908",
+    "A397455"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

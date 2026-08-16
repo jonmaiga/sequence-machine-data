@@ -1,5 +1,5 @@
 {
-  "description": "Number of Goldbach partitions (p,q) of 2n such that primes p and q can be written as the sum of two primes.",
+  "description": "Number of Goldbach partitions (p,q) of 2n such that primes p and q can also be written as the sum of two primes.",
   "id": "A334158",
   "mentions": [
     "A010051"

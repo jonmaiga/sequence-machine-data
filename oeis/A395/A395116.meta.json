@@ -1,0 +1,18 @@
+{
+  "description": "Odd part of the field norm of a regularized mock theta limit at a primitive 2n-th root of unity.",
+  "id": "A395116",
+  "mentions": [
+    "A000010",
+    "A393567",
+    "A394831"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

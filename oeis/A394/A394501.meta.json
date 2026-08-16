@@ -1,0 +1,15 @@
+{
+  "description": "Number of reachable belief states for one hunter and an invisible rabbit on the n-vertex path graph.",
+  "id": "A394501",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

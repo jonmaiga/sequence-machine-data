@@ -1,0 +1,20 @@
+{
+  "description": "Square array T, read by ascending antidiagonals, where T(n,k) (n, k >= 1) denotes the smallest position at which a length-n block of digits starting at position k reappears in the decimal expansion of Pi.",
+  "id": "A392937",
+  "mentions": [
+    "A000796",
+    "A065593",
+    "A094580",
+    "A094582"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

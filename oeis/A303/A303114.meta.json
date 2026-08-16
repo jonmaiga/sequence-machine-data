@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(m,n) = number of total dominating sets in the n X m king graph.",
+  "description": "Array read by antidiagonals: T(m,n) is the number of total dominating sets in the n X m king graph.",
   "id": "A303114",
   "mentions": [
     "A195971",
@@ -7,15 +7,21 @@
     "A219079",
     "A291873",
     "A303111",
-    "A303116"
+    "A303116",
+    "A303335",
+    "A303378",
+    "A332390",
+    "A398276",
+    "A398277"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

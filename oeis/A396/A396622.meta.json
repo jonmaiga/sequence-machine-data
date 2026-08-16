@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = r(n,n), where r(1,k)=f(k)=floor(k*c), r(n,k)=f(r(n-1,k)), c=sqrt(3).",
+  "id": "A396622",
+  "mentions": [
+    "A396385",
+    "A396623",
+    "A396624"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

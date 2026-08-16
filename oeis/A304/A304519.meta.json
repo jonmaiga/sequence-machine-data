@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 72*2^n -56 (n>=1).",
+  "description": "a(n) = 72*2^n - 56 (n>=1).",
   "id": "A304519",
   "mentions": [
     "A304517",

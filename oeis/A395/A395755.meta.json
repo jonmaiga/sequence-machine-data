@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of octagonal polygorials A084941.",
+  "id": "A395755",
+  "mentions": [
+    "A001113",
+    "A070910",
+    "A084941",
+    "A395536",
+    "A395537",
+    "A395759"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

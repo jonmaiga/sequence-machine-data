@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers whose binary representation is a palindrome and has a prime number of 0's.",
+  "description": "Positive integers whose binary representation (1) is a palindrome and (2) has a prime number of 0's.",
   "id": "A144752",
   "mentions": [
     "A006995",

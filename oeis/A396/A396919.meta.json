@@ -1,0 +1,30 @@
+{
+  "description": "Numbers of the form 4*p or 2*p^2, where p is an odd prime.",
+  "id": "A396919",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001248",
+    "A005843",
+    "A008586",
+    "A014612",
+    "A030515",
+    "A054753",
+    "A065091",
+    "A072357",
+    "A085548",
+    "A095990",
+    "A096156",
+    "A258211",
+    "A398421"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

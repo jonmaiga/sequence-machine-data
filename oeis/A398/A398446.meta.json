@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [n] avoiding the pattern 1324 with the maximum element n in position n-2.",
+  "id": "A398446",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A061552",
+    "A391315",
+    "A395725"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 26,
+    "source": "joeis"
+  }
+}

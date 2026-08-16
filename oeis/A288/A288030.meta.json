@@ -7,12 +7,13 @@
     "A288029"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 23,
+    "offset": 0,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

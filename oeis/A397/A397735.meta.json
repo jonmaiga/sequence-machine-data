@@ -1,0 +1,21 @@
+{
+  "description": "Number of regular integral graphs on n vertices.",
+  "id": "A397735",
+  "mentions": [
+    "A005176",
+    "A064731",
+    "A077027",
+    "A363064",
+    "A363065"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

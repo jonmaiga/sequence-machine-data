@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least prime that is the concatenation of an arithmetic progression of n numbers, or -1 if there is no such prime.",
+  "id": "A394280",
+  "mentions": [],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

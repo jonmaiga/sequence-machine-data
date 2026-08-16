@@ -1,0 +1,18 @@
+{
+  "description": "Indices of odd terms of A084451.",
+  "id": "A395049",
+  "mentions": [
+    "A084449",
+    "A084451",
+    "A084464",
+    "A395048"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

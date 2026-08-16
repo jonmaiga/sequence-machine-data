@@ -1,8 +1,12 @@
 {
-  "description": "G.f. satisfies: A(x) = A(A(x)) - x*A(A(A(x))), with A(0)=0.",
+  "description": "G.f. satisfies: A(x) = A(A(x)) - x*A(A(A(x))), with A(0) = 0.",
   "id": "A120566",
   "mentions": [
-    "A054602"
+    "A054602",
+    "A141202",
+    "A213591",
+    "A396099",
+    "A396100"
   ],
   "tags": [
     "formulas",
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

@@ -1,19 +1,22 @@
 {
-  "description": "Numbers n with the property that n is an anagram of the digits of the distinct prime factors of n.",
+  "description": "Numbers m with the property that m is an anagram of the digits of the distinct prime factors of m.",
   "id": "A096595",
   "mentions": [
     "A083359",
     "A083360",
-    "A083361"
+    "A083361",
+    "A396692"
   ],
   "tags": [
     "base",
+    "fini",
     "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

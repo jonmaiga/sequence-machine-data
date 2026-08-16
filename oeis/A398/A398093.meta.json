@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct ordered difference sequences of graceful permutations of length n.",
+  "id": "A398093",
+  "mentions": [
+    "A006967",
+    "A084894",
+    "A112362",
+    "A387805",
+    "A398094",
+    "A398095"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

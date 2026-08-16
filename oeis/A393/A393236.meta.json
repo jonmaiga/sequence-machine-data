@@ -1,0 +1,18 @@
+{
+  "description": "Consider the square spiral with its cells numbered starting at 0. Two players, Black and Red, take turns. When it is Black's turn, he places a knight at the smallest unoccupied cell not attacked by an existing Red knight, and when it is Red's turn, she places a knight at the smallest unoccupied cell not attacked by an existing Black knight. a(n) gives the number of pieces among the first n with a record index when placed, minus the others.",
+  "id": "A393236",
+  "mentions": [
+    "A392177",
+    "A395355",
+    "A395818"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

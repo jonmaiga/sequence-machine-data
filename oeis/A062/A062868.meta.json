@@ -2,11 +2,13 @@
   "description": "Number of permutations of degree n with barycenter 0.",
   "id": "A062868",
   "mentions": [
+    "A046739",
     "A062866",
     "A062867",
     "A179567",
     "A196687",
     "A196688",
+    "A271697",
     "A320337"
   ],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the expected number of rolls of a fair standard die until the total sum of all rolls is a square.",
+  "id": "A396070",
+  "mentions": [
+    "A000290",
+    "A370353"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

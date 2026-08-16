@@ -2,10 +2,13 @@
   "description": "Primes of the form k(k+1)/2-2 (i.e., two less than triangular numbers).",
   "id": "A124199",
   "mentions": [
-    "A055472"
+    "A055472",
+    "A098826",
+    "A171569"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

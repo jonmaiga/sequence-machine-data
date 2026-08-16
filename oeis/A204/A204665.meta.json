@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that q-p = 52, where q is the next prime after p.",
   "id": "A204665",
-  "mentions": [],
+  "mentions": [
+    "A204666"
+  ],
   "tags": [
     "formulas",
     "nonn"

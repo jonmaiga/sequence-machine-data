@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Pi-333/106.",
   "id": "A226042",
   "mentions": [
+    "A000796",
     "A002485",
     "A002486",
     "A003077"

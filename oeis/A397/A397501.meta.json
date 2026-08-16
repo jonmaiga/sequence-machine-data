@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of set partitions of {0, ..., n} in which, for every part P, the sum of binomial(n, k) over k in P is a power of 2.",
+  "id": "A397501",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A156700",
+    "A397551",
+    "A397559"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

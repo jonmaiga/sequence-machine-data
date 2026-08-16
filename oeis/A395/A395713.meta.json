@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary relations on an n-set that are neither reflexive nor symmetric nor transitive.",
+  "id": "A395713",
+  "mentions": [
+    "A000110",
+    "A000798",
+    "A002416",
+    "A006905",
+    "A053763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

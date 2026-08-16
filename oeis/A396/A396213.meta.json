@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of sqrt(9 + 6*sqrt(3)).",
+  "id": "A396213",
+  "mentions": [
+    "A385259"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

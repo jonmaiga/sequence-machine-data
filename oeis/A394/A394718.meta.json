@@ -1,0 +1,17 @@
+{
+  "description": "a(n) such that the n-th partial nested radical sqrt(a(1) + sqrt(a(2) + ... + sqrt(a(n)))) = n.",
+  "id": "A394718",
+  "mentions": [
+    "A083869"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

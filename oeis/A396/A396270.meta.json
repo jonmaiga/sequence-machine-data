@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the aspect ratio of a rectangle with the property that a straight line drawn through a uniformly random point on its perimeter, with direction chosen uniformly at random, intersects each of the three sides on which the point does not lie with an equal probability.",
+  "id": "A396270",
+  "mentions": [
+    "A156649",
+    "A284983",
+    "A300284",
+    "A395597",
+    "A395598",
+    "A396271"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

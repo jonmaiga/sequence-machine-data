@@ -1,0 +1,19 @@
+{
+  "description": "Largest value occurring in any n-tuple (x_1, ..., x_n) of distinct positive integers with 1/x_1 + 2/x_2 + ... + n/x_n = n.",
+  "id": "A398550",
+  "mentions": [
+    "A378322",
+    "A398549"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

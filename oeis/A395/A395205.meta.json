@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] (f(x)^3 + f(-x)^3)/2 and f(x) = 1/sqrt(1 + 2*sqrt(2)*x + x^2).",
+  "id": "A395205",
+  "mentions": [
+    "A395201"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

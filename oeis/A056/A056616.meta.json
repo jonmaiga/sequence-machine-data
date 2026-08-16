@@ -4,10 +4,12 @@
   "mentions": [
     "A000108",
     "A000984",
+    "A001622",
     "A056617",
     "A101681"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
     "nonn"

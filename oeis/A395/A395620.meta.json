@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of permutations of {1,2,...,n} such that for every k >= 1, the prefix sum p1 + p2 + ... + pk is never a perfect square.",
+  "id": "A395620",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A000290",
+    "A001110",
+    "A291504"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

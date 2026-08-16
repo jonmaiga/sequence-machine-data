@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form (A004186(k)-A004185(k))/9; i.e., numbers occurring in A151950.",
+  "id": "A395936",
+  "mentions": [
+    "A004185",
+    "A004186",
+    "A009994",
+    "A009996",
+    "A151950"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

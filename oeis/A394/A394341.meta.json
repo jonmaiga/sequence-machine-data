@@ -1,0 +1,17 @@
+{
+  "description": "Minimum numerators corresponding to the denominators in A395144.",
+  "id": "A394341",
+  "mentions": [
+    "A395144"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

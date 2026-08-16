@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of cyclic permutations of [n] whose longest ascending run is length k, n >= k >= 1.",
+  "id": "A397303",
+  "mentions": [
+    "A000142",
+    "A008304",
+    "A080635",
+    "A232864"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

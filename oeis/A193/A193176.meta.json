@@ -1,7 +1,8 @@
 {
-  "description": "A193175(n)/2.",
+  "description": "A193175/2.",
   "id": "A193176",
   "mentions": [
+    "A005848",
     "A193175"
   ],
   "tags": [

@@ -1,16 +1,12 @@
 {
-  "description": "Array associated with squares, by antidiagonals.",
+  "description": "Array associated with A049480, by descending antidiagonals.",
   "id": "A185726",
   "mentions": [
-    "A000290",
-    "A002522",
-    "A060734",
-    "A132411",
-    "A185725",
-    "A185728"
+    "A049480",
+    "A081489",
+    "A213922"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],

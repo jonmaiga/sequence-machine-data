@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 2F1(1/4, 3/4; 1/2; 4*x/(1-x)^2)^2.",
+  "id": "A394679",
+  "mentions": [
+    "A393810",
+    "A394680"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

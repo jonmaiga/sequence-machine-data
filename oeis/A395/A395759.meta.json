@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of 12-gonal polygorials A276482.",
+  "id": "A395759",
+  "mentions": [
+    "A001113",
+    "A070910",
+    "A276482",
+    "A395536",
+    "A395537",
+    "A395755"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

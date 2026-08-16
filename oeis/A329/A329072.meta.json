@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are sums of consecutive octahedral numbers (A005900).",
+  "description": "Numbers that are sums of one or more consecutive octahedral numbers (A005900).",
   "id": "A329072",
   "mentions": [
     "A005900",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

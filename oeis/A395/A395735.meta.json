@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(5*k,k) * x^k)^4.",
+  "id": "A395735",
+  "mentions": [
+    "A001449",
+    "A079678",
+    "A378484",
+    "A378504",
+    "A394916",
+    "A395660",
+    "A395736"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

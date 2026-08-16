@@ -1,5 +1,5 @@
 {
-  "description": "Sum(C(j)*(n-j)*4^(n-j),j=0..n-1), C = Catalan numbers.",
+  "description": "a(n) = Sum_{j=0..n-1} C(j)*(n-j)*4^(n-j), C = Catalan numbers.",
   "id": "A018217",
   "mentions": [],
   "tags": [

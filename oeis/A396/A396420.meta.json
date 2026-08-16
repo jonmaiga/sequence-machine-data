@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = r(n,n), where r(1,k)=f(k)=floor(k*c), r(n,k)=f(r(n-1,k)), c=4/3.",
+  "id": "A396420",
+  "mentions": [
+    "A396385",
+    "A396421",
+    "A396422"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

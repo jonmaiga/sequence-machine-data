@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{i = 1..n} (n - i)^(1 + i).",
+  "description": "a(n) = Sum_{i=1..n} (n - i)^(1 + i).",
   "id": "A062809",
   "mentions": [
     "A003101",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

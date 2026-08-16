@@ -1,7 +1,11 @@
 {
   "description": "a(n) = floor(ratio of product and sum of first n numbers).",
   "id": "A061370",
-  "mentions": [],
+  "mentions": [
+    "A006093",
+    "A108552",
+    "A126328"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

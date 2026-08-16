@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = F((n-1)*(n+1))/(F(n-1)*F(n+1)), where F(n) is the n-th Fibonacci number A000045(n).",
+  "id": "A396115",
+  "mentions": [
+    "A000034",
+    "A000045",
+    "A001622",
+    "A002163",
+    "A051294",
+    "A059929",
+    "A093719",
+    "A103624",
+    "A205505",
+    "A396233",
+    "A396358"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

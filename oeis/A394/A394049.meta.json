@@ -1,0 +1,31 @@
+{
+  "description": "Smallest number k that is neither squarefree nor squareful such that rad(k) | s(n), where s = A120944 is the sequence of squarefree composite numbers and rad = A007947.",
+  "id": "A394049",
+  "mentions": [
+    "A001221",
+    "A001694",
+    "A005117",
+    "A007947",
+    "A013929",
+    "A020639",
+    "A052485",
+    "A096156",
+    "A119288",
+    "A120944",
+    "A126706",
+    "A162306",
+    "A332785",
+    "A366807",
+    "A388607"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

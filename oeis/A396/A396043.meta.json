@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k >= 1 such that A396002(n) is the least prime factor of 2^k + 1.",
+  "id": "A396043",
+  "mentions": [
+    "A002326",
+    "A002586",
+    "A396002",
+    "A396044"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

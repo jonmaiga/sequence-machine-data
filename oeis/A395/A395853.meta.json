@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that can be written as the sum of a Fibonacci number and the square of a Fibonacci number.",
+  "id": "A395853",
+  "mentions": [
+    "A000045",
+    "A007598",
+    "A354626"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

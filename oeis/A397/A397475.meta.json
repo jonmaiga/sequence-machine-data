@@ -1,0 +1,24 @@
+{
+  "description": "Odd exponential abundant numbers that are not exponential unitary abundant.",
+  "id": "A397475",
+  "mentions": [
+    "A001694",
+    "A005408",
+    "A051377",
+    "A056911",
+    "A130897",
+    "A209061",
+    "A321147",
+    "A322857",
+    "A391085",
+    "A397476"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

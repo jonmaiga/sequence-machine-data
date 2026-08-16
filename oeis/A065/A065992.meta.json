@@ -1,14 +1,17 @@
 {
   "description": "Numbers k such that the sum of the nonsquare numbers from 1 to k is a square.",
   "id": "A065992",
-  "mentions": [],
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A086849"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

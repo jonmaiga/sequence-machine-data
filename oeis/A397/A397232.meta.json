@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * AH(2*k,4)/k, where AH(k,4) = A120296(k)/A334585(k) is the k-th alternating harmonic (or skew-harmonic) number of order 4.",
+  "id": "A397232",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A006752",
+    "A013662",
+    "A013663",
+    "A120296",
+    "A334585",
+    "A390074",
+    "A397229",
+    "A397230",
+    "A397231"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

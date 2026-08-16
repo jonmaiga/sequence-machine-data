@@ -2,6 +2,8 @@
   "description": "Numbers k such that the sum of the digits of pi(k)^prime(k) is divisible by k.",
   "id": "A109710",
   "mentions": [
+    "A000040",
+    "A000720",
     "A007953"
   ],
   "tags": [

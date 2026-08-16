@@ -1,0 +1,18 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = Sum_{j=0..n} Stirling2(n, j)*4^j*(k)_j.",
+  "id": "A395572",
+  "mentions": [
+    "A008277",
+    "A394444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^4 mod (2*n+1).",
+  "id": "A396111",
+  "mentions": [
+    "A000004",
+    "A000583",
+    "A022521",
+    "A123684"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

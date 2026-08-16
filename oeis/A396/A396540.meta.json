@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest number > 5^(n-1) with exactly n divisors.",
+  "id": "A396540",
+  "mentions": [
+    "A000005",
+    "A000420",
+    "A005179",
+    "A396139",
+    "A396206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

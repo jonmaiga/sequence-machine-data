@@ -1,0 +1,14 @@
+{
+  "description": "Number of distinct results from equations consisting of n copies of the number n and one of the four basic arithmetic operations {+, -, *, /} between each pair with multiplication and division taking precedence over addition and subtraction.",
+  "id": "A393260",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

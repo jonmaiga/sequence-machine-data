@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of exp(2)/2.",
+  "id": "A397435",
+  "mentions": [
+    "A001113",
+    "A062546",
+    "A072334",
+    "A092553",
+    "A325905"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

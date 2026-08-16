@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of labeled 4-multigraphs on n vertices with clique number exactly k.",
+  "id": "A395693",
+  "mentions": [
+    "A006125",
+    "A109345",
+    "A395684",
+    "A395691",
+    "A395692",
+    "A395694",
+    "A395695"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Natural numbers that are not of the form (k +- sum of binary digits of k) for any k.",
   "id": "A227359",
   "mentions": [
+    "A005187",
     "A010061",
     "A010062",
     "A055938",
@@ -9,6 +10,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) (n >= 2, k = 0..n-2) giving number of abstract dissection types of configurations of n points in n-k dimensions.",
+  "description": "Triangle T(n,k) (n >= 2, k = 0..n-2) giving number of abstract dissection types of configurations of n hyperplanes in n-k dimensions.",
   "id": "A063858",
   "mentions": [
     "A063859",

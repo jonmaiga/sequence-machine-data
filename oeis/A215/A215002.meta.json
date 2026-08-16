@@ -2,7 +2,8 @@
   "description": "Number of all solid standard Young tableaux of shape [[n,k],[n-k]] for 0<=k<=n.",
   "id": "A215002",
   "mentions": [
-    "A214775"
+    "A214775",
+    "A398472"
   ],
   "tags": [
     "formulas",

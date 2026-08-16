@@ -1,13 +1,13 @@
 {
-  "description": "Decimal expansion of (5+sqrt(85))/6, which has periodic continued fractions [2,2,1,2,2,1,...] and [5/2, 1, 5/2, 1, ...].",
+  "description": "Decimal expansion of (5+sqrt(85))/6, which has periodic continued fractions [2,2,1,2,2,1,...] and [5/3, 1, 5/3, 1, ...].",
   "id": "A189968",
   "mentions": [
     "A188635",
-    "A189966",
-    "A189967"
+    "A189966"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Given the infinite continued fraction (1+i)+((1+i)/(1+i)+((1+i)/((1+i)+...)))), where i is the square root of (-1), this is the numerator of the imaginary part of the convergents.",
+  "description": "Given the infinite continued fraction (1+i)+1/((1+i)+1/((1+i)+...)), where i is the square root of (-1), this is the numerator of the imaginary part of the convergents.",
   "id": "A093726",
   "mentions": [
     "A091806",
@@ -7,15 +7,18 @@
     "A091808",
     "A091809",
     "A093725",
-    "A093727"
+    "A093727",
+    "A138573",
+    "A317974"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

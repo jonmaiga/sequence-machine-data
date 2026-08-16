@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3*n+2*k-3,k-1).",
+  "id": "A397514",
+  "mentions": [
+    "A002294",
+    "A397511",
+    "A397515",
+    "A397516"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

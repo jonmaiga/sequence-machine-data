@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that digital sum of n divides digital sum of n-th prime, p(n).",
+  "description": "Numbers k such that digital sum of k divides digital sum of k-th prime, p(k).",
   "id": "A087486",
   "mentions": [
     "A007605",

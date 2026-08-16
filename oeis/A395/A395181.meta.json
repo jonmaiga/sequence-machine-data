@@ -1,0 +1,16 @@
+{
+  "description": "Values taken by Jordan's totient function J_2, A007434.",
+  "id": "A395181",
+  "mentions": [
+    "A002202",
+    "A007434"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

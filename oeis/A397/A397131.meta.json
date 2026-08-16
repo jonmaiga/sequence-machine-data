@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A'(x) = (1 + A(x)*A'(x))^3, with A(0)=0.",
+  "id": "A397131",
+  "mentions": [
+    "A001147",
+    "A395195",
+    "A397132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

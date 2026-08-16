@@ -1,5 +1,5 @@
 {
-  "description": "Least positive integers, all distinct, that satisfy sum(n>0,1/a(n)^z)=0, where z=(12+I*5)/13.",
+  "description": "Least positive integers, all distinct, that satisfy Sum_{n>0} 1/a(n)^z = 0, where z=(12+I*5)/13.",
   "id": "A084801",
   "mentions": [
     "A084589",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

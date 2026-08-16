@@ -1,0 +1,24 @@
+{
+  "description": "Divisors of the order of the Janko group J_4, |J_4| = 86775571046077562880.",
+  "id": "A395851",
+  "mentions": [
+    "A001228",
+    "A027750",
+    "A174601",
+    "A174670",
+    "A395630",
+    "A395850",
+    "A395852"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

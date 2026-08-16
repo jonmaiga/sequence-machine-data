@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} tau(floor(n/k)), where tau(n) = A000005(n) is the number of divisors of n.",
+  "id": "A398520",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A398521"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

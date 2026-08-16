@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest sequence of distinct numbers k that are neither squarefree nor prime powers (k in A126706), such that for any prime p, any run of consecutive multiples of p has length exactly 2.",
+  "id": "A397127",
+  "mentions": [
+    "A052486",
+    "A126706",
+    "A131605",
+    "A280864",
+    "A286708",
+    "A303606",
+    "A332785",
+    "A338444",
+    "A383394",
+    "A386762",
+    "A397126",
+    "A397128"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

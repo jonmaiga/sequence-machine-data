@@ -2,10 +2,12 @@
   "description": "Wechsler's \"convex-hull polyominoes\": convex hull contains no additional grid points.",
   "id": "A181785",
   "mentions": [
-    "A000105"
+    "A000105",
+    "A147680"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

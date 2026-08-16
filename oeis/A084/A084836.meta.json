@@ -2,6 +2,7 @@
   "description": "Palindromic primes with nondecreasing digits up to the middle and then nonincreasing.",
   "id": "A084836",
   "mentions": [
+    "A002385",
     "A062351",
     "A062352",
     "A084837"

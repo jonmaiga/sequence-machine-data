@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of integer solutions of x^2 + 7*y^2 = 2*n + 1.",
+  "id": "A397518",
+  "mentions": [
+    "A005881",
+    "A274658"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

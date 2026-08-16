@@ -2,7 +2,6 @@
   "description": "2^k appears in the binary expansion of a(n) iff 2^k appears in the binary expansion of n and k AND n = 0 (where AND denotes the bitwise AND operator).",
   "id": "A352458",
   "mentions": [
-    "A309274",
     "A335702",
     "A352449",
     "A352450",

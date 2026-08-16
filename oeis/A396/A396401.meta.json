@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which A395994(k)/A000010(k) sets a new record.",
+  "id": "A396401",
+  "mentions": [
+    "A000010",
+    "A395994",
+    "A396399",
+    "A396400"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

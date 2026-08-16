@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of positive integers <= n that are the sum of 2 nonzero squares.",
+  "id": "A397450",
+  "mentions": [
+    "A000404",
+    "A004144",
+    "A025426",
+    "A064533",
+    "A102548",
+    "A227158",
+    "A244659",
+    "A244662",
+    "A398087",
+    "A398671"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

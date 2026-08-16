@@ -2,9 +2,11 @@
   "description": "Number of SO_1^{2+}(Z) orbits of Lorentzian modular group.",
   "id": "A005794",
   "mentions": [
-    "A005793"
+    "A005793",
+    "A256624"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

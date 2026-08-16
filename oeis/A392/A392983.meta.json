@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the absolute value of the determinant of the symmetric n X n matrix M defined by M[i,j] = gcd(i,j) for 0 <= i,j <= n-1.",
+  "id": "A392983",
+  "mentions": [
+    "A001088",
+    "A002088"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

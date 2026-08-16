@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that \"n 42's followed by 43\" is prime.",
+  "description": "Numbers k such that \"k 42's followed by 43\" is prime.",
   "id": "A110705",
   "mentions": [
     "A110704",
@@ -7,12 +7,13 @@
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

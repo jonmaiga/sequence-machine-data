@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = a(n)(a(0) + ... + a(n)).",
+  "description": "a(n+1) = a(n)*(a(0) + ... + a(n)), a(0) = 1.",
   "id": "A001697",
   "mentions": [
     "A000058",

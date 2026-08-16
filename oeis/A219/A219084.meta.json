@@ -1,5 +1,5 @@
 {
-  "description": "Hilltop maps: number of 7Xn binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, diagonal or antidiagonal neighbor in a random 0..1 7Xn array.",
+  "description": "Number of 7 X n binary arrays with every 0 a horizontal, diagonal or antidiagonal neighbor to some 1.",
   "id": "A219084",
   "mentions": [
     "A219078"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

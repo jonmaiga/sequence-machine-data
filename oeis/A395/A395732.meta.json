@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the mean width of a regular dodecahedron of unit edge length.",
+  "id": "A395732",
+  "mentions": [
+    "A105199",
+    "A152623",
+    "A270230",
+    "A289502",
+    "A395731",
+    "A395733"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

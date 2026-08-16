@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the expected distance between the center of a unit-side regular pentagon to a randomly and uniformly selected point in its interior.",
+  "id": "A395849",
+  "mentions": [
+    "A001622",
+    "A010722",
+    "A019934",
+    "A103712",
+    "A135691",
+    "A152627",
+    "A245698",
+    "A245700",
+    "A395847"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

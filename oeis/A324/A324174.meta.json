@@ -2,6 +2,7 @@
   "description": "Integers k such that 2*floor(sqrt(k)) divides k.",
   "id": "A324174",
   "mentions": [
+    "A000196",
     "A006446",
     "A324175",
     "A324176",
@@ -9,6 +10,7 @@
     "A324178"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

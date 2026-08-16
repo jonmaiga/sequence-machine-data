@@ -1,0 +1,26 @@
+{
+  "description": "Position of the first (2*n-1)-digit palindromic prime occurring in the decimal expansion of Pi, A000796.",
+  "id": "A395703",
+  "mentions": [
+    "A000040",
+    "A000796",
+    "A002385",
+    "A104819",
+    "A104841",
+    "A104842",
+    "A198344",
+    "A279885",
+    "A395673"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

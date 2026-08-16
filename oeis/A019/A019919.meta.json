@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of tangent of 21 degrees.",
   "id": "A019919",
-  "mentions": [],
+  "mentions": [
+    "A019967"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

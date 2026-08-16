@@ -1,0 +1,19 @@
+{
+  "description": "a(n) gives positions k >= 1 where the equation b(b(k)+b(k-1)+b(k-2)) = k fails, for b(k) = floor(k/sqrt(3) + (5*sqrt(3)-3)/6).",
+  "id": "A395252",
+  "mentions": [
+    "A002530",
+    "A002531",
+    "A040001",
+    "A395251"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

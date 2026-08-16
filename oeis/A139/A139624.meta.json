@@ -2,6 +2,8 @@
   "description": "Table read by rows: T(n,k) is the number of connected directed multigraphs with loops and no vertex of degree 0, with n arcs and k vertices, which are transitive (the existence of a path between two points implies the existence of an arc between those two points).",
   "id": "A139624",
   "mentions": [
+    "A136868",
+    "A139621",
     "A139623",
     "A139625",
     "A139629"
@@ -9,6 +11,7 @@
   "tags": [
     "more",
     "nonn",
+    "obsc",
     "tabl"
   ],
   "terms": {

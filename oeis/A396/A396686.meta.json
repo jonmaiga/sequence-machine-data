@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(2*log_2(n)) + 2.",
+  "id": "A396686",
+  "mentions": [
+    "A070939"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

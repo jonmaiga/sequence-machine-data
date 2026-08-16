@@ -1,0 +1,18 @@
+{
+  "description": "Number of elements of geodesic length n in the braid group B_3.",
+  "id": "A396637",
+  "mentions": [
+    "A000071",
+    "A396638"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

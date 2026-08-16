@@ -2,7 +2,9 @@
   "description": "Irregular triangle: T(n, k) = k! modulo prime(n), 1",
   "id": "A212320",
   "mentions": [
-    "A062169"
+    "A062169",
+    "A091858",
+    "A371035"
   ],
   "tags": [
     "nonn",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 79,
-    "source": "oeis-entry"
+    "size": 82,
+    "source": "oeis-bfile"
   }
 }

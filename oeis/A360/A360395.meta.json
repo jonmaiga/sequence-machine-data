@@ -1,5 +1,5 @@
 {
-  "description": "Intersection of A026430 and A360394.",
+  "description": "Intersection of A026430 and A360393.",
   "id": "A360395",
   "mentions": [
     "A026430",
@@ -20,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

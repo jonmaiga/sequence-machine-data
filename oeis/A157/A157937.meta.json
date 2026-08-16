@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n divisible by the least prime >= sqrt(n) which are not in A001248 (primes squared).",
+  "description": "Numbers k divisible by the least prime >= sqrt(k) which are not in A001248 (primes squared).",
   "id": "A157937",
   "mentions": [
     "A001248",

@@ -1,16 +1,19 @@
 {
-  "description": "Number of (n+2)X6 binary arrays avoiding patterns 001 and 011 in rows and columns.",
+  "description": "Number of (n+2) X 6 binary arrays avoiding patterns 001 and 011 in rows and columns.",
   "id": "A202096",
   "mentions": [
+    "A202093",
+    "A202099",
     "A202100"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-bfile"
+    "size": 26,
+    "source": "joeis"
   }
 }

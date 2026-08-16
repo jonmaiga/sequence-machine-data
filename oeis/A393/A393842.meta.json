@@ -1,0 +1,22 @@
+{
+  "description": "Number of n X n binary matrices with exactly 12 1's such that there are an even number of 1's in every row and column.",
+  "id": "A393842",
+  "mentions": [
+    "A000537",
+    "A001499",
+    "A179058",
+    "A179063",
+    "A396317",
+    "A396321"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

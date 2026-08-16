@@ -2,7 +2,9 @@
   "description": "Number of simple toroidal graphs on n nodes.",
   "id": "A319114",
   "mentions": [
-    "A145269"
+    "A145269",
+    "A394215",
+    "A395155"
   ],
   "tags": [
     "more",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

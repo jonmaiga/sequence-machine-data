@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies A(x) = x*exp( A^5(x) ).",
+  "id": "A396805",
+  "mentions": [
+    "A000169",
+    "A140054",
+    "A396799",
+    "A396800",
+    "A396803",
+    "A396804",
+    "A396806"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

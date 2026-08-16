@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k in A024619 such that A008472(k) is a proper divisor of A001414(k).",
+  "id": "A395414",
+  "mentions": [
+    "A000961",
+    "A001414",
+    "A008472",
+    "A013929",
+    "A024619",
+    "A027746",
+    "A027748",
+    "A120944",
+    "A126706",
+    "A246547",
+    "A303606"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

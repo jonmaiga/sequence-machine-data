@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of nonnegative integer matrices with a total of n rows and columns with each row sum and column sum nonzero and at most k, up to permutations of rows and columns, n >= 0, k >= 0.",
+  "id": "A397922",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000012",
+    "A001477",
+    "A007590",
+    "A059841",
+    "A147766",
+    "A397923",
+    "A397924",
+    "A397926"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

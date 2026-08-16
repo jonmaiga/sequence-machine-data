@@ -1,10 +1,11 @@
 {
-  "description": "Coordination sequence for diamond structure D^+_50. (Edges defined by l_1 norm = 1.)",
+  "description": "Coordination sequence for diamond structure D^+_50. (Edges defined by l_1 norm = 1.).",
   "id": "A035901",
   "mentions": [
     "A035787"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

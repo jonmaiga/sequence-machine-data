@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients of the Lucas (w-)polynomials.",
+  "description": "Triangle of coefficients of the Lucas polynomials.",
   "id": "A114525",
   "mentions": [
     "A000032",
@@ -33,7 +33,7 @@
     "A090314",
     "A090316",
     "A093967",
-    "A108045",
+    "A127672",
     "A162514",
     "A210850",
     "A210851",

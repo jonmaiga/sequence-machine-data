@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4n^4 - 3n^3 + 2n^2 - n + 1.",
+  "description": "a(n) = 4*n^4 - 3*n^3 + 2*n^2 - n + 1.",
   "id": "A131465",
   "mentions": [
     "A056105",
@@ -8,11 +8,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 35,
     "source": "joeis"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Nonsquare integers k > 0 such that there is a nonsquare integer 0 < m < k such that sqrt(k) + sqrt(m) is closer to an integer than for all smaller nonsquare k > m > 0.",
+  "id": "A395621",
+  "mentions": [
+    "A395622",
+    "A395624"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

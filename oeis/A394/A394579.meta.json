@@ -1,0 +1,15 @@
+{
+  "description": "Moduli m in which a multiplicative square-root function exists over the ring of integers Z_m.",
+  "id": "A394579",
+  "mentions": [
+    "A022544"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

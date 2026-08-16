@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of partitions of n into distinct parts such that the sum of rad(k) over the parts k equals rad(n).",
+  "id": "A395111",
+  "mentions": [
+    "A000009",
+    "A000079",
+    "A005117",
+    "A007947",
+    "A087188",
+    "A395096",
+    "A395097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

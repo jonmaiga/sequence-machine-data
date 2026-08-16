@@ -1,7 +1,10 @@
 {
   "description": "Numbers whose base-15 representation has an even number of runs.",
   "id": "A043704",
-  "mentions": [],
+  "mentions": [
+    "A043669",
+    "A043718"
+  ],
   "tags": [
     "base",
     "nonn"

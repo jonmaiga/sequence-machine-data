@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n unlabeled vertices with feedback vertex set number k, 0 <= k < n.",
+  "id": "A398240",
+  "mentions": [
+    "A000088",
+    "A005195",
+    "A398241",
+    "A398242"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

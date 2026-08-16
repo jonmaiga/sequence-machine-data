@@ -1,10 +1,11 @@
 {
-  "description": "Continued fraction for c = sqrt(2)*(exp(sqrt(2))-1)/(exp(sqrt(2))+1).",
+  "description": "Continued fraction for sqrt(2)*(exp(sqrt(2))-1)/(exp(sqrt(2))+1).",
   "id": "A123168",
   "mentions": [
     "A000217",
     "A000384",
     "A062828",
+    "A104584",
     "A123251",
     "A212343",
     "A274540"
@@ -17,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 58,
+    "size": 61,
     "source": "joeis"
   }
 }

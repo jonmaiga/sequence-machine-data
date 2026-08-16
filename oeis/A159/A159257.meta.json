@@ -2,6 +2,7 @@
   "description": "Rank deficiency of the Lights Out problem of size n.",
   "id": "A159257",
   "mentions": [
+    "A001220",
     "A075462",
     "A075463",
     "A075464",

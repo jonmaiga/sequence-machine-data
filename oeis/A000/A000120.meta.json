@@ -1,5 +1,5 @@
 {
-  "description": "1's-counting sequence: number of 1's in binary expansion of n (or the binary weight of n).",
+  "description": "Ones-counting sequence: number of 1's in binary expansion of n (or the binary weight of n).",
   "id": "A000120",
   "mentions": [
     "A000069",

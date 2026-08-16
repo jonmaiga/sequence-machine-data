@@ -1,5 +1,5 @@
 {
-  "description": "Members of A085844 which are permutations of other members of A085844.",
+  "description": "Members of A085844 which are anagrams of other members of A085844.",
   "id": "A085847",
   "mentions": [
     "A085844"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "joeis"
   }
 }

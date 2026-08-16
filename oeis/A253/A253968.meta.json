@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (23*10^n - 26)/6 is prime.",
+  "description": "Numbers k such that (23*10^k - 26)/6 is prime.",
   "id": "A253968",
   "mentions": [
     "A254005"

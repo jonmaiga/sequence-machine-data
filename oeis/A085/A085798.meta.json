@@ -1,11 +1,13 @@
 {
-  "description": "Dimensions n such that the (5,n)-cross lattice-tiles R^n.",
+  "description": "Dimensions k such that the (5,k)-cross lattice-tiles R^k.",
   "id": "A085798",
   "mentions": [
     "A085795",
+    "A085796",
     "A085797"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

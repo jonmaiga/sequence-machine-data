@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that : a=a^2-n^3; a=a+2.",
+  "description": "a(n) = (a(n-1)+2)^2 - n^3 with a(0) = 0.",
   "id": "A144033",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

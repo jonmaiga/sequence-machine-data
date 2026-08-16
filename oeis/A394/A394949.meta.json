@@ -1,0 +1,20 @@
+{
+  "description": "Number of equivalence classes of well-formed bracketed words of total length 2n built from the symbol * (of length 2) and three unary bracket types (), [], and {}, with no empty bracket pair, modulo commutativity of concatenation.",
+  "id": "A394949",
+  "mentions": [
+    "A000081",
+    "A007564",
+    "A394948",
+    "A394950"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

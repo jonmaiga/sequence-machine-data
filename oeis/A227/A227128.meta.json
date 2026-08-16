@@ -2,14 +2,24 @@
   "description": "The twisted Euler phi-function for the non-principal Dirichlet character mod 3.",
   "id": "A227128",
   "mentions": [
-    "A049347",
     "A055615",
     "A080891",
     "A086724",
     "A101455",
+    "A102283",
     "A134667",
     "A156277",
-    "A195459"
+    "A195459",
+    "A227501",
+    "A395768",
+    "A395769",
+    "A395771",
+    "A395772",
+    "A395773",
+    "A395774",
+    "A395775",
+    "A395776",
+    "A395777"
   ],
   "tags": [
     "easy",

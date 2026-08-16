@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A398187(n, k).",
+  "id": "A398188",
+  "mentions": [
+    "A001865",
+    "A398187"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

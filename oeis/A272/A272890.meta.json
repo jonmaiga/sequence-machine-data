@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the product of n and the sum of the reciprocal of their anti-divisors is an integer.",
+  "description": "Numbers k such that the product of k and the sum of the reciprocal of their anti-divisors is an integer.",
   "id": "A272890",
   "mentions": [
     "A066272"

@@ -2,7 +2,10 @@
   "description": "Numbers with exactly two distinct base-7 digits.",
   "id": "A031952",
   "mentions": [
-    "A007093"
+    "A007093",
+    "A031959",
+    "A031966",
+    "A031984"
   ],
   "tags": [
     "base",

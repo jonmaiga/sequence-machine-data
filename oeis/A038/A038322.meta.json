@@ -1,7 +1,12 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*11^(i-j)*8^j.",
   "id": "A038322",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A001018",
+    "A001020",
+    "A001029"
+  ],
   "tags": [
     "easy",
     "nonn",
@@ -9,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
-    "source": "joeis"
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

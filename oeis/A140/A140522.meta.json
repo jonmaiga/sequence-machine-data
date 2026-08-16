@@ -1,8 +1,10 @@
 {
-  "description": "Numbers for which sigma(n) - 2n exceeds sigma(k) - 2k for all k < n.",
+  "description": "Numbers m for which sigma(m) - 2*m exceeds sigma(k) - 2*k for all k < m.",
   "id": "A140522",
   "mentions": [
     "A002093",
+    "A004394",
+    "A033880",
     "A034090"
   ],
   "tags": [

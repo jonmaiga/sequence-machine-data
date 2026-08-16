@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer partitions with sum < n whose distinct parts cannot be linearly combined using nonnegative coefficients to obtain n.",
+  "description": "Number of partitions of positive integers < n whose distinct parts cannot be linearly combined using nonnegative coefficients to obtain n.",
   "id": "A365378",
   "mentions": [
     "A000009",
@@ -29,12 +29,11 @@
     "A365382"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
-    "source": "oeis-entry"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Iteration numbers k such that SHA1^{k}(160 bits of 1) is a record low value.",
+  "id": "A395502",
+  "mentions": [
+    "A392764",
+    "A393134",
+    "A395503"
+  ],
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

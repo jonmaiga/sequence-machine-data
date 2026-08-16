@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+5*k-6,k).",
+  "id": "A397537",
+  "mentions": [
+    "A002295",
+    "A088218",
+    "A397509",
+    "A397535",
+    "A397536"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

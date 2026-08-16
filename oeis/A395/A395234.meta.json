@@ -1,0 +1,18 @@
+{
+  "description": "Number of cycles in K_{2n,2n,2n} minus a perfect matching.",
+  "id": "A395234",
+  "mentions": [
+    "A393180",
+    "A393586"
+  ],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

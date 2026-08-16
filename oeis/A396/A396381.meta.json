@@ -1,0 +1,19 @@
+{
+  "description": "Bi-unitary half-Zumkeller numbers: numbers whose set of bi-unitary proper divisors can be partitioned into two disjoint subsets of equal sum.",
+  "id": "A396381",
+  "mentions": [
+    "A083207",
+    "A246198",
+    "A290466",
+    "A290467",
+    "A335215"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

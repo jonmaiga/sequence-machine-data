@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of unordered factorizations of A025487(n) into exactly k factors >= 2, where 0 <= k <= A036041(n).",
+  "id": "A395406",
+  "mentions": [
+    "A000012",
+    "A001055",
+    "A001222",
+    "A025487",
+    "A036041",
+    "A063524",
+    "A072670",
+    "A122179",
+    "A124832",
+    "A321379"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

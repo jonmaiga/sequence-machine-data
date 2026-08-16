@@ -2,8 +2,11 @@
   "description": "Sum of the squares less than n that do not divide n.",
   "id": "A368820",
   "mentions": [
+    "A000196",
     "A000290",
+    "A000330",
     "A010052",
+    "A035316",
     "A338236"
   ],
   "tags": [

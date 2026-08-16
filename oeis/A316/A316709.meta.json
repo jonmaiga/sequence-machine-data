@@ -1,10 +1,9 @@
 {
-  "description": "Bisection of the odd-indexed Pell numbers A001853: part 2.",
+  "description": "Bisection of the odd-indexed Pell numbers A001653: part 2.",
   "id": "A316709",
   "mentions": [
     "A000129",
     "A001653",
-    "A001853",
     "A029547",
     "A316708"
   ],
@@ -16,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

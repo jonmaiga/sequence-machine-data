@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the k-th Stieltjes constant is negative.",
+  "id": "A395455",
+  "mentions": [
+    "A114523",
+    "A354835",
+    "A394583"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

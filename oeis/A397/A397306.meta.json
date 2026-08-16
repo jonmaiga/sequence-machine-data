@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers m such that m - 2^k is a prime for exactly one value of k > 0 with 2^k < m.",
+  "id": "A397306",
+  "mentions": [
+    "A039669",
+    "A052548",
+    "A283806",
+    "A397305"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

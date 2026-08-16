@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 5 * sqrt(3 - phi) / (2 * Pi).",
+  "description": "Decimal expansion of 5 * sqrt(3 - phi) / (2 * Pi), where phi is the golden ratio.",
   "id": "A371604",
   "mentions": [
     "A019845",

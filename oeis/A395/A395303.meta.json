@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > 0 such that A162439(k) = n; a(0) = 0.",
+  "id": "A395303",
+  "mentions": [
+    "A000120",
+    "A162439",
+    "A333256"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

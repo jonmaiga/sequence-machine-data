@@ -1,0 +1,30 @@
+{
+  "description": "Smallest powerful k (in A001694) that exceeds A332785(n) and has the same squarefree kernel as A332785(n).",
+  "id": "A396542",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A007947",
+    "A008479",
+    "A013929",
+    "A052485",
+    "A052486",
+    "A126706",
+    "A131605",
+    "A286708",
+    "A303606",
+    "A332785",
+    "A369609",
+    "A383394",
+    "A386762",
+    "A396367"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

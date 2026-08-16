@@ -1,0 +1,16 @@
+{
+  "description": "Number of derangements of [n] with 4 descents.",
+  "id": "A395483",
+  "mentions": [
+    "A219836"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

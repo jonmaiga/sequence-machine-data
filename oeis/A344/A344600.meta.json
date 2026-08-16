@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=1..n} phi(k) * (floor(n/k)^4 - floor((n-1)/k)^4).",
   "id": "A344600",
   "mentions": [
+    "A002088",
     "A344523",
     "A344598",
     "A344599"

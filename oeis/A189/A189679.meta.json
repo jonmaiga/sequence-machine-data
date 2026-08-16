@@ -1,5 +1,5 @@
 {
-  "description": "n+[nr/t]+[ns/t]; r=1, s=arctan(1/2), t=arctan(2).",
+  "description": "a(n) = n + floor(nr/t) + floor(ns/t) with r=1, s=arctan(1/2), t=arctan(2).",
   "id": "A189679",
   "mentions": [
     "A189677",

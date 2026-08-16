@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row 0 is 0, row n for n >= 1 is 6*n^2-3*n+k for k = 1..6*n.",
+  "id": "A396184",
+  "mentions": [
+    "A094159",
+    "A158480",
+    "A195319",
+    "A395362"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

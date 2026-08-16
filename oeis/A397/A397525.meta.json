@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^(A007238(n)) * [x^n] B(x) where B(x) satisfies (B(x)^2-B(x^2))/2 = 1/(1-x)^2 with a(0) = 2.",
+  "id": "A397525",
+  "mentions": [
+    "A007238",
+    "A394611",
+    "A397173",
+    "A397174",
+    "A397521"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

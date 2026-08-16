@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the Struve H-function of order 0 at 1.",
+  "id": "A397738",
+  "mentions": [
+    "A001147",
+    "A001818",
+    "A060294",
+    "A197037",
+    "A333566",
+    "A395062"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

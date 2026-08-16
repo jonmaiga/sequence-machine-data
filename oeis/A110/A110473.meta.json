@@ -2,10 +2,12 @@
   "description": "Integers not in \"array with primes\".",
   "id": "A110473",
   "mentions": [
+    "A015441",
     "A105441"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

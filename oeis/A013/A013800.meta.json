@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 14^(4*n+1).",
+  "description": "a(n) = 14^(4*n + 1).",
   "id": "A013800",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

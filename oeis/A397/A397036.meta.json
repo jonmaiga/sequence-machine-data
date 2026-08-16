@@ -1,0 +1,17 @@
+{
+  "description": "The number of transitive relations T on an n-element set such that T has a transitive subset of every cardinality k in {0,1,...,|T|}.",
+  "id": "A397036",
+  "mentions": [
+    "A006905"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

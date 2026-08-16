@@ -1,7 +1,11 @@
 {
-  "description": "Decimal expansion of sum_(n>=1) H(n)^2/n^3 where H(n) is the n-th harmonic number (Quadratic Euler Sum S(2,3)).",
+  "description": "Decimal expansion of Sum_{n>=1} H(n)^2/n^3 where H(n) is the n-th harmonic number (Quadratic Euler Sum S(2,3)).",
   "id": "A238181",
   "mentions": [
+    "A001008",
+    "A002805",
+    "A007406",
+    "A007407",
     "A152648",
     "A152649",
     "A152651",

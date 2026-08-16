@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k) * H(k/2) / k^2, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number, and H(x) is the harmonic number for the real value x.",
+  "id": "A398410",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002162",
+    "A002805",
+    "A013661",
+    "A013662",
+    "A074599",
+    "A099218",
+    "A350670"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

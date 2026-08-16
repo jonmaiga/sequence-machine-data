@@ -1,0 +1,22 @@
+{
+  "description": "Sum of next n octahedral numbers (A005900).",
+  "id": "A393719",
+  "mentions": [
+    "A005900",
+    "A006325",
+    "A072474",
+    "A075664",
+    "A260513",
+    "A372583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

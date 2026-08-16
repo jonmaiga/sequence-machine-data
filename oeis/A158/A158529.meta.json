@@ -1,12 +1,10 @@
 {
-  "description": "List of primes p with following properties: p = prime(n-1) for some n, p+7 is a square and is equal to prime(n+1)-1.",
+  "description": "List of primes p with following properties: p = prime(m-1) for some m, p+7 is a square and is equal to prime(m+1)-1.",
   "id": "A158529",
   "mentions": [
-    "A158460",
-    "A158470"
+    "A158460"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

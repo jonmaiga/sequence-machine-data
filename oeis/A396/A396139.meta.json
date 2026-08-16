@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest number > 2^(n-1) with exactly n divisors.",
+  "id": "A396139",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000079",
+    "A000244",
+    "A000351",
+    "A000420",
+    "A001055",
+    "A001248",
+    "A005179",
+    "A030514"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

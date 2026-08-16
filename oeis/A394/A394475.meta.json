@@ -1,13 +1,17 @@
 {
   "description": "Number of distinct primes not dividing n that are adjacent to a divisor of n.",
   "id": "A394475",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A395492"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 96,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

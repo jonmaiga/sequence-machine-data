@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = 5*a(n) - 2*a(n-1).",
+  "description": "a(n+1) = 5*a(n) - 2*a(n-1), a(0)=5, a(1)=21.",
   "id": "A159289",
   "mentions": [
     "A107839"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

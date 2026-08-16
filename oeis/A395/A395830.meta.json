@@ -1,0 +1,26 @@
+{
+  "description": "Number of hexadecimal strings of length n that contain a specific string xx (where x is a single digit).",
+  "id": "A395830",
+  "mentions": [
+    "A008466",
+    "A186244",
+    "A322053",
+    "A340156",
+    "A351529",
+    "A351530",
+    "A395827",
+    "A395828",
+    "A395829",
+    "A395832"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

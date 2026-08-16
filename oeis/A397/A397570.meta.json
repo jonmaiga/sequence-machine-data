@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p of [n+3] such that |p(i+1)-p(i)| <> n for all 1 <= i < n+3.",
+  "id": "A397570",
+  "mentions": [
+    "A062119",
+    "A396690",
+    "A398631",
+    "A398632",
+    "A398634"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

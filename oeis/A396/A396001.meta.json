@@ -1,0 +1,20 @@
+{
+  "description": "Largest number of terms in greedy Egyptian fraction expansion of k/n for 1 <= k <= n with GCD(n,k) = 1.",
+  "id": "A396001",
+  "mentions": [
+    "A050205",
+    "A097849",
+    "A100140",
+    "A100678",
+    "A395231",
+    "A396000"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

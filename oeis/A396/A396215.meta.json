@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k so that the k-th n-simplex number has exactly n prime factors, counted with multiplicity.",
+  "id": "A396215",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A068443",
+    "A356095",
+    "A395415"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

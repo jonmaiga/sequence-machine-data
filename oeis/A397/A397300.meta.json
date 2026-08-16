@@ -1,0 +1,18 @@
+{
+  "description": "Brier numbers with at least three minimal covering sets.",
+  "id": "A397300",
+  "mentions": [
+    "A076335",
+    "A076336",
+    "A076337",
+    "A395816"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 6^n - n^5.",
   "id": "A024067",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A000584"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

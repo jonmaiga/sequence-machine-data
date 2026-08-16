@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A(x) = Sum_{n>=0} A^n(x) * x^n/n!, where A^n(x) denotes the n-th iteration of A(x) with A^0(x) = x.",
+  "id": "A395120",
+  "mentions": [
+    "A120567",
+    "A395121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,8 +2,11 @@
   "description": "Real part of the totient function phi(n) for Gaussian integers. See A103223 for the imaginary part and A103224 for the norm.",
   "id": "A103222",
   "mentions": [
+    "A079458",
     "A103223",
-    "A103224"
+    "A103224",
+    "A391110",
+    "A394288"
   ],
   "tags": [
     "formulas",

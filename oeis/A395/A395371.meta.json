@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of triples (A->B, B->C, C->A) of pairwise disjoint paths on a triangular grid ABC of side length n, such that the distance from the starting point to each point of a path is always increasing.",
+  "id": "A395371",
+  "mentions": [
+    "A393490",
+    "A394698",
+    "A395036"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

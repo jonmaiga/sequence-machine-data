@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that are neither squarefree nor powerful such that rad(k)*bigomega(k) = k, where rad = A007947 and bigomega = A001222.",
+  "id": "A397933",
+  "mentions": [
+    "A001222",
+    "A007947",
+    "A175787",
+    "A332785",
+    "A396594",
+    "A397658",
+    "A397932",
+    "A397934"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,15 +2,18 @@
   "description": "Number of (n+1) X 5 0..4 arrays with every 2 X 2 subblock summing to 8.",
   "id": "A183647",
   "mentions": [
+    "A183643",
+    "A183651",
     "A183652"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

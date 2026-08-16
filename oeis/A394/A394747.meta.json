@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k-4 and k+4 are prime and gcd(k, sigma(k)) is prime.",
+  "id": "A394747",
+  "mentions": [
+    "A087680",
+    "A392199",
+    "A394757",
+    "A395258"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

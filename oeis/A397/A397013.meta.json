@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of the exponential generating function (1 - 23*x - (30 - 6*x)*log(1-x)) / (1 - x)^5.",
+  "id": "A397013",
+  "mentions": [
+    "A001008",
+    "A396981"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

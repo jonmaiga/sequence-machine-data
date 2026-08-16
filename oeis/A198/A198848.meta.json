@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 11*6^n - 1.",
   "id": "A198848",
-  "mentions": [],
+  "mentions": [
+    "A000400"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

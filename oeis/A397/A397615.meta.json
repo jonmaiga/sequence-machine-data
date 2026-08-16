@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(floor(n*sqrt(5))).",
+  "id": "A397615",
+  "mentions": [
+    "A000040",
+    "A002163",
+    "A022839",
+    "A108593",
+    "A184815",
+    "A397616"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

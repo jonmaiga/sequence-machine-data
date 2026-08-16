@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with digits in nondecreasing order having only digits 1 through 3.",
+  "id": "A397643",
+  "mentions": [
+    "A007932",
+    "A009994"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

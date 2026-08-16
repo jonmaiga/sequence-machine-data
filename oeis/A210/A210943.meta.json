@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals in which row n lists the parts of the infinite n-th zone of the shell model of partitions, in nonincreasing order.",
+  "description": "Square array read by antidiagonals in which row n lists the parts of the infinite n-th zone of the modular table of partitions, in nonincreasing order.",
   "id": "A210943",
   "mentions": [
     "A135010",

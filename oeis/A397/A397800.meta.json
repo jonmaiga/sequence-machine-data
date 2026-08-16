@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct squarefree semiprimes whose sum of reciprocals is 1.",
+  "id": "A397800",
+  "mentions": [
+    "A000058",
+    "A006881",
+    "A075442",
+    "A181503",
+    "A225669",
+    "A225670"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

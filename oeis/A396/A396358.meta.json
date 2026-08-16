@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = J((n-1)*(n+1))/(J(n-1)*J(n+1)), where J(n) is the n-th Jacobsthal number A001045(n).",
+  "id": "A396358",
+  "mentions": [
+    "A000034",
+    "A001045",
+    "A060576",
+    "A378676",
+    "A396115",
+    "A396233"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

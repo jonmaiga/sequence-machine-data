@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1 + Sum_{k >= 1} (x^(2k-1) + (k + 1) * x^(2k)) / Product_{j=1..k} (1 - j^2 * x^2).",
+  "id": "A395022",
+  "mentions": [
+    "A008957",
+    "A135920",
+    "A394582",
+    "A394813",
+    "A394822",
+    "A395021"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

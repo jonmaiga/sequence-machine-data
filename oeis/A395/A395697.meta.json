@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least multiple of n that is a partial sum of the primes.",
+  "id": "A395697",
+  "mentions": [
+    "A007504",
+    "A308749"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

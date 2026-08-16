@@ -1,14 +1,13 @@
 {
-  "description": "The number of adjacency matrices generated with heuristics for different values of Wiener index.",
+  "description": "a(n) is the number of adjacency matrices generated with heuristics for Wiener index 10*n.",
   "id": "A121851",
   "mentions": [],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
-    "offset": 10,
-    "size": 11,
+    "offset": 1,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

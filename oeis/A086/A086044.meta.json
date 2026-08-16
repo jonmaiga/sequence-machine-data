@@ -1,14 +1,16 @@
 {
-  "description": "Position of first occurrence of n in concatenated numbers (A033307, Champernowne constant).",
+  "description": "Position of the first occurrence of n in concatenated numbers (A007376, Champernowne constant).",
   "id": "A086044",
   "mentions": [
     "A000030",
+    "A007376",
     "A033307",
     "A086045",
     "A086048"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

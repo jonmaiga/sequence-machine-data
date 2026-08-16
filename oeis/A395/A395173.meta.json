@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] C(x)^2, where C(x) satisfies C(x) = cosh( Integral C(x)^5 dx ).",
+  "id": "A395173",
+  "mentions": [
+    "A000182",
+    "A010050",
+    "A052502",
+    "A281183",
+    "A395172"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

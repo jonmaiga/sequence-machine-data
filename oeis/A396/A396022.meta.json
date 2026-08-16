@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (2+sqrt(2))/(2*Pi).",
+  "id": "A396022",
+  "mentions": [
+    "A060294",
+    "A089491",
+    "A396023"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

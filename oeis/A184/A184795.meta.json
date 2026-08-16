@@ -3,6 +3,7 @@
   "id": "A184795",
   "mentions": [
     "A001950",
+    "A095281",
     "A104457",
     "A184774",
     "A184792",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 8*(2 - sqrt(2)).",
+  "id": "A396517",
+  "mentions": [
+    "A101465",
+    "A396518",
+    "A396519",
+    "A396520"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

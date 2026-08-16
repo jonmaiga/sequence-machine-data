@@ -2,6 +2,7 @@
   "description": "Primitive nondeficient numbers.",
   "id": "A006039",
   "mentions": [
+    "A000203",
     "A000396",
     "A001065",
     "A001599",
@@ -25,7 +26,8 @@
     "A342669",
     "A352739",
     "A387709",
-    "A388019"
+    "A388019",
+    "A395192"
   ],
   "tags": [
     "formulas",

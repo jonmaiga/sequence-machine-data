@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of different possible words of length n that can be found in a Boggle grid.",
+  "id": "A395927",
+  "mentions": [],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,15 @@
 {
   "description": "Number of ferrites M_2Y_n that repeat after 6n+10 layers.",
   "id": "A011960",
-  "mentions": [],
+  "mentions": [
+    "A011961"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 79,
+    "source": "joeis"
   }
 }

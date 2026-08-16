@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle T(n, k) = number of integers x in range A002110(n-1) .. A002110(n)-1 such that the u-th arithmetic derivative of A276086(x) is zero for some u, and A328114(x) = k, where A002110(n) is the n-th primorial, and A328114 gives the largest digit in the primorial base.",
+  "id": "A394890",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A006093",
+    "A006530",
+    "A051903",
+    "A099308",
+    "A276086",
+    "A328114",
+    "A328116",
+    "A351071",
+    "A351255",
+    "A394893",
+    "A394894"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

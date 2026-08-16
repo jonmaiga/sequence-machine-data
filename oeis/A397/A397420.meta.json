@@ -1,0 +1,16 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = Sum_{j=0..k} Stirling1(k, j) * binomial(n+j, k) * k^j.",
+  "id": "A397420",
+  "mentions": [
+    "A397400"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

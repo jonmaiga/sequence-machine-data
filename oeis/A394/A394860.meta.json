@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are neither squarefree nor squareful, with exponents of prime power factors that are distinct.",
+  "id": "A394860",
+  "mentions": [
+    "A006939",
+    "A130091",
+    "A332785",
+    "A345381",
+    "A348097",
+    "A392926"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Take prime[n] and continue adding n,n+1,..., n+a(n)-1 until one reaches a prime.",
+  "description": "Take prime(n) and continue adding n,n+1,..., n+a(n)-1 until one reaches a prime.",
   "id": "A085417",
   "mentions": [
     "A085415",

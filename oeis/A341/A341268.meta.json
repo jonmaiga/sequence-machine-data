@@ -1,9 +1,15 @@
 {
-  "description": "Square array read by descending antidiagonals. T(n,k) is the number of ways to factor a permutation of [2n] into exactly k good factors, n>=0, k>=0.",
+  "description": "Square array read by descending antidiagonals. T(n,k) is the number of ways to factor a permutation of [2*n] into exactly k good factors, n>=0, k>=0.",
   "id": "A341268",
   "mentions": [
+    "A000007",
     "A000182",
-    "A000364"
+    "A000364",
+    "A326327",
+    "A326328",
+    "A395141",
+    "A395146",
+    "A395148"
   ],
   "tags": [
     "formulas",
@@ -12,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

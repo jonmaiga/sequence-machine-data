@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 4*p - floor(2*sqrt(p))^2, where p = prime(n).",
+  "id": "A396895",
+  "mentions": [
+    "A002383",
+    "A002496",
+    "A005473",
+    "A027753",
+    "A027755",
+    "A049423",
+    "A056899",
+    "A056905",
+    "A396869"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

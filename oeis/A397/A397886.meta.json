@@ -1,0 +1,21 @@
+{
+  "description": "The smallest number k such that the digit reversals of k, when written in all bases 2 to n, are prime.",
+  "id": "A397886",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A228768",
+    "A397950"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

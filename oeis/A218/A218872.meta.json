@@ -4,16 +4,19 @@
   "mentions": [
     "A000045",
     "A001008",
+    "A001622",
+    "A002390",
     "A002805",
     "A218873"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

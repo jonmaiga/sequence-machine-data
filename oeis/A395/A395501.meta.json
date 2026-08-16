@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered quadruples (w, x, y, z) of distinct positive integers such that w*x + y*z = n.",
+  "id": "A395501",
+  "mentions": [
+    "A000005",
+    "A055507",
+    "A056924",
+    "A063725",
+    "A065608",
+    "A106634",
+    "A183063",
+    "A211508",
+    "A379480",
+    "A395277"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

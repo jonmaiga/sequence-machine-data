@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of the two tribonacci sequences A000073 and A001590.",
+  "id": "A393073",
+  "mentions": [
+    "A000073",
+    "A001590",
+    "A073778",
+    "A292401"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

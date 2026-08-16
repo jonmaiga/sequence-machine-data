@@ -1,5 +1,5 @@
 {
-  "description": "Let k be the maximal number of vertices in an n X n lattice grid that form a convex polygon, then a(n) = floor(k/2).",
+  "description": "Let k be the maximum number of vertices in an n X n lattice grid that form a convex polygon, then a(n) = floor(k/2).",
   "id": "A305397",
   "mentions": [
     "A011755",

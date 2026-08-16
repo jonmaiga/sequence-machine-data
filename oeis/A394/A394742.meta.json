@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that x^2 + y*z = n, where x < y < z are primes.",
+  "id": "A394742",
+  "mentions": [
+    "A393710",
+    "A394740"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

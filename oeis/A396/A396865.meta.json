@@ -1,0 +1,21 @@
+{
+  "description": "2-rank of the Pólya group of real quadratic field with discriminant A003658(n), n >= 2.",
+  "id": "A396865",
+  "mentions": [
+    "A003658",
+    "A317991",
+    "A319659",
+    "A391436",
+    "A396866",
+    "A396868"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Table read by rows: T(n, k) = v2(A398187(n, k)) where v2(m) is the 2-adic valuation of m.",
+  "id": "A398189",
+  "mentions": [
+    "A000120",
+    "A063170",
+    "A398187"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

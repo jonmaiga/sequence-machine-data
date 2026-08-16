@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/(1 - 2*x + x^2 - x^3 - 2*x^4 - x^5).",
+  "id": "A397237",
+  "mentions": [
+    "A397236"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

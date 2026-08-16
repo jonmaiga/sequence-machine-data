@@ -1,9 +1,18 @@
 {
   "description": "Legendre symbol (n,149).",
   "id": "A011612",
-  "mentions": [],
+  "mentions": [
+    "A011582",
+    "A011631",
+    "A080891",
+    "A102283",
+    "A165573",
+    "A165574",
+    "A175629"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "mult",
     "sign"
   ],

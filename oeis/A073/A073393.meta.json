@@ -1,5 +1,5 @@
 {
-  "description": "Sixth convolution of A002605(n) (generalized (2,2)-Fibonacci), n >= 0, with itself.",
+  "description": "Seventh column of the convolution triangle A073387(n+6,6), for n >= 0.",
   "id": "A073393",
   "mentions": [
     "A002605",

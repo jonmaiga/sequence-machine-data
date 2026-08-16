@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime containing an n-digit prime as a proper substring.",
+  "id": "A397465",
+  "mentions": [
+    "A035232",
+    "A039994",
+    "A039995"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

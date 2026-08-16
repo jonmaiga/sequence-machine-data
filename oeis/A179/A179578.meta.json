@@ -1,13 +1,19 @@
 {
   "description": "Number of permutations of 1..n+11 with the number moved left exceeding the number moved right by n.",
   "id": "A179578",
-  "mentions": [],
+  "mentions": [
+    "A062866",
+    "A179585",
+    "A179586"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

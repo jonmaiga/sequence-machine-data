@@ -2,6 +2,7 @@
   "description": "Decimal expansion of (4*sqrt(2)*Pi^2)/gamma(1/4)^2.",
   "id": "A096428",
   "mentions": [
+    "A068466",
     "A097060"
   ],
   "tags": [

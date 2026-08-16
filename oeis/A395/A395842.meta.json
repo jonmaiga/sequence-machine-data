@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = [x^n] G^{n}(x) for n >= 1, i.e., a(n) equals the coefficient of x^n in the n-th iteration of G(x), the g.f. of A177775, which satisfies [x^n] G^{n}(x) = [x^n] G^{n-1}(x) for n > 2.",
+  "id": "A395842",
+  "mentions": [
+    "A177775"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

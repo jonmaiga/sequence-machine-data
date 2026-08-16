@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: row n lists, in increasing order, the products n*k such that A033677(n*k) = n.",
+  "id": "A397409",
+  "mentions": [
+    "A000290",
+    "A010051",
+    "A027424",
+    "A033676",
+    "A033677",
+    "A062854",
+    "A075383",
+    "A075384",
+    "A095163",
+    "A095164",
+    "A333995"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

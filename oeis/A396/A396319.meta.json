@@ -1,0 +1,24 @@
+{
+  "description": "Denominator of the largest abundancy of any proper divisor of n as a fraction of the abundancy of n.",
+  "id": "A396319",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A006530",
+    "A108348",
+    "A319076",
+    "A355079",
+    "A395192",
+    "A396316"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

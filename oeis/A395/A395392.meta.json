@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the surface area of the solid of revolution formed by rotating a unit half-width lemniscate of Bernoulli about the horizontal axis.",
+  "id": "A395392",
+  "mentions": [
+    "A064853",
+    "A154739",
+    "A154743",
+    "A154747",
+    "A343392",
+    "A395393",
+    "A395394",
+    "A395395"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

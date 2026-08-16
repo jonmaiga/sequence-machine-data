@@ -1,0 +1,17 @@
+{
+  "description": "Triangle of polynomials related to Verlinde numbers.",
+  "id": "A398690",
+  "mentions": [
+    "A000831",
+    "A107735"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

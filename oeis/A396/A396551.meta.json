@@ -1,0 +1,26 @@
+{
+  "description": "Powerful numbers that are equal to the sum of their coreful divisors that are not exponential unitary divisors.",
+  "id": "A396551",
+  "mentions": [
+    "A000043",
+    "A001694",
+    "A005117",
+    "A246655",
+    "A284318",
+    "A307959",
+    "A361255",
+    "A391281",
+    "A396546",
+    "A396549",
+    "A396550"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

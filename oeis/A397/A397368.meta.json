@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct proper prime powers p^m, m >= 2, such that for any prime p, any run of consecutive multiples of p has length exactly 2.",
+  "id": "A397368",
+  "mentions": [
+    "A000290",
+    "A007947",
+    "A246547",
+    "A280864",
+    "A338444",
+    "A397126"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

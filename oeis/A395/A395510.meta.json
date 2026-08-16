@@ -1,0 +1,19 @@
+{
+  "description": "Number of derangements of [2*n+1] with n ascents.",
+  "id": "A395510",
+  "mentions": [
+    "A025585",
+    "A180056",
+    "A219836",
+    "A395497"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

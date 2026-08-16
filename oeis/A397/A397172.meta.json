@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes in n-th block of A280864.",
+  "id": "A397172",
+  "mentions": [
+    "A280745",
+    "A280774",
+    "A280864",
+    "A283832",
+    "A396300",
+    "A396301",
+    "A396303"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

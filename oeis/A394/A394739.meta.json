@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1, a(n) is the number of previous terms that are greater than half of the previous term.",
+  "id": "A394739",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

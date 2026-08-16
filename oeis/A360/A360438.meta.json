@@ -2,7 +2,14 @@
   "description": "Smallest number with 2^n odd divisors.",
   "id": "A360438",
   "mentions": [
+    "A001399",
+    "A001400",
+    "A001401",
+    "A001402",
+    "A004526",
     "A005179",
+    "A026813",
+    "A037992",
     "A038547"
   ],
   "tags": [
@@ -12,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k > 0 such that 2*prime(n) - prime(n-k) is prime.",
+  "id": "A396687",
+  "mentions": [
+    "A000040",
+    "A078611",
+    "A179835"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 86,
+    "source": "joeis"
+  }
+}

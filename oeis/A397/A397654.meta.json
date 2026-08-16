@@ -1,0 +1,19 @@
+{
+  "description": "Least composite number in base n, that is an anagram of the concatenation of its distinct prime factors in base n, but presented in base 10.",
+  "id": "A397654",
+  "mentions": [
+    "A083359",
+    "A096595",
+    "A121342",
+    "A396692"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

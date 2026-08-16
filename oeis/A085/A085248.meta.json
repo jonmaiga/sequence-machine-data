@@ -1,7 +1,9 @@
 {
   "description": "Left truncatable 3-almost primes, in which repeatedly deleting the leftmost digit gives a 3-almost prime at every step until a single-digit 3-almost prime remains.",
   "id": "A085248",
-  "mentions": [],
+  "mentions": [
+    "A014612"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

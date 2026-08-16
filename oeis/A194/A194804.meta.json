@@ -1,5 +1,5 @@
 {
-  "description": "Sum of parts that are visible in one of the three views of the shell model of partitions version \"tree\" with n shells.",
+  "description": "Sum of parts that are visible in one of the three views of the modular table of partitions version \"tree\" with n sections.",
   "id": "A194804",
   "mentions": [
     "A002865",

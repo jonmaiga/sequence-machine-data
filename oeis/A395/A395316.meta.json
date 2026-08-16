@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is obtained by placing a '+' sign before each non-zero digit in the decimal expansion of n and evaluating the corresponding sum.",
+  "id": "A395316",
+  "mentions": [
+    "A002275",
+    "A007953",
+    "A037124",
+    "A052382",
+    "A055642",
+    "A162439"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

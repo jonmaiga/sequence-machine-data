@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the maximum integer k such that rad(k)=rad(k+2n), where rad(x) is the squarefree kernel of x (A007947).",
+  "id": "A396510",
+  "mentions": [
+    "A007947",
+    "A396513"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

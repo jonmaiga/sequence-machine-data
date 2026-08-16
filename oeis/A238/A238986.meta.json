@@ -1,15 +1,13 @@
 {
-  "description": "Ground Pyramidalized Numbers: Write the decimal digits of 'n' (a nonnegative integer) and take successive absolute differences (\"pyramidalization\"), then sum all digits of each level of the pyramid. If total is greater than 9, repeat the process until result is between 0 and 9, which is 'a(n)' (0 <= a(n) <= 9).",
+  "description": "Write the decimal digits of n and take the absolute differences of the digits, repeating until a single digit remains. Then sum all digits of each level of the resulting triangle. If the sum is greater than 9, repeat the entire process until result is between 0 and 9, which is a(n).",
   "id": "A238986",
   "mentions": [
-    "A007318",
-    "A227876"
+    "A227876",
+    "A241494"
   ],
   "tags": [
     "base",
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

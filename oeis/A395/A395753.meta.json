@@ -1,0 +1,22 @@
+{
+  "description": "Indices k where the ratio A000793(k)/A000793(k-1) reaches a new minimum > 1.",
+  "id": "A395753",
+  "mentions": [
+    "A000793",
+    "A395744",
+    "A395749",
+    "A395750",
+    "A395751",
+    "A395752"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

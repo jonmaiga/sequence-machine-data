@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/7)} binomial(2*k,k) * binomial(n-5*k,2*k).",
+  "id": "A398364",
+  "mentions": [
+    "A001850",
+    "A002426",
+    "A098479",
+    "A098482",
+    "A387599",
+    "A393251",
+    "A398365"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

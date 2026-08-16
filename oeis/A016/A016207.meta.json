@@ -1,7 +1,10 @@
 {
-  "description": "Expansion of 1/((1-x)*(1-2*x)*(1-12*x)).",
+  "description": "Expansion of g.f. 1/((1-x)*(1-2*x)*(1-12*x)).",
   "id": "A016207",
-  "mentions": [],
+  "mentions": [
+    "A016125",
+    "A016136"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

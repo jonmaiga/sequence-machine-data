@@ -1,8 +1,14 @@
 {
   "description": "Numbers k such that |s(k) - k| = number of primes <= k, where s(k) is sigma(k) - k.",
   "id": "A037175",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A033880"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

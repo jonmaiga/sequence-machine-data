@@ -2,6 +2,7 @@
   "description": "Numbers k such that the remainder of the harmonic residue of k when divided by k is k-1.",
   "id": "A106317",
   "mentions": [
+    "A000040",
     "A106315",
     "A106316"
   ],

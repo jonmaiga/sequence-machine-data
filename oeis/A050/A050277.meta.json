@@ -1,5 +1,5 @@
 {
-  "description": "Integer part of denominators of nonzero terms in asymptotic expansion of the Riemann-Seigel Z-function.",
+  "description": "Integer part of denominators of nonzero terms in asymptotic expansion of the Riemann-Siegel Z-function.",
   "id": "A050277",
   "mentions": [
     "A050276"

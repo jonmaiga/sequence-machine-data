@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-1) + a(n-1)^4 with a(0)=1.",
+  "id": "A396287",
+  "mentions": [
+    "A074333",
+    "A396277"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

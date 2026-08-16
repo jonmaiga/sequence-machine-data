@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent tilings of an n X n grid by 1 X p rectangles using the prime partitions of n^2 into prime parts p <= n up to symmetry.",
+  "id": "A395942",
+  "mentions": [
+    "A000607",
+    "A395941",
+    "A395943"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

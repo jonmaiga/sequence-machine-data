@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there exist primes p <= q < k with (p, q, k) a Heronian triangle.",
+  "id": "A396755",
+  "mentions": [
+    "A054875",
+    "A123323",
+    "A239246",
+    "A395186",
+    "A396756"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

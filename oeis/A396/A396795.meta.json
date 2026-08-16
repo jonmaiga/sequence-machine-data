@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A^2(x) * A^3(x) = x^2 + 25*x^3, where A^n(x) is the n-th iteration of A(x).",
+  "id": "A396795",
+  "mentions": [
+    "A396793",
+    "A396794"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

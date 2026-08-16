@@ -1,5 +1,5 @@
 {
-  "description": "[ n(n-1)/23 ].",
+  "description": "a(n) = floor(n*(n-1)/23).",
   "id": "A011876",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

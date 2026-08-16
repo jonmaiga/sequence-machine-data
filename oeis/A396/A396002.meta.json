@@ -1,0 +1,19 @@
+{
+  "description": "Primes p that are the least prime factor of 2^k + 1 for some k >= 1.",
+  "id": "A396002",
+  "mentions": [
+    "A002326",
+    "A002586",
+    "A019434",
+    "A393641",
+    "A395931"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

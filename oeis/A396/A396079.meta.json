@@ -1,0 +1,19 @@
+{
+  "description": "Product of the least factors in all proper factorizations of n into factors > 1, up to permutation; a(n) = 1 for noncomposite n.",
+  "id": "A396079",
+  "mentions": [
+    "A001055",
+    "A046746",
+    "A395579"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

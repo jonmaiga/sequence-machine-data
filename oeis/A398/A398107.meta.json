@@ -1,0 +1,40 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of k-ary mobiles (circular rooted trees) with n internal nodes, n >= 0, k >= 0.",
+  "id": "A398107",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A000625",
+    "A001190",
+    "A019590",
+    "A036719",
+    "A036727",
+    "A036728",
+    "A036729",
+    "A036730",
+    "A036731",
+    "A036732",
+    "A036733",
+    "A036734",
+    "A036735",
+    "A036736",
+    "A036737",
+    "A036738",
+    "A055340",
+    "A070914",
+    "A299038",
+    "A398106",
+    "A398108",
+    "A398111"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,15 @@
 {
   "description": "Dimensions of the five sporadic Lie groups.",
   "id": "A113907",
-  "mentions": [],
+  "mentions": [
+    "A003038",
+    "A106373",
+    "A106374",
+    "A106403"
+  ],
   "tags": [
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

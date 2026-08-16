@@ -1,10 +1,14 @@
 {
-  "description": "Numbers n such that sigma(n) - n = perfect number (A000396).",
+  "description": "Numbers m such that sigma(m) - m is a perfect number (A000396).",
   "id": "A237286",
   "mentions": [
     "A000203",
     "A000396",
-    "A001065"
+    "A001065",
+    "A235710",
+    "A279359",
+    "A291373",
+    "A378099"
   ],
   "tags": [
     "more",
@@ -12,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

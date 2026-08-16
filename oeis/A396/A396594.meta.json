@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that rad(m) * bigomega(m) = m.",
+  "id": "A396594",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001597",
+    "A001694",
+    "A005117",
+    "A007947",
+    "A120944",
+    "A175787",
+    "A246547",
+    "A332785",
+    "A397221"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

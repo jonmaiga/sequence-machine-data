@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled minimally 7-rigid graphs on n vertices.",
+  "id": "A396886",
+  "mentions": [
+    "A227117",
+    "A328419",
+    "A394820",
+    "A395187",
+    "A396885"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

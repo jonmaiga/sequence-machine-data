@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = x + A^5(x)*A^6(x).",
+  "id": "A396807",
+  "mentions": [
+    "A213591",
+    "A396099",
+    "A396797",
+    "A396798"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

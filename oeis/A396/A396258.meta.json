@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the largest root to 64*x^6 - 672*x^4 + 1764*x^2 - 189 = 0.",
+  "id": "A396258",
+  "mentions": [
+    "A010465",
+    "A396259",
+    "A396260",
+    "A396261"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

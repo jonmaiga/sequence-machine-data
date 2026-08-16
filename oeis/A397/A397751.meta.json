@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimum independent dominating sets in the n-cycle graph.",
+  "id": "A397751",
+  "mentions": [
+    "A005449",
+    "A302653",
+    "A347538",
+    "A397750"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

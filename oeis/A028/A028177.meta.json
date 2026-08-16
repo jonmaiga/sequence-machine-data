@@ -1,14 +1,15 @@
 {
-  "description": "Expansion of 1/((1-5x)(1-6x)(1-10x)(1-11x)).",
+  "description": "Expansion of 1/((1-5*x)*(1-6*x)*(1-10*x)*(1-11*x)).",
   "id": "A028177",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "joeis"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Ultraradical of phi: decimal expansion of the real x such that x^5 + x = phi.",
+  "description": "Decimal expansion of the real x such that x^5 + x = phi.",
   "id": "A105172",
   "mentions": [
     "A001622"

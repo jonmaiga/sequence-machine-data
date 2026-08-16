@@ -4,14 +4,15 @@
   "mentions": [
     "A084451",
     "A084465",
-    "A084507"
+    "A084507",
+    "A395049"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] 1 / cos(x)^4.",
+  "id": "A395382",
+  "mentions": [
+    "A000182",
+    "A326327",
+    "A385343",
+    "A395387"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

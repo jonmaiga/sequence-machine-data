@@ -1,0 +1,19 @@
+{
+  "description": "Number of red knights in the n-th shell of the spiral of black and red knights (as in A392177, A392178, A395355, A395357).",
+  "id": "A395359",
+  "mentions": [
+    "A392177",
+    "A392178",
+    "A395355",
+    "A395357",
+    "A395358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

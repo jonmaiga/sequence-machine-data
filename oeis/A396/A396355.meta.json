@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of integer-sided triangles (x <= y <= z) with circumradius R = A339952(n) such that gcd(x, y, z, R) = 1.",
+  "id": "A396355",
+  "mentions": [
+    "A120252",
+    "A120570",
+    "A295554",
+    "A339952",
+    "A392942",
+    "A392943",
+    "A394376"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

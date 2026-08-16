@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) nonnegative integer arrays with all values the knight distance from the upper left minus as much as 2, with successive minimum path knight move differences either 0 or +1, and any unreachable value zero.",
+  "description": "Number of (n+2) X (4+2) nonnegative integer arrays with all values the knight distance from the upper left minus as much as 2, with successive minimum path knight move differences either 0 or +1, and any unreachable value zero.",
   "id": "A253115",
   "mentions": [
     "A253119"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Number of order-convex subsets of the cubic grid poset [n]^3 with componentwise partial order.",
+  "id": "A394682",
+  "mentions": [
+    "A393665"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

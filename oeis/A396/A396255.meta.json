@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: let p = prime(n) and d be the k-th divisor of p-1. Then T(n,k) is the algebraic degree of tau(chi) over Q, where chi is any Dirichlet character modulo p of order d, and tau is the Gauss sum.",
+  "id": "A396255",
+  "mentions": [
+    "A002618",
+    "A008328",
+    "A104039",
+    "A396254"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

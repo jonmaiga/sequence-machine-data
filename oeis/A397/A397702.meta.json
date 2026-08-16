@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + tau(k)^5 + omega(k)^5.",
+  "id": "A397702",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001221",
+    "A001615",
+    "A391447"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

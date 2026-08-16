@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the final number of steps reached by Alice and Bob, in the optimization game on an n X n grid described in comments.",
+  "id": "A394868",
+  "mentions": [
+    "A081350"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

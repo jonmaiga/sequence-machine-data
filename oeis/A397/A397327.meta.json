@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: the coefficients of the tree polynomials P(n, k, x) = (1/k!) * Delta^{x, k} (n + x)^n.",
+  "id": "A397327",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A007318",
+    "A071207",
+    "A397048",
+    "A397329",
+    "A397331",
+    "A397333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

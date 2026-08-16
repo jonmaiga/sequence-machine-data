@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2*n-1)! * [x^(2*n-1)] 2*S(x)*(1+S(x)^2)^3 - x*(1+S(x)^2)^2 - S(x), where S(x) satisfies S(x) = Integral (1 + S(x)^2)^2 dx.",
+  "id": "A391180",
+  "mentions": [
+    "A281180",
+    "A394012"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Infinite square array T(n,k) = (prime(n)-1)*prime(n)^k/2; n, k >= 1; read by falling antidiagonals.",
+  "id": "A395627",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A008837",
+    "A020699",
+    "A020729",
+    "A095687",
+    "A121057",
+    "A138416",
+    "A138423",
+    "A138439",
+    "A138460",
+    "A169634"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

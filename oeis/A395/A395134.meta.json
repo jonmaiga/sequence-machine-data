@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the probability that the line that passes through two points selected independently and uniformly at random in a half-disk intersects the arc at two points.",
+  "id": "A395134",
+  "mentions": [
+    "A217739",
+    "A395135",
+    "A395136",
+    "A395137"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -3,21 +3,24 @@
   "id": "A236110",
   "mentions": [
     "A000041",
+    "A087997",
+    "A129655",
     "A236102",
     "A236103",
     "A236105",
     "A236107",
     "A236108",
-    "A236111"
+    "A236111",
+    "A333456",
+    "A356062"
   ],
   "tags": [
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(5*k,k) * x^k)^6.",
+  "id": "A395660",
+  "mentions": [
+    "A001449",
+    "A002457",
+    "A378504",
+    "A395657",
+    "A395659"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

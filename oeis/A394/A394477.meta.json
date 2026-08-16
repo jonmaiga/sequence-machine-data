@@ -1,0 +1,16 @@
+{
+  "description": "Number of integers k in 1..n such that the numerator of the reduced fraction (n*(n-1) + k)/n is prime.",
+  "id": "A394477",
+  "mentions": [
+    "A005563"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

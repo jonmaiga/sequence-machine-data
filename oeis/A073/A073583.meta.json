@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 23/19.",
   "id": "A073583",
   "mentions": [
+    "A021099",
     "A021479"
   ],
   "tags": [

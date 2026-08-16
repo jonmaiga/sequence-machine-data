@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{0..1} Li_5(x)^2 dx, where Li_5 is the polylogarithm function.",
+  "id": "A397555",
+  "mentions": [
+    "A249651",
+    "A249652",
+    "A397550"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

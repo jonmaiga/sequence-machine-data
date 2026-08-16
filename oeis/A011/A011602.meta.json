@@ -1,9 +1,21 @@
 {
   "description": "Legendre symbol (n,97).",
   "id": "A011602",
-  "mentions": [],
+  "mentions": [
+    "A011582",
+    "A011631",
+    "A038987",
+    "A038988",
+    "A080891",
+    "A102283",
+    "A165573",
+    "A165574",
+    "A175629",
+    "A191058"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "mult",
     "sign"
   ],

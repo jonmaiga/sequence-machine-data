@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the constant d = Product_{n>=0} (1 - 1/(2*n!+1)).",
+  "id": "A395680",
+  "mentions": [
+    "A000142",
+    "A396384"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

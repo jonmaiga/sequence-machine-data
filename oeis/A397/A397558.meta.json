@@ -1,0 +1,19 @@
+{
+  "description": "Number of Hadamard-diagonalizable graphs of order 4*n.",
+  "id": "A397558",
+  "mentions": [
+    "A005176",
+    "A007299",
+    "A077027"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

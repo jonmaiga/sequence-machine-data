@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k of the form lpf(k) * slpf(k) * rad(k), where rad = A007947, lpf is the least prime factor, and slpf the second smallest distinct prime factor of k.",
+  "id": "A398444",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A005117",
+    "A006881",
+    "A007947",
+    "A020639",
+    "A085986",
+    "A119288",
+    "A120944",
+    "A124010",
+    "A332785",
+    "A371601",
+    "A375144",
+    "A398302"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

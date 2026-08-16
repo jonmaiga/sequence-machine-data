@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of partitions of n into distinct parts such that the sum of A001222 over the parts equals A001222(n).",
+  "id": "A395097",
+  "mentions": [
+    "A000009",
+    "A001222",
+    "A394248",
+    "A395082",
+    "A395091",
+    "A395096"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

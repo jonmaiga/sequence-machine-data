@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n! - 1) mod n^2.",
+  "id": "A394678",
+  "mentions": [
+    "A000290",
+    "A002068",
+    "A007540",
+    "A033312",
+    "A072230",
+    "A091567"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

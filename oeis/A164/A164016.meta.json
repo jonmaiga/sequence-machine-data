@@ -1,5 +1,5 @@
 {
-  "description": "6 times centered hexagonal numbers: 18*n*(n+1) + 6.",
+  "description": "6 times centered hexagonal numbers: a(n) = 18*n*(n+1) + 6.",
   "id": "A164016",
   "mentions": [
     "A003215",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 43,
     "source": "joeis"
   }
 }

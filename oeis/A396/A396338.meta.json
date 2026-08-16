@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of phi*G, where phi = (1+sqrt(5))/2 is the golden ratio and G is Catalan's constant.",
+  "id": "A396338",
+  "mentions": [
+    "A001622",
+    "A006752"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

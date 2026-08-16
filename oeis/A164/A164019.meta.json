@@ -1,18 +1,20 @@
 {
-  "description": "Table read by rows: row n contains the primes between n and 2n.",
+  "description": "Irregular table read by rows: row n contains the primes between n and 2n.",
   "id": "A164019",
   "mentions": [
     "A060715",
-    "A108954"
+    "A108954",
+    "A341700"
   ],
   "tags": [
     "easy",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 2,
-    "size": 71,
-    "source": "oeis-entry"
+    "size": 72,
+    "source": "oeis-bfile"
   }
 }

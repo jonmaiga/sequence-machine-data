@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n-th prime divides the n-th golden rectangle number.",
+  "description": "Integers k such that k-th prime divides the k-th golden rectangle number.",
   "id": "A271332",
   "mentions": [
     "A000040",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

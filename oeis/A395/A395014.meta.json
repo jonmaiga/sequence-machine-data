@@ -1,0 +1,20 @@
+{
+  "description": "Abundant numbers k for which the k-th Fibonacci number is deficient.",
+  "id": "A395014",
+  "mentions": [
+    "A000045",
+    "A005100",
+    "A005101",
+    "A074316",
+    "A074317",
+    "A395013"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

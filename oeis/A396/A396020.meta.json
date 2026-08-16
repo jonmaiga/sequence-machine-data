@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the distinct prime divisors of C(9*n, n).",
+  "id": "A396020",
+  "mentions": [
+    "A008472",
+    "A034387",
+    "A169958",
+    "A394454",
+    "A394591",
+    "A394592",
+    "A394593",
+    "A395515",
+    "A395566",
+    "A395603"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

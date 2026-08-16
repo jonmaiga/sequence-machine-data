@@ -1,0 +1,21 @@
+{
+  "description": "Number A(n,k) of ways to write n as a sum n = 0 + 1 + 2 +- 3 +- 4 ... +- k with nonnegative partial sums; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A397488",
+  "mentions": [
+    "A000007",
+    "A000217",
+    "A396496",
+    "A397365",
+    "A397489"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

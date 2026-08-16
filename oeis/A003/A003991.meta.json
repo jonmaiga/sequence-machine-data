@@ -2,6 +2,7 @@
   "description": "Multiplication table read by antidiagonals: T(i,j) = i*j, i>=1, j>=1.",
   "id": "A003991",
   "mentions": [
+    "A000005",
     "A000012",
     "A000124",
     "A000290",

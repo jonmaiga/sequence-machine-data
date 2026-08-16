@@ -1,7 +1,9 @@
 {
   "description": "Number of minimum connected dominating sets in the n-triangular graph.",
   "id": "A373395",
-  "mentions": [],
+  "mentions": [
+    "A298104"
+  ],
   "tags": [
     "formulas",
     "nonn"

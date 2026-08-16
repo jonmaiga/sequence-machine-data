@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(3*k+1,k) * x^k)^3.",
+  "id": "A395779",
+  "mentions": [
+    "A045721",
+    "A062236",
+    "A378483",
+    "A395780",
+    "A395783"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

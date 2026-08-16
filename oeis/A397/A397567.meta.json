@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n+2*k-2,k).",
+  "id": "A397567",
+  "mentions": [
+    "A002295",
+    "A396691",
+    "A397512",
+    "A397568"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

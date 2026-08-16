@@ -1,11 +1,12 @@
 {
-  "description": "Decimal expansion of -x_1 such that the Riemann function zeta(x) has at real x_1",
+  "description": "Decimal expansion of -x_1 such that the Riemann function zeta(x) has at real x_1 < 0 its first local extremum.",
   "id": "A271855",
   "mentions": [
     "A271856"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

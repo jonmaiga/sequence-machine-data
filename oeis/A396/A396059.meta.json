@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the action of \"Rule 90\" elementary cellular automaton on the binary representation of n if the cells may only expand into the significant bit.",
+  "id": "A396059",
+  "mentions": [
+    "A048725"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

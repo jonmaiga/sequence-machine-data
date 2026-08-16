@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the largest prime < 10^n is a twin prime member.",
+  "description": "Numbers k such that the largest prime < 10^k is a twin prime member.",
   "id": "A128946",
   "mentions": [
     "A001097",

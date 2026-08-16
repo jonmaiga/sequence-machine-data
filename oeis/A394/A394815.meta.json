@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k in A014574 (averages of twin prime pairs) such that gcd(k, sigma(k)) = 2.",
+  "id": "A394815",
+  "mentions": [
+    "A014574",
+    "A392199",
+    "A394399",
+    "A394757"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

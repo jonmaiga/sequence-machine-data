@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: row n lists the parts of the n-th shell of the table A182743.",
+  "description": "Triangle read by rows: row n lists the parts of the n-th section of the table A182743.",
   "id": "A182983",
   "mentions": [
     "A135010",

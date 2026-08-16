@@ -1,9 +1,14 @@
 {
   "description": "a(n) = (12*n)^4.",
   "id": "A017524",
-  "mentions": [],
+  "mentions": [
+    "A000583",
+    "A008594",
+    "A016912"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

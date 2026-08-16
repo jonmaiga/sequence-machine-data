@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k = p_1^e_1 * ... * p_i^e_i such that the area of the convex hull of the planar coordinates [p_i, e_i] is not an integer, but >= 1/2.",
+  "id": "A396647",
+  "mentions": [
+    "A000040",
+    "A395113",
+    "A396642"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

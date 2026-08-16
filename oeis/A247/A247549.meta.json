@@ -2,7 +2,6 @@
   "description": "Numbers n for which A242720(n) = prime(n)*(prime(n)+8)+3.",
   "id": "A247549",
   "mentions": [
-    "A147280",
     "A242719",
     "A242720",
     "A242847",

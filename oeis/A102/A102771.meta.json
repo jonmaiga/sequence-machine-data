@@ -2,6 +2,7 @@
   "description": "Decimal expansion of area of a regular pentagon with unit edge length.",
   "id": "A102771",
   "mentions": [
+    "A001622",
     "A090488",
     "A104956",
     "A120011",

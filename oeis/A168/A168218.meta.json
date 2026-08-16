@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the Sum_{k=2..infinity} 1/(k^2*log(k)).",
+  "description": "Decimal expansion of the Sum_{k>=2} 1/(k^2*log(k)).",
   "id": "A168218",
   "mentions": [
     "A099769",

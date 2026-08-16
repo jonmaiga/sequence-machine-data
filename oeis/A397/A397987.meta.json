@@ -1,0 +1,20 @@
+{
+  "description": "Upper (1/2,1/3) midsequence of triangular numbers (A000217) and squares (A000290); see Comments.",
+  "id": "A397987",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A397972",
+    "A397986"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "Decimal expansion of Sum_{i > 0} 1/A001481(i)^2.",
+  "description": "Decimal expansion of Sum_{i >= 1} 1/A001481(i)^2.",
   "id": "A344123",
   "mentions": [
     "A000040",
     "A001481",
     "A013661",
     "A055025",
+    "A088539",
     "A175647",
     "A243379",
     "A334448",

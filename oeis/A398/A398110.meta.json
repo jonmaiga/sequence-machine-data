@@ -1,0 +1,16 @@
+{
+  "description": "Number of 5-ary dyslexic mobiles with n internal nodes.",
+  "id": "A398110",
+  "mentions": [
+    "A398109"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

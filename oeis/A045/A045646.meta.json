@@ -1,9 +1,10 @@
 {
-  "description": "Alternative version of A006050.",
+  "description": "Least integer k > 0 with additive persistence A031286(k) = n.",
   "id": "A045646",
   "mentions": [
     "A003001",
-    "A006050"
+    "A006050",
+    "A031286"
   ],
   "tags": [
     "base",

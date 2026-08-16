@@ -1,8 +1,10 @@
 {
-  "description": "G.f. A(x) satisfies: A(A(A(x))) = A(A(x)) + x^2.",
+  "description": "G.f. A(x) satisfies: A(A(A(x))) = A(A(x)) + x^2 = A^3(x)=A^2(x)+x^2, where A^n(x) denotes the n-th iteration of A(x).",
   "id": "A177750",
   "mentions": [
-    "A141372"
+    "A138740",
+    "A141372",
+    "A177751"
   ],
   "tags": [
     "formulas",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

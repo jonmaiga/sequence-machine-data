@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} arctan(x)^3 dx.",
+  "id": "A397681",
+  "mentions": [
+    "A002117",
+    "A006752",
+    "A397680",
+    "A397682"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Pascal-like triangle read by rows: top entry is 2; thereafter fill in entries from top to bottom, alternating between left to right and right to left, with the smallest number that is not yet in the sequence and has a common factor with any earlier entry that is adjacent to it in the triangle.",
+  "id": "A394409",
+  "mentions": [
+    "A007318",
+    "A064413",
+    "A397218",
+    "A397219"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

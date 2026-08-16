@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n > 2 such that n - 2^k is a prime for all k > 0 with 2^k < n.",
+  "description": "Positive numbers m such that m - 2^k is a prime for all k > 0 with 2^k < m.",
   "id": "A039669",
   "mentions": [
     "A002110",

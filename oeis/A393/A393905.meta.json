@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals: optimal diameter of g-Golomb Ruler of multiplicity n and length n+k, for k>=1.",
+  "id": "A393905",
+  "mentions": [
+    "A003022",
+    "A392461",
+    "A392462",
+    "A392463",
+    "A395265"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

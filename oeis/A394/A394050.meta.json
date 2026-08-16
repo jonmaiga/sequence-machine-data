@@ -1,0 +1,23 @@
+{
+  "description": "Achilles numbers with more than 2 distinct prime factors, whose exponents that are all pairwise indivisible.",
+  "id": "A394050",
+  "mentions": [
+    "A000977",
+    "A052486",
+    "A317101",
+    "A392927",
+    "A393708",
+    "A393816",
+    "A394000",
+    "A394224"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

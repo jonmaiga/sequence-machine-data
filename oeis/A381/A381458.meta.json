@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p/prev_prime(p) < 1 + (1/PrimePi(p)).",
+  "description": "Primes p such that p/prevprime(p) < 1 + (1/PrimePi(p)).",
   "id": "A381458",
   "mentions": [
     "A000720",

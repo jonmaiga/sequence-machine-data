@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers whose nearest prime distance in the Ulam spiral exceeds that of every smaller prime number.",
+  "id": "A396609",
+  "mentions": [
+    "A000040",
+    "A001481",
+    "A115258"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

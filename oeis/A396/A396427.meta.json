@@ -1,0 +1,19 @@
+{
+  "description": "Total number of edge-collision walks on the complete directed graph with self-loops on n labeled vertices.",
+  "id": "A396427",
+  "mentions": [
+    "A093964",
+    "A396606"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

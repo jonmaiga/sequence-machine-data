@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the left factorial of -1/2 (negated).",
+  "id": "A397442",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A003422",
+    "A091725",
+    "A099288"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

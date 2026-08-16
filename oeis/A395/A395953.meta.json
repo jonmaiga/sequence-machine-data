@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the expected distance from the center of a unit disk to a line that passes through two points independently and uniformly selected at random in the disk.",
+  "id": "A395953",
+  "mentions": [
+    "A000796",
+    "A093070",
+    "A132706",
+    "A395267",
+    "A395954",
+    "A395955",
+    "A395956"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

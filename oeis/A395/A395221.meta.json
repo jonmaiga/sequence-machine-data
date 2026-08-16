@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = smallest s = k + m*n such that rad(s) | n or -1 if s does not exist, with rad = A007947 and k = 0..n-1.",
+  "id": "A395221",
+  "mentions": [
+    "A000961",
+    "A007947",
+    "A013929",
+    "A272619",
+    "A381800",
+    "A381801",
+    "A381804"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

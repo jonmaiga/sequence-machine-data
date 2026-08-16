@@ -1,11 +1,9 @@
 {
-  "description": "Four-symbol substitution, characteristic polynomial: x^4-x^2-x-1.",
+  "description": "4-limiting word of the morphism 1->2, 2->3, 3->4, 4->123.",
   "id": "A106654",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

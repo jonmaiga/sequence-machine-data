@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence, where for every term-pair the sum, difference and product is unique.",
+  "id": "A396064",
+  "mentions": [
+    "A025582",
+    "A126428"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

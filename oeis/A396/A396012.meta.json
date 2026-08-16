@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3's in the partitions of n into exactly 5 parts.",
+  "id": "A396012",
+  "mentions": [
+    "A026811",
+    "A394873",
+    "A396011"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

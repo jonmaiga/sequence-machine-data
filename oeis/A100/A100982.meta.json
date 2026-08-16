@@ -1,5 +1,5 @@
 {
-  "description": "Number of admissible sequences of order j; related to 3x+1 problem and Wagon's constant.",
+  "description": "Number of admissible sequences of order n; related to 3x+1 problem and Wagon's constant.",
   "id": "A100982",
   "mentions": [
     "A020914",

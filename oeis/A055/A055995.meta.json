@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 64*9^(n-2), a(0)=1, a(1)=7.",
+  "description": "a(n) = 64*9^(n-2), a(0) = 1, a(1) = 7.",
   "id": "A055995",
   "mentions": [
     "A001019",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

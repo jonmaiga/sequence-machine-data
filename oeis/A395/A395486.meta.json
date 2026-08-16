@@ -1,0 +1,19 @@
+{
+  "description": "Consider the square spiral with its cells numbered starting at 0. Two players, Black and Red, take turns. When it is Black's turn, he places a knight at the smallest unoccupied cell not attacked by an existing Red knight, and when it is Red's turn, she places a knight at the smallest unoccupied cell not attacked by an existing Black knight. a(n) = +k if the n-th cell is occupied by the k-th Black knight, a(n) = -k if the n-th cell is occupied by the k-th Red knight, a(n) = 0 otherwise.",
+  "id": "A395486",
+  "mentions": [
+    "A392177",
+    "A392178",
+    "A392179",
+    "A392180"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

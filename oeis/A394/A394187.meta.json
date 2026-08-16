@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k), n >= 1, 1 <= k <= A003056(n), read by rows, where T(n,k) is the number of rectangular plane partitions of n with exactly k rows and with rows and columns strictly decreasing.",
+  "id": "A394187",
+  "mentions": [
+    "A000009",
+    "A003056",
+    "A323430",
+    "A394283",
+    "A394348",
+    "A395923"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

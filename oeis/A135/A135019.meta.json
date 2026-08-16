@@ -1,16 +1,17 @@
 {
-  "description": "a(n) = -a(n-1) + 2a(n-2) - a(n-3), with a(0) = 0, a(1) = 1, a(2) = -3.",
+  "description": "a(n) = -a(n-1) + 2*a(n-2) - a(n-3), with a(0) = 0, a(1) = 1, a(2) = -3.",
   "id": "A135019",
   "mentions": [
     "A002478"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

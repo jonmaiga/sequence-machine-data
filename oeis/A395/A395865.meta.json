@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 2^1024 - 2^971.",
+  "id": "A395865",
+  "mentions": [
+    "A321219"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 309,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

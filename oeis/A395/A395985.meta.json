@@ -1,0 +1,17 @@
+{
+  "description": "Smallest base such that n is a repunit in that base.",
+  "id": "A395985",
+  "mentions": [
+    "A055129",
+    "A088323"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 74,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the coefficient of Pi^(2n+1) in Plouffe's formula for zeta(2n+1).",
+  "id": "A394976",
+  "mentions": [
+    "A057866",
+    "A175316",
+    "A394977",
+    "A395447"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

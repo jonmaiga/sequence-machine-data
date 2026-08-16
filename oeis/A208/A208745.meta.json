@@ -2,7 +2,8 @@
   "description": "Decimal expansion of the gravitoid constant.",
   "id": "A208745",
   "mentions": [
-    "A104956"
+    "A104956",
+    "A118273"
   ],
   "tags": [
     "cons",

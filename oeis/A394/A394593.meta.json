@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the distinct prime divisors of C(7*n, n).",
+  "id": "A394593",
+  "mentions": [
+    "A004368",
+    "A008472",
+    "A394454",
+    "A394591",
+    "A394592"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

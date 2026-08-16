@@ -1,11 +1,9 @@
 {
-  "description": "A four-symbol four-at-a-time substitution with an ordering change: q=0.",
+  "description": "1-limiting word of the morphism 1->3443, 2->2332, 3->1221, 4->4114 starting from 1.",
   "id": "A106641",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

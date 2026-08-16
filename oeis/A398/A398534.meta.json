@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} phi(k)/(k^2*(k+1)), where phi is the Euler totient function.",
+  "id": "A398534",
+  "mentions": [
+    "A000010",
+    "A398532",
+    "A398533"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

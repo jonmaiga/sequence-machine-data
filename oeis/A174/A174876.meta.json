@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of squares of their digits > n.",
+  "description": "Numbers k such that the sum of squares of their digits > k.",
   "id": "A174876",
   "mentions": [],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n having exactly n inversions.",
+  "id": "A396787",
+  "mentions": [
+    "A128566",
+    "A189074",
+    "A214086"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

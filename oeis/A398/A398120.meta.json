@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of distinct cycles of length at least 2 under iteration of x -> s(x^n) on the positive integers, where s is the decimal digit sum.",
+  "id": "A398120",
+  "mentions": [
+    "A004159",
+    "A007953",
+    "A046471",
+    "A056527",
+    "A056529",
+    "A061905",
+    "A152147",
+    "A398119",
+    "A398121"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 86,
+    "source": "joeis"
+  }
+}

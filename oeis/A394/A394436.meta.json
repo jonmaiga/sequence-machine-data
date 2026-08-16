@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: Bell-transform of the number of endofunctions on [n].",
+  "id": "A394436",
+  "mentions": [
+    "A000312",
+    "A001864",
+    "A036276",
+    "A202477",
+    "A264428",
+    "A394439",
+    "A397647"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of A202689.",
+  "id": "A396933",
+  "mentions": [
+    "A001113",
+    "A070910",
+    "A202689",
+    "A271574",
+    "A396449",
+    "A396450",
+    "A396451",
+    "A396928",
+    "A396929",
+    "A396930",
+    "A396932"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

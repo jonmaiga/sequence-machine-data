@@ -2,9 +2,11 @@
   "description": "Orders of the automorphisms groups of the n-antiprism graph.",
   "id": "A124354",
   "mentions": [
+    "A124351",
     "A124352"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

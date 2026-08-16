@@ -2,18 +2,21 @@
   "description": "Number of complete binary unordered tree-factorizations of n.",
   "id": "A375120",
   "mentions": [
-    "A000992",
+    "A001190",
     "A007964",
+    "A008480",
     "A058080",
+    "A144757",
     "A281119",
     "A292505"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

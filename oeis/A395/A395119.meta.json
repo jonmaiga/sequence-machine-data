@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. satisfies A(x) = G(x*A(x)), where G(x) is the e.g.f. of A395118.",
+  "id": "A395119",
+  "mentions": [
+    "A395118"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

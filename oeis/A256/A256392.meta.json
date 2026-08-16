@@ -2,15 +2,18 @@
   "description": "Decimal expansion of Product_{p prime} (1-4/p^2+4/p^3-1/p^4).",
   "id": "A256392",
   "mentions": [
+    "A013661",
     "A065473",
     "A126775",
     "A196524",
     "A256391",
     "A330523",
-    "A336643"
+    "A336643",
+    "A394002"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

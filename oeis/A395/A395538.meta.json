@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of heptagonal polygorials A084940.",
+  "id": "A395538",
+  "mentions": [
+    "A001113",
+    "A070910",
+    "A084940",
+    "A395536",
+    "A395537"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

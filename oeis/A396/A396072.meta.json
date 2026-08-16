@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not of the form Sum_{k=1..m} floor(m/k^2).",
+  "id": "A396072",
+  "mentions": [
+    "A013936",
+    "A396046",
+    "A396056"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

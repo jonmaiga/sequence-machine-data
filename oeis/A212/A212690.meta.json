@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and 2|w-x|<=n+|y-z|.",
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and 2|w-x| <= n+|y-z|.",
   "id": "A212690",
   "mentions": [
     "A211795",

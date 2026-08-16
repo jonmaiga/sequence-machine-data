@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) = [x^k] Product_{j=0..n} (1 + j^4*x).",
+  "id": "A395066",
+  "mentions": [
+    "A000012",
+    "A000538",
+    "A008955",
+    "A094638",
+    "A134375",
+    "A203229",
+    "A249677",
+    "A255434",
+    "A351760",
+    "A395068",
+    "A395897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

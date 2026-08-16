@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 2*PrimePi(k) = Sum_{d|k} PrimePi(d), where PrimePi = A000720.",
+  "id": "A398495",
+  "mentions": [
+    "A000720",
+    "A062774",
+    "A066218"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

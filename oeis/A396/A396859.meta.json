@@ -1,0 +1,17 @@
+{
+  "description": "Minimum number of cells in a connected enclosing shell of an n-cell connected hole on the snub-square (3.3.4.3.4) Archimedean tiling.",
+  "id": "A396859",
+  "mentions": [
+    "A394511",
+    "A395802"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

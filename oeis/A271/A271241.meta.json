@@ -1,10 +1,11 @@
 {
-  "description": "Number of nXnXn triangular 0..3 arrays with new values introduced in sequential zero-upwards order and exactly one inverted 2x2x2 triangle having values all different.",
+  "description": "Number of n X n X n triangular 0..3 arrays with new values introduced in sequential zero-upwards order and exactly one inverted 2 X 2 X 2 triangle having values all different.",
   "id": "A271241",
   "mentions": [
     "A271246"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

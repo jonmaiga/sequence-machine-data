@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the probability that two points that are independently and uniformly selected at random within the interior of an equilateral triangle are separated by a line whose direction and perpendicular distance from the origin are independently and uniformly selected at random, given that the line intersects the triangle.",
+  "id": "A395599",
+  "mentions": [
+    "A002391",
+    "A093064",
+    "A395600",
+    "A395601"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

@@ -1,13 +1,16 @@
 {
-  "description": "The modified Syracuse algorithm, msa, applied to 2n+1.",
+  "description": "Dropping time of 2*n+1 under the modified Collatz map (A014682).",
   "id": "A260590",
   "mentions": [
     "A005408",
     "A006577",
+    "A014682",
     "A020857",
+    "A020914",
     "A075677",
     "A075884",
     "A076536",
+    "A126241",
     "A144396",
     "A166245",
     "A260592",

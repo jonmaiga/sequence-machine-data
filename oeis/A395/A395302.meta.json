@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k that are a*b*c*r for some primitive Pythagorean triple (a,b,c) with inradius r such that 2*k +- 1 and 5*k +- 1 are twin prime pairs.",
+  "id": "A395302",
+  "mentions": [
+    "A393526",
+    "A395198"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

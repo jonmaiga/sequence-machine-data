@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; for n > 0, with p = the n-th prime, a(n) = a(n-1) - p if that value is positive, previously unused, and not prime, otherwise a(n) is the least unused number >= a(n-1) + p.",
+  "id": "A397813",
+  "mentions": [
+    "A000040",
+    "A005132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

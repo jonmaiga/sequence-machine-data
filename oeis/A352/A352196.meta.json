@@ -5,11 +5,11 @@
     "A085119"
   ],
   "tags": [
-    "nonn"
+    "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 119,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

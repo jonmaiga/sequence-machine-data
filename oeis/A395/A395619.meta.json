@@ -1,0 +1,18 @@
+{
+  "description": "For any n > 0 with prime factorization Prod_{i = 1..k} p_i^e_i where p_1 < ... < p_k and e_1, ..., e_k > 0, a(n) = Prod_{i = 1..k} prime(i)^a(e_i) (where prime(i) denotes the i-th prime numbers).",
+  "id": "A395619",
+  "mentions": [
+    "A071364",
+    "A284476",
+    "A309096"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

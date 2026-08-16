@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (4 * 6^n + 1)/5 is prime.",
+  "description": "Numbers k such that (4 * 6^k + 1)/5 is prime.",
   "id": "A248613",
   "mentions": [],
   "tags": [

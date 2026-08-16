@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (745 + 262*sqrt(5))/18000.",
+  "id": "A396662",
+  "mentions": [
+    "A093582",
+    "A093587",
+    "A394834",
+    "A394835",
+    "A396660",
+    "A396661",
+    "A396663"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

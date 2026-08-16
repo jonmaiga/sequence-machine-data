@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = Sum_{1 <= x_1, x_2, ... , x_n <= n} gcd(x_1,x_2, ... ,x_n).",
+  "description": "a(n) = Sum_{1 <= x_1, x_2, ..., x_n <= n} gcd(x_1, x_2, ..., x_n).",
   "id": "A344525",
   "mentions": [
+    "A002088",
     "A018806",
     "A344140",
     "A344479",
@@ -10,12 +11,13 @@
     "A344524"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

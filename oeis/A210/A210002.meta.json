@@ -2,10 +2,12 @@
   "description": "Number of 2 X 2 matrices having all elements in {1,2,...,n} and determinant 4.",
   "id": "A210002",
   "mentions": [
+    "A209976",
     "A209978",
     "A210000"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

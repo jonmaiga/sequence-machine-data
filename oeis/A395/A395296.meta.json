@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cosh(x)^3 / cos(x).",
+  "id": "A395296",
+  "mentions": [
+    "A000364",
+    "A000795",
+    "A394478",
+    "A395297",
+    "A395298"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

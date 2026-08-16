@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest Latin squares of increasing order, read by rows.",
+  "id": "A396940",
+  "mentions": [
+    "A280172"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

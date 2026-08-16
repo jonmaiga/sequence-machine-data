@@ -1,0 +1,15 @@
+{
+  "description": "Start with a(1) = 1. Thereafter, a(n) is the least integer not already present in the sequence such that the concatenations of a(n) with a(n-1) and a(n-1) with a(n) have the same number of divisors.",
+  "id": "A396383",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

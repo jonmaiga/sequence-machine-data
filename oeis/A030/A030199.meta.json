@@ -2,9 +2,12 @@
   "description": "Expansion of x * Product_{k>=1} (1 - x^k) * (1 - x^(23*k)).",
   "id": "A030199",
   "mentions": [
+    "A000594",
     "A028930",
     "A028959",
-    "A030203"
+    "A030200",
+    "A030203",
+    "A106867"
   ],
   "tags": [
     "formulas",

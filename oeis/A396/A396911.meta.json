@@ -1,0 +1,20 @@
+{
+  "description": "Shortest path indices during walk over golden ratio phyllotaxis starting at the center.",
+  "id": "A396911",
+  "mentions": [
+    "A000045",
+    "A000796",
+    "A001622",
+    "A131988"
+  ],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

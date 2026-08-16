@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (4n+1)^2 + (4m+2)^2, m,n >= 0.",
+  "description": "Primes of the form (4k+1)^2 + (4m+2)^2, k,m >= 0.",
   "id": "A087879",
   "mentions": [],
   "tags": [

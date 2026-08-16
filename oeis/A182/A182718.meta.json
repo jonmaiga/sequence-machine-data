@@ -1,5 +1,5 @@
 {
-  "description": "Largest part of the n-th row of the diagram of another version of the shell model of partitions in which each last section of partitions is represented by a tree.",
+  "description": "Largest part of the n-th row of the diagram of another version of the modular table of partitions in which each last section of partitions is represented by a tree.",
   "id": "A182718",
   "mentions": [
     "A000027",

@@ -1,7 +1,8 @@
 {
-  "description": "E.g.f. A(x) satisfies A'(x) = exp( A(x)*A'(x)^2 ).",
+  "description": "E.g.f. A(x) satisfies A'(x) = exp( A(x)*A'(x)^2 ), with A(0)=0.",
   "id": "A392206",
   "mentions": [
+    "A180254",
     "A214654",
     "A392208"
   ],

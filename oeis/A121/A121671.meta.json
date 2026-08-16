@@ -2,7 +2,8 @@
   "description": "Real part of (1 + n*i)^5.",
   "id": "A121671",
   "mentions": [
-    "A121672"
+    "A121672",
+    "A178392"
   ],
   "tags": [
     "easy",

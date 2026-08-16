@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cos(3*x) * cos(4*x) / cos(12*x).",
+  "id": "A395274",
+  "mentions": [
+    "A352977"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

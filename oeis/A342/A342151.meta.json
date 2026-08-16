@@ -2,7 +2,8 @@
   "description": "Maximum number of safe (i.e., not attacked) squares when placing n queens on a standard 8 X 8 chessboard.",
   "id": "A342151",
   "mentions": [
-    "A001366"
+    "A001366",
+    "A274948"
   ],
   "tags": [
     "fini",
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 63,
+    "offset": 0,
+    "size": 65,
     "source": "oeis-entry"
   }
 }

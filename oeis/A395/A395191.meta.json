@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array T(n, k) read by rows: Row n > 0 gives the coefficient of x^(n-k) in the expansion of f_n(x) = Sum_{k=0..n} T(n, k)*x^(n-k), where T(n, n) and T(0, n) = 1 for any n. The n-th falling diagonal has the ordinary generating function: 1/f_n(x).",
+  "id": "A395191",
+  "mentions": [
+    "A395188"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

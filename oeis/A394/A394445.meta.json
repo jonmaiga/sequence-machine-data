@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimum k such that every 2-coloring of {1, ..., k} contains a monochromatic solution to x + y = n*z with x, y, z pairwise distinct.",
+  "id": "A394445",
+  "mentions": [
+    "A000096",
+    "A001844",
+    "A003071",
+    "A072842",
+    "A100542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

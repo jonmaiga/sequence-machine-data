@@ -1,0 +1,19 @@
+{
+  "description": "Number of relations on an n-set whose minimum-deletion-to-transitivity equals three.",
+  "id": "A396873",
+  "mentions": [
+    "A006905",
+    "A396664",
+    "A396669"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

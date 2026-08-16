@@ -2,7 +2,12 @@
   "description": "a(n) = n/p^k, where p = largest prime dividing n and p^k = highest power of p dividing n.",
   "id": "A051119",
   "mentions": [
-    "A053585"
+    "A000203",
+    "A006530",
+    "A008683",
+    "A028234",
+    "A053585",
+    "A137926"
   ],
   "tags": [
     "easy",

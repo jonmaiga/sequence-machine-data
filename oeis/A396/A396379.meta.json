@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A396378: integers m so that m is the smallest integer of the interval (m, m+1, ..., m+A396377(m)) that divides the product of the other integers.",
+  "id": "A396379",
+  "mentions": [
+    "A396377",
+    "A396378",
+    "A396380",
+    "A396950"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

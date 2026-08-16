@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the least x>0 that gives the absolute minimum of Decimal expansion of the absolute minimum of f(x)+f(2x)+f(3x), where f(x)=sin(x)+cos(x).",
+  "description": "Decimal expansion of the least x>0 that gives the absolute minimum of f(x)+f(2x)+f(3x), where f(x)=sin(x)+cos(x).",
   "id": "A198738",
   "mentions": [
     "A198735",

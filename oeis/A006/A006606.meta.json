@@ -1,8 +1,12 @@
 {
-  "description": "Nonperiodic autocorrelation functions of length n.",
+  "description": "Number of nonperiodic autocorrelation functions of length n {-1,1} sequences.",
   "id": "A006606",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A045690"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

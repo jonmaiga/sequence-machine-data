@@ -4,7 +4,10 @@
   "mentions": [
     "A000051",
     "A005021",
-    "A094811"
+    "A007070",
+    "A094811",
+    "A188843",
+    "A259475"
   ],
   "tags": [
     "easy",
@@ -13,8 +16,8 @@
     "walk"
   ],
   "terms": {
-    "offset": 1,
-    "size": 25,
+    "offset": 0,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

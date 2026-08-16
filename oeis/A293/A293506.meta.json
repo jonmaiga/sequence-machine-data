@@ -2,6 +2,7 @@
   "description": "Decimal expansion of real root of x^5 - x^4 - x^2 - 1.",
   "id": "A293506",
   "mentions": [
+    "A001622",
     "A060006",
     "A086106",
     "A092526",

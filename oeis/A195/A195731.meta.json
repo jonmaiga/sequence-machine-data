@@ -2,6 +2,8 @@
   "description": "Decimal expansion of arcsec(4).",
   "id": "A195731",
   "mentions": [
+    "A140244",
+    "A195621",
     "A195628"
   ],
   "tags": [

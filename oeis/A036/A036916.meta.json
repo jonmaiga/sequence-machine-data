@@ -2,6 +2,9 @@
   "description": "a(n) = Sum_{k=0..n} binomial(2*n-2*k,n-k)^2 * binomial(n,k)^2.",
   "id": "A036916",
   "mentions": [
+    "A002895",
+    "A002896",
+    "A002897",
     "A007318",
     "A036915",
     "A036917",
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

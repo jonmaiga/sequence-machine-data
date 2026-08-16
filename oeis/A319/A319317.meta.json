@@ -2,6 +2,8 @@
   "description": "Numbers k such that A090616(k) > A054861(k).",
   "id": "A319317",
   "mentions": [
+    "A000120",
+    "A053735",
     "A054861",
     "A090616",
     "A217445",

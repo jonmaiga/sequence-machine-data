@@ -1,9 +1,14 @@
 {
   "description": "Greatest prime divisor of 6n+15 (sum of six successive integers).",
   "id": "A076569",
-  "mentions": [],
+  "mentions": [
+    "A006530",
+    "A016945",
+    "A076567"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Prime factors of L19, the number of possible legal positions in a 19 X 19 Go board.",
+  "id": "A397888",
+  "mentions": [
+    "A027748",
+    "A094777"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

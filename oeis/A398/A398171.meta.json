@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of positive integers that are less than or equal to and relatively prime to exactly one divisor of n.",
+  "id": "A398171",
+  "mentions": [
+    "A000010"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

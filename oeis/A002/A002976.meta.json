@@ -11,13 +11,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 4,
-    "size": 17,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Least positive integers, all distinct, that satisfy sum(n>0,1/a(n)^z)=0, where z=(4+I*3)/5.",
+  "description": "Least positive integers, all distinct, that satisfy Sum_{n>0} 1/a(n)^z = 0, where z=(4+I*3)/5.",
   "id": "A084800",
   "mentions": [
     "A084589",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

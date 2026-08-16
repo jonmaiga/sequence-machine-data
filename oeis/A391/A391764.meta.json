@@ -1,0 +1,22 @@
+{
+  "description": "Leading term of an n X n generalized arithmetic progression (GAP) of primes with smallest last term.",
+  "id": "A391764",
+  "mentions": [
+    "A005115",
+    "A113827",
+    "A133277",
+    "A153412",
+    "A396688",
+    "A396962",
+    "A396963"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

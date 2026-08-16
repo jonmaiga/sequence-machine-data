@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) + a(n-2) - a(n-3).",
+  "description": "a(n) = a(n-1) + a(n-2) - a(n-3), starting with 18, 45, and 69.",
   "id": "A002798",
   "mentions": [
     "A000051",
@@ -8,12 +8,13 @@
     "A047208"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 59,
     "source": "joeis"
   }
 }

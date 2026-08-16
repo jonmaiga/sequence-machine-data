@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct triples of triangles chosen from n^2 unit triangles of a triangular grid up to rotation such that no two triangles share a common point.",
+  "id": "A397732",
+  "mentions": [
+    "A396285",
+    "A396467",
+    "A396468",
+    "A397730"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

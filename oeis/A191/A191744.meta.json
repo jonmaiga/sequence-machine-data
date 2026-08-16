@@ -1,5 +1,5 @@
 {
-  "description": "Number of Hamiltonian cycles in the 5-ary De Bruijn graph.",
+  "description": "Number of Hamiltonian cycles in the 5-ary de Bruijn graph.",
   "id": "A191744",
   "mentions": [
     "A027362",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k=1..n} (prime(n) + 1/k).",
+  "id": "A397457",
+  "mentions": [
+    "A000040",
+    "A048994",
+    "A062457"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

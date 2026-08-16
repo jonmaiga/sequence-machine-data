@@ -1,5 +1,5 @@
 {
-  "description": "Unix epoch timestamp for start of year, beginning with 1970.",
+  "description": "Timestamp for start of year, beginning with 1970, similar to Unix.",
   "id": "A215414",
   "mentions": [
     "A033172",

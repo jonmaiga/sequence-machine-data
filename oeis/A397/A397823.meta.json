@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1-1/p)^4 * (1 + 4/p + 1/p^2).",
+  "id": "A397823",
+  "mentions": [
+    "A397824"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

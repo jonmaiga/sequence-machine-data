@@ -1,0 +1,17 @@
+{
+  "description": "Minimum lexicographic rank distance between Prüfer codes of a graceful labeling of a tree and its involution labeling.",
+  "id": "A395011",
+  "mentions": [
+    "A337274"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of nonprime terms such that a(n) shares a factor with exactly n other terms.",
+  "id": "A395970",
+  "mentions": [
+    "A002808",
+    "A006881",
+    "A392373",
+    "A395360",
+    "A395795"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

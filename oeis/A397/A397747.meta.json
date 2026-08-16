@@ -1,0 +1,16 @@
+{
+  "description": "Number of assembly trees for the n X n grid graph.",
+  "id": "A397747",
+  "mentions": [
+    "A397746"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of labeled histories for rooted at-most-trifurcating trees with n leaves, if simultaneous branching events are allowed.",
+  "id": "A396088",
+  "mentions": [
+    "A317059",
+    "A358072"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

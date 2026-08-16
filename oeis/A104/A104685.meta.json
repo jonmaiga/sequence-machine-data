@@ -1,7 +1,9 @@
 {
   "description": "Smallest semiprime containing exactly n 3's.",
   "id": "A104685",
-  "mentions": [],
+  "mentions": [
+    "A001358"
+  ],
   "tags": [
     "base",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 13^(2^n) + 2.",
+  "description": "Numbers of the form 13^(2^k) + 2.",
   "id": "A152586",
   "mentions": [
     "A176596"

@@ -1,0 +1,20 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = Sum_{j=0..n} Stirling2(n, j)*3^j*(k)_j.",
+  "id": "A395570",
+  "mentions": [
+    "A008277",
+    "A152751",
+    "A182464",
+    "A394444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

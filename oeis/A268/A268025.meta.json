@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..2 arrays with every repeated value in every row greater than or equal to, and in every column greater than, the previous repeated value.",
+  "description": "Number of n X 6 0..2 arrays with every repeated value in every row greater than or equal to, and in every column greater than, the previous repeated value.",
   "id": "A268025",
   "mentions": [
     "A268026"

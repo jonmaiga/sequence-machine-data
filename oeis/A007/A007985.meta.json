@@ -1,5 +1,5 @@
 {
-  "description": "Co-growth function of a certain group.",
+  "description": "Co-growth function of the group < a, b, a^{-1}, b^{-1} | b >, isomorphic to Z (counting only reduced words).",
   "id": "A007985",
   "mentions": [],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of coefficients of characteristic polynomial of negative Pascal matrix with (i+1,j+1)-th entry -C(i+j+2,j).",
+  "id": "A395149",
+  "mentions": [
+    "A005130",
+    "A045912",
+    "A266091",
+    "A395150"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

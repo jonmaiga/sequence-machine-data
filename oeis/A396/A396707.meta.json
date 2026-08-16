@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of a spherical cap height divided by sphere radius, the cap volume being 1/6 of the sphere volume.",
+  "id": "A396707",
+  "mentions": [
+    "A000007",
+    "A178959",
+    "A220052",
+    "A396706"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

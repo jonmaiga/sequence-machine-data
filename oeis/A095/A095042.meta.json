@@ -2,6 +2,7 @@
   "description": "One of two (v,k,lambda)=(31,15,7) cyclic difference sets. The other one is A095041.",
   "id": "A095042",
   "mentions": [
+    "A010392",
     "A095025",
     "A095029",
     "A095041",

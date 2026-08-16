@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree numbers k with least prime factor p and m distinct prime factors, such that not all larger prime factors q > p are less than p^m.",
+  "id": "A395778",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A002110",
+    "A005117",
+    "A014210",
+    "A020639",
+    "A120944",
+    "A393644"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

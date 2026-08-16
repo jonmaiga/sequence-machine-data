@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!-+767 are primes.",
+  "description": "Numbers k such that k! + 767 and abs(k! - 767) are primes.",
   "id": "A154663",
   "mentions": [
     "A144046",
@@ -8,6 +8,8 @@
     "A154662"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

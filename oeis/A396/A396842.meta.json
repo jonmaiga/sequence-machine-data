@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = H(2*n)/H(n)^2, where H(n) = Product_{k=0..n} k^k is the hyperfactorial of n (A002109).",
+  "id": "A396842",
+  "mentions": [
+    "A002109",
+    "A074962",
+    "A079478",
+    "A396840"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

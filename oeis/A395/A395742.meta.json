@@ -1,0 +1,20 @@
+{
+  "description": "Superior highly composite numbers (A002201) where a new prime factor is introduced for the first time.",
+  "id": "A395742",
+  "mentions": [
+    "A000040",
+    "A000705",
+    "A001221",
+    "A002201",
+    "A006530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

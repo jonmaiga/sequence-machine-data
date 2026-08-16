@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with digital sum not divisible by any smaller term of the sequence, with a(1) = 2.",
+  "id": "A397046",
+  "mentions": [
+    "A007953",
+    "A011557",
+    "A017173",
+    "A397047",
+    "A397050"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

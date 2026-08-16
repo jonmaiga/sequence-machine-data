@@ -1,0 +1,29 @@
+{
+  "description": "Polydivisible numbers in base 8.",
+  "id": "A397958",
+  "mentions": [
+    "A109032",
+    "A144688",
+    "A271373",
+    "A271374",
+    "A397953",
+    "A397954",
+    "A397955",
+    "A397956",
+    "A397957",
+    "A397959"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

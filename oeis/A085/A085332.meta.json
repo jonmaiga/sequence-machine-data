@@ -2,6 +2,7 @@
   "description": "Prime powers that are sums of two positive cubes.",
   "id": "A085332",
   "mentions": [
+    "A003325",
     "A085333"
   ],
   "tags": [

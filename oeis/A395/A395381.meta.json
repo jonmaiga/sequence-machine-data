@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 12; for n > 1, a(n) is the number of integers k from [prime(n-1)^9..prime(n)^9 - 1] with exactly 10 divisors.",
+  "id": "A395381",
+  "mentions": [
+    "A000005",
+    "A030628",
+    "A179665",
+    "A390951"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

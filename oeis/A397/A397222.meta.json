@@ -1,0 +1,22 @@
+{
+  "description": "Number of satisfiable 3-SAT formulas with 2 variables and n clauses in the multiset clause model.",
+  "id": "A397222",
+  "mentions": [
+    "A394069",
+    "A395546",
+    "A395609",
+    "A396351",
+    "A396492",
+    "A396493"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

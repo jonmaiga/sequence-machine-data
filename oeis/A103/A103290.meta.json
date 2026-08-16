@@ -1,14 +1,17 @@
 {
   "description": "a(n) = n*(n-1)*(n^2-n+4)/6.",
   "id": "A103290",
-  "mentions": [],
+  "mentions": [
+    "A006007"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

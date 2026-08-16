@@ -6,13 +6,14 @@
     "A144187"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

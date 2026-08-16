@@ -1,14 +1,13 @@
 {
-  "description": "a(n) = prime(n)*...*prime(m), the least product of consecutive primes which is non-deficient.",
+  "description": "a(n) = prime(n)*...*prime(m), the least product of consecutive primes which is nondeficient.",
   "id": "A007702",
   "mentions": [
     "A005100",
     "A007684",
     "A007686",
     "A007741",
-    "A107705",
-    "A108227",
-    "A285993"
+    "A285993",
+    "A396829"
   ],
   "tags": [
     "formulas",

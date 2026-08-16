@@ -1,7 +1,10 @@
 {
   "description": "Maximal number of prime implicants of a Boolean function of n variables.",
   "id": "A003039",
-  "mentions": [],
+  "mentions": [
+    "A109385",
+    "A109388"
+  ],
   "tags": [
     "hard",
     "more",

@@ -1,9 +1,21 @@
 {
   "description": "Legendre symbol (n,89).",
   "id": "A011601",
-  "mentions": [],
+  "mentions": [
+    "A011582",
+    "A011631",
+    "A038977",
+    "A038978",
+    "A080891",
+    "A102283",
+    "A165573",
+    "A165574",
+    "A175629",
+    "A191053"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "mult",
     "sign"
   ],

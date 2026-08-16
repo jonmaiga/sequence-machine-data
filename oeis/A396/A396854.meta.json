@@ -1,0 +1,19 @@
+{
+  "description": "Number of digraphs on n unlabeled nodes with self-loops allowed and a distinguished node from which every node is reachable, counted up to isomorphism fixing the distinguished node.",
+  "id": "A396854",
+  "mentions": [
+    "A049387",
+    "A350360",
+    "A350794",
+    "A351052"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

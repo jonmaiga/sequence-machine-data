@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime p such that (q^2 - p^2) is divisible by n!, where q is the next prime after p, and -1 if no such number exists.",
+  "id": "A395254",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A002386",
+    "A005250",
+    "A192434",
+    "A394629",
+    "A394630",
+    "A394631"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

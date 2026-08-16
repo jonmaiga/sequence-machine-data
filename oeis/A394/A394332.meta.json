@@ -1,0 +1,17 @@
+{
+  "description": "Fourth column of A394328.",
+  "id": "A394332",
+  "mentions": [
+    "A394328",
+    "A395463"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

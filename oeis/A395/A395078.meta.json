@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{j=0..n} binomial(n, j) * j^(n + j) * (1 - j)^(n - j).",
+  "id": "A395078",
+  "mentions": [
+    "A226775",
+    "A394825"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

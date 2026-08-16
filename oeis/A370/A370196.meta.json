@@ -2,7 +2,10 @@
   "description": "Coefficient of x^n in the expansion of ( (1+x)^2 * (1+x^3) )^n.",
   "id": "A370196",
   "mentions": [
-    "A369443"
+    "A005809",
+    "A369443",
+    "A395613",
+    "A395614"
   ],
   "tags": [
     "easy",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

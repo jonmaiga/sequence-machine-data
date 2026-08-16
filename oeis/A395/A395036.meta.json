@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of different ways in which three particles move on a triangular grid ABC of side length n, each from one corner to the next, changing direction at each grid point, such that the distance from the starting point is always increasing, and no two particles ever meet.",
+  "id": "A395036",
+  "mentions": [
+    "A343307",
+    "A393490",
+    "A394698"
+  ],
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

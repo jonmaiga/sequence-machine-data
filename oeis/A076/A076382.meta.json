@@ -1,10 +1,16 @@
 {
-  "description": "Numbers n such that sum of digits in base 4 is a divisor of sum of prime divisors (A008472).",
+  "description": "Numbers k whose sum of digits in base 4 is a divisor of the sum of its prime divisors (A008472).",
   "id": "A076382",
   "mentions": [
     "A008472",
+    "A053737",
     "A075657",
     "A076380",
+    "A076381",
+    "A076383",
+    "A076384",
+    "A076385",
+    "A076386",
     "A076387"
   ],
   "tags": [

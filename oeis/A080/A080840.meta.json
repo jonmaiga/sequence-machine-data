@@ -1,5 +1,5 @@
 {
-  "description": "Number of cousin primes < 10^n.",
+  "description": "Number of cousin primes < 10^n, such that only the upper member of each prime cousin pair is counted.",
   "id": "A080840",
   "mentions": [
     "A006512",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

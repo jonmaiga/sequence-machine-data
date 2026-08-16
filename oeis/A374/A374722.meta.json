@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonisomorphic spanning trees of the nC_5-snake with constant distance between cutpoints.",
+  "description": "Number of nonisomorphic spanning trees of the nC_5-snake graph with constant distance between cutpoints.",
   "id": "A374722",
   "mentions": [
     "A374721"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

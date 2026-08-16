@@ -5,13 +5,12 @@
     "A247643"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 70,
     "source": "oeis-entry"
   }
 }

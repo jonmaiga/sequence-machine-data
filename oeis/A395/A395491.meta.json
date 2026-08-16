@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = tau(n) + (n-1) * Sum_{p|n, p prime} [gcd(p,n/p) = 1], where [ ] is the Iverson bracket.",
+  "id": "A395491",
+  "mentions": [
+    "A000005",
+    "A010051",
+    "A056169",
+    "A394651"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

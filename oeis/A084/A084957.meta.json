@@ -1,5 +1,5 @@
 {
-  "description": "Initial prime of the first prime chain of length n under the iteration x -> 4x + 3.",
+  "description": "Smallest initial prime of the first prime chain of length n under the iteration x -> 4x + 3.",
   "id": "A084957",
   "mentions": [
     "A057330",

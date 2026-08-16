@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes of the form nk+1, where k=1 to n; 0 if no such number exists.",
+  "description": "Number of primes of the form n*k+1, where k=1 to n.",
   "id": "A085053",
   "mentions": [
     "A034693"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

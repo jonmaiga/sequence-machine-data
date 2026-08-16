@@ -1,0 +1,23 @@
+{
+  "description": "Smallest center of a 3 X 3 magic square whose entries are nonnegative palindromes and exactly n of them are palindromic primes.",
+  "id": "A396368",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A002385",
+    "A145314",
+    "A260254",
+    "A341156"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

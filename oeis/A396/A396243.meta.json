@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1 / (1 - B(B(B(x)))), where B(x) = x/(1-x)^3.",
+  "id": "A396243",
+  "mentions": [
+    "A052529",
+    "A396242"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

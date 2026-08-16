@@ -1,5 +1,5 @@
 {
-  "description": "Shifted lower triangular matrix A238363 with a main diagonal of ones.",
+  "description": "Triangle read by rows: shifted lower triangular matrix A238363 with an added main diagonal of ones.",
   "id": "A238385",
   "mentions": [
     "A002104",

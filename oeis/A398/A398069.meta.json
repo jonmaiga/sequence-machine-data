@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of n X n symmetric nonnegative integer matrices with each row sum at most k, n >= 0, k >= 0.",
+  "id": "A398069",
+  "mentions": [
+    "A000012",
+    "A005425",
+    "A188403",
+    "A397930",
+    "A398070",
+    "A398071",
+    "A398072",
+    "A398073"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

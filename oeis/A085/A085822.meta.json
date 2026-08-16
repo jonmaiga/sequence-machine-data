@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime with n prime substrings (excluding prime itself but allowing leading zeros).",
+  "description": "Smallest prime with n exactly prime substrings (excluding the prime itself but allowing leading zeros and repeated values).",
   "id": "A085822",
   "mentions": [
     "A085823"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

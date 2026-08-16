@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that q-p = 26, where q is the next prime after p.",
   "id": "A124594",
-  "mentions": [],
+  "mentions": [
+    "A124595"
+  ],
   "tags": [
     "nonn"
   ],

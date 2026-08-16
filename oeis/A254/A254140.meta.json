@@ -2,7 +2,9 @@
   "description": "Decimal expansion of the average reciprocal distance between two points chosen at random in a unit square.",
   "id": "A254140",
   "mentions": [
-    "A091505"
+    "A091505",
+    "A091648",
+    "A336275"
   ],
   "tags": [
     "cons",

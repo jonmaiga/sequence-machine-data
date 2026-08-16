@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n^2 into prime parts.",
+  "id": "A394668",
+  "mentions": [
+    "A000290",
+    "A000607"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

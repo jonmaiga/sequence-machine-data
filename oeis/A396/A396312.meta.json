@@ -1,0 +1,18 @@
+{
+  "description": "Number of tilings of an (h+3) X n rectangle by unit squares and the Ferrers tile (h,2,2,1), for h >= 4.",
+  "id": "A396312",
+  "mentions": [
+    "A396311",
+    "A396313"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

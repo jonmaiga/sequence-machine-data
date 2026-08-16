@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that are the concatenation of two divisors of k.",
+  "id": "A392961",
+  "mentions": [
+    "A249766",
+    "A395128",
+    "A395129"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

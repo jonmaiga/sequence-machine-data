@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(2)=2, a(3)=11, a(4)=19; a(n) = a(n-4) + sqrt(60*a(n-2)^2 + 60*a(n-2) + 1) for n >= 5.",
+  "description": "A(1)=1, a(2)=2, a(3)=11, a(4)=19; a(n) = a(n-4) + sqrt(60*a(n-2)^2 + 60*a(n-2) + 1) for n >= 5.",
   "id": "A103200",
   "mentions": [
     "A001090",
@@ -17,6 +17,7 @@
     "A177187"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

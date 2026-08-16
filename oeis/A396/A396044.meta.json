@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k >= 1 such that A393641(n) is the greatest prime factor of 2^k + 1.",
+  "id": "A396044",
+  "mentions": [
+    "A002326",
+    "A002587",
+    "A393641",
+    "A396043"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

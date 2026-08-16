@@ -1,7 +1,12 @@
 {
   "description": "Legendre-binomial transform of 2^n for p=3.",
   "id": "A117976",
-  "mentions": [],
+  "mentions": [
+    "A117611",
+    "A117977",
+    "A117980",
+    "A117981"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 36,
     "source": "joeis"
   }
 }

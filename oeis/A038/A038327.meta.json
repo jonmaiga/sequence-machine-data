@@ -2,6 +2,7 @@
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*12^(i-j)*1^j.",
   "id": "A038327",
   "mentions": [
+    "A001021",
     "A001022",
     "A013619"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
-    "source": "joeis"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

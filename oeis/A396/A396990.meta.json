@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of binomial(5, 5/2).",
+  "id": "A396990",
+  "mentions": [
+    "A088538",
+    "A318910",
+    "A395953",
+    "A397918",
+    "A397919"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 89,
+    "source": "joeis"
+  }
+}

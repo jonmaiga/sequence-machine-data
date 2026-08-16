@@ -1,5 +1,5 @@
 {
-  "description": "The following triangle contains n consecutive numbers beginning from n in ascending order if n is odd else in descending order. Sequence contains the triangle by rows.",
+  "description": "Triangle where row n contains the n consecutive numbers from n to 2n-1, in ascending order if n is odd, else in descending order; listed by rows.",
   "id": "A114751",
   "mentions": [
     "A114752",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

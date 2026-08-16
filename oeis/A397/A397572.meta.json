@@ -1,0 +1,22 @@
+{
+  "description": "Absolute value of the field norm N_{Q(zeta_k)/Q}(S_k), where S_k is the half-period truncation at a primitive k-th root of unity of the parity-shifted q-series Sum_{r>=0} q^(r^2)/(q;-q)_r^2, and k = 4*n - 2.",
+  "id": "A397572",
+  "mentions": [
+    "A000025",
+    "A016825",
+    "A393567",
+    "A394831",
+    "A395116",
+    "A395117",
+    "A395950"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

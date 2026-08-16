@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n*(5*n+7)-(-1)^n+1)/2.",
+  "description": "a(n) = (n*(5*n+7) - (-1)^n + 1)/2.",
   "id": "A195016",
   "mentions": [
     "A000566",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 48,
     "source": "oeis-bfile"
   }
 }

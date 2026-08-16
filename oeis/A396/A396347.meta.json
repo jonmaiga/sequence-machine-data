@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that A396346(k) = n.",
+  "id": "A396347",
+  "mentions": [
+    "A396344",
+    "A396345",
+    "A396346"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

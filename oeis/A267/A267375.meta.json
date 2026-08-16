@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (47^n - 1)/46 is prime.",
+  "description": "Numbers k such that (47^k - 1)/46 is prime.",
   "id": "A267375",
   "mentions": [],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/x, where x is the unique positive solution of f(x) = 1 and f(x) is the generating function of A000084.",
+  "id": "A395437",
+  "mentions": [
+    "A000084",
+    "A000669",
+    "A363064",
+    "A363065"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

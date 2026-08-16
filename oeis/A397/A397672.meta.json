@@ -1,0 +1,17 @@
+{
+  "description": "Value of the Colless index for the rooted binary echelon tree with n leaves.",
+  "id": "A397672",
+  "mentions": [
+    "A296062",
+    "A307689"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

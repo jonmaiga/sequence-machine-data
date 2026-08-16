@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the n-th largest part that are visible in one of the three views of the version \"Tree\" of the section model of partitions.",
+  "description": "a(n) is the n-th largest part that are visible in one of the three views of the version \"Tree\" of the modular table of partitions.",
   "id": "A194551",
   "mentions": [
     "A008483",

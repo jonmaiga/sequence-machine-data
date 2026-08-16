@@ -2,6 +2,7 @@
   "description": "Martin Gardner's minimal no-3-in-a-line problem, all slopes version.",
   "id": "A277433",
   "mentions": [
+    "A000769",
     "A219760"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

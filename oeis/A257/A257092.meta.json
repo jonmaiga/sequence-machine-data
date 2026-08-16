@@ -5,13 +5,15 @@
     "A003987"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "look",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 120,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

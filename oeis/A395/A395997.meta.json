@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k > 3 such that the greedy Egyptian fraction representation of 3/k has more terms than the shortest representation of 3/k as a sum of unit fractions.",
+  "id": "A395997",
+  "mentions": [
+    "A050205",
+    "A097847",
+    "A176275",
+    "A395995",
+    "A395998",
+    "A395999",
+    "A396160"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

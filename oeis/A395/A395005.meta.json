@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k can be expressed as A003418(i)/j where j <= i.",
+  "id": "A395005",
+  "mentions": [
+    "A002944",
+    "A003418",
+    "A120435"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

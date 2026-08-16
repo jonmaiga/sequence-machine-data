@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of lim_{N->oo} Integral_{x=0..1} Product_{p prime, p <= N} (1 - x^p) dx.",
+  "id": "A395518",
+  "mentions": [
+    "A000040",
+    "A000586",
+    "A000607",
+    "A002110",
+    "A008472",
+    "A010051",
+    "A046675",
+    "A258232",
+    "A258408",
+    "A298602",
+    "A298948",
+    "A350514"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

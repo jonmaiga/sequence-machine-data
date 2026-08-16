@@ -1,7 +1,9 @@
 {
   "description": "a(1) = 1, a(n) = smallest number > a(n-1) such that concatenation a(k) a(n) is prime for all k = 1 to n-1. Stop if no such number exists.",
   "id": "A075611",
-  "mentions": [],
+  "mentions": [
+    "A088647"
+  ],
   "tags": [
     "base",
     "more",

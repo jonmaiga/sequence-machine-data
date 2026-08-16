@@ -1,5 +1,5 @@
 {
-  "description": "Kaprekar numbers, allowing powers of 10: n such that n=q+r and n^2=q*10^m+r, for some m >= 1, q>=0 and 0<=r",
+  "description": "Kaprekar numbers, allowing powers of 10: numbers k such that k = q + r and k^2 = q*10^m + r, for some m >= 1, q >= 0, and 0 <= r < 10^m.",
   "id": "A248353",
   "mentions": [
     "A006886",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

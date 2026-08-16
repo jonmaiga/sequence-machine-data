@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (3+x+sqrt(38+6*x))/4, where x=sqrt(13).",
+  "description": "Decimal expansion of (3+x+sqrt(38+6*x))/4, where x = sqrt(13).",
   "id": "A189964",
   "mentions": [
     "A188635",
@@ -9,6 +9,7 @@
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

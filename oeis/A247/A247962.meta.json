@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 51^n + 2 is prime.",
+  "description": "Numbers k such that 51^k + 2 is prime.",
   "id": "A247962",
   "mentions": [
     "A247957"

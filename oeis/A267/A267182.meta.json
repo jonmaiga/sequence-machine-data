@@ -7,12 +7,13 @@
     "A267181"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 81,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

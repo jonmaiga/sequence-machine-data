@@ -1,9 +1,10 @@
 {
-  "description": "Numbers in Hebrew that do not contain the letter ayin.",
+  "description": "Numbers in Hebrew that do not contain the letter \"Ayin\".",
   "id": "A287876",
   "mentions": [
     "A006933",
-    "A014254"
+    "A014254",
+    "A104292"
   ],
   "tags": [
     "nonn",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

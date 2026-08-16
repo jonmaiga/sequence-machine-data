@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..floor(n/2)} n^(2*k) * binomial(n-k,k).",
   "id": "A368888",
   "mentions": [
+    "A080322",
     "A171180",
     "A176233",
     "A350467",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "joeis"
   }
 }

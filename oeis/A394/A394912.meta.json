@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of k-gonal faces in Johnson solid J_n, with 3 <= k <= A394913(n).",
+  "id": "A394912",
+  "mentions": [
+    "A242731",
+    "A306949",
+    "A343954",
+    "A343955",
+    "A343956",
+    "A343957",
+    "A343958",
+    "A343959",
+    "A394913",
+    "A394914"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

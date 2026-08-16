@@ -2,6 +2,7 @@
   "description": "Resultant of the polynomial x^n-1 and the Chebyshev polynomial of the second kind U_n(x).",
   "id": "A085605",
   "mentions": [
+    "A085435",
     "A086840"
   ],
   "tags": [

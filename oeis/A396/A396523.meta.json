@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the volume of the supersphere |x|^4 + |y|^4 + |z|^4 = 1.",
+  "id": "A396523",
+  "mentions": [
+    "A019699",
+    "A063448",
+    "A068466",
+    "A068467",
+    "A203130",
+    "A395230",
+    "A396522",
+    "A396524"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "T(n,[ n/2 ]), T given by A026907.",
+  "description": "a(n) = T(n,[ n/2 ]), T given by A026907.",
   "id": "A026914",
   "mentions": [
     "A026907"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k for which the number of parts of the symmetric representation of sigma of k, SRS(k), is odd and the lower Dyck path of SRS(k) touches the diagonal at the same point as A298856(k).",
+  "id": "A394935",
+  "mentions": [
+    "A014105",
+    "A071562",
+    "A237593",
+    "A240542",
+    "A249223",
+    "A298856",
+    "A394934"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

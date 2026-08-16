@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: exp(Sum_{k>=1} binomial(5*k,k)^2 * x^k/k).",
+  "id": "A398091",
+  "mentions": [
+    "A224734",
+    "A398085",
+    "A398090"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

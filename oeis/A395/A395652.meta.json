@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p of [n] whose positive prefix sums Sum_{i=1..k} p(i) avoid Fibonacci numbers.",
+  "id": "A395652",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A039595",
+    "A291504",
+    "A395620"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

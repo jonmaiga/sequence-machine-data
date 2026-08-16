@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 2*t^2-4 when t > 1 is a term in A001541.",
+  "description": "Numbers of the form 2*t^2 - 4 when t > 1 is a term in A001541.",
   "id": "A349766",
   "mentions": [
     "A000178",
@@ -14,6 +14,7 @@
     "A349081"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

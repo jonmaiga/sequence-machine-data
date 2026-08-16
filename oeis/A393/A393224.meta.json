@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd_{k >= 1} gcd(A395171(n)^(prime(n)*k) - 1, A395171(n)! - 1).",
+  "id": "A393224",
+  "mentions": [
+    "A000978",
+    "A005384",
+    "A395115",
+    "A395171",
+    "A395286",
+    "A395944"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

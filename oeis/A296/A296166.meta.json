@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of groups of order n exceeds the sum of divisors of n.",
+  "description": "Numbers k such that the number of groups of order k exceeds the sum of divisors of k.",
   "id": "A296166",
   "mentions": [
     "A000001",

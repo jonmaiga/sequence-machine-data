@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyplets (king-move connected sets of n cells on the square grid, adjacent if they share an edge or a corner) whose king-adjacency graph is a tree.",
+  "id": "A397059",
+  "mentions": [
+    "A006770",
+    "A030222",
+    "A030233",
+    "A131482"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

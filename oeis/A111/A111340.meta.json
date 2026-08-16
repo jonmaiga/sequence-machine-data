@@ -1,19 +1,21 @@
 {
-  "description": "Number of positive integer 2-friezes with n-1 nontrivial rows.",
+  "description": "Number of positive integer 2-friezes with n nontrivial rows.",
   "id": "A111340",
   "mentions": [
     "A000108",
     "A076839",
     "A139434",
-    "A247415"
+    "A247415",
+    "A352184"
   ],
   "tags": [
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 5,
     "source": "oeis-entry"
   }

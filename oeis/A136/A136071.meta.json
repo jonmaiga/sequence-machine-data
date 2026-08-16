@@ -1,5 +1,5 @@
 {
-  "description": "Father primes of order 2.",
+  "description": "Primes of the form 5*p + 4 with p prime.",
   "id": "A136071",
   "mentions": [
     "A023208",

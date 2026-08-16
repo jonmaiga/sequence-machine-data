@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest m that is divisible by Sum_{i=1..n} (m mod prime(i)).",
+  "id": "A398430",
+  "mentions": [
+    "A070826",
+    "A106572"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

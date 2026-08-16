@@ -1,0 +1,16 @@
+{
+  "description": "Numbers with exactly one representation as the sum of two distinct upper twin primes.",
+  "id": "A396487",
+  "mentions": [
+    "A006512",
+    "A334160"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

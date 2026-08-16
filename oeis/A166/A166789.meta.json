@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 1..2 arrays containing at least one of each value, all equal values connected, and rows considered as a single number in nondecreasing order.",
+  "description": "Number of n X 5 1..2 arrays containing at least one of each value, all equal values connected, and rows considered as a single number in nondecreasing order.",
   "id": "A166789",
   "mentions": [],
   "tags": [

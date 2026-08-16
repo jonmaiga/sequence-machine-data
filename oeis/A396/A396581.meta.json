@@ -1,0 +1,15 @@
+{
+  "description": "The fractional part of A000037(n) is the a(n)-th smallest fractional part of all sqrt(m) where m is nonsquare and 1 <= m <= A000037(n).",
+  "id": "A396581",
+  "mentions": [
+    "A000037"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

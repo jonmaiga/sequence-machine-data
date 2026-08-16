@@ -1,5 +1,5 @@
 {
-  "description": "Lucas(n) mod n, Lucas(n)= A000032(n).",
+  "description": "Lucas(n) mod n, where Lucas = A000032.",
   "id": "A213060",
   "mentions": [
     "A000032",

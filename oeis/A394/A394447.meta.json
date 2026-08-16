@@ -1,0 +1,18 @@
+{
+  "description": "Number of tilings of the crook hexiamond spiral with n crook hexiamond tiles.",
+  "id": "A394447",
+  "mentions": [
+    "A317541",
+    "A366704",
+    "A367172",
+    "A378455"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

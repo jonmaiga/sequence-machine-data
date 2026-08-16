@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum-of-digits-of-n < Sum-of-digits-of-all-distinct-prime-factors-of-n.",
+  "description": "Numbers k such that Sum-of-digits-of-k < Sum-of-digits-of-all-distinct-prime-factors-of-k.",
   "id": "A095406",
   "mentions": [
     "A007953",
@@ -11,12 +11,13 @@
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

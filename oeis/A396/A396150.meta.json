@@ -1,0 +1,19 @@
+{
+  "description": "Number of words over the alphabet [4] with c(1) = n such that all prefixes satisfy c(1) >= c(2), c(1) >= c(3), c(2) >= c(4), and c(3) >= c(4), where c(i) is the number of occurrences of the letter i.",
+  "id": "A396150",
+  "mentions": [
+    "A114714",
+    "A176129",
+    "A207542",
+    "A384725",
+    "A395140"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

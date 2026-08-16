@@ -2,7 +2,8 @@
   "description": "Decimal expansion of sqrt(4-2 * sqrt(2)).",
   "id": "A388455",
   "mentions": [
-    "A080015"
+    "A080015",
+    "A388622"
   ],
   "tags": [
     "cons",

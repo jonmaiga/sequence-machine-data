@@ -1,7 +1,12 @@
 {
   "description": "COMPOSE triangular numbers with triangular numbers.",
   "id": "A030280",
-  "mentions": [],
+  "mentions": [
+    "A030267",
+    "A052544",
+    "A279283",
+    "A396209"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

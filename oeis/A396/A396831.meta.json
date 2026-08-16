@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the n-th digit after the decimal point in the decimal expansion of the natural logarithm of n.",
+  "id": "A396831",
+  "mentions": [
+    "A002162",
+    "A002391",
+    "A002392",
+    "A016627",
+    "A016628",
+    "A016629",
+    "A016630",
+    "A016631",
+    "A016632"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

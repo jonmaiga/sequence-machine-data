@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least multiple of n that starts with y and ends with x, where n is the concatenation of x and y, or -1 if there is no such multiple.",
+  "id": "A395368",
+  "mentions": [],
+  "tags": [
+    "base",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 11,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

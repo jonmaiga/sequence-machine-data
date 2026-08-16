@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the fraction of a population falling within +- 1 standard deviation of the mean, assuming a normal distribution.",
+  "description": "Decimal expansion of erf(1/sqrt(2)): the probability of falling within +- 1 standard deviation of the mean, assuming a normal distribution.",
   "id": "A178647",
   "mentions": [
     "A110894",

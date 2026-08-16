@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is obtained by inserting exactly one decimal digit into the decimal expansion of n. Among all resulting integers m, maximize k such that p^k | m. If more than one choice attains the same maximum exponent k, choose the one with the largest prime p.",
+  "id": "A397698",
+  "mentions": [
+    "A397699"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

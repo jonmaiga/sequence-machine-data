@@ -1,5 +1,5 @@
 {
-  "description": "First column of A114751.",
+  "description": "a(n) = n if odd, else 2n-1.",
   "id": "A114753",
   "mentions": [
     "A114751",

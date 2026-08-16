@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 0; for n >= 2, a(n) is the smallest number whose Hamming distance from a(n-1) is Fibonacci(n).",
+  "id": "A397569",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A000975",
+    "A063896",
+    "A362887",
+    "A397566"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

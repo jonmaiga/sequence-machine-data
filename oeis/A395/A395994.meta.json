@@ -1,0 +1,24 @@
+{
+  "description": "Number of fractions k/n, with 1 <= k <= n and GCD(n,k) = 1, whose greedy Egyptian fraction representation has more terms than the shortest representation of k/n as a sum of unit fractions.",
+  "id": "A395994",
+  "mentions": [
+    "A050205",
+    "A097847",
+    "A395995",
+    "A395996",
+    "A395997",
+    "A395998",
+    "A395999",
+    "A396000",
+    "A396001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Let M = 2 X 2 matrix [ 1 2 / 5 4 ]; a(n) = (2,1) entry of M^n.",
   "id": "A092166",
   "mentions": [
+    "A015540",
     "A092164",
     "A092165",
     "A092167"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} lambda(k)/(k*(k+1)), where lambda is the Liouville function (A008836).",
+  "id": "A398708",
+  "mentions": [
+    "A002378",
+    "A008836",
+    "A026424",
+    "A028260",
+    "A332510"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

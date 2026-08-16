@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x > 0 having sin(2*x) = 3*Pi*sin(3*Pi*x).",
+  "description": "Decimal expansion of least x > 0 having sin(2*x) = 3*Pi*sin(6*Pi*x).",
   "id": "A197833",
   "mentions": [
     "A197739",

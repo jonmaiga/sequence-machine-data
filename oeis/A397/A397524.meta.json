@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the sums of the digits of k^2, k^3 and k^4 coincide, excluding multiples of 10.",
+  "id": "A397524",
+  "mentions": [
+    "A004159",
+    "A004164",
+    "A007953",
+    "A008592",
+    "A011557",
+    "A055264",
+    "A055565",
+    "A058369",
+    "A070276",
+    "A111434"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

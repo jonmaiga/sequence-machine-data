@@ -2,9 +2,11 @@
   "description": "Number of rooted level-1 phylogenetic networks with n labeled leaves.",
   "id": "A328122",
   "mentions": [
+    "A001147",
     "A328121",
     "A328123",
-    "A328126"
+    "A328126",
+    "A394516"
   ],
   "tags": [
     "formulas",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,8 @@
   "description": "a(n) = 1024^n.",
   "id": "A140300",
   "mentions": [
-    "A009976"
+    "A009976",
+    "A145442"
   ],
   "tags": [
     "easy",

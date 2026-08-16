@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*k-5,k).",
+  "id": "A397667",
+  "mentions": [
+    "A002293",
+    "A225612",
+    "A371965",
+    "A390411",
+    "A397536",
+    "A397539",
+    "A397666",
+    "A397668",
+    "A397670"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

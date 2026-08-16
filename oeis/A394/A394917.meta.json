@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists all k from [1..2^(n - 1)] with exactly n divisors.",
+  "id": "A394917",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A001055",
+    "A005179",
+    "A008578",
+    "A393179"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

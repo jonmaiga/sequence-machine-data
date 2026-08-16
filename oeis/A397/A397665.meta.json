@@ -1,0 +1,20 @@
+{
+  "description": "Least integer equal to the sum of the n-th powers of the tens' complements of its digits or 0 if no such number exists.",
+  "id": "A397665",
+  "mentions": [
+    "A003321",
+    "A005188",
+    "A023052",
+    "A261433"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

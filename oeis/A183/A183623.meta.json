@@ -1,15 +1,17 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with every 2X2 subblock summing to 4.",
+  "description": "Number of (n+1) X (n+1) 0..2 arrays with every 2 X 2 subblock summing to 4.",
   "id": "A183623",
   "mentions": [
     "A183632"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

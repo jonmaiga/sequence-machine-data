@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=0, read by antidiagonals downwards, where A(n,k) = n! * [x^n] -W_k(-x)/(1 + W_k(-x)) and W_k(x) is the k-th iterate of LambertW(x).",
+  "id": "A396711",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A396676",
+    "A396712",
+    "A396713"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

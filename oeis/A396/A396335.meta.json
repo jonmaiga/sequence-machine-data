@@ -1,0 +1,16 @@
+{
+  "description": "Primes of the form k^2 + prime(k)^2.",
+  "id": "A396335",
+  "mentions": [
+    "A000040",
+    "A061068"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

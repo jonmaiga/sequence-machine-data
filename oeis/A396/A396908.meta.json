@@ -1,0 +1,19 @@
+{
+  "description": "Number of decimal places which are known after using n terms of A390946 and treating them as the coefficients of a continued fraction.",
+  "id": "A396908",
+  "mentions": [
+    "A086819",
+    "A390946",
+    "A392558",
+    "A397150"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

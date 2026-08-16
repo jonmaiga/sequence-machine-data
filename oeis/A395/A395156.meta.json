@@ -1,0 +1,36 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) is the n-th number j with the property that the symmetric representation of sigma(j) has 2*k parts and two parts meet at the center of the Dyck paths, n >= 1, k >= 1, j >= 1.",
+  "id": "A395156",
+  "mentions": [
+    "A000203",
+    "A014105",
+    "A033676",
+    "A033677",
+    "A071561",
+    "A191363",
+    "A207375",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A240062",
+    "A262259",
+    "A262626",
+    "A264104",
+    "A280107",
+    "A298856",
+    "A320511",
+    "A384222",
+    "A392197",
+    "A394791"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

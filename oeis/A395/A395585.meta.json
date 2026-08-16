@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = floor(r*(a(n-1) + a(n-2))), a(0) = 0, a(1) = 1 and r = (3 + sqrt(13))/2.",
+  "id": "A395585",
+  "mentions": [
+    "A005908",
+    "A080081",
+    "A098316",
+    "A272362",
+    "A274203",
+    "A395581",
+    "A395582",
+    "A395583",
+    "A395586",
+    "A395592"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

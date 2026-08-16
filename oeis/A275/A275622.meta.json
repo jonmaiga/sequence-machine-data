@@ -1,14 +1,18 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of cubic graphs with 2n nodes and packing chromatic number k (n>=2, 4 <= k <= n+2).",
+  "description": "Triangle read by rows: T(n,k) = number of connected cubic simple graphs with 2n nodes and packing chromatic number k (n >= 2, 4 <= k <= n+2).",
   "id": "A275622",
-  "mentions": [],
+  "mentions": [
+    "A002851",
+    "A363044"
+  ],
   "tags": [
+    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 2,
-    "size": 37,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

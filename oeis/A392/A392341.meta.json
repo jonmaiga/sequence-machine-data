@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs (x, y) with 1 <= x < y <= n such that gcd(x, y) is a perfect square.",
+  "id": "A392341",
+  "mentions": [
+    "A000196",
+    "A002088",
+    "A010052",
+    "A015614",
+    "A206369",
+    "A370905"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct entries q of the n X n multiplication table such that floor(q/n) > floor(q/(n+1)).",
+  "id": "A398491",
+  "mentions": [
+    "A027424",
+    "A394016",
+    "A397038",
+    "A398138"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

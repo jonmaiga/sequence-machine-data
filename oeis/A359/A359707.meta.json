@@ -1,7 +1,8 @@
 {
-  "description": "Number of 1-sided ouroboros polyominoes with k=2n cells.",
+  "description": "Number of 1-sided ouroboros polyominoes with k=2*n cells.",
   "id": "A359707",
   "mentions": [
+    "A121769",
     "A151514",
     "A324407",
     "A359706"

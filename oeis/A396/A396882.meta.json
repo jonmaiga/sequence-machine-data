@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct triples of triangles chosen from n^2 unit triangles of a triangular grid up to rotation and reflection such that all three triangles lie in the same row parallel to a side of the grid.",
+  "id": "A396882",
+  "mentions": [
+    "A006325",
+    "A396285",
+    "A396761",
+    "A396762"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

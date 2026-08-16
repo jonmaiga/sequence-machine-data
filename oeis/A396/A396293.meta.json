@@ -1,0 +1,16 @@
+{
+  "description": "In Glinski's hexagonal chess, these are the cells in the hexagonal spiral that cannot be reached by a Glinski queen placed at cell 0.",
+  "id": "A396293",
+  "mentions": [
+    "A395362",
+    "A396292"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

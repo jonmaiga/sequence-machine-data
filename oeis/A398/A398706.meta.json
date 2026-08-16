@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} beta(k)/(k^2*(k+1)), where beta(n) = A206369(n) is the alternating sum of divisors of n.",
+  "id": "A398706",
+  "mentions": [
+    "A206369",
+    "A398700",
+    "A398704",
+    "A398705"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

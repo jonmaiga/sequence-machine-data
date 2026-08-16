@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer k such that the iterated multiplicative-order chain k -> ord_k(2) -> ord_{ord_k(2)}(2) -> ... reaches an even number in exactly n steps.",
+  "id": "A396944",
+  "mentions": [
+    "A002326",
+    "A005384",
+    "A059452"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

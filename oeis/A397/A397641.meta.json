@@ -1,0 +1,15 @@
+{
+  "description": "Irregular triangle read by rows: T(m,r) is the number of chemical reaction networks on species A and B that use both species, contain r reactions, and have only complexes i*A+j*B with 1 <= i+j <= m, up to swapping A and B.",
+  "id": "A397641",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

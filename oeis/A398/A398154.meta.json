@@ -1,0 +1,19 @@
+{
+  "description": "The canonical snowball representation of A398153(n), when read backwards, corresponds to that of A398153(a(n)).",
+  "id": "A398154",
+  "mentions": [
+    "A389645",
+    "A397093",
+    "A398153"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

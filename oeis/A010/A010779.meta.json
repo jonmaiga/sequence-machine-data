@@ -1,7 +1,14 @@
 {
   "description": "Decimal expansion of 17th root of 2.",
   "id": "A010779",
-  "mentions": [],
+  "mentions": [
+    "A002193",
+    "A002580",
+    "A005531",
+    "A010767",
+    "A010768",
+    "A010782"
+  ],
   "tags": [
     "cons",
     "formulas",

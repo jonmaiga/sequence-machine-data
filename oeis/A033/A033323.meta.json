@@ -1,14 +1,17 @@
 {
-  "description": "Configurations of linear chains in a square lattice.",
+  "description": "Number of n-step self-avoiding walks on the square lattice having exactly 2 pairs of nonconsecutive vertices that are adjacent in the lattice.",
   "id": "A033323",
-  "mentions": [],
+  "mentions": [
+    "A033155"
+  ],
   "tags": [
     "more",
-    "nonn"
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Number of acyclic digraphs (or DAGs) on n labeled nodes in which every node has in-degree at most 2.",
+  "id": "A397711",
+  "mentions": [
+    "A000272",
+    "A003024",
+    "A243014",
+    "A308634",
+    "A361718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

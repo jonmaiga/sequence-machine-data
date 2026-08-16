@@ -1,0 +1,20 @@
+{
+  "description": "Number of jumps of increasing length 1, 2, 3, ... to reach n starting from 0 and jumping to left or right but landing only on nonnegative numbers.",
+  "id": "A397365",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A003056",
+    "A109613"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of Sum_{r>=0} (-1)^r*q^(r^2)/(-q;q)_r^2, the alternating-sign analog of the third-order mock theta function f(q).",
+  "id": "A397846",
+  "mentions": [
+    "A000025",
+    "A393567",
+    "A394831",
+    "A395116",
+    "A395117",
+    "A395950",
+    "A397572"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

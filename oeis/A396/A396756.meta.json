@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of Heronian triangles (p, q, k) with primes p <= q < k, where k = A396755(n).",
+  "id": "A396756",
+  "mentions": [
+    "A054875",
+    "A123323",
+    "A239246",
+    "A395186",
+    "A396755"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Number of nonzero digits in the base-3 representation of n.",
   "id": "A160384",
-  "mentions": [],
+  "mentions": [
+    "A007089"
+  ],
   "tags": [
     "base",
     "easy",

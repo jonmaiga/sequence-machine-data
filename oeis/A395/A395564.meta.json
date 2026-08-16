@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = [x^n] Product_{i=1..k} (1 - (1-x)^i).",
+  "id": "A395564",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000217",
+    "A005329",
+    "A022493",
+    "A179525"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

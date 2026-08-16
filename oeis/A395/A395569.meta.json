@@ -1,0 +1,24 @@
+{
+  "description": "Moebius transform of A396683 = d(A006863), where d = A000005 is the divisor function.",
+  "id": "A395569",
+  "mentions": [
+    "A000005",
+    "A002174",
+    "A002322",
+    "A006863",
+    "A079612",
+    "A143408",
+    "A396683",
+    "A396684",
+    "A396685"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

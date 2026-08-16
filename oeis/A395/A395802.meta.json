@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of cells in a connected enclosing shell of an n-cell connected hole on the trihexagonal (3.6.3.6) Archimedean tiling.",
+  "id": "A395802",
+  "mentions": [
+    "A027709",
+    "A182619",
+    "A283056"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

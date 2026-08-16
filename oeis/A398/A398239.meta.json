@@ -1,0 +1,16 @@
+{
+  "description": "Number of spanning trees in the graph whose nodes are the integer lattice points (x,y) with 0 <= x,y < n, and with an edge between two nodes if there is no other integer lattice point on the line segment between them.",
+  "id": "A398239",
+  "mentions": [
+    "A360062",
+    "A396634"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

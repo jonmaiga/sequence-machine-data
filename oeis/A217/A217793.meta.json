@@ -2,7 +2,8 @@
   "description": "Erdős-Turán Golomb rulers, triangle read by rows.",
   "id": "A217793",
   "mentions": [
-    "A065091"
+    "A065091",
+    "A380790"
   ],
   "tags": [
     "formulas",

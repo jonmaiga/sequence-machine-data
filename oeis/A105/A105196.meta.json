@@ -1,9 +1,10 @@
 {
-  "description": "Triangle, read by rows, of Stirling numbers of first kind, S1(n,k), multiplied by k^k, for n >= 1, 1<=k<=n.",
+  "description": "Triangle read by rows: T(n,k) = |Stirling1(n,k)| * k^k, for 1 <= k <= n.",
   "id": "A105196",
   "mentions": [
     "A008275",
-    "A105197"
+    "A105197",
+    "A305981"
   ],
   "tags": [
     "easy",

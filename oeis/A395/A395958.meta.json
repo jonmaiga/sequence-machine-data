@@ -1,0 +1,24 @@
+{
+  "description": "Third iterate of the Thue-Morse transform applied to A000035.",
+  "id": "A395958",
+  "mentions": [
+    "A000035",
+    "A010060",
+    "A341389",
+    "A395959",
+    "A395960",
+    "A395961",
+    "A395964"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

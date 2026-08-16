@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that don't contain digit 0 but have a divisor that does.",
+  "id": "A397754",
+  "mentions": [
+    "A011540",
+    "A209932"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2*n-3-(-1)^n)*(10*n-1+(-1)^n)/8.",
+  "id": "A395421",
+  "mentions": [
+    "A159469",
+    "A396652",
+    "A397270"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

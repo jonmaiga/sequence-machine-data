@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of e^2 - 2e.",
   "id": "A091132",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A091131",
+    "A091133"
+  ],
   "tags": [
     "cons",
     "easy",

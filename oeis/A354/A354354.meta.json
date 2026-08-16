@@ -2,7 +2,9 @@
   "description": "a(n) = 1 if n is neither a multiple of 2 nor 3, and otherwise 0.",
   "id": "A354354",
   "mentions": [
+    "A000035",
     "A007310",
+    "A011655",
     "A065333",
     "A089128",
     "A109017",

@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n such that concatenation of Fibonacci n and its 10's complement is a prime.",
+  "description": "Fibonacci numbers k such that concatenation of k and its 10's complement is a prime.",
   "id": "A084620",
   "mentions": [
+    "A000045",
     "A084621"
   ],
   "tags": [
     "base",
+    "less",
     "nonn"
   ],
   "terms": {

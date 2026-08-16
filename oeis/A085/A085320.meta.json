@@ -1,5 +1,5 @@
 {
-  "description": "First difference sequence of A003349, i.e., consecutive differences between those consecutive numbers which are sums of four 5th powers.",
+  "description": "First difference sequence of A003349; i.e., consecutive differences between those consecutive numbers which are sums of four 5th powers.",
   "id": "A085320",
   "mentions": [
     "A003327",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

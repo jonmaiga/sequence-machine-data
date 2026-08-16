@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimum size of a subset of Z/pZ with at least 2 elements and no unique sum, where p is the n-th odd prime.",
+  "id": "A398173",
+  "mentions": [
+    "A065091",
+    "A211316",
+    "A392461",
+    "A396704"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

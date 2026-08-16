@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. 1/((1-2x)(1-x)^2).",
+  "description": "Expansion of e.g.f. 1/((1-2*x)*(1-x)^2).",
   "id": "A052650",
   "mentions": [
     "A000295"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

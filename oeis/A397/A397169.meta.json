@@ -1,0 +1,15 @@
+{
+  "description": "The leading diagonal of A397219.",
+  "id": "A397169",
+  "mentions": [
+    "A397219"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

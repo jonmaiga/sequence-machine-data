@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree composite numbers n such that b^n == b (mod gpf(n)) for every integer b, where gpf(n) = A006530(n).",
+  "description": "Squarefree composite numbers k such that b^k == b (mod gpf(k)) for every integer b, where gpf(k) = A006530(k).",
   "id": "A276832",
   "mentions": [
     "A002997",

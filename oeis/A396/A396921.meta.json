@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A( x / A(log(A(log(A(x))))) ) = exp(x).",
+  "id": "A396921",
+  "mentions": [
+    "A144681",
+    "A396804",
+    "A396920",
+    "A396922"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

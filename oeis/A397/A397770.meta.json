@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-digit Zuckerman numbers.",
+  "id": "A397770",
+  "mentions": [
+    "A007602"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

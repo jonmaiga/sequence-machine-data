@@ -1,17 +1,19 @@
 {
-  "description": "Fib(n)*n^3*(binomial(2*n, n))^2/(n+1).",
+  "description": "a(n) = Fibonacci(n)*n^3*(binomial(2*n, n))^2/(n+1).",
   "id": "A119696",
   "mentions": [
     "A000045",
-    "A000984"
+    "A000984",
+    "A001622"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 18,
     "source": "joeis"
   }
 }

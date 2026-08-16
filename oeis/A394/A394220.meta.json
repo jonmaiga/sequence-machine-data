@@ -1,0 +1,16 @@
+{
+  "description": "Largest k such that all residue classes m mod n with m coprime to n have elements a = b = m (mod n) with a,b <= k and lambda(a) != lambda(b), where lambda is Liouville's lambda function A008836.",
+  "id": "A394220",
+  "mentions": [
+    "A008836"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

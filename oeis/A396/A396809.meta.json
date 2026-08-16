@@ -1,0 +1,25 @@
+{
+  "description": "Number of join-hull commutative convexities on a set of n elements.",
+  "id": "A396809",
+  "mentions": [
+    "A102894",
+    "A334255",
+    "A356544",
+    "A358144",
+    "A358152",
+    "A364656",
+    "A367422",
+    "A396537",
+    "A396538"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

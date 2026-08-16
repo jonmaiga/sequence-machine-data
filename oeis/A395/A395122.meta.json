@@ -1,0 +1,21 @@
+{
+  "description": "O.g.f. Sum_{n>=0} n^(2*n) * exp(-n^2*C(x)) * C(x)^n / n!, where C(x) = x + C(x)^2 is the g.f. of the Catalan numbers (A000108).",
+  "id": "A395122",
+  "mentions": [
+    "A000108",
+    "A007820",
+    "A008277",
+    "A219184",
+    "A226775",
+    "A395123"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

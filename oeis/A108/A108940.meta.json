@@ -5,13 +5,11 @@
     "A108287"
   ],
   "tags": [
-    "more",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 59,
+    "source": "oeis-bfile"
   }
 }

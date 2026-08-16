@@ -1,0 +1,21 @@
+{
+  "description": "Number of relations on an n-set that are reflexive and transitive, but not symmetric.",
+  "id": "A395715",
+  "mentions": [
+    "A000110",
+    "A000798",
+    "A001035",
+    "A005493",
+    "A202534",
+    "A394620"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

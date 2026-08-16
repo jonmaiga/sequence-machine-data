@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (x + sqrt(2 + 4x))/2, where x=sqrt(2).",
+  "description": "Decimal expansion of (x + sqrt(2 + 4x))/2, where x = sqrt(2).",
   "id": "A190258",
   "mentions": [
     "A188635",
@@ -9,6 +9,7 @@
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

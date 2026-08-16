@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0; for k = 0, 1, ..., append a(k) + r^2 and a(k) + s^2 with 0 < r < s as small as possible so as to avoid duplicates.",
+  "id": "A397726",
+  "mentions": [
+    "A081241",
+    "A095903",
+    "A397727",
+    "A397728"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

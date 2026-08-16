@@ -1,0 +1,20 @@
+{
+  "description": "Number of set partitions of [n] such that the elements of the k-th block can each be k different colors.",
+  "id": "A394818",
+  "mentions": [
+    "A000110",
+    "A088305",
+    "A383253",
+    "A394777"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

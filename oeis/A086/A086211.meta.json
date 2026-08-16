@@ -1,5 +1,5 @@
 {
-  "description": "Triangle related to Bell numbers; T(n,k) read by rows, n>=0, 0<=k<=n: T(n,k) = k*T(n-1,k) + Sum(0<=j, T(n-1,k-1+j)); T(0,0)=1, T(0,k)=0 if k>0.",
+  "description": "Triangle related to Bell numbers; T(n,k) read by rows, n>=1, 1<=k<=n: T(n,k) = T(n-1,k-1) + (k-1)*T(n-1,k) + Sum_{j=k..n-2} T(n-1,j)) with T(1,1)=1, T(1,k)=0 if k>1.",
   "id": "A086211",
   "mentions": [
     "A000110",
@@ -11,8 +11,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 0,
-    "size": 45,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
   }
 }

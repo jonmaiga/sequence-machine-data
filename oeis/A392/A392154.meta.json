@@ -1,0 +1,18 @@
+{
+  "description": "First column of the difference table of n! under the operator Delta + 2*Delta^2.",
+  "id": "A392154",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A033815"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

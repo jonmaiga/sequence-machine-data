@@ -1,10 +1,11 @@
 {
-  "description": "Number of terms from the decimal expansion of Pi (A000796) which include every combination of n digits as consecutive subsequences.",
+  "description": "Minimum number of initial terms from the decimal expansion of Pi (A000796) to include every combination of n digits as a substring.",
   "id": "A080597",
   "mentions": [
     "A000796",
     "A032510",
-    "A036903"
+    "A036903",
+    "A333128"
   ],
   "tags": [
     "base",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{j=0..n} Stirling2(n, j) * binomial(n + j, n) * n^j.",
+  "id": "A397325",
+  "mentions": [
+    "A048993",
+    "A397324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the length of the shorter edges of a polyhedron with 32 vertices with conjecturally maximum possible volume inscribed in the unit sphere.",
+  "id": "A395324",
+  "mentions": [
+    "A081314",
+    "A081366",
+    "A179290",
+    "A381264",
+    "A395323"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

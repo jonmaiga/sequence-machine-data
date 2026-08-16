@@ -1,0 +1,16 @@
+{
+  "description": "Number of assembly trees for the n-sunlet graph.",
+  "id": "A397743",
+  "mentions": [
+    "A062980"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

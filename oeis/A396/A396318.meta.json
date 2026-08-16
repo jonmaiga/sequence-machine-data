@@ -1,0 +1,20 @@
+{
+  "description": "The terms of A091191 ordered by nonincreasing abundancy, where the abundancy of k is sigma(k)/k and sigma is the sum of divisors function, A000203. Terms with equal abundancy are in increasing order.",
+  "id": "A396318",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A071395",
+    "A091191",
+    "A307098"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of distinct unordered pairwise sums with repetition of the distinct trinomial coefficient values of order n that have more than one representation.",
+  "id": "A398231",
+  "mentions": [
+    "A046816",
+    "A086753",
+    "A394957",
+    "A398230",
+    "A398232",
+    "A398233",
+    "A398237",
+    "A398238",
+    "A398263",
+    "A398265",
+    "A398429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

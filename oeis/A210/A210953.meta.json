@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = sum of all parts in the k-th column of the shell model of partitions considering only the n-th shell and with its parts aligned to the right margin.",
+  "description": "Triangle read by rows: T(n,k) = sum of all parts in the k-th column of the modular table of partitions considering only the n-th shell and with its parts aligned to the right margin.",
   "id": "A210953",
   "mentions": [
     "A014153",

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers reaching a fixed point in a single step of the Kaprekar mapping A151949.",
+  "id": "A396148",
+  "mentions": [
+    "A004185",
+    "A004186",
+    "A099009",
+    "A151949",
+    "A395936"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

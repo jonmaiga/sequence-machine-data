@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers whose canonical snowball representation, when read backwards, corresponds to a legit canonical snowball representation.",
+  "id": "A398153",
+  "mentions": [
+    "A389644",
+    "A397093",
+    "A397794"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

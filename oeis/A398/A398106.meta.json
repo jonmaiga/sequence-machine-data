@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of rooted 2k-ary dyslexic trees with n internal nodes, n >= 0, k >= 0.",
+  "id": "A398106",
+  "mentions": [
+    "A001190",
+    "A019590",
+    "A032128",
+    "A036723",
+    "A036724",
+    "A036725",
+    "A070914",
+    "A299038",
+    "A398107"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

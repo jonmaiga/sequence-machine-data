@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of natural numbers: rotations of the bottom branches of the rooted plane trees encoded by A014486. (to opposite direction of A057509).",
+  "description": "Permutation of natural numbers: rotations of the bottom branches of the rooted plane trees encoded by A014486 (to opposite direction of A057509).",
   "id": "A057510",
   "mentions": [
     "A003239",

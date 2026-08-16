@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of one-dimensional number-conserving cellular automata with radius 1 and n cell states.",
+  "id": "A394094",
+  "mentions": [
+    "A034384"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

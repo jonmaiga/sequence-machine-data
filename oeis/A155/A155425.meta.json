@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place zero or more nonadjacent 0,0 1,0 2,1 3,2 3,3 4,2 5,2 6,3 polyhexes in any orientation on a planar nXnXn triangular grid.",
+  "description": "Number of ways to place zero or more nonadjacent 0,0 1,0 2,1 3,2 3,3 4,2 5,2 6,3 polyhexes in any orientation on a planar n X n X n triangular grid.",
   "id": "A155425",
   "mentions": [],
   "tags": [

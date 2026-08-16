@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(n) = Product_{i=1..omega(n)} prime(i)^(m_i-1), with n = Product_{i=1..omega(n)} p_i^m_i, omega = A001221, and p_i < p_(i+1).",
+  "id": "A396938",
+  "mentions": [
+    "A001221",
+    "A003557",
+    "A007947",
+    "A055932",
+    "A071364",
+    "A124010",
+    "A151821"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

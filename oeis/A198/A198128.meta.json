@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x having 2*x^2+3x=cos(x).",
+  "description": "Decimal expansion of greatest x having 2*x^2+3x=cos(x).",
   "id": "A198128",
   "mentions": [
     "A197737",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 99,
     "source": "joeis"
   }

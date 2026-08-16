@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: The Bell-transform of the triangular numbers.",
+  "id": "A394438",
+  "mentions": [
+    "A000217",
+    "A264428",
+    "A279361",
+    "A394439"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

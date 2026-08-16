@@ -1,0 +1,15 @@
+{
+  "description": "Number of occurrences of the n-th smallest value in A000793.",
+  "id": "A395744",
+  "mentions": [
+    "A000793"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

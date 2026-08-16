@@ -1,5 +1,5 @@
 {
-  "description": "The \"amusical permutation\" of the nonnegative numbers: a(2n)=3n, a(4n+1)=3n+1, a(4n-1)=3n-1.",
+  "description": "The \"amusical permutation\" of the nonnegative numbers: a(2n) = 3n, a(4n+1) = 3n+1, a(4n-1) = 3n-1.",
   "id": "A006368",
   "mentions": [
     "A000051",

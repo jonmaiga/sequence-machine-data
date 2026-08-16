@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients in expansion of (1+4x)^n.",
+  "description": "Triangle of coefficients in expansion of (1+4*x)^n.",
   "id": "A013611",
   "mentions": [
     "A000351"

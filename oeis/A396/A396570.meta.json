@@ -1,0 +1,20 @@
+{
+  "description": "Numbers == 2 (mod 6) that are not the sum of two distinct upper twin primes.",
+  "id": "A396570",
+  "mentions": [
+    "A002375",
+    "A006512",
+    "A016933",
+    "A187759",
+    "A334160"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

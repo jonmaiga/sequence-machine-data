@@ -1,5 +1,5 @@
 {
-  "description": "Primes for which golden mean tau is a quadratic residue.",
+  "description": "Primes for which golden mean phi is a quadratic residue.",
   "id": "A047650",
   "mentions": [
     "A000040",

@@ -1,0 +1,16 @@
+{
+  "description": "Number of steps to reach 0 for the sequence b_n(m) defined in the A397774, or 0 if b_n(m) does not terminate.",
+  "id": "A397755",
+  "mentions": [
+    "A397774"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the solution to the equation sqrt(n)+sqrt(n+1)+sqrt(n+2)=sqrt(9n+8).",
+  "description": "Decimal expansion of the solution to the equation sqrt(x) + sqrt(x+1) + sqrt(x+2) = sqrt(9*x+8).",
   "id": "A113786",
   "mentions": [
     "A114458"

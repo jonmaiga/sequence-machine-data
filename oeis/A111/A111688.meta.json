@@ -2,7 +2,7 @@
   "description": "Primes and composite numbers alternately in increasing order.",
   "id": "A111688",
   "mentions": [
-    "A000040"
+    "A093515"
   ],
   "tags": [
     "easy",

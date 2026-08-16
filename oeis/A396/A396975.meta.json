@@ -1,0 +1,18 @@
+{
+  "description": "Follow along the squares in the Hilbert curve. Place a chess king at each square that is not attacked by an existing king. This sequence gives the squares occupied by the kings.",
+  "id": "A396975",
+  "mentions": [
+    "A059252",
+    "A059253",
+    "A307188",
+    "A397052"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

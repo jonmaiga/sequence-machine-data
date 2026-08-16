@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) equals the limit of the composition of functions (x+x^n) in reverse order; let F_1(x) = x, F_{n+1}(x) = F_n(x) + F_n(x)^(n+1), then A(x) = limit F_n(x): A(x) = ...o x+x^n o ... o x+x^3 o x+x^2 o x.",
+  "description": "G.f. A(x) equals the limit of the composition of functions F_n(x) = (x + x^n) starting with F_1(x) = x and repeating F_{n+1}(x) = F_n(x) + F_n(x)^(n+1). Thus, A(x) = ... o (x + x^n) o ... o (x + x^3) o (x + x^2) o x, where operator 'o' denotes composition.",
   "id": "A119471",
   "mentions": [
     "A119459",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,9 @@
   "description": "O.g.f. A(x) satisfies: [x^n] 1/A(x)^(n+1) / (1 - (n+1)*x) = 0, for n > 0.",
   "id": "A320415",
   "mentions": [
-    "A319945"
+    "A319945",
+    "A397590",
+    "A397591"
   ],
   "tags": [
     "formulas",

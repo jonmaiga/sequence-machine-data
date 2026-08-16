@@ -1,9 +1,21 @@
 {
-  "description": "Numbers n such that 2^(2*n-37)-37 is prime.",
+  "description": "Numbers k such that 2^(2*k-37) - 37 is prime.",
   "id": "A138601",
-  "mentions": [],
+  "mentions": [
+    "A138577",
+    "A138578",
+    "A138579",
+    "A138580",
+    "A138581",
+    "A138582",
+    "A138598",
+    "A138599",
+    "A138600",
+    "A138602",
+    "A138603"
+  ],
   "tags": [
-    "easy",
+    "more",
     "nonn"
   ],
   "terms": {

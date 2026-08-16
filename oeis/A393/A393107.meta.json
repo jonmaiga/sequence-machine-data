@@ -1,5 +1,5 @@
 {
-  "description": "Primes in the Flavius Josephus's Sieve sequence (A000960).",
+  "description": "Primes in A000960.",
   "id": "A393107",
   "mentions": [
     "A000040",

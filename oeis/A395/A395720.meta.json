@@ -1,0 +1,19 @@
+{
+  "description": "Kangaroo numbers are numbers that are multiples of their inner number; that is, the number obtained by removing its first and last digits.",
+  "id": "A395720",
+  "mentions": [
+    "A395761",
+    "A395926",
+    "A396019"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

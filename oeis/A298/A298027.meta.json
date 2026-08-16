@@ -2,9 +2,12 @@
   "description": "Partial sums of A298026.",
   "id": "A298027",
   "mentions": [
+    "A001318",
+    "A016921",
     "A298026"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

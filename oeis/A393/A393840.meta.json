@@ -1,0 +1,19 @@
+{
+  "description": "Number of prime factors of the form k*2^A228845(n) + 1 (with k odd) that divide the Fermat number 2^(2^n) + 1.",
+  "id": "A393840",
+  "mentions": [
+    "A046052",
+    "A228845",
+    "A351865"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

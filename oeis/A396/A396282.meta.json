@@ -1,0 +1,19 @@
+{
+  "description": "Primes q such that q - p = floor(log_2(q)), where p is the largest prime strictly less than q.",
+  "id": "A396282",
+  "mentions": [
+    "A000040",
+    "A000523",
+    "A001223",
+    "A396203",
+    "A396279"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

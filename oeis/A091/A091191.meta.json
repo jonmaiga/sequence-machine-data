@@ -2,6 +2,7 @@
   "description": "Primitive abundant numbers: abundant numbers (A005101) having no abundant proper divisor.",
   "id": "A091191",
   "mentions": [
+    "A000203",
     "A000396",
     "A005101",
     "A006038",
@@ -11,7 +12,9 @@
     "A091192",
     "A275082",
     "A294890",
-    "A294930"
+    "A294930",
+    "A395192",
+    "A396318"
   ],
   "tags": [
     "formulas",

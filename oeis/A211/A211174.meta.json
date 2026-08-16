@@ -1,8 +1,9 @@
 {
-  "description": "Johannes Kepler's polyhedron circumscribing constant.",
+  "description": "Decimal expansion of Johannes Kepler's polyhedron circumscribing constant.",
   "id": "A211174",
   "mentions": [
-    "A051762"
+    "A051762",
+    "A243908"
   ],
   "tags": [
     "cons",

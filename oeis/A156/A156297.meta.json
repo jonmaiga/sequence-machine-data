@@ -1,8 +1,12 @@
 {
   "description": "Triangle T(n,k) read by rows. If n = k^2 then 1 else 0.",
   "id": "A156297",
-  "mentions": [],
+  "mentions": [
+    "A101374"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

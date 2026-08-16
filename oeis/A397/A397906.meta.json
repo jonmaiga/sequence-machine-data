@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangle A152795.",
+  "id": "A397906",
+  "mentions": [
+    "A152795",
+    "A152796",
+    "A152797",
+    "A397907"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

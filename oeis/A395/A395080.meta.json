@@ -1,0 +1,27 @@
+{
+  "description": "Array read by ascending antidiagonals: The generating function A(x) of row n satisfies the functional equation A(x) = (x*A(x) + 1) * (n*x*A(x) + 1)^2.",
+  "id": "A395080",
+  "mentions": [
+    "A000007",
+    "A001764",
+    "A003168",
+    "A005408",
+    "A034015",
+    "A051624",
+    "A108767",
+    "A291534",
+    "A371404",
+    "A395031",
+    "A395079"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

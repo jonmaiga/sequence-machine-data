@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form P(k)^2 - 2, where P(k) is the k-th Pell number.",
+  "id": "A395408",
+  "mentions": [
+    "A000040",
+    "A000129",
+    "A079291"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

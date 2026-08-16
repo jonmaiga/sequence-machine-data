@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. S(x) satisfies: S(x) = Integral (1 + S(x)^2)^2 dx.",
+  "description": "a(n) = (2*n-1)! * [x^(2*n-1)] S(x), where S(x) = Integral (1 + S(x)^2)^2 dx.",
   "id": "A281180",
   "mentions": [
     "A000010",
@@ -10,7 +10,8 @@
     "A281427",
     "A281428",
     "A281435",
-    "A281436"
+    "A281436",
+    "A394012"
   ],
   "tags": [
     "easy",

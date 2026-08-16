@@ -1,5 +1,5 @@
 {
-  "description": "Father primes of order 10.",
+  "description": "Primes of the form 21*p + 20 with p prime.",
   "id": "A136079",
   "mentions": [
     "A023208",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted unlabeled 6-gonal cacti having n blocks.",
+  "id": "A398034",
+  "mentions": [
+    "A332648",
+    "A398035"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

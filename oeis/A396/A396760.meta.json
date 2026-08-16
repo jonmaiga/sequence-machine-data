@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k at which A122921(k) - ceiling(sqrt(k/4)) reaches a new record value.",
+  "id": "A396760",
+  "mentions": [
+    "A006431",
+    "A122921",
+    "A122922",
+    "A122923",
+    "A122924",
+    "A178786",
+    "A285552"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

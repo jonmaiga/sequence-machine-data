@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sqrt((3 + x + sqrt(9+6x))/2), where x=sqrt(6).",
+  "description": "Decimal expansion of sqrt((3 + x + sqrt(9+6x))/2), where x = sqrt(6).",
   "id": "A190256",
   "mentions": [
     "A188635",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

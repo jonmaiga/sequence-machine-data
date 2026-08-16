@@ -1,8 +1,10 @@
 {
-  "description": "(10^n+44)/9 for n>0.",
+  "description": "a(n) = (10^n + 44)/9 for n>0.",
   "id": "A173737",
   "mentions": [
-    "A002279"
+    "A002279",
+    "A173734",
+    "A173735"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

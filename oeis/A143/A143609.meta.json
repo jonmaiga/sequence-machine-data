@@ -2,9 +2,11 @@
   "description": "Numerators of the upper principal and intermediate convergents to 2^(1/2).",
   "id": "A143609",
   "mentions": [
+    "A000129",
     "A001541",
     "A001653",
     "A010914",
+    "A075870",
     "A084068",
     "A143608"
   ],

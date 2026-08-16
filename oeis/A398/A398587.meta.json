@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Re(Li_4(1 + i)), where Li_4(z) is the polylogarithm function of order 4, and i is the imaginary unit.",
+  "id": "A398587",
+  "mentions": [
+    "A002162",
+    "A013661",
+    "A013662",
+    "A099218",
+    "A222068",
+    "A398585",
+    "A398588"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of free ouroboros polyiamonds with 2*n cells.",
+  "id": "A397240",
+  "mentions": [
+    "A000577",
+    "A122672",
+    "A151518",
+    "A359706",
+    "A395331"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

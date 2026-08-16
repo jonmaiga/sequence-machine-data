@@ -1,0 +1,18 @@
+{
+  "description": "Values of Jordan's totient function J_2 (A007434) which are not values of Euler's totient function (A000010).",
+  "id": "A395182",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A007434",
+    "A395181"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

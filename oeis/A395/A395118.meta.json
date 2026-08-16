@@ -1,0 +1,16 @@
+{
+  "description": "Given e.g.f. A(x), the coefficients of x^n in the n-th power of A(x) and in the n-th iteration of x*A(x) are equal for n >= 1.",
+  "id": "A395118",
+  "mentions": [
+    "A395119"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,17 +2,20 @@
   "description": "Numerator of Sum_{ primes p <= n} 1/p.",
   "id": "A106830",
   "mentions": [
+    "A000720",
     "A001008",
     "A002110",
     "A002805",
     "A024451",
     "A034386",
+    "A077761",
     "A250133",
     "A282511",
     "A282512",
     "A296358"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

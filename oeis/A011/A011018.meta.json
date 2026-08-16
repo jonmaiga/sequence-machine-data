@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 4th root of 22.",
   "id": "A011018",
-  "mentions": [],
+  "mentions": [
+    "A010767",
+    "A011008"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

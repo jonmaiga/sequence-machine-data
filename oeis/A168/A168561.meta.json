@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1/(1-x^2), x/(1-x^2)). Unsigned version of A049310.",
+  "description": "Triangle of coefficients of the Fibonacci polynomials, starting with F(0, x) = 1, F(1, x) = x.",
   "id": "A168561",
   "mentions": [
     "A000012",

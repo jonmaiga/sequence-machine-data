@@ -2,8 +2,8 @@
   "description": "Difference sequence of A325432.",
   "id": "A325525",
   "mentions": [
-    "A315431",
     "A325417",
+    "A325431",
     "A325432",
     "A325524"
   ],

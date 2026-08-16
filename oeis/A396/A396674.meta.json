@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the Fibonacci-code successor of n.",
+  "id": "A396674",
+  "mentions": [
+    "A215026"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

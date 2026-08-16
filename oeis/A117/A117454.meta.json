@@ -6,6 +6,7 @@
     "A117455"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabf"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

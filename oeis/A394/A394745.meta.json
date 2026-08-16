@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that x^2 + y*z = n, where x,y,z are positive integers satisfying x > max(y,z).",
+  "id": "A394745",
+  "mentions": [
+    "A393710"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -8,12 +8,13 @@
     "A075497"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

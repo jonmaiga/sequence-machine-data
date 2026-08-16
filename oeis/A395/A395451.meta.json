@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: the coefficients of the integer partitions of n in A334439 order.",
+  "id": "A395451",
+  "mentions": [
+    "A000165",
+    "A334439",
+    "A395450"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

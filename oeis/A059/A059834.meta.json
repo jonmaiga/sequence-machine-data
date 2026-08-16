@@ -2,7 +2,8 @@
   "description": "Sum of squares of entries of Wilkinson's eigenvalue test matrix of order 2n+1.",
   "id": "A059834",
   "mentions": [
-    "A059831"
+    "A059831",
+    "A145068"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 44,
     "source": "joeis"
   }
 }

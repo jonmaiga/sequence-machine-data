@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of 4-tuples (w, x, y, z) such that w*x + y*z = n, where w, x, y, z are distinct Fibonacci numbers satisfying w*x < y*z.",
+  "id": "A395229",
+  "mentions": [
+    "A395226",
+    "A395227",
+    "A395228",
+    "A395230"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

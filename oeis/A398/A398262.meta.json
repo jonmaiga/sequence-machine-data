@@ -1,0 +1,20 @@
+{
+  "description": "Number of indecomposable closed walks of length 2n along the edges of the 4-cube (hypercube Q_4, the tesseract) based at a vertex.",
+  "id": "A398262",
+  "mentions": [
+    "A054879",
+    "A092812",
+    "A328778"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

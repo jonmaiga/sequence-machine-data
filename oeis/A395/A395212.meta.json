@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of the probability that the unique (n-1)-sphere passing through n+1 points, selected independently and uniformly at random in an n-ball, is entirely contained within that n-ball.",
+  "id": "A395212",
+  "mentions": [
+    "A395207",
+    "A395208",
+    "A395209",
+    "A395210",
+    "A395211",
+    "A395213",
+    "A395214"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

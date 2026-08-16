@@ -1,11 +1,9 @@
 {
-  "description": "Rauzy-like 3-symbol substitution that gives a tile: Characteristic polynomial: x^3-3*x^2-x-1.",
+  "description": "3-limiting word of the morphism 1->2, 2->3, 3->31233.",
   "id": "A106601",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

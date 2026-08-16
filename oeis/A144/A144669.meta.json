@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of product_{n=2..infinity} (n^10-1)/(n^10+1).",
+  "description": "Decimal expansion of Product_{n=2..infinity} (n^10-1)/(n^10+1).",
   "id": "A144669",
   "mentions": [
     "A090986"

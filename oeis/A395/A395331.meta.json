@@ -1,0 +1,21 @@
+{
+  "description": "Number of free polyiamonds with n cells that contain a saturated cell (a triangle all three of whose edge-neighbors are present).",
+  "id": "A395331",
+  "mentions": [
+    "A000577",
+    "A151518",
+    "A395334",
+    "A395552",
+    "A397240"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

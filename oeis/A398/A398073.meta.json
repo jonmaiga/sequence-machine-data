@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n symmetric nonnegative integer matrices with each row sum at most 4.",
+  "id": "A398073",
+  "mentions": [
+    "A188405",
+    "A398068",
+    "A398069"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

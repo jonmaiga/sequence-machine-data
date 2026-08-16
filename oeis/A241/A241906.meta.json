@@ -1,15 +1,18 @@
 {
-  "description": "a(n) = floor(bell(2n)/bell(n)^2), bell = A000110.",
+  "description": "a(n) = floor(Bell(2*n)/Bell(n)^2), Bell = A000110.",
   "id": "A241906",
   "mentions": [
-    "A000110"
+    "A000110",
+    "A001247",
+    "A020557"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

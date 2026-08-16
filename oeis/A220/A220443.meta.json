@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = Sum_{i=1..n} (3i)^2.",
+  "description": "a(n) = Sum_{i=1..n} (3*i)^2.",
   "id": "A220443",
   "mentions": [
     "A000330",
     "A005408",
-    "A045943"
+    "A045943",
+    "A059270"
   ],
   "tags": [
     "easy",

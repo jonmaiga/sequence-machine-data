@@ -5,11 +5,12 @@
     "A010369"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 28,
     "source": "joeis"
   }
 }

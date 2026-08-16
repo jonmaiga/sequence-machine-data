@@ -1,0 +1,21 @@
+{
+  "description": "Number of Fibonacci divisors of n that are at most sqrt(n).",
+  "id": "A395811",
+  "mentions": [
+    "A000045",
+    "A005086",
+    "A010056",
+    "A038548",
+    "A333749"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

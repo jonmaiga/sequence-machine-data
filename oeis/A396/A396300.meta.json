@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the last term in the n-th block of A280864.",
+  "id": "A396300",
+  "mentions": [
+    "A280774",
+    "A280864"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

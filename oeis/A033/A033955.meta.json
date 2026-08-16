@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum of the remainders when the n-th prime is divided by primes up to the (n-1)-th prime.",
+  "description": "Sum of the remainders when the n-th prime is divided by primes up to the (n-1)-th prime.",
   "id": "A033955",
   "mentions": [
     "A024934",

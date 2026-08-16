@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the cumulative number of previous occurrences of the digits of n in the sequence 1..n excluding the current occurrence of each digit.",
+  "id": "A395743",
+  "mentions": [
+    "A007953",
+    "A055642",
+    "A343644"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

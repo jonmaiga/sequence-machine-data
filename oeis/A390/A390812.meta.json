@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of pairs (i, j) with 1 <= i < j < n such that the prime-points (i, prime(i)), (j, prime(j)), and (n, prime(n)) are collinear.",
+  "id": "A390812",
+  "mentions": [
+    "A373813",
+    "A393445",
+    "A393446"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

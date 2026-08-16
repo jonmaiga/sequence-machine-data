@@ -1,0 +1,28 @@
+{
+  "description": "Dirichlet g.f.: Product_{p prime} (1 + 1/p^s + 1/p^(2*s-1)).",
+  "id": "A397238",
+  "mentions": [
+    "A000189",
+    "A001620",
+    "A047994",
+    "A065473",
+    "A069193",
+    "A071773",
+    "A363289",
+    "A367990",
+    "A384050",
+    "A396336",
+    "A397136"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

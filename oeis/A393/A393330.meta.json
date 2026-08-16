@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k for which A391684(k) = n.",
+  "id": "A393330",
+  "mentions": [
+    "A000005",
+    "A391684"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

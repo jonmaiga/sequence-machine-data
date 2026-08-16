@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (4711 + 3*sqrt(7))/1736.",
+  "id": "A396822",
+  "mentions": [
+    "A001113",
+    "A060302",
+    "A368617",
+    "A368653",
+    "A368656"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1. For n >= 2, a(n) is the smallest positive integer > 1 such that s^n = p where s is the sum of digits of a(n) (cf. A007953) and p is the product of digits of a(n) (cf. A007954).",
+  "id": "A395064",
+  "mentions": [
+    "A002473",
+    "A007953",
+    "A007954",
+    "A009994",
+    "A117720",
+    "A274124",
+    "A379834"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

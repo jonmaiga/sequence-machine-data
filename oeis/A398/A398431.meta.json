@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive multiple of n that is a factorial base Niven number.",
+  "id": "A398431",
+  "mentions": [
+    "A007623",
+    "A034968",
+    "A092495",
+    "A118363",
+    "A357936",
+    "A398496"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

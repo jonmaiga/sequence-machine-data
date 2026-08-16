@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/8)} binomial(2*k,k) * binomial(n-6*k,2*k).",
+  "id": "A398365",
+  "mentions": [
+    "A001850",
+    "A002426",
+    "A098479",
+    "A098482",
+    "A387599",
+    "A393251",
+    "A398364"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

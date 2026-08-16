@@ -1,0 +1,16 @@
+{
+  "description": "First differences of A396086, the number of dyadic intervals of length 2^(-n) that intersect the classical middle-third Cantor set.",
+  "id": "A396104",
+  "mentions": [
+    "A396086"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

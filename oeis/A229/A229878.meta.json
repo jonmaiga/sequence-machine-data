@@ -1,8 +1,9 @@
 {
-  "description": "Number of undirected circular permutations tau(1), ..., tau((p_n-1)/2) of 1, ..., (p_n-1)/2 such that the (p_n-1)/2 numbers tau(1)^2 + tau(2)^2, tau(2)^2 + tau(3)^2, ..., tau((p_n-3)/2)^2 + tau((p_n-1)/2)^2, tau((p_n-1)/2)^2 + tau(1)^2 give all the (p_n-1)/2 quadratic residues modulo p_n, where p_n is the n-th prime.",
+  "description": "a(n) = number of undirected circular permutations tau of 1, ..., (p_n-1)/2 such that tau(1)^2 + tau(2)^2, tau(2)^2 + tau(3)^2, ..., tau((p_n-3)/2)^2 + tau((p_n-1)/2)^2, tau((p_n-1)/2)^2 + tau(1)^2 give all the (p_n-1)/2 quadratic residues modulo p_n, where p_n is the n-th prime.",
   "id": "A229878",
   "mentions": [
-    "A229038"
+    "A229038",
+    "A229827"
   ],
   "tags": [
     "hard",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 6,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

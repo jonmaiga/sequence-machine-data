@@ -2,7 +2,8 @@
   "description": "Average of twin-prime pairs modulo 5.",
   "id": "A120439",
   "mentions": [
-    "A014574"
+    "A014574",
+    "A120438"
   ],
   "tags": [
     "sign"

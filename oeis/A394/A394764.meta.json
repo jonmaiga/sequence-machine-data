@@ -1,0 +1,19 @@
+{
+  "description": "Maximum absolute difference over adjacent pairs in row n of A392091.",
+  "id": "A394764",
+  "mentions": [
+    "A001222",
+    "A072203",
+    "A380049",
+    "A392091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

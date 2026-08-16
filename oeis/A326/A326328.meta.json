@@ -2,6 +2,8 @@
   "description": "a(n) = (2*n)! [x^(2*n)] cosh(x)^(-3).",
   "id": "A326328",
   "mentions": [
+    "A000364",
+    "A028296",
     "A326327"
   ],
   "tags": [
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

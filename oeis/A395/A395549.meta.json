@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = E_p mod p, where p = prime(n) and E_p = [z^(p-1)] exp(Sum_{j=1..p-2} z^j/(j*(j+1))).",
+  "id": "A395549",
+  "mentions": [
+    "A007540",
+    "A007619"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

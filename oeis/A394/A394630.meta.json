@@ -1,0 +1,21 @@
+{
+  "description": "Least index k such that prime(k)^2 + n! is again the square of a prime, or 0 if no such prime exists.",
+  "id": "A394630",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A001248",
+    "A394629",
+    "A394631",
+    "A394632"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

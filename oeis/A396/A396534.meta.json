@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2 + (x + 79^2)^2 = y^2.",
+  "id": "A396534",
+  "mentions": [
+    "A028871",
+    "A118554",
+    "A207059",
+    "A309998",
+    "A331265",
+    "A332000",
+    "A396526"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors of n^3 + 1.",
+  "id": "A396945",
+  "mentions": [
+    "A000005",
+    "A001093",
+    "A005069"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

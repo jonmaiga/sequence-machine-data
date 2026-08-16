@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations that give the maximum number of comparisons for sorting n elements by binary insertions.",
+  "id": "A398374",
+  "mentions": [
+    "A001855",
+    "A029837",
+    "A152423",
+    "A375959",
+    "A395685"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

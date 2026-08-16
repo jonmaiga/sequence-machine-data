@@ -1,7 +1,8 @@
 {
-  "description": "n^n - (2n-1)!!.",
+  "description": "a(n) = n^n - (2n-1)!!.",
   "id": "A127650",
   "mentions": [
+    "A000312",
     "A001147",
     "A127688"
   ],

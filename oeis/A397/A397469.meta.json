@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(floor(n*r)), where r = (3 + sqrt(3))/2.",
+  "id": "A397469",
+  "mentions": [
+    "A000040",
+    "A002194",
+    "A022838",
+    "A054406",
+    "A184815",
+    "A397466",
+    "A397468"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

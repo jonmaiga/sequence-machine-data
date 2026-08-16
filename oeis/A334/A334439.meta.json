@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle whose rows are all integer partitions sorted first by sum, then by length, and finally reverse-lexicographically.",
+  "description": "Irregular triangle whose rows are all integer partitions of n sorted first by sum, then by length, and finally reverse-lexicographically.",
   "id": "A334439",
   "mentions": [
     "A000041",

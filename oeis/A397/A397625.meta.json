@@ -1,0 +1,17 @@
+{
+  "description": "Coordination sequence of the bcs net.",
+  "id": "A397625",
+  "mentions": [
+    "A005897"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

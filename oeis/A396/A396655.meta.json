@@ -1,0 +1,17 @@
+{
+  "description": "Consider the 0-indexed spiral on a hexagonal grid, as in A395365. Three players, Red, Green and Blue, take turns and place knights at the smallest unoccupied cell not attacked by an opposing knight. Sequence lists cells occupied by Blue knights.",
+  "id": "A396655",
+  "mentions": [
+    "A395365",
+    "A396653",
+    "A396654"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

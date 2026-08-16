@@ -1,0 +1,19 @@
+{
+  "description": "2-adic valuation of the triple factorial of n.",
+  "id": "A397779",
+  "mentions": [
+    "A007661",
+    "A007814",
+    "A397801"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,14 +1,20 @@
 {
-  "description": "Number of permutations of 1..n+7 with the number moved left exceeding the number moved right by n or more.",
+  "description": "Number of permutations of 1..n+7 with deficiencies #{i: p(i) < i} exceeding the exceedances #{i: p(i) > i} by n or more.",
   "id": "A179582",
-  "mentions": [],
+  "mentions": [
+    "A179574",
+    "A179579",
+    "A179581",
+    "A179586"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
-    "source": "joeis"
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

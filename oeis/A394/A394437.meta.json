@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: The Bell-transform of the squares.",
+  "id": "A394437",
+  "mentions": [
+    "A000290",
+    "A033462",
+    "A264428",
+    "A394439"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

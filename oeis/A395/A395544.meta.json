@@ -1,0 +1,26 @@
+{
+  "description": "Number of transitive relations on an n-set with at most eight ordered pairs.",
+  "id": "A395544",
+  "mentions": [
+    "A006905",
+    "A348634",
+    "A349849",
+    "A349919",
+    "A349927",
+    "A392460",
+    "A393216",
+    "A393925",
+    "A394769",
+    "A395093"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

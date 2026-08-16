@@ -1,5 +1,5 @@
 {
-  "description": "Gegenbauer polynomial C_n^2(3).",
+  "description": "a(n) = Gegenbauer polynomial C_n^2(3).",
   "id": "A144133",
   "mentions": [
     "A000129",

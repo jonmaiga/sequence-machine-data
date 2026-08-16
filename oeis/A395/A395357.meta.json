@@ -1,0 +1,18 @@
+{
+  "description": "The completed spiral of black and red knights (as in A392177, A392178, A395355) read in order, with +n indicating a black knight, -n indicating a red knight, and 0 (except for the initial 0, which is special) indicating an unoccupied square.",
+  "id": "A395357",
+  "mentions": [
+    "A392177",
+    "A392178",
+    "A395355"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

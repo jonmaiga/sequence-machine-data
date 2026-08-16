@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n gives digits of canonical snowball representation of n.",
+  "id": "A396720",
+  "mentions": [
+    "A108731",
+    "A394641",
+    "A397794",
+    "A398006"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

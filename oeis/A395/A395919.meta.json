@@ -1,0 +1,17 @@
+{
+  "description": "Number of relations R on an n-element set such that the transitive closure of R has exactly two elements more than R.",
+  "id": "A395919",
+  "mentions": [
+    "A006905"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

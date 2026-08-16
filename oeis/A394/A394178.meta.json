@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the Frobenius number for n and k if n and k coprime, and 0 otherwise, for 1 <= k <= n.",
+  "id": "A394178",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A002378",
+    "A008683",
+    "A023896",
+    "A037165",
+    "A054521",
+    "A069755",
+    "A079904",
+    "A124506",
+    "A199711",
+    "A293176",
+    "A319608",
+    "A380697",
+    "A395177"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

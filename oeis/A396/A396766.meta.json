@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose number of distinct prime factors equals their digital root.",
+  "id": "A396766",
+  "mentions": [
+    "A001221",
+    "A010888",
+    "A061237"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

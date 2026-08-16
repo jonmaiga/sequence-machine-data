@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 3 X n rectangle, with all four corners removed, using dominoes and right trominoes.",
+  "id": "A397812",
+  "mentions": [
+    "A165716"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

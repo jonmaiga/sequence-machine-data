@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that 2*x^2 + y*z = n, where x, y, z are primes, not necessarily distinct.",
+  "id": "A395637",
+  "mentions": [
+    "A393710",
+    "A394038",
+    "A394788",
+    "A395634",
+    "A395636"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 12,
+    "size": 86,
+    "source": "joeis"
+  }
+}

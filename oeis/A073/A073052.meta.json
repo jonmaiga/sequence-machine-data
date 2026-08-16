@@ -2,7 +2,9 @@
   "description": "Decimal expansion of cos(Pi/7).",
   "id": "A073052",
   "mentions": [
+    "A232735",
     "A232736",
+    "A323601",
     "A362922"
   ],
   "tags": [

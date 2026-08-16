@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the 10-gonal polygorials A084943.",
+  "id": "A395757",
+  "mentions": [
+    "A001113",
+    "A070910",
+    "A084943",
+    "A395536",
+    "A395537",
+    "A395755",
+    "A395759"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

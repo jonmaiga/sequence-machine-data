@@ -1,5 +1,5 @@
 {
-  "description": "Sum of largest parts of the shell model of partitions with n regions.",
+  "description": "Sum of largest parts of the modular table of partitions with n regions.",
   "id": "A182727",
   "mentions": [
     "A000041",

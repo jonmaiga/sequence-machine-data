@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1 - 1/(1*3)^2 + 1/(1*3*5)^2 - 1/(1*3*5*7)^2 + ...",
+  "id": "A395062",
+  "mentions": [
+    "A001147",
+    "A001818",
+    "A091681",
+    "A306858",
+    "A333566",
+    "A334380",
+    "A395061"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 108,
+    "source": "joeis"
+  }
+}

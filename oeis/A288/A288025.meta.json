@@ -1,7 +1,8 @@
 {
-  "description": "Array read by antidiagonals: T(m,n) = number of minimal edge covers in the grid graph P_m X P_n.",
+  "description": "Array read by antidiagonals: T(m,n) is the number of minimal edge covers in the grid graph P_m X P_n.",
   "id": "A288025",
   "mentions": [
+    "A032120",
     "A182097",
     "A286912",
     "A288027",

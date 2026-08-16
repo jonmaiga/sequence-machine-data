@@ -1,0 +1,24 @@
+{
+  "description": "Minimal value of Sum_{i=1..n} p(i)*p((i mod n)+1), as p ranges over all permutations of powers of 2 {1,2,4,...,2^(n-1)}.",
+  "id": "A394572",
+  "mentions": [
+    "A026035",
+    "A076024",
+    "A080675",
+    "A110610",
+    "A110611",
+    "A136412",
+    "A395767",
+    "A395770"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

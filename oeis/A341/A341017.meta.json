@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that placing digit i at both ends of p produces another prime for at least two of i = [1,3,7, 9].",
+  "description": "Primes p such that placing digit i at both ends of p produces another prime for at least two of i = [1,3,7,9].",
   "id": "A341017",
   "mentions": [
     "A069687",

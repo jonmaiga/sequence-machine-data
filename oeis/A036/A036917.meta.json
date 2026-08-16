@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (4/Pi^2)*EllipticK(4*x^(1/2))^2.",
+  "description": "Expansion of g.f. (4/Pi^2)*EllipticK(4*x^(1/2))^2.",
   "id": "A036917",
   "mentions": [
     "A000172",

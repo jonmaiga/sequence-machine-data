@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p such that there are primes q and r with the property that p, q and r form an arithmetic progression and their sum is the same as three times the (n+2)-nd prime number.",
+  "description": "Smallest prime p such that there are primes q and r with the property that p, q and r form an arithmetic progression and their sum is the same as three times the n-th prime number.",
   "id": "A129758",
   "mentions": [
     "A001748",
@@ -13,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 3,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

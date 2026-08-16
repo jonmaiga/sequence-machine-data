@@ -9,12 +9,13 @@
     "A194585"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 26,
     "source": "joeis"
   }
 }

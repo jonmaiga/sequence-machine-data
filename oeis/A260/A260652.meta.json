@@ -2,6 +2,7 @@
   "description": "The minimal difference between the first and last terms of a set of n coprime numbers.",
   "id": "A260652",
   "mentions": [
+    "A062575",
     "A261987",
     "A264482"
   ],

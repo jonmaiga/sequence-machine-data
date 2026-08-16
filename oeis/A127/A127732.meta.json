@@ -1,17 +1,16 @@
 {
-  "description": "Primes of the form k# + (k+1)#,..,+(k+x)#+ 61; where k#,(k+1)#,(k+x)# are primorials numbers, members of A002110.",
+  "description": "Primes of the form k# + (k+1)# ... +(k+x)# + 61; where k#,(k+1)#,(k+x)# are primorial numbers, members of A002110, where the 1st summand is primorial 6.",
   "id": "A127732",
   "mentions": [
     "A002110",
     "A125191"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

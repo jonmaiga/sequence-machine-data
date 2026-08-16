@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m belonging to {n, n+1, n+2, ..., n+A396377(n)} that divides the product of the other integers.",
+  "id": "A396378",
+  "mentions": [
+    "A396377",
+    "A396379",
+    "A396380",
+    "A396950"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

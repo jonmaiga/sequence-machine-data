@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2-ary convexities on a set of n elements.",
+  "id": "A394095",
+  "mentions": [
+    "A000798",
+    "A326878"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

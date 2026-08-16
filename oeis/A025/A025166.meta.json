@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: -exp(-x/(1-2*x))/(1-2*x).",
+  "description": "Expansion of e.g.f. -exp(-x/(1-2*x))/(1-2*x).",
   "id": "A025166",
   "mentions": [
     "A021009",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

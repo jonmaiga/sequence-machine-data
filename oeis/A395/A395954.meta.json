@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the median distance from the center of a unit disk to a line that passes through two points independently and uniformly selected at random in the disk.",
+  "id": "A395954",
+  "mentions": [
+    "A395953",
+    "A395955",
+    "A395956"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Numbers k > 9 such that the number m formed by inserting a digit 0 between each pair of digits in k is divisible by k.",
   "id": "A343550",
   "mentions": [
+    "A010785",
     "A051022",
     "A062846",
     "A062891",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,9 +1,10 @@
 {
-  "description": "A051068 read mod 2.",
+  "description": "A050294 read mod 2.",
   "id": "A051069",
   "mentions": [
     "A014578",
-    "A051068"
+    "A050294",
+    "A051065"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the distinct prime divisors of C(6*n, n).",
+  "id": "A395566",
+  "mentions": [
+    "A004355",
+    "A008472",
+    "A034387",
+    "A394454",
+    "A394591",
+    "A394592",
+    "A394593",
+    "A395515"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

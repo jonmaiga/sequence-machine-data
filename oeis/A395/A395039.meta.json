@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the u-th arithmetic derivative of k is zero for some u and A276085(k) has no divisors of the form p^p, otherwise 0, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A395039",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A099308",
+    "A276085",
+    "A328308",
+    "A377868",
+    "A377869",
+    "A377871",
+    "A395038"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

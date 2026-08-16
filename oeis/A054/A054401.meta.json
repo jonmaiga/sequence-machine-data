@@ -1,16 +1,18 @@
 {
-  "description": "a(n) = 5^n-4^n-1.",
+  "description": "a(n) = 5^n - 4^n - 1.",
   "id": "A054401",
   "mentions": [
+    "A005060",
     "A155626"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 24,
     "source": "joeis"
   }
 }

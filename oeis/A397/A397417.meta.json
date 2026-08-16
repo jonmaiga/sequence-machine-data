@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of n in which each pair of adjacent parts is comparable under divisibility (each part divides, or is divided by, the next).",
+  "id": "A397417",
+  "mentions": [
+    "A000045",
+    "A003238",
+    "A011782",
+    "A167606",
+    "A178470",
+    "A328460",
+    "A328508"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

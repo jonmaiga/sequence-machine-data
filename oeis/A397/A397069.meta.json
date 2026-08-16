@@ -1,0 +1,20 @@
+{
+  "description": "Primes equal to the sum of the k primes beginning with prime(k) for some k.",
+  "id": "A397069",
+  "mentions": [
+    "A000040",
+    "A013918",
+    "A161463",
+    "A397067",
+    "A397068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

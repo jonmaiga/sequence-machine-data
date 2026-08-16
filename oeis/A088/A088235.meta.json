@@ -2,6 +2,7 @@
   "description": "Total number of digits (in base 10) in all preceding terms in the sequence.",
   "id": "A088235",
   "mentions": [
+    "A001073",
     "A064223",
     "A088236"
   ],

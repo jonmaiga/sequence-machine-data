@@ -1,14 +1,15 @@
 {
-  "description": "Expansion of 1/((1-x)(1-3x)(1-8x)(1-10x)).",
+  "description": "Expansion of 1/((1-x)*(1-3*x)*(1-8*x)*(1-10*x)).",
   "id": "A021644",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

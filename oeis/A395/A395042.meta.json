@@ -1,0 +1,20 @@
+{
+  "description": "Greatest prime dividing arithmetic derivative of n; and for primes p, a(p)=1.",
+  "id": "A395042",
+  "mentions": [
+    "A003415",
+    "A006530",
+    "A394895",
+    "A395052"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 97,
+    "source": "joeis"
+  }
+}

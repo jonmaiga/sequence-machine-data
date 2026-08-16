@@ -1,0 +1,20 @@
+{
+  "description": "Growth function of the reflection group of a six-dimensional orthoscheme with distinct edge lengths.",
+  "id": "A397438",
+  "mentions": [
+    "A008137",
+    "A396406",
+    "A396927",
+    "A397437"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

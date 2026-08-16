@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the position of the maximum A094716(n) in the juggler sequence starting with n.",
+  "id": "A396851",
+  "mentions": [
+    "A007320",
+    "A094683",
+    "A094716",
+    "A284987"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

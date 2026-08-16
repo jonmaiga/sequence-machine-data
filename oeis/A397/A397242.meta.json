@@ -1,0 +1,18 @@
+{
+  "description": "O.g.f. satisfies A(x) = exp( x + Sum_{n>=2} (n^2-1) * a(n)*x^n / n^2 ).",
+  "id": "A397242",
+  "mentions": [
+    "A038464",
+    "A397241",
+    "A397243"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

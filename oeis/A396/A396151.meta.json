@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^(n+1) + 1 - 2*Re((1+i)^n), where i is the imaginary unit.",
+  "id": "A396151",
+  "mentions": [
+    "A000749"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

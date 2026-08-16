@@ -2,6 +2,9 @@
   "description": "Constant term in the expansion of (Sum_{k=0..n} k*(x^k + x^(-k)))^3.",
   "id": "A303916",
   "mentions": [
+    "A005585",
+    "A067056",
+    "A112851",
     "A322549"
   ],
   "tags": [

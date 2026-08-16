@@ -5,12 +5,13 @@
     "A332057"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
-    "source": "joeis"
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients in expansion of Product_{k>=1} (1+x^k)^(k/2).",
+  "id": "A397094",
+  "mentions": [
+    "A026007",
+    "A046161",
+    "A232976"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

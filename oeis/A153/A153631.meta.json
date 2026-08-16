@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n modulo (product of digits of n) = (sum of digits of n).",
+  "description": "Numbers k such that k modulo (product of digits of k) = (sum of digits of k).",
   "id": "A153631",
   "mentions": [
     "A007953",

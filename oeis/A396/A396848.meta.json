@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = A^3(x) - 4*x^2.",
+  "id": "A396848",
+  "mentions": [
+    "A138740",
+    "A177750",
+    "A292809",
+    "A373314"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

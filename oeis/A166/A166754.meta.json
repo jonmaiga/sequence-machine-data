@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4*A061547(n+1) - 3*A166753(n).",
+  "description": "a(n) = 4*A061547(n+2) - 3*A166753(n).",
   "id": "A166754",
   "mentions": [
     "A000975",

@@ -16,12 +16,13 @@
     "A293943"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 49,
+    "size": 53,
     "source": "oeis-bfile"
   }
 }

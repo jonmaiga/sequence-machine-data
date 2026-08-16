@@ -1,0 +1,17 @@
+{
+  "description": "Number of relations on an n-set whose minimum-deletion-to-transitivity equals one.",
+  "id": "A396664",
+  "mentions": [
+    "A395083"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

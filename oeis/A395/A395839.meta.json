@@ -1,0 +1,19 @@
+{
+  "description": "G.f. 10*C(x)^2 - C(x), where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers (A000108).",
+  "id": "A395839",
+  "mentions": [
+    "A000108",
+    "A111019",
+    "A111020",
+    "A395834"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

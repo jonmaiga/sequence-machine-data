@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k >= 1 such that Sum_{i = 0..n} A000005(k + i) / (n + 1) is an integer.",
+  "id": "A397687",
+  "mentions": [
+    "A000005",
+    "A050226"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * H(k/2) / k^4, where H(x) is the harmonic number for the real value x.",
+  "id": "A398412",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A013661",
+    "A013663",
+    "A074599",
+    "A350670"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

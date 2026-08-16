@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) giving the number of permutations of 1..n with no adjacent elements within k in value, for n >= 2, 1 <= k <= floor(n/2).",
+  "description": "Irregular triangle T(n,k), n >= 2, 1 <= k <= floor(n/2), read by rows, where T(n,k) is the number of permutations p of [n] such that |p(i)-p(i-1)| >= k for all i = 2..n.",
   "id": "A322255",
   "mentions": [
     "A000142",
@@ -7,6 +7,15 @@
     "A127697",
     "A129534",
     "A179957",
+    "A179958",
+    "A179959",
+    "A179960",
+    "A179961",
+    "A179962",
+    "A179963",
+    "A179964",
+    "A179965",
+    "A179966",
     "A179967"
   ],
   "tags": [

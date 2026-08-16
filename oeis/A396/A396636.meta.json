@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of at-most-k-furcating labeled histories that can be constructed for n labeled leaves, 2<=k<=n, if simultaneous branching events are allowed.",
+  "id": "A396636",
+  "mentions": [
+    "A005121",
+    "A317059",
+    "A396088",
+    "A396488",
+    "A396512",
+    "A396535"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

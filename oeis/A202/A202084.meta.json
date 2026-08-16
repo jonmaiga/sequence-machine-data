@@ -2,6 +2,7 @@
   "description": "Class number of sqrt(-n).",
   "id": "A202084",
   "mentions": [
+    "A000927",
     "A202053"
   ],
   "tags": [

@@ -2,7 +2,8 @@
   "description": "Solutions x of 2*uphi(x)=x, where uphi is the unitary phi function (A047994).",
   "id": "A030163",
   "mentions": [
-    "A047994"
+    "A047994",
+    "A319481"
   ],
   "tags": [
     "more",

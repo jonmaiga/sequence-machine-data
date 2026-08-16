@@ -1,8 +1,12 @@
 {
   "description": "a(n) = 6n + 3^n.",
   "id": "A173391",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A008588"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

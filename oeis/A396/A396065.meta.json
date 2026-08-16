@@ -1,0 +1,19 @@
+{
+  "description": "The total number of at-most-4-furcating labeled histories that can be constructed for n labeled leaves.",
+  "id": "A396065",
+  "mentions": [
+    "A006472",
+    "A256006",
+    "A358072"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

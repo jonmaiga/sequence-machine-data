@@ -1,0 +1,21 @@
+{
+  "description": "The smallest difference between n and the product of a nontrivial divisor of n with the totient of that divisor.",
+  "id": "A396605",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001358",
+    "A027750",
+    "A082473"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,8 +1,11 @@
 {
-  "description": "Terms of a particular integer decomposition of N^N.",
+  "description": "Triangle read by rows: T(n, k) = k * n^(n - k - 1) * n! / (n - k)! for n >= 1, T(0, 0) = 1.",
   "id": "A243203",
   "mentions": [
+    "A000312",
+    "A008279",
     "A066324",
+    "A201685",
     "A243202"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that n^2 are nonzero square terms in A077116.",
+  "description": "Numbers k with property that k^2 are nonzero square terms in A077116.",
   "id": "A154100",
   "mentions": [
     "A077116",

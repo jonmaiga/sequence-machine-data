@@ -10,13 +10,14 @@
     "A337487"
   ],
   "tags": [
+    "formulas",
     "hard",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

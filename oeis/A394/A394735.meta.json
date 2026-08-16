@@ -1,0 +1,20 @@
+{
+  "description": "Primes prime(k) such that prime(k+1) - prime(k) is a perfect power.",
+  "id": "A394735",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A001597",
+    "A113451",
+    "A151799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

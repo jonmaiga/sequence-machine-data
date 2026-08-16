@@ -2,7 +2,8 @@
   "description": "The number of Hamiltonian cycles with rotational symmetry of order 3 on the triangular grid, n vertices on each side.",
   "id": "A379747",
   "mentions": [
-    "A112676"
+    "A112676",
+    "A238819"
   ],
   "tags": [
     "more",

@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the determinant of the Laplacian on S^6, the 6-dimensional unit sphere, with the standard metric induced by the R^7 Euclidean norm.",
+  "id": "A396373",
+  "mentions": [
+    "A001620",
+    "A061444",
+    "A073002",
+    "A074962",
+    "A084448",
+    "A212002",
+    "A259068",
+    "A259070",
+    "A261506",
+    "A396369",
+    "A396370",
+    "A396371",
+    "A396372",
+    "A396374",
+    "A396375",
+    "A396376"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

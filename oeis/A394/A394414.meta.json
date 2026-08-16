@@ -1,0 +1,16 @@
+{
+  "description": "The prime terms in A394413, in order of appearance.",
+  "id": "A394414",
+  "mentions": [
+    "A000040",
+    "A394413"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

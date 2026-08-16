@@ -2,11 +2,16 @@
   "description": "Triangle read by rows, in which row n consists of n(n+m) for m = 1 .. n-1.",
   "id": "A001283",
   "mentions": [
+    "A001284",
     "A003991",
     "A033581",
     "A063929",
     "A063930",
-    "A085788"
+    "A067742",
+    "A085788",
+    "A100345",
+    "A237220",
+    "A237270"
   ],
   "tags": [
     "easy",

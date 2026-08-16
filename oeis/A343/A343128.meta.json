@@ -2,6 +2,7 @@
   "description": "Numbers k such that prime(prime(prime(k))) ends in k.",
   "id": "A343128",
   "mentions": [
+    "A038580",
     "A046883",
     "A074978"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

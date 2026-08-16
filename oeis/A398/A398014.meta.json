@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of -Sum_{k>=1} mu(k) * log(k) / k^2, where mu is the Möbius function.",
+  "id": "A398014",
+  "mentions": [
+    "A001620",
+    "A008683",
+    "A013661",
+    "A059956",
+    "A061444",
+    "A073002",
+    "A074962",
+    "A210593",
+    "A225746",
+    "A306016",
+    "A398015",
+    "A398016",
+    "A398017"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

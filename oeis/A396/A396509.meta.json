@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2 * (4*n+2)^(n-1).",
+  "id": "A396509",
+  "mentions": [
+    "A052774",
+    "A385085",
+    "A396504"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

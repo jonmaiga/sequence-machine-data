@@ -1,0 +1,19 @@
+{
+  "description": "Number of antichains of nonempty integer compositions that contain at least one composition of n and no compositions greater than n.",
+  "id": "A396625",
+  "mentions": [
+    "A000372",
+    "A011782",
+    "A395151"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,12 @@
   "description": "Numbers whose base-4 representation has exactly 6 runs.",
   "id": "A043597",
   "mentions": [
-    "A007090"
+    "A007090",
+    "A043837",
+    "A043849",
+    "A043856",
+    "A043864",
+    "A043873"
   ],
   "tags": [
     "base",

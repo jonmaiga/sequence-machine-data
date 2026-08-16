@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of r(n) = (prime(n+2) - 2*prime(n+1) + prime(n)) / (prime(n+2) - prime(n)).",
+  "id": "A396239",
+  "mentions": [
+    "A001223",
+    "A006562",
+    "A031131",
+    "A036263",
+    "A396240"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

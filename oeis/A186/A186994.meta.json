@@ -1,5 +1,5 @@
 {
-  "description": "Number of maximal subsets of {1, 2, ..., n} containing n and having pairwise coprime elements.",
+  "description": "Number of maximum subsets of {1, 2, ..., n} containing n and having pairwise coprime elements.",
   "id": "A186994",
   "mentions": [
     "A186971",

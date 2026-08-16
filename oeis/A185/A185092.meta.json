@@ -1,7 +1,10 @@
 {
-  "description": "Numbers k such that j^j == j^j^j (mod k) for every j.",
+  "description": "Divisors of 12.",
   "id": "A185092",
-  "mentions": [],
+  "mentions": [
+    "A217290",
+    "A323383"
+  ],
   "tags": [
     "fini",
     "full",

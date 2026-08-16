@@ -1,0 +1,22 @@
+{
+  "description": "Least fundamental discriminant D of real quadratic fields such that omega(D) = n, where omega = A001221.",
+  "id": "A396868",
+  "mentions": [
+    "A001221",
+    "A002144",
+    "A002145",
+    "A317991",
+    "A391436",
+    "A396865",
+    "A396867"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

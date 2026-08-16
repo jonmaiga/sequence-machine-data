@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 3/4 - Pi/8.",
+  "id": "A397091",
+  "mentions": [
+    "A019675",
+    "A091505",
+    "A091506",
+    "A239120"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that can be uniquely expressed as (m + sum of digits of m) for some m.",
+  "description": "Numbers that can be uniquely expressed as (m + sum of digits of m) for some m.",
   "id": "A225793",
   "mentions": [
     "A003052",

@@ -1,0 +1,22 @@
+{
+  "description": "Array, listed by falling antidiagonals: row n consists of the primes p such that A091633(n) is the concatenation of the last digits of consecutive primes starting with p.",
+  "id": "A397425",
+  "mentions": [
+    "A007652",
+    "A007962",
+    "A091633",
+    "A397072",
+    "A397073",
+    "A397344"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

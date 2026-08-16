@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there is a unique k such that n = k + (product of nonzero digits of k).",
+  "description": "Numbers m for which there is a unique k such that m = k + (product of nonzero digits of k).",
   "id": "A096922",
   "mentions": [
     "A063108",
@@ -23,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of tan(sinh(log(1+x))).",
+  "description": "Expansion of e.g.f.: tan(sinh(log(1+x))).",
   "id": "A009676",
   "mentions": [],
   "tags": [

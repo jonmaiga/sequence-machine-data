@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX2 0..2 arrays with no three equal values forming an isosceles triangle, and new values introduced in 0..2 order.",
+  "description": "Number of n X 2 0..2 arrays with no three equal values forming an isosceles triangle, and new values introduced in 0..2 order.",
   "id": "A274066",
   "mentions": [
     "A274068"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

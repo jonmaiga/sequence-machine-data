@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0,1 arrays with adjacent row and column sums unequal.",
+  "description": "Number of n X 2 0,1 arrays with adjacent row and column sums unequal.",
   "id": "A203604",
   "mentions": [
     "A203610"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

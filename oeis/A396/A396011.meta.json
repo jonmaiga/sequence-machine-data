@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2's in the partitions of n into exactly 5 parts.",
+  "id": "A396011",
+  "mentions": [
+    "A024786",
+    "A026811",
+    "A320592",
+    "A394827",
+    "A394873",
+    "A396012"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

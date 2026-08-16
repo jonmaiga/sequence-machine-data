@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of perimasons of size n (identifying translations, rotations and reflections), defining a perimason to be the site-perimeter of a piece of masonry; i.e., a polybrick.",
+  "id": "A396767",
+  "mentions": [
+    "A057973",
+    "A366443"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

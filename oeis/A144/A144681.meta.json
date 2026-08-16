@@ -1,12 +1,16 @@
 {
-  "description": "E.g.f. satisfies: A(x/A(x)) = exp(x).",
+  "description": "E.g.f. A(x) satisfies A(x/A(x)) = exp(x).",
   "id": "A144681",
   "mentions": [
     "A087961",
     "A140049",
+    "A140054",
     "A144682",
     "A144683",
-    "A144684"
+    "A144684",
+    "A396920",
+    "A396921",
+    "A396922"
   ],
   "tags": [
     "formulas",
@@ -14,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

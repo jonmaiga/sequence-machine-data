@@ -1,16 +1,18 @@
 {
-  "description": "Number of nX1 0..3 arrays with rows and columns in lexicographic nondecreasing order but with exactly three mistakes.",
+  "description": "Number of n X 1 0..3 arrays with rows and columns in lexicographic nondecreasing order but with exactly three mistakes.",
   "id": "A278604",
   "mentions": [
+    "A008287",
     "A278610"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-bfile"
+    "size": 28,
+    "source": "joeis"
   }
 }

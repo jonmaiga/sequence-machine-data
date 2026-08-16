@@ -2,11 +2,14 @@
   "description": "Consider the figure made up of a row of n adjacent congruent rectangles, with diagonals of all possible rectangles drawn; a(n) = number of interior vertices where exactly three lines cross.",
   "id": "A336489",
   "mentions": [
+    "A018810",
+    "A333275",
     "A334701",
     "A336490",
     "A336491"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

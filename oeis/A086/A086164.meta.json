@@ -1,14 +1,19 @@
 {
   "description": "Binary representation of the concatenation of the first n primes.",
   "id": "A086164",
-  "mentions": [],
+  "mentions": [
+    "A007088",
+    "A019518"
+  ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 10,
+    "source": "joeis"
   }
 }

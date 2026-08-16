@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic metrizable betweenness relations on a set of n elements.",
+  "id": "A397184",
+  "mentions": [
+    "A364656",
+    "A395237"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=0..n} (-1)^(n-j)*C(-j-1, -n-1)*E2(j, n-k), E2 the Eulerian numbers A201637.",
+  "id": "A395452",
+  "mentions": [
+    "A000079",
+    "A084262",
+    "A201637",
+    "A395454"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

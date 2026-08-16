@@ -1,0 +1,15 @@
+{
+  "description": "Number of different ways to form n by concatenation, using the digits of the numbers from 0 to n-1.",
+  "id": "A397690",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

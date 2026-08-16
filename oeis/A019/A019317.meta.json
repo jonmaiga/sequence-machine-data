@@ -1,15 +1,18 @@
 {
-  "description": "Place n queens on an n X n board so as to leave the maximal number of unattacked squares; sequence gives number of different solutions.",
+  "description": "Number of placements of n queens on distinct squares of an n X n board that leave the maximum number of unattacked vacant squares, where placements related by rotations and reflections are considered equivalent.",
   "id": "A019317",
   "mentions": [
-    "A001366"
+    "A001366",
+    "A019318",
+    "A397124"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

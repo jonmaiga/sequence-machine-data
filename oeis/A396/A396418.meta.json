@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest n-digit prime that produces the most primes according to rules stipulated in Honaker's A048853.",
+  "id": "A396418",
+  "mentions": [
+    "A048853",
+    "A050673",
+    "A396419"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

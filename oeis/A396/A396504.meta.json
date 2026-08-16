@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where A(n,k) = n! * [x^n] F_k(x)/x and F_k(x) is the k-th iteration of x*G(x)^2 with G(x) = exp(x*G(x)^4).",
+  "id": "A396504",
+  "mentions": [
+    "A000007",
+    "A396430",
+    "A396502",
+    "A396509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

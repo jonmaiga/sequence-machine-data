@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the exponent of the highest power of 2 dividing e(n), where e(n) is the n-th even term of A000927.",
+  "id": "A395070",
+  "mentions": [
+    "A000927",
+    "A338023"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

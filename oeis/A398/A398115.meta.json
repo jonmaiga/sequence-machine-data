@@ -1,0 +1,15 @@
+{
+  "description": "Number of unlabeled 5-gonal cacti having n polygons with each vertex in at most two polygons.",
+  "id": "A398115",
+  "mentions": [
+    "A398114"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

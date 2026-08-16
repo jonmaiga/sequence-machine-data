@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the probability that if three pennies are piled up at random on a horizontal plane the pile will not fall down.",
+  "id": "A396272",
+  "mentions": [
+    "A195621",
+    "A396273"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

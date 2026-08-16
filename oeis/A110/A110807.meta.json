@@ -2,7 +2,8 @@
   "description": "n times largest n-digit number.",
   "id": "A110807",
   "mentions": [
-    "A053422"
+    "A053422",
+    "A328683"
   ],
   "tags": [
     "base",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

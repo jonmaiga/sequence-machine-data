@@ -2,9 +2,13 @@
   "description": "Numbers divisible by the squares of two distinct primes.",
   "id": "A036785",
   "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
     "A005117",
     "A025475",
     "A038838",
+    "A051903",
     "A056170",
     "A085986",
     "A154945",

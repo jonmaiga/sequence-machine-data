@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) with the coefficient [x^k] of the series (1-x)^(n+1)* sum_{m=0..infinity} [(3*m+1)^n + (3*m+2)^n]*x^m in row n, column k.",
+  "description": "Triangle T(n,k) with the coefficient [x^k] of the series (1-x)^(n+1) * Sum_{m>=0} ((3*m+1)^n + (3*m+2)^n)*x^m in row n, column k.",
   "id": "A154646",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "description": "224 Pisot cubic substitution with characteristic polynomial:x^3-4*x^2+2*x-2.",
+  "description": "1-limiting word of the morphism 1->121321, 2->3, 3->13.",
   "id": "A107338",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

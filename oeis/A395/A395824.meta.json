@@ -1,0 +1,21 @@
+{
+  "description": "Record lengths of runs of consecutive integers k such that Omega(k) is even.",
+  "id": "A395824",
+  "mentions": [
+    "A001222",
+    "A008836",
+    "A028260",
+    "A066793",
+    "A066829",
+    "A395823"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

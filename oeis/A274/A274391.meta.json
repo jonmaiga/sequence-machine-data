@@ -1,7 +1,8 @@
 {
-  "description": "Table of coefficients in functions that satisfy W_n(x) = W_{n-1}(x)^W_n(x), with W_0(x) = exp(x), as read by antidiagonals.",
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals upwards, where A(n,k) = k! * [x^k] W_n(x) and W_n(x) = W_{n-1}(x)^W_n(x), with W_0(x) = exp(x).",
   "id": "A274391",
   "mentions": [
+    "A000012",
     "A000272",
     "A207833",
     "A227176",
@@ -11,7 +12,8 @@
     "A274387",
     "A274388",
     "A274390",
-    "A274741"
+    "A274741",
+    "A396498"
   ],
   "tags": [
     "formulas",
@@ -20,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 120,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number m such that m*(m+1)*(m+2)*(m+3)*(m+4) has exactly n distinct prime factors.",
+  "id": "A396018",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A059958",
+    "A392672",
+    "A394554"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

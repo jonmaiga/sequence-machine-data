@@ -5,15 +5,16 @@
     "A084812",
     "A084813",
     "A084815",
+    "A084816",
+    "A084817",
     "A084818"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

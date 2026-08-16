@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(floor(2*n/3)) + a(a(floor(n/3))).",
+  "description": "a(n) = a(n - a(n - 1)) + a(a(floor(2*n/3))) with a(0)=a(1)=1.",
   "id": "A143092",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(0,0) = 1 and T(n,k) = 2*(k+1)*(2*k+1) * T(n-1,k+1) + (4*(4*k + 1)*n + 8*k^2 - 8*k - 3) * T(n-1,k) + 2*(4*n + 2*k - 5)*(2*n + k - 1) * T(n-1,k-1), with T(n,k) = 0 if k < 0 or k >= n+1.",
+  "id": "A394318",
+  "mentions": [
+    "A281181",
+    "A394012",
+    "A394319"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that the squarefree kernel of n is equal to the number of divisors of n.",
+  "description": "Numbers k such that the squarefree kernel of k is equal to the number of divisors of k.",
   "id": "A070226",
   "mentions": [
     "A000005",
+    "A001221",
+    "A001222",
     "A007947",
     "A033950"
   ],

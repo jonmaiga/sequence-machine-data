@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which (8+n!)/8 is prime.",
+  "description": "Numbers k for which (8+k!)/8 is prime.",
   "id": "A151913",
   "mentions": [
     "A002981",
@@ -28,6 +28,8 @@
     "A139205"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

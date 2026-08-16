@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies [x^n] exp( n*A(x) ) * (1-n^3*x)^(1/n^2) = 0, for n >= 1.",
+  "id": "A395107",
+  "mentions": [
+    "A088716",
+    "A300619",
+    "A395075",
+    "A395106"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Index where A396163(n) first appears in the simple Sisyphus sequence A347297.",
+  "id": "A396164",
+  "mentions": [
+    "A347297",
+    "A396163",
+    "A396165"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

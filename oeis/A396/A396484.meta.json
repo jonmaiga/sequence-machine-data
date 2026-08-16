@@ -1,0 +1,16 @@
+{
+  "description": "If n appears in A394166, say A394166(k) = n, then a(n) = k, otherwise a(n) = -1.",
+  "id": "A396484",
+  "mentions": [
+    "A394166"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

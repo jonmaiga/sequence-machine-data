@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form prime(n)*(prime(n)-1)/4.",
+  "description": "Integers of the form prime(k)*(prime(k)-1)/4.",
   "id": "A171555",
   "mentions": [
     "A005098",

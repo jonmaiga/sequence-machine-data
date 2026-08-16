@@ -1,7 +1,11 @@
 {
   "description": "Number of triangulations of a convex n-gon in the plane each of whose sides is subdivided by 3 points.",
   "id": "A282736",
-  "mentions": [],
+  "mentions": [
+    "A086452",
+    "A282735",
+    "A395602"
+  ],
   "tags": [
     "formulas",
     "nonn"

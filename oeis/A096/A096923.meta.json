@@ -1,11 +1,17 @@
 {
-  "description": "Numbers n for which there are exactly two k such that n = k + (product of nonzero digits of k).",
+  "description": "Numbers m for which there are exactly two k such that m = k + (product of nonzero digits of k).",
   "id": "A096923",
   "mentions": [
     "A063114",
     "A096347",
     "A096922",
     "A096924",
+    "A096925",
+    "A096926",
+    "A096927",
+    "A096928",
+    "A096929",
+    "A096930",
     "A096931"
   ],
   "tags": [
@@ -15,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

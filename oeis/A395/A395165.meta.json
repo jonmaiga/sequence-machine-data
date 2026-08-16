@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the surface area of a uniform 9-gonal antiprism with unit edges.",
+  "id": "A395165",
+  "mentions": [
+    "A002194",
+    "A019968",
+    "A395164",
+    "A395166",
+    "A395167",
+    "A395168",
+    "A395169",
+    "A395170"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

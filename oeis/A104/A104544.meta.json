@@ -1,8 +1,9 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n having k HH's, where H=(1,0).",
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n having k HH's, where H = (1,0).",
   "id": "A104544",
   "mentions": [
     "A001006",
+    "A005717",
     "A104545"
   ],
   "tags": [
@@ -11,8 +12,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 72,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

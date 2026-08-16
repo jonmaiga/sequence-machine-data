@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is twice the area of the convex hull of the cumulative prime-exponent coordinates of integers from 1 to n + 1.",
+  "id": "A396682",
+  "mentions": [
+    "A000040",
+    "A396642",
+    "A396647"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

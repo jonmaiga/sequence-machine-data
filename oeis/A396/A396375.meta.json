@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the determinant of the Laplacian on S^8, the 8-dimensional unit sphere, with the standard metric induced by the R^9 Euclidean norm.",
+  "id": "A396375",
+  "mentions": [
+    "A074962",
+    "A084448",
+    "A212002",
+    "A259068",
+    "A259070",
+    "A259072",
+    "A396369",
+    "A396370",
+    "A396371",
+    "A396372",
+    "A396373",
+    "A396374",
+    "A396376"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

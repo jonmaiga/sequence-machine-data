@@ -1,7 +1,12 @@
 {
   "description": "Numbers k such that k | 10^k + 8^k + 6^k + 4^k + 2^k + 1.",
   "id": "A057839",
-  "mentions": [],
+  "mentions": [
+    "A006521",
+    "A057840",
+    "A057842",
+    "A057845"
+  ],
   "tags": [
     "hard",
     "more",
@@ -9,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

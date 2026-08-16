@@ -2,7 +2,6 @@
   "description": "Denominators of coefficients of odd powers of x of the expansion of Bessel function J_1(x).",
   "id": "A002474",
   "mentions": [
-    "A002454",
     "A002506",
     "A010790",
     "A014401",
@@ -10,9 +9,11 @@
     "A061403",
     "A061404",
     "A061405",
+    "A061406",
     "A061407",
     "A061440",
-    "A061441"
+    "A061441",
+    "A226975"
   ],
   "tags": [
     "easy",

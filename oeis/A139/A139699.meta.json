@@ -1,7 +1,9 @@
 {
   "description": "Positive integers x,y such that prime(x)*prime(x+y) = y^2 + 1, ordered by increasing x+y.",
   "id": "A139699",
-  "mentions": [],
+  "mentions": [
+    "A085722"
+  ],
   "tags": [
     "more",
     "nonn",

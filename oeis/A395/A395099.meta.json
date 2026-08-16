@@ -1,0 +1,21 @@
+{
+  "description": "Zeroless primes having digit sum 8.",
+  "id": "A395099",
+  "mentions": [
+    "A052382",
+    "A062343",
+    "A113625",
+    "A118703"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

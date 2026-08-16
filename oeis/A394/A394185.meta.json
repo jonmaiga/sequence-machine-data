@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n^3/6 + 3*n^2 + 41*n/6 + 3.",
+  "id": "A394185",
+  "mentions": [
+    "A052905"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

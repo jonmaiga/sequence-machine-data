@@ -1,0 +1,20 @@
+{
+  "description": "Number of undirected self-avoiding paths of length n in a cubic lattice, reduced for symmetry (with rotations and reflections not counted as distinct).",
+  "id": "A394998",
+  "mentions": [
+    "A001412",
+    "A002902",
+    "A037245",
+    "A394340"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

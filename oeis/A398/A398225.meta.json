@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are neither 5-free nor 5-full.",
+  "id": "A398225",
+  "mentions": [
+    "A001694",
+    "A036966",
+    "A036967",
+    "A069492",
+    "A332785",
+    "A362148",
+    "A391115"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

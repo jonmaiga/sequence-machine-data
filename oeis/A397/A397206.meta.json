@@ -1,0 +1,18 @@
+{
+  "description": "Number of words of length n over an infinite alphabet such that all prefixes satisfy c(i) >= c(j) if f(i) < f(j) where c(i) is the number of occurrences of the letter i and f(i) = floor(sqrt(2*i) + 1/2).",
+  "id": "A397206",
+  "mentions": [
+    "A000085",
+    "A002024",
+    "A392551"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

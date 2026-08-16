@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{0..1} Li_8(x)^2 dx, where Li_8 is the polylogarithm function.",
+  "id": "A397575",
+  "mentions": [
+    "A249651",
+    "A249652",
+    "A397550",
+    "A397555",
+    "A397576",
+    "A397577"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

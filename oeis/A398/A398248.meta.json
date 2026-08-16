@@ -1,0 +1,19 @@
+{
+  "description": "Upper bound for the linear recurrence order of the n-th column or row of A398244.",
+  "id": "A398248",
+  "mentions": [
+    "A287151",
+    "A360202",
+    "A378941",
+    "A398244"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

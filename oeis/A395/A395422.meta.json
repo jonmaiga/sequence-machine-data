@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number of triangular cells in a connected polyiamond container that contains every fixed n-iamond as a translated subset.",
+  "id": "A395422",
+  "mentions": [
+    "A000217",
+    "A000577",
+    "A001420",
+    "A006534",
+    "A327094",
+    "A392363"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

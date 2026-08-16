@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3's in the partitions of n into exactly 4 parts.",
+  "id": "A396010",
+  "mentions": [
+    "A024787",
+    "A335583",
+    "A396009"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

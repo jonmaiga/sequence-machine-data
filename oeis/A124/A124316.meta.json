@@ -2,13 +2,23 @@
   "description": "a(n) = Sum_{d|n} sigma(gcd(d,n/d)), where sigma is the sum of divisors function, A000203.",
   "id": "A124316",
   "mentions": [
+    "A000005",
+    "A000188",
     "A000203",
     "A001616",
     "A001620",
+    "A010052",
+    "A037213",
+    "A046951",
+    "A055155",
     "A061884",
     "A069290",
     "A082633",
-    "A124315"
+    "A124315",
+    "A130054",
+    "A340774",
+    "A369308",
+    "A383795"
   ],
   "tags": [
     "easy",

@@ -2,7 +2,8 @@
   "description": "Decimal expansion of the area of the Spiral of Theodorus.",
   "id": "A373785",
   "mentions": [
-    "A072895"
+    "A072895",
+    "A105459"
   ],
   "tags": [
     "cons",

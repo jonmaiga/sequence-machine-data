@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(5) - H(k,5)) * H(k)/k, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number, and H(k,5) = A099828(k)/A069052(k) is the k-th generalized harmonic number of order 5.",
+  "id": "A397663",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002805",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013665",
+    "A069052",
+    "A099828",
+    "A244664",
+    "A397661",
+    "A397662"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

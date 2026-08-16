@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree k with 4 distinct prime factors such that A010846(k) = A024718(4) = 50.",
+  "id": "A392746",
+  "mentions": [
+    "A001221",
+    "A010846",
+    "A024718",
+    "A138109",
+    "A162306",
+    "A383177",
+    "A383178",
+    "A384000",
+    "A384001"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

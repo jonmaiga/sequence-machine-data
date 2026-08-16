@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3 X n binary matrices that are \"primitive\"; that is, they cannot be expressed as a \"tiling\" by a smaller matrix.",
+  "description": "Number of 4 X n binary matrices that are \"primitive\"; that is, they cannot be expressed as a \"tiling\" by a smaller matrix.",
   "id": "A290754",
   "mentions": [
     "A027375",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

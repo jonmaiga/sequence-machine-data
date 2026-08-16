@@ -1,0 +1,16 @@
+{
+  "description": "Number of pinnacle sets in the n-antiprism graph.",
+  "id": "A394068",
+  "mentions": [
+    "A126042"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

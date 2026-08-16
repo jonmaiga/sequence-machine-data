@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of divisors of A006863(n).",
+  "id": "A396683",
+  "mentions": [
+    "A000005",
+    "A002322",
+    "A006863",
+    "A079612",
+    "A395569"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

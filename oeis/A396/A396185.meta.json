@@ -1,0 +1,20 @@
+{
+  "description": "Consider the square spiral with its cells numbered starting at 0, as in A308884 and A274641. Two players, Black and Red, take turns. When it is Black's turn, he places a knight at the first cell in the spiral that is beyond the last Red knight and is not attacked by any Red knight, and when it is Red's turn, she places a knight at the first cell that is beyond the last Black knight and is not not attacked by any Black knight. Sequence lists squares occupied by Black knights.",
+  "id": "A396185",
+  "mentions": [
+    "A274641",
+    "A308884",
+    "A392177",
+    "A392178",
+    "A396186",
+    "A396187"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

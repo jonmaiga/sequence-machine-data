@@ -2,6 +2,7 @@
   "description": "Decimal expansion of (6*sqrt(3) + 12*log(2+sqrt(3)) - Pi)/48.",
   "id": "A135691",
   "mentions": [
+    "A097047",
     "A130590"
   ],
   "tags": [

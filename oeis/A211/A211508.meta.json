@@ -2,14 +2,17 @@
   "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2=n-x*y.",
   "id": "A211508",
   "mentions": [
+    "A000005",
     "A211422"
   ],
   "tags": [
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

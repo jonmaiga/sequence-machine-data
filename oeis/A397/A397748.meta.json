@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of minimum independent dominating sets in the grid graph P_m X P_n.",
+  "id": "A397748",
+  "mentions": [
+    "A133265",
+    "A197054",
+    "A286847",
+    "A350820",
+    "A381474",
+    "A397749",
+    "A397750"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of strict integer partitions of 2n with reverse-alternating sum 4.",
+  "description": "Number of strict integer partitions of 2*n with reverse-alternating sum 4.",
   "id": "A343941",
   "mentions": [
     "A000041",
@@ -30,14 +30,16 @@
     "A344649",
     "A344650",
     "A344739",
-    "A344741"
+    "A344741",
+    "A395222"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

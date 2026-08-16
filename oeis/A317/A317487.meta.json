@@ -2,9 +2,14 @@
   "description": "Number of 4-cycles in the n-Bruhat graph.",
   "id": "A317487",
   "mentions": [
+    "A001113",
+    "A001620",
+    "A091725",
+    "A099285",
     "A317486"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

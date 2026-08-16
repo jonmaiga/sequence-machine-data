@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} gcd(d,n/d)*mu(d).",
+  "id": "A395496",
+  "mentions": [
+    "A008683",
+    "A055155",
+    "A337180"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Principal diagonal of the convolution array A213828.",
   "id": "A213829",
   "mentions": [
+    "A005915",
     "A213828"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 38,
     "source": "joeis"
   }
 }

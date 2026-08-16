@@ -1,7 +1,9 @@
 {
   "description": "a(n) is the number of ways to insert single pairs of parenthesis to completely separate n identical objects in a straight line such that at least one of the objects at the two ends is not enclosed.",
   "id": "A157418",
-  "mentions": [],
+  "mentions": [
+    "A000108"
+  ],
   "tags": [
     "easy",
     "formulas",

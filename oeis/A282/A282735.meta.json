@@ -1,7 +1,11 @@
 {
   "description": "Number of triangulations of a convex n-gon in the plane each of whose sides is subdivided by 2 points.",
   "id": "A282735",
-  "mentions": [],
+  "mentions": [
+    "A086452",
+    "A282736",
+    "A395602"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1; if a(n-1) is odd then a(n) = a(n-1)*2+2; if a(n-1) is even then a(n) = a(n-1)/2 if not already in the sequence, otherwise a(n) = a(n-1)+1.",
+  "id": "A396057",
+  "mentions": [
+    "A005132"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

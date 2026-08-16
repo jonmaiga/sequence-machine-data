@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree kernel of A303606(n).",
+  "id": "A395578",
+  "mentions": [
+    "A001597",
+    "A007947",
+    "A025478",
+    "A120944",
+    "A303606"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

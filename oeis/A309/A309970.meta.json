@@ -1,7 +1,9 @@
 {
   "description": "Period 12: repeat [1, 1, 0, 0, -1, -1, -1, -1, 0, 0, 1, 1].",
   "id": "A309970",
-  "mentions": [],
+  "mentions": [
+    "A166446"
+  ],
   "tags": [
     "easy",
     "formulas",

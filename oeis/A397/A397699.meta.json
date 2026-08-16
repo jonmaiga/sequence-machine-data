@@ -1,0 +1,18 @@
+{
+  "description": "Associated primes of A397698.",
+  "id": "A397699",
+  "mentions": [
+    "A356840",
+    "A397698"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

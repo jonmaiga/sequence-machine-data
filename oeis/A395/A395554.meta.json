@@ -1,0 +1,21 @@
+{
+  "description": "Number of no-overhang stacked partitions (teeth) of base 5 and total size n.",
+  "id": "A395554",
+  "mentions": [
+    "A000012",
+    "A000212",
+    "A001477",
+    "A072704",
+    "A395553"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 46,
+    "source": "joeis"
+  }
+}

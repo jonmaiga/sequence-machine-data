@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of numbers < 10^n that are the sum of 2 nonzero squares.",
+  "id": "A398087",
+  "mentions": [
+    "A000404",
+    "A004144",
+    "A025426",
+    "A102548",
+    "A164775"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

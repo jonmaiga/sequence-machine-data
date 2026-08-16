@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(4*k,k) * x^k)^5.",
+  "id": "A395659",
+  "mentions": [
+    "A002457",
+    "A005810",
+    "A078995",
+    "A378484",
+    "A378503",
+    "A378504",
+    "A395656",
+    "A395660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

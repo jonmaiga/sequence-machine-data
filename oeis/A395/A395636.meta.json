@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that 2*x^2 + y*z = n, where x, y, z are distinct primes satisfying y < z.",
+  "id": "A395636",
+  "mentions": [
+    "A393710",
+    "A394038",
+    "A394788",
+    "A395634",
+    "A395637"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 23,
+    "size": 86,
+    "source": "joeis"
+  }
+}

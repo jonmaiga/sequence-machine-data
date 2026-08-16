@@ -1,5 +1,5 @@
 {
-  "description": "Nonnegative integers whose name in Hebrew begins with the Hebrew letter \"aleph\".",
+  "description": "Nonnegative integers whose name in Hebrew begins with the Hebrew letter \"Aleph\".",
   "id": "A091436",
   "mentions": [
     "A072426"
@@ -9,8 +9,8 @@
     "word"
   ],
   "terms": {
-    "offset": 0,
-    "size": 22,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

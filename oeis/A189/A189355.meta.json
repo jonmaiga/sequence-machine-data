@@ -2,7 +2,10 @@
   "description": "T(n,k) is the number of n X k array permutations with each element moving one space diagonally, horizontally or vertically.",
   "id": "A189355",
   "mentions": [
-    "A189186"
+    "A189186",
+    "A189348",
+    "A189349",
+    "A189350"
   ],
   "tags": [
     "nonn",

@@ -1,16 +1,17 @@
 {
-  "description": "Differences nextprime(2k) - precprime(2k) having maximum prime density for 2k <= 10^n.",
+  "description": "Most common value of nextprime(2*k)-prevprime(2*k) = A060267(k) for 4 <= 2*k <= 10^n.",
   "id": "A092937",
   "mentions": [
-    "A060267"
+    "A060267",
+    "A213930"
   ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 8,
+    "offset": 1,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

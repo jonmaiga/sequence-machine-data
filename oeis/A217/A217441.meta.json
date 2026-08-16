@@ -2,9 +2,11 @@
   "description": "Numbers k such that 26*k+1 is a square.",
   "id": "A217441",
   "mentions": [
+    "A042948",
     "A174768",
     "A175886",
-    "A219257"
+    "A219257",
+    "A219389"
   ],
   "tags": [
     "easy",

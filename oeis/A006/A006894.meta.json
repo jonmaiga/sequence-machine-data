@@ -2,6 +2,7 @@
   "description": "Number of planted 3-trees of height < n.",
   "id": "A006894",
   "mentions": [
+    "A000124",
     "A000217",
     "A002658",
     "A005588",

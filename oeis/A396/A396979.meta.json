@@ -1,0 +1,23 @@
+{
+  "description": "Number of unlabeled minimally 10-rigid graphs on n vertices.",
+  "id": "A396979",
+  "mentions": [
+    "A227117",
+    "A328419",
+    "A394820",
+    "A395187",
+    "A396885",
+    "A396886",
+    "A396977",
+    "A396978"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

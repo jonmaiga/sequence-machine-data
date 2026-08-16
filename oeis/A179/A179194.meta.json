@@ -2,9 +2,12 @@
   "description": "Bases n in which 1/(n-2) is non-terminating and has period n-3.",
   "id": "A179194",
   "mentions": [
-    "A007733"
+    "A001122",
+    "A007733",
+    "A217948"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

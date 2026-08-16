@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the period of {F^(m) mod n} (a sequence of functions Z -> Z/nZ), where F^(m) means the m-th iteration of the Fibonacci sequence (A000045).",
+  "id": "A395523",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A001178",
+    "A235249"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

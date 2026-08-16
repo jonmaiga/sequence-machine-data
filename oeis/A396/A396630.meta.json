@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed-content bracelets of length n, summed over all integer partitions of n, that are different from their mirror image and have no nontrivial rotational symmetry.",
+  "id": "A396630",
+  "mentions": [
+    "A005651",
+    "A072605",
+    "A213943",
+    "A396631",
+    "A396632"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

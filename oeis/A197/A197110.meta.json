@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Pi^4/120.",
   "id": "A197110",
   "mentions": [
+    "A013662",
     "A072691",
     "A092425",
     "A164109",

@@ -1,0 +1,16 @@
+{
+  "description": "Heights h of primitive right triangular prisms with primitive Heronian triangular bases.",
+  "id": "A397002",
+  "mentions": [
+    "A272388",
+    "A272389"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

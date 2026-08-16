@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes p such that 3^(n-1) <= p < 3^n.",
+  "id": "A394209",
+  "mentions": [
+    "A000040",
+    "A000244",
+    "A000720",
+    "A006879",
+    "A024023",
+    "A055729",
+    "A162145"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n binary matrices with exactly 8 1's such that there are an even number of 1's in every row and column.",
+  "id": "A396317",
+  "mentions": [
+    "A000537",
+    "A001499",
+    "A179058",
+    "A179063",
+    "A396321"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

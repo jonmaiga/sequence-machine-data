@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that A211996(k) is not zero.",
+  "description": "Numbers k = i*j such that i+j is a square.",
   "id": "A218381",
   "mentions": [
     "A211996",

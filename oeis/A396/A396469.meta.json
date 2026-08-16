@@ -1,0 +1,21 @@
+{
+  "description": "Primes not representable as sums of the form q_1^{k_1} + ... + q_r^{k_r}, where q_1,...,q_r are distinct earlier terms of this sequence and k_i >= 1.",
+  "id": "A396469",
+  "mentions": [
+    "A000040",
+    "A000945",
+    "A000946",
+    "A063884",
+    "A099243"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

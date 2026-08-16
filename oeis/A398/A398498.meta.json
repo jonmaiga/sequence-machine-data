@@ -1,0 +1,26 @@
+{
+  "description": "Let S(n) denote the sequence (b(i), i=0..n) sorted into increasing order, where b is A377091. Since 0 is in S(n), S(n) contains a maximal string of consecutive numbers that starts with a nonpositive term and ends with a nonnegative term. The present sequence is an irregular triangle, read by rows, in the which row n is this maximal string.",
+  "id": "A398498",
+  "mentions": [
+    "A377091",
+    "A380699",
+    "A398499",
+    "A398500",
+    "A398501",
+    "A398502",
+    "A398503",
+    "A398504",
+    "A398505",
+    "A398506",
+    "A398507"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

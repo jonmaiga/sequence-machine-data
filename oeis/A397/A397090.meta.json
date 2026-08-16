@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the mean reciprocal Euclidean distance from a point in a unit 5D hypercube to a given vertex of the hypercube.",
+  "id": "A397090",
+  "mentions": [
+    "A001622",
+    "A244920",
+    "A254134",
+    "A254968",
+    "A254980",
+    "A397089"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

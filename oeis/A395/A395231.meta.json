@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the minimum k so that at least one greedy Egyptian fraction representation of i/k (i < k) has n terms.",
+  "id": "A395231",
+  "mentions": [
+    "A000058",
+    "A048860",
+    "A097048",
+    "A100678",
+    "A395144",
+    "A395803"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

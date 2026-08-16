@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of F_2(x)/x, where F_k(x) is the k-th iteration of x*G3(x) with G3(x) = 1 + x*G3(x)^3.",
+  "id": "A396414",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A396412"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

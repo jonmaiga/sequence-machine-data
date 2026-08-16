@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(tau(n/d) mod 2).",
+  "id": "A395990",
+  "mentions": [
+    "A000005",
+    "A046951",
+    "A076752"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

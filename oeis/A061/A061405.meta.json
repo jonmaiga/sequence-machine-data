@@ -1,18 +1,25 @@
 {
-  "description": "Denominators in the series for Bessel function J6(x).",
+  "description": "Denominators of coefficients of even powers of x of the expansion of Bessel function J_6(x).",
   "id": "A061405",
   "mentions": [
     "A002474",
     "A002506",
-    "A014401"
+    "A014401",
+    "A061403",
+    "A061404",
+    "A061406",
+    "A061407",
+    "A061440",
+    "A061441"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Growth function of the reflection group of a three-dimensional orthoscheme with distinct edge lengths.",
+  "id": "A397439",
+  "mentions": [
+    "A000079",
+    "A003945",
+    "A005010",
+    "A008137",
+    "A396406",
+    "A396927",
+    "A397437"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

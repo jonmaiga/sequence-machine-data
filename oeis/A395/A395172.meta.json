@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where A(n,k) = (2*n)! * [x^(2*n)] C(x)^k and C(x) satisfies C(x) = cosh( Integral C(x)^5 dx ).",
+  "id": "A395172",
+  "mentions": [
+    "A000007",
+    "A281431",
+    "A281432",
+    "A341268",
+    "A395141",
+    "A395146",
+    "A395148",
+    "A395173",
+    "A395174",
+    "A395175",
+    "A395176"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

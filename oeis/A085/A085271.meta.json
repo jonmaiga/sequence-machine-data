@@ -3,15 +3,20 @@
   "id": "A085271",
   "mentions": [
     "A002808",
+    "A020639",
+    "A036689",
+    "A056608",
+    "A079772",
     "A085273"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

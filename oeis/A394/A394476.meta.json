@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer k such that the iterated multiplicative-order chain k, ord_k(3), ord_{ord_k(3)}(3), and so on, reaches a multiple of 3 in exactly n steps.",
+  "id": "A394476",
+  "mentions": [
+    "A002326",
+    "A005384",
+    "A396944"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

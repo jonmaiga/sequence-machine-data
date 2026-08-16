@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = nearest prime to prime(n)^(3/2).",
+  "id": "A397789",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A002821",
+    "A030078",
+    "A077118",
+    "A397790"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

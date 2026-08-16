@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the unique real solution to the equation (1 + erf(x/sqrt(2)))/2 = x.",
+  "id": "A396823",
+  "mentions": [
+    "A239382",
+    "A239383",
+    "A239384",
+    "A239385",
+    "A239386",
+    "A239387",
+    "A240723"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

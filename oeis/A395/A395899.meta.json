@@ -1,0 +1,24 @@
+{
+  "description": "Sphenic numbers k = p*q*r, primes p < q < r, such that r < p^3.",
+  "id": "A395899",
+  "mentions": [
+    "A005117",
+    "A006881",
+    "A007304",
+    "A020639",
+    "A046301",
+    "A120944",
+    "A138109",
+    "A383177",
+    "A393644"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

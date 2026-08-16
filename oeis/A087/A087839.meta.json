@@ -2,6 +2,7 @@
   "description": "a(n) = a(a(a(a(a(n-2))))) + a(n - a(n-2)).",
   "id": "A087839",
   "mentions": [
+    "A002024",
     "A004001",
     "A005229",
     "A106742"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 85,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

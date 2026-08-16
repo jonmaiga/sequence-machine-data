@@ -1,9 +1,12 @@
 {
   "description": "a(1) = a(2) = 1; for n >= 2, a(n+1) = a(n) + a(j(n)) where j(m) = largest divisor of m that is < m.",
   "id": "A080655",
-  "mentions": [],
+  "mentions": [
+    "A032742"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

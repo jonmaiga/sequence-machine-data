@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{n>=0} 1/(n!)^3.",
+  "description": "Decimal expansion of Sum_{k>=0} 1/(k!)^3.",
   "id": "A271574",
   "mentions": [
     "A001113",

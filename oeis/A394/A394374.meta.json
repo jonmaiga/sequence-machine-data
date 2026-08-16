@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=1..n} (2*i-1)^(2*i).",
+  "id": "A394374",
+  "mentions": [
+    "A001923",
+    "A062815",
+    "A222621",
+    "A338167",
+    "A338168"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

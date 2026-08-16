@@ -1,0 +1,16 @@
+{
+  "description": "{a(1), a(2), ..., a(n)} is a prime subset containing minimum number of primes such that all even numbers from 4 to 2e = a(n) + 2k - 1 can be written in the form of a(i) + a(j) at least once, and 2e + 2 = a(n) + a(m) is the smallest even number that cannot be written in the form a(i) + a(j), where 1 <= i, j, m < n.",
+  "id": "A395012",
+  "mentions": [
+    "A105170",
+    "A118371"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

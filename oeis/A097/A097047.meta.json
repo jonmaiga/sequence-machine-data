@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 1/(2*sqrt(3)) - Pi/36 + log(2 + sqrt(3))/3.",
   "id": "A097047",
-  "mentions": [],
+  "mentions": [
+    "A130590",
+    "A135691"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Number of binary vectors of length n containing no singletons.",
   "id": "A006355",
   "mentions": [
+    "A000032",
     "A000045",
     "A006356",
     "A047992",

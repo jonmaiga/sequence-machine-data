@@ -1,14 +1,18 @@
 {
   "description": "Numbers k such that the string 555k is prime.",
   "id": "A110572",
-  "mentions": [],
+  "mentions": [
+    "A110053",
+    "A110054",
+    "A110055"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
-    "source": "joeis"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

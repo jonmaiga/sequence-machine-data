@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cos(x)^5 / cos(sqrt(2)*x).",
+  "id": "A395294",
+  "mentions": [
+    "A000364",
+    "A092812",
+    "A121822",
+    "A395291",
+    "A395292",
+    "A395293",
+    "A395298"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

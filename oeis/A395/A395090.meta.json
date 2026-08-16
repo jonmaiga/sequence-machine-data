@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the minimum number of moves needed to reach 0 from n, where a move subtracts a prime divisor of the current number.",
+  "id": "A395090",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

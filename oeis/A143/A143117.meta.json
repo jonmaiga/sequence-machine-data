@@ -2,11 +2,9 @@
   "description": "a(n) = the smallest positive integer that divides no more than one integer k, where n-th prime <= k <= (n+1)th prime.",
   "id": "A143117",
   "mentions": [
-    "A140715",
     "A143118"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

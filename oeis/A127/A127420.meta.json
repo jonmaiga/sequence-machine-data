@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, where row n+1 is generated from row n by first inserting zeros at positions {(m+2)*(m+3)/2, m>=0} in row n and then taking the partial sums in reverse order, for n>=2, starting with 1's in the initial two rows.",
+  "description": "Triangle, read by rows, where row n+1 is generated from row n by first inserting a zero after terms found at positions {m*(m+3)/2, m >= 0} in row n and then taking the partial sums from right to left, for n >= 1. Row 0 consists of a single '1' by convention.",
   "id": "A127420",
   "mentions": [
     "A091351",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 71,
-    "source": "oeis-entry"
+    "size": 93,
+    "source": "oeis-bfile"
   }
 }

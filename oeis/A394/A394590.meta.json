@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of [2*n] with the number moved left exceeding the number moved right by n.",
+  "id": "A394590",
+  "mentions": [
+    "A062866",
+    "A271697"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

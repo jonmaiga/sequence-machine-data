@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k-3 and k+3 are prime and gcd(k, sigma(k)) is prime.",
+  "id": "A395792",
+  "mentions": [
+    "A087695",
+    "A392199",
+    "A394757",
+    "A395258"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

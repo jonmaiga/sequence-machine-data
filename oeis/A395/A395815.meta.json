@@ -1,0 +1,22 @@
+{
+  "description": "Number of perfect matchings in the complete tripartite graph K_{2n,2n,2n}.",
+  "id": "A395815",
+  "mentions": [
+    "A000142",
+    "A001813",
+    "A002720",
+    "A293075",
+    "A297487",
+    "A395813"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

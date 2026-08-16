@@ -1,5 +1,5 @@
 {
-  "description": "Number of parts that are visible in one of the three views of the shell model of partitions with n regions mentioned in A210991.",
+  "description": "Number of parts that are visible in one of the three views of the modular table of partitions with n regions mentioned in A210991.",
   "id": "A210692",
   "mentions": [
     "A000041",

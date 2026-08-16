@@ -1,16 +1,17 @@
 {
-  "description": "Largest k",
+  "description": "Largest k < n such that 2*composite(n) = composite(n-k) + composite(n+k).",
   "id": "A178698",
   "mentions": [
     "A002808",
     "A178609"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle T(n,k) (n >= 2, k>=0) read by rows: T(n,k) = number of times the sum W(i)+W(j) is equal to k, for 1 <= i < j <= n, where W is Weinstein's sequence A394611.",
+  "id": "A397173",
+  "mentions": [
+    "A000217",
+    "A394611",
+    "A397174"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 107,
+    "source": "joeis"
+  }
+}

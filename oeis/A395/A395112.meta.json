@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct Smith normal forms of 3 X 3 matrices with entries from {0, 1, ..., n}.",
+  "id": "A395112",
+  "mentions": [
+    "A366158",
+    "A366551"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

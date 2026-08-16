@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. A(x) satisfies: A'(x) = 1 + A(A(A(A(x)))).",
+  "description": "E.g.f. A(x) satisfies A'(x) = 1 + A(A(A(A(x)))), with A(0) = 0.",
   "id": "A193099",
   "mentions": [
     "A001028",
@@ -8,11 +8,12 @@
     "A193100"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

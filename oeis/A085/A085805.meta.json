@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that the permanent of the character table of the dihedral group D_n is not zero.",
+  "description": "Numbers k such that the permanent of the character table of the dihedral group D_k is not zero.",
   "id": "A085805",
   "mentions": [
-    "A017089"
+    "A017089",
+    "A086641"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

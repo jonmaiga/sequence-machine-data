@@ -1,5 +1,5 @@
 {
-  "description": "Elements of the unique smallest MSTD set of primes.",
+  "description": "Elements of the unique smallest MSTD (More Sums Than Differences) set of primes.",
   "id": "A327819",
   "mentions": [
     "A000040",

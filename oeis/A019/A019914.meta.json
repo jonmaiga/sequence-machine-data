@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of tangent of 16 degrees.",
   "id": "A019914",
-  "mentions": [],
+  "mentions": [
+    "A019972"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

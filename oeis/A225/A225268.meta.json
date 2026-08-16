@@ -2,9 +2,12 @@
   "description": "Number of distinct values of the sum of a*b+a*c+b*c over 1 sets of three a,b,c 0..n integers.",
   "id": "A225268",
   "mentions": [
-    "A225267"
+    "A225267",
+    "A394353",
+    "A396667"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

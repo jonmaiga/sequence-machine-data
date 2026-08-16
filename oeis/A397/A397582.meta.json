@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to tile a 2 X n strip with squares, dominoes, and T-shaped tetrominoes.",
+  "id": "A397582",
+  "mentions": [
+    "A000213",
+    "A030186",
+    "A033505",
+    "A387619",
+    "A397583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

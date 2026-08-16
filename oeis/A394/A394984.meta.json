@@ -1,0 +1,14 @@
+{
+  "description": "Theta series for the lattice T26.",
+  "id": "A394984",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

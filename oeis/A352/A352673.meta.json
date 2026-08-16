@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of r = (3/13)(4+sqrt(3)).",
+  "description": "Decimal expansion of (3/13)(4+sqrt(3)).",
   "id": "A352673",
   "mentions": [
     "A352672",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

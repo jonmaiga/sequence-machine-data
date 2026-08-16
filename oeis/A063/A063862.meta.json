@@ -1,5 +1,5 @@
 {
-  "description": "Total number of abstract dissection types of configurations of n points in dimensions 2 through n.",
+  "description": "Total number of abstract dissection types of configurations of n hyperplanes in dimensions 2 through n-1.",
   "id": "A063862",
   "mentions": [
     "A063858"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 3,
     "size": 6,
     "source": "oeis-entry"
   }

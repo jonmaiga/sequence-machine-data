@@ -1,5 +1,5 @@
 {
-  "description": "Array defined by T(i,1)=2^i-1, T(1,j)=2^j-1, T(i,j)=T(i-1,j)+T(i-1,j-1) read by antidiagonals.",
+  "description": "Array defined by T(i,1) = 2^i-1, T(1,j) = 2^j-1, T(i,j) = T(i-1,j) + T(i-1,j-1) read by antidiagonals upwards.",
   "id": "A085870",
   "mentions": [
     "A027649"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

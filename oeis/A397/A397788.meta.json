@@ -1,0 +1,19 @@
+{
+  "description": "Number of odd primitive Dirichlet characters modulo n.",
+  "id": "A397788",
+  "mentions": [
+    "A007431",
+    "A359591",
+    "A397787"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

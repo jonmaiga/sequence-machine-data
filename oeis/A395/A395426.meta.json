@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of distinct n X k (n >= k) Braille patterns up to translations.",
+  "id": "A395426",
+  "mentions": [
+    "A162677"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of hyperfactorials and superfactorials.",
+  "id": "A397717",
+  "mentions": [
+    "A000178",
+    "A002109",
+    "A074962",
+    "A397715",
+    "A397718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

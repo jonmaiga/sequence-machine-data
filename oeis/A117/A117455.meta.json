@@ -2,6 +2,7 @@
   "description": "Sum of the differences between the largest part and smallest part over all partitions of n into distinct parts.",
   "id": "A117455",
   "mentions": [
+    "A000009",
     "A005895",
     "A092265",
     "A117454"

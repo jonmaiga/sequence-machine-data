@@ -1,5 +1,5 @@
 {
-  "description": "Number of parts > 1 in the n-th region of the shell model of partitions.",
+  "description": "Number of parts > 1 in the n-th region of the modular table of partitions.",
   "id": "A194448",
   "mentions": [
     "A000041",

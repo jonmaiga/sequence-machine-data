@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the circumradius of a uniform 9-gonal antiprism with unit edges.",
+  "id": "A395167",
+  "mentions": [
+    "A019879",
+    "A395164",
+    "A395165",
+    "A395166",
+    "A395168",
+    "A395169",
+    "A395170"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

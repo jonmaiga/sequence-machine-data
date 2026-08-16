@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^9+9n.",
+  "description": "a(n) = n^9 + 9*n.",
   "id": "A180359",
   "mentions": [
     "A079908",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "joeis"
   }
 }

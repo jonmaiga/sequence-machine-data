@@ -2,6 +2,7 @@
   "description": "Expansion of (1+x)^2/(1-x).",
   "id": "A113311",
   "mentions": [
+    "A010709",
     "A040000",
     "A113310",
     "A115291",

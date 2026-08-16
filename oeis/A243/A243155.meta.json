@@ -1,5 +1,5 @@
 {
-  "description": "Larger of the two consecutive primes whose positive difference is a cube.",
+  "description": "Larger of two consecutive primes whose positive difference is a cube.",
   "id": "A243155",
   "mentions": [
     "A001632",

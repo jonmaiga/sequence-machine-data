@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of [n] into k nonempty endofunctions such that a fixed set of k elements are forced into k distinct blocks (one specified element per block).",
+  "id": "A397647",
+  "mentions": [
+    "A000169",
+    "A001863",
+    "A005843",
+    "A343560",
+    "A394436",
+    "A397605"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

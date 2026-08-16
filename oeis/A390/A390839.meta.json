@@ -1,8 +1,9 @@
 {
-  "description": "Product_{k <= n} (prime(k) + 1)/A001223(k), where A001223 lists the prime gaps, rounded to the nearest integer if necessary.",
+  "description": "a(n) = Product_{k=1..n} (prime(k) + 1)/A001223(k), where A001223 lists the prime gaps, rounded to the nearest integer if necessary.",
   "id": "A390839",
   "mentions": [
     "A001223",
+    "A054640",
     "A080082",
     "A390840",
     "A390841",

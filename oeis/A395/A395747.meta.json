@@ -1,0 +1,24 @@
+{
+  "description": "Initial digit of the decimal expansion of 2^(2^(2^n)).",
+  "id": "A395747",
+  "mentions": [
+    "A000030",
+    "A241291",
+    "A241299",
+    "A244059",
+    "A362004",
+    "A395745"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

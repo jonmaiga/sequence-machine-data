@@ -1,0 +1,18 @@
+{
+  "description": "Decimal encoding of the 92 positions of the main beam \"regulator\" and the two wings \"indicators\" in the Chappe telegraph code.",
+  "id": "A397484",
+  "mentions": [
+    "A364733"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

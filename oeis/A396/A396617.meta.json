@@ -1,0 +1,20 @@
+{
+  "description": "Squares visited by a knight moving on an upper half-plane spiral numbered board, starring from square 1, and where the knight moves to the smallest numbered unvisited square.",
+  "id": "A396617",
+  "mentions": [
+    "A306527",
+    "A316588",
+    "A316667",
+    "A396615"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

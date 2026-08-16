@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled bridgeless polygonal snake graphs with n vertices.",
+  "id": "A397752",
+  "mentions": [
+    "A035085"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

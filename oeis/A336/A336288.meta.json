@@ -2,6 +2,7 @@
   "description": "Numbers of squares formed by this procedure on n-th step: Step 1, draw a unit square. Step n, draw a unit square with center in every intersection of lines of the figure in step n-1.",
   "id": "A336288",
   "mentions": [
+    "A016813",
     "A081585"
   ],
   "tags": [

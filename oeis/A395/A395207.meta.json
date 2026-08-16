@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of the probability that the unique circle passing through three points, selected independently and uniformly at random in an n-ball, is entirely contained within that n-ball, divided by Pi^2 if n is odd.",
+  "id": "A395207",
+  "mentions": [
+    "A002388",
+    "A073010",
+    "A395208",
+    "A395209",
+    "A395210",
+    "A395211",
+    "A395212",
+    "A395213",
+    "A395214"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

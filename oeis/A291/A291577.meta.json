@@ -1,7 +1,9 @@
 {
   "description": "a(n) = largest prime factor of a(n-1), or smallest multiple of that factor not yet in the sequence; a(0)=1, a(1)=2.",
   "id": "A291577",
-  "mentions": [],
+  "mentions": [
+    "A356441"
+  ],
   "tags": [
     "nonn"
   ],

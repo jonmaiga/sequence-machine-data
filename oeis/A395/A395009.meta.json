@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the greatest k < n such that {phi*k} < {phi*n}, where {} denotes the fractional part and phi = A001622.",
+  "id": "A395009",
+  "mentions": [
+    "A001519",
+    "A001622",
+    "A019587",
+    "A393813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

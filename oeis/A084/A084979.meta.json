@@ -2,6 +2,7 @@
   "description": "Palindromes such that the product of the digits + 1 is prime.",
   "id": "A084979",
   "mentions": [
+    "A002113",
     "A081988"
   ],
   "tags": [

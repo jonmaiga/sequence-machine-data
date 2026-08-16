@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of steps before halting among all 2-state 2-symbol Turing machines on an n-cell circular tape, over all binary starting tapes and starting head positions.",
+  "id": "A394183",
+  "mentions": [
+    "A386859"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

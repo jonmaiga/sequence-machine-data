@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: the coefficients of the polynomials P(n, x) = -x * P(n-1, x) + P(n-2, x), where P(0, x) = 1 and P(1, x) = 3*x, ordered by ascending powers.",
+  "id": "A396650",
+  "mentions": [
+    "A000285",
+    "A001622",
+    "A005564",
+    "A016789",
+    "A059302",
+    "A095794",
+    "A114525",
+    "A122553",
+    "A168561",
+    "A189961",
+    "A396201",
+    "A396649",
+    "A396651"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

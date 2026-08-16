@@ -2,11 +2,15 @@
   "description": "Smallest multiple of n containing all 10 digits from 0 to 9.",
   "id": "A061604",
   "mentions": [
-    "A171102"
+    "A171102",
+    "A218770",
+    "A302096",
+    "A328292"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

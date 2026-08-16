@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n divisible by exactly three nontrivial permutations (rearrangements) of the digits of n.",
+  "description": "Numbers k divisible by exactly three nontrivial permutations (rearrangements) of the digits of k.",
   "id": "A090058",
   "mentions": [
     "A090055",

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/Pi in base 5.",
+  "id": "A396089",
+  "mentions": [
+    "A004604",
+    "A049541",
+    "A127266"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

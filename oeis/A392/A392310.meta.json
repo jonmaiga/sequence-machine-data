@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the continued fraction [sigma*(1), sigma*(2), sigma*(3), sigma*(4), ...], where sigma*(k) is the sum of antidivisors of k.",
+  "id": "A392310",
+  "mentions": [
+    "A066417",
+    "A223854"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

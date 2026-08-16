@@ -1,16 +1,17 @@
 {
-  "description": "E.g.f. satisfies exp(x*sum(n>=0, floor(a(n)/n!)*x^n)) = sum(n>=0, a(n)*x^n/n!).",
+  "description": "E.g.f. satisfies exp(x*Sum_{n>=0} floor(a(n)/n!)*x^n) = Sum_{n>=0} a(n)*x^n/n!.",
   "id": "A085023",
   "mentions": [
     "A085022",
     "A085295"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

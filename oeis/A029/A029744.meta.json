@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 2^n or 3*2^n.",
+  "description": "Numbers of the form 2^k or 3*2^k.",
   "id": "A029744",
   "mentions": [
     "A000010",

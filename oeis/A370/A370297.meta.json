@@ -2,7 +2,11 @@
   "description": "Inverse Moebius transform of A322328.",
   "id": "A370297",
   "mentions": [
+    "A000005",
+    "A008683",
+    "A008966",
     "A034444",
+    "A035116",
     "A048691",
     "A322328"
   ],

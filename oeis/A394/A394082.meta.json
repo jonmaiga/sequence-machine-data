@@ -1,0 +1,21 @@
+{
+  "description": "Diagonal of the 4-dimensional geode array: a(n) = G(n,n,n,n).",
+  "id": "A394082",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A104978",
+    "A383439",
+    "A383450",
+    "A383451"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

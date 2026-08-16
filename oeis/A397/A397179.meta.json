@@ -1,0 +1,22 @@
+{
+  "description": "The rows of triangle A397178 converge to this sequence.",
+  "id": "A397179",
+  "mentions": [
+    "A394611",
+    "A397173",
+    "A397175",
+    "A397176",
+    "A397178",
+    "A397180",
+    "A397471"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

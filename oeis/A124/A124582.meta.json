@@ -2,6 +2,7 @@
   "description": "Primes p such that q-p >= 6, where q is the next prime after p.",
   "id": "A124582",
   "mentions": [
+    "A083371",
     "A124589",
     "A134099",
     "A134100",

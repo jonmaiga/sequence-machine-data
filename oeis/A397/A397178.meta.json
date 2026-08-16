@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 1, k >= 0) = number of times k appears in the first n terms of A394611.",
+  "id": "A397178",
+  "mentions": [
+    "A394611",
+    "A397173",
+    "A397180",
+    "A397471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,9 @@
 {
-  "description": "Real root cubic substitution with characteristic polynomial:x^3-2*x^2-3*x+2.",
+  "description": "1-limiting word of the morphism 1->1331, 2->3, 3->12.",
   "id": "A107333",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

@@ -1,0 +1,20 @@
+{
+  "description": "Least m such that the chain u_0 = m, u_{k+1} = pi(u_k+prime(u_k)), where u_k + prime(u_k) is prime, has length n.",
+  "id": "A397334",
+  "mentions": [
+    "A000040",
+    "A061067",
+    "A061068",
+    "A064402"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

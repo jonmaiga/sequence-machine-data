@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies A(x) = x*exp( A^6(x) ).",
+  "id": "A396806",
+  "mentions": [
+    "A000169",
+    "A140054",
+    "A396799",
+    "A396800",
+    "A396803",
+    "A396804",
+    "A396805"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

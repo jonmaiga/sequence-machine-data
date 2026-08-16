@@ -1,14 +1,15 @@
 {
   "description": "Number of disk polyominoes of order n (see Comments for definition).",
   "id": "A147680",
-  "mentions": [],
+  "mentions": [
+    "A365964"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 76,
+    "source": "oeis-bfile"
   }
 }

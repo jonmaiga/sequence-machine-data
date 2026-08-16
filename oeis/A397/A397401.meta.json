@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the convergents given by treating A089618 as continued fraction coefficients after the leading 0.",
+  "id": "A397401",
+  "mentions": [
+    "A089618",
+    "A390652",
+    "A391510",
+    "A392259",
+    "A397337"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

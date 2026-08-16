@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k is coprime to each of its digits and to the sum of its digits.",
+  "id": "A392375",
+  "mentions": [
+    "A061116",
+    "A339076"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of true statements (x op y) = z, where 0 <= x, y, z <= n, op is in {+,-,*,/}.",
+  "id": "A397071",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A051951"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

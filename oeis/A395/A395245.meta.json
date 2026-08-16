@@ -1,0 +1,19 @@
+{
+  "description": "Sum over all permutations of [n] of the number of doubly shaded squares in a certain graphical representation of the permutations.",
+  "id": "A395245",
+  "mentions": [
+    "A000142",
+    "A002620",
+    "A010551",
+    "A077613"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of parts that are visible in one of the three views of the section model of partitions version \"tree\" with n sections.",
+  "description": "Number of parts that are visible in one of the three views of the modular table of partitions version \"tree\" with n sections.",
   "id": "A194805",
   "mentions": [
     "A000041",

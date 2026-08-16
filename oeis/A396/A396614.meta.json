@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of 4-ary sequences of length n with characteristic value 2.",
+  "id": "A396614",
+  "mentions": [
+    "A396250",
+    "A396251"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

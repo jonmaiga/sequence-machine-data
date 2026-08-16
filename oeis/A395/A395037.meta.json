@@ -1,0 +1,19 @@
+{
+  "description": "Number of relations on an n-set that are not transitive.",
+  "id": "A395037",
+  "mentions": [
+    "A000798",
+    "A003024",
+    "A006905",
+    "A202534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

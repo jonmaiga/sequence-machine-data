@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest k such that prime(n) divides A280864(k).",
+  "id": "A397166",
+  "mentions": [
+    "A280741",
+    "A280742",
+    "A280745",
+    "A280864",
+    "A372058",
+    "A372059"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

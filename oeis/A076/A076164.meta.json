@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that sum of squares of even digits of k equals sum of squares of odd digits of .",
+  "description": "Numbers k such that sum of squares of even digits of k equals sum of squares of odd digits.",
   "id": "A076164",
   "mentions": [
     "A036301",

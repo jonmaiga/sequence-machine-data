@@ -1,19 +1,21 @@
 {
-  "description": "Numbers m such that floor(antisigma(m) / m) = antisigma(m) mod m.",
+  "description": "Numbers m such that sigma(m) == (m+1)/2 (mod m+1).",
   "id": "A244324",
   "mentions": [
     "A024816",
+    "A045768",
+    "A063906",
+    "A088831",
     "A229110",
     "A244325"
   ],
   "tags": [
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

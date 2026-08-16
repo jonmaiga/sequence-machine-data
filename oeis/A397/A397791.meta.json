@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k with the property that for every two Dirichlet characters chi and chi' modulo k with ker(chi) = ker(chi'), we have chi = chi' or chi^(-1) = chi'.",
+  "id": "A397791",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

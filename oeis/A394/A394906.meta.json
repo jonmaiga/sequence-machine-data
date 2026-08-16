@@ -1,0 +1,18 @@
+{
+  "description": "Representation of n in a positional system with the k-th prime as the k-th place value, choosing the representation that maximizes the decimal value.",
+  "id": "A394906",
+  "mentions": [
+    "A007924",
+    "A049345",
+    "A185101"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

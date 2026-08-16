@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into parts congruent to 2, 3 or 7 (mod 8).",
+  "id": "A398724",
+  "mentions": [
+    "A036015",
+    "A036016",
+    "A108932",
+    "A131795"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

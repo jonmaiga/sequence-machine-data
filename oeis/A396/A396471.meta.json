@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the coefficients of Product_{k=0..n-1} (1 + x^Fibonacci(k+2)).",
+  "id": "A396471",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A000079",
+    "A007318",
+    "A052987",
+    "A396472",
+    "A396473",
+    "A396474",
+    "A396475",
+    "A396516"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

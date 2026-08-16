@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the maximum length of a cycle under iteration of x -> s(x^n) on the positive integers, where s is the decimal digit sum; a fixed point counts as a cycle of length 1.",
+  "id": "A398121",
+  "mentions": [
+    "A004159",
+    "A007953",
+    "A046000",
+    "A046471",
+    "A056527",
+    "A056529",
+    "A061905",
+    "A152147",
+    "A398119",
+    "A398120"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 59,
+    "source": "joeis"
+  }
+}

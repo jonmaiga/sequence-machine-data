@@ -2,6 +2,7 @@
   "description": "Number of n X 1 0..3 arrays with rows and columns in lexicographic nondecreasing order but with exactly two mistakes.",
   "id": "A278547",
   "mentions": [
+    "A008287",
     "A278553"
   ],
   "tags": [

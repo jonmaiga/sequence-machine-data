@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic primes that are the concatenation of two or more palindromic primes >= 11.",
+  "id": "A397849",
+  "mentions": [
+    "A002275",
+    "A002385",
+    "A004023",
+    "A177678"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

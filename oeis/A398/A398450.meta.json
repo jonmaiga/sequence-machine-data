@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers k such that phi(k) divides sigma(k) - tau(k).",
+  "id": "A398450",
+  "mentions": [
+    "A000010",
+    "A055465",
+    "A065608",
+    "A301744"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

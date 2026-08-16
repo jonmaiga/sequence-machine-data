@@ -1,0 +1,36 @@
+{
+  "description": "Decimal expansion of the probability that an acute triangle is formed by selecting two points independently and uniformly at random in a disk, and a third point uniformly at random on the segment of the radius between the center and the second point.",
+  "id": "A396943",
+  "mentions": [
+    "A002162",
+    "A016631",
+    "A075549",
+    "A093072",
+    "A093588",
+    "A102519",
+    "A102520",
+    "A180434",
+    "A210958",
+    "A262041",
+    "A262080",
+    "A284983",
+    "A341942",
+    "A348668",
+    "A391867",
+    "A394106",
+    "A394107",
+    "A394836",
+    "A396941",
+    "A396942"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

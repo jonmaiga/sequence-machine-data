@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cos(x) * cos(sqrt(2)*x) / cos(2*x).",
+  "id": "A395275",
+  "mentions": [
+    "A001541",
+    "A395276"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

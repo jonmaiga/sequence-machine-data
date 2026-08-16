@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A'(x) = 1 + A((exp(2*x) - 1)/2), with A(0) = 0.",
+  "id": "A398001",
+  "mentions": [
+    "A003659",
+    "A355203",
+    "A398002"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the x(0) * Product_{k>=0} x(k)*(1-x(k)) where x(k) = x(k-1)*(1-x(k-1))/3 with x(0)=1/2.",
+  "id": "A396342",
+  "mentions": [
+    "A396341",
+    "A396343"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

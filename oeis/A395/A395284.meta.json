@@ -1,0 +1,18 @@
+{
+  "description": "Smallest semiprime that produces a chain of exactly n semiprimes when repeatedly replacing m=p*q (with primes p<=q) by the decimal concatenation of p followed by q, stopping when the result is not semiprime.",
+  "id": "A395284",
+  "mentions": [
+    "A001358",
+    "A106554"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

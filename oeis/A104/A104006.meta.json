@@ -1,7 +1,9 @@
 {
   "description": "Primes of the form 2pq + 1, where p and q are (not necessarily distinct) odd primes.",
   "id": "A104006",
-  "mentions": [],
+  "mentions": [
+    "A096163"
+  ],
   "tags": [
     "easy",
     "nonn"

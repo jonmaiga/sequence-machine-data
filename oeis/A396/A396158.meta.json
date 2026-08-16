@@ -1,0 +1,28 @@
+{
+  "description": "Triangle; T(n,m) is the number of possible outcomes having a run of m or more sixes when a die is rolled n times.",
+  "id": "A396158",
+  "mentions": [
+    "A000351",
+    "A000400",
+    "A005062",
+    "A081041",
+    "A109435",
+    "A180033",
+    "A395827",
+    "A396152",
+    "A396153",
+    "A396154",
+    "A396155",
+    "A396156"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

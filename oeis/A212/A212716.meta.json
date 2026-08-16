@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of Sum_{k=1..n} 1/lambda(k), where lambda(k) is the Carmichael's lambda function.",
+  "description": "Denominator of Sum_{k=1..n} 1/lambda(k), where lambda(k) is the Carmichael lambda function.",
   "id": "A212716",
   "mentions": [
     "A002322",

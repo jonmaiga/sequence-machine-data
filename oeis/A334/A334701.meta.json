@@ -2,6 +2,7 @@
   "description": "Consider the figure made up of a row of n adjacent congruent rectangles, with diagonals of all possible rectangles drawn; a(n) = number of interior vertices where exactly two lines cross.",
   "id": "A334701",
   "mentions": [
+    "A018809",
     "A115004",
     "A290131",
     "A306302",

@@ -1,5 +1,5 @@
 {
-  "description": "Carmichael numbers of the form n*(2*n - 1)*(p*n - p + 1)*(2*p*n - 2*p + 1), where p is odd, p from 3 to 23.",
+  "description": "Carmichael numbers of the form k*(2*k - 1)*(p*k - p + 1)*(2*p*k - 2*p + 1), where p is odd, p from 3 to 23.",
   "id": "A212882",
   "mentions": [],
   "tags": [

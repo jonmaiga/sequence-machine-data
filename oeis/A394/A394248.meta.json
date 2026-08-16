@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of partitions of n into distinct parts such that the sum of sigma(k) over the parts k equals sigma(n).",
+  "id": "A394248",
+  "mentions": [
+    "A000009",
+    "A000203",
+    "A395082",
+    "A395091",
+    "A395096",
+    "A395097",
+    "A395111"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

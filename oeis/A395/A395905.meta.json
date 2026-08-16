@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Jacobi theta function theta_3(0, 1/2) where theta_3 is the 3rd Jacobi theta function.",
+  "id": "A395905",
+  "mentions": [
+    "A001831",
+    "A046165",
+    "A047863",
+    "A117402",
+    "A156171",
+    "A182176",
+    "A244754",
+    "A309535",
+    "A319015",
+    "A323843",
+    "A369673",
+    "A395906"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

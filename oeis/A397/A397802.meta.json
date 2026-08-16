@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. sinh( 1 / (2 - exp(x)) - 1 ).",
+  "id": "A397802",
+  "mentions": [
+    "A000670",
+    "A024429",
+    "A075729",
+    "A088313",
+    "A396914"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

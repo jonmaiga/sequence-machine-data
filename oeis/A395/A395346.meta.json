@@ -1,0 +1,18 @@
+{
+  "description": "Primes that begin a pair of consecutive primes with the same number of digits and a prime-valued digit dot product.",
+  "id": "A395346",
+  "mentions": [
+    "A000040",
+    "A033994",
+    "A337574"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

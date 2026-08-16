@@ -2,7 +2,9 @@
   "description": "Number of smooth Schubert varieties of type C_n.",
   "id": "A224066",
   "mentions": [
-    "A061539"
+    "A032351",
+    "A061539",
+    "A224240"
   ],
   "tags": [
     "easy",

@@ -2,6 +2,7 @@
   "description": "Numbers k such that k and k+1 are both exponentially odious numbers (A270428).",
   "id": "A367696",
   "mentions": [
+    "A001969",
     "A007674",
     "A071318",
     "A121495",
@@ -12,6 +13,7 @@
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {

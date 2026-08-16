@@ -1,0 +1,28 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = prime(n)^A249344(n,k).",
+  "id": "A396348",
+  "mentions": [
+    "A000012",
+    "A000040",
+    "A000961",
+    "A006519",
+    "A038500",
+    "A054977",
+    "A060904",
+    "A249344",
+    "A268354",
+    "A268357",
+    "A396349"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

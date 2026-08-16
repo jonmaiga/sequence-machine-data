@@ -1,5 +1,5 @@
 {
-  "description": "A143051(A143051(n)).",
+  "description": "a(n) = A143051(A143051(n)).",
   "id": "A143053",
   "mentions": [
     "A000290",
@@ -9,6 +9,7 @@
     "A143054"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

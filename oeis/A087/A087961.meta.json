@@ -1,13 +1,20 @@
 {
-  "description": "Satisfies f(x*f(x)) = exp(x), where f(x)=sum(n=0,infinity, a(n)*x^n/n!).",
+  "description": "E.g.f. f(x) satisfies f(x*f(x)) = exp(x).",
   "id": "A087961",
-  "mentions": [],
+  "mentions": [
+    "A087962",
+    "A140054",
+    "A144681",
+    "A184011",
+    "A396860"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "joeis"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

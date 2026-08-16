@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, where the n-th row contains the values of A018804(n) mod m, for m = 1 to A018804(n).",
+  "id": "A397697",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A018804"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

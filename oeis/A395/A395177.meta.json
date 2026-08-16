@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the Frobenius number for the primitive Pythagorean triple (A046086(n), A046087(n), A020882(n)).",
+  "id": "A395177",
+  "mentions": [
+    "A020882",
+    "A046086",
+    "A046087",
+    "A069755",
+    "A069758",
+    "A069762",
+    "A079326",
+    "A138989",
+    "A380442",
+    "A380697",
+    "A394178"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

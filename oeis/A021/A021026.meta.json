@@ -2,10 +2,12 @@
   "description": "Decimal expansion of 1/22.",
   "id": "A021026",
   "mentions": [
+    "A000035",
     "A010710"
   ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

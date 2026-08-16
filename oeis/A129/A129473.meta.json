@@ -1,5 +1,5 @@
 {
-  "description": "Primes p of Erdos-Selfridge class 5+ with largest prime factor of p+1 not of class 4+.",
+  "description": "Primes p of Erdős-Selfridge class 5+ with largest prime factor of p+1 not of class 4+.",
   "id": "A129473",
   "mentions": [
     "A005105",

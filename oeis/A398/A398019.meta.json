@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} theta(k) * log(k) / k^2, where theta(k) is the number of unitary divisors of k (A034444).",
+  "id": "A398019",
+  "mentions": [
+    "A034444",
+    "A073002",
+    "A074962",
+    "A243263",
+    "A398020"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

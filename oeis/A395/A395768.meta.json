@@ -1,0 +1,27 @@
+{
+  "description": "The twisted Euler phi-function for the Dirichlet character kronecker(-4,.) mod 4.",
+  "id": "A395768",
+  "mentions": [
+    "A101455",
+    "A227128",
+    "A395769",
+    "A395771",
+    "A395772",
+    "A395773",
+    "A395774",
+    "A395775",
+    "A395776",
+    "A395777"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

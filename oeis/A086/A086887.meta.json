@@ -1,15 +1,17 @@
 {
   "description": "a(n) = least semiprime with factors not previously used containing integers 2n and 2n+1 as substrings.",
   "id": "A086887",
-  "mentions": [],
+  "mentions": [
+    "A394347"
+  ],
   "tags": [
     "base",
-    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

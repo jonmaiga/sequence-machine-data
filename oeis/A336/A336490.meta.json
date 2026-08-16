@@ -2,11 +2,14 @@
   "description": "Consider the figure made up of a row of n adjacent congruent rectangles, with diagonals of all possible rectangles drawn; a(n) is the number of interior vertices where exactly four lines cross.",
   "id": "A336490",
   "mentions": [
+    "A018811",
+    "A333275",
     "A334701",
     "A336489",
     "A336491"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

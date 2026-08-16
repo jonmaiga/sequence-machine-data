@@ -5,11 +5,12 @@
   "tags": [
     "base",
     "easy",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

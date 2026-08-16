@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=0; for n>1, a(n) = number of isomeric hydrocarbons of the acetylene series with carbon content n.",
+  "description": "a(n) = number of isomeric hydrocarbons of the acetylene series with carbon content n.",
   "id": "A000642",
   "mentions": [
     "A000598",

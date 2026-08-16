@@ -1,8 +1,13 @@
 {
-  "description": "a(n) = Sum_{k=0..n} binomial(n+k,2k)*Fibonacci(2k+1).",
+  "description": "a(n) = Sum_{k=0..n} binomial(n+k,2*k)*Fibonacci(2*k+1).",
   "id": "A166482",
   "mentions": [
-    "A131322"
+    "A122367",
+    "A131322",
+    "A393908",
+    "A396093",
+    "A396208",
+    "A396238"
   ],
   "tags": [
     "easy",
@@ -11,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

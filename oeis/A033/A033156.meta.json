@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for m >= 2, a(n) = a(n-1) + floor(a(n-1)/(n-1)) + 2.",
+  "description": "a(1) = 1; for n >= 2, a(n) = a(n-1) + floor(a(n-1)/(n-1)) + 2.",
   "id": "A033156",
   "mentions": [
     "A001855",
@@ -8,6 +8,7 @@
     "A123753"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

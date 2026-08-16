@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = round(1/(b(n) - round(b(n)))), where b(n) = sqrt(k) + sqrt(m) + sqrt(p) with k = A395622(n) and positive nonsquare p < m < k minimizing the distance of b(n) from the nearest integer.",
+  "id": "A395625",
+  "mentions": [
+    "A395621",
+    "A395622",
+    "A395624"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

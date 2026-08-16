@@ -11,12 +11,13 @@
     "A005548"
   ],
   "tags": [
+    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 3,
-    "size": 12,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

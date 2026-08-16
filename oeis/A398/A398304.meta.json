@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A398303(n) / A398006(A398303(n)).",
+  "id": "A398304",
+  "mentions": [
+    "A113315",
+    "A397794",
+    "A398006",
+    "A398303"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

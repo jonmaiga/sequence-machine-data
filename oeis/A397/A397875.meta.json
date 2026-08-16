@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between any two adjacent faces in a canonical (dual-uniform) heptagonal trapezohedron.",
+  "id": "A397875",
+  "mentions": [
+    "A073052",
+    "A394076",
+    "A394077",
+    "A397867",
+    "A397868",
+    "A397869",
+    "A397870",
+    "A397871",
+    "A397872",
+    "A397873",
+    "A397874"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

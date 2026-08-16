@@ -2,16 +2,16 @@
   "description": "Necklace permutations.",
   "id": "A003322",
   "mentions": [
-    "A002998"
+    "A002998",
+    "A397015"
   ],
   "tags": [
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

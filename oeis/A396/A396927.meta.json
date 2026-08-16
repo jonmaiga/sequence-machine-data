@@ -1,0 +1,20 @@
+{
+  "description": "Breadth-first search (BFS) layer sizes of the Coxeter group of the 5-dimensional right-corner orthoscheme with five pairwise distinct leg lengths.",
+  "id": "A396927",
+  "mentions": [
+    "A000129",
+    "A005409",
+    "A293004",
+    "A396406"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

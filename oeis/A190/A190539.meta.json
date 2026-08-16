@@ -2,10 +2,13 @@
   "description": "a(n) = 2^(n^3).",
   "id": "A190539",
   "mentions": [
-    "A000079"
+    "A000079",
+    "A002416",
+    "A187879"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "Achilles numbers whose prime power factors have distinct exponents.",
+  "id": "A393941",
+  "mentions": [
+    "A006939",
+    "A052486",
+    "A130091",
+    "A392927",
+    "A393816",
+    "A393999"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled maximal 6-degenerate graphs on n vertices.",
+  "id": "A396893",
+  "mentions": [
+    "A273468",
+    "A394820",
+    "A395194",
+    "A396885",
+    "A396892"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

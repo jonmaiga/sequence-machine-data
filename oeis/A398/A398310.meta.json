@@ -1,0 +1,21 @@
+{
+  "description": "Number of indecomposable closed walks of length n on the regular icosahedron based at a vertex.",
+  "id": "A398310",
+  "mentions": [
+    "A054884",
+    "A091000",
+    "A328778",
+    "A398262"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

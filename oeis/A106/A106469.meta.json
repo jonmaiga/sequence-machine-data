@@ -2,7 +2,9 @@
   "description": "Expansion of (1 + x^2)*(1 + 2*x)/(1 - x^2).",
   "id": "A106469",
   "mentions": [
+    "A010694",
     "A040003",
+    "A105397",
     "A106468"
   ],
   "tags": [

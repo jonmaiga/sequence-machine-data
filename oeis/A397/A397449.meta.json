@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} a(k)*(-2)^k, with a(0) = 1.",
+  "id": "A397449",
+  "mentions": [
+    "A014551",
+    "A015013",
+    "A216206",
+    "A269694",
+    "A330863"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

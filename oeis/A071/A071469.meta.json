@@ -1,7 +1,9 @@
 {
   "description": "Sprague-Grundy values for octal games .143 and .1431.",
   "id": "A071469",
-  "mentions": [],
+  "mentions": [
+    "A125921"
+  ],
   "tags": [
     "nonn"
   ],

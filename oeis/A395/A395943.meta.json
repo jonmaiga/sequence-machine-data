@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings of an n X n grid by 1 X p rectangles using the prime partitions of n^2 into prime parts p <= n, counting distinct symmetry variants.",
+  "id": "A395943",
+  "mentions": [
+    "A000607",
+    "A254127",
+    "A395941",
+    "A395942"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

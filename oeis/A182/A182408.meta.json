@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place k non-attacking knights on an n x n toroidal chessboard, summed over all k >= 0.",
+  "description": "Number of ways to place k non-attacking knights on an n X n toroidal chessboard, summed over all k >= 0.",
   "id": "A182408",
   "mentions": [
     "A027683",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

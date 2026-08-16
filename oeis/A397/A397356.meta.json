@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies: [x^n] 1/A(x)^(n^2) = [x^n] 1/A(x)^(n^2-1) for n > 1 with A(0) = A'(0) = 1.",
+  "id": "A397356",
+  "mentions": [
+    "A055235",
+    "A237652"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

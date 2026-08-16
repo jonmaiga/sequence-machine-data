@@ -1,0 +1,16 @@
+{
+  "description": "Product of the three cubic Gauss periods for primes q == 1 (mod 3).",
+  "id": "A394567",
+  "mentions": [
+    "A002476"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

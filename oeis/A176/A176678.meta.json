@@ -1,5 +1,5 @@
 {
-  "description": "Sequence defined by the recurrence formula a(n+1)=sum(a(p)*a(n-p)+k,p=0..n)+l for n>=1, with here a(0)=1, a(1)=2, k=0 and l=-1.",
+  "description": "a(n+1) = Sum_{p=0..n} a(p)*a(n-p)+k+l for n>=1, with here a(0)=1, a(1)=2, k=0 and l=-1.",
   "id": "A176678",
   "mentions": [
     "A176675",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Number of oriented polyominoes in the {8,5} tessellation of the hyperbolic plane.",
+  "id": "A395891",
+  "mentions": [
+    "A389936",
+    "A393741",
+    "A394862"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

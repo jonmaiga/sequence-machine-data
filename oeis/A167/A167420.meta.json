@@ -1,5 +1,5 @@
 {
-  "description": "2^n mod 14.",
+  "description": "a(n) = 2^n mod 14.",
   "id": "A167420",
   "mentions": [],
   "tags": [

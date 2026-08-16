@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} omega(k)/(k*(k+1)), where omega(k) = A001221(k) is the number of distinct primes dividing k.",
+  "id": "A398529",
+  "mentions": [
+    "A001221",
+    "A398528"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

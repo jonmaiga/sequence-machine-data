@@ -1,0 +1,20 @@
+{
+  "description": "Squares visited by eight knights, all starting on square 1, when moving on a square-spiral numbered board and always moving to the lowest available unvisited square.",
+  "id": "A395444",
+  "mentions": [
+    "A316667",
+    "A338290",
+    "A395439",
+    "A395443"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

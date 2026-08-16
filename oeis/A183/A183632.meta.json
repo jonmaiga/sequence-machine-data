@@ -1,7 +1,17 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock summing to 4.",
+  "description": "T(n,k) = number of (n+1) X (k+1) 0..2 arrays with every 2 X 2 subblock summing to 4.",
   "id": "A183632",
-  "mentions": [],
+  "mentions": [
+    "A183623",
+    "A183624",
+    "A183625",
+    "A183626",
+    "A183627",
+    "A183628",
+    "A183629",
+    "A183630",
+    "A183631"
+  ],
   "tags": [
     "formulas",
     "nonn",

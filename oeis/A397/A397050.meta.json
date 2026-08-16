@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers in A397046.",
+  "id": "A397050",
+  "mentions": [
+    "A397046",
+    "A397051"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

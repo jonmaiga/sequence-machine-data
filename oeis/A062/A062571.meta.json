@@ -2,7 +2,8 @@
   "description": "a(n) = minimum over nonnegative integers m of the size of the largest subset of pairwise relatively prime numbers in {m+1, m+2, ..., m+n}.",
   "id": "A062571",
   "mentions": [
-    "A062575"
+    "A062575",
+    "A395279"
   ],
   "tags": [
     "more",

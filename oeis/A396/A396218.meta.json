@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the reduction parameter for the solution 1+O(x^6) of the Feigenbaum-Cvitanovic equation.",
+  "id": "A396218",
+  "mentions": [
+    "A006891",
+    "A195102",
+    "A396219"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

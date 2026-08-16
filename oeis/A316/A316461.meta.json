@@ -2,9 +2,11 @@
   "description": "Expansion of Product_{k>=1} 1/(1-x^k)^(9*k).",
   "id": "A316461",
   "mentions": [
+    "A074962",
     "A255961"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

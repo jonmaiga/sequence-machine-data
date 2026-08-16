@@ -1,5 +1,5 @@
 {
-  "description": "GegenbauerC[n,2,8].",
+  "description": "a(n) = GegenbauerC[n,2,8].",
   "id": "A144135",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 16,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

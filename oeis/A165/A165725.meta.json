@@ -2,7 +2,9 @@
   "description": "Largest divisor of n coprime to 30. I.e., a(n) = max { k | gcd(n, k) = k and gcd(k, 30) = 1 }.",
   "id": "A165725",
   "mentions": [
+    "A000203",
     "A000265",
+    "A008683",
     "A038502",
     "A051037",
     "A065330",

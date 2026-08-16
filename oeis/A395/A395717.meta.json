@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the maximal number achievable by taking any sequence of positive integers less than or equal to n: s(1), s(2), s(3)... and generating a new sequence T with t(1) = s(1) and t(k+1) being the multiple of s(k+1) closest to t(k). In case there are two multiples of s(k+1) equally close, the sequence T is undefined. a(n) = maximal element of any sequence, T.",
+  "id": "A395717",
+  "mentions": [
+    "A003418",
+    "A394181",
+    "A395863"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

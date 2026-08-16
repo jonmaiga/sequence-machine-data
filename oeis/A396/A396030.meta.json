@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0, and then a(n) is the numbers of ways to write a(n-1) as a(i) + ... + a(j) with i <= j < n.",
+  "id": "A396030",
+  "mentions": [
+    "A000217",
+    "A331614",
+    "A358799",
+    "A395907"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

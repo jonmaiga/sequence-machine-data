@@ -1,14 +1,17 @@
 {
-  "description": "Sum of first n zeros of BesselJ function of zero order.",
+  "description": "10000 times the sum of first n zeros of BesselJ function of zero order, rounded.",
   "id": "A084692",
-  "mentions": [],
+  "mentions": [
+    "A084691"
+  ],
   "tags": [
     "easy",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "joeis"
   }
 }

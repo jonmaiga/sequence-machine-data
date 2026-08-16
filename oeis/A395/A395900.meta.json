@@ -1,0 +1,29 @@
+{
+  "description": "Number of residue classes r (mod n) for which k = r + m*n, m >= 1, is such that gcd(k,n) > 1 but rad(k) does not divide n, and rad(n) does not divide k, where rad = A007947.",
+  "id": "A395900",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A003557",
+    "A007947",
+    "A038566",
+    "A051953",
+    "A243823",
+    "A272619",
+    "A360480",
+    "A360543",
+    "A381525",
+    "A381801",
+    "A381802",
+    "A381803"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

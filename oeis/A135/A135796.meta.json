@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 4x^3y+4y x^3 (where x,y are positive integers).",
+  "description": "Numbers of the form 4*x*y*(x^2+y^2) (where x,y are positive integers).",
   "id": "A135796",
   "mentions": [
     "A000404",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

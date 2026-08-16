@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th Lucas number is a semiprime.",
+  "description": "Numbers k such that k-th Lucas number is a semiprime.",
   "id": "A085726",
   "mentions": [
     "A000204",

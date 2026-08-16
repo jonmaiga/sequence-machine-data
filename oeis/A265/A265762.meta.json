@@ -2,6 +2,7 @@
   "description": "Coefficient of x in minimal polynomial of the continued fraction [1^n,2,1,1,1,...], where 1^n means n ones.",
   "id": "A265762",
   "mentions": [
+    "A000032",
     "A236428",
     "A265802",
     "A265803",

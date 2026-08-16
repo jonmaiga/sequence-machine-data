@@ -1,0 +1,22 @@
+{
+  "description": "Number of squarefree composite k <= 2^n.",
+  "id": "A394766",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A005117",
+    "A007053",
+    "A008683",
+    "A120944",
+    "A143658"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

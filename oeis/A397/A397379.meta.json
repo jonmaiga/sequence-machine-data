@@ -1,0 +1,16 @@
+{
+  "description": "Number of compositions (c_1,...,c_k) of n such that gcd(c_i,i)=1 for all i.",
+  "id": "A397379",
+  "mentions": [
+    "A000740"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

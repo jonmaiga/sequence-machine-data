@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of positive g < prime(n) such that g and g+1 are both primitive roots modulo prime(n).",
+  "id": "A397140",
+  "mentions": [
+    "A008330",
+    "A060749",
+    "A229899",
+    "A229910",
+    "A249412",
+    "A261388",
+    "A261438",
+    "A268397"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

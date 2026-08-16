@@ -1,0 +1,20 @@
+{
+  "description": "Largest composite number m with n <= m <= n^2 such that the largest divisor of n*m not exceeding sqrt(n*m) is equal to n.",
+  "id": "A394099",
+  "mentions": [
+    "A000720",
+    "A006530",
+    "A033676",
+    "A033677",
+    "A396205"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 56,
+    "source": "joeis"
+  }
+}

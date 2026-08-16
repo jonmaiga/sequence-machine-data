@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of g.f. (1 - 11*x^2 - 20*x^4)/(1 - 2*x - 11*x^2 - 8*x^3 - 20*x^4 + 10*x^5).",
+  "id": "A396475",
+  "mentions": [
+    "A000079",
+    "A001911",
+    "A052987",
+    "A396471",
+    "A396473",
+    "A396474",
+    "A396516"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

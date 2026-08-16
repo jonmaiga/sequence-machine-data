@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the smallest positive root to 64*x^6 - 672*x^4 + 1764*x^2 - 1183 = 0.",
+  "id": "A396259",
+  "mentions": [
+    "A396258"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

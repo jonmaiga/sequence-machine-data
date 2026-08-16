@@ -2,7 +2,11 @@
   "description": "Postage stamp problem: largest m such that there exists an n-subset S of nonnegative integers such that 1,...,m can be expressed as a sum of two distinct elements of S.",
   "id": "A004129",
   "mentions": [
-    "A000051"
+    "A000051",
+    "A001212",
+    "A006638",
+    "A046693",
+    "A326499"
   ],
   "tags": [
     "formulas",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 17,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

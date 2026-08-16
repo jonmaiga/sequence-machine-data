@@ -1,0 +1,23 @@
+{
+  "description": "Number of endofunctions f:{1,2,...,n}-> {1,2,...,n} whose smallest weakly connected component has exactly 3 nodes.",
+  "id": "A395672",
+  "mentions": [
+    "A000169",
+    "A001865",
+    "A209324",
+    "A347999",
+    "A350134",
+    "A362278",
+    "A394928"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

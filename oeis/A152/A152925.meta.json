@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number m such that in 1,2,..,m written in base n, no two of the n digits occurs the same number of times.",
+  "description": "a(n) = smallest number m such that in 1,2,..,m written in base n, no two of the n digits occur the same number of times.",
   "id": "A152925",
   "mentions": [],
   "tags": [

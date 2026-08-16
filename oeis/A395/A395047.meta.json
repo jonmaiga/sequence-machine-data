@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A241917(A003415(n)).",
+  "id": "A395047",
+  "mentions": [
+    "A003415",
+    "A241917",
+    "A395057"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

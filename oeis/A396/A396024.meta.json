@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2/3 + 2*(2 - sqrt(3))/Pi.",
+  "id": "A396024",
+  "mentions": [
+    "A019913",
+    "A060294"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

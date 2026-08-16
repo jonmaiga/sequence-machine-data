@@ -1,5 +1,5 @@
 {
-  "description": "Larger of amicable pair.",
+  "description": "Larger of an amicable pair with smaller member A002025(n).",
   "id": "A002046",
   "mentions": [
     "A002025",

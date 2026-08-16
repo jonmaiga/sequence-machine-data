@@ -1,0 +1,19 @@
+{
+  "description": "Distinct values of A162439, in order of appearance, preceded by 0 and with offset 0.",
+  "id": "A395306",
+  "mentions": [
+    "A162439",
+    "A333256",
+    "A395308"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

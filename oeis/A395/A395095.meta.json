@@ -1,0 +1,17 @@
+{
+  "description": "Indices of records in A295741(n) = min {d > 0 | primorial(n)/d + d is a prime}.",
+  "id": "A395095",
+  "mentions": [
+    "A002110",
+    "A295741"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

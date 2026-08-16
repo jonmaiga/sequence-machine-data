@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of {1..2n} that are invariant under a permutation consisting of n 2-cycles with k orbits of blocks.",
+  "id": "A395326",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A002872",
+    "A293181",
+    "A395327"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

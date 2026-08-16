@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 1/3 + sqrt(3)/(2*Pi).",
+  "id": "A395268",
+  "mentions": [
+    "A010701",
+    "A020761",
+    "A020773",
+    "A258147",
+    "A395267"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

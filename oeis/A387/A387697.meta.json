@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the probability that a Poisson(1) random variable is a power of 2.",
   "id": "A387697",
   "mentions": [
+    "A001113",
     "A068985",
     "A387398",
     "A387399"

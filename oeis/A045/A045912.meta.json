@@ -2,6 +2,7 @@
   "description": "Triangle of coefficients of characteristic polynomial of negative Pascal matrix with (i,j)-th entry -C(i+j-2,i-1).",
   "id": "A045912",
   "mentions": [
+    "A005130",
     "A006134",
     "A006135",
     "A006136",

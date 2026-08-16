@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of A047994 with A023900.",
+  "id": "A396336",
+  "mentions": [
+    "A000005",
+    "A001694",
+    "A023900",
+    "A046692",
+    "A047994",
+    "A052485",
+    "A112526",
+    "A173557"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "O.g.f. A(x) satisfies: [x^n] exp( n^4 * A(x) ) = n^4 * [x^(n-1)] exp( n^4 * A(x) ) for n>=1.",
+  "description": "O.g.f. A(x) satisfies [x^n] exp( n^4 * A(x) ) = n^4 * [x^(n-1)] exp( n^4 * A(x) ) for n >= 1.",
   "id": "A300597",
   "mentions": [
+    "A088716",
     "A296171",
     "A300591",
     "A300593",

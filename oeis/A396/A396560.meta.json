@@ -1,0 +1,18 @@
+{
+  "description": "Which blocks in A280864 end in a prime.",
+  "id": "A396560",
+  "mentions": [
+    "A280745",
+    "A280864",
+    "A396300"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

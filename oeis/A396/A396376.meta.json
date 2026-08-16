@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the determinant of the Laplacian on S^9, the 9-dimensional unit sphere, with the standard metric induced by the R^10 Euclidean norm.",
+  "id": "A396376",
+  "mentions": [
+    "A002117",
+    "A013663",
+    "A013665",
+    "A013667",
+    "A212002",
+    "A396369",
+    "A396370",
+    "A396371",
+    "A396372",
+    "A396373",
+    "A396374",
+    "A396375"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} tau_3(k)/(k*(k+1)), where tau_3 = A007425 is the 3rd Piltz function.",
+  "id": "A398523",
+  "mentions": [
+    "A007425",
+    "A398522"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

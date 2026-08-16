@@ -1,0 +1,16 @@
+{
+  "description": "1/a(n) is the gcd of all distinct resistance values in an n X n unit resistor grid.",
+  "id": "A395401",
+  "mentions": [
+    "A014409"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

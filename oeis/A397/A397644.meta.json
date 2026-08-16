@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of subsequences divisible by 3 taken from the n-th number whose digits are in nondecreasing order and all digits <= 3.",
+  "id": "A397644",
+  "mentions": [
+    "A055642",
+    "A372600",
+    "A397643"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "Number of primitive coronoid systems with n hexagons.",
   "id": "A122672",
-  "mentions": [],
+  "mentions": [
+    "A359706",
+    "A397240"
+  ],
   "tags": [
     "more",
     "nonn"

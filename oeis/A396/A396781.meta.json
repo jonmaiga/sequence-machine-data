@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the largest integer of the form r^k (with 0 < r < n and k > 0) whose base-n digital root is r, and whose number of digits in base-n is k.",
+  "id": "A396781",
+  "mentions": [
+    "A394570"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 14,
+    "source": "joeis"
+  }
+}

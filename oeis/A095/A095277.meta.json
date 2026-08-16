@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 4k + 3 is composite.",
+  "description": "Numbers k such that 4*k + 3 is composite.",
   "id": "A095277",
   "mentions": [
     "A014076",

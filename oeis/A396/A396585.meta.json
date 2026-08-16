@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: the Motzkin number square. T(n, k) = T(n, k+1) - T(n-1, k) with initial values T(n, n) = A001006(n)^2.",
+  "id": "A396585",
+  "mentions": [
+    "A001006",
+    "A059347",
+    "A133053",
+    "A172361",
+    "A396648",
+    "A397326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

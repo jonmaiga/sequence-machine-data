@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1, a(n+1) as the smallest positive integer greater than a(n) that avoids violating the condition a(k) + a(k+1) + a(k+2) + a(k+3) is not term.",
+  "id": "A394676",
+  "mentions": [
+    "A047201"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

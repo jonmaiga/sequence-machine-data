@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(3*k+1,k) * x^k)^4.",
+  "id": "A395780",
+  "mentions": [
+    "A045721",
+    "A045894",
+    "A062236",
+    "A395779"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

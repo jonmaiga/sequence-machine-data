@@ -1,0 +1,14 @@
+{
+  "description": "Number of index 12*n free subgroups of SL_2(Z).",
+  "id": "A394650",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

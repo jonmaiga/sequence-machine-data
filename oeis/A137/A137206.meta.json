@@ -8,12 +8,13 @@
     "A135530"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

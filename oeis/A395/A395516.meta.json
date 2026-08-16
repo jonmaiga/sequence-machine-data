@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A008472(k) and A001414(k) share the same squarefree kernel but neither divides the other.",
+  "id": "A395516",
+  "mentions": [
+    "A001414",
+    "A007947",
+    "A008472",
+    "A013929",
+    "A027746",
+    "A027748",
+    "A059404",
+    "A120944",
+    "A126706",
+    "A246547",
+    "A303606"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

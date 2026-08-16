@@ -1,0 +1,17 @@
+{
+  "description": "Number of valid manual turn-on sequences for n computers in a line, where a computer turns on automatically if its two neighbors are already on.",
+  "id": "A395712",
+  "mentions": [
+    "A008277"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

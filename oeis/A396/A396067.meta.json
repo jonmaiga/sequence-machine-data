@@ -1,0 +1,21 @@
+{
+  "description": "Product of odd divisors of n that are <= sqrt(n).",
+  "id": "A396067",
+  "mentions": [
+    "A007955",
+    "A069289",
+    "A072499",
+    "A136655",
+    "A382486",
+    "A396068"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

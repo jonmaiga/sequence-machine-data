@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of its aliquot parts and the number of its divisors are both perfect numbers.",
+  "description": "Numbers m such that the sum of its aliquot parts and the number of its divisors are both perfect numbers.",
   "id": "A070310",
   "mentions": [
     "A000005",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "bref",
+    "hard",
     "more",
     "nonn"
   ],

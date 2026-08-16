@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n^(n^(n-1)).",
   "id": "A089210",
-  "mentions": [],
+  "mentions": [
+    "A053015"
+  ],
   "tags": [
     "nonn"
   ],

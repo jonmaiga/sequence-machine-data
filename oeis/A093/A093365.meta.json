@@ -3,15 +3,21 @@
   "id": "A093365",
   "mentions": [
     "A000404",
+    "A001481",
     "A005115",
-    "A093366"
+    "A093366",
+    "A398087",
+    "A398603",
+    "A398604"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

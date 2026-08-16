@@ -2,7 +2,13 @@
   "description": "Smallest prime p > n + 1 where a base b exists with abs(b - p) = n such that b^(p-1) == 1 (mod p^2).",
   "id": "A273775",
   "mentions": [
-    "A244249"
+    "A244249",
+    "A355959",
+    "A355960",
+    "A355961",
+    "A355962",
+    "A355964",
+    "A355965"
   ],
   "tags": [
     "hard",

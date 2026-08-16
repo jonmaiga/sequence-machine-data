@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that the Diophantine equation x^4+y^5=n^4 has solutions.",
+  "description": "Numbers m such that the Diophantine equation x^4+y^5 = m^4 has solutions.",
   "id": "A070756",
-  "mentions": [],
+  "mentions": [
+    "A061167"
+  ],
   "tags": [
     "nonn"
   ],

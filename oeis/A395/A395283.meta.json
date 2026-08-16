@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of e*log(2).",
+  "id": "A395283",
+  "mentions": [
+    "A001113",
+    "A002162",
+    "A262993"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

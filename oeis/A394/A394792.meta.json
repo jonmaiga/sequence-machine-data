@@ -1,0 +1,26 @@
+{
+  "description": "Number of positive integers <= n with exactly three odd divisors.",
+  "id": "A394792",
+  "mentions": [
+    "A001227",
+    "A038547",
+    "A070939",
+    "A237593",
+    "A279387",
+    "A286000",
+    "A286001",
+    "A299765",
+    "A379630",
+    "A394053",
+    "A394789"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

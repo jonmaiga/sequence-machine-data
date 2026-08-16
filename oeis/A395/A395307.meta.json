@@ -1,0 +1,18 @@
+{
+  "description": "Let p1 and p2 be two consecutive primes. Take the sums p1*10^j+p2, with 0<=j<=(number of digits of p2), and p2*10^j+p1, with 1<=j<=(number of digits of p1). Sequence lists the least prime p1 that together with its successor p2 generates exactly n distinct primes through the described process.",
+  "id": "A395307",
+  "mentions": [
+    "A000040",
+    "A394773"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

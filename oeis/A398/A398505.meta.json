@@ -1,0 +1,17 @@
+{
+  "description": "The number of nonpositive terms in the sequence S(n) defined in A398498 that are not in row n of A398498.",
+  "id": "A398505",
+  "mentions": [
+    "A377091",
+    "A398498",
+    "A398506"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

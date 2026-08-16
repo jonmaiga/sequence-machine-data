@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the absolute value of the imaginary part of the complex roots of x^3 - x^2 - 1 = 0.",
+  "id": "A395139",
+  "mentions": [
+    "A092526",
+    "A263719",
+    "A395138"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

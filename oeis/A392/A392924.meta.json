@@ -1,0 +1,18 @@
+{
+  "description": "The number of partitions of n such that there exists a part p, that appears in exactly p*K/100 parts, where K is the total number of parts.",
+  "id": "A392924",
+  "mentions": [
+    "A000041",
+    "A276429",
+    "A392745",
+    "A394247"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 19,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

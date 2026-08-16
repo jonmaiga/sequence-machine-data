@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct integer-sided cyclic quadrilaterals with integer diagonals and perimeter n.",
+  "id": "A397406",
+  "mentions": [
+    "A219225",
+    "A273890",
+    "A397446",
+    "A397447",
+    "A397448"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

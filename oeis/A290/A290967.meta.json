@@ -2,7 +2,8 @@
   "description": "Smallest known example of a 3 X 3 X 3 generalized arithmetic progression (GAP) of 27 primes, listed in increasing order.",
   "id": "A290967",
   "mentions": [
-    "A005115"
+    "A005115",
+    "A153412"
   ],
   "tags": [
     "fini",

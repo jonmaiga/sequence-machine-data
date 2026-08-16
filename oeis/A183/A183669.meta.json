@@ -1,15 +1,17 @@
 {
-  "description": "Number of (n+1)X7 0..6 arrays with every 2x2 subblock summing to 12.",
+  "description": "Number of (n+1) X 7 0..6 arrays with every 2 X 2 subblock summing to 12.",
   "id": "A183669",
   "mentions": [
     "A183672"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

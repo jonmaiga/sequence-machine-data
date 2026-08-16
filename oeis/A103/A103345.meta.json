@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum_{k=1..n} 1/k^6 = Zeta(6,n).",
+  "description": "Numerator of Sum_{k=1..n} 1/k^6 = zeta(6,n).",
   "id": "A103345",
   "mentions": [
     "A001008",

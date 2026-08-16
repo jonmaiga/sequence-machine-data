@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(4) - H(k,4)) * H(k)/k, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number, and H(k,4) = A007410(k)/A007480(k) is the k-th generalized harmonic number of order 4.",
+  "id": "A397662",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007410",
+    "A007480",
+    "A013662",
+    "A013664",
+    "A244664",
+    "A397661",
+    "A397663"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

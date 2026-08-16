@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k^2 = (a+b+c)*b + 1 for some primitive Pythagorean triple (a,b,c).",
+  "id": "A395517",
+  "mentions": [
+    "A393809"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

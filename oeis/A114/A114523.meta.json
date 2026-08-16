@@ -1,8 +1,10 @@
 {
-  "description": "Sign of StieltjesGamma[n].",
+  "description": "a(n) is the sign of the n-th Stieltjes constant.",
   "id": "A114523",
   "mentions": [
-    "A114524"
+    "A114524",
+    "A394583",
+    "A395455"
   ],
   "tags": [
     "sign"

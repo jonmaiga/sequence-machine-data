@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of subsets of proper divisors of A023196(n) that add to A023196(n).",
+  "id": "A394734",
+  "mentions": [
+    "A000396",
+    "A005835",
+    "A006037",
+    "A023196",
+    "A027750",
+    "A064771",
+    "A096356"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

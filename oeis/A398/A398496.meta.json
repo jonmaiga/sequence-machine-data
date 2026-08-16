@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > 0 such that k*n is a factorial base Niven number.",
+  "id": "A398496",
+  "mentions": [
+    "A118363",
+    "A144261",
+    "A398431"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

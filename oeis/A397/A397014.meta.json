@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1 - e^(-1/e).",
+  "id": "A397014",
+  "mentions": [
+    "A072364",
+    "A073229",
+    "A350134"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 108,
+    "source": "joeis"
+  }
+}

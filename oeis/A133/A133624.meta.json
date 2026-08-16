@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(n+p, n) mod n, where p=4.",
+  "description": "Binomial(n+4, 4) mod n.",
   "id": "A133624",
   "mentions": [
     "A000040",
@@ -21,6 +21,7 @@
     "A362689"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

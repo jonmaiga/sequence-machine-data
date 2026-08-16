@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..1 arrays with each 1 horizontally or vertically adjacent to 1, 2 or 3 1s.",
+  "description": "Number of n X 7 0..1 arrays with each 1 horizontally or vertically adjacent to 1, 2 or 3 1's.",
   "id": "A295415",
   "mentions": [
     "A295416"

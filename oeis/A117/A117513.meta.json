@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways of arranging 2*n tokens in a row, with 2 copies of each token from 1 through n, such that between every pair of tokens labeled i (i = 1..n-1) there is exactly one taken labeled i+1.",
+  "description": "Number of ways of arranging 2*n tokens in a row, with 2 copies of each token from 1 through n, such that between every pair of tokens labeled i (i = 1..n-1) there is exactly one token labeled i+1.",
   "id": "A117513",
   "mentions": [
     "A002105",

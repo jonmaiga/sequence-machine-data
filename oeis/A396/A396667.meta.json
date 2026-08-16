@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonnegative integers k such that n is the smallest value of z for which there exists a solution to k = x*y+y*z+z*x in nonnegative integers x <= y <= z.",
+  "id": "A396667",
+  "mentions": [
+    "A225268",
+    "A396665",
+    "A396666",
+    "A396668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

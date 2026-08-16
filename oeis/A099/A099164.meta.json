@@ -1,5 +1,5 @@
 {
-  "description": "(L(n+2)+2*3^n)/5.",
+  "description": "a(n) = (L(n+2) + 2*3^n)/5.",
   "id": "A099164",
   "mentions": [
     "A000032",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 29,
     "source": "joeis"
   }
 }

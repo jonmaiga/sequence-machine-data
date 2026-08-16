@@ -1,0 +1,28 @@
+{
+  "description": "In Glinski's hexagonal chess, these are the cells in the hexagonal spiral that can be reached by a Glinski queen placed at cell 0.",
+  "id": "A396292",
+  "mentions": [
+    "A000567",
+    "A028896",
+    "A033428",
+    "A045944",
+    "A049450",
+    "A049451",
+    "A062783",
+    "A063436",
+    "A395362",
+    "A396288",
+    "A396289",
+    "A396290",
+    "A396291",
+    "A396293"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

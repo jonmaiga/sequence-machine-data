@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 0, and for any n > 0, a(2*n) = a(n) + k(n) and a(2*n+1) = a(n) + 3 * k(n) where k(n) is the least positive integer not leading to a duplicate term in the sequence.",
+  "description": "a(1) = 1, and for any n > 0, a(2*n) = a(n) + k(n) and a(2*n+1) = a(n) + 3 * k(n) where k(n) is the least positive integer not leading to a duplicate term in the sequence.",
   "id": "A304971",
   "mentions": [
     "A305410"

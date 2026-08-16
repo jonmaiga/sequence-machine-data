@@ -1,0 +1,24 @@
+{
+  "description": "Integers m such that digits in m and m^2 are in nonincreasing order.",
+  "id": "A398453",
+  "mentions": [
+    "A009996",
+    "A011557",
+    "A028821",
+    "A052268",
+    "A093136",
+    "A093138",
+    "A234841",
+    "A346178"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

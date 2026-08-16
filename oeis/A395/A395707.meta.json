@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g^7*(5*g-4)/(6-5*g)^4, where g = 1+x*g^6 is the g.f. of A002295.",
+  "id": "A395707",
+  "mentions": [
+    "A002295",
+    "A386368",
+    "A394853",
+    "A395704",
+    "A395705",
+    "A395706",
+    "A395711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

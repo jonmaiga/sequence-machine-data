@@ -1,5 +1,5 @@
 {
-  "description": "F_n.",
+  "description": "Difference between numbers of odd-excedance and even-excedance 123-avoiding derangements of [2n].",
   "id": "A318233",
   "mentions": [
     "A318232"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

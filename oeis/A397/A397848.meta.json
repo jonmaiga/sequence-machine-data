@@ -1,0 +1,18 @@
+{
+  "description": "Near-repdigit primes such that no rearrangement of their digits (without leading zeros) results in any other prime number.",
+  "id": "A397848",
+  "mentions": [
+    "A039986",
+    "A164937",
+    "A246044"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

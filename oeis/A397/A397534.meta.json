@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k,3)/k^4, where H(k,3) = A007408(k)/A007409(k) is the k-th generalized harmonic number of order 3.",
+  "id": "A397534",
+  "mentions": [
+    "A007408",
+    "A007409",
+    "A013661",
+    "A013663",
+    "A013665"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

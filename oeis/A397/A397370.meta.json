@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the last d digits of k^k are equal to the reverse of k, where d is the number of digits of k, and k is not a palindrome.",
+  "id": "A397370",
+  "mentions": [
+    "A003226",
+    "A004086",
+    "A082576",
+    "A269588"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

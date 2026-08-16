@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of the solid of revolution formed by rotating a unit half-width lemniscate of Bernoulli about the vertical axis.",
+  "id": "A395394",
+  "mentions": [
+    "A091476",
+    "A193887",
+    "A328895",
+    "A343392",
+    "A395392",
+    "A395393",
+    "A395395"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

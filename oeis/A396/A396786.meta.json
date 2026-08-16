@@ -1,0 +1,16 @@
+{
+  "description": "Smallest prime p such that p^(q^3) = +-1 mod q^5 is true when q is any of the first n primes.",
+  "id": "A396786",
+  "mentions": [
+    "A395587"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

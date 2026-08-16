@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of the n X n square by exactly n (potentially different) fixed polyominoes.",
+  "id": "A395493",
+  "mentions": [
+    "A145835",
+    "A172477"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Product of three solutions of the Diophantine equation x^2 - y^2 = z^3.",
   "id": "A085482",
   "mentions": [
+    "A001016",
     "A085409"
   ],
   "tags": [

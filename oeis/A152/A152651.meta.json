@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 3*Zeta(5) - Zeta(3)*Pi^2/6.",
+  "description": "Decimal expansion of 3*zeta(5) - zeta(3)*Pi^2/6.",
   "id": "A152651",
   "mentions": [
     "A001008",

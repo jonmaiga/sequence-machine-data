@@ -1,5 +1,5 @@
 {
-  "description": "A self-generating sequence.",
+  "description": "Lexicographically earliest sequence of distinct positive integers such that sums of two or three consecutive earlier terms are excluded.",
   "id": "A005242",
   "mentions": [
     "A002048",

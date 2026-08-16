@@ -2,6 +2,9 @@
   "description": "Number of partitions of n containing at least one part m-3 if m is the largest part.",
   "id": "A212543",
   "mentions": [
+    "A000041",
+    "A000601",
+    "A001399",
     "A212551"
   ],
   "tags": [

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest abundant number with radical A395270(n).",
+  "id": "A395271",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A005101",
+    "A006038",
+    "A007947",
+    "A091191",
+    "A100484",
+    "A395270"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

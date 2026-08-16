@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which are both lucky (A000959) and Lucas (A000032).",
+  "description": "Numbers k which are both lucky (A000959) and Lucas (A000032).",
   "id": "A306632",
   "mentions": [
     "A000032",

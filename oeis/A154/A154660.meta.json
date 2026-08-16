@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!+37 and abs(n!-37) are primes.",
+  "description": "Numbers k such that k! + 37 and abs(k! - 37) are primes.",
   "id": "A154660",
   "mentions": [
     "A144046"

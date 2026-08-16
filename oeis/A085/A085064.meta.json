@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest k such that nk-1 as well as n+k are primes.",
+  "description": "a(n) = smallest k such that n*k-1 as well as n+k are primes.",
   "id": "A085064",
   "mentions": [
     "A014574",

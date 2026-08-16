@@ -1,5 +1,5 @@
 {
-  "description": "Number of symmetry classes of reduced 3x3 magilatin squares with magic sum n.",
+  "description": "Number of symmetry classes of reduced 3 X 3 magilatin squares with magic sum n.",
   "id": "A174021",
   "mentions": [
     "A173549",
@@ -8,6 +8,8 @@
     "A174020"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

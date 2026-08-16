@@ -1,9 +1,12 @@
 {
-  "description": "G.f. satisfies A(x) = x + x*A(A(A(A(x)))).",
+  "description": "G.f. A(x) satisfies A(x) = x + x*A(A(A(A(x)))).",
   "id": "A196523",
   "mentions": [
     "A030266",
-    "A091713"
+    "A091713",
+    "A193099",
+    "A378575",
+    "A378576"
   ],
   "tags": [
     "formulas",

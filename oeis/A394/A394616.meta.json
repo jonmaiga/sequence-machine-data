@@ -1,0 +1,19 @@
+{
+  "description": "Number of strict non-grounded 2-ary convexities on a set of n elements.",
+  "id": "A394616",
+  "mentions": [
+    "A000798",
+    "A326878",
+    "A394095"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Squares that are the concatenation of two squares.",
+  "id": "A397247",
+  "mentions": [
+    "A000290",
+    "A017270",
+    "A039686",
+    "A102766",
+    "A147608",
+    "A238237",
+    "A350918",
+    "A387866",
+    "A387911",
+    "A397248"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

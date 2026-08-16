@@ -1,0 +1,18 @@
+{
+  "description": "Number of intervals in the weak order on the Coxeter group D_n.",
+  "id": "A395857",
+  "mentions": [
+    "A002866",
+    "A007767",
+    "A395856"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

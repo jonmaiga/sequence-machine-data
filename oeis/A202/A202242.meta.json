@@ -1,5 +1,5 @@
 {
-  "description": "n such that the sum of digit !! of n equals the sum of d|n, 1",
+  "description": "Integers m such that the sum of digit !! of m equals the sum of d|m, 1",
   "id": "A202242",
   "mentions": [
     "A006882",
@@ -8,6 +8,7 @@
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

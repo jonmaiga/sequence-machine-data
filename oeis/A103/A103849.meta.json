@@ -1,10 +1,11 @@
 {
-  "description": "Rearrangement of natural numbers according to sums of odd and even digits.",
+  "description": "Rearrangement of natural numbers according to the sums of odd and even digits as partitioned by A036301, A103848 and A103829 (see Comments).",
   "id": "A103849",
   "mentions": [
     "A036301",
     "A103829",
-    "A103848"
+    "A103848",
+    "A103877"
   ],
   "tags": [
     "base",

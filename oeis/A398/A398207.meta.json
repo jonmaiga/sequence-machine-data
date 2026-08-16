@@ -1,0 +1,19 @@
+{
+  "description": "Number of digraphs on n unlabeled nodes with distinguished nodes r and t (r = t if n = 1, else r != t) such that every node is reachable from r and t is reachable from every node, counted up to isomorphism fixing r and t.",
+  "id": "A398207",
+  "mentions": [
+    "A049531",
+    "A165950",
+    "A345258",
+    "A350794"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that m and 2*m+1 have the same number of prime factors.",
+  "description": "Numbers m such that m and 2*m+1 have the same number of prime factors (with repetitions).",
   "id": "A117360",
   "mentions": [
     "A001222",
@@ -7,6 +7,7 @@
     "A068406"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

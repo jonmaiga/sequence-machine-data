@@ -1,0 +1,19 @@
+{
+  "description": "Number of lines through 4 or more points of an n X n grid of points.",
+  "id": "A397426",
+  "mentions": [
+    "A018808",
+    "A018809",
+    "A018810",
+    "A225606"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

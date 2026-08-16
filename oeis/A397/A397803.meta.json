@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 2^((3^n - 1)/2).",
+  "id": "A397803",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

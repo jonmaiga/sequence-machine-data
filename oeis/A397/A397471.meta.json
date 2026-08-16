@@ -1,0 +1,16 @@
+{
+  "description": "Numbers not appearing in A394611.",
+  "id": "A397471",
+  "mentions": [
+    "A394611",
+    "A397174"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

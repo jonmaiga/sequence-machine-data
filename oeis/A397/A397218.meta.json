@@ -1,0 +1,18 @@
+{
+  "description": "Essentially the same as A397219, except insert an initial 1 and modify the definition accordingly.",
+  "id": "A397218",
+  "mentions": [
+    "A007318",
+    "A064413",
+    "A397219"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

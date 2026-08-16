@@ -1,0 +1,14 @@
+{
+  "description": "Number of distinct values in the interval [n,n+1) that can be represented as a sum of square roots of positive integers.",
+  "id": "A397045",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

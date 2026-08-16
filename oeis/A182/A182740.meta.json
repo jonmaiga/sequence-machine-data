@@ -1,5 +1,5 @@
 {
-  "description": "A shell model of partitions as a table of partitions.",
+  "description": "A modular table of partitions.",
   "id": "A182740",
   "mentions": [
     "A135010",

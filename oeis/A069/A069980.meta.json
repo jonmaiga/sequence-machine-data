@@ -5,11 +5,12 @@
   "tags": [
     "base",
     "easy",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

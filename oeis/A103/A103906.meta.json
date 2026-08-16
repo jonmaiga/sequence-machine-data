@@ -1,5 +1,5 @@
 {
-  "description": "Coordination sequence for Penrose tiling is a(n)*tau + A103907(n), where tau is A001622.",
+  "description": "Coordination sequence for Penrose tiling is a(n)*phi + A103907(n), where phi is A001622.",
   "id": "A103906",
   "mentions": [
     "A001622",

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1 / (1 - B(B(B(x)))), where B(x) = x/(1-x)^2.",
+  "id": "A396241",
+  "mentions": [
+    "A088305",
+    "A289803",
+    "A396238"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

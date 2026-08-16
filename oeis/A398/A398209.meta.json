@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: For n >= 1, T(n,k) is the number of distinct entries q of the n X n multiplication table such that floor(q/n) = k, for 0 <= k <= n, with T(0,0) = 0.",
+  "id": "A398209",
+  "mentions": [
+    "A027424",
+    "A393470",
+    "A394016",
+    "A397038"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

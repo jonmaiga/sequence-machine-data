@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p+/-2, p+/-4 and p+/-6 are semiprimes.",
+  "description": "Primes p such that p+-2, p+-4 and p+-6 are semiprimes.",
   "id": "A266847",
   "mentions": [
     "A063643",

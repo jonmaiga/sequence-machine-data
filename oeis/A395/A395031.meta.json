@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 14*n^3 + 28*n^2 + 12*n + 1.",
+  "id": "A395031",
+  "mentions": [
+    "A108767",
+    "A395080"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

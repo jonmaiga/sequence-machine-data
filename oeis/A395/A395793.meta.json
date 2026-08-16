@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the principal moment of inertia of an oloid with unit mass density, formed by two unit circles, about the axis passing through the centers of the circles.",
+  "id": "A395793",
+  "mentions": [
+    "A138500",
+    "A215447",
+    "A249283",
+    "A395734",
+    "A395794"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

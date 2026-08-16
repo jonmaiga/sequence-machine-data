@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=1..n} phi(k) * (floor(n/k)^3 - floor((n-1)/k)^3).",
   "id": "A344599",
   "mentions": [
+    "A002088",
     "A344522",
     "A344598",
     "A344600"

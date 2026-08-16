@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between any two adjacent faces in a canonical (dual-uniform) octagonal trapezohedron.",
+  "id": "A398218",
+  "mentions": [
+    "A002193",
+    "A387320",
+    "A387323",
+    "A398210",
+    "A398211",
+    "A398212",
+    "A398213",
+    "A398214",
+    "A398215",
+    "A398216",
+    "A398217"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

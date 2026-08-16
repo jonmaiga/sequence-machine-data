@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct products z*w, where z and w range over the nonzero Gaussian integers a+b*i with 0 <= a, b <= n and i the imaginary unit.",
+  "id": "A397901",
+  "mentions": [
+    "A027424"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

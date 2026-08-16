@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (n-3)*a(n-1) + (n-1)*a(n-3); a(0) = 0, a(1) = 0, a(2) = 1.",
+  "id": "A396887",
+  "mentions": [
+    "A153229",
+    "A275825"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

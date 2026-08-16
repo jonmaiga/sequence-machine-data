@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the probability that Buffon's needle will land on exactly one line when dropped on a hexagonal tiling in which the inradius of each hexagon equals the length of the needle.",
+  "id": "A396026",
+  "mentions": [
+    "A060294",
+    "A089491",
+    "A396025",
+    "A396027"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

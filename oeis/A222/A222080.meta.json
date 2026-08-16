@@ -1,10 +1,12 @@
 {
-  "description": "G.f.: 1 = Sum_{n>=0} a(n) * x^n * (1 - (2*n+1)*x)^2.",
+  "description": "1 = Sum_{n>=0} a(n) * x^n * (1 - (2*n+1)*x)^2.",
   "id": "A222080",
   "mentions": [
+    "A002720",
     "A222081"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

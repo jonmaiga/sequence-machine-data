@@ -1,16 +1,18 @@
 {
-  "description": "G.f.: 1 = Sum_{n>=0} a(n) * x^n * (1 - (n+1)*x)^3.",
+  "description": "1 = Sum_{n>=0} a(n) * x^n * (1 - (n+1)*x)^3.",
   "id": "A219779",
   "mentions": [
+    "A000142",
     "A002720",
     "A219780"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

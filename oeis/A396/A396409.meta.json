@@ -1,0 +1,19 @@
+{
+  "description": "Number of iterations of x -> x XOR 2^A000120(x) from x = n to reach a number of the form 2^m-1.",
+  "id": "A396409",
+  "mentions": [
+    "A000120",
+    "A007814",
+    "A233411",
+    "A326730"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the mean width of a regular octahedron of unit edge length.",
+  "id": "A395731",
+  "mentions": [
+    "A089491",
+    "A137914",
+    "A152623",
+    "A289502",
+    "A395732",
+    "A395733"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

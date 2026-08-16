@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..Pi} cos(cos(x)) dx.",
+  "id": "A397310",
+  "mentions": [
+    "A000796",
+    "A333566",
+    "A334380"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

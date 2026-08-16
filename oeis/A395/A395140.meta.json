@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of length n words over the alphabet [4] with c(1) = k such that all prefixes satisfy c(1) >= c(2), c(1) >= c(3), c(2) >= c(4), and c(3) >= c(4), where c(i) is the number of occurrences of the letter i.",
+  "id": "A395140",
+  "mentions": [
+    "A114714",
+    "A176129",
+    "A207542",
+    "A384725",
+    "A396150"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

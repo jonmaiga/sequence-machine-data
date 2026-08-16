@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the mean width of an oloid formed by two unit circles.",
+  "id": "A395734",
+  "mentions": [
+    "A152623",
+    "A215447",
+    "A249283",
+    "A289502",
+    "A395731",
+    "A395732",
+    "A395733"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of alpha-labelings of the path tree on n vertices.",
+  "id": "A395104",
+  "mentions": [
+    "A005193",
+    "A112362",
+    "A392797"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

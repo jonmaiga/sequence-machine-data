@@ -2,11 +2,19 @@
   "description": "Expansion of (Sum_{k>=0} binomial(3*k,k) * x^k)^4.",
   "id": "A378504",
   "mentions": [
+    "A002457",
     "A002697",
     "A005809",
     "A006256",
     "A378483",
-    "A378484"
+    "A378484",
+    "A394853",
+    "A395659",
+    "A395660",
+    "A395664",
+    "A395665",
+    "A395667",
+    "A395675"
   ],
   "tags": [
     "formulas",
@@ -15,6 +23,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

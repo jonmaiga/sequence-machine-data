@@ -1,9 +1,10 @@
 {
-  "description": "a(n) is the least number of prime factors in any non-deficient number that has the n-th prime as its least prime factor.",
+  "description": "a(n) is the least number of prime factors in any nondeficient number that has the n-th prime as its least prime factor.",
   "id": "A107705",
   "mentions": [
     "A000040",
     "A001222",
+    "A002110",
     "A005101",
     "A006038",
     "A007684",
@@ -15,12 +16,11 @@
     "A108227"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

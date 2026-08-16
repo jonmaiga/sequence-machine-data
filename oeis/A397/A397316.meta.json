@@ -1,0 +1,18 @@
+{
+  "description": "Index of n in A397218, or -1 if n never appears.",
+  "id": "A397316",
+  "mentions": [
+    "A397218",
+    "A397297",
+    "A397313",
+    "A397317"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

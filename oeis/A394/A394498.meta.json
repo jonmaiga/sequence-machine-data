@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered rooted trees with total edge weight n such that all groups of sibling edges have weights in standard order.",
+  "id": "A394498",
+  "mentions": [
+    "A383253",
+    "A395304"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} omega(floor(n/k)), where omega(n) = A001221(n) is the number of distinct primes dividing n.",
+  "id": "A398528",
+  "mentions": [
+    "A001221",
+    "A398529"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

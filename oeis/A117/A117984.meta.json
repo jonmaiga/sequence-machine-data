@@ -1,7 +1,10 @@
 {
   "description": "A modified Legendre-binomial transform of 4^n for p=3.",
   "id": "A117984",
-  "mentions": [],
+  "mentions": [
+    "A117981",
+    "A117983"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 27,
     "source": "joeis"
   }
 }

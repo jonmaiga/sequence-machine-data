@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n-12.",
+  "description": "a(n) = n - 12.",
   "id": "A023454",
   "mentions": [
     "A001477"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 61,
+    "size": 71,
     "source": "joeis"
   }
 }

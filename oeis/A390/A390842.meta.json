@@ -1,13 +1,16 @@
 {
-  "description": "3-valuation of Product_{1 <= k <= n} (prime(k) + 1) / (prime(k+1) - prime(k)).",
+  "description": "3-valuation of Product_{k=1..n} (prime(k) + 1) / (prime(k+1) - prime(k)).",
   "id": "A390842",
   "mentions": [
+    "A007949",
     "A227990",
+    "A390839",
     "A390841",
     "A390843",
     "A390844"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

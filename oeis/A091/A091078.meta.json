@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which when converted to base 4, reversed and converted back to base 10 yield a number m such that n mod m = 0. Cases which are trivial or result in digit loss are excluded.",
+  "description": "Numbers k which when converted to base 4, reversed and converted back to base 10 yield a number m such that k mod m = 0. Cases which are trivial or result in digit loss are excluded.",
   "id": "A091078",
   "mentions": [
     "A031877",
@@ -12,11 +12,12 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

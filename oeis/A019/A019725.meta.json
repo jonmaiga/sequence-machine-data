@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of sqrt(Pi)/23.",
   "id": "A019725",
-  "mentions": [],
+  "mentions": [
+    "A002161"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

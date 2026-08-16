@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = x + A^4(x)*A^5(x).",
+  "id": "A396798",
+  "mentions": [
+    "A213591",
+    "A396099",
+    "A396797",
+    "A396807"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

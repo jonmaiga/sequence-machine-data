@@ -1,11 +1,12 @@
 {
-  "description": "a(1) = 2, a(n+1) > a(n) is the smallest multiple of a(n) using only even digits.",
+  "description": "A(1) = 2, a(n+1) > a(n) is the smallest multiple of a(n) using only even digits.",
   "id": "A078222",
   "mentions": [
     "A078221"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that both Mordell equations y^2 = x^3 + p^2 and y^2 = x^3 - p^2 have nonzero integer solutions.",
+  "id": "A396946",
+  "mentions": [
+    "A081119",
+    "A081120",
+    "A396853"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

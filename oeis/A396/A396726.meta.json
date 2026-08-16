@@ -1,0 +1,17 @@
+{
+  "description": "Greatest frequency depth of a word of length n.",
+  "id": "A396726",
+  "mentions": [
+    "A327662",
+    "A362228"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

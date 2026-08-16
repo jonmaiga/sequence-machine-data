@@ -1,0 +1,21 @@
+{
+  "description": "Residue class of the decimal digits of n taken mod 3, with 0 represented by 3, and in nondecreasing order.",
+  "id": "A397695",
+  "mentions": [
+    "A007932",
+    "A010882",
+    "A397643",
+    "A397644",
+    "A397694"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Triangular array in which the n-th row consists of numbers with digit product n arranged in increasing numerical order; row consists of 0 if no such numbers exist.",
   "id": "A069801",
   "mentions": [
+    "A068190",
     "A069800"
   ],
   "tags": [

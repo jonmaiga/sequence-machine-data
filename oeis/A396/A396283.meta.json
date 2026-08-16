@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (n mod k)^2.",
+  "id": "A396283",
+  "mentions": [
+    "A000290",
+    "A004125",
+    "A024916",
+    "A051126",
+    "A067459",
+    "A309176",
+    "A350123",
+    "A396284"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

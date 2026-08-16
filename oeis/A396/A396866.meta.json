@@ -1,0 +1,22 @@
+{
+  "description": "Order of the Pólya group of real quadratic field with discriminant A003658(n), n >= 2.",
+  "id": "A396866",
+  "mentions": [
+    "A003658",
+    "A317989",
+    "A317991",
+    "A319659",
+    "A391426",
+    "A396865",
+    "A396868"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

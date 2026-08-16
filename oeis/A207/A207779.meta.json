@@ -1,5 +1,5 @@
 {
-  "description": "Largest part plus the number of parts of the n-th region of the section model of partitions.",
+  "description": "Largest part plus the number of parts of the n-th region of the modular table of partitions.",
   "id": "A207779",
   "mentions": [
     "A000041",

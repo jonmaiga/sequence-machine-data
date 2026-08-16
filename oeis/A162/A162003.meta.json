@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 1+(n+2)^2+(n+4)^4, n>=0.",
+  "description": "Primes of the form 1 + (k+2)^2 + (k+4)^4, k>=0.",
   "id": "A162003",
   "mentions": [],
   "tags": [

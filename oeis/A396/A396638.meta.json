@@ -1,0 +1,18 @@
+{
+  "description": "Number of geodesics of length n in the braid group B_3.",
+  "id": "A396638",
+  "mentions": [
+    "A000079",
+    "A396637"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

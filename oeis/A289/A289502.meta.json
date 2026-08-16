@@ -1,9 +1,13 @@
 {
-  "description": "Mean width of the regular tetrahedron of unit length.",
+  "description": "Decimal expansion of the mean width of the regular tetrahedron of unit edge length.",
   "id": "A289502",
   "mentions": [
     "A093582",
-    "A156546"
+    "A152623",
+    "A156546",
+    "A395731",
+    "A395732",
+    "A395733"
   ],
   "tags": [
     "cons",

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k + 1) = T(n, k) * (n + k + 1) / (n * (k + 2)) for k < n, starting at T(n, 0) = n^n, (row recurrence).",
+  "id": "A398477",
+  "mentions": [
+    "A000108",
+    "A000312",
+    "A398373",
+    "A398478",
+    "A398479"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

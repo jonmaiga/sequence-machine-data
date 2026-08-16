@@ -2,6 +2,10 @@
   "description": "Partial sums of the alternating sum of divisors function (A206369).",
   "id": "A370905",
   "mentions": [
+    "A000010",
+    "A000196",
+    "A002088",
+    "A002819",
     "A008836",
     "A206369",
     "A370906"

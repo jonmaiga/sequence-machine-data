@@ -1,5 +1,5 @@
 {
-  "description": "Square array of binomial related numbers, read by antidiagonals.",
+  "description": "Square array read by antidiagonals: T(n,k) = binomial(2*n+k, k) - binomial(2*n, k).",
   "id": "A085475",
   "mentions": [
     "A016813",
@@ -8,13 +8,12 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

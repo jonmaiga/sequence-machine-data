@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of polynomials refining A367255.",
+  "id": "A395505",
+  "mentions": [
+    "A000169",
+    "A367255"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Number of snarks of order 2n with circumference n-2.",
+  "description": "Number of snarks of order 2n with circumference 2n-2.",
   "id": "A218882",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "Number of acyclic digraphs (or DAGs) on n labeled nodes in which every node has in-degree at most 3.",
+  "id": "A397712",
+  "mentions": [
+    "A000272",
+    "A003024",
+    "A397711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

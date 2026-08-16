@@ -1,18 +1,20 @@
 {
-  "description": "Least integers that satisfy sum(n>0,1/a(n)^z)=0, where a(1)=1, a(n+1)>a(n) and z=I/log(2).",
+  "description": "Least integers that satisfy Sum_{n>=1} 1/a(n)^z = 0, where a(1)=1, a(n+1)>a(n) and z=I/log(2).",
   "id": "A084817",
   "mentions": [
     "A084812",
+    "A084813",
+    "A084814",
+    "A084815",
     "A084816",
     "A084818"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

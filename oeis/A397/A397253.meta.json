@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of the limit of the area of the sequence of inscribed polygons formed by angular bisection.",
+  "id": "A397253",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

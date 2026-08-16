@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first term k of A397042 such that k + n is also in A397042.",
+  "id": "A397044",
+  "mentions": [
+    "A002522",
+    "A397042"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

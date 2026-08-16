@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least number k that has exactly n divisors d <= sqrt(k) such that omega(d + k/d) = omega(k), where omega = A001221.",
+  "id": "A396049",
+  "mentions": [
+    "A001221",
+    "A391451"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of cycles whose length is a power of 2 over all connected cubic graphs on 2n vertices.",
+  "id": "A398417",
+  "mentions": [
+    "A002851"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

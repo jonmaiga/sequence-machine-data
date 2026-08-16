@@ -1,5 +1,5 @@
 {
-  "description": "n+p(n)+p(p(n)) is a prime, where p(n) denotes the n-th prime.",
+  "description": "Numbers k such that k + prime(k) + prime(prime(k)) is a prime, where prime(k) denotes the k-th prime.",
   "id": "A116036",
   "mentions": [
     "A115996"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

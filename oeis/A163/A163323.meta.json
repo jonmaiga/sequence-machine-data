@@ -1,5 +1,5 @@
 {
-  "description": "The 4th Hermite Polynomial evaluated at n: H_4(n) = 16n^4 - 48n^2 + 12.",
+  "description": "The 4th Hermite polynomial evaluated at n: H_4(n) = 16*n^4 - 48*n^2 + 12.",
   "id": "A163323",
   "mentions": [
     "A059343",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 33,
     "source": "joeis"
   }
 }

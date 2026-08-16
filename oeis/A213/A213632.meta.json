@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that primality of (p+p')/2+4 and of (p+p')/2-4 differ, where p'=precprime(p-1), the next smaller prime.",
+  "description": "Primes p such that primality of (p+p')/2+4 and of (p+p')/2-4 differ, where p'=prevprime(p-1), the next smaller prime.",
   "id": "A213632",
   "mentions": [
     "A213631"

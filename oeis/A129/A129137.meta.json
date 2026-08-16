@@ -2,7 +2,8 @@
   "description": "Number of trees on [n], rooted at 1, in which 2 is a descendant of 3.",
   "id": "A129137",
   "mentions": [
-    "A057500"
+    "A057500",
+    "A398187"
   ],
   "tags": [
     "formulas",

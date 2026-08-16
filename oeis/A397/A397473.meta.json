@@ -1,0 +1,19 @@
+{
+  "description": "Number of sets of nonempty compositions with total sum n such that no compositions in the set share a part.",
+  "id": "A397473",
+  "mentions": [
+    "A011782",
+    "A098407",
+    "A336127",
+    "A358904",
+    "A396494"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

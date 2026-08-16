@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that both k and k+1 are in A010342.",
+  "id": "A395071",
+  "mentions": [
+    "A000045",
+    "A010342"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

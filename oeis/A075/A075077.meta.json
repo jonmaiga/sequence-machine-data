@@ -1,5 +1,5 @@
 {
-  "description": "a(1) =1 and then the smallest number not occurring earlier such that a(n)+a(n+1) gives a different composite number (not obtained earlier).",
+  "description": "a(1) = 1 and then the smallest number not occurring earlier such that a(n) + a(n+1) gives a different composite number (not obtained earlier).",
   "id": "A075077",
   "mentions": [
     "A075078"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

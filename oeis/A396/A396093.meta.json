@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) = B(B(B(x))), the third iteration of B(x) = x/(1-x)^2.",
+  "id": "A396093",
+  "mentions": [
+    "A030267",
+    "A119821",
+    "A166482",
+    "A396094",
+    "A396209",
+    "A396210"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

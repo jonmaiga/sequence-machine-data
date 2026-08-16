@@ -6,11 +6,12 @@
     "A036719"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
-    "source": "joeis"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

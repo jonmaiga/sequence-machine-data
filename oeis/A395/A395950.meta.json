@@ -1,0 +1,19 @@
+{
+  "description": "Odd parts of absolute field norms of first derivatives of regularized mock theta limits at primitive 2n-th roots of unity.",
+  "id": "A395950",
+  "mentions": [
+    "A393567",
+    "A394831",
+    "A395116",
+    "A395117"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

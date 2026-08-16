@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} sigma_2(k) * log(k) / k^4, where sigma_2(k) is the sum of squares of divisors of k (A001157).",
+  "id": "A398011",
+  "mentions": [
+    "A001157",
+    "A001620",
+    "A074962",
+    "A243263",
+    "A261506",
+    "A333972"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

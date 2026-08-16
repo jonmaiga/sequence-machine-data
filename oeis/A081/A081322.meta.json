@@ -1,5 +1,5 @@
 {
-  "description": "F(P(n)), where F(n) = Fibonacci numbers A000045, P(n) = Pell numbers A000129.",
+  "description": "a(n) = F(P(n)), where F(n) = Fibonacci numbers A000045, P(n) = Pell numbers A000129.",
   "id": "A081322",
   "mentions": [
     "A000045",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

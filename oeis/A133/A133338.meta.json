@@ -1,5 +1,5 @@
 {
-  "description": "Number of combinatorial types of neighborly 4-polytopes with n vertices.",
+  "description": "Number of combinatorial types of simplicial neighborly 4-polytopes with n vertices.",
   "id": "A133338",
   "mentions": [
     "A005841",

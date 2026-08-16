@@ -1,7 +1,9 @@
 {
   "description": "Number of nontrivial (girth >=5) snarks on 2n nodes.",
   "id": "A130315",
-  "mentions": [],
+  "mentions": [
+    "A216834"
+  ],
   "tags": [
     "hard",
     "more",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

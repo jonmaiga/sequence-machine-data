@@ -1,5 +1,5 @@
 {
-  "description": "Floor( n(n-1)/7 ).",
+  "description": "a(n) = floor(n*(n-1)/7).",
   "id": "A011860",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 61,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

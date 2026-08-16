@@ -1,5 +1,5 @@
 {
-  "description": "Father primes of order 3.",
+  "description": "Primes of the form 7*p + 6 with p prime.",
   "id": "A136072",
   "mentions": [
     "A023208",

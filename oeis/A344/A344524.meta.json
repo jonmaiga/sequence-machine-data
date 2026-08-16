@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{1 <= i, j, k, l, m <= n} gcd(i,j,k,l,m).",
   "id": "A344524",
   "mentions": [
+    "A002088",
     "A082544",
     "A343499",
     "A344139",

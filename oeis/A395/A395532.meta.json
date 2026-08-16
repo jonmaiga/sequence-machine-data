@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals downward: convolved numbers of order n of k-sections of the Fibonacci sequence at the third element position T(n, k) for n >= 0 and k >= 1.",
+  "id": "A395532",
+  "mentions": [
+    "A000032",
+    "A000096",
+    "A005570",
+    "A047946",
+    "A062728",
+    "A393329",
+    "A395431",
+    "A395902",
+    "A396358"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

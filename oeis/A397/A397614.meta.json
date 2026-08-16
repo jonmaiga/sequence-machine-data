@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the large face angle, in radians, of a canonical (dual-uniform) hexagonal trapezohedron.",
+  "id": "A397614",
+  "mentions": [
+    "A002194",
+    "A019973",
+    "A195698",
+    "A397608",
+    "A397609",
+    "A397610",
+    "A397611",
+    "A397612",
+    "A397613"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Number of assembly trees for the wheel graph W_n.",
+  "id": "A397737",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

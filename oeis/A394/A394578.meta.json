@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^(2*n-1) * p(n, n+1/2), where p(n,x) is the Lagrange interpolating polynomial through (1,0) and (k,1) for k=2..n+1.",
+  "id": "A394578",
+  "mentions": [
+    "A395640",
+    "A396722",
+    "A396724"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

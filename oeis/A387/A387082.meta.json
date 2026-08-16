@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the number of partitions of [n] whose set of block sizes equals [k]; n >= 0, 0 <= k <= A003056(n).",
+  "id": "A387082",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A022915",
+    "A393098",
+    "A394281"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

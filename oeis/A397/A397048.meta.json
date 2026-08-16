@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n, k) read by rows: T(n, k) = (Sum_{i=0..k} (-1)^i * binomial(k, i) * (n+i)^n) * (-1)^k / k! for 0 <= k <= n.",
+  "id": "A397048",
+  "mentions": [
+    "A000012",
+    "A000169",
+    "A000312",
+    "A000326",
+    "A048993",
+    "A048994",
+    "A055869",
+    "A071207",
+    "A088956",
+    "A134980",
+    "A215534",
+    "A298373"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

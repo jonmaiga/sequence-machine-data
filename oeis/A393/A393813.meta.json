@@ -1,0 +1,19 @@
+{
+  "description": "Among all the numbers k such that 0 <= k < n and {phi * k} < {phi * n}, a(n) is the one maximizing {phi * k}, where {} denotes the fractional part and phi = A001622.",
+  "id": "A393813",
+  "mentions": [
+    "A001519",
+    "A001622",
+    "A019587",
+    "A395009"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

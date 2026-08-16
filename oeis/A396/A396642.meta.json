@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k = p_1^e_1 * ... * p_i^e_i such that the area of the convex hull of the planar coordinates [p_i, e_i] is an integer >= 1.",
+  "id": "A396642",
+  "mentions": [
+    "A000040",
+    "A395113"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of partial sums of (p+q)/p*q, where p and q are primes.",
+  "description": "Numerators of partial sums of (p+q)/(p*q), where p and q are primes.",
   "id": "A120831",
   "mentions": [
     "A001358",

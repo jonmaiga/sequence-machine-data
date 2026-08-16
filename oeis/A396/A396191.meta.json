@@ -1,0 +1,16 @@
+{
+  "description": "Length of binary representation of A394166(n).",
+  "id": "A396191",
+  "mentions": [
+    "A394166"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

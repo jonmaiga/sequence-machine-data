@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3-generated groups of order n: groups that have a generating set of size <= 3.",
+  "id": "A396721",
+  "mentions": [
+    "A000001",
+    "A066389",
+    "A394617",
+    "A394618"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

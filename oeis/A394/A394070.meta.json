@@ -1,0 +1,16 @@
+{
+  "description": "Number of solutions of the form 2^n*q*r where sigma(2^n*q*r)-2*2^n*q*r=20, where q,r are distinct primes.",
+  "id": "A394070",
+  "mentions": [
+    "A033880",
+    "A223611"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

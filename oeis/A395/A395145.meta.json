@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of ISO A(n) sheets that fit orthogonally without overlap into a single ISO A0 sheet.",
+  "id": "A395145",
+  "mentions": [],
+  "tags": [
+    "dumb",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

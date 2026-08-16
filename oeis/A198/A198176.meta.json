@@ -1,5 +1,5 @@
 {
-  "description": "Number of orthogonal cocycles in Z^2(Z^t_2,Z_2).",
+  "description": "Number of orthogonal cocycles in Z^2(Z_2^n,Z_2).",
   "id": "A198176",
   "mentions": [],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "A396194 with duplicates removed.",
+  "id": "A396195",
+  "mentions": [
+    "A394166",
+    "A396194"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

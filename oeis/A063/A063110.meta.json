@@ -1,7 +1,9 @@
 {
   "description": "Dimension of the space of weight 2n cusp forms for Gamma_0(42).",
   "id": "A063110",
-  "mentions": [],
+  "mentions": [
+    "A119413"
+  ],
   "tags": [
     "formulas",
     "nonn"

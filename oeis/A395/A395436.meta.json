@@ -1,0 +1,23 @@
+{
+  "description": "Number of aperiodic linear palindromes of length 2*n+1, summed over all integer partitions of 2*n+1, in the strongly normal fixed-content convention.",
+  "id": "A395436",
+  "mentions": [
+    "A005651",
+    "A072605",
+    "A084708",
+    "A213943",
+    "A317755",
+    "A396630",
+    "A396631",
+    "A396632"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

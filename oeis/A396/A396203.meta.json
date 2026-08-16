@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the gap to the next prime is floor(log_2(p)).",
+  "id": "A396203",
+  "mentions": [
+    "A000040",
+    "A000523",
+    "A001223",
+    "A098388",
+    "A396279"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

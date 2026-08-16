@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 5 X n rectangle by unit squares and the Ferrers tile (3,2,1).",
+  "id": "A396311",
+  "mentions": [
+    "A193147"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

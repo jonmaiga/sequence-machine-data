@@ -2,6 +2,7 @@
   "description": "Largest number m such that m is the n-th power of the sum of its digits.",
   "id": "A061211",
   "mentions": [
+    "A007953",
     "A046000",
     "A046017",
     "A061209",
@@ -11,6 +12,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

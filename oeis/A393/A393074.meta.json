@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent strict closure operators on a set of n elements such that all pairs of nonempty disjoint closed sets can be separated by clopen sets.",
+  "id": "A393074",
+  "mentions": [
+    "A334255",
+    "A356544",
+    "A358144",
+    "A358152"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

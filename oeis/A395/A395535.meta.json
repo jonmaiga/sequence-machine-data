@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n XOR n*2+1) for odd n, (n XOR n/2) for even n.",
+  "id": "A395535",
+  "mentions": [
+    "A048724",
+    "A092246",
+    "A230709"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

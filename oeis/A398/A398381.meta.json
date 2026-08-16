@@ -1,0 +1,19 @@
+{
+  "description": "Upper end of record gaps between consecutive Loeschian numbers (A003136).",
+  "id": "A398381",
+  "mentions": [
+    "A003136",
+    "A398088",
+    "A398379",
+    "A398380"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

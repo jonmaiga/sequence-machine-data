@@ -1,28 +1,18 @@
 {
-  "description": "Numbers k such that 2k+3 is a prime of the form 3*A034936(m) + 4.",
+  "description": "a(n) = (3 * A034936(n) + 1) / 2.",
   "id": "A173177",
   "mentions": [
-    "A000040",
-    "A001477",
     "A002476",
-    "A008611",
-    "A024893",
     "A024899",
-    "A028242",
     "A034936",
-    "A039701",
-    "A059841",
-    "A067076",
-    "A080425",
-    "A157966"
+    "A067076"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

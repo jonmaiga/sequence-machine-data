@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of total diagonals in Johnson solid J_n.",
+  "id": "A396904",
+  "mentions": [
+    "A242732",
+    "A242733",
+    "A396905",
+    "A396906"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Walk along the hexagonal spiral, with its cells numbered starting at 0. Begin with no knights. If the square you are at is not attacked by an existing knight, place a knight there, otherwise leave it empty. The sequence lists the squares occupied by the knights.",
+  "id": "A395362",
+  "mentions": [
+    "A028896",
+    "A308885",
+    "A327131",
+    "A333683",
+    "A395365",
+    "A395367"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

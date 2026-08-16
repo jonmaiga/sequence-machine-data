@@ -2,10 +2,12 @@
   "description": "a(n) is the smallest m such that m*(m+1) is divisible by the first n prime numbers.",
   "id": "A118478",
   "mentions": [
+    "A002072",
     "A002110",
     "A002378",
     "A053670",
     "A059958",
+    "A141399",
     "A193314",
     "A215021"
   ],

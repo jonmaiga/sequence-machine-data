@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the middle x such that 1/x + 1/(x+1) + 1/(x+2) = 1.",
+  "description": "Decimal expansion of the middle x such that 1/x + 1/(x+1) + 1/(x+2) = 1, negated.",
   "id": "A305327",
   "mentions": [
     "A305326",

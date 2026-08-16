@@ -1,15 +1,18 @@
 {
-  "description": "Natural two base element sequence based on Pi and e and a prime sequence.",
+  "description": "a(0)=1, a(n) = floor(Pi * exp(f(n)*(f(n)+1)/2) * prime(n/2)#) where f(n)=floor((n+1)/2) and p(n)# is the n-th primorial.",
   "id": "A088588",
-  "mentions": [],
+  "mentions": [
+    "A002110",
+    "A088589"
+  ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "dumb",
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "joeis"
   }
 }

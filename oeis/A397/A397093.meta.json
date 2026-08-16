@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative numbers with palindromic canonical snowball representation.",
+  "id": "A397093",
+  "mentions": [
+    "A046807",
+    "A397794"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

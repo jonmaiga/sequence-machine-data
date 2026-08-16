@@ -1,0 +1,23 @@
+{
+  "description": "Number of relations R on an n-element set such that the transitive closure of R has exactly eight elements more than R.",
+  "id": "A396220",
+  "mentions": [
+    "A006905",
+    "A395083",
+    "A395919",
+    "A395920",
+    "A396053",
+    "A396054",
+    "A396055"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

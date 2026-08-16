@@ -4,8 +4,10 @@
   "mentions": [
     "A000142",
     "A001044",
+    "A010551",
     "A134435",
-    "A136715"
+    "A136715",
+    "A145889"
   ],
   "tags": [
     "formulas",
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

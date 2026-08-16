@@ -2,7 +2,11 @@
   "description": "Number of ways that a directed line (or river) that starts in the south can cross an east-west road n times.",
   "id": "A077014",
   "mentions": [
-    "A005316"
+    "A000136",
+    "A000682",
+    "A005316",
+    "A223093",
+    "A223095"
   ],
   "tags": [
     "formulas",
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

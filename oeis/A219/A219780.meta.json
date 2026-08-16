@@ -1,7 +1,8 @@
 {
-  "description": "G.f.: 1 = Sum_{n>=0} a(n) * x^n * (1 - (n+1)*x)^4.",
+  "description": "1 = Sum_{n>=0} a(n) * x^n * (1 - (n+1)*x)^4.",
   "id": "A219780",
   "mentions": [
+    "A000142",
     "A002720",
     "A219779"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

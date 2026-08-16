@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest integer area attainable by a polygon with side lengths divisors(A005101(n)).",
+  "id": "A396223",
+  "mentions": [
+    "A000531",
+    "A005101",
+    "A386538",
+    "A386539",
+    "A389414"
+  ],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

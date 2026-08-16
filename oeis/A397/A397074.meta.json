@@ -1,0 +1,19 @@
+{
+  "description": "Number of NPN-equivalence classes of Boolean functions of n variables whose sensitivity is equal to n.",
+  "id": "A397074",
+  "mentions": [
+    "A000370",
+    "A397075",
+    "A397076"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

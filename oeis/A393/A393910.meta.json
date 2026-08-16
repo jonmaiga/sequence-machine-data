@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p for which, for every i with 1 <= i <= n, the numbers p - i and p + i have the same number of divisors.",
+  "description": "Smallest prime p for which, for every i with 1 <= i <= n, the numbers p - i and p + i have the same number of divisors.",
   "id": "A393910",
   "mentions": [
     "A005237",

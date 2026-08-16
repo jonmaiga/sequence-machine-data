@@ -1,0 +1,16 @@
+{
+  "description": "Binary colorings of the sunlet graph S_n up to rotation, with no monochromatic connected component of size 3 or more.",
+  "id": "A396670",
+  "mentions": [
+    "A001868"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 31,
+    "source": "joeis"
+  }
+}

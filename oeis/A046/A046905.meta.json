@@ -1,5 +1,5 @@
 {
-  "description": "Posets with n points with property that there is no nonsingelton proper subset T for which x not in T implies xT or x incomparable with every element of T.",
+  "description": "Number of posets with n points with property that there is no nonsingleton proper subset T for which x not in T implies xT or x incomparable with every element of T.",
   "id": "A046905",
   "mentions": [
     "A000798",
@@ -7,6 +7,7 @@
     "A046904"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,16 @@
+{
+  "description": "Number of assembly trees for the n-barbell graph.",
+  "id": "A397744",
+  "mentions": [
+    "A193229"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

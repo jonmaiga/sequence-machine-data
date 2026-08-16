@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of the probability that the unique (n-1)-sphere passing through n+1 points, selected independently and uniformly at random in an n-ball, is entirely contained within that n-ball, divided by Pi^2 if n is odd.",
+  "id": "A395211",
+  "mentions": [
+    "A395207",
+    "A395208",
+    "A395209",
+    "A395210",
+    "A395212",
+    "A395213",
+    "A395214"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

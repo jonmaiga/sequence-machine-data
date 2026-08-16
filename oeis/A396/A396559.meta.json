@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows: T(n,k) = numerator(CF(n,k)), where CF(n,k) = (1/k!) * Sum_{j=0..k} (-1)^j * binomial(k,j) * (3+k/2-j)^n.",
+  "id": "A396559",
+  "mentions": [
+    "A008957",
+    "A036969",
+    "A269945",
+    "A370703",
+    "A370705",
+    "A387597",
+    "A390029",
+    "A392337",
+    "A394466",
+    "A394692",
+    "A395314",
+    "A395456",
+    "A395457",
+    "A395860",
+    "A395861",
+    "A395862"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

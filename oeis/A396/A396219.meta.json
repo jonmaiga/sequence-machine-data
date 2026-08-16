@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the reduction parameter for the solution 1+O(x^8) of the Feigenbaum-Cvitanovic equation.",
+  "id": "A396219",
+  "mentions": [
+    "A006891",
+    "A195102",
+    "A396218"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

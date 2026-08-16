@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} tau_3(floor(n/k)), where tau_3 = A007425 is the 3rd Piltz function.",
+  "id": "A398522",
+  "mentions": [
+    "A007425",
+    "A398523"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 can be expressed as x^3 + y^4 with positive integers x,y and gcd(n,x,y)=1.",
+  "description": "Numbers k such that k^2 can be expressed as x^3 + y^4 with positive integers x,y and gcd(k,x,y)=1.",
   "id": "A087210",
   "mentions": [
     "A087209"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

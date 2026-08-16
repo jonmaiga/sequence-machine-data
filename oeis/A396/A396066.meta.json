@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n) is the smallest positive integer not already in the sequence so that a(n)^4+a(n-1)^4 is prime.",
+  "id": "A396066",
+  "mentions": [
+    "A055265",
+    "A284047",
+    "A395028"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k cannot be written as m + t where m*t belongs to A055932.",
+  "id": "A395529",
+  "mentions": [
+    "A055932"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

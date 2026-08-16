@@ -1,5 +1,5 @@
 {
-  "description": "Total sum of positive ranks of all regions in the last shell of n.",
+  "description": "Total sum of positive ranks of all regions in the last section of the modular table of partitions of n.",
   "id": "A182377",
   "mentions": [
     "A000094",

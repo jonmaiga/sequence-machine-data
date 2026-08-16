@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of -1/(Sum_{k>=0} binomial(4*k+2,k) * x^k).",
+  "id": "A395797",
+  "mentions": [
+    "A002293",
+    "A007228",
+    "A257633",
+    "A337291",
+    "A386611",
+    "A395786",
+    "A395787",
+    "A395796"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

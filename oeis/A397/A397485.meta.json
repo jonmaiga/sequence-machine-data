@@ -1,0 +1,18 @@
+{
+  "description": "Octal encoding of the combinations of positions of the main beam and the two wings used to represent the 92 numbers of the Chappe telegraph code.",
+  "id": "A397485",
+  "mentions": [
+    "A397484"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

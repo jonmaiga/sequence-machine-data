@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (zeta(k)-1)*k^2/(k+1).",
+  "id": "A395411",
+  "mentions": [
+    "A001620",
+    "A013661",
+    "A075700",
+    "A396004"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

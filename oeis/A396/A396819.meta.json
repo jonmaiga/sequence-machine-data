@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 2*(18 - sqrt(5))/45.",
+  "id": "A396819",
+  "mentions": [
+    "A051050",
+    "A051051",
+    "A242780",
+    "A394805",
+    "A396660",
+    "A396820",
+    "A396821"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

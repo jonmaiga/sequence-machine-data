@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + a(n-3) + a(n-4), a(0) = 1, a(1) = 4, a(2) = 16, a(3) = 20.",
+  "id": "A394613",
+  "mentions": [
+    "A000045",
+    "A006498",
+    "A006499"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

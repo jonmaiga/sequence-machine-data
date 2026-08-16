@@ -1,11 +1,9 @@
 {
-  "description": "3 symbols taken seven at a time symmetrically.",
+  "description": "Limiting word of the morphism 1->1132311, 2->2213122, 3->3321233 starting from 1.",
   "id": "A106693",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

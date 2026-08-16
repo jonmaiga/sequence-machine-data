@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x^2*A(x)^4 / (1 - x*A(x)).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x^2*A(x)^4 / (1 - x*A(x)).",
   "id": "A365690",
   "mentions": [
     "A004148",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 29,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

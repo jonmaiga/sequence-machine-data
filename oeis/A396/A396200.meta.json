@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{i=0..n} binomial(2*i, i) * binomial(n - 2*i, k - i).",
+  "id": "A396200",
+  "mentions": [
+    "A000225",
+    "A000295",
+    "A000302",
+    "A027306",
+    "A032443",
+    "A054143",
+    "A204621",
+    "A396198",
+    "A396199"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

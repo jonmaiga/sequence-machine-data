@@ -1,14 +1,18 @@
 {
   "description": "Number of single-peaked preference orders on an n-set.",
   "id": "A246981",
-  "mentions": [],
+  "mentions": [
+    "A005806"
+  ],
   "tags": [
+    "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

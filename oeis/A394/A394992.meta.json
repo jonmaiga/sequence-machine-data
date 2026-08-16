@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} F(2*k)/k!, where F(n) is the n-th Fibonacci number, A000045(n).",
+  "id": "A394992",
+  "mentions": [
+    "A000045",
+    "A001113",
+    "A001622",
+    "A001906",
+    "A098689",
+    "A111139",
+    "A394993"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A133422, the number of iterations to reach 1 under the 7x+1 map A133421.",
+  "id": "A394628",
+  "mentions": [
+    "A133421",
+    "A133422",
+    "A394627"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

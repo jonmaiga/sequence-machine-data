@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the remainders k mod n over the distinct entries k of the n X n multiplication table.",
+  "id": "A398138",
+  "mentions": [
+    "A027424",
+    "A095026",
+    "A321165",
+    "A394016",
+    "A397038"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

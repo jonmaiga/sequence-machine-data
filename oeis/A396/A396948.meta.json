@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m with two or more digits such that if we insert a 0 between the units and tens digits we get a multiple of the original number.",
+  "id": "A396948",
+  "mentions": [
+    "A008592",
+    "A285176",
+    "A343550"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

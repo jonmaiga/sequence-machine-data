@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(16*x) * (1/(5-4*g)^4 - 1), where g = 1+x*g^5 is the g.f. of A002294.",
+  "id": "A395657",
+  "mentions": [
+    "A001700",
+    "A002294",
+    "A359660",
+    "A395655",
+    "A395656",
+    "A395660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

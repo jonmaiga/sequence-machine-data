@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the permanent of the symmetric tau(n) X tau(n) matrix M(n) defined by M(i,j) = gcd(d_i,d_j), where d_i, d_j run through the divisors of n.",
+  "id": "A395511",
+  "mentions": [
+    "A000005",
+    "A003989",
+    "A027750",
+    "A029940"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

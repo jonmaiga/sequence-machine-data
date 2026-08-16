@@ -1,7 +1,9 @@
 {
   "description": "Number of 1's in the partitions of n into 4 parts.",
   "id": "A335583",
-  "mentions": [],
+  "mentions": [
+    "A394828"
+  ],
   "tags": [
     "easy",
     "formulas",

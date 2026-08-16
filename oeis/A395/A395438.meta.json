@@ -1,0 +1,17 @@
+{
+  "description": "Largest divisor of n not exceeding 1 + sqrt(1 + 8*n)/2.",
+  "id": "A395438",
+  "mentions": [
+    "A027750"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

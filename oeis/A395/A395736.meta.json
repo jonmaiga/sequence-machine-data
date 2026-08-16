@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(5*k,k) * x^k)^5.",
+  "id": "A395736",
+  "mentions": [
+    "A001449",
+    "A079678",
+    "A394916",
+    "A395659",
+    "A395660",
+    "A395735"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

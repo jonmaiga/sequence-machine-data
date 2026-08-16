@@ -2,6 +2,7 @@
   "description": "Triangle T(n, k) read by rows; given by [1, 0, 0, 0, 0, ...] DELTA [1, 1, 2, 5, 14, 42, 132, 429, 1430, ...] (A000108) where DELTA is Deléham's operator defined in A084938.",
   "id": "A085792",
   "mentions": [
+    "A000007",
     "A000012",
     "A000108",
     "A005408",

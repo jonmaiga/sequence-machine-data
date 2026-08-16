@@ -2,9 +2,12 @@
   "description": "Smallest even number that is the sum of distinct primes in exactly n ways.",
   "id": "A055065",
   "mentions": [
-    "A001172"
+    "A001172",
+    "A061357",
+    "A087747"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

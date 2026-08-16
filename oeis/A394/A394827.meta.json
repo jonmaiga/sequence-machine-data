@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into 5 distinct parts containing the part 2.",
+  "id": "A394827",
+  "mentions": [
+    "A275216",
+    "A396011",
+    "A396058"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

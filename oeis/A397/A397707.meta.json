@@ -1,0 +1,17 @@
+{
+  "description": "Number of face-connected components of n polyhedral cells in the bisymmetric hendecahedral honeycomb, up to translation.",
+  "id": "A397707",
+  "mentions": [
+    "A001931",
+    "A385028"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

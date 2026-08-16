@@ -1,5 +1,5 @@
 {
-  "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; each k is an R(i(k),j(k)) and A057056(n)=j(C(n,3)).",
+  "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; each k is an R(i(k),j(k)) and a(n) = j(C(n,3)).",
   "id": "A057056",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 3,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

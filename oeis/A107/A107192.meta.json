@@ -1,7 +1,10 @@
 {
-  "description": "Primes of the form x^2 + 80y^2.",
+  "description": "Primes of the form x^2 + 80*y^2.",
   "id": "A107192",
   "mentions": [
+    "A000032",
+    "A033205",
+    "A047272",
     "A106856",
     "A107132"
   ],

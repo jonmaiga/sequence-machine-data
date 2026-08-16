@@ -2,10 +2,9 @@
   "description": "Decimal expansion of gamma(1+1/A394586).",
   "id": "A394587",
   "mentions": [
-    "A354585",
-    "A354586",
-    "A354588",
-    "A394586"
+    "A394585",
+    "A394586",
+    "A394588"
   ],
   "tags": [
     "cons",

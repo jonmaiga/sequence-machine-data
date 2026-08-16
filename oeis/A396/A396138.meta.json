@@ -1,0 +1,20 @@
+{
+  "description": "Minimum number of cells in a connected polyhex that admits an n-coloring such that every unordered pair of distinct colors shares at least one edge.",
+  "id": "A396138",
+  "mentions": [
+    "A000228",
+    "A001207",
+    "A135711",
+    "A278299"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

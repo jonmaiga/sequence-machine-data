@@ -2,7 +2,10 @@
   "description": "Expansion of (1-x)^3/(1-4x+5x^2-4x^3+x^4).",
   "id": "A109961",
   "mentions": [
-    "A109960"
+    "A001519",
+    "A010892",
+    "A109960",
+    "A113066"
   ],
   "tags": [
     "easy",

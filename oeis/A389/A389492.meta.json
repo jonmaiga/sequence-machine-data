@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the maximum y value of y=x^(x^-y) and y=x^(-x/y).",
   "id": "A389492",
   "mentions": [
+    "A001113",
     "A141251",
     "A202357",
     "A248200"

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 4^k * H(k) / (k^2 * binomial(2*k,k)), where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A398394",
+  "mentions": [
+    "A000984",
+    "A001008",
+    "A002117",
+    "A002162",
+    "A002805",
+    "A013661"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

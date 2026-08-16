@@ -1,16 +1,17 @@
 {
-  "description": "Hilltop maps: number of n X 4 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal or antidiagonal neighbor in a random 0..1 n X 4 array.",
+  "description": "Number of n X 4 binary arrays with every 0 a horizontal or antidiagonal neighbor to some 1.",
   "id": "A221442",
   "mentions": [
     "A221446"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

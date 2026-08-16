@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) = P(n, k, 1) where P(n, k, x) = (1/k!) * Sum_{j=0..k}((-1)^(k - j) * binomial(k, j) * (n + x + j)^n).",
+  "id": "A397333",
+  "mentions": [
+    "A000169",
+    "A005449",
+    "A071207",
+    "A088956",
+    "A124824",
+    "A395288",
+    "A397048",
+    "A397329",
+    "A397331",
+    "A397332"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

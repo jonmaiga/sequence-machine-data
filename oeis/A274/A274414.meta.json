@@ -2,6 +2,8 @@
   "description": "Decimal expansion of V_2N, a Quantum Field Theory constant related to the coloring of the tetrahedron with two masses (non-adjacent case).",
   "id": "A274414",
   "mentions": [
+    "A002117",
+    "A013662",
     "A255685",
     "A274412",
     "A274413",

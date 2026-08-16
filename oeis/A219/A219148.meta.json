@@ -1,10 +1,11 @@
 {
-  "description": "Unchanging value maps: number of 7Xn binary arrays indicating the locations of corresponding elements unequal to no horizontal, diagonal or antidiagonal neighbor in a random 0..2 7Xn array.",
+  "description": "Unchanging value maps: number of 7 X n binary arrays indicating the locations of corresponding elements unequal to no horizontal, diagonal or antidiagonal neighbor in a random 0..2 7 X n array.",
   "id": "A219148",
   "mentions": [
     "A219142"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

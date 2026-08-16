@@ -1,0 +1,19 @@
+{
+  "description": "First column of the triangular array with T(0, m) = m! and T(n, m) = T(n - 1, m + 3) - 2*T(n - 1, m + 2) + T(n - 1, m + 1).",
+  "id": "A395764",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A033815",
+    "A392154"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "The number of integers in [1,10^n] that can be written as the sum of three positive cubes.",
+  "id": "A397299",
+  "mentions": [
+    "A003072"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

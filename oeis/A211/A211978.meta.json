@@ -2,8 +2,10 @@
   "description": "Total number of parts in all partitions of n plus the sum of largest parts of all partitions of n.",
   "id": "A211978",
   "mentions": [
+    "A000005",
     "A000041",
     "A006128",
+    "A062011",
     "A066186",
     "A135010",
     "A139582",
@@ -18,7 +20,8 @@
     "A220517",
     "A220909",
     "A225600",
-    "A278355"
+    "A278355",
+    "A396730"
   ],
   "tags": [
     "formulas",

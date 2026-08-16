@@ -1,0 +1,35 @@
+{
+  "description": "Square matrix where the n-th row lists the odd numbers which take n steps to reach 1 under the reduced Collatz map R: x -> A000265(3x+1), read by falling antidiagonals.",
+  "id": "A395428",
+  "mentions": [
+    "A000265",
+    "A002450",
+    "A005408",
+    "A006370",
+    "A006667",
+    "A007814",
+    "A014682",
+    "A075677",
+    "A075680",
+    "A110654",
+    "A139391",
+    "A198584",
+    "A198587",
+    "A198588",
+    "A198589",
+    "A198590",
+    "A198591",
+    "A198592",
+    "A198593"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,13 @@
   "description": "Theta series of A15 packing with respect to point (0,1,2).",
   "id": "A063864",
   "mentions": [
-    "A063863"
+    "A045831",
+    "A063863",
+    "A213624",
+    "A329290"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

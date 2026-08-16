@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) is the number of permutation graphs on n vertices with domination number k, with 1 <= k <= n.",
   "id": "A320578",
   "mentions": [
+    "A000142",
     "A320579",
     "A320583"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer partitions of 2n with reverse-alternating sum >= 0.",
+  "description": "Number of integer partitions of 2*n with reverse-alternating sum >= 0.",
   "id": "A344611",
   "mentions": [
     "A000041",
@@ -43,6 +43,6 @@
   "terms": {
     "offset": 0,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

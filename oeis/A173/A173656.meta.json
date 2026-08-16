@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p^2 divides P(p), where P = Perrin sequence A001608.",
+  "id": "A173656",
+  "mentions": [
+    "A001608",
+    "A013998"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

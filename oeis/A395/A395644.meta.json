@@ -1,0 +1,20 @@
+{
+  "description": "Number of fibered prime knots with n crossings.",
+  "id": "A395644",
+  "mentions": [
+    "A002863",
+    "A002864",
+    "A051449",
+    "A051763"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

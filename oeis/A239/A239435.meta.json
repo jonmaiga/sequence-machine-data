@@ -1,5 +1,5 @@
 {
-  "description": "Values of n for which the equation x^2 - 25*y^2 = n has integer solutions.",
+  "description": "Values of k for which the equation x^2 - 25*y^2 = k has integer solutions.",
   "id": "A239435",
   "mentions": [
     "A042965",
@@ -8,6 +8,7 @@
     "A239434"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

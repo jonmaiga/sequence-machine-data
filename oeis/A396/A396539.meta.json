@@ -1,0 +1,20 @@
+{
+  "description": "Number of bracelets (turnover necklaces) of length 4 using exactly 4 colors, where the colors are chosen from a palette of size N = A000081(n) (the number of unlabeled rooted trees with n nodes), and each color corresponds to a distinct tree shape.",
+  "id": "A396539",
+  "mentions": [
+    "A000081",
+    "A214309",
+    "A214312",
+    "A321791",
+    "A338859"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 17,
+    "source": "joeis"
+  }
+}

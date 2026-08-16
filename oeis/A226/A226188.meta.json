@@ -2,16 +2,17 @@
   "description": "Least positive integer k such that 1 + 1/2 + ... + 1/k > 2n/3.",
   "id": "A226188",
   "mentions": [
+    "A002387",
     "A226186",
     "A226187"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

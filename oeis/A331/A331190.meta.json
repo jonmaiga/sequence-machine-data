@@ -1,7 +1,9 @@
 {
   "description": "Expansion of (-5*(9 - 6*x + 2*x^2))/(-1 + x)^3.",
   "id": "A331190",
-  "mentions": [],
+  "mentions": [
+    "A001622"
+  ],
   "tags": [
     "easy",
     "formulas",

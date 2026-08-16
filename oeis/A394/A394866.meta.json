@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the number of integers m in [2^(n-1)..3^(n-1) - 1] such that A000005(m) = n.",
+  "id": "A394866",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A002808",
+    "A008578",
+    "A024023",
+    "A390951",
+    "A393179",
+    "A394226",
+    "A395379",
+    "A395380",
+    "A395381"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the generalized log-sine integral with k = 0, n = 3, m = 3, from {0 .. 4 Pi/3} (negated).",
+  "description": "Decimal expansion of the generalized log-sine integral with k = 0, n = 3, m = 3, from {0 .. 4*Pi/3} (negated).",
   "id": "A380205",
   "mentions": [
     "A379042",

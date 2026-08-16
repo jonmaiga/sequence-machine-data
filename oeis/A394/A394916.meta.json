@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(5*k,k) * x^k)^3.",
+  "id": "A394916",
+  "mentions": [
+    "A001449",
+    "A002457",
+    "A079678",
+    "A378483",
+    "A378503",
+    "A395660",
+    "A395735",
+    "A395736"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sqrt(2/5+1 / sqrt(5)).",
+  "description": "Decimal expansion of sqrt(2/5 + 1/sqrt(5)).",
   "id": "A388935",
   "mentions": [
     "A261968"

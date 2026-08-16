@@ -1,0 +1,22 @@
+{
+  "description": "Even powerful numbers that are not powers of squarefree numbers.",
+  "id": "A395067",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A005843",
+    "A061742",
+    "A072777",
+    "A359280"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

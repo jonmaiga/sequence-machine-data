@@ -1,9 +1,11 @@
 {
-  "description": "E.g.f. satisfies A'(x) = 1 + A(A(x)), A(0)=0.",
+  "description": "E.g.f. A(x) satisfies A'(x) = 1 + A(A(x)), with A(0) = 0.",
   "id": "A001028",
   "mentions": [
     "A030266",
-    "A035049"
+    "A035049",
+    "A193098",
+    "A193099"
   ],
   "tags": [
     "eigen",

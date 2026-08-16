@@ -1,5 +1,5 @@
 {
-  "description": "Nonprimes n such that Mod(n,4) == 1 and denominator(Fibonacci((n-1)/4)/n) = 1.",
+  "description": "Nonprimes k such that Mod(k,4) == 1 and denominator(Fibonacci((k-1)/4)/k) = 1.",
   "id": "A091982",
   "mentions": [
     "A047272"

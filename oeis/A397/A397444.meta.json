@@ -1,0 +1,21 @@
+{
+  "description": "Anion excess of a saturated rock-salt (NaCl) cube with n atoms along each edge: a(n) = 3*n^2 + 1 - (-1)^n.",
+  "id": "A397444",
+  "mentions": [
+    "A003215",
+    "A036486",
+    "A036487",
+    "A045943",
+    "A139274"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

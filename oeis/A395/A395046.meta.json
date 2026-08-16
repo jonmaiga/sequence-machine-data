@@ -1,0 +1,19 @@
+{
+  "description": "Start of a run of n consecutive positive numbers divisible respectively by the first n primes in increasing or decreasing order.",
+  "id": "A395046",
+  "mentions": [
+    "A000040",
+    "A069561",
+    "A112798",
+    "A187930"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

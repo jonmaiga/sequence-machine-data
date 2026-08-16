@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the median distance between two points independently and uniformly selected at random one on each of two opposite faces of a unit cube.",
+  "id": "A395939",
+  "mentions": [
+    "A395017",
+    "A395937",
+    "A395940"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

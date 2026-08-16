@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = fewest number of integers 1..n in a sequence, S, that gets to the maximal possible value as recorded by A395717.",
+  "id": "A395863",
+  "mentions": [
+    "A395717"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of convexities on an n set induced by preorders.",
+  "id": "A396988",
+  "mentions": [
+    "A102894",
+    "A364656",
+    "A367422"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The rows of A397173 converge to this sequence.",
+  "id": "A397174",
+  "mentions": [
+    "A394611",
+    "A397173",
+    "A397175",
+    "A397176",
+    "A397471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

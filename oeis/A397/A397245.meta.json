@@ -1,0 +1,20 @@
+{
+  "description": "O.g.f. satisfies A(x) = exp( x + Sum_{n>=2} (4*n^2-1) * a(n)*x^n / (4*n^2) ).",
+  "id": "A397245",
+  "mentions": [
+    "A038464",
+    "A396846",
+    "A397241",
+    "A397242",
+    "A397244"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

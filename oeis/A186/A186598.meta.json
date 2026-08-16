@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+3)X11 0..3 arrays with every 4X4 subblock commuting with each horizontal and vertical neighbor 4X4 subblock.",
+  "description": "Number of (n+3) X 11 0..3 arrays with every 4 X 4 subblock commuting with each horizontal and vertical neighbor 4 X 4 subblock.",
   "id": "A186598",
   "mentions": [
     "A186599"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 21,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k + omega(k) is prime.",
+  "id": "A397148",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A229109"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

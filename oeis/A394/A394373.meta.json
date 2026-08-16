@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least integer that is a vampire number in base n (see A014575 for base 10).",
+  "id": "A394373",
+  "mentions": [
+    "A014575",
+    "A392325"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

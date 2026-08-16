@@ -1,5 +1,5 @@
 {
-  "description": "Largest part of the n-th row of the table version \"mirror\" of the shell model of partitions of A135010 and A182980.",
+  "description": "Largest part of the n-th row of the table version \"mirror\" of the modular table of partitions of A135010 and A182980.",
   "id": "A182985",
   "mentions": [
     "A135010",

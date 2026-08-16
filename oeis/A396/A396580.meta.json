@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of n-digit terms in A396579.",
+  "id": "A396580",
+  "mentions": [
+    "A011557",
+    "A063945",
+    "A192689",
+    "A396579",
+    "A396618"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

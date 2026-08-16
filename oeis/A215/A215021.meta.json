@@ -2,6 +2,7 @@
   "description": "a(n) = A118478(n)*(A118478(n)+1) divided by the product of the first n primes.",
   "id": "A215021",
   "mentions": [
+    "A002072",
     "A002110",
     "A118478",
     "A214089",

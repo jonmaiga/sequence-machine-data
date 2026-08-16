@@ -2,9 +2,12 @@
   "description": "Number of 2 X 2 matrices having all elements in {0,1,...,n} and determinant 5.",
   "id": "A209977",
   "mentions": [
+    "A002088",
     "A210000"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

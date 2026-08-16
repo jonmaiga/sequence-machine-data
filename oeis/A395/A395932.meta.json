@@ -1,0 +1,16 @@
+{
+  "description": "Main diagonal of A396981.",
+  "id": "A395932",
+  "mentions": [
+    "A002024",
+    "A396981"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

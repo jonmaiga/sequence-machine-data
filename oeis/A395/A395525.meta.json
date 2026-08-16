@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the median of the distribution of distances between two points in two adjacent unit squares that share a common edge.",
+  "id": "A395525",
+  "mentions": [
+    "A135707",
+    "A394608",
+    "A395524"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

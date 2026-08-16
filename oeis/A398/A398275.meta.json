@@ -1,0 +1,16 @@
+{
+  "description": "Number of simple connected graphs on n unlabeled vertices with mutual-visibility number 3.",
+  "id": "A398275",
+  "mentions": [
+    "A398274"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

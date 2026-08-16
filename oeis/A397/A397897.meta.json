@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{j=1..n} (-1)^(j+1) * j * prime(n-j+1).",
+  "id": "A397897",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A008347",
+    "A014148",
+    "A014285",
+    "A014342",
+    "A023662",
+    "A330547"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

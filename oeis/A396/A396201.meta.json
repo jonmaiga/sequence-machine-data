@@ -1,0 +1,27 @@
+{
+  "description": "a(x) = psi * phi^(-x) + (1 - psi) * (-phi)^x, where phi = (1 + sqrt(5)) / 2 and psi = phi^4 / sqrt(5) - 1, evaluated at the nonnegative integers.",
+  "id": "A396201",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000285",
+    "A001622",
+    "A013655",
+    "A054486",
+    "A189961",
+    "A395973",
+    "A396202",
+    "A396582",
+    "A396583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

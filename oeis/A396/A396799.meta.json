@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(-x) * A(A(x)).",
+  "id": "A396799",
+  "mentions": [
+    "A087961",
+    "A087962",
+    "A140054"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

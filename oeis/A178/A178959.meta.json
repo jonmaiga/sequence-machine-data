@@ -2,10 +2,13 @@
   "description": "Decimal expansion of the site percolation threshold for the (3,6,3,6) Kagome Archimedean lattice.",
   "id": "A178959",
   "mentions": [
+    "A000007",
     "A130880",
     "A174849",
+    "A220052",
     "A332437",
-    "A332438"
+    "A332438",
+    "A396706"
   ],
   "tags": [
     "cons",

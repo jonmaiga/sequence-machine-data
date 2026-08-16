@@ -2,7 +2,8 @@
   "description": "Number of minimal unit-distance forbidden graph minors on n vertices.",
   "id": "A308349",
   "mentions": [
-    "A059103"
+    "A059103",
+    "A227117"
   ],
   "tags": [
     "hard",

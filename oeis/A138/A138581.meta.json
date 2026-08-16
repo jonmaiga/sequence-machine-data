@@ -1,14 +1,26 @@
 {
-  "description": "Numbers n such that 2^(2*n-15)-15 is prime.",
+  "description": "Numbers k such that 2^(2*k-15) - 15 is prime.",
   "id": "A138581",
-  "mentions": [],
+  "mentions": [
+    "A138577",
+    "A138578",
+    "A138579",
+    "A138580",
+    "A138582",
+    "A138598",
+    "A138599",
+    "A138600",
+    "A138601",
+    "A138602",
+    "A138603"
+  ],
   "tags": [
-    "easy",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

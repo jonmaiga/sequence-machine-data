@@ -1,5 +1,5 @@
 {
-  "description": "Noncrossing forests in the regular (n+1)-polygon obtained by a grafting procedure.",
+  "description": "Number of noncrossing forests in the regular (n+1)-polygon obtained by a grafting procedure.",
   "id": "A200757",
   "mentions": [
     "A001764",

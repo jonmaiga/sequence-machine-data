@@ -2,7 +2,8 @@
   "description": "Number of sequences of balls colored with at most n colors such that exactly three balls are of a color seen earlier in the sequence.",
   "id": "A292880",
   "mentions": [
-    "A292879"
+    "A292879",
+    "A394825"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

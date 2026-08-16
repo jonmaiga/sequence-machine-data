@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of permutations of 0..n with a zero n-th difference.",
+  "description": "Half the number of permutations of 1..(n+1) with a zero n-th difference.",
   "id": "A131502",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

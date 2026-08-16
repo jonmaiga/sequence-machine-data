@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability that Buffon's needle will not land on any line when dropped on a triangular tiling in which the altitude of each triangle equals the length of the needle.",
+  "id": "A396028",
+  "mentions": [
+    "A060294",
+    "A089491",
+    "A102519",
+    "A240935",
+    "A396029"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of 1,2,...,n satisfying p(i+6)-p(i)<>6 for all 1<=i<=n-6.",
+  "description": "Number of permutations p of [n] satisfying p(i+6)-p(i)<>6 for all 1<=i<=n-6.",
   "id": "A189285",
   "mentions": [
     "A000255",

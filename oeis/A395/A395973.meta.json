@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the solution of phi^(2*x)*cos(Pi*x) = (27 + 7*sqrt(5))/22, where phi = (1 + sqrt(5)) / 2.",
+  "id": "A395973",
+  "mentions": [
+    "A001622",
+    "A396201"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

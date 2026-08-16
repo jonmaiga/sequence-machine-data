@@ -1,7 +1,9 @@
 {
   "description": "Constant sequence: a(n) = 11.",
   "id": "A010850",
-  "mentions": [],
+  "mentions": [
+    "A244593"
+  ],
   "tags": [
     "easy",
     "formulas",

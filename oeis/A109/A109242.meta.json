@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)(1-10x)(1-100x)).",
+  "description": "Expansion of 1/((1-x)*(1-10*x)*(1-100*x)).",
   "id": "A109242",
   "mentions": [
     "A109241"

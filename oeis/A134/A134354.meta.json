@@ -1,5 +1,5 @@
 {
-  "description": "Integer nearest to expression 2 Pi n^(2 n + 1) e^(-2 n).",
+  "description": "Integer nearest to expression 2*Pi*n^(2*n + 1)*e^(-2*n).",
   "id": "A134354",
   "mentions": [
     "A001044"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

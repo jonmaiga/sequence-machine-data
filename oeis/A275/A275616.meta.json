@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that n and omega(n) are relatively prime, where omega(n) (A001221) is the number of distinct prime divisors of n.",
+  "description": "Numbers k such that k and omega(k) are relatively prime, where omega(n) (A001221) is the number of distinct prime divisors of n.",
   "id": "A275616",
   "mentions": [
     "A001221",
     "A063743"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the maximum width of a Reuleaux tetrahedron based on a tetrahedron with unit edge lengths.",
+  "id": "A395679",
+  "mentions": [
+    "A002194",
+    "A010503",
+    "A102888",
+    "A202473"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

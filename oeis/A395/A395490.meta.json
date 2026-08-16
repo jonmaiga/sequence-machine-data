@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: coefficients of reciprocal polynomials refining A367255.",
+  "id": "A395490",
+  "mentions": [
+    "A108267",
+    "A367255",
+    "A394704",
+    "A395571"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

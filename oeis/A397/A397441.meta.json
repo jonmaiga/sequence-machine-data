@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of partitions of n into parts of the form 2^r*(2^s - 1) with each r distinct.",
+  "id": "A397441",
+  "mentions": [
+    "A023758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

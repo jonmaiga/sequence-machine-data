@@ -2,6 +2,7 @@
   "description": "a(1) = 1, a(n) = smallest prime number not occurring earlier such that the concatenation a(n-1) and a(n) is a prime.",
   "id": "A075609",
   "mentions": [
+    "A073641",
     "A075607",
     "A075608",
     "A075610"

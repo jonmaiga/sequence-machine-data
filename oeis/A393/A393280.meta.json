@@ -1,0 +1,21 @@
+{
+  "description": "Minimum k such that k^6 can be expressed as the sum of n distinct positive 6th powers.",
+  "id": "A393280",
+  "mentions": [
+    "A018935",
+    "A130012",
+    "A130022",
+    "A252476",
+    "A252486",
+    "A261572",
+    "A394979"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

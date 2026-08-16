@@ -1,0 +1,19 @@
+{
+  "description": "Number of fully indecomposable n X n matrices with all entries 0 or 1.",
+  "id": "A397506",
+  "mentions": [
+    "A326342",
+    "A326343"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Primes q such that p-1 | q-1 or q-1 | p-1 for every prime p | 2^(q-1)-1.",
   "id": "A334797",
   "mentions": [
-    "A005385"
+    "A005385",
+    "A099596"
   ],
   "tags": [
     "hard",

@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of minimum feedback vertex sets in the grid graph P_n X P_k.",
+  "id": "A398271",
+  "mentions": [
+    "A360918",
+    "A398244",
+    "A398270",
+    "A398272",
+    "A398273"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

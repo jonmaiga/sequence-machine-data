@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of edge-collision walks of length k from a fixed vertex on the complete directed graph with self-loops on n labeled vertices that visit all n vertices; n >= 1, n+1 <= k <= n^2+1.",
+  "id": "A396659",
+  "mentions": [
+    "A000142",
+    "A036740",
+    "A093964",
+    "A396427",
+    "A396606"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

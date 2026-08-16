@@ -1,0 +1,17 @@
+{
+  "description": "Diagonal of rational function 1/(1 - (x + y + z + w + x^2*y*z*w)).",
+  "id": "A398292",
+  "mentions": [
+    "A006139",
+    "A361737"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

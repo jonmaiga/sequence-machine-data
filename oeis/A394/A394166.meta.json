@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers whose binary plot has no two pixels at a knights' move's distance.",
+  "id": "A394166",
+  "mentions": [
+    "A109812",
+    "A396189",
+    "A396190",
+    "A396191",
+    "A396192",
+    "A396426",
+    "A396484"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

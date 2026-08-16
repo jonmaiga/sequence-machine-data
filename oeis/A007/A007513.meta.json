@@ -2,12 +2,14 @@
   "description": "a(n) = initial prime of n consecutive primes such that first and last have same digit sum.",
   "id": "A007513",
   "mentions": [
+    "A000040",
     "A007605",
     "A007953"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "look",
     "nice",
     "nonn"

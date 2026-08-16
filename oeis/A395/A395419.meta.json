@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k = x + y, such that sigma(x) + sigma(y) = 2*(x+y).",
+  "id": "A395419",
+  "mentions": [
+    "A000203",
+    "A383268",
+    "A395420"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

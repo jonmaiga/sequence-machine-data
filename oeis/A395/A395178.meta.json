@@ -1,0 +1,18 @@
+{
+  "description": "Squares of Mersenne prime exponents A000043.",
+  "id": "A395178",
+  "mentions": [
+    "A000043",
+    "A000290",
+    "A085724"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

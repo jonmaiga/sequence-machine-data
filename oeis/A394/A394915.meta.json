@@ -1,0 +1,17 @@
+{
+  "description": "Consider the following process: at step n, draw the line passing through the points (n, prime(n)) and (n+1, prime(n+1)). a(n) gives the total number of distinct single-point line intersections after step n.",
+  "id": "A394915",
+  "mentions": [
+    "A373813",
+    "A375422",
+    "A394225"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

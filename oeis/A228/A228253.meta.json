@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime that does not divide at least one n-digit pandigital number.",
+  "description": "Smallest prime that does not divide any n-digit pandigital number.",
   "id": "A228253",
   "mentions": [
     "A182051",

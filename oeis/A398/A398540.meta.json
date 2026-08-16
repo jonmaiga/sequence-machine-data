@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the asymptotic ratio r_inf = lim_{n->oo} W(n+1)/W(n), where W(n) is the winning probability of the proportional placement game with n slots, very popular on TikTok, known as 'the Number Challenge'.",
+  "id": "A398540",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

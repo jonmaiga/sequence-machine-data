@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer partitions of 2*n with reverse-alternating sum 8.",
+  "id": "A396091",
+  "mentions": [
+    "A000041",
+    "A344610",
+    "A396075"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

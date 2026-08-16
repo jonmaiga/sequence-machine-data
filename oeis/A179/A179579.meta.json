@@ -1,14 +1,26 @@
 {
-  "description": "Number of permutations of 1..n+4 with the number moved left exceeding the number moved right by n or more.",
+  "description": "Number of permutations of {1, ..., n+4} with p(i) < i at least n times more often than p(i) > i.",
   "id": "A179579",
-  "mentions": [],
+  "mentions": [
+    "A062866",
+    "A179564",
+    "A179565",
+    "A179566",
+    "A179570",
+    "A179571",
+    "A179578",
+    "A179580",
+    "A179582",
+    "A179586"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 31,
     "source": "joeis"
   }
 }

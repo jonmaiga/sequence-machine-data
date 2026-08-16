@@ -1,0 +1,18 @@
+{
+  "description": "Composite squarefree numbers k such that k' + 2*k is a perfect square, where k' is the arithmetic derivative of k (A003415).",
+  "id": "A396915",
+  "mentions": [
+    "A003415",
+    "A005117",
+    "A120944"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

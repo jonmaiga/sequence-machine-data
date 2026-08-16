@@ -1,0 +1,19 @@
+{
+  "description": "Length of row n in irregular triangle A397178.",
+  "id": "A397180",
+  "mentions": [
+    "A394611",
+    "A397173",
+    "A397178",
+    "A397179"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

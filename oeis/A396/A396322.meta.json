@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x)*(cosh(x)-1)*(sinh(x)-x).",
+  "id": "A396322",
+  "mentions": [
+    "A174395",
+    "A395947",
+    "A395948"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

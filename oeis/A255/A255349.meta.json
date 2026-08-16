@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n(n+1) is divisible by some m(m+1) with none of {n, n+1} divisible by any of {m, m+1}.",
+  "description": "Numbers k such that k*(k+1) is divisible by some m*(m+1) with none of {k, k+1} divisible by any of {m, m+1}.",
   "id": "A255349",
   "mentions": [
     "A074851",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

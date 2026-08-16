@@ -1,5 +1,5 @@
 {
-  "description": "Number of polygon edges formed when every pair of vertices of a regular (2n-1)-gon are joined by an infinite line.",
+  "description": "Number of polygon edges formed when every pair of vertices of a regular (2n-1)-gon is joined by an infinite line.",
   "id": "A344907",
   "mentions": [
     "A007678",
@@ -20,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

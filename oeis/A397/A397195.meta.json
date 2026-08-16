@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)*H(2*k)/k, where H(k) = where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A397195",
+  "mentions": [
+    "A001008",
+    "A002162",
+    "A002805",
+    "A013661",
+    "A374677",
+    "A397196",
+    "A397197",
+    "A397198"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

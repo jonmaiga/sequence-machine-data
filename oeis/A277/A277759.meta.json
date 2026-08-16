@@ -2,6 +2,9 @@
   "description": "a(n) equals the coefficient of x^n in n!*(1 - log(1-x))^n.",
   "id": "A277759",
   "mentions": [
+    "A038037",
+    "A055349",
+    "A138013",
     "A226572",
     "A277409"
   ],

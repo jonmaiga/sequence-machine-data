@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = T(n, k+1) - T(n-1, k) with initial values T(n, n) = A005043(n).",
+  "id": "A397604",
+  "mentions": [
+    "A005043",
+    "A126930",
+    "A397601"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

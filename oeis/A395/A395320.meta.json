@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the conjecturally maximum possible volume of a polyhedron with 14 vertices inscribed in the unit sphere.",
+  "id": "A395320",
+  "mentions": [
+    "A081314",
+    "A081366",
+    "A339259",
+    "A339263"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

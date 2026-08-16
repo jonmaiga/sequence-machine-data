@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 2; a(n) = smallest multiple of a(n-1), not a multiple of 10, that contains all the digits of a(n-1).",
+  "description": "a(0) = 2; a(n) = smallest multiple of a(n-1), greater than a(n-1) and not a multiple of 10, that contains all the digits of a(n-1).",
   "id": "A077696",
   "mentions": [
     "A077697"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
-    "source": "joeis"
+    "size": 14,
+    "source": "oeis-bfile"
   }
 }

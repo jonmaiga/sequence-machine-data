@@ -1,0 +1,18 @@
+{
+  "description": "Least odd integer between 2^n and 2^(n+1)-1 with maximum dropping time under the Collatz map A014682.",
+  "id": "A398447",
+  "mentions": [
+    "A014682",
+    "A126241",
+    "A398473"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

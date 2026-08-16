@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive tessellations of paths of length n in the square lattice, reduced for symmetry (with rotations, reflections, and translations not counted as distinct).",
+  "id": "A394184",
+  "mentions": [
+    "A000203",
+    "A037245",
+    "A067769",
+    "A145393",
+    "A393645"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

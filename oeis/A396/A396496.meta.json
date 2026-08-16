@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as a sum n = 0 + 1 + 2 +- 3 +- 4 ... +- m with nonnegative partial sums and minimal m >= 0 allowing at least one way.",
+  "id": "A396496",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A397365",
+    "A397488"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

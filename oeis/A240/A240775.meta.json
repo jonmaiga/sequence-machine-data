@@ -1,9 +1,12 @@
 {
   "description": "The six values n in each interval [i*840, (i+1)*840), where i >= 0, for which Mordell's formulas do NOT provide a three-Egyptian-fraction solution for 4/n.",
   "id": "A240775",
-  "mentions": [],
+  "mentions": [
+    "A139665"
+  ],
   "tags": [
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

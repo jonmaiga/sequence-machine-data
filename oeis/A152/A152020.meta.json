@@ -1,11 +1,12 @@
 {
-  "description": "Denominator of 8/(9n^2) divided by 9.",
+  "description": "Denominator of 8/(9*n^2) divided by 9.",
   "id": "A152020",
   "mentions": [
     "A152018",
     "A195055"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

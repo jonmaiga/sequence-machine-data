@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of (3*e)/2 - 3*e^2 + e^3.",
   "id": "A091133",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A091131",
+    "A091132"
+  ],
   "tags": [
     "cons",
     "easy",

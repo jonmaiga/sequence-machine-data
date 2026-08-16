@@ -1,5 +1,5 @@
 {
-  "description": "Successive approximations to 11-adic integer sqrt(3).",
+  "description": "Successive approximations to the 11-adic integer sqrt(3).",
   "id": "A034946",
   "mentions": [
     "A321072"

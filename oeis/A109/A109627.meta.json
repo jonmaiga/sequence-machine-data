@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that concatenation of k and its 10's complement is a palindromic prime.",
   "id": "A109627",
-  "mentions": [],
+  "mentions": [
+    "A109625"
+  ],
   "tags": [
     "base",
     "nonn"

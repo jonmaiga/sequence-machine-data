@@ -1,11 +1,9 @@
 {
-  "description": "Count down Pisot cubic substitution with characteristic polynomial:x^3-3*x^2-2*x-1.",
+  "description": "1-limiting word of the morphism 1->113231, 2->3, 3->1.",
   "id": "A107335",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

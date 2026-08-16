@@ -1,5 +1,5 @@
 {
-  "description": "Quadrinomial coefficients.",
+  "description": "Coefficient of x^(3*n-1) and of x^(3*n+1) in the expansion of (1+x+x^2+x^3)^(2*n).",
   "id": "A005724",
   "mentions": [
     "A005712",

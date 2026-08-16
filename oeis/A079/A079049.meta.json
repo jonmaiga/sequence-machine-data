@@ -2,7 +2,8 @@
   "description": "Recamán variation: a(1) = 1; for n > 1, a(n) = a(n-1)-prime(n) if that number is positive and not already in the sequence, otherwise a(n) = a(n-1)+prime(n).",
   "id": "A079049",
   "mentions": [
-    "A005132"
+    "A005132",
+    "A117128"
   ],
   "tags": [
     "nonn"

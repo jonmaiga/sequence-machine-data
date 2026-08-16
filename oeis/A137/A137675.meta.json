@@ -1,7 +1,9 @@
 {
   "description": "Prime numbers p such that p +- a, p +- b, p +- c and p +- d are prime numbers, where a, b, c and d are distinct positive integers with p > d, d > c, c > b and b > a.",
   "id": "A137675",
-  "mentions": [],
+  "mentions": [
+    "A002375"
+  ],
   "tags": [
     "nonn"
   ],

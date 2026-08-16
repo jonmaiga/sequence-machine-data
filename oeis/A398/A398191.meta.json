@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n! * Sum_{j=0..n} (n + 4)^j / j!. Column 4 of A398187.",
+  "id": "A398191",
+  "mentions": [
+    "A398187"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

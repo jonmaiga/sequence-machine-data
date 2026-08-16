@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that q-p >= 16, where q is the next prime after p.",
   "id": "A124587",
-  "mentions": [],
+  "mentions": [
+    "A164513"
+  ],
   "tags": [
     "formulas",
     "nonn"

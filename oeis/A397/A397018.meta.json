@@ -1,0 +1,18 @@
+{
+  "description": "Vampire numbers in base 16: decimal values of base-16 numbers that are the products of two equal-length fangs whose combined base-16 digits perfectly permute the product's digits (excluding double trailing zeros).",
+  "id": "A397018",
+  "mentions": [
+    "A014575",
+    "A392325",
+    "A394373"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

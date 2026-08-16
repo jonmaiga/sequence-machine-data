@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer k such that A001414(k+1) - A001414(k) = n.",
+  "id": "A396784",
+  "mentions": [
+    "A001414",
+    "A006145",
+    "A039752",
+    "A228126"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

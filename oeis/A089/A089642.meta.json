@@ -2,7 +2,6 @@
   "description": "Numbers m such that there is a single k, 1 <= k <= m, such that the number of elements in the continued fraction for m/k is maximum.",
   "id": "A089642",
   "mentions": [
-    "A000045",
     "A084242"
   ],
   "tags": [

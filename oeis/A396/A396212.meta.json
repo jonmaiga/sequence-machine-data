@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the surface area of the solid of revolution formed by rotating Moss's egg constructed from a unit-hypotenuse right isosceles triangle about its axis of symmetry.",
+  "id": "A396212",
+  "mentions": [
+    "A376642",
+    "A396211"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

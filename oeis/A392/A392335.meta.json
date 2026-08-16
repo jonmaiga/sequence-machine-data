@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the product of primes p such that n is not the divisor d with largest abundancy among proper divisors of p*n (where d is the least such divisor if there is more than one).",
+  "id": "A392335",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A137825",
+    "A395192"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer k for which there exists a composition of k of depth n, where at each iteration the consecutive absolute differences must be nonzero and pairwise distinct and may then be permuted arbitrarily.",
+  "id": "A398152",
+  "mentions": [
+    "A011782",
+    "A325325",
+    "A325551",
+    "A325552"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

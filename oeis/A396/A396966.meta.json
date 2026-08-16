@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of obstruction residues modulo 2^n for the Collatz-type 3n-1 map T(x) = (3x-1)/2^A007814(3x-1).",
+  "id": "A396966",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A007814",
+    "A394480"
+  ],
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

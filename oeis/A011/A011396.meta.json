@@ -1,10 +1,14 @@
 {
   "description": "Decimal expansion of 7th root of 18.",
   "id": "A011396",
-  "mentions": [],
+  "mentions": [
+    "A010769",
+    "A011261"
+  ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

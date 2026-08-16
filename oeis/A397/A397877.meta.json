@@ -1,0 +1,26 @@
+{
+  "description": "Length of the repeating part of row n of A281001.",
+  "id": "A397877",
+  "mentions": [
+    "A039951",
+    "A244550",
+    "A252801",
+    "A252802",
+    "A252812",
+    "A268479",
+    "A269111",
+    "A281001",
+    "A288097"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

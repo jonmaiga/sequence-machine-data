@@ -2,11 +2,22 @@
   "description": "a(n) = the largest divisor of A002808(n) that is coprime to n. (A002808(n) = the n-th composite.)",
   "id": "A137924",
   "mentions": [
+    "A000203",
     "A002808",
+    "A008683",
+    "A028234",
+    "A051119",
+    "A065330",
     "A073258",
-    "A137925"
+    "A126773",
+    "A132740",
+    "A137925",
+    "A137926",
+    "A137927",
+    "A165725"
   ],
   "tags": [
+    "formulas",
     "look",
     "nonn"
   ],

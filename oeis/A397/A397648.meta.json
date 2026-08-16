@@ -1,0 +1,16 @@
+{
+  "description": "Inverse binomial transform of Kolakoski sequence A000002.",
+  "id": "A397648",
+  "mentions": [
+    "A000002",
+    "A054355"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

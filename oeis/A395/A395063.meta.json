@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{i>=1} 1/(prime(i) * i^2) where prime(i) is the i-th prime.",
+  "id": "A395063",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A124012"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

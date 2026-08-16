@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is smallest prime > 5*a(n-1), a(1) = 5.",
+  "description": "a(n) is the smallest prime > 5*a(n-1), a(1) = 5.",
   "id": "A065541",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

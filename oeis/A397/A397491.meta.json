@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n^13 - n)/2730.",
+  "id": "A397491",
+  "mentions": [
+    "A010801",
+    "A027482",
+    "A030180",
+    "A366489"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

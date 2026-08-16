@@ -1,0 +1,15 @@
+{
+  "description": "The smallest k for which the square of at least one integer among {n, n+1, ..., n+k} divides the sum of the remaining integers.",
+  "id": "A396926",
+  "mentions": [
+    "A396377"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

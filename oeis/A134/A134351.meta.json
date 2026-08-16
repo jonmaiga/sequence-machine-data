@@ -2,12 +2,14 @@
   "description": "Binomial transform of [1, 5, -1, 5, -1, 5, ...]. Inverse binomial transform of A134350.",
   "id": "A134351",
   "mentions": [
+    "A048578",
     "A052548",
     "A089985",
     "A133140",
     "A134350"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

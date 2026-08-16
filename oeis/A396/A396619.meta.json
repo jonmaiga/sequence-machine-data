@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = r(n,n), where r(1,k)=f(k)=floor(k*c), r(n,k)=f(r(n-1,k)), c=Pi.",
+  "id": "A396619",
+  "mentions": [
+    "A396385",
+    "A396620",
+    "A396621"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

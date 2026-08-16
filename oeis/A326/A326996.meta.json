@@ -2,6 +2,7 @@
   "description": "Main diagonal of A260876.",
   "id": "A326996",
   "mentions": [
+    "A057599",
     "A260876",
     "A327001"
   ],

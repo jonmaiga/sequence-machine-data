@@ -1,5 +1,5 @@
 {
-  "description": "Minimal number of polygonal pieces in a dissection of a regular n-gon to an equilateral triangle (conjectured).",
+  "description": "Minimum number of polygonal pieces in a dissection of a regular n-gon to an equilateral triangle (conjectured).",
   "id": "A110000",
   "mentions": [
     "A110312",

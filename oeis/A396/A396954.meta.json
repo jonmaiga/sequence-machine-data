@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted binary time-consistent leaf-labeled galled trees with n leaves and exactly 1 gall.",
+  "id": "A396954",
+  "mentions": [
+    "A001147",
+    "A380256"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

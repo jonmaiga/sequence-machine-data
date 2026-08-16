@@ -2,6 +2,7 @@
   "description": "Integers m such that A073758(m) = 4.",
   "id": "A073760",
   "mentions": [
+    "A005408",
     "A016825",
     "A045763",
     "A073758",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

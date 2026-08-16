@@ -1,0 +1,21 @@
+{
+  "description": "Number of directed self-avoiding cycles of length 2*n in a cubic lattice, reduced for symmetry (with rotations and reflections not counted as distinct).",
+  "id": "A394814",
+  "mentions": [
+    "A001409",
+    "A001413",
+    "A394340",
+    "A394796",
+    "A394959"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

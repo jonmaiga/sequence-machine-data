@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma(n) - Sum_{p|n, p prime, gcd(p,n/p) = 1} (p-1).",
+  "id": "A394085",
+  "mentions": [
+    "A000203",
+    "A010051",
+    "A056169",
+    "A063956"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

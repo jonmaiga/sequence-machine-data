@@ -1,7 +1,9 @@
 {
-  "description": "Decimal expansion of 20/phi^2, where phi is the golden ratio. Also (with a different offset), decimal expansion of 3 - sqrt(5).",
+  "description": "Decimal expansion of 20/phi^2, where phi is the golden ratio. Also (with offset 0), decimal expansion of 3 - sqrt(5).",
   "id": "A187799",
   "mentions": [
+    "A000045",
+    "A001622",
     "A094874",
     "A187426",
     "A187798"

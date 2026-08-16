@@ -1,0 +1,15 @@
+{
+  "description": "Number of n-ary mobiles (circular rooted trees) with n internal nodes.",
+  "id": "A398111",
+  "mentions": [
+    "A398107"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

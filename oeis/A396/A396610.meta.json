@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the mean distance from the center to the interior points of a regular tetrahedron of unit volume.",
+  "id": "A396610",
+  "mentions": [
+    "A135691",
+    "A366019",
+    "A396611",
+    "A396612",
+    "A396613"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

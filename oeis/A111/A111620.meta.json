@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 2*A111619/n.",
+  "description": "a(n) = A111619(n)/n.",
   "id": "A111620",
   "mentions": [
+    "A109626",
     "A111618",
     "A111619"
   ],

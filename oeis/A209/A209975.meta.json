@@ -2,14 +2,16 @@
   "description": "Number of 2 X 2 matrices having all elements in {0,1,...,n} and determinant 3.",
   "id": "A209975",
   "mentions": [
+    "A002088",
     "A210000"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

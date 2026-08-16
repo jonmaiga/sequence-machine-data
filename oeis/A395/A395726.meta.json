@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = A(n, k-A002024(k)) + A002024(k) * A(n-1, k) with A(n, 0) = 0^n, A(0, k) = 1.",
+  "id": "A395726",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000027",
+    "A000079",
+    "A000225",
+    "A000392",
+    "A001047",
+    "A002024",
+    "A002260",
+    "A003462",
+    "A006095",
+    "A016208",
+    "A016269"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of palindromic special Motzkin paths of weight n.",
+  "id": "A396508",
+  "mentions": [
+    "A000108",
+    "A010060"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

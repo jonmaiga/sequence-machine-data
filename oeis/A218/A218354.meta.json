@@ -1,17 +1,28 @@
 {
-  "description": "T(n,k) = Hilltop maps: number of nXk binary arrays indicating the locations of corresponding elements not exceeded by any horizontal or vertical neighbor in a random 0..1 n X k array.",
+  "description": "T(n,k) = number of n X k binary matrices with every 0 vertically or horizontally adjacent to some 1, n >= 1, k >= 1, read by antidiagonals.",
   "id": "A218354",
   "mentions": [
     "A000213",
     "A089934",
     "A133515",
-    "A210662",
+    "A218196",
+    "A218206",
+    "A218288",
     "A218348",
     "A218349",
     "A218350",
     "A218351",
     "A218352",
-    "A218353"
+    "A218353",
+    "A218426",
+    "A218663",
+    "A219078",
+    "A221446",
+    "A286847",
+    "A291872",
+    "A303111",
+    "A350820",
+    "A350823"
   ],
   "tags": [
     "formulas",
@@ -20,7 +31,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 46,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest integer k such that the k-th Bell number does not exceed 2^(n+k).",
+  "id": "A394856",
+  "mentions": [
+    "A000079",
+    "A000110",
+    "A271490"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

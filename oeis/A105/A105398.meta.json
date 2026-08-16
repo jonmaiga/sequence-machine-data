@@ -2,6 +2,7 @@
   "description": "A simple \"Fractal Jump Sequence\" (FJS).",
   "id": "A105398",
   "mentions": [
+    "A010713",
     "A105397"
   ],
   "tags": [

@@ -1,0 +1,24 @@
+{
+  "description": "Largest k < m^2 such that both rad(k) and rad(k+1) divide m, where rad = A007947 and m = A005117(n), or -1 if such k does not exist.",
+  "id": "A395721",
+  "mentions": [
+    "A002072",
+    "A005117",
+    "A007947",
+    "A039956",
+    "A062503",
+    "A071403",
+    "A365435",
+    "A383008",
+    "A395754"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

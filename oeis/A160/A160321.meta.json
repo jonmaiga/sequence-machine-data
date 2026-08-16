@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n for which sigma(n)/n=k+2/3 with integer k.",
+  "description": "Numbers m for which sigma(m)/m = k + 2/3 with integer k.",
   "id": "A160321",
   "mentions": [
     "A159907",
-    "A160320"
+    "A160320",
+    "A245775"
   ],
   "tags": [
     "nonn"
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

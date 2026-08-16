@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least length of a graceful permutation for which some ordered difference sequence has exactly n reconstructions modulo complementation.",
+  "id": "A398095",
+  "mentions": [
+    "A006967",
+    "A084894",
+    "A112362",
+    "A387805",
+    "A398093",
+    "A398094"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

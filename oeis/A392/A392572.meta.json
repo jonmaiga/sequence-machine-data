@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the probability that a straight line drawn through a point selected uniformly at random on the perimeter of a regular hexagon, with a direction selected independently and uniformly at random, intersects the side opposite to the side on which the point lies.",
+  "id": "A392572",
+  "mentions": [
+    "A083679",
+    "A284983",
+    "A394921",
+    "A394923"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

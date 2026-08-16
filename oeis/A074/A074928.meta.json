@@ -1,5 +1,5 @@
 {
-  "description": "a(n)>0 such that p(n)*p(n+1)+a(n) is a minimal prime.",
+  "description": "a(n) is the least k>0 such that prime(n)*prime(n+1) + k is prime.",
   "id": "A074928",
   "mentions": [
     "A107019",

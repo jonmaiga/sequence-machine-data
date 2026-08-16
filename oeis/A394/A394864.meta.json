@@ -1,0 +1,21 @@
+{
+  "description": "Number of achiral polyominoes with n octagonal cells of the hyperbolic regular tiling with Schläfli symbol {8,8}.",
+  "id": "A394864",
+  "mentions": [
+    "A143547",
+    "A393744",
+    "A394862",
+    "A394863"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Table whose n-th row lists the A000112(n) inequivalent unlabeled acyclic transitive digraphs or unlabeled n-posets, as smallest representative of the corresponding topology.",
+  "id": "A397262",
+  "mentions": [
+    "A000112",
+    "A000798",
+    "A001035",
+    "A101620",
+    "A397255"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

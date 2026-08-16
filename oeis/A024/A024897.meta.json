@@ -2,7 +2,8 @@
   "description": "Numbers k such that 5*k + 4 is prime.",
   "id": "A024897",
   "mentions": [
-    "A023218"
+    "A023218",
+    "A153355"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)*H(k,3)/k, where H(k,3) = A007408(k)/A007409(k) is the k-th harmonic number of order 3.",
+  "id": "A397194",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A007408",
+    "A007409",
+    "A013662",
+    "A076788",
+    "A240264",
+    "A396740"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

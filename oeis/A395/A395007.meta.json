@@ -1,0 +1,21 @@
+{
+  "description": "Integers x such that there exist two integers 0",
+  "id": "A395007",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001615",
+    "A003072",
+    "A385325",
+    "A391290",
+    "A395714"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

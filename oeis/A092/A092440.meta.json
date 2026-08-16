@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = 2^(2n+1) - 2^(n+1) + 1.",
+  "description": "a(n) = 2^(2*n+1) - 2^(n+1) + 1.",
   "id": "A092440",
   "mentions": [
     "A000225",
     "A046899",
+    "A059153",
     "A092437",
     "A092438",
     "A092439",
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

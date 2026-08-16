@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations p of [n] satisfying p(i+9)-p(i)<>9 for all 1<=i<=n-9.",
+  "id": "A396646",
+  "mentions": [
+    "A189281",
+    "A189282",
+    "A189283",
+    "A189284",
+    "A189285",
+    "A360462",
+    "A395915",
+    "A395916",
+    "A397254"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

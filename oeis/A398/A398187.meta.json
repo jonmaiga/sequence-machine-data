@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=0..n-k} ((n - k)! / j!) * n^j.",
+  "id": "A398187",
+  "mentions": [
+    "A000166",
+    "A001863",
+    "A001865",
+    "A036505",
+    "A063169",
+    "A063170",
+    "A090878",
+    "A129137",
+    "A217701",
+    "A398188",
+    "A398189",
+    "A398190",
+    "A398191",
+    "A398484"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

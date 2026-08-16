@@ -9,14 +9,13 @@
     "A365190"
   ],
   "tags": [
-    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

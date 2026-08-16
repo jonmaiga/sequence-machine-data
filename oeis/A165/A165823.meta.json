@@ -1,23 +1,17 @@
 {
-  "description": "Large denominators of Bernoulli numbers. Mix A002445, 2*A141421 .",
+  "description": "Interleaved terms of A002445 and 2*A141421.",
   "id": "A165823",
   "mentions": [
     "A002445",
-    "A027642",
-    "A027760",
-    "A091137",
-    "A141056",
-    "A141421",
-    "A160014",
-    "A164020"
+    "A141421"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "joeis"
   }
 }

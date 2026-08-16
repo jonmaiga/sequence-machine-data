@@ -1,0 +1,18 @@
+{
+  "description": "Number of composite numbers m, Omega(m) >= 3, with k <= m <= k^2 such that the largest divisor of k*m that is <= sqrt(k*m) equals k.",
+  "id": "A396716",
+  "mentions": [
+    "A001222",
+    "A033676",
+    "A163925",
+    "A163926"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 73,
+    "source": "joeis"
+  }
+}

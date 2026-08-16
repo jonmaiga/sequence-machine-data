@@ -2,12 +2,14 @@
   "description": "Maximum number of 6's possible in an infinite Minesweeper grid with n mines.",
   "id": "A302930",
   "mentions": [
+    "A008590",
     "A047345",
     "A302928",
     "A302929",
     "A302931"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

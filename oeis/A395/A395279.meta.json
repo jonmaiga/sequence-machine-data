@@ -1,0 +1,19 @@
+{
+  "description": "Jacobsthal's function H(n); the maximum, over all t having exactly n distinct prime divisors, of A048669(t).",
+  "id": "A395279",
+  "mentions": [
+    "A002110",
+    "A048669",
+    "A048670",
+    "A062571"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

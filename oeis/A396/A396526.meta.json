@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2 + (x + 71^2)^2 = y^2.",
+  "id": "A396526",
+  "mentions": [
+    "A066436",
+    "A118554",
+    "A207059",
+    "A309998",
+    "A331265",
+    "A332000",
+    "A396534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

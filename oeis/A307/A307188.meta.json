@@ -2,9 +2,11 @@
   "description": "Positions of 0's in the square spiral in A275609.",
   "id": "A307188",
   "mentions": [
+    "A274641",
     "A275609",
     "A307189",
-    "A307192"
+    "A307192",
+    "A308885"
   ],
   "tags": [
     "nonn"

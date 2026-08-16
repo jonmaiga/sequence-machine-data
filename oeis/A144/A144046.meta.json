@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that |n!-107| and |n!+107| are prime.",
+  "description": "Numbers k such that |k! - 107| and |k! + 107| are prime.",
   "id": "A144046",
   "mentions": [],
   "tags": [

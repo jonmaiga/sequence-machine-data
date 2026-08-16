@@ -1,0 +1,21 @@
+{
+  "description": "Number of lcm-closed subsets of [n].",
+  "id": "A395512",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A003990",
+    "A051173",
+    "A109042",
+    "A395489"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

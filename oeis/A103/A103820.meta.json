@@ -2,6 +2,7 @@
   "description": "Whitney transform of 3^n.",
   "id": "A103820",
   "mentions": [
+    "A000244",
     "A004070",
     "A030195",
     "A108306"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

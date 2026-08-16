@@ -1,15 +1,13 @@
 {
-  "description": "Smallest m of r=1,2,3,... where the generalized Euler constants (of D. H. Lehmer) E(r,m) change their sign: E(r,m) > 0 and E(r+1,m) < 0.",
+  "description": "Smallest m > 1 such that log m + psi(n/m) is negative, where psi(x) is the digamma function.",
   "id": "A130673",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 57,
+    "source": "joeis"
   }
 }

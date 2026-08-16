@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the position of the start of the first occurrence of exactly n consecutive equal terms in A000793.",
+  "id": "A395749",
+  "mentions": [
+    "A000793",
+    "A395744",
+    "A395750"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

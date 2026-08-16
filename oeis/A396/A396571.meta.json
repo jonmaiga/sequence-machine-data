@@ -1,0 +1,18 @@
+{
+  "description": "Averages of adjacent odd composite numbers.",
+  "id": "A396571",
+  "mentions": [
+    "A007510",
+    "A071904"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

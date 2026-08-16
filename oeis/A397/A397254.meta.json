@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations p of [n] satisfying p(i+10)-p(i)<>10 for all 1<=i<=n-10.",
+  "id": "A397254",
+  "mentions": [
+    "A189281",
+    "A189282",
+    "A189283",
+    "A189284",
+    "A189285",
+    "A360463",
+    "A395915",
+    "A395916",
+    "A396646"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

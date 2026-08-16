@@ -1,0 +1,16 @@
+{
+  "description": "Position of the first occurrence of n in A370470.",
+  "id": "A396014",
+  "mentions": [
+    "A370470"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

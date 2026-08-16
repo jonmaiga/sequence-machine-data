@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} f(floor(n/k)), where f(n) = A034444(n) is the number of unitary divisors (or squarefree divisors) of n.",
+  "id": "A398530",
+  "mentions": [
+    "A034444",
+    "A398531"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

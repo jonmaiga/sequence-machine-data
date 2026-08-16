@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest happy number h such that n*h is happy.",
+  "id": "A397125",
+  "mentions": [
+    "A007770",
+    "A360942"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

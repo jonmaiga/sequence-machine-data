@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of ordered pairs of integer vectors in Z^3 of norm n that span a rhombus with integer area.",
+  "id": "A389808",
+  "mentions": [
+    "A005875"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

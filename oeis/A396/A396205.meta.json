@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of integers k <= n with g(k)^3 < k, where g(k) is the largest divisor d of k satisfying d <= sqrt(k) (A033676).",
+  "id": "A396205",
+  "mentions": [
+    "A000720",
+    "A006530",
+    "A033676"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

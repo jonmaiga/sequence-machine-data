@@ -1,0 +1,20 @@
+{
+  "description": "Integers x>0 such that there exists an integer y>0 such that sigma(x)*psi(x) = x^2 + y^2.",
+  "id": "A395670",
+  "mentions": [
+    "A000203",
+    "A001481",
+    "A001615",
+    "A066784"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

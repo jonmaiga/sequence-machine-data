@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs of primes (p, q) such that n! = q^2 - p^2.",
+  "id": "A394629",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A027423",
+    "A138196",
+    "A394630",
+    "A394631",
+    "A394632",
+    "A394633"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

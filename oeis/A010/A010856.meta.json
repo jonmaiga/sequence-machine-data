@@ -1,9 +1,7 @@
 {
   "description": "Constant sequence: a(n) = 17.",
   "id": "A010856",
-  "mentions": [
-    "A152179"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",
@@ -11,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 54,
+    "size": 66,
     "source": "joeis"
   }
 }

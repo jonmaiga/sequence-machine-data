@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: let p be the least prime such that k*(k + 1)*(k + 2)/3 + p produces primes for k=0..n-1 and a composite for k=n, the n-th row gives the list of primes for k=0..n-1.",
+  "id": "A397689",
+  "mentions": [
+    "A002378",
+    "A002476",
+    "A003627",
+    "A164926"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

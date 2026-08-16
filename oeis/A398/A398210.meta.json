@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the volume of a canonical (dual-uniform) octagonal trapezohedron with unit short edge length.",
+  "id": "A398210",
+  "mentions": [
+    "A179260",
+    "A394534",
+    "A398211",
+    "A398212",
+    "A398213",
+    "A398214",
+    "A398215",
+    "A398216",
+    "A398217",
+    "A398218"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

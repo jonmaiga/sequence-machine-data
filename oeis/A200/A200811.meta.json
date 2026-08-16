@@ -2,8 +2,10 @@
   "description": "Iterate k -> d(k) until an odd prime is reached, starting from the n-th composite.",
   "id": "A200811",
   "mentions": [
+    "A000005",
     "A200810",
-    "A200815"
+    "A200815",
+    "A396521"
   ],
   "tags": [
     "nonn"

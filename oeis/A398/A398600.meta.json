@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of [n] such that |p(i+1)-p(i)| <> 4 for all 1 <= i < n.",
+  "id": "A398600",
+  "mentions": [
+    "A002464",
+    "A277563",
+    "A395335",
+    "A398599",
+    "A398601"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) giving binomial basis coefficients of excess-tail polynomials p_n(s) = Sum_{k=0..n} T(n,k)*binomial(s-2,k) for connected defect clusters in the row-word inversion statistic on standard Young tableaux of shape (m,m,m).",
+  "id": "A393487",
+  "mentions": [
+    "A393486",
+    "A394326"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

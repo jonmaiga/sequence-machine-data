@@ -1,0 +1,18 @@
+{
+  "description": "On a graph with points (k, prime(k)), k>=1, consider if prime(n) is on any previously drawn infinite line between prime(j) and prime(j-1), where 2<=j<=n-1. If not, draw an infinite line between prime(n) and prime(n-1). The sequence gives the total number of lines drawn, starting from prime(2).",
+  "id": "A394972",
+  "mentions": [
+    "A000040",
+    "A373813",
+    "A376187",
+    "A395217"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

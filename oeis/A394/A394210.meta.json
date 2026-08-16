@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k > 1 such that gpf(2^n*k) > gpf(2^n*k-1) where gpf is the greatest prime factor (A006530).",
+  "id": "A394210",
+  "mentions": [
+    "A000079",
+    "A006530"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

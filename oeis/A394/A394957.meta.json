@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which the pairwise sumset of the distinct binomial coefficients in row k of Pascal's triangle is not maximal.",
+  "id": "A394957",
+  "mentions": [
+    "A007318",
+    "A008865",
+    "A028347",
+    "A028872",
+    "A132311",
+    "A132312",
+    "A205536"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

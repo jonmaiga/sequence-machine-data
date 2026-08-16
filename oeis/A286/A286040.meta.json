@@ -2,9 +2,12 @@
   "description": "Matching number of the n X n antelope graph.",
   "id": "A286040",
   "mentions": [
-    "A007590"
+    "A007590",
+    "A285997",
+    "A308587"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

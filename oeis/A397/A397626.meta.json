@@ -1,0 +1,15 @@
+{
+  "description": "Number of vertex clique partitions of a recursively constructed bridged dual-graph sequence starting with a triangle.",
+  "id": "A397626",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

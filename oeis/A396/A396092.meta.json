@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^2 + 2*x^2*A(x)^4.",
+  "id": "A396092",
+  "mentions": [
+    "A025235"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

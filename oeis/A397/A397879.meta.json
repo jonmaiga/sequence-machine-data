@@ -1,0 +1,19 @@
+{
+  "description": "Largest integer of the form r^k whose base-n alternating digital root is r and whose number of base-n digits is k.",
+  "id": "A397879",
+  "mentions": [
+    "A010880",
+    "A394570",
+    "A396781",
+    "A397878"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 15,
+    "source": "joeis"
+  }
+}

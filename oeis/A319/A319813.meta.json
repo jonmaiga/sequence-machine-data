@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest a such that n is divisible by a^n + 1, or 0 if no such a exists.",
+  "description": "a(n) is the smallest k such that k^n + 1 is divisible by n, or 0 if no such a exists.",
   "id": "A319813",
   "mentions": [
     "A006521",

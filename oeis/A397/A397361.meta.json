@@ -1,0 +1,16 @@
+{
+  "description": "Number of compositions of n^2 into n parts such that every initial segment has an integer average.",
+  "id": "A397361",
+  "mentions": [
+    "A398023"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

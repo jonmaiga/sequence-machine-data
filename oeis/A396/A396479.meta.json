@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that psi(k) does not have primitive roots (i.e., is in A033949), where psi = A002322.",
+  "id": "A396479",
+  "mentions": [
+    "A002322",
+    "A033949",
+    "A061345",
+    "A396478",
+    "A396481"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

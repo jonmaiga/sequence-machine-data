@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the maximum value of f(x) = 1/(4*x^2*cosh(1/(2*x))^2) for x > 0.",
+  "id": "A392715",
+  "mentions": [
+    "A070063",
+    "A085984",
+    "A322578",
+    "A373918"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

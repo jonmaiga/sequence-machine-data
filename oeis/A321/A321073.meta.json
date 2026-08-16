@@ -1,7 +1,8 @@
 {
-  "description": "One of the two successive approximations up to 11^n for 11-adic integer sqrt(3). Here the 6 (mod 11) case (except for n = 0).",
+  "description": "One of the two successive approximations up to 11^n for the 11-adic integer sqrt(3). Here the 6 (mod 11) case (except for n = 0).",
   "id": "A321073",
   "mentions": [
+    "A318960",
     "A321072",
     "A321075"
   ],

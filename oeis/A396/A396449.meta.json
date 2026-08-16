@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(k!)^4.",
+  "id": "A396449",
+  "mentions": [
+    "A001113",
+    "A070910",
+    "A134375",
+    "A271574",
+    "A396450",
+    "A396451",
+    "A396452"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

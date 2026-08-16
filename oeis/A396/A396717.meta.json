@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the sum of the divisors of k equals the product of the d-th triangular numbers for each digit d of k.",
+  "id": "A396717",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A002473",
+    "A052382",
+    "A145746"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

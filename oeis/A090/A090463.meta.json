@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of maximum imaginary value at which the Pochhammer limit lim_{k->Infinity} Product_{i=0..k}(z + i/k) converges.",
+  "description": "Decimal expansion of maximum imaginary value at which the Pochhammer limit lim_{k->oo} Product_{i=0..k}(z + i/k) converges.",
   "id": "A090463",
   "mentions": [
     "A090462"

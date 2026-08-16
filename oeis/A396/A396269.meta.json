@@ -1,0 +1,27 @@
+{
+  "description": "Cubefree k that are neither squarefree nor squareful that have more than 2 distinct prime factors.",
+  "id": "A396269",
+  "mentions": [
+    "A000977",
+    "A002110",
+    "A004709",
+    "A013929",
+    "A054753",
+    "A126706",
+    "A332785",
+    "A375055",
+    "A386684",
+    "A390949",
+    "A391023",
+    "A396323"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

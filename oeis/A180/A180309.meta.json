@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of the torsional rigidity constant for a square shaft.",
   "id": "A180309",
-  "mentions": [],
+  "mentions": [
+    "A013663"
+  ],
   "tags": [
     "cons",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 94,
+    "size": 103,
     "source": "oeis-entry"
   }
 }

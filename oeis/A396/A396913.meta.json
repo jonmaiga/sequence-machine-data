@@ -1,0 +1,34 @@
+{
+  "description": "Table read by falling antidiagonals: T(n,k) is the number of k-colorings of the faces of a n-trapezohedron up to antiprismatic symmetry, n >= 3, k >= 0.",
+  "id": "A396913",
+  "mentions": [
+    "A051137",
+    "A128766",
+    "A199406",
+    "A252704",
+    "A252705",
+    "A274900",
+    "A274901",
+    "A321791",
+    "A337963",
+    "A378473",
+    "A378474",
+    "A378475",
+    "A378476",
+    "A378477",
+    "A378478",
+    "A395240",
+    "A396858",
+    "A396861"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

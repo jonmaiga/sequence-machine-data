@@ -1,0 +1,18 @@
+{
+  "description": "Total number of separating two-component spanning forests over all unordered pairs of rim vertices in the wheel graph W_n.",
+  "id": "A396817",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A396818"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 26,
+    "source": "joeis"
+  }
+}

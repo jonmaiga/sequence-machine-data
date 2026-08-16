@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (16+24*x+2*x^2)/(x-1)^6.",
+  "description": "Expansion of g.f. 2*(8+12*x+x^2)/(x-1)^6.",
   "id": "A190049",
   "mentions": [
     "A000389",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 33,
     "source": "joeis"
   }
 }

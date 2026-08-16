@@ -1,0 +1,16 @@
+{
+  "description": "Possible values of (A000695(k) XOR k) + 1, in ascending order.",
+  "id": "A396454",
+  "mentions": [
+    "A000695",
+    "A014580"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

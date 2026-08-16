@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer m such that A396377(m) = n.",
+  "id": "A396950",
+  "mentions": [
+    "A396377",
+    "A396378",
+    "A396379",
+    "A396380"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

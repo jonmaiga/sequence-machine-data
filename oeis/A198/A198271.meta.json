@@ -1,5 +1,5 @@
 {
-  "description": "Round(n*sqrt(13)).",
+  "description": "a(n) = round(n*sqrt(13)).",
   "id": "A198271",
   "mentions": [
     "A171983"

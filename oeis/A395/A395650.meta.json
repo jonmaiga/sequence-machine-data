@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} (1+2*cos(x)+x*sin(x))/(1+2*x*sin(x)+x^2) dx.",
+  "id": "A395650",
+  "mentions": [
+    "A000796",
+    "A030178",
+    "A115287"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

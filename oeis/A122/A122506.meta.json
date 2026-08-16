@@ -1,17 +1,17 @@
 {
-  "description": "A symmetrical triangular array based on A018805 constructed by hand by adding ones between the primes and making the result symmetrical.",
+  "description": "A symmetrical triangular array read by rows based on A018805.",
   "id": "A122506",
   "mentions": [
     "A018805"
   ],
   "tags": [
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
-    "source": "oeis-entry"
+    "size": 79,
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "A070871(n) > n.",
+  "description": "Integers k such that A070871(k) > k.",
   "id": "A070873",
   "mentions": [
     "A070871"

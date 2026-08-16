@@ -1,7 +1,9 @@
 {
   "description": "Sprague-Grundy values for octal game .1113337.",
   "id": "A071441",
-  "mentions": [],
+  "mentions": [
+    "A125921"
+  ],
   "tags": [
     "look",
     "nonn"

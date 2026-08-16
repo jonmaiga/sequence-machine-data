@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k whose largest prime factor exceeds k^(2/3).",
+  "id": "A395643",
+  "mentions": [
+    "A006530",
+    "A033676",
+    "A064052",
+    "A396205"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Indices of additive primes - primes with prime sum-of-digits, see A046704.",
+  "description": "Indices of additive primes, see A046704.",
   "id": "A075177",
   "mentions": [
     "A000040",
+    "A000720",
     "A007953",
     "A010051",
     "A046704"

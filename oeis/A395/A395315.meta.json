@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of free polydoms of size n.",
+  "id": "A395315",
+  "mentions": [
+    "A006074"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

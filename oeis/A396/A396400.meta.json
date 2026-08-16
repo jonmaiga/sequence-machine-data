@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which A395994(k)/k sets a new record.",
+  "id": "A396400",
+  "mentions": [
+    "A395994",
+    "A396399",
+    "A396401"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

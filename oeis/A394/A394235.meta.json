@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of equivalence classes of trees with n nodes whose labels cover [k], under the adjacency monomial E.",
+  "id": "A394235",
+  "mentions": [
+    "A000055",
+    "A000169",
+    "A381349",
+    "A392756"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

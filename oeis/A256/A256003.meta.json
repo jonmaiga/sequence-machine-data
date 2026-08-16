@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 0 followed by numerators of 2*A176327(n)/A176289(n).",
+  "description": "0 followed by numerators of 2*A176327(n-1)/A176289(n-1).",
   "id": "A256003",
   "mentions": [
     "A000027",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

@@ -2,8 +2,8 @@
   "description": "Integers k such that k! is divisible by k*(k+1)/2.",
   "id": "A060462",
   "mentions": [
-    "A000142",
     "A000217",
+    "A006093",
     "A072668",
     "A108552"
   ],

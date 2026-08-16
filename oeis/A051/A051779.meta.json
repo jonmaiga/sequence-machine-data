@@ -1,8 +1,9 @@
 {
-  "description": "Primes of form pq + 2 where p and q are twin primes.",
+  "description": "Primes of form p*q + 2 where p and q are twin primes.",
   "id": "A051779",
   "mentions": [
     "A000040",
+    "A001097",
     "A001359",
     "A005384",
     "A006512",
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

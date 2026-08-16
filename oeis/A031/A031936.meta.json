@@ -2,6 +2,7 @@
   "description": "Lower prime of a difference of 18 between consecutive primes.",
   "id": "A031936",
   "mentions": [
+    "A052189",
     "A153418",
     "A320707"
   ],

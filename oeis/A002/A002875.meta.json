@@ -1,26 +1,26 @@
 {
-  "description": "Sorting numbers (see Motzkin article for details).",
+  "description": "Number of partitions of {1..3n} that are invariant under a permutation consisting of n 3-cycles with k orbits of blocks, maximized over k.",
   "id": "A002875",
   "mentions": [
     "A000262",
     "A001861",
     "A002868",
+    "A002870",
+    "A002871",
     "A002872",
     "A002873",
     "A002874",
     "A036073",
     "A294201",
-    "A294202"
+    "A294202",
+    "A395327"
   ],
   "tags": [
-    "more",
-    "nonn",
-    "unkn",
-    "unsolved"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

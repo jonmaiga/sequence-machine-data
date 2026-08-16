@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1's in the partitions of n into exactly 5 parts.",
+  "id": "A394873",
+  "mentions": [
+    "A026811",
+    "A394828"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

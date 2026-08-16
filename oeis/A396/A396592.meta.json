@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. F_2(x)/x and F_k(x) is the k-th iteration of x*G(x) with G(x) = exp(x*G(x)^4).",
+  "id": "A396592",
+  "mentions": [
+    "A101878",
+    "A396588",
+    "A396589",
+    "A396590"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

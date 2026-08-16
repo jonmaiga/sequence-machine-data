@@ -1,0 +1,21 @@
+{
+  "description": "Cubefull numbers whose sum of cubefull divisors is a cubefull number that is larger than 1.",
+  "id": "A396141",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A036966",
+    "A349109",
+    "A385005",
+    "A396140"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

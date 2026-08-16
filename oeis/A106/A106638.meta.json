@@ -1,11 +1,9 @@
 {
-  "description": "3-symbol substitution that gives a dragon fractal.",
+  "description": "Limiting word of the morphism 1->1221, 2->2332, 3->3113 starting from 1.",
   "id": "A106638",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

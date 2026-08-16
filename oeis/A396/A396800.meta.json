@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular table of coefficients T(n,k) of x^k/k! in F(n,x) that satisfies F(n,x) = x * exp( F^n(n,x) ) for n >= 1, as read by ascending antidiagonals.",
+  "id": "A396800",
+  "mentions": [
+    "A000169",
+    "A140054",
+    "A396801",
+    "A396802",
+    "A396803",
+    "A396804",
+    "A396805",
+    "A396806"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

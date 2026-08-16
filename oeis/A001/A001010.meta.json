@@ -2,6 +2,7 @@
   "description": "Number of symmetric foldings of a strip of n blank stamps.",
   "id": "A001010",
   "mentions": [
+    "A000136",
     "A000682",
     "A001011",
     "A007822"

@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the variance of the number of rolls of a fair standard die until the total sum of all rolls is a prime number.",
+  "id": "A396069",
+  "mentions": [
+    "A370353"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

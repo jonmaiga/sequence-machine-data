@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the mode of the distribution of distances between two points in two adjacent unit squares that share a common edge.",
+  "id": "A395524",
+  "mentions": [
+    "A135707",
+    "A394607",
+    "A395525"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

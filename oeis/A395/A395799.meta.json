@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of -1/(Sum_{k>=0} binomial(5*k+2,k) * x^k).",
+  "id": "A395799",
+  "mentions": [
+    "A002294",
+    "A124724",
+    "A337292",
+    "A394270",
+    "A395798",
+    "A395800"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

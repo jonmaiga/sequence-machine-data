@@ -1,0 +1,16 @@
+{
+  "description": "Number of feedback vertex sets in the n X n grid graph.",
+  "id": "A398245",
+  "mentions": [
+    "A360203",
+    "A398244"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

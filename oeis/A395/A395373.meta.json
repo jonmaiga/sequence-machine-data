@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of ordered pairs (x,y) with 1 <= x,y <= n such that x*y = k, for 1 <= k <= n^2.",
+  "id": "A395373",
+  "mentions": [
+    "A000290",
+    "A027424",
+    "A134506",
+    "A394016"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

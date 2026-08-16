@@ -1,5 +1,5 @@
 {
-  "description": "Recursive sequence (n+1)*a(n) = 3*(3*n-2)*a(n-1).",
+  "description": "Recursive sequence (n+1)*a(n) = 3*(3*n-2)*a(n-1), a(0) = 2.",
   "id": "A155579",
   "mentions": [
     "A000108",

@@ -1,0 +1,18 @@
+{
+  "description": "Integers k>9 such that removing the most and the least significant digit from k^2 produces another square.",
+  "id": "A397830",
+  "mentions": [
+    "A084070",
+    "A180926",
+    "A207832"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

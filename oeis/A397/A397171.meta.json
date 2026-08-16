@@ -1,0 +1,19 @@
+{
+  "description": "Primes that take the longest to appear in A396013.",
+  "id": "A397171",
+  "mentions": [
+    "A354434",
+    "A396013",
+    "A397170",
+    "A397313",
+    "A397314"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

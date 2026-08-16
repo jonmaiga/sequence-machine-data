@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (3755 - 262*sqrt(5))/4500.",
+  "id": "A396821",
+  "mentions": [
+    "A051050",
+    "A051051",
+    "A242780",
+    "A394805",
+    "A396662",
+    "A396819",
+    "A396820"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

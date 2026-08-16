@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of the supersphere |x|^5 + |y|^5 + |z|^5 = 1.",
+  "id": "A396524",
+  "mentions": [
+    "A019699",
+    "A371856",
+    "A395230",
+    "A396522",
+    "A396523"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

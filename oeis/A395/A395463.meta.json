@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n*(7^n - 1) + 1.",
+  "id": "A395463",
+  "mentions": [
+    "A036293",
+    "A050919",
+    "A394332"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

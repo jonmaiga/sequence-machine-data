@@ -1,0 +1,21 @@
+{
+  "description": "Pandigital numbers that are anagrams of the concatenation of their prime factors.",
+  "id": "A396692",
+  "mentions": [
+    "A050278",
+    "A096595",
+    "A306474",
+    "A373645"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

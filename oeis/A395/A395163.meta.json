@@ -1,0 +1,19 @@
+{
+  "description": "Number of vertices a Johnson solid can have.",
+  "id": "A395163",
+  "mentions": [
+    "A242733",
+    "A296603",
+    "A395162"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

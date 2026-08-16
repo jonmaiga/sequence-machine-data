@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: matrix inverse of triangle A126216 with a left unit column adjoined.",
+  "id": "A395975",
+  "mentions": [
+    "A103364",
+    "A126216",
+    "A165326",
+    "A395974"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

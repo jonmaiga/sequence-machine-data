@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of possible outcomes having a run of 7 or more sixes when a die is rolled n times.",
+  "id": "A396156",
+  "mentions": [
+    "A000040",
+    "A005062",
+    "A395827",
+    "A396152",
+    "A396153",
+    "A396154",
+    "A396155",
+    "A396158"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

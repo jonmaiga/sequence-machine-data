@@ -1,5 +1,5 @@
 {
-  "description": "Maximal size of Condorcet domain on n alternatives.",
+  "description": "Maximum size of Condorcet domain on n alternatives.",
   "id": "A369614",
   "mentions": [
     "A144685",

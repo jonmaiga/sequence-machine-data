@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k where sigma_3(k)/k is an integer.",
+  "id": "A396600",
+  "mentions": [
+    "A001158",
+    "A005408",
+    "A046763",
+    "A396599",
+    "A396601",
+    "A396602"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

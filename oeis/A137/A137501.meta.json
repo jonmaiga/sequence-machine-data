@@ -2,10 +2,13 @@
   "description": "The even numbers repeated, with alternating signs.",
   "id": "A137501",
   "mentions": [
+    "A001057",
+    "A004526",
     "A052928",
     "A064455",
     "A123684",
-    "A153641"
+    "A153641",
+    "A237420"
   ],
   "tags": [
     "easy",

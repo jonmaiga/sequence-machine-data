@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of (12/5)*A005596.",
+  "id": "A395904",
+  "mentions": [
+    "A005596"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

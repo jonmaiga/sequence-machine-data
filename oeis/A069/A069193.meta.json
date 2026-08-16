@@ -2,7 +2,9 @@
   "description": "a(n) = Sum_{d|n} d*phi(n)/phi(d).",
   "id": "A069193",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A001620",
+    "A330596"
   ],
   "tags": [
     "easy",

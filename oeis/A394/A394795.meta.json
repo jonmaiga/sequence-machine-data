@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that 2^d*3^(k/d) is the average of twin prime pairs for some d.",
+  "id": "A394795",
+  "mentions": [
+    "A014574",
+    "A027856",
+    "A161904",
+    "A385433",
+    "A386730"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

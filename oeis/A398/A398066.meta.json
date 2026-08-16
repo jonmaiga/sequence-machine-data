@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n symmetric nonnegative integer matrices with each row sum nonzero and at most 2.",
+  "id": "A398066",
+  "mentions": [
+    "A000985",
+    "A397930",
+    "A398067",
+    "A398071"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

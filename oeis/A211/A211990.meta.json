@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = total number of regions in the last k shells of n.",
+  "description": "Triangle read by rows: T(n,k) is the total number of regions in the last k sections of the modular table of partitions of n.",
   "id": "A211990",
   "mentions": [
     "A000041",

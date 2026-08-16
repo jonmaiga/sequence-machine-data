@@ -1,0 +1,26 @@
+{
+  "description": "Number of octal strings of length n that do not contain a specific string xx (where x is a single digit).",
+  "id": "A395831",
+  "mentions": [
+    "A000045",
+    "A028859",
+    "A086347",
+    "A125145",
+    "A180033",
+    "A180167",
+    "A322054",
+    "A340156",
+    "A395829",
+    "A395832"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

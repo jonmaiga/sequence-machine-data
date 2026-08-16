@@ -2,6 +2,9 @@
   "description": "Numerators of the expected number of steps to hit the opposite corner by simple random walk on the n-cube.",
   "id": "A384229",
   "mentions": [
+    "A000670",
+    "A108866",
+    "A229726",
     "A387183"
   ],
   "tags": [

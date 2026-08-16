@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} gcd(k^4,n).",
+  "id": "A393808",
+  "mentions": [
+    "A018804",
+    "A078430",
+    "A343498",
+    "A372882",
+    "A396901",
+    "A396903",
+    "A397733"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

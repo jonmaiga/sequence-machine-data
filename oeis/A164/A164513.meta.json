@@ -2,7 +2,8 @@
   "description": "Primes with gap to the next prime no less than 20.",
   "id": "A164513",
   "mentions": [
-    "A031938"
+    "A031938",
+    "A061779"
   ],
   "tags": [
     "nonn"

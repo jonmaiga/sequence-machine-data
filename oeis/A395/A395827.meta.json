@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of possible outcomes having a run of 2 or more sixes when a die is rolled n times.",
+  "id": "A395827",
+  "mentions": [
+    "A008466",
+    "A180033",
+    "A186244",
+    "A322053",
+    "A340156",
+    "A351529",
+    "A351530",
+    "A395828",
+    "A395829",
+    "A395830"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers j such that Sum_{d|j, d < j} (-1)^d * d is equal to j.",
+  "id": "A396264",
+  "mentions": [
+    "A000396",
+    "A002129",
+    "A058344",
+    "A348583"
+  ],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

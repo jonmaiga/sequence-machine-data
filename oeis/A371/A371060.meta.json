@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct terms such that every triplet of successive digits (seen as side lengths) can form a triangle.",
+  "description": "Lexicographically earliest sequence of distinct terms such that every triple of successive digits (seen as side lengths) can form a triangle.",
   "id": "A371060",
   "mentions": [
     "A370408"

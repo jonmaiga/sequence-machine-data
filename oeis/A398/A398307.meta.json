@@ -1,0 +1,18 @@
+{
+  "description": "Indices of zero terms in the Van Eck-like sequence A398259 whose lookup key is the decimal digit sum of the previous term.",
+  "id": "A398307",
+  "mentions": [
+    "A181391",
+    "A398259"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

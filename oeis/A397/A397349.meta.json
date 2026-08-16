@@ -1,0 +1,18 @@
+{
+  "description": "L.g.f. Sum_{n>=1} a(n)*x^n/n = log(1+x + Sum_{n>=2} 3*n/(3*n^2 - 1) * a(n)*x^n ).",
+  "id": "A397349",
+  "mentions": [
+    "A396846",
+    "A397346",
+    "A397348"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

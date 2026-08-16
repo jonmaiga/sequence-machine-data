@@ -2,12 +2,13 @@
   "description": "Triangle read by rows in which each term equals the entry above minus the entry left plus twice the entry left-above.",
   "id": "A094184",
   "mentions": [
-    "A000118",
+    "A000108",
     "A009766",
     "A049122",
     "A065432",
     "A065441",
     "A086990",
+    "A090192",
     "A090412"
   ],
   "tags": [

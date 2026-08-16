@@ -1,0 +1,20 @@
+{
+  "description": "ISBN-10 numbers with the same check digit upon conversion to ISBN-13.",
+  "id": "A393653",
+  "mentions": [
+    "A114433",
+    "A231963",
+    "A237042"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

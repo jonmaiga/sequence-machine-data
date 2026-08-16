@@ -1,15 +1,18 @@
 {
   "description": "Table of orders of primitive permutation groups by degree.",
   "id": "A023675",
-  "mentions": [],
+  "mentions": [
+    "A000019",
+    "A023676"
+  ],
   "tags": [
     "nice",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 2,
-    "size": 49,
+    "offset": 1,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

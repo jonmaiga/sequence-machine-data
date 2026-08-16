@@ -2,6 +2,7 @@
   "description": "Sum of the sizes of the Durfee squares of all partitions of n into distinct parts.",
   "id": "A116859",
   "mentions": [
+    "A001622",
     "A116858"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

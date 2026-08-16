@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + x * exp(2*x) * A(x * exp(x)).",
+  "id": "A396916",
+  "mentions": [
+    "A336950",
+    "A360887",
+    "A397882"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

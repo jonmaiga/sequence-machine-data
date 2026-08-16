@@ -2,10 +2,11 @@
   "description": "Number of distinct topologies on an n-set that have exactly 4 open sets.",
   "id": "A281773",
   "mentions": [
-    "A000012",
+    "A000007",
     "A000392",
     "A000918",
     "A028244",
+    "A057427",
     "A281774",
     "A281775",
     "A281776",
@@ -13,7 +14,8 @@
     "A281778",
     "A281779",
     "A281780",
-    "A298564"
+    "A298564",
+    "A326882"
   ],
   "tags": [
     "easy",

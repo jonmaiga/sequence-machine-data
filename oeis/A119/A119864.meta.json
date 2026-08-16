@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that the numerator of BernoulliB[n] is divisible by 691.",
+  "description": "Numbers m such that the numerator of BernoulliB(m) is divisible by 691.",
   "id": "A119864",
   "mentions": [
     "A027641"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+k,2*k) * (binomial(n+2*k,k) - binomial(n+2*k,k-1)).",
+  "id": "A394186",
+  "mentions": [
+    "A071945",
+    "A116363",
+    "A243116",
+    "A346626",
+    "A395801",
+    "A396286",
+    "A397383"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

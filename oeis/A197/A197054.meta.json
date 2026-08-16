@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) is the number of n X k 0..4 arrays with each element equal to the number of its horizontal and vertical zero neighbors.",
+  "description": "T(n,k) is the number of maximal independent vertex sets in the n X k grid graph, n >= 1, k >= 1, read by antidiagonals.",
   "id": "A197054",
   "mentions": [
     "A000931",
@@ -11,7 +11,8 @@
     "A197051",
     "A197052",
     "A197053",
-    "A218354"
+    "A218354",
+    "A293177"
   ],
   "tags": [
     "nonn",

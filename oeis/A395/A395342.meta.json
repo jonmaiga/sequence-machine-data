@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cosh(x)^5 / cos(x)^2.",
+  "id": "A395342",
+  "mentions": [
+    "A000182",
+    "A395340",
+    "A395341"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

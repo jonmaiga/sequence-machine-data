@@ -1,0 +1,17 @@
+{
+  "description": "Primitive solutions k to the Diophantine equation k^7 = Sum_{i=1..7} y_i^7 with y_i > 0.",
+  "id": "A381026",
+  "mentions": [
+    "A380716"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

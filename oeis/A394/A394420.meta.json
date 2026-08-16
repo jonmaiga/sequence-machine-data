@@ -1,0 +1,16 @@
+{
+  "description": "Primes not on any previously drawn infinite lines in A394415.",
+  "id": "A394420",
+  "mentions": [
+    "A000040",
+    "A394415"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

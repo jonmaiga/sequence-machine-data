@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(5*n+2*k-3,k) - binomial(5*n+2*k-3,k-1)).",
+  "id": "A397508",
+  "mentions": [
+    "A002296",
+    "A333097",
+    "A396577",
+    "A397507",
+    "A397513",
+    "A397516"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

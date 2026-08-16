@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the large face angle, in radians, of a canonical (dual-uniform) octagonal trapezohedron.",
+  "id": "A398217",
+  "mentions": [
+    "A144981",
+    "A398210",
+    "A398211",
+    "A398212",
+    "A398213",
+    "A398214",
+    "A398215",
+    "A398216",
+    "A398218"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

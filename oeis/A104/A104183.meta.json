@@ -2,7 +2,8 @@
   "description": "Table of random digits from Abramowitz and Stegun.",
   "id": "A104183",
   "mentions": [
-    "A002205"
+    "A002205",
+    "A039925"
   ],
   "tags": [
     "fini",

@@ -2,7 +2,7 @@
   "description": "Number of distinct prime factors of (prime p concatenated p times).",
   "id": "A101081",
   "mentions": [
-    "A101459"
+    "A110758"
   ],
   "tags": [
     "base",

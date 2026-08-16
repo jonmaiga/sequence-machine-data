@@ -2,6 +2,8 @@
   "description": "Difference between (n!)^2 and the next smaller factorial.",
   "id": "A121348",
   "mentions": [
+    "A000142",
+    "A001044",
     "A121347"
   ],
   "tags": [
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 14,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

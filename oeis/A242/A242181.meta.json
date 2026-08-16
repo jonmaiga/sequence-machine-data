@@ -2,7 +2,8 @@
   "description": "Numbers with four X's in Roman numerals.",
   "id": "A242181",
   "mentions": [
-    "A006968"
+    "A006968",
+    "A008607"
   ],
   "tags": [
     "base",

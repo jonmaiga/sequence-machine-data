@@ -1,0 +1,24 @@
+{
+  "description": "Smallest positive integer that is a primitive root modulo p but not modulo p^2, where p = prime(n).",
+  "id": "A397854",
+  "mentions": [
+    "A000040",
+    "A001918",
+    "A008330",
+    "A039678",
+    "A055578",
+    "A060503",
+    "A101710",
+    "A127807",
+    "A317706"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

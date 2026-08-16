@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} arctan(x)^2 dx.",
+  "id": "A397680",
+  "mentions": [
+    "A006752",
+    "A091475",
+    "A173623",
+    "A222068",
+    "A397681",
+    "A397682"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

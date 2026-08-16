@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes between the n-th odd semiprime and the following odd semiprime.",
+  "id": "A398488",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001358",
+    "A046315"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

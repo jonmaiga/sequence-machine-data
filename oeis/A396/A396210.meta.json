@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=1..n} Sum_{j=1..i} binomial(j+2,3) * binomial(n+3*i-1,4*i-1) * binomial(i+3*j-1,4*j-1).",
+  "id": "A396210",
+  "mentions": [
+    "A000292",
+    "A279283",
+    "A396093",
+    "A396208",
+    "A396209"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

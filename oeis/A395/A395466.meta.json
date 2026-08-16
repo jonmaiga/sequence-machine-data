@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the area of the constructible squarable lune whose circular arcs have central angles in a 3:2 ratio and common chord of unit length.",
+  "id": "A395466",
+  "mentions": [
+    "A395465",
+    "A395467",
+    "A395468",
+    "A395469",
+    "A395470",
+    "A395471",
+    "A395472"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

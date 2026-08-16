@@ -1,0 +1,15 @@
+{
+  "description": "Number of permutations p of [n] such that |p(i)-i| >= 8 for all i in [n].",
+  "id": "A397357",
+  "mentions": [
+    "A306543"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

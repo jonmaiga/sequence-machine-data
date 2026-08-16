@@ -1,8 +1,9 @@
 {
-  "description": "Number of permutations p from (1,2,3,...,n) to (1,2,3...,n) such that 1/p(1)+2/p(2)+...+n/p(n) is an integer.",
+  "description": "Number of permutations p of (1,2,3,...,n) such that 1/p(1) + 2/p(2) + ... + n/p(n) is an integer.",
   "id": "A073090",
   "mentions": [
     "A000040",
+    "A073112",
     "A349257"
   ],
   "tags": [

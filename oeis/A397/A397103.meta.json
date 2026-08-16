@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer k>0 such that k*5^n + 1 is a prime.",
+  "id": "A397103",
+  "mentions": [
+    "A035050",
+    "A121172",
+    "A225911",
+    "A239676",
+    "A295640"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

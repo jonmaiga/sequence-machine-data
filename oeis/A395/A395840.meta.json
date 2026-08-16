@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying a(n) = [x^(n-1)] A(x)^(2*n+1) for n >= 1.",
+  "id": "A395840",
+  "mentions": [
+    "A361048",
+    "A395841"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{r=1..k} binomial(2*n + 1, k - r) * Sum_{j=0..r-1} (-1)^(k - r + j) * (n + r - 1 - j)^(n + r - 1)/(j! * (r - 1 - j)!) for k > 0, and T(n, 0) = 0^n.",
+  "id": "A395929",
+  "mentions": [
+    "A000312",
+    "A001147",
+    "A354794",
+    "A395908"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of edge-collision walks on the complete directed graph with self-loops on n labeled vertices that start at a fixed vertex and visit all n vertices.",
+  "id": "A396606",
+  "mentions": [
+    "A396427"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to partition the standard Roman numeral representation of n into a sequence of one or more substrings, each of which is itself the standard Roman numeral representation of a positive integer.",
+  "id": "A398269",
+  "mentions": [
+    "A000073",
+    "A000079",
+    "A007954"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

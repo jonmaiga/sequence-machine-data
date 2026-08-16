@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the ratio of the inner radius to the outer radius of an annulus, such that the probability is 1/2 that a line segment connecting two points, chosen independently and uniformly at random in the annulus, lies entirely within it.",
+  "id": "A396275",
+  "mentions": [
+    "A395391",
+    "A396274"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

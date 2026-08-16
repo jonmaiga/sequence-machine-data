@@ -17,12 +17,13 @@
     "A378478"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 14,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,9 @@
   "description": "Largest primes < numbers of the form 6k (duplicates removed).",
   "id": "A105575",
   "mentions": [
-    "A105399"
+    "A067775",
+    "A105399",
+    "A357253"
   ],
   "tags": [
     "easy",

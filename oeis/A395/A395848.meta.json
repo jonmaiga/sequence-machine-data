@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the expected distance between the center of a unit-side regular hexagon to a randomly and uniformly selected point on its perimeter.",
+  "id": "A395848",
+  "mentions": [
+    "A245700",
+    "A345653",
+    "A394597",
+    "A395846",
+    "A395847"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

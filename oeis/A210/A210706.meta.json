@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that floor[ 3^(1/3)*10^k ] is prime.",
+  "description": "Numbers k such that floor(3^(1/3)*10^k) is prime.",
   "id": "A210706",
   "mentions": [
     "A002581",
@@ -12,14 +12,14 @@
   ],
   "tags": [
     "base",
-    "bref",
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

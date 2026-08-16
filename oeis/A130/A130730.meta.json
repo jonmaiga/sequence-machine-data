@@ -1,5 +1,5 @@
 {
-  "description": "Fermat numbers of order 7 or F(n,7) = 2^(2^n)+7.",
+  "description": "Fermat numbers of order 7 or F(n,7) = 2^(2^n) + 7.",
   "id": "A130730",
   "mentions": [
     "A063486",

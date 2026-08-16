@@ -1,7 +1,8 @@
 {
-  "description": "Fibonacci(n*(n+1)) / Fibonacci(n).",
+  "description": "a(n) = Fibonacci(n*(n+1)) / Fibonacci(n).",
   "id": "A205505",
   "mentions": [
+    "A000045",
     "A000204",
     "A028412",
     "A051294",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 14,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

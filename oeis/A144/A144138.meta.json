@@ -2,6 +2,7 @@
   "description": "Chebyshev polynomial of the second kind U(3,n).",
   "id": "A144138",
   "mentions": [
+    "A007588",
     "A100551",
     "A123027",
     "A144139"

@@ -1,0 +1,17 @@
+{
+  "description": "Fix-ordered complementary factors of prime(m-1)+1 where m belongs to set where denominators in the expression m!/(prime(m-1)+1) for m > 1 are not integers.",
+  "id": "A395951",
+  "mentions": [
+    "A223881"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

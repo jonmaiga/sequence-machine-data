@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2-adic valuation of n! minus the 2-adic valuation of the permanent of the n X n matrix with entries gcd(i,j).",
+  "id": "A397639",
+  "mentions": [
+    "A007814",
+    "A011371",
+    "A085244",
+    "A397298"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

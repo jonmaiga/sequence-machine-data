@@ -1,7 +1,14 @@
 {
-  "description": "Decimal expansion of sum_(n>=1) H(n)^3/n^4 where H(n) is the n-th harmonic number.",
+  "description": "Decimal expansion of Sum_{n>=1} H(n)^3/n^4 where H(n) is the n-th harmonic number.",
   "id": "A238169",
   "mentions": [
+    "A001008",
+    "A002117",
+    "A002805",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013665",
     "A152648",
     "A152649",
     "A152651",

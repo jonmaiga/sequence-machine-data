@@ -1,0 +1,17 @@
+{
+  "description": "Gilbreath transform of the prime counting function pi(n) (A000720) with pi(0) = 0.",
+  "id": "A397252",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A038552"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

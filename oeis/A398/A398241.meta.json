@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple graphs on n unlabeled vertices with feedback vertex set number 1.",
+  "id": "A398241",
+  "mentions": [
+    "A005195",
+    "A236570",
+    "A398240",
+    "A398243"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

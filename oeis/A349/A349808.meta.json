@@ -5,12 +5,13 @@
     "A350000"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

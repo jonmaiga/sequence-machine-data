@@ -1,0 +1,15 @@
+{
+  "description": "Maximum orbit size of the topdrop map on permutations of the positive integers 1 through n.",
+  "id": "A395588",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

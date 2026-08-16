@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k,4) / (k * 2^k), where H(k,4) = A007410(k)/A007480(k) is the k-th generalized harmonic number of order 4.",
+  "id": "A398128",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A007410",
+    "A007480",
+    "A013661",
+    "A013662",
+    "A072691",
+    "A099218",
+    "A099219",
+    "A233090",
+    "A398127"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

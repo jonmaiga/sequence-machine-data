@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is the smallest unused number placed on a hexagon spiral that has a common factor with any earlier term that is adjacent to it on the spiral.",
+  "id": "A396357",
+  "mentions": [
+    "A064413",
+    "A396013",
+    "A397219",
+    "A397323"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

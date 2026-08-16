@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2*k is the range of A002322, the reduced totient function.",
+  "id": "A396684",
+  "mentions": [
+    "A002174",
+    "A002180",
+    "A002322",
+    "A396685"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

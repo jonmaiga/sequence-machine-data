@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled minimally 8-rigid graphs on n vertices.",
+  "id": "A396977",
+  "mentions": [
+    "A227117",
+    "A328419",
+    "A394820",
+    "A395187",
+    "A396885",
+    "A396886"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 8,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

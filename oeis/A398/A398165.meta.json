@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that all the exponents in the prime factorizations of k and k+1 are powers of 2.",
+  "id": "A398165",
+  "mentions": [
+    "A007674",
+    "A057716",
+    "A138302",
+    "A340152",
+    "A367695",
+    "A367696",
+    "A372690",
+    "A391396",
+    "A398161",
+    "A398162",
+    "A398163",
+    "A398164",
+    "A398166",
+    "A398167",
+    "A398168",
+    "A398169",
+    "A398170"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

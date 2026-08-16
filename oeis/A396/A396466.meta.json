@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where A(n,k) = [x^n] (F_k(x)/x)^(2/3) and F_k(x) is the k-th iteration of x*G4(x)^3 with G4(x) = 1 + x*G4(x)^4.",
+  "id": "A396466",
+  "mentions": [
+    "A000007",
+    "A069271",
+    "A396431",
+    "A396448"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

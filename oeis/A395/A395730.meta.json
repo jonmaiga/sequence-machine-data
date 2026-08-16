@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the maximum area of cross-section of a regular dodecahedron of unit edge length.",
+  "id": "A395730",
+  "mentions": [
+    "A002193",
+    "A120011",
+    "A176055",
+    "A395727",
+    "A395728"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

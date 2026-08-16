@@ -1,0 +1,17 @@
+{
+  "description": "Area of the smallest simple polygon (by area) which can be triangulated into n different Pythagorean triangles.",
+  "id": "A397502",
+  "mentions": [
+    "A396266",
+    "A397503"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

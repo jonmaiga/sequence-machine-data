@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of log(2)^2/2.",
+  "id": "A396777",
+  "mentions": [
+    "A000984",
+    "A001008",
+    "A002162",
+    "A002805",
+    "A058312",
+    "A058313",
+    "A072691",
+    "A076788",
+    "A253191",
+    "A348063"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -2,9 +2,12 @@
   "description": "Card{(x,y,z,t): 1<=x,y,z,t<=n, gcd(x,y,z,t)=1, lcm(x,y,z,t)=n}.",
   "id": "A247516",
   "mentions": [
+    "A008683",
     "A034444",
     "A070920",
-    "A245019"
+    "A245019",
+    "A247513",
+    "A247517"
   ],
   "tags": [
     "easy",

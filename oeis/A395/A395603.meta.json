@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the distinct prime divisors of C(8*n, n).",
+  "id": "A395603",
+  "mentions": [
+    "A004381",
+    "A008472",
+    "A034387",
+    "A394454",
+    "A394591",
+    "A394592",
+    "A394593",
+    "A395515",
+    "A395566"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

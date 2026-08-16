@@ -2,17 +2,23 @@
   "description": "Extremal graph numbers for a triangle with an edge off it.",
   "id": "A182531",
   "mentions": [
+    "A000212",
     "A000290",
-    "A002378"
+    "A002378",
+    "A002620",
+    "A006855",
+    "A006856",
+    "A033436",
+    "A033437",
+    "A033438"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 57,
     "source": "joeis"
   }
 }

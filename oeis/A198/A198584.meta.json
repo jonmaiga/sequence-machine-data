@@ -1,8 +1,10 @@
 {
-  "description": "Odd numbers producing exactly 3 odd numbers in the Collatz (3x+1) iteration.",
+  "description": "Odd numbers producing exactly 3 odd numbers under the Collatz (3x+1) iterations.",
   "id": "A198584",
   "mentions": [
     "A002450",
+    "A049451",
+    "A056109",
     "A062053",
     "A092893",
     "A198585",

@@ -2,6 +2,7 @@
   "description": "Smallest multiple of n which is the concatenation of n successive numbers in descending order, or 0 if no such number exists.",
   "id": "A087342",
   "mentions": [
+    "A083468",
     "A087343"
   ],
   "tags": [

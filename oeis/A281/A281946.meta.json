@@ -2,7 +2,10 @@
   "description": "Number of sequences of balls colored with at most n colors such that exactly two balls are of a color seen earlier in the sequence.",
   "id": "A281946",
   "mentions": [
-    "A281944"
+    "A281912",
+    "A281944",
+    "A394825",
+    "A394975"
   ],
   "tags": [
     "formulas",

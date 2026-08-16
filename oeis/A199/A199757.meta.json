@@ -1,8 +1,11 @@
 {
   "description": "a(n) = (7*11^n+1)/2.",
   "id": "A199757",
-  "mentions": [],
+  "mentions": [
+    "A001020"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

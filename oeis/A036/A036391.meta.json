@@ -2,9 +2,14 @@
   "description": "a(n) = sum of order of a mod n, 0 < a < n, gcd(a, n) = 1.",
   "id": "A036391",
   "mentions": [
+    "A000010",
+    "A002322",
     "A033948",
+    "A057660",
     "A139366",
-    "A218342"
+    "A218342",
+    "A252911",
+    "A372305"
   ],
   "tags": [
     "formulas",

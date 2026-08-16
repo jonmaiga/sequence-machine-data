@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A396297.",
+  "id": "A396298",
+  "mentions": [
+    "A139250",
+    "A220500",
+    "A247618",
+    "A321257",
+    "A330844",
+    "A396297"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

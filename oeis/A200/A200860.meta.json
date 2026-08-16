@@ -1,7 +1,9 @@
 {
   "description": "Multiples of 682.",
   "id": "A200860",
-  "mentions": [],
+  "mentions": [
+    "A135631"
+  ],
   "tags": [
     "easy",
     "formulas",

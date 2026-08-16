@@ -2,10 +2,14 @@
   "description": "Number of Egyptian fractions in the representation of n/(n+1) via the greedy algorithm.",
   "id": "A100678",
   "mentions": [
+    "A050205",
     "A100695",
-    "A247765"
+    "A247765",
+    "A330808",
+    "A396160"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

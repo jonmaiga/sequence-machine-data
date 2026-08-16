@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A( x*A(x) - 5*x*A(x)^2 ) = x^2.",
+  "id": "A396845",
+  "mentions": [
+    "A000108",
+    "A265940",
+    "A271958",
+    "A396843",
+    "A396844"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

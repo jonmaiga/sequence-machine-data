@@ -1,18 +1,16 @@
 {
-  "description": "Sigma(2*m)/m for m such that sigma(2*m) is divisible by m (these m are in A227302).",
+  "description": "a(n) = sigma(2*m)/m, where m = A227302(n).",
   "id": "A232702",
   "mentions": [
     "A054030",
     "A227302"
   ],
   "tags": [
-    "less",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
-    "source": "oeis-entry"
+    "size": 109,
+    "source": "oeis-bfile"
   }
 }

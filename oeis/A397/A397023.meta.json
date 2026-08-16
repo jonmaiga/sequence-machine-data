@@ -1,0 +1,24 @@
+{
+  "description": "Number of free polynars with n cells that are not the 2 X enlargement of a free n-omino.",
+  "id": "A397023",
+  "mentions": [
+    "A000105",
+    "A390620",
+    "A390621",
+    "A390622",
+    "A397019",
+    "A397020",
+    "A397021",
+    "A397022"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

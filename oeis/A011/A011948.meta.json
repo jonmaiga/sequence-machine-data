@@ -2,15 +2,18 @@
   "description": "Number of Barlow packings with group P63mc that repeat after 2n layers.",
   "id": "A011948",
   "mentions": [
+    "A000046",
     "A045668",
+    "A056513",
     "A309784"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 6,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

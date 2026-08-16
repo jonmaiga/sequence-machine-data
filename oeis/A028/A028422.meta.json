@@ -2,14 +2,20 @@
   "description": "Number of ways n can be properly factored.",
   "id": "A028422",
   "mentions": [
+    "A000041",
+    "A000065",
+    "A000110",
     "A001055",
+    "A046523",
     "A066032",
+    "A118914",
     "A216599",
     "A216600",
     "A216601",
     "A216602"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

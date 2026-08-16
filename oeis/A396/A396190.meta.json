@@ -1,0 +1,17 @@
+{
+  "description": "These numbers are the slowest to appear in A394166.",
+  "id": "A396190",
+  "mentions": [
+    "A394166",
+    "A396189",
+    "A396484"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

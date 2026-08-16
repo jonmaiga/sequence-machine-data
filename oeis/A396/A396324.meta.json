@@ -1,0 +1,34 @@
+{
+  "description": "Numbers k for which there exists a residue class r (mod k) with s = r+m*k, m >= 0, such that rad(s) | gcd(s,k), where rad = A007947.",
+  "id": "A396324",
+  "mentions": [
+    "A001694",
+    "A003557",
+    "A005117",
+    "A007947",
+    "A013929",
+    "A024619",
+    "A052486",
+    "A053669",
+    "A059404",
+    "A072777",
+    "A246547",
+    "A303606",
+    "A332785",
+    "A359280",
+    "A366825",
+    "A381803",
+    "A383384",
+    "A383394",
+    "A386762",
+    "A393869"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

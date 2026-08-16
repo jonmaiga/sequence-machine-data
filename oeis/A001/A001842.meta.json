@@ -1,12 +1,19 @@
 {
-  "description": "Expansion of Sum_{n>=0} x^(4*n+3)/(1 - x^(4*n+3)).",
+  "description": "Number of divisors of n of the form 4*k+3.",
   "id": "A001842",
   "mentions": [
+    "A000035",
     "A001227",
     "A001620",
     "A001826",
+    "A002654",
+    "A038189",
     "A072437",
-    "A256846"
+    "A121262",
+    "A188170",
+    "A188172",
+    "A256846",
+    "A293513"
   ],
   "tags": [
     "easy",

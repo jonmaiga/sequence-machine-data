@@ -1,7 +1,15 @@
 {
   "description": "Legendre symbol (n,173).",
   "id": "A011617",
-  "mentions": [],
+  "mentions": [
+    "A011582",
+    "A011631",
+    "A080891",
+    "A102283",
+    "A165573",
+    "A165574",
+    "A175629"
+  ],
   "tags": [
     "easy",
     "formulas",

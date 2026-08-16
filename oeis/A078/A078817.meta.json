@@ -17,13 +17,14 @@
     "A078820"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
-    "source": "joeis"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

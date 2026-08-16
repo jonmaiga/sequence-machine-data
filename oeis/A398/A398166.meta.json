@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that all the exponents in the prime factorizations of k and k+1 are squares.",
+  "id": "A398166",
+  "mentions": [
+    "A000037",
+    "A007674",
+    "A197680",
+    "A340152",
+    "A367695",
+    "A372690",
+    "A391396",
+    "A398161",
+    "A398162",
+    "A398163",
+    "A398164",
+    "A398165",
+    "A398167",
+    "A398168",
+    "A398169",
+    "A398170"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

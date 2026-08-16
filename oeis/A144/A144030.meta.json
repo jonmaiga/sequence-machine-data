@@ -1,7 +1,11 @@
 {
-  "description": "Numbers n such that : a=a^2-n^3; a=a-2.",
+  "description": "a(0) = 0; thereafter, a(n) = (a(n - 1) - 2)^2 - n^3.",
   "id": "A144030",
-  "mentions": [],
+  "mentions": [
+    "A143984",
+    "A143985",
+    "A144033"
+  ],
   "tags": [
     "sign"
   ],

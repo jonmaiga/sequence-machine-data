@@ -1,0 +1,22 @@
+{
+  "description": "Number of fixed-content bracelets of length n, summed over all integer partitions of n, whose mirror image is a rotation of the original word, with exactly one palindromic rotation and a nontrivial rotational symmetry.",
+  "id": "A396085",
+  "mentions": [
+    "A005651",
+    "A072605",
+    "A213943",
+    "A395436",
+    "A396630",
+    "A396631",
+    "A396632"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

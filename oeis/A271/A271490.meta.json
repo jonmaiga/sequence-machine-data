@@ -1,5 +1,5 @@
 {
-  "description": "Size of maximal subset of points of n X n grid such that no two points are at the same distance.",
+  "description": "Size of largest subset of points of n X n grid such that no two points are at the same distance.",
   "id": "A271490",
   "mentions": [
     "A193838",

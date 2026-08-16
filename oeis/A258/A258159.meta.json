@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A053645(n) (n with the most significant binary digit removed) divides A004526(n) (n with the least significant binary digit removed).",
+  "description": "Numbers m such that A053645(m) (m with the most significant binary digit removed) is nonzero and divides A004526(m) (m with the least significant binary digit removed).",
   "id": "A258159",
   "mentions": [
     "A004526",

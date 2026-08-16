@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which row n lists the parts >= 2 of the last section of the set of partitions of n, in the order produced by the shell model of partitions of A138121, with a(1)=0.",
+  "description": "Triangle read by rows in which row n lists the parts >= 2 of the last section of the set of partitions of n, in the order produced by the modular table of partitions of A138121, with a(1)=0.",
   "id": "A182710",
   "mentions": [
     "A135010",

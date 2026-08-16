@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct squarefree composite numbers, such that for any prime p, any run of consecutive multiples of p has length exactly 2.",
+  "id": "A397340",
+  "mentions": [
+    "A001221",
+    "A002808",
+    "A005117",
+    "A120944",
+    "A280864",
+    "A338444",
+    "A397127"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

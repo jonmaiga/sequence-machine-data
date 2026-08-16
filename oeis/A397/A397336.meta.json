@@ -1,0 +1,18 @@
+{
+  "description": "Number of ternary words with c(1) = n such that all prefixes satisfy c(1) >= c(2), c(1) >= c(3), where c(i) is the number of occurrences of the letter i.",
+  "id": "A397336",
+  "mentions": [
+    "A006335",
+    "A151265",
+    "A396150",
+    "A398472"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

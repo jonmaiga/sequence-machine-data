@@ -1,0 +1,17 @@
+{
+  "description": "Indices k such that the cumulative bitwise XOR of the first k primes is prime.",
+  "id": "A395766",
+  "mentions": [
+    "A000040",
+    "A126084"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

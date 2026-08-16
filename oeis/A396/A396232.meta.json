@@ -1,0 +1,18 @@
+{
+  "description": "The smallest amount which cannot be made with fewer than n Indian coins.",
+  "id": "A396232",
+  "mentions": [
+    "A258272",
+    "A258274"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

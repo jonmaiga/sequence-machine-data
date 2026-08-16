@@ -2,7 +2,8 @@
   "description": "E.g.f. is the series S(x) such that C(x) + i*S(x) = 1 + i * Integral C(x)/(C(x) + i*S(x)) dx, odd powers only, where i^2 = -1.",
   "id": "A263185",
   "mentions": [
-    "A263184"
+    "A263184",
+    "A354794"
   ],
   "tags": [
     "formulas",

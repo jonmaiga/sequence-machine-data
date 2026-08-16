@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest number > 7^(n-1) with exactly n divisors.",
+  "id": "A396541",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000244",
+    "A000351",
+    "A000420",
+    "A001020",
+    "A005179",
+    "A396139",
+    "A396206"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

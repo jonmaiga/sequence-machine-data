@@ -1,0 +1,20 @@
+{
+  "description": "Number of well-formed bracketed words of total length 2n built from the symbol * (of length 2) and two unary bracket types () and [], with no empty bracket pair, where every maximal chain of unary brackets is written in canonical weakly increasing order.",
+  "id": "A394945",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A394946",
+    "A394947"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

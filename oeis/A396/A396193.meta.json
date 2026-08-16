@@ -1,0 +1,19 @@
+{
+  "description": "Index of 2^n-1 in A394166, or -1 if 2^n-1 does not appear.",
+  "id": "A396193",
+  "mentions": [
+    "A394166",
+    "A396188",
+    "A396192",
+    "A396484"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

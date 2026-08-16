@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that Q(zeta_{psi(k)}) has class number greater than 1, where psi = A002322.",
+  "id": "A396477",
+  "mentions": [
+    "A002322",
+    "A193175",
+    "A396476"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

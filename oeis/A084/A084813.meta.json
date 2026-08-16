@@ -1,5 +1,5 @@
 {
-  "description": "Least integers that satisfy sum(n>0,1/a(n)^z)=0, where a(1)=1, a(n+1)>a(n) and z=I.",
+  "description": "Lexically least ascending sequence of positive integers such that |Sum_{k=1..n} 1/a(k)^z| is monotonically decreasing, with z=i.",
   "id": "A084813",
   "mentions": [
     "A084812",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

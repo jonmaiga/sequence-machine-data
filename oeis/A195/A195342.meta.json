@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of shortest length, (C), of segment from side CA through incenter to side CB in right triangle ABC with sidelengths (a,b,c)=(1,2,sqrt(5)).",
+  "description": "Decimal expansion of shortest length, (C), of segment from side CA through incenter to side CB in right triangle ABC with sidelengths (a,b,c) = (1,2,sqrt(5)).",
   "id": "A195342",
   "mentions": [
     "A195284",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

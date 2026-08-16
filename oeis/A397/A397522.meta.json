@@ -1,0 +1,19 @@
+{
+  "description": "Row 8 of A365673.",
+  "id": "A397522",
+  "mentions": [
+    "A000567",
+    "A365673",
+    "A366150",
+    "A397523"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

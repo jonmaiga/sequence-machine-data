@@ -1,10 +1,11 @@
 {
-  "description": "Triangular array counting derangements by number of descents.",
+  "description": "T(n,k) is the number of derangements of [n] with k descents; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
   "id": "A219836",
   "mentions": [
     "A000166",
     "A008292",
-    "A046739"
+    "A046739",
+    "A271697"
   ],
   "tags": [
     "formulas",
@@ -12,8 +13,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 2,
-    "size": 45,
+    "offset": 0,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

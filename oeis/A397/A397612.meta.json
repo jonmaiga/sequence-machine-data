@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the height of a canonical (dual-uniform) hexagonal trapezohedron with unit short edge length.",
+  "id": "A397612",
+  "mentions": [
+    "A002194",
+    "A019973",
+    "A195698",
+    "A397608",
+    "A397609",
+    "A397610",
+    "A397611",
+    "A397613",
+    "A397614"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

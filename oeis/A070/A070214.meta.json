@@ -1,8 +1,9 @@
 {
-  "description": "Maximal number of occupied cells in all monotonic matrices of order n.",
+  "description": "Maximal number of occupied cells in monotonic matrix of order n.",
   "id": "A070214",
   "mentions": [
-    "A086976"
+    "A086976",
+    "A397889"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

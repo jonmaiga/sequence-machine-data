@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1135547732074278753 / 46505268690923380.",
+  "id": "A395479",
+  "mentions": [
+    "A070063",
+    "A070064",
+    "A213611",
+    "A322578",
+    "A356381"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Run length transform of A089582.",
+  "id": "A396593",
+  "mentions": [
+    "A036262",
+    "A089582"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

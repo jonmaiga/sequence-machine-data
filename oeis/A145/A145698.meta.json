@@ -1,7 +1,9 @@
 {
-  "description": "Numbers x such that (x+37)^3-x^3 is a square.",
+  "description": "Numbers x such that (x+37)^3 - x^3 is a square.",
   "id": "A145698",
-  "mentions": [],
+  "mentions": [
+    "A145700"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "joeis"
   }
 }

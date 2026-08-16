@@ -1,0 +1,21 @@
+{
+  "description": "Integers x such that there exist three integers 00 such that sigma(x)*psi(x) = sigma(y)*psi(y) = sigma(z)*psi(z) = x^2 + y^2 + z^2 + t^2.",
+  "id": "A395825",
+  "mentions": [
+    "A000203",
+    "A000414",
+    "A001615",
+    "A385531",
+    "A391289",
+    "A395670",
+    "A395763"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

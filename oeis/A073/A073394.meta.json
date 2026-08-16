@@ -1,5 +1,5 @@
 {
-  "description": "Seventh convolution of A002605(n) (generalized (2,2)-Fibonacci), n >= 0, with itself.",
+  "description": "Eighth column of the convolution triangle A073387(n+7, 7), for n >= 0.",
   "id": "A073394",
   "mentions": [
     "A002605",

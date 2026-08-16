@@ -1,5 +1,5 @@
 {
-  "description": "Number of iterations until n reaches a number in A039943 under \"x goes to sum of squares of digits of x\" map.",
+  "description": "Number of iterations until n reaches a number in A039943 under the sum-of-squares-of-digits map A003132.",
   "id": "A099645",
   "mentions": [
     "A000216",

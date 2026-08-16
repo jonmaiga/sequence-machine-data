@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of [n] such that |p(i+1) - p(i)| <> 2 for all 1 <= i < n.",
+  "id": "A395335",
+  "mentions": [
+    "A002464",
+    "A110128",
+    "A398634"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

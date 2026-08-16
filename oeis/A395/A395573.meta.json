@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the permanent of the symmetric n X n matrix M defined by M(i,j) = min(i!,j!) for 1 <= i,j <= n.",
+  "id": "A395573",
+  "mentions": [
+    "A000142",
+    "A004197",
+    "A152653"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

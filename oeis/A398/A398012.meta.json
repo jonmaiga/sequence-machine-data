@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of -Sum_{k>=1} lambda(k) * log(k) / k^2, where lambda is Liouville's function (A008836).",
+  "id": "A398012",
+  "mentions": [
+    "A001620",
+    "A008836",
+    "A073002",
+    "A074962",
+    "A182448",
+    "A243263"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

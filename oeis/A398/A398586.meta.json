@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Re(Li_3((1 + i)/2)), where Li_3(z) is the polylogarithm function of order 3, and i is the imaginary unit.",
+  "id": "A398586",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A013661",
+    "A016655",
+    "A355022",
+    "A374677",
+    "A398585",
+    "A398588"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

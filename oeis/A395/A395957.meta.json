@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is a triangular array of the number of king's move self-avoiding walks of any length on an n X k grid.",
+  "id": "A395957",
+  "mentions": [
+    "A000290",
+    "A236690",
+    "A395927"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

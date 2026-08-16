@@ -1,13 +1,17 @@
 {
   "description": "Convert n from yards to meters.",
   "id": "A029915",
-  "mentions": [],
+  "mentions": [
+    "A029916"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

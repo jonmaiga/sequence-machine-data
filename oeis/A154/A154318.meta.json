@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that nonprime(prime(n))+1 is prime.",
+  "description": "Numbers k such that nonprime(prime(k))+1 is prime.",
   "id": "A154318",
   "mentions": [
     "A141468"

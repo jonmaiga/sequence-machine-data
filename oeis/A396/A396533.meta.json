@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of -P(0), where P(x) is the Lagrange interpolation polynomial that interpolates P(k!) = k for all integer k > 0 in the limit of infinite order.",
+  "id": "A396533",
+  "mentions": [
+    "A092894",
+    "A203306",
+    "A396552"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

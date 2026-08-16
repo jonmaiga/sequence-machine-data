@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n - A394611(n).",
+  "id": "A397177",
+  "mentions": [
+    "A394611",
+    "A397173",
+    "A397180",
+    "A397471"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

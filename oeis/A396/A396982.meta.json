@@ -1,0 +1,19 @@
+{
+  "description": "Arrange digits in decreasing order in the canonical snowball representation of n.",
+  "id": "A396982",
+  "mentions": [
+    "A004186",
+    "A351988",
+    "A397794"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

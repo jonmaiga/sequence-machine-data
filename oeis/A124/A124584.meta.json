@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that q-p >= 10, where q is the next prime after p.",
   "id": "A124584",
-  "mentions": [],
+  "mentions": [
+    "A124585"
+  ],
   "tags": [
     "nonn"
   ],

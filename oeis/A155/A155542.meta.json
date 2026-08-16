@@ -1,7 +1,11 @@
 {
-  "description": "Expansion of (2+2*x)/(1-8*x-25*x^2).",
+  "description": "Expansion of 2*(1 + x)/(1 - 8*x - 25*x^2).",
   "id": "A155542",
-  "mentions": [],
+  "mentions": [
+    "A153709",
+    "A156341",
+    "A157765"
+  ],
   "tags": [
     "easy",
     "formulas",

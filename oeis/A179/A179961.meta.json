@@ -1,13 +1,20 @@
 {
-  "description": "Number of permutations of 1..n with no adjacent elements within 7 in value.",
+  "description": "Number of permutations of [n] such that |p(i)-p(i-1)|>= 8 for i>1.",
   "id": "A179961",
-  "mentions": [],
+  "mentions": [
+    "A002464",
+    "A127697",
+    "A179957",
+    "A179958",
+    "A179959",
+    "A179960"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

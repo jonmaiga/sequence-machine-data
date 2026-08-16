@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are equal to the sum of their coreful divisors that are not exponential divisors.",
+  "id": "A396545",
+  "mentions": [
+    "A001694",
+    "A005101",
+    "A005117",
+    "A013929",
+    "A054979",
+    "A284318",
+    "A307958",
+    "A322791",
+    "A396544",
+    "A396546"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

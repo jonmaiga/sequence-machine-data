@@ -2,6 +2,7 @@
   "description": "Number of n X 4 0..1 arrays avoiding 0 0 1 and 1 0 0 horizontally and 0 0 1 and 1 0 1 vertically.",
   "id": "A209646",
   "mentions": [
+    "A002414",
     "A209650"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 38,
     "source": "joeis"
   }
 }

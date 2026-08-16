@@ -2,12 +2,14 @@
   "description": "Sum of the integer part of 4th roots of integers <= n.",
   "id": "A032512",
   "mentions": [
+    "A000538",
     "A022554",
     "A031876",
     "A032513",
     "A255270"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

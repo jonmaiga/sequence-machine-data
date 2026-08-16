@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is the smallest unused square spiral number such that a(n) shares a factor with all existing numbers in its Moore neighborhood.",
+  "id": "A396013",
+  "mentions": [
+    "A064413",
+    "A253279",
+    "A257112",
+    "A257339",
+    "A336946",
+    "A354434",
+    "A397313"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

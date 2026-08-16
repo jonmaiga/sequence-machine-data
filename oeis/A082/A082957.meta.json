@@ -1,7 +1,13 @@
 {
-  "description": "Numbers n such that sigma(2n) < sigma(2n+1).",
+  "description": "Numbers k such that sigma(2*k) < sigma(2*k+1).",
   "id": "A082957",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A002961",
+    "A008438",
+    "A062731",
+    "A325423"
+  ],
   "tags": [
     "formulas",
     "nonn"

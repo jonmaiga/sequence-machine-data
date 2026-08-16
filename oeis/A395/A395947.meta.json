@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f.: x*sinh(x)^2*cosh(x) (odd powers only).",
+  "id": "A395947",
+  "mentions": [
+    "A125857"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

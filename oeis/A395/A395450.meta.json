@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of the Lagrange inversion coefficients for exponential formal power series, indexed by partitions in A334439 order.",
+  "id": "A395450",
+  "mentions": [
+    "A000041",
+    "A000311",
+    "A000457",
+    "A001147",
+    "A133942",
+    "A134685",
+    "A176740",
+    "A269939",
+    "A330797",
+    "A334439",
+    "A395451"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

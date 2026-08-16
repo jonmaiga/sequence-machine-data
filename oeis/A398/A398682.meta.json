@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the absolute value of Integral_{t=0..Pi/4} log(sin(t)) dt.",
+  "id": "A398682",
+  "mentions": [
+    "A006752",
+    "A173623"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "joeis"
+  }
+}

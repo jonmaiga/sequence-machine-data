@@ -1,0 +1,19 @@
+{
+  "description": "Number of factorizations of (p*q)^n into parts > 1 where neither p nor q are permitted as factors, for any two distinct primes p and q.",
+  "id": "A397646",
+  "mentions": [
+    "A001055",
+    "A002774",
+    "A054225"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

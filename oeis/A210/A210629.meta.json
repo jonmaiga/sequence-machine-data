@@ -3,8 +3,12 @@
   "id": "A210629",
   "mentions": [
     "A066540",
+    "A071613",
     "A209396",
-    "A209663"
+    "A209663",
+    "A227931",
+    "A227933",
+    "A395623"
   ],
   "tags": [
     "base",
@@ -13,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

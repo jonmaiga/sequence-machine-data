@@ -1,0 +1,18 @@
+{
+  "description": "Smallest nonnegative integer z for which there exists a solution to n = x*y+y*z+z*x in nonnegative integers x <= y <= z.",
+  "id": "A396665",
+  "mentions": [
+    "A396666",
+    "A396667",
+    "A396668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

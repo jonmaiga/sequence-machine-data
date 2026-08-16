@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first prime p such that the concatenation in reverse order of the last digits of n consecutive primes starting with p is prime.",
+  "id": "A397490",
+  "mentions": [
+    "A007652",
+    "A397072",
+    "A397504"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

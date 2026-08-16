@@ -1,0 +1,17 @@
+{
+  "description": "Nearest integer to n*(phi-1) which is coprime with n, where phi is the golden ratio.",
+  "id": "A395596",
+  "mentions": [
+    "A001622",
+    "A101803",
+    "A116921"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of the supersphere |x|^3 + |y|^3 + |z|^3 = 1.",
+  "id": "A396522",
+  "mentions": [
+    "A019699",
+    "A202623",
+    "A395230",
+    "A396523",
+    "A396524"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

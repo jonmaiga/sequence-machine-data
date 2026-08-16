@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 23n+3.",
+  "description": "Primes of the form 23*k+3.",
   "id": "A100201",
   "mentions": [
     "A040984",

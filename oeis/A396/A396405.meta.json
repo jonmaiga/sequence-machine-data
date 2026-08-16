@@ -1,0 +1,17 @@
+{
+  "description": "A sequence constructed by greedily sampling the probability distribution given by 1/log_2(i+1)^2 - 1/log_2(i+2)^2 to minimize ratio discrepancy.",
+  "id": "A396405",
+  "mentions": [
+    "A393100",
+    "A394370",
+    "A394401"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

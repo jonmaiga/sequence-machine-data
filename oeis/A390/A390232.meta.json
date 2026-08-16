@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] (f(x)^2 + f(-x)^2)/2 and f(x) = 1/(cos(x) + sqrt(3) * sin(x)).",
+  "id": "A390232",
+  "mentions": [
+    "A395233"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

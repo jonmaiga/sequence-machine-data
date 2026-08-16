@@ -1,0 +1,16 @@
+{
+  "description": "A392178(n) - A392177(n).",
+  "id": "A393449",
+  "mentions": [
+    "A392177",
+    "A392178"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

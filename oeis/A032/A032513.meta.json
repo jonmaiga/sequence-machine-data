@@ -2,6 +2,7 @@
   "description": "Sum of the integer part of 5th roots of positive integers less than or equal to n.",
   "id": "A032513",
   "mentions": [
+    "A000539",
     "A022554",
     "A031876",
     "A032512",

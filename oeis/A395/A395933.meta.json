@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed points of the longest-run operator with radius 2 on binary configurations of the cycle graph C_n.",
+  "id": "A395933",
+  "mentions": [
+    "A000204",
+    "A007039"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

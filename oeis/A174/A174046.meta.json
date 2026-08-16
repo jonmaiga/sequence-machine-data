@@ -1,5 +1,5 @@
 {
-  "description": "Places n for which A001359(n) and A023200(n) is a twin prime pair.",
+  "description": "Places n for which A001359(n) and A023200(n) are a twin prime pair.",
   "id": "A174046",
   "mentions": [
     "A001359",

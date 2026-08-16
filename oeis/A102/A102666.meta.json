@@ -1,13 +1,20 @@
 {
   "description": "Number of primitive polynomials of degree n over GF(4) with trace omega.",
   "id": "A102666",
-  "mentions": [],
+  "mentions": [
+    "A011260",
+    "A102665",
+    "A102667",
+    "A152049"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 10,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

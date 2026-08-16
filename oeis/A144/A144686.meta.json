@@ -1,5 +1,5 @@
 {
-  "description": "Maximal size of a connected acyclic domain of permutations of n elements with diameter n*(n-1)/2.",
+  "description": "Maximum size of a connected acyclic domain of permutations of n elements with diameter n*(n-1)/2.",
   "id": "A144686",
   "mentions": [
     "A090245",

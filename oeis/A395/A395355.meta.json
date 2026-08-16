@@ -1,0 +1,18 @@
+{
+  "description": "Follow the spiral in A392177 and A392178 as it is populated with black and red knights. If black places a black knight in square s, append s to the sequence; if red places a red knight in square s, append -s to the sequence.",
+  "id": "A395355",
+  "mentions": [
+    "A392177",
+    "A392178",
+    "A395356",
+    "A395357"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

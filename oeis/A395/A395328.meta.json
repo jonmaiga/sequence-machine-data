@@ -1,0 +1,15 @@
+{
+  "description": "Bipartite dimension of the n-barbell graph.",
+  "id": "A395328",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

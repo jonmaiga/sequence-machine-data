@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n+1)*a(n-5), with a(0)=a(1)=a(2)=a(3)=a(4)=1.",
+  "description": "a(n) = (n+1)*a(n-5), with a(0) = a(1) = a(2) = a(3) = a(4) = 1.",
   "id": "A081408",
   "mentions": [
     "A000407",
@@ -19,6 +19,7 @@
     "A081405"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,12 @@
 {
   "description": "Expansion of (1 + 7*x)/(1 - 11*x - 26*x^2).",
   "id": "A153709",
-  "mentions": [],
+  "mentions": [
+    "A155049",
+    "A155073",
+    "A155542",
+    "A275906"
+  ],
   "tags": [
     "easy",
     "formulas",

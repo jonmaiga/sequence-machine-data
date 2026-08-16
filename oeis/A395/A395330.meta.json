@@ -1,0 +1,31 @@
+{
+  "description": "Symmetric array read by antidiagonals: A(n,k) = tau(n*k), where tau = A000005.",
+  "id": "A395330",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A048691",
+    "A072031",
+    "A099777",
+    "A372713",
+    "A372784",
+    "A372785",
+    "A372786",
+    "A372787",
+    "A372788",
+    "A372789",
+    "A372790",
+    "A372791",
+    "A372792"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

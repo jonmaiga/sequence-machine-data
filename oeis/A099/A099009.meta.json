@@ -1,5 +1,5 @@
 {
-  "description": "Fixed points of the Kaprekar mapping f(n) = n' - n'', where in n' the digits of n are arranged in descending, in n'' in ascending order.",
+  "description": "Fixed points of the Kaprekar mapping A151949(n) = n' - n'', where in n' the digits of n are arranged in descending, in n'' in ascending order.",
   "id": "A099009",
   "mentions": [
     "A004185",

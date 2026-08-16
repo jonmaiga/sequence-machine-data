@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,m) read by rows: the number of partitions of [1..n] into sets of size m.",
+  "id": "A397133",
+  "mentions": [
+    "A001700",
+    "A025035",
+    "A025036",
+    "A038041",
+    "A060542",
+    "A123023",
+    "A200472"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

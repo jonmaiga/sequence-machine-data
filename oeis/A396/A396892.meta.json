@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled maximal 5-degenerate graphs on n vertices.",
+  "id": "A396892",
+  "mentions": [
+    "A273468",
+    "A394820",
+    "A395187",
+    "A395194"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

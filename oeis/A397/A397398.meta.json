@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the x-coordinate of a knight after moving n steps according to the rules defined in A397392, with the last tiebreaking rule modified so that the colexicographically least point is chosen instead of the lexicographically largest point.",
+  "id": "A397398",
+  "mentions": [
+    "A397392",
+    "A397394",
+    "A397396",
+    "A397399"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

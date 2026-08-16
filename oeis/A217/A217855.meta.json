@@ -2,6 +2,7 @@
   "description": "Numbers m such that 16*m*(3*m+1)+1 is a square.",
   "id": "A217855",
   "mentions": [
+    "A001353",
     "A028230",
     "A045899",
     "A076139",

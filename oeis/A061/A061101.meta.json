@@ -2,6 +2,8 @@
   "description": "Squares with digital root 7.",
   "id": "A061101",
   "mentions": [
+    "A000290",
+    "A017245",
     "A056991"
   ],
   "tags": [
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 42,
     "source": "joeis"
   }
 }

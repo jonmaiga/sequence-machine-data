@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n times the square root of the smallest square number greater than n.",
+  "id": "A397371",
+  "mentions": [
+    "A396752"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

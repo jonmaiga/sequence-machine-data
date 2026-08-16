@@ -1,20 +1,13 @@
 {
-  "description": "3-almost primes whose indices are 3-almost primes.",
+  "description": "3-almost primes whose indices are 3-almost primes: a(n) = A014612(A014612(n)).",
   "id": "A105346",
   "mentions": [
-    "A000040",
-    "A001358",
-    "A007097",
-    "A014612",
-    "A091022",
-    "A101349",
-    "A105997",
-    "A105998",
-    "A106350"
+    "A014612"
   ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that binomial(x + 4, 5) - binomial(x, 5) = k^2 for some integer x >= 5.",
+  "id": "A396689",
+  "mentions": [
+    "A080806",
+    "A216073"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

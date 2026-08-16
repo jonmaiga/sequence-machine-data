@@ -1,13 +1,15 @@
 {
-  "description": "a(n)=8a(n-4).",
+  "description": "a(n) = 8*a(n-4).",
   "id": "A137529",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

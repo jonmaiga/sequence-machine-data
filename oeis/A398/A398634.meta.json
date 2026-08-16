@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) is the number of permutations p of [n] such that |p(i+1)-p(i)| <> k for all 1 <= i < n.",
+  "id": "A398634",
+  "mentions": [
+    "A000142",
+    "A002464",
+    "A062119",
+    "A068106",
+    "A395335",
+    "A396690",
+    "A397570",
+    "A398599",
+    "A398600",
+    "A398601",
+    "A398631",
+    "A398632"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

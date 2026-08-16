@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A(-log(1-2*x)/2) = 3*A(x) - 2*x.",
+  "id": "A397993",
+  "mentions": [
+    "A003633",
+    "A006472",
+    "A086555",
+    "A397994",
+    "A397995",
+    "A397999"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

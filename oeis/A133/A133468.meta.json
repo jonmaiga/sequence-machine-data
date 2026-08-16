@@ -2,6 +2,7 @@
   "description": "A080814 complemented, then interpreted as binary and then re-expressed in decimal form (e.g., \"1221\" = \"0110\"). Alternately, view as A080814 with \"1\" mapped to \"1\" and \"2\" mapped to \"0\".",
   "id": "A133468",
   "mentions": [
+    "A014571",
     "A048707",
     "A080814",
     "A080815"
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

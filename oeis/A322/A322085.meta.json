@@ -1,9 +1,10 @@
 {
-  "description": "One of the two successive approximations up to 13^n for 13-adic integer sqrt(3). Here the 4 (mod 13) case (except for n = 0).",
+  "description": "One of the two successive approximations up to 13^n for the 13-adic integer sqrt(3). Here the 4 (mod 13) case (except for n = 0).",
   "id": "A322085",
   "mentions": [
     "A286840",
     "A286841",
+    "A318960",
     "A322086",
     "A322087",
     "A322089",

@@ -1,0 +1,25 @@
+{
+  "description": "Powers k^(m*k), with k in A024619 and m >= 1.",
+  "id": "A394512",
+  "mentions": [
+    "A001597",
+    "A024619",
+    "A052486",
+    "A120944",
+    "A131605",
+    "A303606",
+    "A332785",
+    "A368107",
+    "A383394",
+    "A386762"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

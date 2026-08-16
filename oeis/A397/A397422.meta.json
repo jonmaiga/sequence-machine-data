@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n+k, n) * |Stirling1(n, k)| * n^k.",
+  "id": "A397422",
+  "mentions": [
+    "A132393",
+    "A397324",
+    "A397400",
+    "A397421"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

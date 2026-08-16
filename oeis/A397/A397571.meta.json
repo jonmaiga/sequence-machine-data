@@ -1,0 +1,25 @@
+{
+  "description": "Field trace Tr_{Q(zeta_p)/Q}(T_p(zeta_p)) of the p-term truncation of Ramanujan's third-order mock theta function f(q) at a primitive p-th root of unity, where p = prime(n+1).",
+  "id": "A397571",
+  "mentions": [
+    "A000025",
+    "A002476",
+    "A003627",
+    "A007645",
+    "A393567",
+    "A394831",
+    "A395116",
+    "A395117",
+    "A395950"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

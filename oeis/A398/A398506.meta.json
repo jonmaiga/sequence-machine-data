@@ -1,0 +1,19 @@
+{
+  "description": "Total number of terms in the sequence S(n) defined in A398498 that are not in row n of A398498.",
+  "id": "A398506",
+  "mentions": [
+    "A377091",
+    "A398498",
+    "A398504",
+    "A398505"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Hilltop maps: number of nX5 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal or vertical neighbor in a random 0..1 nX5 array.",
+  "description": "Number of n X 5 binary arrays with every 0 a horizontal or vertical neighbor to some 1.",
   "id": "A218351",
   "mentions": [
     "A218354"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

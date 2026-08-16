@@ -1,12 +1,16 @@
 {
-  "description": "a(n) = max { k | gcd(n, k) = k and gcd(k, 6) = 1 }.",
+  "description": "Largest divisor of n coprime to 6. I.e., a(n) = max { k | gcd(n,k)=k and gcd(k,6)=1 }.",
   "id": "A065330",
   "mentions": [
+    "A000203",
     "A000265",
     "A001222",
+    "A008683",
     "A038502",
     "A065331",
+    "A089128",
     "A106799",
+    "A132740",
     "A165725"
   ],
   "tags": [

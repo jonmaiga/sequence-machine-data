@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the surface area of a canonical (dual-uniform) heptagonal trapezohedron with unit short edge length.",
+  "id": "A397868",
+  "mentions": [
+    "A394072",
+    "A397867",
+    "A397869",
+    "A397870",
+    "A397871",
+    "A397872",
+    "A397873",
+    "A397874",
+    "A397875"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

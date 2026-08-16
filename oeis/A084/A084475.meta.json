@@ -1,5 +1,5 @@
 {
-  "description": "a(n) defines the first brilliant number, b_n, greater than 10^n. If n is odd or zero, then b_n is 10^n+a(n); and if n is a positive even number, then b_n is {10^(n/2)+a(n)}^2.",
+  "description": "a(n) defines the first brilliant number, b_n, greater than or equal to 10^n. If n is odd or zero, then b_n is 10^n+a(n); and if n is a positive even number, then b_n is {10^(n/2)+a(n)}^2.",
   "id": "A084475",
   "mentions": [
     "A033873",

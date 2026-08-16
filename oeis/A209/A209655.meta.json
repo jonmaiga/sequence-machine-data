@@ -1,5 +1,5 @@
 {
-  "description": "Tetrahedron in which the n-th slice is also one of the three views of the shell model of partitions of A207380 with n shells.",
+  "description": "Tetrahedron in which the n-th slice is also one of the three views of the modular table of partitions of A207380 with n shells.",
   "id": "A209655",
   "mentions": [
     "A000041",

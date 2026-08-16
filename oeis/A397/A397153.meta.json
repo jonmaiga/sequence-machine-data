@@ -1,0 +1,16 @@
+{
+  "description": "Maximum length of a snake polyomino in a 12 X n rectangle.",
+  "id": "A397153",
+  "mentions": [
+    "A360917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

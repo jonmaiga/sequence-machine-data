@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 3^n*(3^(n+1)+1)/2.",
   "id": "A051407",
-  "mentions": [],
+  "mentions": [
+    "A016142"
+  ],
   "tags": [
     "easy",
     "formulas",

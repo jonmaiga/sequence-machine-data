@@ -1,16 +1,28 @@
 {
-  "description": "Product_{ d divides n } d*mu(n/d).",
+  "description": "a(n) = Product_{d|n} d*mu(n/d).",
   "id": "A190902",
   "mentions": [
+    "A000005",
+    "A000010",
     "A000040",
-    "A013929"
+    "A000203",
+    "A000469",
+    "A001221",
+    "A005117",
+    "A007955",
+    "A008683",
+    "A013929",
+    "A061537",
+    "A069158",
+    "A076479"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

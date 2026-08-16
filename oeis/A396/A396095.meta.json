@@ -1,0 +1,14 @@
+{
+  "description": "O.g.f. Sum_{n>=0} n^n*x^n/(1 + n*x)^(n-1).",
+  "id": "A396095",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

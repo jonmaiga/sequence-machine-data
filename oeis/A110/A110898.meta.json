@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1 + a(n - a(n-1)) (n - a(n-1)) mod 3 + (n - a(n-2)) mod 4, with a(0) = 0, a(1) = 1.",
+  "description": "a(n) = 1 + a(n - a(n-1)) - (n - a(n-1)) mod 3 + (n - a(n-2)) mod 4, with a(0) = 0, a(1) = 1.",
   "id": "A110898",
   "mentions": [
     "A110897"

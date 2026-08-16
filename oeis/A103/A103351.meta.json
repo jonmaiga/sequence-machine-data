@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of sum_{k=1..n} 1/k^9 = Zeta(9,n).",
+  "description": "Numerator of Sum_{k=1..n} 1/k^9 = zeta(9,n).",
   "id": "A103351",
   "mentions": [
     "A001008",
@@ -10,6 +10,7 @@
     "A007409",
     "A007410",
     "A007480",
+    "A013667",
     "A069052",
     "A099828",
     "A103345",
@@ -28,7 +29,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "joeis"
   }
 }

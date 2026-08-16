@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) such that the sum of the first n coefficients in A(x/n)^n equals 2^(n-1) for n >= 1.",
+  "id": "A397592",
+  "mentions": [
+    "A180747",
+    "A375457",
+    "A397590",
+    "A397591",
+    "A397593",
+    "A397594",
+    "A397595"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

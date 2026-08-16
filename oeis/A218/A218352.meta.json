@@ -1,5 +1,5 @@
 {
-  "description": "Hilltop maps: number of nX6 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal or vertical neighbor in a random 0..1 nX6 array.",
+  "description": "Number of n X 6 binary arrays with every 0 a horizontal or vertical neighbor to some 1.",
   "id": "A218352",
   "mentions": [
     "A218354"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

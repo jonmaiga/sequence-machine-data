@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first prime p such that A091633(n) is the concatenation of the last digits of consecutive primes starting with p.",
+  "id": "A397344",
+  "mentions": [
+    "A007652",
+    "A007962",
+    "A091633",
+    "A397072",
+    "A397073",
+    "A397425"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

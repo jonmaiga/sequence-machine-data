@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum 1/(p^2 * log p) over the primes p=2,3,5,7,11,...",
+  "description": "Decimal expansion of Sum_{p prime} 1/(p^2 * log p).",
   "id": "A221711",
   "mentions": [
     "A137245",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

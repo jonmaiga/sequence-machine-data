@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected 4-valent half-arc-transitive graphs with n vertices.",
+  "id": "A398351",
+  "mentions": [
+    "A006820",
+    "A059282",
+    "A133181",
+    "A241164",
+    "A241165",
+    "A286280",
+    "A398352"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

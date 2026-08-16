@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = n * A002110(pi(gpf(n))), where pi = A000720 and gpf(n) is the greatest prime factor of n.",
+  "id": "A398314",
+  "mentions": [
+    "A000720",
+    "A000961",
+    "A002110",
+    "A006530",
+    "A018252",
+    "A025487",
+    "A055932",
+    "A067255",
+    "A070003",
+    "A073039",
+    "A151821",
+    "A246547"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

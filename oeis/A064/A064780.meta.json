@@ -2,7 +2,9 @@
   "description": "Number of times n occurs in A000195.",
   "id": "A064780",
   "mentions": [
+    "A000149",
     "A000195",
+    "A001671",
     "A248873"
   ],
   "tags": [

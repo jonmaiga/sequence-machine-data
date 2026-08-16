@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that n / product of digits of n is a square.",
+  "description": "Numbers k such that k / product of digits of k is a square.",
   "id": "A001104",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A007954"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

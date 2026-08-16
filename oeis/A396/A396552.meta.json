@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of lim_{n->oo} L_n(0), where L_n is the Lebesgue function associated with the interpolation nodes 1!, 2!, ..., n!.",
+  "id": "A396552",
+  "mentions": [
+    "A203306",
+    "A243257",
+    "A243258",
+    "A396533"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

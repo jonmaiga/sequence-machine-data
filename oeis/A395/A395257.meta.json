@@ -1,0 +1,17 @@
+{
+  "description": "Number of strict integer partitions of 2*n with reverse-alternating sum 6.",
+  "id": "A395257",
+  "mentions": [
+    "A344649",
+    "A395222"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

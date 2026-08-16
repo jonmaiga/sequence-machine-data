@@ -1,0 +1,24 @@
+{
+  "description": "Number of inequivalent strict ternary closure operators on a set of n elements.",
+  "id": "A396320",
+  "mentions": [
+    "A108798",
+    "A334255",
+    "A356544",
+    "A358144",
+    "A358152",
+    "A364656",
+    "A395658"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

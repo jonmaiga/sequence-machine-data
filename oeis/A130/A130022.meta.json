@@ -2,18 +2,20 @@
   "description": "Smallest natural number whose 4th power is the sum of n 4th powers of distinct natural numbers, or 0 if no such number exists.",
   "id": "A130022",
   "mentions": [
-    "A003828",
     "A007666",
-    "A096739",
-    "A130012"
+    "A018935",
+    "A130012",
+    "A393280",
+    "A394979",
+    "A395180",
+    "A395432"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

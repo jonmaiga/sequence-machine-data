@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-ary convexities on a set of n elements.",
+  "id": "A395589",
+  "mentions": [
+    "A000798",
+    "A326878",
+    "A394095"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k < reverse(k) and reverse(k^2) = reverse(k)^2.",
+  "id": "A396061",
+  "mentions": [
+    "A004086",
+    "A033294",
+    "A035122",
+    "A061909",
+    "A129914",
+    "A156316"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

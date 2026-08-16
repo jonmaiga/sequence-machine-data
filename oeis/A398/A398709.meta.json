@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(((5 + sqrt(17))/2)^n).",
+  "id": "A398709",
+  "mentions": [
+    "A005843",
+    "A082486",
+    "A159289"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

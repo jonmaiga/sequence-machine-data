@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: coefficients of (1+x)*(1+(n+1)*x)^(n-1).",
+  "id": "A395611",
+  "mentions": [
+    "A000272",
+    "A007334",
+    "A122525",
+    "A243594",
+    "A259334",
+    "A395505"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

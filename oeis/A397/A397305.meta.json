@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers m such that m - 2^k is composite for all k > 0 with 2^k < m.",
+  "id": "A397305",
+  "mentions": [
+    "A006285",
+    "A039669",
+    "A052548",
+    "A299174"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (n mod k)^3.",
+  "id": "A396284",
+  "mentions": [
+    "A000578",
+    "A004125",
+    "A024916",
+    "A051126",
+    "A309176",
+    "A350123",
+    "A356249",
+    "A396283"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

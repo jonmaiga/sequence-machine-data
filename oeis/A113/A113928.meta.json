@@ -2,13 +2,16 @@
   "description": "Numbers k such that (RSA-768) + 10^k is prime where RSA-768 is the 232 decimal digit RSA challenge number A391940(21).",
   "id": "A113928",
   "mentions": [
+    "A113931",
+    "A113932",
+    "A113934",
     "A391940",
     "A391941",
     "A391942"
   ],
   "tags": [
     "hard",
-    "more",
+    "less",
     "nonn"
   ],
   "terms": {

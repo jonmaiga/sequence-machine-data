@@ -2,12 +2,18 @@
   "description": "a(n) = Product_{k=2..n-1} MultiplicativeOrder(k,n) where gcd(k,n)=1.",
   "id": "A372305",
   "mentions": [
+    "A000010",
     "A000079",
+    "A002322",
+    "A033948",
     "A036391",
+    "A056916",
     "A216327",
-    "A249435"
+    "A249435",
+    "A252911"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,31 @@
+{
+  "description": "Squarefree numbers k such that k+1 is an exponentially odd number.",
+  "id": "A398169",
+  "mentions": [
+    "A005117",
+    "A007674",
+    "A268335",
+    "A340152",
+    "A367695",
+    "A372690",
+    "A391396",
+    "A398161",
+    "A398162",
+    "A398163",
+    "A398164",
+    "A398165",
+    "A398166",
+    "A398167",
+    "A398168",
+    "A398170"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

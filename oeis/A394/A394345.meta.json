@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest prime in the form of ((2n)^m - 1)/(2n - 1) - (2n)^(k - 1), where k < m are both positive integers.",
+  "id": "A394345",
+  "mentions": [
+    "A390983"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

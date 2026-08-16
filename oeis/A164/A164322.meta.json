@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n=prime(P)+sigma(P), where P is product of digits of n.",
+  "description": "Numbers m such that m = prime(P) + sigma(P), where P is product of digits of m.",
   "id": "A164322",
   "mentions": [
     "A000040",
@@ -10,6 +10,7 @@
   "tags": [
     "base",
     "bref",
+    "fini",
     "more",
     "nonn"
   ],

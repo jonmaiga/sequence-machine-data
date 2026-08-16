@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimum independent dominating sets in the n-path graph.",
+  "id": "A397750",
+  "mentions": [
+    "A397748",
+    "A397751"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{j=0..n} (-1)^j*binomial(n, j) * A001006(2*n - j)^2.",
+  "id": "A397326",
+  "mentions": [
+    "A001006",
+    "A396585"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -2,14 +2,16 @@
   "description": "Smallest prime > double factorial number A001147(n).",
   "id": "A103511",
   "mentions": [
-    "A001147"
+    "A001147",
+    "A103512"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

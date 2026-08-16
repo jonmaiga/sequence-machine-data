@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies Sum_{k=0..n} [x^k] A(x)^n = Sum_{k=0..2*n} [x^k] C(x)^n for n >= 0, where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan function.",
+  "id": "A396097",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A005809",
+    "A232683",
+    "A352275"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

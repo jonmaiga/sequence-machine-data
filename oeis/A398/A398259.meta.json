@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=0; for n>=2, let s = digit sum of a(n-1); if s=a(m) for some m < n-1, let m be the greatest such index and set a(n)=n-1-m; otherwise set a(n) = 0.",
+  "id": "A398259",
+  "mentions": [
+    "A007953",
+    "A181391",
+    "A398260",
+    "A398307"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k,5)/k^2, where H(k,5) = A099828(k)/A069052(k) is the k-th generalized harmonic number of order 5.",
+  "id": "A397532",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013665",
+    "A069052",
+    "A099828"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

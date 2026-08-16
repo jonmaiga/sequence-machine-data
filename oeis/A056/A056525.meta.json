@@ -2,6 +2,7 @@
   "description": "Palindromes with odd number of digits.",
   "id": "A056525",
   "mentions": [
+    "A001633",
     "A002113",
     "A004086",
     "A055642",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of distributive lattices; also number of paths with n turns when light is reflected from 6 glass plates.",
+  "description": "Number of antichains in the product of a fence poset with n elements and a chain with 5 elements; also number of paths with n turns when light is reflected from 6 glass plates.",
   "id": "A006359",
   "mentions": [
     "A000217",

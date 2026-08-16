@@ -1,16 +1,17 @@
 {
-  "description": "Number of n X 2 0..3 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it.",
+  "description": "Number of n X 2 0..3 arrays with no element equal to the average of its immediate neighbors vertically above and horizontally left.",
   "id": "A209041",
   "mentions": [
     "A209047"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

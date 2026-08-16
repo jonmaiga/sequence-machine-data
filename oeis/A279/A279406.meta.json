@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) (n>=1, 0 <= k <= n^2) = minimal number of squares attacked by k queens on an n X n toroidal board.",
+  "description": "Irregular triangle read by rows: T(n,k) (n>=1, 0 <= k <= n^2) = minimum number of squares attacked by k queens on an n X n toroidal board.",
   "id": "A279406",
   "mentions": [
     "A000290",

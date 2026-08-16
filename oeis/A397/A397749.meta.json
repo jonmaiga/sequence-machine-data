@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimum independent dominating sets in the n X n grid graph.",
+  "id": "A397749",
+  "mentions": [
+    "A002568",
+    "A197048",
+    "A321684",
+    "A347632",
+    "A397748"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

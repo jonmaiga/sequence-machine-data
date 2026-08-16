@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the amplitude parameter corresponding to the maximum of the characteristic parameter given by A394907 on the right limit curve of principal parametric resonance in the Ince-Strutt diagram of the Mathieu equation.",
+  "id": "A394908",
+  "mentions": [
+    "A394701",
+    "A394907"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

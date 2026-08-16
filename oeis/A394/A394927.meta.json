@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimal sum of squares over partitions of n into distinct parts.",
+  "id": "A394927",
+  "mentions": [
+    "A000009",
+    "A000217",
+    "A000330",
+    "A003056"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

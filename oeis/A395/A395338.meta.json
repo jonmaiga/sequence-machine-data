@@ -1,0 +1,23 @@
+{
+  "description": "Primes whose square is a concatenation of exactly 2 distinct nonzero squares.",
+  "id": "A395338",
+  "mentions": [
+    "A000290",
+    "A039686",
+    "A048375",
+    "A066591",
+    "A106497",
+    "A228209",
+    "A296445"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

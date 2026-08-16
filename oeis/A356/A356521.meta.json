@@ -1,7 +1,9 @@
 {
   "description": "The constant coefficient of (x + x*y + y + 1/(x*y))^n.",
   "id": "A356521",
-  "mentions": [],
+  "mentions": [
+    "A396833"
+  ],
   "tags": [
     "formulas",
     "nonn"

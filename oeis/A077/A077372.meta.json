@@ -2,6 +2,7 @@
   "description": "Fibonacci numbers whose external digits form a Fibonacci number. Or Fibonacci numbers whose MSD and LSD form a Fibonacci number.",
   "id": "A077372",
   "mentions": [
+    "A000045",
     "A077371",
     "A077373"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = ((n + 1)^prime(n) - n^prime(n) - 1)/prime(n).",
+  "id": "A397187",
+  "mentions": [
+    "A062481",
+    "A397186"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

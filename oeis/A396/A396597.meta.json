@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m with exactly two distinct prime factors q and p such that m = q^k * p^j and p > q^k with k, j >= 1.",
+  "id": "A396597",
+  "mentions": [
+    "A001358",
+    "A007774"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

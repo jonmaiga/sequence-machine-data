@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. sinh(x)^2*cosh(x)*exp(x).",
+  "id": "A395948",
+  "mentions": [
+    "A125857"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

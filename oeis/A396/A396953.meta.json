@@ -1,0 +1,23 @@
+{
+  "description": "Number of elements of word-length n in the reflection group of a seven-dimensional orthoscheme with distinct edge lengths.",
+  "id": "A396953",
+  "mentions": [
+    "A000045",
+    "A008137",
+    "A396406",
+    "A396927",
+    "A397437",
+    "A397438",
+    "A397439"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

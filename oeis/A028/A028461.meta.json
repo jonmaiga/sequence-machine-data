@@ -1,8 +1,15 @@
 {
   "description": "Number of perfect matchings in graph P_{3} X C_{4} X P_{n}.",
   "id": "A028461",
-  "mentions": [],
+  "mentions": [
+    "A028446",
+    "A028453",
+    "A028454",
+    "A028459",
+    "A028467"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

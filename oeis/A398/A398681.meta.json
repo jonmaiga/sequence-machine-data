@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{t=0..Pi/4} log(sin(t))^2 dt.",
+  "id": "A398681",
+  "mentions": [
+    "A006752",
+    "A196877",
+    "A355022"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

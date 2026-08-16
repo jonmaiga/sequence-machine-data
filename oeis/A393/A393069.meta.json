@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose prime divisors all start with the same digit.",
+  "id": "A393069",
+  "mentions": [
+    "A000961",
+    "A206287",
+    "A381159"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

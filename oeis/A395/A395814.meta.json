@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 1/(5*cosh(Pi)) + 6*Pi^5 + 1/(5*sinh(Pi)).",
+  "id": "A395814",
+  "mentions": [
+    "A005601"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 105,
+    "source": "joeis"
+  }
+}

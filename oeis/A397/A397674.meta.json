@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k times its decimal digit reversal is a triangular number.",
+  "id": "A397674",
+  "mentions": [
+    "A000217",
+    "A001109",
+    "A004086",
+    "A061205",
+    "A083818",
+    "A169830"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

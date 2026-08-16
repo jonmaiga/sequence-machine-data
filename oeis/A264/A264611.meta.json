@@ -2,6 +2,7 @@
   "description": "Consider pairs of primes p",
   "id": "A264611",
   "mentions": [
+    "A101368",
     "A264612"
   ],
   "tags": [

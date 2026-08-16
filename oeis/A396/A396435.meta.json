@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the unique integer k in [0, p-1] such that 3^((M-1)/p) is congruent to 2^k modulo M = 2^p - 1 is the n-th Mersenne prime.",
+  "id": "A396435",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A066408"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

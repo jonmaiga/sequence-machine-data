@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the probability that the unique circle that passes through three points that are independently and uniformly selected at random in the interior of a regular pentagon is entirely contained in that pentagon.",
+  "id": "A395213",
+  "mentions": [
+    "A019934",
+    "A091476",
+    "A195055",
+    "A214549",
+    "A395207",
+    "A395208",
+    "A395209",
+    "A395210",
+    "A395211",
+    "A395212",
+    "A395214"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

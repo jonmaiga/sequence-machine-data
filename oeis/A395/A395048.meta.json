@@ -1,0 +1,20 @@
+{
+  "description": "Odd terms of A084451.",
+  "id": "A395048",
+  "mentions": [
+    "A084451",
+    "A084467",
+    "A084468",
+    "A395049"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

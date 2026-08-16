@@ -1,7 +1,10 @@
 {
   "description": "Odd integers k>=3 such that k*(k-1)/2 divides 2^((k-1)/2)+1.",
   "id": "A337818",
-  "mentions": [],
+  "mentions": [
+    "A006521",
+    "A337828"
+  ],
   "tags": [
     "nonn"
   ],

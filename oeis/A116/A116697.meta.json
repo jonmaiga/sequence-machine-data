@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = -a(n-1) - a(n-3) + a(n-4).",
+  "description": "a(n) = cos(n*Pi/2)-F(n)*(-1)^n, where F(n) = Fibonacci(n).",
   "id": "A116697",
   "mentions": [
     "A000045",

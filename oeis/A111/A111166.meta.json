@@ -2,7 +2,8 @@
   "description": "Let p < q be consecutive primes; p is in the sequence if p/(q-p) is a record.",
   "id": "A111166",
   "mentions": [
-    "A001359"
+    "A001359",
+    "A096292"
   ],
   "tags": [
     "easy",

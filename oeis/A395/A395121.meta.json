@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = A395120(n+1)/(n+1) for n >= 0.",
+  "id": "A395121",
+  "mentions": [
+    "A395120"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

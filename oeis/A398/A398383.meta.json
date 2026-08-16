@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = c_6a(n)/n^2, where c_6a(n) are the Fourier coefficients of the level-2 K3 meromorphic modular form C_6a defined below.",
+  "id": "A398383",
+  "mentions": [
+    "A096960",
+    "A398186"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

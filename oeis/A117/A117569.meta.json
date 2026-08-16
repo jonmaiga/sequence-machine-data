@@ -2,6 +2,7 @@
   "description": "Expansion of (1+x+x^2)/(1+x^2).",
   "id": "A117569",
   "mentions": [
+    "A056594",
     "A073097",
     "A101455",
     "A117568",

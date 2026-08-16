@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1's in the partitions of n into exactly 6 parts.",
+  "id": "A394985",
+  "mentions": [
+    "A026812",
+    "A394828"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

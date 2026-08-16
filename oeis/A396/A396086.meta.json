@@ -1,0 +1,16 @@
+{
+  "description": "Number of dyadic intervals of length 2^(-n) that intersect the classical middle-third Cantor set.",
+  "id": "A396086",
+  "mentions": [
+    "A396104"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

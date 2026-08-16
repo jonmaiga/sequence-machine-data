@@ -1,5 +1,5 @@
 {
-  "description": "Period 12: repeat (4, 4, 1, 2, 1, 1, 2, 2, 3, 3, 3, 3). (Number of syllables in English name of the months.)",
+  "description": "Period 12: repeat [4, 4, 1, 2, 1, 1, 2, 2, 3, 3, 3, 3] (number of syllables in English name of the months).",
   "id": "A089746",
   "mentions": [
     "A031139",

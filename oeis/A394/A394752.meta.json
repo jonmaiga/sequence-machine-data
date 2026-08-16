@@ -1,0 +1,17 @@
+{
+  "description": "Indices of zeros (P-positions) in the Sprague-Grundy sequence for the octal game .404.",
+  "id": "A394752",
+  "mentions": [
+    "A267194"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Numbers of form p^i + p^j for p prime and i, j > 0.",
   "id": "A284665",
   "mentions": [
-    "A246655"
+    "A246655",
+    "A284667"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

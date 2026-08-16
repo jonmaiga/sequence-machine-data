@@ -1,0 +1,21 @@
+{
+  "description": "Numerators in the asymptotic expansion of Gamma(1 + 2*x)/(Gamma(1 + x)*Gamma(2 + x)) = (4^x/sqrt(Pi))*Sum_{k>=0} (1/x)^(3/2+k)*a(k)/A061549(k).",
+  "id": "A396159",
+  "mentions": [
+    "A000108",
+    "A027641",
+    "A027642",
+    "A061549",
+    "A143503"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

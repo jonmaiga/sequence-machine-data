@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of n into parts having exactly k prime factors (counted with multiplicity), with 0 <= k <= floor(log_2(n)) for n >= 1 and k = 0 for n = 0.",
+  "id": "A394211",
+  "mentions": [
+    "A000607",
+    "A001222",
+    "A101048",
+    "A112313",
+    "A112314",
+    "A112315",
+    "A112316",
+    "A319169"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

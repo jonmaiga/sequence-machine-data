@@ -1,8 +1,9 @@
 {
-  "description": "Rounded frequency of population with score higher than mean +- n standard deviations.",
+  "description": "Rounded reciprocal fraction of samples from normal distribution that fall beyond mean + n standard deviations.",
   "id": "A219337",
   "mentions": [
-    "A178647"
+    "A178647",
+    "A275366"
   ],
   "tags": [
     "easy",

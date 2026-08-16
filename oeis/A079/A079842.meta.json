@@ -1,5 +1,5 @@
 {
-  "description": "Largest square which is a concatenation of partitions of n; or 0 if no such number exists.",
+  "description": "Largest square which is a concatenation of a composition of n; or 0 if no such number exists.",
   "id": "A079842",
   "mentions": [],
   "tags": [
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

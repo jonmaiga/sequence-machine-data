@@ -1,0 +1,16 @@
+{
+  "description": "The constant coefficient of (x + y + y^-1 + x^-1 + x^-1*y^-1)^n.",
+  "id": "A396833",
+  "mentions": [
+    "A356521"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

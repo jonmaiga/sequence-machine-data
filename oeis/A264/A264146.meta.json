@@ -1,5 +1,5 @@
 {
-  "description": "Number of (6+1)X(n+1) arrays of permutations of 0..n*7+6 with each element having index change +-(.,.) 0,0 1,-2 or 1,1.",
+  "description": "Number of (6+1) X (n+1) arrays of permutations of 0..n*7+6 with each element having index change +-(.,.) 0,0 1,-2 or 1,1.",
   "id": "A264146",
   "mentions": [
     "A264142"

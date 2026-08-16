@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cos(3*x) * cos(sqrt(2)*x) / cos(3*sqrt(2)*x).",
+  "id": "A395273",
+  "mentions": [
+    "A352977"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

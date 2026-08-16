@@ -2,11 +2,13 @@
   "description": "Trajectory of 26888999 under \"x -> product of digits of x\" map.",
   "id": "A121109",
   "mentions": [
-    "A003001"
+    "A003001",
+    "A121108"
   ],
   "tags": [
     "base",
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

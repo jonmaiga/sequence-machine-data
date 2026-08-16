@@ -1,9 +1,8 @@
 {
-  "description": "Maximal entry in row n of A097847 (or equally A097848).",
+  "description": "Maximal entry in row n of A097847.",
   "id": "A097849",
   "mentions": [
-    "A097847",
-    "A097848"
+    "A097847"
   ],
   "tags": [
     "nonn"

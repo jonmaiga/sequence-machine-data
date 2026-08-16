@@ -1,10 +1,14 @@
 {
-  "description": "a(n) is the conjectured largest number such that both a(n) and a(n) - n are 7-smooth numbers. a(n) can be less than n. Otherwise, if no such number exists then a(n) = 0.",
+  "description": "a(n) is the largest number such that both a(n) and a(n) - n are 7-smooth numbers, or 0 if no such number exists.",
   "id": "A376924",
   "mentions": [
-    "A002473"
+    "A002072",
+    "A002473",
+    "A006530",
+    "A106600"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

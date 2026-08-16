@@ -1,0 +1,18 @@
+{
+  "description": "Number of paths in the n-Cameron graph.",
+  "id": "A397461",
+  "mentions": [
+    "A387375",
+    "A387438"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

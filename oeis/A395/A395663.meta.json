@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of Pi^n in the linear equality by Plouffe for the odd values of the Riemann zeta function.",
+  "id": "A395663",
+  "mentions": [
+    "A057866",
+    "A394976",
+    "A395662",
+    "A395748",
+    "A396050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

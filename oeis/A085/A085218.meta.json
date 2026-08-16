@@ -1,8 +1,7 @@
 {
-  "description": "Factorial expansions of the entries in A085216.",
+  "description": "Factorial expansions of the entries in A085217.",
   "id": "A085218",
   "mentions": [
-    "A085216",
     "A085217"
   ],
   "tags": [
@@ -14,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

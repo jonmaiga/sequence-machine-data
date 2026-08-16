@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative integers that contain a square as a suffix.",
+  "id": "A396579",
+  "mentions": [
+    "A000290",
+    "A192689",
+    "A396580",
+    "A396618"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

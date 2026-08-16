@@ -1,0 +1,24 @@
+{
+  "description": "Array read by ascending antidiagonals: A(0, k) = 1 and A(n, k) = n*A(n-1, k) + k, with k >= 0.",
+  "id": "A397775",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000142",
+    "A000522",
+    "A016789",
+    "A017341",
+    "A397776",
+    "A397777"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n and n^3+-1 are squarefree numbers.",
+  "description": "Integers k such that k and k^3+-1 are squarefree numbers.",
   "id": "A176308",
   "mentions": [
     "A005117"

@@ -1,9 +1,11 @@
 {
-  "description": "E.g.f. A(x) satisfies: A( Integral 1/A(x) dx ) = exp(x).",
+  "description": "E.g.f. A(x) satisfies A( Integral 1/A(x) dx ) = exp(x).",
   "id": "A233335",
   "mentions": [
     "A214645",
-    "A233336"
+    "A233336",
+    "A396997",
+    "A396999"
   ],
   "tags": [
     "formulas",

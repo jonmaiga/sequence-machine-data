@@ -2,19 +2,24 @@
   "description": "a(n) = largest divisor of n! that is coprime to n.",
   "id": "A095996",
   "mentions": [
+    "A000142",
+    "A000203",
+    "A008683",
     "A036503",
     "A051696",
     "A062763",
     "A066570",
+    "A097905",
     "A227831"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

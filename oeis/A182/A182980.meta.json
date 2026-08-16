@@ -1,5 +1,5 @@
 {
-  "description": "Version \"mirror\" of the shell model of partitions of A135010. Triangle read by rows: row n lists the parts of the last section of the set of partitions of n.",
+  "description": "Version \"mirror\" of the modular table of partitions of A135010. Triangle read by rows: row n lists the parts of the last section of the set of partitions of n.",
   "id": "A182980",
   "mentions": [
     "A135010",

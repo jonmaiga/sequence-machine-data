@@ -1,0 +1,20 @@
+{
+  "description": "Squares visited by three knights, all starting on square 1, when moving on a square-spiral numbered board and always moving to the lowest available unvisited square.",
+  "id": "A395439",
+  "mentions": [
+    "A316667",
+    "A338290",
+    "A395440",
+    "A395444"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

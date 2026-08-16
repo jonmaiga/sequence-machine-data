@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of faces with the highest number of sides in Johnson solid J_n.",
+  "id": "A394914",
+  "mentions": [
+    "A306949",
+    "A394912",
+    "A394913"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

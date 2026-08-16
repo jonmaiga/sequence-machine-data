@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: Expansion of g.f. A(x,y) that satisfies the functional equation A(x,y) = Sum_{j>=0} x^(j*(j+1)/2) * y^j * A(x,y)^j / Product_{k=1..j} (1 - x^k * y * A(x,y)).",
+  "id": "A395262",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A393488"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

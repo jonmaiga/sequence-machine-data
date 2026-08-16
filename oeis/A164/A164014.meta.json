@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the Hurwitz equation (x_1)^2 + (x_2)^2 + ... + (x_n)^2 = z * x_1 * x_2 * ... * x_n has solutions only for z = n.",
+  "description": "Numbers k for which the Hurwitz equation (x_1)^2 + (x_2)^2 + ... + (x_n)^2 = z * x_1 * x_2 * ... * x_k has solutions only for z = k.",
   "id": "A164014",
   "mentions": [],
   "tags": [

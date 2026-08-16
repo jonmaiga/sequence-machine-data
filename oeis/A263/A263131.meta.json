@@ -2,6 +2,7 @@
   "description": "Ordinal transform of the multiplicative persistence A031346.",
   "id": "A263131",
   "mentions": [
+    "A003001",
     "A031346"
   ],
   "tags": [

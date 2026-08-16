@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that x^2 + y*z = n, where x, y, z are distinct primes and y < z.",
+  "id": "A394740",
+  "mentions": [
+    "A393710",
+    "A394741",
+    "A394742"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

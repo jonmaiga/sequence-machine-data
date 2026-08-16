@@ -1,7 +1,11 @@
 {
   "description": "Expansion of (1+4*x^2) / (1-5*x+4*x^2-4*x^3).",
   "id": "A275903",
-  "mentions": [],
+  "mentions": [
+    "A155073",
+    "A275905",
+    "A275906"
+  ],
   "tags": [
     "easy",
     "formulas",

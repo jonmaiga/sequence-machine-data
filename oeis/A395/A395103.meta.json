@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with exactly k prime factors, counting repeats, with k>1, that are formed by concatenating k primes.",
+  "id": "A395103",
+  "mentions": [
+    "A001222",
+    "A117360"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

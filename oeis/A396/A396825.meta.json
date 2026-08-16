@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers that don't occur in A397366.",
+  "id": "A396825",
+  "mentions": [
+    "A139665",
+    "A292581",
+    "A397366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

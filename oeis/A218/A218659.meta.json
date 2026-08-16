@@ -1,16 +1,17 @@
 {
-  "description": "Hilltop maps: number of n X 4 binary arrays indicating the locations of corresponding elements not exceeded by any king-move neighbor in a random 0..1 n X 4 array.",
+  "description": "Number of n X 4 binary arrays with every 0 a king-move neighbor to some 1.",
   "id": "A218659",
   "mentions": [
     "A218663"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

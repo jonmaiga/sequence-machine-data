@@ -1,14 +1,20 @@
 {
   "description": "Number of CdI_2 polytypes that repeat after 2n layers.",
   "id": "A011958",
-  "mentions": [],
+  "mentions": [
+    "A001045",
+    "A011768",
+    "A011947",
+    "A011957"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

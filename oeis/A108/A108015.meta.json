@@ -1,11 +1,9 @@
 {
-  "description": "4-symbol substitution with characteristic polynomial: (x^2-x-1)*(x^2-x+1).",
+  "description": "2-limiting word of the morphism 1->4, 2->12, 3->2, 4->34.",
   "id": "A108015",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

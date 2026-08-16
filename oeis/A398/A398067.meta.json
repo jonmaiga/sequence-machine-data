@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n symmetric nonnegative integer matrices with each row sum nonzero and at most 3.",
+  "id": "A398067",
+  "mentions": [
+    "A188404",
+    "A397930",
+    "A398066"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

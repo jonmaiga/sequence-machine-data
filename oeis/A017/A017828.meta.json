@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-x^4-x^5-x^6).",
+  "description": "Expansion of 1/(1 - x^4 - x^5 - x^6).",
   "id": "A017828",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 58,
     "source": "joeis"
   }
 }

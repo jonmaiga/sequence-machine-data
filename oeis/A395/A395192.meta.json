@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least k with the largest abundancy where k is a proper divisor of n.",
+  "id": "A395192",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A005101",
+    "A005231",
+    "A006530",
+    "A023196",
+    "A023197",
+    "A137825",
+    "A137826",
+    "A362619"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

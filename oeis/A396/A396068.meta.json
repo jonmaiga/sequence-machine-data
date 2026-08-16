@@ -1,0 +1,21 @@
+{
+  "description": "Product of squarefree divisors of n that are <= sqrt(n).",
+  "id": "A396068",
+  "mentions": [
+    "A007955",
+    "A072499",
+    "A078599",
+    "A333752",
+    "A382486",
+    "A396067"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

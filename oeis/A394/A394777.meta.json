@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-color compositions of n with k parts all in standard order.",
+  "id": "A394777",
+  "mentions": [
+    "A000110",
+    "A088305",
+    "A383253",
+    "A394818",
+    "A395480"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

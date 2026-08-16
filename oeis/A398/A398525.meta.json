@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} mu(k)^2/(k*(k+1)), where mu = A008683 is the Möbius function.",
+  "id": "A398525",
+  "mentions": [
+    "A002378",
+    "A005117",
+    "A008683",
+    "A008966",
+    "A398524"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

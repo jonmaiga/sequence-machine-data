@@ -1,8 +1,9 @@
 {
-  "description": "For n > 1: a(n) = a(n-1)^3 + 3a(n-1)^2 - 3; a(0) = 1, a(1) = 2.",
+  "description": "For n > 1: a(n) = a(n-1)^3 + 3*a(n-1)^2 - 3; a(0) = 1, a(1) = 2.",
   "id": "A002814",
   "mentions": [
     "A000045",
+    "A000058",
     "A000244",
     "A001566",
     "A001999",
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 7,
     "source": "oeis-bfile"
   }
 }

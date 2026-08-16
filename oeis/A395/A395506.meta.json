@@ -1,0 +1,19 @@
+{
+  "description": "Two players, Black and Red, take turns on a square spiral. When it is Black's turn, he places a knight at the smallest unoccupied cell not attacked by an existing Red knight, and when it is Red's turn, she places a knight at the smallest unoccupied cell not attacked by an existing Black knight. We then consider the cells that are eventually occupied: a(n) tells at which turn the n-th such cell has been occupied.",
+  "id": "A395506",
+  "mentions": [
+    "A392177",
+    "A392178",
+    "A395355",
+    "A395486",
+    "A395507"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

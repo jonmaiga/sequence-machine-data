@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k so that at least one of the k+1 integers in {n, n+1, n+2, ..., n+k} divides the product of the other integers.",
+  "id": "A396377",
+  "mentions": [
+    "A059686",
+    "A396378",
+    "A396379",
+    "A396380",
+    "A396950"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

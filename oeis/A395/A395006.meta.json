@@ -1,0 +1,15 @@
+{
+  "description": "Theta series of lattice Kappa_21.",
+  "id": "A395006",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

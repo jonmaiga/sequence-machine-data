@@ -2,6 +2,7 @@
   "description": "Irregular triangle read by rows: consider the graph defined in A306302 formed from a row of n adjacent congruent rectangles by drawing the diagonals of all visible rectangles; T(n,k) (n >= 1, 2 <= k <= 2n+2) is the number of non-boundary vertices in the graph at which k polygons meet.",
   "id": "A333275",
   "mentions": [
+    "A119437",
     "A159065",
     "A306302",
     "A331452",
@@ -10,9 +11,14 @@
     "A333274",
     "A333276",
     "A333277",
-    "A334694"
+    "A334694",
+    "A334701",
+    "A336489",
+    "A336490",
+    "A336491"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

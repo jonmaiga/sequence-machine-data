@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms in polynomial expression for determinant of generic circulant matrix of order n.",
+  "description": "Number of terms in the polynomial expression for the determinant of generic circulant matrix of order n.",
   "id": "A084575",
   "mentions": [
     "A003239"

@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0; for n > 1, a(n) is the least integer > a(n-1) such that distinct multisets of 10 terms from a(1),...,a(n) have distinct sums.",
+  "id": "A397311",
+  "mentions": [
+    "A025582",
+    "A051912",
+    "A365300",
+    "A365301",
+    "A365302",
+    "A365303",
+    "A365304",
+    "A365305"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

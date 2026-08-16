@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = f(n+1) * n! where f(n) = n/f(n-1), f(1) = 1.",
+  "id": "A395628",
+  "mentions": [
+    "A002474"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*A396200(n, k), even bisection only.",
+  "id": "A396198",
+  "mentions": [
+    "A396200"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

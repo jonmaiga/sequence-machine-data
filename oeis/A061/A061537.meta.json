@@ -1,5 +1,5 @@
 {
-  "description": "Product of unitary divisors of n.",
+  "description": "Product of the unitary divisors of n: a(n) = Product_{d|n, gcd(d,n/d) = 1} d.",
   "id": "A061537",
   "mentions": [
     "A000005",

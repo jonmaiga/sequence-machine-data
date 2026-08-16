@@ -2,14 +2,15 @@
   "description": "Number of n X n binary matrices with every element adjacent to some 0 horizontally or vertically.",
   "id": "A133793",
   "mentions": [
+    "A133515",
     "A303111"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
   }
 }

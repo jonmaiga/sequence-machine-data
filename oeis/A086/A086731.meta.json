@@ -1,12 +1,14 @@
 {
-  "description": "Decimal expansion of sum(1/(6*m+5)^2,m=0..infinity).",
+  "description": "Decimal expansion of Sum_{m>=0} 1/(6*m+5)^2.",
   "id": "A086731",
   "mentions": [
+    "A016970",
     "A086722",
     "A086730"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

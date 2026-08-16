@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that the set {J(n,1),J(n,2),...,J(n,k)} equals {1,2,...,n}, where J(n,k) is the Josephus survivor.",
+  "id": "A396910",
+  "mentions": [
+    "A321781",
+    "A321793",
+    "A321794"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that there exists a number r < k such that both gcd(r,k) > 1 and rad(r) does not divide k, yet rad(r+m*k) | k for some m, where rad = A007947.",
+  "id": "A396265",
+  "mentions": [
+    "A000961",
+    "A007947",
+    "A024619",
+    "A038566",
+    "A126706",
+    "A162306",
+    "A272619",
+    "A381800",
+    "A381801",
+    "A381804",
+    "A382438"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

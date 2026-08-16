@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of k-ary dyslexic mobiles with n internal nodes, n >= 0, k >= 0.",
+  "id": "A398108",
+  "mentions": [
+    "A000012",
+    "A000598",
+    "A001190",
+    "A019590",
+    "A398106",
+    "A398107",
+    "A398109",
+    "A398110"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

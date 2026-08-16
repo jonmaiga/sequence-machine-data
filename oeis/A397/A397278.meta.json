@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of incongruent acute triangles of area n/2 with vertices on the integer lattice points of a Cartesian grid.",
+  "id": "A397278",
+  "mentions": [
+    "A003051",
+    "A190309",
+    "A372915",
+    "A372917"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

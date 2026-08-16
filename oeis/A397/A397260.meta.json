@@ -1,0 +1,19 @@
+{
+  "description": "Indices of records in A093811.",
+  "id": "A397260",
+  "mentions": [
+    "A007954",
+    "A093811",
+    "A397257",
+    "A397261"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

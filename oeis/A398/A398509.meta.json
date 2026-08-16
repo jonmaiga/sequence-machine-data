@@ -1,0 +1,18 @@
+{
+  "description": "Number of type #D triangle-maximal arrangements of 2*n+1 pseudolines.",
+  "id": "A398509",
+  "mentions": [
+    "A006066",
+    "A398510",
+    "A398511"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

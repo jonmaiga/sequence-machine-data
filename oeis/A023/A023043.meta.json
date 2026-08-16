@@ -1,7 +1,12 @@
 {
   "description": "6th differences of factorial numbers.",
   "id": "A023043",
-  "mentions": [],
+  "mentions": [
+    "A023044",
+    "A023045",
+    "A023046",
+    "A023047"
+  ],
   "tags": [
     "easy",
     "formulas",

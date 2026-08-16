@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of sin(log(1+x)^2)/2.",
+  "description": "Expansion of e.g.f.: sin(log(1+x)^2)/2.",
   "id": "A024334",
   "mentions": [
     "A009468"

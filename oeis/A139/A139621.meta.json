@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of connected directed multigraphs with loops and no vertex of degree 0, with n arcs and k vertices.",
+  "description": "Triangle read by rows: T(n,k) is the number of connected directed multigraphs with loops, with n arcs and k vertices.",
   "id": "A139621",
   "mentions": [
     "A000238",

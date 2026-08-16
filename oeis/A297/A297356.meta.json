@@ -2,7 +2,13 @@
   "description": "Values of n for which pi_{12,7}(p_n) - pi_{12,1}(p_n) = -1, where p_n is the n-th prime and pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
   "id": "A297356",
   "mentions": [
-    "A297357"
+    "A295353",
+    "A295354",
+    "A297354",
+    "A297355",
+    "A297357",
+    "A297447",
+    "A297448"
   ],
   "tags": [
     "nonn"

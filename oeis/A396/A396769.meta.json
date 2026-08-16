@@ -1,0 +1,19 @@
+{
+  "description": "Value of the Sackin index for the rooted binary echelon tree with n leaves.",
+  "id": "A396769",
+  "mentions": [
+    "A003071",
+    "A299037",
+    "A344934",
+    "A345135"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

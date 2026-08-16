@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into two parts with disjoint decimal digit sets.",
+  "id": "A396855",
+  "mentions": [
+    "A004526"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

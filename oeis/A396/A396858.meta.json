@@ -1,0 +1,27 @@
+{
+  "description": "The number of n-colorings of the faces of the pyritohedron up to rotation and reflection.",
+  "id": "A396858",
+  "mentions": [
+    "A128766",
+    "A199406",
+    "A252704",
+    "A252705",
+    "A274900",
+    "A337963",
+    "A378473",
+    "A378474",
+    "A378475",
+    "A378476",
+    "A378477",
+    "A378478"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

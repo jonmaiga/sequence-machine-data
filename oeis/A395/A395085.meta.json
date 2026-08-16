@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (-1)^(n-k-1) * binomial(n,k) * (k+2)^(3*(n-k)) * a(k).",
+  "id": "A395085",
+  "mentions": [
+    "A082170"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

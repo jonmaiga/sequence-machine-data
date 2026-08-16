@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that the sum of the binary digits of k! is divisible by k.",
   "id": "A109711",
-  "mentions": [],
+  "mentions": [
+    "A079584"
+  ],
   "tags": [
     "base",
     "hard",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

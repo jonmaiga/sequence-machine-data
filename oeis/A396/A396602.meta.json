@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k where sigma_5(k)/k is an integer.",
+  "id": "A396602",
+  "mentions": [
+    "A001160",
+    "A005408",
+    "A055709",
+    "A396599",
+    "A396600",
+    "A396601"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

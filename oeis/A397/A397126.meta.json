@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct powerful numbers such that for any prime p, any run of consecutive multiples of p has length exactly 2.",
+  "id": "A397126",
+  "mentions": [
+    "A001248",
+    "A001694",
+    "A024619",
+    "A100484",
+    "A246547",
+    "A280864",
+    "A286708",
+    "A303606",
+    "A338444"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

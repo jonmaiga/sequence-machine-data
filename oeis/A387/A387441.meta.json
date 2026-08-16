@@ -2,7 +2,8 @@
   "description": "Decimal expansion of cos(Pi/13).",
   "id": "A387441",
   "mentions": [
-    "A019680"
+    "A019680",
+    "A387446"
   ],
   "tags": [
     "cons",

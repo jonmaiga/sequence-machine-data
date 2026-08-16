@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) is the number of non-congruent maximal subsets of a grid of n X k lattice points (k <= n), such that no two points are at the same distance, and the points do not fit into a smaller grid. The size of the subsets is given by A351700. T(n,k) and A351700 are triangles read by rows.",
+  "description": "T(n,k) is the number of non-congruent maximum subsets of a grid of n X k lattice points (k <= n), such that no two points are at the same distance, and the points do not fit into a smaller grid. The size of the subsets is given by A351700. T(n,k) and A351700 are triangles read by rows.",
   "id": "A351699",
   "mentions": [
     "A193838",

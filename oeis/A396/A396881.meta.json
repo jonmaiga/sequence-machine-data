@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (6^k)/(3*k)!.",
+  "id": "A396881",
+  "mentions": [
+    "A000680",
+    "A001113",
+    "A014606",
+    "A014608",
+    "A014609",
+    "A172603",
+    "A172609",
+    "A172613",
+    "A248814",
+    "A395537"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

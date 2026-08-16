@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that there exists a connected 4-valent half-arc-transitive graph with n vertices.",
+  "id": "A398352",
+  "mentions": [
+    "A398351"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

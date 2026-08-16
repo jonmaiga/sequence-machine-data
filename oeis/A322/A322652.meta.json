@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are sums of consecutive heptagonal pyramidal numbers (A002413).",
+  "description": "Numbers that are sums of one or more consecutive heptagonal pyramidal numbers (A002413).",
   "id": "A322652",
   "mentions": [
     "A002413",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, of coefficients of x^n*y^k/n! in e.g.f. A(x,y) satisfying Sum_{n>=0} y^n * (A(x,y)^n - x)^n / n! = 1.",
+  "id": "A397350",
+  "mentions": [
+    "A361540",
+    "A371710",
+    "A397351",
+    "A397352",
+    "A397353",
+    "A397354",
+    "A397355"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

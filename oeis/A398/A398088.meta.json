@@ -1,0 +1,18 @@
+{
+  "description": "Upper end of record gaps between numbers that are the sum of two squares (A001481).",
+  "id": "A398088",
+  "mentions": [
+    "A001481",
+    "A297350",
+    "A357018"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

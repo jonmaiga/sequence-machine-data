@@ -1,0 +1,20 @@
+{
+  "description": "Number of strict partitions of n such that the difference between two adjacent parts is at most 2.",
+  "id": "A396249",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001227",
+    "A320387"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

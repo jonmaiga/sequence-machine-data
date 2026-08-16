@@ -2,9 +2,11 @@
   "description": "a(n) = -1 + A093137(n)^2.",
   "id": "A098210",
   "mentions": [
-    "A093137"
+    "A093137",
+    "A099638"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*A122649(n) = n*((2*n - 1)!! - (2*n - 2)!!).",
+  "id": "A397580",
+  "mentions": [
+    "A001879",
+    "A002866",
+    "A035101",
+    "A122649",
+    "A396954"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

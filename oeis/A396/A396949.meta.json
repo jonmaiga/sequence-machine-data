@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that omega(k) + Omega(k) = sopf(k), where omega is the number of distinct prime factors (A001221), Omega is the number of prime factors with multiplicity (A001222), and sopf is the sum of the distinct prime factors (A008472).",
+  "id": "A396949",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A008472",
+    "A036878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

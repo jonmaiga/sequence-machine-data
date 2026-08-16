@@ -1,8 +1,15 @@
 {
   "description": "a(1) = 3, then a(n) = smallest multiple of the previous term with as many divisors.",
   "id": "A076964",
-  "mentions": [],
+  "mentions": [
+    "A005179",
+    "A009287",
+    "A037025",
+    "A262981",
+    "A396627"
+  ],
   "tags": [
+    "hard",
     "nonn"
   ],
   "terms": {

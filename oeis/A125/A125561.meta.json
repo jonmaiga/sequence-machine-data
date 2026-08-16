@@ -1,7 +1,11 @@
 {
   "description": "Theta series of 5-dimensional lattice A_5^{+2}.",
   "id": "A125561",
-  "mentions": [],
+  "mentions": [
+    "A008445",
+    "A023917",
+    "A125564"
+  ],
   "tags": [
     "nonn"
   ],

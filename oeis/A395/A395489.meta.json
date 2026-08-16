@@ -1,0 +1,14 @@
+{
+  "description": "Number of gcd-closed subsets of {1,2,...,n}.",
+  "id": "A395489",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

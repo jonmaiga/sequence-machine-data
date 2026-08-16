@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: exp(Sum_{k>=1} binomial(3*k,k)^2 * x^k/k).",
+  "id": "A398085",
+  "mentions": [
+    "A188662",
+    "A224734",
+    "A398086"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

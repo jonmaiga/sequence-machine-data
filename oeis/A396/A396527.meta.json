@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number that is the sum of two distinct upper twin primes in exactly n ways, or -1 if there is no such number.",
+  "id": "A396527",
+  "mentions": [
+    "A006512",
+    "A334160",
+    "A396487"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

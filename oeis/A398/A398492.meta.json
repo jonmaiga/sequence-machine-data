@@ -1,0 +1,17 @@
+{
+  "description": "Run length transform of A398297.",
+  "id": "A398492",
+  "mentions": [
+    "A398261",
+    "A398297"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

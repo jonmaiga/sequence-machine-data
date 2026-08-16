@@ -1,9 +1,13 @@
 {
-  "description": "E.g.f. A(x) satisfies: A'(x) = exp( A(x)*A'(x) ).",
+  "description": "E.g.f. A(x) satisfies A'(x) = exp( A(x)*A'(x) ), with A(0)=0.",
   "id": "A214654",
   "mentions": [
+    "A104150",
     "A210949",
-    "A214645"
+    "A214645",
+    "A354794",
+    "A392206",
+    "A392208"
   ],
   "tags": [
     "formulas",

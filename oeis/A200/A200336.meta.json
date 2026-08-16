@@ -1,14 +1,16 @@
 {
   "description": "Decimal expansion of the nontrivial zero of the dilogarithm on the real line.",
   "id": "A200336",
-  "mentions": [],
+  "mentions": [
+    "A261511"
+  ],
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 49,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x), with A(0) = 0, satisfies A(x-x^3) = x + A(x)^2.",
+  "id": "A397147",
+  "mentions": [
+    "A397149"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected bipartite multigraphs with n vertices of maximum degree 3, where the two parts are distinguished.",
+  "id": "A397917",
+  "mentions": [
+    "A000421",
+    "A005967",
+    "A007716",
+    "A397924",
+    "A397925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

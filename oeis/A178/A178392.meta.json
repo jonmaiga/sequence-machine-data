@@ -1,19 +1,22 @@
 {
-  "description": "a(n) = (n^2-1)^2-1.",
+  "description": "a(n) = (n^2 - 1)^2 - 1.",
   "id": "A178392",
   "mentions": [
     "A001093",
     "A002522",
     "A005563",
+    "A121671",
     "A178390",
     "A178391"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "joeis"
   }
 }

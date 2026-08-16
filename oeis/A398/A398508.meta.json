@@ -1,0 +1,18 @@
+{
+  "description": "Terms in A398507 that begin a run of terms increasing by 1.",
+  "id": "A398508",
+  "mentions": [
+    "A377091",
+    "A398507",
+    "A398574"
+  ],
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

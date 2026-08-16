@@ -2,7 +2,8 @@
   "description": "a(n) = maximum over m of the size of the largest subset of pairwise relatively prime numbers in {m+1, m+2, ..., m+n}.",
   "id": "A062575",
   "mentions": [
-    "A062571"
+    "A062571",
+    "A260652"
   ],
   "tags": [
     "nonn"

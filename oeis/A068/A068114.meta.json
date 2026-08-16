@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form phi(n!)/phi(n)!.",
+  "description": "Integers of the form phi(k!)/phi(k)!.",
   "id": "A068114",
   "mentions": [],
   "tags": [

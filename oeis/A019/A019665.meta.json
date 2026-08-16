@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of sqrt(Pi*e)/21.",
   "id": "A019665",
-  "mentions": [],
+  "mentions": [
+    "A019645"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

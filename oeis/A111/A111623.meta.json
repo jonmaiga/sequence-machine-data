@@ -2,7 +2,8 @@
   "description": "Decimal expansion of (cosine of 1 degree)^5.",
   "id": "A111623",
   "mentions": [
-    "A019810"
+    "A019810",
+    "A019898"
   ],
   "tags": [
     "cons",

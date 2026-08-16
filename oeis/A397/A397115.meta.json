@@ -1,0 +1,24 @@
+{
+  "description": "Size of clusters of star triples of Family A in the Spectre aperiodic monotile tiling.",
+  "id": "A397115",
+  "mentions": [
+    "A397116",
+    "A397117",
+    "A397118",
+    "A397119",
+    "A397120",
+    "A397121",
+    "A397122",
+    "A397123"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

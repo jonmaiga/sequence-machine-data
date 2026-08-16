@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{1 <= i < j < k <= n} ( n!/(i*j*k) )^4.",
+  "id": "A395897",
+  "mentions": [
+    "A395066"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

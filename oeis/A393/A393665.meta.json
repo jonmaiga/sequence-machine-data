@@ -1,0 +1,16 @@
+{
+  "description": "Number of order-convex subsets of the square grid poset [n]^2 with componentwise partial order.",
+  "id": "A393665",
+  "mentions": [
+    "A394682"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,10 @@
   "description": "A modified Legendre-binomial transform of 2^n for p=3.",
   "id": "A117981",
   "mentions": [
-    "A117982"
+    "A117976",
+    "A117982",
+    "A117983",
+    "A117984"
   ],
   "tags": [
     "easy",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 36,
     "source": "joeis"
   }
 }

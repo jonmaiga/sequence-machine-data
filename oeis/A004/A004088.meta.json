@@ -2,10 +2,12 @@
   "description": "Sum of digits of number of partitions of n.",
   "id": "A004088",
   "mentions": [
-    "A000041"
+    "A000041",
+    "A007953"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,16 +1,17 @@
 {
-  "description": "Hilltop maps: number of nX3 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal, vertical or antidiagonal neighbor in a random 0..1 nX3 array.",
+  "description": "Number of n X 3 binary arrays with every 0 a horizontal, vertical or antidiagonal neighbor to some 1.",
   "id": "A218421",
   "mentions": [
     "A218426"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if the u-th arithmetic derivative of n is zero for some u and A276085(n) has no divisors of the form p^p, otherwise 0, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A395038",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A328308",
+    "A377868",
+    "A395039"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

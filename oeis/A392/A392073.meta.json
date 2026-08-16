@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/LambertW(e^2).",
+  "id": "A392073",
+  "mentions": [
+    "A001113",
+    "A072334",
+    "A226571",
+    "A395325"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of increasing 3-term arithmetic progressions in an n^3 cube.",
+  "id": "A398470",
+  "mentions": [
+    "A397600"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

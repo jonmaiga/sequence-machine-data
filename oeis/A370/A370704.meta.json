@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..n} k!*binomial(n, k)*Pochhammer(n, k). Row sums of A370707.",
   "id": "A370704",
   "mentions": [
+    "A003470",
     "A370707"
   ],
   "tags": [

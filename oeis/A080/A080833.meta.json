@@ -2,6 +2,7 @@
   "description": "E.g.f.: exp( x/(1 - x - x^2) ).",
   "id": "A080833",
   "mentions": [
+    "A000045",
     "A005443",
     "A047974"
   ],

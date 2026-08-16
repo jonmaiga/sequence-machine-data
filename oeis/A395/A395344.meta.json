@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the integer obtained by inserting the sum (modulo 10) of adjacent digits of n between them.",
+  "id": "A395344",
+  "mentions": [
+    "A007953",
+    "A053837"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

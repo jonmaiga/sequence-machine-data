@@ -1,0 +1,20 @@
+{
+  "description": "Upper (1,1/2) midsequence of (floor[n/2]^2) and (ceiling[n/3]^2); see Comments.",
+  "id": "A397110",
+  "mentions": [
+    "A389123",
+    "A397107",
+    "A397108",
+    "A397111"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

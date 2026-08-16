@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{1 <= i < j <= n} ( n!/(i*j) )^3.",
+  "id": "A394716",
+  "mentions": [
+    "A000399",
+    "A001820",
+    "A249677",
+    "A395068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

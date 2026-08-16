@@ -1,15 +1,17 @@
 {
-  "description": "Number of (n+1)X9 0..5 arrays with every 2x2 subblock summing to 10.",
+  "description": "Number of (n+1) X 9 0..5 arrays with every 2 X 2 subblock summing to 10.",
   "id": "A183661",
   "mentions": [
     "A183662"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

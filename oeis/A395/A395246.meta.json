@@ -1,0 +1,16 @@
+{
+  "description": "Number of multisets of nonisomorphic triangulated m-gons under rotational symmetry on a total of n nodes.",
+  "id": "A395246",
+  "mentions": [
+    "A001683"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

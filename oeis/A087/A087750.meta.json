@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into numbers having in binary representation at most trailing zeros.",
+  "description": "Number of partitions of n into numbers of the form 2^i - 2^j with i > j.",
   "id": "A087750",
   "mentions": [
     "A000041",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,10 @@
 {
   "description": "Number of vertex cuts in the n-alkane graph.",
   "id": "A362501",
-  "mentions": [],
+  "mentions": [
+    "A013731",
+    "A390403"
+  ],
   "tags": [
     "easy",
     "formulas",

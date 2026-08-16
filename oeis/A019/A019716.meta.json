@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of sqrt(Pi)/14.",
   "id": "A019716",
-  "mentions": [],
+  "mentions": [
+    "A002161"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

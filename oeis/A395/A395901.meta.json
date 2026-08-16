@@ -1,0 +1,18 @@
+{
+  "description": "Numbers c that appear in more than one abc triple with rad(a*b*c) < c and gcd(a,b)=1.",
+  "id": "A395901",
+  "mentions": [
+    "A007947",
+    "A120498",
+    "A130510",
+    "A272242"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

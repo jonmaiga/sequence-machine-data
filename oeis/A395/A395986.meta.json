@@ -1,0 +1,18 @@
+{
+  "description": "Minimum transmission of a connected cubic graph on 2n vertices.",
+  "id": "A395986",
+  "mentions": [
+    "A395987",
+    "A395988",
+    "A395989"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

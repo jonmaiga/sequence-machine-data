@@ -1,0 +1,21 @@
+{
+  "description": "Integers x>0 such that there exists an integer y>0 such that sigma(x)*psi(x)*phi(x) = x^3 + y^3.",
+  "id": "A395714",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001615",
+    "A004999",
+    "A395670"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

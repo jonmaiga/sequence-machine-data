@@ -2,10 +2,12 @@
   "description": "Number of inequivalent ways (mod D_4) a pair of checkers can be placed on an n X n board.",
   "id": "A014409",
   "mentions": [
+    "A000217",
     "A019318",
     "A054247",
     "A054252",
     "A082966",
+    "A083374",
     "A242279",
     "A242358"
   ],

@@ -1,0 +1,15 @@
+{
+  "description": "Number of quadruples (a,b,c,d) of nonzero quadratic residues modulo prime(n) such that a + b == c + d (mod prime(n)).",
+  "id": "A397495",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 39,
+    "source": "joeis"
+  }
+}

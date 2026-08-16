@@ -1,0 +1,25 @@
+{
+  "description": "Union of primes and perfect powers.",
+  "id": "A396856",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001597",
+    "A106543",
+    "A131605",
+    "A306013",
+    "A323306",
+    "A325247",
+    "A359390",
+    "A383099"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

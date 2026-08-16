@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * (AH(k)/k)^2, where AH(K) = A058313(k)/A058312(k) is the k-th alternating harmonic (or skew-harmonic) number.",
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * (AH(k)/k)^2, where AH(k) = A058313(k)/A058312(k) is the k-th alternating harmonic (or skew-harmonic) number.",
   "id": "A393119",
   "mentions": [
     "A002117",

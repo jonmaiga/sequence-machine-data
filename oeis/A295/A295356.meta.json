@@ -2,7 +2,11 @@
   "description": "Primes p for which pi_{24,13}(p) - pi_{24,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
   "id": "A295356",
   "mentions": [
-    "A295355"
+    "A295355",
+    "A297449",
+    "A297450",
+    "A298820",
+    "A298821"
   ],
   "tags": [
     "nonn"

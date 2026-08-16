@@ -1,0 +1,19 @@
+{
+  "description": "RUNS transform of A395351.",
+  "id": "A395352",
+  "mentions": [
+    "A392177",
+    "A392178",
+    "A393452",
+    "A395350",
+    "A395351"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

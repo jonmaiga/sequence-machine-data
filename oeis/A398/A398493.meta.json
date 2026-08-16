@@ -1,0 +1,17 @@
+{
+  "description": "Number of increasing 3-term arithmetic progressions in an n^5 hypercube.",
+  "id": "A398493",
+  "mentions": [
+    "A397600"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

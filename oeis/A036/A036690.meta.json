@@ -2,6 +2,7 @@
   "description": "Product of a prime and the following number.",
   "id": "A036690",
   "mentions": [
+    "A001615",
     "A034953",
     "A036689",
     "A060800",

@@ -1,0 +1,20 @@
+{
+  "description": "Minimal value of p(1) + Sum_{i=2...n} p(i-1)*p(i), as p ranges over all permutations of odd numbers {1,3,...,2*n-1}.",
+  "id": "A392324",
+  "mentions": [
+    "A026035",
+    "A110610",
+    "A110611",
+    "A273314"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

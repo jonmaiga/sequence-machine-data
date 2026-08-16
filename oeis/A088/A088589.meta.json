@@ -1,15 +1,18 @@
 {
-  "description": "An improved natural sequence based on two base scales Pi and e and the prime sequence.",
+  "description": "a(0)=1, a(n) = floor(Pi * exp(f(n)*(f(n)+1)/2) * prime((n-1)/2)#) where f(n)=floor(n/2) and p(n)# is the n-th primorial.",
   "id": "A088589",
-  "mentions": [],
+  "mentions": [
+    "A002110",
+    "A088588"
+  ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "dumb",
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "joeis"
   }
 }

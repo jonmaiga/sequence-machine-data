@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of composites c+d such that c is a composite and d is the n-th odd composite.",
+  "description": "a(n) = number of composites c+d such that c is a composite, d is the n-th odd composite, and c < d.",
   "id": "A336408",
   "mentions": [
     "A000040",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

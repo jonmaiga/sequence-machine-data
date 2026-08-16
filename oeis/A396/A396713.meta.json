@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. -W_3(-x)/(1 + W_3(-x)), where W_k(x) is the k-th iterate of LambertW(x).",
+  "id": "A396713",
+  "mentions": [
+    "A396678",
+    "A396680",
+    "A396711",
+    "A396712"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

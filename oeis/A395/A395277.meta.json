@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of 4-tuples (w, x, y, z) of distinct positive integers w, x, y, z such that w*x + y*z = n, where w*x <= y*z, w < x, and y < z.",
+  "id": "A395277",
+  "mentions": [
+    "A393710",
+    "A394740",
+    "A394743",
+    "A394786",
+    "A394787"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

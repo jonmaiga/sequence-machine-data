@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = ceiling(8*n/7) + [n == 6 (mod 7)].",
+  "id": "A397560",
+  "mentions": [
+    "A302255"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

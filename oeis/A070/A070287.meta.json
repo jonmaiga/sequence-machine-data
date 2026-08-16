@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that the equation lcm(sigma(x),phi(x))=n has solutions.",
+  "description": "Numbers k such that the equation lcm(sigma(x),phi(x))=k has solutions.",
   "id": "A070287",
-  "mentions": [],
+  "mentions": [
+    "A009286",
+    "A084921"
+  ],
   "tags": [
     "easy",
     "nonn"

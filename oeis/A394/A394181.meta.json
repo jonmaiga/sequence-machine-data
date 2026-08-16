@@ -1,0 +1,15 @@
+{
+  "description": "Simultaneously grow three sequences S, T and A starting with S(1)=T(1)=a(1)=2. Search for the smallest integer m in S so that one of its multiples k*m is larger than T(n) and closer to T(n) than (k-1)*m. If this is true, a(n+1) = m and T(n+1) = k*m. Otherwise, add the smallest positive integer, m, to S that holds this property.",
+  "id": "A394181",
+  "mentions": [
+    "A395717"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

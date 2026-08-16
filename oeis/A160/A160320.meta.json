@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sigma(n)/n = k+1/3 with integer k.",
+  "description": "Numbers m for which sigma(m)/m = k+1/3 with integer k.",
   "id": "A160320",
   "mentions": [
     "A159907",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

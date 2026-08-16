@@ -2,7 +2,18 @@
   "description": "Numbers whose base-9 representation has the same nonzero number of 4's and 8's.",
   "id": "A039386",
   "mentions": [
-    "A007095"
+    "A007095",
+    "A039105",
+    "A039364",
+    "A039371",
+    "A039377",
+    "A039382",
+    "A039383",
+    "A039384",
+    "A039385",
+    "A039389",
+    "A039391",
+    "A039392"
   ],
   "tags": [
     "base",
@@ -12,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

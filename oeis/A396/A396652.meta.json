@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2*n-3-(-1)^n)*(6*n+1-(-1)^n)/8.",
+  "id": "A396652",
+  "mentions": [
+    "A159469",
+    "A395421",
+    "A397269"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

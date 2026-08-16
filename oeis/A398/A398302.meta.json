@@ -1,0 +1,19 @@
+{
+  "description": "In the canonical representation of n as a product of powers of prime numbers, a(n) is the position of the last prime with an exponent greater than 1, or 0 if n is squarefree.",
+  "id": "A398302",
+  "mentions": [
+    "A060175",
+    "A124010",
+    "A141809",
+    "A286630"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

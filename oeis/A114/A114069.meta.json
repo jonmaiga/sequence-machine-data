@@ -1,5 +1,5 @@
 {
-  "description": "sigma(n) + n is a square.",
+  "description": "Numbers k such that sigma(k) + k is a square.",
   "id": "A114069",
   "mentions": [
     "A000203",

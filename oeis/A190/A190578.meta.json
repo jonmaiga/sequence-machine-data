@@ -2,20 +2,23 @@
   "description": "a(n) = n^7 + n.",
   "id": "A190578",
   "mentions": [
+    "A001015",
     "A002378",
     "A005843",
     "A034262",
     "A091940",
     "A131471",
-    "A131472"
+    "A131472",
+    "A168029"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

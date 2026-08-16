@@ -1,0 +1,16 @@
+{
+  "description": "Number of metrizable betweenness relations on a set of n elements.",
+  "id": "A395237",
+  "mentions": [
+    "A364656"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

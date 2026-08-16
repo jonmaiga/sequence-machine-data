@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of cells in a connected enclosing shell of an n-cell connected hole on the truncated-square (4.8.8) Archimedean tiling.",
+  "id": "A394511",
+  "mentions": [
+    "A182619",
+    "A227004",
+    "A283056"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

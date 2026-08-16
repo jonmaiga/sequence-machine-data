@@ -3,7 +3,8 @@
   "id": "A196628",
   "mentions": [
     "A109768",
-    "A196627"
+    "A196627",
+    "A385519"
   ],
   "tags": [
     "hard",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

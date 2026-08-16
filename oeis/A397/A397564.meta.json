@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n+4*k,k).",
+  "id": "A397564",
+  "mentions": [
+    "A002295",
+    "A079590",
+    "A390385",
+    "A396691",
+    "A397563"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

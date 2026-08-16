@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that omega(q^2 - p^2) = n where q is the next prime after p.",
+  "id": "A393324",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A069482"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

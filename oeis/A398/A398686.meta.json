@@ -1,0 +1,20 @@
+{
+  "description": "Gaps associated with the arithmetic progressions in A398685, divided by 2.",
+  "id": "A398686",
+  "mentions": [
+    "A046388",
+    "A093364",
+    "A093366",
+    "A398604",
+    "A398685"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

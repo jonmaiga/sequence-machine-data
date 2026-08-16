@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of F_2(x)/x, where F_k(x) is the k-th iteration of x*G4(x) with G4(x) = 1 + x*G4(x)^4.",
+  "id": "A396416",
+  "mentions": [
+    "A001764",
+    "A002293",
+    "A396413"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

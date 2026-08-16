@@ -2,6 +2,7 @@
   "description": "Number of permutations p of (1,2,3,...,n) such that k+p(k) is a Fibonacci number for 1 <= k <= n.",
   "id": "A097082",
   "mentions": [
+    "A000045",
     "A010056",
     "A073364",
     "A095986",

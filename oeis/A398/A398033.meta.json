@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted unlabeled 5-gonal cacti having n blocks.",
+  "id": "A398033",
+  "mentions": [
+    "A332648",
+    "A397250"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

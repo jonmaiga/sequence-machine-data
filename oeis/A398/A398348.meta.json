@@ -1,0 +1,17 @@
+{
+  "description": "Number of toroidal n X n X n binary arrays, allowing rotation and/or reflection of the layers along each axis as well as all permutations of the axes.",
+  "id": "A398348",
+  "mentions": [
+    "A000616",
+    "A255016"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

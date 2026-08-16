@@ -2,7 +2,8 @@
   "description": "Near-prime numbers: numbers n such that n-2=prime, n+2=prime, n-4=prime, n+4=prime, n-8=prime, n+8=prime.",
   "id": "A143727",
   "mentions": [
-    "A022008"
+    "A022008",
+    "A061671"
   ],
   "tags": [
     "easy",

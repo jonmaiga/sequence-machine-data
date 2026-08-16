@@ -1,0 +1,16 @@
+{
+  "description": "Average k of twin prime pairs such that d*2^(k/d) is also the average of twin prime pairs for some d.",
+  "id": "A397193",
+  "mentions": [
+    "A014574",
+    "A394795"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

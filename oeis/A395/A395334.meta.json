@@ -1,0 +1,19 @@
+{
+  "description": "Number of free polyominoes with n cells (up to the symmetries of the square) that contain a saturated cell (a cell all four of whose edge-neighbors are present).",
+  "id": "A395334",
+  "mentions": [
+    "A000105",
+    "A390515",
+    "A395331",
+    "A395552"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

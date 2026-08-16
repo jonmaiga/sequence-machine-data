@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the binomial coefficient C(2n,n) is not divisible by the square of an odd prime.",
+  "description": "Numbers k such that the binomial coefficient C(2k,k) is not divisible by the square of an odd prime.",
   "id": "A059097",
   "mentions": [
     "A000984",

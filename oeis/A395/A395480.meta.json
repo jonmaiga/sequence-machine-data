@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-color compositions of n with parts in standard order.",
+  "id": "A395480",
+  "mentions": [
+    "A000110",
+    "A383253",
+    "A383713",
+    "A394777"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

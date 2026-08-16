@@ -1,8 +1,9 @@
 {
-  "description": "Class numbers h(D) of imaginary quadratic fields with discriminant D=1-4*n.",
+  "description": "Class numbers h(D) of imaginary quadratic orders with discriminant D=1-4*n.",
   "id": "A014599",
   "mentions": [
-    "A000003"
+    "A000003",
+    "A014600"
   ],
   "tags": [
     "nonn"

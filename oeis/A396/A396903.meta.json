@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} gcd(k^4,n^3).",
+  "id": "A396903",
+  "mentions": [
+    "A343498",
+    "A393808",
+    "A396901"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

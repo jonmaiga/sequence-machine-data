@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*(12*n-5).",
+  "id": "A396291",
+  "mentions": [
+    "A396288"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

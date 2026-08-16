@@ -1,0 +1,21 @@
+{
+  "description": "Least prime q such that q^2 - n! is again the square of a prime, or 0 if no such prime exists.",
+  "id": "A394632",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A001248",
+    "A394629",
+    "A394631",
+    "A394633"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

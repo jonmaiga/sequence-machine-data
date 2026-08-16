@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = r(n,n), where r(1,k)=f(k)=floor(k*c), r(n,k)=f(r(n-1,k)), c=(golden ratio)^2.",
+  "id": "A396393",
+  "mentions": [
+    "A001622",
+    "A396385",
+    "A396390",
+    "A396394",
+    "A396395"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 30*n + 29 is prime.",
+  "description": "Numbers k such that 30*k + 29 is prime.",
   "id": "A158850",
   "mentions": [
     "A111175",

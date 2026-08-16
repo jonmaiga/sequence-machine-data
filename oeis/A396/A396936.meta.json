@@ -1,0 +1,23 @@
+{
+  "description": "A knight starts at the origin on an infinite chessboard. In each step, it makes a knight's move to the unvisited point closest to the origin, avoiding steps that inevitably lead to a dead end at some point in the future. See comments for how ties are resolved. a(n) is the x-coordinate of the knight after the n-th step.",
+  "id": "A396936",
+  "mentions": [
+    "A316328",
+    "A323559",
+    "A323560",
+    "A323699",
+    "A323700",
+    "A326924",
+    "A396937",
+    "A397388",
+    "A397392"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

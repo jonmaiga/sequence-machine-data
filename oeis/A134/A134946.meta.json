@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of (golden ratio divided by 6 = phi/6 = (1 + sqrt(5))/12).",
   "id": "A134946",
-  "mentions": [],
+  "mentions": [
+    "A001622"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "less",
     "nonn"
   ],

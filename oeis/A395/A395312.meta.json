@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of n into parts having exactly k distinct prime factors, with 0 <= k <= A111972(n) for n >= 1 and k = 0 for n = 0.",
+  "id": "A395312",
+  "mentions": [
+    "A001221",
+    "A023894",
+    "A111972",
+    "A394211"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

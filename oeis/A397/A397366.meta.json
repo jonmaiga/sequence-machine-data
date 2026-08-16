@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle S, related to the Erdős-Strauss conjecture.",
+  "id": "A397366",
+  "mentions": [
+    "A000037",
+    "A083039",
+    "A192787",
+    "A396825"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

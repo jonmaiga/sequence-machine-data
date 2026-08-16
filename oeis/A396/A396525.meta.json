@@ -1,0 +1,17 @@
+{
+  "description": "Walk along the hexagonal spiral, with its cells numbered starting at 0, as in A395362. Place a (Glinski) queen at each unoccupied cell not attacked by an existing queen. Sequence lists cells occupied by queens.",
+  "id": "A396525",
+  "mentions": [
+    "A395362",
+    "A396294",
+    "A396296"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

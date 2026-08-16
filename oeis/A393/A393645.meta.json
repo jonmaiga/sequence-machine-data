@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive tessellations of paths of length n in the square lattice, with rotations and reflections counted as distinct.",
+  "id": "A393645",
+  "mentions": [
+    "A394184"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

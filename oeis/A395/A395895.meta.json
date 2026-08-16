@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonperiodic autocorrelation functions of length n {-1,0,1} sequences.",
+  "id": "A395895",
+  "mentions": [
+    "A000244",
+    "A006606"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

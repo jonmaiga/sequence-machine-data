@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that both k and k+1 can be written as the sum of two nonzero and nonunit squares.",
+  "id": "A397416",
+  "mentions": [
+    "A000290",
+    "A085989",
+    "A355769"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

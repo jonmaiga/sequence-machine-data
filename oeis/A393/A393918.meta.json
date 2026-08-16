@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of compositions of n into parts at least k.",
+  "id": "A393918",
+  "mentions": [
+    "A011782",
+    "A017898",
+    "A017899",
+    "A017900",
+    "A017901",
+    "A017902",
+    "A017903",
+    "A017904",
+    "A017905",
+    "A017906",
+    "A017907",
+    "A017908",
+    "A017909",
+    "A078012",
+    "A097805",
+    "A099238",
+    "A126198",
+    "A141539",
+    "A212804"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

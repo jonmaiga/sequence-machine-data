@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n - Omega(|Re((2 + i)^n)|) - Omega(|Im((2 + i)^n)|), where Omega is A001222.",
+  "id": "A396955",
+  "mentions": [
+    "A000351",
+    "A001222",
+    "A002144",
+    "A077761",
+    "A099456",
+    "A139011",
+    "A396956",
+    "A396957",
+    "A396958",
+    "A396959"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

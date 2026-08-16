@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array T(n, k) read by rows: Row n gives the even coefficients of the polynomial P_n(x) = Sum_{k=0..n} x^(2*(n-k))*T(n, k), this is the polynomial of order 2*n that satisfies (-1)^n*P_n(k-n)/(n!)^2 = binomial(2*n, k) for integers k = 0..2*n.",
+  "id": "A395971",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001044",
+    "A007318",
+    "A010050",
+    "A101986",
+    "A274136"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

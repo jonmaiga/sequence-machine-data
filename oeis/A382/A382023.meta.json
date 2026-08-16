@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct half sets in Q_n containing only pairs of antipodal vertices with the property that they form an equitable partition with their complement and are interchangable under a group automorphism of the hypercube graph.",
+  "description": "Number of distinct pairs-only half-sets in Q_n that form an equitable partition with their complements and are interchangeable with their complements under an automorphism of the hypercube graph.",
   "id": "A382023",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

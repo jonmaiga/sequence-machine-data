@@ -2,7 +2,8 @@
   "description": "Prime numbers p where the cyclotomic field Q(zeta_(p-1)) has class number one.",
   "id": "A380784",
   "mentions": [
-    "A005848"
+    "A005848",
+    "A396476"
   ],
   "tags": [
     "fini",

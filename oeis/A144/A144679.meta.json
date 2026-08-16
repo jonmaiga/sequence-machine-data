@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = [n/5 + 1]*[n/5 + 2]*(3*n - 10*[n/5] + 3)/6, where [.] = floor.",
+  "description": "a(n) = floor(n/5 + 1) * floor(n/5 + 2) * (3*n - 10*floor(n/5) + 3)/6.",
   "id": "A144679",
   "mentions": [
     "A000292",
+    "A002266",
     "A006918",
     "A122047",
     "A144677",

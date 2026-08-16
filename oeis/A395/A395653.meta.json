@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of positive integers k <= n whose divisors, listed in increasing order, have the same sequence of prime signatures as the divisors of n.",
+  "id": "A395653",
+  "mentions": [
+    "A046523",
+    "A101296",
+    "A290110",
+    "A297174",
+    "A300250",
+    "A335286"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

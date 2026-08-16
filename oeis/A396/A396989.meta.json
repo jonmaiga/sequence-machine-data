@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled trees on n vertices in which the number of vertices of degree 1 equals the graph diameter.",
+  "id": "A396989",
+  "mentions": [
+    "A000272",
+    "A000554",
+    "A000555",
+    "A001852",
+    "A055314"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

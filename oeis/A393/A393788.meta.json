@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive integer expressible as the sum of n distinct positive cubes in n ways with no cube repeated across the representations.",
+  "id": "A393788",
+  "mentions": [
+    "A000578",
+    "A025402",
+    "A347362",
+    "A350270"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

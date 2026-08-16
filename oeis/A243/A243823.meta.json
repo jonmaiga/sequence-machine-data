@@ -1,10 +1,14 @@
 {
-  "description": "Quantity of \"semitotatives,\" numbers m < n that are products of at least one prime divisor p of n and one prime q coprime to n.",
+  "description": "Number of k < n such that gcd(k,n) > 1 but rad(k) does not divide n, where rad = A007947.",
   "id": "A243823",
   "mentions": [
+    "A007947",
     "A010846",
     "A045763",
-    "A243822"
+    "A243822",
+    "A272619",
+    "A360480",
+    "A360543"
   ],
   "tags": [
     "formulas",

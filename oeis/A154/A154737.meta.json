@@ -1,13 +1,14 @@
 {
-  "description": "Integers k of the form k=n^k-k, k=2.",
+  "description": "a(n) = floor(b(n)), where b(n) = n^b(n-1) - b(n-1) and b(0) = 2.",
   "id": "A154737",
   "mentions": [],
   "tags": [
+    "less",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 5,
+    "offset": 0,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

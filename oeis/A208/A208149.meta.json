@@ -1,8 +1,13 @@
 {
-  "description": "Primes p(n) such that p(n) <= 2^(p(n+1) - p(n)).",
+  "description": "Primes prime(k) such that prime(k) <= 2^(prime(k+1) - prime(k)).",
   "id": "A208149",
   "mentions": [
-    "A001223"
+    "A000040",
+    "A000523",
+    "A001223",
+    "A151800",
+    "A396203",
+    "A396279"
   ],
   "tags": [
     "nonn"

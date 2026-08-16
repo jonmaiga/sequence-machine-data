@@ -1,0 +1,22 @@
+{
+  "description": "Zeroless primes having digit sum 10.",
+  "id": "A395100",
+  "mentions": [
+    "A000040",
+    "A052382",
+    "A107579",
+    "A113625",
+    "A179955"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

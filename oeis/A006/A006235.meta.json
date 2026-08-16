@@ -1,5 +1,5 @@
 {
-  "description": "Complexity of doubled cycle (regarding case n = 2 as a multigraph).",
+  "description": "Number of spanning trees of the n-prism graph Y_n (regarding case n = 2 as a multigraph).",
   "id": "A006235",
   "mentions": [
     "A000051",

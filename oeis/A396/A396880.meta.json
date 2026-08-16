@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of e * (3-e).",
+  "id": "A396880",
+  "mentions": [
+    "A001113",
+    "A089087",
+    "A089139",
+    "A090142",
+    "A090143",
+    "A090611",
+    "A153805",
+    "A379601",
+    "A381673",
+    "A381843",
+    "A382020",
+    "A382026"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the y-coordinate of a knight after moving n steps according to the rules defined in A397388.",
+  "id": "A397389",
+  "mentions": [
+    "A396937",
+    "A397388",
+    "A397391",
+    "A397393"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

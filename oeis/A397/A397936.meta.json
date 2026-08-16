@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = floor(3*7^n/4).",
+  "id": "A397936",
+  "mentions": [
+    "A000420",
+    "A003463",
+    "A024075",
+    "A081251",
+    "A083232",
+    "A125833",
+    "A198688",
+    "A397937"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

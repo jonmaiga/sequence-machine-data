@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = least prime p such that Mordell's equation y^2 = x^3 - p has exactly n integral solutions with y >= 0.",
+  "id": "A396598",
+  "mentions": [
+    "A179175",
+    "A392395",
+    "A392548"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

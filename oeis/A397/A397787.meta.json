@@ -1,0 +1,19 @@
+{
+  "description": "Number of even primitive Dirichlet characters modulo n.",
+  "id": "A397787",
+  "mentions": [
+    "A007431",
+    "A359591",
+    "A397788"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

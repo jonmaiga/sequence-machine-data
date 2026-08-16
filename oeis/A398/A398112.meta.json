@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of rooted unlabeled k-gonal cacti having n polygons with each vertex in at most two polygons, n >= 0, k >= 1.",
+  "id": "A398112",
+  "mentions": [
+    "A001190",
+    "A008619",
+    "A332648",
+    "A398113",
+    "A398114"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

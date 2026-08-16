@@ -2,9 +2,14 @@
   "description": "Number of labeled trees with n nodes and 3 leaves.",
   "id": "A055315",
   "mentions": [
-    "A055314"
+    "A001113",
+    "A001620",
+    "A055314",
+    "A091725",
+    "A099285"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

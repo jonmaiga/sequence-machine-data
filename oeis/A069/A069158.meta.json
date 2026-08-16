@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = Product{d|n} mu(d), product over positive divisors, d, of n, where mu(d) = Moebius function (A008683).",
+  "description": "a(n) = Product_{d|n} mu(d), product over positive divisors, d, of n, where mu(d) = Moebius function (A008683).",
   "id": "A069158",
   "mentions": [
+    "A000005",
     "A008683",
     "A008966",
     "A010051",
@@ -10,9 +11,11 @@
     "A046391",
     "A080323",
     "A120944",
+    "A190902",
     "A225817"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

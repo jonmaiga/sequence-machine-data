@@ -1,5 +1,5 @@
 {
-  "description": "There are never n semiprimes between any k and 2k; or values which do not occur in the sequence of number of semiprimes between n and 2n (inclusive).",
+  "description": "Numbers m such that there are never m semiprimes between any k and 2k; or values which do not occur in A085727.",
   "id": "A085728",
   "mentions": [
     "A001358",
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

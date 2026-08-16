@@ -1,0 +1,16 @@
+{
+  "description": "Primitive zeros of A395183.",
+  "id": "A395494",
+  "mentions": [
+    "A395183"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant D = Sum_{n>=0} 1/(2*n! + 1).",
+  "id": "A396384",
+  "mentions": [
+    "A000142",
+    "A001113",
+    "A372392"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

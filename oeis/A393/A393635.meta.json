@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that sigma(k) = psi(k) + tau(k) + Omega(k)^9.",
+  "id": "A393635",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001222",
+    "A001615",
+    "A001694",
+    "A393481",
+    "A394658",
+    "A394738",
+    "A394751",
+    "A394816",
+    "A394925",
+    "A394926"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

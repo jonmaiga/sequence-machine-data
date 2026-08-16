@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n!)^4 * Sum_{1<=i<=j<=n} 1/(i*j)^2.",
+  "id": "A393984",
+  "mentions": [
+    "A001819",
+    "A060237",
+    "A203229",
+    "A394693"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

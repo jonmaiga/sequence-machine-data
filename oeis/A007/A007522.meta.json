@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 8n+7, that is, primes congruent to -1 mod 8.",
+  "description": "Primes of the form 8*k+7, that is, primes congruent to -1 mod 8.",
   "id": "A007522",
   "mentions": [
     "A000040",
@@ -21,7 +21,11 @@
     "A141112",
     "A141123",
     "A141164",
-    "A141174"
+    "A141174",
+    "A142185",
+    "A142192",
+    "A142195",
+    "A142198"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the real solution of the equation 2*x^3 - 2*x^2 + 2*x - 1 = 0.",
+  "id": "A395810",
+  "mentions": [
+    "A005480",
+    "A010488",
+    "A010603",
+    "A256099",
+    "A380775",
+    "A380898"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

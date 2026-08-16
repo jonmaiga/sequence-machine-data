@@ -2,6 +2,7 @@
   "description": "Primes congruent to 2 mod 7.",
   "id": "A045392",
   "mentions": [
+    "A045383",
     "A045437",
     "A045458",
     "A045471"

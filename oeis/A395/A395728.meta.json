@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the ratio of the maximum area to the mean area of the orthogonal projection of a regular dodecahedron.",
+  "id": "A395728",
+  "mentions": [
+    "A001622",
+    "A134943",
+    "A134945",
+    "A134946",
+    "A182007",
+    "A385857",
+    "A395727",
+    "A395729"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

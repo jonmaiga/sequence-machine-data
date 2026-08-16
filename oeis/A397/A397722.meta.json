@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed polyominoes with 3n cells that can be tiled by n copies of the straight (I) tromino.",
+  "id": "A397722",
+  "mentions": [
+    "A001168",
+    "A390622",
+    "A397720",
+    "A397721",
+    "A397725"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

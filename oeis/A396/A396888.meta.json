@@ -1,0 +1,17 @@
+{
+  "description": "Even integers whose ratio of the sum of their nontrivial even divisors to the sum of their nontrivial odd divisors is itself a divisor.",
+  "id": "A396888",
+  "mentions": [
+    "A048050",
+    "A139256"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

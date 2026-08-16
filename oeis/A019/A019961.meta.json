@@ -2,6 +2,7 @@
   "description": "Decimal expansion of tangent of 63 degrees.",
   "id": "A019961",
   "mentions": [
+    "A019836",
     "A019872"
   ],
   "tags": [

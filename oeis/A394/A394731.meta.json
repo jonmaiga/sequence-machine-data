@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k*(k + 1)/2 + d is a triangular number (A000217), where d > (k + 1) is a divisor of k*(k + 1)/2.",
+  "id": "A394731",
+  "mentions": [
+    "A000217",
+    "A033954",
+    "A053141",
+    "A075528"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

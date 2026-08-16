@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci-Mersenne numbers.",
+  "description": "Fibonacci-Mersenne numbers: a(n) = Fibonacci(2^n-1).",
   "id": "A101342",
   "mentions": [
     "A000045",
@@ -7,6 +7,7 @@
     "A088334"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "A sequence of odd primes p such that 2p-1 is prime and no p is equal to any 2q-1 with q in the sequence.",
+  "description": "A list of odd primes p such that 2p-1 is prime and no p is equal to any 2q-1 with q in the sequence.",
   "id": "A217198",
   "mentions": [
     "A001259",
@@ -7,6 +7,8 @@
     "A217199"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

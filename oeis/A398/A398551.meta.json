@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers that are not sums of two isolated primes.",
+  "id": "A398551",
+  "mentions": [
+    "A007510",
+    "A007534",
+    "A299174",
+    "A374591"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

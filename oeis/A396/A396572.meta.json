@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct states before repetition for a circular array of n distinct elements under repeated adjacent XOR operations.",
+  "id": "A396572",
+  "mentions": [
+    "A006519",
+    "A085587"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

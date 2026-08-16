@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 2^(2*k)/(k^3 * binomial(2*k,k)).",
+  "id": "A398625",
+  "mentions": [
+    "A000984",
+    "A002117",
+    "A002162",
+    "A013661",
+    "A102753",
+    "A173624",
+    "A225113",
+    "A377645",
+    "A398626",
+    "A398627"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

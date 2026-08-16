@@ -1,0 +1,19 @@
+{
+  "description": "Consider the square spiral with its cells numbered starting at 0, then a(n) is the largest number a ferz can reach if it starts on square 1 and has to make stops on prime numbers within n steps.",
+  "id": "A396774",
+  "mentions": [
+    "A000040",
+    "A392177",
+    "A392178"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

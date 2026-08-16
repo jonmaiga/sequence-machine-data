@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the probability that the line segment connecting two points, chosen independently and uniformly at random in an annulus with a radii ratio of 1:2, lies entirely within the annulus.",
+  "id": "A396274",
+  "mentions": [
+    "A165952",
+    "A395391",
+    "A396275"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! mod A000041(n), where A000041 is the partition function.",
+  "id": "A397552",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A046668",
+    "A192885"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

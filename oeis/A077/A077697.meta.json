@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A077696(n+1)/A077696(n).",
+  "description": "a(n) = A077696(n)/A077696(n-1).",
   "id": "A077697",
   "mentions": [
     "A077696"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "joeis"
+    "size": 43,
+    "source": "oeis-entry"
   }
 }

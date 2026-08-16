@@ -1,5 +1,5 @@
 {
-  "description": "Size of the maximal subset S of {1,2,...,n} such that for all a, b, c in S not necessarily distinct, a+b+c is unique up to permutation.",
+  "description": "Size of the maximum subset S of {1,2,...,n} such that for all a, b, c in S not necessarily distinct, a+b+c is unique up to permutation.",
   "id": "A387704",
   "mentions": [
     "A143824",

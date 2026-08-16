@@ -1,11 +1,12 @@
 {
-  "description": "O.g.f. A(x) satisfies: [x^n] exp( n^3 * A(x) ) = n^3 * [x^(n-1)] exp( n^3 * A(x) ) for n>=1.",
+  "description": "O.g.f. A(x) satisfies [x^n] exp( n^3 * A(x) ) = n^3 * [x^(n-1)] exp( n^3 * A(x) ) for n >= 1.",
   "id": "A300595",
   "mentions": [
     "A296171",
     "A300591",
     "A300593",
-    "A300594"
+    "A300594",
+    "A300619"
   ],
   "tags": [
     "formulas",

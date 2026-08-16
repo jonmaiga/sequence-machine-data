@@ -1,5 +1,5 @@
 {
-  "description": "Sum of all parts in the structure of the shell model of partitions of A135010 after n-th stage.",
+  "description": "Sum of all parts in the structure of the modular table of partitions of A135010 after n-th stage.",
   "id": "A211030",
   "mentions": [
     "A066186",

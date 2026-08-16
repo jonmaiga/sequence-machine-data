@@ -1,10 +1,14 @@
 {
-  "description": "Decimal expansion of sum_(n=1..infinity) (-1)^(n-1)*H(n)/n^3 where H(n) is the n-th harmonic number.",
+  "description": "Decimal expansion of Sum_{n>=1} (-1)^(n-1)*H(n)/n^3 where H(n) is the n-th harmonic number.",
   "id": "A233033",
   "mentions": [
+    "A001008",
+    "A002805",
+    "A074599",
     "A076788",
     "A152648",
-    "A152649"
+    "A152649",
+    "A350670"
   ],
   "tags": [
     "cons",

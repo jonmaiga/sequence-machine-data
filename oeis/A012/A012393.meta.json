@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. arctanh(tan(x)*tan(x)) (even powers only).",
+  "description": "Expansion of e.g.f. arctanh(tan(x)*tan(x)) (even powers only).",
   "id": "A012393",
   "mentions": [
     "A000182",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "joeis"
   }
 }

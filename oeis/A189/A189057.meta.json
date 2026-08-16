@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which phi(n)=sigma(n'), where phi is the Euler totient function, sigma is the sum of divisors and n' the arithmetic derivative of n.",
+  "description": "Numbers k for which phi(k)=sigma(k'), where phi is the Euler totient function, sigma is the sum of divisors and k' the arithmetic derivative of k.",
   "id": "A189057",
   "mentions": [
     "A000010",

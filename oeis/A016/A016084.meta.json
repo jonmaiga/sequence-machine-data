@@ -1,7 +1,9 @@
 {
   "description": "a(n+1) = a(n) + its digital root.",
   "id": "A016084",
-  "mentions": [],
+  "mentions": [
+    "A128834"
+  ],
   "tags": [
     "base",
     "easy",

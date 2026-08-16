@@ -1,16 +1,18 @@
 {
-  "description": "a(n+1) = a(n) converted to base 10 from base 16.",
+  "description": "a(n+1) = a(n) converted to base 10 from base 16, starting at a(0) = 10.",
   "id": "A055987",
   "mentions": [
-    "A055986"
+    "A055986",
+    "A102489"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

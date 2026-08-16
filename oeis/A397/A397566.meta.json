@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0; for n >= 1, a(n) is the smallest number whose Hamming distance from a(n-1) is n^2.",
+  "id": "A397566",
+  "mentions": [
+    "A000120",
+    "A000217",
+    "A000290",
+    "A000975",
+    "A212739",
+    "A362887",
+    "A397569"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

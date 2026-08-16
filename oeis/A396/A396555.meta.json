@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that EulerPhi(p-1) is not a power of 2.",
+  "id": "A396555",
+  "mentions": [
+    "A003401",
+    "A335120",
+    "A396554"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

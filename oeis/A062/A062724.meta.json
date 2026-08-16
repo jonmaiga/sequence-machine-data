@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(tau^n) + 1, where tau = (1 + sqrt(5))/2.",
+  "description": "a(n) = floor(phi^n) + 1, where phi = (1 + sqrt(5))/2.",
   "id": "A062724",
   "mentions": [
     "A014217",

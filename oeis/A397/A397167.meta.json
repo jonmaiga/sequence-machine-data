@@ -1,0 +1,20 @@
+{
+  "description": "Consider the square spiral with cells labeled counterclockwise starting at 0, as in A304586 and A307282; sequence gives irregular triangle read by rows, where row n lists the neighbors of cell n that already exist when cell n is being filled in.",
+  "id": "A397167",
+  "mentions": [
+    "A278354",
+    "A304586",
+    "A307282",
+    "A394513"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

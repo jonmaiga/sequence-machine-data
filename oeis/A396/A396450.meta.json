@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(k!)^5.",
+  "id": "A396450",
+  "mentions": [
+    "A001113",
+    "A070910",
+    "A271574",
+    "A396224",
+    "A396449",
+    "A396451",
+    "A396452"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

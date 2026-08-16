@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the long/short edge length ratio of a canonical (dual-uniform) heptagonal trapezohedron.",
+  "id": "A397872",
+  "mentions": [
+    "A397867",
+    "A397868",
+    "A397869",
+    "A397870",
+    "A397871",
+    "A397873",
+    "A397874",
+    "A397875"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

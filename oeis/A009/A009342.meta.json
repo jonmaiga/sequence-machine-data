@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of log(1+sin(x)/cosh(x)).",
+  "description": "Expansion of e.g.f.: log(1+sin(x)/cosh(x)).",
   "id": "A009342",
   "mentions": [
     "A012816"

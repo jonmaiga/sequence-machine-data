@@ -1,5 +1,5 @@
 {
-  "description": "n^(n^n)-(n^n)^n with 0^0=1.",
+  "description": "a(n) = n^(n^n) - (n^n)^n with 0^0 = 1.",
   "id": "A058124",
   "mentions": [
     "A002488",

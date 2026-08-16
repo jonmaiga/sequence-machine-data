@@ -1,15 +1,21 @@
 {
-  "description": "Sum_{k>=1} 1/(tanh(k*Pi) * k^(4n-1)) = Pi^(4n-1)*A057866(n)/A057867(n).",
+  "description": "Sum_{k>=1} 1/(tanh(k*Pi) * k^(4n-1)) = Pi^(4n-1)*a(n)/A057867(n).",
   "id": "A057866",
   "mentions": [
-    "A057867"
+    "A027641",
+    "A027642",
+    "A057867",
+    "A384962",
+    "A394976"
   ],
   "tags": [
+    "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

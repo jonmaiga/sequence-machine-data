@@ -1,0 +1,19 @@
+{
+  "description": "Number of transitive relations T on an n-element set such that, for some k with 0 < k < |T|, T has no transitive subset with exactly k ordered pairs.",
+  "id": "A397037",
+  "mentions": [
+    "A006905",
+    "A397036"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

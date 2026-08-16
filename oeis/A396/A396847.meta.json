@@ -1,0 +1,15 @@
+{
+  "description": "Infinite nested composition of functions F_n(x) = (x + x^prime(n)) starting with F_1(x) = (x + x^2) and repeating F_{n+1}(x) = F_n(x) + F_n(x)^prime(n+1). Thus, A(x) = ... o (x + x^prime(n)) o ... o (x + x^7) o (x + x^5) o (x + x^3) o (x + x^2), where operator 'o' denotes composition.",
+  "id": "A396847",
+  "mentions": [
+    "A119471"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

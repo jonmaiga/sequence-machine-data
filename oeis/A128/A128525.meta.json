@@ -2,6 +2,7 @@
   "description": "McKay-Thompson series of class 11A for the Monster Group with a(0) = 6.",
   "id": "A128525",
   "mentions": [
+    "A003295",
     "A028160",
     "A032442",
     "A058205"

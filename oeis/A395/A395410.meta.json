@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled maximal 4-degenerate graphs on n vertices.",
+  "id": "A395410",
+  "mentions": [
+    "A273468",
+    "A394820",
+    "A395194"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Base-12 happy numbers.",
+  "id": "A398578",
+  "mentions": [
+    "A007770",
+    "A239320",
+    "A240849",
+    "A318235"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

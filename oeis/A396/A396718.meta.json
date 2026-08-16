@@ -1,0 +1,17 @@
+{
+  "description": "The ones in the binary expansion of a(n) are forbidden in A394166(n).",
+  "id": "A396718",
+  "mentions": [
+    "A394166"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

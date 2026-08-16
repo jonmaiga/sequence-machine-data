@@ -1,9 +1,14 @@
 {
   "description": "Decimal expansion of phi/Pi, where phi = (1+sqrt(5))/2.",
   "id": "A094882",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A094881"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

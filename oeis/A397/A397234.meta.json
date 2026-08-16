@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/(1 - x - x^2 + x^3 - x^5 - x^6).",
+  "id": "A397234",
+  "mentions": [
+    "A397233"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of Sum(i=1..n-1, 1/i^(2*n-1)).",
+  "description": "Denominator of Sum_{i=1..n-1} 1/i^(2*n-1).",
   "id": "A228427",
   "mentions": [
     "A001008",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "joeis"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

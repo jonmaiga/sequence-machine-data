@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions covered by the n-th composition in standard order.",
+  "id": "A395151",
+  "mentions": [
+    "A066099",
+    "A124767",
+    "A333381",
+    "A357625"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

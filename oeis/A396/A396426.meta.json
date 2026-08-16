@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers whose ternary plot has no two pixels within a knights' move's distance of a knight of the opposing color.",
+  "id": "A396426",
+  "mentions": [
+    "A392177",
+    "A394166"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

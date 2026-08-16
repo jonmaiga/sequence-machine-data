@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= (3^n-1)/2, read by rows, where T(n,k) = [x^k] (F_n(x)/x)^(1/2) and F_n(x) is the n-th iteration of x*(1 + x)^2.",
+  "id": "A396276",
+  "mentions": [
+    "A074333",
+    "A122888",
+    "A396277"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

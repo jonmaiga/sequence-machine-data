@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct 5-rough numbers greater than 1 whose sum of reciprocals is 1.",
+  "id": "A397798",
+  "mentions": [
+    "A007310",
+    "A130738",
+    "A397799"
+  ],
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

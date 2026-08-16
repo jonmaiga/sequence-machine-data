@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the expected distance between the center of a unit-side equilateral triangle to a randomly and uniformly selected point on its perimeter.",
+  "id": "A395846",
+  "mentions": [
+    "A065918",
+    "A093064",
+    "A245698",
+    "A245700",
+    "A345653",
+    "A395847",
+    "A395848"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

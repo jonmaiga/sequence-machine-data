@@ -1,0 +1,17 @@
+{
+  "description": "Aspect ratio of the Goode homolosine map projection.",
+  "id": "A395716",
+  "mentions": [
+    "A361260"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

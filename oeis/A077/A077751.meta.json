@@ -2,15 +2,17 @@
   "description": "Smallest cube that begins and ends in n, or 0 if no such cube exists.",
   "id": "A077751",
   "mentions": [
+    "A000578",
     "A077752"
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

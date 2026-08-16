@@ -1,0 +1,19 @@
+{
+  "description": "3-adic valuation of the quadruple factorial of n.",
+  "id": "A397801",
+  "mentions": [
+    "A007662",
+    "A007949",
+    "A397779"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

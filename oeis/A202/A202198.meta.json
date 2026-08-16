@@ -2,15 +2,18 @@
   "description": "Number of (n+2) X 6 binary arrays avoiding patterns 001 and 101 in rows and columns.",
   "id": "A202198",
   "mentions": [
+    "A202195",
+    "A202201",
     "A202202"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 33,
     "source": "joeis"
   }
 }

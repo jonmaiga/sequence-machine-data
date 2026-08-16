@@ -1,0 +1,17 @@
+{
+  "description": "For n <= 6, a(n) = Fibonacci(n); for n >= 7, delete all except the leftmost two digits of Fibonacci(n).",
+  "id": "A395361",
+  "mentions": [
+    "A000045",
+    "A105471"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of transitive relations that are not posets.",
+  "id": "A395256",
+  "mentions": [
+    "A001035",
+    "A006905"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

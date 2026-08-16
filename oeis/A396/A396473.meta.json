@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of g.f. (1 - 4*x^2)/(1 - 2*x - 4*x^2 + 2*x^3).",
+  "id": "A396473",
+  "mentions": [
+    "A000079",
+    "A001911",
+    "A052987",
+    "A396471",
+    "A396474",
+    "A396475",
+    "A396516"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers m such that gcd(m^10 - 1, m! - 1) > 1.",
+  "id": "A395286",
+  "mentions": [
+    "A033312",
+    "A069095"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

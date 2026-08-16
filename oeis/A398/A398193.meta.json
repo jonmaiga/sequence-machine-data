@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n! * [x^n] (T(x) / (1 - T(x)))^(n - k + 1) if k > 0 and delta_{n, 0} if k = 0, where T(x) = -W(-x) is Euler's tree function, and W Lambert's function.",
+  "id": "A398193",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A001864",
+    "A052609",
+    "A308863",
+    "A394436",
+    "A394852"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

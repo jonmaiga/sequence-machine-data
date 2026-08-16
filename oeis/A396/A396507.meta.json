@@ -1,0 +1,23 @@
+{
+  "description": "Number of lattice points inside or on the 10-dimensional hypersphere Sum_{i=1..10} (x_i)^2 = 10^n.",
+  "id": "A396507",
+  "mentions": [
+    "A068785",
+    "A341399",
+    "A373881",
+    "A373882",
+    "A373883",
+    "A373884",
+    "A373885",
+    "A373896"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

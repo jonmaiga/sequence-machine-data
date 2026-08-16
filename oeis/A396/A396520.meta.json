@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 16*(3 + 2*sqrt(3) - 4*sqrt(2))/3.",
+  "id": "A396520",
+  "mentions": [
+    "A010469",
+    "A010487",
+    "A396517",
+    "A396519"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

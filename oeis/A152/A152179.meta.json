@@ -1,10 +1,11 @@
 {
-  "description": "Period 9: repeat 8,2,7,5,5,7,2,8,7.",
+  "description": "Period 9: repeat [8, 2, 7, 5, 5, 7, 2, 8, 7].",
   "id": "A152179",
   "mentions": [
     "A008865"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

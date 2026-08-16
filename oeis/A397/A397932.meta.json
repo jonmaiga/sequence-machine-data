@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k that are neither squarefree nor powerful such that rad(k)*omega(k) = k, where rad = A007947 and omega = A001221.",
+  "id": "A397932",
+  "mentions": [
+    "A001221",
+    "A002808",
+    "A007947",
+    "A053669",
+    "A119288",
+    "A332785",
+    "A361098",
+    "A397221",
+    "A397933",
+    "A397934"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

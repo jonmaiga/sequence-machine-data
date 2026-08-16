@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = r(n,n), where r(1,k)=f(k)=round(k*c), r(n,k)=f(r(n-1,k)), c=sqrt(2).",
+  "id": "A396398",
+  "mentions": [
+    "A002193",
+    "A396385",
+    "A396396",
+    "A396397"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

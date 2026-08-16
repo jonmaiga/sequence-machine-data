@@ -1,17 +1,19 @@
 {
-  "description": "Number of rationally smooth Schubert varieties of type B_n.",
+  "description": "Number of rationally smooth Schubert varieties of type B_n (also type C_n).",
   "id": "A224240",
   "mentions": [
-    "A061539"
+    "A032351",
+    "A061539",
+    "A224066"
   ],
   "tags": [
-    "hard",
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

@@ -1,17 +1,18 @@
 {
-  "description": "a(0) = 5, a(1) = 7; for n>1, a(n) = a(n-1)+a(n-2)-(2n-2).",
+  "description": "a(0) = 5, a(1) = 7; for n>1, a(n) = a(n-1) + a(n-2) - (2*n-2).",
   "id": "A089061",
   "mentions": [
     "A000045",
     "A088981"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 40,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "4-dimensional analog of centered polygonal numbers.",
+  "description": "4-dimensional analog of centered polygonal numbers: a(n) = n*(n-1)*(n^2-n+1)/6.",
   "id": "A006325",
   "mentions": [
     "A000027",

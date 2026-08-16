@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the first step at which the n-th lattice point in counterclockwise square-spiral order becomes an endpoint in a growth process of alternating perpendicular bars starting from one horizontal bar.",
+  "id": "A396877",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

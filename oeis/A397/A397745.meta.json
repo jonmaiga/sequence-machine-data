@@ -1,0 +1,15 @@
+{
+  "description": "Number of assembly trees for the n-ladder graph.",
+  "id": "A397745",
+  "mentions": [
+    "A397746"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

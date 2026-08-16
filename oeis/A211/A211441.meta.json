@@ -2,6 +2,8 @@
   "description": "Number of ordered triples (w,x,y) with all terms in {-n,...,0,...,n} and w + x + y = 2.",
   "id": "A211441",
   "mentions": [
+    "A000217",
+    "A002061",
     "A002378",
     "A003215",
     "A028387",
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 48,
     "source": "oeis-bfile"
   }
 }

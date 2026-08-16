@@ -1,5 +1,5 @@
 {
-  "description": "Least k for which the integers Floor(k*arctan(m)) for m=1,2,...,n are distinct.",
+  "description": "Least k for which the integers floor(k*arctan(m)) for m=1,2,...,n are distinct.",
   "id": "A054059",
   "mentions": [],
   "tags": [

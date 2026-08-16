@@ -1,0 +1,13 @@
+{
+  "description": "Number of finishing sequences of n darts in a game to score exactly 501 points.",
+  "id": "A397852",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

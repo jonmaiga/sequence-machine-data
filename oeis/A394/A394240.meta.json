@@ -1,0 +1,17 @@
+{
+  "description": "Number of regions formed by extending the faces of a regular n-gonal pyramid.",
+  "id": "A394240",
+  "mentions": [
+    "A249333"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of divisors d of n that do not divide n/d - 1.",
+  "id": "A394830",
+  "mentions": [
+    "A000005",
+    "A008578",
+    "A050384",
+    "A142863",
+    "A163671",
+    "A333694",
+    "A391684",
+    "A394362"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

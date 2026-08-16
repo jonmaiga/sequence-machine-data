@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = 6*a(n-1) - 8.",
+  "description": "a(n) = 6*a(n-1) - 8, with a(0) = 4.",
   "id": "A005618",
   "mentions": [
     "A000051",
     "A005608",
-    "A005609"
+    "A005609",
+    "A261399"
   ],
   "tags": [
     "easy",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 24,
     "source": "joeis"
   }
 }

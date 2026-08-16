@@ -1,8 +1,9 @@
 {
-  "description": "Sum of unitary prime divisors of n.",
+  "description": "Sum of the unitary prime divisors of n.",
   "id": "A063956",
   "mentions": [
     "A008472",
+    "A010051",
     "A034387",
     "A034444",
     "A056169",

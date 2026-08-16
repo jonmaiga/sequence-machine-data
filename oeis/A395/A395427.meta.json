@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient of x^(3n)/(3n)! in the Maclaurin expansion of a function g(x,0) associated with the Dixon elliptic functions.",
+  "id": "A395427",
+  "mentions": [
+    "A104133",
+    "A104134",
+    "A381359"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

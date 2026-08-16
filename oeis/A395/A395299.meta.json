@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of expressing A001597(n) = A088865(k) for some k.",
+  "id": "A395299",
+  "mentions": [
+    "A001222",
+    "A001597",
+    "A008472",
+    "A088865"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

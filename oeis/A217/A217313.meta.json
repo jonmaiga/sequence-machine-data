@@ -1,5 +1,5 @@
 {
-  "description": "Numbers for which there exist a base in which n contains more 1's than in binary.",
+  "description": "Numbers for which there exists a base in which n contains more 1's than in binary.",
   "id": "A217313",
   "mentions": [
     "A000120",

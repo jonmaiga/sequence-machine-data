@@ -1,0 +1,22 @@
+{
+  "description": "Numbers divisible by the square but not the cube of their least prime factor.",
+  "id": "A398264",
+  "mentions": [
+    "A020639",
+    "A067029",
+    "A067259",
+    "A247180",
+    "A283050",
+    "A365866",
+    "A365869"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

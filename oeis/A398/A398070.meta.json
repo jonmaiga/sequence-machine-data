@@ -1,0 +1,16 @@
+{
+  "description": "Number of n X n symmetric nonnegative integer matrices with each row sum at most n.",
+  "id": "A398070",
+  "mentions": [
+    "A397931",
+    "A398069"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

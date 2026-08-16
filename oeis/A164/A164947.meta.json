@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that A004090(n)/A060384(n) is an integer.",
+  "description": "Numbers k such that A004090(k)/A060384(k) is an integer.",
   "id": "A164947",
   "mentions": [
+    "A000045",
     "A004090",
     "A060384"
   ],

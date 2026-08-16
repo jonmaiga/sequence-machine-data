@@ -1,5 +1,5 @@
 {
-  "description": "C(2*n+4,4)-C(2*n,4).",
+  "description": "a(n) = binomial(2*n+4,4) - binomial(2*n,4).",
   "id": "A085474",
   "mentions": [
     "A016813",

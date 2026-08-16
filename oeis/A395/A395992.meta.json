@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 20612/6561.",
+  "id": "A395992",
+  "mentions": [
+    "A000796",
+    "A068079",
+    "A210622",
+    "A354617",
+    "A374829",
+    "A375820",
+    "A380152"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

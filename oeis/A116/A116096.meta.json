@@ -2,6 +2,7 @@
   "description": "Numbers k such that k concatenated with k-9 gives the product of two numbers which differ by 4.",
   "id": "A116096",
   "mentions": [
+    "A115433",
     "A116095",
     "A116097",
     "A116104",

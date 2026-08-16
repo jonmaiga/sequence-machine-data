@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = A(x^2) / (1 - 2*x).",
+  "description": "G.f. A(x) satisfies A(x) = A(x^2) / (1 - 2*x), with A(0) = 1.",
   "id": "A309728",
   "mentions": [
     "A001316",

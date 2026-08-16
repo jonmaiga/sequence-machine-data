@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of repeated subset sums among binomial(n, 0), ..., binomial(n, floor((n - 1)/2)).",
+  "id": "A397551",
+  "mentions": [
+    "A007318",
+    "A156700",
+    "A397501",
+    "A397559"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

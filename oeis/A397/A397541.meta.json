@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n+3*k,k).",
+  "id": "A397541",
+  "mentions": [
+    "A002294",
+    "A045721",
+    "A389239",
+    "A390407",
+    "A397538"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

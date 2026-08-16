@@ -1,0 +1,19 @@
+{
+  "description": "O.g.f. satisfies A(x) = exp( x + Sum_{n>=2} (5*n^2 - 1) * a(n)*x^n / (5*n^2) ).",
+  "id": "A397345",
+  "mentions": [
+    "A397242",
+    "A397245",
+    "A397346",
+    "A397348"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

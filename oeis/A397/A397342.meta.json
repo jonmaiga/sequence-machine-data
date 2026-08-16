@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest prime that concatenated with all previous terms of the sequence forms a prime.",
+  "id": "A397342",
+  "mentions": [
+    "A051670",
+    "A379354",
+    "A380010",
+    "A397341"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

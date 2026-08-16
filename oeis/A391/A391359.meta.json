@@ -1,20 +1,19 @@
 {
-  "description": "Rectangular array R read by falling antidiagonals: R(n,k) = (prime(n) + prime(n+k))/2, for n>=2, k>=1.",
+  "description": "a(n) is the period of the first differences of S_n(k) where the sequence S_n(k) is the trajectory of 1 under repeated application of the map: m -> m + n-th-smallest number that does not divide m, or -1 if no such orbit exists.",
   "id": "A391359",
   "mentions": [
-    "A065305",
-    "A391357",
-    "A391358"
+    "A003418",
+    "A140485",
+    "A140490",
+    "A140494"
   ],
   "tags": [
-    "easy",
-    "formulas",
-    "nonn",
-    "tabl"
+    "more",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 67,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

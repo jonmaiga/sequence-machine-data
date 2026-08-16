@@ -6,11 +6,11 @@
     "A383460"
   ],
   "tags": [
-    "nonn"
+    "sign"
   ],
   "terms": {
     "offset": 2,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

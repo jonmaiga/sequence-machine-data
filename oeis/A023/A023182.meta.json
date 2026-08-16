@@ -2,7 +2,8 @@
   "description": "Numbers k such that Fibonacci(k) == 89 (mod k).",
   "id": "A023182",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A002708"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

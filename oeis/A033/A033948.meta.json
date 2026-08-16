@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that have a primitive root (the multiplicative group modulo n is cyclic).",
+  "description": "Numbers that have a primitive root (k such that the multiplicative group modulo k is cyclic).",
   "id": "A033948",
   "mentions": [
     "A000010",

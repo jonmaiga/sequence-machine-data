@@ -1,13 +1,15 @@
 {
-  "description": "A thinks of x in set M; B asks questions: is x in T?; A may lie once but only when true answer is Yes; a(n) is maximal size of M such that B can determine x with <= n questions.",
+  "description": "The one-sided one-lie Rényi-Ulam game: a(n) is the maximum size of a set M such that one can determine a chosen element x with at most n questions of the form \"Is x in T?\" for some set T, when the answer can be a lie once, but only when the true answer is Yes.",
   "id": "A010033",
   "mentions": [],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 27,
+    "offset": 0,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

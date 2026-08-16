@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-tuples (x_1, ..., x_n) of distinct positive integers such that 1/x_1 + 2/x_2 + ... + n/x_n = n.",
+  "id": "A398549",
+  "mentions": [
+    "A378322",
+    "A398550"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

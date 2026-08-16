@@ -1,11 +1,13 @@
 {
-  "description": "Triangle read by rows in which row n lists the parts of the symmetric representation of sigma(n).",
+  "description": "Irregular triangle read by rows in which row n lists the parts of the symmetric representation of sigma(n).",
   "id": "A237270",
   "mentions": [
     "A000203",
+    "A000593",
     "A004125",
     "A023196",
     "A024916",
+    "A038712",
     "A153485",
     "A196020",
     "A221529",
@@ -44,7 +46,8 @@
     "A340035",
     "A380580",
     "A384149",
-    "A384930"
+    "A384930",
+    "A395160"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,20 @@
+{
+  "description": "Primes such that every 2 digit substring is a distinct prime, but the concatenation of the last digit with the first digit is composite.",
+  "id": "A397784",
+  "mentions": [
+    "A000040",
+    "A069488",
+    "A398710"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

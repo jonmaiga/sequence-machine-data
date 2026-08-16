@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of distinct values in the addition triangle with base (a(0), ..., a(n-1)).",
+  "id": "A397741",
+  "mentions": [
+    "A000217"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

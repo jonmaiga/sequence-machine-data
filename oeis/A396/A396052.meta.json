@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers in the odds-only Ulam spiral such that all its four orthogonal neighbors are prime: isolated composites.",
+  "id": "A396052",
+  "mentions": [
+    "A023200",
+    "A046132",
+    "A087679",
+    "A094343",
+    "A167607"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

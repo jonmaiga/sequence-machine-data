@@ -1,10 +1,13 @@
 {
-  "description": "Number of free (2-sided) ouroboros polyominoes with k=2n cells.",
+  "description": "Number of free (2-sided) ouroboros polyominoes with k=2*n cells.",
   "id": "A359706",
   "mentions": [
     "A002013",
+    "A121769",
+    "A122672",
     "A324407",
-    "A359707"
+    "A359707",
+    "A397240"
   ],
   "tags": [
     "more",

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that gcd(i!,k) = gcd((i-1)!,k) for some i <= A002034(k) not coprime to k.",
+  "id": "A395791",
+  "mentions": [
+    "A002034",
+    "A395790"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

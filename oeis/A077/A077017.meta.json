@@ -1,7 +1,9 @@
 {
   "description": "a(1) = 2, a(n+1) = smallest positive integer divisible by the n-th prime that also has a nontrivial common divisor with a(n).",
   "id": "A077017",
-  "mentions": [],
+  "mentions": [
+    "A001747"
+  ],
   "tags": [
     "easy",
     "formulas",

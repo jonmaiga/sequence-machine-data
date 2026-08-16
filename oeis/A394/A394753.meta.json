@@ -1,0 +1,30 @@
+{
+  "description": "Number of k <= m such that rad(k) | m, where rad = A007947 and m = A055932(n).",
+  "id": "A394753",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A001221",
+    "A002110",
+    "A002473",
+    "A003586",
+    "A007947",
+    "A010846",
+    "A025487",
+    "A051037",
+    "A055932",
+    "A162306",
+    "A364225",
+    "A369609",
+    "A376690"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

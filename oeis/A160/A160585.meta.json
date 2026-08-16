@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (520659 +314170*sqrt(2))/521^2.",
+  "description": "Decimal expansion of (520659+314170*sqrt(2))/521^2.",
   "id": "A160585",
   "mentions": [
     "A002193",

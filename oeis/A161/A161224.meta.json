@@ -1,5 +1,5 @@
 {
-  "description": "Triangular table a(n,m) that counts the occurrences of m in all partitions of 2n in exactly n parts.",
+  "description": "Triangular table a(n,m) that counts the occurrences of m in all partitions of 2*n in exactly n parts.",
   "id": "A161224",
   "mentions": [
     "A000041",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (non-null) induced trees in the grid graph P_3 X P_n.",
+  "id": "A398278",
+  "mentions": [
+    "A360202"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Ways to represent n = k + p where p is prime and k > 0 is not squarefree.",
+  "id": "A394500",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

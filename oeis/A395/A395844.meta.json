@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the expected distance of a point uniformly selected at random in the interior of a unit-side equilateral triangle to its farthest vertex.",
+  "id": "A395844",
+  "mentions": [
+    "A065918",
+    "A093064",
+    "A245698",
+    "A245700",
+    "A395843",
+    "A395845"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

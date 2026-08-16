@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both 4*n-1 and 4*n+1 are composite.",
+  "description": "Numbers k such that both 4*k-1 and 4*k+1 are composite.",
   "id": "A217707",
   "mentions": [
     "A045751",

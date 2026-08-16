@@ -1,0 +1,17 @@
+{
+  "description": "Number of feedback vertex sets in the grid graph P_n X P_3.",
+  "id": "A398246",
+  "mentions": [
+    "A398244"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

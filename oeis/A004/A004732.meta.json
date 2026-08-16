@@ -9,13 +9,14 @@
     "A048881"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

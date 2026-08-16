@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the greatest prime dividing A276085(k) is larger than the greatest prime dividing k, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A395054",
+  "mentions": [
+    "A006530",
+    "A276085",
+    "A395044",
+    "A395052",
+    "A395053",
+    "A395055"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

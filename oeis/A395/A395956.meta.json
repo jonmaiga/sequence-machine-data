@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of the n-th moment of the probability distribution of distances from the center of a unit disk to a line passing through two points independently and uniformly selected at random in the disk, divided by Pi if n is odd.",
+  "id": "A395956",
+  "mentions": [
+    "A395953",
+    "A395954",
+    "A395955"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

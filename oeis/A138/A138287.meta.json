@@ -1,5 +1,5 @@
 {
-  "description": "Palindromic period 10: repeat 0, 2, 8, 4, 6, 6, 4, 8, 2, 0.",
+  "description": "Palindromic period 10: repeat [0, 2, 8, 4, 6, 6, 4, 8, 2, 0].",
   "id": "A138287",
   "mentions": [
     "A117616"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 105,
+    "size": 100,
     "source": "joeis"
   }
 }

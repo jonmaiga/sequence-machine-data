@@ -1,7 +1,11 @@
 {
-  "description": "Expansion of (2-6*x)/(1-12*x+11*x^2).",
+  "description": "Expansion of 2*(1 - 3*x)/(1 - 12*x + 11*x^2).",
   "id": "A156341",
-  "mentions": [],
+  "mentions": [
+    "A155049",
+    "A155542",
+    "A157765"
+  ],
   "tags": [
     "easy",
     "formulas",

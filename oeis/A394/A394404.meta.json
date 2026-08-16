@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the generalized continued fraction 1 + sqrt(2)/(2 + sqrt(3)/(3 + sqrt(4)/(4 + sqrt(5)/(5 + ...)))).",
+  "id": "A394404",
+  "mentions": [
+    "A000984",
+    "A002457",
+    "A394902"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

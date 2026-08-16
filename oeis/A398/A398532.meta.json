@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator(Sum_{k=1..n} phi(floor(n/k))/floor(n/k)), where phi is the Euler totient function.",
+  "id": "A398532",
+  "mentions": [
+    "A000010",
+    "A317625",
+    "A398533",
+    "A398534"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

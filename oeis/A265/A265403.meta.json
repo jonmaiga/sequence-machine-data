@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which gcd{k=1..n-1} binomial(2*n, 2*k) = 2n-1.",
+  "description": "Numbers m for which gcd{k=1..m-1} binomial(2*m, 2*k) = 2*m-1.",
   "id": "A265403",
   "mentions": [
     "A265388",

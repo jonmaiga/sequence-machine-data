@@ -1,0 +1,17 @@
+{
+  "description": "The least number k such that the n-th iterate of k under x -> x + omega(x) is the first prime encountered in its trajectory.",
+  "id": "A397949",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A229109"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

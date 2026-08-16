@@ -1,13 +1,15 @@
 {
-  "description": "a(n)=a(n-1)+a(n-4).",
+  "description": "a(n) = a(n-1) + a(n-4).",
   "id": "A014098",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
+    "size": 46,
     "source": "joeis"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "description": "Composite numbers k such that k = rad(k) * lpf(k), where rad = A007947 and lpf is the least prime factor of k.",
+  "id": "A397710",
+  "mentions": [
+    "A001248",
+    "A005117",
+    "A007947",
+    "A008479",
+    "A060687",
+    "A065642",
+    "A067259",
+    "A284311",
+    "A285321",
+    "A332785",
+    "A366825",
+    "A375396",
+    "A397742",
+    "A398264"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

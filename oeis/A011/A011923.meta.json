@@ -1,5 +1,5 @@
 {
-  "description": "[ n(n-1)(n-2)(n-3)/13 ].",
+  "description": "a(n) = floor(n*(n-1)*(n-2)*(n-3)/13).",
   "id": "A011923",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "joeis"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

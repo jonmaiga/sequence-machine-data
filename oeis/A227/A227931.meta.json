@@ -1,11 +1,13 @@
 {
-  "description": "Smallest sets of 5 consecutive primes with equal digital sum. The initial prime is listed.",
+  "description": "Smallest of 5 consecutive primes with equal digital sum.",
   "id": "A227931",
   "mentions": [
     "A066540",
     "A071613",
     "A209396",
-    "A210629"
+    "A210629",
+    "A227933",
+    "A395623"
   ],
   "tags": [
     "base",

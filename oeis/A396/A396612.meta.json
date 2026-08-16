@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the mean distance from the center to the interior points of a regular dodecahedron of unit volume.",
+  "id": "A396612",
+  "mentions": [
+    "A135691",
+    "A394105",
+    "A396610",
+    "A396611",
+    "A396613"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

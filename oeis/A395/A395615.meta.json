@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the integer obtained by inserting the product (modulo 10) of adjacent digits of n between them.",
+  "id": "A395615",
+  "mentions": [
+    "A007954",
+    "A330633",
+    "A395344"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose maximal base-7 run length is 2.",
   "id": "A037989",
-  "mentions": [],
+  "mentions": [
+    "A043093"
+  ],
   "tags": [
     "base",
     "nonn"

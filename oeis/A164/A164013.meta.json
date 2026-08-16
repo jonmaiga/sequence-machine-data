@@ -1,5 +1,5 @@
 {
-  "description": "3 times centered triangular numbers: 9*n*(n+1)/2 + 3.",
+  "description": "3 times centered triangular numbers: a(n) = 9*n*(n+1)/2 + 3.",
   "id": "A164013",
   "mentions": [
     "A005448",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 42,
+    "size": 47,
     "source": "joeis"
   }
 }

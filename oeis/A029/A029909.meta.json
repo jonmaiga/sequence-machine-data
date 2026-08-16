@@ -1,8 +1,9 @@
 {
-  "description": "Starting with n (but omitting the primes), repeatedly sum prime factors (counted with multiplicity) until reaching a limit.",
+  "description": "Starting with each nonprime number (A018252), repeatedly sum prime factors (with multiplicity) until reaching 0 or a fixed point. Then a(n) is the fixed point (or 0).",
   "id": "A029909",
   "mentions": [
     "A006512",
+    "A018252",
     "A029908"
   ],
   "tags": [

@@ -1,0 +1,16 @@
+{
+  "description": "Smallest positive integer k such that n - k is prime and n + k is composite.",
+  "id": "A395561",
+  "mentions": [
+    "A049711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 94,
+    "source": "joeis"
+  }
+}

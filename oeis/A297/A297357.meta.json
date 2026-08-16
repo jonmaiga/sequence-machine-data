@@ -2,7 +2,14 @@
   "description": "Primes p for which pi_{12,7}(p) - pi_{12,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
   "id": "A297357",
   "mentions": [
-    "A297356"
+    "A295353",
+    "A295354",
+    "A297354",
+    "A297355",
+    "A297356",
+    "A297447",
+    "A297448",
+    "A380877"
   ],
   "tags": [
     "nonn"

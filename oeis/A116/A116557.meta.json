@@ -1,19 +1,18 @@
 {
-  "description": "Backward iterated ( limited ) Fibonacci approximation: A000045.",
+  "description": "a(25)=500000, a(n) = floor(a(n+1) * (sqrt(5)-1) / 2).",
   "id": "A116557",
   "mentions": [
     "A000045"
   ],
   "tags": [
-    "formulas",
+    "fini",
+    "full",
     "less",
-    "nonn",
-    "obsc",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

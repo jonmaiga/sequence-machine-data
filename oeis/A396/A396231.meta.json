@@ -1,0 +1,19 @@
+{
+  "description": "Sort digits in descending order then add to original number, repeat, starting with 1.",
+  "id": "A396231",
+  "mentions": [
+    "A004186",
+    "A033860"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

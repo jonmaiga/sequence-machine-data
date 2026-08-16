@@ -1,0 +1,19 @@
+{
+  "description": "Consider the Hilbert curve with its cells numbered starting at 0. Two players take turns and place knights at the smallest unoccupied cell not attacked by an existing knight of the other player; a(n) = k if the n-th cell has been occupied at the k-th turn, a(n) = 0 otherwise.",
+  "id": "A397055",
+  "mentions": [
+    "A392177",
+    "A397052",
+    "A397053",
+    "A397054"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

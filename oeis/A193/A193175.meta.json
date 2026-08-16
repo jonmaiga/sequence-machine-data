@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there exists a two-dimensional generalized Bravais lattice with n-fold symmetry.",
+  "description": "Numbers k such that there exists a two-dimensional generalized Bravais lattice with k-fold symmetry.",
   "id": "A193175",
   "mentions": [
     "A005848",

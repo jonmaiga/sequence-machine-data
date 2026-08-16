@@ -1,14 +1,21 @@
 {
-  "description": "Number of permutations of 1..2*n+9 with no adjacent elements within n in value.",
+  "description": "Number of permutations p of [2*n+9] such that |p(i)-p(i-1)| > n for i>1.",
   "id": "A179967",
-  "mentions": [],
+  "mentions": [
+    "A179962",
+    "A179963",
+    "A179964",
+    "A179965",
+    "A179966",
+    "A322255"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

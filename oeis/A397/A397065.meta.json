@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polyominoes with n cells whose mirror curve consists of a single closed loop.",
+  "id": "A397065",
+  "mentions": [
+    "A000105",
+    "A131482"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

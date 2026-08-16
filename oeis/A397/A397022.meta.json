@@ -1,0 +1,22 @@
+{
+  "description": "Number of free polyominoes with 4n cells that can be tiled by n copies of the S-tetromino; equivalently, the number of n-fold multiples of the S-tetromino, counted up to rotation and reflection.",
+  "id": "A397022",
+  "mentions": [
+    "A000105",
+    "A390620",
+    "A397019",
+    "A397020",
+    "A397021",
+    "A397023"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

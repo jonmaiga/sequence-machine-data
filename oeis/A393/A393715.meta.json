@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = number of triples (x, y, z) such that x^2 + y*z = n, where x, y, z are positive integers with gcd(x, y*z) > 1.",
+  "id": "A393715",
+  "mentions": [
+    "A393710",
+    "A393714"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

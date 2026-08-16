@@ -1,0 +1,18 @@
+{
+  "description": "Odd integers k such that k+2 is prime and the sequence of primes congruent to 2 modulo k is strictly stable under iterated absolute differences (all leading entries equal k).",
+  "id": "A394456",
+  "mentions": [
+    "A040976"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

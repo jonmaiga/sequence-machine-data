@@ -11,11 +11,13 @@
   ],
   "tags": [
     "base",
+    "easy",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 33,
     "source": "joeis"
   }
 }

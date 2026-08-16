@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (21^n - 1)/20 is prime.",
+  "description": "Numbers k such that (21^k - 1)/20 is prime.",
   "id": "A127996",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

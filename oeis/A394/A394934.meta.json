@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest k for which the number of parts of the symmetric representation of sigma of k, SRS(k), is odd and the upper Dyck path of SRS(k) touches the same point on the diagonal as A298856(k).",
+  "id": "A394934",
+  "mentions": [
+    "A014105",
+    "A071562",
+    "A237271",
+    "A237593",
+    "A240542",
+    "A298856",
+    "A394935"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

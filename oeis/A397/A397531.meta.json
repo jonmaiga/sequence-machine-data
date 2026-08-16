@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k,4)/k^2, where H(k,4) = A007410(k)/A007480(k) is the k-th generalized harmonic number of order 4.",
+  "id": "A397531",
+  "mentions": [
+    "A002117",
+    "A007410",
+    "A007480",
+    "A013664"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

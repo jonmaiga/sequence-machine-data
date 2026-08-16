@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the size of the largest subset A of {1, ..., n} such that x does not divide 2*y for each pair of distinct elements x, y in A.",
+  "id": "A394865",
+  "mentions": [
+    "A050292",
+    "A084087"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

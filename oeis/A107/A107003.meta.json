@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 24n + 5.",
+  "description": "Primes of the form 24*k + 5.",
   "id": "A107003",
   "mentions": [
     "A106856",

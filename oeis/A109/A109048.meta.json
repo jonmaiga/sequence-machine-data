@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = lcm(n, 7).",
+  "description": "a(n) = lcm(n,7).",
   "id": "A109048",
   "mentions": [
     "A106608",

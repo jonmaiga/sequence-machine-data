@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of regions that can be formed in the plane by drawing n lollipop (or qoppa) shapes of equal radii.",
+  "id": "A396714",
+  "mentions": [
+    "A130518",
+    "A389608",
+    "A389624"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

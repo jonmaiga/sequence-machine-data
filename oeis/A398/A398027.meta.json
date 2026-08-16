@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed 6-convex polyominoes with perimeter 2*n.",
+  "id": "A398027",
+  "mentions": [
+    "A005436",
+    "A128611",
+    "A398024",
+    "A398025",
+    "A398026",
+    "A398028"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient of S_p(n) in the linear equality by Plouffe for the odd values of the Riemann zeta function, where S_p(n) = Sum_{k>=1} 1/((k^n)*(exp(2*Pi*k)+1)).",
+  "id": "A395748",
+  "mentions": [
+    "A395662",
+    "A395663",
+    "A396050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

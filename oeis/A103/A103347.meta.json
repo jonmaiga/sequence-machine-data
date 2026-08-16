@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of Sum_{k=1..n} 1/k^7 = Zeta(7,n).",
+  "description": "Numerator of Sum_{k=1..n} 1/k^7 = zeta(7,n).",
   "id": "A103347",
   "mentions": [
     "A001008",
@@ -10,6 +10,7 @@
     "A007409",
     "A007410",
     "A007480",
+    "A013665",
     "A069052",
     "A099828",
     "A103345",
@@ -24,7 +25,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

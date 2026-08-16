@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose Hebrew names do not contain the letter \"Shin\" (or \"Sin\").",
+  "description": "Positive numbers whose Hebrew names do not contain the letter \"Shin\" (or \"Sin\").",
   "id": "A104292",
   "mentions": [
     "A072426"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 49,
+    "source": "oeis-bfile"
   }
 }

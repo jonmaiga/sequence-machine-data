@@ -2,6 +2,7 @@
   "description": "List of numbers 2n for which the riffle permutation permutes all except the first and last of the 2n cards.",
   "id": "A217948",
   "mentions": [
+    "A001122",
     "A002326",
     "A051732",
     "A051733",

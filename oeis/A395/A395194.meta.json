@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled minimally 3-rigid graphs on n vertices obtained from 0-extensions.",
+  "id": "A395194",
+  "mentions": [
+    "A273468",
+    "A328419"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

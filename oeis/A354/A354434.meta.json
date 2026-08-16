@@ -6,15 +6,17 @@
     "A253279",
     "A257112",
     "A257339",
-    "A336946"
+    "A336946",
+    "A397168"
   ],
   "tags": [
     "look",
+    "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

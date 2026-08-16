@@ -2,7 +2,8 @@
   "description": "Decimal expansion of least x>0 having cos(2x)=(cos 4x)^2.",
   "id": "A197480",
   "mentions": [
-    "A197476"
+    "A197476",
+    "A380775"
   ],
   "tags": [
     "cons",

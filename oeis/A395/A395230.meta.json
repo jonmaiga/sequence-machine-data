@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of the supersphere |x|^6 + |y|^6 + |z|^6 = 1.",
+  "id": "A395230",
+  "mentions": [
+    "A002161",
+    "A019699",
+    "A175379",
+    "A203126",
+    "A396522",
+    "A396523",
+    "A396524"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,10 @@
 {
-  "description": "Jazz chord substitution: A-minor, C-minor, D-major, G-major Uses a start vector based on these: {1, 4, 6, 11}.",
+  "description": "1-limiting word of the morphism 1-> {1, 4, 8, 11}, 2-> {2, 4, 7, 11}, 3-> {3, 6, 10, 11}, 4->{4, 8, 11, 1}, 5-> {5, 6, 10, 1}, 6-> {6, 10, 1, 5}, 7-> {7, 11, 12, 4}, 8->{8, 11, 1, 4}, 9-> {9, 1, 4, 8}, 10-> {10, 11, 3, 6}, 11->{11, 3, 6, 10}, 12->{12, 4, 7, 11}.",
   "id": "A131517",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,

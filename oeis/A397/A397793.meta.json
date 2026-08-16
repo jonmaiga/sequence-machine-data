@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to tile a 2 X n strip with both bottom corners missing, using squares, dominoes, and Z-shaped tetrominoes.",
+  "id": "A397793",
+  "mentions": [
+    "A397583",
+    "A397792"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "joeis"
+  }
+}

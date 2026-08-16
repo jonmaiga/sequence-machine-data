@@ -2,7 +2,8 @@
   "description": "Multiples of three whose sum of digits is not divisible by 3 until the final digit.",
   "id": "A323422",
   "mentions": [
-    "A008585"
+    "A008585",
+    "A396824"
   ],
   "tags": [
     "base",

@@ -1,7 +1,9 @@
 {
   "description": "Number of minimum connected dominating sets in the n-folded cube graph.",
   "id": "A382299",
-  "mentions": [],
+  "mentions": [
+    "A298114"
+  ],
   "tags": [
     "more",
     "nonn"

@@ -1,17 +1,20 @@
 {
-  "description": "Triangle read by rows: T(n,k) is number of paths from (0,0) to (3n,0) that stay in the first quadrant (but may touch the horizontal axis), consisting of steps u=(1,1), d=(1,-2) and have k peaks (i.e., ud's).",
+  "description": "Triangle read by rows: T(n, k) is number of paths from (0, 0) to (3*n, 0) that stay in the first quadrant (but may touch the horizontal axis), consisting of steps u = (1, 1), d = (1, -2) and have k peaks (i.e., ud's).",
   "id": "A108767",
   "mentions": [
     "A000108",
     "A001263",
     "A001764",
+    "A003168",
     "A010054",
     "A025174",
     "A120986",
     "A132081",
     "A141618",
     "A173020",
-    "A338135"
+    "A291534",
+    "A338135",
+    "A395080"
   ],
   "tags": [
     "formulas",

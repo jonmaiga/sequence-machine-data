@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k,2)/k^7, where H(k,2) = A007406(k)/A007407(k) is the k-th generalized harmonic number of order 2.",
+  "id": "A398122",
+  "mentions": [
+    "A002117",
+    "A007406",
+    "A007407",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013664",
+    "A013665",
+    "A013667",
+    "A238166",
+    "A238167",
+    "A244664",
+    "A397529"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

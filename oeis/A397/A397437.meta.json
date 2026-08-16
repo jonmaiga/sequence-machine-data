@@ -1,0 +1,22 @@
+{
+  "description": "Growth function of the reflection group of a four-dimensional orthoscheme with distinct edge lengths.",
+  "id": "A397437",
+  "mentions": [
+    "A006054",
+    "A008137",
+    "A033303",
+    "A106805",
+    "A396406",
+    "A396927"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

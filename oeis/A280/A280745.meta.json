@@ -1,8 +1,9 @@
 {
-  "description": "Primes p such that A280864(k)=p for some k and A280864(k-1)=m*p for some m>1.",
+  "description": "Primes that end a block of terms in A280864.",
   "id": "A280745",
   "mentions": [
-    "A280864"
+    "A280864",
+    "A396303"
   ],
   "tags": [
     "nonn"

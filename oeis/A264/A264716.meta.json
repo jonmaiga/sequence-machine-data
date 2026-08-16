@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn arrays of permutations of 0..n*3-1 with rows nondecreasing modulo 5 and columns nondecreasing modulo 6.",
+  "description": "Number of 3 X n arrays of permutations of 0..n*3-1 with rows nondecreasing modulo 5 and columns nondecreasing modulo 6.",
   "id": "A264716",
   "mentions": [
     "A264714"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

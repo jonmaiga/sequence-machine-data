@@ -1,7 +1,12 @@
 {
-  "description": "Expansion of (1+6*x)/(1-12*x-8*x^2).",
+  "description": "Expansion of (1 + 6*x)/(1 - 12*x - 8*x^2).",
   "id": "A155073",
-  "mentions": [],
+  "mentions": [
+    "A153709",
+    "A155049",
+    "A157765",
+    "A275903"
+  ],
   "tags": [
     "easy",
     "nonn"

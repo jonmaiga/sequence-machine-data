@@ -13,12 +13,14 @@
   ],
   "tags": [
     "base",
+    "fini",
     "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

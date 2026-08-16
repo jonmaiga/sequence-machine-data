@@ -1,15 +1,14 @@
 {
-  "description": "Let n = abcd...; a,b,c,d,... are digits of n. Define f(a) = bcd..., f(b) = acd..., f(c) = abd... and f(d) = abc..., i.e., f(i) = number obtained by deleting the digit i from n. Then a(n) = Sum f(i) mod i, where i ranges over all the nonzero digits of n.",
+  "description": "Let n = d(1),d(2),...,d(m) be the decimal representation of n and f(k) be the number obtained by deleting all occurrences of digit k from n, then a(n) = Sum_{k=1..m, d(k)!=0} f(d(k)) mod d(k).",
   "id": "A095206",
   "mentions": [],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
-    "offset": 20,
-    "size": 105,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
   }
 }

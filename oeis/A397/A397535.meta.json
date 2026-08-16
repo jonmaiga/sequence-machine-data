@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+3*k-4,k).",
+  "id": "A397535",
+  "mentions": [
+    "A002293",
+    "A088218",
+    "A389239",
+    "A390383",
+    "A390412",
+    "A390471",
+    "A397509",
+    "A397536",
+    "A397537"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

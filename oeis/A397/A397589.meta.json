@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} A396840(n-1,k) * a(k) for n > 0, with a(0) = 1, where A396840(n,k) = H(n)/(H(k)*H(n-k)) and H(n) = Product_{k=0..n} k^k is the hyperfactorial of n (A002109).",
+  "id": "A397589",
+  "mentions": [
+    "A000110",
+    "A002109",
+    "A396840",
+    "A397597"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

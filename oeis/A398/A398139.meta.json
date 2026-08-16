@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that the distinct prime factors of the product m*(m+1)*(m+2) are consecutive primes beginning with 2 (that is, the product is a term of A055932).",
+  "id": "A398139",
+  "mentions": [
+    "A007531",
+    "A007947",
+    "A055932",
+    "A141399",
+    "A385415",
+    "A398140"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

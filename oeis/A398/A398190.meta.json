@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = exp(2 * n) * Gamma(1 + n, 2 * n). Central terms of A398187.",
+  "id": "A398190",
+  "mentions": [
+    "A398187"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

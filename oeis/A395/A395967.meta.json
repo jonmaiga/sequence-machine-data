@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k), n >= 1, 0 <= k <= n-1, read by rows, where T(n,k) = [x^n] x * cycle_index(S_k, B(x)-1), where B(x) is g.f. for A000598.",
+  "id": "A395967",
+  "mentions": [
+    "A000598",
+    "A000599",
+    "A000600",
+    "A000633",
+    "A036669",
+    "A036670",
+    "A063524",
+    "A395968"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

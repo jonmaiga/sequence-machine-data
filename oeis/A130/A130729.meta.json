@@ -1,5 +1,5 @@
 {
-  "description": "Fermat numbers of order 3 or F(n,3) = 2^(2^n)+3.",
+  "description": "Fermat numbers of order 3 or F(n,3) = 2^(2^n) + 3.",
   "id": "A130729",
   "mentions": [
     "A063486",

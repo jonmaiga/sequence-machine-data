@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-isomorphic abelian groups appearing as the sandpile group K(G) of a connected graph on n vertices.",
+  "id": "A395521",
+  "mentions": [
+    "A000055",
+    "A000272",
+    "A001349"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

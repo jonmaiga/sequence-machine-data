@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) = minimal number of terms needed to write k/n (for 1 <= k <= n) as a sum of unit fractions.",
   "id": "A097847",
   "mentions": [
+    "A050205",
     "A097848",
     "A097849",
     "A270429",

@@ -2,7 +2,8 @@
   "description": "Primes p such that p + 6^k is composite for all k >= 0.",
   "id": "A108137",
   "mentions": [
-    "A030433"
+    "A030433",
+    "A045457"
   ],
   "tags": [
     "easy",

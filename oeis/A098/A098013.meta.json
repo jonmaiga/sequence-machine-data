@@ -2,10 +2,13 @@
   "description": "Differences between consecutive primes that are twice primes.",
   "id": "A098013",
   "mentions": [
-    "A100484"
+    "A058620",
+    "A100484",
+    "A151800"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

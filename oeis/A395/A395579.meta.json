@@ -1,0 +1,18 @@
+{
+  "description": "Product of the least factors in all factorizations of n, up to permutation of factors, into factors > 1, a(1) = 1 by convention.",
+  "id": "A395579",
+  "mentions": [
+    "A001055",
+    "A046746"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

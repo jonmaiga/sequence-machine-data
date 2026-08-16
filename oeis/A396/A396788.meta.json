@@ -1,0 +1,18 @@
+{
+  "description": "(10^n)-th brilliant number.",
+  "id": "A396788",
+  "mentions": [
+    "A078972"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

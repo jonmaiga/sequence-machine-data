@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k-th and (k+1)st primes differ by 4.",
+  "description": "Numbers k such that k-th and (k+1)-th primes differ by 4.",
   "id": "A029709",
   "mentions": [
     "A001223",

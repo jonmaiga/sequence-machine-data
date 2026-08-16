@@ -2,7 +2,15 @@
   "description": "Numbers whose base-4 representation has exactly 3 runs.",
   "id": "A043594",
   "mentions": [
-    "A007090"
+    "A007090",
+    "A043825",
+    "A043831",
+    "A043835",
+    "A043840",
+    "A043846",
+    "A043853",
+    "A043861",
+    "A043870"
   ],
   "tags": [
     "base",

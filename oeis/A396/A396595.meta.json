@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct subsets of {2,3,...,n+1} obtainable by choosing exactly one forbidden residue class modulo each k = 2,3,...,n.",
+  "id": "A396595",
+  "mentions": [
+    "A010551"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

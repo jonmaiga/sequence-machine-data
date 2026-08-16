@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the second positive real zero of the Feigenbaum-Cvitanovic period-doubling function g.",
+  "id": "A397598",
+  "mentions": [
+    "A006890",
+    "A006891",
+    "A119277"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

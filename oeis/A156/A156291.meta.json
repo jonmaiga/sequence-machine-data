@@ -1,18 +1,18 @@
 {
-  "description": "A triangle sequence of Cyclotomic products: t(n,m)=Product[Cyclotomic[k, m + 1], {k, 1, n}].",
+  "description": "Triangle read by rows: T(n,m) = Product_{k=1..n} Phi(k, m+1) where Phi(k,m) is the k-th cyclotomic polynomial evaluated at m.",
   "id": "A156291",
   "mentions": [
     "A156173"
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

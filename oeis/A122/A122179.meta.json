@@ -2,15 +2,20 @@
   "description": "Number of ways to write n as n = x*y*z with 1",
   "id": "A122179",
   "mentions": [
+    "A007425",
+    "A010057",
     "A033942",
     "A034836",
     "A037143",
+    "A038548",
+    "A046951",
     "A088432",
     "A088433",
     "A088434",
     "A122180"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "Primes prime(k) such that the sum of the k primes beginning with prime(k) is prime.",
+  "id": "A397067",
+  "mentions": [
+    "A000040",
+    "A013917",
+    "A161463",
+    "A397068",
+    "A397069"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

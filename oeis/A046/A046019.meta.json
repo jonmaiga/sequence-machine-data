@@ -1,5 +1,5 @@
 {
-  "description": "a(n) gives the number of different powers m^n for which the sum of the digits is equal to m.",
+  "description": "a(n) gives the number of different powers m^n for which the sum of the digits is equal to m > 0.",
   "id": "A046019",
   "mentions": [
     "A046471",

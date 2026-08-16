@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that Product_{i=0..n} (k-i) divides C(2k,k).",
+  "description": "Smallest k such that Product_{i=0..n} (k-i) divides C(2*k,k).",
   "id": "A375077",
   "mentions": [
     "A000984",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

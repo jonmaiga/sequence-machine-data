@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0; thereafter, a(n+1) = (a(n) - 2)^2 - n.",
+  "description": "a(0) = 0; thereafter, a(n) = (a(n - 1) - 2)^2 - n.",
   "id": "A143984",
   "mentions": [
     "A143985"

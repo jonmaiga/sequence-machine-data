@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with the number moved left exceeding the number moved right by 0 or more.",
+  "description": "Number of permutations of [n] with the number moved left exceeding the number moved right by 0 or more.",
   "id": "A179566",
   "mentions": [
     "A062866",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

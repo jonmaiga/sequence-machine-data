@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) = B^4(x), the fourth iteration of B(x) = x/(1-x)^2.",
+  "id": "A396094",
+  "mentions": [
+    "A030267",
+    "A119821",
+    "A396093"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

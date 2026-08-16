@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (129 +44*sqrt(2))/113.",
+  "description": "Decimal expansion of (129 + 44*sqrt(2))/113.",
   "id": "A161480",
   "mentions": [
     "A002193",

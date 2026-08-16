@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that x^2 + x - k attains a record Hardy-Littlewood constant.",
+  "id": "A394750",
+  "mentions": [
+    "A221712",
+    "A331940",
+    "A331942",
+    "A331947"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

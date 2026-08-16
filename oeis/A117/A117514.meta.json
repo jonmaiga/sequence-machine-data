@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways of arranging 2n tokens in a row, with 2 copies of each token from 1 through n, such that the first token is a 1 and between every pair of tokens labeled i (i=1..n) there is exactly one taken labeled (i+1 mod n).",
+  "description": "Number of ways of arranging 2n tokens in a row, with 2 copies of each token from 1 through n, such that the first token is a 1 and between every pair of tokens labeled i (i=1..n) there is exactly one token labeled (i+1 mod n).",
   "id": "A117514",
   "mentions": [
     "A002105",
@@ -7,6 +7,7 @@
     "A117515"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

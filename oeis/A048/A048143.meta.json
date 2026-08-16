@@ -2,6 +2,7 @@
   "description": "Number of labeled connected simplicial complexes with n nodes.",
   "id": "A048143",
   "mentions": [
+    "A000372",
     "A000666",
     "A006126",
     "A030019",
@@ -16,13 +17,14 @@
     "A285572"
   ],
   "tags": [
+    "formulas",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

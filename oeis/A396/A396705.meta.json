@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} ((2*k-1)!! / (2^(k+1) * (k+1)!)) * zeta(2*k+1).",
+  "id": "A396705",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

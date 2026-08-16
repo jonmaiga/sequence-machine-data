@@ -1,0 +1,32 @@
+{
+  "description": "The number of n-colorings of the vertices of the truncated cuboctahedron up to rotation.",
+  "id": "A396986",
+  "mentions": [
+    "A128766",
+    "A199406",
+    "A252704",
+    "A252705",
+    "A274900",
+    "A274901",
+    "A337963",
+    "A378473",
+    "A378474",
+    "A378475",
+    "A378476",
+    "A378477",
+    "A378478",
+    "A395240",
+    "A396861",
+    "A396913"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

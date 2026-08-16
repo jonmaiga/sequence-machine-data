@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the coefficient of Pi^(4n+1) in Plouffe's formula for zeta(4n+1).",
+  "id": "A395448",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A057867",
+    "A394977",
+    "A395447"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Floor(Li(2n) - Li(n)).",
+  "description": "a(n) = floor(Li(2n) - Li(n)).",
   "id": "A108955",
   "mentions": [],
   "tags": [

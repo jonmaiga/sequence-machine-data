@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution of superfactorials (A000178).",
+  "id": "A397718",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A397715",
+    "A397717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

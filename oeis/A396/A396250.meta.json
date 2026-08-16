@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ternary sequences of length n with characteristic value 0, as is defined in comments.",
+  "id": "A396250",
+  "mentions": [
+    "A000120",
+    "A396251",
+    "A396614"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

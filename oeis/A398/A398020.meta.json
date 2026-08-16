@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of -Sum_{k>=1} lambda(k) * theta(k) * log(k) / k^2, where lambda is Liouville's function (A008836), and theta(k) is the number of unitary divisors of k (A034444).",
+  "id": "A398020",
+  "mentions": [
+    "A008836",
+    "A034444",
+    "A073002",
+    "A074962",
+    "A158522",
+    "A243263",
+    "A398012",
+    "A398019"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

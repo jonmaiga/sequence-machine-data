@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of e^2/(e^LambertW(e^2) + e^2).",
+  "id": "A395325",
+  "mentions": [
+    "A001113",
+    "A072334",
+    "A226571",
+    "A392073"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

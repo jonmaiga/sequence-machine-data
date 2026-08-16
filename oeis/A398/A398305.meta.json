@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations sigma of {1..n} such that sigma(i)+i is squarefree for all i.",
+  "id": "A398305",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A073364",
+    "A095986",
+    "A096901",
+    "A392408"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

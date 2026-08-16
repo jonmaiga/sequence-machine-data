@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the spectral radius of the matrix L[p_i, p_j] = 1/lcm(p_i, p_j), indexed over all primes p_i, p_j.",
+  "id": "A396695",
+  "mentions": [
+    "A013661",
+    "A085548"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

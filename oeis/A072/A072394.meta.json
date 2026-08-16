@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n)=reversal(n)-n.",
+  "description": "Numbers k such that sigma(k)=reversal(k)-k.",
   "id": "A072394",
   "mentions": [
     "A072234",

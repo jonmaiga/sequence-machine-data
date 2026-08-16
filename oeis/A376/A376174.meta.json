@@ -1,7 +1,8 @@
 {
-  "description": "E.g.f. A(x) satisfies: A'(x) = 1 + A(x)*A'(x)^4.",
+  "description": "E.g.f. A(x) satisfies A'(x) = 1 + A(x)*A'(x)^4.",
   "id": "A376174",
   "mentions": [
+    "A001147",
     "A002293",
     "A180254",
     "A376175"

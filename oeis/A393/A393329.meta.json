@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution of the sequence b(n) = A004187(n) = F(4*n)/3, where F(n) are Fibonacci numbers.",
+  "id": "A393329",
+  "mentions": [
+    "A000045",
+    "A004187",
+    "A395431"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

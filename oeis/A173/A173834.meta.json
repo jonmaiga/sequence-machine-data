@@ -1,7 +1,10 @@
 {
-  "description": "a(n)=10^n-2*n.",
+  "description": "a(n) = 10^n - 2*n.",
   "id": "A173834",
-  "mentions": [],
+  "mentions": [
+    "A005843",
+    "A011557"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

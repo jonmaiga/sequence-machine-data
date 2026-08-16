@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=0..n} Sum_{j=0..i} binomial(n+2*i,3*i) * binomial(i+2*j,3*j).",
+  "id": "A393908",
+  "mentions": [
+    "A052544",
+    "A166482",
+    "A396208",
+    "A396209",
+    "A396242"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

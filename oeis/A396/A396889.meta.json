@@ -1,0 +1,18 @@
+{
+  "description": "Number of polynomials f(x) of degree <= n with f(0) = 1 and coefficients in {0, 1, ..., n} such that f(k) is prime for all k = 1, 2, ..., n.",
+  "id": "A396889",
+  "mentions": [
+    "A001620"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: exp(Sum_{k>=1} binomial(4*k,k)^2 * x^k/k).",
+  "id": "A398090",
+  "mentions": [
+    "A224734",
+    "A364510",
+    "A398085",
+    "A398091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

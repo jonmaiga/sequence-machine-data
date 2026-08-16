@@ -1,0 +1,18 @@
+{
+  "description": "Records of A398031.",
+  "id": "A398206",
+  "mentions": [
+    "A398031"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

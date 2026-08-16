@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary words x of length n such that for every prefix of length k, the product of j+1 over all positions j where x_j=1 is at most 2^k.",
+  "id": "A394165",
+  "mentions": [
+    "A298072"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "a(n) is the least k such that n is the sum of a prime and k powers of 2.",
   "id": "A387053",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A098237"
   ],
   "tags": [
     "formulas",

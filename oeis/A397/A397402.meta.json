@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of 1,2,...,n satisfying p(i+2)-p(i)<>3 for all 1<=i<=n-2.",
+  "id": "A397402",
+  "mentions": [
+    "A189281",
+    "A189282",
+    "A189283",
+    "A189284"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -5,17 +5,18 @@
     "A046955",
     "A080142",
     "A092328",
+    "A097545",
+    "A097546",
     "A265735",
     "A325158",
     "A337248"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "joeis"
   }
 }

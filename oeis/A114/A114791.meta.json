@@ -1,9 +1,10 @@
 {
-  "description": "Consider the array T where the element at T(r,c) is the number of n-almost primes less than or equal to 2^m. Sequence read by successive columns beginning at r=c.",
+  "description": "Array T where T(n,m), n >= 1, 1 <= m <= n, is the number of n-almost primes less than or equal to 2^m. Array read by columns upwards beginning at n = m.",
   "id": "A114791",
   "mentions": [
     "A007053",
-    "A052130"
+    "A052130",
+    "A092479"
   ],
   "tags": [
     "formulas",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 76,
+    "size": 78,
     "source": "oeis-entry"
   }
 }

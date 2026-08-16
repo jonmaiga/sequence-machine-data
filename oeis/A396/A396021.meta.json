@@ -1,0 +1,26 @@
+{
+  "description": "Sum of the distinct prime divisors of C(10*n, n).",
+  "id": "A396021",
+  "mentions": [
+    "A008472",
+    "A034387",
+    "A169959",
+    "A394454",
+    "A394591",
+    "A394592",
+    "A394593",
+    "A395503",
+    "A395515",
+    "A395566",
+    "A396020"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

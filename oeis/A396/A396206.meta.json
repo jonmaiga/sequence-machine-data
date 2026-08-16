@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest number > 3^(n-1) with exactly n divisors.",
+  "id": "A396206",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000040",
+    "A000351",
+    "A001248",
+    "A005179",
+    "A030514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

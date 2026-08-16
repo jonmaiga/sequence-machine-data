@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime^2 closest to prime(n)^3.",
+  "id": "A397790",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A002821",
+    "A030078",
+    "A077118",
+    "A397789"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

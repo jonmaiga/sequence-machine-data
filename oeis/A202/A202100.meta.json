@@ -1,8 +1,13 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays avoiding patterns 001 and 011 in rows and columns.",
+  "description": "Square array read by antidiagonals: T(n,k) = Number of (n+2) X (k+2) binary arrays avoiding patterns 001 and 011 in rows and columns.",
   "id": "A202100",
-  "mentions": [],
+  "mentions": [
+    "A202092",
+    "A202093",
+    "A202099"
+  ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

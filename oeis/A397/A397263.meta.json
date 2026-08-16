@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = min {nextprime(n^2)-n^2, (n+1)^2-prevprime((n+1)^2)}: distance of the primes in the interval [n^2, (n+1)^2] from its border.",
+  "id": "A397263",
+  "mentions": [
+    "A007917",
+    "A007918",
+    "A014085",
+    "A053000",
+    "A056927",
+    "A060272",
+    "A151799",
+    "A151800",
+    "A350100"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

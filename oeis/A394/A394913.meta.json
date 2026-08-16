@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of sides of the highest-sided polygonal face in Johnson solid J_n.",
+  "id": "A394913",
+  "mentions": [
+    "A242731",
+    "A394912"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

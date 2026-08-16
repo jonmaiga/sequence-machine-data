@@ -1,0 +1,25 @@
+{
+  "description": "Divisors of the order of the Lyons group, |Ly| = 51765179004000000.",
+  "id": "A395850",
+  "mentions": [
+    "A001228",
+    "A027750",
+    "A174601",
+    "A174670",
+    "A395630",
+    "A395851",
+    "A395852"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

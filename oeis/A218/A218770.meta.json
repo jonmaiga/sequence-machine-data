@@ -2,10 +2,13 @@
   "description": "Smallest number which when multiplied by n gives a pandigital number.",
   "id": "A218770",
   "mentions": [
-    "A171102"
+    "A061604",
+    "A171102",
+    "A328291"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

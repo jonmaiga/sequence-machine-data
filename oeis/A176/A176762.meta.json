@@ -1,10 +1,12 @@
 {
-  "description": "Smallest number that takes n steps to reach a cycle under iteration of sum-of-squares-of-digits map.",
+  "description": "Smallest positive integer that takes n steps to reach a cycle under iteration of the sum-of-squares-of-digits map A003132.",
   "id": "A176762",
   "mentions": [
     "A001273",
     "A003001",
+    "A003132",
     "A045646",
+    "A080709",
     "A094406"
   ],
   "tags": [

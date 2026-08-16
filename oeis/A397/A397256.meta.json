@@ -1,0 +1,26 @@
+{
+  "description": "Square array T(n,k) = product of digits of k >= 1 in base n >= 2, read by falling antidiagonals.",
+  "id": "A397256",
+  "mentions": [
+    "A007954",
+    "A036987",
+    "A309788",
+    "A309953",
+    "A309954",
+    "A309956",
+    "A309957",
+    "A309958",
+    "A309959"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

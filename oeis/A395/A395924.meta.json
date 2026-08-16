@@ -1,0 +1,17 @@
+{
+  "description": "Number of rectangular plane partitions of n with exactly 2 rows.",
+  "id": "A395924",
+  "mentions": [
+    "A323429",
+    "A395923"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -2,10 +2,14 @@
   "description": "Inverse of A054238.",
   "id": "A054239",
   "mentions": [
-    "A054238"
+    "A000217",
+    "A054238",
+    "A059906",
+    "A393253"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

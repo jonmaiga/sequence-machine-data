@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=2^(2^n)+33, Fermat numbers of order 33.",
+  "description": "a(n) = 2^(2^n) + 33, Fermat numbers of order 33.",
   "id": "A160021",
   "mentions": [
     "A001146",
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 9,
     "source": "oeis-bfile"
   }

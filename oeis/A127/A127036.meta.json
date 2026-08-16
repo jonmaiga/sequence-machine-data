@@ -1,22 +1,22 @@
 {
-  "description": "a(n) = maximal value of m such that 17^m divides n! (17^m <= n!).",
+  "description": "Maximal value of m such that 17^m <= n! : a(n) = floor( log(n!) / log(17) ).",
   "id": "A127036",
   "mentions": [
     "A067850",
-    "A127031",
     "A127032",
     "A127033",
     "A127034",
     "A127035",
     "A127037",
+    "A127038",
     "A127039"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 60,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
   }
 }

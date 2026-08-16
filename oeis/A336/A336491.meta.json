@@ -2,11 +2,14 @@
   "description": "Consider the figure made up of a row of n adjacent congruent rectangles, with diagonals of all possible rectangles drawn; a(n) = number of interior vertices where exactly five lines cross.",
   "id": "A336491",
   "mentions": [
+    "A018812",
+    "A333275",
     "A334701",
     "A336489",
     "A336490"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,25 @@
+{
+  "description": "Squarefree numbers k with m distinct prime factors, such that gpf(k) < lpf(k)^m, where gpf = A006530 and lpf = A020639.",
+  "id": "A393644",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A002110",
+    "A005117",
+    "A006530",
+    "A020639",
+    "A079047",
+    "A120944",
+    "A138109",
+    "A384000"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

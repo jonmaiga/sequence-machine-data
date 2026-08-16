@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(F(x)), where F(x) is the e.g.f. of A396996.",
+  "id": "A396997",
+  "mentions": [
+    "A233335",
+    "A396996",
+    "A397001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

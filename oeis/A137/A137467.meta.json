@@ -1,18 +1,16 @@
 {
-  "description": "a(n) = i + j - k, where n = p(i) + p(j) - p(k), such that p(i), p(j), and p(k) are distinct primes, i + j - k = minimum, and n >= 3.",
+  "description": "Least a(n) = i + j - k such that n = prime(i) + prime(j) - prime(k) >= 3, where prime(i), prime(j), and prime(k) are distinct primes.",
   "id": "A137467",
   "mentions": [
     "A000040",
     "A038134"
   ],
   "tags": [
-    "easy",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 7,
+    "size": 86,
     "source": "oeis-entry"
   }
 }

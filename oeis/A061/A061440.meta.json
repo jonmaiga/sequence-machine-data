@@ -1,18 +1,25 @@
 {
-  "description": "Denominators in the series for Bessel function J9(x).",
+  "description": "Denominators of coefficients of odd powers of x of the expansion of Bessel function J_9(x).",
   "id": "A061440",
   "mentions": [
     "A002474",
     "A002506",
-    "A014401"
+    "A014401",
+    "A061403",
+    "A061404",
+    "A061405",
+    "A061406",
+    "A061407",
+    "A061441"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "oeis-bfile"
   }
 }

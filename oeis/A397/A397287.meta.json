@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = k*(k + n)^(n - 1) for n > 0 and T(0, k) = 1.",
+  "id": "A397287",
+  "mentions": [
+    "A000272",
+    "A193678",
+    "A232006"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

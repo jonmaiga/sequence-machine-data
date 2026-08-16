@@ -1,0 +1,16 @@
+{
+  "description": "The primes where a new line is drawn in A394972.",
+  "id": "A395217",
+  "mentions": [
+    "A000040",
+    "A394972"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

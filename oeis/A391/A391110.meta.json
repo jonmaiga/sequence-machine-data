@@ -1,5 +1,5 @@
 {
-  "description": "Euler's totient function on Gaussian integers: number of elements in a reduced system of residues modulo a + b*sqrt(-1).",
+  "description": "Number of elements in a reduced system of residues modulo x + y*i, i = sqrt(-1), for integers x and y as defined in the comments.",
   "id": "A391110",
   "mentions": [
     "A000010",
@@ -15,8 +15,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 71,
-    "source": "oeis-entry"
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

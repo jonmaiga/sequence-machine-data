@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of numbers T(n,k) = H(n)/(H(k)*H(n-k)) read by rows as k = 0..n for row n >= 0, where H(n) = Product_{k=0..n} k^k is the hyperfactorial of n (A002109).",
+  "id": "A396840",
+  "mentions": [
+    "A002109",
+    "A193520",
+    "A396841",
+    "A396842"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

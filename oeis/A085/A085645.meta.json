@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number having n divisors ending with 1 or 9.",
+  "description": "Smallest number having exactly n divisors ending with 1 or 9.",
   "id": "A085645",
   "mentions": [
     "A331029",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

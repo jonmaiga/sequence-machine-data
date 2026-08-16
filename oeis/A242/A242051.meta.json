@@ -2,8 +2,12 @@
   "description": "Decimal expansion of B, a constant appearing in the asymptotic number of integers the prime factorization of which has decreasing exponents.",
   "id": "A242051",
   "mentions": [
+    "A000607",
     "A001620",
-    "A073002"
+    "A013661",
+    "A073002",
+    "A085089",
+    "A335006"
   ],
   "tags": [
     "cons",

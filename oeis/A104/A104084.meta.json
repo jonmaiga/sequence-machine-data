@@ -1,7 +1,9 @@
 {
   "description": "Smallest prime >= 7^n.",
   "id": "A104084",
-  "mentions": [],
+  "mentions": [
+    "A063767"
+  ],
   "tags": [
     "easy",
     "nonn"

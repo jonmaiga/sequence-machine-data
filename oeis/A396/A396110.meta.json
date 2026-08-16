@@ -1,0 +1,19 @@
+{
+  "description": "Number of digraphs on n labeled nodes such that every node is reachable from node 1.",
+  "id": "A396110",
+  "mentions": [
+    "A003028",
+    "A003030",
+    "A350360",
+    "A351052"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

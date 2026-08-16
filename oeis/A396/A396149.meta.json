@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected graphs on n vertices where every edge is part of at least one triangle.",
+  "id": "A396149",
+  "mentions": [
+    "A001349"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

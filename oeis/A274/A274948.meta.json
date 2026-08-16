@@ -2,11 +2,13 @@
   "description": "Irregular triangle read by rows: T(n,k) (n>=1, 0 <= k <= n^2) = maximal number of squares not attacked by any arrangement of k queens on an n X n board = n^2 - A274947(n,k).",
   "id": "A274948",
   "mentions": [
-    "A247947",
+    "A001366",
     "A250000",
-    "A274947"
+    "A274947",
+    "A342151"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

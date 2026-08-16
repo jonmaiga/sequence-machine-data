@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..5 arrays with some element plus some horizontally or vertically adjacent neighbor totalling five exactly once.",
+  "description": "Number of n X 4 0..5 arrays with some element plus some horizontally or vertically adjacent neighbor totalling five exactly once.",
   "id": "A269763",
   "mentions": [
     "A269767"

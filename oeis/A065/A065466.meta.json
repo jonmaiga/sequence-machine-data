@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Product_{p prime} (1 - 1/(p^3*(p+1))).",
   "id": "A065466",
   "mentions": [
+    "A000005",
     "A001692",
     "A078085"
   ],

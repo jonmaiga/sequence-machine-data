@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of partitions of n into distinct parts that contain a subset whose product is n.",
+  "id": "A395190",
+  "mentions": [
+    "A000009",
+    "A000961",
+    "A045778"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

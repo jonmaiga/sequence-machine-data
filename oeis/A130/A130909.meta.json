@@ -1,5 +1,5 @@
 {
-  "description": "Simple periodic sequence (n mod 16).",
+  "description": "Period 16: repeat [0, 1, 2, ..., 15]; a(n) = n mod 16.",
   "id": "A130909",
   "mentions": [
     "A000035",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 90,
+    "size": 96,
     "source": "joeis"
   }
 }

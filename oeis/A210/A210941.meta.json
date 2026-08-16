@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which row n lists the parts > 1 of the n-th zone of the shell model of partitions, with a(1) = 1.",
+  "description": "Triangle read by rows in which row n lists the parts > 1 of the n-th zone of the modular table of partitions, with a(1) = 1.",
   "id": "A210941",
   "mentions": [
     "A135010",

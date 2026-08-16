@@ -1,5 +1,5 @@
 {
-  "description": "Row sums of A139621, number of connected directed multigraphs with loops and no vertex of degree 0, with n arcs.",
+  "description": "Row sums of A139621, number of connected directed multigraphs with loops, with n arcs.",
   "id": "A137975",
   "mentions": [
     "A052171",

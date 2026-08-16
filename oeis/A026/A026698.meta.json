@@ -1,5 +1,5 @@
 {
-  "description": "T(n,[ n/2 ]), T given by A026692.",
+  "description": "a(n) = T(n,[ n/2 ]), T given by A026692.",
   "id": "A026698",
   "mentions": [
     "A026692"

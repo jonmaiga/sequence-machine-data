@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows in which the row n lists the partition of n into the minimum number of prime parts, chosen greedily in decreasing order.",
+  "id": "A395928",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A051034",
+    "A335285",
+    "A354762"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "joeis"
+  }
+}

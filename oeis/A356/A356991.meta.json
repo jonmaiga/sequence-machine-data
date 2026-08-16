@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = b(n) + b(n - b(n)) for n >= 2, where b(n) = A356998(n).",
+  "description": "a(n) = b(n) + b(n - b(n)) for n >= 2, where b(n) = A356988(n).",
   "id": "A356991",
   "mentions": [
     "A000032",
@@ -19,6 +19,6 @@
   "terms": {
     "offset": 2,
     "size": 92,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

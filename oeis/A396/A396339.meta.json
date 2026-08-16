@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations p of [n] whose prefix sums Sum_{i=1..k} p(i) avoid triangular numbers for 1 <= k < n.",
+  "id": "A396339",
+  "mentions": [
+    "A000217",
+    "A395652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

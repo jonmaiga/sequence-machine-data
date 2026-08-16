@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Integral_{0..1} Li_2(x)^4 dx, where Li_2 is the dilogarithm function.",
+  "id": "A397548",
+  "mentions": [
+    "A249651",
+    "A397545"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

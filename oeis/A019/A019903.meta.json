@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of tangent of 5 degrees.",
   "id": "A019903",
-  "mentions": [],
+  "mentions": [
+    "A019983"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

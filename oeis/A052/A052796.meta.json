@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. x^4*exp(x)^2.",
   "id": "A052796",
   "mentions": [
+    "A003472",
     "A090802"
   ],
   "tags": [

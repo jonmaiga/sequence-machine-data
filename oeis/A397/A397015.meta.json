@@ -1,0 +1,15 @@
+{
+  "description": "Number of distinct sequences of reversible necklaces that can be obtained by replacing n white beads with black beads, one bead at a time.",
+  "id": "A397015",
+  "mentions": [
+    "A003322"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

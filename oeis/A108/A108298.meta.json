@@ -1,10 +1,15 @@
 {
-  "description": "Sum of the first 10^n terms in A097975. a(n) = sum_{m=1..10^n} t(m), where t(m) is the sum of the prime divisors of m that are greater than or equal to sqrt(m).",
+  "description": "Sum of the first 10^n terms in A097975. a(n) = Sum_{m=1..10^n} t(m), where t(m) is the sum of the prime divisors of m that are greater than or equal to sqrt(m).",
   "id": "A108298",
   "mentions": [
-    "A097975"
+    "A024924",
+    "A046731",
+    "A081738",
+    "A097975",
+    "A136021"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

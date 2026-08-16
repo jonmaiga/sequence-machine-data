@@ -1,0 +1,17 @@
+{
+  "description": "The positive integers ordered by decreasing values of n -> prime(n+1)/prime(n).",
+  "id": "A397820",
+  "mentions": [
+    "A000720",
+    "A130789"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

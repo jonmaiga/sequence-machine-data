@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose decimal representation begins with their hexadecimal representation.",
+  "id": "A396204",
+  "mentions": [
+    "A154794",
+    "A227549"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

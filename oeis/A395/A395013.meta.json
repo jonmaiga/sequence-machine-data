@@ -1,0 +1,23 @@
+{
+  "description": "Deficient numbers k for which the k-th Fibonacci number is abundant.",
+  "id": "A395013",
+  "mentions": [
+    "A000045",
+    "A005100",
+    "A005101",
+    "A074316",
+    "A074317",
+    "A074726",
+    "A395014"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

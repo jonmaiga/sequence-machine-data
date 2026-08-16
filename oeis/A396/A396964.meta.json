@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (-1)*Integral_{x=0..1} log(-log(x))/(1 + x^2 + 2*x*cos(4)) dx.",
+  "id": "A396964",
+  "mentions": [
+    "A396976"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Position where binary expansion of n starts in the binary Champernowne sequence A030190.",
+  "description": "Position where the row corresponding to the binary expansion of n starts in the (flattened) binary Champernowne triangle A030190.",
   "id": "A296349",
   "mentions": [
+    "A001855",
     "A030190",
     "A030302",
     "A070939",
@@ -11,11 +12,12 @@
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

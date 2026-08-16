@@ -1,7 +1,9 @@
 {
   "description": "Let [n] = {0,...,n-1}; a(n) is number of functions f:[n] -> [n] for which there exists an injection g:[n] -> [n+1] such that for j with 0 <= j < n, either g(j) = f(j) or g(j) = f(j)+1.",
   "id": "A028498",
-  "mentions": [],
+  "mentions": [
+    "A387083"
+  ],
   "tags": [
     "formulas",
     "nonn"

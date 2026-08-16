@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple double-toroidal graphs on n nodes.",
+  "id": "A395155",
+  "mentions": [
+    "A005470",
+    "A319114",
+    "A394215",
+    "A397840"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

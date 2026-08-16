@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2, k in A030059} log(k) / k^2.",
+  "id": "A398016",
+  "mentions": [
+    "A030059",
+    "A088245",
+    "A398014",
+    "A398015",
+    "A398017"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

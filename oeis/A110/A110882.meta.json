@@ -2,6 +2,7 @@
   "description": "a(n) is the least integer x such that x^n < 2 * (x-1)^n.",
   "id": "A110882",
   "mentions": [
+    "A072633",
     "A078607"
   ],
   "tags": [

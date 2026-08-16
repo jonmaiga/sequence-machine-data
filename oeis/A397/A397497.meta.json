@@ -1,0 +1,19 @@
+{
+  "description": "Primes in A397496, in order of appearance.",
+  "id": "A397497",
+  "mentions": [
+    "A000040",
+    "A397496"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

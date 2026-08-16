@@ -1,5 +1,5 @@
 {
-  "description": "Decimal encoding of digraph topologies.",
+  "description": "Digraph topologies, represented through the number whose nonzero bits correspond to the open sets in the topology.",
   "id": "A101620",
   "mentions": [
     "A000798",
@@ -8,14 +8,13 @@
     "A074486"
   ],
   "tags": [
-    "base",
-    "more",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 35,
+    "offset": 0,
+    "size": 51,
     "source": "oeis-entry"
   }
 }

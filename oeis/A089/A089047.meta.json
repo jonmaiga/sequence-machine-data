@@ -1,5 +1,5 @@
 {
-  "description": "Edge length of largest square dissectable into up to n squares in Mrs. Perkins's quilt problem.",
+  "description": "Edge length of largest square dissectible into up to n squares in Mrs. Perkins's quilt problem.",
   "id": "A089047",
   "mentions": [
     "A005670",

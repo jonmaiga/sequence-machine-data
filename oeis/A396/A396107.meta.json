@@ -1,0 +1,20 @@
+{
+  "description": "Recamán transform of the running sum of the decimal digits of Pi (A046974).",
+  "id": "A396107",
+  "mentions": [
+    "A005132",
+    "A046974",
+    "A064365"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

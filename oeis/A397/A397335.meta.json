@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct final products of the prefix-constrained binary words counted by A394165.",
+  "id": "A397335",
+  "mentions": [
+    "A394165"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

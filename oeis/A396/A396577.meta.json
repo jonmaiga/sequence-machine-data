@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(3*n+2*k-3,k) - binomial(3*n+2*k-3,k-1)).",
+  "id": "A396577",
+  "mentions": [
+    "A002294",
+    "A333095",
+    "A397507",
+    "A397508",
+    "A397511",
+    "A397514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

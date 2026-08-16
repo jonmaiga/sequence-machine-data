@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of the expected number of turns in the parallelized coupon anticollector's problem, also referred to as the generalized Yahtzee problem.",
+  "id": "A396727",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A027611",
+    "A096617",
+    "A392624",
+    "A392625"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Fibonacci(n) == 0 (mod triangular(n)).",
+  "description": "Numbers k such that Fibonacci(k) == 0 (mod triangular(k)).",
   "id": "A121874",
   "mentions": [
     "A000045",

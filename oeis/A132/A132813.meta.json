@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: A001263 * A127648 as infinite lower triangular matrices.",
+  "description": "Triangle read by rows: T(n,k) = binomial(n, k)*binomial(n+1, k).",
   "id": "A132813",
   "mentions": [
     "A000012",

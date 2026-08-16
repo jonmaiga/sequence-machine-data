@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = floor(r*a(n-1)) + floor(r*a(n-2)), a(0) = 0, a(1) = 1 and r = 1 + sqrt(2).",
+  "id": "A395581",
+  "mentions": [
+    "A003151",
+    "A005908",
+    "A014176",
+    "A190177",
+    "A272362",
+    "A274203",
+    "A395582",
+    "A395583",
+    "A395585",
+    "A395586"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

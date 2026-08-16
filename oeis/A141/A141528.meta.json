@@ -1,11 +1,12 @@
 {
-  "description": "Expansion of x/(1 + x + 41*x^2).",
+  "description": "Expansion of -x/(1 + x + 41*x^2).",
   "id": "A141528",
   "mentions": [
     "A005846",
     "A141527"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

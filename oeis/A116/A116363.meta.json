@@ -2,7 +2,12 @@
   "description": "a(n) = dot product of row n in Catalan triangle A033184 with row n in Pascal's triangle.",
   "id": "A116363",
   "mentions": [
-    "A033184"
+    "A006318",
+    "A033184",
+    "A047781",
+    "A394186",
+    "A395801",
+    "A396286"
   ],
   "tags": [
     "formulas",

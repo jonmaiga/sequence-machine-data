@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} arctan(x)^4 dx.",
+  "id": "A397682",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A006752",
+    "A390074",
+    "A390075",
+    "A397680",
+    "A397681"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

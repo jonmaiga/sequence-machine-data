@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers of the form p^2*q, where p and q are distinct odd primes.",
+  "id": "A398421",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001248",
+    "A005408",
+    "A014612",
+    "A054753",
+    "A065091",
+    "A072357",
+    "A085548"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

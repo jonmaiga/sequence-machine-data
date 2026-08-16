@@ -1,0 +1,19 @@
+{
+  "description": "Sophie Germain cyclic numbers: numbers k such that k and 2*k+1 are both cyclic numbers (A003277).",
+  "id": "A397387",
+  "mentions": [
+    "A000010",
+    "A003277",
+    "A005384",
+    "A117204"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

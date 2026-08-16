@@ -1,0 +1,18 @@
+{
+  "description": "Abundant numbers whose preceding five numbers and following five numbers are nonabundant.",
+  "id": "A396980",
+  "mentions": [
+    "A005101",
+    "A263837",
+    "A316099"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

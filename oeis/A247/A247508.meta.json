@@ -2,8 +2,10 @@
   "description": "Decimal expansion of L_2 = -Integral_{x=0..Pi/2} log(2*sin(x/2))^2 dx, a constant appearing in the evaluation of Euler double sums not expressible in terms of well-known constants.",
   "id": "A247508",
   "mentions": [
+    "A006752",
     "A244839",
-    "A247450"
+    "A247450",
+    "A397477"
   ],
   "tags": [
     "cons",

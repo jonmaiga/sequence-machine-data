@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled maximal 7-degenerate graphs on n vertices.",
+  "id": "A396894",
+  "mentions": [
+    "A273468",
+    "A394820",
+    "A395194",
+    "A396886",
+    "A396892",
+    "A396893"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

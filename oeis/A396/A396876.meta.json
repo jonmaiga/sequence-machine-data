@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m whose squarefree core equals the number of duplicated prime factors.",
+  "id": "A396876",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001248",
+    "A007913",
+    "A046660",
+    "A286708",
+    "A386762",
+    "A396594",
+    "A397221"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

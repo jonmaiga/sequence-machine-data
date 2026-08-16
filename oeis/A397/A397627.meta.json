@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(A026351(n)).",
+  "id": "A397627",
+  "mentions": [
+    "A000040",
+    "A026351",
+    "A026352",
+    "A397623",
+    "A397628"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

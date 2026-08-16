@@ -1,0 +1,18 @@
+{
+  "description": "Define F(n,x) as the power series in x satisfying F(n,x) = 1 + x*F(n,x)^2 - x^n*F(n,x)^(2*n), then for n >= 2, a(n) = abs( [x^M] F(n,x) ) where x^M is the first power of x with a negative coefficient in F(n,x). Should no such M exist for some n, then there are no further terms and this sequence would be finite.",
+  "id": "A395836",
+  "mentions": [
+    "A000108",
+    "A395835",
+    "A395837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

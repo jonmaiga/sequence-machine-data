@@ -1,5 +1,5 @@
 {
-  "description": "Tetrahedron T(j,n,k) in which the slice j is a finite triangle read by rows T(n,k) which list the number of parts in the columns of the shell model of partitions with n shells mentioned in A210970.",
+  "description": "Tetrahedron T(j,n,k) in which the slice j is a finite triangle read by rows T(n,k) which list the number of parts in the columns of the modular table of partitions with n shells mentioned in A210970.",
   "id": "A210960",
   "mentions": [
     "A006128",

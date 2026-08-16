@@ -1,0 +1,20 @@
+{
+  "description": "Number of one-sided polysticks (polyedges) with n edges in which no vertex has degree 2.",
+  "id": "A397892",
+  "mentions": [
+    "A019988",
+    "A096267",
+    "A151537",
+    "A397891",
+    "A397893"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

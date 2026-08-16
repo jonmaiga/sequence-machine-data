@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the determinant of the Laplacian on S^7, the 7-dimensional unit sphere, with the standard metric induced by the R^8 Euclidean norm.",
+  "id": "A396374",
+  "mentions": [
+    "A002117",
+    "A013663",
+    "A013665",
+    "A212002",
+    "A396369",
+    "A396370",
+    "A396371",
+    "A396372",
+    "A396373",
+    "A396375",
+    "A396376"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

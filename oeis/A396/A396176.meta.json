@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = primepi(A394720(n)).",
+  "id": "A396176",
+  "mentions": [
+    "A000720",
+    "A394720"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

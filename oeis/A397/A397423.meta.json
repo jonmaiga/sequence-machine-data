@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{j=0..n} abs(Stirling1(n, j)) * binomial(n + j, n) * n^j.",
+  "id": "A397423",
+  "mentions": [
+    "A132393",
+    "A397324",
+    "A397421"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of the site percolation threshold for the (3, 12^2) Archimedean lattice.",
   "id": "A174849",
-  "mentions": [],
+  "mentions": [
+    "A178959"
+  ],
   "tags": [
     "cons",
     "formulas",

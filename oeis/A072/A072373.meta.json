@@ -1,5 +1,5 @@
 {
-  "description": "Complexity of doubled cycle (regarding case n = 2 as a graph).",
+  "description": "Number of spanning trees of the n-prism graph Y_n (regarding case n = 2 as a simple graph).",
   "id": "A072373",
   "mentions": [
     "A006235"

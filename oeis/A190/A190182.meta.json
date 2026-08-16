@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (1+x+sqrt(8+2x))/4, where x=sqrt(15).",
+  "description": "Decimal expansion of (1+x+sqrt(8+2x))/4, where x = sqrt(15).",
   "id": "A190182",
   "mentions": [
     "A188635",
@@ -9,6 +9,7 @@
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

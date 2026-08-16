@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n, k) * A396201(k).",
+  "id": "A396583",
+  "mentions": [
+    "A000285",
+    "A100545",
+    "A396201",
+    "A396582"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

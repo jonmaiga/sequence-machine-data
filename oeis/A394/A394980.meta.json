@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2n-digit decimal strings where the second half is an anagram of the first half.",
+  "id": "A394980",
+  "mentions": [
+    "A000984",
+    "A002893",
+    "A002895",
+    "A169714",
+    "A169715",
+    "A287316",
+    "A385286"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

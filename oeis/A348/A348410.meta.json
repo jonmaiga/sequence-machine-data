@@ -2,6 +2,7 @@
   "description": "Number of nonnegative integer solutions to n = Sum_{i=1..n} (a_i + b_i), with b_i even.",
   "id": "A348410",
   "mentions": [
+    "A001008",
     "A033715",
     "A033716",
     "A034297",

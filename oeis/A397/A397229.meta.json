@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * AH(2*k)/k, where AH(k) = A058313(k)/A058312(k) is the k-th alternating harmonic (or skew-harmonic) number.",
+  "id": "A397229",
+  "mentions": [
+    "A002162",
+    "A013661",
+    "A058312",
+    "A058313",
+    "A318741",
+    "A369884",
+    "A397230",
+    "A397231",
+    "A397232"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

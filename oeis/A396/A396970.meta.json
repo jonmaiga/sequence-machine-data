@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by antidiagonals downwards, where column k is the expansion of e.g.f. B^k(x), where B(x) is the e.g.f. of A001028.",
+  "id": "A396970",
+  "mentions": [
+    "A001028",
+    "A063524",
+    "A144150",
+    "A396971",
+    "A396972",
+    "A396973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

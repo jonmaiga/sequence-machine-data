@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of ménage hit polynomials.",
+  "description": "a(n) = A058087(n,n-3).",
   "id": "A000159",
   "mentions": [
     "A000179",

@@ -1,7 +1,9 @@
 {
   "description": "In acoustics, using 12-tone equal temperament, the rounded number of semitones in the interval perceived when a vibrating string is divided into n congruent segments.",
   "id": "A143800",
-  "mentions": [],
+  "mentions": [
+    "A010774"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

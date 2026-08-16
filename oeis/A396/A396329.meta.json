@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of lim_{s->1} Pi^(s/2)/(s*(s-1)*Gamma(s/2)) - 1/(s-1).",
+  "id": "A396329",
+  "mentions": [
+    "A001620",
+    "A155968"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

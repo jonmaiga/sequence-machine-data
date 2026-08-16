@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of zeta(26).",
+  "id": "A396247",
+  "mentions": [
+    "A013661",
+    "A013662",
+    "A013664",
+    "A013666",
+    "A013668",
+    "A013670",
+    "A013672",
+    "A013674",
+    "A013676",
+    "A013678"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

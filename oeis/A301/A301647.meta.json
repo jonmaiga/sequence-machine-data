@@ -2,6 +2,7 @@
   "description": "a(n) = n^3 - (n mod 2).",
   "id": "A301647",
   "mentions": [
+    "A036487",
     "A137932"
   ],
   "tags": [

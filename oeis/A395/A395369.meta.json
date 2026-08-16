@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of pairs (A->B, B->A) of non-intersecting paths in a triangular grid ABC of side n units, such that the distance from the starting point to each point of a path is always increasing.",
+  "id": "A395369",
+  "mentions": [
+    "A394097",
+    "A394698",
+    "A395034",
+    "A395370",
+    "A395371"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = fourth coordinate d of the n-th P-position (a,b,c,d) of 4 X n Chomp in lexicographic order, where a>=b>=c>=d>=0 gives row lengths.",
+  "id": "A395126",
+  "mentions": [
+    "A029899",
+    "A112470",
+    "A112471",
+    "A112472"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

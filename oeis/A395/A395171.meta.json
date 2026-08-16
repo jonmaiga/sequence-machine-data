@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integer m > 1 such that gcd(m^(prime(n)*k) - 1, m! - 1) > 1 holds for each positive integer k.",
+  "id": "A395171",
+  "mentions": [
+    "A000978",
+    "A005384",
+    "A393224",
+    "A395115",
+    "A395286",
+    "A395944"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

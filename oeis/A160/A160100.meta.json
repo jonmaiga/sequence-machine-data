@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (361299 +5950*sqrt(2))/601^2.",
+  "description": "Decimal expansion of (361299 + 5950*sqrt(2))/601^2.",
   "id": "A160100",
   "mentions": [
     "A002193",

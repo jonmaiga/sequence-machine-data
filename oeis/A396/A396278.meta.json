@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A081973(k) is prime.",
+  "id": "A396278",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A081973"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

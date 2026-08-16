@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the total collision excess among unordered pairwise sums with repetition of the distinct trinomial coefficient values of order n.",
+  "id": "A398230",
+  "mentions": [
+    "A046816",
+    "A086753",
+    "A394957",
+    "A398231",
+    "A398232",
+    "A398233",
+    "A398237",
+    "A398238",
+    "A398263",
+    "A398265",
+    "A398429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

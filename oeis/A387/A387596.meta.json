@@ -1,7 +1,10 @@
 {
   "description": "Number of maximum matchings in the n-Cameron graph.",
   "id": "A387596",
-  "mentions": [],
+  "mentions": [
+    "A387559",
+    "A387588"
+  ],
   "tags": [
     "easy",
     "formulas",

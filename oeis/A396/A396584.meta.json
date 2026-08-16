@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (4 - 3*(-1)^n) * 5^floor(n/2).",
+  "id": "A396584",
+  "mentions": [
+    "A000045",
+    "A000285",
+    "A000351",
+    "A005055",
+    "A048878",
+    "A074872",
+    "A396197",
+    "A396201"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -2,8 +2,10 @@
   "description": "Binary Champernowne sequence (or word): write the numbers 0,1,2,3,4,... in base 2 and juxtapose.",
   "id": "A030190",
   "mentions": [
+    "A001855",
     "A003137",
     "A003607",
+    "A007088",
     "A007376",
     "A030302",
     "A030303",
@@ -23,6 +25,7 @@
     "A076478",
     "A083651",
     "A083652",
+    "A296349",
     "A318924"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+1 both have 24 divisors.",
+  "description": "Numbers k such that k and k+1 both have 24 divisors.",
   "id": "A274362",
   "mentions": [
     "A000005",

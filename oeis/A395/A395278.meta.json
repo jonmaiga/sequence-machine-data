@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of 4-tuples (w, x, y, z) of primes such that w < x < y < z and w*x + y*z = n.",
+  "id": "A395278",
+  "mentions": [
+    "A197629",
+    "A199331",
+    "A280683",
+    "A395277"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 41,
+    "size": 86,
+    "source": "joeis"
+  }
+}

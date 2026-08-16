@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} binomial(2*k, k)/(2^(3*k)*(2*k+1)^3).",
+  "id": "A397477",
+  "mentions": [
+    "A000984",
+    "A002162",
+    "A002193",
+    "A006752",
+    "A093954",
+    "A247508",
+    "A263353",
+    "A355022",
+    "A397478"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

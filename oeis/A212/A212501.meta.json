@@ -2,6 +2,7 @@
   "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w > x < y >= z.",
   "id": "A212501",
   "mentions": [
+    "A001622",
     "A033994",
     "A211795"
   ],

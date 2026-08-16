@@ -1,5 +1,5 @@
 {
-  "description": "Father primes of order 9.",
+  "description": "Primes of the form 19*p + 18 with p prime.",
   "id": "A136078",
   "mentions": [
     "A023208",

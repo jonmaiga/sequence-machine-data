@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 2^(n - k) * P(n, k, 1/2) where P(n, k, x) = (1/k!) * Sum_{j=0..k}((-1)^(k - j) * binomial(k, j) * (n + x + j)^n).",
+  "id": "A397329",
+  "mentions": [
+    "A033428",
+    "A085527",
+    "A397048",
+    "A397328",
+    "A397331",
+    "A397333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

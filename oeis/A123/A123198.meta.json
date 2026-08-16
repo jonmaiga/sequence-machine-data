@@ -1,7 +1,9 @@
 {
   "description": "a(n) = ((n+1)*(2*n-1))^2.",
   "id": "A123198",
-  "mentions": [],
+  "mentions": [
+    "A006752"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

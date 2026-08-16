@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k of the form k = p1 + p2 = x^2 + y^2 + p1^2, where p1 and p2 are primes, x, y are integers.",
+  "id": "A394621",
+  "mentions": [
+    "A000378",
+    "A001481",
+    "A004215",
+    "A042963",
+    "A071330",
+    "A079739",
+    "A145979"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

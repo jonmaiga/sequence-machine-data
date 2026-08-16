@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] 1 / cos(x)^5.",
+  "id": "A395383",
+  "mentions": [
+    "A000364",
+    "A326327",
+    "A385343",
+    "A395388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,14 +1,16 @@
 {
   "description": "Number of permutations of 1..n+5 with the number moved left exceeding the number moved right by n.",
   "id": "A179572",
-  "mentions": [],
+  "mentions": [
+    "A062866"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "joeis"
   }
 }

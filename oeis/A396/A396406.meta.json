@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct affine isometries at word-length n in the side-reflection group of a right triangle in the plane whose legs have transcendental ratio; independent of the choice of triangle.",
+  "id": "A396406",
+  "mentions": [
+    "A000045",
+    "A008576",
+    "A396927",
+    "A396953",
+    "A397437",
+    "A397438",
+    "A397439"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

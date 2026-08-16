@@ -1,11 +1,10 @@
 {
-  "description": "A twelve vertex {9,3} prism (9-gon (nonagon) connected to a triangle) graph substitution: fourth in the sequence: {6,6}->{7,5}->{8,3}->{9,3}.",
+  "description": "1-Limiting word of the morphism 1 -> {2, 3, 4, 5, 12}; 2 -> {1, 3, 6, 7, 8}; 3 -> {1, 2, 9, 10, 11}; 4 -> {1, 5, 12}; 5 -> {1, 4, 6}; 6 -> {2, 5, 7}; 7 -> {2, 6, 8}; 8 -> {2, 7, 9}; 9 -> {3, 8, 10}; 10 -> {3, 9, 11}; 11 -> {3, 10, 12}; 12 -> {1, 4, 11}.",
   "id": "A133339",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,

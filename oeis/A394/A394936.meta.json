@@ -1,0 +1,24 @@
+{
+  "description": "The smallest prime with equal digit sums in exactly the first n prime bases.",
+  "id": "A394936",
+  "mentions": [
+    "A000040",
+    "A037301",
+    "A053735",
+    "A135121",
+    "A135127",
+    "A180017",
+    "A212222",
+    "A240236"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

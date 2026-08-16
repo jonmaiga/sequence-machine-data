@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1 / (1 - B(B(x))), where B(x) = x/(1-x)^4.",
+  "id": "A396244",
+  "mentions": [
+    "A055991",
+    "A396208",
+    "A396245"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

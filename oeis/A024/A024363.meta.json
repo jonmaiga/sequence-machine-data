@@ -2,11 +2,14 @@
   "description": "Number of primitive Pythagorean triangles with side n.",
   "id": "A024363",
   "mentions": [
+    "A000079",
+    "A002110",
     "A016825",
     "A024361",
     "A024362"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

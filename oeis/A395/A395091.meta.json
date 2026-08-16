@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of partitions of n into distinct parts such that the sum of tau(k) over the parts k equals tau(n).",
+  "id": "A395091",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A394248",
+    "A395082",
+    "A395096",
+    "A395097",
+    "A395111"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

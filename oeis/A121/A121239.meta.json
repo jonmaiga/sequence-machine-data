@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 10-e.",
   "id": "A121239",
   "mentions": [
+    "A001113",
     "A030644",
     "A087654"
   ],

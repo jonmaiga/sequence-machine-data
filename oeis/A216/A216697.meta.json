@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that sigma(n) mod n = 12, n is divisible by 6, but n/6 is not prime.",
+  "description": "Numbers k such that sigma(k) mod k = 12, k is divisible by 6, but k/6 is not prime.",
   "id": "A216697",
   "mentions": [
     "A076496",
     "A084306"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

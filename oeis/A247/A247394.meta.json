@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the third maximal prime <= sqrt(n) is the least prime divisor of n.",
+  "description": "Numbers k for which the third maximal prime <= sqrt(k) is the least prime divisor of k.",
   "id": "A247394",
   "mentions": [
     "A000196",
@@ -9,7 +9,6 @@
     "A247393"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

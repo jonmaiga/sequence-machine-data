@@ -1,0 +1,31 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = binomial(3*n-1+k,k).",
+  "id": "A398366",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A000389",
+    "A000581",
+    "A001288",
+    "A008585",
+    "A010967",
+    "A010970",
+    "A052529",
+    "A071919",
+    "A081266",
+    "A228888",
+    "A262977"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

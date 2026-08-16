@@ -1,0 +1,17 @@
+{
+  "description": "Nonsquare integers c > 0 for which there are positive nonsquare integers a < b < c such that sqrt(a) + sqrt(b) + sqrt(c) is closer to an integer than for all smaller nonsquare c > b > a > 0.",
+  "id": "A395622",
+  "mentions": [
+    "A395621"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings of an n X n square using 1 X 1 squares (monominoes) and stairs hexominoes.",
+  "id": "A394479",
+  "mentions": [
+    "A000930",
+    "A066864",
+    "A140304",
+    "A193147",
+    "A396311"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

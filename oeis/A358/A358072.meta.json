@@ -2,6 +2,7 @@
   "description": "a(n) is the number of \"merger histories\" of n elements (see A256006) where at most 3 elements can merge at the same time.",
   "id": "A358072",
   "mentions": [
+    "A006472",
     "A256006"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Number of order-convex subsets of the divisibility poset on {1, 2, ..., n}.",
+  "id": "A394685",
+  "mentions": [
+    "A000720",
+    "A393665",
+    "A394682"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

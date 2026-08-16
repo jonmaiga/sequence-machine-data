@@ -1,0 +1,22 @@
+{
+  "description": "a(n) gives positions k >= 1 where the equation b(b(k)+b(k-1)) = k fails, for b(k) = floor(k/sqrt(2) + 2*(sqrt(2)-1)).",
+  "id": "A395251",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A001951",
+    "A001952",
+    "A394217",
+    "A395252",
+    "A395253"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

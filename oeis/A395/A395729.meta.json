@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the ratio of the minimum area to the mean area of the orthogonal projection of a regular icosahedron.",
+  "id": "A395729",
+  "mentions": [
+    "A001622",
+    "A245294",
+    "A388812",
+    "A395727",
+    "A395728"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

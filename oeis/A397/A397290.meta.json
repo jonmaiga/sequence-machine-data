@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) * AH(k,6)/k, where AH(k,6) = A136677(k)/A334605(k) is the k-th alternating harmonic (or skew-harmonic) number of order 6.",
+  "id": "A397290",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013664",
+    "A013665",
+    "A136677",
+    "A334605",
+    "A369884",
+    "A397288",
+    "A397289",
+    "A397291"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,8 +1,14 @@
 {
-  "description": "(RSA-704) + 10^k = prime where RSA-704 is the 212 decimal digit unfactored RSA challenge number.",
+  "description": "Numbers k such that (RSA-704) + 10^k is prime where RSA-704 is the 212 decimal digit RSA challenge number A391940(17).",
   "id": "A113934",
-  "mentions": [],
+  "mentions": [
+    "A113928",
+    "A113931",
+    "A113932",
+    "A391940"
+  ],
   "tags": [
+    "less",
     "more",
     "nonn"
   ],

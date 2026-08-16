@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the A395318(n)-th prime number.",
+  "id": "A395319",
+  "mentions": [
+    "A395318"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

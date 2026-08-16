@@ -1,0 +1,19 @@
+{
+  "description": "Number of symmetric Donaghey-primitive Dyck n-paths.",
+  "id": "A396883",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A001405",
+    "A005554"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

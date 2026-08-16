@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes without digit 0 whose square is also a palindrome.",
+  "id": "A397142",
+  "mentions": [
+    "A052382",
+    "A057135",
+    "A104075"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

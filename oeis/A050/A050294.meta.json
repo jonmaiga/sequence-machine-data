@@ -2,11 +2,13 @@
   "description": "Maximum cardinality of a 3-fold-free subset of {1, 2, ..., n}.",
   "id": "A050294",
   "mentions": [
+    "A014578",
+    "A014983",
+    "A015518",
     "A037445",
     "A050291",
     "A050296",
     "A050376",
-    "A051068",
     "A186643"
   ],
   "tags": [

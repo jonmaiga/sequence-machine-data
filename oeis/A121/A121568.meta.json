@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci[ (p - 1)/2 ], where p = Prime[n].",
+  "description": "a(n) = Fibonacci((prime(n)-1)/2), n>1.",
   "id": "A121568",
   "mentions": [
     "A000045",
@@ -9,7 +9,6 @@
     "A121567"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

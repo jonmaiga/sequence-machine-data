@@ -1,0 +1,20 @@
+{
+  "description": "Minimum binary length of a standard-order composition with n distinct runs; bit length of A351015(n).",
+  "id": "A397890",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A061017",
+    "A066099",
+    "A351015"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

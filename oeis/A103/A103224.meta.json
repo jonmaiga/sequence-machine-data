@@ -2,6 +2,7 @@
   "description": "Norm of the totient function phi(n) for Gaussian integers. See A103222 and A103223 for the real and imaginary parts.",
   "id": "A103224",
   "mentions": [
+    "A079458",
     "A103222",
     "A103223",
     "A103230"

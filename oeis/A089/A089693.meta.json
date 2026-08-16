@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that phi(n) = 2^bigomega(n).",
+  "description": "Numbers k such that phi(k) = 2^bigomega(k).",
   "id": "A089693",
   "mentions": [
     "A000010",
     "A001222",
+    "A029744",
     "A061142",
     "A070004"
   ],
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^2 * binomial(2*k,k) * k!.",
+  "id": "A393915",
+  "mentions": [
+    "A002893",
+    "A336293"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

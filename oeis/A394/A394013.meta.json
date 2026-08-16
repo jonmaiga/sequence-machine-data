@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are neither the sum nor difference of two 3-smooth numbers.",
+  "id": "A394013",
+  "mentions": [
+    "A290365",
+    "A323046"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

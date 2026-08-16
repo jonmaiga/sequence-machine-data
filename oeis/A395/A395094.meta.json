@@ -1,0 +1,19 @@
+{
+  "description": "Irregular table T(n, k), n > 0, k = 1..A395087(n), read by rows; the n-th row lists (in ascending order) the X-coordinates of the vertices of the convex hull of the finite point set {(k, prime(k)), k = 1..n} (where prime(k) denotes the k-th prime number).",
+  "id": "A395094",
+  "mentions": [
+    "A246033",
+    "A395087",
+    "A395098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

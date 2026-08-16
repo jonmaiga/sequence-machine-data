@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number of prime factors for any squarefree abundant number with prime(n) (the n-th prime) as its least prime factor.",
+  "id": "A396829",
+  "mentions": [
+    "A001222",
+    "A007684",
+    "A007707",
+    "A007741",
+    "A087248",
+    "A108227"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

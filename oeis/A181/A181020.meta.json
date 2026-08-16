@@ -1,5 +1,5 @@
 {
-  "description": "Maximum number of 1s in an nX(n+1) binary matrix with no three 1s adjacent in a line along a row, column or diagonally.",
+  "description": "Maximum number of 1s in an n X (n+1) binary matrix with no three 1s adjacent in a line along a row, column or diagonally.",
   "id": "A181020",
   "mentions": [
     "A181019"

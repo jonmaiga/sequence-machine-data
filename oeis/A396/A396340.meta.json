@@ -1,0 +1,20 @@
+{
+  "description": "Primes prime(k) such that prime(k) - prime(k-1) is a Fibonacci number.",
+  "id": "A396340",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001223",
+    "A006512",
+    "A014445",
+    "A151799"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

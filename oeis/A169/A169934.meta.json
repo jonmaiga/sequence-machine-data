@@ -1,16 +1,19 @@
 {
-  "description": "Number of permutations of 1..n with the number moved left exceeding the number moved right by 2.",
+  "description": "Number of permutations of [n] with the number moved left exceeding the number moved right by 2.",
   "id": "A169934",
   "mentions": [
+    "A046739",
     "A062866",
-    "A062868"
+    "A062868",
+    "A271697"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

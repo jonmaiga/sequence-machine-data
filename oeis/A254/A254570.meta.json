@@ -2,6 +2,7 @@
   "description": "The number of unordered pairs (f,g) of functions from {1..n} to itself such that fg=gf (i.e., f(g(i))=g(f(i)) for all i) where f and g are distinct.",
   "id": "A254570",
   "mentions": [
+    "A000312",
     "A181162",
     "A254569"
   ],

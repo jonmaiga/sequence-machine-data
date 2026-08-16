@@ -2,9 +2,13 @@
   "description": "Theta series of laminated lattice LAMBDA_11^{max}.",
   "id": "A006911",
   "mentions": [
-    "A005135"
+    "A005135",
+    "A005933",
+    "A006909",
+    "A006910"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime greater than or equal to (prime(n)^2 + prime(n+1)^2)/2.",
+  "id": "A397463",
+  "mentions": [
+    "A000040",
+    "A007918",
+    "A062772",
+    "A075892",
+    "A093343"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

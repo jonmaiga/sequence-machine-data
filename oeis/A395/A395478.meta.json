@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k)*H(k,2)/k^4, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number, and H(k,2) = A007406(k)/A007407(k) is the k-th generalized harmonic number of order 2.",
+  "id": "A395478",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002805",
+    "A007406",
+    "A007407",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A013665"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

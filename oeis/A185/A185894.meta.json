@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime divisors (counted with multiplicity) of number of rings with n elements.",
+  "description": "a(n) = A001222(A027623(n)).",
   "id": "A185894",
   "mentions": [
     "A001222",
@@ -8,12 +8,13 @@
   "tags": [
     "formulas",
     "hard",
+    "less",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

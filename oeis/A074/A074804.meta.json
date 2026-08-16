@@ -2,7 +2,12 @@
   "description": "Kolakoski-(3,2) sequence: a(n) is length of n-th run.",
   "id": "A074804",
   "mentions": [
-    "A000002"
+    "A000002",
+    "A064353",
+    "A071820",
+    "A071907",
+    "A071928",
+    "A071942"
   ],
   "tags": [
     "nonn"

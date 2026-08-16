@@ -1,7 +1,8 @@
 {
-  "description": "Table of coefficients in the iterations of Euler's tree function (A000169), as read by antidiagonals.",
+  "description": "Array read by ascending antidiagonals: the coefficients in the iterations of Euler's tree function (A000169).",
   "id": "A274390",
   "mentions": [
+    "A000007",
     "A000169",
     "A207833",
     "A227278",
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 105,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

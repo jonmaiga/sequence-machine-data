@@ -1,0 +1,19 @@
+{
+  "description": "Number of square grid edges that are visible through the n-th order Sierpinski carpet fractal.",
+  "id": "A394903",
+  "mentions": [
+    "A018056",
+    "A153490",
+    "A293143"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

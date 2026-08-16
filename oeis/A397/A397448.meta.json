@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of distinct primitive noncyclic integer-sided quadrilaterals with integral diagonals and integer area, having semiperimeter n.",
+  "id": "A397448",
+  "mentions": [
+    "A224302",
+    "A273890",
+    "A342721",
+    "A342722",
+    "A342723",
+    "A344529",
+    "A397406",
+    "A397446",
+    "A397447"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

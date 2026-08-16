@@ -1,0 +1,22 @@
+{
+  "description": "Number of perfect matchings in the complete 4-partite graph K_{n,n,n,n}.",
+  "id": "A395813",
+  "mentions": [
+    "A000142",
+    "A002720",
+    "A101485",
+    "A293075",
+    "A297487",
+    "A395815"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

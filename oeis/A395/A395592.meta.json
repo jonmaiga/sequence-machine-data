@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of the positive real root of x^4 - 3*x^3 - 4*x^2 - 2*x - 1.",
+  "id": "A395592",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{0..1} Li_7(x)^2 dx, where Li_7 is the polylogarithm function.",
+  "id": "A397577",
+  "mentions": [
+    "A249651",
+    "A249652",
+    "A397550",
+    "A397555",
+    "A397575",
+    "A397576"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

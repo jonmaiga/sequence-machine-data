@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} Lambda(k)/(k*(k+1)), where Lambda = log(A014963) is the Mangoldt function.",
+  "id": "A398519",
+  "mentions": [
+    "A014963",
+    "A398518"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

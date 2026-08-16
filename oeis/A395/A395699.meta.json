@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of the von Mangoldt weight v_Lambda(2) = Integral_{s=1..oo} log(2)/(2^s * zeta(s)).",
+  "id": "A395699",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

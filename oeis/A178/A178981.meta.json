@@ -1,5 +1,5 @@
 {
-  "description": "2^A003418(n); for n >= 1, the least number > 1 that can be expressed simultaneously as a k-th power of some integer for all 1 <= k <= n.",
+  "description": "a(n) = 2^A003418(n); for n >= 1, the least number > 1 that can be expressed simultaneously as a k-th power of some integer for all 1 <= k <= n.",
   "id": "A178981",
   "mentions": [
     "A003418",

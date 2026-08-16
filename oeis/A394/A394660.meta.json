@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest prime number such that prime(n)-a(n) is a 3-smooth number where prime(n) denotes the n-th prime number, or zero if no such number exists.",
+  "id": "A394660",
+  "mentions": [
+    "A000040",
+    "A003586"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A000201(k) and A001950(k) are both prime.",
+  "id": "A397111",
+  "mentions": [
+    "A000040",
+    "A000201",
+    "A001622",
+    "A001950",
+    "A397112"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

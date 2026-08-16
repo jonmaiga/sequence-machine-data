@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) such that the sum of the first n coefficients in A(x/n)^n equals 3^(n-1) for n >= 1.",
+  "id": "A397593",
+  "mentions": [
+    "A180747",
+    "A375457",
+    "A397590",
+    "A397591",
+    "A397592",
+    "A397594",
+    "A397595"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

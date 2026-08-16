@@ -2,7 +2,8 @@
   "description": "Lesser of two consecutive primes whose difference divided by two is a prime: ( prime(next prime after n) - prime(n) )/2 is prime.",
   "id": "A058620",
   "mentions": [
-    "A001358"
+    "A001358",
+    "A098013"
   ],
   "tags": [
     "nonn"

@@ -1,11 +1,14 @@
 {
-  "description": "G.f. A(x) satisfies A(x)^4+(x-1)*A(x)^3-x*A(x)^2+x*A(x)-x^2=0.",
+  "description": "G.f. A(x) satisfies A(x)^4 + (x-1)*A(x)^3 - x*A(x)^2 + x*A(x) - x^2 = 0.",
   "id": "A394154",
   "mentions": [
+    "A006318",
+    "A122538",
     "A394153",
     "A394155"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*(8*n^2-9*n-2-(9*n-6)*(-1)^n)/48.",
+  "id": "A397269",
+  "mentions": [
+    "A396652"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

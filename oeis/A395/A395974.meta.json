@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A395975(n, 1), and a(0) = 0.",
+  "id": "A395974",
+  "mentions": [
+    "A090181",
+    "A103365",
+    "A395975"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

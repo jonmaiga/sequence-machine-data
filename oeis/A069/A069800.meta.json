@@ -1,19 +1,24 @@
 {
-  "description": "Triangular array in which n-th row consists of numbers with digit sum n arranged in increasing numerical order.",
+  "description": "Triangular array in which n-th row consists of zeroless numbers with digit sum n arranged in increasing numerical order.",
   "id": "A069800",
   "mentions": [
+    "A000042",
     "A007953",
+    "A052382",
     "A069801",
-    "A104144"
+    "A104144",
+    "A181178",
+    "A211072"
   ],
   "tags": [
     "base",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
-    "source": "joeis"
+    "size": 63,
+    "source": "oeis-bfile"
   }
 }

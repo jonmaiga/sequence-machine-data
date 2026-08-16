@@ -1,7 +1,11 @@
 {
   "description": "Number of numbers of the form 6k+3 with prime(n) <= 6k+3 < prime(n+1).",
   "id": "A105469",
-  "mentions": [],
+  "mentions": [
+    "A100810",
+    "A105470",
+    "A106002"
+  ],
   "tags": [
     "easy",
     "nonn"

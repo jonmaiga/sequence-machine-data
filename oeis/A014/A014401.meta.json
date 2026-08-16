@@ -1,18 +1,25 @@
 {
-  "description": "Denominators of coefficients of expansion of Bessel function J_3(x).",
+  "description": "Denominators of coefficients of odd powers of x of the expansion of Bessel function J_3(x).",
   "id": "A014401",
   "mentions": [
-    "A002454",
     "A002474",
-    "A002506"
+    "A002506",
+    "A061403",
+    "A061404",
+    "A061405",
+    "A061406",
+    "A061407",
+    "A061440",
+    "A061441"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

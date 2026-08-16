@@ -1,0 +1,17 @@
+{
+  "description": "Denominators of rational coefficients related to asymptotic of A336293.",
+  "id": "A395977",
+  "mentions": [
+    "A336293",
+    "A395976"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,10 @@
   "description": "Double Zumkeller numbers: numbers whose set of divisors can be partitioned into two disjoint subsets with equal sums and equal cardinalities.",
   "id": "A347063",
   "mentions": [
-    "A083207"
+    "A000037",
+    "A028983",
+    "A083207",
+    "A348713"
   ],
   "tags": [
     "nonn"
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary bit strings of length n with no block of 8 or more 0's. Nonzero heptanacci numbers, A122189.",
+  "description": "Nonzero heptanacci numbers, A122189.",
   "id": "A066178",
   "mentions": [
     "A000045",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 36,
     "source": "joeis"
   }
 }

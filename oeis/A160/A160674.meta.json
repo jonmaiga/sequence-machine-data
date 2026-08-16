@@ -2,10 +2,14 @@
   "description": "A bisection of A063522.",
   "id": "A160674",
   "mentions": [
-    "A063522"
+    "A005408",
+    "A063522",
+    "A069133",
+    "A160699"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

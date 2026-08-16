@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = x + A^2(x)*A^3(x).",
+  "id": "A396099",
+  "mentions": [
+    "A213591"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

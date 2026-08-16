@@ -16,14 +16,13 @@
     "A391970"
   ],
   "tags": [
-    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 3,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

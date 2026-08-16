@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k multiple of n such that the Pisano period A001175(k) divides k.",
+  "id": "A393426",
+  "mentions": [
+    "A001175",
+    "A235249",
+    "A317971"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

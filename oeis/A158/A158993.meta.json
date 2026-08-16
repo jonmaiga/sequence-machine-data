@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that n=phi(n/d_1)+phi(n/d_2)+...+phi(n/d_k) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "description": "Zeroless numbers m such that m = phi(m/d_1) + phi(m/d_2) + ... + phi(m/d_k), where d_1 d_2 ... d_k is the decimal expansion of m.",
   "id": "A158993",
-  "mentions": [],
+  "mentions": [
+    "A052382"
+  ],
   "tags": [
     "base",
     "more",

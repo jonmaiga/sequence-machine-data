@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^2 AND NOT n.",
+  "id": "A396236",
+  "mentions": [
+    "A007745",
+    "A169810",
+    "A213541",
+    "A396237"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

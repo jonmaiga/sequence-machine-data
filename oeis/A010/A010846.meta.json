@@ -2,8 +2,10 @@
   "description": "Number of numbers <= n whose set of prime factors is a subset of the set of prime factors of n.",
   "id": "A010846",
   "mentions": [
-    "A002110",
-    "A162306"
+    "A008479",
+    "A162306",
+    "A363061",
+    "A384004"
   ],
   "tags": [
     "easy",

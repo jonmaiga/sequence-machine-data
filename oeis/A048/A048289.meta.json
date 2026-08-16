@@ -2,10 +2,12 @@
   "description": "Number of Go games with exactly n moves.",
   "id": "A048289",
   "mentions": [
-    "A007565"
+    "A007565",
+    "A048987"
   ],
   "tags": [
     "fini",
+    "formulas",
     "hard",
     "more",
     "nice",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 3,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

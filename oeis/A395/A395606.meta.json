@@ -1,0 +1,19 @@
+{
+  "description": "Number of involutions (elements of order <= 2) in the n-th iterated wreath product of S_3.",
+  "id": "A395606",
+  "mentions": [
+    "A000085",
+    "A000106",
+    "A001006"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,10 +2,22 @@
   "description": "a(n) = largest divisor of n which is coprime to the largest proper divisor of n. (a(1)=1.).",
   "id": "A126773",
   "mentions": [
+    "A000203",
+    "A008683",
     "A020639",
-    "A032742"
+    "A028234",
+    "A032742",
+    "A051119",
+    "A065330",
+    "A132740",
+    "A137924",
+    "A137925",
+    "A137926",
+    "A137927",
+    "A165725"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

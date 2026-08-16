@@ -2,9 +2,11 @@
   "description": "Greatest number, not divisible by 4, having exactly n partitions into three positive squares.",
   "id": "A095812",
   "mentions": [
-    "A025414"
+    "A025414",
+    "A095811"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

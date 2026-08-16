@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n+5*k-6,k).",
+  "id": "A397540",
+  "mentions": [
+    "A002296",
+    "A165817",
+    "A397510",
+    "A397538",
+    "A397539"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

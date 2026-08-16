@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-15 representation has an odd number of runs.",
   "id": "A043718",
-  "mentions": [],
+  "mentions": [
+    "A043704"
+  ],
   "tags": [
     "base",
     "nonn"

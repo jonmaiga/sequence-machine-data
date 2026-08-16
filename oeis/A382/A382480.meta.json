@@ -1,7 +1,11 @@
 {
-  "description": "Number of minimum connected dominating sets in the n-transposition graph.",
+  "description": "Number of minimum dominating sets in the n-transposition graph.",
   "id": "A382480",
-  "mentions": [],
+  "mentions": [
+    "A290873",
+    "A347509",
+    "A347790"
+  ],
   "tags": [
     "more",
     "nonn"

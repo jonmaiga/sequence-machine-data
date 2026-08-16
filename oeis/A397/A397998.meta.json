@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A((exp(4*x) - 1)/4) = 5*A(x) - 4*x.",
+  "id": "A397998",
+  "mentions": [
+    "A000142",
+    "A003633",
+    "A005121",
+    "A006472",
+    "A397996",
+    "A397997"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

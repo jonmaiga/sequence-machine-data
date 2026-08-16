@@ -1,5 +1,5 @@
 {
-  "description": "Number of abstract dissection types of configurations of n points in 3 dimensions.",
+  "description": "Number of abstract dissection types of configurations of n planes in 3 dimensions.",
   "id": "A063860",
   "mentions": [
     "A063858"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/n) * Sum_{k=0..n-1} A000897(k) * A000897(n-1-k), where A000897(k) = (4*k)!/((2*k)!*k!^2).",
+  "id": "A398186",
+  "mentions": [
+    "A000108",
+    "A000897",
+    "A143583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

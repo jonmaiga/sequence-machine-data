@@ -1,0 +1,14 @@
+{
+  "description": "Number of not-necessarily-reduced pipe dreams that represent the identity permutation.",
+  "id": "A395864",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Volume (in unit cubes) of the level-n additive cube fractal in which a central cube of side 2*Pell(n-1) is surrounded by six copies of the previous level (silver-ratio scaling).",
+  "id": "A396719",
+  "mentions": [
+    "A000129",
+    "A052542",
+    "A057651"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "a(n) = binomial(n+1, 2)^5.",
   "id": "A059860",
   "mentions": [
-    "A059827"
+    "A059827",
+    "A393642"
   ],
   "tags": [
     "easy",

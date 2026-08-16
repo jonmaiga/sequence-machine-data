@@ -1,10 +1,11 @@
 {
-  "description": "a(n) is the product of the new Fibonacci divisors that appear when A129655(n) sets a new record for number of Fibonacci divisors.",
+  "description": "a(n) is the product of the Fibonacci divisors of A129655(n) that do not divide A129655(n-1).",
   "id": "A349100",
   "mentions": [
     "A000045",
     "A005086",
-    "A129655"
+    "A129655",
+    "A356063"
   ],
   "tags": [
     "more",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

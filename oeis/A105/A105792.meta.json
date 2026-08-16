@@ -2,6 +2,7 @@
   "description": "Largest prime <= numbers congruent (2,4) mod 6 (duplicates removed).",
   "id": "A105792",
   "mentions": [
+    "A067774",
     "A105399",
     "A105575"
   ],

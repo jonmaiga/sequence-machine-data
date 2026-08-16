@@ -1,0 +1,27 @@
+{
+  "description": "Number of compositions of n into distinct parts whose list is divided into nonempty blocks.",
+  "id": "A397660",
+  "mentions": [
+    "A000009",
+    "A000142",
+    "A003056",
+    "A008289",
+    "A011782",
+    "A032005",
+    "A032020",
+    "A032043",
+    "A072706",
+    "A216652",
+    "A336127",
+    "A336128"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

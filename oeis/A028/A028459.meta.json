@@ -1,13 +1,17 @@
 {
   "description": "Number of perfect matchings in graph P_{2} X C_{7} X P_{n}.",
   "id": "A028459",
-  "mentions": [],
+  "mentions": [
+    "A028453",
+    "A028454"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 14,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

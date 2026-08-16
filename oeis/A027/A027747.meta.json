@@ -4,7 +4,8 @@
   "mentions": [
     "A004231",
     "A049384",
-    "A051441"
+    "A051441",
+    "A321312"
   ],
   "tags": [
     "fini",
@@ -12,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 5,
+    "offset": 0,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

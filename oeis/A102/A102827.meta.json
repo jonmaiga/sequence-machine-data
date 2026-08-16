@@ -2,6 +2,7 @@
   "description": "\"True already\", base 10, start 1: a(n) is the least integer such that the sequence up to a(n-1) written in base 10 contains floor(a(n)/10) copies of the digit a(n) % 10, with a(0) = 1.",
   "id": "A102827",
   "mentions": [
+    "A009994",
     "A102357",
     "A102823",
     "A102830"

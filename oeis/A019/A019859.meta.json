@@ -2,8 +2,13 @@
   "description": "Decimal expansion of sine of 50 degrees.",
   "id": "A019859",
   "mentions": [
+    "A019819",
+    "A019829",
     "A019834",
-    "A019874"
+    "A019849",
+    "A019874",
+    "A019879",
+    "A019889"
   ],
   "tags": [
     "cons",

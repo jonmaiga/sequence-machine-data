@@ -1,0 +1,17 @@
+{
+  "description": "Number of bicolored multigraphs on n unlabeled vertices with vertex degrees at most 3.",
+  "id": "A397925",
+  "mentions": [
+    "A397917",
+    "A397924"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

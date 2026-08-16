@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(floor(n*sqrt(2))).",
+  "id": "A397466",
+  "mentions": [
+    "A000040",
+    "A001951",
+    "A001952",
+    "A002193",
+    "A184815",
+    "A397467"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

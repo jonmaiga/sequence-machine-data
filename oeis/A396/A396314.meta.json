@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k > 1 for which A396316(k) is not the greatest prime factor of k.",
+  "id": "A396314",
+  "mentions": [
+    "A000203",
+    "A006530",
+    "A013929",
+    "A017665",
+    "A017666",
+    "A034699",
+    "A122145",
+    "A396316"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

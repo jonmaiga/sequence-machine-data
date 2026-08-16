@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] C(x)^3, where C(x) satisfies C(x) = cosh( Integral C(x)^5 dx ).",
+  "id": "A395174",
+  "mentions": [
+    "A079484",
+    "A281184",
+    "A326328",
+    "A395147",
+    "A395172"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

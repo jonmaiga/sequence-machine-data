@@ -2,6 +2,8 @@
   "description": "Least number expressible as a sum of two distinct primes in exactly n ways.",
   "id": "A087747",
   "mentions": [
+    "A055065",
+    "A078648",
     "A117929"
   ],
   "tags": [

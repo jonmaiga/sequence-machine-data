@@ -1,17 +1,18 @@
 {
-  "description": "a(n) = Least i in range [A165478(n),A165478(n+1)] for which abs(A165477(i)) gets the maximum value in that range.",
+  "description": "a(n) = least i in range [A165478(n),A165478(n+1)] for which abs(A165477(i)) gets the maximum value in that range.",
   "id": "A165479",
   "mentions": [
     "A165477",
     "A165478"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

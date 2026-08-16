@@ -1,7 +1,10 @@
 {
   "description": "Expansion of (1+2*x+4*x^2+4*x^3+6*x^4+4*x^5+x^6) / (1-3*x-x^2-6*x^3-7*x^4-7*x^5-5*x^6-x^7).",
   "id": "A275908",
-  "mentions": [],
+  "mentions": [
+    "A275907",
+    "A275909"
+  ],
   "tags": [
     "easy",
     "formulas",

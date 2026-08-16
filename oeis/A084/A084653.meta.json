@@ -1,5 +1,5 @@
 {
-  "description": "Pseudoprimes whose prime factors do not divide any smaller pseudoprime.",
+  "description": "Fermat base-2 pseudoprimes whose prime factors do not divide any smaller pseudoprime.",
   "id": "A084653",
   "mentions": [
     "A001220",

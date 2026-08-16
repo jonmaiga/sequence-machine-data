@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the distinct prime divisors of C(prime(n), n).",
+  "id": "A396470",
+  "mentions": [
+    "A008472",
+    "A060604"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

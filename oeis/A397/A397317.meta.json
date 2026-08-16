@@ -1,0 +1,17 @@
+{
+  "description": "Index of prime(n) in A397218.",
+  "id": "A397317",
+  "mentions": [
+    "A397218",
+    "A397312",
+    "A397316"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

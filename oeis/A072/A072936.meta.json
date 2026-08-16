@@ -2,6 +2,7 @@
   "description": "Primes p that do not divide 2^x+1 for any x>=1.",
   "id": "A072936",
   "mentions": [
+    "A014663",
     "A014664",
     "A040098",
     "A049096",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the apex of the following triangle: start with the binary expansion of n, say (1, b_2, ..., b_w), as the first row; for k = 2..w, the k-th row is obtained by performing between adjacent terms of the prior row the AND operation when b_k = 0, the OR operation when b_k = 1; a(0) = 0.",
+  "id": "A395285",
+  "mentions": [
+    "A048735",
+    "A054429",
+    "A269170"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "O.g.f. satisfies A(x) = exp( x + Sum_{n>=2} (3*n^2 - 1) * a(n)*x^n / (3*n^2) ).",
+  "id": "A397348",
+  "mentions": [
+    "A397242",
+    "A397245",
+    "A397345",
+    "A397347",
+    "A397349"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

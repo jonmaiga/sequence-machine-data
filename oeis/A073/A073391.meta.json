@@ -1,5 +1,5 @@
 {
-  "description": "Fourth convolution of A002605(n) (generalized (2,2)-Fibonacci), n >= 0, with itself.",
+  "description": "Fifth column of the convolution triangle A073387(n+4 4), for n >= 0.",
   "id": "A073391",
   "mentions": [
     "A002605",

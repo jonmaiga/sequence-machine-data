@@ -1,0 +1,25 @@
+{
+  "description": "Noncubefree powerful numbers divisible by more than 2 distinct primes.",
+  "id": "A395197",
+  "mentions": [
+    "A000977",
+    "A001694",
+    "A002110",
+    "A046099",
+    "A061742",
+    "A126706",
+    "A286708",
+    "A372404",
+    "A390950",
+    "A391320"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

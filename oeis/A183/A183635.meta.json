@@ -2,15 +2,18 @@
   "description": "Number of (n+1) X 3 0..3 arrays with every 2 X 2 subblock summing to 6.",
   "id": "A183635",
   "mentions": [
+    "A183633",
+    "A183641",
     "A183642"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

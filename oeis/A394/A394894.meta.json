@@ -1,0 +1,25 @@
+{
+  "description": "Number of integers x in range 2^(n-1) .. (2^n)-1 such that the u-th arithmetic derivative of A019565(x) is zero for some u.",
+  "id": "A394894",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A006530",
+    "A019565",
+    "A099308",
+    "A099309",
+    "A276086",
+    "A328114",
+    "A394890"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

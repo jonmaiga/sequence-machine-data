@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct integer-sided triangles (x, y, z) with sopfr(x) = sopfr(y) = sopfr(z) = n, where sopfr is A001414.",
+  "id": "A396826",
+  "mentions": [
+    "A000607",
+    "A001414",
+    "A005044",
+    "A024162",
+    "A046675",
+    "A396827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

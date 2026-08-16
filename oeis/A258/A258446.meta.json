@@ -4,15 +4,16 @@
   "mentions": [
     "A000010",
     "A002322",
-    "A046072"
+    "A046072",
+    "A066800"
   ],
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 2,
-    "size": 71,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
   }
 }

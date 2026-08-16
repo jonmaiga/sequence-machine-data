@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sets S of nonempty words with n total letters such that no two words in S share letters and the concatenation of all words in S covers [k].",
+  "id": "A397098",
+  "mentions": [
+    "A000262",
+    "A000670",
+    "A102866",
+    "A292805",
+    "A319501",
+    "A394096",
+    "A397049"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

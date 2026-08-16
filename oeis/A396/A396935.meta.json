@@ -1,0 +1,16 @@
+{
+  "description": "Number of steps until a racetrack car (using von Neumann neighborhood) gets trapped, when starting at the n-th point on the square spiral and in each step moving to the lowest-numbered available unvisited square (as in A351043).",
+  "id": "A396935",
+  "mentions": [
+    "A309918",
+    "A351043"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

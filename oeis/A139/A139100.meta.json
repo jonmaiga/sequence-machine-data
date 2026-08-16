@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: row n lists all partitions of n in the order produced by the shell model of partitions A138151.",
+  "description": "Triangle read by rows: row n lists all partitions of n in the order produced by the modular table of partitions A138151.",
   "id": "A139100",
   "mentions": [
     "A000041",

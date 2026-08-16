@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number which is the end of an arithmetic progression of n numbers that are the sums of two squares (A001481).",
+  "id": "A398603",
+  "mentions": [
+    "A000404",
+    "A001481",
+    "A093365",
+    "A093366",
+    "A398604"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

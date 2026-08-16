@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of gamma*phi, where gamma is the Euler-Mascheroni constant and phi = (1+sqrt(5))/2 is the golden ratio.",
+  "id": "A394999",
+  "mentions": [
+    "A001620",
+    "A001622"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

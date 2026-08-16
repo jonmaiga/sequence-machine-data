@@ -2,7 +2,8 @@
   "description": "Primes p such that q-p = 50, where q is the next prime after p.",
   "id": "A134124",
   "mentions": [
-    "A134123"
+    "A134123",
+    "A204665"
   ],
   "tags": [
     "formulas",

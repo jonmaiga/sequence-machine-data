@@ -1,17 +1,20 @@
 {
-  "description": "Array read by antidiagonals: T(m,n) = number of edge covers in the grid graph P_m X P_n.",
+  "description": "Array read by antidiagonals: T(m,n) is the number of edge covers in the grid graph P_m X P_n.",
   "id": "A286912",
   "mentions": [
     "A000045",
+    "A005418",
     "A089934",
     "A099390",
     "A210662",
     "A218354",
     "A286911",
     "A286913",
+    "A288025",
     "A288031"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

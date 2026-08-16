@@ -2,7 +2,8 @@
   "description": "\"Word-factorable\" numbers, or numbers k that are divisible by the number of letters in the American English word(s) for k.",
   "id": "A092320",
   "mentions": [
-    "A002808"
+    "A002808",
+    "A068570"
   ],
   "tags": [
     "easy",

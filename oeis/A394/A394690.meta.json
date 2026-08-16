@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that k * n is a Belgian-0 number.",
+  "id": "A394690",
+  "mentions": [
+    "A106039"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

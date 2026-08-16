@@ -1,11 +1,13 @@
 {
-  "description": "Number of integer partitions with sum <= n whose distinct parts can be linearly combined using nonnegative coefficients to obtain n.",
+  "description": "Number of partitions of positive integers <= n whose distinct parts can be linearly combined using nonnegative coefficients to obtain n.",
   "id": "A365379",
   "mentions": [
     "A000009",
     "A000041",
+    "A000070",
     "A008284",
     "A008289",
+    "A026905",
     "A088314",
     "A088528",
     "A116861",
@@ -28,11 +30,12 @@
     "A365382"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 44,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

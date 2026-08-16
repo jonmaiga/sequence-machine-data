@@ -2,7 +2,10 @@
   "description": "Number of square permutations of 2n things.",
   "id": "A279200",
   "mentions": [
-    "A191755"
+    "A191755",
+    "A279201",
+    "A279202",
+    "A279203"
   ],
   "tags": [
     "more",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "5 times centered pentagonal numbers: 5*(5*n^2 + 5*n + 2)/2.",
+  "description": "5 times centered pentagonal numbers: a(n) = 5*(5*n^2 + 5*n + 2)/2.",
   "id": "A164015",
   "mentions": [
     "A005891",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
+    "size": 44,
     "source": "joeis"
   }
 }

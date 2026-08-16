@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 2^n * P_{n, k}(1/2) where P_{n, k}(x) = x * (n - k + x)^(n - k - 1) * binomial(n, k).",
+  "id": "A397284",
+  "mentions": [
+    "A023531",
+    "A052750",
+    "A088956",
+    "A215534",
+    "A397048",
+    "A397285",
+    "A397286"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

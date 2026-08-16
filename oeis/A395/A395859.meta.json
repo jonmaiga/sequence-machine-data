@@ -1,0 +1,19 @@
+{
+  "description": "Number of enantiomorphic pairs among n-dimensional space groups.",
+  "id": "A395859",
+  "mentions": [
+    "A004029",
+    "A006227"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer m >= 3 such that m*sin(Pi/m) and m*tan(Pi/m) agree in their first n digits after the decimal point, without rounding.",
+  "id": "A398155",
+  "mentions": [
+    "A000796",
+    "A014976",
+    "A121501",
+    "A121506",
+    "A398156",
+    "A398158"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

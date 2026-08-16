@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the small face angle, in radians, of a canonical (dual-uniform) tetragonal trapezohedron.",
+  "id": "A397161",
+  "mentions": [
+    "A101465",
+    "A397156",
+    "A397157",
+    "A397158",
+    "A397159",
+    "A397160",
+    "A397162",
+    "A397163"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

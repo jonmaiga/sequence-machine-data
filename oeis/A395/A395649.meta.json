@@ -1,0 +1,22 @@
+{
+  "description": "Consider the square spiral with its cells numbered starting at 0. Three players, Red, Green and Blue, take turns and place knights at the smallest unoccupied cell not attacked by an existing knight of a different color. a(n) = k if the n-th cell has been occupied at the k-th turn, a(n) = 0 otherwise.",
+  "id": "A395649",
+  "mentions": [
+    "A392177",
+    "A395486",
+    "A395506",
+    "A395645",
+    "A395646",
+    "A395647",
+    "A395648"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

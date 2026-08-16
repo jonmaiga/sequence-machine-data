@@ -1,0 +1,18 @@
+{
+  "description": "Number of rectangular plane partitions of n with exactly 2 rows and with rows and columns strictly decreasing.",
+  "id": "A394283",
+  "mentions": [
+    "A323430",
+    "A394187",
+    "A395924"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

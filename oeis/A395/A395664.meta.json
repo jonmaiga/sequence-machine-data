@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of g^5/(4-3*g)^4, where g = 1+x*g^4 is the g.f. of A002293.",
+  "id": "A395664",
+  "mentions": [
+    "A002293",
+    "A004331",
+    "A378503",
+    "A378504",
+    "A394853",
+    "A395665",
+    "A395667",
+    "A395675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of r(n) = (prime(n+2) - 2*prime(n+1) + prime(n)) / (prime(n+2) - prime(n)).",
+  "id": "A396240",
+  "mentions": [
+    "A001223",
+    "A006562",
+    "A031131",
+    "A036263",
+    "A396239"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

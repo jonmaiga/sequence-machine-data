@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 2F1(1/3, 2/3; 3/2; 27*x/(1-4*x)^3)^2.",
+  "id": "A394680",
+  "mentions": [
+    "A393810",
+    "A394679"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Strictly increasing minimal sequence where consecutive terms can be added digit-by-digit without carrying in base 10.",
+  "id": "A395817",
+  "mentions": [
+    "A007092",
+    "A052413"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

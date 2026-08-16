@@ -1,0 +1,23 @@
+{
+  "description": "Number of points covered by a regular level n H-Tree on a square lattice.",
+  "id": "A395109",
+  "mentions": [
+    "A004526",
+    "A016116",
+    "A027383",
+    "A051032",
+    "A134057",
+    "A169726",
+    "A395108"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

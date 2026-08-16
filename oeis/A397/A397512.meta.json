@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n+2*k-3,k).",
+  "id": "A397512",
+  "mentions": [
+    "A002295",
+    "A397509",
+    "A397510",
+    "A397511",
+    "A397513",
+    "A397515"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Intersection of A332785 and A396324.",
+  "id": "A396969",
+  "mentions": [
+    "A001694",
+    "A007947",
+    "A072777",
+    "A332785",
+    "A359280",
+    "A366825",
+    "A396324",
+    "A396968"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

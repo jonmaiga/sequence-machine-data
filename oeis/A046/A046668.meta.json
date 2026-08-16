@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that partition function p(n) divides n!.",
+  "description": "Numbers m such that partition function p(m) divides m!.",
   "id": "A046668",
   "mentions": [
     "A000041",
     "A000142",
+    "A192885",
     "A316530"
   ],
   "tags": [

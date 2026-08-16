@@ -2,7 +2,8 @@
   "description": "a(n) = 512*n + 1.",
   "id": "A076338",
   "mentions": [
-    "A076339"
+    "A076339",
+    "A152691"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of maximal chains in the poset of all n-ary words of length <= n, ordered by B covers A iff A_i <= B_{i+k} for all i in A and some k >= 0.",
+  "description": "Number of maximal chains in the poset of all compositions with weight <= n, ordered by A covers B iff A_i >= B_{i+k} for all i in B and some k >= 0.",
   "id": "A378608",
   "mentions": [
     "A034841",
@@ -10,6 +10,7 @@
     "A378588"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

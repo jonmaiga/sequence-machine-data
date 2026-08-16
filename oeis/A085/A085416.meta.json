@@ -1,5 +1,5 @@
 {
-  "description": "Take prime[n] and continue adding 1,2,..., A085415(n) until one reaches a prime a(n).",
+  "description": "Take prime(n) and continue adding 1,2,..., A085415(n) until one reaches a prime a(n).",
   "id": "A085416",
   "mentions": [
     "A085415",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

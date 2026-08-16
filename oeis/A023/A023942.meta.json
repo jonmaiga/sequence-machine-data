@@ -2,14 +2,20 @@
   "description": "Theta series of laminated lattice LAMBDA_20.",
   "id": "A023942",
   "mentions": [
-    "A023941"
+    "A005933",
+    "A006909",
+    "A006910",
+    "A006911",
+    "A023941",
+    "A023943"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "oeis-bfile"
+    "size": 22,
+    "source": "joeis"
   }
 }

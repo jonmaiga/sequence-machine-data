@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} p/((p+1)*(p^3-1)).",
+  "id": "A397427",
+  "mentions": [
+    "A001222",
+    "A065465",
+    "A065466",
+    "A065468",
+    "A065486",
+    "A115360",
+    "A382562"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

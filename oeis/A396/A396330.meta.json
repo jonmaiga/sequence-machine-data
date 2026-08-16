@@ -1,0 +1,19 @@
+{
+  "description": "Consider the square spiral with its cells numbered starting at 0. Three players, Red, Green and Blue, take turns and place knights at the smallest unoccupied cell not attacked by an opposing knight, where Red is only opposed by Blue, Green by Red and Blue by Green. Sequence lists squares occupied by a Red knight.",
+  "id": "A396330",
+  "mentions": [
+    "A392177",
+    "A395645",
+    "A396331",
+    "A396332"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

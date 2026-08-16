@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the minimum number m such that if there are 2*n cards face down on a table that are labeled 1, 1, 2, 2, ..., n, n, then one can select m sets of n cards such that at least one set is labeled 1, 2, ..., n exactly.",
+  "id": "A394871",
+  "mentions": [
+    "A001147"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

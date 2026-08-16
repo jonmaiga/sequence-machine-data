@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct triples of triangles chosen from the n^2 unit triangles of the triangular grid up to rotation and reflection.",
+  "id": "A396761",
+  "mentions": [
+    "A396285",
+    "A396467",
+    "A396762"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

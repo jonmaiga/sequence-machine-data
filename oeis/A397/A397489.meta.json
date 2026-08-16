@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to write n as a sum n = 0 + 1 + 2 +- 3 +- 4 ... +- n with nonnegative partial sums.",
+  "id": "A397489",
+  "mentions": [
+    "A397488"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

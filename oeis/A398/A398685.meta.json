@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number which is the end of an arithmetic progression of n odd squarefree semiprimes (A046388).",
+  "id": "A398685",
+  "mentions": [
+    "A005115",
+    "A046388",
+    "A093365",
+    "A398603",
+    "A398686"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

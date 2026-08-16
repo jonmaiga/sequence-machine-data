@@ -1,16 +1,21 @@
 {
-  "description": "The floor(n/2)-perfect numbers, where f-perfect numbers for an arithmetical function f are defined in A066218.",
+  "description": "floor(x/2)-perfect numbers, where f-perfect numbers for an arithmetical function f are defined in A066218.",
   "id": "A066240",
   "mentions": [
-    "A066218"
+    "A045768",
+    "A050414",
+    "A066218",
+    "A066230",
+    "A066238",
+    "A066239",
+    "A088831"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Main diagonal of table A396800.",
+  "id": "A396801",
+  "mentions": [
+    "A396800"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

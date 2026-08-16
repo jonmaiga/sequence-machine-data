@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum{k=0..n} C(n,3k+1)^2.",
+  "description": "a(n) = Sum_{k=0..n} C(n,3k+1)^2.",
   "id": "A139468",
   "mentions": [
     "A024494",

@@ -1,7 +1,19 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..4 arrays with every 2X2 subblock summing to 8.",
+  "description": "T(n,k) = number of (n+1) X (k+1) 0..4 arrays with every 2 X 2 subblock summing to 8.",
   "id": "A183652",
-  "mentions": [],
+  "mentions": [
+    "A008275",
+    "A048994",
+    "A183643",
+    "A183644",
+    "A183645",
+    "A183646",
+    "A183647",
+    "A183648",
+    "A183649",
+    "A183650",
+    "A183651"
+  ],
   "tags": [
     "formulas",
     "nonn",
@@ -9,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

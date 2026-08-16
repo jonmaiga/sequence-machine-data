@@ -1,5 +1,5 @@
 {
-  "description": "Third convolution of A002605(n) (generalized (2,2)-Fibonacci), n >= 0, with itself.",
+  "description": "Fourth column of the convolution triangle A073387(n+3, 3), for n >= 0.",
   "id": "A073390",
   "mentions": [
     "A002605",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

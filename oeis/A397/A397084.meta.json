@@ -1,0 +1,20 @@
+{
+  "description": "Start with a(1) = 2; to get a(n+1) insert in a(n) the smallest possible digit at the leftmost possible position such that the new number is a prime.",
+  "id": "A397084",
+  "mentions": [
+    "A125001",
+    "A332603",
+    "A356557",
+    "A357436",
+    "A397083"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

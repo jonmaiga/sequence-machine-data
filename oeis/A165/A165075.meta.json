@@ -1,5 +1,5 @@
 {
-  "description": "List of fixed points of the base-7 Kaprekar map A165071.",
+  "description": "Fixed points of the base-7 Kaprekar map A165071.",
   "id": "A165075",
   "mentions": [
     "A008722",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,8 @@
 {
-  "description": "Sum of n-th composite number and its largest prime divisor.",
+  "description": "a(n) = Sum of n-th composite number and its largest prime divisor.",
   "id": "A085275",
   "mentions": [
+    "A002808",
     "A085271",
     "A085273"
   ],
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 4,
+    "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

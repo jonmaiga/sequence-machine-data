@@ -1,0 +1,15 @@
+{
+  "description": "RUNS transform of A005606 (initial letter of English name for n).",
+  "id": "A396299",
+  "mentions": [
+    "A005606"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

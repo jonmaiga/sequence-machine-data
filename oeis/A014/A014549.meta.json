@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1 / M(1,sqrt(2)) (Gauss's constant).",
   "id": "A014549",
   "mentions": [
+    "A000984",
     "A053002",
     "A053003",
     "A053004",

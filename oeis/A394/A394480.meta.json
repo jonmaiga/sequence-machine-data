@@ -1,0 +1,16 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which row n gives the congruences (mod 2^n) that satisfy A006577(T(n,k)+a*2^n) = A006577(1+T(n,k)+a*2^n), with a>=0, in the '3x+1' (or Collatz) problem.",
+  "id": "A394480",
+  "mentions": [
+    "A006577"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,18 @@
 {
-  "description": "a(n) = (n^2+1)^2+1.",
+  "description": "a(n) = (n^2 + 1)^2 + 1.",
   "id": "A178390",
   "mentions": [
-    "A002522"
+    "A002522",
+    "A082044"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "joeis"
   }
 }

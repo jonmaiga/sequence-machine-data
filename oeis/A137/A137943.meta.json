@@ -1,11 +1,8 @@
 {
-  "description": "Triangle of coefficients associate with the expansion of the K_3 graph matric characteristic polynomial as a Sheffer sequence: M = {{0, 1, 1}, {1, 0, 1}, {1, 1, 0}} f(t)=-t^3+3t+2 p(x,t)=Exp[x,t)/(2*t^3+3*t^2-1)=exp(x*t)(t^3*f(1/t)).",
+  "description": "This sequence needs a proper definition.",
   "id": "A137943",
-  "mentions": [
-    "A000045"
-  ],
+  "mentions": [],
   "tags": [
-    "formulas",
     "sign",
     "tabl",
     "uned"

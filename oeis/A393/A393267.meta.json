@@ -2,6 +2,10 @@
   "description": "Array read by descending antidiagonals T(n,k) is the minimum total surface area of k-element sets of distinct integer-sided cuboids that fill an n X n X n cube.",
   "id": "A393267",
   "mentions": [
+    "A001400",
+    "A002061",
+    "A014206",
+    "A027688",
     "A033581",
     "A033585",
     "A139098",

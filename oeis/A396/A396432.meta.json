@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of (F_2(x)/x)^(1/2), where F_k(x) is the k-th iteration of x*G3(x)^2 with G3(x) = 1 + x*G3(x)^3.",
+  "id": "A396432",
+  "mentions": [
+    "A396446"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

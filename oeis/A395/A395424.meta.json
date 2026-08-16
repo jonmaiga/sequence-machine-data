@@ -1,0 +1,18 @@
+{
+  "description": "Busy Beaver problem for FRACTRAN: a(n) is the maximal number of steps that a FRACTRAN program of size n can make on the integer 2 before eventually halting.",
+  "id": "A395424",
+  "mentions": [
+    "A001222",
+    "A060843"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

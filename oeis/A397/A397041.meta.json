@@ -1,0 +1,26 @@
+{
+  "description": "Convolution of A000005 and A156616.",
+  "id": "A397041",
+  "mentions": [
+    "A000005",
+    "A000219",
+    "A001620",
+    "A006128",
+    "A026007",
+    "A074962",
+    "A156616",
+    "A305082",
+    "A305102",
+    "A397039",
+    "A397040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k-5 and k+5 are prime and gcd(k, sigma(k)) is prime.",
+  "id": "A395866",
+  "mentions": [
+    "A087680",
+    "A087695",
+    "A087696",
+    "A392199",
+    "A394757",
+    "A395258"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

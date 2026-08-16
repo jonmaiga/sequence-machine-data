@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n into parts at least the natural logarithm of n.",
+  "id": "A392809",
+  "mentions": [
+    "A000079",
+    "A004233",
+    "A393918"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

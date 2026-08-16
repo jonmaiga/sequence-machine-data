@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of sqrt(Pi*e)/17.",
   "id": "A019661",
-  "mentions": [],
+  "mentions": [
+    "A019645"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the number whose continued fraction coefficients are given in A089618.",
+  "id": "A397364",
+  "mentions": [
+    "A089618",
+    "A372869",
+    "A392388",
+    "A392729",
+    "A397337",
+    "A397401"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

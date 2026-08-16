@@ -1,5 +1,5 @@
 {
-  "description": "Pair(i,j): a folded version of the shell model of partitions (see comments for precise definition).",
+  "description": "Pair(i,j): a folded version of the modular table of partitions (see comments for precise definition).",
   "id": "A194853",
   "mentions": [
     "A135010",

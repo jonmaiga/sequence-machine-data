@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimal number of integer cubes needed to tile an integer cuboid of volume A033942(n).",
+  "id": "A396562",
+  "mentions": [
+    "A004709",
+    "A007913",
+    "A020639",
+    "A033942"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer m such that m mod k < k/2 for each 1 <= k <= n.",
+  "id": "A395741",
+  "mentions": [
+    "A000194",
+    "A003418"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

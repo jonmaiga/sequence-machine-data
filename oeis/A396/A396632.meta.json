@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed-content bracelets of length 2*n, summed over all integer partitions of 2*n, whose mirror image is a non-identity rotation, with no palindromic rotation and no nontrivial rotational symmetry.",
+  "id": "A396632",
+  "mentions": [
+    "A005651",
+    "A072605",
+    "A213943",
+    "A396630",
+    "A396631"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

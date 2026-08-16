@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polyhexes of n cells (up to the symmetries of the hexagon) that contain a saturated cell (a cell all six of whose edge-neighbors are present).",
+  "id": "A395552",
+  "mentions": [
+    "A000228",
+    "A395331",
+    "A395334"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

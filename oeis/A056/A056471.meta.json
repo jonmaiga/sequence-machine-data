@@ -2,6 +2,7 @@
   "description": "Number of palindromic structures using a maximum of six different symbols.",
   "id": "A056471",
   "mentions": [
+    "A008277",
     "A056391",
     "A056452"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
-    "source": "joeis"
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

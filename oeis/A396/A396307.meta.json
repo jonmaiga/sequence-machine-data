@@ -1,0 +1,20 @@
+{
+  "description": "Final terms of length-4 blocks in A280864.",
+  "id": "A396307",
+  "mentions": [
+    "A280864",
+    "A283832",
+    "A396300",
+    "A396301",
+    "A396305",
+    "A396306"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

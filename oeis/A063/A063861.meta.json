@@ -1,5 +1,5 @@
 {
-  "description": "Number of abstract dissection types of configurations of n points in 4 dimensions.",
+  "description": "Number of abstract dissection types of configurations of n hyperplanes in 4 dimensions.",
   "id": "A063861",
   "mentions": [
     "A063858"

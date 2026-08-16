@@ -2,6 +2,7 @@
   "description": "Powers of cube root of 4 rounded down.",
   "id": "A017985",
   "mentions": [
+    "A005480",
     "A017979",
     "A017982",
     "A017988",

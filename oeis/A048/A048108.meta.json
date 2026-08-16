@@ -2,10 +2,14 @@
   "description": "Numbers with at least as many non-unitary divisors (A048105) as unitary divisors (A034444).",
   "id": "A048108",
   "mentions": [
+    "A000005",
     "A000203",
+    "A001221",
+    "A001222",
     "A013929",
     "A034444",
     "A034448",
+    "A036785",
     "A048105",
     "A048107",
     "A048250",
@@ -13,7 +17,8 @@
     "A060687",
     "A271971",
     "A325973",
-    "A325974"
+    "A325974",
+    "A338539"
   ],
   "tags": [
     "nonn"

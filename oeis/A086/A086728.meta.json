@@ -1,7 +1,8 @@
 {
-  "description": "Decimal expansion of sum(1/(6*m+2)^2,m=0..infinity).",
+  "description": "Decimal expansion of Sum_{m>=0} 1/(6*m+2)^2.",
   "id": "A086728",
   "mentions": [
+    "A016934",
     "A086722",
     "A086731",
     "A214550"

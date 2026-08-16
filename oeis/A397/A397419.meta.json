@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{j=0..n} binomial(n, j) * A005043(j)^2.",
+  "id": "A397419",
+  "mentions": [
+    "A005043",
+    "A397603"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

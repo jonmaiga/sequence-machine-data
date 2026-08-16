@@ -1,0 +1,16 @@
+{
+  "description": "Bases b for which there exists a larger base c satisfying A394570(b) = A394570(c).",
+  "id": "A395223",
+  "mentions": [
+    "A394570"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

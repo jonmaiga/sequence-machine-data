@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f. cos(cos(x)-1) (even part).",
+  "description": "Expansion of e.g.f. cos(cos(x)-1) (even part).",
   "id": "A192060",
-  "mentions": [],
+  "mentions": [
+    "A059386"
+  ],
   "tags": [
     "formulas",
     "sign"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

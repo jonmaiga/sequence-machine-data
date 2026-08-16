@@ -1,15 +1,13 @@
 {
-  "description": "Peano-like substitution of four symbols that gives a narrow strip with a hole in it: characteristic polynomial:x^4-x^3-4x^2-x-15.",
+  "description": "2-limiting word of the morphism 1->232, 2->313, 3->424, 4->141 started from 1.",
   "id": "A106559",
   "mentions": [],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

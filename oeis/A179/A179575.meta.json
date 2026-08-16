@@ -1,13 +1,19 @@
 {
   "description": "Number of permutations of 1..n+8 with the number moved left exceeding the number moved right by n.",
   "id": "A179575",
-  "mentions": [],
+  "mentions": [
+    "A062866",
+    "A179582",
+    "A179583"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-bfile"
+    "size": 20,
+    "source": "joeis"
   }
 }

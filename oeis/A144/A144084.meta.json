@@ -2,6 +2,7 @@
   "description": "T(n,k) is the number of partial bijections of height k (height(alpha) = |Im(alpha)|) of an n-element set.",
   "id": "A144084",
   "mentions": [
+    "A000142",
     "A001044",
     "A002720",
     "A007318",

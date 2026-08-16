@@ -2,9 +2,12 @@
   "description": "Lexicographically earliest infinite sequence of distinct positive terms such that, for any prime p, any run of consecutive multiples of p has length exactly 2.",
   "id": "A280864",
   "mentions": [
+    "A024619",
     "A064413",
     "A098550",
+    "A120944",
     "A195264",
+    "A280191",
     "A280738",
     "A280740",
     "A280741",
@@ -27,10 +30,18 @@
     "A284726",
     "A284785",
     "A285181",
+    "A285190",
     "A338338",
     "A338444",
+    "A370628",
     "A373797",
-    "A375029"
+    "A375029",
+    "A396300",
+    "A396301",
+    "A396302",
+    "A396303",
+    "A396305",
+    "A396307"
   ],
   "tags": [
     "nice",

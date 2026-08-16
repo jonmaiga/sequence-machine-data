@@ -2,9 +2,11 @@
   "description": "Denominator of resilience R(n) = phi(n)/(n-1).",
   "id": "A160596",
   "mentions": [
-    "A160496"
+    "A160496",
+    "A160595"
   ],
   "tags": [
+    "frac",
     "look",
     "nonn"
   ],

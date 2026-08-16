@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of grand Motzkin paths with air pockets of length n.",
+  "id": "A396923",
+  "mentions": [
+    "A051291"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -2,16 +2,16 @@
   "description": "Indices of record values in A216476.",
   "id": "A216502",
   "mentions": [
-    "A216476"
+    "A216476",
+    "A306564"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Coefficients of E(2,t*E(4,t^2)), where E(d,t)=1+t*E(d,t)^d.",
+  "id": "A393769",
+  "mentions": [
+    "A182299"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

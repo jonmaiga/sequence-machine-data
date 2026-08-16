@@ -2,6 +2,7 @@
   "description": "RUNS transform of A375499.",
   "id": "A375515",
   "mentions": [
+    "A000027",
     "A375499"
   ],
   "tags": [

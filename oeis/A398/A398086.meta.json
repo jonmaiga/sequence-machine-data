@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [x^n] A(x)^n where A(x) = exp(Sum_{k >= 1} binomial(3*k,k)^2 * x^k/k).",
+  "id": "A398086",
+  "mentions": [
+    "A188662",
+    "A362730",
+    "A398085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

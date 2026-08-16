@@ -2,11 +2,17 @@
   "description": "Array read by antidiagonals: T(m,n) is the number of vertices in the longest induced path in the grid graph P_m X P_n.",
   "id": "A360917",
   "mentions": [
+    "A000027",
+    "A007494",
+    "A047408",
+    "A103517",
     "A331968",
     "A360199",
     "A360915",
     "A360916",
-    "A360920"
+    "A360920",
+    "A397153",
+    "A397757"
   ],
   "tags": [
     "formulas",

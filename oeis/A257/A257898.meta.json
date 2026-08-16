@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{n=2..infinity} (-1)^n/log(log(n)), negated.",
+  "description": "Decimal expansion of Sum_{n>=2} (-1)^n/log(log(n)), negated.",
   "id": "A257898",
   "mentions": [
     "A099769",

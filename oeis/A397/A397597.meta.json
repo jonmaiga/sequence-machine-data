@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} A009963(n-1,k) * a(k) for n > 0, with a(0) = 1, where A009963(n,k) = F(n)/(F(k)*F(n-k)) and F(n) = Product_{k=0..n} k! is the superfactorial of n (A000178).",
+  "id": "A397597",
+  "mentions": [
+    "A000110",
+    "A000178",
+    "A009963",
+    "A397589"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

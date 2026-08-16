@@ -1,0 +1,19 @@
+{
+  "description": "Minimum k such that k^7 can be expressed as the sum of n distinct positive 7th powers.",
+  "id": "A395180",
+  "mentions": [
+    "A018935",
+    "A130012",
+    "A130022",
+    "A393280",
+    "A394979"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

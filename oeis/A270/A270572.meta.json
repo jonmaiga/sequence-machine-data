@@ -2,10 +2,10 @@
   "description": "a(1)=3; thereafter a(n) is the number of occurrences of a(n-1) in {a(1), ... , a(n-1)}.",
   "id": "A270572",
   "mentions": [
+    "A118605",
     "A181391",
     "A267794",
-    "A268584",
-    "A269625"
+    "A268584"
   ],
   "tags": [
     "easy",

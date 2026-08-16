@@ -1,0 +1,20 @@
+{
+  "description": "Number of undirected Hamiltonian cycles in the n X n torus grid graph, reduced for symmetry (with rotations, reflections, and translations not counted as distinct).",
+  "id": "A396483",
+  "mentions": [
+    "A209077",
+    "A222199",
+    "A396482"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of prime knots with n crossings and three-genus k, for n >= 3 and 1 <= k <= floor((n-1)/2).",
+  "id": "A394661",
+  "mentions": [
+    "A002863",
+    "A002864",
+    "A051763",
+    "A318051"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

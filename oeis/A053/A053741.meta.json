@@ -2,6 +2,7 @@
   "description": "Sum of even numbers in range 10*n to 10*n+9.",
   "id": "A053741",
   "mentions": [
+    "A001622",
     "A053742",
     "A053743"
   ],

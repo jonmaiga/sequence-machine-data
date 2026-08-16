@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = N(1,p)-N(-1,p)-N(0,p) where p is the n-th odd prime and N(j,p) is the number of i with 0<=i",
+  "id": "A394455",
+  "mentions": [
+    "A000032",
+    "A065091",
+    "A106291",
+    "A395264",
+    "A395295"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

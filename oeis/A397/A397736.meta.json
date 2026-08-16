@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of Motzkin paths of length n in which level steps on even levels come in 2 colors.",
+  "id": "A397736",
+  "mentions": [
+    "A001006",
+    "A090345",
+    "A176677"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

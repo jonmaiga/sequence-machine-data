@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to tile a rectangular strip of length n, ending in a triangle, with three types of tiles.",
+  "id": "A396569",
+  "mentions": [
+    "A397302"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

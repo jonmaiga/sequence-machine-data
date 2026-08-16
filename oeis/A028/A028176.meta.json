@@ -1,14 +1,15 @@
 {
-  "description": "Expansion of 1/((1-5x)(1-6x)(1-9x)(1-12x)).",
+  "description": "Expansion of 1/((1-5*x)*(1-6*x)*(1-9*x)*(1-12*x)).",
   "id": "A028176",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "joeis"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

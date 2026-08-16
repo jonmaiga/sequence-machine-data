@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = max_k [x^k] I(G, x), where G is the n X n toroidal king graph and I(G,x) is its independence polynomial.",
+  "id": "A394697",
+  "mentions": [
+    "A067958",
+    "A189889",
+    "A247413"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

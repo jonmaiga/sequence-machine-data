@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled histories for rooted at-most-5-furcating trees with n leaves, if simultaneous branching events are allowed.",
+  "id": "A396512",
+  "mentions": [
+    "A317059",
+    "A393749",
+    "A396088",
+    "A396488"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

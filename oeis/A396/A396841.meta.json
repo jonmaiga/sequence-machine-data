@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} H(n)/(H(k)*H(n-k)) for n >= 0, where H(n) = Product_{k=0..n} k^k is the hyperfactorial of n (A002109).",
+  "id": "A396841",
+  "mentions": [
+    "A002109",
+    "A074962",
+    "A193520",
+    "A396840",
+    "A397715"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

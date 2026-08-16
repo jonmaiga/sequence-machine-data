@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 17^(2^n) + 2.",
   "id": "A152591",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A001026"
+  ],
   "tags": [
     "easy",
     "nonn"

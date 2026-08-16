@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3, 5, 7 and 11 do not divide swing(n) = A056040(n).",
+  "description": "Numbers k such that 3, 5, 7 and 11 do not divide swing(k) = A056040(k).",
   "id": "A196750",
   "mentions": [
     "A005836",
@@ -13,6 +13,7 @@
   ],
   "tags": [
     "bref",
+    "formulas",
     "nonn"
   ],
   "terms": {

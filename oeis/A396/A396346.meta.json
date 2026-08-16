@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) = a(n-1) - n if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + n - 1.",
+  "id": "A396346",
+  "mentions": [
+    "A005132",
+    "A396344",
+    "A396345",
+    "A396347"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of reduced minimal planar doodle diagrams with n crossings.",
+  "id": "A398266",
+  "mentions": [
+    "A008988",
+    "A277740"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

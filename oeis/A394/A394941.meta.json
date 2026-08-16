@@ -1,0 +1,21 @@
+{
+  "description": "Number of well-formed bracketed words of total length n built from the symbol * (of length 1) and four unary bracket types, with no empty bracket pair.",
+  "id": "A394941",
+  "mentions": [
+    "A001263",
+    "A004148",
+    "A059231",
+    "A394939",
+    "A394940"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

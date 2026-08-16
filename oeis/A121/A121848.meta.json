@@ -1,14 +1,17 @@
 {
-  "description": "The spiral parameter gamma for the icosahedral fullerenes C_n.",
+  "description": "The spiral parameter gamma for the icosahedral fullerenes.",
   "id": "A121848",
-  "mentions": [],
+  "mentions": [
+    "A121847",
+    "A121849"
+  ],
   "tags": [
-    "nonn",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
-    "offset": 20,
-    "size": 21,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
   }
 }

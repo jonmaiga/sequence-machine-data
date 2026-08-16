@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (1 + sqrt(1 + 2*x))/2, where x=sqrt(2).",
+  "description": "Decimal expansion of (1 + sqrt(1 + 2*x))/2, where x = sqrt(2).",
   "id": "A190260",
   "mentions": [
     "A188635",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

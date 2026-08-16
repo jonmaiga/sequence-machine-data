@@ -1,5 +1,5 @@
 {
-  "description": "Primes that show the slow decrease in the larger values of the Andrica function Af(k) = sqrt(p(k+1)) - sqrt(p(k)), where p(k) denotes the k-th prime.",
+  "description": "Primes p(k+1) that show the slow decrease in the larger values of the Andrica function Af(k) = sqrt(p(k+1)) - sqrt(p(k)), where p(k) denotes the k-th prime.",
   "id": "A084975",
   "mentions": [
     "A078693",
@@ -7,9 +7,11 @@
     "A079296",
     "A084974",
     "A084976",
-    "A084977"
+    "A084977",
+    "A151800"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Expansion of g.f. 1/Sum_{k>=0} k!*(k!+1)*x^k/2.",
   "id": "A114039",
   "mentions": [
+    "A055555",
     "A113871"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

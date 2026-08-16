@@ -1,0 +1,20 @@
+{
+  "description": "Triple convolution of the modified Fibonacci sequence F(3n)/2 (A001076).",
+  "id": "A395902",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A001622",
+    "A395431"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

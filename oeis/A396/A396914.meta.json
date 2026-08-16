@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. cosh( 1 / (2 - exp(x)) - 1 ).",
+  "id": "A396914",
+  "mentions": [
+    "A000670",
+    "A024430",
+    "A075729",
+    "A088312",
+    "A397802"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

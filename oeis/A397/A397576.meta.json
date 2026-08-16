@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{0..1} Li_6(x)^2 dx, where Li_6 is the polylogarithm function.",
+  "id": "A397576",
+  "mentions": [
+    "A249651",
+    "A249652",
+    "A397550",
+    "A397555",
+    "A397575",
+    "A397577"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

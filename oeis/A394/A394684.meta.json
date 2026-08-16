@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered pairs of integers (x,y) with 0 <= x <= y and x^2+y^2 < n^2.",
+  "id": "A394684",
+  "mentions": [
+    "A000328",
+    "A000603",
+    "A036702",
+    "A051132",
+    "A063014",
+    "A077768",
+    "A228172"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

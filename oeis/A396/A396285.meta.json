@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of distinct triples of triangles chosen from the n^2 unit triangles of the triangular grid up to rotation.",
+  "id": "A396285",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

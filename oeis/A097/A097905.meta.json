@@ -1,16 +1,20 @@
 {
-  "description": "Triangle where a(m,n) = largest divisor of m! coprime to n.",
+  "description": "Triangle where T(n,m) = largest divisor of n! coprime to m.",
   "id": "A097905",
   "mentions": [
+    "A000142",
+    "A000203",
+    "A008683",
     "A095996"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

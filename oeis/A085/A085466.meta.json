@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the denominator of the polynomial in e^2 giving the (2n)th du Bois Reymond constant.",
+  "description": "a(n) is the denominator of the polynomial in e^2 giving the (2n)-th du Bois Reymond constant.",
   "id": "A085466",
   "mentions": [
     "A062545",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

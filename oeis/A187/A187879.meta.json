@@ -2,9 +2,12 @@
   "description": "a(n) = 3^(n^3).",
   "id": "A187879",
   "mentions": [
-    "A002416"
+    "A002416",
+    "A190539"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

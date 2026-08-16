@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)*H(2*k,4)/k, where H(k,4) = A007410(k)/A007480(k) is the k-th harmonic number of order 4.",
+  "id": "A397198",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A006752",
+    "A007410",
+    "A007480",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A390074",
+    "A397195",
+    "A397196",
+    "A397197"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

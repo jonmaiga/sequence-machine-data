@@ -1,5 +1,5 @@
 {
-  "description": "Sum of all parts of the shell model of partitions of A135010 with n regions.",
+  "description": "Sum of all parts of the modular table of partitions of A135010 with n regions.",
   "id": "A182244",
   "mentions": [
     "A000041",

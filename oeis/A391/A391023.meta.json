@@ -2,6 +2,7 @@
   "description": "Numbers with more than 1 distinct prime factor and whose largest prime factor exponent is 2.",
   "id": "A391023",
   "mentions": [
+    "A001248",
     "A004709",
     "A067259",
     "A126706",

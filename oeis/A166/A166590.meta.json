@@ -3,7 +3,8 @@
   "id": "A166590",
   "mentions": [
     "A001620",
-    "A003959"
+    "A003959",
+    "A132705"
   ],
   "tags": [
     "easy",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
+    "size": 61,
     "source": "oeis-bfile"
   }
 }

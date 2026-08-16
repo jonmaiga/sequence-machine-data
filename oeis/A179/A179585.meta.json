@@ -1,13 +1,30 @@
 {
-  "description": "Number of permutations of 1..n+10 with the number moved left exceeding the number moved right by n or more.",
+  "description": "Number of permutations of 1..n+10 with deficiencies #{i : p(i) < i} exceeding exceedances #{i : p(i) > i} by n or more.",
   "id": "A179585",
-  "mentions": [],
+  "mentions": [
+    "A179564",
+    "A179565",
+    "A179566",
+    "A179570",
+    "A179571",
+    "A179577",
+    "A179578",
+    "A179579",
+    "A179580",
+    "A179581",
+    "A179582",
+    "A179583",
+    "A179584",
+    "A179586"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 11,
+    "offset": 0,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

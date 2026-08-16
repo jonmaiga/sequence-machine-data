@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} gcd(k^5,n).",
+  "id": "A397733",
+  "mentions": [
+    "A018804",
+    "A078430",
+    "A372882",
+    "A393808"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, where the self-convolution of the antidiagonal sums (A097097) equals the row sums (A097096); the row sums also equals the convolution of the main diagonal (A097095) with the Fibonacci sequence (A000045).",
+  "description": "Triangle, read by rows, where the self-convolution of the antidiagonal sums (A097097) equals the row sums (A097096); the row sums also equal the convolution of the main diagonal (A097095) with the Fibonacci sequence (A000045).",
   "id": "A097094",
   "mentions": [
     "A000045",

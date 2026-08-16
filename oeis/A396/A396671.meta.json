@@ -1,0 +1,13 @@
+{
+  "description": "Number of distinct tilings of an L-tromino of order n by elementary L-trominoes.",
+  "id": "A396671",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

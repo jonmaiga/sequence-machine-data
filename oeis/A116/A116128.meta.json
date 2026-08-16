@@ -2,6 +2,7 @@
   "description": "Numbers k such that k concatenated with k-4 gives the product of two numbers which differ by 3.",
   "id": "A116128",
   "mentions": [
+    "A116105",
     "A116122",
     "A116129",
     "A116143",
@@ -9,6 +10,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

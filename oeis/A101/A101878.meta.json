@@ -1,14 +1,18 @@
 {
-  "description": "Expansion of -LambertW(LambertW(-x))/x.",
+  "description": "Expansion of e.g.f. -LambertW(LambertW(-x))/x.",
   "id": "A101878",
-  "mentions": [],
+  "mentions": [
+    "A185298",
+    "A396498"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

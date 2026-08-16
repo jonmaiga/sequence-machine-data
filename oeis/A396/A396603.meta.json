@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonegative integers whose binary values, when written on a square spiral, one bit per square, high order bits first, contain no pair of 1 bits that are a knight's move apart.",
+  "id": "A396603",
+  "mentions": [
+    "A007088",
+    "A394166",
+    "A396604",
+    "A396607",
+    "A396608"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

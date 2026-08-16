@@ -1,0 +1,16 @@
+{
+  "description": "Triangle T(n, k) read by rows: number of graphs in A396149 on n vertices containing exactly k triangles, for n >= 0, 0 <= k <= binomial(n, 3).",
+  "id": "A396364",
+  "mentions": [
+    "A396149"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

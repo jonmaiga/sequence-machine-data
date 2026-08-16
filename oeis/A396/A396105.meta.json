@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that there are no solutions to A048050(x) + A048050(x+k) = k.",
+  "id": "A396105",
+  "mentions": [
+    "A048050"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

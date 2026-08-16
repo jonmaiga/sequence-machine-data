@@ -1,17 +1,27 @@
 {
-  "description": "Numbers n such that sigma(n)=2n-2^d(n) where d(n) is number of positive divisors of n.",
+  "description": "Numbers k such that sigma(k) = 2k - 2^d(k) where d(k) = A000005(k) is the number of positive divisors of k.",
   "id": "A110079",
   "mentions": [
-    "A110080",
-    "A110082"
+    "A000005",
+    "A001222",
+    "A007814",
+    "A098855",
+    "A110082",
+    "A125246",
+    "A125247",
+    "A125248",
+    "A191363",
+    "A275997",
+    "A292557",
+    "A363285",
+    "A387352"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

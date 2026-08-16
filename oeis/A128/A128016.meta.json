@@ -2,7 +2,9 @@
   "description": "Expansion of (1+x+x^2+x^3)/(1-x^2+x^4).",
   "id": "A128016",
   "mentions": [
-    "A128017"
+    "A128017",
+    "A166446",
+    "A166466"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the hafnian of the 2n X 2n symmetric matrix defined by M[i, j] = C(n, (j-i) mod n).",
+  "description": "a(n) is the hafnian of the 2*n X 2*n symmetric matrix defined by M[i, j] = C(2*n, (j-i) mod 2*n).",
   "id": "A394748",
   "mentions": [
     "A048954",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

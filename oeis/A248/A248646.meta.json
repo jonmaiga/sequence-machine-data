@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of x*(5+x+x^2)/(1-2*x).",
+  "description": "Expansion of g.f. x*(x^3+x^2+x+2)/(1-2*x).",
   "id": "A248646",
   "mentions": [
     "A000975",
-    "A001045"
+    "A001045",
+    "A291557"
   ],
   "tags": [
     "easy",

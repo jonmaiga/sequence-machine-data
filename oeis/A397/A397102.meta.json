@@ -1,0 +1,25 @@
+{
+  "description": "Which blocks in A280864 have length 4 and whose first and last terms are primes.",
+  "id": "A397102",
+  "mentions": [
+    "A000720",
+    "A006881",
+    "A100484",
+    "A280864",
+    "A283832",
+    "A396300",
+    "A396301",
+    "A396305",
+    "A396306",
+    "A396307"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

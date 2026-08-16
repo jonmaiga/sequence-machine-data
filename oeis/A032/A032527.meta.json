@@ -1,5 +1,5 @@
 {
-  "description": "Concentric pentagonal numbers: floor( 5*n^2 / 4 ).",
+  "description": "Concentric pentagonal numbers: floor(5*n^2 / 4).",
   "id": "A032527",
   "mentions": [
     "A000290",

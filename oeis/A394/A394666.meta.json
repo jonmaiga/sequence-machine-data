@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! mod (2*n - 1).",
+  "id": "A394666",
+  "mentions": [
+    "A000142",
+    "A005408",
+    "A066160",
+    "A104275"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

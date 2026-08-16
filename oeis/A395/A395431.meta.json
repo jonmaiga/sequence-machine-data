@@ -1,0 +1,20 @@
+{
+  "description": "Self-convolution of A001076.",
+  "id": "A395431",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A001622",
+    "A001629"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

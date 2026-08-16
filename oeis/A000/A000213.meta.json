@@ -2,6 +2,8 @@
   "description": "Tribonacci numbers: a(n) = a(n-1) + a(n-2) + a(n-3) with a(0)=a(1)=a(2)=1.",
   "id": "A000213",
   "mentions": [
+    "A000032",
+    "A000045",
     "A000051",
     "A000073",
     "A000288",

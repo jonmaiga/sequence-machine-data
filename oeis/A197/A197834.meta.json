@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the maximum of (cos(x))^2+(sin(3*Pi*x))^2.",
+  "description": "Decimal expansion of the first local maximum of (cos(x))^2+(sin(3*Pi*x))^2 at x > 0.",
   "id": "A197834",
   "mentions": [
     "A197739",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 99,
     "source": "oeis-entry"
   }

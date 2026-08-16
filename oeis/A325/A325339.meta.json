@@ -2,7 +2,10 @@
   "description": "Number of divisors of n^3 that are <= n.",
   "id": "A325339",
   "mentions": [
+    "A000005",
     "A000578",
+    "A010846",
+    "A018892",
     "A048785"
   ],
   "tags": [

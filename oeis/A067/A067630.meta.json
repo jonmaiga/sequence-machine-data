@@ -1,5 +1,5 @@
 {
-  "description": "Denominators in power series for cos(x)*cosh(x).",
+  "description": "a(n) = (4*n)! / 4^n.",
   "id": "A067630",
   "mentions": [
     "A000680",

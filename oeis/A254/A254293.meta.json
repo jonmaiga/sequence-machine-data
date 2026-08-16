@@ -4,11 +4,12 @@
   "mentions": [],
   "tags": [
     "cons",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": -26,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

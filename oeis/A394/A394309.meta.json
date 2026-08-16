@@ -1,0 +1,18 @@
+{
+  "description": "Number of peakless Motzkin paths of length n with up steps in n colors.",
+  "id": "A394309",
+  "mentions": [
+    "A001006",
+    "A089732",
+    "A307906"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

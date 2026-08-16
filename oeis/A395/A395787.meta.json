@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (Sum_{k>=0} binomial(4*k+2,k) * x^k)^4.",
+  "id": "A395787",
+  "mentions": [
+    "A257633",
+    "A378484",
+    "A386611",
+    "A395786"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

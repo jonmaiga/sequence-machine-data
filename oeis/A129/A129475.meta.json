@@ -1,5 +1,5 @@
 {
-  "description": "Primes of Erdos-Selfridge class 15+.",
+  "description": "Primes of Erdős-Selfridge class 15+.",
   "id": "A129475",
   "mentions": [
     "A005113",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

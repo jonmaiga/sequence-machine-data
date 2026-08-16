@@ -2,7 +2,8 @@
   "description": "Composite squarefree numbers that are multiples of the root mean square of their prime factors.",
   "id": "A255356",
   "mentions": [
-    "A120944"
+    "A120944",
+    "A307894"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

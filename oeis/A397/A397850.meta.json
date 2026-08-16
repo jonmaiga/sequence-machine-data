@@ -1,0 +1,22 @@
+{
+  "description": "Number of tilings of a 4 X n rectangle using straight trominoes and Z-tetrominoes.",
+  "id": "A397850",
+  "mentions": [
+    "A005178",
+    "A174248",
+    "A219862",
+    "A232497",
+    "A233139",
+    "A233191"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

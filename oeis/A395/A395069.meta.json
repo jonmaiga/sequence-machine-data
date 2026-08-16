@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps to return a deck of n cards to its original state (original order and all cards face up) under a cyclic signed prefix-reversal shuffle: repeatedly flip the top 1 card, then the top 2, ..., then all n cards, cycling back to 1 until the initial state is restored.",
+  "id": "A395069",
+  "mentions": [
+    "A002326",
+    "A289386",
+    "A323712"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

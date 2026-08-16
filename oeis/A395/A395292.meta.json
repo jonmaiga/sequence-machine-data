@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cos(x)^3 / cos(sqrt(2)*x).",
+  "id": "A395292",
+  "mentions": [
+    "A000364",
+    "A009117",
+    "A054879",
+    "A395291",
+    "A395293",
+    "A395294",
+    "A395296"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

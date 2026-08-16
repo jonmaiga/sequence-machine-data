@@ -1,8 +1,9 @@
 {
-  "description": "Same as A094858, except that we fix X = 123123123...",
+  "description": "Same as A094859, except that we fix X = 123123123...",
   "id": "A094861",
   "mentions": [
-    "A094858"
+    "A094858",
+    "A094859"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

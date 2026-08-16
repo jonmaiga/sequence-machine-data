@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the number of quadratic residues in the Lucas sequence A000032 modulo p over a full Lucas sequence period A106291(p) equals the number of nonresidues plus the number of terms divisible by p.",
+  "id": "A395264",
+  "mentions": [
+    "A000032",
+    "A106291",
+    "A394870"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

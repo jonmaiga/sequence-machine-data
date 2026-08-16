@@ -1,5 +1,5 @@
 {
-  "description": "Consider the prime race mod q (where q >= 2) between q*k+1 and q*k-1. Terms are numbers k where q*k+1 first takes lead over q*k-1.",
+  "description": "Consider the prime race mod n (where n >= 2) between n*k+1 and n*k-1. Terms are numbers n*k+1 where n*k+1 first takes lead over n*k-1.",
   "id": "A275939",
   "mentions": [
     "A007350",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 10,
+    "offset": 3,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

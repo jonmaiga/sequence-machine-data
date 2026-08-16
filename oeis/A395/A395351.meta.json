@@ -1,0 +1,15 @@
+{
+  "description": "First differences of A392178.",
+  "id": "A395351",
+  "mentions": [
+    "A392178"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

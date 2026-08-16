@@ -1,9 +1,8 @@
 {
-  "description": "n-th digit after decimal point of (sqrt(n^2+4)-n)/2.",
+  "description": "The n-th digit after decimal point of (sqrt(n^2+4)-n)/2.",
   "id": "A085552",
   "mentions": [],
   "tags": [
-    "cons",
     "easy",
     "nonn"
   ],

@@ -1,13 +1,13 @@
 {
-  "description": "Special triangle sides and areas of triangles that transform as Weierstrass elliptic in structure based on the formula A=s*(s-a)*(s-b)*(s-c): s=36.",
+  "description": "Table of 4 rows by 4 columns of parameters regarding triangles with perimeter 72. Column 0, 1 and 2 side length of triangles. Column 3: Squared area of the triangle. For details see the comments.",
   "id": "A115028",
   "mentions": [],
   "tags": [
-    "formulas",
-    "more",
+    "fini",
+    "full",
     "nonn",
-    "tabf",
-    "uned"
+    "obsc",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

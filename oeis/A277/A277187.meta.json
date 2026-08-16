@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A001158(n) == 1 (mod n).",
+  "description": "Numbers k such that A001158(k) == 1 (mod k).",
   "id": "A277187",
   "mentions": [
     "A000040",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 73,
-    "source": "joeis"
+    "size": 74,
+    "source": "oeis-bfile"
   }
 }

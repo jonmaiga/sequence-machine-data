@@ -1,0 +1,17 @@
+{
+  "description": "Area of the smallest convex polygon (by area) which can be triangulated into n different primitive Pythagorean triangles.",
+  "id": "A396490",
+  "mentions": [
+    "A024406",
+    "A396266"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

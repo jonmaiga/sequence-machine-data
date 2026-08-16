@@ -2,6 +2,7 @@
   "description": "Number of minimum connected dominating sets in the n X n knight graph.",
   "id": "A382207",
   "mentions": [
+    "A291705",
     "A382047"
   ],
   "tags": [

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] cosh(x) / cos(x)^6.",
+  "id": "A395389",
+  "mentions": [
+    "A000182",
+    "A000795",
+    "A385343",
+    "A395340",
+    "A395384",
+    "A395386",
+    "A395387",
+    "A395388",
+    "A395390"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

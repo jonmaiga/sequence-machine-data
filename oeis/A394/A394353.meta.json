@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct primes of the form x*y + x*z + y*z with integers 0 <= x <= y <= z <= n.",
+  "id": "A394353",
+  "mentions": [
+    "A225268",
+    "A396668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

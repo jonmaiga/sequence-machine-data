@@ -9,11 +9,13 @@
   "tags": [
     "base",
     "easy",
-    "nonn"
+    "look",
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 2,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

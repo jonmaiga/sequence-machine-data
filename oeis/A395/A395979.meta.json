@@ -1,0 +1,17 @@
+{
+  "description": "Ultra-elite primes: elite primes p such that all their Fermat remainders are either primitive roots, or all nonprimitive roots, modulo p.",
+  "id": "A395979",
+  "mentions": [
+    "A102742",
+    "A346542"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

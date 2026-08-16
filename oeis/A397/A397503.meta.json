@@ -1,0 +1,18 @@
+{
+  "description": "Area of the smallest convex polygon (by area) which can be triangulated into n noncongruent Pythagorean triangles.",
+  "id": "A397503",
+  "mentions": [
+    "A396266",
+    "A396490",
+    "A397502"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

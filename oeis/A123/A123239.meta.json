@@ -1,7 +1,9 @@
 {
   "description": "Primes that do not divide 3^k - 2 for any k.",
   "id": "A123239",
-  "mentions": [],
+  "mentions": [
+    "A019334"
+  ],
   "tags": [
     "nonn"
   ],

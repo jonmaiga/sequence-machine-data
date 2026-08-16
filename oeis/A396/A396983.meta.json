@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = -n * Sum_{i=1..r} (-p_i)^(-e_i) where n = p_1^e_1 *...* p_r^e_r is the prime factorization of n.",
+  "id": "A396983",
+  "mentions": [
+    "A000040",
+    "A056798",
+    "A246551"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

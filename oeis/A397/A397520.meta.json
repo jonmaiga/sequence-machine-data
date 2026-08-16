@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct nonnegative integers such that each 1-bit in the binary plot of the sequence is a knight's move apart from one, and only one, other 1-bit.",
+  "id": "A397520",
+  "mentions": [
+    "A007088",
+    "A109812",
+    "A394166",
+    "A396694",
+    "A396836",
+    "A397519"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

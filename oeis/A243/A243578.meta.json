@@ -1,5 +1,5 @@
 {
-  "description": "Integers n of the form 8k+7 that are sum of distinct squares of the form m, m+1, m+2, m+4, where m == 1 (mod 4).",
+  "description": "Integers j of the form 8k+7 that are sum of distinct squares of the form m, m+1, m+2, m+4, where m == 1 (mod 4).",
   "id": "A243578",
   "mentions": [
     "A004767",
