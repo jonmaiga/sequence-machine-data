@@ -12,6 +12,10 @@
         "n",
         "*",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

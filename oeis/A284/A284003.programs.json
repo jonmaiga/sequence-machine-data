@@ -11,7 +11,8 @@
         "A019565"
       ],
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {
@@ -38,7 +39,8 @@
       ],
       "s": "oeis",
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {

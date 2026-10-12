@@ -37,7 +37,8 @@
       ],
       "s": "oeis",
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {
@@ -58,7 +59,8 @@
         "sub"
       ],
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {
