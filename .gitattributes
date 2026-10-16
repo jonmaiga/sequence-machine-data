@@ -1,1 +1,5 @@
 oeis/**/*.terms.txt filter=lfs diff=lfs merge=lfs -text
+# The Lean project, anchor checks hash the bytes of the proof files so their line endings must not change.
+lean/** text eol=lf
+# Rewritten by every export and too large for a plain git file at full scale (GitHub refuses files over 100 MB).
+lean/provenance.tsv filter=lfs diff=lfs merge=lfs -text
