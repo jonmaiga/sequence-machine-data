@@ -11,6 +11,10 @@
         "*",
         "n",
         "^"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     }
   ]

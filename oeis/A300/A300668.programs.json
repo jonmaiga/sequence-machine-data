@@ -10,6 +10,10 @@
         "n",
         "*",
         "A000016"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

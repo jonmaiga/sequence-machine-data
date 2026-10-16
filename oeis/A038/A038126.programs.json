@@ -2,21 +2,22 @@
   "oi": 38126,
   "ps": [
     {
-      "d": "2025-04-20",
-      "ix": "floor(n*sqrt(2*π))",
+      "d": "2026-10-13",
+      "ix": "floor(sqrt(2*π)*n)",
       "mt": 10000,
       "px": [
-        "n",
         "2",
         "π",
         "*",
         "sqrt",
+        "n",
         "*",
         "floor"
       ],
       "s": "oeis",
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {

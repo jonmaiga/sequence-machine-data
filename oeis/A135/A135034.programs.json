@@ -9,6 +9,9 @@
         "n",
         "sqrt",
         "ceil"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

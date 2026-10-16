@@ -11,6 +11,10 @@
         "sqrt",
         "*",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

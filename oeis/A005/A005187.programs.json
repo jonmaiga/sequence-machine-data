@@ -2,22 +2,23 @@
   "oi": 5187,
   "ps": [
     {
-      "d": "2025-04-20",
-      "ix": "n+a(floor(n/2))",
+      "d": "2026-10-13",
+      "ix": "a(floor(n/2))+n",
       "mt": 10000,
       "px": [
         "0",
-        "n",
         "n",
         "2",
         "/",
         "floor",
         "a",
+        "n",
         "+"
       ],
       "s": "oeis",
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {

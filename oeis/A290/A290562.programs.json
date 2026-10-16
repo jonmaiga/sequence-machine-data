@@ -2,8 +2,8 @@
   "oi": 290562,
   "ps": [
     {
-      "d": "2025-04-20",
-      "ix": "n-round(cos(n*π/2))",
+      "d": "2026-10-13",
+      "ix": "n-cos(n*π/2)",
       "mt": 10000,
       "px": [
         "n",
@@ -13,12 +13,12 @@
         "/",
         "*",
         "cos",
-        "round",
         "sub"
       ],
       "s": "oeis",
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {

@@ -2,16 +2,17 @@
   "oi": 40003,
   "ps": [
     {
-      "d": "2023-06-21",
-      "ix": "runs[val(or(1, n), 3)]",
-      "mt": 10000,
+      "d": "2026-10-13",
+      "ix": "contfrac[sqrt(6)]",
+      "mt": 50,
       "px": [
-        "1",
-        "n",
-        "or",
-        "3",
-        "val",
-        "runs"
+        "6",
+        "sqrt",
+        "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     }
   ]
