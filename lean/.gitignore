@@ -1,0 +1,2 @@
+# Built modules and packages (Mathlib), `lake exe cache get` restores Mathlib.
+.lake/

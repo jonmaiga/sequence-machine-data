@@ -1,0 +1,34 @@
+name = "sequencelean"
+defaultTargets = ["SequenceMachineLib"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.1"
+
+[leanOptions]
+autoImplicit = false
+maxHeartbeats = 400000
+# Generated definitions may not use their argument, e.g. a constant sequence.
+linter.unusedVariables = false
+
+# Hand-written semantics of the sequencedb ops (copied here by `sequencedb-tools lean`).
+[[lean_lib]]
+name = "SequenceMachineLib"
+
+# Generated: per sequence, the canonical program and definition.
+[[lean_lib]]
+name = "Seq"
+globs = ["Seq.+"]
+
+# Generated: the other programs of each sequence and the claims that they compute it, 100 sequences per file, e.g.
+# Prog/A000/A0002.lean holds A000200 to A000299.
+[[lean_lib]]
+name = "Prog"
+globs = ["Prog.+"]
+
+# Hand-written proofs, never written by the generator. One file per sequence, e.g. Proof/A000/A000045.lean, with its
+# anchor `A000045.anchor` and the proofs `A000045.P<hash>.correct` of the claims (`Spec`) in Prog.
+[[lean_lib]]
+name = "Proof"
+globs = ["Proof.+"]
