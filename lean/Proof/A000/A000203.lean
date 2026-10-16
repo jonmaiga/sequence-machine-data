@@ -1,4 +1,4 @@
-import Prog.A000.A000203
+import Prog.A000.A0002
 import Mathlib.NumberTheory.ArithmeticFunction.Misc
 
 /-- A000203 is the sum of divisors σ₁. -/

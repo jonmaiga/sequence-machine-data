@@ -1,4 +1,4 @@
-import Prog.A000.A000217
+import Prog.A000.A0002
 import Mathlib.Tactic
 
 open SequenceMachineLib
