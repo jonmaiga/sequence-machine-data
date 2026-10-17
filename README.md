@@ -8,6 +8,9 @@ The *.meta.json and *.terms.txt files is data extracted from the N.J.A. Sloane's
 
 On top of that many of the *.terms.txt files have been extended by Sean A. Irvine and Georg Fischer's, [jOEIS](https://github.com/archmageirvine/joeis).
 
+The [lean](lean/) folder is a Lean 4 project with definitions of the OEIS sequences generated from these programs, the
+claims that the other programs compute the same sequence and the proofs found for them, see its [README](lean/README.md).
+
 ## License
 
 We follow the OEIS license.
