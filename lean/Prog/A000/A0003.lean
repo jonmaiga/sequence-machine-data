@@ -2,10 +2,103 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
+import Seq.B000.C005
+import Seq.B000.C006
+import Seq.B000.C007
+import Seq.B000.C008
+import Seq.B000.C009
+import Seq.B000.C010
+import Seq.B000.C011
+import Seq.B000.C012
+import Seq.B000.C013
+import Seq.B000.C014
+import Seq.B000.C015
+import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C018
+import Seq.B000.C019
+import Seq.B000.C020
+import Seq.B000.C021
+import Seq.B000.C022
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C000
+import Seq.B001.C001
+import Seq.B001.C002
+import Seq.B001.C003
+import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
+import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
+import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C000
+import Seq.B008.C001
+import Seq.B010.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
+import Seq.Opaque.C001
+import Seq.Opaque.C002
+import Seq.Opaque.C003
+import Seq.Opaque.C004
+import Seq.Opaque.C005
+import Seq.Opaque.C006
+import Seq.Opaque.C007
+import Seq.Opaque.C008
+import Seq.Opaque.C009
+import Seq.Opaque.C010
+import Seq.Opaque.C011
+import Seq.Opaque.C012
+import Seq.Opaque.C013
+import Seq.Opaque.C014
+import Seq.Opaque.C015
+import Seq.Opaque.C016
+import Seq.Opaque.C017
+import Seq.Opaque.C018
+import Seq.Opaque.C019
+import Seq.Opaque.C020
+import Seq.Opaque.C021
+import Seq.Opaque.C022
+import Seq.Opaque.C023
+import Seq.Opaque.C024
+import Seq.Opaque.C025
+import Seq.Opaque.C026
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A000300: 4th power of rooted tree enumerator: linear forests of 4 rooted trees.
@@ -2307,7 +2400,6 @@ namespace A000324
 def P13773497605100384587.Spec : Prop :=
   ∀ n, P13773497605100384587.a n = A000324 n
 
-set_option linter.unusedSimpArgs false in
 theorem P13773497605100384587.correct : P13773497605100384587.Spec := by
   intro n
   simp only [A000324, Nat.add_sub_cancel, A000324.P13773497605100384587.a, A000324.P6600401866894707908.a, SequenceMachineLib.memo_apply]
@@ -2337,7 +2429,6 @@ namespace A000324
 def P11493435417050368747.Spec : Prop :=
   ∀ n, P11493435417050368747.a n = A000324 n
 
-set_option linter.unusedSimpArgs false in
 theorem P11493435417050368747.correct : P11493435417050368747.Spec := by
   intro n
   simp only [A000324, Nat.add_sub_cancel, A000324.P11493435417050368747.a, A000324.P6600401866894707908.a, SequenceMachineLib.memo_apply]
@@ -2367,7 +2458,6 @@ namespace A000324
 def P15605355925028995923.Spec : Prop :=
   ∀ n, P15605355925028995923.a n = A000324 n
 
-set_option linter.unusedSimpArgs false in
 theorem P15605355925028995923.correct : P15605355925028995923.Spec := by
   intro n
   simp only [A000324, Nat.add_sub_cancel, A000324.P15605355925028995923.a, A000324.P6600401866894707908.a, SequenceMachineLib.memo_apply]
@@ -2397,7 +2487,6 @@ namespace A000324
 def P5964123602338103240.Spec : Prop :=
   ∀ n, P5964123602338103240.a n = A000324 n
 
-set_option linter.unusedSimpArgs false in
 theorem P5964123602338103240.correct : P5964123602338103240.Spec := by
   intro n
   simp only [A000324, Nat.add_sub_cancel, A000324.P5964123602338103240.a, A000324.P6600401866894707908.a, SequenceMachineLib.memo_apply]
@@ -3011,7 +3100,7 @@ end A000327.P15971128452908341119
 /-!
 # A000328: Number of points of norm <= n^2 in square lattice.
 
-The programs for A000328, the canonical program `A000328.P3563522184609365216` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000328 has offset 0).
+The programs for A000328, the canonical program `A000328.P3563522184609365216` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000328 has offset 0).
 
 The definition of A000328 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057655, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3043,7 +3132,7 @@ end A000328
 
 `A057655(n²)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A000328
@@ -3565,7 +3654,6 @@ namespace A000330
 def P5613920883090555687.Spec : Prop :=
   ∀ n, P5613920883090555687.a n = (A000330 n : ℚ)
 
-set_option linter.unusedSimpArgs false in
 theorem P5613920883090555687.correct : P5613920883090555687.Spec := by
   intro n
   induction n with
@@ -5765,29 +5853,6 @@ def P16808762841300319260.Spec : Prop :=
 
 end A000340
 
-/-! ## A000340.P14942477549597990192
-
-`n-floor(a(n-1)/(2/3-1))` with `a(0)=1`
--/
-
-namespace A000340.P14942477549597990192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (n : ℤ) - ⌊(a (n - 1) : ℚ) / ((2 : ℚ) / 3 - 1)⌋
-
-end
-
-end A000340.P14942477549597990192
-
-namespace A000340
-
-/-- `n-floor(a(n-1)/(2/3-1))` -/
-def P14942477549597990192.Spec : Prop :=
-  ∀ n, P14942477549597990192.a n = A000340 n
-
-end A000340
-
 /-! ## A000340.P1554668985477649174
 
 `a(n-1)/(1-2/3)+n+1` with `a(0)=1`
@@ -5855,7 +5920,6 @@ namespace A000340
 def P9300956230885352047.Spec : Prop :=
   ∀ n, (P9300956230885352047.a n : ℤ) = A000340 n
 
-set_option linter.unusedSimpArgs false in
 theorem P9300956230885352047.correct : P9300956230885352047.Spec := by
   intro n
   simp only [A000340, Nat.add_sub_cancel, A000340.P9300956230885352047.a, A000340.P8002258449431788932.a, SequenceMachineLib.memo_apply]
@@ -6379,7 +6443,7 @@ end A000343.P2133112026337660969
 /-!
 # A000344: a(n) = 5*binomial(2n, n-2)/(n+3).
 
-The programs for A000344, the canonical program `A000344.P3253285804396126079` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000344 has offset 2).
+The programs for A000344, the canonical program `A000344.P3253285804396126079` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000344 has offset 2).
 
 The definition of A000344 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6584,7 +6648,7 @@ end A000344
 
 `∑[A002057(n)+A000588(n+1)]`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A000344
@@ -8828,7 +8892,6 @@ namespace A000354
 def P1363300145555282750.Spec : Prop :=
   ∀ n, P1363300145555282750.a n = A000354 n
 
-set_option linter.unusedSimpArgs false in
 theorem P1363300145555282750.correct : P1363300145555282750.Spec := by
   intro n
   simp only [A000354, Nat.add_sub_cancel, A000354.P1363300145555282750.a, A000354.P36808897151126541.a, SequenceMachineLib.memo_apply]
@@ -9744,7 +9807,7 @@ end A000359.P6225495248866548682
 /-!
 # A000360: Distribution of nonempty triangles inside a fractal rep-4-tile.
 
-The programs for A000360, the canonical program `A000360.P16123140622544761321` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000360 has offset 0).
+The programs for A000360, the canonical program `A000360.P16123140622544761321` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000360 has offset 0).
 
 The definition of A000360 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002487, A284556, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9753,7 +9816,7 @@ The definition of A000360 is `conditional`: the Lean definition is an OEIS formu
 
 `A002487(1+n)-A284556(1+n)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A000360
@@ -12150,7 +12213,7 @@ end A000378.P1518085748871548896
 /-!
 # A000379: Numbers where total number of 1-bits in the exponents of their prime factorization is even; a 2-way classification of integers: complement of A000028.
 
-The programs for A000379, the canonical program `A000379.P2146762870191125064` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000379 has offset 1).
+The programs for A000379, the canonical program `A000379.P2146762870191125064` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000379 has offset 1).
 
 The definition of A000379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12159,7 +12222,7 @@ The definition of A000379 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A064179(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A000379

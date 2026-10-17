@@ -2,10 +2,106 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
+import Seq.B000.C005
+import Seq.B000.C006
+import Seq.B000.C007
+import Seq.B000.C008
+import Seq.B000.C009
+import Seq.B000.C010
+import Seq.B000.C011
+import Seq.B000.C012
+import Seq.B000.C013
+import Seq.B000.C014
+import Seq.B000.C015
+import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C018
+import Seq.B000.C019
+import Seq.B000.C020
+import Seq.B000.C021
+import Seq.B000.C022
+import Seq.B000.C023
+import Seq.B000.C024
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
+import Seq.B001.C001
+import Seq.B001.C002
+import Seq.B001.C003
+import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
+import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B004.C000
+import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C000
+import Seq.B008.C001
+import Seq.B009.C000
+import Seq.B010.C000
+import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
+import Seq.Opaque.C001
+import Seq.Opaque.C002
+import Seq.Opaque.C003
+import Seq.Opaque.C004
+import Seq.Opaque.C005
+import Seq.Opaque.C006
+import Seq.Opaque.C007
+import Seq.Opaque.C008
+import Seq.Opaque.C009
+import Seq.Opaque.C010
+import Seq.Opaque.C011
+import Seq.Opaque.C012
+import Seq.Opaque.C013
+import Seq.Opaque.C014
+import Seq.Opaque.C015
+import Seq.Opaque.C016
+import Seq.Opaque.C018
+import Seq.Opaque.C019
+import Seq.Opaque.C020
+import Seq.Opaque.C021
+import Seq.Opaque.C022
+import Seq.Opaque.C023
+import Seq.Opaque.C024
+import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A000200: Number of bicentered hydrocarbons with n atoms.
@@ -2943,7 +3039,6 @@ namespace A000211
 def P11797419729362492389.Spec : Prop :=
   ∀ n, P11797419729362492389.a n = A000211 n
 
-set_option linter.unusedSimpArgs false in
 theorem P11797419729362492389.correct : P11797419729362492389.Spec := by
   intro n
   simp only [A000211, Nat.add_sub_cancel, A000211.P11797419729362492389.a, A000211.P1894842817277107205.a, SequenceMachineLib.memo_apply]
@@ -4452,7 +4547,6 @@ namespace A000217
 def P17309007685648604473.Spec : Prop :=
   ∀ n, P17309007685648604473.a n = (A000217 n : ℚ)
 
-set_option linter.unusedSimpArgs false in
 theorem P17309007685648604473.correct : P17309007685648604473.Spec := by
   intro n
   induction n with
@@ -8731,7 +8825,6 @@ namespace A000245
 def P15267245929974036601.Spec : Prop :=
   ∀ n, P15267245929974036601.a n = A000245 n
 
-set_option linter.unusedSimpArgs false in
 theorem P15267245929974036601.correct : P15267245929974036601.Spec := by
   intro n
   simp only [A000245, Nat.add_sub_cancel, A000245.P15267245929974036601.f1, A000245.P15267245929974036601.a, A000245.P15461013057778681831.a, SequenceMachineLib.memo_apply]
@@ -10087,7 +10180,7 @@ end A000251.P13754898662825754751
 /-!
 # A000252: Number of invertible 2 X 2 matrices mod n.
 
-The programs for A000252, the canonical program `A000252.P16726113642141526177` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000252 has offset 1).
+The programs for A000252, the canonical program `A000252.P16726113642141526177` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000252 has offset 1).
 
 The definition of A000252 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10303,7 +10396,7 @@ end A000252
 
 `A000056(n+1)²/A000082(n+1)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A000252
@@ -11149,7 +11242,6 @@ namespace A000255
 def P7853019541827359969.Spec : Prop :=
   ∀ n, P7853019541827359969.a n = A000255 n
 
-set_option linter.unusedSimpArgs false in
 theorem P7853019541827359969.correct : P7853019541827359969.Spec := by
   intro n
   simp only [A000255, Nat.add_sub_cancel, A000255.P7853019541827359969.a, A000255.P10443310413278371170.a, SequenceMachineLib.memo_apply]
@@ -11735,7 +11827,7 @@ end A000259.P9015227954713023404
 /-!
 # A000260: Number of rooted simplicial 3-polytopes with n+3 nodes; or rooted 3-connected triangulations with 2n+2 faces; or rooted 3-connected trivalent maps with 2n+2 vertices.
 
-The programs for A000260, the canonical program `A000260.P7752680408884611661` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000260 has offset 0).
+The programs for A000260, the canonical program `A000260.P7752680408884611661` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000260 has offset 0).
 
 The definition of A000260 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11943,7 +12035,7 @@ end A000260
 
 `gcd(A006632(n+1), A069271(n))`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A000260
@@ -12570,7 +12662,7 @@ end A000264.P950459645584548762
 /-!
 # A000265: Remove all factors of 2 from n; or largest odd divisor of n; or odd part of n.
 
-The programs for A000265, the canonical program `A000265.P2772582252347773295` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000265 has offset 1).
+The programs for A000265, the canonical program `A000265.P2772582252347773295` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000265 has offset 1).
 
 The definition of A000265 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003602, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12579,7 +12671,7 @@ The definition of A000265 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A003602(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A000265
@@ -17093,7 +17185,6 @@ namespace A000289
 def P16754286596632479562.Spec : Prop :=
   ∀ n, P16754286596632479562.a n = A000289 n
 
-set_option linter.unusedSimpArgs false in
 theorem P16754286596632479562.correct : P16754286596632479562.Spec := by
   intro n
   simp only [A000289, Nat.add_sub_cancel, A000289.P16754286596632479562.a, A000289.P1550543265696497488.a, SequenceMachineLib.memo_apply]
@@ -17123,7 +17214,6 @@ namespace A000289
 def P11748579638786837880.Spec : Prop :=
   ∀ n, P11748579638786837880.a n = A000289 n
 
-set_option linter.unusedSimpArgs false in
 theorem P11748579638786837880.correct : P11748579638786837880.Spec := by
   intro n
   simp only [A000289, Nat.add_sub_cancel, A000289.P11748579638786837880.a, A000289.P1550543265696497488.a, SequenceMachineLib.memo_apply]
@@ -17176,7 +17266,6 @@ namespace A000289
 def P4240663479807602769.Spec : Prop :=
   ∀ n, P4240663479807602769.a n = A000289 n
 
-set_option linter.unusedSimpArgs false in
 theorem P4240663479807602769.correct : P4240663479807602769.Spec := by
   intro n
   simp only [A000289, Nat.add_sub_cancel, A000289.P4240663479807602769.a, A000289.P1550543265696497488.a, SequenceMachineLib.memo_apply]
@@ -17892,7 +17981,6 @@ namespace A000292
 def P5158835145986474912.Spec : Prop :=
   ∀ n, (P5158835145986474912.a n : ℤ) = A000292 n
 
-set_option linter.unusedSimpArgs false in
 theorem P5158835145986474912.correct : P5158835145986474912.Spec := by
   intro n
   simp only [A000292, Nat.add_sub_cancel, A000292.P5158835145986474912.a, A000292.P2740769874850917270.a, SequenceMachineLib.memo_apply]

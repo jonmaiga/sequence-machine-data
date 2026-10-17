@@ -2,9 +2,89 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
+import Seq.B000.C005
+import Seq.B000.C007
+import Seq.B000.C008
+import Seq.B000.C009
+import Seq.B000.C011
+import Seq.B000.C012
+import Seq.B000.C015
+import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C018
+import Seq.B000.C020
+import Seq.B000.C021
+import Seq.B000.C023
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B001.C000
+import Seq.B001.C001
+import Seq.B001.C002
+import Seq.B001.C003
+import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C007
+import Seq.B001.C009
 import Seq.B002.C000
+import Seq.B002.C001
+import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B003.C000
+import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B004.C000
+import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B005.C000
+import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C001
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
+import Seq.Opaque.C001
+import Seq.Opaque.C002
+import Seq.Opaque.C003
+import Seq.Opaque.C004
+import Seq.Opaque.C005
+import Seq.Opaque.C006
+import Seq.Opaque.C007
+import Seq.Opaque.C008
+import Seq.Opaque.C009
+import Seq.Opaque.C010
+import Seq.Opaque.C011
+import Seq.Opaque.C012
+import Seq.Opaque.C013
+import Seq.Opaque.C014
+import Seq.Opaque.C015
+import Seq.Opaque.C016
+import Seq.Opaque.C017
+import Seq.Opaque.C018
+import Seq.Opaque.C019
+import Seq.Opaque.C021
+import Seq.Opaque.C022
+import Seq.Opaque.C023
+import Seq.Opaque.C024
+import Seq.Opaque.C025
+import Seq.Opaque.C026
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A000800: Sum of upward diagonals of Eulerian triangle.
@@ -373,7 +453,6 @@ namespace A000803
 def P12159345875794342038.Spec : Prop :=
   ∀ n, P12159345875794342038.a n = A000803 n
 
-set_option linter.unusedSimpArgs false in
 theorem P12159345875794342038.correct : P12159345875794342038.Spec := by
   intro n
   simp only [A000803, Nat.add_sub_cancel, A000803.P12159345875794342038.a, A000803.P10674870317702186638.a, SequenceMachineLib.memo_apply]
@@ -2123,7 +2202,7 @@ end A000843.P11078224264615231837
 /-!
 # A000846: a(n) = C(3n,n) - C(2n,n).
 
-The programs for A000846, the canonical program `A000846.P14698060758087261568` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000846 has offset 0).
+The programs for A000846, the canonical program `A000846.P14698060758087261568` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000846 has offset 0).
 
 The definition of A000846 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2132,7 +2211,7 @@ The definition of A000846 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005809(n)-A000984(n)`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A000846
@@ -3042,7 +3121,7 @@ end A000877.P14351292425887932687
 /-!
 # A000879: Number of primes < prime(n)^2.
 
-The programs for A000879, the canonical program `A000879.P14717816069201064931` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000879 has offset 1).
+The programs for A000879, the canonical program `A000879.P14717816069201064931` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000879 has offset 1).
 
 The definition of A000879 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3192,7 +3271,7 @@ end A000879
 
 `A250474(n+1)-2+n`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A000879
@@ -4028,7 +4107,7 @@ end A000892.P11193806073147124646
 /-!
 # A000894: a(n) = (2*n)!*(2*n+1)! / ((n+1)! * n!^3).
 
-The programs for A000894, the canonical program `A000894.P14882200328801433490` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000894 has offset 0).
+The programs for A000894, the canonical program `A000894.P14882200328801433490` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000894 has offset 0).
 
 The definition of A000894 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4037,7 +4116,7 @@ The definition of A000894 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A000891(n)`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A000894
@@ -4147,7 +4226,7 @@ end A000894
 /-!
 # A000897: a(n) = (4*n)! / ((2*n)!*n!^2).
 
-The programs for A000897, the canonical program `A000897.P14910180461201994835` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000897 has offset 0).
+The programs for A000897, the canonical program `A000897.P14910180461201994835` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000897 has offset 0).
 
 The definition of A000897 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4156,7 +4235,7 @@ The definition of A000897 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000984(n)*A001448(n)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A000897

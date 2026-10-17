@@ -132,8 +132,8 @@ theorem memo_apply {α : Type} (f : ℕ → α) (n : ℕ) : memo f n = f n :=
   rfl
 
 /-- Reports `ok name` when the values are the expected terms, otherwise `fail name values`. The line
-is appended to the file named by `SEQUENCE_MACHINE_CHECK_OUT` right away (scripts/leancheck.py
-follows it to time out slow checks), or printed when it is not set. -/
+is appended to the file named by `SEQUENCE_MACHINE_CHECK_OUT` right away (the checker follows it to
+time out slow checks), or printed when it is not set. -/
 def check {α : Type} [BEq α] [ToString α] (name : String) (values expected : List α) : IO Unit := do
   let line := if values == expected then s!"ok {name}" else s!"fail {name} {values}"
   match ← IO.getEnv "SEQUENCE_MACHINE_CHECK_OUT" with

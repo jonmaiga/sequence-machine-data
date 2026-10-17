@@ -2,10 +2,102 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
+import Seq.B000.C003
+import Seq.B000.C004
+import Seq.B000.C005
+import Seq.B000.C006
+import Seq.B000.C007
+import Seq.B000.C008
+import Seq.B000.C009
+import Seq.B000.C010
+import Seq.B000.C011
+import Seq.B000.C012
+import Seq.B000.C013
+import Seq.B000.C014
+import Seq.B000.C015
+import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C018
+import Seq.B000.C019
+import Seq.B000.C020
+import Seq.B000.C021
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
+import Seq.B001.C001
+import Seq.B001.C002
+import Seq.B001.C003
+import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B002.C000
+import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B004.C000
+import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C000
+import Seq.B008.C001
+import Seq.B009.C000
+import Seq.B010.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
+import Seq.Opaque.C001
+import Seq.Opaque.C002
+import Seq.Opaque.C003
+import Seq.Opaque.C004
+import Seq.Opaque.C005
+import Seq.Opaque.C006
+import Seq.Opaque.C007
+import Seq.Opaque.C008
+import Seq.Opaque.C009
+import Seq.Opaque.C010
+import Seq.Opaque.C011
+import Seq.Opaque.C012
+import Seq.Opaque.C013
+import Seq.Opaque.C014
+import Seq.Opaque.C015
+import Seq.Opaque.C016
+import Seq.Opaque.C017
+import Seq.Opaque.C018
+import Seq.Opaque.C019
+import Seq.Opaque.C020
+import Seq.Opaque.C021
+import Seq.Opaque.C022
+import Seq.Opaque.C023
+import Seq.Opaque.C024
+import Seq.Opaque.C026
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A000400: Powers of 6: a(n) = 6^n.
@@ -522,7 +614,7 @@ end A000402.P2458322043551897662
 /-!
 # A000404: Numbers that are the sum of 2 nonzero squares.
 
-The programs for A000404, the canonical program `A000404.P2881668745635022014` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000404 has offset 1).
+The programs for A000404, the canonical program `A000404.P2881668745635022014` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000404 has offset 1).
 
 The definition of A000404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -692,7 +784,7 @@ end A000404
 
 `∪[A000415(n+1), A004431(n+1)]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A000404
@@ -2565,7 +2657,7 @@ end A000414.P9538851044356859958
 /-!
 # A000415: Numbers that are the sum of 2 but no fewer nonzero squares.
 
-The programs for A000415, the canonical program `A000415.P13707848856828247433` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000415 has offset 1).
+The programs for A000415, the canonical program `A000415.P13707848856828247433` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000415 has offset 1).
 
 The definition of A000415 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9801 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2687,7 +2779,7 @@ end A000415
 
 `filter[A001481(n+2), A049240(#)]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A000415
@@ -4839,7 +4931,7 @@ end A000429.P6324175691485697658
 /-!
 # A000430: Primes and squares of primes.
 
-The programs for A000430, the canonical program `A000430.P3476626595135912415` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000430 has offset 1).
+The programs for A000430, the canonical program `A000430.P3476626595135912415` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000430 has offset 1).
 
 The definition of A000430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4881,7 +4973,7 @@ end A000430
 
 `∪[A000040(n+1), A001248(n+1)]`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A000430
@@ -7191,7 +7283,6 @@ namespace A000442
 def P11564552710304486970.Spec : Prop :=
   ∀ n, P11564552710304486970.a n = (A000442 n : ℝ)
 
-set_option linter.unusedSimpArgs false in
 theorem P11564552710304486970.correct : P11564552710304486970.Spec := by
   intro n
   simp only [A000442, Nat.add_sub_cancel, A000442.P11564552710304486970.a, A000442.P1367213380399715497.a, SequenceMachineLib.memo_apply]
@@ -7225,7 +7316,7 @@ end A000442
 /-!
 # A000443: Numbers that are the sum of 2 squares in exactly 3 ways.
 
-The programs for A000443, the canonical program `A000443.P2477946098226311991` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000443 has offset 1).
+The programs for A000443, the canonical program `A000443.P2477946098226311991` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000443 has offset 1).
 
 The definition of A000443 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7234,7 +7325,7 @@ The definition of A000443 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A000161(n)]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A000443
@@ -8788,7 +8879,7 @@ end A000451.P12221567284105580930
 /-!
 # A000452: The greedy sequence of integers which avoids 3-term geometric progressions.
 
-The programs for A000452, the canonical program `A000452.P15432004544007735088` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000452 has offset 1).
+The programs for A000452, the canonical program `A000452.P15432004544007735088` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000452 has offset 1).
 
 The definition of A000452 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8930,7 +9021,7 @@ end A000452
 
 `eq[2, A001316(A038148(n+1))]+1`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A000452
@@ -11836,7 +11927,6 @@ namespace A000466
 def P1625220488917340918.Spec : Prop :=
   ∀ n, P1625220488917340918.a n = A000466 n
 
-set_option linter.unusedSimpArgs false in
 theorem P1625220488917340918.correct : P1625220488917340918.Spec := by
   intro n
   simp only [A000466, Nat.add_sub_cancel, A000466.P1625220488917340918.a, A000466.P5626493666969552810.a, SequenceMachineLib.memo_apply]
@@ -11912,7 +12002,6 @@ namespace A000466
 def P9626649194185885806.Spec : Prop :=
   ∀ n, P9626649194185885806.a n = A000466 n
 
-set_option linter.unusedSimpArgs false in
 theorem P9626649194185885806.correct : P9626649194185885806.Spec := by
   intro n
   simp only [A000466, Nat.add_sub_cancel, A000466.P9626649194185885806.a, A000466.P5626493666969552810.a, SequenceMachineLib.memo_apply]
@@ -12018,7 +12107,7 @@ end A000468.P18065786587215382513
 /-!
 # A000469: 1 together with products of 2 or more distinct primes.
 
-The programs for A000469, the canonical program `A000469.P516089823978451219` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000469 has offset 1).
+The programs for A000469, the canonical program `A000469.P516089823978451219` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000469 has offset 1).
 
 The definition of A000469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12056,7 +12145,7 @@ end A000469
 
 `A120944(floor(C(n, a(n-1))/2+n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A000469
