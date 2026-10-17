@@ -59370,6 +59370,12 @@ opaque A032965 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A032965.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A032966: Numbers whose base-16 representation Sum_{i=0..m} d(i)*16^(m-i) has even d(i) for all odd i. -/
+opaque A032966 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A032966.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A032967: Numbers with the property that all pairs of consecutive base-4 digits differ by more than 1. -/
 opaque A032967 : ℕ → ℤ
 
@@ -59999,10 +60005,4 @@ opaque A033091 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A033091.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A033092: Positions of incrementally largest terms in the continued fraction for Euler's constant gamma (A002852). -/
-opaque A033092 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A033092.provenance : SequenceMachineLib.Provenance := .undefined
 

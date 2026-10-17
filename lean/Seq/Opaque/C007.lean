@@ -6,6 +6,12 @@ import SequenceMachineLib.Basic
 Sequences without a canonical program (provenance `undefined`), they can be referenced but not evaluated.
 -/
 
+/-- A114654: Discriminant of the polynomial x^n + x + 1. -/
+opaque A114654 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A114654.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A114655: Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k weak ascents (1<=k<=n). A Schroeder path of length 2n is a lattice path from (0,0) to (2n,0) consisting of U=(1,1), D=(1,-1) and H=(2,0) steps and never going below the x-axis. A weak ascent in a Schroeder path is a maximal sequence of consecutive U and H steps. -/
 opaque A114655 : ℕ → ℤ
 
@@ -9713,12 +9719,6 @@ opaque A117209 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A117209.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A117210: G.f. A(x) satisfies (1+x) = product_{n>=1} A(x^n). -/
-opaque A117210 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A117210.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A117215: Number of divisors of x^n-1 having the maximal height A114536(n). -/
 opaque A117215 : ℕ → ℤ

@@ -6,6 +6,12 @@ import SequenceMachineLib.Basic
 Sequences without a canonical program (provenance `undefined`), they can be referenced but not evaluated.
 -/
 
+/-- A098504: Number of compositions of n such that every part occurs with the same multiplicity. -/
+opaque A098504 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A098504.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A098507: Diagonal sums of the number triangle A098505. -/
 opaque A098507 : ℕ → ℤ
 
@@ -59999,10 +60005,4 @@ opaque A114653 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A114653.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A114654: Discriminant of the polynomial x^n + x + 1. -/
-opaque A114654 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A114654.provenance : SequenceMachineLib.Provenance := .undefined
 

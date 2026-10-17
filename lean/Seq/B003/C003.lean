@@ -1104,40 +1104,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A280185.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A179245.P18371884009470140886
-
-`eq[6, A143299(n+1)]`
--/
-
-namespace A179245.P18371884009470140886
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143299 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A179245.P18371884009470140886
-
-noncomputable section
-
-/-- A179245: Numbers that have 5 terms in their Zeckendorf representation.
-
-Offset 1, canonical program `A179245.P18371884009470140886`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3003 terms. -/
-def A179245 (n : ℕ) : ℤ :=
-  (A179245.P18371884009470140886.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3003 terms. -/
-def A179245.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A179262.P16510143958199183968
 
 `A079704(n+1)-1`
@@ -15266,6 +15232,37 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6136 terms. -/
 def A280580.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A280891.P1764150059183000184
+
+`A000245(n)+∑[A026012(n)]`
+-/
+
+namespace A280891.P1764150059183000184
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026012 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000245 n + ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A280891.P1764150059183000184
+
+noncomputable section
+
+/-- A280891: Number of certain noncrossing set partitions.
+
+Offset 1, canonical program `A280891.P1764150059183000184`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. -/
+def A280891 (n : ℕ) : ℤ :=
+  A280891.P1764150059183000184.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. -/
+def A280891.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A179699.P1483605779152392052
 

@@ -6,6 +6,12 @@ import SequenceMachineLib.Basic
 Sequences without a canonical program (provenance `undefined`), they can be referenced but not evaluated.
 -/
 
+/-- A064927: Period of continued fraction for sqrt(23)*n. -/
+opaque A064927 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A064927.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A064928: Inverse of A034175 considered as a permutation of the nonnegative integers (which it is conjectured to be). -/
 opaque A064928 : ℕ → ℤ
 
@@ -59999,10 +60005,4 @@ opaque A082160 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A082160.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A082161: Number of deterministic completely defined initially connected acyclic automata with 2 inputs and n transient unlabeled states (and a unique absorbing state). -/
-opaque A082161 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A082161.provenance : SequenceMachineLib.Provenance := .undefined
 

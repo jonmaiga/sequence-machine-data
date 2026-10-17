@@ -6,6 +6,12 @@ import SequenceMachineLib.Basic
 Sequences without a canonical program (provenance `undefined`), they can be referenced but not evaluated.
 -/
 
+/-- A048698: Nonprime numbers k such that sum of aliquot divisors of k is a cube. -/
+opaque A048698 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A048698.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A048699: Nonprime numbers whose sum of aliquot divisors (A001065) is a perfect square. -/
 opaque A048699 : ℕ → ℤ
 
@@ -59999,10 +60005,4 @@ opaque A064926 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A064926.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A064927: Period of continued fraction for sqrt(23)*n. -/
-opaque A064927 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A064927.provenance : SequenceMachineLib.Provenance := .undefined
 

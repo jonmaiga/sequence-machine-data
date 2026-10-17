@@ -7506,7 +7506,7 @@ end A280889.P7985906555069152689
 /-!
 # A280891: Number of certain noncrossing set partitions.
 
-The programs for A280891, the canonical program `A280891.P1764150059183000184` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280891 has offset 1).
+The programs for A280891, the canonical program `A280891.P1764150059183000184` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280891 has offset 1).
 
 The definition of A280891 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7564,7 +7564,7 @@ end A280891
 
 `A000245(n)+∑[A026012(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A280891

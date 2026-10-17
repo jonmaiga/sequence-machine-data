@@ -49,7 +49,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
@@ -2121,7 +2120,7 @@ end A355927.P11572523045327023011
 /-!
 # A355928: Squarefree part of the sum of divisors of n.
 
-The programs for A355928, the canonical program `A355928.P15397702869236603100` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355928 has offset 1).
+The programs for A355928, the canonical program `A355928.P15397702869236603100` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355928 has offset 1).
 
 The definition of A355928 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2153,7 +2152,7 @@ end A355928
 
 `A007913(∑{d}[n+1, #])`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A355928

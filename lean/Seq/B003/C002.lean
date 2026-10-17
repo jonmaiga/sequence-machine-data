@@ -14487,33 +14487,39 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. -/
 def A179208.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A111655.P15410137681632435708
+/-! ## A179245.P18371884009470140886
 
-`A002808(A111654(n+1))`
+`eq[6, A143299(n+1)]`
 -/
 
-namespace A111655.P15410137681632435708
+namespace A179245.P18371884009470140886
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002808 (A111654 (n + 1)).toNat
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A143299 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
 
 end
 
-end A111655.P15410137681632435708
+end A179245.P18371884009470140886
 
 noncomputable section
 
-/-- A111655: n-th composite number appears n-th composite number times.
+/-- A179245: Numbers that have 5 terms in their Zeckendorf representation.
 
-Offset 1, canonical program `A111655.P15410137681632435708`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A111655 (n : ℕ) : ℤ :=
-  A111655.P15410137681632435708.a (n - 1)
+Offset 1, canonical program `A179245.P18371884009470140886`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3003 terms. -/
+def A179245 (n : ℕ) : ℤ :=
+  (A179245.P18371884009470140886.a (n - 1) : ℤ)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A111655.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3003 terms. -/
+def A179245.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A111657.P14274310389912407619
 

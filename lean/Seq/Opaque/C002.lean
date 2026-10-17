@@ -6,6 +6,12 @@ import SequenceMachineLib.Basic
 Sequences without a canonical program (provenance `undefined`), they can be referenced but not evaluated.
 -/
 
+/-- A033092: Positions of incrementally largest terms in the continued fraction for Euler's constant gamma (A002852). -/
+opaque A033092 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A033092.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A033093: Number of 0's when n is written in base b for 2<=b<=n+1. -/
 opaque A033093 : ℕ → ℤ
 
@@ -59999,10 +60005,4 @@ opaque A048692 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A048692.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A048698: Nonprime numbers k such that sum of aliquot divisors of k is a cube. -/
-opaque A048698 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A048698.provenance : SequenceMachineLib.Provenance := .undefined
 

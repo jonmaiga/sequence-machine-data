@@ -6,6 +6,12 @@ import SequenceMachineLib.Basic
 Sequences without a canonical program (provenance `undefined`), they can be referenced but not evaluated.
 -/
 
+/-- A082161: Number of deterministic completely defined initially connected acyclic automata with 2 inputs and n transient unlabeled states (and a unique absorbing state). -/
+opaque A082161 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A082161.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A082162: Number of deterministic completely defined initially connected acyclic automata with 3 inputs and n transient unlabeled states (and a unique absorbing state). -/
 opaque A082162 : ℕ → ℤ
 
@@ -59999,10 +60005,4 @@ opaque A098503 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A098503.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A098504: Number of compositions of n such that every part occurs with the same multiplicity. -/
-opaque A098504 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A098504.provenance : SequenceMachineLib.Provenance := .undefined
 

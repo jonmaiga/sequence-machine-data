@@ -6183,7 +6183,7 @@ end A179244
 /-!
 # A179245: Numbers that have 5 terms in their Zeckendorf representation.
 
-The programs for A179245, the canonical program `A179245.P18371884009470140886` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179245 has offset 1).
+The programs for A179245, the canonical program `A179245.P18371884009470140886` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179245 has offset 1).
 
 The definition of A179245 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3003 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6215,7 +6215,7 @@ end A179245
 
 `eq[6, A143299(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A179245
