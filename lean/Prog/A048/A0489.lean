@@ -13,20 +13,23 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,15 +41,14 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -54,11 +56,12 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
+import Seq.B009.C001
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -114,6 +117,29 @@ def P2807362337922565529.Spec : Prop :=
 theorem P2807362337922565529.correct : P2807362337922565529.Spec := by
   intro n
   simp only [A048901, Nat.add_sub_cancel]
+
+end A048901
+
+/-! ## A048901.P293728000260977921
+
+`ceil(1/40*sqrt(5)*(1+sqrt(5))*(sqrt(5)+2)^(4*(n+1)-3))`
+-/
+
+namespace A048901.P293728000260977921
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈((1 : ℚ) / 40 : ℝ) * Real.sqrt (5 : ℝ) * ((1 + Real.sqrt (5 : ℝ)) * (Real.sqrt (5 : ℝ) + 2) ^ ((4 * (n + 1) : ℤ) - 3 : ℤ))⌉
+
+end
+
+end A048901.P293728000260977921
+
+namespace A048901
+
+/-- `ceil(1/40*sqrt(5)*(1+sqrt(5))*(sqrt(5)+2)^(4*(n+1)-3))` -/
+def P293728000260977921.Spec : Prop :=
+  ∀ n, P293728000260977921.a n = A048901 (n + 1)
 
 end A048901
 
@@ -186,29 +212,6 @@ def P14916515000412359840.Spec : Prop :=
 
 end A048901
 
-/-! ## A048901.P9873248383618412686
-
-`A110526(3*n+n+1)`
--/
-
-namespace A048901.P9873248383618412686
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110526 (3 * n + (n + 1))
-
-end
-
-end A048901.P9873248383618412686
-
-namespace A048901
-
-/-- `A110526(3*n+n+1)` -/
-def P9873248383618412686.Spec : Prop :=
-  ∀ n, P9873248383618412686.a n = A048901 (n + 1)
-
-end A048901
-
 /-!
 # A048902: Indices of heptagonal numbers (A000566) which are also hexagonal.
 
@@ -233,6 +236,29 @@ def P8781989937731014127.Spec : Prop :=
 theorem P8781989937731014127.correct : P8781989937731014127.Spec := by
   intro n
   simp only [A048902, Nat.add_sub_cancel]
+
+end A048902
+
+/-! ## A048902.P13720263637469669622
+
+`ceil(1/20*(sqrt(5)+1)*(sqrt(5)+2)^(4*(n+1)-3))`
+-/
+
+namespace A048902.P13720263637469669622
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈((1 : ℚ) / 20 : ℝ) * ((Real.sqrt (5 : ℝ) + 1) * (Real.sqrt (5 : ℝ) + 2) ^ ((4 * (n + 1) : ℤ) - 3 : ℤ))⌉
+
+end
+
+end A048902.P13720263637469669622
+
+namespace A048902
+
+/-- `ceil(1/20*(sqrt(5)+1)*(sqrt(5)+2)^(4*(n+1)-3))` -/
+def P13720263637469669622.Spec : Prop :=
+  ∀ n, P13720263637469669622.a n = A048902 (n + 1)
 
 end A048902
 
@@ -305,29 +331,6 @@ def P795025224237913802.Spec : Prop :=
 
 end A048902
 
-/-! ## A048902.P2104100558001683261
-
-`round(A000045(6*n+2)²/2)`
--/
-
-namespace A048902.P2104100558001683261
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A000045 (6 * n + 2) ^ 2 : ℚ) / 2)
-
-end
-
-end A048902.P2104100558001683261
-
-namespace A048902
-
-/-- `round(A000045(6*n+2)²/2)` -/
-def P2104100558001683261.Spec : Prop :=
-  ∀ n, P2104100558001683261.a n = A048902 (n + 1)
-
-end A048902
-
 /-!
 # A048903: 
 
@@ -388,6 +391,29 @@ def P7821780131539412040.Spec : Prop :=
 theorem P7821780131539412040.correct : P7821780131539412040.Spec := by
   intro n
   simp only [A048904, Nat.add_sub_cancel]
+
+end A048904
+
+/-! ## A048904.P8541474321500095447
+
+`ceil(1/60*(3*sqrt(5)+sqrt(6))*(sqrt(5)+sqrt(6))^(4*(n+1)-3))`
+-/
+
+namespace A048904.P8541474321500095447
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈((1 : ℚ) / 60 : ℝ) * ((3 * Real.sqrt (5 : ℝ) + Real.sqrt (6 : ℝ)) * (Real.sqrt (5 : ℝ) + Real.sqrt (6 : ℝ)) ^ ((4 * (n + 1) : ℤ) - 3 : ℤ))⌉
+
+end
+
+end A048904.P8541474321500095447
+
+namespace A048904
+
+/-- `ceil(1/60*(3*sqrt(5)+sqrt(6))*(sqrt(5)+sqrt(6))^(4*(n+1)-3))` -/
+def P8541474321500095447.Spec : Prop :=
+  ∀ n, P8541474321500095447.a n = A048904 (n + 1)
 
 end A048904
 
@@ -1449,6 +1475,29 @@ theorem P11828628516256215739.correct : P11828628516256215739.Spec := by
 
 end A048922
 
+/-! ## A048922.P12615852407589774744
+
+`ceil(1/84*(sqrt(6)+3*sqrt(7))*(sqrt(6)+sqrt(7))^(4*(n+1)-3))`
+-/
+
+namespace A048922.P12615852407589774744
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈((1 : ℚ) / 84 : ℝ) * ((Real.sqrt (6 : ℝ) + 3 * Real.sqrt (7 : ℝ)) * (Real.sqrt (6 : ℝ) + Real.sqrt (7 : ℝ)) ^ ((4 * (n + 1) : ℤ) - 3 : ℤ))⌉
+
+end
+
+end A048922.P12615852407589774744
+
+namespace A048922
+
+/-- `ceil(1/84*(sqrt(6)+3*sqrt(7))*(sqrt(6)+sqrt(7))^(4*(n+1)-3))` -/
+def P12615852407589774744.Spec : Prop :=
+  ∀ n, P12615852407589774744.a n = A048922 (n + 1)
+
+end A048922
+
 /-!
 # A048923: Indices of octagonal numbers which are also 9-gonal.
 
@@ -1473,6 +1522,29 @@ def P5200507149950228937.Spec : Prop :=
 theorem P5200507149950228937.correct : P5200507149950228937.Spec := by
   intro n
   simp only [A048923, Nat.add_sub_cancel]
+
+end A048923
+
+/-! ## A048923.P3679375232092716187
+
+`ceil(1/168*(7*sqrt(6)+2*sqrt(7))*(sqrt(6)+sqrt(7))^(4*(n+1)-3))`
+-/
+
+namespace A048923.P3679375232092716187
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈((1 : ℚ) / 168 : ℝ) * ((7 * Real.sqrt (6 : ℝ) + 2 * Real.sqrt (7 : ℝ)) * (Real.sqrt (6 : ℝ) + Real.sqrt (7 : ℝ)) ^ ((4 * (n + 1) : ℤ) - 3 : ℤ))⌉
+
+end
+
+end A048923.P3679375232092716187
+
+namespace A048923
+
+/-- `ceil(1/168*(7*sqrt(6)+2*sqrt(7))*(sqrt(6)+sqrt(7))^(4*(n+1)-3))` -/
+def P3679375232092716187.Spec : Prop :=
+  ∀ n, P3679375232092716187.a n = A048923 (n + 1)
 
 end A048923
 
@@ -2331,7 +2403,7 @@ end A048942.P8308367279949802506
 /-!
 # A048943: Product of divisors of n is a square.
 
-The programs for A048943, the canonical program `A048943.P2977010921858124116` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048943 has offset 1).
+The programs for A048943, the canonical program `A048943.P2977010921858124116` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048943 has offset 1).
 
 The definition of A048943 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7506 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2424,7 +2496,7 @@ end A048943
 
 `eq[char[A258456(n+1)], A000007(n)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A048943

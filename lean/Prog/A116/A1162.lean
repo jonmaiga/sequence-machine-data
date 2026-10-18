@@ -1,39 +1,37 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
+import Seq.B000.C010
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C020
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B002.C000
+import Seq.B001.C004
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -51,10 +49,9 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
-import Seq.Opaque.C021
+import Seq.Opaque.C020
 import Seq.Opaque.C022
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A116200: Numbers k such that k concatenated with k+6 gives the product of two numbers which differ by 5.
@@ -326,7 +323,7 @@ end A116201
 /-!
 # A116204: a(0) = 1; for n >= 1, a(n) = the number of positive divisors of n which are coprime to a(n-1).
 
-The programs for A116204, the canonical program `A116204.P4596117724917585290` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116204 has offset 0).
+The programs for A116204, the canonical program `A116204.P4596117724917585290` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116204 has offset 0).
 
 The definition of A116204 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -335,7 +332,7 @@ The definition of A116204 is `conjectured`: the Lean definition is a formula tha
 
 `A000005(n/gcd(n, A010805(a(n-1))))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A116204
@@ -731,6 +728,21 @@ end A116209.P8861598584601133020
 The programs for A116212, there is no canonical definition to state claims against.
 -/
 
+/-! ## A116212.P12320263123871545902
+
+`A116137(n+1)-A116137(n)`
+-/
+
+namespace A116212.P12320263123871545902
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116137 (n + 1) - A116137 n
+
+end
+
+end A116212.P12320263123871545902
+
 /-! ## A116212.P9935066996541486015
 
 `Δ[A116137(n)]`
@@ -748,21 +760,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116212.P9935066996541486015
-
-/-! ## A116212.P12320263123871545902
-
-`A116137(n+1)-A116137(n)`
--/
-
-namespace A116212.P12320263123871545902
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A116137 (n + 1) - A116137 n
-
-end
-
-end A116212.P12320263123871545902
 
 /-! ## A116212.P4031137332993073284
 

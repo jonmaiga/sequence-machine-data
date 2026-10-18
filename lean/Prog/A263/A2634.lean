@@ -13,11 +13,11 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -25,18 +25,18 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -44,13 +44,10 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -58,8 +55,9 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1822,7 +1820,7 @@ end A263425.P17457203908895874270
 /-!
 # A263426: Permutation of the nonnegative integers: [4k+2, 4k+1, 4k, 4k+3, ...].
 
-The programs for A263426, the canonical program `A263426.P3981647313201753386` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263426 has offset 0).
+The programs for A263426, the canonical program `A263426.P3981647313201753386` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263426 has offset 0).
 
 The definition of A263426 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1831,7 +1829,7 @@ The definition of A263426 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+(1+(-1)^n)*(-1)^(n*(n+1)/2)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A263426
@@ -3544,7 +3542,7 @@ end A263448.P5205181094664786982
 /-!
 # A263449: Permutation of the natural numbers: [4k+1, 4k+4, 4k+3, 4k+2, ...].
 
-The programs for A263449, the canonical program `A263449.P6118247294194958249` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263449 has offset 0).
+The programs for A263449, the canonical program `A263449.P6118247294194958249` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263449 has offset 0).
 
 The definition of A263449 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3553,7 +3551,7 @@ The definition of A263449 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+(1-(-1)^n)*(-1)^(n*(n-1)/2)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A263449
@@ -4408,6 +4406,21 @@ end A263452.P1622741381906322727
 The programs for A263455, there is no canonical definition to state claims against.
 -/
 
+/-! ## A263455.P12531959164216999338
+
+`(A084697(n+2)-A084697(n+1))/(n+1)`
+-/
+
+namespace A263455.P12531959164216999338
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A084697 (n + 2) - A084697 (n + 1) : ℚ) / (n + 1 : ℚ)
+
+end
+
+end A263455.P12531959164216999338
+
 /-! ## A263455.P10769022570731337695
 
 `Δ[A084697(n+1)]/(n+1)`
@@ -4425,21 +4438,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A263455.P10769022570731337695
-
-/-! ## A263455.P12531959164216999338
-
-`(A084697(n+2)-A084697(n+1))/(n+1)`
--/
-
-namespace A263455.P12531959164216999338
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A084697 (n + 2) - A084697 (n + 1) : ℚ) / (n + 1 : ℚ)
-
-end
-
-end A263455.P12531959164216999338
 
 /-! ## A263455.P3744207786927094018
 
@@ -4858,7 +4856,7 @@ end A263458.P10128910364247126934
 /-!
 # A263459: Number of (n+1) X (1+1) 0..4 arrays with each row and column divisible by 11, read as a base-5 number with top and left being the most significant digits.
 
-The programs for A263459, the canonical program `A263459.P4082080923444722878` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263459 has offset 1).
+The programs for A263459, the canonical program `A263459.P4082080923444722878` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263459 has offset 1).
 
 The definition of A263459 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4867,7 +4865,7 @@ The definition of A263459 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)+a(n-5)-3*a(n-6)` with `a(0)=2, a(1)=3, a(2)=8, a(3)=23, a(4)=67, a(5)=200`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A263459

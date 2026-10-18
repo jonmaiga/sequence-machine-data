@@ -21,14 +21,16 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,17 +53,18 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,7 +90,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A146301: a(n) = (8*n+3)*(8*n+7).
@@ -5951,6 +5953,21 @@ end A146343.P7168213568500572567
 The programs for A146344, there is no canonical definition to state claims against.
 -/
 
+/-! ## A146344.P12347375574880647867
+
+`A146326(A146345(n+1))`
+-/
+
+namespace A146344.P12347375574880647867
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146326 (A146345 (n + 1)).toNat
+
+end
+
+end A146344.P12347375574880647867
+
 /-! ## A146344.P16232837737881695540
 
 `record[A146326(n+1)]`
@@ -5968,21 +5985,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146344.P16232837737881695540
-
-/-! ## A146344.P12347375574880647867
-
-`A146326(A146345(n+1))`
--/
-
-namespace A146344.P12347375574880647867
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146326 (A146345 (n + 1)).toNat
-
-end
-
-end A146344.P12347375574880647867
 
 /-! ## A146344.P15757610629820655556
 

@@ -7,8 +7,8 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -20,8 +20,9 @@ import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,8 +33,8 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -43,7 +44,6 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -53,6 +53,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +79,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A355100: E.g.f. A(x) satisfies A(x) = 1 + 2 * x * A(exp(x) - 1).
@@ -702,7 +702,7 @@ end A355117.P16441708802788740586
 /-!
 # A355118: The number of nonequivalent root ancestral configurations in a recursively defined family of gene trees and species trees with at least n = 9 leaves, in which for n >= 12 leaves, 3-leaf trees are successively added at the root of the tree with n-3 leaves.
 
-The programs for A355118, the canonical program `A355118.P11490181524008332852` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355118 has offset 9).
+The programs for A355118, the canonical program `A355118.P11490181524008332852` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355118 has offset 9).
 
 The definition of A355118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -711,7 +711,7 @@ The definition of A355118 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)` with `a(0)=23, a(1)=33, a(2)=47`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A355118
@@ -1342,27 +1342,53 @@ end A355138.P1840124184809535280
 /-!
 # A355140: n/d(n) rounded to the nearest integer, where d(n) is the number of divisors of n (A000005).
 
-The programs for A355140, the canonical program `A355140.P1485181131064160105` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355140 has offset 1).
+The programs for A355140, the canonical program `A355140.P14893836911162377731` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355140 has offset 1).
 
-The definition of A355140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A355140 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A355140.P14893836911162377731
+
+`round((n+1)/A000005(n+1))`
+
+The canonical program, it is in `Seq.B002.C006`.
+-/
+
+namespace A355140
+
+/-- `round((n+1)/A000005(n+1))` -/
+def P14893836911162377731.Spec : Prop :=
+  ∀ n, P14893836911162377731.a n = A355140 (n + 1)
+
+theorem P14893836911162377731.correct : P14893836911162377731.Spec := by
+  intro n
+  simp only [A355140, Nat.add_sub_cancel]
+
+end A355140
 
 /-! ## A355140.P1485181131064160105
 
 `round((n+1)/∏{e}[n+1, #+1])`
-
-The canonical program, it is in `Seq.B000.C033`.
 -/
+
+namespace A355140.P1485181131064160105
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((n + 1 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), (Nat.factorization (f1 n) p + 1) : ℕ) : ℚ))
+
+end
+
+end A355140.P1485181131064160105
 
 namespace A355140
 
 /-- `round((n+1)/∏{e}[n+1, #+1])` -/
 def P1485181131064160105.Spec : Prop :=
   ∀ n, P1485181131064160105.a n = A355140 (n + 1)
-
-theorem P1485181131064160105.correct : P1485181131064160105.Spec := by
-  intro n
-  simp only [A355140, Nat.add_sub_cancel]
 
 end A355140
 
@@ -1493,29 +1519,6 @@ namespace A355140
 /-- `round((n+1)/Δ[A006218(n)])` -/
 def P4112601679961234063.Spec : Prop :=
   ∀ n, P4112601679961234063.a n = A355140 (n + 1)
-
-end A355140
-
-/-! ## A355140.P14893836911162377731
-
-`round((n+1)/A000005(n+1))`
--/
-
-namespace A355140.P14893836911162377731
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((n + 1 : ℚ) / (A000005 (n + 1) : ℚ))
-
-end
-
-end A355140.P14893836911162377731
-
-namespace A355140
-
-/-- `round((n+1)/A000005(n+1))` -/
-def P14893836911162377731.Spec : Prop :=
-  ∀ n, P14893836911162377731.a n = A355140 (n + 1)
 
 end A355140
 
@@ -4032,7 +4035,7 @@ end A355181.P12667323581034822255
 /-!
 # A355182: a(n) = t(n) - s(n) where s(n) = n*(n-1)/2 is the sum of the first n nonnegative integers and t(n) is the smallest sum of consecutive integers starting from n such that t(n) > s(n).
 
-The programs for A355182, the canonical program `A355182.P7640286436067638090` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355182 has offset 1).
+The programs for A355182, the canonical program `A355182.P7640286436067638090` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355182 has offset 1).
 
 The definition of A355182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2929 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4068,7 +4071,7 @@ end A355182
 
 `A128549(A063957(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A355182

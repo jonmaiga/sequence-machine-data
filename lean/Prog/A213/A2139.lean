@@ -5,10 +5,10 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -16,35 +16,33 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C027
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,6 +59,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,7 +87,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A213900: The minimum number of 11's in the relation n*[n,11,11,...,11,n] = [x,...,x] between simple terminating continued fractions.
@@ -589,16 +588,16 @@ end A213906.P8291113216111358304
 /-!
 # A213908: Minimal number of terms in the series 1/n + 1/(n+1) + 1/(n+2) + ... to obtain a sum >= 1.
 
-The programs for A213908, the canonical program `A213908.P5623755903322932494` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213908 has offset 1).
+The programs for A213908, the canonical program `A213908.P5623755903322932494` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213908 has offset 1).
 
-The definition of A213908 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A103762, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A213908 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A213908.P5623755903322932494
 
 `A103762(n+1)-n`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A213908
@@ -2538,8 +2537,29 @@ end A213924.P2538742490353646155
 /-!
 # A213926: prime(n^2) - prime(n).
 
-The programs for A213926, there is no canonical definition to state claims against.
+The programs for A213926, the canonical program `A213926.P7531459219814302167` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213926 has offset 1).
+
+The definition of A213926 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A213926.P7531459219814302167
+
+`A000040((n+1)²)-A000040(n+1)`
+
+The canonical program, it is in `Seq.B001.C006`.
+-/
+
+namespace A213926
+
+/-- `A000040((n+1)²)-A000040(n+1)` -/
+def P7531459219814302167.Spec : Prop :=
+  ∀ n, P7531459219814302167.a n = A213926 (n + 1)
+
+theorem P7531459219814302167.correct : P7531459219814302167.Spec := by
+  intro n
+  simp only [A213926, Nat.add_sub_cancel]
+
+end A213926
 
 /-! ## A213926.P15286182652573985365
 
@@ -2559,6 +2579,14 @@ end
 
 end A213926.P15286182652573985365
 
+namespace A213926
+
+/-- `A011757(n+1)-Δ[A007504(n)]` -/
+def P15286182652573985365.Spec : Prop :=
+  ∀ n, P15286182652573985365.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P6602564944987293573
 
 `A141129(n+1)+A073497(n+1)`
@@ -2573,6 +2601,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213926.P6602564944987293573
+
+namespace A213926
+
+/-- `A141129(n+1)+A073497(n+1)` -/
+def P6602564944987293573.Spec : Prop :=
+  ∀ n, P6602564944987293573.a n = A213926 (n + 1)
+
+end A213926
 
 /-! ## A213926.P10425480043354138373
 
@@ -2589,6 +2625,14 @@ end
 
 end A213926.P10425480043354138373
 
+namespace A213926
+
+/-- `A011757(n+1)-A000040(n+1)` -/
+def P10425480043354138373.Spec : Prop :=
+  ∀ n, P10425480043354138373.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P16222996279053846038
 
 `A036689(n+1)-A123914(n+1)`
@@ -2604,6 +2648,14 @@ end
 
 end A213926.P16222996279053846038
 
+namespace A213926
+
+/-- `A036689(n+1)-A123914(n+1)` -/
+def P16222996279053846038.Spec : Prop :=
+  ∀ n, P16222996279053846038.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P16524128484381451612
 
 `A011757(n+1)-A008578(n+2)`
@@ -2618,6 +2670,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213926.P16524128484381451612
+
+namespace A213926
+
+/-- `A011757(n+1)-A008578(n+2)` -/
+def P16524128484381451612.Spec : Prop :=
+  ∀ n, P16524128484381451612.a n = A213926 (n + 1)
+
+end A213926
 
 /-! ## A213926.P12930725640688132737
 
@@ -2637,6 +2697,14 @@ end
 
 end A213926.P12930725640688132737
 
+namespace A213926
+
+/-- `A011757(n+1)-abs(Δ[A064365(n)])` -/
+def P12930725640688132737.Spec : Prop :=
+  ∀ n, P12930725640688132737.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P12498758376989109709
 
 `A011757(n+1)-sqrt(A001248(n+1))`
@@ -2651,6 +2719,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A213926.P12498758376989109709
+
+namespace A213926
+
+/-- `A011757(n+1)-sqrt(A001248(n+1))` -/
+def P12498758376989109709.Spec : Prop :=
+  ∀ n, P12498758376989109709.a n = (A213926 (n + 1) : ℝ)
+
+end A213926
 
 /-! ## A213926.P17929631419019505501
 
@@ -2670,6 +2746,14 @@ end
 
 end A213926.P17929631419019505501
 
+namespace A213926
+
+/-- `A011757(n+1)-∑[A054541(n+1)]` -/
+def P17929631419019505501.Spec : Prop :=
+  ∀ n, P17929631419019505501.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P7599064836879849816
 
 `A011757(n+1)-(A006093(n+1)+1)`
@@ -2684,6 +2768,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213926.P7599064836879849816
+
+namespace A213926
+
+/-- `A011757(n+1)-(A006093(n+1)+1)` -/
+def P7599064836879849816.Spec : Prop :=
+  ∀ n, P7599064836879849816.a n = A213926 (n + 1)
+
+end A213926
 
 /-! ## A213926.P1734358193775886488
 
@@ -2700,6 +2792,14 @@ end
 
 end A213926.P1734358193775886488
 
+namespace A213926
+
+/-- `A011757(n+1)+1-A008864(n+1)` -/
+def P1734358193775886488.Spec : Prop :=
+  ∀ n, P1734358193775886488.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P12573645275654979069
 
 `A011757(n+1)-(A040976(n+1)+2)`
@@ -2714,6 +2814,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213926.P12573645275654979069
+
+namespace A213926
+
+/-- `A011757(n+1)-(A040976(n+1)+2)` -/
+def P12573645275654979069.Spec : Prop :=
+  ∀ n, P12573645275654979069.a n = A213926 (n + 1)
+
+end A213926
 
 /-! ## A213926.P10040194056717988573
 
@@ -2730,6 +2838,14 @@ end
 
 end A213926.P10040194056717988573
 
+namespace A213926
+
+/-- `A011757(n+1)+2-A052147(n+1)` -/
+def P10040194056717988573.Spec : Prop :=
+  ∀ n, P10040194056717988573.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P1284224908185737377
 
 `A011757(n+1)-A067747(2*n+1)`
@@ -2744,6 +2860,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213926.P1284224908185737377
+
+namespace A213926
+
+/-- `A011757(n+1)-A067747(2*n+1)` -/
+def P1284224908185737377.Spec : Prop :=
+  ∀ n, P1284224908185737377.a n = A213926 (n + 1)
+
+end A213926
 
 /-! ## A213926.P1931845833630318118
 
@@ -2760,6 +2884,14 @@ end
 
 end A213926.P1931845833630318118
 
+namespace A213926
+
+/-- `A092504(n+1)-A100484(n+1)` -/
+def P1931845833630318118.Spec : Prop :=
+  ∀ n, P1931845833630318118.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P8283020494882843236
 
 `A092504(n+1)-2*A000040(n+1)`
@@ -2774,6 +2906,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213926.P8283020494882843236
+
+namespace A213926
+
+/-- `A092504(n+1)-2*A000040(n+1)` -/
+def P8283020494882843236.Spec : Prop :=
+  ∀ n, P8283020494882843236.a n = A213926 (n + 1)
+
+end A213926
 
 /-! ## A213926.P5376266694487118307
 
@@ -2790,6 +2930,14 @@ end
 
 end A213926.P5376266694487118307
 
+namespace A213926
+
+/-- `2*A011757(n+1)-A092504(n+1)` -/
+def P5376266694487118307.Spec : Prop :=
+  ∀ n, P5376266694487118307.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P3366494075683485590
 
 `A323526(n+2)-A000040(n+1)`
@@ -2804,6 +2952,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A213926.P3366494075683485590
+
+namespace A213926
+
+/-- `A323526(n+2)-A000040(n+1)` -/
+def P3366494075683485590.Spec : Prop :=
+  ∀ n, P3366494075683485590.a n = A213926 (n + 1)
+
+end A213926
 
 /-! ## A213926.P2357520944159708803
 
@@ -2823,6 +2979,14 @@ end
 
 end A213926.P2357520944159708803
 
+namespace A213926
+
+/-- `A011757(n+1)-p?[A014681(n)]` -/
+def P2357520944159708803.Spec : Prop :=
+  ∀ n, P2357520944159708803.a n = A213926 (n + 1)
+
+end A213926
+
 /-! ## A213926.P8259731517034313363
 
 `A296857(A182986(n+2))-A182986(n+2)`
@@ -2838,23 +3002,13 @@ end
 
 end A213926.P8259731517034313363
 
-/-! ## A213926.P4978272908498604824
+namespace A213926
 
-`record[A296857(A006530(n+1))-A006530(n+1)]`
--/
+/-- `A296857(A182986(n+2))-A182986(n+2)` -/
+def P8259731517034313363.Spec : Prop :=
+  ∀ n, P8259731517034313363.a n = A213926 (n + 1)
 
-namespace A213926.P4978272908498604824
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A296857 (A006530 (n + 1)).toNat - A006530 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A213926.P4978272908498604824
+end A213926
 
 /-!
 # A213931: Smallest number k such that the sum of divisors of k equals n times a nontrivial integer power.
@@ -4687,7 +4841,7 @@ end A213966.P13656023252770521828
 /-!
 # A213967: a(n)=n for n<=3; thereafter a(n)=a(n-1)+a(n-2)+a(n-3)+1.
 
-The programs for A213967, the canonical program `A213967.P458744745567570496` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213967 has offset 0).
+The programs for A213967, the canonical program `A213967.P458744745567570496` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213967 has offset 0).
 
 The definition of A213967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-2)+a(n-3)+1` (program `A213967.P458744745567570496`, by `A213967.P458744745567570496.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4696,7 +4850,7 @@ The definition of A213967 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+a(n-2)+a(n-3)+1` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A213967

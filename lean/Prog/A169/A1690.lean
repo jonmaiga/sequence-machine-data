@@ -1,9 +1,9 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C007
-import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B001.C001
-import Seq.B006.C000
+import Seq.B003.C000
 import Seq.B007.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -13,7 +13,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C011
 import Seq.Opaque.C015
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 
 /-!
 # A169016: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^24 = I.

@@ -1,20 +1,21 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C019
+import Seq.B000.C012
+import Seq.B000.C015
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B002.C002
-import Seq.B004.C001
+import Seq.B004.C000
 import Seq.B007.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -22,15 +23,19 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C006
+import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C016
 import Seq.Opaque.C018
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A019913: Decimal expansion of tangent of 15 degrees.
@@ -320,6 +325,24 @@ namespace A019943
 /-- `(5^(n+2)-2*7^(n+2)+9^(n+2))/8` -/
 def P4623308934492313573.Spec : Prop :=
   ∀ n, P4623308934492313573.a n = (A019943 n : ℚ)
+
+theorem P4623308934492313573.correct : P4623308934492313573.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A019943, Nat.add_sub_cancel, A019943.P4623308934492313573.a, A019943.P14829080063701238804.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A019943, Nat.add_sub_cancel, A019943.P4623308934492313573.a, A019943.P14829080063701238804.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A019943
 

@@ -18,6 +18,10 @@
         "+",
         "!",
         "*"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

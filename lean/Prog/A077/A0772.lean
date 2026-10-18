@@ -21,7 +21,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -30,6 +30,8 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,6 +47,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -52,15 +55,16 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
+import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,7 +76,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -520,7 +523,7 @@ end A077211.P11504511149663919129
 /-!
 # A077212: a(n) = A077211(n)^(1/2).
 
-The programs for A077212, the canonical program `A077212.P16698404188077678563` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077212 has offset 1).
+The programs for A077212, the canonical program `A077212.P16698404188077678563` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077212 has offset 1).
 
 The definition of A077212 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -554,7 +557,7 @@ end A077212
 
 `floor(sqrt(n)*a(n-1))+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077212
@@ -926,7 +929,7 @@ end A077217.P3973785477194349125
 /-!
 # A077218: Sum of numbers of prime factors (counted with multiplicities) of numbers between n-th and (n+1)-st prime.
 
-The programs for A077218, the canonical program `A077218.P785408297749336745` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077218 has offset 1).
+The programs for A077218, the canonical program `A077218.P785408297749336745` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077218 has offset 1).
 
 The definition of A077218 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9591 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1036,7 +1039,7 @@ end A077218
 
 `Δ[A022559(A000040(n+1))]-1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A077218
@@ -1244,7 +1247,7 @@ end A077219.P10992317859452610609
 /-!
 # A077221: a(0) = 0 and then alternately even and odd numbers in increasing order such that the sum of any two successive terms is a square.
 
-The programs for A077221, the canonical program `A077221.P5633681332112256696` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077221 has offset 0).
+The programs for A077221, the canonical program `A077221.P5633681332112256696` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077221 has offset 0).
 
 The definition of A077221 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1253,7 +1256,7 @@ The definition of A077221 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n²+((-1)^n-1)/2`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077221
@@ -2418,7 +2421,7 @@ end A077233.P1806743339832404830
 /-!
 # A077234: Bisection (odd part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077234, the canonical program `A077234.P12622536269084861417` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077234 has offset 0).
+The programs for A077234, the canonical program `A077234.P12622536269084861417` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077234 has offset 0).
 
 The definition of A077234 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2427,7 +2430,7 @@ The definition of A077234 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-a(n-2)` with `a(0)=2, a(1)=9`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077234
@@ -2865,7 +2868,7 @@ end A077234
 /-!
 # A077235: Bisection (odd part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077235, the canonical program `A077235.P6251290856030080088` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077235 has offset 0).
+The programs for A077235, the canonical program `A077235.P6251290856030080088` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077235 has offset 0).
 
 The definition of A077235 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2874,7 +2877,7 @@ The definition of A077235 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-a(n-2)` with `a(0)=5, a(1)=16`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077235
@@ -3327,7 +3330,7 @@ end A077235
 /-!
 # A077236: a(n) = 4*a(n-1) - a(n-2) with a(0) = 4 and a(1) = 11.
 
-The programs for A077236, the canonical program `A077236.P12637168139624556619` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077236 has offset 0).
+The programs for A077236, the canonical program `A077236.P12637168139624556619` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077236 has offset 0).
 
 The definition of A077236 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*a(n-1)-a(n-2)` (program `A077236.P12637168139624556619`, by `A077236.P12637168139624556619.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3336,7 +3339,7 @@ The definition of A077236 is `verified`: the Lean definition is proven equivalen
 
 `4*a(n-1)-a(n-2)` with `a(0)=4, a(1)=11`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077236
@@ -3783,7 +3786,7 @@ end A077236
 /-!
 # A077237: Combined Diophantine Chebyshev sequences A054491 and A077234.
 
-The programs for A077237, the canonical program `A077237.P4194021742550917797` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077237 has offset 0).
+The programs for A077237, the canonical program `A077237.P4194021742550917797` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077237 has offset 0).
 
 The definition of A077237 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3792,7 +3795,7 @@ The definition of A077237 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=6, a(3)=9`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077237
@@ -4039,7 +4042,7 @@ end A077237
 /-!
 # A077238: Combined Diophantine Chebyshev sequences A077236 and A077235.
 
-The programs for A077238, the canonical program `A077238.P5403254022117692508` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077238 has offset 0).
+The programs for A077238, the canonical program `A077238.P5403254022117692508` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077238 has offset 0).
 
 The definition of A077238 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4048,7 +4051,7 @@ The definition of A077238 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-2)-a(n-4)` with `a(0)=4, a(1)=5, a(2)=11, a(3)=16`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077238
@@ -4211,7 +4214,7 @@ end A077238
 /-!
 # A077239: Bisection (odd part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077239, the canonical program `A077239.P419347365333785728` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077239 has offset 0).
+The programs for A077239, the canonical program `A077239.P419347365333785728` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077239 has offset 0).
 
 The definition of A077239 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4220,7 +4223,7 @@ The definition of A077239 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-1)-a(n-2)` with `a(0)=7, a(1)=37`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077239
@@ -4710,7 +4713,7 @@ end A077239
 /-!
 # A077240: Bisection (even part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077240, the canonical program `A077240.P9403546108475420129` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077240 has offset 0).
+The programs for A077240, the canonical program `A077240.P9403546108475420129` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077240 has offset 0).
 
 The definition of A077240 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4719,7 +4722,7 @@ The definition of A077240 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-1)-a(n-2)` with `a(0)=5, a(1)=23`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077240
@@ -5670,7 +5673,7 @@ end A077241
 /-!
 # A077242: Combined Diophantine Chebyshev sequences A077240 and A077239.
 
-The programs for A077242, the canonical program `A077242.P13457128912001529896` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077242 has offset 0).
+The programs for A077242, the canonical program `A077242.P13457128912001529896` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077242 has offset 0).
 
 The definition of A077242 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5679,7 +5682,7 @@ The definition of A077242 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)` with `a(0)=5, a(1)=7, a(2)=23, a(3)=37`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077242
@@ -5838,7 +5841,7 @@ end A077242
 /-!
 # A077243: Bisection (odd part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077243, the canonical program `A077243.P15057174032571978223` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077243 has offset 0).
+The programs for A077243, the canonical program `A077243.P15057174032571978223` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077243 has offset 0).
 
 The definition of A077243 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5847,7 +5850,7 @@ The definition of A077243 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-a(n-2)` with `a(0)=2, a(1)=17`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077243
@@ -6306,7 +6309,7 @@ end A077243
 /-!
 # A077244: Bisection (odd part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077244, the canonical program `A077244.P7143022164104243357` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077244 has offset 0).
+The programs for A077244, the canonical program `A077244.P7143022164104243357` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077244 has offset 0).
 
 The definition of A077244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6315,7 +6318,7 @@ The definition of A077244 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-a(n-2)` with `a(0)=3, a(1)=22`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077244
@@ -6762,7 +6765,7 @@ end A077244
 /-!
 # A077245: Bisection (even part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077245, the canonical program `A077245.P15138660708331962464` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077245 has offset 0).
+The programs for A077245, the canonical program `A077245.P15138660708331962464` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077245 has offset 0).
 
 The definition of A077245 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6771,7 +6774,7 @@ The definition of A077245 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-a(n-2)` with `a(0)=1, a(1)=10`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077245
@@ -7227,7 +7230,7 @@ end A077245
 /-!
 # A077246: Bisection (even part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077246, the canonical program `A077246.P3618304788169520106` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077246 has offset 0).
+The programs for A077246, the canonical program `A077246.P3618304788169520106` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077246 has offset 0).
 
 The definition of A077246 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7236,7 +7239,7 @@ The definition of A077246 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-a(n-2)` with `a(0)=2, a(1)=13`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077246
@@ -7689,7 +7692,7 @@ end A077246
 /-!
 # A077247: Combined Diophantine Chebyshev sequences A077245 and A077243.
 
-The programs for A077247, the canonical program `A077247.P10612242558349974753` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077247 has offset 0).
+The programs for A077247, the canonical program `A077247.P10612242558349974753` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077247 has offset 0).
 
 The definition of A077247 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7698,7 +7701,7 @@ The definition of A077247 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=10, a(3)=17`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077247
@@ -8063,7 +8066,7 @@ end A077248
 /-!
 # A077249: Bisection (odd part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077249, the canonical program `A077249.P14730453798808408170` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077249 has offset 0).
+The programs for A077249, the canonical program `A077249.P14730453798808408170` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077249 has offset 0).
 
 The definition of A077249 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8072,7 +8075,7 @@ The definition of A077249 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-a(n-2)` with `a(0)=2, a(1)=21`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077249
@@ -8531,7 +8534,7 @@ end A077249
 /-!
 # A077250: Bisection (odd part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077250, the canonical program `A077250.P5999661037349471145` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077250 has offset 0).
+The programs for A077250, the canonical program `A077250.P5999661037349471145` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077250 has offset 0).
 
 The definition of A077250 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8540,7 +8543,7 @@ The definition of A077250 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-a(n-2)` with `a(0)=11, a(1)=103`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077250
@@ -8996,7 +8999,7 @@ end A077250
 /-!
 # A077251: Bisection (even part) of Chebyshev sequence with Diophantine property.
 
-The programs for A077251, the canonical program `A077251.P9523289927858477133` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077251 has offset 0).
+The programs for A077251, the canonical program `A077251.P9523289927858477133` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077251 has offset 0).
 
 The definition of A077251 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9005,7 +9008,7 @@ The definition of A077251 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-a(n-2)` with `a(0)=1, a(1)=12`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077251
@@ -9461,7 +9464,7 @@ end A077251
 /-!
 # A077252: Sum of digits squared minus sum of digits of n.
 
-The programs for A077252, the canonical program `A077252.P1424783491405040065` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077252 has offset 1).
+The programs for A077252, the canonical program `A077252.P1424783491405040065` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077252 has offset 1).
 
 The definition of A077252 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9470,7 +9473,7 @@ The definition of A077252 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n+1, #²-#]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077252
@@ -9796,7 +9799,7 @@ end A077252
 /-!
 # A077253: Sum of digits squared plus sum of digits of n.
 
-The programs for A077253, the canonical program `A077253.P14202271377230874806` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077253 has offset 1).
+The programs for A077253, the canonical program `A077253.P14202271377230874806` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077253 has offset 1).
 
 The definition of A077253 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9805,7 +9808,7 @@ The definition of A077253 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n+1, #²+#]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077253
@@ -10526,7 +10529,7 @@ end A077256.P4708068039839964866
 /-!
 # A077259: First member of the Diophantine pair (m,k) that satisfies 5*(m^2 + m) = k^2 + k; a(n) = m.
 
-The programs for A077259, the canonical program `A077259.P8574207951338613798` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077259 has offset 0).
+The programs for A077259, the canonical program `A077259.P8574207951338613798` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077259 has offset 0).
 
 The definition of A077259 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10535,7 +10538,7 @@ The definition of A077259 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*a(n-2)-a(n-4)+8` with `a(0)=0, a(1)=2, a(2)=6, a(3)=44`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077259
@@ -11010,7 +11013,7 @@ end A077259
 /-!
 # A077260: Triangular numbers that are 1/5 of a triangular number.
 
-The programs for A077260, the canonical program `A077260.P3093648028681539307` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077260 has offset 0).
+The programs for A077260, the canonical program `A077260.P3093648028681539307` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077260 has offset 0).
 
 The definition of A077260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11019,7 +11022,7 @@ The definition of A077260 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `322*a(n-2)-a(n-4)+24` with `a(0)=0, a(1)=3, a(2)=21, a(3)=990`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077260
@@ -11369,7 +11372,7 @@ end A077261
 /-!
 # A077262: Second member of the Diophantine pair (m,k) that satisfies 5*(m^2 + m) = k^2 + k; a(n) = k.
 
-The programs for A077262, the canonical program `A077262.P10910696547349677381` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077262 has offset 0).
+The programs for A077262, the canonical program `A077262.P10910696547349677381` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077262 has offset 0).
 
 The definition of A077262 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11378,7 +11381,7 @@ The definition of A077262 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*a(n-2)-a(n-4)+8` with `a(0)=0, a(1)=5, a(2)=14, a(3)=99`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077262
@@ -12086,53 +12089,50 @@ end A077264.P9756491699651096832
 /-!
 # A077265: Number of cycles in the n-th order prism graph.
 
-The programs for A077265, the canonical program `A077265.P637881808135468475` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077265 has offset 3).
+The programs for A077265, the canonical program `A077265.P7835826173415066412` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077265 has offset 3).
 
 The definition of A077265 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A077265.P637881808135468475
+/-! ## A077265.P7835826173415066412
 
-`5*a(n-1)-9*a(n-2)+7*a(n-3)-2*a(n-4)` with `a(0)=14, a(1)=28, a(2)=52, a(3)=94`
+`2^(n+3)+(n+3)*(n+2)`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077265
 
-/-- `5*a(n-1)-9*a(n-2)+7*a(n-3)-2*a(n-4)` -/
-def P637881808135468475.Spec : Prop :=
-  ∀ n, P637881808135468475.a n = A077265 (n + 3)
+/-- `2^(n+3)+(n+3)*(n+2)` -/
+def P7835826173415066412.Spec : Prop :=
+  ∀ n, (P7835826173415066412.a n : ℤ) = A077265 (n + 3)
 
-theorem P637881808135468475.correct : P637881808135468475.Spec := by
+theorem P7835826173415066412.correct : P7835826173415066412.Spec := by
   intro n
   simp only [A077265, Nat.add_sub_cancel]
 
 end A077265
 
-/-! ## A077265.P8676867925296241567
+/-! ## A077265.P17240054061733934774
 
-`∑[2*(a(n-1)-n)]+6` with `a(0)=8`
+`2*A132109(n+2)`
 -/
 
-namespace A077265.P8676867925296241567
+namespace A077265.P17240054061733934774
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [8] fun n f1 =>
-  2 * (f1 (n - 1) - (n : ℤ))
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + 6
+  2 * A132109 (n + 2)
 
 end
 
-end A077265.P8676867925296241567
+end A077265.P17240054061733934774
 
 namespace A077265
 
-/-- `∑[2*(a(n-1)-n)]+6` -/
-def P8676867925296241567.Spec : Prop :=
-  ∀ n, P8676867925296241567.a n = A077265 (n + 3)
+/-- `2*A132109(n+2)` -/
+def P17240054061733934774.Spec : Prop :=
+  ∀ n, P17240054061733934774.a n = A077265 (n + 3)
 
 end A077265
 
@@ -12159,29 +12159,6 @@ namespace A077265
 /-- `2*(a(n-1)-(∑[n]-1))` -/
 def P11413836394900553586.Spec : Prop :=
   ∀ n, P11413836394900553586.a n = A077265 (n + 3)
-
-end A077265
-
-/-! ## A077265.P16539580198853830278
-
-`2^(n+3)+(n+2)*(n+3)`
--/
-
-namespace A077265.P16539580198853830278
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ (n + 3) + (n + 2) * (n + 3)
-
-end
-
-end A077265.P16539580198853830278
-
-namespace A077265
-
-/-- `2^(n+3)+(n+2)*(n+3)` -/
-def P16539580198853830278.Spec : Prop :=
-  ∀ n, (P16539580198853830278.a n : ℤ) = A077265 (n + 3)
 
 end A077265
 
@@ -12274,29 +12251,6 @@ namespace A077265
 /-- `A290699(n+3)` -/
 def P5421521798979518497.Spec : Prop :=
   ∀ n, P5421521798979518497.a n = A077265 (n + 3)
-
-end A077265
-
-/-! ## A077265.P17240054061733934774
-
-`2*A132109(n+2)`
--/
-
-namespace A077265.P17240054061733934774
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A132109 (n + 2)
-
-end
-
-end A077265.P17240054061733934774
-
-namespace A077265
-
-/-- `2*A132109(n+2)` -/
-def P17240054061733934774.Spec : Prop :=
-  ∀ n, P17240054061733934774.a n = A077265 (n + 3)
 
 end A077265
 
@@ -13843,7 +13797,7 @@ end A077286.P18134585209214568904
 /-!
 # A077288: First member of the Diophantine pair (m,k) that satisfies 6(m^2 + m) = k^2 + k: a(n) = m.
 
-The programs for A077288, the canonical program `A077288.P17818442123973628716` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077288 has offset 0).
+The programs for A077288, the canonical program `A077288.P17818442123973628716` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077288 has offset 0).
 
 The definition of A077288 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13852,7 +13806,7 @@ The definition of A077288 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-2)-a(n-4)+4` with `a(0)=0, a(1)=1, a(2)=3, a(3)=14`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077288
@@ -14175,7 +14129,7 @@ end A077288
 /-!
 # A077289: Triangular numbers that are 1/6 of another triangular number.
 
-The programs for A077289, the canonical program `A077289.P767826026892551394` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077289 has offset 0).
+The programs for A077289, the canonical program `A077289.P767826026892551394` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077289 has offset 0).
 
 The definition of A077289 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14184,7 +14138,7 @@ The definition of A077289 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `98*a(n-2)-a(n-4)+7` with `a(0)=0, a(1)=1, a(2)=6, a(3)=105`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077289
@@ -14398,7 +14352,7 @@ end A077289
 /-!
 # A077290: Triangular numbers that are 6 times other triangular numbers.
 
-The programs for A077290, the canonical program `A077290.P13693890056077159077` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077290 has offset 0).
+The programs for A077290, the canonical program `A077290.P13693890056077159077` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077290 has offset 0).
 
 The definition of A077290 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14407,7 +14361,7 @@ The definition of A077290 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `98*a(n-2)-a(n-4)+42` with `a(0)=0, a(1)=6, a(2)=36, a(3)=630`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077290
@@ -14641,7 +14595,7 @@ end A077290
 /-!
 # A077291: Second member of Diophantine pair (m,k) that satisfies 6*(m^2 + m) = k^2 + k: a(n) = k.
 
-The programs for A077291, the canonical program `A077291.P18405443492975437405` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077291 has offset 0).
+The programs for A077291, the canonical program `A077291.P18405443492975437405` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077291 has offset 0).
 
 The definition of A077291 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14650,7 +14604,7 @@ The definition of A077291 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-2)-a(n-4)+4` with `a(0)=0, a(1)=3, a(2)=8, a(3)=35`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A077291
@@ -15012,35 +14966,20 @@ end A077292.P15796323506851941880
 The programs for A077293, there is no canonical definition to state claims against.
 -/
 
-/-! ## A077293.P6937808809865338909
+/-! ## A077293.P13421270460121338754
 
-`(n+1)*A077294(n+1)`
+`A077294(n+1)*(n+1)`
 -/
 
-namespace A077293.P6937808809865338909
+namespace A077293.P13421270460121338754
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A077294 (n + 1)
+  A077294 (n + 1) * (n + 1 : ℤ)
 
 end
 
-end A077293.P6937808809865338909
-
-/-! ## A077293.P2571925180515676338
-
-`A077294(n+1)*A348553(n)`
--/
-
-namespace A077293.P2571925180515676338
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077294 (n + 1) * A348553 n
-
-end
-
-end A077293.P2571925180515676338
+end A077293.P13421270460121338754
 
 /-!
 # A077294: a(n) = A077293(n)/n.
@@ -15051,6 +14990,8 @@ The programs for A077294, there is no canonical definition to state claims again
 /-! ## A077294.P14191741041032569550
 
 `A077293(n+1)/(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A077294.P14191741041032569550

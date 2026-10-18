@@ -2,8 +2,9 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -14,20 +15,18 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
@@ -44,7 +43,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -53,14 +51,17 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
+import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,7 +88,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A380902: Integers k with at least 1 proper factorization for which the sum of the squares of the factors equals k.
@@ -1472,7 +1472,7 @@ end A380921.P4875535918305903291
 /-!
 # A380922: Dirichlet g.f.: zeta(s) * Product_{p prime} (1 + 1/p^s + 1/p^(3*s)).
 
-The programs for A380922, the canonical program `A380922.P14080248536527490904` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380922 has offset 1).
+The programs for A380922, the canonical program `A380922.P14080248536527490904` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380922 has offset 1).
 
 The definition of A380922 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1596,7 +1596,7 @@ end A380922
 
 `A365498(n+1)*A368247(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A380922
@@ -2391,7 +2391,7 @@ end A380952.P12367106342418474880
 /-!
 # A380955: Sum of prime indices of n (with multiplicity) minus sum of distinct prime indices of n.
 
-The programs for A380955, the canonical program `A380955.P4555660258455395016` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380955 has offset 1).
+The programs for A380955, the canonical program `A380955.P4555660258455395016` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380955 has offset 1).
 
 The definition of A380955 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056239, A066328, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2400,7 +2400,7 @@ The definition of A380955 is `conditional`: the Lean definition is an OEIS formu
 
 `A056239(n+1)-A066328(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A380955
@@ -2799,7 +2799,7 @@ end A380957.P4804225494514602621
 /-!
 # A380958: Number of prime factors of n (with multiplicity) minus sum of distinct prime exponents of n.
 
-The programs for A380958, the canonical program `A380958.P14733008319918646715` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380958 has offset 1).
+The programs for A380958, the canonical program `A380958.P14733008319918646715` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380958 has offset 1).
 
 The definition of A380958 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A136565, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2808,7 +2808,7 @@ The definition of A380958 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(n+1)-A136565(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A380958
@@ -4348,7 +4348,7 @@ end A380984.P18012014455336643250
 /-!
 # A380986: Product of prime indices of n (with multiplicity) minus product of distinct prime indices of n.
 
-The programs for A380986, the canonical program `A380986.P1159317715938728299` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380986 has offset 1).
+The programs for A380986, the canonical program `A380986.P1159317715938728299` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380986 has offset 1).
 
 The definition of A380986 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003963, A156061, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4357,7 +4357,7 @@ The definition of A380986 is `conditional`: the Lean definition is an OEIS formu
 
 `A003963(n+1)-A156061(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A380986
@@ -5298,7 +5298,7 @@ end A380995.P3846711545829174736
 /-!
 # A380996: a(n) is the number of vertices in the n-fold iterated barycentric subdivision of a triangle (or 2-simplex).
 
-The programs for A380996, the canonical program `A380996.P14981010916159585957` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380996 has offset 0).
+The programs for A380996, the canonical program `A380996.P14981010916159585957` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380996 has offset 0).
 
 The definition of A380996 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5307,7 +5307,7 @@ The definition of A380996 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(6^n+3*2^n)/2+1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A380996
@@ -5409,4 +5409,25 @@ def P8942744225952237901.Spec : Prop :=
   ∀ n, P8942744225952237901.a n = A380996 n
 
 end A380996
+
+/-!
+# A380999: Least number k such that there exist two different subsets of {n, n+1, ..., n+A380998(n)} whose products both are equal to k.
+
+The programs for A380999, there is no canonical definition to state claims against.
+-/
+
+/-! ## A380999.P4375068483727971908
+
+`(n+1+A380998(n+1))*A381000(n+1)`
+-/
+
+namespace A380999.P4375068483727971908
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((n + 1 : ℤ) + A380998 (n + 1)) * A381000 (n + 1)
+
+end
+
+end A380999.P4375068483727971908
 

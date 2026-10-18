@@ -15,6 +15,9 @@
         "log",
         "/",
         "round"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -18,26 +18,27 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,6 +56,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B010.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -66,12 +68,12 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
 
@@ -530,7 +532,7 @@ end A154104.P2289278916188654026
 /-!
 # A154105: a(n) = 12*n^2 + 18*n + 7.
 
-The programs for A154105, the canonical program `A154105.P6664719848169599409` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154105 has offset 0).
+The programs for A154105, the canonical program `A154105.P6664719848169599409` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154105 has offset 0).
 
 The definition of A154105 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `12*n²+18*n+7` (program `A154105.P6664719848169599409`, by `A154105.P6664719848169599409.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -539,7 +541,7 @@ The definition of A154105 is `verified`: the Lean definition is proven equivalen
 
 `12*n²+18*n+7`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154105
@@ -1042,7 +1044,7 @@ end A154105
 /-!
 # A154106: a(n) = 12*n^2 + 22*n + 11.
 
-The programs for A154106, the canonical program `A154106.P16112730020414109564` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154106 has offset 0).
+The programs for A154106, the canonical program `A154106.P16112730020414109564` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154106 has offset 0).
 
 The definition of A154106 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `12*n²+22*n+11` (program `A154106.P16112730020414109564`, by `A154106.P16112730020414109564.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1051,7 +1053,7 @@ The definition of A154106 is `verified`: the Lean definition is proven equivalen
 
 `12*n²+22*n+11`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154106
@@ -2646,7 +2648,7 @@ end A154115
 /-!
 # A154117: Expansion of (1 - x + 3*x^2)/((1-x)*(1-2*x)).
 
-The programs for A154117, the canonical program `A154117.P1307439887857274372` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154117 has offset 0).
+The programs for A154117, the canonical program `A154117.P1307439887857274372` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154117 has offset 0).
 
 The definition of A154117 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2655,7 +2657,7 @@ The definition of A154117 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+3` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154117
@@ -3078,7 +3080,7 @@ end A154117
 /-!
 # A154118: Expansion of (1 - x + 5x^2)/((1-x)*(1-2x)).
 
-The programs for A154118, the canonical program `A154118.P8073260152922169740` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154118 has offset 0).
+The programs for A154118, the canonical program `A154118.P8073260152922169740` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154118 has offset 0).
 
 The definition of A154118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3087,7 +3089,7 @@ The definition of A154118 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+5` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154118
@@ -4428,7 +4430,7 @@ end A154126.P13860558421606028983
 /-!
 # A154127: Period 6: repeat [1, 2, 5, 8, 7, 4].
 
-The programs for A154127, the canonical program `A154127.P1703957402214527792` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154127 has offset 0).
+The programs for A154127, the canonical program `A154127.P1703957402214527792` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154127 has offset 0).
 
 The definition of A154127 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4437,7 +4439,7 @@ The definition of A154127 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)-a(n-3)+a(n-4)` with `a(0)=1, a(1)=2, a(2)=5, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154127
@@ -4455,7 +4457,7 @@ end A154127
 /-!
 # A154128: a(n) = 5^n*(n+4)!/n!.
 
-The programs for A154128, the canonical program `A154128.P12743758310186597053` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154128 has offset 0).
+The programs for A154128, the canonical program `A154128.P12743758310186597053` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154128 has offset 0).
 
 The definition of A154128 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4464,7 +4466,7 @@ The definition of A154128 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5^n*(n+4)*(n+3)*(n+2)*(n+1)`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154128
@@ -4976,7 +4978,7 @@ end A154134.P8230903198177693564
 /-!
 # A154138: Indices k such that 3 plus the k-th triangular number is a perfect square.
 
-The programs for A154138, the canonical program `A154138.P16631486895031572867` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154138 has offset 1).
+The programs for A154138, the canonical program `A154138.P16631486895031572867` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154138 has offset 1).
 
 The definition of A154138 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4985,7 +4987,7 @@ The definition of A154138 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)+2` with `a(0)=1, a(1)=3, a(2)=12, a(3)=22`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154138
@@ -5440,7 +5442,7 @@ end A154138
 /-!
 # A154139: Indices k such that 4 plus the k-th triangular number is a perfect square.
 
-The programs for A154139, the canonical program `A154139.P8711321547081482942` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154139 has offset 1).
+The programs for A154139, the canonical program `A154139.P8711321547081482942` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154139 has offset 1).
 
 The definition of A154139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5449,7 +5451,7 @@ The definition of A154139 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)+2` with `a(0)=0, a(1)=6, a(2)=9, a(3)=39`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154139
@@ -5789,7 +5791,7 @@ end A154139
 /-!
 # A154140: Indices k such that 6 plus the k-th triangular number is a perfect square.
 
-The programs for A154140, the canonical program `A154140.P18073990900715975994` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154140 has offset 1).
+The programs for A154140, the canonical program `A154140.P18073990900715975994` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154140 has offset 1).
 
 The definition of A154140 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5798,7 +5800,7 @@ The definition of A154140 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)+2` with `a(0)=2, a(1)=4, a(2)=19, a(3)=29`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154140
@@ -6184,7 +6186,7 @@ end A154140
 /-!
 # A154141: Indices k such that 8 plus the k-th triangular number is a perfect square.
 
-The programs for A154141, the canonical program `A154141.P15143111333930356715` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154141 has offset 1).
+The programs for A154141, the canonical program `A154141.P15143111333930356715` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154141 has offset 1).
 
 The definition of A154141 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6193,7 +6195,7 @@ The definition of A154141 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)+2` with `a(0)=1, a(1)=7, a(2)=16, a(3)=46`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154141
@@ -6648,7 +6650,7 @@ end A154141
 /-!
 # A154142: Indices k such that 9 plus the k-th triangular number is a perfect square.
 
-The programs for A154142, the canonical program `A154142.P1208268630004971440` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154142 has offset 1).
+The programs for A154142, the canonical program `A154142.P1208268630004971440` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154142 has offset 1).
 
 The definition of A154142 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6657,7 +6659,7 @@ The definition of A154142 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)+2` with `a(0)=0, a(1)=10, a(2)=13, a(3)=63`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154142
@@ -7066,7 +7068,7 @@ end A154142
 /-!
 # A154143: Indices k such that 10 plus the k-th triangular number is a perfect square.
 
-The programs for A154143, the canonical program `A154143.P4214936294251827874` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154143 has offset 1).
+The programs for A154143, the canonical program `A154143.P4214936294251827874` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154143 has offset 1).
 
 The definition of A154143 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7075,7 +7077,7 @@ The definition of A154143 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)+2` with `a(0)=3, a(1)=5, a(2)=26, a(3)=36`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154143
@@ -7392,7 +7394,7 @@ end A154143
 /-!
 # A154144: Indices k such that 13 plus the k-th triangular number is a perfect square.
 
-The programs for A154144, the canonical program `A154144.P4668697629490694785` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154144 has offset 1).
+The programs for A154144, the canonical program `A154144.P4668697629490694785` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154144 has offset 1).
 
 The definition of A154144 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7401,7 +7403,7 @@ The definition of A154144 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)+2` with `a(0)=2, a(1)=8, a(2)=23, a(3)=53`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154144
@@ -7856,7 +7858,7 @@ end A154144
 /-!
 # A154145: Indices k such that 15 plus the k-th triangular number is a perfect square.
 
-The programs for A154145, the canonical program `A154145.P2167413779772439925` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154145 has offset 1).
+The programs for A154145, the canonical program `A154145.P2167413779772439925` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154145 has offset 1).
 
 The definition of A154145 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7865,7 +7867,7 @@ The definition of A154145 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-4)-6*a(n-5)-a(n-8)+a(n-9)` with `a(0)=1, a(1)=4, a(2)=6, a(3)=11, a(4)=20, a(5)=33, a(6)=43, a(7)=70, a(8)=121`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154145
@@ -7993,7 +7995,7 @@ end A154145
 /-!
 # A154146: Numbers k such that 16 plus the k-th triangular number is a perfect square.
 
-The programs for A154146, the canonical program `A154146.P2615686752762627851` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154146 has offset 0).
+The programs for A154146, the canonical program `A154146.P2615686752762627851` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154146 has offset 0).
 
 The definition of A154146 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8002,7 +8004,7 @@ The definition of A154146 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=14, a(2)=17, a(3)=87, a(4)=104`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154146
@@ -8296,7 +8298,7 @@ end A154146
 /-!
 # A154147: Indices k such that 19 plus the k-th triangular number is a perfect square.
 
-The programs for A154147, the canonical program `A154147.P14310672329101220625` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154147 has offset 1).
+The programs for A154147, the canonical program `A154147.P14310672329101220625` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154147 has offset 1).
 
 The definition of A154147 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8305,7 +8307,7 @@ The definition of A154147 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=3, a(1)=9, a(2)=30, a(3)=60, a(4)=179`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154147
@@ -8599,7 +8601,7 @@ end A154147
 /-!
 # A154148: Numbers k such that 21 plus the k-th triangular number is a perfect square.
 
-The programs for A154148, the canonical program `A154148.P4117915320982025151` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154148 has offset 1).
+The programs for A154148, the canonical program `A154148.P4117915320982025151` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154148 has offset 1).
 
 The definition of A154148 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8608,7 +8610,7 @@ The definition of A154148 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=5, a(1)=7, a(2)=40, a(3)=50, a(4)=237`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154148
@@ -8810,7 +8812,7 @@ end A154148
 /-!
 # A154149: Indices k such that 22 plus the k-th triangular number is a perfect square.
 
-The programs for A154149, the canonical program `A154149.P10016728120442053166` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154149 has offset 1).
+The programs for A154149, the canonical program `A154149.P10016728120442053166` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154149 has offset 1).
 
 The definition of A154149 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8819,7 +8821,7 @@ The definition of A154149 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=2, a(1)=12, a(2)=27, a(3)=77, a(4)=162`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154149
@@ -9159,7 +9161,7 @@ end A154149
 /-!
 # A154150: Numbers k such that 24 plus the k-th triangular number is a perfect square.
 
-The programs for A154150, the canonical program `A154150.P8930341919736203005` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154150 has offset 1).
+The programs for A154150, the canonical program `A154150.P8930341919736203005` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154150 has offset 1).
 
 The definition of A154150 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9168,7 +9170,7 @@ The definition of A154150 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=1, a(1)=15, a(2)=24, a(3)=94, a(4)=145`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154150
@@ -9373,7 +9375,7 @@ end A154150
 /-!
 # A154151: Indices k such that 25 plus the k-th triangular number is a perfect square.
 
-The programs for A154151, the canonical program `A154151.P1050885672584903705` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154151 has offset 1).
+The programs for A154151, the canonical program `A154151.P1050885672584903705` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154151 has offset 1).
 
 The definition of A154151 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9382,7 +9384,7 @@ The definition of A154151 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=18, a(2)=21, a(3)=111, a(4)=128`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154151
@@ -9561,7 +9563,7 @@ end A154151
 /-!
 # A154152: Indices k such that 26 plus the k-th triangular number is a perfect square.
 
-The programs for A154152, the canonical program `A154152.P16833474660933875920` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154152 has offset 1).
+The programs for A154152, the canonical program `A154152.P16833474660933875920` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154152 has offset 1).
 
 The definition of A154152 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9570,7 +9572,7 @@ The definition of A154152 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=4, a(1)=10, a(2)=37, a(3)=67, a(4)=220`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154152
@@ -10025,7 +10027,7 @@ end A154152
 /-!
 # A154153: Numbers k such that 28 plus the k-th triangular number is a perfect square.
 
-The programs for A154153, the canonical program `A154153.P334636549273016014` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154153 has offset 1).
+The programs for A154153, the canonical program `A154153.P334636549273016014` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154153 has offset 1).
 
 The definition of A154153 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10034,7 +10036,7 @@ The definition of A154153 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=6, a(1)=8, a(2)=47, a(3)=57, a(4)=278`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154153
@@ -10190,7 +10192,7 @@ end A154153
 /-!
 # A154154: Numbers k such that 30 plus the k-th triangular number is a perfect square.
 
-The programs for A154154, the canonical program `A154154.P16311721674498044286` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154154 has offset 1).
+The programs for A154154, the canonical program `A154154.P16311721674498044286` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154154 has offset 1).
 
 The definition of A154154 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10199,7 +10201,7 @@ The definition of A154154 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-a(n-4)+a(n-5)` with `a(0)=3, a(1)=13, a(2)=34, a(3)=84, a(4)=203`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A154154

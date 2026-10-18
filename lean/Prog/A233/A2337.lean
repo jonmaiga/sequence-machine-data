@@ -4,13 +4,12 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -18,11 +17,12 @@ import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +39,6 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -50,9 +49,10 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2260,6 +2260,21 @@ end A233732.P8761072528484507844
 The programs for A233734, there is no canonical definition to state claims against.
 -/
 
+/-! ## A233734.P9443075271952331602
+
+`A129506(n+1)*(n+1)!`
+-/
+
+namespace A233734.P9443075271952331602
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129506 (n + 1) * (Nat.factorial (n + 1) : ℤ)
+
+end
+
+end A233734.P9443075271952331602
+
 /-! ## A233734.P5140375287131394276
 
 `(n+1)*A185157(n+1)`
@@ -2322,21 +2337,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233734.P973172408175800669
-
-/-! ## A233734.P1673358328914102730
-
-`A131689(2*(n+1)²)`
--/
-
-namespace A233734.P1673358328914102730
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131689 (2 * (n + 1) ^ 2)
-
-end
-
-end A233734.P1673358328914102730
 
 /-!
 # A233736: a(n) = 8*binomial(5*n + 8, n)/(5*n + 8).
@@ -2590,6 +2590,21 @@ end A233738.P13779185068722801161
 The programs for A233739, there is no canonical definition to state claims against.
 -/
 
+/-! ## A233739.P13652305793884725143
+
+`A104272(n+1)-A000040(2*(n+1))`
+-/
+
+namespace A233739.P13652305793884725143
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104272 (n + 1) - A000040 (2 * (n + 1))
+
+end
+
+end A233739.P13652305793884725143
+
 /-! ## A233739.P16127503491864686768
 
 `A104272(n+1)-A031215(n+1)`
@@ -2650,21 +2665,6 @@ end
 
 end A233739.P9841604548269392655
 
-/-! ## A233739.P13652305793884725143
-
-`A104272(n+1)-A000040(2*(n+1))`
--/
-
-namespace A233739.P13652305793884725143
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104272 (n + 1) - A000040 (2 * (n + 1))
-
-end
-
-end A233739.P13652305793884725143
-
 /-! ## A233739.P1607585929056307654
 
 `A104272(n+1)-A065091(2*n+1)`
@@ -2719,6 +2719,8 @@ The programs for A233740, there is no canonical definition to state claims again
 /-! ## A233740.P13135619930193202154
 
 `A233739(n+2)/2`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A233740.P13135619930193202154
@@ -5906,6 +5908,21 @@ end A233769.P3650450562690566255
 The programs for A233771, there is no canonical definition to state claims against.
 -/
 
+/-! ## A233771.P16661036762420179490
+
+`A000041(n+1)-A025065(n+1)`
+-/
+
+namespace A233771.P16661036762420179490
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000041 (n + 1) - A025065 (n + 1)
+
+end
+
+end A233771.P16661036762420179490
+
 /-! ## A233771.P13942588022355231952
 
 `A210249(n+1)`
@@ -5995,21 +6012,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233771.P4803601522235261485
-
-/-! ## A233771.P16661036762420179490
-
-`A000041(n+1)-A025065(n+1)`
--/
-
-namespace A233771.P16661036762420179490
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000041 (n + 1) - A025065 (n + 1)
-
-end
-
-end A233771.P16661036762420179490
 
 /-! ## A233771.P7201734437898217044
 
@@ -7882,6 +7884,8 @@ The programs for A233782, there is no canonical definition to state claims again
 /-! ## A233782.P12839736541087221234
 
 `A233781(n+2)/2`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A233782.P12839736541087221234

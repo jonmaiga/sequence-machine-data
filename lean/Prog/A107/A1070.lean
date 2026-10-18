@@ -21,15 +21,15 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C026
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,13 +41,11 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -57,13 +55,16 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B011.C001
+import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3563,7 +3564,7 @@ end A107013.P16867977287702475046
 /-!
 # A107015: Number of even terms in Zeckendorf representation of n.
 
-The programs for A107015, the canonical program `A107015.P10636807577461555633` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107015 has offset 1).
+The programs for A107015, the canonical program `A107015.P10636807577461555633` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107015 has offset 1).
 
 The definition of A107015 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3644,7 +3645,7 @@ end A107015
 
 `∑[A003849(n)-A008612(A035612(n+1))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A107015
@@ -3685,7 +3686,7 @@ end A107015
 /-!
 # A107016: Number of odd terms in Zeckendorf representation of n.
 
-The programs for A107016, the canonical program `A107016.P14660521387021692450` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107016 has offset 1).
+The programs for A107016, the canonical program `A107016.P14660521387021692450` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107016 has offset 1).
 
 The definition of A107016 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3694,7 +3695,7 @@ The definition of A107016 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A179180(n)]-A107015(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A107016
@@ -9249,8 +9250,25 @@ end A107073.P13401026530778762897
 /-!
 # A107075: Centered square numbers that are also centered pentagonal numbers.
 
-The programs for A107075, there is no canonical definition to state claims against.
+The programs for A107075, the canonical program `A107075.P14488408968509504326` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107075 has offset 1).
+
+The definition of A107075 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A107075.P14488408968509504326
+
+`(14+(9-4*sqrt(5))^(2*(n+1)-1)+(9+4*sqrt(5))^(2*(n+1)-1))/32`
+
+The canonical program, it is in `Seq.B000.C014`.
+-/
+
+namespace A107075
+
+/-- `(14+(9-4*sqrt(5))^(2*(n+1)-1)+(9+4*sqrt(5))^(2*(n+1)-1))/32` -/
+def P14488408968509504326.Spec : Prop :=
+  ∀ n, P14488408968509504326.a n = (A107075 (n + 1) : ℝ)
+
+end A107075
 
 /-! ## A107075.P8618151767687000028
 
@@ -9267,6 +9285,14 @@ end
 
 end A107075.P8618151767687000028
 
+namespace A107075
+
+/-- `4*A201004(n)+1` -/
+def P8618151767687000028.Spec : Prop :=
+  ∀ n, P8618151767687000028.a n = A107075 (n + 1)
+
+end A107075
+
 /-! ## A107075.P16250149643661414492
 
 `5*A201003(n)+1`
@@ -9281,6 +9307,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A107075.P16250149643661414492
+
+namespace A107075
+
+/-- `5*A201003(n)+1` -/
+def P16250149643661414492.Spec : Prop :=
+  ∀ n, P16250149643661414492.a n = A107075 (n + 1)
+
+end A107075
 
 /-! ## A107075.P315883271745557688
 
@@ -9297,20 +9331,13 @@ end
 
 end A107075.P315883271745557688
 
-/-! ## A107075.P4368069391442061491
+namespace A107075
 
-`(A062788(n+1)+1)/2`
--/
+/-- `round(A049629(n)²/2)` -/
+def P315883271745557688.Spec : Prop :=
+  ∀ n, P315883271745557688.a n = A107075 (n + 1)
 
-namespace A107075.P4368069391442061491
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A062788 (n + 1) + 1 : ℚ) / 2
-
-end
-
-end A107075.P4368069391442061491
+end A107075
 
 /-! ## A107075.P10617703658562595419
 
@@ -9329,6 +9356,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A107075.P10617703658562595419
+
+namespace A107075
+
+/-- `5*∑[A000045(12*n)/4]+1` -/
+def P10617703658562595419.Spec : Prop :=
+  ∀ n, P10617703658562595419.a n = (A107075 (n + 1) : ℚ)
+
+end A107075
 
 /-!
 # A107076: Odd-digit semiprimes, divisors of which are odd-digit primes.

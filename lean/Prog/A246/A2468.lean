@@ -15,8 +15,9 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -25,9 +26,9 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,6 +63,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -328,7 +330,7 @@ end A246801.P14187601403395437949
 /-!
 # A246803: Solutions of phi(sigma(x)) = x-phi(x).
 
-The programs for A246803, the canonical program `A246803.P15239765525824187154` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246803 has offset 1).
+The programs for A246803, the canonical program `A246803.P15239765525824187154` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246803 has offset 1).
 
 The definition of A246803 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 155 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -337,7 +339,7 @@ The definition of A246803 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000010(n+1), A295301(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A246803
@@ -1754,7 +1756,7 @@ end A246816.P6540226554158467327
 /-!
 # A246817: Possible number of trailing zeros in hyperfactorials (A002109).
 
-The programs for A246817, the canonical program `A246817.P943938610923920722` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246817 has offset 1).
+The programs for A246817, the canonical program `A246817.P943938610923920722` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246817 has offset 1).
 
 The definition of A246817 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1786,7 +1788,7 @@ end A246817
 
 `record[a(n-1)+n*val(n, 5)]` with `a(0)=0, a(1)=5, a(2)=0`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A246817
@@ -5022,7 +5024,7 @@ end A246861.P7147417919726987591
 /-!
 # A246862: Expansion of phi(x) * f(x^3, x^5) in powers of x where phi(), f() are Ramanujan theta functions.
 
-The programs for A246862, the canonical program `A246862.P11634344800982131065` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246862 has offset 0).
+The programs for A246862, the canonical program `A246862.P11634344800982131065` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246862 has offset 0).
 
 The definition of A246862 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A113407, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5031,7 +5033,7 @@ The definition of A246862 is `conditional`: the Lean definition is an OEIS formu
 
 `A113407(2*n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A246862
@@ -5486,7 +5488,7 @@ end A246862
 /-!
 # A246863: Expansion of phi(x) * f(x^1, x^7) in powers of x where phi(), f() are Ramanujan theta functions.
 
-The programs for A246863, the canonical program `A246863.P8534454379903877911` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246863 has offset 0).
+The programs for A246863, the canonical program `A246863.P8534454379903877911` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246863 has offset 0).
 
 The definition of A246863 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A113407, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5495,7 +5497,7 @@ The definition of A246863 is `conditional`: the Lean definition is an OEIS formu
 
 `A113407(2*n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A246863

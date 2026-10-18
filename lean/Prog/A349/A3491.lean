@@ -11,26 +11,26 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
@@ -43,6 +43,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -59,10 +60,12 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
+import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,12 +85,12 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A349100: a(n) is the product of the Fibonacci divisors of A129655(n) that do not divide A129655(n-1).
@@ -113,27 +116,50 @@ end A349100.P2232638074272991429
 /-!
 # A349102: Increase the odd part of n to the next greater odd number.
 
-The programs for A349102, the canonical program `A349102.P12965051451068347823` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349102 has offset 1).
+The programs for A349102, the canonical program `A349102.P9361818263425834684` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349102 has offset 1).
 
-The definition of A349102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A349102 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A349102.P9361818263425834684
+
+`n+1+A171977(n+1)`
+
+The canonical program, it is in `Seq.B002.C006`.
+-/
+
+namespace A349102
+
+/-- `n+1+A171977(n+1)` -/
+def P9361818263425834684.Spec : Prop :=
+  ∀ n, P9361818263425834684.a n = A349102 (n + 1)
+
+theorem P9361818263425834684.correct : P9361818263425834684.Spec := by
+  intro n
+  simp only [A349102, Nat.add_sub_cancel]
+
+end A349102
 
 /-! ## A349102.P12965051451068347823
 
 `xor(n, n+1)+2+n`
-
-The canonical program, it is in `Seq.B000.C032`.
 -/
+
+namespace A349102.P12965051451068347823
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.xor n (n + 1) + 2 + n
+
+end
+
+end A349102.P12965051451068347823
 
 namespace A349102
 
 /-- `xor(n, n+1)+2+n` -/
 def P12965051451068347823.Spec : Prop :=
   ∀ n, (P12965051451068347823.a n : ℤ) = A349102 (n + 1)
-
-theorem P12965051451068347823.correct : P12965051451068347823.Spec := by
-  intro n
-  simp only [A349102, Nat.add_sub_cancel]
 
 end A349102
 
@@ -226,6 +252,29 @@ namespace A349102
 /-- `or(n, n+1)-or(n, -(n+2))` -/
 def P16256702985410735562.Spec : Prop :=
   ∀ n, P16256702985410735562.a n = A349102 (n + 1)
+
+end A349102
+
+/-! ## A349102.P15308352940161962542
+
+`2*2^val(n+1, 2)+n+1`
+-/
+
+namespace A349102.P15308352940161962542
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * 2 ^ SequenceMachineLib.valuation (n + 1) 2 + (n + 1)
+
+end
+
+end A349102.P15308352940161962542
+
+namespace A349102
+
+/-- `2*2^val(n+1, 2)+n+1` -/
+def P15308352940161962542.Spec : Prop :=
+  ∀ n, (P15308352940161962542.a n : ℤ) = A349102 (n + 1)
 
 end A349102
 
@@ -402,29 +451,6 @@ def P10095121618066590998.Spec : Prop :=
 
 end A349102
 
-/-! ## A349102.P11950473438573092111
-
-`A171977(n+1)+1+n`
--/
-
-namespace A349102.P11950473438573092111
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171977 (n + 1) + 1 + (n : ℤ)
-
-end
-
-end A349102.P11950473438573092111
-
-namespace A349102
-
-/-- `A171977(n+1)+1+n` -/
-def P11950473438573092111.Spec : Prop :=
-  ∀ n, P11950473438573092111.a n = A349102 (n + 1)
-
-end A349102
-
 /-! ## A349102.P6115876680525609086
 
 `A038712(n+1)+2+n`
@@ -468,6 +494,29 @@ namespace A349102
 /-- `2*A135481(n)+n+3` -/
 def P5719990151919687465.Spec : Prop :=
   ∀ n, P5719990151919687465.a n = A349102 (n + 1)
+
+end A349102
+
+/-! ## A349102.P8955520247573589305
+
+`2*A006519(n+1)+n+1`
+-/
+
+namespace A349102.P8955520247573589305
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A006519 (n + 1) + (n + 1 : ℤ)
+
+end
+
+end A349102.P8955520247573589305
+
+namespace A349102
+
+/-- `2*A006519(n+1)+n+1` -/
+def P8955520247573589305.Spec : Prop :=
+  ∀ n, P8955520247573589305.a n = A349102 (n + 1)
 
 end A349102
 
@@ -537,52 +586,6 @@ namespace A349102
 /-- `n+1-A118827(2*(n+1))` -/
 def P5294671547616349724.Spec : Prop :=
   ∀ n, P5294671547616349724.a n = A349102 (n + 1)
-
-end A349102
-
-/-! ## A349102.P5242030376166301926
-
-`A037239(n+1)/4+n+1`
--/
-
-namespace A349102.P5242030376166301926
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A037239 (n + 1) : ℚ) / 4 + (n + 1 : ℚ)
-
-end
-
-end A349102.P5242030376166301926
-
-namespace A349102
-
-/-- `A037239(n+1)/4+n+1` -/
-def P5242030376166301926.Spec : Prop :=
-  ∀ n, P5242030376166301926.a n = (A349102 (n + 1) : ℚ)
-
-end A349102
-
-/-! ## A349102.P543023825308924343
-
-`4*A109168(n+1)-(n+1)`
--/
-
-namespace A349102.P543023825308924343
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A109168 (n + 1) - (n + 1 : ℤ)
-
-end
-
-end A349102.P543023825308924343
-
-namespace A349102
-
-/-- `4*A109168(n+1)-(n+1)` -/
-def P543023825308924343.Spec : Prop :=
-  ∀ n, P543023825308924343.a n = A349102 (n + 1)
 
 end A349102
 
@@ -1192,7 +1195,9 @@ end A349118
 /-!
 # A349122: Inverse Möbius transform of A349128, where A349128(n) = phi(A064989(n)), A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p, and phi is Euler totient function.
 
-The programs for A349122, there is no canonical definition to state claims against.
+The programs for A349122, the canonical program `A349122.P765381630049353955` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349122 has offset 1).
+
+The definition of A349122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A349122.P7843177179375207398
@@ -1213,20 +1218,32 @@ end
 
 end A349122.P7843177179375207398
 
+namespace A349122
+
+/-- `∑{d}[n+1, A349128(#)]` -/
+def P7843177179375207398.Spec : Prop :=
+  ∀ n, P7843177179375207398.a n = A349122 (n + 1)
+
+end A349122
+
 /-! ## A349122.P765381630049353955
 
 `(val(n+1, 2)+1)*A064989(n+1)`
+
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
-namespace A349122.P765381630049353955
-noncomputable section
+namespace A349122
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.valuation (n + 1) 2 + 1 : ℤ) * A064989 (n + 1)
+/-- `(val(n+1, 2)+1)*A064989(n+1)` -/
+def P765381630049353955.Spec : Prop :=
+  ∀ n, P765381630049353955.a n = A349122 (n + 1)
 
-end
+theorem P765381630049353955.correct : P765381630049353955.Spec := by
+  intro n
+  simp only [A349122, Nat.add_sub_cancel]
 
-end A349122.P765381630049353955
+end A349122
 
 /-! ## A349122.P9316205843471001693
 
@@ -1243,6 +1260,14 @@ end
 
 end A349122.P9316205843471001693
 
+namespace A349122
+
+/-- `(log2(and(n+1, -(n+1)))+1)*A064989((n+1)/(or(n, n+1)-n))` -/
+def P9316205843471001693.Spec : Prop :=
+  ∀ n, P9316205843471001693.a n = (A349122 (n + 1) : ℝ)
+
+end A349122
+
 /-! ## A349122.P15476512407532814419
 
 `(log2(and(n+1, -(n+1)))+1)*A064989(2*(n+1)/(xor(n, n+1)+1))`
@@ -1257,6 +1282,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P15476512407532814419
+
+namespace A349122
+
+/-- `(log2(and(n+1, -(n+1)))+1)*A064989(2*(n+1)/(xor(n, n+1)+1))` -/
+def P15476512407532814419.Spec : Prop :=
+  ∀ n, P15476512407532814419.a n = (A349122 (n + 1) : ℝ)
+
+end A349122
 
 /-! ## A349122.P2597794684787897468
 
@@ -1273,6 +1306,14 @@ end
 
 end A349122.P2597794684787897468
 
+namespace A349122
+
+/-- `A001511(n+1)*A064989(n+1)` -/
+def P2597794684787897468.Spec : Prop :=
+  ∀ n, P2597794684787897468.a n = A349122 (n + 1)
+
+end A349122
+
 /-! ## A349122.P2398420283031321736
 
 `(A085058(n)-1)*A064989(n+1)`
@@ -1287,6 +1328,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P2398420283031321736
+
+namespace A349122
+
+/-- `(A085058(n)-1)*A064989(n+1)` -/
+def P2398420283031321736.Spec : Prop :=
+  ∀ n, P2398420283031321736.a n = A349122 (n + 1)
+
+end A349122
 
 /-! ## A349122.P8654727669446561726
 
@@ -1306,6 +1355,14 @@ end
 
 end A349122.P8654727669446561726
 
+namespace A349122
+
+/-- `(2-Δ[A000120(n)])*A064989(n+1)` -/
+def P8654727669446561726.Spec : Prop :=
+  ∀ n, P8654727669446561726.a n = A349122 (n + 1)
+
+end A349122
+
 /-! ## A349122.P12195086958496605078
 
 `(A007814(n+1)+1)*A064989(n+1)`
@@ -1320,6 +1377,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P12195086958496605078
+
+namespace A349122
+
+/-- `(A007814(n+1)+1)*A064989(n+1)` -/
+def P12195086958496605078.Spec : Prop :=
+  ∀ n, P12195086958496605078.a n = A349122 (n + 1)
+
+end A349122
 
 /-! ## A349122.P12998275684415300425
 
@@ -1336,6 +1401,14 @@ end
 
 end A349122.P12998275684415300425
 
+namespace A349122
+
+/-- `(log2(A006519(n+1))+1)*A064989(n+1)` -/
+def P12998275684415300425.Spec : Prop :=
+  ∀ n, P12998275684415300425.a n = (A349122 (n + 1) : ℝ)
+
+end A349122
+
 /-! ## A349122.P4407437325990879163
 
 `A001222(xor(n, n+1)+1)*A064989(n+1)`
@@ -1350,6 +1423,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P4407437325990879163
+
+namespace A349122
+
+/-- `A001222(xor(n, n+1)+1)*A064989(n+1)` -/
+def P4407437325990879163.Spec : Prop :=
+  ∀ n, P4407437325990879163.a n = A349122 (n + 1)
+
+end A349122
 
 /-! ## A349122.P5307347197467621014
 
@@ -1369,6 +1450,14 @@ end
 
 end A349122.P5307347197467621014
 
+namespace A349122
+
+/-- `∑{d}[n+1, A064989(#)*A209229((n+1)/#)]` -/
+def P5307347197467621014.Spec : Prop :=
+  ∀ n, P5307347197467621014.a n = A349122 (n + 1)
+
+end A349122
+
 /-! ## A349122.P16298886952238636898
 
 `∑{d}[n+1, A001511(#)*A349127((n+1)/#)]`
@@ -1386,6 +1475,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P16298886952238636898
+
+namespace A349122
+
+/-- `∑{d}[n+1, A001511(#)*A349127((n+1)/#)]` -/
+def P16298886952238636898.Spec : Prop :=
+  ∀ n, P16298886952238636898.a n = A349122 (n + 1)
+
+end A349122
 
 /-! ## A349122.P5766683112206071183
 
@@ -1405,6 +1502,14 @@ end
 
 end A349122.P5766683112206071183
 
+namespace A349122
+
+/-- `∑{d}[n+1, A209635(#)*A326041((n+1)/#)]` -/
+def P5766683112206071183.Spec : Prop :=
+  ∀ n, P5766683112206071183.a n = A349122 (n + 1)
+
+end A349122
+
 /-! ## A349122.P5223502358706391140
 
 `A000005(and(n+1, -(n+1)))*A064989(n+1)`
@@ -1419,6 +1524,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P5223502358706391140
+
+namespace A349122
+
+/-- `A000005(and(n+1, -(n+1)))*A064989(n+1)` -/
+def P5223502358706391140.Spec : Prop :=
+  ∀ n, P5223502358706391140.a n = A349122 (n + 1)
+
+end A349122
 
 /-! ## A349122.P2286124329472214697
 
@@ -1435,6 +1548,14 @@ end
 
 end A349122.P2286124329472214697
 
+namespace A349122
+
+/-- `(A000005(xor(n, n+1)+1)-1)*A064989(n+1)` -/
+def P2286124329472214697.Spec : Prop :=
+  ∀ n, P2286124329472214697.a n = A349122 (n + 1)
+
+end A349122
+
 /-! ## A349122.P1333770510638224148
 
 `A000005(n+1-and(n, n+1))*A064989(n+1)`
@@ -1449,6 +1570,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P1333770510638224148
+
+namespace A349122
+
+/-- `A000005(n+1-and(n, n+1))*A064989(n+1)` -/
+def P1333770510638224148.Spec : Prop :=
+  ∀ n, P1333770510638224148.a n = A349122 (n + 1)
+
+end A349122
 
 /-! ## A349122.P12786946110876392698
 
@@ -1465,6 +1594,14 @@ end
 
 end A349122.P12786946110876392698
 
+namespace A349122
+
+/-- `(A001222(or(n, n+1)-n)+1)*A064989(n+1)` -/
+def P12786946110876392698.Spec : Prop :=
+  ∀ n, P12786946110876392698.a n = A349122 (n + 1)
+
+end A349122
+
 /-! ## A349122.P16375684830543896760
 
 `A000005(xor(n+1, and(n, n+1)))*A064989(n+1)`
@@ -1479,6 +1616,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P16375684830543896760
+
+namespace A349122
+
+/-- `A000005(xor(n+1, and(n, n+1)))*A064989(n+1)` -/
+def P16375684830543896760.Spec : Prop :=
+  ∀ n, P16375684830543896760.a n = A349122 (n + 1)
+
+end A349122
 
 /-! ## A349122.P16090005397373354233
 
@@ -1498,6 +1643,14 @@ end
 
 end A349122.P16090005397373354233
 
+namespace A349122
+
+/-- `∑{d}[n+1, A036987(#-1)*A064989((n+1)/#)]` -/
+def P16090005397373354233.Spec : Prop :=
+  ∀ n, P16090005397373354233.a n = A349122 (n + 1)
+
+end A349122
+
 /-! ## A349122.P9026681098292433747
 
 `(A005187(n+1)-A005187(n))*A064989(n+1)`
@@ -1512,6 +1665,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349122.P9026681098292433747
+
+namespace A349122
+
+/-- `(A005187(n+1)-A005187(n))*A064989(n+1)` -/
+def P9026681098292433747.Spec : Prop :=
+  ∀ n, P9026681098292433747.a n = A349122 (n + 1)
+
+end A349122
 
 /-!
 # A349123: a(n) = Sum_{d|n} A038040(n/d) * A003415(d), where A038040(n) = n*tau(n), and A003415 is the arithmetic derivative of n.
@@ -1860,7 +2021,9 @@ end A349124
 /-!
 # A349125: Dirichlet inverse of A064989, where A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p.
 
-The programs for A349125, there is no canonical definition to state claims against.
+The programs for A349125, the canonical program `A349125.P4936637679341869880` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349125 has offset 1).
+
+The definition of A349125 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, A064989, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A349125.P17523749806387391409
@@ -1878,20 +2041,32 @@ end
 
 end A349125.P17523749806387391409
 
+namespace A349125
+
+/-- `A349126(n+1)-A064989(n+1)` -/
+def P17523749806387391409.Spec : Prop :=
+  ∀ n, P17523749806387391409.a n = A349125 (n + 1)
+
+end A349125
+
 /-! ## A349125.P4936637679341869880
 
 `A008683(n+1)*A064989(n+1)`
+
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
-namespace A349125.P4936637679341869880
-noncomputable section
+namespace A349125
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008683 (n + 1) * A064989 (n + 1)
+/-- `A008683(n+1)*A064989(n+1)` -/
+def P4936637679341869880.Spec : Prop :=
+  ∀ n, P4936637679341869880.a n = A349125 (n + 1)
 
-end
+theorem P4936637679341869880.correct : P4936637679341869880.Spec := by
+  intro n
+  simp only [A349125, Nat.add_sub_cancel]
 
-end A349125.P4936637679341869880
+end A349125
 
 /-! ## A349125.P11294232956656971870
 
@@ -1908,6 +2083,14 @@ end
 
 end A349125.P11294232956656971870
 
+namespace A349125
+
+/-- `A008683(n+1)*A065769(n+1)` -/
+def P11294232956656971870.Spec : Prop :=
+  ∀ n, P11294232956656971870.a n = A349125 (n + 1)
+
+end A349125
+
 /-! ## A349125.P14185713749647022380
 
 `abs(A290099(n+1))*A008683(n+1)`
@@ -1922,6 +2105,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349125.P14185713749647022380
+
+namespace A349125
+
+/-- `abs(A290099(n+1))*A008683(n+1)` -/
+def P14185713749647022380.Spec : Prop :=
+  ∀ n, P14185713749647022380.a n = A349125 (n + 1)
+
+end A349125
 
 /-! ## A349125.P12259170426553595657
 
@@ -1938,6 +2129,14 @@ end
 
 end A349125.P12259170426553595657
 
+namespace A349125
+
+/-- `(A007423(n+1)-1)*A064989(n+1)` -/
+def P12259170426553595657.Spec : Prop :=
+  ∀ n, P12259170426553595657.a n = A349125 (n + 1)
+
+end A349125
+
 /-! ## A349125.P17332402749771747202
 
 `A162512(n+1)%2*A064989(n+1)`
@@ -1953,6 +2152,14 @@ end
 
 end A349125.P17332402749771747202
 
+namespace A349125
+
+/-- `A162512(n+1)%2*A064989(n+1)` -/
+def P17332402749771747202.Spec : Prop :=
+  ∀ n, P17332402749771747202.a n = A349125 (n + 1)
+
+end A349125
+
 /-! ## A349125.P7635140738446149536
 
 `floor(A262804(n+1)/2)*A064989(n+1)`
@@ -1967,6 +2174,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349125.P7635140738446149536
+
+namespace A349125
+
+/-- `floor(A262804(n+1)/2)*A064989(n+1)` -/
+def P7635140738446149536.Spec : Prop :=
+  ∀ n, P7635140738446149536.a n = A349125 (n + 1)
+
+end A349125
 
 /-! ## A349125.P12953389418514770395
 
@@ -1986,6 +2201,14 @@ end
 
 end A349125.P12953389418514770395
 
+namespace A349125
+
+/-- `∑{d}[n+1, A346234(#)*A349381((n+1)/#)]` -/
+def P12953389418514770395.Spec : Prop :=
+  ∀ n, P12953389418514770395.a n = A349125 (n + 1)
+
+end A349125
+
 /-! ## A349125.P5196576917295193384
 
 `A008683(n+1)*A064216(A003602(n+1))`
@@ -2000,6 +2223,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349125.P5196576917295193384
+
+namespace A349125
+
+/-- `A008683(n+1)*A064216(A003602(n+1))` -/
+def P5196576917295193384.Spec : Prop :=
+  ∀ n, P5196576917295193384.a n = A349125 (n + 1)
+
+end A349125
 
 /-! ## A349125.P4199930985481255539
 
@@ -2016,6 +2247,14 @@ end
 
 end A349125.P4199930985481255539
 
+namespace A349125
+
+/-- `A064989(n+1)*A353457(n+1)*A353458(n+1)` -/
+def P4199930985481255539.Spec : Prop :=
+  ∀ n, P4199930985481255539.a n = A349125 (n + 1)
+
+end A349125
+
 /-! ## A349125.P1077244878586322587
 
 `A063441(n+1)/A003959(n+1)*A064989(n+1)`
@@ -2030,6 +2269,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A349125.P1077244878586322587
+
+namespace A349125
+
+/-- `A063441(n+1)/A003959(n+1)*A064989(n+1)` -/
+def P1077244878586322587.Spec : Prop :=
+  ∀ n, P1077244878586322587.a n = (A349125 (n + 1) : ℚ)
+
+end A349125
 
 /-! ## A349125.P1685525794175302704
 
@@ -2046,6 +2293,14 @@ end
 
 end A349125.P1685525794175302704
 
+namespace A349125
+
+/-- `A064989(n+1)/A003958(n+1)*A097945(n+1)` -/
+def P1685525794175302704.Spec : Prop :=
+  ∀ n, P1685525794175302704.a n = (A349125 (n + 1) : ℚ)
+
+end A349125
+
 /-! ## A349125.P13229908677690599540
 
 `A064989(n+1)/A003961(n+1)*A346234(n+1)`
@@ -2060,6 +2315,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A349125.P13229908677690599540
+
+namespace A349125
+
+/-- `A064989(n+1)/A003961(n+1)*A346234(n+1)` -/
+def P13229908677690599540.Spec : Prop :=
+  ∀ n, P13229908677690599540.a n = (A349125 (n + 1) : ℚ)
+
+end A349125
 
 /-! ## A349125.P8871698814867235819
 
@@ -2076,6 +2339,14 @@ end
 
 end A349125.P8871698814867235819
 
+namespace A349125
+
+/-- `A055615(n+1)/A319626(n+1)*A319627(n+1)` -/
+def P8871698814867235819.Spec : Prop :=
+  ∀ n, P8871698814867235819.a n = (A349125 (n + 1) : ℚ)
+
+end A349125
+
 /-! ## A349125.P2311817363701101862
 
 `A064989(n+1)/A319626(n+1)*A354365(n+1)`
@@ -2090,6 +2361,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A349125.P2311817363701101862
+
+namespace A349125
+
+/-- `A064989(n+1)/A319626(n+1)*A354365(n+1)` -/
+def P2311817363701101862.Spec : Prop :=
+  ∀ n, P2311817363701101862.a n = (A349125 (n + 1) : ℚ)
+
+end A349125
 
 /-! ## A349125.P2315740544813215982
 
@@ -2106,6 +2385,14 @@ end
 
 end A349125.P2315740544813215982
 
+namespace A349125
+
+/-- `round(A023900(n+1)/A039649(n+1))*A064989(n+1)` -/
+def P2315740544813215982.Spec : Prop :=
+  ∀ n, P2315740544813215982.a n = A349125 (n + 1)
+
+end A349125
+
 /-! ## A349125.P602333434149738232
 
 `round(A347092(n+1)/A347137(n+1))*A064989(n+1)`
@@ -2120,6 +2407,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349125.P602333434149738232
+
+namespace A349125
+
+/-- `round(A347092(n+1)/A347137(n+1))*A064989(n+1)` -/
+def P602333434149738232.Spec : Prop :=
+  ∀ n, P602333434149738232.a n = A349125 (n + 1)
+
+end A349125
 
 /-! ## A349125.P12815143843439204643
 
@@ -2136,6 +2431,14 @@ end
 
 end A349125.P12815143843439204643
 
+namespace A349125
+
+/-- `((A007814(n+1)+1)*A092673(n+1))%3*A064989(n+1)` -/
+def P12815143843439204643.Spec : Prop :=
+  ∀ n, P12815143843439204643.a n = A349125 (n + 1)
+
+end A349125
+
 /-! ## A349125.P8507963366360082872
 
 `A064989(n+1)/A108951(n+1)*A354351(n+1)`
@@ -2151,26 +2454,40 @@ end
 
 end A349125.P8507963366360082872
 
+namespace A349125
+
+/-- `A064989(n+1)/A108951(n+1)*A354351(n+1)` -/
+def P8507963366360082872.Spec : Prop :=
+  ∀ n, P8507963366360082872.a n = (A349125 (n + 1) : ℚ)
+
+end A349125
+
 /-!
 # A349126: Sum of A064989 and its Dirichlet inverse, where A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p.
 
-The programs for A349126, there is no canonical definition to state claims against.
+The programs for A349126, the canonical program `A349126.P8045301494363547831` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349126 has offset 1).
+
+The definition of A349126 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064989, A349125, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A349126.P8045301494363547831
 
 `A064989(n+1)+A349125(n+1)`
+
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
-namespace A349126.P8045301494363547831
-noncomputable section
+namespace A349126
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064989 (n + 1) + A349125 (n + 1)
+/-- `A064989(n+1)+A349125(n+1)` -/
+def P8045301494363547831.Spec : Prop :=
+  ∀ n, P8045301494363547831.a n = A349126 (n + 1)
 
-end
+theorem P8045301494363547831.correct : P8045301494363547831.Spec := by
+  intro n
+  simp only [A349126, Nat.add_sub_cancel]
 
-end A349126.P8045301494363547831
+end A349126
 
 /-! ## A349126.P7245094057082568813
 
@@ -2187,6 +2504,14 @@ end
 
 end A349126.P7245094057082568813
 
+namespace A349126
+
+/-- `A007423(n+1)*A064989(n+1)` -/
+def P7245094057082568813.Spec : Prop :=
+  ∀ n, P7245094057082568813.a n = A349126 (n + 1)
+
+end A349126
+
 /-! ## A349126.P12383323303477511568
 
 `(A008683(n+1)+1)*A064989(n+1)`
@@ -2201,6 +2526,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349126.P12383323303477511568
+
+namespace A349126
+
+/-- `(A008683(n+1)+1)*A064989(n+1)` -/
+def P12383323303477511568.Spec : Prop :=
+  ∀ n, P12383323303477511568.a n = A349126 (n + 1)
+
+end A349126
 
 /-! ## A349126.P13153153865643976107
 
@@ -2217,6 +2550,14 @@ end
 
 end A349126.P13153153865643976107
 
+namespace A349126
+
+/-- `abs((A008683(n+1)+1)*A290099(n+1))` -/
+def P13153153865643976107.Spec : Prop :=
+  ∀ n, P13153153865643976107.a n = A349126 (n + 1)
+
+end A349126
+
 /-! ## A349126.P11408392380084728014
 
 `A061669(n+1)/(n+1)*A064989(n+1)`
@@ -2231,6 +2572,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A349126.P11408392380084728014
+
+namespace A349126
+
+/-- `A061669(n+1)/(n+1)*A064989(n+1)` -/
+def P11408392380084728014.Spec : Prop :=
+  ∀ n, P11408392380084728014.a n = (A349126 (n + 1) : ℚ)
+
+end A349126
 
 /-! ## A349126.P14501009279205267505
 
@@ -2247,10 +2596,20 @@ end
 
 end A349126.P14501009279205267505
 
+namespace A349126
+
+/-- `(A008683(n+1)+1)*A064216(A003602(n+1))` -/
+def P14501009279205267505.Spec : Prop :=
+  ∀ n, P14501009279205267505.a n = A349126 (n + 1)
+
+end A349126
+
 /-!
 # A349127: Möbius transform of A064989, where A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p.
 
-The programs for A349127, there is no canonical definition to state claims against.
+The programs for A349127, the canonical program `A349127.P15902049127889208823` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349127 has offset 1).
+
+The definition of A349127 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A349127.P17022953117721634848
@@ -2267,6 +2626,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A349127.P17022953117721634848
+
+namespace A349127
+
+/-- `log2(gcd(2, n))*A348045(n+1)` -/
+def P17022953117721634848.Spec : Prop :=
+  ∀ n, P17022953117721634848.a n = (A349127 (n + 1) : ℝ)
+
+end A349127
 
 /-! ## A349127.P2334235297696402594
 
@@ -2287,6 +2654,14 @@ end
 
 end A349127.P2334235297696402594
 
+namespace A349127
+
+/-- `char[2*n]*A347115(n+1)` -/
+def P2334235297696402594.Spec : Prop :=
+  ∀ n, P2334235297696402594.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P9084927508744205679
 
 `char[2*n]*A349128(n+1)`
@@ -2306,6 +2681,14 @@ end
 
 end A349127.P9084927508744205679
 
+namespace A349127
+
+/-- `char[2*n]*A349128(n+1)` -/
+def P9084927508744205679.Spec : Prop :=
+  ∀ n, P9084927508744205679.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P10682351864646078317
 
 `A348045(n+2-n^(n%2))`
@@ -2320,6 +2703,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349127.P10682351864646078317
+
+namespace A349127
+
+/-- `A348045(n+2-n^(n%2))` -/
+def P10682351864646078317.Spec : Prop :=
+  ∀ n, P10682351864646078317.a n = A349127 (n + 1)
+
+end A349127
 
 /-! ## A349127.P3038306146124124757
 
@@ -2336,6 +2727,14 @@ end
 
 end A349127.P3038306146124124757
 
+namespace A349127
+
+/-- `A348045(A141310(n))` -/
+def P3038306146124124757.Spec : Prop :=
+  ∀ n, P3038306146124124757.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P14590114383915480252
 
 `A059841(n)*A348045(n+1)`
@@ -2350,6 +2749,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349127.P14590114383915480252
+
+namespace A349127
+
+/-- `A059841(n)*A348045(n+1)` -/
+def P14590114383915480252.Spec : Prop :=
+  ∀ n, P14590114383915480252.a n = A349127 (n + 1)
+
+end A349127
 
 /-! ## A349127.P4164195919042334038
 
@@ -2366,6 +2773,14 @@ end
 
 end A349127.P4164195919042334038
 
+namespace A349127
+
+/-- `A266591(n)*A348045(n+1)` -/
+def P4164195919042334038.Spec : Prop :=
+  ∀ n, P4164195919042334038.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P17865392997498118141
 
 `lcm(A056594(n), A347115(n+1))`
@@ -2380,6 +2795,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A349127.P17865392997498118141
+
+namespace A349127
+
+/-- `lcm(A056594(n), A347115(n+1))` -/
+def P17865392997498118141.Spec : Prop :=
+  ∀ n, (P17865392997498118141.a n : ℤ) = A349127 (n + 1)
+
+end A349127
 
 /-! ## A349127.P1579551865674319743
 
@@ -2396,6 +2819,14 @@ end
 
 end A349127.P1579551865674319743
 
+namespace A349127
+
+/-- `(1-A000035(n))*A348045(n+1)` -/
+def P1579551865674319743.Spec : Prop :=
+  ∀ n, P1579551865674319743.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P17886846408520027929
 
 `lcm(A166698(n+1), A348045(n+1))`
@@ -2411,6 +2842,14 @@ end
 
 end A349127.P17886846408520027929
 
+namespace A349127
+
+/-- `lcm(A166698(n+1), A348045(n+1))` -/
+def P17886846408520027929.Spec : Prop :=
+  ∀ n, (P17886846408520027929.a n : ℤ) = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P13050073894747882236
 
 `A348045(n+1)*A359374(2*(n+1))`
@@ -2425,6 +2864,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349127.P13050073894747882236
+
+namespace A349127
+
+/-- `A348045(n+1)*A359374(2*(n+1))` -/
+def P13050073894747882236.Spec : Prop :=
+  ∀ n, P13050073894747882236.a n = A349127 (n + 1)
+
+end A349127
 
 /-! ## A349127.P5140744659870694440
 
@@ -2444,6 +2891,14 @@ end
 
 end A349127.P5140744659870694440
 
+namespace A349127
+
+/-- `∑{d}[n+1, A008683(#)*A064989((n+1)/#)]` -/
+def P5140744659870694440.Spec : Prop :=
+  ∀ n, P5140744659870694440.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P4298463257438092328
 
 `∑{d}[n+1, A003972(#)*A349382((n+1)/#)]`
@@ -2461,6 +2916,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349127.P4298463257438092328
+
+namespace A349127
+
+/-- `∑{d}[n+1, A003972(#)*A349382((n+1)/#)]` -/
+def P4298463257438092328.Spec : Prop :=
+  ∀ n, P4298463257438092328.a n = A349127 (n + 1)
+
+end A349127
 
 /-! ## A349127.P10016818867022827567
 
@@ -2480,6 +2943,14 @@ end
 
 end A349127.P10016818867022827567
 
+namespace A349127
+
+/-- `∑{d}[n+1, A092673(#)*A349122((n+1)/#)]` -/
+def P10016818867022827567.Spec : Prop :=
+  ∀ n, P10016818867022827567.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P17787200247906043802
 
 `∑{d}[n+1, A154955(#)*A349128((n+1)/#)]`
@@ -2498,23 +2969,32 @@ end
 
 end A349127.P17787200247906043802
 
+namespace A349127
+
+/-- `∑{d}[n+1, A154955(#)*A349128((n+1)/#)]` -/
+def P17787200247906043802.Spec : Prop :=
+  ∀ n, P17787200247906043802.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P15902049127889208823
 
 `∑{d}[n+1, A326041(#)*A327276((n+1)/#)]`
+
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
-namespace A349127.P15902049127889208823
-noncomputable section
+namespace A349127
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `∑{d}[n+1, A326041(#)*A327276((n+1)/#)]` -/
+def P15902049127889208823.Spec : Prop :=
+  ∀ n, P15902049127889208823.a n = A349127 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A326041 d * A327276 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+theorem P15902049127889208823.correct : P15902049127889208823.Spec := by
+  intro n
+  simp only [A349127, Nat.add_sub_cancel]
 
-end
-
-end A349127.P15902049127889208823
+end A349127
 
 /-! ## A349127.P13704942024428795736
 
@@ -2531,6 +3011,14 @@ end
 
 end A349127.P13704942024428795736
 
+namespace A349127
+
+/-- `(1-A000035(n))*A000010(A064989(n+1))` -/
+def P13704942024428795736.Spec : Prop :=
+  ∀ n, P13704942024428795736.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P7057505814961436872
 
 `A059841(n)*A347115(n+1)*A059841(n)`
@@ -2545,6 +3033,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349127.P7057505814961436872
+
+namespace A349127
+
+/-- `A059841(n)*A347115(n+1)*A059841(n)` -/
+def P7057505814961436872.Spec : Prop :=
+  ∀ n, P7057505814961436872.a n = A349127 (n + 1)
+
+end A349127
 
 /-! ## A349127.P1238257322746177911
 
@@ -2561,6 +3057,14 @@ end
 
 end A349127.P1238257322746177911
 
+namespace A349127
+
+/-- `A000035(n+1)*A348045(n+1)` -/
+def P1238257322746177911.Spec : Prop :=
+  ∀ n, P1238257322746177911.a n = A349127 (n + 1)
+
+end A349127
+
 /-! ## A349127.P10710790435916170565
 
 `A000035(n+1)*A000010(A064989(n+1))`
@@ -2576,10 +3080,20 @@ end
 
 end A349127.P10710790435916170565
 
+namespace A349127
+
+/-- `A000035(n+1)*A000010(A064989(n+1))` -/
+def P10710790435916170565.Spec : Prop :=
+  ∀ n, P10710790435916170565.a n = A349127 (n + 1)
+
+end A349127
+
 /-!
 # A349128: a(n) = phi(A064989(n)), where A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p, and phi is Euler totient function.
 
-The programs for A349128, there is no canonical definition to state claims against.
+The programs for A349128, the canonical program `A349128.P12048701012685724267` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349128 has offset 1).
+
+The definition of A349128 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A349128.P315843693541796081
@@ -2597,6 +3111,14 @@ end
 
 end A349128.P315843693541796081
 
+namespace A349128
+
+/-- `A347115((n+1)/2^val(n+1, 2))` -/
+def P315843693541796081.Spec : Prop :=
+  ∀ n, P315843693541796081.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P9956553183334764410
 
 `A349127((n+1)/2^val(n+1, 2))`
@@ -2611,6 +3133,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349128.P9956553183334764410
+
+namespace A349128
+
+/-- `A349127((n+1)/2^val(n+1, 2))` -/
+def P9956553183334764410.Spec : Prop :=
+  ∀ n, P9956553183334764410.a n = A349128 (n + 1)
+
+end A349128
 
 /-! ## A349128.P18062015103507870630
 
@@ -2627,6 +3157,14 @@ end
 
 end A349128.P18062015103507870630
 
+namespace A349128
+
+/-- `A348045(floor(n/2^val(n+1, 2))+1)` -/
+def P18062015103507870630.Spec : Prop :=
+  ∀ n, P18062015103507870630.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P18132479588760690167
 
 `A285702(floor(n/(xor(n, n+1)+1))+1)`
@@ -2642,20 +3180,32 @@ end
 
 end A349128.P18132479588760690167
 
+namespace A349128
+
+/-- `A285702(floor(n/(xor(n, n+1)+1))+1)` -/
+def P18132479588760690167.Spec : Prop :=
+  ∀ n, P18132479588760690167.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P12048701012685724267
 
 `A000010(A064989(n+1))`
+
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
-namespace A349128.P12048701012685724267
-noncomputable section
+namespace A349128
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (A064989 (n + 1)).toNat
+/-- `A000010(A064989(n+1))` -/
+def P12048701012685724267.Spec : Prop :=
+  ∀ n, P12048701012685724267.a n = A349128 (n + 1)
 
-end
+theorem P12048701012685724267.correct : P12048701012685724267.Spec := by
+  intro n
+  simp only [A349128, Nat.add_sub_cancel]
 
-end A349128.P12048701012685724267
+end A349128
 
 /-! ## A349128.P15852244388879620941
 
@@ -2672,6 +3222,14 @@ end
 
 end A349128.P15852244388879620941
 
+namespace A349128
+
+/-- `A285702(A003602(n+1))` -/
+def P15852244388879620941.Spec : Prop :=
+  ∀ n, P15852244388879620941.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P778367580751038336
 
 `A347115(A000265(n+1))`
@@ -2686,6 +3244,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349128.P778367580751038336
+
+namespace A349128
+
+/-- `A347115(A000265(n+1))` -/
+def P778367580751038336.Spec : Prop :=
+  ∀ n, P778367580751038336.a n = A349128 (n + 1)
+
+end A349128
 
 /-! ## A349128.P8423162387014789913
 
@@ -2702,6 +3268,14 @@ end
 
 end A349128.P8423162387014789913
 
+namespace A349128
+
+/-- `A000010(abs(A290099(n+1)))` -/
+def P8423162387014789913.Spec : Prop :=
+  ∀ n, P8423162387014789913.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P997460308058813481
 
 `A348045(A000265(2*(n+1)))`
@@ -2716,6 +3290,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349128.P997460308058813481
+
+namespace A349128
+
+/-- `A348045(A000265(2*(n+1)))` -/
+def P997460308058813481.Spec : Prop :=
+  ∀ n, P997460308058813481.a n = A349128 (n + 1)
+
+end A349128
 
 /-! ## A349128.P6452154109501418107
 
@@ -2732,6 +3314,14 @@ end
 
 end A349128.P6452154109501418107
 
+namespace A349128
+
+/-- `A349127(A000265(2*n+2))` -/
+def P6452154109501418107.Spec : Prop :=
+  ∀ n, P6452154109501418107.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P1294277575176626113
 
 `A349127(2*A003602(n+1)-1)`
@@ -2746,6 +3336,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349128.P1294277575176626113
+
+namespace A349128
+
+/-- `A349127(2*A003602(n+1)-1)` -/
+def P1294277575176626113.Spec : Prop :=
+  ∀ n, P1294277575176626113.a n = A349128 (n + 1)
+
+end A349128
 
 /-! ## A349128.P10122159266641492144
 
@@ -2762,6 +3360,14 @@ end
 
 end A349128.P10122159266641492144
 
+namespace A349128
+
+/-- `A349137(2*A064989(n+1)-1)` -/
+def P10122159266641492144.Spec : Prop :=
+  ∀ n, P10122159266641492144.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P12383176529871355161
 
 `A000010(A200746(n+1)/(n+1))`
@@ -2776,6 +3382,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349128.P12383176529871355161
+
+namespace A349128
+
+/-- `A000010(A200746(n+1)/(n+1))` -/
+def P12383176529871355161.Spec : Prop :=
+  ∀ n, P12383176529871355161.a n = A349128 (n + 1)
+
+end A349128
 
 /-! ## A349128.P1569025341958101515
 
@@ -2792,6 +3406,14 @@ end
 
 end A349128.P1569025341958101515
 
+namespace A349128
+
+/-- `A349127((n+1)/A006519(n+1))` -/
+def P1569025341958101515.Spec : Prop :=
+  ∀ n, P1569025341958101515.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P4812116312388982693
 
 `A039649(abs(1-A064989(n+1))+1)-1`
@@ -2806,6 +3428,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349128.P4812116312388982693
+
+namespace A349128
+
+/-- `A039649(abs(1-A064989(n+1))+1)-1` -/
+def P4812116312388982693.Spec : Prop :=
+  ∀ n, P4812116312388982693.a n = A349128 (n + 1)
+
+end A349128
 
 /-! ## A349128.P15907740487702597901
 
@@ -2825,6 +3455,14 @@ end
 
 end A349128.P15907740487702597901
 
+namespace A349128
+
+/-- `∑{d}[n+1, A064989(#)*A087003((n+1)/#)]` -/
+def P15907740487702597901.Spec : Prop :=
+  ∀ n, P15907740487702597901.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P229471129216225327
 
 `∑{d}[n+1, A008683(#)*A349122((n+1)/#)]`
@@ -2842,6 +3480,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349128.P229471129216225327
+
+namespace A349128
+
+/-- `∑{d}[n+1, A008683(#)*A349122((n+1)/#)]` -/
+def P229471129216225327.Spec : Prop :=
+  ∀ n, P229471129216225327.a n = A349128 (n + 1)
+
+end A349128
 
 /-! ## A349128.P9234882437496672997
 
@@ -2861,6 +3507,14 @@ end
 
 end A349128.P9234882437496672997
 
+namespace A349128
+
+/-- `∑{d}[n+1, A209229(#)*A349127((n+1)/#)]` -/
+def P9234882437496672997.Spec : Prop :=
+  ∀ n, P9234882437496672997.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P9464394422276152119
 
 `∑{d}[n+1, A036987(#-1)*A349127((n+1)/#)]`
@@ -2879,6 +3533,14 @@ end
 
 end A349128.P9464394422276152119
 
+namespace A349128
+
+/-- `∑{d}[n+1, A036987(#-1)*A349127((n+1)/#)]` -/
+def P9464394422276152119.Spec : Prop :=
+  ∀ n, P9464394422276152119.a n = A349128 (n + 1)
+
+end A349128
+
 /-! ## A349128.P14233525288401468332
 
 `A064989(n+1)-A319700((n+1)/and(n+1, -(n+1)))`
@@ -2894,10 +3556,18 @@ end
 
 end A349128.P14233525288401468332
 
+namespace A349128
+
+/-- `A064989(n+1)-A319700((n+1)/and(n+1, -(n+1)))` -/
+def P14233525288401468332.Spec : Prop :=
+  ∀ n, P14233525288401468332.a n = A349128 (n + 1)
+
+end A349128
+
 /-!
 # A349129: a(n) = Sum_{d|n} A003958(d) * A003959(n/d), where A003958 is fully multiplicative with a(p) = (p-1), and A003959 is fully multiplicative with a(p) = (p+1).
 
-The programs for A349129, the canonical program `A349129.P13556310181811753018` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349129 has offset 1).
+The programs for A349129, the canonical program `A349129.P13556310181811753018` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349129 has offset 1).
 
 The definition of A349129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2906,7 +3576,7 @@ The definition of A349129 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A003958(#)*A003959((n+1)/#)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349129
@@ -3074,7 +3744,7 @@ end A349129
 /-!
 # A349130: a(n) = Sum_{d|n} d * A003958(n/d), where A003958 is fully multiplicative with a(p) = (p-1).
 
-The programs for A349130, the canonical program `A349130.P16374043146752204545` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349130 has offset 1).
+The programs for A349130, the canonical program `A349130.P16374043146752204545` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349130 has offset 1).
 
 The definition of A349130 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A038040, A348980, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3083,7 +3753,7 @@ The definition of A349130 is `conditional`: the Lean definition is an OEIS formu
 
 `A038040(n+1)-A348980(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A349130
@@ -3332,7 +4002,7 @@ end A349130
 /-!
 # A349131: a(n) = Sum_{d|n} phi(d) * A003958(n/d), where A003958 is fully multiplicative with a(p) = (p-1), and phi is Euler totient function.
 
-The programs for A349131, the canonical program `A349131.P8964480584891997283` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349131 has offset 1).
+The programs for A349131, the canonical program `A349131.P8964480584891997283` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349131 has offset 1).
 
 The definition of A349131 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A018804, A348981, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3341,7 +4011,7 @@ The definition of A349131 is `conditional`: the Lean definition is an OEIS formu
 
 `A018804(n+1)-A348981(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A349131
@@ -3639,7 +4309,7 @@ end A349131
 /-!
 # A349132: a(n) = Sum_{d|n} psi(d) * A003958(n/d), where A003958 is fully multiplicative with a(p) = (p-1), and psi is Dedekind psi function, A001615.
 
-The programs for A349132, the canonical program `A349132.P869711925521774844` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349132 has offset 1).
+The programs for A349132, the canonical program `A349132.P869711925521774844` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349132 has offset 1).
 
 The definition of A349132 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A327251, A348982, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3648,7 +4318,7 @@ The definition of A349132 is `conditional`: the Lean definition is an OEIS formu
 
 `A327251(n+1)-A348982(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A349132
@@ -3871,7 +4541,7 @@ end A349132
 /-!
 # A349133: Dirichlet convolution of A003415 with A003958, where A003415 is the arithmetic derivative and A003958 is fully multiplicative with a(p) = (p-1).
 
-The programs for A349133, the canonical program `A349133.P9132433832070861361` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349133 has offset 1).
+The programs for A349133, the canonical program `A349133.P9132433832070861361` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349133 has offset 1).
 
 The definition of A349133 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4010,7 +4680,7 @@ end A349133
 
 `∑{d}[n+1, A349130(#)*A349394((n+1)/#)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A349133
@@ -4692,7 +5362,7 @@ end A349135.P16478000594236233967
 /-!
 # A349136: Möbius transform of Kimberling's paraphrase, A003602.
 
-The programs for A349136, the canonical program `A349136.P13757251460804811731` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349136 has offset 1).
+The programs for A349136, the canonical program `A349136.P13757251460804811731` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349136 has offset 1).
 
 The definition of A349136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4869,7 +5539,7 @@ end A349136
 
 `A055034(n+1)*A059841(n)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A349136
@@ -5166,10 +5836,29 @@ end A349136
 /-!
 # A349137: a(n) = phi(A003602(n)), where A003602 is Kimberling's paraphrase of the binary number system, and phi is Euler totient function.
 
-The programs for A349137, the canonical program `A349137.P16480862393533510272` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349137 has offset 1).
+The programs for A349137, the canonical program `A349137.P16019714478779195286` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349137 has offset 1).
 
-The definition of A349137 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A349137 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A003602, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A349137.P16019714478779195286
+
+`A000010(A003602(n+1))`
+
+The canonical program, it is in `Seq.B006.C002`.
+-/
+
+namespace A349137
+
+/-- `A000010(A003602(n+1))` -/
+def P16019714478779195286.Spec : Prop :=
+  ∀ n, P16019714478779195286.a n = A349137 (n + 1)
+
+theorem P16019714478779195286.correct : P16019714478779195286.Spec := by
+  intro n
+  simp only [A349137, Nat.add_sub_cancel]
+
+end A349137
 
 /-! ## A349137.P5597709571596280478
 
@@ -5332,29 +6021,6 @@ def P8738437741075779811.Spec : Prop :=
 
 end A349137
 
-/-! ## A349137.P16019714478779195286
-
-`A000010(A003602(n+1))`
--/
-
-namespace A349137.P16019714478779195286
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (A003602 (n + 1)).toNat
-
-end
-
-end A349137.P16019714478779195286
-
-namespace A349137
-
-/-- `A000010(A003602(n+1))` -/
-def P16019714478779195286.Spec : Prop :=
-  ∀ n, P16019714478779195286.a n = A349137 (n + 1)
-
-end A349137
-
 /-! ## A349137.P8186484595542096178
 
 `A000010(A025480(n)+1)`
@@ -5381,19 +6047,23 @@ end A349137
 /-! ## A349137.P16480862393533510272
 
 `A067541(A000265(n+1))`
-
-The canonical program, it is in `Seq.B007.C001`.
 -/
+
+namespace A349137.P16480862393533510272
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067541 (A000265 (n + 1)).toNat
+
+end
+
+end A349137.P16480862393533510272
 
 namespace A349137
 
 /-- `A067541(A000265(n+1))` -/
 def P16480862393533510272.Spec : Prop :=
   ∀ n, P16480862393533510272.a n = A349137 (n + 1)
-
-theorem P16480862393533510272.correct : P16480862393533510272.Spec := by
-  intro n
-  simp only [A349137, Nat.add_sub_cancel]
 
 end A349137
 
@@ -5630,7 +6300,7 @@ end A349137
 /-!
 # A349138: Inverse Möbius transform of A349137, where A349137(n) = phi(A003602(n)).
 
-The programs for A349138, the canonical program `A349138.P8801393356759692262` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349138 has offset 1).
+The programs for A349138, the canonical program `A349138.P8801393356759692262` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349138 has offset 1).
 
 The definition of A349138 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5639,7 +6309,7 @@ The definition of A349138 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A349137(#)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A349138
@@ -5755,7 +6425,7 @@ end A349138
 /-!
 # A349139: a(n) = Sum_{d|n} A322582(d) * A348507(n/d), where A322582(n) = n - A003958(n) and A348507(n) = A003959(n) - n.
 
-The programs for A349139, the canonical program `A349139.P9969738646670247629` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349139 has offset 1).
+The programs for A349139, the canonical program `A349139.P9969738646670247629` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349139 has offset 1).
 
 The definition of A349139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5764,7 +6434,7 @@ The definition of A349139 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A322582(#)*A348507((n+1)/#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349139
@@ -5874,7 +6544,7 @@ end A349139
 /-!
 # A349140: a(n) = Sum_{d|n} d * A348507(n/d), where A348507(n) = A003959(n) - n, where A003959 is fully multiplicative with a(p) = (p+1).
 
-The programs for A349140, the canonical program `A349140.P14032987347697036060` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349140 has offset 1).
+The programs for A349140, the canonical program `A349140.P14032987347697036060` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349140 has offset 1).
 
 The definition of A349140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5932,7 +6602,7 @@ end A349140
 
 `∑{d}[n+1, #*A348507((n+1)/#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349140
@@ -6074,7 +6744,7 @@ end A349140
 /-!
 # A349141: a(n) = Sum_{d|n} phi(n/d) * A348507(d), where A348507(n) = A003959(n) - n, and A003959 is fully multiplicative with a(p) = (p+1).
 
-The programs for A349141, the canonical program `A349141.P2326115559744657206` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349141 has offset 1).
+The programs for A349141, the canonical program `A349141.P2326115559744657206` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349141 has offset 1).
 
 The definition of A349141 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6106,7 +6776,7 @@ end A349141
 
 `∑{d}[n+1, #*A348971((n+1)/#)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349141
@@ -6378,7 +7048,7 @@ end A349141
 /-!
 # A349142: a(n) = Sum_{d|n} psi(n/d) * A348507(d), where psi is Dedekind psi (A001615), A348507(n) = A003959(n) - n, and A003959 is fully multiplicative with a(p) = (p+1).
 
-The programs for A349142, the canonical program `A349142.P9302978881308882123` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349142 has offset 1).
+The programs for A349142, the canonical program `A349142.P9302978881308882123` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349142 has offset 1).
 
 The definition of A349142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6410,7 +7080,7 @@ end A349142
 
 `∑{d}[n+1, A001615(#)*A348507((n+1)/#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349142
@@ -6555,7 +7225,7 @@ end A349142
 /-!
 # A349143: a(n) = Sum_{d|n} A038040(d) * A348507(n/d), where A038040(n) = n*tau(n), A348507(n) = A003959(n) - n, and A003959 is fully multiplicative with a(p) = (p+1).
 
-The programs for A349143, the canonical program `A349143.P5990115332605292708` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349143 has offset 1).
+The programs for A349143, the canonical program `A349143.P5990115332605292708` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349143 has offset 1).
 
 The definition of A349143 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6564,7 +7234,7 @@ The definition of A349143 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A349140((n+1)/#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349143
@@ -8142,46 +8812,50 @@ end A349160.P3332003123537519401
 /-!
 # A349161: a(n) = A003961(n) / gcd(sigma(n), A003961(n)), where A003961 shifts the prime factorization of n one step towards larger primes, and sigma is the sum of divisors function.
 
-The programs for A349161, the canonical program `A349161.P6500018630636352976` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349161 has offset 1).
+The programs for A349161, the canonical program `A349161.P8652954744420952419` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349161 has offset 1).
 
-The definition of A349161 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003961, A342671, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A349161 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003961, A349164, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
-
-/-! ## A349161.P6500018630636352976
-
-`A003961(n+1)/A342671(n+1)`
-
-The canonical program, it is in `Seq.B012.C000`.
--/
-
-namespace A349161
-
-/-- `A003961(n+1)/A342671(n+1)` -/
-def P6500018630636352976.Spec : Prop :=
-  ∀ n, P6500018630636352976.a n = (A349161 (n + 1) : ℚ)
-
-end A349161
 
 /-! ## A349161.P8652954744420952419
 
 `A003961(A349164(n+1))`
+
+The canonical program, it is in `Seq.B013.C000`.
 -/
-
-namespace A349161.P8652954744420952419
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003961 (A349164 (n + 1)).toNat
-
-end
-
-end A349161.P8652954744420952419
 
 namespace A349161
 
 /-- `A003961(A349164(n+1))` -/
 def P8652954744420952419.Spec : Prop :=
   ∀ n, P8652954744420952419.a n = A349161 (n + 1)
+
+theorem P8652954744420952419.correct : P8652954744420952419.Spec := by
+  intro n
+  simp only [A349161, Nat.add_sub_cancel]
+
+end A349161
+
+/-! ## A349161.P6500018630636352976
+
+`A003961(n+1)/A342671(n+1)`
+-/
+
+namespace A349161.P6500018630636352976
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A003961 (n + 1) : ℚ) / (A342671 (n + 1) : ℚ)
+
+end
+
+end A349161.P6500018630636352976
+
+namespace A349161
+
+/-- `A003961(n+1)/A342671(n+1)` -/
+def P6500018630636352976.Spec : Prop :=
+  ∀ n, P6500018630636352976.a n = (A349161 (n + 1) : ℚ)
 
 end A349161
 
@@ -8556,7 +9230,7 @@ end A349161
 /-!
 # A349162: a(n) = sigma(n) / gcd(sigma(n), A003961(n)), where A003961 shifts the prime factorization of n one step towards larger primes, and sigma is the sum of divisors function.
 
-The programs for A349162, the canonical program `A349162.P4701200943170105662` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349162 has offset 1).
+The programs for A349162, the canonical program `A349162.P4701200943170105662` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349162 has offset 1).
 
 The definition of A349162 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A342671, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8565,7 +9239,7 @@ The definition of A349162 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(n+1)/A342671(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A349162
@@ -9016,7 +9690,9 @@ end A349162
 /-!
 # A349163: a(n) = A064989(gcd(sigma(n), A003961(n))), where A003961 shifts the prime factorization of n one step towards larger primes, while A064989 shifts it back towards smaller primes, and sigma is the sum of divisors function.
 
-The programs for A349163, there is no canonical definition to state claims against.
+The programs for A349163, the canonical program `A349163.P10832042001008590963` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349163 has offset 1).
+
+The definition of A349163 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A349163.P11840546224986819350
@@ -9034,20 +9710,13 @@ end
 
 end A349163.P11840546224986819350
 
-/-! ## A349163.P10832042001008590963
+namespace A349163
 
-`gcd(n+1, A350073(n+1))`
--/
+/-- `(n+1)/A349164(n+1)` -/
+def P11840546224986819350.Spec : Prop :=
+  ∀ n, P11840546224986819350.a n = (A349163 (n + 1) : ℚ)
 
-namespace A349163.P10832042001008590963
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (n + 1 : ℤ) (A350073 (n + 1))
-
-end
-
-end A349163.P10832042001008590963
+end A349163
 
 /-! ## A349163.P13103992180201182564
 
@@ -9064,6 +9733,33 @@ end
 
 end A349163.P13103992180201182564
 
+namespace A349163
+
+/-- `A064989(A342671(n+1))` -/
+def P13103992180201182564.Spec : Prop :=
+  ∀ n, P13103992180201182564.a n = A349163 (n + 1)
+
+end A349163
+
+/-! ## A349163.P10832042001008590963
+
+`gcd(n+1, A350073(n+1))`
+
+The canonical program, it is in `Seq.B010.C000`.
+-/
+
+namespace A349163
+
+/-- `gcd(n+1, A350073(n+1))` -/
+def P10832042001008590963.Spec : Prop :=
+  ∀ n, (P10832042001008590963.a n : ℤ) = A349163 (n + 1)
+
+theorem P10832042001008590963.correct : P10832042001008590963.Spec := by
+  intro n
+  simp only [A349163, Nat.add_sub_cancel]
+
+end A349163
+
 /-! ## A349163.P16965403557298208748
 
 `A283463(A342671(n+1)+1)`
@@ -9078,6 +9774,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349163.P16965403557298208748
+
+namespace A349163
+
+/-- `A283463(A342671(n+1)+1)` -/
+def P16965403557298208748.Spec : Prop :=
+  ∀ n, P16965403557298208748.a n = A349163 (n + 1)
+
+end A349163
 
 /-! ## A349163.P4180397334569169308
 
@@ -9094,6 +9798,14 @@ end
 
 end A349163.P4180397334569169308
 
+namespace A349163
+
+/-- `A350073(n+1)/A348993(n+1)` -/
+def P4180397334569169308.Spec : Prop :=
+  ∀ n, P4180397334569169308.a n = (A349163 (n + 1) : ℚ)
+
+end A349163
+
 /-! ## A349163.P6523554276477516534
 
 `A064989(A000203(n+1)/A349162(n+1))`
@@ -9108,6 +9820,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349163.P6523554276477516534
+
+namespace A349163
+
+/-- `A064989(A000203(n+1)/A349162(n+1))` -/
+def P6523554276477516534.Spec : Prop :=
+  ∀ n, P6523554276477516534.a n = A349163 (n + 1)
+
+end A349163
 
 /-! ## A349163.P1096916476877031736
 
@@ -9124,6 +9844,14 @@ end
 
 end A349163.P1096916476877031736
 
+namespace A349163
+
+/-- `A064989(A161942(n+1)/A348992(n+1))` -/
+def P1096916476877031736.Spec : Prop :=
+  ∀ n, P1096916476877031736.a n = A349163 (n + 1)
+
+end A349163
+
 /-! ## A349163.P15079659240972786568
 
 `A064989(A161942(n+1))/A348993(n+1)`
@@ -9138,6 +9866,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A349163.P15079659240972786568
+
+namespace A349163
+
+/-- `A064989(A161942(n+1))/A348993(n+1)` -/
+def P15079659240972786568.Spec : Prop :=
+  ∀ n, P15079659240972786568.a n = (A349163 (n + 1) : ℚ)
+
+end A349163
 
 /-! ## A349163.P9262969550039014465
 
@@ -9154,6 +9890,14 @@ end
 
 end A349163.P9262969550039014465
 
+namespace A349163
+
+/-- `A064989(A000203(n+1)/A348992(n+1))` -/
+def P9262969550039014465.Spec : Prop :=
+  ∀ n, P9262969550039014465.a n = A349163 (n + 1)
+
+end A349163
+
 /-! ## A349163.P12660561048245991428
 
 `A350073(n+1)/A064989(A349162(n+1))`
@@ -9168,6 +9912,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A349163.P12660561048245991428
+
+namespace A349163
+
+/-- `A350073(n+1)/A064989(A349162(n+1))` -/
+def P12660561048245991428.Spec : Prop :=
+  ∀ n, P12660561048245991428.a n = (A349163 (n + 1) : ℚ)
+
+end A349163
 
 /-! ## A349163.P11207353763376832470
 
@@ -9184,6 +9936,14 @@ end
 
 end A349163.P11207353763376832470
 
+namespace A349163
+
+/-- `A064989(A000203(n+1))/A348993(n+1)` -/
+def P11207353763376832470.Spec : Prop :=
+  ∀ n, P11207353763376832470.a n = (A349163 (n + 1) : ℚ)
+
+end A349163
+
 /-! ## A349163.P13325091993040399894
 
 `(n+1)/A064989(A349161(n+1))`
@@ -9198,6 +9958,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A349163.P13325091993040399894
+
+namespace A349163
+
+/-- `(n+1)/A064989(A349161(n+1))` -/
+def P13325091993040399894.Spec : Prop :=
+  ∀ n, P13325091993040399894.a n = (A349163 (n + 1) : ℚ)
+
+end A349163
 
 /-! ## A349163.P901364240589943250
 
@@ -9214,26 +9982,59 @@ end
 
 end A349163.P901364240589943250
 
+namespace A349163
+
+/-- `(n+1)/A252463(A349161(n+1)%A033567(n+1))` -/
+def P901364240589943250.Spec : Prop :=
+  ∀ n, P901364240589943250.a n = (A349163 (n + 1) : ℚ)
+
+end A349163
+
 /-!
 # A349164: a(n) = A064989(A003961(n) / gcd(sigma(n), A003961(n))), where A003961 shifts the prime factorization of n one step towards larger primes, while A064989 shifts it back towards smaller primes, and sigma is the sum of divisors function.
 
-The programs for A349164, there is no canonical definition to state claims against.
+The programs for A349164, the canonical program `A349164.P13647516460851869598` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349164 has offset 1).
+
+The definition of A349164 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A349163, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A349164.P13647516460851869598
 
 `(n+1)/A349163(n+1)`
+
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
-namespace A349164.P13647516460851869598
+namespace A349164
+
+/-- `(n+1)/A349163(n+1)` -/
+def P13647516460851869598.Spec : Prop :=
+  ∀ n, P13647516460851869598.a n = (A349164 (n + 1) : ℚ)
+
+end A349164
+
+/-! ## A349164.P12883289612889478448
+
+`A064989(A349161(n+1))`
+-/
+
+namespace A349164.P12883289612889478448
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (A349163 (n + 1) : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064989 (A349161 (n + 1)).toNat
 
 end
 
-end A349164.P13647516460851869598
+end A349164.P12883289612889478448
+
+namespace A349164
+
+/-- `A064989(A349161(n+1))` -/
+def P12883289612889478448.Spec : Prop :=
+  ∀ n, P12883289612889478448.a n = A349164 (n + 1)
+
+end A349164
 
 /-! ## A349164.P12908620165410638138
 
@@ -9250,6 +10051,14 @@ end
 
 end A349164.P12908620165410638138
 
+namespace A349164
+
+/-- `(n+1)/A064989(A342671(n+1))` -/
+def P12908620165410638138.Spec : Prop :=
+  ∀ n, P12908620165410638138.a n = (A349164 (n + 1) : ℚ)
+
+end A349164
+
 /-! ## A349164.P7732462650593468938
 
 `A000027(n+1)/A252463(A342671(n+1))`
@@ -9264,6 +10073,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A349164.P7732462650593468938
+
+namespace A349164
+
+/-- `A000027(n+1)/A252463(A342671(n+1))` -/
+def P7732462650593468938.Spec : Prop :=
+  ∀ n, P7732462650593468938.a n = (A349164 (n + 1) : ℚ)
+
+end A349164
 
 /-! ## A349164.P913037859742490713
 
@@ -9280,20 +10097,13 @@ end
 
 end A349164.P913037859742490713
 
-/-! ## A349164.P11644899554213567443
+namespace A349164
 
-`A349122(A349161(n+1))`
--/
+/-- `(n+1)/gcd(n+1, A064989(A000203(n+1)))` -/
+def P913037859742490713.Spec : Prop :=
+  ∀ n, P913037859742490713.a n = (A349164 (n + 1) : ℚ)
 
-namespace A349164.P11644899554213567443
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A349122 (A349161 (n + 1)).toNat
-
-end
-
-end A349164.P11644899554213567443
+end A349164
 
 /-! ## A349164.P356871662745606305
 
@@ -9310,6 +10120,14 @@ end
 
 end A349164.P356871662745606305
 
+namespace A349164
+
+/-- `A349122((A003973(n+1)-A336851(n+1))/A342671(n+1))` -/
+def P356871662745606305.Spec : Prop :=
+  ∀ n, P356871662745606305.a n = A349164 (n + 1)
+
+end A349164
+
 /-! ## A349164.P4344958145430910309
 
 `A252463(A349161(n+1)%A033567(n+1))`
@@ -9324,6 +10142,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349164.P4344958145430910309
+
+namespace A349164
+
+/-- `A252463(A349161(n+1)%A033567(n+1))` -/
+def P4344958145430910309.Spec : Prop :=
+  ∀ n, P4344958145430910309.a n = A349164 (n + 1)
+
+end A349164
 
 /-! ## A349164.P2774633436986734018
 
@@ -9340,37 +10166,38 @@ end
 
 end A349164.P2774633436986734018
 
+namespace A349164
+
+/-- `A252463(A349161(n+1))%A037350(n+1)` -/
+def P2774633436986734018.Spec : Prop :=
+  ∀ n, P2774633436986734018.a n = A349164 (n + 1)
+
+end A349164
+
 /-!
 # A349165: Numbers k such that sigma(k) and A003961(k) are relatively prime, where A003961(n) is fully multiplicative function with a(prime(k)) = prime(k+1).
 
-The programs for A349165, the canonical program `A349165.P1931059782315929431` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349165 has offset 1).
+The programs for A349165, the canonical program `A349165.P4867618242033618851` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349165 has offset 1).
 
-The definition of A349165 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7478 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A349165 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A349165.P4867618242033618851
 
 `record[A349164(n+1)]`
+
+The canonical program, it is in `Seq.B012.C000`.
 -/
-
-namespace A349165.P4867618242033618851
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A349164 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A349165.P4867618242033618851
 
 namespace A349165
 
 /-- `record[A349164(n+1)]` -/
 def P4867618242033618851.Spec : Prop :=
   ∀ n, P4867618242033618851.a n = A349165 (n + 1)
+
+theorem P4867618242033618851.correct : P4867618242033618851.Spec := by
+  intro n
+  simp only [A349165, Nat.add_sub_cancel]
 
 end A349165
 
@@ -9464,19 +10291,29 @@ end A349165
 /-! ## A349165.P1931059782315929431
 
 `eq[1, A342671(n+1)]+1`
-
-The canonical program, it is in `Seq.B012.C000`.
 -/
+
+namespace A349165.P1931059782315929431
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342671 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+
+end
+
+end A349165.P1931059782315929431
 
 namespace A349165
 
 /-- `eq[1, A342671(n+1)]+1` -/
 def P1931059782315929431.Spec : Prop :=
   ∀ n, (P1931059782315929431.a n : ℤ) = A349165 (n + 1)
-
-theorem P1931059782315929431.correct : P1931059782315929431.Spec := by
-  intro n
-  simp only [A349165, Nat.add_sub_cancel]
 
 end A349165
 
@@ -9873,9 +10710,9 @@ end A349165
 /-!
 # A349166: Numbers k such that sigma(k) and A003961(k) share a prime factor, where A003961(n) is fully multiplicative function with a(prime(k)) = prime(k+1).
 
-The programs for A349166, the canonical program `A349166.P14795759570308487271` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349166 has offset 1).
+The programs for A349166, the canonical program `A349166.P6858630224343966779` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349166 has offset 1).
 
-The definition of A349166 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8906 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A349166 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A349166.P16328163620496591408
@@ -9937,29 +10774,19 @@ end A349166
 /-! ## A349166.P6858630224343966779
 
 `lt[1, A349163(n+1)]+1`
+
+The canonical program, it is in `Seq.B011.C000`.
 -/
-
-namespace A349166.P6858630224343966779
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A349163 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1
-
-end
-
-end A349166.P6858630224343966779
 
 namespace A349166
 
 /-- `lt[1, A349163(n+1)]+1` -/
 def P6858630224343966779.Spec : Prop :=
   ∀ n, (P6858630224343966779.a n : ℤ) = A349166 (n + 1)
+
+theorem P6858630224343966779.correct : P6858630224343966779.Spec := by
+  intro n
+  simp only [A349166, Nat.add_sub_cancel]
 
 end A349166
 
@@ -9995,19 +10822,29 @@ end A349166
 /-! ## A349166.P14795759570308487271
 
 `lt[1, A342671(n+1)]+1`
-
-The canonical program, it is in `Seq.B012.C000`.
 -/
+
+namespace A349166.P14795759570308487271
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342671 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1
+
+end
+
+end A349166.P14795759570308487271
 
 namespace A349166
 
 /-- `lt[1, A342671(n+1)]+1` -/
 def P14795759570308487271.Spec : Prop :=
   ∀ n, (P14795759570308487271.a n : ℤ) = A349166 (n + 1)
-
-theorem P14795759570308487271.correct : P14795759570308487271.Spec := by
-  intro n
-  simp only [A349166, Nat.add_sub_cancel]
 
 end A349166
 
@@ -10043,7 +10880,7 @@ end A349166
 /-!
 # A349167: a(n) = 1 if sigma(n) and A003961(n) are relatively prime, otherwise 0.
 
-The programs for A349167, the canonical program `A349167.P16138229993546810342` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349167 has offset 1).
+The programs for A349167, the canonical program `A349167.P11335047326877026590` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349167 has offset 1).
 
 The definition of A349167 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10051,9 +10888,17 @@ The definition of A349167 is `conjectured`: the Lean definition is a formula tha
 /-! ## A349167.P16138229993546810342
 
 `floor(1/A342671(n+1))`
-
-The canonical program, it is in `Seq.B012.C000`.
 -/
+
+namespace A349167.P16138229993546810342
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊1 / (A342671 (n + 1) : ℚ)⌋
+
+end
+
+end A349167.P16138229993546810342
 
 namespace A349167
 
@@ -10061,32 +10906,24 @@ namespace A349167
 def P16138229993546810342.Spec : Prop :=
   ∀ n, P16138229993546810342.a n = A349167 (n + 1)
 
-theorem P16138229993546810342.correct : P16138229993546810342.Spec := by
-  intro n
-  simp only [A349167, Nat.add_sub_cancel]
-
 end A349167
 
 /-! ## A349167.P11335047326877026590
 
 `floor(1/A349163(n+1))`
+
+The canonical program, it is in `Seq.B011.C000`.
 -/
-
-namespace A349167.P11335047326877026590
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊1 / (A349163 (n + 1) : ℚ)⌋
-
-end
-
-end A349167.P11335047326877026590
 
 namespace A349167
 
 /-- `floor(1/A349163(n+1))` -/
 def P11335047326877026590.Spec : Prop :=
   ∀ n, P11335047326877026590.a n = A349167 (n + 1)
+
+theorem P11335047326877026590.correct : P11335047326877026590.Spec := by
+  intro n
+  simp only [A349167, Nat.add_sub_cancel]
 
 end A349167
 
@@ -10642,7 +11479,7 @@ end A349169.P16516130664713038141
 /-!
 # A349170: a(n) = Sum_{d|n} d * A003959(n/d), where A003959 is fully multiplicative with a(p) = (p+1).
 
-The programs for A349170, the canonical program `A349170.P6347552032259399460` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349170 has offset 1).
+The programs for A349170, the canonical program `A349170.P6347552032259399460` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349170 has offset 1).
 
 The definition of A349170 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A038040, A349140, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10651,7 +11488,7 @@ The definition of A349170 is `conditional`: the Lean definition is an OEIS formu
 
 `A038040(n+1)+A349140(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349170
@@ -10923,7 +11760,7 @@ end A349170
 /-!
 # A349171: a(n) = Sum_{d|n} phi(d) * A003959(n/d), where A003959 is fully multiplicative with a(p) = (p+1), and phi is Euler totient function.
 
-The programs for A349171, the canonical program `A349171.P4420363583333488221` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349171 has offset 1).
+The programs for A349171, the canonical program `A349171.P4420363583333488221` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349171 has offset 1).
 
 The definition of A349171 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A018804, A349141, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10932,7 +11769,7 @@ The definition of A349171 is `conditional`: the Lean definition is an OEIS formu
 
 `A018804(n+1)+A349141(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349171
@@ -11233,7 +12070,7 @@ end A349171
 /-!
 # A349172: a(n) = Sum_{d|n} psi(d) * A003959(n/d), where A003959 is fully multiplicative with a(p) = (p+1), and psi is Dedekind psi function, A001615.
 
-The programs for A349172, the canonical program `A349172.P9409775987477653705` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349172 has offset 1).
+The programs for A349172, the canonical program `A349172.P9409775987477653705` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349172 has offset 1).
 
 The definition of A349172 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A327251, A349142, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11242,7 +12079,7 @@ The definition of A349172 is `conditional`: the Lean definition is an OEIS formu
 
 `A327251(n+1)+A349142(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349172
@@ -11465,7 +12302,7 @@ end A349172
 /-!
 # A349173: Dirichlet convolution of A003415 with A003959, where A003415 is the arithmetic derivative and A003959 is fully multiplicative with a(p) = (p+1).
 
-The programs for A349173, the canonical program `A349173.P16569106588395743123` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349173 has offset 1).
+The programs for A349173, the canonical program `A349173.P16569106588395743123` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349173 has offset 1).
 
 The definition of A349173 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11526,7 +12363,7 @@ end A349173
 
 `∑{d}[n+1, A003968(#)*A319684((n+1)/#)]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A349173
@@ -12365,7 +13202,7 @@ end A349190.P7410497981281706290
 
 The programs for A349191, the canonical program `A349191.P3807840381629456878` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349191 has offset 1).
 
-The definition of A349191 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A349191 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A348907, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A349191.P3807840381629456878
@@ -12886,8 +13723,29 @@ end A349193.P6981676438007971451
 /-!
 # A349194: a(n) is the product of the sum of the first i digits of n, as i goes from 1 to the total number of digits of n.
 
-The programs for A349194, there is no canonical definition to state claims against.
+The programs for A349194, the canonical program `A349194.P1398837921043225427` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349194 has offset 1).
+
+The definition of A349194 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A349194.P1398837921043225427
+
+`a(A059995(n+1)-1)*A007953(n+1)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=5, a(5)=6, a(6)=7, a(7)=8, a(8)=9`
+
+The canonical program, it is in `Seq.B002.C006`.
+-/
+
+namespace A349194
+
+/-- `a(A059995(n+1)-1)*A007953(n+1)` -/
+def P1398837921043225427.Spec : Prop :=
+  ∀ n, P1398837921043225427.a n = A349194 (n + 1)
+
+theorem P1398837921043225427.correct : P1398837921043225427.Spec := by
+  intro n
+  simp only [A349194, Nat.add_sub_cancel]
+
+end A349194
 
 /-! ## A349194.P9982956942469708761
 
@@ -12903,6 +13761,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349194.P9982956942469708761
+
+namespace A349194
+
+/-- `A329382(A054842(n+1))` -/
+def P9982956942469708761.Spec : Prop :=
+  ∀ n, P9982956942469708761.a n = A349194 (n + 1)
+
+end A349194
 
 /-!
 # A349195: a(n) is the X-coordinate of the n-th point of the R5 dragon curve; A349196 gives Y-coordinates.

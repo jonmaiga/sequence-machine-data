@@ -6,7 +6,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -17,18 +16,18 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,6 +38,7 @@ import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -46,21 +46,23 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1500,6 +1502,8 @@ The programs for A082725, there is no canonical definition to state claims again
 /-! ## A082725.P15558378671378304665
 
 `(n+1)/A100762(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A082725.P15558378671378304665
@@ -2034,7 +2038,7 @@ end A082727
 /-!
 # A082728: Numbers expressible as a sum of 2 nonzero Fibonacci numbers in exactly 1 way.
 
-The programs for A082728, the canonical program `A082728.P8463879847482110208` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082728 has offset 1).
+The programs for A082728, the canonical program `A082728.P8463879847482110208` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082728 has offset 1).
 
 The definition of A082728 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 137 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2043,7 +2047,7 @@ The definition of A082728 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A078643(n+3), A005614(#)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A082728
@@ -2448,7 +2452,7 @@ end A082739.P8786817537698152163
 /-!
 # A082741: Numbers that have digits consisting only of line segments or both line segments and curves (base 10 digits are 1, 2, 4, 5, 7).
 
-The programs for A082741, the canonical program `A082741.P5603460643145783783` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082741 has offset 1).
+The programs for A082741, the canonical program `A082741.P5603460643145783783` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082741 has offset 1).
 
 The definition of A082741 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2655 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2457,7 +2461,7 @@ The definition of A082741 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001729(n+1), A307913(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A082741
@@ -3765,6 +3769,21 @@ end A082747.P974846228753581222
 
 The programs for A082749, there is no canonical definition to state claims against.
 -/
+
+/-! ## A082749.P6343493794274824994
+
+`(A061802(n)+1)*A000040(n+1)/2-A007468(n+1)`
+-/
+
+namespace A082749.P6343493794274824994
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((A061802 n + 1) * A000040 (n + 1) : ℚ) / 2 - (A007468 (n + 1) : ℚ)
+
+end
+
+end A082749.P6343493794274824994
 
 /-! ## A082749.P12490411718414895508
 
@@ -6428,26 +6447,26 @@ def P13856692864767133254.Spec : Prop :=
 
 end A082767
 
-/-! ## A082767.P15066994417193530583
+/-! ## A082767.P1320883910573877180
 
-`A013939(n+1)+1+n`
+`n+1+A013939(n+1)`
 -/
 
-namespace A082767.P15066994417193530583
+namespace A082767.P1320883910573877180
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013939 (n + 1) + 1 + (n : ℤ)
+  (n + 1 : ℤ) + A013939 (n + 1)
 
 end
 
-end A082767.P15066994417193530583
+end A082767.P1320883910573877180
 
 namespace A082767
 
-/-- `A013939(n+1)+1+n` -/
-def P15066994417193530583.Spec : Prop :=
-  ∀ n, P15066994417193530583.a n = A082767 (n + 1)
+/-- `n+1+A013939(n+1)` -/
+def P1320883910573877180.Spec : Prop :=
+  ∀ n, P1320883910573877180.a n = A082767 (n + 1)
 
 end A082767
 
@@ -8786,6 +8805,8 @@ The programs for A082791, there is no canonical definition to state claims again
 /-! ## A082791.P185120627413578678
 
 `A082811(n+1)/(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A082791.P185120627413578678

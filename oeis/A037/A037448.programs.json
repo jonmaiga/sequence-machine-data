@@ -11,6 +11,10 @@
         "+",
         "cot",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

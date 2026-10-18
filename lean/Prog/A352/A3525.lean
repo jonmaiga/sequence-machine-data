@@ -14,38 +14,36 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -55,8 +53,9 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -237,21 +236,6 @@ end A352504.P16203109130255621892
 The programs for A352505, there is no canonical definition to state claims against.
 -/
 
-/-! ## A352505.P367052232840143303
-
-`A245579(n+1)-A352257(n+1)`
--/
-
-namespace A352505.P367052232840143303
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245579 (n + 1) - A352257 (n + 1)
-
-end
-
-end A352505.P367052232840143303
-
 /-! ## A352505.P11357042458036371144
 
 `(n+1)*A131576(n+1)`
@@ -266,6 +250,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352505.P11357042458036371144
+
+/-! ## A352505.P367052232840143303
+
+`A245579(n+1)-A352257(n+1)`
+-/
+
+namespace A352505.P367052232840143303
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245579 (n + 1) - A352257 (n + 1)
+
+end
+
+end A352505.P367052232840143303
 
 /-! ## A352505.P7458386570248967334
 
@@ -2461,7 +2460,7 @@ end A352523.P5122749140621897148
 /-!
 # A352526: a(n) = Product_{k=0..n} Nimsum (2*k + 2), with Nimsum (2 + 2) = 0 replaced by 1.
 
-The programs for A352526, the canonical program `A352526.P1689160859808208636` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352526 has offset 0).
+The programs for A352526, the canonical program `A352526.P1689160859808208636` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352526 has offset 0).
 
 The definition of A352526 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2470,7 +2469,7 @@ The definition of A352526 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)*(n+(-1)^n)` with `a(0)=2, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A352526
@@ -6597,27 +6596,53 @@ end A352597.P3282901510023769207
 /-!
 # A352598: a(n) is the product of the squares of the nonzero digits of n.
 
-The programs for A352598, the canonical program `A352598.P7775635557376793618` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352598 has offset 1).
+The programs for A352598, the canonical program `A352598.P1905536074837033519` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352598 has offset 1).
 
-The definition of A352598 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A352598 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051801, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A352598.P1905536074837033519
+
+`A051801(n+1)²`
+
+The canonical program, it is in `Seq.B001.C009`.
+-/
+
+namespace A352598
+
+/-- `A051801(n+1)²` -/
+def P1905536074837033519.Spec : Prop :=
+  ∀ n, P1905536074837033519.a n = A352598 (n + 1)
+
+theorem P1905536074837033519.correct : P1905536074837033519.Spec := by
+  intro n
+  simp only [A352598, Nat.add_sub_cancel]
+
+end A352598
 
 /-! ## A352598.P7775635557376793618
 
 `∏{digits}[n+1, gcd(#², #^#)]`
-
-The canonical program, it is in `Seq.B000.C032`.
 -/
+
+namespace A352598.P7775635557376793618
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => Nat.gcd (x ^ 2) (x ^ x)).prod
+
+end
+
+end A352598.P7775635557376793618
 
 namespace A352598
 
 /-- `∏{digits}[n+1, gcd(#², #^#)]` -/
 def P7775635557376793618.Spec : Prop :=
   ∀ n, (P7775635557376793618.a n : ℤ) = A352598 (n + 1)
-
-theorem P7775635557376793618.correct : P7775635557376793618.Spec := by
-  intro n
-  simp only [A352598, Nat.add_sub_cancel]
 
 end A352598
 
@@ -6696,29 +6721,6 @@ namespace A352598
 /-- `∏{digits}[n+1, round(sqrt(#²+1))²]` -/
 def P18109107963893494623.Spec : Prop :=
   ∀ n, P18109107963893494623.a n = A352598 (n + 1)
-
-end A352598
-
-/-! ## A352598.P1905536074837033519
-
-`A051801(n+1)²`
--/
-
-namespace A352598.P1905536074837033519
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051801 (n + 1) ^ 2
-
-end
-
-end A352598.P1905536074837033519
-
-namespace A352598
-
-/-- `A051801(n+1)²` -/
-def P1905536074837033519.Spec : Prop :=
-  ∀ n, P1905536074837033519.a n = A352598 (n + 1)
 
 end A352598
 

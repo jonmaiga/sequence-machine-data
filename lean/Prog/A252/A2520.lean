@@ -9,9 +9,9 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -19,8 +19,9 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C033
+import Seq.B000.C023
+import Seq.B000.C028
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,16 +33,17 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
-import Seq.B004.C000
+import Seq.B003.C002
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5987,7 +5989,7 @@ end A252087.P12271167146815870051
 /-!
 # A252089: Primes p such that p + 26 is prime.
 
-The programs for A252089, the canonical program `A252089.P2043731028031642140` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252089 has offset 1).
+The programs for A252089, the canonical program `A252089.P2043731028031642140` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252089 has offset 1).
 
 The definition of A252089 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1402 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5996,7 +5998,7 @@ The definition of A252089 is `conjectured`: the Lean definition is a formula tha
 
 `p?[p?[2*n+1]-26]`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A252089
@@ -6251,7 +6253,7 @@ end A252089
 /-!
 # A252090: Primes p such that p + 28 is also prime.
 
-The programs for A252090, the canonical program `A252090.P3190800062160782735` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252090 has offset 1).
+The programs for A252090, the canonical program `A252090.P3190800062160782735` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252090 has offset 1).
 
 The definition of A252090 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1519 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6260,7 +6262,7 @@ The definition of A252090 is `conjectured`: the Lean definition is a formula tha
 
 `p?[p?[2*n+1]-28]`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A252090
@@ -6686,7 +6688,7 @@ end A252090
 /-!
 # A252091: Primes p such that p + 34 is prime.
 
-The programs for A252091, the canonical program `A252091.P17698577421013009874` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252091 has offset 1).
+The programs for A252091, the canonical program `A252091.P17698577421013009874` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252091 has offset 1).
 
 The definition of A252091 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1357 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6721,7 +6723,7 @@ end A252091
 
 `p?[p?[2*n+1]-34]`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A252091

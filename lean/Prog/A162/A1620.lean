@@ -1,45 +1,42 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C034
+import Seq.B000.C023
+import Seq.B000.C026
+import Seq.B000.C030
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -66,7 +63,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A162000: Primes with the property that p + nextprime(p) +/ - 1 is not prime.
@@ -955,8 +951,25 @@ end A162007.P319718995202727496
 /-!
 # A162008: Third right hand column of the EG1 triangle A162005.
 
-The programs for A162008, there is no canonical definition to state claims against.
+The programs for A162008, the canonical program `A162008.P11309346560386861105` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162008 has offset 1).
+
+The definition of A162008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A162008.P11309346560386861105
+
+`(64*(n+1)²+112*(n+1)+30-432*(n+1)*9^(n+1)-405*9^(n+1)+375*25^(n+1))/128`
+
+The canonical program, it is in `Seq.B000.C021`.
+-/
+
+namespace A162008
+
+/-- `(64*(n+1)²+112*(n+1)+30-432*(n+1)*9^(n+1)-405*9^(n+1)+375*25^(n+1))/128` -/
+def P11309346560386861105.Spec : Prop :=
+  ∀ n, P11309346560386861105.a n = (A162008 (n + 1) : ℚ)
+
+end A162008
 
 /-! ## A162008.P2492701529220551252
 
@@ -976,6 +989,14 @@ end
 
 end A162008.P2492701529220551252
 
+namespace A162008
+
+/-- `A322230(∑[n+2]+3)` -/
+def P2492701529220551252.Spec : Prop :=
+  ∀ n, P2492701529220551252.a n = A162008 (n + 1)
+
+end A162008
+
 /-! ## A162008.P453322942868203917
 
 `A325220(∑[n+3])`
@@ -994,6 +1015,14 @@ end
 
 end A162008.P453322942868203917
 
+namespace A162008
+
+/-- `A325220(∑[n+3])` -/
+def P453322942868203917.Spec : Prop :=
+  ∀ n, P453322942868203917.a n = A162008 (n + 1)
+
+end A162008
+
 /-! ## A162008.P234344508979826058
 
 `lcm(2, A325220(A141214(n)))`
@@ -1009,20 +1038,13 @@ end
 
 end A162008.P234344508979826058
 
-/-! ## A162008.P8384779784816588132
+namespace A162008
 
-`A325220(A141214(n))+A138471(n)`
--/
+/-- `lcm(2, A325220(A141214(n)))` -/
+def P234344508979826058.Spec : Prop :=
+  ∀ n, (P234344508979826058.a n : ℤ) = A162008 (n + 1)
 
-namespace A162008.P8384779784816588132
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325220 (A141214 n).toNat + A138471 n
-
-end
-
-end A162008.P8384779784816588132
+end A162008
 
 /-!
 # A162009: Fourth right hand column of the EG1 triangle A162005.
@@ -2084,7 +2106,7 @@ end A162023.P16759011500970962002
 /-!
 # A162024: Number of n X n binary arrays with rows and columns, considered as binary numbers, in nondecreasing order, and all but the outermost row or column zero.
 
-The programs for A162024, the canonical program `A162024.P2522845698747893363` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162024 has offset 2).
+The programs for A162024, the canonical program `A162024.P2522845698747893363` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162024 has offset 2).
 
 The definition of A162024 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2093,7 +2115,7 @@ The definition of A162024 is `conjectured`: the Lean definition is a formula tha
 
 `∑[a(n-1)+8]` with `a(0)=7, a(1)=13, a(2)=20`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A162024

@@ -17,6 +17,10 @@
         "+",
         "/",
         "sqrt"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     }
   ]

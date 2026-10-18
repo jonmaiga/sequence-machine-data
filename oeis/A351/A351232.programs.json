@@ -16,6 +16,9 @@
         "A351230",
         "/",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {
@@ -33,6 +36,10 @@
         "A003415",
         "/",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

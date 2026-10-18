@@ -16,18 +16,20 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,6 +41,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -50,7 +53,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -64,6 +66,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5343,7 +5347,9 @@ end A037016.P10881487339267556871
 /-!
 # A037019: Let n = p_1*p_2*...*p_k be the prime factorization of n, with the primes sorted in descending order. Then a(n) = 2^(p_1 - 1)*3^(p_2 - 1)*...*A000040(k)^(p_k - 1).
 
-The programs for A037019, there is no canonical definition to state claims against.
+The programs for A037019, the canonical program `A037019.P15080460677822071058` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037019 has offset 1).
+
+The definition of A037019 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 246 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A037019.P8959619096090188433
@@ -5364,20 +5370,32 @@ end
 
 end A037019.P8959619096090188433
 
+namespace A037019
+
+/-- `∑{d}[n+1, A130113(#)]` -/
+def P8959619096090188433.Spec : Prop :=
+  ∀ n, P8959619096090188433.a n = A037019 (n + 1)
+
+end A037019
+
 /-! ## A037019.P15080460677822071058
 
 `A181821(A290641(n+1))`
+
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
-namespace A037019.P15080460677822071058
-noncomputable section
+namespace A037019
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181821 (A290641 (n + 1)).toNat
+/-- `A181821(A290641(n+1))` -/
+def P15080460677822071058.Spec : Prop :=
+  ∀ n, P15080460677822071058.a n = A037019 (n + 1)
 
-end
+theorem P15080460677822071058.correct : P15080460677822071058.Spec := by
+  intro n
+  simp only [A037019, Nat.add_sub_cancel]
 
-end A037019.P15080460677822071058
+end A037019
 
 /-! ## A037019.P11339587218551276801
 
@@ -5397,6 +5415,14 @@ end
 
 end A037019.P11339587218551276801
 
+namespace A037019
+
+/-- `A181821(∏{e}[A181821(n+1), A055003(#)])` -/
+def P11339587218551276801.Spec : Prop :=
+  ∀ n, P11339587218551276801.a n = A037019 (n + 1)
+
+end A037019
+
 /-! ## A037019.P11204738180868104728
 
 `gcd(A003680(n+1), A369099(n+1))`
@@ -5411,6 +5437,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A037019.P11204738180868104728
+
+namespace A037019
+
+/-- `gcd(A003680(n+1), A369099(n+1))` -/
+def P11204738180868104728.Spec : Prop :=
+  ∀ n, (P11204738180868104728.a n : ℤ) = A037019 (n + 1)
+
+end A037019
 
 /-! ## A037019.P17042582535363219412
 
@@ -5429,6 +5463,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037019.P17042582535363219412
+
+namespace A037019
+
+/-- `filter[A077569(n+1), A323509(#)]` -/
+def P17042582535363219412.Spec : Prop :=
+  ∀ n, P17042582535363219412.a n = A037019 (n + 1)
+
+end A037019
 
 /-!
 # A037020: Numbers whose sum of proper (or aliquot) divisors is a prime.
@@ -6306,7 +6348,7 @@ end A037028.P5158966088854985757
 /-!
 # A037029: Primes of the form 666*n + 1.
 
-The programs for A037029, the canonical program `A037029.P13713327370861726249` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037029 has offset 1).
+The programs for A037029, the canonical program `A037029.P13713327370861726249` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037029 has offset 1).
 
 The definition of A037029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 363 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6315,7 +6357,7 @@ The definition of A037029 is `conjectured`: the Lean definition is a formula tha
 
 `p?[9*37*n+1]`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A037029
@@ -6431,7 +6473,7 @@ end A037030.P3855558129938811073
 /-!
 # A037031: Number of combinations of n objects taken pi(n) at a time.
 
-The programs for A037031, the canonical program `A037031.P17145770370026652645` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037031 has offset 0).
+The programs for A037031, the canonical program `A037031.P17145770370026652645` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037031 has offset 0).
 
 The definition of A037031 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 452 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6463,7 +6505,7 @@ end A037031
 
 `C(n, ∑[∑{p}[n, C(#, n)]])`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A037031
@@ -11127,7 +11169,7 @@ end A037073.P2442710110411401723
 /-!
 # A037074: Numbers that are the product of a pair of twin primes.
 
-The programs for A037074, the canonical program `A037074.P14204517585574046059` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037074 has offset 1).
+The programs for A037074, the canonical program `A037074.P14204517585574046059` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037074 has offset 1).
 
 The definition of A037074 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014574, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11159,7 +11201,7 @@ end A037074
 
 `A014574(n+1)²-1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A037074
@@ -11661,7 +11703,7 @@ end A037076.P6699478156789606443
 /-!
 # A037078: In ternary expansion of n, reading from right to left, digits occur in order ...,0,1,2,0,1,2,...
 
-The programs for A037078, the canonical program `A037078.P3480676586563159969` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037078 has offset 0).
+The programs for A037078, the canonical program `A037078.P3480676586563159969` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037078 has offset 0).
 
 The definition of A037078 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11670,7 +11712,7 @@ The definition of A037078 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-2)+a(n-3)-3*a(n-5)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=7`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A037078
@@ -11809,7 +11851,7 @@ end A037078
 /-!
 # A037079: In ternary expansion of n, reading from left to right, digits occur in order ...,0,1,2,0,1,2,...
 
-The programs for A037079, the canonical program `A037079.P15258508037725472484` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037079 has offset 0).
+The programs for A037079, the canonical program `A037079.P15258508037725472484` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037079 has offset 0).
 
 The definition of A037079 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 420 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11818,7 +11860,7 @@ The definition of A037079 is `conjectured`: the Lean definition is a formula tha
 
 `(a(n-2)+1)%3+3*a(n-2)` with `a(0)=0, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A037079
@@ -12226,7 +12268,7 @@ end A037084.P4372136746634243939
 /-!
 # A037085: Beatty sequence for Pi^2.
 
-The programs for A037085, the canonical program `A037085.P10307067740225399944` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037085 has offset 0).
+The programs for A037085, the canonical program `A037085.P10307067740225399944` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037085 has offset 0).
 
 The definition of A037085 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12235,7 +12277,7 @@ The definition of A037085 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(n*π²)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A037085
@@ -12476,7 +12518,7 @@ end A037085
 /-!
 # A037086: Beatty sequence for sqrt(Pi).
 
-The programs for A037086, the canonical program `A037086.P12022782348025281506` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037086 has offset 0).
+The programs for A037086, the canonical program `A037086.P12022782348025281506` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037086 has offset 0).
 
 The definition of A037086 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12485,7 +12527,7 @@ The definition of A037086 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(n*sqrt(π))`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A037086
@@ -12667,7 +12709,7 @@ end A037086
 /-!
 # A037087: Beatty sequence for e^(1/e).
 
-The programs for A037087, the canonical program `A037087.P3414121346300097063` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037087 has offset 0).
+The programs for A037087, the canonical program `A037087.P3414121346300097063` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037087 has offset 0).
 
 The definition of A037087 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12676,7 +12718,7 @@ The definition of A037087 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(n*e^(1/e))`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A037087

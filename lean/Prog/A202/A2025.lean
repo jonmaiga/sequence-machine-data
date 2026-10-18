@@ -8,6 +8,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -21,12 +22,13 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -39,25 +41,24 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
+import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,8 +83,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
-import Seq.Opaque.C026
+import Seq.Opaque.C025
 
 /-!
 # A202502: Modified lower triangular Fibonacci matrix, by antidiagonals.
@@ -2231,6 +2231,21 @@ end A202533.P4074341455623492890
 The programs for A202534, there is no canonical definition to state claims against.
 -/
 
+/-! ## A202534.P8047894384226119517
+
+`2^((n+1)*n/2)-A000110(n+1)`
+-/
+
+namespace A202534.P8047894384226119517
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (2 : ℝ) ^ ((n + 1 : ℚ) * ((n : ℚ) / 2) : ℝ) - (A000110 (n + 1) : ℝ)
+
+end
+
+end A202534.P8047894384226119517
+
 /-! ## A202534.P9774878682478958419
 
 `∑[A394449(n)]`
@@ -2291,24 +2306,6 @@ end
 
 end A202534.P17119480376697050408
 
-/-! ## A202534.P16096028486255188821
-
-`∏[2^n]-A000110(n+1)`
--/
-
-namespace A202534.P16096028486255188821
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - A000110 (n + 1)
-
-end
-
-end A202534.P16096028486255188821
-
 /-! ## A202534.P3446165001748364062
 
 `A000079(∑[n])-record[A095149(n)]`
@@ -2333,7 +2330,7 @@ end A202534.P3446165001748364062
 /-!
 # A202535: a(n) = n*phi(n)*abs( mobius(n) ).
 
-The programs for A202535, the canonical program `A202535.P2093204726395157723` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202535 has offset 1).
+The programs for A202535, the canonical program `A202535.P2093204726395157723` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202535 has offset 1).
 
 The definition of A202535 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002618, A008966, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2342,7 +2339,7 @@ The definition of A202535 is `conditional`: the Lean definition is an OEIS formu
 
 `A002618(n+1)*A008966(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A202535
@@ -4375,7 +4372,7 @@ end A202563.P15595656608860418594
 /-!
 # A202564: Indices of pentagonal numbers which are also decagonal.
 
-The programs for A202564, the canonical program `A202564.P17425805476821448578` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202564 has offset 1).
+The programs for A202564, the canonical program `A202564.P17425805476821448578` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202564 has offset 1).
 
 The definition of A202564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4384,7 +4381,7 @@ The definition of A202564 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `98*a(n-1)-a(n-2)-16` with `a(0)=1, a(1)=91`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A202564
@@ -4612,7 +4609,7 @@ end A202564
 /-!
 # A202565: Indices of decagonal numbers which are also pentagonal.
 
-The programs for A202565, the canonical program `A202565.P14391969503560850877` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202565 has offset 1).
+The programs for A202565, the canonical program `A202565.P14391969503560850877` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202565 has offset 1).
 
 The definition of A202565 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4621,7 +4618,7 @@ The definition of A202565 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `98*a(n-1)-a(n-2)-36` with `a(0)=1, a(1)=56`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A202565

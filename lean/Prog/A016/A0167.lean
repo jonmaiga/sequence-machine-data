@@ -10,34 +10,30 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
-import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B002.C000
-import Seq.B002.C004
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -46,7 +42,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1836,6 +1831,24 @@ namespace A016753
 /-- `(5^(n+2)-2*4^(n+2)+3^(n+2))/2` -/
 def P18189376017100980040.Spec : Prop :=
   ∀ n, P18189376017100980040.a n = (A016753 n : ℚ)
+
+theorem P18189376017100980040.correct : P18189376017100980040.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A016753, Nat.add_sub_cancel, A016753.P18189376017100980040.a, A016753.P12923637117531106403.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A016753, Nat.add_sub_cancel, A016753.P18189376017100980040.a, A016753.P12923637117531106403.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A016753
 
@@ -8019,17 +8032,25 @@ end A016776
 /-!
 # A016777: a(n) = 3*n + 1.
 
-The programs for A016777, the canonical program `A016777.P1497761770688417812` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016777 has offset 0).
+The programs for A016777, the canonical program `A016777.P9931792138852554157` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016777 has offset 0).
 
-The definition of A016777 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A016777 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*n+1` (program `A016777.P9931792138852554157`, by `A016777.P9931792138852554157.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A016777.P1497761770688417812
 
 `1+3*n`
-
-The canonical program, it is in `Seq.B000.C002`.
 -/
+
+namespace A016777.P1497761770688417812
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + 3 * n
+
+end
+
+end A016777.P1497761770688417812
 
 namespace A016777
 
@@ -8038,6 +8059,27 @@ def P1497761770688417812.Spec : Prop :=
   ∀ n, (P1497761770688417812.a n : ℤ) = A016777 n
 
 theorem P1497761770688417812.correct : P1497761770688417812.Spec := by
+  intro n
+  simp only [A016777, Nat.add_sub_cancel, A016777.P1497761770688417812.a, A016777.P9931792138852554157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A016777
+
+/-! ## A016777.P9931792138852554157
+
+`3*n+1`
+
+The canonical program, it is in `Seq.B000.C002`.
+-/
+
+namespace A016777
+
+/-- `3*n+1` -/
+def P9931792138852554157.Spec : Prop :=
+  ∀ n, (P9931792138852554157.a n : ℤ) = A016777 n
+
+theorem P9931792138852554157.correct : P9931792138852554157.Spec := by
   intro n
   simp only [A016777]
 
@@ -8594,6 +8636,26 @@ namespace A016779
 /-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
 def P9185224274421444216.Spec : Prop :=
   ∀ n, P9185224274421444216.a n = A016779 n
+
+theorem P9185224274421444216.correct : P9185224274421444216.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 =>
+      simp [A016779, Nat.add_sub_cancel, A016779.P9185224274421444216.a, A016779.P12183208488872344435.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 4 =>
+      have h1 := ih (m + 3) (by omega)
+      have h2 := ih (m + 2) (by omega)
+      have h3 := ih (m + 1) (by omega)
+      have h4 := ih m (by omega)
+      simp only [A016779, Nat.add_sub_cancel, A016779.P9185224274421444216.a, A016779.P12183208488872344435.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 ⊢
+      rw [h1, h2, h3, h4]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A016779
 
@@ -13377,35 +13439,37 @@ end A016789
 The programs for A016790, there is no canonical definition to state claims against.
 -/
 
-/-! ## A016790.P11969980123630637065
+/-! ## A016790.P16450817162659855964
 
-`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=1, a(1)=4, a(2)=25`
+`(3*(n-1)+2)²`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A016790.P11969980123630637065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 4, 25] fun n a =>
-  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
-
-end
-
-end A016790.P11969980123630637065
-
-/-! ## A016790.P10509021165667690752
-
-`(1-3*n)²`
--/
-
-namespace A016790.P10509021165667690752
+namespace A016790.P16450817162659855964
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (1 - (3 * n : ℤ)) ^ 2
+  (3 * ((n : ℤ) - 1) + 2) ^ 2
 
 end
 
-end A016790.P10509021165667690752
+end A016790.P16450817162659855964
+
+/-! ## A016790.P3779763741586425045
+
+`a(n-1)+3*(6*(n-1)+1)` with `a(0)=1`
+-/
+
+namespace A016790.P3779763741586425045
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) + 3 * (6 * ((n : ℤ) - 1) + 1)
+
+end
+
+end A016790.P3779763741586425045
 
 /-! ## A016790.P12958921002524233069
 
@@ -13569,21 +13633,6 @@ end
 
 end A016790.P1396175230278915169
 
-/-! ## A016790.P17249493601404106225
-
-`a(n-1)+3*(6*n-5)` with `a(0)=1`
--/
-
-namespace A016790.P17249493601404106225
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + 3 * ((6 * n : ℤ) - 5)
-
-end
-
-end A016790.P17249493601404106225
-
 /-! ## A016790.P14390019853351188746
 
 `(2*n+n-1)^(2%(n+2))`
@@ -13691,6 +13740,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A016790.P937145955881323507
+
+/-! ## A016790.P13144834013497875171
+
+`n²+A033567(n)`
+-/
+
+namespace A016790.P13144834013497875171
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n ^ 2 : ℤ) + A033567 n
+
+end
+
+end A016790.P13144834013497875171
 
 /-!
 # A016791: a(n) = (3*n + 2)^3.

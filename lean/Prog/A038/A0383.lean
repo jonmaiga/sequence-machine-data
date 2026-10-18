@@ -9,7 +9,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -17,24 +16,26 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -49,7 +50,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,6 +58,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -68,6 +69,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,7 +95,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A038300: Triangle whose (i,j)-th entry is binomial(i,j)*9^(i-j)*10^j.
@@ -16407,27 +16408,50 @@ end A038359.P456032888767886349
 /-!
 # A038360: Ranks of certain relations among Euler sums of weight n.
 
-The programs for A038360, the canonical program `A038360.P8337820253546618372` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038360 has offset 3).
+The programs for A038360, the canonical program `A038360.P13331399108565173454` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038360 has offset 3).
 
-The definition of A038360 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A038360 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A038360.P8337820253546618372
+/-! ## A038360.P13331399108565173454
 
-`A216714(n+6)`
+`A000079(n+1)-A000931(n+6)`
 
 The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A038360
 
+/-- `A000079(n+1)-A000931(n+6)` -/
+def P13331399108565173454.Spec : Prop :=
+  ∀ n, P13331399108565173454.a n = A038360 (n + 3)
+
+theorem P13331399108565173454.correct : P13331399108565173454.Spec := by
+  intro n
+  simp only [A038360, Nat.add_sub_cancel]
+
+end A038360
+
+/-! ## A038360.P8337820253546618372
+
+`A216714(n+6)`
+-/
+
+namespace A038360.P8337820253546618372
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216714 (n + 6)
+
+end
+
+end A038360.P8337820253546618372
+
+namespace A038360
+
 /-- `A216714(n+6)` -/
 def P8337820253546618372.Spec : Prop :=
   ∀ n, P8337820253546618372.a n = A038360 (n + 3)
-
-theorem P8337820253546618372.correct : P8337820253546618372.Spec := by
-  intro n
-  simp only [A038360, Nat.add_sub_cancel]
 
 end A038360
 
@@ -16500,29 +16524,6 @@ namespace A038360
 /-- `2^(n+1)-A182097(n+3)` -/
 def P16210224068838060248.Spec : Prop :=
   ∀ n, P16210224068838060248.a n = A038360 (n + 3)
-
-end A038360
-
-/-! ## A038360.P16205377814856913310
-
-`2^(n+1)-A000931(n+6)`
--/
-
-namespace A038360.P16205377814856913310
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 ^ (n + 1) : ℤ) - A000931 (n + 6)
-
-end
-
-end A038360.P16205377814856913310
-
-namespace A038360
-
-/-- `2^(n+1)-A000931(n+6)` -/
-def P16205377814856913310.Spec : Prop :=
-  ∀ n, P16205377814856913310.a n = A038360 (n + 3)
 
 end A038360
 

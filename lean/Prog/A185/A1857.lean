@@ -12,29 +12,29 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -47,9 +47,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,15 +56,16 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -446,7 +445,7 @@ end A185700.P2117024546211362074
 /-!
 # A185705: Characteristic function of positive numbers that are primes ending in 1.
 
-The programs for A185705, the canonical program `A185705.P1369373421699612504` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185705 has offset 1).
+The programs for A185705, the canonical program `A185705.P1369373421699612504` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185705 has offset 1).
 
 The definition of A185705 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -783,7 +782,7 @@ end A185705
 
 `A010051(n+1)*A079998(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A185705
@@ -1459,7 +1458,7 @@ end A185706
 /-!
 # A185708: Characteristic function of positive numbers that are primes ending in 7.
 
-The programs for A185708, the canonical program `A185708.P3037980791462570158` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185708 has offset 1).
+The programs for A185708, the canonical program `A185708.P3037980791462570158` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185708 has offset 1).
 
 The definition of A185708 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1750,7 +1749,7 @@ end A185708
 
 `and(A008496(n), A010051(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A185708
@@ -2826,7 +2825,7 @@ end A185711
 /-!
 # A185712: a(n) = number of primes <= n that end in 3.
 
-The programs for A185712, the canonical program `A185712.P714070859971941151` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185712 has offset 1).
+The programs for A185712, the canonical program `A185712.P714070859971941151` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185712 has offset 1).
 
 The definition of A185712 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2868,7 +2867,7 @@ end A185712
 
 `∑[A185706(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A185712
@@ -3138,7 +3137,7 @@ end A185712
 /-!
 # A185714: a(n) = number of primes <= n that end in 7.
 
-The programs for A185714, the canonical program `A185714.P14230647716207036197` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185714 has offset 1).
+The programs for A185714, the canonical program `A185714.P14230647716207036197` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185714 has offset 1).
 
 The definition of A185714 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3322,7 +3321,7 @@ end A185714
 
 `∑[A001877((n+1)*A151763(n+1)²)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A185714
@@ -3389,7 +3388,7 @@ end A185714
 /-!
 # A185715: a(n) = number of primes <= n that end in 9.
 
-The programs for A185715, the canonical program `A185715.P10679573485318822552` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185715 has offset 1).
+The programs for A185715, the canonical program `A185715.P10679573485318822552` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185715 has offset 1).
 
 The definition of A185715 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3464,7 +3463,7 @@ end A185715
 
 `∑[A185709(n+1)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A185715
@@ -5073,7 +5072,7 @@ end A185725
 /-!
 # A185727: Integers of the form A145911(k)/(k+1) sorted along increasing k.
 
-The programs for A185727, the canonical program `A185727.P3313924342085274439` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185727 has offset 0).
+The programs for A185727, the canonical program `A185727.P3313924342085274439` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185727 has offset 0).
 
 The definition of A185727 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5082,7 +5081,7 @@ The definition of A185727 is `conjectured`: the Lean definition is a formula tha
 
 `A106610(A007494(n))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A185727
@@ -9623,7 +9622,7 @@ end A185780
 /-!
 # A185782: Weight array of A185780, by antidiagonals.
 
-The programs for A185782, the canonical program `A185782.P9206641103907000175` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185782 has offset 1).
+The programs for A185782, the canonical program `A185782.P9206641103907000175` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185782 has offset 1).
 
 The definition of A185782 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9805,7 +9804,7 @@ end A185782
 
 `A144257(n+1)+A025581(n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A185782
@@ -10265,27 +10264,23 @@ end A185785.P4027833936690934331
 /-!
 # A185787: Sum of first k numbers in column k of the natural number array A000027; by antidiagonals.
 
-The programs for A185787, the canonical program `A185787.P6942094577896153933` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185787 has offset 1).
+The programs for A185787, the canonical program `A185787.P13412316179158756890` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185787 has offset 1).
 
-The definition of A185787 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A185787 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A185787.P6942094577896153933
+/-! ## A185787.P13412316179158756890
 
-`∑[∑[7*n-2]+3]`
+`(n+1)*(7*(n+1)²-6*(n+1)+5)/6`
 
 The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A185787
 
-/-- `∑[∑[7*n-2]+3]` -/
-def P6942094577896153933.Spec : Prop :=
-  ∀ n, P6942094577896153933.a n = A185787 (n + 1)
-
-theorem P6942094577896153933.correct : P6942094577896153933.Spec := by
-  intro n
-  simp only [A185787, Nat.add_sub_cancel]
+/-- `(n+1)*(7*(n+1)²-6*(n+1)+5)/6` -/
+def P13412316179158756890.Spec : Prop :=
+  ∀ n, P13412316179158756890.a n = (A185787 (n + 1) : ℚ)
 
 end A185787
 
@@ -10765,27 +10760,23 @@ end A185787
 /-!
 # A185788: Sum of the first k-1 numbers in the k-th column of the natural number array A000027, by antidiagonals.
 
-The programs for A185788, the canonical program `A185788.P9337017621709780812` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185788 has offset 1).
+The programs for A185788, the canonical program `A185788.P14364866925544580249` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185788 has offset 1).
 
-The definition of A185788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A185788 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A185788.P9337017621709780812
+/-! ## A185788.P14364866925544580249
 
-`∑[∑[n]]+n^3`
+`n*(7*(n+1)²-11*(n+1)+6)/6`
 
 The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A185788
 
-/-- `∑[∑[n]]+n^3` -/
-def P9337017621709780812.Spec : Prop :=
-  ∀ n, (P9337017621709780812.a n : ℤ) = A185788 (n + 1)
-
-theorem P9337017621709780812.correct : P9337017621709780812.Spec := by
-  intro n
-  simp only [A185788, Nat.add_sub_cancel]
+/-- `n*(7*(n+1)²-11*(n+1)+6)/6` -/
+def P14364866925544580249.Spec : Prop :=
+  ∀ n, P14364866925544580249.a n = (A185788 (n + 1) : ℚ)
 
 end A185788
 
@@ -10815,29 +10806,6 @@ namespace A185788
 /-- `∑[∑[a(n-1)+7]]` -/
 def P7403727336341416394.Spec : Prop :=
   ∀ n, (P7403727336341416394.a n : ℤ) = A185788 (n + 1)
-
-end A185788
-
-/-! ## A185788.P17253481465768943188
-
-`n*(n²+C(n+2, 2)/3)`
--/
-
-namespace A185788.P17253481465768943188
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n : ℚ) * ((n ^ 2 : ℚ) + (Nat.choose (n + 2) 2 : ℚ) / 3)
-
-end
-
-end A185788.P17253481465768943188
-
-namespace A185788
-
-/-- `n*(n²+C(n+2, 2)/3)` -/
-def P17253481465768943188.Spec : Prop :=
-  ∀ n, P17253481465768943188.a n = (A185788 (n + 1) : ℚ)
 
 end A185788
 
@@ -10970,26 +10938,26 @@ def P4851939686095438480.Spec : Prop :=
 
 end A185788
 
-/-! ## A185788.P233400883530274019
+/-! ## A185788.P962585165507323424
 
-`n/3*A389615(n)`
+`n^3+A000292(n)`
 -/
 
-namespace A185788.P233400883530274019
+namespace A185788.P962585165507323424
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n : ℚ) / 3 * (A389615 n : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n ^ 3 : ℤ) + A000292 n
 
 end
 
-end A185788.P233400883530274019
+end A185788.P962585165507323424
 
 namespace A185788
 
-/-- `n/3*A389615(n)` -/
-def P233400883530274019.Spec : Prop :=
-  ∀ n, P233400883530274019.a n = (A185788 (n + 1) : ℚ)
+/-- `n^3+A000292(n)` -/
+def P962585165507323424.Spec : Prop :=
+  ∀ n, P962585165507323424.a n = A185788 (n + 1)
 
 end A185788
 

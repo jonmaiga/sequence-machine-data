@@ -8,14 +8,13 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -24,21 +23,21 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C002
+import Seq.B002.C001
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -47,11 +46,11 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,23 +84,37 @@ import Seq.Opaque.C025
 The programs for A232101, there is no canonical definition to state claims against.
 -/
 
-/-! ## A232101.P11101511413976035625
+/-! ## A232101.P1729877563458532438
 
-`A000217(A232097(n+1))/∏[n+1]`
+`A000217(A232097(n+1))/(n+1)!`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A232101.P11101511413976035625
+namespace A232101.P1729877563458532438
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000217 (A232097 (n + 1)).toNat : ℚ) / ((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℚ)
+  (A000217 (A232097 (n + 1)).toNat : ℚ) / (Nat.factorial (n + 1) : ℚ)
 
 end
 
-end A232101.P11101511413976035625
+end A232101.P1729877563458532438
+
+/-! ## A232101.P17008232685918318512
+
+`A000217(A232097(n+1))/A000142(n+1)`
+-/
+
+namespace A232101.P17008232685918318512
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000217 (A232097 (n + 1)).toNat : ℚ) / (A000142 (n + 1) : ℚ)
+
+end
+
+end A232101.P17008232685918318512
 
 /-!
 # A232102: Primes p with same last two digits as k, where prime(k) = p.
@@ -3544,7 +3557,7 @@ end A232161.P14147009438080984208
 /-!
 # A232162: Number of Weyl group elements, not containing an s_r factor, which contribute nonzero terms to Kostant's weight multiplicity formula when computing the multiplicity of the zero-weight in the adjoint representation for the Lie algebra of type B and rank n.
 
-The programs for A232162, the canonical program `A232162.P4643264864054769089` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232162 has offset 0).
+The programs for A232162, the canonical program `A232162.P4643264864054769089` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232162 has offset 0).
 
 The definition of A232162 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3553,7 +3566,7 @@ The definition of A232162 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=0, a(1)=0, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A232162
@@ -3764,7 +3777,7 @@ end A232162
 /-!
 # A232163: Cardinality of the Weyl alternation set corresponding to the zero-weight in the adjoint representation of the Lie algebra so(2n+1).
 
-The programs for A232163, the canonical program `A232163.P9445820061790615785` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232163 has offset 0).
+The programs for A232163, the canonical program `A232163.P9445820061790615785` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232163 has offset 0).
 
 The definition of A232163 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3773,7 +3786,7 @@ The definition of A232163 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=5`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A232163
@@ -3860,7 +3873,7 @@ end A232163
 /-!
 # A232164: Number of Weyl group elements, not containing an s_r factor, which contribute nonzero terms to Kostant's weight multiplicity formula when computing the multiplicity of the zero-weight in the adjoint representation for the Lie algebra of type C and rank n.
 
-The programs for A232164, the canonical program `A232164.P5845593849868041813` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232164 has offset 0).
+The programs for A232164, the canonical program `A232164.P5845593849868041813` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232164 has offset 0).
 
 The definition of A232164 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3869,7 +3882,7 @@ The definition of A232164 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A232164
@@ -4080,7 +4093,7 @@ end A232164
 /-!
 # A232165: Cardinality of the Weyl alternation set corresponding to the zero-weight in the adjoint representation of the Lie algebra sp(2n).
 
-The programs for A232165, the canonical program `A232165.P15779423753795597952` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232165 has offset 0).
+The programs for A232165, the canonical program `A232165.P15779423753795597952` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232165 has offset 0).
 
 The definition of A232165 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4089,7 +4102,7 @@ The definition of A232165 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A232165
@@ -5057,7 +5070,7 @@ end A232179.P17509785147268957440
 /-!
 # A232180: First bisection of harmonic numbers (numerators).
 
-The programs for A232180, the canonical program `A232180.P7403348615314962087` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232180 has offset 1).
+The programs for A232180, the canonical program `A232180.P7403348615314962087` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232180 has offset 1).
 
 The definition of A232180 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5066,7 +5079,7 @@ The definition of A232180 is `conjectured`: the Lean definition is a formula tha
 
 `A001008(Δ[n²])`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A232180
@@ -5291,7 +5304,7 @@ end A232180
 /-!
 # A232181: First bisection of harmonic numbers (denominators).
 
-The programs for A232181, the canonical program `A232181.P8852575731093556452` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232181 has offset 1).
+The programs for A232181, the canonical program `A232181.P8852575731093556452` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232181 has offset 1).
 
 The definition of A232181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5300,7 +5313,7 @@ The definition of A232181 is `conjectured`: the Lean definition is a formula tha
 
 `A002805(Δ[n²])`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A232181

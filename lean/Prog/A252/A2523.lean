@@ -8,17 +8,16 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -30,18 +29,18 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B003.C003
-import Seq.B004.C000
+import Seq.B003.C002
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -63,7 +62,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
 
@@ -5308,6 +5306,8 @@ The programs for A252370, there is no canonical definition to state claims again
 /-! ## A252370.P12784444514240699439
 
 `A243055(A251726(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A252370.P12784444514240699439
@@ -5392,6 +5392,8 @@ The programs for A252371, there is no canonical definition to state claims again
 /-! ## A252371.P7024407539575237769
 
 `A243055(A251727(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A252371.P7024407539575237769
@@ -5840,6 +5842,21 @@ end A252372.P854138261052438314
 
 The programs for A252373, there is no canonical definition to state claims against.
 -/
+
+/-! ## A252373.P3426254770351729499
+
+`A252372(n+1)+a(n-1)` with `a(0)=0`
+-/
+
+namespace A252373.P3426254770351729499
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  A252372 (n + 1) + a (n - 1)
+
+end
+
+end A252373.P3426254770351729499
 
 /-! ## A252373.P10909619462104828843
 

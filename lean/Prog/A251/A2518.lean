@@ -6,30 +6,26 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C002
@@ -37,8 +33,6 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -46,12 +40,12 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B010.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -62,9 +56,11 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 /-!
@@ -3894,8 +3890,25 @@ end A251857.P3518440194066258658
 /-!
 # A251861: Number of non-palindromic words (length n>0) over the alphabet of 26 letters.
 
-The programs for A251861, there is no canonical definition to state claims against.
+The programs for A251861, the canonical program `A251861.P12595956357876353781` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251861 has offset 1).
+
+The definition of A251861 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A251861.P12595956357876353781
+
+`26^(n+1)-26^ceil((n+1)/2)`
+
+The canonical program, it is in `Seq.B000.C028`.
+-/
+
+namespace A251861
+
+/-- `26^(n+1)-26^ceil((n+1)/2)` -/
+def P12595956357876353781.Spec : Prop :=
+  ∀ n, P12595956357876353781.a n = (A251861 (n + 1) : ℚ)
+
+end A251861
 
 /-! ## A251861.P1258828789764755651
 
@@ -3918,6 +3931,14 @@ end
 
 end A251861.P1258828789764755651
 
+namespace A251861
+
+/-- `record[Δ[26^A117910(n)]]` -/
+def P1258828789764755651.Spec : Prop :=
+  ∀ n, P1258828789764755651.a n = (A251861 (n + 1) : ℚ)
+
+end A251861
+
 /-! ## A251861.P9250430508931904021
 
 `record[Δ[A009970(A117910(n))]]`
@@ -3939,20 +3960,13 @@ end
 
 end A251861.P9250430508931904021
 
-/-! ## A251861.P6416753073068796047
+namespace A251861
 
-`A009970(n+1)-A009970(A008619(n))`
--/
+/-- `record[Δ[A009970(A117910(n))]]` -/
+def P9250430508931904021.Spec : Prop :=
+  ∀ n, P9250430508931904021.a n = A251861 (n + 1)
 
-namespace A251861.P6416753073068796047
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009970 (n + 1) - A009970 (A008619 n).toNat
-
-end
-
-end A251861.P6416753073068796047
+end A251861
 
 /-!
 # A251862: Numbers m such that m + 3 divides m^m - 3.
@@ -4020,7 +4034,7 @@ end A251864.P12394601541713734738
 /-!
 # A251867: Numbers n such that n^2 + (n+1)^2 is equal to the sum of the hexagonal numbers H(m) and H(m+1) for some m.
 
-The programs for A251867, the canonical program `A251867.P16106857954171248714` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251867 has offset 1).
+The programs for A251867, the canonical program `A251867.P16106857954171248714` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251867 has offset 1).
 
 The definition of A251867 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4029,7 +4043,7 @@ The definition of A251867 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `35*a(n-1)-35*a(n-2)+a(n-3)` with `a(0)=0, a(1)=14, a(2)=492`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A251867

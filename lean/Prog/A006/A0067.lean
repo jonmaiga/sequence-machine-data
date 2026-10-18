@@ -4,7 +4,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -16,16 +16,17 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,20 +38,22 @@ import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B005.C000
+import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -77,7 +80,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A006701: Exponentiation of g.f. for Fibonacci numbers.
@@ -2490,6 +2492,21 @@ end A006747.P11459070743726313519
 The programs for A006748, there is no canonical definition to state claims against.
 -/
 
+/-! ## A006748.P10030588580363214775
+
+`(A346800(n+1)-A142886(n+1))/2-A056878(n+1)`
+-/
+
+namespace A006748.P10030588580363214775
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A346800 (n + 1) - A142886 (n + 1) : ℚ) / 2 - (A056878 (n + 1) : ℚ)
+
+end
+
+end A006748.P10030588580363214775
+
 /-! ## A006748.P2114965948443486453
 
 `A259090(n+1)-(A144554(n+1)+A006746(n+1))`
@@ -2525,6 +2542,21 @@ end A006748.P1270014579586091295
 
 The programs for A006749, there is no canonical definition to state claims against.
 -/
+
+/-! ## A006749.P15851674333140657471
+
+`A000105(n+1)-A006746(n+1)-A006748(n+1)-A006747(n+1)-A056877(n+1)-A056878(n+1)-A144553(n+1)-A142886(n+1)`
+-/
+
+namespace A006749.P15851674333140657471
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000105 (n + 1) - A006746 (n + 1) - A006748 (n + 1) - A006747 (n + 1) - A056877 (n + 1) - A056878 (n + 1) - A144553 (n + 1) - A142886 (n + 1)
+
+end
+
+end A006749.P15851674333140657471
 
 /-! ## A006749.P4517624357520044281
 
@@ -4718,10 +4750,29 @@ end A006787.P9435224461434185936
 /-!
 # A006788: a(n) = floor(2^(n-1)/n).
 
-The programs for A006788, the canonical program `A006788.P17628094807299860451` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006788 has offset 1).
+The programs for A006788, the canonical program `A006788.P8677042134316406324` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006788 has offset 1).
 
-The definition of A006788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A006788 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(2^n/(n+1))` (program `A006788.P8677042134316406324`, by `A006788.P8677042134316406324.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A006788.P8677042134316406324
+
+`floor(2^n/(n+1))`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A006788
+
+/-- `floor(2^n/(n+1))` -/
+def P8677042134316406324.Spec : Prop :=
+  ∀ n, P8677042134316406324.a n = A006788 (n + 1)
+
+theorem P8677042134316406324.correct : P8677042134316406324.Spec := by
+  intro n
+  simp only [A006788, Nat.add_sub_cancel]
+
+end A006788
 
 /-! ## A006788.P7891372439938910234
 
@@ -4749,42 +4800,23 @@ end A006788
 /-! ## A006788.P17628094807299860451
 
 `A054650(n+1)-A323547(n+1)`
-
-The canonical program, it is in `Seq.B004.C000`.
 -/
+
+namespace A006788.P17628094807299860451
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054650 (n + 1) - A323547 (n + 1)
+
+end
+
+end A006788.P17628094807299860451
 
 namespace A006788
 
 /-- `A054650(n+1)-A323547(n+1)` -/
 def P17628094807299860451.Spec : Prop :=
   ∀ n, P17628094807299860451.a n = A006788 (n + 1)
-
-theorem P17628094807299860451.correct : P17628094807299860451.Spec := by
-  intro n
-  simp only [A006788, Nat.add_sub_cancel]
-
-end A006788
-
-/-! ## A006788.P7695607684221400339
-
-`floor(A000799(n+1)/2)`
--/
-
-namespace A006788.P7695607684221400339
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A000799 (n + 1) : ℚ) / 2⌋
-
-end
-
-end A006788.P7695607684221400339
-
-namespace A006788
-
-/-- `floor(A000799(n+1)/2)` -/
-def P7695607684221400339.Spec : Prop :=
-  ∀ n, P7695607684221400339.a n = A006788 (n + 1)
 
 end A006788
 
@@ -4854,29 +4886,6 @@ namespace A006788
 /-- `A053637(n+1)+A281375(n+1)-A053639(n+1)` -/
 def P654347963476758008.Spec : Prop :=
   ∀ n, P654347963476758008.a n = A006788 (n + 1)
-
-end A006788
-
-/-! ## A006788.P8677042134316406324
-
-`floor(2^n/(n+1))`
--/
-
-namespace A006788.P8677042134316406324
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(2 ^ n : ℚ) / (n + 1 : ℚ)⌋
-
-end
-
-end A006788.P8677042134316406324
-
-namespace A006788
-
-/-- `floor(2^n/(n+1))` -/
-def P8677042134316406324.Spec : Prop :=
-  ∀ n, P8677042134316406324.a n = A006788 (n + 1)
 
 end A006788
 

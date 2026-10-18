@@ -13,6 +13,10 @@
         "cosh",
         "*",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

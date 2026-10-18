@@ -9,39 +9,41 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C023
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -50,11 +52,13 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,7 +84,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C026
+import Seq.Opaque.C025
 
 /-!
 # A299700: Squarefree part of 1!*2!*3!*...*n!: The product of factorials one through n divided by its largest square divisor.
@@ -5520,27 +5524,50 @@ end A299764.P8731453899727274975
 /-!
 # A299766: Greatest odd noncomposite divisor of n.
 
-The programs for A299766, the canonical program `A299766.P14007056113270827292` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299766 has offset 1).
+The programs for A299766, the canonical program `A299766.P1328271149826463585` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299766 has offset 1).
 
-The definition of A299766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A299766 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A006530, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A299766.P1328271149826463585
+
+`A006530(A000265(n+1))`
+
+The canonical program, it is in `Seq.B008.C001`.
+-/
+
+namespace A299766
+
+/-- `A006530(A000265(n+1))` -/
+def P1328271149826463585.Spec : Prop :=
+  ∀ n, P1328271149826463585.a n = A299766 (n + 1)
+
+theorem P1328271149826463585.correct : P1328271149826463585.Spec := by
+  intro n
+  simp only [A299766, Nat.add_sub_cancel]
+
+end A299766
 
 /-! ## A299766.P14007056113270827292
 
 `or(1, A070777(n+1))`
-
-The canonical program, it is in `Seq.B009.C000`.
 -/
+
+namespace A299766.P14007056113270827292
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor 1 (A070777 (n + 1))
+
+end
+
+end A299766.P14007056113270827292
 
 namespace A299766
 
 /-- `or(1, A070777(n+1))` -/
 def P14007056113270827292.Spec : Prop :=
   ∀ n, P14007056113270827292.a n = A299766 (n + 1)
-
-theorem P14007056113270827292.correct : P14007056113270827292.Spec := by
-  intro n
-  simp only [A299766, Nat.add_sub_cancel]
 
 end A299766
 
@@ -5728,29 +5755,6 @@ namespace A299766
 /-- `A006530((n+1)/(n+1-and(n, n+1)))` -/
 def P3365388806617807601.Spec : Prop :=
   ∀ n, P3365388806617807601.a n = A299766 (n + 1)
-
-end A299766
-
-/-! ## A299766.P1328271149826463585
-
-`A006530(A000265(n+1))`
--/
-
-namespace A299766.P1328271149826463585
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A000265 (n + 1)).toNat
-
-end
-
-end A299766.P1328271149826463585
-
-namespace A299766
-
-/-- `A006530(A000265(n+1))` -/
-def P1328271149826463585.Spec : Prop :=
-  ∀ n, P1328271149826463585.a n = A299766 (n + 1)
 
 end A299766
 
@@ -7142,20 +7146,20 @@ end A299784.P17479880359646344115
 The programs for A299785, there is no canonical definition to state claims against.
 -/
 
-/-! ## A299785.P2625621633518437118
+/-! ## A299785.P8519658166972258852
 
-`(n+1)!*A299783(n+1)`
+`A299783(n+1)*(n+1)!`
 -/
 
-namespace A299785.P2625621633518437118
+namespace A299785.P8519658166972258852
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (n + 1) : ℤ) * A299783 (n + 1)
+  A299783 (n + 1) * (Nat.factorial (n + 1) : ℤ)
 
 end
 
-end A299785.P2625621633518437118
+end A299785.P8519658166972258852
 
 /-! ## A299785.P12475090087887347621
 
@@ -7253,20 +7257,20 @@ end A299786.P14939702595193175899
 The programs for A299787, there is no canonical definition to state claims against.
 -/
 
-/-! ## A299787.P14242949150852973822
+/-! ## A299787.P12120734681063590262
 
-`(n+1)!*A299784(n+1)`
+`A299784(n+1)*(n+1)!`
 -/
 
-namespace A299787.P14242949150852973822
+namespace A299787.P12120734681063590262
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (n + 1) : ℤ) * A299784 (n + 1)
+  A299784 (n + 1) * (Nat.factorial (n + 1) : ℤ)
 
 end
 
-end A299787.P14242949150852973822
+end A299787.P12120734681063590262
 
 /-! ## A299787.P15901167237480009000
 
@@ -7343,7 +7347,7 @@ end A299787.P3133531209204267409
 /-!
 # A299788: a(n) = denominator of Product_{d|n} (sigma(d)/d) where sigma(k) = the sum of the divisors of k (A000203).
 
-The programs for A299788, the canonical program `A299788.P8869797389046882130` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299788 has offset 1).
+The programs for A299788, the canonical program `A299788.P8869797389046882130` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299788 has offset 1).
 
 The definition of A299788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3359 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7352,7 +7356,7 @@ The definition of A299788 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[n+1, #]/gcd(∏{d}[n+1, #], A206032(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A299788

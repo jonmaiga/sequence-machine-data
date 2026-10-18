@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -18,25 +17,24 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -63,7 +61,10 @@ import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,7 +85,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -4399,8 +4399,29 @@ end A107643.P1285095489143052202
 /-!
 # A107647: Euler's totient function applied to tribonacci numbers.
 
-The programs for A107647, there is no canonical definition to state claims against.
+The programs for A107647, the canonical program `A107647.P4071914148309250893` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107647 has offset 2).
+
+The definition of A107647 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A107647.P4071914148309250893
+
+`A000010(A000073(n+2))`
+
+The canonical program, it is in `Seq.B006.C000`.
+-/
+
+namespace A107647
+
+/-- `A000010(A000073(n+2))` -/
+def P4071914148309250893.Spec : Prop :=
+  ∀ n, P4071914148309250893.a n = A107647 (n + 2)
+
+theorem P4071914148309250893.correct : P4071914148309250893.Spec := by
+  intro n
+  simp only [A107647, Nat.add_sub_cancel]
+
+end A107647
 
 /-! ## A107647.P7814396377711655305
 
@@ -4420,6 +4441,14 @@ end
 
 end A107647.P7814396377711655305
 
+namespace A107647
+
+/-- `A000010(Δ[2*a(n-1)-a(n-4)])` -/
+def P7814396377711655305.Spec : Prop :=
+  ∀ n, P7814396377711655305.a n = A107647 (n + 2)
+
+end A107647
+
 /-! ## A107647.P3157621976149257138
 
 `A000010(A104580(∑[n]))`
@@ -4437,6 +4466,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A107647.P3157621976149257138
+
+namespace A107647
+
+/-- `A000010(A104580(∑[n]))` -/
+def P3157621976149257138.Spec : Prop :=
+  ∀ n, P3157621976149257138.a n = A107647 (n + 2)
+
+end A107647
 
 /-! ## A107647.P3945729431926447231
 
@@ -4456,6 +4493,14 @@ end
 
 end A107647.P3945729431926447231
 
+namespace A107647
+
+/-- `A000010(A106522(∑[n]))` -/
+def P3945729431926447231.Spec : Prop :=
+  ∀ n, P3945729431926447231.a n = A107647 (n + 2)
+
+end A107647
+
 /-! ## A107647.P11737802081291515499
 
 `A000010(A187889(∑[n]))`
@@ -4474,23 +4519,13 @@ end
 
 end A107647.P11737802081291515499
 
-/-! ## A107647.P4583126685971072154
+namespace A107647
 
-`A000010(A189187(∑[n]))`
--/
+/-- `A000010(A187889(∑[n]))` -/
+def P11737802081291515499.Spec : Prop :=
+  ∀ n, P11737802081291515499.a n = A107647 (n + 2)
 
-namespace A107647.P4583126685971072154
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (A189187 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A107647.P4583126685971072154
+end A107647
 
 /-!
 # A107648: Numbers n such that (10^(2n+1)+63*10^n-1)/9 is prime.
@@ -7515,16 +7550,16 @@ end A107679.P8623344771242548260
 /-!
 # A107680: Repeating k-th ternary repunit (A003462) 2^k times, k >= 0.
 
-The programs for A107680, the canonical program `A107680.P2091678372907018845` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107680 has offset 0).
+The programs for A107680, the canonical program `A107680.P2091678372907018845` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107680 has offset 0).
 
-The definition of A107680 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000523, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A107680 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A107680.P2091678372907018845
 
 `A003462(A000523(n+1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A107680
@@ -7752,25 +7787,17 @@ end A107680
 /-!
 # A107681: Repeat(first 2^k numbers with no 2 in ternary representation) for k>0.
 
-The programs for A107681, the canonical program `A107681.P10623158521977132351` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107681 has offset 1).
+The programs for A107681, the canonical program `A107681.P6693878412057773898` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107681 has offset 1).
 
-The definition of A107681 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8190 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A107681 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A107681.P6693878412057773898
 
 `A005836(A062050(n+2))`
+
+The canonical program, it is in `Seq.B002.C002`.
 -/
-
-namespace A107681.P6693878412057773898
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005836 (A062050 (n + 2)).toNat
-
-end
-
-end A107681.P6693878412057773898
 
 namespace A107681
 
@@ -7778,24 +7805,32 @@ namespace A107681
 def P6693878412057773898.Spec : Prop :=
   ∀ n, P6693878412057773898.a n = A107681 (n + 1)
 
+theorem P6693878412057773898.correct : P6693878412057773898.Spec := by
+  intro n
+  simp only [A107681, Nat.add_sub_cancel]
+
 end A107681
 
 /-! ## A107681.P10623158521977132351
 
 `A083904(A054429(n+2))`
-
-The canonical program, it is in `Seq.B004.C001`.
 -/
+
+namespace A107681.P10623158521977132351
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083904 (A054429 (n + 2)).toNat
+
+end
+
+end A107681.P10623158521977132351
 
 namespace A107681
 
 /-- `A083904(A054429(n+2))` -/
 def P10623158521977132351.Spec : Prop :=
   ∀ n, P10623158521977132351.a n = A107681 (n + 1)
-
-theorem P10623158521977132351.correct : P10623158521977132351.Spec := by
-  intro n
-  simp only [A107681, Nat.add_sub_cancel]
 
 end A107681
 

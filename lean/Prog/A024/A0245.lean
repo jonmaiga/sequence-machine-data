@@ -18,19 +18,20 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,28 +45,27 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -89,7 +89,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2953,7 +2953,7 @@ end A024509.P5325791888859545578
 /-!
 # A024510: Positions of even numbers in A004431 (sums of 2 distinct nonzero squares).
 
-The programs for A024510, the canonical program `A024510.P9053752916774843520` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024510 has offset 1).
+The programs for A024510, the canonical program `A024510.P9053752916774843520` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024510 has offset 1).
 
 The definition of A024510 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2962,7 +2962,7 @@ The definition of A024510 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A004431(n+2)%2]+2`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A024510
@@ -3104,7 +3104,7 @@ end A024510
 /-!
 # A024511: Positions of odd numbers in A004431 (sums of 2 distinct nonzero squares).
 
-The programs for A024511, the canonical program `A024511.P1058289518058299462` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024511 has offset 1).
+The programs for A024511, the canonical program `A024511.P1058289518058299462` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024511 has offset 1).
 
 The definition of A024511 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4832 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3142,7 +3142,7 @@ end A024511
 
 `eq[char[A024510(n+1)], A000007(n)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A024511
@@ -3370,7 +3370,7 @@ end A024513.P12789977244470295337
 /-!
 # A024514: Positions of primes in A004431 (sums of 2 distinct nonzero squares).
 
-The programs for A024514, the canonical program `A024514.P16553037796526444321` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024514 has offset 1).
+The programs for A024514, the canonical program `A024514.P16553037796526444321` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024514 has offset 1).
 
 The definition of A024514 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2102 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3379,7 +3379,7 @@ The definition of A024514 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A000005(A004431(n+1))]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A024514
@@ -4571,7 +4571,7 @@ end A024520
 /-!
 # A024522: a(n) = 2nd elementary symmetric function of {1, prime(1), prime(2), ..., prime(n-1)}, where prime(0) = 1.
 
-The programs for A024522, the canonical program `A024522.P10251569603433964511` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024522 has offset 2).
+The programs for A024522, the canonical program `A024522.P10251569603433964511` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024522 has offset 2).
 
 The definition of A024522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4603,7 +4603,7 @@ end A024522
 
 `A024447(n+1)+∑[A000040(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A024522
@@ -5095,7 +5095,7 @@ end A024522
 /-!
 # A024523: a(n) = 3rd elementary symmetric function of {1, p(1), p(2), ..., p(n-1)}, where p(0) = 1.
 
-The programs for A024523, the canonical program `A024523.P15062515241422550493` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024523 has offset 3).
+The programs for A024523, the canonical program `A024523.P15062515241422550493` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024523 has offset 3).
 
 The definition of A024523 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2724 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5104,7 +5104,7 @@ The definition of A024523 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A024522(n+2)*A065091(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A024523
@@ -5235,7 +5235,7 @@ end A024523
 /-!
 # A024524: 4th elementary symmetric function of {1, p(1), p(2), ..., p(n-1)}, where p(0) = 1.
 
-The programs for A024524, the canonical program `A024524.P1283342088011010465` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024524 has offset 4).
+The programs for A024524, the canonical program `A024524.P1283342088011010465` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024524 has offset 4).
 
 The definition of A024524 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 534 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5244,7 +5244,7 @@ The definition of A024524 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A008578(n+4)*A024523(n+3)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A024524
@@ -5786,7 +5786,7 @@ end A024525
 /-!
 # A024526: a(n) = Sum_{0 <= i < j <= n} (prime(j) - prime(i))^2, where prime(0) = 1.
 
-The programs for A024526, the canonical program `A024526.P216027257778899538` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024526 has offset 1).
+The programs for A024526, the canonical program `A024526.P216027257778899538` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024526 has offset 1).
 
 The definition of A024526 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5847,7 +5847,7 @@ end A024526
 
 `∑[A005722(n+1)]+n*A024450(n+1)-A065595(n+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A024526
@@ -6260,7 +6260,7 @@ end A024530.P17461268785604673821
 /-!
 # A024531: a(n) = [ (2nd elementary symmetric function of P(n))/(first elementary symmetric function of P(n)) ], where P(n) = {1, p(1), p(2), ..., p(n-1)}, where p(0) = 1.
 
-The programs for A024531, the canonical program `A024531.P4098472389079834350` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024531 has offset 2).
+The programs for A024531, the canonical program `A024531.P4098472389079834350` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024531 has offset 2).
 
 The definition of A024531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6269,7 +6269,7 @@ The definition of A024531 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A024522(n+2)/A014284(n+2))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A024531
@@ -6526,7 +6526,7 @@ end A024534.P10101331550363462065
 /-!
 # A024535: [ (4th elementary symmetric function of P(n))/(2nd elementary symmetric function of P(n)) ], where P(n) = {1, p(1), p(2), ..., p(n-1)}, where p(0) = 1.
 
-The programs for A024535, the canonical program `A024535.P15474277784430025051` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024535 has offset 4).
+The programs for A024535, the canonical program `A024535.P15474277784430025051` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024535 has offset 4).
 
 The definition of A024535 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 529 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6535,7 +6535,7 @@ The definition of A024535 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A024524(n+4)/A024522(n+4))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A024535
@@ -6576,10 +6576,29 @@ end A024535
 /-!
 # A024536: [ (4th elementary symmetric function of P(n))/(3rd elementary symmetric function of P(n)) ], where P(n) = {1, p(1), p(2), ..., p(n-1)}, p(0) = 1.
 
-The programs for A024536, the canonical program `A024536.P2823935426376740183` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024536 has offset 4).
+The programs for A024536, the canonical program `A024536.P2823935426376740183` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024536 has offset 4).
 
-The definition of A024536 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 534 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A024536 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024523, A024524, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A024536.P2823935426376740183
+
+`floor(A024524(n+4)/A024523(n+4))`
+
+The canonical program, it is in `Seq.B010.C000`.
+-/
+
+namespace A024536
+
+/-- `floor(A024524(n+4)/A024523(n+4))` -/
+def P2823935426376740183.Spec : Prop :=
+  ∀ n, P2823935426376740183.a n = A024536 (n + 4)
+
+theorem P2823935426376740183.correct : P2823935426376740183.Spec := by
+  intro n
+  simp only [A024536, Nat.add_sub_cancel]
+
+end A024536
 
 /-! ## A024536.P493408607472410559
 
@@ -6601,25 +6620,6 @@ namespace A024536
 /-- `floor(A024533(n+4)/A024532(n+4))` -/
 def P493408607472410559.Spec : Prop :=
   ∀ n, P493408607472410559.a n = A024536 (n + 4)
-
-end A024536
-
-/-! ## A024536.P2823935426376740183
-
-`floor(A024524(n+4)/A024523(n+4))`
-
-The canonical program, it is in `Seq.B009.C000`.
--/
-
-namespace A024536
-
-/-- `floor(A024524(n+4)/A024523(n+4))` -/
-def P2823935426376740183.Spec : Prop :=
-  ∀ n, P2823935426376740183.a n = A024536 (n + 4)
-
-theorem P2823935426376740183.correct : P2823935426376740183.Spec := by
-  intro n
-  simp only [A024536, Nat.add_sub_cancel]
 
 end A024536
 
@@ -8986,7 +8986,7 @@ end A024554
 /-!
 # A024556: Odd squarefree composite numbers.
 
-The programs for A024556, the canonical program `A024556.P10614028685495330531` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024556 has offset 1).
+The programs for A024556, the canonical program `A024556.P10614028685495330531` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024556 has offset 1).
 
 The definition of A024556 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7633 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9184,7 +9184,7 @@ end A024556
 
 `filter[A082686(n+1), A323154(#)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A024556

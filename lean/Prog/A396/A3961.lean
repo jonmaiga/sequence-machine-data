@@ -2,40 +2,41 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C018
+import Seq.B000.C021
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C030
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B005.C001
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
@@ -49,6 +50,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -59,7 +61,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A396104: First differences of A396086, the number of dyadic intervals of length 2^(-n) that intersect the classical middle-third Cantor set.
@@ -193,7 +194,7 @@ end A396110.P418498810533283698
 /-!
 # A396111: a(n) = n^4 mod (2*n+1).
 
-The programs for A396111, the canonical program `A396111.P7594967389268569643` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396111 has offset 0).
+The programs for A396111, the canonical program `A396111.P7594967389268569643` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396111 has offset 0).
 
 The definition of A396111 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -202,7 +203,7 @@ The definition of A396111 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n^4)%(2*n+1)`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A396111
@@ -1598,21 +1599,6 @@ end A396174.P16630669548813308685
 The programs for A396176, there is no canonical definition to state claims against.
 -/
 
-/-! ## A396176.P998198740706667956
-
-`A396177(n)+a(n-1)` with `a(0)=1`
--/
-
-namespace A396176.P998198740706667956
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A396177 n + a (n - 1)
-
-end
-
-end A396176.P998198740706667956
-
 /-! ## A396176.P2259301956495280658
 
 `A000720(A394720(n+1))`
@@ -1627,6 +1613,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396176.P2259301956495280658
+
+/-! ## A396176.P998198740706667956
+
+`A396177(n)+a(n-1)` with `a(0)=1`
+-/
+
+namespace A396176.P998198740706667956
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A396177 n + a (n - 1)
+
+end
+
+end A396176.P998198740706667956
 
 /-! ## A396176.P268556619348470779
 
@@ -1805,7 +1806,7 @@ end A396178.P15905526279585594937
 /-!
 # A396179: Positive integers not in A008726.
 
-The programs for A396179, the canonical program `A396179.P6313024239879174676` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396179 has offset 1).
+The programs for A396179, the canonical program `A396179.P6313024239879174676` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396179 has offset 1).
 
 The definition of A396179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1814,7 +1815,7 @@ The definition of A396179 is `conjectured`: the Lean definition is a formula tha
 
 `comp[∑[floor(n/8)]]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A396179
@@ -2250,7 +2251,7 @@ end A396198.P10467537255143697534
 /-!
 # A396199: a(n) = (n + 1)*(2^(n + 1) - binomial(n, floor(n / 2))), row sums of A396200.
 
-The programs for A396199, the canonical program `A396199.P13714647059472639932` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396199 has offset 0).
+The programs for A396199, the canonical program `A396199.P13714647059472639932` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396199 has offset 0).
 
 The definition of A396199 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(2^(n+1)-C(n, floor(n/2)))` (program `A396199.P13714647059472639932`, by `A396199.P13714647059472639932.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2259,7 +2260,7 @@ The definition of A396199 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)*(2^(n+1)-C(n, floor(n/2)))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A396199

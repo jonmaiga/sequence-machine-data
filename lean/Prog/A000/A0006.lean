@@ -14,25 +14,28 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -40,9 +43,9 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -52,10 +55,12 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,7 +87,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A000600: Number of tertiary alcohols (alkanols or alkyl alcohols C_n H_{2n+1} OH) with n carbon atoms.
@@ -837,7 +841,7 @@ end A000602.P9746059221065021464
 /-!
 # A000603: Number of nonnegative solutions to x^2 + y^2 <= n^2.
 
-The programs for A000603, the canonical program `A000603.P17854986445594045637` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000603 has offset 0).
+The programs for A000603, the canonical program `A000603.P17854986445594045637` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000603 has offset 0).
 
 The definition of A000603 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -898,7 +902,7 @@ end A000603
 
 `A036698(n)+1+n`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A000603
@@ -5920,35 +5924,20 @@ end
 
 end A000668.P8832822460832801682
 
-/-! ## A000668.P13613818791745487956
+/-! ## A000668.P12489131137125064100
 
-`A343733(n+2)`
+`A001348(A016027(n+1))`
 -/
 
-namespace A000668.P13613818791745487956
+namespace A000668.P12489131137125064100
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343733 (n + 2)
+  A001348 (A016027 (n + 1)).toNat
 
 end
 
-end A000668.P13613818791745487956
-
-/-! ## A000668.P16074711497541352084
-
-`sqrt(A133049(n+1))`
--/
-
-namespace A000668.P16074711497541352084
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A133049 (n + 1) : ℝ)
-
-end
-
-end A000668.P16074711497541352084
+end A000668.P12489131137125064100
 
 /-!
 # A000669: Number of series-reduced planted trees with n leaves. Also the number of essentially series series-parallel networks with n edges; also the number of essentially parallel series-parallel networks with n edges.
@@ -7833,6 +7822,21 @@ end A000685.P6649413013396694177
 The programs for A000686, there is no canonical definition to state claims against.
 -/
 
+/-! ## A000686.P15952078651813055516
+
+`1/4*A223887(n+1)`
+-/
+
+namespace A000686.P15952078651813055516
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 4 * (A223887 (n + 1) : ℚ)
+
+end
+
+end A000686.P15952078651813055516
+
 /-! ## A000686.P8027712980515909540
 
 `A223887(n+1)/4`
@@ -7907,24 +7911,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A000686.P8354381413106170777
-
-/-! ## A000686.P13074520794202407758
-
-`record[A322280(A141214(n)-2)/A123932(n)]`
--/
-
-namespace A000686.P13074520794202407758
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A322280 (A141214 n - 2).toNat : ℚ) / (A123932 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A000686.P13074520794202407758
 
 /-!
 # A000687: Boustrophedon transform (first version) of Fibonacci numbers 0,1,1,2,3,5,...
@@ -8012,6 +7998,36 @@ end A000687.P15352429677968915697
 
 The programs for A000688, there is no canonical definition to state claims against.
 -/
+
+/-! ## A000688.P12099610417306733230
+
+`A050360(A101296(n+1))`
+-/
+
+namespace A000688.P12099610417306733230
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050360 (A101296 (n + 1)).toNat
+
+end
+
+end A000688.P12099610417306733230
+
+/-! ## A000688.P3717032682714214548
+
+`A000001(n+1)-A060689(n+1)`
+-/
+
+namespace A000688.P3717032682714214548
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000001 (n + 1) - A060689 (n + 1)
+
+end
+
+end A000688.P3717032682714214548
 
 /-! ## A000688.P10019651450251256798
 
@@ -8154,21 +8170,6 @@ end
 
 end A000688.P14170444582896199258
 
-/-! ## A000688.P12099610417306733230
-
-`A050360(A101296(n+1))`
--/
-
-namespace A000688.P12099610417306733230
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050360 (A101296 (n + 1)).toNat
-
-end
-
-end A000688.P12099610417306733230
-
 /-! ## A000688.P12632369463734736562
 
 `A394390(n+1)+A380578(n+1)`
@@ -8249,21 +8250,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A000688.P1849829369265447163
-
-/-! ## A000688.P3717032682714214548
-
-`A000001(n+1)-A060689(n+1)`
--/
-
-namespace A000688.P3717032682714214548
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000001 (n + 1) - A060689 (n + 1)
-
-end
-
-end A000688.P3717032682714214548
 
 /-! ## A000688.P8787946119539632880
 
@@ -8637,21 +8623,6 @@ end A000692.P3315334099762413168
 The programs for A000693, there is no canonical definition to state claims against.
 -/
 
-/-! ## A000693.P15386732722158296395
-
-`A000050(n+1)-a(n-1)` with `a(0)=1`
--/
-
-namespace A000693.P15386732722158296395
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A000050 (n + 1) - a (n - 1)
-
-end
-
-end A000693.P15386732722158296395
-
 /-! ## A000693.P11449279895789628165
 
 `A000074(n+1)+a(n-2)` with `a(0)=1, a(1)=2`
@@ -8666,6 +8637,21 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n a =>
 end
 
 end A000693.P11449279895789628165
+
+/-! ## A000693.P15386732722158296395
+
+`A000050(n+1)-a(n-1)` with `a(0)=1`
+-/
+
+namespace A000693.P15386732722158296395
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A000050 (n + 1) - a (n - 1)
+
+end
+
+end A000693.P15386732722158296395
 
 /-! ## A000693.P10599268418151594392
 

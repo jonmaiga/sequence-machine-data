@@ -5,7 +5,6 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -17,16 +16,16 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,31 +33,31 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -77,7 +76,6 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -5495,7 +5493,7 @@ end A009176.P6230988761237528092
 /-!
 # A009177: Numbers that are the hypotenuses of more than one Pythagorean triangle.
 
-The programs for A009177, the canonical program `A009177.P7792570887173754101` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009177 has offset 1).
+The programs for A009177, the canonical program `A009177.P7792570887173754101` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009177 has offset 1).
 
 The definition of A009177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3975 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5504,7 +5502,7 @@ The definition of A009177 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, A046080(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A009177
@@ -7263,25 +7261,25 @@ end A009188
 /-!
 # A009191: a(n) = gcd(n, d(n)), where d(n) is the number of divisors of n (A000005).
 
-The programs for A009191, the canonical program `A009191.P8644364361556287829` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009191 has offset 1).
+The programs for A009191, the canonical program `A009191.P6662661648928745988` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009191 has offset 1).
 
-The definition of A009191 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A009191 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A009191.P8644364361556287829
+/-! ## A009191.P6662661648928745988
 
-`gcd(n+1, ∏{e}[n+1, #+1])`
+`gcd(n+1, A000005(n+1))`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A009191
 
-/-- `gcd(n+1, ∏{e}[n+1, #+1])` -/
-def P8644364361556287829.Spec : Prop :=
-  ∀ n, (P8644364361556287829.a n : ℤ) = A009191 (n + 1)
+/-- `gcd(n+1, A000005(n+1))` -/
+def P6662661648928745988.Spec : Prop :=
+  ∀ n, (P6662661648928745988.a n : ℤ) = A009191 (n + 1)
 
-theorem P8644364361556287829.correct : P8644364361556287829.Spec := by
+theorem P6662661648928745988.correct : P6662661648928745988.Spec := by
   intro n
   simp only [A009191, Nat.add_sub_cancel]
 
@@ -7360,29 +7358,6 @@ namespace A009191
 /-- `(n+1)/A090395(n+1)` -/
 def P2939402778776826356.Spec : Prop :=
   ∀ n, P2939402778776826356.a n = (A009191 (n + 1) : ℚ)
-
-end A009191
-
-/-! ## A009191.P5512791747822264967
-
-`gcd(xor(n, -1), A000005(n+1))`
--/
-
-namespace A009191.P5512791747822264967
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (Int.xor (n : ℤ) (-1)) (A000005 (n + 1))
-
-end
-
-end A009191.P5512791747822264967
-
-namespace A009191
-
-/-- `gcd(xor(n, -1), A000005(n+1))` -/
-def P5512791747822264967.Spec : Prop :=
-  ∀ n, (P5512791747822264967.a n : ℤ) = A009191 (n + 1)
 
 end A009191
 
@@ -7797,27 +7772,49 @@ end A009193.P4507246841461275714
 /-!
 # A009194: a(n) = gcd(n, sigma(n)).
 
-The programs for A009194, the canonical program `A009194.P6815024627803358597` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009194 has offset 1).
+The programs for A009194, the canonical program `A009194.P8274270202395757303` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009194 has offset 1).
 
-The definition of A009194 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A009194 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A017666, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A009194.P8274270202395757303
+
+`(n+1)/A017666(n+1)`
+
+The canonical program, it is in `Seq.B001.C000`.
+-/
+
+namespace A009194
+
+/-- `(n+1)/A017666(n+1)` -/
+def P8274270202395757303.Spec : Prop :=
+  ∀ n, P8274270202395757303.a n = (A009194 (n + 1) : ℚ)
+
+end A009194
 
 /-! ## A009194.P6815024627803358597
 
 `gcd(n+1, ∑{d}[n+1, #])`
-
-The canonical program, it is in `Seq.B000.C001`.
 -/
+
+namespace A009194.P6815024627803358597
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd (n + 1) (∑ d ∈ Nat.divisors (f1 n), d)
+
+end
+
+end A009194.P6815024627803358597
 
 namespace A009194
 
 /-- `gcd(n+1, ∑{d}[n+1, #])` -/
 def P6815024627803358597.Spec : Prop :=
   ∀ n, (P6815024627803358597.a n : ℤ) = A009194 (n + 1)
-
-theorem P6815024627803358597.correct : P6815024627803358597.Spec := by
-  intro n
-  simp only [A009194, Nat.add_sub_cancel]
 
 end A009194
 
@@ -7844,29 +7841,6 @@ namespace A009194
 /-- `gcd(n+1, Δ[A160664(n)])` -/
 def P6593566903416780004.Spec : Prop :=
   ∀ n, (P6593566903416780004.a n : ℤ) = A009194 (n + 1)
-
-end A009194
-
-/-! ## A009194.P8274270202395757303
-
-`(n+1)/A017666(n+1)`
--/
-
-namespace A009194.P8274270202395757303
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (A017666 (n + 1) : ℚ)
-
-end
-
-end A009194.P8274270202395757303
-
-namespace A009194
-
-/-- `(n+1)/A017666(n+1)` -/
-def P8274270202395757303.Spec : Prop :=
-  ∀ n, P8274270202395757303.a n = (A009194 (n + 1) : ℚ)
 
 end A009194
 
@@ -8264,25 +8238,48 @@ end A009194
 /-!
 # A009195: a(n) = gcd(n, phi(n)).
 
-The programs for A009195, the canonical program `A009195.P1524762271609747951` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009195 has offset 1).
+The programs for A009195, the canonical program `A009195.P575735392333790531` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009195 has offset 1).
 
-The definition of A009195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A009195 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A009195.P1524762271609747951
+/-! ## A009195.P16188757937244872995
 
-`gcd(n+1-(n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], n+1)`
+`(n+1)/A109395(n+1)`
+-/
 
-The canonical program, it is in `Seq.B000.C001`.
+namespace A009195.P16188757937244872995
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) / (A109395 (n + 1) : ℚ)
+
+end
+
+end A009195.P16188757937244872995
+
+namespace A009195
+
+/-- `(n+1)/A109395(n+1)` -/
+def P16188757937244872995.Spec : Prop :=
+  ∀ n, P16188757937244872995.a n = (A009195 (n + 1) : ℚ)
+
+end A009195
+
+/-! ## A009195.P575735392333790531
+
+`gcd(n+1, A051953(n+1))`
+
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A009195
 
-/-- `gcd(n+1-(n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], n+1)` -/
-def P1524762271609747951.Spec : Prop :=
-  ∀ n, (P1524762271609747951.a n : ℤ) = A009195 (n + 1)
+/-- `gcd(n+1, A051953(n+1))` -/
+def P575735392333790531.Spec : Prop :=
+  ∀ n, (P575735392333790531.a n : ℤ) = A009195 (n + 1)
 
-theorem P1524762271609747951.correct : P1524762271609747951.Spec := by
+theorem P575735392333790531.correct : P575735392333790531.Spec := by
   intro n
   simp only [A009195, Nat.add_sub_cancel]
 
@@ -8311,29 +8308,6 @@ namespace A009195
 /-- `gcd(n+1, Δ[A002088(n)])` -/
 def P5129670038266114739.Spec : Prop :=
   ∀ n, (P5129670038266114739.a n : ℤ) = A009195 (n + 1)
-
-end A009195
-
-/-! ## A009195.P16188757937244872995
-
-`(n+1)/A109395(n+1)`
--/
-
-namespace A009195.P16188757937244872995
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (A109395 (n + 1) : ℚ)
-
-end
-
-end A009195.P16188757937244872995
-
-namespace A009195
-
-/-- `(n+1)/A109395(n+1)` -/
-def P16188757937244872995.Spec : Prop :=
-  ∀ n, P16188757937244872995.a n = (A009195 (n + 1) : ℚ)
 
 end A009195
 
@@ -8590,32 +8564,6 @@ namespace A009195
 /-- `Δ[A002088(n)]/A076512(n+1)` -/
 def P1129548141777987081.Spec : Prop :=
   ∀ n, P1129548141777987081.a n = (A009195 (n + 1) : ℚ)
-
-end A009195
-
-/-! ## A009195.P12817089738266931845
-
-`gcd(Δ[A005728(n)], A051953(n+1))`
--/
-
-namespace A009195.P12817089738266931845
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005728 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (f1 (n + 1) - f1 n) (A051953 (n + 1))
-
-end
-
-end A009195.P12817089738266931845
-
-namespace A009195
-
-/-- `gcd(Δ[A005728(n)], A051953(n+1))` -/
-def P12817089738266931845.Spec : Prop :=
-  ∀ n, (P12817089738266931845.a n : ℤ) = A009195 (n + 1)
 
 end A009195
 

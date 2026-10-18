@@ -2,18 +2,17 @@ import SequenceMachineLib.Basic
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C008
-import Seq.B000.C012
+import Seq.B000.C009
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C017
-import Seq.B000.C023
-import Seq.B000.C028
-import Seq.B000.C034
+import Seq.B000.C018
+import Seq.B000.C024
+import Seq.B000.C030
+import Seq.B000.C035
 import Seq.B002.C004
 import Seq.B003.C001
-import Seq.B005.C001
-import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -27,10 +26,10 @@ import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A388129: a(n) = Sum_{k=0..n} 2^(n-k) * binomial(n,k) * binomial(2*n+1,k).
@@ -395,50 +394,27 @@ end A388139.P14675398183998807399
 /-!
 # A388140: Number of axis-aligned 2 X 2 squares in the 3D projection of a 3n-dimensional hypercube with side length 2.
 
-The programs for A388140, the canonical program `A388140.P7839420439147075489` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388140 has offset 1).
+The programs for A388140, the canonical program `A388140.P16253514462590538591` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388140 has offset 1).
 
-The definition of A388140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A388140 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A388140.P7839420439147075489
+/-! ## A388140.P16253514462590538591
 
-`3*2^(n+1)*∑[2^n]²`
+`3*2^(n+1)*(2^(n+1)-1)²`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A388140
 
-/-- `3*2^(n+1)*∑[2^n]²` -/
-def P7839420439147075489.Spec : Prop :=
-  ∀ n, (P7839420439147075489.a n : ℤ) = A388140 (n + 1)
+/-- `3*2^(n+1)*(2^(n+1)-1)²` -/
+def P16253514462590538591.Spec : Prop :=
+  ∀ n, P16253514462590538591.a n = A388140 (n + 1)
 
-theorem P7839420439147075489.correct : P7839420439147075489.Spec := by
+theorem P16253514462590538591.correct : P16253514462590538591.Spec := by
   intro n
   simp only [A388140, Nat.add_sub_cancel]
-
-end A388140
-
-/-! ## A388140.P7482536730460549139
-
-`lcm(A091629(n+1), A127509(n+1))`
--/
-
-namespace A388140.P7482536730460549139
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A091629 (n + 1)) (A127509 (n + 1))
-
-end
-
-end A388140.P7482536730460549139
-
-namespace A388140
-
-/-- `lcm(A091629(n+1), A127509(n+1))` -/
-def P7482536730460549139.Spec : Prop :=
-  ∀ n, (P7482536730460549139.a n : ℤ) = A388140 (n + 1)
 
 end A388140
 
@@ -462,6 +438,29 @@ namespace A388140
 /-- `A270205(2^(n+1))` -/
 def P18213478227319701550.Spec : Prop :=
   ∀ n, P18213478227319701550.a n = A388140 (n + 1)
+
+end A388140
+
+/-! ## A388140.P7482536730460549139
+
+`lcm(A091629(n+1), A127509(n+1))`
+-/
+
+namespace A388140.P7482536730460549139
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A091629 (n + 1)) (A127509 (n + 1))
+
+end
+
+end A388140.P7482536730460549139
+
+namespace A388140
+
+/-- `lcm(A091629(n+1), A127509(n+1))` -/
+def P7482536730460549139.Spec : Prop :=
+  ∀ n, (P7482536730460549139.a n : ℤ) = A388140 (n + 1)
 
 end A388140
 

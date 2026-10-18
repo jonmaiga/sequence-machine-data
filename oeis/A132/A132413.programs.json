@@ -16,6 +16,10 @@
         "exp",
         "*",
         "ceil"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

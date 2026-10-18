@@ -18,21 +18,16 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
@@ -41,23 +36,24 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3883,6 +3879,36 @@ end A036036.P2955200829037946663
 The programs for A036038, there is no canonical definition to state claims against.
 -/
 
+/-! ## A036038.P5119991955350758716
+
+`A318762(A185974(n+1))`
+-/
+
+namespace A036038.P5119991955350758716
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318762 (A185974 (n + 1)).toNat
+
+end
+
+end A036038.P5119991955350758716
+
+/-! ## A036038.P201657963393018130
+
+`A008480(A036035(n+1))`
+-/
+
+namespace A036038.P201657963393018130
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008480 (A036035 (n + 1)).toNat
+
+end
+
+end A036038.P201657963393018130
+
 /-! ## A036038.P4104691712895239155
 
 `A049009(n+1)/A035206(n+1)`
@@ -4069,21 +4095,6 @@ end
 
 end A036038.P2089753819550961834
 
-/-! ## A036038.P5119991955350758716
-
-`A318762(A185974(n+1))`
--/
-
-namespace A036038.P5119991955350758716
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318762 (A185974 (n + 1)).toNat
-
-end
-
-end A036038.P5119991955350758716
-
 /-! ## A036038.P2316016073473689651
 
 `A318762(ratio[A185974(n)]*A185974(n))`
@@ -4122,6 +4133,21 @@ end A036038.P10978645382694613271
 
 The programs for A036039, there is no canonical definition to state claims against.
 -/
+
+/-! ## A036039.P851475047489625727
+
+`A124795(A185974(n+1))`
+-/
+
+namespace A036039.P851475047489625727
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124795 (A185974 (n + 1)).toNat
+
+end
+
+end A036039.P851475047489625727
 
 /-! ## A036039.P1384965295849368536
 
@@ -4261,26 +4287,26 @@ end
 
 end A036039.P11214093381224272180
 
-/-! ## A036039.P851475047489625727
-
-`A124795(A185974(n+1))`
--/
-
-namespace A036039.P851475047489625727
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124795 (A185974 (n + 1)).toNat
-
-end
-
-end A036039.P851475047489625727
-
 /-!
 # A036040: Irregular triangle of multinomial coefficients, read by rows (version 1).
 
 The programs for A036040, there is no canonical definition to state claims against.
 -/
+
+/-! ## A036040.P2411174730762313798
+
+`A124794(A185974(n+1))`
+-/
+
+namespace A036040.P2411174730762313798
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124794 (A185974 (n + 1)).toNat
+
+end
+
+end A036040.P2411174730762313798
 
 /-! ## A036040.P16454270444174799142
 
@@ -4513,21 +4539,6 @@ end
 
 end A036040.P8723516638533499235
 
-/-! ## A036040.P2411174730762313798
-
-`A124794(A185974(n+1))`
--/
-
-namespace A036040.P2411174730762313798
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124794 (A185974 (n + 1)).toNat
-
-end
-
-end A036040.P2411174730762313798
-
 /-! ## A036040.P4581522521404613161
 
 `A318762(A185974(n+1))/A096162(n+1)`
@@ -4563,6 +4574,36 @@ end A036040.P676266024614938842
 
 The programs for A036041, there is no canonical definition to state claims against.
 -/
+
+/-! ## A036041.P10996151265648468686
+
+`A001222(A025487(n+1))`
+-/
+
+namespace A036041.P10996151265648468686
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001222 (A025487 (n + 1)).toNat
+
+end
+
+end A036041.P10996151265648468686
+
+/-! ## A036041.P17353523020734664193
+
+`A001222(A181822(n+1))`
+-/
+
+namespace A036041.P17353523020734664193
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001222 (A181822 (n + 1)).toNat
+
+end
+
+end A036041.P17353523020734664193
 
 /-! ## A036041.P18052021971872452503
 
@@ -4609,24 +4650,6 @@ end
 
 end A036041.P1672046533653299281
 
-/-! ## A036041.P15360124079046077814
-
-`∑{e}[A025487(n+1), #]`
--/
-
-namespace A036041.P15360124079046077814
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025487 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p
-
-end
-
-end A036041.P15360124079046077814
-
 /-! ## A036041.P13222733392578413556
 
 `∑{e}[A051466(A329898(n+1)), #]`
@@ -4659,21 +4682,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A036041.P9034840387674144638
-
-/-! ## A036041.P10996151265648468686
-
-`A001222(A025487(n+1))`
--/
-
-namespace A036041.P10996151265648468686
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A025487 (n + 1)).toNat
-
-end
-
-end A036041.P10996151265648468686
 
 /-! ## A036041.P9179487034098907191
 
@@ -7640,7 +7648,7 @@ end A036070
 /-!
 # A036071: Expansion of 1/(1-5*x)^5.
 
-The programs for A036071, the canonical program `A036071.P17029302792826011541` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036071 has offset 0).
+The programs for A036071, the canonical program `A036071.P17029302792826011541` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036071 has offset 0).
 
 The definition of A036071 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7649,7 +7657,7 @@ The definition of A036071 is `conjectured`: the Lean definition is a formula tha
 
 `5^n*C(n+4, 4)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036071
@@ -8468,7 +8476,7 @@ end A036082.P16579118714440060317
 /-!
 # A036083: Expansion of (-1+1/(1-5*x)^5)/(25*x); related to A036071.
 
-The programs for A036083, the canonical program `A036083.P3039603564430814823` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036083 has offset 0).
+The programs for A036083, the canonical program `A036083.P3039603564430814823` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036083 has offset 0).
 
 The definition of A036083 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 134 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8477,7 +8485,7 @@ The definition of A036083 is `conjectured`: the Lean definition is a formula tha
 
 `5^(n-1)*C(n+5, 4)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036083
@@ -8635,7 +8643,7 @@ end A036083
 /-!
 # A036084: Expansion of 1/(1-6*x)^6.
 
-The programs for A036084, the canonical program `A036084.P3308043741755964215` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036084 has offset 0).
+The programs for A036084, the canonical program `A036084.P3308043741755964215` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036084 has offset 0).
 
 The definition of A036084 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8644,7 +8652,7 @@ The definition of A036084 is `conjectured`: the Lean definition is a formula tha
 
 `6^n*C(n+5, 5)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036084
@@ -8818,7 +8826,7 @@ end A036084
 /-!
 # A036085: Centered cube numbers: (n+1)^7 + n^7.
 
-The programs for A036085, the canonical program `A036085.P6699611710931681177` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036085 has offset 0).
+The programs for A036085, the canonical program `A036085.P6699611710931681177` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036085 has offset 0).
 
 The definition of A036085 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^7+n^7` (program `A036085.P6699611710931681177`, by `A036085.P6699611710931681177.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8827,7 +8835,7 @@ The definition of A036085 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^7+n^7`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036085
@@ -9257,7 +9265,7 @@ end A036085
 /-!
 # A036086: Centered cube numbers: a(n) = (n+1)^8+n^8.
 
-The programs for A036086, the canonical program `A036086.P15809469272928113457` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036086 has offset 0).
+The programs for A036086, the canonical program `A036086.P15809469272928113457` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036086 has offset 0).
 
 The definition of A036086 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^8+n^8` (program `A036086.P15809469272928113457`, by `A036086.P15809469272928113457.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9266,7 +9274,7 @@ The definition of A036086 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^8+n^8`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036086
@@ -9432,7 +9440,7 @@ end A036086
 /-!
 # A036087: Centered cube numbers: a(n) = (n+1)^9 + n^9.
 
-The programs for A036087, the canonical program `A036087.P11006721384539131196` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036087 has offset 0).
+The programs for A036087, the canonical program `A036087.P11006721384539131196` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036087 has offset 0).
 
 The definition of A036087 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^9+n^9` (program `A036087.P11006721384539131196`, by `A036087.P11006721384539131196.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9441,7 +9449,7 @@ The definition of A036087 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^9+n^9`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036087
@@ -9707,7 +9715,7 @@ end A036087
 /-!
 # A036088: Centered cube numbers: (n+1)^10 + n^10.
 
-The programs for A036088, the canonical program `A036088.P7773162319479978541` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036088 has offset 0).
+The programs for A036088, the canonical program `A036088.P7773162319479978541` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036088 has offset 0).
 
 The definition of A036088 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^10+n^10` (program `A036088.P7773162319479978541`, by `A036088.P7773162319479978541.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9716,7 +9724,7 @@ The definition of A036088 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^10+n^10`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036088
@@ -9838,7 +9846,7 @@ end A036088
 /-!
 # A036089: Centered cube numbers: (n+1)^11 + n^11.
 
-The programs for A036089, the canonical program `A036089.P5137669638222601657` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036089 has offset 0).
+The programs for A036089, the canonical program `A036089.P5137669638222601657` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036089 has offset 0).
 
 The definition of A036089 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^11+n^11` (program `A036089.P5137669638222601657`, by `A036089.P5137669638222601657.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9847,7 +9855,7 @@ The definition of A036089 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^11+n^11`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036089
@@ -10003,7 +10011,7 @@ end A036089
 /-!
 # A036090: Centered cube numbers: (n+1)^12 + n^12.
 
-The programs for A036090, the canonical program `A036090.P16713206158881378213` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036090 has offset 0).
+The programs for A036090, the canonical program `A036090.P16713206158881378213` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036090 has offset 0).
 
 The definition of A036090 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^12+n^12` (program `A036090.P16713206158881378213`, by `A036090.P16713206158881378213.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10012,7 +10020,7 @@ The definition of A036090 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^12+n^12`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036090
@@ -10128,7 +10136,7 @@ end A036090
 /-!
 # A036091: Centered cube numbers: (n+1)^13+n^13.
 
-The programs for A036091, the canonical program `A036091.P6794838911853245920` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036091 has offset 0).
+The programs for A036091, the canonical program `A036091.P6794838911853245920` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036091 has offset 0).
 
 The definition of A036091 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^13+n^13` (program `A036091.P6794838911853245920`, by `A036091.P6794838911853245920.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10137,7 +10145,7 @@ The definition of A036091 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^13+n^13`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036091
@@ -10265,7 +10273,7 @@ end A036091
 /-!
 # A036092: Centered cube numbers: a(n) = (n+1)^14 + n^14.
 
-The programs for A036092, the canonical program `A036092.P6843422934604541421` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036092 has offset 0).
+The programs for A036092, the canonical program `A036092.P6843422934604541421` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036092 has offset 0).
 
 The definition of A036092 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^14+n^14` (program `A036092.P6843422934604541421`, by `A036092.P6843422934604541421.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10274,7 +10282,7 @@ The definition of A036092 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^14+n^14`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036092
@@ -10396,7 +10404,7 @@ end A036092
 /-!
 # A036093: Centered cube numbers: (n+1)^15 + n^15.
 
-The programs for A036093, the canonical program `A036093.P8608577771298230220` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036093 has offset 0).
+The programs for A036093, the canonical program `A036093.P8608577771298230220` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036093 has offset 0).
 
 The definition of A036093 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^15+n^15` (program `A036093.P8608577771298230220`, by `A036093.P8608577771298230220.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10405,7 +10413,7 @@ The definition of A036093 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^15+n^15`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036093
@@ -10533,7 +10541,7 @@ end A036093
 /-!
 # A036094: Centered cube numbers: (n+1)^16 + n^16.
 
-The programs for A036094, the canonical program `A036094.P2162227290417152042` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036094 has offset 0).
+The programs for A036094, the canonical program `A036094.P2162227290417152042` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036094 has offset 0).
 
 The definition of A036094 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^16+n^16` (program `A036094.P2162227290417152042`, by `A036094.P2162227290417152042.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10542,7 +10550,7 @@ The definition of A036094 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^16+n^16`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036094
@@ -10586,7 +10594,7 @@ end A036094
 /-!
 # A036095: Centered cube numbers: a(n) = (n+1)^17 + n^17.
 
-The programs for A036095, the canonical program `A036095.P5793492866088705674` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036095 has offset 0).
+The programs for A036095, the canonical program `A036095.P5793492866088705674` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036095 has offset 0).
 
 The definition of A036095 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^17+n^17` (program `A036095.P5793492866088705674`, by `A036095.P5793492866088705674.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10595,7 +10603,7 @@ The definition of A036095 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^17+n^17`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036095
@@ -10726,7 +10734,7 @@ end A036095
 /-!
 # A036096: Centered cube numbers: (n+1)^18 + n^18.
 
-The programs for A036096, the canonical program `A036096.P2633988152001810233` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036096 has offset 0).
+The programs for A036096, the canonical program `A036096.P2633988152001810233` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036096 has offset 0).
 
 The definition of A036096 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^18+n^18` (program `A036096.P2633988152001810233`, by `A036096.P2633988152001810233.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10735,7 +10743,7 @@ The definition of A036096 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^18+n^18`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036096
@@ -10805,7 +10813,7 @@ end A036096
 /-!
 # A036097: Centered cube numbers: (n+1)^19+n^19.
 
-The programs for A036097, the canonical program `A036097.P8683106660414537380` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036097 has offset 0).
+The programs for A036097, the canonical program `A036097.P8683106660414537380` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036097 has offset 0).
 
 The definition of A036097 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10814,7 +10822,7 @@ The definition of A036097 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^19+n^19`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036097
@@ -10884,7 +10892,7 @@ end A036097
 /-!
 # A036098: Centered cube numbers: a(n) = (n+1)^20 + n^20.
 
-The programs for A036098, the canonical program `A036098.P16820759973379616246` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036098 has offset 0).
+The programs for A036098, the canonical program `A036098.P16820759973379616246` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036098 has offset 0).
 
 The definition of A036098 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^20+n^20` (program `A036098.P16820759973379616246`, by `A036098.P16820759973379616246.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10893,7 +10901,7 @@ The definition of A036098 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^20+n^20`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036098
@@ -10911,7 +10919,7 @@ end A036098
 /-!
 # A036099: Centered cube numbers: (n+1)^21 + n^21.
 
-The programs for A036099, the canonical program `A036099.P7054077074225571692` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036099 has offset 0).
+The programs for A036099, the canonical program `A036099.P7054077074225571692` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036099 has offset 0).
 
 The definition of A036099 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^21+n^21` (program `A036099.P7054077074225571692`, by `A036099.P7054077074225571692.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10920,7 +10928,7 @@ The definition of A036099 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^21+n^21`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036099

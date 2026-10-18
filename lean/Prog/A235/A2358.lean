@@ -4,12 +4,12 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -29,16 +29,15 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -46,19 +45,23 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +91,7 @@ set_option linter.unreachableTactic false
 /-!
 # A235800: Length of n-th vertical line segment from left to right in a diagram of a two-dimensional version of the 3x+1 (or Collatz) problem.
 
-The programs for A235800, the canonical program `A235800.P7194715415041466143` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235800 has offset 1).
+The programs for A235800, the canonical program `A235800.P7194715415041466143` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235800 has offset 1).
 
 The definition of A235800 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -97,7 +100,7 @@ The definition of A235800 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)-a(n-4)` with `a(0)=3, a(1)=1, a(2)=7, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A235800
@@ -109,6 +112,29 @@ def P7194715415041466143.Spec : Prop :=
 theorem P7194715415041466143.correct : P7194715415041466143.Spec := by
   intro n
   simp only [A235800, Nat.add_sub_cancel]
+
+end A235800
+
+/-! ## A235800.P10955054564173388005
+
+`A006370(n+1)-A193356(n+1)`
+-/
+
+namespace A235800.P10955054564173388005
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006370 (n + 1) - A193356 (n + 1)
+
+end
+
+end A235800.P10955054564173388005
+
+namespace A235800
+
+/-- `A006370(n+1)-A193356(n+1)` -/
+def P10955054564173388005.Spec : Prop :=
+  ∀ n, P10955054564173388005.a n = A235800 (n + 1)
 
 end A235800
 
@@ -498,29 +524,6 @@ namespace A235800
 /-- `lcm(2, A059029(n+1))/2` -/
 def P10961354113230975493.Spec : Prop :=
   ∀ n, P10961354113230975493.a n = (A235800 (n + 1) : ℚ)
-
-end A235800
-
-/-! ## A235800.P10125560805424445483
-
-`xor(n+1, A395535(n+1))`
--/
-
-namespace A235800.P10125560805424445483
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (n + 1 : ℤ) (A395535 (n + 1))
-
-end
-
-end A235800.P10125560805424445483
-
-namespace A235800
-
-/-- `xor(n+1, A395535(n+1))` -/
-def P10125560805424445483.Spec : Prop :=
-  ∀ n, P10125560805424445483.a n = A235800 (n + 1)
 
 end A235800
 
@@ -5135,7 +5138,7 @@ end A235876.P8524882784728617141
 /-!
 # A235877: Number of (n+1) X (1+1) 0..2 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.
 
-The programs for A235877, the canonical program `A235877.P7341332797196613739` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235877 has offset 1).
+The programs for A235877, the canonical program `A235877.P7341332797196613739` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235877 has offset 1).
 
 The definition of A235877 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5144,7 +5147,7 @@ The definition of A235877 is `conjectured`: the Lean definition is a formula tha
 
 `3*(2^(n+2)+3^(n+1))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A235877
@@ -5203,6 +5206,24 @@ namespace A235877
 def P12477193279639672965.Spec : Prop :=
   ∀ n, P12477193279639672965.a n = A235877 (n + 1)
 
+theorem P12477193279639672965.correct : P12477193279639672965.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A235877, Nat.add_sub_cancel, A235877.P12477193279639672965.a, A235877.P7341332797196613739.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A235877, Nat.add_sub_cancel, A235877.P12477193279639672965.a, A235877.P7341332797196613739.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [h1, h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A235877
 
 /-! ## A235877.P204328209535885718
@@ -5225,6 +5246,23 @@ namespace A235877
 /-- `a(n-1)+a(n-1)+3^(n+1)` -/
 def P204328209535885718.Spec : Prop :=
   ∀ n, (P204328209535885718.a n : ℤ) = A235877 (n + 1)
+
+theorem P204328209535885718.correct : P204328209535885718.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A235877, Nat.add_sub_cancel, A235877.P204328209535885718.a, A235877.P7341332797196613739.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A235877, Nat.add_sub_cancel, A235877.P204328209535885718.a, A235877.P7341332797196613739.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A235877
 
@@ -5915,7 +5953,7 @@ end A235879
 /-!
 # A235880: Number of (n+1) X (4+1) 0..2 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.
 
-The programs for A235880, the canonical program `A235880.P6781547381356560178` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235880 has offset 1).
+The programs for A235880, the canonical program `A235880.P6781547381356560178` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235880 has offset 1).
 
 The definition of A235880 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5924,7 +5962,7 @@ The definition of A235880 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-1)-11*a(n-2)+6*a(n-3)` with `a(0)=339, a(1)=537, a(2)=951`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A235880
@@ -6379,7 +6417,7 @@ end A235885.P15042830012374125612
 /-!
 # A235886: Number of (n+1) X (1+1) 0..3 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.
 
-The programs for A235886, the canonical program `A235886.P4859547725472708315` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235886 has offset 1).
+The programs for A235886, the canonical program `A235886.P4859547725472708315` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235886 has offset 1).
 
 The definition of A235886 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6388,7 +6426,7 @@ The definition of A235886 is `conjectured`: the Lean definition is a formula tha
 
 `(∑[2^(n+1)]+5)²-9`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A235886
@@ -6734,27 +6772,50 @@ end A235886
 /-!
 # A235887: Number of (n+1) X (2+1) 0..3 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.
 
-The programs for A235887, the canonical program `A235887.P16124909060824276538` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235887 has offset 1).
+The programs for A235887, the canonical program `A235887.P11209633854163169584` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235887 has offset 1).
 
-The definition of A235887 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A235887 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A235887.P11209633854163169584
+
+`4*(6+9*2^(n+1)+4^(n+1))`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A235887
+
+/-- `4*(6+9*2^(n+1)+4^(n+1))` -/
+def P11209633854163169584.Spec : Prop :=
+  ∀ n, (P11209633854163169584.a n : ℤ) = A235887 (n + 1)
+
+theorem P11209633854163169584.correct : P11209633854163169584.Spec := by
+  intro n
+  simp only [A235887, Nat.add_sub_cancel]
+
+end A235887
 
 /-! ## A235887.P16124909060824276538
 
 `A159741(n+1)*A168614(n)+64`
-
-The canonical program, it is in `Seq.B001.C007`.
 -/
+
+namespace A235887.P16124909060824276538
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A159741 (n + 1) * A168614 n + 64
+
+end
+
+end A235887.P16124909060824276538
 
 namespace A235887
 
 /-- `A159741(n+1)*A168614(n)+64` -/
 def P16124909060824276538.Spec : Prop :=
   ∀ n, P16124909060824276538.a n = A235887 (n + 1)
-
-theorem P16124909060824276538.correct : P16124909060824276538.Spec := by
-  intro n
-  simp only [A235887, Nat.add_sub_cancel]
 
 end A235887
 
@@ -6871,13 +6932,53 @@ namespace A235887
 def P4083849811821324709.Spec : Prop :=
   ∀ n, P4083849811821324709.a n = A235887 (n + 1)
 
+theorem P4083849811821324709.correct : P4083849811821324709.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A235887, Nat.add_sub_cancel, A235887.P4083849811821324709.a, A235887.P11209633854163169584.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A235887, Nat.add_sub_cancel, A235887.P4083849811821324709.a, A235887.P11209633854163169584.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [h1, h2, h3]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A235887
 
 /-!
 # A235888: Number of (n+1) X (3+1) 0..3 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.
 
-The programs for A235888, there is no canonical definition to state claims against.
+The programs for A235888, the canonical program `A235888.P12398577903563282519` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235888 has offset 1).
+
+The definition of A235888 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A235888.P12398577903563282519
+
+`4*(42+21*2^(n+1)+4^(n+1))`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A235888
+
+/-- `4*(42+21*2^(n+1)+4^(n+1))` -/
+def P12398577903563282519.Spec : Prop :=
+  ∀ n, (P12398577903563282519.a n : ℤ) = A235888 (n + 1)
+
+theorem P12398577903563282519.correct : P12398577903563282519.Spec := by
+  intro n
+  simp only [A235888, Nat.add_sub_cancel]
+
+end A235888
 
 /-! ## A235888.P17171216954040369703
 
@@ -6897,6 +6998,14 @@ end
 
 end A235888.P17171216954040369703
 
+namespace A235888
+
+/-- `A235893(∑[n+2]+4)` -/
+def P17171216954040369703.Spec : Prop :=
+  ∀ n, P17171216954040369703.a n = A235888 (n + 1)
+
+end A235888
+
 /-! ## A235888.P6990427359429532307
 
 `record[A235893(A008795(n)+3)]`
@@ -6915,6 +7024,14 @@ end
 
 end A235888.P6990427359429532307
 
+namespace A235888
+
+/-- `record[A235893(A008795(n)+3)]` -/
+def P6990427359429532307.Spec : Prop :=
+  ∀ n, P6990427359429532307.a n = A235888 (n + 1)
+
+end A235888
+
 /-! ## A235888.P2915658241870363459
 
 `lcm(2, A235893(A167614(n+1)))`
@@ -6929,6 +7046,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A235888.P2915658241870363459
+
+namespace A235888
+
+/-- `lcm(2, A235893(A167614(n+1)))` -/
+def P2915658241870363459.Spec : Prop :=
+  ∀ n, (P2915658241870363459.a n : ℤ) = A235888 (n + 1)
+
+end A235888
 
 /-! ## A235888.P10286794556829375652
 
@@ -6945,26 +7070,40 @@ end
 
 end A235888.P10286794556829375652
 
-/-! ## A235888.P9396751654571555628
+namespace A235888
 
-`A235893(A167614(n+1))%A235889(n+1)`
--/
+/-- `A235893(A167614(n+1))^A010689(2*n)` -/
+def P10286794556829375652.Spec : Prop :=
+  ∀ n, P10286794556829375652.a n = (A235888 (n + 1) : ℚ)
 
-namespace A235888.P9396751654571555628
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A235893 (A167614 (n + 1)).toNat) (A235889 (n + 1))
-
-end
-
-end A235888.P9396751654571555628
+end A235888
 
 /-!
 # A235889: Number of (n+1) X (4+1) 0..3 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.
 
-The programs for A235889, there is no canonical definition to state claims against.
+The programs for A235889, the canonical program `A235889.P5700847630838846843` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235889 has offset 1).
+
+The definition of A235889 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A235889.P5700847630838846843
+
+`4*(210+45*2^(n+1)+4^(n+1))`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A235889
+
+/-- `4*(210+45*2^(n+1)+4^(n+1))` -/
+def P5700847630838846843.Spec : Prop :=
+  ∀ n, (P5700847630838846843.a n : ℤ) = A235889 (n + 1)
+
+theorem P5700847630838846843.correct : P5700847630838846843.Spec := by
+  intro n
+  simp only [A235889, Nat.add_sub_cancel]
+
+end A235889
 
 /-! ## A235889.P116886086167319275
 
@@ -6984,6 +7123,14 @@ end
 
 end A235889.P116886086167319275
 
+namespace A235889
+
+/-- `A235893(∑[n+3]+7)` -/
+def P116886086167319275.Spec : Prop :=
+  ∀ n, P116886086167319275.a n = A235889 (n + 1)
+
+end A235889
+
 /-! ## A235889.P7289851734130777142
 
 `A235893(A052905(n)+9)/A053589(2*n+5)`
@@ -6998,6 +7145,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A235889.P7289851734130777142
+
+namespace A235889
+
+/-- `A235893(A052905(n)+9)/A053589(2*n+5)` -/
+def P7289851734130777142.Spec : Prop :=
+  ∀ n, P7289851734130777142.a n = (A235889 (n + 1) : ℚ)
+
+end A235889
 
 /-! ## A235889.P8202874563107642134
 
@@ -7014,11 +7169,40 @@ end
 
 end A235889.P8202874563107642134
 
+namespace A235889
+
+/-- `A235893(A055998(n+2))%A235850(n+4)` -/
+def P8202874563107642134.Spec : Prop :=
+  ∀ n, P8202874563107642134.a n = A235889 (n + 1)
+
+end A235889
+
 /-!
 # A235890: Number of (n+1) X (5+1) 0..3 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.
 
-The programs for A235890, there is no canonical definition to state claims against.
+The programs for A235890, the canonical program `A235890.P11797001980922089578` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235890 has offset 1).
+
+The definition of A235890 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A235890.P11797001980922089578
+
+`4*(930+93*2^(n+1)+4^(n+1))`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A235890
+
+/-- `4*(930+93*2^(n+1)+4^(n+1))` -/
+def P11797001980922089578.Spec : Prop :=
+  ∀ n, (P11797001980922089578.a n : ℤ) = A235890 (n + 1)
+
+theorem P11797001980922089578.correct : P11797001980922089578.Spec := by
+  intro n
+  simp only [A235890, Nat.add_sub_cancel]
+
+end A235890
 
 /-! ## A235890.P6807158059097450437
 
@@ -7035,6 +7219,14 @@ end
 
 end A235890.P6807158059097450437
 
+namespace A235890
+
+/-- `A235893(A374005(n+1))` -/
+def P6807158059097450437.Spec : Prop :=
+  ∀ n, P6807158059097450437.a n = A235890 (n + 1)
+
+end A235890
+
 /-! ## A235890.P2261785191744122402
 
 `A235893(A155212(n)+13)`
@@ -7050,6 +7242,14 @@ end
 
 end A235890.P2261785191744122402
 
+namespace A235890
+
+/-- `A235893(A155212(n)+13)` -/
+def P2261785191744122402.Spec : Prop :=
+  ∀ n, P2261785191744122402.a n = A235890 (n + 1)
+
+end A235890
+
 /-! ## A235890.P9070854268114101206
 
 `A235893(A056000(n)+15)`
@@ -7064,6 +7264,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A235890.P9070854268114101206
+
+namespace A235890
+
+/-- `A235893(A056000(n)+15)` -/
+def P9070854268114101206.Spec : Prop :=
+  ∀ n, P9070854268114101206.a n = A235890 (n + 1)
+
+end A235890
 
 /-! ## A235890.P6855936789553026686
 
@@ -7086,23 +7294,13 @@ end
 
 end A235890.P6855936789553026686
 
-/-! ## A235890.P5205953858461273471
+namespace A235890
 
-`A235893(∑[A020705(n)]+11)`
--/
+/-- `A235893(eq[7, A066657(n)])` -/
+def P6855936789553026686.Spec : Prop :=
+  ∀ n, P6855936789553026686.a n = A235890 (n + 1)
 
-namespace A235890.P5205953858461273471
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020705 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235893 (∑ j ∈ Finset.range (n + 1), f1 j + 11).toNat
-
-end
-
-end A235890.P5205953858461273471
+end A235890
 
 /-!
 # A235891: Number of (n+1) X (6+1) 0..3 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.

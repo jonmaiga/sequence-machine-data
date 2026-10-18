@@ -9,14 +9,14 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -26,16 +26,19 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -51,17 +54,18 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,23 +99,29 @@ set_option linter.unreachableTactic false
 /-!
 # A136702: Final nonzero digit of n! in base 16.
 
-The programs for A136702, there is no canonical definition to state claims against.
+The programs for A136702, the canonical program `A136702.P11278385412180144797` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136702 has offset 0).
+
+The definition of A136702 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 183 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A136702.P11278385412180144797
 
 `A248766(floor(sqrt(n²+1)))%16`
+
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
-namespace A136702.P11278385412180144797
-noncomputable section
+namespace A136702
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A248766 (Nat.sqrt (n ^ 2 + 1))) 16
+/-- `A248766(floor(sqrt(n²+1)))%16` -/
+def P11278385412180144797.Spec : Prop :=
+  ∀ n, P11278385412180144797.a n = A136702 n
 
-end
+theorem P11278385412180144797.correct : P11278385412180144797.Spec := by
+  intro n
+  simp only [A136702]
 
-end A136702.P11278385412180144797
+end A136702
 
 /-! ## A136702.P15247097688519643052
 
@@ -127,6 +137,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A136702.P15247097688519643052
+
+namespace A136702
+
+/-- `and(15, A248766(A028310(n)))` -/
+def P15247097688519643052.Spec : Prop :=
+  ∀ n, P15247097688519643052.a n = A136702 n
+
+end A136702
 
 /-!
 # A136703: Number of Lyndon words on {1,2,3} with an even number of 1's and an even number of 2's.
@@ -680,23 +698,48 @@ end A136718.P290775802051277986
 /-!
 # A136719: Number of labeled directed trees with n nodes.
 
-The programs for A136719, there is no canonical definition to state claims against.
+The programs for A136719, the canonical program `A136719.P1059163427161476346` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136719 has offset 1).
+
+The definition of A136719 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A136719.P1059163427161476346
 
 `3*(3*(n+1))^(n-1)`
+
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
-namespace A136719.P1059163427161476346
+namespace A136719
+
+/-- `3*(3*(n+1))^(n-1)` -/
+def P1059163427161476346.Spec : Prop :=
+  ∀ n, P1059163427161476346.a n = (A136719 (n + 1) : ℚ)
+
+end A136719
+
+/-! ## A136719.P219164382915672443
+
+`A052756(n+1)/(n+1)`
+-/
+
+namespace A136719.P219164382915672443
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  3 * (3 * (n + 1) : ℚ) ^ ((n : ℤ) - 1 : ℤ)
+  (A052756 (n + 1) : ℚ) / (n + 1 : ℚ)
 
 end
 
-end A136719.P1059163427161476346
+end A136719.P219164382915672443
+
+namespace A136719
+
+/-- `A052756(n+1)/(n+1)` -/
+def P219164382915672443.Spec : Prop :=
+  ∀ n, P219164382915672443.a n = (A136719 (n + 1) : ℚ)
+
+end A136719
 
 /-! ## A136719.P1352387508268330260
 
@@ -713,6 +756,14 @@ end
 
 end A136719.P1352387508268330260
 
+namespace A136719
+
+/-- `A000244(n)/(n+1)^A024000(n)` -/
+def P1352387508268330260.Spec : Prop :=
+  ∀ n, P1352387508268330260.a n = (A136719 (n + 1) : ℚ)
+
+end A136719
+
 /-! ## A136719.P13468529771827994779
 
 `lcm(3*(n+1), n+1)^n/(n+1)`
@@ -727,6 +778,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A136719.P13468529771827994779
+
+namespace A136719
+
+/-- `lcm(3*(n+1), n+1)^n/(n+1)` -/
+def P13468529771827994779.Spec : Prop :=
+  ∀ n, P13468529771827994779.a n = (A136719 (n + 1) : ℚ)
+
+end A136719
 
 /-! ## A136719.P15445861755282915275
 
@@ -743,20 +802,13 @@ end
 
 end A136719.P15445861755282915275
 
-/-! ## A136719.P219164382915672443
+namespace A136719
 
-`A052756(n+1)/(n+1)`
--/
+/-- `A038062(n+1)/3` -/
+def P15445861755282915275.Spec : Prop :=
+  ∀ n, P15445861755282915275.a n = (A136719 (n + 1) : ℚ)
 
-namespace A136719.P219164382915672443
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A052756 (n + 1) : ℚ) / (n + 1 : ℚ)
-
-end
-
-end A136719.P219164382915672443
+end A136719
 
 /-!
 # A136720: Prime quadruples: 2nd term.
@@ -1692,7 +1744,7 @@ end A136723.P11786940072106616623
 /-!
 # A136724: Numbers divisible by 4 that are not powers of 2.
 
-The programs for A136724, the canonical program `A136724.P16450411899371355320` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136724 has offset 1).
+The programs for A136724, the canonical program `A136724.P16450411899371355320` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136724 has offset 1).
 
 The definition of A136724 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1728,7 +1780,7 @@ end A136724
 
 `4*lt[and(n, -n), n]`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136724
@@ -5322,7 +5374,7 @@ end A136774
 /-!
 # A136775: Number of multiplex juggling sequences of length n, base state and hand capacity 2.
 
-The programs for A136775, the canonical program `A136775.P1216090559687480111` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136775 has offset 1).
+The programs for A136775, the canonical program `A136775.P1216090559687480111` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136775 has offset 1).
 
 The definition of A136775 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5331,7 +5383,7 @@ The definition of A136775 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-5*a(n-2)` with `a(0)=1, a(1)=3, a(2)=11`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136775
@@ -5660,7 +5712,7 @@ end A136775
 /-!
 # A136776: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 2.
 
-The programs for A136776, the canonical program `A136776.P984565126646447848` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136776 has offset 1).
+The programs for A136776, the canonical program `A136776.P984565126646447848` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136776 has offset 1).
 
 The definition of A136776 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5669,7 +5721,7 @@ The definition of A136776 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-3*a(n-2)-a(n-3)` with `a(0)=1, a(1)=2, a(2)=6`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136776
@@ -5906,7 +5958,7 @@ end A136776
 /-!
 # A136777: Number of multiplex juggling sequences of length n, base state and hand capacity 2.
 
-The programs for A136777, the canonical program `A136777.P4156242041862846096` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136777 has offset 1).
+The programs for A136777, the canonical program `A136777.P4156242041862846096` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136777 has offset 1).
 
 The definition of A136777 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5915,7 +5967,7 @@ The definition of A136777 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-13*a(n-2)` with `a(0)=1, a(1)=4, a(2)=22`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136777
@@ -5933,7 +5985,7 @@ end A136777
 /-!
 # A136778: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 2.
 
-The programs for A136778, the canonical program `A136778.P6204640341777275251` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136778 has offset 1).
+The programs for A136778, the canonical program `A136778.P6204640341777275251` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136778 has offset 1).
 
 The definition of A136778 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5942,7 +5994,7 @@ The definition of A136778 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*a(n-1)-9*a(n-2)-3*a(n-3)` with `a(0)=1, a(1)=3, a(2)=15`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136778
@@ -5960,7 +6012,7 @@ end A136778
 /-!
 # A136779: Number of multiplex juggling sequences of length n, base state and hand capacity 2.
 
-The programs for A136779, the canonical program `A136779.P13068966823199195913` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136779 has offset 1).
+The programs for A136779, the canonical program `A136779.P13068966823199195913` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136779 has offset 1).
 
 The definition of A136779 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5969,7 +6021,7 @@ The definition of A136779 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-13*a(n-2)` with `a(0)=1, a(1)=3, a(2)=18`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136779
@@ -6033,7 +6085,7 @@ end A136779
 /-!
 # A136780: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 2.
 
-The programs for A136780, the canonical program `A136780.P11237905581207468351` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136780 has offset 1).
+The programs for A136780, the canonical program `A136780.P11237905581207468351` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136780 has offset 1).
 
 The definition of A136780 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6042,7 +6094,7 @@ The definition of A136780 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*a(n-1)-8*a(n-2)-7*a(n-3)` with `a(0)=1, a(1)=2, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136780
@@ -6060,7 +6112,7 @@ end A136780
 /-!
 # A136781: Number of multiplex juggling sequences of length n, base state and hand capacity 2.
 
-The programs for A136781, the canonical program `A136781.P17229268344111475744` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136781 has offset 1).
+The programs for A136781, the canonical program `A136781.P17229268344111475744` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136781 has offset 1).
 
 The definition of A136781 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6069,7 +6121,7 @@ The definition of A136781 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `14*a(n-1)-54*a(n-2)+57*a(n-3)` with `a(0)=1, a(1)=3, a(2)=21, a(3)=162`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136781
@@ -6087,7 +6139,7 @@ end A136781
 /-!
 # A136782: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 2.
 
-The programs for A136782, the canonical program `A136782.P6951865335218545512` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136782 has offset 1).
+The programs for A136782, the canonical program `A136782.P6951865335218545512` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136782 has offset 1).
 
 The definition of A136782 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6096,7 +6148,7 @@ The definition of A136782 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `13*a(n-1)-43*a(n-2)+24*a(n-3)+27*a(n-4)` with `a(0)=1, a(1)=2, a(2)=16, a(3)=119`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136782
@@ -6114,7 +6166,7 @@ end A136782
 /-!
 # A136783: Number of multiplex juggling sequences of length n, base state and hand capacity 3.
 
-The programs for A136783, the canonical program `A136783.P12716832717790608740` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136783 has offset 1).
+The programs for A136783, the canonical program `A136783.P12716832717790608740` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136783 has offset 1).
 
 The definition of A136783 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6123,7 +6175,7 @@ The definition of A136783 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-27*a(n-2)+20*a(n-3)` with `a(0)=1, a(1)=4, a(2)=20`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136783
@@ -6141,7 +6193,7 @@ end A136783
 /-!
 # A136784: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 3.
 
-The programs for A136784, the canonical program `A136784.P10864623646059846194` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136784 has offset 1).
+The programs for A136784, the canonical program `A136784.P10864623646059846194` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136784 has offset 1).
 
 The definition of A136784 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6150,7 +6202,7 @@ The definition of A136784 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*a(n-1)-21*a(n-2)+13*a(n-3)` with `a(0)=1, a(1)=3, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136784
@@ -6260,7 +6312,7 @@ end A136784
 /-!
 # A136785: Number of multiplex juggling sequences of length n, base state and hand capacity 3.
 
-The programs for A136785, the canonical program `A136785.P1633656810903922168` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136785 has offset 1).
+The programs for A136785, the canonical program `A136785.P1633656810903922168` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136785 has offset 1).
 
 The definition of A136785 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6269,7 +6321,7 @@ The definition of A136785 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-27*a(n-2)+20*a(n-3)` with `a(0)=1, a(1)=5, a(2)=30, a(3)=182`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136785
@@ -6287,7 +6339,7 @@ end A136785
 /-!
 # A136786: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 3.
 
-The programs for A136786, the canonical program `A136786.P18082061863873361448` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136786 has offset 1).
+The programs for A136786, the canonical program `A136786.P18082061863873361448` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136786 has offset 1).
 
 The definition of A136786 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6296,7 +6348,7 @@ The definition of A136786 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*a(n-1)-22*a(n-2)+13*a(n-3)+3*a(n-4)` with `a(0)=1, a(1)=4, a(2)=21, a(3)=111`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136786
@@ -6598,6 +6650,21 @@ end A136792.P15324072405390243726
 The programs for A136793, there is no canonical definition to state claims against.
 -/
 
+/-! ## A136793.P1577466232745648617
+
+`A052763(n+1)*4`
+-/
+
+namespace A136793.P1577466232745648617
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052763 (n + 1) * 4
+
+end
+
+end A136793.P1577466232745648617
+
 /-! ## A136793.P1463773024468236103
 
 `A136794(n+1)*2`
@@ -6612,21 +6679,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A136793.P1463773024468236103
-
-/-! ## A136793.P11999431425425056595
-
-`4*A052763(n+1)`
--/
-
-namespace A136793.P11999431425425056595
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A052763 (n + 1)
-
-end
-
-end A136793.P11999431425425056595
 
 /-! ## A136793.P530011636789629518
 
@@ -6691,6 +6743,21 @@ end A136793.P13449064532069772550
 The programs for A136794, there is no canonical definition to state claims against.
 -/
 
+/-! ## A136794.P16183563750477447452
+
+`A052763(n+1)*2`
+-/
+
+namespace A136794.P16183563750477447452
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052763 (n + 1) * 2
+
+end
+
+end A136794.P16183563750477447452
+
 /-! ## A136794.P6074268189749192036
 
 `A136793(n+1)/2`
@@ -6705,21 +6772,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A136794.P6074268189749192036
-
-/-! ## A136794.P15519265376466370520
-
-`2*A052763(n+1)`
--/
-
-namespace A136794.P15519265376466370520
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A052763 (n + 1)
-
-end
-
-end A136794.P15519265376466370520
 
 /-! ## A136794.P140706060804073704
 
@@ -6802,23 +6854,25 @@ end A136795.P15582421382239152366
 /-!
 # A136796: Number of labeled marked rooted trees with n nodes.
 
-The programs for A136796, there is no canonical definition to state claims against.
+The programs for A136796, the canonical program `A136796.P6124558615155368082` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136796 has offset 1).
+
+The definition of A136796 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A136796.P17450250067555419795
+/-! ## A136796.P6124558615155368082
 
-`2*(4*(n+1))^n`
+`2^(2*(n+1)-1)*(n+1)^n`
+
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
-namespace A136796.P17450250067555419795
-noncomputable section
+namespace A136796
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * (4 * (n + 1)) ^ n
+/-- `2^(2*(n+1)-1)*(n+1)^n` -/
+def P6124558615155368082.Spec : Prop :=
+  ∀ n, P6124558615155368082.a n = (A136796 (n + 1) : ℚ)
 
-end
-
-end A136796.P17450250067555419795
+end A136796
 
 /-! ## A136796.P11070238915764030735
 
@@ -6838,6 +6892,14 @@ end
 
 end A136796.P11070238915764030735
 
+namespace A136796
+
+/-- `A152556(Δ[n²])` -/
+def P11070238915764030735.Spec : Prop :=
+  ∀ n, P11070238915764030735.a n = A136796 (n + 1)
+
+end A136796
+
 /-! ## A136796.P8940953316703343175
 
 `lcm(2, A152556(2*n+1))`
@@ -6852,6 +6914,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A136796.P8940953316703343175
+
+namespace A136796
+
+/-- `lcm(2, A152556(2*n+1))` -/
+def P8940953316703343175.Spec : Prop :=
+  ∀ n, (P8940953316703343175.a n : ℤ) = A136796 (n + 1)
+
+end A136796
 
 /-! ## A136796.P15733945602868579433
 
@@ -6871,6 +6941,14 @@ end
 
 end A136796.P15733945602868579433
 
+namespace A136796
+
+/-- `abs(2*Δ[A046092(n)]^n)` -/
+def P15733945602868579433.Spec : Prop :=
+  ∀ n, P15733945602868579433.a n = A136796 (n + 1)
+
+end A136796
+
 /-! ## A136796.P1142479276655848524
 
 `A003308(2*(n+1))/A000169(n+1)`
@@ -6886,26 +6964,36 @@ end
 
 end A136796.P1142479276655848524
 
+namespace A136796
+
+/-- `A003308(2*(n+1))/A000169(n+1)` -/
+def P1142479276655848524.Spec : Prop :=
+  ∀ n, P1142479276655848524.a n = (A136796 (n + 1) : ℚ)
+
+end A136796
+
 /-!
 # A136797: Number of labeled marked trees with n nodes.
 
-The programs for A136797, there is no canonical definition to state claims against.
+The programs for A136797, the canonical program `A136797.P1384484390863826464` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136797 has offset 1).
+
+The definition of A136797 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A136797.P14032159896681656078
+/-! ## A136797.P1384484390863826464
 
-`8*(4*(n+1))^(n-1)`
+`2^(2*(n+1)-1)*(n+1)^(n-1)`
+
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
-namespace A136797.P14032159896681656078
-noncomputable section
+namespace A136797
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  8 * (4 * (n + 1) : ℚ) ^ ((n : ℤ) - 1 : ℤ)
+/-- `2^(2*(n+1)-1)*(n+1)^(n-1)` -/
+def P1384484390863826464.Spec : Prop :=
+  ∀ n, P1384484390863826464.a n = (A136797 (n + 1) : ℚ)
 
-end
-
-end A136797.P14032159896681656078
+end A136797
 
 /-! ## A136797.P5360344458215210386
 
@@ -6922,6 +7010,14 @@ end
 
 end A136797.P5360344458215210386
 
+namespace A136797
+
+/-- `A136796(n+1)/(n+1)` -/
+def P5360344458215210386.Spec : Prop :=
+  ∀ n, P5360344458215210386.a n = (A136797 (n + 1) : ℚ)
+
+end A136797
+
 /-! ## A136797.P3894787202557495235
 
 `A152556(2*n+1)/(n+1)`
@@ -6936,6 +7032,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A136797.P3894787202557495235
+
+namespace A136797
+
+/-- `A152556(2*n+1)/(n+1)` -/
+def P3894787202557495235.Spec : Prop :=
+  ∀ n, P3894787202557495235.a n = (A136797 (n + 1) : ℚ)
+
+end A136797
 
 /-! ## A136797.P8302237536293611104
 
@@ -6955,6 +7059,14 @@ end
 
 end A136797.P8302237536293611104
 
+namespace A136797
+
+/-- `record[A136796(A286378(n))/A286378(n)]` -/
+def P8302237536293611104.Spec : Prop :=
+  ∀ n, P8302237536293611104.a n = (A136797 (n + 1) : ℚ)
+
+end A136797
+
 /-! ## A136797.P11128789851332920612
 
 `(A091483(n+1)+A091483(n+1))/A016742(n+1)`
@@ -6969,6 +7081,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A136797.P11128789851332920612
+
+namespace A136797
+
+/-- `(A091483(n+1)+A091483(n+1))/A016742(n+1)` -/
+def P11128789851332920612.Spec : Prop :=
+  ∀ n, P11128789851332920612.a n = (A136797 (n + 1) : ℚ)
+
+end A136797
 
 /-!
 # A136798: First term in a sequence of at least 3 consecutive composite integers.
@@ -7464,7 +7584,7 @@ end A136798
 /-!
 # A136799: Last term in a sequence of at least 3 consecutive composite integers.
 
-The programs for A136799, the canonical program `A136799.P12211769734399561323` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136799 has offset 1).
+The programs for A136799, the canonical program `A136799.P12211769734399561323` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136799 has offset 1).
 
 The definition of A136799 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A025584, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7473,7 +7593,7 @@ The definition of A136799 is `conditional`: the Lean definition is an OEIS formu
 
 `A025584(n+3)-1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A136799

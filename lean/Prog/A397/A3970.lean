@@ -2,37 +2,41 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B009.C000
+import Seq.B009.C001
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -47,14 +51,15 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A397014: Decimal expansion of 1 - e^(-1/e).
@@ -83,20 +88,20 @@ end A397014.P5442163877861772140
 The programs for A397023, there is no canonical definition to state claims against.
 -/
 
-/-! ## A397023.P4634364020475929401
+/-! ## A397023.P2291220485542920229
 
-`A002265(A005810(n))`
+`A390620(n+1)-A000105(n+1)`
 -/
 
-namespace A397023.P4634364020475929401
+namespace A397023.P2291220485542920229
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002265 (A005810 n).toNat
+  A390620 (n + 1) - A000105 (n + 1)
 
 end
 
-end A397023.P4634364020475929401
+end A397023.P2291220485542920229
 
 /-!
 # A397024: a(n) is the sum of gcd(k,n) over all numbers k obtained by changing any subset of the 1-bits of n to 0-bits in its binary representation.
@@ -1053,8 +1058,29 @@ end A397062.P14335874575352464983
 /-!
 # A397063: a(n) is the smallest integer exceeding 2*Pi*sqrt(n*(n+1)*(2*n+1)/6).
 
-The programs for A397063, there is no canonical definition to state claims against.
+The programs for A397063, the canonical program `A397063.P9075350849439926803` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397063 has offset 1).
+
+The definition of A397063 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A397063.P9075350849439926803
+
+`ceil(2*π*sqrt((n+1)*(n+2)*(2*(n+1)+1)/6))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A397063
+
+/-- `ceil(2*π*sqrt((n+1)*(n+2)*(2*(n+1)+1)/6))` -/
+def P9075350849439926803.Spec : Prop :=
+  ∀ n, P9075350849439926803.a n = A397063 (n + 1)
+
+theorem P9075350849439926803.correct : P9075350849439926803.Spec := by
+  intro n
+  simp only [A397063, Nat.add_sub_cancel]
+
+end A397063
 
 /-! ## A397063.P15368979494530838395
 
@@ -1074,6 +1100,14 @@ end
 
 end A397063.P15368979494530838395
 
+namespace A397063
+
+/-- `A121855(∑[(2*(n+1))²])` -/
+def P15368979494530838395.Spec : Prop :=
+  ∀ n, P15368979494530838395.a n = A397063 (n + 1)
+
+end A397063
+
 /-! ## A397063.P9592099952394511962
 
 `A188429(A095265(n+2))`
@@ -1088,6 +1122,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397063.P9592099952394511962
+
+namespace A397063
+
+/-- `A188429(A095265(n+2))` -/
+def P9592099952394511962.Spec : Prop :=
+  ∀ n, P9592099952394511962.a n = A397063 (n + 1)
+
+end A397063
 
 /-!
 # A397064: G.f. A(x) satisfies (1-2*x)*A(x) + A(x^3) = x.
@@ -1348,7 +1390,7 @@ end A397069.P5035261000085319068
 /-!
 # A397071: Number of true statements (x op y) = z, where 0 <= x, y, z <= n, op is in {+,-,*,/}.
 
-The programs for A397071, the canonical program `A397071.P1842801038344067177` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397071 has offset 0).
+The programs for A397071, the canonical program `A397071.P1842801038344067177` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397071 has offset 0).
 
 The definition of A397071 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006218, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1357,7 +1399,7 @@ The definition of A397071 is `conditional`: the Lean definition is an OEIS formu
 
 `n²+6*n+3+2*A006218(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A397071

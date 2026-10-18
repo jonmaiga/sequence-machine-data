@@ -1,6 +1,8 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -15,15 +17,16 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C020
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,23 +39,29 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A369502: Expansion of (1/x) * Series_Reversion( x / ((1+x)^2+x)^2 ).
@@ -1770,6 +1783,56 @@ end
 end A369561.P5280205277178810920
 
 /-!
+# A369562: Smallest positive n-digit number divisible by 7.
+
+The programs for A369562, the canonical program `A369562.P15532580360654320562` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369562 has offset 1).
+
+The definition of A369562 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A369562.P15532580360654320562
+
+`(floor(10^n/7)+1)*7`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A369562
+
+/-- `(floor(10^n/7)+1)*7` -/
+def P15532580360654320562.Spec : Prop :=
+  ∀ n, P15532580360654320562.a n = A369562 (n + 1)
+
+theorem P15532580360654320562.correct : P15532580360654320562.Spec := by
+  intro n
+  simp only [A369562, Nat.add_sub_cancel]
+
+end A369562
+
+/-! ## A369562.P2520537405992850376
+
+`10^n+A033940(n+3)`
+-/
+
+namespace A369562.P2520537405992850376
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (10 ^ n : ℤ) + A033940 (n + 3)
+
+end
+
+end A369562.P2520537405992850376
+
+namespace A369562
+
+/-- `10^n+A033940(n+3)` -/
+def P2520537405992850376.Spec : Prop :=
+  ∀ n, P2520537405992850376.a n = A369562 (n + 1)
+
+end A369562
+
+/-!
 # A369563: Powerful numbers whose prime factors are all of the form 4*k + 1.
 
 The programs for A369563, there is no canonical definition to state claims against.
@@ -2598,7 +2661,9 @@ end A369568
 /-!
 # A369569: a(n) = (n-1)! * n^n.
 
-The programs for A369569, there is no canonical definition to state claims against.
+The programs for A369569, the canonical program `A369569.P15997992594557479549` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369569 has offset 1).
+
+The definition of A369569 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!*(n+1)^(n+1)` (program `A369569.P15997992594557479549`, by `A369569.P15997992594557479549.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A369569.P4230996017978903587
@@ -2615,6 +2680,39 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A369569.P4230996017978903587
+
+namespace A369569
+
+/-- `(n+1)^(n+1)*n!` -/
+def P4230996017978903587.Spec : Prop :=
+  ∀ n, (P4230996017978903587.a n : ℤ) = A369569 (n + 1)
+
+theorem P4230996017978903587.correct : P4230996017978903587.Spec := by
+  intro n
+  simp only [A369569, Nat.add_sub_cancel, A369569.P4230996017978903587.a, A369569.P15997992594557479549.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A369569
+
+/-! ## A369569.P15997992594557479549
+
+`n!*(n+1)^(n+1)`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A369569
+
+/-- `n!*(n+1)^(n+1)` -/
+def P15997992594557479549.Spec : Prop :=
+  ∀ n, (P15997992594557479549.a n : ℤ) = A369569 (n + 1)
+
+theorem P15997992594557479549.correct : P15997992594557479549.Spec := by
+  intro n
+  simp only [A369569, Nat.add_sub_cancel]
+
+end A369569
 
 /-! ## A369569.P4755290169877662650
 
@@ -2634,6 +2732,20 @@ end
 
 end A369569.P4755290169877662650
 
+namespace A369569
+
+/-- `(n+1)^n*∏[n+1]` -/
+def P4755290169877662650.Spec : Prop :=
+  ∀ n, (P4755290169877662650.a n : ℤ) = A369569 (n + 1)
+
+theorem P4755290169877662650.correct : P4755290169877662650.Spec := by
+  intro n
+  simp only [A369569, Nat.add_sub_cancel, A369569.P4755290169877662650.f1, A369569.P4755290169877662650.a, A369569.P15997992594557479549.a, SequenceMachineLib.memo_apply]
+  try norm_num [Nat.choose_two_right, Nat.factorial]
+  try ring_nf
+
+end A369569
+
 /-! ## A369569.P8883312525640316977
 
 `(n+1)!/(n+1)^-n`
@@ -2648,6 +2760,20 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A369569.P8883312525640316977
+
+namespace A369569
+
+/-- `(n+1)!/(n+1)^-n` -/
+def P8883312525640316977.Spec : Prop :=
+  ∀ n, P8883312525640316977.a n = (A369569 (n + 1) : ℚ)
+
+theorem P8883312525640316977.correct : P8883312525640316977.Spec := by
+  intro n
+  simp only [A369569, Nat.add_sub_cancel, A369569.P8883312525640316977.a, A369569.P15997992594557479549.a, SequenceMachineLib.memo_apply]
+  try norm_num [Nat.choose_two_right, Nat.factorial]
+  try ring_nf
+
+end A369569
 
 /-! ## A369569.P12826471834201180858
 
@@ -2667,20 +2793,13 @@ end
 
 end A369569.P12826471834201180858
 
-/-! ## A369569.P7800293541093553267
+namespace A369569
 
-`lcm(n+1, A231601(2*n+1))`
--/
+/-- `A231601(Δ[n²])` -/
+def P12826471834201180858.Spec : Prop :=
+  ∀ n, P12826471834201180858.a n = A369569 (n + 1)
 
-namespace A369569.P7800293541093553267
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (n + 1 : ℤ) (A231601 (2 * n + 1))
-
-end
-
-end A369569.P7800293541093553267
+end A369569
 
 /-!
 # A369570: Expansion of Product_{k>=1} (1 + x^(k^2)) * (1 + x^k).

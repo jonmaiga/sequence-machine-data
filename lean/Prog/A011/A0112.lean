@@ -3,37 +3,35 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
-import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
+import Seq.B000.C017
 import Seq.B000.C021
-import Seq.B000.C026
+import Seq.B000.C022
+import Seq.B000.C028
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -42,6 +40,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C016
@@ -430,7 +429,7 @@ end A011257.P15863612915736221470
 /-!
 # A011260: Number of primitive polynomials of degree n over GF(2).
 
-The programs for A011260, the canonical program `A011260.P16571897072566913412` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011260 has offset 1).
+The programs for A011260, the canonical program `A011260.P16571897072566913412` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011260 has offset 1).
 
 The definition of A011260 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -692,7 +691,7 @@ end A011260
 
 `A053287(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A011260
@@ -1319,21 +1318,6 @@ The programs for A011264, the canonical program `A011264.P11087742381931658999` 
 The definition of A011264 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, A356191, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A011264.P11087742381931658999
-
-`A356191(n+1)/A007913(n+1)`
-
-The canonical program, it is in `Seq.B004.C000`.
--/
-
-namespace A011264
-
-/-- `A356191(n+1)/A007913(n+1)` -/
-def P11087742381931658999.Spec : Prop :=
-  ∀ n, P11087742381931658999.a n = (A011264 (n + 1) : ℚ)
-
-end A011264
-
 /-! ## A011264.P12233860437058591143
 
 `(n+1)²/A011262(n+1)`
@@ -1354,6 +1338,44 @@ namespace A011264
 /-- `(n+1)²/A011262(n+1)` -/
 def P12233860437058591143.Spec : Prop :=
   ∀ n, P12233860437058591143.a n = (A011264 (n + 1) : ℚ)
+
+end A011264
+
+/-! ## A011264.P11087742381931658999
+
+`A356191(n+1)/A007913(n+1)`
+
+The canonical program, it is in `Seq.B004.C000`.
+-/
+
+namespace A011264
+
+/-- `A356191(n+1)/A007913(n+1)` -/
+def P11087742381931658999.Spec : Prop :=
+  ∀ n, P11087742381931658999.a n = (A011264 (n + 1) : ℚ)
+
+end A011264
+
+/-! ## A011264.P16366248841370934571
+
+`(n+1)*A336643(n+1)/A007913(n+1)`
+-/
+
+namespace A011264.P16366248841370934571
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1 : ℤ) * A336643 (n + 1) : ℚ) / (A007913 (n + 1) : ℚ)
+
+end
+
+end A011264.P16366248841370934571
+
+namespace A011264
+
+/-- `(n+1)*A336643(n+1)/A007913(n+1)` -/
+def P16366248841370934571.Spec : Prop :=
+  ∀ n, P16366248841370934571.a n = (A011264 (n + 1) : ℚ)
 
 end A011264
 
@@ -1748,29 +1770,6 @@ namespace A011264
 /-- `A000583(A000188(n+1))/A003557(n+1)` -/
 def P1212684401873776572.Spec : Prop :=
   ∀ n, P1212684401873776572.a n = (A011264 (n + 1) : ℚ)
-
-end A011264
-
-/-! ## A011264.P10357182662772667530
-
-`A000188(n+1)²*A000188(A066990(n+1))`
--/
-
-namespace A011264.P10357182662772667530
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (n + 1) ^ 2 * A000188 (A066990 (n + 1)).toNat
-
-end
-
-end A011264.P10357182662772667530
-
-namespace A011264
-
-/-- `A000188(n+1)²*A000188(A066990(n+1))` -/
-def P10357182662772667530.Spec : Prop :=
-  ∀ n, P10357182662772667530.a n = A011264 (n + 1)
 
 end A011264
 

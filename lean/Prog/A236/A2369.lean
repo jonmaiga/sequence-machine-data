@@ -14,20 +14,22 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,6 +37,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -44,21 +47,25 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,7 +91,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A236900: Number of (n+1)X(6+1) 0..2 arrays with the maximum plus the upper median of every 2X2 subblock equal.
@@ -9622,27 +9628,50 @@ end A236998.P2440081110999062773
 /-!
 # A236999: Odd part of n*(n+3)/2-1 (A034856).
 
-The programs for A236999, the canonical program `A236999.P8096146141074710051` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236999 has offset 1).
+The programs for A236999, the canonical program `A236999.P18015192940983009174` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236999 has offset 1).
 
-The definition of A236999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 447 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A236999 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A236999.P8096146141074710051
+/-! ## A236999.P18015192940983009174
 
-`A000265(A176126(n+2))`
+`A000265(A034856(n+1))`
 
 The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A236999
 
+/-- `A000265(A034856(n+1))` -/
+def P18015192940983009174.Spec : Prop :=
+  ∀ n, P18015192940983009174.a n = A236999 (n + 1)
+
+theorem P18015192940983009174.correct : P18015192940983009174.Spec := by
+  intro n
+  simp only [A236999, Nat.add_sub_cancel]
+
+end A236999
+
+/-! ## A236999.P8096146141074710051
+
+`A000265(A176126(n+2))`
+-/
+
+namespace A236999.P8096146141074710051
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000265 (A176126 (n + 2)).toNat
+
+end
+
+end A236999.P8096146141074710051
+
+namespace A236999
+
 /-- `A000265(A176126(n+2))` -/
 def P8096146141074710051.Spec : Prop :=
   ∀ n, P8096146141074710051.a n = A236999 (n + 1)
-
-theorem P8096146141074710051.correct : P8096146141074710051.Spec := by
-  intro n
-  simp only [A236999, Nat.add_sub_cancel]
 
 end A236999
 
@@ -9669,29 +9698,6 @@ namespace A236999
 /-- `A000265(∑[n+2]-1)` -/
 def P14533034052417905149.Spec : Prop :=
   ∀ n, P14533034052417905149.a n = A236999 (n + 1)
-
-end A236999
-
-/-! ## A236999.P2277471566647726562
-
-`or(1, A000265(A034856(n+1)))`
--/
-
-namespace A236999.P2277471566647726562
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A000265 (A034856 (n + 1)).toNat)
-
-end
-
-end A236999.P2277471566647726562
-
-namespace A236999
-
-/-- `or(1, A000265(A034856(n+1)))` -/
-def P2277471566647726562.Spec : Prop :=
-  ∀ n, P2277471566647726562.a n = A236999 (n + 1)
 
 end A236999
 
@@ -9764,81 +9770,6 @@ namespace A236999
 /-- `A000027(A000265(∑[n]+2*n+1))` -/
 def P10357406276418077578.Spec : Prop :=
   ∀ n, P10357406276418077578.a n = A236999 (n + 1)
-
-end A236999
-
-/-! ## A236999.P4360417441588147817
-
-`gcd(A000038(n), A000265(A034856(n+1)))`
--/
-
-namespace A236999.P4360417441588147817
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000038 n) (A000265 (A034856 (n + 1)).toNat)
-
-end
-
-end A236999.P4360417441588147817
-
-namespace A236999
-
-/-- `gcd(A000038(n), A000265(A034856(n+1)))` -/
-def P4360417441588147817.Spec : Prop :=
-  ∀ n, (P4360417441588147817.a n : ℤ) = A236999 (n + 1)
-
-end A236999
-
-/-! ## A236999.P549813840347697386
-
-`∑{d}[A000265(A034856(n+1)), A000010(#)]`
--/
-
-namespace A236999.P549813840347697386
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000265 (A034856 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A236999.P549813840347697386
-
-namespace A236999
-
-/-- `∑{d}[A000265(A034856(n+1)), A000010(#)]` -/
-def P549813840347697386.Spec : Prop :=
-  ∀ n, P549813840347697386.a n = A236999 (n + 1)
-
-end A236999
-
-/-! ## A236999.P10914433814890221505
-
-`A000265(A034856(n+1))%Δ[A008778(n)]`
--/
-
-namespace A236999.P10914433814890221505
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008778 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000265 (A034856 (n + 1)).toNat) (f1 (n + 1) - f1 n)
-
-end
-
-end A236999.P10914433814890221505
-
-namespace A236999
-
-/-- `A000265(A034856(n+1))%Δ[A008778(n)]` -/
-def P10914433814890221505.Spec : Prop :=
-  ∀ n, P10914433814890221505.a n = A236999 (n + 1)
 
 end A236999
 

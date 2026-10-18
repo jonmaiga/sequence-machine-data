@@ -2,20 +2,25 @@
   "oi": 58750,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "floor(exp(n+1)*log(n+1))",
+      "d": "2026-10-18",
+      "ix": "floor(log(n+1)*exp(n+1))",
       "mt": 228,
       "px": [
         "n",
         "1",
         "+",
-        "exp",
+        "log",
         "n",
         "1",
         "+",
-        "log",
+        "exp",
         "*",
         "floor"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

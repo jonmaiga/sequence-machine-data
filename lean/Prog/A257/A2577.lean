@@ -4,55 +4,57 @@ import Seq.B000.C001
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,11 +74,11 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A257703: Number of steps from n to 0 using this algorithm: x -> floor(e*x) if x is odd, and x -> floor(x/e) if x is even.
@@ -1212,21 +1214,6 @@ end A257725.P6082962624240005823
 The programs for A257727, there is no canonical definition to state claims against.
 -/
 
-/-! ## A257727.P18011583774095007966
-
-`A257725(A257801(n+1))`
--/
-
-namespace A257727.P18011583774095007966
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257725 (A257801 (n + 1)).toNat
-
-end
-
-end A257727.P18011583774095007966
-
 /-! ## A257727.P1189385769378852445
 
 `A246377(A257730(n+1))`
@@ -1241,6 +1228,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257727.P1189385769378852445
+
+/-! ## A257727.P18011583774095007966
+
+`A257725(A257801(n+1))`
+-/
+
+namespace A257727.P18011583774095007966
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257725 (A257801 (n + 1)).toNat
+
+end
+
+end A257727.P18011583774095007966
 
 /-! ## A257727.P12475095123263677663
 
@@ -1506,21 +1508,6 @@ end A257730.P13394086915486486024
 The programs for A257731, there is no canonical definition to state claims against.
 -/
 
-/-! ## A257731.P3394028810586539108
-
-`A257726(A246377(n+1))`
--/
-
-namespace A257731.P3394028810586539108
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257726 (A246377 (n + 1)).toNat
-
-end
-
-end A257731.P3394028810586539108
-
 /-! ## A257731.P1126409785001942125
 
 `A257733(A255421(n+1))`
@@ -1535,6 +1522,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257731.P1126409785001942125
+
+/-! ## A257731.P3394028810586539108
+
+`A257726(A246377(n+1))`
+-/
+
+namespace A257731.P3394028810586539108
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257726 (A246377 (n + 1)).toNat
+
+end
+
+end A257731.P3394028810586539108
 
 /-! ## A257731.P15520630122625120345
 
@@ -1587,21 +1589,6 @@ end A257731.P7529866611259988147
 The programs for A257732, there is no canonical definition to state claims against.
 -/
 
-/-! ## A257732.P7526589373470376410
-
-`A257730(A257802(n+1))`
--/
-
-namespace A257732.P7526589373470376410
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257730 (A257802 (n + 1)).toNat
-
-end
-
-end A257732.P7526589373470376410
-
 /-! ## A257732.P3135420475130674471
 
 `A255422(A257734(n+1))`
@@ -1631,6 +1618,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257732.P8138882953391354357
+
+/-! ## A257732.P7526589373470376410
+
+`A257730(A257802(n+1))`
+-/
+
+namespace A257732.P7526589373470376410
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257730 (A257802 (n + 1)).toNat
+
+end
+
+end A257732.P7526589373470376410
 
 /-! ## A257732.P16201316001209413222
 
@@ -1922,6 +1924,8 @@ The programs for A257736, there is no canonical definition to state claims again
 /-! ## A257736.P7103268394103494883
 
 `A257690(A257726(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A257736.P7103268394103494883
@@ -1988,6 +1992,8 @@ The programs for A257737, there is no canonical definition to state claims again
 /-! ## A257737.P1770672849165399610
 
 `A183089(A257725(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A257737.P1770672849165399610
@@ -3658,7 +3664,7 @@ end A257771.P3611763996504918438
 /-!
 # A257772: Numbers n>=0 such that (n+1)^3 - n^3 = 3*n^2+3*n+1 is not prime.
 
-The programs for A257772, the canonical program `A257772.P5607000634846873249` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257772 has offset 1).
+The programs for A257772, the canonical program `A257772.P5607000634846873249` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257772 has offset 1).
 
 The definition of A257772 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8036 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3748,7 +3754,7 @@ end A257772
 
 `eq[0, A063524(A350090(n))]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A257772
@@ -5089,7 +5095,7 @@ end A257791
 /-!
 # A257792: Expansion of 1/(1-x-x^2-x^3-x^5+x^8-x^9).
 
-The programs for A257792, the canonical program `A257792.P11404718073069697809` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257792 has offset 0).
+The programs for A257792, the canonical program `A257792.P11404718073069697809` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257792 has offset 0).
 
 The definition of A257792 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5098,7 +5104,7 @@ The definition of A257792 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+a(n-3)+a(n-5)-a(n-8)+a(n-9)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=4, a(4)=7, a(5)=14, a(6)=26, a(7)=49, a(8)=92`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A257792

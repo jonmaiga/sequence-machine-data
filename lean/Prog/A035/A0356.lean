@@ -3,14 +3,12 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -18,23 +16,26 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
@@ -50,13 +51,12 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -66,7 +66,9 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,6 +81,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -91,12 +94,11 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A035600: Number of points of L1 norm 6 in cubic lattice Z^n.
 
-The programs for A035600, the canonical program `A035600.P16790839402554441971` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035600 has offset 0).
+The programs for A035600, the canonical program `A035600.P16790839402554441971` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035600 has offset 0).
 
 The definition of A035600 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -105,7 +107,7 @@ The definition of A035600 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4*n^6+40*n^4+46*n²)/45`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A035600
@@ -384,7 +386,7 @@ end A035600
 /-!
 # A035601: Number of points of L1 norm 7 in cubic lattice Z^n.
 
-The programs for A035601, the canonical program `A035601.P1303867217452346543` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035601 has offset 0).
+The programs for A035601, the canonical program `A035601.P1303867217452346543` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035601 has offset 0).
 
 The definition of A035601 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -393,7 +395,7 @@ The definition of A035601 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8*n^7+140*n^5+392*n^3+90*n)/315`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A035601
@@ -698,7 +700,7 @@ end A035601
 /-!
 # A035602: Number of points of L1 norm 8 in cubic lattice Z^n.
 
-The programs for A035602, the canonical program `A035602.P15886527680312708843` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035602 has offset 0).
+The programs for A035602, the canonical program `A035602.P15886527680312708843` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035602 has offset 0).
 
 The definition of A035602 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -707,7 +709,7 @@ The definition of A035602 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*n²*(n^6+28*n^4+154*n²+132)/315`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A035602
@@ -1963,7 +1965,7 @@ end A035607.P16806028197552396134
 /-!
 # A035608: Expansion of g.f. x*(1 + 3*x)/((1 + x)*(1 - x)^3).
 
-The programs for A035608, the canonical program `A035608.P17262474454235609735` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035608 has offset 0).
+The programs for A035608, the canonical program `A035608.P17262474454235609735` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035608 has offset 0).
 
 The definition of A035608 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1972,7 +1974,7 @@ The definition of A035608 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1/4)²)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A035608
@@ -2825,7 +2827,7 @@ end A035611.P14591202323680050242
 /-!
 # A035612: Horizontal para-Fibonacci sequence: says which column of Wythoff array (starting column count at 1) contains n.
 
-The programs for A035612, the canonical program `A035612.P7106491847305260424` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035612 has offset 1).
+The programs for A035612, the canonical program `A035612.P7106491847305260424` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035612 has offset 1).
 
 The definition of A035612 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2857,7 +2859,7 @@ end A035612
 
 `val(A022340(n+1), 2)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A035612
@@ -3298,7 +3300,7 @@ end A035612
 /-!
 # A035614: Horizontal para-Fibonacci sequence: says which column of Wythoff array (starting column count at 0) contains n+1.
 
-The programs for A035614, the canonical program `A035614.P1531182426394583162` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035614 has offset 0).
+The programs for A035614, the canonical program `A035614.P1531182426394583162` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035614 has offset 0).
 
 The definition of A035614 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3356,7 +3358,7 @@ end A035614
 
 `A035612(n+1)-1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A035614

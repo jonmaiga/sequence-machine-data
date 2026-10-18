@@ -16,6 +16,9 @@
         "log",
         "^",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

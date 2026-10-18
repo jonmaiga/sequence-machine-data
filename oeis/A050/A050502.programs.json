@@ -15,6 +15,10 @@
         "log",
         "*",
         "ceil"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

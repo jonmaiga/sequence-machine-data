@@ -14,22 +14,24 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,29 +45,28 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,7 +93,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -663,6 +663,25 @@ namespace A097803
 def P9583913439138937200.Spec : Prop :=
   ∀ n, P9583913439138937200.a n = A097803 n
 
+theorem P9583913439138937200.correct : P9583913439138937200.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A097803, Nat.add_sub_cancel, A097803.P9583913439138937200.a, A097803.P14601754456533614847.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A097803, Nat.add_sub_cancel, A097803.P9583913439138937200.a, A097803.P14601754456533614847.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [h1, h2, h3]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A097803
 
 /-! ## A097803.P3090068866669622018
@@ -1094,6 +1113,24 @@ namespace A097804
 /-- `6*a(n-1)-5*a(n-2)` -/
 def P5255769439580229715.Spec : Prop :=
   ∀ n, P5255769439580229715.a n = A097804 n
+
+theorem P5255769439580229715.correct : P5255769439580229715.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A097804, Nat.add_sub_cancel, A097804.P5255769439580229715.a, A097804.P7234613398924251718.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A097804, Nat.add_sub_cancel, A097804.P5255769439580229715.a, A097804.P7234613398924251718.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [h1, h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A097804
 
@@ -3170,17 +3207,25 @@ end A097808
 /-!
 # A097809: a(n) = 5*2^n - 2*n - 4.
 
-The programs for A097809, the canonical program `A097809.P15211145022225779778` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097809 has offset 0).
+The programs for A097809, the canonical program `A097809.P16351375152789980644` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097809 has offset 0).
 
-The definition of A097809 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A097809 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*2^n-2*n-4` (program `A097809.P16351375152789980644`, by `A097809.P16351375152789980644.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A097809.P15211145022225779778
 
 `5*2^n-2*(n+2)`
-
-The canonical program, it is in `Seq.B000.C013`.
 -/
+
+namespace A097809.P15211145022225779778
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (5 * 2 ^ n : ℤ) - (2 * (n + 2) : ℤ)
+
+end
+
+end A097809.P15211145022225779778
 
 namespace A097809
 
@@ -3189,6 +3234,27 @@ def P15211145022225779778.Spec : Prop :=
   ∀ n, P15211145022225779778.a n = A097809 n
 
 theorem P15211145022225779778.correct : P15211145022225779778.Spec := by
+  intro n
+  simp only [A097809, Nat.add_sub_cancel, A097809.P15211145022225779778.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A097809
+
+/-! ## A097809.P16351375152789980644
+
+`5*2^n-2*n-4`
+
+The canonical program, it is in `Seq.B000.C013`.
+-/
+
+namespace A097809
+
+/-- `5*2^n-2*n-4` -/
+def P16351375152789980644.Spec : Prop :=
+  ∀ n, P16351375152789980644.a n = A097809 n
+
+theorem P16351375152789980644.correct : P16351375152789980644.Spec := by
   intro n
   simp only [A097809]
 
@@ -3215,6 +3281,23 @@ namespace A097809
 def P3278775701298244023.Spec : Prop :=
   ∀ n, (P3278775701298244023.a n : ℤ) = A097809 n
 
+theorem P3278775701298244023.correct : P3278775701298244023.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097809, Nat.add_sub_cancel, A097809.P3278775701298244023.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097809, Nat.add_sub_cancel, A097809.P3278775701298244023.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A097809
 
 /-! ## A097809.P11330302691164557251
@@ -3239,6 +3322,23 @@ namespace A097809
 /-- `2*(n-floor(-a(n-1)))` -/
 def P11330302691164557251.Spec : Prop :=
   ∀ n, P11330302691164557251.a n = A097809 n
+
+theorem P11330302691164557251.correct : P11330302691164557251.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097809, Nat.add_sub_cancel, A097809.P11330302691164557251.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097809, Nat.add_sub_cancel, A097809.P11330302691164557251.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A097809
 
@@ -3265,6 +3365,23 @@ namespace A097809
 def P12492153486710809977.Spec : Prop :=
   ∀ n, P12492153486710809977.a n = A097809 n
 
+theorem P12492153486710809977.correct : P12492153486710809977.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097809, Nat.add_sub_cancel, A097809.P12492153486710809977.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097809, Nat.add_sub_cancel, A097809.P12492153486710809977.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A097809
 
 /-! ## A097809.P1473542399918311649
@@ -3290,6 +3407,23 @@ namespace A097809
 def P1473542399918311649.Spec : Prop :=
   ∀ n, P1473542399918311649.a n = A097809 n
 
+theorem P1473542399918311649.correct : P1473542399918311649.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097809, Nat.add_sub_cancel, A097809.P1473542399918311649.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097809, Nat.add_sub_cancel, A097809.P1473542399918311649.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A097809
 
 /-! ## A097809.P1561398408947029495
@@ -3313,6 +3447,23 @@ namespace A097809
 def P1561398408947029495.Spec : Prop :=
   ∀ n, P1561398408947029495.a n = (A097809 n : ℚ)
 
+theorem P1561398408947029495.correct : P1561398408947029495.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097809, Nat.add_sub_cancel, A097809.P1561398408947029495.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097809, Nat.add_sub_cancel, A097809.P1561398408947029495.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A097809
 
 /-! ## A097809.P4065243133453790781
@@ -3335,6 +3486,23 @@ namespace A097809
 /-- `2*(2*n-(n-a(n-1)))` -/
 def P4065243133453790781.Spec : Prop :=
   ∀ n, P4065243133453790781.a n = A097809 n
+
+theorem P4065243133453790781.correct : P4065243133453790781.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097809, Nat.add_sub_cancel, A097809.P4065243133453790781.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097809, Nat.add_sub_cancel, A097809.P4065243133453790781.a, A097809.P16351375152789980644.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A097809
 
@@ -3987,17 +4155,25 @@ end A097812.P15304486840069246568
 /-!
 # A097813: a(n) = 3*2^n - 2*n - 2.
 
-The programs for A097813, the canonical program `A097813.P12445872994040230993` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097813 has offset 0).
+The programs for A097813, the canonical program `A097813.P9463148433829689973` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097813 has offset 0).
 
-The definition of A097813 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A097813 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*2^n-2*n-2` (program `A097813.P9463148433829689973`, by `A097813.P9463148433829689973.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A097813.P12445872994040230993
 
 `3*2^n-2*(n+1)`
-
-The canonical program, it is in `Seq.B000.C013`.
 -/
+
+namespace A097813.P12445872994040230993
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (3 * 2 ^ n : ℤ) - (2 * (n + 1) : ℤ)
+
+end
+
+end A097813.P12445872994040230993
 
 namespace A097813
 
@@ -4006,6 +4182,27 @@ def P12445872994040230993.Spec : Prop :=
   ∀ n, P12445872994040230993.a n = A097813 n
 
 theorem P12445872994040230993.correct : P12445872994040230993.Spec := by
+  intro n
+  simp only [A097813, Nat.add_sub_cancel, A097813.P12445872994040230993.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A097813
+
+/-! ## A097813.P9463148433829689973
+
+`3*2^n-2*n-2`
+
+The canonical program, it is in `Seq.B000.C013`.
+-/
+
+namespace A097813
+
+/-- `3*2^n-2*n-2` -/
+def P9463148433829689973.Spec : Prop :=
+  ∀ n, P9463148433829689973.a n = A097813 n
+
+theorem P9463148433829689973.correct : P9463148433829689973.Spec := by
   intro n
   simp only [A097813]
 
@@ -4087,6 +4284,23 @@ namespace A097813
 def P664082837777212512.Spec : Prop :=
   ∀ n, P664082837777212512.a n = A097813 n
 
+theorem P664082837777212512.correct : P664082837777212512.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097813, Nat.add_sub_cancel, A097813.P664082837777212512.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097813, Nat.add_sub_cancel, A097813.P664082837777212512.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A097813
 
 /-! ## A097813.P11260797054190755425
@@ -4109,6 +4323,23 @@ namespace A097813
 /-- `2*(n-(1-a(n-1)))` -/
 def P11260797054190755425.Spec : Prop :=
   ∀ n, P11260797054190755425.a n = A097813 n
+
+theorem P11260797054190755425.correct : P11260797054190755425.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097813, Nat.add_sub_cancel, A097813.P11260797054190755425.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097813, Nat.add_sub_cancel, A097813.P11260797054190755425.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A097813
 
@@ -4159,6 +4390,23 @@ namespace A097813
 def P12892096326456680216.Spec : Prop :=
   ∀ n, P12892096326456680216.a n = (A097813 n : ℚ)
 
+theorem P12892096326456680216.correct : P12892096326456680216.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097813, Nat.add_sub_cancel, A097813.P12892096326456680216.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097813, Nat.add_sub_cancel, A097813.P12892096326456680216.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A097813
 
 /-! ## A097813.P14310499083171917211
@@ -4181,6 +4429,23 @@ namespace A097813
 /-- `(1-a(n-1)-n)/(1/2-1)` -/
 def P14310499083171917211.Spec : Prop :=
   ∀ n, P14310499083171917211.a n = (A097813 n : ℚ)
+
+theorem P14310499083171917211.correct : P14310499083171917211.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097813, Nat.add_sub_cancel, A097813.P14310499083171917211.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097813, Nat.add_sub_cancel, A097813.P14310499083171917211.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A097813
 
@@ -4207,6 +4472,23 @@ namespace A097813
 def P4839896411340841560.Spec : Prop :=
   ∀ n, P4839896411340841560.a n = A097813 n
 
+theorem P4839896411340841560.correct : P4839896411340841560.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097813, Nat.add_sub_cancel, A097813.P4839896411340841560.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097813, Nat.add_sub_cancel, A097813.P4839896411340841560.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A097813
 
 /-! ## A097813.P12963412079636043661
@@ -4231,6 +4513,23 @@ namespace A097813
 /-- `floor(a(n-1)-(2-a(n-1)-n-n))` -/
 def P12963412079636043661.Spec : Prop :=
   ∀ n, P12963412079636043661.a n = A097813 n
+
+theorem P12963412079636043661.correct : P12963412079636043661.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A097813, Nat.add_sub_cancel, A097813.P12963412079636043661.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A097813, Nat.add_sub_cancel, A097813.P12963412079636043661.a, A097813.P9463148433829689973.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A097813
 
@@ -4393,32 +4692,6 @@ namespace A097813
 /-- `(A131066(n)+1+n)/2` -/
 def P837251784409624727.Spec : Prop :=
   ∀ n, P837251784409624727.a n = (A097813 n : ℚ)
-
-end A097813
-
-/-! ## A097813.P4175267549091898421
-
-`Δ[A007283(n)-A002378(n)]`
--/
-
-namespace A097813.P4175267549091898421
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007283 n - A002378 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A097813.P4175267549091898421
-
-namespace A097813
-
-/-- `Δ[A007283(n)-A002378(n)]` -/
-def P4175267549091898421.Spec : Prop :=
-  ∀ n, P4175267549091898421.a n = A097813 n
 
 end A097813
 
@@ -12501,25 +12774,25 @@ end A097877.P11571773636253032899
 /-!
 # A097882: a(n) = floor( n^2/prime(n) ).
 
-The programs for A097882, the canonical program `A097882.P11052188071973986715` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097882 has offset 1).
+The programs for A097882, the canonical program `A097882.P1032828811957580673` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097882 has offset 1).
 
-The definition of A097882 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A097882 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A097882.P11052188071973986715
+/-! ## A097882.P1032828811957580673
 
-`floor((n+1)²/A000040(n+1))`
+`floor(A000290(n+1)/A000040(n+1))`
 
 The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A097882
 
-/-- `floor((n+1)²/A000040(n+1))` -/
-def P11052188071973986715.Spec : Prop :=
-  ∀ n, P11052188071973986715.a n = A097882 (n + 1)
+/-- `floor(A000290(n+1)/A000040(n+1))` -/
+def P1032828811957580673.Spec : Prop :=
+  ∀ n, P1032828811957580673.a n = A097882 (n + 1)
 
-theorem P11052188071973986715.correct : P11052188071973986715.Spec := by
+theorem P1032828811957580673.correct : P1032828811957580673.Spec := by
   intro n
   simp only [A097882, Nat.add_sub_cancel]
 
@@ -12744,7 +13017,7 @@ end A097882
 /-!
 # A097884: First differences of A097605 (phi(n) divides n^2 - 1).
 
-The programs for A097884, the canonical program `A097884.P18184592152229519995` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097884 has offset 1).
+The programs for A097884, the canonical program `A097884.P18184592152229519995` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097884 has offset 1).
 
 The definition of A097884 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12753,7 +13026,7 @@ The definition of A097884 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A097605(n+1)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A097884
@@ -14022,7 +14295,7 @@ end A097893
 /-!
 # A097894: Partial sums of A014531.
 
-The programs for A097894, the canonical program `A097894.P17020405718607012267` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097894 has offset 1).
+The programs for A097894, the canonical program `A097894.P17020405718607012267` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097894 has offset 1).
 
 The definition of A097894 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14031,7 +14304,7 @@ The definition of A097894 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A014531(n+1)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A097894

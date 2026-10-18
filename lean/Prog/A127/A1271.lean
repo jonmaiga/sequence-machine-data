@@ -19,28 +19,30 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -60,8 +62,10 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,7 +91,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -7677,8 +7680,29 @@ end A127170
 /-!
 # A127171: Difference between largest prime factors of two successive 3-almost primes.
 
-The programs for A127171, there is no canonical definition to state claims against.
+The programs for A127171, the canonical program `A127171.P12679392285096259285` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127171 has offset 1).
+
+The definition of A127171 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, A014612, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A127171.P12679392285096259285
+
+`A006530(A014612(n+2))-A006530(A014612(n+1))`
+
+The canonical program, it is in `Seq.B008.C000`.
+-/
+
+namespace A127171
+
+/-- `A006530(A014612(n+2))-A006530(A014612(n+1))` -/
+def P12679392285096259285.Spec : Prop :=
+  ∀ n, P12679392285096259285.a n = A127171 (n + 1)
+
+theorem P12679392285096259285.correct : P12679392285096259285.Spec := by
+  intro n
+  simp only [A127171, Nat.add_sub_cancel]
+
+end A127171
 
 /-! ## A127171.P11967375117264808275
 
@@ -7701,6 +7725,14 @@ end
 
 end A127171.P11967375117264808275
 
+namespace A127171
+
+/-- `Δ[p?[A054576(n+1)]]` -/
+def P11967375117264808275.Spec : Prop :=
+  ∀ n, P11967375117264808275.a n = A127171 (n + 1)
+
+end A127171
+
 /-! ## A127171.P2115235495477868653
 
 `Δ[p?[A117358(2*(n+1))]]`
@@ -7722,6 +7754,14 @@ end
 
 end A127171.P2115235495477868653
 
+namespace A127171
+
+/-- `Δ[p?[A117358(2*(n+1))]]` -/
+def P2115235495477868653.Spec : Prop :=
+  ∀ n, P2115235495477868653.a n = A127171 (n + 1)
+
+end A127171
+
 /-! ## A127171.P4565551121257535298
 
 `Δ[A006530(A014612(n+1))]`
@@ -7740,6 +7780,18 @@ end
 
 end A127171.P4565551121257535298
 
+namespace A127171
+
+/-- `Δ[A006530(A014612(n+1))]` -/
+def P4565551121257535298.Spec : Prop :=
+  ∀ n, P4565551121257535298.a n = A127171 (n + 1)
+
+theorem P4565551121257535298.correct : P4565551121257535298.Spec := by
+  intro n
+  simp only [A127171, Nat.add_sub_cancel, A127171.P4565551121257535298.f1, A127171.P4565551121257535298.a, A127171.P12679392285096259285.a, SequenceMachineLib.memo_apply]
+
+end A127171
+
 /-! ## A127171.P1979894645818983143
 
 `Δ[A006530(A163173(n+1))]`
@@ -7757,6 +7809,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A127171.P1979894645818983143
+
+namespace A127171
+
+/-- `Δ[A006530(A163173(n+1))]` -/
+def P1979894645818983143.Spec : Prop :=
+  ∀ n, P1979894645818983143.a n = A127171 (n + 1)
+
+end A127171
 
 /-! ## A127171.P14776984747310313952
 
@@ -7779,6 +7839,14 @@ end
 
 end A127171.P14776984747310313952
 
+namespace A127171
+
+/-- `Δ[p?[A032742(A032742(n+1))]]` -/
+def P14776984747310313952.Spec : Prop :=
+  ∀ n, P14776984747310313952.a n = A127171 (n + 1)
+
+end A127171
+
 /-! ## A127171.P17218092233371524779
 
 `Δ[A006530(A207790(8*n+5))]`
@@ -7796,6 +7864,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A127171.P17218092233371524779
+
+namespace A127171
+
+/-- `Δ[A006530(A207790(8*n+5))]` -/
+def P17218092233371524779.Spec : Prop :=
+  ∀ n, P17218092233371524779.a n = A127171 (n + 1)
+
+end A127171
 
 /-! ## A127171.P13573907072908163861
 
@@ -7821,6 +7897,14 @@ end
 
 end A127171.P13573907072908163861
 
+namespace A127171
+
+/-- `Δ[A006530(eq[3, A001222(n+1)]+1)]` -/
+def P13573907072908163861.Spec : Prop :=
+  ∀ n, P13573907072908163861.a n = A127171 (n + 1)
+
+end A127171
+
 /-! ## A127171.P4119257173081832193
 
 `Δ[A006530(A000720(A124268(n+1)))]`
@@ -7839,23 +7923,13 @@ end
 
 end A127171.P4119257173081832193
 
-/-! ## A127171.P18427940678838487347
+namespace A127171
 
-`Δ[A006530(A162731(n+1)+A162361(n+1))]`
--/
+/-- `Δ[A006530(A000720(A124268(n+1)))]` -/
+def P4119257173081832193.Spec : Prop :=
+  ∀ n, P4119257173081832193.a n = A127171 (n + 1)
 
-namespace A127171.P18427940678838487347
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A162731 (n + 1) + A162361 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A127171.P18427940678838487347
+end A127171
 
 /-!
 # A127172: Triangle read by rows: A051731^3 as an infinite lower triangular matrix.

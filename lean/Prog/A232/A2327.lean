@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -8,6 +9,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -17,9 +19,10 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -28,23 +31,23 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,6 +64,8 @@ import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A232700: Number of labeled connected point-determining bipartite graphs on n vertices.
@@ -1004,9 +1013,9 @@ end A232711.P8174626536827817244
 /-!
 # A232713: Doubly pentagonal numbers: a(n) = n*(3*n-2)*(3*n-1)*(3*n+1)/8.
 
-The programs for A232713, the canonical program `A232713.P1710541369932287910` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232713 has offset 0).
+The programs for A232713, the canonical program `A232713.P1710541369932287910` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232713 has offset 0).
 
-The definition of A232713 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A232713 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(3*n-2)*(3*n-1)*(3*n+1)/8` (program `A232713.P1019158150011631127`, by `A232713.P1019158150011631127.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A232713.P1019158150011631127
@@ -1032,13 +1041,34 @@ namespace A232713
 def P1019158150011631127.Spec : Prop :=
   ∀ n, P1019158150011631127.a n = (A232713 n : ℚ)
 
+theorem P1019158150011631127.correct : P1019158150011631127.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 | 4 =>
+      simp [A232713, Nat.add_sub_cancel, A232713.P1019158150011631127.a, A232713.P1710541369932287910.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 5 =>
+      have h1 := ih (m + 4) (by omega)
+      have h2 := ih (m + 3) (by omega)
+      have h3 := ih (m + 2) (by omega)
+      have h4 := ih (m + 1) (by omega)
+      have h5 := ih m (by omega)
+      simp only [A232713, Nat.add_sub_cancel, A232713.P1019158150011631127.a, A232713.P1710541369932287910.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 h5 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 5 - 1 = m + 4 by omega, show m + 5 - 2 = m + 3 by omega, show m + 5 - 3 = m + 2 by omega, show m + 5 - 4 = m + 1 by omega, show m + 5 - 5 = m by omega, show m + 4 < m + 5 by omega, show m + 3 < m + 5 by omega, show m + 2 < m + 5 by omega, show m + 1 < m + 5 by omega, show m < m + 5 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 h5 ⊢
+      rw [← h1, ← h2, ← h3, ← h4, ← h5]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A232713
 
 /-! ## A232713.P1710541369932287910
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=1, a(2)=35, a(3)=210, a(4)=715`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A232713
@@ -3207,20 +3237,20 @@ end A232739.P10767876829095715208
 The programs for A232740, there is no canonical definition to state claims against.
 -/
 
-/-! ## A232740.P694094420468521105
+/-! ## A232740.P16082873925632406268
 
-`A232753(A005228(n+2)+1)-A232753(A005228(n+1)+1)`
+`A232753(A005228(n+2))-A232753(A005228(n+1))`
 -/
 
-namespace A232740.P694094420468521105
+namespace A232740.P16082873925632406268
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232753 (A005228 (n + 2) + 1).toNat - A232753 (A005228 (n + 1) + 1).toNat
+  A232753 (A005228 (n + 2)).toNat - A232753 (A005228 (n + 1)).toNat
 
 end
 
-end A232740.P694094420468521105
+end A232740.P16082873925632406268
 
 /-! ## A232740.P1143013166585321561
 
@@ -5080,6 +5110,21 @@ end A232747.P2310198422935215672
 The programs for A232748, there is no canonical definition to state claims against.
 -/
 
+/-! ## A232748.P18000680456754578481
+
+`n+1-A232746(n+1)`
+-/
+
+namespace A232748.P18000680456754578481
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - A232746 (n + 1)
+
+end
+
+end A232748.P18000680456754578481
+
 /-! ## A232748.P18057142581122945174
 
 `1-round(root(n²+1, sqrt(14)))+n`
@@ -5255,21 +5300,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A232748.P8329241582665013046
-
-/-! ## A232748.P11922271378605515647
-
-`floor(n+1-log2(A092268(n+2))/2)`
--/
-
-namespace A232748.P11922271378605515647
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n + 1 : ℝ) - Real.logb 2 (A092268 (n + 2) : ℝ) / 2⌋
-
-end
-
-end A232748.P11922271378605515647
 
 /-!
 # A232749: Inverse function to Hofstadter's A030124.
@@ -7411,7 +7441,7 @@ end A232777.P363817595867261854
 /-!
 # A232779: Sum of iterated logs; a(n) = 0 if n = 0; otherwise n + a(floor(log_2(n))).
 
-The programs for A232779, the canonical program `A232779.P16284996408245554557` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232779 has offset 0).
+The programs for A232779, the canonical program `A232779.P16284996408245554557` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232779 has offset 0).
 
 The definition of A232779 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+a(floor(log2(n)))` (program `A232779.P16284996408245554557`, by `A232779.P16284996408245554557.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7420,7 +7450,7 @@ The definition of A232779 is `verified`: the Lean definition is proven equivalen
 
 `n+a(floor(log2(n)))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A232779

@@ -4,26 +4,25 @@ import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
-import Seq.B000.C021
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C011
+import Seq.B000.C022
+import Seq.B000.C035
 import Seq.B002.C000
 import Seq.B003.C001
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C009
+import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C021
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 import Seq.Opaque.C025
 
 /-!
@@ -200,8 +199,25 @@ end A388847.P3420707217263562956
 /-!
 # A388848: Number of distinct squares (of any orientation) whose vertices are points of the cross of side n.
 
-The programs for A388848, there is no canonical definition to state claims against.
+The programs for A388848, the canonical program `A388848.P17651515736714168523` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388848 has offset 1).
+
+The definition of A388848 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A388848.P17651515736714168523
+
+`(6*(n+1)^4-3*(n+1)²+(n+1)%2)/4`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A388848
+
+/-- `(6*(n+1)^4-3*(n+1)²+(n+1)%2)/4` -/
+def P17651515736714168523.Spec : Prop :=
+  ∀ n, P17651515736714168523.a n = (A388848 (n + 1) : ℚ)
+
+end A388848
 
 /-! ## A388848.P8289502684100874017
 
@@ -217,6 +233,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388848.P8289502684100874017
+
+namespace A388848
+
+/-- `A389320(2*(n+1)²)` -/
+def P8289502684100874017.Spec : Prop :=
+  ∀ n, P8289502684100874017.a n = A388848 (n + 1)
+
+end A388848
 
 /-! ## A388848.P5325070220573313633
 
@@ -239,6 +263,14 @@ end
 
 end A388848.P5325070220573313633
 
+namespace A388848
+
+/-- `∑[∑[A057544(A077221(3*n))]]` -/
+def P5325070220573313633.Spec : Prop :=
+  ∀ n, P5325070220573313633.a n = A388848 (n + 1)
+
+end A388848
+
 /-! ## A388848.P8055928460190131350
 
 `∑[A001651(A050492(n+1))]`
@@ -257,20 +289,13 @@ end
 
 end A388848.P8055928460190131350
 
-/-! ## A388848.P14499905430467190194
+namespace A388848
 
-`A353212(A002593(n+1))`
--/
+/-- `∑[A001651(A050492(n+1))]` -/
+def P8055928460190131350.Spec : Prop :=
+  ∀ n, P8055928460190131350.a n = A388848 (n + 1)
 
-namespace A388848.P14499905430467190194
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353212 (A002593 (n + 1)).toNat
-
-end
-
-end A388848.P14499905430467190194
+end A388848
 
 /-!
 # A388857: G.f. A(x) satisfies A(x) = 1 + x*(1-x^3)*A(x)^3.

@@ -4,46 +4,47 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1238,7 +1239,7 @@ end A251417.P11776088864768099348
 /-!
 # A251418: Floor((n^2+7n-23)/14).
 
-The programs for A251418, the canonical program `A251418.P12315282928756465335` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251418 has offset 0).
+The programs for A251418, the canonical program `A251418.P12315282928756465335` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251418 has offset 0).
 
 The definition of A251418 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((n²+7*n-23)/14)` (program `A251418.P12315282928756465335`, by `A251418.P12315282928756465335.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1247,7 +1248,7 @@ The definition of A251418 is `verified`: the Lean definition is proven equivalen
 
 `floor((n²+7*n-23)/14)`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A251418
@@ -1363,7 +1364,7 @@ end A251418
 /-!
 # A251420: Decimal expansion of Fisher's percolation exponent in two dimensions, 187/91.
 
-The programs for A251420, the canonical program `A251420.P4855938670452155235` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251420 has offset 1).
+The programs for A251420, the canonical program `A251420.P4855938670452155235` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251420 has offset 1).
 
 The definition of A251420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1372,7 +1373,7 @@ The definition of A251420 is `conjectured`: the Lean definition is a formula tha
 
 `9-a(n-3)` with `a(0)=2, a(1)=0, a(2)=5, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A251420
@@ -5367,8 +5368,29 @@ end A251480.P4606585578493410402
 /-!
 # A251482: a(n) = floor(prime(n)/log(n)) + ceiling(prime(n)/log(prime(n))) - 2*n, n >=2.
 
-The programs for A251482, there is no canonical definition to state claims against.
+The programs for A251482, the canonical program `A251482.P5204972859914801161` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251482 has offset 2).
+
+The definition of A251482 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A085581, A086861, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A251482.P5204972859914801161
+
+`A085581(n+2)+A086861(n+2)+1-2*(n+2)`
+
+The canonical program, it is in `Seq.B002.C004`.
+-/
+
+namespace A251482
+
+/-- `A085581(n+2)+A086861(n+2)+1-2*(n+2)` -/
+def P5204972859914801161.Spec : Prop :=
+  ∀ n, P5204972859914801161.a n = A251482 (n + 2)
+
+theorem P5204972859914801161.correct : P5204972859914801161.Spec := by
+  intro n
+  simp only [A251482, Nat.add_sub_cancel]
+
+end A251482
 
 /-! ## A251482.P13780343787584938584
 
@@ -5384,6 +5406,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A251482.P13780343787584938584
+
+namespace A251482
+
+/-- `A152196(n+2)+A010054(A113049(n+4))` -/
+def P13780343787584938584.Spec : Prop :=
+  ∀ n, P13780343787584938584.a n = A251482 (n + 2)
+
+end A251482
 
 /-!
 # A251483: Position of first occurrence of n in A036459.

@@ -5,32 +5,29 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C032
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -46,14 +43,15 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -561,7 +559,7 @@ end A336016.P11320184774354316019
 /-!
 # A336017: a(n) = floor(frac(Pi*n)*n), where frac denotes the fractional part.
 
-The programs for A336017, the canonical program `A336017.P15477376785968141573` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336017 has offset 0).
+The programs for A336017, the canonical program `A336017.P15477376785968141573` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336017 has offset 0).
 
 The definition of A336017 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -570,7 +568,7 @@ The definition of A336017 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((π*n-floor(π*n))*n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A336017
@@ -775,16 +773,39 @@ end A336017
 /-!
 # A336018: a(n) = floor(frac(log_2(n))*n), where frac denotes the fractional part.
 
-The programs for A336018, the canonical program `A336018.P4470048094391084160` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336018 has offset 1).
+The programs for A336018, the canonical program `A336018.P4470048094391084160` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336018 has offset 1).
 
-The definition of A336018 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A326299, A340301, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A336018 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A336018.P5476461840053229245
+
+`floor((log2(n+1)-floor(log2(n+1)))*(n+1))`
+-/
+
+namespace A336018.P5476461840053229245
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(Real.logb 2 (n + 1 : ℝ) - (Nat.log 2 (n + 1) : ℝ)) * (n + 1 : ℝ)⌋
+
+end
+
+end A336018.P5476461840053229245
+
+namespace A336018
+
+/-- `floor((log2(n+1)-floor(log2(n+1)))*(n+1))` -/
+def P5476461840053229245.Spec : Prop :=
+  ∀ n, P5476461840053229245.a n = A336018 (n + 1)
+
+end A336018
 
 /-! ## A336018.P4470048094391084160
 
 `A326299(n+1)-A340301(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A336018
@@ -819,29 +840,6 @@ namespace A336018
 /-- `floor((n+1)*log2(n+1))%(n+1)` -/
 def P13383966438990984873.Spec : Prop :=
   ∀ n, P13383966438990984873.a n = A336018 (n + 1)
-
-end A336018
-
-/-! ## A336018.P158267040793332863
-
-`floor((n+1)*(log2(n+1)-floor(log2(n+1))))`
--/
-
-namespace A336018.P158267040793332863
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n + 1 : ℝ) * (Real.logb 2 (n + 1 : ℝ) - (Nat.log 2 (n + 1) : ℝ))⌋
-
-end
-
-end A336018.P158267040793332863
-
-namespace A336018
-
-/-- `floor((n+1)*(log2(n+1)-floor(log2(n+1))))` -/
-def P158267040793332863.Spec : Prop :=
-  ∀ n, P158267040793332863.a n = A336018 (n + 1)
 
 end A336018
 

@@ -12,19 +12,19 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,11 +33,11 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -48,17 +48,18 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,7 +75,6 @@ import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -84,26 +84,29 @@ import Seq.Opaque.C025
 /-!
 # A043000: Number of digits in all base-b representations of n, for 2 <= b <= n.
 
-The programs for A043000, there is no canonical definition to state claims against.
+The programs for A043000, the canonical program `A043000.P2511655755734765568` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043000 has offset 2).
+
+The definition of A043000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A043000.P2511655755734765568
 
 `∑[A089723(n+2)+1]`
+
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
-namespace A043000.P2511655755734765568
-noncomputable section
+namespace A043000
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089723 (n + 2) + 1
+/-- `∑[A089723(n+2)+1]` -/
+def P2511655755734765568.Spec : Prop :=
+  ∀ n, P2511655755734765568.a n = A043000 (n + 2)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+theorem P2511655755734765568.correct : P2511655755734765568.Spec := by
+  intro n
+  simp only [A043000, Nat.add_sub_cancel]
 
-end
-
-end A043000.P2511655755734765568
+end A043000
 
 /-! ## A043000.P5980458404529998102
 
@@ -123,6 +126,14 @@ end
 
 end A043000.P5980458404529998102
 
+namespace A043000
+
+/-- `∑[A000005(A052409(n+2))+1]` -/
+def P5980458404529998102.Spec : Prop :=
+  ∀ n, P5980458404529998102.a n = A043000 (n + 2)
+
+end A043000
+
 /-! ## A043000.P17483119181694407218
 
 `A342871(n+1)+A089723(n+2)`
@@ -138,6 +149,14 @@ end
 
 end A043000.P17483119181694407218
 
+namespace A043000
+
+/-- `A342871(n+1)+A089723(n+2)` -/
+def P17483119181694407218.Spec : Prop :=
+  ∀ n, P17483119181694407218.a n = A043000 (n + 2)
+
+end A043000
+
 /-! ## A043000.P10072175339722062834
 
 `A342871(n+2)-1`
@@ -152,6 +171,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043000.P10072175339722062834
+
+namespace A043000
+
+/-- `A342871(n+2)-1` -/
+def P10072175339722062834.Spec : Prop :=
+  ∀ n, P10072175339722062834.a n = A043000 (n + 2)
+
+end A043000
 
 /-! ## A043000.P6561264808484996810
 
@@ -171,6 +198,14 @@ end
 
 end A043000.P6561264808484996810
 
+namespace A043000
+
+/-- `∑[A259362(n+2)+2]` -/
+def P6561264808484996810.Spec : Prop :=
+  ∀ n, P6561264808484996810.a n = A043000 (n + 2)
+
+end A043000
+
 /-! ## A043000.P18373740227857030791
 
 `A255165(n+2)+1+n`
@@ -185,6 +220,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043000.P18373740227857030791
+
+namespace A043000
+
+/-- `A255165(n+2)+1+n` -/
+def P18373740227857030791.Spec : Prop :=
+  ∀ n, P18373740227857030791.a n = A043000 (n + 2)
+
+end A043000
 
 /-! ## A043000.P9358307488375043994
 
@@ -201,6 +244,14 @@ end
 
 end A043000.P9358307488375043994
 
+namespace A043000
+
+/-- `A327737(n+2)-(n+2)` -/
+def P9358307488375043994.Spec : Prop :=
+  ∀ n, P9358307488375043994.a n = A043000 (n + 2)
+
+end A043000
+
 /-! ## A043000.P12809761546661589767
 
 `A089361(n+2)+2*(n+1)`
@@ -215,6 +266,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043000.P12809761546661589767
+
+namespace A043000
+
+/-- `A089361(n+2)+2*(n+1)` -/
+def P12809761546661589767.Spec : Prop :=
+  ∀ n, P12809761546661589767.a n = A043000 (n + 2)
+
+end A043000
 
 /-! ## A043000.P6668541966296917067
 
@@ -234,6 +293,14 @@ end
 
 end A043000.P6668541966296917067
 
+namespace A043000
+
+/-- `∑[A032741(A132349(n+2))+2]` -/
+def P6668541966296917067.Spec : Prop :=
+  ∀ n, P6668541966296917067.a n = A043000 (n + 2)
+
+end A043000
+
 /-! ## A043000.P14046291607378273214
 
 `A023443(A342871(n+2))`
@@ -248,6 +315,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043000.P14046291607378273214
+
+namespace A043000
+
+/-- `A023443(A342871(n+2))` -/
+def P14046291607378273214.Spec : Prop :=
+  ∀ n, P14046291607378273214.a n = A043000 (n + 2)
+
+end A043000
 
 /-!
 # A043001: Base-3 palindromes that start with 1.

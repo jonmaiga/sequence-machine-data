@@ -4,14 +4,15 @@ import Seq.B000.C001
 import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C024
+import Seq.B000.C028
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -22,17 +23,15 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -40,10 +39,11 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B011.C001
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -59,15 +59,13 @@ import Seq.Opaque.C011
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A397700: Numbers p*q*r where p, q and r are distinct primes with p^2 + r^2 = 2*q^2.
@@ -164,30 +162,29 @@ end A397708.P11941962714254562990
 /-!
 # A397710: Composite numbers k such that k = rad(k) * lpf(k), where rad = A007947 and lpf is the least prime factor of k.
 
-The programs for A397710, there is no canonical definition to state claims against.
+The programs for A397710, the canonical program `A397710.P1647549694478266187` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397710 has offset 1).
+
+The definition of A397710 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A397710.P1647549694478266187
 
 `∪[A001248(n+1), A366825(n+1)]`
+
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
-namespace A397710.P1647549694478266187
-noncomputable section
+namespace A397710
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001248 (n + 1)
+/-- `∪[A001248(n+1), A366825(n+1)]` -/
+def P1647549694478266187.Spec : Prop :=
+  ∀ n, (P1647549694478266187.a n : ℤ) = A397710 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366825 (n + 1)
+theorem P1647549694478266187.correct : P1647549694478266187.Spec := by
+  intro n
+  simp only [A397710, Nat.add_sub_cancel]
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A397710.P1647549694478266187
+end A397710
 
 /-! ## A397710.P16829304776891405333
 
@@ -207,6 +204,14 @@ end
 
 end A397710.P16829304776891405333
 
+namespace A397710
+
+/-- `filter[A398264(n+1), A359466(#)]` -/
+def P16829304776891405333.Spec : Prop :=
+  ∀ n, P16829304776891405333.a n = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P5997212769702006858
 
 `filter[A398264(n+1), A359471(#)]`
@@ -224,6 +229,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397710.P5997212769702006858
+
+namespace A397710
+
+/-- `filter[A398264(n+1), A359471(#)]` -/
+def P5997212769702006858.Spec : Prop :=
+  ∀ n, P5997212769702006858.a n = A397710 (n + 1)
+
+end A397710
 
 /-! ## A397710.P16937883952332007534
 
@@ -243,6 +256,14 @@ end
 
 end A397710.P16937883952332007534
 
+namespace A397710
+
+/-- `filter[A398264(n+1), A359474(#)]` -/
+def P16937883952332007534.Spec : Prop :=
+  ∀ n, P16937883952332007534.a n = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P11109433275379799630
 
 `filter[A060687(n+1), A319710(#)]`
@@ -260,6 +281,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397710.P11109433275379799630
+
+namespace A397710
+
+/-- `filter[A060687(n+1), A319710(#)]` -/
+def P11109433275379799630.Spec : Prop :=
+  ∀ n, P11109433275379799630.a n = A397710 (n + 1)
+
+end A397710
 
 /-! ## A397710.P2305503982297440829
 
@@ -283,6 +312,14 @@ end
 
 end A397710.P2305503982297440829
 
+namespace A397710
+
+/-- `∩[A060687(n+1), A398264(n+1)]` -/
+def P2305503982297440829.Spec : Prop :=
+  ∀ n, (P2305503982297440829.a n : ℤ) = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P9260827658123599430
 
 `filter[A365869(n+1), A359471(#)]`
@@ -301,6 +338,14 @@ end
 
 end A397710.P9260827658123599430
 
+namespace A397710
+
+/-- `filter[A365869(n+1), A359471(#)]` -/
+def P9260827658123599430.Spec : Prop :=
+  ∀ n, P9260827658123599430.a n = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P11641252561103182974
 
 `filter[A365869(n+1), A359474(#)]`
@@ -318,6 +363,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397710.P11641252561103182974
+
+namespace A397710
+
+/-- `filter[A365869(n+1), A359474(#)]` -/
+def P11641252561103182974.Spec : Prop :=
+  ∀ n, P11641252561103182974.a n = A397710 (n + 1)
+
+end A397710
 
 /-! ## A397710.P3706902204169464973
 
@@ -341,6 +394,14 @@ end
 
 end A397710.P3706902204169464973
 
+namespace A397710
+
+/-- `∩[A060687(n+1), A365869(n+1)]` -/
+def P3706902204169464973.Spec : Prop :=
+  ∀ n, (P3706902204169464973.a n : ℤ) = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P948922913249545134
 
 `∩[A381311(n+1), A398264(n+1)]`
@@ -362,6 +423,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397710.P948922913249545134
+
+namespace A397710
+
+/-- `∩[A381311(n+1), A398264(n+1)]` -/
+def P948922913249545134.Spec : Prop :=
+  ∀ n, (P948922913249545134.a n : ℤ) = A397710 (n + 1)
+
+end A397710
 
 /-! ## A397710.P11248030943144771147
 
@@ -385,6 +454,14 @@ end
 
 end A397710.P11248030943144771147
 
+namespace A397710
+
+/-- `∩[A082293(n+1), A365869(n+1)]` -/
+def P11248030943144771147.Spec : Prop :=
+  ∀ n, (P11248030943144771147.a n : ℤ) = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P3110757545383306149
 
 `∩[A082293(n+1), A398264(n+1)]`
@@ -406,6 +483,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397710.P3110757545383306149
+
+namespace A397710
+
+/-- `∩[A082293(n+1), A398264(n+1)]` -/
+def P3110757545383306149.Spec : Prop :=
+  ∀ n, (P3110757545383306149.a n : ℤ) = A397710 (n + 1)
+
+end A397710
 
 /-! ## A397710.P16304342007590332068
 
@@ -429,6 +514,14 @@ end
 
 end A397710.P16304342007590332068
 
+namespace A397710
+
+/-- `∩[A365869(n+1), A370076(n+1)]` -/
+def P16304342007590332068.Spec : Prop :=
+  ∀ n, (P16304342007590332068.a n : ℤ) = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P2474081657605488544
 
 `∩[A370076(n+1), A398264(n+1)]`
@@ -451,6 +544,14 @@ end
 
 end A397710.P2474081657605488544
 
+namespace A397710
+
+/-- `∩[A370076(n+1), A398264(n+1)]` -/
+def P2474081657605488544.Spec : Prop :=
+  ∀ n, (P2474081657605488544.a n : ℤ) = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P10544490802259450947
 
 `filter[A371601(n+1), A359471(#)]`
@@ -469,6 +570,14 @@ end
 
 end A397710.P10544490802259450947
 
+namespace A397710
+
+/-- `filter[A371601(n+1), A359471(#)]` -/
+def P10544490802259450947.Spec : Prop :=
+  ∀ n, P10544490802259450947.a n = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P697148787000455104
 
 `filter[A371601(n+1), A359474(#)]`
@@ -486,6 +595,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397710.P697148787000455104
+
+namespace A397710
+
+/-- `filter[A371601(n+1), A359474(#)]` -/
+def P697148787000455104.Spec : Prop :=
+  ∀ n, P697148787000455104.a n = A397710 (n + 1)
+
+end A397710
 
 /-! ## A397710.P9753389592818651353
 
@@ -509,6 +626,14 @@ end
 
 end A397710.P9753389592818651353
 
+namespace A397710
+
+/-- `∩[A060687(n+1), A371601(n+1)]` -/
+def P9753389592818651353.Spec : Prop :=
+  ∀ n, (P9753389592818651353.a n : ℤ) = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P12712148000538077738
 
 `filter[A283050(n+1), A359471(#)]`
@@ -527,6 +652,14 @@ end
 
 end A397710.P12712148000538077738
 
+namespace A397710
+
+/-- `filter[A283050(n+1), A359471(#)]` -/
+def P12712148000538077738.Spec : Prop :=
+  ∀ n, P12712148000538077738.a n = A397710 (n + 1)
+
+end A397710
+
 /-! ## A397710.P8849739273806725131
 
 `filter[A283050(n+1), A359474(#)]`
@@ -544,6 +677,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397710.P8849739273806725131
+
+namespace A397710
+
+/-- `filter[A283050(n+1), A359474(#)]` -/
+def P8849739273806725131.Spec : Prop :=
+  ∀ n, P8849739273806725131.a n = A397710 (n + 1)
+
+end A397710
 
 /-! ## A397710.P11653793293903573550
 
@@ -566,6 +707,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397710.P11653793293903573550
+
+namespace A397710
+
+/-- `∩[A060687(n+1), A283050(n+1)]` -/
+def P11653793293903573550.Spec : Prop :=
+  ∀ n, (P11653793293903573550.a n : ℤ) = A397710 (n + 1)
+
+end A397710
 
 /-!
 # A397711: Number of acyclic digraphs (or DAGs) on n labeled nodes in which every node has in-degree at most 2.
@@ -1410,7 +1559,7 @@ end A397749.P16742505986599425781
 /-!
 # A397750: Number of minimum independent dominating sets in the n-path graph.
 
-The programs for A397750, the canonical program `A397750.P11650886659018461077` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397750 has offset 0).
+The programs for A397750, the canonical program `A397750.P11650886659018461077` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397750 has offset 0).
 
 The definition of A397750 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1419,7 +1568,7 @@ The definition of A397750 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)-3*a(n-6)+a(n-9)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=1, a(4)=3, a(5)=3, a(6)=1, a(7)=6, a(8)=4`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A397750
@@ -1663,7 +1812,7 @@ end A397750
 /-!
 # A397751: Number of minimum independent dominating sets in the n-cycle graph.
 
-The programs for A397751, the canonical program `A397751.P13062730902191877539` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397751 has offset 0).
+The programs for A397751, the canonical program `A397751.P13062730902191877539` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397751 has offset 0).
 
 The definition of A397751 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1672,7 +1821,7 @@ The definition of A397751 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)-3*a(n-6)+a(n-9)` with `a(0)=3, a(1)=0, a(2)=2, a(3)=3, a(4)=2, a(5)=5, a(6)=3, a(7)=7, a(8)=8`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A397751
@@ -1726,7 +1875,7 @@ end A397752.P7189558769517088392
 /-!
 # A397754: Numbers that don't contain digit 0 but have a divisor that does.
 
-The programs for A397754, the canonical program `A397754.P18151342160138794166` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397754 has offset 1).
+The programs for A397754, the canonical program `A397754.P18151342160138794166` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397754 has offset 1).
 
 The definition of A397754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3190 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1735,7 +1884,7 @@ The definition of A397754 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A209932(n+1), A259315(n+1)]`
 
-The canonical program, it is in `Seq.B004.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A397754
@@ -1753,7 +1902,7 @@ end A397754
 /-!
 # A397757: Maximum length of a snake polyomino in a 6 X n rectangle.
 
-The programs for A397757, the canonical program `A397757.P7073493250673476325` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397757 has offset 1).
+The programs for A397757, the canonical program `A397757.P7073493250673476325` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397757 has offset 1).
 
 The definition of A397757 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1762,7 +1911,7 @@ The definition of A397757 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)+15` with `a(0)=6, a(1)=9, a(2)=14, a(3)=17, a(4)=21, a(5)=24, a(6)=29, a(7)=32, a(8)=36, a(9)=40`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A397757
@@ -1872,7 +2021,7 @@ end A397757
 /-!
 # A397768: a(n) = sum of powers of 2 where the exponents are the digits of n.
 
-The programs for A397768, the canonical program `A397768.P10342280064419444199` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397768 has offset 0).
+The programs for A397768, the canonical program `A397768.P10342280064419444199` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397768 has offset 0).
 
 The definition of A397768 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1881,7 +2030,7 @@ The definition of A397768 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n, 2^#]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A397768
@@ -2711,7 +2860,7 @@ end A397791.P11998708759158159506
 /-!
 # A397792: Number of ways to tile a 2 X n strip with alternate corners missing, using squares, dominoes, and Z-shaped tetrominoes.
 
-The programs for A397792, the canonical program `A397792.P18121253684873005119` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397792 has offset 2).
+The programs for A397792, the canonical program `A397792.P18121253684873005119` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397792 has offset 2).
 
 The definition of A397792 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2720,7 +2869,7 @@ The definition of A397792 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+6*a(n-2)-2*a(n-3)-4*a(n-4)+a(n-6)` with `a(0)=1, a(1)=6, a(2)=16, a(3)=63, a(4)=206, a(5)=735`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A397792
@@ -2761,7 +2910,7 @@ end A397792
 /-!
 # A397793: Number of ways to tile a 2 X n strip with both bottom corners missing, using squares, dominoes, and Z-shaped tetrominoes.
 
-The programs for A397793, the canonical program `A397793.P2151155837396120395` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397793 has offset 2).
+The programs for A397793, the canonical program `A397793.P2151155837396120395` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397793 has offset 2).
 
 The definition of A397793 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2770,7 +2919,7 @@ The definition of A397793 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+6*a(n-2)-2*a(n-3)-4*a(n-4)+a(n-6)` with `a(0)=2, a(1)=4, a(2)=19, a(3)=58, a(4)=214, a(5)=722`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A397793

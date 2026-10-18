@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -9,36 +10,30 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -48,14 +43,15 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,6 +67,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -82,13 +79,36 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+
 /-!
 # A096500: Let f(n) = smallest prime > n; a(n) = f(n+1) - f(n).
 
-The programs for A096500, the canonical program `A096500.P11441751826480076457` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096500 has offset 1).
+The programs for A096500, the canonical program `A096500.P16442061898091781287` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096500 has offset 1).
 
-The definition of A096500 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A096500 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A151800, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A096500.P16442061898091781287
+
+`A151800(n+2)-A151800(n+1)`
+
+The canonical program, it is in `Seq.B004.C001`.
+-/
+
+namespace A096500
+
+/-- `A151800(n+2)-A151800(n+1)` -/
+def P16442061898091781287.Spec : Prop :=
+  ∀ n, P16442061898091781287.a n = A096500 (n + 1)
+
+theorem P16442061898091781287.correct : P16442061898091781287.Spec := by
+  intro n
+  simp only [A096500, Nat.add_sub_cancel]
+
+end A096500
 
 /-! ## A096500.P13781294088656404482
 
@@ -113,6 +133,10 @@ namespace A096500
 /-- `Δ[A151800(n+1)]` -/
 def P13781294088656404482.Spec : Prop :=
   ∀ n, P13781294088656404482.a n = A096500 (n + 1)
+
+theorem P13781294088656404482.correct : P13781294088656404482.Spec := by
+  intro n
+  simp only [A096500, Nat.add_sub_cancel, A096500.P13781294088656404482.f1, A096500.P13781294088656404482.a, A096500.P16442061898091781287.a, SequenceMachineLib.memo_apply]
 
 end A096500
 
@@ -272,45 +296,26 @@ def P11741596491851518461.Spec : Prop :=
 
 end A096500
 
-/-! ## A096500.P16442061898091781287
-
-`A151800(n+2)-A151800(n+1)`
--/
-
-namespace A096500.P16442061898091781287
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151800 (n + 2) - A151800 (n + 1)
-
-end
-
-end A096500.P16442061898091781287
-
-namespace A096500
-
-/-- `A151800(n+2)-A151800(n+1)` -/
-def P16442061898091781287.Spec : Prop :=
-  ∀ n, P16442061898091781287.a n = A096500 (n + 1)
-
-end A096500
-
 /-! ## A096500.P11441751826480076457
 
 `A166597(n+2)-A072680(n+2)`
-
-The canonical program, it is in `Seq.B007.C000`.
 -/
+
+namespace A096500.P11441751826480076457
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166597 (n + 2) - A072680 (n + 2)
+
+end
+
+end A096500.P11441751826480076457
 
 namespace A096500
 
 /-- `A166597(n+2)-A072680(n+2)` -/
 def P11441751826480076457.Spec : Prop :=
   ∀ n, P11441751826480076457.a n = A096500 (n + 1)
-
-theorem P11441751826480076457.correct : P11441751826480076457.Spec := by
-  intro n
-  simp only [A096500, Nat.add_sub_cancel]
 
 end A096500
 
@@ -4603,6 +4608,21 @@ end A096573.P17288493160238014598
 The programs for A096574, there is no canonical definition to state claims against.
 -/
 
+/-! ## A096574.P6951642348344842768
+
+`(A000293(n+1)-A096573(n+1))/2`
+-/
+
+namespace A096574.P6951642348344842768
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000293 (n + 1) - A096573 (n + 1) : ℚ) / 2
+
+end
+
+end A096574.P6951642348344842768
+
 /-! ## A096574.P4276562574948656688
 
 `A336516(n)-A031286(A018315(n+1))`
@@ -4635,21 +4655,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A096574.P14944490793949218426
-
-/-! ## A096574.P1617850880385774957
-
-`A003056(A037966(n))-A025428(n)`
--/
-
-namespace A096574.P1617850880385774957
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A037966 n).toNat - A025428 n
-
-end
-
-end A096574.P1617850880385774957
 
 /-!
 # A096575: Number of fixed points of solid partitions under rotation operation.
@@ -4738,6 +4743,21 @@ end A096575.P10409813849631624695
 The programs for A096576, there is no canonical definition to state claims against.
 -/
 
+/-! ## A096576.P1415822986113679251
+
+`(A000293(n+1)-A096575(n+1))/3`
+-/
+
+namespace A096576.P1415822986113679251
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000293 (n + 1) - A096575 (n + 1) : ℚ) / 3
+
+end
+
+end A096576.P1415822986113679251
+
 /-! ## A096576.P6181615606198046140
 
 `∑[A280951(∑[3*n-2]+3+n)]-A119842(n+1)`
@@ -4773,21 +4793,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A096576.P18406244588673503882
-
-/-! ## A096576.P13045640552294522787
-
-`A073750(A288176(n))`
--/
-
-namespace A096576.P13045640552294522787
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073750 (A288176 n).toNat
-
-end
-
-end A096576.P13045640552294522787
 
 /-!
 # A096577: Number of fixed points of solid partitions under 'time-lapse' operation.

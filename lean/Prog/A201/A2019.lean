@@ -6,43 +6,45 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
+import Seq.B002.C002
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -57,6 +59,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1112,6 +1115,21 @@ end A201951.P17171421653846804312
 The programs for A201952, there is no canonical definition to state claims against.
 -/
 
+/-! ## A201952.P3930748508303130531
+
+`n*a(n-1)+A201950(n)+A201953(n)` with `a(0)=1, a(1)=1`
+-/
+
+namespace A201952.P3930748508303130531
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  (n : ℤ) * a (n - 1) + A201950 n + A201953 n
+
+end
+
+end A201952.P3930748508303130531
+
 /-! ## A201952.P7070383914256023235
 
 `A201949((n+1)²+n)`
@@ -1171,21 +1189,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A201952.P16724240205223471830
-
-/-! ## A201952.P194911920086225874
-
-`lcm(A020985(n), A201949(A028387(n)))`
--/
-
-namespace A201952.P194911920086225874
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A020985 n) (A201949 (A028387 n).toNat)
-
-end
-
-end A201952.P194911920086225874
 
 /-!
 # A201953: A diagonal of irregular triangle A201949.
@@ -2533,7 +2536,7 @@ end A201965.P17731411259778888423
 /-!
 # A201967: Expansion of 1/(1-2*x-3*x^2+x^4) in powers of x.
 
-The programs for A201967, the canonical program `A201967.P17956333231765660444` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201967 has offset 0).
+The programs for A201967, the canonical program `A201967.P17956333231765660444` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201967 has offset 0).
 
 The definition of A201967 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2542,7 +2545,7 @@ The definition of A201967 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+3*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=7, a(3)=20`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A201967
@@ -2796,7 +2799,7 @@ end A201974.P8184088998992276777
 /-!
 # A201975: Number of n X 2 0..3 arrays with rows and columns lexicographically nondecreasing read forwards and nonincreasing read backwards.
 
-The programs for A201975, the canonical program `A201975.P13393330812320921213` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201975 has offset 1).
+The programs for A201975, the canonical program `A201975.P13393330812320921213` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201975 has offset 1).
 
 The definition of A201975 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2805,7 +2808,7 @@ The definition of A201975 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=4, a(1)=30, a(2)=72, a(3)=131`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A201975

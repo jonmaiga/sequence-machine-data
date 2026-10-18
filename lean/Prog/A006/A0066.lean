@@ -9,14 +9,13 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -28,10 +27,10 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,23 +50,23 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -94,7 +93,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A006600: Total number of triangles visible in regular n-gon with all diagonals drawn.
@@ -8316,6 +8314,21 @@ end A006679.P579975311861647187
 The programs for A006680, there is no canonical definition to state claims against.
 -/
 
+/-! ## A006680.P4214701205382494303
+
+`A006678(n+1)+2*(n+1)*A006678(n)-(n+3)*a(n-1)` with `a(0)=1, a(1)=1`
+-/
+
+namespace A006680.P4214701205382494303
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  A006678 (n + 1) + 2 * ((n + 1 : ℤ) * A006678 n) - (n + 3 : ℤ) * a (n - 1)
+
+end
+
+end A006680.P4214701205382494303
+
 /-! ## A006680.P4850221951529702889
 
 `or(A008587(A163951(n)), A125079(n))`
@@ -8330,21 +8343,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006680.P4850221951529702889
-
-/-! ## A006680.P3797211015210298877
-
-`or(A008587(A163951(n)), A177702(n))`
--/
-
-namespace A006680.P3797211015210298877
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A008587 (A163951 n).toNat) (A177702 n)
-
-end
-
-end A006680.P3797211015210298877
 
 /-!
 # A006681: Number of binary phylogenetic trees with n labels.
@@ -9207,6 +9205,21 @@ end A006690.P6704023233181833498
 The programs for A006691, there is no canonical definition to state claims against.
 -/
 
+/-! ## A006691.P3010292722837634166
+
+`A027834(n+2)/(n+1)!`
+-/
+
+namespace A006691.P3010292722837634166
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A027834 (n + 2) : ℚ) / (Nat.factorial (n + 1) : ℚ)
+
+end
+
+end A006691.P3010292722837634166
+
 /-! ## A006691.P7540746495959772160
 
 `A304312(n+1)`
@@ -9275,27 +9288,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006691.P3083450424889543330
-
-/-! ## A006691.P3734724148670492648
-
-`Δ[∑[A304312(n)]%A304317(n)]`
--/
-
-namespace A006691.P3734724148670492648
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A304312 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (∑ j ∈ Finset.range (n + 1), f2 j) (A304317 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A006691.P3734724148670492648
 
 /-!
 # A006692: Number of connected n-state finite automata with 3 inputs.

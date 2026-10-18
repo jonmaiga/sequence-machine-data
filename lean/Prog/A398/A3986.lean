@@ -4,11 +4,10 @@ import Seq.B000.C005
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
-import Seq.B004.C001
-import Seq.B006.C000
+import Seq.B004.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
-import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C007
 import Seq.Opaque.C009
@@ -17,7 +16,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024

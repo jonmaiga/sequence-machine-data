@@ -4,16 +4,15 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -21,17 +20,18 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
@@ -42,20 +42,16 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -70,14 +66,13 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2194,17 +2189,25 @@ end A201453.P12212457243344076384
 /-!
 # A201455: a(n) = 3*a(n-1) + 4*a(n-2) for n>1, a(0)=2, a(1)=3.
 
-The programs for A201455, the canonical program `A201455.P16680651434910017143` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201455 has offset 0).
+The programs for A201455, the canonical program `A201455.P10168158698911757785` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201455 has offset 0).
 
-The definition of A201455 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A201455 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+4*a(n-2)` (program `A201455.P10168158698911757785`, by `A201455.P10168158698911757785.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A201455.P16680651434910017143
 
 `4^n+(-1)^n`
-
-The canonical program, it is in `Seq.B000.C024`.
 -/
+
+namespace A201455.P16680651434910017143
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (4 ^ n : ℤ) + (-1) ^ n
+
+end
+
+end A201455.P16680651434910017143
 
 namespace A201455
 
@@ -2213,6 +2216,39 @@ def P16680651434910017143.Spec : Prop :=
   ∀ n, P16680651434910017143.a n = A201455 n
 
 theorem P16680651434910017143.correct : P16680651434910017143.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A201455, Nat.add_sub_cancel, A201455.P16680651434910017143.a, A201455.P10168158698911757785.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A201455, Nat.add_sub_cancel, A201455.P16680651434910017143.a, A201455.P10168158698911757785.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A201455
+
+/-! ## A201455.P10168158698911757785
+
+`3*a(n-1)+4*a(n-2)` with `a(0)=2, a(1)=3`
+
+The canonical program, it is in `Seq.B000.C025`.
+-/
+
+namespace A201455
+
+/-- `3*a(n-1)+4*a(n-2)` -/
+def P10168158698911757785.Spec : Prop :=
+  ∀ n, (P10168158698911757785.a n : ℤ) = A201455 n
+
+theorem P10168158698911757785.correct : P10168158698911757785.Spec := by
   intro n
   simp only [A201455]
 
@@ -2309,7 +2345,7 @@ end A201458.P4522557636920950025
 /-!
 # A201461: Triangle read by rows: n-th row (n>=0) gives coefficients of the polynomial ((x+1)^(2^n) + (x-1)^(2^n))/2.
 
-The programs for A201461, the canonical program `A201461.P15060642789857487320` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201461 has offset 0).
+The programs for A201461, the canonical program `A201461.P15060642789857487320` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201461 has offset 0).
 
 The definition of A201461 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 308 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2347,7 +2383,7 @@ end A201461
 
 `A345135(2*A103354(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A201461
@@ -2915,7 +2951,7 @@ end A201470.P6213497274623669625
 /-!
 # A201471: Maximal diameter of a connected n-gamma_t-vertex-critical graph.
 
-The programs for A201471, the canonical program `A201471.P12147765584364781612` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201471 has offset 3).
+The programs for A201471, the canonical program `A201471.P12147765584364781612` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201471 has offset 3).
 
 The definition of A201471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2924,7 +2960,7 @@ The definition of A201471 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+gcd(n, a(n-2))+a(n-2)%2` with `a(0)=3, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A201471
@@ -2942,7 +2978,7 @@ end A201471
 /-!
 # A201472: The Griesmer lower bound q_4(5,n) on the length of a linear code over GF(4) of dimension 5 and minimal distance n.
 
-The programs for A201472, the canonical program `A201472.P5824991615880253569` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201472 has offset 1).
+The programs for A201472, the canonical program `A201472.P5824991615880253569` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201472 has offset 1).
 
 The definition of A201472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2951,7 +2987,7 @@ The definition of A201472 is `conjectured`: the Lean definition is a formula tha
 
 `a(floor(n/4))+n` with `a(0)=5`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A201472
@@ -3546,7 +3582,7 @@ end A201473.P1818001633457932612
 /-!
 # A201474: Primes of the form 2n^2 + 5.
 
-The programs for A201474, the canonical program `A201474.P16685138752624601872` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201474 has offset 1).
+The programs for A201474, the canonical program `A201474.P16685138752624601872` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201474 has offset 1).
 
 The definition of A201474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 139 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3555,7 +3591,7 @@ The definition of A201474 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*n²+5]`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A201474

@@ -5,34 +5,36 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C023
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -41,22 +43,23 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2219,7 +2222,7 @@ end A279435.P595761185271047319
 /-!
 # A279436: Number of nonprimes less than or equal to n that do not divide n.
 
-The programs for A279436, the canonical program `A279436.P15978742674708459391` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279436 has offset 1).
+The programs for A279436, the canonical program `A279436.P15978742674708459391` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279436 has offset 1).
 
 The definition of A279436 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A033273, A062298, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2228,7 +2231,7 @@ The definition of A279436 is `conditional`: the Lean definition is an OEIS formu
 
 `A062298(n+1)-A033273(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A279436
@@ -2286,6 +2289,29 @@ namespace A279436
 /-- `A229109(n+1)-A082514(n+1)` -/
 def P3362543716616657825.Spec : Prop :=
   ∀ n, P3362543716616657825.a n = A279436 (n + 1)
+
+end A279436
+
+/-! ## A279436.P16486883233854827846
+
+`n+1-A000720(n+1)-A000005(n+1)+A001221(n+1)`
+-/
+
+namespace A279436.P16486883233854827846
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - A000720 (n + 1) - A000005 (n + 1) + A001221 (n + 1)
+
+end
+
+end A279436.P16486883233854827846
+
+namespace A279436
+
+/-- `n+1-A000720(n+1)-A000005(n+1)+A001221(n+1)` -/
+def P16486883233854827846.Spec : Prop :=
+  ∀ n, P16486883233854827846.a n = A279436 (n + 1)
 
 end A279436
 
@@ -2476,27 +2502,55 @@ end A279436
 /-!
 # A279437: Number of ways to place 3 points on an n X n square grid so that no more than 2 points are on a vertical or horizontal straight line.
 
-The programs for A279437, the canonical program `A279437.P10191852344145387021` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279437 has offset 1).
+The programs for A279437, the canonical program `A279437.P13701572916165437270` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279437 has offset 1).
 
-The definition of A279437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A279437 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A279437.P13701572916165437270
+
+`((n+1)^6-5*(n+1)^4+6*(n+1)^3-2*(n+1)²)/6`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A279437
+
+/-- `((n+1)^6-5*(n+1)^4+6*(n+1)^3-2*(n+1)²)/6` -/
+def P13701572916165437270.Spec : Prop :=
+  ∀ n, P13701572916165437270.a n = (A279437 (n + 1) : ℚ)
+
+end A279437
 
 /-! ## A279437.P10191852344145387021
 
 `∑[n]*∑[∑[A187297(n+1)]]`
-
-The canonical program, it is in `Seq.B001.C008`.
 -/
+
+namespace A279437.P10191852344145387021
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A187297 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) * (∑ j ∈ Finset.range (n + 1), f2 j)
+
+end
+
+end A279437.P10191852344145387021
 
 namespace A279437
 
 /-- `∑[n]*∑[∑[A187297(n+1)]]` -/
 def P10191852344145387021.Spec : Prop :=
   ∀ n, P10191852344145387021.a n = A279437 (n + 1)
-
-theorem P10191852344145387021.correct : P10191852344145387021.Spec := by
-  intro n
-  simp only [A279437, Nat.add_sub_cancel]
 
 end A279437
 
@@ -2758,6 +2812,29 @@ def P14681705351184814402.Spec : Prop :=
   ∀ n, P14681705351184814402.a n = A279437 (n + 1)
 
 end A279437
+
+/-!
+# A279438: Number of ways to place 4 points on an n X n square grid so that no more than 2 points are on a vertical or horizontal straight line.
+
+The programs for A279438, the canonical program `A279438.P8790361473619514912` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279438 has offset 1).
+
+The definition of A279438 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A279438.P8790361473619514912
+
+`((n+1)^6-14*(n+1)^4+30*(n+1)^3-17*(n+1)²-6*(n+1)+6)*(n+1)²/24`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A279438
+
+/-- `((n+1)^6-14*(n+1)^4+30*(n+1)^3-17*(n+1)²-6*(n+1)+6)*(n+1)²/24` -/
+def P8790361473619514912.Spec : Prop :=
+  ∀ n, P8790361473619514912.a n = (A279438 (n + 1) : ℚ)
+
+end A279438
 
 /-!
 # A279441: Number of ways to place 7 points on an n X n square grid so that no more than 2 points are on a vertical or horizontal straight line.
@@ -3201,7 +3278,7 @@ end A279452.P18399219691000747405
 /-!
 # A279455: Numbers n such that the number of nonprime divisors of n divides n.
 
-The programs for A279455, the canonical program `A279455.P2237740548424145724` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279455 has offset 1).
+The programs for A279455, the canonical program `A279455.P2237740548424145724` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279455 has offset 1).
 
 The definition of A279455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3210,7 +3287,7 @@ The definition of A279455 is `conjectured`: the Lean definition is a formula tha
 
 `lt[(n+1)%A033273(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A279455
@@ -3729,7 +3806,7 @@ end A279456
 /-!
 # A279457: Numbers k such that number of distinct primes dividing k is odd and number of prime divisors (counted with multiplicity) of k is odd.
 
-The programs for A279457, the canonical program `A279457.P2488202562983807817` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279457 has offset 1).
+The programs for A279457, the canonical program `A279457.P2488202562983807817` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279457 has offset 1).
 
 The definition of A279457 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7355 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3764,7 +3841,7 @@ end A279457
 
 `∩[A026422(n+1), A030230(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A279457
@@ -4205,7 +4282,7 @@ end A279457
 /-!
 # A279458: Numbers k such that number of distinct primes dividing k is even and number of prime divisors (counted with multiplicity) of k is even.
 
-The programs for A279458, the canonical program `A279458.P16976233013369130140` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279458 has offset 1).
+The programs for A279458, the canonical program `A279458.P16976233013369130140` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279458 has offset 1).
 
 The definition of A279458 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4240,7 +4317,7 @@ end A279458
 
 `∩[A028260(n+1), A030231(n+1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A279458

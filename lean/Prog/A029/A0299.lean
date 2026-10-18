@@ -10,13 +10,13 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -24,20 +24,22 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -64,11 +66,13 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5973,10 +5977,25 @@ end A029937.P6112075891689187297
 /-!
 # A029938: a(n) = (p-5)(p-7)/24, where p=prime(n).
 
-The programs for A029938, the canonical program `A029938.P13505322335970789005` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029938 has offset 3).
+The programs for A029938, the canonical program `A029938.P12336778165022596045` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029938 has offset 3).
 
-The definition of A029938 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A029938 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A029938.P12336778165022596045
+
+`(A000040(n+3)-5)*(A000040(n+3)-7)/24`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A029938
+
+/-- `(A000040(n+3)-5)*(A000040(n+3)-7)/24` -/
+def P12336778165022596045.Spec : Prop :=
+  ∀ n, P12336778165022596045.a n = (A029938 (n + 3) : ℚ)
+
+end A029938
 
 /-! ## A029938.P5486179168688584881
 
@@ -6007,19 +6026,26 @@ end A029938
 /-! ## A029938.P13505322335970789005
 
 `A024702(n+3)-∑[A028334(n+2)]`
-
-The canonical program, it is in `Seq.B004.C000`.
 -/
+
+namespace A029938.P13505322335970789005
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028334 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024702 (n + 3) - ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A029938.P13505322335970789005
 
 namespace A029938
 
 /-- `A024702(n+3)-∑[A028334(n+2)]` -/
 def P13505322335970789005.Spec : Prop :=
   ∀ n, P13505322335970789005.a n = A029938 (n + 3)
-
-theorem P13505322335970789005.correct : P13505322335970789005.Spec := by
-  intro n
-  simp only [A029938, Nat.add_sub_cancel]
 
 end A029938
 
@@ -6394,33 +6420,10 @@ def P9167461031660365368.Spec : Prop :=
 
 end A029938
 
-/-! ## A029938.P14273341421549715633
-
-`A091848(A000040(n+3)-4)`
--/
-
-namespace A029938.P14273341421549715633
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091848 (A000040 (n + 3) - 4).toNat
-
-end
-
-end A029938.P14273341421549715633
-
-namespace A029938
-
-/-- `A091848(A000040(n+3)-4)` -/
-def P14273341421549715633.Spec : Prop :=
-  ∀ n, P14273341421549715633.a n = A029938 (n + 3)
-
-end A029938
-
 /-!
 # A029939: a(n) = Sum_{d|n} phi(d)^2.
 
-The programs for A029939, the canonical program `A029939.P6455013968657218712` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029939 has offset 1).
+The programs for A029939, the canonical program `A029939.P6455013968657218712` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029939 has offset 1).
 
 The definition of A029939 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6455,7 +6458,7 @@ end A029939
 
 `∑{d}[n+1, A000010(#)²]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A029939
@@ -6756,7 +6759,7 @@ end A029939
 /-!
 # A029940: a(n) = Product_{d|n} phi(d).
 
-The programs for A029940, the canonical program `A029940.P9006398651141651236` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029940 has offset 1).
+The programs for A029940, the canonical program `A029940.P9006398651141651236` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029940 has offset 1).
 
 The definition of A029940 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6765,7 +6768,7 @@ The definition of A029940 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[n+1, A000010(#)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A029940

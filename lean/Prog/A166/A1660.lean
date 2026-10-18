@@ -18,19 +18,22 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,21 +43,19 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -68,6 +69,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,11 +84,10 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C014
+import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -1217,7 +1219,7 @@ end A166007.P16363337816379000691
 /-!
 # A166008: Number of ones in the binary representation of the average of twin prime pairs.
 
-The programs for A166008, the canonical program `A166008.P17506385708183436631` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166008 has offset 1).
+The programs for A166008, the canonical program `A166008.P17506385708183436631` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166008 has offset 1).
 
 The definition of A166008 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014574, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1226,7 +1228,7 @@ The definition of A166008 is `conditional`: the Lean definition is an OEIS formu
 
 `A000120(A014574(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A166008
@@ -5569,27 +5571,50 @@ end A166031.P10720506939015830111
 /-!
 # A166033: a(n) = 11/4 +11*n/2 + 29*(-1)^n/4.
 
-The programs for A166033, the canonical program `A166033.P3496725411339630437` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166033 has offset 1).
+The programs for A166033, the canonical program `A166033.P2166371400738277460` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166033 has offset 1).
 
-The definition of A166033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A166033 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A166033.P3496725411339630437
+/-! ## A166033.P2166371400738277460
 
-`a(n-2)+11` with `a(0)=1, a(1)=21`
+`11*(n+1)-a(n-1)` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A166033
 
+/-- `11*(n+1)-a(n-1)` -/
+def P2166371400738277460.Spec : Prop :=
+  ∀ n, P2166371400738277460.a n = A166033 (n + 1)
+
+theorem P2166371400738277460.correct : P2166371400738277460.Spec := by
+  intro n
+  simp only [A166033, Nat.add_sub_cancel]
+
+end A166033
+
+/-! ## A166033.P3496725411339630437
+
+`a(n-2)+11` with `a(0)=1, a(1)=21`
+-/
+
+namespace A166033.P3496725411339630437
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 21] fun n a =>
+  a (n - 2) + 11
+
+end
+
+end A166033.P3496725411339630437
+
+namespace A166033
+
 /-- `a(n-2)+11` -/
 def P3496725411339630437.Spec : Prop :=
   ∀ n, (P3496725411339630437.a n : ℤ) = A166033 (n + 1)
-
-theorem P3496725411339630437.correct : P3496725411339630437.Spec := by
-  intro n
-  simp only [A166033, Nat.add_sub_cancel]
 
 end A166033
 
@@ -6007,29 +6032,6 @@ namespace A166033
 /-- `A166523(n+1)+A166524(n+1)-A166521(n+1)` -/
 def P13834206534014312641.Spec : Prop :=
   ∀ n, P13834206534014312641.a n = A166033 (n + 1)
-
-end A166033
-
-/-! ## A166033.P16348763070053062986
-
-`A166523(n+1)+A166525(n+1)-A166522(n+1)`
--/
-
-namespace A166033.P16348763070053062986
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A166523 (n + 1) + (A166525 (n + 1) - A166522 (n + 1))
-
-end
-
-end A166033.P16348763070053062986
-
-namespace A166033
-
-/-- `A166523(n+1)+A166525(n+1)-A166522(n+1)` -/
-def P16348763070053062986.Spec : Prop :=
-  ∀ n, P16348763070053062986.a n = A166033 (n + 1)
 
 end A166033
 
@@ -10650,7 +10652,7 @@ end A166061
 /-!
 # A166062: a(n) = denominator(Bernoulli(prime(n) - 1)).
 
-The programs for A166062, the canonical program `A166062.P18383124327508039970` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166062 has offset 1).
+The programs for A166062, the canonical program `A166062.P18383124327508039970` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166062 has offset 1).
 
 The definition of A166062 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11048,7 +11050,7 @@ end A166062
 
 `A141056(A000040(n+1)-1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A166062
@@ -13492,7 +13494,7 @@ end A166079
 /-!
 # A166080: Nonprimes of the form (k^2+1)/2.
 
-The programs for A166080, the canonical program `A166080.P16349895722489351659` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166080 has offset 1).
+The programs for A166080, the canonical program `A166080.P16349895722489351659` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166080 has offset 1).
 
 The definition of A166080 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8355 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13501,7 +13503,7 @@ The definition of A166080 is `conjectured`: the Lean definition is a formula tha
 
 `A001844(comp[A027861(n+1)])`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A166080

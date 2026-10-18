@@ -6,10 +6,12 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -32,12 +34,15 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -61,14 +66,16 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -94,7 +101,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -3633,27 +3639,53 @@ end A032923.P16709151497470704254
 /-!
 # A032924: Numbers whose ternary expansion contains no 0.
 
-The programs for A032924, the canonical program `A032924.P10145164877107657817` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032924 has offset 1).
+The programs for A032924, the canonical program `A032924.P18310276245285467851` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032924 has offset 1).
 
-The definition of A032924 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A032924 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A032924.P18310276245285467851
+
+`A107680(n+1)+A107681(n+1)`
+
+The canonical program, it is in `Seq.B003.C000`.
+-/
+
+namespace A032924
+
+/-- `A107680(n+1)+A107681(n+1)` -/
+def P18310276245285467851.Spec : Prop :=
+  ∀ n, P18310276245285467851.a n = A032924 (n + 1)
+
+theorem P18310276245285467851.correct : P18310276245285467851.Spec := by
+  intro n
+  simp only [A032924, Nat.add_sub_cancel]
+
+end A032924
 
 /-! ## A032924.P10145164877107657817
 
 `record[3*a(floor(n/2))+n-2*floor(n/2)+1]` with `a(0)=1, a(1)=0`
-
-The canonical program, it is in `Seq.B000.C005`.
 -/
+
+namespace A032924.P10145164877107657817
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 0] fun n f1 =>
+  3 * f1 ⌊(n : ℚ) / 2⌋.toNat + ((n : ℤ) - 2 * ⌊(n : ℚ) / 2⌋) + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A032924.P10145164877107657817
 
 namespace A032924
 
 /-- `record[3*a(floor(n/2))+n-2*floor(n/2)+1]` -/
 def P10145164877107657817.Spec : Prop :=
   ∀ n, P10145164877107657817.a n = A032924 (n + 1)
-
-theorem P10145164877107657817.correct : P10145164877107657817.Spec := by
-  intro n
-  simp only [A032924, Nat.add_sub_cancel]
 
 end A032924
 
@@ -4115,35 +4147,6 @@ namespace A032924
 /-- `eq[A011655(n), A054390(n)]` -/
 def P10052888397391619780.Spec : Prop :=
   ∀ n, (P10052888397391619780.a n : ℤ) = A032924 (n + 1)
-
-end A032924
-
-/-! ## A032924.P15468049973986345747
-
-`eq[A014578(n), A054390(n)]`
--/
-
-namespace A032924.P15468049973986345747
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014578 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054390 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A032924.P15468049973986345747
-
-namespace A032924
-
-/-- `eq[A014578(n), A054390(n)]` -/
-def P15468049973986345747.Spec : Prop :=
-  ∀ n, (P15468049973986345747.a n : ℤ) = A032924 (n + 1)
 
 end A032924
 

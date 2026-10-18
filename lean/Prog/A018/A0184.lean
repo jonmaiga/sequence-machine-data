@@ -6,15 +6,17 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -22,6 +24,8 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -30,11 +34,9 @@ import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -42,9 +44,15 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C001
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6473,8 +6481,25 @@ end A018486.P4748409832598951195
 /-!
 # A018487: Divisors of 496.
 
-The programs for A018487, there is no canonical definition to state claims against.
+The programs for A018487, the canonical program `A018487.P11970063717555995275` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018487 has offset 1).
+
+The definition of A018487 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A018487.P11970063717555995275
+
+`2^(n-5)*(32-floor((n+1)/6))`
+
+The canonical program, it is in `Seq.B000.C003`.
+-/
+
+namespace A018487
+
+/-- `2^(n-5)*(32-floor((n+1)/6))` -/
+def P11970063717555995275.Spec : Prop :=
+  ∀ n, P11970063717555995275.a n = (A018487 (n + 1) : ℚ)
+
+end A018487
 
 /-! ## A018487.P11298174061597809411
 
@@ -6491,6 +6516,14 @@ end
 
 end A018487.P11298174061597809411
 
+namespace A018487
+
+/-- `ceil(2^(cos(ϕ)+n))` -/
+def P11298174061597809411.Spec : Prop :=
+  ∀ n, P11298174061597809411.a n = A018487 (n + 1)
+
+end A018487
+
 /-! ## A018487.P8514877908583005664
 
 `ceil(2^(cot(ϕ)+n))`
@@ -6505,6 +6538,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018487.P8514877908583005664
+
+namespace A018487
+
+/-- `ceil(2^(cot(ϕ)+n))` -/
+def P8514877908583005664.Spec : Prop :=
+  ∀ n, P8514877908583005664.a n = A018487 (n + 1)
+
+end A018487
 
 /-! ## A018487.P14295011334714608754
 
@@ -6525,20 +6566,13 @@ end
 
 end A018487.P14295011334714608754
 
-/-! ## A018487.P14392432730379470640
+namespace A018487
 
-`ceil((30*2^n+1)/31)`
--/
+/-- `2*a(n-1)-char[5]` -/
+def P14295011334714608754.Spec : Prop :=
+  ∀ n, P14295011334714608754.a n = A018487 (n + 1)
 
-namespace A018487.P14392432730379470640
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(30 * 2 ^ n + 1 : ℚ) / 31⌉
-
-end
-
-end A018487.P14392432730379470640
+end A018487
 
 /-! ## A018487.P712855832468364650
 
@@ -6554,6 +6588,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018487.P712855832468364650
+
+namespace A018487
+
+/-- `round(sqrt(4^n*cos(π/9)))` -/
+def P712855832468364650.Spec : Prop :=
+  ∀ n, P712855832468364650.a n = A018487 (n + 1)
+
+end A018487
 
 /-!
 # A018488: Divisors of 498.

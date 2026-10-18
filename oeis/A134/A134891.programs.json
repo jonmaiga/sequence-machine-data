@@ -16,6 +16,10 @@
         "exp",
         "*",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

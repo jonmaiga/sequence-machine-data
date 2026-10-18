@@ -4,10 +4,10 @@ import Seq.B000.C001
 import Seq.B000.C005
 import Seq.B000.C017
 import Seq.B001.C000
-import Seq.B001.C003
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B004.C002
+import Seq.B002.C002
+import Seq.B004.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -20,7 +20,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C008
 import Seq.Opaque.C010
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 
 /-!
 # A010670: Decimal expansion of cube root of 100.

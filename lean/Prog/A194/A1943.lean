@@ -12,20 +12,23 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,25 +37,26 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
@@ -60,6 +64,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,8 +89,8 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A194301: Triangular array: g(n,k)=number of fractional parts (i*sqrt(5)) in interval [(k-1)/n, k/n], for 1<=i<=n, 1<=k<=n.
@@ -4048,6 +4053,21 @@ end A194345.P16788909895496726843
 The programs for A194349, there is no canonical definition to state claims against.
 -/
 
+/-! ## A194349.P10770945776453404624
+
+`A100097(n+2)*n!/2^(n+1)`
+-/
+
+namespace A194349.P10770945776453404624
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A100097 (n + 2) * (Nat.factorial n : ℤ) : ℚ) / (2 ^ (n + 1) : ℚ)
+
+end
+
+end A194349.P10770945776453404624
+
 /-! ## A194349.P15883880792448186984
 
 `A277211(n)-A059841(A007017(n))`
@@ -4063,25 +4083,10 @@ end
 
 end A194349.P15883880792448186984
 
-/-! ## A194349.P4157955567234198506
-
-`A277211(n)-A010051(A192036(n))`
--/
-
-namespace A194349.P4157955567234198506
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277211 n - A010051 (A192036 n).toNat
-
-end
-
-end A194349.P4157955567234198506
-
 /-!
 # A194350: Numbers covering A000027: a(n) = (1, 1, 2, 5) * A011557(n).
 
-The programs for A194350, the canonical program `A194350.P8431382199481923968` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194350 has offset 1).
+The programs for A194350, the canonical program `A194350.P8431382199481923968` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194350 has offset 1).
 
 The definition of A194350 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4090,7 +4095,7 @@ The definition of A194350 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-4)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=5`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A194350
@@ -4706,6 +4711,21 @@ end A194360.P15514806751019033503
 The programs for A194363, there is no canonical definition to state claims against.
 -/
 
+/-! ## A194363.P9273013656289166772
+
+`A223486(A000040(n+1))`
+-/
+
+namespace A194363.P9273013656289166772
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223486 (A000040 (n + 1)).toNat
+
+end
+
+end A194363.P9273013656289166772
+
 /-! ## A194363.P15474852400306120977
 
 `A223486(record[A051698(n)])`
@@ -4723,21 +4743,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A194363.P15474852400306120977
-
-/-! ## A194363.P9273013656289166772
-
-`A223486(A000040(n+1))`
--/
-
-namespace A194363.P9273013656289166772
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223486 (A000040 (n + 1)).toNat
-
-end
-
-end A194363.P9273013656289166772
 
 /-! ## A194363.P2874492633892408994
 

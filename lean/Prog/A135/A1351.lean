@@ -11,48 +11,49 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -61,11 +62,11 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,10 +86,10 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -488,10 +489,29 @@ end A135123
 /-!
 # A135124: Numbers such that the digital sums in base 2, base 4 and base 8 are all equal.
 
-The programs for A135124, the canonical program `A135124.P8685286244189751684` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135124 has offset 1).
+The programs for A135124, the canonical program `A135124.P15966436925166688135` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135124 has offset 1).
 
-The definition of A135124 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A135124 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000695, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A135124.P15966436925166688135
+
+`A033045(A000695(n+1))`
+
+The canonical program, it is in `Seq.B002.C002`.
+-/
+
+namespace A135124
+
+/-- `A033045(A000695(n+1))` -/
+def P15966436925166688135.Spec : Prop :=
+  ∀ n, P15966436925166688135.a n = A135124 (n + 1)
+
+theorem P15966436925166688135.correct : P15966436925166688135.Spec := by
+  intro n
+  simp only [A135124, Nat.add_sub_cancel]
+
+end A135124
 
 /-! ## A135124.P12987284612263742582
 
@@ -548,19 +568,26 @@ end A135124
 /-! ## A135124.P8685286244189751684
 
 `∑[A284927(A006519(n+1))]`
-
-The canonical program, it is in `Seq.B003.C002`.
 -/
+
+namespace A135124.P8685286244189751684
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284927 (A006519 (n + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A135124.P8685286244189751684
 
 namespace A135124
 
 /-- `∑[A284927(A006519(n+1))]` -/
 def P8685286244189751684.Spec : Prop :=
   ∀ n, P8685286244189751684.a n = A135124 (n + 1)
-
-theorem P8685286244189751684.correct : P8685286244189751684.Spec := by
-  intro n
-  simp only [A135124, Nat.add_sub_cancel]
 
 end A135124
 
@@ -616,29 +643,6 @@ namespace A135124
 /-- `A033045(∑[(∑{d}[2^val(n+1, 2), #²]+1)/2])` -/
 def P10829567118367729337.Spec : Prop :=
   ∀ n, P10829567118367729337.a n = A135124 (n + 1)
-
-end A135124
-
-/-! ## A135124.P15966436925166688135
-
-`A033045(A000695(n+1))`
--/
-
-namespace A135124.P15966436925166688135
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033045 (A000695 (n + 1)).toNat
-
-end
-
-end A135124.P15966436925166688135
-
-namespace A135124
-
-/-- `A033045(A000695(n+1))` -/
-def P15966436925166688135.Spec : Prop :=
-  ∀ n, P15966436925166688135.a n = A135124 (n + 1)
 
 end A135124
 

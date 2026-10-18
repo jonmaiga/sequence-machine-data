@@ -19,6 +19,10 @@
         "log",
         "+",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

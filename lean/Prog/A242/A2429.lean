@@ -16,11 +16,9 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C021
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -32,6 +30,8 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,28 +41,27 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B008.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3290,6 +3289,8 @@ The programs for A242947, there is no canonical definition to state claims again
 /-! ## A242947.P7312857857481031752
 
 `(n+1)/A242926(n)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A242947.P7312857857481031752
@@ -4553,7 +4554,7 @@ end A242962
 /-!
 # A242963: Numbers n such that A242962(n) = sigma(n) = A000203(n).
 
-The programs for A242963, the canonical program `A242963.P8606712474769051266` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242963 has offset 1).
+The programs for A242963, the canonical program `A242963.P8606712474769051266` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242963 has offset 1).
 
 The definition of A242963 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4562,7 +4563,7 @@ The definition of A242963 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[cosh(acot(n)²)])`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A242963
@@ -4668,7 +4669,7 @@ end A242966.P11915196571703922304
 /-!
 # A242971: Alternate n+1, 2^n.
 
-The programs for A242971, the canonical program `A242971.P3007141147253914190` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242971 has offset 0).
+The programs for A242971, the canonical program `A242971.P3007141147253914190` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242971 has offset 0).
 
 The definition of A242971 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 667 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4677,7 +4678,7 @@ The definition of A242971 is `conjectured`: the Lean definition is a formula tha
 
 `a((n-2)*n%2)+a(n-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A242971
@@ -5576,7 +5577,7 @@ end A242979.P12479937861861371802
 /-!
 # A242983: a(n) = (n/2) * (n^3 - 2*n^2 - 2*n + 5).
 
-The programs for A242983, the canonical program `A242983.P5343338815252454514` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242983 has offset 0).
+The programs for A242983, the canonical program `A242983.P5343338815252454514` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242983 has offset 0).
 
 The definition of A242983 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5585,7 +5586,7 @@ The definition of A242983 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n/2*(n^3-2*n²-2*n+5)`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A242983
@@ -5766,7 +5767,7 @@ end A242983
 /-!
 # A242985: a(n) = 4^n + 2^(n+1).
 
-The programs for A242985, the canonical program `A242985.P924288704119484347` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242985 has offset 0).
+The programs for A242985, the canonical program `A242985.P924288704119484347` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242985 has offset 0).
 
 The definition of A242985 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+2^(n+1)` (program `A242985.P924288704119484347`, by `A242985.P924288704119484347.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5775,7 +5776,7 @@ The definition of A242985 is `verified`: the Lean definition is proven equivalen
 
 `4^n+2^(n+1)`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A242985
@@ -5834,6 +5835,23 @@ namespace A242985
 def P11861456556104954323.Spec : Prop :=
   ∀ n, P11861456556104954323.a n = A242985 n
 
+theorem P11861456556104954323.correct : P11861456556104954323.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A242985, Nat.add_sub_cancel, A242985.P11861456556104954323.a, A242985.P924288704119484347.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A242985, Nat.add_sub_cancel, A242985.P11861456556104954323.a, A242985.P924288704119484347.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A242985
 
 /-! ## A242985.P320064527904694117
@@ -5886,6 +5904,24 @@ namespace A242985
 /-- `floor(2*(3*a(n-1)-4*a(n-2)))` -/
 def P64337199593842013.Spec : Prop :=
   ∀ n, P64337199593842013.a n = A242985 n
+
+theorem P64337199593842013.correct : P64337199593842013.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A242985, Nat.add_sub_cancel, A242985.P64337199593842013.a, A242985.P924288704119484347.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A242985, Nat.add_sub_cancel, A242985.P64337199593842013.a, A242985.P924288704119484347.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [h1, h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A242985
 
@@ -6561,8 +6597,25 @@ end A242996.P6704257655077857674
 /-!
 # A242997: a(n) is the order of the group of invertible elements in the semigroup M whose elements are the closed binary operations on an n-point set S and whose operation (on operations, in this case) is given by x AB y = (x B y) A (y B x) for operations A and B on S and points x and y in S.
 
-The programs for A242997, there is no canonical definition to state claims against.
+The programs for A242997, the canonical program `A242997.P5118182839176787555` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242997 has offset 1).
+
+The definition of A242997 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A242997.P5118182839176787555
+
+`(n+1)!*((n+1)*n/2)!*2^((n+1)*n/2)`
+
+The canonical program, it is in `Seq.B000.C028`.
+-/
+
+namespace A242997
+
+/-- `(n+1)!*((n+1)*n/2)!*2^((n+1)*n/2)` -/
+def P5118182839176787555.Spec : Prop :=
+  ∀ n, P5118182839176787555.a n = (A242997 (n + 1) : ℝ)
+
+end A242997
 
 /-! ## A242997.P7246981624669639471
 
@@ -6578,6 +6631,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A242997.P7246981624669639471
+
+namespace A242997
+
+/-- `A000142(n+1)*A000165(A000217(n))` -/
+def P7246981624669639471.Spec : Prop :=
+  ∀ n, P7246981624669639471.a n = A242997 (n + 1)
+
+end A242997
 
 /-!
 # A242998: Number of integers k such that R = (2^k*Q - Q - 1)/(Q + 1 - 2^k) is a prime number, when Q = A000668(n) is the n-th Mersenne prime.

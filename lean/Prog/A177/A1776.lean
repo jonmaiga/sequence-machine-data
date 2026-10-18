@@ -1,13 +1,13 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C026
+import Seq.B000.C018
+import Seq.B000.C027
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -21,21 +21,21 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -727,7 +727,7 @@ end A177686.P8802630132696927359
 /-!
 # A177687: Number of distinct transpositions of digits (zeros and units) in n-th prime written in base 2.
 
-The programs for A177687, the canonical program `A177687.P13636215687742854353` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177687 has offset 1).
+The programs for A177687, the canonical program `A177687.P13636215687742854353` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177687 has offset 1).
 
 The definition of A177687 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -736,7 +736,7 @@ The definition of A177687 is `conditional`: the Lean definition is an OEIS formu
 
 `A178244(A000040(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A177687

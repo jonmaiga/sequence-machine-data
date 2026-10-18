@@ -10,7 +10,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -20,11 +19,10 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C023
+import Seq.B000.C027
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,6 +35,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -45,7 +44,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -55,6 +53,9 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1068,6 +1069,21 @@ end A032603.P1532696280513218541
 The programs for A032605, there is no canonical definition to state claims against.
 -/
 
+/-! ## A032605.P5002616646109150997
+
+`A000040(A000959(n+1))`
+-/
+
+namespace A032605.P5002616646109150997
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (A000959 (n + 1)).toNat
+
+end
+
+end A032605.P5002616646109150997
+
 /-! ## A032605.P11073771009069063962
 
 `A128886(n+1)+A032606(n+1)`
@@ -1097,36 +1113,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032605.P16311944812082125021
-
-/-! ## A032605.P3954799469231747868
-
-`A001749(A000959(n+1))/4`
--/
-
-namespace A032605.P3954799469231747868
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A001749 (A000959 (n + 1)).toNat : ℚ) / 4
-
-end
-
-end A032605.P3954799469231747868
-
-/-! ## A032605.P5002616646109150997
-
-`A000040(A000959(n+1))`
--/
-
-namespace A032605.P5002616646109150997
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (A000959 (n + 1)).toNat
-
-end
-
-end A032605.P5002616646109150997
 
 /-! ## A032605.P2809821057881868912
 
@@ -1413,6 +1399,21 @@ end A032605.P13552187661573066633
 The programs for A032606, there is no canonical definition to state claims against.
 -/
 
+/-! ## A032606.P3372296471764961265
+
+`A000959(A000040(n+1))`
+-/
+
+namespace A032606.P3372296471764961265
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000959 (A000040 (n + 1)).toNat
+
+end
+
+end A032606.P3372296471764961265
+
 /-! ## A032606.P18125743088750821382
 
 `A000959(Δ[A007504(n)])`
@@ -1430,21 +1431,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032606.P18125743088750821382
-
-/-! ## A032606.P3372296471764961265
-
-`A000959(A000040(n+1))`
--/
-
-namespace A032606.P3372296471764961265
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000959 (A000040 (n + 1)).toNat
-
-end
-
-end A032606.P3372296471764961265
 
 /-! ## A032606.P17805557976127959368
 

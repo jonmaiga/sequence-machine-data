@@ -6,36 +6,36 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
-import Seq.B000.C015
+import Seq.B000.C011
 import Seq.B000.C016
-import Seq.B000.C022
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C017
+import Seq.B000.C020
+import Seq.B000.C023
+import Seq.B000.C036
+import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B008.C000
+import Seq.B006.C002
+import Seq.B007.C001
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -48,6 +48,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -55,13 +56,11 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A396000: Denominators k such that the greedy Egyptian fraction expansion of j/k has the smallest possible number of terms, i.e., such that A097847(k,j) = A050205(k,j), for all 1 <= j < k with GCD(k,j) = 1.
@@ -699,7 +698,7 @@ end A396056.P7916136416394638529
 /-!
 # A396059: a(n) is the action of "Rule 90" elementary cellular automaton on the binary representation of n if the cells may only expand into the significant bit.
 
-The programs for A396059, the canonical program `A396059.P9001877094237801459` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396059 has offset 0).
+The programs for A396059, the canonical program `A396059.P9001877094237801459` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396059 has offset 0).
 
 The definition of A396059 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -708,7 +707,7 @@ The definition of A396059 is `conjectured`: the Lean definition is a formula tha
 
 `xor(2*n, floor(n/2))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A396059
@@ -1400,7 +1399,7 @@ end A396072.P3362150164605296572
 /-!
 # A396073: Numbers not of the form Sum_{k=1..m} floor(m/k).
 
-The programs for A396073, the canonical program `A396073.P3494542612140640641` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396073 has offset 1).
+The programs for A396073, the canonical program `A396073.P3494542612140640641` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396073 has offset 1).
 
 The definition of A396073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1409,7 +1408,7 @@ The definition of A396073 is `conjectured`: the Lean definition is a formula tha
 
 `comp[∑[∑{d}[n, ceil(1/#)]]]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A396073

@@ -6,31 +6,32 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C009
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C017
-import Seq.B000.C024
+import Seq.B000.C013
+import Seq.B000.C015
+import Seq.B000.C018
 import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C026
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B002.C000
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B006.C002
 import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -57,6 +58,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -125,7 +127,7 @@ end A345502.P1810228502831403956
 /-!
 # A345503: Numbers that are the sum of nine squares in six or more ways.
 
-The programs for A345503, the canonical program `A345503.P1770597905489137048` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345503 has offset 1).
+The programs for A345503, the canonical program `A345503.P1770597905489137048` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345503 has offset 1).
 
 The definition of A345503 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -134,7 +136,7 @@ The definition of A345503 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=48, a(1)=56, a(2)=57, a(3)=59, a(4)=60, a(5)=62, a(6)=63, a(7)=65, a(8)=66`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A345503
@@ -194,7 +196,7 @@ end A345505.P15987916775189033572
 /-!
 # A345508: Numbers that are the sum of ten squares in one or more ways.
 
-The programs for A345508, the canonical program `A345508.P959311368896046658` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345508 has offset 1).
+The programs for A345508, the canonical program `A345508.P959311368896046658` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345508 has offset 1).
 
 The definition of A345508 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -203,7 +205,7 @@ The definition of A345508 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=10, a(1)=13, a(2)=16, a(3)=18, a(4)=19, a(5)=21, a(6)=22, a(7)=24, a(8)=25`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A345508
@@ -221,7 +223,7 @@ end A345508
 /-!
 # A345509: Numbers that are the sum of ten squares in two or more ways.
 
-The programs for A345509, the canonical program `A345509.P9858117867359923240` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345509 has offset 1).
+The programs for A345509, the canonical program `A345509.P9858117867359923240` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345509 has offset 1).
 
 The definition of A345509 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -230,7 +232,7 @@ The definition of A345509 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=25, a(1)=28, a(2)=31, a(3)=33, a(4)=34, a(5)=36, a(6)=37, a(7)=39, a(8)=40`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A345509
@@ -248,7 +250,7 @@ end A345509
 /-!
 # A345510: Numbers that are the sum of ten squares in three or more ways.
 
-The programs for A345510, the canonical program `A345510.P13563575651637678836` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345510 has offset 1).
+The programs for A345510, the canonical program `A345510.P13563575651637678836` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345510 has offset 1).
 
 The definition of A345510 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -257,7 +259,7 @@ The definition of A345510 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=34, a(1)=37, a(2)=40, a(3)=42, a(4)=43, a(5)=45, a(6)=46, a(7)=48, a(8)=49`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A345510
@@ -1700,27 +1702,73 @@ end A345530.P2536694527237115443
 /-!
 # A345531: Smallest prime power greater than the n-th prime.
 
-The programs for A345531, the canonical program `A345531.P12705087574863347987` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345531 has offset 1).
+The programs for A345531, the canonical program `A345531.P10760789407017531318` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345531 has offset 1).
 
-The definition of A345531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9890 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A345531 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000015, A008864, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A345531.P10760789407017531318
+
+`A000015(A008864(n+1))`
+
+The canonical program, it is in `Seq.B006.C002`.
+-/
+
+namespace A345531
+
+/-- `A000015(A008864(n+1))` -/
+def P10760789407017531318.Spec : Prop :=
+  ∀ n, P10760789407017531318.a n = A345531 (n + 1)
+
+theorem P10760789407017531318.correct : P10760789407017531318.Spec := by
+  intro n
+  simp only [A345531, Nat.add_sub_cancel]
+
+end A345531
+
+/-! ## A345531.P7857124338999864326
+
+`A000015(1+A000040(n+1))`
+-/
+
+namespace A345531.P7857124338999864326
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000015 (1 + A000040 (n + 1)).toNat
+
+end
+
+end A345531.P7857124338999864326
+
+namespace A345531
+
+/-- `A000015(1+A000040(n+1))` -/
+def P7857124338999864326.Spec : Prop :=
+  ∀ n, P7857124338999864326.a n = A345531 (n + 1)
+
+end A345531
 
 /-! ## A345531.P12705087574863347987
 
 `A246655(A024620(n+1))`
-
-The canonical program, it is in `Seq.B006.C001`.
 -/
+
+namespace A345531.P12705087574863347987
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246655 (A024620 (n + 1)).toNat
+
+end
+
+end A345531.P12705087574863347987
 
 namespace A345531
 
 /-- `A246655(A024620(n+1))` -/
 def P12705087574863347987.Spec : Prop :=
   ∀ n, P12705087574863347987.a n = A345531 (n + 1)
-
-theorem P12705087574863347987.correct : P12705087574863347987.Spec := by
-  intro n
-  simp only [A345531, Nat.add_sub_cancel]
 
 end A345531
 
@@ -1927,29 +1975,6 @@ def P15155449659580770978.Spec : Prop :=
 
 end A345531
 
-/-! ## A345531.P10760789407017531318
-
-`A000015(A008864(n+1))`
--/
-
-namespace A345531.P10760789407017531318
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000015 (A008864 (n + 1)).toNat
-
-end
-
-end A345531.P10760789407017531318
-
-namespace A345531
-
-/-- `A000015(A008864(n+1))` -/
-def P10760789407017531318.Spec : Prop :=
-  ∀ n, P10760789407017531318.a n = A345531 (n + 1)
-
-end A345531
-
 /-! ## A345531.P15951065544275101368
 
 `A000015(A028815(n+1))`
@@ -2062,29 +2087,6 @@ namespace A345531
 /-- `A120635(A182986(n+2))` -/
 def P7136416044582589926.Spec : Prop :=
   ∀ n, P7136416044582589926.a n = A345531 (n + 1)
-
-end A345531
-
-/-! ## A345531.P13406081139843971003
-
-`A000015(A000040(n+1)+1)`
--/
-
-namespace A345531.P13406081139843971003
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000015 (A000040 (n + 1) + 1).toNat
-
-end
-
-end A345531.P13406081139843971003
-
-namespace A345531
-
-/-- `A000015(A000040(n+1)+1)` -/
-def P13406081139843971003.Spec : Prop :=
-  ∀ n, P13406081139843971003.a n = A345531 (n + 1)
 
 end A345531
 

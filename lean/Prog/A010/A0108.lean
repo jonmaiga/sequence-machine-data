@@ -9,15 +9,16 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C024
+import Seq.B000.C025
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,22 +35,23 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -69,6 +71,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -3750,20 +3753,20 @@ end A010846.P13397887177172040691
 The programs for A010847, there is no canonical definition to state claims against.
 -/
 
-/-! ## A010847.P17558999921692372517
+/-! ## A010847.P7704435999083110322
 
-`1-A010846(n+1)+n`
+`n+1-A010846(n+1)`
 -/
 
-namespace A010847.P17558999921692372517
+namespace A010847.P7704435999083110322
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A010846 (n + 1) + (n : ℤ)
+  (n + 1 : ℤ) - A010846 (n + 1)
 
 end
 
-end A010847.P17558999921692372517
+end A010847.P7704435999083110322
 
 /-! ## A010847.P10107141285359989353
 
@@ -3912,27 +3915,53 @@ end A010847.P3744670460180797628
 /-!
 # A010848: Number of numbers k <= n such that at least one prime factor of n is not a prime factor of k.
 
-The programs for A010848, the canonical program `A010848.P4188546673702462540` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010848 has offset 1).
+The programs for A010848, the canonical program `A010848.P2527659660694357650` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010848 has offset 1).
 
-The definition of A010848 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A010848 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003557, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A010848.P2527659660694357650
+
+`n+1-A003557(n+1)`
+
+The canonical program, it is in `Seq.B002.C000`.
+-/
+
+namespace A010848
+
+/-- `n+1-A003557(n+1)` -/
+def P2527659660694357650.Spec : Prop :=
+  ∀ n, P2527659660694357650.a n = A010848 (n + 1)
+
+theorem P2527659660694357650.correct : P2527659660694357650.Spec := by
+  intro n
+  simp only [A010848, Nat.add_sub_cancel]
+
+end A010848
 
 /-! ## A010848.P4188546673702462540
 
 `n-floor(n/∏{p}[n+1, #])`
-
-The canonical program, it is in `Seq.B000.C001`.
 -/
+
+namespace A010848.P4188546673702462540
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - ⌊(n : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ)⌋
+
+end
+
+end A010848.P4188546673702462540
 
 namespace A010848
 
 /-- `n-floor(n/∏{p}[n+1, #])` -/
 def P4188546673702462540.Spec : Prop :=
   ∀ n, P4188546673702462540.a n = A010848 (n + 1)
-
-theorem P4188546673702462540.correct : P4188546673702462540.Spec := by
-  intro n
-  simp only [A010848, Nat.add_sub_cancel]
 
 end A010848
 
@@ -4034,29 +4063,6 @@ namespace A010848
 /-- `∑{d}[n+1, A300718(#)]` -/
 def P11393904177033719545.Spec : Prop :=
   ∀ n, P11393904177033719545.a n = A010848 (n + 1)
-
-end A010848
-
-/-! ## A010848.P7702179030924808101
-
-`1-A003557(n+1)+n`
--/
-
-namespace A010848.P7702179030924808101
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A003557 (n + 1) + (n : ℤ)
-
-end
-
-end A010848.P7702179030924808101
-
-namespace A010848
-
-/-- `1-A003557(n+1)+n` -/
-def P7702179030924808101.Spec : Prop :=
-  ∀ n, P7702179030924808101.a n = A010848 (n + 1)
 
 end A010848
 

@@ -12,23 +12,22 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,12 +37,11 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -57,13 +55,18 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,6 +81,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -89,7 +93,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2545,7 +2548,7 @@ end A029714
 /-!
 # A029715: a(n) = Sum_{k divides 2^n} S(k), where S is the Kempner function A002034.
 
-The programs for A029715, the canonical program `A029715.P4140309927833293615` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029715 has offset 0).
+The programs for A029715, the canonical program `A029715.P4140309927833293615` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029715 has offset 0).
 
 The definition of A029715 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2614,7 +2617,7 @@ end A029715
 
 `∑[A007843(n)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A029715
@@ -7632,6 +7635,29 @@ def P3884112080944504870.Spec : Prop :=
 
 end A029744
 
+/-! ## A029744.P12102587352024054644
+
+`A064216(A246360(n+1))`
+-/
+
+namespace A029744.P12102587352024054644
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064216 (A246360 (n + 1)).toNat
+
+end
+
+end A029744.P12102587352024054644
+
+namespace A029744
+
+/-- `A064216(A246360(n+1))` -/
+def P12102587352024054644.Spec : Prop :=
+  ∀ n, P12102587352024054644.a n = A029744 (n + 1)
+
+end A029744
+
 /-! ## A029744.P10368890534572825039
 
 `∑[2^∑[char[2*(n+2)]]]`
@@ -8039,29 +8065,6 @@ namespace A029744
 /-- `A016116(n+1)+A074323(n)-A016116(n)` -/
 def P13913680677206446402.Spec : Prop :=
   ∀ n, P13913680677206446402.a n = A029744 (n + 1)
-
-end A029744
-
-/-! ## A029744.P17730049262320496109
-
-`A016116(n)+A060546(n)-A158780(n+1)`
--/
-
-namespace A029744.P17730049262320496109
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016116 n + (A060546 n - A158780 (n + 1))
-
-end
-
-end A029744.P17730049262320496109
-
-namespace A029744
-
-/-- `A016116(n)+A060546(n)-A158780(n+1)` -/
-def P17730049262320496109.Spec : Prop :=
-  ∀ n, P17730049262320496109.a n = A029744 (n + 1)
 
 end A029744
 
@@ -11792,7 +11795,7 @@ end A029761.P1960939855220836791
 /-!
 # A029763: Denominator of Bernoulli(2n+2) - Bernoulli(2n).
 
-The programs for A029763, the canonical program `A029763.P9262175537561063165` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029763 has offset 0).
+The programs for A029763, the canonical program `A029763.P9262175537561063165` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029763 has offset 0).
 
 The definition of A029763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 643 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11847,7 +11850,7 @@ end A029763
 
 `A027762(n+1)/A020793(n)*A177735(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A029763
@@ -11907,7 +11910,7 @@ end A029763
 /-!
 # A029765: Denominator of |Bernoulli(2n+2)| - |Bernoulli(2n)|.
 
-The programs for A029765, the canonical program `A029765.P12397679119740762320` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029765 has offset 0).
+The programs for A029765, the canonical program `A029765.P12397679119740762320` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029765 has offset 0).
 
 The definition of A029765 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 643 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11916,7 +11919,7 @@ The definition of A029765 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(3, A029763(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A029765

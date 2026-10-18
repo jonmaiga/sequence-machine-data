@@ -9,36 +9,35 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -57,6 +56,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2434,6 +2434,8 @@ The programs for A352931, there is no canonical definition to state claims again
 /-! ## A352931.P8251909526830579696
 
 `A093714(n+1)-(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A352931.P8251909526830579696
@@ -2872,6 +2874,8 @@ The programs for A352935, there is no canonical definition to state claims again
 /-! ## A352935.P7028356519105492468
 
 `A121216(n+1)-(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A352935.P7028356519105492468
@@ -5497,7 +5501,7 @@ end A352978.P13120281488675044492
 /-!
 # A352979: a(n) = Sum_{k=1..n} Sum_{j=1..k} Sum_{i=1..j} (k*j*i)^3.
 
-The programs for A352979, the canonical program `A352979.P6795934592847810606` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352979 has offset 0).
+The programs for A352979, the canonical program `A352979.P6795934592847810606` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352979 has offset 0).
 
 The definition of A352979 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5506,7 +5510,7 @@ The definition of A352979 is `conjectured`: the Lean definition is a formula tha
 
 `∑[n^3*∑[∑[n]²*n^3]]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A352979
@@ -6227,27 +6231,50 @@ end A352993.P15211417951884778397
 /-!
 # A352994: Number of copies of the star graph S(2,2,1) contained within the n-dimensional hypercube graph.
 
-The programs for A352994, the canonical program `A352994.P3699686715654430495` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352994 has offset 1).
+The programs for A352994, the canonical program `A352994.P17610032726588274285` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352994 has offset 1).
 
-The definition of A352994 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 292 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A352994 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A352994.P17610032726588274285
+
+`2^(n+1)*C(n+1, 3)*3*(n+1)*(n-1)`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A352994
+
+/-- `2^(n+1)*C(n+1, 3)*3*(n+1)*(n-1)` -/
+def P17610032726588274285.Spec : Prop :=
+  ∀ n, P17610032726588274285.a n = A352994 (n + 1)
+
+theorem P17610032726588274285.correct : P17610032726588274285.Spec := by
+  intro n
+  simp only [A352994, Nat.add_sub_cancel]
+
+end A352994
 
 /-! ## A352994.P3699686715654430495
 
 `n*(1-n²)²*2^n`
-
-The canonical program, it is in `Seq.B000.C032`.
 -/
+
+namespace A352994.P3699686715654430495
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * ((1 - (n ^ 2 : ℤ)) ^ 2 * (2 ^ n : ℤ))
+
+end
+
+end A352994.P3699686715654430495
 
 namespace A352994
 
 /-- `n*(1-n²)²*2^n` -/
 def P3699686715654430495.Spec : Prop :=
   ∀ n, P3699686715654430495.a n = A352994 (n + 1)
-
-theorem P3699686715654430495.correct : P3699686715654430495.Spec := by
-  intro n
-  simp only [A352994, Nat.add_sub_cancel]
 
 end A352994
 

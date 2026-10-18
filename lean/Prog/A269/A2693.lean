@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -9,7 +10,6 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -18,14 +18,14 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B001.C000
@@ -47,18 +47,15 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -66,6 +63,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,6 +88,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A269301: Normalization coefficients for quantum Pascal's pyramid, numerators of: T(n,k,m) = ((n - m)! m!)/(2^n (n - k)! k!).
@@ -322,7 +324,7 @@ end A269303.P9299074370465088293
 /-!
 # A269304: a(n) = n + n/gpf(n) + 1, where gpf(n) is the greatest prime factor of n or 1 if n = 1.
 
-The programs for A269304, the canonical program `A269304.P14712291761484115228` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269304 has offset 1).
+The programs for A269304, the canonical program `A269304.P14712291761484115228` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269304 has offset 1).
 
 The definition of A269304 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -377,7 +379,7 @@ end A269304
 
 `2*n+3-A171462(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A269304
@@ -792,7 +794,7 @@ end A269304
 /-!
 # A269305: 2^n mod 27 successively displaced by 0, 3, 6, 9, etc.
 
-The programs for A269305, the canonical program `A269305.P1797455579722960803` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269305 has offset 0).
+The programs for A269305, the canonical program `A269305.P1797455579722960803` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269305 has offset 0).
 
 The definition of A269305 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -801,7 +803,7 @@ The definition of A269305 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^n+3*floor(n/18))%27`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A269305
@@ -2064,9 +2066,9 @@ end A269341.P15375090040773067321
 /-!
 # A269342: a(n) = (n + 1)*(2*n + 1)*(4*n + 9)/3.
 
-The programs for A269342, the canonical program `A269342.P7105143798630874600` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269342 has offset 0).
+The programs for A269342, the canonical program `A269342.P7105143798630874600` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269342 has offset 0).
 
-The definition of A269342 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A269342 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(2*n+1)*(4*n+9)/3` (program `A269342.P14317069173523161264`, by `A269342.P14317069173523161264.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A269342.P14317069173523161264
@@ -2092,13 +2094,33 @@ namespace A269342
 def P14317069173523161264.Spec : Prop :=
   ∀ n, P14317069173523161264.a n = (A269342 n : ℚ)
 
+theorem P14317069173523161264.correct : P14317069173523161264.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 =>
+      simp [A269342, Nat.add_sub_cancel, A269342.P14317069173523161264.a, A269342.P7105143798630874600.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 4 =>
+      have h1 := ih (m + 3) (by omega)
+      have h2 := ih (m + 2) (by omega)
+      have h3 := ih (m + 1) (by omega)
+      have h4 := ih m (by omega)
+      simp only [A269342, Nat.add_sub_cancel, A269342.P14317069173523161264.a, A269342.P7105143798630874600.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 ⊢
+      rw [← h1, ← h2, ← h3, ← h4]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A269342
 
 /-! ## A269342.P7105143798630874600
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=3, a(1)=26, a(2)=85, a(3)=196`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A269342
@@ -3566,6 +3588,23 @@ end A269353.P5522995015576268743
 The programs for A269355, there is no canonical definition to state claims against.
 -/
 
+/-! ## A269355.P11443067099494384731
+
+`A269380(A250469(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A269355.P11443067099494384731
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A269380 (A250469 (n + 1)).toNat
+
+end
+
+end A269355.P11443067099494384731
+
 /-! ## A269355.P5655063710649230661
 
 `A269380(A269360(n+1)-1)`
@@ -3641,21 +3680,6 @@ end
 
 end A269355.P12286541686444408173
 
-/-! ## A269355.P11443067099494384731
-
-`A269380(A250469(n+1))`
--/
-
-namespace A269355.P11443067099494384731
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A269380 (A250469 (n + 1)).toNat
-
-end
-
-end A269355.P11443067099494384731
-
 /-! ## A269355.P7708735185441274467
 
 `A269380(A253886(n)+1)`
@@ -3725,6 +3749,8 @@ The programs for A269356, there is no canonical definition to state claims again
 /-! ## A269356.P15490789589595934329
 
 `A268674(A269379(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A269356.P15490789589595934329
@@ -5436,20 +5462,22 @@ end
 
 end A269372.P1450042158813699077
 
-/-! ## A269372.P16798230274389809679
+/-! ## A269372.P13042129990022491923
 
-`xor(1, A269369(n+1))`
+`A269369(n+1)-1`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A269372.P16798230274389809679
+namespace A269372.P13042129990022491923
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor 1 (A269369 (n + 1))
+  A269369 (n + 1) - 1
 
 end
 
-end A269372.P16798230274389809679
+end A269372.P13042129990022491923
 
 /-! ## A269372.P15629770235883572526
 
@@ -5600,6 +5628,29 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A269372.P12699487147856278924
+
+/-!
+# A269373: Permutation of natural numbers: a(1) = 1, a(n) = A000079(A260438(n+1)-1) * ((2 * a(A260439(n+1))) - 1).
+
+The programs for A269373, there is no canonical definition to state claims against.
+-/
+
+/-! ## A269373.P10612320869507237325
+
+`A000079(A260438(n+2)-1)*(2*a(A260439(n+2)-1)-1)` with `a(0)=1`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A269373.P10612320869507237325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A000079 (A260438 (n + 2) - 1).toNat * (2 * a (A260439 (n + 2) - 1).toNat - 1)
+
+end
+
+end A269373.P10612320869507237325
 
 /-!
 # A269375: Tree of Lucky sieve, mirrored: a(0) = 1, a(1) = 2; after which a(2n) = 2*a(n), a(2n+1) = A269369(a(n)).
@@ -6791,6 +6842,23 @@ end A269382.P3349497100533560057
 The programs for A269383, there is no canonical definition to state claims against.
 -/
 
+/-! ## A269383.P13972793329006093601
+
+`A000079(A260738(n+2)-1)*(2*a(A260739(n+2)-1)-1)` with `a(0)=1`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A269383.P13972793329006093601
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A000079 (A260738 (n + 2) - 1).toNat * (2 * a (A260739 (n + 2) - 1).toNat - 1)
+
+end
+
+end A269383.P13972793329006093601
+
 /-! ## A269383.P9343981096397720014
 
 `A249813(n+1)%A031169(A249797(n+1))`
@@ -7900,6 +7968,8 @@ The programs for A269393, there is no canonical definition to state claims again
 /-! ## A269393.P4805270540921657701
 
 `A269171(3*(n+1))/3`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A269393.P4805270540921657701
@@ -8026,6 +8096,8 @@ The programs for A269394, there is no canonical definition to state claims again
 /-! ## A269394.P1823104812326616501
 
 `A269172(3*(n+1))/3`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A269394.P1823104812326616501
@@ -8185,6 +8257,8 @@ The programs for A269395, there is no canonical definition to state claims again
 /-! ## A269395.P4361442542923046826
 
 `A269171(A269393(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A269395.P4361442542923046826
@@ -8200,6 +8274,8 @@ end A269395.P4361442542923046826
 /-! ## A269395.P2334524025238749044
 
 `A269171(A269171(3*(n+1))/3)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A269395.P2334524025238749044
@@ -8266,6 +8342,8 @@ The programs for A269396, there is no canonical definition to state claims again
 /-! ## A269396.P18249567289691188263
 
 `A269172(3*A269172(n+1))/3`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A269396.P18249567289691188263
@@ -8281,6 +8359,8 @@ end A269396.P18249567289691188263
 /-! ## A269396.P11944475719613090716
 
 `A269394(A269172(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A269396.P11944475719613090716

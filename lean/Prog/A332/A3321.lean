@@ -4,21 +4,20 @@ import Seq.B000.C001
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -30,6 +29,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C001
 import Seq.B004.C000
@@ -42,18 +42,19 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -64,7 +65,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A332101: Least m such that m^n <= Sum_{k
@@ -2140,7 +2140,7 @@ end A332111.P462456097495322856
 /-!
 # A332112: a(n) = (10^(2n+1)-1)/9 + 10^n.
 
-The programs for A332112, the canonical program `A332112.P5302941284350990724` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332112 has offset 0).
+The programs for A332112, the canonical program `A332112.P5302941284350990724` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332112 has offset 0).
 
 The definition of A332112 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2149,7 +2149,7 @@ The definition of A332112 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/9+10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332112
@@ -2324,7 +2324,7 @@ end A332112
 /-!
 # A332113: a(n) = (10^(2*n+1) - 1)/9 + 2*10^n.
 
-The programs for A332113, the canonical program `A332113.P17849214630822095434` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332113 has offset 0).
+The programs for A332113, the canonical program `A332113.P17849214630822095434` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332113 has offset 0).
 
 The definition of A332113 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2333,7 +2333,7 @@ The definition of A332113 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/9+2*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332113
@@ -2488,7 +2488,7 @@ end A332113
 /-!
 # A332114: a(n) = (10^(2*n+1) - 1)/9 + 3*10^n.
 
-The programs for A332114, the canonical program `A332114.P12998186533826003753` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332114 has offset 0).
+The programs for A332114, the canonical program `A332114.P12998186533826003753` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332114 has offset 0).
 
 The definition of A332114 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2497,7 +2497,7 @@ The definition of A332114 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/9+3*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332114
@@ -2698,7 +2698,7 @@ end A332114
 /-!
 # A332115: a(n) = (10^(2*n+1) - 1)/9 + 4*10^n.
 
-The programs for A332115, the canonical program `A332115.P8830179451740922607` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332115 has offset 0).
+The programs for A332115, the canonical program `A332115.P8830179451740922607` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332115 has offset 0).
 
 The definition of A332115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2707,7 +2707,7 @@ The definition of A332115 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/9+4*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332115
@@ -2885,7 +2885,7 @@ end A332115
 /-!
 # A332116: a(n) = (10^(2n+1)-1)/9 + 5*10^n.
 
-The programs for A332116, the canonical program `A332116.P7471090904709792861` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332116 has offset 0).
+The programs for A332116, the canonical program `A332116.P7471090904709792861` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332116 has offset 0).
 
 The definition of A332116 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2894,7 +2894,7 @@ The definition of A332116 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/9+5*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332116
@@ -3115,7 +3115,7 @@ end A332116
 /-!
 # A332117: a(n) = (10^(2*n+1) - 1)/9 + 6*10^n.
 
-The programs for A332117, the canonical program `A332117.P5971171306911243718` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332117 has offset 0).
+The programs for A332117, the canonical program `A332117.P5971171306911243718` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332117 has offset 0).
 
 The definition of A332117 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3124,7 +3124,7 @@ The definition of A332117 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/9+6*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332117
@@ -3345,7 +3345,7 @@ end A332117
 /-!
 # A332118: a(n) = (10^(2*n+1) - 1)/9 + 7*10^n.
 
-The programs for A332118, the canonical program `A332118.P10704963236849580905` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332118 has offset 0).
+The programs for A332118, the canonical program `A332118.P10704963236849580905` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332118 has offset 0).
 
 The definition of A332118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3354,7 +3354,7 @@ The definition of A332118 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/9+7*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332118
@@ -3529,7 +3529,7 @@ end A332118
 /-!
 # A332119: a(n) = (10^(2*n+1) - 1)/9 + 8*10^n.
 
-The programs for A332119, the canonical program `A332119.P13091117793560681464` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332119 has offset 0).
+The programs for A332119, the canonical program `A332119.P13091117793560681464` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332119 has offset 0).
 
 The definition of A332119 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3538,7 +3538,7 @@ The definition of A332119 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/9+8*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332119
@@ -3598,7 +3598,7 @@ end A332119
 /-!
 # A332120: a(n) = 2*(10^(2n+1)-1)/9 - 2*10^n.
 
-The programs for A332120, the canonical program `A332120.P3637114510926937997` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332120 has offset 0).
+The programs for A332120, the canonical program `A332120.P3637114510926937997` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332120 has offset 0).
 
 The definition of A332120 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3607,7 +3607,7 @@ The definition of A332120 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*((10^(2*n+1)-1)/9-10^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332120
@@ -3615,6 +3615,31 @@ namespace A332120
 /-- `2*((10^(2*n+1)-1)/9-10^n)` -/
 def P3637114510926937997.Spec : Prop :=
   ∀ n, P3637114510926937997.a n = (A332120 n : ℚ)
+
+end A332120
+
+/-! ## A332120.P15336838857653068191
+
+`2*(10^(2*n+1)-1)/9-2*10^n`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A332120.P15336838857653068191
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  2 * (((10 ^ (2 * n + 1) : ℤ) - 1 : ℚ) / 9) - (2 * 10 ^ n : ℚ)
+
+end
+
+end A332120.P15336838857653068191
+
+namespace A332120
+
+/-- `2*(10^(2*n+1)-1)/9-2*10^n` -/
+def P15336838857653068191.Spec : Prop :=
+  ∀ n, P15336838857653068191.a n = (A332120 n : ℚ)
 
 end A332120
 
@@ -3733,102 +3758,10 @@ def P203504087889074873.Spec : Prop :=
 
 end A332120
 
-/-! ## A332120.P10489098486370222184
-
-`A332121(n)-A011557(n)`
--/
-
-namespace A332120.P10489098486370222184
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332121 n - A011557 n
-
-end
-
-end A332120.P10489098486370222184
-
-namespace A332120
-
-/-- `A332121(n)-A011557(n)` -/
-def P10489098486370222184.Spec : Prop :=
-  ∀ n, P10489098486370222184.a n = A332120 n
-
-end A332120
-
-/-! ## A332120.P8672723907696852705
-
-`A332130(n)-A138148(n)`
--/
-
-namespace A332120.P8672723907696852705
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332130 n - A138148 n
-
-end
-
-end A332120.P8672723907696852705
-
-namespace A332120
-
-/-- `A332130(n)-A138148(n)` -/
-def P8672723907696852705.Spec : Prop :=
-  ∀ n, P8672723907696852705.a n = A332120 n
-
-end A332120
-
-/-! ## A332120.P12719751297980118331
-
-`A332152(n)-A332132(n)`
--/
-
-namespace A332120.P12719751297980118331
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332152 n - A332132 n
-
-end
-
-end A332120.P12719751297980118331
-
-namespace A332120
-
-/-- `A332152(n)-A332132(n)` -/
-def P12719751297980118331.Spec : Prop :=
-  ∀ n, P12719751297980118331.a n = A332120 n
-
-end A332120
-
-/-! ## A332120.P837215139188995844
-
-`A002278(2*n+1)-A332124(n)`
--/
-
-namespace A332120.P837215139188995844
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002278 (2 * n + 1) - A332124 n
-
-end
-
-end A332120.P837215139188995844
-
-namespace A332120
-
-/-- `A002278(2*n+1)-A332124(n)` -/
-def P837215139188995844.Spec : Prop :=
-  ∀ n, P837215139188995844.a n = A332120 n
-
-end A332120
-
 /-!
 # A332121: a(n) = 2*(10^(2n+1)-1)/9 - 10^n.
 
-The programs for A332121, the canonical program `A332121.P9954824828034134725` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332121 has offset 0).
+The programs for A332121, the canonical program `A332121.P9954824828034134725` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332121 has offset 0).
 
 The definition of A332121 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3837,7 +3770,7 @@ The definition of A332121 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(10^(2*n+1)-1)/9-10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332121
@@ -3943,7 +3876,7 @@ end A332121
 /-!
 # A332123: a(n) = 2*(10^(2n+1)-1)/9 + 10^n.
 
-The programs for A332123, the canonical program `A332123.P4892749834816991121` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332123 has offset 0).
+The programs for A332123, the canonical program `A332123.P4892749834816991121` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332123 has offset 0).
 
 The definition of A332123 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3952,7 +3885,7 @@ The definition of A332123 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(10^(2*n+1)-1)/9+10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332123
@@ -4081,7 +4014,7 @@ end A332123
 /-!
 # A332124: a(n) = 2*(10^(2n+1)-1)/9 + 2*10^n.
 
-The programs for A332124, the canonical program `A332124.P83218299837370413` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332124 has offset 0).
+The programs for A332124, the canonical program `A332124.P83218299837370413` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332124 has offset 0).
 
 The definition of A332124 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4090,7 +4023,7 @@ The definition of A332124 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*((10^(2*n+1)-1)/9+10^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332124
@@ -4098,6 +4031,31 @@ namespace A332124
 /-- `2*((10^(2*n+1)-1)/9+10^n)` -/
 def P83218299837370413.Spec : Prop :=
   ∀ n, P83218299837370413.a n = (A332124 n : ℚ)
+
+end A332124
+
+/-! ## A332124.P10499956522290688223
+
+`2*(10^(2*n+1)-1)/9+2*10^n`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A332124.P10499956522290688223
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  2 * (((10 ^ (2 * n + 1) : ℤ) - 1 : ℚ) / 9) + (2 * 10 ^ n : ℚ)
+
+end
+
+end A332124.P10499956522290688223
+
+namespace A332124
+
+/-- `2*(10^(2*n+1)-1)/9+2*10^n` -/
+def P10499956522290688223.Spec : Prop :=
+  ∀ n, P10499956522290688223.a n = (A332124 n : ℚ)
 
 end A332124
 
@@ -4147,174 +4105,10 @@ def P5472412567729476428.Spec : Prop :=
 
 end A332124
 
-/-! ## A332124.P8400348537454629992
-
-`A332123(n)+A011557(n)`
--/
-
-namespace A332124.P8400348537454629992
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332123 n + A011557 n
-
-end
-
-end A332124.P8400348537454629992
-
-namespace A332124
-
-/-- `A332123(n)+A011557(n)` -/
-def P8400348537454629992.Spec : Prop :=
-  ∀ n, P8400348537454629992.a n = A332124 n
-
-end A332124
-
-/-! ## A332124.P6184769593731607253
-
-`A332125(n)-A011557(n)`
--/
-
-namespace A332124.P6184769593731607253
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332125 n - A011557 n
-
-end
-
-end A332124.P6184769593731607253
-
-namespace A332124
-
-/-- `A332125(n)-A011557(n)` -/
-def P6184769593731607253.Spec : Prop :=
-  ∀ n, P6184769593731607253.a n = A332124 n
-
-end A332124
-
-/-! ## A332124.P6887419382340909891
-
-`A332126(n)-2*A011557(n)`
--/
-
-namespace A332124.P6887419382340909891
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332126 n - 2 * A011557 n
-
-end
-
-end A332124.P6887419382340909891
-
-namespace A332124
-
-/-- `A332126(n)-2*A011557(n)` -/
-def P6887419382340909891.Spec : Prop :=
-  ∀ n, P6887419382340909891.a n = A332124 n
-
-end A332124
-
-/-! ## A332124.P11895149946789610727
-
-`A002278(2*n+1)-A332120(n)`
--/
-
-namespace A332124.P11895149946789610727
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002278 (2 * n + 1) - A332120 n
-
-end
-
-end A332124.P11895149946789610727
-
-namespace A332124
-
-/-- `A002278(2*n+1)-A332120(n)` -/
-def P11895149946789610727.Spec : Prop :=
-  ∀ n, P11895149946789610727.a n = A332124 n
-
-end A332124
-
-/-! ## A332124.P11995510068696222239
-
-`A002276(2*n+1)+Δ[A002276(n)]`
--/
-
-namespace A332124.P11995510068696222239
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002276 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002276 (2 * n + 1) + (f1 (n + 1) - f1 n)
-
-end
-
-end A332124.P11995510068696222239
-
-namespace A332124
-
-/-- `A002276(2*n+1)+Δ[A002276(n)]` -/
-def P11995510068696222239.Spec : Prop :=
-  ∀ n, P11995510068696222239.a n = A332124 n
-
-end A332124
-
-/-! ## A332124.P15910221530980980953
-
-`A002278(n+1)+A332120(n)-A002278(n)`
--/
-
-namespace A332124.P15910221530980980953
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002278 (n + 1) + (A332120 n - A002278 n)
-
-end
-
-end A332124.P15910221530980980953
-
-namespace A332124
-
-/-- `A002278(n+1)+A332120(n)-A002278(n)` -/
-def P15910221530980980953.Spec : Prop :=
-  ∀ n, P15910221530980980953.a n = A332124 n
-
-end A332124
-
-/-! ## A332124.P12583494358481157670
-
-`A002276(n)+A332126(n)-A002276(n+1)`
--/
-
-namespace A332124.P12583494358481157670
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002276 n + (A332126 n - A002276 (n + 1))
-
-end
-
-end A332124.P12583494358481157670
-
-namespace A332124
-
-/-- `A002276(n)+A332126(n)-A002276(n+1)` -/
-def P12583494358481157670.Spec : Prop :=
-  ∀ n, P12583494358481157670.a n = A332124 n
-
-end A332124
-
 /-!
 # A332125: a(n) = 2*(10^(2n+1)-1)/9 + 3*10^n.
 
-The programs for A332125, the canonical program `A332125.P18055912616673767955` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332125 has offset 0).
+The programs for A332125, the canonical program `A332125.P18055912616673767955` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332125 has offset 0).
 
 The definition of A332125 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4323,7 +4117,7 @@ The definition of A332125 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(10^(2*n+1)-1)/9+3*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332125
@@ -4550,7 +4344,7 @@ end A332126
 /-!
 # A332127: a(n) = 2*(10^(2n+1)-1)/9 + 5*10^n.
 
-The programs for A332127, the canonical program `A332127.P9270629956401706178` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332127 has offset 0).
+The programs for A332127, the canonical program `A332127.P9270629956401706178` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332127 has offset 0).
 
 The definition of A332127 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4559,7 +4353,7 @@ The definition of A332127 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(10^(2*n+1)-1)/9+5*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332127
@@ -4901,7 +4695,7 @@ end A332128
 /-!
 # A332129: a(n) = 2*(10^(2n+1)-1)/9 + 7*10^n.
 
-The programs for A332129, the canonical program `A332129.P6838417951560932065` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332129 has offset 0).
+The programs for A332129, the canonical program `A332129.P6838417951560932065` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332129 has offset 0).
 
 The definition of A332129 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4910,7 +4704,7 @@ The definition of A332129 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(10^(2*n+1)-1)/9+7*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332129
@@ -5206,7 +5000,7 @@ end A332130
 /-!
 # A332131: a(n) = (10^(2*n+1) - 1)/3 - 2*10^n.
 
-The programs for A332131, the canonical program `A332131.P7570835238051229379` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332131 has offset 0).
+The programs for A332131, the canonical program `A332131.P7570835238051229379` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332131 has offset 0).
 
 The definition of A332131 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5215,7 +5009,7 @@ The definition of A332131 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/3-2*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332131
@@ -5321,7 +5115,7 @@ end A332131
 /-!
 # A332132: a(n) = (10^(2n+1)-1)/3 - 10^n.
 
-The programs for A332132, the canonical program `A332132.P12453461222951118055` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332132 has offset 0).
+The programs for A332132, the canonical program `A332132.P12453461222951118055` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332132 has offset 0).
 
 The definition of A332132 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5330,7 +5124,7 @@ The definition of A332132 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/3-10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332132
@@ -5482,7 +5276,7 @@ end A332132
 /-!
 # A332134: a(n) = (10^(2n+1)-1)/3 + 10^n.
 
-The programs for A332134, the canonical program `A332134.P14538993255130828271` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332134 has offset 0).
+The programs for A332134, the canonical program `A332134.P14538993255130828271` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332134 has offset 0).
 
 The definition of A332134 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5491,7 +5285,7 @@ The definition of A332134 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/3+10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332134
@@ -5551,7 +5345,7 @@ end A332134
 /-!
 # A332135: a(n) = (10^(2n+1)-1)/3 + 2*10^n.
 
-The programs for A332135, the canonical program `A332135.P8091249078497621856` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332135 has offset 0).
+The programs for A332135, the canonical program `A332135.P8091249078497621856` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332135 has offset 0).
 
 The definition of A332135 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5560,7 +5354,7 @@ The definition of A332135 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/3+2*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332135
@@ -5740,6 +5534,31 @@ def P2584326735065054690.Spec : Prop :=
 
 end A332136
 
+/-! ## A332136.P2002285925970005070
+
+`3*(10^(2*n+1)-1)/9+3*10^n`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A332136.P2002285925970005070
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  3 * (((10 ^ (2 * n + 1) : ℤ) - 1 : ℚ) / 9) + (3 * 10 ^ n : ℚ)
+
+end
+
+end A332136.P2002285925970005070
+
+namespace A332136
+
+/-- `3*(10^(2*n+1)-1)/9+3*10^n` -/
+def P2002285925970005070.Spec : Prop :=
+  ∀ n, P2002285925970005070.a n = (A332136 n : ℚ)
+
+end A332136
+
 /-! ## A332136.P3185806271854131447
 
 `3*A332112(n)`
@@ -5831,7 +5650,7 @@ end A332136
 /-!
 # A332137: a(n) = (10^(2n+1)-1)/3 + 4*10^n.
 
-The programs for A332137, the canonical program `A332137.P9550829690586269634` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332137 has offset 0).
+The programs for A332137, the canonical program `A332137.P9550829690586269634` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332137 has offset 0).
 
 The definition of A332137 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5840,7 +5659,7 @@ The definition of A332137 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/3+4*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332137
@@ -6015,7 +5834,7 @@ end A332137
 /-!
 # A332138: a(n) = (10^(2*n+1) - 1)/3 + 5*10^n.
 
-The programs for A332138, the canonical program `A332138.P10101472301302920758` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332138 has offset 0).
+The programs for A332138, the canonical program `A332138.P10101472301302920758` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332138 has offset 0).
 
 The definition of A332138 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6024,7 +5843,7 @@ The definition of A332138 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10^(2*n+1)-1)/3+5*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332138
@@ -6297,7 +6116,7 @@ end A332139
 /-!
 # A332140: a(n) = 4*(10^(2*n+1) - 1)/9 - 4*10^n.
 
-The programs for A332140, the canonical program `A332140.P15050806598803378739` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332140 has offset 0).
+The programs for A332140, the canonical program `A332140.P15050806598803378739` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332140 has offset 0).
 
 The definition of A332140 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6306,7 +6125,7 @@ The definition of A332140 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*((10^(2*n+1)-1)/9-10^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332140
@@ -6314,6 +6133,31 @@ namespace A332140
 /-- `4*((10^(2*n+1)-1)/9-10^n)` -/
 def P15050806598803378739.Spec : Prop :=
   ∀ n, P15050806598803378739.a n = (A332140 n : ℚ)
+
+end A332140
+
+/-! ## A332140.P4610794214974341157
+
+`4*(10^(2*n+1)-1)/9-4*10^n`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A332140.P4610794214974341157
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  4 * (((10 ^ (2 * n + 1) : ℤ) - 1 : ℚ) / 9) - (4 * 10 ^ n : ℚ)
+
+end
+
+end A332140.P4610794214974341157
+
+namespace A332140
+
+/-- `4*(10^(2*n+1)-1)/9-4*10^n` -/
+def P4610794214974341157.Spec : Prop :=
+  ∀ n, P4610794214974341157.a n = (A332140 n : ℚ)
 
 end A332140
 
@@ -6386,148 +6230,10 @@ def P3568488274350308630.Spec : Prop :=
 
 end A332140
 
-/-! ## A332140.P16199660648336522331
-
-`A332130(n)+A138148(n)`
--/
-
-namespace A332140.P16199660648336522331
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332130 n + A138148 n
-
-end
-
-end A332140.P16199660648336522331
-
-namespace A332140
-
-/-- `A332130(n)+A138148(n)` -/
-def P16199660648336522331.Spec : Prop :=
-  ∀ n, P16199660648336522331.a n = A332140 n
-
-end A332140
-
-/-! ## A332140.P15816570402898408463
-
-`A332141(n)-A011557(n)`
--/
-
-namespace A332140.P15816570402898408463
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332141 n - A011557 n
-
-end
-
-end A332140.P15816570402898408463
-
-namespace A332140
-
-/-- `A332141(n)-A011557(n)` -/
-def P15816570402898408463.Spec : Prop :=
-  ∀ n, P15816570402898408463.a n = A332140 n
-
-end A332140
-
-/-! ## A332140.P9137123604482272232
-
-`A332150(n)-A138148(n)`
--/
-
-namespace A332140.P9137123604482272232
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332150 n - A138148 n
-
-end
-
-end A332140.P9137123604482272232
-
-namespace A332140
-
-/-- `A332150(n)-A138148(n)` -/
-def P9137123604482272232.Spec : Prop :=
-  ∀ n, P9137123604482272232.a n = A332140 n
-
-end A332140
-
-/-! ## A332140.P9224214507592079068
-
-`A332156(n)-A332116(n)`
--/
-
-namespace A332140.P9224214507592079068
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332156 n - A332116 n
-
-end
-
-end A332140.P9224214507592079068
-
-namespace A332140
-
-/-- `A332156(n)-A332116(n)` -/
-def P9224214507592079068.Spec : Prop :=
-  ∀ n, P9224214507592079068.a n = A332140 n
-
-end A332140
-
-/-! ## A332140.P11390161315143827324
-
-`A332195(n)-A002279(2*n+1)`
--/
-
-namespace A332140.P11390161315143827324
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332195 n - A002279 (2 * n + 1)
-
-end
-
-end A332140.P11390161315143827324
-
-namespace A332140
-
-/-- `A332195(n)-A002279(2*n+1)` -/
-def P11390161315143827324.Spec : Prop :=
-  ∀ n, P11390161315143827324.a n = A332140 n
-
-end A332140
-
-/-! ## A332140.P13943034394327758478
-
-`A332190(n)/3+A000533(n+1)*A002275(n)`
--/
-
-namespace A332140.P13943034394327758478
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A332190 n : ℚ) / 3 + (A000533 (n + 1) * A002275 n : ℚ)
-
-end
-
-end A332140.P13943034394327758478
-
-namespace A332140
-
-/-- `A332190(n)/3+A000533(n+1)*A002275(n)` -/
-def P13943034394327758478.Spec : Prop :=
-  ∀ n, P13943034394327758478.a n = (A332140 n : ℚ)
-
-end A332140
-
 /-!
 # A332141: a(n) = 4*(10^(2*n+1)-1)/9 - 3*10^n.
 
-The programs for A332141, the canonical program `A332141.P6901797361627606594` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332141 has offset 0).
+The programs for A332141, the canonical program `A332141.P6901797361627606594` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332141 has offset 0).
 
 The definition of A332141 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6536,7 +6242,7 @@ The definition of A332141 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*(10^(2*n+1)-1)/9-3*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332141
@@ -6924,7 +6630,7 @@ end A332142
 /-!
 # A332143: a(n) = 4*(10^(2*n+1)-1)/9 - 10^n.
 
-The programs for A332143, the canonical program `A332143.P1622153457884055522` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332143 has offset 0).
+The programs for A332143, the canonical program `A332143.P1622153457884055522` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332143 has offset 0).
 
 The definition of A332143 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6933,7 +6639,7 @@ The definition of A332143 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*(10^(2*n+1)-1)/9-10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332143
@@ -7131,7 +6837,7 @@ end A332143
 /-!
 # A332145: a(n) = 4*(10^(2*n+1)-1)/9 + 10^n.
 
-The programs for A332145, the canonical program `A332145.P15528678668003936376` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332145 has offset 0).
+The programs for A332145, the canonical program `A332145.P15528678668003936376` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332145 has offset 0).
 
 The definition of A332145 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7140,7 +6846,7 @@ The definition of A332145 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*(10^(2*n+1)-1)/9+10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332145
@@ -7551,7 +7257,7 @@ end A332146
 /-!
 # A332147: a(n) = 4*(10^(2*n+1)-1)/9 + 3*10^n.
 
-The programs for A332147, the canonical program `A332147.P6984014411039513074` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332147 has offset 0).
+The programs for A332147, the canonical program `A332147.P6984014411039513074` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332147 has offset 0).
 
 The definition of A332147 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7560,7 +7266,7 @@ The definition of A332147 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*(10^(2*n+1)-1)/9+3*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332147
@@ -7666,7 +7372,7 @@ end A332147
 /-!
 # A332148: a(n) = 4*(10^(2*n+1) - 1)/9 + 4*10^n.
 
-The programs for A332148, the canonical program `A332148.P6300543810910309875` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332148 has offset 0).
+The programs for A332148, the canonical program `A332148.P6300543810910309875` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332148 has offset 0).
 
 The definition of A332148 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7675,7 +7381,7 @@ The definition of A332148 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*((10^(2*n+1)-1)/9+10^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332148
@@ -7686,148 +7392,35 @@ def P6300543810910309875.Spec : Prop :=
 
 end A332148
 
-/-! ## A332148.P1957860475068446795
+/-! ## A332148.P5123543208322761127
 
-`A332149(n)-10^n`
+`4*(10^(2*n+1)-1)/9+4*10^n`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A332148.P1957860475068446795
+namespace A332148.P5123543208322761127
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332149 n - (10 ^ n : ℤ)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  4 * (((10 ^ (2 * n + 1) : ℤ) - 1 : ℚ) / 9) + (4 * 10 ^ n : ℚ)
 
 end
 
-end A332148.P1957860475068446795
+end A332148.P5123543208322761127
 
 namespace A332148
 
-/-- `A332149(n)-10^n` -/
-def P1957860475068446795.Spec : Prop :=
-  ∀ n, P1957860475068446795.a n = A332148 n
-
-end A332148
-
-/-! ## A332148.P10714033240266263479
-
-`A332134(n)+A332114(n)`
--/
-
-namespace A332148.P10714033240266263479
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332134 n + A332114 n
-
-end
-
-end A332148.P10714033240266263479
-
-namespace A332148
-
-/-- `A332134(n)+A332114(n)` -/
-def P10714033240266263479.Spec : Prop :=
-  ∀ n, P10714033240266263479.a n = A332148 n
-
-end A332148
-
-/-! ## A332148.P8318155031345727112
-
-`A332136(n)+A332112(n)`
--/
-
-namespace A332148.P8318155031345727112
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332136 n + A332112 n
-
-end
-
-end A332148.P8318155031345727112
-
-namespace A332148
-
-/-- `A332136(n)+A332112(n)` -/
-def P8318155031345727112.Spec : Prop :=
-  ∀ n, P8318155031345727112.a n = A332148 n
-
-end A332148
-
-/-! ## A332148.P1039095696708393141
-
-`A067272(n+1)+A332146(n)+1`
--/
-
-namespace A332148.P1039095696708393141
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067272 (n + 1) + (A332146 n + 1)
-
-end
-
-end A332148.P1039095696708393141
-
-namespace A332148
-
-/-- `A067272(n+1)+A332146(n)+1` -/
-def P1039095696708393141.Spec : Prop :=
-  ∀ n, P1039095696708393141.a n = A332148 n
-
-end A332148
-
-/-! ## A332148.P3799307776879926870
-
-`A332126(n)+A002276(2*n+1)`
--/
-
-namespace A332148.P3799307776879926870
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332126 n + A002276 (2 * n + 1)
-
-end
-
-end A332148.P3799307776879926870
-
-namespace A332148
-
-/-- `A332126(n)+A002276(2*n+1)` -/
-def P3799307776879926870.Spec : Prop :=
-  ∀ n, P3799307776879926870.a n = A332148 n
-
-end A332148
-
-/-! ## A332148.P8946058434155334209
-
-`A011557(n)+A332146(n)+A011557(n)`
--/
-
-namespace A332148.P8946058434155334209
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011557 n + (A332146 n + A011557 n)
-
-end
-
-end A332148.P8946058434155334209
-
-namespace A332148
-
-/-- `A011557(n)+A332146(n)+A011557(n)` -/
-def P8946058434155334209.Spec : Prop :=
-  ∀ n, P8946058434155334209.a n = A332148 n
+/-- `4*(10^(2*n+1)-1)/9+4*10^n` -/
+def P5123543208322761127.Spec : Prop :=
+  ∀ n, P5123543208322761127.a n = (A332148 n : ℚ)
 
 end A332148
 
 /-!
 # A332149: a(n) = 4*(10^(2*n+1)-1)/9 + 5*10^n.
 
-The programs for A332149, the canonical program `A332149.P2520466536585489288` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332149 has offset 0).
+The programs for A332149, the canonical program `A332149.P2520466536585489288` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332149 has offset 0).
 
 The definition of A332149 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7836,7 +7429,7 @@ The definition of A332149 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*(10^(2*n+1)-1)/9+5*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332149
@@ -7965,7 +7558,7 @@ end A332149
 /-!
 # A332150: a(n) = 5*(10^(2*n+1) - 1)/9 - 5*10^n.
 
-The programs for A332150, the canonical program `A332150.P4285634605099160527` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332150 has offset 0).
+The programs for A332150, the canonical program `A332150.P4285634605099160527` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332150 has offset 0).
 
 The definition of A332150 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7974,7 +7567,7 @@ The definition of A332150 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*((10^(2*n+1)-1)/9-10^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332150
@@ -7982,6 +7575,31 @@ namespace A332150
 /-- `5*((10^(2*n+1)-1)/9-10^n)` -/
 def P4285634605099160527.Spec : Prop :=
   ∀ n, P4285634605099160527.a n = (A332150 n : ℚ)
+
+end A332150
+
+/-! ## A332150.P17911522240683411448
+
+`5*(10^(2*n+1)-1)/9-5*10^n`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A332150.P17911522240683411448
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  5 * (((10 ^ (2 * n + 1) : ℤ) - 1 : ℚ) / 9) - (5 * 10 ^ n : ℚ)
+
+end
+
+end A332150.P17911522240683411448
+
+namespace A332150
+
+/-- `5*(10^(2*n+1)-1)/9-5*10^n` -/
+def P17911522240683411448.Spec : Prop :=
+  ∀ n, P17911522240683411448.a n = (A332150 n : ℚ)
 
 end A332150
 
@@ -8054,148 +7672,10 @@ def P11778729159272652080.Spec : Prop :=
 
 end A332150
 
-/-! ## A332150.P15661238140797485223
-
-`A332130(n)+A332120(n)`
--/
-
-namespace A332150.P15661238140797485223
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332130 n + A332120 n
-
-end
-
-end A332150.P15661238140797485223
-
-namespace A332150
-
-/-- `A332130(n)+A332120(n)` -/
-def P15661238140797485223.Spec : Prop :=
-  ∀ n, P15661238140797485223.a n = A332150 n
-
-end A332150
-
-/-! ## A332150.P5810205154727902872
-
-`A332165(n)-A332115(n)`
--/
-
-namespace A332150.P5810205154727902872
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332165 n - A332115 n
-
-end
-
-end A332150.P5810205154727902872
-
-namespace A332150
-
-/-- `A332165(n)-A332115(n)` -/
-def P5810205154727902872.Spec : Prop :=
-  ∀ n, P5810205154727902872.a n = A332150 n
-
-end A332150
-
-/-! ## A332150.P10886437979048910794
-
-`A332182(n)-A332132(n)`
--/
-
-namespace A332150.P10886437979048910794
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332182 n - A332132 n
-
-end
-
-end A332150.P10886437979048910794
-
-namespace A332150
-
-/-- `A332182(n)-A332132(n)` -/
-def P10886437979048910794.Spec : Prop :=
-  ∀ n, P10886437979048910794.a n = A332150 n
-
-end A332150
-
-/-! ## A332150.P5564378413733303784
-
-`A332189(n)-A332139(n)`
--/
-
-namespace A332150.P5564378413733303784
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332189 n - A332139 n
-
-end
-
-end A332150.P5564378413733303784
-
-namespace A332150
-
-/-- `A332189(n)-A332139(n)` -/
-def P5564378413733303784.Spec : Prop :=
-  ∀ n, P5564378413733303784.a n = A332150 n
-
-end A332150
-
-/-! ## A332150.P13138598364829756639
-
-`A332196(n)-A332146(n)`
--/
-
-namespace A332150.P13138598364829756639
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332196 n - A332146 n
-
-end
-
-end A332150.P13138598364829756639
-
-namespace A332150
-
-/-- `A332196(n)-A332146(n)` -/
-def P13138598364829756639.Spec : Prop :=
-  ∀ n, P13138598364829756639.a n = A332150 n
-
-end A332150
-
-/-! ## A332150.P7182466234305683959
-
-`A332161(n)-A002275(2*n+1)`
--/
-
-namespace A332150.P7182466234305683959
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332161 n - A002275 (2 * n + 1)
-
-end
-
-end A332150.P7182466234305683959
-
-namespace A332150
-
-/-- `A332161(n)-A002275(2*n+1)` -/
-def P7182466234305683959.Spec : Prop :=
-  ∀ n, P7182466234305683959.a n = A332150 n
-
-end A332150
-
 /-!
 # A332151: a(n) = 5*(10^(2*n+1) - 1)/9 - 4*10^n.
 
-The programs for A332151, the canonical program `A332151.P8658252248617165184` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332151 has offset 0).
+The programs for A332151, the canonical program `A332151.P8658252248617165184` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332151 has offset 0).
 
 The definition of A332151 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8204,7 +7684,7 @@ The definition of A332151 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(10^(2*n+1)-1)/9-4*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332151
@@ -8310,7 +7790,7 @@ end A332151
 /-!
 # A332152: a(n) = 5*(10^(2*n+1)-1)/9 - 3*10^n.
 
-The programs for A332152, the canonical program `A332152.P10833911742322090199` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332152 has offset 0).
+The programs for A332152, the canonical program `A332152.P10833911742322090199` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332152 has offset 0).
 
 The definition of A332152 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8319,7 +7799,7 @@ The definition of A332152 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(10^(2*n+1)-1)/9-3*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332152
@@ -8494,7 +7974,7 @@ end A332152
 /-!
 # A332153: a(n) = 5*(10^(2*n+1)-1)/9 - 2*10^n.
 
-The programs for A332153, the canonical program `A332153.P8656748173623658374` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332153 has offset 0).
+The programs for A332153, the canonical program `A332153.P8656748173623658374` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332153 has offset 0).
 
 The definition of A332153 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8503,7 +7983,7 @@ The definition of A332153 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(10^(2*n+1)-1)/9-2*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332153
@@ -8655,7 +8135,7 @@ end A332153
 /-!
 # A332154: a(n) = 5*(10^(2*n+1)-1)/9 - 10^n.
 
-The programs for A332154, the canonical program `A332154.P9525291827818908932` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332154 has offset 0).
+The programs for A332154, the canonical program `A332154.P9525291827818908932` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332154 has offset 0).
 
 The definition of A332154 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8664,7 +8144,7 @@ The definition of A332154 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(10^(2*n+1)-1)/9-10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332154
@@ -8928,7 +8408,7 @@ end A332155.P7841961978771310256
 /-!
 # A332156: a(n) = 5*(10^(2*n+1)-1)/9 + 10^n.
 
-The programs for A332156, the canonical program `A332156.P10073776197927255795` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332156 has offset 0).
+The programs for A332156, the canonical program `A332156.P10073776197927255795` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332156 has offset 0).
 
 The definition of A332156 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8937,7 +8417,7 @@ The definition of A332156 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(10^(2*n+1)-1)/9+10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332156
@@ -9112,7 +8592,7 @@ end A332156
 /-!
 # A332157: a(n) = 5*(10^(2*n+1)-1)/9 + 2*10^n.
 
-The programs for A332157, the canonical program `A332157.P1024473716503056447` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332157 has offset 0).
+The programs for A332157, the canonical program `A332157.P1024473716503056447` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332157 has offset 0).
 
 The definition of A332157 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9121,7 +8601,7 @@ The definition of A332157 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(10^(2*n+1)-1)/9+2*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332157
@@ -9345,7 +8825,7 @@ end A332157
 /-!
 # A332158: a(n) = 5*(10^(2*n+1)-1)/9 + 3*10^n.
 
-The programs for A332158, the canonical program `A332158.P8905680369445695170` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332158 has offset 0).
+The programs for A332158, the canonical program `A332158.P8905680369445695170` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332158 has offset 0).
 
 The definition of A332158 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9354,7 +8834,7 @@ The definition of A332158 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(10^(2*n+1)-1)/9+3*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332158
@@ -9460,7 +8940,7 @@ end A332158
 /-!
 # A332159: a(n) = 5*(10^(2*n+1)-1)/9 + 4*10^n.
 
-The programs for A332159, the canonical program `A332159.P10872267916930573026` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332159 has offset 0).
+The programs for A332159, the canonical program `A332159.P10872267916930573026` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332159 has offset 0).
 
 The definition of A332159 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9469,7 +8949,7 @@ The definition of A332159 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(10^(2*n+1)-1)/9+4*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332159
@@ -9676,7 +9156,7 @@ end A332159
 /-!
 # A332160: a(n) = 6*(10^(2*n+1) - 1)/9 - 6*10^n.
 
-The programs for A332160, the canonical program `A332160.P7900667285717077086` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332160 has offset 0).
+The programs for A332160, the canonical program `A332160.P7900667285717077086` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332160 has offset 0).
 
 The definition of A332160 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9685,7 +9165,7 @@ The definition of A332160 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*((10^(2*n+1)-1)/9-10^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332160
@@ -9693,6 +9173,31 @@ namespace A332160
 /-- `6*((10^(2*n+1)-1)/9-10^n)` -/
 def P7900667285717077086.Spec : Prop :=
   ∀ n, P7900667285717077086.a n = (A332160 n : ℚ)
+
+end A332160
+
+/-! ## A332160.P5599865265153973696
+
+`6*(10^(2*n+1)-1)/9-6*10^n`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A332160.P5599865265153973696
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  6 * (((10 ^ (2 * n + 1) : ℤ) - 1 : ℚ) / 9) - (6 * 10 ^ n : ℚ)
+
+end
+
+end A332160.P5599865265153973696
+
+namespace A332160
+
+/-- `6*(10^(2*n+1)-1)/9-6*10^n` -/
+def P5599865265153973696.Spec : Prop :=
+  ∀ n, P5599865265153973696.a n = (A332160 n : ℚ)
 
 end A332160
 
@@ -9765,151 +9270,10 @@ def P1726416136250497097.Spec : Prop :=
 
 end A332160
 
-/-! ## A332160.P8550520753356027308
-
-`A332150(n)+A138148(n)`
--/
-
-namespace A332160.P8550520753356027308
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332150 n + A138148 n
-
-end
-
-end A332160.P8550520753356027308
-
-namespace A332160
-
-/-- `A332150(n)+A138148(n)` -/
-def P8550520753356027308.Spec : Prop :=
-  ∀ n, P8550520753356027308.a n = A332160 n
-
-end A332160
-
-/-! ## A332160.P4761818461237766474
-
-`A332161(n)-A011557(n)`
--/
-
-namespace A332160.P4761818461237766474
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332161 n - A011557 n
-
-end
-
-end A332160.P4761818461237766474
-
-namespace A332160
-
-/-- `A332161(n)-A011557(n)` -/
-def P4761818461237766474.Spec : Prop :=
-  ∀ n, P4761818461237766474.a n = A332160 n
-
-end A332160
-
-/-! ## A332160.P8627398047354764352
-
-`A332187(n)-A332127(n)`
--/
-
-namespace A332160.P8627398047354764352
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332187 n - A332127 n
-
-end
-
-end A332160.P8627398047354764352
-
-namespace A332160
-
-/-- `A332187(n)-A332127(n)` -/
-def P8627398047354764352.Spec : Prop :=
-  ∀ n, P8627398047354764352.a n = A332160 n
-
-end A332160
-
-/-! ## A332160.P11933643537871528139
-
-`A332196(n)-A332136(n)`
--/
-
-namespace A332160.P11933643537871528139
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332196 n - A332136 n
-
-end
-
-end A332160.P11933643537871528139
-
-namespace A332160
-
-/-- `A332196(n)-A332136(n)` -/
-def P11933643537871528139.Spec : Prop :=
-  ∀ n, P11933643537871528139.a n = A332160 n
-
-end A332160
-
-/-! ## A332160.P5013599764026961247
-
-`A332171(n)-A002275(2*n+1)`
--/
-
-namespace A332160.P5013599764026961247
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332171 n - A002275 (2 * n + 1)
-
-end
-
-end A332160.P5013599764026961247
-
-namespace A332160
-
-/-- `A332171(n)-A002275(2*n+1)` -/
-def P5013599764026961247.Spec : Prop :=
-  ∀ n, P5013599764026961247.a n = A332160 n
-
-end A332160
-
-/-! ## A332160.P14152243041105184874
-
-`A002280(2*n+1)-Δ[A002280(n)]`
--/
-
-namespace A332160.P14152243041105184874
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002280 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002280 (2 * n + 1) - (f1 (n + 1) - f1 n)
-
-end
-
-end A332160.P14152243041105184874
-
-namespace A332160
-
-/-- `A002280(2*n+1)-Δ[A002280(n)]` -/
-def P14152243041105184874.Spec : Prop :=
-  ∀ n, P14152243041105184874.a n = A332160 n
-
-end A332160
-
 /-!
 # A332161: a(n) = 6*(10^(2*n+1)-1)/9 - 5*10^n.
 
-The programs for A332161, the canonical program `A332161.P16571938051671117382` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332161 has offset 0).
+The programs for A332161, the canonical program `A332161.P16571938051671117382` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332161 has offset 0).
 
 The definition of A332161 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9918,7 +9282,7 @@ The definition of A332161 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*(10^(2*n+1)-1)/9-5*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332161
@@ -10640,7 +10004,7 @@ end A332164
 /-!
 # A332165: a(n) = 6*(10^(2*n+1)-1)/9 - 10^n.
 
-The programs for A332165, the canonical program `A332165.P7990336384544167127` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332165 has offset 0).
+The programs for A332165, the canonical program `A332165.P7990336384544167127` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332165 has offset 0).
 
 The definition of A332165 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10649,7 +10013,7 @@ The definition of A332165 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*(10^(2*n+1)-1)/9-10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332165
@@ -10886,7 +10250,7 @@ end A332166.P7495743891395778914
 /-!
 # A332167: a(n) = 6*(10^(2*n+1)-1)/9 + 10^n.
 
-The programs for A332167, the canonical program `A332167.P10318323050089206164` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332167 has offset 0).
+The programs for A332167, the canonical program `A332167.P10318323050089206164` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332167 has offset 0).
 
 The definition of A332167 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10895,7 +10259,7 @@ The definition of A332167 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*(10^(2*n+1)-1)/9+10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332167
@@ -11571,7 +10935,7 @@ end A332170
 /-!
 # A332171: a(n) = 7*(10^(2n+1)-1)/9 - 6*10^n.
 
-The programs for A332171, the canonical program `A332171.P664766736718143006` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332171 has offset 0).
+The programs for A332171, the canonical program `A332171.P664766736718143006` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332171 has offset 0).
 
 The definition of A332171 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11580,7 +10944,7 @@ The definition of A332171 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*(10^(2*n+1)-1)/9-6*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332171
@@ -11686,7 +11050,7 @@ end A332171
 /-!
 # A332172: a(n) = 7*(10^(2*n+1) - 1)/9 - 5*10^n.
 
-The programs for A332172, the canonical program `A332172.P4676679463160455545` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332172 has offset 0).
+The programs for A332172, the canonical program `A332172.P4676679463160455545` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332172 has offset 0).
 
 The definition of A332172 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11695,7 +11059,7 @@ The definition of A332172 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*(10^(2*n+1)-1)/9-5*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332172
@@ -11824,7 +11188,7 @@ end A332172
 /-!
 # A332173: a(n) = 7*(10^(2n+1)-1)/9 - 4*10^n.
 
-The programs for A332173, the canonical program `A332173.P10151983742048030772` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332173 has offset 0).
+The programs for A332173, the canonical program `A332173.P10151983742048030772` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332173 has offset 0).
 
 The definition of A332173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11833,7 +11197,7 @@ The definition of A332173 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*(10^(2*n+1)-1)/9-4*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332173
@@ -11985,7 +11349,7 @@ end A332173
 /-!
 # A332174: a(n) = 7*(10^(2n+1)-1)/9 - 3*10^n.
 
-The programs for A332174, the canonical program `A332174.P8743185299918701189` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332174 has offset 0).
+The programs for A332174, the canonical program `A332174.P8743185299918701189` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332174 has offset 0).
 
 The definition of A332174 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11994,7 +11358,7 @@ The definition of A332174 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*(10^(2*n+1)-1)/9-3*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332174
@@ -12146,7 +11510,7 @@ end A332174
 /-!
 # A332175: a(n) = 7*(10^(2n+1)-1)/9 - 2*10^n.
 
-The programs for A332175, the canonical program `A332175.P1050261342549855630` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332175 has offset 0).
+The programs for A332175, the canonical program `A332175.P1050261342549855630` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332175 has offset 0).
 
 The definition of A332175 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12155,7 +11519,7 @@ The definition of A332175 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*(10^(2*n+1)-1)/9-2*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332175
@@ -12261,7 +11625,7 @@ end A332175
 /-!
 # A332176: a(n) = 7*(10^(2*n+1) - 1)/9 - 10^n.
 
-The programs for A332176, the canonical program `A332176.P11272254926589644546` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332176 has offset 0).
+The programs for A332176, the canonical program `A332176.P11272254926589644546` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332176 has offset 0).
 
 The definition of A332176 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12270,7 +11634,7 @@ The definition of A332176 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*(10^(2*n+1)-1)/9-10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332176
@@ -12419,7 +11783,7 @@ end A332177.P4961984325777230415
 /-!
 # A332178: a(n) = 7*(10^(2*n+1) - 1)/9 + 10^n.
 
-The programs for A332178, the canonical program `A332178.P13670239505251244163` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332178 has offset 0).
+The programs for A332178, the canonical program `A332178.P13670239505251244163` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332178 has offset 0).
 
 The definition of A332178 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12428,7 +11792,7 @@ The definition of A332178 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*(10^(2*n+1)-1)/9+10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332178
@@ -12511,7 +11875,7 @@ end A332178
 /-!
 # A332179: a(n) = 7*(10^(2*n+1) - 1)/9 + 2*10^n.
 
-The programs for A332179, the canonical program `A332179.P423891560268202275` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332179 has offset 0).
+The programs for A332179, the canonical program `A332179.P423891560268202275` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332179 has offset 0).
 
 The definition of A332179 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12520,7 +11884,7 @@ The definition of A332179 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*(10^(2*n+1)-1)/9+2*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332179
@@ -12557,7 +11921,7 @@ end A332179
 /-!
 # A332180: a(n) = 8*(10^(2n+1)-1)/9 - 8*10^n.
 
-The programs for A332180, the canonical program `A332180.P5665917449237434118` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332180 has offset 0).
+The programs for A332180, the canonical program `A332180.P5665917449237434118` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332180 has offset 0).
 
 The definition of A332180 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12566,7 +11930,7 @@ The definition of A332180 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*((10^(2*n+1)-1)/9-10^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332180
@@ -12574,6 +11938,31 @@ namespace A332180
 /-- `8*((10^(2*n+1)-1)/9-10^n)` -/
 def P5665917449237434118.Spec : Prop :=
   ∀ n, P5665917449237434118.a n = (A332180 n : ℚ)
+
+end A332180
+
+/-! ## A332180.P9905580576985303009
+
+`8*(10^(2*n+1)-1)/9-8*10^n`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A332180.P9905580576985303009
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  8 * (((10 ^ (2 * n + 1) : ℤ) - 1 : ℚ) / 9) - (8 * 10 ^ n : ℚ)
+
+end
+
+end A332180.P9905580576985303009
+
+namespace A332180
+
+/-- `8*(10^(2*n+1)-1)/9-8*10^n` -/
+def P9905580576985303009.Spec : Prop :=
+  ∀ n, P9905580576985303009.a n = (A332180 n : ℚ)
 
 end A332180
 
@@ -12646,151 +12035,10 @@ def P8922279944566175213.Spec : Prop :=
 
 end A332180
 
-/-! ## A332180.P14267904525984096174
-
-`A332190(n)-A138148(n)`
--/
-
-namespace A332180.P14267904525984096174
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332190 n - A138148 n
-
-end
-
-end A332180.P14267904525984096174
-
-namespace A332180
-
-/-- `A332190(n)-A138148(n)` -/
-def P14267904525984096174.Spec : Prop :=
-  ∀ n, P14267904525984096174.a n = A332180 n
-
-end A332180
-
-/-! ## A332180.P15735550931057283492
-
-`A332196(n)-A332116(n)`
--/
-
-namespace A332180.P15735550931057283492
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332196 n - A332116 n
-
-end
-
-end A332180.P15735550931057283492
-
-namespace A332180
-
-/-- `A332196(n)-A332116(n)` -/
-def P15735550931057283492.Spec : Prop :=
-  ∀ n, P15735550931057283492.a n = A332180 n
-
-end A332180
-
-/-! ## A332180.P12273423931254911601
-
-`A332189(n)-Δ[A011557(n)]`
--/
-
-namespace A332180.P12273423931254911601
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011557 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332189 n - (f1 (n + 1) - f1 n)
-
-end
-
-end A332180.P12273423931254911601
-
-namespace A332180
-
-/-- `A332189(n)-Δ[A011557(n)]` -/
-def P12273423931254911601.Spec : Prop :=
-  ∀ n, P12273423931254911601.a n = A332180 n
-
-end A332180
-
-/-! ## A332180.P6298917774074285162
-
-`A059482(2*n+1)-A199689(n)`
--/
-
-namespace A332180.P6298917774074285162
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059482 (2 * n + 1) - A199689 n
-
-end
-
-end A332180.P6298917774074285162
-
-namespace A332180
-
-/-- `A059482(2*n+1)-A199689(n)` -/
-def P6298917774074285162.Spec : Prop :=
-  ∀ n, P6298917774074285162.a n = A332180 n
-
-end A332180
-
-/-! ## A332180.P16809190582408009755
-
-`A173521(n)-A138148(n)-A138148(n)`
--/
-
-namespace A332180.P16809190582408009755
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173521 n - A138148 n - A138148 n
-
-end
-
-end A332180.P16809190582408009755
-
-namespace A332180
-
-/-- `A173521(n)-A138148(n)-A138148(n)` -/
-def P16809190582408009755.Spec : Prop :=
-  ∀ n, P16809190582408009755.a n = A332180 n
-
-end A332180
-
-/-! ## A332180.P7663070898790256337
-
-`A002282(n)+A002282(n)*A011557(n+1)`
--/
-
-namespace A332180.P7663070898790256337
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002282 n + A002282 n * A011557 (n + 1)
-
-end
-
-end A332180.P7663070898790256337
-
-namespace A332180
-
-/-- `A002282(n)+A002282(n)*A011557(n+1)` -/
-def P7663070898790256337.Spec : Prop :=
-  ∀ n, P7663070898790256337.a n = A332180 n
-
-end A332180
-
 /-!
 # A332181: a(n) = 8*(10^(2n+1)-1)/9 - 7*10^n.
 
-The programs for A332181, the canonical program `A332181.P14940150425165981456` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332181 has offset 0).
+The programs for A332181, the canonical program `A332181.P14940150425165981456` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332181 has offset 0).
 
 The definition of A332181 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12799,7 +12047,7 @@ The definition of A332181 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*(10^(2*n+1)-1)/9-7*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332181
@@ -13026,7 +12274,7 @@ end A332182
 /-!
 # A332183: a(n) = 8*(10^(2n+1)-1)/9 - 5*10^n.
 
-The programs for A332183, the canonical program `A332183.P16125061559952154522` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332183 has offset 0).
+The programs for A332183, the canonical program `A332183.P16125061559952154522` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332183 has offset 0).
 
 The definition of A332183 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13035,7 +12283,7 @@ The definition of A332183 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*(10^(2*n+1)-1)/9-5*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332183
@@ -13285,7 +12533,7 @@ end A332184
 /-!
 # A332185: a(n) = 8*(10^(2n+1)-1)/9 - 3*10^n.
 
-The programs for A332185, the canonical program `A332185.P16983580859288957202` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332185 has offset 0).
+The programs for A332185, the canonical program `A332185.P16983580859288957202` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332185 has offset 0).
 
 The definition of A332185 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13294,7 +12542,7 @@ The definition of A332185 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*(10^(2*n+1)-1)/9-3*10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332185
@@ -13575,7 +12823,7 @@ end A332186
 /-!
 # A332187: a(n) = 8*(10^(2n+1)-1)/9 - 10^n.
 
-The programs for A332187, the canonical program `A332187.P5622656720389181108` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332187 has offset 0).
+The programs for A332187, the canonical program `A332187.P5622656720389181108` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332187 has offset 0).
 
 The definition of A332187 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13584,7 +12832,7 @@ The definition of A332187 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*(10^(2*n+1)-1)/9-10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332187
@@ -13713,7 +12961,7 @@ end A332187
 /-!
 # A332189: a(n) = 8*(10^(2n+1)-1)/9 + 10^n.
 
-The programs for A332189, the canonical program `A332189.P15337409903865154264` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332189 has offset 0).
+The programs for A332189, the canonical program `A332189.P15337409903865154264` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332189 has offset 0).
 
 The definition of A332189 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13722,7 +12970,7 @@ The definition of A332189 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*(10^(2*n+1)-1)/9+10^n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332189
@@ -14610,7 +13858,7 @@ end A332194
 /-!
 # A332195: a(n) = 10^(2*n+1) - 4*10^n - 1.
 
-The programs for A332195, the canonical program `A332195.P12923792730573572301` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332195 has offset 0).
+The programs for A332195, the canonical program `A332195.P12923792730573572301` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332195 has offset 0).
 
 The definition of A332195 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `10^(2*n+1)-4*10^n-1` (program `A332195.P12923792730573572301`, by `A332195.P12923792730573572301.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14619,7 +13867,7 @@ The definition of A332195 is `verified`: the Lean definition is proven equivalen
 
 `10^(2*n+1)-4*10^n-1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A332195
