@@ -22,7 +22,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -32,9 +32,10 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -93,6 +94,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -4349,6 +4351,55 @@ def P4556093611105552002.Spec : Prop :=
 theorem P4556093611105552002.correct : P4556093611105552002.Spec := by
   intro n
   simp only [A062318, Nat.add_sub_cancel]
+
+end A062318
+
+/-! ## A062318.P16314981809056990375
+
+`∑[ogf((x+x^2)/(1-3x^2))]`
+-/
+
+namespace A062318.P16314981809056990375
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 1] [1, 0, -3] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A062318.P16314981809056990375
+
+namespace A062318
+
+/-- `∑[ogf((x+x^2)/(1-3x^2))]` -/
+def P16314981809056990375.Spec : Prop :=
+  ∀ n, P16314981809056990375.a n = A062318 (n + 1)
+
+end A062318
+
+/-! ## A062318.P2765130667085328881
+
+`ogf((x+x^2)/(1-x-3x^2+3x^3))`
+-/
+
+namespace A062318.P2765130667085328881
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 1] [1, -1, -3, 3] n
+
+end
+
+end A062318.P2765130667085328881
+
+namespace A062318
+
+/-- `ogf((x+x^2)/(1-x-3x^2+3x^3))` -/
+def P2765130667085328881.Spec : Prop :=
+  ∀ n, P2765130667085328881.a n = A062318 (n + 1)
 
 end A062318
 
@@ -14308,7 +14359,7 @@ end A062349.P12578495284193872349
 /-!
 # A062350: Primes having only {1, 2, 3} as digits.
 
-The programs for A062350, the canonical program `A062350.P10684481247219108148` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062350 has offset 1).
+The programs for A062350, the canonical program `A062350.P10684481247219108148` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062350 has offset 1).
 
 The definition of A062350 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1002 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14617,7 +14668,7 @@ end A062350
 
 `∩[A007932(n+1), A386088(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A062350

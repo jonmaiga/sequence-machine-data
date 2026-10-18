@@ -17,18 +17,19 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,24 +38,21 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
@@ -74,7 +72,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -1941,7 +1938,7 @@ end A026810
 /-!
 # A026811: Number of partitions of n in which the greatest part is 5.
 
-The programs for A026811, the canonical program `A026811.P6823680176287512686` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026811 has offset 0).
+The programs for A026811, the canonical program `A026811.P6823680176287512686` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026811 has offset 0).
 
 The definition of A026811 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2042,7 +2039,7 @@ end A026811
 
 `∑[A008667(n)]-A001400(n)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A026811
@@ -2322,7 +2319,7 @@ end A026811
 /-!
 # A026812: Number of partitions of n in which the greatest part is 6.
 
-The programs for A026812, the canonical program `A026812.P368867106460486570` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026812 has offset 0).
+The programs for A026812, the canonical program `A026812.P368867106460486570` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026812 has offset 0).
 
 The definition of A026812 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001401, A001402, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2331,7 +2328,7 @@ The definition of A026812 is `conditional`: the Lean definition is an OEIS formu
 
 `A001402(n)-A001401(n)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A026812
@@ -3328,6 +3325,29 @@ def P12054409485250161144.Spec : Prop :=
 theorem P12054409485250161144.correct : P12054409485250161144.Spec := by
   intro n
   simp only [A026817, Nat.add_sub_cancel]
+
+end A026817
+
+/-! ## A026817.P10318279355795855599
+
+`ogf((6+5x)/(1-3x+3x^2-x^3))`
+-/
+
+namespace A026817.P10318279355795855599
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, 5] [1, -3, 3, -1] n
+
+end
+
+end A026817.P10318279355795855599
+
+namespace A026817
+
+/-- `ogf((6+5x)/(1-3x+3x^2-x^3))` -/
+def P10318279355795855599.Spec : Prop :=
+  ∀ n, P10318279355795855599.a n = A026817 (n + 1)
 
 end A026817
 

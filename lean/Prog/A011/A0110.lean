@@ -1,12 +1,12 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B001.C000
 
 /-!
 # A011000: a(n) = binomial coefficient C(n,47).
 
-The programs for A011000, the canonical program `A011000.P7264108481264943678` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011000 has offset 47).
+The programs for A011000, the canonical program `A011000.P7264108481264943678` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011000 has offset 47).
 
 The definition of A011000 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n+47, 47)` (program `A011000.P7264108481264943678`, by `A011000.P7264108481264943678.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15,7 +15,7 @@ The definition of A011000 is `verified`: the Lean definition is proven equivalen
 
 `C(n+47, 47)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011000
@@ -166,7 +166,7 @@ end A011000
 /-!
 # A011001: Binomial coefficient C(n,48).
 
-The programs for A011001, the canonical program `A011001.P17732690108139867920` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011001 has offset 48).
+The programs for A011001, the canonical program `A011001.P17732690108139867920` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011001 has offset 48).
 
 The definition of A011001 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n+48, 48)` (program `A011001.P17732690108139867920`, by `A011001.P17732690108139867920.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -175,7 +175,7 @@ The definition of A011001 is `verified`: the Lean definition is proven equivalen
 
 `C(n+48, 48)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011001

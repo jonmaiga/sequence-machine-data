@@ -12,36 +12,38 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -3634,7 +3636,7 @@ end A326421.P10599211310064733101
 /-!
 # A326422: Numbers k such that A000045(k) mod 5 is prime.
 
-The programs for A326422, the canonical program `A326422.P3861247142127060209` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326422 has offset 1).
+The programs for A326422, the canonical program `A326422.P3861247142127060209` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326422 has offset 1).
 
 The definition of A326422 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3643,7 +3645,7 @@ The definition of A326422 is `conjectured`: the Lean definition is a formula tha
 
 `∑[dr(gcd(4, n)!)]-3`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A326422
@@ -3902,6 +3904,35 @@ namespace A326422
 /-- `∑[a(n-4)^a(n-1)]` -/
 def P8354947991993199271.Spec : Prop :=
   ∀ n, (P8354947991993199271.a n : ℤ) = A326422 (n + 1)
+
+end A326422
+
+/-! ## A326422.P12099399803697077476
+
+`∑[∑[ogf((x+2x^2+x^3+6x^4)/(1+x+x^2+x^3))]]+3`
+-/
+
+namespace A326422.P12099399803697077476
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 2, 1, 6] [1, 1, 1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j + 3
+
+end
+
+end A326422.P12099399803697077476
+
+namespace A326422
+
+/-- `∑[∑[ogf((x+2x^2+x^3+6x^4)/(1+x+x^2+x^3))]]+3` -/
+def P12099399803697077476.Spec : Prop :=
+  ∀ n, P12099399803697077476.a n = A326422 (n + 1)
 
 end A326422
 
@@ -4461,7 +4492,7 @@ end A326439.P13888693562681909732
 /-!
 # A326440: a(n) = 1 - tau(1) + tau(2) - tau(3) + ... + (-1)^n tau(n), where tau = A000005 is number of divisors.
 
-The programs for A326440, the canonical program `A326440.P14970949069833636215` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326440 has offset 0).
+The programs for A326440, the canonical program `A326440.P14970949069833636215` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326440 has offset 0).
 
 The definition of A326440 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4470,7 +4501,7 @@ The definition of A326440 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(-1)^n*∏{e}[n, #+1]]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A326440
@@ -8120,7 +8151,7 @@ end A326493.P1805357089478221870
 /-!
 # A326494: Number of subsets of {1..n} containing all differences and quotients of pairs of distinct elements.
 
-The programs for A326494, the canonical program `A326494.P9866001270718932447` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326494 has offset 0).
+The programs for A326494, the canonical program `A326494.P9866001270718932447` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326494 has offset 0).
 
 The definition of A326494 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8129,7 +8160,7 @@ The definition of A326494 is `conjectured`: the Lean definition is a formula tha
 
 `C(4, n)!%2+2*n`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A326494

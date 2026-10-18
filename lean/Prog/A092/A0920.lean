@@ -31,9 +31,10 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,6 +46,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -82,6 +84,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -6456,27 +6459,50 @@ end A092074
 /-!
 # A092076: Expansion of (1+4*x^3+x^6)/((1-x)*(1-x^3)^2).
 
-The programs for A092076, the canonical program `A092076.P11135227815627621096` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A092076 has offset 0).
+The programs for A092076, the canonical program `A092076.P3381577283447898158` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A092076 has offset 0).
 
-The definition of A092076 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A092076 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+4x^3+x^6)/(1-x-2x^3+2x^4+x^6-x^7))` (program `A092076.P3381577283447898158`, by `A092076.P3381577283447898158.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A092076.P11135227815627621096
+/-! ## A092076.P3381577283447898158
 
-`a(n-1)+2*a(n-3)-2*a(n-4)-a(n-6)+a(n-7)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=7, a(4)=7, a(5)=7, a(6)=19`
+`ogf((1+4x^3+x^6)/(1-x-2x^3+2x^4+x^6-x^7))`
 
 The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A092076
 
+/-- `ogf((1+4x^3+x^6)/(1-x-2x^3+2x^4+x^6-x^7))` -/
+def P3381577283447898158.Spec : Prop :=
+  ∀ n, P3381577283447898158.a n = A092076 n
+
+theorem P3381577283447898158.correct : P3381577283447898158.Spec := by
+  intro n
+  simp only [A092076]
+
+end A092076
+
+/-! ## A092076.P11135227815627621096
+
+`a(n-1)+2*a(n-3)-2*a(n-4)-a(n-6)+a(n-7)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=7, a(4)=7, a(5)=7, a(6)=19`
+-/
+
+namespace A092076.P11135227815627621096
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1, 7, 7, 7, 19] fun n a =>
+  a (n - 1) + 2 * a (n - 3) - 2 * a (n - 4) - a (n - 6) + a (n - 7)
+
+end
+
+end A092076.P11135227815627621096
+
+namespace A092076
+
 /-- `a(n-1)+2*a(n-3)-2*a(n-4)-a(n-6)+a(n-7)` -/
 def P11135227815627621096.Spec : Prop :=
   ∀ n, P11135227815627621096.a n = A092076 n
-
-theorem P11135227815627621096.correct : P11135227815627621096.Spec := by
-  intro n
-  simp only [A092076]
 
 end A092076
 
@@ -6938,29 +6964,6 @@ namespace A092076
 /-- `A001399(A008588(A002264(n)))` -/
 def P16029890878094262036.Spec : Prop :=
   ∀ n, P16029890878094262036.a n = A092076 n
-
-end A092076
-
-/-! ## A092076.P18295451466409241421
-
-`A068626(A102283(2*n+1)+n)`
--/
-
-namespace A092076.P18295451466409241421
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068626 (A102283 (2 * n + 1) + (n : ℤ)).toNat
-
-end
-
-end A092076.P18295451466409241421
-
-namespace A092076
-
-/-- `A068626(A102283(2*n+1)+n)` -/
-def P18295451466409241421.Spec : Prop :=
-  ∀ n, P18295451466409241421.a n = A092076 n
 
 end A092076
 

@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -24,20 +25,20 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -4598,6 +4599,35 @@ def P17312700310447527671.Spec : Prop :=
 
 end A069229
 
+/-! ## A069229.P15698662850576847800
+
+`∑[∑[ogf((1-2x+2x^3)/(1-4x+4x^2))]]-1`
+-/
+
+namespace A069229.P15698662850576847800
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, 0, 2] [1, -4, 4] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - 1
+
+end
+
+end A069229.P15698662850576847800
+
+namespace A069229
+
+/-- `∑[∑[ogf((1-2x+2x^3)/(1-4x+4x^2))]]-1` -/
+def P15698662850576847800.Spec : Prop :=
+  ∀ n, P15698662850576847800.a n = A069229 n
+
+end A069229
+
 /-! ## A069229.P14780101503093086207
 
 `4*(a(n-1)-(a(n-2)+1))+n` with `a(0)=0, a(1)=3`
@@ -5962,6 +5992,32 @@ def P2240930364742614384.Spec : Prop :=
 theorem P2240930364742614384.correct : P2240930364742614384.Spec := by
   intro n
   simp only [A069241]
+
+end A069241
+
+/-! ## A069241.P10837232301778999439
+
+`∑[ogf((1+x^3)/(1-x-x^3))]-n`
+-/
+
+namespace A069241.P10837232301778999439
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, 1] [1, -1, 0, -1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - (n : ℤ)
+
+end
+
+end A069241.P10837232301778999439
+
+namespace A069241
+
+/-- `∑[ogf((1+x^3)/(1-x-x^3))]-n` -/
+def P10837232301778999439.Spec : Prop :=
+  ∀ n, P10837232301778999439.a n = A069241 n
 
 end A069241
 
@@ -9532,7 +9588,7 @@ end A069264
 /-!
 # A069265: Numbers k such that Sum_{d|k} d/core(d) > k, where core(d) is the squarefree part of d.
 
-The programs for A069265, the canonical program `A069265.P4815336299590380564` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069265 has offset 1).
+The programs for A069265, the canonical program `A069265.P4815336299590380564` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069265 has offset 1).
 
 The definition of A069265 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 195 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9541,7 +9597,7 @@ The definition of A069265 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n+1, A068976(A028310(n))]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A069265

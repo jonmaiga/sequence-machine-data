@@ -8,26 +8,26 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -84,7 +84,7 @@ import Seq.Opaque.C025
 /-!
 # A243600: Number of length n+2 0..3 arrays with no three elements in a row with pattern aba (with a!=b) and new values 0..3 introduced in 0..3 order.
 
-The programs for A243600, the canonical program `A243600.P13081447738916890478` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243600 has offset 1).
+The programs for A243600, the canonical program `A243600.P13081447738916890478` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243600 has offset 1).
 
 The definition of A243600 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -93,7 +93,7 @@ The definition of A243600 is `conjectured`: the Lean definition is a formula tha
 
 `5*a(n-1)-5*a(n-2)-3*a(n-3)+3*a(n-4)+a(n-5)` with `a(0)=4, a(1)=10, a(2)=28, a(3)=85, a(4)=269`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A243600
@@ -4292,8 +4292,29 @@ end A243632.P11711307092292950444
 /-!
 # A243633: Expansion of (4*x^3-6*x^2+4*x-1)/(5*x^3-8*x^2+5*x-1).
 
-The programs for A243633, there is no canonical definition to state claims against.
+The programs for A243633, the canonical program `A243633.P15473729814359446920` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243633 has offset 0).
+
+The definition of A243633 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-4x+6x^2-4x^3)/(1-5x+8x^2-5x^3))` (program `A243633.P15473729814359446920`, by `A243633.P15473729814359446920.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A243633.P15473729814359446920
+
+`ogf((1-4x+6x^2-4x^3)/(1-5x+8x^2-5x^3))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A243633
+
+/-- `ogf((1-4x+6x^2-4x^3)/(1-5x+8x^2-5x^3))` -/
+def P15473729814359446920.Spec : Prop :=
+  ∀ n, P15473729814359446920.a n = A243633 n
+
+theorem P15473729814359446920.correct : P15473729814359446920.Spec := by
+  intro n
+  simp only [A243633]
+
+end A243633
 
 /-! ## A243633.P2648167094100723756
 
@@ -4310,6 +4331,14 @@ end
 
 end A243633.P2648167094100723756
 
+namespace A243633
+
+/-- `A247913(A304173(n+1))` -/
+def P2648167094100723756.Spec : Prop :=
+  ∀ n, P2648167094100723756.a n = A243633 n
+
+end A243633
+
 /-! ## A243633.P15486788128502887946
 
 `A056811(A325453(n))+A002426(n)`
@@ -4324,6 +4353,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A243633.P15486788128502887946
+
+namespace A243633
+
+/-- `A056811(A325453(n))+A002426(n)` -/
+def P15486788128502887946.Spec : Prop :=
+  ∀ n, P15486788128502887946.a n = A243633 n
+
+end A243633
 
 /-! ## A243633.P12110365109637344073
 
@@ -4340,20 +4377,13 @@ end
 
 end A243633.P12110365109637344073
 
-/-! ## A243633.P7079258414151744521
+namespace A243633
 
-`A038567(A002293(n))-A132588(n+1)`
--/
+/-- `A038567(A002293(n)-A090338(n))` -/
+def P12110365109637344073.Spec : Prop :=
+  ∀ n, P12110365109637344073.a n = A243633 n
 
-namespace A243633.P7079258414151744521
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038567 (A002293 n).toNat - A132588 (n + 1)
-
-end
-
-end A243633.P7079258414151744521
+end A243633
 
 /-!
 # A243634: Number of length n+2 0..n arrays with no three unequal elements in a row and new values 0..n introduced in 0..n order.
@@ -6958,6 +6988,48 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A243668.P10129430777913815337
+
+/-!
+# A243669: Number of hypo-Sylvester classes of 3-packed words of degree n.
+
+The programs for A243669, there is no canonical definition to state claims against.
+-/
+
+/-! ## A243669.P3245507085288085559
+
+`ogf((1-x)/(1-6x+2x^2))`
+-/
+
+namespace A243669.P3245507085288085559
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -6, 2] n
+
+end
+
+end A243669.P3245507085288085559
+
+/-!
+# A243670: Number of hypo-Sylvester classes of 5-packed words of degree n.
+
+The programs for A243670, there is no canonical definition to state claims against.
+-/
+
+/-! ## A243670.P1269966785832133825
+
+`ogf((1-x)/(1-8x+2x^2))`
+-/
+
+namespace A243670.P1269966785832133825
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -8, 2] n
+
+end
+
+end A243670.P1269966785832133825
 
 /-!
 # A243671: Number of Sylvester classes of 2-parking functions of length n.

@@ -6,7 +6,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -17,7 +16,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -25,22 +24,23 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -72,7 +72,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2376,6 +2375,29 @@ def P9226351011328103812.Spec : Prop :=
 
 end A022308
 
+/-! ## A022308.P16242370562441455325
+
+`ogf((3x-2x^2)/(1-2x+x^3))`
+-/
+
+namespace A022308.P16242370562441455325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, -2] [1, -2, 0, 1] n
+
+end
+
+end A022308.P16242370562441455325
+
+namespace A022308
+
+/-- `ogf((3x-2x^2)/(1-2x+x^3))` -/
+def P16242370562441455325.Spec : Prop :=
+  ∀ n, P16242370562441455325.a n = A022308 n
+
+end A022308
+
 /-! ## A022308.P12411825605256422939
 
 `a(n-1)-xor(-1, a(n-2))` with `a(0)=0, a(1)=3`
@@ -2799,6 +2821,29 @@ namespace A022309
 /-- `A022095(n)-1` -/
 def P14005686953710805457.Spec : Prop :=
   ∀ n, P14005686953710805457.a n = A022309 n
+
+end A022309
+
+/-! ## A022309.P14906699799553104903
+
+`ogf((4x-3x^2)/(1-2x+x^3))`
+-/
+
+namespace A022309.P14906699799553104903
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 4, -3] [1, -2, 0, 1] n
+
+end
+
+end A022309.P14906699799553104903
+
+namespace A022309
+
+/-- `ogf((4x-3x^2)/(1-2x+x^3))` -/
+def P14906699799553104903.Spec : Prop :=
+  ∀ n, P14906699799553104903.a n = A022309 n
 
 end A022309
 
@@ -3251,6 +3296,29 @@ def P10417800547458982492.Spec : Prop :=
 
 end A022310
 
+/-! ## A022310.P7550521214784694825
+
+`ogf((5x-4x^2)/(1-2x+x^3))`
+-/
+
+namespace A022310.P7550521214784694825
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 5, -4] [1, -2, 0, 1] n
+
+end
+
+end A022310.P7550521214784694825
+
+namespace A022310
+
+/-- `ogf((5x-4x^2)/(1-2x+x^3))` -/
+def P7550521214784694825.Spec : Prop :=
+  ∀ n, P7550521214784694825.a n = A022310 n
+
+end A022310
+
 /-! ## A022310.P7395396001149146334
 
 `a(n-1)-xor(-1, a(n-2))` with `a(0)=0, a(1)=5`
@@ -3671,6 +3739,29 @@ namespace A022311
 /-- `A022097(n)-1` -/
 def P871332374486336366.Spec : Prop :=
   ∀ n, P871332374486336366.a n = A022311 n
+
+end A022311
+
+/-! ## A022311.P2260383432882495680
+
+`ogf((6x-5x^2)/(1-2x+x^3))`
+-/
+
+namespace A022311.P2260383432882495680
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 6, -5] [1, -2, 0, 1] n
+
+end
+
+end A022311.P2260383432882495680
+
+namespace A022311
+
+/-- `ogf((6x-5x^2)/(1-2x+x^3))` -/
+def P2260383432882495680.Spec : Prop :=
+  ∀ n, P2260383432882495680.a n = A022311 n
 
 end A022311
 
@@ -4112,6 +4203,29 @@ namespace A022312
 /-- `A022098(n)-1` -/
 def P12092980028019986521.Spec : Prop :=
   ∀ n, P12092980028019986521.a n = A022312 n
+
+end A022312
+
+/-! ## A022312.P3211697393864626103
+
+`ogf((7x-6x^2)/(1-2x+x^3))`
+-/
+
+namespace A022312.P3211697393864626103
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 7, -6] [1, -2, 0, 1] n
+
+end
+
+end A022312.P3211697393864626103
+
+namespace A022312
+
+/-- `ogf((7x-6x^2)/(1-2x+x^3))` -/
+def P3211697393864626103.Spec : Prop :=
+  ∀ n, P3211697393864626103.a n = A022312 n
 
 end A022312
 
@@ -4559,6 +4673,29 @@ def P7507581140257515785.Spec : Prop :=
 
 end A022313
 
+/-! ## A022313.P6117661377160128247
+
+`ogf((8x-7x^2)/(1-2x+x^3))`
+-/
+
+namespace A022313.P6117661377160128247
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 8, -7] [1, -2, 0, 1] n
+
+end
+
+end A022313.P6117661377160128247
+
+namespace A022313
+
+/-- `ogf((8x-7x^2)/(1-2x+x^3))` -/
+def P6117661377160128247.Spec : Prop :=
+  ∀ n, P6117661377160128247.a n = A022313 n
+
+end A022313
+
 /-! ## A022313.P12508249121710136541
 
 `2*a(n-1)-a(n-3)` with `a(0)=0, a(1)=8, a(2)=9`
@@ -5000,6 +5137,29 @@ def P8681180791054639890.Spec : Prop :=
 
 end A022314
 
+/-! ## A022314.P14264517409120879407
+
+`ogf((9x-8x^2)/(1-2x+x^3))`
+-/
+
+namespace A022314.P14264517409120879407
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 9, -8] [1, -2, 0, 1] n
+
+end
+
+end A022314.P14264517409120879407
+
+namespace A022314
+
+/-- `ogf((9x-8x^2)/(1-2x+x^3))` -/
+def P14264517409120879407.Spec : Prop :=
+  ∀ n, P14264517409120879407.a n = A022314 n
+
+end A022314
+
 /-! ## A022314.P16487128765553421952
 
 `A022313(n)+A000045(n)`
@@ -5438,6 +5598,29 @@ namespace A022315
 /-- `A022101(n)-1` -/
 def P5928340772723611319.Spec : Prop :=
   ∀ n, P5928340772723611319.a n = A022315 n
+
+end A022315
+
+/-! ## A022315.P10814118095974187700
+
+`ogf((10x-9x^2)/(1-2x+x^3))`
+-/
+
+namespace A022315.P10814118095974187700
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 10, -9] [1, -2, 0, 1] n
+
+end
+
+end A022315.P10814118095974187700
+
+namespace A022315
+
+/-- `ogf((10x-9x^2)/(1-2x+x^3))` -/
+def P10814118095974187700.Spec : Prop :=
+  ∀ n, P10814118095974187700.a n = A022315 n
 
 end A022315
 
@@ -6836,6 +7019,29 @@ def P14963223113833223577.Spec : Prop :=
 
 end A022318
 
+/-! ## A022318.P16024139221031818742
+
+`ogf((1+2x-2x^2)/(1-2x+x^3))`
+-/
+
+namespace A022318.P16024139221031818742
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, -2] [1, -2, 0, 1] n
+
+end
+
+end A022318.P16024139221031818742
+
+namespace A022318
+
+/-- `ogf((1+2x-2x^2)/(1-2x+x^3))` -/
+def P16024139221031818742.Spec : Prop :=
+  ∀ n, P16024139221031818742.a n = A022318 n
+
+end A022318
+
 /-! ## A022318.P5283684321878961972
 
 `a(n-1)-xor(-1, a(n-2))` with `a(0)=1, a(1)=4`
@@ -7268,6 +7474,29 @@ namespace A022319
 /-- `A022112(n)-1` -/
 def P11942860402071113493.Spec : Prop :=
   ∀ n, P11942860402071113493.a n = A022319 n
+
+end A022319
+
+/-! ## A022319.P16644695608467954100
+
+`ogf((1+3x-3x^2)/(1-2x+x^3))`
+-/
+
+namespace A022319.P16644695608467954100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, -3] [1, -2, 0, 1] n
+
+end
+
+end A022319.P16644695608467954100
+
+namespace A022319
+
+/-- `ogf((1+3x-3x^2)/(1-2x+x^3))` -/
+def P16644695608467954100.Spec : Prop :=
+  ∀ n, P16644695608467954100.a n = A022319 n
 
 end A022319
 
@@ -7717,6 +7946,29 @@ def P4834227033755556653.Spec : Prop :=
 
 end A022320
 
+/-! ## A022320.P18284495948102340546
+
+`ogf((1+4x-4x^2)/(1-2x+x^3))`
+-/
+
+namespace A022320.P18284495948102340546
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, -4] [1, -2, 0, 1] n
+
+end
+
+end A022320.P18284495948102340546
+
+namespace A022320
+
+/-- `ogf((1+4x-4x^2)/(1-2x+x^3))` -/
+def P18284495948102340546.Spec : Prop :=
+  ∀ n, P18284495948102340546.a n = A022320 n
+
+end A022320
+
 /-! ## A022320.P110122836997403097
 
 `2*a(n-1)-a(n-3)` with `a(0)=1, a(1)=6, a(2)=8`
@@ -8155,6 +8407,29 @@ namespace A022321
 /-- `2*A000285(n)-1` -/
 def P3874916707332773922.Spec : Prop :=
   ∀ n, P3874916707332773922.a n = A022321 n
+
+end A022321
+
+/-! ## A022321.P1355218580670402886
+
+`ogf((1+5x-5x^2)/(1-2x+x^3))`
+-/
+
+namespace A022321.P1355218580670402886
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 5, -5] [1, -2, 0, 1] n
+
+end
+
+end A022321.P1355218580670402886
+
+namespace A022321
+
+/-- `ogf((1+5x-5x^2)/(1-2x+x^3))` -/
+def P1355218580670402886.Spec : Prop :=
+  ∀ n, P1355218580670402886.a n = A022321 n
 
 end A022321
 
@@ -8602,6 +8877,29 @@ def P17353000994180160664.Spec : Prop :=
 
 end A022322
 
+/-! ## A022322.P4540295715866588901
+
+`ogf((1+6x-6x^2)/(1-2x+x^3))`
+-/
+
+namespace A022322.P4540295715866588901
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 6, -6] [1, -2, 0, 1] n
+
+end
+
+end A022322.P4540295715866588901
+
+namespace A022322
+
+/-- `ogf((1+6x-6x^2)/(1-2x+x^3))` -/
+def P4540295715866588901.Spec : Prop :=
+  ∀ n, P4540295715866588901.a n = A022322 n
+
+end A022322
+
 /-! ## A022322.P1718963143218073437
 
 `A022321(n)+A000045(n)`
@@ -9040,6 +9338,29 @@ namespace A022323
 /-- `A022367(n)-1` -/
 def P8586284071528667165.Spec : Prop :=
   ∀ n, P8586284071528667165.a n = A022323 n
+
+end A022323
+
+/-! ## A022323.P18071205892248523481
+
+`ogf((1+7x-7x^2)/(1-2x+x^3))`
+-/
+
+namespace A022323.P18071205892248523481
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 7, -7] [1, -2, 0, 1] n
+
+end
+
+end A022323.P18071205892248523481
+
+namespace A022323
+
+/-- `ogf((1+7x-7x^2)/(1-2x+x^3))` -/
+def P18071205892248523481.Spec : Prop :=
+  ∀ n, P18071205892248523481.a n = A022323 n
 
 end A022323
 
@@ -9484,6 +9805,29 @@ def P14854815153339398097.Spec : Prop :=
 
 end A022324
 
+/-! ## A022324.P1087027366605870622
+
+`ogf((1+8x-8x^2)/(1-2x+x^3))`
+-/
+
+namespace A022324.P1087027366605870622
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 8, -8] [1, -2, 0, 1] n
+
+end
+
+end A022324.P1087027366605870622
+
+namespace A022324
+
+/-- `ogf((1+8x-8x^2)/(1-2x+x^3))` -/
+def P1087027366605870622.Spec : Prop :=
+  ∀ n, P1087027366605870622.a n = A022324 n
+
+end A022324
+
 /-! ## A022324.P1891704336763642922
 
 `A022323(n)+A000045(n)`
@@ -9922,6 +10266,29 @@ namespace A022325
 /-- `A022368(n)-1` -/
 def P16248866012770713563.Spec : Prop :=
   ∀ n, P16248866012770713563.a n = A022325 n
+
+end A022325
+
+/-! ## A022325.P17134094818804245527
+
+`ogf((1+9x-9x^2)/(1-2x+x^3))`
+-/
+
+namespace A022325.P17134094818804245527
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 9, -9] [1, -2, 0, 1] n
+
+end
+
+end A022325.P17134094818804245527
+
+namespace A022325
+
+/-- `ogf((1+9x-9x^2)/(1-2x+x^3))` -/
+def P17134094818804245527.Spec : Prop :=
+  ∀ n, P17134094818804245527.a n = A022325 n
 
 end A022325
 
@@ -10386,6 +10753,29 @@ namespace A022326
 /-- `A022116(n)-1` -/
 def P12420834007812826292.Spec : Prop :=
   ∀ n, P12420834007812826292.a n = A022326 n
+
+end A022326
+
+/-! ## A022326.P3081517929841327169
+
+`ogf((1+10x-10x^2)/(1-2x+x^3))`
+-/
+
+namespace A022326.P3081517929841327169
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 10, -10] [1, -2, 0, 1] n
+
+end
+
+end A022326.P3081517929841327169
+
+namespace A022326
+
+/-- `ogf((1+10x-10x^2)/(1-2x+x^3))` -/
+def P3081517929841327169.Spec : Prop :=
+  ∀ n, P3081517929841327169.a n = A022326 n
 
 end A022326
 
@@ -15679,6 +16069,29 @@ The programs for A022345, the canonical program `A022345.P3222303767883107132` i
 The definition of A022345 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 476 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A022345.P12779853940572961931
+
+`ogf(11x/(1-x-x^2))`
+-/
+
+namespace A022345.P12779853940572961931
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 11] [1, -1, -1] n
+
+end
+
+end A022345.P12779853940572961931
+
+namespace A022345
+
+/-- `ogf(11x/(1-x-x^2))` -/
+def P12779853940572961931.Spec : Prop :=
+  ∀ n, P12779853940572961931.a n = A022345 n
+
+end A022345
+
 /-! ## A022345.P3222303767883107132
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=11`
@@ -16129,6 +16542,29 @@ The programs for A022346, the canonical program `A022346.P959763871011371913` is
 The definition of A022346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 476 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A022346.P8756825994816506259
+
+`ogf(12x/(1-x-x^2))`
+-/
+
+namespace A022346.P8756825994816506259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 12] [1, -1, -1] n
+
+end
+
+end A022346.P8756825994816506259
+
+namespace A022346
+
+/-- `ogf(12x/(1-x-x^2))` -/
+def P8756825994816506259.Spec : Prop :=
+  ∀ n, P8756825994816506259.a n = A022346 n
+
+end A022346
+
 /-! ## A022346.P959763871011371913
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=12`
@@ -16569,6 +17005,29 @@ The programs for A022347, the canonical program `A022347.P13222596601354913426` 
 
 The definition of A022347 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 475 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022347.P14356380737566489987
+
+`ogf(13x/(1-x-x^2))`
+-/
+
+namespace A022347.P14356380737566489987
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 13] [1, -1, -1] n
+
+end
+
+end A022347.P14356380737566489987
+
+namespace A022347
+
+/-- `ogf(13x/(1-x-x^2))` -/
+def P14356380737566489987.Spec : Prop :=
+  ∀ n, P14356380737566489987.a n = A022347 n
+
+end A022347
 
 /-! ## A022347.P13222596601354913426
 
@@ -17030,6 +17489,29 @@ theorem P5230939691613285964.correct : P5230939691613285964.Spec := by
 
 end A022348
 
+/-! ## A022348.P16279265504163150069
+
+`ogf(14x/(1-x-x^2))`
+-/
+
+namespace A022348.P16279265504163150069
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 14] [1, -1, -1] n
+
+end
+
+end A022348.P16279265504163150069
+
+namespace A022348
+
+/-- `ogf(14x/(1-x-x^2))` -/
+def P16279265504163150069.Spec : Prop :=
+  ∀ n, P16279265504163150069.a n = A022348 n
+
+end A022348
+
 /-! ## A022348.P10532313384596523720
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=14`
@@ -17471,6 +17953,29 @@ theorem P10870212278406772653.correct : P10870212278406772653.Spec := by
 
 end A022349
 
+/-! ## A022349.P15935793456435450198
+
+`ogf(15x/(1-x-x^2))`
+-/
+
+namespace A022349.P15935793456435450198
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 15] [1, -1, -1] n
+
+end
+
+end A022349.P15935793456435450198
+
+namespace A022349
+
+/-- `ogf(15x/(1-x-x^2))` -/
+def P15935793456435450198.Spec : Prop :=
+  ∀ n, P15935793456435450198.a n = A022349 n
+
+end A022349
+
 /-! ## A022349.P7261967198565325152
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=15`
@@ -17909,6 +18414,29 @@ def P3992686559429308744.Spec : Prop :=
 theorem P3992686559429308744.correct : P3992686559429308744.Spec := by
   intro n
   simp only [A022350]
+
+end A022350
+
+/-! ## A022350.P5676508092779720192
+
+`ogf(16x/(1-x-x^2))`
+-/
+
+namespace A022350.P5676508092779720192
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 16] [1, -1, -1] n
+
+end
+
+end A022350.P5676508092779720192
+
+namespace A022350
+
+/-- `ogf(16x/(1-x-x^2))` -/
+def P5676508092779720192.Spec : Prop :=
+  ∀ n, P5676508092779720192.a n = A022350 n
 
 end A022350
 
@@ -18359,6 +18887,29 @@ theorem P1553212968435598646.correct : P1553212968435598646.Spec := by
 
 end A022351
 
+/-! ## A022351.P10128272982098269225
+
+`ogf(17x/(1-x-x^2))`
+-/
+
+namespace A022351.P10128272982098269225
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 17] [1, -1, -1] n
+
+end
+
+end A022351.P10128272982098269225
+
+namespace A022351
+
+/-- `ogf(17x/(1-x-x^2))` -/
+def P10128272982098269225.Spec : Prop :=
+  ∀ n, P10128272982098269225.a n = A022351 n
+
+end A022351
+
 /-! ## A022351.P5929091940351246440
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=17`
@@ -18789,6 +19340,29 @@ The programs for A022352, the canonical program `A022352.P2372187960422330445` i
 
 The definition of A022352 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 475 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022352.P17334182119381212224
+
+`ogf(18x/(1-x-x^2))`
+-/
+
+namespace A022352.P17334182119381212224
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 18] [1, -1, -1] n
+
+end
+
+end A022352.P17334182119381212224
+
+namespace A022352
+
+/-- `ogf(18x/(1-x-x^2))` -/
+def P17334182119381212224.Spec : Prop :=
+  ∀ n, P17334182119381212224.a n = A022352 n
+
+end A022352
 
 /-! ## A022352.P2372187960422330445
 
@@ -19253,6 +19827,29 @@ theorem P4384315512974334384.correct : P4384315512974334384.Spec := by
 
 end A022353
 
+/-! ## A022353.P2561410982129946157
+
+`ogf(19x/(1-x-x^2))`
+-/
+
+namespace A022353.P2561410982129946157
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 19] [1, -1, -1] n
+
+end
+
+end A022353.P2561410982129946157
+
+namespace A022353
+
+/-- `ogf(19x/(1-x-x^2))` -/
+def P2561410982129946157.Spec : Prop :=
+  ∀ n, P2561410982129946157.a n = A022353 n
+
+end A022353
+
 /-! ## A022353.P3718752262186852508
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=19`
@@ -19694,6 +20291,29 @@ theorem P2497390260056676203.correct : P2497390260056676203.Spec := by
 
 end A022354
 
+/-! ## A022354.P8075576326442903494
+
+`ogf(20x/(1-x-x^2))`
+-/
+
+namespace A022354.P8075576326442903494
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 20] [1, -1, -1] n
+
+end
+
+end A022354.P8075576326442903494
+
+namespace A022354
+
+/-- `ogf(20x/(1-x-x^2))` -/
+def P8075576326442903494.Spec : Prop :=
+  ∀ n, P8075576326442903494.a n = A022354 n
+
+end A022354
+
 /-! ## A022354.P9430349467441321534
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=20`
@@ -20132,6 +20752,29 @@ def P14565443088035483899.Spec : Prop :=
 theorem P14565443088035483899.correct : P14565443088035483899.Spec := by
   intro n
   simp only [A022355]
+
+end A022355
+
+/-! ## A022355.P13837838561992659509
+
+`ogf(21x/(1-x-x^2))`
+-/
+
+namespace A022355.P13837838561992659509
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 21] [1, -1, -1] n
+
+end
+
+end A022355.P13837838561992659509
+
+namespace A022355
+
+/-- `ogf(21x/(1-x-x^2))` -/
+def P13837838561992659509.Spec : Prop :=
+  ∀ n, P13837838561992659509.a n = A022355 n
 
 end A022355
 
@@ -20585,6 +21228,29 @@ theorem P14674045787055345271.correct : P14674045787055345271.Spec := by
 
 end A022356
 
+/-! ## A022356.P16596155053532581506
+
+`ogf(22x/(1-x-x^2))`
+-/
+
+namespace A022356.P16596155053532581506
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 22] [1, -1, -1] n
+
+end
+
+end A022356.P16596155053532581506
+
+namespace A022356
+
+/-- `ogf(22x/(1-x-x^2))` -/
+def P16596155053532581506.Spec : Prop :=
+  ∀ n, P16596155053532581506.a n = A022356 n
+
+end A022356
+
 /-! ## A022356.P1288996219656338634
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=22`
@@ -21023,6 +21689,29 @@ def P7660014603306002529.Spec : Prop :=
 theorem P7660014603306002529.correct : P7660014603306002529.Spec := by
   intro n
   simp only [A022357]
+
+end A022357
+
+/-! ## A022357.P17004596681865932169
+
+`ogf(23x/(1-x-x^2))`
+-/
+
+namespace A022357.P17004596681865932169
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 23] [1, -1, -1] n
+
+end
+
+end A022357.P17004596681865932169
+
+namespace A022357
+
+/-- `ogf(23x/(1-x-x^2))` -/
+def P17004596681865932169.Spec : Prop :=
+  ∀ n, P17004596681865932169.a n = A022357 n
 
 end A022357
 
@@ -21491,6 +22180,29 @@ theorem P10093818309095177812.correct : P10093818309095177812.Spec := by
 
 end A022358
 
+/-! ## A022358.P5015944384382204118
+
+`ogf(24x/(1-x-x^2))`
+-/
+
+namespace A022358.P5015944384382204118
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 24] [1, -1, -1] n
+
+end
+
+end A022358.P5015944384382204118
+
+namespace A022358
+
+/-- `ogf(24x/(1-x-x^2))` -/
+def P5015944384382204118.Spec : Prop :=
+  ∀ n, P5015944384382204118.a n = A022358 n
+
+end A022358
+
 /-! ## A022358.P11996557469345474926
 
 `a(n-1)+a(n-2)` with `a(0)=0, a(1)=24`
@@ -21912,6 +22624,29 @@ The programs for A022359, the canonical program `A022359.P5202443967155196284` i
 
 The definition of A022359 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022359.P12548707858954271235
+
+`ogf(25x/(1-x-x^2))`
+-/
+
+namespace A022359.P12548707858954271235
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 25] [1, -1, -1] n
+
+end
+
+end A022359.P12548707858954271235
+
+namespace A022359
+
+/-- `ogf(25x/(1-x-x^2))` -/
+def P12548707858954271235.Spec : Prop :=
+  ∀ n, P12548707858954271235.a n = A022359 n
+
+end A022359
 
 /-! ## A022359.P5202443967155196284
 
@@ -25581,6 +26316,29 @@ theorem P15141266762109396165.correct : P15141266762109396165.Spec := by
 
 end A022367
 
+/-! ## A022367.P12929769140011582010
+
+`ogf((2+8x)/(1-x-x^2))`
+-/
+
+namespace A022367.P12929769140011582010
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 8] [1, -1, -1] n
+
+end
+
+end A022367.P12929769140011582010
+
+namespace A022367
+
+/-- `ogf((2+8x)/(1-x-x^2))` -/
+def P12929769140011582010.Spec : Prop :=
+  ∀ n, P12929769140011582010.a n = A022367 n
+
+end A022367
+
 /-! ## A022367.P3277807879755972279
 
 `a(n-1)+a(n-2)` with `a(0)=2, a(1)=10`
@@ -26025,6 +26783,29 @@ def P17562576182317563288.Spec : Prop :=
 theorem P17562576182317563288.correct : P17562576182317563288.Spec := by
   intro n
   simp only [A022368]
+
+end A022368
+
+/-! ## A022368.P2606440959628610492
+
+`ogf((2+10x)/(1-x-x^2))`
+-/
+
+namespace A022368.P2606440959628610492
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 10] [1, -1, -1] n
+
+end
+
+end A022368.P2606440959628610492
+
+namespace A022368
+
+/-- `ogf((2+10x)/(1-x-x^2))` -/
+def P2606440959628610492.Spec : Prop :=
+  ∀ n, P2606440959628610492.a n = A022368 n
 
 end A022368
 
@@ -26481,6 +27262,29 @@ theorem P16171992494825357631.correct : P16171992494825357631.Spec := by
 
 end A022369
 
+/-! ## A022369.P7298276339444011852
+
+`ogf((2+12x)/(1-x-x^2))`
+-/
+
+namespace A022369.P7298276339444011852
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 12] [1, -1, -1] n
+
+end
+
+end A022369.P7298276339444011852
+
+namespace A022369
+
+/-- `ogf((2+12x)/(1-x-x^2))` -/
+def P7298276339444011852.Spec : Prop :=
+  ∀ n, P7298276339444011852.a n = A022369 n
+
+end A022369
+
 /-! ## A022369.P18015369617867584305
 
 `a(n-1)+a(n-2)` with `a(0)=2, a(1)=14`
@@ -26919,6 +27723,29 @@ def P10782743781689353041.Spec : Prop :=
 theorem P10782743781689353041.correct : P10782743781689353041.Spec := by
   intro n
   simp only [A022370]
+
+end A022370
+
+/-! ## A022370.P1363620740802501725
+
+`ogf((2+14x)/(1-x-x^2))`
+-/
+
+namespace A022370.P1363620740802501725
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 14] [1, -1, -1] n
+
+end
+
+end A022370.P1363620740802501725
+
+namespace A022370
+
+/-- `ogf((2+14x)/(1-x-x^2))` -/
+def P1363620740802501725.Spec : Prop :=
+  ∀ n, P1363620740802501725.a n = A022370 n
 
 end A022370
 
@@ -27363,6 +28190,29 @@ theorem P497849754708652778.correct : P497849754708652778.Spec := by
 
 end A022371
 
+/-! ## A022371.P17645307253469859857
+
+`ogf((2+16x)/(1-x-x^2))`
+-/
+
+namespace A022371.P17645307253469859857
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 16] [1, -1, -1] n
+
+end
+
+end A022371.P17645307253469859857
+
+namespace A022371
+
+/-- `ogf((2+16x)/(1-x-x^2))` -/
+def P17645307253469859857.Spec : Prop :=
+  ∀ n, P17645307253469859857.a n = A022371 n
+
+end A022371
+
 /-! ## A022371.P3385294528331273374
 
 `a(n-1)+a(n-2)` with `a(0)=2, a(1)=18`
@@ -27804,6 +28654,29 @@ theorem P3318322918414077424.correct : P3318322918414077424.Spec := by
 
 end A022372
 
+/-! ## A022372.P15124651686000668512
+
+`ogf((2+18x)/(1-x-x^2))`
+-/
+
+namespace A022372.P15124651686000668512
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 18] [1, -1, -1] n
+
+end
+
+end A022372.P15124651686000668512
+
+namespace A022372
+
+/-- `ogf((2+18x)/(1-x-x^2))` -/
+def P15124651686000668512.Spec : Prop :=
+  ∀ n, P15124651686000668512.a n = A022372 n
+
+end A022372
+
 /-! ## A022372.P2865585126006454163
 
 `a(n-1)+a(n-2)` with `a(0)=2, a(1)=20`
@@ -28225,6 +29098,29 @@ The programs for A022373, the canonical program `A022373.P7864979694522191058` i
 
 The definition of A022373 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022373.P12860146672640610228
+
+`ogf((2+20x)/(1-x-x^2))`
+-/
+
+namespace A022373.P12860146672640610228
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 20] [1, -1, -1] n
+
+end
+
+end A022373.P12860146672640610228
+
+namespace A022373
+
+/-- `ogf((2+20x)/(1-x-x^2))` -/
+def P12860146672640610228.Spec : Prop :=
+  ∀ n, P12860146672640610228.a n = A022373 n
+
+end A022373
 
 /-! ## A022373.P7864979694522191058
 
@@ -28709,6 +29605,29 @@ def P4317518912237594929.Spec : Prop :=
 
 end A022374
 
+/-! ## A022374.P2847924340482400381
+
+`ogf((2+22x)/(1-x-x^2))`
+-/
+
+namespace A022374.P2847924340482400381
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 22] [1, -1, -1] n
+
+end
+
+end A022374.P2847924340482400381
+
+namespace A022374
+
+/-- `ogf((2+22x)/(1-x-x^2))` -/
+def P2847924340482400381.Spec : Prop :=
+  ∀ n, P2847924340482400381.a n = A022374 n
+
+end A022374
+
 /-! ## A022374.P18376105604820672608
 
 `2*(A022316(n)+1)`
@@ -29124,6 +30043,29 @@ def P5818569338397038520.Spec : Prop :=
 theorem P5818569338397038520.correct : P5818569338397038520.Spec := by
   intro n
   simp only [A022375]
+
+end A022375
+
+/-! ## A022375.P7823631364457043473
+
+`ogf((2+24x)/(1-x-x^2))`
+-/
+
+namespace A022375.P7823631364457043473
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 24] [1, -1, -1] n
+
+end
+
+end A022375.P7823631364457043473
+
+namespace A022375
+
+/-- `ogf((2+24x)/(1-x-x^2))` -/
+def P7823631364457043473.Spec : Prop :=
+  ∀ n, P7823631364457043473.a n = A022375 n
 
 end A022375
 
@@ -30845,29 +31787,6 @@ def P12859797442621138731.Spec : Prop :=
 
 end A022378
 
-/-! ## A022378.P7019679053257283885
-
-`A022357(n)+A022114(n)`
--/
-
-namespace A022378.P7019679053257283885
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022357 n + A022114 n
-
-end
-
-end A022378.P7019679053257283885
-
-namespace A022378
-
-/-- `A022357(n)+A022114(n)` -/
-def P7019679053257283885.Spec : Prop :=
-  ∀ n, P7019679053257283885.a n = A022378 n
-
-end A022378
-
 /-! ## A022378.P15519291672500629718
 
 `A022374(n)+A022091(n)`
@@ -30914,6 +31833,29 @@ def P9400553695280341636.Spec : Prop :=
 
 end A022378
 
+/-! ## A022378.P7019679053257283885
+
+`A022357(n)+A022114(n)`
+-/
+
+namespace A022378.P7019679053257283885
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022357 n + A022114 n
+
+end
+
+end A022378.P7019679053257283885
+
+namespace A022378
+
+/-- `A022357(n)+A022114(n)` -/
+def P7019679053257283885.Spec : Prop :=
+  ∀ n, P7019679053257283885.a n = A022378 n
+
+end A022378
+
 /-! ## A022378.P10257874137219402077
 
 `A022359(n)+A022113(n)`
@@ -30944,6 +31886,29 @@ The programs for A022379, the canonical program `A022379.P10751205089241764404` 
 
 The definition of A022379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 476 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022379.P5839843255799885592
+
+`ogf((3+6x)/(1-x-x^2))`
+-/
+
+namespace A022379.P5839843255799885592
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 6] [1, -1, -1] n
+
+end
+
+end A022379.P5839843255799885592
+
+namespace A022379
+
+/-- `ogf((3+6x)/(1-x-x^2))` -/
+def P5839843255799885592.Spec : Prop :=
+  ∀ n, P5839843255799885592.a n = A022379 n
+
+end A022379
 
 /-! ## A022379.P10751205089241764404
 
@@ -31434,6 +32399,29 @@ def P13132699670191366211.Spec : Prop :=
 
 end A022380
 
+/-! ## A022380.P3398076382804874702
+
+`ogf((3+9x)/(1-x-x^2))`
+-/
+
+namespace A022380.P3398076382804874702
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 9] [1, -1, -1] n
+
+end
+
+end A022380.P3398076382804874702
+
+namespace A022380
+
+/-- `ogf((3+9x)/(1-x-x^2))` -/
+def P3398076382804874702.Spec : Prop :=
+  ∀ n, P3398076382804874702.a n = A022380 n
+
+end A022380
+
 /-! ## A022380.P1830883794865666884
 
 `abs(Δ[a(n-2)-a(n-1)])` with `a(0)=6, a(1)=9`
@@ -31852,6 +32840,29 @@ def P15408426935880832648.Spec : Prop :=
 theorem P15408426935880832648.correct : P15408426935880832648.Spec := by
   intro n
   simp only [A022381]
+
+end A022381
+
+/-! ## A022381.P11953435980079832710
+
+`ogf((3+12x)/(1-x-x^2))`
+-/
+
+namespace A022381.P11953435980079832710
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 12] [1, -1, -1] n
+
+end
+
+end A022381.P11953435980079832710
+
+namespace A022381
+
+/-- `ogf((3+12x)/(1-x-x^2))` -/
+def P11953435980079832710.Spec : Prop :=
+  ∀ n, P11953435980079832710.a n = A022381 n
 
 end A022381
 
@@ -32319,6 +33330,29 @@ def P6517719796562753492.Spec : Prop :=
 
 end A022382
 
+/-! ## A022382.P15438612387643363106
+
+`ogf((4+6x)/(1-x-x^2))`
+-/
+
+namespace A022382.P15438612387643363106
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 6] [1, -1, -1] n
+
+end
+
+end A022382.P15438612387643363106
+
+namespace A022382
+
+/-- `ogf((4+6x)/(1-x-x^2))` -/
+def P15438612387643363106.Spec : Prop :=
+  ∀ n, P15438612387643363106.a n = A022382 n
+
+end A022382
+
 /-! ## A022382.P5353006416972223837
 
 `A022408(n)+1`
@@ -32772,6 +33806,29 @@ def P7776887395864852227.Spec : Prop :=
 
 end A022383
 
+/-! ## A022383.P7921522569194938023
+
+`ogf((4+10x)/(1-x-x^2))`
+-/
+
+namespace A022383.P7921522569194938023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 10] [1, -1, -1] n
+
+end
+
+end A022383.P7921522569194938023
+
+namespace A022383
+
+/-- `ogf((4+10x)/(1-x-x^2))` -/
+def P7921522569194938023.Spec : Prop :=
+  ∀ n, P7921522569194938023.a n = A022383 n
+
+end A022383
+
 /-! ## A022383.P7659911492526248413
 
 `abs(Δ[a(n-2)-a(n-1)])` with `a(0)=6, a(1)=10`
@@ -33190,6 +34247,29 @@ def P8904920412054153105.Spec : Prop :=
 theorem P8904920412054153105.correct : P8904920412054153105.Spec := by
   intro n
   simp only [A022384]
+
+end A022384
+
+/-! ## A022384.P16362649262002184377
+
+`ogf((4+14x)/(1-x-x^2))`
+-/
+
+namespace A022384.P16362649262002184377
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 14] [1, -1, -1] n
+
+end
+
+end A022384.P16362649262002184377
+
+namespace A022384
+
+/-- `ogf((4+14x)/(1-x-x^2))` -/
+def P16362649262002184377.Spec : Prop :=
+  ∀ n, P16362649262002184377.a n = A022384 n
 
 end A022384
 
@@ -33615,6 +34695,29 @@ The programs for A022385, the canonical program `A022385.P16937619479723646624` 
 The definition of A022385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A022385.P5371326140341887711
+
+`ogf((4+18x)/(1-x-x^2))`
+-/
+
+namespace A022385.P5371326140341887711
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 18] [1, -1, -1] n
+
+end
+
+end A022385.P5371326140341887711
+
+namespace A022385
+
+/-- `ogf((4+18x)/(1-x-x^2))` -/
+def P5371326140341887711.Spec : Prop :=
+  ∀ n, P5371326140341887711.a n = A022385 n
+
+end A022385
+
 /-! ## A022385.P16937619479723646624
 
 `a(n-1)+a(n-2)` with `a(0)=4, a(1)=22`
@@ -33769,6 +34872,121 @@ namespace A022385
 /-- `A022119(n)+A020695(n)` -/
 def P723524391794187747.Spec : Prop :=
   ∀ n, P723524391794187747.a n = A022385 n
+
+end A022385
+
+/-! ## A022385.P9657122011810879710
+
+`A022116(n)+A022114(n)`
+-/
+
+namespace A022385.P9657122011810879710
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022116 n + A022114 n
+
+end
+
+end A022385.P9657122011810879710
+
+namespace A022385
+
+/-- `A022116(n)+A022114(n)` -/
+def P9657122011810879710.Spec : Prop :=
+  ∀ n, P9657122011810879710.a n = A022385 n
+
+end A022385
+
+/-! ## A022385.P18191703938850786493
+
+`A022120(n)+A022105(n)`
+-/
+
+namespace A022385.P18191703938850786493
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022120 n + A022105 n
+
+end
+
+end A022385.P18191703938850786493
+
+namespace A022385
+
+/-- `A022120(n)+A022105(n)` -/
+def P18191703938850786493.Spec : Prop :=
+  ∀ n, P18191703938850786493.a n = A022385 n
+
+end A022385
+
+/-! ## A022385.P15128254720013911074
+
+`A022121(n)+A022104(n)`
+-/
+
+namespace A022385.P15128254720013911074
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022121 n + A022104 n
+
+end
+
+end A022385.P15128254720013911074
+
+namespace A022385
+
+/-- `A022121(n)+A022104(n)` -/
+def P15128254720013911074.Spec : Prop :=
+  ∀ n, P15128254720013911074.a n = A022385 n
+
+end A022385
+
+/-! ## A022385.P11838367683986136868
+
+`A022122(n)+A022102(n)`
+-/
+
+namespace A022385.P11838367683986136868
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022122 n + A022102 n
+
+end
+
+end A022385.P11838367683986136868
+
+namespace A022385
+
+/-- `A022122(n)+A022102(n)` -/
+def P11838367683986136868.Spec : Prop :=
+  ∀ n, P11838367683986136868.a n = A022385 n
+
+end A022385
+
+/-! ## A022385.P4378402011976051284
+
+`A022123(n)+A022101(n)`
+-/
+
+namespace A022385.P4378402011976051284
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022123 n + A022101 n
+
+end
+
+end A022385.P4378402011976051284
+
+namespace A022385
+
+/-- `A022123(n)+A022101(n)` -/
+def P4378402011976051284.Spec : Prop :=
+  ∀ n, P4378402011976051284.a n = A022385 n
 
 end A022385
 
@@ -33933,121 +35151,6 @@ def P11886419257019152481.Spec : Prop :=
 
 end A022385
 
-/-! ## A022385.P9657122011810879710
-
-`A022116(n)+A022114(n)`
--/
-
-namespace A022385.P9657122011810879710
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022116 n + A022114 n
-
-end
-
-end A022385.P9657122011810879710
-
-namespace A022385
-
-/-- `A022116(n)+A022114(n)` -/
-def P9657122011810879710.Spec : Prop :=
-  ∀ n, P9657122011810879710.a n = A022385 n
-
-end A022385
-
-/-! ## A022385.P18191703938850786493
-
-`A022120(n)+A022105(n)`
--/
-
-namespace A022385.P18191703938850786493
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022120 n + A022105 n
-
-end
-
-end A022385.P18191703938850786493
-
-namespace A022385
-
-/-- `A022120(n)+A022105(n)` -/
-def P18191703938850786493.Spec : Prop :=
-  ∀ n, P18191703938850786493.a n = A022385 n
-
-end A022385
-
-/-! ## A022385.P15128254720013911074
-
-`A022121(n)+A022104(n)`
--/
-
-namespace A022385.P15128254720013911074
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022121 n + A022104 n
-
-end
-
-end A022385.P15128254720013911074
-
-namespace A022385
-
-/-- `A022121(n)+A022104(n)` -/
-def P15128254720013911074.Spec : Prop :=
-  ∀ n, P15128254720013911074.a n = A022385 n
-
-end A022385
-
-/-! ## A022385.P11838367683986136868
-
-`A022122(n)+A022102(n)`
--/
-
-namespace A022385.P11838367683986136868
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022122 n + A022102 n
-
-end
-
-end A022385.P11838367683986136868
-
-namespace A022385
-
-/-- `A022122(n)+A022102(n)` -/
-def P11838367683986136868.Spec : Prop :=
-  ∀ n, P11838367683986136868.a n = A022385 n
-
-end A022385
-
-/-! ## A022385.P4378402011976051284
-
-`A022123(n)+A022101(n)`
--/
-
-namespace A022385.P4378402011976051284
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022123 n + A022101 n
-
-end
-
-end A022385.P4378402011976051284
-
-namespace A022385
-
-/-- `A022123(n)+A022101(n)` -/
-def P4378402011976051284.Spec : Prop :=
-  ∀ n, P4378402011976051284.a n = A022385 n
-
-end A022385
-
 /-!
 # A022386: Fibonacci sequence beginning 4, 26.
 
@@ -34055,6 +35158,29 @@ The programs for A022386, the canonical program `A022386.P11697045666882426555` 
 
 The definition of A022386 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022386.P8662764926040559181
+
+`ogf((4+22x)/(1-x-x^2))`
+-/
+
+namespace A022386.P8662764926040559181
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 22] [1, -1, -1] n
+
+end
+
+end A022386.P8662764926040559181
+
+namespace A022386
+
+/-- `ogf((4+22x)/(1-x-x^2))` -/
+def P8662764926040559181.Spec : Prop :=
+  ∀ n, P8662764926040559181.a n = A022386 n
+
+end A022386
 
 /-! ## A022386.P11697045666882426555
 
@@ -34961,6 +36087,29 @@ The programs for A022388, the canonical program `A022388.P8298662997206301107` i
 The definition of A022388 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 475 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A022388.P9220281366161831141
+
+`ogf((6+7x)/(1-x-x^2))`
+-/
+
+namespace A022388.P9220281366161831141
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, 7] [1, -1, -1] n
+
+end
+
+end A022388.P9220281366161831141
+
+namespace A022388
+
+/-- `ogf((6+7x)/(1-x-x^2))` -/
+def P9220281366161831141.Spec : Prop :=
+  ∀ n, P9220281366161831141.a n = A022388 n
+
+end A022388
+
 /-! ## A022388.P8298662997206301107
 
 `a(n-1)+a(n-2)` with `a(0)=6, a(1)=13`
@@ -35405,6 +36554,29 @@ The programs for A022389, the canonical program `A022389.P10332662346858988548` 
 The definition of A022389 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 475 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A022389.P4793373172780606722
+
+`ogf((7+8x)/(1-x-x^2))`
+-/
+
+namespace A022389.P4793373172780606722
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, 8] [1, -1, -1] n
+
+end
+
+end A022389.P4793373172780606722
+
+namespace A022389
+
+/-- `ogf((7+8x)/(1-x-x^2))` -/
+def P4793373172780606722.Spec : Prop :=
+  ∀ n, P4793373172780606722.a n = A022389 n
+
+end A022389
+
 /-! ## A022389.P10332662346858988548
 
 `a(n-1)+a(n-2)` with `a(0)=7, a(1)=15`
@@ -35848,6 +37020,29 @@ The programs for A022390, the canonical program `A022390.P1311120122459527410` i
 
 The definition of A022390 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022390.P17755153750548257076
+
+`ogf((8+9x)/(1-x-x^2))`
+-/
+
+namespace A022390.P17755153750548257076
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [8, 9] [1, -1, -1] n
+
+end
+
+end A022390.P17755153750548257076
+
+namespace A022390
+
+/-- `ogf((8+9x)/(1-x-x^2))` -/
+def P17755153750548257076.Spec : Prop :=
+  ∀ n, P17755153750548257076.a n = A022390 n
+
+end A022390
 
 /-! ## A022390.P1311120122459527410
 
@@ -36312,6 +37507,29 @@ theorem P1878165112353722524.correct : P1878165112353722524.Spec := by
 
 end A022391
 
+/-! ## A022391.P6913538928661195712
+
+`ogf((1+20x)/(1-x-x^2))`
+-/
+
+namespace A022391.P6913538928661195712
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 20] [1, -1, -1] n
+
+end
+
+end A022391.P6913538928661195712
+
+namespace A022391
+
+/-- `ogf((1+20x)/(1-x-x^2))` -/
+def P6913538928661195712.Spec : Prop :=
+  ∀ n, P6913538928661195712.a n = A022391 n
+
+end A022391
+
 /-! ## A022391.P14390587317662763192
 
 `A022110(n)+A000045(n)`
@@ -36750,6 +37968,29 @@ def P8408287489202402408.Spec : Prop :=
 theorem P8408287489202402408.correct : P8408287489202402408.Spec := by
   intro n
   simp only [A022392]
+
+end A022392
+
+/-! ## A022392.P13196780705752233614
+
+`ogf((1+21x)/(1-x-x^2))`
+-/
+
+namespace A022392.P13196780705752233614
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 21] [1, -1, -1] n
+
+end
+
+end A022392.P13196780705752233614
+
+namespace A022392
+
+/-- `ogf((1+21x)/(1-x-x^2))` -/
+def P13196780705752233614.Spec : Prop :=
+  ∀ n, P13196780705752233614.a n = A022392 n
 
 end A022392
 
@@ -37194,6 +38435,29 @@ theorem P4373198726378991798.correct : P4373198726378991798.Spec := by
 
 end A022393
 
+/-! ## A022393.P2065693397342526363
+
+`ogf((1+22x)/(1-x-x^2))`
+-/
+
+namespace A022393.P2065693397342526363
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 22] [1, -1, -1] n
+
+end
+
+end A022393.P2065693397342526363
+
+namespace A022393
+
+/-- `ogf((1+22x)/(1-x-x^2))` -/
+def P2065693397342526363.Spec : Prop :=
+  ∀ n, P2065693397342526363.a n = A022393 n
+
+end A022393
+
 /-! ## A022393.P4334323866027103379
 
 `A022392(n)+A000045(n)`
@@ -37615,6 +38879,29 @@ The programs for A022394, the canonical program `A022394.P13204660913798822066` 
 
 The definition of A022394 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022394.P6143624737831555938
+
+`ogf((1+23x)/(1-x-x^2))`
+-/
+
+namespace A022394.P6143624737831555938
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 23] [1, -1, -1] n
+
+end
+
+end A022394.P6143624737831555938
+
+namespace A022394
+
+/-- `ogf((1+23x)/(1-x-x^2))` -/
+def P6143624737831555938.Spec : Prop :=
+  ∀ n, P6143624737831555938.a n = A022394 n
+
+end A022394
 
 /-! ## A022394.P13204660913798822066
 
@@ -38057,6 +39344,29 @@ The programs for A022395, the canonical program `A022395.P13665248822055943677` 
 The definition of A022395 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A022395.P12225722893603402550
+
+`ogf((1+24x)/(1-x-x^2))`
+-/
+
+namespace A022395.P12225722893603402550
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 24] [1, -1, -1] n
+
+end
+
+end A022395.P12225722893603402550
+
+namespace A022395
+
+/-- `ogf((1+24x)/(1-x-x^2))` -/
+def P12225722893603402550.Spec : Prop :=
+  ∀ n, P12225722893603402550.a n = A022395 n
+
+end A022395
+
 /-! ## A022395.P13665248822055943677
 
 `a(n-1)+a(n-2)` with `a(0)=1, a(1)=25`
@@ -38497,6 +39807,29 @@ The programs for A022396, the canonical program `A022396.P8139868350851147664` i
 
 The definition of A022396 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A022396.P1581341051176879085
+
+`ogf((1+25x)/(1-x-x^2))`
+-/
+
+namespace A022396.P1581341051176879085
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 25] [1, -1, -1] n
+
+end
+
+end A022396.P1581341051176879085
+
+namespace A022396
+
+/-- `ogf((1+25x)/(1-x-x^2))` -/
+def P1581341051176879085.Spec : Prop :=
+  ∀ n, P1581341051176879085.a n = A022396 n
+
+end A022396
 
 /-! ## A022396.P8139868350851147664
 

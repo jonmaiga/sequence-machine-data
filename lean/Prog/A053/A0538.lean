@@ -16,7 +16,6 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -25,14 +24,15 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -66,7 +66,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -109,7 +108,7 @@ set_option linter.unreachableTactic false
 /-!
 # A053800: Number of basis partitions of n+25 with Durfee square size 5.
 
-The programs for A053800, the canonical program `A053800.P13951810941336330139` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053800 has offset 0).
+The programs for A053800, the canonical program `A053800.P13951810941336330139` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053800 has offset 0).
 
 The definition of A053800 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -118,7 +117,7 @@ The definition of A053800 is `conjectured`: the Lean definition is a formula tha
 
 `2*A091773(n)-A053798(n)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A053800
@@ -2275,6 +2274,35 @@ theorem P4399199294801208470.correct : P4399199294801208470.Spec := by
 
 end A053808
 
+/-! ## A053808.P10770031412202422051
+
+`∑[∑[ogf((1+x)/(1-2x+x^3))]]`
+-/
+
+namespace A053808.P10770031412202422051
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1] [1, -2, 0, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A053808.P10770031412202422051
+
+namespace A053808
+
+/-- `∑[∑[ogf((1+x)/(1-2x+x^3))]]` -/
+def P10770031412202422051.Spec : Prop :=
+  ∀ n, P10770031412202422051.a n = A053808 n
+
+end A053808
+
 /-! ## A053808.P15497416405599009325
 
 `∑[∑[floor(ϕ*(a(n-1)+1))]]` with `a(0)=1`
@@ -2807,6 +2835,38 @@ The programs for A053809, the canonical program `A053809.P4690573664122324179` i
 
 The definition of A053809 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 471 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A053809.P9391640125867969335
+
+`∑[∑[∑[ogf((1+x)/(1-2x+x^3))]]]`
+-/
+
+namespace A053809.P9391640125867969335
+noncomputable section
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1] [1, -2, 0, 1] n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A053809.P9391640125867969335
+
+namespace A053809
+
+/-- `∑[∑[∑[ogf((1+x)/(1-2x+x^3))]]]` -/
+def P9391640125867969335.Spec : Prop :=
+  ∀ n, P9391640125867969335.a n = A053809 n
+
+end A053809
 
 /-! ## A053809.P4690573664122324179
 

@@ -2,34 +2,33 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C006
+import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2469,7 +2468,7 @@ end A073936.P9399497543842945029
 /-!
 # A073937: a(n) = a(n-1) - a(n-2) + a(n-3) + a(n-4), a(0)=4, a(1)=1, a(2)=-1, a(3)=1.
 
-The programs for A073937, the canonical program `A073937.P18267623462926466979` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073937 has offset 0).
+The programs for A073937, the canonical program `A073937.P18267623462926466979` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073937 has offset 0).
 
 The definition of A073937 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)-a(n-2)+a(n-3)+a(n-4)` (program `A073937.P18267623462926466979`, by `A073937.P18267623462926466979.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2478,7 +2477,7 @@ The definition of A073937 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)-a(n-2)+a(n-3)+a(n-4)` with `a(0)=4, a(1)=1, a(2)=-1, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A073937
@@ -2513,6 +2512,29 @@ namespace A073937
 /-- `(-1)^n*A074058(n)` -/
 def P14994121403077270431.Spec : Prop :=
   ∀ n, P14994121403077270431.a n = A073937 n
+
+end A073937
+
+/-! ## A073937.P16236694283989844888
+
+`ogf((-4+3x-2x^2+x^3)/(-1+x-x^2+x^3+x^4))`
+-/
+
+namespace A073937.P16236694283989844888
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -3, 2, -1] [1, -1, 1, -1, -1] n
+
+end
+
+end A073937.P16236694283989844888
+
+namespace A073937
+
+/-- `ogf((-4+3x-2x^2+x^3)/(-1+x-x^2+x^3+x^4))` -/
+def P16236694283989844888.Spec : Prop :=
+  ∀ n, P16236694283989844888.a n = A073937 n
 
 end A073937
 

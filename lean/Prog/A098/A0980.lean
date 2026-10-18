@@ -24,15 +24,16 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -97,6 +98,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -742,7 +744,7 @@ end A098003
 /-!
 # A098005: Beatty sequence for 1/(3 - e): a(n) = floor(n/(3-e)).
 
-The programs for A098005, the canonical program `A098005.P5580117881887268594` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098005 has offset 1).
+The programs for A098005, the canonical program `A098005.P5580117881887268594` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098005 has offset 1).
 
 The definition of A098005 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((n+1)/(3-e))` (program `A098005.P5580117881887268594`, by `A098005.P5580117881887268594.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -751,7 +753,7 @@ The definition of A098005 is `verified`: the Lean definition is proven equivalen
 
 `floor((n+1)/(3-e))`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A098005
@@ -1960,7 +1962,7 @@ end A098010.P16177830638732983741
 /-!
 # A098011: 10^a(n) + 1 = A088773(n).
 
-The programs for A098011, the canonical program `A098011.P713841693835873558` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098011 has offset 1).
+The programs for A098011, the canonical program `A098011.P713841693835873558` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098011 has offset 1).
 
 The definition of A098011 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1969,7 +1971,7 @@ The definition of A098011 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(3*2^(n-3))`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A098011
@@ -1981,6 +1983,29 @@ def P713841693835873558.Spec : Prop :=
 theorem P713841693835873558.correct : P713841693835873558.Spec := by
   intro n
   simp only [A098011, Nat.add_sub_cancel]
+
+end A098011
+
+/-! ## A098011.P15212929708056785230
+
+`ogf((-1+x+x^3)/(-1+2x))`
+-/
+
+namespace A098011.P15212929708056785230
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, 0, -1] [1, -2] n
+
+end
+
+end A098011.P15212929708056785230
+
+namespace A098011
+
+/-- `ogf((-1+x+x^3)/(-1+2x))` -/
+def P15212929708056785230.Spec : Prop :=
+  ∀ n, P15212929708056785230.a n = A098011 (n + 1)
 
 end A098011
 
@@ -4439,7 +4464,7 @@ end A098020.P17138095198075428463
 /-!
 # A098021: Positions of 0's in the zero-one sequence [n*r+2*r]-[n*r]-[2*r], where r=sqrt(2) and [ ]=floor; see A187967.
 
-The programs for A098021, the canonical program `A098021.P1655931677534323428` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098021 has offset 1).
+The programs for A098021, the canonical program `A098021.P1655931677534323428` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098021 has offset 1).
 
 The definition of A098021 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4448,7 +4473,7 @@ The definition of A098021 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*(n+1)+2*floor((n+1)*sqrt(2))`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A098021
@@ -10662,7 +10687,7 @@ end A098075.P14988825769822834256
 /-!
 # A098077: a(n) = n^2*(n+1)*(2*n+1)/3.
 
-The programs for A098077, the canonical program `A098077.P11741241767261346181` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098077 has offset 1).
+The programs for A098077, the canonical program `A098077.P11741241767261346181` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098077 has offset 1).
 
 The definition of A098077 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10671,7 +10696,7 @@ The definition of A098077 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)²*(n+2)*(2*(n+1)+1)/3`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A098077

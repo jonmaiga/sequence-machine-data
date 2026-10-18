@@ -7,17 +7,16 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C016
+import Seq.B000.C018
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B002.C000
@@ -42,8 +41,10 @@ import Seq.Opaque.C006
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -546,6 +547,55 @@ The programs for A031506, the canonical program `A031506.P8923148781896726843` i
 
 The definition of A031506 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A031506.P304931340707573269
+
+`∑[ogf((1+x^2-x^3)/(1-3x+x^2))]`
+-/
+
+namespace A031506.P304931340707573269
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 1, -1] [1, -3, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A031506.P304931340707573269
+
+namespace A031506
+
+/-- `∑[ogf((1+x^2-x^3)/(1-3x+x^2))]` -/
+def P304931340707573269.Spec : Prop :=
+  ∀ n, P304931340707573269.a n = A031506 n
+
+end A031506
+
+/-! ## A031506.P10158666197518081574
+
+`ogf((1+x^2-x^3)/(1-4x+4x^2-x^3))`
+-/
+
+namespace A031506.P10158666197518081574
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 1, -1] [1, -4, 4, -1] n
+
+end
+
+end A031506.P10158666197518081574
+
+namespace A031506
+
+/-- `ogf((1+x^2-x^3)/(1-4x+4x^2-x^3))` -/
+def P10158666197518081574.Spec : Prop :=
+  ∀ n, P10158666197518081574.a n = A031506 n
+
+end A031506
 
 /-! ## A031506.P3242547986805346436
 

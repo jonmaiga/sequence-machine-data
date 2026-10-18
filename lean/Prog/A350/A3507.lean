@@ -11,27 +11,26 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C018
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -40,7 +39,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1528,6 +1526,55 @@ namespace A350717
 /-- `(2^(2*n+1)+3*n+7)/9` -/
 def P17786230076294298513.Spec : Prop :=
   ∀ n, P17786230076294298513.a n = (A350717 n : ℚ)
+
+end A350717
+
+/-! ## A350717.P9398840134156790064
+
+`∑[ogf((1-4x+2x^2)/(1-5x+4x^2))]`
+-/
+
+namespace A350717.P9398840134156790064
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -4, 2] [1, -5, 4] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A350717.P9398840134156790064
+
+namespace A350717
+
+/-- `∑[ogf((1-4x+2x^2)/(1-5x+4x^2))]` -/
+def P9398840134156790064.Spec : Prop :=
+  ∀ n, P9398840134156790064.a n = A350717 n
+
+end A350717
+
+/-! ## A350717.P979782043922983178
+
+`ogf((1-4x+2x^2)/(1-6x+9x^2-4x^3))`
+-/
+
+namespace A350717.P979782043922983178
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -4, 2] [1, -6, 9, -4] n
+
+end
+
+end A350717.P979782043922983178
+
+namespace A350717
+
+/-- `ogf((1-4x+2x^2)/(1-6x+9x^2-4x^3))` -/
+def P979782043922983178.Spec : Prop :=
+  ∀ n, P979782043922983178.a n = A350717 n
 
 end A350717
 
@@ -6332,7 +6379,7 @@ end A350786.P14831683183593749016
 /-!
 # A350787: Convolution of A001654 and A007598.
 
-The programs for A350787, the canonical program `A350787.P8196929193251878278` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350787 has offset 0).
+The programs for A350787, the canonical program `A350787.P8196929193251878278` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350787 has offset 0).
 
 The definition of A350787 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6341,7 +6388,7 @@ The definition of A350787 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-10*a(n-3)+4*a(n-5)-a(n-6)` with `a(0)=0, a(1)=0, a(2)=1, a(3)=3, a(4)=12, a(5)=38`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A350787

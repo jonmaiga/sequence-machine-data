@@ -2,14 +2,12 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -17,19 +15,19 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
@@ -124,7 +122,7 @@ end A208401.P5872034488991552110
 /-!
 # A208402: Number of n X 2 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A208402, the canonical program `A208402.P1483477044756000212` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208402 has offset 1).
+The programs for A208402, the canonical program `A208402.P1483477044756000212` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208402 has offset 1).
 
 The definition of A208402 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -133,7 +131,7 @@ The definition of A208402 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8+3*2^(1+2*(n+1))+16^(n+1))/24`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A208402
@@ -1806,16 +1804,39 @@ end A208427.P1698866890820045016
 /-!
 # A208428: Number of n X 2 0..2 arrays with new values 0..2 introduced in row major order and no element equal to any knight-move neighbor (colorings ignoring permutations of colors).
 
-The programs for A208428, the canonical program `A208428.P10418606377424192716` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208428 has offset 1).
+The programs for A208428, the canonical program `A208428.P10418606377424192716` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208428 has offset 1).
 
 The definition of A208428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A208428.P11204194758103946403
+
+`ogf((2+6x-2x^2)/(1-4x))`
+-/
+
+namespace A208428.P11204194758103946403
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 6, -2] [1, -4] n
+
+end
+
+end A208428.P11204194758103946403
+
+namespace A208428
+
+/-- `ogf((2+6x-2x^2)/(1-4x))` -/
+def P11204194758103946403.Spec : Prop :=
+  ∀ n, P11204194758103946403.a n = A208428 (n + 1)
+
+end A208428
 
 /-! ## A208428.P10418606377424192716
 
 `4*a(n-1)` with `a(0)=2, a(1)=14, a(2)=54`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A208428
@@ -5549,7 +5570,7 @@ end A208480.P13316981833922755280
 /-!
 # A208481: Diagonal sums of triangle A185384.
 
-The programs for A208481, the canonical program `A208481.P15168360570091873687` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208481 has offset 0).
+The programs for A208481, the canonical program `A208481.P15168360570091873687` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208481 has offset 0).
 
 The definition of A208481 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5558,7 +5579,7 @@ The definition of A208481 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+a(n-3)+a(n-4)` with `a(0)=1, a(1)=2, a(2)=6, a(3)=19`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A208481
@@ -5570,6 +5591,29 @@ def P15168360570091873687.Spec : Prop :=
 theorem P15168360570091873687.correct : P15168360570091873687.Spec := by
   intro n
   simp only [A208481]
+
+end A208481
+
+/-! ## A208481.P12982107092433885237
+
+`ogf((-1+x)/(-1+3x+x^3+x^4))`
+-/
+
+namespace A208481.P12982107092433885237
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -3, 0, -1, -1] n
+
+end
+
+end A208481.P12982107092433885237
+
+namespace A208481
+
+/-- `ogf((-1+x)/(-1+3x+x^3+x^4))` -/
+def P12982107092433885237.Spec : Prop :=
+  ∀ n, P12982107092433885237.a n = A208481 n
 
 end A208481
 

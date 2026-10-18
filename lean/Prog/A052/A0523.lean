@@ -13,7 +13,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -33,6 +32,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -8401,7 +8401,7 @@ end A052378.P7473463686932426615
 /-!
 # A052379: Number of integers from 1 to 10^(n+1)-1 that lack 0 and 1 as a digit.
 
-The programs for A052379, the canonical program `A052379.P13698883869032761703` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052379 has offset 0).
+The programs for A052379, the canonical program `A052379.P13698883869032761703` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052379 has offset 0).
 
 The definition of A052379 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8410,7 +8410,7 @@ The definition of A052379 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)+8` with `a(0)=8`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A052379
@@ -8511,6 +8511,29 @@ namespace A052379
 /-- `lcm(8, ∑[8^n])` -/
 def P14328896212008377454.Spec : Prop :=
   ∀ n, (P14328896212008377454.a n : ℤ) = A052379 n
+
+end A052379
+
+/-! ## A052379.P4992007280164923405
+
+`ogf(8/(1-9x+8x^2))`
+-/
+
+namespace A052379.P4992007280164923405
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [8] [1, -9, 8] n
+
+end
+
+end A052379.P4992007280164923405
+
+namespace A052379
+
+/-- `ogf(8/(1-9x+8x^2))` -/
+def P4992007280164923405.Spec : Prop :=
+  ∀ n, P4992007280164923405.a n = A052379 n
 
 end A052379
 
@@ -8840,7 +8863,7 @@ end A052379
 /-!
 # A052380: a(n) = D is the smallest distance (D) between 2 non-overlapping prime twins differing by d=2n; these twins are [p,p+d] or [p+D,p+D+d] and p > 3.
 
-The programs for A052380, the canonical program `A052380.P11876647218145259641` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052380 has offset 1).
+The programs for A052380, the canonical program `A052380.P11876647218145259641` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052380 has offset 1).
 
 The definition of A052380 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8849,7 +8872,7 @@ The definition of A052380 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*ceil((n+1)/3)`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A052380
@@ -8887,6 +8910,29 @@ namespace A052380
 /-- `∑[6%gcd(3, n)²]` -/
 def P6086700862570400102.Spec : Prop :=
   ∀ n, (P6086700862570400102.a n : ℤ) = A052380 (n + 1)
+
+end A052380
+
+/-! ## A052380.P10505863220393764159
+
+`ogf(6/(1-x-x^3+x^4))`
+-/
+
+namespace A052380.P10505863220393764159
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6] [1, -1, 0, -1, 1] n
+
+end
+
+end A052380.P10505863220393764159
+
+namespace A052380
+
+/-- `ogf(6/(1-x-x^3+x^4))` -/
+def P10505863220393764159.Spec : Prop :=
+  ∀ n, P10505863220393764159.a n = A052380 (n + 1)
 
 end A052380
 
@@ -9663,7 +9709,7 @@ end A052382
 /-!
 # A052383: Numbers without 1 as a digit.
 
-The programs for A052383, the canonical program `A052383.P442145744883924775` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052383 has offset 1).
+The programs for A052383, the canonical program `A052383.P442145744883924775` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052383 has offset 1).
 
 The definition of A052383 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6561 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9672,7 +9718,7 @@ The definition of A052383 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, ∏{digits}[n, (1-#)²]]`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A052383
@@ -10208,7 +10254,7 @@ end A052383
 /-!
 # A052386: Number of integers from 1 to 10^n-1 that lack 0 as a digit.
 
-The programs for A052386, the canonical program `A052386.P17315869528297079216` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052386 has offset 0).
+The programs for A052386, the canonical program `A052386.P17315869528297079216` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052386 has offset 0).
 
 The definition of A052386 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10257,7 +10303,7 @@ end A052386
 
 `9*a(n-1)+9` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A052386
@@ -10315,6 +10361,29 @@ namespace A052386
 /-- `A002452(n+1)-1` -/
 def P2339557999462611105.Spec : Prop :=
   ∀ n, P2339557999462611105.a n = A052386 n
+
+end A052386
+
+/-! ## A052386.P7405746603847086164
+
+`ogf(9x/(1-10x+9x^2))`
+-/
+
+namespace A052386.P7405746603847086164
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 9] [1, -10, 9] n
+
+end
+
+end A052386.P7405746603847086164
+
+namespace A052386
+
+/-- `ogf(9x/(1-10x+9x^2))` -/
+def P7405746603847086164.Spec : Prop :=
+  ∀ n, P7405746603847086164.a n = A052386 n
 
 end A052386
 

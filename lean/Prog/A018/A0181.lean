@@ -8,25 +8,25 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,7 +37,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -14021,6 +14020,29 @@ The programs for A018186, the canonical program `A018186.P12887403914497736875` 
 The definition of A018186 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 385 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A018186.P2836814432005662956
+
+`ogf((1+3x+3x^2)/(1-3x^2-x^4))`
+-/
+
+namespace A018186.P2836814432005662956
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, 3] [1, 0, -3, 0, -1] n
+
+end
+
+end A018186.P2836814432005662956
+
+namespace A018186
+
+/-- `ogf((1+3x+3x^2)/(1-3x^2-x^4))` -/
+def P2836814432005662956.Spec : Prop :=
+  ∀ n, P2836814432005662956.a n = A018186 n
+
+end A018186
+
 /-! ## A018186.P12887403914497736875
 
 `3*a(n-2)+a(n-4)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=9`
@@ -14813,8 +14835,29 @@ end A018195.P17293246053339553619
 /-!
 # A018196: Possible numbers of complements of topologies on 5 points.
 
-The programs for A018196, there is no canonical definition to state claims against.
+The programs for A018196, the canonical program `A018196.P10655049329318647614` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018196 has offset 0).
+
+The definition of A018196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A018196.P10655049329318647614
+
+`ogf((-1-2x+7x^3+3x^4-2x^5)/(-1+2x))`
+
+The canonical program, it is in `Seq.B000.C003`.
+-/
+
+namespace A018196
+
+/-- `ogf((-1-2x+7x^3+3x^4-2x^5)/(-1+2x))` -/
+def P10655049329318647614.Spec : Prop :=
+  ∀ n, P10655049329318647614.a n = A018196 n
+
+theorem P10655049329318647614.correct : P10655049329318647614.Spec := by
+  intro n
+  simp only [A018196]
+
+end A018196
 
 /-! ## A018196.P5949938203645772766
 
@@ -14834,6 +14877,14 @@ end
 
 end A018196.P5949938203645772766
 
+namespace A018196
+
+/-- `record[A266412(A183296(n+1))]` -/
+def P5949938203645772766.Spec : Prop :=
+  ∀ n, P5949938203645772766.a n = A018196 n
+
+end A018196
+
 /-! ## A018196.P17391456824992977889
 
 `record[A093879(2*(n+2))*A266412(n+1)]`
@@ -14852,6 +14903,14 @@ end
 
 end A018196.P17391456824992977889
 
+namespace A018196
+
+/-- `record[A093879(2*(n+2))*A266412(n+1)]` -/
+def P17391456824992977889.Spec : Prop :=
+  ∀ n, P17391456824992977889.a n = A018196 n
+
+end A018196
+
 /-! ## A018196.P17305555316162754933
 
 `record[A266412(n+1)/A051135(2*n+5)]`
@@ -14869,6 +14928,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A018196.P17305555316162754933
+
+namespace A018196
+
+/-- `record[A266412(n+1)/A051135(2*n+5)]` -/
+def P17305555316162754933.Spec : Prop :=
+  ∀ n, P17305555316162754933.a n = (A018196 n : ℚ)
+
+end A018196
 
 /-! ## A018196.P72828717109977593
 
@@ -14890,6 +14957,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A018196.P72828717109977593
+
+namespace A018196
+
+/-- `eq[A114164(A127446(n+1)), A160588(n)]` -/
+def P72828717109977593.Spec : Prop :=
+  ∀ n, (P72828717109977593.a n : ℤ) = A018196 n
+
+end A018196
 
 /-!
 # A018199: Possible numbers of complements of topologies on 8 points.

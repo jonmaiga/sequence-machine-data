@@ -11,19 +11,19 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C017
+import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -70,7 +70,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -4815,6 +4814,29 @@ def P4541700397890490883.Spec : Prop :=
 theorem P4541700397890490883.correct : P4541700397890490883.Spec := by
   intro n
   simp only [A007179]
+
+end A007179
+
+/-! ## A007179.P15640403388612623146
+
+`ogf((x-x^2)/(1-2x-2x^2+4x^3))`
+-/
+
+namespace A007179.P15640403388612623146
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -1] [1, -2, -2, 4] n
+
+end
+
+end A007179.P15640403388612623146
+
+namespace A007179
+
+/-- `ogf((x-x^2)/(1-2x-2x^2+4x^3))` -/
+def P15640403388612623146.Spec : Prop :=
+  ∀ n, P15640403388612623146.a n = A007179 n
 
 end A007179
 

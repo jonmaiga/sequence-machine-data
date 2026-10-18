@@ -24,17 +24,17 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2872,7 +2872,7 @@ end A074224.P10865466435594092376
 /-!
 # A074225: a(n) = n * Sum_{d|n} d*2^(d-1).
 
-The programs for A074225, the canonical program `A074225.P9428135394359906713` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074225 has offset 1).
+The programs for A074225, the canonical program `A074225.P9428135394359906713` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074225 has offset 1).
 
 The definition of A074225 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2881,7 +2881,7 @@ The definition of A074225 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*∑{d}[n+1, #*2^(#-1)]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074225
@@ -3643,7 +3643,7 @@ end A074228.P4884760491364595827
 /-!
 # A074229: Numbers n such that Kronecker(6,n)==mu(gcd(6,n)).
 
-The programs for A074229, the canonical program `A074229.P5266389775193057917` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074229 has offset 1).
+The programs for A074229, the canonical program `A074229.P5266389775193057917` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074229 has offset 1).
 
 The definition of A074229 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3652,7 +3652,7 @@ The definition of A074229 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-4)-a(n-5)` with `a(0)=1, a(1)=5, a(2)=19, a(3)=23, a(4)=25`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074229
@@ -4376,7 +4376,7 @@ end A074230
 /-!
 # A074231: Numbers k such that Kronecker(8,k) = mu(gcd(8,k)).
 
-The programs for A074231, the canonical program `A074231.P996734351749341935` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074231 has offset 1).
+The programs for A074231, the canonical program `A074231.P996734351749341935` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074231 has offset 1).
 
 The definition of A074231 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4408,7 +4408,7 @@ end A074231
 
 `2*a(n-1)-2*a(n-2)+2*a(n-3)-a(n-4)` with `a(0)=1, a(1)=4, a(2)=7, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074231
@@ -4867,10 +4867,33 @@ def P2592602012784413292.Spec : Prop :=
 
 end A074231
 
+/-! ## A074231.P4103077466679187709
+
+`ogf((1+2x+x^2)/(1-2x+2x^2-2x^3+x^4))`
+-/
+
+namespace A074231.P4103077466679187709
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 1] [1, -2, 2, -2, 1] n
+
+end
+
+end A074231.P4103077466679187709
+
+namespace A074231
+
+/-- `ogf((1+2x+x^2)/(1-2x+2x^2-2x^3+x^4))` -/
+def P4103077466679187709.Spec : Prop :=
+  ∀ n, P4103077466679187709.a n = A074231 (n + 1)
+
+end A074231
+
 /-!
 # A074232: Positive numbers that are not 3 or 6 (mod 9).
 
-The programs for A074232, the canonical program `A074232.P14046966601635823854` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074232 has offset 1).
+The programs for A074232, the canonical program `A074232.P14046966601635823854` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074232 has offset 1).
 
 The definition of A074232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4909,7 +4932,7 @@ end A074232
 
 `∑[(∑[n]²%7)!]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074232
@@ -13497,7 +13520,7 @@ end A074278
 /-!
 # A074279: n appears n^2 times.
 
-The programs for A074279, the canonical program `A074279.P14114170349531926327` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074279 has offset 1).
+The programs for A074279, the canonical program `A074279.P14114170349531926327` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074279 has offset 1).
 
 The definition of A074279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13506,7 +13529,7 @@ The definition of A074279 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[n²]]]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074279

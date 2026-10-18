@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -36,6 +37,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -5608,6 +5610,35 @@ def P5026918529930076641.Spec : Prop :=
 
 end A015237
 
+/-! ## A015237.P5405388180783355364
+
+`∑[∑[ogf((x+8x^2+3x^3)/(1-2x+x^2))]]`
+-/
+
+namespace A015237.P5405388180783355364
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 8, 3] [1, -2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A015237.P5405388180783355364
+
+namespace A015237
+
+/-- `∑[∑[ogf((x+8x^2+3x^3)/(1-2x+x^2))]]` -/
+def P5405388180783355364.Spec : Prop :=
+  ∀ n, P5405388180783355364.a n = A015237 n
+
+end A015237
+
 /-! ## A015237.P14550648779440635385
 
 `floor(n*∑[a(n-1)+4])` with `a(0)=0, a(1)=1`
@@ -9486,6 +9517,29 @@ def P17924201556753377497.Spec : Prop :=
 theorem P17924201556753377497.correct : P17924201556753377497.Spec := by
   intro n
   simp only [A015249, Nat.add_sub_cancel]
+
+end A015249
+
+/-! ## A015249.P13356050326406157524
+
+`ogf(1/(1-3x-6x^2+8x^3))`
+-/
+
+namespace A015249.P13356050326406157524
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -3, -6, 8] n
+
+end
+
+end A015249.P13356050326406157524
+
+namespace A015249
+
+/-- `ogf(1/(1-3x-6x^2+8x^3))` -/
+def P13356050326406157524.Spec : Prop :=
+  ∀ n, P13356050326406157524.a n = A015249 (n + 2)
 
 end A015249
 

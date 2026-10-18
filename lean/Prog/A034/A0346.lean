@@ -6,31 +6,34 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -43,7 +46,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -54,7 +56,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -76,7 +77,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C014
+import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -662,7 +663,7 @@ end A034650.P7273996869196825740
 /-!
 # A034659: a(n) = (11^n + 1)/2.
 
-The programs for A034659, the canonical program `A034659.P9693213874906792404` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034659 has offset 0).
+The programs for A034659, the canonical program `A034659.P9693213874906792404` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034659 has offset 0).
 
 The definition of A034659 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(11^n+1)/2` (program `A034659.P3884214805610977757`, by `A034659.P3884214805610977757.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -713,7 +714,7 @@ end A034659
 
 `11*a(n-1)-5` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034659
@@ -725,6 +726,29 @@ def P9693213874906792404.Spec : Prop :=
 theorem P9693213874906792404.correct : P9693213874906792404.Spec := by
   intro n
   simp only [A034659]
+
+end A034659
+
+/-! ## A034659.P3493972327212606946
+
+`ogf((1-6x)/(1-12x+11x^2))`
+-/
+
+namespace A034659.P3493972327212606946
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -6] [1, -12, 11] n
+
+end
+
+end A034659.P3493972327212606946
+
+namespace A034659
+
+/-- `ogf((1-6x)/(1-12x+11x^2))` -/
+def P3493972327212606946.Spec : Prop :=
+  ∀ n, P3493972327212606946.a n = A034659 n
 
 end A034659
 
@@ -971,7 +995,7 @@ end A034660.P4706701107298300524
 /-!
 # A034661: Sum of n-th powers of divisors of 18.
 
-The programs for A034661, the canonical program `A034661.P13987024234175101085` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034661 has offset 0).
+The programs for A034661, the canonical program `A034661.P13987024234175101085` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034661 has offset 0).
 
 The definition of A034661 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -980,7 +1004,7 @@ The definition of A034661 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^n+1)*(3^n+9^n+1)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034661
@@ -1096,7 +1120,7 @@ end A034661
 /-!
 # A034662: Sum of n-th powers of divisors of 20.
 
-The programs for A034662, the canonical program `A034662.P11982608881714086736` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034662 has offset 0).
+The programs for A034662, the canonical program `A034662.P11982608881714086736` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034662 has offset 0).
 
 The definition of A034662 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1105,7 +1129,7 @@ The definition of A034662 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+2^n+4^n)*(1+5^n)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034662
@@ -1218,7 +1242,7 @@ end A034662
 /-!
 # A034663: Sum of n-th powers of divisors of 21.
 
-The programs for A034663, the canonical program `A034663.P6191100540916868987` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034663 has offset 0).
+The programs for A034663, the canonical program `A034663.P6191100540916868987` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034663 has offset 0).
 
 The definition of A034663 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1227,7 +1251,7 @@ The definition of A034663 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+3^n)*(1+7^n)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034663
@@ -1474,7 +1498,7 @@ end A034664.P4954758042313655041
 /-!
 # A034665: Sum of n-th powers of divisors of 32.
 
-The programs for A034665, the canonical program `A034665.P16990147303693654245` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034665 has offset 0).
+The programs for A034665, the canonical program `A034665.P16990147303693654245` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034665 has offset 0).
 
 The definition of A034665 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1483,7 +1507,7 @@ The definition of A034665 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+2^n+4^n+8^n+16^n+32^n`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034665
@@ -1688,7 +1712,7 @@ end A034665
 /-!
 # A034666: Sum of n-th powers of divisors of 36.
 
-The programs for A034666, the canonical program `A034666.P15454771573831163023` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034666 has offset 0).
+The programs for A034666, the canonical program `A034666.P15454771573831163023` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034666 has offset 0).
 
 The definition of A034666 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1697,7 +1721,7 @@ The definition of A034666 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+2^n+4^n)*(1+3^n+9^n)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034666
@@ -1853,7 +1877,7 @@ end A034666
 /-!
 # A034667: Sum of n-th powers of divisors of 40.
 
-The programs for A034667, the canonical program `A034667.P13846003350252915052` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034667 has offset 0).
+The programs for A034667, the canonical program `A034667.P13846003350252915052` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034667 has offset 0).
 
 The definition of A034667 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1862,7 +1886,7 @@ The definition of A034667 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+2^n+4^n+5^n+8^n+10^n+20^n+40^n`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034667
@@ -3027,7 +3051,7 @@ end A034676
 /-!
 # A034677: Sum of cubes of unitary divisors of n.
 
-The programs for A034677, the canonical program `A034677.P7109418402625381145` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034677 has offset 1).
+The programs for A034677, the canonical program `A034677.P7109418402625381145` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034677 has offset 1).
 
 The definition of A034677 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3036,7 +3060,7 @@ The definition of A034677 is `conjectured`: the Lean definition is a formula tha
 
 `∏{p}[n+1, #^3^val(n+1, #)+1]`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034677
@@ -4895,7 +4919,7 @@ end A034688
 /-!
 # A034689: a(n) = n-th sextic factorial number divided by 2.
 
-The programs for A034689, the canonical program `A034689.P10739708214015416273` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034689 has offset 1).
+The programs for A034689, the canonical program `A034689.P10739708214015416273` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034689 has offset 1).
 
 The definition of A034689 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4904,7 +4928,7 @@ The definition of A034689 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(3*(n+1)-2)*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034689
@@ -5741,7 +5765,7 @@ end A034694.P11117475478613146278
 /-!
 # A034695: Tau_6 (the 6th Piltz divisor function), the number of ordered 6-factorizations of n; Dirichlet convolution of number-of-divisors function (A000005) with A007426.
 
-The programs for A034695, the canonical program `A034695.P16631369386541678886` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034695 has offset 1).
+The programs for A034695, the canonical program `A034695.P16631369386541678886` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034695 has offset 1).
 
 The definition of A034695 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5750,7 +5774,7 @@ The definition of A034695 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, C(#+5, 5)]`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034695

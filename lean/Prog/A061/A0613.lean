@@ -11,26 +11,26 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2929,6 +2929,35 @@ namespace A061317
 /-- `Δ[lcm(n-1-n², C(n, 2))]` -/
 def P328037558907741495.Spec : Prop :=
   ∀ n, P328037558907741495.a n = A061317 n
+
+end A061317
+
+/-! ## A061317.P4755270875293114382
+
+`∑[∑[ogf((3x+6x^2+3x^3)/(1-2x+x^2))]]`
+-/
+
+namespace A061317.P4755270875293114382
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 6, 3] [1, -2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A061317.P4755270875293114382
+
+namespace A061317
+
+/-- `∑[∑[ogf((3x+6x^2+3x^3)/(1-2x+x^2))]]` -/
+def P4755270875293114382.Spec : Prop :=
+  ∀ n, P4755270875293114382.a n = A061317 n
 
 end A061317
 
@@ -11525,7 +11554,7 @@ end A061375
 /-!
 # A061376: a(n) = f(n) + f(f(n)) where f(n) = 0 if n <= 1 or a prime, otherwise f(n) = sum of distinct primes dividing n.
 
-The programs for A061376, the canonical program `A061376.P1276602125877968792` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061376 has offset 1).
+The programs for A061376, the canonical program `A061376.P1276602125877968792` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061376 has offset 1).
 
 The definition of A061376 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11534,7 +11563,7 @@ The definition of A061376 is `conjectured`: the Lean definition is a formula tha
 
 `A105221(n+1)+A105221(A028310(A105221(n+1)))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A061376

@@ -5,26 +5,26 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,7 +52,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1335,6 +1334,33 @@ end
 end A014020.P3120137249826114852
 
 /-!
+# A014021: Inverse of 12th cyclotomic polynomial.
+
+The programs for A014021, the canonical program `A014021.P9068418944485466028` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014021 has offset 0).
+
+The definition of A014021 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A014021.P9068418944485466028
+
+`ogf(1/(1-x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C002`.
+-/
+
+namespace A014021
+
+/-- `ogf(1/(1-x^2+x^4))` -/
+def P9068418944485466028.Spec : Prop :=
+  ∀ n, P9068418944485466028.a n = A014021 n
+
+theorem P9068418944485466028.correct : P9068418944485466028.Spec := by
+  intro n
+  simp only [A014021]
+
+end A014021
+
+/-!
 # A014022: Inverse of 13th cyclotomic polynomial.
 
 The programs for A014022, the canonical program `A014022.P13529364460648374080` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014022 has offset 0).
@@ -1508,7 +1534,7 @@ end A014028.P10215422084267624927
 /-!
 # A014029: Inverse of 20th cyclotomic polynomial.
 
-The programs for A014029, the canonical program `A014029.P15990451290800491649` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014029 has offset 0).
+The programs for A014029, the canonical program `A014029.P15990451290800491649` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014029 has offset 0).
 
 The definition of A014029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1517,7 +1543,7 @@ The definition of A014029 is `conjectured`: the Lean definition is a formula tha
 
 `A056594(n)*A105385(n)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A014029
@@ -1604,26 +1630,29 @@ end A014032.P15667921275865150870
 /-!
 # A014033: Inverse of 24th cyclotomic polynomial.
 
-The programs for A014033, there is no canonical definition to state claims against.
+The programs for A014033, the canonical program `A014033.P6509231531898097959` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014033 has offset 0).
+
+The definition of A014033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A014033.P6509231531898097959
 
 `A014021(gcd(n, ∑[n]))`
+
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
-namespace A014033.P6509231531898097959
-noncomputable section
+namespace A014033
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
+/-- `A014021(gcd(n, ∑[n]))` -/
+def P6509231531898097959.Spec : Prop :=
+  ∀ n, P6509231531898097959.a n = A014033 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014021 (Nat.gcd n (∑ j ∈ Finset.range (n + 1), f1 j))
+theorem P6509231531898097959.correct : P6509231531898097959.Spec := by
+  intro n
+  simp only [A014033]
 
-end
-
-end A014033.P6509231531898097959
+end A014033
 
 /-!
 # A014034: Inverse of 25th cyclotomic polynomial.
@@ -1883,23 +1912,29 @@ end A014044.P479807708491196106
 /-!
 # A014045: Inverse of 36th cyclotomic polynomial.
 
-The programs for A014045, there is no canonical definition to state claims against.
+The programs for A014045, the canonical program `A014045.P814894345440706175` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014045 has offset 0).
+
+The definition of A014045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A014045.P814894345440706175
 
 `A014033(A004396(n))`
+
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
-namespace A014045.P814894345440706175
-noncomputable section
+namespace A014045
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014033 (A004396 n).toNat
+/-- `A014033(A004396(n))` -/
+def P814894345440706175.Spec : Prop :=
+  ∀ n, P814894345440706175.a n = A014045 n
 
-end
+theorem P814894345440706175.correct : P814894345440706175.Spec := by
+  intro n
+  simp only [A014045]
 
-end A014045.P814894345440706175
+end A014045
 
 /-!
 # A014047: Inverse of 38th cyclotomic polynomial.
@@ -1946,7 +1981,7 @@ end A014048.P4011209524093813990
 /-!
 # A014049: Inverse of 40th cyclotomic polynomial.
 
-The programs for A014049, the canonical program `A014049.P6714396449392787227` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014049 has offset 0).
+The programs for A014049, the canonical program `A014049.P6714396449392787227` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014049 has offset 0).
 
 The definition of A014049 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1955,7 +1990,7 @@ The definition of A014049 is `conjectured`: the Lean definition is a formula tha
 
 `A014029(lcm(2, n)/2)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A014049
@@ -2537,26 +2572,29 @@ end A014056
 /-!
 # A014057: Inverse of 48th cyclotomic polynomial.
 
-The programs for A014057, there is no canonical definition to state claims against.
+The programs for A014057, the canonical program `A014057.P17185432036105878235` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014057 has offset 0).
+
+The definition of A014057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A014057.P17185432036105878235
 
 `A014033(gcd(n, ∑[n]))`
+
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
-namespace A014057.P17185432036105878235
-noncomputable section
+namespace A014057
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
+/-- `A014033(gcd(n, ∑[n]))` -/
+def P17185432036105878235.Spec : Prop :=
+  ∀ n, P17185432036105878235.a n = A014057 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014033 (Nat.gcd n (∑ j ∈ Finset.range (n + 1), f1 j))
+theorem P17185432036105878235.correct : P17185432036105878235.Spec := by
+  intro n
+  simp only [A014057]
 
-end
-
-end A014057.P17185432036105878235
+end A014057
 
 /-!
 # A014058: a(n) = ceiling((n+1/n)^n).
@@ -2960,23 +2998,29 @@ end A014062.P12059878226418623730
 /-!
 # A014063: Inverse of 54th cyclotomic polynomial.
 
-The programs for A014063, there is no canonical definition to state claims against.
+The programs for A014063, the canonical program `A014063.P15730385007772296176` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014063 has offset 0).
+
+The definition of A014063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A014063.P15730385007772296176
 
 `A014045(round(2*n/3))`
+
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
-namespace A014063.P15730385007772296176
-noncomputable section
+namespace A014063
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014045 (SequenceMachineLib.roundAway (2 * ((n : ℚ) / 3))).toNat
+/-- `A014045(round(2*n/3))` -/
+def P15730385007772296176.Spec : Prop :=
+  ∀ n, P15730385007772296176.a n = A014063 n
 
-end
+theorem P15730385007772296176.correct : P15730385007772296176.Spec := by
+  intro n
+  simp only [A014063]
 
-end A014063.P15730385007772296176
+end A014063
 
 /-!
 # A014064: Coefficients of the reciprocal of the 55th cyclotomic polynomial.
@@ -7599,6 +7643,29 @@ theorem P8545385940688531700.correct : P8545385940688531700.Spec := by
 
 end A014097
 
+/-! ## A014097.P275485386465944287
+
+`ogf((1+4x^3)/(1-x-x^4))`
+-/
+
+namespace A014097.P275485386465944287
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, 4] [1, -1, 0, 0, -1] n
+
+end
+
+end A014097.P275485386465944287
+
+namespace A014097
+
+/-- `ogf((1+4x^3)/(1-x-x^4))` -/
+def P275485386465944287.Spec : Prop :=
+  ∀ n, P275485386465944287.a n = A014097 (n + 1)
+
+end A014097
+
 /-! ## A014097.P13613673179814382946
 
 `∑{d}[n+1, #*A020999(#-1)]`
@@ -7828,6 +7895,29 @@ def P13321700169002361588.Spec : Prop :=
 theorem P13321700169002361588.correct : P13321700169002361588.Spec := by
   intro n
   simp only [A014098]
+
+end A014098
+
+/-! ## A014098.P14964111597771022201
+
+`ogf((1+3x^3)/(1-x-x^4))`
+-/
+
+namespace A014098.P14964111597771022201
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, 3] [1, -1, 0, 0, -1] n
+
+end
+
+end A014098.P14964111597771022201
+
+namespace A014098
+
+/-- `ogf((1+3x^3)/(1-x-x^4))` -/
+def P14964111597771022201.Spec : Prop :=
+  ∀ n, P14964111597771022201.a n = A014098 n
 
 end A014098
 

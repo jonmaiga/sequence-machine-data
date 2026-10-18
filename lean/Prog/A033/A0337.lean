@@ -9,21 +9,23 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C018
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -951,7 +953,7 @@ end A033711.P1846431357685716679
 /-!
 # A033713: Number of zeros in numbers 1 to 999..9 (n digits).
 
-The programs for A033713, the canonical program `A033713.P13302592538740534098` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033713 has offset 1).
+The programs for A033713, the canonical program `A033713.P13302592538740534098` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033713 has offset 1).
 
 The definition of A033713 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -960,7 +962,7 @@ The definition of A033713 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n*10^(n+1)-(n+1)*10^n+1)/9`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033713
@@ -1167,7 +1169,7 @@ end A033713
 /-!
 # A033714: Number of zeros in numbers 0 to 999..9 (n digits).
 
-The programs for A033714, the canonical program `A033714.P7128792622442266428` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033714 has offset 1).
+The programs for A033714, the canonical program `A033714.P7128792622442266428` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033714 has offset 1).
 
 The definition of A033714 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1176,7 +1178,7 @@ The definition of A033714 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*10^(n-1)*n+a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033714

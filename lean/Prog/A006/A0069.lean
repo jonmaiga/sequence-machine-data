@@ -12,6 +12,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -29,10 +30,11 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,9 +48,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -342,6 +342,29 @@ theorem P3158695158064391519.correct : P3158695158064391519.Spec := by
   simp only [A006904, Nat.add_sub_cancel, A006904.P3158695158064391519.a, A006904.P11625610808601622019.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
+
+end A006904
+
+/-! ## A006904.P5806255526809181897
+
+`ogf((1+x+x^2)/(1-3x^2-2x^3))`
+-/
+
+namespace A006904.P5806255526809181897
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 1] [1, 0, -3, -2] n
+
+end
+
+end A006904.P5806255526809181897
+
+namespace A006904
+
+/-- `ogf((1+x+x^2)/(1-3x^2-2x^3))` -/
+def P5806255526809181897.Spec : Prop :=
+  ∀ n, P5806255526809181897.a n = A006904 (n + 4)
 
 end A006904
 

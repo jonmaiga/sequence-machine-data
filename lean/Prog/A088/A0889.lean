@@ -20,17 +20,17 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1121,7 +1121,7 @@ end A088909.P10540685720664996461
 /-!
 # A088911: Period 6: repeat [1, 1, 1, 0, 0, 0].
 
-The programs for A088911, the canonical program `A088911.P10625138519151970146` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088911 has offset 0).
+The programs for A088911, the canonical program `A088911.P10625138519151970146` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088911 has offset 0).
 
 The definition of A088911 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1130,7 +1130,7 @@ The definition of A088911 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-6)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=0, a(4)=0, a(5)=0`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A088911
@@ -2444,7 +2444,7 @@ end A088920.P13309134339409219380
 /-!
 # A088921: The number of 321- and 2143-avoiding permutations of length n.
 
-The programs for A088921, the canonical program `A088921.P16065288275914059738` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088921 has offset 1).
+The programs for A088921, the canonical program `A088921.P16065288275914059738` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088921 has offset 1).
 
 The definition of A088921 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2453,7 +2453,7 @@ The definition of A088921 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[2^n-n]]-n`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A088921
@@ -2840,7 +2840,7 @@ end A088921
 /-!
 # A088922: Consider the n X n matrix with entries (i*j mod n), where i,j=0..n-1; a(n) = rank of this matrix over the real numbers.
 
-The programs for A088922, the canonical program `A088922.P11172242905826586929` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088922 has offset 1).
+The programs for A088922, the canonical program `A088922.P11172242905826586929` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088922 has offset 1).
 
 The definition of A088922 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2849,7 +2849,7 @@ The definition of A088922 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(n+1)+A110654(n+1)-2`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A088922
@@ -3341,7 +3341,7 @@ end A088922
 /-!
 # A088924: Number of "9ish numbers" with n digits.
 
-The programs for A088924, the canonical program `A088924.P12255029344912140237` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088924 has offset 1).
+The programs for A088924, the canonical program `A088924.P12255029344912140237` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088924 has offset 1).
 
 The definition of A088924 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3350,7 +3350,7 @@ The definition of A088924 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*10^n-8*9^n`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A088924
@@ -3950,7 +3950,7 @@ end A088931.P5486749422033639941
 /-!
 # A088932: G.f.: 1/((1-x)^2*(1-x^2)*(1-x^4)*(1-x^8)).
 
-The programs for A088932, the canonical program `A088932.P12918642318921764939` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088932 has offset 0).
+The programs for A088932, the canonical program `A088932.P12918642318921764939` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088932 has offset 0).
 
 The definition of A088932 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3959,7 +3959,7 @@ The definition of A088932 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A008643(n)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A088932
@@ -4804,7 +4804,7 @@ end A088940.P3045647082027167573
 /-!
 # A088941: a(n)=12*sum(1<=i<=j<=k<=n,i*j/k).
 
-The programs for A088941, the canonical program `A088941.P4255863776560165692` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088941 has offset 0).
+The programs for A088941, the canonical program `A088941.P4255863776560165692` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088941 has offset 0).
 
 The definition of A088941 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4813,7 +4813,7 @@ The definition of A088941 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n/24*(9*n^3+58*n²+123*n+98)`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A088941
@@ -5295,7 +5295,7 @@ end A088947.P6076722286328887290
 /-!
 # A088948: Numbers k such that (A006530(k) + A020639(k))/2 is an integer; that is, arithmetic mean of least and largest prime factor is an integer.
 
-The programs for A088948, the canonical program `A088948.P9416875312986327135` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088948 has offset 1).
+The programs for A088948, the canonical program `A088948.P9416875312986327135` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088948 has offset 1).
 
 The definition of A088948 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5304,7 +5304,7 @@ The definition of A088948 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n-2, lcm(1-and(n, n-1), n-2)]`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A088948
@@ -8293,7 +8293,7 @@ end A088966.P12889265137100977764
 /-!
 # A088967: Numbers n such that n+9 is a prime.
 
-The programs for A088967, the canonical program `A088967.P975798610123419620` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088967 has offset 1).
+The programs for A088967, the canonical program `A088967.P975798610123419620` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088967 has offset 1).
 
 The definition of A088967 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8302,7 +8302,7 @@ The definition of A088967 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*n+9]-9`
 
-The canonical program, it is in `Seq.B000.C012`.
+The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A088967
@@ -8880,7 +8880,7 @@ end A088977.P14649269258839856863
 /-!
 # A088978: Number of Pythagorean triangles having the n-th prime prime(n) as one of their sides.
 
-The programs for A088978, the canonical program `A088978.P15849920336664136640` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088978 has offset 1).
+The programs for A088978, the canonical program `A088978.P15849920336664136640` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088978 has offset 1).
 
 The definition of A088978 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8958,7 +8958,7 @@ end A088978
 
 `(A039702(n+1)+1)%3`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A088978

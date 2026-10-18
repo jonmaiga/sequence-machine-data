@@ -2,19 +2,20 @@ import SequenceMachineLib.Basic
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C009
 import Seq.B000.C013
-import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C024
-import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C017
+import Seq.B000.C019
+import Seq.B000.C026
+import Seq.B000.C031
+import Seq.B000.C037
 import Seq.B002.C004
 import Seq.B003.C001
 import Seq.B007.C001
 import Seq.B013.C000
 import Seq.Opaque.C000
-import Seq.Opaque.C002
+import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
@@ -394,7 +395,7 @@ end A388139.P14675398183998807399
 /-!
 # A388140: Number of axis-aligned 2 X 2 squares in the 3D projection of a 3n-dimensional hypercube with side length 2.
 
-The programs for A388140, the canonical program `A388140.P16253514462590538591` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388140 has offset 1).
+The programs for A388140, the canonical program `A388140.P16253514462590538591` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388140 has offset 1).
 
 The definition of A388140 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -403,7 +404,7 @@ The definition of A388140 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*2^(n+1)*(2^(n+1)-1)²`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A388140

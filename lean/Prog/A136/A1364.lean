@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -34,6 +33,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,6 +46,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -1854,6 +1855,29 @@ theorem P11717912229952151247.correct : P11717912229952151247.Spec := by
 
 end A136412
 
+/-! ## A136412.P9830572408443260102
+
+`ogf((2-3x)/(1-5x+4x^2))`
+-/
+
+namespace A136412.P9830572408443260102
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -3] [1, -5, 4] n
+
+end
+
+end A136412.P9830572408443260102
+
+namespace A136412
+
+/-- `ogf((2-3x)/(1-5x+4x^2))` -/
+def P9830572408443260102.Spec : Prop :=
+  ∀ n, P9830572408443260102.a n = A136412 n
+
+end A136412
+
 /-! ## A136412.P10647475581059931889
 
 `lcm(4, a(n-1))-1` with `a(0)=2, a(1)=7`
@@ -2769,6 +2793,32 @@ namespace A136417
 /-- `ceil(sqrt((n+1)%2+2^n))` -/
 def P13563229494846363221.Spec : Prop :=
   ∀ n, P13563229494846363221.a n = A136417 n
+
+end A136417
+
+/-! ## A136417.P12896336565648704138
+
+`ceil(sqrt(∑[ogf((-2+2x+x^2)/(-1+x+2x^2))]))`
+-/
+
+namespace A136417.P12896336565648704138
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -2, -1] [1, -1, -2] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈Real.sqrt ((∑ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℝ)⌉
+
+end
+
+end A136417.P12896336565648704138
+
+namespace A136417
+
+/-- `ceil(sqrt(∑[ogf((-2+2x+x^2)/(-1+x+2x^2))]))` -/
+def P12896336565648704138.Spec : Prop :=
+  ∀ n, P12896336565648704138.a n = A136417 n
 
 end A136417
 

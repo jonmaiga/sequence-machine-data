@@ -6,35 +6,35 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C013
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -412,7 +412,7 @@ end A203818.P7117731641656811844
 /-!
 # A203819: Number of (n+1)X2 0..3 arrays with no 2X2 subblock having equal diagonal elements or equal antidiagonal elements.
 
-The programs for A203819, the canonical program `A203819.P15921634918125586566` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203819 has offset 1).
+The programs for A203819, the canonical program `A203819.P15921634918125586566` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203819 has offset 1).
 
 The definition of A203819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -421,7 +421,7 @@ The definition of A203819 is `conjectured`: the Lean definition is a formula tha
 
 `(12*3^n)²`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A203819
@@ -433,6 +433,32 @@ def P15921634918125586566.Spec : Prop :=
 theorem P15921634918125586566.correct : P15921634918125586566.Spec := by
   intro n
   simp only [A203819, Nat.add_sub_cancel]
+
+end A203819
+
+/-! ## A203819.P3315011111607497716
+
+`Δ[ogf(18/(1-9x))]`
+-/
+
+namespace A203819.P3315011111607497716
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [18] [1, -9] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A203819.P3315011111607497716
+
+namespace A203819
+
+/-- `Δ[ogf(18/(1-9x))]` -/
+def P3315011111607497716.Spec : Prop :=
+  ∀ n, P3315011111607497716.a n = A203819 (n + 1)
 
 end A203819
 
@@ -2402,8 +2428,29 @@ end A203836.P12897723462027960574
 /-!
 # A203837: Expansion of x^2*(1-x^2)*(1-3*x^2)/(1-x-5*x^2+4*x^3+5*x^4-3*x^5).
 
-The programs for A203837, there is no canonical definition to state claims against.
+The programs for A203837, the canonical program `A203837.P2078628394667399207` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203837 has offset 0).
+
+The definition of A203837 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x^2-4x^4+3x^6)/(1-x-5x^2+4x^3+5x^4-3x^5))` (program `A203837.P2078628394667399207`, by `A203837.P2078628394667399207.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A203837.P2078628394667399207
+
+`ogf((x^2-4x^4+3x^6)/(1-x-5x^2+4x^3+5x^4-3x^5))`
+
+The canonical program, it is in `Seq.B000.C026`.
+-/
+
+namespace A203837
+
+/-- `ogf((x^2-4x^4+3x^6)/(1-x-5x^2+4x^3+5x^4-3x^5))` -/
+def P2078628394667399207.Spec : Prop :=
+  ∀ n, P2078628394667399207.a n = A203837 n
+
+theorem P2078628394667399207.correct : P2078628394667399207.Spec := by
+  intro n
+  simp only [A203837]
+
+end A203837
 
 /-! ## A203837.P7174829042476886887
 
@@ -2420,6 +2467,14 @@ end
 
 end A203837.P7174829042476886887
 
+namespace A203837
+
+/-- `A001405(n)-A003056(A089846(n))` -/
+def P7174829042476886887.Spec : Prop :=
+  ∀ n, P7174829042476886887.a n = A203837 n
+
+end A203837
+
 /-! ## A203837.P8190633804301872585
 
 `A336678(n)-A003056(A089846(n))`
@@ -2434,6 +2489,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203837.P8190633804301872585
+
+namespace A203837
+
+/-- `A336678(n)-A003056(A089846(n))` -/
+def P8190633804301872585.Spec : Prop :=
+  ∀ n, P8190633804301872585.a n = A203837 n
+
+end A203837
 
 /-! ## A203837.P7962444740760798311
 
@@ -2450,6 +2513,14 @@ end
 
 end A203837.P7962444740760798311
 
+namespace A203837
+
+/-- `A001405(n)-A000196(A148584(n))` -/
+def P7962444740760798311.Spec : Prop :=
+  ∀ n, P7962444740760798311.a n = A203837 n
+
+end A203837
+
 /-! ## A203837.P3804928656592815509
 
 `A336675(n)-A000196(A148584(n))`
@@ -2465,20 +2536,13 @@ end
 
 end A203837.P3804928656592815509
 
-/-! ## A203837.P7280847135237102945
+namespace A203837
 
-`A336678(n)-A000196(A148584(n))`
--/
+/-- `A336675(n)-A000196(A148584(n))` -/
+def P3804928656592815509.Spec : Prop :=
+  ∀ n, P3804928656592815509.a n = A203837 n
 
-namespace A203837.P7280847135237102945
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336678 n - A000196 (A148584 n).toNat
-
-end
-
-end A203837.P7280847135237102945
+end A203837
 
 /-!
 # A203838: a(n) = sigma_3(n)*Fibonacci(n), where sigma_3(n) = A001158(n), the sum of cubes of divisors of n.

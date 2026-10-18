@@ -10,21 +10,24 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1494,7 +1497,7 @@ end A071814
 /-!
 # A071816: Number of ordered solutions to x+y+z = u+v+w, 0 <= x, y, z, u, v, w < n.
 
-The programs for A071816, the canonical program `A071816.P5842634050163126599` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071816 has offset 1).
+The programs for A071816, the canonical program `A071816.P5842634050163126599` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071816 has offset 1).
 
 The definition of A071816 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1503,7 +1506,7 @@ The definition of A071816 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*(11*(n+1)^4+5*(n+1)²+4)/20`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071816
@@ -4769,7 +4772,7 @@ end A071839
 /-!
 # A071840: Number of primes == 3 mod 8 <= n.
 
-The programs for A071840, the canonical program `A071840.P11563596937102057521` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071840 has offset 1).
+The programs for A071840, the canonical program `A071840.P11563596937102057521` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071840 has offset 1).
 
 The definition of A071840 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4910,7 +4913,7 @@ end A071840
 
 `∑[val(∑[n]%4+1, ∏{e}[2*(n+1), #+1])]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071840
@@ -5287,7 +5290,7 @@ end A071840
 /-!
 # A071841: Number of primes == 5 mod 8 <= n.
 
-The programs for A071841, the canonical program `A071841.P5344048982208262916` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071841 has offset 1).
+The programs for A071841, the canonical program `A071841.P5344048982208262916` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071841 has offset 1).
 
 The definition of A071841 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5329,7 +5332,7 @@ end A071841
 
 `∑[val(∏{p}[n+1, #+1], or(6, n))]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071841
@@ -5727,7 +5730,7 @@ end A071841
 /-!
 # A071842: Number of primes == 7 mod 8 <= n.
 
-The programs for A071842, the canonical program `A071842.P1944336963424224253` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071842 has offset 1).
+The programs for A071842, the canonical program `A071842.P1944336963424224253` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071842 has offset 1).
 
 The definition of A071842 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5802,7 +5805,7 @@ end A071842
 
 `∑[and(∑{e}[n+1, #]!%2, C(n, 6))]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071842
@@ -7522,7 +7525,7 @@ end A071859.P11945153221940334893
 /-!
 # A071860: Number of k 1<=k<=n such that sigma(k) is odd.
 
-The programs for A071860, the canonical program `A071860.P10900226461684192974` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071860 has offset 1).
+The programs for A071860, the canonical program `A071860.P10900226461684192974` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071860 has offset 1).
 
 The definition of A071860 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7531,7 +7534,7 @@ The definition of A071860 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(n+1))+floor(sqrt((n+1)/2))`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071860

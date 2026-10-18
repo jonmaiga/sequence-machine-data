@@ -26,12 +26,14 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1165,27 +1167,50 @@ end A070206.P13444685383486097696
 /-!
 # A070207: Expansion of (1-x-5*x^2)/(1-3*x-2*x^2-x^3).
 
-The programs for A070207, the canonical program `A070207.P2531796075830781211` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070207 has offset 0).
+The programs for A070207, the canonical program `A070207.P5866126796030755027` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070207 has offset 0).
 
-The definition of A070207 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A070207 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x-5x^2)/(1-3x-2x^2-x^3))` (program `A070207.P5866126796030755027`, by `A070207.P5866126796030755027.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A070207.P2531796075830781211
+/-! ## A070207.P5866126796030755027
 
-`3*a(n-1)+2*a(n-2)+a(n-3)` with `a(0)=1, a(1)=2, a(2)=3`
+`ogf((1-x-5x^2)/(1-3x-2x^2-x^3))`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A070207
 
+/-- `ogf((1-x-5x^2)/(1-3x-2x^2-x^3))` -/
+def P5866126796030755027.Spec : Prop :=
+  ∀ n, P5866126796030755027.a n = A070207 n
+
+theorem P5866126796030755027.correct : P5866126796030755027.Spec := by
+  intro n
+  simp only [A070207]
+
+end A070207
+
+/-! ## A070207.P2531796075830781211
+
+`3*a(n-1)+2*a(n-2)+a(n-3)` with `a(0)=1, a(1)=2, a(2)=3`
+-/
+
+namespace A070207.P2531796075830781211
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 3] fun n a =>
+  3 * a (n - 1) + 2 * a (n - 2) + a (n - 3)
+
+end
+
+end A070207.P2531796075830781211
+
+namespace A070207
+
 /-- `3*a(n-1)+2*a(n-2)+a(n-3)` -/
 def P2531796075830781211.Spec : Prop :=
   ∀ n, (P2531796075830781211.a n : ℤ) = A070207 n
-
-theorem P2531796075830781211.correct : P2531796075830781211.Spec := by
-  intro n
-  simp only [A070207]
 
 end A070207
 
@@ -4345,6 +4370,29 @@ The programs for A070232, the canonical program `A070232.P12886136296498931947` 
 The definition of A070232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A070232.P14032770487396902430
+
+`ogf((-4+2x+x^5)/(-1+2x))`
+-/
+
+namespace A070232.P14032770487396902430
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -2, 0, 0, 0, -1] [1, -2] n
+
+end
+
+end A070232.P14032770487396902430
+
+namespace A070232
+
+/-- `ogf((-4+2x+x^5)/(-1+2x))` -/
+def P14032770487396902430.Spec : Prop :=
+  ∀ n, P14032770487396902430.a n = A070232 (n + 1)
+
+end A070232
+
 /-! ## A070232.P12886136296498931947
 
 `2*a(n-1)-char[5]` with `a(0)=4, a(1)=6`
@@ -6397,6 +6445,29 @@ def P11112006205463858820.Spec : Prop :=
 theorem P11112006205463858820.correct : P11112006205463858820.Spec := by
   intro n
   simp only [A070252, Nat.add_sub_cancel]
+
+end A070252
+
+/-! ## A070252.P1167360602060114846
+
+`ogf((10+9x-10x^2)/(1-10x^2))`
+-/
+
+namespace A070252.P1167360602060114846
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [10, 9, -10] [1, 0, -10] n
+
+end
+
+end A070252.P1167360602060114846
+
+namespace A070252
+
+/-- `ogf((10+9x-10x^2)/(1-10x^2))` -/
+def P1167360602060114846.Spec : Prop :=
+  ∀ n, P1167360602060114846.a n = A070252 (n + 1)
 
 end A070252
 

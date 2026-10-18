@@ -4,16 +4,17 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C006
-import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C020
+import Seq.B000.C016
 import Seq.B000.C021
-import Seq.B000.C030
+import Seq.B000.C022
+import Seq.B000.C031
 import Seq.B001.C000
-import Seq.B001.C002
+import Seq.B001.C001
 import Seq.B002.C002
 import Seq.B004.C000
 import Seq.B007.C000
@@ -418,7 +419,7 @@ end A019943
 /-!
 # A019958: Expansion of 1/((1-5*x)*(1-7*x)*(1-10*x)).
 
-The programs for A019958, the canonical program `A019958.P5129313094110022891` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019958 has offset 0).
+The programs for A019958, the canonical program `A019958.P5129313094110022891` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019958 has offset 0).
 
 The definition of A019958 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -427,7 +428,7 @@ The definition of A019958 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*a(n-1)-70*a(n-2)+5^n` with `a(0)=1, a(1)=22`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A019958

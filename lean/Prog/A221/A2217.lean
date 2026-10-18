@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -11,11 +12,12 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -23,10 +25,11 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
@@ -895,7 +898,7 @@ end A221716.P11837879543207402225
 /-!
 # A221717: Non-cuban primes.
 
-The programs for A221717, the canonical program `A221717.P12333639464907125794` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221717 has offset 1).
+The programs for A221717, the canonical program `A221717.P12333639464907125794` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221717 has offset 1).
 
 The definition of A221717 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -904,7 +907,7 @@ The definition of A221717 is `conjectured`: the Lean definition is a formula tha
 
 `p?[comp[Δ[n^3]]]`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221717
@@ -1446,7 +1449,7 @@ end A221717
 /-!
 # A221718: Floor(sqrt(3*2^n)).
 
-The programs for A221718, the canonical program `A221718.P14729684843826935988` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221718 has offset 0).
+The programs for A221718, the canonical program `A221718.P14729684843826935988` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221718 has offset 0).
 
 The definition of A221718 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sqrt(3*2^n))` (program `A221718.P14729684843826935988`, by `A221718.P14729684843826935988.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1455,7 +1458,7 @@ The definition of A221718 is `verified`: the Lean definition is proven equivalen
 
 `floor(sqrt(3*2^n))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221718
@@ -1762,6 +1765,29 @@ namespace A221719
 /-- `4*a(n-1)-4*a(n-2)-a(n-3)+2*a(n-4)` -/
 def P1220988087752152345.Spec : Prop :=
   ∀ n, P1220988087752152345.a n = A221719 n
+
+end A221719
+
+/-! ## A221719.P9908894777786296235
+
+`ogf((2x-2x^2-x^3)/(1-4x+4x^2+x^3-2x^4))`
+-/
+
+namespace A221719.P9908894777786296235
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 2, -2, -1] [1, -4, 4, 1, -2] n
+
+end
+
+end A221719.P9908894777786296235
+
+namespace A221719
+
+/-- `ogf((2x-2x^2-x^3)/(1-4x+4x^2+x^3-2x^4))` -/
+def P9908894777786296235.Spec : Prop :=
+  ∀ n, P9908894777786296235.a n = A221719 n
 
 end A221719
 
@@ -2640,16 +2666,39 @@ end A221730.P9019310616570655029
 /-!
 # A221731: Number of n X 2 arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor, without move-in move-out left turns.
 
-The programs for A221731, the canonical program `A221731.P6489021291248113796` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221731 has offset 1).
+The programs for A221731, the canonical program `A221731.P6489021291248113796` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221731 has offset 1).
 
 The definition of A221731 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 137 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A221731.P5173305169182784135
+
+`ogf((3+2x)/(1-5x-2x^2))`
+-/
+
+namespace A221731.P5173305169182784135
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 2] [1, -5, -2] n
+
+end
+
+end A221731.P5173305169182784135
+
+namespace A221731
+
+/-- `ogf((3+2x)/(1-5x-2x^2))` -/
+def P5173305169182784135.Spec : Prop :=
+  ∀ n, P5173305169182784135.a n = A221731 (n + 1)
+
+end A221731
 
 /-! ## A221731.P6489021291248113796
 
 `5*a(n-1)+2*a(n-2)` with `a(0)=3, a(1)=17`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221731
@@ -4114,7 +4163,7 @@ end A221755.P14342231264775980037
 /-!
 # A221756: Number of 2 X n arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without move-in move-out straight through or left turns.
 
-The programs for A221756, the canonical program `A221756.P12917714057447650015` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221756 has offset 1).
+The programs for A221756, the canonical program `A221756.P12917714057447650015` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221756 has offset 1).
 
 The definition of A221756 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 213 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4123,7 +4172,7 @@ The definition of A221756 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+6*a(n-2)+a(n-3)-4*a(n-4)` with `a(0)=0, a(1)=2, a(2)=1, a(3)=9`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221756
@@ -4515,7 +4564,7 @@ end A221761.P17822341954658468620
 /-!
 # A221762: Numbers m such that 11*m^2 + 5 is a square.
 
-The programs for A221762, the canonical program `A221762.P6060710751891883182` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221762 has offset 1).
+The programs for A221762, the canonical program `A221762.P6060710751891883182` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221762 has offset 1).
 
 The definition of A221762 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4524,7 +4573,7 @@ The definition of A221762 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=22, a(3)=41`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221762
@@ -4661,7 +4710,7 @@ end A221763
 /-!
 # A221764: Number of n X 3 arrays of occupancy after each element moves to some horizontal or vertical neighbor, without 2-loops or left turns.
 
-The programs for A221764, the canonical program `A221764.P5589034281538812972` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221764 has offset 1).
+The programs for A221764, the canonical program `A221764.P5589034281538812972` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221764 has offset 1).
 
 The definition of A221764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 132 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4670,7 +4719,7 @@ The definition of A221764 is `conjectured`: the Lean definition is a formula tha
 
 `∑[6*a(n-1)-a(n-2)+1]` with `a(0)=0, a(1)=3, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221764
@@ -5875,7 +5924,7 @@ end A221782.P3994862137611556898
 /-!
 # A221783: Number of nX4 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without 2-loops or left turns.
 
-The programs for A221783, the canonical program `A221783.P13574060532170941755` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221783 has offset 1).
+The programs for A221783, the canonical program `A221783.P13574060532170941755` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221783 has offset 1).
 
 The definition of A221783 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 238 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5884,7 +5933,7 @@ The definition of A221783 is `conjectured`: the Lean definition is a formula tha
 
 `5*a(n-2)+5*a(n-3)+a(n-5)` with `a(0)=0, a(1)=3, a(2)=5, a(3)=16, a(4)=41`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221783
@@ -6273,7 +6322,7 @@ end A221786.P5938860301393412128
 /-!
 # A221788: Number of 3 X n arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without 2-loops or left turns.
 
-The programs for A221788, the canonical program `A221788.P2512246268146636081` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221788 has offset 1).
+The programs for A221788, the canonical program `A221788.P2512246268146636081` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221788 has offset 1).
 
 The definition of A221788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6282,7 +6331,7 @@ The definition of A221788 is `conjectured`: the Lean definition is a formula tha
 
 `8*a(n-1)-14*a(n-2)+8*a(n-3)-a(n-4)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=5, a(4)=24, a(5)=142`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221788
@@ -6884,7 +6933,7 @@ end A221794.P7367720827090852718
 /-!
 # A221795: Number of n X 2 arrays of occupancy after each element moves to some horizontal or vertical neighbor, without move-in move-out straight through or left turns.
 
-The programs for A221795, the canonical program `A221795.P3580348415809328229` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221795 has offset 1).
+The programs for A221795, the canonical program `A221795.P3580348415809328229` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221795 has offset 1).
 
 The definition of A221795 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6893,7 +6942,7 @@ The definition of A221795 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+6*a(n-2)+a(n-3)-4*a(n-4)` with `a(0)=1, a(1)=5, a(2)=12, a(3)=39`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221795

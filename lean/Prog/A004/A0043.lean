@@ -15,8 +15,8 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -28,13 +28,12 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -4705,6 +4704,38 @@ namespace A004320
 /-- `∑[∑[∑[a(n-1)+4]]]` -/
 def P7624203115002359575.Spec : Prop :=
   ∀ n, (P7624203115002359575.a n : ℤ) = A004320 n
+
+end A004320
+
+/-! ## A004320.P4842743674361455052
+
+`∑[∑[∑[ogf((3x+x^2)/(1-2x+x^2))]]]`
+-/
+
+namespace A004320.P4842743674361455052
+noncomputable section
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 1] [1, -2, 1] n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A004320.P4842743674361455052
+
+namespace A004320
+
+/-- `∑[∑[∑[ogf((3x+x^2)/(1-2x+x^2))]]]` -/
+def P4842743674361455052.Spec : Prop :=
+  ∀ n, P4842743674361455052.a n = A004320 n
 
 end A004320
 

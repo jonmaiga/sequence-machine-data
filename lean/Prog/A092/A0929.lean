@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -18,7 +17,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -31,10 +30,12 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,11 +43,10 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -4464,6 +4464,29 @@ namespace A092936
 /-- `round(((3+sqrt(13))^(n+1))²/(13*4^(n+1)))` -/
 def P16121490541860507442.Spec : Prop :=
   ∀ n, P16121490541860507442.a n = A092936 (n + 1)
+
+end A092936
+
+/-! ## A092936.P5031475201576095325
+
+`ogf((1-x)/(1-10x-10x^2+x^3))`
+-/
+
+namespace A092936.P5031475201576095325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -10, -10, 1] n
+
+end
+
+end A092936.P5031475201576095325
+
+namespace A092936
+
+/-- `ogf((1-x)/(1-10x-10x^2+x^3))` -/
+def P5031475201576095325.Spec : Prop :=
+  ∀ n, P5031475201576095325.a n = A092936 (n + 1)
 
 end A092936
 

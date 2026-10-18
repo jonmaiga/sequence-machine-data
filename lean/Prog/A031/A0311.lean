@@ -18,18 +18,18 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +44,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -4598,7 +4597,7 @@ end A031137.P11183025634052349384
 /-!
 # A031138: Numbers k such that 1^5 + 2^5 + ... + k^5 is a square.
 
-The programs for A031138, the canonical program `A031138.P14402222758888035602` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031138 has offset 1).
+The programs for A031138, the canonical program `A031138.P14402222758888035602` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031138 has offset 1).
 
 The definition of A031138 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4607,7 +4606,7 @@ The definition of A031138 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-a(n-2)+4` with `a(0)=1, a(1)=13`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A031138
@@ -4619,6 +4618,32 @@ def P14402222758888035602.Spec : Prop :=
 theorem P14402222758888035602.correct : P14402222758888035602.Spec := by
   intro n
   simp only [A031138, Nat.add_sub_cancel]
+
+end A031138
+
+/-! ## A031138.P13204033374237096407
+
+`∑[ogf((1+2x+x^2)/(1-10x+x^2))]`
+-/
+
+namespace A031138.P13204033374237096407
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 1] [1, -10, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A031138.P13204033374237096407
+
+namespace A031138
+
+/-- `∑[ogf((1+2x+x^2)/(1-10x+x^2))]` -/
+def P13204033374237096407.Spec : Prop :=
+  ∀ n, P13204033374237096407.a n = A031138 (n + 1)
 
 end A031138
 
@@ -8365,7 +8390,7 @@ end A031163.P2735610478476110073
 /-!
 # A031164: Irreducible Euler sums of weight 8 and depth 10+2n.
 
-The programs for A031164, the canonical program `A031164.P14530744105720124966` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031164 has offset 0).
+The programs for A031164, the canonical program `A031164.P14530744105720124966` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031164 has offset 0).
 
 The definition of A031164 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8397,7 +8422,7 @@ end A031164
 
 `2*A038164(n)-A060099(n)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A031164

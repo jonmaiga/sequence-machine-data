@@ -4,31 +4,28 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C013
-import Seq.B000.C014
-import Seq.B000.C018
-import Seq.B000.C023
-import Seq.B000.C031
+import Seq.B000.C015
+import Seq.B000.C019
+import Seq.B000.C024
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B008.C000
-import Seq.B010.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -2659,6 +2656,21 @@ end A136920.P5718651623827854601
 The programs for A136921, there is no canonical definition to state claims against.
 -/
 
+/-! ## A136921.P9734478589458631608
+
+`ogf(26x/(1-10x))`
+-/
+
+namespace A136921.P9734478589458631608
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 26] [1, -10] n
+
+end
+
+end A136921.P9734478589458631608
+
 /-! ## A136921.P6624152120878206775
 
 `10*a(n-1)` with `a(0)=0, a(1)=26`
@@ -2748,6 +2760,21 @@ end A136925.P6218166436664187121
 
 The programs for A136926, there is no canonical definition to state claims against.
 -/
+
+/-! ## A136926.P2713048636662942070
+
+`ogf(27x/(1-10x))`
+-/
+
+namespace A136926.P2713048636662942070
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 27] [1, -10] n
+
+end
+
+end A136926.P2713048636662942070
 
 /-! ## A136926.P9086658921016077951
 

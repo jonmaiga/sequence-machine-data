@@ -8,24 +8,27 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3557,7 +3560,7 @@ end A232161.P14147009438080984208
 /-!
 # A232162: Number of Weyl group elements, not containing an s_r factor, which contribute nonzero terms to Kostant's weight multiplicity formula when computing the multiplicity of the zero-weight in the adjoint representation for the Lie algebra of type B and rank n.
 
-The programs for A232162, the canonical program `A232162.P4643264864054769089` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232162 has offset 0).
+The programs for A232162, the canonical program `A232162.P4643264864054769089` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232162 has offset 0).
 
 The definition of A232162 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3566,7 +3569,7 @@ The definition of A232162 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=0, a(1)=0, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A232162
@@ -3578,6 +3581,29 @@ def P4643264864054769089.Spec : Prop :=
 theorem P4643264864054769089.correct : P4643264864054769089.Spec := by
   intro n
   simp only [A232162]
+
+end A232162
+
+/-! ## A232162.P5313836806319468786
+
+`ogf((-2x^2-x^3)/(-1+x+x^2+3x^3+x^4))`
+-/
+
+namespace A232162.P5313836806319468786
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 2, 1] [1, -1, -1, -3, -1] n
+
+end
+
+end A232162.P5313836806319468786
+
+namespace A232162
+
+/-- `ogf((-2x^2-x^3)/(-1+x+x^2+3x^3+x^4))` -/
+def P5313836806319468786.Spec : Prop :=
+  ∀ n, P5313836806319468786.a n = A232162 n
 
 end A232162
 
@@ -3777,7 +3803,7 @@ end A232162
 /-!
 # A232163: Cardinality of the Weyl alternation set corresponding to the zero-weight in the adjoint representation of the Lie algebra so(2n+1).
 
-The programs for A232163, the canonical program `A232163.P9445820061790615785` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232163 has offset 0).
+The programs for A232163, the canonical program `A232163.P9445820061790615785` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232163 has offset 0).
 
 The definition of A232163 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3786,7 +3812,7 @@ The definition of A232163 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=5`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A232163
@@ -3798,6 +3824,29 @@ def P9445820061790615785.Spec : Prop :=
 theorem P9445820061790615785.correct : P9445820061790615785.Spec := by
   intro n
   simp only [A232163]
+
+end A232163
+
+/-! ## A232163.P11805986471174631925
+
+`ogf((x+x^2+2x^3)/(1-x-x^2-3x^3-x^4))`
+-/
+
+namespace A232163.P11805986471174631925
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 1, 2] [1, -1, -1, -3, -1] n
+
+end
+
+end A232163.P11805986471174631925
+
+namespace A232163
+
+/-- `ogf((x+x^2+2x^3)/(1-x-x^2-3x^3-x^4))` -/
+def P11805986471174631925.Spec : Prop :=
+  ∀ n, P11805986471174631925.a n = A232163 n
 
 end A232163
 
@@ -3873,7 +3922,7 @@ end A232163
 /-!
 # A232164: Number of Weyl group elements, not containing an s_r factor, which contribute nonzero terms to Kostant's weight multiplicity formula when computing the multiplicity of the zero-weight in the adjoint representation for the Lie algebra of type C and rank n.
 
-The programs for A232164, the canonical program `A232164.P5845593849868041813` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232164 has offset 0).
+The programs for A232164, the canonical program `A232164.P5845593849868041813` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232164 has offset 0).
 
 The definition of A232164 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3882,7 +3931,7 @@ The definition of A232164 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A232164
@@ -3894,6 +3943,29 @@ def P5845593849868041813.Spec : Prop :=
 theorem P5845593849868041813.correct : P5845593849868041813.Spec := by
   intro n
   simp only [A232164]
+
+end A232164
+
+/-! ## A232164.P3828412887511264235
+
+`ogf(-x/(-1+x+x^2+3x^3+x^4))`
+-/
+
+namespace A232164.P3828412887511264235
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1] [1, -1, -1, -3, -1] n
+
+end
+
+end A232164.P3828412887511264235
+
+namespace A232164
+
+/-- `ogf(-x/(-1+x+x^2+3x^3+x^4))` -/
+def P3828412887511264235.Spec : Prop :=
+  ∀ n, P3828412887511264235.a n = A232164 n
 
 end A232164
 
@@ -4093,7 +4165,7 @@ end A232164
 /-!
 # A232165: Cardinality of the Weyl alternation set corresponding to the zero-weight in the adjoint representation of the Lie algebra sp(2n).
 
-The programs for A232165, the canonical program `A232165.P15779423753795597952` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232165 has offset 0).
+The programs for A232165, the canonical program `A232165.P15779423753795597952` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232165 has offset 0).
 
 The definition of A232165 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4102,7 +4174,7 @@ The definition of A232165 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A232165
@@ -4114,6 +4186,29 @@ def P15779423753795597952.Spec : Prop :=
 theorem P15779423753795597952.correct : P15779423753795597952.Spec := by
   intro n
   simp only [A232165]
+
+end A232165
+
+/-! ## A232165.P8242836480956902220
+
+`ogf((-x-x^2)/(-1+x+x^2+3x^3+x^4))`
+-/
+
+namespace A232165.P8242836480956902220
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 1] [1, -1, -1, -3, -1] n
+
+end
+
+end A232165.P8242836480956902220
+
+namespace A232165
+
+/-- `ogf((-x-x^2)/(-1+x+x^2+3x^3+x^4))` -/
+def P8242836480956902220.Spec : Prop :=
+  ∀ n, P8242836480956902220.a n = A232165 n
 
 end A232165
 

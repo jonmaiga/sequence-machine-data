@@ -7,25 +7,25 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C015
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +39,6 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -9091,6 +9090,21 @@ end
 
 end A018285.P17444708076995779701
 
+/-! ## A018285.P7052008359951401879
+
+`ogf(1/(1-2x+3x^4-6x^5))`
+-/
+
+namespace A018285.P7052008359951401879
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -2, 0, 0, 3, -6] n
+
+end
+
+end A018285.P7052008359951401879
+
 /-! ## A018285.P17904863471433355056
 
 `13*a(n-4)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8`
@@ -9568,6 +9582,27 @@ def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 4] fun n a =>
 end
 
 end A018291.P9420039159080222111
+
+/-!
+# A018292: Divisors of 117.
+
+The programs for A018292, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018292.P2197190878404232875
+
+`ogf((-1+14x^3)/(-1+3x))`
+-/
+
+namespace A018292.P2197190878404232875
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, -14] [1, -3] n
+
+end
+
+end A018292.P2197190878404232875
 
 /-!
 # A018293: Divisors of 120.

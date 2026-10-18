@@ -6,28 +6,30 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,7 +37,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1165,7 +1166,7 @@ end A305314.P5577838961915935926
 /-!
 # A305315: a(n) = sqrt(5*b(n)^2 - 4), with b(n) = A134493(n) = Fibonacci(6*n+1), n >= 0.
 
-The programs for A305315, the canonical program `A305315.P5794810711031270934` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305315 has offset 0).
+The programs for A305315, the canonical program `A305315.P5794810711031270934` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305315 has offset 0).
 
 The definition of A305315 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1174,7 +1175,7 @@ The definition of A305315 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*a(n-1)-a(n-2)` with `a(0)=1, a(1)=29`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A305315
@@ -1186,6 +1187,29 @@ def P5794810711031270934.Spec : Prop :=
 theorem P5794810711031270934.correct : P5794810711031270934.Spec := by
   intro n
   simp only [A305315]
+
+end A305315
+
+/-! ## A305315.P5358858028475380608
+
+`ogf((1+11x)/(1-18x+x^2))`
+-/
+
+namespace A305315.P5358858028475380608
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 11] [1, -18, 1] n
+
+end
+
+end A305315.P5358858028475380608
+
+namespace A305315
+
+/-- `ogf((1+11x)/(1-18x+x^2))` -/
+def P5358858028475380608.Spec : Prop :=
+  ∀ n, P5358858028475380608.a n = A305315 n
 
 end A305315
 
@@ -1379,7 +1403,7 @@ end A305315
 /-!
 # A305316: a(n) = sqrt(5*b(n)^2 - 4) with b(n) = Fibonacci(6*n+5) = A134497(n).
 
-The programs for A305316, the canonical program `A305316.P13099243060583875329` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305316 has offset 0).
+The programs for A305316, the canonical program `A305316.P13099243060583875329` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305316 has offset 0).
 
 The definition of A305316 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1388,7 +1412,7 @@ The definition of A305316 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*a(n-1)-a(n-2)` with `a(0)=11, a(1)=199`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A305316
@@ -1400,6 +1424,29 @@ def P13099243060583875329.Spec : Prop :=
 theorem P13099243060583875329.correct : P13099243060583875329.Spec := by
   intro n
   simp only [A305316]
+
+end A305316
+
+/-! ## A305316.P5472078181017621278
+
+`ogf((11+x)/(1-18x+x^2))`
+-/
+
+namespace A305316.P5472078181017621278
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [11, 1] [1, -18, 1] n
+
+end
+
+end A305316.P5472078181017621278
+
+namespace A305316
+
+/-- `ogf((11+x)/(1-18x+x^2))` -/
+def P5472078181017621278.Spec : Prop :=
+  ∀ n, P5472078181017621278.a n = A305316 n
 
 end A305316
 

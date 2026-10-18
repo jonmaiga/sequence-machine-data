@@ -2,29 +2,27 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C028
+import Seq.B000.C018
+import Seq.B000.C021
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
@@ -143,7 +141,7 @@ end A116200.P12235241217375493433
 /-!
 # A116201: a(n) = a(n-1) + a(n-2) + a(n-3) - a(n-4); a(0)=0, a(1)=1, a(2)=1, a(3)=1.
 
-The programs for A116201, the canonical program `A116201.P140355599782389315` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116201 has offset 0).
+The programs for A116201, the canonical program `A116201.P140355599782389315` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116201 has offset 0).
 
 The definition of A116201 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-2)+a(n-3)-a(n-4)` (program `A116201.P140355599782389315`, by `A116201.P140355599782389315.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -152,7 +150,7 @@ The definition of A116201 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+a(n-2)+a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A116201
@@ -187,6 +185,29 @@ namespace A116201
 /-- `A116732(n+2)-A116732(n)` -/
 def P114354319231677444.Spec : Prop :=
   ∀ n, P114354319231677444.a n = A116201 n
+
+end A116201
+
+/-! ## A116201.P984961372146663342
+
+`ogf((-x+x^3)/(-1+x+x^2+x^3-x^4))`
+-/
+
+namespace A116201.P984961372146663342
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, -1] [1, -1, -1, -1, 1] n
+
+end
+
+end A116201.P984961372146663342
+
+namespace A116201
+
+/-- `ogf((-x+x^3)/(-1+x+x^2+x^3-x^4))` -/
+def P984961372146663342.Spec : Prop :=
+  ∀ n, P984961372146663342.a n = A116201 n
 
 end A116201
 

@@ -2,7 +2,7 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C018
+import Seq.B000.C019
 import Seq.Opaque.C001
 import Seq.Opaque.C019
 import Seq.Opaque.C025

@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -17,18 +16,18 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C025
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -10145,6 +10144,55 @@ def P16328443156470811947.Spec : Prop :=
 
 end A083943
 
+/-! ## A083943.P2476434265061059599
+
+`∑[ogf((-x+3x^2)/(-1+x+2x^2))]`
+-/
+
+namespace A083943.P2476434265061059599
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -3] [1, -1, -2] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A083943.P2476434265061059599
+
+namespace A083943
+
+/-- `∑[ogf((-x+3x^2)/(-1+x+2x^2))]` -/
+def P2476434265061059599.Spec : Prop :=
+  ∀ n, P2476434265061059599.a n = A083943 n
+
+end A083943
+
+/-! ## A083943.P8418859847911198521
+
+`ogf((x-3x^2)/(1-2x-x^2+2x^3))`
+-/
+
+namespace A083943.P8418859847911198521
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -3] [1, -2, -1, 2] n
+
+end
+
+end A083943.P8418859847911198521
+
+namespace A083943
+
+/-- `ogf((x-3x^2)/(1-2x-x^2+2x^3))` -/
+def P8418859847911198521.Spec : Prop :=
+  ∀ n, P8418859847911198521.a n = A083943 n
+
+end A083943
+
 /-! ## A083943.P200997200143594423
 
 `ceil(n%2-2^n/3)`
@@ -10593,6 +10641,55 @@ theorem P17311838125967062419.correct : P17311838125967062419.Spec := by
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A083944
+
+/-! ## A083944.P12957043251907262587
+
+`∑[ogf((-x+4x^2)/(-1+x+2x^2))]`
+-/
+
+namespace A083944.P12957043251907262587
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -4] [1, -1, -2] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A083944.P12957043251907262587
+
+namespace A083944
+
+/-- `∑[ogf((-x+4x^2)/(-1+x+2x^2))]` -/
+def P12957043251907262587.Spec : Prop :=
+  ∀ n, P12957043251907262587.a n = A083944 n
+
+end A083944
+
+/-! ## A083944.P7134723819990666337
+
+`ogf((x-4x^2)/(1-2x-x^2+2x^3))`
+-/
+
+namespace A083944.P7134723819990666337
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -4] [1, -2, -1, 2] n
+
+end
+
+end A083944.P7134723819990666337
+
+namespace A083944
+
+/-- `ogf((x-4x^2)/(1-2x-x^2+2x^3))` -/
+def P7134723819990666337.Spec : Prop :=
+  ∀ n, P7134723819990666337.a n = A083944 n
 
 end A083944
 

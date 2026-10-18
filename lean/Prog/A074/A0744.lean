@@ -23,16 +23,17 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,13 +58,13 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -6961,7 +6962,7 @@ end A074474.P7660902688642475164
 /-!
 # A074475: a(n) = Sum_{j=0..floor(n/2)} T(2*j + q), where T(n) are generalized tribonacci numbers (A001644) and q = n - 2*floor(n/2).
 
-The programs for A074475, the canonical program `A074475.P1344501239602031404` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074475 has offset 0).
+The programs for A074475, the canonical program `A074475.P1344501239602031404` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074475 has offset 0).
 
 The definition of A074475 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6970,7 +6971,7 @@ The definition of A074475 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)+2*a(n-3)+a(n-4)` with `a(0)=3, a(1)=1, a(2)=6, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074475
@@ -6982,6 +6983,29 @@ def P1344501239602031404.Spec : Prop :=
 theorem P1344501239602031404.correct : P1344501239602031404.Spec := by
   intro n
   simp only [A074475]
+
+end A074475
+
+/-! ## A074475.P4780878911681151823
+
+`ogf((3+x)/(1-2x^2-2x^3-x^4))`
+-/
+
+namespace A074475.P4780878911681151823
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 1] [1, 0, -2, -2, -1] n
+
+end
+
+end A074475.P4780878911681151823
+
+namespace A074475
+
+/-- `ogf((3+x)/(1-2x^2-2x^3-x^4))` -/
+def P4780878911681151823.Spec : Prop :=
+  ∀ n, P4780878911681151823.a n = A074475 n
 
 end A074475
 
@@ -8165,7 +8189,7 @@ end A074486.P16113784548578068231
 /-!
 # A074487: a(1)=1, then "jump over next square": a(n) = 2*(a(n-1)+1)^2-a(n-1).
 
-The programs for A074487, the canonical program `A074487.P13379641989343843818` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074487 has offset 1).
+The programs for A074487, the canonical program `A074487.P13379641989343843818` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074487 has offset 1).
 
 The definition of A074487 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(a(n-1)+1)²-a(n-1)` (program `A074487.P13379641989343843818`, by `A074487.P13379641989343843818.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8174,7 +8198,7 @@ The definition of A074487 is `verified`: the Lean definition is proven equivalen
 
 `2*(a(n-1)+1)²-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074487
@@ -8844,7 +8868,7 @@ end A074493.P2368332532261275201
 /-!
 # A074494: Number of 2-input gates used to synthesize parity function in disjunctive normal form (DNF) with n inputs.
 
-The programs for A074494, the canonical program `A074494.P10080901731975955765` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074494 has offset 1).
+The programs for A074494, the canonical program `A074494.P10080901731975955765` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074494 has offset 1).
 
 The definition of A074494 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 324 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8853,7 +8877,7 @@ The definition of A074494 is `conjectured`: the Lean definition is a formula tha
 
 `3*(n+1)*ceil(2^(n-1))-1`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074494

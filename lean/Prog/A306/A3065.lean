@@ -17,17 +17,20 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -111,8 +114,29 @@ end A306500.P14105351176647203973
 /-!
 # A306504: Expansion of 1/(x^6+2*x^5-x^4-4*x^3-x^2-2*x+1).
 
-The programs for A306504, there is no canonical definition to state claims against.
+The programs for A306504, the canonical program `A306504.P537346651132004984` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306504 has offset 0).
+
+The definition of A306504 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-x^2-4x^3-x^4+2x^5+x^6))` (program `A306504.P537346651132004984`, by `A306504.P537346651132004984.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A306504.P537346651132004984
+
+`ogf(1/(1-2x-x^2-4x^3-x^4+2x^5+x^6))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A306504
+
+/-- `ogf(1/(1-2x-x^2-4x^3-x^4+2x^5+x^6))` -/
+def P537346651132004984.Spec : Prop :=
+  ∀ n, P537346651132004984.a n = A306504 n
+
+theorem P537346651132004984.correct : P537346651132004984.Spec := by
+  intro n
+  simp only [A306504]
+
+end A306504
 
 /-! ## A306504.P14613636448831227678
 
@@ -128,6 +152,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A306504.P14613636448831227678
+
+namespace A306504
+
+/-- `A182195(A026023(n))` -/
+def P14613636448831227678.Spec : Prop :=
+  ∀ n, P14613636448831227678.a n = A306504 n
+
+end A306504
 
 /-! ## A306504.P18361987979638955227
 
@@ -147,20 +179,13 @@ end
 
 end A306504.P18361987979638955227
 
-/-! ## A306504.P13451244627497998502
+namespace A306504
 
-`A182195(A034338(n+1))`
--/
+/-- `A182195(Δ[A104993(n)])` -/
+def P18361987979638955227.Spec : Prop :=
+  ∀ n, P18361987979638955227.a n = A306504 n
 
-namespace A306504.P13451244627497998502
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182195 (A034338 (n + 1)).toNat
-
-end
-
-end A306504.P13451244627497998502
+end A306504
 
 /-!
 # A306505: Number of non-isomorphic antichains of nonempty subsets of {1,...,n}.
@@ -4946,7 +4971,7 @@ end A306561
 /-!
 # A306562: a(n) = 1 + 2 - 3 - 4 + 5 + 6 + 7 - 8 - 9 - 10 - 11 + 12 + 13 + 14 + 15 + ... + (+-1)*n, where, after the 1st summand there is one plus, two minuses, three plusses, etc.
 
-The programs for A306562, the canonical program `A306562.P13225205083291661171` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306562 has offset 0).
+The programs for A306562, the canonical program `A306562.P13225205083291661171` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306562 has offset 0).
 
 The definition of A306562 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4955,7 +4980,7 @@ The definition of A306562 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+(n+1)*(-1)^floor(sqrt(2*n)-1/2)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A306562

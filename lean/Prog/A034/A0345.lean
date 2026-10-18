@@ -3,35 +3,36 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C011
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C030
+import Seq.B000.C026
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -1154,7 +1155,7 @@ end A034512.P6235299892725674525
 /-!
 # A034513: a(n) = 1^n + 3^n + 9^n.
 
-The programs for A034513, the canonical program `A034513.P15215699128484912420` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034513 has offset 0).
+The programs for A034513, the canonical program `A034513.P15215699128484912420` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034513 has offset 0).
 
 The definition of A034513 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1163,7 +1164,7 @@ The definition of A034513 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+3^n+9^n`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034513
@@ -1770,7 +1771,7 @@ end A034516.P10530301564645141841
 /-!
 # A034517: Sum of n-th powers of divisors of 10.
 
-The programs for A034517, the canonical program `A034517.P4555784559519111850` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034517 has offset 0).
+The programs for A034517, the canonical program `A034517.P4555784559519111850` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034517 has offset 0).
 
 The definition of A034517 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1779,7 +1780,7 @@ The definition of A034517 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[-a(n-1), #^n]` with `a(0)=10`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034517
@@ -2567,7 +2568,7 @@ end A034523.P1874003588591609555
 /-!
 # A034524: a(n) = 11^n + 1.
 
-The programs for A034524, the canonical program `A034524.P14152157889491239874` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034524 has offset 0).
+The programs for A034524, the canonical program `A034524.P14152157889491239874` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034524 has offset 0).
 
 The definition of A034524 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `11^n+1` (program `A034524.P14152157889491239874`, by `A034524.P14152157889491239874.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2576,7 +2577,7 @@ The definition of A034524 is `verified`: the Lean definition is proven equivalen
 
 `11^n+1`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034524
@@ -7789,7 +7790,7 @@ end A034584.P15297763535349669089
 /-!
 # A034585: Dimension of an irreducible Z_2 graded H-module for Clifford algebra Cl_n.
 
-The programs for A034585, the canonical program `A034585.P5034366313642579959` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034585 has offset 1).
+The programs for A034585, the canonical program `A034585.P5034366313642579959` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034585 has offset 1).
 
 The definition of A034585 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7798,7 +7799,7 @@ The definition of A034585 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `16*a(n-8)` with `a(0)=2, a(1)=2, a(2)=2, a(3)=2, a(4)=4, a(5)=8, a(6)=16, a(7)=16`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034585

@@ -14,19 +14,20 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +52,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -3019,27 +3019,50 @@ end A084430.P8113855285106596734
 /-!
 # A084431: Expansion of g.f. (1 + 6*x + 5*x^2)/((1-2*x)*(1+2*x)).
 
-The programs for A084431, the canonical program `A084431.P6654552660097854578` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084431 has offset 0).
+The programs for A084431, the canonical program `A084431.P6506379133463896881` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084431 has offset 0).
 
-The definition of A084431 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A084431 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+6x+5x^2)/(1-4x^2))` (program `A084431.P6506379133463896881`, by `A084431.P6506379133463896881.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A084431.P6654552660097854578
+/-! ## A084431.P6506379133463896881
 
-`4*a(n-2)` with `a(0)=1, a(1)=6, a(2)=9`
+`ogf((1+6x+5x^2)/(1-4x^2))`
 
 The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A084431
 
+/-- `ogf((1+6x+5x^2)/(1-4x^2))` -/
+def P6506379133463896881.Spec : Prop :=
+  ∀ n, P6506379133463896881.a n = A084431 n
+
+theorem P6506379133463896881.correct : P6506379133463896881.Spec := by
+  intro n
+  simp only [A084431]
+
+end A084431
+
+/-! ## A084431.P6654552660097854578
+
+`4*a(n-2)` with `a(0)=1, a(1)=6, a(2)=9`
+-/
+
+namespace A084431.P6654552660097854578
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 6, 9] fun n a =>
+  4 * a (n - 2)
+
+end
+
+end A084431.P6654552660097854578
+
+namespace A084431
+
 /-- `4*a(n-2)` -/
 def P6654552660097854578.Spec : Prop :=
   ∀ n, (P6654552660097854578.a n : ℤ) = A084431 n
-
-theorem P6654552660097854578.correct : P6654552660097854578.Spec := by
-  intro n
-  simp only [A084431]
 
 end A084431
 
@@ -4028,7 +4051,7 @@ end A084438.P9613406400701544724
 /-!
 # A084439: Number of triangular partitions of n of order 3.
 
-The programs for A084439, the canonical program `A084439.P16361707424774785906` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084439 has offset 0).
+The programs for A084439, the canonical program `A084439.P16361707424774785906` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084439 has offset 0).
 
 The definition of A084439 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4037,7 +4060,7 @@ The definition of A084439 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[A051263(n)]]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A084439
@@ -7674,6 +7697,29 @@ def P6361397214842268598.Spec : Prop :=
 theorem P6361397214842268598.correct : P6361397214842268598.Spec := by
   intro n
   simp only [A084477, Nat.add_sub_cancel]
+
+end A084477
+
+/-! ## A084477.P10861508639280971864
+
+`ogf((-4+22x+4x^2)/(-1+6x))`
+-/
+
+namespace A084477.P10861508639280971864
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -22, -4] [1, -6] n
+
+end
+
+end A084477.P10861508639280971864
+
+namespace A084477
+
+/-- `ogf((-4+22x+4x^2)/(-1+6x))` -/
+def P10861508639280971864.Spec : Prop :=
+  ∀ n, P10861508639280971864.a n = A084477 (n + 1)
 
 end A084477
 

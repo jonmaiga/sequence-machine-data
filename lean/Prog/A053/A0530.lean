@@ -7,8 +7,10 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -18,20 +20,20 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -47,7 +49,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
@@ -9396,6 +9397,29 @@ def P18334695315146648361.Spec : Prop :=
 theorem P18334695315146648361.correct : P18334695315146648361.Spec := by
   intro n
   simp only [A053088]
+
+end A053088
+
+/-! ## A053088.P2427985145356492590
+
+`ogf(1/(1-3x^2-2x^3))`
+-/
+
+namespace A053088.P2427985145356492590
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, 0, -3, -2] n
+
+end
+
+end A053088.P2427985145356492590
+
+namespace A053088
+
+/-- `ogf(1/(1-3x^2-2x^3))` -/
+def P2427985145356492590.Spec : Prop :=
+  ∀ n, P2427985145356492590.a n = A053088 n
 
 end A053088
 

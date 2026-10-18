@@ -1,5 +1,5 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C014
+import Seq.B000.C015
 import Seq.Opaque.C011
 
 /-!
@@ -7,6 +7,21 @@ import Seq.Opaque.C011
 
 The programs for A170628, there is no canonical definition to state claims against.
 -/
+
+/-! ## A170628.P13082794682105832083
+
+`ogf((1+x)/(1-42x))`
+-/
+
+namespace A170628.P13082794682105832083
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1] [1, -42] n
+
+end
+
+end A170628.P13082794682105832083
 
 /-! ## A170628.P12334992548760741891
 

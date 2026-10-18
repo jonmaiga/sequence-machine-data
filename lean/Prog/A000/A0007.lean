@@ -18,7 +18,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -30,9 +30,12 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7275,6 +7278,29 @@ def P13635918277222462531.Spec : Prop :=
 
 end A000748
 
+/-! ## A000748.P15350044384259342850
+
+`ogf(1/(1+3x+3x^2))`
+-/
+
+namespace A000748.P15350044384259342850
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, 3, 3] n
+
+end
+
+end A000748.P15350044384259342850
+
+namespace A000748
+
+/-- `ogf(1/(1+3x+3x^2))` -/
+def P15350044384259342850.Spec : Prop :=
+  ∀ n, P15350044384259342850.a n = A000748 n
+
+end A000748
+
 /-! ## A000748.P15697452669030911807
 
 `A123877(n)-(a(n-1)+a(n-1))` with `a(0)=1`
@@ -7492,6 +7518,29 @@ def P12361437164808729978.Spec : Prop :=
 theorem P12361437164808729978.correct : P12361437164808729978.Spec := by
   intro n
   simp only [A000749]
+
+end A000749
+
+/-! ## A000749.P2401794326351624144
+
+`ogf(x^3/(1-4x+6x^2-4x^3))`
+-/
+
+namespace A000749.P2401794326351624144
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 0, 1] [1, -4, 6, -4] n
+
+end
+
+end A000749.P2401794326351624144
+
+namespace A000749
+
+/-- `ogf(x^3/(1-4x+6x^2-4x^3))` -/
+def P2401794326351624144.Spec : Prop :=
+  ∀ n, P2401794326351624144.a n = A000749 n
 
 end A000749
 
@@ -7908,6 +7957,29 @@ The programs for A000750, the canonical program `A000750.P17276910196845925233` 
 
 The definition of A000750 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 354 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A000750.P1203278091364546693
+
+`ogf(1/(1+5x+10x^2+10x^3+5x^4))`
+-/
+
+namespace A000750.P1203278091364546693
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, 5, 10, 10, 5] n
+
+end
+
+end A000750.P1203278091364546693
+
+namespace A000750
+
+/-- `ogf(1/(1+5x+10x^2+10x^3+5x^4))` -/
+def P1203278091364546693.Spec : Prop :=
+  ∀ n, P1203278091364546693.a n = A000750 n
+
+end A000750
 
 /-! ## A000750.P17276910196845925233
 
@@ -14136,6 +14208,21 @@ end A000789.P5043097595767155452
 The programs for A000791, there is no canonical definition to state claims against.
 -/
 
+/-! ## A000791.P16110733568365873562
+
+`ogf((1+2x+3x^2+3x^3+5x^4+4x^5+5x^6+5x^7+8x^8)/(1-x))`
+-/
+
+namespace A000791.P16110733568365873562
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 3, 3, 5, 4, 5, 5, 8] [1, -1] n
+
+end
+
+end A000791.P16110733568365873562
+
 /-! ## A000791.P2701781678285692983
 
 `∑[A087826(comp[C(n, 2)])]`
@@ -14308,6 +14395,29 @@ namespace A000792
 /-- `A000007(n)+record[A122164(n)]` -/
 def P15848271270574235895.Spec : Prop :=
   ∀ n, P15848271270574235895.a n = A000792 n
+
+end A000792
+
+/-! ## A000792.P11329420891046687228
+
+`ogf((-1-x-2x^2-x^4)/(-1+3x^3))`
+-/
+
+namespace A000792.P11329420891046687228
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 2, 0, 1] [1, 0, 0, -3] n
+
+end
+
+end A000792.P11329420891046687228
+
+namespace A000792
+
+/-- `ogf((-1-x-2x^2-x^4)/(-1+3x^3))` -/
+def P11329420891046687228.Spec : Prop :=
+  ∀ n, P11329420891046687228.a n = A000792 n
 
 end A000792
 

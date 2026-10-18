@@ -11,19 +11,21 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
-import Seq.B000.C020
+import Seq.B000.C017
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +45,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -449,6 +450,29 @@ namespace A195605
 /-- `∑[∑[8-a(n-1)]]` -/
 def P9829314607748575768.Spec : Prop :=
   ∀ n, P9829314607748575768.a n = A195605 n
+
+end A195605
+
+/-! ## A195605.P292001950124396705
+
+`ogf((2+3x+4x^2-x^3)/(1-2x+2x^3-x^4))`
+-/
+
+namespace A195605.P292001950124396705
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 3, 4, -1] [1, -2, 0, 2, -1] n
+
+end
+
+end A195605.P292001950124396705
+
+namespace A195605
+
+/-- `ogf((2+3x+4x^2-x^3)/(1-2x+2x^3-x^4))` -/
+def P292001950124396705.Spec : Prop :=
+  ∀ n, P292001950124396705.a n = A195605 n
 
 end A195605
 
@@ -2032,6 +2056,29 @@ def P7821756319866621661.Spec : Prop :=
 
 end A195614
 
+/-! ## A195614.P2906072534614740108
+
+`ogf(8/(1-17x-17x^2+x^3))`
+-/
+
+namespace A195614.P2906072534614740108
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [8] [1, -17, -17, 1] n
+
+end
+
+end A195614.P2906072534614740108
+
+namespace A195614
+
+/-- `ogf(8/(1-17x-17x^2+x^3))` -/
+def P2906072534614740108.Spec : Prop :=
+  ∀ n, P2906072534614740108.a n = A195614 (n + 1)
+
+end A195614
+
 /-! ## A195614.P12744466726289601256
 
 `2*A156084(n+1)`
@@ -2999,7 +3046,7 @@ end A195618.P13815033992056090009
 /-!
 # A195619: Denominators of Pythagorean approximations to 4.
 
-The programs for A195619, the canonical program `A195619.P7175457883957837331` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195619 has offset 1).
+The programs for A195619, the canonical program `A195619.P7175457883957837331` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195619 has offset 1).
 
 The definition of A195619 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3008,7 +3055,7 @@ The definition of A195619 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((4+sqrt(17))^(2*(n+1)+1)+(4-sqrt(17))^(2*(n+1)+1)-8*(-1)^(n+1))/34`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A195619
@@ -5470,7 +5517,7 @@ end A195675.P15520598055988407919
 /-!
 # A195679: Order of n-th homotopy group of the topological group O(oo), with -1 if the homotopy group is Z.
 
-The programs for A195679, the canonical program `A195679.P16043029098919508297` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195679 has offset 0).
+The programs for A195679, the canonical program `A195679.P16043029098919508297` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195679 has offset 0).
 
 The definition of A195679 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5479,7 +5526,7 @@ The definition of A195679 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-8)` with `a(0)=2, a(1)=2, a(2)=1, a(3)=-1, a(4)=1, a(5)=1, a(6)=1, a(7)=-1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A195679

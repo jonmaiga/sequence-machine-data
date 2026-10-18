@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -22,14 +23,16 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -9421,7 +9424,7 @@ end A025466.P12007986291647335043
 /-!
 # A025467: Expansion of 1/((1-2*x)*(1-3*x)*(1-4*x)*(1-8*x)).
 
-The programs for A025467, the canonical program `A025467.P13163638083689121556` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025467 has offset 0).
+The programs for A025467, the canonical program `A025467.P13163638083689121556` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025467 has offset 0).
 
 The definition of A025467 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9430,7 +9433,7 @@ The definition of A025467 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8^(n+3)-15*4^(n+3)+24*3^(n+3)-10*2^(n+3))/120`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A025467
@@ -10065,7 +10068,7 @@ end A025469.P10627332311183741700
 /-!
 # A025470: Expansion of 1/((1-2*x)*(1-3*x)*(1-4*x)*(1-9*x)).
 
-The programs for A025470, the canonical program `A025470.P11896757110784141117` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025470 has offset 0).
+The programs for A025470, the canonical program `A025470.P11896757110784141117` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025470 has offset 0).
 
 The definition of A025470 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10074,7 +10077,7 @@ The definition of A025470 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^(n+1)-2^(n+1)+13*a(n-1)-36*a(n-2)` with `a(0)=1, a(1)=18`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A025470
@@ -13798,7 +13801,7 @@ end A025485
 /-!
 # A025486: Least k with A025485(k) = n.
 
-The programs for A025486, the canonical program `A025486.P1755440782758137965` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025486 has offset 0).
+The programs for A025486, the canonical program `A025486.P1755440782758137965` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025486 has offset 0).
 
 The definition of A025486 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13807,7 +13810,7 @@ The definition of A025486 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)²/4+1` with `a(0)=0, a(1)=3, a(2)=5, a(3)=10`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A025486

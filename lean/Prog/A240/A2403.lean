@@ -8,18 +8,17 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C036
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
@@ -2741,7 +2740,7 @@ end A240337.P5838300675583135
 /-!
 # A240342: Number of n X 2 0..3 arrays with no element equal to one plus the sum of elements to its left or one plus the sum of elements above it or three plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240342, the canonical program `A240342.P606162789370024762` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240342 has offset 1).
+The programs for A240342, the canonical program `A240342.P606162789370024762` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240342 has offset 1).
 
 The definition of A240342 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2750,7 +2749,7 @@ The definition of A240342 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-1)-7*a(n-2)-4*a(n-3)+8*a(n-4)` with `a(0)=4, a(1)=18, a(2)=78, a(3)=334`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A240342
@@ -3262,7 +3261,7 @@ end A240347.P10772563522673527475
 /-!
 # A240348: Inverse of 53rd cyclotomic polynomial.
 
-The programs for A240348, the canonical program `A240348.P10324360403096197541` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240348 has offset 0).
+The programs for A240348, the canonical program `A240348.P10324360403096197541` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240348 has offset 0).
 
 The definition of A240348 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3271,7 +3270,7 @@ The definition of A240348 is `conjectured`: the Lean definition is a formula tha
 
 `round((-2)^-n%53)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A240348
@@ -3433,26 +3432,29 @@ end A240354.P10927224439710313831
 /-!
 # A240355: Inverse of 72nd cyclotomic polynomial.
 
-The programs for A240355, there is no canonical definition to state claims against.
+The programs for A240355, the canonical program `A240355.P8056118770245274033` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240355 has offset 0).
+
+The definition of A240355 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A240355.P8056118770245274033
 
 `A014045(Δ[ceil(C(n, 2)/2)])`
+
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
-namespace A240355.P8056118770245274033
-noncomputable section
+namespace A240355
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(Nat.choose n 2 : ℚ) / 2⌉
+/-- `A014045(Δ[ceil(C(n, 2)/2)])` -/
+def P8056118770245274033.Spec : Prop :=
+  ∀ n, P8056118770245274033.a n = A240355 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014045 (f1 (n + 1) - f1 n).toNat
+theorem P8056118770245274033.correct : P8056118770245274033.Spec := by
+  intro n
+  simp only [A240355]
 
-end
-
-end A240355.P8056118770245274033
+end A240355
 
 /-!
 # A240356: Inverse of 73rd cyclotomic polynomial.

@@ -10,31 +10,30 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,7 +49,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -687,16 +685,39 @@ end A282309.P1586202432084367500
 /-!
 # A282310: Number of n X 2 0..1 arrays with no 1 equal to more than four of its king-move neighbors.
 
-The programs for A282310, the canonical program `A282310.P12292779318306874923` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282310 has offset 1).
+The programs for A282310, the canonical program `A282310.P12292779318306874923` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282310 has offset 1).
 
 The definition of A282310 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A282310.P2191207024002419831
+
+`ogf((4+4x+3x^2)/(1-3x-3x^2-3x^3))`
+-/
+
+namespace A282310.P2191207024002419831
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 4, 3] [1, -3, -3, -3] n
+
+end
+
+end A282310.P2191207024002419831
+
+namespace A282310
+
+/-- `ogf((4+4x+3x^2)/(1-3x-3x^2-3x^3))` -/
+def P2191207024002419831.Spec : Prop :=
+  ∀ n, P2191207024002419831.a n = A282310 (n + 1)
+
+end A282310
 
 /-! ## A282310.P12292779318306874923
 
 `3*a(n-1)+3*a(n-2)+3*a(n-3)` with `a(0)=4, a(1)=16, a(2)=63`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A282310
@@ -3388,7 +3409,7 @@ end A282323
 /-!
 # A282324: Greater of twin primes congruent to 19 (mod 30).
 
-The programs for A282324, the canonical program `A282324.P8074953035641554398` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282324 has offset 1).
+The programs for A282324, the canonical program `A282324.P8074953035641554398` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282324 has offset 1).
 
 The definition of A282324 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3443,7 +3464,7 @@ end A282324
 
 `p?[A030432(n+1)+2]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A282324
@@ -7872,7 +7893,7 @@ end A282385.P4819589093313070778
 /-!
 # A282386: Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 462", based on the 5-celled von Neumann neighborhood.
 
-The programs for A282386, the canonical program `A282386.P16956700879093564152` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282386 has offset 0).
+The programs for A282386, the canonical program `A282386.P16956700879093564152` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282386 has offset 0).
 
 The definition of A282386 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 114 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7881,7 +7902,7 @@ The definition of A282386 is `conjectured`: the Lean definition is a formula tha
 
 `A006943(A006257(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A282386
@@ -8129,7 +8150,7 @@ end A282386
 /-!
 # A282388: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 462", based on the 5-celled von Neumann neighborhood.
 
-The programs for A282388, the canonical program `A282388.P15003936815126334606` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282388 has offset 0).
+The programs for A282388, the canonical program `A282388.P15003936815126334606` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282388 has offset 0).
 
 The definition of A282388 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 422 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8138,7 +8159,7 @@ The definition of A282388 is `conjectured`: the Lean definition is a formula tha
 
 `A133179(Δ[n²])`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A282388

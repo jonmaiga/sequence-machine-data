@@ -5,25 +5,27 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C022
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C009
 import Seq.B002.C000
@@ -2026,6 +2028,35 @@ def P14858964127295696077.Spec : Prop :=
 
 end A013574
 
+/-! ## A013574.P4100438088471666077
+
+`∑[∑[ogf((3+x+2x^2)/(1+x^2))]]`
+-/
+
+namespace A013574.P4100438088471666077
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 1, 2] [1, 0, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A013574.P4100438088471666077
+
+namespace A013574
+
+/-- `∑[∑[ogf((3+x+2x^2)/(1+x^2))]]` -/
+def P4100438088471666077.Spec : Prop :=
+  ∀ n, P4100438088471666077.a n = A013574 (n + 1)
+
+end A013574
+
 /-! ## A013574.P13782066703688131354
 
 `∑[∑[(-1)^floor(n/2)]+2]`
@@ -2052,6 +2083,29 @@ namespace A013574
 /-- `∑[∑[(-1)^floor(n/2)]+2]` -/
 def P13782066703688131354.Spec : Prop :=
   ∀ n, P13782066703688131354.a n = (A013574 (n + 1) : ℚ)
+
+end A013574
+
+/-! ## A013574.P15888658087693159985
+
+`ogf((3+x+2x^2)/(1-2x+2x^2-2x^3+x^4))`
+-/
+
+namespace A013574.P15888658087693159985
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 1, 2] [1, -2, 2, -2, 1] n
+
+end
+
+end A013574.P15888658087693159985
+
+namespace A013574
+
+/-- `ogf((3+x+2x^2)/(1-2x+2x^2-2x^3+x^4))` -/
+def P15888658087693159985.Spec : Prop :=
+  ∀ n, P15888658087693159985.a n = A013574 (n + 1)
 
 end A013574
 

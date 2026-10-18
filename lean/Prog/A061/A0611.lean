@@ -10,21 +10,24 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,7 +43,6 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B005.C000
@@ -647,6 +649,35 @@ namespace A061101
 /-- `(record[n/(n%9)!]+4)²` -/
 def P13059216945988530584.Spec : Prop :=
   ∀ n, P13059216945988530584.a n = (A061101 (n + 1) : ℚ)
+
+end A061101
+
+/-! ## A061101.P17217867044927919365
+
+`∑[∑[ogf((4+x+4x^2)/(1+x))]]²`
+-/
+
+namespace A061101.P17217867044927919365
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 1, 4] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (∑ j ∈ Finset.range (n + 1), f1 j) ^ 2
+
+end
+
+end A061101.P17217867044927919365
+
+namespace A061101
+
+/-- `∑[∑[ogf((4+x+4x^2)/(1+x))]]²` -/
+def P17217867044927919365.Spec : Prop :=
+  ∀ n, P17217867044927919365.a n = A061101 (n + 1)
 
 end A061101
 

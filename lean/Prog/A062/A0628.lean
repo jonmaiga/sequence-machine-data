@@ -30,11 +30,11 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +43,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -14233,6 +14234,29 @@ def P1882399283614407691.Spec : Prop :=
 theorem P1882399283614407691.correct : P1882399283614407691.Spec := by
   intro n
   simp only [A062882, Nat.add_sub_cancel]
+
+end A062882
+
+/-! ## A062882.P4572020774151809541
+
+`ogf((3-9x^2)/(1-3x+3x^3))`
+-/
+
+namespace A062882.P4572020774151809541
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 0, -9] [1, -3, 0, 3] n
+
+end
+
+end A062882.P4572020774151809541
+
+namespace A062882
+
+/-- `ogf((3-9x^2)/(1-3x+3x^3))` -/
+def P4572020774151809541.Spec : Prop :=
+  ∀ n, P4572020774151809541.a n = A062882 (n + 1)
 
 end A062882
 

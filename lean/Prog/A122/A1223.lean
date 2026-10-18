@@ -3,30 +3,28 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C022
+import Seq.B000.C017
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -56,7 +54,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7219,7 +7216,7 @@ end A122364.P2510538688938692075
 /-!
 # A122365: The (1,6)-entry of the matrix M^n, where M is the 6 X 6 matrix {{1, 1, 1, 1, 1, 1},{1, 0, 0, 0, 1, 0},{1, 0, 0, 1, 0, 0},{1, 0, 1, 0, 0, 0},{1, 1, 0, 0, 0, 0}, {1, 0, 0, 0, 0, 0}}.
 
-The programs for A122365, the canonical program `A122365.P8828210464506390571` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122365 has offset 0).
+The programs for A122365, the canonical program `A122365.P8828210464506390571` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122365 has offset 0).
 
 The definition of A122365 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7228,7 +7225,7 @@ The definition of A122365 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+4*a(n-2)-a(n-3)` with `a(0)=0, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A122365
@@ -7240,6 +7237,29 @@ def P8828210464506390571.Spec : Prop :=
 theorem P8828210464506390571.correct : P8828210464506390571.Spec := by
   intro n
   simp only [A122365]
+
+end A122365
+
+/-! ## A122365.P12401798371027975757
+
+`ogf((x-x^2)/(1-2x-4x^2+x^3))`
+-/
+
+namespace A122365.P12401798371027975757
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -1] [1, -2, -4, 1] n
+
+end
+
+end A122365.P12401798371027975757
+
+namespace A122365
+
+/-- `ogf((x-x^2)/(1-2x-4x^2+x^3))` -/
+def P12401798371027975757.Spec : Prop :=
+  ∀ n, P12401798371027975757.a n = A122365 n
 
 end A122365
 
@@ -7769,7 +7789,7 @@ end A122366
 /-!
 # A122367: Dimension of 3-variable non-commutative harmonics (twisted derivative) of order n. The dimension of the space of non-commutative polynomials of degree n in 3 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( xi w ) = w and d_{xi} ( xj w ) = 0 for i != j).
 
-The programs for A122367, the canonical program `A122367.P7867433205098725434` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122367 has offset 0).
+The programs for A122367, the canonical program `A122367.P7867433205098725434` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122367 has offset 0).
 
 The definition of A122367 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7778,7 +7798,7 @@ The definition of A122367 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A122367
@@ -7813,6 +7833,29 @@ namespace A122367
 /-- `A000045(2*n+1)` -/
 def P17138117868469877251.Spec : Prop :=
   ∀ n, P17138117868469877251.a n = A122367 n
+
+end A122367
+
+/-! ## A122367.P17657032004666068716
+
+`ogf((1-x)/(1-3x+x^2))`
+-/
+
+namespace A122367.P17657032004666068716
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -3, 1] n
+
+end
+
+end A122367.P17657032004666068716
+
+namespace A122367
+
+/-- `ogf((1-x)/(1-3x+x^2))` -/
+def P17657032004666068716.Spec : Prop :=
+  ∀ n, P17657032004666068716.a n = A122367 n
 
 end A122367
 
@@ -8250,6 +8293,29 @@ The programs for A122368, the canonical program `A122368.P5676242027812293193` i
 
 The definition of A122368 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A122368.P13250100651246897810
+
+`ogf((1-3x+2x^2)/(1-6x+9x^2-3x^3))`
+-/
+
+namespace A122368.P13250100651246897810
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, 2] [1, -6, 9, -3] n
+
+end
+
+end A122368.P13250100651246897810
+
+namespace A122368
+
+/-- `ogf((1-3x+2x^2)/(1-6x+9x^2-3x^3))` -/
+def P13250100651246897810.Spec : Prop :=
+  ∀ n, P13250100651246897810.a n = A122368 (n + 1)
+
+end A122368
 
 /-! ## A122368.P5676242027812293193
 
@@ -9707,7 +9773,7 @@ end A122388.P13556955573567804416
 /-!
 # A122391: Dimension of 2-variable non-commutative harmonics (Hausdorff derivative). The dimension of the space of non-commutative polynomials in 2 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( w ) = sum over all subwords of w deleting xi once).
 
-The programs for A122391, the canonical program `A122391.P14502299646733092786` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122391 has offset 0).
+The programs for A122391, the canonical program `A122391.P14502299646733092786` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122391 has offset 0).
 
 The definition of A122391 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9716,7 +9782,7 @@ The definition of A122391 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(2^(n-2))+floor(2^(n-3))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A122391
@@ -9728,6 +9794,29 @@ def P14502299646733092786.Spec : Prop :=
 theorem P14502299646733092786.correct : P14502299646733092786.Spec := by
   intro n
   simp only [A122391]
+
+end A122391
+
+/-! ## A122391.P1658265702479755713
+
+`ogf((-1+x+x^2-x^3)/(-1+2x))`
+-/
+
+namespace A122391.P1658265702479755713
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -1, 1] [1, -2] n
+
+end
+
+end A122391.P1658265702479755713
+
+namespace A122391
+
+/-- `ogf((-1+x+x^2-x^3)/(-1+2x))` -/
+def P1658265702479755713.Spec : Prop :=
+  ∀ n, P1658265702479755713.a n = A122391 n
 
 end A122391
 
@@ -10151,8 +10240,29 @@ end A122391
 /-!
 # A122392: Dimension of 3-variable non-commutative harmonics (Hausdorff derivative). The dimension of the space of non-commutative polynomials in 3 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( w ) = sum over all subwords of w deleting xi once).
 
-The programs for A122392, there is no canonical definition to state claims against.
+The programs for A122392, the canonical program `A122392.P7331985287370614680` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122392 has offset 0).
+
+The definition of A122392 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A122392.P7331985287370614680
+
+`ogf((-1+x+x^2-x^4-x^5+x^6)/(-1+3x))`
+
+The canonical program, it is in `Seq.B000.C017`.
+-/
+
+namespace A122392
+
+/-- `ogf((-1+x+x^2-x^4-x^5+x^6)/(-1+3x))` -/
+def P7331985287370614680.Spec : Prop :=
+  ∀ n, P7331985287370614680.a n = A122392 n
+
+theorem P7331985287370614680.correct : P7331985287370614680.Spec := by
+  intro n
+  simp only [A122392]
+
+end A122392
 
 /-! ## A122392.P10625147191779146202
 
@@ -10169,6 +10279,14 @@ end
 
 end A122392.P10625147191779146202
 
+namespace A122392
+
+/-- `round(A208347(n+1)/A263334(n+1))` -/
+def P10625147191779146202.Spec : Prop :=
+  ∀ n, P10625147191779146202.a n = A122392 n
+
+end A122392
+
 /-! ## A122392.P782529072815867041
 
 `A287421(a(n-1))+A257685(A257686(n))` with `a(0)=1, a(1)=2`
@@ -10183,6 +10301,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n a =>
 end
 
 end A122392.P782529072815867041
+
+namespace A122392
+
+/-- `A287421(a(n-1))+A257685(A257686(n))` -/
+def P782529072815867041.Spec : Prop :=
+  ∀ n, P782529072815867041.a n = A122392 n
+
+end A122392
 
 /-! ## A122392.P5257346471674125620
 
@@ -10199,6 +10325,14 @@ end
 
 end A122392.P5257346471674125620
 
+namespace A122392
+
+/-- `A014245(A178543(n+1))` -/
+def P5257346471674125620.Spec : Prop :=
+  ∀ n, P5257346471674125620.a n = A122392 n
+
+end A122392
+
 /-! ## A122392.P2621278896391363588
 
 `A341054(A033130(n+1))`
@@ -10213,6 +10347,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122392.P2621278896391363588
+
+namespace A122392
+
+/-- `A341054(A033130(n+1))` -/
+def P2621278896391363588.Spec : Prop :=
+  ∀ n, P2621278896391363588.a n = A122392 n
+
+end A122392
 
 /-!
 # A122393: Dimension of 4-variable non-commutative harmonics (Hausdorff derivative). The dimension of the space of non-commutative polynomials in 4 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( w ) = sum over all subwords of w deleting xi once).

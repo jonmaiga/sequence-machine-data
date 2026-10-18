@@ -131,6 +131,21 @@ def memo {α : Type} (f : ℕ → α) : ℕ → α :=
 theorem memo_apply {α : Type} (f : ℕ → α) (n : ℕ) : memo f n = f n :=
   rfl
 
+/-- The expansion of the ordinary generating function `P(x)/Q(x)`, the polynomials given by their
+coefficients (`num[i]` and `den[i]` of `x^i`) with `den[0] = 1`: from `Q(x) * ∑ a n * x^n = P(x)`,
+`a n = num[n] - ∑_{i < n} den[n - i] * a i`. `SequenceMachineLib.ogf_eq_coeff` (in
+`SequenceMachineLib.Ogf`) proves that the values are the coefficients of the power series. Unfold it with
+`ogf_apply`. -/
+def ogf (num den : List ℤ) : ℕ → ℤ :=
+  rec [] fun n a => num.getD n 0 - ∑ i ∈ Finset.range n, den.getD (n - i) 0 * a i
+
+theorem ogf_apply (num den : List ℤ) (n : ℕ) :
+    ogf num den n = num.getD n 0 - ∑ i ∈ Finset.range n, den.getD (n - i) 0 * ogf num den i := by
+  rw [ogf, rec_of_le _ _ (by simp)]
+  congr 1
+  refine Finset.sum_congr rfl fun i hi => ?_
+  simp [Finset.mem_range.mp hi]
+
 /-- Reports `ok name` when the values are the expected terms, otherwise `fail name values`. The line
 is appended to the file named by `SEQUENCE_MACHINE_CHECK_OUT` right away (the checker follows it to
 time out slow checks), or printed when it is not set. -/

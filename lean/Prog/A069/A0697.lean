@@ -16,25 +16,24 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +42,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -6234,27 +6234,50 @@ end A069744.P3360743431728444061
 /-!
 # A069745: Expansion of 1/((1-x^2)*(1-x^3)*(1-x^6)*(1-x^7)*(1-x^8)).
 
-The programs for A069745, the canonical program `A069745.P3397511923601555296` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069745 has offset 0).
+The programs for A069745, the canonical program `A069745.P13177746589081917293` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069745 has offset 0).
 
-The definition of A069745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A069745 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x^2-x^3+x^5-x^6-x^7+2x^9+2x^10-x^12+x^14-2x^16-2x^17+x^19+x^20-x^21+x^23+x^24-x^26))` (program `A069745.P13177746589081917293`, by `A069745.P13177746589081917293.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A069745.P13177746589081917293
+
+`ogf(1/(1-x^2-x^3+x^5-x^6-x^7+2x^9+2x^10-x^12+x^14-2x^16-2x^17+x^19+x^20-x^21+x^23+x^24-x^26))`
+
+The canonical program, it is in `Seq.B000.C010`.
+-/
+
+namespace A069745
+
+/-- `ogf(1/(1-x^2-x^3+x^5-x^6-x^7+2x^9+2x^10-x^12+x^14-2x^16-2x^17+x^19+x^20-x^21+x^23+x^24-x^26))` -/
+def P13177746589081917293.Spec : Prop :=
+  ∀ n, P13177746589081917293.a n = A069745 n
+
+theorem P13177746589081917293.correct : P13177746589081917293.Spec := by
+  intro n
+  simp only [A069745]
+
+end A069745
 
 /-! ## A069745.P3397511923601555296
 
 `A029292(n)+a(n-2)` with `a(0)=1, a(1)=0`
-
-The canonical program, it is in `Seq.B004.C000`.
 -/
+
+namespace A069745.P3397511923601555296
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0] fun n a =>
+  A029292 n + a (n - 2)
+
+end
+
+end A069745.P3397511923601555296
 
 namespace A069745
 
 /-- `A029292(n)+a(n-2)` -/
 def P3397511923601555296.Spec : Prop :=
   ∀ n, P3397511923601555296.a n = A069745 n
-
-theorem P3397511923601555296.correct : P3397511923601555296.Spec := by
-  intro n
-  simp only [A069745]
 
 end A069745
 
@@ -10682,6 +10705,29 @@ namespace A069778
 /-- `n/sin(acot(n+1))²+1` -/
 def P14018635747126706146.Spec : Prop :=
   ∀ n, P14018635747126706146.a n = (A069778 n : ℝ)
+
+end A069778
+
+/-! ## A069778.P17477331800695287449
+
+`ogf((1+2x+3x^2)/(1-4x+6x^2-4x^3+x^4))`
+-/
+
+namespace A069778.P17477331800695287449
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 3] [1, -4, 6, -4, 1] n
+
+end
+
+end A069778.P17477331800695287449
+
+namespace A069778
+
+/-- `ogf((1+2x+3x^2)/(1-4x+6x^2-4x^3+x^4))` -/
+def P17477331800695287449.Spec : Prop :=
+  ∀ n, P17477331800695287449.a n = A069778 n
 
 end A069778
 

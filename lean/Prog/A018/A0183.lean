@@ -3,18 +3,18 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C013
+import Seq.B000.C008
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C025
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
@@ -350,6 +350,27 @@ end
 end A018302.P13783165208396966186
 
 /-!
+# A018303: Divisors of 147.
+
+The programs for A018303, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018303.P10822048975256381829
+
+`ogf((1+3x)/(1-7x^2))`
+-/
+
+namespace A018303.P10822048975256381829
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3] [1, 0, -7] n
+
+end
+
+end A018303.P10822048975256381829
+
+/-!
 # A018304: Divisors of 148.
 
 The programs for A018304, there is no canonical definition to state claims against.
@@ -479,6 +500,21 @@ end A018305.P6394344305408272167
 The programs for A018306, there is no canonical definition to state claims against.
 -/
 
+/-! ## A018306.P633676546640521315
+
+`ogf(1/(1-2x-3x^4+6x^5))`
+-/
+
+namespace A018306.P633676546640521315
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -2, 0, 0, -3, 6] n
+
+end
+
+end A018306.P633676546640521315
+
 /-! ## A018306.P2375683522672861492
 
 `19*a(n-4)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8`
@@ -533,6 +569,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A018306.P4458132932570058504
+
+/-!
+# A018307: Divisors of 153.
+
+The programs for A018307, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018307.P12162767115116775003
+
+`ogf((-1+10x^3)/(-1+3x))`
+-/
+
+namespace A018307.P12162767115116775003
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, -10] [1, -3] n
+
+end
+
+end A018307.P12162767115116775003
 
 /-!
 # A018308: Divisors of 154.
@@ -1200,6 +1257,27 @@ end
 end A018315.P11416914173690484050
 
 /-!
+# A018316: Divisors of 171.
+
+The programs for A018316, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018316.P14406316844557885165
+
+`ogf((-1+8x^3)/(-1+3x))`
+-/
+
+namespace A018316.P14406316844557885165
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, -8] [1, -3] n
+
+end
+
+end A018316.P14406316844557885165
+
+/-!
 # A018317: Divisors of 172.
 
 The programs for A018317, there is no canonical definition to state claims against.
@@ -1360,6 +1438,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A018320.P5511114663293054705
+
+/-! ## A018320.P5864763394943284749
+
+`ogf((-1+5x^4+6x^5+10x^6)/(-1+2x))`
+-/
+
+namespace A018320.P5864763394943284749
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, 0, -5, -6, -10] [1, -2] n
+
+end
+
+end A018320.P5864763394943284749
 
 /-! ## A018320.P1311830215481513465
 
@@ -1634,6 +1727,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A018323.P6440412380592135922
+
+/-! ## A018323.P15205255402545373986
+
+`ogf((1+7x^4)/(1-2x))`
+-/
+
+namespace A018323.P15205255402545373986
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, 0, 7] [1, -2] n
+
+end
+
+end A018323.P15205255402545373986
 
 /-! ## A018323.P2396574039464267431
 
@@ -2137,6 +2245,21 @@ end
 
 end A018330.P658358285757201026
 
+/-! ## A018330.P16291295283888721393
+
+`ogf((1+2x+4x^2)/(1-7x^3))`
+-/
+
+namespace A018330.P16291295283888721393
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 4] [1, 0, 0, -7] n
+
+end
+
+end A018330.P16291295283888721393
+
 /-! ## A018330.P7174547774225981694
 
 `record[gcd(10*10*n+4, floor(n/(xor(n, n+1)+1))+1)]`
@@ -2508,6 +2631,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018333.P10551826441044399951
+
+/-!
+# A018334: Divisors of 207.
+
+The programs for A018334, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018334.P9230390182080235738
+
+`ogf(1/(1-3x+4x^3-12x^4))`
+-/
+
+namespace A018334.P9230390182080235738
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -3, 0, 4, -12] n
+
+end
+
+end A018334.P9230390182080235738
 
 /-!
 # A018335: Divisors of 208.
@@ -3352,6 +3496,21 @@ end A018343.P5285713870440017319
 The programs for A018344, there is no canonical definition to state claims against.
 -/
 
+/-! ## A018344.P16114204996133186804
+
+`ogf((-1-2x+2x^4+4x^5)/(-1+5x^2))`
+-/
+
+namespace A018344.P16114204996133186804
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 0, 0, -2, -4] [1, 0, -5] n
+
+end
+
+end A018344.P16114204996133186804
+
 /-! ## A018344.P1717342710442810434
 
 `5*a(n-2)` with `a(0)=1, a(1)=2, a(2)=5, a(3)=10, a(4)=23, a(5)=46`
@@ -3490,6 +3649,21 @@ end A018345.P14768811461220226245
 
 The programs for A018346, there is no canonical definition to state claims against.
 -/
+
+/-! ## A018346.P3793074516086982602
+
+`ogf((1+13x^4)/(1-2x))`
+-/
+
+namespace A018346.P3793074516086982602
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, 0, 13] [1, -2] n
+
+end
+
+end A018346.P3793074516086982602
 
 /-! ## A018346.P7145276104207688862
 
@@ -3864,6 +4038,27 @@ end
 end A018350.P5242260652047829472
 
 /-!
+# A018351: Divisors of 242.
+
+The programs for A018351, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018351.P17645292289279852462
+
+`ogf((1+2x)/(1-11x^2))`
+-/
+
+namespace A018351.P17645292289279852462
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, 0, -11] n
+
+end
+
+end A018351.P17645292289279852462
+
+/-!
 # A018352: Divisors of 244.
 
 The programs for A018352, there is no canonical definition to state claims against.
@@ -3883,6 +4078,27 @@ def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 4] fun n a =>
 end
 
 end A018352.P14077726377117345999
+
+/-!
+# A018353: Divisors of 245.
+
+The programs for A018353, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018353.P18069632960304191604
+
+`ogf((1+5x)/(1-7x^2))`
+-/
+
+namespace A018353.P18069632960304191604
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 5] [1, 0, -7] n
+
+end
+
+end A018353.P18069632960304191604
 
 /-!
 # A018354: Divisors of 246.
@@ -5041,6 +5257,27 @@ end
 end A018369.P11348360812250507380
 
 /-!
+# A018370: Divisors of 279.
+
+The programs for A018370, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018370.P14731437495879804992
+
+`ogf((1+4x^3)/(1-3x))`
+-/
+
+namespace A018370.P14731437495879804992
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, 4] [1, -3] n
+
+end
+
+end A018370.P14731437495879804992
+
+/-!
 # A018371: Divisors of 280.
 
 The programs for A018371, there is no canonical definition to state claims against.
@@ -5509,6 +5746,21 @@ end A018376.P1969552004275820471
 
 The programs for A018377, there is no canonical definition to state claims against.
 -/
+
+/-! ## A018377.P10250716022347354949
+
+`ogf((1+2x+4x^4+8x^5)/(1-5x^2))`
+-/
+
+namespace A018377.P10250716022347354949
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 0, 0, 4, 8] [1, 0, -5] n
+
+end
+
+end A018377.P10250716022347354949
 
 /-! ## A018377.P16218752053823868637
 
@@ -6993,6 +7245,27 @@ def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 4] fun n a =>
 end
 
 end A018397.P9464618651326448843
+
+/-!
+# A018398: Divisors of 333.
+
+The programs for A018398, there is no canonical definition to state claims against.
+-/
+
+/-! ## A018398.P6056948147566667165
+
+`ogf((1+10x^3)/(1-3x))`
+-/
+
+namespace A018398.P6056948147566667165
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 0, 10] [1, -3] n
+
+end
+
+end A018398.P6056948147566667165
 
 /-!
 # A018399: Divisors of 336.

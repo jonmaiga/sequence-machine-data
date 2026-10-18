@@ -9,24 +9,26 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,13 +56,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -176,7 +176,7 @@ end A360200.P12153326563191013274
 /-!
 # A360201: Number of induced paths in the n-ladder graph P_2 X P_n.
 
-The programs for A360201, the canonical program `A360201.P14235463326682790477` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360201 has offset 1).
+The programs for A360201, the canonical program `A360201.P14235463326682790477` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360201 has offset 1).
 
 The definition of A360201 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -185,7 +185,7 @@ The definition of A360201 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-2*a(n-2)-a(n-3)+a(n-4)` with `a(0)=1, a(1)=8, a(2)=25, a(3)=58`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360201
@@ -197,6 +197,55 @@ def P14235463326682790477.Spec : Prop :=
 theorem P14235463326682790477.correct : P14235463326682790477.Spec := by
   intro n
   simp only [A360201, Nat.add_sub_cancel]
+
+end A360201
+
+/-! ## A360201.P10954510323836425076
+
+`∑[ogf((1+5x+3x^2)/(1-2x+x^3))]`
+-/
+
+namespace A360201.P10954510323836425076
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 5, 3] [1, -2, 0, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A360201.P10954510323836425076
+
+namespace A360201
+
+/-- `∑[ogf((1+5x+3x^2)/(1-2x+x^3))]` -/
+def P10954510323836425076.Spec : Prop :=
+  ∀ n, P10954510323836425076.a n = A360201 (n + 1)
+
+end A360201
+
+/-! ## A360201.P15178641137835528806
+
+`ogf((1+5x+3x^2)/(1-3x+2x^2+x^3-x^4))`
+-/
+
+namespace A360201.P15178641137835528806
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 5, 3] [1, -3, 2, 1, -1] n
+
+end
+
+end A360201.P15178641137835528806
+
+namespace A360201
+
+/-- `ogf((1+5x+3x^2)/(1-3x+2x^2+x^3-x^4))` -/
+def P15178641137835528806.Spec : Prop :=
+  ∀ n, P15178641137835528806.a n = A360201 (n + 1)
 
 end A360201
 
@@ -3688,7 +3737,7 @@ end A360262.P18117245882834979345
 /-!
 # A360263: Determinant of the pentadiagonal symmetric nXn Toeplitz Matrix with a=3, b=c=1.
 
-The programs for A360263, the canonical program `A360263.P2883083890906611668` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360263 has offset 0).
+The programs for A360263, the canonical program `A360263.P2883083890906611668` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360263 has offset 0).
 
 The definition of A360263 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3697,7 +3746,7 @@ The definition of A360263 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+2*a(n-2)-2*a(n-3)-2*a(n-4)+a(n-5)` with `a(0)=1, a(1)=3, a(2)=8, a(3)=20, a(4)=48`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360263
@@ -3709,6 +3758,29 @@ def P2883083890906611668.Spec : Prop :=
 theorem P2883083890906611668.correct : P2883083890906611668.Spec := by
   intro n
   simp only [A360263]
+
+end A360263
+
+/-! ## A360263.P959975748049876039
+
+`ogf((1+x)/(1-2x-2x^2+2x^3+2x^4-x^5))`
+-/
+
+namespace A360263.P959975748049876039
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1] [1, -2, -2, 2, 2, -1] n
+
+end
+
+end A360263.P959975748049876039
+
+namespace A360263
+
+/-- `ogf((1+x)/(1-2x-2x^2+2x^3+2x^4-x^5))` -/
+def P959975748049876039.Spec : Prop :=
+  ∀ n, P959975748049876039.a n = A360263 n
 
 end A360263
 
@@ -3918,7 +3990,7 @@ end A360267.P8765794547464676102
 /-!
 # A360268: A version of the Josephus problem: a(n) is the surviving integer under the following elimination process. Arrange 1,2,3,...,n in a circle, increasing clockwise. Starting with i=1, delete the integer 5 places clockwise from i. Repeat, counting 5 places from the next undeleted integer, until only one integer remains.
 
-The programs for A360268, the canonical program `A360268.P8313819226898876608` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360268 has offset 1).
+The programs for A360268, the canonical program `A360268.P8313819226898876608` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360268 has offset 1).
 
 The definition of A360268 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3927,7 +3999,7 @@ The definition of A360268 is `conjectured`: the Lean definition is a formula tha
 
 `(a(n-1)+5)%(n+1)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360268
@@ -4928,7 +5000,7 @@ end A360277.P13308590233565898677
 /-!
 # A360278: Determinant of the matrix [L(j+k) + d(j,k)]_{1<=j, k<=n}, where L(n) denotes the Lucas number A000032(n), and d(j,k) is 1 or 0 according as j = k or not.
 
-The programs for A360278, the canonical program `A360278.P13616479014560564897` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360278 has offset 1).
+The programs for A360278, the canonical program `A360278.P13616479014560564897` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360278 has offset 1).
 
 The definition of A360278 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4937,7 +5009,7 @@ The definition of A360278 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-3*a(n-3)+a(n-4)` with `a(0)=4, a(1)=16, a(2)=44, a(3)=121`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360278
@@ -4978,6 +5050,29 @@ namespace A360278
 /-- `∑[∑[round(ϕ^(n+1))²]]-n` -/
 def P2739101713515551612.Spec : Prop :=
   ∀ n, P2739101713515551612.a n = A360278 (n + 1)
+
+end A360278
+
+/-! ## A360278.P11744629649458596931
+
+`ogf((4+4x-4x^2+x^3)/(1-3x+3x^3-x^4))`
+-/
+
+namespace A360278.P11744629649458596931
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 4, -4, 1] [1, -3, 0, 3, -1] n
+
+end
+
+end A360278.P11744629649458596931
+
+namespace A360278
+
+/-- `ogf((4+4x-4x^2+x^3)/(1-3x+3x^3-x^4))` -/
+def P11744629649458596931.Spec : Prop :=
+  ∀ n, P11744629649458596931.a n = A360278 (n + 1)
 
 end A360278
 
@@ -5082,7 +5177,7 @@ end A360278
 /-!
 # A360280: Squares that are the hypotenuse of a primitive Pythagorean triangle.
 
-The programs for A360280, the canonical program `A360280.P7719168232723027333` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360280 has offset 1).
+The programs for A360280, the canonical program `A360280.P7719168232723027333` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360280 has offset 1).
 
 The definition of A360280 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008846, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5091,7 +5186,7 @@ The definition of A360280 is `conditional`: the Lean definition is an OEIS formu
 
 `A008846(n+1)²`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A360280

@@ -24,7 +24,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -33,6 +33,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +45,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -80,7 +81,7 @@ import Seq.Opaque.C022
 /-!
 # A063200: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 15 ).
 
-The programs for A063200, the canonical program `A063200.P15218102957685383550` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063200 has offset 1).
+The programs for A063200, the canonical program `A063200.P15218102957685383550` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063200 has offset 1).
 
 The definition of A063200 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -89,7 +90,7 @@ The definition of A063200 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-3)+4` with `a(0)=1, a(1)=2, a(2)=4, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063200
@@ -601,7 +602,7 @@ end A063200
 /-!
 # A063201: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 18 ).
 
-The programs for A063201, the canonical program `A063201.P863168209842636781` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063201 has offset 1).
+The programs for A063201, the canonical program `A063201.P863168209842636781` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063201 has offset 1).
 
 The definition of A063201 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -610,7 +611,7 @@ The definition of A063201 is `conjectured`: the Lean definition is a formula tha
 
 `∑[gcd(2, n)+1-gcd(3, n)]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063201
@@ -1108,7 +1109,7 @@ end A063201
 /-!
 # A063202: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 22 ).
 
-The programs for A063202, the canonical program `A063202.P6595617589327715731` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063202 has offset 1).
+The programs for A063202, the canonical program `A063202.P6595617589327715731` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063202 has offset 1).
 
 The definition of A063202 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1117,7 +1118,7 @@ The definition of A063202 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+2*gcd(3, n+1)` with `a(0)=0, a(1)=3, a(2)=5`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063202
@@ -1578,7 +1579,7 @@ end A063202
 /-!
 # A063203: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 23 ).
 
-The programs for A063203, the canonical program `A063203.P6310427360662625857` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063203 has offset 1).
+The programs for A063203, the canonical program `A063203.P6310427360662625857` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063203 has offset 1).
 
 The definition of A063203 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1587,7 +1588,7 @@ The definition of A063203 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=2, a(1)=5, a(2)=9, a(3)=13, a(4)=17, a(5)=19`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063203
@@ -2022,7 +2023,7 @@ end A063203
 /-!
 # A063204: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 25 ).
 
-The programs for A063204, the canonical program `A063204.P309394886215100245` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063204 has offset 1).
+The programs for A063204, the canonical program `A063204.P309394886215100245` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063204 has offset 1).
 
 The definition of A063204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2031,7 +2032,7 @@ The definition of A063204 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=0, a(1)=3, a(2)=7, a(3)=9, a(4)=13`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063204
@@ -2498,7 +2499,7 @@ end A063204
 /-!
 # A063205: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 29 ).
 
-The programs for A063205, the canonical program `A063205.P10959968045936974589` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063205 has offset 1).
+The programs for A063205, the canonical program `A063205.P10959968045936974589` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063205 has offset 1).
 
 The definition of A063205 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2507,7 +2508,7 @@ The definition of A063205 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-3)+14` with `a(0)=2, a(1)=7, a(2)=11, a(3)=17`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063205
@@ -2980,7 +2981,7 @@ end A063205
 /-!
 # A063206: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 31 ).
 
-The programs for A063206, the canonical program `A063206.P12553831353234623464` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063206 has offset 1).
+The programs for A063206, the canonical program `A063206.P12553831353234623464` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063206 has offset 1).
 
 The definition of A063206 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2989,7 +2990,7 @@ The definition of A063206 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=2, a(1)=7, a(2)=13, a(3)=17`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063206
@@ -3099,6 +3100,58 @@ namespace A063206
 /-- `10*n-a(n-1)` -/
 def P14902676815102853393.Spec : Prop :=
   ∀ n, P14902676815102853393.a n = A063206 (n + 1)
+
+end A063206
+
+/-! ## A063206.P5129921413574237541
+
+`∑[∑[ogf((2+5x+4x^2-x^3)/(1+x))]]`
+-/
+
+namespace A063206.P5129921413574237541
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 5, 4, -1] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A063206.P5129921413574237541
+
+namespace A063206
+
+/-- `∑[∑[ogf((2+5x+4x^2-x^3)/(1+x))]]` -/
+def P5129921413574237541.Spec : Prop :=
+  ∀ n, P5129921413574237541.a n = A063206 (n + 1)
+
+end A063206
+
+/-! ## A063206.P16563475425157606565
+
+`ogf((2+5x+4x^2-x^3)/(1-x-x^2+x^3))`
+-/
+
+namespace A063206.P16563475425157606565
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 5, 4, -1] [1, -1, -1, 1] n
+
+end
+
+end A063206.P16563475425157606565
+
+namespace A063206
+
+/-- `ogf((2+5x+4x^2-x^3)/(1-x-x^2+x^3))` -/
+def P16563475425157606565.Spec : Prop :=
+  ∀ n, P16563475425157606565.a n = A063206 (n + 1)
 
 end A063206
 
@@ -3388,7 +3441,7 @@ end A063206
 /-!
 # A063207: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 33 ).
 
-The programs for A063207, the canonical program `A063207.P4152208277931986503` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063207 has offset 1).
+The programs for A063207, the canonical program `A063207.P4152208277931986503` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063207 has offset 1).
 
 The definition of A063207 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3397,7 +3450,7 @@ The definition of A063207 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=6, a(2)=8, a(3)=12, a(4)=14, a(5)=20`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063207
@@ -3858,7 +3911,7 @@ end A063207
 /-!
 # A063208: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 36 ).
 
-The programs for A063208, the canonical program `A063208.P10724846621838265583` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063208 has offset 1).
+The programs for A063208, the canonical program `A063208.P10724846621838265583` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063208 has offset 1).
 
 The definition of A063208 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3867,7 +3920,7 @@ The definition of A063208 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(xor(1, 5*n)/6)`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063208
@@ -4308,7 +4361,7 @@ end A063208
 /-!
 # A063209: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 41 ).
 
-The programs for A063209, the canonical program `A063209.P10207882519954817012` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063209 has offset 1).
+The programs for A063209, the canonical program `A063209.P10207882519954817012` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063209 has offset 1).
 
 The definition of A063209 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4317,7 +4370,7 @@ The definition of A063209 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(a(n-3))]` with `a(0)=3, a(1)=7, a(2)=6, a(3)=8, a(4)=6`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063209
@@ -4768,7 +4821,7 @@ end A063209
 /-!
 # A063210: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 42 ).
 
-The programs for A063210, the canonical program `A063210.P7966168385283118229` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063210 has offset 1).
+The programs for A063210, the canonical program `A063210.P7966168385283118229` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063210 has offset 1).
 
 The definition of A063210 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4777,7 +4830,7 @@ The definition of A063210 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*n-a(n-1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063210
@@ -5057,6 +5110,58 @@ def P6896876123794825478.Spec : Prop :=
 
 end A063210
 
+/-! ## A063210.P7915896312871233487
+
+`∑[∑[ogf((1+x+3x^2-x^3)/(1+x))]]`
+-/
+
+namespace A063210.P7915896312871233487
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 3, -1] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A063210.P7915896312871233487
+
+namespace A063210
+
+/-- `∑[∑[ogf((1+x+3x^2-x^3)/(1+x))]]` -/
+def P7915896312871233487.Spec : Prop :=
+  ∀ n, P7915896312871233487.a n = A063210 (n + 1)
+
+end A063210
+
+/-! ## A063210.P3162999878473978009
+
+`ogf((1+x+3x^2-x^3)/(1-x-x^2+x^3))`
+-/
+
+namespace A063210.P3162999878473978009
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 3, -1] [1, -1, -1, 1] n
+
+end
+
+end A063210.P3162999878473978009
+
+namespace A063210
+
+/-- `ogf((1+x+3x^2-x^3)/(1-x-x^2+x^3))` -/
+def P3162999878473978009.Spec : Prop :=
+  ∀ n, P3162999878473978009.a n = A063210 (n + 1)
+
+end A063210
+
 /-! ## A063210.P15795404533872437720
 
 `5-or(1, -a(n-2))` with `a(0)=1, a(1)=2`
@@ -5178,7 +5283,7 @@ end A063210
 /-!
 # A063211: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 43 ).
 
-The programs for A063211, the canonical program `A063211.P15192801344633485790` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063211 has offset 1).
+The programs for A063211, the canonical program `A063211.P15192801344633485790` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063211 has offset 1).
 
 The definition of A063211 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5187,7 +5292,7 @@ The definition of A063211 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=3, a(1)=10, a(2)=18, a(3)=24`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063211
@@ -5687,7 +5792,7 @@ end A063211
 /-!
 # A063212: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 44 ).
 
-The programs for A063212, the canonical program `A063212.P9405659393869729451` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063212 has offset 1).
+The programs for A063212, the canonical program `A063212.P9405659393869729451` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063212 has offset 1).
 
 The definition of A063212 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5696,7 +5801,7 @@ The definition of A063212 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=3, a(2)=3, a(3)=7, a(4)=7`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063212
@@ -6179,7 +6284,7 @@ end A063212
 /-!
 # A063213: Dimension of the space of weight 2n cuspidal newforms for Gamma_0(45).
 
-The programs for A063213, the canonical program `A063213.P12967062985369795642` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063213 has offset 1).
+The programs for A063213, the canonical program `A063213.P12967062985369795642` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063213 has offset 1).
 
 The definition of A063213 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6188,7 +6293,7 @@ The definition of A063213 is `conjectured`: the Lean definition is a formula tha
 
 `∑[5-gcd(3, n)]-1`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063213
@@ -6409,6 +6514,29 @@ namespace A063213
 /-- `∑[sqrt(dr((n²+8)²))]+n` -/
 def P2570588898784340918.Spec : Prop :=
   ∀ n, P2570588898784340918.a n = (A063213 (n + 1) : ℝ)
+
+end A063213
+
+/-! ## A063213.P6693973250123254892
+
+`ogf((1+4x+4x^2+x^3)/(1-x-x^3+x^4))`
+-/
+
+namespace A063213.P6693973250123254892
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, 4, 1] [1, -1, 0, -1, 1] n
+
+end
+
+end A063213.P6693973250123254892
+
+namespace A063213
+
+/-- `ogf((1+4x+4x^2+x^3)/(1-x-x^3+x^4))` -/
+def P6693973250123254892.Spec : Prop :=
+  ∀ n, P6693973250123254892.a n = A063213 (n + 1)
 
 end A063213
 
@@ -6646,7 +6774,7 @@ end A063213
 /-!
 # A063214: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 46 ).
 
-The programs for A063214, the canonical program `A063214.P10588406300896630407` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063214 has offset 1).
+The programs for A063214, the canonical program `A063214.P10588406300896630407` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063214 has offset 1).
 
 The definition of A063214 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6655,7 +6783,7 @@ The definition of A063214 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=6, a(2)=10, a(3)=12, a(4)=16, a(5)=22`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063214
@@ -7100,7 +7228,7 @@ end A063214
 /-!
 # A063215: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 47 ).
 
-The programs for A063215, the canonical program `A063215.P16612473911794581702` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063215 has offset 1).
+The programs for A063215, the canonical program `A063215.P16612473911794581702` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063215 has offset 1).
 
 The definition of A063215 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7109,7 +7237,7 @@ The definition of A063215 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=4, a(1)=11, a(2)=19, a(3)=27, a(4)=35, a(5)=41`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063215
@@ -7567,7 +7695,7 @@ end A063215
 /-!
 # A063216: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 49 ).
 
-The programs for A063216, the canonical program `A063216.P16832493926664578224` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063216 has offset 1).
+The programs for A063216, the canonical program `A063216.P16832493926664578224` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063216 has offset 1).
 
 The definition of A063216 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7576,7 +7704,7 @@ The definition of A063216 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=8, a(2)=14, a(3)=22, a(4)=28`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063216
@@ -8031,7 +8159,7 @@ end A063216
 /-!
 # A063217: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 50 ).
 
-The programs for A063217, the canonical program `A063217.P14881326508109598123` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063217 has offset 1).
+The programs for A063217, the canonical program `A063217.P14881326508109598123` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063217 has offset 1).
 
 The definition of A063217 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8040,7 +8168,7 @@ The definition of A063217 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=2, a(1)=5, a(2)=7, a(3)=12, a(4)=14`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063217
@@ -8522,7 +8650,7 @@ end A063217
 /-!
 # A063218: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 51 ).
 
-The programs for A063218, the canonical program `A063218.P12008912409708754126` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063218 has offset 1).
+The programs for A063218, the canonical program `A063218.P12008912409708754126` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063218 has offset 1).
 
 The definition of A063218 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8531,7 +8659,7 @@ The definition of A063218 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-3)+16` with `a(0)=3, a(1)=8, a(2)=14, a(3)=18`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063218
@@ -8646,6 +8774,32 @@ namespace A063218
 /-- `6-(sqrt(and(5, a(n-1)))-a(n-1))` -/
 def P13219725237417881756.Spec : Prop :=
   ∀ n, P13219725237417881756.a n = (A063218 (n + 1) : ℝ)
+
+end A063218
+
+/-! ## A063218.P5699199873423669259
+
+`Δ[ogf((1+2x+5x^2+5x^3+2x^4+x^5)/(1-2x+x^2-x^3+2x^4-x^5))]`
+-/
+
+namespace A063218.P5699199873423669259
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 5, 5, 2, 1] [1, -2, 1, -1, 2, -1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A063218.P5699199873423669259
+
+namespace A063218
+
+/-- `Δ[ogf((1+2x+5x^2+5x^3+2x^4+x^5)/(1-2x+x^2-x^3+2x^4-x^5))]` -/
+def P5699199873423669259.Spec : Prop :=
+  ∀ n, P5699199873423669259.a n = A063218 (n + 1)
 
 end A063218
 
@@ -8977,7 +9131,7 @@ end A063218
 /-!
 # A063219: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 53 ).
 
-The programs for A063219, the canonical program `A063219.P5256409622068863211` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063219 has offset 1).
+The programs for A063219, the canonical program `A063219.P5256409622068863211` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063219 has offset 1).
 
 The definition of A063219 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8986,7 +9140,7 @@ The definition of A063219 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-3)-a(n-4)` with `a(0)=4, a(1)=13, a(2)=21, a(3)=31, a(4)=39`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063219
@@ -9429,7 +9583,7 @@ end A063219
 /-!
 # A063220: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 55 ).
 
-The programs for A063220, the canonical program `A063220.P1165827545311593591` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063220 has offset 1).
+The programs for A063220, the canonical program `A063220.P1165827545311593591` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063220 has offset 1).
 
 The definition of A063220 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9438,7 +9592,7 @@ The definition of A063220 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(a(n-3))]` with `a(0)=3, a(1)=7, a(2)=8, a(3)=4, a(4)=8`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063220
@@ -9885,7 +10039,7 @@ end A063220
 /-!
 # A063221: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 57 ).
 
-The programs for A063221, the canonical program `A063221.P6529527685248435411` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063221 has offset 1).
+The programs for A063221, the canonical program `A063221.P6529527685248435411` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063221 has offset 1).
 
 The definition of A063221 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9894,7 +10048,7 @@ The definition of A063221 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+12` with `a(0)=3, a(1)=10, a(2)=14`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063221
@@ -10364,7 +10518,7 @@ end A063221
 /-!
 # A063222: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 58 ).
 
-The programs for A063222, the canonical program `A063222.P18006565172130122509` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063222 has offset 1).
+The programs for A063222, the canonical program `A063222.P18006565172130122509` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063222 has offset 1).
 
 The definition of A063222 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10403,7 +10557,7 @@ end A063222
 
 `a(n-3)+14` with `a(0)=2, a(1)=7, a(2)=13, a(3)=15`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063222
@@ -10575,6 +10729,32 @@ namespace A063222
 /-- `∑[a(n-3)%7]` -/
 def P6487236414161147157.Spec : Prop :=
   ∀ n, (P6487236414161147157.a n : ℤ) = A063222 (n + 1)
+
+end A063222
+
+/-! ## A063222.P8805529422245410193
+
+`Δ[ogf((1+x+5x^2+5x^3+x^4+x^5)/(1-2x+x^2-x^3+2x^4-x^5))]`
+-/
+
+namespace A063222.P8805529422245410193
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 5, 5, 1, 1] [1, -2, 1, -1, 2, -1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A063222.P8805529422245410193
+
+namespace A063222
+
+/-- `Δ[ogf((1+x+5x^2+5x^3+x^4+x^5)/(1-2x+x^2-x^3+2x^4-x^5))]` -/
+def P8805529422245410193.Spec : Prop :=
+  ∀ n, P8805529422245410193.a n = A063222 (n + 1)
 
 end A063222
 
@@ -10841,7 +11021,7 @@ end A063222
 /-!
 # A063223: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 59 ).
 
-The programs for A063223, the canonical program `A063223.P8636699475728164837` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063223 has offset 1).
+The programs for A063223, the canonical program `A063223.P8636699475728164837` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063223 has offset 1).
 
 The definition of A063223 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10850,7 +11030,7 @@ The definition of A063223 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=5, a(1)=14, a(2)=24, a(3)=34, a(4)=44, a(5)=52`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063223
@@ -11297,7 +11477,7 @@ end A063223
 /-!
 # A063224: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 60 ).
 
-The programs for A063224, the canonical program `A063224.P2851558114836419567` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063224 has offset 1).
+The programs for A063224, the canonical program `A063224.P2851558114836419567` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063224 has offset 1).
 
 The definition of A063224 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11329,7 +11509,7 @@ end A063224
 
 `a(n-1)+a(n-3)-a(n-4)` with `a(0)=0, a(1)=2, a(2)=4, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063224
@@ -11824,7 +12004,7 @@ end A063224
 /-!
 # A063225: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 62 ).
 
-The programs for A063225, the canonical program `A063225.P17139391306117208946` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063225 has offset 1).
+The programs for A063225, the canonical program `A063225.P17139391306117208946` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063225 has offset 1).
 
 The definition of A063225 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11833,7 +12013,7 @@ The definition of A063225 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+10` with `a(0)=3, a(1)=8, a(2)=12`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063225
@@ -11946,6 +12126,58 @@ namespace A063225
 /-- `10*n-a(n-1)` -/
 def P4250572565255482346.Spec : Prop :=
   ∀ n, P4250572565255482346.a n = A063225 (n + 1)
+
+end A063225
+
+/-! ## A063225.P6708158266171032896
+
+`∑[∑[ogf((3+5x+x^2+x^3)/(1+x))]]`
+-/
+
+namespace A063225.P6708158266171032896
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 5, 1, 1] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A063225.P6708158266171032896
+
+namespace A063225
+
+/-- `∑[∑[ogf((3+5x+x^2+x^3)/(1+x))]]` -/
+def P6708158266171032896.Spec : Prop :=
+  ∀ n, P6708158266171032896.a n = A063225 (n + 1)
+
+end A063225
+
+/-! ## A063225.P3912696840087263572
+
+`ogf((3+5x+x^2+x^3)/(1-x-x^2+x^3))`
+-/
+
+namespace A063225.P3912696840087263572
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 5, 1, 1] [1, -1, -1, 1] n
+
+end
+
+end A063225.P3912696840087263572
+
+namespace A063225
+
+/-- `ogf((3+5x+x^2+x^3)/(1-x-x^2+x^3))` -/
+def P3912696840087263572.Spec : Prop :=
+  ∀ n, P3912696840087263572.a n = A063225 (n + 1)
 
 end A063225
 
@@ -12237,7 +12469,7 @@ end A063225
 /-!
 # A063226: Dimension of the space of weight 2n cuspidal newforms for Gamma_0(63).
 
-The programs for A063226, the canonical program `A063226.P10617879665855353397` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063226 has offset 1).
+The programs for A063226, the canonical program `A063226.P10617879665855353397` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063226 has offset 1).
 
 The definition of A063226 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12246,7 +12478,7 @@ The definition of A063226 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*floor((n+1)/2)+6*floor(n/2)+3`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063226
@@ -12336,6 +12568,58 @@ def P3791404255732494776.Spec : Prop :=
 
 end A063226
 
+/-! ## A063226.P11078525421256024161
+
+`∑[∑[ogf((3+4x+3x^2)/(1+x))]]`
+-/
+
+namespace A063226.P11078525421256024161
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 4, 3] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A063226.P11078525421256024161
+
+namespace A063226
+
+/-- `∑[∑[ogf((3+4x+3x^2)/(1+x))]]` -/
+def P11078525421256024161.Spec : Prop :=
+  ∀ n, P11078525421256024161.a n = A063226 (n + 1)
+
+end A063226
+
+/-! ## A063226.P17235384283457997557
+
+`ogf((3+4x+3x^2)/(1-x-x^2+x^3))`
+-/
+
+namespace A063226.P17235384283457997557
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 4, 3] [1, -1, -1, 1] n
+
+end
+
+end A063226.P17235384283457997557
+
+namespace A063226
+
+/-- `ogf((3+4x+3x^2)/(1-x-x^2+x^3))` -/
+def P17235384283457997557.Spec : Prop :=
+  ∀ n, P17235384283457997557.a n = A063226 (n + 1)
+
+end A063226
+
 /-! ## A063226.P1441680381994486196
 
 `record[(n+1)²%10+n+2]`
@@ -12395,7 +12679,7 @@ end A063226
 /-!
 # A063227: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 66 ).
 
-The programs for A063227, the canonical program `A063227.P709757166809240282` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063227 has offset 1).
+The programs for A063227, the canonical program `A063227.P709757166809240282` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063227 has offset 1).
 
 The definition of A063227 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12404,7 +12688,7 @@ The definition of A063227 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=3, a(1)=4, a(2)=8, a(3)=12, a(4)=16, a(5)=16`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063227
@@ -12836,7 +13120,7 @@ end A063227
 /-!
 # A063228: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 67 ).
 
-The programs for A063228, the canonical program `A063228.P2110612994570635045` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063228 has offset 1).
+The programs for A063228, the canonical program `A063228.P2110612994570635045` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063228 has offset 1).
 
 The definition of A063228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12845,7 +13129,7 @@ The definition of A063228 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+22` with `a(0)=5, a(1)=16, a(2)=28`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063228
@@ -14018,7 +14302,7 @@ end A063230
 /-!
 # A063231: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 75 ).
 
-The programs for A063231, the canonical program `A063231.P12835314924208144101` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063231 has offset 1).
+The programs for A063231, the canonical program `A063231.P12835314924208144101` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063231 has offset 1).
 
 The definition of A063231 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14027,7 +14311,7 @@ The definition of A063231 is `conjectured`: the Lean definition is a formula tha
 
 `or(1, 7*n+3)-∑[n²%3]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063231
@@ -14500,7 +14784,7 @@ end A063231
 /-!
 # A063232: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 77 ).
 
-The programs for A063232, the canonical program `A063232.P6767471423208825915` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063232 has offset 1).
+The programs for A063232, the canonical program `A063232.P6767471423208825915` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063232 has offset 1).
 
 The definition of A063232 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14509,7 +14793,7 @@ The definition of A063232 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*n-a(n-1)` with `a(0)=5, a(1)=16`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063232
@@ -14950,7 +15234,7 @@ end A063232
 /-!
 # A063233: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 79 ).
 
-The programs for A063233, the canonical program `A063233.P15658935437451909845` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063233 has offset 1).
+The programs for A063233, the canonical program `A063233.P15658935437451909845` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063233 has offset 1).
 
 The definition of A063233 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14959,7 +15243,7 @@ The definition of A063233 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `26*n-a(n-1)` with `a(0)=6, a(1)=19`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063233
@@ -16363,7 +16647,7 @@ end A063236
 /-!
 # A063237: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 86 ).
 
-The programs for A063237, the canonical program `A063237.P7134032457122781092` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063237 has offset 1).
+The programs for A063237, the canonical program `A063237.P7134032457122781092` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063237 has offset 1).
 
 The definition of A063237 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16372,7 +16656,7 @@ The definition of A063237 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+14` with `a(0)=4, a(1)=11, a(2)=17`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063237
@@ -16872,7 +17156,7 @@ end A063237
 /-!
 # A063238: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 87 ).
 
-The programs for A063238, the canonical program `A063238.P11345210530109085450` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063238 has offset 1).
+The programs for A063238, the canonical program `A063238.P11345210530109085450` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063238 has offset 1).
 
 The definition of A063238 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16881,7 +17165,7 @@ The definition of A063238 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(a(n-3))]` with `a(0)=5, a(1)=9, a(2)=10, a(3)=8, a(4)=10`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063238
@@ -17822,7 +18106,7 @@ end A063240
 /-!
 # A063241: Dimension of the space of weight 2n cuspidal newforms for Gamma_0(90).
 
-The programs for A063241, the canonical program `A063241.P16923742261835107444` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063241 has offset 1).
+The programs for A063241, the canonical program `A063241.P16923742261835107444` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063241 has offset 1).
 
 The definition of A063241 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17831,7 +18115,7 @@ The definition of A063241 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*gcd(3, n)]-3`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063241
@@ -18027,6 +18311,58 @@ namespace A063241
 /-- `∑[a(n-3)%7]` -/
 def P5923233418850967576.Spec : Prop :=
   ∀ n, (P5923233418850967576.a n : ℤ) = A063241 (n + 1)
+
+end A063241
+
+/-! ## A063241.P7240054916778801111
+
+`∑[∑[ogf((3+2x+2x^2+3x^3)/(1+x+x^2))]]`
+-/
+
+namespace A063241.P7240054916778801111
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 2, 2, 3] [1, 1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A063241.P7240054916778801111
+
+namespace A063241
+
+/-- `∑[∑[ogf((3+2x+2x^2+3x^3)/(1+x+x^2))]]` -/
+def P7240054916778801111.Spec : Prop :=
+  ∀ n, P7240054916778801111.a n = A063241 (n + 1)
+
+end A063241
+
+/-! ## A063241.P16467690380993111766
+
+`ogf((3+2x+2x^2+3x^3)/(1-x-x^3+x^4))`
+-/
+
+namespace A063241.P16467690380993111766
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 2, 2, 3] [1, -1, 0, -1, 1] n
+
+end
+
+end A063241.P16467690380993111766
+
+namespace A063241
+
+/-- `ogf((3+2x+2x^2+3x^3)/(1-x-x^3+x^4))` -/
+def P16467690380993111766.Spec : Prop :=
+  ∀ n, P16467690380993111766.a n = A063241 (n + 1)
 
 end A063241
 
@@ -18282,7 +18618,7 @@ end A063241
 /-!
 # A063242: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 92 ).
 
-The programs for A063242, the canonical program `A063242.P2977745325607408242` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063242 has offset 1).
+The programs for A063242, the canonical program `A063242.P2977745325607408242` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063242 has offset 1).
 
 The definition of A063242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18291,7 +18627,7 @@ The definition of A063242 is `conjectured`: the Lean definition is a formula tha
 
 `2*floor(∑[gcd(3, n)/2]+n)`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063242
@@ -19214,7 +19550,7 @@ end A063244
 /-!
 # A063245: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 98 ).
 
-The programs for A063245, the canonical program `A063245.P12587339197299949899` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063245 has offset 1).
+The programs for A063245, the canonical program `A063245.P12587339197299949899` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063245 has offset 1).
 
 The definition of A063245 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19223,7 +19559,7 @@ The definition of A063245 is `conjectured`: the Lean definition is a formula tha
 
 `or(1, 7*n)+3-Δ[ceil(n²/12)]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063245
@@ -19687,7 +20023,7 @@ end A063245
 /-!
 # A063246: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 99 ).
 
-The programs for A063246, the canonical program `A063246.P15627297055228981031` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063246 has offset 1).
+The programs for A063246, the canonical program `A063246.P15627297055228981031` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063246 has offset 1).
 
 The definition of A063246 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19696,7 +20032,7 @@ The definition of A063246 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*n²%3]+or(1, 7*n)+3`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063246
@@ -20154,7 +20490,7 @@ end A063246
 /-!
 # A063247: Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 100 ).
 
-The programs for A063247, the canonical program `A063247.P12863676235286375461` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063247 has offset 1).
+The programs for A063247, the canonical program `A063247.P12863676235286375461` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063247 has offset 1).
 
 The definition of A063247 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20163,7 +20499,7 @@ The definition of A063247 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=5, a(2)=8, a(3)=11, a(4)=14`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063247
@@ -20389,6 +20725,35 @@ namespace A063247
 /-- `∑[(n²+1)%3]+ceil(3*n/2)` -/
 def P10807766720642737240.Spec : Prop :=
   ∀ n, P10807766720642737240.a n = A063247 (n + 1)
+
+end A063247
+
+/-! ## A063247.P11606734665344371941
+
+`∑[∑[ogf((1+4x+5x^2+3x^3)/(1+2x+2x^2+x^3))]]+n`
+-/
+
+namespace A063247.P11606734665344371941
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, 5, 3] [1, 2, 2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j + (n : ℤ)
+
+end
+
+end A063247.P11606734665344371941
+
+namespace A063247
+
+/-- `∑[∑[ogf((1+4x+5x^2+3x^3)/(1+2x+2x^2+x^3))]]+n` -/
+def P11606734665344371941.Spec : Prop :=
+  ∀ n, P11606734665344371941.a n = A063247 (n + 1)
 
 end A063247
 
@@ -20636,7 +21001,7 @@ end A063247
 /-!
 # A063249: Doubly hexagonal numbers.
 
-The programs for A063249, the canonical program `A063249.P2810649737606401349` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063249 has offset 0).
+The programs for A063249, the canonical program `A063249.P2810649737606401349` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063249 has offset 0).
 
 The definition of A063249 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20645,7 +21010,7 @@ The definition of A063249 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(2*n-1)*(4*n²-2*n-1)`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063249
@@ -20729,6 +21094,32 @@ namespace A063249
 /-- `C(2*C(2*n, 2), 2)` -/
 def P14407668246368951532.Spec : Prop :=
   ∀ n, (P14407668246368951532.a n : ℤ) = A063249 n
+
+end A063249
+
+/-! ## A063249.P6080530614546224728
+
+`C(∑[ogf((2x+6x^2)/(1-2x+x^2))], 2)`
+-/
+
+namespace A063249.P6080530614546224728
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 2, 6] [1, -2, 1] n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (∑ j ∈ Finset.range (n + 1), f1 j).toNat 2
+
+end
+
+end A063249.P6080530614546224728
+
+namespace A063249
+
+/-- `C(∑[ogf((2x+6x^2)/(1-2x+x^2))], 2)` -/
+def P6080530614546224728.Spec : Prop :=
+  ∀ n, (P6080530614546224728.a n : ℤ) = A063249 n
 
 end A063249
 
@@ -21083,7 +21474,7 @@ end A063249
 /-!
 # A063250: Number of binary right-rotations (iterations of A038572) to reach fixed point.
 
-The programs for A063250, the canonical program `A063250.P9111133968187368532` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063250 has offset 0).
+The programs for A063250, the canonical program `A063250.P9111133968187368532` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063250 has offset 0).
 
 The definition of A063250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21092,7 +21483,7 @@ The definition of A063250 is `conjectured`: the Lean definition is a formula tha
 
 `floor(log2(or(1, n-and(n, 2*n))))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063250
@@ -22432,7 +22823,7 @@ end A063258
 /-!
 # A063262: Eighth column (k=7) of sextinomial array A063260.
 
-The programs for A063262, the canonical program `A063262.P8795539107600880781` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063262 has offset 0).
+The programs for A063262, the canonical program `A063262.P8795539107600880781` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063262 has offset 0).
 
 The definition of A063262 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22441,7 +22832,7 @@ The definition of A063262 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[C(n+6, 5)-2]]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063262
@@ -23353,7 +23744,7 @@ end A063264
 /-!
 # A063267: Eighth column (k=7) of septinomial array A063265.
 
-The programs for A063267, the canonical program `A063267.P8729524999753635741` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063267 has offset 0).
+The programs for A063267, the canonical program `A063267.P8729524999753635741` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063267 has offset 0).
 
 The definition of A063267 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23362,7 +23753,7 @@ The definition of A063267 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[C(n+6, 5)]]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063267
@@ -23868,7 +24259,7 @@ end A063269.P13892557385320540381
 /-!
 # A063270: a(n) = 9^(2*n) + 1.
 
-The programs for A063270, the canonical program `A063270.P13187597729236919533` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063270 has offset 0).
+The programs for A063270, the canonical program `A063270.P13187597729236919533` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063270 has offset 0).
 
 The definition of A063270 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `9^(2*n)+1` (program `A063270.P13187597729236919533`, by `A063270.P13187597729236919533.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -23877,7 +24268,7 @@ The definition of A063270 is `verified`: the Lean definition is proven equivalen
 
 `9^(2*n)+1`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063270
@@ -24872,7 +25263,7 @@ end A063276.P4784960392745764325
 /-!
 # A063277: Dimension of the space of weight n cuspidal newforms for Gamma_1( 4 ).
 
-The programs for A063277, the canonical program `A063277.P16896625443768556237` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063277 has offset 2).
+The programs for A063277, the canonical program `A063277.P16896625443768556237` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063277 has offset 2).
 
 The definition of A063277 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -24881,7 +25272,7 @@ The definition of A063277 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)+a(n-6)-a(n-10)` with `a(0)=-1, a(1)=0, a(2)=0, a(3)=0, a(4)=1, a(5)=1, a(6)=2, a(7)=0, a(8)=3, a(9)=1`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063277
@@ -25789,7 +26180,7 @@ end A063280.P18213333754188264031
 /-!
 # A063281: Dimension of the space of weight n cuspidal newforms for Gamma_1( 8 ).
 
-The programs for A063281, the canonical program `A063281.P4522217296163462892` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063281 has offset 2).
+The programs for A063281, the canonical program `A063281.P4522217296163462892` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063281 has offset 2).
 
 The definition of A063281 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -25798,7 +26189,7 @@ The definition of A063281 is `conjectured`: the Lean definition is a formula tha
 
 `round(5*n/(gcd(2, n)+3))-1`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063281
@@ -27010,7 +27401,7 @@ end A063288.P18168065068264729579
 /-!
 # A063289: Dimension of the space of weight n cuspidal newforms for Gamma_1( 16 ).
 
-The programs for A063289, the canonical program `A063289.P401268230358747086` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063289 has offset 2).
+The programs for A063289, the canonical program `A063289.P401268230358747086` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063289 has offset 2).
 
 The definition of A063289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -27019,7 +27410,7 @@ The definition of A063289 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+9` with `a(0)=-1, a(1)=2, a(2)=7`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063289
@@ -27112,6 +27503,58 @@ namespace A063289
 /-- `∑[9-a(n-1)]` -/
 def P14948588128516116059.Spec : Prop :=
   ∀ n, P14948588128516116059.a n = A063289 (n + 2)
+
+end A063289
+
+/-! ## A063289.P12059416505366695346
+
+`∑[∑[ogf((-1+3x+6x^2+x^3)/(1+x))]]`
+-/
+
+namespace A063289.P12059416505366695346
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [-1, 3, 6, 1] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A063289.P12059416505366695346
+
+namespace A063289
+
+/-- `∑[∑[ogf((-1+3x+6x^2+x^3)/(1+x))]]` -/
+def P12059416505366695346.Spec : Prop :=
+  ∀ n, P12059416505366695346.a n = A063289 (n + 2)
+
+end A063289
+
+/-! ## A063289.P7245998847288832962
+
+`ogf((-1+3x+6x^2+x^3)/(1-x-x^2+x^3))`
+-/
+
+namespace A063289.P7245998847288832962
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [-1, 3, 6, 1] [1, -1, -1, 1] n
+
+end
+
+end A063289.P7245998847288832962
+
+namespace A063289
+
+/-- `ogf((-1+3x+6x^2+x^3)/(1-x-x^2+x^3))` -/
+def P7245998847288832962.Spec : Prop :=
+  ∀ n, P7245998847288832962.a n = A063289 (n + 2)
 
 end A063289
 
@@ -28133,7 +28576,7 @@ end A063296.P12282130622850601899
 /-!
 # A063297: Dimension of the space of weight n cuspidal newforms for Gamma_1( 24 ).
 
-The programs for A063297, the canonical program `A063297.P1609756068591715116` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063297 has offset 2).
+The programs for A063297, the canonical program `A063297.P1609756068591715116` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063297 has offset 2).
 
 The definition of A063297 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -28142,7 +28585,7 @@ The definition of A063297 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-4)-a(n-6)` with `a(0)=-1, a(1)=5, a(2)=12, a(3)=17, a(4)=26, a(5)=31, a(6)=40`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063297

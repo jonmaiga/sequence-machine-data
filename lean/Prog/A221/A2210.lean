@@ -13,30 +13,33 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.B003.C001
@@ -67,6 +70,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -79,7 +83,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -2335,27 +2338,50 @@ end A221048
 /-!
 # A221049: Expansion of (1+2*x+3*x^2-x^3)/((1-x)*(1+x)*(1-2*x)*(1+2*x)).
 
-The programs for A221049, the canonical program `A221049.P5415880099488371419` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221049 has offset 0).
+The programs for A221049, the canonical program `A221049.P10181825358413734047` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221049 has offset 0).
 
-The definition of A221049 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A221049 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+2x+3x^2-x^3)/(1-5x^2+4x^4))` (program `A221049.P10181825358413734047`, by `A221049.P10181825358413734047.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A221049.P10181825358413734047
+
+`ogf((1+2x+3x^2-x^3)/(1-5x^2+4x^4))`
+
+The canonical program, it is in `Seq.B000.C028`.
+-/
+
+namespace A221049
+
+/-- `ogf((1+2x+3x^2-x^3)/(1-5x^2+4x^4))` -/
+def P10181825358413734047.Spec : Prop :=
+  ∀ n, P10181825358413734047.a n = A221049 n
+
+theorem P10181825358413734047.correct : P10181825358413734047.Spec := by
+  intro n
+  simp only [A221049]
+
+end A221049
 
 /-! ## A221049.P5415880099488371419
 
 `5*a(n-2)-4*a(n-4)` with `a(0)=1, a(1)=2, a(2)=8, a(3)=9`
-
-The canonical program, it is in `Seq.B000.C026`.
 -/
+
+namespace A221049.P5415880099488371419
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 8, 9] fun n a =>
+  5 * a (n - 2) - 4 * a (n - 4)
+
+end
+
+end A221049.P5415880099488371419
 
 namespace A221049
 
 /-- `5*a(n-2)-4*a(n-4)` -/
 def P5415880099488371419.Spec : Prop :=
   ∀ n, P5415880099488371419.a n = A221049 n
-
-theorem P5415880099488371419.correct : P5415880099488371419.Spec := by
-  intro n
-  simp only [A221049]
 
 end A221049
 
@@ -4525,6 +4551,21 @@ end A221081.P967575236438659791
 The programs for A221082, there is no canonical definition to state claims against.
 -/
 
+/-! ## A221082.P14802014428633732915
+
+`ogf(2/(1-12x+9x^2))`
+-/
+
+namespace A221082.P14802014428633732915
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2] [1, -12, 9] n
+
+end
+
+end A221082.P14802014428633732915
+
 /-! ## A221082.P4052347187483820200
 
 `3*ceil((sqrt(3)+2)*a(n-1))` with `a(0)=2`
@@ -4927,7 +4968,7 @@ end A221086.P13960153671045534991
 /-!
 # A221088: Number of 2 X n arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor.
 
-The programs for A221088, the canonical program `A221088.P14214089262791962939` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221088 has offset 1).
+The programs for A221088, the canonical program `A221088.P14214089262791962939` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221088 has offset 1).
 
 The definition of A221088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4962,7 +5003,7 @@ end A221088
 
 `7*a(n-1)-7*a(n-3)+a(n-4)` with `a(0)=0, a(1)=4, a(2)=24, a(3)=169`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A221088

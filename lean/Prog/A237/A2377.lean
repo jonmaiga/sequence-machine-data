@@ -1,27 +1,30 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -72,11 +75,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A237700: Number of (n+1)X(5+1) 0..2 arrays with the maximum plus the upper median plus the lower median of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one.
@@ -1041,27 +1039,50 @@ end A237713.P12400599008004924159
 /-!
 # A237714: Expansion of (1 + x)/(1 - x^2 - 2*x^5).
 
-The programs for A237714, the canonical program `A237714.P1440997068602341775` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237714 has offset 0).
+The programs for A237714, the canonical program `A237714.P15916216827396192949` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237714 has offset 0).
 
-The definition of A237714 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A237714 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+x)/(1-x^2-2x^5))` (program `A237714.P15916216827396192949`, by `A237714.P15916216827396192949.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A237714.P15916216827396192949
+
+`ogf((1+x)/(1-x^2-2x^5))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A237714
+
+/-- `ogf((1+x)/(1-x^2-2x^5))` -/
+def P15916216827396192949.Spec : Prop :=
+  ∀ n, P15916216827396192949.a n = A237714 n
+
+theorem P15916216827396192949.correct : P15916216827396192949.Spec := by
+  intro n
+  simp only [A237714]
+
+end A237714
 
 /-! ## A237714.P1440997068602341775
 
 `2*a(n-5)+a(n-2)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1`
-
-The canonical program, it is in `Seq.B000.C027`.
 -/
+
+namespace A237714.P1440997068602341775
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 1, 1, 1, 1] fun n a =>
+  2 * a (n - 5) + a (n - 2)
+
+end
+
+end A237714.P1440997068602341775
 
 namespace A237714
 
 /-- `2*a(n-5)+a(n-2)` -/
 def P1440997068602341775.Spec : Prop :=
   ∀ n, (P1440997068602341775.a n : ℤ) = A237714 n
-
-theorem P1440997068602341775.correct : P1440997068602341775.Spec := by
-  intro n
-  simp only [A237714]
 
 end A237714
 
@@ -1085,12 +1106,6 @@ namespace A237714
 /-- `a(n-5)+a(n-2)+a(n-5)` -/
 def P9931415100821485079.Spec : Prop :=
   ∀ n, (P9931415100821485079.a n : ℤ) = A237714 n
-
-theorem P9931415100821485079.correct : P9931415100821485079.Spec := by
-  intro n
-  simp only [A237714, Nat.add_sub_cancel, A237714.P9931415100821485079.a, A237714.P1440997068602341775.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A237714
 
@@ -1184,7 +1199,7 @@ end A237715.P3883365533493193944
 /-!
 # A237716: 7-distance Pell sequence.
 
-The programs for A237716, the canonical program `A237716.P16909347021797492924` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237716 has offset 0).
+The programs for A237716, the canonical program `A237716.P16909347021797492924` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237716 has offset 0).
 
 The definition of A237716 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1193,7 +1208,7 @@ The definition of A237716 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-7)+a(n-2)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1, a(5)=1, a(6)=1`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A237716
@@ -1307,7 +1322,7 @@ end A237717.P5202001372770964501
 /-!
 # A237718: 9-distance Pell numbers.
 
-The programs for A237718, the canonical program `A237718.P6050035938280061210` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237718 has offset 0).
+The programs for A237718, the canonical program `A237718.P6050035938280061210` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237718 has offset 0).
 
 The definition of A237718 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1316,7 +1331,7 @@ The definition of A237718 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-9)+a(n-2)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1, a(5)=1, a(6)=1, a(7)=1, a(8)=1`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A237718

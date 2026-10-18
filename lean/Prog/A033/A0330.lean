@@ -13,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -24,10 +25,11 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +45,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -4081,7 +4082,7 @@ end A033029.P14827420234053594203
 /-!
 # A033030: Derangement numbers d(n,3) where d(n,k) = k(n-1)(d(n-1,k) + d(n-2,k)), with d(0,k) = 1 and d(1,k) = 0.
 
-The programs for A033030, the canonical program `A033030.P7396128720409906404` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033030 has offset 0).
+The programs for A033030, the canonical program `A033030.P7396128720409906404` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033030 has offset 0).
 
 The definition of A033030 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4090,7 +4091,7 @@ The definition of A033030 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*(n-1)*(a(n-1)+a(n-2))` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033030
@@ -8158,7 +8159,7 @@ end A033047.P7824360678786407950
 /-!
 # A033048: Sums of distinct powers of 12.
 
-The programs for A033048, the canonical program `A033048.P3932103640337682886` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033048 has offset 0).
+The programs for A033048, the canonical program `A033048.P3932103640337682886` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033048 has offset 0).
 
 The definition of A033048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8190,7 +8191,7 @@ end A033048
 
 `n%2+12*a(floor(n/2))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033048
@@ -10447,7 +10448,7 @@ end A033064.P12879573221519742993
 /-!
 # A033065: Numbers whose base-14 representation Sum_{i=0..m} d(i)*14^i has odd d(m-i) for all odd i.
 
-The programs for A033065, the canonical program `A033065.P7680621435541464055` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033065 has offset 1).
+The programs for A033065, the canonical program `A033065.P7680621435541464055` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033065 has offset 1).
 
 The definition of A033065 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10456,7 +10457,7 @@ The definition of A033065 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n, a(n-2)+1]+1` with `a(0)=1, a(1)=7, a(2)=99`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033065
@@ -12927,7 +12928,7 @@ end A033081.P676713112828639773
 /-!
 # A033082: Numbers in which all pairs of consecutive base-4 digits differ by 2.
 
-The programs for A033082, the canonical program `A033082.P9767311256148004922` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033082 has offset 1).
+The programs for A033082, the canonical program `A033082.P9767311256148004922` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033082 has offset 1).
 
 The definition of A033082 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12936,7 +12937,7 @@ The definition of A033082 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-3)+a(n-6)-4*a(n-9)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=7, a(4)=8, a(5)=13, a(6)=29, a(7)=34, a(8)=55`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033082

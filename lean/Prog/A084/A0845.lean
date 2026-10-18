@@ -18,19 +18,20 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +42,6 @@ import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -63,7 +63,6 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -1065,6 +1064,29 @@ def P1995433140387097716.Spec : Prop :=
 theorem P1995433140387097716.correct : P1995433140387097716.Spec := by
   intro n
   simp only [A084508]
+
+end A084508
+
+/-! ## A084508.P9182769685761513511
+
+`ogf((-x+2x^2+2x^3)/(-1+5x-4x^2))`
+-/
+
+namespace A084508.P9182769685761513511
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -2, -2] [1, -5, 4] n
+
+end
+
+end A084508.P9182769685761513511
+
+namespace A084508
+
+/-- `ogf((-x+2x^2+2x^3)/(-1+5x-4x^2))` -/
+def P9182769685761513511.Spec : Prop :=
+  ∀ n, P9182769685761513511.a n = A084508 n
 
 end A084508
 
@@ -2413,6 +2435,55 @@ The programs for A084518, the canonical program `A084518.P6007664406315500494` i
 The definition of A084518 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 178 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A084518.P918336466690744271
+
+`∑[ogf((-1+2x+2x^2)/(-1+3x+2x^2+2x^3))]`
+-/
+
+namespace A084518.P918336466690744271
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -2] [1, -3, -2, -2] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A084518.P918336466690744271
+
+namespace A084518
+
+/-- `∑[ogf((-1+2x+2x^2)/(-1+3x+2x^2+2x^3))]` -/
+def P918336466690744271.Spec : Prop :=
+  ∀ n, P918336466690744271.a n = A084518 (n + 1)
+
+end A084518
+
+/-! ## A084518.P16861071781649344363
+
+`ogf((1-2x-2x^2)/(1-4x+x^2+2x^4))`
+-/
+
+namespace A084518.P16861071781649344363
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -2] [1, -4, 1, 0, 2] n
+
+end
+
+end A084518.P16861071781649344363
+
+namespace A084518
+
+/-- `ogf((1-2x-2x^2)/(1-4x+x^2+2x^4))` -/
+def P16861071781649344363.Spec : Prop :=
+  ∀ n, P16861071781649344363.a n = A084518 (n + 1)
+
+end A084518
+
 /-! ## A084518.P6007664406315500494
 
 `∑[A084519(n+1)]`
@@ -2554,6 +2625,29 @@ The programs for A084519, the canonical program `A084519.P5262888105523607500` i
 
 The definition of A084519 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 178 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A084519.P5432647090619487283
+
+`ogf((-1+2x+2x^2)/(-1+3x+2x^2+2x^3))`
+-/
+
+namespace A084519.P5432647090619487283
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -2] [1, -3, -2, -2] n
+
+end
+
+end A084519.P5432647090619487283
+
+namespace A084519
+
+/-- `ogf((-1+2x+2x^2)/(-1+3x+2x^2+2x^3))` -/
+def P5432647090619487283.Spec : Prop :=
+  ∀ n, P5432647090619487283.a n = A084519 (n + 1)
+
+end A084519
 
 /-! ## A084519.P5262888105523607500
 
@@ -5266,7 +5360,7 @@ end A084544.P11591843345952586197
 /-!
 # A084545: Alternate number system in base 5.
 
-The programs for A084545, the canonical program `A084545.P4936692900307291097` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084545 has offset 1).
+The programs for A084545, the canonical program `A084545.P4936692900307291097` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084545 has offset 1).
 
 The definition of A084545 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5298,7 +5392,7 @@ end A084545
 
 `A001729(A248910(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A084545
@@ -8061,6 +8155,55 @@ def P14012229563351697277.Spec : Prop :=
 
 end A084567
 
+/-! ## A084567.P16902622405870653438
+
+`∑[ogf((1+2x)/(1+3x))]`
+-/
+
+namespace A084567.P16902622405870653438
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, 3] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A084567.P16902622405870653438
+
+namespace A084567
+
+/-- `∑[ogf((1+2x)/(1+3x))]` -/
+def P16902622405870653438.Spec : Prop :=
+  ∀ n, P16902622405870653438.a n = A084567 n
+
+end A084567
+
+/-! ## A084567.P14793718530153307754
+
+`ogf((1+2x)/(1+2x-3x^2))`
+-/
+
+namespace A084567.P14793718530153307754
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, 2, -3] n
+
+end
+
+end A084567.P14793718530153307754
+
+namespace A084567
+
+/-- `ogf((1+2x)/(1+2x-3x^2))` -/
+def P14793718530153307754.Spec : Prop :=
+  ∀ n, P14793718530153307754.a n = A084567 n
+
+end A084567
+
 /-! ## A084567.P12187291203855627506
 
 `3*(1-a(n-1))` with `a(0)=1`
@@ -8462,6 +8605,29 @@ The programs for A084568, the canonical program `A084568.P12592690392560382482` 
 
 The definition of A084568 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A084568.P5795948496271689233
+
+`ogf((1+5x+4x^2)/(1-4x^2))`
+-/
+
+namespace A084568.P5795948496271689233
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 5, 4] [1, 0, -4] n
+
+end
+
+end A084568.P5795948496271689233
+
+namespace A084568
+
+/-- `ogf((1+5x+4x^2)/(1-4x^2))` -/
+def P5795948496271689233.Spec : Prop :=
+  ∀ n, P5795948496271689233.a n = A084568 n
+
+end A084568
 
 /-! ## A084568.P12592690392560382482
 

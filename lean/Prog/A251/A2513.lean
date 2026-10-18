@@ -1,23 +1,24 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -424,7 +425,7 @@ end A251309.P5640371354940991947
 /-!
 # A251310: Number of (n+1) X (1+1) 0..1 arrays with no 2 X 2 subblock having the maximum of its diagonal elements greater than the absolute difference of its antidiagonal elements.
 
-The programs for A251310, the canonical program `A251310.P12347251958172288930` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251310 has offset 1).
+The programs for A251310, the canonical program `A251310.P12347251958172288930` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251310 has offset 1).
 
 The definition of A251310 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 255 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -433,7 +434,7 @@ The definition of A251310 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)-2*a(n-2)+2*a(n-3)-a(n-4)` with `a(0)=10, a(1)=25, a(2)=61, a(3)=149`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A251310
@@ -1164,16 +1165,39 @@ end A251318.P10703125591436231790
 /-!
 # A251319: Number of (n+1) X (1+1) 0..1 arrays with every 2 X 2 subblock having one or two 1s.
 
-The programs for A251319, the canonical program `A251319.P15527386144910276059` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251319 has offset 1).
+The programs for A251319, the canonical program `A251319.P15527386144910276059` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251319 has offset 1).
 
 The definition of A251319 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 221 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A251319.P10944370756395729245
+
+`ogf((10+8x-8x^2)/(1-2x-3x^2+2x^3))`
+-/
+
+namespace A251319.P10944370756395729245
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [10, 8, -8] [1, -2, -3, 2] n
+
+end
+
+end A251319.P10944370756395729245
+
+namespace A251319
+
+/-- `ogf((10+8x-8x^2)/(1-2x-3x^2+2x^3))` -/
+def P10944370756395729245.Spec : Prop :=
+  ∀ n, P10944370756395729245.a n = A251319 (n + 1)
+
+end A251319
 
 /-! ## A251319.P15527386144910276059
 
 `2*a(n-1)+3*a(n-2)-2*a(n-3)` with `a(0)=10, a(1)=28, a(2)=78`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A251319
@@ -1972,7 +1996,7 @@ end A251327.P16322627685581894680
 /-!
 # A251328: Number of (n+1) X (1+1) 0..2 arrays with every 2 X 2 subblock summing to 2 4 or 6.
 
-The programs for A251328, the canonical program `A251328.P11255029658957582792` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251328 has offset 1).
+The programs for A251328, the canonical program `A251328.P11255029658957582792` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251328 has offset 1).
 
 The definition of A251328 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 148 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1981,7 +2005,7 @@ The definition of A251328 is `conjectured`: the Lean definition is a formula tha
 
 `8*a(n-1)-13*a(n-2)-12*a(n-3)` with `a(0)=39, a(1)=171, a(2)=753`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A251328
@@ -4140,7 +4164,7 @@ end A251365.P8508598134324256228
 /-!
 # A251366: Number of (n+1) X (1+1) 0..2 arrays with every 2 X 2 subblock summing to 1 2 3 4 5 6 or 7.
 
-The programs for A251366, the canonical program `A251366.P15264486829170277489` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251366 has offset 1).
+The programs for A251366, the canonical program `A251366.P15264486829170277489` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251366 has offset 1).
 
 The definition of A251366 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4149,7 +4173,7 @@ The definition of A251366 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)+7*a(n-2)` with `a(0)=79, a(1)=695`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A251366
@@ -4184,6 +4208,32 @@ namespace A251366
 /-- `A254598(n+2)` -/
 def P5719234239982172803.Spec : Prop :=
   ∀ n, P5719234239982172803.a n = A251366 (n + 1)
+
+end A251366
+
+/-! ## A251366.P3401221098925094062
+
+`Δ[ogf((9+7x)/(1-9x+x^2+7x^3))]`
+-/
+
+namespace A251366.P3401221098925094062
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [9, 7] [1, -9, 1, 7] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A251366.P3401221098925094062
+
+namespace A251366
+
+/-- `Δ[ogf((9+7x)/(1-9x+x^2+7x^3))]` -/
+def P3401221098925094062.Spec : Prop :=
+  ∀ n, P3401221098925094062.a n = A251366 (n + 1)
 
 end A251366
 

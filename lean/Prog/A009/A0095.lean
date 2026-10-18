@@ -20,21 +20,22 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1544,6 +1545,29 @@ The programs for A009531, the canonical program `A009531.P3924472535853542576` i
 The definition of A009531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A009531.P503674627439780874
+
+`ogf((x+2x^2+x^3)/(1+2x^2+x^4))`
+-/
+
+namespace A009531.P503674627439780874
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 2, 1] [1, 0, 2, 0, 1] n
+
+end
+
+end A009531.P503674627439780874
+
+namespace A009531
+
+/-- `ogf((x+2x^2+x^3)/(1+2x^2+x^4))` -/
+def P503674627439780874.Spec : Prop :=
+  ∀ n, P503674627439780874.a n = A009531 n
+
+end A009531
+
 /-! ## A009531.P3924472535853542576
 
 `2*a(n-1)%2-a(n-2)` with `a(0)=0, a(1)=1`
@@ -2543,6 +2567,29 @@ namespace A009545
 /-- `A046978(n)*A016116(n)` -/
 def P1786897337133377003.Spec : Prop :=
   ∀ n, P1786897337133377003.a n = A009545 n
+
+end A009545
+
+/-! ## A009545.P148916520818040151
+
+`ogf(x/(1-2x+2x^2))`
+-/
+
+namespace A009545.P148916520818040151
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1] [1, -2, 2] n
+
+end
+
+end A009545.P148916520818040151
+
+namespace A009545
+
+/-- `ogf(x/(1-2x+2x^2))` -/
+def P148916520818040151.Spec : Prop :=
+  ∀ n, P148916520818040151.a n = A009545 n
 
 end A009545
 

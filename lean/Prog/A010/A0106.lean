@@ -1,8 +1,9 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C005
-import Seq.B000.C017
+import Seq.B000.C006
+import Seq.B000.C014
+import Seq.B000.C018
 import Seq.B001.C000
 import Seq.B002.C000
 import Seq.B002.C001

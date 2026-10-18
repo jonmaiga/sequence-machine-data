@@ -25,13 +25,14 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7393,6 +7394,29 @@ namespace A084964
 /-- `round(xor(1, abs(xor(n, -2)))/2)` -/
 def P5779963932614862.Spec : Prop :=
   ∀ n, P5779963932614862.a n = A084964 n
+
+end A084964
+
+/-! ## A084964.P8131638258046056107
+
+`ogf((2-2x+x^2)/(1-x-x^2+x^3))`
+-/
+
+namespace A084964.P8131638258046056107
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -2, 1] [1, -1, -1, 1] n
+
+end
+
+end A084964.P8131638258046056107
+
+namespace A084964
+
+/-- `ogf((2-2x+x^2)/(1-x-x^2+x^3))` -/
+def P8131638258046056107.Spec : Prop :=
+  ∀ n, P8131638258046056107.a n = A084964 n
 
 end A084964
 

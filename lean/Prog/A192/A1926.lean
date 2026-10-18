@@ -9,7 +9,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -17,17 +17,17 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -5233,7 +5233,7 @@ end A192663
 /-!
 # A192664: Floor-Sqrt transform of the binomial coefficients bin(2*n+1,n) (A001700).
 
-The programs for A192664, the canonical program `A192664.P12136774162781852709` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192664 has offset 0).
+The programs for A192664, the canonical program `A192664.P12136774162781852709` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192664 has offset 0).
 
 The definition of A192664 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5242,7 +5242,7 @@ The definition of A192664 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt(∏[4-2/(n+1)]/2))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A192664
@@ -9131,6 +9131,33 @@ namespace A192687
 /-- `char[ceil(ϕ*a(n-2))]` -/
 def P1955021156409672387.Spec : Prop :=
   ∀ n, (P1955021156409672387.a n : ℤ) = A192687 n
+
+end A192687
+
+/-! ## A192687.P7397063757995964966
+
+`char[ogf(x^2/(1-2x+x^3))]`
+-/
+
+namespace A192687.P7397063757995964966
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1] [1, -2, 0, 1] n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A192687.P7397063757995964966
+
+namespace A192687
+
+/-- `char[ogf(x^2/(1-2x+x^3))]` -/
+def P7397063757995964966.Spec : Prop :=
+  ∀ n, (P7397063757995964966.a n : ℤ) = A192687 n
 
 end A192687
 

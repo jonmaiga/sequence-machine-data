@@ -9,25 +9,29 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3786,7 +3790,7 @@ end A032262.P18324506088819689855
 /-!
 # A032263: Number of ways to partition n labeled elements into 4 pie slices allowing the pie to be turned over; number of 2-element proper antichains of an n-element set.
 
-The programs for A032263, the canonical program `A032263.P9062424155737793790` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032263 has offset 1).
+The programs for A032263, the canonical program `A032263.P9062424155737793790` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032263 has offset 1).
 
 The definition of A032263 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3795,7 +3799,7 @@ The definition of A032263 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4^(n+1)-4*3^(n+1)+6*2^(n+1)-4)/8`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032263
@@ -5071,7 +5075,7 @@ end A032278.P18303945598780397191
 /-!
 # A032279: Number of bracelets (turnover necklaces) of n beads of 2 colors, 5 of them black.
 
-The programs for A032279, the canonical program `A032279.P16514170401848741144` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032279 has offset 5).
+The programs for A032279, the canonical program `A032279.P16514170401848741144` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032279 has offset 5).
 
 The definition of A032279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5080,7 +5084,7 @@ The definition of A032279 is `conjectured`: the Lean definition is a formula tha
 
 `(ceil(C(n+4, 4)/5)+C(floor(n/2)+2, 2))/2`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032279
@@ -5504,7 +5508,7 @@ end A032281.P7866755948113346272
 /-!
 # A032282: Number of bracelets (turnover necklaces) of n beads of 2 colors, 11 of them black.
 
-The programs for A032282, the canonical program `A032282.P16459769969451444963` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032282 has offset 11).
+The programs for A032282, the canonical program `A032282.P16459769969451444963` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032282 has offset 11).
 
 The definition of A032282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5513,7 +5517,7 @@ The definition of A032282 is `conjectured`: the Lean definition is a formula tha
 
 `(ceil(C(n+10, 10)/11)+C(floor(n/2)+5, 5))/2`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032282

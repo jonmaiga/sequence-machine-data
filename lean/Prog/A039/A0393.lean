@@ -4,12 +4,12 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C006
+import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C010
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -19,12 +19,12 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C023
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B002.C000
@@ -81,7 +81,7 @@ set_option linter.unreachableTactic false
 /-!
 # A039300: Number of distinct quadratic residues mod 3^n.
 
-The programs for A039300, the canonical program `A039300.P12812337894662455855` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039300 has offset 0).
+The programs for A039300, the canonical program `A039300.P12812337894662455855` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039300 has offset 0).
 
 The definition of A039300 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -90,7 +90,7 @@ The definition of A039300 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+3*a(n-2)-3` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039300
@@ -148,6 +148,55 @@ namespace A039300
 /-- `A000224(3^n)` -/
 def P11303086123913915880.Spec : Prop :=
   ∀ n, P11303086123913915880.a n = A039300 n
+
+end A039300
+
+/-! ## A039300.P17748134575228387285
+
+`∑[ogf((-1+x+3x^2)/(-1+2x+3x^2))]`
+-/
+
+namespace A039300.P17748134575228387285
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -3] [1, -2, -3] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A039300.P17748134575228387285
+
+namespace A039300
+
+/-- `∑[ogf((-1+x+3x^2)/(-1+2x+3x^2))]` -/
+def P17748134575228387285.Spec : Prop :=
+  ∀ n, P17748134575228387285.a n = A039300 n
+
+end A039300
+
+/-! ## A039300.P16759393722597657176
+
+`ogf((-1+x+3x^2)/(-1+3x+x^2-3x^3))`
+-/
+
+namespace A039300.P16759393722597657176
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -3] [1, -3, -1, 3] n
+
+end
+
+end A039300.P16759393722597657176
+
+namespace A039300
+
+/-- `ogf((-1+x+3x^2)/(-1+3x+x^2-3x^3))` -/
+def P16759393722597657176.Spec : Prop :=
+  ∀ n, P16759393722597657176.a n = A039300 n
 
 end A039300
 
@@ -523,7 +572,7 @@ end A039300
 /-!
 # A039301: Number of distinct quadratic residues mod 4^n.
 
-The programs for A039301, the canonical program `A039301.P3691708098096914838` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039301 has offset 0).
+The programs for A039301, the canonical program `A039301.P3691708098096914838` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039301 has offset 0).
 
 The definition of A039301 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -532,7 +581,7 @@ The definition of A039301 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((4^n+10)/6)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039301
@@ -544,6 +593,55 @@ def P3691708098096914838.Spec : Prop :=
 theorem P3691708098096914838.correct : P3691708098096914838.Spec := by
   intro n
   simp only [A039301]
+
+end A039301
+
+/-! ## A039301.P8573146349209063259
+
+`∑[ogf((-1+3x+2x^2)/(-1+4x))]`
+-/
+
+namespace A039301.P8573146349209063259
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, -2] [1, -4] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A039301.P8573146349209063259
+
+namespace A039301
+
+/-- `∑[ogf((-1+3x+2x^2)/(-1+4x))]` -/
+def P8573146349209063259.Spec : Prop :=
+  ∀ n, P8573146349209063259.a n = A039301 n
+
+end A039301
+
+/-! ## A039301.P2087149102427362262
+
+`ogf((1-3x-2x^2)/(1-5x+4x^2))`
+-/
+
+namespace A039301.P2087149102427362262
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, -2] [1, -5, 4] n
+
+end
+
+end A039301.P2087149102427362262
+
+namespace A039301
+
+/-- `ogf((1-3x-2x^2)/(1-5x+4x^2))` -/
+def P2087149102427362262.Spec : Prop :=
+  ∀ n, P2087149102427362262.a n = A039301 n
 
 end A039301
 
@@ -966,7 +1064,7 @@ end A039301
 /-!
 # A039302: Number of distinct quadratic residues mod 5^n.
 
-The programs for A039302, the canonical program `A039302.P3486903712410026818` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039302 has offset 0).
+The programs for A039302, the canonical program `A039302.P3486903712410026818` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039302 has offset 0).
 
 The definition of A039302 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -975,7 +1073,7 @@ The definition of A039302 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((5^n+3)*5/12)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039302
@@ -1164,7 +1262,7 @@ end A039303
 /-!
 # A039304: Number of distinct quadratic residues mod 7^n.
 
-The programs for A039304, the canonical program `A039304.P4127415863129902853` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039304 has offset 0).
+The programs for A039304, the canonical program `A039304.P4127415863129902853` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039304 has offset 0).
 
 The definition of A039304 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1173,7 +1271,7 @@ The definition of A039304 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((7^n+3)*7/16)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039304
@@ -1214,7 +1312,7 @@ end A039304
 /-!
 # A039305: Number of distinct quadratic residues mod 8^n.
 
-The programs for A039305, the canonical program `A039305.P765320621189067048` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039305 has offset 0).
+The programs for A039305, the canonical program `A039305.P765320621189067048` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039305 has offset 0).
 
 The definition of A039305 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1223,7 +1321,7 @@ The definition of A039305 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)+a(n-2)-8*a(n-3)` with `a(0)=1, a(1)=3, a(2)=12, a(3)=87`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039305
@@ -1500,7 +1598,7 @@ end A039305
 /-!
 # A039306: Number of distinct quadratic residues mod 9^n.
 
-The programs for A039306, the canonical program `A039306.P11443132609755346583` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039306 has offset 0).
+The programs for A039306, the canonical program `A039306.P11443132609755346583` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039306 has offset 0).
 
 The definition of A039306 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1532,7 +1630,7 @@ end A039306
 
 `9*a(n-1)+a(n-2)-9*a(n-3)` with `a(0)=1, a(1)=4, a(2)=31`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039306
@@ -1596,6 +1694,29 @@ namespace A039306
 /-- `∑[abs(record[-(-3)^n])]` -/
 def P18127446766032621040.Spec : Prop :=
   ∀ n, P18127446766032621040.a n = A039306 n
+
+end A039306
+
+/-! ## A039306.P12261098446910201738
+
+`ogf((1-6x)/(1-10x+9x^2))`
+-/
+
+namespace A039306.P12261098446910201738
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -6] [1, -10, 9] n
+
+end
+
+end A039306.P12261098446910201738
+
+namespace A039306
+
+/-- `ogf((1-6x)/(1-10x+9x^2))` -/
+def P12261098446910201738.Spec : Prop :=
+  ∀ n, P12261098446910201738.a n = A039306 n
 
 end A039306
 
@@ -7271,7 +7392,7 @@ end A039395
 /-!
 # A039396: Numbers whose base-10 representation has the same nonzero number of 0's and 4's.
 
-The programs for A039396, the canonical program `A039396.P9347899248425865174` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039396 has offset 1).
+The programs for A039396, the canonical program `A039396.P9347899248425865174` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039396 has offset 1).
 
 The definition of A039396 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1382 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7280,7 +7401,7 @@ The definition of A039396 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A011534(n+1), A039115(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A039396

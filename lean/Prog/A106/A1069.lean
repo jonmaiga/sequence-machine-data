@@ -13,12 +13,13 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C028
+import Seq.B000.C017
+import Seq.B000.C019
+import Seq.B000.C022
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -26,6 +27,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -6340,7 +6342,7 @@ end A106948.P12484134970082839874
 /-!
 # A106949: Primes of the form 2x^2 + 9y^2.
 
-The programs for A106949, the canonical program `A106949.P1038574931821632341` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106949 has offset 1).
+The programs for A106949, the canonical program `A106949.P1038574931821632341` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106949 has offset 1).
 
 The definition of A106949 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6349,7 +6351,7 @@ The definition of A106949 is `conjectured`: the Lean definition is a formula tha
 
 `p?[(n+1)%3+8*n+1]`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A106949
@@ -6915,7 +6917,7 @@ end A106949
 /-!
 # A106950: Primes of the form x^2 + 18y^2.
 
-The programs for A106950, the canonical program `A106950.P17678438688107650138` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106950 has offset 1).
+The programs for A106950, the canonical program `A106950.P17678438688107650138` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106950 has offset 1).
 
 The definition of A106950 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6924,7 +6926,7 @@ The definition of A106950 is `conjectured`: the Lean definition is a formula tha
 
 `p?[xor(4, 6*n-1)]`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A106950
@@ -7598,7 +7600,7 @@ end A106951.P13111612092600613512
 /-!
 # A106952: Primes of the form 3x^2-3xy+7y^2, with x and y nonnegative.
 
-The programs for A106952, the canonical program `A106952.P11704571453125807921` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106952 has offset 1).
+The programs for A106952, the canonical program `A106952.P11704571453125807921` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106952 has offset 1).
 
 The definition of A106952 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7607,7 +7609,7 @@ The definition of A106952 is `conjectured`: the Lean definition is a formula tha
 
 `p?[a(n-4)+30]` with `a(0)=3, a(1)=7, a(2)=13, a(3)=27`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A106952
@@ -7619,6 +7621,32 @@ def P11704571453125807921.Spec : Prop :=
 theorem P11704571453125807921.correct : P11704571453125807921.Spec := by
   intro n
   simp only [A106952, Nat.add_sub_cancel]
+
+end A106952
+
+/-! ## A106952.P17015061531924106693
+
+`p?[ogf((1+2x+4x^2+5x^3+3x^4)/(1-x-x^3+x^4))]`
+-/
+
+namespace A106952.P17015061531924106693
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 4, 5, 3] [1, -1, 0, -1, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A106952.P17015061531924106693
+
+namespace A106952
+
+/-- `p?[ogf((1+2x+4x^2+5x^3+3x^4)/(1-x-x^3+x^4))]` -/
+def P17015061531924106693.Spec : Prop :=
+  ∀ n, P17015061531924106693.a n = A106952 (n + 1)
 
 end A106952
 

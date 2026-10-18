@@ -3,26 +3,24 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
+import Seq.B000.C017
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B002.C000
@@ -318,6 +316,29 @@ The programs for A037702, the canonical program `A037702.P11684367715093722818` 
 
 The definition of A037702 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037702.P10223338190471158410
+
+`ogf((1+3x+2x^3)/(1-4x-x^4+4x^5))`
+-/
+
+namespace A037702.P10223338190471158410
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, 0, 2] [1, -4, 0, 0, -1, 4] n
+
+end
+
+end A037702.P10223338190471158410
+
+namespace A037702
+
+/-- `ogf((1+3x+2x^3)/(1-4x-x^4+4x^5))` -/
+def P10223338190471158410.Spec : Prop :=
+  ∀ n, P10223338190471158410.a n = A037702 (n + 1)
+
+end A037702
 
 /-! ## A037702.P11684367715093722818
 
@@ -1230,6 +1251,29 @@ The programs for A037709, the canonical program `A037709.P13722452577715119678` 
 The definition of A037709 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A037709.P11302940829702997023
+
+`ogf((1+2x)/(1-5x+5x^2-5x^3+4x^4))`
+-/
+
+namespace A037709.P11302940829702997023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, -5, 5, -5, 4] n
+
+end
+
+end A037709.P11302940829702997023
+
+namespace A037709
+
+/-- `ogf((1+2x)/(1-5x+5x^2-5x^3+4x^4))` -/
+def P11302940829702997023.Spec : Prop :=
+  ∀ n, P11302940829702997023.a n = A037709 (n + 1)
+
+end A037709
+
 /-! ## A037709.P13722452577715119678
 
 `floor(8*4^(n+1)/17)`
@@ -1711,6 +1755,29 @@ def P14009428686437983431.Spec : Prop :=
 
 end A037710
 
+/-! ## A037710.P13454592256341945695
+
+`ogf((1+2x)/(1-6x+6x^2-6x^3+5x^4))`
+-/
+
+namespace A037710.P13454592256341945695
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, -6, 6, -6, 5] n
+
+end
+
+end A037710.P13454592256341945695
+
+namespace A037710
+
+/-- `ogf((1+2x)/(1-6x+6x^2-6x^3+5x^4))` -/
+def P13454592256341945695.Spec : Prop :=
+  ∀ n, P13454592256341945695.a n = A037710 (n + 1)
+
+end A037710
+
 /-! ## A037710.P16574817422324779669
 
 `∑[xor(5*a(n-1), gcd(2, n+1))]` with `a(0)=1`
@@ -1868,6 +1935,29 @@ The programs for A037711, the canonical program `A037711.P5672376970988767785` i
 
 The definition of A037711 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037711.P18031921424756752135
+
+`ogf((1+2x)/(1-7x+7x^2-7x^3+6x^4))`
+-/
+
+namespace A037711.P18031921424756752135
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, -7, 7, -7, 6] n
+
+end
+
+end A037711.P18031921424756752135
+
+namespace A037711
+
+/-- `ogf((1+2x)/(1-7x+7x^2-7x^3+6x^4))` -/
+def P18031921424756752135.Spec : Prop :=
+  ∀ n, P18031921424756752135.a n = A037711 (n + 1)
+
+end A037711
 
 /-! ## A037711.P17394554610660641543
 
@@ -2033,6 +2123,29 @@ def P2492734325855298356.Spec : Prop :=
 theorem P2492734325855298356.correct : P2492734325855298356.Spec := by
   intro n
   simp only [A037712, Nat.add_sub_cancel]
+
+end A037712
+
+/-! ## A037712.P17079347870178753926
+
+`ogf((1+2x)/(1-8x+8x^2-8x^3+7x^4))`
+-/
+
+namespace A037712.P17079347870178753926
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, -8, 8, -8, 7] n
+
+end
+
+end A037712.P17079347870178753926
+
+namespace A037712
+
+/-- `ogf((1+2x)/(1-8x+8x^2-8x^3+7x^4))` -/
+def P17079347870178753926.Spec : Prop :=
+  ∀ n, P17079347870178753926.a n = A037712 (n + 1)
 
 end A037712
 
@@ -2207,6 +2320,29 @@ The programs for A037713, the canonical program `A037713.P3708458375653247780` i
 
 The definition of A037713 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037713.P18308642478668122745
+
+`ogf((1+2x)/(1-9x+9x^2-9x^3+8x^4))`
+-/
+
+namespace A037713.P18308642478668122745
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, -9, 9, -9, 8] n
+
+end
+
+end A037713.P18308642478668122745
+
+namespace A037713
+
+/-- `ogf((1+2x)/(1-9x+9x^2-9x^3+8x^4))` -/
+def P18308642478668122745.Spec : Prop :=
+  ∀ n, P18308642478668122745.a n = A037713 (n + 1)
+
+end A037713
 
 /-! ## A037713.P3708458375653247780
 
@@ -2398,6 +2534,29 @@ theorem P2051866495972747522.correct : P2051866495972747522.Spec := by
 
 end A037714
 
+/-! ## A037714.P14488057192639790064
+
+`ogf((1+2x)/(1-10x+10x^2-10x^3+9x^4))`
+-/
+
+namespace A037714.P14488057192639790064
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, -10, 10, -10, 9] n
+
+end
+
+end A037714.P14488057192639790064
+
+namespace A037714
+
+/-- `ogf((1+2x)/(1-10x+10x^2-10x^3+9x^4))` -/
+def P14488057192639790064.Spec : Prop :=
+  ∀ n, P14488057192639790064.a n = A037714 (n + 1)
+
+end A037714
+
 /-! ## A037714.P9544291015215506873
 
 `∑[xor(9*a(n-1), A000034(n))]` with `a(0)=1`
@@ -2556,6 +2715,32 @@ The programs for A037715, the canonical program `A037715.P6538865440665011535` i
 The definition of A037715 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A037715.P14873552576932961412
+
+`∑[ogf((1+2x)/(1-10x+x^2-10x^3))]`
+-/
+
+namespace A037715.P14873552576932961412
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, -10, 1, -10] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A037715.P14873552576932961412
+
+namespace A037715
+
+/-- `∑[ogf((1+2x)/(1-10x+x^2-10x^3))]` -/
+def P14873552576932961412.Spec : Prop :=
+  ∀ n, P14873552576932961412.a n = A037715 (n + 1)
+
+end A037715
+
 /-! ## A037715.P6538865440665011535
 
 `A097166(n)-a(n-2)` with `a(0)=1, a(1)=13`
@@ -2622,6 +2807,29 @@ def P3278010532799000268.Spec : Prop :=
 theorem P3278010532799000268.correct : P3278010532799000268.Spec := by
   intro n
   simp only [A037716, Nat.add_sub_cancel]
+
+end A037716
+
+/-! ## A037716.P610278092653186979
+
+`ogf((2-2x+3x^2)/(1-5x+5x^2-5x^3+4x^4))`
+-/
+
+namespace A037716.P610278092653186979
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -2, 3] [1, -5, 5, -5, 4] n
+
+end
+
+end A037716.P610278092653186979
+
+namespace A037716
+
+/-- `ogf((2-2x+3x^2)/(1-5x+5x^2-5x^3+4x^4))` -/
+def P610278092653186979.Spec : Prop :=
+  ∀ n, P610278092653186979.a n = A037716 (n + 1)
 
 end A037716
 
@@ -2872,6 +3080,29 @@ The programs for A037717, the canonical program `A037717.P184041688980154751` is
 The definition of A037717 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A037717.P11281649287548323827
+
+`ogf((2-2x+3x^2)/(1-6x+6x^2-6x^3+5x^4))`
+-/
+
+namespace A037717.P11281649287548323827
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -2, 3] [1, -6, 6, -6, 5] n
+
+end
+
+end A037717.P11281649287548323827
+
+namespace A037717
+
+/-- `ogf((2-2x+3x^2)/(1-6x+6x^2-6x^3+5x^4))` -/
+def P11281649287548323827.Spec : Prop :=
+  ∀ n, P11281649287548323827.a n = A037717 (n + 1)
+
+end A037717
+
 /-! ## A037717.P184041688980154751
 
 `∑[xor(5*a(n-1), gcd(2, n+1))]` with `a(0)=2`
@@ -3045,6 +3276,32 @@ The programs for A037718, the canonical program `A037718.P5498483775677250731` i
 
 The definition of A037718 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037718.P18262328731123382860
+
+`∑[ogf((2-2x+3x^2)/(1-6x+x^2-6x^3))]`
+-/
+
+namespace A037718.P18262328731123382860
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -2, 3] [1, -6, 1, -6] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A037718.P18262328731123382860
+
+namespace A037718
+
+/-- `∑[ogf((2-2x+3x^2)/(1-6x+x^2-6x^3))]` -/
+def P18262328731123382860.Spec : Prop :=
+  ∀ n, P18262328731123382860.a n = A037718 (n + 1)
+
+end A037718
 
 /-! ## A037718.P5498483775677250731
 
@@ -7942,6 +8199,29 @@ The programs for A037751, the canonical program `A037751.P9658641866506101768` i
 The definition of A037751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A037751.P2153075342136443245
+
+`ogf((2+x)/(1-5x+5x^2-5x^3+4x^4))`
+-/
+
+namespace A037751.P2153075342136443245
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1] [1, -5, 5, -5, 4] n
+
+end
+
+end A037751.P2153075342136443245
+
+namespace A037751
+
+/-- `ogf((2+x)/(1-5x+5x^2-5x^3+4x^4))` -/
+def P2153075342136443245.Spec : Prop :=
+  ∀ n, P2153075342136443245.a n = A037751 (n + 1)
+
+end A037751
+
 /-! ## A037751.P9658641866506101768
 
 `floor(12*4^(n+1)/17)`
@@ -8182,6 +8462,29 @@ The programs for A037752, the canonical program `A037752.P8103894507674030329` i
 The definition of A037752 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A037752.P9858429477289651252
+
+`ogf((2+x)/(1-6x+6x^2-6x^3+5x^4))`
+-/
+
+namespace A037752.P9858429477289651252
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1] [1, -6, 6, -6, 5] n
+
+end
+
+end A037752.P9858429477289651252
+
+namespace A037752
+
+/-- `ogf((2+x)/(1-6x+6x^2-6x^3+5x^4))` -/
+def P9858429477289651252.Spec : Prop :=
+  ∀ n, P9858429477289651252.a n = A037752 (n + 1)
+
+end A037752
+
 /-! ## A037752.P8103894507674030329
 
 `∑[xor(5*a(n-1), gcd(2, n))]` with `a(0)=2`
@@ -8335,6 +8638,29 @@ The programs for A037753, the canonical program `A037753.P10507737516097663728` 
 
 The definition of A037753 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037753.P9579834792944151264
+
+`ogf((2+x)/(1-7x+7x^2-7x^3+6x^4))`
+-/
+
+namespace A037753.P9579834792944151264
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1] [1, -7, 7, -7, 6] n
+
+end
+
+end A037753.P9579834792944151264
+
+namespace A037753
+
+/-- `ogf((2+x)/(1-7x+7x^2-7x^3+6x^4))` -/
+def P9579834792944151264.Spec : Prop :=
+  ∀ n, P9579834792944151264.a n = A037753 (n + 1)
+
+end A037753
 
 /-! ## A037753.P10507737516097663728
 
@@ -8529,6 +8855,29 @@ namespace A037754
 /-- `1/2*floor(7^(n+2)/10)` -/
 def P7267400131852324924.Spec : Prop :=
   ∀ n, P7267400131852324924.a n = (A037754 (n + 1) : ℚ)
+
+end A037754
+
+/-! ## A037754.P1927570692522190938
+
+`ogf((2+x)/(1-8x+8x^2-8x^3+7x^4))`
+-/
+
+namespace A037754.P1927570692522190938
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1] [1, -8, 8, -8, 7] n
+
+end
+
+end A037754.P1927570692522190938
+
+namespace A037754
+
+/-- `ogf((2+x)/(1-8x+8x^2-8x^3+7x^4))` -/
+def P1927570692522190938.Spec : Prop :=
+  ∀ n, P1927570692522190938.a n = A037754 (n + 1)
 
 end A037754
 
@@ -8735,6 +9084,29 @@ The programs for A037755, the canonical program `A037755.P7336961172836670918` i
 
 The definition of A037755 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037755.P5849466138170986149
+
+`ogf((2+x)/(1-9x+9x^2-9x^3+8x^4))`
+-/
+
+namespace A037755.P5849466138170986149
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1] [1, -9, 9, -9, 8] n
+
+end
+
+end A037755.P5849466138170986149
+
+namespace A037755
+
+/-- `ogf((2+x)/(1-9x+9x^2-9x^3+8x^4))` -/
+def P5849466138170986149.Spec : Prop :=
+  ∀ n, P5849466138170986149.a n = A037755 (n + 1)
+
+end A037755
 
 /-! ## A037755.P16163485529209125478
 
@@ -8956,6 +9328,29 @@ The programs for A037756, the canonical program `A037756.P3057694834929139515` i
 The definition of A037756 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A037756.P7293180882690310681
+
+`ogf((2+x)/(1-10x+10x^2-10x^3+9x^4))`
+-/
+
+namespace A037756.P7293180882690310681
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1] [1, -10, 10, -10, 9] n
+
+end
+
+end A037756.P7293180882690310681
+
+namespace A037756
+
+/-- `ogf((2+x)/(1-10x+10x^2-10x^3+9x^4))` -/
+def P7293180882690310681.Spec : Prop :=
+  ∀ n, P7293180882690310681.a n = A037756 (n + 1)
+
+end A037756
+
 /-! ## A037756.P3057694834929139515
 
 `∑[xor(9*a(n-1), gcd(2, n))]` with `a(0)=2`
@@ -9155,6 +9550,32 @@ The programs for A037757, the canonical program `A037757.P10587528599043428428` 
 
 The definition of A037757 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037757.P1872515089569797259
+
+`∑[ogf((2+x)/(1-10x+x^2-10x^3))]`
+-/
+
+namespace A037757.P1872515089569797259
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1] [1, -10, 1, -10] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A037757.P1872515089569797259
+
+namespace A037757
+
+/-- `∑[ogf((2+x)/(1-10x+x^2-10x^3))]` -/
+def P1872515089569797259.Spec : Prop :=
+  ∀ n, P1872515089569797259.a n = A037757 (n + 1)
+
+end A037757
 
 /-! ## A037757.P10587528599043428428
 
@@ -11543,6 +11964,29 @@ The programs for A037772, the canonical program `A037772.P9884123058879105941` i
 The definition of A037772 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A037772.P14807377787777182358
+
+`ogf((3-2x+2x^2)/(1-5x+5x^2-5x^3+4x^4))`
+-/
+
+namespace A037772.P14807377787777182358
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -2, 2] [1, -5, 5, -5, 4] n
+
+end
+
+end A037772.P14807377787777182358
+
+namespace A037772
+
+/-- `ogf((3-2x+2x^2)/(1-5x+5x^2-5x^3+4x^4))` -/
+def P14807377787777182358.Spec : Prop :=
+  ∀ n, P14807377787777182358.a n = A037772 (n + 1)
+
+end A037772
+
 /-! ## A037772.P9884123058879105941
 
 `xor(a(n-1)+3*or(1, a(n-1)), and(1, n))` with `a(0)=3`
@@ -11783,6 +12227,29 @@ The programs for A037773, the canonical program `A037773.P9980543157049036755` i
 The definition of A037773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A037773.P5999844987860680710
+
+`ogf((3-2x+2x^2)/(1-6x+6x^2-6x^3+5x^4))`
+-/
+
+namespace A037773.P5999844987860680710
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -2, 2] [1, -6, 6, -6, 5] n
+
+end
+
+end A037773.P5999844987860680710
+
+namespace A037773
+
+/-- `ogf((3-2x+2x^2)/(1-6x+6x^2-6x^3+5x^4))` -/
+def P5999844987860680710.Spec : Prop :=
+  ∀ n, P5999844987860680710.a n = A037773 (n + 1)
+
+end A037773
+
 /-! ## A037773.P9980543157049036755
 
 `∑[xor(5*a(n-1), gcd(2, n+1))]` with `a(0)=3`
@@ -11962,6 +12429,32 @@ The programs for A037774, the canonical program `A037774.P1186075867567179161` i
 
 The definition of A037774 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037774.P158464869075733047
+
+`∑[ogf((3-2x+2x^2)/(1-6x+x^2-6x^3))]`
+-/
+
+namespace A037774.P158464869075733047
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -2, 2] [1, -6, 1, -6] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A037774.P158464869075733047
+
+namespace A037774
+
+/-- `∑[ogf((3-2x+2x^2)/(1-6x+x^2-6x^3))]` -/
+def P158464869075733047.Spec : Prop :=
+  ∀ n, P158464869075733047.a n = A037774 (n + 1)
+
+end A037774
 
 /-! ## A037774.P17877255489239402916
 
@@ -13580,6 +14073,29 @@ theorem P2623075195376458617.correct : P2623075195376458617.Spec := by
 
 end A037786
 
+/-! ## A037786.P5389304435461689443
+
+`ogf((3-x+x^2)/(1-5x+5x^2-5x^3+4x^4))`
+-/
+
+namespace A037786.P5389304435461689443
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -1, 1] [1, -5, 5, -5, 4] n
+
+end
+
+end A037786.P5389304435461689443
+
+namespace A037786
+
+/-- `ogf((3-x+x^2)/(1-5x+5x^2-5x^3+4x^4))` -/
+def P5389304435461689443.Spec : Prop :=
+  ∀ n, P5389304435461689443.a n = A037786 (n + 1)
+
+end A037786
+
 /-! ## A037786.P14050899675598443167
 
 `xor(∑[4*a(n-1)], A037751(n+1))` with `a(0)=1`
@@ -13820,6 +14336,29 @@ theorem P4328001275724265141.correct : P4328001275724265141.Spec := by
 
 end A037787
 
+/-! ## A037787.P10850905476749086160
+
+`ogf((3-x+x^2)/(1-6x+6x^2-6x^3+5x^4))`
+-/
+
+namespace A037787.P10850905476749086160
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -1, 1] [1, -6, 6, -6, 5] n
+
+end
+
+end A037787.P10850905476749086160
+
+namespace A037787
+
+/-- `ogf((3-x+x^2)/(1-6x+6x^2-6x^3+5x^4))` -/
+def P10850905476749086160.Spec : Prop :=
+  ∀ n, P10850905476749086160.a n = A037787 (n + 1)
+
+end A037787
+
 /-! ## A037787.P1794731199831299196
 
 `∑[xor(5*a(n-1), gcd(2, n))]` with `a(0)=3`
@@ -13971,6 +14510,32 @@ The programs for A037788, the canonical program `A037788.P16633097577509408614` 
 
 The definition of A037788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A037788.P4737600042337455238
+
+`∑[ogf((3-x+x^2)/(1-6x+x^2-6x^3))]`
+-/
+
+namespace A037788.P4737600042337455238
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -1, 1] [1, -6, 1, -6] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A037788.P4737600042337455238
+
+namespace A037788
+
+/-- `∑[ogf((3-x+x^2)/(1-6x+x^2-6x^3))]` -/
+def P4737600042337455238.Spec : Prop :=
+  ∀ n, P4737600042337455238.a n = A037788 (n + 1)
+
+end A037788
 
 /-! ## A037788.P13717075378255552051
 

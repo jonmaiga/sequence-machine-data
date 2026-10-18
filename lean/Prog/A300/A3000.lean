@@ -2,30 +2,27 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,7 +33,6 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -3296,7 +3292,7 @@ end A300066.P2193672740008900156
 /-!
 # A300067: Period 6: repeat [0, 0, 0, 1, 2, 2].
 
-The programs for A300067, the canonical program `A300067.P601184407983145020` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300067 has offset 0).
+The programs for A300067, the canonical program `A300067.P601184407983145020` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300067 has offset 0).
 
 The definition of A300067 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3305,7 +3301,7 @@ The definition of A300067 is `conjectured`: the Lean definition is a formula tha
 
 `val((n%6)!², 12)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A300067
@@ -3881,7 +3877,7 @@ end A300068
 /-!
 # A300069: Period 6: repeat [0, 0, 0, 1, 2, 1].
 
-The programs for A300069, the canonical program `A300069.P14189132953499515225` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300069 has offset 0).
+The programs for A300069, the canonical program `A300069.P14189132953499515225` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300069 has offset 0).
 
 The definition of A300069 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3890,7 +3886,7 @@ The definition of A300069 is `conjectured`: the Lean definition is a formula tha
 
 `C(2, (n+3)%6)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A300069
@@ -3908,7 +3904,7 @@ end A300069
 /-!
 # A300075: Period 6: repeat [0, 1, 1, 2, 2, 2].
 
-The programs for A300075, the canonical program `A300075.P12895150144055741171` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300075 has offset 0).
+The programs for A300075, the canonical program `A300075.P12895150144055741171` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300075 has offset 0).
 
 The definition of A300075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3917,7 +3913,7 @@ The definition of A300075 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(n%6))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A300075
@@ -4495,7 +4491,7 @@ end A300076
 /-!
 # A300077: Decimal expansion of Pi/2 truncated to n places.
 
-The programs for A300077, the canonical program `A300077.P16431319336194267716` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300077 has offset 1).
+The programs for A300077, the canonical program `A300077.P16431319336194267716` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300077 has offset 1).
 
 The definition of A300077 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4504,7 +4500,7 @@ The definition of A300077 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(1/2*π*10^n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A300077

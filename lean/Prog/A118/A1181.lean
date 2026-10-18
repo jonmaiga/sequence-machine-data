@@ -18,17 +18,18 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1065,7 +1066,7 @@ end A118107.P14420462499654571437
 /-!
 # A118108: Decimal representation of n-th iteration of the Rule 54 elementary cellular automaton starting with a single black cell.
 
-The programs for A118108, the canonical program `A118108.P7232379812669987455` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118108 has offset 0).
+The programs for A118108, the canonical program `A118108.P7232379812669987455` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118108 has offset 0).
 
 The definition of A118108 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1074,7 +1075,7 @@ The definition of A118108 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*a(n-2)-16*a(n-4)` with `a(0)=1, a(1)=7, a(2)=17, a(3)=119`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A118108
@@ -3528,7 +3529,7 @@ end A118118.P3840864906830248244
 /-!
 # A118120: Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+17)^2 = y^2.
 
-The programs for A118120, the canonical program `A118120.P13724231124771855263` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118120 has offset 0).
+The programs for A118120, the canonical program `A118120.P13724231124771855263` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118120 has offset 0).
 
 The definition of A118120 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3537,7 +3538,7 @@ The definition of A118120 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-3)-a(n-6)+34` with `a(0)=0, a(1)=7, a(2)=28, a(3)=51, a(4)=88, a(5)=207`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A118120
@@ -5154,7 +5155,7 @@ end A118134.P5335157097494125538
 /-!
 # A118136: a(n) = 2 + (2*n! mod n+1).
 
-The programs for A118136, the canonical program `A118136.P17713694252736912357` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118136 has offset 0).
+The programs for A118136, the canonical program `A118136.P17713694252736912357` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118136 has offset 0).
 
 The definition of A118136 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5163,7 +5164,7 @@ The definition of A118136 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*n!)%(n+1)+2`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A118136
@@ -6846,7 +6847,7 @@ end A118139
 /-!
 # A118140: Index of A005846(n) in the primes.
 
-The programs for A118140, the canonical program `A118140.P16544364364209257436` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118140 has offset 1).
+The programs for A118140, the canonical program `A118140.P16544364364209257436` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118140 has offset 1).
 
 The definition of A118140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 221 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6878,7 +6879,7 @@ end A118140
 
 `A000720(p?[n²+41+n])`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A118140
@@ -8053,7 +8054,7 @@ end A118170.P600293792304967702
 /-!
 # A118171: Decimal representation of n-th iteration of the Rule 158 elementary cellular automaton starting with a single black cell.
 
-The programs for A118171, the canonical program `A118171.P4464571241303989112` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118171 has offset 0).
+The programs for A118171, the canonical program `A118171.P4464571241303989112` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118171 has offset 0).
 
 The definition of A118171 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8062,7 +8063,7 @@ The definition of A118171 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*a(n-2)-16*a(n-4)` with `a(0)=1, a(1)=7, a(2)=29, a(3)=115`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A118171
@@ -8126,7 +8127,7 @@ end A118171
 /-!
 # A118173: Decimal representation of n-th iteration of the Rule 188 elementary cellular automaton starting with a single black cell.
 
-The programs for A118173, the canonical program `A118173.P6148682795760503975` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118173 has offset 0).
+The programs for A118173, the canonical program `A118173.P6148682795760503975` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118173 has offset 0).
 
 The definition of A118173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8135,7 +8136,7 @@ The definition of A118173 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+16*a(n-4)-16*a(n-6)` with `a(0)=1, a(1)=3, a(2)=5, a(3)=15, a(4)=29, a(5)=55`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A118173
@@ -8352,7 +8353,7 @@ end A118174.P10397464482216659696
 /-!
 # A118175: Binary representation of n-th iteration of the Rule 220 elementary cellular automaton starting with a single black cell.
 
-The programs for A118175, the canonical program `A118175.P8288483454984530262` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118175 has offset 0).
+The programs for A118175, the canonical program `A118175.P8288483454984530262` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118175 has offset 0).
 
 The definition of A118175 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8361,7 +8362,7 @@ The definition of A118175 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(sqrt(n+1))-floor(sqrt(n))`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A118175

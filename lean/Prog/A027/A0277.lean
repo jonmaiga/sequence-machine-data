@@ -12,6 +12,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -23,19 +24,21 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -12302,7 +12305,7 @@ end A027772
 /-!
 # A027773: a(n) = (n+1)*binomial(n+1,13).
 
-The programs for A027773, the canonical program `A027773.P4718584126358528767` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027773 has offset 12).
+The programs for A027773, the canonical program `A027773.P4718584126358528767` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027773 has offset 12).
 
 The definition of A027773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12311,7 +12314,7 @@ The definition of A027773 is `conjectured`: the Lean definition is a formula tha
 
 `(n+13)*A010966(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027773
@@ -12505,7 +12508,7 @@ end A027773
 /-!
 # A027774: a(n) = (n+1)*binomial(n+1,14).
 
-The programs for A027774, the canonical program `A027774.P1991156619429813314` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027774 has offset 13).
+The programs for A027774, the canonical program `A027774.P1991156619429813314` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027774 has offset 13).
 
 The definition of A027774 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12514,7 +12517,7 @@ The definition of A027774 is `conjectured`: the Lean definition is a formula tha
 
 `(n+14)*A010967(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027774
@@ -12705,7 +12708,7 @@ end A027774
 /-!
 # A027775: a(n) = (n+1)*binomial(n+1, 15).
 
-The programs for A027775, the canonical program `A027775.P15074907105381892053` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027775 has offset 14).
+The programs for A027775, the canonical program `A027775.P15074907105381892053` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027775 has offset 14).
 
 The definition of A027775 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12714,7 +12717,7 @@ The definition of A027775 is `conjectured`: the Lean definition is a formula tha
 
 `(n+15)*A010968(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027775
@@ -12833,7 +12836,7 @@ end A027775
 /-!
 # A027776: a(n) = (n+1)*binomial(n+1,16).
 
-The programs for A027776, the canonical program `A027776.P6507172424760947143` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027776 has offset 15).
+The programs for A027776, the canonical program `A027776.P6507172424760947143` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027776 has offset 15).
 
 The definition of A027776 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12842,7 +12845,7 @@ The definition of A027776 is `conjectured`: the Lean definition is a formula tha
 
 `(n+16)*A010969(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027776
@@ -12987,7 +12990,7 @@ end A027776
 /-!
 # A027777: a(n) = 2*(n+1)*binomial(n+2,4).
 
-The programs for A027777, the canonical program `A027777.P16948283236880585242` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027777 has offset 2).
+The programs for A027777, the canonical program `A027777.P16948283236880585242` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027777 has offset 2).
 
 The definition of A027777 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12996,7 +12999,7 @@ The definition of A027777 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A006411(n+1)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027777
@@ -14419,7 +14422,7 @@ end A027781
 /-!
 # A027782: a(n) = 9*(n+1)*binomial(n+2,9)/2.
 
-The programs for A027782, the canonical program `A027782.P7584284708830870834` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027782 has offset 7).
+The programs for A027782, the canonical program `A027782.P7584284708830870834` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027782 has offset 7).
 
 The definition of A027782 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14428,7 +14431,7 @@ The definition of A027782 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(n+8)*A000581(n+8)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027782
@@ -14544,7 +14547,7 @@ end A027782
 /-!
 # A027783: a(n) = 5*(n+1)*binomial(n+2,10).
 
-The programs for A027783, the canonical program `A027783.P9793585078458421461` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027783 has offset 8).
+The programs for A027783, the canonical program `A027783.P9793585078458421461` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027783 has offset 8).
 
 The definition of A027783 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14553,7 +14556,7 @@ The definition of A027783 is `conjectured`: the Lean definition is a formula tha
 
 `5*(n+9)*A001287(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027783
@@ -14692,7 +14695,7 @@ end A027783
 /-!
 # A027784: a(n) = 11*(n+1)*binomial(n+2,11)/2.
 
-The programs for A027784, the canonical program `A027784.P1369968411224652222` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027784 has offset 9).
+The programs for A027784, the canonical program `A027784.P1369968411224652222` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027784 has offset 9).
 
 The definition of A027784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14724,7 +14727,7 @@ end A027784
 
 `A000217(n+10)*A001287(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027784
@@ -14817,7 +14820,7 @@ end A027784
 /-!
 # A027785: a(n) = 6*(n+1)*binomial(n+2,12).
 
-The programs for A027785, the canonical program `A027785.P14619433608447816588` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027785 has offset 10).
+The programs for A027785, the canonical program `A027785.P14619433608447816588` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027785 has offset 10).
 
 The definition of A027785 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14826,7 +14829,7 @@ The definition of A027785 is `conjectured`: the Lean definition is a formula tha
 
 `6*(A027772(n)-A010965(n))`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027785
@@ -15332,7 +15335,7 @@ end A027788
 /-!
 # A027789: a(n) = 2*(n+1)*binomial(n+3,4).
 
-The programs for A027789, the canonical program `A027789.P4505283139998274207` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027789 has offset 1).
+The programs for A027789, the canonical program `A027789.P4505283139998274207` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027789 has offset 1).
 
 The definition of A027789 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15341,7 +15344,7 @@ The definition of A027789 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A006470(n+1)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027789
@@ -16178,7 +16181,7 @@ end A027790
 /-!
 # A027791: a(n) = 5*(n+1)*binomial(n+3,6).
 
-The programs for A027791, the canonical program `A027791.P18002088596776458373` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027791 has offset 3).
+The programs for A027791, the canonical program `A027791.P18002088596776458373` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027791 has offset 3).
 
 The definition of A027791 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16187,7 +16190,7 @@ The definition of A027791 is `conjectured`: the Lean definition is a formula tha
 
 `(n+4)*∑[∑[A154286(n)]]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027791
@@ -16595,7 +16598,7 @@ end A027792
 /-!
 # A027793: a(n) = 28*(n+1)*binomial(n+3,8)/3.
 
-The programs for A027793, the canonical program `A027793.P1317553103252223054` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027793 has offset 5).
+The programs for A027793, the canonical program `A027793.P1317553103252223054` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027793 has offset 5).
 
 The definition of A027793 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16604,7 +16607,7 @@ The definition of A027793 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A027792(n+4)+A027780(n+5)]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A027793

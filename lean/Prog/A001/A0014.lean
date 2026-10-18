@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -27,15 +26,16 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -59,7 +59,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -588,7 +587,7 @@ end A001400
 /-!
 # A001401: Number of partitions of n into at most 5 parts.
 
-The programs for A001401, the canonical program `A001401.P12728375563230237513` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001401 has offset 0).
+The programs for A001401, the canonical program `A001401.P12728375563230237513` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001401 has offset 0).
 
 The definition of A001401 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A026811, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -597,7 +596,7 @@ The definition of A001401 is `conditional`: the Lean definition is an OEIS formu
 
 `A001400(n)+A026811(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A001401
@@ -1070,7 +1069,7 @@ end A001401
 /-!
 # A001402: Number of partitions of n into at most 6 parts.
 
-The programs for A001402, the canonical program `A001402.P12217424370709294362` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001402 has offset 0).
+The programs for A001402, the canonical program `A001402.P12217424370709294362` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001402 has offset 0).
 
 The definition of A001402 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1079,7 +1078,7 @@ The definition of A001402 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A037145(n)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A001402
@@ -4750,6 +4749,29 @@ theorem P8713415588681568015.correct : P8713415588681568015.Spec := by
 
 end A001444
 
+/-! ## A001444.P4072701175118393807
+
+`ogf((-1+x+3x^2)/(-1+3x+3x^2-9x^3))`
+-/
+
+namespace A001444.P4072701175118393807
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -3] [1, -3, -3, 9] n
+
+end
+
+end A001444.P4072701175118393807
+
+namespace A001444
+
+/-- `ogf((-1+x+3x^2)/(-1+3x+3x^2-9x^3))` -/
+def P4072701175118393807.Spec : Prop :=
+  ∀ n, P4072701175118393807.a n = A001444 n
+
+end A001444
+
 /-! ## A001444.P15162905075573263210
 
 `3^(n-1)+3*a(n-2)` with `a(0)=1, a(1)=2`
@@ -5235,6 +5257,29 @@ namespace A001445
 /-- `1/2*A005418(n+4)` -/
 def P9034315502453941767.Spec : Prop :=
   ∀ n, P9034315502453941767.a n = (A001445 (n + 2) : ℚ)
+
+end A001445
+
+/-! ## A001445.P16201530257683848447
+
+`ogf((-3+x+6x^2)/(-1+2x+2x^2-4x^3))`
+-/
+
+namespace A001445.P16201530257683848447
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -1, -6] [1, -2, -2, 4] n
+
+end
+
+end A001445.P16201530257683848447
+
+namespace A001445
+
+/-- `ogf((-3+x+6x^2)/(-1+2x+2x^2-4x^3))` -/
+def P16201530257683848447.Spec : Prop :=
+  ∀ n, P16201530257683848447.a n = A001445 (n + 2)
 
 end A001445
 

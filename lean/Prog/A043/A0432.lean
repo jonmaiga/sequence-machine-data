@@ -2,33 +2,32 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
@@ -49,7 +48,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -10691,7 +10689,7 @@ end A043288.P17437556732744661045
 /-!
 # A043289: Maximal run length in base-15 representation of n.
 
-The programs for A043289, the canonical program `A043289.P11919953001032112528` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043289 has offset 1).
+The programs for A043289, the canonical program `A043289.P11919953001032112528` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043289 has offset 1).
 
 The definition of A043289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11112,7 +11110,7 @@ end A043289
 
 `and(3^n, val(n+1, 4)!)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A043289
@@ -11600,7 +11598,7 @@ end A043290
 /-!
 # A043291: Every run length in base 2 is 2.
 
-The programs for A043291, the canonical program `A043291.P14424377653976249789` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043291 has offset 1).
+The programs for A043291, the canonical program `A043291.P14424377653976249789` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043291 has offset 1).
 
 The definition of A043291 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11609,7 +11607,7 @@ The definition of A043291 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+a(n-2)-4*a(n-3)` with `a(0)=3, a(1)=12, a(2)=51`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A043291
@@ -11667,6 +11665,29 @@ namespace A043291
 /-- `floor(4^(n+2)/5)` -/
 def P17591521611218279386.Spec : Prop :=
   ∀ n, P17591521611218279386.a n = A043291 (n + 1)
+
+end A043291
+
+/-! ## A043291.P2345151180009691508
+
+`ogf(3/(1-4x-x^2+4x^3))`
+-/
+
+namespace A043291.P2345151180009691508
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3] [1, -4, -1, 4] n
+
+end
+
+end A043291.P2345151180009691508
+
+namespace A043291
+
+/-- `ogf(3/(1-4x-x^2+4x^3))` -/
+def P2345151180009691508.Spec : Prop :=
+  ∀ n, P2345151180009691508.a n = A043291 (n + 1)
 
 end A043291
 
@@ -12198,7 +12219,7 @@ end A043293.P4420482420928042619
 /-!
 # A043294: Sum of digits of binomial(2n,n).
 
-The programs for A043294, the canonical program `A043294.P17313216890179425883` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043294 has offset 1).
+The programs for A043294, the canonical program `A043294.P17313216890179425883` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043294 has offset 1).
 
 The definition of A043294 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12207,7 +12228,7 @@ The definition of A043294 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[∏[2/(n+1)-4], #]`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A043294

@@ -2,16 +2,18 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
-import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C007
+import Seq.B000.C009
+import Seq.B000.C014
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C035
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B001.C006
@@ -22,11 +24,9 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
@@ -36,7 +36,6 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -660,7 +659,7 @@ end A393716.P7758643460211258884
 /-!
 # A393719: Sum of next n octahedral numbers (A005900).
 
-The programs for A393719, the canonical program `A393719.P13019433132294518856` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393719 has offset 1).
+The programs for A393719, the canonical program `A393719.P13019433132294518856` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393719 has offset 1).
 
 The definition of A393719 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -669,7 +668,7 @@ The definition of A393719 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*((n+1)²+1)²*((n+1)²+2)/12`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A393719
@@ -1876,7 +1875,7 @@ end A393793.P2512503173924234540
 /-!
 # A393794: Fixed points of the 1089-trick map T(n) = |n - reverse(n)| + reverse(|n - reverse(n)|).
 
-The programs for A393794, the canonical program `A393794.P17029044210723335748` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393794 has offset 1).
+The programs for A393794, the canonical program `A393794.P17029044210723335748` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393794 has offset 1).
 
 The definition of A393794 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1885,7 +1884,7 @@ The definition of A393794 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `110*(10^(n+2)-1)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A393794

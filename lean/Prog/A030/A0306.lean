@@ -19,16 +19,18 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +43,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -6021,6 +6022,29 @@ def P18319959155777590497.Spec : Prop :=
 
 end A030640
 
+/-! ## A030640.P13439439355724576471
+
+`ogf((1+x-x^2)/(1+2x^2+x^4))`
+-/
+
+namespace A030640.P13439439355724576471
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, -1] [1, 0, 2, 0, 1] n
+
+end
+
+end A030640.P13439439355724576471
+
+namespace A030640
+
+/-- `ogf((1+x-x^2)/(1+2x^2+x^4))` -/
+def P13439439355724576471.Spec : Prop :=
+  ∀ n, P13439439355724576471.a n = A030640 n
+
+end A030640
+
 /-! ## A030640.P9846304420872080610
 
 `lcm(2, n+1)/(xor(2, n)-n)`
@@ -7094,7 +7118,7 @@ end A030652.P5983474418977533120
 /-!
 # A030653: n^3*a(n) is the number of circles in complex projective plane tangent to three smooth curves of degree n in general position.
 
-The programs for A030653, the canonical program `A030653.P17752569690597270032` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030653 has offset 1).
+The programs for A030653, the canonical program `A030653.P17752569690597270032` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030653 has offset 1).
 
 The definition of A030653 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7103,7 +7127,7 @@ The definition of A030653 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)^3+3*(n+1)²+3*(n+1)-3`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A030653
@@ -7583,7 +7607,7 @@ end A030653
 /-!
 # A030654: n^4*a(n) is the number of spheres in complex projective space tangent to 4 smooth surfaces of degree n in general position.
 
-The programs for A030654, the canonical program `A030654.P12657709224460297580` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030654 has offset 1).
+The programs for A030654, the canonical program `A030654.P12657709224460297580` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030654 has offset 1).
 
 The definition of A030654 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7592,7 +7616,7 @@ The definition of A030654 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)^8+4*(n+1)^6-2*(n+1)^4+4*(n+1)²+1`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A030654

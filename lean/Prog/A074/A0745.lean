@@ -3,9 +3,9 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -25,7 +25,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -33,6 +33,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -334,7 +335,7 @@ end A074500
 /-!
 # A074501: a(n) = 1^n + 2^n + 5^n.
 
-The programs for A074501, the canonical program `A074501.P15534208100897605080` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074501 has offset 0).
+The programs for A074501, the canonical program `A074501.P15534208100897605080` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074501 has offset 0).
 
 The definition of A074501 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -343,7 +344,7 @@ The definition of A074501 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+2^n+5^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074501
@@ -560,7 +561,7 @@ end A074501
 /-!
 # A074502: a(n) = 1^n + 2^n + 6^n.
 
-The programs for A074502, the canonical program `A074502.P3374437632903311781` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074502 has offset 0).
+The programs for A074502, the canonical program `A074502.P3374437632903311781` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074502 has offset 0).
 
 The definition of A074502 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -569,7 +570,7 @@ The definition of A074502 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-12*a(n-2)+5` with `a(0)=3, a(1)=9`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074502
@@ -959,7 +960,7 @@ end A074502
 /-!
 # A074503: a(n) = 1^n + 2^n + 7^n.
 
-The programs for A074503, the canonical program `A074503.P11277408315175432063` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074503 has offset 0).
+The programs for A074503, the canonical program `A074503.P11277408315175432063` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074503 has offset 0).
 
 The definition of A074503 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -968,7 +969,7 @@ The definition of A074503 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*a(n-1)-14*a(n-2)+6` with `a(0)=3, a(1)=10`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074503
@@ -1272,7 +1273,7 @@ end A074503
 /-!
 # A074504: a(n) = 1^n + 2^n + 8^n.
 
-The programs for A074504, the canonical program `A074504.P1024703705856181068` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074504 has offset 0).
+The programs for A074504, the canonical program `A074504.P1024703705856181068` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074504 has offset 0).
 
 The definition of A074504 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1281,7 +1282,7 @@ The definition of A074504 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-16*a(n-2)+7` with `a(0)=3, a(1)=11`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074504
@@ -1599,7 +1600,7 @@ end A074504
 /-!
 # A074505: a(n) = 1^n + 2^n + 9^n.
 
-The programs for A074505, the canonical program `A074505.P4542892052582670214` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074505 has offset 0).
+The programs for A074505, the canonical program `A074505.P4542892052582670214` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074505 has offset 0).
 
 The definition of A074505 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1608,7 +1609,7 @@ The definition of A074505 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `11*a(n-1)-18*a(n-2)+8` with `a(0)=3, a(1)=12`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074505
@@ -1837,7 +1838,7 @@ end A074505
 /-!
 # A074506: a(n) = 1^n + 3^n + 4^n.
 
-The programs for A074506, the canonical program `A074506.P15184469134492778302` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074506 has offset 0).
+The programs for A074506, the canonical program `A074506.P15184469134492778302` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074506 has offset 0).
 
 The definition of A074506 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1846,7 +1847,7 @@ The definition of A074506 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*a(n-1)-12*a(n-2)+6` with `a(0)=3, a(1)=8`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074506
@@ -2285,7 +2286,7 @@ end A074506
 /-!
 # A074507: a(n) = 1^n + 3^n + 5^n.
 
-The programs for A074507, the canonical program `A074507.P14076099071536163614` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074507 has offset 0).
+The programs for A074507, the canonical program `A074507.P14076099071536163614` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074507 has offset 0).
 
 The definition of A074507 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2294,7 +2295,7 @@ The definition of A074507 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+3^n+5^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074507
@@ -2626,7 +2627,7 @@ end A074507
 /-!
 # A074508: a(n) = 1^n + 3^n + 6^n.
 
-The programs for A074508, the canonical program `A074508.P17464961638749649409` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074508 has offset 0).
+The programs for A074508, the canonical program `A074508.P17464961638749649409` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074508 has offset 0).
 
 The definition of A074508 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2635,7 +2636,7 @@ The definition of A074508 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*a(n-1)-18*a(n-2)+10` with `a(0)=3, a(1)=10`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074508
@@ -2927,7 +2928,7 @@ end A074508
 /-!
 # A074509: a(n) = 1^n + 3^n + 7^n.
 
-The programs for A074509, the canonical program `A074509.P10079155170142992927` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074509 has offset 0).
+The programs for A074509, the canonical program `A074509.P10079155170142992927` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074509 has offset 0).
 
 The definition of A074509 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2936,7 +2937,7 @@ The definition of A074509 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-21*a(n-2)+12` with `a(0)=3, a(1)=11`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074509
@@ -3185,7 +3186,7 @@ end A074509
 /-!
 # A074510: a(n) = 1^n + 3^n + 8^n.
 
-The programs for A074510, the canonical program `A074510.P7952981758769725105` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074510 has offset 0).
+The programs for A074510, the canonical program `A074510.P7952981758769725105` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074510 has offset 0).
 
 The definition of A074510 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3194,7 +3195,7 @@ The definition of A074510 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+3^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074510
@@ -3304,7 +3305,7 @@ end A074510
 /-!
 # A074511: a(n) = 1^n + 4^n + 5^n.
 
-The programs for A074511, the canonical program `A074511.P7726198193610842445` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074511 has offset 0).
+The programs for A074511, the canonical program `A074511.P7726198193610842445` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074511 has offset 0).
 
 The definition of A074511 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3313,7 +3314,7 @@ The definition of A074511 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*a(n-1)-20*a(n-2)+12` with `a(0)=3, a(1)=10`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074511
@@ -3565,7 +3566,7 @@ end A074511
 /-!
 # A074512: a(n) = 1^n + 4^n + 6^n.
 
-The programs for A074512, the canonical program `A074512.P7893804144183922672` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074512 has offset 0).
+The programs for A074512, the canonical program `A074512.P7893804144183922672` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074512 has offset 0).
 
 The definition of A074512 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3574,7 +3575,7 @@ The definition of A074512 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)-24*a(n-2)+15` with `a(0)=3, a(1)=11`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074512
@@ -3771,7 +3772,7 @@ end A074512
 /-!
 # A074513: a(n) = 1^n + 4^n + 7^n.
 
-The programs for A074513, the canonical program `A074513.P9049676673286366844` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074513 has offset 0).
+The programs for A074513, the canonical program `A074513.P9049676673286366844` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074513 has offset 0).
 
 The definition of A074513 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3780,7 +3781,7 @@ The definition of A074513 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `11*a(n-1)-28*a(n-2)+18` with `a(0)=3, a(1)=12`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074513
@@ -4052,7 +4053,7 @@ end A074513
 /-!
 # A074514: a(n) = 1^n + 4^n + 8^n.
 
-The programs for A074514, the canonical program `A074514.P14676403573131544177` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074514 has offset 0).
+The programs for A074514, the canonical program `A074514.P14676403573131544177` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074514 has offset 0).
 
 The definition of A074514 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4061,7 +4062,7 @@ The definition of A074514 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `12*a(n-1)-32*a(n-2)+21` with `a(0)=3, a(1)=13`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074514
@@ -4405,7 +4406,7 @@ end A074514
 /-!
 # A074515: a(n) = 1^n + 4^n + 9^n.
 
-The programs for A074515, the canonical program `A074515.P15737475065053550752` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074515 has offset 0).
+The programs for A074515, the canonical program `A074515.P15737475065053550752` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074515 has offset 0).
 
 The definition of A074515 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4414,7 +4415,7 @@ The definition of A074515 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `13*a(n-1)-36*a(n-2)+24` with `a(0)=3, a(1)=14`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074515
@@ -4669,7 +4670,7 @@ end A074515
 /-!
 # A074516: a(n) = 1^n + 5^n + 6^n.
 
-The programs for A074516, the canonical program `A074516.P7871408817476328494` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074516 has offset 0).
+The programs for A074516, the canonical program `A074516.P7871408817476328494` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074516 has offset 0).
 
 The definition of A074516 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4678,7 +4679,7 @@ The definition of A074516 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5^n+6^n+1`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074516
@@ -4895,7 +4896,7 @@ end A074516
 /-!
 # A074517: a(n) = 1^n + 5^n + 7^n.
 
-The programs for A074517, the canonical program `A074517.P3263064876265439327` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074517 has offset 0).
+The programs for A074517, the canonical program `A074517.P3263064876265439327` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074517 has offset 0).
 
 The definition of A074517 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4904,7 +4905,7 @@ The definition of A074517 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `12*a(n-1)-35*a(n-2)+24` with `a(0)=3, a(1)=13`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074517
@@ -5059,7 +5060,7 @@ end A074517
 /-!
 # A074518: a(n) = 1^n + 5^n + 8^n.
 
-The programs for A074518, the canonical program `A074518.P9263316717786065747` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074518 has offset 0).
+The programs for A074518, the canonical program `A074518.P9263316717786065747` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074518 has offset 0).
 
 The definition of A074518 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5068,7 +5069,7 @@ The definition of A074518 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `13*a(n-1)-40*a(n-2)+28` with `a(0)=3, a(1)=14`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074518
@@ -5464,7 +5465,7 @@ end A074518
 /-!
 # A074519: a(n) = 1^n + 5^n + 9^n.
 
-The programs for A074519, the canonical program `A074519.P13508775004096129433` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074519 has offset 0).
+The programs for A074519, the canonical program `A074519.P13508775004096129433` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074519 has offset 0).
 
 The definition of A074519 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5473,7 +5474,7 @@ The definition of A074519 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `14*a(n-1)-45*a(n-2)+32` with `a(0)=3, a(1)=15`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074519
@@ -5751,7 +5752,7 @@ end A074519
 /-!
 # A074520: a(n) = 1^n + 6^n + 7^n.
 
-The programs for A074520, the canonical program `A074520.P17491702654213781283` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074520 has offset 0).
+The programs for A074520, the canonical program `A074520.P17491702654213781283` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074520 has offset 0).
 
 The definition of A074520 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5760,7 +5761,7 @@ The definition of A074520 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+6^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074520
@@ -5876,7 +5877,7 @@ end A074520
 /-!
 # A074521: a(n) = 1^n + 6^n + 8^n.
 
-The programs for A074521, the canonical program `A074521.P8468858627412026952` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074521 has offset 0).
+The programs for A074521, the canonical program `A074521.P8468858627412026952` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074521 has offset 0).
 
 The definition of A074521 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5885,7 +5886,7 @@ The definition of A074521 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `14*a(n-1)-48*a(n-2)+35` with `a(0)=3, a(1)=15`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074521
@@ -6203,7 +6204,7 @@ end A074521
 /-!
 # A074522: a(n) = 1^n + 6^n + 9^n.
 
-The programs for A074522, the canonical program `A074522.P6788963251485465658` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074522 has offset 0).
+The programs for A074522, the canonical program `A074522.P6788963251485465658` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074522 has offset 0).
 
 The definition of A074522 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6212,7 +6213,7 @@ The definition of A074522 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `15*a(n-1)-54*a(n-2)+40` with `a(0)=3, a(1)=16`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074522
@@ -6660,7 +6661,7 @@ end A074522
 /-!
 # A074523: a(n) = 1^n + 7^n + 8^n.
 
-The programs for A074523, the canonical program `A074523.P6767001565584270886` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074523 has offset 0).
+The programs for A074523, the canonical program `A074523.P6767001565584270886` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074523 has offset 0).
 
 The definition of A074523 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6669,7 +6670,7 @@ The definition of A074523 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+7^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074523
@@ -7081,7 +7082,7 @@ end A074523
 /-!
 # A074524: a(n) = 1^n + 7^n + 9^n.
 
-The programs for A074524, the canonical program `A074524.P11758128741763786228` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074524 has offset 0).
+The programs for A074524, the canonical program `A074524.P11758128741763786228` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074524 has offset 0).
 
 The definition of A074524 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7090,7 +7091,7 @@ The definition of A074524 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `16*a(n-1)-63*a(n-2)+48` with `a(0)=3, a(1)=17`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074524
@@ -7385,7 +7386,7 @@ end A074524
 /-!
 # A074525: a(n) = 1^n + 8^n + 9^n.
 
-The programs for A074525, the canonical program `A074525.P10797513457370743999` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074525 has offset 0).
+The programs for A074525, the canonical program `A074525.P10797513457370743999` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074525 has offset 0).
 
 The definition of A074525 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7394,7 +7395,7 @@ The definition of A074525 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*a(n-1)-72*a(n-2)+56` with `a(0)=3, a(1)=18`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074525
@@ -7548,7 +7549,7 @@ end A074525
 /-!
 # A074526: a(n) = 2^n + 3^n + 4^n.
 
-The programs for A074526, the canonical program `A074526.P4630388288089685513` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074526 has offset 0).
+The programs for A074526, the canonical program `A074526.P4630388288089685513` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074526 has offset 0).
 
 The definition of A074526 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+3^n+4^n` (program `A074526.P4630388288089685513`, by `A074526.P4630388288089685513.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7557,7 +7558,7 @@ The definition of A074526 is `verified`: the Lean definition is proven equivalen
 
 `2^n+3^n+4^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074526
@@ -8042,7 +8043,7 @@ end A074526
 /-!
 # A074527: a(n) = 2^n + 3^n + 5^n.
 
-The programs for A074527, the canonical program `A074527.P5088495585976316782` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074527 has offset 0).
+The programs for A074527, the canonical program `A074527.P5088495585976316782` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074527 has offset 0).
 
 The definition of A074527 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+3^n+5^n` (program `A074527.P5088495585976316782`, by `A074527.P5088495585976316782.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8051,7 +8052,7 @@ The definition of A074527 is `verified`: the Lean definition is proven equivalen
 
 `2^n+3^n+5^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074527
@@ -8291,7 +8292,7 @@ end A074527
 /-!
 # A074528: a(n) = 2^n + 3^n + 6^n.
 
-The programs for A074528, the canonical program `A074528.P12730308612103962859` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074528 has offset 0).
+The programs for A074528, the canonical program `A074528.P12730308612103962859` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074528 has offset 0).
 
 The definition of A074528 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+3^n+6^n` (program `A074528.P12730308612103962859`, by `A074528.P12730308612103962859.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8300,7 +8301,7 @@ The definition of A074528 is `verified`: the Lean definition is proven equivalen
 
 `2^n+3^n+6^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074528
@@ -8416,7 +8417,7 @@ end A074528
 /-!
 # A074529: a(n) = 2^n + 3^n + 7^n.
 
-The programs for A074529, the canonical program `A074529.P1743053996531333742` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074529 has offset 0).
+The programs for A074529, the canonical program `A074529.P1743053996531333742` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074529 has offset 0).
 
 The definition of A074529 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+3^n+7^n` (program `A074529.P1743053996531333742`, by `A074529.P1743053996531333742.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8425,7 +8426,7 @@ The definition of A074529 is `verified`: the Lean definition is proven equivalen
 
 `2^n+3^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074529
@@ -8711,7 +8712,7 @@ end A074529
 /-!
 # A074530: a(n) = 2^n + 3^n + 8^n.
 
-The programs for A074530, the canonical program `A074530.P11230954735415132841` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074530 has offset 0).
+The programs for A074530, the canonical program `A074530.P11230954735415132841` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074530 has offset 0).
 
 The definition of A074530 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+3^n+8^n` (program `A074530.P11230954735415132841`, by `A074530.P11230954735415132841.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8720,7 +8721,7 @@ The definition of A074530 is `verified`: the Lean definition is proven equivalen
 
 `2^n+3^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074530
@@ -8859,7 +8860,7 @@ end A074530
 /-!
 # A074531: a(n) = 2^n + 3^n + 9^n.
 
-The programs for A074531, the canonical program `A074531.P8042299482482290928` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074531 has offset 0).
+The programs for A074531, the canonical program `A074531.P8042299482482290928` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074531 has offset 0).
 
 The definition of A074531 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+3^n+9^n` (program `A074531.P8042299482482290928`, by `A074531.P8042299482482290928.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8868,7 +8869,7 @@ The definition of A074531 is `verified`: the Lean definition is proven equivalen
 
 `2^n+3^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074531
@@ -9010,7 +9011,7 @@ end A074531
 /-!
 # A074532: a(n) = 2^n + 4^n + 5^n.
 
-The programs for A074532, the canonical program `A074532.P9473823795762054063` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074532 has offset 0).
+The programs for A074532, the canonical program `A074532.P9473823795762054063` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074532 has offset 0).
 
 The definition of A074532 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+4^n+5^n` (program `A074532.P9473823795762054063`, by `A074532.P9473823795762054063.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9019,7 +9020,7 @@ The definition of A074532 is `verified`: the Lean definition is proven equivalen
 
 `2^n+4^n+5^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074532
@@ -9132,7 +9133,7 @@ end A074532
 /-!
 # A074533: a(n) = 2^n + 4^n + 6^n.
 
-The programs for A074533, the canonical program `A074533.P12871218139762461628` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074533 has offset 0).
+The programs for A074533, the canonical program `A074533.P12871218139762461628` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074533 has offset 0).
 
 The definition of A074533 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+4^n+6^n` (program `A074533.P12871218139762461628`, by `A074533.P12871218139762461628.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9141,7 +9142,7 @@ The definition of A074533 is `verified`: the Lean definition is proven equivalen
 
 `2^n+4^n+6^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074533
@@ -9556,7 +9557,7 @@ end A074533
 /-!
 # A074534: a(n) = 2^n + 4^n + 7^n.
 
-The programs for A074534, the canonical program `A074534.P902535221530212066` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074534 has offset 0).
+The programs for A074534, the canonical program `A074534.P902535221530212066` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074534 has offset 0).
 
 The definition of A074534 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+4^n+7^n` (program `A074534.P902535221530212066`, by `A074534.P902535221530212066.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9565,7 +9566,7 @@ The definition of A074534 is `verified`: the Lean definition is proven equivalen
 
 `2^n+4^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074534
@@ -9701,7 +9702,7 @@ end A074534
 /-!
 # A074535: a(n) = 2^n + 4^n + 8^n.
 
-The programs for A074535, the canonical program `A074535.P639029963041919896` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074535 has offset 0).
+The programs for A074535, the canonical program `A074535.P639029963041919896` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074535 has offset 0).
 
 The definition of A074535 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+4^n+8^n` (program `A074535.P639029963041919896`, by `A074535.P639029963041919896.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9710,7 +9711,7 @@ The definition of A074535 is `verified`: the Lean definition is proven equivalen
 
 `2^n+4^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074535
@@ -10119,7 +10120,7 @@ end A074535
 /-!
 # A074536: a(n) = 2^n + 4^n + 9^n.
 
-The programs for A074536, the canonical program `A074536.P4230930682588145782` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074536 has offset 0).
+The programs for A074536, the canonical program `A074536.P4230930682588145782` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074536 has offset 0).
 
 The definition of A074536 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+4^n+9^n` (program `A074536.P4230930682588145782`, by `A074536.P4230930682588145782.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10128,7 +10129,7 @@ The definition of A074536 is `verified`: the Lean definition is proven equivalen
 
 `2^n+4^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074536
@@ -10359,7 +10360,7 @@ end A074536
 /-!
 # A074537: a(n) = 2^n + 5^n + 6^n.
 
-The programs for A074537, the canonical program `A074537.P9486387776354827771` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074537 has offset 0).
+The programs for A074537, the canonical program `A074537.P9486387776354827771` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074537 has offset 0).
 
 The definition of A074537 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+5^n+6^n` (program `A074537.P9486387776354827771`, by `A074537.P9486387776354827771.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10368,7 +10369,7 @@ The definition of A074537 is `verified`: the Lean definition is proven equivalen
 
 `2^n+5^n+6^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074537
@@ -10530,7 +10531,7 @@ end A074537
 /-!
 # A074538: a(n) = 2^n + 5^n + 7^n.
 
-The programs for A074538, the canonical program `A074538.P8256862648058174290` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074538 has offset 0).
+The programs for A074538, the canonical program `A074538.P8256862648058174290` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074538 has offset 0).
 
 The definition of A074538 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+5^n+7^n` (program `A074538.P8256862648058174290`, by `A074538.P8256862648058174290.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10539,7 +10540,7 @@ The definition of A074538 is `verified`: the Lean definition is proven equivalen
 
 `2^n+5^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074538
@@ -10744,7 +10745,7 @@ end A074538
 /-!
 # A074539: a(n) = 2^n + 5^n + 8^n.
 
-The programs for A074539, the canonical program `A074539.P7545329714654616348` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074539 has offset 0).
+The programs for A074539, the canonical program `A074539.P7545329714654616348` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074539 has offset 0).
 
 The definition of A074539 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+5^n+8^n` (program `A074539.P7545329714654616348`, by `A074539.P7545329714654616348.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10753,7 +10754,7 @@ The definition of A074539 is `verified`: the Lean definition is proven equivalen
 
 `2^n+5^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074539
@@ -11007,7 +11008,7 @@ end A074539
 /-!
 # A074540: a(n) = 2^n + 5^n + 9^n.
 
-The programs for A074540, the canonical program `A074540.P18371580203188458495` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074540 has offset 0).
+The programs for A074540, the canonical program `A074540.P18371580203188458495` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074540 has offset 0).
 
 The definition of A074540 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+5^n+9^n` (program `A074540.P18371580203188458495`, by `A074540.P18371580203188458495.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11016,7 +11017,7 @@ The definition of A074540 is `verified`: the Lean definition is proven equivalen
 
 `2^n+5^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074540
@@ -11181,7 +11182,7 @@ end A074540
 /-!
 # A074541: a(n) = 2^n + 6^n + 7^n.
 
-The programs for A074541, the canonical program `A074541.P9777305932660839317` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074541 has offset 0).
+The programs for A074541, the canonical program `A074541.P9777305932660839317` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074541 has offset 0).
 
 The definition of A074541 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+6^n+7^n` (program `A074541.P9777305932660839317`, by `A074541.P9777305932660839317.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11190,7 +11191,7 @@ The definition of A074541 is `verified`: the Lean definition is proven equivalen
 
 `2^n+6^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074541
@@ -11372,7 +11373,7 @@ end A074541
 /-!
 # A074542: a(n) = 2^n + 6^n + 8^n.
 
-The programs for A074542, the canonical program `A074542.P9016030283820308541` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074542 has offset 0).
+The programs for A074542, the canonical program `A074542.P9016030283820308541` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074542 has offset 0).
 
 The definition of A074542 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+6^n+8^n` (program `A074542.P9016030283820308541`, by `A074542.P9016030283820308541.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11381,7 +11382,7 @@ The definition of A074542 is `verified`: the Lean definition is proven equivalen
 
 `2^n+6^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074542
@@ -11609,7 +11610,7 @@ end A074542
 /-!
 # A074543: a(n) = 2^n + 6^n + 9^n.
 
-The programs for A074543, the canonical program `A074543.P15082951967388589342` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074543 has offset 0).
+The programs for A074543, the canonical program `A074543.P15082951967388589342` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074543 has offset 0).
 
 The definition of A074543 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+6^n+9^n` (program `A074543.P15082951967388589342`, by `A074543.P15082951967388589342.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11618,7 +11619,7 @@ The definition of A074543 is `verified`: the Lean definition is proven equivalen
 
 `2^n+6^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074543
@@ -11732,7 +11733,7 @@ end A074543
 /-!
 # A074544: a(n) = 2^n + 7^n + 8^n.
 
-The programs for A074544, the canonical program `A074544.P6771952476734506949` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074544 has offset 0).
+The programs for A074544, the canonical program `A074544.P6771952476734506949` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074544 has offset 0).
 
 The definition of A074544 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+7^n+8^n` (program `A074544.P6771952476734506949`, by `A074544.P6771952476734506949.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11741,7 +11742,7 @@ The definition of A074544 is `verified`: the Lean definition is proven equivalen
 
 `2^n+7^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074544
@@ -11897,7 +11898,7 @@ end A074544
 /-!
 # A074545: a(n) = 2^n + 7^n + 9^n.
 
-The programs for A074545, the canonical program `A074545.P2508276220111533207` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074545 has offset 0).
+The programs for A074545, the canonical program `A074545.P2508276220111533207` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074545 has offset 0).
 
 The definition of A074545 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+7^n+9^n` (program `A074545.P2508276220111533207`, by `A074545.P2508276220111533207.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11906,7 +11907,7 @@ The definition of A074545 is `verified`: the Lean definition is proven equivalen
 
 `2^n+7^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074545
@@ -11996,7 +11997,7 @@ end A074545
 /-!
 # A074546: a(n) = 2^n + 8^n + 9^n.
 
-The programs for A074546, the canonical program `A074546.P303920784059392654` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074546 has offset 0).
+The programs for A074546, the canonical program `A074546.P303920784059392654` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074546 has offset 0).
 
 The definition of A074546 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n+8^n+9^n` (program `A074546.P303920784059392654`, by `A074546.P303920784059392654.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12005,7 +12006,7 @@ The definition of A074546 is `verified`: the Lean definition is proven equivalen
 
 `2^n+8^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074546
@@ -12167,7 +12168,7 @@ end A074546
 /-!
 # A074547: a(n) = 3^n + 4^n + 5^n.
 
-The programs for A074547, the canonical program `A074547.P5874871662245387837` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074547 has offset 0).
+The programs for A074547, the canonical program `A074547.P5874871662245387837` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074547 has offset 0).
 
 The definition of A074547 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+4^n+5^n` (program `A074547.P5874871662245387837`, by `A074547.P5874871662245387837.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12176,7 +12177,7 @@ The definition of A074547 is `verified`: the Lean definition is proven equivalen
 
 `3^n+4^n+5^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074547
@@ -12407,7 +12408,7 @@ end A074547
 /-!
 # A074548: a(n) = 3^n + 4^n + 6^n.
 
-The programs for A074548, the canonical program `A074548.P14174617057539431764` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074548 has offset 0).
+The programs for A074548, the canonical program `A074548.P14174617057539431764` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074548 has offset 0).
 
 The definition of A074548 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+4^n+6^n` (program `A074548.P14174617057539431764`, by `A074548.P14174617057539431764.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12416,7 +12417,7 @@ The definition of A074548 is `verified`: the Lean definition is proven equivalen
 
 `3^n+4^n+6^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074548
@@ -12698,7 +12699,7 @@ end A074548
 /-!
 # A074549: a(n) = 3^n + 4^n + 7^n.
 
-The programs for A074549, the canonical program `A074549.P15317035552885254422` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074549 has offset 0).
+The programs for A074549, the canonical program `A074549.P15317035552885254422` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074549 has offset 0).
 
 The definition of A074549 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+4^n+7^n` (program `A074549.P15317035552885254422`, by `A074549.P15317035552885254422.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12707,7 +12708,7 @@ The definition of A074549 is `verified`: the Lean definition is proven equivalen
 
 `3^n+4^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074549
@@ -12820,7 +12821,7 @@ end A074549
 /-!
 # A074550: a(n) = 3^n + 4^n + 8^n.
 
-The programs for A074550, the canonical program `A074550.P15764064879711821500` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074550 has offset 0).
+The programs for A074550, the canonical program `A074550.P15764064879711821500` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074550 has offset 0).
 
 The definition of A074550 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+4^n+8^n` (program `A074550.P15764064879711821500`, by `A074550.P15764064879711821500.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12829,7 +12830,7 @@ The definition of A074550 is `verified`: the Lean definition is proven equivalen
 
 `3^n+4^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074550
@@ -12968,7 +12969,7 @@ end A074550
 /-!
 # A074551: a(n) = 3^n + 4^n + 9^n.
 
-The programs for A074551, the canonical program `A074551.P10327552448071292567` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074551 has offset 0).
+The programs for A074551, the canonical program `A074551.P10327552448071292567` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074551 has offset 0).
 
 The definition of A074551 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+4^n+9^n` (program `A074551.P10327552448071292567`, by `A074551.P10327552448071292567.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12977,7 +12978,7 @@ The definition of A074551 is `verified`: the Lean definition is proven equivalen
 
 `3^n+4^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074551
@@ -13136,7 +13137,7 @@ end A074551
 /-!
 # A074552: a(n) = 3^n + 5^n + 7^n.
 
-The programs for A074552, the canonical program `A074552.P4012217902332951511` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074552 has offset 0).
+The programs for A074552, the canonical program `A074552.P4012217902332951511` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074552 has offset 0).
 
 The definition of A074552 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+5^n+7^n` (program `A074552.P4012217902332951511`, by `A074552.P4012217902332951511.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13145,7 +13146,7 @@ The definition of A074552 is `verified`: the Lean definition is proven equivalen
 
 `3^n+5^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074552
@@ -13278,7 +13279,7 @@ end A074552
 /-!
 # A074553: a(n) = 3^n + 5^n + 8^n.
 
-The programs for A074553, the canonical program `A074553.P5148264773027454196` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074553 has offset 0).
+The programs for A074553, the canonical program `A074553.P5148264773027454196` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074553 has offset 0).
 
 The definition of A074553 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+5^n+8^n` (program `A074553.P5148264773027454196`, by `A074553.P5148264773027454196.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13287,7 +13288,7 @@ The definition of A074553 is `verified`: the Lean definition is proven equivalen
 
 `3^n+5^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074553
@@ -13518,7 +13519,7 @@ end A074553
 /-!
 # A074554: a(n) = 3^n + 5^n + 9^n.
 
-The programs for A074554, the canonical program `A074554.P1072886281082828153` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074554 has offset 0).
+The programs for A074554, the canonical program `A074554.P1072886281082828153` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074554 has offset 0).
 
 The definition of A074554 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+5^n+9^n` (program `A074554.P1072886281082828153`, by `A074554.P1072886281082828153.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13527,7 +13528,7 @@ The definition of A074554 is `verified`: the Lean definition is proven equivalen
 
 `3^n+5^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074554
@@ -13787,7 +13788,7 @@ end A074554
 /-!
 # A074555: a(n) = 3^n + 6^n + 7^n.
 
-The programs for A074555, the canonical program `A074555.P4738191491316778387` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074555 has offset 0).
+The programs for A074555, the canonical program `A074555.P4738191491316778387` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074555 has offset 0).
 
 The definition of A074555 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+6^n+7^n` (program `A074555.P4738191491316778387`, by `A074555.P4738191491316778387.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13796,7 +13797,7 @@ The definition of A074555 is `verified`: the Lean definition is proven equivalen
 
 `3^n+6^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074555
@@ -13932,7 +13933,7 @@ end A074555
 /-!
 # A074556: a(n) = 3^n + 6^n + 8^n.
 
-The programs for A074556, the canonical program `A074556.P4378652583454655488` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074556 has offset 0).
+The programs for A074556, the canonical program `A074556.P4378652583454655488` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074556 has offset 0).
 
 The definition of A074556 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+6^n+8^n` (program `A074556.P4378652583454655488`, by `A074556.P4378652583454655488.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13941,7 +13942,7 @@ The definition of A074556 is `verified`: the Lean definition is proven equivalen
 
 `3^n+6^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074556
@@ -14051,7 +14052,7 @@ end A074556
 /-!
 # A074557: a(n) = 3^n + 6^n + 9^n.
 
-The programs for A074557, the canonical program `A074557.P17865556886609840565` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074557 has offset 0).
+The programs for A074557, the canonical program `A074557.P17865556886609840565` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074557 has offset 0).
 
 The definition of A074557 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+6^n+9^n` (program `A074557.P17865556886609840565`, by `A074557.P17865556886609840565.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14060,7 +14061,7 @@ The definition of A074557 is `verified`: the Lean definition is proven equivalen
 
 `3^n+6^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074557
@@ -14455,7 +14456,7 @@ end A074557
 /-!
 # A074558: a(n) = 3^n + 7^n + 8^n.
 
-The programs for A074558, the canonical program `A074558.P16965406357425004510` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074558 has offset 0).
+The programs for A074558, the canonical program `A074558.P16965406357425004510` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074558 has offset 0).
 
 The definition of A074558 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+7^n+8^n` (program `A074558.P16965406357425004510`, by `A074558.P16965406357425004510.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14464,7 +14465,7 @@ The definition of A074558 is `verified`: the Lean definition is proven equivalen
 
 `3^n+7^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074558
@@ -14643,7 +14644,7 @@ end A074558
 /-!
 # A074559: a(n) = 3^n + 7^n + 9^n.
 
-The programs for A074559, the canonical program `A074559.P3380755015400959094` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074559 has offset 0).
+The programs for A074559, the canonical program `A074559.P3380755015400959094` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074559 has offset 0).
 
 The definition of A074559 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+7^n+9^n` (program `A074559.P3380755015400959094`, by `A074559.P3380755015400959094.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14652,7 +14653,7 @@ The definition of A074559 is `verified`: the Lean definition is proven equivalen
 
 `3^n+7^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074559
@@ -14765,7 +14766,7 @@ end A074559
 /-!
 # A074560: a(n) = 3^n + 8^n + 9^n.
 
-The programs for A074560, the canonical program `A074560.P18342032305587240804` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074560 has offset 0).
+The programs for A074560, the canonical program `A074560.P18342032305587240804` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074560 has offset 0).
 
 The definition of A074560 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n+8^n+9^n` (program `A074560.P18342032305587240804`, by `A074560.P18342032305587240804.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14774,7 +14775,7 @@ The definition of A074560 is `verified`: the Lean definition is proven equivalen
 
 `3^n+8^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074560
@@ -14948,7 +14949,7 @@ end A074560
 /-!
 # A074561: a(n) = 4^n + 5^n + 6^n.
 
-The programs for A074561, the canonical program `A074561.P7977343402559612284` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074561 has offset 0).
+The programs for A074561, the canonical program `A074561.P7977343402559612284` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074561 has offset 0).
 
 The definition of A074561 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+5^n+6^n` (program `A074561.P7977343402559612284`, by `A074561.P7977343402559612284.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14957,7 +14958,7 @@ The definition of A074561 is `verified`: the Lean definition is proven equivalen
 
 `4^n+5^n+6^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074561
@@ -15162,7 +15163,7 @@ end A074561
 /-!
 # A074562: a(n) = 4^n + 5^n + 7^n.
 
-The programs for A074562, the canonical program `A074562.P4806481422985691960` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074562 has offset 0).
+The programs for A074562, the canonical program `A074562.P4806481422985691960` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074562 has offset 0).
 
 The definition of A074562 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+5^n+7^n` (program `A074562.P4806481422985691960`, by `A074562.P4806481422985691960.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15171,7 +15172,7 @@ The definition of A074562 is `verified`: the Lean definition is proven equivalen
 
 `4^n+5^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074562
@@ -15419,7 +15420,7 @@ end A074562
 /-!
 # A074563: a(n) = 4^n + 5^n + 8^n.
 
-The programs for A074563, the canonical program `A074563.P1379227277394458418` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074563 has offset 0).
+The programs for A074563, the canonical program `A074563.P1379227277394458418` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074563 has offset 0).
 
 The definition of A074563 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+5^n+8^n` (program `A074563.P1379227277394458418`, by `A074563.P1379227277394458418.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15428,7 +15429,7 @@ The definition of A074563 is `verified`: the Lean definition is proven equivalen
 
 `4^n+5^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074563
@@ -15718,7 +15719,7 @@ end A074563
 /-!
 # A074564: a(n) = 4^n + 5^n + 9^n.
 
-The programs for A074564, the canonical program `A074564.P6822157006071906487` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074564 has offset 0).
+The programs for A074564, the canonical program `A074564.P6822157006071906487` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074564 has offset 0).
 
 The definition of A074564 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+5^n+9^n` (program `A074564.P6822157006071906487`, by `A074564.P6822157006071906487.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15727,7 +15728,7 @@ The definition of A074564 is `verified`: the Lean definition is proven equivalen
 
 `4^n+5^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074564
@@ -15980,7 +15981,7 @@ end A074564
 /-!
 # A074565: a(n) = 4^n + 6^n + 7^n.
 
-The programs for A074565, the canonical program `A074565.P9575054058067106378` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074565 has offset 0).
+The programs for A074565, the canonical program `A074565.P9575054058067106378` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074565 has offset 0).
 
 The definition of A074565 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+6^n+7^n` (program `A074565.P9575054058067106378`, by `A074565.P9575054058067106378.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15989,7 +15990,7 @@ The definition of A074565 is `verified`: the Lean definition is proven equivalen
 
 `4^n+6^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074565
@@ -16122,7 +16123,7 @@ end A074565
 /-!
 # A074566: a(n) = 4^n + 6^n + 8^n.
 
-The programs for A074566, the canonical program `A074566.P13156039349728247320` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074566 has offset 0).
+The programs for A074566, the canonical program `A074566.P13156039349728247320` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074566 has offset 0).
 
 The definition of A074566 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+6^n+8^n` (program `A074566.P13156039349728247320`, by `A074566.P13156039349728247320.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16131,7 +16132,7 @@ The definition of A074566 is `verified`: the Lean definition is proven equivalen
 
 `4^n+6^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074566
@@ -16405,7 +16406,7 @@ end A074566
 /-!
 # A074567: a(n) = 4^n + 6^n + 9^n.
 
-The programs for A074567, the canonical program `A074567.P9244853333748286242` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074567 has offset 0).
+The programs for A074567, the canonical program `A074567.P9244853333748286242` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074567 has offset 0).
 
 The definition of A074567 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+6^n+9^n` (program `A074567.P9244853333748286242`, by `A074567.P9244853333748286242.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16414,7 +16415,7 @@ The definition of A074567 is `verified`: the Lean definition is proven equivalen
 
 `4^n+6^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074567
@@ -16530,7 +16531,7 @@ end A074567
 /-!
 # A074568: a(n) = 4^n + 7^n + 8^n.
 
-The programs for A074568, the canonical program `A074568.P7662103537063629659` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074568 has offset 0).
+The programs for A074568, the canonical program `A074568.P7662103537063629659` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074568 has offset 0).
 
 The definition of A074568 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+7^n+8^n` (program `A074568.P7662103537063629659`, by `A074568.P7662103537063629659.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16539,7 +16540,7 @@ The definition of A074568 is `verified`: the Lean definition is proven equivalen
 
 `4^n+7^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074568
@@ -16890,7 +16891,7 @@ end A074568
 /-!
 # A074569: a(n) = 4^n + 7^n + 9^n.
 
-The programs for A074569, the canonical program `A074569.P12714360922354287209` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074569 has offset 0).
+The programs for A074569, the canonical program `A074569.P12714360922354287209` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074569 has offset 0).
 
 The definition of A074569 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+7^n+9^n` (program `A074569.P12714360922354287209`, by `A074569.P12714360922354287209.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16899,7 +16900,7 @@ The definition of A074569 is `verified`: the Lean definition is proven equivalen
 
 `4^n+7^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074569
@@ -17012,7 +17013,7 @@ end A074569
 /-!
 # A074570: a(n) = 4^n + 8^n + 9^n.
 
-The programs for A074570, the canonical program `A074570.P5306716372487342324` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074570 has offset 0).
+The programs for A074570, the canonical program `A074570.P5306716372487342324` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074570 has offset 0).
 
 The definition of A074570 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+8^n+9^n` (program `A074570.P5306716372487342324`, by `A074570.P5306716372487342324.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17021,7 +17022,7 @@ The definition of A074570 is `verified`: the Lean definition is proven equivalen
 
 `4^n+8^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074570
@@ -17158,7 +17159,7 @@ end A074570
 /-!
 # A074571: a(n) = 5^n + 6^n + 7^n.
 
-The programs for A074571, the canonical program `A074571.P12377823437741786856` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074571 has offset 0).
+The programs for A074571, the canonical program `A074571.P12377823437741786856` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074571 has offset 0).
 
 The definition of A074571 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+6^n+7^n` (program `A074571.P12377823437741786856`, by `A074571.P12377823437741786856.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17167,7 +17168,7 @@ The definition of A074571 is `verified`: the Lean definition is proven equivalen
 
 `5^n+6^n+7^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074571
@@ -17300,7 +17301,7 @@ end A074571
 /-!
 # A074572: a(n) = 5^n + 6^n + 8^n.
 
-The programs for A074572, the canonical program `A074572.P16324031131915373030` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074572 has offset 0).
+The programs for A074572, the canonical program `A074572.P16324031131915373030` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074572 has offset 0).
 
 The definition of A074572 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+6^n+8^n` (program `A074572.P16324031131915373030`, by `A074572.P16324031131915373030.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17309,7 +17310,7 @@ The definition of A074572 is `verified`: the Lean definition is proven equivalen
 
 `5^n+6^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074572
@@ -17445,7 +17446,7 @@ end A074572
 /-!
 # A074573: a(n) = 5^n + 6^n + 9^n.
 
-The programs for A074573, the canonical program `A074573.P1298338052645532930` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074573 has offset 0).
+The programs for A074573, the canonical program `A074573.P1298338052645532930` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074573 has offset 0).
 
 The definition of A074573 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+6^n+9^n` (program `A074573.P1298338052645532930`, by `A074573.P1298338052645532930.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17454,7 +17455,7 @@ The definition of A074573 is `verified`: the Lean definition is proven equivalen
 
 `5^n+6^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074573
@@ -17587,7 +17588,7 @@ end A074573
 /-!
 # A074574: a(n) = 5^n + 7^n + 8^n.
 
-The programs for A074574, the canonical program `A074574.P2464668067127189727` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074574 has offset 0).
+The programs for A074574, the canonical program `A074574.P2464668067127189727` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074574 has offset 0).
 
 The definition of A074574 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+7^n+8^n` (program `A074574.P2464668067127189727`, by `A074574.P2464668067127189727.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17596,7 +17597,7 @@ The definition of A074574 is `verified`: the Lean definition is proven equivalen
 
 `5^n+7^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074574
@@ -17758,7 +17759,7 @@ end A074574
 /-!
 # A074575: a(n) = 5^n + 7^n + 9^n.
 
-The programs for A074575, the canonical program `A074575.P7136983271451830220` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074575 has offset 0).
+The programs for A074575, the canonical program `A074575.P7136983271451830220` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074575 has offset 0).
 
 The definition of A074575 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+7^n+9^n` (program `A074575.P7136983271451830220`, by `A074575.P7136983271451830220.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17767,7 +17768,7 @@ The definition of A074575 is `verified`: the Lean definition is proven equivalen
 
 `5^n+7^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074575
@@ -17969,7 +17970,7 @@ end A074575
 /-!
 # A074576: a(n) = 5^n + 8^n + 9^n.
 
-The programs for A074576, the canonical program `A074576.P14304956569486685152` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074576 has offset 0).
+The programs for A074576, the canonical program `A074576.P14304956569486685152` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074576 has offset 0).
 
 The definition of A074576 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+8^n+9^n` (program `A074576.P14304956569486685152`, by `A074576.P14304956569486685152.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17978,7 +17979,7 @@ The definition of A074576 is `verified`: the Lean definition is proven equivalen
 
 `5^n+8^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074576
@@ -18091,7 +18092,7 @@ end A074576
 /-!
 # A074577: a(n) = 6^n + 7^n + 8^n.
 
-The programs for A074577, the canonical program `A074577.P11705556661611286287` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074577 has offset 0).
+The programs for A074577, the canonical program `A074577.P11705556661611286287` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074577 has offset 0).
 
 The definition of A074577 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6^n+7^n+8^n` (program `A074577.P11705556661611286287`, by `A074577.P11705556661611286287.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18100,7 +18101,7 @@ The definition of A074577 is `verified`: the Lean definition is proven equivalen
 
 `6^n+7^n+8^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074577
@@ -18302,7 +18303,7 @@ end A074577
 /-!
 # A074578: a(n) = 6^n + 7^n + 9^n.
 
-The programs for A074578, the canonical program `A074578.P9565326728207394404` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074578 has offset 0).
+The programs for A074578, the canonical program `A074578.P9565326728207394404` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074578 has offset 0).
 
 The definition of A074578 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6^n+7^n+9^n` (program `A074578.P9565326728207394404`, by `A074578.P9565326728207394404.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18311,7 +18312,7 @@ The definition of A074578 is `verified`: the Lean definition is proven equivalen
 
 `6^n+7^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074578
@@ -18444,7 +18445,7 @@ end A074578
 /-!
 # A074579: a(n) = 6^n + 8^n + 9^n.
 
-The programs for A074579, the canonical program `A074579.P11019084193790550151` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074579 has offset 0).
+The programs for A074579, the canonical program `A074579.P11019084193790550151` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074579 has offset 0).
 
 The definition of A074579 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6^n+8^n+9^n` (program `A074579.P11019084193790550151`, by `A074579.P11019084193790550151.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18453,7 +18454,7 @@ The definition of A074579 is `verified`: the Lean definition is proven equivalen
 
 `6^n+8^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074579
@@ -18609,7 +18610,7 @@ end A074579
 /-!
 # A074580: a(n) = 7^n + 8^n + 9^n.
 
-The programs for A074580, the canonical program `A074580.P17802850478880268909` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074580 has offset 0).
+The programs for A074580, the canonical program `A074580.P17802850478880268909` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074580 has offset 0).
 
 The definition of A074580 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `7^n+8^n+9^n` (program `A074580.P17802850478880268909`, by `A074580.P17802850478880268909.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18618,7 +18619,7 @@ The definition of A074580 is `verified`: the Lean definition is proven equivalen
 
 `7^n+8^n+9^n`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074580
@@ -18820,7 +18821,7 @@ end A074580
 /-!
 # A074581: a(n) = T(3n+1), where T(n) are tribonacci numbers A000073.
 
-The programs for A074581, the canonical program `A074581.P6434494262900503128` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074581 has offset 0).
+The programs for A074581, the canonical program `A074581.P6434494262900503128` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074581 has offset 0).
 
 The definition of A074581 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -18829,7 +18830,7 @@ The definition of A074581 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*a(n-1)-5*a(n-2)+a(n-3)` with `a(0)=0, a(1)=2, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074581
@@ -18841,6 +18842,29 @@ def P6434494262900503128.Spec : Prop :=
 theorem P6434494262900503128.correct : P6434494262900503128.Spec := by
   intro n
   simp only [A074581]
+
+end A074581
+
+/-! ## A074581.P12590991622515115466
+
+`ogf((2x-x^2)/(1-7x+5x^2-x^3))`
+-/
+
+namespace A074581.P12590991622515115466
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 2, -1] [1, -7, 5, -1] n
+
+end
+
+end A074581.P12590991622515115466
+
+namespace A074581
+
+/-- `ogf((2x-x^2)/(1-7x+5x^2-x^3))` -/
+def P12590991622515115466.Spec : Prop :=
+  ∀ n, P12590991622515115466.a n = A074581 n
 
 end A074581
 
@@ -19314,7 +19338,7 @@ end A074581
 /-!
 # A074582: a(n) = S(3n), where S(n) is the generalized tribonacci sequence A001644.
 
-The programs for A074582, the canonical program `A074582.P8116197716199792781` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074582 has offset 0).
+The programs for A074582, the canonical program `A074582.P8116197716199792781` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074582 has offset 0).
 
 The definition of A074582 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19323,7 +19347,7 @@ The definition of A074582 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*a(n-1)-5*a(n-2)+a(n-3)` with `a(0)=3, a(1)=7, a(2)=39`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074582
@@ -20029,7 +20053,7 @@ end A074583
 /-!
 # A074584: Esanacci (hexanacci or "6-anacci") numbers.
 
-The programs for A074584, the canonical program `A074584.P3920882411418601067` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074584 has offset 0).
+The programs for A074584, the canonical program `A074584.P3920882411418601067` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074584 has offset 0).
 
 The definition of A074584 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20038,7 +20062,7 @@ The definition of A074584 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-7)` with `a(0)=6, a(1)=1, a(2)=3, a(3)=7, a(4)=15, a(5)=31, a(6)=63`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074584

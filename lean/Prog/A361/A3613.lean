@@ -4,19 +4,20 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C006
+import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C017
-import Seq.B000.C021
-import Seq.B000.C033
+import Seq.B000.C018
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
@@ -28,7 +29,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -2638,27 +2638,50 @@ end A361357.P13060515750717408468
 /-!
 # A361358: Expansion of x*(2 - x)/(1 - 5*x + 3*x^2 - x^3).
 
-The programs for A361358, the canonical program `A361358.P11701052431691854619` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361358 has offset 1).
+The programs for A361358, the canonical program `A361358.P11021203735433193863` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361358 has offset 1).
 
-The definition of A361358 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A361358 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((2-x)/(1-5x+3x^2-x^3))` (program `A361358.P11021203735433193863`, by `A361358.P11021203735433193863.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A361358.P11021203735433193863
+
+`ogf((2-x)/(1-5x+3x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A361358
+
+/-- `ogf((2-x)/(1-5x+3x^2-x^3))` -/
+def P11021203735433193863.Spec : Prop :=
+  ∀ n, P11021203735433193863.a n = A361358 (n + 1)
+
+theorem P11021203735433193863.correct : P11021203735433193863.Spec := by
+  intro n
+  simp only [A361358, Nat.add_sub_cancel]
+
+end A361358
 
 /-! ## A361358.P11701052431691854619
 
 `5*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=2, a(1)=9, a(2)=39`
-
-The canonical program, it is in `Seq.B000.C034`.
 -/
+
+namespace A361358.P11701052431691854619
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [2, 9, 39] fun n a =>
+  5 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
+
+end
+
+end A361358.P11701052431691854619
 
 namespace A361358
 
 /-- `5*a(n-1)-3*a(n-2)+a(n-3)` -/
 def P11701052431691854619.Spec : Prop :=
   ∀ n, P11701052431691854619.a n = A361358 (n + 1)
-
-theorem P11701052431691854619.correct : P11701052431691854619.Spec := by
-  intro n
-  simp only [A361358, Nat.add_sub_cancel]
 
 end A361358
 
@@ -3251,7 +3274,7 @@ end A361375.P13498785326248435831
 /-!
 # A361378: Number of musical scales in n tone equal temperament respecting the property that alternate notes are 3 or 4 semitones apart.
 
-The programs for A361378, the canonical program `A361378.P18110292246490034843` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361378 has offset 1).
+The programs for A361378, the canonical program `A361378.P18110292246490034843` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361378 has offset 1).
 
 The definition of A361378 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3260,7 +3283,7 @@ The definition of A361378 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)+a(n-4)-a(n-6)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=3, a(5)=3`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A361378

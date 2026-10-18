@@ -9,6 +9,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -17,17 +18,19 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -79,6 +82,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -6090,6 +6094,21 @@ end
 
 end A046231.P9089675580395546749
 
+/-! ## A046231.P4585799348152643780
+
+`ogf((x-4x^3)/(1-5x+4x^2))`
+-/
+
+namespace A046231.P4585799348152643780
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, -4] [1, -5, 4] n
+
+end
+
+end A046231.P4585799348152643780
+
 /-! ## A046231.P15611366523619395118
 
 `record[xor(1, ceil((-2)^(n-2)))]`
@@ -6239,6 +6258,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A046233.P7539302482032015318
+
+/-! ## A046233.P7996191945994535318
+
+`ogf((x-5x^3)/(1-6x+5x^2))`
+-/
+
+namespace A046233.P7996191945994535318
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, -5] [1, -6, 5] n
+
+end
+
+end A046233.P7996191945994535318
 
 /-! ## A046233.P10268537903575440067
 

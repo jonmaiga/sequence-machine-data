@@ -36,6 +36,8 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,7 +48,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -13524,6 +13525,29 @@ namespace A022856
 /-- `a(n-1)-(3-n)` -/
 def P4245699562346944321.Spec : Prop :=
   ∀ n, P4245699562346944321.a n = A022856 (n + 1)
+
+end A022856
+
+/-! ## A022856.P633208521674114414
+
+`ogf((1-2x+x^2+x^3-x^4+x^5)/(1-3x+3x^2-x^3))`
+-/
+
+namespace A022856.P633208521674114414
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, 1, 1, -1, 1] [1, -3, 3, -1] n
+
+end
+
+end A022856.P633208521674114414
+
+namespace A022856
+
+/-- `ogf((1-2x+x^2+x^3-x^4+x^5)/(1-3x+3x^2-x^3))` -/
+def P633208521674114414.Spec : Prop :=
+  ∀ n, P633208521674114414.a n = A022856 (n + 1)
 
 end A022856
 

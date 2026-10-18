@@ -7,6 +7,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -14,12 +15,14 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C018
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C026
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -496,16 +499,39 @@ end A378104.P6233756183350051780
 /-!
 # A378105: Number of non-colorable strings of length n considered by the alternating coloring function.
 
-The programs for A378105, the canonical program `A378105.P11993991642056072531` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378105 has offset 0).
+The programs for A378105, the canonical program `A378105.P11993991642056072531` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378105 has offset 0).
 
 The definition of A378105 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 335 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A378105.P5352594858785570356
+
+`ogf((-1+3x^2+2x^4)/(-1+2x+x^2-2x^3))`
+-/
+
+namespace A378105.P5352594858785570356
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -3, 0, -2] [1, -2, -1, 2] n
+
+end
+
+end A378105.P5352594858785570356
+
+namespace A378105
+
+/-- `ogf((-1+3x^2+2x^4)/(-1+2x+x^2-2x^3))` -/
+def P5352594858785570356.Spec : Prop :=
+  ∀ n, P5352594858785570356.a n = A378105 n
+
+end A378105
 
 /-! ## A378105.P11993991642056072531
 
 `a(n-1)+2*(a(n-2)-2)` with `a(0)=1, a(1)=2, a(2)=2, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A378105

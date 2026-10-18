@@ -6,7 +6,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -17,30 +17,31 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1573,16 +1574,65 @@ end A209719.P12978867640296460855
 /-!
 # A209721: 1/4 the number of (n+1) X 3 0..2 arrays with every 2 X 2 subblock having distinct clockwise edge differences.
 
-The programs for A209721, the canonical program `A209721.P2895894640332789596` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209721 has offset 1).
+The programs for A209721, the canonical program `A209721.P2895894640332789596` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209721 has offset 1).
 
 The definition of A209721 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A209721.P12345780486013821017
+
+`∑[ogf((3+x-5x^2)/(1-2x^2))]`
+-/
+
+namespace A209721.P12345780486013821017
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 1, -5] [1, 0, -2] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A209721.P12345780486013821017
+
+namespace A209721
+
+/-- `∑[ogf((3+x-5x^2)/(1-2x^2))]` -/
+def P12345780486013821017.Spec : Prop :=
+  ∀ n, P12345780486013821017.a n = A209721 (n + 1)
+
+end A209721
+
+/-! ## A209721.P4171818231453686325
+
+`ogf((3+x-5x^2)/(1-x-2x^2+2x^3))`
+-/
+
+namespace A209721.P4171818231453686325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 1, -5] [1, -1, -2, 2] n
+
+end
+
+end A209721.P4171818231453686325
+
+namespace A209721
+
+/-- `ogf((3+x-5x^2)/(1-x-2x^2+2x^3))` -/
+def P4171818231453686325.Spec : Prop :=
+  ∀ n, P4171818231453686325.a n = A209721 (n + 1)
+
+end A209721
 
 /-! ## A209721.P2895894640332789596
 
 `2*a(n-2)-1` with `a(0)=3, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209721
@@ -1992,16 +2042,65 @@ end A209721
 /-!
 # A209722: 1/4 the number of (n+1) X 4 0..2 arrays with every 2 X 2 subblock having distinct clockwise edge differences.
 
-The programs for A209722, the canonical program `A209722.P13005166823701892613` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209722 has offset 1).
+The programs for A209722, the canonical program `A209722.P13005166823701892613` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209722 has offset 1).
 
 The definition of A209722 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A209722.P12699019799142105384
+
+`∑[ogf((4+x-7x^2)/(1-2x^2))]`
+-/
+
+namespace A209722.P12699019799142105384
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 1, -7] [1, 0, -2] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A209722.P12699019799142105384
+
+namespace A209722
+
+/-- `∑[ogf((4+x-7x^2)/(1-2x^2))]` -/
+def P12699019799142105384.Spec : Prop :=
+  ∀ n, P12699019799142105384.a n = A209722 (n + 1)
+
+end A209722
+
+/-! ## A209722.P6006705961343506313
+
+`ogf((4+x-7x^2)/(1-x-2x^2+2x^3))`
+-/
+
+namespace A209722.P6006705961343506313
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 1, -7] [1, -1, -2, 2] n
+
+end
+
+end A209722.P6006705961343506313
+
+namespace A209722
+
+/-- `ogf((4+x-7x^2)/(1-x-2x^2+2x^3))` -/
+def P6006705961343506313.Spec : Prop :=
+  ∀ n, P6006705961343506313.a n = A209722 (n + 1)
+
+end A209722
 
 /-! ## A209722.P13005166823701892613
 
 `2*(a(n-2)-1)` with `a(0)=4, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209722
@@ -2100,7 +2199,7 @@ end A209722
 /-!
 # A209723: 1/4 the number of (n+1) X 5 0..2 arrays with every 2 X 2 subblock having distinct clockwise edge differences.
 
-The programs for A209723, the canonical program `A209723.P6136929982173076576` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209723 has offset 1).
+The programs for A209723, the canonical program `A209723.P6136929982173076576` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209723 has offset 1).
 
 The definition of A209723 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2109,7 +2208,7 @@ The definition of A209723 is `conjectured`: the Lean definition is a formula tha
 
 `2*(a(n-2)-2)` with `a(0)=6, a(1)=7`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209723
@@ -2556,7 +2655,7 @@ end A209723
 /-!
 # A209724: 1/4 the number of (n+1) X 6 0..2 arrays with every 2 X 2 subblock having distinct clockwise edge differences.
 
-The programs for A209724, the canonical program `A209724.P8347883322755834197` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209724 has offset 1).
+The programs for A209724, the canonical program `A209724.P8347883322755834197` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209724 has offset 1).
 
 The definition of A209724 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2565,7 +2664,7 @@ The definition of A209724 is `conjectured`: the Lean definition is a formula tha
 
 `2*(a(n-2)-3)` with `a(0)=8, a(1)=9`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209724
@@ -3038,7 +3137,7 @@ end A209724
 /-!
 # A209725: 1/4 the number of (n+1) X 7 0..2 arrays with every 2 X 2 subblock having distinct clockwise edge differences.
 
-The programs for A209725, the canonical program `A209725.P15523822458420071895` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209725 has offset 1).
+The programs for A209725, the canonical program `A209725.P15523822458420071895` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209725 has offset 1).
 
 The definition of A209725 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3047,7 +3146,7 @@ The definition of A209725 is `conjectured`: the Lean definition is a formula tha
 
 `2*(a(n-2)-5)` with `a(0)=12, a(1)=13`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209725
@@ -3517,7 +3616,7 @@ end A209725
 /-!
 # A209726: 1/4 the number of (n+1) X 8 0..2 arrays with every 2 X 2 subblock having distinct clockwise edge differences.
 
-The programs for A209726, the canonical program `A209726.P16224831591025779515` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209726 has offset 1).
+The programs for A209726, the canonical program `A209726.P16224831591025779515` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209726 has offset 1).
 
 The definition of A209726 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3526,7 +3625,7 @@ The definition of A209726 is `conjectured`: the Lean definition is a formula tha
 
 `2*(a(n-2)-7)` with `a(0)=16, a(1)=17`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209726
@@ -4182,7 +4281,7 @@ end A209728.P321246258514017779
 /-!
 # A209729: 1/4 the number of (n+1) X 2 0..3 arrays with every 2 X 2 subblock having distinct edge sums.
 
-The programs for A209729, the canonical program `A209729.P542034570364184855` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209729 has offset 1).
+The programs for A209729, the canonical program `A209729.P542034570364184855` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209729 has offset 1).
 
 The definition of A209729 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 132 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4191,7 +4290,7 @@ The definition of A209729 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)+14*a(n-2)+4*a(n-3)` with `a(0)=22, a(1)=124, a(2)=696`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209729
@@ -9033,7 +9132,7 @@ end A209788.P16489894496298964527
 /-!
 # A209789: Half the number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock having exactly one duplicate clockwise edge difference.
 
-The programs for A209789, the canonical program `A209789.P1698013958458874422` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209789 has offset 1).
+The programs for A209789, the canonical program `A209789.P1698013958458874422` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209789 has offset 1).
 
 The definition of A209789 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 119 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9042,7 +9141,7 @@ The definition of A209789 is `conjectured`: the Lean definition is a formula tha
 
 `5*a(n-1)+12*a(n-2)` with `a(0)=30, a(1)=204`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209789

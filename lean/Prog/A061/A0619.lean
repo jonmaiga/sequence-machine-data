@@ -10,17 +10,18 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -29,11 +30,12 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,7 +53,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -5163,6 +5164,55 @@ def P3646078623781529490.Spec : Prop :=
 theorem P3646078623781529490.correct : P3646078623781529490.Spec := by
   intro n
   simp only [A061981]
+
+end A061981
+
+/-! ## A061981.P6019676335486826662
+
+`∑[ogf(4x^2/(1-4x+3x^2))]`
+-/
+
+namespace A061981.P6019676335486826662
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 4] [1, -4, 3] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A061981.P6019676335486826662
+
+namespace A061981
+
+/-- `∑[ogf(4x^2/(1-4x+3x^2))]` -/
+def P6019676335486826662.Spec : Prop :=
+  ∀ n, P6019676335486826662.a n = A061981 n
+
+end A061981
+
+/-! ## A061981.P7712697835092906438
+
+`ogf(4x^2/(1-5x+7x^2-3x^3))`
+-/
+
+namespace A061981.P7712697835092906438
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 4] [1, -5, 7, -3] n
+
+end
+
+end A061981.P7712697835092906438
+
+namespace A061981
+
+/-- `ogf(4x^2/(1-5x+7x^2-3x^3))` -/
+def P7712697835092906438.Spec : Prop :=
+  ∀ n, P7712697835092906438.a n = A061981 n
 
 end A061981
 

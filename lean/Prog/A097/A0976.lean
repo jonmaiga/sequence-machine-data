@@ -14,9 +14,9 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -24,11 +24,12 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,6 +37,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -3199,7 +3201,7 @@ end A097628.P10027334500074518914
 /-!
 # A097629: a(n) = 2*(2*n)^(n-2).
 
-The programs for A097629, the canonical program `A097629.P14300978744868495827` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097629 has offset 1).
+The programs for A097629, the canonical program `A097629.P14300978744868495827` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097629 has offset 1).
 
 The definition of A097629 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3208,7 +3210,7 @@ The definition of A097629 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(2*(n+1))^(n-1)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A097629
@@ -4946,7 +4948,7 @@ end A097656.P7751303487275577446
 /-!
 # A097657: Fibonacci sequence with first two terms 11 and 23.
 
-The programs for A097657, the canonical program `A097657.P2126889802834623100` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097657 has offset 0).
+The programs for A097657, the canonical program `A097657.P2126889802834623100` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097657 has offset 0).
 
 The definition of A097657 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4955,7 +4957,7 @@ The definition of A097657 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)` with `a(0)=11, a(1)=23`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A097657
@@ -4967,6 +4969,29 @@ def P2126889802834623100.Spec : Prop :=
 theorem P2126889802834623100.correct : P2126889802834623100.Spec := by
   intro n
   simp only [A097657]
+
+end A097657
+
+/-! ## A097657.P17210990314644822543
+
+`ogf((11+12x)/(1-x-x^2))`
+-/
+
+namespace A097657.P17210990314644822543
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [11, 12] [1, -1, -1] n
+
+end
+
+end A097657.P17210990314644822543
+
+namespace A097657
+
+/-- `ogf((11+12x)/(1-x-x^2))` -/
+def P17210990314644822543.Spec : Prop :=
+  ∀ n, P17210990314644822543.a n = A097657 n
 
 end A097657
 
@@ -5085,6 +5110,29 @@ def P12179472401001279538.Spec : Prop :=
 
 end A097657
 
+/-! ## A097657.P12102006079318670784
+
+`A022103(n)+A022093(n+1)`
+-/
+
+namespace A097657.P12102006079318670784
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022103 n + A022093 (n + 1)
+
+end
+
+end A097657.P12102006079318670784
+
+namespace A097657
+
+/-- `A022103(n)+A022093(n+1)` -/
+def P12102006079318670784.Spec : Prop :=
+  ∀ n, P12102006079318670784.a n = A097657 n
+
+end A097657
+
 /-! ## A097657.P12295012779816758771
 
 `A022115(n+1)+A022093(n)`
@@ -5128,29 +5176,6 @@ namespace A097657
 /-- `A022102(n)+A022100(n+1)` -/
 def P12401928184315142077.Spec : Prop :=
   ∀ n, P12401928184315142077.a n = A097657 n
-
-end A097657
-
-/-! ## A097657.P12102006079318670784
-
-`A022103(n)+A022093(n+1)`
--/
-
-namespace A097657.P12102006079318670784
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022103 n + A022093 (n + 1)
-
-end
-
-end A097657.P12102006079318670784
-
-namespace A097657
-
-/-- `A022103(n)+A022093(n+1)` -/
-def P12102006079318670784.Spec : Prop :=
-  ∀ n, P12102006079318670784.a n = A097657 n
 
 end A097657
 
@@ -6861,7 +6886,7 @@ end A097692
 /-!
 # A097693: Largest achievable determinant of a 3 X 3 matrix whose elements are 9 distinct integers chosen from the range -n...n.
 
-The programs for A097693, the canonical program `A097693.P4076788236664843396` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097693 has offset 4).
+The programs for A097693, the canonical program `A097693.P4076788236664843396` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097693 has offset 4).
 
 The definition of A097693 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6870,7 +6895,7 @@ The definition of A097693 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(2*(n+4)^3-7*(n+4)²+6*(n+4)+3)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A097693

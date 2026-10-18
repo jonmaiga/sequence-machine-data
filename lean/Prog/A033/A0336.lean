@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -16,7 +17,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -32,6 +33,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1682,7 +1684,7 @@ end A033621.P3431790396856514680
 /-!
 # A033622: Good sequence of increments for Shell sort (best on big values).
 
-The programs for A033622, the canonical program `A033622.P8468115569823409156` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033622 has offset 0).
+The programs for A033622, the canonical program `A033622.P8468115569823409156` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033622 has offset 0).
 
 The definition of A033622 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1691,7 +1693,7 @@ The definition of A033622 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+6*a(n-2)-6*a(n-3)-8*a(n-4)+8*a(n-5)` with `a(0)=1, a(1)=5, a(2)=19, a(3)=41, a(4)=109`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033622
@@ -2101,7 +2103,7 @@ end A033623.P7323906064999716363
 /-!
 # A033627: 0-additive sequence: not the sum of any previous pair.
 
-The programs for A033627, the canonical program `A033627.P10512786693713400032` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033627 has offset 1).
+The programs for A033627, the canonical program `A033627.P10512786693713400032` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033627 has offset 1).
 
 The definition of A033627 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2110,7 +2112,7 @@ The definition of A033627 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=7`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033627
@@ -5362,6 +5364,33 @@ end
 end A033661.P2904891630924380781
 
 /-!
+# A033662: Possible digital sums of Smith numbers (conjectural).
+
+The programs for A033662, the canonical program `A033662.P8127504772752808406` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033662 has offset 1).
+
+The definition of A033662 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A033662.P8127504772752808406
+
+`ogf((4+x-x^2-2x^3-x^5)/(1-2x+x^2))`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A033662
+
+/-- `ogf((4+x-x^2-2x^3-x^5)/(1-2x+x^2))` -/
+def P8127504772752808406.Spec : Prop :=
+  ∀ n, P8127504772752808406.a n = A033662 (n + 1)
+
+theorem P8127504772752808406.correct : P8127504772752808406.Spec := by
+  intro n
+  simp only [A033662, Nat.add_sub_cancel]
+
+end A033662
+
+/-!
 # A033664: Every suffix is prime.
 
 The programs for A033664, there is no canonical definition to state claims against.
@@ -6186,7 +6215,7 @@ end A033668.P1089273564987591275
 /-!
 # A033669: a(n) = n^6*(n^6 + 1)*(n^2 - 1).
 
-The programs for A033669, the canonical program `A033669.P11573085056732799068` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033669 has offset 0).
+The programs for A033669, the canonical program `A033669.P11573085056732799068` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033669 has offset 0).
 
 The definition of A033669 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^6*(n^6+1)*(n²-1)` (program `A033669.P11573085056732799068`, by `A033669.P11573085056732799068.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6195,7 +6224,7 @@ The definition of A033669 is `verified`: the Lean definition is proven equivalen
 
 `n^6*(n^6+1)*(n²-1)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033669
@@ -9844,7 +9873,7 @@ end A033690.P9280430935770168523
 /-!
 # A033691: Minimal number of vertices in 1-1 deficient regular graph where minimal degree is 1 and maximal degree is n.
 
-The programs for A033691, the canonical program `A033691.P5317964984543265291` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033691 has offset 2).
+The programs for A033691, the canonical program `A033691.P5317964984543265291` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033691 has offset 2).
 
 The definition of A033691 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9853,7 +9882,7 @@ The definition of A033691 is `conjectured`: the Lean definition is a formula tha
 
 `4*round((n+3)²/8)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033691

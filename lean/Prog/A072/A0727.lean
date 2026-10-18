@@ -26,13 +26,14 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -842,7 +843,7 @@ end A072702
 /-!
 # A072703: Indices of Fibonacci numbers whose last digit is 5.
 
-The programs for A072703, the canonical program `A072703.P6375053902830314596` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072703 has offset 1).
+The programs for A072703, the canonical program `A072703.P6375053902830314596` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072703 has offset 1).
 
 The definition of A072703 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -851,7 +852,7 @@ The definition of A072703 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `15*n-a(n-1)` with `a(0)=5`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A072703
@@ -1069,6 +1070,58 @@ namespace A072703
 /-- `∑[15-a(n-1)]` -/
 def P17486728101509036743.Spec : Prop :=
   ∀ n, P17486728101509036743.a n = A072703 (n + 1)
+
+end A072703
+
+/-! ## A072703.P13969882267666421623
+
+`∑[∑[ogf((5+5x+5x^2)/(1+x))]]`
+-/
+
+namespace A072703.P13969882267666421623
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, 5, 5] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A072703.P13969882267666421623
+
+namespace A072703
+
+/-- `∑[∑[ogf((5+5x+5x^2)/(1+x))]]` -/
+def P13969882267666421623.Spec : Prop :=
+  ∀ n, P13969882267666421623.a n = A072703 (n + 1)
+
+end A072703
+
+/-! ## A072703.P15337720770181853656
+
+`ogf((5+5x+5x^2)/(1-x-x^2+x^3))`
+-/
+
+namespace A072703.P15337720770181853656
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, 5, 5] [1, -1, -1, 1] n
+
+end
+
+end A072703.P15337720770181853656
+
+namespace A072703
+
+/-- `ogf((5+5x+5x^2)/(1-x-x^2+x^3))` -/
+def P15337720770181853656.Spec : Prop :=
+  ∀ n, P15337720770181853656.a n = A072703 (n + 1)
 
 end A072703
 
@@ -16225,7 +16278,7 @@ end A072785
 /-!
 # A072786: Differences between A072782 and A072739.
 
-The programs for A072786, the canonical program `A072786.P12697164587006630375` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072786 has offset 0).
+The programs for A072786, the canonical program `A072786.P12697164587006630375` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072786 has offset 0).
 
 The definition of A072786 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16234,7 +16287,7 @@ The definition of A072786 is `conjectured`: the Lean definition is a formula tha
 
 `abs(1-and(3, floor(sqrt(8*(n+1)))))-1`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A072786

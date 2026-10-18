@@ -15276,30 +15276,6 @@ opaque A004290 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A004290.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A004294: Expansion of (1+2*x+x^2)/(1-34*x+x^2). -/
-opaque A004294 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A004294.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A004296: Expansion of g.f. (1+2*x+x^2)/(1-50*x+x^2). -/
-opaque A004296 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A004296.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A004297: Expansion of (1+2*x+x^2)/(1-58*x+x^2). -/
-opaque A004297 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A004297.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A004298: Expansion of (1+2*x+x^2)/(1-66*x+x^2). -/
-opaque A004298 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A004298.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A004300: Number of symmetric irreducible diagrams with 2n nodes. -/
 opaque A004300 : ℕ → ℤ
 
@@ -43716,12 +43692,6 @@ opaque A011778 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A011778.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A011780: Expansion of 1/((1-2*x)^3*(1-x^2)^2). -/
-opaque A011780 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A011780.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A011784: Levine's sequence. First construct a triangle as follows. Row 1 is {1,1}; if row n is {r_1, ..., r_k} then row n+1 consists of {r_k 1's, r_{k-1} 2's, r_{k-2} 3's, etc.}; sequence consists of the final elements in each row. -/
 opaque A011784 : ℕ → ℤ
 
@@ -51342,12 +51312,6 @@ opaque A013978 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A013978.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A013987: Expansion of 1/(1-x^2-x^3-x^4-x^5-x^6-x^7-x^8-x^9-x^10). -/
-opaque A013987 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A013987.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A013988: Triangle read by rows, the inverse Bell transform of n!*binomial(5,n) (without column 0). -/
 opaque A013988 : ℕ → ℤ
 
@@ -51414,12 +51378,6 @@ opaque A014020 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A014020.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A014021: Inverse of 12th cyclotomic polynomial. -/
-opaque A014021 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A014021.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A014024: Inverse of 15th cyclotomic polynomial. -/
 opaque A014024 : ℕ → ℤ
 
@@ -51449,12 +51407,6 @@ opaque A014032 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A014032.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A014033: Inverse of 24th cyclotomic polynomial. -/
-opaque A014033 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A014033.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A014034: Inverse of 25th cyclotomic polynomial. -/
 opaque A014034 : ℕ → ℤ
@@ -51498,12 +51450,6 @@ opaque A014044 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A014044.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A014045: Inverse of 36th cyclotomic polynomial. -/
-opaque A014045 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A014045.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A014046: Second coordinate of fundamental unit of real quadratic field with discriminant A003658(n), n >= 2. -/
 opaque A014046 : ℕ → ℤ
 
@@ -51540,12 +51486,6 @@ opaque A014055 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A014055.provenance : SequenceMachineLib.Provenance := .undefined
 
-/-- A014057: Inverse of 48th cyclotomic polynomial. -/
-opaque A014057 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A014057.provenance : SequenceMachineLib.Provenance := .undefined
-
 /-- A014059: Inverse of 50th cyclotomic polynomial. -/
 opaque A014059 : ℕ → ℤ
 
@@ -51563,12 +51503,6 @@ opaque A014062 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A014062.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A014063: Inverse of 54th cyclotomic polynomial. -/
-opaque A014063 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A014063.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A014064: Coefficients of the reciprocal of the 55th cyclotomic polynomial. -/
 opaque A014064 : ℕ → ℤ
@@ -60005,4 +59939,70 @@ opaque A016332 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A016332.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016333: 138th cyclotomic polynomial. -/
+opaque A016333 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016333.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016334: 140th cyclotomic polynomial. -/
+opaque A016334 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016334.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016335: 143rd cyclotomic polynomial. -/
+opaque A016335 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016335.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016336: 145th cyclotomic polynomial. -/
+opaque A016336 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016336.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016337: 150th cyclotomic polynomial. -/
+opaque A016337 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016337.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016338: 154th cyclotomic polynomial. -/
+opaque A016338 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016338.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016339: 155th cyclotomic polynomial. -/
+opaque A016339 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016339.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016340: 156th cyclotomic polynomial. -/
+opaque A016340 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016340.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016341: 161st cyclotomic polynomial. -/
+opaque A016341 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016341.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016342: 165th cyclotomic polynomial. -/
+opaque A016342 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016342.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A016343: 168th cyclotomic polynomial. -/
+opaque A016343 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A016343.provenance : SequenceMachineLib.Provenance := .undefined
 

@@ -8,21 +8,23 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -273,7 +275,7 @@ end A100907.P9013419423028054981
 /-!
 # A100909: Concatenate number of occurrences in n of each decimal digit from 0 to 9 and drop leading zeros.
 
-The programs for A100909, the canonical program `A100909.P16284740299550590463` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100909 has offset 0).
+The programs for A100909, the canonical program `A100909.P16284740299550590463` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100909 has offset 0).
 
 The definition of A100909 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -282,7 +284,7 @@ The definition of A100909 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n, 10^(9-#)]`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A100909
@@ -1687,7 +1689,7 @@ end A100920.P1983094595279100889
 /-!
 # A100921: n appears A023416(n) times (appearances equal number of 0-bits).
 
-The programs for A100921, the canonical program `A100921.P12220981818540701352` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100921 has offset 0).
+The programs for A100921, the canonical program `A100921.P12220981818540701352` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100921 has offset 0).
 
 The definition of A100921 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1696,7 +1698,7 @@ The definition of A100921 is `conjectured`: the Lean definition is a formula tha
 
 `comp[∑[a(floor(n/2))+(n+1)%2]]-n` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A100921
@@ -3483,7 +3485,7 @@ end A100938.P8248621442306786180
 /-!
 # A100948: Irregular triangle with T(n,1) = floor(n!/3), T(n,2) = n!/2, T(n,3) = n!, read by rows.
 
-The programs for A100948, the canonical program `A100948.P14083542097415997064` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100948 has offset 2).
+The programs for A100948, the canonical program `A100948.P14083542097415997064` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100948 has offset 2).
 
 The definition of A100948 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3492,7 +3494,7 @@ The definition of A100948 is `conjectured`: the Lean definition is a formula tha
 
 `(floor(n/3)+2)*a(n-3)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A100948
@@ -8832,7 +8834,7 @@ end A100994
 /-!
 # A100995: If n is a prime power p^m, m >= 1, then m, otherwise 0.
 
-The programs for A100995, the canonical program `A100995.P9596901243079307024` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100995 has offset 1).
+The programs for A100995, the canonical program `A100995.P9596901243079307024` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100995 has offset 1).
 
 The definition of A100995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8841,7 +8843,7 @@ The definition of A100995 is `conjectured`: the Lean definition is a formula tha
 
 `round(n*∏{e}[n+1, #/n])`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A100995

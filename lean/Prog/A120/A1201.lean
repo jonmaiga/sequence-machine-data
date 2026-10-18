@@ -3,31 +3,32 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +44,6 @@ import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -1049,7 +1049,7 @@ end A120111
 /-!
 # A120112: Row sums of number triangle A120111.
 
-The programs for A120112, the canonical program `A120112.P14661727368300187479` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120112 has offset 0).
+The programs for A120112, the canonical program `A120112.P14661727368300187479` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120112 has offset 0).
 
 The definition of A120112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1058,7 +1058,7 @@ The definition of A120112 is `conjectured`: the Lean definition is a formula tha
 
 `1-A020500(n+1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A120112
@@ -1597,7 +1597,7 @@ end A120113.P2094008962097158846
 /-!
 # A120114: a(n) = lcm(1, ..., 2n+4)/lcm(1, ..., 2n+2).
 
-The programs for A120114, the canonical program `A120114.P382930504862310490` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120114 has offset 0).
+The programs for A120114, the canonical program `A120114.P382930504862310490` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120114 has offset 0).
 
 The definition of A120114 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A099996, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1606,7 +1606,7 @@ The definition of A120114 is `conditional`: the Lean definition is an OEIS formu
 
 `A099996(n+2)/A099996(n+1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A120114
@@ -10473,7 +10473,7 @@ end A120172
 /-!
 # A120173: a(n) = 4 + floor((3 + Sum_{j=1..n-1} a(j))/5).
 
-The programs for A120173, the canonical program `A120173.P5816523446729280124` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120173 has offset 1).
+The programs for A120173, the canonical program `A120173.P5816523446729280124` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120173 has offset 1).
 
 The definition of A120173 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1025 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10482,7 +10482,7 @@ The definition of A120173 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(6/5*a(n-1))]%A120164(n+1)` with `a(0)=21`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A120173

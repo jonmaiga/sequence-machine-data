@@ -10,10 +10,8 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -24,14 +22,15 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2323,7 +2322,7 @@ end A244629.P15121871970584409550
 /-!
 # A244630: a(n) = 17*n^2.
 
-The programs for A244630, the canonical program `A244630.P17246717711598176874` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244630 has offset 0).
+The programs for A244630, the canonical program `A244630.P17246717711598176874` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244630 has offset 0).
 
 The definition of A244630 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `17*n²` (program `A244630.P17246717711598176874`, by `A244630.P17246717711598176874.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2332,7 +2331,7 @@ The definition of A244630 is `verified`: the Lean definition is proven equivalen
 
 `17*n²`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244630
@@ -2350,7 +2349,7 @@ end A244630
 /-!
 # A244631: a(n) = 19*n^2.
 
-The programs for A244631, the canonical program `A244631.P16156651558373966406` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244631 has offset 0).
+The programs for A244631, the canonical program `A244631.P16156651558373966406` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244631 has offset 0).
 
 The definition of A244631 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `19*n²` (program `A244631.P16156651558373966406`, by `A244631.P16156651558373966406.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2359,7 +2358,7 @@ The definition of A244631 is `verified`: the Lean definition is proven equivalen
 
 `19*n²`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244631
@@ -2377,7 +2376,7 @@ end A244631
 /-!
 # A244632: a(n) = 23*n^2.
 
-The programs for A244632, the canonical program `A244632.P16811880726545929646` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244632 has offset 0).
+The programs for A244632, the canonical program `A244632.P16811880726545929646` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244632 has offset 0).
 
 The definition of A244632 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `23*n²` (program `A244632.P16811880726545929646`, by `A244632.P16811880726545929646.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2386,7 +2385,7 @@ The definition of A244632 is `verified`: the Lean definition is proven equivalen
 
 `23*n²`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244632
@@ -2404,7 +2403,7 @@ end A244632
 /-!
 # A244633: a(n) = 26*n^2.
 
-The programs for A244633, the canonical program `A244633.P1225735634971646048` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244633 has offset 0).
+The programs for A244633, the canonical program `A244633.P1225735634971646048` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244633 has offset 0).
 
 The definition of A244633 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `26*n²` (program `A244633.P1225735634971646048`, by `A244633.P1225735634971646048.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2413,7 +2412,7 @@ The definition of A244633 is `verified`: the Lean definition is proven equivalen
 
 `26*n²`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244633
@@ -2431,7 +2430,7 @@ end A244633
 /-!
 # A244634: a(n) = 27*n^2.
 
-The programs for A244634, the canonical program `A244634.P2988327600076018202` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244634 has offset 0).
+The programs for A244634, the canonical program `A244634.P2988327600076018202` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244634 has offset 0).
 
 The definition of A244634 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `27*n²` (program `A244634.P2988327600076018202`, by `A244634.P2988327600076018202.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2440,7 +2439,7 @@ The definition of A244634 is `verified`: the Lean definition is proven equivalen
 
 `27*n²`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244634
@@ -2458,7 +2457,7 @@ end A244634
 /-!
 # A244635: a(n) = 29*n^2.
 
-The programs for A244635, the canonical program `A244635.P2108405721463693193` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244635 has offset 0).
+The programs for A244635, the canonical program `A244635.P2108405721463693193` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244635 has offset 0).
 
 The definition of A244635 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `29*n²` (program `A244635.P2108405721463693193`, by `A244635.P2108405721463693193.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2467,7 +2466,7 @@ The definition of A244635 is `verified`: the Lean definition is proven equivalen
 
 `29*n²`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244635
@@ -2485,7 +2484,7 @@ end A244635
 /-!
 # A244636: a(n) = 30*n^2.
 
-The programs for A244636, the canonical program `A244636.P15245594885132756061` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244636 has offset 0).
+The programs for A244636, the canonical program `A244636.P15245594885132756061` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244636 has offset 0).
 
 The definition of A244636 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `30*n²` (program `A244636.P15245594885132756061`, by `A244636.P15245594885132756061.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2494,7 +2493,7 @@ The definition of A244636 is `verified`: the Lean definition is proven equivalen
 
 `30*n²`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244636
@@ -3537,7 +3536,7 @@ end A244663.P6253398859425221606
 /-!
 # A244668: Numerators of (product of divisors of n / sum of divisors of n).
 
-The programs for A244668, the canonical program `A244668.P10909773268984644874` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244668 has offset 1).
+The programs for A244668, the canonical program `A244668.P10909773268984644874` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244668 has offset 1).
 
 The definition of A244668 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5039 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3546,7 +3545,7 @@ The definition of A244668 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(∑{d}[n+1, #], ∏{d}[n+1, #])/∑{d}[n+1, #]`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244668
